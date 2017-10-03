@@ -1,0 +1,1 @@
+Microsoft Windows Communication Foundation (WCF) Línea de negocio (LOB) Adapter SDK
