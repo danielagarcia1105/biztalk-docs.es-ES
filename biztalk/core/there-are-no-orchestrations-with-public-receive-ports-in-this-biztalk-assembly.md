@@ -1,0 +1,52 @@
+---
+title: "No hay orquestaciones con público puertos de recepción en este ensamblado de BizTalk | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: fb901d49-ce3c-4bc6-806a-eb5964d32bb4
+caps.latest.revision: "7"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 8e04c10119b617ebabe07169dcae999fe60210e0
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="there-are-no-orchestrations-with-public-receive-ports-in-this-biztalk-assembly"></a><span data-ttu-id="8e509-102">No hay orquestaciones con puertos de recepción públicos en este ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="8e509-102">There are no orchestrations with public receive ports in this BizTalk assembly</span></span>
+## <a name="details"></a><span data-ttu-id="8e509-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="8e509-103">Details</span></span>  
+  
+|||  
+|-|-|  
+|<span data-ttu-id="8e509-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="8e509-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="8e509-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="8e509-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="8e509-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="8e509-106">Event ID</span></span>|<span data-ttu-id="8e509-107">0</span><span class="sxs-lookup"><span data-stu-id="8e509-107">0</span></span>|  
+|<span data-ttu-id="8e509-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="8e509-108">Event Source</span></span>|<span data-ttu-id="8e509-109">0</span><span class="sxs-lookup"><span data-stu-id="8e509-109">0</span></span>|  
+|<span data-ttu-id="8e509-110">Componente</span><span class="sxs-lookup"><span data-stu-id="8e509-110">Component</span></span>|<span data-ttu-id="8e509-111">0</span><span class="sxs-lookup"><span data-stu-id="8e509-111">0</span></span>|  
+|<span data-ttu-id="8e509-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="8e509-112">Symbolic Name</span></span>|<span data-ttu-id="8e509-113">0</span><span class="sxs-lookup"><span data-stu-id="8e509-113">0</span></span>|  
+|<span data-ttu-id="8e509-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="8e509-114">Message Text</span></span>|<span data-ttu-id="8e509-115">No hay orquestaciones con puertos de recepción públicos en este ensamblado de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="8e509-115">There are no orchestrations with public receive ports in this BizTalk assembly.</span></span> <span data-ttu-id="8e509-116">Retroceda y especifique un ensamblado de BizTalk que contenga orquestaciones con puertos de recepción públicos.</span><span class="sxs-lookup"><span data-stu-id="8e509-116">Click back and specify a BizTalk assembly containing orchestrations with public receive ports</span></span>|  
+  
+## <a name="explanation"></a><span data-ttu-id="8e509-117">Explicación</span><span class="sxs-lookup"><span data-stu-id="8e509-117">Explanation</span></span>  
+ <span data-ttu-id="8e509-118">Este error indica que la orquestación selecciona‎da no tiene un puerto público.</span><span class="sxs-lookup"><span data-stu-id="8e509-118">This error indicates the orchestration selected does not have a public port.</span></span>  
+  
+## <a name="user-action"></a><span data-ttu-id="8e509-119">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="8e509-119">User Action</span></span>  
+ <span data-ttu-id="8e509-120">Use el procedimiento siguiente para configurar un puerto público.</span><span class="sxs-lookup"><span data-stu-id="8e509-120">Use the following procedure to configure a public port.</span></span>  
+  
+#### <a name="to-configure-a-public-port"></a><span data-ttu-id="8e509-121">Para configurar un puerto público</span><span class="sxs-lookup"><span data-stu-id="8e509-121">To configure a public port</span></span>  
+  
+1.  <span data-ttu-id="8e509-122">Localice la orquestación y haga que el puerto de recepción deseado sea público.</span><span class="sxs-lookup"><span data-stu-id="8e509-122">Locate the orchestration and make the desired receive port public.</span></span>  
+  
+    1.  <span data-ttu-id="8e509-123">Abra al Asistente para configuración de puerto.</span><span class="sxs-lookup"><span data-stu-id="8e509-123">Open the Port Configuration wizard.</span></span>  
+  
+    2.  <span data-ttu-id="8e509-124">En **seleccionar un tipo de puerto**, cambiar **restricciones de acceso** de **interno** (valor predeterminado) en **público: sin límite**.</span><span class="sxs-lookup"><span data-stu-id="8e509-124">In **Select a Port Type**, change **Access Restrictions** from **Internal** (default) to **Public-no limits**.</span></span>  
+  
+2.  <span data-ttu-id="8e509-125">Vuelva a compilar el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="8e509-125">Recompile the assembly.</span></span>  
+  
+     <span data-ttu-id="8e509-126">\- O BIEN</span><span class="sxs-lookup"><span data-stu-id="8e509-126">\- OR -</span></span>  
+  
+     <span data-ttu-id="8e509-127">Cargue un ensamblado BizTalk con puertos de recepción públicos.</span><span class="sxs-lookup"><span data-stu-id="8e509-127">Load a BizTalk assembly with public receive ports.</span></span>

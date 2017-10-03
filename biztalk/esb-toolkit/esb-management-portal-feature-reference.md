@@ -1,0 +1,40 @@
+---
+title: "Referencia de características de Portal de administración de ESB | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 8470b3af-8124-401b-b80f-3dc7346fed96
+caps.latest.revision: "2"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: bdb9bd39ed46a7307d7fa6a6f57e5559a2fe46d0
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="esb-management-portal-feature-reference"></a><span data-ttu-id="aa9a5-102">Referencia de características de Portal de administración de ESB</span><span class="sxs-lookup"><span data-stu-id="aa9a5-102">ESB Management Portal Feature Reference</span></span>
+<span data-ttu-id="aa9a5-103">El Portal de administración de ESB proporciona vistas de la información de error que resulta fácil de supervisar, administrar y depurar aplicaciones de ESB.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-103">The ESB Management Portal provides views of fault information that make it easy to monitor, manage, and debug ESB applications.</span></span> <span data-ttu-id="aa9a5-104">También proporciona características que puede usar para administrar las alertas, puede publicar información UDDI y administrar el portal.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-104">It also provides features that you can use to manage alerts, publish UDDI information, and administer the portal.</span></span> <span data-ttu-id="aa9a5-105">Para abrir el portal, vaya a http://localhost/ESB.Portal/.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-105">To open the portal, go to http://localhost/ESB.Portal/.</span></span>  
+  
+ <span data-ttu-id="aa9a5-106">Las siguientes vistas están disponibles en el portal:</span><span class="sxs-lookup"><span data-stu-id="aa9a5-106">The following views are available in the portal:</span></span>  
+  
+-   <span data-ttu-id="aa9a5-107">[Página principal del portal](../esb-toolkit/portal-home-page.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-107">[Portal Home Page](../esb-toolkit/portal-home-page.md).</span></span> <span data-ttu-id="aa9a5-108">Esta página muestra el estado general de la aplicación, un resumen de errores, las solicitudes recientes para el registro UDDI y gráficos que muestren un desglose de errores por tipo y por la aplicación.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-108">This page displays the overall application state, a summary of faults, recent requests for UDDI registration, and charts that show a breakdown of faults by type and by application.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-109">[Portal de errores de página](../esb-toolkit/portal-faults-page.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-109">[Portal Faults Page](../esb-toolkit/portal-faults-page.md).</span></span> <span data-ttu-id="aa9a5-110">Esta página muestra una lista de propiedades para cada error; truncada admite el análisis de errores de una gama de criterios.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-110">This page displays a truncated list of properties for each fault; it supports analysis of faults by a range of criteria.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-111">[Visor de mensajes de error portal](../esb-toolkit/portal-fault-message-viewer.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-111">[Portal Fault Message Viewer](../esb-toolkit/portal-fault-message-viewer.md).</span></span> <span data-ttu-id="aa9a5-112">Esta página aunque es accesible sólo la página de errores de Portal.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-112">This page is accessible only though the Portal Faults page.</span></span> <span data-ttu-id="aa9a5-113">Muestra los detalles de los mensajes de error individuales y permite reparar y volver a enviar mensajes.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-113">It displays details of individual fault messages and allows you to repair and resubmit messages.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-114">[Página de alertas del portal](../esb-toolkit/portal-alerts-page.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-114">[Portal Alerts Page](../esb-toolkit/portal-alerts-page.md).</span></span> <span data-ttu-id="aa9a5-115">Esta página permite a los usuarios para crear y modificar alertas y realizar la configuración de correo electrónico de alerta.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-115">This page allows users to create and modify alerts and to configure alert email settings.</span></span> <span data-ttu-id="aa9a5-116">El portal puede enviar un mensaje de correo electrónico de alerta cuando un tipo específico de error o cualquier error, se produce.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-116">The portal can send an alert email message when a specific type of fault, or any fault, occurs.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-117">[Página informes del portal](../esb-toolkit/portal-reports-page.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-117">[Portal Reports Page](../esb-toolkit/portal-reports-page.md).</span></span> <span data-ttu-id="aa9a5-118">Esta página muestra los gráficos que indica el error, la alerta y la actividad de reenvío de mensajes desde una perspectiva de aplicación y admite el análisis del estado de los servicios individuales dentro de las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-118">This page displays charts indicating the fault, alert, and message resubmission activity from an application perspective and supports analysis of the health of the individual services within applications.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-119">[Páginas del portal de registro](../esb-toolkit/portal-registry-pages.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-119">[Portal Registry Pages](../esb-toolkit/portal-registry-pages.md).</span></span> <span data-ttu-id="aa9a5-120">Esta página permite a los usuarios publicar puntos de conexión de servicio (como ubicaciones de recepción de Microsoft BizTalk Server) para el servicio UDDI.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-120">This page allows users to publish service endpoints (such as Microsoft BizTalk Server receive locations) to the UDDI service.</span></span> <span data-ttu-id="aa9a5-121">El servicio UDDI actúa como un registro central de extremos de servicio dentro de una organización.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-121">The UDDI service acts as a central registry of service endpoints within an organization.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-122">[Páginas del portal de administración](../esb-toolkit/portal-admin-pages.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-122">[Portal Admin Pages](../esb-toolkit/portal-admin-pages.md).</span></span> <span data-ttu-id="aa9a5-123">Esta página permite a los administradores configurar el portal, ver un registro de auditoría de editado y reenviar mensajes y administrar alertas para los usuarios y grupos.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-123">This page allows administrators to configure portal settings, view an audit log of edited and resubmitted messages, and manage alerts for users and groups.</span></span>  
+  
+-   <span data-ttu-id="aa9a5-124">[Portal de mi página de configuración](../esb-toolkit/portal-my-settings-page.md).</span><span class="sxs-lookup"><span data-stu-id="aa9a5-124">[Portal My Settings Page](../esb-toolkit/portal-my-settings-page.md).</span></span> <span data-ttu-id="aa9a5-125">Esta página permite a los usuarios seleccionar los filtros de período de tiempo para el portal y la aplicación predeterminada.</span><span class="sxs-lookup"><span data-stu-id="aa9a5-125">This page allows users to select the default application and time-period filters for the portal.</span></span>

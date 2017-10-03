@@ -1,0 +1,1 @@
+<span data-ttu-id="13956-101">BizTalk Server 2002</span><span class="sxs-lookup"><span data-stu-id="13956-101">BizTalk Server 2002</span></span>
