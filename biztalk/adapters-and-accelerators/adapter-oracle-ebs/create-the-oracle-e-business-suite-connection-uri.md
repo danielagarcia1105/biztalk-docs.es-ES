@@ -1,0 +1,143 @@
+---
+title: "Crear el URI de conexión de Oracle E-Business Suite | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 91eb49fa-2a69-470b-b96d-dc3a6ffafef6
+caps.latest.revision: "23"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: b3f6e3be6604e8786ff9481ab463f27a31bf1e5b
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="create-the-oracle-e-business-suite-connection-uri"></a>Crear el URI de conexión de Oracle E-Business Suite
+El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión a Oracle E-Business Suite y esencialmente la base de datos Oracle subyacente. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] admite dos formas de conectarse a la base de datos de Oracle subyacente: mediante tnsnames.ora y sin utilizar tnsnames.ora. Según el tipo de método de conectividad, el formato del URI de conexión también es distinto. Este tema proporciona información sobre el URI de conexión de Oracle y también proporciona vínculos a otros temas que explican cómo especificar un URI en distintos escenarios de programación.  
+  
+ Oracle E-Business Suite es una capa de aplicación que se comunica con una base de datos de Oracle subyacente y se clasifica por categorías en diferentes aplicaciones, como operaciones financieras y recursos humanos, según las necesidades diferentes dentro de una organización. Cada una de estas aplicaciones proporciona diversas "formas" que permiten a los usuarios escriban datos en la base de datos de Oracle subyacente. Acceso a estos formularios está restringido mediante la asociación de los usuarios con un contexto de aplicación que incluye el identificador de la organización a la que pertenece un usuario, asociado con el usuario y el nombre de la aplicación de Oracle E-Business Suite "responsabilidad" que el usuario se desea invocar. Aunque el adaptador se conecta directamente a la base de datos subyacente y no usar formas para interactuar con Oracle E-Business Suite, establecer el contexto de la aplicación es obligatorio cuando se realizan operaciones en los artefactos de Oracle E-Business Suite. Por lo tanto, para conectarse a la Oracle E-Business suite y el subyacente de la base de datos de Oracle, usando el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], debe:  
+  
+-   Especifique un URI de conexión para conectarse a Oracle E-Business Suite y la base de datos de Oracle subyacente. Al establecer una conexión, puede elegir para especificar las credenciales para Oracle E-Business Suite o la base de datos de Oracle subyacente.  
+  
+-   Establecer el contexto de la aplicación para el usuario. La [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone algunas propiedades de enlace que aceptan las credenciales y la responsabilidad. Para obtener más información acerca de estas propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md). Para obtener más información acerca de cómo establecer el contexto de la aplicación, consulte [establecer contexto de la aplicación](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
+  
+ Esta sección proporciona información sobre cómo especificar el URI de conexión para conectarse a la base de datos subyacente mediante tnsnames.ora y sin utilizar tnsnames.ora. También proporciona información sobre cómo usar el URI de conexión para conectarse a Oracle E-Business Suite.  
+  
+## <a name="connect-using-tnsnamesora"></a>Conectarse mediante tnsnames.ora  
+  
+> [!IMPORTANT]
+>  -   En este caso, debe agregar la entrada de nombre de servicio de red en el archivo tnsnames.ora en el equipo con el cliente de adaptador instalado. Para obtener información acerca de la entrada de nombre de servicio de red, consulte [configurar el cliente de Oracle para el adaptador de E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-oracle-client-for-the-e-business-suite-adapter.md).  
+> -   Debido a una limitación del cliente de Oracle, el **DataSourceName** parámetro (nombre de servicio de red) en el URI de conexión no puede contener más de 39 caracteres si va a realizar las operaciones en una transacción. Por lo tanto, asegúrese de que el valor especificado para la **DataSourceName** parámetro es menor o igual a 39 caracteres si va a realizar las operaciones en una transacción.  
+  
+ La conexión URI puede contener un nombre de servicio de red de Oracle que se utiliza para identificar el servicio de Oracle E-Business Suite con la que desea conectarse. El cliente de Oracle resuelve el nombre de servicio de red de Oracle que se proporciona en el URI de conexión a la información de conexión para un servicio de Oracle E-Business Suite, según una jerarquía de los métodos de nomenclatura de Oracle que debe configurar para usar. Un método de nomenclatura comunes se denomina nomenclatura local. Asignar un nombre local, el cliente de Oracle usa un archivo denominado tnsnames.ora para resolver el nombre de servicio de red de Oracle.  
+  
+ Un punto de conexión típica dirección URI en [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] se representa como: `scheme://userauthparams@hostinfoparams`, donde:  
+  
+-   esquema es el nombre de esquema.  
+  
+-   userauthparams es una colección de nombre y valor de los parámetros necesarios para la autenticación de usuario por el punto de conexión.  
+  
+-   hostinfoparams es la información necesaria para establecer la conexión con el host; Por ejemplo, un nombre de servicio de red.  
+  
+ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] conexión URI se ajusta a este formato básico y se implementa como sigue:  
+  
+```  
+oracleebs://User=[USER_NAME];Password=[PASSWORD]@[NET_SERVICE_NAME]  
+```  
+  
+ La siguiente tabla explica las propiedades contenidas en el URI de conexión.  
+  
+|Propiedad URI de conexión|Categoría|Description|  
+|-----------------------------|--------------|-----------------|  
+|[NOMBREDEUSUARIO]|userauthparams|El nombre de usuario que se utilizará para la autenticación. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone un **ClientCredentialType** enlaza la propiedad que especifica el tipo de credencial de cliente de Oracle que el cliente especifica para establecer una conexión. Los valores posibles de la **ClientCredentialType** propiedad de enlace son **base de datos** y **EBusiness**. Dependiendo del valor de esta propiedad de enlace, debe especificar las credenciales pertinentes. Para obtener más información, consulte [credenciales de Oracle y el URI de conexión](#BKMK_OraCreds). **Nota:** debe establecer el **AcceptCredentialsInUri** enlazar la propiedad a **true** para especificar el nombre de usuario y la contraseña en el URI de conexión. **Nota:** la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no conserva el caso del valor que especifique para el nombre de usuario cuando se conecta a Oracle E-Business Suite. El nombre de usuario se pasa a Oracle E-Business Suite utilizando las reglas estándar de SQL * Plus. Sin embargo, si desea que el caso de que se conserve el nombre de usuario o si desea escribir un nombre de usuario que contiene caracteres especiales, debe especificar el valor entre comillas dobles.|  
+|[CONTRASEÑA]|userauthparams|La contraseña que se utilizará para la autenticación. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone un **ClientCredentialType** enlaza la propiedad que especifica el tipo de credencial de cliente de Oracle que el cliente especifica para establecer una conexión. Si el **ClientCredentialType** propiedad está establecida en **base de datos**, los clientes deben especificar la contraseña de un usuario de base de datos de Oracle. Si el **ClientCredentialType** propiedad está establecida en **EBusiness**, los clientes deben especificar la contraseña para un usuario de Oracle E-Business Suite. **Nota:** la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no conserva el caso del valor que especifique para la contraseña cuando se conecta a Oracle E-Business Suite. El nombre de usuario se pasa a Oracle E-Business Suite utilizando las reglas estándar de SQL * Plus. Sin embargo, si desea que el caso de la contraseña que se va a conservar o si desea escribir una contraseña que contiene caracteres especiales, debe especificar el valor entre comillas dobles.|  
+|[NET_SERVICE_NAME]|hostinfoparams|Un nombre de servicio de red que se especifica en el archivo tnsnames.ora en el equipo donde el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] está instalado. Para obtener información acerca de los nombres de servicio de red y tnsnames.ora, consulte [configurar el cliente de Oracle para el adaptador de E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-oracle-client-for-the-e-business-suite-adapter.md).|  
+  
+## <a name="connect-without-using-tnsnamesora"></a>Conectarse sin utilizar tnsnames.ora  
+  
+> [!IMPORTANT]
+>  -   En este caso, no necesita tener la entrada de nombre de servicio de red en el tnsnames.ora. Además, no incluso debe tener el archivo tnsnames.ora en el equipo con el cliente de adaptador instalado.  
+> -   No se admite este modo de conectividad si va a realizar las operaciones en una transacción. Esto es debido a una limitación del cliente de Oracle.  
+  
+ Un punto de conexión típica dirección URI en [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] se representa como: `scheme://userauthparams@hostinfoparams`, donde:  
+  
+-   esquema es el nombre de esquema.  
+  
+-   userauthparams es una colección de nombre y valor de los parámetros necesarios para la autenticación de usuario por el punto de conexión.  
+  
+-   hostinfoparams es la información necesaria para establecer la conexión con el host; Por ejemplo, nombre del servidor, número de puerto, etcetera.  
+  
+ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] conexión URI se ajusta a este formato básico y se implementa como sigue:  
+  
+```  
+oracleebs://User=[USER_NAME];Password=[PASSWORD]@[SERVER_NAME]:[PORT_NUMBER]/[SERVICE_NAME]/[SERVICE_TYPE]   
+```  
+  
+ La siguiente tabla explica las propiedades contenidas en el URI de conexión.  
+  
+|Propiedad URI de conexión|Categoría|Description|  
+|-----------------------------|--------------|-----------------|  
+|[NOMBREDEUSUARIO]|userauthparams|El nombre de usuario que se utilizará para la autenticación. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone un **ClientCredentialType** enlaza la propiedad que especifica el tipo de credencial de cliente de Oracle que el cliente especifica para establecer una conexión. Los valores posibles de la **ClientCredentialType** propiedad de enlace son **base de datos** y **EBusiness**. Dependiendo del valor de esta propiedad de enlace, debe especificar las credenciales pertinentes. Para obtener más información, consulte [credenciales de Oracle y el URI de conexión](#BKMK_OraCreds). **Nota:** debe establecer el **AcceptCredentialsInUri** enlazar la propiedad a **true** para especificar el nombre de usuario y la contraseña en el URI de conexión. **Nota:** la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no conserva el caso del valor que especifique para el nombre de usuario cuando se conecta a Oracle E-Business Suite. El nombre de usuario se pasa a Oracle E-Business Suite utilizando las reglas estándar de SQL * Plus. Sin embargo, si desea que el caso de que se conserve el nombre de usuario o si desea escribir un nombre de usuario que contiene caracteres especiales, debe especificar el valor entre comillas dobles.|  
+|[CONTRASEÑA]|userauthparams|La contraseña que se utilizará para la autenticación. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone un **ClientCredentialType** enlaza la propiedad que especifica el tipo de credencial de cliente de Oracle que el cliente especifica para establecer una conexión. Si el **ClientCredentialType** propiedad está establecida en **base de datos**, los clientes deben especificar la contraseña de un usuario de base de datos de Oracle. Si el **ClientCredentialType** propiedad está establecida en **EBusiness**, los clientes deben especificar la contraseña para un usuario de Oracle E-Business Suite. **Nota:** la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no conserva el caso del valor que especifique para la contraseña cuando se conecta a Oracle E-Business Suite. El nombre de usuario se pasa a Oracle E-Business Suite utilizando las reglas estándar de SQL * Plus. Sin embargo, si desea que el caso de la contraseña que se va a conservar o si desea escribir una contraseña que contiene caracteres especiales, debe especificar el valor entre comillas dobles.|  
+|[NOMBREDESERVIDOR]|hostinfoparams|Nombre del servidor en el que está ejecutando Oracle E-Business Suite. Esto es obligatorio.|  
+|[PORT_NUMBER]|hostinfoparams|El puerto de escucha de red de Oracle. El valor predeterminado 1521.|  
+|[SERVICE_NAME]|hostinfoparams|El nombre de servicio de base de datos de Oracle. Esto es obligatorio.|  
+|[SERVICE_TYPE]|hostinfoparams|El tipo de servicio de Oracle. Los valores posibles son **dedicado** o **Shared**. Un servicio dedicado utiliza un proceso de servidor dedicado para atender el proceso de un solo usuario. Un servicio compartido que utiliza un proceso de servidor compartido que puede atender varios procesos de usuario. Valor predeterminado es **dedicado**.|  
+  
+##  <a name="BKMK_OraCreds"></a>Las credenciales de Oracle y el URI de conexión  
+ De forma predeterminada, la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] produce una excepción cuando se especifican las credenciales de Oracle en el URI de conexión. Esto es porque estas credenciales se representan como texto sin formato en el URI de conexión, y esto supone un riesgo de seguridad. Puede establecer la **AcceptCredentialsInUri** propiedad de enlace para controlar si el URI de conexión puede contener las credenciales para la base de datos de Oracle. Si el **AcceptCredentialsInUri** propiedad es **false**, que es el valor predeterminado, el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] produce una excepción si el URI de conexión contiene credenciales de Oracle; si la propiedad es **true**, se inicia ninguna excepción.  
+  
+> [!IMPORTANT]
+>  Debido a los riesgos de seguridad asociados al pasar las credenciales en las cadenas como texto sin formato, no debe especificar las credenciales de conexión de base de datos de Oracle en el URI de conexión. Para obtener más información acerca de cómo proporcionar de forma más segura credenciales para la base de datos de Oracle, vea [proteger sus aplicaciones de Oracle EBS](../../adapters-and-accelerators/adapter-oracle-ebs/secure-your-oracle-ebs-applications.md).  
+  
+ También puede especificar las credenciales de la base de datos o las credenciales de Oracle E-Business Suite para establecer una conexión a Oracle E-Business Suite. El adaptador expone tres propiedades de enlace para habilitar este comportamiento: **ClientCredentialType**, **OracleUserName**, **OraclePassword**.  
+  
+ Los valores posibles de la **ClientCredentialType** propiedad de enlace son **base de datos** y **EBusiness**.  
+  
+-   Si el **ClientCredentialType** propiedad está establecida en **base de datos**, los clientes deben especificar las credenciales de la base de datos.  
+  
+-   Si el **ClientCredentialType** propiedad está establecida en **EBusiness**, los clientes deben especificar las credenciales de Oracle E-Business Suite. En este caso, los clientes de adaptador también deben especificar las credenciales de base de datos para la **OracleUserName** y **OraclePassword** propiedades de enlace.  
+  
+> [!IMPORTANT]
+>  En escenarios donde los clientes de adaptador especifican las credenciales de base de datos para conectarse a Oracle E-Business Suite estableciendo la **ClientCredentialType** enlazar la propiedad a **base de datos**, pero la invocación de Oracle Artefacto de E-Business Suite, los valores especificados para **OracleUserName** y **OraclePassword** propiedades de enlace se usan para establecer el contexto de la aplicación. Establecer el contexto de la aplicación es obligatorio para invocar artefactos en Oracle E-Business Suite. Para obtener más información acerca de cómo establecer el contexto de la aplicación, consulte [establecer contexto de la aplicación](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
+  
+## <a name="using-reserved-characters-in-the-connection-uri"></a>Utilizar caracteres reservados en el URI de conexión  
+ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no admite la especificación de un URI que incluye caracteres especiales para cualquiera de los valores de parámetros de conexión. Si los valores de parámetro de conexión contienen caracteres especiales, asegúrese de que se realice una de las siguientes acciones:  
+  
+-   Si se especifica el URI en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] con [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] o [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], debe especificarlos tal-está en la **propiedades de URI** pestaña, es decir, sin usar cualquier carácter de escape. Si especifica el URI directamente en el **configurar un URI** campo y los parámetros de conexión contienen caracteres reservados, debe especificar los parámetros de conexión con caracteres de escape adecuados.  
+  
+-   Si se especifica el URI al crear un envío o recepción puerto en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración y los parámetros de conexión contienen caracteres reservados, debe especificar los parámetros de conexión con caracteres de escape adecuados.  
+  
+## <a name="using-the-connection-uri-to-connect-to-oracle-e-business-suite"></a>Usar el URI de conexión para conectarse a Oracle E-Business Suite  
+ El siguiente es un ejemplo de un URI de conexión para [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] con tnsnames.ora.  
+  
+```  
+oracleebs://ADAPTER  
+```  
+  
+ En este ejemplo, el adaptador es un nombre de servicio de red que está asociado con la información de conexión y el nombre del servicio de la base de datos de Oracle de destino en tnsnames.ora.  
+  
+ El siguiente es un ejemplo de un URI de conexión para [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] sin usar tnsnames.ora.  
+  
+```  
+oracleebs://yourOracleServer:1521/yourOracleDatabaseServiceName/Dedicated  
+```  
+  
+ En este ejemplo, el nombre del servidor es "yourOracleServer" y el nombre del servicio es "yourOracleDatabaseServiceName".  
+  
+ Para obtener información acerca de cómo establecer una conexión a Oracle E-Business Suite al que:  
+  
+-   Use la [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] o [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)], consulte [conectarse a Oracle E-Business Suite en Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md).  
+  
+-   Configurar un puerto de envío o recepción (ubicación) del puerto en un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solución, consulte [configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business](../../adapters-and-accelerators/adapter-oracle-ebs/manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter.md).  
+  
+## <a name="see-also"></a>Vea también  
+ [Configurar al cliente de Oracle para el adaptador de E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-oracle-client-for-the-e-business-suite-adapter.md)   
+ [Conectarse a Oracle E-Business Suite mediante la autenticación de Windows](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-oracle-e-business-suite-using-windows-authentication.md)  
+ [Crear una conexión a Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-connection-to-oracle-e-business-suite.md)

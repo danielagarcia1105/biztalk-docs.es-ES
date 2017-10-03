@@ -1,0 +1,97 @@
+---
+title: "Configurar SharePoint servicios de ubicación de recepción | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 9afed0e4-0f72-4df4-a2cb-d999c6fbbc86
+caps.latest.revision: "5"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 807f13611b7e8977e0d5067787717427efc4bed2
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="configure-sharepoint-services-receive-location"></a>Configurar una ubicación de recepción de SharePoint Services
+Este tema muestra los pasos necesarios para crear una ubicación de recepción de [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)].  
+  
+## <a name="create-a-receive-location"></a>Crear una ubicación de recepción  
+ Cuando cree una ubicación de recepción, esta usará el Controlador de recepción predeterminado asociado al Tipo de transporte. Cuando se usa el [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adaptador, el controlador de recepción predeterminado es **BizTalkServerApplication**. Para que conocer los pasos agregar un nuevo controlador de recepción, vaya a [cómo crear un controlador de adaptador](http://go.microsoft.com/fwlink/p/?LinkId=263646).  
+  
+ Crear la ubicación de recepción:  
+  
+1.  En el **administración de BizTalk Server** de la consola, expanda  **grupo de BizTalk [*GroupName*] **, expanda **aplicaciones**y, a continuación, expanda la aplicación para que contenga la ubicación de recepción.  
+  
+2.  Crear un **unidireccional puerto de recepción**. [Cómo crear un puerto de recepción](../core/how-to-create-a-receive-port.md) se enumeran los pasos.  
+  
+    > [!IMPORTANT]
+    >  A **solicitar ubicación de recepción de solicitud-respuesta** no es configurable con el [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adaptador.  
+  
+     Entre las opciones de configuración adicionales del puerto de recepción se incluyen:  
+  
+     [Cómo agregar una ubicación de recepción a un puerto de recepción](../core/how-to-add-a-receive-location-to-a-receive-port.md): se agrega una ubicación de recepción en el paso siguiente.  
+  
+     [Cómo configurar asignaciones de entrada para un puerto de recepción](../core/how-to-configure-inbound-maps-for-a-receive-port.md)  
+  
+     [Cómo configurar el seguimiento de un puerto de recepción](../core/how-to-configure-tracking-for-a-receive-port.md)  
+  
+3.  Haga clic en **Aceptar** para guardar la configuración.  
+  
+4.  Haga clic en **ubicaciones de recepción**, haga clic en **New**y, a continuación, haga clic en **ubicación de recepción unidireccional**.  
+  
+    > [!IMPORTANT]
+    >  A **solicitar ubicación de recepción de solicitud-respuesta** no es configurable con el [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adaptador.  
+  
+5.  Seleccione el puerto de recepción y, a continuación, haga clic en **Aceptar**.  
+  
+6.  En **propiedades**, escriba la **nombre** y **canalización** propiedades. En el **tipo** la lista desplegable, haga clic en **Windows SharePoint Services** y seleccione la **controlador de recepción** propiedad.  
+  
+7.  Haga clic en **configurar**. En **propiedades**, configure lo siguiente:  
+  
+    |||  
+    |-|-|  
+    |Puerto del servicio Web del adaptador|**Requiere**. Puerto configurado en el sitio web de IIS que hospeda el servicio web de adaptador de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)].<br /><br /> Puerto predeterminado es **80**, que es el puerto HTTP estándar. Actualice este valor si utiliza un puerto distinto del 80.|  
+    |Timeout|**Requiere**. En milisegundos, este valor determina el tiempo transcurrido cuando el adaptador recibe una respuesta del servicio web.<br /><br /> Valor predeterminado es **100000 ms** (100 segundos).<br /><br /> Aumente este valor si el tamaño del lote o el mensaje es mayor de lo esperado.|  
+    |Utilizar modelo de objetos del cliente|**Requiere**. Determina si se utiliza el modelo de objetos del cliente de SharePoint (CSOM) o el modelo de objetos del servicio (SSOM).<br /><br /> Valor predeterminado es **Sí**. Establecido en **Sí** para utilizar el CSOM de SharePoint en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No hay ningún requisito para el equipo de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)].<br /><br /> Establecido en **No** utilizar el SSOM de SharePoint que incluye el servicio web instalado en el [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] equipo.<br /><br /> [Apéndice B: instalar el adaptador de SharePoint de Microsoft](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) proporciona información específica acerca de los componentes SSOM y CSOM utilizados por el [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] adaptador.|  
+    |Nombre del archivo|**Opcional**. Los servicios web de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] pueden archivar documentos desde una biblioteca de SharePoint. Escriba el nombre del fichero archivado.<br /><br /> Escriba un nombre de archivo, como **Pedido0001.XML** o una expresión. Las expresiones incluyen cualquier combinación de valores literales, macros y consultas XPATH. Por ejemplo, "Pedido-%XPATH=//pd:IdPedido%-%IdMensaje%.xml". Cuando no se proporciona ningún nombre de archivo, se utiliza el nombre de archivo del archivo de origen. Vea [expresiones del adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-expressions.md) para obtener más información. **Nota:** el "% SendingOrchestrationID %" y "% SendingOrchestrationType %" macros no son compatibles con este campo.|  
+    |Dirección URL de ubicación de archivado|**Opcional**. Dirección URL de la carpeta de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] en la que se van a almacenarlos documentos archivados. Escriba una ruta de acceso relativa al sitio de SharePoint. Por ejemplo, **archivo** o **compartido documentos/pedidos procesados /**. Si no se especifica ninguna ubicación de archivado, el documento se eliminará tras haber sido procesado por el adaptador. **Nota:** la URL de carpeta o biblioteca de documentos de SharePoint puede ser diferente de su nombre. Compruebe la dirección en el explorador web para obtener la dirección URL correcta.|  
+    |Sobrescribir archivo|**Requiere**. Especifica si se van a sobrescribir los archivos existentes.<br /><br /> Valor predeterminado es **n**, lo que produce un error en el archivo si existe un archivo con el mismo nombre en el archivo. En este escenario, el archivo se desprotegerá y deberá archivarse de forma manual. **Nota:** al archivar ficheros, use valores de nombre del archivo con macros de nombre de archivo es único. Por ejemplo, utilice un nombre de archivado como  **PO-%MessageID%.XML o PO-%XPATH=//ns0:PurchaseOrder/ns0:*identificador*%.xml**, donde Id. es el identificador de pedido de compra único.|  
+    |Tamaño del lote|**Requiere**. Número máximo de documentos procesados por el servicio como lote. Un lote procesado puede contener menos mensajes que el tamaño de lote definido. No contiene más mensajes.<br /><br /> Valor predeterminado es **20** y debe tener al menos un valor de **1**.|  
+    |Error de umbral|**Requiere**. El número máximo de errores de sondeo consecutivos por el adaptador hasta que se deshabilite la ubicación de recepción.<br /><br /> Valor predeterminado es **10**. Para detener la ubicación de recepción de estar habilitada, establezca esta propiedad en **0**.|  
+    |Alias de espacios de nombres|**Opcional**. Lista separada por comas o punto y coma de definiciones de alias de espacios de nombres.<br /><br /> Utilice este campo para definir los alias de espacio de nombres utilizados en las consultas XPATH que se han introducido en el campo Nombre del arriba mencionado. Por ejemplo, escriba **po = 'http://OrderProcess/POrder', conf = 'http://OrderProcess/Confirmation' ipsol = '{D8217CF1-4EF7-4bb5-A30D-765ECB09E0D9}'**.|  
+    |Intervalo de sondeo|**Requiere**. Tiempo en segundos entre las dos consultas consecutivas ejecutadas por el adaptador a la espera de nuevos mensajes.<br /><br /> Valor predeterminado es **60** y debe tener al menos un valor de **1**. **Nota:** para mejorar el tiempo de respuesta y el rendimiento del adaptador, escriba un valor inferior.|  
+    |Dirección URL del sitio de SharePoint|**Opcional**. Dirección URL completa del sitio web de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)]. Por ejemplo, http:// *SharePointServer*  /sites/TestSite. **Nota:** ubicación de recepción o puerto de envío de un URI no puede superar los 256 caracteres.|  
+    |Dirección URL de la biblioteca de documentos de origen|**Opcional**. Dirección URL relativa de la biblioteca de documentos de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] en la que se recuperan los documentos. Por ejemplo, **/documentos /** o **pedidos nuevos /**. **Nota:** la biblioteca de documentos de SharePoint puede ser diferente de su nombre. Compruebe la dirección en el explorador web para obtener la dirección URL correcta.|  
+    |Nombre de vista|**Opcional**. el [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] vista utilizada para filtrar los documentos procesados por el adaptador. Por ejemplo, **pedidos aprobados**.<br /><br /> Para procesar todos los documentos existentes en la biblioteca de documentos de origen, deje este campo en blanco. El adaptador no procesará las carpetas que aparecen en una vista, ni los mensajes de dichas carpetas. Cree vistas planas que muestren todos los documentos en una estructura plana, incluidos los documentos de las subcarpetas.|  
+    |Integración con Microsoft Office|**Requiere**. Para mensajes binarios, se deben usar los valores “No” y “Opcional”.<br /><br /> Valor predeterminado es **opcional**.<br /><br /> Las opciones son:<br /><br /> -   **Ya no**: procesa el documento "tal cual". Puede usar esta opción para los mensajes binarios.<br />-   **Opcional**: intenta quitar las instrucciones de procesamiento de InfoPath. Si no se quitan las instrucciones de procesamiento, el documento se procesa “tal como está”. Puede usar esta opción para los mensajes binarios.<br />-   **Sí**: instrucciones de procesamiento de InfoPath quita. Si se produce un error, el mensaje se omitirá.|  
+    |Contraseña de SharePoint Online|**Opcional**. Contraseña de la cuenta de SharePoint Online.|  
+    |Nombre de usuario de SharePoint Online|**Opcional**. Nombre de usuario de la cuenta de SharePoint Online.|  
+  
+8.  Haga clic en **Aceptar** guardar la configuración.  
+  
+9. Entre las opciones de configuración adicionales de ubicación de recepción se incluyen:  
+  
+     [Cómo configurar la programación de una ubicación de recepción](../core/how-to-configure-scheduling-for-a-receive-location.md)  
+  
+10. Haga clic en **Aceptar** guardar la configuración.  
+  
+ Temas adicionales de puerto de recepción y ubicación de recepción:  
+  
+ [Administrar puertos de recepción](../core/managing-receive-ports.md)  
+  
+ [Administrar ubicaciones de recepción](../core/managing-receive-locations.md)  
+  
+ A continuación, cree un puerto de envío de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)]:  
+  
+ [Configurar el puerto de envío de SharePoint Services](../core/configure-sharepoint-services-send-port.md)  
+  
+## <a name="see-also"></a>Vea también  
+ [Configurar el puerto de envío de SharePoint Services](../core/configure-sharepoint-services-send-port.md)   
+ [Solución de problemas de adaptador de SharePoint Services](../core/troubleshooting-sharepoint-services-adapter.md)   
+ [CSOM: Adaptador de servicios de SharePoint](../core/csom-sharepoint-services-adapter.md)

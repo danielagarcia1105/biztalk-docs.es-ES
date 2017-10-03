@@ -1,0 +1,51 @@
+---
+title: "Cómo recorrer en iteración ArrayList en reglas de negocios | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- Business Rules Framework, ArrayList
+- business rules, arrays
+- Business Rules Framework, programming
+ms.assetid: 935e8648-72dc-4128-986c-72b0487bc074
+caps.latest.revision: "5"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 95896b63e5bb982a4778b05970900c989ebc66b1
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-iterate-arraylist-in-business-rules"></a>Cómo recorrer en iteración ArrayList en reglas de negocios
+Esta sección proporciona un ejemplo de cómo recorrer en iteración los miembros de un **ArrayList** en reglas de negocios.  
+  
+ Suponga que tiene un **ArrayList** con una colección de **MyClass** objetos. Las reglas de negocio tendrían el siguiente aspecto.  
+  
+## <a name="rule-a"></a>Regla A  
+ IF 1==1  
+  
+ THEN Assert (ArrayList.GetEnumerator)  
+  
+ Un **IEnumerator** tipo se impone en la memoria de trabajo, porque la condición de regla (1 == 1) siempre se evalúa como true.  
+  
+## <a name="rule-b"></a>Regla B  
+ IF IEnumerator.MoveNext  
+  
+ THEN    Assert (IEnumerator.get_Current)  
+  
+ Update (IEnumerator)  
+  
+ Como la regla recorre en iteración la **ArrayList**, cada **MyClass** objeto en la colección se agrega a la memoria de trabajo.  
+  
+## <a name="rule-c"></a>Regla C  
+ IF MyClass.MyProperty==2  
+  
+ A continuación, \<hacer algo... >  
+  
+ Esta regla ejecuta una acción (o acciones) cuando el valor de propiedad del objeto coincide con la condición.

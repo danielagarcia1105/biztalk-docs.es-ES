@@ -1,0 +1,46 @@
+---
+title: "Cómo establecer las canalizaciones de JD Edwards OneWorld | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- receive pipelines
+- send pipelines
+- setting pipelines
+- pipelines, setting
+ms.assetid: 821d4081-a2d4-4957-abc0-d6370e719ba8
+caps.latest.revision: "9"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: e45ec6f6eb3be74e150e77de9ef6dbbe461a361a
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-set-jd-edwards-oneworld-pipelines"></a>Establecimiento de canalizaciones de JD Edwards OneWorld
+Microsoft BizTalk Adapter para JD Edwards OneWorld necesita que seleccione XMLTransmit y XMLReceive para las canalizaciones de envío y recepción respectivamente.  
+  
+### <a name="to-set-pipelines"></a>Para establecer las canalizaciones  
+  
+1.  En el **iniciar** menú, elija **archivos de programa**, seleccione **Microsoft BizTalk Server** y, a continuación, haga clic en **administración de BizTalk Server** Para iniciar la consola de administración de BizTalk Server.  
+  
+2.  Expanda Administración de BizTalk Server, **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda la aplicación deseada.  
+  
+3.  Seleccione **puertos de envío**. En el panel de detalles, haga clic en el puerto de envío seleccionado y haga clic en **propiedades**.  
+  
+4.  En el **propiedades de puertos de envío** diálogo cuadro, realice lo siguiente:  
+  
+    1.  Seleccione la canalización de envío de la **canalización de envío** lista desplegable.  
+  
+    2.  Seleccione la canalización de recepción de la **canalización de recepción** lista desplegable.  
+  
+5.  Haga clic en **Aceptar**.  
+  
+## <a name="see-also"></a>Vea también  
+ [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)

@@ -1,0 +1,73 @@
+---
+title: Aprobar un mensaje | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- messages, approving
+- approving messages
+ms.assetid: e6abfef3-aab2-470e-a7a7-a6d091ffba53
+caps.latest.revision: "5"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 0b5b77ca46be2e6a3fb4c882947eb47829f591ed
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="approving-a-message"></a>Aprobación de un mensaje
+En esta sección se describe cómo aprobar un mensaje que se ha reparado y comprobado.  
+  
+### <a name="to-approve-a-message"></a>Para aprobar un mensaje  
+  
+1.  En Internet Explorer, abra el sitio MRSR en http://localhost/sites/bassite.  
+  
+2.  En la ventana principal, haga clic en **documentos**.  
+  
+3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*> _Approver **.  
+  
+4.  En el \<nombre de departamento > _Approver ventana, haga clic en **Bandeja de entrada**.  
+  
+5.  En la ventana de la Bandeja de entrada, seleccione el título del mensaje, haga clic en la flecha situada a la derecha del título del mensaje y, a continuación, haga clic en **editar en Microsoft Office InfoPath**.  
+  
+6.  En el panel de Acelerador de SWIFT de la [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 ventana, haga clic en **errores**. Revise cualquier error que se muestra en el **Parse y errores de validación XML** cuadro, el **errores de validación de BRE** cuadro y el **errores en tiempo de ejecución** cuadro.  
+  
+7.  En el [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forman, desplácese a la ubicación del error y compruebe que se ha corregido el error. Puede ver ¿cuál fue el error original, haga clic en **errores** en la función actual: aprobar panel y ver el error en uno de los paneles de error. También puede comparar las versiones sin reparar y reparadas del mensaje, haga clic en **detalles del mensaje** en la función actual: aprobar el panel.  
+  
+8.  Para asegurarse de que el mensaje se validará, haga clic en **validación** en la función actual: aprobar panel y, a continuación, haga clic en **mensaje Validate**. Compruebe que el panel de resultados muestra el mensaje **el mensaje es válido**.  
+  
+9. Si aprueban los cambios que se realizaron en el documento, en la [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 ventana, haga clic en **enviar**.  
+  
+    > [!NOTE]
+    >  Al hacer clic en **enviar**, [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] realiza la validación XML en el mensaje. Si la validación no se realiza correctamente, debe corregir los errores de validación antes de continuar.  
+  
+10. En el cuadro de diálogo Enviar mensaje, haga clic en **Accept** para enviar el mensaje aprobado con cambios aceptados. Haga clic en **rechazar** para enviar el mensaje con los cambios rechazados. Haga clic en **cancelar** cancelar el envío y volver al formulario.  
+  
+    > [!NOTE]
+    >  Si acepta los cambios en el mensaje, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] realiza comprobaciones de BRE en el mensaje.  
+  
+    > [!NOTE]
+    >  Si se rechazan los cambios en el mensaje, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] devuelve el mensaje a la primera fase del flujo de trabajo (crear o reparar) y restablece el flujo de trabajo de reparación.  
+  
+11. En la página Asistente para firmas digitales para seleccionar el certificado para firmar el formulario, seleccione el certificado que desea utilizar para firmar el formulario (es decir, el certificado que ha creado para el aprobador). Haga clic en **Ver certificado** si desea comprobar que se usa la firma correcta. Haga clic en **Siguiente**.  
+  
+    > [!NOTE]
+    >  Para comprobar la validez de una firma digital, haga clic en **firmas digitales** en el **herramientas** menú, haga clic en la firma digital que se desea comprobar y, a continuación, haga clic en **Ver formulario firmado**. También puede ver qué roles han iniciado previamente la forma (un formulario puede estar solo firmado por una persona una vez por cada flujo de trabajo), haga clic en **firmas digitales** en el **herramientas** menú. Si necesita agregar otra firma para este rol, puede hacerlo en el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] consola de administración.  
+  
+12. En la página Asistente para firmas digitales para escribir comentarios, haga clic en **finalizar**.  
+  
+13. En la página Asistente para firmas digitales para comprobar el formulario, compruebe que el mensaje que se va a iniciar sesión es correcto. Haga clic en **Ver certificado** si desea comprobar que se usa la firma correcta. Haga clic en **he comprobado el contenido antes de la firma**y, a continuación, haga clic en **inicio de sesión**.  
+  
+14. En la ventana de comprobar la firma Digital, haga clic en **cerrar**.  
+  
+15. En el cuadro de diálogo de éxito de envío, haga clic en **Aceptar**.  
+  
+16. Cerrar la [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] ventana.  
+  
+17. En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, abra la carpeta que configuró para recibir mensajes enviados. Compruebe que la carpeta contiene el mensaje aprobado. Abra el mensaje en un editor de texto para comprobar que el mensaje se ha reparado.
