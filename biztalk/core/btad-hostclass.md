@@ -19,17 +19,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="btadhostclass"></a>BTAD_HostClass
-BTAD_HostClass indica si la operación que se realiza en la base de datos de administración de BizTalk o en el equipo local.  
+# <a name="btadhostclass"></a><span data-ttu-id="c97af-102">BTAD_HostClass</span><span class="sxs-lookup"><span data-stu-id="c97af-102">BTAD_HostClass</span></span>
+<span data-ttu-id="c97af-103">BTAD_HostClass indica si la operación que se realiza en la base de datos de administración de BizTalk o en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="c97af-103">BTAD_HostClass indicates whether the operation is being performed on the BizTalk Management database or the local computer.</span></span>  
   
-## <a name="remarks"></a>Comentarios  
- En la siguiente tabla se describen los posibles valores para BTAD_HostClass.  
+## <a name="remarks"></a><span data-ttu-id="c97af-104">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c97af-104">Remarks</span></span>  
+ <span data-ttu-id="c97af-105">En la siguiente tabla se describen los posibles valores para BTAD_HostClass.</span><span class="sxs-lookup"><span data-stu-id="c97af-105">The following table describes the possible values for BTAD_HostClass.</span></span>  
   
-|Value|Description|  
+|<span data-ttu-id="c97af-106">Value</span><span class="sxs-lookup"><span data-stu-id="c97af-106">Value</span></span>|<span data-ttu-id="c97af-107">Description</span><span class="sxs-lookup"><span data-stu-id="c97af-107">Description</span></span>|  
 |-----------|-----------------|  
-|ConfigurationDb|Especifica que la operación de importación se realiza en la base de datos de administración de BizTalk del grupo.|  
-|BizTalkHostInstance|Especifica que la operación de instalación o desinstalación se realiza en el equipo local.|  
+|<span data-ttu-id="c97af-108">ConfigurationDb</span><span class="sxs-lookup"><span data-stu-id="c97af-108">ConfigurationDb</span></span>|<span data-ttu-id="c97af-109">Especifica que la operación de importación se realiza en la base de datos de administración de BizTalk del grupo.</span><span class="sxs-lookup"><span data-stu-id="c97af-109">Specifies that the import operation is being performed on the BizTalk Management database for the group</span></span>|  
+|<span data-ttu-id="c97af-110">BizTalkHostInstance</span><span class="sxs-lookup"><span data-stu-id="c97af-110">BizTalkHostInstance</span></span>|<span data-ttu-id="c97af-111">Especifica que la operación de instalación o desinstalación se realiza en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="c97af-111">Specifies that the install or uninstall operation is being performed on the local computer</span></span>|  
   
-## <a name="see-also"></a>Vea también  
- [Variables de entorno de secuencia de comandos previas y posteriores al procesamiento](../core/pre-and-post-processing-script-environment-variables.md)   
- [Cómo las Variables de entorno indican el estado de implementación](../core/how-environment-variables-indicate-deployment-state.md)
+## <a name="see-also"></a><span data-ttu-id="c97af-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="c97af-112">See Also</span></span>  
+ <span data-ttu-id="c97af-113">[Variables de entorno de secuencia de comandos previas y posteriores al procesamiento](../core/pre-and-post-processing-script-environment-variables.md) </span><span class="sxs-lookup"><span data-stu-id="c97af-113">[Pre- and Post-processing Script Environment Variables](../core/pre-and-post-processing-script-environment-variables.md) </span></span>  
+ [<span data-ttu-id="c97af-114">Cómo las Variables de entorno indican el estado de implementación</span><span class="sxs-lookup"><span data-stu-id="c97af-114">How Environment Variables Indicate Deployment State</span></span>](../core/how-environment-variables-indicate-deployment-state.md)

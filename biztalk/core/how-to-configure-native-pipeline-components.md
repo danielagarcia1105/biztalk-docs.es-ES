@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-native-pipeline-components"></a>Cómo configurar componentes de canalización nativos
-El código siguiente muestra cómo configurar componentes de canalización nativos mediante la interfaz `IPersistPropertyBag`.  
+# <a name="how-to-configure-native-pipeline-components"></a><span data-ttu-id="315c7-102">Cómo configurar componentes de canalización nativos</span><span class="sxs-lookup"><span data-stu-id="315c7-102">How to Configure Native Pipeline Components</span></span>
+<span data-ttu-id="315c7-103">El código siguiente muestra cómo configurar componentes de canalización nativos mediante la interfaz `IPersistPropertyBag`.</span><span class="sxs-lookup"><span data-stu-id="315c7-103">The following code shows how to configure native pipeline components using the `IPersistPropertyBag` interface.</span></span>  
   
 ```  
     [ComponentCategory(CategoryTypes.CATID_PipelineComponent)]  

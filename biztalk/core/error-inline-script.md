@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---inline-script"></a>Error - Script en línea
-**Código de error**  
+# <a name="error---inline-script"></a><span data-ttu-id="07ff3-102">Error - Script en línea</span><span class="sxs-lookup"><span data-stu-id="07ff3-102">Error - Inline Script</span></span>
+<span data-ttu-id="07ff3-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="07ff3-103">**Error Code**</span></span>  
   
- btm1021  
+ <span data-ttu-id="07ff3-104">btm1021</span><span class="sxs-lookup"><span data-stu-id="07ff3-104">btm1021</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="07ff3-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="07ff3-105">**Explanation**</span></span>  
   
- El script en línea proporcionado para el functoid **secuencias de comandos** functoid contiene un error de sintaxis.  
+ <span data-ttu-id="07ff3-106">El script en línea proporcionado para el functoid **secuencias de comandos** functoid contiene un error de sintaxis.</span><span class="sxs-lookup"><span data-stu-id="07ff3-106">The inline script provided for the indicated **Scripting** functoid contains a syntax error.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="07ff3-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="07ff3-107">**User Action**</span></span>  
   
- Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **Script** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en el **Configurar secuencia de comandos de Functoid** cuadro de diálogo, correcta las errores de sintaxis.
+ <span data-ttu-id="07ff3-108">Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **Script** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en el **Configurar secuencia de comandos de Functoid** cuadro de diálogo, correcta las errores de sintaxis.</span><span class="sxs-lookup"><span data-stu-id="07ff3-108">Select the indicated **Scripting** functoid, click the ellipsis (**...**) button associated with the **Script** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then in the **Configure Functoid Script** dialog box, correct the syntax error(s).</span></span>

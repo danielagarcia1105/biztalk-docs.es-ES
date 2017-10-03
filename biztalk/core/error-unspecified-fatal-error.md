@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---unspecified-fatal-error"></a>Error: Error grave no especificado
-**Código de error**  
+# <a name="error---unspecified-fatal-error"></a><span data-ttu-id="0432e-102">Error: Error grave no especificado</span><span class="sxs-lookup"><span data-stu-id="0432e-102">Error - Unspecified Fatal Error</span></span>
+<span data-ttu-id="0432e-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="0432e-103">**Error Code**</span></span>  
   
- BEC1001, BEC2004, BEC3001  
+ <span data-ttu-id="0432e-104">BEC1001, BEC2004, BEC3001</span><span class="sxs-lookup"><span data-stu-id="0432e-104">BEC1001, BEC2004, BEC3001</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="0432e-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="0432e-105">**Explanation**</span></span>  
   
- Se ha producido un error grave no especificado durante la compilación del esquema.  
+ <span data-ttu-id="0432e-106">Se ha producido un error grave no especificado durante la compilación del esquema.</span><span class="sxs-lookup"><span data-stu-id="0432e-106">An unspecified fatal error has occurred during schema compilation.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="0432e-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="0432e-107">**User Action**</span></span>  
   
- Asegúrese de que el archivo de esquema es válido y no está dañado.
+ <span data-ttu-id="0432e-108">Asegúrese de que el archivo de esquema es válido y no está dañado.</span><span class="sxs-lookup"><span data-stu-id="0432e-108">Make sure the schema file is valid and not corrupted.</span></span>

@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---failed-write-xslt-file"></a>Error: no se pudo escribir el archivo XSLT
-**Código de error**  
+# <a name="error---failed-write-xslt-file"></a><span data-ttu-id="de751-102">Error: no se pudo escribir el archivo XSLT</span><span class="sxs-lookup"><span data-stu-id="de751-102">Error - Failed Write XSLT File</span></span>
+<span data-ttu-id="de751-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="de751-103">**Error Code**</span></span>  
   
- btm1056  
+ <span data-ttu-id="de751-104">btm1056</span><span class="sxs-lookup"><span data-stu-id="de751-104">btm1056</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="de751-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="de751-105">**Explanation**</span></span>  
   
- El error indicado se genera al intentar escribir el XSLT que produjo esta asignación en el archivo indicado.  
+ <span data-ttu-id="de751-106">El error indicado se genera al intentar escribir el XSLT que produjo esta asignación en el archivo indicado.</span><span class="sxs-lookup"><span data-stu-id="de751-106">The indicated error was encountered when attempting to write the XSLT produced by this map to the indicated file.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="de751-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="de751-107">**User Action**</span></span>  
   
- En función del error indicado, realice la acción apropiada para corregir la causa del error. Por ejemplo, libere espacio en el disco duro.
+ <span data-ttu-id="de751-108">En función del error indicado, realice la acción apropiada para corregir la causa del error.</span><span class="sxs-lookup"><span data-stu-id="de751-108">Based on the indicated error, take appropriate action to correct the cause of the failure.</span></span> <span data-ttu-id="de751-109">Por ejemplo, libere espacio en el disco duro.</span><span class="sxs-lookup"><span data-stu-id="de751-109">For example, free up additional space on your hard disk.</span></span>

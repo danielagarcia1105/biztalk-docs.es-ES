@@ -21,7 +21,7 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="network-requirements"></a>Requisitos de red
-Necesitará los siguientes componentes de red para crear la arquitectura de implementación recomendada:  
+# <a name="network-requirements"></a><span data-ttu-id="c0525-102">Requisitos de red</span><span class="sxs-lookup"><span data-stu-id="c0525-102">Network Requirements</span></span>
+<span data-ttu-id="c0525-103">Necesitará los siguientes componentes de red para crear la arquitectura de implementación recomendada:</span><span class="sxs-lookup"><span data-stu-id="c0525-103">You will need the following network components to build the prescribed deployment architecture:</span></span>  
   
--   Un servidor de seguridad como la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.
+-   <span data-ttu-id="c0525-104">Un servidor de seguridad como la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.</span><span class="sxs-lookup"><span data-stu-id="c0525-104">A firewall server such as the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Security and Acceleration (ISA) Server.</span></span>

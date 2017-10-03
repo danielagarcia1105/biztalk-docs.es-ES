@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---validate-schema-failure"></a>Error: error de esquema de validación
-**Explicación**  
+# <a name="error---validate-schema-failure"></a><span data-ttu-id="cf884-102">Error: error de esquema de validación</span><span class="sxs-lookup"><span data-stu-id="cf884-102">Error - Validate Schema Failure</span></span>
+<span data-ttu-id="cf884-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="cf884-103">**Explanation**</span></span>  
   
- No se validó correctamente el esquema indicado.  
+ <span data-ttu-id="cf884-104">No se validó correctamente el esquema indicado.</span><span class="sxs-lookup"><span data-stu-id="cf884-104">The indicated schema was not successfully validated.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="cf884-105">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="cf884-105">**User Action**</span></span>  
   
- Examine los mensajes de error correspondientes para determinar la causa del error de validación de esquema.
+ <span data-ttu-id="cf884-106">Examine los mensajes de error correspondientes para determinar la causa del error de validación de esquema.</span><span class="sxs-lookup"><span data-stu-id="cf884-106">Examine the accompanying error messages to determine the cause of the schema validation failure.</span></span>

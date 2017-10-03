@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---exception-caught"></a>Error: excepción capturada
-**Código de error**  
+# <a name="error---exception-caught"></a><span data-ttu-id="9ef93-102">Error: excepción capturada</span><span class="sxs-lookup"><span data-stu-id="9ef93-102">Error - Exception Caught</span></span>
+<span data-ttu-id="9ef93-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="9ef93-103">**Error Code**</span></span>  
   
- btm1023  
+ <span data-ttu-id="9ef93-104">btm1023</span><span class="sxs-lookup"><span data-stu-id="9ef93-104">btm1023</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="9ef93-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="9ef93-105">**Explanation**</span></span>  
   
- Se encontró la excepción identificada, que indica un error grave durante la validación o la prueba de asignaciones.  
+ <span data-ttu-id="9ef93-106">Se encontró la excepción identificada, que indica un error grave durante la validación o la prueba de asignaciones.</span><span class="sxs-lookup"><span data-stu-id="9ef93-106">The identified exception was encountered, indicating a fatal error during map validation or testing.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="9ef93-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="9ef93-107">**User Action**</span></span>  
   
- Realice las correcciones oportunas en función de la naturaleza de la excepción identificada.
+ <span data-ttu-id="9ef93-108">Realice las correcciones oportunas en función de la naturaleza de la excepción identificada.</span><span class="sxs-lookup"><span data-stu-id="9ef93-108">Take corrective action based on the nature of the identified exception.</span></span>

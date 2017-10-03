@@ -23,22 +23,22 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-audit-sso"></a>Cómo auditar SSO
-Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo. Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.  
+# <a name="how-to-audit-sso"></a><span data-ttu-id="2ad6b-102">Cómo auditar SSO</span><span class="sxs-lookup"><span data-stu-id="2ad6b-102">How to Audit SSO</span></span>
+<span data-ttu-id="2ad6b-103">Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-103">You can use the MMC Snap-In or the command line to set both the positive and negative auditing levels.</span></span> <span data-ttu-id="2ad6b-104">Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-104">Results of the auditing are stored in both the event logs and the audit logs of the database.</span></span>  
   
- Los administradores de SSO pueden establecer niveles de auditoría positivos y negativos que se ajusten a sus directivas corporativas. Puede establecer auditorías positivas y negativas en uno de los niveles siguientes:  
+ <span data-ttu-id="2ad6b-105">Los administradores de SSO pueden establecer niveles de auditoría positivos y negativos que se ajusten a sus directivas corporativas.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-105">SSO administrators can set the positive and negative audit levels that suit their corporate policies.</span></span> <span data-ttu-id="2ad6b-106">Puede establecer auditorías positivas y negativas en uno de los niveles siguientes:</span><span class="sxs-lookup"><span data-stu-id="2ad6b-106">You can set positive and negative audits to one of the following levels:</span></span>  
   
- 0 = Ninguno  
+ <span data-ttu-id="2ad6b-107">0 = Ninguno</span><span class="sxs-lookup"><span data-stu-id="2ad6b-107">0 = None</span></span>  
   
- 1 = Bajo  
+ <span data-ttu-id="2ad6b-108">1 = Bajo</span><span class="sxs-lookup"><span data-stu-id="2ad6b-108">1 = Low</span></span>  
   
- 2 = Medio  
+ <span data-ttu-id="2ad6b-109">2 = Medio</span><span class="sxs-lookup"><span data-stu-id="2ad6b-109">2 = Medium</span></span>  
   
- 3 = Alto. Este nivel ejecuta todos los mensajes de auditoría posibles.  
+ <span data-ttu-id="2ad6b-110">3 = Alto.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-110">3 = High.</span></span> <span data-ttu-id="2ad6b-111">Este nivel ejecuta todos los mensajes de auditoría posibles.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-111">This level issues as many audit messages as possible.</span></span>  
   
- El valor predeterminado para la auditoría positiva es 0 (ninguno) y para la auditoría negativa, 1 (bajo).  
+ <span data-ttu-id="2ad6b-112">El valor predeterminado para la auditoría positiva es 0 (ninguno) y para la auditoría negativa, 1 (bajo).</span><span class="sxs-lookup"><span data-stu-id="2ad6b-112">The default value for positive auditing is 0 (none), and the default value for negative auditing is 1(low).</span></span>  
   
- Para modificar la auditoría del nivel de base de datos, debe actualizar la base de datos de SSO mediante un archivo XML. Un ejemplo de archivo XML para actualizar la base de datos de SSO es:  
+ <span data-ttu-id="2ad6b-113">Para modificar la auditoría del nivel de base de datos, debe actualizar la base de datos de SSO mediante un archivo XML.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-113">To change the database level auditing, you must update the SSO database using an XML file.</span></span> <span data-ttu-id="2ad6b-114">Un ejemplo de archivo XML para actualizar la base de datos de SSO es:</span><span class="sxs-lookup"><span data-stu-id="2ad6b-114">A sample XML file for updating the SSO database is:</span></span>  
   
 ```  
 <sso>  
@@ -51,40 +51,40 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 ```  
   
-### <a name="to-audit-single-sign-on-using-the-mmc-snap-in"></a>Para auditar el inicio de sesión único con el Complemento MMC  
+### <a name="to-audit-single-sign-on-using-the-mmc-snap-in"></a><span data-ttu-id="2ad6b-115">Para auditar el inicio de sesión único con el Complemento MMC</span><span class="sxs-lookup"><span data-stu-id="2ad6b-115">To audit Single Sign-On using the MMC Snap-In</span></span>  
   
-1.  En el **iniciar** menú, haga clic en **todos los programas**, haga clic en **Microsoft Enterprise Single Sign-On**y, a continuación, haga clic en **administración de SSO**.  
+1.  <span data-ttu-id="2ad6b-116">En el **iniciar** menú, haga clic en **todos los programas**, haga clic en **Microsoft Enterprise Single Sign-On**y, a continuación, haga clic en **administración de SSO**.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-116">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
-2.  En el panel de ámbito, el complemento MMC de ENTSSO, expanda la **Enterprise Single Sign-On** nodo.  
+2.  <span data-ttu-id="2ad6b-117">En el panel de ámbito, el complemento MMC de ENTSSO, expanda la **Enterprise Single Sign-On** nodo.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-117">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
-3.  Haga clic en **System**y, a continuación, haga clic en **propiedades**.  
+3.  <span data-ttu-id="2ad6b-118">Haga clic en **System**y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-118">Right-click **System**, and then click **Properties**.</span></span>  
   
-4.  En el **propiedades del sistema** cuadro de diálogo, haga clic en el **auditorías** ficha.  
+4.  <span data-ttu-id="2ad6b-119">En el **propiedades del sistema** cuadro de diálogo, haga clic en el **auditorías** ficha.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-119">On the  **System Properties** dialog box, click the **Audits** tab.</span></span>  
   
-5.  Especifique la configuración adecuada y haga clic en **Aceptar**.  
+5.  <span data-ttu-id="2ad6b-120">Especifique la configuración adecuada y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-120">Enter the appropriate settings, and click **OK**.</span></span>  
   
-### <a name="to-audit-single-sign-on-using-the-command-line"></a>Para auditar el inicio de sesión único con la línea de comandos  
+### <a name="to-audit-single-sign-on-using-the-command-line"></a><span data-ttu-id="2ad6b-121">Para auditar el inicio de sesión único con la línea de comandos</span><span class="sxs-lookup"><span data-stu-id="2ad6b-121">To audit Single Sign-On using the command line</span></span>  
   
-1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
+1.  <span data-ttu-id="2ad6b-122">En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-122">On the **Start** menu, click **Run**, and then type **cmd**.</span></span>  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  <span data-ttu-id="2ad6b-123">En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-123">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="2ad6b-124">El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-124">The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  Tipo de **ssoconfig – auditlevel \<positivo >\<negativo >**, donde  **\<positivo >** es el nivel de auditoría cuando se ejecuten correctamente las acciones y  **\<negativo >** es el nivel de auditoría cuando haya un error de acciones.  
-  
-    > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
-  
-### <a name="to-audit-the-sso-database"></a>Para auditar la base de datos de SSO  
-  
-1.  Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
-  
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
-  
-3.  Tipo de **ssomanage-updatedb \<archivo de actualización >**, donde  **\<archivo de actualización >**es la ruta de acceso y nombre del archivo.  
+3.  <span data-ttu-id="2ad6b-125">Tipo de **ssoconfig – auditlevel \<positivo >\<negativo >**, donde  **\<positivo >** es el nivel de auditoría cuando se ejecuten correctamente las acciones y  **\<negativo >** es el nivel de auditoría cuando haya un error de acciones.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-125">Type **ssoconfig –auditlevel \<positive>\<negative>**, where **\<positive>** is the level of auditing when actions succeed, and **\<negative>** is the level of auditing when actions fail.</span></span>  
   
     > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+    >  <span data-ttu-id="2ad6b-126">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-126">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Cómo actualizar la base de datos SSO](../core/how-to-update-the-sso-database.md)   
- [Uso de SSO](../core/using-sso.md)
+### <a name="to-audit-the-sso-database"></a><span data-ttu-id="2ad6b-127">Para auditar la base de datos de SSO</span><span class="sxs-lookup"><span data-stu-id="2ad6b-127">To audit the SSO database</span></span>  
+  
+1.  <span data-ttu-id="2ad6b-128">Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-128">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
+  
+2.  <span data-ttu-id="2ad6b-129">En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-129">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="2ad6b-130">El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-130">The default installation directory is **\<drive>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
+  
+3.  <span data-ttu-id="2ad6b-131">Tipo de **ssomanage-updatedb \<archivo de actualización >**, donde  **\<archivo de actualización >**es la ruta de acceso y nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-131">Type **ssomanage –updatedb \<update file>**, where **\<update file>**is the path and name of the file.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="2ad6b-132">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="2ad6b-132">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="2ad6b-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="2ad6b-133">See Also</span></span>  
+ <span data-ttu-id="2ad6b-134">[Cómo actualizar la base de datos SSO](../core/how-to-update-the-sso-database.md) </span><span class="sxs-lookup"><span data-stu-id="2ad6b-134">[How to Update the SSO Database](../core/how-to-update-the-sso-database.md) </span></span>  
+ [<span data-ttu-id="2ad6b-135">Uso de SSO</span><span class="sxs-lookup"><span data-stu-id="2ad6b-135">Using SSO</span></span>](../core/using-sso.md)

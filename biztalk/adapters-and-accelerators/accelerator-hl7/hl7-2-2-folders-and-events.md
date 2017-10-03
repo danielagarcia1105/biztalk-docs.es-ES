@@ -22,23 +22,23 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="hl7-22-folders-and-events"></a>HL7 2.2 carpetas y eventos
-En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para la instalación en la carpeta de la versión 2.2 HL7 para mensajes con codificación HL7. Estas subcarpetas contienen los esquemas utilizados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) para validar, analizar y serializar los eventos enumerados en la columna de eventos de esta tabla. Los nombres de la subcarpeta describen los tipos de eventos que admiten estos esquemas.  
+# <a name="hl7-22-folders-and-events"></a><span data-ttu-id="1bf7f-102">HL7 2.2 carpetas y eventos</span><span class="sxs-lookup"><span data-stu-id="1bf7f-102">HL7 2.2 Folders and Events</span></span>
+<span data-ttu-id="1bf7f-103">En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para la instalación en la carpeta de la versión 2.2 HL7 para mensajes con codificación HL7.</span><span class="sxs-lookup"><span data-stu-id="1bf7f-103">The following table lists the subfolders created by the setup wizard within the HL7 version 2.2 folder for HL7-encoded messages.</span></span> <span data-ttu-id="1bf7f-104">Estas subcarpetas contienen los esquemas utilizados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) para validar, analizar y serializar los eventos enumerados en la columna de eventos de esta tabla.</span><span class="sxs-lookup"><span data-stu-id="1bf7f-104">These subfolders contain the schemas used by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) to validate, parse, and serialize the events listed in the Events column of this table.</span></span> <span data-ttu-id="1bf7f-105">Los nombres de la subcarpeta describen los tipos de eventos que admiten estos esquemas.</span><span class="sxs-lookup"><span data-stu-id="1bf7f-105">The subfolder names describe the types of events these schemas support.</span></span>  
   
-|Subcarpeta|Eventos|  
+|<span data-ttu-id="1bf7f-106">Subcarpeta</span><span class="sxs-lookup"><span data-stu-id="1bf7f-106">Subfolder</span></span>|<span data-ttu-id="1bf7f-107">Eventos</span><span class="sxs-lookup"><span data-stu-id="1bf7f-107">Events</span></span>|  
 |---------------|------------|  
-|Admitir, descarga y transferir|A01 A37|  
-|Archivos maestros|M01 M03|  
-|Administración de red|N01 N02|  
-|Entrada de pedido|O01 O02|  
-|Cuentas de pacientes|P01 P04|  
-|Query|Q01-Q03, Q05|  
-|Informes de observación|R01 R04|  
+|<span data-ttu-id="1bf7f-108">Admitir, descarga y transferir</span><span class="sxs-lookup"><span data-stu-id="1bf7f-108">Admit, Discharge and Transfer</span></span>|<span data-ttu-id="1bf7f-109">A01 A37</span><span class="sxs-lookup"><span data-stu-id="1bf7f-109">A01-A37</span></span>|  
+|<span data-ttu-id="1bf7f-110">Archivos maestros</span><span class="sxs-lookup"><span data-stu-id="1bf7f-110">Master Files</span></span>|<span data-ttu-id="1bf7f-111">M01 M03</span><span class="sxs-lookup"><span data-stu-id="1bf7f-111">M01-M03</span></span>|  
+|<span data-ttu-id="1bf7f-112">Administración de red</span><span class="sxs-lookup"><span data-stu-id="1bf7f-112">Network Management</span></span>|<span data-ttu-id="1bf7f-113">N01 N02</span><span class="sxs-lookup"><span data-stu-id="1bf7f-113">N01-N02</span></span>|  
+|<span data-ttu-id="1bf7f-114">Entrada de pedido</span><span class="sxs-lookup"><span data-stu-id="1bf7f-114">Order Entry</span></span>|<span data-ttu-id="1bf7f-115">O01 O02</span><span class="sxs-lookup"><span data-stu-id="1bf7f-115">O01-O02</span></span>|  
+|<span data-ttu-id="1bf7f-116">Cuentas de pacientes</span><span class="sxs-lookup"><span data-stu-id="1bf7f-116">Patient Accounting</span></span>|<span data-ttu-id="1bf7f-117">P01 P04</span><span class="sxs-lookup"><span data-stu-id="1bf7f-117">P01-P04</span></span>|  
+|<span data-ttu-id="1bf7f-118">Query</span><span class="sxs-lookup"><span data-stu-id="1bf7f-118">Query</span></span>|<span data-ttu-id="1bf7f-119">Q01-Q03, Q05</span><span class="sxs-lookup"><span data-stu-id="1bf7f-119">Q01-Q03,Q05</span></span>|  
+|<span data-ttu-id="1bf7f-120">Informes de observación</span><span class="sxs-lookup"><span data-stu-id="1bf7f-120">Observation Reporting</span></span>|<span data-ttu-id="1bf7f-121">R01 R04</span><span class="sxs-lookup"><span data-stu-id="1bf7f-121">R01-R04</span></span>|  
   
-## <a name="see-also"></a>Vea también  
- [Eventos y las subcarpetas de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md)   
- [HL7 2.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-1-folders-and-events.md)   
- [HL7 2.3 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-folders-and-events.md)   
- [HL7 2.3.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-folders-and-events.md)   
- [HL7 2,4 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-folders-and-events.md)   
- [HL7 2,5 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-5-folders-and-events.md)
+## <a name="see-also"></a><span data-ttu-id="1bf7f-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="1bf7f-122">See Also</span></span>  
+ <span data-ttu-id="1bf7f-123">[Eventos y las subcarpetas de HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md) </span><span class="sxs-lookup"><span data-stu-id="1bf7f-123">[HL7 2.X Subfolders and Events](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md) </span></span>  
+ <span data-ttu-id="1bf7f-124">[HL7 2.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-1-folders-and-events.md) </span><span class="sxs-lookup"><span data-stu-id="1bf7f-124">[HL7 2.1 Folders and Events](../../adapters-and-accelerators/accelerator-hl7/hl7-2-1-folders-and-events.md) </span></span>  
+ <span data-ttu-id="1bf7f-125">[HL7 2.3 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-folders-and-events.md) </span><span class="sxs-lookup"><span data-stu-id="1bf7f-125">[HL7 2.3 Folders and Events](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-folders-and-events.md) </span></span>  
+ <span data-ttu-id="1bf7f-126">[HL7 2.3.1 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-folders-and-events.md) </span><span class="sxs-lookup"><span data-stu-id="1bf7f-126">[HL7 2.3.1 Folders and Events](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-folders-and-events.md) </span></span>  
+ <span data-ttu-id="1bf7f-127">[HL7 2,4 carpetas y eventos](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-folders-and-events.md) </span><span class="sxs-lookup"><span data-stu-id="1bf7f-127">[HL7 2.4 Folders and Events](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-folders-and-events.md) </span></span>  
+ [<span data-ttu-id="1bf7f-128">HL7 2,5 carpetas y eventos</span><span class="sxs-lookup"><span data-stu-id="1bf7f-128">HL7 2.5 Folders and Events</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-2-5-folders-and-events.md)

@@ -22,8 +22,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="create-a-channel-using-siebel"></a>Crear un canal con Siebel
-Esta sección muestra cómo crear un canal para la mensajería directa con Siebel proporcionando y consumir mensajes XML.  
+# <a name="create-a-channel-using-siebel"></a><span data-ttu-id="495a0-102">Crear un canal con Siebel</span><span class="sxs-lookup"><span data-stu-id="495a0-102">Create a channel using Siebel</span></span>
+<span data-ttu-id="495a0-103">Esta sección muestra cómo crear un canal para la mensajería directa con Siebel proporcionando y consumir mensajes XML.</span><span class="sxs-lookup"><span data-stu-id="495a0-103">This section demonstrates how to create a channel for direct messaging with Siebel by providing and consuming XML messages.</span></span>  
   
 ```  
 //create a channel factory, capable of sending a request to Siebel and receiving a reply (IRequestChannel)  
@@ -50,8 +50,8 @@ irc.Close();
 factory.Close();  
 ```  
   
- Una vez haya creado el canal, puede usar ese canal para realizar operaciones en Siebel.  
+ <span data-ttu-id="495a0-104">Una vez haya creado el canal, puede usar ese canal para realizar operaciones en Siebel.</span><span class="sxs-lookup"><span data-stu-id="495a0-104">Once you have created the channel, you can use that channel to perform operations on Siebel.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Desarrollar aplicaciones de Siebel utilizando el modelo del canal de WCF](../../adapters-and-accelerators/adapter-siebel/develop-siebel-applications-using-the-wcf-channel-model3.md)   
- [Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)
+## <a name="see-also"></a><span data-ttu-id="495a0-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="495a0-105">See Also</span></span>  
+ <span data-ttu-id="495a0-106">[Desarrollar aplicaciones de Siebel utilizando el modelo del canal de WCF](../../adapters-and-accelerators/adapter-siebel/develop-siebel-applications-using-the-wcf-channel-model3.md) </span><span class="sxs-lookup"><span data-stu-id="495a0-106">[Develop Siebel Applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-siebel/develop-siebel-applications-using-the-wcf-channel-model3.md) </span></span>  
+ [<span data-ttu-id="495a0-107">Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de canal de WCF</span><span class="sxs-lookup"><span data-stu-id="495a0-107">Run Operations on Business Components with the Siebel adapter using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)

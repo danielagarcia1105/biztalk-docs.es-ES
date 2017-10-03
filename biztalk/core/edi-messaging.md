@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edi-messaging"></a>Mensajería EDI
-En esta sección se incluye una descripción de los estándares EDI y de la estructura de un mensaje EDI.  
+# <a name="edi-messaging"></a><span data-ttu-id="c2872-102">Mensajería EDI</span><span class="sxs-lookup"><span data-stu-id="c2872-102">EDI Messaging</span></span>
+<span data-ttu-id="c2872-103">En esta sección se incluye una descripción de los estándares EDI y de la estructura de un mensaje EDI.</span><span class="sxs-lookup"><span data-stu-id="c2872-103">This section contains description of the EDI standards and the structure of an EDI message.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="c2872-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c2872-104">In This Section</span></span>  
   
--   [Estructura de mensaje EDI](../core/edi-message-structure.md)  
+-   [<span data-ttu-id="c2872-105">Estructura de mensaje EDI</span><span class="sxs-lookup"><span data-stu-id="c2872-105">EDI Message Structure</span></span>](../core/edi-message-structure.md)  
   
--   [Estructura de confirmación EDI](../core/edi-acknowledgment-structure.md)  
+-   [<span data-ttu-id="c2872-106">Estructura de confirmación EDI</span><span class="sxs-lookup"><span data-stu-id="c2872-106">EDI Acknowledgment Structure</span></span>](../core/edi-acknowledgment-structure.md)  
   
--   [Esquemas EDI](../core/edi-schemas.md)  
+-   [<span data-ttu-id="c2872-107">Esquemas EDI</span><span class="sxs-lookup"><span data-stu-id="c2872-107">EDI Schemas</span></span>](../core/edi-schemas.md)  
   
--   [Juegos de caracteres EDI](../core/edi-character-sets.md)
+-   [<span data-ttu-id="c2872-108">Juegos de caracteres EDI</span><span class="sxs-lookup"><span data-stu-id="c2872-108">EDI Character Sets</span></span>](../core/edi-character-sets.md)

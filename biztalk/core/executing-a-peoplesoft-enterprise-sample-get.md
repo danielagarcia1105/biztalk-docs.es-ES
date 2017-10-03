@@ -18,377 +18,377 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="executing-a-peoplesoft-enterprise-sample-get"></a>Ejecutar un método Get de ejemplo de PeopleSoft Enterprise
-Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de PeopleSoft. Este adaptador pertenece a un grupo de ocho adaptadores de línea empresarial (LOB) que Microsoft distribuye para su uso con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+# <a name="executing-a-peoplesoft-enterprise-sample-get"></a><span data-ttu-id="42ddd-102">Ejecutar un método Get de ejemplo de PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="42ddd-102">Executing a PeopleSoft Enterprise Sample Get</span></span>
+<span data-ttu-id="42ddd-103">Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-103">The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter.</span></span> <span data-ttu-id="42ddd-104">Este adaptador pertenece a un grupo de ocho adaptadores de línea empresarial (LOB) que Microsoft distribuye para su uso con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-104">This adapter is one of a group of eight line-of-business (LOB) adapters shipped by Microsoft for use with [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].</span></span>  
   
- Esta es la segunda parte del trabajo práctico de PeopleSoft. En la primera parte (Práctica 1), obtuvo acceso manualmente a los datos y los modificó en el sistema PeopleSoft sin ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] u otra tecnología de Microsoft. En esta parte (Práctica 2), creará una orquestación de BizTalk como parte de un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Configurará puertos en esta orquestación para usar el adaptador de PeopleSoft a fin de obtener datos de un sistema PeopleSoft.  
+ <span data-ttu-id="42ddd-105">Esta es la segunda parte del trabajo práctico de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-105">This is the second part of the PeopleSoft lab work.</span></span> <span data-ttu-id="42ddd-106">En la primera parte (Práctica 1), obtuvo acceso manualmente a los datos y los modificó en el sistema PeopleSoft sin ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] u otra tecnología de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-106">In the first part (Lab 1), you manually accessed and modified data on the PeopleSoft system without the assistance of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or other Microsoft technologies.</span></span> <span data-ttu-id="42ddd-107">En esta parte (Práctica 2), creará una orquestación de BizTalk como parte de un proyecto de BizTalk de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-107">In this part (Lab 2), you will create a BizTalk orchestration as part of a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project.</span></span> <span data-ttu-id="42ddd-108">Configurará puertos en esta orquestación para usar el adaptador de PeopleSoft a fin de obtener datos de un sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-108">You will configure ports on this orchestration to use the PeopleSoft adapter to get data from a PeopleSoft system.</span></span>  
   
-## <a name="prerequisites"></a>Requisitos previos  
+## <a name="prerequisites"></a><span data-ttu-id="42ddd-109">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="42ddd-109">Prerequisites</span></span>  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   <span data-ttu-id="42ddd-110">Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]</span><span class="sxs-lookup"><span data-stu-id="42ddd-110">Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]</span></span>  
   
--   Adaptadores de Microsoft BizTalk para aplicaciones empresariales  
+-   <span data-ttu-id="42ddd-111">Adaptadores de Microsoft BizTalk para aplicaciones empresariales</span><span class="sxs-lookup"><span data-stu-id="42ddd-111">Microsoft BizTalk Adapters for Enterprise Applications</span></span>  
   
--   Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   <span data-ttu-id="42ddd-112">Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]</span><span class="sxs-lookup"><span data-stu-id="42ddd-112">Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]</span></span>  
   
--   Sun Systems Java Development Kit (JDK) versión 1.4 o superior  
+-   <span data-ttu-id="42ddd-113">Sun Systems Java Development Kit (JDK) versión 1.4 o superior</span><span class="sxs-lookup"><span data-stu-id="42ddd-113">Sun Systems Java Development Kit (JDK) version 1.4 or higher</span></span>  
   
 > [!NOTE]
->  Para obtener más información acerca de cómo instalar y configurar los adaptadores de Microsoft BizTalk para aplicaciones empresariales, vea [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392)(puede estar en inglés). En este documento se incluye información de configuración clave para los adaptadores de JD Edwards, PeopleSoft, Oracle, Tibco y Siebel LOB.  
+>  <span data-ttu-id="42ddd-114">Para obtener más información acerca de cómo instalar y configurar los adaptadores de Microsoft BizTalk para aplicaciones empresariales, vea [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392)(puede estar en inglés).</span><span class="sxs-lookup"><span data-stu-id="42ddd-114">For information about installing and configuring Microsoft BizTalk Adapters for Enterprise Applications, see [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392).</span></span> <span data-ttu-id="42ddd-115">En este documento se incluye información de configuración clave para los adaptadores de JD Edwards, PeopleSoft, Oracle, Tibco y Siebel LOB.</span><span class="sxs-lookup"><span data-stu-id="42ddd-115">This document includes key configuration information for the JD Edwards, PeopleSoft, Oracle, Tibco, and Siebel LOB adapters.</span></span>  
   
-## <a name="lab-2---executing-a-peoplesoft-sample-get"></a>Práctica 2: ejecución de un método Get de ejemplo de PeopleSoft  
- En esta práctica, ejecutará una operación **Get** sobre el sistema PeopleSoft. Específicamente, realizará las siguientes tareas:  
+## <a name="lab-2---executing-a-peoplesoft-sample-get"></a><span data-ttu-id="42ddd-116">Práctica 2: ejecución de un método Get de ejemplo de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-116">Lab 2 - Executing a PeopleSoft Sample Get</span></span>  
+ <span data-ttu-id="42ddd-117">En esta práctica, ejecutará una operación **Get** sobre el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-117">In this lab, you will execute a **Get** operation against the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-118">Específicamente, realizará las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="42ddd-118">Specifically you will perform the following tasks:</span></span>  
   
--   Comprobar los requisitos previos de PeopleSoft  
+-   <span data-ttu-id="42ddd-119">Comprobar los requisitos previos de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-119">Verify the PeopleSoft prerequisites</span></span>  
   
--   Configurar un puerto de envío de PeopleSoft en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   <span data-ttu-id="42ddd-120">Configurar un puerto de envío de PeopleSoft en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-120">Set up a PeopleSoft send port in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span></span>  
   
--   Crear un proyecto de orquestación de BizTalk  
+-   <span data-ttu-id="42ddd-121">Crear un proyecto de orquestación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="42ddd-121">Create a BizTalk orchestration project</span></span>  
   
--   Generar e implementar el proyecto  
+-   <span data-ttu-id="42ddd-122">Generar e implementar el proyecto</span><span class="sxs-lookup"><span data-stu-id="42ddd-122">Build and deploy the project</span></span>  
   
--   Probar la aplicación y ver la salida XML  
+-   <span data-ttu-id="42ddd-123">Probar la aplicación y ver la salida XML</span><span class="sxs-lookup"><span data-stu-id="42ddd-123">Test the application and view the XML output</span></span>  
   
-## <a name="procedures-for-lab-2--executing-a-peoplesoft-sample-get"></a>Procedimientos para la práctica 2: ejecución de un método Get de ejemplo de PeopleSoft  
- Son necesarios dos archivos para obtener un acceso de interfaz adecuado a un sistema PeopleSoft: PSJOA.JAR y GET_CI_INFO.PC. En el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], el adaptador de PeopleSoft se comunica con el sistema PeopleSoft mediante el uso de la interfaz de PeopleSoft Java. Esta interfaz se suministra en el archivo PSJOA.JAR. Una copia de este archivo colocada en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procede normalmente del administrador del sistema PeopleSoft al que se está obteniendo acceso. En esta práctica existe una copia de PSJOA.JAR en la carpeta C:\PSJars\Ver841\ de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La ubicación de este archivo se especifica en las propiedades de configuración del adaptador de PeopleSoft.  
+## <a name="procedures-for-lab-2--executing-a-peoplesoft-sample-get"></a><span data-ttu-id="42ddd-124">Procedimientos para la práctica 2: ejecución de un método Get de ejemplo de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-124">Procedures for Lab 2- Executing a PeopleSoft Sample Get</span></span>  
+ <span data-ttu-id="42ddd-125">Son necesarios dos archivos para obtener un acceso de interfaz adecuado a un sistema PeopleSoft: PSJOA.JAR y GET_CI_INFO.PC.</span><span class="sxs-lookup"><span data-stu-id="42ddd-125">Two files are necessary for proper interface access to a PeopleSoft system: PSJOA.JAR and GET_CI_INFO.PC.</span></span> <span data-ttu-id="42ddd-126">En el equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], el adaptador de PeopleSoft se comunica con el sistema PeopleSoft mediante el uso de la interfaz de PeopleSoft Java.</span><span class="sxs-lookup"><span data-stu-id="42ddd-126">On the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, the PeopleSoft adapter communicates with the PeopleSoft system by using the PeopleSoft Java interface.</span></span> <span data-ttu-id="42ddd-127">Esta interfaz se suministra en el archivo PSJOA.JAR.</span><span class="sxs-lookup"><span data-stu-id="42ddd-127">This interface is supplied by the PSJOA.JAR file.</span></span> <span data-ttu-id="42ddd-128">Una copia de este archivo colocada en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procede normalmente del administrador del sistema PeopleSoft al que se está obteniendo acceso.</span><span class="sxs-lookup"><span data-stu-id="42ddd-128">A copy of this file placed onto the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] typically comes from the administrator of the PeopleSoft server system that is being accessed.</span></span> <span data-ttu-id="42ddd-129">En esta práctica existe una copia de PSJOA.JAR en la carpeta C:\PSJars\Ver841\ de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-129">In this lab, a copy of PSJOA.JAR exists in the C:\PSJars\Ver841\ folder on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="42ddd-130">La ubicación de este archivo se especifica en las propiedades de configuración del adaptador de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-130">The location of this file is specified in the PeopleSoft adapter configuration properties.</span></span>  
   
- En el propio sistema PeopleSoft debe instalarse una interfaz de componente (CI) personalizada. Esto permite al adaptador examinar objetos de PeopleSoft durante la configuración del adaptador. Se llama a la interfaz de componente personalizada (desde el paso Agregar elementos generados) para obtener una lista de objetos de PeopleSoft accesibles. Estos objetos determinan las funciones expuestas de PeopleSoft disponibles para el sistema cliente.  
+ <span data-ttu-id="42ddd-131">En el propio sistema PeopleSoft debe instalarse una interfaz de componente (CI) personalizada.</span><span class="sxs-lookup"><span data-stu-id="42ddd-131">On the PeopleSoft system itself, a custom component interface (CI) must be installed.</span></span> <span data-ttu-id="42ddd-132">Esto permite al adaptador examinar objetos de PeopleSoft durante la configuración del adaptador.</span><span class="sxs-lookup"><span data-stu-id="42ddd-132">This allows the adapter to browse PeopleSoft objects during adapter configuration.</span></span> <span data-ttu-id="42ddd-133">Se llama a la interfaz de componente personalizada (desde el paso Agregar elementos generados) para obtener una lista de objetos de PeopleSoft accesibles.</span><span class="sxs-lookup"><span data-stu-id="42ddd-133">The custom component interface is called (from within the Add Generated Items step) to get a list of accessible PeopleSoft objects.</span></span> <span data-ttu-id="42ddd-134">Estos objetos determinan las funciones expuestas de PeopleSoft disponibles para el sistema cliente.</span><span class="sxs-lookup"><span data-stu-id="42ddd-134">These objects determine exposed PeopleSoft functionality available to the client system.</span></span>  
   
- Específicamente, el componente personalizado, GET_CI_INFO, debe instalarse en el sistema de PeopleSoft durante la configuración inicial. Este archivo puede modificarse para limitar lo que expone GET_CI_INFO (de forma predeterminada, expone todas las interfaces de componentes del sistema PeopleSoft). Su origen se encuentra en el archivo de texto GET_CI_INFO.PC en la siguiente ubicación predeterminada:  
+ <span data-ttu-id="42ddd-135">Específicamente, el componente personalizado, GET_CI_INFO, debe instalarse en el sistema de PeopleSoft durante la configuración inicial.</span><span class="sxs-lookup"><span data-stu-id="42ddd-135">Specifically the custom component, GET_CI_INFO, must be installed on the PeopleSoft system once during initial setup.</span></span> <span data-ttu-id="42ddd-136">Este archivo puede modificarse para limitar lo que expone GET_CI_INFO (de forma predeterminada, expone todas las interfaces de componentes del sistema PeopleSoft).</span><span class="sxs-lookup"><span data-stu-id="42ddd-136">This file can be modified to limit what the GET_CI_INFO exposes (by default it exposes all component interfaces within the PeopleSoft system).</span></span> <span data-ttu-id="42ddd-137">Su origen se encuentra en el archivo de texto GET_CI_INFO.PC en la siguiente ubicación predeterminada:</span><span class="sxs-lookup"><span data-stu-id="42ddd-137">Its source is found in the GET_CI_INFO.PC text file at the following default location:</span></span>  
   
- **C:\Program Files\Microsoft BizTalk Adapters para Enterprise \Config**  
+ <span data-ttu-id="42ddd-138">**C:\Program Files\Microsoft BizTalk Adapters para Enterprise \Config**</span><span class="sxs-lookup"><span data-stu-id="42ddd-138">**C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config**</span></span>  
   
- En la Guía de instalación que acompaña a los adaptadores, así como en [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392)(puede estar en inglés), se proporcionan instrucciones generales sobre la instalación de la interfaz del componente GET_CI_INFO en PeopleSoft. Estas instrucciones son para administradores de PeopleSoft con experiencia.  
+ <span data-ttu-id="42ddd-139">En la Guía de instalación que acompaña a los adaptadores, así como en [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392)(puede estar en inglés), se proporcionan instrucciones generales sobre la instalación de la interfaz del componente GET_CI_INFO en PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-139">General instructions about installing the GET_CI_INFO component interface into PeopleSoft are provided in the Installation Guide that comes with the adapters, or at [http://go.microsoft.com/fwlink/?LinkId=56392](http://go.microsoft.com/fwlink/?LinkId=56392).</span></span> <span data-ttu-id="42ddd-140">Estas instrucciones son para administradores de PeopleSoft con experiencia.</span><span class="sxs-lookup"><span data-stu-id="42ddd-140">These instructions are for an experienced PeopleSoft administrator.</span></span>  
   
-### <a name="verifying-the-peoplesoft-prerequisites"></a>Comprobar los requisitos previos de PeopleSoft  
- Antes de comenzar a crear un proyecto de BizTalk para su uso con el adaptador de PeopleSoft, debe asegurarse de que todo se configura correctamente para obtener acceso a PeopleSoft.  
+### <a name="verifying-the-peoplesoft-prerequisites"></a><span data-ttu-id="42ddd-141">Comprobar los requisitos previos de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-141">Verifying the PeopleSoft Prerequisites</span></span>  
+ <span data-ttu-id="42ddd-142">Antes de comenzar a crear un proyecto de BizTalk para su uso con el adaptador de PeopleSoft, debe asegurarse de que todo se configura correctamente para obtener acceso a PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-142">Before you start creating a BizTalk project for use with the PeopleSoft adapter, you need to be sure that everything is set up correctly to access PeopleSoft.</span></span>  
   
-##### <a name="to-verify-the-peoplesoft-prerequisites"></a>Para comprobar los requisitos previos de PeopleSoft  
+##### <a name="to-verify-the-peoplesoft-prerequisites"></a><span data-ttu-id="42ddd-143">Para comprobar los requisitos previos de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-143">To verify the PeopleSoft prerequisites</span></span>  
   
-1.  Asegúrese de que el archivo PSJOA.JAR existe en el equipo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la carpeta C:\psjars\ver841. (Este archivo puede existir en una ubicación diferente en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En la siguiente configuración dada, se presupone que el archivo se encuentra en esta ubicación).  
+1.  <span data-ttu-id="42ddd-144">Asegúrese de que el archivo PSJOA.JAR existe en el equipo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la carpeta C:\psjars\ver841.</span><span class="sxs-lookup"><span data-stu-id="42ddd-144">Ensure that the PSJOA.JAR file exists on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer in the C:\psjars\ver841 folder.</span></span> <span data-ttu-id="42ddd-145">(Este archivo puede existir en una ubicación diferente en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-145">(This file can exist at a different location on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="42ddd-146">En la siguiente configuración dada, se presupone que el archivo se encuentra en esta ubicación).</span><span class="sxs-lookup"><span data-stu-id="42ddd-146">In the configuration given below, it is assumed the file is at this location.)</span></span>  
   
-2.  Asegúrese de que el archivo get_ci_info.pc existe en la carpeta C:\Archivos de programa\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config.  
+2.  <span data-ttu-id="42ddd-147">Asegúrese de que el archivo get_ci_info.pc existe en la carpeta C:\Archivos de programa\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config.</span><span class="sxs-lookup"><span data-stu-id="42ddd-147">Ensure that the get_ci_info.pc file exists in the C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config folder.</span></span>  
   
-3.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+3.  <span data-ttu-id="42ddd-148">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-148">Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
   
-4.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Configuración de plataforma**y, a continuación, expanda **adaptadores**. Asegúrese de que el adaptador de PeopleSoft está instalado y se encuentra en la lista.  
+4.  <span data-ttu-id="42ddd-149">En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Configuración de plataforma**y, a continuación, expanda **adaptadores**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-149">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.</span></span> <span data-ttu-id="42ddd-150">Asegúrese de que el adaptador de PeopleSoft está instalado y se encuentra en la lista.</span><span class="sxs-lookup"><span data-stu-id="42ddd-150">Ensure that the PeopleSoft adapter is installed and on the list.</span></span>  
   
-     Si no está instalado el adaptador de PeopleSoft, instale los adaptadores de Microsoft BizTalk para aplicaciones empresariales (vea la sección anterior "Requisitos previos"). Una vez instalados los adaptadores, haga clic con el botón secundario en **Adaptadores** y, a continuación, haga clic en **Nuevo - Adaptador** para instalar el adaptador de PeopleSoft. Deberá reiniciar la instancia del host para que esto surta efecto.  
+     <span data-ttu-id="42ddd-151">Si no está instalado el adaptador de PeopleSoft, instale los adaptadores de Microsoft BizTalk para aplicaciones empresariales (vea la sección anterior "Requisitos previos").</span><span class="sxs-lookup"><span data-stu-id="42ddd-151">If the PeopleSoft adapter is not installed, install the BizTalk Adapters for Enterprise Applications (see the earlier "Prerequisites" section).</span></span> <span data-ttu-id="42ddd-152">Una vez instalados los adaptadores, haga clic con el botón secundario en **Adaptadores** y, a continuación, haga clic en **Nuevo - Adaptador** para instalar el adaptador de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-152">After the adapters are installed, right-click **Adapters** and then click **New - Adapter** to install the PeopleSoft adapter.</span></span> <span data-ttu-id="42ddd-153">Deberá reiniciar la instancia del host para que esto surta efecto.</span><span class="sxs-lookup"><span data-stu-id="42ddd-153">You will have to restart the host instance for this to take effect.</span></span>  
   
-### <a name="creating-a-send-port-for-peoplesoft"></a>Crear un puerto de envío para PeopleSoft  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe tener un puerto de envío que se usará para la comunicación con el sistema PeopleSoft. Este puerto de envío terminará enlazado a los puertos lógicos de la orquestación.  
+### <a name="creating-a-send-port-for-peoplesoft"></a><span data-ttu-id="42ddd-154">Crear un puerto de envío para PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-154">Creating a Send Port for PeopleSoft</span></span>  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="42ddd-155"> debe tener un puerto de envío que se usará para la comunicación con el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-155"> needs to have a send port to use for communicating with the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-156">Este puerto de envío terminará enlazado a los puertos lógicos de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-156">This send port will eventually be bound to the orchestration's logical ports.</span></span>  
   
-##### <a name="to-create-the-peoplesoft-send-port"></a>Para crear el puerto de envío de PeopleSoft  
+##### <a name="to-create-the-peoplesoft-send-port"></a><span data-ttu-id="42ddd-157">Para crear el puerto de envío de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="42ddd-157">To create the PeopleSoft send port</span></span>  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Aplicaciones**y, a continuación, expanda **BizTalk.EnterpriseApplication.**  
+1.  <span data-ttu-id="42ddd-158">En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Aplicaciones**y, a continuación, expanda **BizTalk.EnterpriseApplication.**</span><span class="sxs-lookup"><span data-stu-id="42ddd-158">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand **BizTalk.EnterpriseApplication.**</span></span>  
   
-2.  Haga clic con el botón derecho en **Puertos de envío**, haga clic en **Nuevo**y seleccione **Puerto de envío de petición-respuesta estático**. En el cuadro de diálogo **Propiedades de puerto de envío** , especifique los siguientes valores para las propiedades:  
+2.  <span data-ttu-id="42ddd-159">Haga clic con el botón derecho en **Puertos de envío**, haga clic en **Nuevo**y seleccione **Puerto de envío de petición-respuesta estático**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-159">Right-click **Send Ports**, click **New**, and then select **Static Solicit-Response Send Port**.</span></span> <span data-ttu-id="42ddd-160">En el cuadro de diálogo **Propiedades de puerto de envío** , especifique los siguientes valores para las propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-160">In the **Send Port Properties** dialog box, enter the following values for the properties:</span></span>  
   
-    1.  **Nombre:**  `PeopleSoftSamplePort`  
+    1.  <span data-ttu-id="42ddd-161">**Nombre:**  `PeopleSoftSamplePort`</span><span class="sxs-lookup"><span data-stu-id="42ddd-161">**Name:**  `PeopleSoftSamplePort`</span></span>  
   
-    2.  **Tipo:**  `PeopleSoft`  
+    2.  <span data-ttu-id="42ddd-162">**Tipo:**  `PeopleSoft`</span><span class="sxs-lookup"><span data-stu-id="42ddd-162">**Type:**  `PeopleSoft`</span></span>  
   
-    3.  **Controlador de envío:**  `BizTalkServerApplication`  
+    3.  <span data-ttu-id="42ddd-163">**Controlador de envío:**  `BizTalkServerApplication`</span><span class="sxs-lookup"><span data-stu-id="42ddd-163">**Send handler:**  `BizTalkServerApplication`</span></span>  
   
-    4.  **Canalización de envío:**  `XMLTransmit`  
+    4.  <span data-ttu-id="42ddd-164">**Canalización de envío:**  `XMLTransmit`</span><span class="sxs-lookup"><span data-stu-id="42ddd-164">**Send pipeline:**  `XMLTransmit`</span></span>  
   
-    5.  **La canalización de recepción:**  `XMLReceive`  
+    5.  <span data-ttu-id="42ddd-165">**La canalización de recepción:**  `XMLReceive`</span><span class="sxs-lookup"><span data-stu-id="42ddd-165">**Receive pipeline:**  `XMLReceive`</span></span>  
   
-3.  Haga clic en **Configurar**y escriba los siguientes valores de propiedades:  
+3.  <span data-ttu-id="42ddd-166">Haga clic en **Configurar**y escriba los siguientes valores de propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-166">Click **Configure**, and then enter the following property values:</span></span>  
   
-    1.  **Ruta de acceso al servidor de aplicaciones**: **//Servername:9000**  
+    1.  <span data-ttu-id="42ddd-167">**Ruta de acceso al servidor de aplicaciones**: **//Servername:9000**</span><span class="sxs-lookup"><span data-stu-id="42ddd-167">**Application server path**: **//Servername:9000**</span></span>  
   
-         nombreDelServidor es el servidor de la aplicación. Se trata del nombre de servidor específico o de la dirección IP y número de puerto para este sistema PeopleSoft.  
+         <span data-ttu-id="42ddd-168">nombreDelServidor es el servidor de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-168">Servername is your application server.</span></span> <span data-ttu-id="42ddd-169">Se trata del nombre de servidor específico o de la dirección IP y número de puerto para este sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-169">This is the specific server name or IP address and port number for this PeopleSoft system.</span></span>  
   
-    2.  **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
+    2.  <span data-ttu-id="42ddd-170">**JAVA_HOME**: **C:\J2SDK1.4.2_08**</span><span class="sxs-lookup"><span data-stu-id="42ddd-170">**JAVA_HOME**: **C:\J2SDK1.4.2_08**</span></span>  
   
-         Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+         <span data-ttu-id="42ddd-171">Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-171">This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
-    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft >  
+    3.  <span data-ttu-id="42ddd-172">**Contraseña**: \<escriba su contraseña de PeopleSoft ></span><span class="sxs-lookup"><span data-stu-id="42ddd-172">**Password**: \<enter your PeopleSoft password></span></span>  
   
-    4.  **Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**  
+    4.  <span data-ttu-id="42ddd-173">**Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**</span><span class="sxs-lookup"><span data-stu-id="42ddd-173">**PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**</span></span>  
   
-    5.  **Nombre de usuario:** \<escriba el PeopleSoft UserID >  
+    5.  <span data-ttu-id="42ddd-174">**Nombre de usuario:** \<escriba el PeopleSoft UserID ></span><span class="sxs-lookup"><span data-stu-id="42ddd-174">**User name:** \<enter your PeopleSoft UserID></span></span>  
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
-4.  Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.  
+4.  <span data-ttu-id="42ddd-175">Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.</span><span class="sxs-lookup"><span data-stu-id="42ddd-175">Click **OK** twice to close the dialog boxes.</span></span>  
   
-### <a name="creating-a-biztalk-orchestration-project"></a>Creación de un proyecto de orquestación de BizTalk  
- Ahora va a crear un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y configurar una orquestación en el proyecto para gestionar la comunicación entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y el sistema PeopleSoft. Agregará puertos de recepción y envío, generará el proyecto y, a continuación, lo implementará.  
+### <a name="creating-a-biztalk-orchestration-project"></a><span data-ttu-id="42ddd-176">Creación de un proyecto de orquestación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="42ddd-176">Creating a BizTalk Orchestration Project</span></span>  
+ <span data-ttu-id="42ddd-177">Ahora va a crear un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y configurar una orquestación en el proyecto para gestionar la comunicación entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-177">Now you will create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and configure an orchestration in the project to handle communication between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-178">Agregará puertos de recepción y envío, generará el proyecto y, a continuación, lo implementará.</span><span class="sxs-lookup"><span data-stu-id="42ddd-178">You will add send and receive ports, build the project, and then deploy the project.</span></span>  
   
-##### <a name="to-create-the-biztalk-orchestration-project-in-visual-studio"></a>Procedimiento para crear el proyecto de orquestación de BizTalk en Visual Studio  
+##### <a name="to-create-the-biztalk-orchestration-project-in-visual-studio"></a><span data-ttu-id="42ddd-179">Procedimiento para crear el proyecto de orquestación de BizTalk en Visual Studio</span><span class="sxs-lookup"><span data-stu-id="42ddd-179">To create the BizTalk orchestration project in Visual Studio</span></span>  
   
-1.  Abra [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y cree un nuevo proyecto de BizTalk en la carpeta C:\LABS. En el menú **Archivo** , haga clic en **Nuevo**. Aparecerá el cuadro de diálogo **Nuevo proyecto** . En la consola de administración de **Plantillas** , seleccione **Proyecto vacío de servidor BizTalk Server** . Escriba `PS_Test` como nombre único del proyecto y haga clic en **Aceptar**.  
+1.  <span data-ttu-id="42ddd-180">Abra [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y cree un nuevo proyecto de BizTalk en la carpeta C:\LABS.</span><span class="sxs-lookup"><span data-stu-id="42ddd-180">Open [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and create a new BizTalk project in the C:\LABS folder.</span></span> <span data-ttu-id="42ddd-181">En el menú **Archivo** , haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-181">On the **File** menu, click **New**.</span></span> <span data-ttu-id="42ddd-182">Aparecerá el cuadro de diálogo **Nuevo proyecto** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-182">The **New Project** dialog box appears.</span></span> <span data-ttu-id="42ddd-183">En la consola de administración de **Plantillas** , seleccione **Proyecto vacío de servidor BizTalk Server**</span><span class="sxs-lookup"><span data-stu-id="42ddd-183">In the **Templates** section, select **Empty BizTalk Server project.**</span></span> <span data-ttu-id="42ddd-184">. Escriba `PS_Test` como nombre único del proyecto y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-184">Enter `PS_Test` as the unique project name, and then click **OK**.</span></span>  
   
-2.  En el Explorador de soluciones, haga clic con el botón derecho en el proyecto, haga clic en **Agregar**y, a continuación, en **Agregar elementos generados**. Seleccione **Agregar metadatos de adaptador** del panel **Categorías** , seleccione **Agregar metadatos de adaptador** en el lado **Plantillas** y, a continuación, haga clic en **Agregar**.  
+2.  <span data-ttu-id="42ddd-185">En el Explorador de soluciones, haga clic con el botón derecho en el proyecto, haga clic en **Agregar**y, a continuación, en **Agregar elementos generados**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-185">In Solution Explorer, right-click the project, click **Add**, and then click **Add Generated Items**.</span></span> <span data-ttu-id="42ddd-186">Seleccione **Agregar metadatos de adaptador** del panel **Categorías** , seleccione **Agregar metadatos de adaptador** en el lado **Plantillas** y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-186">Select **Add Adapter Metadata** in the **Categories** pane, select **Add Adapter Metadata** on the **Templates** side, and then click **Add**.</span></span>  
   
-3.  En el Asistente para agregar adaptador, seleccione el adaptador **PeopleSoft Enterprise** , seleccione el puerto de envío **PeopleSoftSamplePort** que creó en el procedimiento anterior y, a continuación, haga clic en **Siguiente**.  
+3.  <span data-ttu-id="42ddd-187">En el Asistente para agregar adaptador, seleccione el adaptador **PeopleSoft Enterprise** , seleccione el puerto de envío **PeopleSoftSamplePort** que creó en el procedimiento anterior y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-187">In the Add Adapter Wizard, select the **PeopleSoft Enterprise** adapter, select the **PeopleSoftSamplePort** send port that you created in the preceding procedure, and then click **Next**.</span></span>  
   
      ![](../core/media/ed0dedc5-a8fb-444c-b884-e310cf56462c.gif "ed0dedc5-a8fb-444c-b884-e310cf56462c")  
   
-4.  En la página **Seleccionar servicios para importar** , expanda **PeopleSoft**y expanda **CI**.  
+4.  <span data-ttu-id="42ddd-188">En la página **Seleccionar servicios para importar** , expanda **PeopleSoft**y expanda **CI**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-188">On the **Select Services to Import** page, expand **PeopleSoft**, and then expand **CI**.</span></span>  
   
-     El adaptador interroga al sistema PeopleSoft mediante el Agente de exploración. Al expandir **CI**, se inicia el proceso BrowsingAgent.exe (puede verlo en ejecución en el Administrador de tareas) y devuelve los servicios que se muestran en la figura siguiente.  
+     <span data-ttu-id="42ddd-189">El adaptador interroga al sistema PeopleSoft mediante el Agente de exploración.</span><span class="sxs-lookup"><span data-stu-id="42ddd-189">The PeopleSoft system is interrogated by the adapter using the Browsing Agent.</span></span> <span data-ttu-id="42ddd-190">Al expandir **CI**, se inicia el proceso BrowsingAgent.exe (puede verlo en ejecución en el Administrador de tareas) y devuelve los servicios que se muestran en la figura siguiente.</span><span class="sxs-lookup"><span data-stu-id="42ddd-190">When you expand **CI**, the BrowsingAgent.exe process starts (you can view it as running in Task Manager) and returns the services shown in the following figure.</span></span>  
   
      ![](../core/media/6988104c-6483-4df2-a637-3301628ea665.gif "6988104c-6483-4df2-a637-3301628ea665")  
   
     > [!NOTE]
-    >  Los servicios de PeopleSoft obtenidos y mostrados desde el sistema PeopleSoft pueden ser ligeramente diferentes de los servicios que se muestran aquí.  
+    >  <span data-ttu-id="42ddd-191">Los servicios de PeopleSoft obtenidos y mostrados desde el sistema PeopleSoft pueden ser ligeramente diferentes de los servicios que se muestran aquí.</span><span class="sxs-lookup"><span data-stu-id="42ddd-191">The PeopleSoft services obtained and displayed from your PeopleSoft system may be slightly different than the services displayed here.</span></span>  
   
-5.  Desplácese hacia abajo, seleccione **UBICACIÓN**y, a continuación, haga clic en **Finalizar**.  
+5.  <span data-ttu-id="42ddd-192">Desplácese hacia abajo, seleccione **UBICACIÓN**y, a continuación, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-192">Scroll down, select **LOCATION**, and then click **Finish**.</span></span>  
   
      ![](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
   
-6.  En el Explorador de soluciones, hay una nueva orquestación de BizTalk y dos nuevos archivos de esquema asociados. Estos archivos los crea el Asistente para agregar adaptador. Haga doble clic en el archivo **BizTalk Orchestration.odx** para abrir la orquestación.  
+6.  <span data-ttu-id="42ddd-193">En el Explorador de soluciones, hay una nueva orquestación de BizTalk y dos nuevos archivos de esquema asociados.</span><span class="sxs-lookup"><span data-stu-id="42ddd-193">In Solution Explorer, there is a new BizTalk orchestration and two new associated schema files.</span></span> <span data-ttu-id="42ddd-194">Estos archivos los crea el Asistente para agregar adaptador.</span><span class="sxs-lookup"><span data-stu-id="42ddd-194">These files are created by the Add Adapter Wizard.</span></span> <span data-ttu-id="42ddd-195">Haga doble clic en el archivo **BizTalk Orchestration.odx** para abrir la orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-195">Double-click the **BizTalk Orchestration.odx** file to open the orchestration.</span></span>  
   
      ![](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
   
- Esta orquestación acepta como entrada un archivo XML con formato para el método **Get** de PeopleSoft y envía el archivo XML al sistema PeopleSoft. El método **Get** recupera información de ubicación del sistema PeopleSoft y lo devuelve a la orquestación de BizTalk. La orquestación usa puertos para facilitar esta comunicación con el adaptador y el sistema PeopleSoft. Los puertos que va a configurar aquí son para recibir y enviar archivos XML. El archivo XML saliente indica al sistema PeopleSoft que esto es una operación **Get** . El archivo XML de entrada devuelve la información de ubicación a la orquestación.  
+ <span data-ttu-id="42ddd-196">Esta orquestación acepta como entrada un archivo XML con formato para el método **Get** de PeopleSoft y envía el archivo XML al sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-196">This orchestration accepts as input an XML file formatted for the PeopleSoft **Get** method and sends the XML file to the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-197">El método **Get** recupera información de ubicación del sistema PeopleSoft y lo devuelve a la orquestación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="42ddd-197">The **Get** method retrieves location information from the PeopleSoft system and returns it to the BizTalk orchestration.</span></span> <span data-ttu-id="42ddd-198">La orquestación usa puertos para facilitar esta comunicación con el adaptador y el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-198">The orchestration uses ports to facilitate this communication with the adapter and the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-199">Los puertos que va a configurar aquí son para recibir y enviar archivos XML.</span><span class="sxs-lookup"><span data-stu-id="42ddd-199">The ports you will configure here are for receiving and sending XML files.</span></span> <span data-ttu-id="42ddd-200">El archivo XML saliente indica al sistema PeopleSoft que esto es una operación **Get** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-200">The outgoing XML file tells the PeopleSoft system that this is a **Get** operation.</span></span> <span data-ttu-id="42ddd-201">El archivo XML de entrada devuelve la información de ubicación a la orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-201">The incoming XML file returns the location information to the orchestration.</span></span>  
   
- Para completar la orquestación, debe crear y configurar puertos para recibir y enviar los archivos XML. En primer lugar, configure un nuevo puerto de recepción para aceptar el archivo de entrada XML inicial que contiene el método **Get** para iniciar la orquestación.  
+ <span data-ttu-id="42ddd-202">Para completar la orquestación, debe crear y configurar puertos para recibir y enviar los archivos XML.</span><span class="sxs-lookup"><span data-stu-id="42ddd-202">To complete the orchestration, you need to create and configure ports to receive and send the XML files.</span></span> <span data-ttu-id="42ddd-203">En primer lugar, configure un nuevo puerto de recepción para aceptar el archivo de entrada XML inicial que contiene el método **Get** para iniciar la orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-203">First, set up a new receive port to accept the initial XML input file that contains the **Get** method to start the orchestration.</span></span>  
   
-##### <a name="to-configure-a-receive-port"></a>Para configurar un puerto de recepción  
+##### <a name="to-configure-a-receive-port"></a><span data-ttu-id="42ddd-204">Para configurar un puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="42ddd-204">To configure a receive port</span></span>  
   
-1.  En el archivo BizTalk Orchestration.odx que abrió en el paso anterior, haga clic con el botón secundario en la superficie del puerto de la izquierda y, a continuación, haga clic en **Nuevo puerto configurado**. De esta forma, se inicia el Asistente para configuración de puertos. En la página **Asistente para configuración de puertos** , haga clic en **Siguiente**.  
+1.  <span data-ttu-id="42ddd-205">En el archivo BizTalk Orchestration.odx que abrió en el paso anterior, haga clic con el botón secundario en la superficie del puerto de la izquierda y, a continuación, haga clic en **Nuevo puerto configurado**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-205">Within the BizTalk Orchestration.odx file that you opened in the previous step, right-click the left port surface and then click **New Configured Port**.</span></span> <span data-ttu-id="42ddd-206">De esta forma, se inicia el Asistente para configuración de puertos.</span><span class="sxs-lookup"><span data-stu-id="42ddd-206">This starts the Port Configuration Wizard.</span></span> <span data-ttu-id="42ddd-207">En la página **Asistente para configuración de puertos** , haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-207">On the **Welcome to the Port Configuration Wizard** page, click **Next**.</span></span>  
   
-2.  En el equipo de **Propiedades de puerto** , escriba `FileIn` en **Nombre**y, a continuación, haga clic en **Siguiente**.  
+2.  <span data-ttu-id="42ddd-208">En el equipo de **Propiedades de puerto** , escriba `FileIn` en **Nombre**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-208">On the **Port Properties** page, enter `FileIn` for **Name**, and then click **Next**.</span></span>  
   
-3.  En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:  
+3.  <span data-ttu-id="42ddd-209">En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-209">In the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:</span></span>  
   
-     **Nombre de tipo de puerto**:`FileInPort`  
+     <span data-ttu-id="42ddd-210">**Nombre de tipo de puerto**:`FileInPort`</span><span class="sxs-lookup"><span data-stu-id="42ddd-210">**Port Type Name**: `FileInPort`</span></span>  
   
-     **Patrón de comunicación**: **Unidireccional**  
+     <span data-ttu-id="42ddd-211">**Patrón de comunicación**: **Unidireccional**</span><span class="sxs-lookup"><span data-stu-id="42ddd-211">**Communication Pattern**: **One Way**</span></span>  
   
-     **Restricciones de acceso**: **Interno: limitado a este proyecto**  
+     <span data-ttu-id="42ddd-212">**Restricciones de acceso**: **Interno: limitado a este proyecto**</span><span class="sxs-lookup"><span data-stu-id="42ddd-212">**Access Restrictions**: **Internal - limited to this project**</span></span>  
   
-4.  Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:  
+4.  <span data-ttu-id="42ddd-213">Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-213">Click **Next** to go to the **Port Binding** page, and then select the following property values:</span></span>  
   
-     **Dirección de puerto de comunicación**: **Siempre recibiré los mensajes en este puerto**  
+     <span data-ttu-id="42ddd-214">**Dirección de puerto de comunicación**: **Siempre recibiré los mensajes en este puerto**</span><span class="sxs-lookup"><span data-stu-id="42ddd-214">**Port direction of communication**: **I'll always be receiving messages on this port**</span></span>  
   
-     **Enlace de puerto**: **Especificar más tarde**  
+     <span data-ttu-id="42ddd-215">**Enlace de puerto**: **Especificar más tarde**</span><span class="sxs-lookup"><span data-stu-id="42ddd-215">**Port binding**: **Specify later**</span></span>  
   
-5.  Haga clic en **Siguiente**y, a continuación, en **Finalizar**. Va a usar el adaptador de archivo para aceptar este archivo como entrada desde el disco.  
+5.  <span data-ttu-id="42ddd-216">Haga clic en **Siguiente**y, a continuación, en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-216">Click **Next**, and then click **Finish**.</span></span> <span data-ttu-id="42ddd-217">Va a usar el adaptador de archivo para aceptar este archivo como entrada desde el disco.</span><span class="sxs-lookup"><span data-stu-id="42ddd-217">You will use the File adapter to accept this file as input from disk.</span></span>  
   
- A continuación, cree un puerto de envío para aceptar el archivo XML que contiene los resultados de ubicación desde la llamada al método **Get** de PeopleSoft. La orquestación usa el adaptador de archivo para escribir dicho archivo XML a través de este puerto de envío.  
+ <span data-ttu-id="42ddd-218">A continuación, cree un puerto de envío para aceptar el archivo XML que contiene los resultados de ubicación desde la llamada al método **Get** de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-218">Next, create a send port to accept the XML file containing the location results from the call to the PeopleSoft **Get** method.</span></span> <span data-ttu-id="42ddd-219">La orquestación usa el adaptador de archivo para escribir dicho archivo XML a través de este puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="42ddd-219">The orchestration uses the File adapter to write that XML file to disk through this send port.</span></span>  
   
-##### <a name="to-configure-a-send-port"></a>Para configurar un puerto de envío  
+##### <a name="to-configure-a-send-port"></a><span data-ttu-id="42ddd-220">Para configurar un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="42ddd-220">To configure a send port</span></span>  
   
-1.  En el archivo BizTalk Orchestration.odx, haga clic con el botón secundario en la superficie del puerto de la izquierda y haga clic en **Nuevo puerto configurado**. De esta forma, se inicia el Asistente para configuración de puertos. En la página **Asistente para configurar puertos** , haga clic en **Siguiente**.  
+1.  <span data-ttu-id="42ddd-221">En el archivo BizTalk Orchestration.odx, haga clic con el botón secundario en la superficie del puerto de la izquierda y haga clic en **Nuevo puerto configurado**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-221">Within the BizTalk Orchestration.odx file, right-click the left port surface and then click **New Configured Port**.</span></span> <span data-ttu-id="42ddd-222">De esta forma, se inicia el Asistente para configuración de puertos.</span><span class="sxs-lookup"><span data-stu-id="42ddd-222">This starts the Port Configuration Wizard.</span></span> <span data-ttu-id="42ddd-223">En la página **Asistente para configurar puertos** , haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-223">On the **Welcome to the Port Configuration Wizard** page click **Next**.</span></span>  
   
-2.  En el equipo de **Propiedades de puerto** , escriba `FileOut` en **Nombre**y, a continuación, haga clic en **Siguiente**.  
+2.  <span data-ttu-id="42ddd-224">En el equipo de **Propiedades de puerto** , escriba `FileOut` en **Nombre**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-224">On the **Port Properties** page, enter `FileOut` for **Name**, and then click **Next**.</span></span>  
   
-3.  En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:  
+3.  <span data-ttu-id="42ddd-225">En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-225">On the **Select a Port Type** page, select **Create a new Port Type**, and then enter or select the following property values:</span></span>  
   
-     **Nombre de tipo de puerto**:`FileOutPort`  
+     <span data-ttu-id="42ddd-226">**Nombre de tipo de puerto**:`FileOutPort`</span><span class="sxs-lookup"><span data-stu-id="42ddd-226">**Port Type Name**: `FileOutPort`</span></span>  
   
-     **Patrón de comunicación**: **Unidireccional**  
+     <span data-ttu-id="42ddd-227">**Patrón de comunicación**: **Unidireccional**</span><span class="sxs-lookup"><span data-stu-id="42ddd-227">**Communication Pattern**: **One Way**</span></span>  
   
-     **Restricciones de acceso**: **Interno: limitado a este proyecto**  
+     <span data-ttu-id="42ddd-228">**Restricciones de acceso**: **Interno: limitado a este proyecto**</span><span class="sxs-lookup"><span data-stu-id="42ddd-228">**Access Restrictions**: **Internal - limited to this project**</span></span>  
   
-4.  Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:  
+4.  <span data-ttu-id="42ddd-229">Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-229">Click **Next** to go to the **Port Binding** page, and then select the following property values:</span></span>  
   
-     **Dirección de puerto de comunicación**: **Siempre enviaré los mensajes en este puerto**  
+     <span data-ttu-id="42ddd-230">**Dirección de puerto de comunicación**: **Siempre enviaré los mensajes en este puerto**</span><span class="sxs-lookup"><span data-stu-id="42ddd-230">**Port direction of communication**: **I'll always be sending messages on this port**</span></span>  
   
-     **Enlace de puerto**: **Especificar más tarde**  
+     <span data-ttu-id="42ddd-231">**Enlace de puerto**: **Especificar más tarde**</span><span class="sxs-lookup"><span data-stu-id="42ddd-231">**Port binding**: **Specify later**</span></span>  
   
-5.  Haga clic en **Siguiente**y, a continuación, en **Finalizar**.  
+5.  <span data-ttu-id="42ddd-232">Haga clic en **Siguiente**y, a continuación, en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-232">Click **Next**, and then click **Finish**.</span></span>  
   
- Por último, cree un puerto de envío o recepción para enviar al sistema PeopleSoft el archivo de entrada XML inicial que contiene el método **Get** . Este puerto también recibirá un archivo XML que contiene la información de ubicación resultante de la llamada al método **Get** en el sistema PeopleSoft.  
+ <span data-ttu-id="42ddd-233">Por último, cree un puerto de envío o recepción para enviar al sistema PeopleSoft el archivo de entrada XML inicial que contiene el método **Get** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-233">Finally, create a send/receive port to send the initial XML input file containing the **Get** method to the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-234">Este puerto también recibirá un archivo XML que contiene la información de ubicación resultante de la llamada al método **Get** en el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-234">This port will also receive an XML file containing the location information that results from the **Get** method call on the PeopleSoft system.</span></span>  
   
-##### <a name="to-configure-a-sendreceive-port"></a>Para configurar un puerto de envío o recepción  
+##### <a name="to-configure-a-sendreceive-port"></a><span data-ttu-id="42ddd-235">Para configurar un puerto de envío o recepción</span><span class="sxs-lookup"><span data-stu-id="42ddd-235">To configure a send/receive port</span></span>  
   
-1.  En el archivo BizTalk Orchestration.odx, haga clic con el botón secundario en la superficie del puerto de la derecha y haga clic en **Nuevo puerto configurado**. De esta forma, se inicia el Asistente para configuración de puertos. En la página **Asistente para configuración de puertos** , haga clic en **Siguiente**.  
+1.  <span data-ttu-id="42ddd-236">En el archivo BizTalk Orchestration.odx, haga clic con el botón secundario en la superficie del puerto de la derecha y haga clic en **Nuevo puerto configurado**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-236">Within the BizTalk Orchestration.odx file, right-click the right port surface and then click **New Configured Port**.</span></span> <span data-ttu-id="42ddd-237">De esta forma, se inicia el Asistente para configuración de puertos.</span><span class="sxs-lookup"><span data-stu-id="42ddd-237">This starts the Port Configuration Wizard.</span></span> <span data-ttu-id="42ddd-238">En la página **Asistente para configuración de puertos** , haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-238">On the **Welcome to the Port Configuration Wizard** page, click **Next**.</span></span>  
   
-2.  En el equipo de **Propiedades de puerto** , escriba `PeopleSoft_Port` en **Nombre**y, a continuación, haga clic en **Siguiente**.  
+2.  <span data-ttu-id="42ddd-239">En el equipo de **Propiedades de puerto** , escriba `PeopleSoft_Port` en **Nombre**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-239">On the **Port Properties** page, enter `PeopleSoft_Port` for **Name**, and then click **Next**.</span></span>  
   
-3.  En la página **Seleccione un tipo de puerto** , seleccione **Utilizar un tipo de puerto existente**. Para **Tipos de puertos disponibles**, seleccione **PS_Test.LOCATION**y haga clic en **Siguiente**.  
+3.  <span data-ttu-id="42ddd-240">En la página **Seleccione un tipo de puerto** , seleccione **Utilizar un tipo de puerto existente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-240">On the **Select a Port Type** page, select **Use an existing Port Type**.</span></span> <span data-ttu-id="42ddd-241">Para **Tipos de puertos disponibles**, seleccione **PS_Test.LOCATION**y haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-241">For **Available Port Types**, select **PS_Test.LOCATION**, and then click **Next**.</span></span>  
   
      ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
   
-4.  Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:  
+4.  <span data-ttu-id="42ddd-242">Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-242">Click **Next** to go to the **Port Binding** page, and then select the following property values:</span></span>  
   
-     **Dirección de puerto de comunicación**: **Enviaré una solicitud y recibiré una respuesta.**  
+     <span data-ttu-id="42ddd-243">**Dirección de puerto de comunicación**: **Enviaré una solicitud y recibiré una respuesta.**</span><span class="sxs-lookup"><span data-stu-id="42ddd-243">**Port direction of communication**: **I'll always be sending a request and receiving a response**</span></span>  
   
-     **Enlace de puerto**: **Especificar más tarde**  
+     <span data-ttu-id="42ddd-244">**Enlace de puerto**: **Especificar más tarde**</span><span class="sxs-lookup"><span data-stu-id="42ddd-244">**Port binding**: **Specify later**</span></span>  
   
-5.  Haga clic en **Siguiente**y, a continuación, en **Finalizar**.  
+5.  <span data-ttu-id="42ddd-245">Haga clic en **Siguiente**y, a continuación, en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-245">Click **Next**, and then click **Finish**.</span></span>  
   
- Mostrados en la superficie del puerto son el nuevo puerto y los métodos disponibles para el servicio Ubicación de PeopleSoft. Más adelante especificará el adaptador de PeopleSoft para enviar y recibir archivos desde el sistema PeopleSoft.  
+ <span data-ttu-id="42ddd-246">Mostrados en la superficie del puerto son el nuevo puerto y los métodos disponibles para el servicio Ubicación de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-246">Displayed on the port surface are the new port and the available methods for the PeopleSoft Location service.</span></span> <span data-ttu-id="42ddd-247">Más adelante especificará el adaptador de PeopleSoft para enviar y recibir archivos desde el sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-247">Later you will specify the PeopleSoft adapter to send and receive files from the PeopleSoft system.</span></span>  
   
- Ahora, inserte dos formas **Enviar** y dos formas **Recibir** en la orquestación para vincular con los puertos que acaba de crear.  
+ <span data-ttu-id="42ddd-248">Ahora, inserte dos formas **Enviar** y dos formas **Recibir** en la orquestación para vincular con los puertos que acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="42ddd-248">Now insert two **Send** shapes and two **Receive** shapes into the orchestration to link to the ports you just created.</span></span>  
   
-##### <a name="to-add-send-and-receive-shapes"></a>Procedimiento para agregar formas de envío y recepción  
+##### <a name="to-add-send-and-receive-shapes"></a><span data-ttu-id="42ddd-249">Procedimiento para agregar formas de envío y recepción</span><span class="sxs-lookup"><span data-stu-id="42ddd-249">To add Send and Receive shapes</span></span>  
   
-1.  Arrastre un componente **Recepción** desde el cuadro de herramientas y suéltelo inmediatamente debajo del inicio de la orquestación (el círculo verde). Haga clic en la forma **Recibir** y, en la ventana Propiedades, escriba `FromDisk` para **Nombre**y defina **Activar** en `true`. De este modo se activará la orquestación cuando se reciba un documento entrante en este puerto de recepción.  
+1.  <span data-ttu-id="42ddd-250">Arrastre un componente **Recepción** desde el cuadro de herramientas y suéltelo inmediatamente debajo del inicio de la orquestación (el círculo verde).</span><span class="sxs-lookup"><span data-stu-id="42ddd-250">Drag a **Receive** component from the Toolbox and drop it immediately below the start of the orchestration (the green circle).</span></span> <span data-ttu-id="42ddd-251">Haga clic en la forma **Recibir** y, en la ventana Propiedades, escriba `FromDisk` para **Nombre**y defina **Activar** en `true`.</span><span class="sxs-lookup"><span data-stu-id="42ddd-251">Click the **Receive** shape, and in the Properties window, enter `FromDisk` for the **Name**, and set **Activate** to `true`.</span></span> <span data-ttu-id="42ddd-252">De este modo se activará la orquestación cuando se reciba un documento entrante en este puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="42ddd-252">Doing so will activate the orchestration when an incoming document is received on this receive port.</span></span>  
   
-2.  Arrastre un **enviar** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **FromDiskReceive** forma. Haga clic en la nueva forma **Enviar** y, en la ventana Propiedades, escriba `ToPS` para **Nombre**.  
+2.  <span data-ttu-id="42ddd-253">Arrastre un **enviar** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **FromDiskReceive** forma.</span><span class="sxs-lookup"><span data-stu-id="42ddd-253">Drag a **Send** component from the Toolbox and drop it immediately below the **FromDiskReceive** shape.</span></span> <span data-ttu-id="42ddd-254">Haga clic en la nueva forma **Enviar** y, en la ventana Propiedades, escriba `ToPS` para **Nombre**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-254">Click the new **Send** shape, and in the Properties window, enter `ToPS` for the **Name**.</span></span>  
   
-3.  Arrastre un **recepción** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **To_PS *** enviar** forma. Haga clic en la forma **Recibir** y, en la ventana Propiedades, escriba `FromPS` para **Nombre**.  
+3.  <span data-ttu-id="42ddd-255">Arrastre un **recepción** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **To_PS *** enviar** forma.</span><span class="sxs-lookup"><span data-stu-id="42ddd-255">Drag a **Receive** component from the Toolbox and drop it immediately below the **To_PS****Send** shape.</span></span> <span data-ttu-id="42ddd-256">Haga clic en la forma **Recibir** y, en la ventana Propiedades, escriba `FromPS` para **Nombre**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-256">Click the **Receive** shape, and in the Properties window, enter `FromPS` for the **Name**.</span></span>  
   
-4.  Arrastre un **enviar** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **From_PSReceive** forma. Haga clic en la nueva forma **Enviar** y, en la ventana Propiedades, escriba `ToDisk` para **Nombre**.  
+4.  <span data-ttu-id="42ddd-257">Arrastre un **enviar** componente del cuadro de herramientas y suéltelo inmediatamente debajo del **From_PSReceive** forma.</span><span class="sxs-lookup"><span data-stu-id="42ddd-257">Drag a **Send** component from the Toolbox and drop it immediately below the **From_PSReceive** shape.</span></span> <span data-ttu-id="42ddd-258">Haga clic en la nueva forma **Enviar** y, en la ventana Propiedades, escriba `ToDisk` para **Nombre**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-258">Click the new **Send** shape, and in the Properties window, enter `ToDisk` for the **Name**.</span></span>  
   
- Para poder conectar estas formas a puertos lógicos, debe definir los tipos de mensajes que desea procesar. El adaptador necesita tanto un mensaje de entrada (método**Request** ) como un mensaje de salida (método**Response** ). Los mensajes para cada uno de los métodos son diferentes.  
+ <span data-ttu-id="42ddd-259">Para poder conectar estas formas a puertos lógicos, debe definir los tipos de mensajes que desea procesar.</span><span class="sxs-lookup"><span data-stu-id="42ddd-259">Before you can connect these shapes to logical ports, you need to define the message types to be processed.</span></span> <span data-ttu-id="42ddd-260">El adaptador necesita tanto un mensaje de entrada (método**Request** ) como un mensaje de salida (método**Response** ).</span><span class="sxs-lookup"><span data-stu-id="42ddd-260">The adapter needs both an incoming (**Request** method) message and an outgoing (**Response** method) message.</span></span> <span data-ttu-id="42ddd-261">Los mensajes para cada uno de los métodos son diferentes.</span><span class="sxs-lookup"><span data-stu-id="42ddd-261">The messages for each of the methods are different.</span></span>  
   
- En esta orquestación, solo usa los mensajes **Get-Request** y **Get-Response** . Si la orquestación estuviera actualizando datos, por ejemplo mediante el método **UpdateEx** , requeriría diferentes mensajes de solicitud y respuesta.  
+ <span data-ttu-id="42ddd-262">En esta orquestación, solo usa los mensajes **Get-Request** y **Get-Response** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-262">In this orchestration, you are only using the **Get-Request** and **Get-Response** messages.</span></span> <span data-ttu-id="42ddd-263">Si la orquestación estuviera actualizando datos, por ejemplo mediante el método **UpdateEx** , requeriría diferentes mensajes de solicitud y respuesta.</span><span class="sxs-lookup"><span data-stu-id="42ddd-263">If the orchestration were updating the data, say by using the **UpdateEx** method, it would require different Request/Response messages.</span></span>  
   
-##### <a name="to-define-and-assign-messages-to-ports"></a>Para definir y asignar mensajes a puertos  
+##### <a name="to-define-and-assign-messages-to-ports"></a><span data-ttu-id="42ddd-264">Para definir y asignar mensajes a puertos</span><span class="sxs-lookup"><span data-stu-id="42ddd-264">To define and assign messages to ports</span></span>  
   
-1.  En la superficie del puerto de la izquierda, haga clic en **Solicitud** en el puerto **FileIn** . En la ventana Propiedades, expanda **Tipo de mensaje**y **Mensaje de varias partes**, y haga clic en **PS_Test.Get**.  
+1.  <span data-ttu-id="42ddd-265">En la superficie del puerto de la izquierda, haga clic en **Solicitud** en el puerto **FileIn** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-265">On the left port surface, click **Request** on the **FileIn** port.</span></span> <span data-ttu-id="42ddd-266">En la ventana Propiedades, expanda **Tipo de mensaje**y **Mensaje de varias partes**, y haga clic en **PS_Test.Get**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-266">In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **PS_Test.Get**.</span></span>  
   
-2.  En la superficie del puerto de la izquierda, haga clic en **Solicitud** en el puerto **FileOut** . En la ventana Propiedades, expanda **Tipo de mensaje**y **Mensaje de varias partes**, y haga clic en **PS_Test.GetResponse**.  
+2.  <span data-ttu-id="42ddd-267">En la superficie del puerto de la izquierda, haga clic en **Solicitud** en el puerto **FileOut** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-267">On the left port surface, click **Request** on the **FileOut** port.</span></span> <span data-ttu-id="42ddd-268">En la ventana Propiedades, expanda **Tipo de mensaje**y **Mensaje de varias partes**, y haga clic en **PS_Test.GetResponse**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-268">In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **PS_Test.GetResponse**.</span></span>  
   
      ![](../core/media/6b844ca3-322a-47b3-8cfd-68652c950752.gif "6b844ca3-322a-47b3-8cfd-68652c950752")  
   
-3.  Seleccione el puerto **FileIn** y arrastre su flecha de envío de salida a la flecha de recepción opuesta de entrada en la forma **FromDisk** .  
+3.  <span data-ttu-id="42ddd-269">Seleccione el puerto **FileIn** y arrastre su flecha de envío de salida a la flecha de recepción opuesta de entrada en la forma **FromDisk** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-269">Select the **FileIn** port and drag its outgoing send arrow to the incoming converse receive arrow on the **FromDisk** shape.</span></span>  
   
-4.  Seleccione el puerto **FileOut** y arrastre su flecha de recepción opuesta de entrada a la flecha de envío de salida en la forma **ToDisk** .  
+4.  <span data-ttu-id="42ddd-270">Seleccione el puerto **FileOut** y arrastre su flecha de recepción opuesta de entrada a la flecha de envío de salida en la forma **ToDisk** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-270">Select the **FileOut** port and drag its incoming converse receive arrow to the outgoing send arrow on the **ToDisk** shape.</span></span>  
   
-5.  Cambie el nombre de los mensajes genéricos existentes por nombres más descriptivos para adherirse a los principios de buen diseño de aplicaciones. En el Explorador de soluciones, haga clic en la pestaña **Vista orquestación** . En **mensajes**, cambie el identificador para **Message_1** a **PS_Msg**. Cambie el identificador para **Message_2** a **PS_Resp**.  
+5.  <span data-ttu-id="42ddd-271">Cambie el nombre de los mensajes genéricos existentes por nombres más descriptivos para adherirse a los principios de buen diseño de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="42ddd-271">Rename existing generic message names to more descriptive names to adhere to good application design principles.</span></span> <span data-ttu-id="42ddd-272">En el Explorador de soluciones, haga clic en la pestaña **Vista orquestación** . En **mensajes**, cambie el identificador para **Message_1** a **PS_Msg**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-272">In Solution Explorer, click the **Orchestration View** tab. Under **Messages**, change the identifier for **Message_1** to **PS_Msg**.</span></span> <span data-ttu-id="42ddd-273">Cambie el identificador para **Message_2** a **PS_Resp**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-273">Change the identifier for **Message_2** to **PS_Resp**.</span></span>  
   
      ![](../core/media/5ec92b81-4a55-4d44-a360-78a6aaa64255.gif "5ec92b81-4a55-4d44-a360-78a6aaa64255")  
   
      ![](../core/media/04b31c26-73a6-40a6-8d50-39c7c929d6a1.gif "04b31c26-73a6-40a6-8d50-39c7c929d6a1")  
   
-6.  Resalte la forma de envío **To_PS** y establezca su propiedad **Mensaje** en **PS_Msg**.  
+6.  <span data-ttu-id="42ddd-274">Resalte la forma de envío **To_PS** y establezca su propiedad **Mensaje** en **PS_Msg**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-274">Highlight the **To_PS** send shape and set its **Message** property to **PS_Msg**.</span></span>  
   
-7.  Resalte la forma de recepción **From_PS** y establezca su propiedad **Mensaje** en **PS_Resp**.  
+7.  <span data-ttu-id="42ddd-275">Resalte la forma de recepción **From_PS** y establezca su propiedad **Mensaje** en **PS_Resp**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-275">Highlight the **From_PS** receive shape and set its **Message** property to **PS_Resp**.</span></span>  
   
-8.  Conecte la forma de envío **To_PS** a la parte **Solicitud** del método **Get** en el puerto **PeopleSoft_Port** .  
+8.  <span data-ttu-id="42ddd-276">Conecte la forma de envío **To_PS** a la parte **Solicitud** del método **Get** en el puerto **PeopleSoft_Port** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-276">Connect the **To_PS** send shape to the **Request** portion of the **Get** method on the **PeopleSoft_Port** port.</span></span>  
   
-9. Conecte la forma de envío **From_PS** a la parte **Respuesta** del método **Get** en el puerto **PeopleSoft_Port** .  
+9. <span data-ttu-id="42ddd-277">Conecte la forma de envío **From_PS** a la parte **Respuesta** del método **Get** en el puerto **PeopleSoft_Port** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-277">Connect the **From_PS** send shape to the **Response** portion of the **Get** method on the **PeopleSoft_Port** port.</span></span>  
   
      ![](../core/media/d16e02bc-954c-4aa2-99d6-3fee1222c730.gif "d16e02bc-954c-4aa2-99d6-3fee1222c730")  
   
-### <a name="building-and-deploying-the-project"></a>Generación e implementación del proyecto  
- Ahora, el proyecto de BizTalk está completo y puede generarlo e implementarlo en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+### <a name="building-and-deploying-the-project"></a><span data-ttu-id="42ddd-278">Generación e implementación del proyecto</span><span class="sxs-lookup"><span data-stu-id="42ddd-278">Building and Deploying the Project</span></span>  
+ <span data-ttu-id="42ddd-279">Ahora, el proyecto de BizTalk está completo y puede generarlo e implementarlo en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-279">Now the BizTalk project is complete and you can build and deploy it in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
   
-##### <a name="to-build-and-deploy-the-project"></a>Procedimiento para generar e implementar el proyecto  
+##### <a name="to-build-and-deploy-the-project"></a><span data-ttu-id="42ddd-280">Procedimiento para generar e implementar el proyecto</span><span class="sxs-lookup"><span data-stu-id="42ddd-280">To build and deploy the project</span></span>  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]** , seleccione **Visual Studio Tools**y, a continuación, haga clic en  **[!INCLUDE[vs2010](../includes/vs2010-md.md)] Símbolo**.  
+1.  <span data-ttu-id="42ddd-281">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]** , seleccione **Visual Studio Tools**y, a continuación, haga clic en  **[!INCLUDE[vs2010](../includes/vs2010-md.md)] Símbolo**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-281">Click **Start**, point to **All Programs**, point to **Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]**, point to **Visual Studio Tools**, and then click**[!INCLUDE[vs2010](../includes/vs2010-md.md)] Command Prompt**.</span></span>  
   
-2.  Para generar el proyecto, necesita un archivo de clave de nombre seguro. En el símbolo del sistema, escriba lo siguiente para crear un archivo de clave de nombre seguro:  
+2.  <span data-ttu-id="42ddd-282">Para generar el proyecto, necesita un archivo de clave de nombre seguro. En el símbolo del sistema, escriba lo siguiente para crear un archivo de clave de nombre seguro:</span><span class="sxs-lookup"><span data-stu-id="42ddd-282">To build the project, you need a strong name key file.At the command prompt, enter the following to create a strong name key file:</span></span>  
   
-     **sn -k labs.snk**  
+     <span data-ttu-id="42ddd-283">**sn -k labs.snk**</span><span class="sxs-lookup"><span data-stu-id="42ddd-283">**sn -k labs.snk**</span></span>  
   
-3.  En el Explorador de soluciones, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Propiedades** para iniciar el Diseñador de proyectos para el proyecto.  
+3.  <span data-ttu-id="42ddd-284">En el Explorador de soluciones, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Propiedades** para iniciar el Diseñador de proyectos para el proyecto.</span><span class="sxs-lookup"><span data-stu-id="42ddd-284">In Solution Explorer, right-click the **PS_Test** project and then click **Properties** to launch the Project Designer for the project..</span></span>  
   
-4.  Haga clic en la pestaña **Firma** .  
+4.  <span data-ttu-id="42ddd-285">Haga clic en la pestaña **Firma** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-285">Click the **Signing** tab.</span></span>  
   
-5.  Seleccione la opción **Firmar el ensamblado** , haga clic en la lista desplegable para la opción **Seleccione un archivo de clave de nombre seguro** y, a continuación, haga clic en **Examinar**.  
+5.  <span data-ttu-id="42ddd-286">Seleccione la opción **Firmar el ensamblado** , haga clic en la lista desplegable para la opción **Seleccione un archivo de clave de nombre seguro** y, a continuación, haga clic en **Examinar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-286">Select **Sign the assembly** option, click drop-down list for the **Choose a strong name key file** option, and then click **Browse**.</span></span>  
   
-6.  Busque y seleccione el archivo de clave: **labs.snk**y, a continuación, haga clic en **Abrir**.  
+6.  <span data-ttu-id="42ddd-287">Busque y seleccione el archivo de clave: **labs.snk**y, a continuación, haga clic en **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-287">Browse to select the key file: **labs.snk**, and then click **Open**.</span></span>  
   
-7.  Haga clic en la pestaña **Implementación** del Diseñador de proyectos.  
+7.  <span data-ttu-id="42ddd-288">Haga clic en la pestaña **Implementación** del Diseñador de proyectos.</span><span class="sxs-lookup"><span data-stu-id="42ddd-288">Click **Deployment** tab in the Project Designer.</span></span>  
   
-8.  Establezca el **Nombre de la aplicación** en `PS_Test`.  
+8.  <span data-ttu-id="42ddd-289">Establezca el **Nombre de la aplicación** en `PS_Test`.</span><span class="sxs-lookup"><span data-stu-id="42ddd-289">Set the **Application Name** to `PS_Test`.</span></span>  
   
-9. En el Explorador de soluciones, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Generar**.  
+9. <span data-ttu-id="42ddd-290">En el Explorador de soluciones, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Generar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-290">In Solution Explorer, right-click the **PS_Test** project, and then click **Build.**</span></span>  
   
-10. Después de que la generación se complete correctamente, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Implementar**.  
+10. <span data-ttu-id="42ddd-291">Después de que la generación se complete correctamente, haga clic con el botón secundario en el proyecto **PS_Test** y, a continuación, haga clic en **Implementar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-291">After the build completes successfully, right-click the **PS_Test** project, and then click **Deploy**.</span></span>  
   
-### <a name="testing-the-application-and-viewing-the-xml-output"></a>Prueba de la aplicación y visualización de la salida XML  
- A continuación, probará la aplicación que acaba de crear e implementar. Creará el archivo XML que inicia el proceso de orquestación y, a continuación, configurará carpetas para recibir y enviar archivos XML en la aplicación. Una vez que haya configurado la aplicación, la ejecutará y visualizará los archivos XML que devuelve la orquestación.  
+### <a name="testing-the-application-and-viewing-the-xml-output"></a><span data-ttu-id="42ddd-292">Prueba de la aplicación y visualización de la salida XML</span><span class="sxs-lookup"><span data-stu-id="42ddd-292">Testing the Application and Viewing the XML Output</span></span>  
+ <span data-ttu-id="42ddd-293">A continuación, probará la aplicación que acaba de crear e implementar.</span><span class="sxs-lookup"><span data-stu-id="42ddd-293">Now you will test the application that you have created and deployed.</span></span> <span data-ttu-id="42ddd-294">Creará el archivo XML que inicia el proceso de orquestación y, a continuación, configurará carpetas para recibir y enviar archivos XML en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-294">You will create the XML file that starts the orchestration process, and then you will configure folders to receive and send XML files within the application.</span></span> <span data-ttu-id="42ddd-295">Una vez que haya configurado la aplicación, la ejecutará y visualizará los archivos XML que devuelve la orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-295">After you have configured the application, you will run it and view the XML files that the orchestration returns.</span></span>  
   
-##### <a name="to-generate-the-xml-file-for-the-query"></a>Procedimiento para generar el archivo XML de la consulta  
+##### <a name="to-generate-the-xml-file-for-the-query"></a><span data-ttu-id="42ddd-296">Procedimiento para generar el archivo XML de la consulta</span><span class="sxs-lookup"><span data-stu-id="42ddd-296">To generate the XML file for the query</span></span>  
   
-1.  En el Explorador de soluciones, haga doble clic en **LOCATIONService_LOCATION_x5d.xsd** para abrir el archivo.  
+1.  <span data-ttu-id="42ddd-297">En el Explorador de soluciones, haga doble clic en **LOCATIONService_LOCATION_x5d.xsd** para abrir el archivo.</span><span class="sxs-lookup"><span data-stu-id="42ddd-297">In Solution Explorer, double-click **LOCATIONService_LOCATION_x5d.xsd** to open the file.</span></span>  
   
-2.  Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Propiedades**. Para **Nombre de archivo de instancia de salida** , escriba la siguiente ruta de acceso y nombre de archivo para el XML del ejemplo:  
+2.  <span data-ttu-id="42ddd-298">Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-298">Right-click **LOCATIONService_LOCATION_x5d.xsd** and then click **Properties**.</span></span> <span data-ttu-id="42ddd-299">Para **Nombre de archivo de instancia de salida** , escriba la siguiente ruta de acceso y nombre de archivo para el XML del ejemplo:</span><span class="sxs-lookup"><span data-stu-id="42ddd-299">For the **Output Instance Filename** enter the following path and file name for the sample XML:</span></span>  
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema >** y establecer **referencia raíz: obtener**.  
+3.  <span data-ttu-id="42ddd-300">Haga clic en **Aceptar.**</span><span class="sxs-lookup"><span data-stu-id="42ddd-300">Click **OK.**</span></span> <span data-ttu-id="42ddd-301">En la ventana Propiedades, seleccione  **\<esquema >** y establecer **referencia raíz: obtener**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-301">In the Properties window, select **\<Schema>** and set **Root Reference: Get**.</span></span>  
   
-4.  Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Generar instancia**. De este modo se genera el archivo **SampleQuery.xml** . Este archivo se colocará en la ubicación de recepción como entrada del adaptador para iniciar el proceso de orquestación.  
+4.  <span data-ttu-id="42ddd-302">Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Generar instancia**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-302">Right-click **LOCATIONService_LOCATION_x5d.xsd** and then click **Generate Instance**.</span></span> <span data-ttu-id="42ddd-303">De este modo se genera el archivo **SampleQuery.xml** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-303">This generates the **SampleQuery.xml** file.</span></span> <span data-ttu-id="42ddd-304">Este archivo se colocará en la ubicación de recepción como entrada del adaptador para iniciar el proceso de orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-304">This file will be dropped in the receive location as input to the adapter to start the orchestration process.</span></span>  
   
      ![](../core/media/ef65a96c-2daa-44db-ab95-d18b1fda934e.gif "ef65a96c-2daa-44db-ab95-d18b1fda934e")  
   
-##### <a name="to-configure-and-start-the-biztalk-application"></a>Procedimiento para configurar e iniciar la aplicación BizTalk  
+##### <a name="to-configure-and-start-the-biztalk-application"></a><span data-ttu-id="42ddd-305">Procedimiento para configurar e iniciar la aplicación BizTalk</span><span class="sxs-lookup"><span data-stu-id="42ddd-305">To configure and start the BizTalk application</span></span>  
   
-1.  Configure carpetas para recibir los archivos entrantes y enviar los salientes. Vaya a **C:\LABS\PS_TEST** y cree dos nuevas subcarpetas denominadas `FileIn` y `FileOut`.  
+1.  <span data-ttu-id="42ddd-306">Configure carpetas para recibir los archivos entrantes y enviar los salientes.</span><span class="sxs-lookup"><span data-stu-id="42ddd-306">Configure folders for receiving the incoming files and sending the outgoing files.</span></span> <span data-ttu-id="42ddd-307">Vaya a **C:\LABS\PS_TEST** y cree dos nuevas subcarpetas denominadas `FileIn` y `FileOut`.</span><span class="sxs-lookup"><span data-stu-id="42ddd-307">Go to **C:\LABS\PS_TEST** and create two new subfolders named `FileIn` and `FileOut`.</span></span>  
   
-2.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Aplicaciones**, haga clic en **PS_Test** y, a continuación, haga clic en **configurar**.  
+2.  <span data-ttu-id="42ddd-308">En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **raíz de consola**, expanda[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda **grupo de BizTalk**, expanda **Aplicaciones**, haga clic en **PS_Test** y, a continuación, haga clic en **configurar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-308">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,expand **Console Root**, expand[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.</span></span>  
   
      ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
-3.  Seleccione **Orchestration_1** y haga clic en el cuadro desplegable **Host** . Seleccionar **BizTalkServerApplication**.  
+3.  <span data-ttu-id="42ddd-309">Seleccione **Orchestration_1** y haga clic en el cuadro desplegable **Host** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-309">Select **Orchestration_1** and click the **Host** drop-down box.</span></span> <span data-ttu-id="42ddd-310">Seleccionar **BizTalkServerApplication**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-310">Select **BizTalkServerApplication**.</span></span>  
   
-4.  En **puertos de recepción**, haga clic en  **\<ninguno >**. En la lista desplegable, seleccione **Nuevo puerto de recepción**.  
+4.  <span data-ttu-id="42ddd-311">En **puertos de recepción**, haga clic en  **\<ninguno >**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-311">Under **Receive Ports**, click **\<None>**.</span></span> <span data-ttu-id="42ddd-312">En la lista desplegable, seleccione **Nuevo puerto de recepción**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-312">In the drop-down list, select **New Receive Port**.</span></span>  
   
-5.  For **Nombre**, escriba `FileInPort`y, a continuación, haga clic en **Aceptar**. Aparecerá un cuadro de mensaje que indica que debe designar una ubicación de recepción. Haga clic en **Aceptar**y, a continuación, en **Nuevo**.  
+5.  <span data-ttu-id="42ddd-313">For **Nombre**, escriba `FileInPort`y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-313">For **Name**, type `FileInPort`, and then click **OK**.</span></span> <span data-ttu-id="42ddd-314">Aparecerá un cuadro de mensaje que indica que debe designar una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="42ddd-314">A message box appears stating that you need to designate a receive location.</span></span> <span data-ttu-id="42ddd-315">Haga clic en **Aceptar**y, a continuación, en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-315">Click **OK**, and then click **New**.</span></span>  
   
      ![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
   
-6.  Escriba o seleccione los siguientes valores para las propiedades:  
+6.  <span data-ttu-id="42ddd-316">Escriba o seleccione los siguientes valores para las propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-316">Type or select the following values for the properties:</span></span>  
   
-     **Nombre**:`FileInLoc`  
+     <span data-ttu-id="42ddd-317">**Nombre**:`FileInLoc`</span><span class="sxs-lookup"><span data-stu-id="42ddd-317">**Name**: `FileInLoc`</span></span>  
   
-     **Tipo**: **Archivo**  
+     <span data-ttu-id="42ddd-318">**Tipo**: **Archivo**</span><span class="sxs-lookup"><span data-stu-id="42ddd-318">**Type**: **File**</span></span>  
   
-     **Controlador de recepción**: **BizTalkServerApplication**  
+     <span data-ttu-id="42ddd-319">**Controlador de recepción**: **BizTalkServerApplication**</span><span class="sxs-lookup"><span data-stu-id="42ddd-319">**Receive Handler**: **BizTalkServerApplication**</span></span>  
   
-     **Canalización de recepción**: **XMLReceive**  
+     <span data-ttu-id="42ddd-320">**Canalización de recepción**: **XMLReceive**</span><span class="sxs-lookup"><span data-stu-id="42ddd-320">**Receive Pipeline**: **XMLReceive**</span></span>  
   
      ![](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
   
-7.  En el menú **Configurar** y escriba `C:\LABS\PS_TEST\FILEIN` en **Carpetas de recepción**y, a continuación, haga clic en **Aceptar** .  
+7.  <span data-ttu-id="42ddd-321">En el menú **Configurar** y escriba `C:\LABS\PS_TEST\FILEIN` en **Carpetas de recepción**y, a continuación, haga clic en **Aceptar** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-321">Click **Configure** and type `C:\LABS\PS_TEST\FILEIN` for **Receive Folder**, and then click **OK** three times.</span></span>  
   
      ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  Haga clic en  **\<ninguno >** para **PeopleSoft_Port** en la lista desplegable.  
+8.  <span data-ttu-id="42ddd-322">Haga clic en  **\<ninguno >** para **PeopleSoft_Port** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="42ddd-322">Click **\<None>** for **PeopleSoft_Port** in the drop-down list.</span></span>  
   
-9. Seleccione **Nuevo puerto de envío** y, a continuación, seleccione o escriba los siguientes valores para las propiedades.  
+9. <span data-ttu-id="42ddd-323">Seleccione **Nuevo puerto de envío** y, a continuación, seleccione o escriba los siguientes valores para las propiedades.</span><span class="sxs-lookup"><span data-stu-id="42ddd-323">Select **New Send Port** and then select or type the following values for the properties.</span></span>  
   
-     **Nombre**:`PS_Test_Port`  
+     <span data-ttu-id="42ddd-324">**Nombre**:`PS_Test_Port`</span><span class="sxs-lookup"><span data-stu-id="42ddd-324">**Name**: `PS_Test_Port`</span></span>  
   
-     **Tipo**: **PeopleSoft**  
+     <span data-ttu-id="42ddd-325">**Tipo**: **PeopleSoft**</span><span class="sxs-lookup"><span data-stu-id="42ddd-325">**Type**: **PeopleSoft**</span></span>  
   
-     **Controlador de envío**: **BizTalkServerApplication**  
+     <span data-ttu-id="42ddd-326">**Controlador de envío**: **BizTalkServerApplication**</span><span class="sxs-lookup"><span data-stu-id="42ddd-326">**Send Handler**: **BizTalkServerApplication**</span></span>  
   
-     **Canalizaciones**: **XMLTransmit** y **XMLReceive**  
+     <span data-ttu-id="42ddd-327">**Canalizaciones**: **XMLTransmit** y **XMLReceive**</span><span class="sxs-lookup"><span data-stu-id="42ddd-327">**Pipelines**: **XMLTransmit** and **XMLReceive**</span></span>  
   
-10. Haga clic en **Configurar**y escriba los siguientes valores de propiedades:  
+10. <span data-ttu-id="42ddd-328">Haga clic en **Configurar**y escriba los siguientes valores de propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-328">Click **Configure**, and then enter the following property values:</span></span>  
   
-    1.  **Ruta de acceso al servidor de aplicaciones**: **//Servername:9000**  
+    1.  <span data-ttu-id="42ddd-329">**Ruta de acceso al servidor de aplicaciones**: **//Servername:9000**</span><span class="sxs-lookup"><span data-stu-id="42ddd-329">**Application server path**: **//Servername:9000**</span></span>  
   
-         nombreDelServidor es el servidor de la aplicación. Se trata del nombre de servidor específico o de la dirección IP y número de puerto para este sistema PeopleSoft.  
+         <span data-ttu-id="42ddd-330">nombreDelServidor es el servidor de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-330">Servername is your application server.</span></span> <span data-ttu-id="42ddd-331">Se trata del nombre de servidor específico o de la dirección IP y número de puerto para este sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-331">This is the specific server name or IP address and port number for this PeopleSoft system.</span></span>  
   
-    2.  **JAVA_HOME**: **C:\J2SDK1.4.2_08**  
+    2.  <span data-ttu-id="42ddd-332">**JAVA_HOME**: **C:\J2SDK1.4.2_08**</span><span class="sxs-lookup"><span data-stu-id="42ddd-332">**JAVA_HOME**: **C:\J2SDK1.4.2_08**</span></span>  
   
-         Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+         <span data-ttu-id="42ddd-333">Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="42ddd-333">This path is specific to the Java SDK installation on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
-    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft >  
+    3.  <span data-ttu-id="42ddd-334">**Contraseña**: \<escriba su contraseña de PeopleSoft ></span><span class="sxs-lookup"><span data-stu-id="42ddd-334">**Password**: \<enter your PeopleSoft password></span></span>  
   
-    4.  **Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**  
+    4.  <span data-ttu-id="42ddd-335">**Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**</span><span class="sxs-lookup"><span data-stu-id="42ddd-335">**PeopleSoft 8.x JAR files**: **C:\PSJARS\VER841\PSJOA.JAR**</span></span>  
   
-     **Nombre de usuario:** \<escriba el PeopleSoft UserID >  
+     <span data-ttu-id="42ddd-336">**Nombre de usuario:** \<escriba el PeopleSoft UserID ></span><span class="sxs-lookup"><span data-stu-id="42ddd-336">**User name:** \<enter your PeopleSoft UserID></span></span>  
   
-11. Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.  
+11. <span data-ttu-id="42ddd-337">Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.</span><span class="sxs-lookup"><span data-stu-id="42ddd-337">Click **OK** twice to close the dialog boxes.</span></span>  
   
-12. En el Applicationwindow configurar, haga clic en  **\<ninguno >** para **FileOut** en la lista desplegable.  
+12. <span data-ttu-id="42ddd-338">En el Applicationwindow configurar, haga clic en  **\<ninguno >** para **FileOut** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="42ddd-338">In the Configure Applicationwindow, click **\<None>** for **FileOut** in the drop-down list.</span></span>  
   
-13. Seleccione **Nuevo puerto de envío** y escriba o seleccione los siguientes valores para las propiedades:  
+13. <span data-ttu-id="42ddd-339">Seleccione **Nuevo puerto de envío** y escriba o seleccione los siguientes valores para las propiedades:</span><span class="sxs-lookup"><span data-stu-id="42ddd-339">Select **New Send Port** and type or select the following values for the properties:</span></span>  
   
-     **Nombre**:`FileOutPort`  
+     <span data-ttu-id="42ddd-340">**Nombre**:`FileOutPort`</span><span class="sxs-lookup"><span data-stu-id="42ddd-340">**Name**: `FileOutPort`</span></span>  
   
-     **Tipo**: **Archivo**  
+     <span data-ttu-id="42ddd-341">**Tipo**: **Archivo**</span><span class="sxs-lookup"><span data-stu-id="42ddd-341">**Type**: **File**</span></span>  
   
-     **Controlador de envío**: **BizTalkServerApplication**  
+     <span data-ttu-id="42ddd-342">**Controlador de envío**: **BizTalkServerApplication**</span><span class="sxs-lookup"><span data-stu-id="42ddd-342">**Send Handler**: **BizTalkServerApplication**</span></span>  
   
-     **Canalización de envío**: **XMLTransmit**  
+     <span data-ttu-id="42ddd-343">**Canalización de envío**: **XMLTransmit**</span><span class="sxs-lookup"><span data-stu-id="42ddd-343">**Send Pipeline**: **XMLTransmit**</span></span>  
   
-14. En el menú **Configurar** y escriba`C:\Labs\PS_Test\FileOut` en **Carpeta de destino** . Mantenga **%MessageID%.xml** en **Nombre de archivo** because this results in a unique file en each message.  
+14. <span data-ttu-id="42ddd-344">En el menú **Configurar** y escriba`C:\Labs\PS_Test\FileOut` en **Carpeta de destino**</span><span class="sxs-lookup"><span data-stu-id="42ddd-344">Click **Configure** and type`C:\Labs\PS_Test\FileOut` for **Destination Folder.**</span></span> <span data-ttu-id="42ddd-345">. Mantenga **%MessageID%.xml** en **Nombre de archivo** because this results in a unique file en each message.</span><span class="sxs-lookup"><span data-stu-id="42ddd-345">Keep **%MessageID%.xml** for **File Name** because this results in a unique file for each message.</span></span>  
   
-15. Haga clic en **Aceptar** tres veces para cerrar los cuadros de diálogo.  
+15. <span data-ttu-id="42ddd-346">Haga clic en **Aceptar** tres veces para cerrar los cuadros de diálogo.</span><span class="sxs-lookup"><span data-stu-id="42ddd-346">Click **OK** three times to close the dialog boxes.</span></span>  
   
-16. En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic con el **PS_Test** aplicación y, a continuación, haga clic en **iniciar**.  
+16. <span data-ttu-id="42ddd-347">En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic con el **PS_Test** aplicación y, a continuación, haga clic en **iniciar**.</span><span class="sxs-lookup"><span data-stu-id="42ddd-347">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,right-click the **PS_Test** application and then click **Start**.</span></span>  
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
-##### <a name="to-test-the-orchestration"></a>Procedimiento para probar la orquestación  
+##### <a name="to-test-the-orchestration"></a><span data-ttu-id="42ddd-348">Procedimiento para probar la orquestación</span><span class="sxs-lookup"><span data-stu-id="42ddd-348">To test the orchestration</span></span>  
   
-1.  En el directorio **C:\Labs\PS_Test** , cambie el archivo **Samplequery.xml** a lo siguiente:  
+1.  <span data-ttu-id="42ddd-349">En el directorio **C:\Labs\PS_Test** , cambie el archivo **Samplequery.xml** a lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="42ddd-349">In the **C:\Labs\PS_Test** directory, change the **Samplequery.xml** file to the following:</span></span>  
   
     ```  
     <ns0:Get xmlns:ns0="http://schemas.microsoft.com/[PeopleSoft://CI/LOCATION]">  
@@ -399,17 +399,17 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
     ```  
   
     > [!NOTE]
-    >  Se usará el valor de datos **SHARE** en todos los sistemas. No obstante, el valor que va a usar para **Ubicación** en este archivo XML debe existir en el sistema. Esto se observó en la Práctica 1.  
+    >  <span data-ttu-id="42ddd-350">Se usará el valor de datos **SHARE** en todos los sistemas.</span><span class="sxs-lookup"><span data-stu-id="42ddd-350">The **SHARE** data value will be used on all systems.</span></span> <span data-ttu-id="42ddd-351">No obstante, el valor que va a usar para **Ubicación** en este archivo XML debe existir en el sistema.</span><span class="sxs-lookup"><span data-stu-id="42ddd-351">However the value you will use for **Location** in this XML file must exist on your system.</span></span> <span data-ttu-id="42ddd-352">Esto se observó en la Práctica 1.</span><span class="sxs-lookup"><span data-stu-id="42ddd-352">You found this out in Lab 1.</span></span>  
   
-2.  Guarde los cambios y copie el archivo a la carpeta **C:\Labs\PS_Test\FileIn** . Se trata de la ubicación de recepción para FileIn que inicia el proceso de orquestación.  
+2.  <span data-ttu-id="42ddd-353">Guarde los cambios y copie el archivo a la carpeta **C:\Labs\PS_Test\FileIn** .</span><span class="sxs-lookup"><span data-stu-id="42ddd-353">Save the changes and copy the file to the **C:\Labs\PS_Test\FileIn** folder.</span></span> <span data-ttu-id="42ddd-354">Se trata de la ubicación de recepción para FileIn que inicia el proceso de orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-354">This is the receive location for FileIn that starts the orchestration process.</span></span>  
   
-3.  En unos segundos debe aparecer un archivo XML en la carpeta **C:\Labs\PS_Test\FileOut** , que debe contener los datos del registro donde la ubicación es AUS01.  
+3.  <span data-ttu-id="42ddd-355">En unos segundos debe aparecer un archivo XML en la carpeta **C:\Labs\PS_Test\FileOut** ,</span><span class="sxs-lookup"><span data-stu-id="42ddd-355">In a few seconds, an XML file should appear in the **C:\Labs\PS_Test\FileOut** folder.</span></span> <span data-ttu-id="42ddd-356">que debe contener los datos del registro donde la ubicación es AUS01.</span><span class="sxs-lookup"><span data-stu-id="42ddd-356">This should contain the data from the record where the location is AUS01.</span></span>  
   
      ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
   
-     Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft. Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el  **\<ubicación: ADDRESS1 >** y  **\<ubicación: ADDRESS2 >** campos, podrá comprobar que el **obtener** método ha funcionado correctamente.  
+     <span data-ttu-id="42ddd-357">Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-357">This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1.</span></span> <span data-ttu-id="42ddd-358">Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el  **\<ubicación: ADDRESS1 >** y  **\<ubicación: ADDRESS2 >** campos, podrá comprobar que el **obtener** método ha funcionado correctamente.</span><span class="sxs-lookup"><span data-stu-id="42ddd-358">By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1>** and **\<LOCATION:ADDRESS2>** fields, you can verify that the **Get** method worked properly.</span></span>  
   
-## <a name="summary"></a>Resumen  
- En esta práctica, primero comprobó que los requisitos previos estaban correctamente configurados para obtener acceso al sistema PeopleSoft. A continuación, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk que contiene una orquestación. Configuró la orquestación de BizTalk para usar el adaptador de PeopleSoft con el fin de obtener datos del sistema PeopleSoft. Para configurar la orquestación, creó puertos de envío, recepción y envío/recepción. Enlazó estos puertos al adaptador de PeopleSoft y asignó mensajes a los puertos correspondientes.  
+## <a name="summary"></a><span data-ttu-id="42ddd-359">Resumen</span><span class="sxs-lookup"><span data-stu-id="42ddd-359">Summary</span></span>  
+ <span data-ttu-id="42ddd-360">En esta práctica, primero comprobó que los requisitos previos estaban correctamente configurados para obtener acceso al sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-360">In this lab, you first verified that the prerequisites were set up correctly to access the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-361">A continuación, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk que contiene una orquestación.</span><span class="sxs-lookup"><span data-stu-id="42ddd-361">Then you used [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project containing an orchestration.</span></span> <span data-ttu-id="42ddd-362">Configuró la orquestación de BizTalk para usar el adaptador de PeopleSoft con el fin de obtener datos del sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-362">You configured the BizTalk orchestration to use the PeopleSoft adapter to get data from the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-363">Para configurar la orquestación, creó puertos de envío, recepción y envío/recepción.</span><span class="sxs-lookup"><span data-stu-id="42ddd-363">To configure the orchestration, you created send, receive, and send/receive ports.</span></span> <span data-ttu-id="42ddd-364">Enlazó estos puertos al adaptador de PeopleSoft y asignó mensajes a los puertos correspondientes.</span><span class="sxs-lookup"><span data-stu-id="42ddd-364">You bound these ports to the PeopleSoft adapter, and assigned messages to the appropriate ports.</span></span>  
   
- Una vez completado el proyecto de BizTalk, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para generarlo e implementarlo. A continuación, configuró la nueva aplicación y la ejecutó para obtener datos del sistema PeopleSoft. Para comprobar que la aplicación funcionó correctamente, comparó el archivo XML de salida con el archivo que recibió del sistema PeopleSoft en la Práctica 1.
+ <span data-ttu-id="42ddd-365">Una vez completado el proyecto de BizTalk, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para generarlo e implementarlo.</span><span class="sxs-lookup"><span data-stu-id="42ddd-365">After you completed the BizTalk project, you used [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to build and deploy it.</span></span> <span data-ttu-id="42ddd-366">A continuación, configuró la nueva aplicación y la ejecutó para obtener datos del sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="42ddd-366">You then configured your new application and ran it to get data from the PeopleSoft system.</span></span> <span data-ttu-id="42ddd-367">Para comprobar que la aplicación funcionó correctamente, comparó el archivo XML de salida con el archivo que recibió del sistema PeopleSoft en la Práctica 1.</span><span class="sxs-lookup"><span data-stu-id="42ddd-367">To verify that the application worked correctly, you compared its output XML file to the file that you received from the PeopleSoft system in Lab 1.</span></span>

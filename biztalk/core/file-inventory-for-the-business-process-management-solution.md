@@ -19,329 +19,329 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="file-inventory-for-the-business-process-management-solution"></a>Inventario de archivos para la solución de administración de procesos empresariales
-En esta sección se enumeran los subdirectorios y los archivos de origen para la solución de administración de procesos empresariales. El directorio de instalación predeterminado para los archivos de origen de la solución de administración de procesos empresariales es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación >.  
+# <a name="file-inventory-for-the-business-process-management-solution"></a><span data-ttu-id="a8c42-102">Inventario de archivos para la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="a8c42-102">File Inventory for the Business Process Management Solution</span></span>
+<span data-ttu-id="a8c42-103">En esta sección se enumeran los subdirectorios y los archivos de origen para la solución de administración de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="a8c42-103">This section lists subdirectories and source files for the Business Process Management solution.</span></span> <span data-ttu-id="a8c42-104">El directorio de instalación predeterminado para los archivos de origen de la solución de administración de procesos empresariales es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM.</span><span class="sxs-lookup"><span data-stu-id="a8c42-104">The default installation directory for the Business Process Management solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM.</span></span> <span data-ttu-id="a8c42-105">Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación >.</span><span class="sxs-lookup"><span data-stu-id="a8c42-105">Descriptions before the following tables replace this path with \<Install Directory>.</span></span>  
   
- Los archivos \<directorio de instalación >  
+ <span data-ttu-id="a8c42-106">Los archivos \<directorio de instalación ></span><span class="sxs-lookup"><span data-stu-id="a8c42-106">Files in \<Install Directory></span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-107">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-107">File</span></span>|<span data-ttu-id="a8c42-108">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-108">Description</span></span>|  
 |----------|-----------------|  
-|Microsoft.Samples.BizTalk.SouthridgeVideo.sln|Archivo de solución de Visual Studio.|  
-|leame.html|Archivo Léame de la solución.|  
-|ReplacePKToken.vbs|VBScript para corregir símbolos (tokens) de clave pública en los archivos de la solución cuando se genera la solución.|  
-|ReplacePKToken.wsf|Archivo de secuencia de comandos para el VBScript ReplacePKToken.|  
-|SetupBPM.bat|Crea una clave pública, actualiza las referencias a la clave pública y compila la solución. Para obtener información acerca de cómo implementar la solución, vea [implementar la solución de administración de procesos empresariales](../core/deploying-the-business-process-management-solution.md).|  
+|<span data-ttu-id="a8c42-109">Microsoft.Samples.BizTalk.SouthridgeVideo.sln</span><span class="sxs-lookup"><span data-stu-id="a8c42-109">Microsoft.Samples.BizTalk.SouthridgeVideo.sln</span></span>|<span data-ttu-id="a8c42-110">Archivo de solución de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="a8c42-110">Visual Studio solution file.</span></span>|  
+|<span data-ttu-id="a8c42-111">leame.html</span><span class="sxs-lookup"><span data-stu-id="a8c42-111">readme.html</span></span>|<span data-ttu-id="a8c42-112">Archivo Léame de la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-112">Readme file for the solution.</span></span>|  
+|<span data-ttu-id="a8c42-113">ReplacePKToken.vbs</span><span class="sxs-lookup"><span data-stu-id="a8c42-113">ReplacePKToken.vbs</span></span>|<span data-ttu-id="a8c42-114">VBScript para corregir símbolos (tokens) de clave pública en los archivos de la solución cuando se genera la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-114">VBScript to fix public key tokens in solution files when solution is built.</span></span>|  
+|<span data-ttu-id="a8c42-115">ReplacePKToken.wsf</span><span class="sxs-lookup"><span data-stu-id="a8c42-115">ReplacePKToken.wsf</span></span>|<span data-ttu-id="a8c42-116">Archivo de secuencia de comandos para el VBScript ReplacePKToken.</span><span class="sxs-lookup"><span data-stu-id="a8c42-116">Windows Script File for the ReplacePKToken VBScript.</span></span>|  
+|<span data-ttu-id="a8c42-117">SetupBPM.bat</span><span class="sxs-lookup"><span data-stu-id="a8c42-117">SetupBPM.bat</span></span>|<span data-ttu-id="a8c42-118">Crea una clave pública, actualiza las referencias a la clave pública y compila la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-118">Creates a public key, updates references to the public key, and compiles the solution.</span></span> <span data-ttu-id="a8c42-119">Para obtener información acerca de cómo implementar la solución, vea [implementar la solución de administración de procesos empresariales](../core/deploying-the-business-process-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="a8c42-119">For information about deploying the solution, see [Deploying the Business Process Management Solution](../core/deploying-the-business-process-management-solution.md).</span></span>|  
   
- Los archivos \<directorio de instalación > \BAM  
+ <span data-ttu-id="a8c42-120">Los archivos \<directorio de instalación > \BAM</span><span class="sxs-lookup"><span data-stu-id="a8c42-120">Files in \<Install Directory>\BAM</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-121">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-121">File</span></span>|<span data-ttu-id="a8c42-122">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-122">Description</span></span>|  
 |----------|-----------------|  
-|BAMServiceOrder.xls|Hoja de cálculo de Excel para los datos de SAE.|  
-|BAMServiceOrder.xml|Esquema que define los tipos de elementos de datos de SAE.|  
+|<span data-ttu-id="a8c42-123">BAMServiceOrder.xls</span><span class="sxs-lookup"><span data-stu-id="a8c42-123">BAMServiceOrder.xls</span></span>|<span data-ttu-id="a8c42-124">Hoja de cálculo de Excel para los datos de SAE.</span><span class="sxs-lookup"><span data-stu-id="a8c42-124">Excel spreadsheet for the BAM data.</span></span>|  
+|<span data-ttu-id="a8c42-125">BAMServiceOrder.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-125">BAMServiceOrder.xml</span></span>|<span data-ttu-id="a8c42-126">Esquema que define los tipos de elementos de datos de SAE.</span><span class="sxs-lookup"><span data-stu-id="a8c42-126">Schema defining the types of the BAM data items.</span></span>|  
   
- Los archivos \<directorio de instalación > \Bindings  
+ <span data-ttu-id="a8c42-127">Los archivos \<directorio de instalación > \Bindings</span><span class="sxs-lookup"><span data-stu-id="a8c42-127">Files in \<Install Directory>\Bindings</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-128">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-128">File</span></span>|<span data-ttu-id="a8c42-129">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-129">Description</span></span>|  
 |----------|-----------------|  
-|CableOrderAppBindings-test.xml|Archivo de enlace para la versión de prueba de la **CableOrderApp** aplicación.|  
-|CableOrderAppBindings.xml|Archivo de enlace para el **CableOrderAPP** aplicación.|  
-|MessagingAppBindings-test.xml|Archivo de enlace para la versión de prueba de la **MessagingApp** aplicación.|  
-|MessagingAppBindings.xml|Archivo de enlace para el **MessagingApp** aplicación.|  
-|OrderBrokerAppBindings-test.xml|Archivo de enlace para la versión de prueba de la **OrderBrokerApp** aplicación.|  
-|OrderBrokerAppBindings.xml|Archivo de enlace para el **OrderBrokerApp** aplicación.|  
+|<span data-ttu-id="a8c42-130">CableOrderAppBindings-test.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-130">CableOrderAppBindings-test.xml</span></span>|<span data-ttu-id="a8c42-131">Archivo de enlace para la versión de prueba de la **CableOrderApp** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-131">Binding file for the test version of the **CableOrderApp** application.</span></span>|  
+|<span data-ttu-id="a8c42-132">CableOrderAppBindings.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-132">CableOrderAppBindings.xml</span></span>|<span data-ttu-id="a8c42-133">Archivo de enlace para el **CableOrderAPP** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-133">Binding file for the **CableOrderAPP** application.</span></span>|  
+|<span data-ttu-id="a8c42-134">MessagingAppBindings-test.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-134">MessagingAppBindings-test.xml</span></span>|<span data-ttu-id="a8c42-135">Archivo de enlace para la versión de prueba de la **MessagingApp** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-135">Binding file for the test version of the **MessagingApp** application.</span></span>|  
+|<span data-ttu-id="a8c42-136">MessagingAppBindings.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-136">MessagingAppBindings.xml</span></span>|<span data-ttu-id="a8c42-137">Archivo de enlace para el **MessagingApp** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-137">Binding file for the **MessagingApp** application.</span></span>|  
+|<span data-ttu-id="a8c42-138">OrderBrokerAppBindings-test.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-138">OrderBrokerAppBindings-test.xml</span></span>|<span data-ttu-id="a8c42-139">Archivo de enlace para la versión de prueba de la **OrderBrokerApp** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-139">Binding file for the test version of the **OrderBrokerApp** application.</span></span>|  
+|<span data-ttu-id="a8c42-140">OrderBrokerAppBindings.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-140">OrderBrokerAppBindings.xml</span></span>|<span data-ttu-id="a8c42-141">Archivo de enlace para el **OrderBrokerApp** aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-141">Binding file for the **OrderBrokerApp** application.</span></span>|  
   
- Los archivos \<directorio de instalación > \CableProvisioningSystemClient  
+ <span data-ttu-id="a8c42-142">Los archivos \<directorio de instalación > \CableProvisioningSystemClient</span><span class="sxs-lookup"><span data-stu-id="a8c42-142">Files in \<Install Directory>\CableProvisioningSystemClient</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-143">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-143">File</span></span>|<span data-ttu-id="a8c42-144">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-144">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de ensamblado para el lado del cliente de los componentes que simulan el sistema de pedidos.|  
-|CableProvisioningSystemClient.csproj|Archivo de proyecto de C#.|  
-|CPSClient.cs|Origen para el cliente. Incluye el **OrderHandlerWrapper** código de la clase.|  
-|OrderException.cs|Archivo C# para la clase que define la **OrderException**.|  
+|<span data-ttu-id="a8c42-145">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-145">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-146">Archivo de ensamblado para el lado del cliente de los componentes que simulan el sistema de pedidos.</span><span class="sxs-lookup"><span data-stu-id="a8c42-146">Assembly file for the client side of the components simulating the order system.</span></span>|  
+|<span data-ttu-id="a8c42-147">CableProvisioningSystemClient.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-147">CableProvisioningSystemClient.csproj</span></span>|<span data-ttu-id="a8c42-148">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-148">C# project file.</span></span>|  
+|<span data-ttu-id="a8c42-149">CPSClient.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-149">CPSClient.cs</span></span>|<span data-ttu-id="a8c42-150">Origen para el cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-150">Source for the client.</span></span> <span data-ttu-id="a8c42-151">Incluye el **OrderHandlerWrapper** código de la clase.</span><span class="sxs-lookup"><span data-stu-id="a8c42-151">Includes the **OrderHandlerWrapper** class code.</span></span>|  
+|<span data-ttu-id="a8c42-152">OrderException.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-152">OrderException.cs</span></span>|<span data-ttu-id="a8c42-153">Archivo C# para la clase que define la **OrderException**.</span><span class="sxs-lookup"><span data-stu-id="a8c42-153">C# file for the class defining the **OrderException**.</span></span>|  
   
- Los archivos \<directorio de instalación > \CableProvisioningSystemServer  
+ <span data-ttu-id="a8c42-154">Los archivos \<directorio de instalación > \CableProvisioningSystemServer</span><span class="sxs-lookup"><span data-stu-id="a8c42-154">Files in \<Install Directory>\CableProvisioningSystemServer</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-155">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-155">File</span></span>|<span data-ttu-id="a8c42-156">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-156">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de ensamblado para el lado del servidor de los componentes que simulan el sistema de pedidos.|  
-|CableProvisioningSystemServer.csproj|Archivo de proyecto de C#.|  
-|CableProvisioningSystemServer.csproj.user|Archivo de opciones de usuario de proyecto de Visual Studio|  
-|CPSServer.cs|Origen para el servidor.|  
+|<span data-ttu-id="a8c42-157">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-157">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-158">Archivo de ensamblado para el lado del servidor de los componentes que simulan el sistema de pedidos.</span><span class="sxs-lookup"><span data-stu-id="a8c42-158">Assembly file for the server side of the components simulating the order system.</span></span>|  
+|<span data-ttu-id="a8c42-159">CableProvisioningSystemServer.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-159">CableProvisioningSystemServer.csproj</span></span>|<span data-ttu-id="a8c42-160">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-160">C# project file.</span></span>|  
+|<span data-ttu-id="a8c42-161">CableProvisioningSystemServer.csproj.user</span><span class="sxs-lookup"><span data-stu-id="a8c42-161">CableProvisioningSystemServer.csproj.user</span></span>|<span data-ttu-id="a8c42-162">Archivo de opciones de usuario de proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a8c42-162">Visual Studio Project User Options file</span></span>|  
+|<span data-ttu-id="a8c42-163">CPSServer.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-163">CPSServer.cs</span></span>|<span data-ttu-id="a8c42-164">Origen para el servidor.</span><span class="sxs-lookup"><span data-stu-id="a8c42-164">Source for the server.</span></span>|  
   
- Los archivos \<directorio de instalación > \CSRWebApp  
+ <span data-ttu-id="a8c42-165">Los archivos \<directorio de instalación > \CSRWebApp</span><span class="sxs-lookup"><span data-stu-id="a8c42-165">Files in \<Install Directory>\CSRWebApp</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-166">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-166">File</span></span>|<span data-ttu-id="a8c42-167">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-167">Description</span></span>|  
 |----------|-----------------|  
-|CSRMainForm.aspx|Formulario ASP de entrada de atención al cliente.|  
-|CSRMainForm.aspx.cs|Formulario de código C# subyacente.|  
-|Web.Config|Archivos de configuración para el formulario.|  
+|<span data-ttu-id="a8c42-168">CSRMainForm.aspx</span><span class="sxs-lookup"><span data-stu-id="a8c42-168">CSRMainForm.aspx</span></span>|<span data-ttu-id="a8c42-169">Formulario ASP de entrada de atención al cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-169">Customer service input ASP form.</span></span>|  
+|<span data-ttu-id="a8c42-170">CSRMainForm.aspx.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-170">CSRMainForm.aspx.cs</span></span>|<span data-ttu-id="a8c42-171">Formulario de código C# subyacente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-171">C# code behind form.</span></span>|  
+|<span data-ttu-id="a8c42-172">Web.Config</span><span class="sxs-lookup"><span data-stu-id="a8c42-172">Web.Config</span></span>|<span data-ttu-id="a8c42-173">Archivos de configuración para el formulario.</span><span class="sxs-lookup"><span data-stu-id="a8c42-173">Configuration file for the form.</span></span>|  
   
- Los archivos \<directorio de instalación > \CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
+ <span data-ttu-id="a8c42-174">Los archivos \<directorio de instalación > \CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker</span><span class="sxs-lookup"><span data-stu-id="a8c42-174">Files in \<Install Directory>\CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-175">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-175">File</span></span>|<span data-ttu-id="a8c42-176">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-176">Description</span></span>|  
 |----------|-----------------|  
-|orderbrokerorch_orderport.disco|Archivo .disco de la **OrderBroker** presenta como un servicio web.|  
-|orderbrokerorch_orderport.discomap|Archivo generado.|  
-|orderbrokerorch_orderport.wsdl|Archivo WSDL para el **OrderBroker** presenta como un servicio web.|  
+|<span data-ttu-id="a8c42-177">orderbrokerorch_orderport.disco</span><span class="sxs-lookup"><span data-stu-id="a8c42-177">orderbrokerorch_orderport.disco</span></span>|<span data-ttu-id="a8c42-178">Archivo .disco de la **OrderBroker** presenta como un servicio web.</span><span class="sxs-lookup"><span data-stu-id="a8c42-178">Disco file for the **OrderBroker** presented as a web service.</span></span>|  
+|<span data-ttu-id="a8c42-179">orderbrokerorch_orderport.discomap</span><span class="sxs-lookup"><span data-stu-id="a8c42-179">orderbrokerorch_orderport.discomap</span></span>|<span data-ttu-id="a8c42-180">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-180">Generated file.</span></span>|  
+|<span data-ttu-id="a8c42-181">orderbrokerorch_orderport.wsdl</span><span class="sxs-lookup"><span data-stu-id="a8c42-181">orderbrokerorch_orderport.wsdl</span></span>|<span data-ttu-id="a8c42-182">Archivo WSDL para el **OrderBroker** presenta como un servicio web.</span><span class="sxs-lookup"><span data-stu-id="a8c42-182">WSDL file for the **OrderBroker** presented as a web service.</span></span>|  
   
- Los archivos \<directorio de instalación > \FacilitiesSimulator  
+ <span data-ttu-id="a8c42-183">Los archivos \<directorio de instalación > \FacilitiesSimulator</span><span class="sxs-lookup"><span data-stu-id="a8c42-183">Files in \<Install Directory>\FacilitiesSimulator</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-184">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-184">File</span></span>|<span data-ttu-id="a8c42-185">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-185">Description</span></span>|  
 |----------|-----------------|  
-|FacilitiesSimulator.csproj|Archivo de proyecto de C# del simulador de instalaciones.|  
-|FacilitiesSimulator.csproj.user|Archivo de opciones de usuario de proyecto de Visual Studio|  
-|FacilitiesSimulatorForm.cs|Código C# del simulador de instalaciones.|  
-|FacilitiesSimulatorForm.resx|Archivo de recursos.|  
+|<span data-ttu-id="a8c42-186">FacilitiesSimulator.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-186">FacilitiesSimulator.csproj</span></span>|<span data-ttu-id="a8c42-187">Archivo de proyecto de C# del simulador de instalaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-187">C# project file for the facilities simulator.</span></span>|  
+|<span data-ttu-id="a8c42-188">FacilitiesSimulator.csproj.user</span><span class="sxs-lookup"><span data-stu-id="a8c42-188">FacilitiesSimulator.csproj.user</span></span>|<span data-ttu-id="a8c42-189">Archivo de opciones de usuario de proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a8c42-189">Visual Studio Project User Options file</span></span>|  
+|<span data-ttu-id="a8c42-190">FacilitiesSimulatorForm.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-190">FacilitiesSimulatorForm.cs</span></span>|<span data-ttu-id="a8c42-191">Código C# del simulador de instalaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-191">C# code for the facilities simulator.</span></span>|  
+|<span data-ttu-id="a8c42-192">FacilitiesSimulatorForm.resx</span><span class="sxs-lookup"><span data-stu-id="a8c42-192">FacilitiesSimulatorForm.resx</span></span>|<span data-ttu-id="a8c42-193">Archivo de recursos.</span><span class="sxs-lookup"><span data-stu-id="a8c42-193">Resource file.</span></span>|  
   
- Los archivos \<directorio de instalación > \HistoryDB  
+ <span data-ttu-id="a8c42-194">Los archivos \<directorio de instalación > \HistoryDB</span><span class="sxs-lookup"><span data-stu-id="a8c42-194">Files in \<Install Directory>\HistoryDB</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-195">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-195">File</span></span>|<span data-ttu-id="a8c42-196">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-196">Description</span></span>|  
 |----------|-----------------|  
-|CreateDatabase.cmd|Archivo que controla al archivo SQL que crea la base de datos de historial.|  
-|SouthridgeVideoHistory.sql|Comandos SQL para crear la base de datos de historial.|  
+|<span data-ttu-id="a8c42-197">CreateDatabase.cmd</span><span class="sxs-lookup"><span data-stu-id="a8c42-197">CreateDatabase.cmd</span></span>|<span data-ttu-id="a8c42-198">Archivo que controla al archivo SQL que crea la base de datos de historial.</span><span class="sxs-lookup"><span data-stu-id="a8c42-198">File to drive the SQL file that creates the history database.</span></span>|  
+|<span data-ttu-id="a8c42-199">SouthridgeVideoHistory.sql</span><span class="sxs-lookup"><span data-stu-id="a8c42-199">SouthridgeVideoHistory.sql</span></span>|<span data-ttu-id="a8c42-200">Comandos SQL para crear la base de datos de historial.</span><span class="sxs-lookup"><span data-stu-id="a8c42-200">SQL commands to create the history database.</span></span>|  
   
- Los archivos \<directorio de instalación > \IOperationsSystem  
+ <span data-ttu-id="a8c42-201">Los archivos \<directorio de instalación > \IOperationsSystem</span><span class="sxs-lookup"><span data-stu-id="a8c42-201">Files in \<Install Directory>\IOperationsSystem</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-202">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-202">File</span></span>|<span data-ttu-id="a8c42-203">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-203">Description</span></span>|  
 |----------|-----------------|  
-|IOperationsSystem.cs|Definición de interfaz del sistema de operaciones.|  
-|IOperationsSystem.csproj|Archivo de proyecto de C#.|  
-|IOperationsSystem.csproj.user|Archivo de opciones de usuario de proyecto de Visual Studio|  
+|<span data-ttu-id="a8c42-204">IOperationsSystem.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-204">IOperationsSystem.cs</span></span>|<span data-ttu-id="a8c42-205">Definición de interfaz del sistema de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-205">Interface definition for the operations system.</span></span>|  
+|<span data-ttu-id="a8c42-206">IOperationsSystem.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-206">IOperationsSystem.csproj</span></span>|<span data-ttu-id="a8c42-207">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-207">C# project file.</span></span>|  
+|<span data-ttu-id="a8c42-208">IOperationsSystem.csproj.user</span><span class="sxs-lookup"><span data-stu-id="a8c42-208">IOperationsSystem.csproj.user</span></span>|<span data-ttu-id="a8c42-209">Archivo de opciones de usuario de proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a8c42-209">Visual Studio Project User Options file</span></span>|  
   
- Los archivos \<directorio de instalación > \IOrderHandler  
+ <span data-ttu-id="a8c42-210">Los archivos \<directorio de instalación > \IOrderHandler</span><span class="sxs-lookup"><span data-stu-id="a8c42-210">Files in \<Install Directory>\IOrderHandler</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-211">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-211">File</span></span>|<span data-ttu-id="a8c42-212">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-212">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|IOrderHandler.cs|Definición de interfaz para la **OrderHandler**.|  
-|IOrderHandler.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-213">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-213">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-214">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-214">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-215">IOrderHandler.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-215">IOrderHandler.cs</span></span>|<span data-ttu-id="a8c42-216">Definición de interfaz para la **OrderHandler**.</span><span class="sxs-lookup"><span data-stu-id="a8c42-216">Interface definition for the **OrderHandler**.</span></span>|  
+|<span data-ttu-id="a8c42-217">IOrderHandler.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-217">IOrderHandler.csproj</span></span>|<span data-ttu-id="a8c42-218">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-218">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Maps  
+ <span data-ttu-id="a8c42-219">Los archivos \<directorio de instalación > \Maps</span><span class="sxs-lookup"><span data-stu-id="a8c42-219">Files in \<Install Directory>\Maps</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-220">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-220">File</span></span>|<span data-ttu-id="a8c42-221">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-221">Description</span></span>|  
 |----------|-----------------|  
-|Maps.btproj|Archivo de proyecto de BizTalk.|  
-|Order_To_SQLUpdateStatus.btm|Asignación para convertir un pedido en mensaje para actualizar el estado.|  
+|<span data-ttu-id="a8c42-222">Maps.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-222">Maps.btproj</span></span>|<span data-ttu-id="a8c42-223">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-223">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-224">Order_To_SQLUpdateStatus.btm</span><span class="sxs-lookup"><span data-stu-id="a8c42-224">Order_To_SQLUpdateStatus.btm</span></span>|<span data-ttu-id="a8c42-225">Asignación para convertir un pedido en mensaje para actualizar el estado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-225">Map to convert an order to message to update status.</span></span>|  
   
- Los archivos \<directorio de instalación > \MessagingSchemas  
+ <span data-ttu-id="a8c42-226">Los archivos \<directorio de instalación > \MessagingSchemas</span><span class="sxs-lookup"><span data-stu-id="a8c42-226">Files in \<Install Directory>\MessagingSchemas</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-227">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-227">File</span></span>|<span data-ttu-id="a8c42-228">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-228">Description</span></span>|  
 |----------|-----------------|  
-|ErrorEnvelope.xsd|Esquema que define el sobre del mensaje de error.|  
-|MessagingSchemas.btproj|Archivo de proyecto de BizTalk.|  
-|OrderEnvelope.xsd|Esquema que define el sobre de un pedido.|  
-|OrderStatusEnvelope.xsd|Esquema que define el sobre de un mensaje de estado de pedido.|  
-|SQLUpdateStatus.xsd|Esquema que define el sobre de un mensaje de actualización de estado de SQL.|  
+|<span data-ttu-id="a8c42-229">ErrorEnvelope.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-229">ErrorEnvelope.xsd</span></span>|<span data-ttu-id="a8c42-230">Esquema que define el sobre del mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="a8c42-230">Schema defining the envelope for the error message.</span></span>|  
+|<span data-ttu-id="a8c42-231">MessagingSchemas.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-231">MessagingSchemas.btproj</span></span>|<span data-ttu-id="a8c42-232">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-232">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-233">OrderEnvelope.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-233">OrderEnvelope.xsd</span></span>|<span data-ttu-id="a8c42-234">Esquema que define el sobre de un pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-234">Schema defining the envelope for an order.</span></span>|  
+|<span data-ttu-id="a8c42-235">OrderStatusEnvelope.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-235">OrderStatusEnvelope.xsd</span></span>|<span data-ttu-id="a8c42-236">Esquema que define el sobre de un mensaje de estado de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-236">Schema defining the envelope for an order status message.</span></span>|  
+|<span data-ttu-id="a8c42-237">SQLUpdateStatus.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-237">SQLUpdateStatus.xsd</span></span>|<span data-ttu-id="a8c42-238">Esquema que define el sobre de un mensaje de actualización de estado de SQL.</span><span class="sxs-lookup"><span data-stu-id="a8c42-238">Schema defining the envelope for a SQL status update message.</span></span>|  
   
- Los archivos \<directorio de instalación > \OperationsClient  
+ <span data-ttu-id="a8c42-239">Los archivos \<directorio de instalación > \OperationsClient</span><span class="sxs-lookup"><span data-stu-id="a8c42-239">Files in \<Install Directory>\OperationsClient</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-240">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-240">File</span></span>|<span data-ttu-id="a8c42-241">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-241">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|OperationsClient.csproj|Proyecto de C# del cliente de operaciones.|  
-|OpsClient.cs|Código C# del cliente de operaciones.|  
-|OpsExceptions.cs|Código C# que define la excepción de operaciones.|  
+|<span data-ttu-id="a8c42-242">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-242">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-243">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-243">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-244">OperationsClient.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-244">OperationsClient.csproj</span></span>|<span data-ttu-id="a8c42-245">Proyecto de C# del cliente de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-245">C# project for the operations client.</span></span>|  
+|<span data-ttu-id="a8c42-246">OpsClient.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-246">OpsClient.cs</span></span>|<span data-ttu-id="a8c42-247">Código C# del cliente de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-247">C# code for the operations client.</span></span>|  
+|<span data-ttu-id="a8c42-248">OpsExceptions.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-248">OpsExceptions.cs</span></span>|<span data-ttu-id="a8c42-249">Código C# que define la excepción de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-249">C# code defining the operations exception.</span></span>|  
   
- Los archivos \<directorio de instalación > \OperationsHandler  
+ <span data-ttu-id="a8c42-250">Los archivos \<directorio de instalación > \OperationsHandler</span><span class="sxs-lookup"><span data-stu-id="a8c42-250">Files in \<Install Directory>\OperationsHandler</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-251">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-251">File</span></span>|<span data-ttu-id="a8c42-252">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-252">Description</span></span>|  
 |----------|-----------------|  
-|OperationsHandler.csproj|Archivo de proyecto de C# para el controlador de operaciones.|  
-|OpsHandler.cs|Código C# para el **OpsHandler**. Utilizado por el **OpsClient** para realizar solicitudes de los sistemas de operaciones.|  
+|<span data-ttu-id="a8c42-253">OperationsHandler.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-253">OperationsHandler.csproj</span></span>|<span data-ttu-id="a8c42-254">Archivo de proyecto de C# para el controlador de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-254">C# project file for the operations handler.</span></span>|  
+|<span data-ttu-id="a8c42-255">OpsHandler.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-255">OpsHandler.cs</span></span>|<span data-ttu-id="a8c42-256">Código C# para el **OpsHandler**.</span><span class="sxs-lookup"><span data-stu-id="a8c42-256">C# code for the **OpsHandler**.</span></span> <span data-ttu-id="a8c42-257">Utilizado por el **OpsClient** para realizar solicitudes de los sistemas de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-257">Used by the **OpsClient** to make requests of the operations system.</span></span>|  
   
- Los archivos \<directorio de instalación > \OperationsServer  
+ <span data-ttu-id="a8c42-258">Los archivos \<directorio de instalación > \OperationsServer</span><span class="sxs-lookup"><span data-stu-id="a8c42-258">Files in \<Install Directory>\OperationsServer</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-259">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-259">File</span></span>|<span data-ttu-id="a8c42-260">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-260">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|OperationsServer.csproj|Archivo de proyecto de C# para el servidor de operaciones.|  
-|OpsServer.cs|Código C# para el servidor de operaciones que proporciona instancias de la **OpsHandler** objeto.|  
+|<span data-ttu-id="a8c42-261">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-261">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-262">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-262">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-263">OperationsServer.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-263">OperationsServer.csproj</span></span>|<span data-ttu-id="a8c42-264">Archivo de proyecto de C# para el servidor de operaciones.</span><span class="sxs-lookup"><span data-stu-id="a8c42-264">C# project file for the operations server.</span></span>|  
+|<span data-ttu-id="a8c42-265">OpsServer.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-265">OpsServer.cs</span></span>|<span data-ttu-id="a8c42-266">Código C# para el servidor de operaciones que proporciona instancias de la **OpsHandler** objeto.</span><span class="sxs-lookup"><span data-stu-id="a8c42-266">C# code for the operations server that provides instances of the **OpsHandler** object.</span></span>|  
   
- Los archivos \<directorio de instalación > \OpsAdapter  
+ <span data-ttu-id="a8c42-267">Los archivos \<directorio de instalación > \OpsAdapter</span><span class="sxs-lookup"><span data-stu-id="a8c42-267">Files in \<Install Directory>\OpsAdapter</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-268">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-268">File</span></span>|<span data-ttu-id="a8c42-269">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-269">Description</span></span>|  
 |----------|-----------------|  
-|OpsAdapter.sln|Solución de Visual Studio para el adaptador Ops.|  
-|Register_Ops_Adapter.vbs|VBScript para registrar el adaptador Ops.|  
-|SetupOpsAdapter.bat|Archivo por lotes para configurar el adaptador Ops.|  
+|<span data-ttu-id="a8c42-270">OpsAdapter.sln</span><span class="sxs-lookup"><span data-stu-id="a8c42-270">OpsAdapter.sln</span></span>|<span data-ttu-id="a8c42-271">Solución de Visual Studio para el adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-271">Visual Studio solution for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-272">Register_Ops_Adapter.vbs</span><span class="sxs-lookup"><span data-stu-id="a8c42-272">Register_Ops_Adapter.vbs</span></span>|<span data-ttu-id="a8c42-273">VBScript para registrar el adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-273">VBScript to register the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-274">SetupOpsAdapter.bat</span><span class="sxs-lookup"><span data-stu-id="a8c42-274">SetupOpsAdapter.bat</span></span>|<span data-ttu-id="a8c42-275">Archivo por lotes para configurar el adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-275">Batch file to setup the Ops adapter.</span></span>|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\IOpsAIC  
+ <span data-ttu-id="a8c42-276">Los archivos \<directorio de instalación > \OpsAdapter\IOpsAIC</span><span class="sxs-lookup"><span data-stu-id="a8c42-276">Files in \<Install Directory>\OpsAdapter\IOpsAIC</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-277">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-277">File</span></span>|<span data-ttu-id="a8c42-278">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-278">Description</span></span>|  
 |----------|-----------------|  
-|IOpsAIC.cs|Archivo de código de C# para la interfaz que define el **inicializar** y **Execute** métodos llamados por el adaptador Ops.|  
-|IOpsAIC.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-279">IOpsAIC.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-279">IOpsAIC.cs</span></span>|<span data-ttu-id="a8c42-280">Archivo de código de C# para la interfaz que define el **inicializar** y **Execute** métodos llamados por el adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-280">C# code file for the interface defining the **Initialize** and **Execute** methods called by the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-281">IOpsAIC.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-281">IOpsAIC.csproj</span></span>|<span data-ttu-id="a8c42-282">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-282">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\OpsAdapterMgmt  
+ <span data-ttu-id="a8c42-283">Los archivos \<directorio de instalación > \OpsAdapter\OpsAdapterMgmt</span><span class="sxs-lookup"><span data-stu-id="a8c42-283">Files in \<Install Directory>\OpsAdapter\OpsAdapterMgmt</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-284">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-284">File</span></span>|<span data-ttu-id="a8c42-285">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-285">Description</span></span>|  
 |----------|-----------------|  
-|AdapterManagement.cs|Archivo de origen C# del adaptador Ops.|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|OpsAdapterMgmt.csproj|Archivo de origen C# del adaptador Ops.|  
-|TransmitHandler.xsd|Archivo de origen C# del adaptador Ops.|  
-|TransmitLocation.xsd|Archivo de origen C# del adaptador Ops.|  
+|<span data-ttu-id="a8c42-286">AdapterManagement.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-286">AdapterManagement.cs</span></span>|<span data-ttu-id="a8c42-287">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-287">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-288">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-288">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-289">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-289">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-290">OpsAdapterMgmt.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-290">OpsAdapterMgmt.csproj</span></span>|<span data-ttu-id="a8c42-291">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-291">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-292">TransmitHandler.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-292">TransmitHandler.xsd</span></span>|<span data-ttu-id="a8c42-293">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-293">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-294">TransmitLocation.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-294">TransmitLocation.xsd</span></span>|<span data-ttu-id="a8c42-295">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-295">C# source file for the Ops adapter.</span></span>|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\OpsTxAdapter  
+ <span data-ttu-id="a8c42-296">Los archivos \<directorio de instalación > \OpsAdapter\OpsTxAdapter</span><span class="sxs-lookup"><span data-stu-id="a8c42-296">Files in \<Install Directory>\OpsAdapter\OpsTxAdapter</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-297">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-297">File</span></span>|<span data-ttu-id="a8c42-298">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-298">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|OpsAdapterExceptions.cs|Archivo de origen C# del adaptador Ops.|  
-|OpsAdapterProperties.cs|Archivo de origen C# del adaptador Ops.|  
-|OpsTransmitAdapterBatch.cs|Archivo de origen C# del adaptador Ops.|  
-|OpsTransmitter.cs|Archivo de origen C# del adaptador Ops.|  
-|OpsTxAdapter.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-299">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-299">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-300">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-300">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-301">OpsAdapterExceptions.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-301">OpsAdapterExceptions.cs</span></span>|<span data-ttu-id="a8c42-302">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-302">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-303">OpsAdapterProperties.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-303">OpsAdapterProperties.cs</span></span>|<span data-ttu-id="a8c42-304">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-304">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-305">OpsTransmitAdapterBatch.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-305">OpsTransmitAdapterBatch.cs</span></span>|<span data-ttu-id="a8c42-306">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-306">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-307">OpsTransmitter.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-307">OpsTransmitter.cs</span></span>|<span data-ttu-id="a8c42-308">Archivo de origen C# del adaptador Ops.</span><span class="sxs-lookup"><span data-stu-id="a8c42-308">C# source file for the Ops adapter.</span></span>|  
+|<span data-ttu-id="a8c42-309">OpsTxAdapter.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-309">OpsTxAdapter.csproj</span></span>|<span data-ttu-id="a8c42-310">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-310">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderActions  
+ <span data-ttu-id="a8c42-311">Los archivos \<directorio de instalación > \Orchestrations\CableOrderActions</span><span class="sxs-lookup"><span data-stu-id="a8c42-311">Files in \<Install Directory>\Orchestrations\CableOrderActions</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-312">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-312">File</span></span>|<span data-ttu-id="a8c42-313">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-313">Description</span></span>|  
 |----------|-----------------|  
-|Activate.odx|El **activar** orquestación usada por las fases de procesamiento de pedido.|  
-|Analyze.odx|El **analizar** orquestación usada por las fases de procesamiento de pedido.|  
-|CableOrderActions.btproj|Archivo de proyecto de BizTalk.|  
-|Cancel.odx|El **cancelar** orquestación usada por las fases de procesamiento de pedido.|  
-|Change.odx|El **cambio** orquestación usada por las fases de procesamiento de pedido.|  
-|Complete.odx|El **completar** orquestación usada por las fases de procesamiento de pedido.|  
-|Validate.odx|El **validar** orquestación usada por las fases de procesamiento de pedido.|  
+|<span data-ttu-id="a8c42-314">Activate.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-314">Activate.odx</span></span>|<span data-ttu-id="a8c42-315">El **activar** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-315">The **Activate** orchestration used by the order processing stages.</span></span>|  
+|<span data-ttu-id="a8c42-316">Analyze.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-316">Analyze.odx</span></span>|<span data-ttu-id="a8c42-317">El **analizar** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-317">The **Analyze** orchestration used by the order processing stages.</span></span>|  
+|<span data-ttu-id="a8c42-318">CableOrderActions.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-318">CableOrderActions.btproj</span></span>|<span data-ttu-id="a8c42-319">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-319">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-320">Cancel.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-320">Cancel.odx</span></span>|<span data-ttu-id="a8c42-321">El **cancelar** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-321">The **Cancel** orchestration used by the order processing stages.</span></span>|  
+|<span data-ttu-id="a8c42-322">Change.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-322">Change.odx</span></span>|<span data-ttu-id="a8c42-323">El **cambio** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-323">The **Change** orchestration used by the order processing stages.</span></span>|  
+|<span data-ttu-id="a8c42-324">Complete.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-324">Complete.odx</span></span>|<span data-ttu-id="a8c42-325">El **completar** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-325">The **Complete** orchestration used by the order processing stages.</span></span>|  
+|<span data-ttu-id="a8c42-326">Validate.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-326">Validate.odx</span></span>|<span data-ttu-id="a8c42-327">El **validar** orquestación usada por las fases de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-327">The **Validate** orchestration used by the order processing stages.</span></span>|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage1  
+ <span data-ttu-id="a8c42-328">Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage1</span><span class="sxs-lookup"><span data-stu-id="a8c42-328">Files in \<Install Directory>\Orchestrations\CableOrderStage1</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-329">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-329">File</span></span>|<span data-ttu-id="a8c42-330">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-330">Description</span></span>|  
 |----------|-----------------|  
-|CableOrder1.odx|Orquestación para la primera fase de procesamiento de pedido.|  
-|CableOrderStage1.btproj|Archivo de proyecto de BizTalk.|  
+|<span data-ttu-id="a8c42-331">CableOrder1.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-331">CableOrder1.odx</span></span>|<span data-ttu-id="a8c42-332">Orquestación para la primera fase de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-332">Orchestration for the first order processing stage.</span></span>|  
+|<span data-ttu-id="a8c42-333">CableOrderStage1.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-333">CableOrderStage1.btproj</span></span>|<span data-ttu-id="a8c42-334">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-334">BizTalk project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage2  
+ <span data-ttu-id="a8c42-335">Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage2</span><span class="sxs-lookup"><span data-stu-id="a8c42-335">Files in \<Install Directory>\Orchestrations\CableOrderStage2</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-336">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-336">File</span></span>|<span data-ttu-id="a8c42-337">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-337">Description</span></span>|  
 |----------|-----------------|  
-|CableOrder2.odx|Orquestación para la segunda fase de procesamiento de pedido.|  
-|CableOrderStage2.btproj|Archivo de proyecto de BizTalk.|  
+|<span data-ttu-id="a8c42-338">CableOrder2.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-338">CableOrder2.odx</span></span>|<span data-ttu-id="a8c42-339">Orquestación para la segunda fase de procesamiento de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-339">Orchestration for the second order processing stage.</span></span>|  
+|<span data-ttu-id="a8c42-340">CableOrderStage2.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-340">CableOrderStage2.btproj</span></span>|<span data-ttu-id="a8c42-341">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-341">BizTalk project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Orchestrations\OrderBroker  
+ <span data-ttu-id="a8c42-342">Los archivos \<directorio de instalación > \Orchestrations\OrderBroker</span><span class="sxs-lookup"><span data-stu-id="a8c42-342">Files in \<Install Directory>\Orchestrations\OrderBroker</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-343">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-343">File</span></span>|<span data-ttu-id="a8c42-344">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-344">Description</span></span>|  
 |----------|-----------------|  
-|OrderBroker.btproj|Archivo de proyecto de BizTalk.|  
-|OrderBroker.odx|El **OrderBroker** orquestación.|  
+|<span data-ttu-id="a8c42-345">OrderBroker.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-345">OrderBroker.btproj</span></span>|<span data-ttu-id="a8c42-346">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-346">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-347">OrderBroker.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-347">OrderBroker.odx</span></span>|<span data-ttu-id="a8c42-348">El **OrderBroker** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-348">The **OrderBroker** orchestration.</span></span>|  
   
- Los archivos \<directorio de instalación > \Orchestrations\OrderManager  
+ <span data-ttu-id="a8c42-349">Los archivos \<directorio de instalación > \Orchestrations\OrderManager</span><span class="sxs-lookup"><span data-stu-id="a8c42-349">Files in \<Install Directory>\Orchestrations\OrderManager</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-350">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-350">File</span></span>|<span data-ttu-id="a8c42-351">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-351">Description</span></span>|  
 |----------|-----------------|  
-|CheckInterrupt.odx|El **CheckInterrupt** orquestación.|  
-|ErrorHandler.odx|El **ErrorHandler** orquestación.|  
-|ExceptionHandler.odx|El **ExceptionHandler** orquestación.|  
-|Interrupter.odx|El **Interrupter** orquestación.|  
-|OrderManager.btproj|Archivo de proyecto de BizTalk.|  
-|OrderManager.odx|El **OrderManager** orquestación.|  
+|<span data-ttu-id="a8c42-352">CheckInterrupt.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-352">CheckInterrupt.odx</span></span>|<span data-ttu-id="a8c42-353">El **CheckInterrupt** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-353">The **CheckInterrupt** orchestration.</span></span>|  
+|<span data-ttu-id="a8c42-354">ErrorHandler.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-354">ErrorHandler.odx</span></span>|<span data-ttu-id="a8c42-355">El **ErrorHandler** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-355">The **ErrorHandler** orchestration.</span></span>|  
+|<span data-ttu-id="a8c42-356">ExceptionHandler.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-356">ExceptionHandler.odx</span></span>|<span data-ttu-id="a8c42-357">El **ExceptionHandler** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-357">The **ExceptionHandler** orchestration.</span></span>|  
+|<span data-ttu-id="a8c42-358">Interrupter.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-358">Interrupter.odx</span></span>|<span data-ttu-id="a8c42-359">El **Interrupter** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-359">The **Interrupter** orchestration.</span></span>|  
+|<span data-ttu-id="a8c42-360">OrderManager.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-360">OrderManager.btproj</span></span>|<span data-ttu-id="a8c42-361">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-361">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-362">OrderManager.odx</span><span class="sxs-lookup"><span data-stu-id="a8c42-362">OrderManager.odx</span></span>|<span data-ttu-id="a8c42-363">El **OrderManager** orquestación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-363">The **OrderManager** orchestration.</span></span>|  
   
- Los archivos \<directorio de instalación > \OrderBrokerMaps  
+ <span data-ttu-id="a8c42-364">Los archivos \<directorio de instalación > \OrderBrokerMaps</span><span class="sxs-lookup"><span data-stu-id="a8c42-364">Files in \<Install Directory>\OrderBrokerMaps</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-365">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-365">File</span></span>|<span data-ttu-id="a8c42-366">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-366">Description</span></span>|  
 |----------|-----------------|  
-|CSR_OrderRequest_To_Order.btm|Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje de pedido.|  
-|CSR_OrderRequest_To_Servicing_OrderRequest.btm|Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje al departamento de atención.|  
-|CSR_OrderRequest_To_SQLHistoryInsert.btm|Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje de actualización de historial.|  
-|OrderBrokerMaps.btproj|Archivo de proyecto de BizTalk.|  
-|Order_To_CSR_OrderRequest.btm|Asignación para convertir un mensaje de pedido en una solicitud de pedido de atención al cliente.|  
+|<span data-ttu-id="a8c42-367">CSR_OrderRequest_To_Order.btm</span><span class="sxs-lookup"><span data-stu-id="a8c42-367">CSR_OrderRequest_To_Order.btm</span></span>|<span data-ttu-id="a8c42-368">Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-368">Map to convert a customer service order request to an order message.</span></span>|  
+|<span data-ttu-id="a8c42-369">CSR_OrderRequest_To_Servicing_OrderRequest.btm</span><span class="sxs-lookup"><span data-stu-id="a8c42-369">CSR_OrderRequest_To_Servicing_OrderRequest.btm</span></span>|<span data-ttu-id="a8c42-370">Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje al departamento de atención.</span><span class="sxs-lookup"><span data-stu-id="a8c42-370">Map to convert a customer service order request to a message to the servicing</span></span>|  
+|<span data-ttu-id="a8c42-371">CSR_OrderRequest_To_SQLHistoryInsert.btm</span><span class="sxs-lookup"><span data-stu-id="a8c42-371">CSR_OrderRequest_To_SQLHistoryInsert.btm</span></span>|<span data-ttu-id="a8c42-372">Asignación para convertir una solicitud de pedido de atención al cliente en un mensaje de actualización de historial.</span><span class="sxs-lookup"><span data-stu-id="a8c42-372">Map to convert a customer service order request to a history update message.</span></span>|  
+|<span data-ttu-id="a8c42-373">OrderBrokerMaps.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-373">OrderBrokerMaps.btproj</span></span>|<span data-ttu-id="a8c42-374">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-374">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-375">Order_To_CSR_OrderRequest.btm</span><span class="sxs-lookup"><span data-stu-id="a8c42-375">Order_To_CSR_OrderRequest.btm</span></span>|<span data-ttu-id="a8c42-376">Asignación para convertir un mensaje de pedido en una solicitud de pedido de atención al cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-376">Map to convert an order message to a customer service order request.</span></span>|  
   
- Los archivos \<directorio de instalación > \OrderBrokerSchemas  
+ <span data-ttu-id="a8c42-377">Los archivos \<directorio de instalación > \OrderBrokerSchemas</span><span class="sxs-lookup"><span data-stu-id="a8c42-377">Files in \<Install Directory>\OrderBrokerSchemas</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-378">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-378">File</span></span>|<span data-ttu-id="a8c42-379">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-379">Description</span></span>|  
 |----------|-----------------|  
-|CSR_OrderRequest.xsd|Esquema de la solicitud de atención al cliente.|  
-|OrderBrokerSchemas.btproj|Archivo de proyecto de BizTalk.|  
-|Servicing_OrderRequest.xsd|Esquema que define el mensaje enviado al sistema de servicio.|  
-|SQLHistoryInsert.xsd|Esquema para el mensaje de historial de SQL.|  
+|<span data-ttu-id="a8c42-380">CSR_OrderRequest.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-380">CSR_OrderRequest.xsd</span></span>|<span data-ttu-id="a8c42-381">Esquema de la solicitud de atención al cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-381">Schema for the customer service request.</span></span>|  
+|<span data-ttu-id="a8c42-382">OrderBrokerSchemas.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-382">OrderBrokerSchemas.btproj</span></span>|<span data-ttu-id="a8c42-383">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-383">BizTalk project file.</span></span>|  
+|<span data-ttu-id="a8c42-384">Servicing_OrderRequest.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-384">Servicing_OrderRequest.xsd</span></span>|<span data-ttu-id="a8c42-385">Esquema que define el mensaje enviado al sistema de servicio.</span><span class="sxs-lookup"><span data-stu-id="a8c42-385">Schema defining the message sent to the servicing system.</span></span>|  
+|<span data-ttu-id="a8c42-386">SQLHistoryInsert.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-386">SQLHistoryInsert.xsd</span></span>|<span data-ttu-id="a8c42-387">Esquema para el mensaje de historial de SQL.</span><span class="sxs-lookup"><span data-stu-id="a8c42-387">Schema for the SQL history message.</span></span>|  
   
- Los archivos \<directorio de instalación > \OrderBroker_Proxy  
+ <span data-ttu-id="a8c42-388">Los archivos \<directorio de instalación > \OrderBroker_Proxy</span><span class="sxs-lookup"><span data-stu-id="a8c42-388">Files in \<Install Directory>\OrderBroker_Proxy</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-389">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-389">File</span></span>|<span data-ttu-id="a8c42-390">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-390">Description</span></span>|  
 |----------|-----------------|  
-|Global.asax|Archivo generado.|  
-|Index.htm|Archivo generado.|  
-|OrderBrokerOrch_OrderPort.asmx|Archivo generado.|  
-|Web.config|Archivo generado.|  
+|<span data-ttu-id="a8c42-391">Global.asax</span><span class="sxs-lookup"><span data-stu-id="a8c42-391">Global.asax</span></span>|<span data-ttu-id="a8c42-392">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-392">Generated file.</span></span>|  
+|<span data-ttu-id="a8c42-393">Index.htm</span><span class="sxs-lookup"><span data-stu-id="a8c42-393">Index.htm</span></span>|<span data-ttu-id="a8c42-394">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-394">Generated file.</span></span>|  
+|<span data-ttu-id="a8c42-395">OrderBrokerOrch_OrderPort.asmx</span><span class="sxs-lookup"><span data-stu-id="a8c42-395">OrderBrokerOrch_OrderPort.asmx</span></span>|<span data-ttu-id="a8c42-396">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-396">Generated file.</span></span>|  
+|<span data-ttu-id="a8c42-397">Web.config</span><span class="sxs-lookup"><span data-stu-id="a8c42-397">Web.config</span></span>|<span data-ttu-id="a8c42-398">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-398">Generated file.</span></span>|  
   
- Los archivos \<directorio de instalación > \OrderBroker_Proxy\App_Code  
+ <span data-ttu-id="a8c42-399">Los archivos \<directorio de instalación > \OrderBroker_Proxy\App_Code</span><span class="sxs-lookup"><span data-stu-id="a8c42-399">Files in \<Install Directory>\OrderBroker_Proxy\App_Code</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-400">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-400">File</span></span>|<span data-ttu-id="a8c42-401">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-401">Description</span></span>|  
 |----------|-----------------|  
-|DataTypes.cs|Archivo generado.|  
-|OrderBrokerOrch_OrderPort.asmx.cs|Archivo generado.|  
+|<span data-ttu-id="a8c42-402">DataTypes.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-402">DataTypes.cs</span></span>|<span data-ttu-id="a8c42-403">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-403">Generated file.</span></span>|  
+|<span data-ttu-id="a8c42-404">OrderBrokerOrch_OrderPort.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-404">OrderBrokerOrch_OrderPort.asmx.cs</span></span>|<span data-ttu-id="a8c42-405">Archivo generado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-405">Generated file.</span></span>|  
   
- Los archivos \<directorio de instalación > \OrderHandler  
+ <span data-ttu-id="a8c42-406">Los archivos \<directorio de instalación > \OrderHandler</span><span class="sxs-lookup"><span data-stu-id="a8c42-406">Files in \<Install Directory>\OrderHandler</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-407">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-407">File</span></span>|<span data-ttu-id="a8c42-408">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-408">Description</span></span>|  
 |----------|-----------------|  
-|OrderHandler.cs|Código C# para el **OrderHandler** objeto.|  
-|OrderHandler.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-409">OrderHandler.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-409">OrderHandler.cs</span></span>|<span data-ttu-id="a8c42-410">Código C# para el **OrderHandler** objeto.</span><span class="sxs-lookup"><span data-stu-id="a8c42-410">C# code for the **OrderHandler** object.</span></span>|  
+|<span data-ttu-id="a8c42-411">OrderHandler.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-411">OrderHandler.csproj</span></span>|<span data-ttu-id="a8c42-412">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-412">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Rules  
+ <span data-ttu-id="a8c42-413">Los archivos \<directorio de instalación > \Rules</span><span class="sxs-lookup"><span data-stu-id="a8c42-413">Files in \<Install Directory>\Rules</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-414">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-414">File</span></span>|<span data-ttu-id="a8c42-415">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-415">Description</span></span>|  
 |----------|-----------------|  
-|DecodeAndValidateOrderRules.xml|Archivo de reglas para el motor de reglas de negocios.|  
+|<span data-ttu-id="a8c42-416">DecodeAndValidateOrderRules.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-416">DecodeAndValidateOrderRules.xml</span></span>|<span data-ttu-id="a8c42-417">Archivo de reglas para el motor de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="a8c42-417">Rules file for the Business Rules Engine.</span></span>|  
   
- Los archivos \<directorio de instalación > \SampleMessages  
+ <span data-ttu-id="a8c42-418">Los archivos \<directorio de instalación > \SampleMessages</span><span class="sxs-lookup"><span data-stu-id="a8c42-418">Files in \<Install Directory>\SampleMessages</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-419">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-419">File</span></span>|<span data-ttu-id="a8c42-420">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-420">Description</span></span>|  
 |----------|-----------------|  
-|CSR_OrderRequest.xml|Solicitud de pedido de atención al cliente de ejemplo.|  
-|OrderEnvelope.xml|Sobre de pedido de ejemplo.|  
+|<span data-ttu-id="a8c42-421">CSR_OrderRequest.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-421">CSR_OrderRequest.xml</span></span>|<span data-ttu-id="a8c42-422">Solicitud de pedido de atención al cliente de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="a8c42-422">Sample customer service order request.</span></span>|  
+|<span data-ttu-id="a8c42-423">OrderEnvelope.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-423">OrderEnvelope.xml</span></span>|<span data-ttu-id="a8c42-424">Sobre de pedido de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="a8c42-424">Sample order envelope.</span></span>|  
   
- Los archivos \<directorio de instalación > \SchemaClasses  
+ <span data-ttu-id="a8c42-425">Los archivos \<directorio de instalación > \SchemaClasses</span><span class="sxs-lookup"><span data-stu-id="a8c42-425">Files in \<Install Directory>\SchemaClasses</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-426">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-426">File</span></span>|<span data-ttu-id="a8c42-427">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-427">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|InternalMessages.cs|Código C# para las clases que definen los mensajes utilizados para la comunicación entre los componentes de la solución.|  
-|SchemaClasses.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-428">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-428">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-429">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-429">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-430">InternalMessages.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-430">InternalMessages.cs</span></span>|<span data-ttu-id="a8c42-431">Código C# para las clases que definen los mensajes utilizados para la comunicación entre los componentes de la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-431">C# code for classes defining messages used to communicate among components of the solution.</span></span>|  
+|<span data-ttu-id="a8c42-432">SchemaClasses.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-432">SchemaClasses.csproj</span></span>|<span data-ttu-id="a8c42-433">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-433">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Schemas  
+ <span data-ttu-id="a8c42-434">Los archivos \<directorio de instalación > \Schemas</span><span class="sxs-lookup"><span data-stu-id="a8c42-434">Files in \<Install Directory>\Schemas</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-435">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-435">File</span></span>|<span data-ttu-id="a8c42-436">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-436">Description</span></span>|  
 |----------|-----------------|  
-|Order.xsd|Esquema para el mensaje de pedido.|  
-|OrderPropertySchema.xsd|Esquema de propiedades promocionadas para el mensaje de pedido.|  
-|Schemas.btproj|Archivo de proyecto de BizTalk.|  
+|<span data-ttu-id="a8c42-437">Order.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-437">Order.xsd</span></span>|<span data-ttu-id="a8c42-438">Esquema para el mensaje de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-438">Schema for the order message.</span></span>|  
+|<span data-ttu-id="a8c42-439">OrderPropertySchema.xsd</span><span class="sxs-lookup"><span data-stu-id="a8c42-439">OrderPropertySchema.xsd</span></span>|<span data-ttu-id="a8c42-440">Esquema de propiedades promocionadas para el mensaje de pedido.</span><span class="sxs-lookup"><span data-stu-id="a8c42-440">Promoted properties schema for the order message.</span></span>|  
+|<span data-ttu-id="a8c42-441">Schemas.btproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-441">Schemas.btproj</span></span>|<span data-ttu-id="a8c42-442">Archivo de proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a8c42-442">BizTalk project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Scripts  
+ <span data-ttu-id="a8c42-443">Los archivos \<directorio de instalación > \Scripts</span><span class="sxs-lookup"><span data-stu-id="a8c42-443">Files in \<Install Directory>\Scripts</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-444">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-444">File</span></span>|<span data-ttu-id="a8c42-445">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-445">Description</span></span>|  
 |----------|-----------------|  
-|CleanDirs.cmd|Archivo de comandos para eliminar directorios que emplean archivos que sólo usan la versión de prueba de la solución.|  
-|CreateAppReferences.vbs|VBScript para crear referencias de aplicación.|  
-|CreateQueues.vbs|VBScript para crear colas MSMQ.|  
-|CreateSouthridgeVideoApplication.cmd|Archivo de comandos para crear los valores de configuración en el almacén de configuración SSO.|  
-|CreateTestDirectories.cmd|Archivo de comandos para crear directorios para la versión de prueba de la solución.|  
-|DeployBPM.cmd|Archivo de comandos para implementar la solución. |  
-|regac.bat|Archivo por lotes para registrar ensamblados en la caché de ensamblados global (GAC).|  
-|SouthridgeVideoSSOConfiguration.xml|Archivo que contiene los valores de configuración SSO iniciales.|  
+|<span data-ttu-id="a8c42-446">CleanDirs.cmd</span><span class="sxs-lookup"><span data-stu-id="a8c42-446">CleanDirs.cmd</span></span>|<span data-ttu-id="a8c42-447">Archivo de comandos para eliminar directorios que emplean archivos que sólo usan la versión de prueba de la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-447">Command file to delete directories used with files only exercising of the test version of the solution.</span></span>|  
+|<span data-ttu-id="a8c42-448">CreateAppReferences.vbs</span><span class="sxs-lookup"><span data-stu-id="a8c42-448">CreateAppReferences.vbs</span></span>|<span data-ttu-id="a8c42-449">VBScript para crear referencias de aplicación.</span><span class="sxs-lookup"><span data-stu-id="a8c42-449">VBScript to create application references.</span></span>|  
+|<span data-ttu-id="a8c42-450">CreateQueues.vbs</span><span class="sxs-lookup"><span data-stu-id="a8c42-450">CreateQueues.vbs</span></span>|<span data-ttu-id="a8c42-451">VBScript para crear colas MSMQ.</span><span class="sxs-lookup"><span data-stu-id="a8c42-451">VBScript to create MSMQ queues.</span></span>|  
+|<span data-ttu-id="a8c42-452">CreateSouthridgeVideoApplication.cmd</span><span class="sxs-lookup"><span data-stu-id="a8c42-452">CreateSouthridgeVideoApplication.cmd</span></span>|<span data-ttu-id="a8c42-453">Archivo de comandos para crear los valores de configuración en el almacén de configuración SSO.</span><span class="sxs-lookup"><span data-stu-id="a8c42-453">Command file to create the configuration values in the SSO configuration store.</span></span>|  
+|<span data-ttu-id="a8c42-454">CreateTestDirectories.cmd</span><span class="sxs-lookup"><span data-stu-id="a8c42-454">CreateTestDirectories.cmd</span></span>|<span data-ttu-id="a8c42-455">Archivo de comandos para crear directorios para la versión de prueba de la solución.</span><span class="sxs-lookup"><span data-stu-id="a8c42-455">Command file to create directories for the test version of the solution.</span></span>|  
+|<span data-ttu-id="a8c42-456">DeployBPM.cmd</span><span class="sxs-lookup"><span data-stu-id="a8c42-456">DeployBPM.cmd</span></span>|<span data-ttu-id="a8c42-457">Archivo de comandos para implementar la solución. </span><span class="sxs-lookup"><span data-stu-id="a8c42-457">Command file to deploy the solution.</span></span>|  
+|<span data-ttu-id="a8c42-458">regac.bat</span><span class="sxs-lookup"><span data-stu-id="a8c42-458">regac.bat</span></span>|<span data-ttu-id="a8c42-459">Archivo por lotes para registrar ensamblados en la caché de ensamblados global (GAC).</span><span class="sxs-lookup"><span data-stu-id="a8c42-459">Batch file to register assemblies in the global assembly cache (GAC).</span></span>|  
+|<span data-ttu-id="a8c42-460">SouthridgeVideoSSOConfiguration.xml</span><span class="sxs-lookup"><span data-stu-id="a8c42-460">SouthridgeVideoSSOConfiguration.xml</span></span>|<span data-ttu-id="a8c42-461">Archivo que contiene los valores de configuración SSO iniciales.</span><span class="sxs-lookup"><span data-stu-id="a8c42-461">File containing the initial SSO configuration values.</span></span>|  
   
- Los archivos \<directorio de instalación > \ServiceLevelTracking  
+ <span data-ttu-id="a8c42-462">Los archivos \<directorio de instalación > \ServiceLevelTracking</span><span class="sxs-lookup"><span data-stu-id="a8c42-462">Files in \<Install Directory>\ServiceLevelTracking</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-463">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-463">File</span></span>|<span data-ttu-id="a8c42-464">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-464">Description</span></span>|  
 |----------|-----------------|  
-|Activity_CustomerOrderRequest.cs|Código C# para definir las actividades de SAE de solicitud de pedido de cliente.|  
-|Activity_OrderManager.cs|Código C# para definir las actividades de SAE del administrador de pedidos.|  
-|Activity_ServiceOrderRequest.cs|Código C# para definir las actividades de SAE de solicitud de pedido de atención al cliente.|  
-|ServiceLevelTracking.cs|Código C# para definir la clase base abstracta para las actividades.|  
-|ServiceLevelTracking.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-465">Activity_CustomerOrderRequest.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-465">Activity_CustomerOrderRequest.cs</span></span>|<span data-ttu-id="a8c42-466">Código C# para definir las actividades de SAE de solicitud de pedido de cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-466">C# code to define the customer order request BAM activities.</span></span>|  
+|<span data-ttu-id="a8c42-467">Activity_OrderManager.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-467">Activity_OrderManager.cs</span></span>|<span data-ttu-id="a8c42-468">Código C# para definir las actividades de SAE del administrador de pedidos.</span><span class="sxs-lookup"><span data-stu-id="a8c42-468">C# code to define the order manager BAM activities.</span></span>|  
+|<span data-ttu-id="a8c42-469">Activity_ServiceOrderRequest.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-469">Activity_ServiceOrderRequest.cs</span></span>|<span data-ttu-id="a8c42-470">Código C# para definir las actividades de SAE de solicitud de pedido de atención al cliente.</span><span class="sxs-lookup"><span data-stu-id="a8c42-470">C# code to define the service order request BAM activities.</span></span>|  
+|<span data-ttu-id="a8c42-471">ServiceLevelTracking.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-471">ServiceLevelTracking.cs</span></span>|<span data-ttu-id="a8c42-472">Código C# para definir la clase base abstracta para las actividades.</span><span class="sxs-lookup"><span data-stu-id="a8c42-472">C# code to define the abstract base class for activities.</span></span>|  
+|<span data-ttu-id="a8c42-473">ServiceLevelTracking.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-473">ServiceLevelTracking.csproj</span></span>|<span data-ttu-id="a8c42-474">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-474">C# project file.</span></span>|  
   
- Los archivos \<directorio de instalación > \Utilities  
+ <span data-ttu-id="a8c42-475">Los archivos \<directorio de instalación > \Utilities</span><span class="sxs-lookup"><span data-stu-id="a8c42-475">Files in \<Install Directory>\Utilities</span></span>  
   
-|Archivo|Description|  
+|<span data-ttu-id="a8c42-476">Archivo</span><span class="sxs-lookup"><span data-stu-id="a8c42-476">File</span></span>|<span data-ttu-id="a8c42-477">Description</span><span class="sxs-lookup"><span data-stu-id="a8c42-477">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|Archivo de información sobre el ensamblado.|  
-|CableOrderException.cs|Código C# que define la clase de excepción de pedido de cable.|  
-|Helper.cs|Código C# para varios métodos y clases de ayuda.|  
-|Recaller.cs|Código C# para el **Recaller** objeto.|  
-|SSOConfigHelper.cs|Código C# para los métodos y objetos de ayuda de la configuración SSO.|  
-|Utilities.csproj|Archivo de proyecto de C#.|  
+|<span data-ttu-id="a8c42-478">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-478">AssemblyInfo.cs</span></span>|<span data-ttu-id="a8c42-479">Archivo de información sobre el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="a8c42-479">Assembly information file.</span></span>|  
+|<span data-ttu-id="a8c42-480">CableOrderException.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-480">CableOrderException.cs</span></span>|<span data-ttu-id="a8c42-481">Código C# que define la clase de excepción de pedido de cable.</span><span class="sxs-lookup"><span data-stu-id="a8c42-481">C# code defining the cable order exception class.</span></span>|  
+|<span data-ttu-id="a8c42-482">Helper.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-482">Helper.cs</span></span>|<span data-ttu-id="a8c42-483">Código C# para varios métodos y clases de ayuda.</span><span class="sxs-lookup"><span data-stu-id="a8c42-483">C# code for various helper classes and methods.</span></span>|  
+|<span data-ttu-id="a8c42-484">Recaller.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-484">Recaller.cs</span></span>|<span data-ttu-id="a8c42-485">Código C# para el **Recaller** objeto.</span><span class="sxs-lookup"><span data-stu-id="a8c42-485">C# code for the **Recaller** object.</span></span>|  
+|<span data-ttu-id="a8c42-486">SSOConfigHelper.cs</span><span class="sxs-lookup"><span data-stu-id="a8c42-486">SSOConfigHelper.cs</span></span>|<span data-ttu-id="a8c42-487">Código C# para los métodos y objetos de ayuda de la configuración SSO.</span><span class="sxs-lookup"><span data-stu-id="a8c42-487">C# code for the SSO configuration helper objects and methods.</span></span>|  
+|<span data-ttu-id="a8c42-488">Utilities.csproj</span><span class="sxs-lookup"><span data-stu-id="a8c42-488">Utilities.csproj</span></span>|<span data-ttu-id="a8c42-489">Archivo de proyecto de C#.</span><span class="sxs-lookup"><span data-stu-id="a8c42-489">C# project file.</span></span>|  
   
-## <a name="see-also"></a>Vea también  
- [Referencia de solución de administración de proceso empresarial](../core/business-process-management-solution-reference.md)   
- [Componentes de la solución de administración de procesos empresariales](../core/components-of-the-business-process-management-solution.md)
+## <a name="see-also"></a><span data-ttu-id="a8c42-490">Vea también</span><span class="sxs-lookup"><span data-stu-id="a8c42-490">See Also</span></span>  
+ <span data-ttu-id="a8c42-491">[Referencia de solución de administración de proceso empresarial](../core/business-process-management-solution-reference.md) </span><span class="sxs-lookup"><span data-stu-id="a8c42-491">[Business Process Management Solution Reference](../core/business-process-management-solution-reference.md) </span></span>  
+ [<span data-ttu-id="a8c42-492">Componentes de la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="a8c42-492">Components of the Business Process Management Solution</span></span>](../core/components-of-the-business-process-management-solution.md)

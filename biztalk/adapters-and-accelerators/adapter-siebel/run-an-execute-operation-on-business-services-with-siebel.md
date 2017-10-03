@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="run-an-execute-operation-on-business-services-with-siebel"></a>Ejecutar una operación de ejecución en los servicios de negocios con Siebel
-Esta sección muestra cómo ejecutar una operación en un servicio de negocios de Siebel mediante el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].  
+# <a name="run-an-execute-operation-on-business-services-with-siebel"></a><span data-ttu-id="5bd5b-102">Ejecutar una operación de ejecución en los servicios de negocios con Siebel</span><span class="sxs-lookup"><span data-stu-id="5bd5b-102">Run an EXECUTE Operation on Business Services with Siebel</span></span>
+<span data-ttu-id="5bd5b-103">Esta sección muestra cómo ejecutar una operación en un servicio de negocios de Siebel mediante el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5bd5b-103">This section demonstrates how to execute an operation on a Siebel business service using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].</span></span>  
   
-## <a name="executing-a-siebel-business-service"></a>Ejecutar un servicio de negocios de Siebel  
- Esta sección muestra cómo ejecutar operaciones en un servicio empresarial en el repositorio de Siebel.  
+## <a name="executing-a-siebel-business-service"></a><span data-ttu-id="5bd5b-104">Ejecutar un servicio de negocios de Siebel</span><span class="sxs-lookup"><span data-stu-id="5bd5b-104">Executing a Siebel Business Service</span></span>  
+ <span data-ttu-id="5bd5b-105">Esta sección muestra cómo ejecutar operaciones en un servicio empresarial en el repositorio de Siebel.</span><span class="sxs-lookup"><span data-stu-id="5bd5b-105">This section demonstrates how to execute operations on a business service in the Siebel repository.</span></span>  
   
 ```  
 using System;  
@@ -84,6 +84,6 @@ namespace SiebelADOBS
 }  
 ```  
   
-## <a name="see-also"></a>Vea también  
- [Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)   
- [Ejecute una consulta SELECT en componentes empresariales con Siebel](../../adapters-and-accelerators/adapter-siebel/run-a-select-query-on-business-components-with-siebel.md)
+## <a name="see-also"></a><span data-ttu-id="5bd5b-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="5bd5b-106">See Also</span></span>  
+ <span data-ttu-id="5bd5b-107">[Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md) </span><span class="sxs-lookup"><span data-stu-id="5bd5b-107">[Use the .NET Framework Data Provider for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md) </span></span>  
+ [<span data-ttu-id="5bd5b-108">Ejecute una consulta SELECT en componentes empresariales con Siebel</span><span class="sxs-lookup"><span data-stu-id="5bd5b-108">Run a SELECT Query on Business Components with Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/run-a-select-query-on-business-components-with-siebel.md)

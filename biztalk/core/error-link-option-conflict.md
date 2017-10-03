@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---link-option-conflict"></a>Error: conflicto entre las opciones vínculo
-**Código de error**  
+# <a name="error---link-option-conflict"></a><span data-ttu-id="63ee2-102">Error: conflicto entre las opciones vínculo</span><span class="sxs-lookup"><span data-stu-id="63ee2-102">Error - Link Option Conflict</span></span>
+<span data-ttu-id="63ee2-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="63ee2-103">**Error Code**</span></span>  
   
- btm1022  
+ <span data-ttu-id="63ee2-104">btm1022</span><span class="sxs-lookup"><span data-stu-id="63ee2-104">btm1022</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="63ee2-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="63ee2-105">**Explanation**</span></span>  
   
- Los nodos indicados en el esquema de destino tienen directivas de compilador en conflicto especificadas para sus vínculos entrantes.  
+ <span data-ttu-id="63ee2-106">Los nodos indicados en el esquema de destino tienen directivas de compilador en conflicto especificadas para sus vínculos entrantes.</span><span class="sxs-lookup"><span data-stu-id="63ee2-106">The indicated nodes in the destination schema have conflicting compiler directives specified for their incoming links.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="63ee2-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="63ee2-107">**User Action**</span></span>  
   
- Seleccione uno o ambos vínculos que conducen a los nodos indicados en el esquema de destino y, a continuación, en la ventana Propiedades de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], cambie las directivas de compilador para hacerlas compatibles.
+ <span data-ttu-id="63ee2-108">Seleccione uno o ambos vínculos que conducen a los nodos indicados en el esquema de destino y, a continuación, en la ventana Propiedades de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], cambie las directivas de compilador para hacerlas compatibles.</span><span class="sxs-lookup"><span data-stu-id="63ee2-108">Select one or both of the links leading to the indicated nodes in the destination schema and then in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, change their compiler directives so that they are compatible.</span></span>

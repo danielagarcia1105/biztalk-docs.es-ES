@@ -18,69 +18,69 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario"></a>Paso 3D: agregar un puerto de envío de FILEACT para el escenario de reenvío y almacenamiento de FileAct
-Antes de comenzar este paso, debe completar [paso 3c: agregar un puerto de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el escenario de al día y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md).  
+# <a name="step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario"></a><span data-ttu-id="a5728-102">Paso 3D: agregar un puerto de envío de FILEACT para el escenario de reenvío y almacenamiento de FileAct</span><span class="sxs-lookup"><span data-stu-id="a5728-102">Step 3D: Add a FILEACT Send Port for the FileAct Store and Forward Scenario</span></span>
+<span data-ttu-id="a5728-103">Antes de comenzar este paso, debe completar [paso 3c: agregar un puerto de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el escenario de al día y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md).</span><span class="sxs-lookup"><span data-stu-id="a5728-103">Before you begin this step, you must complete [Step 3C: Add a FILE Send Port to Capture the Sw:HandleFileRequest and Sw:HandleSnFRequest Messages for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md).</span></span>  
   
-### <a name="to-add-a-fileact-send-port"></a>Para agregar un puerto de envío FILEACT  
+### <a name="to-add-a-fileact-send-port"></a><span data-ttu-id="a5728-104">Para agregar un puerto de envío FILEACT</span><span class="sxs-lookup"><span data-stu-id="a5728-104">To add a FILEACT send port</span></span>  
   
-1.  Iniciar **administración de BizTalk Server**.  
+1.  <span data-ttu-id="a5728-105">Iniciar **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="a5728-105">Start **BizTalk Server Administration**.</span></span>  
   
-2.  En el árbol de consola, expanda el grupo de BizTalk y, a continuación, expanda la aplicación de BizTalk para el que desea crear un puerto de envío.  
+2.  <span data-ttu-id="a5728-106">En el árbol de consola, expanda el grupo de BizTalk y, a continuación, expanda la aplicación de BizTalk para el que desea crear un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="a5728-106">In the console tree, expand the BizTalk group, and then expand the BizTalk application for which you want to create a send port.</span></span>  
   
-3.  Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta estático**.  
+3.  <span data-ttu-id="a5728-107">Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta estático**.</span><span class="sxs-lookup"><span data-stu-id="a5728-107">Right-click **Send Ports**, point to **New**, and then click **Static Solicit-Response Send Port**.</span></span>  
   
-4.  En el **propiedades de puerto de envío** ventana, nombre el puerto de envío Tutorial_FA_SendRequest_SnF.  
+4.  <span data-ttu-id="a5728-108">En el **propiedades de puerto de envío** ventana, nombre el puerto de envío Tutorial_FA_SendRequest_SnF.</span><span class="sxs-lookup"><span data-stu-id="a5728-108">In the **Send Port Properties** window, name the send port, Tutorial_FA_SendRequest_SnF.</span></span>  
   
-5.  En el **propiedades de puerto de envío** ventana, desde el **tipo de transporte** lista desplegable, seleccione **FILEACT**y, a continuación, haga clic en **configurar**.  
+5.  <span data-ttu-id="a5728-109">En el **propiedades de puerto de envío** ventana, desde el **tipo de transporte** lista desplegable, seleccione **FILEACT**y, a continuación, haga clic en **configurar**.</span><span class="sxs-lookup"><span data-stu-id="a5728-109">In the **Send Port Properties** window, from the **Transport type** drop-down list, select **FILEACT**, and then click **Configure**.</span></span>  
   
-6.  En el **propiedades de transporte FILEACT** diálogo cuadro, realice lo siguiente:  
+6.  <span data-ttu-id="a5728-110">En el **propiedades de transporte FILEACT** diálogo cuadro, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a5728-110">In the **FILEACT Transport Properties** dialog box, do the following:</span></span>  
   
-    |**Use esto**|**Para ello**|  
+    |<span data-ttu-id="a5728-111">**Use esto**</span><span class="sxs-lookup"><span data-stu-id="a5728-111">**Use this**</span></span>|<span data-ttu-id="a5728-112">**Para ello**</span><span class="sxs-lookup"><span data-stu-id="a5728-112">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |**Contraseña**|Establecer la contraseña según corresponda para la conectividad SAG.|  
-    |**Nombre de usuario.**|Defina el nombre de usuario según corresponda para la conectividad SAG.|  
-    |**Modo del adaptador**|En la lista desplegable, seleccione **almacenar y retransmitir**.|  
-    |**Indicador de sin repudio**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Tipo de solicitud**|Establecer correspondientes \<RequestType > cadena, según su aprovisionamiento con SWIFT.|  
-    |**ResponseCrypto**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Solicitante**|Establecer correspondientes \<solicitante > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Servicio de respuesta**|Establecer correspondientes \<Respondedor > cadena.|  
-    |**Nombre del servicio**|Establecer correspondientes \<nombre del servicio >.|  
-    |**Indicador de confirmación**|En la lista desplegable, seleccione **FALSE**.|  
-    |**FileCompression**|En la lista desplegable, seleccione **ninguno**.|  
-    |**Extremo de eventos**|Escriba el extremo SAG adecuado.|  
-    |**Nombre de la carpeta física**|Escriba C:\SWIFTAdapterTutorial\Fileact\ClientLocation.|  
-    |**Transferencia de extremo**|Escriba el extremo adecuado para el conjunto de enrutamiento SAG. Este valor debe coincidir con el punto de conexión de SnL que configuró en SAG.|  
-    |**PerfilServicio**|En la lista desplegable, seleccione **recuento de transacciones**.|  
-    |**Notificación de entrega**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Cola de notificación**|Escriba el nombre de cola, en función de su aprovisionamiento con SWIFT.|  
+    |<span data-ttu-id="a5728-113">**Contraseña**</span><span class="sxs-lookup"><span data-stu-id="a5728-113">**Password**</span></span>|<span data-ttu-id="a5728-114">Establecer la contraseña según corresponda para la conectividad SAG.</span><span class="sxs-lookup"><span data-stu-id="a5728-114">Set the password as appropriate for SAG connectivity.</span></span>|  
+    |<span data-ttu-id="a5728-115">**Nombre de usuario.**</span><span class="sxs-lookup"><span data-stu-id="a5728-115">**User name**</span></span>|<span data-ttu-id="a5728-116">Defina el nombre de usuario según corresponda para la conectividad SAG.</span><span class="sxs-lookup"><span data-stu-id="a5728-116">Set the user name as appropriate for SAG connectivity.</span></span>|  
+    |<span data-ttu-id="a5728-117">**Modo del adaptador**</span><span class="sxs-lookup"><span data-stu-id="a5728-117">**Adapter Mode**</span></span>|<span data-ttu-id="a5728-118">En la lista desplegable, seleccione **almacenar y retransmitir**.</span><span class="sxs-lookup"><span data-stu-id="a5728-118">From the drop-down list, select **Store and Forward**.</span></span>|  
+    |<span data-ttu-id="a5728-119">**Indicador de sin repudio**</span><span class="sxs-lookup"><span data-stu-id="a5728-119">**Non-Repudiation Indicator**</span></span>|<span data-ttu-id="a5728-120">En la lista desplegable, seleccione **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="a5728-120">From the drop-down list, select **FALSE**.</span></span>|  
+    |<span data-ttu-id="a5728-121">**Tipo de solicitud**</span><span class="sxs-lookup"><span data-stu-id="a5728-121">**Request Type**</span></span>|<span data-ttu-id="a5728-122">Establecer correspondientes \<RequestType > cadena, según su aprovisionamiento con SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a5728-122">Set to the appropriate \<RequestType> string, based on your provisioning with SWIFT.</span></span>|  
+    |<span data-ttu-id="a5728-123">**ResponseCrypto**</span><span class="sxs-lookup"><span data-stu-id="a5728-123">**ResponseCrypto**</span></span>|<span data-ttu-id="a5728-124">En la lista desplegable, seleccione **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="a5728-124">From the drop-down list, select **FALSE**.</span></span>|  
+    |<span data-ttu-id="a5728-125">**Solicitante**</span><span class="sxs-lookup"><span data-stu-id="a5728-125">**Requestor**</span></span>|<span data-ttu-id="a5728-126">Establecer correspondientes \<solicitante > cadena, según su aprovisionamiento con SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a5728-126">Set to the appropriate \<Requestor> string, based on your provisioning with SWIFT.</span></span>|  
+    |<span data-ttu-id="a5728-127">**Servicio de respuesta**</span><span class="sxs-lookup"><span data-stu-id="a5728-127">**Responder**</span></span>|<span data-ttu-id="a5728-128">Establecer correspondientes \<Respondedor > cadena.</span><span class="sxs-lookup"><span data-stu-id="a5728-128">Set to the appropriate \<Responder> string.</span></span>|  
+    |<span data-ttu-id="a5728-129">**Nombre del servicio**</span><span class="sxs-lookup"><span data-stu-id="a5728-129">**Service Name**</span></span>|<span data-ttu-id="a5728-130">Establecer correspondientes \<nombre del servicio >.</span><span class="sxs-lookup"><span data-stu-id="a5728-130">Set to the appropriate \<service name>.</span></span>|  
+    |<span data-ttu-id="a5728-131">**Indicador de confirmación**</span><span class="sxs-lookup"><span data-stu-id="a5728-131">**Acknowledgement Indicator**</span></span>|<span data-ttu-id="a5728-132">En la lista desplegable, seleccione **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="a5728-132">From the drop-down list, select **FALSE**.</span></span>|  
+    |<span data-ttu-id="a5728-133">**FileCompression**</span><span class="sxs-lookup"><span data-stu-id="a5728-133">**FileCompression**</span></span>|<span data-ttu-id="a5728-134">En la lista desplegable, seleccione **ninguno**.</span><span class="sxs-lookup"><span data-stu-id="a5728-134">From the drop-down list, select **None**.</span></span>|  
+    |<span data-ttu-id="a5728-135">**Extremo de eventos**</span><span class="sxs-lookup"><span data-stu-id="a5728-135">**Event end-point**</span></span>|<span data-ttu-id="a5728-136">Escriba el extremo SAG adecuado.</span><span class="sxs-lookup"><span data-stu-id="a5728-136">Type the appropriate SAG end-point.</span></span>|  
+    |<span data-ttu-id="a5728-137">**Nombre de la carpeta física**</span><span class="sxs-lookup"><span data-stu-id="a5728-137">**Physical Folder Name**</span></span>|<span data-ttu-id="a5728-138">Escriba C:\SWIFTAdapterTutorial\Fileact\ClientLocation.</span><span class="sxs-lookup"><span data-stu-id="a5728-138">Type C:\SWIFTAdapterTutorial\Fileact\ClientLocation.</span></span>|  
+    |<span data-ttu-id="a5728-139">**Transferencia de extremo**</span><span class="sxs-lookup"><span data-stu-id="a5728-139">**Transfer end-point**</span></span>|<span data-ttu-id="a5728-140">Escriba el extremo adecuado para el conjunto de enrutamiento SAG.</span><span class="sxs-lookup"><span data-stu-id="a5728-140">Type the appropriate end-point for the SAG routing set.</span></span> <span data-ttu-id="a5728-141">Este valor debe coincidir con el punto de conexión de SnL que configuró en SAG.</span><span class="sxs-lookup"><span data-stu-id="a5728-141">This value should match the SnL endpoint you configured in SAG.</span></span>|  
+    |<span data-ttu-id="a5728-142">**PerfilServicio**</span><span class="sxs-lookup"><span data-stu-id="a5728-142">**ServiceProfile**</span></span>|<span data-ttu-id="a5728-143">En la lista desplegable, seleccione **recuento de transacciones**.</span><span class="sxs-lookup"><span data-stu-id="a5728-143">From the drop-down list, select **Transaction Count**.</span></span>|  
+    |<span data-ttu-id="a5728-144">**Notificación de entrega**</span><span class="sxs-lookup"><span data-stu-id="a5728-144">**Delivery notification**</span></span>|<span data-ttu-id="a5728-145">En la lista desplegable, seleccione **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="a5728-145">From the drop-down list, select **FALSE**.</span></span>|  
+    |<span data-ttu-id="a5728-146">**Cola de notificación**</span><span class="sxs-lookup"><span data-stu-id="a5728-146">**Notify queue**</span></span>|<span data-ttu-id="a5728-147">Escriba el nombre de cola, en función de su aprovisionamiento con SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a5728-147">Type the queue name, based on your provisioning with SWIFT.</span></span>|  
   
     > [!WARNING]
-    >  Si el mensaje con el recuento de transacciones que se va a transferirse, establezca el modo de perfil de servicio para "recuento de transacciones" en el FileAct puerto de envío.  
+    >  <span data-ttu-id="a5728-148">Si el mensaje con el recuento de transacciones que se va a transferirse, establezca el modo de perfil de servicio para "recuento de transacciones" en el FileAct puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="a5728-148">If message with Transaction Count is to be transferred, set the Service Profile Mode to “Transaction Count” in the FileAct send port.</span></span>  
   
-7.  Haga clic en **Aceptar**.  
+7.  <span data-ttu-id="a5728-149">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="a5728-149">Click **OK**.</span></span>  
   
-8.  En el **propiedades de puerto de envío** ventana, haga lo siguiente:  
+8.  <span data-ttu-id="a5728-150">En el **propiedades de puerto de envío** ventana, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a5728-150">In the **Send Port Properties** window, do the following:</span></span>  
   
-    |**Use esto**|**Para ello**|  
+    |<span data-ttu-id="a5728-151">**Use esto**</span><span class="sxs-lookup"><span data-stu-id="a5728-151">**Use this**</span></span>|<span data-ttu-id="a5728-152">**Para ello**</span><span class="sxs-lookup"><span data-stu-id="a5728-152">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |**Controlador de envío**|En la lista desplegable, seleccione el host de Fileact.|  
-    |**Canalización de envío**|En la lista desplegable, seleccione **XMLTransmit**.|  
-    |**La canalización de recepción**|En la lista desplegable, seleccione **XMLReceive**.|  
+    |<span data-ttu-id="a5728-153">**Controlador de envío**</span><span class="sxs-lookup"><span data-stu-id="a5728-153">**Send handler**</span></span>|<span data-ttu-id="a5728-154">En la lista desplegable, seleccione el host de Fileact.</span><span class="sxs-lookup"><span data-stu-id="a5728-154">From the drop-down list, select the Fileact host.</span></span>|  
+    |<span data-ttu-id="a5728-155">**Canalización de envío**</span><span class="sxs-lookup"><span data-stu-id="a5728-155">**Send pipeline**</span></span>|<span data-ttu-id="a5728-156">En la lista desplegable, seleccione **XMLTransmit**.</span><span class="sxs-lookup"><span data-stu-id="a5728-156">From the drop-down list, select **XMLTransmit**.</span></span>|  
+    |<span data-ttu-id="a5728-157">**La canalización de recepción**</span><span class="sxs-lookup"><span data-stu-id="a5728-157">**Receive pipeline**</span></span>|<span data-ttu-id="a5728-158">En la lista desplegable, seleccione **XMLReceive**.</span><span class="sxs-lookup"><span data-stu-id="a5728-158">From the drop-down list, select **XMLReceive**.</span></span>|  
   
-9. En el **propiedades de puerto de envío** ventana, en la **filtros** ficha, realice lo siguiente:  
+9. <span data-ttu-id="a5728-159">En el **propiedades de puerto de envío** ventana, en la **filtros** ficha, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a5728-159">In the **Send Port Properties** window, on the **Filters** tab, do the following:</span></span>  
   
-    |**Use esto**|**Para ello**|  
+    |<span data-ttu-id="a5728-160">**Use esto**</span><span class="sxs-lookup"><span data-stu-id="a5728-160">**Use this**</span></span>|<span data-ttu-id="a5728-161">**Para ello**</span><span class="sxs-lookup"><span data-stu-id="a5728-161">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |**Propiedad**|En la lista desplegable, seleccione **BTS. ReceivePortName**.|  
-    |**Operador**|En la lista desplegable, seleccione  **==** .|  
-    |**Valor**|Tutorial_FA_InputRequest_SnF de tipo.|  
-    |**Agrupar por**|Dejar el valor predeterminado.|  
+    |<span data-ttu-id="a5728-162">**Propiedad**</span><span class="sxs-lookup"><span data-stu-id="a5728-162">**Property**</span></span>|<span data-ttu-id="a5728-163">En la lista desplegable, seleccione **BTS. ReceivePortName**.</span><span class="sxs-lookup"><span data-stu-id="a5728-163">From the drop-down list, select **BTS.ReceivePortName**.</span></span>|  
+    |<span data-ttu-id="a5728-164">**Operador**</span><span class="sxs-lookup"><span data-stu-id="a5728-164">**Operator**</span></span>|<span data-ttu-id="a5728-165">En la lista desplegable, seleccione  **==** .</span><span class="sxs-lookup"><span data-stu-id="a5728-165">From the drop-down list, select **==**.</span></span>|  
+    |<span data-ttu-id="a5728-166">**Valor**</span><span class="sxs-lookup"><span data-stu-id="a5728-166">**Value**</span></span>|<span data-ttu-id="a5728-167">Tutorial_FA_InputRequest_SnF de tipo.</span><span class="sxs-lookup"><span data-stu-id="a5728-167">Type Tutorial_FA_InputRequest_SnF.</span></span>|  
+    |<span data-ttu-id="a5728-168">**Agrupar por**</span><span class="sxs-lookup"><span data-stu-id="a5728-168">**Group by**</span></span>|<span data-ttu-id="a5728-169">Dejar el valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="a5728-169">Leave the default value.</span></span>|  
   
-10. Haga clic en **Aceptar**.  
+10. <span data-ttu-id="a5728-170">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="a5728-170">Click **OK**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Paso 3: Crear puertos de envío y puertos de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
- [Paso 3A: agregar un archivo de ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md)   
- [Paso 3B: agregar un FILEACT ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3b-add-a-fileact-receive-location-for-fileact-store-and-forward-scenario.md)   
- [Paso 3c: agregar un puerto de envío de archivo para capturar los mensajes Sw:HandleFileRequest y Sw:HandleSnFRequest para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md)
+## <a name="see-also"></a><span data-ttu-id="a5728-171">Vea también</span><span class="sxs-lookup"><span data-stu-id="a5728-171">See Also</span></span>  
+ <span data-ttu-id="a5728-172">[Paso 3: Crear puertos de envío y puertos de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md) </span><span class="sxs-lookup"><span data-stu-id="a5728-172">[Step 3: Create Send Ports and Receive Ports for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md) </span></span>  
+ <span data-ttu-id="a5728-173">[Paso 3A: agregar un archivo de ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="a5728-173">[Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md) </span></span>  
+ <span data-ttu-id="a5728-174">[Paso 3B: agregar un FILEACT ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3b-add-a-fileact-receive-location-for-fileact-store-and-forward-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="a5728-174">[Step 3B: Add a FILEACT Receive Location for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-a-fileact-receive-location-for-fileact-store-and-forward-scenario.md) </span></span>  
+ [<span data-ttu-id="a5728-175">Paso 3c: agregar un puerto de envío de archivo para capturar los mensajes Sw:HandleFileRequest y Sw:HandleSnFRequest para el escenario de reenvío y almacenamiento de FileAct</span><span class="sxs-lookup"><span data-stu-id="a5728-175">Step 3C: Add a FILE Send Port to Capture the Sw:HandleFileRequest and Sw:HandleSnFRequest Messages for the FileAct Store and Forward Scenario</span></span>](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md)

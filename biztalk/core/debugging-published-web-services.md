@@ -19,13 +19,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="debugging-published-web-services"></a>Depuración de servicios web publicados
-En esta sección se proporciona información acerca de cómo depurar los servicios Web publicados.  
+# <a name="debugging-published-web-services"></a><span data-ttu-id="6cb70-102">Depuración de servicios web publicados</span><span class="sxs-lookup"><span data-stu-id="6cb70-102">Debugging Published Web Services</span></span>
+<span data-ttu-id="6cb70-103">En esta sección se proporciona información acerca de cómo depurar los servicios Web publicados.</span><span class="sxs-lookup"><span data-stu-id="6cb70-103">This section provides information about debugging your published Web services.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="6cb70-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="6cb70-104">In This Section</span></span>  
   
--   [Cómo habilitar el seguimiento de mensajes SOAP](../core/how-to-enable-soap-message-tracing.md)  
+-   [<span data-ttu-id="6cb70-105">Cómo habilitar el seguimiento de mensajes SOAP</span><span class="sxs-lookup"><span data-stu-id="6cb70-105">How to Enable SOAP Message Tracing</span></span>](../core/how-to-enable-soap-message-tracing.md)  
   
--   [Cómo modificar BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md)  
+-   [<span data-ttu-id="6cb70-106">Cómo modificar BTSWebSvcWiz.exe.config</span><span class="sxs-lookup"><span data-stu-id="6cb70-106">How to Modify BTSWebSvcWiz.exe.config</span></span>](../core/how-to-modify-btswebsvcwiz-exe-config.md)  
   
--   [Cómo usar el modificador ThrowDetailedError](../core/how-to-use-the-throwdetailederror-switch.md)
+-   [<span data-ttu-id="6cb70-107">Cómo usar el modificador ThrowDetailedError</span><span class="sxs-lookup"><span data-stu-id="6cb70-107">How to Use the ThrowDetailedError Switch</span></span>](../core/how-to-use-the-throwdetailederror-switch.md)

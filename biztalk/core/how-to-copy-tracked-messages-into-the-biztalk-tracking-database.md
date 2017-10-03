@@ -31,43 +31,43 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-copy-tracked-messages-into-the-biztalk-tracking-database"></a>Cómo copiar mensajes de los que se ha realizado un seguimiento en la base de datos de seguimiento de BizTalk
-El proceso de archivo y purga puede obtener acceso a las bases de datos de servidores SQL Server diferentes o actualizarlas, por lo que es preciso configurar servidores vinculados entre las instancias implicadas de servidor SQL Server. Puede copiar directamente mensajes de los que se ha efectuado un seguimiento del servidor de base de datos de cuadro de mensajes (BizTalkMsgBoxDb) a la base de datos de seguimiento de BizTalk (BizTalkDTADb) a través de un servidor vinculado. Debe configurar servidores vinculados entre:  
+# <a name="how-to-copy-tracked-messages-into-the-biztalk-tracking-database"></a><span data-ttu-id="6d0c4-102">Cómo copiar mensajes de los que se ha realizado un seguimiento en la base de datos de seguimiento de BizTalk</span><span class="sxs-lookup"><span data-stu-id="6d0c4-102">How to Copy Tracked Messages into the BizTalk Tracking Database</span></span>
+<span data-ttu-id="6d0c4-103">El proceso de archivo y purga puede obtener acceso a las bases de datos de servidores SQL Server diferentes o actualizarlas, por lo que es preciso configurar servidores vinculados entre las instancias implicadas de servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-103">The archiving and purging process potentially accesses and/or updates databases in different SQL servers, so you must set up linked servers between the involved SQL Server instances.</span></span> <span data-ttu-id="6d0c4-104">Puede copiar directamente mensajes de los que se ha efectuado un seguimiento del servidor de base de datos de cuadro de mensajes (BizTalkMsgBoxDb) a la base de datos de seguimiento de BizTalk (BizTalkDTADb) a través de un servidor vinculado.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-104">You can directly copy tracked messages from the BizTalk MessageBox (BizTalkMsgBoxDb) database server to your BizTalk Tracking (BizTalkDTADb) database using a linked server.</span></span> <span data-ttu-id="6d0c4-105">Debe configurar servidores vinculados entre:</span><span class="sxs-lookup"><span data-stu-id="6d0c4-105">You must set up linked servers between:</span></span>  
   
--   Cada una de sus bases de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) y la base de datos de seguimiento de BizTalk (BizTalkDTADb)  
+-   <span data-ttu-id="6d0c4-106">Cada una de sus bases de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) y la base de datos de seguimiento de BizTalk (BizTalkDTADb)</span><span class="sxs-lookup"><span data-stu-id="6d0c4-106">Each of your BizTalk MessageBox (BizTalkMsgBoxDb) databases and the BizTalk Tracking (BizTalkDTADb) database.</span></span>  
   
--   La base de datos de seguimiento de BizTalk (BizTalkDTADb) y el servidor de validación para la validación de archivos.  
+-   <span data-ttu-id="6d0c4-107">La base de datos de seguimiento de BizTalk (BizTalkDTADb) y el servidor de validación para la validación de archivos.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-107">The BizTalk Tracking (BizTalkDTADb) database and the validating server for archive validation.</span></span>  
   
--   Las cuentas de servicio del Agente SQL Server del equipo que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) deben contar con los permisos db_datareader y db_datawriter para la base de datos de seguimiento de BizTalk (BizTalkDTADb) del servidor vinculado.  
+-   <span data-ttu-id="6d0c4-108">Las cuentas de servicio del Agente SQL Server del equipo que aloja la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) deben contar con los permisos db_datareader y db_datawriter para la base de datos de seguimiento de BizTalk (BizTalkDTADb) del servidor vinculado.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-108">The service accounts for the SQL Server Agent on the computer hosting the BizTalk MessageBox (BizTalkMsgBoxDb) database must have the db_datareader and db_datawriter permissions for the BizTalk Tracking (BizTalkDTADb) database on the linked server.</span></span>  
   
 > [!NOTE]
->  En el Agente SQL Server, compruebe que el trabajo de copia se ejecuta sin que se produzcan errores. De lo contrario, los errores podrían impedir que los datos se movieran a la base de datos de seguimiento.  
+>  <span data-ttu-id="6d0c4-109">En el Agente SQL Server, compruebe que el trabajo de copia se ejecuta sin que se produzcan errores.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-109">In SQL Server Agent, verify that the copy job runs without errors.</span></span> <span data-ttu-id="6d0c4-110">De lo contrario, los errores podrían impedir que los datos se movieran a la base de datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-110">Otherwise, errors might prevent data from being moved to the tracking database.</span></span>  
   
-## <a name="prerequisites"></a>Requisitos previos  
- Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro de la función fija de servidor sysadmin de SQL Server.  
+## <a name="prerequisites"></a><span data-ttu-id="6d0c4-111">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="6d0c4-111">Prerequisites</span></span>  
+ <span data-ttu-id="6d0c4-112">Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro de la función fija de servidor sysadmin de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-112">You must be logged on with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.</span></span>  
   
-### <a name="to-copy-tracked-messages-into-the-biztalk-tracking-database-sql-server-2008"></a>Para copiar mensajes controlados en la base de datos de seguimiento de BizTalk (SQL Server 2008)  
+### <a name="to-copy-tracked-messages-into-the-biztalk-tracking-database-sql-server-2008"></a><span data-ttu-id="6d0c4-113">Para copiar mensajes controlados en la base de datos de seguimiento de BizTalk (SQL Server 2008)</span><span class="sxs-lookup"><span data-stu-id="6d0c4-113">To copy tracked messages into the BizTalk Tracking database (SQL Server 2008)</span></span>  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.  
+1.  <span data-ttu-id="6d0c4-114">Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-114">Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.</span></span>  
   
-2.  En el **conectar al servidor** cuadro de diálogo, especifique el nombre del servidor SQL donde reside la base de datos de seguimiento de BizTalk (BizTalkDTADb) y el tipo de autenticación adecuado y, a continuación, haga clic en **conectar** a conectar con el servidor SQL server apropiado.  
+2.  <span data-ttu-id="6d0c4-115">En el **conectar al servidor** cuadro de diálogo, especifique el nombre del servidor SQL donde reside la base de datos de seguimiento de BizTalk (BizTalkDTADb) y el tipo de autenticación adecuado y, a continuación, haga clic en **conectar** a conectar con el servidor SQL server apropiado.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-115">In the **Connect to Server** dialog box, specify the name of the SQL server where the BizTalk Tracking (BizTalkDTADb) database resides and the appropriate authentication type, and then click **Connect** to connect to the appropriate SQL server.</span></span>  
   
-3.  En **Microsoft SQL Server Management Studio**, haga doble clic en **Agente SQL Server**y, a continuación, haga clic en **trabajos**.  
+3.  <span data-ttu-id="6d0c4-116">En **Microsoft SQL Server Management Studio**, haga doble clic en **Agente SQL Server**y, a continuación, haga clic en **trabajos**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-116">In **Microsoft SQL Server Management Studio**, double-click **SQL Server Agent**, and then click **Jobs**.</span></span>  
   
-4.  En el panel de detalles, haga clic en **TrackedMessages_Copy_BizTalkMsgBoxDb**y, a continuación, haga clic en **propiedades**.  
+4.  <span data-ttu-id="6d0c4-117">En el panel de detalles, haga clic en **TrackedMessages_Copy_BizTalkMsgBoxDb**y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-117">In the details pane, right-click **TrackedMessages_Copy_BizTalkMsgBoxDb**, and then click **Properties**.</span></span>  
   
-5.  En el **propiedades del trabajo - TrackedMessages_Copy_BizTalkMsgBoxDb** cuadro de diálogo **seleccionar una página**, haga clic en **pasos**.  
+5.  <span data-ttu-id="6d0c4-118">En el **propiedades del trabajo - TrackedMessages_Copy_BizTalkMsgBoxDb** cuadro de diálogo **seleccionar una página**, haga clic en **pasos**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-118">In the **Job Properties - TrackedMessages_Copy_BizTalkMsgBoxDb** dialog box, under **Select a page**, click **Steps**.</span></span>  
   
-6.  En **lista de pasos de trabajo**, haga clic en **purgar**y, a continuación, haga clic en **editar**.  
+6.  <span data-ttu-id="6d0c4-119">En **lista de pasos de trabajo**, haga clic en **purgar**y, a continuación, haga clic en **editar**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-119">Under **Job step list**, click **Purge**, and then click **Edit**.</span></span>  
   
-7.  En el **comando** cuadro, edite los parámetros de los nombres de base de datos según corresponda y el servidor de seguimiento y, a continuación, haga clic en **Aceptar**.  
+7.  <span data-ttu-id="6d0c4-120">En el **comando** cuadro, edite los parámetros de los nombres de base de datos según corresponda y el servidor de seguimiento y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-120">In the **Command** box, edit the tracking server and database names parameters as appropriate, and then click **OK**.</span></span>  
   
-8.  En el **propiedades del trabajo - TrackedMessages_Copy_BizTalkMsgBoxDb** cuadro de diálogo **seleccionar una página**, haga clic en **General**, seleccione la **habilitado** casilla de verificación y, a continuación, haga clic en **Aceptar**.  
+8.  <span data-ttu-id="6d0c4-121">En el **propiedades del trabajo - TrackedMessages_Copy_BizTalkMsgBoxDb** cuadro de diálogo **seleccionar una página**, haga clic en **General**, seleccione la **habilitado** casilla de verificación y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-121">On the **Job Properties - TrackedMessages_Copy_BizTalkMsgBoxDb** dialog box, under **Select a page**, click **General**,select the **Enabled** check box, and then click **OK**.</span></span>  
   
-     Los mensajes se copiarán de la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) a la base de datos de seguimiento de BizTalk (BizTalkDTADb).  
+     <span data-ttu-id="6d0c4-122">Los mensajes se copiarán de la base de datos de cuadro de mensajes de BizTalk (BizTalkMsgBoxDb) a la base de datos de seguimiento de BizTalk (BizTalkDTADb).</span><span class="sxs-lookup"><span data-stu-id="6d0c4-122">The messages will be copied from the BizTalk MessageBox (BizTalkMsgBoxDb) to the BizTalk Tracking (BizTalkDTADb) database.</span></span>  
   
 > [!IMPORTANT]
->  Si agrega una nueva base de datos de cuadro de mensajes, tendrá que volver a realizar este procedimiento para ella.  
+>  <span data-ttu-id="6d0c4-123">Si agrega una nueva base de datos de cuadro de mensajes, tendrá que volver a realizar este procedimiento para ella.</span><span class="sxs-lookup"><span data-stu-id="6d0c4-123">If you add a new MessageBox database, you will need to perform this procedure again for the new MessageBox database.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Archivar y purgar la base de datos de seguimiento de BizTalk](../core/archiving-and-purging-the-biztalk-tracking-database.md)
+## <a name="see-also"></a><span data-ttu-id="6d0c4-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="6d0c4-124">See Also</span></span>  
+ [<span data-ttu-id="6d0c4-125">Archivar y purgar la base de datos de seguimiento de BizTalk</span><span class="sxs-lookup"><span data-stu-id="6d0c4-125">Archiving and Purging the BizTalk Tracking Database</span></span>](../core/archiving-and-purging-the-biztalk-tracking-database.md)

@@ -23,26 +23,26 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="deploying-ports-and-assemblies"></a>Implementar puertos y ensamblados
-Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede duplicar puertos y ensamblados en un equipo de destino. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]configuración de la ubicación de recepción/puertos de envío de exportaciones en un archivo XML.  
+# <a name="deploying-ports-and-assemblies"></a><span data-ttu-id="cca0e-102">Implementar puertos y ensamblados</span><span class="sxs-lookup"><span data-stu-id="cca0e-102">Deploying Ports and Assemblies</span></span>
+<span data-ttu-id="cca0e-103">Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede duplicar puertos y ensamblados en un equipo de destino.</span><span class="sxs-lookup"><span data-stu-id="cca0e-103">With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can duplicate ports and assemblies on a target computer.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="cca0e-104">configuración de la ubicación de recepción/puertos de envío de exportaciones en un archivo XML.</span><span class="sxs-lookup"><span data-stu-id="cca0e-104"> exports send ports/receive location configuration into an XML file.</span></span>  
   
- Puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para realizar las tareas siguientes:  
+ <span data-ttu-id="cca0e-105">Puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para realizar las tareas siguientes:</span><span class="sxs-lookup"><span data-stu-id="cca0e-105">You can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to do the following tasks:</span></span>  
   
--   Implementar o quitar los ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una base de datos de configuración de BizTalk  
+-   <span data-ttu-id="cca0e-106">Implementar o quitar los ensamblados de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una base de datos de configuración de BizTalk</span><span class="sxs-lookup"><span data-stu-id="cca0e-106">Deploy or remove [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] assemblies in a BizTalk Configuration database.</span></span>  
   
--   Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)  
+-   <span data-ttu-id="cca0e-107">Instalar o desinstalar los ensamblados en la caché de ensamblados global (GAC)</span><span class="sxs-lookup"><span data-stu-id="cca0e-107">Install or uninstall the assemblies in the global assembly cache (GAC).</span></span>  
   
--   Importar información de enlace de ensamblado de BizTalk a archivos de enlace o exportarla a ellos.  
+-   <span data-ttu-id="cca0e-108">Importar información de enlace de ensamblado de BizTalk a archivos de enlace o exportarla a ellos.</span><span class="sxs-lookup"><span data-stu-id="cca0e-108">Import or export BizTalk assembly binding information to and from binding files.</span></span>  
   
- Para obtener información sobre cómo usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).  
+ <span data-ttu-id="cca0e-109">Para obtener información sobre cómo usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para implementar puertos y ensamblados, consulte [cómo exportar enlaces para una aplicación de BizTalk](../core/how-to-export-bindings-for-a-biztalk-application.md).</span><span class="sxs-lookup"><span data-stu-id="cca0e-109">For information about how to use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to deploy ports and assemblies, see [How to Export Bindings for a BizTalk Application](../core/how-to-export-bindings-for-a-biztalk-application.md).</span></span>  
   
 > [!NOTE]
->  Microsoft BizTalk Adapter para TIBCO Enterprise Message Service solo necesita que disponga de Visual Studio en un equipo de origen (desarrollo). Visual Studio no es necesario en el equipo de producción.  
+>  <span data-ttu-id="cca0e-110">Microsoft BizTalk Adapter para TIBCO Enterprise Message Service solo necesita que disponga de Visual Studio en un equipo de origen (desarrollo).</span><span class="sxs-lookup"><span data-stu-id="cca0e-110">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service only requires that you have Visual Studio on a source (development) computer.</span></span> <span data-ttu-id="cca0e-111">Visual Studio no es necesario en el equipo de producción.</span><span class="sxs-lookup"><span data-stu-id="cca0e-111">Visual Studio is not required on the production computer.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="cca0e-112">En esta sección</span><span class="sxs-lookup"><span data-stu-id="cca0e-112">In This Section</span></span>  
   
--   [Comprobar la configuración de implementación](../core/verifying-the-deployment-setup2.md)  
+-   [<span data-ttu-id="cca0e-113">Comprobar la configuración de implementación</span><span class="sxs-lookup"><span data-stu-id="cca0e-113">Verifying the Deployment Setup</span></span>](../core/verifying-the-deployment-setup2.md)  
   
--   [Cómo limpiar el equipo de destino](../core/how-to-clean-the-target-computer2.md)  
+-   [<span data-ttu-id="cca0e-114">Cómo limpiar el equipo de destino</span><span class="sxs-lookup"><span data-stu-id="cca0e-114">How to Clean the Target Computer</span></span>](../core/how-to-clean-the-target-computer2.md)  
   
--   [Limitaciones de la implementación](../core/deployment-limitations1.md)
+-   [<span data-ttu-id="cca0e-115">Limitaciones de la implementación</span><span class="sxs-lookup"><span data-stu-id="cca0e-115">Deployment Limitations</span></span>](../core/deployment-limitations1.md)

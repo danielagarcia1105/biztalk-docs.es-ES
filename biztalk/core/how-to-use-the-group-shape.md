@@ -25,14 +25,14 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-use-the-group-shape"></a>Cómo usar la forma Agrupar
+# <a name="how-to-use-the-group-shape"></a><span data-ttu-id="5a7e7-102">Cómo usar la forma Agrupar</span><span class="sxs-lookup"><span data-stu-id="5a7e7-102">How to Use the Group Shape</span></span>
 ![](../core/media/ebiz-orch-group.gif "ebiz_orch_group")  
-Forma Grupo  
+<span data-ttu-id="5a7e7-103">Forma Grupo</span><span class="sxs-lookup"><span data-stu-id="5a7e7-103">Group shape</span></span>  
   
-## <a name="annotations-and-placeholders"></a>Anotaciones y marcadores de posición  
- Puede usar el **grupo** forma como un marcador de posición para la funcionalidad aún que se agregarán o se puede usar para realizar anotaciones sobre las acciones que tienen lugar dentro de él.  
+## <a name="annotations-and-placeholders"></a><span data-ttu-id="5a7e7-104">Anotaciones y marcadores de posición</span><span class="sxs-lookup"><span data-stu-id="5a7e7-104">Annotations and placeholders</span></span>  
+ <span data-ttu-id="5a7e7-105">Puede usar el **grupo** forma como un marcador de posición para la funcionalidad aún que se agregarán o se puede usar para realizar anotaciones sobre las acciones que tienen lugar dentro de él.</span><span class="sxs-lookup"><span data-stu-id="5a7e7-105">You can use the **Group** shape as a placeholder for functionality yet to be added, or you can use it to make annotations about what actions take place within it.</span></span>  
   
- La propiedad name en el **grupo** forma puede tener hasta 512 caracteres. Puede escribir anotaciones en el **nombre** propiedad y, cuando se contrae la forma, se mostrará el nombre completo. Al expandir la forma, el nombre aparecerá truncado.  
+ <span data-ttu-id="5a7e7-106">La propiedad name en el **grupo** forma puede tener hasta 512 caracteres.</span><span class="sxs-lookup"><span data-stu-id="5a7e7-106">The name property on the **Group** shape can be up to 512 characters long.</span></span> <span data-ttu-id="5a7e7-107">Puede escribir anotaciones en el **nombre** propiedad y, cuando se contrae la forma, se mostrará el nombre completo.</span><span class="sxs-lookup"><span data-stu-id="5a7e7-107">You can type annotations into the **Name** property and, when the shape is collapsed, the entire name will be displayed.</span></span> <span data-ttu-id="5a7e7-108">Al expandir la forma, el nombre aparecerá truncado.</span><span class="sxs-lookup"><span data-stu-id="5a7e7-108">When the shape is expanded, the name is truncated.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Configurar las formas de Control de flujo](../core/configuring-flow-control-shapes.md)
+## <a name="see-also"></a><span data-ttu-id="5a7e7-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="5a7e7-109">See Also</span></span>  
+ [<span data-ttu-id="5a7e7-110">Configurar las formas de Control de flujo</span><span class="sxs-lookup"><span data-stu-id="5a7e7-110">Configuring Flow Control Shapes</span></span>](../core/configuring-flow-control-shapes.md)

@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---exception-stack-trace-0"></a>Error - Seguimiento de pila de excepciones: {0}
-**Código de error**  
+# <a name="error---exception-stack-trace-0"></a><span data-ttu-id="8d48d-102">Error - Seguimiento de pila de excepciones: {0}</span><span class="sxs-lookup"><span data-stu-id="8d48d-102">Error - Exception Stack Trace: {0}</span></span>
+<span data-ttu-id="8d48d-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="8d48d-103">**Error Code**</span></span>  
   
- btm1024  
+ <span data-ttu-id="8d48d-104">btm1024</span><span class="sxs-lookup"><span data-stu-id="8d48d-104">btm1024</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="8d48d-105">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="8d48d-105">**User Action**</span></span>  
   
- Ninguno.
+ <span data-ttu-id="8d48d-106">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="8d48d-106">None.</span></span>

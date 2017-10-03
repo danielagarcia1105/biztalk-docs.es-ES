@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error--the-scripting-functoid-that-connects-to-target-node-39039-has-an-error-in-its-39xslt-call-template39-definition-39139"></a>Error - el functoid de script, que se conecta al nodo de destino &#39; {0} &#39; tiene un error su &#39; Plantilla de llamada XSLT &#39; definición: &#39; \ {1\\} &#39;
-**Código de error**  
+# <a name="error--the-scripting-functoid-that-connects-to-target-node-39039-has-an-error-in-its-39xslt-call-template39-definition-39139"></a><span data-ttu-id="23d65-102">Error - el functoid de script, que se conecta al nodo de destino &#39; {0} &#39; tiene un error su &#39; Plantilla de llamada XSLT &#39; definición: &#39; \ {1\\} &#39;</span><span class="sxs-lookup"><span data-stu-id="23d65-102">Error- The Scripting functoid, that connects to target node &#39;{0}&#39;, has an error in its &#39;Xslt Call-Template&#39; definition: &#39;{1}&#39;</span></span>
+<span data-ttu-id="23d65-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="23d65-103">**Error Code**</span></span>  
   
- btm1082  
+ <span data-ttu-id="23d65-104">btm1082</span><span class="sxs-lookup"><span data-stu-id="23d65-104">btm1082</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="23d65-105">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="23d65-105">**User Action**</span></span>  
   
- Corrija el script de plantilla de llamada xslt especificado para el functoid de script.
+ <span data-ttu-id="23d65-106">Corrija el script de plantilla de llamada xslt especificado para el functoid de script.</span><span class="sxs-lookup"><span data-stu-id="23d65-106">Correct the xslt call template script specified for the script functoid.</span></span>

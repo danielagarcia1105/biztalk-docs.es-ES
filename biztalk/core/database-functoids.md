@@ -18,88 +18,88 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="database-functoids"></a>Functoids de base de datos
-**Base de datos** functoids extraer datos de una base de datos para su uso en un mensaje de instancia de salida. 
+# <a name="database-functoids"></a><span data-ttu-id="1dac6-102">Functoids de base de datos</span><span class="sxs-lookup"><span data-stu-id="1dac6-102">Database Functoids</span></span>
+<span data-ttu-id="1dac6-103">**Base de datos** functoids extraer datos de una base de datos para su uso en un mensaje de instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="1dac6-103">**Database** functoids extract data from a database for use in an output instance message.</span></span> 
 
-## <a name="overview"></a>Información general
-La siguiente es una lista de los **base de datos** functoids y cómo utilizarlas:  
+## <a name="overview"></a><span data-ttu-id="1dac6-104">Información general</span><span class="sxs-lookup"><span data-stu-id="1dac6-104">Overview</span></span>
+<span data-ttu-id="1dac6-105">La siguiente es una lista de los **base de datos** functoids y cómo utilizarlas:</span><span class="sxs-lookup"><span data-stu-id="1dac6-105">The following is a list of the **Database** functoids and how you can use them:</span></span>  
   
--   **Búsqueda de la base de datos.** Use la **base de datos de búsqueda** functoid para extraer información de una base de datos y almacenarla como un conjunto de registros de Microsoft ActiveX datos objetos .NET (ADO.NET). Este functoid requiere cuatro parámetros de entrada en el orden siguiente:  
+-   <span data-ttu-id="1dac6-106">**Búsqueda de la base de datos.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-106">**Database Lookup.**</span></span> <span data-ttu-id="1dac6-107">Use la **base de datos de búsqueda** functoid para extraer información de una base de datos y almacenarla como un conjunto de registros de Microsoft ActiveX datos objetos .NET (ADO.NET).</span><span class="sxs-lookup"><span data-stu-id="1dac6-107">Use the **Database Lookup** functoid to extract information from a database and store it as a Microsoft ActiveX Data Objects .NET (ADO.NET) recordset.</span></span> <span data-ttu-id="1dac6-108">Este functoid requiere cuatro parámetros de entrada en el orden siguiente:</span><span class="sxs-lookup"><span data-stu-id="1dac6-108">This functoid requires four input parameters in the following order:</span></span>  
   
-    -   Un valor de búsqueda  
+    -   <span data-ttu-id="1dac6-109">Un valor de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1dac6-109">A lookup value</span></span>  
   
-    -   Una cadena de conexión de base de datos  
+    -   <span data-ttu-id="1dac6-110">Una cadena de conexión de base de datos</span><span class="sxs-lookup"><span data-stu-id="1dac6-110">A database connection string</span></span>  
   
-    -   Un nombre de tabla  
+    -   <span data-ttu-id="1dac6-111">Un nombre de tabla</span><span class="sxs-lookup"><span data-stu-id="1dac6-111">A table name</span></span>  
   
-    -   Un nombre de columna para el valor de búsqueda.  
+    -   <span data-ttu-id="1dac6-112">Un nombre de columna para el valor de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="1dac6-112">A column name for the lookup value.</span></span>  
   
--   **Devolución de error.** Use la **devolución de Error** functoid para capturar la información de error, como errores de conexión de base de datos, que se producen durante el tiempo de ejecución. Este functoid requiere un parámetro de entrada: un vínculo desde el **base de datos de búsqueda** functoid.  
+-   <span data-ttu-id="1dac6-113">**Devolución de error.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-113">**Error Return.**</span></span> <span data-ttu-id="1dac6-114">Use la **devolución de Error** functoid para capturar la información de error, como errores de conexión de base de datos, que se producen durante el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="1dac6-114">Use the **Error Return** functoid to capture error information, such as database connection failures, that occur during run time.</span></span> <span data-ttu-id="1dac6-115">Este functoid requiere un parámetro de entrada: un vínculo desde el **base de datos de búsqueda** functoid.</span><span class="sxs-lookup"><span data-stu-id="1dac6-115">This functoid requires one input parameter: a link from the **Database Lookup** functoid.</span></span>  
   
--   **Formatear mensaje.** Devuelve una cadena formateada y localizada utilizando sustitución de argumentos y, potencialmente, referencias cruzadas a valores e Id.  
+-   <span data-ttu-id="1dac6-116">**Formatear mensaje.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-116">**Format Message.**</span></span> <span data-ttu-id="1dac6-117">Devuelve una cadena formateada y localizada utilizando sustitución de argumentos y, potencialmente, referencias cruzadas a valores e Id.</span><span class="sxs-lookup"><span data-stu-id="1dac6-117">Returns a formatted and localized string using argument substitution and, potentially, ID and value cross-referencing.</span></span>  
   
--   **Obtener el identificador de aplicación.** Recupera un identificador de un objeto de aplicación.  
+-   <span data-ttu-id="1dac6-118">**Obtener el identificador de aplicación.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-118">**Get Application ID.**</span></span> <span data-ttu-id="1dac6-119">Recupera un identificador de un objeto de aplicación.</span><span class="sxs-lookup"><span data-stu-id="1dac6-119">Retrieves an identifier for an application object.</span></span>  
   
--   **Obtener valor de aplicación.** Recupera un valor de aplicación.  
+-   <span data-ttu-id="1dac6-120">**Obtener valor de aplicación.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-120">**Get Application Value.**</span></span> <span data-ttu-id="1dac6-121">Recupera un valor de aplicación.</span><span class="sxs-lookup"><span data-stu-id="1dac6-121">Retrieves an application value.</span></span>  
   
--   **Obtener Id. común.** Recupera un identificador de un objeto común.  
+-   <span data-ttu-id="1dac6-122">**Obtener Id. común.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-122">**Get Common ID.**</span></span> <span data-ttu-id="1dac6-123">Recupera un identificador de un objeto común.</span><span class="sxs-lookup"><span data-stu-id="1dac6-123">Retrieves an identifier for a common object.</span></span>  
   
--   **Obtener valor común.** Recupera un valor común.  
+-   <span data-ttu-id="1dac6-124">**Obtener valor común.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-124">**Get Common Value.**</span></span> <span data-ttu-id="1dac6-125">Recupera un valor común.</span><span class="sxs-lookup"><span data-stu-id="1dac6-125">Retrieves a common value.</span></span>  
   
--   **Quitar Id. de aplicación.** Quita un valor de aplicación.  
+-   <span data-ttu-id="1dac6-126">**Quitar Id. de aplicación.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-126">**Remove Application ID.**</span></span> <span data-ttu-id="1dac6-127">Quita un valor de aplicación.</span><span class="sxs-lookup"><span data-stu-id="1dac6-127">Removes an application value.</span></span>  
   
--   **Establecer Id. común.** Establece y devuelve un identificador para un objeto común.  
+-   <span data-ttu-id="1dac6-128">**Establecer Id. común.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-128">**Set Common ID.**</span></span> <span data-ttu-id="1dac6-129">Establece y devuelve un identificador para un objeto común.</span><span class="sxs-lookup"><span data-stu-id="1dac6-129">Sets and returns an identifier for a common object.</span></span>  
   
--   **Extractor de valor.** Use la **Extractor de valor** functoid para extraer datos de la columna especificada en un conjunto de registros devuelto por la **base de datos de búsqueda** functoid. El functoid requiere dos parámetros de entrada: un vínculo a la **base de datos de búsqueda** functoid y un nombre de columna.  
+-   <span data-ttu-id="1dac6-130">**Extractor de valor.**</span><span class="sxs-lookup"><span data-stu-id="1dac6-130">**Value Extractor.**</span></span> <span data-ttu-id="1dac6-131">Use la **Extractor de valor** functoid para extraer datos de la columna especificada en un conjunto de registros devuelto por la **base de datos de búsqueda** functoid.</span><span class="sxs-lookup"><span data-stu-id="1dac6-131">Use the **Value Extractor** functoid to extract data from the specified column in a recordset returned by the **Database Lookup** functoid.</span></span> <span data-ttu-id="1dac6-132">El functoid requiere dos parámetros de entrada: un vínculo a la **base de datos de búsqueda** functoid y un nombre de columna.</span><span class="sxs-lookup"><span data-stu-id="1dac6-132">This functoid requires two input parameters: a link to the **Database Lookup** functoid and a column name.</span></span>  
   
- Siete de los **base de datos** functoids: **formatear mensaje, obtener Id. de aplicación**, **obtener valor de aplicación**, **obtener Id. común**, **Obtener valor común**, **quitar Id. de aplicación**, y **establecer Id. común**: son **referencias cruzadas** functoids. Estos functoids trasladan los Id. y valores de un mensaje de entrada a los Id. y valores que se necesitan en el mensaje de salida. Para obtener más información, consulte **referencia de Functoids de base de datos** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
+ <span data-ttu-id="1dac6-133">Siete de los **base de datos** functoids: **formatear mensaje, obtener Id. de aplicación**, **obtener valor de aplicación**, **obtener Id. común**, **Obtener valor común**, **quitar Id. de aplicación**, y **establecer Id. común**: son **referencias cruzadas** functoids.</span><span class="sxs-lookup"><span data-stu-id="1dac6-133">Seven of the **Database** functoids— **Format Message, Get Application ID**, **Get Application Value**, **Get Common ID**, **Get Common Value**, **Remove Application ID**, and **Set Common ID**—are **CrossReferencing** functoids.</span></span> <span data-ttu-id="1dac6-134">Estos functoids trasladan los Id. y valores de un mensaje de entrada a los Id. y valores que se necesitan en el mensaje de salida.</span><span class="sxs-lookup"><span data-stu-id="1dac6-134">These functoids translate IDs and values from an input message into the IDs and values needed in the output message.</span></span> <span data-ttu-id="1dac6-135">Para obtener más información, consulte **referencia de Functoids de base de datos** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="1dac6-135">For more information, see **Database Functoids Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span> 
 
-## <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se usa algunos de los **base de datos** functoids. Imagine un gran fabricante de comercios al por menor, con tiendas distribuidas por una extensa área geográfica. Para realizar un seguimiento de los almacenes, oficina central asigna a cada almacén de un código único denominado un **StoreID**. Además, la oficina central asocia la siguiente información a cada **StoreID**:  
+## <a name="example"></a><span data-ttu-id="1dac6-136">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="1dac6-136">Example</span></span>  
+ <span data-ttu-id="1dac6-137">En el ejemplo siguiente se usa algunos de los **base de datos** functoids.</span><span class="sxs-lookup"><span data-stu-id="1dac6-137">The following example uses some of the **Database** functoids.</span></span> <span data-ttu-id="1dac6-138">Imagine un gran fabricante de comercios al por menor, con tiendas distribuidas por una extensa área geográfica.</span><span class="sxs-lookup"><span data-stu-id="1dac6-138">Consider a large retail manufacturer with stores spread over a large geographical area.</span></span> <span data-ttu-id="1dac6-139">Para realizar un seguimiento de los almacenes, oficina central asigna a cada almacén de un código único denominado un **StoreID**.</span><span class="sxs-lookup"><span data-stu-id="1dac6-139">To keep track of the stores, headquarters assigns each store a unique code called a **StoreID**.</span></span> <span data-ttu-id="1dac6-140">Además, la oficina central asocia la siguiente información a cada **StoreID**:</span><span class="sxs-lookup"><span data-stu-id="1dac6-140">Additionally, headquarters associates the following information with each **StoreID**:</span></span>  
   
--   StoreName  
+-   <span data-ttu-id="1dac6-141">StoreName</span><span class="sxs-lookup"><span data-stu-id="1dac6-141">StoreName</span></span>  
   
--   StoreAddress  
+-   <span data-ttu-id="1dac6-142">StoreAddress</span><span class="sxs-lookup"><span data-stu-id="1dac6-142">StoreAddress</span></span>  
   
--   City  
+-   <span data-ttu-id="1dac6-143">City</span><span class="sxs-lookup"><span data-stu-id="1dac6-143">City</span></span>  
   
--   PostalCode  
+-   <span data-ttu-id="1dac6-144">PostalCode</span><span class="sxs-lookup"><span data-stu-id="1dac6-144">PostalCode</span></span>  
   
--   StorePhoneNumber  
+-   <span data-ttu-id="1dac6-145">StorePhoneNumber</span><span class="sxs-lookup"><span data-stu-id="1dac6-145">StorePhoneNumber</span></span>  
   
--   StoreManager  
+-   <span data-ttu-id="1dac6-146">StoreManager</span><span class="sxs-lookup"><span data-stu-id="1dac6-146">StoreManager</span></span>  
   
- Esta información se almacena en una base de datos y se distribuye a los socios comerciales periódicamente. Para el fabricante, todas las compras las realiza la oficina central, no las tiendas. Cuando la oficina central envía un pedido a los socios comerciales, es habitual que varias tiendas reciban mercancía encargada mediante el pedido único. En lugar de enviar información de nombre y la dirección de cada tienda que tiene que recibir mercancía, oficina central envía simplemente el **StoreID**. Para insertar la información de nombre y la dirección en la notificación previa de envío, el socio comercial utiliza el **base de datos** functoids para insertar automáticamente esta información en el mensaje de instancia de salida. En la siguiente ilustración se muestra cómo puede implementar un socio comercial la sustitución del StoreID en una asignación.  
+ <span data-ttu-id="1dac6-147">Esta información se almacena en una base de datos y se distribuye a los socios comerciales periódicamente.</span><span class="sxs-lookup"><span data-stu-id="1dac6-147">This information is stored in a database and is distributed to trading partners on a regular basis.</span></span> <span data-ttu-id="1dac6-148">Para el fabricante, todas las compras las realiza la oficina central, no las tiendas.</span><span class="sxs-lookup"><span data-stu-id="1dac6-148">For the manufacturer, all purchasing is done by headquarters, not the stores.</span></span> <span data-ttu-id="1dac6-149">Cuando la oficina central envía un pedido a los socios comerciales, es habitual que varias tiendas reciban mercancía encargada mediante el pedido único.</span><span class="sxs-lookup"><span data-stu-id="1dac6-149">When headquarters sends a purchase order to the trading partners, it is common for multiple stores to receive merchandise ordered through the single purchase order.</span></span> <span data-ttu-id="1dac6-150">En lugar de enviar información de nombre y la dirección de cada tienda que tiene que recibir mercancía, oficina central envía simplemente el **StoreID**.</span><span class="sxs-lookup"><span data-stu-id="1dac6-150">Instead of sending name and address information for each store that is to receive merchandise, headquarters simply sends the **StoreID**.</span></span> <span data-ttu-id="1dac6-151">Para insertar la información de nombre y la dirección en la notificación previa de envío, el socio comercial utiliza el **base de datos** functoids para insertar automáticamente esta información en el mensaje de instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="1dac6-151">To insert the name and address information into the advanced ship notice, the trading partner uses the **Database** functoids to automatically insert this information into the output instance message.</span></span> <span data-ttu-id="1dac6-152">En la siguiente ilustración se muestra cómo puede implementar un socio comercial la sustitución del StoreID en una asignación.</span><span class="sxs-lookup"><span data-stu-id="1dac6-152">The following figure shows how a trading partner can implement the replacement of the StoreID in a map.</span></span>  
   
- ![Mapa que muestra los functoids de base de datos diferente. ] (../core/media/origdbfunctoids.gif "origdbfunctoids")  
+ <span data-ttu-id="1dac6-153">![Mapa que muestra los functoids de base de datos diferente. ] (../core/media/origdbfunctoids.gif "origdbfunctoids")</span><span class="sxs-lookup"><span data-stu-id="1dac6-153">![Map showing  different database functoids.](../core/media/origdbfunctoids.gif "origdbfunctoids")</span></span>  
   
- En la ilustración, el esquema de origen representa un pedido entrante; el esquema de destino representa una notificación previa de envío. El **base de datos de búsqueda** functoid busca el registro adecuado de la tabla de base de datos correspondiente. El **Extractor de valor** functoids extraen la columna apropiada del registro de búsqueda. El **devolución de Error** functoid genera una cadena que contiene información de error si hay errores (como errores de conexión) en tiempo de ejecución.  
+ <span data-ttu-id="1dac6-154">En la ilustración, el esquema de origen representa un pedido entrante; el esquema de destino representa una notificación previa de envío.</span><span class="sxs-lookup"><span data-stu-id="1dac6-154">In the figure, the source schema represents an incoming purchase order; the destination schema represents an advanced ship notice.</span></span> <span data-ttu-id="1dac6-155">El **base de datos de búsqueda** functoid busca el registro adecuado de la tabla de base de datos correspondiente.</span><span class="sxs-lookup"><span data-stu-id="1dac6-155">The **Database Lookup** functoid finds the appropriate record from the appropriate database table.</span></span> <span data-ttu-id="1dac6-156">El **Extractor de valor** functoids extraen la columna apropiada del registro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="1dac6-156">The **Value Extractor** functoids extract the appropriate column from the lookup record.</span></span> <span data-ttu-id="1dac6-157">El **devolución de Error** functoid genera una cadena que contiene información de error si hay errores (como errores de conexión) en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="1dac6-157">The **Error Return** functoid outputs a string containing error information if there are errors (such as connection failures) at run time.</span></span>  
   
- En el ejemplo anterior, el primer parámetro de entrada se toma de la **StoreID** campo de entrada pedido de compra y el restante tres parámetros de entrada son constantes configuradas en el **configurar \< Functoid > Functoid** cuadro de diálogo para la **base de datos de búsqueda** functoid. Es posible crear vínculos desde el esquema de origen para suministrar valores a los cuatro parámetros de entrada.  
+ <span data-ttu-id="1dac6-158">En el ejemplo anterior, el primer parámetro de entrada se toma de la **StoreID** campo de entrada pedido de compra y el restante tres parámetros de entrada son constantes configuradas en el **configurar \< Functoid > Functoid** cuadro de diálogo para la **base de datos de búsqueda** functoid.</span><span class="sxs-lookup"><span data-stu-id="1dac6-158">In the previous example, the first input parameter is taken from the **StoreID** field of the incoming purchase order, and the remaining three input parameters are constants configured in the **Configure \<Functoid> Functoid** dialog box for the **Database Lookup** functoid.</span></span> <span data-ttu-id="1dac6-159">Es posible crear vínculos desde el esquema de origen para suministrar valores a los cuatro parámetros de entrada.</span><span class="sxs-lookup"><span data-stu-id="1dac6-159">It is possible to create links from the source schema to supply values for all four input parameters.</span></span>  
   
 > [!NOTE]
->  * No se puede usar algunos tipos de datos de Microsoft SQL Server, como **texto**, **ntext**, y **imagen**, como valores de búsqueda para la **búsqueda de la base de datos** functoid. El functoid requiere tipos de datos que puedan representarse como una cadena de texto.  
+>  * <span data-ttu-id="1dac6-160">No se puede usar algunos tipos de datos de Microsoft SQL Server, como **texto**, **ntext**, y **imagen**, como valores de búsqueda para la **búsqueda de la base de datos** functoid.</span><span class="sxs-lookup"><span data-stu-id="1dac6-160">You cannot use some Microsoft SQL Server data types, such as **text**, **ntext**, and **image**, as lookup values for the **Database Lookup** functoid.</span></span> <span data-ttu-id="1dac6-161">El functoid requiere tipos de datos que puedan representarse como una cadena de texto.</span><span class="sxs-lookup"><span data-stu-id="1dac6-161">The functoid requires data types that can be represented as a text string.</span></span>  
 >
->  * Si hay más de un registro que coincida con los parámetros de entrada de la **búsqueda de la base de datos** functoid, la **Extractor de valor** functoid extrae los datos solo desde el primer registro.  
+>  * <span data-ttu-id="1dac6-162">Si hay más de un registro que coincida con los parámetros de entrada de la **búsqueda de la base de datos** functoid, la **Extractor de valor** functoid extrae los datos solo desde el primer registro.</span><span class="sxs-lookup"><span data-stu-id="1dac6-162">If there is more than one record matching the input parameters of the **Database Lookup** functoid, the **Value Extractor** functoid extracts data only from the first record.</span></span>  
 >
->  * Utilice autenticación de NT en las cadenas de conexión para proteger las contraseñas mediante cifrado.  
+>  * <span data-ttu-id="1dac6-163">Utilice autenticación de NT en las cadenas de conexión para proteger las contraseñas mediante cifrado.</span><span class="sxs-lookup"><span data-stu-id="1dac6-163">Use NT authentication in connection strings to protect passwords with encryption.</span></span>  
 
-## <a name="available-functoids"></a>Functoids disponibles  
- El **base de datos** functoids son: 
+## <a name="available-functoids"></a><span data-ttu-id="1dac6-164">Functoids disponibles</span><span class="sxs-lookup"><span data-stu-id="1dac6-164">Available functoids</span></span>  
+ <span data-ttu-id="1dac6-165">El **base de datos** functoids son:</span><span class="sxs-lookup"><span data-stu-id="1dac6-165">The **Database** functoids are:</span></span> 
 
-* Búsqueda en base de datos
-* Devolución de error
-* Formatear mensaje
-* Obtener Id. de aplicación
-* Obtener valor de aplicación
-* Obtener Id. común
-* Obtener valor común
-* Quitar Id. de aplicación
-* Establecer Id. común
-* Extractor de valor
+* <span data-ttu-id="1dac6-166">Búsqueda en base de datos</span><span class="sxs-lookup"><span data-stu-id="1dac6-166">Database Lookup</span></span>
+* <span data-ttu-id="1dac6-167">Devolución de error</span><span class="sxs-lookup"><span data-stu-id="1dac6-167">Error Return</span></span>
+* <span data-ttu-id="1dac6-168">Formatear mensaje</span><span class="sxs-lookup"><span data-stu-id="1dac6-168">Format Message</span></span>
+* <span data-ttu-id="1dac6-169">Obtener Id. de aplicación</span><span class="sxs-lookup"><span data-stu-id="1dac6-169">Get Application ID</span></span>
+* <span data-ttu-id="1dac6-170">Obtener valor de aplicación</span><span class="sxs-lookup"><span data-stu-id="1dac6-170">Get Application Value</span></span>
+* <span data-ttu-id="1dac6-171">Obtener Id. común</span><span class="sxs-lookup"><span data-stu-id="1dac6-171">Get Common ID</span></span>
+* <span data-ttu-id="1dac6-172">Obtener valor común</span><span class="sxs-lookup"><span data-stu-id="1dac6-172">Get Common Value</span></span>
+* <span data-ttu-id="1dac6-173">Quitar Id. de aplicación</span><span class="sxs-lookup"><span data-stu-id="1dac6-173">Remove Application ID</span></span>
+* <span data-ttu-id="1dac6-174">Establecer Id. común</span><span class="sxs-lookup"><span data-stu-id="1dac6-174">Set Common ID</span></span>
+* <span data-ttu-id="1dac6-175">Extractor de valor</span><span class="sxs-lookup"><span data-stu-id="1dac6-175">Value Extractor</span></span>
 
-Para obtener más detalles sobre estas funciones, vea la **referencia de Functoid** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+<span data-ttu-id="1dac6-176">Para obtener más detalles sobre estas funciones, vea la **referencia de Functoid** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="1dac6-176">For more details on these functiods, see the **Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>
 
-## <a name="see-also"></a>Vea también  
--  [Cómo agregar Functoids básicos a un mapa](../core/how-to-add-basic-functoids-to-a-map.md)   
--  **Referencia a Functoids de base de datos**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+## <a name="see-also"></a><span data-ttu-id="1dac6-177">Vea también</span><span class="sxs-lookup"><span data-stu-id="1dac6-177">See Also</span></span>  
+-  [<span data-ttu-id="1dac6-178">Cómo agregar Functoids básicos a un mapa</span><span class="sxs-lookup"><span data-stu-id="1dac6-178">How to Add Basic Functoids to a Map</span></span>](../core/how-to-add-basic-functoids-to-a-map.md)   
+-  <span data-ttu-id="1dac6-179">**Referencia a Functoids de base de datos**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span><span class="sxs-lookup"><span data-stu-id="1dac6-179">**Database Functoids Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span></span>

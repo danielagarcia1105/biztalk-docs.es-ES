@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="performance-tips-and-tricks"></a>Sugerencias y trucos para mejorar el rendimiento
-Esta sección proporciona sugerencias útiles para garantizar el rendimiento óptimo de su sistema BizTalk Server.  
+# <a name="performance-tips-and-tricks"></a><span data-ttu-id="1b6ab-102">Sugerencias y trucos para mejorar el rendimiento</span><span class="sxs-lookup"><span data-stu-id="1b6ab-102">Performance Tips and Tricks</span></span>
+<span data-ttu-id="1b6ab-103">Esta sección proporciona sugerencias útiles para garantizar el rendimiento óptimo de su sistema BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="1b6ab-103">This section provides useful tips for ensuring optimal performance for your BizTalk Server system.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="1b6ab-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="1b6ab-104">In This Section</span></span>  
   
--   [Identificar cuellos de botella de rendimiento](../core/identifying-performance-bottlenecks.md)  
+-   [<span data-ttu-id="1b6ab-105">Identificar cuellos de botella de rendimiento</span><span class="sxs-lookup"><span data-stu-id="1b6ab-105">Identifying Performance Bottlenecks</span></span>](../core/identifying-performance-bottlenecks.md)  
   
--   [Establecer el tamaño del grupo de subprocesos EPM](../core/setting-the-epm-threadpool-size.md)  
+-   [<span data-ttu-id="1b6ab-106">Establecer el tamaño del grupo de subprocesos EPM</span><span class="sxs-lookup"><span data-stu-id="1b6ab-106">Setting the EPM Threadpool Size</span></span>](../core/setting-the-epm-threadpool-size.md)  
   
--   [Evitar excepciones DBNETLIB](../core/avoiding-dbnetlib-exceptions.md)  
+-   [<span data-ttu-id="1b6ab-107">Evitar excepciones DBNETLIB</span><span class="sxs-lookup"><span data-stu-id="1b6ab-107">Avoiding DBNETLIB Exceptions</span></span>](../core/avoiding-dbnetlib-exceptions.md)  
   
--   [Solución de problemas de latencia de cuadro de mensajes](../core/troubleshooting-messagebox-latency-issues.md)
+-   [<span data-ttu-id="1b6ab-108">Solución de problemas de latencia de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="1b6ab-108">Troubleshooting MessageBox Latency Issues</span></span>](../core/troubleshooting-messagebox-latency-issues.md)

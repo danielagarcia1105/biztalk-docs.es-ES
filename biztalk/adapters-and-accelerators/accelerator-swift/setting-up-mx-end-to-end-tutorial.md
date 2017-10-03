@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="setting-up-mx-end-to-end-tutorial"></a>Cómo configurar Tutorial MX End-to-End
-Los pasos siguientes Resalte los pasos necesarios para ejecutar el tutorial MX End-to-End.  
+# <a name="setting-up-mx-end-to-end-tutorial"></a><span data-ttu-id="64ddc-102">Cómo configurar Tutorial MX End-to-End</span><span class="sxs-lookup"><span data-stu-id="64ddc-102">Setting up MX End-to-End Tutorial</span></span>
+<span data-ttu-id="64ddc-103">Los pasos siguientes Resalte los pasos necesarios para ejecutar el tutorial MX End-to-End.</span><span class="sxs-lookup"><span data-stu-id="64ddc-103">The steps below highlight the steps required to execute the MX End-to-End tutorial.</span></span>  
   
--   [Configurar el entorno](../../adapters-and-accelerators/accelerator-swift/setting-the-environment.md)  
+-   [<span data-ttu-id="64ddc-104">Configurar el entorno</span><span class="sxs-lookup"><span data-stu-id="64ddc-104">Setting the Environment</span></span>](../../adapters-and-accelerators/accelerator-swift/setting-the-environment.md)  
   
--   [Crear proyectos de BizTalk](../../adapters-and-accelerators/accelerator-swift/creating-biztalk-projects.md)  
+-   [<span data-ttu-id="64ddc-105">Crear proyectos de BizTalk</span><span class="sxs-lookup"><span data-stu-id="64ddc-105">Creating BizTalk Projects</span></span>](../../adapters-and-accelerators/accelerator-swift/creating-biztalk-projects.md)  
   
--   [Creación de puertos de envío y recepción](../../adapters-and-accelerators/accelerator-swift/creating-receive-send-ports.md)
+-   [<span data-ttu-id="64ddc-106">Creación de puertos de envío y recepción</span><span class="sxs-lookup"><span data-stu-id="64ddc-106">Creating Receive/Send Ports</span></span>](../../adapters-and-accelerators/accelerator-swift/creating-receive-send-ports.md)

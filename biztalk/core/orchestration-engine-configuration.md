@@ -23,14 +23,14 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="orchestration-engine-configuration"></a>Configuración del motor de orquestación
-El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config para determinar determinados comportamientos. Por ejemplo, las propiedades de deshidratación y los valores predeterminados están configurados como XML en el archivo BTSNTSvc.exe.config y se leen cuando se inician todas las instancias de host que contienen una orquestación. Para obtener más información, consulte [orquestación deshidratación y rehidratación](../core/orchestration-dehydration-and-rehydration.md).  
+# <a name="orchestration-engine-configuration"></a><span data-ttu-id="4d96a-102">Configuración del motor de orquestación</span><span class="sxs-lookup"><span data-stu-id="4d96a-102">Orchestration Engine Configuration</span></span>
+<span data-ttu-id="4d96a-103">El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config para determinar determinados comportamientos.</span><span class="sxs-lookup"><span data-stu-id="4d96a-103">The orchestration engine uses an XML file called BTSNTSvc.exe.config to determine certain behaviors.</span></span> <span data-ttu-id="4d96a-104">Por ejemplo, las propiedades de deshidratación y los valores predeterminados están configurados como XML en el archivo BTSNTSvc.exe.config y se leen cuando se inician todas las instancias de host que contienen una orquestación.</span><span class="sxs-lookup"><span data-stu-id="4d96a-104">For example, dehydration properties and their default values are configured as XML in the BTSNTSvc.exe.config file and are read when all host instances containing an orchestration start.</span></span> <span data-ttu-id="4d96a-105">Para obtener más información, consulte [orquestación deshidratación y rehidratación](../core/orchestration-dehydration-and-rehydration.md).</span><span class="sxs-lookup"><span data-stu-id="4d96a-105">For more information, see [Orchestration Dehydration and Rehydration](../core/orchestration-dehydration-and-rehydration.md).</span></span>  
   
- Un servicio lee esta información de configuración una vez que se ha iniciado. No se recogerá ningún cambio realizado a menos que se detenga y se reinicie el servicio.  
+ <span data-ttu-id="4d96a-106">Un servicio lee esta información de configuración una vez que se ha iniciado.</span><span class="sxs-lookup"><span data-stu-id="4d96a-106">A service reads this configuration information once, when it is started.</span></span> <span data-ttu-id="4d96a-107">No se recogerá ningún cambio realizado a menos que se detenga y se reinicie el servicio.</span><span class="sxs-lookup"><span data-stu-id="4d96a-107">Any changes to it will not be picked up unless the service is stopped and restarted.</span></span>  
   
- Consulte los ejemplos que se muestran a continuación para los diferentes nodos y los posibles valores.  
+ <span data-ttu-id="4d96a-108">Consulte los ejemplos que se muestran a continuación para los diferentes nodos y los posibles valores.</span><span class="sxs-lookup"><span data-stu-id="4d96a-108">See the examples below for different nodes and possible values.</span></span>  
   
-## <a name="example-all-validations-on"></a>Ejemplo: todas las validaciones activadas  
+## <a name="example-all-validations-on"></a><span data-ttu-id="4d96a-109">Ejemplo: todas las validaciones activadas</span><span class="sxs-lookup"><span data-stu-id="4d96a-109">Example: all validations on</span></span>  
   
 ```  
 <?xml version="1.0" ?>  
@@ -59,7 +59,7 @@ El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config 
 </configuration>  
 ```  
   
-## <a name="example-assembly-validation-only"></a>Ejemplo: solo la validación de ensamblado  
+## <a name="example-assembly-validation-only"></a><span data-ttu-id="4d96a-110">Ejemplo: solo la validación de ensamblado</span><span class="sxs-lookup"><span data-stu-id="4d96a-110">Example: assembly validation only</span></span>  
   
 ```  
 <?xml version="1.0" ?>  
@@ -87,7 +87,7 @@ El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config 
 </configuration>  
 ```  
   
-## <a name="example-remote-debugging-enabled"></a>Ejemplo: depuración remota habilitada  
+## <a name="example-remote-debugging-enabled"></a><span data-ttu-id="4d96a-111">Ejemplo: depuración remota habilitada</span><span class="sxs-lookup"><span data-stu-id="4d96a-111">Example: remote debugging enabled</span></span>  
   
 ```  
 <?xml version="1.0" ?>  
@@ -121,8 +121,8 @@ El motor de orquestación utiliza un archivo XML denominado BTSNTSvc.exe.config 
 </configuration>  
 ```  
   
-## <a name="example-appdomain-configuration"></a>Ejemplo: Configuración de dominio de aplicación  
- Los ensamblados se asignan a dominios con nombres utilizando reglas de asignación (consulte más detalles abajo). Si no se especifica ninguna regla para algunos ensamblados, estos se asignarán a un dominio ad hoc. El número de dichos ensamblados asignados por dominio ad hoc viene determinado por el valor de AssembliesPerDomain.  
+## <a name="example-appdomain-configuration"></a><span data-ttu-id="4d96a-112">Ejemplo: Configuración de dominio de aplicación</span><span class="sxs-lookup"><span data-stu-id="4d96a-112">Example: AppDomain configuration</span></span>  
+ <span data-ttu-id="4d96a-113">Los ensamblados se asignan a dominios con nombres utilizando reglas de asignación (consulte más detalles abajo).</span><span class="sxs-lookup"><span data-stu-id="4d96a-113">Assemblies are assigned to named domains using assignment rules (see more below).</span></span> <span data-ttu-id="4d96a-114">Si no se especifica ninguna regla para algunos ensamblados, estos se asignarán a un dominio ad hoc.</span><span class="sxs-lookup"><span data-stu-id="4d96a-114">If no rule is specified for some assembly, the assembly will be assigned to an ad hoc domain.</span></span> <span data-ttu-id="4d96a-115">El número de dichos ensamblados asignados por dominio ad hoc viene determinado por el valor de AssembliesPerDomain.</span><span class="sxs-lookup"><span data-stu-id="4d96a-115">The number of such assigned assemblies per ad hoc domain is determined by the value of AssembliesPerDomain.</span></span>  
   
 ```  
 <?xml version="1.0" ?>  
@@ -223,12 +223,12 @@ A pattern assignment rule specifies a regular expression and an app domain name.
 </configuration>  
 ```  
   
-## <a name="modifying-other-sections-of-the-btsntsvcexeconfig-file"></a>Modificar otras secciones del archivo BTSNTSvc.exe.config  
- Para obtener información acerca de cómo modificar los valores de deshidratación en BTSNTSvc.exe.config, consulte [propiedades de deshidratación predeterminado](../core/dehydration-default-properties.md).  
+## <a name="modifying-other-sections-of-the-btsntsvcexeconfig-file"></a><span data-ttu-id="4d96a-116">Modificar otras secciones del archivo BTSNTSvc.exe.config</span><span class="sxs-lookup"><span data-stu-id="4d96a-116">Modifying other sections of the BTSNTSvc.exe.config file</span></span>  
+ <span data-ttu-id="4d96a-117">Para obtener información acerca de cómo modificar los valores de deshidratación en BTSNTSvc.exe.config, consulte [propiedades de deshidratación predeterminado](../core/dehydration-default-properties.md).</span><span class="sxs-lookup"><span data-stu-id="4d96a-117">For information about modifying the dehydration values in BTSNTSvc.exe.config, see [Dehydration Default Properties](../core/dehydration-default-properties.md).</span></span>  
   
- El archivo de configuración BTSNTSvc.exe contiene otras secciones documentadas en la referencia general de .NET Framework. Para obtener más información acerca de la modificación de estas secciones, consulte el **esquema de archivo de configuración** de la referencia General de .NET Framework en [http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964).  
+ <span data-ttu-id="4d96a-118">El archivo de configuración BTSNTSvc.exe contiene otras secciones documentadas en la referencia general de .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="4d96a-118">The BTSNTSvc.exe configuration file contains several other sections documented in the .NET Framework General Reference.</span></span> <span data-ttu-id="4d96a-119">Para obtener más información acerca de la modificación de estas secciones, consulte el **esquema de archivo de configuración** de la referencia General de .NET Framework en [http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964).</span><span class="sxs-lookup"><span data-stu-id="4d96a-119">For more information about the modification of these sections see the **Configuration File Schema** of the .NET Framework General Reference at [http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964).</span></span>  
   
- Además de información de configuración específica de BizTalk, el archivo BTSNTSvc.exe.config también es donde los componentes de aplicación .NET que se ejecutan en el contexto de una orquestación, adaptador o canalización obtienen la información de configuración en tiempo de ejecución mediante el estándar de .NET  **\<appSettings >** etiqueta en el  **\<configuración >** etiqueta. Dado que BizTalk ya proporciona un mecanismo para adaptadores personalizados y componentes de canalización obtener información de configuración, la  **\<appSettings >** etiqueta en el archivo BTSNTSvc.exe.config se utilizaría normalmente por componentes .NET personalizados llamar desde una orquestación. Por ejemplo:  
+ <span data-ttu-id="4d96a-120">Además de información de configuración específica de BizTalk, el archivo BTSNTSvc.exe.config también es donde los componentes de aplicación .NET que se ejecutan en el contexto de una orquestación, adaptador o canalización obtienen la información de configuración en tiempo de ejecución mediante el estándar de .NET  **\<appSettings >** etiqueta en el  **\<configuración >** etiqueta.</span><span class="sxs-lookup"><span data-stu-id="4d96a-120">In addition to BizTalk-specific configuration information, the BTSNTSvc.exe.config file is also where .NET application components which run in the context of an orchestration, adapter or pipeline obtain their configuration information at run time using the standard .NET **\<appSettings>** tag under the **\<configuration>** tag.</span></span> <span data-ttu-id="4d96a-121">Dado que BizTalk ya proporciona un mecanismo para adaptadores personalizados y componentes de canalización obtener información de configuración, la  **\<appSettings >** etiqueta en el archivo BTSNTSvc.exe.config se utilizaría normalmente por componentes .NET personalizados llamar desde una orquestación.</span><span class="sxs-lookup"><span data-stu-id="4d96a-121">Because BizTalk already provides a mechanism for custom adapters and pipeline components to obtain configuration information, the **\<appSettings>** tag in the BTSNTSvc.exe.config file would typically be used by custom .NET components called from within an orchestration.</span></span> <span data-ttu-id="4d96a-122">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="4d96a-122">For example:</span></span>  
   
 ```  
 <appSettings>  
@@ -236,10 +236,10 @@ A pattern assignment rule specifies a regular expression and an app domain name.
 </appSettings>  
 ```  
   
-## <a name="throttling-messages-per-orchestration"></a>Limitar mensajes por orquestación  
- Esta propiedad, que se especifica en el archivo btsntsvc.exe.config, evitará que una orquestación consuma demasiada memoria. Para ello, limitará el número de mensajes pendientes que puede tener. Continuarán todos los mensajes se entreguen en el cuadro de mensajes; Sin embargo, los mensajes en cola no se entregará a la orquestación hasta que ésta procese algunos de sus mensajes pendientes.  
+## <a name="throttling-messages-per-orchestration"></a><span data-ttu-id="4d96a-123">Limitar mensajes por orquestación</span><span class="sxs-lookup"><span data-stu-id="4d96a-123">Throttling Messages Per Orchestration</span></span>  
+ <span data-ttu-id="4d96a-124">Esta propiedad, que se especifica en el archivo btsntsvc.exe.config, evitará que una orquestación consuma demasiada memoria. Para ello, limitará el número de mensajes pendientes que puede tener.</span><span class="sxs-lookup"><span data-stu-id="4d96a-124">This property, specified in the btsntsvc.exe.config file, will prevent an orchestration from consuming too much memory by limiting the number of outstanding messages it can have.</span></span> <span data-ttu-id="4d96a-125">Continuarán todos los mensajes se entreguen en el cuadro de mensajes; Sin embargo, los mensajes en cola no se entregará a la orquestación hasta que ésta procese algunos de sus mensajes pendientes.</span><span class="sxs-lookup"><span data-stu-id="4d96a-125">All messages will continue to be delivered to the MessageBox; however, queued messages will not be delivered to the orchestration until it processes some of its outstanding messages.</span></span>  
   
- Para especificar esta propiedad en el archivo btsntsvc.exe.config (ubicado en el directorio raíz de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]), agregue el siguiente parámetro en el nodo Aplicación:  
+ <span data-ttu-id="4d96a-126">Para especificar esta propiedad en el archivo btsntsvc.exe.config (ubicado en el directorio raíz de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]), agregue el siguiente parámetro en el nodo Aplicación:</span><span class="sxs-lookup"><span data-stu-id="4d96a-126">To specify this property in the btsntsvc.exe.config file (located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] root directory), add the following parameter under Application node:</span></span>  
   
 ```  
 <configuration>  
@@ -249,10 +249,10 @@ A pattern assignment rule specifies a regular expression and an app domain name.
 </configuration>  
 ```  
   
- En este ejemplo, cuando la orquestación alcanza los 100 mensajes pendientes, el cuadro de mensajes dejará de enviar más mensajes. Cuando el número de la orquestación de mensajes pendientes desciende a 50, especificará que el cuadro de mensajes puede reanudar el envío de mensajes. Puede especificar otros valores.  
+ <span data-ttu-id="4d96a-127">En este ejemplo, cuando la orquestación alcanza los 100 mensajes pendientes, el cuadro de mensajes dejará de enviar más mensajes.</span><span class="sxs-lookup"><span data-stu-id="4d96a-127">In this example, once an orchestration has 100 outstanding messages, the MessageBox will stop sending additional messages.</span></span> <span data-ttu-id="4d96a-128">Cuando el número de la orquestación de mensajes pendientes desciende a 50, especificará que el cuadro de mensajes puede reanudar el envío de mensajes.</span><span class="sxs-lookup"><span data-stu-id="4d96a-128">When the orchestration's number of outstanding messages is down to 50, it will specify the MessageBox can resume sending messages.</span></span> <span data-ttu-id="4d96a-129">Puede especificar otros valores.</span><span class="sxs-lookup"><span data-stu-id="4d96a-129">You can specify other values.</span></span>  
   
- También debe habilitar esta característica, por host, en la base de datos. Para habilitar la limitación de mensajes para un host, debe editar la tabla dbo.Applications de la base de datos BizTalkMsgBoxDb. Para cada host que desea habilitar la limitación de mensajes por orquestación, establezca la marca fAttributes bit en 1. Sólo los hosts con fAttribute se en 1 le permitirá la limitación de mensajes por orquestación.  
+ <span data-ttu-id="4d96a-130">También debe habilitar esta característica, por host, en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="4d96a-130">You must also enable this feature, per-host, in the database.</span></span> <span data-ttu-id="4d96a-131">Para habilitar la limitación de mensajes para un host, debe editar la tabla dbo.Applications de la base de datos BizTalkMsgBoxDb.</span><span class="sxs-lookup"><span data-stu-id="4d96a-131">To enable message throttling for a host, you must edit the dbo.Applications table in the BizTalkMsgBoxDb database.</span></span> <span data-ttu-id="4d96a-132">Para cada host que desea habilitar la limitación de mensajes por orquestación, establezca la marca fAttributes bit en 1.</span><span class="sxs-lookup"><span data-stu-id="4d96a-132">For each host you want to enable message throttling per orchestration, set the fAttributes flag bit to 1.</span></span> <span data-ttu-id="4d96a-133">Sólo los hosts con fAttribute se en 1 le permitirá la limitación de mensajes por orquestación.</span><span class="sxs-lookup"><span data-stu-id="4d96a-133">Only those hosts with the fAttribute set to 1 will allow message throttling per orchestration.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Depurar orquestaciones](../core/debugging-orchestrations.md)   
- [Lenguaje XLANG-s.](../core/xlang-s-language.md)
+## <a name="see-also"></a><span data-ttu-id="4d96a-134">Vea también</span><span class="sxs-lookup"><span data-stu-id="4d96a-134">See Also</span></span>  
+ <span data-ttu-id="4d96a-135">[Depurar orquestaciones](../core/debugging-orchestrations.md) </span><span class="sxs-lookup"><span data-stu-id="4d96a-135">[Debugging Orchestrations](../core/debugging-orchestrations.md) </span></span>  
+ [<span data-ttu-id="4d96a-136">Lenguaje XLANG-s.</span><span class="sxs-lookup"><span data-stu-id="4d96a-136">XLANG-s Language</span></span>](../core/xlang-s-language.md)

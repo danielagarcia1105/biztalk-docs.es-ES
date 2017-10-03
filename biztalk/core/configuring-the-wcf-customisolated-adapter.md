@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-wcf-customisolated-adapter"></a>Configurar el adaptador de WCF-CustomIsolated
-En esta sección se explica cómo configurar un adaptador de WCF-CustomIsolated.  
+# <a name="configuring-the-wcf-customisolated-adapter"></a><span data-ttu-id="25f2c-102">Configurar el adaptador de WCF-CustomIsolated</span><span class="sxs-lookup"><span data-stu-id="25f2c-102">Configuring the WCF-CustomIsolated Adapter</span></span>
+<span data-ttu-id="25f2c-103">En esta sección se explica cómo configurar un adaptador de WCF-CustomIsolated.</span><span class="sxs-lookup"><span data-stu-id="25f2c-103">This section describes how to configure a WCF-CustomIsolated adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="25f2c-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="25f2c-104">In This Section</span></span>  
   
--   [Cómo configurar un WCF-CustomIsolated ubicación de recepción](../core/how-to-configure-a-wcf-customisolated-receive-location.md)  
+-   [<span data-ttu-id="25f2c-105">Cómo configurar un WCF-CustomIsolated ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="25f2c-105">How to Configure a WCF-CustomIsolated Receive Location</span></span>](../core/how-to-configure-a-wcf-customisolated-receive-location.md)  
   
--   [Cómo configurar controlador de recepción de un WCF-CustomIsolated](../core/how-to-configure-a-wcf-customisolated-receive-handler.md)
+-   [<span data-ttu-id="25f2c-106">Cómo configurar controlador de recepción de un WCF-CustomIsolated</span><span class="sxs-lookup"><span data-stu-id="25f2c-106">How to Configure a WCF-CustomIsolated Receive Handler</span></span>](../core/how-to-configure-a-wcf-customisolated-receive-handler.md)

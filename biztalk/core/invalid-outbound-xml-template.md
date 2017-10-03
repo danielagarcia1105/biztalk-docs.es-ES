@@ -18,45 +18,45 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="invalid-outbound-xml-template"></a>Plantilla XML saliente no válida.
-## <a name="details"></a>Detalles  
+# <a name="invalid-outbound-xml-template"></a><span data-ttu-id="8e22d-102">Plantilla XML saliente no válida.</span><span class="sxs-lookup"><span data-stu-id="8e22d-102">Invalid outbound XML template</span></span>
+## <a name="details"></a><span data-ttu-id="8e22d-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="8e22d-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|Plantilla XML saliente no válida.|  
+|<span data-ttu-id="8e22d-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="8e22d-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="8e22d-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="8e22d-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="8e22d-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="8e22d-106">Event ID</span></span>|<span data-ttu-id="8e22d-107">0</span><span class="sxs-lookup"><span data-stu-id="8e22d-107">0</span></span>|  
+|<span data-ttu-id="8e22d-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="8e22d-108">Event Source</span></span>|<span data-ttu-id="8e22d-109">0</span><span class="sxs-lookup"><span data-stu-id="8e22d-109">0</span></span>|  
+|<span data-ttu-id="8e22d-110">Componente</span><span class="sxs-lookup"><span data-stu-id="8e22d-110">Component</span></span>|<span data-ttu-id="8e22d-111">0</span><span class="sxs-lookup"><span data-stu-id="8e22d-111">0</span></span>|  
+|<span data-ttu-id="8e22d-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="8e22d-112">Symbolic Name</span></span>|<span data-ttu-id="8e22d-113">0</span><span class="sxs-lookup"><span data-stu-id="8e22d-113">0</span></span>|  
+|<span data-ttu-id="8e22d-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="8e22d-114">Message Text</span></span>|<span data-ttu-id="8e22d-115">Plantilla XML saliente no válida.</span><span class="sxs-lookup"><span data-stu-id="8e22d-115">Invalid outbound XML template</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Podrían haber varias razones. La plantilla de mensaje saliente de WCF puede ser XML no válido. Puede contener caracteres no válidos en la codificación. Es posible que falte el elemento raíz. Es posible que los datos en el nivel de raíz no sean válidos.  
+## <a name="explanation"></a><span data-ttu-id="8e22d-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="8e22d-116">Explanation</span></span>  
+ <span data-ttu-id="8e22d-117">Podrían haber varias razones.</span><span class="sxs-lookup"><span data-stu-id="8e22d-117">There could be multiple reasons.</span></span> <span data-ttu-id="8e22d-118">La plantilla de mensaje saliente de WCF puede ser XML no válido.</span><span class="sxs-lookup"><span data-stu-id="8e22d-118">The outbound WCF message body template may not be valid XML.</span></span> <span data-ttu-id="8e22d-119">Puede contener caracteres no válidos en la codificación.</span><span class="sxs-lookup"><span data-stu-id="8e22d-119">It may contain invalid characters in the given encoding.</span></span> <span data-ttu-id="8e22d-120">Es posible que falte el elemento raíz.</span><span class="sxs-lookup"><span data-stu-id="8e22d-120">The root element may be missing.</span></span> <span data-ttu-id="8e22d-121">Es posible que los datos en el nivel de raíz no sean válidos.</span><span class="sxs-lookup"><span data-stu-id="8e22d-121">The data at the root level may be invalid.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Asegúrese de que la expresión de la plantilla contenga código XML válido. Asegúrese de que no contiene ningún carácter no válido y que únicamente hay un elemento raíz.  
+## <a name="user-action"></a><span data-ttu-id="8e22d-122">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="8e22d-122">User Action</span></span>  
+ <span data-ttu-id="8e22d-123">Asegúrese de que la expresión de la plantilla contenga código XML válido.</span><span class="sxs-lookup"><span data-stu-id="8e22d-123">Ensure that template expression has valid XML code.</span></span> <span data-ttu-id="8e22d-124">Asegúrese de que no contiene ningún carácter no válido y que únicamente hay un elemento raíz.</span><span class="sxs-lookup"><span data-stu-id="8e22d-124">Ensure that It doesn’t contain any invalid characters and that there is only one root element.</span></span>  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y haga clic en **administración de BizTalk Server**.  
+1.  <span data-ttu-id="8e22d-125">Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="8e22d-125">Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and click **BizTalk Server Administration**.</span></span>  
   
-2.  En la raíz de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **grupo de BizTalk**y expanda **aplicaciones**.  
+2.  <span data-ttu-id="8e22d-126">En la raíz de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **grupo de BizTalk**y expanda **aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="8e22d-126">In the Console Root, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and expand  **Applications**.</span></span>  
   
-3.  Busque la aplicación y, a continuación, busque su transporte.  
+3.  <span data-ttu-id="8e22d-127">Busque la aplicación y, a continuación, busque su transporte.</span><span class="sxs-lookup"><span data-stu-id="8e22d-127">Locate your application and then locate your transport.</span></span>  
   
-4.  Haga clic con el botón secundario en el nombre del transporte.  
+4.  <span data-ttu-id="8e22d-128">Haga clic con el botón secundario en el nombre del transporte.</span><span class="sxs-lookup"><span data-stu-id="8e22d-128">Right-click the transport name.</span></span>  
   
-5.  Haga clic en **Propiedades**.  
+5.  <span data-ttu-id="8e22d-129">Haga clic en **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="8e22d-129">Click **Properties**.</span></span>  
   
-6.  En el puerto **tipo** , seleccione el puerto correcto.  
+6.  <span data-ttu-id="8e22d-130">En el puerto **tipo** , seleccione el puerto correcto.</span><span class="sxs-lookup"><span data-stu-id="8e22d-130">In the port **Type** list, select the correct port.</span></span>  
   
-7.  Haga clic en **configurar**.  
+7.  <span data-ttu-id="8e22d-131">Haga clic en **configurar**.</span><span class="sxs-lookup"><span data-stu-id="8e22d-131">Click **Configure**.</span></span>  
   
-8.  En el **WCF [***tipo de transporte***] propiedades de transporte** cuadro de diálogo, haga clic en el **mensajes** ficha.  
+8.  <span data-ttu-id="8e22d-132">En el **WCF [***tipo de transporte***] propiedades de transporte** cuadro de diálogo, haga clic en el **mensajes** ficha.</span><span class="sxs-lookup"><span data-stu-id="8e22d-132">In the **WCF [***transport type***] Transport Properties** dialog box, click the **Messages** tab.</span></span>  
   
-9. En el **cuerpo del mensaje saliente de WCF** sección, seleccione **plantilla--contenido especificado por plantilla**.  
+9. <span data-ttu-id="8e22d-133">En el **cuerpo del mensaje saliente de WCF** sección, seleccione **plantilla--contenido especificado por plantilla**.</span><span class="sxs-lookup"><span data-stu-id="8e22d-133">In the **Outbound WCF message body** section, select **Template--content specified by template**.</span></span>  
   
-10. En el **XML** texto cuadro, asegúrese de que el código XML es válido.  
+10. <span data-ttu-id="8e22d-134">En el **XML** texto cuadro, asegúrese de que el código XML es válido.</span><span class="sxs-lookup"><span data-stu-id="8e22d-134">In the **XML** text box, ensure that the XML code is valid.</span></span>  
   
- Para obtener más información sobre plantillas, vea los recursos siguientes en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
+ <span data-ttu-id="8e22d-135">Para obtener más información sobre plantillas, vea los recursos siguientes en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:</span><span class="sxs-lookup"><span data-stu-id="8e22d-135">For additional information on templates, see the following resources in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:</span></span>  
   
--   [Especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md)
+-   [<span data-ttu-id="8e22d-136">Especificar el cuerpo del mensaje para los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="8e22d-136">Specifying the Message Body for the WCF Adapters</span></span>](../core/specifying-the-message-body-for-the-wcf-adapters.md)

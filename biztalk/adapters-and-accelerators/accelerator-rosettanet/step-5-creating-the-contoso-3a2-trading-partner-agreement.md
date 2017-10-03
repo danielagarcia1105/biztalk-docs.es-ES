@@ -22,40 +22,40 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-5-creating-the-contoso-3a2-trading-partner-agreement"></a>Paso 5: Crear el acuerdo de socio comercial de 3A2 de Contoso
-En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración. Crear un nuevo acuerdo de socio comercial para el proceso de interfaz de socio (PIP) 3A2.  
+# <a name="step-5-creating-the-contoso-3a2-trading-partner-agreement"></a><span data-ttu-id="d4f2d-102">Paso 5: Crear el acuerdo de socio comercial de 3A2 de Contoso</span><span class="sxs-lookup"><span data-stu-id="d4f2d-102">Step 5: Creating the Contoso 3A2 Trading Partner Agreement</span></span>
+<span data-ttu-id="d4f2d-103">En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-103">In this step, you create a trading partner agreement between Contoso and Fabrikam using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span> <span data-ttu-id="d4f2d-104">Crear un nuevo acuerdo de socio comercial para el proceso de interfaz de socio (PIP) 3A2.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-104">You create a new trading partner agreement for the 3A2 Partner Interface Process (PIP).</span></span>  
   
-### <a name="to-start-the-btarn-management-console"></a>Para iniciar la consola de administración de BTARN  
+### <a name="to-start-the-btarn-management-console"></a><span data-ttu-id="d4f2d-105">Para iniciar la consola de administración de BTARN</span><span class="sxs-lookup"><span data-stu-id="d4f2d-105">To start the BTARN Management Console</span></span>  
   
--   Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
+-   <span data-ttu-id="d4f2d-106">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-106">Click **Start**, point to **All Programs**, point to **Microsoft BizTalk \<version> Accelerator for RosettaNet**, and then click **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console.</span></span>  
   
-### <a name="to-create-the-3a2-trading-partner-agreement"></a>Para crear el acuerdo de socio comercial de 3A2  
+### <a name="to-create-the-3a2-trading-partner-agreement"></a><span data-ttu-id="d4f2d-107">Para crear el acuerdo de socio comercial de 3A2</span><span class="sxs-lookup"><span data-stu-id="d4f2d-107">To create the 3A2 trading partner agreement</span></span>  
   
-1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **contratos**, seleccione **New**y, a continuación, haga clic en **acuerdo** .  
+1.  <span data-ttu-id="d4f2d-108">En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **contratos**, seleccione **New**y, a continuación, haga clic en **acuerdo** .</span><span class="sxs-lookup"><span data-stu-id="d4f2d-108">In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], right-click **Agreements**, point to **New**, and then click **Agreement**.</span></span>  
   
-2.  En el **nuevas propiedades de acuerdo** cuadro de diálogo, en la **General** ficha, realice lo siguiente:  
+2.  <span data-ttu-id="d4f2d-109">En el **nuevas propiedades de acuerdo** cuadro de diálogo, en la **General** ficha, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d4f2d-109">In the **New Agreement Properties** dialog box, on the **General** tab, do the following:</span></span>  
   
-    |Use|Para|  
+    |<span data-ttu-id="d4f2d-110">Use</span><span class="sxs-lookup"><span data-stu-id="d4f2d-110">Use this</span></span>|<span data-ttu-id="d4f2d-111">Para</span><span class="sxs-lookup"><span data-stu-id="d4f2d-111">To do this</span></span>|  
     |--------------|----------------|  
-    |**Nombre**|Tipo de **Fabrikam_To_Contoso_3A2**.|  
-    |**Configuración del proceso**|Seleccione **STD_3A2_R02.00.00A** en la lista desplegable.|  
-    |**Mi organización**|Seleccione **Contoso** en la lista desplegable.|  
-    |**Organización de socios comerciales**|Seleccione **Fabrikam** en la lista desplegable.|  
-    |**Versión RNIF**|Seleccione **V02.00.01** en la lista desplegable.|  
-    |**Rol principal**|Seleccione **proveedor del producto (respondedor)** en la lista desplegable.|  
-    |**Uso**|Seleccione **Prueba** en la lista desplegable.|  
+    |<span data-ttu-id="d4f2d-112">**Nombre**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-112">**Name**</span></span>|<span data-ttu-id="d4f2d-113">Tipo de **Fabrikam_To_Contoso_3A2**.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-113">Type **Fabrikam_To_Contoso_3A2**.</span></span>|  
+    |<span data-ttu-id="d4f2d-114">**Configuración del proceso**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-114">**Process Configuration**</span></span>|<span data-ttu-id="d4f2d-115">Seleccione **STD_3A2_R02.00.00A** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-115">Select **STD_3A2_R02.00.00A** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="d4f2d-116">**Mi organización**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-116">**My Organization**</span></span>|<span data-ttu-id="d4f2d-117">Seleccione **Contoso** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-117">Select **Contoso** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="d4f2d-118">**Organización de socios comerciales**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-118">**Partner Organization**</span></span>|<span data-ttu-id="d4f2d-119">Seleccione **Fabrikam** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-119">Select **Fabrikam** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="d4f2d-120">**Versión RNIF**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-120">**RNIF Version**</span></span>|<span data-ttu-id="d4f2d-121">Seleccione **V02.00.01** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-121">Select **V02.00.01** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="d4f2d-122">**Rol principal**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-122">**Home Role**</span></span>|<span data-ttu-id="d4f2d-123">Seleccione **proveedor del producto (respondedor)** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-123">Select **Product Supplier (Responder)** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="d4f2d-124">**Uso**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-124">**Usage**</span></span>|<span data-ttu-id="d4f2d-125">Seleccione **Prueba** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-125">Select **Test** from the drop-down list.</span></span>|  
   
-3.  Haga clic en la ficha **Puertos** y, a continuación, realice lo siguiente:  
+3.  <span data-ttu-id="d4f2d-126">Haga clic en la ficha **Puertos** y, a continuación, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d4f2d-126">Click the **Ports** tab, and then do the following:</span></span>  
   
-    |Use|Para|  
+    |<span data-ttu-id="d4f2d-127">Use</span><span class="sxs-lookup"><span data-stu-id="d4f2d-127">Use this</span></span>|<span data-ttu-id="d4f2d-128">Para</span><span class="sxs-lookup"><span data-stu-id="d4f2d-128">To do this</span></span>|  
     |--------------|----------------|  
-    |**Dirección URL de acción**|Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**|  
-    |**Dirección URL de señal**|Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**|  
-    |**Dirección URL de la sincronización**|Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**|  
+    |<span data-ttu-id="d4f2d-129">**Dirección URL de acción**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-129">**Action URL**</span></span>|<span data-ttu-id="d4f2d-130">Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-130">Type **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span></span>|  
+    |<span data-ttu-id="d4f2d-131">**Dirección URL de señal**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-131">**Signal URL**</span></span>|<span data-ttu-id="d4f2d-132">Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-132">Type **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span></span>|  
+    |<span data-ttu-id="d4f2d-133">**Dirección URL de la sincronización**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-133">**Sync URL**</span></span>|<span data-ttu-id="d4f2d-134">Tipo de **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span><span class="sxs-lookup"><span data-stu-id="d4f2d-134">Type **https://<fabrikam_machine>/BTARNApp/RNIFReceive.aspx**</span></span>|  
   
-4.  Haga clic en **Aceptar**.  
+4.  <span data-ttu-id="d4f2d-135">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-135">Click **OK**.</span></span>  
   
-5.  Haga clic en el **Fabrikam_To_Contoso_3A2** acuerdo y, a continuación, haga clic en **activar**.  
+5.  <span data-ttu-id="d4f2d-136">Haga clic en el **Fabrikam_To_Contoso_3A2** acuerdo y, a continuación, haga clic en **activar**.</span><span class="sxs-lookup"><span data-stu-id="d4f2d-136">Right-click the **Fabrikam_To_Contoso_3A2** agreement, and then click **Activate**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Paso 6: Crear el acuerdo de socio comercial Contoso 3A4](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)
+## <a name="see-also"></a><span data-ttu-id="d4f2d-137">Vea también</span><span class="sxs-lookup"><span data-stu-id="d4f2d-137">See Also</span></span>  
+ [<span data-ttu-id="d4f2d-138">Paso 6: Crear el acuerdo de socio comercial Contoso 3A4</span><span class="sxs-lookup"><span data-stu-id="d4f2d-138">Step 6: Creating the Contoso 3A4 Trading Partner Agreement</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)

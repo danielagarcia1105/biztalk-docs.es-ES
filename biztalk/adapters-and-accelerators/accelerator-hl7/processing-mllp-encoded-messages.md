@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="processing-mllp-encoded-messages"></a>Procesamiento de mensajes con codificación MLLP
-Las secciones siguientes proporcionan información sobre el protocolo de capa inferior (MLLP) mínimo del adaptador de recepción y envío de la MLLP adaptador utilizado para HL7 V2. X procesamiento de mensajes.  
+# <a name="processing-mllp-encoded-messages"></a><span data-ttu-id="d20bf-102">Procesamiento de mensajes con codificación MLLP</span><span class="sxs-lookup"><span data-stu-id="d20bf-102">Processing MLLP-encoded Messages</span></span>
+<span data-ttu-id="d20bf-103">Las secciones siguientes proporcionan información sobre el protocolo de capa inferior (MLLP) mínimo del adaptador de recepción y envío de la MLLP adaptador utilizado para HL7 V2. X procesamiento de mensajes.</span><span class="sxs-lookup"><span data-stu-id="d20bf-103">The following sections provide information about the Minimal Lower Layer Protocol (MLLP) receive adapter and the MLLP send adapter used for HL7 V2.X message processing.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d20bf-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d20bf-104">In This Section</span></span>  
   
--   [Parámetros de configuración para el envío y adaptadores de recepción](../../adapters-and-accelerators/accelerator-hl7/configuration-parameters-for-send-and-receive-adapters.md)  
+-   [<span data-ttu-id="d20bf-105">Parámetros de configuración para el envío y adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="d20bf-105">Configuration Parameters for Send and Receive Adapters</span></span>](../../adapters-and-accelerators/accelerator-hl7/configuration-parameters-for-send-and-receive-adapters.md)  
   
--   [Cómo procesa el adaptador de recepción de MLLP](../../adapters-and-accelerators/accelerator-hl7/mllp-receive-adapter-processing.md)  
+-   [<span data-ttu-id="d20bf-106">Cómo procesa el adaptador de recepción de MLLP</span><span class="sxs-lookup"><span data-stu-id="d20bf-106">MLLP Receive Adapter Processing</span></span>](../../adapters-and-accelerators/accelerator-hl7/mllp-receive-adapter-processing.md)  
   
--   [Cómo procesa el adaptador MLLP envío](../../adapters-and-accelerators/accelerator-hl7/mllp-send-adapter-processing.md)  
+-   [<span data-ttu-id="d20bf-107">Cómo procesa el adaptador MLLP envío</span><span class="sxs-lookup"><span data-stu-id="d20bf-107">MLLP Send Adapter Processing</span></span>](../../adapters-and-accelerators/accelerator-hl7/mllp-send-adapter-processing.md)  
   
--   [Adaptador MLLP dinámica](../../adapters-and-accelerators/accelerator-hl7/dynamic-mllp-adapter.md)
+-   [<span data-ttu-id="d20bf-108">Adaptador MLLP dinámica</span><span class="sxs-lookup"><span data-stu-id="d20bf-108">Dynamic MLLP Adapter</span></span>](../../adapters-and-accelerators/accelerator-hl7/dynamic-mllp-adapter.md)

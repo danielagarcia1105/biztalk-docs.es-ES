@@ -21,9 +21,9 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="msmq-adapter-samples"></a>Ejemplos de adaptadores de MSMQ
-Esta sección contiene ejemplos que muestran la funcionalidad avanzada para configurar el adaptador de MSMQ de BizTalk.  
+# <a name="msmq-adapter-samples"></a><span data-ttu-id="d3c9f-102">Ejemplos de adaptadores de MSMQ</span><span class="sxs-lookup"><span data-stu-id="d3c9f-102">MSMQ Adapter Samples</span></span>
+<span data-ttu-id="d3c9f-103">Esta sección contiene ejemplos que muestran la funcionalidad avanzada para configurar el adaptador de MSMQ de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d3c9f-103">This section contains samples that illustrate advanced functionality when using the BizTalk MSMQ Adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d3c9f-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d3c9f-104">In This Section</span></span>  
   
--   [SendMSMQMessage](../core/sendmsmqmessage.md)
+-   [<span data-ttu-id="d3c9f-105">SendMSMQMessage</span><span class="sxs-lookup"><span data-stu-id="d3c9f-105">SendMSMQMessage</span></span>](../core/sendmsmqmessage.md)

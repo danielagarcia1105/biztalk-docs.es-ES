@@ -18,10 +18,10 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="constant"></a>Constante
-Inserta un valor único y constante en la pila.  
+# <a name="constant"></a><span data-ttu-id="3e164-102">Constante</span><span class="sxs-lookup"><span data-stu-id="3e164-102">Constant</span></span>
+<span data-ttu-id="3e164-103">Inserta un valor único y constante en la pila.</span><span class="sxs-lookup"><span data-stu-id="3e164-103">Pushes a single constant value onto the stack.</span></span>  
   
-## <a name="syntax"></a>Sintaxis  
+## <a name="syntax"></a><span data-ttu-id="3e164-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3e164-104">Syntax</span></span>  
   
 ```  
   
@@ -30,16 +30,16 @@ Inserta un valor único y constante en la pila.
 </ic:Operation>  
 ```  
   
-#### <a name="parameters"></a>Parámetros  
- Valor constante.  
+#### <a name="parameters"></a><span data-ttu-id="3e164-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3e164-105">Parameters</span></span>  
+ <span data-ttu-id="3e164-106">Valor constante.</span><span class="sxs-lookup"><span data-stu-id="3e164-106">Constant value.</span></span>  
   
-## <a name="pushed-value"></a>Valor insertado  
- Cadena que contiene el valor constante.  
+## <a name="pushed-value"></a><span data-ttu-id="3e164-107">Valor insertado</span><span class="sxs-lookup"><span data-stu-id="3e164-107">Pushed Value</span></span>  
+ <span data-ttu-id="3e164-108">Cadena que contiene el valor constante.</span><span class="sxs-lookup"><span data-stu-id="3e164-108">String containing the constant value.</span></span>  
   
-## <a name="remarks"></a>Comentarios  
+## <a name="remarks"></a><span data-ttu-id="3e164-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3e164-109">Remarks</span></span>  
   
-## <a name="example"></a>Ejemplo  
- La siguiente expresión de filtro de ejemplo utiliza la **constante** operación para insertar un valor que se usará en un **es igual a** operación para asegurarse de que el nombre de la actividad actual sea "FoodAndDrinksPolicy".  
+## <a name="example"></a><span data-ttu-id="3e164-110">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3e164-110">Example</span></span>  
+ <span data-ttu-id="3e164-111">La siguiente expresión de filtro de ejemplo utiliza la **constante** operación para insertar un valor que se usará en un **es igual a** operación para asegurarse de que el nombre de la actividad actual sea "FoodAndDrinksPolicy".</span><span class="sxs-lookup"><span data-stu-id="3e164-111">The following sample filter expression uses the **Constant** operation to push a value that will then be used in an **Equals** operation to ensure that the current activity name is "FoodAndDrinksPolicy".</span></span>  
   
 ```  
 <ic:Filter>  
@@ -53,7 +53,7 @@ Inserta un valor único y constante en la pila.
 </ic:Filter>  
 ```  
   
- Se trata de un patrón de uso común para la **constante** operación.  
+ <span data-ttu-id="3e164-112">Se trata de un patrón de uso común para la **constante** operación.</span><span class="sxs-lookup"><span data-stu-id="3e164-112">This is a common usage pattern for the **Constant** operation.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Operaciones de interceptor](../core/interceptor-operations.md)
+## <a name="see-also"></a><span data-ttu-id="3e164-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="3e164-113">See Also</span></span>  
+ [<span data-ttu-id="3e164-114">Operaciones de interceptor</span><span class="sxs-lookup"><span data-stu-id="3e164-114">Interceptor Operations</span></span>](../core/interceptor-operations.md)

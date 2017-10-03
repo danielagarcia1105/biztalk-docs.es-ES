@@ -21,20 +21,20 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-add-a-fault-message"></a>Cómo agregar un mensaje de error
-Al crear un puerto en el sistema de servidor, contiene una solicitud y una respuesta. Debe agregar un mensaje de forma que pueda asignarlo al error.  
+# <a name="how-to-add-a-fault-message"></a><span data-ttu-id="3bbfa-102">Cómo agregar un mensaje de error</span><span class="sxs-lookup"><span data-stu-id="3bbfa-102">How to Add a Fault Message</span></span>
+<span data-ttu-id="3bbfa-103">Al crear un puerto en el sistema de servidor, contiene una solicitud y una respuesta.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-103">When you create a port to the back-end system, it contains a request and a response.</span></span> <span data-ttu-id="3bbfa-104">Debe agregar un mensaje de forma que pueda asignarlo al error.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-104">You must add a message so that you can assign it to the fault.</span></span>  
   
-### <a name="to-add-a-fault-message"></a>Para agregar un mensaje de error  
+### <a name="to-add-a-fault-message"></a><span data-ttu-id="3bbfa-105">Para agregar un mensaje de error</span><span class="sxs-lookup"><span data-stu-id="3bbfa-105">To add a fault message</span></span>  
   
-1.  En el **Vista orquestación** ventana, haga clic en **mensajes**y seleccione **nuevo mensaje**.  
+1.  <span data-ttu-id="3bbfa-106">En el **Vista orquestación** ventana, haga clic en **mensajes**y seleccione **nuevo mensaje**.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-106">In the **Orchestration View** window, right-click **Messages**, and select **New Message**.</span></span>  
   
-     De este modo, se crea Message_3, que puede asignar específicamente al error.  
+     <span data-ttu-id="3bbfa-107">De este modo, se crea Message_3, que puede asignar específicamente al error.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-107">This creates Message_3, which you can assign specifically to the fault.</span></span>  
   
-2.  Haga clic en Message_3 y seleccione **propiedades**.  
+2.  <span data-ttu-id="3bbfa-108">Haga clic en Message_3 y seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-108">Right-click Message_3, and select **Properties**.</span></span>  
   
-3.  En el **propiedades** cuadro de diálogo, establezca la **tipo de mensaje**.  
+3.  <span data-ttu-id="3bbfa-109">En el **propiedades** cuadro de diálogo, establezca la **tipo de mensaje**.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-109">In the **Properties** dialog box, set the **Message Type**.</span></span>  
   
-     Seleccione **clases .NET** y, a continuación, seleccione **SystemString**.  
+     <span data-ttu-id="3bbfa-110">Seleccione **clases .NET** y, a continuación, seleccione **SystemString**.</span><span class="sxs-lookup"><span data-stu-id="3bbfa-110">Select **.NET Classes** and then select **SystemString**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Uso de control de excepciones de servidor BizTalk Server](../core/using-biztalk-server-exception-handling3.md)
+## <a name="see-also"></a><span data-ttu-id="3bbfa-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="3bbfa-111">See Also</span></span>  
+ [<span data-ttu-id="3bbfa-112">Uso de control de excepciones de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="3bbfa-112">Using BizTalk Server Exception Handling</span></span>](../core/using-biztalk-server-exception-handling3.md)

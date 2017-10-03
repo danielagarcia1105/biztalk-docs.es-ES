@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="import-and-export-errors"></a>Errores de importación y exportación
-En esta sección se incluye información detallada para diagnosticar y resolver errores de importación y exportación de WCF.  
+# <a name="import-and-export-errors"></a><span data-ttu-id="9f81c-102">Errores de importación y exportación</span><span class="sxs-lookup"><span data-stu-id="9f81c-102">Import and Export Errors</span></span>
+<span data-ttu-id="9f81c-103">En esta sección se incluye información detallada para diagnosticar y resolver errores de importación y exportación de WCF.</span><span class="sxs-lookup"><span data-stu-id="9f81c-103">This section contains detailed information for diagnosing and resolving WCF Import and Export errors.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="9f81c-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="9f81c-104">In This Section</span></span>  
   
--   [No se puede exportar la configuración](../core/unable-to-export-configuration.md)  
+-   [<span data-ttu-id="9f81c-105">No se puede exportar la configuración</span><span class="sxs-lookup"><span data-stu-id="9f81c-105">Unable to export configuration</span></span>](../core/unable-to-export-configuration.md)  
   
--   [No se puede importar la configuración de punto de conexión de cliente](../core/unable-to-import-client-endpoint-configuration.md)  
+-   [<span data-ttu-id="9f81c-106">No se puede importar la configuración de punto de conexión de cliente</span><span class="sxs-lookup"><span data-stu-id="9f81c-106">Unable to import client endpoint configuration</span></span>](../core/unable-to-import-client-endpoint-configuration.md)  
   
--   [No se puede importar la configuración](../core/unable-to-import-configuration.md)  
+-   [<span data-ttu-id="9f81c-107">No se puede importar la configuración</span><span class="sxs-lookup"><span data-stu-id="9f81c-107">Unable to import configuration</span></span>](../core/unable-to-import-configuration.md)  
   
--   [No se puede importar la configuración de punto de conexión de servicio.](../core/unable-to-import-service-endpoint-configuration.md)
+-   [<span data-ttu-id="9f81c-108">No se puede importar la configuración de punto de conexión de servicio.</span><span class="sxs-lookup"><span data-stu-id="9f81c-108">Unable to import service endpoint configuration.</span></span>](../core/unable-to-import-service-endpoint-configuration.md)

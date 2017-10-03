@@ -18,19 +18,19 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="interfaces-for-send-adapters"></a>Interfaces de adaptadores de envío
-Esta sección describe las interfaces necesarias para llevar a cabo la implementación de un adaptador de envío.  
+# <a name="interfaces-for-send-adapters"></a><span data-ttu-id="f0cc4-102">Interfaces de adaptadores de envío</span><span class="sxs-lookup"><span data-stu-id="f0cc4-102">Interfaces for Send Adapters</span></span>
+<span data-ttu-id="f0cc4-103">Esta sección describe las interfaces necesarias para llevar a cabo la implementación de un adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="f0cc4-103">This section describes the interfaces you need to implement when you develop a send adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f0cc4-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f0cc4-104">In This Section</span></span>  
   
--   [Interfaces de un envío sincrónico adaptador](../core/interfaces-for-a-synchronous-send-adapter.md)  
+-   [<span data-ttu-id="f0cc4-105">Interfaces de un envío sincrónico adaptador</span><span class="sxs-lookup"><span data-stu-id="f0cc4-105">Interfaces for a Synchronous Send Adapter</span></span>](../core/interfaces-for-a-synchronous-send-adapter.md)  
   
--   [Adaptador de envío de interfaces para una asincrónica](../core/interfaces-for-an-asynchronous-send-adapter.md)  
+-   [<span data-ttu-id="f0cc4-106">Adaptador de envío de interfaces para una asincrónica</span><span class="sxs-lookup"><span data-stu-id="f0cc4-106">Interfaces for an Asynchronous Send Adapter</span></span>](../core/interfaces-for-an-asynchronous-send-adapter.md)  
   
--   [Interfaces para un adaptador de envío sincrónico compatible con lotes](../core/interfaces-for-a-synchronous-batch-supported-send-adapter.md)  
+-   [<span data-ttu-id="f0cc4-107">Interfaces para un adaptador de envío sincrónico compatible con lotes</span><span class="sxs-lookup"><span data-stu-id="f0cc4-107">Interfaces for a Synchronous Batch-Supported Send Adapter</span></span>](../core/interfaces-for-a-synchronous-batch-supported-send-adapter.md)  
   
--   [Interfaces de un adaptador de envío de Asynchronous Batch-Supported](../core/interfaces-for-an-asynchronous-batch-supported-send-adapter.md)er  
+-   <span data-ttu-id="f0cc4-108">[Interfaces de un adaptador de envío de Asynchronous Batch-Supported](../core/interfaces-for-an-asynchronous-batch-supported-send-adapter.md)er</span><span class="sxs-lookup"><span data-stu-id="f0cc4-108">[Interfaces for an Asynchronous Batch-Supported Send Adapter](../core/interfaces-for-an-asynchronous-batch-supported-send-adapter.md)er</span></span>  
   
--   [Interfaces para un adaptador de envío asincrónica transaccional compatible con lotes](../core/interfaces-for-a-transactional-asynchronous-batch-supported-send-adapter.md)  
+-   [<span data-ttu-id="f0cc4-109">Interfaces para un adaptador de envío asincrónica transaccional compatible con lotes</span><span class="sxs-lookup"><span data-stu-id="f0cc4-109">Interfaces for a Transactional Asynchronous Batch-Supported Send Adapter</span></span>](../core/interfaces-for-a-transactional-asynchronous-batch-supported-send-adapter.md)  
   
--   [Interfaces para una petición-respuesta del adaptador de envío](../core/interfaces-for-a-solicit-response-send-adapter.md)
+-   [<span data-ttu-id="f0cc4-110">Interfaces para una petición-respuesta del adaptador de envío</span><span class="sxs-lookup"><span data-stu-id="f0cc4-110">Interfaces for a Solicit-Response Send Adapter</span></span>](../core/interfaces-for-a-solicit-response-send-adapter.md)

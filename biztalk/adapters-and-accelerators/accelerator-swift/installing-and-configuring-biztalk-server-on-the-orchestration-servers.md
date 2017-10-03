@@ -21,21 +21,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a>Instalar y configurar el servidor BizTalk Server en los servidores de orquestación
-Esta sección describe cómo instalar y configurar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] que se usará como el servidor para ejecutar la orquestación de reparación/nuevo envío del mensaje y la orquestación FINÉS reparación y conciliación.  
+# <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a><span data-ttu-id="c12fa-102">Instalar y configurar el servidor BizTalk Server en los servidores de orquestación</span><span class="sxs-lookup"><span data-stu-id="c12fa-102">Installing and Configuring BizTalk Server on the Orchestration Servers</span></span>
+<span data-ttu-id="c12fa-103">Esta sección describe cómo instalar y configurar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] que se usará como el servidor para ejecutar la orquestación de reparación/nuevo envío del mensaje y la orquestación FINÉS reparación y conciliación.</span><span class="sxs-lookup"><span data-stu-id="c12fa-103">This section describes how to install and configure [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] to be used as the orchestration server for running the Message Repair/New Submission orchestration and the FIN Repair and Reconciliation orchestration.</span></span>  
   
-### <a name="to-install-and-configure-biztalk-server-on-the-orchestration-server"></a>Para instalar y configurar BizTalk Server en el servidor de orquestación  
+### <a name="to-install-and-configure-biztalk-server-on-the-orchestration-server"></a><span data-ttu-id="c12fa-104">Para instalar y configurar BizTalk Server en el servidor de orquestación</span><span class="sxs-lookup"><span data-stu-id="c12fa-104">To install and configure BizTalk Server on the Orchestration Server</span></span>  
   
-1.  Realizar una instalación personalizada de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] elegir todas las características excepto EDI, servicios de flujo de trabajo de usuarios (HWS) y MRSR, a menos que el requerido por otras aplicaciones.  
-  
-    > [!NOTE]
-    >  En la implementación de equipo único, este equipo es el mismo equipo que el que se ejecuta el servicio de front-end de HTTP y el servidor de mensajería de BizTalk.  
-  
-2.  Realizar la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
+1.  <span data-ttu-id="c12fa-105">Realizar una instalación personalizada de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] elegir todas las características excepto EDI, servicios de flujo de trabajo de usuarios (HWS) y MRSR, a menos que el requerido por otras aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="c12fa-105">Perform a custom installation of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] choosing all the features except EDI, Human Workflow Services (HWS), and MRSR, unless required by other applications.</span></span>  
   
     > [!NOTE]
-    >  Tenga en cuenta las siguientes directrices al configurar los servidores de orquestación de BizTalk:  
+    >  <span data-ttu-id="c12fa-106">En la implementación de equipo único, este equipo es el mismo equipo que el que se ejecuta el servicio de front-end de HTTP y el servidor de mensajería de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c12fa-106">In the single-computer deployment, this computer is the same computer as the one that runs the HTTP front-end service and the BizTalk Messaging server.</span></span>  
   
-    -   Este servidor requiere solo un adaptador de red para conectarse a la [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo. No requiere otro adaptador de red en el lado público como el servidor front-end HTTP o el servidor de mensajería, y resulta más seguro frente a intentos procedente de Internet o una intranet o extranet.  
+2.  <span data-ttu-id="c12fa-107">Realizar la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c12fa-107">Perform configuration of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
-3.  Instalar las revisiones adicionales requeridas por [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] como disponibles en la Guía de instalación.
+    > [!NOTE]
+    >  <span data-ttu-id="c12fa-108">Tenga en cuenta las siguientes directrices al configurar los servidores de orquestación de BizTalk:</span><span class="sxs-lookup"><span data-stu-id="c12fa-108">Consider the following guidelines when configuring the BizTalk Orchestration servers:</span></span>  
+  
+    -   <span data-ttu-id="c12fa-109">Este servidor requiere solo un adaptador de red para conectarse a la [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] equipo.</span><span class="sxs-lookup"><span data-stu-id="c12fa-109">This server requires only one network adapter to connect it to the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] computer.</span></span> <span data-ttu-id="c12fa-110">No requiere otro adaptador de red en el lado público como el servidor front-end HTTP o el servidor de mensajería, y resulta más seguro frente a intentos procedente de Internet o una intranet o extranet.</span><span class="sxs-lookup"><span data-stu-id="c12fa-110">It does not require another network adapter on the public side like the HTTP front-end server or the messaging server, and this makes it more secure against hacking attempts coming from the Internet or intranet/extranet.</span></span>  
+  
+3.  <span data-ttu-id="c12fa-111">Instalar las revisiones adicionales requeridas por [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] como disponibles en la Guía de instalación.</span><span class="sxs-lookup"><span data-stu-id="c12fa-111">Install any additional hotfixes required by [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] as available in the installation guide.</span></span>

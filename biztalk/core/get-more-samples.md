@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="get-more-samples"></a>Obtener más ejemplos
-Nuevos ejemplos están disponibles en el Centro para desarrolladores de MSDN en [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).  
+# <a name="get-more-samples"></a><span data-ttu-id="78db2-102">Obtener más ejemplos</span><span class="sxs-lookup"><span data-stu-id="78db2-102">Get More Samples</span></span>
+<span data-ttu-id="78db2-103">Nuevos ejemplos están disponibles en el Centro para desarrolladores de MSDN en [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).</span><span class="sxs-lookup"><span data-stu-id="78db2-103">New samples are available at the MSDN Developer Center at [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Ejemplos del SDK](../core/samples-in-the-sdk.md)
+## <a name="see-also"></a><span data-ttu-id="78db2-104">Vea también</span><span class="sxs-lookup"><span data-stu-id="78db2-104">See Also</span></span>  
+ [<span data-ttu-id="78db2-105">Ejemplos del SDK</span><span class="sxs-lookup"><span data-stu-id="78db2-105">Samples in the SDK</span></span>](../core/samples-in-the-sdk.md)

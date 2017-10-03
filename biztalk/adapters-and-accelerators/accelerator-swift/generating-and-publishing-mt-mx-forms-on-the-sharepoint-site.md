@@ -18,54 +18,54 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>Generar y publicar formularios de MT/MX en el sitio de SharePoint
-**Para generar y publicar MT/MX formularios en un sitio de SharePoint:**  
+# <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a><span data-ttu-id="e22b7-102">Generar y publicar formularios de MT/MX en el sitio de SharePoint</span><span class="sxs-lookup"><span data-stu-id="e22b7-102">Generating and Publishing MT/MX Forms on the SharePoint Site</span></span>
+<span data-ttu-id="e22b7-103">**Para generar y publicar MT/MX formularios en un sitio de SharePoint:**</span><span class="sxs-lookup"><span data-stu-id="e22b7-103">**To generate and publish MT/MX forms on a SharePoint site:**</span></span>  
   
-1.  Descargar la utilidad de generador del formulario y lo guarda localmente en el equipo.  
+1.  <span data-ttu-id="e22b7-104">Descargar la utilidad de generador del formulario y lo guarda localmente en el equipo.</span><span class="sxs-lookup"><span data-stu-id="e22b7-104">Download the Form Generator Utility and save it locally on the computer.</span></span>  
   
-2.  Abra la **FormGenerator.sln** desde la carpeta descargó anteriormente y compile la solución.  
+2.  <span data-ttu-id="e22b7-105">Abra la **FormGenerator.sln** desde la carpeta descargó anteriormente y compile la solución.</span><span class="sxs-lookup"><span data-stu-id="e22b7-105">Open the **FormGenerator.sln** from the folder downloaded above and compile the solution.</span></span>  
   
-3.  En un símbolo del sistema, tener acceso a la carpeta del archivo ejecutable compilado (FormGenerator.exe). Por ejemplo, si ha creado la utilidad en modo de depuración, tener acceso a la **... \bin\Debug** carpeta.  
+3.  <span data-ttu-id="e22b7-106">En un símbolo del sistema, tener acceso a la carpeta del archivo ejecutable compilado (FormGenerator.exe).</span><span class="sxs-lookup"><span data-stu-id="e22b7-106">At a command prompt, access the folder of compiled executable (FormGenerator.exe).</span></span> <span data-ttu-id="e22b7-107">Por ejemplo, si ha creado la utilidad en modo de depuración, tener acceso a la **... \bin\Debug** carpeta.</span><span class="sxs-lookup"><span data-stu-id="e22b7-107">For example, if you have built the utility in debug mode, access the **..\bin\debug** folder.</span></span>  
   
-4.  Escriba FormGenerator.exe [-b] [-\<no. de las rutas de acceso de carpeta de plantilla >]  
+4.  <span data-ttu-id="e22b7-108">Escriba FormGenerator.exe [-b] [-\<no.</span><span class="sxs-lookup"><span data-stu-id="e22b7-108">Type FormGenerator.exe [-b] [-\<No.</span></span> <span data-ttu-id="e22b7-109">de las rutas de acceso de carpeta de plantilla >]</span><span class="sxs-lookup"><span data-stu-id="e22b7-109">of Template folder paths>]</span></span>  
   
-     `<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`. Reemplace los parámetros con los nombres de carpeta recién creada.  
+     <span data-ttu-id="e22b7-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`.</span><span class="sxs-lookup"><span data-stu-id="e22b7-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`.</span></span> <span data-ttu-id="e22b7-111">Reemplace los parámetros con los nombres de carpeta recién creada.</span><span class="sxs-lookup"><span data-stu-id="e22b7-111">Replace the parameters with the newly-created folder names.</span></span>  
   
-5.  El comando anterior también generará el esquema de sobres necesario para la reparación de mensajes de MX.  
+5.  <span data-ttu-id="e22b7-112">El comando anterior también generará el esquema de sobres necesario para la reparación de mensajes de MX.</span><span class="sxs-lookup"><span data-stu-id="e22b7-112">The above command will also generate the Envelope schema needed for MX message repair.</span></span>  
   
-6.  Vaya a la carpeta de salida \<DestinationFolderPath >. En \<DestinationFolderPath >, abra la carpeta de la plantilla de formulario de InfoPath para los que desea generar el formulario. Por ejemplo, si desea generar el formulario de InfoPath MT103, a continuación, abra la carpeta MT103 en la DestinationFolderPath y abra el TemplateDS.sln.  
+6.  <span data-ttu-id="e22b7-113">Vaya a la carpeta de salida \<DestinationFolderPath >.</span><span class="sxs-lookup"><span data-stu-id="e22b7-113">Go to output folder \<DestinationFolderPath>.</span></span> <span data-ttu-id="e22b7-114">En \<DestinationFolderPath >, abra la carpeta de la plantilla de formulario de InfoPath para los que desea generar el formulario.</span><span class="sxs-lookup"><span data-stu-id="e22b7-114">In \<DestinationFolderPath>, open the folder of the InfoPath form template for which you want to generate the form.</span></span> <span data-ttu-id="e22b7-115">Por ejemplo, si desea generar el formulario de InfoPath MT103, a continuación, abra la carpeta MT103 en la DestinationFolderPath y abra el TemplateDS.sln.</span><span class="sxs-lookup"><span data-stu-id="e22b7-115">For example, if you want to generate the MT103 InfoPath form, then open the MT103 folder at the DestinationFolderPath and open the TemplateDS.sln.</span></span>  
   
-7.  En el Explorador de soluciones, haga doble clic en el **manifest.xsf**. Se abrirá el archivo de diseño del formulario de InfoPath que tardará algún tiempo en obtener abierto.  
+7.  <span data-ttu-id="e22b7-116">En el Explorador de soluciones, haga doble clic en el **manifest.xsf**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-116">In the Solution Explorer, double click the **manifest.xsf**.</span></span> <span data-ttu-id="e22b7-117">Se abrirá el archivo de diseño del formulario de InfoPath que tardará algún tiempo en obtener abierto.</span><span class="sxs-lookup"><span data-stu-id="e22b7-117">It will open the design file of the InfoPath form which will take some time to get opened.</span></span>  
   
     > [!NOTE]
-    >  El archivo manifest.xsf mensajes de MX puede tardar 2 y 5 minutos en obtener abierto.  
+    >  <span data-ttu-id="e22b7-118">El archivo manifest.xsf mensajes de MX puede tardar 2 y 5 minutos en obtener abierto.</span><span class="sxs-lookup"><span data-stu-id="e22b7-118">The MX messages manifest.xsf might take 2-5 minutes to get opened.</span></span>  
   
-8.  En el archivo manifest.xsf, vaya a **Herramientas -> Opciones de formato - > seguridad y confianza** opción de menú. Compruebe el **plena confianza** opción debe estar habilitada para el permiso.  
+8.  <span data-ttu-id="e22b7-119">En el archivo manifest.xsf, vaya a **Herramientas -> Opciones de formato - > seguridad y confianza** opción de menú.</span><span class="sxs-lookup"><span data-stu-id="e22b7-119">In the manifest.xsf, go to **Tools ->Form Options-> Security and Trust** menu option.</span></span> <span data-ttu-id="e22b7-120">Compruebe el **plena confianza** opción debe estar habilitada para el permiso.</span><span class="sxs-lookup"><span data-stu-id="e22b7-120">Check the **Full Trust** option must be enabled for the permission.</span></span>  
   
-9. Seleccione el **firmar esta plantilla de formulario** casilla de verificación. Haga clic en **Seleccionar certificado**. En este caso, seleccione el certificado con el que va a firmar el formulario. Haga clic en **Aceptar**.  
+9. <span data-ttu-id="e22b7-121">Seleccione el **firmar esta plantilla de formulario** casilla de verificación.</span><span class="sxs-lookup"><span data-stu-id="e22b7-121">Select the **Sign this form Template** checkbox.</span></span> <span data-ttu-id="e22b7-122">Haga clic en **Seleccionar certificado**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-122">Click **Select certificate**.</span></span> <span data-ttu-id="e22b7-123">En este caso, seleccione el certificado con el que va a firmar el formulario.</span><span class="sxs-lookup"><span data-stu-id="e22b7-123">In this, select the certificate with which you want to sign the form.</span></span> <span data-ttu-id="e22b7-124">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-124">Click **OK**.</span></span>  
   
-10. Guardar **manifest.xsf**.  
+10. <span data-ttu-id="e22b7-125">Guardar **manifest.xsf**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-125">Save **manifest.xsf**.</span></span>  
   
-11. Vaya a **Ver -> tareas de diseño**. En el panel de tareas de diseño, haga clic en **publicar la plantilla de formulario** opción.  
+11. <span data-ttu-id="e22b7-126">Vaya a **Ver -> tareas de diseño**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-126">Go to **View -> Design Tasks**.</span></span> <span data-ttu-id="e22b7-127">En el panel de tareas de diseño, haga clic en **publicar la plantilla de formulario** opción.</span><span class="sxs-lookup"><span data-stu-id="e22b7-127">On the Design Tasks pane, click **Publish Form Template** option.</span></span>  
   
-12. En la ventana del Asistente para publicación, seleccione **a una ubicación de red** y haga clic en **siguiente**.  
+12. <span data-ttu-id="e22b7-128">En la ventana del Asistente para publicación, seleccione **a una ubicación de red** y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-128">In the publishing wizard window, select **To a network location** and click **Next**.</span></span>  
   
-13. En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba **http://localhost/sites/BASSite/Templates/\<MessageType > .xsn** y tipo  **\<MessageType >** en el formulario Cuadro de texto de nombre de plantilla y haga clic en **siguiente**.  
+13. <span data-ttu-id="e22b7-129">En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba **http://localhost/sites/BASSite/Templates/\<MessageType > .xsn** y tipo  **\<MessageType >** en el formulario Cuadro de texto de nombre de plantilla y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-129">In the Form template path and file name textbox, type **http://localhost/sites/BASSite/Templates/\<MessageType>.xsn** and type **\<MessageType>** in the Form Template name textbox and click **Next**.</span></span>  
   
-14. Haga clic en **Siguiente**.  
+14. <span data-ttu-id="e22b7-130">Haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-130">Click **Next**.</span></span>  
   
-15. Haga clic en **publicar y cerrar**.  
+15. <span data-ttu-id="e22b7-131">Haga clic en **publicar y cerrar**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-131">Click **Publish and close**.</span></span>  
   
-16. En Internet Explorer, abra el sitio de SharePoint **http://localhost/sites/bassite/templates**.  
+16. <span data-ttu-id="e22b7-132">En Internet Explorer, abra el sitio de SharePoint **http://localhost/sites/bassite/templates**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-132">In the Internet Explorer, open your SharePoint site **http://localhost/sites/bassite/templates**.</span></span>  
   
-17. Seleccione  **\<MessageType >**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.  
+17. <span data-ttu-id="e22b7-133">Seleccione  **\<MessageType >**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-133">Point to **\<MessageType>**, click the down arrow next to it, and then click **Edit Properties**.</span></span>  
   
-18. En las plantillas:\< MessageType > ventana, en el cuadro Namespace:  
+18. <span data-ttu-id="e22b7-134">En las plantillas:\< MessageType > ventana, en el cuadro Namespace:</span><span class="sxs-lookup"><span data-stu-id="e22b7-134">In the Templates:\< MessageType> window, in the Namespace box:</span></span>  
   
-    -   Si va a generar los formularios de InfoPath de MT, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
+    -   <span data-ttu-id="e22b7-135">Si va a generar los formularios de InfoPath de MT, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span><span class="sxs-lookup"><span data-stu-id="e22b7-135">If you are generating MT InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span></span>  
   
-    -   Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName >**  
+    -   <span data-ttu-id="e22b7-136">Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName >**</span><span class="sxs-lookup"><span data-stu-id="e22b7-136">If you are generating MX InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName>**</span></span>  
   
-         Esto le ayudará a identificar la instancia de mensaje con la plantilla correspondiente.  
+         <span data-ttu-id="e22b7-137">Esto le ayudará a identificar la instancia de mensaje con la plantilla correspondiente.</span><span class="sxs-lookup"><span data-stu-id="e22b7-137">This will help in identifying the message instance with the corresponding template.</span></span>  
   
-19. Haga clic en **guardar y cerrar**.
+19. <span data-ttu-id="e22b7-138">Haga clic en **guardar y cerrar**.</span><span class="sxs-lookup"><span data-stu-id="e22b7-138">Click **Save and Close**.</span></span>

@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="developing-a-custom-referenced-functoid"></a>Desarrollar un functoid personalizado al que se hace referencia
-Los functoids personalizados a los que se hace referencia no copian el código de implementación interno en la asignación. En lugar de ello, se coloca una referencia al ensamblado, la clase y el método en el archivo de objeto de extensión asociado con la hoja de estilos generada y se llama en tiempo de ejecución.  
+# <a name="developing-a-custom-referenced-functoid"></a><span data-ttu-id="efe93-102">Desarrollar un functoid personalizado al que se hace referencia</span><span class="sxs-lookup"><span data-stu-id="efe93-102">Developing a Custom Referenced Functoid</span></span>
+<span data-ttu-id="efe93-103">Los functoids personalizados a los que se hace referencia no copian el código de implementación interno en la asignación.</span><span class="sxs-lookup"><span data-stu-id="efe93-103">Custom referenced functoids do not copy implementation code inline into the map.</span></span> <span data-ttu-id="efe93-104">En lugar de ello, se coloca una referencia al ensamblado, la clase y el método en el archivo de objeto de extensión asociado con la hoja de estilos generada y se llama en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="efe93-104">Instead, a reference to the assembly, class, and method is placed in the extension object file associated with the generated style sheet and called at run time.</span></span>  
   
-## <a name="example"></a>Ejemplo  
- El siguiente ejemplo ilustra cómo crear un functoid personalizado al que se hace referencia para la concatenación de dos cadenas. Se basa en un archivo de recursos que contiene tres recursos de cadena y un recurso de mapa de bits de 16 x 16 píxeles.  
+## <a name="example"></a><span data-ttu-id="efe93-105">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="efe93-105">Example</span></span>  
+ <span data-ttu-id="efe93-106">El siguiente ejemplo ilustra cómo crear un functoid personalizado al que se hace referencia para la concatenación de dos cadenas.</span><span class="sxs-lookup"><span data-stu-id="efe93-106">The following example illustrates how to create a custom referenced functoid for concatenating two strings.</span></span> <span data-ttu-id="efe93-107">Se basa en un archivo de recursos que contiene tres recursos de cadena y un recurso de mapa de bits de 16 x 16 píxeles.</span><span class="sxs-lookup"><span data-stu-id="efe93-107">It relies on a resource file containing three string resources and a 16x16-pixel bitmap resource.</span></span>  
   
 ```  
 using System;  
@@ -83,8 +83,8 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 }  
 ```  
   
-## <a name="see-also"></a>Vea también  
- [Utilizar BaseFunctoid](../core/using-basefunctoid.md)   
- [Desarrollar un Functoid en línea personalizado](../core/developing-a-custom-inline-functoid.md)   
- [Desarrollar un Functoid acumulado personalizado](../core/developing-a-custom-cumulative-functoid.md)   
- [Functoid personalizado (ejemplo de BizTalk Server)](../core/custom-functoid-biztalk-server-sample.md)
+## <a name="see-also"></a><span data-ttu-id="efe93-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="efe93-108">See Also</span></span>  
+ <span data-ttu-id="efe93-109">[Utilizar BaseFunctoid](../core/using-basefunctoid.md) </span><span class="sxs-lookup"><span data-stu-id="efe93-109">[Using BaseFunctoid](../core/using-basefunctoid.md) </span></span>  
+ <span data-ttu-id="efe93-110">[Desarrollar un Functoid en línea personalizado](../core/developing-a-custom-inline-functoid.md) </span><span class="sxs-lookup"><span data-stu-id="efe93-110">[Developing a Custom Inline Functoid](../core/developing-a-custom-inline-functoid.md) </span></span>  
+ <span data-ttu-id="efe93-111">[Desarrollar un Functoid acumulado personalizado](../core/developing-a-custom-cumulative-functoid.md) </span><span class="sxs-lookup"><span data-stu-id="efe93-111">[Developing a Custom Cumulative Functoid](../core/developing-a-custom-cumulative-functoid.md) </span></span>  
+ [<span data-ttu-id="efe93-112">Functoid personalizado (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="efe93-112">Custom Functoid (BizTalk Server Sample)</span></span>](../core/custom-functoid-biztalk-server-sample.md)

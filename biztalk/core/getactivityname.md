@@ -18,27 +18,27 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="getactivityname"></a>GetActivityName
-Inserta el nombre de la actividad en curso en la pila.  
+# <a name="getactivityname"></a><span data-ttu-id="aabf9-102">GetActivityName</span><span class="sxs-lookup"><span data-stu-id="aabf9-102">GetActivityName</span></span>
+<span data-ttu-id="aabf9-103">Inserta el nombre de la actividad en curso en la pila.</span><span class="sxs-lookup"><span data-stu-id="aabf9-103">Pushes the name of the current activity onto the stack.</span></span>  
   
-## <a name="syntax"></a>Sintaxis  
+## <a name="syntax"></a><span data-ttu-id="aabf9-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="aabf9-104">Syntax</span></span>  
   
 ```  
   
 <wf:Operation Name="GetActivityName"/>  
 ```  
   
-#### <a name="parameters"></a>Parámetros  
- Ninguno.  
+#### <a name="parameters"></a><span data-ttu-id="aabf9-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="aabf9-105">Parameters</span></span>  
+ <span data-ttu-id="aabf9-106">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="aabf9-106">None.</span></span>  
   
-## <a name="pushed-value"></a>Valor insertado  
- Cadena que contiene el nombre de la actividad en curso.  
+## <a name="pushed-value"></a><span data-ttu-id="aabf9-107">Valor insertado</span><span class="sxs-lookup"><span data-stu-id="aabf9-107">Pushed Value</span></span>  
+ <span data-ttu-id="aabf9-108">Cadena que contiene el nombre de la actividad en curso.</span><span class="sxs-lookup"><span data-stu-id="aabf9-108">String containing the current activity name.</span></span>  
   
-## <a name="remarks"></a>Comentarios  
- Windows Workflow Foundation realiza su trabajo como una serie de actividades configurada por el programador. Cada una de estas actividades tiene asignada un nombre único en el flujo de trabajo. Puede interceptar datos para una actividad específica mediante el filtrado, basándose en su nombre único.  
+## <a name="remarks"></a><span data-ttu-id="aabf9-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aabf9-109">Remarks</span></span>  
+ <span data-ttu-id="aabf9-110">Windows Workflow Foundation realiza su trabajo como una serie de actividades configurada por el programador.</span><span class="sxs-lookup"><span data-stu-id="aabf9-110">Windows Workflow Foundation performs its work as a series of activities configured by the developer.</span></span> <span data-ttu-id="aabf9-111">Cada una de estas actividades tiene asignada un nombre único en el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="aabf9-111">Each of these activities is assigned a unique name within the workflow.</span></span> <span data-ttu-id="aabf9-112">Puede interceptar datos para una actividad específica mediante el filtrado, basándose en su nombre único.</span><span class="sxs-lookup"><span data-stu-id="aabf9-112">You can intercept data for a specific activity by filtering based on its unique name.</span></span>  
   
-## <a name="example"></a>Ejemplo  
- El siguiente ejemplo contiene una expresión de filtro de eventos configurada para buscar una actividad específica, FoodAndDrinksPolicy, en un flujo de trabajo cerrado. Para ello, se usa una combinación de operaciones, incluidas `GetActivityName`, `GetActivityEvent` y operaciones lógicas.  
+## <a name="example"></a><span data-ttu-id="aabf9-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="aabf9-113">Example</span></span>  
+ <span data-ttu-id="aabf9-114">El siguiente ejemplo contiene una expresión de filtro de eventos configurada para buscar una actividad específica, FoodAndDrinksPolicy, en un flujo de trabajo cerrado.</span><span class="sxs-lookup"><span data-stu-id="aabf9-114">The following sample contains an event filter expression configured to find a specific activity—FoodAndDrinksPolicy—in a Closed workflow.</span></span> <span data-ttu-id="aabf9-115">Para ello, se usa una combinación de operaciones, incluidas `GetActivityName`, `GetActivityEvent` y operaciones lógicas.</span><span class="sxs-lookup"><span data-stu-id="aabf9-115">This is done by using a combination of operations including `GetActivityName`, `GetActivityEvent`, and logical operations.</span></span>  
   
 ```  
 <ic:Filter>  
@@ -58,7 +58,7 @@ Inserta el nombre de la actividad en curso en la pila.
 </ic:Filter>  
 ```  
   
- Este patrón de filtro es habitual con los archivos de configuración del interceptor de Windows Workflow Foundation.  
+ <span data-ttu-id="aabf9-116">Este patrón de filtro es habitual con los archivos de configuración del interceptor de Windows Workflow Foundation.</span><span class="sxs-lookup"><span data-stu-id="aabf9-116">This filter pattern is common with Windows Workflow Foundation interceptor configuration files.</span></span>  
   
 > [!NOTE]
->  Los argumentos no requieren comillas dobles a menos que intente hacer coincidir, de forma explícita, una cadena que contiene comillas dobles.
+>  <span data-ttu-id="aabf9-117">Los argumentos no requieren comillas dobles a menos que intente hacer coincidir, de forma explícita, una cadena que contiene comillas dobles.</span><span class="sxs-lookup"><span data-stu-id="aabf9-117">Arguments do not require quotation marks unless you are explicitly trying to match a string that contains quotation marks.</span></span>

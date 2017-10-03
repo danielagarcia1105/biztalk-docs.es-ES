@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="a4swift-accelerator"></a>Acelerador A4SWIFT
-Al instalar el acelerador de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] para usar el escenario de reparación de mensajes y solicitud de envío (MRSR), se pueden usar las siguientes versiones de SharePoint:  
+# <a name="a4swift-accelerator"></a><span data-ttu-id="1097f-102">Acelerador A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="1097f-102">A4SWIFT Accelerator</span></span>
+<span data-ttu-id="1097f-103">Al instalar el acelerador de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] para usar el escenario de reparación de mensajes y solicitud de envío (MRSR), se pueden usar las siguientes versiones de SharePoint:</span><span class="sxs-lookup"><span data-stu-id="1097f-103">When installing the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] accelerator to use the Message Repair and Submission Request (MRSR) scenario, the following SharePoint versions can be used:</span></span>  
   
--   [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] 3.0 con SP1/SP2  
+-   [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)]<span data-ttu-id="1097f-104"> 3.0 con SP1/SP2</span><span class="sxs-lookup"><span data-stu-id="1097f-104"> 3.0 with SP1/SP2</span></span>  
   
--   SharePoint Server 2010  
+-   <span data-ttu-id="1097f-105">SharePoint Server 2010</span><span class="sxs-lookup"><span data-stu-id="1097f-105">SharePoint Server 2010</span></span>  
   
--   [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] 4.0  
+-   [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)]<span data-ttu-id="1097f-106"> 4.0</span><span class="sxs-lookup"><span data-stu-id="1097f-106"> 4.0</span></span>  
   
- [Instalar BizTalk Server Accelerator para SWIFT](http://go.microsoft.com/fwlink/p/?LinkId=271252) proporciona los pasos específicos para instalar el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] acelerador y configurar el escenario MRSR.
+ <span data-ttu-id="1097f-107">[Instalar BizTalk Server Accelerator para SWIFT](http://go.microsoft.com/fwlink/p/?LinkId=271252) proporciona los pasos específicos para instalar el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] acelerador y configurar el escenario MRSR.</span><span class="sxs-lookup"><span data-stu-id="1097f-107">[Installing BizTalk Server Accelerator for SWIFT](http://go.microsoft.com/fwlink/p/?LinkId=271252) provides the specific steps to installing the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../includes/btaa4swift2-3abbrevnonumber-md.md)] accelerator and configuring the MRSR scenario.</span></span>

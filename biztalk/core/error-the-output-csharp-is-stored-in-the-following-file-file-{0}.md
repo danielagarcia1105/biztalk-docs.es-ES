@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---the-output-csharp-is-stored-in-the-following-file-ltfile---0gt"></a>Error - el CSharp se almacena en el siguiente archivo de salida: &lt;file:---{0}&gt;
-**Código de error**  
+# <a name="error---the-output-csharp-is-stored-in-the-following-file-ltfile---0gt"></a><span data-ttu-id="b12d6-102">Error - el CSharp se almacena en el siguiente archivo de salida: &lt;file:---{0}&gt;</span><span class="sxs-lookup"><span data-stu-id="b12d6-102">Error - The output CSharp is stored in the following file: &lt;file:---{0}&gt;</span></span>
+<span data-ttu-id="b12d6-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="b12d6-103">**Error Code**</span></span>  
   
- btm1059  
+ <span data-ttu-id="b12d6-104">btm1059</span><span class="sxs-lookup"><span data-stu-id="b12d6-104">btm1059</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="b12d6-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="b12d6-105">**Explanation**</span></span>  
   
- Este es simplemente un mensaje informativo. Haga clic en el vínculo para ver el archivo de salida.  
+ <span data-ttu-id="b12d6-106">Este es simplemente un mensaje informativo.</span><span class="sxs-lookup"><span data-stu-id="b12d6-106">This is just an information message.</span></span> <span data-ttu-id="b12d6-107">Haga clic en el vínculo para ver el archivo de salida.</span><span class="sxs-lookup"><span data-stu-id="b12d6-107">Click on the link to view the output file.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="b12d6-108">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="b12d6-108">**User Action**</span></span>  
   
- Ninguno.
+ <span data-ttu-id="b12d6-109">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="b12d6-109">None.</span></span>

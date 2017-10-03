@@ -18,16 +18,16 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="create-the-tutorial-folders"></a>Crear las carpetas del Tutorial
-Cree las siguientes carpetas mediante [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:  
+# <a name="create-the-tutorial-folders"></a><span data-ttu-id="8c126-102">Crear las carpetas del Tutorial</span><span class="sxs-lookup"><span data-stu-id="8c126-102">Create the Tutorial Folders</span></span>
+<span data-ttu-id="8c126-103">Cree las siguientes carpetas mediante [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:</span><span class="sxs-lookup"><span data-stu-id="8c126-103">Create the following folders using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:</span></span>  
   
--   \<*unidad*: > \Batching Tutorial  
+-   <span data-ttu-id="8c126-104">\<*unidad*: > \Batching Tutorial</span><span class="sxs-lookup"><span data-stu-id="8c126-104">\<*drive*:>\Batching Tutorial</span></span>  
   
--   \<*unidad*: > \Batching Tutorial\Instances  
+-   <span data-ttu-id="8c126-105">\<*unidad*: > \Batching Tutorial\Instances</span><span class="sxs-lookup"><span data-stu-id="8c126-105">\<*drive*:>\Batching Tutorial\Instances</span></span>  
   
--   \<*unidad*: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BatchACKDrop HL7\SDK\End-to-End  
+-   <span data-ttu-id="8c126-106">\<*unidad*: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BatchACKDrop HL7\SDK\End-to-End</span><span class="sxs-lookup"><span data-stu-id="8c126-106">\<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchACKDrop</span></span>  
   
--   \<*unidad*: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BatchMsgDrop HL7\SDK\End-to-End  
+-   <span data-ttu-id="8c126-107">\<*unidad*: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BatchMsgDrop HL7\SDK\End-to-End</span><span class="sxs-lookup"><span data-stu-id="8c126-107">\<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Preparando para utilizar el Tutorial de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)
+## <a name="see-also"></a><span data-ttu-id="8c126-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="8c126-108">See Also</span></span>  
+ [<span data-ttu-id="8c126-109">Preparando para utilizar el Tutorial de procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="8c126-109">Preparing to Use the Batching Tutorial</span></span>](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

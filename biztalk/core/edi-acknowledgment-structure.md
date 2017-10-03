@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edi-acknowledgment-structure"></a>Estructura de confirmación EDI
-Esta sección contiene temas que describen la estructura de los mensajes de confirmación con codificación EDIFACT y X12.  
+# <a name="edi-acknowledgment-structure"></a><span data-ttu-id="8c6e1-102">Estructura de confirmación EDI</span><span class="sxs-lookup"><span data-stu-id="8c6e1-102">EDI Acknowledgment Structure</span></span>
+<span data-ttu-id="8c6e1-103">Esta sección contiene temas que describen la estructura de los mensajes de confirmación con codificación EDIFACT y X12.</span><span class="sxs-lookup"><span data-stu-id="8c6e1-103">This section contains topics describing the structure of X12- and EDIFACT-encoded acknowledgment messages.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="8c6e1-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="8c6e1-104">In This Section</span></span>  
   
--   [X12 confirmación TA1](../core/x12-ta1-acknowledgment.md)  
+-   [<span data-ttu-id="8c6e1-105">X12 confirmación TA1</span><span class="sxs-lookup"><span data-stu-id="8c6e1-105">X12 TA1 Acknowledgment</span></span>](../core/x12-ta1-acknowledgment.md)  
   
--   [X12 confirmación 997](../core/x12-997-acknowledgment.md)  
+-   [<span data-ttu-id="8c6e1-106">X12 confirmación 997</span><span class="sxs-lookup"><span data-stu-id="8c6e1-106">X12 997 Acknowledgment</span></span>](../core/x12-997-acknowledgment.md)  
   
--   [Confirmación CONTRL de EDIFACT](../core/edifact-contrl-acknowledgment.md)
+-   [<span data-ttu-id="8c6e1-107">Confirmación CONTRL de EDIFACT</span><span class="sxs-lookup"><span data-stu-id="8c6e1-107">EDIFACT CONTRL Acknowledgment</span></span>](../core/edifact-contrl-acknowledgment.md)

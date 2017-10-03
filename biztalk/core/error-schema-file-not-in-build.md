@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---schema-file-not-in-build"></a>Error: el archivo de esquema no está en compilación
-**Explicación**  
+# <a name="error---schema-file-not-in-build"></a><span data-ttu-id="1a174-102">Error: el archivo de esquema no está en compilación</span><span class="sxs-lookup"><span data-stu-id="1a174-102">Error - Schema File Not In Build</span></span>
+<span data-ttu-id="1a174-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="1a174-103">**Explanation**</span></span>  
   
- El comando (**Validar instancia**, **generar instancia**, o **Validar esquema**) no se pudo realizar porque el **acción de compilación** propiedad del archivo de esquema se establece en **ninguno**, impide que este esquema utilizar estos comandos.  
+ <span data-ttu-id="1a174-104">El comando (**Validar instancia**, **generar instancia**, o **Validar esquema**) no se pudo realizar porque el **acción de compilación** propiedad del archivo de esquema se establece en **ninguno**, impide que este esquema utilizar estos comandos.</span><span class="sxs-lookup"><span data-stu-id="1a174-104">The command (**Validate Instance**, **Generate Instance**, or **Validate Schema**) could not be performed because the **Build Action** property of the schema file is set to **None**, preventing this schema from participating in these commands.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="1a174-105">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="1a174-105">**User Action**</span></span>  
   
- Seleccione el archivo de esquema correspondiente en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones y, a continuación, en la ventana Propiedades, cambie la **acción de compilación** propiedad a una **compilar**. A continuación, intente la **Validar instancia**, **generar instancia**, o **Validar esquema** comando nuevo.
+ <span data-ttu-id="1a174-106">Seleccione el archivo de esquema correspondiente en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones y, a continuación, en la ventana Propiedades, cambie la **acción de compilación** propiedad a una **compilar**.</span><span class="sxs-lookup"><span data-stu-id="1a174-106">Select the relevant schema file in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, and then in the Properties window, change the **Build Action** property to a **Compile**.</span></span> <span data-ttu-id="1a174-107">A continuación, intente la **Validar instancia**, **generar instancia**, o **Validar esquema** comando nuevo.</span><span class="sxs-lookup"><span data-stu-id="1a174-107">Then attempt the **Validate Instance**, **Generate Instance**, or **Validate Schema** command again.</span></span>

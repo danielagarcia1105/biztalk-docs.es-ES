@@ -21,25 +21,25 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-create-send-ports-for-jd-edwards-oneworld"></a>Creación de puertos de envío para JD Edwards OneWorld
-Use el procedimiento siguiente para crear un puerto de envío.  
+# <a name="how-to-create-send-ports-for-jd-edwards-oneworld"></a><span data-ttu-id="b6554-102">Creación de puertos de envío para JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="b6554-102">How to Create Send Ports for JD Edwards OneWorld</span></span>
+<span data-ttu-id="b6554-103">Use el procedimiento siguiente para crear un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="b6554-103">Use the following procedure to create a send port.</span></span>  
   
-### <a name="to-create-a-send-port"></a>Procedimiento para crear un puerto de envío  
+### <a name="to-create-a-send-port"></a><span data-ttu-id="b6554-104">Procedimiento para crear un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="b6554-104">To create a send port</span></span>  
   
-1.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, navegue hasta el aplicación necesaria.  
+1.  <span data-ttu-id="b6554-105">En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, navegue hasta el aplicación necesaria.</span><span class="sxs-lookup"><span data-stu-id="b6554-105">In the BizTalk Server Administration Console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then navigate to the required application.</span></span>  
   
-2.  Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta estático**.  
+2.  <span data-ttu-id="b6554-106">Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta estático**.</span><span class="sxs-lookup"><span data-stu-id="b6554-106">Right-click **Send Ports**, point to **New**, and then click **Static Solicit-Response Send Port**.</span></span>  
   
     > [!NOTE]
-    >  También puede usar **Puerto unidireccional estático**.  
+    >  <span data-ttu-id="b6554-107">También puede usar **Puerto unidireccional estático**.</span><span class="sxs-lookup"><span data-stu-id="b6554-107">You can also use **Static One-Way Port**.</span></span>  
   
-3.  En el **propiedades de puerto de envío** cuadro de diálogo, en la **nombre** , a continuación, escriba un nombre de puerto de envío (por ejemplo, escriba **SendToJDE**.)  
+3.  <span data-ttu-id="b6554-108">En el **propiedades de puerto de envío** cuadro de diálogo, en la **nombre** , a continuación, escriba un nombre de puerto de envío (por ejemplo, escriba **SendToJDE**.)</span><span class="sxs-lookup"><span data-stu-id="b6554-108">In the **Send Port Properties** dialog box, in the **Name** field, type a send port name (for example, type **SendToJDE**.)</span></span>  
   
-4.  En el **tipo** lista desplegable, seleccione **JDEOneWorld**.  
+4.  <span data-ttu-id="b6554-109">En el **tipo** lista desplegable, seleccione **JDEOneWorld**.</span><span class="sxs-lookup"><span data-stu-id="b6554-109">In the **Type** drop-down list, select **JDEOneWorld**.</span></span>  
   
-5.  En el **URI** lista desplegable, seleccione el controlador de envío.  
+5.  <span data-ttu-id="b6554-110">En el **URI** lista desplegable, seleccione el controlador de envío.</span><span class="sxs-lookup"><span data-stu-id="b6554-110">In the **URI** drop-down list, select the send handler.</span></span>  
   
-6.  Haga clic en **Aceptar**.  
+6.  <span data-ttu-id="b6554-111">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b6554-111">Click **OK**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)
+## <a name="see-also"></a><span data-ttu-id="b6554-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="b6554-112">See Also</span></span>  
+ [<span data-ttu-id="b6554-113">Crear controladores de envío de OneWorld JD Edwards</span><span class="sxs-lookup"><span data-stu-id="b6554-113">Creating JD Edwards OneWorld Send Handlers</span></span>](../core/creating-jd-edwards-oneworld-send-handlers.md)

@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="administering-fin-response-reconciliation"></a>Administración de conciliación de respuesta FIN
-Esta sección proporcionan procedimientos para establecer la configuración para la conciliación de respuesta de FIN.  
+# <a name="administering-fin-response-reconciliation"></a><span data-ttu-id="466bd-102">Administración de conciliación de respuesta FIN</span><span class="sxs-lookup"><span data-stu-id="466bd-102">Administering FIN Response Reconciliation</span></span>
+<span data-ttu-id="466bd-103">Esta sección proporcionan procedimientos para establecer la configuración para la conciliación de respuesta de FIN.</span><span class="sxs-lookup"><span data-stu-id="466bd-103">This section provides procedures for setting the configuration for FIN Response Reconciliation.</span></span>  
   
- Esta sección contiene:  
+ <span data-ttu-id="466bd-104">Esta sección contiene:</span><span class="sxs-lookup"><span data-stu-id="466bd-104">This section contains:</span></span>  
   
--   [Establecer el tiempo de espera de retraso FRR](../../adapters-and-accelerators/accelerator-swift/setting-the-frr-delay-time-out.md)  
+-   [<span data-ttu-id="466bd-105">Establecer el tiempo de espera de retraso FRR</span><span class="sxs-lookup"><span data-stu-id="466bd-105">Setting the FRR Delay Time-Out</span></span>](../../adapters-and-accelerators/accelerator-swift/setting-the-frr-delay-time-out.md)  
   
--   [Deshabilitar el seguimiento de BAM](../../adapters-and-accelerators/accelerator-swift/disabling-bam-tracking.md)
+-   [<span data-ttu-id="466bd-106">Deshabilitar el seguimiento de BAM</span><span class="sxs-lookup"><span data-stu-id="466bd-106">Disabling BAM Tracking</span></span>](../../adapters-and-accelerators/accelerator-swift/disabling-bam-tracking.md)

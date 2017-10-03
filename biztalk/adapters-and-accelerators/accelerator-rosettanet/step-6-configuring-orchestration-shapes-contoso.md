@@ -21,87 +21,87 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-6-configuring-orchestration-shapes-contoso"></a>Paso 6: Configurar formas de orquestación (Contoso)
-En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  
+# <a name="step-6-configuring-orchestration-shapes-contoso"></a><span data-ttu-id="ceb07-102">Paso 6: Configurar formas de orquestación (Contoso)</span><span class="sxs-lookup"><span data-stu-id="ceb07-102">Step 6: Configuring Orchestration Shapes (Contoso)</span></span>
+<span data-ttu-id="ceb07-103">En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md).</span><span class="sxs-lookup"><span data-stu-id="ceb07-103">In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md).</span></span> <span data-ttu-id="ceb07-104">Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.</span><span class="sxs-lookup"><span data-stu-id="ceb07-104">This includes setting up the communication between [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] and the Enterprise Resource Planning (ERP) system for Contoso.</span></span>  
   
-### <a name="to-configure-the-constructmessagepip3a2requestmessage-shape"></a>Para configurar la forma ConstructMessagePIP3A2RequestMessage  
+### <a name="to-configure-the-constructmessagepip3a2requestmessage-shape"></a><span data-ttu-id="ceb07-105">Para configurar la forma ConstructMessagePIP3A2RequestMessage</span><span class="sxs-lookup"><span data-stu-id="ceb07-105">To configure the ConstructMessagePIP3A2RequestMessage shape</span></span>  
   
-1.  Tras seleccionar PrivateResponder.odx en el Explorador de soluciones, en la superficie de diseño de orquestación, seleccione la forma **ConstructPIP3A2RequestMessage** .  
+1.  <span data-ttu-id="ceb07-106">Tras seleccionar PrivateResponder.odx en el Explorador de soluciones, en la superficie de diseño de orquestación, seleccione la forma **ConstructPIP3A2RequestMessage** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-106">With PrivateResponder.odx selected in Solution Explorer, on the orchestration design surface, select the **ConstructPIP3A2RequestMessage** shape.</span></span>  
   
-2.  En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , seleccione **PIP3A2RequestMessage** de la lista desplegable y, después, presione **ENTRAR**.  
+2.  <span data-ttu-id="ceb07-107">En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , seleccione **PIP3A2RequestMessage** de la lista desplegable y, después, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-107">In the Properties window, select the **Messages Constructed** property, select **PIP3A2RequestMessage** from the drop-down list, and then press **Enter**.</span></span>  
   
-3.  Haga doble clic en la forma **Asignación de mensajes** dentro de la forma **ConstructPIP3A2RequestMessage** para abrir el Editor de expresiones de BizTalk.  
+3.  <span data-ttu-id="ceb07-108">Haga doble clic en la forma **Asignación de mensajes** dentro de la forma **ConstructPIP3A2RequestMessage** para abrir el Editor de expresiones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ceb07-108">Double-click the **Message Assignment** shape in the **ConstructPIP3A2RequestMessage** shape to open BizTalk Expression Editor.</span></span>  
   
-4.  En el Editor de expresiones de BizTalk, escriba lo siguiente:  
+4.  <span data-ttu-id="ceb07-109">En el Editor de expresiones de BizTalk, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ceb07-109">In BizTalk Expression Editor, type the following:</span></span>  
   
     ```  
     PIP3A2RequestMessage = Helper.NormalizeHeader(Microsoft.Solutions.BTARN.Shared.SCContainer.ConvertFromContainer(ActionMessage));  
     ```  
   
-5.  Haga clic en **Aceptar**.  
+5.  <span data-ttu-id="ceb07-110">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-110">Click **OK**.</span></span>  
   
-### <a name="to-configure-the-constructcontoso3a2requestmessage-transform-shape"></a>Para configurar la forma de transformación ConstructContoso3A2RequestMessage  
+### <a name="to-configure-the-constructcontoso3a2requestmessage-transform-shape"></a><span data-ttu-id="ceb07-111">Para configurar la forma de transformación ConstructContoso3A2RequestMessage</span><span class="sxs-lookup"><span data-stu-id="ceb07-111">To configure the ConstructContoso3A2RequestMessage Transform shape</span></span>  
   
-1.  En la superficie de diseño de orquestación, haga clic en la forma **ConstructContoso3A2RequestMessage** .  
+1.  <span data-ttu-id="ceb07-112">En la superficie de diseño de orquestación, haga clic en la forma **ConstructContoso3A2RequestMessage** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-112">On the orchestration design surface, click the **ConstructContoso3A2RequestMessage** shape.</span></span>  
   
-2.  En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** y, después, seleccione **Contoso3A2RequestMessage** de la lista desplegable.  
+2.  <span data-ttu-id="ceb07-113">En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** y, después, seleccione **Contoso3A2RequestMessage** de la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="ceb07-113">In the Properties window, select the **Message Constructed** property, and then select **Contoso3A2RequestMessage** from the drop-down list.</span></span>  
   
-3.  Seleccione la forma **Transform_1** dentro de la forma **ConstructContoso3A2RequestMessage** .  
+3.  <span data-ttu-id="ceb07-114">Seleccione la forma **Transform_1** dentro de la forma **ConstructContoso3A2RequestMessage** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-114">Select the **Transform_1** shape within the **ConstructContoso3A2RequestMessage** shape.</span></span>  
   
-4.  En la ventana Propiedades, seleccione la propiedad **Nombre de asignación** y, después, haga clic en el botón de puntos suspensivos (**…**) para abrir el cuadro de diálogo Configuración de transformación.  
+4.  <span data-ttu-id="ceb07-115">En la ventana Propiedades, seleccione la propiedad **Nombre de asignación** y, después, haga clic en el botón de puntos suspensivos (**…**) para abrir el cuadro de diálogo Configuración de transformación.</span><span class="sxs-lookup"><span data-stu-id="ceb07-115">In the Properties window, select the **Map Name** property, and then click the ellipsis button (**…**) to open the Transform Configuration dialog box.</span></span>  
   
-5.  En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en la **cuadro de nombre completo de asignación**, seleccione  **\<seleccionar del ensamblado mencionado >** en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.  
+5.  <span data-ttu-id="ceb07-116">En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en la **cuadro de nombre completo de asignación**, seleccione  **\<seleccionar del ensamblado mencionado >** en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.</span><span class="sxs-lookup"><span data-stu-id="ceb07-116">In the Transform Configuration dialog box, click **Existing Map**, and then in the **Fully Qualified Map Name box**, select **\<Select from Referenced Assembly>** from the drop-down list to open the Select Artifact Type dialog box.</span></span>  
   
-6.  En el cuadro de diálogo Seleccionar tipo de artefacto, seleccione el ensamblado **ContosoPriceAndAvailability** en el panel izquierdo, seleccione la asignación **PIP3A2RequestToContosoPriceRequest** en el panel derecho y, después, haga clic en **Aceptar**.  
+6.  <span data-ttu-id="ceb07-117">En el cuadro de diálogo Seleccionar tipo de artefacto, seleccione el ensamblado **ContosoPriceAndAvailability** en el panel izquierdo, seleccione la asignación **PIP3A2RequestToContosoPriceRequest** en el panel derecho y, después, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-117">In the Select Artifact Type dialog box, select the **ContosoPriceAndAvailability** assembly in the left pane, select **PIP3A2RequestToContosoPriceRequest** map in the right pane, and then click **OK**.</span></span>  
   
-7.  En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.  
+7.  <span data-ttu-id="ceb07-118">En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="ceb07-118">In the Transform Configuration dialog box, select **Source** in the left pane.</span></span>  
   
-8.  Haga clic en el cuadro vacío en **Nombre de variable**y, a continuación, seleccione **PIP3A2RequestMessage** de la lista desplegable.  
+8.  <span data-ttu-id="ceb07-119">Haga clic en el cuadro vacío en **Nombre de variable**y, a continuación, seleccione **PIP3A2RequestMessage** de la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="ceb07-119">Click the empty box under **Variable Name**, and then select **PIP3A2RequestMessage** from the drop-down list.</span></span>  
   
-9. Seleccione **destino** en el panel izquierdo, haga clic en **Contoso3A2RequestMessage** desde el **VariableName** lista desplegable y, a continuación, haga clic en **Aceptar**.  
+9. <span data-ttu-id="ceb07-120">Seleccione **destino** en el panel izquierdo, haga clic en **Contoso3A2RequestMessage** desde el **VariableName** lista desplegable y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-120">Select **Destination** in the left pane, click **Contoso3A2RequestMessage** from the **VariableName** drop-down list, and then click **OK**.</span></span>  
   
-### <a name="to-configure-the-execute3a2vocabulary-call-rules-shape"></a>Para configurar la forma reglas de llamada Execute3A2Vocabulary  
+### <a name="to-configure-the-execute3a2vocabulary-call-rules-shape"></a><span data-ttu-id="ceb07-121">Para configurar la forma reglas de llamada Execute3A2Vocabulary</span><span class="sxs-lookup"><span data-stu-id="ceb07-121">To configure the Execute3A2Vocabulary Call Rules shape</span></span>  
   
-1.  En la superficie de diseño de orquestación, haga doble clic en la forma **Execute3A2Vocabulary** dentro de la forma **Scope_1** .  
+1.  <span data-ttu-id="ceb07-122">En la superficie de diseño de orquestación, haga doble clic en la forma **Execute3A2Vocabulary** dentro de la forma **Scope_1** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-122">On the orchestration design surface, double-click the **Execute3A2Vocabulary** shape within the **Scope_1** shape.</span></span>  
   
-2.  En el cuadro de diálogo Configuración de directivas de reglasLlamada, seleccione **3A2PriceAvailabilityPolicy** en la lista desplegable **Seleccione la directiva empresarial a la que desea llamar** .  
+2.  <span data-ttu-id="ceb07-123">En el cuadro de diálogo Configuración de directivas de reglasLlamada, seleccione **3A2PriceAvailabilityPolicy** en la lista desplegable **Seleccione la directiva empresarial a la que desea llamar** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-123">In the CallRules policy configuration dialog box, select **3A2PriceAvailabilityPolicy** from the **Select the business policy that you wish to call** drop-down list.</span></span>  
   
-3.  En la lista **Especificar parámetros de directivas** , haga clic en **Haga clic aquí para agregar una nueva fila**y, después, seleccione **Contoso3A2ResponseMessage** en la lista desplegable.  
+3.  <span data-ttu-id="ceb07-124">En la lista **Especificar parámetros de directivas** , haga clic en **Haga clic aquí para agregar una nueva fila**y, después, seleccione **Contoso3A2ResponseMessage** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="ceb07-124">In the **Specify policy parameters** list, click **Click here to add a new row**, and then select **Contoso3A2ResponseMessage** from the drop-down list.</span></span>  
   
-4.  Haga clic en **Aceptar**.  
+4.  <span data-ttu-id="ceb07-125">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-125">Click **OK**.</span></span>  
   
-### <a name="to-configure-the-construct3a2responsemessage-transform-shape"></a>Para configurar la forma de transformación Construct3A2ResponseMessage  
+### <a name="to-configure-the-construct3a2responsemessage-transform-shape"></a><span data-ttu-id="ceb07-126">Para configurar la forma de transformación Construct3A2ResponseMessage</span><span class="sxs-lookup"><span data-stu-id="ceb07-126">To configure the Construct3A2ResponseMessage Transform shape</span></span>  
   
-1.  En la superficie de diseño de orquestación, haga clic en la forma **Construct3A2ResponseMessage** .  
+1.  <span data-ttu-id="ceb07-127">En la superficie de diseño de orquestación, haga clic en la forma **Construct3A2ResponseMessage** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-127">On the orchestration design surface, click the **Construct3A2ResponseMessage** shape.</span></span>  
   
-2.  En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , después seleccione **PIP3A2ResponseMessage** en la lista desplegable y, después, presione **ENTRAR**.  
+2.  <span data-ttu-id="ceb07-128">En la ventana Propiedades, seleccione la propiedad **Mensajes construidos** , después seleccione **PIP3A2ResponseMessage** en la lista desplegable y, después, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-128">In the Properties window, select the **Messages Constructed** property, and then select **PIP3A2ResponseMessage** from the drop-down list, and then press **Enter**.</span></span>  
   
-3.  Seleccione la forma **Transform_2** dentro de la forma **Construct3A2ResponseMessage** .  
+3.  <span data-ttu-id="ceb07-129">Seleccione la forma **Transform_2** dentro de la forma **Construct3A2ResponseMessage** .</span><span class="sxs-lookup"><span data-stu-id="ceb07-129">Select the **Transform_2** shape within the **Construct3A2ResponseMessage** shape.</span></span>  
   
-4.  En la ventana Propiedades, haga clic en **Asignar nombre**y, después, haga clic en el botón de puntos suspensivos (**…**).  
+4.  <span data-ttu-id="ceb07-130">En la ventana Propiedades, haga clic en **Asignar nombre**y, después, haga clic en el botón de puntos suspensivos (**…**).</span><span class="sxs-lookup"><span data-stu-id="ceb07-130">In the Properties window, click **Map Name**, and then click the ellipsis button (**…**).</span></span>  
   
-5.  En el cuadro de diálogo Configuración de Transformación, haga clic en **Nueva asignación**.  
+5.  <span data-ttu-id="ceb07-131">En el cuadro de diálogo Configuración de Transformación, haga clic en **Nueva asignación**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-131">In the Transform Configuration dialog box, click **New Map.**</span></span>  
   
-6.  En el cuadro **Asignación válida** , escriba **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.  
+6.  <span data-ttu-id="ceb07-132">En el cuadro **Asignación válida** , escriba **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-132">In the **Fully Qualified Map Name** box, type **ContosoPriceAndAvailability.ContosoResponse3A2RequestMerge**.</span></span>  
   
-7.  En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.  
+7.  <span data-ttu-id="ceb07-133">En el cuadro de diálogo Configuración de transformación, seleccione **Origen** en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="ceb07-133">In the Transform Configuration dialog box, select **Source** in the left pane.</span></span>  
   
-8.  Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable**y, después, seleccione **PIP3A2RequestMessage** en la lista desplegable.  
+8.  <span data-ttu-id="ceb07-134">Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable**y, después, seleccione **PIP3A2RequestMessage** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="ceb07-134">Click the **Click here to add a new row** label under **Variable Name**, and then select **PIP3A2RequestMessage** from the drop-down list.</span></span>  
   
-9. Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable** y, después, seleccione **Contoso3A2ResponseMessage** en la lista desplegable.  
+9. <span data-ttu-id="ceb07-135">Haga clic en la etiqueta **Haga clic aquí para agregar una nueva fila** dentro de **Nombre de variable** y, después, seleccione **Contoso3A2ResponseMessage** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="ceb07-135">Click the **Click here to add a new row** label under **Variable Name** on the next line, and then select **Contoso3A2ResponseMessage** from the drop-down list.</span></span>  
   
-10. Seleccione **Destino** en el panel izquierdo, seleccione **PIP3A2ResponseMessage** en la lista desplegable **Nombre de variable** y, después, haga clic en **Aceptar**.  
+10. <span data-ttu-id="ceb07-136">Seleccione **Destino** en el panel izquierdo, seleccione **PIP3A2ResponseMessage** en la lista desplegable **Nombre de variable** y, después, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-136">Select **Destination** in the left pane, select **PIP3A2ResponseMessage** from the **Variable Name** drop-down list, and then click **OK**.</span></span>  
   
-11. En el Explorador de soluciones, haga clic con el botón secundario en el archivo **ContosoResponse3A2RequestMerge.btm** y, después, haga clic en **Abrir con**.  
+11. <span data-ttu-id="ceb07-137">En el Explorador de soluciones, haga clic con el botón secundario en el archivo **ContosoResponse3A2RequestMerge.btm** y, después, haga clic en **Abrir con**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-137">In Solution Explorer, right-click the **ContosoResponse3A2RequestMerge.btm** file, and then click **Open With**.</span></span>  
   
-12. En el cuadro de diálogo **Abrir con - ContosoResponse3A2RequestMerge.btm** , seleccione **Editor XML** en la lista de programas y, después, haga clic en **Aceptar**. Haga clic en **Sí**.  
+12. <span data-ttu-id="ceb07-138">En el cuadro de diálogo **Abrir con - ContosoResponse3A2RequestMerge.btm** , seleccione **Editor XML** en la lista de programas y, después, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-138">In the **Open With - ContosoResponse3A2RequestMerge.btm** dialog box, select **XML Editor** from the list of programs, and then click **OK**.</span></span> <span data-ttu-id="ceb07-139">Haga clic en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-139">Click **Yes**.</span></span>  
   
     > [!NOTE]
-    >  Debido al elevado número de vínculos necesarios para esta asignación, este tutorial usa [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 2008 HTML/XML, Editor para construir la asignación copiando manualmente la información del mapa.  
+    >  <span data-ttu-id="ceb07-140">Debido al elevado número de vínculos necesarios para esta asignación, este tutorial usa [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 2008 HTML/XML, Editor para construir la asignación copiando manualmente la información del mapa.</span><span class="sxs-lookup"><span data-stu-id="ceb07-140">Due to the large number of links required for this map, this tutorial uses [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 2008 HTML/XML Editor to construct the map by copying the map information manually.</span></span>  
   
-13. En el menú **Editar** , haga clic en **Seleccionar todo**.  
+13. <span data-ttu-id="ceb07-141">En el menú **Editar** , haga clic en **Seleccionar todo**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-141">On the **Edit** menu, click **Select All**.</span></span>  
   
-14. Copie el texto XML siguiente en el portapapeles: En el menú **Editar** , haga clic en **Pegar** para sobrescribir la asignación actual:  
+14. <span data-ttu-id="ceb07-142">Copie el texto XML siguiente en el portapapeles:</span><span class="sxs-lookup"><span data-stu-id="ceb07-142">Copy the following XML to the clipboard.</span></span> <span data-ttu-id="ceb07-143">En el menú **Editar** , haga clic en **Pegar** para sobrescribir la asignación actual:</span><span class="sxs-lookup"><span data-stu-id="ceb07-143">On the **Edit** menu, click **Paste** to overwrite the current map:</span></span>  
   
     ```  
     <?xml version="1.0" encoding="utf-16"?>  
@@ -151,15 +151,15 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
     }]]></Script></ScripterCode></Functoid><Functoid FunctoidID="3" X-Cell="54" Y-Cell="239" Functoid-FID="107" Functoid-Name="String Concatenate" Label=""><Input-Parameters><Parameter Type="Constant" Value="Response" Guid="{FA85B113-6FB4-4932-A125-5CF751A536B5}"/></Input-Parameters></Functoid></Functoids></Page></Pages></mapsource>  
     ```  
   
-15. En el menú **Archivo** , haga clic en **Guardar todo**.  
+15. <span data-ttu-id="ceb07-144">En el menú **Archivo** , haga clic en **Guardar todo**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-144">On the **File** menu, click **Save All**.</span></span>  
   
-### <a name="to-configure-the-expression1-shape"></a>Para configurar la forma de Expression_1  
+### <a name="to-configure-the-expression1-shape"></a><span data-ttu-id="ceb07-145">Para configurar la forma de Expression_1</span><span class="sxs-lookup"><span data-stu-id="ceb07-145">To configure the Expression_1 shape</span></span>  
   
-1.  En el Explorador de soluciones, haga doble clic en **PrivateResponder.odx**.  
+1.  <span data-ttu-id="ceb07-146">En el Explorador de soluciones, haga doble clic en **PrivateResponder.odx**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-146">In Solution Explorer, double-click **PrivateResponder.odx**.</span></span>  
   
-2.  En la superficie de diseño de orquestación, haga doble clic en la forma **Expression_1** para abrir el Editor de expresiones de BizTalk.  
+2.  <span data-ttu-id="ceb07-147">En la superficie de diseño de orquestación, haga doble clic en la forma **Expression_1** para abrir el Editor de expresiones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ceb07-147">On the orchestration design surface, double-click the **Expression_1** shape to open BizTalk Expression Editor.</span></span>  
   
-3.  En el Editor de expresiones de BizTalk, escriba el código siguiente:  
+3.  <span data-ttu-id="ceb07-148">En el Editor de expresiones de BizTalk, escriba el código siguiente:</span><span class="sxs-lookup"><span data-stu-id="ceb07-148">In BizTalk Expression Editor, type the following code:</span></span>  
   
     ```  
     contosoResponseXML = PIP3A2ResponseMessage;  
@@ -174,7 +174,7 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
     Helper.ReturnSCWithDocType(contosoResponseXML) );  
     ```  
   
-4.  Haga clic en **Aceptar**.  
+4.  <span data-ttu-id="ceb07-149">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ceb07-149">Click **OK**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Paso 7: Crear y configurar puertos](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md)
+## <a name="see-also"></a><span data-ttu-id="ceb07-150">Vea también</span><span class="sxs-lookup"><span data-stu-id="ceb07-150">See Also</span></span>  
+ [<span data-ttu-id="ceb07-151">Paso 7: Crear y configurar puertos</span><span class="sxs-lookup"><span data-stu-id="ceb07-151">Step 7: Creating and Configuring Ports</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md)

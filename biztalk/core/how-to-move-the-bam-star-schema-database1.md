@@ -21,77 +21,77 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-move-the-bam-star-schema-database"></a>Cómo mover la base de datos de esquema de estrella de BAM
-Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.  
+# <a name="how-to-move-the-bam-star-schema-database"></a><span data-ttu-id="11795-102">Cómo mover la base de datos de esquema de estrella de BAM</span><span class="sxs-lookup"><span data-stu-id="11795-102">How to Move the BAM Star Schema Database</span></span>
+<span data-ttu-id="11795-103">Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="11795-103">You can use this procedure to move the BAM Star Schema database to another server.</span></span>  
   
-## <a name="prerequisites"></a>Requisitos previos  
- Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro de la función fija de servidor sysadmin de SQL Server.  
+## <a name="prerequisites"></a><span data-ttu-id="11795-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="11795-104">Prerequisites</span></span>  
+ <span data-ttu-id="11795-105">Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro de la función fija de servidor sysadmin de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="11795-105">You must be logged on with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.</span></span>  
   
-### <a name="to-move-the-bam-star-schema-database"></a>Para mover la base de datos de esquema de estrella de BAM  
+### <a name="to-move-the-bam-star-schema-database"></a><span data-ttu-id="11795-106">Para mover la base de datos de esquema de estrella de BAM</span><span class="sxs-lookup"><span data-stu-id="11795-106">To move the BAM Star Schema database</span></span>  
   
-1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
+1.  <span data-ttu-id="11795-107">Obtenga una copia del archivo .xml utilizado para restaurar BAM:</span><span class="sxs-lookup"><span data-stu-id="11795-107">Get a copy of the .xml file used for restoring BAM:</span></span>  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  <span data-ttu-id="11795-108">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-108">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-    2.  En el símbolo del sistema, desplácese al directorio siguiente:  
+    2.  <span data-ttu-id="11795-109">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="11795-109">At the command prompt, navigate to the following directory:</span></span>  
   
-         [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+         [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="11795-110">Tracking</span><span class="sxs-lookup"><span data-stu-id="11795-110">Tracking</span></span>  
   
-    3.  En el símbolo del sistema, escriba:  
+    3.  <span data-ttu-id="11795-111">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="11795-111">At the command prompt, type:</span></span>  
   
         ```  
         Bm.exe get-config –filename:BAMConfiguration.xml  
         ```  
   
         > [!NOTE]
-        >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+        >  <span data-ttu-id="11795-112">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="11795-112">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-2.  Siga las instrucciones en libros en pantalla de SQL Server realizar la copia de seguridad de la base de datos en el servidor anterior.  
+2.  <span data-ttu-id="11795-113">Siga las instrucciones en libros en pantalla de SQL Server realizar la copia de seguridad de la base de datos en el servidor anterior.</span><span class="sxs-lookup"><span data-stu-id="11795-113">Follow the instructions in SQL Server Books Online on how to back up the database on the old server.</span></span>  
   
-3.  Copie la base de datos de esquema de estrella de BAM en el nuevo servidor SQL Server.  
+3.  <span data-ttu-id="11795-114">Copie la base de datos de esquema de estrella de BAM en el nuevo servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="11795-114">Copy the BAM Star Schema database to the new SQL Server.</span></span>  
   
-4.  Siga las instrucciones en Libros en pantalla de SQL Server para la creación de una copia de seguridad de una base de datos en el servidor nuevo.  
+4.  <span data-ttu-id="11795-115">Siga las instrucciones en Libros en pantalla de SQL Server para la creación de una copia de seguridad de una base de datos en el servidor nuevo.</span><span class="sxs-lookup"><span data-stu-id="11795-115">Follow the instructions in SQL Server Books Online on how to restore the database on the new server.</span></span>  
   
-5.  Edite el archivo BAMConfiguration.xml y cambie el valor de ServerName en la sección StarSchemaDatabase DeploymentUnit al nombre del nuevo servidor.  
+5.  <span data-ttu-id="11795-116">Edite el archivo BAMConfiguration.xml y cambie el valor de ServerName en la sección StarSchemaDatabase DeploymentUnit al nombre del nuevo servidor.</span><span class="sxs-lookup"><span data-stu-id="11795-116">Edit the BAMConfiguration.xml file and change the ServerName in the StarSchemaDatabase DeploymentUnit section to the new server name.</span></span>  
   
-6.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
+6.  <span data-ttu-id="11795-117">Guarde el archivo BAMConfiguration.xml y ciérrelo.</span><span class="sxs-lookup"><span data-stu-id="11795-117">Save and close the BAMConfiguration.xml file.</span></span>  
   
-7.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+7.  <span data-ttu-id="11795-118">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-118">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-8.  En el símbolo del sistema, desplácese al directorio siguiente:  
+8.  <span data-ttu-id="11795-119">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="11795-119">At the command prompt, navigate to the following directory:</span></span>  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="11795-120">Tracking</span><span class="sxs-lookup"><span data-stu-id="11795-120">Tracking</span></span>  
   
-9. En el símbolo del sistema, escriba:  
+9. <span data-ttu-id="11795-121">En el símbolo del sistema, escriba:</span><span class="sxs-lookup"><span data-stu-id="11795-121">At the command prompt, type:</span></span>  
   
     ```  
     bm.exe update-config -FileName:BAMConfiguration.xml  
     ```  
   
     > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+    >  <span data-ttu-id="11795-122">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="11795-122">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-10. Actualice la conexión 2 de SQL para cambiar el nombre de la base de datos y del servidor en todos los paquetes DTS de análisis de BAM, a los que se agrega el prefijo "BAM_AN_" mediante los pasos que se indican a continuación:  
+10. <span data-ttu-id="11795-123">Actualice la conexión 2 de SQL para cambiar el nombre de la base de datos y del servidor en todos los paquetes DTS de análisis de BAM, a los que se agrega el prefijo "BAM_AN_" mediante los pasos que se indican a continuación:</span><span class="sxs-lookup"><span data-stu-id="11795-123">Update SQL Connection 2 to change the server and database name in all BAM analysis DTS packages, which are prefixed with "BAM_AN_", by following these steps:</span></span>  
   
-    1.  Abra el servidor que hospeda BAM mediante SQL Server Management Studio.  
+    1.  <span data-ttu-id="11795-124">Abra el servidor que hospeda BAM mediante SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="11795-124">Using SQL Server Management Studio, open the server hosting BAM.</span></span>  
   
-    2.  Abra la **Data Transformation Services** carpeta.  
+    2.  <span data-ttu-id="11795-125">Abra la **Data Transformation Services** carpeta.</span><span class="sxs-lookup"><span data-stu-id="11795-125">Open the **Data Transformation Services** folder.</span></span>  
   
-    3.  Abra la **paquetes locales** carpeta.  
+    3.  <span data-ttu-id="11795-126">Abra la **paquetes locales** carpeta.</span><span class="sxs-lookup"><span data-stu-id="11795-126">Open the **Local Packages** folder.</span></span>  
   
-    4.  Abra el paquete DTS y, a continuación, haga doble clic en **conexión 2** para abrir la conexión.  
+    4.  <span data-ttu-id="11795-127">Abra el paquete DTS y, a continuación, haga doble clic en **conexión 2** para abrir la conexión.</span><span class="sxs-lookup"><span data-stu-id="11795-127">Open the DTS package, and then double-click **Connection 2** to open the connection.</span></span>  
   
-    5.  Seleccione el nuevo nombre de base de datos y servidor en el cuadro desplegable.  
+    5.  <span data-ttu-id="11795-128">Seleccione el nuevo nombre de base de datos y servidor en el cuadro desplegable.</span><span class="sxs-lookup"><span data-stu-id="11795-128">Select the new server and database name in the drop-down box.</span></span>  
   
-11. Actualice el origen de datos en la base de datos de análisis de BAM del modo siguiente:  
+11. <span data-ttu-id="11795-129">Actualice el origen de datos en la base de datos de análisis de BAM del modo siguiente:</span><span class="sxs-lookup"><span data-stu-id="11795-129">Update the data source in the BAM Analysis database as follows:</span></span>  
   
-    1.  Abra el servidor que aloja la base de datos de análisis de BAM mediante Analysis Manager de SQL Server.  
+    1.  <span data-ttu-id="11795-130">Abra el servidor que aloja la base de datos de análisis de BAM mediante Analysis Manager de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="11795-130">Using SQL Server Analysis Manager, open the server hosting the BAM Analysis database.</span></span>  
   
-    2.  Abra la **orígenes de datos** carpeta.  
+    2.  <span data-ttu-id="11795-131">Abra la **orígenes de datos** carpeta.</span><span class="sxs-lookup"><span data-stu-id="11795-131">Open the **Data Sources** folder.</span></span>  
   
-    3.  Haga clic en el origen de datos para el cubo y, a continuación, haga clic en **editar**.  
+    3.  <span data-ttu-id="11795-132">Haga clic en el origen de datos para el cubo y, a continuación, haga clic en **editar**.</span><span class="sxs-lookup"><span data-stu-id="11795-132">Right-click the data source for the cube, and then click **Edit**.</span></span>  
   
-    4.  En el **conexión** ficha, escriba el nuevo nombre del servidor y el nombre de la base de datos para la base de datos de esquema de estrella de BAM y, a continuación, haga clic en **Aceptar**.  
+    4.  <span data-ttu-id="11795-133">En el **conexión** ficha, escriba el nuevo nombre del servidor y el nombre de la base de datos para la base de datos de esquema de estrella de BAM y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="11795-133">On the **Connection** tab, type the new server name and database name for the BAM Star Schema database, and then click **OK**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Mover bases de datos de servidor BizTalk Server](../core/moving-biztalk-server-databases.md)
+## <a name="see-also"></a><span data-ttu-id="11795-134">Vea también</span><span class="sxs-lookup"><span data-stu-id="11795-134">See Also</span></span>  
+ [<span data-ttu-id="11795-135">Mover bases de datos de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="11795-135">Moving BizTalk Server Databases</span></span>](../core/moving-biztalk-server-databases.md)

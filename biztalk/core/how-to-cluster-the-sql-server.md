@@ -21,8 +21,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-cluster-the-sql-server"></a>Cómo agrupar el servidor SQL Server
-Para obtener información acerca de la agrupación del servidor SQL, vea la documentación de SQL Server.  
+# <a name="how-to-cluster-the-sql-server"></a><span data-ttu-id="66ae7-102">Cómo agrupar el servidor SQL Server</span><span class="sxs-lookup"><span data-stu-id="66ae7-102">How to Cluster the SQL Server</span></span>
+<span data-ttu-id="66ae7-103">Para obtener información acerca de la agrupación del servidor SQL, vea la documentación de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="66ae7-103">For information about clustering the SQL server, see your SQL Server documentation.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Opciones de instalación de SSO de alta disponibilidad](../core/high-availability-sso-installation-options.md)
+## <a name="see-also"></a><span data-ttu-id="66ae7-104">Vea también</span><span class="sxs-lookup"><span data-stu-id="66ae7-104">See Also</span></span>  
+ [<span data-ttu-id="66ae7-105">Opciones de instalación de SSO de alta disponibilidad</span><span class="sxs-lookup"><span data-stu-id="66ae7-105">High-Availability SSO Installation Options</span></span>](../core/high-availability-sso-installation-options.md)

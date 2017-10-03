@@ -22,20 +22,20 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-display-the-sso-server-using-the-client-utility"></a>Cómo mostrar el servidor SSO con la utilidad de cliente
-Utilice este comando para mostrar el servidor de inicio de sesión único al que señala el usuario actualmente.  
+# <a name="how-to-display-the-sso-server-using-the-client-utility"></a><span data-ttu-id="6d889-102">Cómo mostrar el servidor SSO con la utilidad de cliente</span><span class="sxs-lookup"><span data-stu-id="6d889-102">How to Display the SSO Server Using the Client Utility</span></span>
+<span data-ttu-id="6d889-103">Utilice este comando para mostrar el servidor de inicio de sesión único al que señala el usuario actualmente.</span><span class="sxs-lookup"><span data-stu-id="6d889-103">Use this command to display the Single Sign-On Server to which the user is currently pointing.</span></span>  
   
-### <a name="to-display-the-sso-server-using-the-client-utility"></a>Para mostrar el servidor de SSO con la utilidad de cliente  
+### <a name="to-display-the-sso-server-using-the-client-utility"></a><span data-ttu-id="6d889-104">Para mostrar el servidor de SSO con la utilidad de cliente</span><span class="sxs-lookup"><span data-stu-id="6d889-104">To display the SSO server using the client utility</span></span>  
   
-1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
+1.  <span data-ttu-id="6d889-105">En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.</span><span class="sxs-lookup"><span data-stu-id="6d889-105">On the **Start** menu, click **Run**, and then type **cmd**.</span></span>  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  <span data-ttu-id="6d889-106">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="6d889-106">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="6d889-107">El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="6d889-107">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  Tipo de **ssoclient – showserver**.  
+3.  <span data-ttu-id="6d889-108">Tipo de **ssoclient – showserver**.</span><span class="sxs-lookup"><span data-stu-id="6d889-108">Type **ssoclient –showserver**.</span></span>  
   
     > [!NOTE]
-    >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
+    >  <span data-ttu-id="6d889-109">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="6d889-109">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md)   
- [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)
+## <a name="see-also"></a><span data-ttu-id="6d889-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="6d889-110">See Also</span></span>  
+ <span data-ttu-id="6d889-111">[Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md) </span><span class="sxs-lookup"><span data-stu-id="6d889-111">[SSO Affiliate Applications](../core/sso-affiliate-applications.md) </span></span>  
+ [<span data-ttu-id="6d889-112">Administrar aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="6d889-112">Managing Affiliate Applications</span></span>](../core/managing-affiliate-applications.md)

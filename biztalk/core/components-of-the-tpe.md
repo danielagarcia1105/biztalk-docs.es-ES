@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="components-of-the-tpe"></a>Componentes del TPE
-Esta sección contiene información acerca de la interfaz de usuario del TPE y las funciones que realiza.  
+# <a name="components-of-the-tpe"></a><span data-ttu-id="cd07c-102">Componentes del TPE</span><span class="sxs-lookup"><span data-stu-id="cd07c-102">Components of the TPE</span></span>
+<span data-ttu-id="cd07c-103">Esta sección contiene información acerca de la interfaz de usuario del TPE y las funciones que realiza.</span><span class="sxs-lookup"><span data-stu-id="cd07c-103">This section contains information about the TPE user interface and the functions it performs.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="cd07c-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="cd07c-104">In This Section</span></span>  
   
--   [Opciones de menú del TPE](../core/tpe-menu-options.md)  
+-   [<span data-ttu-id="cd07c-105">Opciones de menú del TPE</span><span class="sxs-lookup"><span data-stu-id="cd07c-105">TPE Menu Options</span></span>](../core/tpe-menu-options.md)  
   
--   [¿Qué es una vista de actividad?](../core/what-is-an-activity-view.md)  
+-   [<span data-ttu-id="cd07c-106">¿Qué es una vista de actividad?</span><span class="sxs-lookup"><span data-stu-id="cd07c-106">What Is an Activity View?</span></span>](../core/what-is-an-activity-view.md)  
   
--   [¿Qué es la vista del origen de eventos?](../core/what-is-the-source-event-view.md)  
+-   [<span data-ttu-id="cd07c-107">¿Qué es la vista del origen de eventos?</span><span class="sxs-lookup"><span data-stu-id="cd07c-107">What Is the Source Event View?</span></span>](../core/what-is-the-source-event-view.md)  
   
--   [Nodos de vista de actividad TPE](../core/tpe-activity-view-nodes.md)
+-   [<span data-ttu-id="cd07c-108">Nodos de vista de actividad TPE</span><span class="sxs-lookup"><span data-stu-id="cd07c-108">TPE Activity View Nodes</span></span>](../core/tpe-activity-view-nodes.md)

@@ -18,101 +18,101 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-entsso-for-miis-password-sync"></a>Cómo configurar ENTSSO para la sincronización de contraseñas de MIIS
-Después de configurar el archivo XML y Microsoft Identity Integration Server (MIIS), el resto de los pasos de configuración deben llevarse a cabo en el sistema de Inicio de sesión único empresarial (ENTSSO).  
+# <a name="how-to-configure-entsso-for-miis-password-sync"></a><span data-ttu-id="afcaf-102">Cómo configurar ENTSSO para la sincronización de contraseñas de MIIS</span><span class="sxs-lookup"><span data-stu-id="afcaf-102">How to Configure ENTSSO for MIIS Password Sync</span></span>
+<span data-ttu-id="afcaf-103">Después de configurar el archivo XML y Microsoft Identity Integration Server (MIIS), el resto de los pasos de configuración deben llevarse a cabo en el sistema de Inicio de sesión único empresarial (ENTSSO).</span><span class="sxs-lookup"><span data-stu-id="afcaf-103">After configuring the XML file and Microsoft Identity Integration Server (MIIS), the remaining configuration steps take place in the Enterprise Single Sign-On (ENTSSO) system.</span></span>  
   
-### <a name="to-allow-password-sync-from-miis"></a>Para permitir la sincronización de contraseñas desde MIIS  
+### <a name="to-allow-password-sync-from-miis"></a><span data-ttu-id="afcaf-104">Para permitir la sincronización de contraseñas desde MIIS</span><span class="sxs-lookup"><span data-stu-id="afcaf-104">To allow Password Sync from MIIS</span></span>  
   
-1.  En Enterprise Single Sign-On, haga clic en el **servidores** nodo.  
+1.  <span data-ttu-id="afcaf-105">En Enterprise Single Sign-On, haga clic en el **servidores** nodo.</span><span class="sxs-lookup"><span data-stu-id="afcaf-105">In Enterprise Single Sign-On, click the **Servers** node.</span></span>  
   
-2.  Haga clic en el servidor adecuado y haga clic en **propiedades**.  
+2.  <span data-ttu-id="afcaf-106">Haga clic en el servidor adecuado y haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-106">Right-click the appropriate server, and click **Properties**.</span></span>  
   
-3.  Haga clic en el **la sincronización de contraseñas** ficha.  
+3.  <span data-ttu-id="afcaf-107">Haga clic en el **la sincronización de contraseñas** ficha.</span><span class="sxs-lookup"><span data-stu-id="afcaf-107">Click the **Password Sync** tab.</span></span>  
   
-4.  Seleccione **Permitir sincronización de contraseñas desde MIIS**.  
+4.  <span data-ttu-id="afcaf-108">Seleccione **Permitir sincronización de contraseñas desde MIIS**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-108">Select **Allow password sync from MIIS**.</span></span>  
   
-5.  Haga clic en **Aceptar**.  
+5.  <span data-ttu-id="afcaf-109">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-109">Click **OK**.</span></span>  
   
-### <a name="to-enable-password-sync-on-the-system-level"></a>Para habilitar la sincronización de contraseñas en el sistema  
+### <a name="to-enable-password-sync-on-the-system-level"></a><span data-ttu-id="afcaf-110">Para habilitar la sincronización de contraseñas en el sistema</span><span class="sxs-lookup"><span data-stu-id="afcaf-110">To enable Password Sync on the system level</span></span>  
   
-1.  En Enterprise Single Sign-On, haga clic en el **System** nodo.  
+1.  <span data-ttu-id="afcaf-111">En Enterprise Single Sign-On, haga clic en el **System** nodo.</span><span class="sxs-lookup"><span data-stu-id="afcaf-111">In Enterprise Single Sign-On, right-click the **System** node.</span></span>  
   
-2.  Haga clic en **Propiedades**.  
+2.  <span data-ttu-id="afcaf-112">Haga clic en **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-112">Click **Properties**.</span></span>  
   
-     El **propiedades** aparece el cuadro de diálogo.  
+     <span data-ttu-id="afcaf-113">El **propiedades** aparece el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="afcaf-113">The **Properties** dialog box appears.</span></span>  
   
-3.  Haga clic en el **opciones** ficha.  
+3.  <span data-ttu-id="afcaf-114">Haga clic en el **opciones** ficha.</span><span class="sxs-lookup"><span data-stu-id="afcaf-114">Click the **Options** tab.</span></span>  
   
-4.  En el **Habilitar sincronización de contraseñas** campo, seleccione **de Windows con los adaptadores de**.  
+4.  <span data-ttu-id="afcaf-115">En el **Habilitar sincronización de contraseñas** campo, seleccione **de Windows con los adaptadores de**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-115">In the **Enable Password Sync** field, select **From Windows to Adapters**.</span></span>  
   
-     **Configuración adicional**  
+     <span data-ttu-id="afcaf-116">**Configuración adicional**</span><span class="sxs-lookup"><span data-stu-id="afcaf-116">**Additional Configuration**</span></span>  
   
-     Por último, debe configurar uno de los siguientes elementos:  
+     <span data-ttu-id="afcaf-117">Por último, debe configurar uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="afcaf-117">Finally, you must configure one of the following:</span></span>  
   
-    -   Un Adaptador de sincronización de contraseñas que acepte la Sincronización de contraseñas de Windows.  
+    -   <span data-ttu-id="afcaf-118">Un Adaptador de sincronización de contraseñas que acepte la Sincronización de contraseñas de Windows.</span><span class="sxs-lookup"><span data-stu-id="afcaf-118">A Password Sync Adapter that accepts Windows Password Sync.</span></span>  
   
-    -   La Sincronización directa de contraseñas debe estar habilitada en al menos una aplicación.  
+    -   <span data-ttu-id="afcaf-119">La Sincronización directa de contraseñas debe estar habilitada en al menos una aplicación.</span><span class="sxs-lookup"><span data-stu-id="afcaf-119">Direct Password Sync enabled on at least one application.</span></span>  
   
-     Para obtener más información sobre cómo llevar a cabo este procedimiento, consulte la documentación de sincronización de contraseñas.  
+     <span data-ttu-id="afcaf-120">Para obtener más información sobre cómo llevar a cabo este procedimiento, consulte la documentación de sincronización de contraseñas.</span><span class="sxs-lookup"><span data-stu-id="afcaf-120">For information about how to do this, refer to your Password Sync documentation.</span></span>  
   
-### <a name="to-configure-the-entsso-ma-for-miis-password-sync"></a>Para configurar ENTSSO MA para la sincronización de contraseñas de MIIS  
+### <a name="to-configure-the-entsso-ma-for-miis-password-sync"></a><span data-ttu-id="afcaf-121">Para configurar ENTSSO MA para la sincronización de contraseñas de MIIS</span><span class="sxs-lookup"><span data-stu-id="afcaf-121">To configure the EntSSO MA for MIIS Password Sync</span></span>  
   
-1.  En el agente de administración de ENTSSO **propiedades** página, haga clic en **configurar extensiones**.  
+1.  <span data-ttu-id="afcaf-122">En el agente de administración de ENTSSO **propiedades** página, haga clic en **configurar extensiones**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-122">On the ENTSSO Management Agent **Properties** page, click **Configure Extensions**.</span></span>  
   
-2.  En el **información de conexión para la extensión de la contraseña** , a continuación, haga clic en **configuración**.  
+2.  <span data-ttu-id="afcaf-123">En el **información de conexión para la extensión de la contraseña** , a continuación, haga clic en **configuración**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-123">In the **Connection information for password extension** field, click **Settings**.</span></span>  
   
-3.  En el **conectar a** campo escriba el nombre del equipo que va a recibir los cambios de contraseña.  
+3.  <span data-ttu-id="afcaf-124">En el **conectar a** campo escriba el nombre del equipo que va a recibir los cambios de contraseña.</span><span class="sxs-lookup"><span data-stu-id="afcaf-124">In the **Connect To** field enter the name of the computer that will receive the password changes.</span></span>  
   
-     El nombre del equipo debe tener el mismo formato que el que se utilizó en la creación del Nombre principal del servicio (SPN) del servicio ENTSSO del dominio.  
+     <span data-ttu-id="afcaf-125">El nombre del equipo debe tener el mismo formato que el que se utilizó en la creación del Nombre principal del servicio (SPN) del servicio ENTSSO del dominio.</span><span class="sxs-lookup"><span data-stu-id="afcaf-125">The computer name must be in the same format that was used when creating the Service Principal Name (SPN) for the ENTSSO service on the domain.</span></span>  
   
-     Por ejemplo:  
+     <span data-ttu-id="afcaf-126">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="afcaf-126">For example:</span></span>  
   
-     Formato corto - SPN = ENTSSO/ABCD1411, escriba ABCD1411  
+     <span data-ttu-id="afcaf-127">Formato corto - SPN = ENTSSO/ABCD1411, escriba ABCD1411</span><span class="sxs-lookup"><span data-stu-id="afcaf-127">Short format - SPN = ENTSSO/ABCD1411, then enter ABCD1411</span></span>  
   
-4.  Formato largo - SPN = ENTSSO/ABCD1411.CompanyName.com, escriba ABCD1411.CompanyName.com  
+4.  <span data-ttu-id="afcaf-128">Formato largo - SPN = ENTSSO/ABCD1411.CompanyName.com, escriba ABCD1411.CompanyName.com</span><span class="sxs-lookup"><span data-stu-id="afcaf-128">Long format - SPN = ENTSSO/ABCD1411.CompanyName.com then enter ABCD1411.CompanyName.com</span></span>  
   
-### <a name="additional-configuration-steps"></a>Pasos de configuración adicional  
+### <a name="additional-configuration-steps"></a><span data-ttu-id="afcaf-129">Pasos de configuración adicional</span><span class="sxs-lookup"><span data-stu-id="afcaf-129">Additional Configuration Steps</span></span>  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Identity Integration Server**y, a continuación, haga clic en **Identity Manager**.  
+1.  <span data-ttu-id="afcaf-130">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Identity Integration Server**y, a continuación, haga clic en **Identity Manager**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-130">Click **Start**, point to **All Programs**, point to **Microsoft Identity Integration Server**, and then click **Identity Manager**.</span></span>  
   
-2.  En el menú **Herramientas** , haga clic en **Opciones**.  
+2.  <span data-ttu-id="afcaf-131">En el menú **Herramientas** , haga clic en **Opciones**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-131">On the **Tools** menu, click **Options**.</span></span>  
   
-3.  Seleccione **habilitar la sincronización de contraseña**.  
+3.  <span data-ttu-id="afcaf-132">Seleccione **habilitar la sincronización de contraseña**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-132">Select **Enable Password Synchronization**.</span></span>  
   
-4.  En el **Ver agentes de administración**, seleccione **ADMA**.  
+4.  <span data-ttu-id="afcaf-133">En el **Ver agentes de administración**, seleccione **ADMA**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-133">In the **Management Agents view**, select **ADMA**.</span></span>  
   
-5.  En el **acción** panel, seleccione **propiedades**.  
+5.  <span data-ttu-id="afcaf-134">En el **acción** panel, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-134">In the **Action** pane, select **Properties**.</span></span>  
   
-6.  En el **propiedades** página, seleccione **configurar particiones de directorio**y, a continuación, seleccione **habilitar esta partición como un origen de sincronización de contraseña**.  
+6.  <span data-ttu-id="afcaf-135">En el **propiedades** página, seleccione **configurar particiones de directorio**y, a continuación, seleccione **habilitar esta partición como un origen de sincronización de contraseña**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-135">On the **Properties** page, select **Configure Directory Partitions**, and then select **Enable this partition as a password synchronization source**.</span></span>  
   
-7.  Haga clic en **destinos**y, a continuación, seleccione ENTSSOMA2 para que pueda recibir cambios de contraseñas desde MIIS. Anule la selección de ENTSSOMA. Haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo.  
+7.  <span data-ttu-id="afcaf-136">Haga clic en **destinos**y, a continuación, seleccione ENTSSOMA2 para que pueda recibir cambios de contraseñas desde MIIS.</span><span class="sxs-lookup"><span data-stu-id="afcaf-136">Click **Targets**, and then select ENTSSOMA2 to enable it to receive password changes from MIIS.</span></span> <span data-ttu-id="afcaf-137">Anule la selección de ENTSSOMA.</span><span class="sxs-lookup"><span data-stu-id="afcaf-137">Deselect ENTSSOMA.</span></span> <span data-ttu-id="afcaf-138">Haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo.</span><span class="sxs-lookup"><span data-stu-id="afcaf-138">Click **OK**, and then click **OK** again.</span></span>  
   
-8.  En el **Management Agent** visualizarla, seleccione **ENTSSOMA2**. En el panel derecho, seleccione **propiedades**. En el **propiedades** página, haga clic en **configurar extensiones**.  
+8.  <span data-ttu-id="afcaf-139">En el **Management Agent** visualizarla, seleccione **ENTSSOMA2**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-139">In the **Management Agent** view, select **ENTSSOMA2**.</span></span> <span data-ttu-id="afcaf-140">En el panel derecho, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-140">In the right-hand pane, select **Properties**.</span></span> <span data-ttu-id="afcaf-141">En el **propiedades** página, haga clic en **configurar extensiones**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-141">On the **Properties** page, click **Configure Extensions**.</span></span>  
   
-9. Confirme que **habilitar la administración de contraseñas** está seleccionada y, a continuación, haga clic en **configuración**.  
+9. <span data-ttu-id="afcaf-142">Confirme que **habilitar la administración de contraseñas** está seleccionada y, a continuación, haga clic en **configuración**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-142">Confirm that **Enable password management** is selected, and then click **Settings**.</span></span>  
   
-10. En el **configuración de conexión** cuadro de diálogo, especifique lo siguiente:  
+10. <span data-ttu-id="afcaf-143">En el **configuración de conexión** cuadro de diálogo, especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="afcaf-143">In the **Connection Settings** dialog, specify the following:</span></span>  
   
-    -   Conectarse a: INTSVR1.fabrikam.com  
+    -   <span data-ttu-id="afcaf-144">Conectarse a: INTSVR1.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="afcaf-144">Connect To: INTSVR1.fabrikam.com</span></span>  
   
-    -   Usuario: fabrikam\ssosvcact  
+    -   <span data-ttu-id="afcaf-145">Usuario: fabrikam\ssosvcact</span><span class="sxs-lookup"><span data-stu-id="afcaf-145">User: fabrikam\ssosvcact</span></span>  
   
-    -   Contraseña: ssosvcact  
+    -   <span data-ttu-id="afcaf-146">Contraseña: ssosvcact</span><span class="sxs-lookup"><span data-stu-id="afcaf-146">Password: ssosvcact</span></span>  
   
         > [!NOTE]
-        >  Los datos de esta cuenta deben coincidir con la cuenta del servicio ENTSSO configurada en INTSVR1.fabrikam.com.  
+        >  <span data-ttu-id="afcaf-147">Los datos de esta cuenta deben coincidir con la cuenta del servicio ENTSSO configurada en INTSVR1.fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="afcaf-147">This account should match the ENTSSO service account configured on INTSVR1.fabrikam.com.</span></span>  
   
-11. Haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo.  
+11. <span data-ttu-id="afcaf-148">Haga clic en **Aceptar**y, a continuación, haga clic en **Aceptar** nuevo.</span><span class="sxs-lookup"><span data-stu-id="afcaf-148">Click **OK**, and then click **OK** again.</span></span>  
   
-12. También se puede deshabilitar la sincronización de contraseñas para MIIS. Para ello, en **Identity Manager**, haga clic en el **herramientas** menú, haga clic en **opciones**y, a continuación, anule la selección **Enable Password Synchronization**.  
+12. <span data-ttu-id="afcaf-149">También se puede deshabilitar la sincronización de contraseñas para MIIS.</span><span class="sxs-lookup"><span data-stu-id="afcaf-149">You can also disable password sync for MIIS.</span></span> <span data-ttu-id="afcaf-150">Para ello, en **Identity Manager**, haga clic en el **herramientas** menú, haga clic en **opciones**y, a continuación, anule la selección **Enable Password Synchronization**.</span><span class="sxs-lookup"><span data-stu-id="afcaf-150">To do this, in **Identity Manager**, click the **Tools** menu, click **Options**, and then deselect **Enable Password Synchronization**.</span></span>  
   
-     Sin embargo, se aplicarán las siguientes restricciones:  
+     <span data-ttu-id="afcaf-151">Sin embargo, se aplicarán las siguientes restricciones:</span><span class="sxs-lookup"><span data-stu-id="afcaf-151">The following restrictions will apply:</span></span>  
   
-    -   Para que la sincronización de contraseñas funcione correctamente, el SPN debe configurarse en la cuenta de servicio de ENTSSO con la que el agente de administración de ENTSSO se vaya a comunicar.  
+    -   <span data-ttu-id="afcaf-152">Para que la sincronización de contraseñas funcione correctamente, el SPN debe configurarse en la cuenta de servicio de ENTSSO con la que el agente de administración de ENTSSO se vaya a comunicar.</span><span class="sxs-lookup"><span data-stu-id="afcaf-152">For Password Sync to function properly, SPN must be configured on the ENTSSO service account that the ENTSSO Management Agent will communicate with.</span></span>  
   
-    -   La comunicación entre MIIS y el servidor de ENTSSO requiere Kerberos.  
+    -   <span data-ttu-id="afcaf-153">La comunicación entre MIIS y el servidor de ENTSSO requiere Kerberos.</span><span class="sxs-lookup"><span data-stu-id="afcaf-153">Communication between MIIS and the ENTSSO server requires Kerberos.</span></span>  
   
-13. Cuando configure la extensión de contraseña en la configuración de la conexión de MIIS para el agente de administración de ENTSSO, la cuenta especificada deberá coinicidir con la cuenta de servicio del servidor de ENTSSO que reciba las contraseñas de MIIS.  
+13. <span data-ttu-id="afcaf-154">Cuando configure la extensión de contraseña en la configuración de la conexión de MIIS para el agente de administración de ENTSSO, la cuenta especificada deberá coinicidir con la cuenta de servicio del servidor de ENTSSO que reciba las contraseñas de MIIS.</span><span class="sxs-lookup"><span data-stu-id="afcaf-154">When configuring Password Extension in the MIIS connection configuration for the ENTSSO Management Agent, the account specified must match the service account for the ENTSSO server that will receive passwords from MIIS.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Cómo usar al agente de administración de ENTSSO](../core/how-to-use-the-entsso-management-agent.md)
+## <a name="see-also"></a><span data-ttu-id="afcaf-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="afcaf-155">See Also</span></span>  
+ [<span data-ttu-id="afcaf-156">Cómo usar al agente de administración de ENTSSO</span><span class="sxs-lookup"><span data-stu-id="afcaf-156">How to Use the ENTSSO Management Agent</span></span>](../core/how-to-use-the-entsso-management-agent.md)

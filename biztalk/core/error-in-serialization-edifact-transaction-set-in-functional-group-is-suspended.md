@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error-encountered-during-serialization-the-edifact-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a>Error durante la serialización. El conjunto de transacciones Edifact contenido en el grupo funcional se está suspendiendo por los errores siguientes
-## <a name="details"></a>Detalles  
+# <a name="error-encountered-during-serialization-the-edifact-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a><span data-ttu-id="65dfa-103">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="65dfa-103">Error encountered during serialization.</span></span> <span data-ttu-id="65dfa-104">El conjunto de transacciones Edifact contenido en el grupo funcional se está suspendiendo por los errores siguientes</span><span class="sxs-lookup"><span data-stu-id="65dfa-104">The Edifact transaction set contained in functional group is being suspended with following errors</span></span>
+## <a name="details"></a><span data-ttu-id="65dfa-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="65dfa-105">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EfactTransactionSetSendError|  
-|Texto del mensaje|Error durante la serialización. El conjunto de transacciones con Id. de contenidos en el grupo funcional con Id. '{1}', ' {0}' en el intercambio con Id. '{2}', con el remitente Id. '{3}', Id. de destinatario '\{4\' se está suspendiendo por los errores siguientes:|  
+|<span data-ttu-id="65dfa-106">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="65dfa-106">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="65dfa-107">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="65dfa-107">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="65dfa-108">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="65dfa-108">Event ID</span></span>|-|  
+|<span data-ttu-id="65dfa-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="65dfa-109">Event Source</span></span>|<span data-ttu-id="65dfa-110">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="65dfa-110">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
+|<span data-ttu-id="65dfa-111">Componente</span><span class="sxs-lookup"><span data-stu-id="65dfa-111">Component</span></span>|<span data-ttu-id="65dfa-112">Motor EDI</span><span class="sxs-lookup"><span data-stu-id="65dfa-112">EDI Engine</span></span>|  
+|<span data-ttu-id="65dfa-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="65dfa-113">Symbolic Name</span></span>|<span data-ttu-id="65dfa-114">EfactTransactionSetSendError</span><span class="sxs-lookup"><span data-stu-id="65dfa-114">EfactTransactionSetSendError</span></span>|  
+|<span data-ttu-id="65dfa-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="65dfa-115">Message Text</span></span>|<span data-ttu-id="65dfa-116">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="65dfa-116">Error encountered during serialization.</span></span> <span data-ttu-id="65dfa-117">El conjunto de transacciones con Id. de contenidos en el grupo funcional con Id. '{1}', ' {0}' en el intercambio con Id. '{2}', con el remitente Id. '{3}', Id. de destinatario '\{4\' se está suspendiendo por los errores siguientes:</span><span class="sxs-lookup"><span data-stu-id="65dfa-117">The Edifact transaction set with id '{0}' contained in functional group with id '{1}', in interchange with id '{2}', with sender id '{3}', receiver id '{4}' is being suspended with following errors:</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este evento de error,  indica que la canalización de envío EDI encontró un error al serializar un intercambio EDIFACT saliente debido a los errores indicados con el conjunto de transacciones identificado.  
+## <a name="explanation"></a><span data-ttu-id="65dfa-118">Explicación</span><span class="sxs-lookup"><span data-stu-id="65dfa-118">Explanation</span></span>  
+ <span data-ttu-id="65dfa-119">Este evento de error,  indica que la canalización de envío EDI encontró un error al serializar un intercambio EDIFACT saliente debido a los errores indicados con el conjunto de transacciones identificado.</span><span class="sxs-lookup"><span data-stu-id="65dfa-119">This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing an outgoing EDIFACT interchange because of the stated errors with the identified transaction set.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Para resolver este error, use la información del mensaje de error para identificar el error en el conjunto de transacciones y, a continuación, determine la resolución del problema en la ayuda del producto.
+## <a name="user-action"></a><span data-ttu-id="65dfa-120">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="65dfa-120">User Action</span></span>  
+ <span data-ttu-id="65dfa-121">Para resolver este error, use la información del mensaje de error para identificar el error en el conjunto de transacciones y, a continuación, determine la resolución del problema en la ayuda del producto.</span><span class="sxs-lookup"><span data-stu-id="65dfa-121">To resolve this error, use the information in the error message to identify the error in the transaction set and then determine the problem resolution in the product help.</span></span>

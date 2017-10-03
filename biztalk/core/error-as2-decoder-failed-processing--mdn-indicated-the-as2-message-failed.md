@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="the-as2-decoder-failed-processing-because-the-mdn-indicated-the-as2-message-failed-processing"></a>Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2
-## <a name="details"></a>Detalles  
+# <a name="the-as2-decoder-failed-processing-because-the-mdn-indicated-the-as2-message-failed-processing"></a><span data-ttu-id="cbc93-102">Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2</span><span class="sxs-lookup"><span data-stu-id="cbc93-102">The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing</span></span>
+## <a name="details"></a><span data-ttu-id="cbc93-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="cbc93-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor AS2|  
-|Nombre simbólico|AS2DecoderMdnProcessingFailureReturned|  
-|Texto del mensaje|Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2.  Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}" OriginalMessageID: "\ {3\}"|  
+|<span data-ttu-id="cbc93-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="cbc93-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="cbc93-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="cbc93-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="cbc93-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="cbc93-106">Event ID</span></span>|-|  
+|<span data-ttu-id="cbc93-107">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="cbc93-107">Event Source</span></span>|<span data-ttu-id="cbc93-108">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="cbc93-108">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
+|<span data-ttu-id="cbc93-109">Componente</span><span class="sxs-lookup"><span data-stu-id="cbc93-109">Component</span></span>|<span data-ttu-id="cbc93-110">Motor AS2</span><span class="sxs-lookup"><span data-stu-id="cbc93-110">AS2 Engine</span></span>|  
+|<span data-ttu-id="cbc93-111">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="cbc93-111">Symbolic Name</span></span>|<span data-ttu-id="cbc93-112">AS2DecoderMdnProcessingFailureReturned</span><span class="sxs-lookup"><span data-stu-id="cbc93-112">AS2DecoderMdnProcessingFailureReturned</span></span>|  
+|<span data-ttu-id="cbc93-113">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="cbc93-113">Message Text</span></span>|<span data-ttu-id="cbc93-114">Error de procesamiento de descodificador AS2. MDN indicó un error de procesamiento del mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="cbc93-114">The AS2 Decoder failure processing because the MDN indicated the AS2 message failed processing.</span></span>  <span data-ttu-id="cbc93-115">Detalles del mensaje MDN son los siguientes: AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}" OriginalMessageID: "\ {3\}"</span><span class="sxs-lookup"><span data-stu-id="cbc93-115">Details of the MDN message are as follows:  AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" OriginalMessageID:"{3}"</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este evento de error,  indica que la respuesta de MDN indica que el receptor del mensaje AS2 original no pudo procesar el mensaje AS2 original.  
+## <a name="explanation"></a><span data-ttu-id="cbc93-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="cbc93-116">Explanation</span></span>  
+ <span data-ttu-id="cbc93-117">Este evento de error,  indica que la respuesta de MDN indica que el receptor del mensaje AS2 original no pudo procesar el mensaje AS2 original.</span><span class="sxs-lookup"><span data-stu-id="cbc93-117">This Error/Warning/Information event indicates that the MDN response shows that the receiver of the original AS2 message could not process the original AS2 message.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Para resolver este error, póngase en contacto con el receptor del mensaje AS2, determine por qué se ha producido un error en el destinatario, corrija el mensaje AS2 original y vuelva a enviarlo.
+## <a name="user-action"></a><span data-ttu-id="cbc93-118">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="cbc93-118">User Action</span></span>  
+ <span data-ttu-id="cbc93-119">Para resolver este error, póngase en contacto con el receptor del mensaje AS2, determine por qué se ha producido un error en el destinatario, corrija el mensaje AS2 original y vuelva a enviarlo.</span><span class="sxs-lookup"><span data-stu-id="cbc93-119">To resolve this error, contact the receiver of the AS2 message, determine why processing failed at the receiver, fix the original AS2 message, and then resend.</span></span>

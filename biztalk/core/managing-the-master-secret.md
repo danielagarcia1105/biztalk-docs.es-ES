@@ -22,15 +22,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="managing-the-master-secret"></a>Administrar el secreto principal
-El secreto principal es la clave utilizada para cifrar toda la información almacenada en la base de datos de SSO. Si se produce un error en el servidor secreto principal y la clave se pierde, no podrá recuperar la información almacenada en la base de datos de SSO. Por lo tanto, es muy importante hacer una copia de seguridad del secreto principal inmediatamente después de generarlo.  
+# <a name="managing-the-master-secret"></a><span data-ttu-id="f7455-102">Administrar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="f7455-102">Managing the Master Secret</span></span>
+<span data-ttu-id="f7455-103">El secreto principal es la clave utilizada para cifrar toda la información almacenada en la base de datos de SSO.</span><span class="sxs-lookup"><span data-stu-id="f7455-103">The master secret is the key used to encrypt all the information stored in the SSO database.</span></span> <span data-ttu-id="f7455-104">Si se produce un error en el servidor secreto principal y la clave se pierde, no podrá recuperar la información almacenada en la base de datos de SSO.</span><span class="sxs-lookup"><span data-stu-id="f7455-104">If the master secret server fails and you lose the secret, you will not be able to retrieve the information stored in the SSO database.</span></span> <span data-ttu-id="f7455-105">Por lo tanto, es muy importante hacer una copia de seguridad del secreto principal inmediatamente después de generarlo.</span><span class="sxs-lookup"><span data-stu-id="f7455-105">Therefore, it is very important to back up the master secret as soon as you generate it.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f7455-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f7455-106">In This Section</span></span>  
   
--   [Cómo generar el secreto principal](../core/how-to-generate-the-master-secret.md)  
+-   [<span data-ttu-id="f7455-107">Cómo generar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="f7455-107">How to Generate the Master Secret</span></span>](../core/how-to-generate-the-master-secret.md)  
   
--   [Cómo realizar copias de seguridad del secreto principal](../core/how-to-back-up-the-master-secret.md)  
+-   [<span data-ttu-id="f7455-108">Cómo realizar copias de seguridad del secreto principal</span><span class="sxs-lookup"><span data-stu-id="f7455-108">How to Back Up the Master Secret</span></span>](../core/how-to-back-up-the-master-secret.md)  
   
--   [Cómo restaurar el secreto principal](../core/how-to-restore-the-master-secret.md)  
+-   [<span data-ttu-id="f7455-109">Cómo restaurar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="f7455-109">How to Restore the Master Secret</span></span>](../core/how-to-restore-the-master-secret.md)  
   
--   [Cómo mover el servidor secreto principal](../core/how-to-move-the-master-secret-server.md)
+-   [<span data-ttu-id="f7455-110">Cómo mover el servidor secreto principal</span><span class="sxs-lookup"><span data-stu-id="f7455-110">How to Move the Master Secret Server</span></span>](../core/how-to-move-the-master-secret-server.md)

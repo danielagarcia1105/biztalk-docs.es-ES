@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---input-for-mass-copy-functoid-not-valid"></a>Error: la entrada para Functoid de copia masiva no válido
-**Código de error**  
+# <a name="error---input-for-mass-copy-functoid-not-valid"></a><span data-ttu-id="be24b-102">Error: la entrada para Functoid de copia masiva no válido</span><span class="sxs-lookup"><span data-stu-id="be24b-102">Error - Input for Mass Copy Functoid Not Valid</span></span>
+<span data-ttu-id="be24b-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="be24b-103">**Error Code**</span></span>  
   
- btm1069  
+ <span data-ttu-id="be24b-104">btm1069</span><span class="sxs-lookup"><span data-stu-id="be24b-104">btm1069</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="be24b-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="be24b-105">**Explanation**</span></span>  
   
- El parámetro de entrada para la correspondiente **copia masiva** functoid no es válido o hay demasiados parámetros de entrada para la correspondiente **copia masiva** functoid se han especificado. **Copia masiva** functoids debe tener exactamente una entrada: un vínculo desde un **registro** nodo del esquema de origen.  
+ <span data-ttu-id="be24b-106">El parámetro de entrada para la correspondiente **copia masiva** functoid no es válido o hay demasiados parámetros de entrada para la correspondiente **copia masiva** functoid se han especificado.</span><span class="sxs-lookup"><span data-stu-id="be24b-106">The input parameter for the relevant **Mass Copy** functoid is not valid or too many input parameters for the relevant **Mass Copy** functoid have been specified.</span></span> <span data-ttu-id="be24b-107">**Copia masiva** functoids debe tener exactamente una entrada: un vínculo desde un **registro** nodo del esquema de origen.</span><span class="sxs-lookup"><span data-stu-id="be24b-107">**Mass Copy** functoids must have exactly one input: a link from a **Record** node in the source schema.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="be24b-108">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="be24b-108">**User Action**</span></span>  
   
- Reconfigure el **copia masiva** functoid de modo que solo haya un parámetro de entrada de un **registro** nodo del esquema de origen.
+ <span data-ttu-id="be24b-109">Reconfigure el **copia masiva** functoid de modo que solo haya un parámetro de entrada de un **registro** nodo del esquema de origen.</span><span class="sxs-lookup"><span data-stu-id="be24b-109">Reconfigure the relevant **Mass Copy** functoid such that it has a single input parameter from a **Record** node in the source schema.</span></span>

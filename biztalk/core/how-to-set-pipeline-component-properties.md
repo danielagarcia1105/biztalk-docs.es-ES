@@ -19,16 +19,16 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-set-pipeline-component-properties"></a>Cómo establecer propiedades de componente de canalización
-Los componentes tienen propiedades que deben configurarse antes de utilizarlos.  
+# <a name="how-to-set-pipeline-component-properties"></a><span data-ttu-id="c58f9-102">Cómo establecer propiedades de componente de canalización</span><span class="sxs-lookup"><span data-stu-id="c58f9-102">How to Set Pipeline Component Properties</span></span>
+<span data-ttu-id="c58f9-103">Los componentes tienen propiedades que deben configurarse antes de utilizarlos.</span><span class="sxs-lookup"><span data-stu-id="c58f9-103">Each component has properties that should be configured prior to use.</span></span>  
   
-### <a name="to-set-pipeline-component-properties"></a>Para configurar las propiedades de componentes de canalización  
+### <a name="to-set-pipeline-component-properties"></a><span data-ttu-id="c58f9-104">Para configurar las propiedades de componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="c58f9-104">To set pipeline component properties</span></span>  
   
--   En la ventana Propiedades, en la **propiedades de componente de canalización** sección, haga clic en el **valor** de celda en el **propiedad** de fila y escriba el nuevo valor. Si el **valor** celda contiene un botón de flecha, haga clic en el botón para obtener una lista de opciones. Si el **valor** celda contiene un botón de puntos suspensivos (**...** ) botón, haga clic en el botón para usar el Editor de propiedades de la colección de esquemas para configurar la propiedad. Para obtener más información, consulte [cómo utilizar el Editor de propiedades de la colección de esquema](../core/how-to-use-the-schema-collection-property-editor.md).  
+-   <span data-ttu-id="c58f9-105">En la ventana Propiedades, en la **propiedades de componente de canalización** sección, haga clic en el **valor** de celda en el **propiedad** de fila y escriba el nuevo valor.</span><span class="sxs-lookup"><span data-stu-id="c58f9-105">In the Properties window, in the **Pipeline Component Properties** section, click the **Value** cell in the **Property** row, and enter the new value.</span></span> <span data-ttu-id="c58f9-106">Si el **valor** celda contiene un botón de flecha, haga clic en el botón para obtener una lista de opciones.</span><span class="sxs-lookup"><span data-stu-id="c58f9-106">If the **Value** cell contains an arrow button, click the button for a list of choices.</span></span> <span data-ttu-id="c58f9-107">Si el **valor** celda contiene un botón de puntos suspensivos (**...** ) botón, haga clic en el botón para usar el Editor de propiedades de la colección de esquemas para configurar la propiedad.</span><span class="sxs-lookup"><span data-stu-id="c58f9-107">If the **Value** cell contains an ellipsis (**…**) button, click the button to use the Schema Collection Property Editor to configure the property.</span></span> <span data-ttu-id="c58f9-108">Para obtener más información, consulte [cómo utilizar el Editor de propiedades de la colección de esquema](../core/how-to-use-the-schema-collection-property-editor.md).</span><span class="sxs-lookup"><span data-stu-id="c58f9-108">For more information, see [How to Use the Schema Collection Property Editor](../core/how-to-use-the-schema-collection-property-editor.md).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Cómo crear una nueva canalización](../core/how-to-create-a-new-pipeline.md)   
- [Cómo abrir una canalización](../core/how-to-open-a-pipeline.md)   
- [Cómo usar el cuadro de herramientas](../core/how-to-use-the-toolbox.md)   
- [Cómo desplazarse con el teclado](../core/how-to-navigate-with-the-keyboard.md)   
- [Crear canalizaciones con el Diseñador de canalizaciones](../core/creating-pipelines-with-pipeline-designer.md)
+## <a name="see-also"></a><span data-ttu-id="c58f9-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="c58f9-109">See Also</span></span>  
+ <span data-ttu-id="c58f9-110">[Cómo crear una nueva canalización](../core/how-to-create-a-new-pipeline.md) </span><span class="sxs-lookup"><span data-stu-id="c58f9-110">[How to Create a New Pipeline](../core/how-to-create-a-new-pipeline.md) </span></span>  
+ <span data-ttu-id="c58f9-111">[Cómo abrir una canalización](../core/how-to-open-a-pipeline.md) </span><span class="sxs-lookup"><span data-stu-id="c58f9-111">[How to Open a Pipeline](../core/how-to-open-a-pipeline.md) </span></span>  
+ <span data-ttu-id="c58f9-112">[Cómo usar el cuadro de herramientas](../core/how-to-use-the-toolbox.md) </span><span class="sxs-lookup"><span data-stu-id="c58f9-112">[How to Use the Toolbox](../core/how-to-use-the-toolbox.md) </span></span>  
+ <span data-ttu-id="c58f9-113">[Cómo desplazarse con el teclado](../core/how-to-navigate-with-the-keyboard.md) </span><span class="sxs-lookup"><span data-stu-id="c58f9-113">[How to Navigate with the Keyboard](../core/how-to-navigate-with-the-keyboard.md) </span></span>  
+ [<span data-ttu-id="c58f9-114">Crear canalizaciones con el Diseñador de canalizaciones</span><span class="sxs-lookup"><span data-stu-id="c58f9-114">Creating Pipelines with Pipeline Designer</span></span>](../core/creating-pipelines-with-pipeline-designer.md)

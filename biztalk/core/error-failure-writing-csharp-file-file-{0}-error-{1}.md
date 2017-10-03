@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---failure-writing-csharp-file-ltfile---0gt-error-1"></a>Error: error al escribir el archivo CSharp (&lt;file:---{0}&gt;). Error: {1}
-**Código de error**  
+# <a name="error---failure-writing-csharp-file-ltfile---0gt-error-1"></a><span data-ttu-id="66e71-103">Error: error al escribir el archivo CSharp (&lt;file:---{0}&gt;).</span><span class="sxs-lookup"><span data-stu-id="66e71-103">Error - Failure writing CSharp file (&lt;file:---{0}&gt;).</span></span> <span data-ttu-id="66e71-104">Error: {1}</span><span class="sxs-lookup"><span data-stu-id="66e71-104">Error: {1}</span></span>
+<span data-ttu-id="66e71-105">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="66e71-105">**Error Code**</span></span>  
   
- btm1060  
+ <span data-ttu-id="66e71-106">btm1060</span><span class="sxs-lookup"><span data-stu-id="66e71-106">btm1060</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="66e71-107">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="66e71-107">**Explanation**</span></span>  
   
- El error se produce cuando el compilador del asignador no puede crear el archivo csharp en la ubicación especificada por la tarea de compilación.  
+ <span data-ttu-id="66e71-108">El error se produce cuando el compilador del asignador no puede crear el archivo csharp en la ubicación especificada por la tarea de compilación.</span><span class="sxs-lookup"><span data-stu-id="66e71-108">Error occurs when mapper compiler is not able to create the csharp file in the location specified by the build task.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="66e71-109">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="66e71-109">**User Action**</span></span>  
   
- Compruebe el mensaje de error incluido en el mensaje (Error {1}). Si es una excepción de acceso no autorizado, es posible que no tenga permisos de escritura para la carpeta saliente del proyecto.
+ <span data-ttu-id="66e71-110">Compruebe el mensaje de error incluido en el mensaje (Error {1}).</span><span class="sxs-lookup"><span data-stu-id="66e71-110">Check the error message included in the message (Error {1}).</span></span> <span data-ttu-id="66e71-111">Si es una excepción de acceso no autorizado, es posible que no tenga permisos de escritura para la carpeta saliente del proyecto.</span><span class="sxs-lookup"><span data-stu-id="66e71-111">If it is an UnAuthorised exception, then you may not have write permissions for the project output folder.</span></span>

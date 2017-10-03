@@ -21,21 +21,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="creating-and-configuring-the-contoso-solution"></a>Crear y configurar la solución de Contoso
-En esta sección del tutorial se detalla los pasos que debe seguir para la organización de Contoso. La organización Contoso representa el fabricante y, por tanto, actúa como el servicio de respuesta para todas las solicitudes entrantes de proceso de interfaz de socio (PIP). En este tutorial, crear acuerdos de socios para cuatro PIP y compilan e implementar una orquestación para enviar una respuesta adecuada según el tipo PIP.  
+# <a name="creating-and-configuring-the-contoso-solution"></a><span data-ttu-id="ed73d-102">Crear y configurar la solución de Contoso</span><span class="sxs-lookup"><span data-stu-id="ed73d-102">Creating and Configuring the Contoso Solution</span></span>
+<span data-ttu-id="ed73d-103">En esta sección del tutorial se detalla los pasos que debe seguir para la organización de Contoso.</span><span class="sxs-lookup"><span data-stu-id="ed73d-103">This section of the tutorial details the steps that you have to follow for the Contoso organization.</span></span> <span data-ttu-id="ed73d-104">La organización Contoso representa el fabricante y, por tanto, actúa como el servicio de respuesta para todas las solicitudes entrantes de proceso de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="ed73d-104">The Contoso organization represents the manufacturer and therefore acts as the Responder to all incoming Partner Interface Process (PIP) requests.</span></span> <span data-ttu-id="ed73d-105">En este tutorial, crear acuerdos de socios para cuatro PIP y compilan e implementar una orquestación para enviar una respuesta adecuada según el tipo PIP.</span><span class="sxs-lookup"><span data-stu-id="ed73d-105">In this tutorial, you create partner agreements for four PIPs and build and deploy an orchestration to send an appropriate response based on the PIP type.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="ed73d-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ed73d-106">In This Section</span></span>  
   
--   [Paso 1: Crear la organización principal de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-the-contoso-home-organization.md)  
+-   [<span data-ttu-id="ed73d-107">Paso 1: Crear la organización principal de Contoso</span><span class="sxs-lookup"><span data-stu-id="ed73d-107">Step 1: Creating the Contoso Home Organization</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-the-contoso-home-organization.md)  
   
--   [Paso 2: Crear la organización del socio comercial Fabrikam](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-fabrikam-partner-organization.md)  
+-   [<span data-ttu-id="ed73d-108">Paso 2: Crear la organización del socio comercial Fabrikam</span><span class="sxs-lookup"><span data-stu-id="ed73d-108">Step 2: Creating the Fabrikam Partner Organization</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-fabrikam-partner-organization.md)  
   
--   [Paso 3: Crear el acuerdo de socios comerciales 2 0c de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-3-creating-the-contoso-0c2-trading-partner-agreement.md)  
+-   [<span data-ttu-id="ed73d-109">Paso 3: Crear el acuerdo de socios comerciales 2 0c de Contoso</span><span class="sxs-lookup"><span data-stu-id="ed73d-109">Step 3: Creating the Contoso 0C2 Trading Partner Agreement</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-3-creating-the-contoso-0c2-trading-partner-agreement.md)  
   
--   [Paso 4: Crear el acuerdo de socios comerciales 4 de Contoso 0c](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-contoso-0c4-trading-partner-agreement.md)  
+-   [<span data-ttu-id="ed73d-110">Paso 4: Crear el acuerdo de socios comerciales 4 de Contoso 0c</span><span class="sxs-lookup"><span data-stu-id="ed73d-110">Step 4: Creating the Contoso 0C4 Trading Partner Agreement</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-contoso-0c4-trading-partner-agreement.md)  
   
--   [Paso 5: Crear el acuerdo de socio comercial de 3A2 de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-creating-the-contoso-3a2-trading-partner-agreement.md)  
+-   [<span data-ttu-id="ed73d-111">Paso 5: Crear el acuerdo de socio comercial de 3A2 de Contoso</span><span class="sxs-lookup"><span data-stu-id="ed73d-111">Step 5: Creating the Contoso 3A2 Trading Partner Agreement</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-5-creating-the-contoso-3a2-trading-partner-agreement.md)  
   
--   [Paso 6: Crear el acuerdo de socio comercial Contoso 3A4](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)  
+-   [<span data-ttu-id="ed73d-112">Paso 6: Crear el acuerdo de socio comercial Contoso 3A4</span><span class="sxs-lookup"><span data-stu-id="ed73d-112">Step 6: Creating the Contoso 3A4 Trading Partner Agreement</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)  
   
--   [Paso 7: Crear e implementar el ejemplo de SDK de DoubleAction](../../adapters-and-accelerators/accelerator-rosettanet/step-7-building-and-deploying-the-doubleaction-sdk-sample.md)
+-   [<span data-ttu-id="ed73d-113">Paso 7: Crear e implementar el ejemplo de SDK de DoubleAction</span><span class="sxs-lookup"><span data-stu-id="ed73d-113">Step 7: Building and Deploying the DoubleAction SDK Sample</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-7-building-and-deploying-the-doubleaction-sdk-sample.md)

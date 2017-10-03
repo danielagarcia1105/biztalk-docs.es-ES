@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="could-not-generate-a-unique-file-name"></a>No se pudo generar un nombre de archivo único
-## <a name="details"></a>Detalles  
+# <a name="could-not-generate-a-unique-file-name"></a><span data-ttu-id="e9fe9-102">No se pudo generar un nombre de archivo único</span><span class="sxs-lookup"><span data-stu-id="e9fe9-102">Could not generate a unique file name</span></span>
+## <a name="details"></a><span data-ttu-id="e9fe9-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="e9fe9-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|No se pudo generar un nombre de archivo único para "{0}" en la carpeta "{{1}"|  
+|<span data-ttu-id="e9fe9-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="e9fe9-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="e9fe9-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="e9fe9-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="e9fe9-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="e9fe9-106">Event ID</span></span>|<span data-ttu-id="e9fe9-107">0</span><span class="sxs-lookup"><span data-stu-id="e9fe9-107">0</span></span>|  
+|<span data-ttu-id="e9fe9-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="e9fe9-108">Event Source</span></span>|<span data-ttu-id="e9fe9-109">0</span><span class="sxs-lookup"><span data-stu-id="e9fe9-109">0</span></span>|  
+|<span data-ttu-id="e9fe9-110">Componente</span><span class="sxs-lookup"><span data-stu-id="e9fe9-110">Component</span></span>|<span data-ttu-id="e9fe9-111">0</span><span class="sxs-lookup"><span data-stu-id="e9fe9-111">0</span></span>|  
+|<span data-ttu-id="e9fe9-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="e9fe9-112">Symbolic Name</span></span>|<span data-ttu-id="e9fe9-113">0</span><span class="sxs-lookup"><span data-stu-id="e9fe9-113">0</span></span>|  
+|<span data-ttu-id="e9fe9-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="e9fe9-114">Message Text</span></span>|<span data-ttu-id="e9fe9-115">No se pudo generar un nombre de archivo único para "{0}" en la carpeta "{{1}"</span><span class="sxs-lookup"><span data-stu-id="e9fe9-115">Could not generate a unique file name for "{0}" in folder "{1}"</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este error indica que ya existe un archivo con el mismo nombre.  
+## <a name="explanation"></a><span data-ttu-id="e9fe9-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="e9fe9-116">Explanation</span></span>  
+ <span data-ttu-id="e9fe9-117">Este error indica que ya existe un archivo con el mismo nombre.</span><span class="sxs-lookup"><span data-stu-id="e9fe9-117">This error indicates a file with the same name already exists.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Cambie el nombre del archivo.
+## <a name="user-action"></a><span data-ttu-id="e9fe9-118">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="e9fe9-118">User Action</span></span>  
+ <span data-ttu-id="e9fe9-119">Cambie el nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="e9fe9-119">Rename the file.</span></span>

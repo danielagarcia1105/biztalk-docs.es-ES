@@ -23,15 +23,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-the-message-assignment-shape"></a>Cómo configurar la forma Asignación de mensajes
+# <a name="how-to-configure-the-message-assignment-shape"></a><span data-ttu-id="c047e-102">Cómo configurar la forma Asignación de mensajes</span><span class="sxs-lookup"><span data-stu-id="c047e-102">How to Configure the Message Assignment Shape</span></span>
 ![](../core/media/ebiz-orch-assign.gif "ebiz_orch_assign")  
-Forma Asignación de mensajes  
+<span data-ttu-id="c047e-103">Forma Asignación de mensajes</span><span class="sxs-lookup"><span data-stu-id="c047e-103">Message Assignment shape</span></span>  
   
 > [!NOTE]
->  A **asignación de mensajes** forma solo puede existir dentro un **construir mensaje** forma. Si arrastra una asignación de mensajes de cualquier otro lugar en la superficie de diseño, un nuevo **construir mensaje** forma se creará.  
+>  <span data-ttu-id="c047e-104">A **asignación de mensajes** forma solo puede existir dentro un **construir mensaje** forma.</span><span class="sxs-lookup"><span data-stu-id="c047e-104">A **Message Assignment** shape can exist only within a **Construct Message** shape.</span></span> <span data-ttu-id="c047e-105">Si arrastra una asignación de mensajes de cualquier otro lugar en la superficie de diseño, un nuevo **construir mensaje** forma se creará.</span><span class="sxs-lookup"><span data-stu-id="c047e-105">If you drag a Message Assignment anywhere else on the design surface, a new **Construct Message** shape will be created.</span></span>  
   
-### <a name="to-configure-a-message-assignment-shape"></a>Para configurar una forma Asignación de mensajes  
+### <a name="to-configure-a-message-assignment-shape"></a><span data-ttu-id="c047e-106">Para configurar una forma Asignación de mensajes</span><span class="sxs-lookup"><span data-stu-id="c047e-106">To configure a Message Assignment shape</span></span>  
   
-1.  Si el Editor de expresiones de BizTalk no está visible, haga clic en el **asignación de mensajes** forma y haga clic en **Editar expresión** o, en la ventana Propiedades, haga clic en el **puntos suspensivos** () **...** ) botón la **expresión** propiedad.  
+1.  <span data-ttu-id="c047e-107">Si el Editor de expresiones de BizTalk no está visible, haga clic en el **asignación de mensajes** forma y haga clic en **Editar expresión** o, en la ventana Propiedades, haga clic en el **puntos suspensivos** () **...** ) botón la **expresión** propiedad.</span><span class="sxs-lookup"><span data-stu-id="c047e-107">If BizTalk Expression Editor is not visible, right-click the **Message Assignment** shape and click **Edit Expression** or, in the Properties window, click the **Ellipsis** (**...**) button for the **Expression** property.</span></span>  
   
-2.  En el Editor de expresiones de BizTalk, cree una expresión para asignar valores. Para obtener más información, consulte [requisitos y limitaciones para las expresiones](../core/requirements-and-limitations-for-expressions.md).
+2.  <span data-ttu-id="c047e-108">En el Editor de expresiones de BizTalk, cree una expresión para asignar valores.</span><span class="sxs-lookup"><span data-stu-id="c047e-108">In BizTalk Expression Editor, create an expression to assign values.</span></span> <span data-ttu-id="c047e-109">Para obtener más información, consulte [requisitos y limitaciones para las expresiones](../core/requirements-and-limitations-for-expressions.md).</span><span class="sxs-lookup"><span data-stu-id="c047e-109">For more information, see [Requirements and Limitations for Expressions](../core/requirements-and-limitations-for-expressions.md).</span></span>

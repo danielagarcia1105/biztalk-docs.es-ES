@@ -21,23 +21,23 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="message-schemas-for-record-types"></a>Esquemas de mensaje para tipos de registro
-Tipos de registros de Oracle son tipos de datos estructurados de PL/SQL que se componen de uno o más los tipos de base de datos estructurados o simple. Tipos de registro se utilizan principalmente en las funciones y procedimientos almacenados de PL/SQL para enviar y recibir datos jerárquicos.  
+# <a name="message-schemas-for-record-types"></a><span data-ttu-id="94ffc-102">Esquemas de mensaje para tipos de registro</span><span class="sxs-lookup"><span data-stu-id="94ffc-102">Message Schemas for RECORD Types</span></span>
+<span data-ttu-id="94ffc-103">Tipos de registros de Oracle son tipos de datos estructurados de PL/SQL que se componen de uno o más los tipos de base de datos estructurados o simple.</span><span class="sxs-lookup"><span data-stu-id="94ffc-103">Oracle RECORD types are structured PL/SQL data types that consist of one or more simple or structured database types.</span></span> <span data-ttu-id="94ffc-104">Tipos de registro se utilizan principalmente en las funciones y procedimientos almacenados de PL/SQL para enviar y recibir datos jerárquicos.</span><span class="sxs-lookup"><span data-stu-id="94ffc-104">RECORD types are primarily used in PL/SQL stored procedures and functions to send and receive hierarchical data.</span></span>  
   
- El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es compatible con tipos de registros de la siguiente manera:  
+ <span data-ttu-id="94ffc-105">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es compatible con tipos de registros de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="94ffc-105">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports RECORD types in the following manner:</span></span>  
   
--   Tipos de registro se exponen como tipos complejos.  
+-   <span data-ttu-id="94ffc-106">Tipos de registro se exponen como tipos complejos.</span><span class="sxs-lookup"><span data-stu-id="94ffc-106">RECORD types are surfaced as complex types.</span></span>  
   
--   Tipos de registro pueden ser (registro anidado en un registro).  
+-   <span data-ttu-id="94ffc-107">Tipos de registro pueden ser (registro anidado en un registro).</span><span class="sxs-lookup"><span data-stu-id="94ffc-107">RECORD types can be nested (record in a record).</span></span>  
   
--   Tipos de registro se pueden declarar como parámetros de tabla % ROWTYPE en procedimientos almacenados y funciones.  
+-   <span data-ttu-id="94ffc-108">Tipos de registro se pueden declarar como parámetros de tabla % ROWTYPE en procedimientos almacenados y funciones.</span><span class="sxs-lookup"><span data-stu-id="94ffc-108">RECORD types can be declared as TABLE%ROWTYPE parameters in stored procedures and functions.</span></span>  
   
--   Tipos de registros se pueden declarar como parámetros de tipo de registro de paquetes de PL/SQL; Por ejemplo, `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`.  
+-   <span data-ttu-id="94ffc-109">Tipos de registros se pueden declarar como parámetros de tipo de registro de paquetes de PL/SQL; Por ejemplo, `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`.</span><span class="sxs-lookup"><span data-stu-id="94ffc-109">RECORD types can be declared as TYPE of RECORD parameters in PL/SQL packages; for example, `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`.</span></span>  
   
     > [!NOTE]
-    >  El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no admite tipos BFILE como miembros de registro.  
+    >  <span data-ttu-id="94ffc-110">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no admite tipos BFILE como miembros de registro.</span><span class="sxs-lookup"><span data-stu-id="94ffc-110">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] does not support BFILE types as RECORD members.</span></span>  
   
- Cuando se utiliza un parámetro de tipo de registro en un procedimiento almacenado o una función, se califican con el espacio de nombres de esa operación. El siguiente XML muestra la estructura de un tipo de registro en un mensaje:  
+ <span data-ttu-id="94ffc-111">Cuando se utiliza un parámetro de tipo de registro en un procedimiento almacenado o una función, se califican con el espacio de nombres de esa operación.</span><span class="sxs-lookup"><span data-stu-id="94ffc-111">When a RECORD type parameter is used in a stored procedure or a function, it is qualified with the namespace of that operation.</span></span> <span data-ttu-id="94ffc-112">El siguiente XML muestra la estructura de un tipo de registro en un mensaje:</span><span class="sxs-lookup"><span data-stu-id="94ffc-112">The following XML shows the structure of a RECORD type in a message:</span></span>  
   
 ```  
 <[REC_PARAM_NAME]>  
@@ -47,13 +47,13 @@ Tipos de registros de Oracle son tipos de datos estructurados de PL/SQL que se c
 </[REC_PARAM_NAME]>  
 ```  
   
- [REC_PARAM_NAME] es el nombre del parámetro de registro.  
+ <span data-ttu-id="94ffc-113">[REC_PARAM_NAME] es el nombre del parámetro de registro.</span><span class="sxs-lookup"><span data-stu-id="94ffc-113">[REC_PARAM_NAME] is the name of the RECORD parameter.</span></span>  
   
- [Nombre_de_campo] es el nombre de un campo en el tipo de registro.  
+ <span data-ttu-id="94ffc-114">[Nombre_de_campo] es el nombre de un campo en el tipo de registro.</span><span class="sxs-lookup"><span data-stu-id="94ffc-114">[FIELD_NAME] is the name of a field in the RECORD type.</span></span>  
   
- [OPERATION_NAMESPACE] es el espacio de nombres del procedimiento almacenado o la función en la que se está utilizando el parámetro de registro.  
+ <span data-ttu-id="94ffc-115">[OPERATION_NAMESPACE] es el espacio de nombres del procedimiento almacenado o la función en la que se está utilizando el parámetro de registro.</span><span class="sxs-lookup"><span data-stu-id="94ffc-115">[OPERATION_NAMESPACE] is the namespace of the stored procedure or function in which the RECORD parameter is being used.</span></span>  
   
- El siguiente XML muestra la estructura de un parámetro de tipo de registro con un campo de tipo de registro anidado:  
+ <span data-ttu-id="94ffc-116">El siguiente XML muestra la estructura de un parámetro de tipo de registro con un campo de tipo de registro anidado:</span><span class="sxs-lookup"><span data-stu-id="94ffc-116">The following XML shows the structure of a RECORD type parameter with a nested RECORD type field:</span></span>  
   
 ```  
 <[REC_PARAM_NAME]>    
@@ -68,5 +68,5 @@ Tipos de registros de Oracle son tipos de datos estructurados de PL/SQL que se c
 </[REC_PARAM_NAME]>  
 ```  
   
-## <a name="see-also"></a>Vea también  
- [Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+## <a name="see-also"></a><span data-ttu-id="94ffc-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="94ffc-117">See Also</span></span>  
+ [<span data-ttu-id="94ffc-118">Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="94ffc-118">Messages and Message Schemas for BizTalk Adapter for Oracle Database</span></span>](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

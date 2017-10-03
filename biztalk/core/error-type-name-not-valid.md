@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---type-name-not-valid"></a>Error: nombre de tipo no válido
-**Código de error**  
+# <a name="error---type-name-not-valid"></a><span data-ttu-id="b2927-102">Error: nombre de tipo no válido</span><span class="sxs-lookup"><span data-stu-id="b2927-102">Error - Type Name Not Valid</span></span>
+<span data-ttu-id="b2927-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="b2927-103">**Error Code**</span></span>  
   
- BEC2011  
+ <span data-ttu-id="b2927-104">BEC2011</span><span class="sxs-lookup"><span data-stu-id="b2927-104">BEC2011</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="b2927-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="b2927-105">**Explanation**</span></span>  
   
- El **nombre de tipo** propiedad de este archivo de esquema no es válida. Dado que el valor de la **nombre de tipo** propiedad se utiliza como el nombre de un nombre de clase de C# generado automáticamente, debe ser un identificador C# válido y no puede ser una palabra clave de BizTalk reservada.  
+ <span data-ttu-id="b2927-106">El **nombre de tipo** propiedad de este archivo de esquema no es válida.</span><span class="sxs-lookup"><span data-stu-id="b2927-106">The **Type Name** property of this schema file is not valid.</span></span> <span data-ttu-id="b2927-107">Dado que el valor de la **nombre de tipo** propiedad se utiliza como el nombre de un nombre de clase de C# generado automáticamente, debe ser un identificador C# válido y no puede ser una palabra clave de BizTalk reservada.</span><span class="sxs-lookup"><span data-stu-id="b2927-107">Because the value of the **Type Name** property is used as the name of an automatically generated C# class name, it must be a valid C# identifier and cannot be a reserved BizTalk keyword.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="b2927-108">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="b2927-108">**User Action**</span></span>  
   
- Seleccione el archivo de esquema correspondiente en Microsoft® [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones y, a continuación, en la ventana Propiedades, cambie la **nombre de tipo** propiedad en un valor que es un identificador válido de C# y no es una palabra clave de BizTalk reservada.
+ <span data-ttu-id="b2927-109">Seleccione el archivo de esquema correspondiente en Microsoft® [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones y, a continuación, en la ventana Propiedades, cambie la **nombre de tipo** propiedad en un valor que es un identificador válido de C# y no es una palabra clave de BizTalk reservada.</span><span class="sxs-lookup"><span data-stu-id="b2927-109">Select the relevant schema file in Microsoft® [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, and then in the Properties window, change the **Type Name** property to a value that is a valid C# identifier and is not a reserved BizTalk keyword.</span></span>

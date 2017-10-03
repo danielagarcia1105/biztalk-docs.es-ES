@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="required-manual-updates"></a>Actualizaciones manuales necesarias
-Después de la Update2XMLSchema herramienta transforma los esquemas de HL7 en las versiones que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] puede usar, debe actualizar manualmente algunos campos de los esquemas resultantes.  
+# <a name="required-manual-updates"></a><span data-ttu-id="d44da-102">Actualizaciones manuales necesarias</span><span class="sxs-lookup"><span data-stu-id="d44da-102">Required Manual Updates</span></span>
+<span data-ttu-id="d44da-103">Después de la Update2XMLSchema herramienta transforma los esquemas de HL7 en las versiones que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] puede usar, debe actualizar manualmente algunos campos de los esquemas resultantes.</span><span class="sxs-lookup"><span data-stu-id="d44da-103">After the Update2XMLSchema tool transforms the HL7 schemas into versions that [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] can use, you must manually update some fields of the resulting schemas.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d44da-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d44da-104">In This Section</span></span>  
   
--   [DFT_P03 de V2. 2.4 DE XML](../../adapters-and-accelerators/accelerator-hl7/dft-p03-in-v2-xml-2-4.md)  
+-   [<span data-ttu-id="d44da-105">DFT_P03 de V2. 2.4 DE XML</span><span class="sxs-lookup"><span data-stu-id="d44da-105">DFT_P03 in V2.XML 2.4</span></span>](../../adapters-and-accelerators/accelerator-hl7/dft-p03-in-v2-xml-2-4.md)  
   
--   [DFT_P11 de V2. 2.4 DE XML](../../adapters-and-accelerators/accelerator-hl7/dft-p11-in-v2-xml-2-4.md)  
+-   [<span data-ttu-id="d44da-106">DFT_P11 de V2. 2.4 DE XML</span><span class="sxs-lookup"><span data-stu-id="d44da-106">DFT_P11 in V2.XML 2.4</span></span>](../../adapters-and-accelerators/accelerator-hl7/dft-p11-in-v2-xml-2-4.md)  
   
--   [REF_I12 de V2. 2.4 DE XML](../../adapters-and-accelerators/accelerator-hl7/ref-i12-in-v2-xml-2-4.md)  
+-   [<span data-ttu-id="d44da-107">REF_I12 de V2. 2.4 DE XML</span><span class="sxs-lookup"><span data-stu-id="d44da-107">REF_I12 in V2.XML 2.4</span></span>](../../adapters-and-accelerators/accelerator-hl7/ref-i12-in-v2-xml-2-4.md)  
   
--   [REF_I12 de V2. XML 2.3.1](../../adapters-and-accelerators/accelerator-hl7/ref-i12-in-v2-xml-2-3-1.md)
+-   [<span data-ttu-id="d44da-108">REF_I12 de V2. XML 2.3.1</span><span class="sxs-lookup"><span data-stu-id="d44da-108">REF_I12 in V2.XML 2.3.1</span></span>](../../adapters-and-accelerators/accelerator-hl7/ref-i12-in-v2-xml-2-3-1.md)

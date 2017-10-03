@@ -18,29 +18,29 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="business-rules-framework-walkthroughs"></a>Tutoriales del marco de trabajo de reglas de negocios
-Esta sección contiene los siguientes tutoriales para utilizar el marco de trabajo de reglas de negocios.  
+# <a name="business-rules-framework-walkthroughs"></a><span data-ttu-id="d7f0b-102">Tutoriales del marco de trabajo de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="d7f0b-102">Business Rules Framework Walkthroughs</span></span>
+<span data-ttu-id="d7f0b-103">Esta sección contiene los siguientes tutoriales para utilizar el marco de trabajo de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="d7f0b-103">This section contains the following walkthroughs for using the Business Rules Framework.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d7f0b-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d7f0b-104">In This Section</span></span>  
   
--   [Tutorial: Crear una directiva empresarial sencilla](../core/walkthrough-creating-a-simple-business-policy.md)  
+-   [<span data-ttu-id="d7f0b-105">Tutorial: Crear una directiva empresarial sencilla</span><span class="sxs-lookup"><span data-stu-id="d7f0b-105">Walkthrough: Creating a Simple Business Policy</span></span>](../core/walkthrough-creating-a-simple-business-policy.md)  
   
--   [Tutorial: Probar la directiva](../core/walkthrough-testing-the-policy.md)  
+-   [<span data-ttu-id="d7f0b-106">Tutorial: Probar la directiva</span><span class="sxs-lookup"><span data-stu-id="d7f0b-106">Walkthrough: Testing the Policy</span></span>](../core/walkthrough-testing-the-policy.md)  
   
--   [Tutorial: Invocar la directiva desde una orquestación](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)  
+-   [<span data-ttu-id="d7f0b-107">Tutorial: Invocar la directiva desde una orquestación</span><span class="sxs-lookup"><span data-stu-id="d7f0b-107">Walkthrough: Invoking the Policy from an Orchestration</span></span>](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)  
   
--   [Tutorial: Crear y utilizar un vocabulario en la directiva](../core/walkthrough-creating-and-using-a-vocabulary-in-the-policy.md)  
+-   [<span data-ttu-id="d7f0b-108">Tutorial: Crear y utilizar un vocabulario en la directiva</span><span class="sxs-lookup"><span data-stu-id="d7f0b-108">Walkthrough: Creating and Using a Vocabulary in the Policy</span></span>](../core/walkthrough-creating-and-using-a-vocabulary-in-the-policy.md)  
   
--   [Tutorial: Agregar una regla a la directiva](../core/walkthrough-adding-a-rule-to-the-policy.md)  
+-   [<span data-ttu-id="d7f0b-109">Tutorial: Agregar una regla a la directiva</span><span class="sxs-lookup"><span data-stu-id="d7f0b-109">Walkthrough: Adding a Rule to the Policy</span></span>](../core/walkthrough-adding-a-rule-to-the-policy.md)  
   
--   [Tutorial: Modificar la directiva](../core/walkthrough-modifying-the-policy.md)  
+-   [<span data-ttu-id="d7f0b-110">Tutorial: Modificar la directiva</span><span class="sxs-lookup"><span data-stu-id="d7f0b-110">Walkthrough: Modifying the Policy</span></span>](../core/walkthrough-modifying-the-policy.md)  
   
--   [Tutorial: Ejecución de la directiva de seguimiento](../core/walkthrough-tracking-policy-execution.md)  
+-   [<span data-ttu-id="d7f0b-111">Tutorial: Ejecución de la directiva de seguimiento</span><span class="sxs-lookup"><span data-stu-id="d7f0b-111">Walkthrough: Tracking Policy Execution</span></span>](../core/walkthrough-tracking-policy-execution.md)  
   
--   [Tutorial: Implementar la directiva](../core/walkthrough-deploying-the-policy.md)  
+-   [<span data-ttu-id="d7f0b-112">Tutorial: Implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="d7f0b-112">Walkthrough: Deploying the Policy</span></span>](../core/walkthrough-deploying-the-policy.md)  
   
--   [Tutorial: Ejecutar la directiva mediante programación](../core/walkthrough-executing-the-policy-programmatically.md)  
+-   [<span data-ttu-id="d7f0b-113">Tutorial: Ejecutar la directiva mediante programación</span><span class="sxs-lookup"><span data-stu-id="d7f0b-113">Walkthrough: Executing the Policy Programmatically</span></span>](../core/walkthrough-executing-the-policy-programmatically.md)  
   
--   [Tutorial: Crear un creador de hechos](../core/walkthrough-creating-a-fact-creator.md)  
+-   [<span data-ttu-id="d7f0b-114">Tutorial: Crear un creador de hechos</span><span class="sxs-lookup"><span data-stu-id="d7f0b-114">Walkthrough: Creating a Fact Creator</span></span>](../core/walkthrough-creating-a-fact-creator.md)  
   
--   [Tutorial: Usar hechos .NET y base de datos](../core/walkthrough-using-database-and-net-facts.md)
+-   [<span data-ttu-id="d7f0b-115">Tutorial: Usar hechos .NET y base de datos</span><span class="sxs-lookup"><span data-stu-id="d7f0b-115">Walkthrough: Using Database and .NET Facts</span></span>](../core/walkthrough-using-database-and-net-facts.md)

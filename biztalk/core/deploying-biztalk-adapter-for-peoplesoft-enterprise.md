@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="deploying-biztalk-adapter-for-peoplesoft-enterprise"></a>Implementación del adaptador de para PeopleSoft Enterprise
-Esta sección proporciona información acerca de la implementación del adaptador de BizTalk para PeopleSoft Enterprise.  
+# <a name="deploying-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="be989-102">Implementación del adaptador de para PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="be989-102">Deploying BizTalk Adapter for PeopleSoft Enterprise</span></span>
+<span data-ttu-id="be989-103">Esta sección proporciona información acerca de la implementación del adaptador de BizTalk para PeopleSoft Enterprise.</span><span class="sxs-lookup"><span data-stu-id="be989-103">This section provides information about deploying BizTalk Adapter for PeopleSoft Enterprise.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="be989-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="be989-104">In This Section</span></span>  
   
--   [Implementación de puertos y ensamblados](../core/deploying-ports-and-assemblies5.md)
+-   [<span data-ttu-id="be989-105">Implementación de puertos y ensamblados</span><span class="sxs-lookup"><span data-stu-id="be989-105">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies5.md)

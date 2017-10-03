@@ -21,17 +21,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="host-instances"></a>Instancias de host
-A *instancia de host* es la instalación física de un host en un servidor BizTalk Server. Un administrador utiliza la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para instalar instancias de host. Un servidor BizTalk Server puede admitir varias instancias de host.  
+# <a name="host-instances"></a><span data-ttu-id="52a66-102">Instancias de host</span><span class="sxs-lookup"><span data-stu-id="52a66-102">Host Instances</span></span>
+<span data-ttu-id="52a66-103">A *instancia de host* es la instalación física de un host en un servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="52a66-103">A *host instance* is the physical installation of a host in a BizTalk Server.</span></span> <span data-ttu-id="52a66-104">Un administrador utiliza la consola de administración de BizTalk o el Instrumental de administración de Windows (WMI) para instalar instancias de host.</span><span class="sxs-lookup"><span data-stu-id="52a66-104">An administrator uses Windows Management Instrumentation (WMI) or the BizTalk Administration Console to install host instances.</span></span> <span data-ttu-id="52a66-105">Un servidor BizTalk Server puede admitir varias instancias de host.</span><span class="sxs-lookup"><span data-stu-id="52a66-105">A BizTalk Server can support multiple host instances.</span></span>  
   
- La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.  
+ <span data-ttu-id="52a66-106">La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.</span><span class="sxs-lookup"><span data-stu-id="52a66-106">The following figure shows the relationship between servers, hosts, and host instances.</span></span>  
   
- ![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
-Relación entre hosts, instancias de host y servidores  
+ <span data-ttu-id="52a66-107">![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")</span><span class="sxs-lookup"><span data-stu-id="52a66-107">![Hosts, host instances, and server relationships](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")</span></span>  
+<span data-ttu-id="52a66-108">Relación entre hosts, instancias de host y servidores</span><span class="sxs-lookup"><span data-stu-id="52a66-108">Relationship between hosts, host instances, and servers</span></span>  
   
- Para obtener más información acerca de los Hosts, consulte [Hosts](../core/hosts.md).  
+ <span data-ttu-id="52a66-109">Para obtener más información acerca de los Hosts, consulte [Hosts](../core/hosts.md).</span><span class="sxs-lookup"><span data-stu-id="52a66-109">For more information about Hosts, see [Hosts](../core/hosts.md).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Hosts](../core/hosts.md)   
- [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
- [Entidades](../core/entities.md)
+## <a name="see-also"></a><span data-ttu-id="52a66-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="52a66-110">See Also</span></span>  
+ <span data-ttu-id="52a66-111">[Hosts](../core/hosts.md) </span><span class="sxs-lookup"><span data-stu-id="52a66-111">[Hosts](../core/hosts.md) </span></span>  
+ <span data-ttu-id="52a66-112">[Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md) </span><span class="sxs-lookup"><span data-stu-id="52a66-112">[Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md) </span></span>  
+ [<span data-ttu-id="52a66-113">Entidades</span><span class="sxs-lookup"><span data-stu-id="52a66-113">Entities</span></span>](../core/entities.md)

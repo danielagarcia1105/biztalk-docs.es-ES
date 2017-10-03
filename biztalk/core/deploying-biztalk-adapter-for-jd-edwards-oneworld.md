@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="deploying-biztalk-adapter-for-jd-edwards-oneworld"></a>Implementación del adaptador de BizTalk para JD Edwards OneWorld
-Esta sección proporciona información acerca de cómo implementar el adaptador de BizTalk para JD Edwards OneWorld.  
+# <a name="deploying-biztalk-adapter-for-jd-edwards-oneworld"></a><span data-ttu-id="39d70-102">Implementación del adaptador de BizTalk para JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="39d70-102">Deploying BizTalk Adapter for JD Edwards OneWorld</span></span>
+<span data-ttu-id="39d70-103">Esta sección proporciona información acerca de cómo implementar el adaptador de BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="39d70-103">This section provides information about deploying Microsoft BizTalk Adapter for JD Edwards OneWorld.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="39d70-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="39d70-104">In This Section</span></span>  
   
--   [Implementación de puertos y ensamblados](../core/deploying-ports-and-assemblies4.md)
+-   [<span data-ttu-id="39d70-105">Implementación de puertos y ensamblados</span><span class="sxs-lookup"><span data-stu-id="39d70-105">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies4.md)

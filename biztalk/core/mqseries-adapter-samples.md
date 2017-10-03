@@ -21,17 +21,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="mqseries-adapter-samples"></a>Ejemplos del adaptador de MQSeries
-Esta sección contiene ejemplos que muestran la funcionalidad avanzada para configurar el adaptador de MQSeries de BizTalk.  
+# <a name="mqseries-adapter-samples"></a><span data-ttu-id="fdede-102">Ejemplos del adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="fdede-102">MQSeries Adapter Samples</span></span>
+<span data-ttu-id="fdede-103">Esta sección contiene ejemplos que muestran la funcionalidad avanzada para configurar el adaptador de MQSeries de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="fdede-103">This section contains samples that illustrate advanced functionality when using the BizTalk MQSeries Adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="fdede-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="fdede-104">In This Section</span></span>  
   
--   [MQSCorrelationSetOrchestration (ejemplo de BizTalk Server)](../core/mqscorrelationsetorchestration-biztalk-server-sample.md)  
+-   [<span data-ttu-id="fdede-105">MQSCorrelationSetOrchestration (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdede-105">MQSCorrelationSetOrchestration (BizTalk Server Sample)</span></span>](../core/mqscorrelationsetorchestration-biztalk-server-sample.md)  
   
--   [MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)](../core/mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample.md)  
+-   [<span data-ttu-id="fdede-106">MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdede-106">MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)</span></span>](../core/mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample.md)  
   
--   [MQSSendPipelineComponent (ejemplo de BizTalk Server)](../core/mqssendpipelinecomponent-biztalk-server-sample.md)  
+-   [<span data-ttu-id="fdede-107">MQSSendPipelineComponent (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdede-107">MQSSendPipelineComponent (BizTalk Server Sample)</span></span>](../core/mqssendpipelinecomponent-biztalk-server-sample.md)  
   
--   [OrderedSample (ejemplo de BizTalk Server)](../core/orderedsample-biztalk-server-sample.md)  
+-   [<span data-ttu-id="fdede-108">OrderedSample (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdede-108">OrderedSample (BizTalk Server Sample)</span></span>](../core/orderedsample-biztalk-server-sample.md)  
   
--   [Ejemplo DynamicReceive (ejemplo de BizTalk Server)](../core/dynamicreceive-sample-biztalk-server-sample.md)
+-   [<span data-ttu-id="fdede-109">Ejemplo DynamicReceive (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdede-109">DynamicReceive Sample (BizTalk Server Sample)</span></span>](../core/dynamicreceive-sample-biztalk-server-sample.md)

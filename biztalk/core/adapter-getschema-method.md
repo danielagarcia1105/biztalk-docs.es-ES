@@ -18,12 +18,12 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="adapter-getschema-method"></a>Método GetSchema del adaptador
-Supongamos que el archivo WSDL al que se hace referencia contiene solo referencias a esquemas y ningún esquema integrado. En este caso, utilice la **GetSchema** método de la **IAdapterConfig** interfaz para cargar un esquema al que hace referencia desde dentro de un archivo WSDL.  
+# <a name="adapter-getschema-method"></a><span data-ttu-id="2b448-102">Método GetSchema del adaptador</span><span class="sxs-lookup"><span data-stu-id="2b448-102">Adapter GetSchema Method</span></span>
+<span data-ttu-id="2b448-103">Supongamos que el archivo WSDL al que se hace referencia contiene solo referencias a esquemas y ningún esquema integrado.</span><span class="sxs-lookup"><span data-stu-id="2b448-103">Suppose the referenced WSDL file contains only schema references and does not contain embedded schemas.</span></span> <span data-ttu-id="2b448-104">En este caso, utilice la **GetSchema** método de la **IAdapterConfig** interfaz para cargar un esquema al que hace referencia desde dentro de un archivo WSDL.</span><span class="sxs-lookup"><span data-stu-id="2b448-104">In this case, you use the **GetSchema** method of the **IAdapterConfig** interface to load a schema referenced from within a WSDL file.</span></span>  
   
- En el ejemplo de adaptador de archivo, modifique el código en el **GetSchema** método de AdapterManagement.cs para devolver todos los archivos XSD externos que no están incluidos en los archivos WSDL.  
+ <span data-ttu-id="2b448-105">En el ejemplo de adaptador de archivo, modifique el código en el **GetSchema** método de AdapterManagement.cs para devolver todos los archivos XSD externos que no están incluidos en los archivos WSDL.</span><span class="sxs-lookup"><span data-stu-id="2b448-105">In the file adapter sample, modify the code in the **GetSchema** method of AdapterManagement.cs to return any external XSD files that are not included with the WSDL files.</span></span>  
   
- El código siguiente procede del **GetSchema** método del archivo AdapterManagement.cs. Aquí devuelve NULL porque el archivo Service1.wsdl contiene esquemas integrados. Si ése no era el caso, se debe devolver una cadena correspondiente a un archivo de esquema XSD.  
+ <span data-ttu-id="2b448-106">El código siguiente procede del **GetSchema** método del archivo AdapterManagement.cs.</span><span class="sxs-lookup"><span data-stu-id="2b448-106">The following code is from the **GetSchema** method of the AdapterManagement.cs file.</span></span> <span data-ttu-id="2b448-107">Aquí devuelve NULL porque el archivo Service1.wsdl contiene esquemas integrados.</span><span class="sxs-lookup"><span data-stu-id="2b448-107">It returns null here because the Service1.wsdl file contains embedded schemas.</span></span> <span data-ttu-id="2b448-108">Si ése no era el caso, se debe devolver una cadena correspondiente a un archivo de esquema XSD.</span><span class="sxs-lookup"><span data-stu-id="2b448-108">If that were not the case, a string corresponding to an XSD schema file would need to be returned.</span></span>  
   
 ```  
 /// <summary>  

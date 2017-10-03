@@ -21,14 +21,14 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="engine-performance-characteristics"></a>Características de rendimiento del motor
-En esta sección se explica cómo puede garantizar que el motor de mensajería cuenta con un rendimiento óptimo. Se describe cómo medir el rendimiento sostenible máximo del motor y cómo modificar la configuración predeterminada de limitación de host.  
+# <a name="engine-performance-characteristics"></a><span data-ttu-id="52dbe-102">Características de rendimiento del motor</span><span class="sxs-lookup"><span data-stu-id="52dbe-102">Engine Performance Characteristics</span></span>
+<span data-ttu-id="52dbe-103">En esta sección se explica cómo puede garantizar que el motor de mensajería cuenta con un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="52dbe-103">This section explains how you can ensure the messaging engine has optimal performance.</span></span> <span data-ttu-id="52dbe-104">Se describe cómo medir el rendimiento sostenible máximo del motor y cómo modificar la configuración predeterminada de limitación de host.</span><span class="sxs-lookup"><span data-stu-id="52dbe-104">It explains how to measure maximum sustainable engine throughput and how to modify default host throttling settings.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="52dbe-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="52dbe-105">In This Section</span></span>  
   
--   [Capacidad y rendimiento del motor](../core/engine-performance-and-capacity.md)  
+-   [<span data-ttu-id="52dbe-106">Capacidad y rendimiento del motor</span><span class="sxs-lookup"><span data-stu-id="52dbe-106">Engine Performance and Capacity</span></span>](../core/engine-performance-and-capacity.md)  
   
--   [Optimizar el uso de recursos mediante la limitación de Host](../core/optimizing-resource-usage-through-host-throttling.md)  
+-   [<span data-ttu-id="52dbe-107">Optimizar el uso de recursos mediante la limitación de Host</span><span class="sxs-lookup"><span data-stu-id="52dbe-107">Optimizing Resource Usage Through Host Throttling</span></span>](../core/optimizing-resource-usage-through-host-throttling.md)  
   
-## <a name="see-also"></a>Vea también  
- [Orquestación deshidratación y rehidratación](../core/orchestration-dehydration-and-rehydration.md)
+## <a name="see-also"></a><span data-ttu-id="52dbe-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="52dbe-108">See Also</span></span>  
+ [<span data-ttu-id="52dbe-109">Orquestación deshidratación y rehidratación</span><span class="sxs-lookup"><span data-stu-id="52dbe-109">Orchestration Dehydration and Rehydration</span></span>](../core/orchestration-dehydration-and-rehydration.md)

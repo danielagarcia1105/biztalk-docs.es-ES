@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-wcf-nettcp-adapter"></a>Configurar el adaptador de WCF-NetTcp
-En esta sección se explica cómo configurar un adaptador de WCF-NetTcp.  
+# <a name="configuring-the-wcf-nettcp-adapter"></a><span data-ttu-id="1b539-102">Configurar el adaptador de WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="1b539-102">Configuring the WCF-NetTcp Adapter</span></span>
+<span data-ttu-id="1b539-103">En esta sección se explica cómo configurar un adaptador de WCF-NetTcp.</span><span class="sxs-lookup"><span data-stu-id="1b539-103">This section describes how to configure a WCF-NetTcp adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="1b539-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="1b539-104">In This Section</span></span>  
   
--   [Cómo configurar un puerto de envío WCF-NetTcp](../core/how-to-configure-a-wcf-nettcp-send-port.md)  
+-   [<span data-ttu-id="1b539-105">Cómo configurar un puerto de envío WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="1b539-105">How to Configure a WCF-NetTcp Send Port</span></span>](../core/how-to-configure-a-wcf-nettcp-send-port.md)  
   
--   [Cómo configurar ubicación de recepción de WCF-NetTcp](../core/how-to-configure-a-wcf-nettcp-receive-location.md)  
+-   [<span data-ttu-id="1b539-106">Cómo configurar ubicación de recepción de WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="1b539-106">How to Configure a WCF-NetTcp Receive Location</span></span>](../core/how-to-configure-a-wcf-nettcp-receive-location.md)  
   
--   [Cómo configurar un controlador de envío WCF-NetTcp](../core/how-to-configure-a-wcf-nettcp-send-handler.md)  
+-   [<span data-ttu-id="1b539-107">Cómo configurar un controlador de envío WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="1b539-107">How to Configure a WCF-NetTcp Send Handler</span></span>](../core/how-to-configure-a-wcf-nettcp-send-handler.md)  
   
--   [Cómo configurar controlador de recepción de WCF-NetTcp](../core/how-to-configure-a-wcf-nettcp-receive-handler.md)
+-   [<span data-ttu-id="1b539-108">Cómo configurar controlador de recepción de WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="1b539-108">How to Configure a WCF-NetTcp Receive Handler</span></span>](../core/how-to-configure-a-wcf-nettcp-receive-handler.md)

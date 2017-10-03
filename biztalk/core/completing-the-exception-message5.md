@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="completing-the-exception-message"></a>Completar el mensaje de excepción
-Para completar el flujo de la excepción, cree una forma Envío para redirigir el mensaje de error Message_3 a una carpeta supervisada.  
+# <a name="completing-the-exception-message"></a><span data-ttu-id="6a1a1-102">Completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="6a1a1-102">Completing the Exception Message</span></span>
+<span data-ttu-id="6a1a1-103">Para completar el flujo de la excepción, cree una forma Envío para redirigir el mensaje de error Message_3 a una carpeta supervisada.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-103">To complete the flow of the exception, create a Send shape to redirect the fault Message_3 to a monitored folder.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Cómo agregar un bloque de excepción de filtrado](../core/how-to-add-a-catch-exception-block1.md)   
- [Uso de control de excepciones de servidor BizTalk Server](../core/using-biztalk-server-exception-handling3.md)
+## <a name="see-also"></a><span data-ttu-id="6a1a1-104">Vea también</span><span class="sxs-lookup"><span data-stu-id="6a1a1-104">See Also</span></span>  
+ <span data-ttu-id="6a1a1-105">[Cómo agregar un bloque de excepción de filtrado](../core/how-to-add-a-catch-exception-block1.md) </span><span class="sxs-lookup"><span data-stu-id="6a1a1-105">[How to Add a Catch Exception Block](../core/how-to-add-a-catch-exception-block1.md) </span></span>  
+ [<span data-ttu-id="6a1a1-106">Uso de control de excepciones de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="6a1a1-106">Using BizTalk Server Exception Handling</span></span>](../core/using-biztalk-server-exception-handling3.md)

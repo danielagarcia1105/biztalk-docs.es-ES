@@ -19,5 +19,5 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="setting-a4swift-properties"></a>Establecer las propiedades de A4SWIFT
-Para establecer las propiedades de A4SWIFT, consulte la documentación del cliente de Web de perfil ubicado en \<unidad >: \Program Acelerador de BizTalk para SWIFT\SDK\Samples\CustomMRSRModel.
+# <a name="setting-a4swift-properties"></a><span data-ttu-id="f81af-102">Establecer las propiedades de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="f81af-102">Setting A4SWIFT Properties</span></span>
+<span data-ttu-id="f81af-103">Para establecer las propiedades de A4SWIFT, consulte la documentación del cliente de Web de perfil ubicado en \<unidad >: \Program Acelerador de BizTalk para SWIFT\SDK\Samples\CustomMRSRModel.</span><span class="sxs-lookup"><span data-stu-id="f81af-103">To set A4SWIFT Properties, refer to the Profile Web Client Documentation located in \<drive>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Samples\CustomMRSRModel.</span></span>

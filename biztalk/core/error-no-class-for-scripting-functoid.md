@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---no-class-for-scripting-functoid"></a>Error: no hay clase para el Functoid de secuencias de comandos
-**Código de error**  
+# <a name="error---no-class-for-scripting-functoid"></a><span data-ttu-id="790cf-102">Error: no hay clase para el Functoid de secuencias de comandos</span><span class="sxs-lookup"><span data-stu-id="790cf-102">Error - No Class for Scripting Functoid</span></span>
+<span data-ttu-id="790cf-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="790cf-103">**Error Code**</span></span>  
   
- btm1008  
+ <span data-ttu-id="790cf-104">btm1008</span><span class="sxs-lookup"><span data-stu-id="790cf-104">btm1008</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="790cf-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="790cf-105">**Explanation**</span></span>  
   
- El **clase de secuencia de comandos** propiedad del functoid **secuencias de comandos** functoid no se ha establecido aunque la **tipo de secuencia de comandos** propiedad indica que un ensamblado externo contiene la secuencia de comandos para este **secuencias de comandos** functoid.  
+ <span data-ttu-id="790cf-106">El **clase de secuencia de comandos** propiedad del functoid **secuencias de comandos** functoid no se ha establecido aunque la **tipo de secuencia de comandos** propiedad indica que un ensamblado externo contiene la secuencia de comandos para este **secuencias de comandos** functoid.</span><span class="sxs-lookup"><span data-stu-id="790cf-106">The **Script Class** property of the indicated **Scripting** functoid has not been set even though the **Script Type** property indicates that an external assembly contains the script for this **Scripting** functoid.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="790cf-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="790cf-107">**User Action**</span></span>  
   
- Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **Script** propiedad en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, establezca los valores correspondientes el **Configurar secuencia de comandos de Functoid** cuadro de diálogo incluido el **clase de secuencia de comandos** propiedad.
+ <span data-ttu-id="790cf-108">Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **Script** propiedad en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, establezca los valores correspondientes el **Configurar secuencia de comandos de Functoid** cuadro de diálogo incluido el **clase de secuencia de comandos** propiedad.</span><span class="sxs-lookup"><span data-stu-id="790cf-108">Select the indicated **Scripting** functoid, click the ellipsis (**...**) button associated with the **Script** property in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then set the appropriate values in the **Configure Functoid Script** dialog box, including the **Script Class** property.</span></span>

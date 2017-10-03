@@ -21,9 +21,9 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-8-post-configuration-changes"></a>Paso 8: Cambios de configuración posterior a la
-La sección siguiente proporcionan en pasos posteriores a la instalación que se completará la implementación.  
+# <a name="step-8-post-configuration-changes"></a><span data-ttu-id="0f308-102">Paso 8: Cambios de configuración posterior a la</span><span class="sxs-lookup"><span data-stu-id="0f308-102">Step 8: Post-Configuration Changes</span></span>
+<span data-ttu-id="0f308-103">La sección siguiente proporcionan en pasos posteriores a la instalación que se completará la implementación.</span><span class="sxs-lookup"><span data-stu-id="0f308-103">The following section provides you with post-installation steps that will complete your deployment.</span></span>  
   
- Esta sección contiene:  
+ <span data-ttu-id="0f308-104">Esta sección contiene:</span><span class="sxs-lookup"><span data-stu-id="0f308-104">This section contains:</span></span>  
   
--   [Configurar el BizTalkApplicationServer y los Hosts de BizTalkServerIsolatedHost](../../adapters-and-accelerators/accelerator-swift/configuring-the-biztalkapplicationserver-and-biztalkserverisolatedhost-hosts.md)
+-   [<span data-ttu-id="0f308-105">Configurar el BizTalkApplicationServer y los Hosts de BizTalkServerIsolatedHost</span><span class="sxs-lookup"><span data-stu-id="0f308-105">Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts</span></span>](../../adapters-and-accelerators/accelerator-swift/configuring-the-biztalkapplicationserver-and-biztalkserverisolatedhost-hosts.md)

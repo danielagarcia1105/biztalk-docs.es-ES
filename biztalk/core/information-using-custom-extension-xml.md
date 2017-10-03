@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="information---using-custom-extension-xml"></a>Información: uso de XML de extensión personalizada
-**Código de error**  
+# <a name="information---using-custom-extension-xml"></a><span data-ttu-id="47da5-102">Información: uso de XML de extensión personalizada</span><span class="sxs-lookup"><span data-stu-id="47da5-102">Information - Using Custom Extension XML</span></span>
+<span data-ttu-id="47da5-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="47da5-103">**Error Code**</span></span>  
   
- btm1074  
+ <span data-ttu-id="47da5-104">btm1074</span><span class="sxs-lookup"><span data-stu-id="47da5-104">btm1074</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="47da5-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="47da5-105">**Explanation**</span></span>  
   
- El Asignador de BizTalk ha generado su propio XML de extensión y lo ha asignado al XML de extensión personalizada especificado por el usuario.  
+ <span data-ttu-id="47da5-106">El Asignador de BizTalk ha generado su propio XML de extensión y lo ha asignado al XML de extensión personalizada especificado por el usuario.</span><span class="sxs-lookup"><span data-stu-id="47da5-106">BizTalk Mapper has generated its own Extension XML and appended it to the Custom Extension XML specified by the user.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="47da5-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="47da5-107">**User Action**</span></span>  
   
- Informativo. No se requiere ninguna acción.
+ <span data-ttu-id="47da5-108">Informativo.</span><span class="sxs-lookup"><span data-stu-id="47da5-108">Informational.</span></span> <span data-ttu-id="47da5-109">No se requiere ninguna acción.</span><span class="sxs-lookup"><span data-stu-id="47da5-109">No action required.</span></span>

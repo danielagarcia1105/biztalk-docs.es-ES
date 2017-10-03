@@ -21,19 +21,19 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-save-a-tracking-query"></a>Cómo guardar una consulta de seguimiento
-Puede guardar una consulta de instancias de servicios o mensajes con la interfaz Generador de consultas desde la consola de administración de BizTalk Server.  
+# <a name="how-to-save-a-tracking-query"></a><span data-ttu-id="91fa0-102">Cómo guardar una consulta de seguimiento</span><span class="sxs-lookup"><span data-stu-id="91fa0-102">How to Save a Tracking Query</span></span>
+<span data-ttu-id="91fa0-103">Puede guardar una consulta de instancias de servicios o mensajes con la interfaz Generador de consultas desde la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="91fa0-103">You can save a message or service instances query using the Query Builder interface from within the BizTalk Server Administration console.</span></span>  
   
-## <a name="prerequisites"></a>Requisitos previos  
- Debe ser iniciado sesión como miembro del grupo de operadores de BizTalk Server para llevar a cabo este procedimiento.  
+## <a name="prerequisites"></a><span data-ttu-id="91fa0-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="91fa0-104">Prerequisites</span></span>  
+ <span data-ttu-id="91fa0-105">Debe ser iniciado sesión como miembro del grupo de operadores de BizTalk Server para llevar a cabo este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="91fa0-105">You must be logged on as a member of the BizTalk Server Operators group to perform this procedure.</span></span>  
   
-### <a name="to-save-a-tracking-query"></a>Para guardar una consulta de seguimiento  
+### <a name="to-save-a-tracking-query"></a><span data-ttu-id="91fa0-106">Para guardar una consulta de seguimiento</span><span class="sxs-lookup"><span data-stu-id="91fa0-106">To save a tracking query</span></span>  
   
-1.  Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
+1.  <span data-ttu-id="91fa0-107">Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="91fa0-107">Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
   
-2.  En el **concentrador de grupo** página, en la **nueva consulta** , haga clic en **Guardar como** para guardar los comandos SQL en el **expresión de consulta** área.  
+2.  <span data-ttu-id="91fa0-108">En el **concentrador de grupo** página, en la **nueva consulta** , haga clic en **Guardar como** para guardar los comandos SQL en el **expresión de consulta** área.</span><span class="sxs-lookup"><span data-stu-id="91fa0-108">On the **Group Hub** page, on the **New Query** tab, click **Save As** to save the SQL commands in the **Query Expression** area.</span></span>  
   
-3.  En el **Guardar consulta como** cuadro de diálogo, vaya al directorio de destino donde desea guardar la consulta. Asegúrese de especificar un nombre de archivo válido para la consulta.  
+3.  <span data-ttu-id="91fa0-109">En el **Guardar consulta como** cuadro de diálogo, vaya al directorio de destino donde desea guardar la consulta.</span><span class="sxs-lookup"><span data-stu-id="91fa0-109">In the **Save Query As** dialog box, browse to the destination directory where you want to save the query.</span></span> <span data-ttu-id="91fa0-110">Asegúrese de especificar un nombre de archivo válido para la consulta.</span><span class="sxs-lookup"><span data-stu-id="91fa0-110">Be sure to include an appropriate file name for the query.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Ver los datos históricos y de seguimiento](../core/viewing-historical-and-tracked-data.md)
+## <a name="see-also"></a><span data-ttu-id="91fa0-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="91fa0-111">See Also</span></span>  
+ [<span data-ttu-id="91fa0-112">Ver los datos históricos y de seguimiento</span><span class="sxs-lookup"><span data-stu-id="91fa0-112">Viewing Historical and Tracked Data</span></span>](../core/viewing-historical-and-tracked-data.md)

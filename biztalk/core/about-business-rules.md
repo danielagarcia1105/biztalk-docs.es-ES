@@ -18,17 +18,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="about-business-rules"></a>Acerca de las r eglas de negocio
-En esta sección se describe lo que son las reglas de negocios y se explica cómo el motor de reglas ejecuta las reglas de negocio.  
+# <a name="about-business-rules"></a><span data-ttu-id="ebd71-102">Acerca de las r eglas de negocio</span><span class="sxs-lookup"><span data-stu-id="ebd71-102">About Business Rules</span></span>
+<span data-ttu-id="ebd71-103">En esta sección se describe lo que son las reglas de negocios y se explica cómo el motor de reglas ejecuta las reglas de negocio.</span><span class="sxs-lookup"><span data-stu-id="ebd71-103">This section describes what business rules are, and explain how the rule engine executes business rules.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="ebd71-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ebd71-104">In This Section</span></span>  
   
--   [Reglas](../core/rules.md)  
+-   [<span data-ttu-id="ebd71-105">Reglas</span><span class="sxs-lookup"><span data-stu-id="ebd71-105">Rules</span></span>](../core/rules.md)  
   
--   [Directivas](../core/policies.md)  
+-   [<span data-ttu-id="ebd71-106">Directivas</span><span class="sxs-lookup"><span data-stu-id="ebd71-106">Policies</span></span>](../core/policies.md)  
   
--   [Vocabularios](../core/vocabularies.md)  
+-   [<span data-ttu-id="ebd71-107">Vocabularios</span><span class="sxs-lookup"><span data-stu-id="ebd71-107">Vocabularies</span></span>](../core/vocabularies.md)  
   
--   [Hechos](../core/facts.md)  
+-   [<span data-ttu-id="ebd71-108">Hechos</span><span class="sxs-lookup"><span data-stu-id="ebd71-108">Facts</span></span>](../core/facts.md)  
   
--   [Motor de reglas](../core/rule-engine.md)
+-   [<span data-ttu-id="ebd71-109">Motor de reglas</span><span class="sxs-lookup"><span data-stu-id="ebd71-109">Rule Engine</span></span>](../core/rule-engine.md)

@@ -27,44 +27,44 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-manage-password-synchronization"></a>Cómo administrar la sincronización de contraseña
-El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para habilitar o deshabilitar las características de SSO, así como para mostrar la configuración de la base de datos de SSO.  
+# <a name="how-to-manage-password-synchronization"></a><span data-ttu-id="d1cef-102">Cómo administrar la sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="d1cef-102">How to Manage Password Synchronization</span></span>
+<span data-ttu-id="d1cef-103">El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para habilitar o deshabilitar las características de SSO, así como para mostrar la configuración de la base de datos de SSO.</span><span class="sxs-lookup"><span data-stu-id="d1cef-103">Use the MMC Snap-in or the SSOMANAGE command line utility to enable or disable SSO features, and to display current SSO database settings.</span></span>  
   
-### <a name="to-manage-features-or-display-settings-using-the-mmc-snap-in"></a>Para administrar características o mostrar la configuración utilizando el Complemento MMC  
+### <a name="to-manage-features-or-display-settings-using-the-mmc-snap-in"></a><span data-ttu-id="d1cef-104">Para administrar características o mostrar la configuración utilizando el Complemento MMC</span><span class="sxs-lookup"><span data-stu-id="d1cef-104">To manage features or display settings using the MMC Snap-In</span></span>  
   
-1.  Haga clic con el botón secundario en la base de datos o característica adecuada.  
+1.  <span data-ttu-id="d1cef-105">Haga clic con el botón secundario en la base de datos o característica adecuada.</span><span class="sxs-lookup"><span data-stu-id="d1cef-105">Right-click the appropriate feature or database.</span></span>  
   
-2.  Haga clic en el elemento de menú que proceda.  
+2.  <span data-ttu-id="d1cef-106">Haga clic en el elemento de menú que proceda.</span><span class="sxs-lookup"><span data-stu-id="d1cef-106">Click the appropriate menu item.</span></span>  
   
-### <a name="to-enable-sso-features-using-the-command-line"></a>Para habilitar las características de SSO utilizando la línea de comandos  
+### <a name="to-enable-sso-features-using-the-command-line"></a><span data-ttu-id="d1cef-107">Para habilitar las características de SSO utilizando la línea de comandos</span><span class="sxs-lookup"><span data-stu-id="d1cef-107">To enable SSO features using the command line</span></span>  
   
-1.  En el menú **Inicio** , haga clic en **Ejecutar**.  
+1.  <span data-ttu-id="d1cef-108">En el menú **Inicio** , haga clic en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-108">On the **Start** menu, click **Run**.</span></span>  
   
-2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
+2.  <span data-ttu-id="d1cef-109">En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-109">In the **Run** dialog box, type **cmd**, and then click **OK**.</span></span>  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  <span data-ttu-id="d1cef-110">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="d1cef-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="d1cef-111">El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="d1cef-111">The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  Tipo de **ssomanage-habilitar** y presione ENTRAR.  
+4.  <span data-ttu-id="d1cef-112">Tipo de **ssomanage-habilitar** y presione ENTRAR.</span><span class="sxs-lookup"><span data-stu-id="d1cef-112">Type **ssomanage -enable** and press Enter.</span></span>  
   
-### <a name="to-disable-sso-features-using-the-command-line"></a>Para deshabilitar las características de SSO utilizando la línea de comandos  
+### <a name="to-disable-sso-features-using-the-command-line"></a><span data-ttu-id="d1cef-113">Para deshabilitar las características de SSO utilizando la línea de comandos</span><span class="sxs-lookup"><span data-stu-id="d1cef-113">To disable SSO features using the command line</span></span>  
   
-1.  En el menú **Inicio** , haga clic en **Ejecutar**.  
+1.  <span data-ttu-id="d1cef-114">En el menú **Inicio** , haga clic en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-114">On the **Start** menu, click **Run**.</span></span>  
   
-2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
+2.  <span data-ttu-id="d1cef-115">En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-115">In the **Run** dialog box, type **cmd**, and then click **OK**.</span></span>  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  <span data-ttu-id="d1cef-116">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="d1cef-116">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="d1cef-117">El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="d1cef-117">The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  Tipo de **ssomanage-deshabilitar** y presione ENTRAR.  
+4.  <span data-ttu-id="d1cef-118">Tipo de **ssomanage-deshabilitar** y presione ENTRAR.</span><span class="sxs-lookup"><span data-stu-id="d1cef-118">Type **ssomanage -disable** and press Enter.</span></span>  
   
-### <a name="to-display-current-database-settings-using-the-command-line"></a>Para mostrar la configuración de la base de datos utilizando la línea de comandos  
+### <a name="to-display-current-database-settings-using-the-command-line"></a><span data-ttu-id="d1cef-119">Para mostrar la configuración de la base de datos utilizando la línea de comandos</span><span class="sxs-lookup"><span data-stu-id="d1cef-119">To display current database settings using the command line</span></span>  
   
-1.  En el menú **Inicio** , haga clic en **Ejecutar**.  
+1.  <span data-ttu-id="d1cef-120">En el menú **Inicio** , haga clic en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-120">On the **Start** menu, click **Run**.</span></span>  
   
-2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
+2.  <span data-ttu-id="d1cef-121">En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d1cef-121">In the **Run** dialog box, type **cmd**, and then click **OK**.</span></span>  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  <span data-ttu-id="d1cef-122">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="d1cef-122">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="d1cef-123">El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="d1cef-123">The default is \<drive>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  Tipo de **ssomanage - displaydb** y presione ENTRAR.  
+4.  <span data-ttu-id="d1cef-124">Tipo de **ssomanage - displaydb** y presione ENTRAR.</span><span class="sxs-lookup"><span data-stu-id="d1cef-124">Type **ssomanage -displaydb** and press Enter.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Sincronización de contraseña](../core/password-synchronization2.md)
+## <a name="see-also"></a><span data-ttu-id="d1cef-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="d1cef-125">See Also</span></span>  
+ [<span data-ttu-id="d1cef-126">Sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="d1cef-126">Password Synchronization</span></span>](../core/password-synchronization2.md)

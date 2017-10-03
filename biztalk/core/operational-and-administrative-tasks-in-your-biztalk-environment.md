@@ -22,15 +22,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a>Tareas administrativas y operativas en su entorno de BizTalk
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] incluye nuevas funciones que convierten la administración de BizTalk Server en una tarea más rápida y sencilla que en las versiones anteriores. Esta sección proporciona información acerca de la administración de BizTalk Server.  
+# <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a><span data-ttu-id="e2551-102">Tareas administrativas y operativas en su entorno de BizTalk</span><span class="sxs-lookup"><span data-stu-id="e2551-102">Operational and administrative tasks in your BizTalk environment</span></span>
+[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]<span data-ttu-id="e2551-103"> incluye nuevas funciones que convierten la administración de BizTalk Server en una tarea más rápida y sencilla que en las versiones anteriores.</span><span class="sxs-lookup"><span data-stu-id="e2551-103"> includes new features that make administering BizTalk Server quicker and easier than in previous releases of BizTalk Server.</span></span> <span data-ttu-id="e2551-104">Esta sección proporciona información acerca de la administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="e2551-104">This section provides information about administering BizTalk Server.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="e2551-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="e2551-105">In This Section</span></span>  
   
--   [Administración de BizTalk Server](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)  
+-   [<span data-ttu-id="e2551-106">Administración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e2551-106">Managing BizTalk Server</span></span>](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)  
   
--   [Supervisión de BizTalk Server](../core/monitoring-biztalk-server.md)  
+-   [<span data-ttu-id="e2551-107">Supervisión de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e2551-107">Monitoring BizTalk Server</span></span>](../core/monitoring-biztalk-server.md)  
   
--   [Proteger el servidor BizTalk Server](../core/securing-biztalk-server.md)  
+-   [<span data-ttu-id="e2551-108">Proteger el servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e2551-108">Securing BizTalk Server</span></span>](../core/securing-biztalk-server.md)  
   
--   [Mantener BizTalk Server1](../core/maintaining-biztalk-server1.md)
+-   [<span data-ttu-id="e2551-109">Mantener BizTalk Server1</span><span class="sxs-lookup"><span data-stu-id="e2551-109">Maintaining BizTalk Server1</span></span>](../core/maintaining-biztalk-server1.md)

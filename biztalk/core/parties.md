@@ -21,8 +21,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="parties"></a>Entidades
-Una entidad, o unidad de organización, representa una entidad externa a BizTalk Server que interactúa con una orquestación. En BizTalk Server, cada organización con la que intercambia mensajes está representada por una entidad. Es necesario dar de alta una entidad en una función para definir cómo interactúa.  
+# <a name="parties"></a><span data-ttu-id="34e1c-102">Entidades</span><span class="sxs-lookup"><span data-stu-id="34e1c-102">Parties</span></span>
+<span data-ttu-id="34e1c-103">Una entidad, o unidad de organización, representa una entidad externa a BizTalk Server que interactúa con una orquestación.</span><span class="sxs-lookup"><span data-stu-id="34e1c-103">A party, or organizational unit, represents an entity outside of BizTalk Server that interacts with an orchestration.</span></span> <span data-ttu-id="34e1c-104">En BizTalk Server, cada organización con la que intercambia mensajes está representada por una entidad.</span><span class="sxs-lookup"><span data-stu-id="34e1c-104">In BizTalk Server, each organization with which you exchange messages is represented by a party.</span></span> <span data-ttu-id="34e1c-105">Es necesario dar de alta una entidad en una función para definir cómo interactúa.</span><span class="sxs-lookup"><span data-stu-id="34e1c-105">You can define how the party interacts by enlisting it in a role.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Artefactos](../core/artifacts.md)
+## <a name="see-also"></a><span data-ttu-id="34e1c-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="34e1c-106">See Also</span></span>  
+ [<span data-ttu-id="34e1c-107">Artefactos</span><span class="sxs-lookup"><span data-stu-id="34e1c-107">Artifacts</span></span>](../core/artifacts.md)

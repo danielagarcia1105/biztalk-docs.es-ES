@@ -19,24 +19,24 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edifact-transaction-set-is-suspended-error-and-details"></a>Conjunto de transacciones de EDIFACT es detalles y error suspendido
+# <a name="edifact-transaction-set-is-suspended-error-and-details"></a><span data-ttu-id="d781c-104">Conjunto de transacciones de EDIFACT es detalles y error suspendido</span><span class="sxs-lookup"><span data-stu-id="d781c-104">Edifact transaction set is suspended error and details</span></span>
 
 `Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors`
 
-## <a name="details"></a>Detalles  
+## <a name="details"></a><span data-ttu-id="d781c-105">Detalles</span><span class="sxs-lookup"><span data-stu-id="d781c-105">Details</span></span>  
   
 |||  
 |---|---|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|EfactTransactionSetSendErrorWithoutGroup|  
-|Texto del mensaje|Error durante la serialización. El conjunto de transacciones con identificador '{0}' contenido en el intercambio (sin grupo) con Id. '{1}', Id. de remitente '{2}', Id. de destinatario '{3}' se está suspendiendo por los siguientes errores:|  
+|<span data-ttu-id="d781c-106">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="d781c-106">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="d781c-107">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="d781c-107">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="d781c-108">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="d781c-108">Event ID</span></span>|-|  
+|<span data-ttu-id="d781c-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="d781c-109">Event Source</span></span>|<span data-ttu-id="d781c-110">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="d781c-110">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
+|<span data-ttu-id="d781c-111">Componente</span><span class="sxs-lookup"><span data-stu-id="d781c-111">Component</span></span>|<span data-ttu-id="d781c-112">Motor EDI</span><span class="sxs-lookup"><span data-stu-id="d781c-112">EDI Engine</span></span>|  
+|<span data-ttu-id="d781c-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="d781c-113">Symbolic Name</span></span>|<span data-ttu-id="d781c-114">EfactTransactionSetSendErrorWithoutGroup</span><span class="sxs-lookup"><span data-stu-id="d781c-114">EfactTransactionSetSendErrorWithoutGroup</span></span>|  
+|<span data-ttu-id="d781c-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="d781c-115">Message Text</span></span>|<span data-ttu-id="d781c-116">Error durante la serialización.</span><span class="sxs-lookup"><span data-stu-id="d781c-116">Error encountered during serialization.</span></span> <span data-ttu-id="d781c-117">El conjunto de transacciones con identificador '{0}' contenido en el intercambio (sin grupo) con Id. '{1}', Id. de remitente '{2}', Id. de destinatario '{3}' se está suspendiendo por los siguientes errores:</span><span class="sxs-lookup"><span data-stu-id="d781c-117">The Edifact transaction set with id '{0}' contained in interchange (without group)  with id '{1}', with sender id '{2}', receiver id '{3}' is being suspended with following errors:</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este evento de error,  indica que la canalización de envío EDI encontró un error al serializar un intercambio EDIFACT saliente debido a los errores indicados con el conjunto de transacciones identificado. Tenga en cuenta que el conjunto de transacciones no se encuentra en un grupo en el intercambio.  
+## <a name="explanation"></a><span data-ttu-id="d781c-118">Explicación</span><span class="sxs-lookup"><span data-stu-id="d781c-118">Explanation</span></span>  
+ <span data-ttu-id="d781c-119">Este evento de error,  indica que la canalización de envío EDI encontró un error al serializar un intercambio EDIFACT saliente debido a los errores indicados con el conjunto de transacciones identificado.</span><span class="sxs-lookup"><span data-stu-id="d781c-119">This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing an outgoing EDIFACT interchange because of the stated errors with the identified transaction set.</span></span> <span data-ttu-id="d781c-120">Tenga en cuenta que el conjunto de transacciones no se encuentra en un grupo en el intercambio.</span><span class="sxs-lookup"><span data-stu-id="d781c-120">Note that the transaction set is not in a group in the interchange.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Para resolver este error, use la información en el mensaje de error para identificar el error en el conjunto de transacciones y, a continuación, determine la resolución del problema.
+## <a name="user-action"></a><span data-ttu-id="d781c-121">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="d781c-121">User Action</span></span>  
+ <span data-ttu-id="d781c-122">Para resolver este error, use la información en el mensaje de error para identificar el error en el conjunto de transacciones y, a continuación, determine la resolución del problema.</span><span class="sxs-lookup"><span data-stu-id="d781c-122">To resolve this error, use the information in the error message to identify the error in the transaction set and then determine the problem resolution.</span></span>

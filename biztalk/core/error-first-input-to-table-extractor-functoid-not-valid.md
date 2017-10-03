@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---first-input-to-table-extractor-functoid-not-valid"></a>Error: primera entrada de Functoid de Extractor de tablas no válida
-**Código de error**  
+# <a name="error---first-input-to-table-extractor-functoid-not-valid"></a><span data-ttu-id="3f30a-102">Error: primera entrada de Functoid de Extractor de tablas no válida</span><span class="sxs-lookup"><span data-stu-id="3f30a-102">Error - First Input to Table Extractor Functoid Not Valid</span></span>
+<span data-ttu-id="3f30a-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="3f30a-103">**Error Code**</span></span>  
   
- btm1019  
+ <span data-ttu-id="3f30a-104">btm1019</span><span class="sxs-lookup"><span data-stu-id="3f30a-104">btm1019</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="3f30a-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="3f30a-105">**Explanation**</span></span>  
   
- El primer parámetro de entrada para el functoid **Extractor de tablas** functoid no es un vínculo de un **bucle de tabla** functoid, según sea necesario.  
+ <span data-ttu-id="3f30a-106">El primer parámetro de entrada para el functoid **Extractor de tablas** functoid no es un vínculo de un **bucle de tabla** functoid, según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="3f30a-106">The first input parameter to the indicated **Table Extractor** functoid is not a link from a **Table Looping** functoid, as required.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="3f30a-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="3f30a-107">**User Action**</span></span>  
   
- Crear un vínculo entre el functoid **Extractor de tablas** functoid y los respectivos **bucle de tabla** functoid arrastrando uno de ellos al otro. El primer functoid debe estar ubicado a la derecha del segundo en una página de cuadrícula de asignación. Además, al usar el **configurar \<Functoid > Functoid** diálogo cuadro, asegúrese de que el vínculo recién creado es el primer parámetro de entrada para el functoid **Extractor de tablas** functoid.
+ <span data-ttu-id="3f30a-108">Crear un vínculo entre el functoid **Extractor de tablas** functoid y los respectivos **bucle de tabla** functoid arrastrando uno de ellos al otro.</span><span class="sxs-lookup"><span data-stu-id="3f30a-108">Create a link between the indicated **Table Extractor** functoid and the appropriate **Table Looping** functoid by dragging one of them to the other.</span></span> <span data-ttu-id="3f30a-109">El primer functoid debe estar ubicado a la derecha del segundo en una página de cuadrícula de asignación.</span><span class="sxs-lookup"><span data-stu-id="3f30a-109">The former functoid must be located to the right of the latter functoid in a map grid page.</span></span> <span data-ttu-id="3f30a-110">Además, al usar el **configurar \<Functoid > Functoid** diálogo cuadro, asegúrese de que el vínculo recién creado es el primer parámetro de entrada para el functoid **Extractor de tablas** functoid.</span><span class="sxs-lookup"><span data-stu-id="3f30a-110">Also, using the **Configure \<Functoid> Functoid** dialog box, ensure that the newly created link is the first input parameter to the indicated **Table Extractor** functoid.</span></span>

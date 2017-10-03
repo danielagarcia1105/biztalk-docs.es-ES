@@ -21,10 +21,10 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="completing-the-exception-message"></a>Completar el mensaje de excepción
-### <a name="to-complete-the-exception-message"></a>Procedimiento para completar el mensaje de excepción  
+# <a name="completing-the-exception-message"></a><span data-ttu-id="71ae1-102">Completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="71ae1-102">Completing the Exception Message</span></span>
+### <a name="to-complete-the-exception-message"></a><span data-ttu-id="71ae1-103">Procedimiento para completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="71ae1-103">To complete the exception message</span></span>  
   
--   Para completar el flujo de excepción, agregue una forma de envío para colocar el Message_3 de error en una carpeta supervisada.  
+-   <span data-ttu-id="71ae1-104">Para completar el flujo de excepción, agregue una forma de envío para colocar el Message_3 de error en una carpeta supervisada.</span><span class="sxs-lookup"><span data-stu-id="71ae1-104">To complete the exception flow, add a Send shape to put the fault Message_3 into a monitored folder.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Uso de control de excepciones de servidor BizTalk Server](../core/using-biztalk-server-exception-handling5.md)
+## <a name="see-also"></a><span data-ttu-id="71ae1-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="71ae1-105">See Also</span></span>  
+ [<span data-ttu-id="71ae1-106">Uso de control de excepciones de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="71ae1-106">Using BizTalk Server Exception Handling</span></span>](../core/using-biztalk-server-exception-handling5.md)

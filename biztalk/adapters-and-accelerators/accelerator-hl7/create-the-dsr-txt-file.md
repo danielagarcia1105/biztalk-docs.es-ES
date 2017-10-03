@@ -18,12 +18,12 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="create-the-dsrtxt-file"></a>Crear el archivo DSR.txt
-Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta DSR.txt. Más adelante usará este archivo para comprobar el escenario del tutorial.  
+# <a name="create-the-dsrtxt-file"></a><span data-ttu-id="d2f15-102">Crear el archivo DSR.txt</span><span class="sxs-lookup"><span data-stu-id="d2f15-102">Create the DSR.txt File</span></span>
+<span data-ttu-id="d2f15-103">Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta DSR.txt.</span><span class="sxs-lookup"><span data-stu-id="d2f15-103">Use the following procedure to create the response DSR.txt message file.</span></span> <span data-ttu-id="d2f15-104">Más adelante usará este archivo para comprobar el escenario del tutorial.</span><span class="sxs-lookup"><span data-stu-id="d2f15-104">You will use this file later to verify the tutorial scenario.</span></span>  
   
-### <a name="to-create-the-dsrtxt-file"></a>Para crear el archivo DSR.txt  
+### <a name="to-create-the-dsrtxt-file"></a><span data-ttu-id="d2f15-105">Para crear el archivo DSR.txt</span><span class="sxs-lookup"><span data-stu-id="d2f15-105">To create the DSR.txt file</span></span>  
   
-1.  Abra un editor, como el Bloc de notas y copie el texto siguiente en el editor:  
+1.  <span data-ttu-id="d2f15-106">Abra un editor, como el Bloc de notas y copie el texto siguiente en el editor:</span><span class="sxs-lookup"><span data-stu-id="d2f15-106">Open an editor, such as Notepad, and copy the following text into the editor:</span></span>  
   
     ```  
     MSH|^~\&|HIS||ADT||19990505||DSR^Q01|ZXT23469|P|2.4  
@@ -39,6 +39,6 @@ Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta
     DSP|||CO2 25 [20-30] MEQ/L STAT|LB  
     ```  
   
-2.  Guarde el archivo como **DSR.txt** en el \< *unidad*: > \Program BizTalk \<versión > Accelerator for carpeta HL7\SDK\Interrogative Tutorial y, a continuación, cierre el editor.  
+2.  <span data-ttu-id="d2f15-107">Guarde el archivo como **DSR.txt** en el \< *unidad*: > \Program BizTalk \<versión > Accelerator for carpeta HL7\SDK\Interrogative Tutorial y, a continuación, cierre el editor.</span><span class="sxs-lookup"><span data-stu-id="d2f15-107">Save the file as **DSR.txt** in the \<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial folder, and then close the editor.</span></span>  
   
- Continúe con [paso 1: crear e implementar encabezado común y esquemas de confirmación](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md).
+ <span data-ttu-id="d2f15-108">Continúe con [paso 1: crear e implementar encabezado común y esquemas de confirmación](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md).</span><span class="sxs-lookup"><span data-stu-id="d2f15-108">Proceed to [Step 1: Create and Deploy Common Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md).</span></span>

@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---root-node-duplicate-class-name"></a>Error: nombre de clase duplicado de nodo raíz
-**Código de error**  
+# <a name="error---root-node-duplicate-class-name"></a><span data-ttu-id="088d1-102">Error: nombre de clase duplicado de nodo raíz</span><span class="sxs-lookup"><span data-stu-id="088d1-102">Error - Root Node Duplicate Class Name</span></span>
+<span data-ttu-id="088d1-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="088d1-103">**Error Code**</span></span>  
   
- BEC2013  
+ <span data-ttu-id="088d1-104">BEC2013</span><span class="sxs-lookup"><span data-stu-id="088d1-104">BEC2013</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="088d1-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="088d1-105">**Explanation**</span></span>  
   
- El **RootNode TypeName** propiedad de todos los nodos raíz en un esquema debe ser único. Dos o más de los nodos raíz de este esquema se ha observado tienen el mismo valor para sus **RootNode TypeName** propiedades.  
+ <span data-ttu-id="088d1-106">El **RootNode TypeName** propiedad de todos los nodos raíz en un esquema debe ser único.</span><span class="sxs-lookup"><span data-stu-id="088d1-106">The **RootNode TypeName** property of all of the root nodes in a schema must be unique.</span></span> <span data-ttu-id="088d1-107">Dos o más de los nodos raíz de este esquema se ha observado tienen el mismo valor para sus **RootNode TypeName** propiedades.</span><span class="sxs-lookup"><span data-stu-id="088d1-107">Two or more of the root nodes in this schema have been found to have the same value for their **RootNode TypeName** properties.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="088d1-108">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="088d1-108">**User Action**</span></span>  
   
- Seleccione los nodos raíz correspondientes a su vez, lo que asegura que los valores que proporcione para sus **RootNode TypeName** propiedades son válidos y únicos.
+ <span data-ttu-id="088d1-109">Seleccione los nodos raíz correspondientes a su vez, lo que asegura que los valores que proporcione para sus **RootNode TypeName** propiedades son válidos y únicos.</span><span class="sxs-lookup"><span data-stu-id="088d1-109">Select the relevant root nodes in turn, ensuring that the values you supply for their **RootNode TypeName** properties are valid and unique.</span></span>

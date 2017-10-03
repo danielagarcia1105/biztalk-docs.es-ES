@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---no-script-type-for-scripting-functoid"></a>Error: ningún tipo de secuencia de comandos para el Functoid de secuencias de comandos
-**Código de error**  
+# <a name="error---no-script-type-for-scripting-functoid"></a><span data-ttu-id="f81aa-102">Error: ningún tipo de secuencia de comandos para el Functoid de secuencias de comandos</span><span class="sxs-lookup"><span data-stu-id="f81aa-102">Error - No Script Type for Scripting Functoid</span></span>
+<span data-ttu-id="f81aa-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="f81aa-103">**Error Code**</span></span>  
   
- btm1003  
+ <span data-ttu-id="f81aa-104">btm1003</span><span class="sxs-lookup"><span data-stu-id="f81aa-104">btm1003</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="f81aa-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="f81aa-105">**Explanation**</span></span>  
   
- El **tipo de secuencia de comandos** propiedad del functoid **secuencias de comandos** indicado no se ha establecido.  
+ <span data-ttu-id="f81aa-106">El **tipo de secuencia de comandos** propiedad del functoid **secuencias de comandos** indicado no se ha establecido.</span><span class="sxs-lookup"><span data-stu-id="f81aa-106">The **Script Type** property of the indicated **Scripting** functoid has not been set.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="f81aa-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="f81aa-107">**User Action**</span></span>  
   
- Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **Script** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, establezca los valores correspondientes el **Configurar secuencia de comandos de Functoid** cuadro de diálogo, incluido el **tipo de secuencia de comandos** propiedad.
+ <span data-ttu-id="f81aa-108">Seleccione el functoid **secuencias de comandos** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **Script** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, establezca los valores correspondientes el **Configurar secuencia de comandos de Functoid** cuadro de diálogo, incluido el **tipo de secuencia de comandos** propiedad.</span><span class="sxs-lookup"><span data-stu-id="f81aa-108">Select the indicated **Scripting** functoid, click the ellipsis (**...**) button associated with the **Script** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then set the appropriate values in the **Configure Functoid Script** dialog box, including the **Script Type** property.</span></span>

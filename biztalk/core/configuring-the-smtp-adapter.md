@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-smtp-adapter"></a>Configurar el adaptador de SMTP
-En esta sección se explica cómo configurar un adaptador de SMTP.  
+# <a name="configuring-the-smtp-adapter"></a><span data-ttu-id="18ed7-102">Configurar el adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="18ed7-102">Configuring the SMTP Adapter</span></span>
+<span data-ttu-id="18ed7-103">En esta sección se explica cómo configurar un adaptador de SMTP.</span><span class="sxs-lookup"><span data-stu-id="18ed7-103">This section describes how to configure an SMTP adapter.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="18ed7-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="18ed7-104">In This Section</span></span>  
   
--   [Cómo configurar un controlador de envío de SMTP](../core/how-to-configure-an-smtp-send-handler.md)  
+-   [<span data-ttu-id="18ed7-105">Cómo configurar un controlador de envío de SMTP</span><span class="sxs-lookup"><span data-stu-id="18ed7-105">How to Configure an SMTP Send Handler</span></span>](../core/how-to-configure-an-smtp-send-handler.md)  
   
--   [Cómo configurar un puerto de envío de SMTP](../core/how-to-configure-an-smtp-send-port.md)  
+-   [<span data-ttu-id="18ed7-106">Cómo configurar un puerto de envío de SMTP</span><span class="sxs-lookup"><span data-stu-id="18ed7-106">How to Configure an SMTP Send Port</span></span>](../core/how-to-configure-an-smtp-send-port.md)  
   
--   [Propiedades y esquema de propiedades de adaptador de SMTP](../core/smtp-adapter-property-schema-and-properties.md)
+-   [<span data-ttu-id="18ed7-107">Propiedades y esquema de propiedades de adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="18ed7-107">SMTP Adapter Property Schema and Properties</span></span>](../core/smtp-adapter-property-schema-and-properties.md)

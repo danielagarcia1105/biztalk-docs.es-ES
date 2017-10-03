@@ -25,19 +25,19 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="implementing-enterprise-single-sign-on"></a>Implementar el inicio de sesión único empresarial
-El inicio de sesión único (SSO) empresarial proporciona servicios para permitir que los usuarios finales utilicen el inicio de sesión único para las soluciones de integración de aplicaciones de negocio (EAI). El sistema de SSO asigna cuentas de Microsoft Windows a credenciales de servidor. SSO simplifica la administración de contraseñas e Id. de usuario, tanto para usuarios como para administradores. Permite el acceso de los usuarios a las aplicaciones y los sistemas de servidor iniciando sesión sólo una vez en la red de Windows.  
+# <a name="implementing-enterprise-single-sign-on"></a><span data-ttu-id="c033f-102">Implementar el inicio de sesión único empresarial</span><span class="sxs-lookup"><span data-stu-id="c033f-102">Implementing Enterprise Single Sign-On</span></span>
+<span data-ttu-id="c033f-103">El inicio de sesión único (SSO) empresarial proporciona servicios para permitir que los usuarios finales utilicen el inicio de sesión único para las soluciones de integración de aplicaciones de negocio (EAI).</span><span class="sxs-lookup"><span data-stu-id="c033f-103">Enterprise Single Sign-On (SSO) provides services to enable single sign-on to end users for enterprise application integration (EAI) solutions.</span></span> <span data-ttu-id="c033f-104">El sistema de SSO asigna cuentas de Microsoft Windows a credenciales de servidor.</span><span class="sxs-lookup"><span data-stu-id="c033f-104">The SSO system maps Microsoft Windows accounts to back-end credentials.</span></span> <span data-ttu-id="c033f-105">SSO simplifica la administración de contraseñas e Id. de usuario, tanto para usuarios como para administradores.</span><span class="sxs-lookup"><span data-stu-id="c033f-105">SSO simplifies the management of user IDs and passwords, both for users and administrators.</span></span> <span data-ttu-id="c033f-106">Permite el acceso de los usuarios a las aplicaciones y los sistemas de servidor iniciando sesión sólo una vez en la red de Windows.</span><span class="sxs-lookup"><span data-stu-id="c033f-106">It enables users to access back-end systems and applications by logging on only once to the Windows network.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="c033f-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c033f-107">In This Section</span></span>  
   
--   [Entendiendo SSO](../core/understanding-sso.md)  
+-   [<span data-ttu-id="c033f-108">Entendiendo SSO</span><span class="sxs-lookup"><span data-stu-id="c033f-108">Understanding SSO</span></span>](../core/understanding-sso.md)  
   
--   [Instalación de SSO](../core/installing-sso.md)  
+-   [<span data-ttu-id="c033f-109">Instalación de SSO</span><span class="sxs-lookup"><span data-stu-id="c033f-109">Installing SSO</span></span>](../core/installing-sso.md)  
   
--   [Uso de SSO](../core/using-sso.md)  
+-   [<span data-ttu-id="c033f-110">Uso de SSO</span><span class="sxs-lookup"><span data-stu-id="c033f-110">Using SSO</span></span>](../core/using-sso.md)  
   
--   [Proteger la implementación de SSO](../core/securing-your-deployment-of-sso.md)  
+-   [<span data-ttu-id="c033f-111">Proteger la implementación de SSO</span><span class="sxs-lookup"><span data-stu-id="c033f-111">Securing Your Deployment of SSO</span></span>](../core/securing-your-deployment-of-sso.md)  
   
--   [Sincronización de contraseña](../core/password-synchronization2.md)  
+-   [<span data-ttu-id="c033f-112">Sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="c033f-112">Password Synchronization</span></span>](../core/password-synchronization2.md)  
   
--   [Recomendaciones de seguridad SSO](../core/sso-security-recommendations.md)
+-   [<span data-ttu-id="c033f-113">Recomendaciones de seguridad SSO</span><span class="sxs-lookup"><span data-stu-id="c033f-113">SSO Security Recommendations</span></span>](../core/sso-security-recommendations.md)

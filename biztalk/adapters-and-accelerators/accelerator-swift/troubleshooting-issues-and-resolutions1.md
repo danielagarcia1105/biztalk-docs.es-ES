@@ -21,17 +21,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="troubleshooting-issues-and-resolutions"></a>Solución de problemas: Problemas y soluciones
-Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Cada problema detalla un síntoma específico, una posible causa y una solución.  
+# <a name="troubleshooting-issues-and-resolutions"></a><span data-ttu-id="abf43-102">Solución de problemas: Problemas y soluciones</span><span class="sxs-lookup"><span data-stu-id="abf43-102">Troubleshooting: Issues and Resolutions</span></span>
+<span data-ttu-id="abf43-103">Este tema tratan los problemas relacionados con la ejecución [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="abf43-103">This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="abf43-104">Cada problema detalla un síntoma específico, una posible causa y una solución.</span><span class="sxs-lookup"><span data-stu-id="abf43-104">Each issue details a specific symptom, a possible cause, and a solution.</span></span>  
   
- Los problemas y soluciones se agrupan en las siguientes áreas:  
+ <span data-ttu-id="abf43-105">Los problemas y soluciones se agrupan en las siguientes áreas:</span><span class="sxs-lookup"><span data-stu-id="abf43-105">The issues and resolutions are grouped into the following areas:</span></span>  
   
--   [Instalación y solución de problemas de configuración](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
+-   [<span data-ttu-id="abf43-106">Instalación y solución de problemas de configuración</span><span class="sxs-lookup"><span data-stu-id="abf43-106">Installation and Configuration Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
   
--   [Solución de problemas de actualización y migración](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
+-   [<span data-ttu-id="abf43-107">Solución de problemas de actualización y migración</span><span class="sxs-lookup"><span data-stu-id="abf43-107">Migration and Upgrade Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
   
--   [Reparación de mensajes y solución de problemas de envío nuevo](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
+-   [<span data-ttu-id="abf43-108">Reparación de mensajes y solución de problemas de envío nuevo</span><span class="sxs-lookup"><span data-stu-id="abf43-108">Message Repair and New Submission Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
   
--   [Respuesta FIN conciliación solucionar problemas](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
+-   [<span data-ttu-id="abf43-109">Respuesta FIN conciliación solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="abf43-109">FIN Response Reconciliation Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
   
--   [Solución de problemas de varios](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)
+-   [<span data-ttu-id="abf43-110">Solución de problemas de varios</span><span class="sxs-lookup"><span data-stu-id="abf43-110">Miscellaneous Troubleshooting</span></span>](../../adapters-and-accelerators/accelerator-swift/miscellaneous-troubleshooting.md)

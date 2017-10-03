@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="information---display-extension-xml-file"></a>Información: Mostrar archivo XML de extensión
-**Código de error**  
+# <a name="information---display-extension-xml-file"></a><span data-ttu-id="63f65-102">Información: Mostrar archivo XML de extensión</span><span class="sxs-lookup"><span data-stu-id="63f65-102">Information - Display Extension XML File</span></span>
+<span data-ttu-id="63f65-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="63f65-103">**Error Code**</span></span>  
   
- btm1057  
+ <span data-ttu-id="63f65-104">btm1057</span><span class="sxs-lookup"><span data-stu-id="63f65-104">btm1057</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="63f65-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="63f65-105">**Explanation**</span></span>  
   
- El XML asociado al objeto de extensión se almacena en el archivo indicado.  
+ <span data-ttu-id="63f65-106">El XML asociado al objeto de extensión se almacena en el archivo indicado.</span><span class="sxs-lookup"><span data-stu-id="63f65-106">The XML associated with the Extension Object is stored in the indicated file.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="63f65-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="63f65-107">**User Action**</span></span>  
   
- Puede obtener acceso a la extensión XML resultante, lo que proporciona el prefijo a la asignación del nombre de ensamblado, mediante el vínculo proporcionado.
+ <span data-ttu-id="63f65-108">Puede obtener acceso a la extensión XML resultante, lo que proporciona el prefijo a la asignación del nombre de ensamblado, mediante el vínculo proporcionado.</span><span class="sxs-lookup"><span data-stu-id="63f65-108">You can access the resulting Extension XML, which provides the prefix to assembly name mapping, using the provided link.</span></span>

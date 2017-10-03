@@ -21,7 +21,7 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="oracle-e-business-suite-odbc-adapter"></a>Adaptador ODBC para Oracle E-Business Suite
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ya no es compatible con el adaptador ODBC para Oracle E-Business Suite. Se recomienda usar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] para lograr la misma funcionalidad.  
+# <a name="oracle-e-business-suite-odbc-adapter"></a><span data-ttu-id="3eeeb-102">Adaptador ODBC para Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="3eeeb-102">Oracle E-Business Suite ODBC Adapter</span></span>
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="3eeeb-103"> ya no es compatible con el adaptador ODBC para Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="3eeeb-103"> no longer supports the Oracle E-Business Suite ODBC Adapter.</span></span> <span data-ttu-id="3eeeb-104">Se recomienda usar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] para lograr la misma funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="3eeeb-104">We recommend you use Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] to achieve the same functionality.</span></span>  
   
- Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).
+ <span data-ttu-id="3eeeb-105">Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span><span class="sxs-lookup"><span data-stu-id="3eeeb-105">For more information, see [Microsoft BizTalk Adapter Pack Help](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span></span>

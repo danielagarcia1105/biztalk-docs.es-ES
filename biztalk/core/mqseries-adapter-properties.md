@@ -35,45 +35,45 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="mqseries-adapter-properties"></a>Propiedades del adaptador de MQSeries
-Para tener acceso a las propiedades de encabezado MQSeries desde una orquestación de BizTalk, se deberá agregar al proyecto una referencia al ensamblado MQSeries.dll. Este ensamblado está ubicado donde instaló el adaptador MQSeries, por ejemplo, [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
+# <a name="mqseries-adapter-properties"></a><span data-ttu-id="f0ad3-102">Propiedades del adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="f0ad3-102">MQSeries Adapter Properties</span></span>
+<span data-ttu-id="f0ad3-103">Para tener acceso a las propiedades de encabezado MQSeries desde una orquestación de BizTalk, se deberá agregar al proyecto una referencia al ensamblado MQSeries.dll.</span><span class="sxs-lookup"><span data-stu-id="f0ad3-103">To access MQSeries header properties from a BizTalk orchestration, you must add a reference to the MQSeries.dll assembly to your project.</span></span> <span data-ttu-id="f0ad3-104">Este ensamblado está ubicado donde instaló el adaptador MQSeries, por ejemplo, [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f0ad3-104">This assembly is located where you installed the MQSeries adapter, for example, [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].</span></span>  
   
- Tras hacer referencia el esquema de propiedades de MQSeries, propiedades de contexto adicionales están disponibles para varias herramientas de desarrollo de BizTalk Server (por ejemplo, el **asignación de mensajes** forma en el Diseñador de orquestaciones).  
+ <span data-ttu-id="f0ad3-105">Tras hacer referencia el esquema de propiedades de MQSeries, propiedades de contexto adicionales están disponibles para varias herramientas de desarrollo de BizTalk Server (por ejemplo, el **asignación de mensajes** forma en el Diseñador de orquestaciones).</span><span class="sxs-lookup"><span data-stu-id="f0ad3-105">After you reference the MQSeries property schema, additional context properties are available to various BizTalk Server development tools (for example, the **Message Assignment** shape in Orchestration Designer).</span></span>  
   
 > [!NOTE]
->  Cuando trabaje con propiedades de encabezado MQSeries, no olvide seguir las directrices descritas en la documentación de IBM WebSphere MQ.  
+>  <span data-ttu-id="f0ad3-106">Cuando trabaje con propiedades de encabezado MQSeries, no olvide seguir las directrices descritas en la documentación de IBM WebSphere MQ.</span><span class="sxs-lookup"><span data-stu-id="f0ad3-106">Make sure that you follow the guidelines in the IBM WebSphere MQ documentation when you work with MQSeries header properties.</span></span>  
   
- El adaptador promociona automáticamente algunas propiedades de MQSeries. Las aplicaciones y componentes personalizados deben evitar degradar estas propiedades. Puede promocionar propiedades adicionales utilizando componentes de canalización personalizados. Las propiedades que se promocionan automáticamente son las siguientes:  
+ <span data-ttu-id="f0ad3-107">El adaptador promociona automáticamente algunas propiedades de MQSeries.</span><span class="sxs-lookup"><span data-stu-id="f0ad3-107">The adapter automatically promotes some MQSeries properties.</span></span> <span data-ttu-id="f0ad3-108">Las aplicaciones y componentes personalizados deben evitar degradar estas propiedades.</span><span class="sxs-lookup"><span data-stu-id="f0ad3-108">Your applications and custom components must avoid demoting these properties.</span></span> <span data-ttu-id="f0ad3-109">Puede promocionar propiedades adicionales utilizando componentes de canalización personalizados.</span><span class="sxs-lookup"><span data-stu-id="f0ad3-109">You can promote additional properties by using custom pipeline components.</span></span> <span data-ttu-id="f0ad3-110">Las propiedades que se promocionan automáticamente son las siguientes:</span><span class="sxs-lookup"><span data-stu-id="f0ad3-110">The automatically promoted properties are as follows:</span></span>  
   
--   **BizTalk_CorrelationID**  
+-   <span data-ttu-id="f0ad3-111">**BizTalk_CorrelationID**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-111">**BizTalk_CorrelationID**</span></span>  
   
--   **MQMD_CorrelId**  
+-   <span data-ttu-id="f0ad3-112">**MQMD_CorrelId**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-112">**MQMD_CorrelId**</span></span>  
   
--   **MQMD_MsgId**  
+-   <span data-ttu-id="f0ad3-113">**MQMD_MsgId**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-113">**MQMD_MsgId**</span></span>  
   
--   **MQMD_ReplyToQ**  
+-   <span data-ttu-id="f0ad3-114">**MQMD_ReplyToQ**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-114">**MQMD_ReplyToQ**</span></span>  
   
--   **MQMD_ReplyToQMgr**  
+-   <span data-ttu-id="f0ad3-115">**MQMD_ReplyToQMgr**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-115">**MQMD_ReplyToQMgr**</span></span>  
   
--   **MQXQH_RemoteQMgrName**  
+-   <span data-ttu-id="f0ad3-116">**MQXQH_RemoteQMgrName**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-116">**MQXQH_RemoteQMgrName**</span></span>  
   
--   **MQXQH_RemoteQName**  
+-   <span data-ttu-id="f0ad3-117">**MQXQH_RemoteQName**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-117">**MQXQH_RemoteQName**</span></span>  
   
--   **MQXQH_MsgDesc_CorrelId**  
+-   <span data-ttu-id="f0ad3-118">**MQXQH_MsgDesc_CorrelId**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-118">**MQXQH_MsgDesc_CorrelId**</span></span>  
   
--   **MQXQH_MsgDesc_MsgId**  
+-   <span data-ttu-id="f0ad3-119">**MQXQH_MsgDesc_MsgId**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-119">**MQXQH_MsgDesc_MsgId**</span></span>  
   
--   **MQXQH_MsgDesc_ReplyToQ**  
+-   <span data-ttu-id="f0ad3-120">**MQXQH_MsgDesc_ReplyToQ**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-120">**MQXQH_MsgDesc_ReplyToQ**</span></span>  
   
--   **MQXQH_MsgDesc_ReplyToQMgr**  
+-   <span data-ttu-id="f0ad3-121">**MQXQH_MsgDesc_ReplyToQMgr**</span><span class="sxs-lookup"><span data-stu-id="f0ad3-121">**MQXQH_MsgDesc_ReplyToQMgr**</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f0ad3-122">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f0ad3-122">In This Section</span></span>  
   
--   [Conversión de tipos de datos de propiedades](../core/data-type-conversion-of-properties.md)  
+-   [<span data-ttu-id="f0ad3-123">Conversión de tipos de datos de propiedades</span><span class="sxs-lookup"><span data-stu-id="f0ad3-123">Data Type Conversion of Properties</span></span>](../core/data-type-conversion-of-properties.md)  
   
--   [Propiedades relacionadas con BizTalk Server](../core/properties-related-to-biztalk-server.md)  
+-   [<span data-ttu-id="f0ad3-124">Propiedades relacionadas con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="f0ad3-124">Properties Related to BizTalk Server</span></span>](../core/properties-related-to-biztalk-server.md)  
   
--   [Propiedades de contexto de MQSeries](../core/mqseries-context-properties.md)  
+-   [<span data-ttu-id="f0ad3-125">Propiedades de contexto de MQSeries</span><span class="sxs-lookup"><span data-stu-id="f0ad3-125">MQSeries Context Properties</span></span>](../core/mqseries-context-properties.md)  
   
-## <a name="see-also"></a>Vea también  
- [Configurar el adaptador de MQSeries](../core/configuring-the-mqseries-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="f0ad3-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="f0ad3-126">See Also</span></span>  
+ [<span data-ttu-id="f0ad3-127">Configurar el adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="f0ad3-127">Configuring the MQSeries Adapter</span></span>](../core/configuring-the-mqseries-adapter.md)

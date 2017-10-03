@@ -35,83 +35,83 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="hosts"></a>Hosts
-El objeto de host de BizTalk representa un conjunto lógico que puede contener (o no) procesos en tiempo de ejecución y en el que se pueden implementar servicios, canalizaciones y otros artefactos. Además, representa un conjunto de instancias de hosts que puede estar vacío y en el que se ejecutan físicamente los elementos implementados.  
+# <a name="hosts"></a><span data-ttu-id="6687f-102">Hosts</span><span class="sxs-lookup"><span data-stu-id="6687f-102">Hosts</span></span>
+<span data-ttu-id="6687f-103">El objeto de host de BizTalk representa un conjunto lógico que puede contener (o no) procesos en tiempo de ejecución y en el que se pueden implementar servicios, canalizaciones y otros artefactos.</span><span class="sxs-lookup"><span data-stu-id="6687f-103">The BizTalk Host object represents a logical set of zero or more runtime processes in which you can deploy services, pipelines, and other artifacts.</span></span> <span data-ttu-id="6687f-104">Además, representa un conjunto de instancias de hosts que puede estar vacío y en el que se ejecutan físicamente los elementos implementados.</span><span class="sxs-lookup"><span data-stu-id="6687f-104">The Host object also represents a collection of runtime instances (zero or more) where the deployed items physically run.</span></span>  
   
- Una vez creado un host (contenedor lógico), puede agregar servidores físicos BizTalk (instancias de host) al host. Los servidores BizTalk no se pueden agregar más de una vez en el mismo host. No obstante, una instancia de host se puede agregar a varios hosts.  
+ <span data-ttu-id="6687f-105">Una vez creado un host (contenedor lógico), puede agregar servidores físicos BizTalk (instancias de host) al host.</span><span class="sxs-lookup"><span data-stu-id="6687f-105">After you create a host (a logical container), you can add physical BizTalk servers (host instances) to the host.</span></span> <span data-ttu-id="6687f-106">Los servidores BizTalk no se pueden agregar más de una vez en el mismo host.</span><span class="sxs-lookup"><span data-stu-id="6687f-106">You cannot add a BizTalk server to the same host more than once.</span></span> <span data-ttu-id="6687f-107">No obstante, una instancia de host se puede agregar a varios hosts.</span><span class="sxs-lookup"><span data-stu-id="6687f-107">A single host instance can be added to multiple hosts.</span></span>  
   
- Elementos, como controladores de adaptador, ubicaciones de recepción (incluidas las canalizaciones) y orquestaciones, incluidos en BizTalk hosts pueden realizar las siguientes funciones:  
+ <span data-ttu-id="6687f-108">Elementos, como controladores de adaptador, ubicaciones de recepción (incluidas las canalizaciones) y orquestaciones, incluidos en BizTalk hosts pueden realizar las siguientes funciones:</span><span class="sxs-lookup"><span data-stu-id="6687f-108">Items—such as adapter handlers, receive locations (including pipelines), and orchestrations—contained in BizTalk hosts can perform the following functions:</span></span>  
   
--   **Recibir**. Estos elementos realizan el procesamiento inicial de los mensajes después de haberlos recogido en una ubicación de recepción. Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host.  
+-   <span data-ttu-id="6687f-109">**Recibir**.</span><span class="sxs-lookup"><span data-stu-id="6687f-109">**Receiving**.</span></span> <span data-ttu-id="6687f-110">Estos elementos realizan el procesamiento inicial de los mensajes después de haberlos recogido en una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="6687f-110">These items do the initial processing of messages after they are picked up in a receive location.</span></span> <span data-ttu-id="6687f-111">Cuando un host contiene un elemento de recepción, como una canalización o una ubicación de recepción, actúa como un límite de seguridad y la descodificación y descifrado de mensajes tiene lugar en una canalización del host.</span><span class="sxs-lookup"><span data-stu-id="6687f-111">When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.</span></span>  
   
--   **Enviar**. Estos elementos realizan el procesamiento final de los mensajes antes de enviarlos al puerto de envío. Cuando un host contiene un elemento de envío, como un puerto de envío o una canalización, el host actúa como un límite de seguridad, y la firma y cifrado de mensajes tiene lugar en una canalización del host.  
+-   <span data-ttu-id="6687f-112">**Enviar**.</span><span class="sxs-lookup"><span data-stu-id="6687f-112">**Sending**.</span></span> <span data-ttu-id="6687f-113">Estos elementos realizan el procesamiento final de los mensajes antes de enviarlos al puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="6687f-113">These items do the final processing of messages before they are sent out to the send port.</span></span> <span data-ttu-id="6687f-114">Cuando un host contiene un elemento de envío, como un puerto de envío o una canalización, el host actúa como un límite de seguridad, y la firma y cifrado de mensajes tiene lugar en una canalización del host.</span><span class="sxs-lookup"><span data-stu-id="6687f-114">When a host contains a sending item, such as a send port or pipeline, the host acts as a security boundary, and the message signing and encryption occurs in a pipeline within the host.</span></span>  
   
--   **Procesamiento**. Estos elementos procesan los mensajes en función de las instrucciones de una orquestación.  
+-   <span data-ttu-id="6687f-115">**Procesamiento**.</span><span class="sxs-lookup"><span data-stu-id="6687f-115">**Processing**.</span></span> <span data-ttu-id="6687f-116">Estos elementos procesan los mensajes en función de las instrucciones de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="6687f-116">These items process messages based on the instructions in an orchestration.</span></span>  
   
- Un host de BizTalk puede contener elementos que reciben, envían y procesan mensajes. Se recomienda crear diferentes hosts para cada función con el fin de crear límites de seguridad y facilitar la administración. En concreto, se recomienda utilizar hosts diferentes para operaciones de procesamiento y recepción o envío, así como separar los elementos que son de confianza de los que no lo son.  
+ <span data-ttu-id="6687f-117">Un host de BizTalk puede contener elementos que reciben, envían y procesan mensajes.</span><span class="sxs-lookup"><span data-stu-id="6687f-117">One BizTalk Host can contain items that receive, send, and process messages.</span></span> <span data-ttu-id="6687f-118">Se recomienda crear diferentes hosts para cada función con el fin de crear límites de seguridad y facilitar la administración.</span><span class="sxs-lookup"><span data-stu-id="6687f-118">It is recommended that you create different hosts for each function to create security boundaries and facilitate management.</span></span> <span data-ttu-id="6687f-119">En concreto, se recomienda utilizar hosts diferentes para operaciones de procesamiento y recepción o envío, así como separar los elementos que son de confianza de los que no lo son.</span><span class="sxs-lookup"><span data-stu-id="6687f-119">In particular, it is recommended that you use different hosts for processing and for receive/send, and that you separate trusted and non-trusted items.</span></span>  
   
- La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.  
+ <span data-ttu-id="6687f-120">La siguiente ilustración muestra la relación entre servidores, hosts e instancias de host.</span><span class="sxs-lookup"><span data-stu-id="6687f-120">The following figure shows the relationship between servers, hosts, and host instances.</span></span>  
   
- ![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")  
-Relación entre hosts, instancias de host y servidores  
+ <span data-ttu-id="6687f-121">![Hosts, instancias de host y las relaciones de servidor](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")</span><span class="sxs-lookup"><span data-stu-id="6687f-121">![Hosts, host instances, and server relationships](../core/media/ebiz-ops-adm01.gif "ebiz_ops_adm01")</span></span>  
+<span data-ttu-id="6687f-122">Relación entre hosts, instancias de host y servidores</span><span class="sxs-lookup"><span data-stu-id="6687f-122">Relationship between hosts, host instances, and servers</span></span>  
   
- Para obtener más información acerca de las instancias de Host, consulte [instancias de Host](../core/host-instances.md).  
+ <span data-ttu-id="6687f-123">Para obtener más información acerca de las instancias de Host, consulte [instancias de Host](../core/host-instances.md).</span><span class="sxs-lookup"><span data-stu-id="6687f-123">For more information about Host Instances, see [Host Instances](../core/host-instances.md).</span></span>  
   
- En función de la configuración física y el tipo de adaptador que se aloje, hay dos tipos de hosts: hosts y hosts aislados en el proceso.  
+ <span data-ttu-id="6687f-124">En función de la configuración física y el tipo de adaptador que se aloje, hay dos tipos de hosts: hosts y hosts aislados en el proceso.</span><span class="sxs-lookup"><span data-stu-id="6687f-124">Based on the physical configuration and type of adapter hosted, there are two types of hosts: in-process hosts and isolated hosts.</span></span>  
   
-## <a name="in-process-hosts"></a>Hosts de tipo en curso  
- Los hosts de tipo En curso representan instancias de servicio que un administrador crea, elimina y controla por completo a través del Instrumental de administración de Windows (WMI) y la Consola de administración de BizTalk.  
+## <a name="in-process-hosts"></a><span data-ttu-id="6687f-125">Hosts de tipo en curso</span><span class="sxs-lookup"><span data-stu-id="6687f-125">In-process Hosts</span></span>  
+ <span data-ttu-id="6687f-126">Los hosts de tipo En curso representan instancias de servicio que un administrador crea, elimina y controla por completo a través del Instrumental de administración de Windows (WMI) y la Consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="6687f-126">In-process hosts represent service instances that an administrator creates, deletes, and fully controls with Windows Management Instrumentation (WMI) and the BizTalk Administration Console.</span></span>  
   
- Los hosts de tipo En curso cuentan con las siguientes características:  
+ <span data-ttu-id="6687f-127">Los hosts de tipo En curso cuentan con las siguientes características:</span><span class="sxs-lookup"><span data-stu-id="6687f-127">In-process hosts have the following characteristics:</span></span>  
   
--   Las orquestaciones pueden darse de alta en los hosts de tipo En curso.  
+-   <span data-ttu-id="6687f-128">Las orquestaciones pueden darse de alta en los hosts de tipo En curso.</span><span class="sxs-lookup"><span data-stu-id="6687f-128">You can enlist any orchestration into an in-process host.</span></span>  
   
--   Los hosts de tipo En curso pueden alojar controladores de envío.  
+-   <span data-ttu-id="6687f-129">Los hosts de tipo En curso pueden alojar controladores de envío.</span><span class="sxs-lookup"><span data-stu-id="6687f-129">An in-process host can host any send handler.</span></span>  
   
--   Un host de tipo En curso puede alojar cualquiera de los controladores de recepción excepto SOAP y HTTP:  
+-   <span data-ttu-id="6687f-130">Un host de tipo En curso puede alojar cualquiera de los controladores de recepción excepto SOAP y HTTP:</span><span class="sxs-lookup"><span data-stu-id="6687f-130">An in-process host can host any of the receive handlers except for SOAP and HTTP:</span></span>  
   
-    -   FILE  
+    -   <span data-ttu-id="6687f-131">FILE</span><span class="sxs-lookup"><span data-stu-id="6687f-131">FILE</span></span>  
   
-    -   FTP  
+    -   <span data-ttu-id="6687f-132">FTP</span><span class="sxs-lookup"><span data-stu-id="6687f-132">FTP</span></span>  
   
-    -   MQSeries  
+    -   <span data-ttu-id="6687f-133">MQSeries</span><span class="sxs-lookup"><span data-stu-id="6687f-133">MQSeries</span></span>  
   
-    -   MSMQ  
+    -   <span data-ttu-id="6687f-134">MSMQ</span><span class="sxs-lookup"><span data-stu-id="6687f-134">MSMQ</span></span>  
   
-    -   POP3  
+    -   <span data-ttu-id="6687f-135">POP3</span><span class="sxs-lookup"><span data-stu-id="6687f-135">POP3</span></span>  
   
-    -   SQL  
+    -   <span data-ttu-id="6687f-136">SQL</span><span class="sxs-lookup"><span data-stu-id="6687f-136">SQL</span></span>  
   
-    -   Windows SharePoint Services  
+    -   <span data-ttu-id="6687f-137">Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="6687f-137">Windows SharePoint Services</span></span>  
   
--   El primer host in-process se crea en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementación es el **host predeterminado** y no puede eliminarlo. El Adaptador de BizTalk para Message Queue Server utiliza el host predeterminado para la configuración del controlador estático. La agregación automática de adaptadores crea puertos de envío y recepción en el host predeterminado.  
+-   <span data-ttu-id="6687f-138">El primer host in-process se crea en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementación es el **host predeterminado** y no puede eliminarlo.</span><span class="sxs-lookup"><span data-stu-id="6687f-138">The first in-process host you create in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment is the **default host** and you cannot delete it.</span></span> <span data-ttu-id="6687f-139">El Adaptador de BizTalk para Message Queue Server utiliza el host predeterminado para la configuración del controlador estático.</span><span class="sxs-lookup"><span data-stu-id="6687f-139">The BizTalk Message Queuing adapter uses the default host for static handler configuration.</span></span> <span data-ttu-id="6687f-140">La agregación automática de adaptadores crea puertos de envío y recepción en el host predeterminado.</span><span class="sxs-lookup"><span data-stu-id="6687f-140">Adding an adapter automatically creates receive and send ports for the default host.</span></span>  
   
-## <a name="isolated-hosts"></a>Hosts aislados  
- Los hosts aislados representan instancias de servicio que un programador de soluciones crea, elimina y controla mediante programación. Los administradores usan el WMI y la Consola de administración de BizTalk para configurar estos hosts (por ejemplo, para configurar la cuenta de servicio de host y la autenticación de confianza).  
+## <a name="isolated-hosts"></a><span data-ttu-id="6687f-141">Hosts aislados</span><span class="sxs-lookup"><span data-stu-id="6687f-141">Isolated Hosts</span></span>  
+ <span data-ttu-id="6687f-142">Los hosts aislados representan instancias de servicio que un programador de soluciones crea, elimina y controla mediante programación.</span><span class="sxs-lookup"><span data-stu-id="6687f-142">Isolated hosts represent service instances that a solutions developer programmatically creates, deletes, and controls.</span></span> <span data-ttu-id="6687f-143">Los administradores usan el WMI y la Consola de administración de BizTalk para configurar estos hosts (por ejemplo, para configurar la cuenta de servicio de host y la autenticación de confianza).</span><span class="sxs-lookup"><span data-stu-id="6687f-143">An administrator uses WMI and the BizTalk Administration Console to configure these hosts (for example, to configure the host service account and authentication trust).</span></span>  
   
- Los hosts aislados se encargan principalmente de alojar adaptadores que deban ejecutarse fuera del proceso en tiempo de ejecución habitual de BizTalk Server. Por ejemplo, los hosts aislados se emplean para alojar adaptadores para procesos externos como, por ejemplo, extensiones ISAPI y ASP.NET.  
+ <span data-ttu-id="6687f-144">Los hosts aislados se encargan principalmente de alojar adaptadores que deban ejecutarse fuera del proceso en tiempo de ejecución habitual de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="6687f-144">Isolated hosts primarily host adapters that must run outside of the normal BizTalk Server runtime process.</span></span> <span data-ttu-id="6687f-145">Por ejemplo, los hosts aislados se emplean para alojar adaptadores para procesos externos como, por ejemplo, extensiones ISAPI y ASP.NET.</span><span class="sxs-lookup"><span data-stu-id="6687f-145">For example, you use isolated hosts to host adapters for external processes such as ISAPI extensions and ASP.NET.</span></span>  
   
- Los hosts aislados cuentan con las siguientes características:  
+ <span data-ttu-id="6687f-146">Los hosts aislados cuentan con las siguientes características:</span><span class="sxs-lookup"><span data-stu-id="6687f-146">Isolated hosts have the following characteristics:</span></span>  
   
--   Las orquestaciones no pueden darse de alta en un host aislado.  
+-   <span data-ttu-id="6687f-147">Las orquestaciones no pueden darse de alta en un host aislado.</span><span class="sxs-lookup"><span data-stu-id="6687f-147">You cannot enlist orchestrations into an isolated host.</span></span>  
   
--   Los hosts aislados no pueden alojar controladores de envío.  
+-   <span data-ttu-id="6687f-148">Los hosts aislados no pueden alojar controladores de envío.</span><span class="sxs-lookup"><span data-stu-id="6687f-148">An isolated host cannot host send handlers.</span></span>  
   
--   Los hosts aislados solo pueden alojar controladores de recepción que estén asociados con adaptadores de HTTP/S y SOAP (los adaptadores de tipo aislado).  
+-   <span data-ttu-id="6687f-149">Los hosts aislados solo pueden alojar controladores de recepción que estén asociados con adaptadores de HTTP/S y SOAP (los adaptadores de tipo aislado).</span><span class="sxs-lookup"><span data-stu-id="6687f-149">An isolated host can host only the receive handlers associated with HTTP/S and SOAP adapters (the isolated-type adapters).</span></span>  
   
--   Los hosts aislados no pueden alojar el seguimiento.  
+-   <span data-ttu-id="6687f-150">Los hosts aislados no pueden alojar el seguimiento.</span><span class="sxs-lookup"><span data-stu-id="6687f-150">An isolated host cannot host tracking.</span></span>  
   
--   Un host aislado no puede ser el host predeterminado.  
+-   <span data-ttu-id="6687f-151">Un host aislado no puede ser el host predeterminado.</span><span class="sxs-lookup"><span data-stu-id="6687f-151">An isolated host cannot be the default host.</span></span>  
   
--   El estado de un host aislado siempre es **estado no disponible**. BizTalk Server no tiene acceso a la información de estado de los procesos externos.  
+-   <span data-ttu-id="6687f-152">El estado de un host aislado siempre es **estado no disponible**.</span><span class="sxs-lookup"><span data-stu-id="6687f-152">The status of an isolated host is always **Status Unavailable**.</span></span> <span data-ttu-id="6687f-153">BizTalk Server no tiene acceso a la información de estado de los procesos externos.</span><span class="sxs-lookup"><span data-stu-id="6687f-153">BizTalk Server does not access the status information for external processes.</span></span>  
   
 > [!NOTE]
->  Las instancias de hosts pueden compartir la misma cuenta de servicio siempre que compartan también la misma configuración de seguridad (autenticación de confianza).  
+>  <span data-ttu-id="6687f-154">Las instancias de hosts pueden compartir la misma cuenta de servicio siempre que compartan también la misma configuración de seguridad (autenticación de confianza).</span><span class="sxs-lookup"><span data-stu-id="6687f-154">Host instances can share the same service account as long as they share the same security configuration (authentication trust).</span></span>  
   
-## <a name="trusted-and-untrusted-hosts"></a>Hosts de confianza y de no confianza  
- BizTalk Server permite que un host identificado como con autenticación de confianza indique que el remitente de un mensaje que dicho host está agregando a la cola de la base de datos de cuadro de mensajes es una entidad distinta del host de confianza mismo. Los fines principales de la autenticación de confianza son permitir que las canalizaciones se resuelvan en un Id. de producto (PID) y pasen éste a servicios de consumo para su uso en la autorización y la resolución de entidades salientes, y permitir la transmisión del Id. de seguridad de Windows del remitente (SSID) a los servicios de consumo para su uso en la autorización de acciones de orquestación.  
+## <a name="trusted-and-untrusted-hosts"></a><span data-ttu-id="6687f-155">Hosts de confianza y de no confianza</span><span class="sxs-lookup"><span data-stu-id="6687f-155">Trusted and Untrusted Hosts</span></span>  
+ <span data-ttu-id="6687f-156">BizTalk Server permite que un host identificado como con autenticación de confianza indique que el remitente de un mensaje que dicho host está agregando a la cola de la base de datos de cuadro de mensajes es una entidad distinta del host de confianza mismo.</span><span class="sxs-lookup"><span data-stu-id="6687f-156">BizTalk Server enables hosts identified as authentication trusted to indicate that the sender of a message that the trusted host is queuing to the MessageBox database is an entity other than the trusted host itself.</span></span> <span data-ttu-id="6687f-157">Los fines principales de la autenticación de confianza son permitir que las canalizaciones se resuelvan en un Id. de producto (PID) y pasen éste a servicios de consumo para su uso en la autorización y la resolución de entidades salientes, y permitir la transmisión del Id. de seguridad de Windows del remitente (SSID) a los servicios de consumo para su uso en la autorización de acciones de orquestación.</span><span class="sxs-lookup"><span data-stu-id="6687f-157">The primary purposes of authentication trust are to enable pipelines to resolve to a Product ID (PID) and pass that PID along to consuming services for use in authorization and outbound party resolution, and to enable the transmission of the sender Windows Security ID (SSID) along to consuming services for use in orchestration action authorization.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Instancias de host](../core/host-instances.md)   
- [Administrar hosts de BizTalk e instancias de host](../core/managing-biztalk-hosts-and-host-instances.md)  
- [Entidades](../core/entities.md)
+## <a name="see-also"></a><span data-ttu-id="6687f-158">Vea también</span><span class="sxs-lookup"><span data-stu-id="6687f-158">See Also</span></span>  
+ <span data-ttu-id="6687f-159">[Instancias de host](../core/host-instances.md) </span><span class="sxs-lookup"><span data-stu-id="6687f-159">[Host Instances](../core/host-instances.md) </span></span>  
+ [<span data-ttu-id="6687f-160">Administrar hosts de BizTalk e instancias de host</span><span class="sxs-lookup"><span data-stu-id="6687f-160">Managing BizTalk Hosts and Host Instances</span></span>](../core/managing-biztalk-hosts-and-host-instances.md)  
+ [<span data-ttu-id="6687f-161">Entidades</span><span class="sxs-lookup"><span data-stu-id="6687f-161">Entities</span></span>](../core/entities.md)

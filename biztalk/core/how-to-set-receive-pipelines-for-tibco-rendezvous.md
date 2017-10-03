@@ -22,16 +22,16 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-set-receive-pipelines-for-tibco-rendezvous"></a>Establecimiento de canalizaciones de recepción para TIBCO Rendezvous
-El adaptador de Microsoft BizTalk para TIBCO Rendezvous requiere que se establezcan el controlador y la canalización de recepción.  
+# <a name="how-to-set-receive-pipelines-for-tibco-rendezvous"></a><span data-ttu-id="07c66-102">Establecimiento de canalizaciones de recepción para TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="07c66-102">How to Set Receive Pipelines for TIBCO Rendezvous</span></span>
+<span data-ttu-id="07c66-103">El adaptador de Microsoft BizTalk para TIBCO Rendezvous requiere que se establezcan el controlador y la canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="07c66-103">Microsoft BizTalk Adapter for TIBCO Rendezvous requires that you set the receive handler and receive pipeline.</span></span>  
   
-### <a name="to-set-the-pipeline"></a>Procedimiento para establecer la canalización  
+### <a name="to-set-the-pipeline"></a><span data-ttu-id="07c66-104">Procedimiento para establecer la canalización</span><span class="sxs-lookup"><span data-stu-id="07c66-104">To set the pipeline</span></span>  
   
-1.  Establecer el **controlador de recepción** a **BizTalkServerIsolatedHost** en la lista.  
+1.  <span data-ttu-id="07c66-105">Establecer el **controlador de recepción** a **BizTalkServerIsolatedHost** en la lista.</span><span class="sxs-lookup"><span data-stu-id="07c66-105">Set the **Receive Handler** to **BizTalkServerIsolatedHost** in the list.</span></span>  
   
-2.  Establecer el **canalización de recepción** a **XMLReceive** o cualquier canalización equivalente.  
+2.  <span data-ttu-id="07c66-106">Establecer el **canalización de recepción** a **XMLReceive** o cualquier canalización equivalente.</span><span class="sxs-lookup"><span data-stu-id="07c66-106">Set the **Receive Pipeline** to **XMLReceive** or any equivalent pipeline.</span></span>  
   
-3.  Haga clic en **Aceptar**.  
+3.  <span data-ttu-id="07c66-107">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="07c66-107">Click **OK**.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Controladores de recepción de creación TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)
+## <a name="see-also"></a><span data-ttu-id="07c66-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="07c66-108">See Also</span></span>  
+ [<span data-ttu-id="07c66-109">Controladores de recepción de creación TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="07c66-109">Creating TIBCO Rendezvous Receive Handlers</span></span>](../core/creating-tibco-rendezvous-receive-handlers.md)

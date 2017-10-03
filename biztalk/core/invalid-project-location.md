@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="invalid-project-location"></a>Ubicación de proyecto no válida
-## <a name="details"></a>Detalles  
+# <a name="invalid-project-location"></a><span data-ttu-id="030b7-102">Ubicación de proyecto no válida</span><span class="sxs-lookup"><span data-stu-id="030b7-102">Invalid project location</span></span>
+## <a name="details"></a><span data-ttu-id="030b7-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="030b7-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Identificador del evento|0|  
-|Origen del evento|0|  
-|Componente|0|  
-|Nombre simbólico|0|  
-|Texto del mensaje|"{0}" no es una ubicación de proyecto válida.|  
+|<span data-ttu-id="030b7-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="030b7-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="030b7-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="030b7-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="030b7-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="030b7-106">Event ID</span></span>|<span data-ttu-id="030b7-107">0</span><span class="sxs-lookup"><span data-stu-id="030b7-107">0</span></span>|  
+|<span data-ttu-id="030b7-108">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="030b7-108">Event Source</span></span>|<span data-ttu-id="030b7-109">0</span><span class="sxs-lookup"><span data-stu-id="030b7-109">0</span></span>|  
+|<span data-ttu-id="030b7-110">Componente</span><span class="sxs-lookup"><span data-stu-id="030b7-110">Component</span></span>|<span data-ttu-id="030b7-111">0</span><span class="sxs-lookup"><span data-stu-id="030b7-111">0</span></span>|  
+|<span data-ttu-id="030b7-112">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="030b7-112">Symbolic Name</span></span>|<span data-ttu-id="030b7-113">0</span><span class="sxs-lookup"><span data-stu-id="030b7-113">0</span></span>|  
+|<span data-ttu-id="030b7-114">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="030b7-114">Message Text</span></span>|<span data-ttu-id="030b7-115">"{0}" no es una ubicación de proyecto válida.</span><span class="sxs-lookup"><span data-stu-id="030b7-115">"{0}" is not a valid project location.</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este error indica que el URI (identificador uniforme de recursos) especificado para publicar el servicio es un URI incorrecto.  
+## <a name="explanation"></a><span data-ttu-id="030b7-116">Explicación</span><span class="sxs-lookup"><span data-stu-id="030b7-116">Explanation</span></span>  
+ <span data-ttu-id="030b7-117">Este error indica que el URI (identificador uniforme de recursos) especificado para publicar el servicio es un URI incorrecto.</span><span class="sxs-lookup"><span data-stu-id="030b7-117">This error indicates the URI (uniform resource identifier) specified for publishing the service is an incorrect URI.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Compruebe la ubicación del servicio y determine si es válida.
+## <a name="user-action"></a><span data-ttu-id="030b7-118">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="030b7-118">User Action</span></span>  
+ <span data-ttu-id="030b7-119">Compruebe la ubicación del servicio y determine si es válida.</span><span class="sxs-lookup"><span data-stu-id="030b7-119">Check the service location and determine if the location is valid.</span></span>

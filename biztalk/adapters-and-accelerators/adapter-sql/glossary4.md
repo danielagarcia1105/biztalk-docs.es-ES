@@ -19,158 +19,158 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="terms-used-by-the-sql-adapter"></a>Términos utilizados por el adaptador de SQL
-Los términos y definiciones siguientes se usan en [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ayuda.  
+# <a name="terms-used-by-the-sql-adapter"></a><span data-ttu-id="75c74-103">Términos utilizados por el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="75c74-103">Terms used by the SQL adapter</span></span>
+<span data-ttu-id="75c74-104">Los términos y definiciones siguientes se usan en [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ayuda.</span><span class="sxs-lookup"><span data-stu-id="75c74-104">The following terms and definitions are used in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] Help.</span></span>  
   
   
-## <a name="a"></a>Un  
+## <a name="a"></a><span data-ttu-id="75c74-105">Un</span><span class="sxs-lookup"><span data-stu-id="75c74-105">A</span></span>  
   
-**adaptador**  
-Un componente basado en WCF que facilita el intercambio de mensajes entre aplicaciones (por ejemplo, un sistema de línea de negocio) y BizTalk Server. El adaptador consiste en una serie de componentes de tiempo de diseño y de tiempo de ejecución para las operaciones de envío y recepción.
+<span data-ttu-id="75c74-106">**adaptador**</span><span class="sxs-lookup"><span data-stu-id="75c74-106">**adapter**</span></span>  
+<span data-ttu-id="75c74-107">Un componente basado en WCF que facilita el intercambio de mensajes entre aplicaciones (por ejemplo, un sistema de línea de negocio) y BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="75c74-107">A WCF-based component that helps exchange messages between applications (for example, a line-of-business system) and BizTalk Server.</span></span> <span data-ttu-id="75c74-108">El adaptador consiste en una serie de componentes de tiempo de diseño y de tiempo de ejecución para las operaciones de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="75c74-108">The adapter consists of design-time components and run-time components for receive and send operations.</span></span>
 
-**cliente de adaptador**  
-Una aplicación que interactúa con un sistema de línea de negocio (LOB) a través del adaptador.    
+<span data-ttu-id="75c74-109">**cliente de adaptador**</span><span class="sxs-lookup"><span data-stu-id="75c74-109">**adapter client**</span></span>  
+<span data-ttu-id="75c74-110">Una aplicación que interactúa con un sistema de línea de negocio (LOB) a través del adaptador.</span><span class="sxs-lookup"><span data-stu-id="75c74-110">An application that interacts with a line-of-business (LOB) system through the adapter.</span></span>    
 
   
-## <a name="b"></a>B  
+## <a name="b"></a><span data-ttu-id="75c74-111">B</span><span class="sxs-lookup"><span data-stu-id="75c74-111">B</span></span>  
   
-**enlace**  
-Proceso por el que se vinculan los componentes y capas de software. Cuando se instala un componente de red, se establecen las relaciones de enlace y dependencias de los componentes. El enlace permite a los componentes comunicarse entre sí. En BizTalk Server, es una asignación establecida entre un extremo válido para los adaptadores de orquestaciones (puerto o vínculo de función) y los extremos físicos específicos de los adaptadores (puertos o entidades de envío y recepción).
+<span data-ttu-id="75c74-112">**enlace**</span><span class="sxs-lookup"><span data-stu-id="75c74-112">**binding**</span></span>  
+<span data-ttu-id="75c74-113">Proceso por el que se vinculan los componentes y capas de software.</span><span class="sxs-lookup"><span data-stu-id="75c74-113">A process by which software components and layers are linked together.</span></span> <span data-ttu-id="75c74-114">Cuando se instala un componente de red, se establecen las relaciones de enlace y dependencias de los componentes.</span><span class="sxs-lookup"><span data-stu-id="75c74-114">When a network component is installed, the binding relationships and dependencies for the components are established.</span></span> <span data-ttu-id="75c74-115">El enlace permite a los componentes comunicarse entre sí.</span><span class="sxs-lookup"><span data-stu-id="75c74-115">Binding allows components to communicate with each other.</span></span> <span data-ttu-id="75c74-116">En BizTalk Server, es una asignación establecida entre un extremo válido para los adaptadores de orquestaciones (puerto o vínculo de función) y los extremos físicos específicos de los adaptadores (puertos o entidades de envío y recepción).</span><span class="sxs-lookup"><span data-stu-id="75c74-116">In BizTalk Server, an established mapping between an orchestration adapter-agnostic endpoint (port or role link) and physical adapter-specific endpoints (send/receive ports or party).</span></span>
 
-**Servidor BizTalk Server**  
-Se conecta a distintos programas de software. BizTalk Server permite crear y modificar la lógica de proceso que emplea dicho software. Además, BizTalk Server hace posible que los trabajadores de la información supervisen los procesos que están ejecutándose, interactúen con los socios comerciales y lleven a cabo otras tareas de tipo empresarial.
+<span data-ttu-id="75c74-117">**Servidor BizTalk Server**</span><span class="sxs-lookup"><span data-stu-id="75c74-117">**BizTalk Server**</span></span>  
+<span data-ttu-id="75c74-118">Se conecta a distintos programas de software.</span><span class="sxs-lookup"><span data-stu-id="75c74-118">Connects diverse software.</span></span> <span data-ttu-id="75c74-119">BizTalk Server permite crear y modificar la lógica de proceso que emplea dicho software.</span><span class="sxs-lookup"><span data-stu-id="75c74-119">BizTalk Server enables you to create and modify process logic that uses that software.</span></span> <span data-ttu-id="75c74-120">Además, BizTalk Server hace posible que los trabajadores de la información supervisen los procesos que están ejecutándose, interactúen con los socios comerciales y lleven a cabo otras tareas de tipo empresarial.</span><span class="sxs-lookup"><span data-stu-id="75c74-120">BizTalk Server also enables information workers to monitor running processes, interact with trading partners, and perform other business-oriented tasks.</span></span>
   
  
-## <a name="c"></a>C  
+## <a name="c"></a><span data-ttu-id="75c74-121">C</span><span class="sxs-lookup"><span data-stu-id="75c74-121">C</span></span>  
   
-**canal**  
-Una implementación concreta de un elemento de enlace. El enlace representa la configuración y el canal es la implementación asociada a esa configuración. Por lo tanto, hay un canal asociado a cada elemento de enlace. Canales se apilan uno sobre otro para crear la implementación concreta del enlace: la pila de canales.
+<span data-ttu-id="75c74-122">**canal**</span><span class="sxs-lookup"><span data-stu-id="75c74-122">**channel**</span></span>  
+<span data-ttu-id="75c74-123">Una implementación concreta de un elemento de enlace.</span><span class="sxs-lookup"><span data-stu-id="75c74-123">A concrete implementation of a binding element.</span></span> <span data-ttu-id="75c74-124">El enlace representa la configuración y el canal es la implementación asociada a esa configuración.</span><span class="sxs-lookup"><span data-stu-id="75c74-124">The binding represents the configuration, and the channel is the implementation associated with that configuration.</span></span> <span data-ttu-id="75c74-125">Por lo tanto, hay un canal asociado a cada elemento de enlace.</span><span class="sxs-lookup"><span data-stu-id="75c74-125">Therefore, there is a channel associated with each binding element.</span></span> <span data-ttu-id="75c74-126">Canales se apilan uno sobre otro para crear la implementación concreta del enlace: la pila de canales.</span><span class="sxs-lookup"><span data-stu-id="75c74-126">Channels stack on top of each other to create the concrete implementation of the binding: the channel stack.</span></span>
 
-**URI de conexión**  
-Una cadena que identifica un recurso en un entorno distribuido. Los adaptadores utilizan una conexión Uniform Resource Identifier (URI) que contiene la información necesaria para establecer una conexión con el sistema LOB.
+<span data-ttu-id="75c74-127">**URI de conexión**</span><span class="sxs-lookup"><span data-stu-id="75c74-127">**connection URI**</span></span>  
+<span data-ttu-id="75c74-128">Una cadena que identifica un recurso en un entorno distribuido.</span><span class="sxs-lookup"><span data-stu-id="75c74-128">A string that identifies a resource in a distributed environment.</span></span> <span data-ttu-id="75c74-129">Los adaptadores utilizan una conexión Uniform Resource Identifier (URI) que contiene la información necesaria para establecer una conexión con el sistema LOB.</span><span class="sxs-lookup"><span data-stu-id="75c74-129">Adapters use a connection Uniform Resource Identifier (URI) that contains the information necessary to establish a connection with the LOB system.</span></span>
 
-**contrato**  
-Especifica la colección y estructura de mensajes necesarios para tener acceso a las operaciones que ofrece el servicio.  
+<span data-ttu-id="75c74-130">**contrato**</span><span class="sxs-lookup"><span data-stu-id="75c74-130">**contract**</span></span>  
+<span data-ttu-id="75c74-131">Especifica la colección y estructura de mensajes necesarios para tener acceso a las operaciones que ofrece el servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-131">Specifies the collection and structure of messages required to access the operations offered by the service.</span></span>  
   
-## <a name="d"></a>D  
+## <a name="d"></a><span data-ttu-id="75c74-132">D</span><span class="sxs-lookup"><span data-stu-id="75c74-132">D</span></span>  
   
-**lenguaje de manipulación de datos (DML)**  
-Subconjunto de instrucciones SQL usado para recuperar y manipular datos. Las instrucciones DML empiezan normalmente con SELECT, INSERT, UPDATE o DELETE.
+<span data-ttu-id="75c74-133">**lenguaje de manipulación de datos (DML)**</span><span class="sxs-lookup"><span data-stu-id="75c74-133">**data manipulation language (DML)**</span></span>  
+<span data-ttu-id="75c74-134">Subconjunto de instrucciones SQL usado para recuperar y manipular datos.</span><span class="sxs-lookup"><span data-stu-id="75c74-134">The subset of SQL statements that is used to retrieve and manipulate data.</span></span> <span data-ttu-id="75c74-135">Las instrucciones DML empiezan normalmente con SELECT, INSERT, UPDATE o DELETE.</span><span class="sxs-lookup"><span data-stu-id="75c74-135">DML statements typically start with SELECT, INSERT, UPDATE, or DELETE.</span></span>
 
-**experiencia en tiempo de diseño**  
-Los procedimientos y las operaciones que un programador lleva a cabo durante el tiempo de diseño; Por ejemplo, utilizando el complemento de consumir un proyecto de BizTalk de servicio de adaptador para recuperar esquemas de mensaje. 
+<span data-ttu-id="75c74-136">**experiencia en tiempo de diseño**</span><span class="sxs-lookup"><span data-stu-id="75c74-136">**design-time experience**</span></span>  
+<span data-ttu-id="75c74-137">Los procedimientos y las operaciones que un programador lleva a cabo durante el tiempo de diseño; Por ejemplo, utilizando el complemento de consumir un proyecto de BizTalk de servicio de adaptador para recuperar esquemas de mensaje.</span><span class="sxs-lookup"><span data-stu-id="75c74-137">Procedures and operations that a developer performs during design time; for example, using the Consume Adapter Service BizTalk Project Add-in to retrieve message schemas.</span></span> 
   
-## <a name="e"></a>E  
+## <a name="e"></a><span data-ttu-id="75c74-138">E</span><span class="sxs-lookup"><span data-stu-id="75c74-138">E</span></span>  
   
-**dirección del extremo**  
-Una dirección de red que identifica la ubicación de un punto de conexión de servicio de Windows Communication Foundation (WCF). Para un adaptador, la dirección del extremo se expresa como una conexión Uniform Resource Identifier (URI) que contiene parámetros de conexión y la ubicación. El adaptador puede utilizar para establecer una conexión con el sistema de línea de negocio (LOB) subyacente.
+<span data-ttu-id="75c74-139">**dirección del extremo**</span><span class="sxs-lookup"><span data-stu-id="75c74-139">**endpoint address**</span></span>  
+<span data-ttu-id="75c74-140">Una dirección de red que identifica la ubicación de un punto de conexión de servicio de Windows Communication Foundation (WCF).</span><span class="sxs-lookup"><span data-stu-id="75c74-140">A network address that identifies the location of a Windows Communication Foundation (WCF) service endpoint.</span></span> <span data-ttu-id="75c74-141">Para un adaptador, la dirección del extremo se expresa como una conexión Uniform Resource Identifier (URI) que contiene parámetros de conexión y la ubicación.</span><span class="sxs-lookup"><span data-stu-id="75c74-141">For an adapter, the endpoint address is expressed as a connection Uniform Resource Identifier (URI) that contains location and connection parameters.</span></span> <span data-ttu-id="75c74-142">El adaptador puede utilizar para establecer una conexión con el sistema de línea de negocio (LOB) subyacente.</span><span class="sxs-lookup"><span data-stu-id="75c74-142">The adapter can use these to establish a connection to the underlying line-of-business (LOB) system.</span></span>
 
-**Enterprise Single Sign-on system (SSO)**  
-Base de datos de SSO, servidor secreto principal y uno o más de un servidor de inicio de sesión único empresarial (SSO). Estos servidores llevan a cabo la asignación entre las credenciales de Windows y las ajenas a éste, buscan las credenciales en la base de datos de SSO y se utilizan para administrar el sistema SSO. La base de datos de SSO también se utiliza como almacén de configuración para guardar los datos de las configuraciones personalizadas de los adaptadores.
+<span data-ttu-id="75c74-143">**Enterprise Single Sign-on system (SSO)**</span><span class="sxs-lookup"><span data-stu-id="75c74-143">**Enterprise Single Sign-on system (SSO)**</span></span>  
+<span data-ttu-id="75c74-144">Base de datos de SSO, servidor secreto principal y uno o más de un servidor de inicio de sesión único empresarial (SSO).</span><span class="sxs-lookup"><span data-stu-id="75c74-144">An SSO database, a master secret server, and one or more Enterprise Single Sign-On (SSO) servers.</span></span> <span data-ttu-id="75c74-145">Estos servidores llevan a cabo la asignación entre las credenciales de Windows y las ajenas a éste, buscan las credenciales en la base de datos de SSO y se utilizan para administrar el sistema SSO.</span><span class="sxs-lookup"><span data-stu-id="75c74-145">These servers do the mapping between the Windows and non-Windows credentials, look up the credentials in the SSO database, and are used for administering the SSO system.</span></span> <span data-ttu-id="75c74-146">La base de datos de SSO también se utiliza como almacén de configuración para guardar los datos de las configuraciones personalizadas de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="75c74-146">The SSO database is also used as a configuration store to hold custom configuration data for adapters.</span></span>
 
-**Lenguaje de marcado extensible (XML)**  
-Lenguaje de marcado que se ha diseñado para describir los datos. Etiquetas XML no están predefinidas.  
+<span data-ttu-id="75c74-147">**Lenguaje de marcado extensible (XML)**</span><span class="sxs-lookup"><span data-stu-id="75c74-147">**Extensible Markup Language (XML)**</span></span>  
+<span data-ttu-id="75c74-148">Lenguaje de marcado que se ha diseñado para describir los datos.</span><span class="sxs-lookup"><span data-stu-id="75c74-148">A markup language designed to describe data.</span></span> <span data-ttu-id="75c74-149">Etiquetas XML no están predefinidas.</span><span class="sxs-lookup"><span data-stu-id="75c74-149">XML tags are not predefined.</span></span>  
 
   
-## <a name="g"></a>G  
+## <a name="g"></a><span data-ttu-id="75c74-150">G</span><span class="sxs-lookup"><span data-stu-id="75c74-150">G</span></span>  
   
-**caché global de ensamblados (GAC)**  
-Caché de código de todo el equipo que almacena los ensamblados instalados específicamente para que los compartan varias aplicaciones del equipo. Las aplicaciones implementadas en la caché global de ensamblados deben tener un nombre seguro.
+<span data-ttu-id="75c74-151">**caché global de ensamblados (GAC)**</span><span class="sxs-lookup"><span data-stu-id="75c74-151">**global assembly cache (GAC)**</span></span>  
+<span data-ttu-id="75c74-152">Caché de código de todo el equipo que almacena los ensamblados instalados específicamente para que los compartan varias aplicaciones del equipo.</span><span class="sxs-lookup"><span data-stu-id="75c74-152">A machine-wide code cache that stores assemblies specifically installed to be shared by many applications on the computer.</span></span> <span data-ttu-id="75c74-153">Las aplicaciones implementadas en la caché global de ensamblados deben tener un nombre seguro.</span><span class="sxs-lookup"><span data-stu-id="75c74-153">Applications deployed in the global assembly cache must have a strong name.</span></span>
   
-## <a name="i"></a>I  
+## <a name="i"></a><span data-ttu-id="75c74-154">I</span><span class="sxs-lookup"><span data-stu-id="75c74-154">I</span></span>  
   
-**operación entrante**  
-Una operación que se invoca con un sistema de línea de negocio (LOB) en el adaptador.  
+<span data-ttu-id="75c74-155">**operación entrante**</span><span class="sxs-lookup"><span data-stu-id="75c74-155">**inbound operation**</span></span>  
+<span data-ttu-id="75c74-156">Una operación que se invoca con un sistema de línea de negocio (LOB) en el adaptador.</span><span class="sxs-lookup"><span data-stu-id="75c74-156">An operation that is invoked by a line-of-business (LOB) system on the adapter.</span></span>  
   
   
-## <a name="m"></a>M  
+## <a name="m"></a><span data-ttu-id="75c74-157">M</span><span class="sxs-lookup"><span data-stu-id="75c74-157">M</span></span>  
   
-**metadatos**  
-En WCF, hace referencia a una descripción del contrato expuesto por un servicio. Esto se conoce como la descripción del servicio y se expresa en un documento WSDL. Los metadatos expuestos por un adaptador describen (interfaz a) las operaciones que puede realizar en el sistema LOB subyacente.
+<span data-ttu-id="75c74-158">**metadatos**</span><span class="sxs-lookup"><span data-stu-id="75c74-158">**metadata**</span></span>  
+<span data-ttu-id="75c74-159">En WCF, hace referencia a una descripción del contrato expuesto por un servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-159">In WCF, refers to a description of the contract exposed by a service.</span></span> <span data-ttu-id="75c74-160">Esto se conoce como la descripción del servicio y se expresa en un documento WSDL.</span><span class="sxs-lookup"><span data-stu-id="75c74-160">This is known as the service description and is expressed in a WSDL document.</span></span> <span data-ttu-id="75c74-161">Los metadatos expuestos por un adaptador describen (interfaz a) las operaciones que puede realizar en el sistema LOB subyacente.</span><span class="sxs-lookup"><span data-stu-id="75c74-161">The metadata exposed by an adapter describes the (interface to) the operations that it can perform on the underlying LOB system.</span></span>
 
 **[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]**  
-Las especificaciones para la creación de adaptadores de BizTalk mediante unos estándares abiertos basados en servicios Web.  
+<span data-ttu-id="75c74-162">Las especificaciones para la creación de adaptadores de BizTalk mediante unos estándares abiertos basados en servicios Web.</span><span class="sxs-lookup"><span data-stu-id="75c74-162">The specifications for building BizTalk adapters using open standards based on Web services.</span></span>  
   
-## <a name="o"></a>O  
+## <a name="o"></a><span data-ttu-id="75c74-163">O</span><span class="sxs-lookup"><span data-stu-id="75c74-163">O</span></span>  
   
-**unidireccional**  
-Un patrón de intercambio de mensajes (MEP) en el que el remitente envía un mensaje, pero no hay respuesta devuelto por el receptor. En BizTalk Server, MEP se conoce como patrones de comunicación.
+<span data-ttu-id="75c74-164">**unidireccional**</span><span class="sxs-lookup"><span data-stu-id="75c74-164">**one-way**</span></span>  
+<span data-ttu-id="75c74-165">Un patrón de intercambio de mensajes (MEP) en el que el remitente envía un mensaje, pero no hay respuesta devuelto por el receptor.</span><span class="sxs-lookup"><span data-stu-id="75c74-165">A message exchange pattern (MEP) in which the sender sends a message, but no response is returned by the receiver.</span></span> <span data-ttu-id="75c74-166">En BizTalk Server, MEP se conoce como patrones de comunicación.</span><span class="sxs-lookup"><span data-stu-id="75c74-166">In BizTalk Server, MEPs are referred to as communication patterns.</span></span>
 
-**operación de salida**  
-Una operación que se invoca el adaptador en el sistema de línea de negocio (LOB).
+<span data-ttu-id="75c74-167">**operación de salida**</span><span class="sxs-lookup"><span data-stu-id="75c74-167">**outbound operation**</span></span>  
+<span data-ttu-id="75c74-168">Una operación que se invoca el adaptador en el sistema de línea de negocio (LOB).</span><span class="sxs-lookup"><span data-stu-id="75c74-168">An operation that is invoked by the adapter on the line-of-business system (LOB).</span></span>
 
-**output.cs**  
-El archivo de salida predeterminado creado por la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe). 
-
-  
-## <a name="p"></a>P  
-  
-**sondeo**  
-Una técnica que utilizan controladores de dispositivo para averiguar desde varios dispositivos si contienen datos que se va a transmitir. Los dispositivos están sondeo uno a uno.
-
-**proxy**  
-En WCF, hace referencia a un objeto de código administrado que implementa el contrato de servicio expuesto por un servicio. El modelo de servicio WCF se basa en el uso de estos servidores proxy. En el modelo de servicio WCF, el contrato de servicio se expresa como una interfaz. NET.
+<span data-ttu-id="75c74-169">**output.cs**</span><span class="sxs-lookup"><span data-stu-id="75c74-169">**output.cs**</span></span>  
+<span data-ttu-id="75c74-170">El archivo de salida predeterminado creado por la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe).</span><span class="sxs-lookup"><span data-stu-id="75c74-170">The default output file created by the ServiceModel Metadata Utility tool (svcutil.exe).</span></span> 
 
   
-## <a name="r"></a>L    
-
-**solicitudes y respuestas**  
-Un patrón de intercambio mensajes (MEP) en el que el remitente envía un mensaje de solicitud y espera un mensaje de respuesta con respecto al receptor. En BizTalk Server, MEP se conoce como patrones de comunicación. Dependiendo de la tecnología de mensajería y la dirección del mensaje de solicitud (entrante o saliente), este patrón también se denomina petición-respuesta o solicitud-respuesta.
-
-**experiencia en tiempo de ejecución**  
-Los procedimientos y las operaciones realizadas por un desarrollador en tiempo de ejecución o al implementar una solución; Por ejemplo, al crear un enlace de puerto físico desde la consola de administración de BizTalk Server.  
-
-
-## <a name="s"></a>S  
+## <a name="p"></a><span data-ttu-id="75c74-171">P</span><span class="sxs-lookup"><span data-stu-id="75c74-171">P</span></span>  
   
-**esquema**  
-Estructura de un mensaje. Un esquema puede contener varios subesquema.
+<span data-ttu-id="75c74-172">**sondeo**</span><span class="sxs-lookup"><span data-stu-id="75c74-172">**polling**</span></span>  
+<span data-ttu-id="75c74-173">Una técnica que utilizan controladores de dispositivo para averiguar desde varios dispositivos si contienen datos que se va a transmitir.</span><span class="sxs-lookup"><span data-stu-id="75c74-173">A technique that device drivers use to find out from multiple devices whether they contain data to transmit.</span></span> <span data-ttu-id="75c74-174">Los dispositivos están sondeo uno a uno.</span><span class="sxs-lookup"><span data-stu-id="75c74-174">The devices are polled one at a time.</span></span>
 
-**Herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)**  
-Una utilidad de línea de comandos que se incluye con WCF. Se utiliza para crear el código de proxy del modelo de servicio de la descripción del servicio (metadatos) que se expone mediante un servicio WCF como un adaptador. Para las operaciones de salida, la herramienta crea un código de clase y la aplicación auxiliar de cliente WCF; para las operaciones de entrada, la herramienta crea un código de aplicación auxiliar de contrato del servicio WCF.
+<span data-ttu-id="75c74-175">**proxy**</span><span class="sxs-lookup"><span data-stu-id="75c74-175">**proxy**</span></span>  
+<span data-ttu-id="75c74-176">En WCF, hace referencia a un objeto de código administrado que implementa el contrato de servicio expuesto por un servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-176">In WCF, refers to a managed-code object that implements the service contract exposed by a service.</span></span> <span data-ttu-id="75c74-177">El modelo de servicio WCF se basa en el uso de estos servidores proxy.</span><span class="sxs-lookup"><span data-stu-id="75c74-177">The WCF service model is based on the use of such proxies.</span></span> <span data-ttu-id="75c74-178">En el modelo de servicio WCF, el contrato de servicio se expresa como una interfaz. NET.</span><span class="sxs-lookup"><span data-stu-id="75c74-178">In the WCF service model, the service contract is expressed as a .NET interface.</span></span>
 
-**SOAP (Simple Object Access Protocol)**  
-Un protocolo simple basado en XML para intercambiar estructurada y de tipos de información en entornos distribuidos descentralizados. WCF se basa en el intercambio de mensajes SOAP entre clientes y servicios para invocar operaciones y devolver resultados.
+  
+## <a name="r"></a><span data-ttu-id="75c74-179">L</span><span class="sxs-lookup"><span data-stu-id="75c74-179">R</span></span>    
 
-**Mensaje SOAP**  
-documento XML con formato correcto. Debería utilizar el sobre SOAP y el espacio de nombres de codificación SOAP e incluir una declaración opcional XML, con un sobre SOAP (elemento raíz) compuesto de un encabezado opcional SOAP y un cuerpo de mensaje SOAP.
+<span data-ttu-id="75c74-180">**solicitudes y respuestas**</span><span class="sxs-lookup"><span data-stu-id="75c74-180">**request-response**</span></span>  
+<span data-ttu-id="75c74-181">Un patrón de intercambio mensajes (MEP) en el que el remitente envía un mensaje de solicitud y espera un mensaje de respuesta con respecto al receptor.</span><span class="sxs-lookup"><span data-stu-id="75c74-181">A message exchange pattern (MEP) in which the sender sends a request message and expects a response message from the receiver.</span></span> <span data-ttu-id="75c74-182">En BizTalk Server, MEP se conoce como patrones de comunicación.</span><span class="sxs-lookup"><span data-stu-id="75c74-182">In BizTalk Server, MEPs are referred to as communication patterns.</span></span> <span data-ttu-id="75c74-183">Dependiendo de la tecnología de mensajería y la dirección del mensaje de solicitud (entrante o saliente), este patrón también se denomina petición-respuesta o solicitud-respuesta.</span><span class="sxs-lookup"><span data-stu-id="75c74-183">Depending on the messaging technology and the direction of the request message (inbound or outbound), this pattern is also called request-reply or solicit-response.</span></span>
 
-**SQL Server Integration Services (SSIS)**  
-Un componente que se usa para importar, exportar y transformar datos de distintos orígenes de datos. Servicios de transformación de datos (DTS) se ha llamado anteriormente.
+<span data-ttu-id="75c74-184">**experiencia en tiempo de ejecución**</span><span class="sxs-lookup"><span data-stu-id="75c74-184">**run-time experience**</span></span>  
+<span data-ttu-id="75c74-185">Los procedimientos y las operaciones realizadas por un desarrollador en tiempo de ejecución o al implementar una solución; Por ejemplo, al crear un enlace de puerto físico desde la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="75c74-185">Procedures and operations performed by a developer during run time or when deploying a solution; for example, creating a physical port binding from the BizTalk Server Administration console.</span></span>  
 
-**datos fuertemente tipados**  
-Un conjunto de datos o un conjunto de resultados que está enlazado a un tipo de objeto subyacente. Cada fila de un conjunto de datos XML fuertemente tipados se compone de un tipo, con el nombre de elementos que corresponden a los campos del tipo de objeto subyacente. 
 
-**sinónimo**  
-Un nombre alternativo para un objeto de ámbito de esquema.  
+## <a name="s"></a><span data-ttu-id="75c74-186">S</span><span class="sxs-lookup"><span data-stu-id="75c74-186">S</span></span>  
+  
+<span data-ttu-id="75c74-187">**esquema**</span><span class="sxs-lookup"><span data-stu-id="75c74-187">**schema**</span></span>  
+<span data-ttu-id="75c74-188">Estructura de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="75c74-188">The structure for a message.</span></span> <span data-ttu-id="75c74-189">Un esquema puede contener varios subesquema.</span><span class="sxs-lookup"><span data-stu-id="75c74-189">A schema can contain multiple subschema.</span></span>
+
+<span data-ttu-id="75c74-190">**Herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)**</span><span class="sxs-lookup"><span data-stu-id="75c74-190">**ServiceModel Metadata Utility Tool (svcutil.exe)**</span></span>  
+<span data-ttu-id="75c74-191">Una utilidad de línea de comandos que se incluye con WCF.</span><span class="sxs-lookup"><span data-stu-id="75c74-191">A command-line utility that is included with WCF.</span></span> <span data-ttu-id="75c74-192">Se utiliza para crear el código de proxy del modelo de servicio de la descripción del servicio (metadatos) que se expone mediante un servicio WCF como un adaptador.</span><span class="sxs-lookup"><span data-stu-id="75c74-192">It is used to create service model proxy code from the service description (metadata) that is exposed by a WCF service such as an adapter.</span></span> <span data-ttu-id="75c74-193">Para las operaciones de salida, la herramienta crea un código de clase y la aplicación auxiliar de cliente WCF; para las operaciones de entrada, la herramienta crea un código de aplicación auxiliar de contrato del servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="75c74-193">For outbound operations, the tool creates a WCF client class and helper code; for inbound operations, the tool creates a WCF service contract and helper code.</span></span>
+
+<span data-ttu-id="75c74-194">**SOAP (Simple Object Access Protocol)**</span><span class="sxs-lookup"><span data-stu-id="75c74-194">**SOAP (Simple Object Access Protocol)**</span></span>  
+<span data-ttu-id="75c74-195">Un protocolo simple basado en XML para intercambiar estructurada y de tipos de información en entornos distribuidos descentralizados.</span><span class="sxs-lookup"><span data-stu-id="75c74-195">A simple, XML-based protocol for exchanging structured and type information in decentralized, distributed environments.</span></span> <span data-ttu-id="75c74-196">WCF se basa en el intercambio de mensajes SOAP entre clientes y servicios para invocar operaciones y devolver resultados.</span><span class="sxs-lookup"><span data-stu-id="75c74-196">WCF is based on the exchange of SOAP messages between clients and services to invoke operations and return results.</span></span>
+
+<span data-ttu-id="75c74-197">**Mensaje SOAP**</span><span class="sxs-lookup"><span data-stu-id="75c74-197">**SOAP message**</span></span>  
+<span data-ttu-id="75c74-198">documento XML con formato correcto.</span><span class="sxs-lookup"><span data-stu-id="75c74-198">A well-formed XML document.</span></span> <span data-ttu-id="75c74-199">Debería utilizar el sobre SOAP y el espacio de nombres de codificación SOAP e incluir una declaración opcional XML, con un sobre SOAP (elemento raíz) compuesto de un encabezado opcional SOAP y un cuerpo de mensaje SOAP.</span><span class="sxs-lookup"><span data-stu-id="75c74-199">It should use the SOAP envelope and SOAP encoding namespaces and include an optional XML declaration, followed by a SOAP envelope (the root element), which is made up of an optional SOAP header and a SOAP message body.</span></span>
+
+<span data-ttu-id="75c74-200">**SQL Server Integration Services (SSIS)**</span><span class="sxs-lookup"><span data-stu-id="75c74-200">**SQL Server Integration Services (SSIS)**</span></span>  
+<span data-ttu-id="75c74-201">Un componente que se usa para importar, exportar y transformar datos de distintos orígenes de datos.</span><span class="sxs-lookup"><span data-stu-id="75c74-201">A component that is used to import, export, and transform data from different data sources.</span></span> <span data-ttu-id="75c74-202">Servicios de transformación de datos (DTS) se ha llamado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="75c74-202">Previously called data transformation service (DTS).</span></span>
+
+<span data-ttu-id="75c74-203">**datos fuertemente tipados**</span><span class="sxs-lookup"><span data-stu-id="75c74-203">**strongly-typed data**</span></span>  
+<span data-ttu-id="75c74-204">Un conjunto de datos o un conjunto de resultados que está enlazado a un tipo de objeto subyacente.</span><span class="sxs-lookup"><span data-stu-id="75c74-204">A data set or result set that is bound to an underlying object type.</span></span> <span data-ttu-id="75c74-205">Cada fila de un conjunto de datos XML fuertemente tipados se compone de un tipo, con el nombre de elementos que corresponden a los campos del tipo de objeto subyacente.</span><span class="sxs-lookup"><span data-stu-id="75c74-205">Each row in a strongly-typed XML data set is composed of typed, named elements that correspond to fields of the underlying object type.</span></span> 
+
+<span data-ttu-id="75c74-206">**sinónimo**</span><span class="sxs-lookup"><span data-stu-id="75c74-206">**synonym**</span></span>  
+<span data-ttu-id="75c74-207">Un nombre alternativo para un objeto de ámbito de esquema.</span><span class="sxs-lookup"><span data-stu-id="75c74-207">An alternative name for a schema-scoped object.</span></span>  
   
  
-## <a name="w"></a>W  
-**Modelo de canal WCF**  
-Un modelo de programación que se basa en varias interfaces y otros tipos. Los canales proporcionan un modelo de programación de bajo nivel para enviar y recibir mensajes.
+## <a name="w"></a><span data-ttu-id="75c74-208">W</span><span class="sxs-lookup"><span data-stu-id="75c74-208">W</span></span>  
+<span data-ttu-id="75c74-209">**Modelo de canal WCF**</span><span class="sxs-lookup"><span data-stu-id="75c74-209">**WCF channel model**</span></span>  
+<span data-ttu-id="75c74-210">Un modelo de programación que se basa en varias interfaces y otros tipos.</span><span class="sxs-lookup"><span data-stu-id="75c74-210">A programming model that relies on several interfaces and other types.</span></span> <span data-ttu-id="75c74-211">Los canales proporcionan un modelo de programación de bajo nivel para enviar y recibir mensajes.</span><span class="sxs-lookup"><span data-stu-id="75c74-211">Channels provide a low-level programming model for sending and receiving messages.</span></span>
 
-**Cliente de WCF**  
-Una construcción de aplicación de cliente que expone las operaciones de servicio como métodos. Puede usar el agregar adaptador de servicio de referencia de complemento de Visual Studio o la herramienta de utilidad de metadatos de ServiceModel para generar una clase de cliente WCF desde los metadatos expuestos por un adaptador.
+<span data-ttu-id="75c74-212">**Cliente de WCF**</span><span class="sxs-lookup"><span data-stu-id="75c74-212">**WCF client**</span></span>  
+<span data-ttu-id="75c74-213">Una construcción de aplicación de cliente que expone las operaciones de servicio como métodos.</span><span class="sxs-lookup"><span data-stu-id="75c74-213">A client-application construct that exposes the service operations as methods.</span></span> <span data-ttu-id="75c74-214">Puede usar el agregar adaptador de servicio de referencia de complemento de Visual Studio o la herramienta de utilidad de metadatos de ServiceModel para generar una clase de cliente WCF desde los metadatos expuestos por un adaptador.</span><span class="sxs-lookup"><span data-stu-id="75c74-214">You can use the Add Adapter Service Reference Visual Studio Plug-in or the ServiceModel Metadata Utility Tool to generate a WCF client class from the metadata exposed by an adapter.</span></span>
 
-**Contrato de servicio WCF**  
-Representación en forma de código administrado del contrato de servicio. Se expresa como una interfaz en las clases y métodos se atribuyen para definir el servicio, la operación, el mensaje y el contratos de datos usados para comunicarse con un servicio. Puede usar la herramienta de utilidad de metadatos de ServiceModel o el agregar adaptador de servicio de referencia de complemento de Visual Studio para generar un contrato de servicio WCF de los metadatos expuestos por un adaptador. Implemente el contrato de servicio WCF para operaciones de recepción de un sistema LOB.
+<span data-ttu-id="75c74-215">**Contrato de servicio WCF**</span><span class="sxs-lookup"><span data-stu-id="75c74-215">**WCF service contract**</span></span>  
+<span data-ttu-id="75c74-216">Representación en forma de código administrado del contrato de servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-216">A managed-code representation of the service contract.</span></span> <span data-ttu-id="75c74-217">Se expresa como una interfaz en las clases y métodos se atribuyen para definir el servicio, la operación, el mensaje y el contratos de datos usados para comunicarse con un servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-217">It is expressed as an interface in which classes and methods are attributed to define the service, operation, message, and data contracts used to communicate with a service.</span></span> <span data-ttu-id="75c74-218">Puede usar la herramienta de utilidad de metadatos de ServiceModel o el agregar adaptador de servicio de referencia de complemento de Visual Studio para generar un contrato de servicio WCF de los metadatos expuestos por un adaptador.</span><span class="sxs-lookup"><span data-stu-id="75c74-218">You can use the ServiceModel Metadata Utility tool or the Add Adapter Service Reference Visual Studio Plug-in to generate a WCF service contract from the metadata exposed by an adapter.</span></span> <span data-ttu-id="75c74-219">Implemente el contrato de servicio WCF para operaciones de recepción de un sistema LOB.</span><span class="sxs-lookup"><span data-stu-id="75c74-219">You implement the WCF service contract to receive operations from an LOB system.</span></span>
 
-**Modelo de servicio WCF**  
-Un modelo de programación de WCF en el que un servicio se representa como un objeto de código administrado. Las operaciones expuestas por el servicio se representan como métodos con datos fuertemente tipados.
+<span data-ttu-id="75c74-220">**Modelo de servicio WCF**</span><span class="sxs-lookup"><span data-stu-id="75c74-220">**WCF service model**</span></span>  
+<span data-ttu-id="75c74-221">Un modelo de programación de WCF en el que un servicio se representa como un objeto de código administrado.</span><span class="sxs-lookup"><span data-stu-id="75c74-221">A WCF programming model in which a service is represented as a managed code object.</span></span> <span data-ttu-id="75c74-222">Las operaciones expuestas por el servicio se representan como métodos con datos fuertemente tipados.</span><span class="sxs-lookup"><span data-stu-id="75c74-222">The operations exposed by the service are represented as methods with strongly-typed data.</span></span>
 
-**datos débilmente tipada**  
-Un conjunto de datos o un conjunto de resultados que no está enlazado a un tipo de objeto subyacente. Cada fila de un conjunto de datos XML débilmente tipada se compone de una colección de columnas genéricas en el que describen los atributos el nombre y tipo de cada elemento.
+<span data-ttu-id="75c74-223">**datos débilmente tipada**</span><span class="sxs-lookup"><span data-stu-id="75c74-223">**weakly-typed data**</span></span>  
+<span data-ttu-id="75c74-224">Un conjunto de datos o un conjunto de resultados que no está enlazado a un tipo de objeto subyacente.</span><span class="sxs-lookup"><span data-stu-id="75c74-224">A data set or result set that is not bound to an underlying object type.</span></span> <span data-ttu-id="75c74-225">Cada fila de un conjunto de datos XML débilmente tipada se compone de una colección de columnas genéricas en el que describen los atributos el nombre y tipo de cada elemento.</span><span class="sxs-lookup"><span data-stu-id="75c74-225">Each row in a weakly-typed XML data set is composed of a collection of generic columns in which attributes describe the name and type of each element.</span></span>
 
-**Servicios Web**  
-Una unidad de lógica de la aplicación que proporcionan datos y servicios a otras aplicaciones. Las aplicaciones obtienen acceso a los servicios Web XML mediante protocolos Web y formatos de datos estándar como HTTP, XML y SOAP, independientemente del modo en que se implementan los servicios Web XML. Los servicios Web XML combinan los mejores aspectos de Internet y del desarrollo basado en los componentes, y son los pilares del modelo de programación Microsoft .NET.
+<span data-ttu-id="75c74-226">**Servicios Web**</span><span class="sxs-lookup"><span data-stu-id="75c74-226">**Web services**</span></span>  
+<span data-ttu-id="75c74-227">Una unidad de lógica de la aplicación que proporcionan datos y servicios a otras aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="75c74-227">A unit of application logic providing data and services to other applications.</span></span> <span data-ttu-id="75c74-228">Las aplicaciones obtienen acceso a los servicios Web XML mediante protocolos Web y formatos de datos estándar como HTTP, XML y SOAP, independientemente del modo en que se implementan los servicios Web XML.</span><span class="sxs-lookup"><span data-stu-id="75c74-228">Applications access XML Web services using standard Web protocols and data formats such as HTTP, XML, and SOAP, independent of how each XML Web service is implemented.</span></span> <span data-ttu-id="75c74-229">Los servicios Web XML combinan los mejores aspectos de Internet y del desarrollo basado en los componentes, y son los pilares del modelo de programación Microsoft .NET.</span><span class="sxs-lookup"><span data-stu-id="75c74-229">XML Web services combine the best aspects of component-based development and the Web, and are a cornerstone of the Microsoft .NET programming model.</span></span>
 
-**Lenguaje de descripción de servicios Web (WSDL)**  
-Un lenguaje basado en XML que describe un servicio como un conjunto de extremos que operan en los mensajes. El documento WSDL describe el contrato de servicio, contratos de operación, contratos de mensaje y contratos de datos que los clientes deben usar para comunicarse con el servicio.
+<span data-ttu-id="75c74-230">**Lenguaje de descripción de servicios Web (WSDL)**</span><span class="sxs-lookup"><span data-stu-id="75c74-230">**Web Services Description Language (WSDL)**</span></span>  
+<span data-ttu-id="75c74-231">Un lenguaje basado en XML que describe un servicio como un conjunto de extremos que operan en los mensajes.</span><span class="sxs-lookup"><span data-stu-id="75c74-231">An XML-based language that describes a service as a set of endpoints that operate on messages.</span></span> <span data-ttu-id="75c74-232">El documento WSDL describe el contrato de servicio, contratos de operación, contratos de mensaje y contratos de datos que los clientes deben usar para comunicarse con el servicio.</span><span class="sxs-lookup"><span data-stu-id="75c74-232">The WSDL document describes the service contract, operation contracts, message contracts, and data contracts that a client must use to interface with the service.</span></span>
 
-**Windows Communication Foundation (WCF)**  
-Una infraestructura de comunicación orientadas a servicios de Microsoft. El marco de trabajo inherentemente proporciona a los clientes con un servicio de programación modelo y un modelo de programación para un control más preciso de intercambios de mensajes de canal.
+<span data-ttu-id="75c74-233">**Windows Communication Foundation (WCF)**</span><span class="sxs-lookup"><span data-stu-id="75c74-233">**Windows Communication Foundation (WCF)**</span></span>  
+<span data-ttu-id="75c74-234">Una infraestructura de comunicación orientadas a servicios de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="75c74-234">A Microsoft service-oriented communication infrastructure.</span></span> <span data-ttu-id="75c74-235">El marco de trabajo inherentemente proporciona a los clientes con un servicio de programación modelo y un modelo de programación para un control más preciso de intercambios de mensajes de canal.</span><span class="sxs-lookup"><span data-stu-id="75c74-235">The framework inherently provides clients with a service programming model and a channel programming model for finer control of message exchanges.</span></span>
 
-## <a name="x"></a>X   
+## <a name="x"></a><span data-ttu-id="75c74-236">X</span><span class="sxs-lookup"><span data-stu-id="75c74-236">X</span></span>   
   
-**Lenguaje de definición de esquemas XML (XSD)**  
-Lenguaje de esquemas. Un esquema XML define los tipos de elementos, atributos y los datos que cumplen con la parte 1 del esquema XML de World Wide Web Consortium (W3C): recomendación de estructuras del lenguaje de definición de esquemas XML. Parte 2 del esquema XML de W3C: la recomendación de tipos de datos es la recomendación para definir los tipos de datos que se utilizan en los esquemas XML. El lenguaje de definición de esquemas XML permite definir la estructura y los tipos de datos de los mensajes XML.
+<span data-ttu-id="75c74-237">**Lenguaje de definición de esquemas XML (XSD)**</span><span class="sxs-lookup"><span data-stu-id="75c74-237">**XML Schema definition language (XSD)**</span></span>  
+<span data-ttu-id="75c74-238">Lenguaje de esquemas.</span><span class="sxs-lookup"><span data-stu-id="75c74-238">A schema language.</span></span> <span data-ttu-id="75c74-239">Un esquema XML define los tipos de elementos, atributos y los datos que cumplen con la parte 1 del esquema XML de World Wide Web Consortium (W3C): recomendación de estructuras del lenguaje de definición de esquemas XML.</span><span class="sxs-lookup"><span data-stu-id="75c74-239">An XML Schema defines the elements, attributes, and data types that comply with the World Wide Web Consortium (W3C) XML Schema Part 1: Structures Recommendation for the XML Schema Definition Language.</span></span> <span data-ttu-id="75c74-240">Parte 2 del esquema XML de W3C: la recomendación de tipos de datos es la recomendación para definir los tipos de datos que se utilizan en los esquemas XML.</span><span class="sxs-lookup"><span data-stu-id="75c74-240">The W3C XML Schema Part 2: Datatypes Recommendation is the recommendation for defining data types that are used in XML schemas.</span></span> <span data-ttu-id="75c74-241">El lenguaje de definición de esquemas XML permite definir la estructura y los tipos de datos de los mensajes XML.</span><span class="sxs-lookup"><span data-stu-id="75c74-241">The XML Schema definition language enables you to define the structure and data types for XML messages.</span></span>

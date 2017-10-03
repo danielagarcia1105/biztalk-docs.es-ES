@@ -25,11 +25,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="module-5-adding-a-flat-file-receive-location-and-xml-send-port"></a>Módulo 5: Agregar un archivo plano ubicación de recepción y el puerto de envío de XML
-En este módulo, agregar puerto y la ubicación de recepción de un archivo sin formato y XML de un puerto de envío. Usar el puerto de recepción y la ubicación para recibir un archivo plano MT103 desde una carpeta de archivos. Usar el puerto de envío para enviar el mensaje MT103 a una carpeta de archivo de salida en formato XML.  
+# <a name="module-5-adding-a-flat-file-receive-location-and-xml-send-port"></a><span data-ttu-id="681e3-102">Módulo 5: Agregar un archivo plano ubicación de recepción y el puerto de envío de XML</span><span class="sxs-lookup"><span data-stu-id="681e3-102">Module 5: Adding a Flat File Receive Location and XML Send Port</span></span>
+<span data-ttu-id="681e3-103">En este módulo, agregar puerto y la ubicación de recepción de un archivo sin formato y XML de un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="681e3-103">In this module, you add one flat file receive port and location, and one XML send port.</span></span> <span data-ttu-id="681e3-104">Usar el puerto de recepción y la ubicación para recibir un archivo plano MT103 desde una carpeta de archivos.</span><span class="sxs-lookup"><span data-stu-id="681e3-104">You use the receive port and location to receive an MT103 flat file from a file folder.</span></span> <span data-ttu-id="681e3-105">Usar el puerto de envío para enviar el mensaje MT103 a una carpeta de archivo de salida en formato XML.</span><span class="sxs-lookup"><span data-stu-id="681e3-105">You use the send port to send the MT103 message to an outbound file folder in XML format.</span></span>  
   
- Esta sección contiene:  
+ <span data-ttu-id="681e3-106">Esta sección contiene:</span><span class="sxs-lookup"><span data-stu-id="681e3-106">This section contains:</span></span>  
   
--   [Lección 1: Agregar archivos sin puerto de recepción y ubicación](../../adapters-and-accelerators/accelerator-swift/lesson-1-adding-flat-file-receive-port-and-location.md)  
+-   [<span data-ttu-id="681e3-107">Lección 1: Agregar archivos sin puerto de recepción y ubicación</span><span class="sxs-lookup"><span data-stu-id="681e3-107">Lesson 1: Adding Flat File Receive Port and Location</span></span>](../../adapters-and-accelerators/accelerator-swift/lesson-1-adding-flat-file-receive-port-and-location.md)  
   
--   [Lección 2: Agregar un puerto de envío de XML](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md)
+-   [<span data-ttu-id="681e3-108">Lección 2: Agregar un puerto de envío de XML</span><span class="sxs-lookup"><span data-stu-id="681e3-108">Lesson 2: Adding an XML Send Port</span></span>](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md)

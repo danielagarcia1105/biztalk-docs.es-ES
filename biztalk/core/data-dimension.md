@@ -21,27 +21,27 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="data-dimension"></a>Dimensión de datos
-La definición de una dimensión de datos permite usar el valor de ciertos elementos de texto de la actividad de BAM en filas o columnas. Por ejemplo, puede usarse una dimensión de datos llamada Productos para crear la tabla siguiente:  
+# <a name="data-dimension"></a><span data-ttu-id="6bd83-102">Dimensión de datos</span><span class="sxs-lookup"><span data-stu-id="6bd83-102">Data Dimension</span></span>
+<span data-ttu-id="6bd83-103">La definición de una dimensión de datos permite usar el valor de ciertos elementos de texto de la actividad de BAM en filas o columnas.</span><span class="sxs-lookup"><span data-stu-id="6bd83-103">Defining a data dimension allows the value of some text items in the BAM activity to be used on rows or columns.</span></span> <span data-ttu-id="6bd83-104">Por ejemplo, puede usarse una dimensión de datos llamada Productos para crear la tabla siguiente:</span><span class="sxs-lookup"><span data-stu-id="6bd83-104">For example a data dimension named Product can be used to create the following table:</span></span>  
   
-|Product|Count|  
+|<span data-ttu-id="6bd83-105">Product</span><span class="sxs-lookup"><span data-stu-id="6bd83-105">Product</span></span>|<span data-ttu-id="6bd83-106">Count</span><span class="sxs-lookup"><span data-stu-id="6bd83-106">Count</span></span>|  
 |-------------|-----------|  
-|Raquetas de tenis|100|  
-|Balones de fútbol|200|  
+|<span data-ttu-id="6bd83-107">Raquetas de tenis</span><span class="sxs-lookup"><span data-stu-id="6bd83-107">Tennis racquets</span></span>|<span data-ttu-id="6bd83-108">100</span><span class="sxs-lookup"><span data-stu-id="6bd83-108">100</span></span>|  
+|<span data-ttu-id="6bd83-109">Balones de fútbol</span><span class="sxs-lookup"><span data-stu-id="6bd83-109">Soccer balls</span></span>|<span data-ttu-id="6bd83-110">200</span><span class="sxs-lookup"><span data-stu-id="6bd83-110">200</span></span>|  
   
- Asimismo, es posible definir más de una dimensión de datos en el Asistente para vistas de BAM. Por ejemplo, definir una dimensión de datos llamada **ubicación** con niveles para **estado** y **City** puede usarse para crear la tabla siguiente:  
+ <span data-ttu-id="6bd83-111">Asimismo, es posible definir más de una dimensión de datos en el Asistente para vistas de BAM.</span><span class="sxs-lookup"><span data-stu-id="6bd83-111">Also, more than one data dimension can be defined in the BAM view wizard.</span></span> <span data-ttu-id="6bd83-112">Por ejemplo, definir una dimensión de datos llamada **ubicación** con niveles para **estado** y **City** puede usarse para crear la tabla siguiente:</span><span class="sxs-lookup"><span data-stu-id="6bd83-112">For example, defining a data dimension named **Location** with levels for **State** and **City** can be used to create the following table:</span></span>  
   
 |||||  
 |-|-|-|-|  
-||California||Washington|  
-||Los Angeles|San Francisco|Seattle|  
-|Raquetas de tenis|50|20|30|  
-|Balones de fútbol|130|50|20|  
+||<span data-ttu-id="6bd83-113">California</span><span class="sxs-lookup"><span data-stu-id="6bd83-113">California</span></span>||<span data-ttu-id="6bd83-114">Washington</span><span class="sxs-lookup"><span data-stu-id="6bd83-114">Washington</span></span>|  
+||<span data-ttu-id="6bd83-115">Los Angeles</span><span class="sxs-lookup"><span data-stu-id="6bd83-115">Los Angeles</span></span>|<span data-ttu-id="6bd83-116">San Francisco</span><span class="sxs-lookup"><span data-stu-id="6bd83-116">San Francisco</span></span>|<span data-ttu-id="6bd83-117">Seattle</span><span class="sxs-lookup"><span data-stu-id="6bd83-117">Seattle</span></span>|  
+|<span data-ttu-id="6bd83-118">Raquetas de tenis</span><span class="sxs-lookup"><span data-stu-id="6bd83-118">Tennis racquets</span></span>|<span data-ttu-id="6bd83-119">50</span><span class="sxs-lookup"><span data-stu-id="6bd83-119">50</span></span>|<span data-ttu-id="6bd83-120">20</span><span class="sxs-lookup"><span data-stu-id="6bd83-120">20</span></span>|<span data-ttu-id="6bd83-121">30</span><span class="sxs-lookup"><span data-stu-id="6bd83-121">30</span></span>|  
+|<span data-ttu-id="6bd83-122">Balones de fútbol</span><span class="sxs-lookup"><span data-stu-id="6bd83-122">Soccer balls</span></span>|<span data-ttu-id="6bd83-123">130</span><span class="sxs-lookup"><span data-stu-id="6bd83-123">130</span></span>|<span data-ttu-id="6bd83-124">50</span><span class="sxs-lookup"><span data-stu-id="6bd83-124">50</span></span>|<span data-ttu-id="6bd83-125">20</span><span class="sxs-lookup"><span data-stu-id="6bd83-125">20</span></span>|  
   
- En esta tabla se usó la dimensión Producto para las filas y la dimensión Ubicación para las columnas.  
+ <span data-ttu-id="6bd83-126">En esta tabla se usó la dimensión Producto para las filas y la dimensión Ubicación para las columnas.</span><span class="sxs-lookup"><span data-stu-id="6bd83-126">In this table, the Product dimension was used as the rows, and the Location dimension was used as the columns.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Dimensión de tiempo](../core/time-dimension.md)   
- [Dimensión de progreso](../core/progress-dimension.md)   
- [Dimensión de rango numérico](../core/numeric-range-dimension.md)   
- [Definir dimensiones](../core/defining-dimensions.md)
+## <a name="see-also"></a><span data-ttu-id="6bd83-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="6bd83-127">See Also</span></span>  
+ <span data-ttu-id="6bd83-128">[Dimensión de tiempo](../core/time-dimension.md) </span><span class="sxs-lookup"><span data-stu-id="6bd83-128">[Time Dimension](../core/time-dimension.md) </span></span>  
+ <span data-ttu-id="6bd83-129">[Dimensión de progreso](../core/progress-dimension.md) </span><span class="sxs-lookup"><span data-stu-id="6bd83-129">[Progress Dimension](../core/progress-dimension.md) </span></span>  
+ <span data-ttu-id="6bd83-130">[Dimensión de rango numérico](../core/numeric-range-dimension.md) </span><span class="sxs-lookup"><span data-stu-id="6bd83-130">[Numeric Range Dimension](../core/numeric-range-dimension.md) </span></span>  
+ [<span data-ttu-id="6bd83-131">Definir dimensiones</span><span class="sxs-lookup"><span data-stu-id="6bd83-131">Defining Dimensions</span></span>](../core/defining-dimensions.md)

@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="making-orchestrations-transactional"></a>Realizar orquestaciones transaccionales
-Puede configurar la orquestación como una transacción, en gran parte del mismo modo que puede configurar un **ámbito** forma como una transacción.  
+# <a name="making-orchestrations-transactional"></a><span data-ttu-id="374ae-102">Realizar orquestaciones transaccionales</span><span class="sxs-lookup"><span data-stu-id="374ae-102">Making Orchestrations Transactional</span></span>
+<span data-ttu-id="374ae-103">Puede configurar la orquestación como una transacción, en gran parte del mismo modo que puede configurar un **ámbito** forma como una transacción.</span><span class="sxs-lookup"><span data-stu-id="374ae-103">You can configure your orchestration as a transaction, in much the same way that you can configure a **Scope** shape as a transaction.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="374ae-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="374ae-104">In This Section</span></span>  
   
--   [Transacciones](../core/transactions.md)  
+-   [<span data-ttu-id="374ae-105">Transacciones</span><span class="sxs-lookup"><span data-stu-id="374ae-105">Transactions</span></span>](../core/transactions.md)  
   
--   [Orquestaciones configuradas como transacciones](../core/transacted-orchestrations.md)  
+-   [<span data-ttu-id="374ae-106">Orquestaciones configuradas como transacciones</span><span class="sxs-lookup"><span data-stu-id="374ae-106">Transacted Orchestrations</span></span>](../core/transacted-orchestrations.md)  
   
--   [Cómo configurar propiedades de transacción en una orquestación](../core/how-to-configure-transactional-properties-on-an-orchestration.md)
+-   [<span data-ttu-id="374ae-107">Cómo configurar propiedades de transacción en una orquestación</span><span class="sxs-lookup"><span data-stu-id="374ae-107">How to Configure Transactional Properties on an Orchestration</span></span>](../core/how-to-configure-transactional-properties-on-an-orchestration.md)

@@ -19,20 +19,20 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="refi12-in-v2xml-231"></a>REF_I12 de V2. XML 2.3.1
-Debe cambiar manualmente el código siguiente en el esquema REF_I12 V2. XML 2.3.1 después de ejecutar la herramienta Update2XMLSchema:  
+# <a name="refi12-in-v2xml-231"></a><span data-ttu-id="ae052-102">REF_I12 de V2. XML 2.3.1</span><span class="sxs-lookup"><span data-stu-id="ae052-102">REF_I12 in V2.XML 2.3.1</span></span>
+<span data-ttu-id="ae052-103">Debe cambiar manualmente el código siguiente en el esquema REF_I12 V2. XML 2.3.1 después de ejecutar la herramienta Update2XMLSchema:</span><span class="sxs-lookup"><span data-stu-id="ae052-103">You must manually change the following code in the REF_I12 schema in V2.XML 2.3.1 after running the Update2XMLSchema tool:</span></span>  
   
 ```  
 <xsd:element ref="REF_I12.PATIENT_VISIT" minOccurs="0" maxOccurs="1" />  
 <xsd:element ref="REF_I12.PATIENT_VISIT" minOccurs="0" maxOccurs="1" />  
 ```  
   
- Debe reemplazar el código anterior con los siguientes valores, con el fin de corregir la ambigüedad deberse a varias repeticiones de la **REF** definición de elemento:  
+ <span data-ttu-id="ae052-104">Debe reemplazar el código anterior con los siguientes valores, con el fin de corregir la ambigüedad deberse a varias repeticiones de la **REF** definición de elemento:</span><span class="sxs-lookup"><span data-stu-id="ae052-104">You must replace the above code with the following, in order to fix the ambiguity caused by multiple occurrences of the **REF** element definition:</span></span>  
   
 ```  
 <xsd:element minOccurs="0" maxOccurs="2" ref="REF_I12.PATIENT_VISIT" />  
 ```  
   
-## <a name="see-also"></a>Vea también  
- [Actualizaciones manuales necesarias](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md)   
- [Utilidades](../../adapters-and-accelerators/accelerator-hl7/utilities2.md)
+## <a name="see-also"></a><span data-ttu-id="ae052-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="ae052-105">See Also</span></span>  
+ <span data-ttu-id="ae052-106">[Actualizaciones manuales necesarias](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md) </span><span class="sxs-lookup"><span data-stu-id="ae052-106">[Required Manual Updates](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md) </span></span>  
+ [<span data-ttu-id="ae052-107">Utilidades</span><span class="sxs-lookup"><span data-stu-id="ae052-107">Utilities</span></span>](../../adapters-and-accelerators/accelerator-hl7/utilities2.md)

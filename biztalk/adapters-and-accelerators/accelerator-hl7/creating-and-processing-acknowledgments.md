@@ -22,17 +22,17 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="creating-and-processing-acknowledgments"></a>Creación y procesamiento de confirmaciones
-Los temas siguientes proporcionan información acerca de los esquemas de mensaje de confirmación y cómo el Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) procesa las confirmaciones.  
+# <a name="creating-and-processing-acknowledgments"></a><span data-ttu-id="2c1c6-102">Creación y procesamiento de confirmaciones</span><span class="sxs-lookup"><span data-stu-id="2c1c6-102">Creating and Processing Acknowledgments</span></span>
+<span data-ttu-id="2c1c6-103">Los temas siguientes proporcionan información acerca de los esquemas de mensaje de confirmación y cómo el Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) procesa las confirmaciones.</span><span class="sxs-lookup"><span data-stu-id="2c1c6-103">The following topics provide information about ACK message schemas, and how BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) processes acknowledgments.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="2c1c6-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2c1c6-104">In This Section</span></span>  
   
--   [Tipos de esquema de mensaje de confirmación](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)  
+-   [<span data-ttu-id="2c1c6-105">Tipos de esquema de mensaje de confirmación</span><span class="sxs-lookup"><span data-stu-id="2c1c6-105">ACK Message Schema Types</span></span>](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)  
   
--   [Segmento de confirmación del mensaje](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)  
+-   [<span data-ttu-id="2c1c6-106">Segmento de confirmación del mensaje</span><span class="sxs-lookup"><span data-stu-id="2c1c6-106">Message Acknowledgment Segment</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)  
   
--   [Confirmaciones estáticas](../../adapters-and-accelerators/accelerator-hl7/static-acknowledgments.md)  
+-   [<span data-ttu-id="2c1c6-107">Confirmaciones estáticas</span><span class="sxs-lookup"><span data-stu-id="2c1c6-107">Static Acknowledgments</span></span>](../../adapters-and-accelerators/accelerator-hl7/static-acknowledgments.md)  
   
--   [Cómo configurar un puerto de envío para recibir mensajes de confirmación](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)  
+-   [<span data-ttu-id="2c1c6-108">Cómo configurar un puerto de envío para recibir mensajes de confirmación</span><span class="sxs-lookup"><span data-stu-id="2c1c6-108">Setting Up a Send Port for Receiving ACKs</span></span>](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)  
   
--   [Condiciones de Error de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-error-conditions.md)
+-   [<span data-ttu-id="2c1c6-109">Condiciones de Error de confirmación</span><span class="sxs-lookup"><span data-stu-id="2c1c6-109">Acknowledgment Error Conditions</span></span>](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-error-conditions.md)

@@ -21,24 +21,24 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-biztalk-project-properties"></a>Configuración de las propiedades del proyecto de BizTalk
-En las propiedades del proyecto se establece la configuración global de los proyectos creados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Los proyectos de BizTalk comparten muchas de las propiedades de otros sistemas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. La mayoría de estas propiedades se configuran en el Diseñador de proyectos.  
+# <a name="configuring-biztalk-project-properties"></a><span data-ttu-id="cacb0-102">Configuración de las propiedades del proyecto de BizTalk</span><span class="sxs-lookup"><span data-stu-id="cacb0-102">Configuring BizTalk Project Properties</span></span>
+<span data-ttu-id="cacb0-103">En las propiedades del proyecto se establece la configuración global de los proyectos creados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="cacb0-103">Project properties configure global settings for projects that you create in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="cacb0-104">Los proyectos de BizTalk comparten muchas de las propiedades de otros sistemas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="cacb0-104">BizTalk projects share many of the project properties of other [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects.</span></span> <span data-ttu-id="cacb0-105">La mayoría de estas propiedades se configuran en el Diseñador de proyectos.</span><span class="sxs-lookup"><span data-stu-id="cacb0-105">You configure most of these properties in the Project Designer.</span></span>  
   
-### <a name="to-access-properties-with-the-project-designer"></a>Procedimiento para obtener acceso a las propiedades con el Diseñador de proyectos  
+### <a name="to-access-properties-with-the-project-designer"></a><span data-ttu-id="cacb0-106">Procedimiento para obtener acceso a las propiedades con el Diseñador de proyectos</span><span class="sxs-lookup"><span data-stu-id="cacb0-106">To access properties with the Project Designer</span></span>  
   
-1.  En el Explorador de soluciones, seleccione el proyecto.  
+1.  <span data-ttu-id="cacb0-107">En el Explorador de soluciones, seleccione el proyecto.</span><span class="sxs-lookup"><span data-stu-id="cacb0-107">In Solution Explorer, select the project.</span></span>  
   
-2.  En el **proyecto** menú, haga clic en **propiedades** para obtener acceso al diseñador de proyectos.  
+2.  <span data-ttu-id="cacb0-108">En el **proyecto** menú, haga clic en **propiedades** para obtener acceso al diseñador de proyectos.</span><span class="sxs-lookup"><span data-stu-id="cacb0-108">On the **Project** menu, click **Properties** to access the Project Designer.</span></span>  
   
     > [!NOTE]
-    >  O bien, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.  
+    >  <span data-ttu-id="cacb0-109">O bien, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="cacb0-109">Alternatively, you can right-click the project, and then click **Properties**.</span></span>  
   
-3.  Haga clic en la pestaña de la propiedad deseada para obtener acceso a las propiedades del proyecto.  
+3.  <span data-ttu-id="cacb0-110">Haga clic en la pestaña de la propiedad deseada para obtener acceso a las propiedades del proyecto.</span><span class="sxs-lookup"><span data-stu-id="cacb0-110">Click the desired property tab to access project properties.</span></span>  
   
- Documentación de las propiedades comunes a todos los [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] pueden encontrar proyectos haciendo referencia a la información de la ficha de propiedad de diseñador de proyectos respectiva en el siguiente vínculo: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).  
+ <span data-ttu-id="cacb0-111">Documentación de las propiedades comunes a todos los [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] pueden encontrar proyectos haciendo referencia a la información de la ficha de propiedad de diseñador de proyectos respectiva en el siguiente vínculo: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).</span><span class="sxs-lookup"><span data-stu-id="cacb0-111">Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="cacb0-112">En esta sección</span><span class="sxs-lookup"><span data-stu-id="cacb0-112">In This Section</span></span>  
   
--   [Diseñador de proyectos: Pestaña de implementación](../core/project-designer-deployment-tab.md)  
+-   [<span data-ttu-id="cacb0-113">Diseñador de proyectos: Pestaña de implementación</span><span class="sxs-lookup"><span data-stu-id="cacb0-113">Project Designer: Deployment Tab</span></span>](../core/project-designer-deployment-tab.md)  
   
--   [Ventana de propiedades de proyecto de BizTalk](../core/biztalk-project-properties-window.md)
+-   [<span data-ttu-id="cacb0-114">Ventana de propiedades de proyecto de BizTalk</span><span class="sxs-lookup"><span data-stu-id="cacb0-114">BizTalk Project Properties Window</span></span>](../core/biztalk-project-properties-window.md)

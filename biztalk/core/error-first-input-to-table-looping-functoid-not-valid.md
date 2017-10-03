@@ -19,21 +19,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---first-input-to-table-looping-functoid-not-valid"></a>Error: primera entrada de Functoid no válida de bucle de tabla
-**Código de error**  
+# <a name="error---first-input-to-table-looping-functoid-not-valid"></a><span data-ttu-id="85d38-102">Error: primera entrada de Functoid no válida de bucle de tabla</span><span class="sxs-lookup"><span data-stu-id="85d38-102">Error - First Input to Table Looping Functoid Not Valid</span></span>
+<span data-ttu-id="85d38-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="85d38-103">**Error Code**</span></span>  
   
- btm1071  
+ <span data-ttu-id="85d38-104">btm1071</span><span class="sxs-lookup"><span data-stu-id="85d38-104">btm1071</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="85d38-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="85d38-105">**Explanation**</span></span>  
   
- El primer parámetro de entrada a la correspondiente **bucle de tabla** functoid no es válido. Este parámetro debe ser un vínculo desde un nodo del esquema de origen, el número de apariciones del elemento correspondiente en un mensaje de instancia de entrada controlará el número de veces que el conjunto de asociados **Extractor de tablas** functoids se invocará en tiempo de ejecución.  
+ <span data-ttu-id="85d38-106">El primer parámetro de entrada a la correspondiente **bucle de tabla** functoid no es válido.</span><span class="sxs-lookup"><span data-stu-id="85d38-106">The first input parameter to the relevant **Table Looping** functoid is not valid.</span></span> <span data-ttu-id="85d38-107">Este parámetro debe ser un vínculo desde un nodo del esquema de origen, el número de apariciones del elemento correspondiente en un mensaje de instancia de entrada controlará el número de veces que el conjunto de asociados **Extractor de tablas** functoids se invocará en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="85d38-107">This parameter must be a link from a node in the source schema—the number of occurrences of the corresponding element in an input instance message will control the number of times that the set of associated **Table Extractor** functoids will be invoked at run time.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="85d38-108">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="85d38-108">**User Action**</span></span>  
   
- Asegúrese de que los parámetros de entrada para el **bucle de tabla** functoid, que se obtiene acceso a través de la **parámetros de entrada** propiedad y el **configurar \<Functoid > Functoid** cuadro de diálogo, son como se muestra en la tabla siguiente.  
+ <span data-ttu-id="85d38-109">Asegúrese de que los parámetros de entrada para el **bucle de tabla** functoid, que se obtiene acceso a través de la **parámetros de entrada** propiedad y el **configurar \<Functoid > Functoid** cuadro de diálogo, son como se muestra en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="85d38-109">Ensure that the input parameters to the **Table Looping** functoid, as accessed through the **Input Parameters** property and the **Configure \<Functoid> Functoid** dialog box, are as shown in the following table.</span></span>  
   
-|Número de parámetro de entrada de functoid de Bucle de tabla|Description|  
+|<span data-ttu-id="85d38-110">Número de parámetro de entrada de functoid de Bucle de tabla</span><span class="sxs-lookup"><span data-stu-id="85d38-110">Table Looping functoid input parameter number</span></span>|<span data-ttu-id="85d38-111">Description</span><span class="sxs-lookup"><span data-stu-id="85d38-111">Description</span></span>|  
 |---------------------------------------------------|-----------------|  
-|1|Vínculo de un registro o campo del esquema de origen, el número de repeticiones de los cuales un mensaje de instancia de entrada controla el número de veces que el conjunto de asociados **Extractor de tablas** functoids se ejecutan.|  
-|2|El número de columnas en la tabla de datos que se configura a través de la **cuadrícula de bucle de tabla** propiedad de la correspondiente **bucle de tabla** functoid.|  
-|3 – 100|Constantes y vínculos (del esquema de origen o de salida de otros functoids) que se convertirán en orígenes posibles de datos con la cuadrícula de bucle de tabla.|
+|<span data-ttu-id="85d38-112">1</span><span class="sxs-lookup"><span data-stu-id="85d38-112">1</span></span>|<span data-ttu-id="85d38-113">Vínculo de un registro o campo del esquema de origen, el número de repeticiones de los cuales un mensaje de instancia de entrada controla el número de veces que el conjunto de asociados **Extractor de tablas** functoids se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="85d38-113">Link from a record or field in the source schema, the number of occurrences of which an input instance message controls the number of times the set of associated **Table Extractor** functoids are run.</span></span>|  
+|<span data-ttu-id="85d38-114">2</span><span class="sxs-lookup"><span data-stu-id="85d38-114">2</span></span>|<span data-ttu-id="85d38-115">El número de columnas en la tabla de datos que se configura a través de la **cuadrícula de bucle de tabla** propiedad de la correspondiente **bucle de tabla** functoid.</span><span class="sxs-lookup"><span data-stu-id="85d38-115">The number of columns in the data table configured through the **Table Looping Grid** property of the relevant **Table Looping** functoid.</span></span>|  
+|<span data-ttu-id="85d38-116">3 – 100</span><span class="sxs-lookup"><span data-stu-id="85d38-116">3 – 100</span></span>|<span data-ttu-id="85d38-117">Constantes y vínculos (del esquema de origen o de salida de otros functoids) que se convertirán en orígenes posibles de datos con la cuadrícula de bucle de tabla.</span><span class="sxs-lookup"><span data-stu-id="85d38-117">Constants and links (from the source schema or output from other functoids) that will become possible sources of data with the table looping grid.</span></span>|

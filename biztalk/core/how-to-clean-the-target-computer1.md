@@ -22,22 +22,22 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-clean-the-target-computer"></a>Cómo limpiar el equipo de destino
-Implementación sobrescribe la configuración de la ubicación de recepción. Al implementar un archivo de enlace (y el ensamblado) en un equipo de destino, los puertos de envío y ubicaciones de recepción se sustituyen por los en el archivo de enlace XML cuando se importan.  
+# <a name="how-to-clean-the-target-computer"></a><span data-ttu-id="bef84-102">Cómo limpiar el equipo de destino</span><span class="sxs-lookup"><span data-stu-id="bef84-102">How to Clean the Target Computer</span></span>
+<span data-ttu-id="bef84-103">Implementación sobrescribe la configuración de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="bef84-103">Deployment overwrites the receive location configuration.</span></span> <span data-ttu-id="bef84-104">Al implementar un archivo de enlace (y el ensamblado) en un equipo de destino, los puertos de envío y ubicaciones de recepción se sustituyen por los en el archivo de enlace XML cuando se importan.</span><span class="sxs-lookup"><span data-stu-id="bef84-104">When you deploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  
   
-### <a name="to-clean-the-target-computer"></a>Para limpiar el equipo de destino  
+### <a name="to-clean-the-target-computer"></a><span data-ttu-id="bef84-105">Para limpiar el equipo de destino</span><span class="sxs-lookup"><span data-stu-id="bef84-105">To clean the target computer</span></span>  
   
--   Quite los puertos de envío y ubicaciones de recepción vinculadas a la orquestación.  
+-   <span data-ttu-id="bef84-106">Quite los puertos de envío y ubicaciones de recepción vinculadas a la orquestación.</span><span class="sxs-lookup"><span data-stu-id="bef84-106">Remove send ports and receive locations bound to the orchestration.</span></span>  
   
-     Si no tiene Microsoft Visual Studio instalada en el equipo de destino, puede quitar los puertos ejecutando estas secuencias de comandos:  
+     <span data-ttu-id="bef84-107">Si no tiene Microsoft Visual Studio instalada en el equipo de destino, puede quitar los puertos ejecutando estas secuencias de comandos:</span><span class="sxs-lookup"><span data-stu-id="bef84-107">If you do not have Microsoft Visual Studio installed on the target computer, you can remove the ports by running these scripts:</span></span>  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
+    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="bef84-108">SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs</span><span class="sxs-lookup"><span data-stu-id="bef84-108">SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs</span></span>  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
+    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="bef84-109">SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs</span><span class="sxs-lookup"><span data-stu-id="bef84-109">SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs</span></span>  
   
-         Por ejemplo, en un símbolo del sistema, ejecute:  
+         <span data-ttu-id="bef84-110">Por ejemplo, en un símbolo del sistema, ejecute:</span><span class="sxs-lookup"><span data-stu-id="bef84-110">For example, at a command prompt, run:</span></span>  
   
-         **cscript comandos RemoveSendPort.vbs \<nombre de puerto de envío >**  
+         <span data-ttu-id="bef84-111">**cscript comandos RemoveSendPort.vbs \<nombre de puerto de envío >**</span><span class="sxs-lookup"><span data-stu-id="bef84-111">**cscript RemoveSendPort.vbs \<Send port name>**</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Implementación de puertos y ensamblados](../core/deploying-ports-and-assemblies1.md)
+## <a name="see-also"></a><span data-ttu-id="bef84-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="bef84-112">See Also</span></span>  
+ [<span data-ttu-id="bef84-113">Implementación de puertos y ensamblados</span><span class="sxs-lookup"><span data-stu-id="bef84-113">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies1.md)

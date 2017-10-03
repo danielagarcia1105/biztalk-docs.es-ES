@@ -18,23 +18,23 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="bam-wcf-interceptor"></a>Interceptor de WCF de BAM
-El interceptor de WCF de BAM proporciona compatibilidad total para el seguimiento de los datos en los servicios WCF.  
+# <a name="bam-wcf-interceptor"></a><span data-ttu-id="90bb0-102">Interceptor de WCF de BAM</span><span class="sxs-lookup"><span data-stu-id="90bb0-102">BAM WCF Interceptor</span></span>
+<span data-ttu-id="90bb0-103">El interceptor de WCF de BAM proporciona compatibilidad total para el seguimiento de los datos en los servicios WCF.</span><span class="sxs-lookup"><span data-stu-id="90bb0-103">The BAM WCF interceptor provides comprehensive support for tracking data within your WCF services.</span></span>  
   
- Puede utilizar el interceptor de WCF de BAM para:  
+ <span data-ttu-id="90bb0-104">Puede utilizar el interceptor de WCF de BAM para:</span><span class="sxs-lookup"><span data-stu-id="90bb0-104">You can use the BAM WCF interceptor to:</span></span>  
   
--   Enviar de forma transparente datos de aplicaciones de flujo de trabajo a BAM sin tener que volver a compilar la aplicación WCF.  
+-   <span data-ttu-id="90bb0-105">Enviar de forma transparente datos de aplicaciones de flujo de trabajo a BAM sin tener que volver a compilar la aplicación WCF.</span><span class="sxs-lookup"><span data-stu-id="90bb0-105">Transparently deliver workflow application data to BAM without having to recompile your WCF application.</span></span>  
   
--   Realizar el seguimiento de la información procedente de parámetros y mensajes en las llamadas del Servicio WCF.  
+-   <span data-ttu-id="90bb0-106">Realizar el seguimiento de la información procedente de parámetros y mensajes en las llamadas del Servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="90bb0-106">Track information from both parameters and messages in WCF service calls.</span></span>  
   
--   Realizar el seguimiento de la información procedente de mensajes en llamadas del Servicio WCF.  
+-   <span data-ttu-id="90bb0-107">Realizar el seguimiento de la información procedente de mensajes en llamadas del Servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="90bb0-107">Track information from messages in WCF service calls.</span></span>  
   
--   Participar en transacciones procedentes del cliente o iniciadas internamente por el tiempo de ejecución de WCF para llamadas de servicio con transacciones.  
+-   <span data-ttu-id="90bb0-108">Participar en transacciones procedentes del cliente o iniciadas internamente por el tiempo de ejecución de WCF para llamadas de servicio con transacciones.</span><span class="sxs-lookup"><span data-stu-id="90bb0-108">Participate in transactions flowed from the client or initiated internally by the WCF runtime for transacted service calls.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="90bb0-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="90bb0-109">In This Section</span></span>  
   
--   [Cómo configurar una aplicación de Windows Communication Foundation de intercepción](../core/configure-a-windows-communication-foundation-application-for-interception.md)  
+-   [<span data-ttu-id="90bb0-110">Cómo configurar una aplicación de Windows Communication Foundation de intercepción</span><span class="sxs-lookup"><span data-stu-id="90bb0-110">How to Configure a Windows Communication Foundation Application for Interception</span></span>](../core/configure-a-windows-communication-foundation-application-for-interception.md)  
   
--   [Esquema de Windows Communication Foundation](../core/windows-communication-foundation-schema.md)  
+-   [<span data-ttu-id="90bb0-111">Esquema de Windows Communication Foundation</span><span class="sxs-lookup"><span data-stu-id="90bb0-111">Windows Communication Foundation Schema</span></span>](../core/windows-communication-foundation-schema.md)  
   
--   [Operaciones de Windows Communication Foundation](../core/operations-in-windows-communication-foundation.md)
+-   [<span data-ttu-id="90bb0-112">Operaciones de Windows Communication Foundation</span><span class="sxs-lookup"><span data-stu-id="90bb0-112">Operations in Windows Communication Foundation</span></span>](../core/operations-in-windows-communication-foundation.md)

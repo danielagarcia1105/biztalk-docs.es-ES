@@ -23,20 +23,20 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-use-business-rules-in-orchestrations"></a>Cómo usar reglas de negocios en orquestaciones
-Puede crear una instancia de una directiva de reglas de negocios y ejecutarla en la orquestación. Para ello, agregue una forma Reglas de llamada dentro de un ámbito de transacción de carácter atómico y configure una directiva dentro de ella.  
+# <a name="how-to-use-business-rules-in-orchestrations"></a><span data-ttu-id="2df82-102">Cómo usar reglas de negocios en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="2df82-102">How to Use Business Rules in Orchestrations</span></span>
+<span data-ttu-id="2df82-103">Puede crear una instancia de una directiva de reglas de negocios y ejecutarla en la orquestación.</span><span class="sxs-lookup"><span data-stu-id="2df82-103">You can create an instance of a Business Rules policy and execute it in your orchestration.</span></span> <span data-ttu-id="2df82-104">Para ello, agregue una forma Reglas de llamada dentro de un ámbito de transacción de carácter atómico y configure una directiva dentro de ella.</span><span class="sxs-lookup"><span data-stu-id="2df82-104">To do this, add a Call Rules shape inside an atomic transaction scope, and configure a policy on it.</span></span>  
   
-## <a name="examples-of-using-business-rules"></a>Ejemplos de cómo utilizar reglas de negocios  
+## <a name="examples-of-using-business-rules"></a><span data-ttu-id="2df82-105">Ejemplos de cómo utilizar reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="2df82-105">Examples of Using Business Rules</span></span>  
   
--   [Business Rules Hello World1 (ejemplo de BizTalk Server)](../core/business-rules-hello-world1-biztalk-server-sample.md)  
+-   [<span data-ttu-id="2df82-106">Business Rules Hello World1 (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2df82-106">Business Rules Hello World1 (BizTalk Server Sample)</span></span>](../core/business-rules-hello-world1-biztalk-server-sample.md)  
   
--   [Business Rules Hello World2 (ejemplo de BizTalk Server)](../core/business-rules-hello-world2-biztalk-server-sample.md)  
+-   [<span data-ttu-id="2df82-107">Business Rules Hello World2 (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2df82-107">Business Rules Hello World2 (BizTalk Server Sample)</span></span>](../core/business-rules-hello-world2-biztalk-server-sample.md)  
   
--   [Préstamos procesamiento con reglas de negocios (ejemplo de BizTalk Server)](../core/loans-processing-using-business-rules-biztalk-server-sample.md)  
+-   [<span data-ttu-id="2df82-108">Préstamos procesamiento con reglas de negocios (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2df82-108">Loans Processing Using Business Rules (BizTalk Server Sample)</span></span>](../core/loans-processing-using-business-rules-biztalk-server-sample.md)  
   
--   [Medical Claims directivas de procesamiento y pruebas (ejemplo de BizTalk Server)](../core/medical-claims-processing-and-testing-policies-biztalk-server-sample.md)  
+-   [<span data-ttu-id="2df82-109">Medical Claims directivas de procesamiento y pruebas (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2df82-109">Medical Claims Processing and Testing Policies (BizTalk Server Sample)</span></span>](../core/medical-claims-processing-and-testing-policies-biztalk-server-sample.md)  
   
--   Descargue el ejemplo SDK "Policy Chaining" de [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).  
+-   <span data-ttu-id="2df82-110">Descargue el ejemplo SDK "Policy Chaining" de [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).</span><span class="sxs-lookup"><span data-stu-id="2df82-110">Download the SDK sample "Policy Chaining" from [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Crear y usar las reglas de negocios](../core/creating-and-using-business-rules.md)
+## <a name="see-also"></a><span data-ttu-id="2df82-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="2df82-111">See Also</span></span>  
+ [<span data-ttu-id="2df82-112">Crear y usar las reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="2df82-112">Creating and Using Business Rules</span></span>](../core/creating-and-using-business-rules.md)
