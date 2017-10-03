@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="securing-your-deployment-of-sso"></a>Proteger la implementación de SSO
-Esta sección muestra un escenario típico de una implementación segura del inicio de sesión único empresarial. Para conocer los procedimientos detallados que se deben realizar en SQL Server, vea la documentación de SQL Server.  
+# <a name="securing-your-deployment-of-sso"></a><span data-ttu-id="f366d-102">Proteger la implementación de SSO</span><span class="sxs-lookup"><span data-stu-id="f366d-102">Securing Your Deployment of SSO</span></span>
+<span data-ttu-id="f366d-103">Esta sección muestra un escenario típico de una implementación segura del inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="f366d-103">This section outlines a typical scenario for secure deployment of Enterprise Single Sign-On.</span></span> <span data-ttu-id="f366d-104">Para conocer los procedimientos detallados que se deben realizar en SQL Server, vea la documentación de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="f366d-104">For detailed procedures on the actions to take in SQL Server, see your SQL Server documentation.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f366d-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f366d-105">In This Section</span></span>  
   
--   [Información general de la implementación de SSO](../core/sso-deployment-overview.md)  
+-   [<span data-ttu-id="f366d-106">Información general de la implementación de SSO</span><span class="sxs-lookup"><span data-stu-id="f366d-106">SSO Deployment Overview</span></span>](../core/sso-deployment-overview.md)  
   
--   [Proceso de implementación](../core/deployment-process.md)
+-   [<span data-ttu-id="f366d-107">Proceso de implementación</span><span class="sxs-lookup"><span data-stu-id="f366d-107">Deployment Process</span></span>](../core/deployment-process.md)

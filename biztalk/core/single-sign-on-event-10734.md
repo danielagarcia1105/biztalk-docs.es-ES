@@ -18,26 +18,26 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10734"></a>Inicio de sesión único: Evento 10734
-## <a name="details"></a>Detalles  
+# <a name="single-sign-on-event-10734"></a><span data-ttu-id="80359-102">Inicio de sesión único: Evento 10734</span><span class="sxs-lookup"><span data-stu-id="80359-102">Single Sign-On: Event 10734</span></span>
+## <a name="details"></a><span data-ttu-id="80359-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="80359-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10734|  
-|Origen del evento|ENTSSO|  
-|Componente|N\D|  
-|Nombre simbólico|SSO_INFO_PS_NOTIFICATION_QUEUED|  
-|Texto del mensaje|Se colocó una notificación en cola para un adaptador.%r<br /><br /> Id. de seguimiento: %1 %r<br /><br /> Adaptador: %2 %r<br /><br /> Cuenta externa: %3 %r<br /><br /> Cuenta de Windows: %4\\%5|  
+|<span data-ttu-id="80359-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="80359-104">Product Name</span></span>|<span data-ttu-id="80359-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="80359-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="80359-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="80359-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="80359-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="80359-107">Event ID</span></span>|<span data-ttu-id="80359-108">10734</span><span class="sxs-lookup"><span data-stu-id="80359-108">10734</span></span>|  
+|<span data-ttu-id="80359-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="80359-109">Event Source</span></span>|<span data-ttu-id="80359-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="80359-110">ENTSSO</span></span>|  
+|<span data-ttu-id="80359-111">Componente</span><span class="sxs-lookup"><span data-stu-id="80359-111">Component</span></span>|<span data-ttu-id="80359-112">N\D</span><span class="sxs-lookup"><span data-stu-id="80359-112">N\A</span></span>|  
+|<span data-ttu-id="80359-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="80359-113">Symbolic Name</span></span>|<span data-ttu-id="80359-114">SSO_INFO_PS_NOTIFICATION_QUEUED</span><span class="sxs-lookup"><span data-stu-id="80359-114">SSO_INFO_PS_NOTIFICATION_QUEUED</span></span>|  
+|<span data-ttu-id="80359-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="80359-115">Message Text</span></span>|<span data-ttu-id="80359-116">Se colocó una notificación en cola para un adaptador.%r</span><span class="sxs-lookup"><span data-stu-id="80359-116">A notification was queued for an adapter.%r</span></span><br /><br /> <span data-ttu-id="80359-117">Id. de seguimiento: %1 %r</span><span class="sxs-lookup"><span data-stu-id="80359-117">Tracking ID: %1%r</span></span><br /><br /> <span data-ttu-id="80359-118">Adaptador: %2 %r</span><span class="sxs-lookup"><span data-stu-id="80359-118">Adapter: %2%r</span></span><br /><br /> <span data-ttu-id="80359-119">Cuenta externa: %3 %r</span><span class="sxs-lookup"><span data-stu-id="80359-119">External Account: %3%r</span></span><br /><br /> <span data-ttu-id="80359-120">Cuenta de Windows: %4\\%5</span><span class="sxs-lookup"><span data-stu-id="80359-120">Windows Account: %4\\%5</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este evento de información indica que se colocó una notificación en cola para un adaptador.  
+## <a name="explanation"></a><span data-ttu-id="80359-121">Explicación</span><span class="sxs-lookup"><span data-stu-id="80359-121">Explanation</span></span>  
+ <span data-ttu-id="80359-122">Este evento de información indica que se colocó una notificación en cola para un adaptador.</span><span class="sxs-lookup"><span data-stu-id="80359-122">This Information event indicates that a notification was queued for an adapter.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
+## <a name="user-action"></a><span data-ttu-id="80359-123">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="80359-123">User Action</span></span>  
   
--   Es necesaria ninguna acción del usuario  
+-   <span data-ttu-id="80359-124">Es necesaria ninguna acción del usuario</span><span class="sxs-lookup"><span data-stu-id="80359-124">No user action is necessary</span></span>  
   
- Para obtener más información, vea los recursos siguientes:  
+ <span data-ttu-id="80359-125">Para obtener más información, vea los recursos siguientes:</span><span class="sxs-lookup"><span data-stu-id="80359-125">For more information, see the following resources:</span></span>  
   
--   [Sincronización de contraseña](../core/password-synchronization2.md)
+-   [<span data-ttu-id="80359-126">Sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="80359-126">Password Synchronization</span></span>](../core/password-synchronization2.md)

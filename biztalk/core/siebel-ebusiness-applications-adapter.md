@@ -21,7 +21,7 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="siebel-ebusiness-applications-adapter"></a>Adaptador para aplicaciones Siebel eBusiness
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ya no admite el adaptador para aplicaciones Siebel eBusiness. Se recomienda usar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] para lograr la misma funcionalidad.  
+# <a name="siebel-ebusiness-applications-adapter"></a><span data-ttu-id="088bf-102">Adaptador para aplicaciones Siebel eBusiness</span><span class="sxs-lookup"><span data-stu-id="088bf-102">Siebel eBusiness Applications Adapter</span></span>
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="088bf-103"> ya no admite el adaptador para aplicaciones Siebel eBusiness.</span><span class="sxs-lookup"><span data-stu-id="088bf-103"> no longer supports the Siebel eBusiness Applications Adapter.</span></span> <span data-ttu-id="088bf-104">Se recomienda usar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] para lograr la misma funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="088bf-104">We recommend you use Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] to achieve the same functionality.</span></span>  
   
- Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).
+ <span data-ttu-id="088bf-105">Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span><span class="sxs-lookup"><span data-stu-id="088bf-105">For more information, see [Microsoft BizTalk Adapter Pack Help](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span></span>

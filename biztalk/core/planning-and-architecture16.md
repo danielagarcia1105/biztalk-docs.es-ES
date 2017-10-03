@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="planning-and-architecture"></a>Planeamiento y arquitectura
-En esta sección se tratan problemas de planeación y arquitectura que puede encontrar al configurar TIBCO Enterprise Message Service para su uso con el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service (EMS).  
+# <a name="planning-and-architecture"></a><span data-ttu-id="d1337-102">Planeamiento y arquitectura</span><span class="sxs-lookup"><span data-stu-id="d1337-102">Planning and Architecture</span></span>
+<span data-ttu-id="d1337-103">En esta sección se tratan problemas de planeación y arquitectura que puede encontrar al configurar TIBCO Enterprise Message Service para su uso con el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service (EMS).</span><span class="sxs-lookup"><span data-stu-id="d1337-103">This section discusses planning and architecture issues that you might see while setting up TIBCO Enterprise Message Service for use with Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS).</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d1337-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d1337-104">In This Section</span></span>  
   
--   [Arquitectura](../core/architecture-of-biztalk-adapter-for-tibco-enterprise-message-service.md)  
+-   [<span data-ttu-id="d1337-105">Arquitectura</span><span class="sxs-lookup"><span data-stu-id="d1337-105">Architecture</span></span>](../core/architecture-of-biztalk-adapter-for-tibco-enterprise-message-service.md)  
   
--   [Limitaciones y requisitos de TIBCO Enterprise Message Service](../core/tibco-enterprise-message-service-requirements-and-limitations.md)
+-   [<span data-ttu-id="d1337-106">Limitaciones y requisitos de TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="d1337-106">TIBCO Enterprise Message Service Requirements and Limitations</span></span>](../core/tibco-enterprise-message-service-requirements-and-limitations.md)

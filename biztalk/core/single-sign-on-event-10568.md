@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10568"></a>Inicio de sesión único: Evento 10568
-## <a name="details"></a>Detalles  
+# <a name="single-sign-on-event-10568"></a><span data-ttu-id="fae44-102">Inicio de sesión único: Evento 10568</span><span class="sxs-lookup"><span data-stu-id="fae44-102">Single Sign-On: Event 10568</span></span>
+## <a name="details"></a><span data-ttu-id="fae44-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="fae44-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10568|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|SSO_WARN_INVALID_APP_ADMIN_GROUP|  
-|Texto del mensaje|Cuenta de administradores de aplicación no válida para actualización de la aplicación.%r<br /><br /> Nombre de la aplicación: %1 %r<br /><br /> Administradores de aplicación: %2 %r<br /><br /> Cuentas no válidas: %3 %r<br /><br /> Código de error: %4|  
+|<span data-ttu-id="fae44-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="fae44-104">Product Name</span></span>|<span data-ttu-id="fae44-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="fae44-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="fae44-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="fae44-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="fae44-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="fae44-107">Event ID</span></span>|<span data-ttu-id="fae44-108">10568</span><span class="sxs-lookup"><span data-stu-id="fae44-108">10568</span></span>|  
+|<span data-ttu-id="fae44-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="fae44-109">Event Source</span></span>|<span data-ttu-id="fae44-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="fae44-110">ENTSSO</span></span>|  
+|<span data-ttu-id="fae44-111">Componente</span><span class="sxs-lookup"><span data-stu-id="fae44-111">Component</span></span>|<span data-ttu-id="fae44-112">N/D</span><span class="sxs-lookup"><span data-stu-id="fae44-112">N/A</span></span>|  
+|<span data-ttu-id="fae44-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="fae44-113">Symbolic Name</span></span>|<span data-ttu-id="fae44-114">SSO_WARN_INVALID_APP_ADMIN_GROUP</span><span class="sxs-lookup"><span data-stu-id="fae44-114">SSO_WARN_INVALID_APP_ADMIN_GROUP</span></span>|  
+|<span data-ttu-id="fae44-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="fae44-115">Message Text</span></span>|<span data-ttu-id="fae44-116">Cuenta de administradores de aplicación no válida para actualización de la aplicación.%r</span><span class="sxs-lookup"><span data-stu-id="fae44-116">The Application Administrators account is not valid for application update.%r</span></span><br /><br /> <span data-ttu-id="fae44-117">Nombre de la aplicación: %1 %r</span><span class="sxs-lookup"><span data-stu-id="fae44-117">Application Name: %1%r</span></span><br /><br /> <span data-ttu-id="fae44-118">Administradores de aplicación: %2 %r</span><span class="sxs-lookup"><span data-stu-id="fae44-118">Application Administrators: %2%r</span></span><br /><br /> <span data-ttu-id="fae44-119">Cuentas no válidas: %3 %r</span><span class="sxs-lookup"><span data-stu-id="fae44-119">Invalid accounts: %3%r</span></span><br /><br /> <span data-ttu-id="fae44-120">Código de error: %4</span><span class="sxs-lookup"><span data-stu-id="fae44-120">Error Code: %4</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Ha intentado actualizar una cuenta de administradores de aplicación que no es válida o que no existe.  
+## <a name="explanation"></a><span data-ttu-id="fae44-121">Explicación</span><span class="sxs-lookup"><span data-stu-id="fae44-121">Explanation</span></span>  
+ <span data-ttu-id="fae44-122">Ha intentado actualizar una cuenta de administradores de aplicación que no es válida o que no existe.</span><span class="sxs-lookup"><span data-stu-id="fae44-122">You have attempted to update an Application Administrators account which is either invalid or does not exist.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Compruebe si el nombre de la cuenta es correcto.
+## <a name="user-action"></a><span data-ttu-id="fae44-123">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="fae44-123">User Action</span></span>  
+ <span data-ttu-id="fae44-124">Compruebe si el nombre de la cuenta es correcto.</span><span class="sxs-lookup"><span data-stu-id="fae44-124">Check that the name of the account is correct.</span></span>

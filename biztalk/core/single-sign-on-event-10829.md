@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10829"></a>Inicio de sesión único: Evento 10829
-## <a name="details"></a>Detalles  
+# <a name="single-sign-on-event-10829"></a><span data-ttu-id="ef91c-102">Inicio de sesión único: Evento 10829</span><span class="sxs-lookup"><span data-stu-id="ef91c-102">Single Sign-On: Event 10829</span></span>
+## <a name="details"></a><span data-ttu-id="ef91c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ef91c-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|Inicio de sesión único (SSO) empresarial|  
-|Versión del producto|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Identificador del evento|10829|  
-|Origen del evento|ENTSSO|  
-|Componente|N/D|  
-|Nombre simbólico|ENTSSO_E_PSADMIN_INVALID_ADAPTER_TYPE_2|  
-|Texto del mensaje|Tipo de aplicación no válido para adaptador. Los tipos de aplicación válidos son "Adaptador de sincronización de contraseñas" o "Adaptador de grupo de sincronización de contraseñas".|  
+|<span data-ttu-id="ef91c-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="ef91c-104">Product Name</span></span>|<span data-ttu-id="ef91c-105">Inicio de sesión único (SSO) empresarial</span><span class="sxs-lookup"><span data-stu-id="ef91c-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="ef91c-106">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="ef91c-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="ef91c-107">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="ef91c-107">Event ID</span></span>|<span data-ttu-id="ef91c-108">10829</span><span class="sxs-lookup"><span data-stu-id="ef91c-108">10829</span></span>|  
+|<span data-ttu-id="ef91c-109">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="ef91c-109">Event Source</span></span>|<span data-ttu-id="ef91c-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="ef91c-110">ENTSSO</span></span>|  
+|<span data-ttu-id="ef91c-111">Componente</span><span class="sxs-lookup"><span data-stu-id="ef91c-111">Component</span></span>|<span data-ttu-id="ef91c-112">N/D</span><span class="sxs-lookup"><span data-stu-id="ef91c-112">N/A</span></span>|  
+|<span data-ttu-id="ef91c-113">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="ef91c-113">Symbolic Name</span></span>|<span data-ttu-id="ef91c-114">ENTSSO_E_PSADMIN_INVALID_ADAPTER_TYPE_2</span><span class="sxs-lookup"><span data-stu-id="ef91c-114">ENTSSO_E_PSADMIN_INVALID_ADAPTER_TYPE_2</span></span>|  
+|<span data-ttu-id="ef91c-115">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="ef91c-115">Message Text</span></span>|<span data-ttu-id="ef91c-116">Tipo de aplicación no válido para adaptador.</span><span class="sxs-lookup"><span data-stu-id="ef91c-116">Invalid application type for adapter.</span></span> <span data-ttu-id="ef91c-117">Los tipos de aplicación válidos son "Adaptador de sincronización de contraseñas" o "Adaptador de grupo de sincronización de contraseñas".</span><span class="sxs-lookup"><span data-stu-id="ef91c-117">Valid application types are ‘Password Sync Adapter’ or ‘Password Sync Group Adapter’.</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Tipo de aplicación no válido para adaptador. Los tipos de aplicación válidos son "Adaptador de sincronización de contraseñas" o "Adaptador de grupo de sincronización de contraseñas".  
+## <a name="explanation"></a><span data-ttu-id="ef91c-118">Explicación</span><span class="sxs-lookup"><span data-stu-id="ef91c-118">Explanation</span></span>  
+ <span data-ttu-id="ef91c-119">Tipo de aplicación no válido para adaptador.</span><span class="sxs-lookup"><span data-stu-id="ef91c-119">Invalid application type for adapter.</span></span> <span data-ttu-id="ef91c-120">Los tipos de aplicación válidos son "Adaptador de sincronización de contraseñas" o "Adaptador de grupo de sincronización de contraseñas".</span><span class="sxs-lookup"><span data-stu-id="ef91c-120">Valid application types are ‘Password Sync Adapter’ or ‘Password Sync Group Adapter’.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Use uno de los tipos de aplicación válidos.
+## <a name="user-action"></a><span data-ttu-id="ef91c-121">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="ef91c-121">User Action</span></span>  
+ <span data-ttu-id="ef91c-122">Use uno de los tipos de aplicación válidos.</span><span class="sxs-lookup"><span data-stu-id="ef91c-122">Use one of the valid application types.</span></span>

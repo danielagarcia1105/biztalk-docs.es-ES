@@ -24,14 +24,14 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="reliable-messaging-with-the-msmq-adapter"></a>Mensajería confiable con el adaptador de MSMQ
-Se puede mejorar la confiabilidad del envío y recepción de mensajes con el adaptador de MSMQ utilizando unos valores de configuración particulares y utilizando transacciones.  
+# <a name="reliable-messaging-with-the-msmq-adapter"></a><span data-ttu-id="82de3-102">Mensajería confiable con el adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="82de3-102">Reliable Messaging with the MSMQ Adapter</span></span>
+<span data-ttu-id="82de3-103">Se puede mejorar la confiabilidad del envío y recepción de mensajes con el adaptador de MSMQ utilizando unos valores de configuración particulares y utilizando transacciones.</span><span class="sxs-lookup"><span data-stu-id="82de3-103">You can improve the reliability of sending and receiving messages with the MSMQ adapter by using particular configuration settings and by using transactions.</span></span>  
   
 > [!NOTE]
->  Si no utiliza transacciones, puede perder mensajes en configuraciones agrupadas si un equipo deja de funcionar.  
+>  <span data-ttu-id="82de3-104">Si no utiliza transacciones, puede perder mensajes en configuraciones agrupadas si un equipo deja de funcionar.</span><span class="sxs-lookup"><span data-stu-id="82de3-104">If you do not use transactions, you can lose messages in clustered configurations if a computer fails.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="82de3-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="82de3-105">In This Section</span></span>  
   
--   [Propiedades de mensajería de confianza con el adaptador de MSMQ](../core/properties-for-reliable-messaging-with-the-msmq-adapter.md)  
+-   [<span data-ttu-id="82de3-106">Propiedades de mensajería de confianza con el adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="82de3-106">Properties for Reliable Messaging with the MSMQ Adapter</span></span>](../core/properties-for-reliable-messaging-with-the-msmq-adapter.md)  
   
--   [Control de transacciones con el adaptador de MSMQ](../core/transaction-handling-with-the-msmq-adapter.md)
+-   [<span data-ttu-id="82de3-107">Control de transacciones con el adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="82de3-107">Transaction Handling with the MSMQ Adapter</span></span>](../core/transaction-handling-with-the-msmq-adapter.md)

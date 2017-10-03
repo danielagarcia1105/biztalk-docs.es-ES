@@ -22,26 +22,26 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="running-sso-projects"></a>Ejecución de proyectos SSO
-Puede ejecutar el ejemplo desde Internet Explorer.  
+# <a name="running-sso-projects"></a><span data-ttu-id="40b67-102">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="40b67-102">Running SSO Projects</span></span>
+<span data-ttu-id="40b67-103">Puede ejecutar el ejemplo desde Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="40b67-103">You can run the sample  from Internet Explorer.</span></span>  
   
-## <a name="running-a-sample-from-internet-explorer"></a>Ejecución de un ejemplo desde Internet Explorer  
+## <a name="running-a-sample-from-internet-explorer"></a><span data-ttu-id="40b67-104">Ejecución de un ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="40b67-104">Running a Sample from Internet Explorer</span></span>  
   
-#### <a name="to-run-the-sample-from-the-internet-explorer"></a>Procedimiento para ejecutar el ejemplo desde Internet Explorer  
+#### <a name="to-run-the-sample-from-the-internet-explorer"></a><span data-ttu-id="40b67-105">Procedimiento para ejecutar el ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="40b67-105">To run the sample from the Internet Explorer</span></span>  
   
-1.  Abra el explorador.  
+1.  <span data-ttu-id="40b67-106">Abra el explorador.</span><span class="sxs-lookup"><span data-stu-id="40b67-106">Open your browser.</span></span>  
   
-2.  Use la siguiente sintaxis:  
+2.  <span data-ttu-id="40b67-107">Use la siguiente sintaxis:</span><span class="sxs-lookup"><span data-stu-id="40b67-107">Use the following syntax:</span></span>  
   
     ```  
     http://localhost/SSODemo/BTSHTTPReceive.dll?[Insert XML Instance body]   
     ```  
   
-     Por ejemplo:  
+     <span data-ttu-id="40b67-108">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="40b67-108">For example:</span></span>  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll? \<ns0:method_list_method % 20xmlns: ns0 = "http://microsoft.com/exposed/object/object1" >\<ns0:method_list_method >\<ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object" >\<ns1:comp_code >\</ns1:comp_code >\<ns1:comp_name >\</ns1:comp_name >\< /ns1:object_1 >\</ns0:method_list >\</ns0: method_list_method >  
+     <span data-ttu-id="40b67-109">http://localhost/SSODemo/BTSHTTPReceive.dll? \<ns0:method_list_method % 20xmlns: ns0 = "http://microsoft.com/exposed/object/object1" >\<ns0:method_list_method >\<ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object" >\<ns1:comp_code >\</ns1:comp_code >\<ns1:comp_name >\</ns1:comp_name >\< /ns1:object_1 >\</ns0:method_list >\</ns0: method_list_method ></span><span class="sxs-lookup"><span data-stu-id="40b67-109">http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1">\<ns0:method_list_method>\<ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object">\<ns1:comp_code>\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\< /ns1:object_1>\</ns0:method_list>\</ns0:method_list_method></span></span>  
   
-     En este caso no es necesario proporcionar las credenciales.  
+     <span data-ttu-id="40b67-110">En este caso no es necesario proporcionar las credenciales.</span><span class="sxs-lookup"><span data-stu-id="40b67-110">In this case you do not have to provide the credentials.</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on2.md)
+## <a name="see-also"></a><span data-ttu-id="40b67-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="40b67-111">See Also</span></span>  
+ [<span data-ttu-id="40b67-112">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="40b67-112">Using Single Sign-On</span></span>](../core/using-single-sign-on2.md)

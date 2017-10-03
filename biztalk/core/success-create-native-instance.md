@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="success---create-native-instance"></a>Correcto: crear una instancia nativa
-**Explicación**  
+# <a name="success---create-native-instance"></a><span data-ttu-id="83c01-102">Correcto: crear una instancia nativa</span><span class="sxs-lookup"><span data-stu-id="83c01-102">Success - Create Native Instance</span></span>
+<span data-ttu-id="83c01-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="83c01-103">**Explanation**</span></span>  
   
- Se han generado instancias correctamente para el esquema indicado, de forma que se ha producido el archivo de salida nativo indicado que contiene el mensaje de instancia.  
+ <span data-ttu-id="83c01-104">Se han generado instancias correctamente para el esquema indicado, de forma que se ha producido el archivo de salida nativo indicado que contiene el mensaje de instancia.</span><span class="sxs-lookup"><span data-stu-id="83c01-104">The instance generation succeeded for the indicated schema, producing the indicated native output file that contains the instance message.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="83c01-105">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="83c01-105">**User Action**</span></span>  
   
- Inspeccione el archivo nativo de resultados de mensajes de instancia generado según convenga.
+ <span data-ttu-id="83c01-106">Inspeccione el archivo nativo de resultados de mensajes de instancia generado según convenga.</span><span class="sxs-lookup"><span data-stu-id="83c01-106">As appropriate, inspect the generated native output instance message file.</span></span>

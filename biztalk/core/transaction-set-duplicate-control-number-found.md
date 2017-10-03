@@ -18,33 +18,33 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="transaction-set-duplicate-control-number-found"></a>Se ha encontrado un número de control de conjunto de transacciones duplicado
-## <a name="details"></a>Detalles  
+# <a name="transaction-set-duplicate-control-number-found"></a><span data-ttu-id="ef183-102">Se ha encontrado un número de control de conjunto de transacciones duplicado</span><span class="sxs-lookup"><span data-stu-id="ef183-102">Transaction Set duplicate control number found</span></span>
+## <a name="details"></a><span data-ttu-id="ef183-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ef183-103">Details</span></span>  
   
 |||  
 |-|-|  
-|Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Componente|Motor EDI|  
-|Nombre simbólico|X12TsDuplicateNumberFoundDescription|  
-|Texto del mensaje|Se ha encontrado un número de control de conjunto de transacciones duplicado|  
+|<span data-ttu-id="ef183-104">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="ef183-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="ef183-105">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="ef183-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="ef183-106">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="ef183-106">Event ID</span></span>|-|  
+|<span data-ttu-id="ef183-107">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="ef183-107">Event Source</span></span>|<span data-ttu-id="ef183-108">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="ef183-108">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
+|<span data-ttu-id="ef183-109">Componente</span><span class="sxs-lookup"><span data-stu-id="ef183-109">Component</span></span>|<span data-ttu-id="ef183-110">Motor EDI</span><span class="sxs-lookup"><span data-stu-id="ef183-110">EDI Engine</span></span>|  
+|<span data-ttu-id="ef183-111">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="ef183-111">Symbolic Name</span></span>|<span data-ttu-id="ef183-112">X12TsDuplicateNumberFoundDescription</span><span class="sxs-lookup"><span data-stu-id="ef183-112">X12TsDuplicateNumberFoundDescription</span></span>|  
+|<span data-ttu-id="ef183-113">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="ef183-113">Message Text</span></span>|<span data-ttu-id="ef183-114">Se ha encontrado un número de control de conjunto de transacciones duplicado</span><span class="sxs-lookup"><span data-stu-id="ef183-114">Transaction Set duplicate control number found</span></span>|  
   
-## <a name="explanation"></a>Explicación  
- Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio X12 entrante porque el número de control del conjunto de transacciones para un conjunto de transacciones de un grupo de dicho intercambio era el mismo que el número de control para otro conjunto de transacciones de dicho grupo.  
+## <a name="explanation"></a><span data-ttu-id="ef183-115">Explicación</span><span class="sxs-lookup"><span data-stu-id="ef183-115">Explanation</span></span>  
+ <span data-ttu-id="ef183-116">Este evento de error,  indica que la canalización de recepción no pudo procesar el intercambio X12 entrante porque el número de control del conjunto de transacciones para un conjunto de transacciones de un grupo de dicho intercambio era el mismo que el número de control para otro conjunto de transacciones de dicho grupo.</span><span class="sxs-lookup"><span data-stu-id="ef183-116">This Error/Warning/Information event indicates that the receive pipeline could not process the incoming X12 interchange because the transaction set control number for a transaction set in a group of that interchange was the same as the control number for another transaction set in that group.</span></span>  
   
-## <a name="user-action"></a>Acción del usuario  
- Para resolver este error, realice una de las siguientes acciones:  
+## <a name="user-action"></a><span data-ttu-id="ef183-117">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="ef183-117">User Action</span></span>  
+ <span data-ttu-id="ef183-118">Para resolver este error, realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="ef183-118">To resolve this error, do one of the following:</span></span>  
   
--   Cambie los números de control de conjunto de transacciones de los conjuntos de transacciones en el intercambio de entrada de modo que no haya números de control duplicados para los conjuntos de transacciones de un grupo.  
+-   <span data-ttu-id="ef183-119">Cambie los números de control de conjunto de transacciones de los conjuntos de transacciones en el intercambio de entrada de modo que no haya números de control duplicados para los conjuntos de transacciones de un grupo.</span><span class="sxs-lookup"><span data-stu-id="ef183-119">Change the transaction set control numbers of transaction sets in incoming interchange so there are no duplicate control numbers for transaction sets in a group.</span></span>  
   
--   Deshabilite la comprobación de números de control duplicados para conjuntos de transacciones según se indica a continuación:  
+-   <span data-ttu-id="ef183-120">Deshabilite la comprobación de números de control duplicados para conjuntos de transacciones según se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="ef183-120">Disable the check for duplicate transaction set control numbers as follows:</span></span>  
   
-    1.  Abra la consola de administración de BizTalk Server.  
+    1.  <span data-ttu-id="ef183-121">Abra la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="ef183-121">Open the BizTalk Server Administration Console.</span></span>  
   
-    2.  Abra el cuadro de diálogo Propiedades de EDI correspondiente a la entidad que envió el intercambio.  
+    2.  <span data-ttu-id="ef183-122">Abra el cuadro de diálogo Propiedades de EDI correspondiente a la entidad que envió el intercambio.</span><span class="sxs-lookup"><span data-stu-id="ef183-122">Open the EDI Properties dialog box for the party that sent the interchange.</span></span>  
   
-    3.  Para intercambios X12, desactive "Comprobar si hay duplicado de Número de control de conjunto de transacciones (ST2) en el grupo" en la página Propiedades de procesamiento de intercambio X12 del cuadro de diálogo Propiedades de EDI.  
+    3.  <span data-ttu-id="ef183-123">Para intercambios X12, desactive "Comprobar si hay duplicado de Número de control de conjunto de transacciones (ST2) en el grupo" en la página Propiedades de procesamiento de intercambio X12 del cuadro de diálogo Propiedades de EDI.</span><span class="sxs-lookup"><span data-stu-id="ef183-123">For X12 interchanges, clear the "Check for duplicate ST2 (Transaction set control number) in group" in the X12 Interchange Processing Properties Page of the EDI Properties dialog box.</span></span>  
   
-    4.  Para intercambios EDIFACT, desactive "Comprobar si hay duplicado de Número de control de conjunto de transacciones (UNH1) en el grupo" en la página Propiedades de procesamiento de intercambio EDIFACT del cuadro de diálogo Propiedades de EDI.
+    4.  <span data-ttu-id="ef183-124">Para intercambios EDIFACT, desactive "Comprobar si hay duplicado de Número de control de conjunto de transacciones (UNH1) en el grupo" en la página Propiedades de procesamiento de intercambio EDIFACT del cuadro de diálogo Propiedades de EDI.</span><span class="sxs-lookup"><span data-stu-id="ef183-124">For EDIFACT interchanges, clear the "Check for duplicate UNH1 (Transaction set reference number) in group" property in the EDIFACT Interchange Processing Properties Page of the EDI Properties dialog box.</span></span>

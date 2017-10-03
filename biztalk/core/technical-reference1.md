@@ -21,8 +21,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="technical-reference"></a>Referencia técnica
-Esta sección proporciona información de referencia técnica acerca del adaptador de Microsoft BizTalk para JD Edwards OneWorld.  
+# <a name="technical-reference"></a><span data-ttu-id="b1c0c-102">Referencia técnica</span><span class="sxs-lookup"><span data-stu-id="b1c0c-102">Technical Reference</span></span>
+<span data-ttu-id="b1c0c-103">Esta sección proporciona información de referencia técnica acerca del adaptador de Microsoft BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="b1c0c-103">This section provides technical reference information about Microsoft BizTalk Adapter for JD Edwards OneWorld.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
- [Apéndice A: tipos de datos](../core/appendix-a-data-types.md)
+## <a name="in-this-section"></a><span data-ttu-id="b1c0c-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="b1c0c-104">In This Section</span></span>  
+ [<span data-ttu-id="b1c0c-105">Apéndice A: tipos de datos</span><span class="sxs-lookup"><span data-stu-id="b1c0c-105">Appendix A: Data Types</span></span>](../core/appendix-a-data-types.md)

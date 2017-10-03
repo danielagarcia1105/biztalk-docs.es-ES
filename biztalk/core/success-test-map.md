@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="success---test-map"></a>Correcto: comprobar asignación
-**Código de error**  
+# <a name="success---test-map"></a><span data-ttu-id="9769f-102">Correcto: comprobar asignación</span><span class="sxs-lookup"><span data-stu-id="9769f-102">Success - Test Map</span></span>
+<span data-ttu-id="9769f-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="9769f-103">**Error Code**</span></span>  
   
- btm1053  
+ <span data-ttu-id="9769f-104">btm1053</span><span class="sxs-lookup"><span data-stu-id="9769f-104">btm1053</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="9769f-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="9769f-105">**Explanation**</span></span>  
   
- Se realizó correctamente la operación Comprobar asignación en la asignación indicada, lo que generó el archivo de mensaje de instancia de salida indicado.  
+ <span data-ttu-id="9769f-106">Se realizó correctamente la operación Comprobar asignación en la asignación indicada, lo que generó el archivo de mensaje de instancia de salida indicado.</span><span class="sxs-lookup"><span data-stu-id="9769f-106">The Test Map operation succeeded for the indicated map, producing the indicated output instance message file.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="9769f-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="9769f-107">**User Action**</span></span>  
   
- Examine el archivo de mensaje de instancia de salida indicado que ha generado la operación Comprobar asignación según convenga.
+ <span data-ttu-id="9769f-108">Examine el archivo de mensaje de instancia de salida indicado que ha generado la operación Comprobar asignación según convenga.</span><span class="sxs-lookup"><span data-stu-id="9769f-108">As appropriate, examine the indicated output instance message file produced by the Test Map operation.</span></span>

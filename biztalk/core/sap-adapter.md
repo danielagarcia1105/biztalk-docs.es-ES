@@ -18,7 +18,7 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sap-adapter"></a>Adaptador de SAP
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ya no admite el adaptador SAP. Se recomienda usar [!INCLUDE[adaptersap](../includes/adaptersap-md.md)] para conseguir la misma funcionalidad.  
+# <a name="sap-adapter"></a><span data-ttu-id="d0ce8-102">Adaptador de SAP</span><span class="sxs-lookup"><span data-stu-id="d0ce8-102">SAP Adapter</span></span>
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="d0ce8-103"> ya no admite el adaptador SAP.</span><span class="sxs-lookup"><span data-stu-id="d0ce8-103"> no longer supports the SAP Adapter.</span></span> <span data-ttu-id="d0ce8-104">Se recomienda usar [!INCLUDE[adaptersap](../includes/adaptersap-md.md)] para conseguir la misma funcionalidad.</span><span class="sxs-lookup"><span data-stu-id="d0ce8-104">We recommend you use [!INCLUDE[adaptersap](../includes/adaptersap-md.md)] to achieve the same functionality.</span></span>  
   
- Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).
+ <span data-ttu-id="d0ce8-105">Para obtener más información, consulte [ayuda de Microsoft BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span><span class="sxs-lookup"><span data-stu-id="d0ce8-105">For more information, see [Microsoft BizTalk Adapter Pack Help](http://go.microsoft.com/fwlink/?LinkId=188969) (http://go.microsoft.com/fwlink/?LinkId=188969).</span></span>

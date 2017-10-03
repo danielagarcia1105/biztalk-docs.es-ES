@@ -21,10 +21,10 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="systemxml-reference"></a>Referencia de System.Xml
-El **System.Xml** espacio de nombres de referencia proporciona compatibilidad basada en estándares para procesar documentos XML. Esta referencia predeterminada es necesaria para que todos los proyectos de BizTalk funcionen adecuadamente. Es muy recomendable que no elimine esta referencia predeterminada.  
+# <a name="systemxml-reference"></a><span data-ttu-id="adf17-102">Referencia de System.Xml</span><span class="sxs-lookup"><span data-stu-id="adf17-102">System.Xml Reference</span></span>
+<span data-ttu-id="adf17-103">El **System.Xml** espacio de nombres de referencia proporciona compatibilidad basada en estándares para procesar documentos XML.</span><span class="sxs-lookup"><span data-stu-id="adf17-103">The **System.Xml** reference namespace provides standards-based support for processing XML documents.</span></span> <span data-ttu-id="adf17-104">Esta referencia predeterminada es necesaria para que todos los proyectos de BizTalk funcionen adecuadamente.</span><span class="sxs-lookup"><span data-stu-id="adf17-104">This default reference is necessary for all BizTalk projects to function properly.</span></span> <span data-ttu-id="adf17-105">Es muy recomendable que no elimine esta referencia predeterminada.</span><span class="sxs-lookup"><span data-stu-id="adf17-105">It is highly recommended that you do not delete this default reference.</span></span>  
   
- Para obtener más información sobre la **System.Xml** de referencia, vea "System.Xml Namespace" en la colección combinada de Studio Visual en [http://go.microsoft.com/fwlink/?LinkId=25498](http://go.microsoft.com/fwlink/?LinkId=25498).  
+ <span data-ttu-id="adf17-106">Para obtener más información sobre la **System.Xml** de referencia, vea "System.Xml Namespace" en la colección combinada de Studio Visual en [http://go.microsoft.com/fwlink/?LinkId=25498](http://go.microsoft.com/fwlink/?LinkId=25498).</span><span class="sxs-lookup"><span data-stu-id="adf17-106">For more information about the **System.Xml** reference, see "System.Xml Namespace" in the Visual Studio Combined Collection at [http://go.microsoft.com/fwlink/?LinkId=25498](http://go.microsoft.com/fwlink/?LinkId=25498).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Referencias de Namespace de BizTalk incluidos en los proyectos de BizTalk](../core/about-biztalk-namespace-references-included-in-biztalk-projects.md)
+## <a name="see-also"></a><span data-ttu-id="adf17-107">Vea también</span><span class="sxs-lookup"><span data-stu-id="adf17-107">See Also</span></span>  
+ [<span data-ttu-id="adf17-108">Referencias de Namespace de BizTalk incluidos en los proyectos de BizTalk</span><span class="sxs-lookup"><span data-stu-id="adf17-108">About BizTalk Namespace References Included in BizTalk Projects</span></span>](../core/about-biztalk-namespace-references-included-in-biztalk-projects.md)

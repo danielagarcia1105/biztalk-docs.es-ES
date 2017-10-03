@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="planning-and-architecture"></a>Planeamiento y arquitectura
-En esta sección se tratan problemas de planeación y arquitectura que puede encontrar al configurar el adaptador de Microsoft BizTalk para PeopleSoft Enterprise.  
+# <a name="planning-and-architecture"></a><span data-ttu-id="c1a5e-102">Planeamiento y arquitectura</span><span class="sxs-lookup"><span data-stu-id="c1a5e-102">Planning and Architecture</span></span>
+<span data-ttu-id="c1a5e-103">En esta sección se tratan problemas de planeación y arquitectura que puede encontrar al configurar el adaptador de Microsoft BizTalk para PeopleSoft Enterprise.</span><span class="sxs-lookup"><span data-stu-id="c1a5e-103">This section discusses planning and architecture issues that you might see while setting up BizTalk Adapter for PeopleSoft Enterprise.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="c1a5e-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c1a5e-104">In This Section</span></span>  
   
--   [Requisitos de PeopleSoft Enterprise](../core/peoplesoft-enterprise-requirements.md)  
+-   [<span data-ttu-id="c1a5e-105">Requisitos de PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="c1a5e-105">PeopleSoft Enterprise Requirements</span></span>](../core/peoplesoft-enterprise-requirements.md)  
   
--   [Arquitectura](../core/architecture-of-biztalk-adapter-for-peoplesoft-enterprise.md)
+-   [<span data-ttu-id="c1a5e-106">Arquitectura</span><span class="sxs-lookup"><span data-stu-id="c1a5e-106">Architecture</span></span>](../core/architecture-of-biztalk-adapter-for-peoplesoft-enterprise.md)

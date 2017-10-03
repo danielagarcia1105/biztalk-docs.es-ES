@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="security-considerations-for-adapters"></a>Consideraciones de seguridad para los adaptadores
-Esta sección contiene información acerca de la creación de condiciones de seguridad de los adaptadores, así como del mantenimiento de ésta.  
+# <a name="security-considerations-for-adapters"></a><span data-ttu-id="d9b63-102">Consideraciones de seguridad para los adaptadores</span><span class="sxs-lookup"><span data-stu-id="d9b63-102">Security Considerations for Adapters</span></span>
+<span data-ttu-id="d9b63-103">Esta sección contiene información acerca de la creación de condiciones de seguridad de los adaptadores, así como del mantenimiento de ésta.</span><span class="sxs-lookup"><span data-stu-id="d9b63-103">This section contains information about creating and maintaining adapter security.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="d9b63-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="d9b63-104">In This Section</span></span>  
   
--   [Prácticas recomendadas para proteger los adaptadores](../core/best-practices-for-securing-adapters.md)  
+-   [<span data-ttu-id="d9b63-105">Prácticas recomendadas para proteger los adaptadores</span><span class="sxs-lookup"><span data-stu-id="d9b63-105">Best Practices for Securing Adapters</span></span>](../core/best-practices-for-securing-adapters.md)  
   
--   [SSO para adaptadores nativos](../core/sso-for-native-adapters.md)
+-   [<span data-ttu-id="d9b63-106">SSO para adaptadores nativos</span><span class="sxs-lookup"><span data-stu-id="d9b63-106">SSO for Native Adapters</span></span>](../core/sso-for-native-adapters.md)

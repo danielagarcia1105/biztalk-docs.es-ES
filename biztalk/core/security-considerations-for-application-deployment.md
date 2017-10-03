@@ -22,13 +22,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="security-considerations-for-application-deployment"></a>Consideraciones de seguridad para la implementación de aplicaciones
-Esta sección proporciona la información sobre seguridad para la implementación de aplicaciones de BizTalk.  
+# <a name="security-considerations-for-application-deployment"></a><span data-ttu-id="f9cb5-102">Consideraciones de seguridad para la implementación de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="f9cb5-102">Security Considerations for Application Deployment</span></span>
+<span data-ttu-id="f9cb5-103">Esta sección proporciona la información sobre seguridad para la implementación de aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f9cb5-103">This section provides security information for BizTalk application deployment.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f9cb5-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f9cb5-104">In This Section</span></span>  
   
--   [Seguridad y Windows Installer](../core/security-and-windows-installer.md)  
+-   [<span data-ttu-id="f9cb5-105">Seguridad y Windows Installer</span><span class="sxs-lookup"><span data-stu-id="f9cb5-105">Security and Windows Installer</span></span>](../core/security-and-windows-installer.md)  
   
--   [Permisos necesarios para implementar y administrar una aplicación de BizTalk](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)  
+-   [<span data-ttu-id="f9cb5-106">Permisos necesarios para implementar y administrar una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f9cb5-106">Permissions Required for Deploying and Managing a BizTalk Application</span></span>](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)  
   
--   [Recomendaciones de seguridad de implementación de aplicaciones](../core/application-deployment-security-recommendations.md)
+-   [<span data-ttu-id="f9cb5-107">Recomendaciones de seguridad de implementación de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="f9cb5-107">Application Deployment Security Recommendations</span></span>](../core/application-deployment-security-recommendations.md)

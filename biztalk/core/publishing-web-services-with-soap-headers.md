@@ -25,13 +25,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="publishing-web-services-with-soap-headers"></a>Publicar servicios Web con encabezados SOAP
-Al ejecutar el Asistente para publicar servicios Web de BizTalk, se agregan encabezados SOAP a los servicios Web. Al publicar un servicio Web que admite encabezados SOAP, los encabezados están disponibles para las orquestaciones y los componentes de canalización como propiedades de contexto que contienen representaciones de cadena de los encabezados SOAP.  
+# <a name="publishing-web-services-with-soap-headers"></a><span data-ttu-id="da9fa-102">Publicar servicios Web con encabezados SOAP</span><span class="sxs-lookup"><span data-stu-id="da9fa-102">Publishing Web Services with SOAP Headers</span></span>
+<span data-ttu-id="da9fa-103">Al ejecutar el Asistente para publicar servicios Web de BizTalk, se agregan encabezados SOAP a los servicios Web.</span><span class="sxs-lookup"><span data-stu-id="da9fa-103">You add SOAP headers to your Web services when you run the BizTalk Web Services Publishing Wizard.</span></span> <span data-ttu-id="da9fa-104">Al publicar un servicio Web que admite encabezados SOAP, los encabezados están disponibles para las orquestaciones y los componentes de canalización como propiedades de contexto que contienen representaciones de cadena de los encabezados SOAP.</span><span class="sxs-lookup"><span data-stu-id="da9fa-104">When you publish a Web service that supports SOAP headers, the headers become available to orchestrations and pipeline components as context properties that contain string representations of the SOAP headers.</span></span>  
   
-## <a name="defined-soap-headers"></a>Encabezados SOAP definidos  
- Al agregar un encabezado SOAP definido mediante el asistente, éste crea una propiedad de contexto con un nombre que se corresponde con el elemento raíz del encabezado SOAP. Todas las propiedades de contexto de encabezado SOAP definidas tienen el espacio de nombres **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**. Cuando el adaptador de SOAP convierte la solicitud SOAP en un mensaje de BizTalk, crea una propiedad de contexto de encabezado SOAP.  
+## <a name="defined-soap-headers"></a><span data-ttu-id="da9fa-105">Encabezados SOAP definidos</span><span class="sxs-lookup"><span data-stu-id="da9fa-105">Defined SOAP headers</span></span>  
+ <span data-ttu-id="da9fa-106">Al agregar un encabezado SOAP definido mediante el asistente, éste crea una propiedad de contexto con un nombre que se corresponde con el elemento raíz del encabezado SOAP.</span><span class="sxs-lookup"><span data-stu-id="da9fa-106">When you add a defined SOAP header using the wizard, the wizard creates a context property with a name that corresponds to the root element of the SOAP header.</span></span> <span data-ttu-id="da9fa-107">Todas las propiedades de contexto de encabezado SOAP definidas tienen el espacio de nombres **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**.</span><span class="sxs-lookup"><span data-stu-id="da9fa-107">All defined SOAP header context properties have the namespace **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**.</span></span> <span data-ttu-id="da9fa-108">Cuando el adaptador de SOAP convierte la solicitud SOAP en un mensaje de BizTalk, crea una propiedad de contexto de encabezado SOAP.</span><span class="sxs-lookup"><span data-stu-id="da9fa-108">When the SOAP adapter converts the SOAP request to a BizTalk message, it creates one SOAP header context property.</span></span>  
   
- En el siguiente ejemplo se muestra una solicitud SOAP simple:  
+ <span data-ttu-id="da9fa-109">En el siguiente ejemplo se muestra una solicitud SOAP simple:</span><span class="sxs-lookup"><span data-stu-id="da9fa-109">The following example shows a simple SOAP request:</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -48,25 +48,25 @@ Al ejecutar el Asistente para publicar servicios Web de BizTalk, se agregan enca
 </soap:Envelope>  
 ```  
   
- Para la solicitud SOAP simple, el adaptador SOAP, cree un mensaje de BizTalk con una propiedad de contexto de encabezado SOAP **OrigDest** y la cadena.  
+ <span data-ttu-id="da9fa-110">Para la solicitud SOAP simple, el adaptador SOAP, cree un mensaje de BizTalk con una propiedad de contexto de encabezado SOAP **OrigDest** y la cadena.</span><span class="sxs-lookup"><span data-stu-id="da9fa-110">For the simple SOAP request, the SOAP adapter created a BizTalk message with one SOAP header context property **OrigDest** and the string.</span></span>  
   
- El siguiente ejemplo muestra la cadena creada por el adaptador de SOAP:  
+ <span data-ttu-id="da9fa-111">El siguiente ejemplo muestra la cadena creada por el adaptador de SOAP:</span><span class="sxs-lookup"><span data-stu-id="da9fa-111">The following example shows the string created by the SOAP adapter:</span></span>  
   
 ```  
 "<?xml version="1.0" encoding="utf-16"?><OrigDest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://SOAPHeaderSchemas.OrigDestSOAPHeader"><Origination xmlns="">Home</Origination><Destination xmlns="">Work</Destination> </OrigDest>"  
 ```  
   
-## <a name="unknown-soap-headers"></a>Encabezados SOAP desconocidos  
- Si decide admitir encabezados SOAP desconocidos en el asistente, el asistente crea una propiedad de contexto con el nombre **UnknownHeaders** y el espacio de nombres **http://schemas.microsoft.com/BizTalk/2003/soap-properties**. El **UnknownHeaders** propiedad de contexto contiene todos los encabezados SOAP desconocidos recibidos.  
+## <a name="unknown-soap-headers"></a><span data-ttu-id="da9fa-112">Encabezados SOAP desconocidos</span><span class="sxs-lookup"><span data-stu-id="da9fa-112">Unknown SOAP headers</span></span>  
+ <span data-ttu-id="da9fa-113">Si decide admitir encabezados SOAP desconocidos en el asistente, el asistente crea una propiedad de contexto con el nombre **UnknownHeaders** y el espacio de nombres **http://schemas.microsoft.com/BizTalk/2003/soap-properties**.</span><span class="sxs-lookup"><span data-stu-id="da9fa-113">If you choose to support unknown SOAP headers in the wizard, the wizard creates a context property with the name **UnknownHeaders** and the namespace **http://schemas.microsoft.com/BizTalk/2003/soap-properties**.</span></span> <span data-ttu-id="da9fa-114">El **UnknownHeaders** propiedad de contexto contiene todos los encabezados SOAP desconocidos recibidos.</span><span class="sxs-lookup"><span data-stu-id="da9fa-114">The **UnknownHeaders** context property contains all of the received unknown SOAP headers.</span></span>  
   
- Por ejemplo, si recibe un encabezado SOAP desconocido con el nombre del elemento raíz, **CustomerGroup**, **UnknownHeaders** propiedad de contexto contiene la cadena:  
+ <span data-ttu-id="da9fa-115">Por ejemplo, si recibe un encabezado SOAP desconocido con el nombre del elemento raíz, **CustomerGroup**, **UnknownHeaders** propiedad de contexto contiene la cadena:</span><span class="sxs-lookup"><span data-stu-id="da9fa-115">For example, if you receive an unknown SOAP header with the root element name, **CustomerGroup**, the **UnknownHeaders** context property contains the string:</span></span>  
   
 ```  
 "<?xml version="1.0" encoding="utf-16"?><UnknownHeaders><CustomerGroup xmlns="http://SOAPHeaderWS/CustomerGroup"><Id xmlns="">My Customer</Id>  
 </CustomerGroup></UnknownHeaders>"  
 ```  
   
- Para obtener más información acerca de cómo agregar definido encabezados SOAP o admitir encabezados SOAP desconocidos, consulte [publicar una orquestación como un servicio Web](../core/publishing-an-orchestration-as-a-web-service.md). Consulte también [publicar esquemas como servicios Web](../core/publishing-schemas-as-a-web-service.md).  
+ <span data-ttu-id="da9fa-116">Para obtener más información acerca de cómo agregar definido encabezados SOAP o admitir encabezados SOAP desconocidos, consulte [publicar una orquestación como un servicio Web](../core/publishing-an-orchestration-as-a-web-service.md).</span><span class="sxs-lookup"><span data-stu-id="da9fa-116">For more information about adding defined SOAP headers or supporting unknown SOAP headers, see [Publishing an Orchestration as a Web Service](../core/publishing-an-orchestration-as-a-web-service.md).</span></span> <span data-ttu-id="da9fa-117">Consulte también [publicar esquemas como servicios Web](../core/publishing-schemas-as-a-web-service.md).</span><span class="sxs-lookup"><span data-stu-id="da9fa-117">Also see [Publishing Schemas as a Web Service](../core/publishing-schemas-as-a-web-service.md).</span></span>  
   
-## <a name="see-also"></a>Vea también  
- [Encabezados SOAP con servicios Web publicados](../core/soap-headers-with-published-web-services.md)
+## <a name="see-also"></a><span data-ttu-id="da9fa-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="da9fa-118">See Also</span></span>  
+ [<span data-ttu-id="da9fa-119">Encabezados SOAP con servicios Web publicados</span><span class="sxs-lookup"><span data-stu-id="da9fa-119">SOAP Headers with Published Web Services</span></span>](../core/soap-headers-with-published-web-services.md)

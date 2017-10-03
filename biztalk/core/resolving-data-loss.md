@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="resolving-data-loss"></a>Resolver la pérdida de datos
-La recuperación de los datos perdidos puede ser difícil o imposible. Los temas de esta sección describen procesos que pueden seguirse para minimizar la pérdida de datos.  
+# <a name="resolving-data-loss"></a><span data-ttu-id="f2f67-102">Resolver la pérdida de datos</span><span class="sxs-lookup"><span data-stu-id="f2f67-102">Resolving Data Loss</span></span>
+<span data-ttu-id="f2f67-103">La recuperación de los datos perdidos puede ser difícil o imposible.</span><span class="sxs-lookup"><span data-stu-id="f2f67-103">Recovering lost data can be difficult or impossible.</span></span> <span data-ttu-id="f2f67-104">Los temas de esta sección describen procesos que pueden seguirse para minimizar la pérdida de datos.</span><span class="sxs-lookup"><span data-stu-id="f2f67-104">The topics in this section describe processes you can follow to help minimize data loss.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f2f67-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f2f67-105">In This Section</span></span>  
   
--   [Resolver la pérdida de datos de las orquestaciones en curso](../core/resolving-data-loss-of-in-progress-orchestrations.md)  
+-   [<span data-ttu-id="f2f67-106">Resolver la pérdida de datos de las orquestaciones en curso</span><span class="sxs-lookup"><span data-stu-id="f2f67-106">Resolving Data Loss of In-Progress Orchestrations</span></span>](../core/resolving-data-loss-of-in-progress-orchestrations.md)  
   
--   [Identificar los datos de seguimiento perdidos](../core/identifying-lost-tracking-data.md)  
+-   [<span data-ttu-id="f2f67-107">Identificar los datos de seguimiento perdidos</span><span class="sxs-lookup"><span data-stu-id="f2f67-107">Identifying Lost Tracking Data</span></span>](../core/identifying-lost-tracking-data.md)  
   
--   [Marcar transacciones en progreso como completadas en SAE](../core/marking-in-progress-transactions-as-complete-in-bam.md)
+-   [<span data-ttu-id="f2f67-108">Marcar transacciones en progreso como completadas en SAE</span><span class="sxs-lookup"><span data-stu-id="f2f67-108">Marking In-Progress Transactions as Complete in BAM</span></span>](../core/marking-in-progress-transactions-as-complete-in-bam.md)

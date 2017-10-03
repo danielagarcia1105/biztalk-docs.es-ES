@@ -18,18 +18,18 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="structure-of-an-interceptor-configuration-file"></a>Estructura de un archivo de configuración de interceptor
-En esta sección se proporciona información acerca de la estructura de un archivo de configuración de interceptor. Esta estructura básica se comparte en las configuraciones del interceptor de WF y de WCF.  
+# <a name="structure-of-an-interceptor-configuration-file"></a><span data-ttu-id="4767b-102">Estructura de un archivo de configuración de interceptor</span><span class="sxs-lookup"><span data-stu-id="4767b-102">Structure of an Interceptor Configuration File</span></span>
+<span data-ttu-id="4767b-103">En esta sección se proporciona información acerca de la estructura de un archivo de configuración de interceptor.</span><span class="sxs-lookup"><span data-stu-id="4767b-103">This section contains information about the structure of an interceptor configuration file.</span></span> <span data-ttu-id="4767b-104">Esta estructura básica se comparte en las configuraciones del interceptor de WF y de WCF.</span><span class="sxs-lookup"><span data-stu-id="4767b-104">This basic structure is shared for both WF and WCF interceptor configurations.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="4767b-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4767b-105">In This Section</span></span>  
   
--   [Elemento EventSource del interceptor](../core/interceptor-eventsource-element.md)  
+-   [<span data-ttu-id="4767b-106">Elemento EventSource del interceptor</span><span class="sxs-lookup"><span data-stu-id="4767b-106">Interceptor EventSource Element</span></span>](../core/interceptor-eventsource-element.md)  
   
--   [Elemento bamactivity de intercepción](../core/interceptor-bamactivity-element.md)  
+-   [<span data-ttu-id="4767b-107">Elemento bamactivity de intercepción</span><span class="sxs-lookup"><span data-stu-id="4767b-107">Interceptor BamActivity Element</span></span>](../core/interceptor-bamactivity-element.md)  
   
--   [Elemento OnEvent del interceptor](../core/interceptor-onevent-element.md)  
+-   [<span data-ttu-id="4767b-108">Elemento OnEvent del interceptor</span><span class="sxs-lookup"><span data-stu-id="4767b-108">Interceptor OnEvent Element</span></span>](../core/interceptor-onevent-element.md)  
   
--   [Expresiones de configuración de interceptor](../core/interceptor-configuration-expressions.md)  
+-   [<span data-ttu-id="4767b-109">Expresiones de configuración de interceptor</span><span class="sxs-lookup"><span data-stu-id="4767b-109">Interceptor Configuration Expressions</span></span>](../core/interceptor-configuration-expressions.md)  
   
-## <a name="see-also"></a>Vea también  
- [Archivo de configuración de interceptor](../core/interceptor-configuration-file.md)
+## <a name="see-also"></a><span data-ttu-id="4767b-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="4767b-110">See Also</span></span>  
+ [<span data-ttu-id="4767b-111">Archivo de configuración de interceptor</span><span class="sxs-lookup"><span data-stu-id="4767b-111">Interceptor Configuration File</span></span>](../core/interceptor-configuration-file.md)

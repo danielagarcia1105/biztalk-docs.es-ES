@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="scheme-errors"></a>Errores de esquema
-En esta sección se incluye información detallada para diagnosticar y resolver errores de esquema de WCF.  
+# <a name="scheme-errors"></a><span data-ttu-id="f696c-102">Errores de esquema</span><span class="sxs-lookup"><span data-stu-id="f696c-102">Scheme Errors</span></span>
+<span data-ttu-id="f696c-103">En esta sección se incluye información detallada para diagnosticar y resolver errores de esquema de WCF.</span><span class="sxs-lookup"><span data-stu-id="f696c-103">This section contains detailed information for diagnosing and resolving WCF Scheme errors.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="f696c-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f696c-104">In This Section</span></span>  
   
--   [No se puede determinar el esquema](../core/cannot-determine-scheme.md)  
+-   [<span data-ttu-id="f696c-105">No se puede determinar el esquema</span><span class="sxs-lookup"><span data-stu-id="f696c-105">Cannot determine scheme</span></span>](../core/cannot-determine-scheme.md)  
   
--   [No se puede obtener el esquema del enlace para validar la dirección](../core/cannot-obtain-scheme-from-binding-to-validate-address.md)  
+-   [<span data-ttu-id="f696c-106">No se puede obtener el esquema del enlace para validar la dirección</span><span class="sxs-lookup"><span data-stu-id="f696c-106">Cannot obtain scheme from binding to validate address</span></span>](../core/cannot-obtain-scheme-from-binding-to-validate-address.md)  
   
--   [Identificador no válido](../core/invalid-identifier.md)  
+-   [<span data-ttu-id="f696c-107">Identificador no válido</span><span class="sxs-lookup"><span data-stu-id="f696c-107">Invalid identifier</span></span>](../core/invalid-identifier.md)  
   
--   [Esquema no válido](../core/invalid-scheme.md)
+-   [<span data-ttu-id="f696c-108">Esquema no válido</span><span class="sxs-lookup"><span data-stu-id="f696c-108">Invalid scheme</span></span>](../core/invalid-scheme.md)

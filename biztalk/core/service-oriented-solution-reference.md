@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="service-oriented-solution-reference"></a>Referencia de la solución orientada a servicios
-En esta sección se muestran los archivos de la solución y los mensajes de las orquestaciones.  
+# <a name="service-oriented-solution-reference"></a><span data-ttu-id="3ce36-102">Referencia de la solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="3ce36-102">Service Oriented Solution Reference</span></span>
+<span data-ttu-id="3ce36-103">En esta sección se muestran los archivos de la solución y los mensajes de las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="3ce36-103">This section provides lists of the files in the solution and the messages in the orchestrations.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="3ce36-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="3ce36-104">In This Section</span></span>  
   
--   [Solución orientada a servicios de inventario de archivos para el servicio](../core/file-inventory-for-the-service-oriented-solution.md)  
+-   [<span data-ttu-id="3ce36-105">Solución orientada a servicios de inventario de archivos para el servicio</span><span class="sxs-lookup"><span data-stu-id="3ce36-105">File Inventory for the Service Oriented Solution</span></span>](../core/file-inventory-for-the-service-oriented-solution.md)  
   
--   [Referencia de mensajes para el servicio de solución orientada a servicios](../core/message-reference-for-the-service-oriented-solution.md)
+-   [<span data-ttu-id="3ce36-106">Referencia de mensajes para el servicio de solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="3ce36-106">Message Reference for the Service Oriented Solution</span></span>](../core/message-reference-for-the-service-oriented-solution.md)

@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="positional-record-considerations"></a>Consideraciones del registro posicional
-Hay una serie de cuestiones que debe tener en cuenta al trabajar con posicionales **registro** nodos en los esquemas. Entre ellas se incluye considerar cómo se tratan las etiquetas, cómo se anidan los registros posicionales, cómo se cuentan las posiciones y cómo se calculan las posiciones de los campos. Esta sección proporciona información acerca de estas consideraciones.  
+# <a name="positional-record-considerations"></a><span data-ttu-id="c6908-102">Consideraciones del registro posicional</span><span class="sxs-lookup"><span data-stu-id="c6908-102">Positional Record Considerations</span></span>
+<span data-ttu-id="c6908-103">Hay una serie de cuestiones que debe tener en cuenta al trabajar con posicionales **registro** nodos en los esquemas.</span><span class="sxs-lookup"><span data-stu-id="c6908-103">There are a number of considerations that you should keep in mind when working with positional **Record** nodes within your schemas.</span></span> <span data-ttu-id="c6908-104">Entre ellas se incluye considerar cómo se tratan las etiquetas, cómo se anidan los registros posicionales, cómo se cuentan las posiciones y cómo se calculan las posiciones de los campos.</span><span class="sxs-lookup"><span data-stu-id="c6908-104">This includes the considerations about tag handling, positional record nesting, how positions are counted, and how field positions are calculated.</span></span> <span data-ttu-id="c6908-105">Esta sección proporciona información acerca de estas consideraciones.</span><span class="sxs-lookup"><span data-stu-id="c6908-105">This section provides information about these considerations.</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="c6908-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c6908-106">In This Section</span></span>  
   
--   [Tratamiento de los registros posicionales de las etiquetas](../core/tag-handling-in-positional-records.md)  
+-   [<span data-ttu-id="c6908-107">Tratamiento de los registros posicionales de las etiquetas</span><span class="sxs-lookup"><span data-stu-id="c6908-107">Tag Handling in Positional Records</span></span>](../core/tag-handling-in-positional-records.md)  
   
--   [Registros posicionales anidados](../core/nested-positional-records.md)  
+-   [<span data-ttu-id="c6908-108">Registros posicionales anidados</span><span class="sxs-lookup"><span data-stu-id="c6908-108">Nested Positional Records</span></span>](../core/nested-positional-records.md)  
   
--   [Contar posiciones en Bytes](../core/position-counting-in-bytes.md)  
+-   [<span data-ttu-id="c6908-109">Contar posiciones en Bytes</span><span class="sxs-lookup"><span data-stu-id="c6908-109">Position Counting in Bytes</span></span>](../core/position-counting-in-bytes.md)  
   
--   [Cálculo de la posición de campo](../core/field-position-calculation.md)
+-   [<span data-ttu-id="c6908-110">Cálculo de la posición de campo</span><span class="sxs-lookup"><span data-stu-id="c6908-110">Field Position Calculation</span></span>](../core/field-position-calculation.md)

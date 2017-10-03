@@ -24,21 +24,21 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="planning-for-security"></a>Planear la seguridad
-Esta sección contiene información sobre las posibles amenazas a las que se expone un entorno de Microsoft BizTalk Server, recomendaciones para mitigar los ataques de denegación de servicio y consejos para proteger el entorno.  
+# <a name="planning-for-security"></a><span data-ttu-id="00bdc-102">Planear la seguridad</span><span class="sxs-lookup"><span data-stu-id="00bdc-102">Planning for Security</span></span>
+<span data-ttu-id="00bdc-103">Esta sección contiene información sobre las posibles amenazas a las que se expone un entorno de Microsoft BizTalk Server, recomendaciones para mitigar los ataques de denegación de servicio y consejos para proteger el entorno.</span><span class="sxs-lookup"><span data-stu-id="00bdc-103">This section contains information about the potential threats a Microsoft BizTalk Server environment may be vulnerable to, recommendations for mitigating Denial of Service attacks, and recommendations for helping to secure your BizTalk Server environment.</span></span>  
   
- Para obtener información completa acerca de cómo proteger la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).  
+ <span data-ttu-id="00bdc-104">Para obtener información completa acerca de cómo proteger la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).</span><span class="sxs-lookup"><span data-stu-id="00bdc-104">For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a><span data-ttu-id="00bdc-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="00bdc-105">In This Section</span></span>  
   
--   [Identificar los requisitos de seguridad](../core/identifying-your-security-requirements.md)  
+-   [<span data-ttu-id="00bdc-106">Identificar los requisitos de seguridad</span><span class="sxs-lookup"><span data-stu-id="00bdc-106">Identifying Your Security Requirements</span></span>](../core/identifying-your-security-requirements.md)  
   
--   [Identificar las posibles amenazas](../core/identifying-potential-threats.md)  
+-   [<span data-ttu-id="00bdc-107">Identificar las posibles amenazas</span><span class="sxs-lookup"><span data-stu-id="00bdc-107">Identifying Potential Threats</span></span>](../core/identifying-potential-threats.md)  
   
--   [Denegación de servicio de mitigar los ataques](../core/mitigating-denial-of-service-attacks.md)  
+-   [<span data-ttu-id="00bdc-108">Denegación de servicio de mitigar los ataques</span><span class="sxs-lookup"><span data-stu-id="00bdc-108">Mitigating Denial of Service Attacks</span></span>](../core/mitigating-denial-of-service-attacks.md)  
   
--   [Recomendaciones de seguridad para una implementación de BizTalk Server](../core/security-recommendations-for-a-biztalk-server-deployment.md)  
+-   [<span data-ttu-id="00bdc-109">Recomendaciones de seguridad para una implementación de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="00bdc-109">Security Recommendations for a BizTalk Server Deployment</span></span>](../core/security-recommendations-for-a-biztalk-server-deployment.md)  
   
--   [Recomendaciones de seguridad en tiempo de ejecución de BizTalk Server](../core/biztalk-server-runtime-security-recommendations.md)  
+-   [<span data-ttu-id="00bdc-110">Recomendaciones de seguridad en tiempo de ejecución de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="00bdc-110">BizTalk Server Runtime Security Recommendations</span></span>](../core/biztalk-server-runtime-security-recommendations.md)  
   
--   [Casos prácticos de seguridad para pequeñas y medianas empresas](../core/security-case-studies-for-small-to-medium-sized-companies.md)
+-   [<span data-ttu-id="00bdc-111">Casos prácticos de seguridad para pequeñas y medianas empresas</span><span class="sxs-lookup"><span data-stu-id="00bdc-111">Security Case Studies for Small to Medium-Sized Companies</span></span>](../core/security-case-studies-for-small-to-medium-sized-companies.md)
