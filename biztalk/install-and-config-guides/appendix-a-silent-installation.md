@@ -1,0 +1,66 @@
+---
+title: "Apéndice A: instalación silenciosa | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 94ded6b3-13ca-47e6-a038-254514f500e7
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: b5ece3e8aa8469d1b47d256a0001bebce950b7c9
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="appendix-a-silent-installation"></a>Apéndice A: Instalación silenciosa
+En este tema se indican los pasos necesarios para crear una instalación silenciosa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+  
+## <a name="create-a-silent-installation"></a>Crear una instalación silenciosa  
+  
+1.  Haga clic en **Inicio**, **Todos los programas**, **Accesorios** y **Símbolo del sistema**.  
+  
+2.  Vaya a la ubicación de instalación. En el símbolo del sistema, escriba `setup.exe /``<command name> <options>` y pulse **ENTRAR**. El archivo de registro muestra el estado de la instalación.  
+  
+|Nombre de comando|Opción|Descripción|  
+|------------------|------------|-----------------|  
+|/HELP, /? o /H||Proporciona ayuda y una referencia rápida.|  
+|/QUIET||Suprime la interfaz de usuario durante la instalación, todos los cuadros de diálogo, los errores, o los mensajes que soliciten la intervención del usuario. Todos los mensajes se ingresan en el archivo de registro de instalación. **Nota:** No se puede especificar la marca Silencioso para actualizaciones, ya que estas requieren la confirmación del usuario para las opciones seleccionadas.|  
+|/CABPATH|\<*Ubicación del archivo CAB*>|Indica la ubicación del archivo .cab redistribuible.|  
+|/S|\<*Archivo XML de configuración*>|Lleva a cabo una instalación silenciosa de las características que se encuentran en el archivo de configuración especificado. **Nota:** Para instalar todas las características, especifique ALL para el parámetro `InstalledFeature` del archivo XML de configuración.|  
+|/PASSIVE||Efectúa una instalación pasiva. El programa de instalación tan solo muestra la barra de progreso.|  
+|/NORESTART||Suprime las solicitudes de reinicio y reinicia automáticamente el equipo al final de la instalación.|  
+|/FORCERESTART||Siempre fuerza un reinicio una vez finalizada la instalación.|  
+|/PROMPTRESTART||Pregunta al usuario antes de reiniciar.|  
+|/X o /UNINSTALL||Desinstala [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].|  
+|/L|\<Archivo de registro > [i] [w] [e] [a] [r] [u] [c] [m] [p] [v] [*]|Escribe información de registro en un archivo de registro en la ruta de acceso especificada. Siempre usa el registro de Windows Installer detallado y lo anexa a un archivo existente.<br /><br /> Los siguientes marcadores especifican la información que se va a registrar:<br /><br /> i: mensajes de estado<br /><br /> w: advertencias no graves<br /><br /> e: todos los mensajes de error<br /><br /> a: inicio de acciones<br /><br /> r: registros específicos para la acción<br /><br /> u: solicitudes de usuario<br /><br /> c: parámetros iniciales de la interfaz de usuario<br /><br /> m: memoria insuficiente<br /><br /> p: propiedades de terminal<br /><br /> v: información detallada<br /><br /> *: todo|  
+|/IGNOREDEPENDENCIES||Omite las comprobaciones de los requisitos previos descargables.|  
+|/ INSTALLDIR \< *la ruta de instalación*>|\<*carpeta de archivos de programa>*|Especifica la ruta de acceso completa a la ubicación de instalación del producto.|  
+|/COMPANYNAME|\<*nombre de la compañía*>|Establece el nombre de la empresa o la organización.|  
+|/USERNAME|\<*nombre de usuario*>|Establece el nombre de usuario.|  
+|/ADDLOCAL ALL||Instala todas las características. Para obtener más información sobre el comando ADDLOCAL, consulte [Listing of Values for the ADDLOCAL Command](http://go.microsoft.com/fwlink/p/?LinkID=189319) (Lista de valores para el comando ADDLOCAL).|  
+|/REMOVE ALL||Quita todas las características.|  
+|/REPAIR ALL||Repara todas las características.|  
+|/CEIP||Activa el Programa de mejora de la experiencia del cliente (CEIP).|  
+|/PRODUCT UDDI||Instala UDDI|  
+|msiexec.exe /i [RUTAMSI] INSTALLDIR=[RUTADIRINSTALACIÓN] DATADIR=[RUTADIRDATOS] SQLSERVERMACHINENAME=[NOMBRESERVIDORSQLSERVER] OVERWRITERFIDSTORE=1 INSTALLLEVEL=5 /lvxp RfidServicesInstall.txt /q<br /><br /> Por ejemplo: msiexec.exe /i "\\\ABC\XYZ\RFID_x86\RfidServices.msi" INSTALLDIR="C:\Archivos de programa\Microsoft BizTalk RFID\" DATADIR="C:\Archivos de programa\Microsoft BizTalk RFID\" SQLSERVERMACHINENAME=(local) OVERWRITERFIDSTORE=1 INSTALLLEVEL=5 /lvxp RfidServicesInstall.txt /q||Instala Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] RFID.|  
+  
+ **Notas**  
+  
+-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite la distribución electrónica automatizada de software, también conocida como instalación silenciosa. Una instalación silenciosa hace lo siguiente:  
+  
+    -   Instala [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en equipos que tienen la misma configuración.  
+  
+    -   Permite a los administradores del sistema instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en equipos remotos sin necesidad de intervención del usuario.  
+  
+    -   No es necesario que el usuario supervise la instalación ni proporcione entradas.  
+  
+-   Para crear una instalación silenciosa, use las opciones de la línea de comandos para suprimir toda interacción.  
+  
+-   Cuando se completa una instalación silenciosa, no se muestran mensajes en la ventana de comandos. Use el archivo de registro de la instalación para revisar el estado.  
+  

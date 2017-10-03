@@ -1,0 +1,1 @@
+Asistente para agregar metadatos de adaptador

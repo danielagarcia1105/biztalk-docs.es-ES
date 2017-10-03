@@ -1,0 +1,1 @@
+Complemento Add Adapter Service Reference Visual Studio

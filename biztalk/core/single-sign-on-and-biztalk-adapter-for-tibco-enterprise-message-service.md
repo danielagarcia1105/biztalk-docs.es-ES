@@ -1,0 +1,41 @@
+---
+title: "Un único inicio de sesión y el adaptador de BizTalk para TIBCO Enterprise Message Service | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- messages, processing requests
+- Single Sign-On, using with adapter
+- processing requests
+- HTTP requests, processing
+ms.assetid: 68e85ceb-bf4c-489a-a2c2-1558e718ceed
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 181e54426d568857a9116aa47022adbc7788edaf
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="single-sign-on-and-biztalk-adapter-for-tibco-enterprise-message-service"></a>Inicio de sesión único y adaptador de TIBCO Enterprise Message Service
+Al usar inicio de sesión único (SSO) con Microsoft BizTalk Adapter para TIBCO Enterprise Message Service (EMS), el adaptador obtiene las credenciales de la base de datos de credenciales de SSO; por lo tanto, no es necesario que especifique las credenciales de inicio de sesión para el sistema de servidor en el **propiedades de transporte** cuadro de diálogo.  
+  
+ En tiempo de diseño, el adaptador obtiene las credenciales para el sistema (para la aplicación afiliada especificada) en el contexto del usuario que inició el proyecto de BizTalk Server. Ese usuario debe ser un usuario de la aplicación. En tiempo de ejecución, use el adaptador de recepción HTTP de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como ubicación de recepción en escenarios de paso a través al usar SSO.  
+  
+## <a name="processing-requests"></a>Procesamiento de solicitudes  
+ Cuando los Servicios de Internet Information Server (IIS) reciben una solicitud HTTP procedente de un cliente Web, IIS se encarga de autenticar al usuario. La extensión ISAPI suplanta al usuario de Windows y llama al almacén de credenciales SSO para obtener un vale cifrado. Este vale se almacena como propiedad SSOTicket en el contexto del mensaje.  
+  
+ El mensaje se dirige entonces a la base de datos de cuadro de mensajes. Cuando el adaptador de BizTalk para TIBCO EMS recibe el mensaje de la base de datos de cuadro de mensajes, llama al método ValidateAndRedeemTicket, con el vale cifrado y el nombre de la aplicación afiliada, a fin de recuperar del almacén de SSO las credenciales de inicio de sesión. Entonces, el adaptador usa las credenciales externas para conectarse al sistema y procesar la solicitud.  
+  
+> [!NOTE]
+>  La configuración de SSO forma parte de la configuración de BizTalk Server. Si recibe errores de SSO, compruebe que ha usado una cuenta de dominio al configurar BizTalk Server, ya que esto puede afectar al funcionamiento del servicio SSO empresarial. SSO sólo funciona con una cuenta de dominio.  
+  
+## <a name="see-also"></a>Vea también  
+ [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications5.md)   
+ [Mediante el inicio de sesión único](../core/using-single-sign-on4.md)

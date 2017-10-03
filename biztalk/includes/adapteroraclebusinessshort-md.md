@@ -1,0 +1,1 @@
+Adaptador para Oracle E-Business
