@@ -1,0 +1,76 @@
+---
+title: "Administración de la configuración de rendimiento de servidor BizTalk Server | Documentos de Microsoft"
+description: "Utilice el panel de configuración para actualizar el grupo de BizTalk, host e instancias de host en BizTalk Server"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: ca56a981-a255-4c4d-82f8-a57d390e425e
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 0660fd4aa130049d80de4a0c2ee239ef5cae0068
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="manage-biztalk-server-performance-settings"></a>Administrar la configuración de rendimiento de servidor BizTalk Server
+  
+ El [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] en BizTalk Server recopila la configuración de rendimiento y proporciona una consola central para administrar esta configuración. Esto ayuda a:  
+  
+-   Mejorar la detectabilidad de las propiedades que se pueden establecer
+  
+-   Reducir el tiempo para la solución porque toda la configuración ahora es accesible en un solo lugar y se puede exportar e importar fácilmente
+  
+-   Ofrece una visión holística del nivel de optimización del rendimiento realizado en una determinada implementación de BizTalk
+  
+## <a name="why-use-it"></a>¿Por qué usarla?  
+ El [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] está dirigido a los administradores de TI que necesitan modificar extensivamente la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para optimizar el rendimiento.  
+  
+ Puede usar el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] para modificar la configuración del grupo de BizTalk y todos los hosts de BizTalk y las instancias de host de BizTalk de dicho grupo.  
+  
+ Para obtener más información sobre el grupo, el host y la configuración de la instancia de host, consulte [cómo modificar la configuración del grupo de](../core/how-to-modify-group-settings.md), [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md), y [cómo modificar configuración de instancia de Host](../core/how-to-modify-host-instance-settings.md).  
+  
+## <a name="prerequisites"></a>Requisitos previos 
+ Puede iniciar el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] desde la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para obtener información sobre cómo administrar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuración de rendimiento mediante la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, consulte [mediante la consola de administración de BizTalk Server](../core/using-the-biztalk-server-administration-console.md).  
+  
+## <a name="where-do-i-start"></a>¿Dónde debo empezar?  
+ Puede obtener acceso al [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] de cualquiera de las maneras siguientes:  
+  
+-   Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en **grupo de BizTalk** en el árbol de consola y, a continuación, seleccione **configuración**.  
+  
+-   Haga clic en cualquier host bajo el **configuración de plataforma** nodo en MMC y haga clic en **configuración**. Esto inicia el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] y puede modificar la configuración relativa a ese host.  
+  
+-   Haga clic en cualquier instancia de host la **configuración de plataforma** nodo en MMC y haga clic en **configuración**. Esto inicia el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] y puede modificar la configuración relativa a esa instancia de host.  
+  
+## <a name="export-and-import-settings"></a>Exportar e importar configuraciones  
+ El [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] se puede usar para exportar la configuración de un entorno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e importarla a otro entorno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], reduciendo de esta manera el tiempo para la solución global. Esto es especialmente práctico en aquellas situaciones en las que los administradores intentan ajustar el rendimiento de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de prueba y, una vez obtenidos los resultados deseados, pueden importar la configuración a un entorno de producción.  
+  
+ Para obtener información acerca de cómo usar de importación y exportación de la [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] interfaz de usuario, consulte [importación o exportación panel de configuración de uso de configuración de BizTalk](how-to-import-biztalk-settings-using-settings-dashboard.md).
+  
+## <a name="scripting-support"></a>Compatibilidad con scripting
+ El [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] no únicamente proporciona una interfaz de usuario central para administrar la configuración de BizTalk sino que también asegura que se pueda obtener acceso a toda la configuración y las tareas de importación y exportación mediante las API y las opciones de la línea de comandos. Esto permite a los administradores de BizTalk Server automatizar las tareas relacionadas con la configuración de BizTalk Server. Como parte de la compatibilidad de creación de scripts:  
+  
+-   Todas las configuraciones de grupo se pueden acceder y modificar mediante la clase WMI:`MSBTS_GroupSetting`  
+  
+-   Todas las configuraciones de host se pueden acceder y modificar mediante la clase WMI:`MSBTS_HostSetting`  
+  
+-   Todas las configuraciones de la instancia de host se pueden acceder y modificar mediante la clase WMI:`MSBTS_HostInstanceSetting`  
+  
+-   Pueden tener acceso a las operaciones de importación y exportación mediante **BTSTask.exe** comandos: `ExportSettings` y`ImportSettings`  
+  
+ Para obtener más información acerca de cómo importar y exportar mediante la utilidad de línea de comandos de BTSTask.exe, consulte [importación o exportación BTSTask de uso de configuración de BizTalk](how-to-import-biztalk-settings-using-btstask.md).  
+  
+## <a name="next"></a>Siguiente  
+  
+-   [Usar el panel de configuración para el servidor BizTalk Server ajuste del rendimiento](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)  
+  
+-   [Automatizar el servidor BizTalk Server ajuste del rendimiento](../core/automating-biztalk-server-performance-tuning.md)  
+  
+## <a name="see-also"></a>Vea también  
+ [Administrar el servidor BizTalk Server](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)

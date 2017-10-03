@@ -1,0 +1,34 @@
+---
+title: "Planear la creación de esquemas | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 4ecb9154-b457-4209-b9b9-572c186bf5e7
+caps.latest.revision: "7"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 60fc7a3cafb3f13a189383df70d4b9ea0bf98f54
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="planning-for-schema-creation"></a>Planear la creación de esquemas
+Los esquemas sirven para validar instancias de mensajes que se deben ajustar a un esquema, definir cómo los mensajes de instancia de distintos formatos (XML y no XML) se pueden traducir entre sí y establecer cómo los mensajes de instancia XML con una estructura se pueden transformar en mensajes de instancia XML con una estructura diferente. Para obtener más información acerca de la diferencia entre traducción de mensaje de instancia y transformación de mensajes de instancia, consulte [vs de transformación. Traducción](../core/data-transformation.md).  
+  
+ En la tabla siguiente aparecen algunas preguntas a las que es necesario responder cuando planee la creación de esquemas en el Editor de BizTalk.  
+  
+|Pregunta preliminar|Recomendación|  
+|-----------------------|--------------------|  
+|¿Qué esquemas necesito crear?|Haga una lista de los documentos empresariales que procesará con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Dicha lista puede incluir, por ejemplo, un pedido, una factura, una confirmación de envío, etc. La lista también puede contener más de un documento empresarial de cada tipo; por ejemplo, si la estructura de un pedido recibido de un socio comercial es diferente de la estructura de un pedido recibido de otro socio comercial.|  
+|¿Están ya representados en XML los documentos enviados y recibidos?|Agregue información a la lista de documentos acerca del formato de cada documento empresarial enviado y recibido, es decir, si está en formato XML o en otro formato como archivo sin formato delimitado o posicional.|  
+|¿De qué puntos de partida dispongo para crear los esquemas de la lista?|Aunque a veces es necesario, la creación de esquemas es una tarea más complicada que generar los esquemas a partir de orígenes compatibles. Si el esquema ya está representado en el lenguaje de definición de esquemas XML (XSD), no será necesario realizar ninguna tarea de generación y podrá abrirlo directamente en el Editor de BizTalk.<br /><br /> Si dispone de un mensaje de instancia XML bien estructurado, una representación DTD (definición de tipo de documento) del esquema o una representación XDR (datos reducidos XML) del esquema, puede generar el esquema automáticamente. Puede que tenga que perfeccionar el esquema generado con el Editor de BizTalk, pero se habrá ahorrado algo de trabajo. Para obtener instrucciones detalladas, consulte el procedimiento "para generar un esquema desde un origen que no sea XSD" en [crear esquemas para mensajes XML](../core/how-to-create-schemas-for-xml-messages.md).<br /><br /> Si no dispone de ninguno de estos puntos de partida para uno o varios documentos empresariales de la lista, deberá crear un nuevo esquema con el Editor de BizTalk y definir la estructura del mismo.|  
+  
+## <a name="see-also"></a>Vea también  
+ [Cómo crear esquemas para mensajes XML](../core/how-to-create-schemas-for-xml-messages.md)   
+ [Crear esquemas con el Editor de BizTalk](../core/creating-schemas-using-biztalk-editor.md)

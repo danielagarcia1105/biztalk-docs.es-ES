@@ -1,0 +1,38 @@
+---
+title: "Error: segunda entrada de Functoid de tabla extractor de tablas no válida | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords: bts10.map.error.secondInputForTableExtractorNotValid
+ms.assetid: 099f7374-8625-40af-a74b-24c4de941a7b
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 5970c0bfa23cc7da33b2c041cc326987ec278e09
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="error---second-input-for-table-extractor-functoid-not-valid"></a>Error: segunda entrada de Functoid de tabla extractor de tablas no válida
+**Código de error**  
+  
+ btm1073  
+  
+ **Explicación**  
+  
+ El segundo parámetro a la correspondiente de entrada **Extractor de tablas** functoid no es válido. Este parámetro debe ser una constante de número entero positivo que indica una columna válida de la tabla configurada para cuadrícula de bucle la **bucle de tabla** functoid indicado por el primer parámetro de entrada.  
+  
+ **Acción del usuario**  
+  
+ Asegúrese de que los parámetros de entrada a la correspondiente **Extractor de tablas** functoid, que se obtiene acceso a través de su **parámetros de entrada** propiedad y el **configurar \<Functoid > Functoid** cuadro de diálogo, son como se muestra en la tabla siguiente.  
+  
+|Número de parámetro de entrada del functoid de Extractor de tablas|Description|  
+|-----------------------------------------------------|-----------------|  
+|1|Vincular desde el **bucle de tabla** functoid a partir del cual **Extractor de tablas** functoid extraerá los datos de la columna tal y como indica su segundo parámetro.|  
+|2|El número de una columna válida de la tabla de datos que se configura a través de la **cuadrícula de bucle de tabla** propiedad de la **bucle de tabla** especificado por el primer parámetro de entrada de functoid.|

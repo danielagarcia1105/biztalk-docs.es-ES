@@ -1,0 +1,244 @@
+---
+title: "Crear la ubicación de recepción y el puerto de envío mediante programación | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 47850e66-ce33-4c6a-8190-168071792c0b
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: b29e5b275bdf5645717298f82b27aca7db36e034
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="create-the-receive-location-and-send-port-programmatically"></a>Crear la ubicación de recepción y el puerto de envío mediante programación
+Configurar un WCF-BasicHttp mediante programación, el puerto de envío y la ubicación de recepción. Para usar la consola de administración de BizTalk, consulte [adaptador WCF-BasicHttp](../core/wcf-basichttp-adapter.md). 
+  
+## <a name="configure-the-receive-location-programmatically"></a>Configurar la ubicación de recepción mediante programación  
+  
+ El modelo de objetos del Explorador de BizTalk permite crear y configurar ubicaciones de recepción mediante programación. El modelo de objetos del explorador de BizTalk expone la**IReceiveLocation** recibir interfaz de configuración de ubicación que tenga un **TransportTypeData** propiedad de lectura/escritura. Esta propiedad acepta una bolsa de propiedades de configuración de ubicación de recepción WCF-BasicHttp con formato de un par de nombre y valor de cadenas XML. Para establecer esta propiedad en el modelo de objetos del explorador de BizTalk, debe establecer el **InboundTransportLocation** propiedad de la **IReceiveLocation** interfaz.  
+  
+ El **TransportTypeData** propiedad de la **IReceiveLocation** interfaz no tiene que establecerse. Si no se establece, el adaptador de WCF-BasicHttp usa los valores predeterminados para la configuración de la ubicación de recepción WCF-BasicHttp, como se indica en la siguiente tabla.  
+ 
+ El fragmento de código siguiente muestra la creación de un WCF-BasicHttp ubicación de recepción mediante el modelo de objetos del explorador de BizTalk:  
+  
+```  
+// Use BizTalk Explorer object model to create new WCF-BasicHttp receive location   
+string server = System.Environment.MachineName;  
+string database = "BizTalkMgmtDb";  
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
+string transportConfigData = @"<CustomProps>  
+  \<InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
+  \<UseSSO vt=""11"">0</UseSSO>  
+  \<Identity vt=""8"">  
+    <identity>  
+    \<userPrincipalName value=""username@contoso.com"" />  
+    </identity>  
+  </Identity>  
+</CustomProps>";  
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
+explorer.ConnectionString = connectionString;  
+// Add a new BizTalk application  
+Application application = explorer.AddNewApplication();  
+application.Name = "SampleBizTalkApplication";  
+// Save  
+explorer.SaveChanges();  
+// Add a new one-way receive port  
+IReceivePort receivePort = application.AddNewReceivePort(false);  
+receivePort.Name = "SampleReceivePort";  
+// Add a new one-way receive location  
+IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
+recieveLocation.Name = "SampleReceiveLocation";  
+// Find a receive handler for WCF-BasicHttp  
+int i = 0;  
+for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
+{  
+    if("WCF-BasicHttp" == explorer.ReceiveHandlers[i].TransportType.Name)  
+        break;  
+}  
+recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+recieveLocation.Address = "/samplepath/sampleservice.svc";  
+recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+recieveLocation.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
+recieveLocation.TransportTypeData = transportConfigData;  
+// Save  
+explorer.SaveChanges();  
+  
+```  
+
+Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`: 
+  
+```  
+<CustomProps>  
+  <ServiceCertificate vt="8" />  
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
+  <UseSSO vt="11">0</UseSSO>  
+  <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
+  <InboundBodyPathExpression vt="8" />  
+  <SendTimeout vt="8">00:01:00</SendTimeout>  
+  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
+  <Identity vt="8">  
+    <identity>  
+    <userPrincipalName value="username@contoso.com" />  
+    </identity>  
+  </Identity>  
+  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
+  <SecurityMode vt="8">None</SecurityMode>  
+  <TransportClientCredentialType vt="8">None</TransportClientCredentialType>  
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
+  <TextEncoding vt="8">utf-8</TextEncoding>  
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
+  <SuspendMessageOnFailure vt="11">0</SuspendMessageOnFailure>  
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
+  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>  
+  <MaxConcurrentCalls vt="3">16</MaxConcurrentCalls>  
+  <MessageEncoding vt="8">Text</MessageEncoding>  
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
+</CustomProps>  
+  
+```   
+  
+En la tabla siguiente se enumera las propiedades de configuración que se pueden establecer para la ubicación de recepción:  
+  
+|Nombre de la propiedad|Tipo|Description|  
+|-------------------|----------|-----------------|  
+|**Identidad**|Blob XML<br /><br /> Ejemplo:<br /><br /> &lt;identidad&gt;<br /><br /> &lt;valor de userPrincipalName = "username@contoso.com" /&gt;<br /><br /> &lt;/Identity&gt;|Especificar la identidad de servicio que proporciona esta ubicación de recepción. Los valores que se pueden especificar para el **identidad** propiedad difieren según la configuración de seguridad. Esta configuración hace posible que el cliente autentique la ubicación de recepción. En el proceso de negociación entre el cliente y el servicio, la infraestructura de Windows Communication Foundation (WCF) asegurará que la identidad del servicio esperado coincide con los valores de este elemento.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**OpenTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de apertura del canal.<br /><br /> Valor predeterminado: 00:01:00|  
+|**SendTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de envío. Si usa un puerto de recepción solicitud-respuesta, este valor especifica un marco temporal para que se complete la interacción, incluso cuando el cliente devuelva un mensaje grande.<br /><br /> Valor predeterminado: 00:01:00|  
+|**CloseTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de cierre del canal.<br /><br /> Valor predeterminado: 00:01:00|  
+|**MaxReceivedMessageSize**|Integer|Especificar el tamaño máximo, en bytes, para mensajes (con encabezados incluidos) que se pueden recibir a través de la red. El tamaño de los mensajes se limita mediante la cantidad de memoria asignada a cada mensaje. Puede usar esta propiedad para limitar la exposición a ataques por denegación de servicio (DoS).<br /><br /> El adaptador de WCF-BasicHttp aprovecha la [BasicHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81086) clase en el modo de transferencia almacenado en búfer para comunicarse con un punto de conexión. Para el modo de transporte almacenado en búfer, el [BasicHttpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=80659) propiedad siempre es igual al valor de esta propiedad.<br /><br /> Valor predeterminado: 65536|  
+|**MessageEncoding**|Enum<br /><br /> -   **Texto** -usar un codificador de mensajes de texto.<br />-   **MTOM** -usar un codificador Message Transmission Optimization Mechanism 1.0 (MTOM).|Especificar el codificador que se usa para codificar el mensaje SOAP.<br /><br /> Valor predeterminado: **texto**|  
+|**TextEncoding**|Enum<br /><br /> -   **unicodeFFF** -codificación Unicode BigEndian.<br />-   **UTF-16** : 16 bits codificación.<br />-   **UTF-8** : 8 bits codificación|Especifique la codificación que se usará para emitir los mensajes en el enlace del juego de caracteres cuando la **MessageEncoding** propiedad está establecida en **texto**.<br /><br /> Valor predeterminado: **utf-8**|  
+|**MaxConcurrentCalls**|Integer|Especificar el número de llamadas concurrentes en una instancia de servicio única. Las llamadas que superan el límite se ponen en cola. El intervalo de esta propiedad es de 1 a **Int32.MaxValue**.<br /><br /> Valor predeterminado: 200|  
+|**SecurityMode**|Enum<br /><br /> -   **Ninguno**<br />-   **Mensaje**<br />-   **Transporte**<br />-   **TransportWithMessageCredential**<br />-   **TransportCredentialOnly**<br /><br /> Para obtener más información acerca de los nombres de miembro para el **SecurityMode** propiedad, vea la **modo de seguridad** propiedad en la **cuadro de diálogo de propiedades de transporte WCF-BasicHttp, recepción, seguridad**  ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de seguridad que se usa.<br /><br /> Valor predeterminado: **ninguno**|  
+|**TransportClientCredentialType**|Para obtener más información acerca de los nombres de miembro para el **TransportClientCredentialType** propiedad, vea la **tipo de credencial de cliente de transporte** propiedad **transporte de WCF-BasicHttp Seguridad de cuadro de diálogo, recepción, las propiedades** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de credenciales que se va a usar a la hora de realizar la autenticación del cliente.<br /><br /> Valor predeterminado: **ninguno**|  
+|**MessageClientCredentialType**|Enum<br /><br /> -   **Nombre de usuario**<br />-   **Certificado**<br /><br /> Para obtener más información acerca de los nombres de miembro para el **MessageClientCredentialType** propiedad, vea la **tipo de credencial de cliente de mensaje** propiedad **propiedades de transporte de WCF-BasicHttp Cuadro de diálogo cuadro, recepción, seguridad** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de credenciales que se va a usar a la hora de realizar la autenticación de cliente mediante la seguridad basada en mensajes.<br /><br /> Valor predeterminado: **nombre de usuario**|  
+|**AlgorithmSuite**|Enum<br /><br /> Para obtener más información acerca de los nombres de miembro para el **AlgorithmSuite** propiedad, vea la **conjunto de algoritmos** propiedad en **cuadro de diálogo de propiedades de transporte WCF-BasicHttp, recepción, seguridad**  ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el cifrado de mensajes y los algoritmos de encapsulado de claves. Estos algoritmos se asignan a los que se indican en la especificación Security Policy Language (WS-SecurityPolicy).<br /><br /> Valor predeterminado: **Basic256**|  
+|**ServiceCertificate**|String|Especificar la huella digital del certificado X.509 para esta ubicación de recepción que los clientes utilizan para autenticar el servicio. El certificado que se usará para esta propiedad debe estar instalado en el **mi** almacenar en la **usuario actual** ubicación. **Nota:** debe instalar el certificado de servicio en la **usuario actual** ubicación de la cuenta de usuario para el controlador de recepción que aloja esta ubicación de recepción. <br /><br /> El valor predeterminado es una cadena vacía.|  
+|**UseSSO**|Boolean|Especificar si se usa el inicio de sesión único (SSO) empresarial para recuperar credenciales de cliente y emitir, así, un vale de SSO. Para obtener más información acerca de las configuraciones de seguridad compatibles con SSO, vea la sección "Enterprise Single Sign-On compatibilidad the WCF-BasicHttp adaptador de recepción" en **cuadro de diálogo de propiedades de transporte WCF-BasicHttp, recepción, seguridad**  ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].<br /><br /> Valor predeterminado: **False**|  
+|**InboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -usar el contenido del mensaje SOAP **cuerpo** elemento de un mensaje entrante para crear la parte del cuerpo de mensaje de BizTalk. Si el elemento **Body** tiene varios elementos secundarios, sólo el primero de ellos será la parte del cuerpo del mensaje de BizTalk.<br />-   **UseEnvelope** -crear la parte del cuerpo de mensaje de BizTalk desde el mensaje de SOAP completo **sobres** de un mensaje entrante.<br />-   **UseBodyPath** -usar la expresión de ruta de cuerpo en el **InboundBodyPathExpression** propiedad que se va a crear la parte del cuerpo de mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del elemento **Cuerpo** de SOAP de un mensaje entrante. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Para obtener más información sobre cómo usar el **InboundBodyLocation** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la selección de datos para el mensaje SOAP **cuerpo** elemento de mensajes WCF entrantes.<br /><br /> Valor predeterminado: **UseBodyElement**|  
+|**InboundBodyPathExpression**|String<br /><br /> Para obtener más información sobre cómo usar el **InboundBodyPathExpression** propiedad, vea [propiedades y esquema de propiedades de adaptadores de WCF](../core/wcf-adapters-property-schema-and-properties.md).|Especificar la expresión de ruta de cuerpo para identificar una parte específica de un mensaje entrante utilizada para crear la parte del cuerpo del mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del mensaje SOAP **cuerpo** nodo de un mensaje entrante. Si esta expresión de ruta de cuerpo devuelve varios nodos, solo se elegirá el primero de ellos para la parte del cuerpo del mensaje de BizTalk. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**InboundNodeEncoding**|Enum<br /><br /> -   **Base64** -codificación Base64.<br />-   **Hex** : Hexadecimal codificación.<br />-   **Cadena** : codificación de texto - UTF-8<br />-   **XML** -los adaptadores WCF crean el cuerpo del mensaje de BizTalk con el XML externo del nodo seleccionado por la expresión de ruta de acceso de cuerpo en **InboundBodyPathExpression**.|Especifique el tipo de codificación que WCF-BasicHttp adaptador de recepción utiliza para descodificar el nodo identificado por la expresión de ruta de acceso de cuerpo especificada en **InboundBodyPathExpression**. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**.<br /><br /> Valor predeterminado: **XML**|  
+|**OutboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -usar la parte del cuerpo de mensaje de BizTalk para crear el contenido del mensaje SOAP **cuerpo** (elemento) para un mensaje de respuesta saliente.<br />-   **UseTemplate** -usar la plantilla proporcionada en el **OutboundXMLTemplate** propiedad que se va a crear el contenido del mensaje SOAP **cuerpo** (elemento) para un mensaje de respuesta saliente.<br /><br /> Para obtener más información sobre cómo usar el **OutboundBodyLocation** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la selección de datos para el mensaje SOAP **cuerpo** elemento de mensajes WCF salientes. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> Valor predeterminado: **UseBodyElement**|  
+|**OutboundXMLTemplate**|String<br /><br /> Para obtener más información sobre cómo usar el **OutboundXMLTemplate** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la plantilla con formato XML para el contenido del mensaje SOAP **cuerpo** elemento de un mensaje de respuesta saliente. Esta propiedad es necesaria si la **OutboundBodyLocation** propiedad está establecida en **UseTemplate**. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**SuspendMessageOnFailure**|Boolean|Especificar si se va a suspender el mensaje de solicitud cuyo procesamiento de entrada no se puede realizar correctamente debido a un error de canalización de recepción o de enrutamiento.<br /><br /> Valor predeterminado: **False**|  
+|**IncludeExceptionDetailInFaults**|Boolean|Especificar si se va a incluir información de excepción administrada en el detalle de los errores SOAP devueltos al cliente para fines de depuración.<br /><br /> Valor predeterminado: **False**|  
+  
+## <a name="configure-the-send-port-programmatically"></a>Configurar el puerto de envío mediante programación   
+
+ El fragmento de código siguiente muestra la creación de un puerto de envío de WCF-BasicHttp mediante el modelo de objetos del explorador de BizTalk:    
+  
+```  
+// Use BizTalk Explorer object model to create new WCF-BasicHttp send port.  
+string server = System.Environment.MachineName;  
+string database = "BizTalkMgmtDb";  
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
+string transportConfigData = @"<CustomProps>  
+                                 \<StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+                                 \<MessageEncoding vt=""8"">Text</MessageEncoding>  
+                                 \<TextEncoding vt=""8"">utf-8</TextEncoding>  
+                                 \<OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
+                               </CustomProps>";  
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
+explorer.ConnectionString = connectionString;  
+// Add a new BizTalk application  
+Application application = explorer.AddNewApplication();  
+application.Name = "SampleBizTalkApplication";  
+// Save  
+explorer.SaveChanges();  
+  
+// Add a new static one-way send port  
+SendPort sendPort = application.AddNewSendPort(false, false);   
+sendPort.Name = "SampleSendPort";  
+sendPort.PrimaryTransport.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
+sendPort.PrimaryTransport.Address = "http://mycomputer/samplepath";  
+sendPort.PrimaryTransport.TransportTypeData = transportConfigData; // propertyData; // need to change  
+sendPort.SendPipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruTransmit"];  
+// Save  
+explorer.SaveChanges();  
+```    
+
+Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`: 
+  
+```  
+<CustomProps>  
+  <ServiceCertificate vt="8" />  
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
+  <UseSSO vt="11">0</UseSSO>  
+  <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
+  <InboundBodyPathExpression vt="8" />  
+  <SendTimeout vt="8">00:01:00</SendTimeout>  
+  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
+  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
+  <SecurityMode vt="8">None</SecurityMode>  
+  <TransportClientCredentialType vt="8">None</TransportClientCredentialType>  
+  <ClientCertificate vt="8" />  
+  <ProxyUserName vt="8" />  
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
+  <TextEncoding vt="8">utf-8</TextEncoding>  
+  <StaticAction vt="8">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
+  <ProxyToUse vt="8">Default</ProxyToUse>  
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
+  <PropagateFaultMessage vt="11">-1</PropagateFaultMessage>  
+  <ProxyAddress vt="8" />  
+  <MessageEncoding vt="8">Text</MessageEncoding>  
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
+</CustomProps>  
+  
+```  
+
+En la tabla siguiente se enumera las propiedades de configuración que se pueden establecer para el puerto de envío:  
+  
+|Nombre de la propiedad|Tipo|Description|  
+|-------------------|----------|-----------------|  
+|**SecurityMode**|Enum<br /><br /> -   **Ninguno**<br />-   **Mensaje**<br />-   **Transporte**<br />-   **TransportWithMessageCredential**<br />-   **TransportCredentialOnly**<br /><br /> Para obtener más información acerca de los nombres de miembro para el **SecurityMode** propiedad, vea la **modo de seguridad** propiedad en **delcuadrodediálogodepropiedadesdetransporteWCF-BasicHttp,envío,seguridad** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de seguridad que se usa.<br /><br /> Valor predeterminado: **ninguno**|  
+|**MessageClientCredentialType**|Enum<br /><br /> -   **Nombre de usuario**<br />-   **Certificado**<br /><br /> Para obtener más información acerca de los nombres de miembro para el **MessageClientCredentialType** propiedad, vea la **tipo de credencial de cliente de mensaje** propiedad **propiedades de transporte de WCF-BasicHttp Cuadro de diálogo cuadro, envío, seguridad** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de credenciales que se va a usar a la hora de realizar la autenticación de cliente mediante la seguridad basada en mensajes.<br /><br /> Valor predeterminado: **nombre de usuario**|  
+|**TransportClientCredentialType**|Enum<br /><br /> -   **Ninguno**<br />-   **Básico**<br />-   **Windows**<br />-   **Certificado**<br />-   **Resumen**<br />-   **NTLM**<br /><br /> Para obtener más información acerca de los nombres de miembro para el **TransportClientCredentialType** propiedad, vea la **tipo de credencial de cliente de transporte** propiedad **transporte de WCF-BasicHttp Seguridad de cuadro de diálogo, envío, las propiedades** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el tipo de credenciales que se va a usar a la hora de realizar la autenticación del puerto de envío.<br /><br /> Valor predeterminado: **ninguno**|  
+|**UserName**|String|Especifique el nombre de usuario que se utilizará para la autenticación con el servidor de destino cuando la **UseSSO** propiedad está establecida en **False**. No tiene que usar el formato dominio\usuario para esta propiedad.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**Contraseña**|String|Especifique la contraseña que se utilizará para la autenticación con el servidor de destino cuando la **UseSSO** propiedad está establecida en **False**.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**AffiliateApplicationName**|String|Especificar la aplicación afiliada que se utilizará para el inicio de sesión único empresarial (SSO).<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**UseSSO**|Boolean|Especificar si se utiliza el inicio de sesión único (SSO) para recuperar credenciales de cliente para la autenticación con el servidor de destino.<br /><br /> Valor predeterminado: **False**|  
+|**ClientCertificate**|String|Especificar la huella digital del certificado X.509 para la autenticación de este puerto de envío en servicios. Esta propiedad es necesaria si la **ClientCredentialsType** propiedad está establecida en **certificado**. El certificado que se usará para esta propiedad debe estar instalado en el **mi** almacenar en la **usuario actual** ubicación.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**ServiceCertificate**|String|Especificar la huella digital del certificado X.509 para la autenticación del servicio al que este puerto de envío envía mensajes. El certificado que se usará para esta propiedad debe estar instalado en el **otras personas** almacenar en la **equipo Local** ubicación.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**ProxyToUse**|Enum<br /><br /> -   **Ninguno** -no utilice un servidor proxy para este puerto de envío.<br />-   **Predeterminado** -usar la configuración de proxy en el controlador de envío que aloja este puerto de envío.<br />-   **UserSpecified** -usar el servidor proxy especificado en el **ProxyAddress** propiedad|Especificar el servidor de proxy que se va a utilizar para el tráfico HTTP saliente.<br /><br /> Valor predeterminado: **ninguno**|  
+|**ProxyAddress**|String|Especificar la dirección del servidor proxy. Use la **https** o **http** esquema según la configuración de seguridad. Esta dirección puede ir seguida de dos puntos y el número de puerto. Por ejemplo, http://127.0.0.1:8080.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**ProxyUserName**|String|Especificar el nombre de usuario que se utilizará para el proxy. El adaptador de WCF-BasicHttp aprovecha la [BasicHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81086) en el modo de transferencia almacenado en búfer para comunicarse con un punto de conexión. Las credenciales del proxy de **BasicHttpBinding** son aplicables únicamente cuando el modo de seguridad es **transporte**, **ninguno**, o **TransportCredentialOnly**. Si establece la **SecurityMode** propiedad **mensaje** o **TransportWithMessageCredential**, el adaptador WCF-BasicHttp no utiliza la credencial especificada en el  **ProxyUserName** y **ProxyPassword** propiedades para la autenticación con el servidor proxy. **Nota:** WCF-BasicHttp adaptador de envío utiliza la autenticación básica para el proxy... <br /><br /> El valor predeterminado es una cadena vacía.|  
+|**ProxyPassword**|String|Especificar la contraseña que se utilizará para el proxy.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**InboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -usar el contenido del mensaje SOAP **cuerpo** elemento de un mensaje entrante para crear la parte del cuerpo de mensaje de BizTalk. Si el elemento **Body** tiene varios elementos secundarios, sólo el primero de ellos será la parte del cuerpo del mensaje de BizTalk. Esta propiedad sólo es válida para puertos de petición-respuesta.<br />-   **UseEnvelope** -crear la parte del cuerpo de mensaje de BizTalk desde el mensaje de SOAP completo **sobres** de un mensaje entrante.<br />-   **UseBodyPath** -usar la expresión de ruta de cuerpo en el **InboundBodyPathExpression** propiedad que se va a crear la parte del cuerpo de mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del elemento **Cuerpo** de SOAP de un mensaje entrante. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Para obtener más información sobre cómo usar el **InboundBodyLocation** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la selección de datos para el mensaje SOAP **cuerpo** elemento de mensajes WCF entrantes.<br /><br /> Valor predeterminado: **UseBodyElement**|  
+|**OutboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -usar la parte del cuerpo de mensaje de BizTalk para crear el contenido del mensaje SOAP **cuerpo** (elemento) para un mensaje saliente.<br />-   **UseTemplate** -usar la plantilla proporcionada en el **OutboundXMLTemplate** propiedad que se va a crear el contenido del mensaje SOAP **cuerpo** (elemento) para un mensaje saliente.<br /><br /> Para obtener más información sobre cómo usar el **OutboundBodyLocation** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la selección de datos para el mensaje SOAP **cuerpo** elemento de mensajes WCF salientes.<br /><br /> Valor predeterminado: **UseBodyElement**|  
+|**InboundBodyPathExpression**|String<br /><br /> Para obtener más información sobre cómo usar el **InboundBodyPathExpression** propiedad, vea [propiedades y esquema de propiedades de adaptadores de WCF](../core/wcf-adapters-property-schema-and-properties.md).|Especificar la expresión de ruta de cuerpo para identificar una parte específica de un mensaje entrante utilizada para crear la parte del cuerpo del mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del mensaje SOAP **cuerpo** nodo de un mensaje entrante. Si esta expresión de ruta de cuerpo devuelve varios nodos, solo se elegirá el primero de ellos para la parte del cuerpo del mensaje de BizTalk. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**OutboundXMLTemplate**|String<br /><br /> Para obtener más información sobre cómo usar el **OutboundXMLTemplate** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la plantilla con formato XML para el contenido del mensaje SOAP **cuerpo** elemento de un mensaje saliente. Esta propiedad es necesaria si la **OutboundBodyLocation** propiedad está establecida en **UseTemplate**.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**InboundNodeEncoding**|Enum<br /><br /> -   **Base64** -codificación Base64.<br />-   **Hex** : Hexadecimal codificación.<br />-   **Cadena** : codificación de texto - UTF-8<br />-   **XML** -los adaptadores WCF crean el cuerpo del mensaje de BizTalk con el XML externo del nodo seleccionado por la expresión de ruta de acceso de cuerpo en **InboundBodyPathExpression**.|Especificar el tipo de codificación que el adaptador de envío WCF-BasicHttp utiliza para descodificar el nodo identificado por la expresión de ruta de acceso de cuerpo especificada en **InboundBodyPathExpression**. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Valor predeterminado: **XML**|  
+|**StaticAction**|String|Especifique el **SOAPAction** campo de encabezado HTTP para los mensajes salientes. Esta propiedad también puede establecerse a través de la propiedad de contexto de mensaje **WCF. Acción** en una canalización o una orquestación. Puede especificar este valor de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1: el **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad.<br /><br /> Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en Op1, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para el saliente **SOAPAction** encabezado.<br /><br /> \<BtsActionMapping ><br /><br /> \<Nombre de la operación = "Op1" Action = "http://contoso.com/Svc/Op1" / ><br /><br /> \<Nombre de la operación = "Op2" Action = "http://contoso.com/Svc/Op2" / ><br /><br /> \</ BtsActionMapping ><br /><br /> Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**MaxReceivedMessageSize**|Integer|Especificar el tamaño máximo, en bytes, para mensajes (con encabezados incluidos) que se pueden recibir a través de la red. El tamaño de los mensajes se limita mediante la cantidad de memoria asignada a cada mensaje. Puede usar esta propiedad para limitar la exposición a ataques por denegación de servicio (DoS).<br /><br /> El adaptador de WCF-BasicHttp aprovecha la [BasicHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81086) clase en el modo de transferencia almacenado en búfer para comunicarse con un punto de conexión. Para el modo de transporte almacenado en búfer, el [BasicHttpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=80659) propiedad siempre es igual al valor de esta propiedad.<br /><br /> Valor predeterminado: 65.536|  
+|**MessageEncoding**|Enum<br /><br /> -   **Texto** -usar un codificador de mensajes de texto.<br />-   **MTOM** -usar un codificador Message Transmission organización Mechanism 1.0 (MTOM).|Especificar el codificador que se usa para codificar el mensaje SOAP.<br /><br /> Valor predeterminado: **texto**|  
+|**TextEncoding**|Enum<br /><br /> -   **unicodeFFF** -codificación Unicode BigEndian.<br />-   **UTF-16** : 16 bits codificación.<br />-   **UTF-8** : 8 bits codificación|Especifique la codificación que se usará para emitir los mensajes en el enlace del juego de caracteres cuando la **MessageEncoding** propiedad está establecida en **texto**.<br /><br /> Valor predeterminado: **utf-8**|  
+|**SendTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de envío. Si usa un puerto de envío de petición-respuesta, este valor especifica un marco temporal para que se complete la interacción, incluso cuando el servicio devuelva un mensaje grande.<br /><br /> Valor predeterminado: 00:01:00|  
+|**OpenTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de apertura del canal.<br /><br /> Valor predeterminado: 00:01:00|  
+|**CloseTimeout**|**System.TimeSpan**|Especificar un valor de marco temporal que indica el intervalo de tiempo proporcionado para que se complete una operación de cierre del canal.<br /><br /> Valor predeterminado: 00:01:00|  
+|**AlgorithmSuite**|Enum<br /><br /> Para obtener más información acerca de los nombres de miembro para el **AlgorithmSuite** propiedad, vea la **algorithmsuite** propiedad en **cuadro de diálogo de propiedades de transporte WCF-BasicHttp, envío, seguridad**  ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|Especificar el cifrado de mensajes y los algoritmos de encapsulado de claves. Estos algoritmos se asignan a los que se indican en la especificación Security Policy Language (WS-SecurityPolicy).<br /><br /> Valor predeterminado: **Basic256**|  
+|**Identidad**|Blob XML<br /><br /> Ejemplo:<br /><br /> &lt;identidad&gt;<br /><br /> &lt;valor de userPrincipalName = "username@contoso.com" /&gt;<br /><br /> &lt;/Identity&gt;|Especifique la identidad de servicio que espera este puerto de envío. Esta configuración permite al puerto de envío autenticar el servicio. En el proceso de negociación entre el cliente y el servicio, la infraestructura de Windows Communication Foundation (WCF) asegurará que la identidad del servicio esperado coincide con los valores de este elemento.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**PropagateFaultMessage**|Boolean<br /><br /> -   **True** -enrutar el mensaje que se produce un error de procesamiento de salida a una aplicación de suscripción (por ejemplo, otro puerto o programación de orquestación de recepción).<br />-   **False** -suspender mensajes erróneos y generar una confirmación negativa (NACK).|Especificar si se enrutan o se suspenden mensajes que han generado errores en el procesamiento de salida.<br /><br /> Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Valor predeterminado: **True**|  
+  
+## <a name="see-also"></a>Vea también  
+ [¿Cuáles son los adaptadores de WCF?](../core/what-are-the-wcf-adapters.md)  
+ [Publicar servicios WCF con WCF aislado adaptadores de recepción](../core/publishing-wcf-services-with-the-isolated-wcf-receive-adapters.md)   
+ [Configurar IIS para WCF aislado adaptadores de recepción](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)   
+ [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
+ [Cómo cambiar contraseñas y cuentas de servicio](../core/how-to-change-service-accounts-and-passwords.md)   
+ [Instalación de certificados para los adaptadores de WCF](../core/installing-certificates-for-the-wcf-adapters.md)   
+ [Especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md)    
+  [Propiedades y esquema de propiedades de adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
+ [Configuración de puertos de envío dinámicos mediante propiedades de contexto de adaptadores de WCF](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)
