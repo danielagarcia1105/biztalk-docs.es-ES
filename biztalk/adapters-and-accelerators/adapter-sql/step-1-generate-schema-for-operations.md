@@ -1,0 +1,89 @@
+---
+title: 'Paso 1: Generar esquema para las operaciones | Documentos de Microsoft'
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 63218a5e-9af2-40af-9992-ac5e204d2832
+caps.latest.revision: "8"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 16372bd950088b89f8e7808cda751f5fc3833944
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="step-1-generate-schema-for-operations"></a><span data-ttu-id="5cce7-102">Paso 1: Generar esquema para las operaciones</span><span class="sxs-lookup"><span data-stu-id="5cce7-102">Step 1: Generate Schema for Operations</span></span>
+<span data-ttu-id="5cce7-103">![Paso 1 de 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span><span class="sxs-lookup"><span data-stu-id="5cce7-103">![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span></span>  
+  
+ <span data-ttu-id="5cce7-104">**Tiempo en completarse:** 5 minutos</span><span class="sxs-lookup"><span data-stu-id="5cce7-104">**Time to complete:** 5 minutes</span></span>  
+  
+ <span data-ttu-id="5cce7-105">**Objetivo:** en este paso, se genera esquemas para las operaciones que se realizan en la base de datos de SQL Server mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-105">**Objective:** In this step, you generate schemas for the operations that you perform on the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="5cce7-106">Para este tutorial, debe generar el esquema para lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5cce7-106">For this tutorial, you must generate schema for the following:</span></span>  
+  
+-   <span data-ttu-id="5cce7-107">**Notificación** (operación de entrada).</span><span class="sxs-lookup"><span data-stu-id="5cce7-107">**Notification** (inbound operation).</span></span>  
+  
+-   <span data-ttu-id="5cce7-108">**UPDATE_EMPLOYEE** (operación de salida) de procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="5cce7-108">**UPDATE_EMPLOYEE** stored procedure (outbound operation).</span></span>  
+  
+-   <span data-ttu-id="5cce7-109">**Insertar** operación en el **Purchase_Order** (operación de salida) de la tabla.</span><span class="sxs-lookup"><span data-stu-id="5cce7-109">**Insert** operation on the **Purchase_Order** table (outbound operation).</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="5cce7-110">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="5cce7-110">Prerequisites</span></span>  
+ <span data-ttu-id="5cce7-111">Antes de continuar con el tutorial, asegúrese de que:</span><span class="sxs-lookup"><span data-stu-id="5cce7-111">Before you proceed with the tutorial, make sure:</span></span>  
+  
+-   <span data-ttu-id="5cce7-112">Debe haber completado los pasos descritos en [antes de que desarrollar aplicaciones de BizTalk](http://msdn.microsoft.com/library/3539741d-5266-43d4-9b7b-73e82f0ed4f6).</span><span class="sxs-lookup"><span data-stu-id="5cce7-112">You must have completed the steps in [Before You Develop BizTalk Applications](http://msdn.microsoft.com/library/3539741d-5266-43d4-9b7b-73e82f0ed4f6).</span></span>  
+  
+-   <span data-ttu-id="5cce7-113">Debe iniciar sesión como miembro del grupo Administradores de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="5cce7-113">You must log on as a member of the BizTalk Server Administrators group.</span></span>  
+  
+### <a name="to-generate-schema-for-operations"></a><span data-ttu-id="5cce7-114">Para generar el esquema para las operaciones</span><span class="sxs-lookup"><span data-stu-id="5cce7-114">To generate schema for operations</span></span>  
+  
+1.  <span data-ttu-id="5cce7-115">Crear un nuevo proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-115">Create a new BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="5cce7-116">Para este tutorial, denomine el proyecto como `Employee_PurchaseOrder`.</span><span class="sxs-lookup"><span data-stu-id="5cce7-116">For this tutorial, name the project as `Employee_PurchaseOrder`.</span></span>  
+  
+2.  <span data-ttu-id="5cce7-117">Conectarse a la base de datos de SQL Server de ADAPTER_SAMPLES mediante el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-117">Connect to the ADAPTER_SAMPLES SQL Server database using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span> <span data-ttu-id="5cce7-118">Para obtener instrucciones sobre cómo conectar con [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], consulte [conectar con SQL Server en el complemento Visual Studio utilizando Consume Adapter Service](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-in-visual-studio-using-the-consume-adapter-service-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="5cce7-118">For instructions on how to connect using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], see [Connect to SQL Server in Visual Studio Using Consume Adapter Service Add-in](../../adapters-and-accelerators/adapter-sql/connect-to-sql-server-in-visual-studio-using-the-consume-adapter-service-add-in.md).</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="5cce7-119">También puede conectarse a SQL Server mediante el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-119">You can also connect to SQL Server using the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)].</span></span> <span data-ttu-id="5cce7-120">Sin embargo, para este tutorial utilizará el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-120">However, for this tutorial you will use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span>  
+  
+3.  <span data-ttu-id="5cce7-121">Genere el esquema para el **notificación** operación entrante.</span><span class="sxs-lookup"><span data-stu-id="5cce7-121">Generate schema for the **Notification** inbound operation.</span></span>  
+  
+    1.  <span data-ttu-id="5cce7-122">Después de conectarse a la base de datos ADAPTER_SAMPLES en la [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], desde el **seleccione el tipo de contrato** seleccione **(operaciones de entrada) de servicio**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-122">After connecting to the ADAPTER_SAMPLES database, in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], from the **Select contract type** list, select **Service (Inbound operations)**.</span></span>  
+  
+    2.  <span data-ttu-id="5cce7-123">Desde el **seleccione una categoría de** cuadro, haga clic en el nodo raíz (**/**).</span><span class="sxs-lookup"><span data-stu-id="5cce7-123">From the **Select a category** box, click the root node (**/**).</span></span>  
+  
+    3.  <span data-ttu-id="5cce7-124">Desde el **categorías y operaciones disponibles** cuadro, seleccione **notificación** y haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-124">From the **Available categories and operations** box, select **Notification** and click **Add**.</span></span> <span data-ttu-id="5cce7-125">El **notificación** operación aparece ahora en el **agregar categorías y operaciones** cuadro.</span><span class="sxs-lookup"><span data-stu-id="5cce7-125">The **Notification** operation is now displayed in the **Added categories and operations** box.</span></span> <span data-ttu-id="5cce7-126">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-126">Click **OK**.</span></span>  
+  
+4.  <span data-ttu-id="5cce7-127">Genere el esquema para el **UPDATE_EMPLOYEE** procedimiento almacenado y la operación de inserción en **Purchase_Order** tabla.</span><span class="sxs-lookup"><span data-stu-id="5cce7-127">Generate schema for the **UPDATE_EMPLOYEE** stored procedure and the Insert operation on **Purchase_Order** table.</span></span>  
+  
+    1.  <span data-ttu-id="5cce7-128">Repita el paso 2 para conectarse a la base de datos ADAPTER_SAMPLES en SQL Server mediante el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5cce7-128">Repeat step 2 to connect to ADAPTER_SAMPLES database in SQL Server using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span>  
+  
+        > [!NOTE]
+        >  <span data-ttu-id="5cce7-129">No se puede generar el esquema para las operaciones de entrada y de salida al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="5cce7-129">You cannot generate schema for inbound and outbound operations at the same time.</span></span> <span data-ttu-id="5cce7-130">Por lo tanto, en el paso 3, tras hacer clic en **Aceptar** para generar el esquema para **notificación** operación, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] se cierra.</span><span class="sxs-lookup"><span data-stu-id="5cce7-130">Hence, in step 3, after you click **OK** to generate the schema for **Notification** operation, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] closes.</span></span> <span data-ttu-id="5cce7-131">Debe volver a conectarse a la base de datos de SQL Server para generar el esquema para las operaciones de salida.</span><span class="sxs-lookup"><span data-stu-id="5cce7-131">You must reconnect to the SQL Server database to generate schema for outbound operations.</span></span>  
+  
+    2.  <span data-ttu-id="5cce7-132">Desde el **seleccione el tipo de contrato** seleccione **Client (Outbound operations)**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-132">From the **Select contract type** list, select **Client (Outbound operations)**.</span></span>  
+  
+    3.  <span data-ttu-id="5cce7-133">Desde el **seleccione una categoría de** cuadro, haga clic en el **Strongly-Typed procedimientos** nodo.</span><span class="sxs-lookup"><span data-stu-id="5cce7-133">From the **Select a category** box, click the **Strongly-Typed Procedures** node.</span></span> <span data-ttu-id="5cce7-134">Desde el **categorías disponibles y operación**cuadro s, seleccione **UPDATE_EMPLOYEE**y, a continuación, haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-134">From the **Available categories and operation**s box, select **UPDATE_EMPLOYEE**, and then click **Add**.</span></span>  
+  
+        > [!IMPORTANT]
+        >  <span data-ttu-id="5cce7-135">El **UPDATE_EMPLOYEE** procedimiento almacenado también está disponible en la **procedimientos** nodo.</span><span class="sxs-lookup"><span data-stu-id="5cce7-135">The **UPDATE_EMPLOYEE** stored procedure is also available under the **Procedures** node.</span></span> <span data-ttu-id="5cce7-136">Sin embargo, si se genere el esquema para el procedimiento almacenado en el **procedimientos** nodo, el esquema de mensaje de respuesta no está disponible en tiempo de diseño pero recibido con el mensaje de respuesta después de ejecutar el procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="5cce7-136">However, if you generate schema for the stored procedure from under the **Procedures** node, the response message schema is not available at design-time but is received with the response message after you execute the stored procedure.</span></span>  
+        >   
+        >  <span data-ttu-id="5cce7-137">En este tutorial, se asignará el esquema de respuesta del procedimiento almacenado para el esquema de entrada de la operación de inserción en el **Purchase_Order** tabla.</span><span class="sxs-lookup"><span data-stu-id="5cce7-137">In this tutorial, you will map the response schema of the stored procedure to the input schema of the Insert operation on the **Purchase_Order** table.</span></span> <span data-ttu-id="5cce7-138">Por lo tanto, necesitará el esquema para el **UPDATE_EMPLOYEE** procedimiento almacenado en tiempo de diseño y debe seleccionar el procedimiento almacenado en el **Strongly-Typed procedimientos**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-138">Therefore, you will need the schema for the **UPDATE_EMPLOYEE** stored procedure at design-time and you must select the stored procedure from under the **Strongly-Typed Procedures**.</span></span> <span data-ttu-id="5cce7-139">Al hacerlo, obtendrá el esquema del procedimiento almacenado en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="5cce7-139">By doing so, you will get the schema of the stored procedure at design-time.</span></span>  
+  
+    4.  <span data-ttu-id="5cce7-140">Desde el **seleccione una categoría de** , expanda la **tablas** nodo y haga clic en el nodo de **Purchase_Order** tabla.</span><span class="sxs-lookup"><span data-stu-id="5cce7-140">From the **Select a category** box, expand the **Tables** node, and click the node for **Purchase_Order** table.</span></span> <span data-ttu-id="5cce7-141">Desde el **categorías disponibles y operación**cuadro s, seleccione **insertar**, haga clic en **agregar**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="5cce7-141">From the **Available categories and operation**s box, select **Insert**, click **Add**, and then click **OK**.</span></span>  
+  
+## <a name="what-did-i-just-do"></a><span data-ttu-id="5cce7-142">Síntesis</span><span class="sxs-lookup"><span data-stu-id="5cce7-142">What did I just do?</span></span>  
+ <span data-ttu-id="5cce7-143">En este paso, genera esquemas para **notificación** (operación de entrada), **UPDATE_EMPLOYEE** procedimiento almacenado, y **insertar** operación en el  **Purchase_Order** tabla.</span><span class="sxs-lookup"><span data-stu-id="5cce7-143">In this step, you generated schemas for **Notification** (inbound operation), **UPDATE_EMPLOYEE** stored procedure, and **Insert** operation on the **Purchase_Order** table.</span></span> <span data-ttu-id="5cce7-144">Después de generar el esquema, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] agrega los siguientes archivos al proyecto de BizTalk:</span><span class="sxs-lookup"><span data-stu-id="5cce7-144">After you generate the schema, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] adds the following files to your BizTalk project:</span></span>  
+  
+-   <span data-ttu-id="5cce7-145">Archivos XSD que contienen el esquema del mensaje de solicitud invocar operaciones en SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5cce7-145">XSD files that contain schema for the request message to invoke operations on SQL Server.</span></span>  
+  
+-   <span data-ttu-id="5cce7-146">Archivos de enlace XML que puede usar para crear el envío de WCF-Custom y puertos de recepción [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="5cce7-146">XML binding files that you can use to create WCF-Custom send and receive ports in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  
+  
+ <span data-ttu-id="5cce7-147">Para obtener más información sobre la generación de esquemas, vea [exploración, búsqueda y metadatos de get para las operaciones de SQL con el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="5cce7-147">For more information about generating schemas, see [Browse, search, and get metadata for SQL operations using the SQL adapter](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md).</span></span>  
+  
+## <a name="next-steps"></a><span data-ttu-id="5cce7-148">Pasos siguientes</span><span class="sxs-lookup"><span data-stu-id="5cce7-148">Next Steps</span></span>  
+ <span data-ttu-id="5cce7-149">Crear mensajes en el proyecto de BizTalk para los esquemas de [paso 2: crear mensajes de orquestaciones de BizTalk](../../adapters-and-accelerators/adapter-sql/step-2-create-messages-for-biztalk-orchestrations.md).</span><span class="sxs-lookup"><span data-stu-id="5cce7-149">You create messages in the BizTalk project for the schemas in [Step 2: Create Messages for BizTalk Orchestrations](../../adapters-and-accelerators/adapter-sql/step-2-create-messages-for-biztalk-orchestrations.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="5cce7-150">Vea también</span><span class="sxs-lookup"><span data-stu-id="5cce7-150">See Also</span></span>  
+ [<span data-ttu-id="5cce7-151">Lección 1: Generar esquemas y crear mensajes</span><span class="sxs-lookup"><span data-stu-id="5cce7-151">Lesson 1: Generate Schemas and Create Messages</span></span>](../../adapters-and-accelerators/adapter-sql/lesson-1-generate-schemas-and-create-messages.md)

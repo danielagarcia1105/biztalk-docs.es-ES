@@ -1,0 +1,28 @@
+---
+title: "El functoid de valor Nil A error está conectado a un nodo de elemento de destino &#39; {0} &#39; que no tiene el atributo nillable. | Microsoft Docs"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 5bbd159e-a214-4176-9270-461140ee5710
+caps.latest.revision: "2"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 45060ce1102495a0426c6c356fa7b8c338e82add
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="error--a-nil-value-functoid-is-connected-to-a-target-element-node-39039-which-is-not-nillable"></a><span data-ttu-id="d711c-103">El functoid de valor Nil A error está conectado a un nodo de elemento de destino &#39; {0} &#39; que no tiene el atributo nillable.</span><span class="sxs-lookup"><span data-stu-id="d711c-103">Error- A Nil Value functoid is connected to a target element node &#39;{0}&#39; which is not nillable.</span></span>
+<span data-ttu-id="d711c-104">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="d711c-104">**Error Code**</span></span>  
+  
+ <span data-ttu-id="d711c-105">btm1080</span><span class="sxs-lookup"><span data-stu-id="d711c-105">btm1080</span></span>  
+  
+ <span data-ttu-id="d711c-106">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="d711c-106">**User Action**</span></span>  
+  
+ <span data-ttu-id="d711c-107">Haga que ese nodo de destino admita valores nulos o quite el vínculo al functoid de valor nulo.</span><span class="sxs-lookup"><span data-stu-id="d711c-107">Either make that target node nillable or remove the link to the nil value functoid.</span></span>

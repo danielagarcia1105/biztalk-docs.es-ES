@@ -1,0 +1,72 @@
+---
+title: Depurar canalizaciones personalizadas | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 27e5445a-6415-4c52-a450-b74a71fc4aa2
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 8a0f701518714aaf28d0ae07867c8c490c140fa0
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="debugging-custom-pipelines"></a><span data-ttu-id="370a6-102">Depurar canalizaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="370a6-102">Debugging Custom Pipelines</span></span>
+<span data-ttu-id="370a6-103">Cuando se produce un error de procesamiento de mensaje en la canalización personalizada, puede usar la depuración del nivel de origen para identificar y corregir problemas.</span><span class="sxs-lookup"><span data-stu-id="370a6-103">When message processing fails in your custom pipeline, you can use source level debugging to identify and correct problems.</span></span> <span data-ttu-id="370a6-104">Esta depuración se realiza mediante la asociación del depurador de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] a BTSNTSVC.exe (si la canalización personalizada está implementada) o Pipeline.exe (si se usa la herramienta de canalización independiente).</span><span class="sxs-lookup"><span data-stu-id="370a6-104">Source level debugging is done using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] debugger by attaching to BTSNTSVC.exe (if the custom pipeline is deployed) or Pipeline.exe (if using the stand-alone pipeline tool).</span></span>  
+  
+## <a name="procedures"></a><span data-ttu-id="370a6-105">Procedimientos</span><span class="sxs-lookup"><span data-stu-id="370a6-105">Procedures</span></span>  
+ <span data-ttu-id="370a6-106">Use los procedimientos siguientes para depurar las canalizaciones personalizadas.</span><span class="sxs-lookup"><span data-stu-id="370a6-106">Use the following procedures to debug custom pipelines.</span></span>  
+  
+### <a name="how-to-debug-a-deployed-pipeline"></a><span data-ttu-id="370a6-107">Cómo depurar una canalización implementada</span><span class="sxs-lookup"><span data-stu-id="370a6-107">How to Debug a Deployed Pipeline</span></span>  
+ <span data-ttu-id="370a6-108">Las consultas de seguimiento de la página Concentrador de grupo y los visualizadores de eventos proporcionan información útil acerca de los errores de procesamiento de mensajes que se han producido en los componentes implementados.</span><span class="sxs-lookup"><span data-stu-id="370a6-108">Tracking queries from the Group Hub page, and the event viewers, provide useful information about message processing failures in deployed components.</span></span> <span data-ttu-id="370a6-109">Esta información puede usarse con frecuencia para encontrar el origen de un problema.</span><span class="sxs-lookup"><span data-stu-id="370a6-109">This information can often be used to narrow down the origin of a problem.</span></span> <span data-ttu-id="370a6-110">Una vez que una canalización personalizada se ha implicado, la depuración de nivel de origen se puede usar para identificar cualquier código problemático.</span><span class="sxs-lookup"><span data-stu-id="370a6-110">Once a custom pipeline has been implicated, source level debugging can be used to identify any problematic code.</span></span>  
+  
+##### <a name="to-debug-a-deployed-custom-pipeline-using-visual-studio"></a><span data-ttu-id="370a6-111">Para depurar una canalización personalizada implementada mediante Visual Studio</span><span class="sxs-lookup"><span data-stu-id="370a6-111">To Debug a Deployed Custom Pipeline using Visual Studio</span></span>  
+  
+1.  <span data-ttu-id="370a6-112">Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="370a6-112">Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
+  
+2.  <span data-ttu-id="370a6-113">Cambiar la ruta de acceso de salida para la solución  *\<carpeta de instalación >*\Pipeline Components.</span><span class="sxs-lookup"><span data-stu-id="370a6-113">Change the output path for your solution to *\<Installation Folder>*\Pipeline Components.</span></span> <span data-ttu-id="370a6-114">En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha generar y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando la  *\<carpeta de instalación >*\ Directorio de componentes de canalización.</span><span class="sxs-lookup"><span data-stu-id="370a6-114">In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder>*\Pipeline Components directory.</span></span>  
+  
+3.  <span data-ttu-id="370a6-115">Desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], implemente la solución haciendo clic **crear** &#124; **Implementar**.</span><span class="sxs-lookup"><span data-stu-id="370a6-115">From within [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], deploy the solution by clicking **Build** &#124; **Deploy**.</span></span>  
+  
+4.  <span data-ttu-id="370a6-116">Reinicie la instancia de host que ejecuta la canalización.</span><span class="sxs-lookup"><span data-stu-id="370a6-116">Restart the host instance that runs the pipeline.</span></span> <span data-ttu-id="370a6-117">Mediante la consola de administración de BizTalk Server, navegue a la instancia de host que ejecuta la canalización, haga clic en la instancia de host, a continuación, haga clic en **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="370a6-117">Using the BizTalk Server Management console, navigate to the host instance that runs the pipeline, right-click the host instance then click **Restart**.</span></span>  
+  
+5.  <span data-ttu-id="370a6-118">Adjuntar el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] depurador BTSNTSVC.exe.</span><span class="sxs-lookup"><span data-stu-id="370a6-118">Attach the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] debugger to BTSNTSVC.exe.</span></span> <span data-ttu-id="370a6-119">Puede hacerlo haciendo clic en **depurar** &#124; **Adjuntar al proceso**, haga clic en mostrar los procesos de todas las sesiones y, a continuación, haga doble clic en BTSNTSVC.exe.</span><span class="sxs-lookup"><span data-stu-id="370a6-119">This can be done by clicking **Debug** &#124; **Attach to Process**, click Show processes in all sessions, and then double-click BTSNTSVC.exe.</span></span>  
+  
+6.  <span data-ttu-id="370a6-120">Establecer puntos de interrupción.</span><span class="sxs-lookup"><span data-stu-id="370a6-120">Set breakpoints.</span></span>  
+  
+7.  <span data-ttu-id="370a6-121">Deposite un mensaje en la ubicación adecuada para iniciar el componente de canalización personalizada.</span><span class="sxs-lookup"><span data-stu-id="370a6-121">Drop a message in the appropriate location to initiate the custom pipeline component.</span></span> <span data-ttu-id="370a6-122">El procesamiento debería detenerse en los puntos de interrupción establecidos.</span><span class="sxs-lookup"><span data-stu-id="370a6-122">Processing should halt on the breakpoints you set.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="370a6-123">Si el código inicia una excepción, BizTalk Server la detectará y, en última instancia, suspenderá el mensaje.</span><span class="sxs-lookup"><span data-stu-id="370a6-123">If your code throws an exception, BizTalk Server will catch it and ultimately suspend the message.</span></span> <span data-ttu-id="370a6-124">Para evitar este comportamiento, debería interrumpir en las excepciones de primera probabilidad.</span><span class="sxs-lookup"><span data-stu-id="370a6-124">To avoid this behavior, you should break on first chance exceptions.</span></span>  
+  
+### <a name="how-to-debug-using-pipelineexe"></a><span data-ttu-id="370a6-125">Cómo depurar mediante Pipeline.exe</span><span class="sxs-lookup"><span data-stu-id="370a6-125">How to Debug Using Pipeline.exe</span></span>  
+ <span data-ttu-id="370a6-126">También puede probar las canalizaciones personalizadas mediante Pipeline.exe.</span><span class="sxs-lookup"><span data-stu-id="370a6-126">You can also test custom pipelines using Pipeline.exe.</span></span> <span data-ttu-id="370a6-127">Esto tiene la ventaja de que no es necesario implementar la canalización a costa de no funcione en condiciones similares a la producción.</span><span class="sxs-lookup"><span data-stu-id="370a6-127">This has the advantage of not requiring you to deploy the pipeline at the expense of not running under conditions similar to production.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="370a6-128">Si la canalización personalizada usa el ensamblador/desensamblador de archivo sin formato, Pipeline.exe no se ejecutará correctamente.</span><span class="sxs-lookup"><span data-stu-id="370a6-128">If your custom pipeline uses the flat file assembler / disassembler, Pipeline.exe will not execute properly.</span></span> <span data-ttu-id="370a6-129">Esto se debe a que Pipeline.exe no tiene acceso a la base de datos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="370a6-129">This is because Pipeline.exe does not access the BizTalk database.</span></span> <span data-ttu-id="370a6-130">Una solución consiste en quitar el ensamblador / componentes de desensamblador y probarlos por separado con FFDasm.exe y FFAsm.exe.</span><span class="sxs-lookup"><span data-stu-id="370a6-130">One solution is to remove the assembler / disassembler components and test them separately with FFDasm.exe and FFAsm.exe.</span></span> <span data-ttu-id="370a6-131">Vea [herramientas de canalización](../core/pipeline-tools.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="370a6-131">See [Pipeline Tools](../core/pipeline-tools.md) for more information.</span></span>  
+  
+##### <a name="to-debug-a-custom-pipeline-using-pipelineexe-and-visual-studio"></a><span data-ttu-id="370a6-132">Para depurar una canalización personalizada mediante Pipeline.exe y Visual Studio</span><span class="sxs-lookup"><span data-stu-id="370a6-132">To Debug a Custom Pipeline using Pipeline.exe and Visual Studio</span></span>  
+  
+1.  <span data-ttu-id="370a6-133">Cargue la solución de proyecto de canalización personalizada en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="370a6-133">Load the custom pipeline project solution into [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
+  
+2.  <span data-ttu-id="370a6-134">Cambiar la ruta de acceso de salida para la solución  *\<carpeta de instalación >*\Pipeline Components.</span><span class="sxs-lookup"><span data-stu-id="370a6-134">Change the output path for your solution to *\<Installation Folder>*\Pipeline Components.</span></span> <span data-ttu-id="370a6-135">En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha generar y, a continuación, cambie la ruta de acceso de salida, haga clic en el **examinar** botón y seleccionando la  *\<carpeta de instalación >*\ Directorio de componentes de canalización.</span><span class="sxs-lookup"><span data-stu-id="370a6-135">In Solution Explorer, right-click your project, click the Build tab, and then change the Output Path by clicking the **Browse** button and selecting the *\<Installation Folder>*\Pipeline Components directory.</span></span>  
+  
+3.  <span data-ttu-id="370a6-136">Cambie la acción de inicio de la solución.</span><span class="sxs-lookup"><span data-stu-id="370a6-136">Change the start action for your solution.</span></span> <span data-ttu-id="370a6-137">En el Explorador de soluciones, haga clic en el proyecto, haga clic en la ficha Depurar, haga clic en programa externo de inicio y luego haga clic en **...**</span><span class="sxs-lookup"><span data-stu-id="370a6-137">In Solution Explorer, right-click your project, click the Debug tab, click Start external program, then click **…**</span></span> <span data-ttu-id="370a6-138">y vaya a  *\<carpeta de instalación >*\SDK\Utilities\PipelineTools y elija Pipeline.exe.</span><span class="sxs-lookup"><span data-stu-id="370a6-138">and navigate to *\<Installation Folder>*\SDK\Utilities\PipelineTools and choose Pipeline.exe.</span></span> <span data-ttu-id="370a6-139">En Opciones de inicio, escriba los argumentos de línea de comandos adecuados para su componente.</span><span class="sxs-lookup"><span data-stu-id="370a6-139">Under Start Options, enter the command line arguments appropriate for your component.</span></span> <span data-ttu-id="370a6-140">Para obtener más información acerca de Pipeline.exe, vea [herramientas de canalización](../core/pipeline-tools.md).</span><span class="sxs-lookup"><span data-stu-id="370a6-140">For more information on Pipeline.exe, see [Pipeline Tools](../core/pipeline-tools.md).</span></span> <span data-ttu-id="370a6-141">Una configuración típica especifica la canalización y un archivo de ejemplo:</span><span class="sxs-lookup"><span data-stu-id="370a6-141">A typical configuration specifies the pipeline and a sample file:</span></span>  
+  
+    ```  
+    <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
+    ```  
+  
+4.  <span data-ttu-id="370a6-142">Establezca los puntos de interrupción.</span><span class="sxs-lookup"><span data-stu-id="370a6-142">Set your breakpoints.</span></span>  
+  
+5.  <span data-ttu-id="370a6-143">Presione F5 para comenzar la depuración.</span><span class="sxs-lookup"><span data-stu-id="370a6-143">Press F5 to begin debugging.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="370a6-144">Vea también</span><span class="sxs-lookup"><span data-stu-id="370a6-144">See Also</span></span>  
+ [<span data-ttu-id="370a6-145">Herramientas de canalización</span><span class="sxs-lookup"><span data-stu-id="370a6-145">Pipeline Tools</span></span>](../core/pipeline-tools.md)
