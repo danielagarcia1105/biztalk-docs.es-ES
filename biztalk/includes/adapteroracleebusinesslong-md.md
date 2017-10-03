@@ -1,0 +1,1 @@
+Microsoft BizTalk Adapter para Oracle E-Business Suite

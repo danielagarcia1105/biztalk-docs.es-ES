@@ -1,0 +1,1 @@
+Adaptador de Microsoft BizTalk para base de datos de Oracle

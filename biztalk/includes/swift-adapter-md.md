@@ -1,0 +1,1 @@
+BizTalk FileAct e interactuar adaptadores
