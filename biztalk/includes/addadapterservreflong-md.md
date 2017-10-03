@@ -1,0 +1,1 @@
+<span data-ttu-id="80ec8-101">Complemento Add Adapter Service Reference Visual Studio</span><span class="sxs-lookup"><span data-stu-id="80ec8-101">Add Adapter Service Reference Visual Studio Plug-in</span></span>

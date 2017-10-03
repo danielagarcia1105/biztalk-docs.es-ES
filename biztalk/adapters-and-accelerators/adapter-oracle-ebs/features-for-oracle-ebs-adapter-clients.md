@@ -1,0 +1,31 @@
+---
+title: "Características para los clientes de adaptador de Oracle EBS | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 50256fb7-5f0c-4b32-87e6-98f49da0b360
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 2da086390fe049a5333dda40a35e19f46298dda1
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="features-for-oracle-ebs-adapter-clients"></a><span data-ttu-id="527f1-102">Características para los clientes de adaptador de Oracle EBS</span><span class="sxs-lookup"><span data-stu-id="527f1-102">Features for Oracle EBS adapter clients</span></span>
+<span data-ttu-id="527f1-103">Además de las características tratadas en todos los temas de [información general sobre el adaptador de BizTalk para Oracle E-Business Suite](http://msdn.microsoft.com/library/4f18fa2e-4e97-4c28-b38d-fc39ac53789e), el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] también proporciona las siguientes características que son útiles para los clientes de adaptador:</span><span class="sxs-lookup"><span data-stu-id="527f1-103">In addition to the features discussed throughout the topics of [Overview of BizTalk Adapter for Oracle E-Business Suite](http://msdn.microsoft.com/library/4f18fa2e-4e97-4c28-b38d-fc39ac53789e), the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] also provides the following features that are useful for adapter clients:</span></span>  
+  
+-   <span data-ttu-id="527f1-104">**Compatibilidad para la configuración de adaptadores que usan propiedades de enlace**.</span><span class="sxs-lookup"><span data-stu-id="527f1-104">**Support for configuring adapters using binding properties**.</span></span> <span data-ttu-id="527f1-105">Pueden configurar los clientes de adaptador el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] especificando ciertas propiedades de enlace.</span><span class="sxs-lookup"><span data-stu-id="527f1-105">Adapter clients can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] by specifying certain binding properties.</span></span> <span data-ttu-id="527f1-106">Por ejemplo, los clientes pueden configurar el adaptador para usar la agrupación de conexiones ODP.NET estableciendo la **UseOracleConnectionPool** propiedad de enlace.</span><span class="sxs-lookup"><span data-stu-id="527f1-106">For example, clients can configure the adapter to use the ODP.NET connection pool by setting the **UseOracleConnectionPool** binding property.</span></span> <span data-ttu-id="527f1-107">Para obtener más información, consulte [obtener información sobre el adaptador de BizTalk para propiedades de enlace de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).</span><span class="sxs-lookup"><span data-stu-id="527f1-107">For more information, see [Read about the BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).</span></span>  
+  
+-   <span data-ttu-id="527f1-108">**Compatibilidad con valores null para los parámetros de operación**.</span><span class="sxs-lookup"><span data-stu-id="527f1-108">**Support for null values for operation parameters**.</span></span> <span data-ttu-id="527f1-109">Los clientes de adaptador pueden proporcionar valores null para los parámetros de operación mediante el atributo "nil" en el XML de entrada.</span><span class="sxs-lookup"><span data-stu-id="527f1-109">Adapter clients can provide null values for operation parameters using the “nil” attribute in the input XML.</span></span>  
+  
+-   <span data-ttu-id="527f1-110">**Compatibilidad con puertos dinámicos en BizTalk**.</span><span class="sxs-lookup"><span data-stu-id="527f1-110">**Support for dynamic ports in BizTalk**.</span></span> <span data-ttu-id="527f1-111">A través de BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)], [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] admite un puerto dinámico que habilita el enrutamiento dinámico de mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] basándose en las propiedades de contexto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="527f1-111">Through the BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)], the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports a dynamic port that enables dynamic routing of messages from [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] based on the message context properties.</span></span> <span data-ttu-id="527f1-112">Para obtener más información, consulte [configurar los puertos dinámicos en el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/configure-dynamic-ports-in-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="527f1-112">For more information, see [Configure Dynamic Ports in the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-dynamic-ports-in-the-sql-adapter.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="527f1-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="527f1-113">See Also</span></span>  
+[<span data-ttu-id="527f1-114">Comprender el adaptador de BizTalk para Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="527f1-114">Understand BizTalk Adapter for Oracle E-Business Suite</span></span>](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md)

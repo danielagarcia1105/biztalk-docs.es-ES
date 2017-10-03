@@ -1,0 +1,64 @@
+---
+title: Usar operadores en expresiones | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- orchestrations, operators
+- XLANG/s, operators
+- orchestrations, XLANG/s
+ms.assetid: f0948ce2-c508-48aa-af79-d207f577b22f
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 155aad11ecddd021b8e16892b5a5294087fedd4d
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="using-operators-in-expressions"></a><span data-ttu-id="147f2-102">Usar operadores en expresiones</span><span class="sxs-lookup"><span data-stu-id="147f2-102">Using Operators in Expressions</span></span>
+<span data-ttu-id="147f2-103">Los siguientes operadores XLAN/s están disponibles para su uso en expresiones de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="147f2-103">The following XLANG/s operators are available for use in orchestration expressions.</span></span> <span data-ttu-id="147f2-104">Cumplen estrictamente con las funciones de los operadores correspondientes en C#.</span><span class="sxs-lookup"><span data-stu-id="147f2-104">They adhere closely to the functionality of the corresponding operators in C#.</span></span>  
+  
+|<span data-ttu-id="147f2-105">Operador</span><span class="sxs-lookup"><span data-stu-id="147f2-105">Operator</span></span>|<span data-ttu-id="147f2-106">Description</span><span class="sxs-lookup"><span data-stu-id="147f2-106">Description</span></span>|<span data-ttu-id="147f2-107">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="147f2-107">Example</span></span>|  
+|--------------|-----------------|-------------|  
+|<span data-ttu-id="147f2-108">checked()</span><span class="sxs-lookup"><span data-stu-id="147f2-108">checked()</span></span>|<span data-ttu-id="147f2-109">genera error al producirse un desbordamiento aritmético</span><span class="sxs-lookup"><span data-stu-id="147f2-109">raise error on arithmetic overflow</span></span>|<span data-ttu-id="147f2-110">checked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="147f2-110">checked(x = y * 1000)</span></span>|  
+|<span data-ttu-id="147f2-111">unchecked()</span><span class="sxs-lookup"><span data-stu-id="147f2-111">unchecked()</span></span>|<span data-ttu-id="147f2-112">omite el desbordamiento aritmético.</span><span class="sxs-lookup"><span data-stu-id="147f2-112">ignore arithmetic overflow</span></span>|<span data-ttu-id="147f2-113">unchecked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="147f2-113">unchecked(x = y * 1000)</span></span>|  
+|<span data-ttu-id="147f2-114">nuevo</span><span class="sxs-lookup"><span data-stu-id="147f2-114">new</span></span>|<span data-ttu-id="147f2-115">crea una instancia de una clase</span><span class="sxs-lookup"><span data-stu-id="147f2-115">create an instance of a class</span></span>|<span data-ttu-id="147f2-116">myObject = new MyClass;</span><span class="sxs-lookup"><span data-stu-id="147f2-116">myObject = new MyClass;</span></span>|  
+|<span data-ttu-id="147f2-117">typeof</span><span class="sxs-lookup"><span data-stu-id="147f2-117">typeof</span></span>|<span data-ttu-id="147f2-118">recuperación de tipo</span><span class="sxs-lookup"><span data-stu-id="147f2-118">Type retrieval</span></span>|<span data-ttu-id="147f2-119">myMapType = typeof(myMap)</span><span class="sxs-lookup"><span data-stu-id="147f2-119">myMapType = typeof(myMap)</span></span>|  
+|<span data-ttu-id="147f2-120">succeeded()</span><span class="sxs-lookup"><span data-stu-id="147f2-120">succeeded()</span></span>|<span data-ttu-id="147f2-121">prueba para la finalización correcta de ámbito transaccional u orquestación</span><span class="sxs-lookup"><span data-stu-id="147f2-121">test for successful completion of transactional scope or orchestration</span></span>|<span data-ttu-id="147f2-122">se ha realizado correctamente (\<Id. de transacción para transacción secundaria de ámbito o servicio actual >)</span><span class="sxs-lookup"><span data-stu-id="147f2-122">succeeded(\<transaction ID for child transaction of current scope or service>)</span></span>|  
+|<span data-ttu-id="147f2-123">exists</span><span class="sxs-lookup"><span data-stu-id="147f2-123">exists</span></span>|<span data-ttu-id="147f2-124">prueba para la existencia de una propiedad de contexto de mensaje</span><span class="sxs-lookup"><span data-stu-id="147f2-124">test for the existence of a message context property</span></span>|<span data-ttu-id="147f2-125">BTS.RetryCount exists Message_In</span><span class="sxs-lookup"><span data-stu-id="147f2-125">BTS.RetryCount exists Message_In</span></span>|  
+|+|<span data-ttu-id="147f2-126">más unario</span><span class="sxs-lookup"><span data-stu-id="147f2-126">unary plus</span></span>|<span data-ttu-id="147f2-127">+(int x)</span><span class="sxs-lookup"><span data-stu-id="147f2-127">+(int x)</span></span>|  
+|-|<span data-ttu-id="147f2-128">menos unario</span><span class="sxs-lookup"><span data-stu-id="147f2-128">unary minus</span></span>|<span data-ttu-id="147f2-129">-(int x)</span><span class="sxs-lookup"><span data-stu-id="147f2-129">-(int x)</span></span>|  
+|<span data-ttu-id="147f2-130">!</span><span class="sxs-lookup"><span data-stu-id="147f2-130">!</span></span>|<span data-ttu-id="147f2-131">negación lógica</span><span class="sxs-lookup"><span data-stu-id="147f2-131">logical negation</span></span>|<span data-ttu-id="147f2-132">!myBool</span><span class="sxs-lookup"><span data-stu-id="147f2-132">!myBool</span></span>|  
+|~|<span data-ttu-id="147f2-133">complemento bit a bit</span><span class="sxs-lookup"><span data-stu-id="147f2-133">bitwise complement</span></span>|<span data-ttu-id="147f2-134">x = ~y</span><span class="sxs-lookup"><span data-stu-id="147f2-134">x = ~y</span></span>|  
+|<span data-ttu-id="147f2-135">()</span><span class="sxs-lookup"><span data-stu-id="147f2-135">()</span></span>|<span data-ttu-id="147f2-136">Conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="147f2-136">cast</span></span>|<span data-ttu-id="147f2-137">(bool) myInt</span><span class="sxs-lookup"><span data-stu-id="147f2-137">(bool) myInt</span></span>|  
+|*|<span data-ttu-id="147f2-138">times</span><span class="sxs-lookup"><span data-stu-id="147f2-138">times</span></span>|<span data-ttu-id="147f2-139">Weight = MyMsg.numOrders * 20</span><span class="sxs-lookup"><span data-stu-id="147f2-139">Weight = MyMsg.numOrders * 20</span></span>|  
+|/|<span data-ttu-id="147f2-140">dividido por</span><span class="sxs-lookup"><span data-stu-id="147f2-140">divided by</span></span>|<span data-ttu-id="147f2-141">x / y</span><span class="sxs-lookup"><span data-stu-id="147f2-141">x / y</span></span>|  
+|+|<span data-ttu-id="147f2-142">más</span><span class="sxs-lookup"><span data-stu-id="147f2-142">plus</span></span>|<span data-ttu-id="147f2-143">x + y</span><span class="sxs-lookup"><span data-stu-id="147f2-143">x + y</span></span>|  
+|-|<span data-ttu-id="147f2-144">menos</span><span class="sxs-lookup"><span data-stu-id="147f2-144">minus</span></span>|<span data-ttu-id="147f2-145">x - y</span><span class="sxs-lookup"><span data-stu-id="147f2-145">x - y</span></span>|  
+|<<|<span data-ttu-id="147f2-146">desplazar a la izquierda</span><span class="sxs-lookup"><span data-stu-id="147f2-146">shift left</span></span>|<span data-ttu-id="147f2-147">x <\< 2</span><span class="sxs-lookup"><span data-stu-id="147f2-147">x <\< 2</span></span>|  
+|>>|<span data-ttu-id="147f2-148">desplazar a la derecha</span><span class="sxs-lookup"><span data-stu-id="147f2-148">shift right</span></span>|<span data-ttu-id="147f2-149">x >> 2</span><span class="sxs-lookup"><span data-stu-id="147f2-149">x >> 2</span></span>|  
+|<|<span data-ttu-id="147f2-150">menor que</span><span class="sxs-lookup"><span data-stu-id="147f2-150">less than</span></span>|<span data-ttu-id="147f2-151">Si (MyMsg.numOrders \< 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-151">If (MyMsg.numOrders \< 10)...</span></span>|  
+|>|<span data-ttu-id="147f2-152">mayor que</span><span class="sxs-lookup"><span data-stu-id="147f2-152">greater than</span></span>|<span data-ttu-id="147f2-153">Si (MyMsg.numOrders > 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-153">If (MyMsg.numOrders > 10)...</span></span>|  
+|<=|<span data-ttu-id="147f2-154">menor que o igual a</span><span class="sxs-lookup"><span data-stu-id="147f2-154">less than or equal to</span></span>|<span data-ttu-id="147f2-155">Si (MyMsg.numOrders \<= 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-155">If (MyMsg.numOrders \<= 10)...</span></span>|  
+|>=|<span data-ttu-id="147f2-156">mayor que o igual a</span><span class="sxs-lookup"><span data-stu-id="147f2-156">greater than or equal to</span></span>|<span data-ttu-id="147f2-157">Si (MyMsg.numOrders > = 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-157">If (MyMsg.numOrders >= 10)...</span></span>|  
+|==|<span data-ttu-id="147f2-158">igual a</span><span class="sxs-lookup"><span data-stu-id="147f2-158">equal to</span></span>|<span data-ttu-id="147f2-159">If (MyMsg.numOrders == 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-159">If (MyMsg.numOrders == 10)...</span></span>|  
+|<span data-ttu-id="147f2-160">!=</span><span class="sxs-lookup"><span data-stu-id="147f2-160">!=</span></span>|<span data-ttu-id="147f2-161">no es igual a</span><span class="sxs-lookup"><span data-stu-id="147f2-161">not equal to</span></span>|<span data-ttu-id="147f2-162">If (MyMsg.numOrders != 10)...</span><span class="sxs-lookup"><span data-stu-id="147f2-162">If (MyMsg.numOrders != 10)...</span></span>|  
+|&|<span data-ttu-id="147f2-163">y</span><span class="sxs-lookup"><span data-stu-id="147f2-163">and</span></span>|<span data-ttu-id="147f2-164">Si (myByte & 255)...</span><span class="sxs-lookup"><span data-stu-id="147f2-164">If (myByte & 255)...</span></span>|  
+|^|<span data-ttu-id="147f2-165">exclusivo o</span><span class="sxs-lookup"><span data-stu-id="147f2-165">exclusive or</span></span>|<span data-ttu-id="147f2-166">If (myByte ^ 1)...</span><span class="sxs-lookup"><span data-stu-id="147f2-166">If (myByte ^ 1)...</span></span>|  
+|<span data-ttu-id="147f2-167">&#124;</span><span class="sxs-lookup"><span data-stu-id="147f2-167">&#124;</span></span>|<span data-ttu-id="147f2-168">o bien</span><span class="sxs-lookup"><span data-stu-id="147f2-168">or</span></span>|<span data-ttu-id="147f2-169">Si (myByte &#124; 1)...</span><span class="sxs-lookup"><span data-stu-id="147f2-169">If (myByte &#124; 1)...</span></span>|  
+|&&|<span data-ttu-id="147f2-170">condicional y</span><span class="sxs-lookup"><span data-stu-id="147f2-170">conditional and</span></span>|<span data-ttu-id="147f2-171">Si (MyMsg.numOrders > 10) & & (MyMsg.numOrders < 100)</span><span class="sxs-lookup"><span data-stu-id="147f2-171">If (MyMsg.numOrders > 10) && (MyMsg.numOrders < 100)</span></span>|  
+|<span data-ttu-id="147f2-172">&#124;&#124;</span><span class="sxs-lookup"><span data-stu-id="147f2-172">&#124;&#124;</span></span>|<span data-ttu-id="147f2-173">condicional o</span><span class="sxs-lookup"><span data-stu-id="147f2-173">conditional or</span></span>|<span data-ttu-id="147f2-174">Si (MyMsg.numOrders \< 10) &#124; &#124; (MyMsg.numOrders > 100)</span><span class="sxs-lookup"><span data-stu-id="147f2-174">If (MyMsg.numOrders \< 10) &#124;&#124; (MyMsg.numOrders > 100)</span></span>|  
+|//|<span data-ttu-id="147f2-175">comentario</span><span class="sxs-lookup"><span data-stu-id="147f2-175">commenting</span></span>|<span data-ttu-id="147f2-176">//Éste es el comentario</span><span class="sxs-lookup"><span data-stu-id="147f2-176">//This is the comment</span></span>|  
+  
+> [!NOTE]
+>  <span data-ttu-id="147f2-177">Las reglas difieren entre las expresiones generales y las expresiones de filtro que se usan con la **recepción** forma.</span><span class="sxs-lookup"><span data-stu-id="147f2-177">The rules differ between general expressions and filter expressions that are used with the **Receive** shape.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="147f2-178">Vea también</span><span class="sxs-lookup"><span data-stu-id="147f2-178">See Also</span></span>  
+ [<span data-ttu-id="147f2-179">Uso de filtros con la forma de mensaje de recepción</span><span class="sxs-lookup"><span data-stu-id="147f2-179">Using Filters With the Receive Message Shape</span></span>](../core/using-filters-with-the-receive-message-shape.md)
