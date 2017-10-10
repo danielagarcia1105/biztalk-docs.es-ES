@@ -1,7 +1,8 @@
 ---
 title: Recibir fuertemente tipado mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de servicio WCF | Documentos de Microsoft
+description: "Usar una aplicación .NET para configurar el sondeo con tipo o sondeo fuertemente tipado mediante el servicio WCF con el adaptador de WCF-SQL en BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/09/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a56ed382f6fa9c106b091b62406feba2dffe704
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c616d2a9f10aae5dbf822676174a0de0d4816c19
+ms.sourcegitcommit: f9c6ea3c9cfb8a43f765c0d3b8b07dacaa21fc51
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-wcf-service-model"></a>Recibir fuertemente tipado mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de servicio WCF
 Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de sondeo fuertemente tipado de SQL Server. Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos. La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados. Debe utilizar sondeo fuertemente tipado en un escenario donde desea recibir un conjunto de resultados fuertemente tipada. Para obtener más información sobre cómo el adaptador admite el sondeo fuertemente tipado, consulte [compatibilidad con entrada de sondeo utilizando llamadas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md).  
@@ -68,7 +69,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  Para obtener una descripción más completa de estas propiedades, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Para obtener una descripción completa de cómo usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para sondear SQL Server, seguir leyendo.  
   
-## <a name="configuring-strongly-typed-polling-in-the-wcf-service-model"></a>Configuración de sondeo fuertemente tipadas en el modelo de servicio WCF  
+## <a name="configure-strongly-typed-polling-in-the-wcf-service-model"></a>Configurar el sondeo fuertemente tipadas en el modelo de servicio WCF  
  Para recibir el **sondeo** operación cuando se usa el modelo de servicio WCF, debe:  
   
 1.  Generar un contrato de servicio WCF (interfaz) para la **TypedPolling** operación desde los metadatos expuestos por el adaptador. Para ello, puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. Al generar el contrato de servicio WCF para este ejemplo, asegúrese de que:  
@@ -148,10 +149,8 @@ namespace SqlAdapterBindingNamespace {
 }  
 ```  
   
-## <a name="receiving-strongly-typed-inbound-messages-for-polling-operation"></a>Recibir mensajes entrantes fuertemente tipados para la operación de sondeo  
+## <a name="receive-strongly-typed-inbound-messages-for-polling-operation"></a>Recibir mensajes de entrada fuertemente tipados para la operación de sondeo  
  Esta sección proporciona instrucciones sobre cómo escribir una aplicación .NET para recibir mensajes entrantes de sondeo fuertemente tipado mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
-  
-#### <a name="to-receive-polling-messages-from-the-sql-adapter"></a>Para recibir mensajes de sondeo desde el adaptador de SQL  
   
 1.  Use la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] para generar un contrato de servicio WCF (interfaz) y las clases auxiliares para el **TypedPolling** operación. Asegúrese de que se especifique lo siguiente al generar el contrato de servicio WCF para este ejemplo:  
   
@@ -268,7 +267,7 @@ namespace SqlAdapterBindingNamespace {
   
     ```  
     // Add service endpoint: be sure to specify TypedPolling_Employee as the contract  
-    Uri ConnectionUri = new Uri("mssql://mysqlserver//mydatabase?InboundID=Empliyee");  
+    Uri ConnectionUri = new Uri("mssql://mysqlserver//mydatabase?InboundID=Employee");  
     serviceHost.AddServiceEndpoint("TypedPolling_Employee", binding, ConnectionUri);  
     ```  
   
