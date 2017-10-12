@@ -80,3 +80,5 @@ Si dispone de una [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkser
 -   [Recursos de la Comunidad](../core/community-resources5.md)  
   
 -   [Accesibilidad para personas con discapacidades](../core/accessibility-for-people-with-disabilities1.md)
+
+<!-- Test PR -->
