@@ -1,99 +1,89 @@
 ---
-title: "Cómo configurar IIS para la ubicación de recepción HTTP | Documentos de Microsoft"
+title: "Configurar IIS para la ubicación de recepción HTTP | Documentos de Microsoft"
+description: "Crear la aplicación de recepción de HTTP de BTS en IIS y probar la configuración del grupo de aplicaciones de BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/10/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- 64-bit support, HTTP adapters
-- HTTP adapters, IIS
-- configuring [HTTP adapters], IIS
-- receive locations, IIS
-- IIS, receive locations
-- HTTP adapters, 64-bit support
-- IIS, HTTP adapters
 ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
 caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1daa535c546bef0b390f0f7f84c45d546ac0005
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e09768d6616a33a4900995f3dd3225fa34318b3c
+ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/11/2017
 ---
-# <a name="how-to-configure-iis-for-an-http-receive-location"></a>Cómo configurar IIS para la ubicación de recepción de HTTP
-En función de la versión de Microsoft Windows que se esté utilizando, se tendrá que configurar Servicios de Internet Information Server (IIS) de forma distinta para trabajar con la ubicación de recepción del adaptador de HTTP.  
+# <a name="configure-iis-for-an-http-receive-location"></a>Configurar IIS para la ubicación de recepción de HTTP
+HTTP ubicación de recepción utiliza una aplicación de Internet Information Services (IIS). Ubicación dentro de IIS de recepción de este tema se enumeran los pasos para habilitar HTTP. 
+
+Dependiendo del sistema operativo, los pasos para configurar la aplicación de IIS pueden variar. Siga estos pasos como guía, como la interfaz de usuario puede ser diferente en el sistema operativo.
   
- Si el sistema operativo es [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], IIS 7.0 proporciona dos modos de aislamiento de aplicaciones diferentes para proteger aplicaciones web. El modo de aislamiento de proceso de trabajo es el modo predeterminado. Se puede configurar la ubicación de recepción del adaptador de HTTP para trabajar con cualquiera de los dos modos, aunque se recomienda el modo de aislamiento de proceso de trabajo por su funcionalidad de seguridad mejorada.  
-  
-> [!NOTE]
->  Si el sistema operativo es la x64 edición de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], la versión de 64 bits de HTTP de recepción adaptador se instala en el  *\<unidad >***\Program Files (x86) \Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\HttpReceive64** directorio de su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de forma predeterminada. Para ejecutar la versión de 64 bits del adaptador de recepción HTTP en el modo nativo de 64 bits, debe ejecutar la siguiente secuencia de comandos desde una línea de comandos:  
->   
->  `cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
->   
->  `C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
+## <a name="32-bit-vs-64-bit"></a>32 y 64 bits
+
+HTTP ubicación de recepción utiliza la BTSHTTPReceive.dll. Hay 32 bits y una versión de 64 bits del archivo DLL. Elija qué versión desea utilizar. procesos de 64 bits tienen más memoria disponible, por lo que si se procesan mensajes más grandes, la versión de 64 bits puede ser más apropiada. 
+
+**ubicación de instalación de 32 bits**: *archivos de programa (x86) \Microsoft BizTalk Server\HttpReceive*.
+**ubicación de instalación de 64 bits**: *\Microsoft BizTalk Server\HttpReceive64 (x86) de archivos de programa*
+
+Para ejecutar la versión de 64 bits de HTTP en modo nativo de 64 bits del adaptador de recepción, abra un símbolo del sistema y ejecute los siguientes scripts:  
+
+1. Tipo:`cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
+
+2. Tipo:`C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
   
 > [!NOTE]
 >  No será válida ninguna configuración de IIS que haga que SOAP y HTTP compartan el mismo proceso. Sólo puede haber un receptor aislado por proceso.  
   
-### <a name="to-configure-the-iis-70-worker-process-isolation-mode-to-work-with-the-http-adapter-receive-location"></a>Para configurar el modo de aislamiento de proceso de trabajo de IIS 7.0 para que funcione con el adaptador de HTTP ubicación de recepción  
+##  <a name="configure-the-iis-application"></a>Configurar la aplicación de IIS
   
-1.  Haga clic en **iniciar**, seleccione **configuración**y, a continuación, haga clic en **el Panel de Control**.  
+1.  Abra **Internet Information Services** (abrir **el administrador del servidor**, seleccione **herramientas**y seleccione **Administrador de Internet Information Services**). 
   
-2.  En el Panel de Control, haga doble clic en **herramientas administrativas**.  
-  
-3.  En Herramientas administrativas, haga doble clic en **Internet Information Services**.  
-  
-4.  En Internet Information Services, seleccione la entrada del servidor Web raíz. En el **vista características**, haga doble clic en **asignaciones de controlador**y, a continuación, en el panel Acciones, haga clic en **Agregar asignación de Script**.  
+2.  En IIS, seleccione el nombre del servidor. En el **vista características**, haga doble clic en **asignaciones de controlador**. En el panel Acciones, seleccione **Agregar asignación de Script**.  
   
     > [!NOTE]
-    >  Si configura la asignación de script en el nivel de servidor web, esta asignación se aplicará a todos los sitios web secundarios. Si desea restringir la asignación a un sitio web específico o a una carpeta virtual, seleccione el sitio o carpeta de destino en lugar del servidor web.  
+    >  Al configurar la asignación de script en el nivel de servidor web, la asignación se aplica a todos los sitios web. Si desea restringir la asignación a un sitio Web específico o una carpeta virtual, seleccione ese sitio web o una carpeta y, a continuación, agregue la asignación de script.  
   
-5.  En el **Agregar asignación de Script** cuadro de diálogo, en la **ruta de acceso de solicitud** , escriba `BtsHttpReceive.dll`.  
+3.  En **Agregar asignación de Script**, seleccione **ruta de acceso de solicitud**y el tipo de `BtsHttpReceive.dll`.  
   
-6.  En el **ejecutable** , a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive. Seleccione **BtsHttpReceive.dll** y, a continuación, haga clic en **Aceptar**.  
+4.  En **ejecutable**, seleccione los puntos suspensivos (**...** ) y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Seleccione **BtsHttpReceive.dll**y, a continuación, seleccione **abiertos**.  
   
-7.  En el **nombre** , escriba `BizTalk HTTP Receive`y, a continuación, haga clic en **restricciones de solicitudes**.  
+5.  En **nombre**, escriba `BizTalk HTTP Receive`y, a continuación, seleccione **restricciones de solicitudes**. En esta ventana:
   
-8.  En el **restricciones de solicitudes** cuadro de diálogo, haga clic en el **verbos** ficha y, a continuación, seleccione **uno de los siguientes verbos**. Escriba `POST` como verbo.  
+    1. En **verbos**, seleccione **uno de los siguientes verbos**y escriba `POST`.  
   
-9. En el **acceso** ficha, seleccione **Script**y, a continuación, haga clic en **Aceptar**.  
+    2. En **acceso**, seleccione **Script**y, a continuación, seleccione **Aceptar**.  
   
-10. Cuando se le solicite que permita la extensión ISAPI, haga clic en **Sí**.  
+    3. Cuando se le pida que permita la extensión ISAPI, seleccione **Sí**.  
   
-11. Haga clic en **grupos de aplicaciones**, seleccione **New**y, a continuación, haga clic en **grupo de aplicaciones**.  
-  
-12. En el **Agregar grupo de aplicaciones** cuadro de diálogo, en la **nombre** , escriba un nombre para el grupo de aplicaciones. Seleccione **NET Framework v4.0.30319** y, a continuación, haga clic en **Aceptar**.  
+6. Crear un nuevo grupo de aplicaciones (haga clic en **grupos de aplicaciones**, seleccione **Agregar grupo de aplicaciones**). **Nombre** el grupo de aplicaciones (como `BTSHTTPReceive`), seleccione **NET Framework v4.0.30319**y seleccione **Aceptar**.  
   
     > [!NOTE]
-    >  El número de versión puede variar en función de la versión de .NET Framework instalada en el equipo.  
+    >  El número de versión de .NET puede variar según la versión de .NET Framework instalada en el equipo.  
   
-     El nuevo grupo de aplicaciones aparece en la lista de **grupos de aplicaciones**.  
+     Aparece el nuevo grupo de aplicaciones.  
   
-13. En **grupos de aplicaciones**, en la **vista características**, seleccione el nuevo grupo de aplicaciones y, a continuación, haga clic en **configuración avanzada** en el panel Acciones.  
+7. Seleccione el nuevo grupo de aplicaciones y abra el **configuración avanzada** (**acciones** panel). En esta ventana:
+
+    - **Habilitar aplicación de 32 bits**: establézcalo **True** si ha elegido 32 bits **BtsHttpReceive.dll**
+    - **Procesar modelo** sección, **identidad**: seleccione los puntos suspensivos (**...** ), seleccione **cuenta personalizada**y, a continuación, **establecer** a una cuenta que sea miembro de la **usuarios de hosts aislados de BizTalk** y **IIS_WPG** grupos. Seleccione **Aceptar**. 
   
-14. En el **configuración avanzada** cuadro de diálogo, en la **modelo de proceso** sección, en la **identidad** , a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
+8. Agregar una nueva aplicación para el sitio web (haga clic en el **sitio Web predeterminado**, seleccione **Agregar aplicación**). En esta ventana:
   
-15. En el **identidad del grupo de aplicaciones** cuadro de diálogo, seleccione **cuenta personalizada**y, a continuación, haga clic en **establecer**. Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Configuración avanzada** .  
+    1. **Alias** : escriba un alias que asocian a la aplicación (como `BTS HTTP Receive`y, a continuación, **seleccione**.  
+    2. Seleccione el nuevo grupo de aplicaciones recién creado y, a continuación, seleccione **Aceptar**.  
+    3. **Ruta de acceso física**: seleccione los puntos suspensivos (**...** ) y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.  
+    4. **Configuración de pruebas** para comprobar que no existen errores en la **Probar conexión** cuadro de diálogo. **Cerrar**y, a continuación, seleccione **Aceptar**.  
   
-16. En el Administrador de IIS, abra el **sitios** carpeta. Haga clic en el **sitio Web predeterminado** y, a continuación, haga clic en **Agregar aplicación**.  
-  
-17. En el **Agregar aplicación** cuadro de diálogo **Alias**, escriba un alias para asociarlo con la aplicación y, a continuación, haga clic en **seleccione**.  
-  
-18. En el **Seleccionar grupo de aplicaciones** cuadro de diálogo, seleccione el nuevo grupo de aplicaciones que creó anteriormente y, a continuación, haga clic en **Aceptar**.  
-  
-19. Haga clic en el botón de puntos suspensivos (**...** ) botón y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive para la **ruta de acceso física**.  
-  
-20. Haga clic en **conectar como** y escriba la **nombre de usuario** y **contraseña** para una cuenta de usuario que es miembro del grupo Administradores y, a continuación, haga clic en **Aceptar**.  
-  
-21. Haga clic en **configuración de pruebas** y compruebe que se muestra ningún error en la **Probar conexión** cuadro de diálogo. Haga clic en **Cerrar**y, a continuación, en **Aceptar**.  
-  
-22. La nueva aplicación aparece en la lista de **sitios Web predeterminados** en el Administrador de Internet Information Services (IIS).  
+    > [!TIP]
+    > Si la configuración de pruebas, se devuelve una advertencia, la identidad del grupo de aplicaciones puede que falten permisos a una carpeta o el acceso a un grupo. Como un paso de la solución de problemas, seleccione **conectar como**, escriba la **nombre de usuario** y **contraseña** para una cuenta de usuario que sea miembro del grupo Administradores. 
+
+9. Aparece la nueva aplicación aparece en **sitios Web predeterminados**.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo configurar ubicación de recepción de HTTP](../core/how-to-configure-an-http-receive-location.md)

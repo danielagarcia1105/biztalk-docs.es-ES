@@ -1,8 +1,9 @@
 ---
 title: Requisitos de hardware y Software para BizTalk Server 2016 | Documentos de Microsoft
+description: "Requisitos previos de software y las listas de versión compatible para instalar BizTalk Server 2016"
 ms.custom: 
 ms.prod: biztalk-server
-ms.date: 06/08/2017
+ms.date: 10/09/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,11 +13,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2542299e60936b7fa8a1a2e6c7d86a0db3a07893
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63993b544aead238d28623ab291887535e2f06ab
+ms.sourcegitcommit: 85e816bcdeb3d66ea5018cf88aea7059f74f7d80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="hardware-and-software-requirements-for-biztalk-server-2016"></a>Requisitos de hardware y software de BizTalk Server 2016
 
@@ -33,7 +34,7 @@ En la tabla siguiente se muestran los requisitos mínimos de hardware del equipo
 > Los requisitos de hardware enumerados son los mínimos. Cada entorno es diferente y es muy probable que el suyo tenga más requisitos. Consulte [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx) (Recomendaciones para instalar, ajustar el tamaño, implementar y mantener una solución de BizTalk Server). 
 
 
-## <a name="software-requirements"></a>Requisitos de software
+## <a name="software-requirements--supported-versions"></a>Versiones admitidas y requisitos de software
 
 | Software  |   Versiones |  Se requiere para | 
 | --- | --- | --- | 
@@ -49,6 +50,7 @@ En la tabla siguiente se muestran los requisitos mínimos de hardware del equipo
 | Correo electrónico de base de datos de SQL Server  | La versión que se incluye con SQL Server. [Configure el Correo electrónico de base de datos de SQL Server](https://msdn.microsoft.com/library/hh245116(v=sql.130).aspx).| Opcional. <br/><br/>Necesario para usar las alertas de BAM. | 
 | SQL XML | SQL XML 4.0 con Service Pack 1. [Descargue SqlXml 4.0 Service Pack 1 (SP1)](https://www.microsoft.com/en-us/download/details.aspx?id=30403). | Se requiere para el tiempo de ejecución de BizTalk Server, herramientas administrativas y BAM. <br/><br/> SQLXML proporciona compatibilidad entre XML y la base de datos de SQL Server. Permite a los programadores tender un puente entre los datos XML y los datos relacionales. Puede crear una vista XML de los datos relacionales existentes y trabajar con la vista como si se tratara de un archivo XML. <br/><br/>**Nota**: <br/>el archivo CAB redistribuible lo instala automáticamente. SQL XML puede tener sus propios requisitos de software (como `.NET Framework 3.5` y `.NET Framework 2.0`), que no se incluyen en el archivo CAB. Si BizTalk Server tiene acceso a Internet, los requisitos de software de SQL XML podrían instalarse automáticamente. Si BizTalk Server no tiene acceso a Internet, debe instalar manualmente los requisitos de software de SQL XML.| 
 | WinSCP | WinSCP versión 5.7.7. [Descargue WinSCP](http://winscp.net).| Necesario para usar el adaptador SFTP. |
+|Sistemas LOB y enterprise | [Línea de negocio (LOB) y los sistemas empresariales compatibles](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) enumera las versiones compatibles. | Necesarias para usar los adaptadores de BizTalk Adapter Pack. <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md) enumera los adaptadores disponibles del sistema. |
 
 ## <a name="service-pack-and-cumulative-update-support"></a>Compatibilidad con Service Packs y actualizaciones acumulativas
 

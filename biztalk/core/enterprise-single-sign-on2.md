@@ -1,7 +1,8 @@
 ---
-title: "Enterprise inicio de sesión único-On2 | Documentos de Microsoft"
+title: "Solo inicio de sesión en información general de Enterprise | Documentos de Microsoft"
+description: Leer sobre las aplicaciones de affilicate, con vales SSO para procesar los mensajes y administrar SSO en BizTalk Server
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/11/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,18 +13,18 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4cf73307cc3b22beec8a3b8c10b232506fc674e1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f242e11e31de957fee0c6cbf228094f7e40010d
+ms.sourcegitcommit: 5e6ef63416e8885a5ee91bd65618a842b3a0cc54
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/12/2017
 ---
-# <a name="enterprise-single-sign-on"></a>Inicio de sesión único (SSO) empresarial
+# <a name="enterprise-single-sign-on-overview"></a>Single Sign-On información general de Enterprise
 Es probable que un proceso empresarial que esté basado en varias aplicaciones distintas tenga que pasar por distintos dominios de seguridad. El acceso a una aplicación en un sistema operativo de Microsoft Windows puede requerir un conjunto de credenciales de seguridad, pero es posible que el acceso a una aplicación en un gran sistema (mainframe) IBM requiera credenciales diferentes, como un nombre de usuario y una contraseña de RACF. Trabajar con esta gran cantidad de credenciales es difícil para los usuarios y puede suponer un reto aún mayor en la automatización de procesos. Para resolver este problema, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye el inicio de sesión único (SSO) empresarial.  
   
  No debe confundirse, esto no es un mecanismo que permite a las personas tienen un inicio de sesión para todas las aplicaciones. Por el contrario, el inicio de sesión único empresarial proporciona un método para asignar un Id. de usuario de Windows a credenciales de usuario que no sean de Windows. Este servicio no soluciona todos los problemas de inicio de sesión empresarial de una organización, pero puede facilitar el trabajo en procesos empresariales que utilizan aplicaciones en varios sistemas.  
   
-## <a name="creating-affiliate-application-for-non-windows-systems"></a>Crear aplicaciones afiliadas en sistemas ajenos a Windows  
+## <a name="create-affiliate-application-for-non-windows-systems"></a>Crear la aplicación afiliada para sistemas distintos de Windows  
  Para utilizar el inicio de sesión único empresarial, un administrador define aplicaciones afiliadas, cada una de las cuales representa un sistema o aplicación ajeno a Windows. Por ejemplo, una aplicación afiliada puede ser una aplicación CICS que se ejecute en un gran sistema (mainframe) IBM, un sistema SAP ERP que se ejecute en Unix o cualquier otro tipo de software. Cada una de estas aplicaciones tiene su propio mecanismo de autenticación, por lo que requiere sus propias credenciales exclusivas.  
   
  El inicio de sesión único (SSO) empresarial almacena en una base de datos de SSO una asignación cifrada entre el Id. de usuario de Windows de un usuario y sus credenciales en una o varias aplicaciones afiliadas. Cuando este usuario necesita obtener acceso a una aplicación afiliada, puede buscar las credenciales de esa aplicación en la base de datos de SSO mediante un Servidor de inicio de sesión único (SSO). El diagrama siguiente refleja su funcionamiento.  

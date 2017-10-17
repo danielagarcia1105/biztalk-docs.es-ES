@@ -1,50 +1,45 @@
 ---
-title: "Cómo configurar la purga DTA y archivar trabajo | Documentos de Microsoft"
+title: Configurar la purga DTA y archivar trabajo | Documentos de Microsoft
+description: "Establecer los parámetros del trabajo DTA Purge and Archive en Agente SQL Server para mantener la base de datos de seguimiento de BizTalk Server"
 ms.custom: 
-ms.date: 2015-11-09
+ms.date: 10/11/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- purging, configuring
-- DTA Purge and Archive job, configuring
-- archiving [Tracking database], DTA Purge and Archive job
-- archiving [Tracking database], configuring
-- purging, DTA Purge and Archive job
 ms.assetid: 156ccf9b-284f-4b96-a395-92936e8cebcf
 caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f4985e657f26945aa2fdc168b273dbfdb159efc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 149719b7eea50ce53c14298597c94729162d43b0
+ms.sourcegitcommit: 1fb633fcf919ce3124405420a5d9faa79d9d508e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/11/2017
 ---
-# <a name="how-to-configure-the-dta-purge-and-archive-job"></a>Cómo configurar el trabajo DTA Purge and Archive
+# <a name="configure-the-dta-purge-and-archive-job"></a>Configurar la purga DTA y archivar trabajo
 Antes de poder archivar o purgar datos en la base de datos de seguimiento de BizTalk (BizTalkDTADb), debe configurar el trabajo DTA Purge and Archive (BizTalkDTADb). Este trabajo está configurado para llamar al procedimiento de almacén dtasp_backupandpurgetrackingdatabase por que utiliza seis parámetros que debe configurar.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Debe ser iniciado sesión con una cuenta que sea miembro del rol sysadmin de SQL Server rol fijo de servidor debe seguir estos pasos.  
+ Inicie sesión con una cuenta que sea miembro del rol sysadmin de SQL Server rol fijo de servidor.  
   
-### <a name="to-configure-the-dta-purge-and-archive-job"></a>Para configurar el trabajo de purga y archivo DTA  
+## <a name="configure-the-dta-purge-and-archive-job"></a>Configurar la purga DTA y archivar trabajo  
   
 1.  En el servidor SQL Server que hospeda la base de datos de seguimiento de BizTalk (BizTalkDTADb), abra **SQL Server Management Studio**.  
   
 2.  En **conectar al servidor**, escriba el nombre del servidor SQL donde el seguimiento (BizTalkDTADb) de BizTalk reside base de datos, especifique el tipo de autenticación y, a continuación, seleccione **conectar** para conectarse a SQL server.  
   
-3.  En **Microsoft SQL Server Management Studio**, haga doble clic en **Agente SQL Server**y, a continuación, haga clic en **trabajos**.  
+3. Haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.  
   
-4.  En el **detalles del explorador de objetos** panel, haga clic en **DTA Purge and Archive (BizTalkDTADb)**y, a continuación, haga clic en **propiedades**.  
+4.  En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)**y, a continuación, seleccione **propiedades**.  
   
-5.  En el **Job Properties - DTA Purge and Archive (BizTalkDTADb)** cuadro de diálogo **seleccionar una página**, haga clic en **pasos**.  
+5.  En **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, en **seleccionar una página**, seleccione **pasos**.  
   
-6.  En el **lista de pasos de trabajo**, haga clic en **archivar y purgar**y, a continuación, haga clic en **editar**.  
+6.  En el **lista de pasos de trabajo**, seleccione **archivar y purgar**y, a continuación, seleccione **editar**.  
   
-7.  En el **General** página, en la **comando** cuadro, edite los parámetros siguientes según corresponda y, a continuación, haga clic en **Aceptar**.  
+7.  En **General**, en la **comando** cuadro, actualizar los parámetros siguientes y, a continuación, seleccione **Aceptar**.  
   
     -   @nLiveHourstinyint: cualquier instancias completadas anteriores a (horas de actividad) + (días de actividad) se eliminarán junto con todos los datos asociados. Se trata de un parámetro necesario y no tiene valor predeterminado.  
   
@@ -61,13 +56,18 @@ Antes de poder archivar o purgar datos en la base de datos de seguimiento de Biz
   
     -   @fForceBackupint: valor predeterminado es 0. Se reserva para uso futuro.  
   
-     El comando editado debería parecerse al siguiente. En el ejemplo siguiente, hay una ventana de 1 hora y purga incondicional de 1 día:  
+    -   @fHardDeleteRunningInstancesint: el valor predeterminado es 0. Cuando se establece en 1, elimina todas las instancias anteriores a en ejecución la @nHardDeleteDays valor. 
+    
+        > [!NOTE]
+        > El @fHardDeleteRunningInstances propiedad está disponible a partir de [actualización acumulativa 1 de BizTalk Server 2016](https://support.microsoft.com/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016), [actualización acumulativa 6 de BizTalk Server 2013 R2](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2), y [acumulativa de BizTalk Server 2013 Actualizar 5](https://support.microsoft.com/help/3194301/cumulative-update-5-for-biztalk-server-2013).  
+  
+    El comando editado debería parecerse al siguiente. En el ejemplo siguiente, hay una ventana de 1 hora, purga incondicional de 1 día y las eliminaciones ejecutan todos instancias anteriores a 1 día de servicio:  
   
     ```  
-    exec dtasp_BackupAndPurgeTrackingDatabase 1, 0, 1, '\\MyBizTalkServer\backup', null, 0  
+    exec dtasp_BackupAndPurgeTrackingDatabase 1, 0, 1, '\\MyBizTalkServer\backup', null, 0, 1  
     ```  
   
-8.  En el **Job Properties - DTA Purge and Archive (BizTalkDTADb)** cuadro de diálogo **seleccionar una página**, haga clic en **General**, seleccione la **habilitado**casilla de verificación y, a continuación, haga clic en **Aceptar**.  
+8.  En el **Job Properties - DTA Purge and Archive (BizTalkDTADb)** cuadro de diálogo **seleccionar una página**, seleccione **General**, seleccione la **habilitado**casilla de verificación y, a continuación, seleccione **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Archivar y purgar la base de datos de seguimiento de BizTalk](../core/archiving-and-purging-the-biztalk-tracking-database.md)
