@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 503ce37fd06f91d5036f08c9eee752017c0ad21c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 85cef88de4e8fa05bb50840002a0f344b1f0b350
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="step-2-deploy-the-web-project"></a>Paso 2: Implementar el proyecto Web
 ![Paso 2 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
@@ -28,11 +28,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>Requisitos previos  
  Para completar este paso, debe haber completado [paso 1: usar el Asistente para desarrollo de servicio de adaptador para crear el proyecto Web](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-adapter-service-development-wizard-to-create-the-web-project.md). El servidor Web también debe tener un certificado SSL instalado para habilitar la comunicación HTTPS.  
   
-### <a name="to-compile-and-deploy-the-web-project"></a>Para compilar e implementar el proyecto Web  
+## <a name="compile-and-deploy-the-web-project"></a>Compilar e implementar el proyecto Web  
   
-1.  En [!INCLUDE[vs2010](../../includes/vs2010-md.md)], cargar el proyecto EchoWeb que creó anteriormente.  
+1.  En Visual Studio, cargue el proyecto de EchoWeb que creó anteriormente.  
   
-2.  Abra un [!INCLUDE[vs2010](../../includes/vs2010-md.md)] símbolo del sistema.  
+2.  Abra un símbolo del sistema de Visual Studio.  
   
 3.  En el símbolo del sistema, desde la carpeta C:\tutorials\echoweb, escriba el siguiente comando y, a continuación, presione ENTRAR:  
   
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  En el **Publicar sitio Web** cuadro de diálogo para **ubicación de destino**, escriba **http://machinename/EchoWeb**. Seleccione **permitir que este sitio precompilado se actualizables**, **uso corregido únicos y nomenclatura de ensamblados de página**, y **habilitar nombres seguros en los ensamblados precompilan**. En el **ubicación del archivo de clave** , a continuación, haga clic en los puntos suspensivos **(...)**  botón, seleccione el archivo EchoWebKey.snk creado anteriormente y, a continuación, haga clic en **Aceptar**.  
   
-7.  Para comprobar que el sitio Web se ha creado correctamente, inicie Internet Explorer, escriba **HYPERLINK "http://localhost/EchoWeb/EchoOutboundContract.svc" http://localhost/EchoWeb/EchoOutboundContract.svc** en la barra de direcciones, y a continuación, presione ENTRAR. Debe aparecer una página Web que describe la EchoOutboundContractClient.  
+7.  Para comprobar que el sitio Web se ha creado correctamente, inicie Internet Explorer, escriba **"http://localhost/EchoWeb/EchoOutboundContract.svc"** en la barra de direcciones y, a continuación, presione ENTRAR. Debe aparecer una página Web que describe la EchoOutboundContractClient.  
   
 ## <a name="what-did-i-just-do"></a>Síntesis  
  Acaba de publicar el proyecto Web en IIS.  

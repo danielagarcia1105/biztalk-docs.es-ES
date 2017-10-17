@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5c0cc9a3cbae11fd18cbe9a91249cf5d3cf42925
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4f3b2888b21c2c59b01ddaf920d55ccadb79e326
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="how-to-use-a-custom-web-part-with-oracle-e-business-suite"></a>Cómo usar un elemento web personalizado con Oracle E-Business Suite
 Esta sección proporciona información sobre el uso de un elemento Web personalizado con Microsoft Office SharePoint Server. Para usar un elemento Web personalizado, debe hacer lo siguiente:  
@@ -35,9 +35,8 @@ Esta sección proporciona información sobre el uso de un elemento Web personali
 -   Cree un archivo de definición de aplicación para los artefactos de Oracle E-Business Suite mediante el catálogo de datos empresariales de Microsoft Office SharePoint Server. Para obtener más información, consulte [paso 2: crear un archivo de definición de aplicación para los artefactos de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md) en [Tutorial: presentar los datos de Oracle E-Business Suite en un sitio de SharePoint](Tutorial:%20Present%20data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md).  
   
 ##  <a name="Create_a_Custom_Web_Part"></a>Paso 1: Crear un elemento Web personalizado  
- Para crear un elemento Web personalizado con Visual Studio, haga lo siguiente:  
   
-1.  Iniciar[!INCLUDE[vs2010](../../includes/vs2010-md.md)]y, a continuación, cree un proyecto.  
+1.  Inicie Visual Studio y, a continuación, cree un proyecto.  
   
 2.  En el **nuevo proyecto** cuadro de diálogo, desde el **tipos de proyecto** panel, seleccione **Visual C#**. Desde el **plantillas** panel, seleccione **biblioteca de clases**.  
   

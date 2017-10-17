@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- SSIS
-- Data Provider for Siebel, importing Siebel data by using Visual Studio
 ms.assetid: 33701361-eca2-4795-a5e0-78162a98e9ba
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0671459b39462422768e42e18bf16336a469f43
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4479fbbfd704cea30b8981866d3b7a354ca7269f
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="import-siebel-data-using-visual-studio"></a>Importar datos de Siebel con Visual Studio
 Esta sección proporciona información sobre cómo usar Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] para importar datos desde un sistema Siebel en una base de datos de SQL Server. También proporciona instrucciones sobre cómo crear y ejecutar un paquete SSIS para importar estos datos.  
@@ -29,13 +26,10 @@ Esta sección proporciona información sobre cómo usar Microsoft [!INCLUDE[btsV
   
 -   El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] está instalado en el equipo.  
   
--   Microsoft [!INCLUDE[vs2010](../../includes/vs2010-md.md)] está instalado en el equipo.  
+-   Microsoft Visual Studio está instalado en el equipo.  
   
-## <a name="importing-data-by-using-visual-studio"></a>Importar datos con Visual Studio  
- Siga estos pasos para importar datos mediante [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
-  
-#### <a name="to-import-data-by-using-visual-studio"></a>Para importar datos mediante el uso de Visual Studio  
-  
+## <a name="import-in-visual-studio"></a>Importación en Visual Studio  
+ 
 1.  Iniciar [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y cree un proyecto de servicio de integración.  
   
 2.  Desde el **proyecto** menú, seleccione **SSIS Import and Export Wizard**. Esto inicia la importación de SQL Server y el Asistente para exportación.  
@@ -92,18 +86,16 @@ Esta sección proporciona información sobre cómo usar Microsoft [!INCLUDE[btsV
   
 16. El asistente agrega un paquete SSIS para el proyecto de servicio de integración. Guarde el proyecto de servicio de integración.  
   
-## <a name="running-the-ssis-package"></a>Ejecutar el paquete SSIS  
+## <a name="run-the-ssis-package"></a>Ejecutar el paquete SSIS  
  Una vez que el paquete se crea dentro de un proyecto de servicio de integración, puede ejecutarla para importar datos desde un sistema Siebel en una base de datos de SQL Server. Realice los pasos siguientes para importar datos de Siebel mediante la ejecución del paquete.  
-  
-#### <a name="to-run-the-package-from-visual-studio"></a>Para ejecutar el paquete de Visual Studio  
   
 1.  Navegue hasta el paquete SSIS en el Explorador de soluciones.  
   
 2.  Haga clic en el nombre del paquete y, a continuación, seleccione **Ejecutar paquete**.  
   
- Para obtener más información sobre la ejecución de paquetes, vea "Paquetes en ejecución" en [http://go.microsoft.com/fwlink/?LinkId=94972](http://go.microsoft.com/fwlink/?LinkId=94972). Para cualquier otra información relacionada con paquetes SSIS, consulte "paquete" Cómo... "temas (SSIS)" en [http://go.microsoft.com/fwlink/?LinkId=94973](http://go.microsoft.com/fwlink/?LinkId=94973).  
+[Ejecutar paquetes de Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/packages/run-integration-services-ssis-packages) proporciona más información. 
   
-## <a name="verifying-the-results"></a>Comprobar los resultados  
+## <a name="verify-the-results"></a>Comprobar los resultados  
  Después de ejecutar el paquete, debe comprobar los resultados de inicio de sesión en el servidor SQL Server y yendo a la base de datos a la que se importan los datos de Siebel. Ejecutar el paquete debe haber creado una tabla en la base de datos de destino. Esta tabla se debe rellenar con los valores de la tabla de Siebel.  
   
 ## <a name="see-also"></a>Vea también  

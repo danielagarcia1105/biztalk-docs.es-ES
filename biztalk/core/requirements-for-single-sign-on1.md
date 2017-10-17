@@ -1,5 +1,5 @@
 ---
-title: "Requisitos para el inicio de sesión único-1 | Documentos de Microsoft"
+title: "Requisitos para el inicio de sesión único | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,29 +7,23 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, Single Sign-On
-- SSO, requirements [JD Edwards EnterpriseOne adapters]
-- adapters [JD Edwards EnterpriseOne adapters], Single Sign-On
-- Single Sign-On, requirements [JD Edwards EnterpriseOne adapters]
-- Single Sign-On, enabling [JD Edwards EnterpriseOne adapters]
 ms.assetid: d1111377-2fe1-4d65-ac0d-c89d2f1740b8
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfab6d6cfea2ddef3b953d3fb3bb15900420fdcf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 437bc9d744e20b14e21d0e9d2ebe33e7b2e8a62a
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 Para usar el inicio de sesión único (SSO), debe tener el software siguiente instalado:  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Microsoft BizTalk Server
   
--   [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Visual Studio  
   
 -   Inicio de sesión único (SSO) empresarial  
   
@@ -37,7 +31,7 @@ Para usar el inicio de sesión único (SSO), debe tener el software siguiente in
   
 -   El host aislado debe configurarse como **autenticación de confianza**.  
   
-### <a name="to-enable-sso"></a>Para habilitar SSO  
+## <a name="enable-sso"></a>Habilitar SSO  
   
 1.  En el **propiedades de transporte** ventana, seleccione **Sí** para **usar SSO**.  
   

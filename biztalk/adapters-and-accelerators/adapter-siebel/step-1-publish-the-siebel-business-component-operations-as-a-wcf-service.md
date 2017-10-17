@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 929a83ae28ed85da3c06c1e03b98677e0fca7f82
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1dc83a0531460f513d146e2d03d0ef7e0a7c529f
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="step-1-publish-the-siebel-business-component-operations-as-a-wcf-service"></a>Paso 1: Publicar las operaciones de componente de negocios de Siebel como un servicio WCF
 ![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
  Para obtener más información sobre estos requisitos previos, consulte la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación. La Guía de instalación se instala normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
-### <a name="to-publish-the-siebel-business-components-as-a-wcf-service"></a>Para publicar los componentes de negocios de Siebel como un servicio WCF  
+## <a name="publish-the-siebel-business-components-as-a-wcf-service"></a>Publicar los componentes de negocios de Siebel como un servicio WCF  
   
 1.  Iniciar [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]y, a continuación, cree un proyecto.  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
      Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#**y, a continuación, seleccione **Web**. Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.  
   
     > [!NOTE]
-    >  Si instaló [!INCLUDE[vs2010](../../includes/vs2010-md.md)] con el componente de desarrollo Web, el **servicio de adaptador de WCF** plantilla también está disponible en la **nuevo sitio Web** opción.  
+    >  Si ha instalado Visual Studio con el componente de desarrollo Web, el **servicio de adaptador de WCF** plantilla también está disponible en la **nuevo sitio Web** opción.  
   
 3.  Especifique un nombre y ubicación de la solución y, a continuación, haga clic en **Aceptar**. Inicia el Asistente de desarrollo del servicio de adaptador de WCF.  
   
@@ -98,7 +98,7 @@ ms.lasthandoff: 09/20/2017
         |X509FindType|El tipo de búsqueda X.509 que se va a ejecutar.<br /><br /> **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate** está establecido en **True**.|  
   
         > [!NOTE]
-        >  Para obtener más información acerca de los certificados y las propiedades asociadas, vea "X509ClientCertificateCredentialsElement propiedades" en [http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771).  
+        >  Para obtener más información acerca de los certificados y las propiedades asociadas, consulte [X509ClientCertificateCredentialsElement propiedades](https://msdn.microsoft.com/library/system.servicemodel.configuration.x509clientcertificatecredentialselement_properties.aspx).
   
     2.  En el **configuración de comportamiento de punto de conexión** , especifique los siguientes valores:  
   
@@ -121,7 +121,7 @@ ms.lasthandoff: 09/20/2017
   
     |Para la propiedad|Especifique el valor|  
     |----------------------|-----------------------|  
-    |Configuración de enlace|El Asistente solo admite el enlace HTTP básico. Por lo tanto, se rellena automáticamente el campo de configuración de enlace a *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Haga clic en el botón de puntos suspensivos **(...)**  para cambiar las propiedades de enlace de HTTP. Para usar un canal de comunicaciones seguro, siempre se debe establecer el **modo** propiedad **transporte**. El asistente establece el valor predeterminado para la **modo** propiedad como **transporte**.<br /><br /> Para obtener más información acerca de los otros enlaces expuestos, vea "BasicHttpBindingElement miembros" en [http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773).|  
+    |Configuración de enlace|El Asistente solo admite el enlace HTTP básico. Por lo tanto, se rellena automáticamente el campo de configuración de enlace a *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Haga clic en el botón de puntos suspensivos **(...)**  para cambiar las propiedades de enlace de HTTP. Para usar un canal de comunicaciones seguro, siempre se debe establecer el **modo** propiedad **transporte**. El asistente establece el valor predeterminado para la **modo** propiedad como **transporte**.<br /><br /> Para obtener más información acerca de los otros enlaces expuestos, consulte [BasicHttpBindingElement clase](https://msdn.microsoft.com/library/system.servicemodel.configuration.basichttpbindingelement.aspx).|  
     |Nombre de extremo|Especifique un nombre de extremo para el contrato.|  
   
      Los demás campos en esta página se rellenan automáticamente en función de los valores especificados en las páginas anteriores.  
@@ -149,7 +149,7 @@ ms.lasthandoff: 09/20/2017
   
 16. Publicar el servicio WCF.  
   
-    1.  Asegúrese de que se ha habilitado SSL para Internet Information Services (IIS). Para obtener instrucciones sobre cómo habilitar SSL para IIS, consulte [http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170).  
+    1.  Asegúrese de que se ha habilitado SSL para Internet Information Services (IIS). Vea [cómo configurar SSL](https://docs.microsoft.com/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
   
     2.  Haga clic en el proyecto en el Explorador de soluciones y, a continuación, haga clic en **publicar**.  
   

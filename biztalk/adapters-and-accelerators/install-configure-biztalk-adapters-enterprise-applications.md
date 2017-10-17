@@ -11,8 +11,8 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0016d689340d5c75cdd50095779148dc9cfbceb7
-ms.sourcegitcommit: 28bf5fc184cf8cba620741421c919d52b8383997
+ms.openlocfilehash: 8fa1a09f3d9fa531cee51ecd0e94b99ab972ba13
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2017
@@ -565,7 +565,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 El **comprobación de la interfaz de componente** abre la ventana. No debería haber ninguna clave indicada. Si su GET_CI_INFO contiene claves, o si no hay otra opción de selección, vuelva al diseñador de aplicaciones y elimine todas las claves de GET_CI_INFO.  
   
-## <a name="install-the-adapters"></a>Instale los adaptadores
+## <a name="install-steps"></a>Pasos de la instalación
  Antes de instalar, puede que el servidor BizTalk Server y todos los requisitos previos de software para los adaptadores instalados. Se recomienda que cierre todas las aplicaciones antes de ejecutar el programa de instalación.  
   
 1.  Ejecutar el servidor BizTalk Server **Setup.exe**, seleccione **instalar Microsoft BizTalk Adapters**y seleccione **instalar Microsoft BizTalk Adapters para aplicaciones empresariales**.  
@@ -601,9 +601,9 @@ El **comprobación de la interfaz de componente** abre la ventana. No debería h
 >  2. Tipo: `net user "CREATOR OWNER" /add`. Esto crea un nuevo usuario llamado CREATOR OWNER.
 >  3. Tipo: `net localgroup Users /add`. Esto crea un nuevo grupo denominado usuarios.
   
-Para agregar los adaptadores de BizTalk Server, vea "Agregar la consola de administración de BizTalk de adaptadores" en este tema.
+Para agregar los adaptadores de BizTalk Server, vea "Agregar adaptadores para la administración de BizTalk" en este tema.
 
-## <a name="add-the-adapters-biztalk-admin-console"></a>Agregar la consola de administración de BizTalk de adaptadores
+## <a name="add-adapters-to-biztalk-admin"></a>Agregar adaptadores a administradores de BizTalk
   
 > [!NOTE]
 >  Si instala BizTalk en un entorno de varios equipos (instalación solo en tiempo de ejecución en un equipo y una instalación de sólo herramientas de administración en otro equipo), debe instalar a los adaptadores de BizTalk para aplicaciones empresariales en los equipos.  
@@ -616,7 +616,7 @@ Para agregar los adaptadores de BizTalk Server, vea "Agregar la consola de admin
   
 4.  Seleccione el nombre especificado de la **adaptador** lista y seleccione **Aceptar**.  
    
-## <a name="post-install-overview---jd-edwards-oneworld"></a>Información general de posterior a la instalación - JD Edwards OneWorld  
+## <a name="post-install---jd-edwards-oneworld"></a>Posterior a la instalación-JD Edwards OneWorld  
  Microsoft BizTalk Adapter para JD Edwards OneWorld está formada por un adaptador de transmisión que interactúa bases de datos admitidas y sistemas de servidor Microsoft BizTalk Server. El adaptador de transmisión permite invocar la llamada del sistema del servidor de BizTalk Server. La configuración del adaptador de transmisión (el controlador de envío de administración de BizTalk Server) especifica la ubicación de la base de datos SQL.  
   
  Consulte la documentación del adaptador para obtener información acerca de cómo usar el adaptador de BizTalk para JD Edwards OneWorld y la asignación entre su modelo y el servidor BizTalk Server.  
@@ -653,7 +653,7 @@ Para agregar los adaptadores de BizTalk Server, vea "Agregar la consola de admin
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll    
     -   jdecba.dll  
   
-## <a name="post-install-overview---jd-edwards-enterpriseone"></a>Información general de posterior a la instalación - JD Edwards EnterpriseOne  
+## <a name="post-install---jd-edwards-enterpriseone"></a>Posterior a la instalación-JD Edwards EnterpriseOne  
  El adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne contiene un adaptador de transmisión que interactúa con bases de datos admitidas y sistemas de servidor a BizTalk Server. El adaptador de transmisión permite invocar la llamada del sistema del servidor desde BizTalk Server.  
   
  El adaptador de BizTalk para JD Edwards EnterpriseOne proporciona soporte técnico para Enterprise Single Sign-On (SSO). Si selecciona usar SSO en el **propiedades de transporte** página, las credenciales para la aplicación afiliada en la base de datos de credenciales de SSO que se usan. Una aplicación afiliada representa una aplicación, es decir, un elemento back-end que requiere credenciales.  
@@ -683,7 +683,7 @@ Para agregar los adaptadores de BizTalk Server, vea "Agregar la consola de admin
     -   SDK  
   
  
-## <a name="post-install-overview---peoplesoft-enterprise"></a>Información general de posterior a la instalación - PeopleSoft Enterprise  
+## <a name="post-install---peoplesoft-enterprise"></a>Posterior a la instalación-PeopleSoft Enterprise  
  Microsoft BizTalk Adapter para PeopleSoft Enterprise contiene un adaptador de transmisión que interactúa bases de datos admitidas y sistemas de servidor a BizTalk Server. El adaptador de transmisión permite invocar la llamada del sistema del servidor desde BizTalk Server. La configuración del adaptador de transmisión (el controlador de envío de administración de BizTalk Server) especifica la ubicación de la base de datos SQL.  
   
  El adaptador de BizTalk para PeopleSoft Enterprise proporciona soporte técnico para Enterprise Single Sign-On (SSO). Si selecciona usar SSO en el **propiedades de transporte** página, las credenciales para la aplicación afiliada en la base de datos de credenciales de SSO que se usan. Una aplicación afiliada representa una aplicación, es decir, un elemento back-end que requiere credenciales.  
@@ -776,7 +776,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
  Ahora TIBCO. Rendezvous.dll muestra la lista GAC. Para ver la lista, en el Panel de Control, abra **herramientas administrativas**, abra **configuración de Microsoft .NET Framework**y, a continuación, abra **caché de ensamblados**.  
   
-## <a name="post-install-overview---tibco-enterprise-message-service"></a>Información general de posterior a la instalación - TIBCO Enterprise Message Service  
+## <a name="post-install---tibco-enterprise-message-service"></a>Posterior a la instalación-TIBCO Enterprise Message Service  
  El adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service (EMS) contiene una funcionalidad de recepción y transmisión que interactúa con bases de datos admitidas y sistemas de servidor a BizTalk Server.  
   
 -   El lado de recepción escucha llamadas salientes del sistema del servidor.  

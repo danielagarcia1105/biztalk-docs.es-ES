@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62d1ffae1318f4d04f7bd61ef27dd24fd1d5a2b7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8a7fd507b301d20d84680cb626953d21b8a6e201
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de Siebel
 Esta sección proporciona una ubicación centralizada para obtener información acerca de problemas de funcionamiento que pueden surgir al usar el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  
@@ -287,7 +287,7 @@ The current .NET type name of this root node is invalid (it is a reserved BizTal
 ###  <a name="BKMK_SiebelVS2008"></a>Advertencia de enlace no válido al utilizar el adaptador en Visual Studio  
  **Problema**  
   
- Cuando usa el adaptador para crear una aplicación en [!INCLUDE[vs2010](../../includes/vs2010-md.md)] y abra el archivo de configuración (app.config) generado por el adaptador, verá una advertencia similar al siguiente:  
+ Cuando se utiliza el adaptador para crear una aplicación en Visual Studio y abra el archivo de configuración (app.config) generado por el adaptador, verá una advertencia similar al siguiente:  
   
 ```  
 The element 'bindings' has invalid child element 'siebelBinding'. List of possible elements expected: 'basicHttpBinding, customBinding, ...  

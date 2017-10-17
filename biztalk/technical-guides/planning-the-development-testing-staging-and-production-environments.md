@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25eb6aadd41526adeecb9c5a249d38384fb532ce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e5572ab96215d07570a39f53009eae3038792db8
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="planning-the-development-testing-staging-and-production-environments"></a>Planear el desarrollo, pruebas, ensayo y entornos de producción
 Este tema describen los entornos que se utiliza en el proceso de administración de versión para una solución de BizTalk. Al igual que con cualquier solución de software empresarial, debe seguir directrices para la administración de versión de software establecido cuando se desarrollan y la versión de una solución de BizTalk. Este proceso debe incluir las siguientes fases distintas:  
@@ -32,10 +32,10 @@ Este tema describen los entornos que se utiliza en el proceso de administración
  Idealmente, debe completar cada fase en el proceso de administración de versión en un entorno discreto, independiente de los otros dos entornos. En la práctica, tendrá que combinar uno o varios de los entornos debido a hardware, el tiempo u otras restricciones de recursos. Como mínimo debe separar el entorno de producción de los otros dos entornos.  
   
 > [!NOTE]  
->  Las instrucciones de instalación y la actualización más recientes para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] están disponibles como descargas independientes en el [página de documentación de BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkID=194815) (http://go.microsoft.com/fwlink/?LinkID=194815).  
-  
+>  Las instrucciones de instalación y la actualización más recientes para BizTalk Server se enumeran en [de BizTalk Server lo que nuevo, instalación, configuración y actualización](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md). 
+>  
 ##  <a name="BKMK_VirtualServ"></a>Utilizando servidor Virtual durante el proceso de administración de versión  
- Considere la posibilidad de completar el desarrollo, la prueba unitaria y de ensayo en un entorno "virtual". Microsoft ofrece una gama de productos de virtualización como Microsoft Virtual Server 2005 R2, Windows Server 2008 Hyper-V y Microsoft Hyper-V Server 2008. [Microsoft Virtual Server 2005 R2](http://go.microsoft.com/fwlink/?LinkId=71365) (http://go.microsoft.com/fwlink/?LinkId=71365) está disponible como descarga gratuita. Realizar el trabajo de desarrollo, pruebas unitarias y almacenamiento provisional en un entorno virtual consigue una gran flexibilidad y utiliza menos recursos de hardware que lo requerido en caso contrario. Si se usa un entorno virtual, debe asignar al menos 512 MB de memoria para cada máquina virtual que se ejecuta en el equipo host y otros 512 MB de memoria para el sistema operativo host.  
+ Considere la posibilidad de completar el desarrollo, la prueba unitaria y de ensayo en un entorno "virtual". Realizar el trabajo de desarrollo, pruebas unitarias y almacenamiento provisional en un entorno virtual consigue una gran flexibilidad y utiliza menos recursos de hardware que lo requerido en caso contrario. Si se usa un entorno virtual, debe asignar al menos 512 MB de memoria para cada máquina virtual que se ejecuta en el equipo host y otros 512 MB de memoria para el sistema operativo host.  
   
  Por ejemplo, para un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno que use cinco equipos virtuales (dos equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], dos Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] nodos del clúster y un controlador de dominio), lo conveniente sería planificar 3 GB de memoria instalada en el equipo host. Si el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno requiere más de 2 GB de memoria, considere la posibilidad de instalar una versión de 64 bits de Windows en el equipo host para asegurarse de que la cantidad máxima de memoria instalada está accesible para el sistema operativo host.  
   
@@ -43,16 +43,16 @@ Este tema describen los entornos que se utiliza en el proceso de administración
 >  Para obtener recomendaciones sobre el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno virtual, vea [Guía de Hyper-V de BizTalk Server 2009](http://go.microsoft.com/fwlink/?LinkId=151834) (http://go.microsoft.com/fwlink/?LinkId=151834).  
   
 > [!NOTE]  
->  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]es totalmente compatible en un sistema operativo compatible que se ejecuta en el software de virtualización aparecen en la 842301 de artículo de Microsoft Knowledge Base [compatibilidad de Microsoft BizTalk Server en una máquina virtual](http://go.microsoft.com/fwlink/?LinkId=158861) (http:// ¿go.Microsoft.com/fwlink/? LinkId = 158861). Sin embargo, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] no funcionen según lo esperado si se instala en un sistema operativo compatible que se ejecuta en un software de virtualización distinto de los mencionados en el artículo KB.  
+>  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]es totalmente compatible en un sistema operativo compatible que se ejecuta en el software de virtualización aparecen en la 842301 de artículo de Microsoft Knowledge Base [compatibilidad de Microsoft BizTalk Server en una máquina virtual](https://support.microsoft.com/kb/842301). Sin embargo, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] no funcionen según lo esperado si se instala en un sistema operativo compatible que se ejecuta en un software de virtualización distinto de los mencionados en el artículo KB.  
   
 ## <a name="development-environment"></a>Entorno de desarrollo  
  Los proyectos de BizTalk que se usan para la solución de BizTalk se crean en el entorno de desarrollo. Debe instalar el software siguiente en los equipos utilizados en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno de desarrollo:  
   
 -   Servicios de Internet Information Server (IIS)  
   
--   [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Visual Studio  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]Herramientas de cliente  
+-   Herramientas de cliente SQL Server  
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)](incluidos los componentes siguientes)  
   
@@ -69,15 +69,15 @@ Este tema describen los entornos que se utiliza en el proceso de administración
 -   Normalmente los desarrolladores deben tener su propio equipo de desarrollo (físico o virtual) con el software necesario instalado.  
   
 > [!NOTE]  
->  Se recomienda que adquiera y usar licencias de suscripción de MSDN para entornos de no producción. Licencias de suscripción de MSDN se ofrecen con un importante descuento desde el costo de una licencia comercial para el mismo software. Para obtener más información acerca de cómo obtener una suscripción a MSDN vea [suscripciones a MSDN](http://go.microsoft.com/fwlink/?LinkID=96006) (http://go.microsoft.com/fwlink/?LinkID=96006).  
+>  Se recomienda que adquiera y usar la suscripción de Visual Studio para entornos de no producción. Suscripciones visuales Studio se ofrecen con un importante descuento desde el costo de una licencia comercial para el mismo software. Vea [suscripciones de Visual Studio](https://visualstudio.com/subscriptions).  
   
 ## <a name="testing-environment"></a>Entorno de pruebas  
  Pruebas unitarias pueden realizarse en un entorno virtual. Sin embargo, debe llevar a cabo el rendimiento de la realización de pruebas en un entorno físico con el hardware y software que es idéntico al entorno de producción.  
   
- El entorno de pruebas se usa para medir las características de rendimiento como el rendimiento máximo sostenible (MST) y el rendimiento de seguimiento sostenible máximo de la solución de BizTalk. Por lo tanto debe coincidir el entorno de producción físico lo más fielmente posible. Para obtener más información acerca de cómo medir el rendimiento se vea las características de una solución de BizTalk [las características de rendimiento del motor](http://go.microsoft.com/fwlink/?LinkId=155771) (http://go.Microsoft.com/fwlink/?) LinkId = 155771) o la [Guía de optimización de rendimiento de BizTalk Server 2009](http://go.microsoft.com/fwlink/?LinkID=150492) (http://go.Microsoft.com/fwlink/?) LinkID = 150492).  
+ El entorno de pruebas se usa para medir las características de rendimiento como el rendimiento máximo sostenible (MST) y el rendimiento de seguimiento sostenible máximo de la solución de BizTalk. Por lo tanto debe coincidir el entorno de producción físico lo más fielmente posible. Para obtener más información acerca de cómo medir el rendimiento se vea las características de una solución de BizTalk [las características de rendimiento del motor](../core/engine-performance-characteristics.md), o la [Guía de optimización de rendimiento de BizTalk Server](../technical-guides/biztalk-server-2010-performance-optimization-guide.md).
   
 ## <a name="staging-environment"></a>Entorno de ensayo  
- Normalmente se utiliza el entorno de ensayo a "prueba unitaria" la implementación real de la solución de BizTalk. El software instalado en el entorno de ensayo debe coinciden estrechamente con el software instalado en el entorno de producción. Sin embargo, podría ser aceptable utilizar equipos virtuales en el entorno de ensayo, puesto que este entorno no es debe ser usado para medir el rendimiento. Para obtener más información acerca de cómo implementar una aplicación de BizTalk en un entorno de ensayo vea [tareas de almacenamiento provisional para la implementación de aplicación de BizTalk](http://go.microsoft.com/fwlink/?LinkID=154686) (http://go.microsoft.com/fwlink/?LinkID=154686).  
+ Normalmente se utiliza el entorno de ensayo a "prueba unitaria" la implementación real de la solución de BizTalk. El software instalado en el entorno de ensayo debe coinciden estrechamente con el software instalado en el entorno de producción. Sin embargo, podría ser aceptable utilizar equipos virtuales en el entorno de ensayo, puesto que este entorno no es debe ser usado para medir el rendimiento. Para obtener más información acerca de cómo implementar una aplicación de BizTalk en un entorno de ensayo vea [tareas de almacenamiento provisional para la implementación de aplicación de BizTalk](../core/staging-tasks-for-biztalk-application-deployment.md).
   
 ## <a name="production-environment"></a>Entorno de producción  
  El entorno de producción es el entorno de "activo" que se va a hospedar la solución de BizTalk en ejecución. El entorno de producción es el extremo final en el proceso de administración de versiones y debe solo aplicaciones de BizTalk de host que hayan sido previamente desarrollo, pruebas unitarias, pruebas de carga y almacenamiento provisional en los otros entornos. Unidad exhaustiva pruebas, las pruebas de carga y almacenamiento provisional will con antelación ayudará a garantizar el máximo rendimiento y tiempo de actividad de la aplicación de BizTalk en el entorno de producción.  
@@ -89,14 +89,14 @@ Este tema describen los entornos que se utiliza en el proceso de administración
 >  Servidores virtuales pueden utilizarse en el desarrollo y en el entorno de ensayo y también pueden utilizarse para las pruebas unitarias. Todas las pruebas de rendimiento deben realizarse en el hardware físico que coincida con el hardware físico en el entorno de producción.  
   
 |Equipos que ejecutan BizTalk Server utilizará en producción (se recomienda un hardware físico)|Servidores de desarrollo (hardware físico o virtual)|Servidores de prueba (se recomienda un hardware físico)|Servidores de ensayo (hardware físico o virtual)|Nº total. de equipos que ejecutan BizTalk Server|  
-|-------------------------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------|------------------------------------------------------|---------------------------------------------------|  
+|---|---|---|---|---|  
 |1|2|1|1|5|  
 |2|2|2|1|7|  
 |3|2|3|1|9|  
 |4|2|4|1|11|  
   
 |No estimado. de equipos que ejecutan SQL Server usada en producción (se recomienda un hardware físico)|Servidores de desarrollo (hardware físico o virtual)|Servidores de prueba (se recomienda un hardware físico)|Servidores de ensayo (hardware físico o virtual)|Nº total. de equipos que ejecutan SQL Server|  
-|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------|------------------------------------------------------|-----------------------------------------------|  
+|---|---|---|---|---|  
 |1|1|1|1|4|  
 |2|1|2|1|6|  
 |3|2|3|1|9|  

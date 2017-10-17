@@ -12,18 +12,18 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0bf419a8ae3e6611f3d071cc94d274a5f2b0e00f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba2b1d6586588d17c58c0ca9a74cb11a7a9bd9f2
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="step-1-test-outbound-handler-of-the-echo-adapter"></a>Paso 1: Probar el controlador de salida del adaptador de eco
 ![Paso 1 de 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
   
  **Tiempo para completar:** 15 minutos  
   
- En este paso, probará las tres operaciones de salida proporcionadas por el adaptador de eco. Se hace esto mediante [!INCLUDE[vs2010](../../includes/vs2010-md.md)], el código personalizado y agregar adaptador de servicio de referencia de complemento de Visual Studio.  
+ En este paso, probará las tres operaciones de salida proporcionadas por el adaptador de eco. Se hace esto con Visual Studio, agregar adaptador de servicio de referencia de complemento de Visual Studio y código personalizado.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Para completar este paso, debe haber completado [Tutorial 1: desarrollar el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).  
@@ -188,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  En la EchoCustomGreetingsFromFile probar el código, asegúrese de que el saludo personalizado usa el archivo creado en un procedimiento anterior. Cambie el código para reflejar la ubicación del archivo.  
   
-8.  En [!INCLUDE[vs2010](../../includes/vs2010-md.md)], en la **archivo** menú, haga clic en **guardar todo**.  
+8.  En Visual Studio, en el **archivo** menú, haga clic en **guardar todo**.  
   
 9. Ejecute la aplicación. Debería ver un resultado similar al siguiente:  
   
