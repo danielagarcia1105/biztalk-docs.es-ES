@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cf5be42a008cadba648739037797160386a42fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8a5866344e666c9e9cb49af6c6d99211774a2758
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="use-the-oracle-database-adapter-with-sharepoint"></a>Utilizar el adaptador de base de datos de Oracle con SharePoint
 El Asistente de desarrollo del servicio de adaptador de WCF para [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)] habilita el adaptador de Microsoft BizTalk para que base de datos de Oracle y Microsoft BizTalk Adapter para Oracle E-Business Suite a ser consumidos directamente como un origen de datos externo de Microsoft SharePoint. El Asistente para agregar un desarrollo de servicio que admita esta característica se inicia con la **servicio de adaptador de WCF** plantilla para crear un nuevo Visual C# sitios Web en [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]. La plantilla se incluye con la [!INCLUDE[adapterpacknoversion_md](../../includes/adapterpacknoversion-md.md)]. También debe instalar el SDK de adaptador de línea de negocio (LOB) de Microsoft Windows Communication Foundation (WCF).  
@@ -39,8 +39,8 @@ El Asistente de desarrollo del servicio de adaptador de WCF para [!INCLUDE[btsVS
  El siguiente contrato de servicio se ha generado mediante el adaptador de Microsoft BizTalk para base de datos de Oracle como un ejemplo. El adaptador está configurado para proporcionar acceso a la tabla EMP  
   
 ```  
-[System.ServiceModel.ServiceContractAttribute()]  
-public interface ISCOTT_EMP {  
+    [System.ServiceModel.ServiceContractAttribute()]  
+    public interface ISCOTT_EMP {  
   
     [System.ServiceModel.OperationContractAttribute()]  
     SCOTT_EMP_Record[] ReadList(System.Nullable<int> Limit);  
@@ -62,7 +62,7 @@ public interface ISCOTT_EMP {
 }  
 ```  
   
-## <a name="creating-a-new-web-site-to-host-the-microsoft-biztalk-adapter-for-oracle-database-in-iis"></a>Crear un nuevo sitio Web para hospedar el adaptador de Microsoft BizTalk para la base de datos de Oracle en IIS  
+## <a name="create-a-new-web-site-to-host-the-oracle-database-in-iis"></a>Crear un nuevo sitio Web para hospedar la base de datos de Oracle en IIS  
  Estos pasos proporcionan un ejemplo de cómo utilizar al Asistente de desarrollo de servicio del adaptador de WCF, para crear un nuevo servicio web WCF aloja el adaptador de Microsoft BizTalk para base de datos de Oracle. El contrato de servicios incluye operaciones directamente compatibles con Sharepoint. Por lo que se puede consumir directamente como un origen de datos externo. El adaptador se configura para autenticar con la base de datos de Oracle mediante la **SCOTT** cuenta. Si el **SCOTT** cuenta está bloqueada, no se puede desbloquear la cuenta iniciando sesión en SQL Plus como SYSDBA.  
   
 ```  
@@ -75,11 +75,11 @@ public interface ISCOTT_EMP {
 SQL> ALTER USER scott ACCOUNT UNLOCK;  
 ```  
   
-#### <a name="creating-the-new-web-site-project"></a>Crear el nuevo proyecto de sitio Web  
+#### <a name="create-the-new-web-site-project"></a>Crear el nuevo proyecto de sitio Web  
   
-1.  Iniciar **Microsoft [!INCLUDE[vs2012](../../includes/vs2012-md.md)]** .  
+1.  Abra Visual Studio.   
   
-2.  En [!INCLUDE[vs2010](../../includes/vs2010-md.md)], en la **archivo** menú, seleccione **New** y, a continuación, haga clic en **proyecto**.  
+2.  En Visual Studio, en el **archivo** menú, seleccione **New** y, a continuación, haga clic en **proyecto**.  
   
 3.  En el **nuevo proyecto** cuadro de diálogo, expanda **otros lenguajes** y haga clic en **Visual C#**. Buscar el **servicio de adaptador de WCF** en la plantilla de lista y haga clic en ella para seleccionarla.  
   
@@ -120,10 +120,10 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 20. Haga clic en el **generar** opción de menú y, a continuación, haga clic en **generar solución**. Comprobar que la compilación del proyecto se realizó correctamente sin errores.  
   
-## <a name="publishing-the-new-service-to-iis"></a>Publica el nuevo servicio en IIS  
+## <a name="publish-the-new-service-to-iis"></a>Publicar el nuevo servicio en IIS  
  En este ejemplo publicará el servicio de adaptador de host en el servidor web IIS local.  
   
-1.  En el Explorador de soluciones para [!INCLUDE[vs2010](../../includes/vs2010-md.md)], haga clic con el **ScottEmp** del proyecto y haga clic en **propiedades**. Se muestran las fichas del Diseñador de proyectos.  
+1.  En el Explorador de soluciones de Visual Studio, haga clic con el **ScottEmp** del proyecto y haga clic en **propiedades**. Se muestran las fichas del Diseñador de proyectos.  
   
 2.  Haga clic en el **Web** ficha, a continuación, haga clic en el **servidor Web de IIS Local utilice** opción.  
   
@@ -131,10 +131,9 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 4.  Abra un explorador web a la dirección de servicio **http://localhost/ScottEmp/ISCOTT_EMP.svc**. Debería recibir un mensaje que indica "Se ha creado un servicio" que indica el adaptador está alojado en IIS.  
   
-## <a name="adding-the-external-data-source-to-a-sharepoint-site-using-sharepoint-designer"></a>Agregar el origen de datos externo en un sitio de SharePoint con SharePoint Designer  
+## <a name="add-the-external-data-source-to-a-sharepoint-site-using-sharepoint-designer"></a>Agregar el origen de datos externo a un sitio de SharePoint con SharePoint Designer  
  En esta sección se describe cómo agregar el servicio de WCF como origen de datos externo a un nuevo sitio Web con SharePoint Designer.  
   
-#### <a name="adding-the-external-data-source"></a>Agregar el origen de datos externos  
   
 1.  Abra SharePoint Designer y cree un nuevo sitio Web.  
   
@@ -166,7 +165,7 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 15. Guarde el nuevo origen de datos externo escribiendo **Ctrl + s**.  
   
-#### <a name="testing-the-external-data-source-connection"></a>Probar la conexión de origen de datos externos  
+#### <a name="test-the-external-data-source-connection"></a>Probar la conexión de origen de datos externos  
   
 1.  En el nuevo sitio web, haga clic en el **crear listas y formularios** botón. Aparece la lista crear y el formulario de cuadro de diálogo OracleEMP.  
   
@@ -178,6 +177,6 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 5.  Haga clic en el **vista previa en el explorador** botón en el menú para probar la operación ReadList del adaptador.  
   
-## <a name="troubleshooting"></a>Solucionar problemas  
+## <a name="troubleshoot"></a>Solucionar problemas
   
--   En equipos de 64 bits debe asegurarse de que también se instalan los componentes de cliente de Oracle de 32 bits. Esto es porque [!INCLUDE[vs2010](../../includes/vs2010-md.md)] y asistentes del que se ejecutará como un proceso de 32 bits que requieren acceso a componentes de 32 bits durante el desarrollo.
+-   En equipos de 64 bits debe asegurarse de que también se instalan los componentes de cliente de Oracle de 32 bits. Esto es porque se ejecutará como un proceso de 32 bits que requieren acceso a componentes de 32 bits durante el desarrollo de Visual Studio y sus asistentes.
