@@ -100,7 +100,7 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
         >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://\<*servername*>/\<*Nombre_proyecto*> **.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost: 8080 /\<*Nombre_proyecto*>.  
+        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost:8080/\<*Nombre_proyecto*>.  
   
         > [!NOTE]
         >  Al usar el asistente para crear ubicaciones de recepción, éstas se crean mediante muchos valores predeterminados. Los valores predeterminados para las canalizaciones de envío y recepción son **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** y **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**. Si los mensajes recibidos a través del servicio Web publicado requieren algún procesamiento de canalización especial (por ejemplo, validación, correlación o asignaciones de entrada/salida), debe establecer el envío y recepción de canalizaciones para  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, **Microsoft.BizTalk.DefaultPipelines.XMLSend**, o en una canalización personalizada.  

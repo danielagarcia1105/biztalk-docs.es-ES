@@ -93,15 +93,15 @@ Puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)
   
  Este ejemplo crea una clase de cliente WCF para una operación de inserción en la tabla /SCOTT/EMP.  
   
- **. \svcutil "oracledb://User=SCOTT; Contraseña =TIGER@ADAPTER? wsdl & op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert "**  
+ **.\svcutil "oracledb://User=SCOTT;Contraseña=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"**  
   
  En este ejemplo se crea una clase de cliente WCF para la inserción y las operaciones de eliminación en la tabla /SCOTT/EMP.  
   
- **. \svcutil "oracledb://User=SCOTT; Contraseña =TIGER@ADAPTER? wsdl & op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert & op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete "**  
+ **.\svcutil "oracledb://User=SCOTT;Contraseña=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"**  
   
  Este ejemplo crea un contrato de servicio WCF para la operación de POLLLINGSTMT. (Para utilizar svcutil.exe para generar un contrato de servicio WCF para la operación de POLLINGSTMT, debe configurar un enlace no predeterminado para svcutil.exe que incluye una instrucción de sondeo.)  
   
- **. \svcutil "oracledb://User=SCOTT; Contraseña =TIGER@ADAPTER? wsdl & op = http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT "**  
+ **.\svcutil "oracledb://User=SCOTT;Contraseña=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT"**  
   
 > [!IMPORTANT]
 >  Debe colocar el URI de conexión entre comillas en la línea de comandos. En caso contrario, svcutil.exe intenta recuperar metadatos para las operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no admite. Los resultados de un intento de este tipo son indefinidos.  

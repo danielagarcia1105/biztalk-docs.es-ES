@@ -66,7 +66,7 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
      \\\TransportType=;  
   
-     TransportLocation = /*[local-name () = 'OrderDoc' y el espacio = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name () = 'ID' y el espacio = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     TransportLocation=/*[local-name()='OrderDoc' y el espacio='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' y el espacio='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
      Acción =;  
   
@@ -76,7 +76,7 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
      MessageExchangePattern =;  
   
-     TargetNamespace = /*[local-name () = 'OrderDoc' y el espacio = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name () = 'customerName' y namespace-uri () ='http: / / globalbank.ESB.dynamicresolution.com/northamericanservices/'];  
+     TargetNamespace=/*[local-name()='OrderDoc' y el espacio='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName'y namespace-uri()='http://globalbank.ESB.dynamicresolution.com/northamericanservices/'];  
   
      TransformType =;  
   
