@@ -69,16 +69,16 @@ Stored Procedure Overload 2:
   
 |de mensaje|Acción|Ejemplo|  
 |-------------|------------|-------------|  
-|Solicitud de procedimiento almacenado|/Procedure/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [SP_NAME]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT|  
-|Respuesta de procedimiento almacenado|/Procedure/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [SP_NAME] / respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/Response|  
-|Solicitud de una función|/Function/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [fn_name especial]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Function/FN_GETID|  
-|Respuesta de la función|/Function/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [fn_name especial] / respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Function/FN_GETID/Response|  
-|Solicitud de procedimiento almacenado empaquetadas|/Package/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [nombreDePaquete] / [SP_NAME]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/SP_INSERT|  
-|Empaquetar la respuesta de procedimiento almacenado|/Package/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [nombreDePaquete] / [SP_NAME] / respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/SP_INSERT/Response|  
-|Solicitud de una función empaquetada|/Package/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [nombreDePaquete] / [fn_name especial]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/FN_GETID|  
-|Respuesta de la función empaquetada|/Package/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [nombreDePaquete] / [fn_name especial] / respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/FN_GETID/Response|  
-|Solicitud de procedimiento almacenado sobrecargado|/Procedure/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [SP_NAME] / [sobrecarga]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/overload1|  
-|Sobrecargar la respuesta de procedimiento almacenado|/Procedure/ http://Microsoft.LobServices.oracledb/2007/03/ [esquema] [SP_NAME] / [sobrecarga] / respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/overload1/Response|  
+|Solicitud de procedimiento almacenado|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Procedure/[SP_NAME]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT|  
+|Respuesta de procedimiento almacenado|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Procedure/[SP_NAME]/respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/Response|  
+|Solicitud de una función|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Function/[fn_nameespecial]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Function/FN_GETID|  
+|Respuesta de la función|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Function/[fn_nameespecial]/respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Function/FN_GETID/Response|  
+|Solicitud de procedimiento almacenado empaquetadas|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Package/[nombreDePaquete]/[SP_NAME]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/SP_INSERT|  
+|Empaquetar la respuesta de procedimiento almacenado|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Package/[nombreDePaquete]/[SP_NAME]/respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/SP_INSERT/Response|  
+|Solicitud de una función empaquetada|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Package/[nombreDePaquete]/[fn_nameespecial]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/FN_GETID|  
+|Respuesta de la función empaquetada|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Package/[nombreDePaquete]/[fn_nameespecial]/respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Package/Customer/FN_GETID/Response|  
+|Solicitud de procedimiento almacenado sobrecargado|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Procedure/[SP_NAME]/[sobrecarga]|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/overload1|  
+|Sobrecargar la respuesta de procedimiento almacenado|http://Microsoft.LobServices.oracledb/2007/03/[esquema]/Procedure/[SP_NAME]/[sobrecarga]/respuesta|http://Microsoft.LobServices.oracledb/2007/03/Scott/Procedure/SP_INSERT/overload1/Response|  
   
  [Esquema] = artefactos de la colección de Oracle; Por ejemplo, SCOTT.  
   
