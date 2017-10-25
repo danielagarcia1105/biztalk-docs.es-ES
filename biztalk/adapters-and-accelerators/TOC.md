@@ -17,3 +17,4 @@
 ## [HL7](accelerator-hl7\TOC.md)
 ## [Rosettanet](accelerator-rosettanet\TOC.md)
 ## [SWIFT](accelerator-swift\TOC.md)
+## [Instalación de adaptadores empresariales](install-configure-biztalk-adapters-enterprise-applications.md)
