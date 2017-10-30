@@ -41,7 +41,7 @@ Algunos artefactos de BizTalk, como las asignaciones, se eligen por nombre segur
   
     3.  En el panel derecho, haga clic en **información de ensamblado**.  
   
-    4.  En el **información de ensamblado** diálogo cuadro, especifique valores para la **versión del ensamblado** campo para cambiar el número de versión de ensamblado. Debe cambiar solo el número de versión principal o secundaria. El número de versión principal es el primer dígito en la secuencia (***n***. 0.0.0); el número de versión secundaria es el segundo dígito en la secuencia (0.*** n ***. 0.0).  
+    4.  En el **información de ensamblado** diálogo cuadro, especifique valores para la **versión del ensamblado** campo para cambiar el número de versión de ensamblado. Debe cambiar solo el número de versión principal o secundaria. El número de versión principal es el primer dígito en la secuencia (***n***. 0.0.0); el número de versión secundaria es el segundo dígito en la secuencia (0. ***n*** . 0.0).  
   
     5.  Haga clic en **Aceptar** para cerrar el **información de ensamblado** cuadro de diálogo.  
   

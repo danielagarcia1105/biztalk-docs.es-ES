@@ -35,7 +35,7 @@ Cambiar, reparar o desinstalar el [!INCLUDE[btaBTAHL7NoNumber](../../includes/bt
 > [!NOTE]
 >  Al modificar la instalación de [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], el Tutorial to-End no se ejecuta automáticamente. 
 > 
-> Para ejecutar el tutorial y verificar que la instalación modificada se ha ejecutado correctamente, ejecute el tutorial manualmente desde el *** \<unidad >*** **\Program BizTalk \<versión > Acelerador para HL7\SDK\End-to-End Tutorial** carpeta.
+> Para ejecutar el tutorial y verificar que la instalación modificada se ha ejecutado correctamente, ejecute el tutorial manualmente desde el  ***\<unidad >*** **\Program BizTalk \<versión > Acelerador para HL7\SDK\End-to-End Tutorial** carpeta.
   
 1. Ejecute el [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] **setup.exe** como administrador 
   

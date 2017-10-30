@@ -37,7 +37,7 @@ En este tema se describe cómo actualizar la versión de un ensamblado y la apli
   
 3.  En el panel derecho, haga clic en **información de ensamblado**.  
   
-4.  En el **información de ensamblado** diálogo cuadro, especifique valores para la **versión del ensamblado** campo para aumentar el número de versión de ensamblado. Incremente únicamente el número principal o secundario de la versión. El número de versión principal es el primer dígito en la secuencia (***n***. 0.0.0); el número de versión secundaria es el segundo dígito en la secuencia (0.*** n ***. 0.0). BizTalk Server no reconocerá un cambio de número de versión que está más adelante en la secuencia, como 0,0. *** n ***.0 ó 0.0.0.*** n***.  
+4.  En el **información de ensamblado** diálogo cuadro, especifique valores para la **versión del ensamblado** campo para aumentar el número de versión de ensamblado. Incremente únicamente el número principal o secundario de la versión. El número de versión principal es el primer dígito en la secuencia (***n***. 0.0.0); el número de versión secundaria es el segundo dígito en la secuencia (0. ***n*** . 0.0). BizTalk Server no reconocerá un cambio de número de versión que está más adelante en la secuencia, como 0,0.  ***n*** .0 ó 0.0.0. ***n***.  
   
 5.  Haga clic en **Aceptar** para cerrar el **información de ensamblado** cuadro de diálogo.  
   
