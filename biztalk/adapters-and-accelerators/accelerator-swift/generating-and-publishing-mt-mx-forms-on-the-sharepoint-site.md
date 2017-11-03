@@ -64,7 +64,7 @@ ms.lasthandoff: 09/20/2017
   
     -   Si va a generar los formularios de InfoPath de MT, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
   
-    -   Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName >**  
+    -   Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName>**  
   
          Esto le ayudará a identificar la instancia de mensaje con la plantilla correspondiente.  
   

@@ -142,7 +142,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 8.  Revise los mensajes de estado correspondientes a la configuración de IIS, SSO y BizTalk que se está realizando. Puede encontrar el código que se ejecuta durante esta fase en la **IisConfigurator**, **SsoConfigurator**, y **BtsConfigurator** clases definidas en el archivo SsoSample.cs. Una vez finalizada la configuración, haga clic en **siguiente**.  
   
-9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\< mensaje / >) y, a continuación, haga clic en **finalizar**.  
+9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<mensaje/>) y, a continuación, haga clic en **finalizar**.  
   
      Se abrirá una instancia de Internet Explorer, y pronto aparecerán los datos del empleado de ejemplo que ha agregado a la tabla Empelado de la base de datos Northwinds de SQL.  
   
@@ -171,7 +171,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 -   En Internet Explorer, desplácese directamente a la siguiente URL:  
   
-     http://localhost/SsoSampleBizTalkHttpReceive/BTSHTTPReceive.dll? \<mensaje / >  
+     http://localhost/SsoSampleBizTalkHttpReceive/BTSHTTPReceive.dll?\<mensaje/>  
   
 -   Ejecute de nuevo la aplicación del asistente, pero borre todas las casillas de verificación de configuración de la primera página.  
   
