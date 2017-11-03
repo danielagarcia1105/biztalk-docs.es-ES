@@ -35,7 +35,7 @@ En este tema se proporciona información acerca de los problemas conocidos relac
  El esquema puede contener un bucle infinito cuando contiene una referencia circular en un nodo con un **Min Occurs** valor de propiedad mayor que o igual a uno, lo que impediría una condición de finalización. La generación de mensajes de instancia se finalizará de forma artificial para que la operación de generación pueda finalizar. No obstante, el mensaje de instancia generado no se ajustará al esquema desde el que se generó. Dichos esquemas son normalmente sospechosos.  
   
 ## <a name="validation-of-xml-instance-fails-for-document-schema-which-has-the-target-namespacehttpwwww3orgxml1998namespace"></a>Se produce un error en Validación de instancia XML para el esquema del documento que tiene el espacio de nombres de destino = "http://www.w3.org/XML/1998/namespace"  
- "HYPERLINK"http://www.w3.org/XML/1998/namespace"http://www.w3.org/XML/1998/namespace" es un espacio de nombres reservado cuyo prefijo debería ser "XML". Puede modificar manualmente el prefijo a “XML”.
+ "HYPERLINK"http://www.w3.org/XML/1998/namespace" http://www.w3.org/XML/1998/namespace"  es un espacio de nombres reservado cuyo prefijo debería ser "XML". Puede modificar manualmente el prefijo a “XML”.
 
 ## <a name="see-also"></a>Vea también
 Para obtener más información acerca de estas propiedades [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
