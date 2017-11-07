@@ -23,11 +23,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 217a1d79dc4079c8f092985e00a1cd5636788e7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da4b117ca2d032ef1dc10731128acca903a51790
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-send-and-receive-ports"></a>Creación de envío y puertos de recepción
 Use los procedimientos siguientes para crear puertos de envío y recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para el adaptador de BizTalk para JD Edwards OneWorld.  
@@ -91,6 +91,6 @@ Use los procedimientos siguientes para crear puertos de envío y recepción de [
 7.  Para el **canalización de recepción**, seleccione **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)   
- [Cómo establecer las propiedades de transporte de OneWorld JD Edwards](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
- [Mediante el inicio de sesión único](../core/using-single-sign-on3.md)
+ [Agregar los artefactos a la administración de BizTalk](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [Agregar los artefactos a la administración de BizTalk](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [Seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

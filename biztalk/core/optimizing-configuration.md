@@ -1,29 +1,14 @@
 ---
-title: "Optimizar configuración | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Max Concurrent Calls parameter
-- optimizing, configuration
-- configuring, optimizing
-- messages, overload protection
-ms.assetid: df0ae17b-fcfa-4e00-893c-63f4972d3822
-caps.latest.revision: "10"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 72b185d7738ac48d9a1dc3631c7c9faec9ac4b60
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2b0a1aa81971e3e086881e23bcfd6d7ba5d5799d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="optimizing-configuration"></a>Optimizar configuración
+# <a name="optimize-configuration"></a>Optimizar configuración
 Esta sección contiene información acerca de cómo optimizar la configuración del adaptador de BizTalk para PeopleSoft Enterprise e incluye una descripción de los parámetros necesarios para configurar el adaptador.  
   
 ## <a name="message-overload-protection"></a>Protección ante sobrecarga de mensajes  
@@ -31,7 +16,7 @@ Esta sección contiene información acerca de cómo optimizar la configuración 
   
  Cuando el servidor BizTalk Server envía mensajes al adaptador de transmisión, recibe, en primer lugar, un lote del adaptador y, seguidamente, invoca `TransmitMessage()` en el lote para transmitir los distintos mensajes. A continuación, el servidor BizTalk Server invoca `Done()` en el lote, y el adaptador comienza a transmitir los mensajes al servidor. Si el servidor obtiene varios lotes antes de que se invoque `Done`, puede que el comando `Done` nunca se produzca. El establecimiento del número máximo de mensajes que se van a incluir en un lote le permite controlar los mensajes que se van a transmitir al servidor. Este parámetro se aplica transcurrido un minuto. BizTalk Server debe recuperar los cambios de la configuración del adaptador que se haya guardado en la base de datos de SQL.  
   
-#### <a name="to-change-the-max-concurrent-calls-parameter"></a>Procedimiento para cambiar el parámetro Número máximo de llamadas concurrentes  
+## <a name="change-the-max-concurrent-calls-parameter"></a>Cambie el parámetro de número máximo de llamadas simultáneas  
   
 1.  En el **propiedades de transporte de puerto de envío** diálogo cuadro, escriba un **conexión** valor.  
   
@@ -54,7 +39,7 @@ Esta sección contiene información acerca de cómo optimizar la configuración 
 4.  Seleccione **Sí** para **usar SSO** usar Single Sign-On.  
   
     > [!NOTE]
-    >  Para obtener más información, consulte [utilizando Single Sign-On](../core/using-single-sign-on2.md).  
+    >  Para obtener más información, consulte [proteger el adaptador](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md). 
   
 5.  Seleccione una aplicación afiliada en la lista.  
   
@@ -68,4 +53,4 @@ Esta sección contiene información acerca de cómo optimizar la configuración 
      Se deben establecer los parámetros de conexión para el adaptador de BizTalk para PeopleSoft Enterprise para tener acceso a PeopleSoft.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de PeopleSoft](../core/creating-peoplesoft-send-handlers.md)
+ [Creación de controladores de envío de PeopleSoft](../core/creating-peoplesoft-send-handlers.md)

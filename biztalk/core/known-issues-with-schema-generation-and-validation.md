@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b830e955b54ae8e3ba7fc05f21f22acd97f290a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a462ab04aad857bf87b189cafce14bb9c3747e8
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="known-issues-with-schema-generation-and-validation"></a>Problemas conocidos con la generación de esquemas y validación
 En este tema se proporciona información acerca de los problemas conocidos relacionados con la generación y validación de esquemas.  
@@ -35,7 +35,7 @@ En este tema se proporciona información acerca de los problemas conocidos relac
  El esquema puede contener un bucle infinito cuando contiene una referencia circular en un nodo con un **Min Occurs** valor de propiedad mayor que o igual a uno, lo que impediría una condición de finalización. La generación de mensajes de instancia se finalizará de forma artificial para que la operación de generación pueda finalizar. No obstante, el mensaje de instancia generado no se ajustará al esquema desde el que se generó. Dichos esquemas son normalmente sospechosos.  
   
 ## <a name="validation-of-xml-instance-fails-for-document-schema-which-has-the-target-namespacehttpwwww3orgxml1998namespace"></a>Se produce un error en Validación de instancia XML para el esquema del documento que tiene el espacio de nombres de destino = "http://www.w3.org/XML/1998/namespace"  
- "HYPERLINK"http://www.w3.org/XML/1998/namespace" http://www.w3.org/XML/1998/namespace"  es un espacio de nombres reservado cuyo prefijo debería ser "XML". Puede modificar manualmente el prefijo a “XML”.
+ El hipervínculo "http://www.w3.org/XML/1998/namespace" es un espacio de nombres reservado cuyo prefijo debería ser "XML". Puede modificar manualmente el prefijo a “XML”.
 
 ## <a name="see-also"></a>Vea también
 Para obtener más información acerca de estas propiedades [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].

@@ -1,5 +1,6 @@
 ---
-title: 'Tutorial: Usar el adaptador de BizTalk para TIBCO Rendezvous para enviar datos | Documentos de Microsoft'
+title: 'Tutorial: Usar el adaptador de TIBCO Rendezvous para enviar | Documentos de Microsoft'
+description: "Guía paso a paso para usar el adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server para enviar datos al sistema TIBCO"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63540402ca8e060d26c8398af010a81eaad0a6fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a08987e92465358276df7936f39cfa7c449c0503
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-rendezvous-to-send-data"></a>Tutorial: Uso del adaptador de BizTalk para TIBCO Rendezvous para enviar datos
 Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema TIBCO. En este tutorial se describe un ejemplo de SDK que ilustra este proceso.  
@@ -27,43 +28,34 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 -   En el ejemplo se utiliza una DLL que contiene las propiedades del contexto del mensaje: Microsoft.BizTalk.Adapters.TibRV.Properties.dll. Puede necesitar actualizar la referencia de la solución a esta biblioteca. Para obtener más información, consulte [propiedades de contexto de mensaje de BizTalk Server (controladores de envío)](../core/biztalk-server-message-context-properties-send-handlers.md).  
   
-## <a name="what-this-sample-does"></a>Descripción del ejemplo  
- Este ejemplo toma un archivo XML de una carpeta de archivos, envía el archivo a una orquestación y, luego, usa BizTalk Adapter para TIBCO Rendezvous para crear un registro en el sistema TIBCO.  
+## <a name="about-the-sample"></a>Acerca del ejemplo 
+
+- Este ejemplo toma un archivo XML de una carpeta de archivos, envía el archivo a una orquestación y, luego, usa BizTalk Adapter para TIBCO Rendezvous para crear un registro en el sistema TIBCO.  
   
-## <a name="how-this-sample-is-designed-and-why"></a>Cómo se ha diseñado este ejemplo y por qué  
- Este ejemplo, diseñado en [!INCLUDE[vs2010](../includes/vs2010-md.md)], ilustra la funcionalidad básica del uso de BizTalk Adapter para TIBCO Rendezvous con una orquestación de BizTalk.  
+- Este ejemplo, diseñado en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], ilustra la funcionalidad básica del uso de BizTalk Adapter para TIBCO Rendezvous con una orquestación de BizTalk.  
   
-## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- La ubicación predeterminada para el ejemplo es  
+- La ubicación predeterminada para el ejemplo es `C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r)\Sdk\OneWaySend`e incluye los siguientes archivos: 
+    
+    |**Nombre de archivo de proyecto en tiempo de ejecución**|**Descripción del archivo del proyecto en tiempo de ejecución**|  
+    |---|---|  
+    |OneWaySend.btproj<br /><br /> OneWaySend.sln|Archivos de proyectos y soluciones para la aplicación.|  
+    |Schema.xsd<br /><br /> PropertySchema.xsd|Esquema y archivos de esquema de propiedades para la aplicación.|  
+    |Orchestration.odx|La orquestación usada por la aplicación.|  
+    |TIBCORendezvousOneWaySend.snk|Archivo de clave de nombre seguro.|  
   
- C:\Archivos de programa\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r)\Sdk\OneWaySend  
+## <a name="step-1-add-the-adapter-to-biztalk-administration"></a>Paso 1: Agregar el adaptador de administración de BizTalk
   
- En la tabla siguiente se enumeran y describen los archivos del ejemplo.  
-  
-|**Nombre de archivo de proyecto en tiempo de ejecución**|**Descripción del archivo del proyecto en tiempo de ejecución**|  
-|----------------------------------|------------------------------------------|  
-|OneWaySend.btproj<br /><br /> OneWaySend.sln|Archivos de proyectos y soluciones para la aplicación.|  
-|Schema.xsd<br /><br /> PropertySchema.xsd|Esquema y archivos de esquema de propiedades para la aplicación.|  
-|Orchestration.odx|La orquestación usada por la aplicación.|  
-|TIBCORendezvousOneWaySend.snk|Archivo de clave de nombre seguro.|  
-  
-## <a name="how-to-use-this-sample"></a>Uso del ejemplo  
-  
-#### <a name="create-a-new-instance-of-the-biztalk-adapter-for-tibco-rendezvous"></a>Crear una nueva instancia del Adaptador de BizTalk para TIBCO Rendezvous  
-  
-1.  Inicie la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Haga clic en **iniciar**, **programas**, **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], **administración de BizTalk Server**.  
-  
-2.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, haga clic en  **Adaptadores**.  
+1.  En **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, haga clic en **adaptadores**.  
   
 3.  Haga clic en **adaptadores** y seleccione **New**, **adaptador...** para mostrar la **propiedades del adaptador** cuadro de diálogo.  
   
-4.  Escriba un valor para el **nombre** campo, por ejemplo **TIBCO Rendezvous**.  
+4.  Escriba un valor para el **nombre** campo. Por ejemplo, escriba **TIBCO Rendezvous**.  
   
 5.  Seleccione **TIBCO Rendezvous(r)** en la lista de adaptadores disponibles en la **adaptador** lista desplegable y haga clic en **Aceptar**.  
   
-#### <a name="create-a-biztalk-send-port"></a>Crear un puerto de envío de BizTalk  
+## <a name="step-2-create-a-send-port"></a>Paso 2: Crear un puerto de envío  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **puertos de envío**.  
+1.  En **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **Puertos de envío**.  
   
 2.  Haga clic en **puertos de envío** y seleccione **New**, **puerto de envío unidireccional estático...** para mostrar la **propiedades de puerto de envío** cuadro de diálogo.  
   
@@ -96,7 +88,7 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
     |Red|Parámetro de red del transporte de Rendezvous.|  
     |ssNoVersion|Parámetro de servicio del transporte de Rendezvous.|  
   
-     Para obtener más información acerca de las propiedades, vea [cómo establecer propiedades de transporte de TIBCO Rendezvous](../core/how-to-set-tibco-rendezvous-transport-properties.md).  
+     Para obtener más información acerca de las propiedades, vea [crear los artefactos de envío](../core/creating-tibco-rendezvous-send-handlers.md).  
   
 8.  Haga clic en **Aceptar**.  
   
@@ -104,15 +96,15 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 10. Haga clic en el puerto de envío y haga clic en **iniciar** para dar de alta e iniciar el puerto de envío.  
   
-#### <a name="create-a-file-receive-port"></a>Crear un puerto de recepción de archivos  
+## <a name="step-3-create-a-receive-port"></a>Paso 3: Crear un puerto de recepción  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **puertos de recepción**.  
+1.  En **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **Puertos de recepción**.  
   
 2.  Haga clic en la carpeta puertos de recepción y, a continuación, haga clic en **New**, **puerto de recepción unidireccional...**  para mostrar el cuadro de diálogo Propiedades de puerto de recepción.  
   
 3.  Escriba un valor para el **nombre** campo, por ejemplo **TIBCORndOneWayFileRP**y haga clic en **Aceptar**.  
   
-#### <a name="create-a-file-receive-location"></a>Crear una ubicación de recepción de archivos  
+## <a name="step-4-create-a-receive-location"></a>Paso 4: Crear una ubicación de recepción  
   
 1.  Cree una carpeta para la ubicación de recepción de archivos que se debe supervisar, por ejemplo, C:\Filesource.  
   
@@ -128,9 +120,9 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 7.  Haga clic en la ubicación de recepción y haga clic en **habilitar**.  
   
-#### <a name="generate-a-document-instance-from-the-schema"></a>Generar una instancia de documento a partir del esquema  
+## <a name="step-5-generate-a-document-instance-from-the-schema"></a>Paso 5: Generar una instancia de documento del esquema  
   
-1.  Haga clic en Schema.xsd en el Explorador de soluciones y haga clic en **propiedades**.  
+1.  En Visual Studio, haga clic con el Schema.xsd en el Explorador de soluciones y haga clic en **propiedades**.  
   
 2.  En la ventana Propiedades, haga clic en el **nombre de archivo de instancia de salida** opción bajo el **General** sección.  
   
@@ -143,9 +135,9 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 5.  Haga clic en Schema.xsd en el Explorador de soluciones y haga clic en **generar instancia** para generar una instancia de documento en la ubicación especificada.  
   
-#### <a name="modify-the-generated-document-instance"></a>Modificar la instancia de documento generada  
+## <a name="step-6-update-the-generated-document-instance"></a>Paso 6: Actualizar la instancia de documento generada  
   
-1.  Abra la instancia de documento generada en un editor de texto, tal como el Bloc de notas, y edite el contenido de la instancia de documento para garantizar que los datos van a generar un registro único en el sistema TIBCO. Por ejemplo, el código siguiente muestra la primera parte del archivo de datos:  
+1.  Abra la instancia de documento generada en un editor de texto (funciona el Bloc de notas) y edite el contenido de la instancia de documento para asegurarse de que los datos generarán un registro único en el sistema TIBCO. Por ejemplo, el código siguiente muestra la primera parte del archivo de datos:  
   
     ```  
     <ns0:Root xmlns:ns0="http://TibcoRendezvousOneWaySend.TibcoRendezvousOneWaySendSchema">  
@@ -156,7 +148,7 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 2.  Guarde la instancia de documento modificada.  
   
-#### <a name="build-and-deploy-the-project"></a>Generar e implementar el proyecto  
+## <a name="step-7-build-and-deploy-the-project"></a>Paso 7: Crear e implementar el proyecto  
   
 1.  Haga clic en el **OneWaySend** del proyecto en el Explorador de soluciones y haga clic en **propiedades** para iniciar el Diseñador de proyectos para el proyecto.  
   
@@ -166,9 +158,9 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 4.  Haga clic en el proyecto OneWaySend en el Explorador de soluciones y haga clic en **implementar** para crear el proyecto e implementar el ensamblado en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] base de datos de configuración.  
   
-#### <a name="bind-and-enlist-the-orchestration"></a>Enlazar y dar de alta la orquestación  
+## <a name="step-8-bind-enlist-and-start-the-orchestration"></a>Paso 8: Enlazar, dar de alta e iniciar la orquestación  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **orquestaciones**.  
+1.  En **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **aplicaciones**, expanda **BizTalk Application 1**y haga clic en **Orquestaciones**.  
   
 2.  Haga clic en el **actualizar** botón en la barra de herramientas MMC o presione la **F5** clave de su teclado para actualizar la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] vista de la consola de administración.  
   
@@ -186,19 +178,16 @@ Puede usar BizTalk Adapter para TIBCO Rendezvous para enviar datos a un sistema 
   
 6.  Haga clic en Aceptar.  
   
-#### <a name="start-the-orchestration"></a>Iniciar la orquestación  
+7. Haga clic en la orquestación y haga clic en **iniciar** dar de alta e iniciar la orquestación.  
   
--   En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic en la orquestación y haga clic en **iniciar** dar de alta e iniciar la orquestación.  
-  
-#### <a name="drop-a-document-instance-into-the-folder-monitored-by-the-file-receive-location"></a>Soltar una instancia de documento en la carpeta supervisada por la ubicación del archivo de recepción  
+## <a name="step-9-drop-a-document-and-check-the-tibco-system"></a>Paso 9: Quitar un documento y compruebe el sistema TIBCO
   
 -   Copie la instancia de documento que se creó anteriormente en la carpeta de recepción de archivos que la aplicación supervisa.  
   
-#### <a name="verify-that-the-tibco-system-is-updated"></a>Comprobar que el sistema TICBO está actualizado  
-  
 -   Use la interfaz web de TIBCO para comprobar que el registro se creó a partir de los datos del archivo XML.  
   
- Si la instancia de documento se procesa correctamente, se produce la siguiente secuencia de eventos:  
+
+Si la instancia de documento se procesa correctamente, se produce la siguiente secuencia de eventos:  
   
 1.  El adaptador de archivo recupera el archivo de la carpeta y lo publica en el cuadro de mensaje como un mensaje de BizTalk.  
   

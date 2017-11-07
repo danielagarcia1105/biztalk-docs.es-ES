@@ -1,29 +1,23 @@
 ---
-title: Ejemplos para el adaptador SAP | Documentos de Microsoft
+title: Ejemplos de adaptadores SAP | Documentos de Microsoft
+description: ejemplos de adaptadores WCF mySAP que pueden usarse con BizTalk Server, modelo de servicio WCF, el modelo del canal WCF y el proveedor de datos para SAP
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- samples, Data Provider for SAP
-- samples, migration
-- samples, BizTalk
-- samples, WCF service model
-- samples, WCF channel model
-- samples
 ms.assetid: 4654c458-83be-417f-ae54-5c3a8f6ab81f
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0374aada037282a68e7575136b8671bba5ca181d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d163c573003f40b2049f7e921e5edc4997b4e115
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-sap-adapter"></a>Ejemplos para el adaptador SAP
 Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifican en categorías:  
@@ -35,12 +29,14 @@ Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifica
 -   Ejemplos de modelo de canal WCF  
   
 -   Ejemplos de [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]  
+
   
--   Ejemplos de migración  
+ Los ejemplos están disponibles en [BizTalk Adapter Pack 2010: ejemplos de adaptadores SAP](https://www.microsoft.com/download/details.aspx?id=1314). 
+
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
   
- Los ejemplos están disponibles en [http://go.microsoft.com/fwlink/?LinkID=196854](http://go.microsoft.com/fwlink/?LinkID=196854).  
-  
- En la lista siguiente contiene los nombres y descripciones de los ejemplos para el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+ En la lista siguiente describe los ejemplos.
   
 ## <a name="biztalk-server-samples"></a>Ejemplos de BizTalk Server  
   
@@ -53,7 +49,7 @@ Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifica
 |SAPTransaction|Muestra cómo realizar transacciones en un sistema SAP mediante.|  
 |tRFCClient|Se muestra cómo realizar llamadas de cliente tRFC en un sistema SAP.|  
   
-## <a name="wcf-service-model-samples"></a>Ejemplos de modelo de servicio WCF  
+## <a name="wcf-service-model-samples"></a>Ejemplos de modelo de servicio WCF   
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  
@@ -62,7 +58,7 @@ Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifica
 |SapBapiTxClientSM|Muestra cómo invocar BAPI dentro de una transacción en un sistema SAP.|  
 |SapTrfcClientSM|Muestra cómo invocar las llamadas de cliente tRFC en un sistema SAP.|  
   
-## <a name="wcf-channel-model-samples"></a>Ejemplos de modelo de canal de WCF  
+## <a name="wcf-channel-model-samples"></a>Ejemplos de modelo de canal WCF  
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  
@@ -75,13 +71,6 @@ Ejemplos de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] se clasifica
 |---------------------------|-----------------|  
 |ado de SAP|Muestra cómo utilizar el [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)].|  
   
-## <a name="migration-samples"></a>Ejemplos de migración  
-  
-|Nombre del directorio de ejemplo|Description|  
-|---------------------------|-----------------|  
-|SAP_RFC_Migration|Muestra cómo utilizar un proyecto de BizTalk creado con la versión anterior del adaptador SAP y ponerla en marcha con basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. El proyecto de BizTalk contiene una orquestación para invocar la solicitud de cambio de SD_RFC_CUSTOMER_GET.|  
-|SendIDOC_Migration|Muestra cómo utilizar un proyecto de BizTalk creado con la versión anterior del adaptador SAP y ponerla en marcha con basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. El proyecto de BizTalk contiene una orquestación para enviar un IDOC a un sistema SAP.|  
-|ReceiveIDOC_Migration|Muestra cómo utilizar un proyecto de BizTalk creado con la versión anterior del adaptador SAP y ponerla en marcha con basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. El proyecto de BizTalk contiene una orquestación para invocar la recepción un IDOC desde un sistema SAP.|  
-  
+ 
 ## <a name="see-also"></a>Vea también  
-[Desarrollar las aplicaciones de SAP](../../adapters-and-accelerators/adapter-sap/develop-your-sap-applications.md)
+[Desarrollar aplicaciones SAP](../../adapters-and-accelerators/adapter-sap/develop-your-sap-applications.md)

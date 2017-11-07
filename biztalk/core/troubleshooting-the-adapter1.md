@@ -1,5 +1,5 @@
 ---
-title: "Solución de problemas de la < adaptador 1 | Documentos de Microsoft"
+title: Solucionar problemas del adaptador de JD Edwards EnterpriseOne | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, wildcard characters
-- adapters [JD Edwards EnterpriseOne adapters], wildcard characters
-- wildcard characters, JD Edwards EnterpriseOne adapters
 ms.assetid: f5a55e52-039a-4aea-8251-b697fd061ddc
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b77b42854a58d7fe8ffafd177e91f327a7f5e7e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eac716a7567930509ebfd310cdaf9874286b349c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="troubleshooting-the-adapter"></a>Solucionar problemas del adaptador
 Este tema contiene información para ayudarle a identificar y resolver los problemas que pueda tener mientras usa el adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne.  
@@ -72,5 +68,5 @@ Este tema contiene información para ayudarle a identificar y resolver los probl
     ```  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo crear puertos de envío para JD Edwards EnterpriseOne](../core/how-to-create-send-ports-for-jd-edwards-enterpriseone.md)   
+ [Agregar el adaptador y crear los artefactos](../core/adding-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [Solución de problemas de JD Edwards EnterpriseOne](../core/troubleshooting-jd-edwards-enterpriseone.md)

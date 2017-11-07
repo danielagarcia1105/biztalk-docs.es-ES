@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2abd36879428c9d775251e20dd63f8778aa7b63
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: fd2a1fb342911c904044c8099901c5056f17ac9f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 Para usar el inicio de sesión único (SSO), debe tener:  
@@ -43,4 +43,4 @@ Para usar el inicio de sesión único (SSO), debe tener:
     >  Después de trabajar mediante SSO, no olvide restablecer cualquiera **uso compartido de Web** carpeta **no comparten**. Las aplicaciones que usen esas carpetas no se actualizarán ni se desinstalarán correctamente si la carpeta es de uso compartido, ya que se considerará que están en uso.  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on3.md)
+ [Seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

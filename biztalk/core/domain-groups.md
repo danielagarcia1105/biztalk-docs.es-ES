@@ -7,21 +7,21 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: domain groups
 ms.assetid: 9adc090e-e18c-46b6-b985-49b200d42966
 caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 52fc5cc05718aa6d9e0ca89bc48467052fb916a5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42833e24ee4b0ad8f78a8f60139d66ceb41a5f8f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="domain-groups"></a>Grupos de dominio
-BizTalk Server admite cuentas de grupo de dominio y de usuario en configuraciones de uno y de varios equipos. Para configuraciones de varios equipos, debe observar los requisitos mencionados en esta sección y en el apartado Consideraciones para crear un entorno multiservidor de la Guía de instalación. Para obtener más información, consulte [Introducción a la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+# <a name="domain-groups-in-biztalk"></a>Grupos de dominio de BIzTalk
+BizTalk Server admite cuentas de grupo de dominio y de usuario en configuraciones de uno y de varios equipos. Para configuraciones de varios equipos, debe observar los requisitos mencionados en esta sección y en el apartado Consideraciones para crear un entorno multiservidor de la Guía de instalación. Para obtener más información, consulte el [Introducción a la instalación](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
   
+## <a name="before-you-begin"></a>Antes de empezar
 -   Si utiliza grupos de dominio para la configuración de BizTalk Server, debe crear los grupos manualmente antes de configurar BizTalk Server. El Administrador de configuración no puede crear grupos de dominio.  
   
 -   Después de crear grupos de dominio o cuentas de usuario, agregar cuentas de usuario a los grupos adecuados según las afiliaciones de grupo en [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
@@ -37,5 +37,5 @@ BizTalk Server admite cuentas de grupo de dominio y de usuario en configuracione
   
 ## <a name="see-also"></a>Vea también  
  [Grupos locales](../core/local-groups.md)   
- [Información general sobre la instalación de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
+ [Introducción a la instalación](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)   
  [Cuentas de grupos y de usuario de Windows en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)

@@ -13,13 +13,13 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9f7690c83fe9a79b4bda1dc515f9e79106b4ae6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d0fa84afa3ea857fff23cf112dc8bdc11f0c98dc
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="biztalk-server-whats-new-installation-configuration-and-upgrade"></a>Novedades, instalación, configuración y actualización de BizTalk Server
+# <a name="biztalk-server-whats-new-install-configuration-and-upgrade"></a>El servidor BizTalk Server What's New, configuración, instalación y actualización
 Obtenga información sobre las novedades, la instalación y la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. 
 
 ## <a name="biztalk-versions"></a>Versiones de BizTalk
@@ -41,32 +41,32 @@ Estos temas se centran en lo siguiente:
   
  Si busca orientación sobre el desarrollo de aplicaciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la supervisión de los entornos, información sobre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y otras tareas principales, vaya a [Documentación principal de BizTalk Server](../core/biztalk-server-core-documentation.md). 
   
-## <a name="in-this-section"></a>En esta sección
+## <a name="next-steps"></a>Pasos siguientes
 
-[BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md)
+- [BizTalk Server 2016: ' s new e instalación](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md)
   
- [BizTalk Server 2013 R2 y 2013](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)
+- [BizTalk Server 2013 R2 y 2013: ' s new e instalación](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)
 
-[Configuración de BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)
+- [Configuración de BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)
 
-[Configuración de BizTalk Server en un clúster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
+- [Configuración de BizTalk Server en un clúster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 
-[Pasos posteriores a la configuración para optimizar el entorno](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
+- [Pasos posteriores a la configuración para optimizar el entorno](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
 
-[Importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md)
+- [Importar y exportar la configuración de BizTalk Server](../install-and-config-guides/import-and-export-biztalk-server-configuration.md)
 
-[Consolidación de bases de datos de BizTalk Server](../install-and-config-guides/consolidate-the-biztalk-server-databases2.md)
+- [Consolidación de bases de datos de BizTalk Server](../install-and-config-guides/consolidate-the-biztalk-server-databases2.md)
 
-[Trabajo con Configuration Framework](../install-and-config-guides/working-with-the-configuration-framework.md)
+- [Trabajo con Configuration Framework](../install-and-config-guides/working-with-the-configuration-framework.md)
 
-[Proteger la implementación de BizTalk Server](../install-and-config-guides/securing-your-biztalk-server-deployment.md)
+- [Proteger la implementación de BizTalk Server](../install-and-config-guides/securing-your-biztalk-server-deployment.md)
 
-[Desinstalar y quitar la configuración de BizTalk Server para quitarlo](../install-and-config-guides/uninstall-and-unconfigure-biztalk-server-to-remove-it.md)
+- [Desinstalar y quitar la configuración de BizTalk Server para quitarlo](../install-and-config-guides/uninstall-and-unconfigure-biztalk-server-to-remove-it.md)
 
-[Apéndice A: Instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md)
+- [Apéndice A: Instalación silenciosa](../install-and-config-guides/appendix-a-silent-installation.md)
 
-[Apéndice B: Instalar el adaptador de Microsoft SharePoint](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
+- [Apéndice B: Instalar el adaptador de Microsoft SharePoint](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
 
-[Apéndice C: Archivos CAB redistribuibles](../install-and-config-guides/appendix-c-redistributable-cab-files.md)
+- [Apéndice C: Archivos CAB redistribuibles](../install-and-config-guides/appendix-c-redistributable-cab-files.md)
 
-[Apéndice D: Crear el servidor SMTP](../install-and-config-guides/appendix-d-create-the-smtp-server.md)
+- [Apéndice D: Crear el servidor SMTP](../install-and-config-guides/appendix-d-create-the-smtp-server.md)

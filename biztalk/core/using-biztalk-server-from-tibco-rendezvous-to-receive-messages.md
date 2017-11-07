@@ -1,26 +1,12 @@
 ---
-title: Uso de BizTalk Server desde TIBCO Rendezvous para recibir mensajes | Documentos de Microsoft
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- messages, receiving
-- receiving messages
-- memory use
-ms.assetid: 4eee9c3a-2966-4d5f-ba49-201bb488458c
-caps.latest.revision: "4"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 4ac81f269e19526f5466e8c12115d617b8171da3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/using-tibco-rendezvous-receive-ports-from-biztalk-server/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: b1738a0933b5f570edfd882778e50ebf7e2ca730
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-receive-messages"></a>Uso de BizTalk Server desde TIBCO Rendezvous para recibir mensajes
 El adaptador de Microsoft BizTalk para TIBCO Rendezvous distribuye eventos de una cola en varios subprocesos. Una ubicación de recepción de BizTalk Server está asociada con una cola de eventos TIBCO Rendezvous y su grupo de subprocesos de distribuidor.  
@@ -32,4 +18,4 @@ El adaptador de Microsoft BizTalk para TIBCO Rendezvous distribuye eventos de un
   
 ## <a name="see-also"></a>Vea también  
  [Conceptos de TIBCO Rendezvous](../core/tibco-rendezvous-concepts.md)   
- [Controladores de recepción de creación TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)
+ [Creación de controladores de recepción de TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)

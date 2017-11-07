@@ -2,7 +2,7 @@
 title: Empezar a trabajar con el adaptador de BizTalk para TIBCO Rendezvous | Documentos de Microsoft
 description: "Mensajes, conceptos, generación de esquemas, las limitaciones, instalación y tutoriales de adaptador de TIBCO Rendezvous en BizTalk Server"
 ms.custom: 
-ms.date: 10/16/2017
+ms.date: 10/23/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e5c06aade45d23988dd12b54cb1ed3609a016e7
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: b5e6c54f232e1645816a93a3dab46a249ba1c15d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="get-started-with-biztalk-adapter-for-tibco-rendezvous"></a>Empezar a trabajar con el adaptador de BizTalk para TIBCO Rendezvous
 
@@ -30,10 +30,6 @@ El adaptador de Microsoft BizTalk para TIBCO Rendezvous permite usar las funcion
   
 -   [Conceptos de TIBCO Rendezvous](../core/tibco-rendezvous-concepts.md)  
   
--   [Instalación del adaptador de BizTalk para TIBCO Rendezvous](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)  
+-   [Instalar, esquemas y limitaciones](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)
   
--   [Generación de esquema en el adaptador](../core/schema-generation-in-the-adapter.md)  
-  
--   [Limitaciones de TIBCO Rendezvous](../core/tibco-rendezvous-limitations.md)  
-  
--   [Tutoriales: Usar el adaptador de Microsoft BizTalk para TIBCO Rendezvous](../core/tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous.md)
+-   [Tutoriales: Uso del Adaptador de Microsoft BizTalk para TIBCO Rendezvous](../core/tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous.md)

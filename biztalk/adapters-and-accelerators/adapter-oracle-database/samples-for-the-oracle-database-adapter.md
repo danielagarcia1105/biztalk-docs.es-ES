@@ -1,27 +1,23 @@
 ---
-title: Ejemplos para el adaptador de la base de datos de Oracle | Documentos de Microsoft
+title: Ejemplos de adaptadores de base de datos de Oracle | Documentos de Microsoft
+description: Ejemplos de adaptadores de WCF de la base de datos de Oracle que pueden usarse con BizTalk Server, el modelo de servicio WCF y el modelo del canal WCF
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- samples, WCF channel model
-- samples, WCF service model
-- samples, BizTalk
-- samples, migration
 ms.assetid: 744f19ce-3126-4745-92dd-4f68443180fc
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4973c0b4ea54ef3b7692dbe4be19773acf1e6e7a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f5bfef9fcfce65d8aede1cd905a53469c565977f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-oracle-database-adapter"></a>Ejemplos para el adaptador de la base de datos de Oracle
 Ejemplos de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] se clasifican en categorías:  
@@ -31,14 +27,16 @@ Ejemplos de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] se cla
 -   Ejemplos de modelo de servicio WCF  
   
 -   Ejemplos de modelo de canal WCF  
+
   
--   Ejemplos de migración  
+Los ejemplos están disponibles en [BizTalk Adapter Pack 2010: ejemplos de adaptadores de base de datos de Oracle](https://www.microsoft.com/download/details.aspx?id=4675). Las secuencias de comandos SQL para crear las tablas y los paquetes utilizados en los ejemplos se incluyen. 
+
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
   
- Los ejemplos están disponibles en [http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854). Los scripts SQL para crear las tablas, paquetes, etcetera. usar en los ejemplos también están disponibles junto con los ejemplos para el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
+En la lista siguiente describe los ejemplos.
   
- En la lista siguiente contiene los nombres y descripciones de los ejemplos para el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  
-  
-## <a name="biztalk-server-samples"></a>Ejemplos de BizTalk Server  
+## <a name="biztalk-server-samples"></a>Ejemplos de BizTalk Server
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  
@@ -63,7 +61,7 @@ Ejemplos de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] se cla
 |OracleRefCursorsSM|Muestra cómo utilizar los parámetros REF CURSOR en funciones y procedimientos|  
 |OracleTransactedDmlSM|Muestra cómo realizar operaciones en la base de datos de Oracle en una transacción utilizando el modelo de servicio WCF.|  
   
-## <a name="wcf-channel-model-samples"></a>Ejemplos de modelo de canal de WCF  
+## <a name="wcf-channel-model-samples"></a>Ejemplos de modelo de canal WCF  
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  
@@ -71,11 +69,6 @@ Ejemplos de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] se cla
 |OracleStreamingDemo|Muestra cómo realizar-to-end de transmisión por secuencias de datos LOB mediante las operaciones Select UpdateLOB y tabla|  
 |OracleTransactedDmlCM|Muestra cómo realizar operaciones en la base de datos de Oracle en una transacción mediante el modelo de canal WCF.|  
   
-## <a name="migration-samples"></a>Ejemplos de migración  
-  
-|Nombre del directorio de ejemplo|Description|  
-|---------------------------|-----------------|  
-|Oracle_Migration|Muestra cómo utilizar un proyecto de BizTalk creado con el adaptador de BizTalk ODBC para base de datos de Oracle (suministrado con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]) y ponerla en marcha con basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] (incluido con [!INCLUDE[adapterpack20](../../includes/adapterpack20-md.md)]).|  
-  
+
 ## <a name="see-also"></a>Vea también  
-[Desarrollar las aplicaciones de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)
+[Desarrollar aplicaciones de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5199b20a75b82e12ad76b96903538487a3128668
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 06000a734856c7b9f22e78a2d5a78c4585021a21
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="step-2-create-the-inventory-request-schema"></a>Paso 2: Crear el esquema de solicitud de inventario
 ![Paso 2 de 5](../core/media/step-2of5.gif "Step_2of5")  
@@ -76,13 +76,15 @@ ms.lasthandoff: 09/20/2017
   
 7.  Tipo `ReqID` como el nuevo nombre para el elemento y, a continuación, presione ENTRAR.  
   
-8.  Elemento de campo Repita el paso 6 y 7 para crear un segundo nodo secundario para el **encabezado** nodo y asígnele el nombre `OrderDate`.  
+8.  Elemento de campo Repita el paso 6 y 7 para crear un segundo nodo secundario para el **encabezado** nodo y asígnele el nombre `OrderDate`.
+
+9.  Elemento de campo secundario Repita el paso 6 y 7 para crear una tercera para la **encabezado** nodo y asígnele el nombre `GrandTotal`.
   
-9. En el árbol de esquema, haga clic en el **elementos** nodo, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **registro secundario**.  
+10. En el árbol de esquema, haga clic en el **elementos** nodo, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **registro secundario**.  
   
-10. Tipo `Item` como el nuevo nombre para el registro secundario y, a continuación, presione ENTRAR.  
+11. Tipo `Item` como el nuevo nombre para el registro secundario y, a continuación, presione ENTRAR.  
   
-11. En el árbol de esquema, haga clic en el **elemento** nodo y agregue los elementos de campo secundarios siguientes:  
+12. En el árbol de esquema, haga clic en el **elemento** nodo y agregue los elementos de campo secundarios siguientes:  
   
     -   `Description`  
   
@@ -135,4 +137,4 @@ ms.lasthandoff: 09/20/2017
  [Paso 4: Crear el mapa](../core/step-4-create-the-map.md)   
  [Paso 5: Generar el proyecto EAISchemas](../core/step-5-build-the-eaischemas-project.md)   
  [Crear esquemas con el Editor de BizTalk](../core/creating-schemas-using-biztalk-editor.md)   
- [Acerca de las propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)
+ [Propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)

@@ -1,26 +1,12 @@
 ---
-title: "Cómo crear puertos de envío para TIBCO Rendezvous | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- creating send ports
-- ports, send
-- send ports, creating
-ms.assetid: 0c8d9fdc-b273-4876-9f93-b5a85539a3c1
-caps.latest.revision: "8"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 7d0b6e7dbb1a3b32979c94ec1af9483bd9fcb7cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 44da7839f0bee96db332dada214bdbc503067f56
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-create-send-ports-for-tibco-rendezvous"></a>Creación de puertos de envío para TIBCO Rendezvous
 Siga estos pasos para crear un puerto de envío mediante [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -39,9 +25,7 @@ Siga estos pasos para crear un puerto de envío mediante [!INCLUDE[btsVStudioNoV
   
     3.  Desde el **controlador de envío** lista desplegable, seleccione el URI.  
   
-    4.  En la lista desplegable de canalización de envío, seleccione **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.  
-  
-    5.  Desde el **canalización de recepción** lista desplegable, seleccione **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.  
+    4.  Desde el **canalización de envío** lista desplegable, seleccione **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**. Desde el **canalización de recepción** lista desplegable, seleccione **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.  
   
     6.  Haga clic en **configurar** para configurar el puerto de envío.  
   
@@ -60,4 +44,4 @@ Siga estos pasos para crear un puerto de envío mediante [!INCLUDE[btsVStudioNoV
 5.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
+ [Creación de controladores de envío de TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)

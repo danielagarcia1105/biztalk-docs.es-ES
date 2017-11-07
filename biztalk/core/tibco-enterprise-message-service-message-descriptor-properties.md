@@ -1,5 +1,5 @@
 ---
-title: Propiedades de Descriptor de mensajes TIBCO Enterprise Message Service | Documentos de Microsoft
+title: Propiedades de Descriptor de mensajes TIBCO EMS | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: message descriptor properties
 ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80c75875c44c4d082089fc9394fef390a0f91571
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1a2a7d6529cffba6afa3969964d1ea436d7fcda
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-enterprise-message-service-message-descriptor-properties"></a>Propiedades del descriptor de mensajes de TIBCO Enterprise Message Service
+
+## <a name="descriptor-properties-and-values"></a>Propiedades de descriptor y valores
 En la tabla siguiente se muestra el conjunto completo de propiedades disponibles del descriptor de mensajes (estructura TibcoEMSMD), así como los valores y tipos correspondientes.  
   
 |Nombre|Tipo|Value|Notas|  
@@ -61,4 +62,4 @@ En la tabla siguiente se muestra el conjunto completo de propiedades disponibles
  Asegúrese de que se usa el espacio de nombres de destino; únicamente la propiedades que usan este espacio de nombres se copian al mensaje de BizTalk Server o de EMS. Consulte la documentación de BizTalk Server para obtener más información acerca de las propiedades de contexto del mensaje.  
   
 ## <a name="see-also"></a>Vea también  
- [Propiedades de contexto de mensaje](../core/message-context-properties2.md)
+[Propiedades de contexto del mensaje de TIBCO EMS](../core/message-context-properties-in-biztalk-server.md)

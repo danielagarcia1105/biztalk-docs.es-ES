@@ -1,5 +1,5 @@
 ---
-title: "Propiedades de contexto de mensaje de BizTalk Server (controladores de recepción) | Documentos de Microsoft"
+title: "Propiedades de contexto de mensaje de recepción para TIBCO Rendezvous | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- message context properties
-- receive handlers, message context properties
 ms.assetid: 7f47e2a0-6ac8-404a-bc0a-c7739911af74
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a60896a8e1cace909a160c1dc942e63e9258d85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36f4de92dbe7c4c235a1c9ebd092b28b3a198c92
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="biztalk-server-message-context-properties-receive-handlers"></a>Propiedades de contexto de mensaje de BizTalk Server (controladores de recepción)
 Además de la carga del mensaje, se debe poder acceder a la información complementaria que compone un mensaje desde una orquestación de BizTalk Server en tiempo de ejecución.  
@@ -38,4 +35,4 @@ Además de la carga del mensaje, se debe poder acceder a la información complem
   
 ## <a name="see-also"></a>Vea también  
  [Asignación de mensaje de TIBCO Rendezvous](../core/message-mapping-in-tibco-rendezvous.md)   
- [Controladores de recepción de creación TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)
+ [Creación de controladores de recepción de TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)

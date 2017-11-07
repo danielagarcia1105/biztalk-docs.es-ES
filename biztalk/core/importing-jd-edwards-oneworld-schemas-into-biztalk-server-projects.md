@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 35b0d7fec5acc991ae6c141f57297b7511281be3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd8e20660a58b647388e7db2324abc5f9a7028e5
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects"></a>Importación de esquemas de JD Edwards OneWorld en proyectos de BizTalk Server
 En este tema se trata la búsqueda de un servidor de JD Edwards OneWorld y la importación de los esquemas a un proyecto de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -91,4 +91,4 @@ En este tema se trata la búsqueda de un servidor de JD Edwards OneWorld y la im
 >  --I para Consulta  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)
+ [Agregar los artefactos a la administración de BizTalk](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)

@@ -1,27 +1,16 @@
 ---
-title: "Cómo establecer las propiedades de transporte de OneWorld JD Edwards | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting transport properties
-- transport properties, setting
-ms.assetid: 6d38088b-a496-414e-aae6-d28c5d6398b6
-caps.latest.revision: "13"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 7abac3b468b8c76b8214e400366144b39f1e2741
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5290f424bbeb5cf54e78c903c50a6c2d945bc8cc
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-jd-edwards-oneworld-transport-properties"></a>Cómo establecer las propiedades de transporte de OneWorld JD Edwards
+
+## <a name="overview"></a>Información general
 La definición del sistema de propiedades de JD Edwards OneWorld Transport se usa para el diseño y el inicio de sesión en tiempo de ejecución. Estas credenciales se definen para examinar las funciones empresariales de JD Edwards OneWorld en tiempo de diseño y realizar llamadas en tiempo de ejecución.  
   
  Cuando se realiza una conexión con JD Edwards OneWorld, los parámetros se transfieren al objeto de conexión (Usuario, Contraseña, Entorno). Devuelve una instancia de la función empresarial aApplication de JD Edwards OneWorld. Las credenciales se definen mediante el nombre del servidor de empresa/aplicación y el puerto TCP/IP definido en el cual escucha el servicio.  
@@ -31,12 +20,8 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
 > [!NOTE]
 >  Todas las entradas distinguen entre mayúsculas y minúsculas.  
   
-## <a name="setting-properties"></a>Establecer propiedades  
+## <a name="set-the-transport-properties"></a>Establecer las propiedades de transporte  
  En el **propiedades de transporte** cuadro de diálogo, se establecen los parámetros de conexión y las credenciales que son específicos del sistema servidor y los objetos que está intentando obtener acceso.  
-  
- Los pasos de este proceso son los siguientes:  
-  
-#### <a name="to-set-transport-properties"></a>Procedimiento para configurar las propiedades de transporte  
   
 1.  Proporcionar credenciales.  
   
@@ -48,7 +33,7 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
   
 2.  Para usar el inicio de sesión único (SSO), seleccione **Sí** en el **usar SSO**.  
   
-     Para obtener más información acerca de cómo configurar SSO, vea [utilizando Single Sign-On](../core/using-single-sign-on3.md).  
+     Para obtener más información acerca de cómo configurar SSO, vea [seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
 3.  Seleccione una aplicación afiliada en la lista.  
   
@@ -81,7 +66,7 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
   
      Debe configurar parámetros de conexión para que el Adaptador de BizTalk para JD Edwards OneWorld pueda obtener acceso a JD Edwards OneWorld.  
   
-### <a name="adapter-required-properties"></a>Propiedades necesarias del adaptador  
+## <a name="adapter-required-properties"></a>Propiedades de adaptador necesario  
  Si no ha especificado variables de entorno globales en el Panel de control, puede hacerlo en esta sección.  
   
 |Parámetro|Description|  
@@ -94,5 +79,3 @@ La definición del sistema de propiedades de JD Edwards OneWorld Transport se us
 |Puerto|Escriba el número de puerto que intercambiará datos (por ejemplo, `6009`).|  
 |Nombre de usuario|Escriba un nombre de usuario de JD Edwards OneWorld que se usará para iniciar sesión en ese sistema.|  
   
-## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)

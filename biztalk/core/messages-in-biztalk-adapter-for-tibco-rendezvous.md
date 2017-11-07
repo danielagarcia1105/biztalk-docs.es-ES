@@ -1,5 +1,5 @@
 ---
-title: Mensajes en el adaptador de BizTalk para TIBCO Rendezvous | Documentos de Microsoft
+title: Mensajes en el adaptador de TIBCO Rendezvous | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,30 +7,24 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- passing messages
-- TIBCO Rendezvous
-- messages
-- message passing
-- messages, passing
 ms.assetid: 12699550-22e7-4a11-a024-2302570970af
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f4bc1eadbefdeb5c59df9a1b999ffdd3e530587a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b9c3aa4aeb613ea65f7e0d7385871c639afb6d8
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="messages-in-biztalk-adapter-for-tibco-rendezvous"></a>Mensajes en el adaptador de BizTalk para TIBCO Rendezvous
 El Adaptador de BizTalk para TIBCO Rendezvous proporciona conectividad bidireccional entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y TIBCO Rendezvous. Este adaptador utiliza tanto la API TIBCO Rendezvous como la API del marco de trabajo de adaptadores BizTalk para proporcionar una elevada integración.  
   
 ## <a name="about-tibco-rendezvous"></a>Acerca de TIBCO Rendezvous  
- TIBCO Rendezvous es un producto de software que proporciona un bus de mensaje para la integración de aplicaciones empresariales(EAI). TIBCO proporciona API de mensajería en C, C++, Java, Visual Basic y de Microsoft .NET Framework recibir fuentes de datos en hojas de cálculo de Microsoft Office Excel y otras aplicaciones de su elección. Para obtener más información, consulte [conceptos de TIBCO Rendezvous](../core/tibco-rendezvous-concepts.md).  
+ TIBCO Rendezvous es un programa que proporciona un bus de mensajes para la integración de aplicaciones empresariales (EAI). TIBCO proporciona API de mensajería en C, C++, Java, Visual Basic y de Microsoft .NET Framework recibir fuentes de datos en hojas de cálculo de Microsoft Office Excel y otras aplicaciones de su elección. Para obtener más información, consulte [conceptos de TIBCO Rendezvous](../core/tibco-rendezvous-concepts.md).  
   
-### <a name="message-passing"></a>Pasar mensajes  
+## <a name="message-passing"></a>Pasar mensajes  
  El concepto básico de pasar mensajes es bastante sencillo:  
   
 -   Un mensaje tiene un único asunto formado por elementos separados por puntos. Se envía un mensaje a un único daemon de Rendezvous (aunque podría transmitirse a otros daemons).  
@@ -53,16 +47,16 @@ El Adaptador de BizTalk para TIBCO Rendezvous proporciona conectividad bidirecci
   
 -   Todos los niveles, incluidos los mensajes en el nivel de depuración, se envían al Registro de seguimiento de Windows.  
   
-#### <a name="transmitter"></a>Transmisor  
+## <a name="transmitter"></a>Transmisor  
  El Adaptador de BizTalk para TIBCO Rendezvous inicia un agente de tiempo de ejecución por cada puerto de envío. La API de .NET Framework de TIBCO Rendezvous solo permite establecer la codificación de caracteres en el ámbito global. Por lo tanto, una de las opciones de configuración de puerto es un número de página de códigos. Al comenzar un proceso diferente para cada página de código, el adaptador puede proporcionar una mejor compatibilidad con la globalización.  
   
-#### <a name="receiver"></a>Receptor  
+## <a name="receiver"></a>Receptor  
  El Adaptador de BizTalk para TIBCO Rendezvous inicia un agente de tiempo de ejecución por cada ubicación de recepción.  
   
-#### <a name="transactions"></a>Transactions  
+## <a name="transactions"></a>Transactions  
  El producto TIBCO Rendezvous no es transaccional. Es necesario un producto independiente, TIBCO Rendezvous TX. El Adaptador de BizTalk para TIBCO Rendezvous no admite transacciones en esta versión.  
   
-#### <a name="security"></a>Seguridad  
+## <a name="security"></a>Seguridad  
  TIBCO Rendezvous solo admite la autenticación entre los programas y daemons de TIBCO Rendezvous. No realiza la autorización o el cifrado. Es necesario un producto independiente, TIBCO Rendezvous DataSecurity.  
   
 ## <a name="see-also"></a>Vea también  

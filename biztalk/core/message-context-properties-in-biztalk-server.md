@@ -1,5 +1,6 @@
 ---
-title: Propiedades de contexto en el servidor BizTalk Server del mensaje | Documentos de Microsoft
+title: Usar propiedades de contexto del mensaje de TIBCO EMS | Documentos de Microsoft
+description: "Utilice los campos de descriptor de mensajes de TIBCO Enterprise Message System en una orquestación de BizTalk Server"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,24 +8,23 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- message context properties, accessing
-- message context properties, BizTalk Server
 ms.assetid: 163ac2cf-0e2d-4780-b398-baa825f92b00
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 75e92e458ec6927ab8e1bc6082cd9a71ee3e4387
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ef4f0d8c606724cec9c85551251cb003aa8a7e34
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="message-context-properties-in-biztalk-server"></a>Propiedades de contexto de mensaje de BizTalk Server
+# <a name="message-context-properties-in-tibco-ems"></a>Propiedades de contexto de mensaje de TIBCO EMS
+
+## <a name="tibcoemspropertiesdll"></a>TibcoEMSProperties.dll
 Para obtener acceso a campos de descriptor de mensajes de TIBCO Enterprise Message System desde una orquestación de BizTalk Server, debe agregar una referencia a **Microsoft.BizTalk.Adapters.TibcoEMSProperties.dll** al proyecto. Este ensamblado se encuentra en  **\<EMS_Adapter_installation_directory TIBCO > \bin**. Tras hacer referencia a este esquema de propiedad de TIBCO EMS, se puede obtener acceso a propiedades de contexto adicionales mediante varias herramientas de desarrollo de BizTalk Server (por ejemplo, la forma Asignación de mensaje en el Diseñador de orquestaciones).  
   
-## <a name="accessing-context-properties"></a>Obtener acceso a propiedades de contexto  
+## <a name="access-context-properties"></a>Obtener acceso a propiedades de contexto  
  Para obtener acceso a la propiedad de contexto, especifique una de las disponibles en el espacio de nombres de TIBCO EMS. Para leer la propiedad de contexto de un mensaje recibido de un puerto enlazado con el adaptador de BizTalk para TIBCO EMNS, use la siguiente sintaxis en una expresión:  
   
 ```  
@@ -41,5 +41,7 @@ Message(TibcoEMS.Property)
 Message(TibcoEMS.Property) = value;  
 ```  
   
-## <a name="see-also"></a>Vea también  
- [Propiedades de contexto de mensaje](../core/message-context-properties2.md)
+## <a name="next-steps"></a>Pasos siguientes
+-   [Valores & Propiedades de Descriptor de mensajes de TIBCO EMS](../core/tibco-enterprise-message-service-message-descriptor-properties.md)  
+  
+-   [Tutorial: Uso de las propiedades de contexto de mensaje](../core/tutorial-using-message-context-properties.md)

@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- message context properties, BizTalk Server
-- reply subjects
-- send handlers, BizTalk Server message context properties
-- replies
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c8e5ddb1feb02a015fdebd62d183d1b8442fe5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0504e13115229f1325938e8ca48acc17fa5bc1d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="biztalk-server-message-context-properties-send-handlers"></a>Propiedades de contexto de mensaje de BizTalk Server (controladores de envío)
 Además de la carga de mensaje, la información suplementaria que contiene un mensaje debe ser accesible desde la orquestación de BizTalk Server en tiempo de ejecución.  
@@ -46,7 +41,12 @@ Además de la carga de mensaje, la información suplementaria que contiene un me
     OutgoingMsg(Rendezvous.SendSubject) = IncomingMsg  
     (Rendezvous.ReplySubject);  
     ```  
+## <a name="management-assembly"></a>Ensamblado de administración
+TIBCO Rendezvous no proporciona repositorios de metadatos y el ensamblado de administración del Adaptador de Microsoft para TIBCO Rendezvous no proporciona capacidad de exploración ni generación de esquemas. Por lo tanto, debe proporcionar un esquema a BizTalk Server. Para obtener más información, consulte [Install, esquemas y limitaciones](../core/installing-biztalk-adapter-for-tibco-rendezvous.md).
+  
+ BizTalk Adapter para TIBCO Rendezvous incluye un esquema con tipos predefinidos. El adaptador usa estos tipos al generar mensajes para tipos de datos específicos (matrices).
+
   
 ## <a name="see-also"></a>Vea también  
  [Asignación de tipos de datos para los controladores de envío de TIBCO Rendezvous](../core/data-type-mapping-for-send-handlers-in-tibco-rendezvous.md)   
- [Crear controladores de envío TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
+ [Creación de controladores de envío de TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)

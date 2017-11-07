@@ -1,5 +1,5 @@
 ---
-title: Crear aplicaciones afiliadas Applications1 | Documentos de Microsoft
+title: Crear aplicaciones para TIBCO Rendezvous afiliadas | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,23 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- applications, affiliate
-- Single Sign-On, tickets
-- affiliate applications
-- tickets, SSO
-- affiliate applications, enabling XML
-- SSO tickets
 ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
 caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f52c59caf451a2e0b55c775bf70a36a9a05ae9c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a286a80ef2c867dd196fcdce414f2d0ff3c8255c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones afiliadas y el Inicio de sesión único (SSO). Para obtener información completa acerca de cómo usar el Inicio de sesión único de Enterprise, vea la documentación de Microsoft.  
@@ -31,7 +24,7 @@ En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones a
 > [!NOTE]
 >  Si recibe errores de SSO, compruebe que ha usado una cuenta de dominio al configurar BizTalk Server, ya que esto puede afectar al funcionamiento del servicio SSO empresarial. SSO sólo funciona con una cuenta de dominio.  
   
-### <a name="to-create-an-affiliate-application"></a>Para crear una aplicación afiliada  
+## <a name="create-an-affiliate-application"></a>Crear una aplicación afiliada  
   
 1.  En el Panel de Control, abra **Services**y compruebe que está ejecutando el servicio de Enterprise Single Sign-On.  
   
@@ -72,7 +65,7 @@ En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones a
     </SSO>  
     ```  
   
-### <a name="to-create-single-sign-on-tickets"></a>Para crear vales de inicio de sesión único  
+## <a name="create-single-sign-on-tickets"></a>Crear vales de inicio de sesión único  
   
 1.  Escriba el comando siguiente para controlar el comportamiento del vale SSO:  
   
@@ -86,7 +79,7 @@ En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones a
   
      **Se está utilizando el servidor SSO en este equipo. La operación finalizada correctamente.**  
   
-### <a name="to-enable-affiliate-application-xml"></a>Para habilitar un archivo XML de aplicación afiliada  
+## <a name="enable-affiliate-application-xml"></a>Habilitar la aplicación afiliada de XML  
   
 1.  Escriba el siguiente comando:  
   
@@ -120,4 +113,3 @@ En los pasos siguientes se describe cómo comenzar a trabajar con aplicaciones a
   
 ## <a name="see-also"></a>Vea también  
  [Seguridad en el adaptador de BizTalk para TIBCO Rendezvous](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)   
- [Mediante el inicio de sesión único](../core/using-single-sign-on5.md)

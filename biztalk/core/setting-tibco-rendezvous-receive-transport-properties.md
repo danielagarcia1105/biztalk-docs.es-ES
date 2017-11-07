@@ -1,32 +1,19 @@
 ---
-title: "Propiedades de transporte de recepción de TIBCO Rendezvous de configuración | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- transport properties, setting for receive ports
-- setting transport properties, receive
-ms.assetid: 56e0a51a-6505-43bf-a48b-de35f4b114df
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 06ff1b3a11d6b95c2fb784e969363433dec3dc28
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 48eb0c1694168fb1acf840a52dc793d0ed943a19
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-tibco-rendezvous-receive-transport-properties"></a>Configuración de propiedades de transporte de recepción de TIBCO Rendezvous
 Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para escuchar mensajes, debe especificar los nombres de asunto que debe escuchar. Ésta es la única propiedad necesaria.  
   
  Use este procedimiento para especificar las propiedades.  
   
-### <a name="to-specify-tibco-rendezvous-transport-properties"></a>Para especificar las propiedades de transporte de TIBCO Rendezvous  
+## <a name="enter-tibco-rendezvous-transport-properties"></a>Especifique las propiedades de transporte de TIBCO Rendezvous  
   
 1.  En el cuadro de diálogo Propiedades de transporte de TIBCO Rendezvous, expanda **propiedades de adaptador necesarias**, escriba la **nombre de asunto de Rendezvous**.  
   
@@ -98,7 +85,7 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
     1.  Seleccione **Sí** en el **usar SSO** usar Single Sign-On.  
   
         > [!NOTE]
-        >  Vea [utilizando Single Sign-On](../core/using-single-sign-on5.md) para obtener información acerca de cómo configurar SSO.  
+        >  Vea [seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) para obtener información acerca de cómo configurar SSO.  
   
     2.  Seleccione una aplicación afiliada de la lista.  
   
@@ -112,4 +99,4 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
      Debe establecer los parámetros de conexión para que el Adaptador de BizTalk para TIBCO Rendezvous reciba mensajes de TIBCO Rendezvous.  
   
 ## <a name="see-also"></a>Vea también  
- [Controladores de recepción de creación TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)
+ [Creación de controladores de recepción de TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)

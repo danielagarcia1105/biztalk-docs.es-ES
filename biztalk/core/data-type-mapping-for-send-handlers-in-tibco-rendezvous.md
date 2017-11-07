@@ -7,23 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- XML schemas, mapping to Redevous types
-- message mapping, examples
-- XML schemas, schema types
-- data type mapping, send handlers
-- examples, message mapping
-- send handlers, data type mapping
 ms.assetid: fa1a9233-8781-45a8-9c55-a18ecaa0f456
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b6c54cb7ae684aa2f617ca615ed55703e331de46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bda336d149d373477b26efeb2e4b05de4aac7554
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="data-type-mapping-for-send-handlers-in-tibco-rendezvous"></a>Asignación de tipos de datos para controladores de envío de TIBCO Rendezvous
 La asignación de tipos de esquema XML a tipos TIBCO Rendezvous solo es posible si TIBCO Rendezvous proporciona información de tipos (xsi:type=). Los tipos no compatibles se asignan a las cadenas si es posible. Si la asignación no es posible, o si la opción está deshabilitada en la configuración del puerto, se genera un error.  
@@ -111,4 +104,4 @@ xmlns:ns="some namespace for this message [value not important, unless the schem
  Una vez generado el mensaje anterior como mensaje de TIBCO Rendezvous estructurado, sería una instancia TibcoMsg de nivel superior con seis campos. Los últimos campos son un mensaje secundario, compuesto por dos campos de tipos de matriz (los elementos "item" no se asignan a los campos de mensaje de TIBCO Rendezvous, sino a los elementos de un campo de mensaje de tipo `array`). El campo MarketCap, al no tener ninguna especificación de tipo, se enviaría como un campo de mensaje de cadena.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
+ [Creación de controladores de envío de TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)

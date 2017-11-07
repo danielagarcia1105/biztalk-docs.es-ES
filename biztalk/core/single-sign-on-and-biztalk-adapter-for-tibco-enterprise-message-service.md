@@ -1,5 +1,5 @@
 ---
-title: "Un único inicio de sesión y el adaptador de BizTalk para TIBCO Enterprise Message Service | Documentos de Microsoft"
+title: SSO y BizTalk Adapter para TIBCO Enterprise Message Service | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,23 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- messages, processing requests
-- Single Sign-On, using with adapter
-- processing requests
-- HTTP requests, processing
 ms.assetid: 68e85ceb-bf4c-489a-a2c2-1558e718ceed
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 181e54426d568857a9116aa47022adbc7788edaf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 577fa596fadee68c94dfa510de101d01b0ab06e4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-tibco-enterprise-message-service"></a>Inicio de sesión único y adaptador de TIBCO Enterprise Message Service
+
+## <a name="overview"></a>Información general
 Al usar inicio de sesión único (SSO) con Microsoft BizTalk Adapter para TIBCO Enterprise Message Service (EMS), el adaptador obtiene las credenciales de la base de datos de credenciales de SSO; por lo tanto, no es necesario que especifique las credenciales de inicio de sesión para el sistema de servidor en el **propiedades de transporte** cuadro de diálogo.  
   
  En tiempo de diseño, el adaptador obtiene las credenciales para el sistema (para la aplicación afiliada especificada) en el contexto del usuario que inició el proyecto de BizTalk Server. Ese usuario debe ser un usuario de la aplicación. En tiempo de ejecución, use el adaptador de recepción HTTP de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] como ubicación de recepción en escenarios de paso a través al usar SSO.  
@@ -38,4 +35,4 @@ Al usar inicio de sesión único (SSO) con Microsoft BizTalk Adapter para TIBCO 
   
 ## <a name="see-also"></a>Vea también  
  [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications5.md)   
- [Mediante el inicio de sesión único](../core/using-single-sign-on4.md)
+ [Proteger el adaptador](../core/security-in-biztalk-adapter-for-tibco-ems.md)

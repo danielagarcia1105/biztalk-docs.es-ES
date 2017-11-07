@@ -1,25 +1,12 @@
 ---
-title: "Cómo establecer las canalizaciones para PeopleSoft Enterprise | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting pipelines
-- pipelines, setting
-ms.assetid: 36914615-eac0-47b6-9e66-deeb40d21f10
-caps.latest.revision: "9"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 69bebce2dadf0bb038b0e8c56ffa544ad02c78ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: e5f68232aa0cb59835523df0afac01f3d1949489
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-pipelines-for-peoplesoft-enterprise"></a>Configuración de canalizaciones para PeopleSoft Enterprise
 El Adaptador de Microsoft BizTalk para PeopleSoft Enterprise requiere que seleccione una canalización apropiada.  
@@ -47,4 +34,4 @@ El Adaptador de Microsoft BizTalk para PeopleSoft Enterprise requiere que selecc
 4.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío de PeopleSoft](../core/creating-peoplesoft-send-handlers.md)
+ [Creación de controladores de envío de PeopleSoft](../core/creating-peoplesoft-send-handlers.md)

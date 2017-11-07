@@ -1,36 +1,34 @@
 ---
-title: Desarrollar Applications3 | Documentos de Microsoft
+title: "Crear artefactos de la aplicación para JD Edwards OneWorld | Documentos de Microsoft"
+description: "Crear los artefactos de administración de BizTalk Server y en Visual Studio para usar el adaptador de BizTalk para JD Edwards EnterpriseOne en BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- developing, applications
-- applications, developing
 ms.assetid: 87c2b6d4-78e3-4467-af92-02feed9e48d2
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 90142a324089e63b16ef1a73bd12dbf973c37c81
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e51c2053b943b1142759b9c09ae79d61da8a5b58
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="developing-applications"></a>Desarrollo de aplicaciones
-Esta sección contiene información para los programadores que desean crear aplicaciones de BizTalk Server y trabajar con adaptadores para BizTalk Server. Una vez creadas estas aplicaciones, normalmente son administradas por un administrador mediante la información encontrada en la [administrar el adaptador de BizTalk para JD Edwards OneWorld](../core/administering-biztalk-adapter-for-jd-edwards-oneworld.md) sección.  
+# <a name="create-your-application"></a>Crear la aplicación
+Esta sección contiene información para los desarrolladores que desean crear aplicaciones de BizTalk Server y trabajar con el adaptador de BizTalk para JD Edwards OneWorld. Una vez creadas estas aplicaciones, a continuación, se [actualizar el archivo jdearglist y agregue el control de excepciones](using-biztalk-server-exception-handling1.md) a las orquestaciones.
   
 > [!NOTE]
 >  Debe usar el adaptador de archivo de BizTalk Server para los sistemas de JD Edwards instalados en la plataforma Microsoft Windows y la recepción JD Edwards para sistemas instalados en sistemas IBM AS400.  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="next-steps"></a>Pasos siguientes 
   
--   [Agregar el adaptador de BizTalk para JD Edwards OneWorld](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)  
+-   [Agregación del adaptador de BizTalk para JD Edwards OneWorld](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
--   [Crear controladores de envío de OneWorld JD Edwards](../core/creating-jd-edwards-oneworld-send-handlers.md)  
+-   [Agregar los artefactos a la administración de BizTalk](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
--   [Usar propiedades de contexto de mensaje](../core/using-message-context-properties2.md)
+-   [Uso de propiedades de contexto de mensaje](../core/using-message-context-properties2.md)

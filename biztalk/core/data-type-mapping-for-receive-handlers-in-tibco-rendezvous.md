@@ -1,5 +1,5 @@
 ---
-title: "Asignación de tipos de datos para los controladores de recepción de TIBCO Rendezvous | Documentos de Microsoft"
+title: "Asignación de tipo de datos para recibir desde TIBCO Rendezvous | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- data type mapping
-- array types
-- receive handlers, data type mapping
 ms.assetid: 36908a94-3c0d-466e-aa49-f674ba4a26af
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8729a94fdcfc43ca17e498b10784cc163307badc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dcb17ceac0c323bba7a6f25cff0d07473b6d7fa3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="data-type-mapping-for-receive-handlers-in-tibco-rendezvous"></a>Asignación de tipos de datos para controladores de recepción de TIBCO Rendezvous
 El Adaptador de Microsoft BizTalk para TIBCO Rendezvous asigna los tipos TIBCO RV a los tipos de esquemas XML según se especifica en la tabla siguiente.  
@@ -111,4 +107,4 @@ El Adaptador de Microsoft BizTalk para TIBCO Rendezvous asigna los tipos TIBCO R
   
 ## <a name="see-also"></a>Vea también  
  [Asignación de mensaje de TIBCO Rendezvous](../core/message-mapping-in-tibco-rendezvous.md)   
- [Controladores de recepción de creación TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)
+ [Creación de controladores de recepción de TIBCO Rendezvous](../core/creating-tibco-rendezvous-receive-handlers.md)

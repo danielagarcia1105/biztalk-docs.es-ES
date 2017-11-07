@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82ee1a01fafad93fe324e6c6a940944ceeb4bbfb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 87aa9be716e437e80c0e85bd9e462713e48090ad
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliadas con SSO.  
@@ -118,4 +118,4 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
      La aplicación afiliada aparecerá en el adaptador de BizTalk para JD Edwards EnterpriseOne **propiedades de transporte** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on1.md)
+ [Seguridad del adaptador de BizTalk para JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3bc4326d5821dd9fb672d8dabf9751a3fa2d816
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0b4559a3d362d0d778c4d60cc485fa79e8e05efe
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="running-orchestrations"></a>Orquestaciones en ejecución
 Los procedimientos siguientes describen cómo generar, implementar, enlazar e iniciar una orquestación.  
@@ -85,4 +85,4 @@ Los procedimientos siguientes describen cómo generar, implementar, enlazar e in
      Para cambiar el estado a **ejecutando**, haga clic en **actualizar**, o haga clic en la instancia de host y, a continuación, haga clic en **actualizar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on3.md)
+ [Seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

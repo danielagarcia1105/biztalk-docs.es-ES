@@ -1,7 +1,8 @@
 ---
-title: Configurar los datos operativos fuentes para Power BI con BizTalk Server | Documentos de Microsoft
-ms.custom: 
-ms.date: 06/08/2017
+title: Habilitar Power BI | Documentos de Microsoft
+description: Instalar la plantilla de Power BI en Feature Pack en BizTalk Server
+ms.custom: fp1
+ms.date: 11/06/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -9,22 +10,21 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: fe6d3a97-c7c0-4147-baa9-ee12f93248eb
 caps.latest.revision: "11"
-author: tordgladnordahl
-ms.author: tonordah
+author: MandiOhlinger
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09b1b1fd7f350e168b2bb13d6bee2e45c12d49cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d3b3dde09351b9a0aa021ef28645cb114495152
+ms.sourcegitcommit: 30189176c44873e3de42cc5f2b8951da51ffd251
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="configure-the-operational-data-feed-for-power-bi-with-biztalk-server"></a>Configurar la fuente en Power BI con BizTalk Server de datos operativos
-Leer datos operativos proporcionados a través de una fuente oData en [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 
 
 **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]** , enviar seguimiento a Power BI mediante la plantilla de Power BI proporcionan o crear los suyos propios. 
 
 ## <a name="what-is-operational-data"></a>¿Qué es datos operativos
-Datos operativos están obtener información acerca de las instancias y los mensajes que fluyen a través de su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entorno. La fuente de datos operativos es los mismos datos que desea obtener en el concentrador de grupo en el [!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)] consola. Los datos son accesibles y consultan mediante herramientas de visualización, incluidos los Power BI. 
+Datos operativos están obtener información acerca de las instancias y los mensajes que fluyen a través de su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entorno. La fuente de datos operativos es los mismos datos que desea obtener en el concentrador de grupo en [!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]. Los datos se tiene acceso y consultan mediante herramientas de visualización, incluidos los Power BI. 
 
 La fuente incluye las siguientes tablas de datos:
 * Datos de aplicación
@@ -45,39 +45,65 @@ La fuente incluye las siguientes tablas de datos:
 ## <a name="prerequisites"></a>Requisitos previos
 * Descargue e instale [Power BI Desktop](https://powerbi.microsoft.com/desktop/) en cualquier equipo que tenga acceso a la red a la[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Instalar [Feature Pack 1 de](https://www.microsoft.com/download/details.aspx?id=55100) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* Instalar IIS en el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. En la mayoría [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos, IIS ya está instalado. Vea [requisitos de Hardware y Software para BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). 
+* Instalar IIS en el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. En la mayoría [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos, IIS ya está instalado. Vea [requisitos de Hardware y Software para BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). Confirme que IIS está instalado, abra **Administrador de Internet Information Services**. 
 
-## <a name="enable-operational-data-feed"></a>Habilitar la fuente de datos operativas
+## <a name="step-1-enable-operational-data"></a>Paso 1: Habilitar datos operativos
 
 1. Ejecutar Windows PowerShell como administrador (**iniciar** menú, escriba **PowerShell**, haga clic y seleccione **ejecutar como administrador**). 
-2. Vaya a la carpeta donde [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] está instalado **(x86) de archivos de programa/Microsoft BizTalk Server 2016**
-3. Ejecute el siguiente comando. Asegúrese de actualizar su `website`, `domain\user`, `password`, y `domain\group` con sus valores: 
+2. Vaya a la carpeta de instalación de BizTalk (por ejemplo, escriba: `cd 'C:\Program Files (x86)\Microsoft BizTalk Server 2016\'`).
+3. En el siguiente texto, reemplace `Default Web Site`, `operationalDataServiceAppPool`, `domain\user`, `password`, y `domain\group` con sus valores:
 
     ```Powershell
     FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group1>, <domain>\<group2>'
     ```
-4. Después de ejecutar la secuencia de comandos, busque la nueva aplicación de IIS:  
-    1. Abra el explorador web
-    2. Vaya a **http://localhost/BizTalkOperationalDataService**
 
-## <a name="use-the-power-bi-template"></a>Usar la plantilla de Power BI
-Para obtener acceso al archivo de plantilla de Power BI y usar la visualización proporcionada de Microsoft, siga estos pasos:
+    En el ejemplo siguiente, se utiliza el `Default Web Site`, cree un grupo de aplicaciones denominado `PowerBIAppPool`, ejecute el grupo de aplicaciones como el `bootcampbts2016\btsservice` , utilice `BIZTALK-serviceacct` como la contraseña de la cuenta de usuario y otorgar el `BizTalk Server Administrators` permisos del grupo. No olvide escriba lo siguiente, incluido el único proporciona los valores que lo rodea con espacios: 
 
-1. Descargue e instale el [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-2. Vaya a la carpeta de servidor BizTalk Server en **(x86) de archivos de programa \Microsoft BizTalk Server 2016\OperationalDataService**.
-3. Abra la **BizTalkOperationalData.pbit** archivo.
-4. Cuando se le pida desde Power BI, pegue la **http://localhost/\<yourWebSite\>**  dirección URL que ha creado para la fuente de OData. Por ejemplo, escriba **http://localhost/OperationalDataService**. 
+    ```Powershell
+    FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName 'Default Web Site' -ApplicationPool PowerBIAppPool -ApplicationPoolUser bootcampbts2016\btsservice -ApplicationPoolUserPassword  BIZTALK-serviceacct -AuthorizationRoles 'BOOTCAMPBTS2016\BizTalk Server Administrators'
+    ```
 
-    La dirección URL tiene un aspecto similar al siguiente: 
-    
-    ![Pegue la dirección URL de OData en el archivo de plantilla de Power BI](../core/media/pasteurltopowerbitempaltefile.PNG)
+    Cuando haya finalizado, se crea la aplicación BizTalkOperationalDataService en IIS:  
+    ![Aplicación de BizTalkMOperationalDataServer](../core/media/biztalkmanagementservice-apppool.png)
 
-5. Seleccione **carga** para rellenar los campos en el informe de Power BI. 
-6. El archivo de plantilla genera automáticamente la información y las tablas disponibles de la fuente de OData.
 
-Los datos operativos se expone a través del equipo, pueden acceder y ejecutados por otras aplicaciones basadas en permisos. 
+4. Para confirmar que funciona, vaya a `http://localhost/OperationalDataService`. 
 
-Para obtener más información sobre Power BI y cómo publicar el informe de online ir a [PowerBI.com](http://powerbi.microsoft.com)
+    Si se le pedirá al inicio de sesión, inicie sesión con una cuenta que sea miembro de la domain\group que escribió en el paso anterior (`-AuthorizationRoles 'BOOTCAMPBTS2016\BizTalk Server Administrators'`). 
+
+    Si se le pide que abra o guarde BizTalkOperationalDataService.json, completa la instalación. Puede guardarlo localmente y, a continuación, ábralo en el Bloc de notas o Visual Studio para ver el contenido. 
+
+> [!WARNING]
+> La aplicación BizTalkOperationalDataService en IIS usa un archivo web.config. Elementos en el archivo web.config **distinguen mayúsculas de minúsculas**. Por tanto, cuando se ejecuta la secuencia de comandos de Windows PowerShell, asegúrese de escribir las mayúsculas y minúsculas correctas para `-AuthorizationRoles` valor. Si no está seguro del caso, aquí es una manera fácil de averiguar: 
+> 
+> 1. Abra **administración de equipos**y expanda **usuarios y grupos locales**.
+> 2. Seleccione **grupos**y desplácese hacia abajo hasta la **SQLServer...** grupos. 
+> 3. En el ejemplo siguiente, observe **BOOTCAMPBTS2016** esté en mayúsculas. Si ve todo en mayúsculas, a continuación, escriba el nombre del equipo en todo en mayúsculas. 
+> 
+> ![Nombre del equipo está en mayúsculas](../core/media/groups-case.png)
+
+## <a name="step-2-use-the-template-in-power-bi"></a>Paso 2: Usar la plantilla en Power BI
+
+1. Descargue e instale el [Power BI Desktop](https://powerbi.microsoft.com/desktop/) en el servidor BizTalk Server. Puede seleccionar para abrirlo, que es opcional. Si tiene una cuenta profesional o educativa, puede tener acceso a Power BI. Pruebe a iniciar sesión con esa cuenta. O bien, puede probarlo de forma gratuita después de suscribirse. 
+2. Abra la `\Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService` carpeta y abra el `BizTalkOperationalData.pbit` archivo:  
+![Pbit abrir archivo](../core/media/operational-data-pbit.png)
+
+3. Escritorio de Power BI se abre y se le pedirá una dirección URL. Escriba el `http://localhost/<yourWebSite>` dirección URL que ha creado para la fuente de OData. Por ejemplo, escriba `http://localhost/OperationalDataService`. La dirección URL tiene un aspecto similar al siguiente:  
+![Escriba la dirección URL](../core/media/operational-data-url.png)
+
+5. Seleccione **carga**. La ventana de carga y se conecta a las fuentes de oData diferentes en el archivo BizTalkOperationalDataService.json. Cuando se complete, el panel muestra detalles acerca de su entorno.
+
+## <a name="couldnt-authenticate"></a>No se pudo autenticar
+Si obtiene `couldn't authenticate with the credentials provided` mensaje similar al siguiente, es posible que la identidad del grupo de aplicaciones no tiene suficiente acceso a las bases de datos de BizTalk Server. Puede cambiar la identidad del grupo de aplicaciones en IIS para una cuenta con más privilegios, puede ser la cuenta de usuario con sesión iniciada (que tiene privilegios de administrador local). 
+
+![No se pudo autenticar con las credenciales proporcionadas](../core/media/operational-data-authentication-error.png)
+
+## <a name="do-more"></a>Llevar a cabo más
+Esto es sólo el principio. Power BI también tiene una puerta de enlace que se puede instalar en el servidor BizTalk Server. Con la puerta de enlace, puede publicar el panel, obtener datos en tiempo real y crear una programación para actualizar el panel. En el blog siguiente es excelente para que detalla estos pasos: 
+
+[Cómo publicar datos operativos de BizTalk en Power BI – configuración paso a paso](https://blog.sandro-pereira.com/2017/05/07/biztalk-server-2016-feature-pack-1-how-to-publish-biztalk-operational-data-power-bi-step-by-step-configuration-part-3/)
+
+El [aprendizaje guiado](https://powerbi.microsoft.com/guided-learning/) también es un buen lugar para obtener más información acerca de Power BI y todas las cosas que puede hacer. 
 
 ## <a name="see-also"></a>Vea también
 

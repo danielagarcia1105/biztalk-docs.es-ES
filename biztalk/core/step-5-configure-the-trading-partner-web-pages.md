@@ -12,11 +12,11 @@ caps.latest.revision: "38"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25be80ea28231ebf5e7b79ca9c087461dc8efb4c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c3f1dce6a68dc334f9f5f30b1aae938ada6f612a
+ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="step-5-configure-the-trading-partner-web-pages"></a>Paso 5: Configurar las páginas Web de socios comerciales
 ![El paso 5 de 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  En el **Agregar asignación de Script** diálogo cuadro, escriba `BtsHttpReceive.dll` en el **ruta de acceso de solicitud** campo.  
   
-4.  En el **ejecutable** , a continuación, haga clic en el **puntos suspensivos (...)**  botón y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive. Seleccione **BtsHttpReceive.dll**y, a continuación, haga clic en **Aceptar**.  
+4.  En el **ejecutable** , a continuación, haga clic en el **puntos suspensivos (...)**  botón y vaya a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Seleccione **BtsHttpReceive.dll**y, a continuación, haga clic en **Aceptar**.  
   
 5.  Escriba `BizTalk HTTP Receive` en el `Name` campo y, a continuación, haga clic en **restricciones de solicitudes**.  
   

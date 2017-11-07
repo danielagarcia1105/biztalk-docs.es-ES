@@ -1,5 +1,5 @@
 ---
-title: "Solución de problemas de la Adapter3 | Documentos de Microsoft"
+title: Solucionar problemas del adaptador de JD Edwards OneWorld | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,22 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- adapters [JD Edwards OneWorld adapters], connecting [Oracle databases]
-- JD Edwards OneWorld adapters, troubleshooting
-- troubleshooting [JD Edwards OneWorld adapters]
-- adapters [JD Edwards OneWorld adapters], troubleshooting
-- Oracle databases, connecting [JD Edwards OneWorld adapters]
 ms.assetid: 2dd6a951-f113-4f43-b43f-057a239d05c4
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15197bcdc84e813d31a8d5292f5559aca1f8ae01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ba2dd62e1d4b6dc0af1845d3129e69dbe582226
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="troubleshooting-the-adapter"></a>Solucionar problemas del adaptador
 Este tema contiene información que le ayudará a identificar y resolver los problemas que pueden surgir al usar el adaptador de Microsoft BizTalk para JD Edwards OneWorld.  
@@ -57,5 +51,5 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
     ```  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo crear puertos de envío para JD Edwards OneWorld](../core/how-to-create-send-ports-for-jd-edwards-oneworld.md)   
+ [Agregar los artefactos a la administración de BizTalk](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)     
  [Solución de problemas de JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)

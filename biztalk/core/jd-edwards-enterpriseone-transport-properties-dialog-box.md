@@ -14,11 +14,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 21bbb6b4469399aa1952d0a9bdcc41ff7e14c842
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f510009161a21e64d7bbf80c7b1fda20c0c018aa
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="jd-edwards-enterpriseone-transport-properties-dialog-box"></a>Cuadro de diálogo Propiedades de transporte de JD Edwards EnterpriseOne
 Use el cuadro de diálogo Propiedades de transporte de JD Edwards EnterpriseOne para configurar las propiedades requeridas por el adaptador.  
@@ -52,6 +52,6 @@ Use el cuadro de diálogo Propiedades de transporte de JD Edwards EnterpriseOne 
 |Utilice SSO|Seleccione **Sí** si está usando SSO; una contraseña no es necesaria en este caso.|  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on1.md)   
+ [Seguridad en el adaptador de BizTalk para JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications4.md)   
- [Referencia de interfaz de usuario para el adaptador de BizTalk para JD Edwards EnterpriseOne](../core/ui-reference-for-biztalk-adapter-for-jd-edwards-enterpriseone.md)
+ [Referencia de la interfaz de usuario para el adaptador de BizTalk para JD Edwards EnterpriseOne](../core/ui-reference-for-biztalk-adapter-for-jd-edwards-enterpriseone.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aacb0599d28a43888422df0d488458f780f30bdc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 72c83998bbe16899055c839a73795d456a132381
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="deploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>Implementar un adaptador mediante el SDK de adaptador LOB de WCF
 Para implementar un adaptador, debe instalar al ensamblado de adaptador en la caché global de ensamblados (GAC) y, a continuación, registrar el adaptador en el archivo machine.config.  
@@ -162,5 +162,4 @@ Para implementar un adaptador, debe instalar al ensamblado de adaptador en la ca
 12. Cerrar la **Editor de configuración de servicio**.  
   
 ## <a name="see-also"></a>Vea también  
- [Implementación](../../core/deployment-limitations1.md)   
  [Implementar un adaptador mediante el SDK de adaptador LOB de WCF](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

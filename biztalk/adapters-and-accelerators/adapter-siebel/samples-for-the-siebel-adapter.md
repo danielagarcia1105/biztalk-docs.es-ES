@@ -1,30 +1,23 @@
 ---
-title: Ejemplos para el adaptador de Siebel | Documentos de Microsoft
+title: Ejemplos de adaptador de Siebel | Documentos de Microsoft
+description: Ejemplos de adaptador de Siebel WCF que pueden utilizarse con el proveedor de datos, modelo de servicio WCF y BizTalk Server para Siebel
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- Data Provider for Siebel, samples
-- BizTalk Server, samples
-- samples, WCF service model
-- WCF service model, samples
-- samples, BizTalk Server
-- samples, Data Provider for Siebel
-- samples
 ms.assetid: 069d676e-211e-474c-9cf5-c660fdd22014
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8331cad2f05e53e5eecde5975f686c2b767b414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aefe831b03da4f0199bacd775adc6948094cfa1b
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-siebel-adapter"></a>Ejemplos para el adaptador de Siebel
 Ejemplos de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] se clasifican en categorías:  
@@ -34,12 +27,14 @@ Ejemplos de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] se cla
 -   Ejemplos de modelo de servicio WCF  
   
 -   Ejemplos de [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]  
+ 
   
--   Ejemplos de migración  
+Los ejemplos están disponibles en [BizTalk Adapter Pack 2010: ejemplos de adaptador de Siebel](https://www.microsoft.com/download/details.aspx?id=6492). 
+
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
   
- Los ejemplos están disponibles en [http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854).  
-  
- En la lista siguiente contiene los nombres y descripciones de los ejemplos para el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+En la lista siguiente describe los ejemplos.
   
 ## <a name="biztalk-server-samples"></a>Ejemplos de BizTalk Server  
   
@@ -51,7 +46,7 @@ Ejemplos de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] se cla
 |SiebelAdapterIntegrationObjects|Muestra cómo invocar un servicio de negocio de Siebel, que funciona con objetos de integración, mediante el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].|  
 |SiebelPicklist|Muestra cómo insertar valores de tipos de lista de selección en un componente de negocio de Siebel con la [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].|  
   
-## <a name="wcf-service-model-samples"></a>Ejemplos de modelo de servicio WCF  
+## <a name="wcf-service-model-samples"></a>Ejemplos de modelo de servicio WCF 
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  
@@ -65,11 +60,6 @@ Ejemplos de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] se cla
 |---------------------------|-----------------|  
 |ado de Siebel|Muestra cómo utilizar el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].|  
   
-## <a name="migration-sample"></a>Ejemplo de migración  
-  
-|Nombre del directorio de ejemplo|Description|  
-|---------------------------|-----------------|  
-|Siebel_Buss_Comp|Muestra cómo utilizar un proyecto de BizTalk creado con la versión anterior del adaptador de Siebel y ponerla en marcha con basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].|  
-  
+ 
 ## <a name="see-also"></a>Vea también  
-[Desarrollar las aplicaciones de Siebel](../../adapters-and-accelerators/adapter-siebel/develop-your-siebel-applications.md)
+[Desarrollar aplicaciones de Siebel](../../adapters-and-accelerators/adapter-siebel/develop-your-siebel-applications.md)

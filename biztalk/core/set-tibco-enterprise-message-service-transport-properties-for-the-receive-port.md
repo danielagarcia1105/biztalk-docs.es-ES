@@ -1,26 +1,12 @@
 ---
-title: "Establecer propiedades de transporte TIBCO Enterprise Message Service para el puerto de recepción | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- receive ports, setting transport properties
-- transport properties, setting for receive port
-- setting transport properties, receive port
-ms.assetid: bccddf84-d92e-469f-aa6f-4234c91a0be9
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: d94229364e3bed8faaf1407603f17db76c70e6bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 1a32564f9e0e9e81624b39ab0ba156e76b109497
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-tibco-enterprise-message-service-transport-properties-for-the-receive-port"></a>Establecimiento de propiedades de transporte de TIBCO Enterprise Message Service para el puerto de recepción
 Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL** y **Target Namespace** para el sistema TIBCO EMS son los únicos valores de configuración necesarios.  
@@ -67,5 +53,4 @@ Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL
 6.  Haga clic en **aplicar**y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Creación de puertos de envío](../core/creating-send-ports1.md)   
- [Creación de TIBCO Enterprise Message Service controladores de recepción](../core/creating-tibco-enterprise-message-service-receive-handlers.md)
+  [Creación de controladores de recepción de TIBCO Enterprise Message Service](../core/creating-tibco-enterprise-message-service-receive-handlers.md)

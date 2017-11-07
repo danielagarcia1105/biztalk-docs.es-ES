@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 182e73ed45a1473286a301cf859e619cc5d21287
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8daa94a49be4d120180fca9fb82c07b3603cf95
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone"></a>Inicio de sesión único y adaptador de BizTalk para JD Edwards EnterpriseOne
 Si usa el inicio de sesión único (SSO) con el adaptador de Microsoft para JD Edwards EnterpriseOne, el adaptador obtiene las credenciales de la base de datos de credenciales de SSO. Por lo tanto, no es necesario que especifique las credenciales de inicio de sesión para el sistema de servidor en el **propiedades de transporte** cuadro de diálogo.  
@@ -37,4 +37,4 @@ Si usa el inicio de sesión único (SSO) con el adaptador de Microsoft para JD E
   
 ## <a name="see-also"></a>Vea también  
  [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications4.md)   
- [Mediante el inicio de sesión único](../core/using-single-sign-on1.md)
+ [Seguridad del adaptador de BizTalk para JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

@@ -1,5 +1,5 @@
 ---
-title: "Importación de esquemas en BizTalk Server Projects2 | Documentos de Microsoft"
+title: Importar esquemas de JD Edwards EnterpriseOne en Visual Studio | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- importing schemas
-- schemas, importing into BizTalk Server projects
 ms.assetid: 640d5884-953a-46b6-b9dc-b931392a3059
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ebb0a39850029adec06986da5ddad1fc44c33ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: acd61cc8ab63d6859a8e10afb76f93c2f8cb2150
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a>Importación de esquemas en proyectos de BizTalk Server
 En este tema se trata la búsqueda de un servidor de JD Edwards EnterpriseOne y la importación de los esquemas a un proyecto de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -32,7 +29,7 @@ En este tema se trata la búsqueda de un servidor de JD Edwards EnterpriseOne y 
   
  Después de crear el puerto de JD Edwards EnterpriseOne, puede explorar JD Edwards EnterpriseOne abriendo el Asistente para adaptador de Microsoft desde un proyecto de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-### <a name="to-import-schemas-into-a-biztalk-server-project"></a>Procedimiento para importar esquemas en un proyecto de BizTalk Server  
+## <a name="import-schemas-into-visual-studio"></a>Importar esquemas en Visual Studio
   
 1.  Abra [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
@@ -70,7 +67,7 @@ En este tema se trata la búsqueda de un servidor de JD Edwards EnterpriseOne y 
 > [!NOTE]
 >  Si cambia el archivo jdearglist.txt después de la generación del esquema, deberá volver a generar el esquema para actualizar los datos que contiene. Para obtener más información sobre jdearglist.txt, consulte [control de valores de cadena](../core/handling-string-values2.md).  
   
-### <a name="to-select-the-schemas"></a>Procedimiento para seleccionar los esquemas  
+## <a name="select-the-schemas"></a>Seleccionar los esquemas  
   
 1.  En el **seleccionar servicios para importar** página, expanda el nodo de nivel superior de la **objetos comerciales** nodo o la **servicios empresariales** nodo.  
   
@@ -89,5 +86,5 @@ En este tema se trata la búsqueda de un servidor de JD Edwards EnterpriseOne y 
   
 -   I para Consulta  
   
-## <a name="see-also"></a>Vea también  
- [Crear controladores de JD Edwards EnterpriseOne envío](../core/creating-jd-edwards-enterpriseone-send-handlers.md)
+## <a name="next-step"></a>Paso siguiente
+[Usar propiedades de contexto de mensaje](../core/using-message-context-properties1.md)

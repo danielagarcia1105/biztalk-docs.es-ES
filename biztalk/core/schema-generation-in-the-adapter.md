@@ -1,25 +1,12 @@
 ---
-title: "Generación de esquema en el adaptador | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- schemas, generating
-- writing, schemas
-ms.assetid: 43b69383-bae0-401b-9620-d4302db799b2
-caps.latest.revision: "5"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: d10d927e4ede59e716b3f9838c96bac8cd144a81
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 4e4209c75ca52585c0a11141dbe0d9841fa6a5ba
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="schema-generation-in-the-adapter"></a>Generación de esquemas del adaptador
 Un sistema TIBCO Rendezvous no incluye un repositorio de tipos de mensajes. Todos los análisis y construcciones de mensajes se incluyen en el tipo de aplicación Rendezvous. Debido a esta limitación, el adaptador de Microsoft BizTalk para TIBCO Rendezvous no puede proporcionar capacidades de generación de esquemas.  

@@ -12,14 +12,16 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f931a05796856816e19b53ff5cba9f53b48c3e2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75a659d533b68cf525bcd782a2dadce72a6ebb0b
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="step-2-configure-load-test-controller-and-agent-computers"></a>Paso 2: Configurar el controlador de pruebas de carga y equipos de agente
-Edición Visual Studio 2010 Ultimate puede generar carga simular hasta 250 usuarios virtuales en una serie de pruebas de carga local. Para simular más de 250 usuarios virtuales o para iniciar la prueba desde un equipo remoto equipo requiere Visual Studio Load Test Virtual usuario Pack 2010.  
+
+## <a name="overview"></a>Información general
+Visual Studio puede generar carga simular hasta 250 usuarios virtuales en una serie de pruebas de carga local. Para simular más de 250 usuarios virtuales o para iniciar la prueba desde un equipo remoto equipo requiere Visual Studio carga prueba Virtual usuario.  
   
  Todas las pruebas de carga realizadas para esta guía se inició desde dos equipos:  
   
@@ -27,13 +29,9 @@ Edición Visual Studio 2010 Ultimate puede generar carga simular hasta 250 usuar
   
 -   Otro equipo que ejecute como sólo un agente de prueba de carga.  
   
- Resultados de pruebas se almacenan en un repositorio de resultados de pruebas de carga remoto en una base de datos de SQL Server 2008 R2.  
+ Resultados de pruebas se almacenan en un repositorio de resultados de pruebas de carga remoto en una base de datos de SQL Server.  
   
- Para obtener más información sobre el uso de controladores de pruebas y agentes de prueba para distribuir las pruebas de carga entre varias máquinas de pruebas, vea [distribuir cargar pruebas en varias pruebas máquinas usando controladores de pruebas y agentes de prueba](http://go.microsoft.com/fwlink/?LinkId=208406) (http:// ¿go.Microsoft.com/fwlink/? LinkId = 208406).  
+ Para obtener más información sobre el uso de controladores de pruebas y agentes de prueba para distribuir las pruebas de carga entre varias máquinas de pruebas, vea [distribuir cargar pruebas en varias pruebas máquinas usando controladores de pruebas y agentes de pruebas](https://msdn.microsoft.com/library/dd728093.aspx).  
   
 ## <a name="install-and-configure-the-load-test-controller-and-load-test-agents"></a>Instalar y configurar la carga de los agentes de prueba de carga y el controlador de pruebas  
- Para instalar y configurar el controlador de pruebas de carga y agentes de prueba de carga, consulte las secciones siguientes en el tema [instalar y configurar los agentes de Visual Studio y prueba y controladores de compilación](http://go.microsoft.com/fwlink/?LinkId=208455) (http://go.microsoft.com/fwlink/?LinkId=208455):  
-  
--   Para configurar un controlador de pruebas, siga los procedimientos descritos en la [instalar un controlador de pruebas](http://go.microsoft.com/fwlink/?LinkId=208454) sección (http://go.microsoft.com/fwlink/?LinkId=208454).  
-  
--   Para configurar agentes de prueba, siga los procedimientos descritos en la [instalar un agente de prueba](http://go.microsoft.com/fwlink/?LinkId=208456) sección (http://go.microsoft.com/fwlink/?LinkId=208456).
+ Para instalar y configurar el controlador de pruebas de carga y agentes de prueba de carga, consulte [instalar y configurar agentes de prueba](https://docs.microsoft.com/visualstudio/test/lab-management/install-configure-test-agents).

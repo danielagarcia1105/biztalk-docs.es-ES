@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3335d2c41e8c8dad4eabcb9f7a63253bd30e7185
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2bb898906bfd3087ef909e59990a16ce16c2822c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise"></a>Inicio de sesión único y adaptador de BizTalk para PeopleSoft Enterprise
 Cuando se usa inicio de sesión único (SSO) con Microsoft BizTalk Adapter para PeopleSoft Enterprise, el adaptador obtiene las credenciales de la base de datos de credenciales de SSO; por lo tanto, no es necesario que especifique las credenciales de inicio de sesión para el sistema de servidor en el **propiedades de transporte** cuadro de diálogo.  
@@ -37,4 +37,4 @@ Cuando se usa inicio de sesión único (SSO) con Microsoft BizTalk Adapter para 
   
 ## <a name="see-also"></a>Vea también  
  [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications2.md)   
- [Mediante el inicio de sesión único](../core/using-single-sign-on2.md)
+ [Proteger el adaptador](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

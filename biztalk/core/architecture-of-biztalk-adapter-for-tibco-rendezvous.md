@@ -1,29 +1,27 @@
 ---
-title: Arquitectura de BizTalk Adapter para TIBCO Rendezvous | Documentos de Microsoft
+title: Arquitectura del adaptador de TIBCO Rendezvous | Documentos de Microsoft
+description: "Obtenga información acerca del adaptador de BizTalk para TIBCO Rendezvous funciona, incluidos pasar mensajes, en el servidor BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/23/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- passing messages
-- architecture
-- message passing
-- messages, passing
 ms.assetid: 174d6ceb-8e1d-4c93-827d-8155cfe47836
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 801f92453ffc85d83d57c1caa5c89ec618b96ed0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3bfee2b51df8781091ea30e512810bae21a5f2a
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="architecture-of-biztalk-adapter-for-tibco-rendezvous"></a>Arquitectura del adaptador de BizTalk para TIBCO Rendezvous
+# <a name="architecture-of-the-tibco-rendezvous-adapter"></a>Arquitectura del adaptador de TIBCO Rendezvous
+
+## <a name="overview"></a>Información general
 El Adaptador de Microsoft BizTalk para TIBCO Rendezvous proporciona conectividad bidireccional entre [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y TIBCO Rendezvous. Este adaptador utiliza tanto la API TIBCO Rendezvous como la API del marco de trabajo de adaptadores BizTalk para proporcionar una elevada integración.  
   
  TIBCO Rendezvous es un producto de software que proporciona un bus de mensaje para la integración de aplicaciones empresariales(EAI). TIBCO proporciona API de mensajería en C, C++, Java, Visual Basic y Microsoft .NET Framework para recibir canales de datos en hojas de cálculo de Microsoft Office Excel y otras aplicaciones de su elección.  
@@ -40,5 +38,4 @@ El Adaptador de Microsoft BizTalk para TIBCO Rendezvous proporciona conectividad
  ![](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
   
 ## <a name="see-also"></a>Vea también  
- [Introducción](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)   
- [Planeamiento y arquitectura](../core/planning-and-architecture15.md)
+ [Introducción](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)  

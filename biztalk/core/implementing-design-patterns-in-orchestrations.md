@@ -1,5 +1,6 @@
 ---
 title: "Implementar modelos de diseño en orquestaciones | Documentos de Microsoft"
+description: "El agregador, enrutamiento por contenidos, enrutador dinámico, control de errores, agente de mensajes y varios patrones de diseño en BizTalk Server"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,39 +8,18 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- Aggregator pattern, orchestrations
-- Error Handling pattern [orchestrations]
-- patterns, orchestrations
-- designing, orchestrations
-- orchestrations, designing
-- Exception Handling and Compensation pattern [orchestrations]
-- Parallel Convoy pattern [orchestrations]
-- Dynamic Router pattern [orchestrations]
-- orchestrations, patterns
-- patterns
-- Composed Message Processor pattern [orchestrations]
-- Suspend with Retry pattern, orchestrations
-- Calling Pipelines from Orchestration pattern [orchestrations]
-- Message Filter pattern [orchestrations]
-- Message Broker pattern [orchestrations]
-- Content-Based Router pattern [orchestrations]
-- Sequential Convoy pattern [orchestrations]
-- Scatter and Gather pattern [orchestrations]
-- Splitter pattern, orchestrations
-- Message Translator pattern [orchestrations]
 ms.assetid: f62ba955-018a-40e7-b303-497acc906019
 caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a4837ddf1199425a76a6fa82bbfd6e44615b6c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 290b31e8d5494c7a00eb02517e910fc877da9124
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="implementing-design-patterns-in-orchestrations"></a>Implementar patrones de diseño en las orquestaciones
+# <a name="implement-design-patterns-in-orchestrations"></a>Implementar modelos de diseño en orquestaciones
 En esta sección se describen los patrones comunes para programar BizTalk Server, así como los patrones de integración empresarial. Se puede aprovechar un solo patrón o combinar varios patrones para diseñar su proceso empresarial y, posteriormente, implementar el diseño mediante el uso de las formas del Diseñador de orquestaciones de BizTalk.  
   
 ## <a name="design-patterns"></a>Patrones de diseño  
@@ -83,13 +63,13 @@ throw(excp);
  El patrón traductor de mensajes convierte un mensaje de un formato a otro. Puede implementar este patrón mediante el uso de una asignación de BizTalk con un **transformar** forma de una orquestación. Para obtener un ejemplo de este patrón, vea HelloOrchestration.odx en [HelloWorld (ejemplo de BizTalk Server)](../core/helloworld-biztalk-server-sample.md).  
   
 ### <a name="parallel-convoy"></a>Convoy paralelo  
- El patrón de convoy paralelo permite agrupar varios elementos individuales para obtener algo que un elemento individual no puede obtener por sí solo. El conjunto de elementos relacionados puede llegar en cualquier orden, pero BizTalk Server debe recibir todos ellos antes de empezar el proceso. Para obtener un ejemplo de este patrón, vea [http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035).  
+ El patrón de convoy paralelo permite agrupar varios elementos individuales para obtener algo que un elemento individual no puede obtener por sí solo. El conjunto de elementos relacionados puede llegar en cualquier orden, pero BizTalk Server debe recibir todos ellos antes de empezar el proceso. 
   
 ### <a name="scatter-and-gather"></a>Dispersión y recopilación  
- El patrón de dispersión y recopilación permite enviar mensajes a varios destinatarios y recibir los mensajes de cada destinatario. Para implementar este patrón, puede usar el patrón divisor y de agregación. Usar el patrón de agregación para ensamblar los resultados del patrón divisor y colocarlos bajo un **acciones paralelas** forma. Para obtener un ejemplo del patrón divisor, vea SDK de ejemplo con nombre Implementing Scatter and Gather Pattern en [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).  
+ El patrón de dispersión y recopilación permite enviar mensajes a varios destinatarios y recibir los mensajes de cada destinatario. Para implementar este patrón, puede usar el patrón divisor y de agregación. Usar el patrón de agregación para ensamblar los resultados del patrón divisor y colocarlos bajo un **acciones paralelas** forma. 
   
 ### <a name="sequential-convoy"></a>Convoy secuencial  
- El patrón de convoy secuencial permite agrupar varios elementos individuales para obtener algo que un elemento individual no puede obtener por sí solo. Un convoy secuencial es un conjunto de elementos relacionados que tienen un orden predefinido. Aunque los elementos no tienen que ser exactamente iguales, BizTalk Server debe recibir los elementos en un orden secuencial. Para obtener un ejemplo de este patrón, vea [http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035).  
+ El patrón de convoy secuencial permite agrupar varios elementos individuales para obtener algo que un elemento individual no puede obtener por sí solo. Un convoy secuencial es un conjunto de elementos relacionados que tienen un orden predefinido. Aunque los elementos no tienen que ser exactamente iguales, BizTalk Server debe recibir los elementos en un orden secuencial. 
   
 ### <a name="splitter"></a>Divisor  
  El patrón divisor toma un único mensaje y lo divide en varios mensajes.  
@@ -98,4 +78,4 @@ throw(excp);
  El patrón de suspensión con reintento permite a la orquestación suspender un mensaje cuando hay un error. La suspensión ocurre dentro de un bucle, de modo que la orquestación se suspende, se solicita intervención y, a continuación, se vuelve a intentar repetir la operación un número fijo de veces.  
   
 ## <a name="see-also"></a>Vea también  
- [Diseñar un flujo de orquestación](../core/designing-orchestration-flow.md)
+ [Diseño del flujo de las orquestaciones](../core/designing-orchestration-flow.md)

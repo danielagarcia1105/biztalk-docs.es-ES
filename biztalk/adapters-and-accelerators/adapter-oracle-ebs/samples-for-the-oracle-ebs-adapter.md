@@ -1,7 +1,8 @@
 ---
-title: Ejemplos para el adaptador de Oracle EBS | Documentos de Microsoft
+title: Ejemplos de adaptadores de Oracle EBS | Documentos de Microsoft
+description: Ejemplos de adaptadores de WCF de Enterprise Business Suite de Oracle que pueden usarse con BizTalk Server, el modelo de servicio WCF y el modelo del canal WCF
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 05f4bd3d251872dc480c939ec864db9d61f14bd7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4069b7f5916291544ce76534e04b20af5680d69
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-oracle-ebs-adapter"></a>Ejemplos para el adaptador de Oracle EBS
 Ejemplos de [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] se clasifican en categorías:  
@@ -29,9 +30,12 @@ Ejemplos de [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
   
 -   Ejemplos de Microsoft Office SharePoint Server  
   
- Los ejemplos están disponibles en [http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854). Las secuencias de comandos SQL para crear las tablas de interfaz, programas simultáneos, las tablas y paquetes utilizados en los ejemplos también están disponibles junto con los ejemplos para el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
+ Los ejemplos están disponibles en [BizTalk Adapter Pack 2010: ejemplos de adaptadores de Oracle E-Business Suite](https://www.microsoft.com/download/details.aspx?id=6464). Las secuencias de comandos SQL para crear las tablas de interfaz, programas simultáneos, tablas y los paquetes que se utiliza en los ejemplos se incluyen. 
   
- Las siguientes tablas contienen los nombres y descripciones de los ejemplos para el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
+  
+ En la lista siguiente describe los ejemplos. 
   
 ## <a name="biztalk-server-samples"></a>Ejemplos de BizTalk Server  
   
@@ -46,7 +50,7 @@ Ejemplos de [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
 |PollingUsingSelectStatement|Muestra cómo configurar una consulta de sondeo con una instrucción SELECT y recibir los resultados utilizando la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
 |PollingUsingStoredProc|Muestra cómo configurar una consulta de sondeo con un procedimiento almacenado y recibir los resultados utilizando la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].|  
   
-## <a name="wcf-service-model-samples"></a>Ejemplos de modelo de servicio WCF  
+## <a name="wcf-service-model-sasamplesmples"></a>Modelo de servicio de WCF Sasamplesmples  
   
 |Nombre del directorio de ejemplo|Description|  
 |---------------------------|-----------------|  

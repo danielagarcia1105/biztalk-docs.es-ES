@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b1461ac2ea0ef9cfee71965fc2cc800d617d1d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97af99271a4d63046d2a95a47caed7f145eaef24
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-configure-the-virtual-directory"></a>Cómo configurar el directorio Virtual
 En este tema se describen los procedimientos para configurar el directorio virtual y verificar la aplicación para un usuario.  
@@ -47,4 +47,4 @@ En este tema se describen los procedimientos para configurar el directorio virtu
 9. En el **Agregar aplicación** cuadro de diálogo, haga clic en **Aceptar**. La carpeta se convierte a una aplicación (puede ver el cambio en el icono, de un icono de carpeta al icono de sitio web).  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on2.md)
+ [Proteger el adaptador](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

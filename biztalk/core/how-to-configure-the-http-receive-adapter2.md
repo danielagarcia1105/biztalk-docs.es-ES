@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c39e55ca233ef9875d3d56d25312ef879e3c539
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ed6e40036308aa872a2d6ba23da8209ee9f80cfc
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-configure-the-http-receive-adapter"></a>Para configurar adaptador de recepción de HTTP
 El adaptador de recepción HTTP se puede usar para enviar mensajes a BizTalk Server. El adaptador de recepción HTTP es una extensión ISAPI de Internet Information Services (IIS) que se hospeda en el proceso IIS.  
@@ -39,4 +39,4 @@ El adaptador de recepción HTTP se puede usar para enviar mensajes a BizTalk Ser
 2.  Reinicie IIS para asegurarse de que todos los cambios entran en vigor.  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on3.md)
+ [Seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

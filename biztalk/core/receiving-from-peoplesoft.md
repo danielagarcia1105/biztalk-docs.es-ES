@@ -1,5 +1,5 @@
 ---
-title: "Recepción desde PeopleSoft | Documentos de Microsoft"
+title: "Recepción de PeopleSoft | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 11c5add7e71e56f250b95736d97f0434adf72282
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cca87df1875f648abe2a986fb0d94b16865ee72f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="receiving-from-peoplesoft"></a>Recepción desde PeopleSoft
 Microsoft Adapter para PeopleSoft Enterprise es un adaptador de envío. El adaptador admite los envíos de solicitud-respuesta para que pueda enviar una consulta y obtener una respuesta. No obstante, si únicamente desea recibir datos de PeopleSoft, deberá realizar otros dos pasos:  
@@ -25,7 +25,7 @@ Microsoft Adapter para PeopleSoft Enterprise es un adaptador de envío. El adapt
   
 2.  Crear un puerto de recepción accesible desde PeopleSoft, como un puerto que use el adaptador HTTP. Use la canalización de recepción personalizada con el puerto de recepción.  
   
-## <a name="the-set-namespace-pipeline-component"></a>Componente de canalización de establecer espacio de nombres  
+## <a name="set-namespace-pipeline-component"></a>Establezca el componente de canalización de Namespace  
  Los mensajes recibidos de PeopleSoft no incluyen espacios de nombres. El componente de canalización de establecer espacio de nombres permite agregar un espacio de nombres al mensaje entrante.  
   
  La ubicación predeterminada para el componente de canalización de establecer espacio de nombres es C:\Archivos de programa\Microsoft BizTalk Adapters for Enterprise Applications\Pipeline Component. Debe copiar el componente Microsoft.BizTalk.Adapters.Pipeline.SetNSForMsg.dll en el directorio Pipeline Component usado por BizTalk. También debe agregar el componente al cuadro de herramientas de Visual Studio para usarlo en el Diseñador de canalizaciones.  
@@ -34,7 +34,7 @@ Microsoft Adapter para PeopleSoft Enterprise es un adaptador de envío. El adapt
   
  Para obtener información acerca de cómo agregar el componente en el cuadro de herramientas de Visual Studio, vea [cómo utilizar el cuadro de herramientas](../core/how-to-use-the-toolbox.md).  
   
-## <a name="configuring-the-set-namespace-pipeline-component"></a>Configuración del componente de canalización de establecer espacio de nombres  
+## <a name="configure-the-set-namespace-pipeline-component"></a>Configurar el componente de canalización de Namespace de conjunto  
  El componente de canalización de establecer espacio de nombres tiene dos propiedades que se pueden establecer:  
   
 |Use|Para|  

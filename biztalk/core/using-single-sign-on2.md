@@ -1,25 +1,12 @@
 ---
-title: "Usar inicio de sesión único-On2 | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Single Sign-On
-- SSO
-ms.assetid: 994746bf-0839-45b3-857d-70f80814b6b9
-caps.latest.revision: "8"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 0bab2b5fe6b78989113cc1d47f16e8ac8c85ebb4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2c278864c45e045cd04c539ad8b077c998242fe9
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-single-sign-on"></a>Mediante el inicio de sesión único
 Microsoft BizTalk Adapter para PeopleSoft Enterprise admite el inicio de sesión único (SSO). Una aplicación afiliada creada por las herramientas de inicio de sesión único empresarial representa un sistema servidor como PeopleSoft.  
@@ -28,7 +15,7 @@ Microsoft BizTalk Adapter para PeopleSoft Enterprise admite el inicio de sesión
   
 -   [Requisitos para el inicio de sesión único](../core/requirements-for-single-sign-on2.md)  
   
--   [Un único inicio de sesión y el adaptador de BizTalk para PeopleSoft Enterprise](../core/single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise.md)  
+-   [Inicio de sesión único y adaptador de BizTalk para PeopleSoft Enterprise](../core/single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise.md)  
   
 -   [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications2.md)  
   

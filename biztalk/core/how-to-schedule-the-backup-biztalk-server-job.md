@@ -1,69 +1,83 @@
 ---
-title: "Cómo programar el trabajo de copia de seguridad de BizTalk Server | Documentos de Microsoft"
+title: Programar el trabajo de copia de seguridad de BizTalk Server | Documentos de Microsoft
+description: "Configurar los parámetros del trabajo de copia de seguridad de BizTalk Server y establezca la programación en ejecución mensual, semanal, diariamente o cada hora"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/02/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- backing up, scheduling
-- backing up, backup jobs
-- scheduling, backup jobs
 ms.assetid: 6e89fff4-da87-4cdc-acc4-46f03c3269fc
 caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d6b40ae933874e1c25cb3a93dbbeab514ef5dfe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f09ca97f65605ac3bf427d1c1fcc322a14feb53
+ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/03/2017
 ---
-# <a name="how-to-schedule-the-backup-biztalk-server-job"></a>Cómo programar el trabajo de copia de seguridad de BizTalk Server
+# <a name="schedule-the-backup-biztalk-server-job"></a>Programar el trabajo de copia de seguridad de BizTalk Server
 El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ejecuta de acuerdo con lo programado mediante el servicio Agente SQL Server. Si desea crear copias de seguridad con mayor o menor frecuencia, puede cambiar la programación del trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante SQL Server Management Studio.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro de la función fija de servidor sysadmin de SQL Server.  
+Inicie sesión con una cuenta que sea miembro del rol sysadmin de SQL Server rol fijo de servidor.  
   
-### <a name="to-schedule-the-backup-biztalk-server-job-sql-server-2008"></a>Para programar el trabajo de copia de seguridad de BizTalk Server (SQL Server 2008)  
+## <a name="schedule-the-backup-biztalk-server-job"></a>Programar el trabajo de copia de seguridad de BizTalk Server
   
-1.  En el equipo que contiene la base de datos de administración de BizTalk, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **Microsoft SQL Server Management Studio**.  
+1.  En el servidor SQL Server que hospeda la base de datos de administración de BizTalk, abra **SQL Server Management Studio**.
+
+2.  En **conectar al servidor**, escriba el nombre del servidor SQL donde el servidor BizTalk Server que residen las bases de datos, seleccione el tipo de autenticación, y, a continuación, **conectar**.  
   
-2.  En el **conectar al servidor** cuadro de diálogo, especifique el nombre del servidor SQL donde las bases de datos del servidor BizTalk Server residen y la autenticación apropiada escriba y, a continuación, haga clic en **conectar**.  
+3.  En el Explorador de objetos, haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.  
   
-3.  En el Explorador de objetos, haga doble clic en **Agente SQL Server**y, a continuación, haga clic en **trabajos**.  
+4.  En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)**y, a continuación, seleccione **propiedades**.  
   
-4.  En el panel de detalles, haga clic en **copia de seguridad de BizTalk Server (BizTalkMgmtDb)**y, a continuación, haga clic en **propiedades**.  
+5.  En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, en **seleccionar una página**, seleccione **pasos**.  
   
-5.  En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)** cuadro de diálogo **seleccionar una página**, haga clic en **pasos**.  
+6.  En el **lista de pasos de trabajo**, seleccione **BackupFull**y, a continuación, seleccione **editar**.  
   
-6.  En el **lista de pasos de trabajo**, haga clic en **BackupFull**y, a continuación, haga clic en **editar**.  
-  
-7.  En el **Job Step Properties - BackupFull** cuadro de diálogo, en la **comando** cuadro, edite el comando cambiando la frecuencia para el intervalo deseado en el que se va a realizar una copia de seguridad completa: **'h'** (cada hora), **tenía '** (diariamente), **'w'** (semanalmente), **'m '** (mensualmente), **'y'** (anualmente) y, a continuación, haga clic en **Aceptar** .  
+7.  En el **Job Step Properties - BackupFull**, en la **comando** cuadro, actualice el comando cambiando la frecuencia para ejecutar una copia de seguridad completa: **'h'** (cada hora), **tenía '**  (diariamente), **'w'** (semanalmente), **'m '** (mensualmente), **'y'** (anualmente). Seleccione **Aceptar**.  
   
     > [!NOTE]
-    >  La primera vez que se ejecuta el trabajo de copia de seguridad de BizTalk Server durante un nuevo periodo, se realiza una copia de seguridad completa.  
+    >  La primera vez que se ejecuta el trabajo de copia de seguridad de BizTalk Server, se completa una copia de seguridad completa.  
+    
+8.  Configurar adicionales  **@frequency**  parámetros:  
   
-8.  En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)** cuadro de diálogo **seleccionar una página**, haga clic en **programaciones**.  
+    - **@ForceFullBackupAfterPartialSetFailure**: El valor predeterminado es **false**. Cuando **false**, si la copia de seguridad completa se produce un error, el sistema esperará a que el siguiente ciclo hasta que se realiza la copia de seguridad completa.  
+    
+        > [!NOTE]
+        >  Si su  **@frequency**  configuración es larga (por ejemplo, semanal, mensual, anual), a continuación, establecer este parámetro en **false** puede ser peligroso. En este escenario, puede ser preferible establecer esta marca en **true**. Cuando **true**, cada vez que hay un error, el sistema fuerza automáticamente para crear una copia de seguridad completa. Puede haber un impacto de rendimiento de pequeñas, pero es safter para que un sistema recuperable.
   
-9. En el **lista de programaciones**, haga clic en **MarkAndBackupLogSched**y, a continuación, haga clic en **editar**.  
+    - **@BackupHour**: Es de valor predeterminado es NULL. Este parámetro está directamente relacionado con  **@Frequency** . Cuando se establece la frecuencia en **h** (cada hora), establecer qué hora del día que desee ejecutar la copia de seguridad completa. Puede elegir un valor entre 0 (medianoche) a 23 (11 P.M.). Si se deja en blanco, la copia de seguridad ejecuta cada hora.  
+    
+       > [!NOTE]
+        >  Si establece este parámetro con un número que está fuera del intervalo de 0 a 23 (por ejemplo, 100 o -1), el sistema convierte en 0.
   
-10. En el **Job Schedule Properties - MarkAndBackupLogSched** cuadro de diálogo, en el tipo de programación, seleccione **periódica** en el cuadro de lista desplegable (si no está ya seleccionada).  
+    - **@UseLocalTime**: Un parámetro adicional que se indica para usar la hora local. De forma predeterminada, el trabajo funciona con la hora UTC. Por lo que si vive en Australia (que es UTC + 10 horas), la copia de seguridad se ejecuta en 10 am en lugar de medianoche. Como práctica recomendada, se recomienda establecerlo en **1** (true).  
+  
+9.  En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, en **seleccionar una página**, haga clic en **programaciones**.  
+  
+10. En el **lista de programaciones**, haga clic en **MarkAndBackupLogSched**y, a continuación, haga clic en **editar**.  
+  
+11. En el **Job Schedule Properties - MarkAndBackupLogSched**, en el tipo de programación, seleccione **periódica** en la lista desplegable.  
   
      De forma predeterminada, el trabajo está programado para ejecutarse cada 15 minutos.  
+     
+    > [!NOTE]
+    >  Puede cambiar este valor según los requisitos, pero la primera prueba en entornos de no producción. Establecer este valor demasiado bajos resultados en copias de seguridad frecuentes y lo agrega a la carga en segundo plano en el entorno de SQL. Al establecer este valor demasiado alto puede aumentar el tamaño de los registros de transacciones y afectar al rendimiento. En algunas situaciones, se recomienda dejar el valor predeterminado.    
   
-11. Actualice la programación según corresponda y, a continuación, haga clic en **Aceptar**.  
+12. Actualice la programación si lo desea y, a continuación, seleccione **Aceptar**.  
   
     > [!NOTE]
-    >  Para obtener más información sobre la programación de trabajos del Agente SQL Server, vea "[programar un trabajo](http://go.microsoft.com/fwlink/?LinkId=195887)."  
+    >  [Programar trabajos](https://docs.microsoft.com/sql/ssms/agent/schedule-a-job) proporcionan más detalles.
   
-12. En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)** cuadro de diálogo, haga clic en **Aceptar**.  
+13. En el **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, haga clic en **Aceptar**.  
   
-## <a name="see-also"></a>Vea también  
- [Cómo configurar el trabajo de copia de seguridad de BizTalk Server](../core/how-to-configure-the-backup-biztalk-server-job.md)   
- [Cómo configurar el sistema de destino de trasvase de registros](../core/how-to-configure-the-destination-system-for-log-shipping.md)   
- [Cómo restaurar las bases de datos](../core/how-to-restore-your-databases.md)   
- [Información avanzada sobre la copia de seguridad y restauración](../core/advanced-information-about-backup-and-restore1.md)
+## <a name="more-good-stuff"></a>Otros recursos útiles  
+ [Configurar el trabajo de copia de seguridad de BizTalk Server](../core/how-to-configure-the-backup-biztalk-server-job.md)   
+ [Configurar el sistema de destino de trasvase de registros](../core/how-to-configure-the-destination-system-for-log-shipping.md)   
+ [Restaurar las bases de datos](../core/how-to-restore-your-databases.md)   
+ [Información avanzada sobre copias de seguridad y restauración](../core/advanced-information-about-backup-and-restore1.md)

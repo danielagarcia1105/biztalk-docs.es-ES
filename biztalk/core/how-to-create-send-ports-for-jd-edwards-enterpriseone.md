@@ -1,28 +1,12 @@
 ---
-title: "Cómo crear puertos de envío para JD Edwards EnterpriseOne | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, send ports
-- send ports, creating [JD Edwards EnterpriseOne adapters]
-- adapters [JD Edwards EnterpriseOne adapters], send ports
-- send ports, JD Edwards EnterpriseOne adapters
-- creating, send ports [JD Edwards EnterpriseOne adapters]
-ms.assetid: 687f9207-ad3e-41ea-8640-5b9b6efbc14e
-caps.latest.revision: "10"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 36a3e8d2d3e8e1db230a03d9c4a0351d3a0f8394
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: fe877aa8c7b76a638df93a073eed0cf26f71a609
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-create-send-ports-for-jd-edwards-enterpriseone"></a>Creación de puertos de envío para JD Edwards EnterpriseOne
 Mediante[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], cree un puerto de envío.  
@@ -45,5 +29,3 @@ Mediante[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], 
   
 5.  Haga clic en **Aceptar**.  
   
-## <a name="see-also"></a>Vea también  
- [Crear controladores de JD Edwards EnterpriseOne envío](../core/creating-jd-edwards-enterpriseone-send-handlers.md)

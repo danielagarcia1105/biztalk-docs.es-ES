@@ -1,30 +1,17 @@
 ---
-title: "Cómo establecer las propiedades de transporte TIBCO Rendezvous | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting transport properties
-- transport properties, setting
-ms.assetid: db8e8a57-a942-44d7-a651-623aa614c6be
-caps.latest.revision: "13"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 9c9ff40d5319daa0a71d67aa3fd132c3d115923e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: b4fabb9146b4f559dd1a41b6e3b7da5ce9489d1f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-tibco-rendezvous-transport-properties"></a>Establecimiento de propiedades de transporte de TIBCO Rendezvous
 Las propiedades de transporte de TIBCO Rendezvous se usan para el tiempo de ejecución. En el **propiedades de transporte** pantalla, Establece los parámetros de conexión que identifican el dominio TIBCO Rendezvous donde desea publicar los mensajes generados.  
   
-### <a name="to-specify-tibco-rendezvous-transport-properties"></a>Para especificar las propiedades de transporte de TIBCO Rendezvous  
+## <a name="enter-tibco-rendezvous-transport-properties"></a>Especifique las propiedades de transporte de TIBCO Rendezvous  
   
 1.  En el **propiedades de transporte de TIBCO Rendezvous** pantalla, expanda **propiedades de remitente certificado** y escriba la información siguiente.  
   
@@ -62,7 +49,7 @@ Las propiedades de transporte de TIBCO Rendezvous se usan para el tiempo de ejec
     |--------------|----------------|  
     |**Demonio**|Valor predeterminado está vacío.<br /><br /> Parámetro del demonio del transporte de Rendezvous.|  
     |**Red**|Valor predeterminado está vacío.<br /><br /> Parámetro de red del transporte de Rendezvous.|  
-    |**ssNoVersion**|Valor predeterminado está vacío.<br /><br /> Parámetro de servicio del transporte de Rendezvous.|  
+    |**Servicio**|Valor predeterminado está vacío.<br /><br /> Parámetro de servicio del transporte de Rendezvous.|  
   
 5.  Proporcione credenciales mediante el inicio de sesión único (SSO).  
   
@@ -71,7 +58,7 @@ Las propiedades de transporte de TIBCO Rendezvous se usan para el tiempo de ejec
     1.  Seleccione **Sí** en el **usar SSO** usar Single Sign-On.  
   
         > [!NOTE]
-        >  Vea [utilizando Single Sign-On](../core/using-single-sign-on5.md) para obtener información acerca de cómo configurar SSO.  
+        >  Vea [seguridad](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md) para obtener información acerca de cómo configurar SSO.  
   
     2.  Seleccione una aplicación afiliada de la lista.  
   
@@ -85,4 +72,4 @@ Las propiedades de transporte de TIBCO Rendezvous se usan para el tiempo de ejec
      Debe establecer parámetros de conexión para el adaptador de BizTalk para TIBCO Rendezvous tener acceso a TIBCO Rendezvous.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear controladores de envío TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
+ [Creación de controladores de envío de TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)

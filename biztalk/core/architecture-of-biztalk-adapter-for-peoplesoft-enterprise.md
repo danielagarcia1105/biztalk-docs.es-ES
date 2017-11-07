@@ -1,5 +1,6 @@
 ---
 title: Arquitectura de BizTalk Adapter para PeopleSoft Enterprise | Documentos de Microsoft
+description: "Describe cómo se reciben los mensajes, cómo los mensajes se valida y proporciona información acerca de los métodos de interfaz de componente cuando se usa el adaptador de PeopleSoft con BizTalk Server"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,29 +8,24 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- validating, XML messages
-- architecture
-- XML, messages
-- XML, validating
 ms.assetid: f246e974-a082-430c-ad15-23a5e597738b
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 377e49af3a20302b92a4214959b534c9d0949a93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3eb0f43dacdbd6036ef59fa3fe16102d4fe12379
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="architecture-of-biztalk-adapter-for-peoplesoft-enterprise"></a>Arquitectura del adaptador de BizTalk para PeopleSoft Enterprise
+# <a name="peoplesoft-enterprise-adapter-architecture"></a>Arquitectura del adaptador de PeopleSoft Enterprise
 Durante el funcionamiento básico del adaptador de Microsoft BizTalk para PeopleSoft Enterprise, el adaptador recibe un mensaje XML de BizTalk Server. Incluye el mensaje XML en un sobre SOAP. El adaptador de BizTalk para PeopleSoft Enterprise reenvía las solicitudes SOAP al servidor. El adaptador se comunica con el sistema PeopleSoft mediante las clases psjoa de PeopleSoft, que conectan a este sistema mediante el protocolo de transacción Jolt. El sistema PeopleSoft recibe la solicitud y ejecuta la lógica empresarial. La respuesta se devuelve a través de un proceso similar.  
   
  ![](../core/media/psadapter-01-architecture.gif "PSAdapter_01_Architecture")  
-Arquitectura del adaptador  
+
   
-## <a name="peoplesoft-component-interface-methods"></a>Métodos de interfaces de componentes de PeopleSoft  
+## <a name="component-interface-methods"></a>Métodos de las interfaces de componentes  
  Las API básicas proporcionadas por la interfaz de componente de PeopleSoft son de una naturaleza de bajo nivel. El cliente requiere múltiples invocaciones de estos API. Por ejemplo, para obtener la propiedad de una instancia de un componente de interfaz, el cliente necesita una o dos llamadas para establecer los valores clave, seguidas de una llamada del método Get de nivel inferior. A continuación, debe enviar varias llamadas para obtener las propiedades. Con el adaptador de BizTalk para PeopleSoft Enterprise, se proporciona un nuevo conjunto de métodos estándar (Get, Create, Find y Update), de modo que el cliente solo debe realizar una única llamada para obtener el mismo resultado. Para ello, se deja que el adaptador de BizTalk para PeopleSoft Enterprise realice varias llamadas de parte del cliente. Para obtener más información acerca de los métodos, vea [métodos de interfaz de componente de apéndice A:](../core/appendix-a-component-interface-methods.md).  
   
  Para crear un esquema para PeopleSoft, el adaptador de BizTalk para PeopleSoft Enterprise recupera las definiciones o metadatos de la interfaz del componente PeopleSoft.  
@@ -48,4 +44,3 @@ Arquitectura del adaptador
   
 ## <a name="see-also"></a>Vea también  
  [Introducción](../core/getting-started-with-biztalk-adapter-for-peoplesoft-enterprise.md)   
- [Planeamiento y arquitectura](../core/planning-and-architecture13.md)

@@ -1,29 +1,12 @@
 ---
-title: "Implementación de puertos y Assemblies4 | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- deploying assemblies
-- ports, deploying
-- Deployment Wizard
-- deploying ports
-- assemblies, deploying
-- deployment, ports and assemblies
-ms.assetid: 5a94a2c8-748c-4d1c-a87e-1cd763565886
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: b83df400cba64ee55cab230826bf5bf75b1bca69
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: ac85aec2f1153d5117c95627e573ec563d58dbc2
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="deploying-ports-and-assemblies"></a>Implementar puertos y ensamblados
 Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede duplicar puertos y ensamblados en un equipo de destino. BizTalk Server exporta la configuración de ubicación de recepción/puertos de envío en un archivo XML.  
@@ -39,8 +22,3 @@ Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 > [!NOTE]
 >  El adaptador de Microsoft BizTalk para JD Edwards OneWorld solo necesita que tenga Visual Studio en un equipo de origen (desarrollo). Visual Studio no es necesario en el equipo de producción.  
   
-## <a name="in-this-section"></a>En esta sección  
-  
--   [Importar archivos de enlace](../core/importing-binding-files3.md)  
-  
--   [Limitaciones de la implementación](../core/deployment-limitations2.md)

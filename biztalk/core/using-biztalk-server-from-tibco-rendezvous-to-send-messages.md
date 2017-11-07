@@ -1,26 +1,12 @@
 ---
-title: Uso de BizTalk Server desde TIBCO Rendezvous para enviar mensajes | Documentos de Microsoft
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- messages, sending
-- sending messages
-- BizTalk Server, using from TIBCO Rendezvous
-ms.assetid: 72057d42-32b5-4748-81e4-5ffb89630f5a
-caps.latest.revision: "6"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: a4556ce5ca90b3c62f779d2df55e78c4506458d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/using-tibco-rendezvous-send-ports-from-biztalk-server/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: d4a4f4fce200089db0e29d09b3ea49af00f3792f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-send-messages"></a>Uso de BizTalk Server desde TIBCO Rendezvous para enviar mensajes
 Microsoft BizTalk Adapter para TIBCO Rendezvous usa la API asincrónica (Transport.Send). Puede especificar qué tipo de mensaje envía el adaptador usando una propiedad de contexto de mensaje:  
@@ -37,4 +23,4 @@ Microsoft BizTalk Adapter para TIBCO Rendezvous usa la API asincrónica (Transpo
   
 ## <a name="see-also"></a>Vea también  
  [Conceptos de TIBCO Rendezvous](../core/tibco-rendezvous-concepts.md)   
- [Crear controladores de envío TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
+ [Creación de controladores de envío de TIBCO Rendezvous](../core/creating-tibco-rendezvous-send-handlers.md)
