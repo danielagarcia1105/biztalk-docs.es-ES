@@ -14,11 +14,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9dd6f1be076a8d5bc02942e55dc5e5fa88640ae6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 625479ef124aad6d7c0b10cde34b45a142ff9f90
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="jd-edwards-oneworld-transport-properties-dialog-box"></a>Cuadro de diálogo Propiedades de transporte de OneWorld JD Edwards
 Use el cuadro de diálogo Propiedades de transporte de JD Edwards OneWorld para configurar las propiedades requeridas por el adaptador.  
@@ -30,7 +30,7 @@ Use el cuadro de diálogo Propiedades de transporte de JD Edwards OneWorld para 
 |JAVA_HOME|Escriba la ruta de acceso completa a la instalación de JDK.|  
 |Entorno JDEdwards|Escriba el nombre de un entorno en JD Edwards OneWorld (por ejemplo, `DV7333`).<br /><br /> DV7333 es un nombre común para el entorno de desarrollo, PY7333 es común para el entorno de prototipo y PD7333 es común para el entorno de producción.|  
 |Archivos JAR de JDEdwards|Escriba el nombre de archivo y ruta de acceso completos para cada uno de los archivos JAR:<br /><br /> -Connector.jar<br />-Kernel.jar<br />-JDEJAccess.jar<br />-BTSLIBInterop.jar<br /><br /> Cada archivo jar debe estar separado mediante un punto y coma (;) y sin espacio (por ejemplo, `<c:>\Connector.jar;<c:>\Kernel.jar;`).|  
-|Contraseña|Escriba una contraseña de usuario. Si no usa Inicio de sesión único (SSO), debe establecer parámetros de credenciales para que el adaptador de BizTalk para JD Edwards OneWorld tenga acceso al sistema del servidor.. La contraseña corresponde al nombre de usuario. La contraseña determina los privilegios que se conceden al obtener acceso a la base de datos.|  
+|Contraseña|Escriba una contraseña de usuario. Si no usa Inicio de sesión único (SSO), debe establecer parámetros de credenciales para que el adaptador de BizTalk para JD Edwards OneWorld tenga acceso al sistema del servidor. La contraseña corresponde al nombre de usuario. La contraseña determina los privilegios que se conceden al obtener acceso a la base de datos.|  
 |Puerto|Escriba el identificador numérico de envío o puerto de recepción (por ejemplo, `6009`).|  
 |Nombre de usuario.|Escriba el nombre del usuario y, a continuación, haga clic en **Aceptar**.|  
 |Máximo de llamadas simultáneas|Escriba un valor numérico para el **número máximo de llamadas simultáneas**. Este número representa el número máximo de llamadas simultáneas, por ejemplo, **10**.<br /><br /> El valor predeterminado para este campo es **5**, lo que significa que ninguna protección se produce.|  
@@ -39,6 +39,6 @@ Use el cuadro de diálogo Propiedades de transporte de JD Edwards OneWorld para 
 |Utilice SSO|Seleccione **Sí** si está usando SSO; una contraseña no es necesaria en este caso.|  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el inicio de sesión único](../core/using-single-sign-on3.md)   
+ [Seguridad en el adaptador](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)   
  [Creación de aplicaciones afiliadas](../core/creating-affiliate-applications3.md)   
- [Referencia de interfaz de usuario para el adaptador de BizTalk para JDE OneWorld](../core/ui-reference-for-biztalk-adapter-for-jde-oneworld.md)
+ [Referencia de la interfaz de usuario del adaptador de BizTalk para JDE OneWorld](../core/ui-reference-for-biztalk-adapter-for-jde-oneworld.md)
