@@ -1,43 +1,30 @@
 ---
-title: "Usar inicio de sesión único-On2 | Documentos de Microsoft"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Single Sign-On
-- SSO
-ms.assetid: 994746bf-0839-45b3-857d-70f80814b6b9
-caps.latest.revision: "8"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 0bab2b5fe6b78989113cc1d47f16e8ac8c85ebb4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2c278864c45e045cd04c539ad8b077c998242fe9
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="using-single-sign-on"></a><span data-ttu-id="e408c-102">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="e408c-102">Using Single Sign-On</span></span>
-<span data-ttu-id="e408c-103">Microsoft BizTalk Adapter para PeopleSoft Enterprise admite el inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="e408c-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise provides Single Sign-On (SSO) support.</span></span> <span data-ttu-id="e408c-104">Una aplicación afiliada creada por las herramientas de inicio de sesión único empresarial representa un sistema servidor como PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="e408c-104">An affiliate application created by Enterprise Single Sign-On tools represents a server system such as PeopleSoft.</span></span>  
+# <a name="using-single-sign-on"></a><span data-ttu-id="95952-101">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="95952-101">Using Single Sign-On</span></span>
+<span data-ttu-id="95952-102">Microsoft BizTalk Adapter para PeopleSoft Enterprise admite el inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="95952-102">Microsoft BizTalk Adapter for PeopleSoft Enterprise provides Single Sign-On (SSO) support.</span></span> <span data-ttu-id="95952-103">Una aplicación afiliada creada por las herramientas de inicio de sesión único empresarial representa un sistema servidor como PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="95952-103">An affiliate application created by Enterprise Single Sign-On tools represents a server system such as PeopleSoft.</span></span>  
   
-## <a name="in-this-section"></a><span data-ttu-id="e408c-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="e408c-105">In This Section</span></span>  
+## <a name="in-this-section"></a><span data-ttu-id="95952-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="95952-104">In This Section</span></span>  
   
--   [<span data-ttu-id="e408c-106">Requisitos para el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="e408c-106">Requirements for Single Sign-On</span></span>](../core/requirements-for-single-sign-on2.md)  
+-   [<span data-ttu-id="95952-105">Requisitos para el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="95952-105">Requirements for Single Sign-On</span></span>](../core/requirements-for-single-sign-on2.md)  
   
--   [<span data-ttu-id="e408c-107">Un único inicio de sesión y el adaptador de BizTalk para PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="e408c-107">Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise</span></span>](../core/single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise.md)  
+-   [<span data-ttu-id="95952-106">Inicio de sesión único y adaptador de BizTalk para PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="95952-106">Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise</span></span>](../core/single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise.md)  
   
--   [<span data-ttu-id="e408c-108">Creación de aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="e408c-108">Creating Affiliate Applications</span></span>](../core/creating-affiliate-applications2.md)  
+-   [<span data-ttu-id="95952-107">Creación de aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="95952-107">Creating Affiliate Applications</span></span>](../core/creating-affiliate-applications2.md)  
   
--   [<span data-ttu-id="e408c-109">Creación de puertos</span><span class="sxs-lookup"><span data-stu-id="e408c-109">Creating Ports</span></span>](../core/creating-ports.md)  
+-   [<span data-ttu-id="95952-108">Creación de puertos</span><span class="sxs-lookup"><span data-stu-id="95952-108">Creating Ports</span></span>](../core/creating-ports.md)  
   
--   [<span data-ttu-id="e408c-110">Cómo configurar el directorio Virtual</span><span class="sxs-lookup"><span data-stu-id="e408c-110">How to Configure the Virtual Directory</span></span>](../core/how-to-configure-the-virtual-directory.md)  
+-   [<span data-ttu-id="95952-109">Cómo configurar el directorio Virtual</span><span class="sxs-lookup"><span data-stu-id="95952-109">How to Configure the Virtual Directory</span></span>](../core/how-to-configure-the-virtual-directory.md)  
   
--   [<span data-ttu-id="e408c-111">Para configurar adaptador de recepción de HTTP</span><span class="sxs-lookup"><span data-stu-id="e408c-111">How to Configure the HTTP Receive Adapter</span></span>](../core/how-to-configure-the-http-receive-adapter1.md)  
+-   [<span data-ttu-id="95952-110">Para configurar adaptador de recepción de HTTP</span><span class="sxs-lookup"><span data-stu-id="95952-110">How to Configure the HTTP Receive Adapter</span></span>](../core/how-to-configure-the-http-receive-adapter1.md)  
   
--   [<span data-ttu-id="e408c-112">Orquestaciones en ejecución</span><span class="sxs-lookup"><span data-stu-id="e408c-112">Running Orchestrations</span></span>](../core/running-orchestrations2.md)  
+-   [<span data-ttu-id="95952-111">Orquestaciones en ejecución</span><span class="sxs-lookup"><span data-stu-id="95952-111">Running Orchestrations</span></span>](../core/running-orchestrations2.md)  
   
--   [<span data-ttu-id="e408c-113">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="e408c-113">Running SSO Projects</span></span>](../core/running-sso-projects1.md)
+-   [<span data-ttu-id="95952-112">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="95952-112">Running SSO Projects</span></span>](../core/running-sso-projects1.md)

@@ -1,7 +1,8 @@
 ---
-title: Configurar el servidor BizTalk Server trasvase de registros para las bases de datos adicionales | Documentos de Microsoft
+title: Configurar BizTalk trasvase de registros para las bases de datos adicionales | Documentos de Microsoft
+description: Agregar bases de datos personalizadas para el trabajo de copia de seguridad de BizTalk Server y el trasvase de registros en el servidor BizTalk Server
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/01/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,14 +13,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4b16b1d262b07ecaa62e87456f10bece225b3b34
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f4eb0b690f81b16d739183633c6507b2ad87226
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="configuring-biztalk-server-log-shipping-for-additional-databases"></a><span data-ttu-id="bf06f-102">Configurar el servidor BizTalk Server trasvase de registros para las bases de datos adicionales</span><span class="sxs-lookup"><span data-stu-id="bf06f-102">Configuring BizTalk Server Log Shipping for Additional Databases</span></span>
-<span data-ttu-id="bf06f-103">En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], trabajos que se agregará al trabajo de copia de seguridad de BizTalk Server se agregan automáticamente a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trasvase de registros.</span><span class="sxs-lookup"><span data-stu-id="bf06f-103">In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], jobs added to the Backup BizTalk Server job are automatically added to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping.</span></span> <span data-ttu-id="bf06f-104">No es necesario realizar pasos adicionales para configurar el trasvase de registros para nuevas bases de datos agregará al trabajo de copia de seguridad de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="bf06f-104">You do not have to take additional steps to configure log shipping for new databases added to the Backup BizTalk Server job.</span></span> <span data-ttu-id="bf06f-105">Sin embargo, no olvide agregar bases de datos personalizadas según corresponda en el \<OtherDatabases> sección del archivo SampleUpdateInfo.xml tal como se describe en el paso 22 de [cómo configurar el sistema de destino para el trasvase de registros](http://go.microsoft.com/fwlink/?LinkId=151402) (http://go.microsoft.com/fwlink/?LinkId=151402) en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda.</span><span class="sxs-lookup"><span data-stu-id="bf06f-105">However, be sure to add custom databases as appropriate under the \<OtherDatabases> section of the SampleUpdateInfo.xml file as described in step 22 of [How to Configure the Destination System for Log Shipping](http://go.microsoft.com/fwlink/?LinkId=151402) (http://go.microsoft.com/fwlink/?LinkId=151402) in [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Help.</span></span>  
+# <a name="configuring-biztalk-server-log-shipping-for-additional-databases"></a><span data-ttu-id="7d05d-103">Configurar el servidor BizTalk Server trasvase de registros para las bases de datos adicionales</span><span class="sxs-lookup"><span data-stu-id="7d05d-103">Configuring BizTalk Server Log Shipping for Additional Databases</span></span>
+
+## <a name="overview"></a><span data-ttu-id="7d05d-104">Información general</span><span class="sxs-lookup"><span data-stu-id="7d05d-104">Overview</span></span>
+<span data-ttu-id="7d05d-105">En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], trabajos que se agregará al trabajo de copia de seguridad de BizTalk Server se agregan automáticamente a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trasvase de registros.</span><span class="sxs-lookup"><span data-stu-id="7d05d-105">In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], jobs added to the Backup BizTalk Server job are automatically added to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping.</span></span> <span data-ttu-id="7d05d-106">No es necesario realizar pasos adicionales para configurar el trasvase de registros para nuevas bases de datos agregará al trabajo de copia de seguridad de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="7d05d-106">You do not have to take additional steps to configure log shipping for new databases added to the Backup BizTalk Server job.</span></span> <span data-ttu-id="7d05d-107">Sin embargo, no olvide agregar bases de datos personalizadas según corresponda en el \<OtherDatabases > sección del archivo SampleUpdateInfo.xml.</span><span class="sxs-lookup"><span data-stu-id="7d05d-107">However, be sure to add custom databases as appropriate under the \<OtherDatabases> section of the SampleUpdateInfo.xml file.</span></span> <span data-ttu-id="7d05d-108">[Configurar el sistema de destino para el trasvase de registros](../core/how-to-configure-the-destination-system-for-log-shipping.md) y [volver de seguridad de la bases de datos personalizado](../core/how-to-back-up-custom-databases.md) proporciona alguna orientación.</span><span class="sxs-lookup"><span data-stu-id="7d05d-108">[Configure the Destination System for Log Shipping](../core/how-to-configure-the-destination-system-for-log-shipping.md) and [Back Up Custom Databases](../core/how-to-back-up-custom-databases.md) provides some guidance.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="bf06f-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="bf06f-106">See Also</span></span>  
- [<span data-ttu-id="bf06f-107">Trasvase de registros de configuración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="bf06f-107">Configuring BizTalk Server Log Shipping</span></span>](../technical-guides/configuring-biztalk-server-log-shipping.md)
+## <a name="see-also"></a><span data-ttu-id="7d05d-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="7d05d-109">See Also</span></span>  
+ [<span data-ttu-id="7d05d-110">Configuración del trasvase de registros de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="7d05d-110">Configuring BizTalk Server Log Shipping</span></span>](../technical-guides/configuring-biztalk-server-log-shipping.md)

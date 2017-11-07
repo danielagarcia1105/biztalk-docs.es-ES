@@ -1,5 +1,6 @@
 ---
-title: "Solución de problemas de TIBCO Rendezvous | Documentos de Microsoft"
+title: Solucionar problemas de TIBCO Rendezvous | Documentos de Microsoft
+description: Utilizar el seguimiento de eventos de Windows para troubl = esdhoot Microsoft BizTalk Adapter para TIBCO Rendezvous en BizTalk Server
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,21 +8,92 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: troubleshooting TIBCO Rendezvous
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
 caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 296c1d9e0b5ed4ca8630f5e23f2c694ef045df1c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b860aa0d0253185f1c9ecc6f7a525776abfab5d6
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="troubleshooting-tibco-rendezvous"></a><span data-ttu-id="05f7e-102">Solución de problemas de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="05f7e-102">Troubleshooting TIBCO Rendezvous</span></span>
-<span data-ttu-id="05f7e-103">En esta sección se proporciona información acerca del modo de solucionar problemas del Adaptador de Microsoft para TIBCO Rendezvous y se aborda el uso de Seguimiento de eventos para Windows.</span><span class="sxs-lookup"><span data-stu-id="05f7e-103">This section provides information about how to troubleshoot Microsoft Adapter for TIBCO Rendezvous, and discusses the use of Event Tracing for Windows.</span></span>  
+# <a name="troubleshoot-tibco-rendezvous"></a><span data-ttu-id="fff1f-103">Solucionar problemas de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="fff1f-103">Troubleshoot TIBCO Rendezvous</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="05f7e-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="05f7e-104">In This Section</span></span>  
+## <a name="use-event-tracing-for-windows"></a><span data-ttu-id="fff1f-104">Utilizar el seguimiento de eventos para Windows</span><span class="sxs-lookup"><span data-stu-id="fff1f-104">Use Event Tracing for Windows</span></span>
+<span data-ttu-id="fff1f-105">Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows.</span><span class="sxs-lookup"><span data-stu-id="fff1f-105">Microsoft BizTalk Adapter for TIBCO Rendezvous logs error, warning, and information messages to the Windows Event Viewer.</span></span> <span data-ttu-id="fff1f-106">Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW).</span><span class="sxs-lookup"><span data-stu-id="fff1f-106">You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool.</span></span> <span data-ttu-id="fff1f-107">Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes.</span><span class="sxs-lookup"><span data-stu-id="fff1f-107">When ETW is activated, it creates an *.etl file to receive the messages.</span></span> <span data-ttu-id="fff1f-108">Este archivo está en formato binario y se debe convertir para poder leerse.</span><span class="sxs-lookup"><span data-stu-id="fff1f-108">This file is in binary format and must be converted to be read.</span></span> <span data-ttu-id="fff1f-109">Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl, por ejemplo, tracerpt.exe o tracedmp.exe.</span><span class="sxs-lookup"><span data-stu-id="fff1f-109">To do this, you must have a consumer application available to interpret the \*.etl file, for example, tracerpt.exe or tracedmp.exe.</span></span> <span data-ttu-id="fff1f-110">Por ejemplo, la aplicación tracerpt.exe convertirá el \*archivo .etl en dos archivos de texto: summary.txt y dumpfile.csv.</span><span class="sxs-lookup"><span data-stu-id="fff1f-110">For example, the tracerpt.exe application will convert the \*.etl file into two text files: summary.txt and dumpfile.csv.</span></span>  
   
--   [<span data-ttu-id="05f7e-105">Uso de seguimiento de eventos para Windows</span><span class="sxs-lookup"><span data-stu-id="05f7e-105">Using Event Tracing for Windows</span></span>](../core/using-event-tracing-for-windows1.md)
+## <a name="etw-components"></a><span data-ttu-id="fff1f-111">Componentes de ETW</span><span class="sxs-lookup"><span data-stu-id="fff1f-111">ETW Components</span></span>  
+ <span data-ttu-id="fff1f-112">Seguimiento de eventos para Windows tiene tres componentes:</span><span class="sxs-lookup"><span data-stu-id="fff1f-112">Event Tracing for Windows has three components:</span></span>  
+  
+-   <span data-ttu-id="fff1f-113">**Aplicación del controlador**: activa y desactiva un proveedor (por ejemplo, tracelog.exe o logman.exe).</span><span class="sxs-lookup"><span data-stu-id="fff1f-113">**Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).</span></span>  
+  
+     <span data-ttu-id="fff1f-114">Configure su variable de entorno PATH para que señale la ubicación de tracelog.exe.</span><span class="sxs-lookup"><span data-stu-id="fff1f-114">You set your PATH environment variable to point to the location of tracelog.exe.</span></span> <span data-ttu-id="fff1f-115">Esto garantiza que las llamadas de BTATIBCO RendezvousTrace puedan localizar tracelog.exe en el sistema.</span><span class="sxs-lookup"><span data-stu-id="fff1f-115">This makes sure that BTATIBCO RendezvousTrace calls can locate tracelog.exe in the system.</span></span> <span data-ttu-id="fff1f-116">De forma predeterminada, BTATIBCO RendezvousTrace busca la ruta de acceso actual.</span><span class="sxs-lookup"><span data-stu-id="fff1f-116">By default, BTATIBCO RendezvousTrace searches the current path.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="fff1f-117">tracelog.exe está disponible en el Microsoft SDK y es compatible con los comandos proporcionados por Microsoft BizTalk Adapter para TIBCO RendezvousTrace.</span><span class="sxs-lookup"><span data-stu-id="fff1f-117">tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Rendezvous.</span></span> <span data-ttu-id="fff1f-118">Para usar logman.exe, consulte la documentación de logman.</span><span class="sxs-lookup"><span data-stu-id="fff1f-118">To use logman.exe, see the logman documentation.</span></span>  
+  
+-   <span data-ttu-id="fff1f-119">**Aplicación de consumidor**: lee eventos registrados.</span><span class="sxs-lookup"><span data-stu-id="fff1f-119">**Consumer application**: Reads logged events.</span></span>  
+  
+     <span data-ttu-id="fff1f-120">Para que la aplicación de consumidor pueda leer el evento en el archivo etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo.</span><span class="sxs-lookup"><span data-stu-id="fff1f-120">For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file.</span></span> <span data-ttu-id="fff1f-121">Normalmente esto se realiza cuando el controlador desactiva el seguimiento.</span><span class="sxs-lookup"><span data-stu-id="fff1f-121">Typically this is done when the controller deactivates the tracing.</span></span>  
+  
+     <span data-ttu-id="fff1f-122">Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real > = -rt.</span><span class="sxs-lookup"><span data-stu-id="fff1f-122">To use the consumer application without deactivating the trace, the controller must activate the trace with the real time option, \<Real time> = -rt.</span></span>  
+  
+-   <span data-ttu-id="fff1f-123">**Proveedor**: proporciona el evento.</span><span class="sxs-lookup"><span data-stu-id="fff1f-123">**Provider**: Provides the event.</span></span>  
+  
+     <span data-ttu-id="fff1f-124">BizTalk Adapter para TIBCO Rendezvous incluye tres proveedores diferentes.</span><span class="sxs-lookup"><span data-stu-id="fff1f-124">BizTalk Adapter for TIBCO Rendezvous includes three different providers.</span></span> <span data-ttu-id="fff1f-125">Están registrados en el Instrumental de administración de Windows (WMI).</span><span class="sxs-lookup"><span data-stu-id="fff1f-125">They are registered in Windows Management Instrumentation (WMI).</span></span> <span data-ttu-id="fff1f-126">Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.</span><span class="sxs-lookup"><span data-stu-id="fff1f-126">To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.</span></span>  
+  
+ <span data-ttu-id="fff1f-127">BizTalk Adapter para TIBCO Rendezvous tiene tres proveedores.</span><span class="sxs-lookup"><span data-stu-id="fff1f-127">BizTalk Adapter for TIBCO Rendezvous has three providers.</span></span> <span data-ttu-id="fff1f-128">Esto le permite registrar diferentes tipos de mensajes:</span><span class="sxs-lookup"><span data-stu-id="fff1f-128">This lets you log different kinds of messages:</span></span>  
+  
+-   <span data-ttu-id="fff1f-129">**Proveedor de registro de receptor**: el \<elemento de seguimiento > es el conmutador **-receptor**.</span><span class="sxs-lookup"><span data-stu-id="fff1f-129">**Receiver Logging Provider**: The \<Trace element> switch is **-receiver**.</span></span>  
+  
+-   <span data-ttu-id="fff1f-130">Use **-receptor** para recibir cualquier mensaje del registro que se han recibido por el adaptador en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="fff1f-130">Use **-receiver** to get any messages from the log that were received by the adapter at runtime.</span></span>  
+  
+-   <span data-ttu-id="fff1f-131">**Proveedor de registro de transmisor**: el \<elemento de seguimiento > es el conmutador **-transmisor**.</span><span class="sxs-lookup"><span data-stu-id="fff1f-131">**Transmitter Logging Provider**: the \<Trace element> switch is **-transmitter**.</span></span>  
+  
+     <span data-ttu-id="fff1f-132">Use **-transmisor** para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="fff1f-132">Use **-transmitter** to get any messages from the log that were transmitted by the adapter at run time.</span></span>  
+  
+-   <span data-ttu-id="fff1f-133">**Proveedor de registro de administración:**el \<elemento de seguimiento > es el conmutador **-administración**.</span><span class="sxs-lookup"><span data-stu-id="fff1f-133">**Management Logging Provider—**the \<Trace element> switch is **-management**.</span></span>  
+  
+     <span data-ttu-id="fff1f-134">Use **-administración**para recibir cualquier mensaje del registro que se generaron durante la exploración del sistema del servidor.</span><span class="sxs-lookup"><span data-stu-id="fff1f-134">Use **-management**to get any messages from the log that were generated during browsing of the server system.</span></span>  
+  
+## <a name="btatibcorvtrace-command"></a><span data-ttu-id="fff1f-135">Comando BTATIBCORVTrace</span><span class="sxs-lookup"><span data-stu-id="fff1f-135">BTATIBCORVTrace Command</span></span>  
+ <span data-ttu-id="fff1f-136">Para usar ETW, ejecute el adaptador de BizTalk para el comando de TIBCO Rendezvous, BTATIBCORVTrace.cmd.</span><span class="sxs-lookup"><span data-stu-id="fff1f-136">To use ETW, run the BizTalk Adapter for TIBCO Rendezvous command, BTATIBCORVTrace.cmd.</span></span> <span data-ttu-id="fff1f-137">Use este comando como sigue:</span><span class="sxs-lookup"><span data-stu-id="fff1f-137">You use this command as follows:</span></span>  
+  
+```  
+BTATIBCORVTrace <Trace element> -start [-cir <MB>|   
+-seq <MB>] [-rt] logfile  
+BTATIBCORVTrace <Trace element> -stop  
+```  
+  
+ <span data-ttu-id="fff1f-138">Dónde:  **\<elemento Trace >** (obligatorio) es el tipo de proveedor.</span><span class="sxs-lookup"><span data-stu-id="fff1f-138">Where: **\<Trace element>** (required) is the kind of provider.</span></span>  
+  
+ <span data-ttu-id="fff1f-139">Sus opciones son:</span><span class="sxs-lookup"><span data-stu-id="fff1f-139">Its options are as follows:</span></span>  
+  
+-   <span data-ttu-id="fff1f-140">**-transmisor**</span><span class="sxs-lookup"><span data-stu-id="fff1f-140">**-transmitter**</span></span>  
+  
+-   <span data-ttu-id="fff1f-141">**-receptor**</span><span class="sxs-lookup"><span data-stu-id="fff1f-141">**-receiver**</span></span>  
+  
+-   <span data-ttu-id="fff1f-142">**-administración**</span><span class="sxs-lookup"><span data-stu-id="fff1f-142">**-management**</span></span>  
+  
+-   <span data-ttu-id="fff1f-143">**-iniciar, - detener**: activar o desactivar el proveedor.</span><span class="sxs-lookup"><span data-stu-id="fff1f-143">**-start, -stop**: Activate or deactivate the provider.</span></span>  
+  
+-   <span data-ttu-id="fff1f-144">**-cir \<MB >**: tamaño y tipo de archivo.</span><span class="sxs-lookup"><span data-stu-id="fff1f-144">**-cir \<MB>**: Size and kind of file.</span></span> <span data-ttu-id="fff1f-145">**-cir** es un archivo circular.</span><span class="sxs-lookup"><span data-stu-id="fff1f-145">**-cir** is a circular file.</span></span> <span data-ttu-id="fff1f-146">**\<MB >**: tamaño en megabytes.</span><span class="sxs-lookup"><span data-stu-id="fff1f-146">**\<MB>**: Size in megabytes.</span></span>  
+  
+-   <span data-ttu-id="fff1f-147">**-seq \<MB >**: tamaño y tipo de archivo.</span><span class="sxs-lookup"><span data-stu-id="fff1f-147">**-seq \<MB>**: Size and kind of file.</span></span> <span data-ttu-id="fff1f-148">**-seq** es un archivo secuencial.</span><span class="sxs-lookup"><span data-stu-id="fff1f-148">**-seq** is a sequential file.</span></span> <span data-ttu-id="fff1f-149">**\<MB >**: tamaño en megabytes.</span><span class="sxs-lookup"><span data-stu-id="fff1f-149">**\<MB>**: Size in megabytes.</span></span>  
+  
+-   <span data-ttu-id="fff1f-150">**-rt**: activar el modo de tiempo real.</span><span class="sxs-lookup"><span data-stu-id="fff1f-150">**-rt**: Set the real time mode on.</span></span>  
+  
+-   <span data-ttu-id="fff1f-151">**Archivo de registro**: nombre del archivo de registro (c:\rtlog.etl es el valor predeterminado).</span><span class="sxs-lookup"><span data-stu-id="fff1f-151">**Logfile**: Name of the log file (c:\rtlog.etl is the default).</span></span>  
+  
+ <span data-ttu-id="fff1f-152">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fff1f-152">For example:</span></span>  
+  
+```  
+BTATIBCORVTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  
+BTATIBCORVTrace -transmitter -stop  
+```  
+## <a name="see-more"></a><span data-ttu-id="fff1f-153">Obtenga más información</span><span class="sxs-lookup"><span data-stu-id="fff1f-153">See more</span></span>
+[<span data-ttu-id="fff1f-154">Controlar excepciones</span><span class="sxs-lookup"><span data-stu-id="fff1f-154">Handle exceptions</span></span>](../core/using-biztalk-server-exception-handling4.md)  
+[<span data-ttu-id="fff1f-155">Seguridad</span><span class="sxs-lookup"><span data-stu-id="fff1f-155">Security</span></span>](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)  
+[<span data-ttu-id="fff1f-156">Arquitectura</span><span class="sxs-lookup"><span data-stu-id="fff1f-156">Architecture</span></span>](../core/architecture-of-biztalk-adapter-for-tibco-rendezvous.md)
