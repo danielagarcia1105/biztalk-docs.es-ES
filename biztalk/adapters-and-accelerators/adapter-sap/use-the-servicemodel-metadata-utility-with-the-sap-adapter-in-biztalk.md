@@ -91,15 +91,15 @@ Puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)
   
  En este ejemplo se crea una clase de cliente WCF para RFC_CALCULATE_TAXES.  
   
- **. \svcutil "sap://User=YourUserName; Passwd = contraseña de usuario; Cliente = 800; Lang = EN; @a/YourSAPHost/00? wsdl & op = http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES "**  
+ **.\svcutil "sap://User=YourUserName;Passwd=contraseñadeusuario;Cliente=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES"**  
   
  Este ejemplo crea una clase de cliente WCF para el SALESORDER_CREATEFROMDAT201 y SALESORDER_CREATEFROMDAT202 IDOC.  
   
- **. \svcutil "sap://User=YourUserName; Passwd = contraseña de usuario; Cliente = 800; Lang = EN; @a/YourSAPHost/00? wsdl & op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send & op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send "**  
+ **.\svcutil "sap://User=YourUserName;Passwd=contraseñadeusuario;Cliente=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"**  
   
  Este ejemplo crea un contrato de servicio WCF para recibir el IDOC SALESORDER_CREATEFROMDAT201 desde el sistema SAP. El identificador de nodo especifica una operación de recepción. Porque en este ejemplo se abordan la recuperación de metadatos, no hay ninguna necesidad de especificar los parámetros de agente de escucha en el query_string del URI de conexión.  
   
- **. \svcutil "sap://User=YourUserName; Passwd = contraseña de usuario; Cliente = 800; Lang = EN; @a/YourSAPHost/00? wsdl & op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive "**  
+ **.\svcutil "sap://User=YourUserName;Passwd=contraseñadeusuario;Cliente=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive"**  
   
 > [!IMPORTANT]
 >  Debe colocar el URI de conexión entre comillas en la línea de comandos. En caso contrario, svcutil.exe intenta recuperar metadatos para las operaciones que el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] no admite. Los resultados de un intento de este tipo son indefinidos.  
