@@ -1,7 +1,8 @@
 ---
-title: "Configurar los tokens de entorno y variables para la implementación automática | Documentos de Microsoft"
+title: Crear tokens de entorno y variables | Documentos de Microsoft"
+description: "Actualizar el archivo de enlace para utilizar los tokens de entorno y crear variables en VSTS para automatizar la implementación de aplicaciones de BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/08/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -10,60 +11,56 @@ ms.topic: article
 ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
 caps.latest.revision: "4"
 author: tordgladnordahl
-ms.author: tonordah
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7d148f79fceb68b24feb45882ab89767369ed7e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6d84fa393410e3084c87e762140530a45b0b78b5
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
-# <a name="configure-environmental-tokens-and-variables-for-automatic-deployment"></a><span data-ttu-id="567fb-102">Configurar los tokens de entorno y variables para la implementación automática</span><span class="sxs-lookup"><span data-stu-id="567fb-102">Configure environmental tokens and variables for automatic deployment</span></span>
-<span data-ttu-id="567fb-103">Usar variables de Visual Studio Team Services (VSTS) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivos de enlace.</span><span class="sxs-lookup"><span data-stu-id="567fb-103">Use Visual Studio Team Services (VSTS) variables in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding files.</span></span>
+# <a name="configure-environmental-tokens-and-variables-for-automatic-deployment"></a><span data-ttu-id="c66cd-103">Configurar los tokens de entorno y variables para la implementación automática</span><span class="sxs-lookup"><span data-stu-id="c66cd-103">Configure environmental tokens and variables for automatic deployment</span></span>
+<span data-ttu-id="c66cd-104">Usar variables de Visual Studio Team Services (VSTS) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivos de enlace.</span><span class="sxs-lookup"><span data-stu-id="c66cd-104">Use Visual Studio Team Services (VSTS) variables in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding files.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="567fb-104">Información general</span><span class="sxs-lookup"><span data-stu-id="567fb-104">Overview</span></span>
-<span data-ttu-id="567fb-105">En un entorno de VSTS, puede agregar las variables y establecerlos en un valor.</span><span class="sxs-lookup"><span data-stu-id="567fb-105">In a VSTS environment, you can add variables, and set them to a value.</span></span> <span data-ttu-id="567fb-106">Por ejemplo, puede crear un *sendPortPath* variable y establezca su valor en una carpeta física en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="567fb-106">For example, you can create a *sendPortPath* variable, and set its value to a physical folder on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].</span></span> 
+## <a name="overview"></a><span data-ttu-id="c66cd-105">Información general</span><span class="sxs-lookup"><span data-stu-id="c66cd-105">Overview</span></span>
+<span data-ttu-id="c66cd-106">En un entorno de VSTS, puede agregar las variables y establecerlos en un valor.</span><span class="sxs-lookup"><span data-stu-id="c66cd-106">In a VSTS environment, you can add variables, and set them to a value.</span></span> <span data-ttu-id="c66cd-107">Por ejemplo, puede crear un *sendPortPath* variable y establezca su valor en una carpeta física en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c66cd-107">For example, you can create a *sendPortPath* variable, and set its value to a physical folder on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].</span></span> 
 
-<span data-ttu-id="567fb-107">En el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivo de enlace de la aplicación, las variables configurables pueden ser cualquier elemento dentro de una etiqueta XML, como el nombre de la ubicación de recepción, host, URI del puerto de envío y así sucesivamente.</span><span class="sxs-lookup"><span data-stu-id="567fb-107">Within the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] application binding file, the configurable variables can be anything within an XML tag, such as the receive location name, host, send port URI, and so on.</span></span> 
+<span data-ttu-id="c66cd-108">En el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivo de enlace de la aplicación, las variables configurables pueden ser cualquier elemento dentro de una etiqueta XML, como el nombre de la ubicación de recepción, host, URI del puerto de envío y así sucesivamente.</span><span class="sxs-lookup"><span data-stu-id="c66cd-108">Within the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] application binding file, the configurable variables can be anything within an XML tag, such as the receive location name, host, send port URI, and so on.</span></span> 
 
-<span data-ttu-id="567fb-108">Estas variables son específicas de su entorno de VSTS y puede utilizarse para implementar la misma aplicación para varios [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos.</span><span class="sxs-lookup"><span data-stu-id="567fb-108">These variables are specific to your VSTS environment, and can be used to deploy the same application to multiple [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments.</span></span> 
+<span data-ttu-id="c66cd-109">Estas variables son específicas de su entorno de VSTS y puede utilizarse para implementar la misma aplicación para varios [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos.</span><span class="sxs-lookup"><span data-stu-id="c66cd-109">These variables are specific to your VSTS environment, and can be used to deploy the same application to multiple [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments.</span></span> 
 
-<span data-ttu-id="567fb-109">En este tema, se muestra cómo se agrega la variable VSTS en el archivo de enlace y cómo crear la variable dentro de VSTS.</span><span class="sxs-lookup"><span data-stu-id="567fb-109">In this topic, we show you how add the VSTS variable in your binding file, and how to create the variable within VSTS.</span></span> 
+<span data-ttu-id="c66cd-110">Le mostramos cómo agregar la variable VSTS en el archivo de enlace y cómo crear la variable dentro de VSTS.</span><span class="sxs-lookup"><span data-stu-id="c66cd-110">We show you how to add the VSTS variable in your binding file, and how to create the variable within VSTS.</span></span> 
 
-## <a name="configure-the-variables-in-your-biztalk-binding-file"></a><span data-ttu-id="567fb-110">Configurar las variables en el archivo de enlace de BizTalk</span><span class="sxs-lookup"><span data-stu-id="567fb-110">Configure the variables in your BizTalk Binding file</span></span>
+## <a name="add-variables-to-the-binding-file"></a><span data-ttu-id="c66cd-111">Agregar variables para el archivo de enlace</span><span class="sxs-lookup"><span data-stu-id="c66cd-111">Add variables to the binding file</span></span>
 
-<span data-ttu-id="567fb-111">El ejemplo siguiente es una parte de una [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] el archivo de enlace y muestra cómo aplicar los tokens.</span><span class="sxs-lookup"><span data-stu-id="567fb-111">The following example is a part of a [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] binding file, and shows how to apply the tokens.</span></span>
+1. <span data-ttu-id="c66cd-112">Abra el archivo de enlace de la aplicación:</span><span class="sxs-lookup"><span data-stu-id="c66cd-112">Open the application binding file:</span></span>
 
-1. <span data-ttu-id="567fb-112">Abra el archivo de enlace de la aplicación:</span><span class="sxs-lookup"><span data-stu-id="567fb-112">Open the application binding file:</span></span>
+    ![Abra el archivo de enlace](../core/media/biztalk-feature-pack-1-binding-1.png)
 
-    ![Paquete de características de BizTalk 1 enlace 1](../core/media/biztalk-feature-pack-1-binding-1.png)
+2. <span data-ttu-id="c66cd-114">Busque el elemento que desea cambiar:</span><span class="sxs-lookup"><span data-stu-id="c66cd-114">Find the element you want to change:</span></span>
 
-2. <span data-ttu-id="567fb-114">Busque el elemento que desea cambiar:</span><span class="sxs-lookup"><span data-stu-id="567fb-114">Find the element you want to change:</span></span>
-
-    ![Paquete de características de BizTalk 1 enlace 2](../core/media/biztalk-feature-pack-1-binding-2.png)
+    ![Seleccione el elemento](../core/media/biztalk-feature-pack-1-binding-2.png)
     
-3. <span data-ttu-id="567fb-116">Quitar el valor rellenado y reemplazarlo con usted variables: `$(YourValue)`.</span><span class="sxs-lookup"><span data-stu-id="567fb-116">Remove the populated value, and replace it with you variables: `$(YourValue)`.</span></span> <span data-ttu-id="567fb-117">Por ejemplo, escriba `$(SendPort1)`:</span><span class="sxs-lookup"><span data-stu-id="567fb-117">For example, enter `$(SendPort1)`:</span></span> 
+3. <span data-ttu-id="c66cd-116">Quitar el valor rellenado y reemplazarlo con usted variables: `$(YourValue)`.</span><span class="sxs-lookup"><span data-stu-id="c66cd-116">Remove the populated value, and replace it with you variables: `$(YourValue)`.</span></span> <span data-ttu-id="c66cd-117">Por ejemplo, escriba `$(SendPort1)`:</span><span class="sxs-lookup"><span data-stu-id="c66cd-117">For example, enter `$(SendPort1)`:</span></span> 
 
-    ![Paquete de características de BizTalk 1 enlace 3](../core/media/biztalk-feature-pack-1-binding-3.png)
+    ![Archivo de enlace](../core/media/biztalk-feature-pack-1-binding-3.png)
 
+4. <span data-ttu-id="c66cd-119">Cuando haya terminado, guarde el archivo de enlace y agregarlo a la plantilla de compilación JSON (pasos de [paso 1: plantilla de aplicación Agregar proyecto & actualización .json](feature-pack-add-application-project.md)).</span><span class="sxs-lookup"><span data-stu-id="c66cd-119">When done, save the binding file, and add it to your JSON build template (steps in [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)).</span></span>
 
-4. <span data-ttu-id="567fb-119">Cuando haya terminado, guarde el archivo de enlace y aplicarlo a la plantilla de compilación JSON.</span><span class="sxs-lookup"><span data-stu-id="567fb-119">When done, save the binding file, and apply it to your JSON build template.</span></span>
-5. <span data-ttu-id="567fb-120">Inicie sesión la solución de Visual Studio Team Service y seleccione **de compilación y la versión**.</span><span class="sxs-lookup"><span data-stu-id="567fb-120">Sign in to your Visual Studio Team Service solution, and select **Build and release**.</span></span>
-6. <span data-ttu-id="567fb-121">Vaya a **versión**.</span><span class="sxs-lookup"><span data-stu-id="567fb-121">Go to **Release**.</span></span> <span data-ttu-id="567fb-122">Seleccione el **definición de la versión**, o cree uno nuevo.</span><span class="sxs-lookup"><span data-stu-id="567fb-122">Select your **Release definition**, or create a new one.</span></span>
-7. <span data-ttu-id="567fb-123">En **entornos**, seleccione **agregar un nuevo entorno**, o cambiar a un entorno existente:</span><span class="sxs-lookup"><span data-stu-id="567fb-123">Under **Environments**, select **Add a new environment**, or change to an existing environment:</span></span> 
+## <a name="create-the-variables-in-vsts"></a><span data-ttu-id="c66cd-120">Cree las variables en VSTS</span><span class="sxs-lookup"><span data-stu-id="c66cd-120">Create the variables in VSTS</span></span>
 
-    ![Agregar un nuevo entorno](../core/media/add-a-new-environment.png)
+1. <span data-ttu-id="c66cd-121">En su cuenta VSTS, seleccione **de compilación y la versión**y seleccione **versiones**.</span><span class="sxs-lookup"><span data-stu-id="c66cd-121">In your VSTS account, select **Build and release**, and select **Releases**.</span></span>
 
-8. <span data-ttu-id="567fb-125">Haga clic en el botón de puntos suspensivos y seleccione **configurar variables**:</span><span class="sxs-lookup"><span data-stu-id="567fb-125">Click the ellipses, and select **configure variables**:</span></span>
+2. <span data-ttu-id="c66cd-122">Seleccione el **definición de la versión**y seleccione **Variables**:</span><span class="sxs-lookup"><span data-stu-id="c66cd-122">Select your **Release definition**, and select **Variables**:</span></span>  
 
-    ![configurar variables](../core/media/configure-variables.png)
+    ![Archivo de enlace](../core/media/vsts-release-variables.png)
 
-9. <span data-ttu-id="567fb-127">Mediante la adición de las variables para cada entorno, mediante los nombres de token que creó en el archivo de enlace, puede implementar las aplicaciones en varios entornos con distintos valores:</span><span class="sxs-lookup"><span data-stu-id="567fb-127">By adding the variables for each environment, using the token names created in the binding file, you can deploy your applications to multiple environments with different values:</span></span>
+3. <span data-ttu-id="c66cd-124">Seleccione **agregar**y cree los nombres de las variables y valores:</span><span class="sxs-lookup"><span data-stu-id="c66cd-124">Select **Add**, and create the variable names and values:</span></span>   
 
-    ![variables de entorno específicas](../core/media/environment-specific-variables.png)
-    
-10. <span data-ttu-id="567fb-129">Seleccione **Aceptar** para guardar las nuevas variables.</span><span class="sxs-lookup"><span data-stu-id="567fb-129">Select **OK** to save the new variables.</span></span>
-11. <span data-ttu-id="567fb-130">Una vez que se inicia la compilación, se agregan los valores del archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="567fb-130">Once the build is initiated, the values are added from binding file.</span></span>
+    ![configurar variables](../core/media/environment-specific-variables.png)
 
-## <a name="next-step"></a><span data-ttu-id="567fb-131">Paso siguiente</span><span class="sxs-lookup"><span data-stu-id="567fb-131">Next step</span></span>
-[<span data-ttu-id="567fb-132">Agregar una aplicación de BizTalk a VSTS</span><span class="sxs-lookup"><span data-stu-id="567fb-132">Add a BizTalk application to VSTS</span></span>](../core/add-a-biztalk-server-application-to-visual-studio-team-services.md)
+4. <span data-ttu-id="c66cd-126">**Guardar** los cambios.</span><span class="sxs-lookup"><span data-stu-id="c66cd-126">**Save** your changes.</span></span> <span data-ttu-id="c66cd-127">Cuando se inicia la implementación, los valores se agregan desde el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="c66cd-127">When the deploy is initiated, the values are added from the binding file.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c66cd-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="c66cd-128">See also</span></span>
+[<span data-ttu-id="c66cd-129">Configurar la implementación automática con Visual Studio Team Services</span><span class="sxs-lookup"><span data-stu-id="c66cd-129">Configure automatic deployment with Visual Studio Team Services</span></span>](configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)  
+[<span data-ttu-id="c66cd-130">Configuración del Feature Pack</span><span class="sxs-lookup"><span data-stu-id="c66cd-130">Configure the feature pack</span></span>](configure-the-feature-pack.md)
