@@ -1,4 +1,7 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-application-project/
+redirect_document_id: True
+ROBOTS: NOINDEX
 title: "Agregar una aplicación de BizTalk Server para Visual Studio Team Services | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
@@ -12,11 +15,11 @@ caps.latest.revision: "4"
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
-ms.openlocfilehash: d3fc8c0253c8e2517f78c2d60fdc7c74a983bdbd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1a6b7ba32c0077b3df107b00525bb34ef011e483
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="add-a-biztalk-server-application-to-visual-studio-team-services"></a>Agregar una aplicación de BizTalk Server para Visual Studio Team Services
 Agregar un [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] proyecto VSTS para implementar automáticamente mediante la integración continua.  
@@ -27,7 +30,7 @@ Estos temas se proporciona información general y se enumeran los pasos claves p
 
 ## <a name="prerequisites"></a>Requisitos previos
 * Instalar [Feature Pack 1 de](https://www.microsoft.com/download/details.aspx?id=55100) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* [Configurar VSTS para la implementación automática](../core/configure-visual-studio-team-services-to-deploy-biztalk-solutions-or-projects.md)
+* [Paso 3: Crear la compilación y las definiciones de la versión](../core/feature-pack-add-build-release-definitions.md)
 * Conocimientos y experiencia en Git y repositorios en Visual Studio. Si está familiarizado en repositorios y control de versiones, puede tratarse de buenos recursos: 
 
     [Obtenga información acerca de Git](https://www.visualstudio.com/learn-git/)  

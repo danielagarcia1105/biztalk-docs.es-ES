@@ -1,7 +1,8 @@
 ---
-title: "Configurar los tokens de entorno y variables para la implementación automática | Documentos de Microsoft"
+title: Crear tokens de entorno y variables | Documentos de Microsoft"
+description: "Actualizar el archivo de enlace para utilizar los tokens de entorno y crear variables en VSTS para automatizar la implementación de aplicaciones de BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/08/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -10,13 +11,13 @@ ms.topic: article
 ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
 caps.latest.revision: "4"
 author: tordgladnordahl
-ms.author: tonordah
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7d148f79fceb68b24feb45882ab89767369ed7e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6d84fa393410e3084c87e762140530a45b0b78b5
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="configure-environmental-tokens-and-variables-for-automatic-deployment"></a>Configurar los tokens de entorno y variables para la implementación automática
 Usar variables de Visual Studio Team Services (VSTS) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] archivos de enlace.
@@ -28,42 +29,38 @@ En el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernovers
 
 Estas variables son específicas de su entorno de VSTS y puede utilizarse para implementar la misma aplicación para varios [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos. 
 
-En este tema, se muestra cómo se agrega la variable VSTS en el archivo de enlace y cómo crear la variable dentro de VSTS. 
+Le mostramos cómo agregar la variable VSTS en el archivo de enlace y cómo crear la variable dentro de VSTS. 
 
-## <a name="configure-the-variables-in-your-biztalk-binding-file"></a>Configurar las variables en el archivo de enlace de BizTalk
-
-El ejemplo siguiente es una parte de una [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] el archivo de enlace y muestra cómo aplicar los tokens.
+## <a name="add-variables-to-the-binding-file"></a>Agregar variables para el archivo de enlace
 
 1. Abra el archivo de enlace de la aplicación:
 
-    ![Paquete de características de BizTalk 1 enlace 1](../core/media/biztalk-feature-pack-1-binding-1.png)
+    ![Abra el archivo de enlace](../core/media/biztalk-feature-pack-1-binding-1.png)
 
 2. Busque el elemento que desea cambiar:
 
-    ![Paquete de características de BizTalk 1 enlace 2](../core/media/biztalk-feature-pack-1-binding-2.png)
+    ![Seleccione el elemento](../core/media/biztalk-feature-pack-1-binding-2.png)
     
 3. Quitar el valor rellenado y reemplazarlo con usted variables: `$(YourValue)`. Por ejemplo, escriba `$(SendPort1)`: 
 
-    ![Paquete de características de BizTalk 1 enlace 3](../core/media/biztalk-feature-pack-1-binding-3.png)
+    ![Archivo de enlace](../core/media/biztalk-feature-pack-1-binding-3.png)
 
+4. Cuando haya terminado, guarde el archivo de enlace y agregarlo a la plantilla de compilación JSON (pasos de [paso 1: plantilla de aplicación Agregar proyecto & actualización .json](feature-pack-add-application-project.md)).
 
-4. Cuando haya terminado, guarde el archivo de enlace y aplicarlo a la plantilla de compilación JSON.
-5. Inicie sesión la solución de Visual Studio Team Service y seleccione **de compilación y la versión**.
-6. Vaya a **versión**. Seleccione el **definición de la versión**, o cree uno nuevo.
-7. En **entornos**, seleccione **agregar un nuevo entorno**, o cambiar a un entorno existente: 
+## <a name="create-the-variables-in-vsts"></a>Cree las variables en VSTS
 
-    ![Agregar un nuevo entorno](../core/media/add-a-new-environment.png)
+1. En su cuenta VSTS, seleccione **de compilación y la versión**y seleccione **versiones**.
 
-8. Haga clic en el botón de puntos suspensivos y seleccione **configurar variables**:
+2. Seleccione el **definición de la versión**y seleccione **Variables**:  
 
-    ![configurar variables](../core/media/configure-variables.png)
+    ![Archivo de enlace](../core/media/vsts-release-variables.png)
 
-9. Mediante la adición de las variables para cada entorno, mediante los nombres de token que creó en el archivo de enlace, puede implementar las aplicaciones en varios entornos con distintos valores:
+3. Seleccione **agregar**y cree los nombres de las variables y valores:   
 
-    ![variables de entorno específicas](../core/media/environment-specific-variables.png)
-    
-10. Seleccione **Aceptar** para guardar las nuevas variables.
-11. Una vez que se inicia la compilación, se agregan los valores del archivo de enlace.
+    ![configurar variables](../core/media/environment-specific-variables.png)
 
-## <a name="next-step"></a>Paso siguiente
-[Agregar una aplicación de BizTalk a VSTS](../core/add-a-biztalk-server-application-to-visual-studio-team-services.md)
+4. **Guardar** los cambios. Cuando se inicia la implementación, los valores se agregan desde el archivo de enlace.
+
+## <a name="see-also"></a>Vea también
+[Configurar la implementación automática con Visual Studio Team Services](configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)  
+[Configuración del Feature Pack](configure-the-feature-pack.md)

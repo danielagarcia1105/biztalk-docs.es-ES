@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3d8cadb82cd6233c84566aa6a0bea55d90b08c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10ce63081fa3b392df3f900fb6a08ecfc7de4cae
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="configure-the-feature-pack"></a>Configurar el feature pack
 ## <a name="overview"></a>Información general
@@ -25,11 +25,12 @@ ms.lasthandoff: 09/20/2017
 
 > [!NOTE]
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)]está disponible con las ediciones Enterprise y Developer de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] cuando: 
-> * Usar con Software Assurance (SA)  
 > 
->     O bien
+> - Usar con Software Assurance (SA)  
 > 
-> * Ejecutando [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] en Azure con un contrato Enterprise
+>  o
+> 
+> - Ejecutando [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] en Azure con un contrato Enterprise
 > 
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)]no está disponible para cualquier otro [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition o cualquier otro [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] versión. 
 
@@ -39,7 +40,7 @@ Descargue el [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 1 d
 
 ## <a name="feature-pack-1-updates"></a>Actualizaciones de características Pack 1
 
-#### <a name="send-tracking-data-to-application-insightscoresend-tracking-data-to-azure-application-insights-using-biztalk-servermd"></a>[Enviar datos de seguimiento a Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
+#### <a name="send-tracking-data-to-application-insightscoresend-tracking-data-to-azure-application-insights-using-biztalk-servermd"></a>[Enviar datos de diagnóstico a Application Insights.](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 
 Enviar datos de seguimiento a Azure Application Insights para usar sus características, como el análisis, aprendizaje automático, diagnósticos y mucho más. 
 
