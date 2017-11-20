@@ -1,0 +1,42 @@
+---
+title: "Error de configuración. El mensaje de firma &#39; t coincide con el valor esperado. | Microsoft Docs"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 1f067351-b6b0-479d-b2ff-81e9f45b5924
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: fa0bacd605908abae984247b3d7ed775ea8f5de4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="configuration-error-the-message-signing-doesn39t-match-the-expected-value"></a><span data-ttu-id="c0c15-104">Error de configuración.</span><span class="sxs-lookup"><span data-stu-id="c0c15-104">Configuration error.</span></span> <span data-ttu-id="c0c15-105">El mensaje de firma &#39; t coincide con el valor esperado.</span><span class="sxs-lookup"><span data-stu-id="c0c15-105">The message signing doesn&#39;t match the expected value.</span></span>
+## <a name="details"></a><span data-ttu-id="c0c15-106">Detalles</span><span class="sxs-lookup"><span data-stu-id="c0c15-106">Details</span></span>  
+  
+|||  
+|-|-|  
+|<span data-ttu-id="c0c15-107">Nombre del producto</span><span class="sxs-lookup"><span data-stu-id="c0c15-107">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="c0c15-108">Versión del producto</span><span class="sxs-lookup"><span data-stu-id="c0c15-108">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="c0c15-109">Identificador del evento</span><span class="sxs-lookup"><span data-stu-id="c0c15-109">Event ID</span></span>|-|  
+|<span data-ttu-id="c0c15-110">Origen del evento</span><span class="sxs-lookup"><span data-stu-id="c0c15-110">Event Source</span></span>|<span data-ttu-id="c0c15-111">EDI de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="c0c15-111">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI</span></span>|  
+|<span data-ttu-id="c0c15-112">Componente</span><span class="sxs-lookup"><span data-stu-id="c0c15-112">Component</span></span>|<span data-ttu-id="c0c15-113">Motor AS2</span><span class="sxs-lookup"><span data-stu-id="c0c15-113">AS2 Engine</span></span>|  
+|<span data-ttu-id="c0c15-114">Nombre simbólico</span><span class="sxs-lookup"><span data-stu-id="c0c15-114">Symbolic Name</span></span>|<span data-ttu-id="c0c15-115">AS2DecoderPartySigningConfigurationError</span><span class="sxs-lookup"><span data-stu-id="c0c15-115">AS2DecoderPartySigningConfigurationError</span></span>|  
+|<span data-ttu-id="c0c15-116">Texto del mensaje</span><span class="sxs-lookup"><span data-stu-id="c0c15-116">Message Text</span></span>|<span data-ttu-id="c0c15-117">Error de configuración.</span><span class="sxs-lookup"><span data-stu-id="c0c15-117">Configuration error.</span></span> <span data-ttu-id="c0c15-118">La firma del mensaje no coincide con el valor esperado.</span><span class="sxs-lookup"><span data-stu-id="c0c15-118">The message signing doesn't match the expected value.</span></span> <span data-ttu-id="c0c15-119">Póngase en contacto con el socio remitente y verifique el uso de la firma.</span><span class="sxs-lookup"><span data-stu-id="c0c15-119">Contact the sending partner and verify signature use.</span></span> <span data-ttu-id="c0c15-120">AS2-de: "{0}" AS2-para: "\ {1\\}" MessageID: "\ {2\}"</span><span class="sxs-lookup"><span data-stu-id="c0c15-120">AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}"</span></span>|  
+  
+## <a name="explanation"></a><span data-ttu-id="c0c15-121">Explicación</span><span class="sxs-lookup"><span data-stu-id="c0c15-121">Explanation</span></span>  
+ <span data-ttu-id="c0c15-122">Este evento de error,  indica que el componente de descodificador AS2 de la canalización de recepción no pudo procesar el mensaje AS2 porque la firma está especificada en la configuración de la entidad y el mensaje AS2 no está firmado, o bien la firma está especificada para que no se habilite, pero el mensaje está firmado.</span><span class="sxs-lookup"><span data-stu-id="c0c15-122">This Error/Warning/Information event indicates that the AS2 Decoder component of the receive pipeline could not process the AS2 message because signing is specified in the party settings, but the AS2 message is not signed, or signing is specified not to be enabled, but the message is signed.</span></span>  
+  
+## <a name="user-action"></a><span data-ttu-id="c0c15-123">Acción del usuario</span><span class="sxs-lookup"><span data-stu-id="c0c15-123">User Action</span></span>  
+ <span data-ttu-id="c0c15-124">Para resolver este error, compruebe que el mensaje AS2 entrante está firmado si la firma está especificada en la configuración de la entidad o bien que el mensaje AS2 entrante no está firmado si la firma está especificada como no habilitada en la configuración de la entidad.</span><span class="sxs-lookup"><span data-stu-id="c0c15-124">To resolve this error, verify that the incoming AS2 message is signed if signing is specified in the party settings or that the incoming AS2 message is not signed if signing is specified as not enabled in the party settings.</span></span> <span data-ttu-id="c0c15-125">Realice una de las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="c0c15-125">Do one of the following:</span></span>  
+  
+1.  <span data-ttu-id="c0c15-126">Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada en la entidad como página del remitente del mensaje AS2 del cuadro de diálogo Propiedades de AS2 en el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, el **de mensajes debe estar firmado** propiedad está seleccionada, pero el mensaje no está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que firme el mensaje y lo vuelva a enviar.</span><span class="sxs-lookup"><span data-stu-id="c0c15-126">If the **Override inbound message properties** property is selected in the Party as AS2 Message Sender page of the AS2 Properties dialog box in the [!INCLUDE[prague](../includes/prague-md.md)] Administration Console, the **Message should be signed** property is selected, but the message is not signed, contact the party that sent the message and ask them to sign the message, and resend it.</span></span> <span data-ttu-id="c0c15-127">También puede desactivar la **debe firmarse el mensaje** propiedad, o la **invalidar propiedades de mensajes entrantes** propiedad.</span><span class="sxs-lookup"><span data-stu-id="c0c15-127">Or you can clear the **Message should be signed** property, or the **Override inbound message properties** property.</span></span>  
+  
+2.  <span data-ttu-id="c0c15-128">Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada, el **debe firmarse el mensaje** propiedad está desactivada, pero el mensaje está firmado, póngase en contacto con la entidad que envió el mensaje y pídale que no firmar el mensaje y lo vuelva a enviar.</span><span class="sxs-lookup"><span data-stu-id="c0c15-128">If the **Override inbound message properties** property is selected, the **Message should be signed** property is cleared, but the message is signed, contact the party that sent the message and ask them not to sign the message, and resend it.</span></span> <span data-ttu-id="c0c15-129">O bien puede seleccionar la **debe firmarse el mensaje** propiedad.</span><span class="sxs-lookup"><span data-stu-id="c0c15-129">Or you can select the **Message should be signed** property.</span></span>

@@ -1,0 +1,232 @@
+---
+title: "Patrones de intercambio para adaptadores de envío | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
+caps.latest.revision: "18"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 997aaa9a92f90f30bdaaeb59cc9cecb0c454496f
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="exchange-patterns-for-send-adapters"></a><span data-ttu-id="24a4e-102">Patrones de intercambio para adaptadores de envío</span><span class="sxs-lookup"><span data-stu-id="24a4e-102">Exchange Patterns for Send Adapters</span></span>
+<span data-ttu-id="24a4e-103">Los adaptadores de envío son mensajes entregados desde el motor de mensajería de BizTalk cuya transmisión debe efectuarse a través de la red.</span><span class="sxs-lookup"><span data-stu-id="24a4e-103">Send adapters are delivered messages from the BizTalk Messaging Engine to be transmitted over the wire.</span></span> <span data-ttu-id="24a4e-104">Estos mensajes pueden enviarse mediante un patrón de intercambio de mensajes bidireccional o unidireccional.</span><span class="sxs-lookup"><span data-stu-id="24a4e-104">These messages may be sent by using a one-way or two-way message exchange pattern.</span></span> <span data-ttu-id="24a4e-105">Un adaptador que controla este patrón de intercambio de mensajes bidireccional se conoce como adaptador de petición-respuesta.</span><span class="sxs-lookup"><span data-stu-id="24a4e-105">An adapter that handles this two-way message exchange pattern is called a Solicit-Response adapter.</span></span>  
+  
+## <a name="blocking-vs-non-blocking-transmissions"></a><span data-ttu-id="24a4e-106">Bloqueo de vs. Transmisiones de no bloqueo</span><span class="sxs-lookup"><span data-stu-id="24a4e-106">Blocking vs. Non-Blocking Transmissions</span></span>  
+ <span data-ttu-id="24a4e-107">El motor de mensajería entrega mensajes al adaptador de envío utilizando la **IBTTransmitter.TransmitMessage** método o la **IBTTransmitterBatch.TransmitMessage** método, dependiendo de si el adaptador es compatible con lotes.</span><span class="sxs-lookup"><span data-stu-id="24a4e-107">The Messaging Engine delivers messages to the send adapter by using either the **IBTTransmitter.TransmitMessage** method or the **IBTTransmitterBatch.TransmitMessage** method, depending on whether the adapter is batch-aware.</span></span> <span data-ttu-id="24a4e-108">Ambas versiones del método tienen un valor de devolución booleano que indica el modo en el que el adaptador efectúa la transmisión del mensaje.</span><span class="sxs-lookup"><span data-stu-id="24a4e-108">Both versions of the method have a Boolean return value that indicates how the adapter transmitted the message.</span></span> <span data-ttu-id="24a4e-109">Si el adaptador devuelve `true`, completamente ha enviado el mensaje antes de devolver.</span><span class="sxs-lookup"><span data-stu-id="24a4e-109">If the adapter returns `true`, it has completely sent the message before returning.</span></span> <span data-ttu-id="24a4e-110">En este caso, el motor de mensajería elimina el mensaje de la base de datos de cuadro de mensajes en nombre del adaptador.</span><span class="sxs-lookup"><span data-stu-id="24a4e-110">In this case the Messaging Engine deletes the message from the MessageBox database on behalf of the adapter.</span></span> <span data-ttu-id="24a4e-111">Si el adaptador devuelve `false`, se inicia la transmisión del mensaje y devuelve antes de completar la transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-111">If the adapter returns `false`, it started message transmission and returned before the transmission completed.</span></span> <span data-ttu-id="24a4e-112">En este caso, el adaptador no es solo responsable de la eliminación del mensaje de la cola de aplicación correspondiente, sino también del control de errores de transmisión que requiere volver a intentar la transmisión o suspensión del mensaje.</span><span class="sxs-lookup"><span data-stu-id="24a4e-112">In this case, the adapter is responsible not only for deleting the message from its application queue but also for handling transmission failures that require the message to be retried for transmission or suspended.</span></span>  
+  
+ <span data-ttu-id="24a4e-113">El adaptador devuelve `false` es una llamada de no bloqueo, lo que significa que la **TransmitMessage** código de implementación no bloquea el subproceso que realiza la llamada del motor de mensajería.</span><span class="sxs-lookup"><span data-stu-id="24a4e-113">The adapter returning `false` is a nonblocking call, meaning that the **TransmitMessage** implementation code does not block the calling thread of the Messaging Engine.</span></span> <span data-ttu-id="24a4e-114">El adaptador tan solo agrega el mensaje a una cola en memoria, preparado para su transmisión y, seguidamente, efectúa su devolución.</span><span class="sxs-lookup"><span data-stu-id="24a4e-114">The adapter simply adds the message to an in-memory queue ready to be transmitted and then returns.</span></span> <span data-ttu-id="24a4e-115">El adaptador debería tener su propio grupo de subprocesos para efectuar la entrega de la cola en memoria, la transmisión del mensaje y, a continuación, la notificación al motor de la salida de la transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-115">The adapter should have its own thread pool that services the in-memory queue, transmits the message, and then notifies the engine of the outcome of the transmission.</span></span>  
+  
+ <span data-ttu-id="24a4e-116">Por lo general, los subprocesos del motor de mensajería están más enlazados a la CPU que los subprocesos que se utilizan para enviar datos a través de la red.</span><span class="sxs-lookup"><span data-stu-id="24a4e-116">The Messaging Engine’s threads are typically more CPU bound than the threads used to send data over the wire.</span></span> <span data-ttu-id="24a4e-117">La combinación de estos dos tipos de subprocesos tiene un impacto negativo en el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="24a4e-117">Mixing these two types of threads has a negative impact on performance.</span></span> <span data-ttu-id="24a4e-118">Los envíos de no bloqueo permiten separar estos dos tipos de subprocesos y mejorar considerablemente el rendimiento con respecto a las llamadas de bloqueo.</span><span class="sxs-lookup"><span data-stu-id="24a4e-118">Non-blocking sends enable the decoupling of these two types of threads and yield a significant performance improvement over blocking calls.</span></span>  
+  
+ <span data-ttu-id="24a4e-119">En el siguiente diagrama, se muestra el grupo de subprocesos del adaptador que, posiblemente, las operaciones E/S tiendan a enlazar.</span><span class="sxs-lookup"><span data-stu-id="24a4e-119">The following diagram shows the adapter's thread pool which can tend to be bound by I/O operations.</span></span> <span data-ttu-id="24a4e-120">El enlace del grupo de subprocesos del motor de mensajería de BizTalk Server está más relacionado con el procesamiento de la CPU.</span><span class="sxs-lookup"><span data-stu-id="24a4e-120">The BizTalk Server Messaging Engine's thread pool is more bound by the CPU processing.</span></span> <span data-ttu-id="24a4e-121">El sistema funciona de forma más eficaz al conservar dos grupos de subprocesos distintos sin mezclar el mismo tipo de subproceso.</span><span class="sxs-lookup"><span data-stu-id="24a4e-121">By keeping two different thread pools and not mixing the same type of threads the system can operate more efficiently.</span></span>  
+  
+ ![](../core/media/io-cpu-bound-threadpools.gif "Io_cpu_bound_threadpools")  
+  
+ <span data-ttu-id="24a4e-122">**Consejo de rendimiento:** para un rendimiento óptimo, enviar adaptadores deben ser no sea de bloqueo y con lotes.</span><span class="sxs-lookup"><span data-stu-id="24a4e-122">**Performance Tip:** For the best performance, send adapters should be nonblocking and batch aware.</span></span> <span data-ttu-id="24a4e-123">Cuando se cambia el carácter de bloqueo y la incompatibilidad con lotes del adaptador de archivo de BizTalk al carácter de no bloqueo y de compatibilidad con lotes, se obtiene una mejora del rendimiento en tres aspectos.</span><span class="sxs-lookup"><span data-stu-id="24a4e-123">When the BizTalk File adapter was changed from blocking and non-batch aware to nonblocking and batch aware, a threefold performance gain was realized.</span></span>  
+  
+ <span data-ttu-id="24a4e-124">**Sugerencia de solución de problemas:** transmite de bloqueo puede provocar una degradación del rendimiento de una instancia de host completo.</span><span class="sxs-lookup"><span data-stu-id="24a4e-124">**Troubleshooting Tip:** Blocking transmits can cause a performance degradation of an entire host instance.</span></span> <span data-ttu-id="24a4e-125">Si el adaptador realiza un bloqueo excesivo en **TransmitMessage** impedirá subprocesos del motor de entrega de mensajes a otros adaptadores.</span><span class="sxs-lookup"><span data-stu-id="24a4e-125">If the adapter does excessive blocking in **TransmitMessage** it will prevent engine threads from delivering messages to other adapters.</span></span>  
+  
+## <a name="non-batched-sends"></a><span data-ttu-id="24a4e-126">Envíos no compatibles con lotes</span><span class="sxs-lookup"><span data-stu-id="24a4e-126">Non-Batched Sends</span></span>  
+ <span data-ttu-id="24a4e-127">Los adaptadores que no son compatibles con lotes deberían implementar **IBTTransmitter** tal como se detalla en [Interfaces para un adaptador de envío asincrónico](../core/interfaces-for-an-asynchronous-send-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="24a4e-127">Adapters that are not batch aware should implement **IBTTransmitter** as detailed in [Interfaces for an Asynchronous Send Adapter](../core/interfaces-for-an-asynchronous-send-adapter.md).</span></span> <span data-ttu-id="24a4e-128">Para las llamadas de cada mensaje que el adaptador necesita transmitir el motor de mensajería de **IBTTransmitter.TransmitMessage**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-128">For each message that the adapter needs to transmit the Messaging Engine calls **IBTTransmitter.TransmitMessage**.</span></span> <span data-ttu-id="24a4e-129">En el diagrama de interacción de objetos que se muestra a continuación, se ilustra el enfoque habitual para la transmisión de mensajes, que consta de los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="24a4e-129">The object interaction diagram below details the typical approach for transmitting messages, which consists of the following steps:</span></span>  
+  
+1.  <span data-ttu-id="24a4e-130">El motor entrega el mensaje al adaptador.</span><span class="sxs-lookup"><span data-stu-id="24a4e-130">The engine delivers the message to the adapter.</span></span>  
+  
+2.  <span data-ttu-id="24a4e-131">El adaptador coloca el mensaje en una cola en memoria, preparado para su transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-131">The adapter enqueues the message to an in-memory queue ready to be transmitted.</span></span>  
+  
+3.  <span data-ttu-id="24a4e-132">Un subproceso del grupo de subprocesos del adaptador quita el mensaje de la cola, lee la configuración que le corresponde a éste y lo transmite a través de la red.</span><span class="sxs-lookup"><span data-stu-id="24a4e-132">A thread from the adapter's thread pool dequeues the message from the queue, reads the configuration for the message, and transmits the message over the wire.</span></span>  
+  
+4.  <span data-ttu-id="24a4e-133">El adaptador obtiene un nuevo lote del motor.</span><span class="sxs-lookup"><span data-stu-id="24a4e-133">The adapter gets a new batch from the engine.</span></span>  
+  
+5.  <span data-ttu-id="24a4e-134">El adaptador llama **DeleteMessage** en el lote, pasa el mensaje recién transmitido.</span><span class="sxs-lookup"><span data-stu-id="24a4e-134">The adapter calls **DeleteMessage** on the batch, passing in the message that it has just transmitted.</span></span>  
+  
+6.  <span data-ttu-id="24a4e-135">El adaptador llama **realiza** en el lote.</span><span class="sxs-lookup"><span data-stu-id="24a4e-135">The adapter calls **Done** on the batch.</span></span>  
+  
+7.  <span data-ttu-id="24a4e-136">El motor procesa el lote y elimina el mensaje de la cola de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="24a4e-136">The engine processes the batch and deletes the message from the application queue.</span></span>  
+  
+8.  <span data-ttu-id="24a4e-137">El motor llama al adaptador para notificarle del resultado de la **DeleteMessage** operación.</span><span class="sxs-lookup"><span data-stu-id="24a4e-137">The engine calls back the adapter to notify it of the outcome of the **DeleteMessage** operation.</span></span>  
+  
+ ![](../core/media/deleting-from-message-queue.gif "Deleting_from_message_queue")  
+  
+ <span data-ttu-id="24a4e-138">El diagrama de interacción de objetos anterior muestra la eliminación que lleva a cabo el adaptador de un solo mensaje de la cola de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="24a4e-138">The preceding object interaction diagram shows the adapter deleting a single message from the application queue.</span></span> <span data-ttu-id="24a4e-139">Idealmente, el adaptador procesa por lotes operaciones de mensaje, lo que se opone al funcionamiento con un solo mensaje cada vez.</span><span class="sxs-lookup"><span data-stu-id="24a4e-139">Ideally the adapter batches up message operations as opposed to operating on a single message at a time.</span></span>  
+  
+## <a name="batched-sends"></a><span data-ttu-id="24a4e-140">Envíos compatibles con lotes</span><span class="sxs-lookup"><span data-stu-id="24a4e-140">Batched Sends</span></span>  
+ <span data-ttu-id="24a4e-141">Los adaptadores que son compatibles con lotes deberían implementar **IBTBatchTransmitter** y **IBTTransmitterBatch** tal como se detalla en [Interfaces para los adaptadores de envío](../core/interfaces-for-send-adapters.md).</span><span class="sxs-lookup"><span data-stu-id="24a4e-141">Adapters that are batch aware should implement **IBTBatchTransmitter** and **IBTTransmitterBatch** as detailed in [Interfaces for Send Adapters](../core/interfaces-for-send-adapters.md).</span></span> <span data-ttu-id="24a4e-142">Cuando el motor tiene mensajes para el adaptador transmitir, el motor Obtiene un nuevo lote del adaptador mediante una llamada a **IBTBatchTransmitter.GetBatch**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-142">When the engine has messages for the adapter to transmit, the engine gets a new batch from the adapter by calling **IBTBatchTransmitter.GetBatch**.</span></span> <span data-ttu-id="24a4e-143">El adaptador devuelve un nuevo objeto de lote que implementa **IBTTransmitterBatch**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-143">The adapter returns a new batch object that implements **IBTTransmitterBatch**.</span></span> <span data-ttu-id="24a4e-144">El motor, a continuación, inicia el lote mediante una llamada a **IBTTransmitterBatch.BeginBatch**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-144">The engine then starts the batch by calling **IBTTransmitterBatch.BeginBatch**.</span></span> <span data-ttu-id="24a4e-145">La API dispone de un parámetro de salida que permite que el adaptador especifique el número máximo de mensajes que se aceptará en el lote.</span><span class="sxs-lookup"><span data-stu-id="24a4e-145">This API has an out parameter that allows the adapter to specify the maximum number of messages that it will accept on the batch.</span></span> <span data-ttu-id="24a4e-146">De forma opcional, el adaptador puede devolver una transacción de DTC.</span><span class="sxs-lookup"><span data-stu-id="24a4e-146">The adapter may optionally return a DTC transaction.</span></span> <span data-ttu-id="24a4e-147">A continuación, llama el motor de **IBTTransmitterBatch.TransmitMessage** una vez para cada mensaje saliente que se va a agregarse al lote.</span><span class="sxs-lookup"><span data-stu-id="24a4e-147">The engine then calls **IBTTransmitterBatch.TransmitMessage** once for each outgoing message to be added to the batch.</span></span> <span data-ttu-id="24a4e-148">El número de veces que se efectúa esta llamada es superior a 0 pero inferior o igual al tamaño máximo del lote, tal y como lo indica el adaptador.</span><span class="sxs-lookup"><span data-stu-id="24a4e-148">The number of times this is called is greater than zero but less than or equal to the maximum size of the batch as indicated by the adapter.</span></span> <span data-ttu-id="24a4e-149">Cuando todos los mensajes se han agregado al lote, el adaptador llama **IBTTransmitterBatch.Done**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-149">When all the messages have been added to the batch, the adapter calls **IBTTransmitterBatch.Done**.</span></span> <span data-ttu-id="24a4e-150">En este punto, por lo general, el adaptador coloca todos los mensajes del lote en la cola en memoria correspondiente.</span><span class="sxs-lookup"><span data-stu-id="24a4e-150">At this point the adapter typically enqueues all the messages in the batch to its in-memory queue.</span></span> <span data-ttu-id="24a4e-151">El adaptador transmite los mensajes a partir de uno o varios subprocesos de su propio grupo de subprocesos, como en el caso de adaptadores no compatibles con lotes.</span><span class="sxs-lookup"><span data-stu-id="24a4e-151">The adapter transmits the messages from a thread or threads in its own thread pool as in the case of non-batch-aware adapters.</span></span> <span data-ttu-id="24a4e-152">Después, el adaptador notifica al motor del resultado de la transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-152">The adapter then notifies the engine of the outcome of the transmission.</span></span>  
+  
+ <span data-ttu-id="24a4e-153">En el diagrama de interacción de objetos que se muestra a continuación, se ilustra la transmisión que efectúa un adaptador de envío por lotes de dos mensajes.</span><span class="sxs-lookup"><span data-stu-id="24a4e-153">The following object interaction diagram illustrates the transmission of two messages by a batched send adapter.</span></span>  
+  
+ ![](../core/media/batchedsends.gif "BatchedSends")  
+  
+## <a name="handling-transmission-failures"></a><span data-ttu-id="24a4e-154">Controlar errores de transmisión</span><span class="sxs-lookup"><span data-stu-id="24a4e-154">Handling Transmission Failures</span></span>  
+ <span data-ttu-id="24a4e-155">En la ilustración siguiente, se ilustra la semántica recomendada para los errores de transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-155">The recommended semantics for transmission failures are illustrated in the figure below.</span></span> <span data-ttu-id="24a4e-156">Se trata únicamente de recomendaciones que no impone el motor de mensajería.</span><span class="sxs-lookup"><span data-stu-id="24a4e-156">These are only recommendations and are not enforced by the Messaging Engine.</span></span> <span data-ttu-id="24a4e-157">Se puede desarrollar un adaptador que difiera de estas directrices si hay razones válidas para ello, aunque se debe tener especial cuidado en ese caso.</span><span class="sxs-lookup"><span data-stu-id="24a4e-157">You can develop an adapter that deviates from these guidelines if there are valid reasons for doing so but you should be careful in this case.</span></span> <span data-ttu-id="24a4e-158">Por ejemplo, en términos generales, un adaptador siempre debe mover mensajes al transporte de reserva una vez agotados todos los reintentos.</span><span class="sxs-lookup"><span data-stu-id="24a4e-158">For example, in general an adapter should always move messages to the backup transport after all retries have been exhausted.</span></span>  
+  
+ <span data-ttu-id="24a4e-159">Lo más habitual es que un transporte necesite efectuar un número de reintentos superior al que establece la configuración.</span><span class="sxs-lookup"><span data-stu-id="24a4e-159">More commonly a transport may need to use more retries than are configured.</span></span> <span data-ttu-id="24a4e-160">Aunque esta situación es ligeramente distinta, se considera aceptable porque se aumenta la capacidad de recuperación de la capa de transporte.</span><span class="sxs-lookup"><span data-stu-id="24a4e-160">While this is slightly different it is considered acceptable because the resilience of the transport layer is being increased.</span></span> <span data-ttu-id="24a4e-161">En general, las API que expone el motor de mensajería están diseñadas para ofrecer al adaptador el control máximo allí donde sea posible.</span><span class="sxs-lookup"><span data-stu-id="24a4e-161">In general the APIs exposed by the Messaging Engine are designed to give the adapter maximum control where possible.</span></span> <span data-ttu-id="24a4e-162">Este control conlleva un nivel más alto de responsabilidad.</span><span class="sxs-lookup"><span data-stu-id="24a4e-162">With this control comes a greater level of responsibility.</span></span>  
+  
+ ![](../core/media/handlingerrors.gif "HandlingErrors")  
+  
+ <span data-ttu-id="24a4e-163">El adaptador determina el número de reintentos disponibles en un mensaje mediante la comprobación de la propiedad de contexto de sistema **RetryCount**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-163">The adapter determines the number of retries available on a message by checking the system context property **RetryCount**.</span></span> <span data-ttu-id="24a4e-164">El adaptador llama el **reenviar** API una vez para cada reintento intento y pasa el mensaje que se va a reenviar.</span><span class="sxs-lookup"><span data-stu-id="24a4e-164">The adapter calls the **Resubmit** API once for each retry attempt and passes in the message to be resubmitted.</span></span> <span data-ttu-id="24a4e-165">Además del mensaje, pasa la marca de tiempo que indica el momento en el que debe volver a entregarse el mensaje al adaptador.</span><span class="sxs-lookup"><span data-stu-id="24a4e-165">Along with the message it passes the time stamp indicating when the engine should deliver the message back to the adapter.</span></span> <span data-ttu-id="24a4e-166">Este valor debe ser la hora actual más el valor de **RetryInterval**.</span><span class="sxs-lookup"><span data-stu-id="24a4e-166">This value should typically be the current time plus the value of **RetryInterval**.</span></span> <span data-ttu-id="24a4e-167">**RetryInterval** es una propiedad de contexto de sistema cuyas unidades son minutos.</span><span class="sxs-lookup"><span data-stu-id="24a4e-167">**RetryInterval** is a system context property whose units are minutes.</span></span> <span data-ttu-id="24a4e-168">Tanto el **RetryCount** y **RetryInterval** en el contexto del mensaje son los valores que se configuran en el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="24a4e-168">Both the **RetryCount** and **RetryInterval** in the message context are the values that are configured on the send port.</span></span> <span data-ttu-id="24a4e-169">Consideremos una implementación escalada horizontalmente con instancias del mismo host de BizTalk implementadas en varios equipos.</span><span class="sxs-lookup"><span data-stu-id="24a4e-169">Consider a scaled-out deployment with instances of the same BizTalk Host deployed on multiple computers.</span></span> <span data-ttu-id="24a4e-170">Si el mensaje se entrega una vez agotado el intervalo de reintentos, podrá entregarse a cualquiera de las instancias de host de cualquiera de los equipos en los que aquéllas están configuradas para ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="24a4e-170">If the message is delivered after the retry interval has expired, the message may be delivered to the any one of the host instances on any of the computers where they are configured to run.</span></span> <span data-ttu-id="24a4e-171">Por ello, el adaptador no debería conservar ningún estado asociado con un mensaje que se deba utilizar en el reintento, ya que no hay garantía de que la misma instancia del adaptador se haga responsable, posteriormente, de la transmisión.</span><span class="sxs-lookup"><span data-stu-id="24a4e-171">For this reason the adapter should not hold any state associated with a message to be used on the retry attempt because there is no guarantee that same instance of the adapter will be responsible for the transmission at a later time.</span></span>  
+  
+ <span data-ttu-id="24a4e-172">El adaptador solo debe intentar mover el mensaje al transporte de reserva después de que el recuento de reintentos sea inferior o igual a cero.</span><span class="sxs-lookup"><span data-stu-id="24a4e-172">The adapter should only attempt to move the message to the backup transport after the retry count is less than or equal to zero.</span></span> <span data-ttu-id="24a4e-173">Si no hay ningún transporte de reserva configurado para el puerto, el intento de mover el mensaje a dicho transporte no se llevará a cabo correctamente.</span><span class="sxs-lookup"><span data-stu-id="24a4e-173">An attempt to move the message to the backup transport will fail if there is no backup transport configured for the port.</span></span> <span data-ttu-id="24a4e-174">En este caso, el mensaje debería suspenderse.</span><span class="sxs-lookup"><span data-stu-id="24a4e-174">In this case the message should be suspended.</span></span>  
+  
+ <span data-ttu-id="24a4e-175">El código siguiente muestra cómo determinar el intervalo y el recuento de reintentos a partir del contexto del mensaje, así como el reenvío o el movimiento siguiente al transporte de reserva.</span><span class="sxs-lookup"><span data-stu-id="24a4e-175">The following code fragment illustrates how to determine the retry count and interval from the message context, and the subsequent resubmit or move to the backup transport.</span></span>  
+  
+```  
+using Microsoft.XLANGs.BaseTypes;  
+using Microsoft.BizTalk.Message.Interop;  
+using Microsoft.BizTalk.TransportProxy.Interop;  
+ …  
+// RetryCount and RetyInterval are system context properties...  
+private static readonly PropertyBase RetryCountProperty =   
+ new BTS.RetryCount();  
+private static readonly PropertyBase RetryIntervalProperty =   
+ new BTS.RetryInterval();  
+  
+public void HandleRetry(IBaseMessage msg, IBTTransportBatch batch)  
+{  
+int retryCount = 0;  
+int retryInterval = 0;  
+  
+// Get the RetryCount and RetryInterval off the msg ctx...  
+ GetMessageRetryState(msg, out retryCount, out retryInterval);  
+  
+// If we have retries available resubmit, else move to   
+ // backup transport...  
+ if ( retryCount > 0 )  
+batch.Resubmit(  
+ msg, DateTime.Now.AddMinutes(retryInterval));  
+else  
+batch.MoveToNextTransport(msg);  
+}  
+  
+public void GetMessageRetryState(  
+ IBaseMessage msg,   
+ out int retryCount,   
+ out int retryInterval )  
+{  
+retryCount = 0;  
+retryInterval = 0;  
+  
+object obj =  msg.Context.Read(  
+RetryCountProperty.Name.Name,    
+RetryCountProperty.Name.Namespace);   
+  
+if ( null != obj )  
+retryCount = (int)obj;  
+  
+obj =  msg.Context.Read(  
+RetryIntervalProperty.Name.Name,    
+RetryIntervalProperty.Name.Namespace);   
+  
+if ( null != obj )  
+retryInterval = (int)obj;  
+}  
+```  
+  
+## <a name="throwing-an-exception-from-transmitmessage"></a><span data-ttu-id="24a4e-176">Lanzar una excepción desde TransmitMessage</span><span class="sxs-lookup"><span data-stu-id="24a4e-176">Throwing an Exception from TransmitMessage</span></span>  
+ <span data-ttu-id="24a4e-177">Si el adaptador lanza una excepción en cualquiera de las API **IBTTransmitter.TransmitMessage**, **IBTTransmitterBatch.TransmitMessage**, **IBTTransmitterBatch.Done**, el motor tratará la transmisión de los mensajes implicados como errores de transmisión y toma las medidas oportunas para el mensaje, como se detalla en [cómo controlar errores de los adaptadores](../core/how-to-handle-adapter-failures.md).</span><span class="sxs-lookup"><span data-stu-id="24a4e-177">If the adapter throws an exception on any of the APIs **IBTTransmitter.TransmitMessage**, **IBTTransmitterBatch.TransmitMessage**, **IBTTransmitterBatch.Done**, the engine treats the transmission of the messages involved as transmission failures and takes the appropriate action for the message, as detailed in [How to Handle Adapter Failures](../core/how-to-handle-adapter-failures.md).</span></span>  
+  
+ <span data-ttu-id="24a4e-178">En el caso de los adaptadores de envío compatibles con lotes, el lanzamiento de una excepción en la API TransmitMessage tiene como resultado la eliminación de la totalidad del lote y la puesta en práctica de las acciones de errores de transmisión predeterminadas para todos los mensajes de ese lote.</span><span class="sxs-lookup"><span data-stu-id="24a4e-178">For batch-aware send adapters, throwing an exception on the TransmitMessage API results in the entire batch being cleared and the default transmit failure actions being performed for all messages in that batch.</span></span>  
+  
+## <a name="solicit-response"></a><span data-ttu-id="24a4e-179">Petición-Respuesta</span><span class="sxs-lookup"><span data-stu-id="24a4e-179">Solicit-Response</span></span>  
+ <span data-ttu-id="24a4e-180">Los adaptadores de envío bidireccionales admiten, por lo general, tanto transmisiones bidireccionales como unidireccionales.</span><span class="sxs-lookup"><span data-stu-id="24a4e-180">Two-way send adapters typically support both one-way and two-way transmissions.</span></span> <span data-ttu-id="24a4e-181">El adaptador de envío determina si el mensaje debe transmitirse como un envío unidireccional o bidireccional inspeccionando la **IsSolicitResponse** propiedad de contexto de sistema en el contexto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="24a4e-181">The send adapter determines whether the message should be transmitted as a one-way or two-way send by inspecting the **IsSolicitResponse** system context property in the message context.</span></span>  
+  
+ <span data-ttu-id="24a4e-182">En el siguiente fragmento de código se muestra este caso:</span><span class="sxs-lookup"><span data-stu-id="24a4e-182">The following code fragment demonstrates this:</span></span>  
+  
+```  
+private bool portIsTwoWay = false;  
+private static readonly PropertyBase IsSolicitResponseProperty= new BTS.IsSolicitResponse();  
+  
+...  
+  
+ // Port is one way or two way...  
+ object obj =  this.message.Context.Read(  
+ IsSolicitResponseProperty.Name.Name,    
+ IsSolicitResponseProperty.Name.Namespace);   
+  
+if ( null != obj )  
+ this.portIsTwoWay = (bool)obj;  
+```  
+  
+ <span data-ttu-id="24a4e-183">Durante una transmisión de petición-respuesta, el adaptador transmite el mensaje de petición.</span><span class="sxs-lookup"><span data-stu-id="24a4e-183">During a solicit-response transmission the adapter transmits the solicit message.</span></span> <span data-ttu-id="24a4e-184">Una vez completado lo anterior, envía la respuesta asociada y le ordena al motor de mensajería que elimine el mensaje de petición original de la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="24a4e-184">After this completed it submits the associated response and tells the Messaging Engine to delete the original solicit message from the MessageBox database.</span></span> <span data-ttu-id="24a4e-185">La acción de eliminar el mensaje de la cola de la aplicación debe efectuarse en el mismo lote de proxy de transporte que el envío del mensaje de respuesta.</span><span class="sxs-lookup"><span data-stu-id="24a4e-185">The action of deleting the message from the application queue should be performed in the same transport proxy batch as the submission of the response message.</span></span> <span data-ttu-id="24a4e-186">Con ello, se asegura el carácter atómico de la eliminación y el envío de la respuesta.</span><span class="sxs-lookup"><span data-stu-id="24a4e-186">This ensures atomicity of the deletion and submission of the response.</span></span> <span data-ttu-id="24a4e-187">Para obtener una atomicidad completa, el adaptador debe utilizar una transacción de DTC en cuyo contexto se encuentren el mensaje de petición a un recurso compatible con transacciones, el envío del mensaje de respuesta y la eliminación del mensaje de petición.</span><span class="sxs-lookup"><span data-stu-id="24a4e-187">For complete atomicity the adapter should use a DTC transaction whereby the transmission of the solicit message to a transaction-aware resource, submission of the response message, and deletion of the solicit message are all in the context of the same DTC transaction.</span></span> <span data-ttu-id="24a4e-188">Como siempre, se recomienda que el mensaje de petición se transmita mediante un envío de no bloqueo.</span><span class="sxs-lookup"><span data-stu-id="24a4e-188">As always, we recommend that the solicit message is transmitted using a non-blocking send.</span></span>  
+  
+ <span data-ttu-id="24a4e-189">En el siguiente fragmento de código se muestran los aspectos principales de un envío bidireccional.</span><span class="sxs-lookup"><span data-stu-id="24a4e-189">The following code fragment illustrates the main aspects of a two-way send.</span></span> <span data-ttu-id="24a4e-190">Cuando el motor llama **IBTTransmitter.TransmitMessage** el adaptador coloca el mensaje que se transmitan a una cola en memoria.</span><span class="sxs-lookup"><span data-stu-id="24a4e-190">When the engine calls **IBTTransmitter.TransmitMessage** the adapter enqueues the message to be transmitted to an in-memory queue.</span></span> <span data-ttu-id="24a4e-191">El adaptador devuelve `false` para indicar que está realizando un envío de no bloqueo.</span><span class="sxs-lookup"><span data-stu-id="24a4e-191">The adapter returns `false` to indicate that it is performing a non-blocking send.</span></span> <span data-ttu-id="24a4e-192">Grupo de subprocesos del adaptador (**WorkerThreadThunk**) de servicios de la cola en memoria y quita de la cola un mensaje para entregarlo a un método auxiliar.</span><span class="sxs-lookup"><span data-stu-id="24a4e-192">The adapter's thread pool (**WorkerThreadThunk**) services the in-memory queue and dequeues a message to hand it off to a helper method.</span></span> <span data-ttu-id="24a4e-193">Este método es el responsable del envío del mensaje de petición y de la recepción del mensaje de respuesta.</span><span class="sxs-lookup"><span data-stu-id="24a4e-193">This method is responsible for sending the solicit message and receiving the response message.</span></span> <span data-ttu-id="24a4e-194">(La implementación de este método auxiliar excede el alcance de este tema.) El mensaje de respuesta se envía al motor y el mensaje de petición se elimina de la cola de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="24a4e-194">(The implementation of this helper method is outside the scope of this topic.) The response message is submitted into the engine, and the solicit message is deleted from the application queue.</span></span>  
+  
+```  
+using System.Collections;  
+using Microsoft.XLANGs.BaseTypes;  
+using Microsoft.BizTalk.Message.Interop;  
+using Microsoft.BizTalk.TransportProxy.Interop;  
+  
+     static private Queue _transmitQueue = new Queue();  
+  static private IBTTransportProxy _transportProxy = null;   
+// IBTTransmitter...  
+ public bool TransmitMessage(IBaseMessage msg)  
+{  
+// Add message to the transmit queue...  
+lock(_transmitQueue.SyncRoot)  
+ {  
+_transmitQueue.Enqueue(msg);  
+ }  
+  
+ return false;  
+}  
+  
+ // Threadpool worker thread...   
+private void WorkerThreadThunk()  
+{  
+try  
+{  
+ IBaseMessage solicitMsg = null;  
+  
+ lock(_transmitQueue.SyncRoot)  
+ {  
+ solicitMsg =   
+ (IBaseMessage)_transmitQueue.Dequeue();  
+}  
+  
+ IBaseMessage responseMsg = SendSolicitResponse(   
+ solicitMsg );  
+Callback cb = new Callback();  
+  
+IBTTransportBatch batch = _transportProxy.GetBatch(  
+ cb, null);  
+batch.SubmitResponseMessage( solicitMsg, responseMsg );  
+batch.DeleteMessage( solicitMsg );  
+batch.Done(null);  
+}  
+catch(Exception)  
+{  
+// Handle failure....  
+}  
+}  
+  
+static private IBaseMessage SendSolicitResponse(  
+ IBaseMessage solicitMsg )  
+{  
+// Helper method to send solicit message and receive   
+ // response message...  
+IBaseMessage responseMsg = null;  
+return responseMsg;  
+}  
+```  
+  
+## <a name="dynamic-sends"></a><span data-ttu-id="24a4e-195">Envíos dinámicos</span><span class="sxs-lookup"><span data-stu-id="24a4e-195">Dynamic Sends</span></span>  
+ <span data-ttu-id="24a4e-196">Los puertos de envío dinámico no tienen una configuración de adaptador asociada a ellos.</span><span class="sxs-lookup"><span data-stu-id="24a4e-196">Dynamic send ports do not have adapter configuration associated with them.</span></span> <span data-ttu-id="24a4e-197">En lugar de ello, utilizan la configuración del controlador para cualquier propiedad predeterminada que necesite el adaptador para transmitir mensajes en un puerto dinámico.</span><span class="sxs-lookup"><span data-stu-id="24a4e-197">Instead they use handler configuration for any default properties that the adapter needs to transmit messages on a dynamic port.</span></span> <span data-ttu-id="24a4e-198">Por ejemplo, es posible que un adaptador de HTTP necesite utilizar un proxy y tenga que proporcionar credenciales.</span><span class="sxs-lookup"><span data-stu-id="24a4e-198">For example, an HTTP adapter may need to use a proxy and need to provide credentials.</span></span> <span data-ttu-id="24a4e-199">El nombre de usuario, la contraseña y el puerto pueden especificarse en la configuración del controlador que el adaptador guarda en la caché en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="24a4e-199">The user name, password, and port could be specified in the handler configuration that the adapter caches at run time.</span></span>  
+  
+ <span data-ttu-id="24a4e-200">Para el motor determine el transporte que se enviará a través, un mensaje dinámico el **OutboundTransportLocation** tiene como prefijo el alias del adaptador.</span><span class="sxs-lookup"><span data-stu-id="24a4e-200">For the engine to determine the transport that a dynamic message is to be sent over, the **OutboundTransportLocation** is prefixed with the adapter's alias.</span></span> <span data-ttu-id="24a4e-201">Un adaptador puede registrar uno o varios alias con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] durante la instalación.</span><span class="sxs-lookup"><span data-stu-id="24a4e-201">An adapter can register one or more aliases with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] at install time.</span></span> <span data-ttu-id="24a4e-202">El motor analiza la **OutboundTransportLocation** en tiempo de ejecución para buscar una coincidencia.</span><span class="sxs-lookup"><span data-stu-id="24a4e-202">The engine parses the **OutboundTransportLocation** at run time to find a match.</span></span> <span data-ttu-id="24a4e-203">El adaptador es responsable de control de la **OutboundTransportLocation** con o sin el alias antepuesto a él.</span><span class="sxs-lookup"><span data-stu-id="24a4e-203">The adapter is responsible for handling the **OutboundTransportLocation** with or without the alias prepended to it.</span></span> <span data-ttu-id="24a4e-204">En la tabla siguiente se muestran algunos ejemplos de alias registrados para adaptadores de BizTalk predeterminados.</span><span class="sxs-lookup"><span data-stu-id="24a4e-204">The following table shows some examples of aliases registered for out-of-the-box BizTalk adapters.</span></span>  
+  
+|<span data-ttu-id="24a4e-205">Alias de adaptador</span><span class="sxs-lookup"><span data-stu-id="24a4e-205">Adapter alias</span></span>|<span data-ttu-id="24a4e-206">Adaptador</span><span class="sxs-lookup"><span data-stu-id="24a4e-206">Adapter</span></span>|<span data-ttu-id="24a4e-207">Ejemplo de OutboundTransportLocation</span><span class="sxs-lookup"><span data-stu-id="24a4e-207">OutboundTransportLocation example</span></span>|  
+|-------------------|-------------|---------------------------------------|  
+|<span data-ttu-id="24a4e-208">HTTP://</span><span class="sxs-lookup"><span data-stu-id="24a4e-208">HTTP://</span></span>|<span data-ttu-id="24a4e-209">HTTP</span><span class="sxs-lookup"><span data-stu-id="24a4e-209">HTTP</span></span>|<span data-ttu-id="24a4e-210">http://www.</span><span class="sxs-lookup"><span data-stu-id="24a4e-210">http://www.</span></span> <span data-ttu-id="24a4e-211">MyCompany.com/bar</span><span class="sxs-lookup"><span data-stu-id="24a4e-211">MyCompany.com/bar</span></span>|  
+|<span data-ttu-id="24a4e-212">HTTPS://</span><span class="sxs-lookup"><span data-stu-id="24a4e-212">HTTPS://</span></span>|<span data-ttu-id="24a4e-213">HTTP</span><span class="sxs-lookup"><span data-stu-id="24a4e-213">HTTP</span></span>|<span data-ttu-id="24a4e-214">https://www.</span><span class="sxs-lookup"><span data-stu-id="24a4e-214">https://www.</span></span> <span data-ttu-id="24a4e-215">MyCompany.com/bar</span><span class="sxs-lookup"><span data-stu-id="24a4e-215">MyCompany.com/bar</span></span>|  
+|<span data-ttu-id="24a4e-216">mailto:</span><span class="sxs-lookup"><span data-stu-id="24a4e-216">mailto:</span></span>|<span data-ttu-id="24a4e-217">SMTP</span><span class="sxs-lookup"><span data-stu-id="24a4e-217">SMTP</span></span>|mailto:A.User@MyCompany.com|  
+|<span data-ttu-id="24a4e-218">FILE://</span><span class="sxs-lookup"><span data-stu-id="24a4e-218">FILE://</span></span>|<span data-ttu-id="24a4e-219">FILE</span><span class="sxs-lookup"><span data-stu-id="24a4e-219">FILE</span></span>|<span data-ttu-id="24a4e-220">FILE://C:\ MyCompany \\%MessageID%.xml</span><span class="sxs-lookup"><span data-stu-id="24a4e-220">FILE://C:\ MyCompany \\%MessageID%.xml</span></span>|

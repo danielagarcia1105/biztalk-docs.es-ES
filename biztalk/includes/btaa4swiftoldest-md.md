@@ -1,0 +1,1 @@
+<span data-ttu-id="cd240-101">A4SWIFT 2.1</span><span class="sxs-lookup"><span data-stu-id="cd240-101">A4SWIFT 2.1</span></span>

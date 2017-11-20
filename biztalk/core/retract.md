@@ -1,0 +1,91 @@
+---
+title: Retirar | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- Retract function [Business Rules Engine], TypedData table
+- Retract function [Business Rules Engine], TypedXMLDocument
+- Retract function [Business Rules Engine]
+- Retract function [Business Rules Engine], DataConnection
+- Retract function [Business Rules Engine], .NET objects
+- .NET objects
+ms.assetid: 24b6b894-6810-4497-a122-8c91f0b2e816
+caps.latest.revision: "7"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 17eb4739412d310d2a69b53c8470abc7461ce3ce
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="retract"></a><span data-ttu-id="b50ba-102">Retirar</span><span class="sxs-lookup"><span data-stu-id="b50ba-102">Retract</span></span>
+<span data-ttu-id="b50ba-103">Puede usar el **Retract** function para quitar objetos de memoria de trabajo del motor de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="b50ba-103">You can use the **Retract** function to remove objects from the Business Rule Engine's working memory.</span></span> <span data-ttu-id="b50ba-104">En los párrafos siguientes se describe el comportamiento asociado con la retirada de entidades de tipos diferentes de la memoria de trabajo del motor de reglas.</span><span class="sxs-lookup"><span data-stu-id="b50ba-104">The following paragraphs describe the behavior associated with retracting entities of different types from the rule engine's working memory.</span></span>  
+  
+## <a name="net-objects"></a><span data-ttu-id="b50ba-105">Objetos .NET</span><span class="sxs-lookup"><span data-stu-id="b50ba-105">.NET Objects</span></span>  
+ <span data-ttu-id="b50ba-106">Un objeto .NET se retira en una directiva mediante el uso de la **Retract** función.</span><span class="sxs-lookup"><span data-stu-id="b50ba-106">A .NET object is retracted in a policy by using the **Retract** function.</span></span> <span data-ttu-id="b50ba-107">Esta función está disponible en el Compositor de reglas de negocio como un **funciones** elemento de vocabulario: arrastre la clase (no el ensamblado o un método) a la **Retract** parámetro.</span><span class="sxs-lookup"><span data-stu-id="b50ba-107">This function is available in the Business Rule Composer as a **Functions** vocabulary item: drag the class (not the assembly or method) into the **Retract** parameter.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="b50ba-108">Si se arrastra un método en el **Retract** función, el motor intenta retirar el objeto devuelto por el método.</span><span class="sxs-lookup"><span data-stu-id="b50ba-108">If you drag a method into the **Retract** function, the engine attempts to retract the object returned by the method.</span></span>  
+  
+ <span data-ttu-id="b50ba-109">Retirar un objeto .NET lo quita de la memoria de trabajo del motor de reglas y tiene el impacto siguiente:</span><span class="sxs-lookup"><span data-stu-id="b50ba-109">Retracting a .NET object removes it from the rule engine's working memory and has the following impact:</span></span>  
+  
+-   <span data-ttu-id="b50ba-110">Las acciones de las reglas que utilizan el objeto en un predicado se retiran de la agenda (de existir alguna en la agenda).</span><span class="sxs-lookup"><span data-stu-id="b50ba-110">Rules that use the object in a predicate have their actions removed from the agenda (if any exist on the agenda).</span></span>  
+  
+-   <span data-ttu-id="b50ba-111">Las acciones de la agenda que utilizan los objetos se quitan de la agenda.</span><span class="sxs-lookup"><span data-stu-id="b50ba-111">Actions on the agenda that use the objects are removed from the agenda.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="b50ba-112">Otras acciones más arriba en la agenda pueden haber ejecutado ya antes de la **Retract** se llamó la función.</span><span class="sxs-lookup"><span data-stu-id="b50ba-112">Other actions higher up on the agenda may have already executed before the **Retract** function was called.</span></span>  
+  
+-   <span data-ttu-id="b50ba-113">El objeto ya no es evaluado por el motor.</span><span class="sxs-lookup"><span data-stu-id="b50ba-113">The object is no longer evaluated by the engine.</span></span>  
+  
+## <a name="typedxmldocument"></a><span data-ttu-id="b50ba-114">TypedXmlDocument</span><span class="sxs-lookup"><span data-stu-id="b50ba-114">TypedXmlDocument</span></span>  
+ <span data-ttu-id="b50ba-115">Puede retirar el original **TypedXmlDocument** que se imponen en el motor o retirar uno de los secundarios **TypedXmlDocument**creado a partir de un nodo del elemento primario **XmlDocument** .</span><span class="sxs-lookup"><span data-stu-id="b50ba-115">You can either retract the original **TypedXmlDocument** that was asserted into the engine or retract one of the child **TypedXmlDocument**s created from a node of the parent **XmlDocument**.</span></span>  
+  
+ <span data-ttu-id="b50ba-116">Utilizando el código XML siguiente como ejemplo, puede retirar el **TypedXmlDocument** asociados con el pedido o uno o ambos de los **TypedXmlDocument**que están asociadas con la orderline.</span><span class="sxs-lookup"><span data-stu-id="b50ba-116">Using the following XML as an example, you can either retract the **TypedXmlDocument** associated with order or one or both of the **TypedXmlDocument**s associated with orderline.</span></span>  
+  
+```  
+<order>  
+   <orderline customer="Joe" linenumber="001">  
+      <product name="router" quantity="10" cost="550" />  
+   </orderline>  
+   <orderline customer="Jane" linenumber="002">  
+      <product name="switch" quantity="1" cost="300" />  
+   </orderline>  
+</order>  
+```  
+  
+ <span data-ttu-id="b50ba-117">Para retirar el objeto de pedido, arrastre el nodo superior del esquema en el panel de hechos Esquemas XML.</span><span class="sxs-lookup"><span data-stu-id="b50ba-117">To retract the order object, you would drag the top node for the schema in the XML Schemas fact pane.</span></span> <span data-ttu-id="b50ba-118">Este nodo finaliza en ".xsd" y representa el nodo raíz del documento (no el nodo de elemento de documento); tiene un selector "/" que hace referencia a la inicial **TypedXmlDocument**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-118">This node ends in ".xsd" and represents the document root node (not the document element node); it has a "/" selector that refers to the initial **TypedXmlDocument**.</span></span> <span data-ttu-id="b50ba-119">Cuando el elemento primario **TypedXmlDocument** se retira, todos los **TypedXmlDocument** instancias asociadas a la **TypedXmlDocument** (todos los  **TypedXmlDocument**s se creó mediante una llamada a la **Assert** función basándose en los selectores utilizados en la directiva) se quitan de la memoria de trabajo.</span><span class="sxs-lookup"><span data-stu-id="b50ba-119">When the parent **TypedXmlDocument** is retracted, all **TypedXmlDocument** instances associated with the **TypedXmlDocument** (all **TypedXmlDocument**s created by calling the **Assert** function based on selectors used in the policy) are removed from working memory.</span></span>  
+  
+ <span data-ttu-id="b50ba-120">Para retirar solo un elemento secundario individual **TypedXmlDocument** (que es una orderline), puede arrastrar este nodo desde el panel de esquemas XML en la **Retract** función.</span><span class="sxs-lookup"><span data-stu-id="b50ba-120">To retract only an individual child **TypedXmlDocument** (that is an orderline), you can drag this node from the XML Schemas pane into the **Retract** function.</span></span> <span data-ttu-id="b50ba-121">Es importante tener en cuenta que todos los **TypedXmlDocument**s están asociados con el nivel superior **TypedXmlDocument** que se impuso originalmente y no con la **TypedXmlDocument**que aparece por encima de él en la jerarquía del árbol XML.</span><span class="sxs-lookup"><span data-stu-id="b50ba-121">It is important to note that all **TypedXmlDocument**s are associated with the top-level **TypedXmlDocument** that was originally asserted, and not with the **TypedXmlDocument** that appears above it in the XML tree hierarchy.</span></span> <span data-ttu-id="b50ba-122">Por ejemplo, el producto es un **TypedXmlDocument** por debajo del objeto orderline; por lo tanto, estará asociado con el orden de **TypedXmlDocument**y no con la orderline  **TypedXmlDocument**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-122">For example, product is a **TypedXmlDocument** below the orderline object; therefore, it would be associated with the order **TypedXmlDocument**, and not with the orderline **TypedXmlDocument**.</span></span> <span data-ttu-id="b50ba-123">En la mayoría de los casos, esta distinción no es importante.</span><span class="sxs-lookup"><span data-stu-id="b50ba-123">In most instances, this distinction is not important.</span></span> <span data-ttu-id="b50ba-124">Sin embargo, si retira el objeto de pedido, también se retiran los objetos de producto y la orderline.</span><span class="sxs-lookup"><span data-stu-id="b50ba-124">However, if you retract the order object, the orderline and product objects are also retracted.</span></span> <span data-ttu-id="b50ba-125">Si retira el objeto de la orderline, solo se retira ese objeto y no el objeto de producto.</span><span class="sxs-lookup"><span data-stu-id="b50ba-125">If you retract the orderline object, only that object is retracted, and not the product object.</span></span>  
+  
+ <span data-ttu-id="b50ba-126">El motor solo funciona con y realiza un seguimiento de instancias de un objeto (**TypedXmlDocument**s) que creó cuando el **TypedXmlDocument** se impuso inicialmente.</span><span class="sxs-lookup"><span data-stu-id="b50ba-126">The engine only works with and tracks object instances (**TypedXmlDocument**s) that it created when the **TypedXmlDocument** was initially asserted.</span></span> <span data-ttu-id="b50ba-127">Si crea nodos adicionales, por ejemplo, nodos del mismo nivel a un nodo que se seleccionó a través de un selector en la directiva, estos nodos no se evalúan en las reglas a menos que **TypedXmlDocument**s se crean y se imponen para ellos.</span><span class="sxs-lookup"><span data-stu-id="b50ba-127">If you create additional nodes—for example, sibling nodes to a node that was selected through a selector in the policy—these nodes are not evaluated in rules unless **TypedXmlDocument**s are created and asserted for them.</span></span> <span data-ttu-id="b50ba-128">Imponer estos nuevos, de nivel inferior **TypedXmlDocuments** hace que se evalúen en las reglas, pero el nivel superior **TypedXmlDocument** no tiene conocimiento de ellos.</span><span class="sxs-lookup"><span data-stu-id="b50ba-128">Asserting these new, lower-level **TypedXmlDocuments** causes them to be evaluated in rules, but the top-level **TypedXmlDocument** does not have knowledge of them.</span></span> <span data-ttu-id="b50ba-129">Cuando el nivel superior **TypedXmlDocument** se retira, el impuesto de forma independiente nuevo **TypedXmlDocument**isl s no se retira automáticamente.</span><span class="sxs-lookup"><span data-stu-id="b50ba-129">When the top-level **TypedXmlDocument** is retracted, the new, independently asserted **TypedXmlDocument**s isl not automatically retracted.</span></span> <span data-ttu-id="b50ba-130">Como resultado, si se crean nuevos nodos, normalmente es más sencillo retirar y volver a imponer el completo **XmlDocument**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-130">As a result, if new nodes are created, it is typically most straightforward to retract and reassert the full **XmlDocument**.</span></span>  
+  
+ <span data-ttu-id="b50ba-131">El **TypedXmlDocument** clase es compatible con una serie de métodos útiles que se puede llamar dentro de un miembro de .NET personalizado como parte de una acción.</span><span class="sxs-lookup"><span data-stu-id="b50ba-131">The **TypedXmlDocument** class supports a number of useful methods that can be called within a custom .NET member as part of an action.</span></span> <span data-ttu-id="b50ba-132">Éstos incluyen la capacidad para obtener el **XmlNode** asociados con el **TypedXmlDocument** o el elemento primario **TypedXmlDocument**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-132">These include the ability to get the **XmlNode** associated with the **TypedXmlDocument** or the parent **TypedXmlDocument**.</span></span>  
+  
+## <a name="typeddatatable"></a><span data-ttu-id="b50ba-133">TypedDataTable</span><span class="sxs-lookup"><span data-stu-id="b50ba-133">TypedDataTable</span></span>  
+ <span data-ttu-id="b50ba-134">Se puede retirar ninguno de los dos **TypedDataRow**s o todo el **TypedDataTable**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-134">You can retract either individual **TypedDataRow**s or the entire **TypedDataTable**.</span></span> <span data-ttu-id="b50ba-135">Si retira una tabla, todas las filas que lo contiene se retiran de la memoria de trabajo.</span><span class="sxs-lookup"><span data-stu-id="b50ba-135">If you retract a table, all the containing rows are retracted from working memory.</span></span>  
+  
+ <span data-ttu-id="b50ba-136">Para retirar toda la **TypedDataTable** debe usar una función auxiliar para obtener acceso a la **primario** propiedad **TypedDataRow**, por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b50ba-136">To retract the entire **TypedDataTable** you need to use a helper function to access the **Parent** property on **TypedDataRow**, for example:</span></span>  
+  
+```  
+Retract(MyHelper.GetTypedDataTable(TypedDataRow))  
+```  
+  
+ <span data-ttu-id="b50ba-137">En la acción anterior, arrastre la tabla en **TypedDataRow**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-137">In the preceding action, you would drag the table into **TypedDataRow**.</span></span> <span data-ttu-id="b50ba-138">En **GetTypedDataTable** devolvería el valor de **TypedDataRow.Parent**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-138">In **GetTypedDataTable** you would return the value of **TypedDataRow.Parent**.</span></span>  
+  
+ <span data-ttu-id="b50ba-139">Al igual que con **TypedXmlDocument**s, si valida adicionales, nuevo **TypedDataRow**s para el mismo **DataTable** después de validar la **TypedDataTable**, se tratan como entidades individuales y retirar el **TypedDataTable** no da como resultado la retracción de estos adicional **TypedDataRow**s.</span><span class="sxs-lookup"><span data-stu-id="b50ba-139">As with **TypedXmlDocument**s, if you assert additional, new **TypedDataRow**s for the same **DataTable** after asserting the **TypedDataTable**, they are treated as individual entities and retracting the **TypedDataTable** does not result in the retraction of these extra **TypedDataRow**s.</span></span> <span data-ttu-id="b50ba-140">Solo el **TypedDataRow**contenidos en el **TypedDataTable** al se impuso se retiran.</span><span class="sxs-lookup"><span data-stu-id="b50ba-140">Only the **TypedDataRow**s contained in the **TypedDataTable** when it was asserted are retracted.</span></span>  
+  
+## <a name="dataconnection"></a><span data-ttu-id="b50ba-141">DataConnection</span><span class="sxs-lookup"><span data-stu-id="b50ba-141">DataConnection</span></span>  
+ <span data-ttu-id="b50ba-142">Cuando un **DataConnection** se retira, todos los **TypedDataRow**s recuperados de la base de datos a través de la consulta construida por la **DataConnection** se retiran de memoria de trabajo.</span><span class="sxs-lookup"><span data-stu-id="b50ba-142">When a **DataConnection** is retracted, all **TypedDataRow**s retrieved from the database through the query constructed by the **DataConnection** are retracted from working memory.</span></span> <span data-ttu-id="b50ba-143">El **DataConnection** propio también se retira, lo que significa que no hay más **TypedDataRow**s que se va a recuperar a través de la **DataConnection** (es decir, mediante el uso de la  **DataConnection** en otros predicados o acciones).</span><span class="sxs-lookup"><span data-stu-id="b50ba-143">The **DataConnection** itself is also retracted, meaning that no more **TypedDataRow**s will be retrieved through the **DataConnection** (that is, through use of the **DataConnection** in other predicates or actions).</span></span>  
+  
+ <span data-ttu-id="b50ba-144">Cuando se usa un **DataConnection**, cualquier operación de retirada de un individuo **TypedDataRow** pone el motor en un estado incoherente.</span><span class="sxs-lookup"><span data-stu-id="b50ba-144">When using a **DataConnection**, any retract operation on an individual **TypedDataRow** puts the engine into an inconsistent state.</span></span> <span data-ttu-id="b50ba-145">Por lo tanto, no se permiten operaciones en persona **TypedDataRow**que están asociadas a un **DataConnection**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-145">Therefore, operations are not allowed on individual **TypedDataRow**s associated with a **DataConnection**.</span></span> <span data-ttu-id="b50ba-146">Si arrastra la tabla (mediante la **DataConnection** parámetro) en el **Retract** función, estará retirando la **DataConnection**.</span><span class="sxs-lookup"><span data-stu-id="b50ba-146">If you drag the table (using the **DataConnection** parameter) into the **Retract** function, you will be retracting the **DataConnection**.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="b50ba-147">Vea también</span><span class="sxs-lookup"><span data-stu-id="b50ba-147">See Also</span></span>  
+ [<span data-ttu-id="b50ba-148">Funciones de Control del motor</span><span class="sxs-lookup"><span data-stu-id="b50ba-148">Engine Control Functions</span></span>](../core/engine-control-functions.md)

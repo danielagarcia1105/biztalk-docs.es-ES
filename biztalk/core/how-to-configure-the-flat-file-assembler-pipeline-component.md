@@ -1,0 +1,46 @@
+---
+title: "Cómo configurar el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- pipeline components, Flat File Assembler
+- Flat File Assembler [pipeline component], configuring
+- messages, flat files
+ms.assetid: 5af61bba-4eb2-4bb9-a655-394a76d08d3b
+caps.latest.revision: "8"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 7fe9c7a0720db68d8e629410dd3f0a443a99d7a4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-configure-the-flat-file-assembler-pipeline-component"></a><span data-ttu-id="7c877-102">Cómo configurar el componente de canalización de ensamblador de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="7c877-102">How to Configure the Flat File Assembler Pipeline Component</span></span>
+<span data-ttu-id="7c877-103">El componente de canalización de ensamblador de archivo sin formato se utiliza para serializar un documento XML en un formato de archivo sin formato delimitado o posicional antes de enviarlo fuera del servidor.</span><span class="sxs-lookup"><span data-stu-id="7c877-103">The Flat File Assembler pipeline component is used to serialize an XML document into delimited or positional flat file format before sending it out of the server.</span></span>  
+  
+### <a name="to-configure-the-properties-for-the-flat-file-assembler-pipeline-component"></a><span data-ttu-id="7c877-104">Para configurar las propiedades del componente de canalización de ensamblador de archivo sin formato</span><span class="sxs-lookup"><span data-stu-id="7c877-104">To configure the properties for the Flat File Assembler pipeline component</span></span>  
+  
+1.  <span data-ttu-id="7c877-105">Arrastre el componente de canalización de ensamblador de archivo sin formato a la fase de ensamblado de la canalización de envío.</span><span class="sxs-lookup"><span data-stu-id="7c877-105">Drag the Flat File Assembler pipeline component into the Assemble stage of the send pipeline.</span></span>  
+  
+2.  <span data-ttu-id="7c877-106">En la ventana Propiedades, en la **propiedades de componente de canalización** sección, realice lo siguiente.</span><span class="sxs-lookup"><span data-stu-id="7c877-106">In the Properties window, in the **Pipeline Component Properties** section, do the following.</span></span>  
+  
+    |<span data-ttu-id="7c877-107">Use</span><span class="sxs-lookup"><span data-stu-id="7c877-107">Use this</span></span>|<span data-ttu-id="7c877-108">Para</span><span class="sxs-lookup"><span data-stu-id="7c877-108">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="7c877-109">**Esquema de documento**</span><span class="sxs-lookup"><span data-stu-id="7c877-109">**Document schema**</span></span>|<span data-ttu-id="7c877-110">Seleccionar el esquema de documento de archivos sin formato que se va a utilizar para serializar el mensaje de XML al formato de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="7c877-110">Select a flat file document schema to use for serializing the message from XML to the flat file format.</span></span> <span data-ttu-id="7c877-111">Si no se ha especificado ningún esquema, se utiliza la detección de esquemas en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="7c877-111">If no schema is specified, run-time schema discovery is done.</span></span> <span data-ttu-id="7c877-112">Puede crear el esquema de documento de archivo sin formato en el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7c877-112">You can create the flat file document schema in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="7c877-113">Valor predeterminado: ninguno</span><span class="sxs-lookup"><span data-stu-id="7c877-113">Default value: None</span></span>|  
+    |<span data-ttu-id="7c877-114">**Esquema de encabezado**</span><span class="sxs-lookup"><span data-stu-id="7c877-114">**Header schema**</span></span>|<span data-ttu-id="7c877-115">Seleccionar un esquema para la parte del encabezado del mensaje de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="7c877-115">Select a schema for the header part of the flat file message.</span></span> <span data-ttu-id="7c877-116">También puede especificarse un esquema de encabezado en la propiedad de contexto de mensaje denominada **HeaderSpecName** en el espacio de nombres xmlnorm.</span><span class="sxs-lookup"><span data-stu-id="7c877-116">A header schema can also be specified in the message context property named **HeaderSpecName** under the xmlnorm namespace.</span></span> <span data-ttu-id="7c877-117">En este caso, reemplazará el esquema de encabezado especificado en el Diseñador de canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="7c877-117">In this case, it will override the header schema specified in Pipeline Designer.</span></span><br /><br /> <span data-ttu-id="7c877-118">Puede crear el esquema para la parte del encabezado del mensaje de archivo sin formato con el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7c877-118">You can create the schema for the header part of the flat file message with BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="7c877-119">Valor predeterminado: ninguno</span><span class="sxs-lookup"><span data-stu-id="7c877-119">Default value: None</span></span>|  
+    |<span data-ttu-id="7c877-120">**Conservar marca de orden de bytes**</span><span class="sxs-lookup"><span data-stu-id="7c877-120">**Preserve byte order mark**</span></span>|<span data-ttu-id="7c877-121">Especifica la agregación de una marca de orden de bytes (BOM) al documento creado por el componente de ensamblador.</span><span class="sxs-lookup"><span data-stu-id="7c877-121">Specifies whether to add a byte order mark (BOM) to the document produced by the assembler component.</span></span><br /><br /> <span data-ttu-id="7c877-122">Valor predeterminado: **False**</span><span class="sxs-lookup"><span data-stu-id="7c877-122">Default Value: **False**</span></span>|  
+    |<span data-ttu-id="7c877-123">**Juego de caracteres de destino**</span><span class="sxs-lookup"><span data-stu-id="7c877-123">**Target charset**</span></span>|<span data-ttu-id="7c877-124">Especifica el juego de caracteres de destino utilizado para codificar los mensajes salientes.</span><span class="sxs-lookup"><span data-stu-id="7c877-124">Specifies the target character set used for encoding of outgoing messages.</span></span><br /><br /> <span data-ttu-id="7c877-125">Valor predeterminado: ninguno</span><span class="sxs-lookup"><span data-stu-id="7c877-125">Default value: None</span></span>|  
+    |<span data-ttu-id="7c877-126">**Esquema de finalizador**</span><span class="sxs-lookup"><span data-stu-id="7c877-126">**Trailer schema**</span></span>|<span data-ttu-id="7c877-127">Seleccionar un esquema para la parte del finalizador del mensaje de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="7c877-127">Select a schema for the trailer part of the flat file message.</span></span> <span data-ttu-id="7c877-128">Puede crear el esquema para la parte del finalizador del mensaje de archivo sin formato en el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7c877-128">You can create the schema for the trailer part of the flat file message in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="7c877-129">Valor predeterminado: ninguno</span><span class="sxs-lookup"><span data-stu-id="7c877-129">Default value: None</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="7c877-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="7c877-130">See Also</span></span>  
+ <span data-ttu-id="7c877-131">[Componente de canalización de ensamblador de archivo sin formato](../core/flat-file-assembler-pipeline-component.md) </span><span class="sxs-lookup"><span data-stu-id="7c877-131">[Flat File Assembler Pipeline Component](../core/flat-file-assembler-pipeline-component.md) </span></span>  
+ <span data-ttu-id="7c877-132">[Configurar componentes de canalización nativos](../core/configuring-native-pipeline-components.md) </span><span class="sxs-lookup"><span data-stu-id="7c877-132">[Configuring Native Pipeline Components](../core/configuring-native-pipeline-components.md) </span></span>  
+ <span data-ttu-id="7c877-133">[Propiedades y esquema de propiedad de archivo sin formato y XML](../core/xml-and-flat-file-property-schema-and-properties.md) </span><span class="sxs-lookup"><span data-stu-id="7c877-133">[XML and Flat File Property Schema and Properties](../core/xml-and-flat-file-property-schema-and-properties.md) </span></span>  
+ [<span data-ttu-id="7c877-134">Las canalizaciones-AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="7c877-134">Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)</span></span>](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)

@@ -1,0 +1,58 @@
+---
+title: "Búsqueda de instancias de servicio controladas | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: b6337df9-8c2e-4d4a-a64b-cc040f83bd91
+caps.latest.revision: "5"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 08e5a7fa563e175d6a1d784e546bd399e20d3c21
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-search-for-tracked-service-instances"></a><span data-ttu-id="67f81-102">Búsqueda de instancias de servicio supervisadas</span><span class="sxs-lookup"><span data-stu-id="67f81-102">How to Search for Tracked Service Instances</span></span>
+<span data-ttu-id="67f81-103">Puede usar el **consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración para buscar todas las instancias de servicio controladas.</span><span class="sxs-lookup"><span data-stu-id="67f81-103">You can use the **Query** tab in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to search for all tracked service instances.</span></span> <span data-ttu-id="67f81-104">Para localizar instancias de servicio, puede buscar el nombre y la versión del ensamblado, el tiempo de inicio y fin de vigencia, el nombre o identificador de instancia de la clase de servicio, el nombre de host, el código de error y el estado de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-104">To locate service instances, you can search on the name and version of the assembly, the start and end times of its lifetime, the name or instance ID of the service class, host name, error code, and the state of the service instance.</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="67f81-105">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="67f81-105">Prerequisites</span></span>  
+ <span data-ttu-id="67f81-106">Para realizar este procedimiento, debe haber iniciado la sesión como miembro del grupo Operadores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="67f81-106">To perform this procedure, you must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Operators group.</span></span>  
+  
+### <a name="to-search-for-tracked-service-instances"></a><span data-ttu-id="67f81-107">Procedimiento para buscar instancias de servicio controladas</span><span class="sxs-lookup"><span data-stu-id="67f81-107">To search for tracked service instances</span></span>  
+  
+1.  <span data-ttu-id="67f81-108">Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span><span class="sxs-lookup"><span data-stu-id="67f81-108">Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span></span>  
+  
+2.  <span data-ttu-id="67f81-109">En el árbol de consola, expanda **administración de BizTalk Server**y, a continuación, haga clic en el grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="67f81-109">In the console tree, expand **BizTalk Server Administration**, and then click the BizTalk group.</span></span>  
+  
+3.  <span data-ttu-id="67f81-110">En el panel de detalles, haga clic en el **nueva consulta** ficha.</span><span class="sxs-lookup"><span data-stu-id="67f81-110">In the details pane, click the **New Query** tab.</span></span>  
+  
+4.  <span data-ttu-id="67f81-111">En el **expresión de consulta** grupo, en la **valor** columna, seleccione **instancias de servicio controladas** en el cuadro de lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="67f81-111">In the **Query Expression** group, in the **Value** column, select **Tracked Service Instances** from the drop-down list box.</span></span>  
+  
+5.  <span data-ttu-id="67f81-112">En el **nombre de campo** columna, en el cuadro de lista desplegable vacía situada junto al asterisco (**\***), seleccione una o varias de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="67f81-112">In the **Field Name** column, in the empty drop-down list box next to the asterisk (**\***), select one or more of the following:</span></span>  
+  
+    |<span data-ttu-id="67f81-113">Elemento</span><span class="sxs-lookup"><span data-stu-id="67f81-113">Item</span></span>|<span data-ttu-id="67f81-114">Description</span><span class="sxs-lookup"><span data-stu-id="67f81-114">Description</span></span>|  
+    |----------|-----------------|  
+    |<span data-ttu-id="67f81-115">**Nombre del ensamblado**</span><span class="sxs-lookup"><span data-stu-id="67f81-115">**Assembly Name**</span></span>|<span data-ttu-id="67f81-116">Nombre del ensamblado para la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-116">Name of the assembly for the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-117">**Versión del ensamblado**</span><span class="sxs-lookup"><span data-stu-id="67f81-117">**Assembly Version**</span></span>|<span data-ttu-id="67f81-118">Versión de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-118">Version of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-119">**Hora de finalización**</span><span class="sxs-lookup"><span data-stu-id="67f81-119">**End Time**</span></span>|<span data-ttu-id="67f81-120">Fin del tiempo de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-120">End time of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-121">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="67f81-121">**Error Code**</span></span>|<span data-ttu-id="67f81-122">Cualquier código de error asociado a la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-122">Any error code associated with the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-123">**Host Name**</span><span class="sxs-lookup"><span data-stu-id="67f81-123">**Host Name**</span></span>|<span data-ttu-id="67f81-124">Nombre de host de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-124">The host name of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-125">**N.º máximo de coincidencias**</span><span class="sxs-lookup"><span data-stu-id="67f81-125">**Maximum Matches**</span></span>|<span data-ttu-id="67f81-126">Número de coincidencias que se van a mostrar.</span><span class="sxs-lookup"><span data-stu-id="67f81-126">The number of matches to display.</span></span>|  
+    |<span data-ttu-id="67f81-127">**Clase de servicio**</span><span class="sxs-lookup"><span data-stu-id="67f81-127">**Service Class**</span></span>|<span data-ttu-id="67f81-128">Clase de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-128">The class of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-129">**Id. de instancia de servicio**</span><span class="sxs-lookup"><span data-stu-id="67f81-129">**Service Instance ID**</span></span>|<span data-ttu-id="67f81-130">Identificador de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-130">The service instance ID.</span></span>|  
+    |<span data-ttu-id="67f81-131">**Nombre del servicio**</span><span class="sxs-lookup"><span data-stu-id="67f81-131">**Service Name**</span></span>|<span data-ttu-id="67f81-132">El nombre de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-132">The name of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-133">**Start Time**</span><span class="sxs-lookup"><span data-stu-id="67f81-133">**Start Time**</span></span>|<span data-ttu-id="67f81-134">Tiempo de inicio de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-134">The start time of the service instance.</span></span>|  
+    |<span data-ttu-id="67f81-135">**State**</span><span class="sxs-lookup"><span data-stu-id="67f81-135">**State**</span></span>|<span data-ttu-id="67f81-136">Estado de la instancia de servicio.</span><span class="sxs-lookup"><span data-stu-id="67f81-136">The state of the service instance.</span></span>|  
+  
+6.  <span data-ttu-id="67f81-137">Completar la **valor** columna según la selección que haya realizado en la **nombre de campo** columna.</span><span class="sxs-lookup"><span data-stu-id="67f81-137">Complete the **Value** column as appropriate for the selection you made in the **Field Name** column.</span></span>  
+  
+7.  <span data-ttu-id="67f81-138">Seguir agregando líneas adicionales a la consulta según corresponda siguiendo el **nombre de campo**, **operador**, y **valores** columnas y, a continuación, haga clic en **ejecutar Consulta**.</span><span class="sxs-lookup"><span data-stu-id="67f81-138">Continue adding additional lines to the query as appropriate by completing the **Field Name**, **Operator**, and **Values** columns, and then click **Run Query**.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="67f81-139">Vea también</span><span class="sxs-lookup"><span data-stu-id="67f81-139">See Also</span></span>  
+ [<span data-ttu-id="67f81-140">Uso de la pestaña de consulta de la consola de administración</span><span class="sxs-lookup"><span data-stu-id="67f81-140">Using the Administration Console Query Tab</span></span>](../core/using-the-administration-console-query-tab.md)

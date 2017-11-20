@@ -1,0 +1,1 @@
+<span data-ttu-id="8a10e-101">TPM</span><span class="sxs-lookup"><span data-stu-id="8a10e-101">TPM</span></span>

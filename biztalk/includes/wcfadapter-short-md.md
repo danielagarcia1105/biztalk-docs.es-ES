@@ -1,0 +1,1 @@
+<span data-ttu-id="2c6ca-101">WCF-Custom adapter</span><span class="sxs-lookup"><span data-stu-id="2c6ca-101">WCF-Custom adapter</span></span>

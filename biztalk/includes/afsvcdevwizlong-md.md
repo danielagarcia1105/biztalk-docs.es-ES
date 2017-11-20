@@ -1,0 +1,1 @@
+<span data-ttu-id="1e659-101">Asistente para el desarrollo de servicios de adaptadores LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="1e659-101">WCF LOB Adapter Service Development Wizard</span></span>

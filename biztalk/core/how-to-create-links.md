@@ -1,0 +1,90 @@
+---
+title: "Cómo crear vínculos | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 670b831f-be03-4612-93d5-a894f7bb3c11
+caps.latest.revision: "12"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 01171ddeaab8424087e8f04c29fb747e9479c1eb
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-create-links"></a><span data-ttu-id="b377d-102">Cómo crear vínculos</span><span class="sxs-lookup"><span data-stu-id="b377d-102">How to Create Links</span></span>
+<span data-ttu-id="b377d-103">Crear un vínculo desde un **registro** o **campo** nodo en un esquema de origen a un **registro** o **campo** nodo en un esquema de destino es la más básica actividad en la creación de mapas.</span><span class="sxs-lookup"><span data-stu-id="b377d-103">Creating a link from a **Record** or **Field** node in a source schema to a **Record** or **Field** node in a destination schema is the most basic activity in creating maps.</span></span> <span data-ttu-id="b377d-104">En este tema se proporcionan instrucciones detalladas para diversas variantes de esta actividad, incluida la creación de vínculos desde y hacia functoids.</span><span class="sxs-lookup"><span data-stu-id="b377d-104">This topic provides step-by-step instructions for several variations of this activity, including creating links to and from functoids.</span></span> <span data-ttu-id="b377d-105">Para obtener información adicional acerca de cómo trabajar con functoids, consulte [utilizar Functoids para crear asignaciones más complejas](../core/using-functoids-to-create-more-complex-mappings.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-105">For additional information about working with functoids, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).</span></span>  
+  
+ <span data-ttu-id="b377d-106">En las instrucciones de este tema se supone que ya tiene abierta una asignación de BizTalk y que ha elegido los esquemas de origen y de destino para la asignación.</span><span class="sxs-lookup"><span data-stu-id="b377d-106">The instructions in this topic assume you already have a BizTalk map open, and that you have chosen source and destination schemas for the map.</span></span> <span data-ttu-id="b377d-107">Para obtener más información acerca de cómo abrir asignaciones y escoger esquemas para la asignación, consulte [administrar asignaciones en proyectos de](../core/managing-maps-within-projects.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-107">For more information about opening maps and choosing schemas for the map, see [Managing Maps Within Projects](../core/managing-maps-within-projects.md).</span></span>  
+  
+### <a name="to-create-links-between-field-and-record-nodes"></a><span data-ttu-id="b377d-108">Para crear vínculos entre nodos Campo y Registro</span><span class="sxs-lookup"><span data-stu-id="b377d-108">To create links between Field and Record nodes</span></span>  
+  
+1.  <span data-ttu-id="b377d-109">En el asignador de BizTalk, arrastre un **campo** o **registro** nodo desde el árbol de esquema de origen a un **campo** o **registro** nodo del esquema de destino árbol.</span><span class="sxs-lookup"><span data-stu-id="b377d-109">In BizTalk Mapper, drag a **Field** or **Record** node from the source schema tree to a **Field** or **Record** node in the destination schema tree.</span></span>  
+  
+     <span data-ttu-id="b377d-110">**- O bien-**</span><span class="sxs-lookup"><span data-stu-id="b377d-110">**- Or -**</span></span>  
+  
+2.  <span data-ttu-id="b377d-111">En el asignador de BizTalk, arrastre un **campo** o **registro** nodo desde el árbol de esquema de destino para una **campo** o **registro** nodo del esquema de origen árbol.</span><span class="sxs-lookup"><span data-stu-id="b377d-111">In BizTalk Mapper, drag a **Field** or **Record** node from the destination schema tree to a **Field** or **Record** node in the source schema tree.</span></span>  
+  
+ <span data-ttu-id="b377d-112">Al crear vínculos hay que considerar varios aspectos:</span><span class="sxs-lookup"><span data-stu-id="b377d-112">There are several things to consider when creating links:</span></span>  
+  
+-   <span data-ttu-id="b377d-113">Tipo de datos de un **campo** o **registro** nodo en el árbol de esquema de origen debe coincidir con el tipo de datos de un **campo** o **registro** nodo donde está vinculada en el árbol de esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="b377d-113">The data type of a **Field** or **Record** node in the source schema tree should match the data type of a **Field** or **Record** node to which it is linked in the destination schema tree.</span></span>  
+  
+-   <span data-ttu-id="b377d-114">Si un **campo** o **registro** nodo del esquema de origen es opcional y un mensaje de instancia de origen particular no contiene el elemento o atributo correspondiente, el asignador de BizTalk no creará una correspondiente elemento o atributo en el mensaje de instancia de destino, incluso si la **campo** o **registro** nodos tienen un vínculo directo entre ellos en el mapa.</span><span class="sxs-lookup"><span data-stu-id="b377d-114">If a **Field** or **Record** node in the source schema is optional, and a particular source instance message does not contain the corresponding element or attribute, BizTalk Mapper will not create a corresponding element or attribute in the destination instance message, even if the **Field** or **Record** nodes have a direct link between them in the map.</span></span>  
+  
+-   <span data-ttu-id="b377d-115">No se puede vincular a un **campo** o **registro** nodo del esquema de destino que tiene un valor constante asociado con él.</span><span class="sxs-lookup"><span data-stu-id="b377d-115">You cannot link to a **Field** or **Record** node in the destination schema that has a constant value associated with it.</span></span> <span data-ttu-id="b377d-116">Por otro lado, puede vincular a una opción necesaria **campo** o **registro** nodo del esquema de destino que tiene un valor predeterminado asociado con él.</span><span class="sxs-lookup"><span data-stu-id="b377d-116">On the other hand, you can link to a required **Field** or **Record** node in the destination schema that has a default value associated with it.</span></span> <span data-ttu-id="b377d-117">Tenga en cuenta, no obstante, que cuando pruebe la asignación se utilizará el valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="b377d-117">Note, however, that when you test the map, the default value will be used.</span></span>  
+  
+-   <span data-ttu-id="b377d-118">No se puede crear un vínculo a o desde el **cualquier elemento**, **cualquier atributo**, **grupo de secuencias**, o **grupo de elecciones** nodos.</span><span class="sxs-lookup"><span data-stu-id="b377d-118">You cannot create a link to or from the **Any Element**, **Any Attribute**, **Sequence Group**, or **Choice Group** nodes.</span></span> <span data-ttu-id="b377d-119">Para obtener más información acerca de estos tipos de nodos, vea los siguientes temas, vea [nodos cualquier elemento](../core/any-element-nodes.md), [nodos de grupo de secuencia](../core/sequence-group-nodes.md) o [nodos grupos de elecciones](../core/choice-group-nodes.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-119">For more information about these types of nodes, see the following topics, see [Any Element Nodes](../core/any-element-nodes.md), [Sequence Group Nodes](../core/sequence-group-nodes.md) or [Choice Group Nodes](../core/choice-group-nodes.md).</span></span>  
+  
+-   <span data-ttu-id="b377d-120">Puede que necesite expandir los árboles de esquema para ver los campos que desea asignar.</span><span class="sxs-lookup"><span data-stu-id="b377d-120">You may need to expand the schema trees to view the fields that you want to map.</span></span> <span data-ttu-id="b377d-121">Para obtener más información, consulte [cómo expandir y contraer los árboles de esquema](https://msdn.microsoft.com/library/ee253802(v=bts.10).aspx).</span><span class="sxs-lookup"><span data-stu-id="b377d-121">For more information, see [How to Expand and Collapse the Schema Trees](https://msdn.microsoft.com/library/ee253802(v=bts.10).aspx).</span></span>  
+  
+#### <a name="to-create-links-between-record-or-field-nodes-and-functoids"></a><span data-ttu-id="b377d-122">Para crear vínculos entre nodos Registro o Campo y functoids</span><span class="sxs-lookup"><span data-stu-id="b377d-122">To create links between Record or Field nodes and functoids</span></span>  
+  
+1.  <span data-ttu-id="b377d-123">En el asignador de BizTalk, arrastre un **registro** o **campo** nodo desde el esquema de origen o de destino a un functoid en una página de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="b377d-123">In BizTalk Mapper, drag a **Record** or **Field** node from the source or destination schema to a functoid in a grid page.</span></span>  
+  
+     <span data-ttu-id="b377d-124">**- O bien-**</span><span class="sxs-lookup"><span data-stu-id="b377d-124">**- Or -**</span></span>  
+  
+2.  <span data-ttu-id="b377d-125">Arrastre el functoid desde una página de cuadrícula para un **registro** o **campo** nodo en el esquema de origen o destino.</span><span class="sxs-lookup"><span data-stu-id="b377d-125">Drag the functoid from a grid page to a **Record** or **Field** node in the source or destination schema.</span></span>  
+  
+     <span data-ttu-id="b377d-126">Cuando se crea un vínculo entre un **registro** o **campo** nodo en el esquema de origen y un functoid, está creando una entrada para este functoid.</span><span class="sxs-lookup"><span data-stu-id="b377d-126">When you create a link between a **Record** or **Field** node in the source schema and a functoid, you are creating an input to that functoid.</span></span> <span data-ttu-id="b377d-127">Cuando se crea un vínculo entre un **registro** o **campo** nodo en el esquema de destino y un functoid, está creando una salida de ese functoid.</span><span class="sxs-lookup"><span data-stu-id="b377d-127">When you create a link between a **Record** or **Field** node in the destination schema and a functoid, you are creating an output from that functoid.</span></span>  
+  
+    > [!IMPORTANT]
+    >  <span data-ttu-id="b377d-128">No es posible vincular un functoid y un **cualquier elemento** nodo o un **cualquier atributo** nodo.</span><span class="sxs-lookup"><span data-stu-id="b377d-128">You cannot link between a functoid and an **Any Element** node or an **Any Attribute** node.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="b377d-129">Primero debe agregar un functoid a una página de cuadrícula para poder agregar un vínculo entre un **registro** o **campo** nodo y ese functoid.</span><span class="sxs-lookup"><span data-stu-id="b377d-129">You must first add a functoid to a grid page before you can add a link between a **Record** or **Field** node and that functoid.</span></span> <span data-ttu-id="b377d-130">Para obtener más información sobre cómo agregar functoids a una página de cuadrícula, vea [cómo agregar Functoids básicos a una asignación](../core/how-to-add-basic-functoids-to-a-map.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-130">For more information about adding functoids to a grid page, see [How to Add Basic Functoids to a Map](../core/how-to-add-basic-functoids-to-a-map.md).</span></span> <span data-ttu-id="b377d-131">Consulte también [agregar Functoids avanzados a un mapa](../core/adding-advanced-functoids-to-a-map.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-131">Also see [Adding Advanced Functoids to a Map](../core/adding-advanced-functoids-to-a-map.md).</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="b377d-132">No se puede vincular a un **campo** nodo del esquema de destino que tiene un valor constante asociado con él.</span><span class="sxs-lookup"><span data-stu-id="b377d-132">You cannot link to a **Field** node in the destination schema that has a constant value associated with it.</span></span> <span data-ttu-id="b377d-133">Por otro lado, puede vincular a una opción necesaria **campo** nodo del esquema de destino que tiene un valor predeterminado asociado con él.</span><span class="sxs-lookup"><span data-stu-id="b377d-133">On the other hand, you can link to a required **Field** node in the destination schema that has a default value associated with it.</span></span> <span data-ttu-id="b377d-134">Tenga en cuenta, no obstante, que cuando pruebe la asignación se utilizará el valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="b377d-134">Note, however, that when you test the map, the default value will be used.</span></span>  
+  
+#### <a name="to-create-links-between-functoids"></a><span data-ttu-id="b377d-135">Para crear vínculos entre functoids</span><span class="sxs-lookup"><span data-stu-id="b377d-135">To create links between functoids</span></span>  
+  
+-   <span data-ttu-id="b377d-136">En el Asignador de BizTalk, arrastre un functoid hasta otro functoid de la página de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="b377d-136">In BizTalk Mapper, drag one functoid to another functoid in a grid page.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="b377d-137">Los vínculos se procesan de izquierda a derecha en una página de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="b377d-137">Links are processed left-to-right in a grid page.</span></span> <span data-ttu-id="b377d-138">No es posible crear un vínculo de un functoid a otro que esté directamente encima o debajo.</span><span class="sxs-lookup"><span data-stu-id="b377d-138">You cannot make a link from one functoid to another functoid directly above or below it.</span></span> <span data-ttu-id="b377d-139">Los vínculos entre functoids se interpretan de forma que un vínculo signifique salida desde el functoid cuando va hacia la izquierda y entrada al functoid cuando va hacia la derecha.</span><span class="sxs-lookup"><span data-stu-id="b377d-139">Links between functoids are interpreted such that a link signifies output from the functoid to the left and input to the functoid to the right.</span></span>  
+  
+### <a name="to-change-the-endpoint-of-a-link"></a><span data-ttu-id="b377d-140">Para cambiar el extremo de un vínculo</span><span class="sxs-lookup"><span data-stu-id="b377d-140">To change the endpoint of a link</span></span>  
+ <span data-ttu-id="b377d-141">En una asignación, puede arrastrar el extremo de un vínculo y soltarlo sobre otro nodo o functoid.</span><span class="sxs-lookup"><span data-stu-id="b377d-141">In a map, you can drag an endpoint of a link and drop it over another node or functoid.</span></span>  
+  
+ <span data-ttu-id="b377d-142">Para cambiar el extremo de un vínculo:</span><span class="sxs-lookup"><span data-stu-id="b377d-142">To change the endpoint of a link:</span></span>  
+  
+1.  <span data-ttu-id="b377d-143">Haga clic en el vínculo para el que desea cambiar el nodo o functoid de origen o destino.</span><span class="sxs-lookup"><span data-stu-id="b377d-143">Click the link for which you want to change the source or destination node/functoid.</span></span> <span data-ttu-id="b377d-144">Los extremos del vínculo se convierten en negrita.</span><span class="sxs-lookup"><span data-stu-id="b377d-144">The endpoints of the link become bold.</span></span>  
+  
+2.  <span data-ttu-id="b377d-145">Mantenga presionado el botón del mouse en cualquiera de los extremos y arrastre el vínculo al nodo o functoid deseado.</span><span class="sxs-lookup"><span data-stu-id="b377d-145">Hold down the mouse key on any of the bold endpoints and drag the link to the desired node/functoid.</span></span> <span data-ttu-id="b377d-146">Esto cambia la vinculación desde el nodo o functoid anterior al nodo o functoid nuevo.</span><span class="sxs-lookup"><span data-stu-id="b377d-146">This changes the linking from the previous node/functoid to the new node/functoid.</span></span>  
+  
+ <span data-ttu-id="b377d-147">Sin embargo, esta operación no se puede realizar para la vinculación no válida, por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b377d-147">However, you cannot perform this operation for invalid linking, such as:</span></span>  
+  
+-   <span data-ttu-id="b377d-148">Agregar un vínculo como una entrada de functoids de fecha y hora.</span><span class="sxs-lookup"><span data-stu-id="b377d-148">Adding a link as an input to Date/Time functoids.</span></span> <span data-ttu-id="b377d-149">Los functoids de fecha y hora no requieren vínculos de entrada.</span><span class="sxs-lookup"><span data-stu-id="b377d-149">The Date/Time functoids do not need any input links.</span></span>  
+  
+-   <span data-ttu-id="b377d-150">La duplicación de los vínculos de functoids intermedios.</span><span class="sxs-lookup"><span data-stu-id="b377d-150">Duplicating links from intermediate functoids.</span></span>  
+  
+     <span data-ttu-id="b377d-151">Si vincula el Nodo1 al Nodo2 y también el Nodo1 al Nodo3, no podrá arrastrar el extremo del vínculo del Nodo2 para cambiar el vínculo al Nodo3.</span><span class="sxs-lookup"><span data-stu-id="b377d-151">If you link Node1 to Node2, and also from Node1 to Node3, you cannot drag the endpoint of the link at Node2 to change and link to Node3.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="b377d-152">Vea también</span><span class="sxs-lookup"><span data-stu-id="b377d-152">See Also</span></span>  
+ [<span data-ttu-id="b377d-153">Utilizar vínculos para especificar el registro y las asignaciones de campos</span><span class="sxs-lookup"><span data-stu-id="b377d-153">Using Links to Specify Record and Field Mappings</span></span>](../core/using-links-to-specify-record-and-field-mappings.md)

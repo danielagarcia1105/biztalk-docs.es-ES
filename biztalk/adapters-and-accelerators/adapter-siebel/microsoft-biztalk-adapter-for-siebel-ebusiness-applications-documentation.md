@@ -1,0 +1,41 @@
+---
+title: "Adaptador de Microsoft BizTalk para Siebel eBusiness documentación de aplicaciones | Documentos de Microsoft"
+description: Obtener iniciado, arquitectura, seguridad, desarrollar aplicaciones, esquemas de mensajes y solucionar problemas del adaptador de Siebel en BizTalk Adapter Pack
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 39cc8e02-d37f-4f8a-91f9-d87d312434a1
+caps.latest.revision: "12"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: a73c63b6a6a4115251ef1959090efc5bdd74b489
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation"></a><span data-ttu-id="574bc-103">Adaptador de Microsoft BizTalk para Siebel eBusiness documentación de las aplicaciones</span><span class="sxs-lookup"><span data-stu-id="574bc-103">Microsoft BizTalk Adapter for Siebel eBusiness Applications documentation</span></span>
+<span data-ttu-id="574bc-104">El [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] incluye una serie de recursos para ayudarle a entender cómo funciona el adaptador, cómo crear aplicaciones que utilizan el adaptador, se describen las opciones de conexión diferentes y mucho más.</span><span class="sxs-lookup"><span data-stu-id="574bc-104">The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, and more.</span></span>
+  
+## <a name="get-started"></a><span data-ttu-id="574bc-105">Introducción</span><span class="sxs-lookup"><span data-stu-id="574bc-105">Get started</span></span> 
+<span data-ttu-id="574bc-106">![Introducción a icono](../../adapters-and-accelerators/adapter-oracle-database/media/f397b0c1-6fe1-4247-a868-9efcab4a5f55.gif "f397b0c1-6fe1-4247-a868-9efcab4a5f55") [Introducción](../../adapters-and-accelerators/adapter-siebel/get-started-with-the-biztalk-adapter-for-siebel-ebusiness-applications.md) enumera los pasos necesarios para instalar las solicitudes de cambio personalizadas, se proporciona información general del adaptador incluidas las características y limitaciones, y también tiene algunos tutoriales para obtener experiencia práctica con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="574bc-106">![Getting started icon](../../adapters-and-accelerators/adapter-oracle-database/media/f397b0c1-6fe1-4247-a868-9efcab4a5f55.gif "f397b0c1-6fe1-4247-a868-9efcab4a5f55") [Get started](../../adapters-and-accelerators/adapter-siebel/get-started-with-the-biztalk-adapter-for-siebel-ebusiness-applications.md) lists the steps to install custom RFCs, provides an overview of the adapter including features and limitations, and also has some tutorials to get you some hands-on experience with the adapter.</span></span>
+
+## <a name="architecture"></a><span data-ttu-id="574bc-107">Architecture</span><span class="sxs-lookup"><span data-stu-id="574bc-107">Architecture</span></span> 
+<span data-ttu-id="574bc-108">![Icono de arquitectura de adaptador](../../adapters-and-accelerators/adapter-oracle-database/media/4af6a1c5-948f-4bf7-bb56-4d63a47f4825.gif "4af6a1c5-948f-4bf7-bb56-4d63a47f4825") [Introducción a la arquitectura](../../adapters-and-accelerators/adapter-siebel/architecture-overview-of-the-biztalk-adapter-for-siebel-ebusiness-applications.md) incluye información sobre cómo utilizar el adaptador, cómo funciona con WCF y mucho más.</span><span class="sxs-lookup"><span data-stu-id="574bc-108">![Adapter Architecture icon](../../adapters-and-accelerators/adapter-oracle-database/media/4af6a1c5-948f-4bf7-bb56-4d63a47f4825.gif "4af6a1c5-948f-4bf7-bb56-4d63a47f4825") [Architecture overview](../../adapters-and-accelerators/adapter-siebel/architecture-overview-of-the-biztalk-adapter-for-siebel-ebusiness-applications.md) includes info on consuming the adapter, how it works with WCF, and more.</span></span>
+
+## <a name="security"></a><span data-ttu-id="574bc-109">Seguridad</span><span class="sxs-lookup"><span data-stu-id="574bc-109">Security</span></span>
+<span data-ttu-id="574bc-110">![Icono de recursos de comunidad](../../adapters-and-accelerators/adapter-oracle-database/media/community.gif "Comunidad") [seguridad](../../adapters-and-accelerators/adapter-siebel/secure-your-siebel-applications.md) proporciona prácticas recomendadas y más para proteger los mensajes con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="574bc-110">![Community resources icon](../../adapters-and-accelerators/adapter-oracle-database/media/community.gif "Community") [Security](../../adapters-and-accelerators/adapter-siebel/secure-your-siebel-applications.md) provides best practices and more to secure your messages using the adapter.</span></span>
+
+## <a name="developing-apps"></a><span data-ttu-id="574bc-111">Desarrollo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="574bc-111">Developing apps</span></span>
+<span data-ttu-id="574bc-112">![Icono de desarrollo del adaptador](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [desarrolla aplicaciones Siebel](../../adapters-and-accelerators/adapter-siebel/develop-your-siebel-applications.md) muestra cómo usar los adaptadores con BizTalk Server, las ventanas Modelo de servicio de Communication Foundation (WCF) y el modelo del canal WCF.</span><span class="sxs-lookup"><span data-stu-id="574bc-112">![Adapter Development icon](../../adapters-and-accelerators/adapter-oracle-database/media/44af70c9-cab1-4201-9912-d115cbc7e16f.gif "44af70c9-cab1-4201-9912-d115cbc7e16f") [Develop your Siebel applications](../../adapters-and-accelerators/adapter-siebel/develop-your-siebel-applications.md) shows you how to use the adapters with BizTalk Server, the Windows Communication Foundation (WCF) service model, and the WCF channel model.</span></span>
+
+## <a name="messages-and-message-schemas"></a><span data-ttu-id="574bc-113">Mensajes y esquemas de mensaje</span><span class="sxs-lookup"><span data-stu-id="574bc-113">Messages and message schemas</span></span>
+<span data-ttu-id="574bc-114">![Icono de tutoriales](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [mensajes y esquemas de mensaje](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) muestra la estructura de los mensajes y acciones para funciones, tipos de registro, las operaciones de sondeo y mucho más.</span><span class="sxs-lookup"><span data-stu-id="574bc-114">![Tutorials icon](../../adapters-and-accelerators/adapter-oracle-database/media/endtoendtutorials.gif "EndtoEndtutorials") [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) lists the message structure and actions for functions, record types, poling operations, and more.</span></span> 
+  
+## <a name="troubleshooting"></a><span data-ttu-id="574bc-115">Solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="574bc-115">Troubleshooting</span></span> 
+<span data-ttu-id="574bc-116">![Icono de solución de problemas del adaptador](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [solucionar problemas del adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md) se enumeran los pasos para habilitar el seguimiento, cómo solucionar problemas de instalación y rendimiento emite e incluye control de errores y excepciones.</span><span class="sxs-lookup"><span data-stu-id="574bc-116">![Adapter Troubleshooting icon](../../adapters-and-accelerators/adapter-oracle-database/media/383a7392-2eb9-485d-b6a8-0187cd5c709d.gif "383a7392-2eb9-485d-b6a8-0187cd5c709d") [Troubleshoot the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md) lists the steps to enable tracing, how to troubleshoot install and performance issues, and includes exception and error handling.</span></span>

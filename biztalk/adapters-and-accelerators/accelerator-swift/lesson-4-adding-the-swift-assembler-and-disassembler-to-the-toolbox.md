@@ -1,0 +1,39 @@
+---
+title: "Lección 4: Agregar el SWIFT ensamblador y desensamblador al cuadro de herramientas | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- toolbox, adding disassembler
+- assembler, adding to toolbox
+- toolbox, adding assembler
+- disassembler, adding to toolbox
+ms.assetid: 8c9c9b1e-48fc-4af0-b7c5-bd54e2de9951
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: fa2df81e11827fec161df23790ff1860bd92c0e4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="lesson-4-adding-the-swift-assembler-and-disassembler-to-the-toolbox"></a><span data-ttu-id="ddcfd-102">Lección 4: Agregar el SWIFT ensamblador y desensamblador al cuadro de herramientas</span><span class="sxs-lookup"><span data-stu-id="ddcfd-102">Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox</span></span>
+<span data-ttu-id="ddcfd-103">En esta lección, agregue referencias a los (ASM) de SWIFT ensamblador y desensamblador (DASM) para que estos componentes están disponibles en el cuadro de herramientas al utilizar el Diseñador de canalizaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-103">In this lesson, you add references to the SWIFT assembler (ASM) and disassembler (DASM) so that these components are available in the toolbox when using BizTalk Pipeline Designer.</span></span>  
+  
+### <a name="to-add-the-swift-asm-and-dasm-components-to-the-toolbox"></a><span data-ttu-id="ddcfd-104">Para agregar los componentes de ASM de SWIFT y DASM al cuadro de herramientas</span><span class="sxs-lookup"><span data-stu-id="ddcfd-104">To add the SWIFT ASM and DASM components to the toolbox</span></span>  
+  
+1.  <span data-ttu-id="ddcfd-105">En Visual Studio, en el **herramientas** menú, haga clic en **elegir elementos del cuadro de herramientas**.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-105">In Visual Studio, on the **Tools** menu, click **Choose Toolbox Items**.</span></span>  
+  
+2.  <span data-ttu-id="ddcfd-106">En el cuadro de diálogo Elegir elementos del cuadro de herramientas, en la **componentes de canalización de BizTalk** ficha, seleccione **SWIFT ensamblador** y **SWIFT Desensamblador**.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-106">In the Choose Toolbox Items dialog box, on the **BizTalk Pipeline Components** tab, select **SWIFT Assembler** and **SWIFT Disassembler**.</span></span>  
+  
+3.  <span data-ttu-id="ddcfd-107">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-107">Click **OK**.</span></span>  
+  
+ <span data-ttu-id="ddcfd-108">Los componentes de ensamblador y desensamblador ahora están disponibles en el cuadro de herramientas, a menos que ya tenga una operación de recepción o una canalización de envío que se abra, en cuyo caso el ASM o DASM esté disponible.</span><span class="sxs-lookup"><span data-stu-id="ddcfd-108">The assembler and disassembler components are now available from the toolbox, unless you already have a receive or a send pipeline open, in which case the ASM or DASM may be unavailable.</span></span>  
+  
+ <span data-ttu-id="ddcfd-109">Continúe con [lección 5: agregar el Desensamblador SWIFT a una canalización de recepción personalizada](../../adapters-and-accelerators/accelerator-swift/lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline.md).</span><span class="sxs-lookup"><span data-stu-id="ddcfd-109">Proceed to [Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline](../../adapters-and-accelerators/accelerator-swift/lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline.md).</span></span>

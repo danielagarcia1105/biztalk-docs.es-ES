@@ -1,0 +1,33 @@
+---
+title: El componente de reenviador itinerarios de ESB | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 607cc8a0-4964-4751-baca-c3329983c98b
+caps.latest.revision: "2"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: c61643423021701186745ab4275520cb14d3ceca
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="the-esb-itinerary-forwarder-component"></a><span data-ttu-id="9cafa-102">El componente de reenviador itinerarios de ESB</span><span class="sxs-lookup"><span data-stu-id="9cafa-102">The ESB Itinerary Forwarder Component</span></span>
+<span data-ttu-id="9cafa-103">El componente de reenviador de itinerario ESB se utiliza cuando un itinerario debe invocar secuencialmente varios servicios Web.</span><span class="sxs-lookup"><span data-stu-id="9cafa-103">The ESB Itinerary Forwarder component is used when an itinerary must sequentially invoke multiple Web services.</span></span> <span data-ttu-id="9cafa-104">El componente puede utilizarse en canalizaciones que están asociadas con el lado de la respuesta de un bidireccional fuera de rampa de recepción.</span><span class="sxs-lookup"><span data-stu-id="9cafa-104">The component can be used in receive pipelines that are associated with the response side of a two-way off-ramp.</span></span>  
+  
+## <a name="installation"></a><span data-ttu-id="9cafa-105">Installation</span><span class="sxs-lookup"><span data-stu-id="9cafa-105">Installation</span></span>  
+ <span data-ttu-id="9cafa-106">Al instalar el núcleo de ESB automáticamente se instala el **itinerario reenviador** componente en la carpeta de componentes de canalización de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="9cafa-106">Installing the ESB Core automatically installs the **Itinerary Forwarder** component in the BizTalk Server Pipeline Components folder.</span></span>  
+  
+## <a name="how-it-works"></a><span data-ttu-id="9cafa-107">Funcionamiento</span><span class="sxs-lookup"><span data-stu-id="9cafa-107">How It Works</span></span>  
+ <span data-ttu-id="9cafa-108">Cuando Microsoft BizTalk recibe un mensaje a través de dos sentidos puerto de recepción como el mensaje se publica en la base de datos de cuadro de mensaje, se crea una suscripción de instancia.</span><span class="sxs-lookup"><span data-stu-id="9cafa-108">When Microsoft BizTalk receives a message through a two-way receive port as the message is published to the Message Box database, an instance subscription is created.</span></span> <span data-ttu-id="9cafa-109">Esta suscripción está formada por el **EpmRRCorrelationToken** propiedad promocionada y un **RouteDirectToTP** propiedad promocionada.</span><span class="sxs-lookup"><span data-stu-id="9cafa-109">This subscription consists of the **EpmRRCorrelationToken** promoted property and a **RouteDirectToTP** promoted property.</span></span> <span data-ttu-id="9cafa-110">Cuando el suscriptor (orquestación o puerto de envío bidireccional) devuelve el mensaje de respuesta, estas propiedades promocionadas coincide con la suscripción y la respuesta se devuelve inmediatamente a través de la canalización de envío del puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="9cafa-110">When the subscriber (orchestration or two-way send port) returns the response message, these promoted properties match the subscription and the response is immediately returned through the send pipeline of the receive port.</span></span>  
+  
+ <span data-ttu-id="9cafa-111">El reenviador de itinerario ESB debe usarse en la canalización de respuesta para una bidireccional fuera de rampa donde fuera de rampa es llamar a un servicio Web de solicitud-respuesta.</span><span class="sxs-lookup"><span data-stu-id="9cafa-111">The ESB Itinerary Forwarder should be used in the response pipeline for a two-way off-ramp where the off-ramp is calling a request-response Web service.</span></span> <span data-ttu-id="9cafa-112">El componente interfiere con el proceso típico de BizTalk cambiando el **RouteDirectToTP** puerto de recepción de la propiedad promocionada en False, lo que garantiza que no se devolverá la respuesta para el inicio.</span><span class="sxs-lookup"><span data-stu-id="9cafa-112">The component interferes with the typical BizTalk process by changing the **RouteDirectToTP** promoted property to False, thus ensuring that the response will not be returned to the initiating receive port.</span></span> <span data-ttu-id="9cafa-113">Cuando se alcanza el último paso en el itinerario, el **RouteDirectToTP** propiedad se vuelve a cambiar **True**, por tanto, se devuelve el resultado para el iniciador en rampa.</span><span class="sxs-lookup"><span data-stu-id="9cafa-113">After the last step in the itinerary is reached, the **RouteDirectToTP** property is changed back to **True**, thus returning the result to the initiating on-ramp.</span></span>  
+  
+## <a name="using-the-esb-itinerary-forwarder-component"></a><span data-ttu-id="9cafa-114">Mediante el componente de reenviador itinerarios de ESB</span><span class="sxs-lookup"><span data-stu-id="9cafa-114">Using the ESB Itinerary Forwarder Component</span></span>  
+ <span data-ttu-id="9cafa-115">Agregue el componente de ESB ItineraryForwarder a una canalización de recepción y, a continuación, usar la canalización con la parte de la respuesta de una bidireccional fuera de rampa.</span><span class="sxs-lookup"><span data-stu-id="9cafa-115">Add the ESB ItineraryForwarder component to a receive pipeline and then use the pipeline with the response portion of a two-way off-ramp.</span></span> <span data-ttu-id="9cafa-116">Crear un itinerario que se encadena Web varios servicios, con o sin servicios de transformación de itinerarios, antes de o entre los servicios.</span><span class="sxs-lookup"><span data-stu-id="9cafa-116">Create an itinerary that chains multiple Web services, with or without transformation itinerary services, before or between the services.</span></span> <span data-ttu-id="9cafa-117">Para obtener un ejemplo de cómo usar el componente de reenviador de itinerario de ESB, consulte el [instalar y ejecutar el ejemplo de servicios Web varios](../esb-toolkit/installing-and-running-the-multiple-web-services-sample.md).</span><span class="sxs-lookup"><span data-stu-id="9cafa-117">For an example of how to use the ESB Itinerary Forwarder Component, see the [Installing and Running the Multiple Web Services Sample](../esb-toolkit/installing-and-running-the-multiple-web-services-sample.md).</span></span>

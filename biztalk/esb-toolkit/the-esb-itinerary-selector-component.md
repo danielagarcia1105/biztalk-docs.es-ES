@@ -1,0 +1,40 @@
+---
+title: El componente de Selector itinerarios de ESB | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: c2cd8a85-e036-4817-9541-3fd720ca04ef
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: c83cdd0b2022eb7dc4ad78e5702f5c21e4c4f432
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="the-esb-itinerary-selector-component"></a><span data-ttu-id="a7706-102">El componente de Selector itinerarios de ESB</span><span class="sxs-lookup"><span data-stu-id="a7706-102">The ESB Itinerary Selector Component</span></span>
+<span data-ttu-id="a7706-103">El componente de ESB itinerario Selector permite los mensajes entrantes que no tiene el encabezado SOAP para pasar a través de ESB seleccionando un itinerario de servidor adecuado para el mensaje con la Ayuda de un solucionador de itinerario.</span><span class="sxs-lookup"><span data-stu-id="a7706-103">The ESB Itinerary Selector component allows incoming messages that do not have the itinerary SOAP header to pass through the ESB by selecting an appropriate server-side itinerary for the message with the help of a resolver.</span></span> <span data-ttu-id="a7706-104">El componente se utiliza también para los mensajes que usan un encabezado SOAP para definir el nombre y la versión de un itinerario, como se solicitó el cliente.</span><span class="sxs-lookup"><span data-stu-id="a7706-104">The component is also used for messages that use a SOAP header to define the name and version of an itinerary, as requested by the client.</span></span>  
+  
+## <a name="installation"></a><span data-ttu-id="a7706-105">Installation</span><span class="sxs-lookup"><span data-stu-id="a7706-105">Installation</span></span>  
+ <span data-ttu-id="a7706-106">Al instalar el núcleo de ESB automáticamente se instala el **ItinerarySelector** componente en la carpeta de componentes de canalización de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a7706-106">Installing the ESB Core automatically installs the **ItinerarySelector** component in the BizTalk Server Pipeline Components folder.</span></span>  
+  
+## <a name="how-it-works"></a><span data-ttu-id="a7706-107">Funcionamiento</span><span class="sxs-lookup"><span data-stu-id="a7706-107">How It Works</span></span>  
+ <span data-ttu-id="a7706-108">El componente de ESB itinerario Selector es un componente de canalización de BizTalk de Microsoft que sólo puede residir en una canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="a7706-108">The ESB Itinerary Selector component is a Microsoft BizTalk pipeline component that can reside only in a receive pipeline.</span></span> <span data-ttu-id="a7706-109">El componente selecciona un itinerario del lado servidor para su uso en el procesamiento de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="a7706-109">The component selects a server-side itinerary for use in processing a message.</span></span> <span data-ttu-id="a7706-110">A medida que el mensaje pasa a través del componente en una canalización de recepción, el componente lee su configuración y usa el **ResolverConnectionString** propiedad que se va a llamar a la resolución correcta que se buscará el itinerario adecuado que se utiliza al procesar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="a7706-110">As the message passes through the component in a receive pipeline, the component reads its configuration and uses the **ResolverConnectionString** property to call the correct resolver to look up the appropriate itinerary to use when processing the message.</span></span> <span data-ttu-id="a7706-111">El componente de Selector de itinerario, a continuación, realiza los mismos pasos que el componente de canalización de itinerario para validar el mensaje y promocionar las propiedades necesarias para asegurarse de que el mensaje sigue a la siguiente fase de procesamiento.</span><span class="sxs-lookup"><span data-stu-id="a7706-111">The Itinerary Selector component then performs the same steps as the Itinerary pipeline component to validate the message and promote the properties necessary to ensure the message continues to the next processing stage.</span></span>  
+  
+## <a name="using-the-esb-itinerary-selector-component"></a><span data-ttu-id="a7706-112">Mediante el componente de Selector itinerarios de ESB</span><span class="sxs-lookup"><span data-stu-id="a7706-112">Using the ESB Itinerary Selector Component</span></span>  
+ <span data-ttu-id="a7706-113">Puede agregar el componente de ESB itinerario a una canalización de recepción y, a continuación, usar la canalización en una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="a7706-113">You can add the ESB Itinerary component to a receive pipeline and then use the pipeline in a receive location.</span></span> <span data-ttu-id="a7706-114">Cuando este componente está configurado con la resolución estática de itinerario en WCF en rampa, el nombre y la versión de la itinerario solicitado por el cliente (como se representa en el encabezado SOAP) se recupera del contexto del mensaje y se utiliza para seleccionar el adecuado itinerario.</span><span class="sxs-lookup"><span data-stu-id="a7706-114">When this component is configured with the ITINERARY-STATIC resolver in WCF on-ramp, the name and version of the itinerary requested by the client (as represented in the SOAP header) will be retrieved from the message context and used to select the appropriate itinerary.</span></span>  
+  
+## <a name="component-properties"></a><span data-ttu-id="a7706-115">Propiedades de componente</span><span class="sxs-lookup"><span data-stu-id="a7706-115">Component Properties</span></span>  
+ <span data-ttu-id="a7706-116">El componente de Selector de itinerario ESB expone tres propiedades públicas:</span><span class="sxs-lookup"><span data-stu-id="a7706-116">The ESB Itinerary Selector component exposes three public properties:</span></span>  
+  
+-   <span data-ttu-id="a7706-117">**IgnoreErrorKey**.</span><span class="sxs-lookup"><span data-stu-id="a7706-117">**IgnoreErrorKey**.</span></span> <span data-ttu-id="a7706-118">Esta propiedad define si, si se devuelve un error por la resolución, se debe procesar el mensaje sin el itinerario (cuando se establece en **True**) o en suspensión.</span><span class="sxs-lookup"><span data-stu-id="a7706-118">This property defines whether, if an error is returned by the resolver, the message should be processed without the itinerary (when set to **True**) or suspended.</span></span>  
+  
+-   <span data-ttu-id="a7706-119">**ItineraryFactKey**.</span><span class="sxs-lookup"><span data-stu-id="a7706-119">**ItineraryFactKey**.</span></span> <span data-ttu-id="a7706-120">Esto representa la clave del diccionario devuelto por la resolución que contiene el XML real el itinerario seleccionado.</span><span class="sxs-lookup"><span data-stu-id="a7706-120">This represents the key in the dictionary returned by the resolver that contains the actual XML of the Itinerary selected.</span></span> <span data-ttu-id="a7706-121">Por lo general, **Resolver.Itinerary**, a menos que se utiliza una resolución personalizada.</span><span class="sxs-lookup"><span data-stu-id="a7706-121">Generally, **Resolver.Itinerary**, unless a custom resolver is used.</span></span>  
+  
+-   <span data-ttu-id="a7706-122">**ResolverConnectionString**.</span><span class="sxs-lookup"><span data-stu-id="a7706-122">**ResolverConnectionString**.</span></span> <span data-ttu-id="a7706-123">Se trata de una cadena de conexión de resolución que contiene pares de nombre / valor que se puede utilizar un solucionador para seleccionar o búsqueda un itinerario.</span><span class="sxs-lookup"><span data-stu-id="a7706-123">This is a resolver connection string that contains name-value pairs that a resolver can use to select and/or look-up an itinerary.</span></span>

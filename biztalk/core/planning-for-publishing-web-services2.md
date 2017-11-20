@@ -1,0 +1,39 @@
+---
+title: "Planificación para publicar Web Services2 | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- Web services, planning
+- virtual directories, updating
+- BizTalk Server Web Services Publishing Wizard
+ms.assetid: 69107557-48e2-4f15-ba42-9fad476a8294
+caps.latest.revision: "16"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 9d0b9d593a3309f7b4477f2fa735f7e265b614c8
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="planning-for-publishing-web-services"></a><span data-ttu-id="2f29b-102">Planificación para publicar servicios Web</span><span class="sxs-lookup"><span data-stu-id="2f29b-102">Planning for Publishing Web Services</span></span>
+<span data-ttu-id="2f29b-103">Se puede obtener acceso a los servicios Web desde las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="2f29b-103">You can access Web services from your orchestrations.</span></span> <span data-ttu-id="2f29b-104">Además, el Asistente para publicar servicios Web de BizTalk permite publicar el servicio Web.</span><span class="sxs-lookup"><span data-stu-id="2f29b-104">You can also use the BizTalk Web Services Publishing Wizard to publish your Web service.</span></span>  
+  
+ <span data-ttu-id="2f29b-105">En la tabla siguiente se enumeran algunas de las preguntas que es preciso responder al planear los servicios Web.</span><span class="sxs-lookup"><span data-stu-id="2f29b-105">The following table lists some of the questions that you need to answer in planning for Web services.</span></span>  
+  
+|<span data-ttu-id="2f29b-106">Pregunta preliminar</span><span class="sxs-lookup"><span data-stu-id="2f29b-106">Planning question</span></span>|<span data-ttu-id="2f29b-107">Recomendación</span><span class="sxs-lookup"><span data-stu-id="2f29b-107">Recommendation</span></span>|  
+|-----------------------|--------------------|  
+|<span data-ttu-id="2f29b-108">¿Ha generado el proyecto de BizTalk Server?</span><span class="sxs-lookup"><span data-stu-id="2f29b-108">Have you built your BizTalk Server project?</span></span>|<span data-ttu-id="2f29b-109">Antes de ejecutar el Asistente para publicar servicios Web de BizTalk, debe crear el proyecto de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="2f29b-109">You must build your BizTalk Server project prior to running the BizTalk Web Services Publishing Wizard.</span></span>|  
+|<span data-ttu-id="2f29b-110">¿Ha habilitado el sistema para ejecutar los servicios Web?</span><span class="sxs-lookup"><span data-stu-id="2f29b-110">Have you enabled your system to run Web services?</span></span>|<span data-ttu-id="2f29b-111">Debe habilitar los servicios Web en el equipo antes de ejecutar el Asistente para publicar servicios Web de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="2f29b-111">You must enable Web services on your computer before running the BizTalk Web Services Publishing Wizard.</span></span> <span data-ttu-id="2f29b-112">Para obtener más información acerca de cómo habilitar el sistema para servicios Web, consulte [habilitar servicios Web](../core/enabling-web-services.md).</span><span class="sxs-lookup"><span data-stu-id="2f29b-112">For more information about enabling your system for Web services, see [Enabling Web Services](../core/enabling-web-services.md).</span></span>|  
+|<span data-ttu-id="2f29b-113">¿Ha comprobado que el esquema contiene sólo caracteres y elementos XML válidos?</span><span class="sxs-lookup"><span data-stu-id="2f29b-113">Have you verified that your schema contains only valid XML characters and elements?</span></span>|<span data-ttu-id="2f29b-114">Los servicios Web no admiten caracteres de extensión A de ideogramas unificados de chino, japonés o coreano (CJK).</span><span class="sxs-lookup"><span data-stu-id="2f29b-114">Web services do not support Chinese, Japanese, or Korean (CJK) Unified Ideograph Extension A characters.</span></span> <span data-ttu-id="2f29b-115">Además, hay restricciones en determinados elementos del esquema XML (XSD).</span><span class="sxs-lookup"><span data-stu-id="2f29b-115">There are also restrictions on certain XML Schema (XSD) elements.</span></span> <span data-ttu-id="2f29b-116">Para obtener más información acerca de los caracteres XML válidos, elementos admitidos y consideraciones sobre los elementos, vea [consideraciones al publicar servicios Web](../core/considerations-when-publishing-web-services.md).</span><span class="sxs-lookup"><span data-stu-id="2f29b-116">For more information about valid XML characters and supported elements and considerations for elements, see [Considerations When Publishing Web Services](../core/considerations-when-publishing-web-services.md).</span></span>|  
+|<span data-ttu-id="2f29b-117">¿Algún tipo de mensaje del proyecto de BizTalk Server utiliza clases .NET definidas por el usuario?</span><span class="sxs-lookup"><span data-stu-id="2f29b-117">Do any of the message types in your BizTalk Server project use user-defined .NET classes?</span></span>|<span data-ttu-id="2f29b-118">Debe instalar los ensamblados que contienen clases .NET definidas por el usuario a las que los tipos de mensajes hacen referencia en la caché de ensamblados global (GAC).</span><span class="sxs-lookup"><span data-stu-id="2f29b-118">You must install assemblies containing user-defined .NET classes that message types reference in the global assembly cache (GAC).</span></span>|  
+|<span data-ttu-id="2f29b-119">¿Usan los clientes Web las credenciales proporcionadas para el **WindowsUser** propiedad de contexto?</span><span class="sxs-lookup"><span data-stu-id="2f29b-119">Do your Web clients use the supplied credentials for the **WindowsUser** context property?</span></span>|<span data-ttu-id="2f29b-120">Las credenciales proporcionadas por los clientes Web consumir un servicio Web publicado usan la **WindowsUser** propiedad de contexto.</span><span class="sxs-lookup"><span data-stu-id="2f29b-120">The credentials supplied by the Web clients consuming a published Web service use the **WindowsUser** context property.</span></span> <span data-ttu-id="2f29b-121">La resolución de entidades usa esta propiedad.</span><span class="sxs-lookup"><span data-stu-id="2f29b-121">Party Resolution uses this property.</span></span> <span data-ttu-id="2f29b-122">Si configura una entidad utilizando la **WindowsUser** propiedad de contexto y el cliente Web consume el servicio Web con credenciales que coinciden con la entidad, BizTalk Server identifica el mensaje como procedente de la entidad predefinida correspondiente.</span><span class="sxs-lookup"><span data-stu-id="2f29b-122">If you set up a Party using the **WindowsUser** context property and the Web client consumes the Web service with credentials that match the Party, BizTalk Server identifies the message as coming from the corresponding predefined party.</span></span> <span data-ttu-id="2f29b-123">Para obtener más información acerca de la resolución de entidades con componentes de canalización, consulte [componente de canalización de resolución de entidad](../core/party-resolution-pipeline-component.md).</span><span class="sxs-lookup"><span data-stu-id="2f29b-123">For more information about party resolution with pipeline components, see [Party Resolution Pipeline Component](../core/party-resolution-pipeline-component.md).</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="2f29b-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="2f29b-124">See Also</span></span>  
+ [<span data-ttu-id="2f29b-125">Publicar servicios Web</span><span class="sxs-lookup"><span data-stu-id="2f29b-125">Publishing Web Services</span></span>](../core/publishing-web-services.md)

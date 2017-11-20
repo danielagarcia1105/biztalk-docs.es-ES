@@ -1,0 +1,1 @@
+<span data-ttu-id="88853-101">BizTalk FileAct e interactuar adaptadores</span><span class="sxs-lookup"><span data-stu-id="88853-101">BizTalk FileAct and InterAct Adapters</span></span>

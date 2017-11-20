@@ -1,0 +1,1 @@
+<span data-ttu-id="dfa14-101">Adaptador para Oracle E-Business</span><span class="sxs-lookup"><span data-stu-id="dfa14-101">Oracle E-Business adapter</span></span>

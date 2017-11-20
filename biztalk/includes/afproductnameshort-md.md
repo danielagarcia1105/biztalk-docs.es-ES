@@ -1,0 +1,1 @@
+<span data-ttu-id="c8ec3-101">WCF LOB Adapter SDK</span><span class="sxs-lookup"><span data-stu-id="c8ec3-101">WCF LOB Adapter SDK</span></span>

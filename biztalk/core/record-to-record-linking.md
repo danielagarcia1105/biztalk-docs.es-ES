@@ -1,0 +1,54 @@
+---
+title: "Vinculación de registro a registro | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 9a3fa4d7-5689-4f55-af1b-369defa37037
+caps.latest.revision: "8"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: ac6abc3d27ad3ee2f135e3ff5c8c1749fcae5f4a
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="record-to-record-linking"></a><span data-ttu-id="c3013-102">Vinculación de registro a registro</span><span class="sxs-lookup"><span data-stu-id="c3013-102">Record-to-Record Linking</span></span>
+
+## <a name="overview"></a><span data-ttu-id="c3013-103">Información general</span><span class="sxs-lookup"><span data-stu-id="c3013-103">Overview</span></span>
+<span data-ttu-id="c3013-104">En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede usar el Asignador de BizTalk para crear varios vínculos entre partes similares de los esquemas de origen y de destino al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="c3013-104">In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can use BizTalk Mapper to create multiple links between similar portions of the source and destination schemas at the same time.</span></span> <span data-ttu-id="c3013-105">En versiones anteriores de BizTalk Server, tenía que crear esos vínculos individualmente, uno por uno.</span><span class="sxs-lookup"><span data-stu-id="c3013-105">In previous versions of BizTalk Server, you had to create such links individually, one at a time.</span></span> <span data-ttu-id="c3013-106">Existen dos tipos diferenciados de vinculación de registro a registro, cada una de ellas es apropiada para escenarios diferentes en función del grado de similitud de las estructuras de los registros del esquema de origen y de destino que se vinculen, como se indica a continuación</span><span class="sxs-lookup"><span data-stu-id="c3013-106">There are two distinct types of record-to-record linking, each appropriate to different scenarios based on the degree of similarity of the structures of the source and destination schema records being linked, as follows:</span></span>  
+  
+-   <span data-ttu-id="c3013-107">**Vinculación de estructura.**</span><span class="sxs-lookup"><span data-stu-id="c3013-107">**Structure linking.**</span></span> <span data-ttu-id="c3013-108">Utilice la vinculación de estructura, cuando la estructura de los registros que se vinculan en los esquemas de origen y de destino sea igual o muy similar.</span><span class="sxs-lookup"><span data-stu-id="c3013-108">Use structure linking when the structure of the records being linked in your source and destination schemas are the same or very similar.</span></span>  
+  
+-   <span data-ttu-id="c3013-109">**Vinculación de coincidencia de nombre.**</span><span class="sxs-lookup"><span data-stu-id="c3013-109">**Name-matching linking.**</span></span> <span data-ttu-id="c3013-110">Utilice una vinculación de coincidencia de nombres cuando la estructura de los registros que se vinculan en los esquemas de origen y de destino sea bastante similar, y tengan coincidencia de nombres de registros y campos, pero con más excepciones estructurales de las aceptables con la vinculación de estructura.</span><span class="sxs-lookup"><span data-stu-id="c3013-110">Use name-matching linking when the structure of the records being linked in your source and destination schemas are still similar, and with matching record and field names, but with more structural exceptions than are workable with structure linking.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="c3013-111">Vinculación de registro a registro se aplica únicamente cuando se configura mediante la vinculación de valor-copia el **vínculos de origen** propiedad.</span><span class="sxs-lookup"><span data-stu-id="c3013-111">Record-to-record linking applies to value-copy linking only, as configured using the **Source Links** property.</span></span>  
+  
+## <a name="record-to-record-linking-structure-links"></a><span data-ttu-id="c3013-112">Vinculación de registro a registro: Vínculos de estructura</span><span class="sxs-lookup"><span data-stu-id="c3013-112">Record-to-Record Linking: Structure Links</span></span>  
+ <span data-ttu-id="c3013-113">Utilice la vinculación de estructura, cuando la estructura de los registros que desee vincular en los esquemas de origen y de destino sea igual o prácticamente igual.</span><span class="sxs-lookup"><span data-stu-id="c3013-113">Use structure linking when the structure of the records that you want to link in your source and destination schemas is the same or almost exactly the same.</span></span>  
+  
+ <span data-ttu-id="c3013-114">Si la estructura de los esquemas es idéntica, solo necesitará agregar un enlace en el nodo raíz de cada esquema.</span><span class="sxs-lookup"><span data-stu-id="c3013-114">If the structure of your schemas is exactly the same, you need only add one link at the root node of each schema.</span></span> <span data-ttu-id="c3013-115">En el menú contextual, seleccione el modo de vinculación deseado.</span><span class="sxs-lookup"><span data-stu-id="c3013-115">In the shortcut menu, select the desired mode of linking.</span></span>  
+  
+ <span data-ttu-id="c3013-116">Si la estructura de algunos registros de los esquemas es idéntica, solo necesitará agregar un vínculo entre esos registros de cada esquema.</span><span class="sxs-lookup"><span data-stu-id="c3013-116">If the structure of particular records in your schemas is exactly the same, you need only add one link between those records in each schema.</span></span> <span data-ttu-id="c3013-117">En el menú contextual, seleccione el modo de vinculación deseado.</span><span class="sxs-lookup"><span data-stu-id="c3013-117">In the shortcut menu, select the desired mode of linking.</span></span>  
+  
+ <span data-ttu-id="c3013-118">Para obtener información acerca de cómo configurar el registro de registro de vinculación, vea vinculación como mediante la vinculación de estructura o de coincidencia de nombres [automáticamente registros de vínculo](../core/how-to-link-records-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="c3013-118">For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [Link Records Automatically](../core/how-to-link-records-automatically.md).</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="c3013-119">Los vínculos de estructura son el tipo predeterminado en la vinculación de registro a registro.</span><span class="sxs-lookup"><span data-stu-id="c3013-119">Structure links are the default type of record-to-record linking.</span></span>  
+  
+## <a name="record-to-record-linking-name-matching-links"></a><span data-ttu-id="c3013-120">Vinculación de registro a registro: Coincidencia de nombres vínculos</span><span class="sxs-lookup"><span data-stu-id="c3013-120">Record-to-Record Linking: Name-Matching Links</span></span>  
+ <span data-ttu-id="c3013-121">Utilice la vinculación de coincidencia de nombres, cuando la estructura de los registros que desee vincular en los esquemas de origen y de destino sea muy similar, pero no exactamente igual.</span><span class="sxs-lookup"><span data-stu-id="c3013-121">Use name-matching links when the structure of the records that you want to link in your source and destination schemas is very similar, but not exactly the same.</span></span> <span data-ttu-id="c3013-122">Por ejemplo, el esquema de origen y de destino podría tener más registros o campos subordinados dentro de los nodos que se van a vincular que el otro esquema.</span><span class="sxs-lookup"><span data-stu-id="c3013-122">For example, the source or destination schema might have more subordinate records or fields within the nodes to be linked than in the other schema.</span></span>  
+  
+ <span data-ttu-id="c3013-123">Para crear un vínculo de coincidencia de nombres entre partes de los esquemas de origen y de destino que tengan estructuras casi coincidentes, incluidos los esquemas enteros si procede, cree un vínculo con origen en un nodo principal de la subjerarquía y finalice en otro nodo principal de la subjerarquía.</span><span class="sxs-lookup"><span data-stu-id="c3013-123">To create a name-matching link between portions of your source and destination schemas that have nearly matching structures, including the entire schemas where applicable, create a link originating from a sub-hierarchy parent node and ending on another sub-hierarchy parent node.</span></span> <span data-ttu-id="c3013-124">En el menú contextual, seleccione el modo de modo deseado.</span><span class="sxs-lookup"><span data-stu-id="c3013-124">In the shortcut menu, select the desired mode.</span></span> <span data-ttu-id="c3013-125">Después de vincular los nodos, se crean automáticamente los vínculos de todos los registros y campos subordinados de los esquemas de origen y de destino que se llaman igual y tienen la misma subestructura.</span><span class="sxs-lookup"><span data-stu-id="c3013-125">After you link the nodes, links are automatically created for all of the subordinate records and fields in the source and destination schemas that are named the same and have the same substructure.</span></span>  
+  
+ <span data-ttu-id="c3013-126">Para obtener información acerca de cómo configurar el registro de registro de vinculación, vea vinculación como mediante la vinculación de estructura o de coincidencia de nombres [automáticamente registros de vínculo](../core/how-to-link-records-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="c3013-126">For information about how to configure record-to-record linking as using either structure linking or name-matching linking, see [Link Records Automatically](../core/how-to-link-records-automatically.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="c3013-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="c3013-127">See Also</span></span>  
+ <span data-ttu-id="c3013-128">[Vincular registros automáticamente](../core/how-to-link-records-automatically.md) </span><span class="sxs-lookup"><span data-stu-id="c3013-128">[Link Records Automatically](../core/how-to-link-records-automatically.md) </span></span>  
+ [<span data-ttu-id="c3013-129">Editar propiedades de vínculo</span><span class="sxs-lookup"><span data-stu-id="c3013-129">Edit Link Properties</span></span>](../core/how-to-edit-link-properties.md)

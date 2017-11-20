@@ -1,0 +1,31 @@
+---
+title: Comprender la seguridad WCF en el adaptador creado con el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: c1ee402b-ffda-42c1-8d85-d7cbe073a307
+caps.latest.revision: "9"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: baf0c62c3d0c37c1f69cb944112ff832dade5ec4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="understand-wcf-security-on-the-adapter-created-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="ecd6f-102">Comprender la seguridad WCF en el adaptador creado con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="ecd6f-102">Understand WCF security on the adapter created with the WCF LOB Adapter SDK</span></span>
+<span data-ttu-id="ecd6f-103">El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] amplía la [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] arquitectura de canal y se basa en la infraestructura de mensajería y la API que proporciona.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-103">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] extends the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture and relies on the messaging infrastructure and the API that it provides.</span></span>  <span data-ttu-id="ecd6f-104">Un adaptador de LOB de WCF es necesario establecer una conexión con sistemas de destino y, por lo tanto, es necesario configurar el adaptador con autenticación y otra información de seguridad necesarios para realizar las conexiones del sistema de destino.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-104">A WCF LOB adapter needs to establish a connection to target systems, and hence it is necessary to configure the adapter with authentication and other security information required to make the target system connections.</span></span>  
+  
+ [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]<span data-ttu-id="ecd6f-105">es una plataforma de programación distribuida basada en mensajes SOAP que pueden transmitirse a través de muchos nodos diferentes, SOAP intermediarios, los servidores de seguridad y potencialmente el Internet en la ruta del sistema de línea de negocio para el adaptador y en el cliente.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-105"> is a distributed programming platform based on SOAP messages that can travel through many different nodes, SOAP intermediaries, firewalls, and potentially the Internet en-route from the line-of-business system to the adapter and on to the client.</span></span> <span data-ttu-id="ecd6f-106">Esto podría suponer un número de amenazas de seguridad diferente para el adaptador y el escenario de implementación.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-106">This could present a number of different security threats to your adapter and deployment scenario.</span></span>  
+  
+ <span data-ttu-id="ecd6f-107">Seguridad juega un papel importante en cualquier solución de arquitectura empresarial.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-107">Security plays a major part in any enterprise architecture solution.</span></span> <span data-ttu-id="ecd6f-108">Puede aprovechar la confidencialidad, integridad, autenticación y características de autorización proporcionados en el modelo de seguridad WCF para ayudar a proteger el adaptador frente a amenazas de seguridad.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-108">You can leverage the confidentiality, integrity, authentication, and authorization features provided in the WCF security model to help secure the adapter from security threats.</span></span> <span data-ttu-id="ecd6f-109">También debe tener en cuenta el transporte y seguridad de nivel de mensaje entre el adaptador y el sistema de destino para proteger la comunicación entre estas dos entidades.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-109">You must also consider the transport and message-level security between the adapter and the target system to protect the communication between these two entities.</span></span> <span data-ttu-id="ecd6f-110">Aunque WCF proporciona un amplio conjunto de WS-* especificaciones, implementación de estas funciones de seguridad avanzada estándares en el adaptador dependerá de las capacidades proporcionadas por el sistema de línea de negocio.</span><span class="sxs-lookup"><span data-stu-id="ecd6f-110">Even though WCF provides a rich set of WS-* specifications, implementation of these advanced security standards in your adapter will depend on the capabilities provided by the line-of-business system.</span></span>  
+  
+ <span data-ttu-id="ecd6f-111">Para obtener más información acerca de [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] seguridad incluida una información general, conceptos, escenarios comunes y los procedimientos recomendados, consulte [Windows Communication Foundation Security](https://msdn.microsoft.com/library/ms732362.aspx).</span><span class="sxs-lookup"><span data-stu-id="ecd6f-111">For more information about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] security including an overview, concepts, common scenarios, and best practices, see [Windows Communication Foundation Security](https://msdn.microsoft.com/library/ms732362.aspx).</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="ecd6f-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="ecd6f-112">See Also</span></span>  
+ [<span data-ttu-id="ecd6f-113">Planear y diseñar un adaptador mediante el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="ecd6f-113">Plan and design an adapter using the WCF LOB Adapter SDK</span></span>](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk.md)

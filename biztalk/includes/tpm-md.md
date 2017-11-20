@@ -1,0 +1,1 @@
+<span data-ttu-id="2ffa2-101">Administración de socios comerciales</span><span class="sxs-lookup"><span data-stu-id="2ffa2-101">Trading Partner Management</span></span>

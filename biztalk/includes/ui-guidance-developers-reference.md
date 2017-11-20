@@ -1,0 +1,1 @@
+<span data-ttu-id="0cb83-101">en la orientación de la interfaz de usuario y la referencia del programador</span><span class="sxs-lookup"><span data-stu-id="0cb83-101">in the UI guidance and Developers reference</span></span>

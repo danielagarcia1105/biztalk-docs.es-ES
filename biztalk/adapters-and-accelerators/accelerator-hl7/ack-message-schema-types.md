@@ -1,0 +1,61 @@
+---
+title: "Tipos de esquema de mensaje de confirmación | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- schemas, ACK schemas
+- acknowledgements, ACK schema types
+- ACK messages
+ms.assetid: da6981a0-a70a-481e-8db4-4a6851f205f1
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 6c29657226c993a68b8cd557a39a7837717e2c66
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="ack-message-schema-types"></a><span data-ttu-id="89a50-102">Tipos de esquema de mensaje de confirmación</span><span class="sxs-lookup"><span data-stu-id="89a50-102">ACK Message Schema Types</span></span>
+<span data-ttu-id="89a50-103">Esquemas de mensaje de confirmación tienen dos formas:</span><span class="sxs-lookup"><span data-stu-id="89a50-103">Acknowledgment message schemas come in two forms:</span></span>  
+  
+-   <span data-ttu-id="89a50-104">**General confirmación (ACK)**.</span><span class="sxs-lookup"><span data-stu-id="89a50-104">**General acknowledgment (ACK)**.</span></span> <span data-ttu-id="89a50-105">Puede usar una confirmación (ACK) general en el que la aplicación no define un mensaje de confirmación de nivel de aplicación de línea de negocio especial o se produjo un error que impide el procesamiento de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="89a50-105">You can use a general acknowledgment (ACK) where the application does not define a special line-of-business application level acknowledgment message or where an error occurred that precludes application processing.</span></span> <span data-ttu-id="89a50-106">También puede utilizarlo para aceptar confirmaciones de nivel.</span><span class="sxs-lookup"><span data-stu-id="89a50-106">You can also use it for accept level acknowledgments.</span></span> <span data-ttu-id="89a50-107">La tabla siguiente muestra la estructura del mensaje de confirmación.</span><span class="sxs-lookup"><span data-stu-id="89a50-107">The following table lists the ACK message structure.</span></span>  
+  
+    |<span data-ttu-id="89a50-108">Confirmación ^ varía ^ confirmación</span><span class="sxs-lookup"><span data-stu-id="89a50-108">ACK^varies^ACK</span></span>|<span data-ttu-id="89a50-109">Confirmación general</span><span class="sxs-lookup"><span data-stu-id="89a50-109">General acknowledgment</span></span>|<span data-ttu-id="89a50-110">Capítulo</span><span class="sxs-lookup"><span data-stu-id="89a50-110">Chapter</span></span>|  
+    |--------------------|----------------------------|-------------|  
+    |<span data-ttu-id="89a50-111">MSH</span><span class="sxs-lookup"><span data-stu-id="89a50-111">MSH</span></span>|<span data-ttu-id="89a50-112">Encabezado de mensaje</span><span class="sxs-lookup"><span data-stu-id="89a50-112">Message Header</span></span>|<span data-ttu-id="89a50-113">2</span><span class="sxs-lookup"><span data-stu-id="89a50-113">2</span></span>|  
+    |<span data-ttu-id="89a50-114">MSA</span><span class="sxs-lookup"><span data-stu-id="89a50-114">MSA</span></span>|<span data-ttu-id="89a50-115">Confirmación de mensajes</span><span class="sxs-lookup"><span data-stu-id="89a50-115">Message Acknowledgment</span></span>|<span data-ttu-id="89a50-116">2</span><span class="sxs-lookup"><span data-stu-id="89a50-116">2</span></span>|  
+    |<span data-ttu-id="89a50-117">[ERROR]</span><span class="sxs-lookup"><span data-stu-id="89a50-117">[ ERR ]</span></span>|<span data-ttu-id="89a50-118">Error</span><span class="sxs-lookup"><span data-stu-id="89a50-118">Error</span></span>|<span data-ttu-id="89a50-119">2</span><span class="sxs-lookup"><span data-stu-id="89a50-119">2</span></span>|  
+  
+-   <span data-ttu-id="89a50-120">**Retrasa la confirmación (MCF)**.</span><span class="sxs-lookup"><span data-stu-id="89a50-120">**Delayed acknowledgment (MCF)**.</span></span> <span data-ttu-id="89a50-121">Este mensaje solamente existe por compatibilidad con versiones anteriores con HL7 versión 2.1.</span><span class="sxs-lookup"><span data-stu-id="89a50-121">This message exists only for backward compatibility with HL7 Version 2.1.</span></span> <span data-ttu-id="89a50-122">Se utiliza como parte del protocolo que se crea un formulario genérico de una confirmación de nivel de aplicación asincrónica, el mensaje MCF.</span><span class="sxs-lookup"><span data-stu-id="89a50-122">You use it as part of the protocol that creates a generic form of an asynchronous application level acknowledgment, the MCF message.</span></span> <span data-ttu-id="89a50-123">La tabla siguiente muestra la estructura del mensaje MCF.</span><span class="sxs-lookup"><span data-stu-id="89a50-123">The following table lists the MCF message structure.</span></span>  
+  
+    |<span data-ttu-id="89a50-124">MCF ^ varía ^ confirmación</span><span class="sxs-lookup"><span data-stu-id="89a50-124">MCF^varies^ACK</span></span>|<span data-ttu-id="89a50-125">Confirmación diferida</span><span class="sxs-lookup"><span data-stu-id="89a50-125">Delayed Acknowledgment</span></span>|<span data-ttu-id="89a50-126">Capítulo</span><span class="sxs-lookup"><span data-stu-id="89a50-126">Chapter</span></span>|  
+    |--------------------|----------------------------|-------------|  
+    |<span data-ttu-id="89a50-127">MSH</span><span class="sxs-lookup"><span data-stu-id="89a50-127">MSH</span></span>|<span data-ttu-id="89a50-128">Encabezado de mensaje</span><span class="sxs-lookup"><span data-stu-id="89a50-128">Message Header</span></span>|<span data-ttu-id="89a50-129">2</span><span class="sxs-lookup"><span data-stu-id="89a50-129">2</span></span>|  
+    |<span data-ttu-id="89a50-130">MSA</span><span class="sxs-lookup"><span data-stu-id="89a50-130">MSA</span></span>|<span data-ttu-id="89a50-131">Confirmación de mensajes</span><span class="sxs-lookup"><span data-stu-id="89a50-131">Message Acknowledgment</span></span>|<span data-ttu-id="89a50-132">2</span><span class="sxs-lookup"><span data-stu-id="89a50-132">2</span></span>|  
+    |<span data-ttu-id="89a50-133">[ERROR]</span><span class="sxs-lookup"><span data-stu-id="89a50-133">[ ERR ]</span></span>|<span data-ttu-id="89a50-134">Error</span><span class="sxs-lookup"><span data-stu-id="89a50-134">Error</span></span>|<span data-ttu-id="89a50-135">2</span><span class="sxs-lookup"><span data-stu-id="89a50-135">2</span></span>|  
+  
+ <span data-ttu-id="89a50-136">Mensajes de confirmación tienen el MSH9 campo establecido como **confirmación ^\<***eventos de desencadenador***> ^ confirmación** o **MCF ^\<**  *eventos de desencadenador***> ^ confirmación**.</span><span class="sxs-lookup"><span data-stu-id="89a50-136">Acknowledgment messages have the MSH9 field set as either **ACK^\<***trigger event***>^ACK** or **MCF^\<***trigger event***>^ACK**.</span></span> <span data-ttu-id="89a50-137">Como resultado, el primer componente de MSH9 es suficiente para determinar el esquema de confirmación.</span><span class="sxs-lookup"><span data-stu-id="89a50-137">As a result, the first component of MSH9 is sufficient to determine the ACK schema.</span></span> <span data-ttu-id="89a50-138">Nombre del documento que la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) utilizan canalizaciones siempre contiene HL7 como el espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="89a50-138">The document name that the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) pipeline uses always contains HL7 as the namespace.</span></span> <span data-ttu-id="89a50-139">El nombre de tipo es el contenido del campo MSH9_1, que es la confirmación o MCF.</span><span class="sxs-lookup"><span data-stu-id="89a50-139">The type name is the contents of the MSH9_1 field, which is ACK or MCF.</span></span> <span data-ttu-id="89a50-140">Como resultado, como se muestra en el ejemplo anterior, el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] canalización busca un esquema con los nombres de HL7. Confirmación o HL7. MCF, dependiendo del valor del campo MSH9_1.</span><span class="sxs-lookup"><span data-stu-id="89a50-140">As a result, as in the example above, the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] pipeline looks for a schema with the names HL7.ACK or HL7.MCF, depending on the value of the MSH9_1 field.</span></span> <span data-ttu-id="89a50-141">El esquema para el cuerpo del mensaje es el mismo para todos los mensajes de la versión 2.X.</span><span class="sxs-lookup"><span data-stu-id="89a50-141">The schema for the message body is the same for all 2.X version messages.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="89a50-142">En un lote en / lote escenario de confirmación, el contenido del encabezado de confirmación es como sigue:</span><span class="sxs-lookup"><span data-stu-id="89a50-142">In a batch in/batch out ACK scenario, the contents of the ACK header is as follows:</span></span>  
+  
+-   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="89a50-143">establece MSH1, 2, 8 y 15 para configurar en la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="89a50-143"> sets MSH1, 2, 8 and 15 to what you configure in the user interface.</span></span>  
+  
+-   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="89a50-144">establece MSH7 a la hora del sistema.</span><span class="sxs-lookup"><span data-stu-id="89a50-144"> sets MSH7 to the system time.</span></span>  
+  
+-   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="89a50-145">MSH9 se establece en confirmación.</span><span class="sxs-lookup"><span data-stu-id="89a50-145"> sets MSH9 to ACK.</span></span>  
+  
+-   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="89a50-146">establece MSH12 2.4 o 2.5.</span><span class="sxs-lookup"><span data-stu-id="89a50-146"> sets MSH12 to 2.4 or 2.5.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="89a50-147">Vea también</span><span class="sxs-lookup"><span data-stu-id="89a50-147">See Also</span></span>  
+ <span data-ttu-id="89a50-148">[Creación y procesamiento de confirmaciones](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md) </span><span class="sxs-lookup"><span data-stu-id="89a50-148">[Creating and Processing Acknowledgments](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md) </span></span>  
+ <span data-ttu-id="89a50-149">[Segmento de confirmación del mensaje](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md) </span><span class="sxs-lookup"><span data-stu-id="89a50-149">[Message Acknowledgment Segment](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md) </span></span>  
+ <span data-ttu-id="89a50-150">[Cómo configurar un puerto de envío para recibir mensajes de confirmación](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md) </span><span class="sxs-lookup"><span data-stu-id="89a50-150">[Setting Up a Send Port for Receiving ACKs](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md) </span></span>  
+ [<span data-ttu-id="89a50-151">Condiciones de Error de confirmación</span><span class="sxs-lookup"><span data-stu-id="89a50-151">Acknowledgment Error Conditions</span></span>](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-error-conditions.md)

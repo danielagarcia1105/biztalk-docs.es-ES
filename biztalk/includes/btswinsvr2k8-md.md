@@ -1,0 +1,1 @@
+<span data-ttu-id="45ad5-101">Windows Server 2008 SP2</span><span class="sxs-lookup"><span data-stu-id="45ad5-101">Windows Server 2008 SP2</span></span>

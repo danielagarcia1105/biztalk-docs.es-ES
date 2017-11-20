@@ -1,0 +1,74 @@
+---
+title: "Control de versiones de la solución de administración de procesos empresariales | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- versioning, process management solutions
+- process management solution tutorial, modifying
+- process management solution tutorial, versioning
+- processing, stages
+- process management solution tutorial, processing stages
+ms.assetid: 501b2162-821f-44e1-87c0-8628cc5bd9c3
+caps.latest.revision: "16"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: af8afd3666a35b827ff25b243c1bfb4c81262273
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="versioning-the-business-process-management-solution"></a><span data-ttu-id="22cfe-102">Control de versiones de la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="22cfe-102">Versioning the Business Process Management Solution</span></span>
+<span data-ttu-id="22cfe-103">La solución Administración de procesos empresariales está diseñada para poder reemplazar las fases si es necesario.</span><span class="sxs-lookup"><span data-stu-id="22cfe-103">The Business Process Management solution is designed so that you can replace stages if necessary.</span></span> <span data-ttu-id="22cfe-104">El diseño proporciona también un método fácil de crear versiones de esquemas.</span><span class="sxs-lookup"><span data-stu-id="22cfe-104">The design also provides for an easier method of versioning schemas.</span></span>  
+  
+ <span data-ttu-id="22cfe-105">Para obtener información acerca de cómo dividir un proceso empresarial en fases, vea [algunos principios de diseño de la solución de administración de procesos empresariales](../core/some-design-principles-in-the-business-process-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="22cfe-105">For information about dividing a business process into stages, see [Some Design Principles in the Business Process Management Solution](../core/some-design-principles-in-the-business-process-management-solution.md).</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="22cfe-106">Los elementos de la solución son altamente dependientes de las estructuras de mensajes.</span><span class="sxs-lookup"><span data-stu-id="22cfe-106">Elements of the solution are highly dependent on the message structures.</span></span> <span data-ttu-id="22cfe-107">Para cambiar estructuras de mensajes, es preciso realizar cambios sustanciales en las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="22cfe-107">Changing message structures requires substantial changes to the orchestrations.</span></span>  
+  
+ <span data-ttu-id="22cfe-108">Para obtener instrucciones generales acerca de cómo actualizar ensamblados en una solución implementada y directrices para escribir scripts para administrar la actualización, vea [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md).</span><span class="sxs-lookup"><span data-stu-id="22cfe-108">For general directions about updating assemblies in a deployed solution and guidelines for writing scripts to handle the update, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).</span></span>  
+  
+## <a name="adding-replacing-or-removing-stages"></a><span data-ttu-id="22cfe-109">Agregar, reemplazar o quitar fases</span><span class="sxs-lookup"><span data-stu-id="22cfe-109">Adding, Replacing, or Removing Stages</span></span>  
+ <span data-ttu-id="22cfe-110">Las orquestaciones de la fase de procesamiento de pedidos contienen dos tipos de código: el código que implementa el proceso empresarial y el código que proporciona la infraestructura para que puedan funcionar en la solución.</span><span class="sxs-lookup"><span data-stu-id="22cfe-110">The order processing stage orchestrations contain two kinds of code: code that implements the business process and code that provides the infrastructure so that it can operate in the solution.</span></span> <span data-ttu-id="22cfe-111">En las orquestaciones de la fase, **CableOrder1** y **CableOrder2**, el código de proceso de negocio dentro de una forma Agrupar con la etiqueta "Procesamiento empresarial".</span><span class="sxs-lookup"><span data-stu-id="22cfe-111">In both of the stage orchestrations, **CableOrder1** and **CableOrder2**, the business process code is inside a group shape labeled "Business Processing."</span></span>  
+  
+ <span data-ttu-id="22cfe-112">La forma más fácil de crear una nueva fase es copiar una de las fases, reemplazar el código del grupo "Procesamiento empresarial" por su código y dejar el código de infraestructura intacto.</span><span class="sxs-lookup"><span data-stu-id="22cfe-112">The easiest way to create a new stage is to copy one of the stages, replace the code in the "Business Processing" group with your code, and leave the infrastructure code intact.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="22cfe-113">El **CableOrder2** orquestación tiene dos grupos "Procesamiento empresarial", el segundo en torno a la forma de actualizar el historial de envío.</span><span class="sxs-lookup"><span data-stu-id="22cfe-113">The **CableOrder2** orchestration has two "Business Processing" groups, the second around the Update History Send shape.</span></span> <span data-ttu-id="22cfe-114">La forma Envío es parte de un eficaz ámbito de envío.</span><span class="sxs-lookup"><span data-stu-id="22cfe-114">The Send shape is part of an efficient send scope.</span></span> <span data-ttu-id="22cfe-115">(Para obtener más información, vea "Mejorar el rendimiento con ámbitos anidados" en [de procesamiento en la orquestación OrderBroker](../core/processing-in-the-orderbroker-orchestration.md).) Puesto que una forma Grupo no se puede superponer a una parte de una forma de ámbito, se pone una etiqueta al segundo grupo para indicar que forma parte del código de proceso empresarial.</span><span class="sxs-lookup"><span data-stu-id="22cfe-115">(For more information, see "Improving Performance with Nested Scopes" in [Processing in the OrderBroker Orchestration](../core/processing-in-the-orderbroker-orchestration.md).) Because a Group shape cannot overlap part of a scope shape, the second group is labeled to indicate it is part of the business process code.</span></span>  
+  
+ <span data-ttu-id="22cfe-116">Debe establecer la expresión de filtro de la nueva orquestación en su número en la secuencia.</span><span class="sxs-lookup"><span data-stu-id="22cfe-116">You must set the filter expression on the new orchestration to its number in the sequence.</span></span> <span data-ttu-id="22cfe-117">El **OrderManager** supone números de fase comienzan con uno y aumenta en uno por cada fase siguiente (1, 2, 3...).</span><span class="sxs-lookup"><span data-stu-id="22cfe-117">The **OrderManager** assumes stage numbers begin with one and increase by one for each following stage (1, 2, 3 …).</span></span> <span data-ttu-id="22cfe-118">Para filtrar una tercera fase, debe establecer la expresión de filtro del siguiente modo:</span><span class="sxs-lookup"><span data-stu-id="22cfe-118">To filter for a third stage, you would set the filter expression to the following:</span></span>  
+  
+ `(Microsoft.Samples.BizTalk.SouthridgeVidoe.Schemas.Stage == 3)`  
+  
+ <span data-ttu-id="22cfe-119">La solución utiliza la API de SAE para realizar un seguimiento de los sucesos de la solución, incluidas las fases de procesamiento de pedidos.</span><span class="sxs-lookup"><span data-stu-id="22cfe-119">The solution uses the BAM API to track events in the solution, including the order processing stages.</span></span> <span data-ttu-id="22cfe-120">La primera fase comienza la actividad de SAE y la última fase la finaliza.</span><span class="sxs-lookup"><span data-stu-id="22cfe-120">The first stage starts the BAM activity; the final stage ends it.</span></span> <span data-ttu-id="22cfe-121">Si se producen excepciones, los controladores de la solución terminan las actividades de SAE implicadas.</span><span class="sxs-lookup"><span data-stu-id="22cfe-121">If there exceptions, the handlers in the solution end the BAM activities involved.</span></span> <span data-ttu-id="22cfe-122">SAE vuelve a ensamblar de forma eficaz las operaciones interrumpidas en una vista continua para supervisión.</span><span class="sxs-lookup"><span data-stu-id="22cfe-122">BAM effectively re-assembles the discontinuous operations into a continuous view for monitoring.</span></span>  
+  
+## <a name="changing-configuration"></a><span data-ttu-id="22cfe-123">Cambiar la configuración</span><span class="sxs-lookup"><span data-stu-id="22cfe-123">Changing Configuration</span></span>  
+ <span data-ttu-id="22cfe-124">Si los cambios aumentan o reducen el número de fases, debe cambiar la información de configuración almacenada en el almacén del secreto de inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="22cfe-124">If your changes increase or decrease the number of stages, you must change the configuration information stored in the Enterprise Single Sign-On (SSO) secret store.</span></span>  
+  
+ <span data-ttu-id="22cfe-125">Si no ha implementado la aplicación, puede modificar la opción de configuración para **TotalStages** en el archivo de secuencia de comandos CreateSouthridgeVideoApplication.cmd.</span><span class="sxs-lookup"><span data-stu-id="22cfe-125">If you haven't deployed the application, you can modify the configuration setting for **TotalStages** in the CreateSouthridgeVideoApplication.cmd script file.</span></span> <span data-ttu-id="22cfe-126">El valor cambiará cuando se ejecute la secuencia de comandos durante la implementación.</span><span class="sxs-lookup"><span data-stu-id="22cfe-126">The value will change when the script is run during deployment.</span></span>  
+  
+ <span data-ttu-id="22cfe-127">Si ya ha implementado la aplicación, puede cambiar el valor ejecutando una utilidad de la línea de comandos, BTSScnSSOApplicationConfig, en la carpeta SDK\Common\SsoApplicationConfig.</span><span class="sxs-lookup"><span data-stu-id="22cfe-127">If you have already deployed the application, you can change value by running a command line utility, BTSScnSSOApplicationConfig, in the SDK\Common\SsoApplicationConfig folder.</span></span> <span data-ttu-id="22cfe-128">Para establecer el número total de fases en tres, utilice la siguiente línea de comandos:</span><span class="sxs-lookup"><span data-stu-id="22cfe-128">To set the total number of stages to three, you'd use the following command line:</span></span>  
+  
+ `BTSScnSSOApplicationConfig -set SouthRidgeVideo.CableOrder ConfigProperties TotalStages 3`  
+  
+ <span data-ttu-id="22cfe-129">Puesto que la solución almacena en caché los valores de configuración, debe esperar hasta que pase el intervalo de actualización para que surta efecto el nuevo valor.</span><span class="sxs-lookup"><span data-stu-id="22cfe-129">Because the solution caches the configuration values, you must wait until the  refresh interval passes for the new value to take effect.</span></span>  
+  
+## <a name="versioning-schemas"></a><span data-ttu-id="22cfe-130">Control de versiones de esquemas</span><span class="sxs-lookup"><span data-stu-id="22cfe-130">Versioning Schemas</span></span>  
+ <span data-ttu-id="22cfe-131">BizTalk toma un esquema de la versión más reciente del ensamblado que lo contiene.</span><span class="sxs-lookup"><span data-stu-id="22cfe-131">BizTalk takes a schema from the most recent version of the assembly containing it.</span></span> <span data-ttu-id="22cfe-132">Esto significa que, si crea una nueva versión de un esquema, reemplaza totalmente todas las versiones anteriores del esquema.</span><span class="sxs-lookup"><span data-stu-id="22cfe-132">This means that if you create a new version of a schema it completely replaces all previous versions of the schema.</span></span> <span data-ttu-id="22cfe-133">Esto funciona bien cuando las transacciones duran poco.</span><span class="sxs-lookup"><span data-stu-id="22cfe-133">This works well when transactions are short-lived.</span></span> <span data-ttu-id="22cfe-134">Sin embargo, las transacciones en la solución de administración de procesos empresariales son de larga duración: un pedido puede tardar un año en completarse.</span><span class="sxs-lookup"><span data-stu-id="22cfe-134">However, transactions in the Business Process Management solution are long-lived: an order may take up to a year to complete.</span></span>  
+  
+ <span data-ttu-id="22cfe-135">Para permitir la posibilidad de usar varias versiones de un esquema en uso, cada esquema de la solución incluye un número de versión en su espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="22cfe-135">To allow for the possibility of using multiple versions of a schema being in use, each schema in the solution includes a version number in its namespace.</span></span> <span data-ttu-id="22cfe-136">Por ejemplo, el espacio de nombres del esquema Order es el siguiente:</span><span class="sxs-lookup"><span data-stu-id="22cfe-136">For example, the namespace for the Order schema is as follows:</span></span>  
+  
+```  
+http://Microsoft.Samples.BizTalk.SouthridgeVideo.Schemas.Order.v1  
+```  
+  
+ <span data-ttu-id="22cfe-137">Puesto que el espacio de nombres identifica el esquema y la inclusión del número de versión hace que el espacio de nombres sea único del esquema, el nuevo esquema será distinto de la versión anterior.</span><span class="sxs-lookup"><span data-stu-id="22cfe-137">Because the namespace identifies the schema and inclusion of the version number makes the namespace unique to the schema, the new schema will be distinct from the older version.</span></span> <span data-ttu-id="22cfe-138">Por tanto, se puede usar un nuevo esquema sin suplantar el esquema anterior.</span><span class="sxs-lookup"><span data-stu-id="22cfe-138">Thus, a new schema can be used without supplanting the old schema.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="22cfe-139">Vea también</span><span class="sxs-lookup"><span data-stu-id="22cfe-139">See Also</span></span>  
+ [<span data-ttu-id="22cfe-140">Desarrollar una solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="22cfe-140">Developing a Business Process Management Solution</span></span>](../core/developing-a-business-process-management-solution.md)

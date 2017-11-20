@@ -1,0 +1,70 @@
+---
+title: "Paso 3: Configurar e iniciar la aplicación | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: e4252470-805e-404f-80d5-df8d1ff3af63
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 96f26035094ee6e39b672b480525747f8aaf4ede
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="step-3-configure-and-start-the-application"></a><span data-ttu-id="02942-102">Paso 3: Configurar e iniciar la aplicación</span><span class="sxs-lookup"><span data-stu-id="02942-102">Step 3: Configure and Start the Application</span></span>
+<span data-ttu-id="02942-103">![Paso 3 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="02942-103">![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  
+  
+ <span data-ttu-id="02942-104">**Tiempo en completarse:** 10 minutos</span><span class="sxs-lookup"><span data-stu-id="02942-104">**Time to complete:** 10 minutes</span></span>  
+  
+ <span data-ttu-id="02942-105">**Objetivo:** en este paso, configurará e iniciará la aplicación SampleApplication.</span><span class="sxs-lookup"><span data-stu-id="02942-105">**Objective:** In this step, you configure and start the SampleApplication application.</span></span> <span data-ttu-id="02942-106">Cuando se configura la aplicación SampleApplication, asociar los artefactos lógicos creados en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] con sus homólogos físicos.</span><span class="sxs-lookup"><span data-stu-id="02942-106">When you configure the SampleApplication application, you associate the logical artifacts you created in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] with their physical counterparts.</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="02942-107">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="02942-107">Prerequisites</span></span>  
+ <span data-ttu-id="02942-108">Debe haber completado [paso 2: configurar los puertos](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md).</span><span class="sxs-lookup"><span data-stu-id="02942-108">You must have completed [Step 2: Configure the Ports](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md).</span></span>  
+  
+### <a name="to-configure-and-start-the-application"></a><span data-ttu-id="02942-109">Para configurar e iniciar la aplicación</span><span class="sxs-lookup"><span data-stu-id="02942-109">To configure and start the application</span></span>  
+  
+1.  <span data-ttu-id="02942-110">Iniciar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="02942-110">Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  
+  
+2.  <span data-ttu-id="02942-111">En el árbol de consola en el lado izquierdo, expanda **administración de BizTalk Server**, haga clic en **grupo de BizTalk**y, a continuación, haga clic en **actualizar**.</span><span class="sxs-lookup"><span data-stu-id="02942-111">In the console tree on the left hand side, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Refresh**.</span></span>  
+  
+3.  <span data-ttu-id="02942-112">Expanda **grupo de BizTalk**, expanda **aplicaciones**, haga clic en **SampleApplication**y, a continuación, haga clic en **configurar**.</span><span class="sxs-lookup"><span data-stu-id="02942-112">Expand **BizTalk Group**, expand **Applications**, right-click **SampleApplication**, and then click **Configure**.</span></span>  
+  
+4.  <span data-ttu-id="02942-113">En el **Configurar aplicación** cuadro de diálogo, en la **EmployeeOrch** ficha, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="02942-113">In the **Configure Application** dialog box, on the **EmployeeOrch** tab, do the following:</span></span>  
+  
+    1.  <span data-ttu-id="02942-114">Para **Host** lista desplegable, seleccione **BizTalkServerApplication**.</span><span class="sxs-lookup"><span data-stu-id="02942-114">For **Host** drop-down list, select **BizTalkServerApplication**.</span></span>  
+  
+    2.  <span data-ttu-id="02942-115">Haga doble clic en la celda a través de **ReceiveNotification** y seleccione **NotifyReceivePort** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="02942-115">Double-click the cell across **ReceiveNotification** and select **NotifyReceivePort** from the drop-down list.</span></span>  
+  
+    3.  <span data-ttu-id="02942-116">Haga doble clic en la celda a través de **SQLOutboundPort** y seleccione **SQLOutboundPort** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="02942-116">Double-click the cell across **SQLOutboundPort** and select **SQLOutboundPort** from the drop-down list.</span></span>  
+  
+    4.  <span data-ttu-id="02942-117">Haga doble clic en la celda a través de **SaveResponsePort** y seleccione **EmailResponse** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="02942-117">Double-click the cell across **SaveResponsePort** and select **EmailResponse** from the drop-down list.</span></span>  
+  
+5.  <span data-ttu-id="02942-118">La siguiente ilustración muestra la configuración de una aplicación.</span><span class="sxs-lookup"><span data-stu-id="02942-118">The following figure shows a configured application.</span></span>  
+  
+     <span data-ttu-id="02942-119">![Configurar aplicación](../../adapters-and-accelerators/adapter-sql/media/sql-adap-tut-011-configure-app.gif "sql_adap_tut_011_configure_app")</span><span class="sxs-lookup"><span data-stu-id="02942-119">![Configured application](../../adapters-and-accelerators/adapter-sql/media/sql-adap-tut-011-configure-app.gif "sql_adap_tut_011_configure_app")</span></span>  
+  
+6.  <span data-ttu-id="02942-120">En el **Configurar aplicación** cuadro de diálogo, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="02942-120">In the **Configure Application** dialog box, click **OK**.</span></span>  
+  
+7.  <span data-ttu-id="02942-121">En el árbol de consola, haga clic en **SampleApplication**y, a continuación, haga clic en **iniciar**.</span><span class="sxs-lookup"><span data-stu-id="02942-121">In the console tree, right-click **SampleApplication**, and then click **Start**.</span></span>  
+  
+8.  <span data-ttu-id="02942-122">En el árbol de consola, haga clic en **aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="02942-122">In the console tree, click **Applications**.</span></span>  
+  
+9. <span data-ttu-id="02942-123">En el panel de detalles de las aplicaciones, compruebe que la **estado** de **SampleApplication** es **iniciado**.</span><span class="sxs-lookup"><span data-stu-id="02942-123">In the Applications details pane, check that the **Status** of **SampleApplication** is **Started**.</span></span>  
+  
+## <a name="what-did-i-just-do"></a><span data-ttu-id="02942-124">Síntesis</span><span class="sxs-lookup"><span data-stu-id="02942-124">What did I just do?</span></span>  
+ <span data-ttu-id="02942-125">Ha configurado e iniciado la aplicación SampleApplication</span><span class="sxs-lookup"><span data-stu-id="02942-125">You configured and started the SampleApplication application</span></span>  
+  
+## <a name="next-steps"></a><span data-ttu-id="02942-126">Pasos siguientes</span><span class="sxs-lookup"><span data-stu-id="02942-126">Next Steps</span></span>  
+ <span data-ttu-id="02942-127">Probar la aplicación mediante la inserción de nuevos empleados en la **empleado** de tabla, como se describe en [paso 4: probar la aplicación](../../adapters-and-accelerators/adapter-sql/step-4-test-the-application.md).</span><span class="sxs-lookup"><span data-stu-id="02942-127">You test the application by inserting new employees in the **Employee** table, as described in [Step 4: Test the Application](../../adapters-and-accelerators/adapter-sql/step-4-test-the-application.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="02942-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="02942-128">See Also</span></span>  
+ <span data-ttu-id="02942-129">[Paso 2: Configurar los puertos](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md) </span><span class="sxs-lookup"><span data-stu-id="02942-129">[Step 2: Configure the Ports](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md) </span></span>  
+ <span data-ttu-id="02942-130">[Paso 4: Probar la aplicación](../../adapters-and-accelerators/adapter-sql/step-4-test-the-application.md) </span><span class="sxs-lookup"><span data-stu-id="02942-130">[Step 4: Test the Application](../../adapters-and-accelerators/adapter-sql/step-4-test-the-application.md) </span></span>  
+ [<span data-ttu-id="02942-131">Lección 5: Implementar la solución</span><span class="sxs-lookup"><span data-stu-id="02942-131">Lesson 5: Deploy the Solution</span></span>](../../adapters-and-accelerators/adapter-sql/lesson-5-deploy-the-solution.md)

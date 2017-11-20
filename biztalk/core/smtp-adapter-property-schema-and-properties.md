@@ -1,0 +1,68 @@
+---
+title: Propiedades y esquema de propiedades de adaptador de SMTP | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- UserName property, SMTP adapters
+- EmailBodyTextCharset property [SMTP adapters]
+- configuring [SMTP adapters], properties
+- Subject property [SMTP adapters]
+- EmailBodyFileCharset property [SMTP adapters]
+- Attachments property [SMTP adapters]
+- SMTP adapters, schemas
+- EmailBodyText property [SMTP adapters]
+- configuring [SMTP adapters], schemas
+- CC property [SMTP adapters]
+- ReadReceipt property [SMTP adapters]
+- Password property [SMTP adapters]
+- ReplyBy property [SMTP adapters]
+- DeliveryReceipt property [SMTP adapters]
+- SMTP adapters, properties
+- SMTPAuthenticate property [SMTP adapters]
+- EmailBodyFile property [SMTP adapters]
+- schemas, SMTP adapters
+- SMTPHost property [SMTP adapters]
+- From property [SMTP adapters]
+- MessagePartsAttachments property [SMTP adapters]
+ms.assetid: 6d062fb6-d728-4525-8f0d-bd3f0f8ff7ca
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 09f7dfa67bfad53e43a4a6678ff6ad67705e0e27
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="smtp-adapter-property-schema-and-properties"></a><span data-ttu-id="4494d-102">Propiedades y esquema de propiedades del adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="4494d-102">SMTP Adapter Property Schema and Properties</span></span>
+<span data-ttu-id="4494d-103">La tabla siguiente enumera las propiedades incluidas en el esquema de propiedades del adaptador de SMTP.</span><span class="sxs-lookup"><span data-stu-id="4494d-103">The following table lists the properties in the SMTP adapter property schema.</span></span>  
+  
+ <span data-ttu-id="4494d-104">**Namespace:** http://schemas.microsoft.com/BizTalk/2003/smtp-properties</span><span class="sxs-lookup"><span data-stu-id="4494d-104">**Namespace:** http://schemas.microsoft.com/BizTalk/2003/smtp-properties</span></span>  
+  
+|<span data-ttu-id="4494d-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="4494d-105">Name</span></span>|<span data-ttu-id="4494d-106">Tipo</span><span class="sxs-lookup"><span data-stu-id="4494d-106">Type</span></span>|<span data-ttu-id="4494d-107">Description</span><span class="sxs-lookup"><span data-stu-id="4494d-107">Description</span></span>|  
+|----------|----------|-----------------|  
+|<span data-ttu-id="4494d-108">**Nombre de usuario**</span><span class="sxs-lookup"><span data-stu-id="4494d-108">**Username**</span></span>|<span data-ttu-id="4494d-109">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-109">xs:string</span></span>|<span data-ttu-id="4494d-110">Especifica el nombre de usuario que se utilizará para la autenticación en el servidor SMTP.</span><span class="sxs-lookup"><span data-stu-id="4494d-110">Specify the user name to use for authentication with the SMTP server.</span></span>|  
+|<span data-ttu-id="4494d-111">**Contraseña**</span><span class="sxs-lookup"><span data-stu-id="4494d-111">**Password**</span></span>|<span data-ttu-id="4494d-112">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-112">xs:string</span></span>|<span data-ttu-id="4494d-113">Especifica la contraseña que se utilizará para la autenticación en el servidor SMTP.</span><span class="sxs-lookup"><span data-stu-id="4494d-113">Specify the password to use for authentication with the SMTP server.</span></span>|  
+|<span data-ttu-id="4494d-114">**SMTPHost**</span><span class="sxs-lookup"><span data-stu-id="4494d-114">**SMTPHost**</span></span>|<span data-ttu-id="4494d-115">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-115">xs:string</span></span>|<span data-ttu-id="4494d-116">Especifica el nombre del servidor SMTP que se utilizará al enviar mensajes.</span><span class="sxs-lookup"><span data-stu-id="4494d-116">Specify the name of the SMTP server to use when sending messages.</span></span>|  
+|<span data-ttu-id="4494d-117">**De**</span><span class="sxs-lookup"><span data-stu-id="4494d-117">**From**</span></span>|<span data-ttu-id="4494d-118">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-118">xs:string</span></span>|<span data-ttu-id="4494d-119">Especifique la dirección de correo electrónico que coloque en el protocolo SMTP **de** encabezado.</span><span class="sxs-lookup"><span data-stu-id="4494d-119">Specify the e-mail address to place on the SMTP **From** header.</span></span>|  
+|<span data-ttu-id="4494d-120">**CC**</span><span class="sxs-lookup"><span data-stu-id="4494d-120">**CC**</span></span>|<span data-ttu-id="4494d-121">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-121">xs:string</span></span>|<span data-ttu-id="4494d-122">Especifica la dirección de correo electrónico a la que enviar una copia del mensaje.</span><span class="sxs-lookup"><span data-stu-id="4494d-122">Specify the e-mail address to send a copy of the message.</span></span>|  
+|<span data-ttu-id="4494d-123">**Asunto**</span><span class="sxs-lookup"><span data-stu-id="4494d-123">**Subject**</span></span>|<span data-ttu-id="4494d-124">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-124">xs:string</span></span>|<span data-ttu-id="4494d-125">Especifica el encabezado de asunto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="4494d-125">Specify the subject header for the message.</span></span>|  
+|<span data-ttu-id="4494d-126">**SMTPAuthenticate**</span><span class="sxs-lookup"><span data-stu-id="4494d-126">**SMTPAuthenticate**</span></span>|<span data-ttu-id="4494d-127">xs:int</span><span class="sxs-lookup"><span data-stu-id="4494d-127">xs:int</span></span>|<span data-ttu-id="4494d-128">Especifica el tipo de autenticación que se utilizará con el servidor SMTP.</span><span class="sxs-lookup"><span data-stu-id="4494d-128">Specify the type of authentication to use with the SMTP server.</span></span>|  
+|<span data-ttu-id="4494d-129">**ReadReceipt**</span><span class="sxs-lookup"><span data-stu-id="4494d-129">**ReadReceipt**</span></span>|<span data-ttu-id="4494d-130">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="4494d-130">xs:boolean</span></span>|<span data-ttu-id="4494d-131">Especifica si se envía un mensaje de correo electrónico de confirmación cuando se lea el mensaje.</span><span class="sxs-lookup"><span data-stu-id="4494d-131">Specify whether to send a confirmation e-mail message when the message is read.</span></span>|  
+|<span data-ttu-id="4494d-132">**DeliveryReceipt**</span><span class="sxs-lookup"><span data-stu-id="4494d-132">**DeliveryReceipt**</span></span>|<span data-ttu-id="4494d-133">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="4494d-133">xs:boolean</span></span>|<span data-ttu-id="4494d-134">Especifica si se envía un mensaje de correo electrónico de confirmación tras entregar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="4494d-134">Specify whether to send a confirmation e-mail message after delivery of the message.</span></span>|  
+|<span data-ttu-id="4494d-135">**EmailBodyText**</span><span class="sxs-lookup"><span data-stu-id="4494d-135">**EmailBodyText**</span></span>|<span data-ttu-id="4494d-136">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-136">xs:string</span></span>|<span data-ttu-id="4494d-137">Especifica el texto que se utilizará para el cuerpo del correo electrónico que se va a enviar.</span><span class="sxs-lookup"><span data-stu-id="4494d-137">Specify text to be used for the body of the e-mail being sent.</span></span>|  
+|<span data-ttu-id="4494d-138">**EmailBodyTextCharset**</span><span class="sxs-lookup"><span data-stu-id="4494d-138">**EmailBodyTextCharset**</span></span>|<span data-ttu-id="4494d-139">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-139">xs:string</span></span>|<span data-ttu-id="4494d-140">Especifica el carácter establecido para codificar el cuerpo del correo electrónico que se envía cuando el **EmailBodyText** se utiliza la opción.</span><span class="sxs-lookup"><span data-stu-id="4494d-140">Specify the character set to use for encoding the body of the e-mail being sent when the **EmailBodyText** option is used.</span></span> <span data-ttu-id="4494d-141">El adaptador de SMTP convertirá la **EmailBodyText** para el juego de caracteres especificado por **EmailBodyTextCharset**.</span><span class="sxs-lookup"><span data-stu-id="4494d-141">The SMTP adapter will convert the **EmailBodyText** to the character set specified by **EmailBodyTextCharset**.</span></span>|  
+|<span data-ttu-id="4494d-142">**EmailBodyFile**</span><span class="sxs-lookup"><span data-stu-id="4494d-142">**EmailBodyFile**</span></span>|<span data-ttu-id="4494d-143">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-143">xs:string</span></span>|<span data-ttu-id="4494d-144">Especifica que se utilice el contenido de un archivo para el cuerpo del correo electrónico que se va a enviar y la ruta de acceso completa de dicho archivo.</span><span class="sxs-lookup"><span data-stu-id="4494d-144">Specifies that the contents of a file will be used for the body of the e-mail being sent and the full path to the file.</span></span> <span data-ttu-id="4494d-145">Esta ruta debe estar a disposición del host para el adaptador de SMTP en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="4494d-145">This path must be accessible to the host for the SMTP adapter at run time.</span></span>|  
+|<span data-ttu-id="4494d-146">**EmailBodyFileCharset**</span><span class="sxs-lookup"><span data-stu-id="4494d-146">**EmailBodyFileCharset**</span></span>|<span data-ttu-id="4494d-147">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-147">xs:string</span></span>|<span data-ttu-id="4494d-148">Especifica el carácter establecido para codificar el cuerpo del correo electrónico enviado cuando el **EmailBodyFile** propiedad está establecida.</span><span class="sxs-lookup"><span data-stu-id="4494d-148">Specify the character set to use for encoding the body of the e-mail being sent if the **EmailBodyFile** property is set.</span></span> <span data-ttu-id="4494d-149">El adaptador de SMTP no realizará ninguna conversión en el archivo; el archivo ya se debe haber codificado en este juego de caracteres.</span><span class="sxs-lookup"><span data-stu-id="4494d-149">The SMTP adapter will not perform any conversion on the file; the file must already be encoded in this character set.</span></span> <span data-ttu-id="4494d-150">Si el archivo tiene una marca de orden de bytes (BOM), el adaptador de SMTP la quitará.</span><span class="sxs-lookup"><span data-stu-id="4494d-150">If the file has a Byte-Order-Mark (BOM), the SMTP adapter will remove it.</span></span>|  
+|<span data-ttu-id="4494d-151">**Datos adjuntos**</span><span class="sxs-lookup"><span data-stu-id="4494d-151">**Attachments**</span></span>|<span data-ttu-id="4494d-152">xs:string</span><span class="sxs-lookup"><span data-stu-id="4494d-152">xs:string</span></span>|<span data-ttu-id="4494d-153">Especifica que se adjuntarán archivos al mensaje de correo electrónico y la ruta completa de esos archivos.</span><span class="sxs-lookup"><span data-stu-id="4494d-153">Specifies that a file or files will be attached to the e-mail message and the full path to the file or files.</span></span> <span data-ttu-id="4494d-154">Las rutas especificadas deben estar a disposición del host para el adaptador de SMTP en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="4494d-154">The specified path or paths must be accessible to the host for the SMTP adapter at run time.</span></span>|  
+|<span data-ttu-id="4494d-155">**MessagePartsAttachments**</span><span class="sxs-lookup"><span data-stu-id="4494d-155">**MessagePartsAttachments**</span></span>|<span data-ttu-id="4494d-156">xs:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="4494d-156">xs:unsignedInt</span></span>|<span data-ttu-id="4494d-157">Especifica la forma de adjuntar partes del mensaje de BizTalk al mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="4494d-157">Specify how BizTalk message parts are attached to the e-mail message.</span></span>|  
+|<span data-ttu-id="4494d-158">**ReplyBy**</span><span class="sxs-lookup"><span data-stu-id="4494d-158">**ReplyBy**</span></span>|<span data-ttu-id="4494d-159">xs:dateTime</span><span class="sxs-lookup"><span data-stu-id="4494d-159">xs:dateTime</span></span>|<span data-ttu-id="4494d-160">Especifique un valor de fecha y hora para la **responder a** encabezado en el mensaje de correo electrónico saliente.</span><span class="sxs-lookup"><span data-stu-id="4494d-160">Specify a dateTime value for the **Reply-To** header in the outgoing e-mail message.</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="4494d-161">Vea también</span><span class="sxs-lookup"><span data-stu-id="4494d-161">See Also</span></span>  
+ [<span data-ttu-id="4494d-162">Configurar el adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="4494d-162">Configuring the SMTP Adapter</span></span>](../core/configuring-the-smtp-adapter.md)

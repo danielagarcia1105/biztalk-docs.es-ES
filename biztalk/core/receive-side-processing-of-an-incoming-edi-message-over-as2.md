@@ -1,0 +1,102 @@
+---
+title: "Procesamiento de un mensaje EDI entrante a través de AS2 de lado de recepción | Documentos de Microsoft"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 118451ab-d847-4f87-80ab-3cf812d71ac3
+caps.latest.revision: "21"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 1fc9069dddf8a8b58ad439ed915fc9afa539c2a8
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="receive-side-processing-of-an-incoming-edi-message-over-as2"></a><span data-ttu-id="c2a5c-102">Procesamiento de recepción de un mensaje EDI entrante a través de AS2</span><span class="sxs-lookup"><span data-stu-id="c2a5c-102">Receive-Side Processing of an Incoming EDI Message over AS2</span></span>
+<span data-ttu-id="c2a5c-103">El procesamiento de recepción de un mensaje EDI a través de AS2 incluye la recepción de un mensaje AS2, el envío de un MDN, el procesamiento de la carga EDI y el envío de confirmaciones EDI (si están habilitadas).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-103">Receive-side processing of an EDI message over AS2 includes receiving the AS2 message, sending an MDN, processing the EDI payload, and sending EDI acknowledgments (if enabled).</span></span>  
+  
+ <span data-ttu-id="c2a5c-104">La canalización de recepción AS2EdiReceive recibe el mensaje AS2 y desensambla la carga EDI dentro del mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-104">The AS2EdiReceive receive pipeline receives the AS2 message, and disassembles the EDI payload within the AS2 message.</span></span> <span data-ttu-id="c2a5c-105">La canalización de envío AS2EDIReceive envía un MDN devuelto como respuesta al mensaje AS2 y una confirmación de EDI en respuesta al mensaje EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-105">The AS2EDISend send pipeline sends an MDN in response to the AS2 message, and an EDI acknowledgment returned in response to the EDI message.</span></span> <span data-ttu-id="c2a5c-106">Puede incluir estas canalizaciones en un puerto de envío HTTP de petición-respuesta bidireccional (si el MDN es sincrónico) o en un puerto de envío HTTP unidireccional y en un puerto de recepción HTTP unidireccional (si el MDN es asíncrono).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-106">You can include these pipelines in an HTTP two-way solicit response send port (if the MDN is synchronous), or in a one-way HTTP send port and a one-way HTTP receive port (if the MDN is asynchronous).</span></span>  
+  
+ <span data-ttu-id="c2a5c-107">Para recibir un intercambio EDI a través de AS2, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] llevará a cabo los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="c2a5c-107">To receive an EDI interchange over AS2, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will perform the following steps:</span></span>  
+  
+-   <span data-ttu-id="c2a5c-108">Procesar el mensaje AS2 recibido</span><span class="sxs-lookup"><span data-stu-id="c2a5c-108">Processing the received AS2 message</span></span>  
+  
+-   <span data-ttu-id="c2a5c-109">Enviar un MDN</span><span class="sxs-lookup"><span data-stu-id="c2a5c-109">Sending an MDN</span></span>  
+  
+-   <span data-ttu-id="c2a5c-110">Procesar la carga EDI recibida</span><span class="sxs-lookup"><span data-stu-id="c2a5c-110">Processing the received EDI payload</span></span>  
+  
+-   <span data-ttu-id="c2a5c-111">Enviar una confirmación EDI</span><span class="sxs-lookup"><span data-stu-id="c2a5c-111">Sending an EDI Acknowledgment</span></span>  
+  
+## <a name="processing-the-received-as2-message"></a><span data-ttu-id="c2a5c-112">Procesar el mensaje AS2 recibido</span><span class="sxs-lookup"><span data-stu-id="c2a5c-112">Processing the Received AS2 message</span></span>  
+ <span data-ttu-id="c2a5c-113">El descodificador AS2 en la canalización de recepción AS2EdiReceive procesa un mensaje de AS2 entrante.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-113">The AS2 Decoder in the AS2EdiReceive receive pipeline processes an incoming AS2 message.</span></span> <span data-ttu-id="c2a5c-114">Para ello, utiliza la propiedad de contexto `InboundHTTPHeaders` que el adaptador de HTTP crea desde los encabezados de HTTP en el mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-114">It does so using the `InboundHTTPHeaders` context property, which the HTTP adapter creates from the HTTP headers in the AS2 message.</span></span> <span data-ttu-id="c2a5c-115">Estos encabezados incluyen los siguientes encabezados de AS2:</span><span class="sxs-lookup"><span data-stu-id="c2a5c-115">These headers include the following AS2 headers:</span></span>  
+  
+-   <span data-ttu-id="c2a5c-116">AS2-To</span><span class="sxs-lookup"><span data-stu-id="c2a5c-116">AS2-To</span></span>  
+  
+-   <span data-ttu-id="c2a5c-117">AS2-From</span><span class="sxs-lookup"><span data-stu-id="c2a5c-117">AS2-From</span></span>  
+  
+-   <span data-ttu-id="c2a5c-118">AS2-Version</span><span class="sxs-lookup"><span data-stu-id="c2a5c-118">AS2-Version</span></span>  
+  
+-   <span data-ttu-id="c2a5c-119">MessageID</span><span class="sxs-lookup"><span data-stu-id="c2a5c-119">MessageID</span></span>  
+  
+-   <span data-ttu-id="c2a5c-120">OriginalMessageID (solo para MDN)</span><span class="sxs-lookup"><span data-stu-id="c2a5c-120">OriginalMessageID (for MDNs only)</span></span>  
+  
+-   <span data-ttu-id="c2a5c-121">Disposition-Notification-To (si se ha solicitado un MDN)</span><span class="sxs-lookup"><span data-stu-id="c2a5c-121">Disposition-Notification-To (if an MDN is requested)</span></span>  
+  
+-   <span data-ttu-id="c2a5c-122">Receipt-Delivery-Option (si se ha solicitado un MDN)</span><span class="sxs-lookup"><span data-stu-id="c2a5c-122">Receipt-Delivery-Option (if an MDN is requested)</span></span>  
+  
+-   <span data-ttu-id="c2a5c-123">Signed-Receipt-MICalg (si se ha solicitado un MDN)</span><span class="sxs-lookup"><span data-stu-id="c2a5c-123">Signed-Receipt-MICalg (if an MDN is requested)</span></span>  
+  
+ <span data-ttu-id="c2a5c-124">El descodificador AS2 promocionará estos encabezados en el contexto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-124">The AS2 Decoder will promote these headers to the context of the message.</span></span> <span data-ttu-id="c2a5c-125">Después realiza las operaciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="c2a5c-125">It then does the following:</span></span>  
+  
+-   <span data-ttu-id="c2a5c-126">Realiza la resolución de acuerdo para determinar las propiedades que se usarán para procesar el mensaje entrante.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-126">Performs agreement resolution to determine the properties to be used to process the incoming message.</span></span> <span data-ttu-id="c2a5c-127">Para obtener más información, consulte [resolución del acuerdo para mensajes AS2 entrantes](../core/agreement-resolution-for-incoming-as2-messages.md).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-127">For more information, see [Agreement Resolution for Incoming AS2 Messages](../core/agreement-resolution-for-incoming-as2-messages.md).</span></span>  
+  
+-   <span data-ttu-id="c2a5c-128">Autentica el remitente mediante la **AS2-de** propiedad.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-128">Authenticates the sender using the **AS2-From** property.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="c2a5c-129">Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en mensajes AS2 entrantes, vea [procesar un mensaje AS2 entrante](../core/processing-an-incoming-as2-message.md).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-129">For more information about the processing that the AS2 receive pipelines perform on incoming AS2 messages, see [Processing an Incoming AS2 Message](../core/processing-an-incoming-as2-message.md).</span></span>  
+  
+## <a name="sending-an-mdn"></a><span data-ttu-id="c2a5c-130">Enviar un MDN</span><span class="sxs-lookup"><span data-stu-id="c2a5c-130">Sending an MDN</span></span>  
+ <span data-ttu-id="c2a5c-131">Si se ha habilitado un MDN, la canalización AS2EdiReceive genera un MDN y lo coloca en el cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-131">If an MDN was enabled, the AS2EdiReceive pipeline generates an MDN and drops it into the MessageBox.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="c2a5c-132">Para obtener más información acerca del procesamiento que canalizaciones de recepción AS2 realizan en los MDN salientes, vea [generar un MDN saliente](../core/generating-an-outgoing-mdn.md).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-132">For more information about the processing that the AS2 receive pipelines perform on outgoing MDNs, see [Generating an Outgoing MDN](../core/generating-an-outgoing-mdn.md).</span></span>  
+  
+ <span data-ttu-id="c2a5c-133">**Modo sincrónico**</span><span class="sxs-lookup"><span data-stu-id="c2a5c-133">**Synchronous Mode**</span></span>  
+  
+ <span data-ttu-id="c2a5c-134">Si se envía un mensaje EDI a través de AS2 en modo sincrónico, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] devolverá el MDN a través de esa conexión sincrónica y cerrará la conexión.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-134">If an EDI message is sent over AS2 in synchronous mode, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will return the MDN over that synchronous connection and then close the connection.</span></span> <span data-ttu-id="c2a5c-135">Cuando se cierra la conexión, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede devolver una confirmación EDI (997, TA1 o CONTRL) a través de esa conexión.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-135">Since the connection has been closed, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cannot return an EDI acknowledgment (997, TA1, or CONTRL) over that connection.</span></span> <span data-ttu-id="c2a5c-136">Las confirmaciones EDI siempre se envían de forma asíncrona a través de AS2.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-136">EDI acknowledgments are always sent asynchronously over AS2.</span></span>  
+  
+ <span data-ttu-id="c2a5c-137">La canalización AS2EDIReceive generará el MDN. Esta canalización enruta el MDN al cuadro de mensajes y, a continuación, la canalización AS2Send, que forma parte del puerto solicitud-respuesta, lo recogerá automáticamente.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-137">The MDN will be generated by the AS2EDIReceive pipeline, routed by that pipeline to the MessageBox, and then automatically picked up by the AS2Send pipeline that is part of the request response receive port.</span></span>  
+  
+ <span data-ttu-id="c2a5c-138">**Modo asincrónico**</span><span class="sxs-lookup"><span data-stu-id="c2a5c-138">**Asynchronous Mode**</span></span>  
+  
+ <span data-ttu-id="c2a5c-139">Si se envía un mensaje con codificación AS2/EDIINT I a través de transporte HTTP/HTTPS en modo asíncrono, debe crear un puerto de envío para devolver el MDN por separado.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-139">If an EDIINT/AS2-encoded message is sent over HTTP/HTTPS transport in asynchronous mode, you must create a send port to return the MDN separately.</span></span> <span data-ttu-id="c2a5c-140">Puede configurar este puerto de envío para devolver los MDN asíncronos y las confirmaciones EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-140">You can configure this send port to return both asynchronous MDNs and EDI acknowledgments.</span></span> <span data-ttu-id="c2a5c-141">Si se trata de un puerto de envío dinámico, utilizará la dirección en la línea Receipt-Delivery-Notification en el encabezado del mensaje para enrutar el mensaje al socio comercial.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-141">If it is a dynamic send port, it will use the address in the Receipt-Delivery-Notification line in the header of the message to route the message to the trading partner.</span></span> <span data-ttu-id="c2a5c-142">Si es un puerto de envío estático, utilizará la dirección configurada en las propiedades del puerto.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-142">If it is a static send port, it will use the address configured in port properties.</span></span> <span data-ttu-id="c2a5c-143">Este puerto de envío se suscribe al MDN asincrónico mediante una expresión de filtro `EdiIntAS.IsAS2AsynchronousMDN==True`.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-143">This send port subscribes to the asynchronous MDN by using an `EdiIntAS.IsAS2AsynchronousMDN==True` filter expression.</span></span>  
+  
+ <span data-ttu-id="c2a5c-144">En el procesamiento asíncrono, la canalización AS2EdiReceive generará una respuesta HTTP además del MDN.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-144">In asynchronous processing, the AS2EdiReceive pipeline will generate an HTTP response in addition to the MDN.</span></span> <span data-ttu-id="c2a5c-145">El puerto de recepción devuelve la respuesta HTTP al remitente original a través de la conexión HTTP entre el puerto de recepción y la entidad remitente, que cierra la conexión.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-145">The receive port returns the HTTP response to the original sender over the HTTP connection between the receive port and the sending party, which closes that connection.</span></span> <span data-ttu-id="c2a5c-146">Esto es necesario, ya que el MDN no cierra la conexión sincrónica.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-146">This is necessary because the synchronous connection is not closed by the MDN.</span></span>  
+  
+ <span data-ttu-id="c2a5c-147">Si BizTalk transporta un mensaje con codificación AS2/EDIINT a través de HTTP/HTTPS pero se produce un error en el procesamiento de la carga con codificación EDI, el remitente del mensaje original recibirá un MDN que indica un procesamiento AS2 correcto y una confirmación EDI que indica un error en el procesamiento de EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-147">If BizTalk transports an EDIINT/AS2-encoded message over HTTP/HTTPS, but processing of the EDI-encoded payload fails, the sender of the original message would receive both an MDN indicating successful AS2 processing and an EDI acknowledgment indicating a failure in EDI processing.</span></span> <span data-ttu-id="c2a5c-148">Se suspenderá la carga de codificación EDI y se registrará un error.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-148">The EDI-encoded payload would be suspended and an error would be posted.</span></span>  
+  
+## <a name="processing-the-received-edi-payload"></a><span data-ttu-id="c2a5c-149">Procesar la carga EDI recibida</span><span class="sxs-lookup"><span data-stu-id="c2a5c-149">Processing the Received EDI Payload</span></span>  
+ <span data-ttu-id="c2a5c-150">Si el **opción de procesamiento por lotes de entrada** para EDI se establece en **dividir intercambio**, asociada con la de canalización de recepción de la AS2EdiReceive analiza de ubicación de recepción de solicitud-respuesta el Establezca el mensaje EDI en un mensaje XML independiente para cada transacción de EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-150">If the **Inbound batch processing option** for an EDI agreement is set to **Split Interchange**, the AS2EdiReceive receive pipeline associated with the two-way request response receive location parses the EDI message into a separate XML message for each EDI transaction set.</span></span> <span data-ttu-id="c2a5c-151">Si el **opción de procesamiento por lotes de entrada** está establecido en **conservar intercambio**, la canalización de recepción no analizará el mensaje EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-151">If the **Inbound batch processing option** is set to **Preserve Interchange**, the receive pipeline will not parse the EDI message.</span></span>  
+  
+ <span data-ttu-id="c2a5c-152">La canalización de recepción enruta los conjuntos de transacciones XML o el intercambio EDI conservado en el cuadro de mensajes de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-152">The receive pipeline routes the XML transaction sets or the preserved EDI interchange to the BizTalk MessageBox.</span></span>  
+  
+ <span data-ttu-id="c2a5c-153">Si el mensaje se va a enrutar a una aplicación del servidor, un puerto de envío recoge el mensaje XML y lo enruta a la aplicación.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-153">If the message is to be routed to a back-end application, a send port picks up the XML message and routes it to the application.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="c2a5c-154">Este puerto de envío puede ser de cualquier tipo.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-154">This send port can be of any type.</span></span>  
+  
+## <a name="sending-the-edi-acknowledgment"></a><span data-ttu-id="c2a5c-155">Enviar la confirmación EDI</span><span class="sxs-lookup"><span data-stu-id="c2a5c-155">Sending the EDI Acknowledgment</span></span>  
+ <span data-ttu-id="c2a5c-156">Si se habilitó una confirmación EDI, el desensamblador EDI en el puerto de recepción AS2EdiReceive generará las confirmaciones EDI (si están habilitadas).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-156">If an EDI acknowledgment was enabled, the EDI Disassembler in the AS2EdiReceive receive pipeline will generate EDI acknowledgments (if enabled).</span></span> <span data-ttu-id="c2a5c-157">Las confirmaciones EDI deben enviarse mediante la canalización de envío AS2EdiSend en un puerto de envío unidireccional independiente.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-157">The EDI acknowledgments must be sent by the AS2EdiSend send pipeline in a separate one-way send port.</span></span>  
+  
+ <span data-ttu-id="c2a5c-158">Si configuras una solicitud-respuesta bidireccional puerto de recepción para mensajes EDI/AS2 devolver un MDN sincrónico o una respuesta HTTP (en el caso de un MDN asíncrono), el **puerto de recepción de enrutar confirmación para la canalización de envío de solicitud-respuesta** (de propiedad establecer en el **configuración de Host Local** página del acuerdo de EDI unidireccional en el **propiedades del acuerdo de** cuadro de diálogo) se pasará por alto.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-158">If you set up a two-way request-response receive port for EDI/AS2 messages to return a synchronous MDN or an HTTP response (in the case of an asynchronous MDN), the **Route ACK to send pipeline on request-response receive port** property (set in the **Local Host Settings** page of the one-way EDI agreement in the **Agreement Properties** dialog box) will be ignored.</span></span> <span data-ttu-id="c2a5c-159">Incluso si se selecciona esta propiedad, la canalización de envío se devolverá un MDN sincrónico o una respuesta HTTP, no una confirmación EDI.</span><span class="sxs-lookup"><span data-stu-id="c2a5c-159">Even if this property is checked, the send pipeline will return either a synchronous MDN or an HTTP response, not an EDI acknowledgment.</span></span>  
+  
+ <span data-ttu-id="c2a5c-160">Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).</span><span class="sxs-lookup"><span data-stu-id="c2a5c-160">For more information, see [Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="c2a5c-161">Vea también</span><span class="sxs-lookup"><span data-stu-id="c2a5c-161">See Also</span></span>  
+ [<span data-ttu-id="c2a5c-162">Cómo BizTalk Server recibe mensajes AS2</span><span class="sxs-lookup"><span data-stu-id="c2a5c-162">How BizTalk Server Receives AS2 Messages</span></span>](../core/how-biztalk-server-receives-as2-messages.md)

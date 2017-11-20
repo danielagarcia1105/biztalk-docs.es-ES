@@ -1,0 +1,92 @@
+---
+title: Esquemas de mensajes para operaciones de RFC | Documentos de Microsoft
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- RFC operations, message structure for
+- RFC operations, message actions for
+ms.assetid: 50cd9b28-2e66-4c76-9d19-f0da6e7b8e10
+caps.latest.revision: "9"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: ef9d1dfe3ff3cef27269facfe89d3aea8f43cb10
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/20/2017
+---
+# <a name="message-schemas-for-rfc-operations"></a><span data-ttu-id="e0c5a-102">Esquemas de mensaje para las operaciones de RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-102">Message Schemas for RFC Operations</span></span>
+<span data-ttu-id="e0c5a-103">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] superficies de llamadas de función remota (RFC) de SAP como operaciones.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces SAP Remote Function Calls (RFC) as operations.</span></span> <span data-ttu-id="e0c5a-104">Este tema contiene información sobre los esquemas de mensaje y acciones de mensaje que se usan para las operaciones de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-104">This topic contains information about the message schemas and message actions used for RFC operations.</span></span> <span data-ttu-id="e0c5a-105">La estructura del mensaje es el mismo para las operaciones de RFC entrantes y salientes.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-105">The message structure is the same for inbound and outbound RFC operations.</span></span> <span data-ttu-id="e0c5a-106">Para obtener información general de las operaciones de RFC que admite el adaptador, vea [operaciones en RFC en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="e0c5a-106">For an overview of the RFC operations that the adapter supports, see [Operations on RFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).</span></span>  
+  
+ <span data-ttu-id="e0c5a-107">También puede invocar BAPI como operaciones de RFC en el adaptador.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-107">You can also invoke BAPIs as RFC operations on the adapter.</span></span> <span data-ttu-id="e0c5a-108">Un ejemplo de la estructura del mensaje de una llamada de este tipo se incluye en este tema.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-108">An example of the message structure for such an invocation is included in this topic.</span></span>  
+  
+## <a name="message-structure-for-rfc-operations"></a><span data-ttu-id="e0c5a-109">Estructura de los mensajes para las operaciones de RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-109">Message Structure for RFC Operations</span></span>  
+ <span data-ttu-id="e0c5a-110">La siguiente tabla muestra los esquemas de mensaje RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-110">The following table shows the RFC message schemas.</span></span> <span data-ttu-id="e0c5a-111">Cada operación de RFC consta de un mensaje de solicitud y un mensaje de respuesta (respuesta).</span><span class="sxs-lookup"><span data-stu-id="e0c5a-111">Each RFC operation consists of a request message and a reply (response) message.</span></span>  
+  
+|<span data-ttu-id="e0c5a-112">de mensaje</span><span class="sxs-lookup"><span data-stu-id="e0c5a-112">Message</span></span>|<span data-ttu-id="e0c5a-113">Estructura de los mensajes XML</span><span class="sxs-lookup"><span data-stu-id="e0c5a-113">XML Message Structure</span></span>|<span data-ttu-id="e0c5a-114">Description</span><span class="sxs-lookup"><span data-stu-id="e0c5a-114">Description</span></span>|  
+|-------------|---------------------------|-----------------|  
+|<span data-ttu-id="e0c5a-115">RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-115">RFC</span></span><br /><br /> <span data-ttu-id="e0c5a-116">([RFC_NAME])</span><span class="sxs-lookup"><span data-stu-id="e0c5a-116">([RFC_NAME])</span></span>|`<[RFC_NAME] xmlns="[VERSION]/Rfc/">   <IN1_PARAM_NAME>v1</IN1_PARAM_NAME>   <IN2_PARAM_NAME>v2</IN2_PARAM_NAME>   …   <INOUT1_PARAM_NAME>v3</INOUT1_PARAM_NAME>   <INOUT2_PARAM_NAME>v4</INOUT2_PARAM_NAME>   …   <TABLE1_PARAM_NAME xmlns="[VERSION]/Types/Rfc/">     <STRUCT1_PARAM_NAME>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </STRUCT1_PARAM_NAME>     …   </TABLE1_PARAM_NAME>   … </[RFC_NAME]>`|<span data-ttu-id="e0c5a-117">Invocar una solicitud de cambio en el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-117">Invoke an RFC on the SAP system.</span></span><br /><br /> <span data-ttu-id="e0c5a-118">-Import, cambiar, y se admiten los parámetros de la tabla.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-118">- Import, changing, and table parameters are supported.</span></span><br /><br /> <span data-ttu-id="e0c5a-119">-Import y cambiar los parámetros puede ser de tipos de estructura de SAP, tipos de tabla de SAP o tipos de datos simples de SAP.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-119">- Import and changing parameters can be of SAP STRUCTURE TYPES, SAP TABLE TYPES or SAP simple data types.</span></span>|  
+|<span data-ttu-id="e0c5a-120">Respuesta RFC (respuesta [RFC_NAME])</span><span class="sxs-lookup"><span data-stu-id="e0c5a-120">RFC Response ([RFC_NAME]Response)</span></span>|`<[RFC_NAME]Response xmlns="[VERSION]/Rfc/">   <OUT1_PARAM_NAME>v1</OUT1_PARAM_NAME>   <OUT2_PARAM_NAME>v2</OUT2_PARAM_NAME>   …   <INOUT1_PARAM_NAME>v3</INOUT1_PARAM_NAME>   <INOUT2_PARAM_NAME>v4</INOUT2_PARAM_NAME>   …   <TABLE1_PARAM_NAME>     <STRUCT1_PARAM_NAME>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </STRUCT1_PARAM_NAME>     …   </TABLE1_PARAM_NAME>   … </[RFC_NAME]Response>`|<span data-ttu-id="e0c5a-121">Valor devuelto de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-121">RFC return.</span></span><br /><br /> <span data-ttu-id="e0c5a-122">-Exportar, cambiar, y se admiten los parámetros de la tabla.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-122">- Export, changing, and table parameters are supported.</span></span><br /><br /> <span data-ttu-id="e0c5a-123">**Nota:** de forma predeterminada, los parámetros de tabla no aparecen en el mensaje de respuesta.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-123">**Note:** By default, table parameters are not surfaced in the response message.</span></span> <span data-ttu-id="e0c5a-124">Si se requieren parámetros de la tabla en el mensaje de respuesta, debe pasar parámetros de una tabla vacía en el mensaje de solicitud.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-124">If you require table parameters in response message, you must pass empty table parameters in the request message.</span></span><br /><br /> <span data-ttu-id="e0c5a-125">-Import y cambiar los parámetros puede ser de tipos de estructura de SAP, tipos de tabla de SAP o tipos de datos simples de SAP.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-125">- Import and changing parameters can be of SAP STRUCTURE TYPES, SAP TABLE TYPES or SAP simple data types.</span></span>|  
+|<span data-ttu-id="e0c5a-126">RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-126">RfcGetAttributes</span></span><br /><br /> <span data-ttu-id="e0c5a-127">(RfcGetAttributes)</span><span class="sxs-lookup"><span data-stu-id="e0c5a-127">(RfcGetAttributes)</span></span>|`<RfcGetAttributes> </RfcGetAttributes>`|<span data-ttu-id="e0c5a-128">RfcGetAttributes es una operación de API de RFC SDK que se expone a través de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="e0c5a-128">RfcGetAttributes is an RFC SDK API operation that is surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span> <span data-ttu-id="e0c5a-129">La operación de RfcGetAttributes permite que un programa de cliente recuperar el idioma, el identificador del sistema y la página de códigos de socio comercial que están asociados con la conexión de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-129">The RfcGetAttributes operation enables a client program to retrieve the language, the system ID, and the partner code page that are associated with the RFC connection.</span></span>|  
+|<span data-ttu-id="e0c5a-130">Respuesta de RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-130">RfcGetAttributes Response</span></span><br /><br /> <span data-ttu-id="e0c5a-131">(RfcGetAttributesResponse)</span><span class="sxs-lookup"><span data-stu-id="e0c5a-131">(RfcGetAttributesResponse)</span></span>|`<RfcGetAttributesResponse>   <Language>lang</Language>   <SysId>id</SysId>   <PartnerCodePage>pnrcp</PartnerCodePage> </RfcGetAttributesResponse>`|<span data-ttu-id="e0c5a-132">La respuesta a la operación de RfcGetAttributes devuelve el idioma, el identificador del sistema y la página de códigos de socio comercial que están asociados con la conexión de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-132">The response to the RfcGetAttributes operation returns the language, the system ID, and the partner code page that are associated with the RFC connection.</span></span>|  
+  
+ <span data-ttu-id="e0c5a-133">[Versión] = la cadena de versión de mensaje; Por ejemplo, http://Microsoft.LobServices.SAP/2007/03.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-133">[VERSION] = The message version string; for example, http://Microsoft.LobServices.SAP/2007/03.</span></span>  
+  
+ <span data-ttu-id="e0c5a-134">[RFC_NAME] = nombre de la solicitud de cambio; Por ejemplo, RFC_CUSTOMER_GET.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-134">[RFC_NAME] = Name of the RFC; for example, RFC_CUSTOMER_GET.</span></span>  
+  
+ <span data-ttu-id="e0c5a-135">[IN_PARAM_NAME] = el nombre de un parámetro de importación de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-135">[IN_PARAM_NAME] = The name of an RFC Import parameter.</span></span>  
+  
+ <span data-ttu-id="e0c5a-136">[OUT_PARAM_NAME] = el nombre de un parámetro de exportación de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-136">[OUT_PARAM_NAME] = The name of an RFC Export parameter.</span></span>  
+  
+ <span data-ttu-id="e0c5a-137">[INOUT_PARAM_NAME] = el nombre de un parámetro de RFC cambiar.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-137">[INOUT_PARAM_NAME] = The name of an RFC Changing parameter.</span></span>  
+  
+ <span data-ttu-id="e0c5a-138">[TABLE_PARAM_NAME] = el nombre de un parámetro de tabla de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-138">[TABLE_PARAM_NAME] = The name of an RFC Table parameter.</span></span>  
+  
+ <span data-ttu-id="e0c5a-139">[STRUCT_PARAM_NAME] = el nombre de un parámetro de estructura de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-139">[STRUCT_PARAM_NAME] = The name of an RFC Structure parameter.</span></span>  
+  
+## <a name="message-actions-for-rfc-operations"></a><span data-ttu-id="e0c5a-140">Acciones de mensaje para las operaciones de RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-140">Message Actions for RFC Operations</span></span>  
+ <span data-ttu-id="e0c5a-141">La siguiente tabla muestra las acciones de mensaje para las operaciones de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-141">The following table shows the message actions for RFC operations.</span></span>  
+  
+|<span data-ttu-id="e0c5a-142">Operación</span><span class="sxs-lookup"><span data-stu-id="e0c5a-142">Operation</span></span>|<span data-ttu-id="e0c5a-143">Acción de mensaje</span><span class="sxs-lookup"><span data-stu-id="e0c5a-143">Message Action</span></span>|<span data-ttu-id="e0c5a-144">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e0c5a-144">Example</span></span>|  
+|---------------|--------------------|-------------|  
+|<span data-ttu-id="e0c5a-145">[RFC_NAME]</span><span class="sxs-lookup"><span data-stu-id="e0c5a-145">[RFC_NAME]</span></span>|<span data-ttu-id="e0c5a-146">/Rfc/ [versión] [RFC_NAME]</span><span class="sxs-lookup"><span data-stu-id="e0c5a-146">[VERSION]/Rfc/[RFC_NAME]</span></span>|<span data-ttu-id="e0c5a-147">http://Microsoft.LobServices.SAP/2007/03/RFC/RFC_CUSTOMER_GET</span><span class="sxs-lookup"><span data-stu-id="e0c5a-147">http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET</span></span>|  
+|<span data-ttu-id="e0c5a-148">[RFC_NAME] Respuesta</span><span class="sxs-lookup"><span data-stu-id="e0c5a-148">[RFC_NAME] Response</span></span>|<span data-ttu-id="e0c5a-149">/Rfc/ [versión] [RFC_NAME] / respuesta</span><span class="sxs-lookup"><span data-stu-id="e0c5a-149">[VERSION]/Rfc/[RFC_NAME]/response</span></span>|<span data-ttu-id="e0c5a-150">http://Microsoft.LobServices.SAP/2007/03/RFC/RFC_CUSTOMER_GET/Response</span><span class="sxs-lookup"><span data-stu-id="e0c5a-150">http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET/response</span></span>|  
+|<span data-ttu-id="e0c5a-151">RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-151">RfcGetAttributes</span></span>|<span data-ttu-id="e0c5a-152">[Versión] / RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-152">[VERSION]/RfcGetAttributes</span></span>|<span data-ttu-id="e0c5a-153">http://Microsoft.LobServices.SAP/2007/03/RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-153">http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes</span></span>|  
+|<span data-ttu-id="e0c5a-154">Respuesta de RfcGetAttributes</span><span class="sxs-lookup"><span data-stu-id="e0c5a-154">RfcGetAttributes Response</span></span>|<span data-ttu-id="e0c5a-155">[Versión/RfcGetAttributes/respuesta</span><span class="sxs-lookup"><span data-stu-id="e0c5a-155">[VERSION/RfcGetAttributes/response</span></span>|<span data-ttu-id="e0c5a-156">http://Microsoft.LobServices.SAP/2007/03/RfcGetAttributes/Response</span><span class="sxs-lookup"><span data-stu-id="e0c5a-156">http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes/response</span></span>|  
+  
+ <span data-ttu-id="e0c5a-157">[Versión] = la cadena de versión de mensaje; Por ejemplo, http://Microsoft.LobServices.Sap/2007/03.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-157">[VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.</span></span>  
+  
+ <span data-ttu-id="e0c5a-158">[RFC_NAME] = el nombre de la solicitud de cambio que se debe invocar; Por ejemplo, RFC_CUSTOMER_GET.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-158">[RFC_NAME] = The name of the RFC to be invoked; for example, RFC_CUSTOMER_GET.</span></span>  
+  
+## <a name="invoking-a-bapi-as-an-rfc-operation"></a><span data-ttu-id="e0c5a-159">Invocar una BAPI como una operación de RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-159">Invoking a BAPI as an RFC Operation</span></span>  
+ <span data-ttu-id="e0c5a-160">El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies BAPI como operaciones de RFC y como métodos de objetos comerciales.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-160">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces BAPIs both as RFC operations and as methods of business objects.</span></span> <span data-ttu-id="e0c5a-161">Como las operaciones de RFC, BAPI aparecen por nombre.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-161">As RFC operations, BAPIs are surfaced by name.</span></span> <span data-ttu-id="e0c5a-162">Para obtener más información sobre cómo invocar BAPI mediante la interfaz del objeto de negocios, vea [operaciones de BAPI en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="e0c5a-162">For more information about invoking BAPIs by using the business object interface, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).</span></span>  
+  
+ <span data-ttu-id="e0c5a-163">El siguiente XML muestra la estructura del mensaje para una BAPI (BAPI_CUSTOMER_GETDETAIL2) que se invoca como una solicitud de cambio.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-163">The following XML shows the message structure for a BAPI (BAPI_CUSTOMER_GETDETAIL2) that is invoked as an RFC.</span></span> <span data-ttu-id="e0c5a-164">La acción de mensaje para esta operación es: http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_CUSTOMER_GETDETAIL2.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-164">The message action for this operation is: http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_CUSTOMER_GETDETAIL2.</span></span>  
+  
+```  
+<BAPI_CUSTOMER_GETDETAIL2 xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
+  <COMPANYCODE>1001</COMPANYCODE>  
+  <CUSTOMERNO>0000001001</CUSTOMERNO>  
+  <CUSTOMERBANKDETAIL>  
+    <BAPICUSTOMER_02 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
+      <CUSTOMER />  
+      <BANK_CTRY />  
+      <BANK_KEY />  
+      <BANK_ACCT />  
+      <CTRL_KEY />  
+      <PARTNER_BK />  
+      <COLL_AUTH />  
+      <BANK_REF />  
+    </BAPICUSTOMER_02>  
+  </CUSTOMERBANKDETAIL>  
+</BAPI_CUSTOMER_GETDETAIL2>  
+```  
+  
+## <a name="see-also"></a><span data-ttu-id="e0c5a-165">Vea también</span><span class="sxs-lookup"><span data-stu-id="e0c5a-165">See Also</span></span>  
+ [<span data-ttu-id="e0c5a-166">Mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="e0c5a-166">Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite</span></span>](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)
