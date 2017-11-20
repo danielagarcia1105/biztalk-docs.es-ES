@@ -27,7 +27,7 @@ Puede ejecutar un proyecto de inicio de sesión único (SSO) de ejemplo desde In
   
 2.  Vaya a la dirección URL siguiente:  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll? \<ns0:method_list_method % 20xmlns: ns0 = "http://microsoft.com/exposed/object/object1" >\<ns0:method_list_method >\<ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object" >\<ns1:comp_code >\</ns1:comp_code >\<ns1:comp_name >\</ns1:comp_name >\< /ns1:object_1 >\</ns0:method_list >\</ns0: method_list_method >  
+     http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method % 20xmlns: ns0 = "http://microsoft.com/exposed/object/object1">\<ns0:method_list_method >\<ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object">\<ns1:comp_code >\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\</ns1:object_1>\</ns0:method_list>\</ns0: method_list_method>  
   
      En este caso, no es necesario proporcionar las credenciales.  
   
