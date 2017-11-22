@@ -23,20 +23,20 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
 ---
-# <a name="running-sso-projects"></a><span data-ttu-id="a953d-102">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="a953d-102">Running SSO Projects</span></span>
-<span data-ttu-id="a953d-103">Puede ejecutar un proyecto de inicio de sesión único (SSO) de ejemplo desde Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="a953d-103">You can run a sample Single Sign-On (SSO) project from Internet Explorer.</span></span>  
+# <a name="running-sso-projects"></a><span data-ttu-id="80040-102">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="80040-102">Running SSO Projects</span></span>
+<span data-ttu-id="80040-103">Puede ejecutar un proyecto de inicio de sesión único (SSO) de ejemplo desde Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="80040-103">You can run a sample Single Sign-On (SSO) project from Internet Explorer.</span></span>  
   
-## <a name="running-a-sample-from-internet-explorer"></a><span data-ttu-id="a953d-104">Ejecución de un ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="a953d-104">Running a Sample from Internet Explorer</span></span>  
+## <a name="running-a-sample-from-internet-explorer"></a><span data-ttu-id="80040-104">Ejecución de un ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="80040-104">Running a Sample from Internet Explorer</span></span>  
   
-#### <a name="to-run-the-sample-from-the-internet-explorer"></a><span data-ttu-id="a953d-105">Procedimiento para ejecutar el ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="a953d-105">To run the sample from the Internet Explorer</span></span>  
+#### <a name="to-run-the-sample-from-the-internet-explorer"></a><span data-ttu-id="80040-105">Procedimiento para ejecutar el ejemplo desde Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="80040-105">To run the sample from the Internet Explorer</span></span>  
   
-1.  <span data-ttu-id="a953d-106">Abra el explorador.</span><span class="sxs-lookup"><span data-stu-id="a953d-106">Open your browser.</span></span>  
+1.  <span data-ttu-id="80040-106">Abra el explorador.</span><span class="sxs-lookup"><span data-stu-id="80040-106">Open your browser.</span></span>  
   
-2.  <span data-ttu-id="a953d-107">Vaya a la dirección URL siguiente:</span><span class="sxs-lookup"><span data-stu-id="a953d-107">Go to the following URL:</span></span>  
+2.  <span data-ttu-id="80040-107">Vaya a la dirección URL siguiente:</span><span class="sxs-lookup"><span data-stu-id="80040-107">Go to the following URL:</span></span>  
   
-     <span data-ttu-id="a953d-108">http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method%20xmlns:ns0= "http://microsoft.com/exposed/object/object1">\<ns0:method_list_method>\<ns1:method_list%20xmlns:ns1= "http://microsoft.com/exposed/object">\<ns1:comp_code>\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\</ns1:object_1>\</ns0:method_list>\</ns0: method_list_method></span><span class="sxs-lookup"><span data-stu-id="a953d-108">http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1">\<ns0:method_list_method>\<ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object">\<ns1:comp_code>\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\< /ns1:object_1>\</ns0:method_list>\</ns0:method_list_method></span></span>  
+     <span data-ttu-id="80040-108">http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1">\<ns0:method_list_method>\<ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object">\<ns1:comp_code>\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\</ns1:object_1>\</ns0:method_list>\</ns0:method_list_method></span><span class="sxs-lookup"><span data-stu-id="80040-108">http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1">\<ns0:method_list_method>\<ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object">\<ns1:comp_code>\</ns1:comp_code>\<ns1:comp_name>\</ns1:comp_name>\< /ns1:object_1>\</ns0:method_list>\</ns0:method_list_method></span></span>  
   
-     <span data-ttu-id="a953d-109">En este caso, no es necesario proporcionar las credenciales.</span><span class="sxs-lookup"><span data-stu-id="a953d-109">In this case, you do not need to provide the credentials.</span></span>  
+     <span data-ttu-id="80040-109">En este caso, no es necesario proporcionar las credenciales.</span><span class="sxs-lookup"><span data-stu-id="80040-109">In this case, you do not need to provide the credentials.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="a953d-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="a953d-110">See Also</span></span>  
- [<span data-ttu-id="a953d-111">Seguridad en el adaptador</span><span class="sxs-lookup"><span data-stu-id="a953d-111">Security in the adapter</span></span>](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)
+## <a name="see-also"></a><span data-ttu-id="80040-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="80040-110">See Also</span></span>  
+ [<span data-ttu-id="80040-111">Seguridad en el adaptador</span><span class="sxs-lookup"><span data-stu-id="80040-111">Security in the adapter</span></span>](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)
