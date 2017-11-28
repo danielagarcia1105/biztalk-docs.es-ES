@@ -2,7 +2,7 @@
 title: "Paso 1: Agregar aplicación json de proyecto y actualice | Documentos de Microsoft"
 description: "Agregue el proyecto de aplicación de BizTalk Server en Visual Studio y actualizar el archivo BizTalkServerInventory.json con los archivos DLL, archivos de enlace y la secuencia de implementación de las aplicaciones - Visual Studio Team Services"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,11 +11,11 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46cb8a2072280e62cd8c3438521531f8cf3b55aa
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: a8d4b9773c9c7b23715b5ddae29c3c97f381da5e
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-1-add-the-biztalk-server-application-project-in-visual-studio"></a>Paso 1: Agregar el proyecto de aplicación de BizTalk Server en Visual Studio
 
@@ -29,7 +29,7 @@ El proyecto de aplicación de BizTalk incluye la `BizTalkServerInventory.json` a
 * Tiene la ruta de acceso al archivo de enlace XML al proyecto de BizTalk listo. 
 * Conocer su cuenta VSTS, la colección y los detalles del proyecto de equipo.
 * Estar familiarizado con conceptos de git, incluye la clonación y el trabajo con repositorios. 
-* Asegúrese de [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) está instalado
+* Asegúrese de [Feature Pack 2](https://aka.ms/bts2016fp2) está instalado.
 
 ## <a name="add-the-application-project"></a>Agregue el proyecto de aplicación
 
@@ -52,6 +52,9 @@ El proyecto de aplicación de BizTalk incluye la `BizTalkServerInventory.json` a
 
     ![Propiedades de archivo de enlace](../core/media/xml-binding-file-properties.png)
 
+8. Opcional. Haga clic en el proyecto de aplicación recién agregado y seleccione **propiedades**. Personalizar la **nombre de la aplicación** que desea mostrar en administración de BizTalk:  
+
+    ![Nombre de la aplicación](../core/media/application-project-name.png)
 
 ## <a name="configure-the-json-template"></a>Configurar la plantilla JSON
 
@@ -159,7 +162,7 @@ Una vez completado, la tarea de implementación de Visual Studio Team Service re
 
 ## <a name="what-you-did"></a>Lo que hizo
 
-En el proyecto de BizTalk, ha agregado un proyecto de aplicación de BizTalk (.btaproj). Este proyecto se usa para automatizar las implementaciones de los proyectos de BizTalk Server mediante VSTS. Una vez creado el proyecto de aplicación, ha agregado una referencia a su proyecto de aplicación de BizTalk. A continuación, se actualiza un archivo JSON que indica la implementación automatizada de qué archivos DLL se implementa, qué archivo de enlace que se utiliza y el orden para implementar las aplicaciones. 
+En el proyecto de BizTalk, ha agregado un proyecto de aplicación de BizTalk (.btaproj). Este proyecto se usa para automatizar las implementaciones de los proyectos de BizTalk Server mediante VSTS. Una vez creado el proyecto de aplicación, ha agregado una referencia al proyecto de BizTalk. A continuación, se actualiza un archivo JSON que indica la implementación automatizada de qué archivos DLL se implementa, qué archivo de enlace que se utiliza y el orden para implementar las aplicaciones. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Paso 2: Crear el token VSTS](feature-pack-create-vsts-token.md)  

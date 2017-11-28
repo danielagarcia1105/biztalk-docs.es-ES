@@ -2,7 +2,7 @@
 title: "Paso 3: crear las definiciones de compilación y la versión | Documentos de Microsoft"
 description: "En VSTS, cree una definición de compilación para compilar los proyectos en el repositorio TFS o git, a continuación, crear una definición de la versión para implementar la aplicación de BizTalk Server"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,15 +11,18 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de86d35fd615d8c0f1eee1127804645067c4bf6e
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: 5ce84071fbc105fd9faddd794792273aae2e76b9
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>Paso 3: Crear la compilación y la versión de definición
 
 Las definiciones de compilación y la versión son tareas de Visual Studio Team Services y probablemente deben hacerse mediante un administrador de VSTS. La definición de compilación compila el proyecto en el repositorio git y las definiciones de versión lo implementa en el entorno de BizTalk Server. 
+
+## <a name="before-you-begin"></a>Antes de empezar
+Completa [paso 2: símbolo (token) de VSTS crear e instalar el agente](feature-pack-create-vsts-token.md).
 
 ## <a name="add-the-build-tasks"></a>Agregue las tareas de compilación
 1. En el proyecto, seleccione **de compilación y la versión**. Se abre la pestaña de compilaciones. Crear un **New** definición:
@@ -88,7 +91,11 @@ Cuando la compilación se realiza correctamente, la definición de la versión i
 
 7. Seleccione el **implementar** , escriba los valores y de la tarea: 
 
-    **Nombre de la operación**: seleccione **crear nueva aplicación de BizTalk**. Esta opción implementa una nueva aplicación. Si la aplicación ya existe, desinstala las aplicaciones actuales (detención completa) e instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualiza en el repositorio. **Actualizar una aplicación de BizTalk existente** anexa los cambios, como esquemas, a una aplicación ya se está ejecuta. No se requiere una nueva implementación completa de la aplicación.
+    **Nombre de la operación**: las opciones: * **crear nueva aplicación de BizTalk**: implementa una nueva aplicación. Si la aplicación ya existe, desinstala las aplicaciones actuales (detención completa) e instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualiza en el repositorio. 
+        * **Actualizar una aplicación de BizTalk existente**: anexa los cambios, como esquemas, a una aplicación ya se está ejecuta. No se requiere una nueva implementación completa de la aplicación.
+        * **Instalar la aplicación de BizTalk Server**: [instalar las aplicaciones](../core/how-to-install-a-biztalk-application.md), y escriba el nombre del equipo de administración de BizTalk y la ruta de acceso del paquete de implementación.
+
+        ![Deploy operations](../core/media/vsts-deploy-operations.png)
 
     **Nombre de la aplicación**: el texto que escriba será el nombre de aplicación de administración de BizTalk. Hacer **no** escriba BizTalk Application 1.
 

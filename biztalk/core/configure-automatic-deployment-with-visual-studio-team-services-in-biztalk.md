@@ -2,7 +2,7 @@
 title: "Configurar la implementación automática con Visual Studio Team Services | Documentos de Microsoft"
 description: "Instalar BizTalk Feature Pack para usar la administración del ciclo de vida de aplicaciones con VSTS para implementar las aplicaciones en diferentes entornos de BizTalk."
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -10,20 +10,26 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 57f769bb-5105-43e2-9096-ed54cdf82b90
 caps.latest.revision: "8"
-author: tordgladnordahl
+author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04a7d2b2430a5dc57403fc179fa1c1859d3a82b3
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: d135960143fed33d1ce4847c681f5b1134489b65
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="configure-automatic-deployment-with-visual-studio-team-services-in-biztalk-server"></a>Configurar la implementación automática con Visual Studio Team Services en BizTalk Server
 
 ## <a name="overview"></a>Información general
 
 **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]** , [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] proporciona una implementación automática mejorada y experiencia con aplicaciones lifecycle management (ALM). 
+
+**A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, hemos mejorado esta característica:
+
+* En Visual Studio, establezca el **nombre de la aplicación** de la aplicación de BizTalk
+* Además de usar una implementación basada en agente, también puede usar [grupos de implementación](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index) para implementar las aplicaciones de BizTalk en varios servidores
+* En la tarea de versión, puede instalar la aplicación de BizTalk y especifique el equipo de administración de BizTalk y la ruta de acceso al paquete de implementación
 
 Con Visual Studio Team Services, puede implementar automáticamente [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] aplicaciones para diferentes entornos de BizTalk. 
 
@@ -40,18 +46,19 @@ Le mostramos cómo configurar VSTS con [!INCLUDE[btsBizTalkServerNoVersion_md](.
 
 * Tener una cuenta de Visual Studio Team Services (VSTS) listo. ¿No tiene? [Registrarse para obtener Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
 * Si ya tiene un agente de VSTS instalado en el equipo de BizTalk, el agente existente se sobrescribe con el agente de VSTS más reciente. Quizás tenga que actualizar su [servicio VSTS para alinearlo con el nuevo agente](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
-* Implementación automática con VSTS se realiza en una [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] en el grupo. Asegúrese de que el equipo tiene Visual Studio y la [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] instalado SDK y herramientas de programadores. Consulte la [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] [requisitos de hardware y software](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md).
+* Con Feature Pack 1, se realiza la implementación automática con VSTS en uno [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] en el grupo. Asegúrese de que el equipo tiene Visual Studio y la [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] instalado SDK y herramientas de programadores. Consulte la [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] [requisitos de hardware y software](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md).
+* Con Feature Pack 2, es posible la implementación automática con VSTS mediante [grupos de implementación](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/howto-deployment-groups). Uso de grupos de implementación, puede implementar las aplicaciones en varios servidores de BizTalk dentro del grupo de implementación.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-* Instalar [Feature Pack 1 de](https://www.microsoft.com/download/details.aspx?id=55100) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Algunos experiencia y conocimientos de crear y trabajar con definiciones de VSTS. Si está familiarizado en VSTS, puede tratarse de buenos recursos: 
 
   [Introducción a Visual Studio Team Services](https://www.visualstudio.com/docs/overview)  
   [Elemento de configuración/CD para principiantes](https://www.visualstudio.com/docs/build/get-started/ci-cd-part-1)
 
 ## <a name="get-started"></a>Introducción
-[Paso 1: Agregar proyecto de aplicación & Actualizar plantilla .json](feature-pack-add-application-project.md)  
+[Paso 1: Agregar el proyecto de la aplicación y actualizar la plantilla .json](feature-pack-add-application-project.md)  
 
 [Paso 2: Crear el token VSTS e instalar al agente de compilación](feature-pack-create-vsts-token.md)
 

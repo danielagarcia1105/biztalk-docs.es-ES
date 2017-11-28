@@ -1,8 +1,9 @@
 ---
-title: "¿Qué &#39; s nuevos en BizTalk Server 2016 | Documentos de Microsoft"
+title: Novedades en BizTalk Server 2016 | Documentos de Microsoft
+description: "Cambios y mejoras, como paquetes de características, adaptadores, seguridad, seguimiento, rendimiento etc. en BizTalk Server 2016"
 ms.custom: 
 ms.prod: biztalk-server
-ms.date: 06/08/2017
+ms.date: 11/15/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,22 +13,23 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f4b4b9d7f06bb74e0270d8d1bb232067c37ef12
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa8e28b3c54afd130176e9bb19b2e0b1a59415d0
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/21/2017
 ---
-# <a name="what39s-new-in-biztalk-server-2016"></a>¿Qué &#39; s nuevos en BizTalk Server 2016
+# <a name="whats-new-in-biztalk-server-2016"></a>Novedades de BizTalk Server 2016
 Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 
   
-## <a name="whats-new-in-biztalk-server-2016"></a>Novedades de BizTalk Server 2016  
+## <a name="new-in-biztalk-server-2016"></a>Nueva en BizTalk Server 2016  
   
 |Característica|Descripción|  
 |-------------|-----------------|  
 |Compatibilidad con las plataformas más recientes|[!INCLUDE[bts2016](../includes/bts2016-md.md)] incluye compatibilidad con las siguientes plataformas de Microsoft:<br /><br /> - Visual Studio 2015<br />- Windows Server 2016<br />-   [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]<br />- Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) (Requisitos de hardware y software de BizTalk Server 2016)|  
+| Feature Pack 2 | Las mejoras incluyen una integración más estrecha con la API de administración, un adaptador de centros de eventos de Azure, copia de seguridad para la cuenta de almacenamiento de blobs de Azure, compatibilidad con particiones de Bus de servicio y mucho más. <br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Ver lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
 | Feature Pack 1 | Es compatible con la implementación automática mediante VSTS, con el envío de datos de seguimiento a Application Insights de Azure y Power BI y con las opciones de programación avanzadas en ubicaciones de recepción, entre otros.<br/><br/>[Instalación del Feature Pack](https://www.microsoft.com/download/details.aspx?id=55100)<br/>[Ver lo que ha incluido y configurar sus características](../core/configure-the-feature-pack.md) |
-|Grupos de disponibilidad AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]|La compatibilidad incluye:<br /><br /> - El uso local y en máquinas virtuales de IaaS de [!INCLUDE[winazure](../includes/winazure-md.md)]<br />- El uso para cargas de trabajo de producción<br />- Proporciona una solución de alta disponibilidad en [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> Consulte las [transacciones distribuidas para los GD AlwaysOn](https://msdn.microsoft.com/library/ms366279.aspx) (en la documentación de SQL Server) para cualquier requisito y característica específicos de SQL.|  
+|Grupos de disponibilidad AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)]|La compatibilidad incluye:<br /><br /> - El uso local y en máquinas virtuales de IaaS de [!INCLUDE[winazure](../includes/winazure-md.md)]<br />- El uso para cargas de trabajo de producción<br />- Proporciona una solución de alta disponibilidad en [!INCLUDE[winazure](../includes/winazure-md.md)] <br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)<br/><br/> Vea [transacciones para siempre AG distribuidas](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring) las características y requisitos específicos de SQL.|  
 |Máquinas virtuales de Azure de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en producción|Ahora, las máquinas virtuales de Azure de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] son totalmente compatibles con entornos de producción. Con el uso de AlwaysOn de [!INCLUDE[sqlserver2016](../includes/sqlserver2016-md.md)], ahora es posible una solución de alta disponibilidad.<br/><br/>[Alta disponibilidad con AlwaysOn de SQL Server](../core/high-availability-using-sql-server-always-on-availability-groups.md)|  
 |Adaptador de aplicación lógica|Conéctese a sus aplicaciones lógicas hospedadas en Azure y obtenga acceso a todos los conectores, incluidos Salesforce, SharePoint, CRM Online, etc. Por ejemplo, puede recibir un pedido en BizTalk Server, conectarse a su aplicación lógica y actualizar Salesforce.<br/><br/>[Adaptador de aplicación lógica](../core/logic-app-adapter.md)|  
 | Adaptador de archivo | Conéctese a un recurso compartido de archivos de almacenamiento de Azure. Puede recibir archivos desde el recurso compartido de archivos de Azure y enviar mensajes a un recurso compartido de archivos de Azure. <br/><br/>[Configurar el adaptador de archivo](../core/configure-the-file-adapter.md)|
@@ -44,7 +46,7 @@ Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts20
 |Administración de BizTalk|Además de un aspecto más moderno, se incluyen otros cambios:<br /><br /> - Puede configurar al mismo tiempo las opciones de varios hosts o instancias de host. Por ejemplo, puede establecer simultáneamente la configuración de .NET CLR de varias instancias de host.<br />- Puede usar la nueva característica de búsqueda para filtrar y buscar artefactos en la aplicación, como esquemas, recursos y mucho más.<br />- Cuando la solución de problemas suspende los mensajes, puede guardar varios mensajes suspendidos al mismo tiempo en un archivo.<br /><br />[Utilizar la consola de administración de BizTalk Server](../core/using-the-biztalk-server-administration-console.md)|  
 |Actualizaciones adicionales|<ul><li>[!INCLUDE[HL7_CurrentVersion_FirstRef_md](../includes/hl7-currentversion-firstref-md.md)] inicia la conexión a un servidor de Línea de negocio (LOB) e inserta mensajes sobre la conexión. LOB espera la conexión para enviar los mensajes. <br/><br/>En versiones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] anteriores, el adaptador de recepción HL7 MLLP espera a que se conecte el servidor de LOB a HL7 para enviar mensajes. LOB se conecta a HL7 para enviar mensajes. </li><br/><li>Ahora Office Web Componentes (OWC) es opcional en la instalación y se enumera aparte en Programas</li><br/><li>El identificador de instancia de orquestación se agrega a la salida de seguimiento FireEvent de XLANG</li></ul>|   
   
-### <a name="deprecated--removed-list"></a>Lista de elementos quitados y en desuso  
+## <a name="deprecated--removed-list"></a>Lista de elementos quitados y en desuso  
   
 |del usuario|Estado|Sustituta|  
 |-------------|------------|-----------------|  
@@ -58,5 +60,10 @@ Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts20
 > [!IMPORTANT]
 >  Algunas de estas características en desuso pueden encontrarse en las versiones más recientes de BizTalk. En estas situaciones, considere lo siguiente:  
 >   
->  -   La característica puede utilizarse internamente en BizTalk y no está diseñada para utilizarse en soluciones de cliente. No se admite en soluciones de cliente.  
-> -   Microsoft ha modificado las interfaces y es posible que no estén disponibles públicamente.
+> -   La característica puede utilizarse internamente en BizTalk y no está pensada para utilizarse en soluciones de cliente. No se admite en soluciones de cliente.  
+> -   Las interfaces se han modificado por Microsoft y pueden no estar disponibles públicamente.
+
+## <a name="next-steps"></a>Pasos siguientes
+[Requisitos de hardware y software](hardware-and-software-requirements-for-biztalk-server-2016.md)  
+[El programa de instalación e instalar los requisitos previos](set-up-and-install-prerequisites-for-biztalk-server-2016.md)  
+[Instalación de BizTalk](install-biztalk-server-2016.md)

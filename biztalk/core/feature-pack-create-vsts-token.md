@@ -2,7 +2,7 @@
 title: 'Paso 2: crear el token VSTS e instale el agente | Documentos de Microsoft'
 description: "Crear el clon de símbolo (token), de acceso de seguridad VSTS el proyecto VSTS en Visual Studio e instalar el agente de compilación para automatizar la implementación de los proyectos de BizTalk Server"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,11 +11,11 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46047f0bb6a536642d503d68bb4f9161ecdf7fc5
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: 77296d9f2325bebaba4f4fa1ce7c55034ef1ead6
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-2-create-the-token--install-the-agent"></a>Paso 2: Crear el token e instalar el agente
 
@@ -24,6 +24,9 @@ Se crea un token de acceso personal (PAT) en Visual Studio Team Services. Este t
 Obtener más información sobre PAT en [autenticar el acceso con tokens de acceso personal para VSTS y TFS](https://docs.microsoft.com/vsts/accounts/use-personal-access-tokens-to-authenticate). 
 
 Después de crear el token, instalar al agente de compilación y configúrelo para utilizar este token. 
+
+## <a name="before-you-begin"></a>Antes de empezar
+Completa [paso 1: proyecto de aplicación para agregar y actualizar json](feature-pack-add-application-project.md).
 
 ## <a name="sign-into-vsts-and-create-the-token"></a>Iniciar sesión en VSTS y crear el token
 1. Vaya a [https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile)e inicie sesión con su cuenta profesional o educativa. Después de iniciar la sesión, se muestra la cuenta VSTS. En el ejemplo siguiente, la cuenta es **mandiaprojects.visualstudio.com**.  
@@ -61,7 +64,7 @@ Después de crear el token, instalar al agente de compilación y configúrelo pa
 
 ## <a name="install-the-build-agent"></a>Instalar al agente de compilación
 
-El agente de compilación está instalado en el equipo de desarrollo de BizTalk. 
+El agente de compilación está instalado en el equipo de desarrollo de BizTalk. Si utiliza grupos de implementación, el agente de compilación se instala en todos los servidores de BizTalk que desea implementar en. Los pasos siguientes muestran cómo instalar al agente de compilación en un único equipo. Para obtener más información sobre el uso de grupos de implementación, consulte [grupos de implementación](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
 1. Abra su cuenta VSTS y el proyecto, que es algo como *https://YourAccountName.visualstudio.com/MyFirstProject*. Seleccione el icono de configuración y seleccione **agente colas**:  
 

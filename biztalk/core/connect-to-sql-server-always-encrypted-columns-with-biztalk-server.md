@@ -1,7 +1,7 @@
 ---
 title: Conectarse a SQL Server Always Encrypted columnas con BizTalk Server | Documentos de Microsoft
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -9,14 +9,14 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: fcc20a2b-daf9-4b7f-ae61-cb408e4bd04c
 caps.latest.revision: "4"
-author: tordgladnordahl
-ms.author: tonordah
+author: MandiOhlinger
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62b570fabda6a0e46f87c36b863e2b99e464020b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5e117bd91176589e998fc01eb2c613ac0da2bbc
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="connect-to-sql-server-always-encrypted-columns-with-biztalk-server"></a>Conectarse a SQL Server Always Encrypted columnas con BizTalk Server
 Habilitar Always Encrypted en el adaptador de WCF-SQL en [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] para consultar columnas cifradas.  
@@ -29,7 +29,7 @@ Este tema muestra cómo habilitar o deshabilitar esta característica en [!INCLU
 > [Always Encrypted (motor de base de datos)](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) es un excelente recurso para comprender y obtener más información sobre esto [!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)] característica.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Instalar [Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
+Instalar [Feature Pack 2](https://aka.ms/bts2016fp2) en su [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
 
 ## <a name="enable-always-encrypted"></a>Habilitar Always Encrypted
 

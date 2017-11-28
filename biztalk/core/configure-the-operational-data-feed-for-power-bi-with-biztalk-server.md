@@ -13,11 +13,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7afe600ae96e624db0acb2f87f6ba131b3e101bd
-ms.sourcegitcommit: 2330f1eaa6a7bb09975c9e07e56c6595229fd423
+ms.openlocfilehash: 88b036aaeb50c2997e1c6b49ae1788a488be1b1a
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="configure-the-power-bi-operational-data-feed-in-biztalk-server"></a>Configurar los datos operativos de Power BI de la fuente en el servidor BizTalk Server
 
@@ -44,7 +44,7 @@ La fuente incluye las siguientes tablas de datos:
 
 ## <a name="prerequisites"></a>Requisitos previos
 * Descargue e instale [Power BI Desktop](https://powerbi.microsoft.com/desktop/) en cualquier equipo que tenga acceso a la red a la[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* Instalar [Feature Pack 1 de](https://www.microsoft.com/download/details.aspx?id=55100) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * Instalar IIS en el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. En la mayoría [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] entornos, IIS ya está instalado. Vea [requisitos de Hardware y Software para BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). Confirme que IIS está instalado, abra **Administrador de Internet Information Services**. 
 * Opcional. Instalar y configurar un [Power BI Gateway](https://powerbi.microsoft.com/gateway/) conectar [PowerBI.com](http://powerbi.microsoft.com) con el servidor de BizTalk local. Si no está utilizando un servidor de BizTalk local, es necesario la puerta de enlace.
 

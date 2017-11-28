@@ -1,36 +1,40 @@
 ---
-title: Usar adaptadores | Documentos de Microsoft
+title: Lista de adaptadores | Documentos de Microsoft
+description: 
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/16/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: adapters
 ms.assetid: afdfa70e-5929-4746-99b4-e76274aa5c88
 caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18ffc3c198cbd6fc26290908dfcc3a90b2c8a62a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 700d14d45d33c54aac60b837dc33b553c447f686
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/21/2017
 ---
-# <a name="using-adapters"></a>Usar adaptadores
+# <a name="available-adapters-in-biztalk-server"></a>Adaptadores disponibles en BizTalk Server
+
+## <a name="overview"></a>Información general
 Esta sección contiene información completa acerca de adaptadores. Describe cómo se utilizan los adaptadores en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y cómo configurar controladores de adaptador, puertos de envío y ubicaciones de recepción para cada adaptador. Proporciona información de soporte técnico sobre el procesamiento por lotes que le ayuda a entender y a utilizar los adaptadores nativos en su solución de BizTalk.  
   
  Para obtener información sobre cómo usar métodos abreviados de teclado para las páginas de propiedades de adaptador, vea [abreviados de teclado de página de propiedades de adaptador](../core/adapter-property-page-keyboard-shortcuts.md).  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="adapters-list"></a>Lista de adaptadores
   
 -   [Adaptadores de BizTalk Server](../core/adapters-in-biztalk-server.md)  
   
--   [Controlador de puerto de envío dinámico es Configurable](../core/dynamic-send-port-handler-is-configurable.md)  
+-   [El controlador de puerto de envío dinámico es configurable](../core/dynamic-send-port-handler-is-configurable.md)  
   
--   [Consideraciones de seguridad para los adaptadores](../core/security-considerations-for-adapters.md)  
+-   [Consideraciones de seguridad para adaptadores](../core/security-considerations-for-adapters.md)  
+
+-   [Adaptador de concentradores de eventos](../core/event-hubs-adapter.md)
   
 -   [Adaptador SB-Messaging](../core/sb-messaging-adapter.md)  
   
@@ -43,22 +47,6 @@ Esta sección contiene información completa acerca de adaptadores. Describe có
 -   [Adaptador SFTP](../core/sftp-adapter.md)  
   
 -   [Adaptador de HTTP](../core/http-adapter.md)  
-  
--   [Adaptador de JD Edwards EnterpriseOne](../core/jd-edwards-enterpriseone-adapter.md) 
-  
--   [Adaptador de JD Edwards OneWorld](../core/jd-edwards-oneworld-adapter.md)  
-  
--   [Adaptador de Oracle E-Business Suite ODBC](../core/oracle-e-business-suite-odbc-adapter.md)  
-  
--   [Adaptador de bases de datos ODBC de Oracle](../core/oracle-database-odbc-adapter.md)  
-  
--   [Adaptador de PeopleSoft Enterprise](../core/peoplesoft-enterprise-adapter.md)  
-  
--   [Adaptador de aplicaciones Siebel eBusiness](../core/siebel-ebusiness-applications-adapter.md)  
-  
--   [Adaptador TIBCO Enterprise Message Service](../core/tibco-enterprise-message-service-adapter.md)  
-  
--   [Adaptador de TIBCO Rendezvous](../core/tibco-rendezvous-adapter.md)  
   
 -   [Adaptador de MQSeries](../core/mqseries-adapter.md)  
   
@@ -74,11 +62,11 @@ Esta sección contiene información completa acerca de adaptadores. Describe có
   
 -   [Adaptador de SQL](../core/sql-adapter.md)  
   
--   [Adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter.md)  
+-   [Adaptador de SharePoint Services](../core/windows-sharepoint-services-adapter.md)  
   
 -   [Adaptadores de WCF](../core/wcf-adapters.md)  
   
--   [Crear y eliminar controladores de adaptador](../core/creating-and-deleting-adapter-handlers.md)  
+-   [Creación y eliminación de controladores de adaptador](../core/creating-and-deleting-adapter-handlers.md)  
   
 -   [Parámetros de configuración que afectan al rendimiento del adaptador](../core/configuration-parameters-that-affect-adapter-performance.md)  
   
