@@ -17,7 +17,7 @@ ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a4f443bf0b60f0bb90a914824b3922110ee1b300
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
@@ -137,7 +137,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
  La aplicación ya puede utilizar el adaptador de HTTP.NET. Al configurar el adaptador, el formato para la **directorio Virtual** propiedades de transporte tiene el formato: /httpreceive/httpreceive.aspx?optionalQueryString.  
   
 ## <a name="comments"></a>Comentarios  
- El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en * \<ruta de ejemplos >*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
+ El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en *\<ruta de ejemplos >*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
   
 ## <a name="see-also"></a>Vea también  
  [Registrar un adaptador](../core/registering-an-adapter.md)   
