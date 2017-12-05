@@ -1314,7 +1314,7 @@
 ####### [Usar el modificador ThrowDetailedError](how-to-use-the-throwdetailederror-switch.md)
 ###### [Probar servicios web publicados](testing-published-web-services.md)
 ####### [Creación de una aplicación .NET para probar un servicio web publicado](creating-a-net-application-to-test-a-published-web-service.md)
-####### [Usar Internet Explorer para probar un servicio web publicado](how-to-use-internet-explorer-to-test-a-published-web-service.md)
+####### [Prueba de un servicio web](how-to-use-internet-explorer-to-test-a-published-web-service.md)
 ###### [Implementación de servicios web publicados en un equipo sin Visual Studio](deploying-published-web-services-on-a-non-visual-studio-computer.md)
 ####### [Crear una configuración web para el servicio web publicado](how-to-create-a-web-setup-for-your-published-web-service.md)
 ####### [Distribuir el paquete de configuración web](how-to-distribute-the-web-setup-package.md)
