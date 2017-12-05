@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55db4fcd1a6a65ac9058a69f9c315de593181a65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 803a8c671081afd3ba18b81d4770b80b26205eaf
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2c-add-a-fileact-send-port-for-the-fileact-store-and-forward-pull-scenario"></a>Paso 2c: agregar un puerto de envío de FILEACT para el escenario de avance (extracción) y el almacenamiento de FileAct
 Antes de comenzar este paso, debe completar [paso 2B: Agregar archivo puertos de envío para capturar los mensajes de Sw:HandleSnFRequest para el escenario de reenvío (extracción) y el almacenamiento de FileAct y Sw:HandleFileRequest](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md).  
@@ -41,11 +41,11 @@ Antes de comenzar este paso, debe completar [paso 2B: Agregar archivo puertos de
     |**Nombre de usuario.**|Defina el nombre de usuario según corresponda para la conectividad SAG.|  
     |**Modo del adaptador**|En la lista desplegable, seleccione **almacenar y retransmitir**.|  
     |**Indicador de sin repudio**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Tipo de solicitud**|Establecer correspondientes \<RequestType > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Tipo de solicitud**|Establecer correspondientes \<RequestType\> cadena, según su aprovisionamiento con SWIFT.|  
     |**RequestCrypto**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Solicitante**|Establecer correspondientes \<solicitante > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Servicio de respuesta**|Establecer correspondientes \<Respondedor > cadena.|  
-    |**Nombre del servicio**|Establecer correspondientes  **\<nombre del servicio >**.|  
+    |**Solicitante**|Establecer correspondientes \<solicitante\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Establecer correspondientes \<Respondedor\> cadena.|  
+    |**Nombre del servicio**|Establecer correspondientes  **\<nombre del servicio\>**.|  
     |**Indicador de confirmación**|En la lista desplegable, seleccione **FALSE**.|  
     |**Extremo de eventos**|En la lista desplegable, seleccione **FALSE**.|  
     |**Compresión de archivos**|En la lista desplegable, seleccione **ninguno**.|  
@@ -81,4 +81,4 @@ Antes de comenzar este paso, debe completar [paso 2B: Agregar archivo puertos de
   
 ## <a name="see-also"></a>Vea también  
  [Paso 2A: Agregar archivo ubicaciones de recepción para el escenario de reenvío (extracción) y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-fileact-store-and-forward-scenario.md)   
- [Paso 2B: agregar puertos de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el almacenamiento de FileAct y el reenvío de escenario (extracción)](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)
+ [Paso 2B: Agregar puertos de envío de ARCHIVOS para capturar los mensajes Sw:HandleFileRequest y Sw:HandleSnFRequest para el escenario de almacenamiento y reenvío (extracción) de FileAct](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)

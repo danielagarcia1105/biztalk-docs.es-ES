@@ -12,14 +12,14 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5e40d7c45ffc8622a420d87bd60e3b74659db93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3cccb7103a954e292db6ef4579cf950a8ec13e63
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="as2-support-in-biztalk-server"></a>Compatibilidad con AS2 en BizTalk Server
-En este tema se proporciona una breve descripción general del procesamiento de AS2 y como [!INCLUDE[prague](../includes/prague-md.md)] lo implementa.  
+En este tema se proporciona una breve descripción general de procesamiento de AS2 y cómo BizTalk Serverlo implementa.  
   
 ## <a name="introduction-to-as2"></a>Introducción a AS2  
  Un transporte común usado para EDI consiste en las redes de valor agregado (VAN). Se trata de redes privadas que proporcionan servicios de valor agregado, como por ejemplo las pistas de auditoría legalmente obligatorias. Sin embargo, las compañías están migrando hacia el intercambio de documentos EDI a través de Internet. De este modo, los costos se reducen al tiempo que aumenta la flexibilidad y la eficacia además de presentar ventajas en términos de redundancia y escalabilidad.  
@@ -31,7 +31,7 @@ En este tema se proporciona una breve descripción general del procesamiento de 
  Para obtener más información acerca de la mensajería EDI, vea [mensajería AS2](../core/as2-messaging.md).  
   
 ## <a name="how-as2-is-implemented-in-biztalk-server"></a>Implementar AS2 en BizTalk Server  
- [!INCLUDE[prague](../includes/prague-md.md)] incluye la funcionalidad nativa de proporcionar soporte para AS2. No se trata de un complemento del producto, como pueden ser los adaptadores o aceleradores, sino que está integrado en el producto y proporciona la funcionalidad siguiente:  
+ BizTalk Server incluye funcionalidad nativa que proporciona compatibilidad con AS2. No se trata de un complemento del producto, como pueden ser los adaptadores o aceleradores, sino que está integrado en el producto y proporciona la funcionalidad siguiente:  
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]usa métodos definidos de AS2 para enviar, recibir y comprobar los mensajes. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]ayuda a garantizar la seguridad de transferencia de datos mediante cifrado, firma y compresión. Para ello, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa claves de cifrado, firmas digitales y certificados.  
   
@@ -52,12 +52,12 @@ En este tema se proporciona una breve descripción general del procesamiento de 
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite invalidar el certificado de firma predeterminado para mensajes AS2 mediante la definición de un certificado por acuerdo. Para obtener instrucciones sobre cómo especificar un certificado diferente para una entidad, consulte [configurar propiedades de AS2](../core/configuring-as2-properties.md).  
   
 ## <a name="as2-components-in-biztalk-server"></a>Componentes de AS2 en BizTalk Server  
- Entre los componentes de [!INCLUDE[prague](../includes/prague-md.md)] que se usan para el transporte de AS2 se incluyen los siguientes:  
+ Componentes de BizTalk Server utilizados para el transporte AS2 incluyen lo siguiente:  
   
 -   La aplicación EDI de BizTalk que contiene artefactos (canalizaciones y esquemas incluidos) que se necesitan para procesar documentos AS2.  
   
     > [!NOTE]
-    >  Al configurar la característica de AS2 en [!INCLUDE[prague](../includes/prague-md.md)], el programa de configuración crea esta aplicación. Al crear una aplicación que procesará mensajes AS2, deberá agregar una referencia a la aplicación EDI de BizTalk desde su aplicación. Para obtener más información, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+    >  Al configurar la característica de AS2 en BizTalk Server, el programa de configuración crea esta aplicación. Al crear una aplicación que procesará mensajes AS2, deberá agregar una referencia a la aplicación EDI de BizTalk desde su aplicación. Para obtener más información, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 -   La canalización AS2EdiReceive que realiza el procesamiento AS2 y después el procesamiento EDI de un mensaje EDI recibido a través de AS2. Para obtener más información, consulte [componentes de recepción de AS2](../core/as2-receive-components.md).  
   
@@ -71,9 +71,9 @@ En este tema se proporciona una breve descripción general del procesamiento de 
   
 -   La interfaz de usuario de informes de estado que proporciona información completa sobre los intercambios AS2 y las confirmaciones correlacionadas. Para obtener más información, consulte [EDI y los informes de estado de AS2](../core/edi-and-as2-status-reporting.md).  
   
--   Una herramienta de migración (herramienta de migración de entidades) permite migrar datos de entidades con propiedades AS2 de BizTalk Server 2006 R2 o BizTalk Server 2009 a [!INCLUDE[prague](../includes/prague-md.md)]. Para obtener más información, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+-   Una herramienta de migración (herramienta de migración de entidades) permite migrar datos de entidades que contiene las propiedades de AS2 de BizTalk Server 2006 R2 o BizTalk Server 2009 a BizTalk Server. Para obtener más información, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## <a name="see-also"></a>Vea también  
  [AS2 Arquitectura de la solución](../core/as2-solution-architecture.md)   
  [EDI y AS2 informes de estado](../core/edi-and-as2-status-reporting.md)   
- [Desarrollar y configurar soluciones AS2 de BizTalk Server](../core/developing-and-configuring-biztalk-server-as2-solutions.md)
+ [Desarrollo y configuración de soluciones AS2 de BizTalk Server](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

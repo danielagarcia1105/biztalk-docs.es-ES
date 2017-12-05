@@ -12,17 +12,17 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c24eb75020f715245fc2b17f4bc1f81a7e34cd35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f556a5629fd98d910cbbbd83632ac1a6a1702e74
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="any-element-nodes"></a>Nodos Cualquier elemento
 En el Editor de BizTalk, puede usar un **cualquier elemento** nodo para indicar una ubicación dentro de un mensaje de instancia donde pueden aparecer elementos desconocidos. Esto es útil para situaciones en las que se sabe que puede aparecer algún elemento en una ubicación concreta de un mensaje de instancia, pero se desconoce el nombre del elemento o lo complicado que puede ser. Si coloca un **cualquier elemento** nodo en la ubicación adecuada en el esquema, BizTalk puede procesar esas partes desconocidas de un mensaje. El único requisito es que el XML correspondiente tenga un formato correcto.  
   
 > [!NOTE]
->  En el Editor de BizTalk, el **cualquier elemento** nodo se representa con la cadena \<cualquier > en la vista de árbol de esquema.  
+>  En el Editor de BizTalk, el **cualquier elemento** nodo se representa con la cadena \<cualquier\> en la vista de árbol de esquema.  
   
 > [!NOTE]
 >  Puede controlar el grado al que la parte desconocida del mensaje se valida como XML con formato correcto mediante la **Process Contents** propiedad. En muchos casos puede que necesite establecer el **Process Contents** propiedad **omitir** para el contenido de un mensaje de instancia en la ubicación de la **cualquier elemento** nodo que se va a procesar. Conserva el valor predeterminado de **Strict** para el **Process Contents** propiedad impide que la validación de mensaje de instancia de paso.  
@@ -49,4 +49,4 @@ En el Editor de BizTalk, puede usar un **cualquier elemento** nodo para indicar 
  [Representación de esquemas de BizTalk](../core/biztalk-representation-of-schemas.md)   
  [Propiedades de nodo](../core/node-properties.md)   
  [Cómo establecer propiedades de nodo](../core/how-to-set-node-properties.md)   
- [Los nodos de atributo](../core/any-attribute-nodes.md)
+ [Nodos Cualquier atributo](../core/any-attribute-nodes.md)

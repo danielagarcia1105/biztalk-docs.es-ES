@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c886bb4d32fa082c2c4c865a45b28133ce4a3aa0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3b20589229b1e3868f23c3823d2a26decc56081
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="what-is-biztalk-server-log-shipping"></a>¿Qué es el trasvase de registros de servidor BizTalk Server?
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]procedimientos de recuperación ante desastres se basan en BizTalk trasvase de registros. Registro de BizTalk envío simplifica la restauración de base de datos si se produce un desastre aplicando continuamente las actualizaciones del registro de transacciones para las bases de datos de sitio de recuperación ante desastres.  
+Procedimientos de recuperación ante desastres de BizTalk Server se basan en BizTalk trasvase de registros. Registro de BizTalk envío simplifica la restauración de base de datos si se produce un desastre aplicando continuamente las actualizaciones del registro de transacciones para las bases de datos de sitio de recuperación ante desastres.  
   
  Mientras que BizTalk trasvase de registros se basa en los principios similares como [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] envío, de registro [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trasvase de registros no es compatible con la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos de copia de seguridad como parte del trabajo del agente de copia de seguridad de BizTalk Server SQL.  
   

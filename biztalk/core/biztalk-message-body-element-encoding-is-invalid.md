@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fbf134b390af1904d74f1652aac00f6ea4b33ad2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b1835371e5c042d3ddc46558cbf97970f6bfc6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="biztalk-message-body-element-encoding-is-invalid"></a>Codificación de elemento de cuerpo de mensaje de BizTalk no válida
 ## <a name="details"></a>Detalles  
@@ -56,4 +56,4 @@ ms.lasthandoff: 09/20/2017
 8.  En el **WCF [***tipo de transporte***] propiedades de transporte** cuadro de diálogo, haga clic en el **mensajes** ficha.  
   
 9. En el **cuerpo del mensaje saliente de WCF** sección, haga clic en el **plantilla: contenido especificado por plantilla** botón de radio. En el **XML** cuadro de texto, el formato del cuerpo de BizTalk debe ser   
-    \<**BTS-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" encoding = "[xml &#124; base64 &#124; hex &#124; cadena]" /**> (los valores válidos, que distinguen mayúsculas de minúsculas, para su codificación son xml &#124; base64 &#124; hexadecimal &#124; cadena)
+    \<**BTS-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" encoding = "[xml &#124; base64 &#124; hex &#124; cadena]" /** \> (los valores válidos, que distinguen mayúsculas de minúsculas, para su codificación son xml &#124; base64 & # 124; hex &#124; cadena)

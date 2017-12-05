@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e9911322693f4c495925ce52bdfe62a65bf850f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25e4ee4eb51d56aaeb4f433fa523e416a8c908e0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-service-and-control-schemas"></a>Esquemas de control y servicio EDI
 Los esquemas de control son necesarios para procesar sobres de mensaje (esquemas de control de encabezado) y confirmaciones. Estos esquemas se implementan en Microsoft.BizTalk.Edi.BaseArtifacts.dll a través del programa de instalación. Estos esquemas no tienen que agregarse a proyectos de BizTalk, ya que se implementan en BaseArtifacts.dll. Debe agregar una referencia al ensamblado BaseArtifacts.dll en el proyecto que contiene los esquemas para que éstos se usen.  
@@ -37,10 +37,10 @@ Los esquemas de control son necesarios para procesar sobres de mensaje (esquemas
 |997 de X12|X12_997Schema|http://schemas.microsoft.com/Edi/X12|ST<br /><br /> SE<br /><br /> X12_997_Root|  
 |CONTRL de EDIFACT|Edifact_ContrlSchema|http://schemas.microsoft.com/Edi/Edifact|Efact_Contrl_Root<br /><br /> UCD<br /><br /> UCM<br /><br /> UCS|  
   
- Para la codificación X12, el esquema de confirmación funcional de 997 define los encabezados y finalizadores de mensaje, conjunto de transacciones, grupo e intercambio usados en el sobre de un mensaje, y los segmentos de AK1, AK2, AK3, AK4, AK5 y AK9 que notifican el resultado de la validación de cuerpo. El esquema de confirmación técnica TA1 define el encabezado y el finalizador de intercambio, y el segmento de confirmación TA1 que notifica el resultado de la validación del encabezado. La convención de nomenclatura para estos esquemas es X12_\<número de versión > _997.xsd y X12\_\<número de versión > _TA1.xsd. El espacio de nombres de destino para estos esquemas es http://schemas.microsoft.com/BizTalk/EDI/X12/2006.  
+ Para la codificación X12, el esquema de confirmación funcional de 997 define los encabezados y finalizadores de mensaje, conjunto de transacciones, grupo e intercambio usados en el sobre de un mensaje, y los segmentos de AK1, AK2, AK3, AK4, AK5 y AK9 que notifican el resultado de la validación de cuerpo. El esquema de confirmación técnica TA1 define el encabezado y el finalizador de intercambio, y el segmento de confirmación TA1 que notifica el resultado de la validación del encabezado. La convención de nomenclatura para estos esquemas es X12_\<número de versión\>_997.xsd y X12\_\<número de versión\>_TA1.xsd. El espacio de nombres de destino para estos esquemas es http://schemas.microsoft.com/BizTalk/EDI/X12/2006.  
   
- EDIFACT admite un paradigma de confirmación en dos fases. La primera confirmación es una recepción de intercambio construida a través de tres segmentos desde el esquema CONTRL. Esta confirmación técnica notifica el resultado de la validación de encabezados. La segunda confirmación usa los segmentos restantes del esquema CONTRL. La convención de nomenclatura para este esquema es EFACT_\<número de versión > _CONTRL.xsd. El espacio de nombres de destino para este esquema es http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006.  
+ EDIFACT admite un paradigma de confirmación en dos fases. La primera confirmación es una recepción de intercambio construida a través de tres segmentos desde el esquema CONTRL. Esta confirmación técnica notifica el resultado de la validación de encabezados. La segunda confirmación usa los segmentos restantes del esquema CONTRL. La convención de nomenclatura para este esquema es EFACT_\<número de versión\>_CONTRL.xsd. El espacio de nombres de destino para este esquema es http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo BizTalk Server recibe mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)   
- [Cómo BizTalk Server envía mensajes EDI](../core/how-biztalk-server-sends-edi-messages.md)
+ [Cómo envía BizTalk Server los mensajes EDI](../core/how-biztalk-server-sends-edi-messages.md)

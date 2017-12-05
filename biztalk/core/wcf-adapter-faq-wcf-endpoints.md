@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d09bb2fd72d9b1882b4e0a9eb329da7e080e6fe5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 90c59c586f0d7f1d02ad406baec694cf4e22ff24
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-adapter-faq-wcf-endpoints"></a>P+F del adaptador WCF: Los extremos WCF
 ## <a name="what-are-two-endpoints-options-can-be-created-by-the-biztalk-wcf-service-publishing-wizard"></a>¿Qué dos opciones de extremos puede crear el Asistente para publicación de Servicio WCF de BizTalk?  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
  Un extremo de WCF se compone de una dirección, un enlace y un contrato. Cuando el asistente crea un extremo de solo metadatos, obtiene los detalles de la dirección y el enlace de la ubicación de recepción que ya existe. La información de contrato se define mediante esquemas que pueden existir en una orquestación de BizTalk, o puede crearlas manualmente mediante el asistente. Si elige **publicar orquestaciones de BizTalk como un servicio WCF**, el punto de conexión de solo metadatos usa los tipos de mensaje y el puerto desde el ensamblado de orquestaciones para definir el contrato.  
   
- Si elige **publicar esquemas como servicio WCF**, el asistente le permite definir una definición de servicio especificando los nombres de servicio y la operación con los datos existentes y los esquemas de salida. El asistente crea un archivo .svc y un directorio virtual IIS para que se puedan examinar los metadatos después de publicarlos. El Asistente para publicación de servicio WCF de BizTalk también crea un archivo web.config con su atributo httpGetEnabled del \<serviceMetadata > elemento establecido en true. Esto publica los metadatos para que se puedan examinar. Si opta por publicar los metadatos del servicio de ubicación de recepción de BizTalk, que pueden tener acceso a datos a través de una solicitud GET a través de HTTP mediante un `?wsdl` al final de la dirección URL para el servicio.  
+ Si elige **publicar esquemas como servicio WCF**, el asistente le permite definir una definición de servicio especificando los nombres de servicio y la operación con los datos existentes y los esquemas de salida. El asistente crea un archivo .svc y un directorio virtual IIS para que se puedan examinar los metadatos después de publicarlos. El Asistente para publicación de servicio WCF de BizTalk también crea un archivo web.config con su atributo httpGetEnabled del \<serviceMetadata\> elemento establecido en true. Esto publica los metadatos para que se puedan examinar. Si opta por publicar los metadatos del servicio de ubicación de recepción de BizTalk, que pueden tener acceso a datos a través de una solicitud GET a través de HTTP mediante un `?wsdl` al final de la dirección URL para el servicio.  
   
 ## <a name="are-service-endpoints-hosted-in-iis-and-why"></a>¿Los extremos de servicio se hospedan en IIS? ¿Por qué?  
  Sí, un extremo de servicio se hospeda en IIS y usa uno de los tres adaptadores aislados:  

@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca76426ab461ce12844cde42f4050d3de885d7ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41d02fe0b7be1f53edaac4c18cfd7717a25c3a71
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>P+F del Adaptador de WCF: Utilizar Servicios de WCF
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>¿Cómo usa BizTalk Server sus adaptadores de WCF para obtener acceso a los servicios WCF?  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
  El adaptador personalizado de WCF de BizTalk no solo permite crear un nuevo enlace a partir de BindingsElements, sino que también permite configurar un nuevo enlace directamente. Además permite configurar comportamientos en enlaces estándar. Esto es de particular utilidad porque escribir comportamientos personalizados es mucho más fácil que escribir nuevos objetos BindingElements.  
   
- Creación de un objeto BindingElement es un ejercicio de desarrollo complejo y la mejor fuente de referencia es los ejemplos WCF en HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=142449" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. Para crear un BindingElement personalizado, debe crear una clase que se derive de BindingElement. Un objeto BindingElement nuevo tendrá que estar en un ensamblado nuevo. Este ensamblado debe estar instalado en la memoria caché global de ensamblados (GAC) del equipo de administración donde están configurados el host, el puerto de envío y la ubicación de recepción de BizTalk. Para asociar un enlace personalizado con un puerto de envío específico o ubicación de recepción, primero debe agregarlo a la \<bindingElementExtensions > sección del archivo machine.config en el mismo equipo.  
+ Creación de un objeto BindingElement es un ejercicio de desarrollo complejo y la mejor fuente de referencia es los ejemplos WCF en HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=142449" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=142449. Para crear un BindingElement personalizado, debe crear una clase que se derive de BindingElement. Un objeto BindingElement nuevo tendrá que estar en un ensamblado nuevo. Este ensamblado debe estar instalado en la memoria caché global de ensamblados (GAC) del equipo de administración donde están configurados el host, el puerto de envío y la ubicación de recepción de BizTalk. Para asociar un enlace personalizado con un puerto de envío específico o ubicación de recepción, primero debe agregarlo a la \<bindingElementExtensions\> sección del archivo machine.config en el mismo equipo.  
   
  Después de realizar ese cambio, a continuación, puede poner en funcionamiento la **configuración de propiedades de transporte** cuadro de diálogo para configurar el enlace.  
   

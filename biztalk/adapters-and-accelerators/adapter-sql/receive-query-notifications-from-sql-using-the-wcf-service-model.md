@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5507bbb21d1b5648a10be2230dd4476eacca1c78
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b21d2123b646a02669a9da65efc5069931e64c69
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-query-notifications-from-sql-using-the-wcf-service-model"></a>Recibir notificaciones de consulta de SQL mediante el modelo de servicio de WCF
 Este tema muestra cómo configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de notificación de consulta de una base de datos de SQL Server. Para mostrar las notificaciones, considere la posibilidad de una tabla de empleados, con una columna de "Status". Cuando se inserta un nuevo registro en esta tabla, el valor de la columna de estado se establece en 0. Puede configurar el adaptador para recibir notificaciones por registrarse para recibir notificaciones mediante una instrucción SQL que recupera todos los registros que tienen la columna de estado como "0". Puede hacerlo mediante la especificación de la instrucción SQL para la **NotificationStatement** propiedad de enlace. Una vez que el cliente de adaptador recibe la notificación, puede contener la lógica para realizar las tareas siguientes en la base de datos de SQL Server. En este ejemplo, por simplicidad, el cliente de adaptador enumera todos los registros en la tabla que tienen la columna de estado como "0".  
@@ -30,7 +30,7 @@ Este tema muestra cómo configurar el [!INCLUDE[adaptersqlshort](../../includes/
 |Propiedad de enlace|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|Especifica la operación de entrada que se desea realizar. Para recibir mensajes de notificación, establezca esta propiedad en **notificación**.|  
-|**NotificationStatement**|Especifica la instrucción SQL (SELECT o EXEC \< *procedimiento almacenado*>) usa para registrar las notificaciones de consulta. El adaptador obtiene un mensaje de notificación de SQL Server sólo cuando el conjunto de resultados para que los cambios de instrucción SQL especificados.|  
+|**NotificationStatement**|Especifica la instrucción SQL (SELECT o EXEC \< *procedimiento almacenado*\>) usa para registrar las notificaciones de consulta. El adaptador obtiene un mensaje de notificación de SQL Server sólo cuando el conjunto de resultados para que los cambios de instrucción SQL especificados.|  
 |**NotifyOnListenerStart**|Especifica si el adaptador envía una notificación a los clientes de adaptador cuando se inicia el agente de escucha.|  
   
  Para obtener una descripción más completa de estas propiedades, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Para obtener una descripción completa de cómo usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir notificaciones de SQL Server, seguir leyendo.  
@@ -174,7 +174,7 @@ namespace SqlAdapterBindingNamespace {
   
                 Console.WriteLine("The details of the newly added employee are:");  
                 Console.WriteLine("********************************************");  
-                for (int i = 0; i \< selectRecords.Length; i++)  
+                for (int i = 0; i < selectRecords.Length; i++)  
                 {  
                     Console.WriteLine("Employee Name      : " + selectRecords[i].Name);  
                     Console.WriteLine("Employee Designation: " + selectRecords[i].Designation);  

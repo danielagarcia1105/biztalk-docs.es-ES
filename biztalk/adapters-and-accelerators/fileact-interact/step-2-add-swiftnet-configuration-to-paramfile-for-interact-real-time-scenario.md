@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 249bfb8120a7b7d44ee0f73e7b5e5cef34126670
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e33203279e045b28d2098ca78c55403c7070b64
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-interact-real-time-scenario"></a>Paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario en tiempo real de interactuar
 Los asociados de mensaje de servidor creados en SAG deben especificarse en el paramfile SWIFTNet para permitir que los receptores inicializar con estos valores. Antes de comenzar el procedimiento, debe completar las instrucciones de [paso 1: configurar el adaptador de SWIFT para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md).  
@@ -41,7 +41,7 @@ Los asociados de mensaje de servidor creados en SAG deben especificarse en el pa
   
      subsystem_start:  
   
-     **spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para interactuar RT > - AdapterMode Interact"**  
+     **spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para interactuar RT \> - AdapterMode Interact"**  
   
      * FINAL  
   
@@ -89,4 +89,4 @@ Los asociados de mensaje de servidor creados en SAG deben especificarse en el pa
  [Interactuar en tiempo real escenario](../../adapters-and-accelerators/fileact-interact/interact-real-time-scenario.md)   
  [Paso 1: Configurar el adaptador de SWIFT para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md)   
  [Paso 3: Crear el envío y puertos de recepción para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-the-interact-real-time-scenario.md)   
- [Paso 4: Probar el escenario de extremo a extremo en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)
+ [Paso 4: Probar el escenario integral de InterAct en tiempo real](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)

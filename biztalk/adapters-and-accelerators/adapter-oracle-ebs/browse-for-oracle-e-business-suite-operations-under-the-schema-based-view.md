@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e3dea968a12470498012f7dae4fb3093fc05e59
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4b9dedc20103787f449cc8c5ac475ef2ed2e0f82
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-schema-based-view"></a>Busque las operaciones de Oracle E-Business Suite en la vista de esquema
 Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] para buscar operaciones entrantes y salientes que pueden realizarse en Oracle E-Business Suite con la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. Este tema proporciona información acerca de cómo buscar operaciones entrantes y salientes en la vista de esquema.  
@@ -67,16 +67,16 @@ Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterse
      ![Buscar tablas en la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-ebs/media/94dd4642-1178-4d88-986b-f0ad409c414c.gif "94dd4642-1178-4d88-986b-f0ad409c414c")  
   
     > [!NOTE]
-    >  Si una tabla contiene columnas de tipo BLOB, CLOB, NCLOB o BFILE el adaptador también expone una operación específica para leer los datos de esas columnas. El nombre de tales operaciones son Read_\<LOBColName >. Por ejemplo, si la tabla tiene una columna, fotos, de tipo BLOB, el adaptador expone un **Read_PHOTO** operación. Si una tabla tiene más de una columna de tipo BLOB, CLOB, NCLOB y BFILE el adaptador expondrá tantos número de Read_\<LOBColName > operaciones.  
+    >  Si una tabla contiene columnas de tipo BLOB, CLOB, NCLOB o BFILE el adaptador también expone una operación específica para leer los datos de esas columnas. El nombre de tales operaciones son Read_\<LOBColName\>. Por ejemplo, si la tabla tiene una columna, fotos, de tipo BLOB, el adaptador expone un **Read_PHOTO** operación. Si una tabla tiene más de una columna de tipo BLOB, CLOB, NCLOB y BFILE el adaptador expondrá tantos número de Read_\<LOBColName\> operaciones.  
     >   
-    >  De forma similar, si una tabla contiene columnas de tipo BLOB, CLOB y NCLOB el adaptador también expone una operación específica para actualizar datos en esas columnas. El nombre de tales operaciones son Update_\<LOBColName >. Por ejemplo, si la tabla tiene una columna, fotos, de tipo BLOB, el adaptador expone un **Update_PHOTO** operación. Si una tabla tiene más de una columna de tipo BLOB, CLOB y NCLOB el adaptador expondrá tantos número de Update_\<LOBColName > operaciones. Tenga en cuenta que la operación de actualización no se admite en las columnas de tipo BFILE.  
+    >  De forma similar, si una tabla contiene columnas de tipo BLOB, CLOB y NCLOB el adaptador también expone una operación específica para actualizar datos en esas columnas. El nombre de tales operaciones son Update_\<LOBColName\>. Por ejemplo, si la tabla tiene una columna, fotos, de tipo BLOB, el adaptador expone un **Update_PHOTO** operación. Si una tabla tiene más de una columna de tipo BLOB, CLOB y NCLOB el adaptador expondrá tantos número de Update_\<LOBColName\> operaciones. Tenga en cuenta que la operación de actualización no se admite en las columnas de tipo BFILE.  
   
 9. Expanda el **vistas** nodo para ver la lista de vistas para un esquema determinado. Haga clic en el nombre de una vista para ver las operaciones admitidas en la vista en la **categorías y operaciones disponibles** cuadro.  
   
      ![Examinar vistas en la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-ebs/media/e1893e48-065c-4642-b076-192758d103db.gif "e1893e48-065c-4642-b076-192758d103db")  
   
     > [!NOTE]
-    >  Si una vista contiene columnas de tipo BLOB, CLOB, NCLOB o BFILE el adaptador también expone una operación específica para leer los datos de esas columnas. El nombre de tales operaciones son Read_\<LOBColName >. Por ejemplo, si la vista tiene una columna, la regla de tipo BLOB, el adaptador expone un **Read_RULE** operación. Si una vista tiene más de una columna de tipo BLOB, CLOB, NCLOB o BFILE el adaptador expondrá tantos número de Read_\<LOBColName > operaciones. Tenga en cuenta que Update_\<LOBColName > operaciones no se admiten en las vistas.  
+    >  Si una vista contiene columnas de tipo BLOB, CLOB, NCLOB o BFILE el adaptador también expone una operación específica para leer los datos de esas columnas. El nombre de tales operaciones son Read_\<LOBColName\>. Por ejemplo, si la vista tiene una columna, la regla de tipo BLOB, el adaptador expone un **Read_RULE** operación. Si una vista tiene más de una columna de tipo BLOB, CLOB, NCLOB o BFILE el adaptador expondrá tantos número de Read_\<LOBColName\> operaciones. Tenga en cuenta que Update_\<LOBColName\> operaciones no se admiten en las vistas.  
   
 ## <a name="browsing-for-inbound-operations"></a>Buscar operaciones entrantes  
  Realice los pasos siguientes para examinar las operaciones de entrada en la vista de esquema.  

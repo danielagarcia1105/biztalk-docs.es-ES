@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ab8c4b32a5a5f588e76d155c2f8d052398f1a247
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8557c8bbe8c0b1c785d6da8d87e8950d3779b8d0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="settings-that-can-be-modified-to-improve-network-performance"></a>Configuración que puede modificarse para mejorar el rendimiento de red
 Este tema proporciona una descripción de los valores recomendados que afectan al rendimiento red.  
@@ -27,7 +27,7 @@ Este tema proporciona una descripción de los valores recomendados que afectan a
 ## <a name="adjust-the-maxuserport-and-tcptimedwaitdelay-settings"></a>Ajustar la configuración de puerto de usuario máximo y TcpTimedWaitDelay  
  El **MaxUserPort** valor controla el número de puerto máximo que se utiliza cuando una aplicación solicita un puerto de usuario disponible desde el sistema. Normalmente, los puertos de corta duración se asignan en el intervalo comprendido entre 1025 y 65535. El intervalo de puertos ahora es realmente un intervalo con un punto de partida y con un punto de conexión. El nuevo puerto de inicio predeterminado es 49152 y el puerto de extremo predeterminado es 65535. Este intervalo es además de los puertos conocidos que utilizan los servicios y aplicaciones. El intervalo de puertos que se usa los servidores puede modificarse en cada servidor. Ajustar este intervalo con el comando netsh, como se indica a continuación:  
   
- **netsh int \<ipv4 &#124; ipv6 > establecer puertos dinámicos \<tcp &#124; udp > iniciar = num número = intervalo**  
+ **netsh int \<ipv4 &#124; ipv6\> establecer puertos dinámicos \<tcp &#124; udp\> iniciar = num número = intervalo**  
   
  Este comando establece el intervalo de puertos dinámicos para TCP. El puerto de inicio es **número**, y es el número total de puertos **intervalo**. Los siguientes son ejemplos de comandos: puede ver el intervalo de puertos dinámicos mediante los comandos netsh siguientes:  
   

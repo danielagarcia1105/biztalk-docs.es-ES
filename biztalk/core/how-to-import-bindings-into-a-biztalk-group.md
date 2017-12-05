@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1cfc20fea950c737d59e6b325744a02ee67bb63f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a64bac6c64a9aadc772bfe8445b23f87b469471d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-import-bindings-into-a-biztalk-group"></a>Cómo importar enlaces a un grupo de BizTalk
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para importar los enlaces en un grupo de BizTalk desde un archivo .xml. Para obtener instrucciones acerca de cómo exportar los enlaces de un grupo de BizTalk a un archivo .xml que se puede importar, consulte [cómo exportar enlaces para un grupo de BizTalk](../core/how-to-export-bindings-for-a-biztalk-group.md).  
@@ -43,7 +43,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 4.  Haga clic en el archivo de enlace y haga clic en **abiertos**.  
   
-     Los artefactos del archivo de enlace se escriben en el grupo. Se muestran en las carpetas correspondientes de la \<todos los artefactos > nodo.  
+     Los artefactos del archivo de enlace se escriben en el grupo. Se muestran en las carpetas correspondientes de la \<todos los artefactos\> nodo.  
   
 #### <a name="using-the-command-line"></a>Utilizar la línea de comandos  
   
@@ -66,4 +66,4 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 ## <a name="see-also"></a>Vea también  
  [Importación de directivas, los enlaces y las aplicaciones de BizTalk](../core/importing-biztalk-applications-bindings-and-policies.md)   
- [Comando ImportBindings](../core/importbindings-command.md)
+ [ImportBindings (comando)](../core/importbindings-command.md)

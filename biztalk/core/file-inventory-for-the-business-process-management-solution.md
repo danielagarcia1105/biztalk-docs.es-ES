@@ -13,16 +13,16 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8ffc18f5d1bf5680586e63a5310454426b26c83
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4cc187a96e7252fad7edacba10b7a3dcc39c1b33
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-inventory-for-the-business-process-management-solution"></a>Inventario de archivos para la solución de administración de procesos empresariales
-En esta sección se enumeran los subdirectorios y los archivos de origen para la solución de administración de procesos empresariales. El directorio de instalación predeterminado para los archivos de origen de la solución de administración de procesos empresariales es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación >.  
+En esta sección se enumeran los subdirectorios y los archivos de origen para la solución de administración de procesos empresariales. El directorio de instalación predeterminado para los archivos de origen de la solución de administración de procesos empresariales es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación\>.  
   
- Los archivos \<directorio de instalación >  
+ Los archivos \<directorio de instalación\>  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -32,14 +32,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ReplacePKToken.wsf|Archivo de secuencia de comandos para el VBScript ReplacePKToken.|  
 |SetupBPM.bat|Crea una clave pública, actualiza las referencias a la clave pública y compila la solución. Para obtener información acerca de cómo implementar la solución, vea [implementar la solución de administración de procesos empresariales](../core/deploying-the-business-process-management-solution.md).|  
   
- Los archivos \<directorio de instalación > \BAM  
+ Los archivos \<directorio de instalación\>\BAM  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |BAMServiceOrder.xls|Hoja de cálculo de Excel para los datos de SAE.|  
 |BAMServiceOrder.xml|Esquema que define los tipos de elementos de datos de SAE.|  
   
- Los archivos \<directorio de instalación > \Bindings  
+ Los archivos \<directorio de instalación\>\Bindings  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -50,7 +50,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderBrokerAppBindings-test.xml|Archivo de enlace para la versión de prueba de la **OrderBrokerApp** aplicación.|  
 |OrderBrokerAppBindings.xml|Archivo de enlace para el **OrderBrokerApp** aplicación.|  
   
- Los archivos \<directorio de instalación > \CableProvisioningSystemClient  
+ Los archivos \<directorio de instalación\>\CableProvisioningSystemClient  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -59,7 +59,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CPSClient.cs|Origen para el cliente. Incluye el **OrderHandlerWrapper** código de la clase.|  
 |OrderException.cs|Archivo C# para la clase que define la **OrderException**.|  
   
- Los archivos \<directorio de instalación > \CableProvisioningSystemServer  
+ Los archivos \<directorio de instalación\>\CableProvisioningSystemServer  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -68,7 +68,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CableProvisioningSystemServer.csproj.user|Archivo de opciones de usuario de proyecto de Visual Studio|  
 |CPSServer.cs|Origen para el servidor.|  
   
- Los archivos \<directorio de instalación > \CSRWebApp  
+ Los archivos \<directorio de instalación\>\CSRWebApp  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -76,7 +76,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CSRMainForm.aspx.cs|Formulario de código C# subyacente.|  
 |Web.Config|Archivos de configuración para el formulario.|  
   
- Los archivos \<directorio de instalación > \CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
+ Los archivos \<directorio de instalación\>\CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -84,7 +84,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |orderbrokerorch_orderport.discomap|Archivo generado.|  
 |orderbrokerorch_orderport.wsdl|Archivo WSDL para el **OrderBroker** presenta como un servicio web.|  
   
- Los archivos \<directorio de instalación > \FacilitiesSimulator  
+ Los archivos \<directorio de instalación\>\FacilitiesSimulator  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -93,14 +93,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |FacilitiesSimulatorForm.cs|Código C# del simulador de instalaciones.|  
 |FacilitiesSimulatorForm.resx|Archivo de recursos.|  
   
- Los archivos \<directorio de instalación > \HistoryDB  
+ Los archivos \<directorio de instalación\>\HistoryDB  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |CreateDatabase.cmd|Archivo que controla al archivo SQL que crea la base de datos de historial.|  
 |SouthridgeVideoHistory.sql|Comandos SQL para crear la base de datos de historial.|  
   
- Los archivos \<directorio de instalación > \IOperationsSystem  
+ Los archivos \<directorio de instalación\>\IOperationsSystem  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -108,7 +108,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |IOperationsSystem.csproj|Archivo de proyecto de C#.|  
 |IOperationsSystem.csproj.user|Archivo de opciones de usuario de proyecto de Visual Studio|  
   
- Los archivos \<directorio de instalación > \IOrderHandler  
+ Los archivos \<directorio de instalación\>\IOrderHandler  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -116,14 +116,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |IOrderHandler.cs|Definición de interfaz para la **OrderHandler**.|  
 |IOrderHandler.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \Maps  
+ Los archivos \<directorio de instalación\>\Maps  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |Maps.btproj|Archivo de proyecto de BizTalk.|  
 |Order_To_SQLUpdateStatus.btm|Asignación para convertir un pedido en mensaje para actualizar el estado.|  
   
- Los archivos \<directorio de instalación > \MessagingSchemas  
+ Los archivos \<directorio de instalación\>\MessagingSchemas  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -133,7 +133,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderStatusEnvelope.xsd|Esquema que define el sobre de un mensaje de estado de pedido.|  
 |SQLUpdateStatus.xsd|Esquema que define el sobre de un mensaje de actualización de estado de SQL.|  
   
- Los archivos \<directorio de instalación > \OperationsClient  
+ Los archivos \<directorio de instalación\>\OperationsClient  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -142,14 +142,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OpsClient.cs|Código C# del cliente de operaciones.|  
 |OpsExceptions.cs|Código C# que define la excepción de operaciones.|  
   
- Los archivos \<directorio de instalación > \OperationsHandler  
+ Los archivos \<directorio de instalación\>\OperationsHandler  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |OperationsHandler.csproj|Archivo de proyecto de C# para el controlador de operaciones.|  
 |OpsHandler.cs|Código C# para el **OpsHandler**. Utilizado por el **OpsClient** para realizar solicitudes de los sistemas de operaciones.|  
   
- Los archivos \<directorio de instalación > \OperationsServer  
+ Los archivos \<directorio de instalación\>\OperationsServer  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -157,7 +157,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OperationsServer.csproj|Archivo de proyecto de C# para el servidor de operaciones.|  
 |OpsServer.cs|Código C# para el servidor de operaciones que proporciona instancias de la **OpsHandler** objeto.|  
   
- Los archivos \<directorio de instalación > \OpsAdapter  
+ Los archivos \<directorio de instalación\>\OpsAdapter  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -165,14 +165,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Register_Ops_Adapter.vbs|VBScript para registrar el adaptador Ops.|  
 |SetupOpsAdapter.bat|Archivo por lotes para configurar el adaptador Ops.|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\IOpsAIC  
+ Los archivos \<directorio de instalación\>\OpsAdapter\IOpsAIC  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |IOpsAIC.cs|Archivo de código de C# para la interfaz que define el **inicializar** y **Execute** métodos llamados por el adaptador Ops.|  
 |IOpsAIC.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\OpsAdapterMgmt  
+ Los archivos \<directorio de instalación\>\OpsAdapter\OpsAdapterMgmt  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -182,7 +182,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |TransmitHandler.xsd|Archivo de origen C# del adaptador Ops.|  
 |TransmitLocation.xsd|Archivo de origen C# del adaptador Ops.|  
   
- Los archivos \<directorio de instalación > \OpsAdapter\OpsTxAdapter  
+ Los archivos \<directorio de instalación\>\OpsAdapter\OpsTxAdapter  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -193,7 +193,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OpsTransmitter.cs|Archivo de origen C# del adaptador Ops.|  
 |OpsTxAdapter.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderActions  
+ Los archivos \<directorio de instalación\>\Orchestrations\CableOrderActions  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -205,28 +205,28 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Complete.odx|El **completar** orquestación usada por las fases de procesamiento de pedido.|  
 |Validate.odx|El **validar** orquestación usada por las fases de procesamiento de pedido.|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage1  
+ Los archivos \<directorio de instalación\>\Orchestrations\CableOrderStage1  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |CableOrder1.odx|Orquestación para la primera fase de procesamiento de pedido.|  
 |CableOrderStage1.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \Orchestrations\CableOrderStage2  
+ Los archivos \<directorio de instalación\>\Orchestrations\CableOrderStage2  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |CableOrder2.odx|Orquestación para la segunda fase de procesamiento de pedido.|  
 |CableOrderStage2.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \Orchestrations\OrderBroker  
+ Los archivos \<directorio de instalación\>\Orchestrations\OrderBroker  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |OrderBroker.btproj|Archivo de proyecto de BizTalk.|  
 |OrderBroker.odx|El **OrderBroker** orquestación.|  
   
- Los archivos \<directorio de instalación > \Orchestrations\OrderManager  
+ Los archivos \<directorio de instalación\>\Orchestrations\OrderManager  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -237,7 +237,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderManager.btproj|Archivo de proyecto de BizTalk.|  
 |OrderManager.odx|El **OrderManager** orquestación.|  
   
- Los archivos \<directorio de instalación > \OrderBrokerMaps  
+ Los archivos \<directorio de instalación\>\OrderBrokerMaps  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -247,7 +247,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderBrokerMaps.btproj|Archivo de proyecto de BizTalk.|  
 |Order_To_CSR_OrderRequest.btm|Asignación para convertir un mensaje de pedido en una solicitud de pedido de atención al cliente.|  
   
- Los archivos \<directorio de instalación > \OrderBrokerSchemas  
+ Los archivos \<directorio de instalación\>\OrderBrokerSchemas  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -256,7 +256,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Servicing_OrderRequest.xsd|Esquema que define el mensaje enviado al sistema de servicio.|  
 |SQLHistoryInsert.xsd|Esquema para el mensaje de historial de SQL.|  
   
- Los archivos \<directorio de instalación > \OrderBroker_Proxy  
+ Los archivos \<directorio de instalación\>\OrderBroker_Proxy  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -265,34 +265,34 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderBrokerOrch_OrderPort.asmx|Archivo generado.|  
 |Web.config|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \OrderBroker_Proxy\App_Code  
+ Los archivos \<directorio de instalación\>\OrderBroker_Proxy\App_Code  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |DataTypes.cs|Archivo generado.|  
 |OrderBrokerOrch_OrderPort.asmx.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \OrderHandler  
+ Los archivos \<directorio de instalación\>\OrderHandler  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |OrderHandler.cs|Código C# para el **OrderHandler** objeto.|  
 |OrderHandler.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \Rules  
+ Los archivos \<directorio de instalación\>\Rules  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |DecodeAndValidateOrderRules.xml|Archivo de reglas para el motor de reglas de negocios.|  
   
- Los archivos \<directorio de instalación > \SampleMessages  
+ Los archivos \<directorio de instalación\>\SampleMessages  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |CSR_OrderRequest.xml|Solicitud de pedido de atención al cliente de ejemplo.|  
 |OrderEnvelope.xml|Sobre de pedido de ejemplo.|  
   
- Los archivos \<directorio de instalación > \SchemaClasses  
+ Los archivos \<directorio de instalación\>\SchemaClasses  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -300,7 +300,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |InternalMessages.cs|Código C# para las clases que definen los mensajes utilizados para la comunicación entre los componentes de la solución.|  
 |SchemaClasses.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \Schemas  
+ Los archivos \<directorio de instalación\>\Schemas  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -308,7 +308,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |OrderPropertySchema.xsd|Esquema de propiedades promocionadas para el mensaje de pedido.|  
 |Schemas.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \Scripts  
+ Los archivos \<directorio de instalación\>\Scripts  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -321,7 +321,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |regac.bat|Archivo por lotes para registrar ensamblados en la caché de ensamblados global (GAC).|  
 |SouthridgeVideoSSOConfiguration.xml|Archivo que contiene los valores de configuración SSO iniciales.|  
   
- Los archivos \<directorio de instalación > \ServiceLevelTracking  
+ Los archivos \<directorio de instalación\>\ServiceLevelTracking  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -331,7 +331,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ServiceLevelTracking.cs|Código C# para definir la clase base abstracta para las actividades.|  
 |ServiceLevelTracking.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \Utilities  
+ Los archivos \<directorio de instalación\>\Utilities  
   
 |Archivo|Description|  
 |----------|-----------------|  

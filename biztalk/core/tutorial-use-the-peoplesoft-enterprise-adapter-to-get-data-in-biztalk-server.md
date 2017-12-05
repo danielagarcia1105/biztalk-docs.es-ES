@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 823bd5739ac58d8b63f79ee15102cf44f3d82c7a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 510ee984688d218e2c83b4e70dcdf737cd5566e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-retrieve-data-from-peoplesoft-enterprise"></a>Tutorial: Uso del adaptador de BizTalk para PeopleSoft Enterprise para recuperar datos de PeopleSoft Enterprise
 El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para ejecutar una consulta en un sistema PeopleSoft y devolver los resultados de la misma. En este tutorial se describe un ejemplo de SDK que muestra esta función.  
@@ -163,7 +163,7 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para ejecutar u
   
 1.  Haga doble clic en **LOCATIONService_1.xsd** en el Explorador de soluciones para abrir el archivo en el Editor de esquemas.  
   
-2.  Haga clic en el  **\<esquema >** nodo Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
+2.  Haga clic en el  **\<esquema\>**  nodo Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
   
 3.  Seleccione **obtener** en la lista de nodos disponibles en la **referencia raíz** cuadro de lista desplegable. Esto debe hacerse para que cuando se genera una instancia de documento de ejemplo se generará en el **obtener** nodo del esquema.  
   
@@ -180,7 +180,7 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para ejecutar u
   
 8.  Haga clic en LOCATIONService_1.xsd en el Explorador de soluciones y haga clic en **generar instancia** para generar una instancia de documento en la ubicación especificada.  
   
-9. Haga clic en el  **\<esquema >** nodo Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
+9. Haga clic en el  **\<esquema\>**  nodo Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
   
 10. Seleccione (**predeterminado)** en la lista de nodos disponibles en la **referencia raíz** cuadro de lista desplegable.  
   
@@ -267,4 +267,4 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para ejecutar u
 10. El adaptador de archivos escribe un mensaje que contiene el conjunto de resultados en la carpeta de salida designada.  
   
 ## <a name="see-also"></a>Vea también  
- [Tutoriales: Usar el adaptador de BizTalk para PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)
+ [Tutoriales: Uso del adaptador de BizTalk para PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)

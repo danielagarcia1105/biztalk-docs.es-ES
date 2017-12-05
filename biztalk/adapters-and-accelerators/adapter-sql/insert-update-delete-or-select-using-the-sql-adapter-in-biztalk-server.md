@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2216116e00e587d8da0d69cea8cd1c364e5786b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 688c4a192a77dbc01de438c20be709dc4b3c378c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-the-sql-adapter"></a>Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con el adaptador de SQL
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone un conjunto de operaciones estándar en vistas y tablas de base de datos de SQL Server. Se conocen como operaciones de DML (lenguaje) de manipulación de datos. Mediante el uso de las operaciones DML, puede realizar Select simple de Insert, Update y operaciones Delete en tablas y vistas. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [Insert, Update, Delete y seleccione las operaciones en tablas y vistas con el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/insert-update-delete-and-select-on-tables-and-views-with-the-sql-adapter.md). Para obtener información acerca de la estructura del mensaje SOAP para estas operaciones, vea [esquemas de mensaje para Insert, Update, Delete y seleccione las operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-sql/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  
@@ -168,7 +168,7 @@ La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone un conjunto de
  La orquestación consume el mensaje y lo envía a la base de datos de SQL Server. La respuesta de base de datos de SQL Server se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de SQL Server para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <SelectResponse xmlns="mssql://Microsoft.LobServices.Sql/2008/01/TVOp/dbo/Employee">  
   <SelectResult>  
     <Employee xmlns="mssql://Microsoft.LobServices.Sql/2008/01/Types/Tables/dbo">  

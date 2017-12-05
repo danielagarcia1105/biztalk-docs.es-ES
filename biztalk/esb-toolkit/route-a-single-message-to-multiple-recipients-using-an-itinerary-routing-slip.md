@@ -12,15 +12,15 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2fa96603bc93c9d5d19ef102695a1189a50d00ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6c493b33081e540a4e18d6d20e4813cdddad894a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip"></a>Cómo: enrutar un mensaje único a varios destinatarios mediante una lista de distribución itinerarios
 ## <a name="goal"></a>Objetivo  
- Esta sección muestra cómo utilizar el lenguaje de diseñador específico de dominio (DSL) para crear un itinerario que enruta un mensaje a tres destinatarios distintos con una resolución estática y la [!INCLUDE[prague](../includes/prague-md.md)] adaptador de archivo.  
+ Esta sección muestra cómo utilizar el lenguaje de diseñador específico de dominio (DSL) para crear un itinerario que enruta un mensaje a tres destinatarios distintos con una resolución estática y el adaptador de archivo de BizTalk Server.  
   
  En este tema "Cómo...", se realizarán los pasos siguientes:  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>Para crear un modelo DSL itinerario de ESB  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en **ItineraryLibrary**, seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -180,4 +180,4 @@ ms.lasthandoff: 09/20/2017
   
 -   [Patrones de enrutamiento de mensajes](../esb-toolkit/message-routing-patterns.md)  
   
--   [Uso de resolución dinámica y enrutamiento](../esb-toolkit/using-dynamic-resolution-and-routing.md)
+-   [Uso de resolución y enrutamiento dinámicos](../esb-toolkit/using-dynamic-resolution-and-routing.md)

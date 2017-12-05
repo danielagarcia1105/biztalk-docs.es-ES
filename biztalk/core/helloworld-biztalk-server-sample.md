@@ -16,11 +16,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a5e8057837012d27a877117a169c2cd04fa3d8d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e70271967086f530ce5421348c118a74019dd366
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="helloworld-biztalk-server-sample"></a>HelloWorld (ejemplo de BizTalk Server)
 En el ejemplo HelloWorld se muestra cómo utilizar orquestaciones de BizTalk para convertir un mensaje XML (un pedido), a un tipo de mensaje (una factura) relacionado pero distinto.  
@@ -40,7 +40,7 @@ En el ejemplo HelloWorld se muestra cómo utilizar orquestaciones de BizTalk par
  Para obtener más información sobre la **transformar** forma, consulte [cómo configurar la forma transformación](../core/how-to-configure-the-transform-shape.md). Para obtener más información acerca de cómo generar un mapa, consulte [crear asignaciones usando asignador de BizTalk](../core/creating-maps-using-biztalk-mapper.md).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Orchestrations\HelloWorld\  
+ \<*Ejemplos de ruta de acceso*\>\Orchestrations\HelloWorld\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -61,13 +61,13 @@ En el ejemplo HelloWorld se muestra cómo utilizar orquestaciones de BizTalk par
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Orchestrations\HelloWorld  
+     \<*Ejemplos de ruta de acceso*\>\Orchestrations\HelloWorld  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta siguiente:  
   
-         \<*Ejemplos de ruta de acceso*> \Orchestrations\HelloWorld  
+         \<*Ejemplos de ruta de acceso*\>\Orchestrations\HelloWorld  
   
     -   Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
@@ -84,7 +84,7 @@ En el ejemplo HelloWorld se muestra cómo utilizar orquestaciones de BizTalk par
   
 1.  Pegue una copia del archivo SamplePOInput.xml en la **en** carpeta.  
   
-2.  Observe el archivo .xml creado en el **Out** carpeta. Este archivo contiene la factura XML construida a partir del archivo de entrada SamplePOInput.xml. El formato del nombre de este archivo es \< *MessageID*> .xml, donde  *\<MessageID >* es el GUID generado para identificar de forma exclusiva el mensaje.  
+2.  Observe el archivo .xml creado en el **Out** carpeta. Este archivo contiene la factura XML construida a partir del archivo de entrada SamplePOInput.xml. El formato del nombre de este archivo es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el mensaje .  
   
 ## <a name="uninstalling-this-sample"></a>Desinstalar este ejemplo  
   
@@ -92,9 +92,9 @@ En el ejemplo HelloWorld se muestra cómo utilizar orquestaciones de BizTalk par
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Orchestrations\HelloWorld\  
+     \<*Ejemplos de ruta de acceso*\>\Orchestrations\HelloWorld\  
   
 2.  Ejecute Cleanup.bat.  
   
 ## <a name="see-also"></a>Vea también  
- [Orquestaciones (carpeta de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)
+ [Orquestaciones (carpetas de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)

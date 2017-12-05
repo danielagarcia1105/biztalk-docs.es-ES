@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d520026b9037f10f2ed20f52a366b1ff9d3183a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51b3d4761c32123db53ea35daf91d0f13d9a2488
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-monitoring"></a>Prácticas recomendadas para la supervisión
-Este tema proporciona prácticas recomendadas para la supervisión de la Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y las aplicaciones.  
+Este tema proporciona prácticas recomendadas para la supervisión de su entorno de Microsoft BizTalk Server y las aplicaciones.  
   
  **Crear y, a continuación, implementar un plan de supervisión de las aplicaciones de BizTalk y la infraestructura**  
   
@@ -35,11 +35,11 @@ Este tema proporciona prácticas recomendadas para la supervisión de la Microso
   
     -   ¿Son todos los servicios personalizados, registros de eventos personalizados y bases de datos personalizadas supervisados?  
   
-    -   ¿Son los equipos de SQL Server y la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trabajos del Agente SQL supervisados?  
+    -   ¿Son los equipos de SQL Server y el Agente SQL Server de BizTalk supervisados los trabajos?  
   
  **Si es posible, instale una aplicación de supervisión como [!INCLUDE[opsmgr_short](../includes/opsmgr-short-md.md)] con el fin de automatizar la supervisión de la infraestructura y aplicaciones de BizTalk Server**  
   
--   Con Microsoft System Center Operations Manager es el método preferido para automatizar la supervisión debido a los módulos de administración de BizTalk Server proporcionan cientos de reglas integradas para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   Con Microsoft System Center Operations Manager es el método preferido para la supervisión automatizada porque los módulos de administración de BizTalk Server proporcionan centenares de reglas integradas para BizTalk Server.  
   
      Para obtener más información, vea los recursos siguientes:  
   
@@ -47,17 +47,17 @@ Este tema proporciona prácticas recomendadas para la supervisión de la Microso
   
     -   [Cómo importar un módulo de administración en Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkID=98348) (http://go.microsoft.com/fwlink/?LinkID=98348)  
   
-    -   [Cómo marcar bases de datos de BizTalk Server para supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
+    -   [Cómo marcar las bases de datos de BizTalk Server para la supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
   
  **Ejecutar el analizador de procedimientos recomendados de BizTalk Server**  
   
--   BizTalk Server Best Practices Analyzer examina un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementación y genera una lista de problemas relacionados con los estándares de prácticas recomendados. La herramienta realiza la comprobación de nivel de configuración mediante la recopilación de datos de orígenes de información diferente, como las clases de Instrumental de administración de Windows (WMI) y las bases de datos de SQL Server, las entradas del registro. Los datos, a continuación, se utilizan para evaluar la configuración de implementación. La herramienta lee solo informes y no modifica cualquier configuración del sistema y no es una herramienta de optimización automática.  
+-   BizTalk Server Best Practices Analyzer examina una implementación de BizTalk Server y genera una lista de problemas relacionados con los estándares de prácticas recomendados. La herramienta realiza la comprobación de nivel de configuración mediante la recopilación de datos de orígenes de información diferente, como las clases de Instrumental de administración de Windows (WMI) y las bases de datos de SQL Server, las entradas del registro. Los datos, a continuación, se utilizan para evaluar la configuración de implementación. La herramienta lee solo informes y no modifica cualquier configuración del sistema y no es una herramienta de optimización automática.  
   
      Puede descargar el analizador de procedimientos recomendados de BizTalk Server en [http://go.microsoft.com/fwlink/?LinkId=83317](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317).  
   
  **Ejecutar la herramienta de análisis de registros de rendimiento (PAL)**  
   
--   Está disponible como descarga gratuita en PAL [http://go.microsoft.com/fwlink/LinkID=98098](http://go.microsoft.com/fwlink/?LinkID=98098). Para obtener información importante de instalación, consulte [mediante la herramienta de análisis de rendimiento de registros (PAL)](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
+-   Está disponible como descarga gratuita en PAL [https://github.com/clinthuffman/PAL](https://github.com/clinthuffman/PAL). Para obtener información importante de instalación, consulte [mediante la herramienta de análisis de rendimiento de registros (PAL)](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
   
  **Ejecutar el analizador del registro**  
   
@@ -74,6 +74,6 @@ Este tema proporciona prácticas recomendadas para la supervisión de la Microso
   
  **Asegúrese de supervisar una prioridad**  
   
--   Supervisión coherente de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicaciones e infraestructura es esencial para mantener un entorno correcto.  
+-   Supervisión coherente de infraestructura y las aplicaciones de BizTalk Server es esencial para mantener un entorno correcto.  
   
--   Evaluar con regularidad y ajustar sus herramientas de supervisión con el tiempo y como su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicaciones e infraestructura cambiar.
+-   Periódicamente, evaluar y ajustar sus herramientas de supervisión con el tiempo y que las aplicaciones de BizTalk Server y el cambio en la infraestructura.

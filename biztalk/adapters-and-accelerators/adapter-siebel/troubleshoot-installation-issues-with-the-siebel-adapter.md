@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b254f317740b8fcff0bc97dc0891ae19fb8d594
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff49285df7e43103f2ad7441cbc82b96bb59eaa4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-siebel-adapter"></a>Solucionar problemas de instalación con el adaptador de Siebel
 Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación copia los archivos binarios del producto en el equipo y registra los enlaces para cada adaptador. Esta sección describen técnicas de solución de problemas para resolver errores de instalación.  
@@ -46,9 +46,9 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
   
 Registrar manualmente el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] enlace y [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] siguiendo estos pasos: 
   
-1.  Navegue hasta el archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
+1.  Navegue hasta el archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
   
-     En esta ruta de acceso, \<versión > es la versión de .NET Framework.  
+     En esta ruta de acceso, \<versión\> es la versión de .NET Framework.  
   
 2.  Abra el archivo con un editor de texto.  
   

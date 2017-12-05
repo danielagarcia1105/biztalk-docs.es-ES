@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23b835317d46dfeded65de310f8a813d4ac86749
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d4df85c965943f2f2c916fef6b558f98caf2175f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="upgrade-biztalk-accelerator-for-hl7"></a>Actualizar el Acelerador de BizTalk para HL7
 Información general sobre la [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] proceso de actualización. 
@@ -34,7 +34,7 @@ Información general sobre la [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabta
   
 -   Cuando se actualiza, las claves del registro y las bases de datos se hacen copias de seguridad.  
   
--   Los archivos de la  *\<unidad >*: \Program BizTalk \<versión > Accelerator for HL7 carpeta se actualizan.  
+-   Los archivos de la  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para HL7 carpeta se actualizan.  
   
 > [!IMPORTANT]
 >  La actualización no crea una nueva carpeta para los archivos actualizados, ni tampoco cambia el nombre de la carpeta existente.  
@@ -55,7 +55,7 @@ Información general sobre la [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabta
   
 2.  Copia de seguridad el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] bases de datos y su HL7 esquemas de mensajes.  
   
-3.  Los archivos de copia de seguridad la   ***\<unidad >*: \Program Acelerador de BizTalk para HL7** carpeta que ha cambiado. Por ejemplo, realice una copia archivos en el SDK.  
+3.  Los archivos de copia de seguridad la   ***\<unidad\>*: \Program Acelerador de BizTalk para HL7** carpeta que ha cambiado. Por ejemplo, realice una copia archivos en el SDK.  
   
 4.  Instalar la actualización adecuada para su versión de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]:  
   
@@ -70,7 +70,7 @@ Información general sobre la [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabta
   
 7.  Volver a implementar todos los demás ensamblados.  
   
-8.  Recompile los proyectos y ensamblados que tengan una referencia a uno o varios de los ensamblados de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. Usar **BTSTask.exe** en \< *unidad*>: \Program BizTalk Server \<versión >, manualmente volver a implementar estos proyectos.  
+8.  Recompile los proyectos y ensamblados que tengan una referencia a uno o varios de los ensamblados de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]. Usar **BTSTask.exe** en \< *unidad*\>: \Program BizTalk Server \<versión\>, manualmente volver a implementar estos proyectos.  
   
 9. Reinicie el servicio [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] .  
   

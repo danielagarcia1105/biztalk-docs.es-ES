@@ -17,11 +17,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09a1b9e0514a2c83d927a956bb890c1a89864a07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eb8b43fc846835ab8f24f664d4af54ab99b88576
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-the-duration-on-an-rta-window"></a>Cómo establecer la duración en una ventana ATR
 Los administradores utilizan el **set-rtawindow** comando para establecer la duración de la agregación en tiempo real especificada (ATR).  
@@ -32,7 +32,7 @@ Los administradores utilizan el **set-rtawindow** comando para establecer la dur
   
 2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo **bm set-rtawindow-View:\<nombre de vista >-actividad:\<nombre de actividad >-nombre:\<nombre de ATR > - TimeLength:\<número entero > - TimeUnit: día &#124; Hora &#124; Minuto**.  
+3.  Tipo de **bm set-rtawindow-View:\<nombre de la vista\> -actividad:\<nombre de la actividad\> -nombre:\<nombre de ATR\> - TimeLength:\<número entero\>- TimeUnit: día &#124; Hora &#124; Minuto**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

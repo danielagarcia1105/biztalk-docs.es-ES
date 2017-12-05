@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- overdrive load test
-- LoadGen tool, overdrive load test
 ms.assetid: 0d16d0a8-4255-4f5a-86a2-26cc11bb9a70
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54ea40d17bdb59fa3fcdc2db31a18b3286b70659
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cff4592c58dd165a85d63666958721231cfcbd4c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="overdrive-load-test"></a>Prueba de sobrecarga
 La información de este tema hace referencia a las pruebas que se explican en [escenarios de prueba para medir el rendimiento máximo Sostenible del motor de](../core/test-scenarios-for-measuring-mst-of-the-engine.md).  
@@ -27,7 +24,7 @@ La información de este tema hace referencia a las pruebas que se explican en [e
  La herramienta para la generación de cargas, LoadGen 2007, le permite simular cargas pesadas en un sistema de BizTalk Server.  
   
 > [!NOTE]
->  La herramienta LoadGen 2007 está disponible para su descarga en [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841). La versión anterior de esta herramienta, la herramienta de generación de cargas de BizTalk Server 2004 está disponible para su descarga en [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999).  
+>  Descargar [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). La versión anterior de esta herramienta, la herramienta de generación de cargas de BizTalk Server 2004 está disponible para su descarga en [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999).  
   
  Para simular un sistema continuamente sobrecargado, LoadGen 2007 se ha configurado para enviar alrededor de 410 mensajes por segundo, 120 mensajes por segundo más que el rendimiento máximo sostenible medido.  
   

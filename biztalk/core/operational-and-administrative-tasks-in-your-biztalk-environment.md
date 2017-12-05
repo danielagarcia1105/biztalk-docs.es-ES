@@ -16,14 +16,14 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8a0dad510b0b98657bdd9777f6eb22435c0d2f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ffb132fe5c28d7fa1ef148c42d3ef5c98ac56e31
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a>Tareas administrativas y operativas en su entorno de BizTalk
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] incluye nuevas funciones que convierten la administración de BizTalk Server en una tarea más rápida y sencilla que en las versiones anteriores. Esta sección proporciona información acerca de la administración de BizTalk Server.  
+BizTalk Server incluye nuevas características que simplifican la administración de BizTalk Server más rápida y sencilla que en versiones anteriores de BizTalk Server. Esta sección proporciona información acerca de la administración de BizTalk Server.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
@@ -31,6 +31,6 @@ ms.lasthandoff: 09/20/2017
   
 -   [Supervisión de BizTalk Server](../core/monitoring-biztalk-server.md)  
   
--   [Proteger el servidor BizTalk Server](../core/securing-biztalk-server.md)  
+-   [Protección de BizTalk Server](../core/securing-biztalk-server.md)  
   
 -   [Mantener BizTalk Server1](../core/maintaining-biztalk-server1.md)

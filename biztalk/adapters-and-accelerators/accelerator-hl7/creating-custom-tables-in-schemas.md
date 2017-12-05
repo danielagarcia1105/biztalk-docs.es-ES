@@ -16,18 +16,18 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f7c3ce69e60517f90af4031bf76691a551afcbe2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a663dd593123e647f2f466b6d472d60bb32be1be
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-custom-tables-in-schemas"></a>Crear tablas personalizadas en esquemas
-Puede crear una tabla personalizada en el tablevalues_\<*versión*> esquema común de XSD. Puede basar una tabla personalizada en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
+Puede crear una tabla personalizada en el tablevalues_\<*versión*\>esquema común de XSD. Puede basar una tabla personalizada en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
   
 ### <a name="to-create-a-z-table"></a>Para crear una tabla de Z  
   
-1.  En el Explorador de soluciones, abra el archivo de esquema de tipo de datos común  **tablevalues_\<*versión*> .xsd ** y, a continuación, haga clic en **abrir**.  
+1.  En el Explorador de soluciones, abra el archivo de esquema de tipo de datos común  **tablevalues_\<*versión*\>.xsd ** y, a continuación, haga clic en **abrir**.  
   
 2.  En el Editor de BizTalk, haga clic en **HL7DefinedTables**, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **elemento de campo secundario**.  
   
@@ -42,4 +42,4 @@ Puede crear una tabla personalizada en el tablevalues_\<*versión*> esquema com�
  [Crear segmentos de Z declarado](../../adapters-and-accelerators/accelerator-hl7/creating-declared-z-segments.md)   
  [Crear tipos de datos personalizados en esquemas](../../adapters-and-accelerators/accelerator-hl7/creating-custom-data-types-in-schemas.md)   
  [Extender las enumeraciones](../../adapters-and-accelerators/accelerator-hl7/extending-enumerations.md)   
- [Control de segmentos de Z no declarado](../../adapters-and-accelerators/accelerator-hl7/handling-undeclared-z-segments.md)
+ [Control de segmentos de Z no declarados](../../adapters-and-accelerators/accelerator-hl7/handling-undeclared-z-segments.md)

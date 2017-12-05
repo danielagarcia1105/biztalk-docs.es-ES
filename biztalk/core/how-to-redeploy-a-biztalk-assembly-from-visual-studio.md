@@ -12,16 +12,16 @@ caps.latest.revision: "41"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 361d2bccc783e7bfc7aa6cb0cd1f3eab51d8e640
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1357cb936c0b6f7f830bf1cc77f3d1670cf326aa
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a>Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio
 Durante el desarrollo de un ensamblado, suele resultar necesario implementarlo, probarlo, modificarlo y volver a implementarlo varias veces. En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se quería volver a implementar un ensamblado sin cambiar el número de versión, primero había que detener, dar de baja y desenlazar manualmente los artefactos incluidos en el ensamblado de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y, a continuación, quitar el ensamblado de la base de datos (de configuración) de Administración de BizTalk. Además, después de volver a implementar el ensamblado, había que enlazar, dar de alta e iniciar sus artefactos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- Sin embargo, con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], al activar la opción Volver a implementar en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo automáticamente todos los pasos necesarios para volver a implementar el ensamblado. Aunque se pueda volver a implementar un ensamblado desde el nivel de proyecto (haciendo clic con el botón secundario en el proyecto en el Explorador de soluciones y haciendo clic en Implementar) para volver a implementar un ensamblado individual, recomendamos encarecidamente que siempre se vuelvan a implementar los ensamblados desde el nivel de solución (haciendo clic con el botón secundario en la solución y haciendo clic en Implementar). De este modo, se vuelven a implementar todos los ensamblados de la solución al mismo tiempo y se controlan todos los pasos implicados cuando existen dependencias, como se explica más adelante.  
+ Con BizTalk Server, sin embargo, cuando se habilita la opción de volver a implementar en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo automáticamente todos los pasos para volver a implementar el ensamblado. Aunque se pueda volver a implementar un ensamblado desde el nivel de proyecto (haciendo clic con el botón secundario en el proyecto en el Explorador de soluciones y haciendo clic en Implementar) para volver a implementar un ensamblado individual, recomendamos encarecidamente que siempre se vuelvan a implementar los ensamblados desde el nivel de solución (haciendo clic con el botón secundario en la solución y haciendo clic en Implementar). De este modo, se vuelven a implementar todos los ensamblados de la solución al mismo tiempo y se controlan todos los pasos implicados cuando existen dependencias, como se explica más adelante.  
   
 > [!IMPORTANT]
 >  Aunque hay pocas situaciones en las que sería necesario volver a implementar en el nivel de proyecto, como norma, siempre se debe volver implementar en el nivel de solución.  
@@ -83,4 +83,4 @@ Durante el desarrollo de un ensamblado, suele resultar necesario implementarlo, 
     |*SolutionName*|Ruta completa y nombre del archivo de solución.|  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+ [Implementación de ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

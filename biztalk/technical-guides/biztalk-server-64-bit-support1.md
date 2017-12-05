@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cd7c3674f0054df82194a7b9e0051b68eabb1086
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 96688fcee44d4b2cf1ff4664847ba19f1aa2030e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-64-bit-support"></a>Compatibilidad de BizTalk Server con 64 bits
-Para con frecuencia más frecuentes preguntas relacionadas con la compatibilidad con 64 bits para Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], consulte [compatibilidad con BizTalk Server de 64 bits](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).
+Para las preguntas más frecuentes relacionadas con la compatibilidad con 64 bits de Microsoft BizTalk Server, vea [compatibilidad con BizTalk Server de 64 bits](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).

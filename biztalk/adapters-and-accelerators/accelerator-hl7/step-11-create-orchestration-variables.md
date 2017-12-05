@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c12a437371c5412cfafa4140e74733655962fd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a640b938628ebe3dcd6757e3f6fdfd7b1108880d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-11-create-orchestration-variables"></a>Paso 11: Crear Variables de orquestación
 En este paso, creará las variables de orquestación de las instancias de mensajes enviados y recibidos por la orquestación.  
@@ -67,7 +67,7 @@ En este paso, creará las variables de orquestación de las instancias de mensaj
     > [!NOTE]
     >  Una vez que ha creado y denominado las partes del mensaje, no cambie el nombre de ellos. Si es necesario, elimine la antigua parte del cuerpo y crear un nuevo elemento de cuerpo con un nuevo nombre.  
   
-9. En el **tipos** ventana, en **tipos de mensaje de varias partes**, expanda **DoorbellFinalMessageType**y, a continuación, haga clic en **MessagePart_1**. En el **propiedades** panel, escriba **MSHSegment** para **identificador**y, a continuación, presione **ENTRAR**. En la lista desplegable para **tipo**, expanda **clases .NET**y, a continuación, haga clic en \< **seleccionar ensamblados de referencia de >**.  
+9. En el **tipos** ventana, en **tipos de mensaje de varias partes**, expanda **DoorbellFinalMessageType**y, a continuación, haga clic en **MessagePart_1**. En el **propiedades** panel, escriba **MSHSegment** para **identificador**y, a continuación, presione **ENTRAR**. En la lista desplegable para **tipo**, expanda **clases .NET**y, a continuación, haga clic en \< **seleccionar ensamblados de referencia de\>**.  
   
 10. En el **Seleccionar tipo de artefacto** cuadro de diálogo, en el panel izquierdo, haga clic en **System.Xml**. En el panel derecho, haga clic en **XmlDocument**y, a continuación, haga clic en **Aceptar**.  
   
@@ -90,7 +90,7 @@ En este paso, creará las variables de orquestación de las instancias de mensaj
   
 18. En el **Vista orquestación** ventana, haga clic en **Variables**y, a continuación, haga clic en **nueva Variable**.  
   
-19. En el **propiedades** panel, escriba **HeaderInfo** para **identificador**, a continuación, presione **ENTRAR**. En la lista desplegable para **tipo**, haga doble clic en \< **clase .NET >**.  
+19. En el **propiedades** panel, escriba **HeaderInfo** para **identificador**, a continuación, presione **ENTRAR**. En la lista desplegable para **tipo**, haga doble clic en \< **clase .NET\>**.  
   
 20. En el **Seleccionar tipo de artefacto** ventana, en el panel izquierdo, haga clic en **System.Xml**. En el panel derecho, haga clic en **XmlDocument**y, a continuación, haga clic en **Aceptar**.  
   

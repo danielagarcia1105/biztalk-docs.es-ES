@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d88607133c4ffde7baeb9742755c9393bd73196c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 958746634776e9b01c32ff2425122312bc7a841c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-6-create-the-send-port-for-the-acknowledgment-batch"></a>Paso 6: Crear el puerto de envío para el lote de confirmación
 En este paso, creará un puerto de envío para entregar el lote de confirmación que cree para la entidad de origen. Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo. Designar una carpeta de archivos para el origen (\Tutorial_BatchACKDrop), donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de confirmación. Defina un filtro para el puerto que indica qué tipo de lotes de confirmación que enviará los puertos. El filtro especifica el origen de Tutorial_BatchSource y el tipo de mensaje de OutboundBatch.  
@@ -37,7 +37,7 @@ En este paso, creará un puerto de envío para entregar el lote de confirmación
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<* unidad*: > \Program BizTalk \<versión > Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchACKDrop **. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de confirmación.|  
+    |**Carpeta de destino**|Vaya a  **\<* unidad*:\>\Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End BatchACKDrop **. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de confirmación.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (reemplazar la extensión .xml con la extensión .txt).|  
     |**Modo de copia**|Seleccione **crear nuevos**.|  
   

@@ -22,11 +22,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5dc4e65ca778c8e299d8fd14303d3d3da009d39
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e766272f33bf23166ba412a76498e4240ab3343b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-send-ports-using-windows-sharepoint-services-context-properties"></a>Cómo configurar puertos de envío mediante las propiedades de contexto de Windows SharePoint Services
 En este tema se describe cómo configurar puertos de envío de Windows SharePoint Services en tiempo de ejecución mediante las propiedades de contexto de Windows Sharepoint Service en una orquestación de BizTalk. Se puede usar el mismo mecanismo para configurar los puertos de envío enlazados en tiempo de ejecución. Las propiedades de configuración para un puerto de envío dinámico se establecen en una orquestación en tiempo de ejecución. Propiedades del adaptador que se exponen en la **propiedades de transporte de Windows SharePoint Services** cuadro de diálogo también puede aplicarse a un puerto de envío enlazado en tiempo de ejecución. Para establecer las propiedades de configuración para un puerto de envío enlazado en tiempo de ejecución mediante las propiedades de contexto del adaptador de Windows Sharepoint Services, siga estos pasos:  
@@ -51,8 +51,8 @@ En este tema se describe cómo configurar puertos de envío de Windows SharePoin
     |Biblioteca de documentos de reserva de plantillas|WSS.ConfigCustomTemplatesDocLib|String|Ninguno|  
     |Columna de espacio de nombres de reserva de plantillas|WSS.ConfigCustomTemplatesNamespaceCol|String|Ninguno|  
     |Columna de espacio de nombres de plantillas|WSS.ConfigTemplatesNamespaceCol|String|Ninguno|  
-    |Columna `n`|WSS.ConfigPropertiesXml<br /><br /> Nombre de la columna se establece \<PropertyName*x*>*columnname*\</ PropertyName*x*> campo.|String|Ninguno|  
-    |Columna `n` Valor|WSS.ConfigPropertiesXml<br /><br /> Valor de la columna se establece \<PropertySource*x*>*columnvalue*\</ PropertySource*x*> campo.|String|Admite el uso de todas las macros de nombre de archivo que se puede usar en las propiedades de transporte excepto para la **% Filename %** y **% Extension %** macros.|  
+    |Columna `n`|WSS.ConfigPropertiesXml<br /><br /> Nombre de la columna se establece \<PropertyName*x*\>*columnname*\</ PropertyName*x* \> campo.|String|Ninguno|  
+    |Columna `n` Valor|WSS.ConfigPropertiesXml<br /><br /> Valor de la columna se establece \<PropertySource*x*\>*columnvalue*\</ PropertySource*x* \> campo.|String|Admite el uso de todas las macros de nombre de archivo que se puede usar en las propiedades de transporte excepto para la **% Filename %** y **% Extension %** macros.|  
   
     > [!NOTE]
     >  Los valores para estas propiedades de contexto distinguen entre mayúsculas y minúsculas. Al establecer los valores de configuración para un puerto dinámico con propiedades de contexto, debe asegurarse de que se utilizan las mayúsculas y minúsculas del modo apropiado o, de lo contrario, se producirá un error cuando BizTalk intente enrutar el documento al puerto de envío designado.  

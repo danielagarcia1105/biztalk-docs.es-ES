@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2465ad10e6598a4b9e1afa88190de4c1711c1f86
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b92c2165a84e5d539eac434ab140389c145b24b4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sequence-group-nodes"></a>Nodos Grupo de secuencias
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 En el Editor de BizTalk, puede insertar un **grupo de secuencias** nodo para contener otros nodos que deben aparecer en un mensaje de instancia en el mismo orden en que aparecen en la **grupo de secuencias** nodo. Los nodos contenidos deben ser nodos que se correspondan con elementos XML, pero no pueden ser nodos que se correspondan con atributos XML.  
   
 > [!NOTE]
->  En el Editor de BizTalk, el **grupo de secuencias** nodo se representa de forma predeterminada con la cadena \<secuencia > en la vista de árbol de esquema. Si establece una referencia a un **grupo de secuencias** nodo, por ejemplo, x, se representa como \<Group: x > en la vista de árbol de esquema.  
+>  En el Editor de BizTalk, el **grupo de secuencias** nodo se representa de forma predeterminada con la cadena \<secuencia\> en la vista de árbol de esquema. Si establece una referencia a un **grupo de secuencias** nodo, por ejemplo, x, se representa como \<Group: x\> en la vista de árbol de esquema.  
   
  Puede que desee agregar un **grupo de secuencias** para declarar un grupo de elementos globales.  
   
@@ -64,7 +64,7 @@ En el Editor de BizTalk, puede insertar un **grupo de secuencias** nodo para con
 ```  
   
 ## <a name="see-also"></a>Vea también  
--  [Representación de esquemas de BizTalk](../core/biztalk-representation-of-schemas.md)   
--  [Propiedades de nodo](../core/node-properties.md)   
+-  [Representación de esquemas en BizTalk](../core/biztalk-representation-of-schemas.md)   
+-  [Propiedades de los nodos](../core/node-properties.md)   
 -  **Propiedades de nodo de grupo de secuencias**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
 -  [Cómo establecer propiedades de nodo](../core/how-to-set-node-properties.md)

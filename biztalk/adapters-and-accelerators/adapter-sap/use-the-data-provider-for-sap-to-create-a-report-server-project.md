@@ -12,17 +12,17 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: caa006e8c8e22b10d0bdc58a781de30a0623bb79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e9c7905fc7114feeca8b53589e1aa32a09495ca1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-the-data-provider-for-sap-to-create-a-report-server-project"></a>Usar el proveedor de datos de SAP para crear un proyecto de servidor de informes
 Debe crear un servidor de informes del proyecto, con el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], para generar informes de los datos disponibles en un sistema SAP. Este tema proporciona instrucciones sobre cómo crear un proyecto de servidor de informes.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- Antes de realizar los procedimientos proporcionados en este tema, asegúrese de que ha instalado el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] durante la instalación de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como parte de la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación. Para obtener más información acerca de [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, consulte la Guía de instalación disponible en \< *unidad de instalación*>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ Antes de realizar los procedimientos proporcionados en este tema, asegúrese de que ha instalado el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] durante la instalación de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como parte de la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación. Para obtener más información acerca de [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, consulte la Guía de instalación disponible en \< *unidad de instalación*\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 ### <a name="to-create-a-report-server-project"></a>Para crear un proyecto de servidor de informes  
   

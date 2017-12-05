@@ -19,11 +19,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7d9770a2d9e4977ec23c8ff4013d5415c75087d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af87c78ef632ea9794d725cb70440d62371c349e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="multiserver-deployment"></a>Implementación multiservidor
 En este tema se analizan la implementación y configuración multiservidor del adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services.  
@@ -115,7 +115,7 @@ En este tema se analizan la implementación y configuración multiservidor del a
   
 -   En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
   
-     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión > \Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión > \Business Activity Services\BTSharePointV3AdapterWS**  
+     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
      **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
   
@@ -153,4 +153,4 @@ En este tema se analizan la implementación y configuración multiservidor del a
   
 ## <a name="see-also"></a>Vea también  
  [Adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter.md)   
- [Implementación de servidor único](../core/single-server-deployment.md)
+ [Implementación de un solo servidor](../core/single-server-deployment.md)

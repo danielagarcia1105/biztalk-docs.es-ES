@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec3ca7a33b5a38b625894e391c5bf014eb824414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9dd0ec42ab60636202a8ff99fa8fab8d96a95a19
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a>Recopilar excepciones y conservar la carga con el procesador de la excepción de ESB
-En este caso de uso, el controlador de excepciones para una orquestación publica un mensaje de error ESB para el [!INCLUDE[prague](../includes/prague-md.md)] cuadro de mensaje o el mecanismo de enrutamiento de mensajes de error de BizTalk genera un mensaje de error. Un puerto de envío configurado previamente con el componente de canalización de codificador de excepción de ESB, se suscribe a los dos tipos de mensaje de error. Procesa los mensajes de error y, a continuación, los conserva como archivos de disco que se pueden ver con InfoPath, tal como se muestra en la figura 1.  
+En este caso de uso, el controlador de excepciones para una orquestación publica un mensaje de error ESB en el cuadro de mensaje de BizTalk Server o el mecanismo de enrutamiento de mensajes de error de BizTalk genera un mensaje de error. Un puerto de envío configurado previamente con el componente de canalización de codificador de excepción de ESB, se suscribe a los dos tipos de mensaje de error. Procesa los mensajes de error y, a continuación, los conserva como archivos de disco que se pueden ver con InfoPath, tal como se muestra en la figura 1.  
   
  ![Recopilar Carga de excepciones](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3-CollectingExceptionsPayload")  
   

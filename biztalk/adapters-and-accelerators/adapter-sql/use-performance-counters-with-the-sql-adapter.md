@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6752a9f379cf8739e67420e1acb971959e6850d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f81189e34346d377686dac79b44e5a9b34889dc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-sql-adapter"></a>Utilice los contadores de rendimiento con el adaptador de SQL
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]los clientes pueden utilizar los contadores de rendimiento para medir el rendimiento de los adaptadores. El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] programa de instalación crea la categoría de contador de rendimiento "[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]" junto con la instalación del Adapter Pack.  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  El `<endpointId>` se deriva como `<sql_server_name>, <instance_name>, <database_name>`.  
   
- El \<actionId > se deriva de la siguiente manera:  
+ El \<actionId\> se deriva de la siguiente manera:  
   
 -   Para abrir una conexión, el identificador de acción está "Abierta".  
   

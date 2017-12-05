@@ -21,11 +21,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2563c7f26d2beb0eba33173507989cc85aaabda1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6030c721207e5b7f2c9958a50758c0ed98097c8d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="table-driven-looping-configuration"></a>Configuración de bucle controlado por tablas
 Siga estos pasos para configurar el bucle controlado por tablas en su asignación.  
@@ -34,7 +34,7 @@ Siga estos pasos para configurar el bucle controlado por tablas en su asignació
   
 -   **Agregar un functoid de Extractor de tablas más a la página de cuadrícula mostrada.** Agregar tantos **Extractor de tablas** functoids que necesita para cada **bucle de tabla** functoid. El número de **Extractor de tablas** functoids depende del número de campos del esquema de destino. Por ejemplo, si solo tiene un **AddressCode** en el esquema de origen y CompanyName, dirección, ciudad, estado, PostalCode y AttentionName en el esquema de destino, debe agregar seis **Extractor de tablas** functoids a la página de cuadrícula mostrada.  
   
--   **Configure el functoid de bucle de tabla con las entradas apropiadas.** En primer lugar, vincule el **bucle de tabla** functoid con el elemento o el registro de instancia de entrada. Vincúlelo además con la estructura del mensaje de instancia de salida. A continuación, configure las entradas mediante el uso de la **configurar \<Functoid > Functoid** cuadro de diálogo. Para obtener más información sobre cómo configurar esta propiedad, vea [editar propiedades de Functoid y parámetros de entrada](../core/editing-functoid-properties-and-input-parameters.md) . La lista de entradas que escriba debe ser completa porque se trata de los datos que se va a usar para configurar el **cuadrícula de Functoid de tabla** propiedad. Las entradas deben definirse de la siguiente manera:  
+-   **Configure el functoid de bucle de tabla con las entradas apropiadas.** En primer lugar, vincule el **bucle de tabla** functoid con el elemento o el registro de instancia de entrada. Vincúlelo además con la estructura del mensaje de instancia de salida. A continuación, configure las entradas mediante el uso de la **configurar \<Functoid\> Functoid** cuadro de diálogo. Para obtener más información sobre cómo configurar esta propiedad, vea [editar propiedades de Functoid y parámetros de entrada](../core/editing-functoid-properties-and-input-parameters.md) . La lista de entradas que escriba debe ser completa porque se trata de los datos que se va a usar para configurar el **cuadrícula de Functoid de tabla** propiedad. Las entradas deben definirse de la siguiente manera:  
   
     -   **Primera entrada.** El parámetro de primera entrada es el vínculo con el campo o registro de mensaje de instancia de entrada. El **bucle de tabla** functoid se repite una vez por cada instancia de registro o campo.  
   

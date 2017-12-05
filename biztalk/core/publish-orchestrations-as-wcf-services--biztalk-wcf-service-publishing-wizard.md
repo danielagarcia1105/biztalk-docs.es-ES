@@ -19,11 +19,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88c3ce33f413a55fbf756aecfb054e66e5d3599c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 76e233cfdd0871b55776cdf7cbaa9ee5b2af2724
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-orchestrations-as-wcf-services"></a>Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar orquestaciones como servicios WCF
 El Asistente para publicación de Servicio WCF de BizTalk se utiliza para publicar orquestaciones como servicios WCF.  
@@ -44,7 +44,7 @@ El Asistente para publicación de Servicio WCF de BizTalk se utiliza para public
   
      ![Página tipo de servicio WCF](../core/media/959900fd-44c9-4f3a-8836-9786a2f5e707.gif "959900fd-44c9-4f3a-8836-9786a2f5e707")  
   
-4.  En el **tipo de servicio WCF** página, seleccione **habilitar extremo de metadatos** casilla de verificación para indicar si la recepción WCF aislada ubicación hospedado por Internet Information Services (IIS) publica metadatos del servicio para la recuperación mediante una solicitud HTTP/GET. Al habilitar esta casilla de verificación, el asistente genera Web.config donde el **httpGetEnabled** atributo de la  **\<serviceMetadata >** elemento está establecido en **true**. Puede usar una herramienta de importación de metadatos (como SvcUtil.exe) para generar el código de cliente necesario para llamar a este servicio en el entorno de desarrollo. La dirección en la que se publican los metadatos es la dirección del extremo más una **? wsdl** cadena de consulta.  
+4.  En el **tipo de servicio WCF** página, seleccione **habilitar extremo de metadatos** casilla de verificación para indicar si la recepción WCF aislada ubicación hospedado por Internet Information Services (IIS) publica metadatos del servicio para la recuperación mediante una solicitud HTTP/GET. Al habilitar esta casilla de verificación, el asistente genera Web.config donde el **httpGetEnabled** atributo de la  **\<serviceMetadata\>**  elemento está establecido en **es true** . Puede usar una herramienta de importación de metadatos (como SvcUtil.exe) para generar el código de cliente necesario para llamar a este servicio en el entorno de desarrollo. La dirección en la que se publican los metadatos es la dirección del extremo más una **? wsdl** cadena de consulta.  
   
     > [!NOTE]
     >  Para evitar la posible revelación involuntaria de metadatos de servicio potencialmente confidenciales, se recomienda deshabilitar este comportamiento en el entorno de producción. Esto se puede hacer al establecer httpgetenabled en falso o si se elimina el directorio virtual MEX.  
@@ -87,7 +87,7 @@ El Asistente para publicación de Servicio WCF de BizTalk se utiliza para public
   
      ![Página de propiedades del servicio WCF](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-11. En el **ubicación del servicio WCF** página, en la **ubicación** texto, escriba el nombre del directorio Web donde se generan los servicios WCF. Puede aceptar la ubicación predeterminada (http://localhost/\<*nombre de ensamblado de BizTalk*>), escriba una ubicación para los servicios WCF en el **ubicación** cuadro de texto o haga clic en **examinar**  y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+11. En el **ubicación del servicio WCF** página, en la **ubicación** texto, escriba el nombre del directorio Web donde se generan los servicios WCF. Puede aceptar la ubicación predeterminada (http://localhost/ <*nombre de ensamblado de BizTalk*>), escriba una ubicación para los servicios WCF en el **ubicación** cuadro de texto o haga clic en **examinar**y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     -   **Sobrescribir proyecto existente.** Esta opción está disponible solo si el directorio Web ya existe. Podrá publicar en la misma ubicación solo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
@@ -98,10 +98,10 @@ El Asistente para publicación de Servicio WCF de BizTalk se utiliza para public
      ![Página ubicación del servicio de WCF](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://\<*servername*>/\<*ubicación del servicio WCF*>.  
+    >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar los servicios WCF en un servidor diferente, escriba el nombre del proyecto como http://<*servername*>/<*ubicación del servicio WCF*>.  
   
     > [!NOTE]
-    >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://\<*servername*>: 8080 /\<*ubicación del servicio WCF*>.  
+    >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://<*servername*>: 8080 / <*ubicación del servicio WCF*>.  
   
     > [!NOTE]
     >  Al utilizar el asistente para crear ubicaciones de recepción, éstas se crean mediante los valores predeterminados. El valor predeterminado para la canalización de recepción es el **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** canalización. Si los mensajes recibidos a través de los servicios WCF publicados requieren algún procesamiento de canalización especial (por ejemplo, validación, promoción de propiedades/correlación o asignaciones de entrada/salida), debe establecer la canalización de recepción en  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, o en una canalización personalizada, con la consola de administración de BizTalk Server.  

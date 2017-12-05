@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f1db38d804cc5ada05a1457596fb7c694595359d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88c621b6891b816f72603202bd6f2214882eb4b5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-submitting-a-0c4-query"></a>Paso 2: Enviar un 0c consultar 4
 En este paso, preparará y enviará una solicitud mediante el proceso de interfaz de socio (PIP) 0C4: consulta sincrónica de prueba. RosettaNet define este PIP para asegurarse de que un canal de comunicación sincrónica funciona correctamente entre dos organizaciones diferentes. Dado que este PIP tiene un patrón de comunicación sincrónica, [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] no envía confirmaciones de recepción. Este PIP sigue el mismo patrón que otros PIP sincrónicos de doble acción, como el PIP 2A9: consulta de información técnica del producto.  
@@ -37,7 +37,7 @@ En este paso, preparará y enviará una solicitud mediante el proceso de interfa
     |**Id. de instancia de PIP**|Escriba **0C4_Test**. **Importante:** para evitar errores de Id. de mensaje duplicado, debe asegurarse de que el **PIP** es único para cada mensaje que envíe. Si ejecuta la prueba 0C4 en el futuro, tendrá que cambiar este campo.|  
     |**Categoría de mensaje**|Escriba **Acción**.|  
   
-3.  Con el Bloc de notas u otro editor de texto, abra el archivo 0c4_request.XML situado en la  *\<unidad >*: \Program BizTalk 2009 Accelerator para RosettaNet\SDK\LOBApplication\SampleInstances carpeta y, a continuación, Copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
+3.  Con el Bloc de notas u otro editor de texto, abra el archivo 0c4_request.XML situado en la  *\<unidad\>*: \Program BizTalk 2009 Accelerator para la carpeta RosettaNet\SDK\LOBApplication\SampleInstances, y, a continuación, copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
   
 4.  Haga clic en **Enviar** para enviar la consulta 0C4 al equipo de Contoso.  
   
@@ -59,7 +59,7 @@ En este paso, preparará y enviará una solicitud mediante el proceso de interfa
   
 3.  En Microsoft SQL Server Management Studio, haga clic en **Nueva consulta**.  
   
-4.  En el \<tabla > cuadro de texto, seleccione **BTARNDATA** en la lista.  
+4.  En el \<tabla\> cuadro de texto, seleccione **BTARNDATA** en la lista.  
   
 5.  En la ventana de SQL, escriba la siguiente instrucción SQL:  
   
@@ -89,4 +89,4 @@ En este paso, preparará y enviará una solicitud mediante el proceso de interfa
   
 ## <a name="see-also"></a>Vea también  
  [Paso 3: Enviar una solicitud de 3A2](../../adapters-and-accelerators/accelerator-rosettanet/step-3-submitting-a-3a2-request.md)   
- [Flujo de mensajes de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)
+ [Flujo de mensajes en BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)

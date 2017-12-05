@@ -21,11 +21,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d05d9d0d98a82c2ded297a6cd8bee9d7bcc9a6e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1621973fed0c7a87538e3ed18161f05c4c9cf9e6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sso-affiliate-applications"></a>Aplicaciones afiliadas de SSO
 Las aplicaciones afiliadas de Inicio de sesión único (SSO) empresarial son entidades lógicas que representan un sistema o subsistema, como un host, un sistema back-end o una línea de aplicación empresarial, a los que se conecta mediante SSO. Una aplicación afiliada puede representar un sistema back-end, como un equipo UNIX o gran sistema. También puede representar una aplicación, como SAP o una subdivisión del sistema, como los subsistemas "Beneficios" o "Recibos de pago".  
@@ -101,9 +101,9 @@ Las aplicaciones afiliadas de Inicio de sesión único (SSO) empresarial son ent
   
 |Campos de aplicación|Description|Description|  
 |------------------------|-----------------|-----------------|  
-|Campo [0]|\<*credencial*>: enmascara/Unmasked|Determina el tipo de credencial (Id. de usuario, contraseña o tarjeta inteligente) que deben proporcionar los usuarios finales para efectuar la conexión con la aplicación afiliada, así como si la credencial se enmascara (es decir, si los caracteres que el usuario escribe se muestran en pantalla) o no.<br /><br /> Puede especificar tantos campos como credenciales haya para la aplicación afiliada, aunque el primer campo debe ser el Id. de usuario.<br /><br /> No es posible cambiar esta propiedad tras crear la aplicación.|  
+|Campo [0]|\<*credencial*\>: enmascara/Unmasked|Determina el tipo de credencial (Id. de usuario, contraseña o tarjeta inteligente) que deben proporcionar los usuarios finales para efectuar la conexión con la aplicación afiliada, así como si la credencial se enmascara (es decir, si los caracteres que el usuario escribe se muestran en pantalla) o no.<br /><br /> Puede especificar tantos campos como credenciales haya para la aplicación afiliada, aunque el primer campo debe ser el Id. de usuario.<br /><br /> No es posible cambiar esta propiedad tras crear la aplicación.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)   
  [Asignaciones de SSO](../core/sso-mappings.md)   
- [Administrar asignaciones de usuario](../core/managing-user-mappings.md)
+ [Administración de asignaciones de usuarios](../core/managing-user-mappings.md)

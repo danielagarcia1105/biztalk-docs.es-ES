@@ -23,11 +23,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a2d6ef6752965c1f20c695dacb06ff348089054
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 47496b875297e6c16141780979fda933f3968c6b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="running-orchestrations"></a>Orquestaciones en ejecución
 Los procedimientos siguientes describen cómo generar, implementar, enlazar e iniciar una orquestación.  
@@ -42,7 +42,7 @@ Los procedimientos siguientes describen cómo generar, implementar, enlazar e in
   
      Por ejemplo:  
   
-     **\<unidad >: \Adapter_Install\biztalk\my_project**  
+     **\<unidad\>: \Adapter_Install\biztalk\my_project**  
   
 3.  Escriba lo siguiente en el símbolo del sistema y presione ENTRAR:  
   

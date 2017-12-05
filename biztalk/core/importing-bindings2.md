@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b21d5a3dda5bc53816c608e97063a42f3eafa4db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f2c92d5469f88494c77ad062d97c53768572a5b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-bindings"></a>Importar enlaces
 En los temas de esta sección se describe cómo importar enlaces a un grupo o a una aplicación de BizTalk.  
@@ -45,7 +45,7 @@ En los temas de esta sección se describe cómo importar enlaces a un grupo o a 
   
 -   **El atributo de nombre de un adaptador puede ser incorrecto.** Si el archivo de enlace incluye la configuración de un adaptador, compruebe que el atributo Name del elemento TransportType del archivo de enlace es el mismo que el configurado para el adaptador en la consola de administración de BizTalk Server (en configuración de plataforma > adaptadores).  
   
-     En concreto, debe comprobar si éste es el caso al importar enlaces desde [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Algunos transportes para los que esto podría resultar un problema son los siguientes:  
+     En concreto, debe comprobar si éste es el caso al importar enlaces desde [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] a BizTalk Server. Algunos transportes para los que esto podría resultar un problema son los siguientes:  
   
     -   MQS  
   

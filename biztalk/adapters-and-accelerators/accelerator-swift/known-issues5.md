@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3b2b5eadcbdbdc357529f4ad8af47d46840d47e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1356209f700fc7ceff220f4b0f8fcd3dd67db07
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues"></a>Problemas conocidos
 Esta sección contiene información útil que puede ayudar a evitar errores con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Los problemas conocidos se agrupan en las siguientes áreas:  
@@ -58,7 +58,7 @@ Esta sección contiene información útil que puede ayudar a evitar errores con 
  Cuando la orquestación de reparación de mensajes enruta al cuadro de mensajes un mensaje sin analizar que se ha corregido, establecerá el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_MRSRDepartment propiedad vacío de cadena y promoverlo. Un puerto de envío no podrá suscribirse en esta propiedad.  
   
 #### <a name="cannot-save-a-department-if-the-sso-service-has-been-stopped"></a>No se puede guardar un departamento si se ha detenido el servicio SSO  
- Si intenta agregar un departamento cuando se detiene el servicio SSO, recibirá un error que indica que el servidor de SSO principal \<machinename > error. Compruebe si SSO está configurado y si el servicio SSO está en ejecución en ese servidor.  
+ Si intenta agregar un departamento cuando se detiene el servicio SSO, recibirá un error que indica que el servidor de SSO principal \<machinename\> error. Compruebe si SSO está configurado y si el servicio SSO está en ejecución en ese servidor.  
   
 #### <a name="a-department-name-must-not-contain-the-character-"></a>Nombre de un departamento no debe contener el carácter "~"  
  Un nombre de departamento que contiene el carácter "~" dará lugar a problemas con la base de datos de A4SWIFT.  
@@ -81,7 +81,7 @@ Esta sección contiene información útil que puede ayudar a evitar errores con 
   
  Aunque la [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] programa de instalación establece CacheEntries desde 32 hasta 512, desinstalar [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] no restablece CacheEntries de 512 a 32.  
   
- Para obtener más información, vea el tema "Regla motor y ajustar parámetros de configuración" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información, vea el tema "Regla motor y ajustar parámetros de configuración" en la Ayuda de BizTalk Server.  
   
 #### <a name="building-a-pipeline-project-may-result-in-a-large-number-of-warnings"></a>Compilar un proyecto de canalización puede dar lugar a un gran número de advertencias  
  Al agregar el ensamblador SWIFT a una canalización de envío o el Desensamblador SWIFT a una canalización de recepción y, a continuación, compile el proyecto de canalización que contiene esas canalizaciones, recibirá una serie de advertencias relacionadas con los componentes de canalización. Estas advertencias indican que Visual Studio no pudo encontrar las dependencias. Puede corregir la condición que conduce a estas advertencias cambiando la propiedad Copy Local del ensamblado SWIFTAsm o SWIFTDasm en la carpeta de referencia, como se indica a continuación:  

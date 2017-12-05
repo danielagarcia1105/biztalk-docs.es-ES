@@ -1,5 +1,5 @@
 ---
-title: Optimizar los grupos de archivos para el Databases2 | Documentos de Microsoft
+title: Optimizar los grupos de archivos de base de datos | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2f3ffab64795f8000af37cdc07c3754bb1fb5bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9333a88817e96b52ffe186f0a6a598b225ef5202
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a>Optimizar los grupos de archivos para las bases de datos
 Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuello de botella en un entorno de BizTalk Server de producción. BizTalk Server es una aplicación de uso intensivo de la parte de la base de datos y a su vez, la base de datos de SQL Server que utiliza BizTalk Server es intensivo de E/S de archivo muy. En este tema se describe cómo realizar un uso óptimo de los archivos y la característica de grupos de archivos de SQL Server para minimizar la aparición de contención de E/S de archivo y mejorar el rendimiento general de una solución de BizTalk Server.  
@@ -24,13 +24,13 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
 ## <a name="overview"></a>Información general  
  Cada solución de BizTalk Server finalmente experimentarán contención de E/S de archivo tal y como se aumenta el rendimiento. El subsistema de E/S o el motor de almacenamiento, es un componente clave de cualquier base de datos relacional. Una implementación correcta de base de datos suele requerir un diseño cuidadoso en las primeras etapas de un proyecto. Este planeamiento o diseño debería tener en cuenta lo siguiente:  
   
--   El tipo de disco que se va a utilizar, por ejemplo, los dispositivos RAID (matriz redundante de discos independientes). Para obtener más información sobre el uso de una solución RAID de hardware, consulte [soluciones basadas en Hardware sobre](http://go.microsoft.com/fwlink/?LinkID=113944) (http://go.microsoft.com/fwlink/?LinkID=113944) en los libros en pantalla de SQL Server.  
+-   El tipo de disco que se va a utilizar, por ejemplo, los dispositivos RAID (matriz redundante de discos independientes). 
   
--   Cómo distribuir los datos en los discos que utilizan archivos y grupos de archivos. Para obtener más información acerca del uso de archivos y grupos de archivos en SQL Server 2008 R2, consulte [con archivos y grupos de archivos](http://go.microsoft.com/fwlink/?LinkID=69369) (http://go.Microsoft.com/fwlink/?) LinkID = 69369) y [descripción de los archivos y grupos de archivos](http://go.microsoft.com/fwlink/?LinkID=96447) (http://go.Microsoft.com/fwlink/?) LinkID = 96447) en los libros en pantalla de SQL Server.  
+-   Cómo distribuir los datos en los discos que utilizan archivos y grupos de archivos. Para obtener más información acerca del uso de archivos y grupos de archivos en SQL Server, vea [archivos de base de datos y grupos de archivos](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups).
   
--   Implementar el diseño de índices óptimo para mejorar el rendimiento al obtener acceso a datos. Para obtener más información sobre el diseño de índices, vea [diseñar índices](http://go.microsoft.com/fwlink/?LinkID=96457) (http://go.microsoft.com/fwlink/?LinkID=96457) en los libros en pantalla de SQL Server.  
+-   Implementar el diseño de índices óptimo para mejorar el rendimiento al obtener acceso a datos. Para obtener más información sobre el diseño de índices, vea [diseñar índices](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide).
   
--   Cómo establecer parámetros de configuración de SQL Server para obtener un rendimiento óptimo. Para obtener más información acerca de cómo establecer los parámetros de configuración óptima para SQL Server, vea [optimizar el rendimiento del servidor](http://go.microsoft.com/fwlink/?LinkID=71418) (http://go.microsoft.com/fwlink/?LinkID=71418) en los libros en pantalla de SQL Server.  
+-   Cómo establecer parámetros de configuración de SQL Server para obtener un rendimiento óptimo. Para obtener más información acerca de cómo establecer los parámetros de configuración óptima para SQL Server, vea [opciones de configuración de servidor](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server).
   
  Uno de los objetivos principales de diseño de BizTalk Server es asegurarse de que un mensaje es **nunca** perdido. Con el fin de reducir la posibilidad de pérdida de mensajes, los mensajes se escriben con frecuencia en la base de datos de cuadro de mensajes cuando se procesa el mensaje. Cuando se procesan los mensajes por una orquestación, el mensaje se escribe en la base de datos de cuadro de mensajes en cada punto de persistencia en la orquestación. Estos puntos de persistencia hacer que el cuadro de mensajes escribir el mensaje y el estado relacionado en el disco físico. En un mayor rendimiento, esta persistencia puede dar lugar a la contención de disco considerable y podría convertirse en un cuello de botella.  
   
@@ -43,7 +43,7 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
   
  Además, los archivos y grupos de archivos Habilitar selección de ubicación de datos, porque se pueden crear tablas en grupos de archivos específicos. Esto mejora el rendimiento, dado que todas las E/S de archivo para una tabla específica pueden dirigirse a un disco concreto. Por ejemplo, una tabla de usa muy elevado puede colocarse en un archivo en un grupo de archivos ubicado en un disco, y las otras tablas menos utilizadas de la base de datos se pueden ubicar en distintos archivos de otro grupo de archivos, ubicado en un segundo disco.  
   
- Los cuellos de botella de E/S de archivos se tratan detalladamente considerable en el tema [cuellos de botella en el nivel de base de datos](../technical-guides/bottlenecks-in-the-database-tier.md). El indicador más comunes que la E/S de archivo (E/S de disco) es un cuello de botella es el valor del contador de "Longitud de cola de físico: promedio de disco disco". Cuando el valor del contador de "Longitud de cola de físico: promedio de disco disco" es mayor que 3 para cualquier disco determinado en cualquiera de los equipos que ejecutan SQL Server, E/S de archivos es probable que un cuello de botella.  
+ Los cuellos de botella de E/S de archivos se tratan detalladamente considerable en [cuellos de botella en el nivel de base de datos](../technical-guides/bottlenecks-in-the-database-tier.md). El indicador más comunes que la E/S de archivo (E/S de disco) es un cuello de botella es el valor del contador de "Longitud de cola de físico: promedio de disco disco". Cuando el valor del contador de "Longitud de cola de físico: promedio de disco disco" es mayor que 3 para cualquier disco determinado en cualquiera de los equipos que ejecutan SQL Server, E/S de archivos es probable que un cuello de botella.  
   
  Si la aplicación de optimización de archivos o no resuelve un problema de cuello de botella de E/S de archivos, puede ser necesario aumentar el rendimiento del subsistema del disco mediante la adición de física adicional o unidades de SAN.  
   
@@ -56,7 +56,7 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
 >  En este tema también describe cómo crear varios archivos y grupos de archivos de la base de datos de BizTalk MessageBox. Para obtener una lista exhaustiva de recomendada y grupos de archivos para todas las bases de datos de BizTalk Server, consulte el "Apéndice B" de la [optimización de base de datos de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=101578) notas del producto (http://go.microsoft.com/fwlink/?LinkID=101578).  
   
 > [!NOTE]  
->  Aunque la [optimización de base de datos de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=101578) notas del producto (http://go.microsoft.com/fwlink/?LinkID=101578) se ha redactado teniendo [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] en mente, se aplican los mismos principios a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+>  Aunque la [optimización de base de datos de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=101578) notas del producto (http://go.microsoft.com/fwlink/?LinkID=101578) se ha redactado teniendo [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] en mente, se aplican los mismos principios a BizTalk Server.  
   
 ## <a name="databases-created-with-a-default-biztalk-server-configuration"></a>Bases de datos creadas con un valor predeterminado de configuración de BizTalk Server  
  Dependiendo de qué características están habilitadas al configurar BizTalk Server, hasta 13 diferentes bases de datos se puede crear en SQL Server y todas las bases de datos se crean en el grupo de archivos predeterminado. El grupo de archivos predeterminado para SQL Server es el grupo de archivos principal, a menos que se cambie el grupo de archivos predeterminado mediante el comando ALTER DATABASE. En la tabla siguiente se enumera las bases de datos que se crean en SQL Server si todas las características están habilitadas al configurar BizTalk Server.  
@@ -90,14 +90,13 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
  El origen principal de contención en la mayoría de soluciones de BizTalk Server, ya sea debido a la contención de E/S de disco o contención de base de datos, es la base de datos de cuadro de mensajes de BizTalk Server. Esto es cierto en escenarios único y múltiple de cuadro de mensajes. Es razonable suponer que siempre que el 80% del valor de la distribución de las bases de datos de BizTalk se derivan de optimizar los archivos de datos de cuadro de mensajes y el archivo de registro. El escenario de ejemplo que se detallan a continuación, se centra en optimizar los archivos de datos para una base de datos de cuadro de mensajes. A continuación, pueden seguir estos pasos para otras bases de datos según sea necesario. Por ejemplo, si la solución requiere seguimiento extensa, también se puede optimizar la base de datos de seguimiento.  
   
 ## <a name="manually-adding-files-to-the-messagebox-database-step-by-step"></a>Agregar manualmente archivos de la base de datos de cuadro de mensajes, paso a paso  
- Esta sección del tema describen los pasos que pueden seguirse para agregar manualmente archivos de la base de datos de cuadro de mensajes. En este ejemplo se agregan tres grupos de archivos y, a continuación, se agrega un archivo para cada grupo de archivos para distribuir los archivos para el cuadro de mensajes en varios discos. En este ejemplo, los pasos se realizan en [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)].  
+ Esta sección del tema describen los pasos que pueden seguirse para agregar manualmente archivos de la base de datos de cuadro de mensajes. En este ejemplo se agregan tres grupos de archivos y, a continuación, se agrega un archivo para cada grupo de archivos para distribuir los archivos para el cuadro de mensajes en varios discos.
   
-### <a name="manually-adding-files-to-the-messagebox-database-on-sql-server-2008-r2"></a>Agregar manualmente archivos de la base de datos de cuadro de mensajes en SQL Server 2008 R2  
- **Siga estos pasos para agregar manualmente archivos de la base de datos de cuadro de mensajes en SQL Server 2008 R2:**  
+### <a name="manually-adding-files-to-the-messagebox-database-on-sql-server"></a>Agregar manualmente archivos de la base de datos de cuadro de mensajes en SQL Server
+   
+1.  Abra **SQL Server Management Studio** para mostrar la **conectar al servidor** cuadro de diálogo.  
   
-1.  Haga clic en **iniciar**, seleccione **programas**, seleccione  **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]** y, a continuación, haga clic en **SQL Server Management Studio** para mostrar la **Conectar al servidor** cuadro de diálogo.  
-  
-     ![SQL Server 2008 R2 &#45; Pantalla de inicio de sesión](../technical-guides/media/sqlserver2008r2-loginscreen.gif "SQLServer2008R2-Loginscreen")  
+     ![Pantalla de inicio de sesión de SQL Server](../technical-guides/media/sqlserver2008r2-loginscreen.gif "SQLServer2008R2-Loginscreen")  
   
 2.  En el **nombre del servidor** cuadro de edición de la **conectar al servidor** diálogo cuadro, escriba el nombre de la instancia de SQL Server que aloja las bases de datos de cuadro de mensajes de BizTalk Server y haga clic en **conectar** para mostrar de SQL Server Management Studio. En el **Explorador de objetos** panel de SQL Server Management Studio, expanda **bases de datos** para ver las bases de datos para esta instancia de SQL Server.  
   
@@ -127,7 +126,7 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
   
  Para ejecutar este script, siga estos pasos:  
   
-1.  Haga clic en **iniciar**, seleccione **programas**, seleccione  **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]** y, a continuación, haga clic en **SQL Server Management Studio** para mostrar la **Conectar al servidor** cuadro de diálogo.  
+1.  Abra **SQL Server Management Studio** para mostrar la **conectar al servidor** cuadro de diálogo.  
   
 2.  En el **nombre del servidor** cuadro de edición de la **conectar al servidor** diálogo cuadro, escriba el nombre de la instancia de SQL Server que aloja las bases de datos de cuadro de mensajes de BizTalk Server y haga clic en **conectar** para mostrar el cuadro de diálogo de SQL Server Management Studio.  
   
@@ -143,4 +142,4 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
 >  Es de máxima importancia que secuencias de comandos SQL como la secuencia de comandos de ejemplo en esta guía se ha probado exhaustivamente antes de que se está ejecutando en un entorno de producción.  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)
+ [Optimización del rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)

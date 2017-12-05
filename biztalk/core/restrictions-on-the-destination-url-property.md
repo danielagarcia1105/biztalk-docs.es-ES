@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0788b693027fb803b121b1b732cb3ee126897e7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f7966fccca324a1453f0ea84e79cd7d9d3d55ad
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restrictions-on-the-destination-url-property"></a>Restricciones de la propiedad de dirección URL de destino
 La dirección URL de destino es una cadena que especifica la dirección del servidor HTTP donde desea enviar mensajes con el protocolo HTTP.  
@@ -28,15 +28,15 @@ La dirección URL de destino es una cadena que especifica la dirección del serv
   
 -   Siempre debe especificar la propiedad Dirección URL de destino con el formato siguiente:  
   
-     http [s] ://\<host > [:\<puerto >] [/\<ruta de acceso > [/\<archivo > [?\< cadena de consulta >]]]  
+     http [s] ://\<host\>[:\<puerto\>] [/\<ruta de acceso\>[/\<archivo\>[?\< cadena de consulta\>]]]  
   
 -   La cadena entera puede estar o no codificada con un URI.  
   
--   Toda la cadena, excepto la cadena de consulta, no puede contener ninguno de los siguientes caracteres: \< >: \ &#124; " ? *.  
+-   Toda la cadena, excepto la cadena de consulta, no puede contener ninguno de los siguientes caracteres: \< \> : \ &#124; " ? *.  
   
 -   La propiedad no distingue mayúsculas de minúsculas.  
   
 -   La longitud de la cadena no debe exceder 256 caracteres.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar un puerto de envío HTTP](../core/configuring-an-http-send-port.md)
+ [Configuración de un puerto de envío HTTP](../core/configuring-an-http-send-port.md)

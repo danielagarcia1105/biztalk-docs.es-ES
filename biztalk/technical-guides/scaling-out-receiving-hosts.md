@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 843e20e76f7320555a0cfab5af5103ce3fd597d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f0a58d7dfa022c3921abb5b426dacdf387095c2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="scaling-out-receiving-hosts"></a>El escalado de Hosts de recepción
-Para disponer de hosts de recepción sea alta, debe tener dos o más [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos que ejecutan instancias de cada host de recepción. Mediante el escalado horizontal de los hosts de recepción puede aumentar la disponibilidad de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] las implementaciones que realizan un uso intensivo de la mensajería. Si bien estas implementaciones llevan a cabo un procesamiento mínimo de orquestación, pueden enrutar muchos mensajes de varios tipos a gran velocidad y con gran confiabilidad.  
+Para disponer de hosts de recepción sea alta, debe tener dos o más [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos que ejecutan instancias de cada host de recepción. Mediante el escalado horizontal de los hosts de recepción puede aumentar la disponibilidad para las implementaciones de BizTalk Server que realizan un uso intensivo de la mensajería. Si bien estas implementaciones llevan a cabo un procesamiento mínimo de orquestación, pueden enrutar muchos mensajes de varios tipos a gran velocidad y con gran confiabilidad.  
   
  Puede mejorar la seguridad y escalabilidad del entorno separando el host de recepción de los hosts que procesan orquestaciones y envían mensajes, porque puede proteger y escalar cada host de forma independiente de otros hosts. Por ejemplo, puede agregar dos equipos (instancias de host) al host de recepción sin agregar ningún equipo a los hosts de procesamiento o envío.  
   
@@ -39,7 +39,7 @@ Para disponer de hosts de recepción sea alta, debe tener dos o más [!INCLUDE[b
  En la configuración de puerto de recepción, también especificar asignaciones. En la configuración de la ubicación de recepción, debe especificar una canalización que se utilizan para preprocesar el documento. Designado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proceso controla todo el contenido de recibir un documento, para preprocesar el documento, para asignar el documento. Este es el mismo para las instancias de host in-process y las instancias de host aislado.  
   
 ## <a name="scaling-out-in-process-receiving-hosts"></a>El escalado en curso recepción hospeda  
- La siguiente ilustración muestra un [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] implementación que proporciona alta disponibilidad para las instancias del host de recepción al tener dos host cada una en un equipo diferente. Tenga en cuenta que en esta ilustración el host de procesamiento y envío no está altamente disponible, porque no hay solo una instancia de host, los elementos de BizTalk que se asigna al host de procesamiento.  
+ En la siguiente ilustración se muestra una implementación de BizTalk Server que proporciona alta disponibilidad al host de recepción gracias a dos instancias de host en un equipo diferente. Tenga en cuenta que en esta ilustración el host de procesamiento y envío no está altamente disponible, porque no hay solo una instancia de host, los elementos de BizTalk que se asigna al host de procesamiento.  
   
  ![Host múltiple para recibir los mensajes](../core/media/tdi-ha-scalereceive.gif "TDI_HA_ScaleReceive")  
   
@@ -52,15 +52,15 @@ Para disponer de hosts de recepción sea alta, debe tener dos o más [!INCLUDE[b
  Para proporcionar alta disponibilidad en esta configuración, cada equipo ejecuta tres instancias de host: una instancia para cada una de las tres compañías. Las instancias de host de cada compañía contienen las canalizaciones y ubicaciones de recepción para comunicarse con esa compañía. Durante las operaciones típicas, siempre y cuando haya realizado el trabajo necesario para la implementación escalada delante de los adaptadores de recepción, la carga de mensajería se distribuye entre las tres instancias de cada host. Si una instancia de host en un equipo da error, las instancias de host que se ejecutan en los otros dos equipos proporcionan redundancia y mantienen la disponibilidad del servicio.  
   
 ## <a name="scaling-out-isolated-receiving-hosts"></a>Ajuste de escala horizontal aislada Hosts de recepción  
- Además de las instancias de host, el proceso de escalar y proporcionar alta disponibilidad para los hosts de recepción también depende de los adaptadores específicos que se implementan en su implementación. Cada adaptador tiene características específicas del protocolo que hacen que el planeamiento y la implementación sean diferentes en cada caso. Sin embargo, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] le permite aplicar la misma solución de alta disponibilidad para todos los adaptadores, principalmente a través de otros equipos e instancias de host.  
+ Además de las instancias de host, el proceso de escalar y proporcionar alta disponibilidad para los hosts de recepción también depende de los adaptadores específicos que se implementan en su implementación. Cada adaptador tiene características específicas del protocolo que hacen que el planeamiento y la implementación sean diferentes en cada caso. No obstante, BizTalk Server le permite aplicar la misma solución de alta disponibilidad para todos los adaptadores, principalmente a través de otros equipos e instancias de host.  
   
- Dependiendo del protocolo específico que se utilice, algunos adaptadores de recepción requieren un mecanismo adicional para distribuir los mensajes entrantes entre varios equipos host con el fin de proporcionar una alta disponibilidad. Por ejemplo, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] soluciones que utilizan el adaptador HTTP o SOAP (también conocido como el adaptador de servicios Web) requieren un equilibrador de carga como red equilibrio de carga (NLB) para distribuir la carga de trabajo de recepción, tal como se muestra en la ilustración siguiente.  
+ Dependiendo del protocolo específico que se utilice, algunos adaptadores de recepción requieren un mecanismo adicional para distribuir los mensajes entrantes entre varios equipos host con el fin de proporcionar una alta disponibilidad. Por ejemplo, las soluciones de BizTalk Server que utilizan el adaptador HTTP o SOAP (también conocido como el adaptador de servicios Web) requieren un equilibrador de carga como red equilibrio de carga (NLB) para distribuir la carga de trabajo de recepción, tal como se muestra en la ilustración siguiente.  
   
  ![Host de recepción de escalado horizontal aislado](../technical-guides/media/cb38ec25-bfb0-4a55-8464-b7918b6fc746.gif "cb38ec25-bfb0-4a55-8464-b7918b6fc746")  
   
- Para obtener más información sobre las directrices de alta disponibilidad para los adaptadores más comunes en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], consulte la sección "Escalabilidad de los adaptadores de recepción de BizTalk Server" en [Scaled-Out recibir Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (http://go.microsoft.com/ ¿fwlink /? LinkId = 151283) en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información sobre las directrices de alta disponibilidad para los adaptadores más comunes en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], consulte la sección "Escalabilidad de los adaptadores de recepción de BizTalk Server" en [Scaled-Out recibir Hosts](http://go.microsoft.com/fwlink/?LinkId=151283) (http://go.microsoft.com/ ¿fwlink /? LinkId = 151283) en la Ayuda de BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
  [Clústeres de Hosts de recepción](../technical-guides/clustering-receiving-hosts.md)   
  [Ajuste de escala en Hosts de procesamiento](../technical-guides/scaling-out-processing-hosts.md)   
- [El escalado de Hosts de envío](../technical-guides/scaling-out-sending-hosts.md)
+ [Escalado horizontal de hosts de envío](../technical-guides/scaling-out-sending-hosts.md)

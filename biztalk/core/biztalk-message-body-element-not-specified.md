@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: baf79c8896169a06df66a8484377816c9897531e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0656cf14e1c2a16d6d53966e316550020c8cd0af
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="biztalk-message-body-element-not-specified"></a>Elemento de cuerpo de mensaje de BizTalk no especificado.
 ## <a name="details"></a>Detalles  
@@ -35,4 +35,4 @@ ms.lasthandoff: 09/20/2017
  Este error indica el uso de la opción de plantilla para el mensaje saliente de WCF. Sin embargo, la expresión de plantilla no contiene el elemento de cuerpo de mensaje de BizTalk.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Asegúrese de que la expresión de plantilla contiene el siguiente elemento: \< **bts-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" encoding = "[xml &#124; base64 &#124; hex &#124; cadena]" /** >.
+ Asegúrese de que la expresión de plantilla contiene el siguiente elemento: \< **bts-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" encoding = "[xml &#124; base64 &#124; hex &#124; cadena]" /** \>.

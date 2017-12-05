@@ -17,11 +17,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c9953bb5e8b1e9827189e5b618f2760297c5678
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f65b98871f054d96caa278e48de19ad669157b1f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-api-biztalk-server-sample"></a>API de BAM (ejemplo de BizTalk Server)
 El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM en una aplicación para guardar información de claves que podrá supervisar.  
@@ -97,7 +97,7 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
  Además de la solución [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], el ejemplo también contiene un archivo Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] que define las actividades.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar este ejemplo en  *\<ruta de ejemplos >*\BAM\BamApiSample.  
+ Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamApiSample.  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -124,16 +124,16 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
   
 #### <a name="to-run-the-bam-api-sample"></a>Procedimiento para ejecutar el ejemplo de API de BAM  
   
-1.  Abra un símbolo del sistema y ejecute  *\<ruta de ejemplos >*\BAM\ BamApiSample\setup.bat. Si usa [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], abra el símbolo del sistema como administrador.  
+1.  Abra un símbolo del sistema y ejecute  *\<ruta de ejemplos\>*\BAM\ BamApiSample\setup.bat. Si usa [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], abra el símbolo del sistema como administrador.  
   
-2.  Iniciar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]y abra el  *\<ruta de ejemplos >*solución \bam\. Si está usando [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], inicie [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] como administrador.  
+2.  Iniciar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]y abra el  *\<ruta de ejemplos\>*solución \bam\. Si está usando [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], inicie [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] como administrador.  
   
     > [!IMPORTANT]
     >  La línea `//#define Interceptor` del archivo BamApiSample.cs debe marcarse como comentario. No quite el signo “//” desde esta línea. El ejemplo de API de BAM usa solo el código que no se encuentra dentro de una directiva de preprocesador `#if Interceptor`.  
   
 3.  Compile la solución.  
   
-4.  Ejecutar  *\<ejemplos de ruta de acceso >*\BAM\BamApiSample\bin\debug\BamApiSample.exe.  
+4.  Ejecutar  *\<ejemplos de ruta de acceso\>*\BAM\BamApiSample\bin\debug\BamApiSample.exe.  
   
      El resultado será similar al siguiente:  
   
@@ -163,10 +163,10 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
   
 2.  En SQL Server Management Studio, expanda el servidor, expanda **bases de datos**, expanda **BAMPrimaryImport**y, a continuación, expanda **tablas**.  
   
-3.  Haga clic en **dbo.bam_BAMApiInvoice_Active** y, a continuación, haga clic en **Abrir tabla**. Si utilizas [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], haga clic en **seleccionar las primeras 1000 filas**.  
+3.  Haga clic en **dbo.bam_BAMApiInvoice_Active** y, a continuación, haga clic en **Abrir tabla**. Si está utilizando SQL Server, haga clic en **seleccionar las primeras 1000 filas**.  
   
      El contenido de la tabla bam_BAMApiInvoice_Active se muestra en el panel derecho. Cada fila de la tabla representa una actividad BAMApiInvoice que se ha iniciado, pero que no se ha completado.  
   
-4.  Haga clic en **dbo.bam_BAMApiPo_Completed** y, a continuación, haga clic en **Abrir tabla**. Si utilizas [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)], haga clic en **seleccionar las primeras 1000 filas**.  
+4.  Haga clic en **dbo.bam_BAMApiPo_Completed** y, a continuación, haga clic en **Abrir tabla**. Si está utilizando SQL Server, haga clic en **seleccionar las primeras 1000 filas**.  
   
      El contenido de la tabla bam_BAMApiPo_Completed se muestra en el panel derecho. Cada fila de la tabla representa una actividad BAMApiPo que se ha completado.

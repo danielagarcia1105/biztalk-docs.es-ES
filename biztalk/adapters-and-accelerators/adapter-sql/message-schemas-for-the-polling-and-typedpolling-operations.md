@@ -13,16 +13,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2f18185e4bfaf5502537a68044579b0f7721cd23
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0cd6a281bfca73e74f23ce25bb9fa08761a07789
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-the-polling-and-typedpolling-operations"></a>Esquemas de mensaje para las operaciones de TypedPolling y sondeo
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies el sondeo y TypedPolling operaciones para devolver el conjunto de resultados de la consulta de sondeo a un cliente de adaptador de entrada.  
   
- Configurar las operaciones de sondeo y TypedPolling estableciendo las propiedades de enlace el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Para obtener más información acerca de estas propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Establece el **PollingStatement** enlace de propiedad para especificar una instrucción SQL (SELECT o EXEC \<procedimiento almacenado >) para la consulta de sondeo. El conjunto de resultados de esta consulta se devuelve como datos en el código en la operación de sondeo y, como datos fuertemente tipados en la operación TypedPolling. La estructura del conjunto de resultados se determina por los metadatos que expone el adaptador para la consulta especificada.  
+ Configurar las operaciones de sondeo y TypedPolling estableciendo las propiedades de enlace el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Para obtener más información acerca de estas propiedades de enlace, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Establece el **PollingStatement** enlace de propiedad para especificar una instrucción SQL (SELECT o EXEC \<procedimiento almacenado\>) para la consulta de sondeo. El conjunto de resultados de esta consulta se devuelve como datos en el código en la operación de sondeo y, como datos fuertemente tipados en la operación TypedPolling. La estructura del conjunto de resultados se determina por los metadatos que expone el adaptador para la consulta especificada.  
   
 ## <a name="polling-message-structure"></a>Estructura de mensaje de sondeo 
   

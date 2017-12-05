@@ -30,11 +30,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24ab84990a83345ea2fd5e78ca84755f2bb67b28
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b11ed175fc047eee59761547d8d13ab798ac860c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="publish-and-subscribe-architecture"></a>Arquitectura de publicación y suscripción
 En un diseño de publicación y suscripción, hay tres componentes:  
@@ -76,7 +76,7 @@ En un diseño de publicación y suscripción, hay tres componentes:
   
 -   NotEqualsPredicates  
   
- Todo esto se logra mediante una llamada a la Bts_CreateSubscription_\<nombre de aplicación > y Bts_InsertPredicate_\<nombre de aplicación > base de datos de los procedimientos almacenados en el cuadro de mensajes donde \<nombre de la aplicación > es el nombre del host de BizTalk que está creando la suscripción.  
+ Todo esto se logra mediante una llamada a la Bts_CreateSubscription_\<nombre de la aplicación\> y Bts_InsertPredicate_\<nombre de la aplicación\> where de base de datos de los procedimientos almacenados en el cuadro de mensajes \< nombre de la aplicación\> es el nombre del host de BizTalk que está creando la suscripción.  
   
  Cuando se da de alta un puerto de envío, el puerto crea, en un mínimo, una suscripción para cualquier mensaje con el Id. de transporte de ese puerto de envío en el contexto. Esto permite que el puerto de envío reciba siempre los mensajes dirigidos específicamente a él. Cuando se enlaza un puerto de orquestación a un puerto de envío concreto, la información acerca de ese enlace se almacena en la base de datos de administración de BizTalk. Cuando se envían mensajes desde la orquestación a través del puerto enlazado al puerto de envío físico, se incluye el Id. de transporte en el contexto de forma que el mensaje se enruta hacia ese puerto de envío. Sin embargo, es importante tener en cuenta que este puerto de envío no es el único puerto de envío que puede recibir mensajes enviados desde la orquestación. Cuando una orquestación envía un mensaje, ese mensaje se publica en el cuadro de mensajes con todas las propiedades promocionadas relevantes. El puerto de envío enlazado tiene garantizada la recepción de una copia del mensaje porque el Id. de transporte está en el contexto, pero cualquier otro puerto de envío, u orquestación, puede tener una suscripción que también coincide con las propiedades del mensaje. Es muy importante tener claro que siempre que se publica un mensaje directamente en el cuadro de mensajes, todos los suscriptores con suscripciones coincidentes recibirán una copia del mensaje.  
   
@@ -103,7 +103,7 @@ En un diseño de publicación y suscripción, hay tres componentes:
   
  Estas referencias evitan que los mensajes y sus partes se eliminen con trabajos de limpieza que se ejecutan periódicamente para impedir que el cuadro de mensajes se llene con datos de mensajes que ya no están en el sistema. Se usan dos tablas para reducir los problemas de contención y bloqueo.  
   
- Ahora que el mensaje se ha enrutado hacia la cola correcta, se ha almacenado en las tablas de cola de impresión y partes, y se hace referencia a él en las colas específicas de la aplicación, las instancias de la aplicación deben extraer los mensajes de las colas. Cada instancia de host tiene una serie de subprocesos de extracción de la cola que sondean continuamente la base de datos en un intervalo configurado en la tabla adm_ServiceClass de la base de datos de administración de BizTalk. Esta misma tabla tiene una columna para indicar el número de subprocesos de extracción de la cola que se usarán. Cada subproceso llama a la base de datos de cuadro de mensajes y llama a la bts_DequeueMessages_\<nombre de aplicación > procedimiento apropiado para la aplicación host se está ejecutando en almacenado. Este procedimiento almacenado utiliza semántica de bloqueo para asegurarse de que solo una instancia y un subproceso de extracción pueden funcionar en un mensaje en la cola en un momento dado. La instancia de host que obtiene el bloqueo obtiene el mensaje y es responsable de entregarlo al subservicio al que está dirigido.  
+ Ahora que el mensaje se ha enrutado hacia la cola correcta, se ha almacenado en las tablas de cola de impresión y partes, y se hace referencia a él en las colas específicas de la aplicación, las instancias de la aplicación deben extraer los mensajes de las colas. Cada instancia de host tiene una serie de subprocesos de extracción de la cola que sondean continuamente la base de datos en un intervalo configurado en la tabla adm_ServiceClass de la base de datos de administración de BizTalk. Esta misma tabla tiene una columna para indicar el número de subprocesos de extracción de la cola que se usarán. Cada subproceso llama a la base de datos de cuadro de mensajes y llama a la bts_DequeueMessages_\<nombre de la aplicación\> procedimiento apropiado para la aplicación host se está ejecutando en almacenado. Este procedimiento almacenado utiliza semántica de bloqueo para asegurarse de que solo una instancia y un subproceso de extracción pueden funcionar en un mensaje en la cola en un momento dado. La instancia de host que obtiene el bloqueo obtiene el mensaje y es responsable de entregarlo al subservicio al que está dirigido.  
   
  Si el servicio que recibe el mensaje es el administrador de extremos, se llama al puerto de envío (o la parte de respuesta de un puerto de recepción de solicitud-respuesta) y, si es el subservicio XLANG/s, se crea o se ubica una orquestación para servir la suscripción en función de si hay un Id. de instancia en la suscripción. El servicio entrega después la referencia al mensaje y su parte de manera que, si no hay más servicios con referencias, los datos del mensaje se pueden eliminar.  
   

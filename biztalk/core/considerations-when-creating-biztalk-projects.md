@@ -17,17 +17,17 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e9d05e07465d834f587f79d50f04bec18a89506
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0302d2329f848352f55d15f0c6e21bbdf72b0ca
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="considerations-when-creating-biztalk-projects"></a>Consideraciones acerca de la creación de proyectos de BizTalk
 Esta sección proporciona información que debe tener en cuenta al crear BizTalk proyectos utilizando [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
 ## <a name="avoid-compilation-errors-caused-by-projects-that-are-too-large"></a>Evitar los errores de compilación que causan los proyectos demasiado grandes  
- El compilador de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no compila correctamente un proyecto si el resultado es un ensamblado de más de 75 megabytes. Cuando el compilador alcanza una restricción de tamaño emite un error grave CS0013 "Error inesperado al escribir metadatos en el archivo \<filename >" y se interrumpirá.  
+ El compilador de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no compila correctamente un proyecto si el resultado es un ensamblado de más de 75 megabytes. Cuando el compilador alcanza una restricción de tamaño emite un error grave CS0013 "Error inesperado al escribir metadatos en el archivo \<filename\>" y se interrumpirá.  
   
  Para evitar este problema, se recomienda que los proyectos no excedan los 10 megabytes a menos que sea absolutamente necesario. ¿Por qué?  
   
@@ -42,9 +42,9 @@ Esta sección proporciona información que debe tener en cuenta al crear BizTalk
 -   Dividir un proyecto grande con muchos esquemas no relacionados en proyectos más pequeños con esquemas muy relacionados entre sí puede mejorar el rendimiento. Esto se debe a que solo algunos de los ensamblados se cargarán a la misma vez.  
   
 ## <a name="avoid-using-the-project-name-as-the-map-type-name"></a>Evitar utilizar el nombre del proyecto como el nombre de tipo de asignación  
- Cuando agregue una nueva asignación a un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no use el nombre del proyecto como el nombre de tipo. Si lo hace, el compilador generará uno o más errores similares a "el nombre de tipo \<nombre >' no existe en el tipo".  
+ Cuando agregue una nueva asignación a un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no use el nombre del proyecto como el nombre de tipo. Si lo hace, el compilador generará uno o más errores similares a "el nombre de tipo \<nombre\>' no existe en el tipo".  
   
  Para cambiar el nombre de tipo para una asignación desde dentro de un proyecto de BizTalk, haga clic en la asignación en el panel Explorador de soluciones, compruebe la propiedad de nombre de tipo en el panel de propiedades. Si es el mismo, necesita modificarlo sin olvidarse de cambiar cualquier configuración que dependa de él.  
   
 ## <a name="visual-studio-team-system-support"></a>Compatibilidad con Visual Studio Team System  
- Los proyectos de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no admiten todas las características de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Team System directamente. Se admiten las funciones de control de origen de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Team System para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Visual SourceSafe es también totalmente compatible con el seguimiento y las versiones de artefactos de proyecto de BizTalk.
+ Los proyectos de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] no admiten todas las características de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Team System directamente. Las características de control de código fuente de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Team System son compatibles con BizTalk Server. Visual SourceSafe es también totalmente compatible con el seguimiento y las versiones de artefactos de proyecto de BizTalk.

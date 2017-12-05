@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94ed784eeca992d32f431a7c6794b7051b7595e9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b85c5c50bc8aeb388d6b7df1591f4b13900998e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update-references-to-the-tracking-analysis-server-database"></a>Actualizar las referencias a la base de datos del servidor de análisis de seguimiento
 La base de datos del servidor de análisis de seguimiento es opcional y contiene los cubos de procesamiento analítico en línea (OLAP). Estos cubos OLAP son agregaciones de datos contenidos en la base de datos de seguimiento de BizTalk.  
@@ -41,9 +41,9 @@ La base de datos del servidor de análisis de seguimiento es opcional y contiene
 5.  Modifique las columnas que corresponden a la base de datos original para hacer referencia a los valores apropiados de la nueva base de datos.  
   
     > [!NOTE]  
-    >  *\<DBType >* DBServerName y  *\<DBType >* DBName indican la ubicación de la base de datos, donde  *\<DBType >* corresponde al tipo de la base de datos, por ejemplo, TrackingAnalysis.  
+    >  *\<DBType\>*  DBServerName y  *\<DBType\>*  DBName indican la ubicación de la base de datos, donde  *\<DBType\>*  corresponde al tipo de la base de datos, por ejemplo, TrackingAnalysis.  
   
 6.  Cierre la tabla para guardar los valores nuevos.  
   
 ## <a name="see-also"></a>Vea también  
- [Actualizar referencias de base de datos](../technical-guides/updating-database-references.md)
+ [Actualización de referencias de base de datos](../technical-guides/updating-database-references.md)

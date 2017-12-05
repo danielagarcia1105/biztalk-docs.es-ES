@@ -12,18 +12,18 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 03c44f1a5d9797ec09cc164789148287c98b4399
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9008e77e388a93b1750c9b9ba34679ed519db459
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="envelope-schemas"></a>Esquemas de sobres
 
 ## <a name="overview"></a>Información general
 Puede crear un esquema de sobre de las mismas maneras con las que crea un esquema XML de un documento empresarial. Puede crear un esquema a partir de un mensaje de instancia de sobre XML bien estructurado o a partir de representaciones DTD (definición de tipo de documento) o XDR (datos reducidos XML) del esquema de sobre. Asimismo, puede crear un nuevo esquema, bien junto con otros esquemas o bien de forma aislada. Como los esquemas de sobre son normalmente más pequeños y menos complicados que la mayoría de los esquemas de documentos empresariales, la creación de un esquema de sobre nuevo es normalmente una alternativa viable.  
   
- Para definir un esquema como esquema de sobres, debe establecer el **sobres** propiedad de la **esquema** nodo en el valor **Sí**. Cuando se define un esquema de sobre, debe señalar la envoltura **XPath de cuerpo** para el nodo primario que contiene únicamente el \<cualquier > elemento secundario. Para que el ensamblador XML pueda usar el sobre, el nodo primario no debe contener ningún otro elemento.  
+ Para definir un esquema como esquema de sobres, debe establecer el **sobres** propiedad de la **esquema** nodo en el valor **Sí**. Cuando se define un esquema de sobre, debe señalar la envoltura **XPath de cuerpo** para el nodo primario que contiene únicamente el \<cualquier\> elemento secundario. Para que el ensamblador XML pueda usar el sobre, el nodo primario no debe contener ningún otro elemento.  
   
  Al establecer **sobres** propiedad **Sí**, significa que el contenido real del mensaje del mensaje de instancia XML (denominado cuerpo del mensaje) está presente en algún lugar dentro de la raíz **registro**  nodo del esquema, según lo especificado por el **XPath de cuerpo** propiedad de ese nodo. Por tanto, también debe establecer propiedades adicionales según algunas circunstancias:  
   

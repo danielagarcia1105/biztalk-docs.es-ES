@@ -12,17 +12,17 @@ caps.latest.revision: "97"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dbf374b4efb219f1221275819713787565a325b0
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 2d648db0f3a7c6ad4dccdbcc7555fc3c0727568c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution"></a>Cómo instalar las versiones de adaptador y en línea de la solución orientada a servicios
 Los pasos siguientes describen cómo preparar el equipo para instalar las versiones de adaptador y en línea de la solución orientada a servicios y cómo realizar la instalación en el mismo.  
   
 > [!NOTE]
->  - El servicio en la solución orientada a servicios se encuentra en la carpeta \< *carpeta de instalación de BizTalk Server*> \SDK\Scenarios\SO.  
+>  - El servicio en la solución orientada a servicios se encuentra en la carpeta \< *carpeta de instalación de BizTalk Server*\>\SDK\Scenarios\SO.  
 >  - Si la solución no requiere un gran sistema, puede modificar el enlace de puertos para utilizar el servicio Web de código auxiliar para las transacciones pendientes. El servicio Web genera transacciones localmente para emular las transacciones de gran sistema.  
   
 ##  <a name="step1"></a>Preparar el equipo para instalar las versiones de adaptador y en línea de la solución orientada a servicios  
@@ -87,7 +87,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
     -   `bm remove-all -DefinitionFile:ServiceLevelTracking.xml`  
   
-8.  En el símbolo del sistema, cambie al directorio \< *Enterprise Single Sign-On directorio de instalación*>, y, a continuación, ejecute el siguiente comando:  
+8.  En el símbolo del sistema, cambie al directorio \< *Enterprise Single Sign-On directorio de instalación*\>, y, a continuación, ejecute el siguiente comando:  
   
     -   `ssomanage -tickets no no`  
   
@@ -119,13 +119,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
 1.  Instalar IBM WebSphere MQ para Windows Server en el equipo local.  
   
-    1.  Mantenga todos los valores de configuración predeterminados. Configurar la **configuración predeterminada** al final de la **Prepare WebSphere MQ Wizard**. El Administrador de cola se denomina QM_\<*el nombre del equipo*>.  
+    1.  Mantenga todos los valores de configuración predeterminados. Configurar la **configuración predeterminada** al final de la **Prepare WebSphere MQ Wizard**. El Administrador de cola se denomina QM_\<*el nombre del equipo*\>.  
   
     2.  Instale Fix Pack10 (CSD10). Mantenga todos los valores de configuración predeterminados.  
   
 2.  Instale MQSeries Agent.  
   
-    1.  Vuelva a ejecutar el programa de instalación de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    1.  Vuelva a ejecutar el programa de instalación de BizTalk Server.  
   
     2.  En el **mantenimiento del programa** página, seleccione **modificar**y, a continuación, haga clic en **siguiente**.  
   
@@ -136,7 +136,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
     > [!NOTE]
     >  El **MQSeries Agent** casilla se activa después de IBM WebSphere MQ para Windows está instalado.  
   
-3.  Abra un **Visual Studio Command Prompt**, cambie el directorio a la \< *directorio de instalación de MQSeries de IBM*> carpeta \bin y, a continuación, ejecute el comando siguiente:  
+3.  Abra un **Visual Studio Command Prompt**, cambie el directorio a la \< *directorio de instalación de MQSeries de IBM*\>carpeta \bin y, a continuación, ejecute el comando siguiente:  
   
     -   `gacutil /i amqmdnet.dll`  
   
@@ -149,7 +149,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
 #### <a name="create-the-mqseries-queues"></a>Crear las colas de MQSeries  
   
-1.  Abra WebSphere MQ Explorer, expanda **administradores de cola**y, a continuación, expanda el Administrador de cola en el que desea crear las colas. Normalmente, un administrador de cola se denomina QM_\<*el nombre del equipo*>.  
+1.  Abra WebSphere MQ Explorer, expanda **administradores de cola**y, a continuación, expanda el Administrador de cola en el que desea crear las colas. Normalmente, un administrador de cola se denomina QM_\<*el nombre del equipo*\>.  
   
 2.  En WebSphere MQ Explorer, haga clic en **colas**, seleccione **New**, haga clic en **cola Local**y, a continuación, crear las colas locales siguientes para la versión del adaptador de la solución:  
   
@@ -359,7 +359,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\MFAccess\PendingTransactions  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
@@ -379,7 +379,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = PendingTransactions  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\MFAccess\PendingTransactions  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\MFAccess\PendingTransactions  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
@@ -400,13 +400,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
 2.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP, haga clic en **propiedades**y, a continuación, modifique la configuración tal y como sigue:  
   
-    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool*> que creó en el procedimiento "para crear una nueva aplicación IIS grupo para los servicios Web de transacciones pendientes".  
+    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool* \> que creó en el procedimiento "para crear un nuevo servidor de IIS grupo de aplicaciones para los servicios Web de transacciones pendientes".  
   
     2.  En el **seguridad de directorios** , haga clic en **editar** en el **autenticación y control de acceso** cuadro del grupo y, a continuación, seleccione **habilitar el acceso anónimo**. Haga clic en **Aceptar** para salir.  
   
@@ -496,13 +496,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Adapter  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\BTSSoln\OrchProxy\Adapter  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Adapter  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
 3.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web,** expandir la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Adapter, haga clic en **propiedades**y, a continuación, modifique la configuración tal y como sigue:  
   
-    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool*> que creó en el paso anterior.  
+    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool* \> que creó en el paso anterior.  
   
     2.  En el **seguridad de directorios** , haga clic en **editar** en el **autenticación y control de acceso** cuadro de grupo, seleccione **autenticación integrada de Windows habilitado**y, a continuación, desactive las demás **de acceso de autenticación** casillas de verificación. Haga clic en **Aceptar** para salir.  
   
@@ -512,13 +512,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Inline  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\BTSSoln\OrchProxy\Inline  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Inline  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
 5.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Inline, haga clic en **propiedades**y, a continuación, modifique la configuración tal y como sigue:  
   
-    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool*> que acaba de crear.  
+    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool* \> que acaba de crear.  
   
     2.  Haga clic en **seguridad de directorios** , haga clic en **editar** en el **autenticación y control de acceso** cuadro de grupo, seleccione **autenticación integrada de Windows habilitado**y, a continuación, desactive las demás **de acceso de autenticación** casillas de verificación. Haga clic en **Aceptar** para salir.  
   
@@ -615,25 +615,25 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
     >  Los valores SAPAdapterTimeout, PendingTransactionsAdapterTimeout y PaymentTrackingAdapterTimeout se utilizan en la versión de adaptador. Los valores restantes se utilizan en la versión en línea.  
   
     > [!NOTE]
-    >  Puede escribir "" (dos comillas dobles) para los valores predeterminados marcados \<especificado por el usuario > en la tabla siguiente.  
+    >  Puede escribir "" (dos comillas dobles) para los valores predeterminados marcados \<especificado por el usuario\> en la tabla siguiente.  
   
     |Parámetro|Valor predeterminado|Description|  
     |---------------|-------------------|-----------------|  
     |SAPAdapterTimeout|20000|Tiempo máximo de espera (en milisegundos) de una solicitud al back-end SAP|  
     |SAPInlineTimeout|20000|Tiempo máximo de espera (en milisegundos) de una solicitud al back-end SAP|  
-    |SAPInlineHostName|\<Especificado por el usuario >|Identificador de servidor SAP|  
-    |SAPInlineClientNumber|\<Especificado por el usuario >|Número de cliente SAP|  
-    |SAPInlineSystemNumber|\<Especificado por el usuario >|Número de sistema SAP|  
-    |SAPInlineUserName|\<Especificado por el usuario >|Nombre de usuario utilizado para conectarse al servidor SAP.|  
-    |SAPInlinePassword|\<Especificado por el usuario >|Contraseña utilizada para conectarse al servidor SAP.|  
+    |SAPInlineHostName|\<Especificado por el usuario\>|Identificador de servidor SAP|  
+    |SAPInlineClientNumber|\<Especificado por el usuario\>|Número de cliente SAP|  
+    |SAPInlineSystemNumber|\<Especificado por el usuario\>|Número de sistema SAP|  
+    |SAPInlineUserName|\<Especificado por el usuario\>|Nombre de usuario utilizado para conectarse al servidor SAP.|  
+    |SAPInlinePassword|\<Especificado por el usuario\>|Contraseña utilizada para conectarse al servidor SAP.|  
     |PendingTransactionsAdapterTimeout|20000|Tiempo máximo de espera (en milisegundos) para una solicitud al servidor de transacciones pendientes|  
     |PendingTransactionsInlineTimeout|20000|Tiempo máximo de espera (en milisegundos) para una solicitud al servidor de transacciones pendientes|  
-    |PendingTransactionsInlineURL|https://\<*el nombre del equipo*> /Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions/PendTransWS.asmx|Dirección URL del servicio transacciones pendientes. \<*El nombre del equipo*> debe coincidir con el **nombre común** en el procedimiento "para crear una solicitud de certificado". No debe utilizar "localhost" para \< *el nombre del equipo*>.|  
+    |PendingTransactionsInlineURL|https://\<*el nombre del equipo*\>/Microsoft.Samples.BizTalk.WoodgroveBank.PendingTransactions/PendTransWS.asmx|Dirección URL del servicio transacciones pendientes. \<*El nombre del equipo* \> debe coincidir con el **nombre común** en el procedimiento "para crear una solicitud de certificado". No debe utilizar "localhost" para \< *el nombre del equipo*\>.|  
     |PendingTransactionsInlineSSOAffiliateApp|WoodgroveBank.PendingTransactions|Nombre de la aplicación SSO de transacciones pendientes|  
     |PaymentTrackingAdapterTimeout|20000|Tiempo máximo de espera (en milisegundos) para una solicitud al sistema seguimiento de pagos|  
     |PaymentTrackingInlineTimeout|20000|Tiempo máximo de espera (en milisegundos) para una solicitud al sistema seguimiento de pagos|  
-    |PaymentTrackingInlineQManager|\<Usuario Specified > (normalmente QM_\<*el nombre del equipo*>).|Nombre del administrador de la cola MQSeries|  
-    |PaymentTrackingInlineMQChannelDefinition|" " (es necesario escribir las dos comillas dobles).|Si es local, una cadena vacía, o bien el nombre del canal con formato del servidor MQ remoto. Si mantiene todos los valores predeterminados en la configuración de IBM WebSphere MQ, la definición de canal será S__\<*el nombre del equipo*>/TCP /\<*el nombre del equipo*> (1414).|  
+    |PaymentTrackingInlineQManager|\<Usuario Specified\> (normalmente QM_\<*el nombre del equipo*\>).|Nombre del administrador de la cola MQSeries|  
+    |PaymentTrackingInlineMQChannelDefinition|" " (es necesario escribir las dos comillas dobles).|Si es local, una cadena vacía, o bien el nombre del canal con formato del servidor MQ remoto. Si mantiene todos los valores predeterminados en la configuración de IBM WebSphere MQ, la definición de canal será S__\<*el nombre del equipo*\>/TCP /\<*el nombre del equipo* \>(1414).|  
     |PaymentTrackingInlineRequestQueue|LastPaymentsInputQueue|Nombre de la cola MQ para las solicitudes de seguimiento de pago|  
     |PaymentTrackingInlineResponseQueue|LastPaymentsOutputQueue|Nombre de la cola MQ para respuestas de seguimiento de pago|  
     |PaymentTrackingInlineSSOAffiliateApp|WoodgroveBank.PaymentTracker|Nombre de la aplicación SSO de seguimiento de pago|  
@@ -645,11 +645,11 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
 9. En el símbolo del sistema, ejecute el CreateInitialConfigInSSO.cmd. Crea las aplicaciones afiliadas de SSO, la aplicación de almacén de configuración de SSO y las asignaciones de usuario para las aplicaciones afiliadas. A continuación, ejecuta SetConfigValuesInSSO.cmd para almacenar los valores de configuración en la aplicación de almacenamiento de la configuración SSO.  
   
-10. En el símbolo del sistema, ejecute el comando siguiente para establecer la credencial de usuario de la aplicación afiliada de transacciones pendientes. Use la \< **DomainName**> y \< **UserID**> definido en el archivo PendTransUserMap.xml para el \<WindowsDomain >\\< WindowsUserId\>. Este comando pide que facilite la contraseña del usuario externo, UserID, utilizado en este tutorial.  
+10. En el símbolo del sistema, ejecute el comando siguiente para establecer la credencial de usuario de la aplicación afiliada de transacciones pendientes. Use la \< **DomainName** \> y \< **UserID** \> definido en el archivo PendTransUserMap.xml para el \<WindowsDomain\> \\< WindowsUserId\>. Este comando pide que facilite la contraseña del usuario externo, UserID, utilizado en este tutorial.  
   
     -   `ssomanage -setcredentials <WindowsDomain>\<WindowsUserId> WoodgroveBank.PendingTransactions`  
   
-11. En el símbolo del sistema, ejecute el comando siguiente para establecer la credencial de usuario de la aplicación afiliada de seguimiento de pago. Use la \< **DomainName**> y \< **UserID**> definido en el archivo PmntTrckUserMap.xml para el \<WindowsDomain >\\< WindowsUserId \>. Este comando pide que facilite la contraseña del usuario externo, PTUserID, utilizado en este tutorial.  
+11. En el símbolo del sistema, ejecute el comando siguiente para establecer la credencial de usuario de la aplicación afiliada de seguimiento de pago. Use la \< **DomainName** \> y \< **UserID** \> definido en el archivo PmntTrckUserMap.xml para el \<WindowsDomain\> \\< WindowsUserId\>. Este comando pide que facilite la contraseña del usuario externo, PTUserID, utilizado en este tutorial.  
   
     > [!NOTE]
     >  El simulador de seguimiento de pago no valida la credencia de usuario externo. Puede escribir cualquier contraseña para el identificador PTUserID.  
@@ -684,7 +684,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
     -   Reemplace todas las apariciones de __MQ_QMANAGER_NAME\_ \_ con el nombre del Administrador de cola de MQSeries.  
   
-    -   Reemplace todas las apariciones de __PT_WS_SERVER_NAME\_ \_ en la cadena "\<dirección > https://\__PT_WS_SERVER_NAME\_\_" con el nombre del servidor donde las transacciones pendientes Se implementa el servicio Web. El nombre del servidor debe coincidir con el **nombre común** en el paso "para configurar el servidor Web para SSL". No debe utilizar localhost.  
+    -   Reemplace todas las apariciones de __PT_WS_SERVER_NAME\_ \_ en la cadena "\<dirección\>https://\__PT_WS_SERVER_NAME\_\_" con el nombre del servidor donde la pendiente Se implementa el servicio Web de transacciones. El nombre del servidor debe coincidir con el **nombre común** en el paso "para configurar el servidor Web para SSL". No debe utilizar localhost.  
   
     > [!NOTE]
     >  El archivo de enlace, AdapterSOAOrchBindings.xml, emplea el servicio Web de código auxiliar para las siguientes funciones:  
@@ -720,13 +720,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
 2.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions, haga clic en **propiedades**y, a continuación, modifique la configuración como se indica a continuación mediante el **propiedades** cuadro de diálogo.  
   
-    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool*> que creó en el paso "para crear los directorios virtuales de IIS para la solución".  
+    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool* \> que creó en el paso "para crear el virtual directorios de IIS para la solución".  
   
     2.  En el **seguridad de directorios** , haga clic en **editar** en el **autenticación y control de acceso** cuadro del grupo y, a continuación, seleccione **habilitar el acceso anónimo**. Haga clic en **Aceptar** para salir.  
   
@@ -746,13 +746,13 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
   
      Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-     Ruta de acceso = \< *directorio de instalación de BizTalk*> \SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+     Ruta de acceso = \< *directorio de instalación de BizTalk*\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
      Permisos de acceso = lectura, ejecución de scripts  
   
 2.  En el **Internet Information Services (IIS) Manager**, expanda **sitios Web**, expanda la **sitio Web predeterminado**, haga clic en Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions, haga clic en **propiedades**y, a continuación, modifique la configuración tal y como sigue:  
   
-    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool*> que creó en el paso "para crear los directorios virtuales de IIS para la solución".  
+    1.  En el **directorio Virtual** pestaña, establezca el **grupo de aplicaciones** a \< *YourAppPool* \> que creó en el paso "para crear el virtual directorios de IIS para la solución".  
   
     2.  En el **seguridad de directorios** , haga clic en **editar** en el **autenticación y control de acceso** cuadro del grupo y, a continuación, seleccione **habilitar el acceso anónimo**. Haga clic en **Aceptar** para salir.  
   
@@ -778,4 +778,4 @@ Los pasos siguientes describen cómo preparar el equipo para instalar las versio
 ## <a name="see-also"></a>Vea también  
  [Antes de instalar la solución orientada a servicios](../core/before-installing-the-service-oriented-solution.md)   
  [Cómo instalar la versión de código auxiliar del servicio en la solución orientada a servicios](../core/how-to-install-the-stub-version-of-the-service-oriented-solution.md)   
- [Solución orientada a servicios de configuración del equipo del desarrollador para el servicio](../core/developer-machine-setup-for-the-service-oriented-solution.md)
+ [Configurar el equipo del desarrollador para la solución orientada a servicios](../core/developer-machine-setup-for-the-service-oriented-solution.md)

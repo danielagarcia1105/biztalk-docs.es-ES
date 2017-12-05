@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a139b625ff1c31fb0dce71c08779856f0dc8b685
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 39b5b6b6da7d97d3c763e5f45f215aa03d13c77c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a>Actualización a BizTalk Server 2016
 Actualización a [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] desde [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] o BizTalk Server 2013.
@@ -152,9 +152,9 @@ Se requiere Correo electrónico de base de datos de SQL Server para usar alertas
 - **Valor maxTimeout**: si tiene una base de datos de BAM de gran tamaño, actualice el valor `maxTimeout` de las transacciones distribuidas en el archivo machine.config a:  
 
     ```
-    \<system.transactions>
+    <system.transactions>
        <machineSettings maxTimeout="23:59:59" />
-    \</system.transactions>
+    </system.transactions>
     ```
 
 - **Seguimiento de BAM habilitado con el Editor de perfiles de seguimiento (TPE)**: después de realizar la actualización, los perfiles de seguimiento implementados previamente se actualizan, pero las configuraciones de interceptor correspondientes no lo hacen. Es posible que los nuevos mensajes de BAM interceptados todavía tengan referencias de BizTalk Server 2013 R2/2013. Para actualizar las configuraciones de interceptor correspondientes, use el Editor de perfiles de seguimiento para recuperar el perfil de la actividad y, después, vuelva a aplicarlo.
@@ -282,7 +282,7 @@ No se puede revertir a [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/201
 - **EXE y BRE personalizados**: si tiene un archivo ejecutable administrado personalizado que hace referencia al ensamblado del Motor de reglas de negocios en BizTalk Server 2010, agregue lo siguiente al archivo de configuración de la aplicación para ejecutar el proceso en .NET Framework 2.0.
 
     ```
-    \<?xml version="1.0" encoding="Windows-1252"?>
+    <?xml version="1.0" encoding="Windows-1252"?>
     <configuration> 
      <startup>
       <supportedRuntime version="v2.0.50727" />

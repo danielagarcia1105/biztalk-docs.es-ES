@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3ab2de6dabd581cb36d23ce218fb1b902ac04e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5f7440a0bad39fbfddb6319f4051a397f08ac09f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3d-add-a-fileact-send-port-for-the-fileact-real-time-scenario"></a>Paso 3D: agregar un puerto de envío de FILEACT para el escenario en tiempo real de FileAct
 Antes de empezar este paso, debe completar [paso 3c: agregar un puerto de envío de archivo para capturar Sw:HandleRequest mensaje para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-message-for-fileact.md).  
@@ -41,11 +41,11 @@ Antes de empezar este paso, debe completar [paso 3c: agregar un puerto de envío
     |**Nombre de usuario.**|Defina el nombre de usuario según corresponda para la conectividad SAG.|  
     |**Modo del adaptador**|En la lista desplegable, seleccione **almacenar y retransmitir**.|  
     |**Indicador de sin repudio**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Tipo de solicitud**|Establecer correspondientes \<RequestType > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Tipo de solicitud**|Establecer correspondientes \<RequestType\> cadena, según su aprovisionamiento con SWIFT.|  
     |**ResponseCrypto**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Solicitante**|Establecer correspondientes \<solicitante > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Servicio de respuesta**|Establecer correspondientes \<Respondedor > cadena según su aprovisionamiento con SWIFT.|  
-    |**Nombre del servicio**|Establecer correspondientes \<nombre del servicio > en función de su aprovisionamiento con SWIFT.|  
+    |**Solicitante**|Establecer correspondientes \<solicitante\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Establecer correspondientes \<Respondedor\> cadena según su aprovisionamiento con SWIFT.|  
+    |**Nombre del servicio**|Establecer correspondientes \<nombre del servicio\> en función de su aprovisionamiento con SWIFT.|  
     |**Indicador de confirmación**|En la lista desplegable, seleccione **FALSE**.|  
     |**Extremo de eventos**|En la lista desplegable, seleccione **FALSE**.|  
     |**Compresión de archivos**|En la lista desplegable, seleccione **ninguno**.|  
@@ -84,4 +84,4 @@ Antes de empezar este paso, debe completar [paso 3c: agregar un puerto de envío
  [Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md)   
  [Paso 3B: agregar un FILEACT ubicación de recepción para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3b-add-a-fileact-receive-location-for-the-fileact-real-time-scenario.md)   
  [Paso 3c: agregar un puerto de envío de archivo para capturar los mensajes de Sw:HandleRequest para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-message-for-fileact.md)   
- [Paso 3E: agregar un puerto de envío de archivo para capturar los mensajes de Sw:ExchangeFileResponse para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)
+ [Paso 3E: Agregar un puerto de envío de ARCHIVOS para capturar el mensaje Sw:ExchangeFileResponse para el escenario de FileAct en tiempo real](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)

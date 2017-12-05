@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79cfe3ec0a2fa1fdd8f6241d1be9326a396b95cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 193b47e5c4f918bacbf1b573d6aaed5326d7cfdc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="admin-operationsom-biztalk-server-samples-folder"></a>Administración-OperationsOM (carpeta de ejemplos de BizTalk Server)
-Microsoft [!INCLUDE[prague](../includes/prague-md.md)] incluye varios ejemplos en la carpeta Admin\OperationsOM de su kit de desarrollo de software (SDK). En esta sección se proporciona información detallada acerca de la funcionalidad que muestra cada ejemplo de administración del modelo de objetos Operaciones de BizTalk, instrucciones para la generación y ejecución del ejemplo ylos resultados que se pueden esperar.  
+Microsoft BizTalk Server incluye ejemplos en la carpeta Admin\OperationsOM de su kit de desarrollo de software (SDK). En esta sección se proporciona información detallada acerca de la funcionalidad que muestra cada ejemplo de administración del modelo de objetos Operaciones de BizTalk, instrucciones para la generación y ejecución del ejemplo ylos resultados que se pueden esperar.  
   
 > [!WARNING]
 >  Las secuencias de comandos de implementación se deben quitar después de la implementación si no son necesarias. La lista de control de acceso (ACL) debe proteger y supervisar detalladamente las secuencias de comandos de administración y otras secuencias de comandos que deben permanecer.  

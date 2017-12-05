@@ -12,14 +12,14 @@ caps.latest.revision: "37"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5b5edfa2eccfeac9a4d4192b2189877081ddf25a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0e8351420ed8d7815944c3ae619420137a8a61df
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-support-in-biztalk-server"></a>Compatibilidad con EDI en BizTalk Server
-En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[prague](../includes/prague-md.md)] es compatible con EDI.  
+En este tema se proporciona una breve descripción general de EDI y cómo BizTalk Server es compatible con EDI.  
   
 ## <a name="introduction-to-edi"></a>Introducción a EDI  
  El intercambio electrónico de datos (EDI) es uno de los medios usados frecuentemente a través del cual los socios comerciales intercambian datos de forma electrónica. EDI está orientado principalmente a la mensajería. Los documentos se implementan como archivos sin formato que pueden incluir conjuntos de transacciones por lotes. Los intercambios por lotes pueden contener varios grupos y cada uno de éstos puede contener a su vez varios mensajes o conjuntos de transacciones.  
@@ -42,7 +42,7 @@ En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[p
 >  Los mensajes EDI se distinguen de su transporte. Los estándares EDI no recomiendan el transporte de mensaje. Además, los mensajes EDI pueden enviarse utilizando diferentes medios.  
   
 ## <a name="how-edi-is-implemented-in-biztalk-server"></a>Implementar EDI en BizTalk Server  
- [!INCLUDE[prague](../includes/prague-md.md)] incluye funcionalidad nativa que proporciona compatibilidad para EDI. EDI está incorporado en el producto; no es un complemento, por ejemplo, un adaptador o una tecla de aceleración.  
+ BizTalk Server incluye funcionalidad nativa que proporciona compatibilidad para EDI. EDI está incorporado en el producto; no es un complemento, por ejemplo, un adaptador o una tecla de aceleración.  
   
  **Procesamiento de intercambio**  
   
@@ -64,7 +64,7 @@ En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[p
   
 -   Si varias entidades se suscriben a un intercambio por lotes, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] envía una copia del lote a cada entidad.  
   
- **Acuerdos de socios comerciales**  
+ **Acuerdos entre socios comerciales**  
   
  Los socios comerciales definen entre ellos el acuerdo entre socios comerciales, formado por un conjunto de propiedades definidas en la consola de administración de BizTalk Server. Estas propiedades de entidades, además de las propiedades de ubicaciones y puertos de envío y recepción, determinan el procesamiento EDI de envío y recepción. Para obtener más información acerca de acuerdos de socios comerciales, vea [acuerdo de socios comerciales](../core/trading-partner-agreement.md).  
   
@@ -73,7 +73,7 @@ En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[p
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona la notificación de estado específica de EDI. Estos informes de estado proporcionan información completa sobre el estado de una transacción de intercambio de un documento, incluidas las confirmaciones correlacionadas con el intercambio.  
   
 ## <a name="edi-components-in-biztalk-server"></a>Componentes de EDI en BizTalk Server  
- Los componentes Microsoft [!INCLUDE[prague](../includes/prague-md.md)] usados para el procesamiento de EDI incluyen los siguientes:  
+ Componentes de Microsoft BizTalk Server utilizados para el procesamiento de EDI incluyen lo siguiente:  
   
 -   La aplicación EDI de BizTalk contiene artefactos (que incluyen canalizaciones, orquestaciones y esquemas) que se necesitan para procesar documentos EDI.  
   
@@ -94,7 +94,7 @@ En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[p
   
 -   Un repositorio de esquema incluye X12, EDIFACT, HIPAA X12N 4010A XSD, EANCOM y esquemas de control. Para obtener más información, consulte [compatibilidad del esquema de documento EDI](../core/edi-document-schema-support.md).  
   
--   Una herramienta de migración (herramienta de migración de entidades) permite migrar datos de entidades EDI de BizTalk Server 2006 R2 o BizTalk Server 2009 a [!INCLUDE[prague](../includes/prague-md.md)]. Para obtener más información, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+-   Una herramienta de migración (herramienta de migración de entidades) permite migrar datos de entidades EDI de BizTalk Server 2006 R2 o BizTalk Server 2009 a BizTalk Server. Para obtener más información, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de EDI en BizTalk Server](../core/edi-processing-in-biztalk-server.md)   
@@ -102,4 +102,4 @@ En este tema se ofrece una breve información general de EDI y cómo [!INCLUDE[p
  [Problemas de soporte técnico EDI](../core/edi-support-issues.md)   
  [Arquitectura de la solución EDI](../core/edi-solution-architecture.md)   
  [EDI y AS2 informes de estado](../core/edi-and-as2-status-reporting.md)   
- [Desarrollar y configurar soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)
+ [Desarrollo y configuración de soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

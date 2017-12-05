@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 105d1b42848b73505d9a82df07693111708ce802
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a71431ee800c80c6972747f09b0e2420f961e33e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bam-dts-packages"></a>Paquetes DTS de BAM
 Un administrador puede actualizar parámetros para los siguientes paquetes DTS de BAM:  
@@ -41,13 +41,11 @@ Un administrador puede actualizar parámetros para los siguientes paquetes DTS d
   
 -   **CubeUpdate** paquete DTS  
   
-     **bam_AN_\<**   
-     ***CubeName* >**, donde CubeName es el nombre del cubo. El libro de trabajo de BAM genera el nombre de cubo a partir del nombre de vista. Si modifica el nombre del cubo en el documento XML de configuración de BAM, el nuevo nombre del cubo se usa en el nombre del paquete DTS.  
+     **bam_AN_\<**   ***CubeName* \>** , donde CubeName es el nombre del cubo. El libro de trabajo de BAM genera el nombre de cubo a partir del nombre de vista. Si modifica el nombre del cubo en el documento XML de configuración de BAM, el nuevo nombre del cubo se usa en el nombre del paquete DTS.  
   
 -   **DataMaintenance** paquete DTS  
   
-     **bam_DM_\<**   
-     ***ActivityName* >**, donde ActivityName es el nombre de la actividad.  
+     **bam_DM_\<**   ***ActivityName* \>** , donde ActivityName es el nombre de la actividad.  
   
  El paquete DTS CubeUpdate se utiliza para añadir la agregación programada. En la sección siguiente, podrá especificar el período de tiempo para agregación de datos en tiempo real.  
   

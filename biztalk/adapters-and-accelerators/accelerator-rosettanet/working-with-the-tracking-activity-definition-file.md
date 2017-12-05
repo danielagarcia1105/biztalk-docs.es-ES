@@ -18,19 +18,19 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 751b05f28682ecc0a0230fc924cf706d0531784d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e6cf33bf62f8ec7924b3f9ff2379f84b2b42775
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="working-with-the-tracking-activity-definition-file"></a>Trabajar con el archivo de definición de actividad de seguimiento
-El archivo de definición de actividad contiene información acerca del seguimiento de la actividades de proceso y el mensaje en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]usa este archivo para administrar los datos de seguimiento de BizTalk actividad supervisión económica (BAM). El archivo de definición es un archivo XML (Tracking.xml) que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el programa de instalación instala en el \< *unidad*>: \Program Acelerador de BizTalk 2013 para RosettaNet \BAMTracking carpeta. Las actividades definidas en Tracking.xml pueden ser suficientes para sus fines.  
+El archivo de definición de actividad contiene información acerca del seguimiento de la actividades de proceso y el mensaje en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]usa este archivo para administrar los datos de seguimiento de BizTalk actividad supervisión económica (BAM). El archivo de definición es un archivo XML (Tracking.xml) que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el programa de instalación instala en el \< *unidad*\>: \Program Acelerador de BizTalk 2013 para RosettaNet \BAMTracking carpeta. Las actividades definidas en Tracking.xml pueden ser suficientes para sus fines.  
   
- Para obtener más información sobre el seguimiento de actividades, vistas y tablas, consulte [mejorada de seguimiento](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md). Para obtener más información acerca de BAM, vea "actividad supervisión económica (BAM)" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información sobre el seguimiento de actividades, vistas y tablas, consulte [mejorada de seguimiento](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md). Para obtener más información acerca de BAM, consulte "actividad supervisión económica (BAM)" en la Ayuda de BizTalk Server.  
   
 ## <a name="managing-tracking-views"></a>Administrar vistas de seguimiento  
- No utilice el Editor de perfiles de seguimiento de BizTalk con [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] de seguimiento. Los puntos de seguimiento no son personalizables; No cambie las definiciones de actividad. Sin embargo, puede administrar la implementación y vistas de BAM. Para ello, modifique un [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] (Tracking.xls) de la hoja de cálculo que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el programa de instalación instala en el \< *unidad*>: \Program BizTalk 2013 Accelerator para RosettaNet\BAMTracking carpeta. Para obtener más información, vea "Administrar seguimiento vistas" a continuación.  
+ No utilice el Editor de perfiles de seguimiento de BizTalk con [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] de seguimiento. Los puntos de seguimiento no son personalizables; No cambie las definiciones de actividad. Sin embargo, puede administrar la implementación y vistas de BAM. Para ello, modifique un [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] (Tracking.xls) de la hoja de cálculo que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el programa de instalación instala en el \< *unidad*\>: \Program BizTalk 2013 Accelerator for RosettaNet\ Carpeta BAMTracking. Para obtener más información, vea "Administrar seguimiento vistas" a continuación.  
   
  Si las vistas definidas en Tracking.xml no son suficientes para satisfacer sus necesidades, puede definir vistas diferentes de la información de seguimiento en BAM como se indica a continuación.  
   
@@ -40,12 +40,12 @@ El archivo de definición de actividad contiene información acerca del seguimie
   
     ```  
     cd %ProgramFiles%\Microsoft BizTalk Server 2013\Tracking  
-    bm remove-all  -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2013 Accelerator for RosettaNet\BAMTracking\<filename>.xml"  
+    bm remove-all  -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2013 Accelerator for RosettaNet\BAMTracking\<filename\>.xml"  
     ```  
   
-2.  En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a  *\<unidad >*: \Program BizTalk 2013 Accelerator for RosettaNet \BAM de seguimiento. Haga doble clic en Tracking.xls.  
+2.  En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a  *\<unidad\>*: \Program BizTalk 2013 Accelerator for RosettaNet \BAM de seguimiento. Haga doble clic en Tracking.xls.  
   
-3.  Crear una nueva vista de supervisión de la actividad de negocio. Para obtener información acerca de cómo hacerlo, vea "Administrar Business Activity Monitoring" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+3.  Crear una nueva vista de supervisión de la actividad de negocio. Para obtener información acerca de cómo hacerlo, vea "Administrar Business Activity Monitoring" en la Ayuda de BizTalk Server.  
   
 4.  Haga clic en **BAM**y, a continuación, haga clic en **exportar XML**. Mover a la ubicación deseada, escriba un nombre de archivo (que no sean Tracking.xml) y, a continuación, haga clic en **guardar**.  
   
@@ -56,12 +56,12 @@ El archivo de definición de actividad contiene información acerca del seguimie
   
     ```  
     cd %ProgramFiles%\Microsoft BizTalk Server 2013\Tracking  
-    bm.exe deploy-all -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2030 Accelerator for RosettaNet\BAMTracking\<filename>.xml"  
+    bm.exe deploy-all -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2030 Accelerator for RosettaNet\BAMTracking\<filename\>.xml"  
     ```  
   
  La información de seguimiento en BAM no incluye el contenido del mensaje, ya que se almacena en un [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] base de datos.  
   
- Puede administrar la implementación de seguimiento mediante el uso de los negocios actividad supervisión de utilidad de administración de BAM. Para obtener más información acerca de esta utilidad, vea "Mediante el negocio actividad supervisión de administración la utilidad" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Puede administrar la implementación de seguimiento mediante el uso de los negocios actividad supervisión de utilidad de administración de BAM. Para obtener más información acerca de esta utilidad, vea "Usar el negocio actividad supervisión utilidad de administración" en la Ayuda de BizTalk Server.  
   
 ## <a name="activity-fields"></a>Campos de actividad  
  Los campos de la actividad de mensaje en el archivo de definición de actividad son los siguientes:  
@@ -120,4 +120,4 @@ El archivo de definición de actividad contiene información acerca del seguimie
   
 ## <a name="see-also"></a>Vea también  
  [Seguimiento mejorado](../../adapters-and-accelerators/accelerator-rosettanet/enhanced-tracking.md)   
- [Administrar la configuración, certificados, las bases de datos y seguridad](manage-configuration-certificates-databases-security.md)
+ [Administrar la configuración, certificados, bases de datos y seguridad](manage-configuration-certificates-databases-security.md)

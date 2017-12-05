@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09e12e893df596a92377357b7e28b6e68f04b810
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67320d4d7d96f037e8d16132e0274b43feee8003
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-activities"></a>Cómo quitar actividades de BAM
 Los administradores utilizan el **remove-activity** comando para quitar la actividad especificada de la base de datos de importación principal de BAM.  
@@ -32,7 +32,7 @@ Los administradores utilizan el **remove-activity** comando para quitar la activ
   
 2.  Navegue a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
   
-3.  Tipo de **bm remove-activity-Name:\<nombre de actividad >**.  
+3.  Tipo de **bm remove-activity-Name:\<nombre de la actividad\>**.  
   
 4.  Presione **ENTRAR**.  
   

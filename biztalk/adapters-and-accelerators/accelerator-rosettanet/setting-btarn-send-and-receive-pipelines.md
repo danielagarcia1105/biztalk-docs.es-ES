@@ -17,16 +17,16 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 47f2f12629965c3b01df8cc2f2fd7b1a7ea58a47
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6f5e996b7046e94c90df0269381391a3aed3084
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="setting-btarn-send-and-receive-pipelines"></a>Configuración de envío BTARN y canalizaciones de recepción
 De forma predeterminada, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utiliza la norma [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] enviar canalización (Microsoft.Solutions.BTARN.Pipelines.Send) y el estándar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] (Microsoft.Solutions.BTARN.Pipelines.Receive) de la canalización de recepción cuando se crea puertos de envío de socios comerciales. Sin embargo, puede cambiar el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración para que use una canalización de BizTalk existente o una canalización personalizada que haya creado. Acuerdos de socios comerciales y todos los socios y organizaciones internas, todo, use el mismo enviar canalización y la misma canalización de recepción.  
   
- Cuando se crea un asociado, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] crea dos puertos de envío para ese socio usar uno asincrónica y otra sincrónica: \< *nombre del asociado de*>. Puerto de envío asincrónico y \< *nombre del asociado de*>. Puerto de envío de sincronización. Estos predeterminado de puertos de envío con el estándar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] enviar canalización el valor predeterminado es el estándar de recepción de canalización y el puerto de envío de sincronización [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] canalización de recepción.  
+ Cuando se crea un asociado, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] crea dos puertos de envío para ese socio usar uno asincrónica y otra sincrónica: \< *nombre del asociado de*\>. Puerto de envío asincrónico y \< *nombre del asociado de*\>. Puerto de envío de sincronización. Estos predeterminado de puertos de envío con el estándar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] enviar canalización el valor predeterminado es el estándar de recepción de canalización y el puerto de envío de sincronización [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] canalización de recepción.  
   
 > [!NOTE]
 >  Cambiar el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] de canalización en el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración puede restablecer las propiedades que se cambió directamente en el Explorador de BizTalk.  

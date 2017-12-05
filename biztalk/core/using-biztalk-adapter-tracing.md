@@ -18,11 +18,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45d83e1a250850d372c2e12c7ffebc79f823c287
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1e14234363ace4b953fa4766a97502753572e6f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-biztalk-adapter-tracing"></a>Usar el seguimiento del adaptador BizTalk
 Este tema describe cómo instalar la herramienta de registro de seguimiento y cómo habilitar el seguimiento del adaptador de BizTalk.  
@@ -60,7 +60,7 @@ Este tema describe cómo instalar la herramienta de registro de seguimiento y c�
   
 #### <a name="to-enable-biztalk-adapter-tracing"></a>Para habilitar el seguimiento del adaptador de BizTalk  
   
-1.  En el símbolo del sistema, cambie el directorio actual al directorio en el que está instalado [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. De forma predeterminada, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] se instala en el directorio de [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  Si usa una versión de 64 bits de Windows y [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], la ruta de acceso de instalación es [!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)].  
+1.  En un símbolo del sistema, cambie el directorio actual al directorio donde está instalado el servidor BizTalk Server. De forma predeterminada, el servidor BizTalk Server está instalado en el [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)] directory.  Si utiliza una versión de 64 bits de Windows y el servidor BizTalk Server, la ruta de instalación es [!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)].  
   
 2.  Escriba el siguiente comando y presione ENTRAR:  
   
@@ -85,7 +85,7 @@ Este tema describe cómo instalar la herramienta de registro de seguimiento y c�
   
 #### <a name="to-capture-trace-output"></a>Para capturar la salida del seguimiento  
   
-1.  En el símbolo del sistema, cambie el directorio actual al directorio en el que está instalado [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+1.  En un símbolo del sistema, cambie el directorio actual al directorio donde está instalado el servidor BizTalk Server.  
   
 2.  En el símbolo del sistema, escriba el siguiente comando y presione ENTRAR:  
   

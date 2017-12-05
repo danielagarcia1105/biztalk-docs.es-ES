@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be63a18df71a91bebffeb1fccfe46395fdb36b0e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e30225b79b14ffc237798ddde6f3fe40fb4aea9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-request-message-for-updateemployee-stored-procedure"></a>Paso 1: Crear el mensaje de solicitud de UPDATE_EMPLOYEE procedimiento almacenado
 ![Paso 1 de 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
@@ -89,7 +89,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  En el **firma** ficha, seleccione la **firmar el ensamblado** casilla de verificación.  
   
-    4.  Desde el **elegir un archivo de clave de nombre seguro** lista, haga clic en  **\<examinar >**.  
+    4.  Desde el **elegir un archivo de clave de nombre seguro** lista, haga clic en  **\<examinar\>**.  
   
     5.  Navegue hasta la carpeta donde se creó el archivo de clave de nombre seguro y, a continuación, haga clic en **abiertos**.  
   
@@ -124,4 +124,4 @@ ms.lasthandoff: 09/20/2017
  Enviar el mensaje de solicitud a SQL Server y recibir la respuesta, como se describe en [paso 2: enviar el mensaje de solicitud a SQL Server y recibir respuesta](../../adapters-and-accelerators/adapter-sql/step-2-send-the-request-message-to-sql-server-and-receive-response.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Lección 3: Ejecutar un procedimiento almacenado para seleccionar a nuevos empleados agregados](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)
+ [Lección 3: Ejecutar un procedimiento almacenado para seleccionar nuevos empleados agregados](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)

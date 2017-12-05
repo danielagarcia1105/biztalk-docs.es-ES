@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb07d262b61bb823202b964ee3dd6e53a92d3a6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 399c8e02d59a931dbf30bfa31ca28980dfa312be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-message-queuing-large-message-extension"></a>Extensión de mensajes de gran tamaño de Message Queue Server de BizTalk
 Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda los 4megabytes (MB). Sin embargo, Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye un complemento para la versión nativa de Message Queue Server que permite procesar mensajes de más de 4 MB. Este complemento se entrega como el archivo Mqrtlarge.dll y expone el **MQSendLargeMessage** y **MQReceiveLargeMessage** aplicación interfaces de programación (API) y el modelo COM análogo. Estas funciones se implementan como message Queue Server de las API, **MQSendMessage** y **MQReceiveMessage** respectivamente.  
@@ -28,7 +28,7 @@ Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda l
   
  **Ubicación en SDK**  
   
- \<*Ruta de acceso de instalación*> \SDK\ Mqrtlarge.dll  
+ \<*Ruta de acceso de instalación*\>\SDK\ Mqrtlarge.dll  
   
  **Inventario de archivos**  
   
@@ -36,7 +36,7 @@ Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda l
   
 |Archivos|Description|  
 |---------------|-----------------|  
-|Mqrtlarge.dll|Una biblioteca de vínculos dinámicos Win32 que expone **MQSendLargeMessage** y **MQReceiveLargeMessage**.<br /><br /> Los archivos de encabezado se encuentran en el  *\<ruta de acceso de instalación >*directorio \SDK\Include. **Nota:** debe instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una versión de 64 bits de Windows para tener acceso a la versión de 64 bits de Mqrtlarge.dll.|  
+|Mqrtlarge.dll|Una biblioteca de vínculos dinámicos Win32 que expone **MQSendLargeMessage** y **MQReceiveLargeMessage**.<br /><br /> Los archivos de encabezado se encuentran en el  *\<ruta de acceso de instalación\>*directorio \SDK\Include. **Nota:** debe instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una versión de 64 bits de Windows para tener acceso a la versión de 64 bits de Mqrtlarge.dll.|  
   
  **Usar esta utilidad**  
   
@@ -45,7 +45,7 @@ Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda l
 ### <a name="to-use-the-mqrtlargedll-file"></a>Para utilizar el archivo Mqrtlarge.dll  
   
 1.  > [!NOTE]
-    >  Para una solución MSMQ sin [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], es posible que MQRTLarge.dll funcione correctamente. Sin embargo, esto no es una configuración recomendada que admita Microsoft, y pueden producirse resultados inesperados si se utiliza fuera de la [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] entorno.  
+    >  Para una solución MSMQ sin BizTalk Server, la posible que MQRTLarge.dll funcione correctamente. Sin embargo, esto no es una configuración recomendada que admita Microsoft, y pueden producirse resultados inesperados si se usa fuera del entorno de BizTalk Server.  
   
      Agregue el archivo Mqrtlarge.dll al equipo que no cuente con una instalación de BizTalk Server. Message Queue Server utiliza el archivo Mqrtlarge.dll para enviar mensajes a BizTalk Server o recibirlos desde éste.  
   
@@ -82,4 +82,4 @@ Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda l
  La decisión de utilizar **PROPID_M_EXTENSION** tiene una consecuencia adicional. El puente MSMQ-MQSeries de Microsoft Host Integration Server utiliza esta propiedad para pasar una estructura que contiene propiedades que no están asignadas directamente entre mensajes de MQSeries y de Message Queue Server. Las aplicaciones que envían mensajes desde y hacia MQSeries, explícita o implícitamente, utilizan esta estructura. Message Queue Server puede generar confirmaciones cuando se ha recibido un mensaje desde una cola mediante una aplicación de recepción. Las confirmaciones se envían a una cola especificada por la aplicación de envío. En el caso de los mensajes de gran tamaño, esta confirmación se envía únicamente para la última parte del mensaje.  
   
 ## <a name="see-also"></a>Vea también  
- [Utilidades del SDK de](../core/utilities-in-the-sdk.md)
+ [Utilidades del SDK](../core/utilities-in-the-sdk.md)

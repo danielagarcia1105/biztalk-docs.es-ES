@@ -24,11 +24,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e933e9b50c99e11013ceaedf65c4f253ad1620c2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f34abe4d9d8b97b1c61bfc6201c3d36b977d0697
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-tracking-for-a-pipeline"></a>Cómo configurar el seguimiento de una canalización
 En este tema se explica cómo utilizar la consola de administración de BizTalk Server para configurar el seguimiento de una canalización. Puede que desee configurar el seguimiento con fines de solución de problemas y auditoría. Puede ver propiedades de mensajes, eventos de puerto y eventos de mensajes. También puede realizar un seguimiento de eventos de mensaje y eventos de puerto para mensajes.  
@@ -51,7 +51,7 @@ En este tema se explica cómo utilizar la consola de administración de BizTalk 
   
 3.  Realice una de las siguientes operaciones:  
   
-    -   Para configurar el seguimiento para una de manera predeterminada las canalizaciones de BizTalk, expanda \<todos los artefactos >.  
+    -   Para configurar el seguimiento para una de manera predeterminada las canalizaciones de BizTalk, expanda \<todos los artefactos\>.  
   
     -   Para configurar el seguimiento para una canalización personalizada que se ha implementado en una aplicación de BizTalk, expanda la aplicación que contiene la canalización.  
   
@@ -70,4 +70,4 @@ En este tema se explica cómo utilizar la consola de administración de BizTalk 
     |**Mensajes después del procesamiento de canalización**|Guardar y realizar un seguimiento de los cuerpos de mensaje enviados por la canalización, que contendrán metadatos tales como URL o propiedades promovidas (casilla activada). Si se trata de una canalización de recepción, el cuerpo del mensaje es el mensaje procesado que se va a enviar a la base de datos de cuadro de mensajes, que puede ser XML, según la aplicación que utilice. Al utilizar una asignación de BizTalk, si se trata de una canalización de envío, el seguimiento se efectúa antes de que se procese la asignación de salida.<br /><br /> Esta casilla de verificación está disponible solo si **envío de mensajes y recibir eventos** está seleccionada.|  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar canalizaciones](../core/managing-pipelines.md)
+ [Administración de canalizaciones](../core/managing-pipelines.md)

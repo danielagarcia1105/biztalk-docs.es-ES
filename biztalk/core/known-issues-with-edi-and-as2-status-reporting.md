@@ -12,14 +12,14 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6a78b90a3cebb2b812ef68b21c8ea2f99eb0981
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 691a10671c4c8ff5f2ff77065455c100784ddd0e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-edi-and-as2-status-reporting"></a>Problemas conocidos de los informes de estado de EDI y AS2
-En este tema se describen problemas conocidos con informes de estado EDI en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+En este tema se describe problemas conocidos con estado de EDI en BizTalk Server.  
   
 ## <a name="batch-status-reporting-data-may-not-be-updated-if-the-batch-orchestration-is-stopped-outside-of-the-partner-agreement-manager"></a>Puede que no se actualicen los datos de registro de estado del lote si la orquestación de lotes se detiene fuera del Administrador de acuerdos de socios comerciales.  
  Una instancia de orquestación de lotes puede desactivarse a través de la página Lotes del cuadro de diálogo Propiedades de EDI para una entidad. Si desactiva una instancia de orquestación de esa forma, el servidor BizTalk Server actualizará los datos de informe de estado para ese lote. Sin embargo, si detiene la orquestación de lotes de otra forma, por ejemplo, si detiene la orquestación de una de las páginas de consulta en la página Información general de la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede que no se actualicen los datos de informe de estado y tenga que terminar con un informe de estado que no esté actualizado. Por ejemplo, el informe de estado puede indicar que el lote está aún activo aunque se haya desactivado la instancia de orquestación de lote.  
@@ -63,9 +63,9 @@ En este tema se describen problemas conocidos con informes de estado EDI en [!IN
 ## <a name="status-reporting-will-not-work-after-an-upgrade-if-the-bam-tools-are-not-configured"></a>El estado de informe no funcionará después de la actualización si no se han configurado las herramientas de BAM.  
  Para que funcione el informe de estado de EDI y AS2, las herramientas de BAM deben estar configuradas. Si efectúa una actualización de la instalación de [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] a una versión posterior sin configurar, en este proceso, las herramientas de BAM, la funcionalidad de informe de estado de EDI y AS2 no funcionará correctamente en la instalación actualizada.  
   
- Si desea usar la funcionalidad de informe de estado después de realizar la actualización a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], asegúrese de que las herramientas de BAM estén configuradas antes de proceder con la actualización.  
+ Si desea utilizar el estado de creación de informes después de actualizar a BizTalk Server, asegúrese de que las herramientas BAM estén configuradas antes de realizar la actualización.  
   
- Si el informe de estado no funciona tras la actualización, revise los registros de actualización para determinar si las herramientas de BAM se configuraron antes de comenzar el proceso. Si no es así, puede configurar las herramientas BAM y, a continuación, implementar la actividad de BAM BusinessMessageJournal incluida en el archivo edistatusreportingactivitydefs.XML que encontrará en  *\<unidad >*: \Program [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ Si el informe de estado no funciona tras la actualización, revise los registros de actualización para determinar si las herramientas de BAM se configuraron antes de comenzar el proceso. Si no es así, puede configurar las herramientas BAM y, a continuación, implementar la actividad de BAM BusinessMessageJournal incluida en el archivo edistatusreportingactivitydefs.XML que encontrará en  *\<unidad\>*: \Program Servidor BizTalk Server.  
   
 ## <a name="disabling-transaction-set-storage-affects-an-activated-batch-but-enabling-storage-does-not"></a>Si deshabilita el almacenamiento de conjuntos de transacciones afecta a un lote activado; si habilita el almacenamiento, no.  
  Si deshabilita el almacenamiento de los conjuntos de transacciones cuando se activa una instancia de la orquestación de procesamiento por lotes, el cambio se aplicará inmediatamente. El servidor BizTalk Server almacenará conjuntos de transacciones para el lote cuando se habilite el almacenamiento pero no se almacenarán conjuntos de transacciones después de que se haya deshabilitado el almacenamiento. Puede deshabilitar el almacenamiento de conjuntos de transacciones si desactiva la propiedad “Almacenar carga y conjunto de transacciones para el informe” en el panel General del cuadro de diálogo Propiedades de EDI.  
@@ -89,12 +89,12 @@ En este tema se describen problemas conocidos con informes de estado EDI en [!IN
  La solución a este problema es desactivar la propiedad “Almacenar los mensajes AS2 salientes codificados en la base de datos sin repudio” o la propiedad “Mensaje de solicitud después del procesamiento de puerto”. Le recomendamos que deshabilite “Mensaje de solicitud después del procesamiento de puerto” para que el seguimiento de AS2 pueda capturar la información del cuerpo junto con otras informaciones para el informe de estado de AS2.  
   
 ## <a name="edi-and-as2-message-context-properties-are-not-available-after-upgrading-to-biztalk-2009"></a>Las propiedades de contexto de mensajes de EDI y AS2 no están disponibles después de actualizar a BizTalk 2009  
- Después de actualizar a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], no se muestra ninguna propiedad de contexto en el informe de estado de ningún mensaje EDI o AS2 recibido antes de realizar la actualización.  Los mensajes recibidos tras la actualización mostrarán correctamente las propiedades de contexto.  
+ Después de actualizar a BizTalk Server, ninguna propiedad de contexto se muestra en informes de estado de cualquier mensaje EDI o AS2 recibido antes de realizar la actualización.  Los mensajes recibidos tras la actualización mostrarán correctamente las propiedades de contexto.  
   
- Las colecciones de propiedades de contexto de EDI y AS2 no se almacenaron como parte del mensaje en versiones anteriores de BizTalk Server y no están disponibles tras una actualización. Después de actualizar a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], las propiedades de contexto de AS2 se almacenan como parte del mensaje, pero las propiedades de contexto EDI no.  
+ Las colecciones de propiedades de contexto de EDI y AS2 no se almacenaron como parte del mensaje en versiones anteriores de BizTalk Server y no están disponibles tras una actualización. Después de actualizar a BizTalk Server, AS2 propiedades de contexto se almacenan como parte del mensaje, sin embargo las propiedades de contexto EDI no son.  
   
 ## <a name="interchange-date-for-received-documents-may-display-the-wrong-year-in-status-reports"></a>La fecha de intercambio de documentos recibidos puede mostrar el año incorrecto en los informes de estado  
- Si un documento recibido especificaba la fecha en el formato AAMMDD, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] usa la lógica siguiente para determinar el valor de año:  
+ Si un documento recibido especificaba la fecha en formato AAMMDD, BizTalk Server utiliza la lógica siguiente para determinar el valor de año:  
   
 -   Si AA es mayor o igual a 75, el año se mostrará como 19YY.  
   
@@ -107,4 +107,4 @@ En este tema se describen problemas conocidos con informes de estado EDI en [!IN
   
 ## <a name="see-also"></a>Vea también  
  [Solución de problemas de soluciones EDI y AS2](../core/troubleshooting-edi-and-as2-solutions.md)   
- [EDI y AS2 informes de estado](../core/edi-and-as2-status-reporting.md)
+ [Informes de estado de EDI y AS2](../core/edi-and-as2-status-reporting.md)

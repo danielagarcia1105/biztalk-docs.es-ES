@@ -21,11 +21,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aee15dc6fffefd550a5b12c662d4df76ca09c1fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c2f2cd505aca89bbe72221b3a895dd21945cb5e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="envelopeprocessing-biztalk-server-sample"></a>EnvelopeProcessing (ejemplo de BizTalk Server)
 El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobres de mensaje en las canalizaciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Además, muestra cómo procesar mensajes de archivos sin formato en mensajes XML.  
@@ -97,13 +97,13 @@ El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobre
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
+     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (EnvInput) y la carpeta de salida (EnvOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
+         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
   
     -   Compila e implementa el proyecto de Visual Studio para este ejemplo.  
   
@@ -153,4 +153,4 @@ El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobre
 -   **BTSTask RemoveApp** para quitar flatfilereceiveapplication.  
   
 ## <a name="see-also"></a>Vea también  
- [Las canalizaciones-AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)
+ [Pipelines\AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)

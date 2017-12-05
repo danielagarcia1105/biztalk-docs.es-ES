@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8083f7dc691010f4128b3ddb99729b0b2b1ebd1f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51b5469681f7acce2ebb0b55fe63e285d25192e0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sap-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador SAP
 Para invocar las solicitudes de cambio, tRFCs o BAPI en un sistema SAP, o para enviar IDOC a un sistema SAP, el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  
@@ -44,11 +44,11 @@ Para invocar las solicitudes de cambio, tRFCs o BAPI en un sistema SAP, o para e
   
  Al igual que cualquier enlace de WCF, el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] utiliza un modelo de generador para proporcionar canales al código de la aplicación. Usa un **Microsoft.Adapters.SAPBinding** objeto que se va a crear instancias de:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >** para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>**  para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >** para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>**  para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
   
--   **System.ServiceModel.IChannelListener\<IReplyChannel >** para proporcionar **IReplyChannel** canales que se puede usar para operaciones de solicitud-respuesta de recepción del adaptador.  
+-   **System.ServiceModel.IChannelListener\<IReplyChannel\>**  para proporcionar **IReplyChannel** canales que se puede usar para operaciones de solicitud-respuesta de recepción del adaptador.  
   
 ## <a name="creating-messages-for-the-sap-adapter-in-the-wcf-channel-model"></a>Crear mensajes para el adaptador SAP en el modelo del canal de WCF  
  En WCF la **System.ServiceModel.Channels.Message** clase proporciona una memoria en representación de un mensaje SOAP. Crear un **mensaje** instancia invocando el método estático **Message.Create** método.  
@@ -71,7 +71,7 @@ Para invocar las solicitudes de cambio, tRFCs o BAPI en un sistema SAP, o para e
 //create an XML message to send to the SAP system  
 //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
 //The XML below specifies that we want to search for customers with names starting with "AB"  
-string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
 //create an XML reader from the input XML  
 XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -96,7 +96,7 @@ Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Micro
 -   Consumir un mensaje entrante con un **XmlReader**. Obtenga el lector mediante una llamada a la **GetReaderAtBodyContents** método en la entrada **mensaje**.  
   
 ### <a name="node-value-streaming"></a>Transmisión por secuencias en el valor de nodo  
- Dado que las operaciones de SendIdoc y ReceiveIdoc contienen los datos IDOC en una cadena en un único nodo XML (\<idocData >), el adaptador admite nodo valor transmisión por secuencias en estas operaciones.  
+ Dado que las operaciones de SendIdoc y ReceiveIdoc contienen los datos IDOC en una cadena en un único nodo XML (\<idocData\>), el adaptador admite nodo valor transmisión por secuencias en estas operaciones.  
   
  Para llevar a cabo para estas operaciones de transmisión por secuencias en el valor de nodo, hacer lo siguiente:  
   
@@ -107,4 +107,4 @@ Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Micro
  Para obtener más información sobre el streaming IDOC de archivo sin formato (cadena) mediante el modelo de canal WCF, vea [IDOC de archivo plano de transmisión por secuencias en SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

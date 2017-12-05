@@ -12,28 +12,28 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b7a77276e6246bb8fc525784309fded4bdf83f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 865717858e27509a9f9e4af611b39ba10be212a5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8-test-the-create-batch-scenario"></a>Paso 8: Probar el escenario de lote crear
 En este paso, para probar el escenario de lote de crear, quitar instancias de prueba de los mensajes que desea procesar por lotes en la carpeta de origen Tutorial_BTAHL7Pickup. El puerto de envío que configuró recoge el mensaje desde la carpeta de origen y lo envía; el puerto de recepción recibe y la canalización de recepción, lo procesa y lo coloca en la carpeta de destino Tutorial_BTAHL7Drop.  
   
 ### <a name="to-test-the-create-batch-scenario"></a>Para probar el escenario de crear lote  
   
-1.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*>: \Batching Tutorial\Instances** carpeta.  
+1.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*\>: \Batching Tutorial\Instances** carpeta.  
   
 2.  Seleccione **CreateBatchMessage1.txt**, y **CreateBatchMessage2.txt**, haga clic en ellos y, a continuación, haga clic en **copia**.  
   
-3.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*>: \Program BizTalk \<versión > Accelerator for Tutorial\ HL7\SDK\End-to-End Tutorial_BTAHL7Pickup ** carpeta.  
+3.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\ Carpeta Tutorial\Tutorial_BTAHL7Pickup ** SDK\End-to-End.  
   
 4.  Haga clic en la carpeta y, a continuación, haga clic en **pegar**.  
   
 ### <a name="to-verify-the-results-of-the-create-batch-scenario"></a>Para comprobar los resultados del escenario Crear lote  
   
-1.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*>: \Program BizTalk \<versión > Accelerator for Tutorial\ HL7\SDK\End-to-End Tutorial_BatchACKDrop ** carpeta. Tras un breve período, debería ver la instancia procesada del lote de confirmación aparecen en la carpeta. Si no aparece, compruebe el [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Visor de eventos para los mensajes de error. El archivo debe tener el nombre \< *Guid*> .txt. Este lote debe contener las dos confirmaciones generadas tras la recepción de los dos mensajes que se enviaron originalmente. Este lote debe tener los siguientes campos:  
+1.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\ Carpeta Tutorial\Tutorial_BatchACKDrop ** SDK\End-to-End. Tras un breve período, debería ver la instancia procesada del lote de confirmación aparecen en la carpeta. Si no aparece, compruebe el [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Visor de eventos para los mensajes de error. El archivo debe tener el nombre \< *Guid*\>.txt. Este lote debe contener las dos confirmaciones generadas tras la recepción de los dos mensajes que se enviaron originalmente. Este lote debe tener los siguientes campos:  
   
     |FHS.5|BHS.5|BTS.1|FTS.1|  
     |-----------|-----------|-----------|-----------|  
@@ -46,7 +46,7 @@ En este paso, para probar el escenario de lote de crear, quitar instancias de pr
     |CONFIRMACIÓN ^ A03 ^ CONFIRMACIÓN|Msg01|AA|Tutorial_BatchDest|Tutorial_BatchSource|  
     |CONFIRMACIÓN ^ A03 ^ CONFIRMACIÓN|Msg02|AA|Tutorial_BatchDest|Tutorial_BatchSource|  
   
-2.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*>: \Program BizTalk \<versión > Accelerator for Tutorial\ HL7\SDK\End-to-End Tutorial_BatchMsgDrop ** carpeta. Después de una hora, debería ver la instancia procesada del lote de mensajes aparecen en la carpeta. Si no aparece, compruebe el [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Visor de eventos para los mensajes de error. El archivo debe tener el nombre \< *Guid*> .txt. Este lote debe contener los dos mensajes que se enviaron originalmente. Este lote debe tener los siguientes campos:  
+2.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\ Carpeta Tutorial\Tutorial_BatchMsgDrop ** SDK\End-to-End. Después de una hora, debería ver la instancia procesada del lote de mensajes aparecen en la carpeta. Si no aparece, compruebe el [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Visor de eventos para los mensajes de error. El archivo debe tener el nombre \< *Guid*\>.txt. Este lote debe contener los dos mensajes que se enviaron originalmente. Este lote debe tener los siguientes campos:  
   
     |FHS.5|BHS.5|BTS.1|FTS.1|  
     |-----------|-----------|-----------|-----------|  
@@ -67,4 +67,4 @@ En este paso, para probar el escenario de lote de crear, quitar instancias de pr
   
 ## <a name="see-also"></a>Vea también  
  [Parte 1: Escenario de fragmentados por lotes entrantes](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md)   
- [Parte 3: Escenario de lote crear](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md)
+ [Parte 3: Escenario de creación de lote](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md)

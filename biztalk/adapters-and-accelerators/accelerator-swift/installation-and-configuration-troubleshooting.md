@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc0f805011921fe259a0483fa2bcd50ab45d043b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 62cb7d6181c7be44f7095a6c1d1149132df4e21e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="installation-and-configuration-troubleshooting"></a>Instalación y solución de problemas de configuración
 ## <a name="setup-is-unable-to-deploy-the-runtimeschemas-assembly"></a>El programa de instalación es no se puede implementar el ensamblado RuntimeSchemas  
@@ -95,12 +95,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  Haga clic en la carpeta del servicio, haga clic en **propiedades**y, a continuación, haga clic en el **seguridad** ficha.  
   
-2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba   ***\<nombre del servidor >*\A4SWIFT administradores**y, a continuación, haga clic en **Aceptar**.  
+2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba   ***\<nombre del servidor\>*\A4SWIFT administradores**, y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba   ***\<nombre de dominio >*\A4SWIFT administradores**.  
+    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba   ***\<nombre de dominio\>*\A4SWIFT administradores**.  
   
-3.  Repita el paso 2 para   ***\<nombre del servidor >*\A4SWIFT usuarios**, o  **\<* nombre de dominio*> \A4SWIFT Los usuarios ** si el grupo de usuarios de A4SWIFT es un grupo de dominio.  
+3.  Repita el paso 2 para   ***\<nombre del servidor\>*\A4SWIFT usuarios**, o  **\<* nombre de dominio* \>\A4SWIFT usuarios ** si el grupo de usuarios de A4SWIFT es un grupo de dominio.  
   
 4.  En el panel de nombres de usuario o grupo, seleccione **A4SWIFT administradores**. En el panel permisos, seleccione **permitir** para **Control total**.  
   
@@ -207,7 +207,7 @@ ms.lasthandoff: 09/20/2017
   
     -   Tipo: **en curso**  
   
-    -   Grupo de Windows:  **\<* dominio*> usuarios de aplicación de \BizTalk ** (o la cuenta que configura durante la configuración de BizTalk Server para ejecutar aplicaciones de In-Process de BizTalk)  
+    -   Grupo de Windows:  **\<* dominio*\>\BizTalk a los usuarios de aplicación ** (o la cuenta que configura durante la configuración de BizTalk Server para ejecutar In-Process de BizTalk aplicaciones)  
   
     -   En la sección Opciones, seleccione ambos **Permitir seguimiento de Host** y **hacen que el host predeterminado en el grupo**.  
   
@@ -225,10 +225,10 @@ ms.lasthandoff: 09/20/2017
  La utilidad de implementación del BRE no funciona correctamente cuando se ejecuta en un equipo de 64 bits o en un directorio no es el predeterminado (que no sean C:\Program Files\Microsoft BizTalk Accelerator para SWIFT) en un equipo de 32 bits.  
   
 ### <a name="possible-cause"></a>Causa posible  
- La utilidad de implementación del BRE no funcionará correctamente hasta que cambie las rutas de acceso en el archivo bredeployment.exe.config que se encuentra en la \<unidad >: \Program Acelerador de BizTalk para la carpeta SWIFT\SDK\Tools.  
+ La utilidad de implementación del BRE no funcionará correctamente hasta que cambie las rutas de acceso en el archivo bredeployment.exe.config que se encuentra en la \<unidad\>: \Program Acelerador de BizTalk para la carpeta SWIFT\SDK\Tools.  
   
 ### <a name="solution"></a>Solución  
  Actualizar configuración de la utilidad abriendo BREDeployment.exe.config en el Bloc de notas, y cambiar las carpetas de las directivas de base, esquemas y directorios de vocabulario.  
   
 ## <a name="see-also"></a>Vea también  
- [Solución de problemas: Problemas y soluciones](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)
+ [Solución de problemas: problemas y soluciones](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)

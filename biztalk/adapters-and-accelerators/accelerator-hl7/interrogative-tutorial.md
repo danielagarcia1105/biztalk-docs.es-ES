@@ -16,17 +16,17 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b35a5bc8ba7574df7499fef5d63a100993c4201
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 642f2521917dd87b60ee43a4cd7decaeeb1f1365
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interrogative-tutorial"></a>Tutorial interrogative
 Este tutorial contiene los pasos detallados que describen cómo usar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para facilitar procesos empresariales en un escenario de consulta/respuesta.  
   
 > [!NOTE]
->  Para utilizar este tutorial, debe instalar las herramientas de prueba MLLP. Estas herramientas no se instalan mediante una instalación típica de BTAHL7. Debe ejecutar una instalación personalizada y seleccione **herramienta de prueba de MLLP** desde la carpeta del adaptador y **instancias de prueba** desde la carpeta de artefactos. Si se instalan las herramientas de prueba, el sistema contendrá la carpeta \< *unidad*: > \Program BizTalk \<versión > Accelerator for HL7\SDK\MLLP utilidades. Vea [instalar el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
+>  Para utilizar este tutorial, debe instalar las herramientas de prueba MLLP. Estas herramientas no se instalan mediante una instalación típica de BTAHL7. Debe ejecutar una instalación personalizada y seleccione **herramienta de prueba de MLLP** desde la carpeta del adaptador y **instancias de prueba** desde la carpeta de artefactos. Si se instalan las herramientas de prueba, el sistema contendrá la carpeta \< *unidad*:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades. Vea [instalar el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md).  
   
 ## <a name="interrogative-scenario"></a>Escenario interrogative  
  Este tutorial utiliza el escenario de Interrogative o consulta/respuesta. En este escenario, el flujo de trabajo es similar al que se muestra en la ilustración siguiente. La lista numerada de la figura siguiente describe el flujo de trabajo.  
@@ -45,17 +45,17 @@ Este tutorial contiene los pasos detallados que describen cómo usar [!INCLUDE[b
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Preparando para utilizar el Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-tutorial-hl7-main.md)  
+-   [Preparación para usar el tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-tutorial-hl7-main.md)  
   
--   [Paso 1: Crear e implementar encabezado común y esquemas de confirmación](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md)  
+-   [Paso 1: Crear e implementar esquemas comunes de encabezado y confirmación](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md)  
   
 -   [Paso 2: Crear los esquemas comunes para V2.4](../../adapters-and-accelerators/accelerator-hl7/step-2-create-common-schemas-for-v2-4.md)  
   
 -   [Paso 3: Crear e implementar un proyecto de desencadenador de eventos (mensaje)](../../adapters-and-accelerators/accelerator-hl7/step-3-create-and-deploy-a-trigger-event-message-project-hl7-main.md)  
   
--   [Paso 4: Crear el puerto de recepción para aceptar mensajes de consulta ADT](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md)  
+-   [Paso 4: Crear el puerto de recepción para aceptar mensajes de consulta de ADT](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md)  
   
--   [Paso 5: Crear el puerto de recepción para aceptar los mensajes](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-receive-port-for-accepting-his-messages.md)  
+-   [Paso 5: Crear el puerto de recepción para aceptar mensajes de consulta de HIS](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-receive-port-for-accepting-his-messages.md)  
   
 -   [Paso 6: Crear un puerto de envío para entregar los mensajes de consulta](../../adapters-and-accelerators/accelerator-hl7/step-6-create-a-send-port-to-deliver-query-messages.md)  
   
@@ -63,12 +63,12 @@ Este tutorial contiene los pasos detallados que describen cómo usar [!INCLUDE[b
   
 -   [Paso 8: Configurar la información de entidad](../../adapters-and-accelerators/accelerator-hl7/step-8-configure-party-information-hl7-main.md)  
   
--   [Paso 9: Reinicie el servidor BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/step-9-restart-biztalk-server-hl7-main.md)  
+-   [Paso 9: Reiniciar BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/step-9-restart-biztalk-server-hl7-main.md)  
   
--   [Paso 10: Comprobar el escenario Interrogative](../../adapters-and-accelerators/accelerator-hl7/step-10-verify-the-interrogative-scenario.md)  
+-   [Paso 10: Comprobar el escenario de interrogación](../../adapters-and-accelerators/accelerator-hl7/step-10-verify-the-interrogative-scenario.md)  
 
 ## <a name="next-step"></a>Paso siguiente  
- [Preparando para utilizar el Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-tutorial-hl7-main.md)
+ [Preparación para usar el tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-tutorial-hl7-main.md)
   
 ## <a name="see-also"></a>Vea también  
-[Empezar a trabajar con el Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/get-started-with-the-biztalk-accelerator-for-hl7.md)
+[Introducción al Acelerador de BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/get-started-with-the-biztalk-accelerator-for-hl7.md)

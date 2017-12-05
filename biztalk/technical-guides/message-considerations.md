@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5499c9535ff822dfec8097185ef17d8d7999e1f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a277149a47fa60dda4df9291ec437ac67c518fdd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="message-considerations"></a>Consideraciones de mensaje
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Proporciona un amplio conjunto de capacidades para enviar, recibir, transformar y procesar mensajes. Algunas de estas características incluyen:  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]  
     >  Vea [optimizar el rendimiento de la orquestación](../technical-guides/optimizing-orchestration-performance.md) para obtener instrucciones sobre los procedimientos recomendados que deben seguir al utilizar orquestaciones en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Vea el tema [crear orquestaciones utilizando Diseñador de orquestaciones](http://go.microsoft.com/fwlink/?LinkId=158997) (http://go.microsoft.com/fwlink/?LinkId=158997) en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentación para obtener información detallada acerca de cómo utilizar el Diseñador de orquestaciones.  
   
- El resto de este tema describe las consideraciones de rendimiento relacionadas con el perfil de tamaño, la complejidad y la distribución de mensajes que se procesan en un [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] entorno.  
+ El resto de este tema describe las consideraciones de rendimiento relacionadas con el perfil de tamaño, la complejidad y la distribución de mensajes que se procesan en un entorno de BizTalk Server.  
   
 ## <a name="message-size-considerations"></a>Consideraciones de tamaño de mensaje  
  Si bien BizTalk Server no impone ninguna restricción sobre el tamaño del mensaje, las dependencias y los límites prácticos pueden requerir minimizar el tamaño de los mensajes debido a mensajes de gran tamaño requieren más recursos de procesamiento. Al igual que aumenta de tamaño, el rendimiento global (mensajes procesados por segundo) de mensajes se reduce. Al diseñar su escenario y planear la capacidad, tenga en cuenta el tamaño medio del mensaje, el tipo de mensaje y el número de mensajes que BizTalk Server procesa. No use un período innecesariamente largo atributo y nombres de etiqueta; Si es posible, mantenga la longitud de menos de 50 caracteres. Por ejemplo, no utilice un nombre de etiqueta de 200 caracteres para un tamaño de mensaje de solo 1 byte.  
@@ -77,4 +77,4 @@ ms.lasthandoff: 09/20/2017
  Los dos factores que tienen el mayor impacto sobre el rendimiento de análisis de archivo sin formato son complejidad de tamaño y el esquema de archivo. Un esquema ambiguo es un esquema que contiene muchos campos opcionales. Cuando se utilizan los tamaños de archivo grandes, un esquema con muchos campos opcionales puede degradar el rendimiento porque archivos de mayor tamaño pueden coincidir con diferentes bifurcaciones del esquema. Complejidad del esquema tiene un impacto menor en archivos más pequeños que en los archivos de mayor tamaño.  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar las aplicaciones de BizTalk Server](../technical-guides/optimizing-biztalk-server-applications.md)
+ [Optimización de las aplicaciones de BizTalk Server](../technical-guides/optimizing-biztalk-server-applications.md)

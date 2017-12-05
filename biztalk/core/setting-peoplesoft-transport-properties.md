@@ -2,11 +2,11 @@
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
 redirect_document_id: True
 ROBOTS: NOINDEX
-ms.openlocfilehash: 90a9df3f95628b8072217c5b3756b619ff528147
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 1772a30ce5496a3a14866da168a56958bc3bc78c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="setting-peoplesoft-transport-properties"></a>Definición de las propiedades de transporte de PeopleSoft
 Las propiedades de transporte de PeopleSoft se usan en el diseño y el tiempo de ejecución. En el **propiedades de transporte** cuadro de diálogo, Establece los parámetros de conexión y credenciales específicas para el sistema de servidor y los objetos que está intentando obtener acceso.  
@@ -21,7 +21,7 @@ Las propiedades de transporte de PeopleSoft se usan en el diseño y el tiempo de
   
     |Parámetro|Description|  
     |---------------|-----------------|  
-    |`Application Server Path`|Cadena que representa el equipo y el puerto en que se ejecuta y escucha el servidor de aplicaciones de PeopleSoft. La sintaxis de la ruta de acceso de dirección URL para la aplicación PeopleSoft 8 es / / < nombre_equipo >:\<puerto >. Pida al administrador de PeopleSoft para el \<puerto > valor. El \<puerto > valor es el JOLT puerto de escucha de protocolo, no al puerto del servidor de aplicaciones. El puerto JOLT predeterminado es 9000.|  
+    |`Application Server Path`|Cadena que representa el equipo y el puerto en que se ejecuta y escucha el servidor de aplicaciones de PeopleSoft. La sintaxis de la ruta de acceso de dirección URL para la aplicación PeopleSoft 8 es / / < nombre_equipo >:\<puerto\>. Pida al administrador de PeopleSoft para la \<puerto\> valor. El \<puerto\> valor es el JOLT puerto de escucha de protocolo, no al puerto del servidor de aplicaciones. El puerto JOLT predeterminado es 9000.|  
     |`JAVA_HOME`|Establezca la variable JAVA_HOME para que apunte a la instalación de JDK, por ejemplo: **C:\j2sdk1.4.2_08**.|  
     |`Password`|Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para PeopleSoft Enterprise tener acceso al sistema de servidor.<br /><br /> Cadena que representa la contraseña del usuario para iniciar sesión en un sistema de PeopleSoft. Los caracteres no aparecen, pero están representados por asteriscos (*).|  
     |`PeopleSoft 8.x Jar Files`|Para usar interfaces de componentes (solo para PeopleSoft 8), debe actualizar CLASSPATH para que incluya el archivo jar de la interfaz de componentes de PeopleSoft. Por ejemplo: **\web\PSJOA\psjoa.jar < PeopleSoft_Home >**.|  

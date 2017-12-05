@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2dd906105f4bd028867e4588d7c075b56253ab9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f6e53179e82e7f41f264401b5ebf1c9c022e9727
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="complete-composite-operations-on-oracle-e-business-suite"></a>Completar operaciones compuestas en Oracle E-Business Suite
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador realizar operaciones compuestas en base de datos de Oracle. Puede incluir una operación compuesta:  
@@ -78,7 +78,7 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
   
      Para agregar referencias:  
   
-    1.  Haga clic en la raíz  **\<esquema >** nodo en el CompositeSchema.xsd y haga clic en **propiedades**.  
+    1.  Haga clic en la raíz  **\<esquema\>**  nodo en el CompositeSchema.xsd y haga clic en **propiedades**.  
   
     2.  En el **propiedad** cuadro, haga clic en el botón de puntos suspensivos **(...)**  contra la **importaciones** propiedad.  
   
@@ -97,9 +97,9 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
     > [!NOTE]
     >  De forma predeterminada, un **raíz** nodo también se agrega a un nuevo archivo de esquema. Puede cambiar el nombre de la **raíz** nodo **solicitar**. Para cambiar el nombre de un nodo, haga clic en el nombre del nodo y haga clic en **cambiar el nombre de**.  
   
-     Para agregar un nodo en el  **\<esquema >** nodo:  
+     Para agregar un nodo en el  **\<esquema\>**  nodo:  
   
-    1.  Haga clic en el  **\<esquema >** nodo, seleccione **Insertar nodo de esquema**y haga clic en **registro secundario**.  
+    1.  Haga clic en el  **\<esquema\>**  nodo, seleccione **Insertar nodo de esquema**y haga clic en **registro secundario**.  
   
     2.  Cambiar el nombre del nuevo nodo a **RequestResponse**.  
   
@@ -292,34 +292,34 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
  La orquestación consume el mensaje y lo envía a la base de datos de Oracle. La respuesta de base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de Oracle para el mensaje de solicitud anterior es similar al siguiente:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RequestResponse xmlns="http://Composite_Op.CompositeSchema">  
   <InsertResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/ACCOUNTACTIVITY">  
     <InsertResult>1</InsertResult>   
   </InsertResponse>  
   <GET_ALL_ACTIVITYResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/PackageApis/SCOTT/ACCOUNT_PKG">  
     <ALLRECS>  
-      \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-        \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-          \<xs:complexType>  
-            \<xs:sequence>  
-              \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                \<xs:complexType>  
-                  \<xs:sequence>  
-                    \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                    \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                    \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                  \</xs:sequence>  
-                \</xs:complexType>  
-              \</xs:element>  
-            \</xs:sequence>  
-          \</xs:complexType>  
-        \</xs:element>  
-      \</xs:schema>  
-      \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+      <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+        <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+          <xs:complexType>  
+            <xs:sequence>  
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                <xs:complexType>  
+                  <xs:sequence>  
+                    <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                    <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                    <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                  </xs:sequence>  
+                </xs:complexType>  
+              </xs:element>  
+            </xs:sequence>  
+          </xs:complexType>  
+        </xs:element>  
+      </xs:schema>  
+      <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
         <NewDataSet xmlns="">  
           <NewTable>  
             ......   
@@ -335,7 +335,7 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
             <PROCESSED>n</PROCESSED>   
           </NewTable>  
         </NewDataSet>  
-      \</diffgr:diffgram>  
+      </diffgr:diffgram>  
     </ALLRECS>  
   </GET_ALL_ACTIVITYResponse>  
   <DeleteResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/ACCOUNTACTIVITY">  

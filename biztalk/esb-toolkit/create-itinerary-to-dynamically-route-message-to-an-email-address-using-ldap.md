@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14ea2f3dcb144b0b3d1ddf835ba3a5ae6a33bb8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 751eaf381b762372652bb77ddf6f00ffe43971c2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-create-an-itinerary-to-dynamically-route-a-message-to-an-email-address-using-an-ldap-query"></a>Cómo: crear un itinerario para dinámicamente enrutar un mensaje a una dirección de correo electrónico mediante una consulta LDAP
 ## <a name="goal"></a>Objetivo  
- En esta sección se muestra cómo crear un itinerario que consulta una dirección de correo electrónico a través de LDAP (Protocolo ligero de acceso a directorios) y, a continuación, envía un mensaje de correo electrónico para el extremo resuelve mediante la [!INCLUDE[prague](../includes/prague-md.md)] adaptador de SMTP.  
+ Esta sección muestra cómo crear un itinerario que consulta una dirección de correo electrónico a través de LDAP (Protocolo ligero de acceso a directorios) y, a continuación, envía un mensaje de correo electrónico al extremo resuelto mediante el adaptador de SMTP del servidor de BizTalk.  
   
  En este tema "Cómo...", se realizarán los pasos siguientes:  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-domain-specific-language-dsl-model"></a>Para crear un modelo de lenguaje de específico de dominio (DSL) itinerarios de ESB  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -181,4 +181,4 @@ ms.lasthandoff: 09/20/2017
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   
--   [Uso de resolución dinámica y enrutamiento](../esb-toolkit/using-dynamic-resolution-and-routing.md)
+-   [Uso de resolución y enrutamiento dinámicos](../esb-toolkit/using-dynamic-resolution-and-routing.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "31"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fe4f937af910ceef1ed461e25ea3c62cad5cbc29
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57c95ac64637027b5d39699a42e8fac93c003697
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-and-deploy-the-sample-x12-schema"></a>Paso 2: Crear e implementar el ejemplo X12 esquema
 ![Paso 2 de 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  Este tema presupone que ya ha agregado una referencia de su aplicación a la aplicación EDI de BizTalk, que contiene esquemas, canalizaciones y orquestaciones EDI. Si no es así, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
-3.  Haga clic en el proyecto de esquemas y, a continuación, haga clic en **propiedades**. Haga clic en el **firma** ficha en el Diseñador de proyectos. Compruebe el **firmar el ensamblado** casilla de verificación para **elegir un archivo de nombre de clave seguro**, seleccione  **\<nuevo... >** y escriba `Schemas.snk`. Desactive **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**. Cierre el cuadro de diálogo de propiedades del proyecto y guarde los cambios.  
+3.  Haga clic en el proyecto de esquemas y, a continuación, haga clic en **propiedades**. Haga clic en el **firma** ficha en el Diseñador de proyectos. Compruebe el **firmar el ensamblado** casilla de verificación para **elegir un archivo de nombre de clave seguro**, seleccione  **\<nuevo... \>**  y escriba `Schemas.snk`. Desactive **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**. Cierre el cuadro de diálogo de propiedades del proyecto y guarde los cambios.  
   
 4.  Genere e implemente Schemas.btproj.  
   
@@ -46,4 +46,4 @@ ms.lasthandoff: 09/20/2017
  Configurar un perfil de entidad y de negocio para su organización (Contoso), como se describe en [paso 3: configurar una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Esquemas de documento EDI](../core/edi-document-schemas.md)
+ [Esquemas de documentos EDI](../core/edi-document-schemas.md)

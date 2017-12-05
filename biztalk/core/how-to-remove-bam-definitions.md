@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bce5454528b3dc1cf0feb54a52eae2008e607811
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa02b24ed7d0c7ac09162f486df629bf027d13b9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-definitions"></a>Cómo quitar definiciones de BAM
 Los administradores utilizan el **remove-all** comando de la utilidad de administración de BAM para quitar todas las vistas y tablas de actividad subyacentes para un determinado archivo de definición de BAM.  
@@ -32,7 +32,7 @@ Los administradores utilizan el **remove-all** comando de la utilidad de adminis
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo de **bm remove-all DefinitionFile:\<archivo def >**.  
+3.  Tipo de **bm remove-all DefinitionFile:\<archivo def\>**.  
   
 4.  Presione ENTRAR.  
   

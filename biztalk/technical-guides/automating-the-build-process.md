@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0e09e298694a3affd979eacc35ec43a1f92fab5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d62380146f0bfba188843ed0e022340d88fcaceb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="automating-the-build-process"></a>Automatizar el proceso de compilación
 Un proceso automatizado de compilación compila, implementa y, a continuación, ejecuta pruebas de comprobación de la compilación (BVT) en el código fuente más reciente para un proyecto a intervalos regulares, predeterminados. A continuación, un "informe de compilación", que detalla el éxito o error del proceso de compilación, se difunde a las partes interesadas del proyecto. El informe de generación se analiza para determinar qué áreas del proyecto necesitan atención y si el proyecto debe puede revertir a una versión anterior.  
@@ -108,7 +108,7 @@ Un proceso automatizado de compilación compila, implementa y, a continuación, 
  Es importante minimizar el esfuerzo de desarrollo necesario para escribir cada prueba funcional. Por lo general, cuanto más caro resulta algo (en términos de tiempo de desarrollo), generan menos casos de prueba es probable que terminen con. Esto significa que tendrá un menor nivel de cobertura de pruebas en el código. Mediante el uso de un marco de pruebas, puede desarrollar casos de prueba y agiliza y, por lo tanto, resulte más fácil obtener cobertura de código completo. La mayoría de los marcos de pruebas buena utilizan un enfoque declarativo para definir pruebas. (Es decir, la configuración de una prueba se almacena en un archivo de configuración, que normalmente es un archivo XML). Uso de una buena manera de comprobar framework permite desarrollar una completa funcional conjunto de pruebas de una manera ágil y confiable y evita tener que volver a "inventar la rueda" una y otra vez, por lo que decirlo.  
   
 ## <a name="msbuild-support-for-biztalk-server-projects"></a>Compatibilidad para MSBUILD para proyectos de BizTalk Server  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]proporciona compatibilidad para la plataforma de motor de compilación de Microsoft (MSBUILD), que admite la creación de proyectos administrados en entornos de laboratorio de compilación donde no está instalado Visual Studio. MSBUILD permite compilar proyectos desde una línea de comandos y la funcionalidad avanzada que incluye MSBUILD, registro y el procesamiento por lotes. Para obtener más información acerca de MSBUILD, vea [información general sobre MSBuild](http://go.microsoft.com/fwlink/?LinkId=131739) (http://go.microsoft.com/fwlink/?LinkId=131739).  
+ BizTalk Server proporciona compatibilidad para la plataforma de motor de compilación de Microsoft (MSBUILD), lo que permite la creación de proyectos administrados en entornos de laboratorio de compilación donde no está instalado Visual Studio. MSBUILD permite compilar proyectos desde una línea de comandos y la funcionalidad avanzada que incluye MSBUILD, registro y el procesamiento por lotes. Para obtener más información acerca de MSBUILD, vea [información general sobre MSBuild](http://go.microsoft.com/fwlink/?LinkId=131739) (http://go.microsoft.com/fwlink/?LinkId=131739).  
   
 ## <a name="see-also"></a>Vea también  
- [Implementación de las pruebas automatizadas](../technical-guides/implementing-automated-testing.md)
+ [Implementación de pruebas automatizadas](../technical-guides/implementing-automated-testing.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2449f6c5572a3a29b620becdc4310f4152f2eac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86d501c18bf104a0f538ef90d10510e7d9ec0f02
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---first-input-to-table-extractor-functoid-not-valid"></a>Error: primera entrada de Functoid de Extractor de tablas no válida
 **Código de error**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **Acción del usuario**  
   
- Crear un vínculo entre el functoid **Extractor de tablas** functoid y los respectivos **bucle de tabla** functoid arrastrando uno de ellos al otro. El primer functoid debe estar ubicado a la derecha del segundo en una página de cuadrícula de asignación. Además, al usar el **configurar \<Functoid > Functoid** diálogo cuadro, asegúrese de que el vínculo recién creado es el primer parámetro de entrada para el functoid **Extractor de tablas** functoid.
+ Crear un vínculo entre el functoid **Extractor de tablas** functoid y los respectivos **bucle de tabla** functoid arrastrando uno de ellos al otro. El primer functoid debe estar ubicado a la derecha del segundo en una página de cuadrícula de asignación. Además, al usar el **configurar \<Functoid\> Functoid** diálogo cuadro, asegúrese de que el vínculo recién creado es el primer parámetro de entrada para el functoid **Extractor de tablas** functoid.

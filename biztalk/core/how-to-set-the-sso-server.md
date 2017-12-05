@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96631531cc28ac1bed4ea2b2b56b4b8f9b80c281
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c7dab9df7b5444b437f12737c37036b592a70aad
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-the-sso-server"></a>Cómo establecer el servidor de SSO
 Cada vez que utilice ssomanage, en primer lugar debe seleccionar al usuario para el servidor de inicio de sesión único con el que desea establecer la conexión.  
@@ -48,9 +48,9 @@ Cada vez que utilice ssomanage, en primer lugar debe seleccionar al usuario para
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo **ssomanage – server \<el nombre del servidor SSO >**, donde  **\<el nombre del servidor SSO >** es el nombre de equipo único inicio de sesión del servidor del usuario desea volver a conectarse.  
+3.  Tipo de **ssomanage – server \<el nombre del servidor SSO\>**, donde  **\<el nombre del servidor SSO\>**  es el nombre del equipo del servidor de inicio de sesión único en el usuario va a conectar.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -59,9 +59,9 @@ Cada vez que utilice ssomanage, en primer lugar debe seleccionar al usuario para
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage – serverall \<el nombre del servidor SSO >**, donde  **\<el nombre del servidor SSO >** es el nombre de equipo del servidor de inicio de sesión único en todos los miembros de los usuarios de inicio de sesión único cuenta señalarán a.  
+3.  Tipo de **ssomanage – serverall \<el nombre del servidor SSO\>**, donde  **\<el nombre del servidor SSO\>**  es el nombre de equipo único inicio de sesión del servidor de todos los señalarán a los miembros de la cuenta de usuarios de inicio de sesión único.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -70,7 +70,7 @@ Cada vez que utilice ssomanage, en primer lugar debe seleccionar al usuario para
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – showserver**.  
   

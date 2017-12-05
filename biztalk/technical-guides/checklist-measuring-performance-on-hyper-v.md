@@ -12,14 +12,14 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 806f1efb67205771a1e202c8bafd77a493d584e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6aefa415bec4b996fa7b5cd4689c48f834dc36a2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="checklist-measuring-performance-on-hyper-v"></a>Lista de comprobación: Medir el rendimiento en Hyper-V
-Aunque la mayoría de los principios de analizar el rendimiento de un sistema operativo instalado en un rendimiento de la máquina virtual de Hyper-V es los mismos que analizar el rendimiento de un sistema operativo instalado en un equipo físico, muchos de los métodos de colección son diferentes. Las secciones siguientes se deben utilizar como una referencia rápida al evaluar el rendimiento de su [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] solución se ejecuta en un sistema operativo instalado en una máquina virtual de Hyper-V.  
+Aunque la mayoría de los principios de analizar el rendimiento de un sistema operativo instalado en un rendimiento de la máquina virtual de Hyper-V es los mismos que analizar el rendimiento de un sistema operativo instalado en un equipo físico, muchos de los métodos de colección son diferentes. Las secciones siguientes deben usarse como una referencia rápida al evaluar el rendimiento de la solución de BizTalk Server que se ejecuta en un sistema operativo instalado en una máquina virtual de Hyper-V.  
   
 ## <a name="measuring-disk-io-performance"></a>Medir el rendimiento de E/S de disco  
  Utilice los siguientes contadores del monitor de rendimiento para medir el rendimiento de E/S de disco en un sistema operativo instalado en una máquina virtual de Hyper-V:  

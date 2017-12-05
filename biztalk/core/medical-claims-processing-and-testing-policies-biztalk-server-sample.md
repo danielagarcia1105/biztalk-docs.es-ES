@@ -15,11 +15,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 33c8921e037b9f9628c0e0ee97a915f62ab634ec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 70cba6055c51371ddaaf99775bd5e7a60e7f3929
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="medical-claims-processing-and-testing-policies-biztalk-server-sample"></a>Medical Claims directivas de procesamiento y pruebas (ejemplo de BizTalk Server)
 El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un conjunto de reglas compuesto por varias reglas que examinen hechos derivados de una tabla de la base de datos y del documento entrante, y que usan objetos basados en .NET para registrar los resultados del procesamiento de reclamaciones.  
@@ -45,7 +45,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
 6.  En caso contrario, aprueba la reclamación.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Business Rules\Medical Claims Processing and Testing Policies\  
+ \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -67,11 +67,11 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
 1.  Asegúrese de que la base de datos Northwind esté instalada en el equipo.  
   
     > [!IMPORTANT]
-    >  Para ejecutar este ejemplo, debe disponer de una base de datos con el nombre Northwind. [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] y [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] no se distribuyen con la base de datos Northwind de ejemplo. Para crear la base de datos Northwind, descargue el archivo de instalación de [http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020)y siga las instrucciones.  
+    >  Para ejecutar este ejemplo, debe tener la base de datos de ejemplo Northwind de SQL Server. [Descargar](https://www.microsoft.com/download/details.aspx?id=23654)e instalar. 
   
 2.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Business Rules\Medical Claims Processing and Testing Policies\  
+     \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
 3.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -100,7 +100,7 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
   
 2.  Ejecute el archivo RulesForMedicalClaims.exe en la línea de comandos.  
   
@@ -248,4 +248,4 @@ El ejemplo Medical Claims Processing and Testing Policies muestra cómo crear un
     ```  
   
 ## <a name="see-also"></a>Vea también  
- [Reglas de negocios (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)
+ [Reglas de negocio (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)

@@ -17,11 +17,11 @@ caps.latest.revision: "69"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5db86f672cd17965ec76877cc3867594bf82b40d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 445dcdf9685d5b4b74f5d1fd9738da838edb5f42
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-deploying-a-basic-biztalk-application"></a>Tutorial: Implementar una aplicación de BizTalk básico
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye características que simplifican la administración e implementación de las soluciones empresariales de BizTalk. Ahora incluye un contenedor de aplicaciones de BizTalk para los elementos que componen una solución empresarial, como orquestaciones, esquemas, asignaciones, canalizaciones y ensamblados .NET. Puede administrar, modificar, implementar e instalar todos los elementos en una aplicación como una sola unidad. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También incluye asistentes para ayudar a automatizar las tareas de implementación de aplicaciones. Para obtener información general, vea [implementación de aplicaciones y características de administración de](../core/application-deployment-and-management-features.md) y [implementación de aplicaciones y herramientas de administración](../core/application-deployment-and-management-tools.md).  
@@ -104,7 +104,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 #### <a name="2-deploy-the-biztalk-assemblies"></a>2. Implementar los ensamblados de BizTalk  
  Desde Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] instalado en el equipo de desarrollo, efectúe los procedimientos de este paso para implementar ensamblados de BizTalk en una aplicación de BizTalk.  
   
- Antes de comenzar, debe tener una solución de BizTalk disponible en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Puede crear su propia solución o proyecto, o bien configurar el ejemplo de control de errores que se incluye con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Puede configurar la solución de ejemplo de control de errores ErrorHandling en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de la forma siguiente.  
+ Antes de comenzar, debe tener una solución de BizTalk disponible en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Puede crear su propia solución o proyecto, o puede configurar el ejemplo ErrorHandling incluido con BizTalk Server. Puede configurar la solución de ejemplo de control de errores ErrorHandling en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de la forma siguiente.  
   
 ###### <a name="to-set-up-the-errorhandling-solution"></a>Para configurar la solución ErrorHandling  
   
@@ -132,9 +132,9 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
     |Propiedad|Valor|Explicación|  
     |--------------|-----------|-----------------|  
-    |Application Name|\<Name>|Nombre de la aplicación de BizTalk en la que se van a implementar los ensamblados de este proyecto. Si la aplicación ya existe, los ensamblados se agregarán a ella cuando implemente el proyecto. En cambio, si no existe, se creará la aplicación. Si se deja este campo en blanco, los ensamblados se implementarán en la aplicación de BizTalk predeterminada del grupo actual, "BizTalk Application 1" de forma predeterminada. Los nombres que incluyen espacios deben flanquearse con comillas dobles (").|  
-    |Base de datos de configuración|\<Nombre de la base de datos de administración de BizTalk >|Nombre de la base de datos de administración de BizTalk del grupo; el nombre predeterminado es BizTalkMgmtDb.|  
-    |Server|\<Nombre del servidor >|Nombre de la instancia del servidor SQL Server que aloja la base de datos de administración de BizTalk en el equipo local. En las instalaciones de un solo equipo, suele ser el nombre del equipo local. **Nota:** si mueve este proyecto de BizTalk a un equipo diferente, debe modificar la propiedad del servidor para reflejar el nuevo nombre del equipo antes de poder implementar el ensamblado.|  
+    |Application Name|\<Nombre\>|Nombre de la aplicación de BizTalk en la que se van a implementar los ensamblados de este proyecto. Si la aplicación ya existe, los ensamblados se agregarán a ella cuando implemente el proyecto. En cambio, si no existe, se creará la aplicación. Si se deja este campo en blanco, los ensamblados se implementarán en la aplicación de BizTalk predeterminada del grupo actual, "BizTalk Application 1" de forma predeterminada. Los nombres que incluyen espacios deben flanquearse con comillas dobles (").|  
+    |Base de datos de configuración|\<Nombre de la base de datos de administración de BizTalk\>|Nombre de la base de datos de administración de BizTalk del grupo; el nombre predeterminado es BizTalkMgmtDb.|  
+    |Server|\<Nombre del servidor\>|Nombre de la instancia del servidor SQL Server que aloja la base de datos de administración de BizTalk en el equipo local. En las instalaciones de un solo equipo, suele ser el nombre del equipo local. **Nota:** si mueve este proyecto de BizTalk a un equipo diferente, debe modificar la propiedad del servidor para reflejar el nuevo nombre del equipo antes de poder implementar el ensamblado.|  
     |Volver a implementar|True o False|Si se define en True (valor predeterminado), puede volver a implementar los ensamblados de BizTalk sin cambiar el número de versión.|  
     |Instalar caché de ensamblados total (GAC)|True o False|Si se define en True (valor predeterminado), los ensamblados se instalan en la caché de ensamblados global (GAC) del equipo local al implementar el ensamblado.|  
     |Reiniciar instancias de Host|True o False|Si se define en True, se reinician de forma automática todas las instancias de host que se ejecutan en el equipo local cuando el ensamblado se vuelve a implementar. En cambio, si se define en False (valor predeterminado), debe reiniciar manualmente las instancias de host al volver a implementar un ensamblado. **Nota:** si está volviendo a implementar ensamblados desde el nivel de solución, instancias de host se reiniciará una vez para cada proyecto que tenga esta opción se establece en True. Esto puede ocasionar varios reinicios. Si tiene intención de volver a implementar desde el nivel de solución, se recomienda establecer esta propiedad en True en solo un proyecto de la solución para evitar que la instancia de host se reinicie varias veces. Esto debe establecerse en el último proyecto que se vaya a volver a implementar en la solución. Además, si se detiene una instancia de host cuando esté llevando a cabo la nueva implementación, no se iniciará.|  
@@ -154,7 +154,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      Ejemplo: **sn -k ErrorHandling.snk**  
   
-     Un mensaje de confirmación, **escribe en el par de claves \<**  *file_name***> .snk** `,` muestra en la línea de comandos.  
+     Un mensaje de confirmación, **escribe en el par de claves \<**  *file_name***\>.snk** `,` muestra en la línea de comandos.  
   
  A continuación, necesita asociar cada proyecto de la solución al archivo de clave.  
   
@@ -166,7 +166,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 3.  En el panel derecho, compruebe el **firmar el ensamblado** cuadro.  
   
-4.  Haga clic en el cuadro de lista desplegable en **elegir un archivo de clave de nombre seguro**, haga clic en  **\<Examinar... >**y, a continuación, busque el archivo de clave.  
+4.  Haga clic en el cuadro de lista desplegable en **elegir un archivo de clave de nombre seguro**, haga clic en  **\<Examinar... \>** y, a continuación, busque el archivo de clave.  
   
 5.  Haga clic en el archivo de clave y haga clic en **abiertos**.  
   
@@ -324,7 +324,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      ![Agregue referencias a una aplicación](../core/media/appreferences.gif "AppReferences")  
   
-6.  En el **configuración del entorno de destino de aplicación** página, confirme que  **\<predeterminado >** está seleccionada y haga clic en **siguiente**.  
+6.  En el **configuración del entorno de destino de aplicación** página, confirme que  **\<predeterminado\>**  está seleccionada y haga clic en **siguiente**.  
   
 7.  En el **resumen de importación** página, confirme que la información de resumen es correcta y, a continuación, haga clic en **importación**.  
   
@@ -357,4 +357,4 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   Para quitar completamente la aplicación desde el grupo de BizTalk y el equipo local, siga las instrucciones de [anular la implementación de aplicaciones de BizTalk](../core/undeploying-biztalk-applications.md).  
   
 ## <a name="see-also"></a>Vea también  
-[Descripción de la implementación de aplicaciones de BizTalk y administración](../core/understanding-biztalk-application-deployment-and-management.md)
+[Descripción de la implementación y administración de aplicaciones de BizTalk](../core/understanding-biztalk-application-deployment-and-management.md)

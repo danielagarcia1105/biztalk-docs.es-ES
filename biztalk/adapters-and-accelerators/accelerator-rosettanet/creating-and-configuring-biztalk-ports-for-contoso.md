@@ -19,17 +19,17 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4440d80568ee49bf589c78758f490d8caefbb256
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7264d2eaa5c3ce249bc1077f7754d93eecdd786a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="creating-and-configuring-biztalk-ports-for-contoso"></a>Crear y configurar puertos de BizTalk para Contoso
-En esta sección, integrar la solución actual en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]. Antes de hacer esto, instale al ensamblado en la caché de ensamblados Global (GAC) y, a continuación, configurarlo en la base de datos de configuración. A continuación, crear y configurar puertos de envío mediante un adaptador SQL y un adaptador HTTP.  
+En esta sección, integrar la solución actual en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server. Antes de hacer esto, instale al ensamblado en la caché de ensamblados Global (GAC) y, a continuación, configurarlo en la base de datos de configuración. A continuación, crear y configurar puertos de envío mediante un adaptador SQL y un adaptador HTTP.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Paso 1: Asignar un nombre seguro al ensamblado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-1-assigning-a-strong-name-to-the-contoso-assembly.md)  
+-   [Paso 1: Asignación de un nombre seguro al ensamblado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-1-assigning-a-strong-name-to-the-contoso-assembly.md)  
   
 -   [Paso 2: Creación de puertos para el precio de 3A2 de Contoso y el escenario de la consulta/respuesta de disponibilidad](step-2-create-ports-for-contoso-3a2-price-and-availability-query.md)

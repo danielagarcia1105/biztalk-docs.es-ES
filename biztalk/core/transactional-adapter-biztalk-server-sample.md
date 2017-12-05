@@ -12,11 +12,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dfad3a99d313a8007962cf56f403243c72f6a377
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f934857103952a035159cc08678c8ce8c8e51a56
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>Adaptador transaccional (ejemplo de BizTalk Server)
 En el ejemplo de adaptador transaccional se muestra cómo crear y usar una transacción explícita de Microsoft DTC (Coordinador de transacciones distribuidas) para una base de datos durante el procesamiento de un mensaje de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -32,7 +32,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Samples\AdaptersDevelopment\TransactionalAdapter. El proyecto de configuración administrativa se encuentra en la carpeta \Admin, y el de tiempo de ejecución, en la carpeta \Runtime.  
+ \<*Ejemplos de ruta de acceso*\>\Samples\AdaptersDevelopment\TransactionalAdapter. El proyecto de configuración administrativa se encuentra en la carpeta \Admin, y el de tiempo de ejecución, en la carpeta \Runtime.  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -98,7 +98,7 @@ En el ejemplo de adaptador transaccional se muestra cómo crear y usar una trans
 2.  Para agregar los datos del adaptador transaccional al registro, haga doble clic en **TransactionalAdmin.reg**.  
   
     > [!NOTE]
-    >  **TransactionalAdmin.reg** incluye rutas codificadas de forma rígida a C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] \\. Si no instaló BizTalk Server en la ubicación predeterminada o si actualizó la instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a partir de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], deberá modificar el archivo TransactionalAdmin.reg con las rutas apropiadas. Actualice las rutas asociadas a los valores "InboundAssemblyPath", "OutboundAssemblyPath" y "AdapterMgmtAssemblyPath" para que señalen a la ubicación correcta de los archivos especificados.  
+    >  **TransactionalAdmin.reg** incluye rutas codificadas de forma rígida a C:\Program Files\Microsoft BizTalk Server\\. Si no instaló BizTalk Server en la ubicación predeterminada o si actualizó la instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a partir de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], deberá modificar el archivo TransactionalAdmin.reg con las rutas apropiadas. Actualice las rutas asociadas a los valores "InboundAssemblyPath", "OutboundAssemblyPath" y "AdapterMgmtAssemblyPath" para que señalen a la ubicación correcta de los archivos especificados.  
   
     > [!IMPORTANT]
     >  Si instala BizTalk en un equipo de 64 bits, cambie todas las instancias de la entrada de registro HKEY_CLASSES_ROOT\CLSID\ a HKEY_CLASSES_ROOT\Wow6432Node\CLSID\ en el **TransactionalAdmin.reg** archivo de registro.  
@@ -234,4 +234,4 @@ Estos métodos se describen [!INCLUDE[ui-guidance-developers-reference](../inclu
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de adaptador: desarrollo](../core/adapter-samples-development.md)   
- [Registrar un adaptador](../core/registering-an-adapter.md)
+ [Registro de un adaptador](../core/registering-an-adapter.md)

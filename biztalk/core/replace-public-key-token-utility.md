@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7dee6fff7de065c3663ab373f739f7fb465947c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 344b25b83060143b339a6791ecae6f3ab7028055
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="replace-public-key-token-utility"></a>Utilidad para reemplazar el token de clave pública
 Esta utilidad se puede usar para reemplazar un token de clave pública o una variable de un archivo por un token de clave pública derivado de un archivo de clave de ensamblado de nombre seguro (.snk).  
@@ -64,13 +64,13 @@ Esta utilidad se puede usar para reemplazar un token de clave pública o una var
   
 3.  Desde el símbolo del sistema, ejecute el siguiente comando:  
   
-4.  **ReplacePKT \<**  *archivo .snk*  **>  \<**  *anterior token de clave pública*  **>  \<**  *archivo para que reemplace***>**  
+4.  **ReplacePKT \<**  *archivo .snk*  **\> \<**  *anterior token de clave pública*  **\> \<**  *archivo para que reemplace***\>**  
   
     |Opción|Description|  
     |------------|-----------------|  
-    |**\<***archivo .snk***>**|Ruta de acceso completa del archivo .snk que contiene el token de clave pública que desea sustituir por el token de clave pública o marcador de posición existente.|  
-    |**\<***anterior token de clave pública***>**|Token de clave pública o marcador de posición que desea reemplazar.|  
-    |**\<***archivo para que reemplace***>**|Ruta de acceso completa del archivo en el que desea reemplazar el token de clave pública o marcador de posición.|  
+    |**\<***archivo .snk***\>**|Ruta de acceso completa del archivo .snk que contiene el token de clave pública que desea sustituir por el token de clave pública o marcador de posición existente.|  
+    |**\<***anterior token de clave pública***\>**|Token de clave pública o marcador de posición que desea reemplazar.|  
+    |**\<***archivo para que reemplace***\>**|Ruta de acceso completa del archivo en el que desea reemplazar el token de clave pública o marcador de posición.|  
   
      Ejemplo:  
   
@@ -86,7 +86,7 @@ Esta utilidad se puede usar para reemplazar un token de clave pública o una var
     ReplacePKT <filename>.snk  
     ```  
   
-     Donde \< *filename*> es el nombre del archivo .snk del que se deriva el token de clave pública.  
+     Donde \< *filename* \> es el nombre del archivo .snk del que se deriva el token de clave pública.  
   
     ```  
     Example: ReplacePKT.bat MyToken.snk  
@@ -103,4 +103,4 @@ Esta utilidad se puede usar para reemplazar un token de clave pública o una var
 3.  Cuando entregue el archivo de secuencia de comandos a los usuarios, incluya los tres archivos de la utilidad para reemplazar el token de clave pública (ReplacePKT.bat, ReplacePKT.vbs y ReplacePKT.wsf). Asegúrese de que los usuarios de la secuencia de comandos, copian todos los archivos en la misma carpeta del sistema de archivos antes de ejecutarla.  
   
 ## <a name="see-also"></a>Vea también  
- [Utilidades del SDK de](../core/utilities-in-the-sdk.md)
+ [Utilidades del SDK](../core/utilities-in-the-sdk.md)

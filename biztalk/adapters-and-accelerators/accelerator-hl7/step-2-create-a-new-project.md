@@ -16,18 +16,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78cfd1341100fe803679e81300609962a9c0e1f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4b296b01179b3ce52aef41dc246dbed2588c3e6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-create-a-new-project"></a>Paso 2: Crear un nuevo proyecto
 En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] entorno. En primer lugar, cree un nuevo proyecto (BTAHL7V22Common) que contiene los tres esquemas comunes (para tipos de datos, segmentos y valores de tabla) que utilizan los esquemas de HL7 V2.2, incluido el esquema que se va a utilizar para el mensaje saliente de HL7. En segundo lugar, compile otro nuevo proyecto (BTAHL7V2XCommon) que contiene el esquema estándar común utilizado para los encabezados de mensajes HL7 (MSH_25_GLO_DEF).  
   
 ### <a name="to-create-a-new-project"></a>Para crear un nuevo proyecto  
   
-1.  Iniciar  **[!INCLUDE[vs2012](../../includes/vs2012-md.md)]** .  
+1.  Iniciar **Visual Studio**.  
   
 2.  En el menú **Archivo** , seleccione **Nuevo**y haga clic en **Proyecto**.  
   
@@ -37,7 +37,7 @@ En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](..
   
 5.  En el **nombre** , escriba **BTAHL7V22Common** como el nombre del proyecto.  
   
-6.  En el **ubicación** , escriba  *\<unidad >***: \Tutorial** como ruta de acceso y, a continuación, haga clic en **Aceptar** para abrir el nuevo proyecto.  
+6.  En el **ubicación** , escriba  *\<unidad\>***: \Tutorial** como ruta de acceso y, a continuación, haga clic en **Aceptar** para abrir el nuevo proyecto.  
   
     > [!NOTE]
     >  Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) agrega un nuevo proyecto en el Explorador de soluciones con los tres esquemas comunes:  
@@ -48,7 +48,7 @@ En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](..
   
     -   tablevalues_22.xsd  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea la carpeta del proyecto y los archivos en el \< *unidad*>: \Tutorial\BTAHL7V22Common carpeta.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea la carpeta del proyecto y los archivos en el \< *unidad*\>: \Tutorial\BTAHL7V22Common carpeta.  
   
 7.  En el menú **Archivo** , seleccione **Nuevo**y haga clic en **Proyecto**.  
   
@@ -58,7 +58,7 @@ En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](..
   
 10. En el **nombre** , escriba **BTAHL7V2XCommon** como el nombre del proyecto.  
   
-11. En el **ubicación** , escriba  *\<unidad >***: \Tutorial** como la ruta de acceso.  
+11. En el **ubicación** , escriba  *\<unidad\>***: \Tutorial** como la ruta de acceso.  
   
 12. En el **solución** campo, seleccione **agregar a solución**y, a continuación, haga clic en **Aceptar**.  
   
@@ -71,7 +71,7 @@ En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](..
   
     -   MSH_25_GLO_DEF.xsd  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea la carpeta del proyecto y los archivos en el  **\<unidad >: \Tutorial\BTAHL7V22Common\BTAHL72XCommon** carpeta.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea la carpeta del proyecto y los archivos en el  **\<unidad\>: \Tutorial\BTAHL7V22Common\BTAHL72XCommon** carpeta.  
   
  Continúe con [paso 3: asignar un nombre seguro al ensamblado](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md).  
   

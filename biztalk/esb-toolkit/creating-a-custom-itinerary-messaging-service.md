@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bcf96e8f76a9d2a6ad51bac462c2da101812911d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5f08168e69e26d56cb39fb5c05cc53c3cbb51202
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-custom-itinerary-messaging-service"></a>Crear un servicio de mensajería itinerario personalizado
 El marco de trabajo itinerario que forma parte de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] admite la ejecución de pasos itinerarios con las clases que implementan la **IMessagingService** interfaz que se ejecutan los servicios de mensajería itinerarios. Puede implementar un servicio de mensajería personalizado cuando desee que el servicio sea responsable de lo siguiente:  
@@ -78,6 +78,6 @@ public IBaseMessage ExecuteRoute(IPipelineContext context, IBaseMessage msg, str
   
 1.  Crear un ensamblado con una clase que deriva de **IMessagingService;** en el **Execute** método, incluir toda la lógica necesaria para realizar modificaciones en el mensaje o el contexto del mensaje (si existe).  
   
-2.  Agregue una entrada en el **itineraryServices** sección del archivo Esb.config para el servicio mediante la adición de un  **\<itineraryService >** elemento con un GUID como el **id**de atributo, el nombre del servicio como el **nombre** de atributo, el nombre completo de la clase como el **tipo** atributo, **mensajería** como el **ámbito** atributo y en la fase permitida (por ejemplo, **OnRampReceive**, **OnRampSend**, **OffRampSend**, **OffRampReceive**, **AllSend**, **AllReceive**, o **todos los**) como el **fase** atributo.  
+2.  Agregue una entrada en el **itineraryServices** sección del archivo Esb.config para el servicio mediante la adición de un  **\<itineraryService\>**  elemento con un GUID como el **Id.**  de atributo, el nombre del servicio como el **nombre** de atributo, el nombre completo de la clase como el **tipo** atributo, **mensajería**como el **ámbito** atributo y en la fase permitida (por ejemplo, **OnRampReceive**, **OnRampSend**, **OffRampSend**, **OffRampReceive**, **AllSend**, **AllReceive**, o **todos los**) como el **fase**atributo.  
   
 3.  Registrar el nuevo ensamblado en la caché global de ensamblados.

@@ -12,11 +12,11 @@ caps.latest.revision: "46"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38530cfdbde78e96fb41093c79b6a5d1bb8fd132
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 2bf5ba8aef29476f58bfa000b75fbe481238eb62
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter"></a>Tutorial: Publicar servicios WCF con el adaptador WCF-NetMsmq
   
@@ -25,7 +25,7 @@ ms.lasthandoff: 10/17/2017
   
 ## <a name="introduction"></a>Introducción
   
- En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], se puede publicar una orquestación como un Servicio [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)]. A través de una ubicación de recepción de BizTalk, una orquestación puede exponer un extremo de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)], lo que permite que un cliente [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] lo llame El **Asistente de publicación de servicio de WCF de BizTalk** proporciona una manera sencilla para exponer una orquestación como ubicación de recepción.  
+ En BizTalk Server, se puede publicar una orquestación como un [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] servicio. A través de una ubicación de recepción de BizTalk, una orquestación puede exponer un extremo de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)], lo que permite que un cliente [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] lo llame El **Asistente de publicación de servicio de WCF de BizTalk** proporciona una manera sencilla para exponer una orquestación como ubicación de recepción.  
   
  El adaptador de WCF-NetMsmq utiliza el **NetMsmqBinding** enlace para proporcionar soporte técnico para el uso de Microsoft Message Queuing (también conocido como MSMQ) como su transporte subyacente. El cliente de un Servicio [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] envía mensajes [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] a una cola MSMQ mediante la ubicación de recepción configurada para usar el adaptador de WCF-NetMSMQ. El adaptador toma los mensajes de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] de la cola MSMQ, los convierte a formato [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los escribe en la base de datos de cuadro de mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
@@ -46,7 +46,7 @@ ms.lasthandoff: 10/17/2017
   
 -   El equipo que se usa para generar los ensamblados y ejecutar el proceso de implementación requiere Microsoft Visual Studio.  
   
--   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Se trata de opciones de instalación durante la instalación de Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Estas son opciones para instalar durante la instalación de Microsoft BizTalk Server.  
   
 -   En los equipos que use para realizar las tareas administrativas, debe ejecutar una cuenta de usuario que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar los parámetros de aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta cuenta de usuario también debe ser miembro del grupo de administradores local para la implementación de la aplicación, la administración de las instancias de host y otras tareas que puedan ser necesarias.  
   
@@ -64,7 +64,7 @@ ms.lasthandoff: 10/17/2017
   
 3.  En el Explorador de soluciones, expanda **BizTalkApp**y, a continuación, abra **OrderProcess.odx** para revisar. La orquestación de ejemplo recibe mensajes de solicitud de pedido y devuelve simplemente el orden de mensajes de respuesta.  
   
-4.  Dado que la **BizTalkApp** ensamblado debe instalarse en la GAC, necesitará un archivo de clave de nombre seguro para completar el proceso de implementación. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<nuevo >** y escriba `keyfile.snk` en el **nombre de archivo de clave** cuadro de texto. Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
+4.  Dado que la **BizTalkApp** ensamblado debe instalarse en la GAC, necesitará un archivo de clave de nombre seguro para completar el proceso de implementación. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>**  y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto. Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
   
 5.  Haga clic en el **implementación** ficha y, a continuación, cambie la **Server** propiedad si usa un servidor de base de datos diferente para la base de datos de administración de BizTalk además **LOCALHOST**.  Asegúrese de **aplicación de BizTalk** valor se establece en **WCFNetMsmqAdapterPublishing**. Asegúrese de **instalar en la caché Global de ensamblados** está establecido en **True**.  
   
@@ -164,7 +164,7 @@ ms.lasthandoff: 10/17/2017
   
 8.  En el **ubicación del servicio WCF** página, lleve a cabo las siguientes acciones para especificar la ubicación de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services para crear y, a continuación, haga clic en **siguiente**:  
   
-    1.  En el **ubicación** cuadro de texto, escriba el directorio Web nombre donde la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejecuciones del servicio o haga clic en **examinar** y seleccione un directorio Web. En este tutorial, deje la ubicación predeterminada (http://localhost/*\<nombre de ensamblado de BizTalk >*) en el **ubicación** cuadro de texto.  
+    1.  En el **ubicación** cuadro de texto, escriba el directorio Web nombre donde la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejecuciones del servicio o haga clic en **examinar** y seleccione un directorio Web. En este tutorial, deje la ubicación predeterminada (http://localhost/*\<nombre de ensamblado de BizTalk\>*) en el **ubicación** cuadro de texto.  
   
     2.  Seleccione el **permitir acceso anónimo al servicio WCF** opción. Esta opción agrega acceso anónimo al directorio virtual creado. Es necesario seleccionarla para permitir la autenticación anónima para la aplicación Web que se creará en este tutorial.  
   
@@ -176,7 +176,7 @@ ms.lasthandoff: 10/17/2017
   
 1.  Abra un símbolo del sistema, vaya a la **C:\inetpub\wwwroot\Microsoft.Samples.BizTalk.WCF.NetMsmqPublishing.BizTalkApp** carpeta donde el **Asistente de publicación de servicio de WCF de BizTalk** creado el [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]servicio. Abra la **Web.config** archivo mediante el Bloc de notas.  
   
-2.  En el Bloc de notas, agregue la siguiente línea dentro de la  **\<system.web >** elemento:  
+2.  En el Bloc de notas, agregue la siguiente línea dentro de la  **\<system.web\>**  elemento:  
   
     ```  
     <trust level="Full" originUrl="" />  
@@ -242,4 +242,4 @@ ms.lasthandoff: 10/17/2017
 ## <a name="see-also"></a>Vea también  
  [Configurar un WCF-NetMsmq ubicación de recepción](../core/how-to-configure-a-wcf-netmsmq-receive-location.md)   
  [Tutoriales del adaptador WCF](../core/wcf-adapter-walkthroughs.md)   
- [Adaptadores de recepción de la publicación de metadatos de servicio de WCF](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)
+ [Publicación de metadatos de servicio para los adaptadores de recepción WCF](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)

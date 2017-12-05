@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f49bda367f9929d3ab320ac7bbaeee6ed49de2a8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1443219f8562caee53547be3f78df15834ddf4b7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="get-the-oracle-e-business-suite-operations-metadata"></a>Obtiene los metadatos de las operaciones de Oracle E-Business Suite
 Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] para generar el esquema para los artefactos de Oracle E-Business Suite seleccionados. Después de examinar y buscar los artefactos que desea invocar, puede generar esquema para los artefactos y enviar mensajes, que se ajuste al esquema, para Oracle E-Business Suite.  
@@ -63,10 +63,10 @@ Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterse
     >  Si está utilizando el complemento Consume Adapter Service para generar metadatos para operaciones en artefactos de Oracle, de forma predeterminada los archivos se crean con una convención de nomenclatura específica: el nombre del archivo XSD generado tiene las tres partes siguientes:  
     >   
     >  -   "OracleEBSBinding" o el prefijo proporcionado en el **prefijo de nombre de archivo** cuadro.  
-    > -   El nombre se incluye en el **fileNameHint** etiqueta de anotación en el WSDL generado. Para las operaciones, la sugerencia de nombre de archivo es igual que el grupo de la operación. Para los tipos complejos, la sugerencia de nombre de archivo es el espacio de nombres sin el prefijo "http://schemas.microsoft.com/OracleEBS/2008/05/". Por ejemplo, la sugerencia de nombre de archivo para una operación de la tabla de interfaz sigue la convención \<InterfaceTables > + < app_short_name > + < interface_table_name >.  
+    > -   El nombre se incluye en el **fileNameHint** etiqueta de anotación en el WSDL generado. Para las operaciones, la sugerencia de nombre de archivo es igual que el grupo de la operación. Para los tipos complejos, la sugerencia de nombre de archivo es el espacio de nombres sin el prefijo "http://schemas.microsoft.com/OracleEBS/2008/05/". Por ejemplo, la sugerencia de nombre de archivo para una operación de la tabla de interfaz sigue la convención de \<InterfaceTables\>+ < app_short_name > + < interface_table_name >.  
     > -   (Opcional) Un entero que se va a asegurar que el nombre de archivo sea único.  
     >   
-    >  Por último, el nombre de un archivo XSD se ha llegado al como < file_name_prefix > +\<fileNameHint > + n, donde "n" es un entero único.  
+    >  Por último, el nombre de un archivo XSD se ha llegado al como < file_name_prefix > +\<fileNameHint\>+ n, donde "n" es un entero único.  
   
     > [!NOTE]
     >  El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también crea un archivo de enlace (un archivo XML) que contiene las propiedades de enlace especificado al generar el esquema para una operación y la acción SOAP para invocar la operación. Puede importar este archivo de enlace en la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] set de la consola de administración para crear un puerto de WCF-Custom con el URI de conexión, propiedades de enlace y la acción SOAP. Para obtener más información, consulte [configurar un enlace de puerto físico mediante un archivo de enlace de puerto a la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md).  

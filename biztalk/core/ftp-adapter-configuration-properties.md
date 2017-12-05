@@ -19,11 +19,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b2c7895d8f5fc3789a02c72743705a4a03a9f96
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29124c17603abbc9b38a078238d13cdfb1c992e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ftp-adapter-configuration-properties"></a>Propiedades de configuración del adaptador de FTP
 En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para una ubicación de recepción de un adaptador de FTP:  
@@ -109,4 +109,4 @@ En la siguiente tabla se enumeran las propiedades de configuración que se puede
 ```  
   
 > [!NOTE]
->  Al especificar los datos de configuración de TransportTypeData para un adaptador creado mediante el marco de trabajo, todos los pares de nombre/valor que se usan deben almacenarse en el \<AdapterConfig > elemento. Puesto que la \<AdapterConfig > elemento especifica la VT_BSTR (vt = "8"), a continuación, el tipo de datos de la \< > caracteres en los datos deben convertirse.
+>  Al especificar los datos de configuración de TransportTypeData para un adaptador creado mediante el marco de trabajo, todos los pares de nombre/valor que se usan deben almacenarse en el \<AdapterConfig\> elemento. Puesto que la \<AdapterConfig\> elemento especifica la VT_BSTR (vt = "8"), a continuación, el tipo de datos de la \< \> caracteres en los datos deben convertirse.

@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e87fe8076e236fd775dcd2cb697aecaf2d6b1790
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9e0dc620d2d12933d34df0dce9eb02b697871bdc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="dynamicreceive-sample-biztalk-server-sample"></a>Ejemplo DynamicReceive (ejemplo de BizTalk Server)
 En el ejemplo DynamicReceive se muestra cómo recibir mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de una cola de MQSeries cuando el URI para la cola de MQSeries se especifica de forma dinámica.  
@@ -46,7 +46,7 @@ En el ejemplo DynamicReceive se muestra cómo recibir mensajes de [!INCLUDE[btsB
  La funcionalidad de recepción dinámica proporciona una flexibilidad adicional debido a que no es necesaria una ubicación de recepción fija. En algunos casos, puede que no conozca el URI hasta el tiempo de ejecución. La funcionalidad de recepción dinámica permite determinar de forma dinámica de dónde obtener los mensajes. También significa que no necesita implementar un contrato de cola dentro de una orquestación.  Puede esperar a obtener mensajes mediante la utilización de un URI dinámico especificado de una cola de MQSeries que se base en los criterios de coincidencia especificados.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
+ \<*Ejemplos de ruta de acceso*\>\Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -84,7 +84,7 @@ En el ejemplo DynamicReceive se muestra cómo recibir mensajes de [!INCLUDE[btsB
   
 7.  Puede generar e implementar el proyecto de las siguientes formas:  
   
-    -   Abra la solución, haga clic en el proyecto en el Explorador de soluciones y haga clic en **propiedades** para ver las propiedades del proyecto. En la ficha firma, haga clic en  **\<nuevo... >** en el **elegir un archivo de clave de nombre seguro** cuadro de lista desplegable. A continuación, proporcione un nombre de archivo de clave e impleméntelo.  
+    -   Abra la solución, haga clic en el proyecto en el Explorador de soluciones y haga clic en **propiedades** para ver las propiedades del proyecto. En la ficha firma, haga clic en  **\<nuevo... \>**  en el **elegir un archivo de clave de nombre seguro** cuadro de lista desplegable. A continuación, proporcione un nombre de archivo de clave e impleméntelo.  
   
     -   Como método alternativo, ejecute el archivo setup.bat que crea el archivo de clave, genera el proyecto y lo implementa.  
   

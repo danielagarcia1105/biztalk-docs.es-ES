@@ -15,16 +15,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d3f7bbe9440c737b803eb1e6ae04e96449bf4f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5ec99a2e9f20b09c4daddad0336037c7f539782a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="installation-error-message"></a>Mensaje de error de instalación
 Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service, definir una ubicación de recepción o de envío puede dar lugar al siguiente error:  
   
- El motor de mensajería no se pudo agregar una dirección URL de recepción "\< dirección URL de ubicación de envío/recepción >" para el adaptador "TIBCO EMS". Motivo: "ensamblado de nombre de archivo o TIBCO. EMS o uno de sus dependencias no se encontró."  
+ El motor de mensajería no se pudo agregar una dirección URL de recepción "\< dirección URL de ubicación de envío/recepción\>" para el adaptador "TIBCO EMS". Motivo: "ensamblado de nombre de archivo o TIBCO. EMS o uno de sus dependencias no se encontró."  
   
 ## <a name="possible-causes"></a>Posibles causas  
  Este error se suele producir por una de las siguientes causas.  
@@ -53,7 +53,7 @@ Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Se
   
      El archivo se encuentra en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] directorio (la ubicación de instalación predeterminada es: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]).  
   
-2.  Agregue la siguiente entrada al archivo BTSNTSVC.exe.config, como un elemento secundario de la \<assemblyBinding > elemento:  
+2.  Agregue la siguiente entrada al archivo BTSNTSVC.exe.config, como un elemento secundario de la \<assemblyBinding\> elemento:  
   
 ```  
 <dependentAssembly>  
@@ -64,7 +64,7 @@ Tras instalar el adaptador de Microsoft BizTalk para TIBCO Enterprise Message Se
 </dependentAssembly>  
 ```  
   
- Si no se ha modificado previamente el archivo BTSNTSVC.exe.config, el \<assemblyBinding > elemento no sería similar al siguiente:  
+ Si no se ha modificado previamente el archivo BTSNTSVC.exe.config, el \<assemblyBinding\> elemento no sería similar al siguiente:  
   
 ```  
 <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  

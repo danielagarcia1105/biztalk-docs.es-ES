@@ -12,14 +12,14 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0e76fee8ce74f11ec0f1a14334447114f3c4ed0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 937fcb3618bf3bde4883242d48da2a841f00dea5
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-2010-hyper-v-guide"></a>Guía de Hyper-V de BizTalk Server 2010
-El propósito de esta guía es proporcionar una guía práctica para usar Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] con Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. El énfasis se encuentra en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pero los métodos de evaluación de rendimiento y escenarios de pruebas de rendimiento son útiles para analizar el rendimiento de aplicaciones de servidor virtualizado en general. Esta guía será de interés para las Comunidades de profesionales de TI y desarrolladores.  
+El propósito de esta guía es proporcionar una guía práctica para usar Microsoft BizTalk Server con Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. El énfasis se encuentra en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], pero los métodos de evaluación de rendimiento y escenarios de pruebas de rendimiento son útiles para analizar el rendimiento de aplicaciones de servidor virtualizado en general. Esta guía será de interés para las Comunidades de profesionales de TI y desarrolladores.  
   
  Para descargar una copia de esta guía, vaya a [http://go.microsoft.com/fwlink/?LinkId=149267](http://go.microsoft.com/fwlink/?LinkId=149267).  
   
@@ -66,7 +66,7 @@ El propósito de esta guía es proporcionar una guía práctica para usar Micros
 -   Desarrolladores interesados en la optimización del rendimiento e identificar los cuellos de botella de rendimiento  
   
 ### <a name="goals-of-this-guide"></a>Objetivo de esta guía  
- El objetivo principal de esta guía es proporcionar instrucciones sobre cómo determinar si [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ejecutan en Hyper-V es probable que cumpla las expectativas de rendimiento. Esta guía también será de valor como una ayuda para la optimización de un implementado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación.  
+ El objetivo principal de esta guía es proporcionar instrucciones sobre cómo determinar si BizTalk Server que se ejecutan en Hyper-V es probable que cumpla las expectativas de rendimiento. Esta guía también será de valor como una ayuda para la optimización de un implementado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación.  
   
  Este proyecto se realiza con los siguientes objetivos:  
   

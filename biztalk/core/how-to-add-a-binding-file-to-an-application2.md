@@ -16,11 +16,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b4e569352c5813272b483cc69b8c93a7f1b84d40
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a1c7f0a73f811a6b339428e62a93916d9301edf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-add-a-binding-file-to-an-application"></a>Cómo agregar un archivo de enlace a una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un archivo de enlace a una aplicación de BizTalk. Puede hacerlo para facilitar la implementación de aplicación o ensamblado, tal como se describe en [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  
@@ -56,7 +56,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda Administración de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y el grupo de BizTalk que contiene la aplicación a la que desea agregar un archivo de enlace.  
+2.  En el árbol de consola, expanda Administración de BizTalk Server y el grupo de BizTalk que contiene la aplicación a la que desea agregar un archivo de enlace.  
   
 3.  Expanda Aplicaciones y haga clic con el botón secundario en la aplicación a la que desee agregar el archivo de enlace.  
   
@@ -93,11 +93,11 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
     |**/ Tipo**|**BizTalk: biztalkbinding** (este valor no distingue entre mayúsculas y minúsculas).|  
     |**/ Sobrescribir**|Opción para actualizar un archivo de enlace existente. Si no especificado y enlace el archivo ya existe en la aplicación que tiene el mismo nombre de archivo que el archivo que se agrega, se produce un error en la operación AddResource.|  
     |**Código fuente**|Ruta completa del archivo de enlace, incluido el nombre de archivo. Si la ruta incluye espacios, la debe encerrar entre comillas dobles (").|  
-    |**/Property:TargetEnvironment =**|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de \<predeterminado > se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
+    |**/Property:TargetEnvironment =**|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de \<predeterminado\> se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
     |**/ Servidor**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
     |**/ Base de datos**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar ensamblados. NET, certificados y otros recursos](../core/managing-net-assemblies-certificates-and-other-resources.md)   
  [El comando AddResource: Enlace de BizTalk](../core/addresource-command-biztalk-binding.md)   
- [Creación y modificación de las aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)
+ [Creación y modificación de aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)

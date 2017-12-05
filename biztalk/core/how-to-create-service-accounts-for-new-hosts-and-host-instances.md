@@ -22,11 +22,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3626f4349fa1e2cc9f739cf0375ab73e3adc7ae0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5d4887d78466340b12b95ed43d27523955ab0689
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-service-accounts-for-new-hosts-and-host-instances"></a>Cómo crear cuentas de servicio para nuevos hosts y nuevas instancias de host
 El administrador de configuración configura los grupos de Windows y las cuentas de usuario necesarios al instalar y configurar BizTalk Server en un único equipo.  
@@ -49,13 +49,13 @@ El administrador de configuración configura los grupos de Windows y las cuentas
 4.  Utilice el grupo de Windows y la cuenta de servicio al crear el host y la instancia de host.  
   
     > [!NOTE]
-    >  No se especifica \< *nombre_equipo*> \ como el prefijo en el programa de instalación de un único equipo con los grupos locales.  
+    >  No se especifica \< *nombre_equipo*\>\ como el prefijo en el programa de instalación de un único equipo con los grupos locales.  
   
     > [!NOTE]
-    >  Si se utiliza un grupo de dominio, debe especificar \< *nombre NetBIOS del dominio*> \ como el prefijo para el nombre de grupo de Windows de host. Por ejemplo, CONTOSO\btssvc.  
+    >  Si se utiliza un grupo de dominio, debe especificar \< *nombre NetBIOS del dominio*\>\ como el prefijo para el nombre de grupo de Windows de host. Por ejemplo, CONTOSO\btssvc.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de Hosts y las cuentas de servicio](../core/managing-hosts-and-service-accounts.md)   
  [Administrar la seguridad de servidor BizTalk Server](../core/managing-biztalk-server-security.md)   
  [Cómo administrar el grupo de administradores de BizTalk Server](../core/how-to-manage-the-biztalk-server-administrators-group.md)   
- [Prácticas recomendadas para administrar las cuentas de usuario y grupos de Windows](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)
+ [Procedimientos recomendados para administrar grupos y cuentas de usuario de Windows](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)

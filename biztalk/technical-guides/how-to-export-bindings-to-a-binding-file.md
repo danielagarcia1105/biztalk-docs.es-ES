@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 052f30e7e1fa2461d1332702dbd61b6aa76451b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6d1d39bfa1bfd4cc837a77586d6c462c6b7d7f06
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-export-bindings-to-a-binding-file"></a>Cómo exportar enlaces a un archivo de enlace
 Puede exportar los enlaces de una aplicación de BizTalk en otra aplicación de BizTalk existente utilizando un archivo de enlace. También puede exportar todos los enlaces en un grupo o el enlace de un ensamblado. Posteriormente, puede importar estos enlaces en una aplicación o un grupo.  
@@ -51,7 +51,7 @@ Puede exportar los enlaces de una aplicación de BizTalk en otra aplicación de 
 -   Después de generar los archivos de enlace, puede editarlos para cambiar su información de enlace.  
   
 ## <a name="how-to-export-to-a-binding-file"></a>Cómo exportar a un archivo de enlace  
- Exportar los enlaces de una aplicación en un archivo de enlace con el comando Exportar enlaces para la aplicación en el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] consola de administración, o mediante el comando BTSTask ExportBindings en la línea de comandos.  
+ Exportar los enlaces de una aplicación en un archivo de enlace mediante la ejecución del comando Exportar enlaces de la aplicación en la consola de administración de BizTalk Server, o mediante el comando BTSTask ExportBindings en la línea de comandos.  
   
  Por motivos de seguridad, cuando exporte un archivo de enlace, BizTalk Server quita las contraseñas de los enlaces del archivo. Después de importar los enlaces, deberá volver a configurar las contraseñas para que funcionen los puertos de envío y las ubicaciones de recepción. Configure las contraseñas en el cuadro de diálogo Propiedades de transporte de la consola de administración de BizTalk Server para el puerto de envío o la ubicación de recepción.  
   

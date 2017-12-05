@@ -19,11 +19,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c6a70e6bc4062a6c2865c9adb8f76d68a078e965
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cebc9e3fb8382fecf7791d14d52a21ac96f77cde
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-idocs-in-sap"></a>Operaciones en IDOC en SAP
 IDOC está estandarizados documentos EDI similar que es compatible con SAP para comunicarse de forma asincrónica con SAP y los sistemas SAP no. IDOC se usa para enviar y recibir documentos de "business", como pedidos de ventas, por ejemplo, a o desde el sistema SAP de un socio comercial o un programa externo.  
@@ -109,7 +109,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
     > [!NOTE]
     >  Mediante el **recepción** operación, también puede recibir varios IDOC.  
   
--   **ReceiveIdoc**. Use esta operación para recibir un IDOC desde el sistema SAP mediante un esquema débilmente tipada. El esquema para esta operación expone IDOC como un único campo de cadena formada por el registro de control y el registro de datos. Esta operación recibe IDOC como una cadena en un mensaje XML en el \<idocData > etiqueta.  
+-   **ReceiveIdoc**. Use esta operación para recibir un IDOC desde el sistema SAP mediante un esquema débilmente tipada. El esquema para esta operación expone IDOC como un único campo de cadena formada por el registro de control y el registro de datos. Esta operación recibe IDOC como una cadena en un mensaje XML en el \<idocData\> etiqueta.  
   
      Esto es una sola operación exhibe para todos los IDOC expuesto por el sistema SAP y está disponible bajo la raíz de **IDOC** nodo en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] o [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].  
   
@@ -117,7 +117,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
   
 -   Si se establece en "Tipadas", el esquema XML está fuertemente tipado en el IDOC específicos que se reciben. (El esquema para este mensaje se puede ver en las operaciones de recepción. Tenga en cuenta que el esquema es diferente para los IDOC diferente). Esto da como resultado un IDOC XML.  
   
--   Si se establece en "String", los datos IDOC entrantes se devuelven como un valor de cadena. (El esquema para este mensaje se puede ver en la operación de ReceiveIdoc). Esto da como resultado un mensaje XML con el \<idocData > etiqueta.  
+-   Si se establece en "String", los datos IDOC entrantes se devuelven como un valor de cadena. (El esquema para este mensaje se puede ver en la operación de ReceiveIdoc). Esto da como resultado un mensaje XML con el \<idocData\> etiqueta.  
   
 -   Si establece en "Rfc", el esquema del mensaje coincide con el esquema RFC (o tRFC) para las operaciones de RFC IDOC_INBOUND_ASYNCHRONOUS o INBOUND_IDOC_PROCESS, dependiendo de la versión IDOC entrante. Si se especifica esta propiedad de enlace que se debe utilizar el IDOC_INBOUND_ASYNCHRONOUS o INBOUND_IDOC_PROCESS RFC para recibir el IDOC. En las dos primeras opciones, el adaptador utiliza internamente esta RFC. En esta opción, se utiliza explícitamente esta RFC para recibir un IDOC.  
   

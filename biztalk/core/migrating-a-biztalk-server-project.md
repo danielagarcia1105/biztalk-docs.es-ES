@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5ba2da42c6cbfad2b0c053aba296d34e38211fb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2752203b0498a6cd5a4a8b6df6bc558c444e355
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="migrating-a-biztalk-server-project"></a>Migración de un proyecto de BizTalk Server
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]los proyectos desarrollan para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden migrar a los entornos más recientes mediante el uso de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversión. Para obtener una lista de las versiones de migración compatibles, consulte [admiten rutas de acceso de actualización y guías de instalación](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).  
@@ -48,7 +48,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="project-conversion-requires-the-project-and-solution-file"></a>La conversión del proyecto requiere el proyecto y el archivo de solución  
  Si trata de convertir un proyecto de [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] y no tiene el archivo de solución, recibirá el siguiente error:  
   
- **Error al convertir el archivo de proyecto. Elemento secundario \<BIZTALK > del elemento \<VisualStudioProject > no es válido.**  
+ **Error al convertir el archivo de proyecto. Elemento secundario \<BIZTALK\> del elemento \<VisualStudioProject\> no es válido.**  
   
  La conversión del proyecto requiere el archivo de solución (.sln) del proyecto [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Si no se encuentra disponible el archivo de solución, deberá crear uno con [!INCLUDE[btsVStudioNet2005](../includes/btsvstudionet2005-md.md)] y agregar el proyecto [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] a la solución. A continuación, ejecute el asistente para conversión de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   

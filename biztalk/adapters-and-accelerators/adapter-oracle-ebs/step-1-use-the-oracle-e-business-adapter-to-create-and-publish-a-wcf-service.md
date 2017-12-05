@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c03f11ad2849b3d46e9e489a1657aa043fb0e61
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ac179adbc2e49b767ecae2a68676c5692dcd385
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service"></a>Paso 1: Usar el adaptador de Oracle E-Business para crear y publicar un servicio WCF
 ![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]desde el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
- Para obtener más información sobre estos requisitos previos, consulte la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación. La Guía de instalación se instala normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ Para obtener más información sobre estos requisitos previos, consulte la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación. La Guía de instalación se instala normalmente en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 > [!NOTE]
 >  También debe ejecutar la secuencia de comandos create_apps_artifacts.sql suministrado con el ejemplo de Microsoft Office SharePoint Server para crear la **MS_SAMPLE_EMPLOYEE** tabla de interfaz en el **biblioteca de objetos de aplicación**aplicación. Esta tabla de interfaz se utiliza en este tutorial.  
@@ -186,7 +186,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
     ```  
   
     > [!NOTE]
-    >  Debe publicar el servicio WCF a una ubicación compatible con SSL. En otras palabras, el valor de la **ubicación de destino** cuadro debe comenzar por "https://". Dado que las credenciales de usuario se pasan en el encabezado HTTP, el Asistente para configura automáticamente un comportamiento de enlaces del adaptador para usar "Transporte" como el modo de seguridad, lo que implica el cifrado SSL. Por supuesto puede volver atrás y editar el archivo web.config para cambiar el valor de la  **\<modo de seguridad >** parámetro, pero el uso de SSL siempre es una mejor opción cuando tenga información confidencial que se transmiten en texto no cifrado en el Encabezado HTTP.  
+    >  Debe publicar el servicio WCF a una ubicación compatible con SSL. En otras palabras, el valor de la **ubicación de destino** cuadro debe comenzar por "https://". Dado que las credenciales de usuario se pasan en el encabezado HTTP, el Asistente para configura automáticamente un comportamiento de enlaces del adaptador para usar "Transporte" como el modo de seguridad, lo que implica el cifrado SSL. Por supuesto puede volver atrás y editar el archivo web.config para cambiar el valor de la  **\<modo de seguridad\>**  parámetro, pero el uso de SSL siempre es una mejor opción cuando tenga información confidencial que se transportan como texto sin cifrar texto en el encabezado HTTP.  
   
 3.  Desde el **copia** cuadro, haga clic en **todos los archivos del proyecto**.  
   
@@ -196,7 +196,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
   
     1.  Inicie la consola de administración de Microsoft IIS. Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.  
   
-    2.  Desplácese hasta el nodo donde se publica el servicio. Para el **MS_SAMPLE_EMPLOYEE** de servicio, vaya a **Internet Information Services** > **\<nombre_equipo >**  >  **Sitios Web** > **sitio Web predeterminado** > **MS_SAMPLE_EMPLOYEE**.  
+    2.  Desplácese hasta el nodo donde se publica el servicio. Para el **MS_SAMPLE_EMPLOYEE** de servicio, vaya a **Internet Information Services** > **\<nombre_equipo\>**   >  **Sitios Web** > **sitio Web predeterminado** > **MS_SAMPLE_EMPLOYEE**.  
   
     3.  En el panel derecho, haga clic en el archivo InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.svc y, a continuación, haga clic en **examinar**.  
   

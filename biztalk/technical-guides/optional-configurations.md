@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5e938112b5c49b789b76889a45172d5fc0579a1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7b19646c9c83eff4a3171b4d25763a6b581d45b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="optional-configurations"></a>Configuraciones opcionales
 Después de importar el módulo de administración de BizTalk Server, el panel de navegación del panel supervisión muestra los tipos de objeto que se detectan automáticamente. Para obtener una lista de tipos de objetos, consulte [objetos detecta el módulo de administración](../technical-guides/objects-the-management-pack-discovers.md) sección. Puede modificar la configuración predeterminada de detección de objetos detectados por el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración. Utilice la característica de invalidaciones de Operations Manager 2007 R2/2012 para cambiar la configuración.  
@@ -31,7 +31,7 @@ Después de importar el módulo de administración de BizTalk Server, el panel d
   
 3.  En el panel de detalles, haga clic en el tipo de objeto que desea cambiar la configuración de.  
   
-4.  En la barra de herramientas de Operations Manager, haga clic en **invalida**, haga clic en **invalidar la detección de objetos**y, a continuación, haga clic en **para todos los objetos de tipo:** \<  *nombre de tipo de objeto de*>, **para un grupo, para un objeto de tipo específico:** \< *nombre de tipo de objeto de*>, o **para todos los objetos de otro tipo** .  
+4.  En la barra de herramientas de Operations Manager, haga clic en **invalida**, haga clic en **invalidar la detección de objetos**y, a continuación, haga clic en **para todos los objetos de tipo:** \<  *nombre de tipo de objeto de*\>, **para un grupo, para un objeto de tipo específico:** \< *nombre de tipo de objeto de*\>, o  **Para todos los objetos de otro tipo**.  
   
 5.  En el **propiedades de invalidación** cuadro de diálogo, haga clic en el **invalidar** cuadro para la **habilitado** parámetro que desee cambiar.  
   

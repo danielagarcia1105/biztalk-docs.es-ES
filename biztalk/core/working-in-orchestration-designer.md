@@ -22,11 +22,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 512dc85fb1599bdaa77fe2550390ec2ce6954643
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 52eb574f9f6b55b784357ff03c05ccb23774fecb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-in-orchestration-designer"></a>Trabajar en el Diseñador de orquestaciones
 Después de iniciar un proyecto de BizTalk, puede crear nuevas orquestaciones y agregar otras existentes al proyecto. En los procedimientos siguientes se explica cómo crear y guardar una orquestación, agregar una orquestación existente a un proyecto o quitarla de él, cambiar el nombre de una orquestación y establecer las propiedades de orquestación.  
@@ -63,7 +63,7 @@ Después de iniciar un proyecto de BizTalk, puede crear nuevas orquestaciones y 
   
 ### <a name="to-save-an-orchestration"></a>Para guardar una orquestación  
   
--   En el **archivo** menú, haga clic en **guardar \<nombre de orquestación >**.  
+-   En el **archivo** menú, haga clic en **guardar \<nombre de la orquestación\>**.  
   
     > [!NOTE]
     >  Archivos de orquestación se guardan como UTF-8.  Esquemas, asignaciones y canalizaciones se guardan como UTF-16.  

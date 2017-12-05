@@ -20,11 +20,11 @@ caps.latest.revision: "54"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ea377f83f6e9c104d1bbd0b2e59923fb11f8fe65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 611544e77de738c904fa673b56dbec75fd17d4bd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-destination-system-for-log-shipping"></a>Cómo configurar el sistema de destino para el envío de registros
 El trasvase de registros proporciona funciones de servidor en espera para reducir el tiempo de inactividad en caso de error del sistema. El envío de registros permite enviar automáticamente registros de transacciones desde el sistema de origen al de destino. En el sistema de destino, se restauran los registros de transacciones en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos; mantienen estrechamente sincronizados con las bases de datos de origen.  
@@ -83,9 +83,9 @@ El trasvase de registros proporciona funciones de servidor en espera para reduci
   
     1.  En el sistema de destino, habilite  **[Ad Hoc Distributed Queries](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)**.  
   
-    2.  En la ventana de consulta, reemplace  *\<MyLogShippingSolution >* con una descripción significativa entre comillas simples.  
+    2.  En la ventana de consulta, reemplace  *\<MyLogShippingSolution\>*  con una descripción significativa entre comillas simples.  
   
-    3.  En la ventana de consulta, reemplace  *\<BizTalkServerManagementDatabaseName >* y  *\<BizTalkServerManagementDatabaseServer >* con el nombre y la ubicación de su datos de administración de BizTalk de origen, entrecomillado comillas simples.  
+    3.  En la ventana de consulta, reemplace  *\<BizTalkServerManagementDatabaseName\>*  y  *\<BizTalkServerManagementDatabaseServer\>*  con el nombre y la ubicación de la base de datos de administración de BizTalk de origen, entrecomillado comillas simples.  
   
     > [!NOTE]
     >  Si tiene más de un servidor de origen, puede restaurar cada uno de ellos en su propio servidor de destino. En cada servidor de destino, en la  **@SourceServerName = null** parámetro, reemplace *null* con el nombre del servidor de origen que corresponda, flanqueado por comillas simples (por ejemplo,  **@SourceServerName = 'Miservidordeorigen',**).  
@@ -119,9 +119,9 @@ El trasvase de registros proporciona funciones de servidor en espera para reduci
   
 10. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], vaya a la siguiente carpeta:  
   
-     equipo de 32 bits: %SystemDrive%\Program Files\Microsoft BizTalk Server \<versión > \Schema\Restore  
+     equipo de 32 bits: %SystemDrive%\Program Files\Microsoft BizTalk Server \<versión\>\Schema\Restore  
   
-     equipo de 64 bits: %SystemDrive%\Program Files (x86) \Microsoft BizTalk Server \<versión > \Bins32\Schema\Restore  
+     equipo de 64 bits: %SystemDrive%\Program Files (x86) \Microsoft BizTalk Server \<versión\>\Bins32\Schema\Restore  
   
 11. Haga clic en **SampleUpdateInfo.xml**y seleccione **editar**. Realice lo siguiente:  
   
@@ -146,7 +146,7 @@ El trasvase de registros proporciona funciones de servidor en espera para reduci
   
 13. Si usa BAM o el motor de reglas, quite los comentarios de estas líneas según corresponda.  
   
-14. Si dispone de las bases de datos personalizadas, agregarlos en el  **\<OtherDatabases >** sección. Vea [cómo hacer copia de seguridad de bases de datos personalizadas](../core/how-to-back-up-custom-databases.md).  
+14. Si dispone de las bases de datos personalizadas, agregarlos en el  **\<OtherDatabases\>**  sección. Vea [cómo hacer copia de seguridad de bases de datos personalizadas](../core/how-to-back-up-custom-databases.md).  
   
 15. Cuando termine de editar el archivo, guárdelo y salga.  
   

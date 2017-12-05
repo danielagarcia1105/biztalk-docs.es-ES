@@ -12,11 +12,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 090c53b91ad30f522bc5522fbeb457d7de868456
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d718450dfd4db1fd6d695c1a3ecc21f9f1fd8deb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-with-the-wcf-lob-adapter-sdk"></a>Problemas conocidos relacionados con el SDK de adaptador LOB de WCF
 En este tema se describe problemas conocidos asociados a la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. También proporciona soluciones para algunos de estos problemas.  
@@ -80,7 +80,7 @@ echoAdapterProxy.Open();
  **Resolución**: seleccione las operaciones individuales en lugar de seleccionar la categoría por completo.  
   
 ### <a name="error-with-add-adapter-service-reference-visual-studio-plug-in"></a>Error con agregar adaptador servicio referencia complemento de Visual Studio  
- **Problema**: en BizTalk un proyecto en Visual Studio, si un servidor proxy ya se ha generado mediante el uso de la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], generar otro proxy desde el mismo adaptador generará este error: "el espacio de nombres '\<espacio de nombres global >' ya contiene una definición para '{nombre del contrato}' al compilar el proyecto. "  
+ **Problema**: en BizTalk un proyecto en Visual Studio, si un servidor proxy ya se ha generado mediante el uso de la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], generar otro proxy desde el mismo adaptador generará este error: "el espacio de nombres '\<delespaciodenombresglobal\>' ya contiene una definición para '{nombre del contrato}' al compilar el proyecto. "  
   
  Esta versión no permite la edición del proxy.  
   
@@ -92,7 +92,7 @@ echoAdapterProxy.Open();
  **Resolución**: quitar los archivos de esquema XML extraños en el proyecto de BizTalk, use la referencia de servicio de adaptador para buscar o examinar los metadatos necesarios y volver a generar los nuevos archivos de esquema XML.  
   
 ### <a name="error-with-rootnode-typename-in-biztalk-projects"></a>Error con RootNode TypeName en proyectos de BizTalk  
- **Problema**: en BizTalk un proyecto en Visual Studio, si los esquemas generan a partir del [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] contienen caracteres no válidos o palabras reservadas para el **RootNode TypeName** propiedad, se producirá el error siguiente en tiempo de compilación: "nodo \<referencia de nodo >-especifique un nombre de tipo .NET válido para este nodo raíz.  El nombre de tipo .NET actual de este nodo raíz no es válido (es una palabra reservada de BizTalk o un identificador no válido de C#).  
+ **Problema**: en BizTalk un proyecto en Visual Studio, si los esquemas generan a partir del [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] contienen caracteres no válidos o palabras reservadas para el **RootNode TypeName** propiedad, se producirá el error siguiente en tiempo de compilación: "nodo \<referencia de nodo\> -especifique un nombre de tipo .NET válido para este nodo raíz.  El nombre de tipo .NET actual de este nodo raíz no es válido (es una palabra reservada de BizTalk o un identificador no válido de C#).  
   
  **Resolución**: seleccione el nodo raíz al que hace referencia en el error y, en Propiedades, quite los caracteres no válidos o palabras reservadas de la **RootNode TypeName** propiedad.  
   

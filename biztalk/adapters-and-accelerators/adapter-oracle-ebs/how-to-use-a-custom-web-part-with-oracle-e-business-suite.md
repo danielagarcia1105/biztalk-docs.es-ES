@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4f3b2888b21c2c59b01ddaf920d55ccadb79e326
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: e403121b02ecbfee4880328747aaba3fc175a322
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-a-custom-web-part-with-oracle-e-business-suite"></a>Cómo usar un elemento web personalizado con Oracle E-Business Suite
 Esta sección proporciona información sobre el uso de un elemento Web personalizado con Microsoft Office SharePoint Server. Para usar un elemento Web personalizado, debe hacer lo siguiente:  
@@ -46,19 +46,19 @@ Esta sección proporciona información sobre el uso de un elemento Web personali
   
 5.  Agregue el código necesario en función de su problema en el proyecto. Para el ejemplo de código que es relevante para un determinado problema, vea "Problemas que implican elementos Web personalizados" en [consideraciones al utilizar el adaptador de Oracle-Business Suite con SharePoint](../../adapters-and-accelerators/adapter-oracle-ebs/considerations-using-the-oracle-business-suite-adapter-with-sharepoint.md).  
   
-6.  Generar el proyecto. En la compilación correcta del proyecto, se generará un archivo .dll, CustomWebPart.dll, en la \<carpeta del proyecto > carpeta / bin/Debug.  
+6.  Generar el proyecto. En la compilación correcta del proyecto, se generará un archivo .dll, CustomWebPart.dll, en la \<carpeta de proyecto \> /bin/Debug carpeta.  
   
 7.  **Sólo para el equipo de 64 bits**: firmar el archivo CustomWebPart.dll con un nombre seguro antes de realizar los pasos siguientes. En caso contrario, no podrá importar y, por lo tanto, use la CustomWebPart.dll en el portal de SharePoint en "paso 3: configurar el SharePoint Portal para usar el elemento Web personalizado." Para obtener información sobre cómo firmar un ensamblado con un nombre seguro, vea [Cómo: firmar un ensamblado con un nombre seguro](https://msdn.microsoft.com/library/xc31ft41.aspx).
   
 ## <a name="step-2-deploy-the-custom-web-part-to-a-sharepoint-portal"></a>Paso 2: Implementar el elemento Web personalizado a un SharePoint Portal  
  Debe hacer lo siguiente para que el archivo CustomWebPart.dll (elemento Web personalizado) que se crea en "paso 1: crear un elemento Web personalizado" de este tema se puede usar en el portal de SharePoint:  
   
--   **Copie el archivo CustomWebPart.dll en la carpeta bin de SharePoint Portal**: Microsoft Office SharePoint Server crea portales en el \<raíz de unidad >: \Inetpub\wwwroot\wss\VirtualDirectories carpeta. Una carpeta se crea para cada portal y puede ser identificada con el número de puerto. Debe copiar el archivo CustomWebPart.dll creado en "paso 1: crear un elemento Web personalizado" de este tema para el \<raíz de unidad >: \Inetpub\wwwroot\wss\VirtualDirectories\\carpeta de < númeroDePuerto > \bin. Por ejemplo, si el número de puerto de su portal de SharePoint es 13614, debe copiar el archivo de CustomWebPart.dll en el \<raíz de unidad >: \Inetpub\wwwroot\wss\VirtualDirectories\13614\bin carpeta.  
+-   **Copie el archivo CustomWebPart.dll en la carpeta bin de SharePoint Portal**: Microsoft Office SharePoint Server crea portales en el \<root unidad\>: \Inetpub\wwwroot\wss\VirtualDirectories carpeta. Una carpeta se crea para cada portal y puede ser identificada con el número de puerto. Debe copiar el archivo CustomWebPart.dll creado en "paso 1: crear un elemento Web personalizado" de este tema para el \<root unidad\>: \Inetpub\wwwroot\wss\VirtualDirectories\\< númeroDePuerto\>carpeta \bin. Por ejemplo, si el número de puerto de su portal de SharePoint es 13614, debe copiar el archivo CustomWebPart.dll a la \<root unidad\>: \Inetpub\wwwroot\wss\VirtualDirectories\13614\bin carpeta.  
   
     > [!TIP]
     >  Es otra manera de encontrar la ubicación de carpeta de su portal de SharePoint mediante el **Internet Information Services (IIS) Manager** ventana (**iniciar** > **ejecutar**  >  **inetmgr**). Busque su portal de SharePoint en el **Internet Information Services (IIS) Manager** ventana ([NombreDeEquipo] > sitios Web > [nombre del Portal]), menú contextual y, a continuación, haga clic en **propiedades** en el menú contextual. En el cuadro de diálogo Propiedades del portal de SharePoint, haga clic en el **directorio particular** pestaña y, a continuación, seleccione la **ruta de acceso Local** cuadro.  
   
--   **Agregue la entrada de Control seguro en el archivo web.config**: porque se usará el archivo CustomWebPart.dll en equipos diferentes y varios usuarios, debe declarar el archivo como "safe". Para ello, abra el archivo web.config ubicado en la carpeta de portal de SharePoint en \<raíz de unidad >: \Inetpub\wwwroot\wss\VirtualDirectories\\< númeroDePuerto >. En la `<SafeControls>` sección del archivo web.config, agregue la siguiente entrada de control seguro:  
+-   **Agregue la entrada de Control seguro en el archivo web.config**: porque se usará el archivo CustomWebPart.dll en equipos diferentes y varios usuarios, debe declarar el archivo como "safe". Para ello, abra el archivo web.config ubicado en la carpeta de portal de SharePoint en \<root unidad\>: \Inetpub\wwwroot\wss\VirtualDirectories\\< númeroDePuerto\>. En la `<SafeControls>` sección del archivo web.config, agregue la siguiente entrada de control seguro:  
   
     -   **En el equipo de 32 bits:**  
   

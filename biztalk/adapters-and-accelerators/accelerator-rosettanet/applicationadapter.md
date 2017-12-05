@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc2808f8cdc2d24a2f7c13864a153361984d0981
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee9d04f98da5e9b8aa1faba81f32fe5ec37d23b9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="applicationadapter"></a>ApplicationAdapter
 El ejemplo ApplicationAdapter muestra cómo enviar notificaciones desde los procesos públicos y privados (servicio de respuesta o iniciador) cuando se recibe un mensaje. Puede personalizar el ejemplo con cualquier funcionalidad adicional que desee.  
@@ -27,7 +27,7 @@ El ejemplo ApplicationAdapter muestra cómo enviar notificaciones desde los proc
   
  Si cambia el ejemplo ApplicationAdapter o cualquier variable de entorno externo que depende el ejemplo ApplicationAdapter, reinicie el servicio de host de BizTalk que hospeda el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] proceso público.  
   
- Se encuentra en el código de ejemplo de ApplicationAdapter \< *unidad*>: \Program Files\ BizTalk \<versión > Accelerator for RosettaNet\SDK\ApplicationAdapter\\.  
+ Se encuentra en el código de ejemplo de ApplicationAdapter \< *unidad*\>: \Program Files\ BizTalk \<versión\> Accelerator for RosettaNet\SDK\ApplicationAdapter\\.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  El ejemplo ApplicationAdapter muestra cómo se notifica a los procesos privados de servicio de respuesta que el proceso público ha recibido un mensaje. La notificación indica la categoría del mensaje, el nombre de la entidad de origen, el nombre de la entidad de destino, el código PIP, la versión PIP y el identificador de instancia PIP. Puede enviar esta notificación para una acción o un mensaje de respuesta.  
@@ -57,7 +57,7 @@ El ejemplo ApplicationAdapter muestra cómo enviar notificaciones desde los proc
   
 #### <a name="to-add-the-application-adapter-to-an-agreement"></a>Para agregar el adaptador de la aplicación a un acuerdo  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] **BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Consola de administración**.  
+1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] **BizTalk \<versión\> Acelerador para RosettaNet**y, a continuación, Haga clic en [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **consola de administración**.  
   
 2.  En el [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]y haga clic en **contratos**.  
   

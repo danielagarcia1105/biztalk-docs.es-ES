@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80d556994196af2412dc2719a2d576535b4ea113
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6988155f70bf197f9c468b3ee7eb48c8f2f5f53d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="swift-receive-adapter-uri"></a>URI del adaptador de recepción de SWIFT
-El URI para el adaptador de recepción se crea basándose en la información de punto de conexión de esmoquin (SWIFT: / /\<SwTuxSrv >) para el vínculo de SWIFTNet (SNL) y el asociado de mensaje (SWIFT: / /\<SagMessagePartner >) información para el Puerta de enlace de SWIFTAlliance recibir la implementación del adaptador (SAG-RA).  
+El URI para el adaptador de recepción se crea basándose en la información de punto de conexión de esmoquin (SWIFT: / /\<SwTuxSrv\>) para el vínculo de SWIFTNet (SNL) y el asociado de mensaje (SWIFT: / /\<SagMessagePartner\>) información de la puerta de enlace de SWIFTAlliance recibir la implementación de adaptador (SAG-RA).  
   
  Esto se representa como el **nombre de la aplicación** propiedad en la página de propiedades del adaptador de recepción.  
   
@@ -28,4 +28,4 @@ El URI para el adaptador de recepción se crea basándose en la información de 
  [La inicialización del adaptador de recepción de SWIFT](../../adapters-and-accelerators/fileact-interact/swift-receive-adapter-initialization.md)   
  [Contexto de seguridad del adaptador de recepción de SWIFT](../../adapters-and-accelerators/fileact-interact/swift-receive-adapter-security-context.md)   
  [Modos sincrónico y diferido del adaptador de recepción de SWIFT](../../adapters-and-accelerators/fileact-interact/swift-receive-adapter-synchronous-and-deferred-modes.md)   
- [Adaptador de almacenamiento y reenvío de recepción de SWIFT](../../adapters-and-accelerators/fileact-interact/swift-receive-adapter-store-and-forward.md)
+ [Almacenamiento y reenvío del adaptador de recepción de SWIFT](../../adapters-and-accelerators/fileact-interact/swift-receive-adapter-store-and-forward.md)

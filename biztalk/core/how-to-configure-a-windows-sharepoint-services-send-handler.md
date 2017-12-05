@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 654fb0eb246cdc8507d1830afce29ebd71fe6a4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8e110fb2a671fc839fb96cfdc2ad03169649e6e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-windows-sharepoint-services-send-handler"></a>Cómo configurar un controlador de envío de Windows SharePoint Services
 Siga el procedimiento siguiente para modificar el host al que está asociado el controlador de recepción de Windows SharePoint Services.  
@@ -30,7 +30,7 @@ Siga el procedimiento siguiente para modificar el host al que está asociado el 
   
 ### <a name="to-change-global-variables-for-a-windows-sharepoint-services-send-handler"></a>Para cambiar variables globales para un controlador de envío de Windows SharePoint Services.  
   
-1.  En la consola de administración de BizTalk Server, haga clic para expandir [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**y, a continuación, haga clic para expandir **grupo de BizTalk [\<nombreDeServidor >:\<base de datos de administración > ]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **adaptadores**. La lista de adaptadores aparece debajo de la carpeta.  
+1.  En la consola de administración de BizTalk Server, haga clic para expandir [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**y, a continuación, haga clic para expandir **grupo de BizTalk [\<servername\>:\< base de datos de administración\>]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **adaptadores**. La lista de adaptadores aparece debajo de la carpeta.  
   
 2.  Haga clic en **Windows SharePoint Services**y en el panel derecho, haga clic en el controlador de envío que desea configurar y, a continuación, haga clic en **propiedades**.  
   
@@ -50,4 +50,4 @@ Siga el procedimiento siguiente para modificar el host al que está asociado el 
  [Cómo crear un puerto de envío](../core/how-to-create-a-send-port2.md)   
  [Referencia de propiedades de adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-properties-reference.md)   
  [Expresiones del adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-expressions.md)   
- [Admite los tipos de columna de Windows SharePoint Services](../core/supported-windows-sharepoint-services-column-types.md)
+ [Tipos de columna admitidos de Windows SharePoint Services](../core/supported-windows-sharepoint-services-column-types.md)

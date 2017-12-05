@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76d6cc5a7c8c651bcd9fcc6198b7069180c511bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 53da14ff55d427e3507273af4c991072cff26bec
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-idoc-operations"></a>Esquemas de mensaje para las operaciones de IDOC
 Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma asincrónica con SAP y los sistemas SAP no normalizados documentos de EDI similar. IDOC se usa para enviar y recibir documentos de negocio como pedidos de venta a o desde el sistema SAP un socio comercial o un programa externo.  
@@ -162,8 +162,8 @@ Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma 
     </EDI_DC40>  
   <IDOC_DATA_REC_40>  
     <EDI_DD40 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-      \<[SEG_HEADER_FIELD1]>value1\</[SEG_HEADER_FIELD1]>  
-      \<[SEG_HEADER_FIELD2]>value2\</[SEG_HEADER_FIELD2]>  
+      <[SEG_HEADER_FIELD1]>value1</[SEG_HEADER_FIELD1]>  
+      <[SEG_HEADER_FIELD2]>value2</[SEG_HEADER_FIELD2]>  
       …  
       <SDATA>segment value</SDATA>  
     </EDI_DD40>  

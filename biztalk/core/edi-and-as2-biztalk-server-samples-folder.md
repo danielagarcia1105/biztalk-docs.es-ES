@@ -12,14 +12,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cd1f124518b501a9c007c1f131ef51351b09e53
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 826f72a48eeb4964a7cddf48308e869be99de481
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-and-as2-biztalk-server-samples-folder"></a>EDI y AS2 (carpeta de ejemplos de BizTalk Server)
-Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] incluye los siguientes ejemplos de EDI y AS2 en su kit de desarrollo de software (SDK). En esta sección se proporciona información detallada acerca de la funcionalidad que muestran los ejemplos de EDI, instrucciones para la generación y ejecución de los ejemplos, así como los resultados que se pueden esperar.  
+Microsoft BizTalk Server incluye los siguientes ejemplos EDI y AS2 en su kit de desarrollo de software (SDK). En esta sección se proporciona información detallada acerca de la funcionalidad que muestran los ejemplos de EDI, instrucciones para la generación y ejecución de los ejemplos, así como los resultados que se pueden esperar.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfbe186aee99616fa35e8f1e98f67c6ac75593c9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1a7ee4f8ffe73a71e8c0b2e3d45c7a966669fd8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-generate-the-master-secret"></a>Cómo generar el secreto principal
 Debe tener derechos de administrador en el servidor secreto principal para realizar esta tarea. Asimismo, debe realizar esta tarea en el servidor secreto principal.  
@@ -44,9 +44,9 @@ Debe tener derechos de administrador en el servidor secreto principal para reali
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de  **ssoconfig – generateSecret \<* archivo de copia de seguridad*>**, donde \<* el archivo de copia de seguridad*> es el nombre del archivo que contiene el secreto principal.  
+3.  Tipo de  **ssoconfig – generateSecret \<* archivo de copia de seguridad*\>**, donde \<* el archivo de copia de seguridad* \> es el nombre del archivo que contiene el secreto principal.  
   
      Se le pedirá que escriba una contraseña para proteger el archivo que acaba de crear.  
   
@@ -56,4 +56,4 @@ Debe tener derechos de administrador en el servidor secreto principal para reali
 ## <a name="see-also"></a>Vea también  
  [Cómo realizar copias de seguridad del secreto principal](../core/how-to-back-up-the-master-secret.md)   
  [Servidor secreto principal](../core/master-secret-server.md)   
- [Administrar el secreto principal](../core/managing-the-master-secret.md)
+ [Administración del secreto maestro](../core/managing-the-master-secret.md)

@@ -19,11 +19,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 30e21f2f102761dbfb332179c2754ea7ddea2d11
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5b87f0d31010a8bf80e09c59f05f2f9302a510e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="related-documents"></a>Documentos relacionados
 El área de documentos relacionados de los detalles de los resultados de consulta muestra una lista de los documentos de referencia que están relacionados con la actividad. Los documentos pueden ser de cualquier tipo, incluso una imagen CAD, un archivo WAV o un pedido de compra. Por ejemplo, una actividad de pedido de compra tendrá, por lo general, un pedido de compra como tipo de documento base. La lista tendrá un vínculo al pedido de compra.  
@@ -35,7 +35,7 @@ El área de documentos relacionados de los detalles de los resultados de consult
   
 -   Su programador de integraciones rellena mediante programación la lista llamando a su aplicación personalizada.  
   
- Definir la referencia de documento mediante cualquiera de estos métodos agrega una fila en la \<activityname > _References tabla con la ubicación del documento.  
+ Definir la referencia de documento mediante cualquiera de estos métodos agrega una fila en la \<activityname\>tabla _References con la ubicación del documento.  
   
  Si se ha realizado ninguna de estas tareas, el **documentos relacionados** área está en blanco.  
   

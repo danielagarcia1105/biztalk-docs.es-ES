@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07260c5f0d161698545ff7fd5b5177a5374f3d04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60b199bcd350a3341640baa05b875347c4f04bb5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-common-schemas-for-v24"></a>Paso 2: Crear los esquemas comunes para V2.4
 Los esquemas V2.4 son esquemas normalmente se hace referencia, que se utilizan para validar las instancias de mensaje de consulta y respuesta.  
@@ -42,7 +42,7 @@ Los esquemas V2.4 son esquemas normalmente se hace referencia, que se utilizan p
   
 8.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-9. En el **archivo de clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*>: \Program BizTalk \<versión > Accelerator for HL7\SDK\Interrogative Tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
+9. En el **archivo de clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\ Haga clic en de Tutorial, interrogative **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 10. En el cuadro de diálogo páginas de propiedades de Interrogative_24Schemas, haga clic en **Aceptar** para guardar los cambios.  
   

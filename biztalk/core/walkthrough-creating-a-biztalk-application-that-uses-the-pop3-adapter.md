@@ -19,11 +19,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1af0d60eab23a3cbfff67a8b4b11dc73fb49afe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e677a4fb68ad4f6991585c191c8065a60b3fc337
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a>Tutorial: Crear una aplicación de BizTalk que usa el adaptador de POP3
 Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de POP3.  
@@ -45,7 +45,7 @@ Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUD
   
 1.  Haga clic en **iniciar**, seleccione **programas**, seleccione **herramientas administrativas**y, a continuación, haga clic en **servicio POP3**.  
   
-2.  Expanda  *\<servername >* y haga clic en el dominio donde desea crear un buzón.  
+2.  Expanda  *\<servername\>*  y haga clic en el dominio donde desea crear un buzón.  
   
 3.  En el **servicio POP3** cuadro de diálogo, en el panel derecho, haga clic en el **Agregar buzón** opción.  
   
@@ -60,7 +60,7 @@ Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUD
 ## <a name="create-the-receive-location"></a>Crear la ubicación de recepción  
  Para crear la ubicación de recepción, siga estos pasos:  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga doble clic en la base de datos predeterminada  **\<**  *nombre_equipo***>. BizTalkMgmtDb.dbo**, donde *nombre_equipo* es el nombre del equipo. Haga clic en **aplicaciones**, a continuación, haga clic en **BizTalk.Application.1**.  
+1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga doble clic en la base de datos predeterminada  **\<**  *nombre_equipo***\>. BizTalkMgmtDb.dbo**, donde *nombre_equipo* es el nombre del equipo. Haga clic en **aplicaciones**, a continuación, haga clic en **BizTalk.Application.1**.  
   
 2.  Haga clic en **puertos de recepción**, haga clic en **New**, haga clic en **unidireccional puerto de recepción**.  
   

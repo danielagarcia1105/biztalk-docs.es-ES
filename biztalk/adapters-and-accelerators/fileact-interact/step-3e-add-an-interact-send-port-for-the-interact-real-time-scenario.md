@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fcb78fd556e72e4ca19e1d5172826a813f23eb24
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec380c088f27fe09f518c385990e3801b5c019dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario"></a>Paso 3E: agregar un puerto de envío de interacción para el escenario en tiempo real de interactuar
 Completa [paso 3D: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleResponse para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md) antes de comenzar este paso.
@@ -42,11 +42,11 @@ Completa [paso 3D: agregar un puerto de envío de archivo para capturar el mensa
     |**Modo del adaptador**|En la lista desplegable, seleccione **en tiempo real**.|  
     |**Formato de mensaje**|**InteractMessage**.|  
     |**Indicador de sin repudio**|**FALSE**.|  
-    |**Tipo de solicitud**|Escriba la correspondiente \<RequestType > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Tipo de solicitud**|Escriba la correspondiente \<RequestType\> cadena, según su aprovisionamiento con SWIFT.|  
     |**ResponseCrypto**|**FALSE**.|  
-    |**Solicitante**|Establézcalo en la correspondiente \<solicitante > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Servicio de respuesta**|Establézcalo en la correspondiente \<Respondedor > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Nombre del servicio**|Establézcalo en la correspondiente \<nombre del servicio >, en función de su aprovisionamiento con SWIFT.|  
+    |**Solicitante**|Establézcalo en la correspondiente \<solicitante\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Establézcalo en la correspondiente \<Respondedor\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Nombre del servicio**|Establézcalo en la correspondiente \<nombre del servicio\>, en función de su aprovisionamiento con SWIFT.|  
     |**Notificación de entrega**|En la lista desplegable, seleccione **FALSE**.|  
     |**Cola de notificación**|Escriba el nombre de la cola apropiada, en función de su aprovisionamiento con SWIFT.|  
   
@@ -79,4 +79,4 @@ Completa [paso 3D: agregar un puerto de envío de archivo para capturar el mensa
  [Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario.md)   
  [Paso 3B: agregar un INTERACTÚE ubicación de recepción para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md)   
  [Paso 3c: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleRequest para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-real-time-scenario.md)   
- [Paso 3D: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleResponse para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)
+ [Paso 3D: Agregar un puerto de envío de ARCHIVOS para capturar el mensaje Sw:HandleResponse para el escenario de InterAct en tiempo real](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)

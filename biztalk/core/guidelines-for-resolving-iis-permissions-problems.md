@@ -13,11 +13,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fdae0c97d0441ccb57320ec24908cca522ae2088
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eb91509ec3ad1c329190c848c25a60434f93499e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="guidelines-for-resolving-iis-permissions-problems"></a>Directrices para solucionar problemas de permisos de IIS
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace abundante uso de Microsoft Internet Information Services (IIS) para la compatibilidad con servicios Web y para su utilización con los adaptadores de HTTP, SOAP y Windows SharePoint Services.  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  Haga clic en **iniciar**, a continuación, **todos los programas**y haga clic en **el Administrador de Internet Information Services (IIS) 7**.  
   
-2.  En el Administrador de Internet Information Services (IIS), expanda  *\<nombre_equipo >***(cuenta de usuario)** y haga clic en **grupos de aplicaciones**.  
+2.  En el Administrador de Internet Information Services (IIS), expanda  *\<nombre_equipo\>***(cuenta de usuario)** y haga clic en **grupos de aplicaciones**.  
   
 3.  Haga clic en un grupo de aplicaciones y haga clic en **ver aplicaciones** para ver las aplicaciones asociadas con el grupo de aplicaciones.  
   
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-set-user-access-rights-for-a-virtual-directory-in-iis-70"></a>Para establecer los derechos de acceso de usuario para un directorio virtual en IIS 7.0  
   
-1.  En el Administrador de Internet Information Services (IIS), expanda  *\<nombre_equipo >*, **sitios**, y **sitio Web predeterminado** en el  **Las conexiones** panel.  
+1.  En el Administrador de Internet Information Services (IIS), expanda  *\<nombre_equipo\>*, **sitios**, y **sitio Web predeterminado** en el **Conexiones** panel.  
   
 2.  Haga clic para seleccionar el directorio virtual y haga clic en el **vista características** en la parte inferior del panel de área de trabajo para enumerar la características configurables para el directorio virtual.  
   

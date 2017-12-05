@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7aa00b1a029092247d3c4ce935edfd88f4344a95
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce7f87d9af24e6388199e76e9cbf0eba076ceacf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="modifying-an-existing-pip-in-rnpips"></a>Modificar una PIP existente en Rnpip
 Este tema describe cómo cambiar y volver a implementar uno de los esquemas de proceso de interfaz de socio (PIP) instalados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] el programa de instalación. El esquema se implementa como parte del ensamblado de los RNPIP.  
@@ -30,18 +30,18 @@ Este tema describe cómo cambiar y volver a implementar uno de los esquemas de p
   
 1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  Busque la \< *unidad*> \Program BizTalk \<versión > Accelerator for carpeta RosettaNet\SDK\Utilities\Schema Generator.  
+2.  Busque la \< *unidad*\>\Program BizTalk \<versión\> Acelerador para carpeta RosettaNet\SDK\Utilities\Schema Generator.  
   
 3.  En el símbolo del sistema, escriba **CScript InstallDTD.vbs**y presione ENTRAR.  
   
     > [!NOTE]
-    >  Solo tiene que realizar los pasos 1 y 2 una vez después de instalar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+    >  Solo tienes que realice los pasos 1 y 2 una vez después de instalar a BizTalk Server.  
   
 4.  Inicie **Microsoft Visual Studio 2012**.  
   
 5.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-6.  En el **Abrir proyecto** cuadro de diálogo, desplácese a \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\Schemas y, a continuación, seleccione  **RNPIPs.btproj**.  
+6.  En el **Abrir proyecto** cuadro de diálogo, desplácese a \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ Esquemas y, a continuación, seleccione **RNPIPs.btproj**.  
   
 7.  En el menú **Ver** , haga clic en **Explorador de BizTalk**. Expanda **Ensamblados**y, a continuación, haga clic con el botón derecho en **Microsoft.Solutions.BTARN.Schemas.RNPIPs(3.3.0.0)**. Haga clic en **Anular la implementación**.  
   

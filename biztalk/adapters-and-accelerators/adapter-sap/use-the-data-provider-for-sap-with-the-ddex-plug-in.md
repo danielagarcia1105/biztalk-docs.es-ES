@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19a4f5b5252691ca772e234b2f9a75c4059aa128
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a2a1dd348b6d897e147d6add49499e9716a67aeb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>Usar el proveedor de datos para SAP con el complemento DDEX
 Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] junto con el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, el programa de instalación instala un [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] complemento DDEX. Puede usar este complemento para examinar objetos SAP mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. Esta sección proporciona información acerca de cómo utilizar el complemento DDEX.  
@@ -38,7 +38,7 @@ Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersa
   
 3.  En el **Explorador de servidores**, haga clic en **las conexiones de datos**y seleccione **Agregar conexión**.  
   
-4.  En el **cambiar origen de datos** cuadro de diálogo, desde el **origen de datos** cuadro, seleccione  **\<otros >**.  
+4.  En el **cambiar origen de datos** cuadro de diálogo, desde el **origen de datos** cuadro, seleccione  **\<otros\>**.  
   
 5.  Desde el **proveedor de datos** lista desplegable, seleccione **.NET Framework Data Provider para mySAP Business Suite** y haga clic en **Aceptar**. El **Agregar conexión** abre el cuadro de diálogo.  
   
@@ -113,4 +113,4 @@ Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersa
 8.  Expanda el **importar** nodo para mostrar los parámetros de importación del módulo de función. De forma similar, expanda la **exportar** y **tablas** nodos para ver la lista de exportación y la tabla de parámetros para el módulo de función.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar el proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+ [Uso del proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5b9b2770f1d14d716149025ac44cb3cdffbbb23b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c47f7ba8320a43cbfdc98a3b3e5becdce9a898f9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="hubscenario-sample"></a>Ejemplo de HubScenario
 El ejemplo de HubScenario muestra cómo administrar la transmisión de mensajes en un escenario de concentrador. Transforma un mensaje enviado a un concentrador intermediario en un mensaje que se enviará al destinatario final.  
@@ -27,18 +27,18 @@ El ejemplo de HubScenario muestra cómo administrar la transmisión de mensajes 
   
  El ejemplo de HubScenario incluye proyectos HubHelper.cs y HubScenario.odx.  
   
- El ejemplo de HubScenario también incluye un archivo de enlace que puede usar para importar enlaces para un puerto de recepción (MessagesToLOB_Receive_Port) y una ubicación de recepción (MessagesToLOB_Receive_Location) para su uso con la orquestación HubScenario.odx. Este archivo de enlace (HubScenarioBinding.xml) se encuentra en  *\<unidad >*: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión > Accelerator for RosettaNet \SDK\ HubScenario. Use el comando BTSTask para importar los enlaces. Para obtener más información, vea el tema "Comando ImportBindings" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ El ejemplo de HubScenario también incluye un archivo de enlace que puede usar para importar enlaces para un puerto de recepción (MessagesToLOB_Receive_Port) y una ubicación de recepción (MessagesToLOB_Receive_Location) para su uso con la orquestación HubScenario.odx. Este archivo de enlace (HubScenarioBinding.xml) se encuentra en  *\<unidad\>*: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión\> Acelerador para RosettaNet \SDK\HubScenario. Use el comando BTSTask para importar los enlaces. Para obtener más información, vea el tema "Comando ImportBindings" en la Ayuda de BizTalk Server.  
   
 ### <a name="to-build-and-initialize-this-sample"></a>Para generar e inicializar el ejemplo  
   
-1.  En Visual Studio, abra \<unidad >: \Program Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\HubScenario\HubScenario.btproj. En el Explorador de soluciones, haga clic con el botón derecho en el proyecto HubScenario y, a continuación, haga clic en Propiedades. En la página Propiedades del proyecto HubScenario, en la ficha Firma, seleccione la casilla de verificación **Firmar el ensamblado** y seleccione **HubScenario.snk** en **Elija un archivo de clave de nombre seguro** y haga clic en **Aceptar**.  
+1.  En Visual Studio, abra \<unidad\>: \Program Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\HubScenario\HubScenario.btproj. En el Explorador de soluciones, haga clic con el botón derecho en el proyecto HubScenario y, a continuación, haga clic en Propiedades. En la página Propiedades del proyecto HubScenario, en la ficha Firma, seleccione la casilla de verificación **Firmar el ensamblado** y seleccione **HubScenario.snk** en **Elija un archivo de clave de nombre seguro** y haga clic en **Aceptar**.  
   
 2.  En el Explorador de soluciones, haga clic con el botón derecho en el proyecto HubHelper y, a continuación, haga clic en Propiedades. En la página Propiedades del proyecto HubHelper, en la ficha Firma, marque la casilla de verificación Firmar el ensamblado. En Elija un archivo de clave de nombre seguro, seleccione el nuevo tipo **HubHelper.snk** como nombre de archivo de clave y haga clic en **Aceptar**.  
   
     > [!NOTE]
     >  Si no especifica manualmente el archivo de clave de ensamblado en los proyectos HubScenario y HubHelper, los ensamblados no se implementarán.  
   
-3.  En un símbolo del sistema, vaya a  *\<unidad >*: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\HubScenario carpeta. Ejecute el archivo Setup.bat (o Setupx64.bat en un equipo de 64 bits).  
+3.  En un símbolo del sistema, vaya a  *\<unidad\>*: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\ Carpeta de HubScenario. Ejecute el archivo Setup.bat (o Setupx64.bat en un equipo de 64 bits).  
   
 ## <a name="demonstrates"></a>Demostraciones  
  La orquestación HubScenario.ods muestra cómo realizar las tareas siguientes:  
@@ -59,4 +59,4 @@ El ejemplo de HubScenario muestra cómo administrar la transmisión de mensajes 
   
 ## <a name="see-also"></a>Vea también  
  [Escenario de ejemplo basado en concentrador](../../adapters-and-accelerators/accelerator-rosettanet/sample-hub-based-scenario.md)   
- [Ejemplos de orquestaciones](../../adapters-and-accelerators/accelerator-rosettanet/orchestration-samples.md)
+ [Ejemplos de orquestación](../../adapters-and-accelerators/accelerator-rosettanet/orchestration-samples.md)

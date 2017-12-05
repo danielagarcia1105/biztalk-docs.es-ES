@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20b0f8db3f1b7549f6189b348b7353d6dac159a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ba487bcd5d6d245c979dec903613465ae54f8d9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-performance-issues-with-the-oracle-database-adapter"></a>Solucionar problemas de rendimiento con el adaptador de la base de datos de Oracle
 Esta sección describe el uso de técnicas de solución de problemas para resolver los problemas de rendimiento que pueden surgir al usar [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  
@@ -47,7 +47,7 @@ Esta sección describe el uso de técnicas de solución de problemas para resolv
   
  **Resolución**  
   
- Instale .NET \< *versión*> (x64) en el equipo de 64 bits.  
+ Instale .NET \< *versión* \> (x64) en el equipo de 64 bits.  
   
 ## <a name="see-also"></a>Vea también  
 [Solucionar problemas del Oracle adapter.md la base de datos](../../adapters-and-accelerators/adapter-oracle-database/troubleshoot-the-oracle-database-adapter.md)

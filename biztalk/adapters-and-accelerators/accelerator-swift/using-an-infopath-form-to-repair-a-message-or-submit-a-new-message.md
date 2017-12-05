@@ -32,11 +32,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f89959b1900ce03717f2bb28efda7651c5008e7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a78dabdaefc430fe88e0a5e39d533ee34f0d3db1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-an-infopath-form-to-repair-a-message-or-submit-a-new-message"></a>Uso de un formulario de InfoPath para reparar un mensaje o envíe un mensaje nuevo
 Para reparar, comprobar, aprobar o crear un mensaje, se trabaja en un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario que se abre desde el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] sitio Web de MRSR. El sitio MRSR contiene un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formato de cada tipo de mensaje y un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formato para los mensajes sin analizar. Reparación de mensajes y nuevo envío envía mensajes que necesita reparación, la comprobación o la aprobación a la biblioteca de documentos MRSR adecuada, donde se puede abrir.  
@@ -53,7 +53,7 @@ Para reparar, comprobar, aprobar o crear un mensaje, se trabaja en un [!INCLUDE[
  Para llevar a cabo una operación en un mensaje en el sitio MRSR, debe implementar el formulario de InfoPath para ese tipo de mensaje. Esto carga el formulario de InfoPath requerido para el mensaje en la biblioteca de documentos de plantillas.  
   
 ## <a name="verifying-a-message"></a>Comprobación de un mensaje  
- Un flujo de trabajo de reparación puede incluir una fase de comprobación. En esta fase, una vez un taller de reparación ha reparado un mensaje, un comprobador de comprueba que las reparaciones en el mensaje están correctas. Para ello, abra el mensaje en una [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario desde el \<nombre de departamento > _RekeyVerify biblioteca de documentos de su sitio MRSR y compruebe que las reparaciones que se realizaron en el mensaje están correctas. También debe regenerar los datos en algunos de los campos que requieren la regeneración de claves. Todas las fases de comprobación requieren la regeneración de claves, pero se pueden personalizar los campos (si existe) necesitan regeneración. Para obtener más información acerca de la comprobación de regeneración de claves, consulte [un procesamiento especial en la reparación de mensajes y nuevo envío](../../adapters-and-accelerators/accelerator-swift/special-processing-in-message-repair-and-new-submission.md).  
+ Un flujo de trabajo de reparación puede incluir una fase de comprobación. En esta fase, una vez un taller de reparación ha reparado un mensaje, un comprobador de comprueba que las reparaciones en el mensaje están correctas. Para ello, abra el mensaje en una [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario desde el \<nombre de departamento\>_RekeyVerify biblioteca de documentos de su sitio MRSR y compruebe que las reparaciones que se realizaron en el mensaje están correctas. También debe regenerar los datos en algunos de los campos que requieren la regeneración de claves. Todas las fases de comprobación requieren la regeneración de claves, pero se pueden personalizar los campos (si existe) necesitan regeneración. Para obtener más información acerca de la comprobación de regeneración de claves, consulte [un procesamiento especial en la reparación de mensajes y nuevo envío](../../adapters-and-accelerators/accelerator-swift/special-processing-in-message-repair-and-new-submission.md).  
   
  Un flujo de trabajo que consta de todas las fases posibles incluye una o varias fases de comprobación. Sin embargo, no necesita incluir una fase de comprobación un flujo de trabajo.  
   

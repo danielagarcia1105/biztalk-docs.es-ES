@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac5f85187a49f3ab5248f12aceba74731ed7e915
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1f4c8ddde24c32f93d003f778b9359d70e87170
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-identifiers-as2"></a>Configuración de identificadores (AS2)
 En el acuerdo de socio, debe especificar las entidades de remitente y receptor. Estos valores también se usan para la resolución de acuerdo para los mensajes entrantes o salientes.  
@@ -44,9 +44,9 @@ En el acuerdo de socio, debe especificar las entidades de remitente y receptor. 
 5.  En el **resoluciones de acuerdos adicionales** sección, para la **AS2To** propiedad, escriba un alias adicional para el socio que recibe el mensaje.  
   
     > [!NOTE]
-    >  Esta propiedad es opcional. Esta propiedad está disponible para la compatibilidad con versiones anteriores. Cuando una definición de entidad se migra desde BizTalk Server 2006 R2 o BizTalk Server 2009 a [!INCLUDE[prague](../includes/prague-md.md)], el nombre de la entidad en las versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se incluye como valor para esta propiedad. Esto garantiza que tiene lugar la resolución del acuerdo y las aplicaciones existentes y definiciones de socio existentes pueden usarse con [!INCLUDE[prague](../includes/prague-md.md)].  
+    >  Esta propiedad es opcional. Esta propiedad está disponible para la compatibilidad con versiones anteriores. Cuando se migra una definición de la entidad de BizTalk Server 2006 R2 o BizTalk Server 2009 a BizTalk Server, el nombre de la entidad en las versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se incluye como un valor para esta propiedad. Esto garantiza que se produce la resolución del acuerdo y las aplicaciones existentes y definiciones de socio pueden utilizarse con BizTalk Server.  
   
 6.  Haga clic en **aplicar** para aceptar los cambios antes de continuar con la configuración o haga clic en **Aceptar** para validar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades del acuerdo de AS2](../core/configuring-as2-agreement-properties.md)
+ [Configuración de las propiedades de acuerdo AS2](../core/configuring-as2-agreement-properties.md)

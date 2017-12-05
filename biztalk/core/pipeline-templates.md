@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed6af41d3c23c889b7a7e9bd2529adc80bc7bcd2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 92cff5e945fad7716f31aa666731fe5d6a365146
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="pipeline-templates"></a>Plantillas de canalización
 Además de las canalizaciones predeterminadas, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye dos plantillas de canalización: una plantilla de canalización de recepción y una plantilla de canalización de envío. Desde un proyecto de BizTalk en Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], puede agregar una plantilla de canalización al proyecto mediante el **Agregar nuevo elemento** comando el **proyecto** menú. Cada plantilla tiene un archivo de directiva asociado, que determina las fases de la canalización e indica qué componentes de canalización están permitidos en ella. Aunque no es posible reorganizar las fases en un archivo de directiva, puede utilizar el Diseñador de canalizaciones para reorganizar los componentes de una fase.  
@@ -34,9 +34,9 @@ Además de las canalizaciones predeterminadas, [!INCLUDE[btsBizTalkServerNoVersi
   
 -   El modo de ejecución de cada fase.  
   
- Los archivos de directivas para las plantillas de canalización se almacenan en  *\<directorio de instalación de BizTalk Server >*\Developer Tools\Pipeline archivos de directivas. No modifique los archivos de directiva. Para realizar cambios en una canalización, abra la plantilla de canalización con el Diseñador de canalizaciones para modificarla. Para obtener más información acerca de cómo utilizar el Diseñador de canalizaciones, consulte [utilizando el Diseñador de canalizaciones](../core/using-pipeline-designer.md).  
+ Los archivos de directivas para las plantillas de canalización se almacenan en  *\<directorio de instalación de BizTalk Server\>*\Developer Tools\Pipeline archivos de directivas. No modifique los archivos de directiva. Para realizar cambios en una canalización, abra la plantilla de canalización con el Diseñador de canalizaciones para modificarla. Para obtener más información acerca de cómo utilizar el Diseñador de canalizaciones, consulte [utilizando el Diseñador de canalizaciones](../core/using-pipeline-designer.md).  
   
- Los archivos de plantilla de canalización vacía se almacenan en  *\<directorio de instalación de BizTalk Server >*\Developer Tools\BizTalkProjectItems y denomina BTSReceivePipeline.btp y BTSTransmitPipeline.btp. El .btp de extensión de nombre de archivo indica que el archivo es una canalización de BizTalk Server y se puede editar en el Diseñador de canalizaciones.  
+ Los archivos de plantilla de canalización vacía se almacenan en  *\<directorio de instalación de BizTalk Server\>*\Developer Tools\BizTalkProjectItems y denomina BTSReceivePipeline.btp y BTSTransmitPipeline.btp . El .btp de extensión de nombre de archivo indica que el archivo es una canalización de BizTalk Server y se puede editar en el Diseñador de canalizaciones.  
   
 ## <a name="see-also"></a>Vea también  
  [Tipos de canalizaciones](../core/types-of-pipelines.md)   

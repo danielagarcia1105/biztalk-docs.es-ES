@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b68a924fba60d4f0162e80dde0ab06b515765558
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63a719299ef6678b9fd38a936d84ba9b1f57a85b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="database-functoids"></a>Functoids de base de datos
 **Base de datos** functoids extraer datos de una base de datos para su uso en un mensaje de instancia de salida. 
@@ -75,7 +75,7 @@ La siguiente es una lista de los **base de datos** functoids y cómo utilizarlas
   
  En la ilustración, el esquema de origen representa un pedido entrante; el esquema de destino representa una notificación previa de envío. El **base de datos de búsqueda** functoid busca el registro adecuado de la tabla de base de datos correspondiente. El **Extractor de valor** functoids extraen la columna apropiada del registro de búsqueda. El **devolución de Error** functoid genera una cadena que contiene información de error si hay errores (como errores de conexión) en tiempo de ejecución.  
   
- En el ejemplo anterior, el primer parámetro de entrada se toma de la **StoreID** campo de entrada pedido de compra y el restante tres parámetros de entrada son constantes configuradas en el **configurar \< Functoid > Functoid** cuadro de diálogo para la **base de datos de búsqueda** functoid. Es posible crear vínculos desde el esquema de origen para suministrar valores a los cuatro parámetros de entrada.  
+ En el ejemplo anterior, el primer parámetro de entrada se toma de la **StoreID** campo de entrada pedido de compra y el restante tres parámetros de entrada son constantes configuradas en el **configurar \< Functoid\> Functoid** cuadro de diálogo para la **base de datos de búsqueda** functoid. Es posible crear vínculos desde el esquema de origen para suministrar valores a los cuatro parámetros de entrada.  
   
 > [!NOTE]
 >  * No se puede usar algunos tipos de datos de Microsoft SQL Server, como **texto**, **ntext**, y **imagen**, como valores de búsqueda para la **búsqueda de la base de datos** functoid. El functoid requiere tipos de datos que puedan representarse como una cadena de texto.  

@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84a224c985591801bc9622000c35587b7137f933
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8dd7c87e84cf7e6e107fc110c611369d0407e003
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-exception-handling-service-sample"></a>Ejecutar el ejemplo de servicio de control de excepciones
 El ejemplo de servicio de control de excepciones muestra cómo consumir el servicio Web de control de excepciones para poder enviar un error en el marco de control de excepciones de ESB desde una aplicación externa. El procedimiento siguiente para ejecutar este ejemplo requiere [instalar los ejemplos de administración de excepción](../esb-toolkit/installing-the-exception-management-samples.md).  
@@ -25,7 +25,7 @@ El ejemplo de servicio de control de excepciones muestra cómo consumir el servi
   
 1.  En el Explorador de Windows, abra el \Source\Samples\ExceptionHandlingService carpeta, donde se instaló el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplos y, a continuación, abra el archivo de solución de Visual Studio denominado ExceptionHandlingService.sln.  
   
-2.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], haga clic en **Iniciar depuración** en la barra de herramientas.  
+2.  En Visual Studio, haga clic en **Iniciar depuración** en la barra de herramientas.  
   
 3.  En el formulario que se carga, haga clic en el **generar excepciones** botón.  
   

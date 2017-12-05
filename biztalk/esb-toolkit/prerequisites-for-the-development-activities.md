@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efdb0a358b378886b8944c9d3d9428b169bab7a9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dbc79fd31e78581d98ecad34579958ff90f3b1e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="prerequisites-for-the-development-activities"></a>Requisitos previos para las actividades de desarrollo
 Esta sección describe cómo preparar el entorno para completar los pasos descritos en las actividades de desarrollo que se incluyen como parte de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. Complete la configuración siguiente antes de intentar cualquiera de los procedimientos descritos en las actividades de desarrollo:  
@@ -37,7 +37,7 @@ Esta sección describe cómo preparar el entorno para completar los pasos descri
   
     -   C:\HowTos\Out  
   
-4.  Asegúrese de que su [!INCLUDE[prague](../includes/prague-md.md)] cuenta de servicio tiene **Control total** permisos para la estructura de directorios C:\HowTos.  
+4.  Asegúrese de que la cuenta de servicio de BizTalk Server tiene **Control total** permisos para la estructura de directorios C:\HowTos.  
   
 5.  Asegúrese de que la cuenta de servicio de Microsoft BizTalk Server tiene **escribir** permisos para C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Test\Filedrop\Out.  
   
@@ -51,7 +51,7 @@ Esta sección describe cómo preparar el entorno para completar los pasos descri
   
 ## <a name="create-the-visual-studio-solution"></a>Crear la solución de Visual Studio  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], en el menú archivo, seleccione **New**y, a continuación, haga clic en **proyecto**.  
+1.  En Visual Studio, en el menú archivo, seleccione **New**y, a continuación, haga clic en **proyecto**.  
   
 2.  En el **nuevo proyecto** cuadro de diálogo, en el panel tipos de proyecto, haga clic en **Visual C#**y, a continuación, haga clic en **biblioteca de clases** en el panel Plantillas.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6ccae5741ada6db57538289911a97e2ad3d9dfce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e023dc6f2165e9427fa57e109715dda6cdb258f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-static-send-port-for-asynchronous-mdns-over-as2"></a>Configuración de un puerto de envío estático para MDN asíncronos a través de AS2
 Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que envíe un mensaje MDN codificado en EDIINT/AS2 mediante un puerto de envío estático. Esta configuración incluye la creación del puerto de envío estático y, si es necesario, la configuración de un certificado de cifrado que el puerto de envío vaya a usar.  
@@ -32,7 +32,7 @@ Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../incl
 |**Propiedades de puerto de envío: General**|Tipo de transporte|HTTP **Nota:** sólo el adaptador HTTP puede utilizarse para transportar mensajes con codificación EDIINT/AS2. Este transporte no funcionará con un adaptador que no sea el adaptador de HTTP.|  
 |**Propiedades de puerto de envío: General**|Controlador de envío|BizTalkServerApplication|  
 |**Propiedades de puerto de envío: General**|Canalización de envío|AS2Send|  
-|**Propiedades de transporte HTTP**|Dirección URL de destino|\<Cadena de dirección URL de destino >|  
+|**Propiedades de transporte HTTP**|Dirección URL de destino|\<Cadena de dirección URL de destino\>|  
 |**Propiedades de transporte HTTP**|Habilitar codificación fragmentada|Desactivado|  
 |**Propiedades de puerto de envío: filtros**|Propiedad|EdiIntAS.IsAS2AsynchronousMdn **Nota:** también debe especificar expresiones de filtro adicional para asegurarse de que sólo los mensajes MDN destinados a la dirección especificada en este puerto de envío recoge este filtro de suscripción.|  
 |**Propiedades de puerto de envío: filtros**|Operador|==|  
@@ -51,4 +51,4 @@ Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../incl
 -   Enrute el MDN a la dirección definida en el puerto de envío.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar puertos para una solución AS2](../core/configuring-ports-for-an-as2-solution.md)
+ [Configuración de puertos para una solución AS2](../core/configuring-ports-for-an-as2-solution.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 08337171897a4a78e605054e9126e8c8238d5fa5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 790cf5cb853da211d5e8928f398ecc1a2b3fe0ba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="scheduling-batching"></a>Programar el procesamiento por lotes
 Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Explorador de configuración para activar, solicitar o finalizar un lote saliente. Activar un lote saliente consta de dos pasos: configurar basado en tiempo o mensaje de recuento de criterios y, a continuación, iniciar la orquestación de procesamiento por lotes saliente.  
@@ -32,7 +32,7 @@ Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-fir
   
 ### <a name="to-open-btahl7-configuration-explorer"></a>Para abrir el Explorador de configuración de BTAHL7  
   
--   Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+-   Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 ### <a name="to-schedule-message-batching"></a>Para programar el procesamiento por lotes de mensajes  
   
@@ -47,4 +47,4 @@ Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-fir
     |**Control de proceso por lotes**|Seleccione una de las opciones siguientes:<br /><br /> -   **Iniciar la programación**: seleccione esta opción para iniciar el programa por lotes.<br />-   **Enviar ahora**: seleccione esta opción para iniciar el lote se procesará inmediatamente.<br />-   **Detener la programación**: seleccione esta opción para detener la programación por lotes actual.|  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar confirmaciones de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/configuring-batching-acknowledgments.md)
+ [Configuración de confirmaciones de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/configuring-batching-acknowledgments.md)

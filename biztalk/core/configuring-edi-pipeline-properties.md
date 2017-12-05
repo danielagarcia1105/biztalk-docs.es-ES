@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3dd9b981791b12c0cf94be1b2a2c590f84617566
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c810b8507a98b91c0b906131e127f189f0a4fd0f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-edi-pipeline-properties"></a>Configurar propiedades de canalización de EDI
 Las propiedades de canalización se usan en el procesamiento de un intercambio EDI entrante o saliente, si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo al que resuelve el intercambio entrante o saliente. En algunos casos, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa la propiedad de canalización para procesar el intercambio; en otros, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el acuerdo de reserva. Para obtener más información, consulte [cómo validar un EDI del intercambio está configurado](../core/how-validation-of-an-edi-interchange-is-configured.md).  
@@ -43,7 +43,7 @@ Las propiedades de canalización se usan en el procesamiento de un intercambio E
 |DetectMID|Habilita el desensamblador EDI para que analice varios intercambios en un único mensaje.|True (predeterminado)<br /><br /> False|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble|  
 |EdiDataValidation|Habilita la validación del tipo de EDI (elementos de datos) de intercambios EDI salientes, incluida la validación de la longitud del campo, la opcionalidad y el número de repeticiones, además de la validación de elemento de datos de EDI.|True (predeterminado)<br /><br /> False|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble<br /><br /> EdiSend - Assemble<br /><br /> AS2EdiSend - Assemble|  
 |EfactDelimiters|Indica los delimitadores que se van a utilizar en el procesamiento de un intercambio entrante. Se utiliza si éste no tiene un segmento UNA.<br /><br /> Los delimitadores incluyen lo siguiente:<br /><br /> -UNA1 (separador de elementos de datos de componente)<br />-UNA2 (separador de elementos de datos)<br />-UNA3 (notación Decimal)<br />-UNA4 (indicador de versión)<br />-UNA5 (separador de repetición)<br />-UNA6 (terminador de segmento) **Nota:** esta propiedad se utiliza para procesar únicamente, no para X12 EDIFACT.|0x3A, 0x2B, 0x2C, 0x3F, 0 x 20, 0 x 27 (valores predeterminados)|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble|  
-IgnoreMessageEncoding|Especifica que el componente BatchMarker no establecerá EDI. Propiedad de contexto EncodingType \<X12 > o \<EDIFACT >. Esto se aplica a canalizaciones personalizadas cuando se procesan mensajes que no sean EDI.|False (predeterminado)<br /><br /> True|EdiReceive - ResolveParty<br /><br /> AS2EdiReceive - ResolveParty|  
+IgnoreMessageEncoding|Especifica que el componente BatchMarker no establecerá EDI. Propiedad de contexto EncodingType \<X12\> o \<EDIFACT\>. Esto se aplica a canalizaciones personalizadas cuando se procesan mensajes que no sean EDI.|False (predeterminado)<br /><br /> True|EdiReceive - ResolveParty<br /><br /> AS2EdiReceive - ResolveParty|  
 |MaskSecurityInformation|Enmascare la información de seguridad de autorización y de contraseña en la propiedad de contexto de un intercambio EDI entrante para prevenir la divulgación de información. Se aplica a los campos ISA1, ISA2, ISA3 e ISA4 para intercambios X12 y los campos UNB6 para intercambios EDIFACT.|True (predeterminado)<br /><br /> False|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble|  
 |PreserveInterchange|Especifica que se procesará un lote recibido como una única unidad.|False (predeterminado)<br /><br /> True|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble|  
 |RouteAckOn2WayPort|Devuelve una confirmación EDI por la conexión abierta de un puerto de recepción de solicitud-respuesta bidireccional.|True (predeterminado)<br /><br /> False|EdiReceive - Disassemble<br /><br /> AS2EdiReceive - Disassemble|  
@@ -60,4 +60,4 @@ IgnoreMessageEncoding|Especifica que el componente BatchMarker no establecerá E
 3.  En el **configurar canalización** cuadro de diálogo, escriba el valor de la propiedad y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo configurar la validación de un intercambio EDI](../core/how-validation-of-an-edi-interchange-is-configured.md)
+ [Cómo se configura la validación de un intercambio EDI](../core/how-validation-of-an-edi-interchange-is-configured.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aa0f969be7dfdd7cca991be134c9a25329f559a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 18b5d5ee3b29c068b3a37d248b9fb20f07bdfbb2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-distinguished-fields-and-property-fields"></a>Usar campos distintivos y campos de propiedades
 los campos distintivos son datos de mensaje de especial interés que se usan principalmente para tomar decisiones o manipular datos de la orquestación.  
@@ -50,7 +50,7 @@ MyMessage(Invoice.PropertySchema.InvoiceID)
 ```  
   
 > [!NOTE]
->  Cuando se utiliza una palabra clave reservada como el nombre de un campo en un esquema y promocionar el campo seleccionando promoción rápida, se cambia el nombre de propiedad del campo a __\<palabra clave reservada >. (El subrayado doble se agrega delante del nombre de la propiedad.) Sin embargo, si usa este nombre de propiedad en una expresión de orquestación, recibirá un error del compilador al crear la orquestación.  Para solucionarlo, debe agregar manualmente una @ delante del subrayado doble. Por ejemplo,  
+>  Cuando se utiliza una palabra clave reservada como el nombre de un campo en un esquema y promocionar el campo seleccionando promoción rápida, se cambia el nombre de propiedad del campo a __\<palabra clave reservada\>. (El subrayado doble se agrega delante del nombre de la propiedad.) Sin embargo, si usa este nombre de propiedad en una expresión de orquestación, recibirá un error del compilador al crear la orquestación.  Para solucionarlo, debe agregar manualmente una @ delante del subrayado doble. Por ejemplo,  
 >   
 >  `MyMessage(Invoice.PropertySchema.@__Name) = "Product Name";`  
   
@@ -67,4 +67,4 @@ MyMessage2(*)=MyMessage1(*);
  [Promoción de propiedades](../core/promoting-properties.md)   
  [Uso de filtros con la forma de mensaje de recepción](../core/using-filters-with-the-receive-message-shape.md)   
  [Usar mensajes en orquestaciones](../core/using-messages-in-orchestrations.md)   
- [Acerca de las propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)
+ [Propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)

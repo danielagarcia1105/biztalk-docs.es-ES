@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48cdca50620262581469e924fbb2975dde7e91fe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8da12d090ae0c14f30defc1d65850c609b964704
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-transform-shape"></a>Cómo configurar la forma Transformación
 ![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")  
@@ -49,9 +49,9 @@ Forma Transformación
 ### <a name="newexisting-map-file"></a>¿Archivo de asignación nueva o existente?  
  En esta sección, puede hacer clic en uno el **nuevo mapa de** o la **mapa existente** botón de opción para seleccionar una asignación para asignar a la **transformar** forma.  
   
- Use la **nombre** campo debajo del botón de opción seleccionado para especificar una asignación. Si seleccionó **nueva asignación**, puede escribir una designación para la asignación que desea asignar. Cuando se usa el **nueva asignación** opción, debe especificar el nombre completo de la asignación en el cuadro de texto. El cuadro de texto muestra un ejemplo de un nombre de este tipo de forma predeterminada, porque se rellena automáticamente con un nombre de identificador único basado en el espacio de nombres del proyecto y **transformar** nombre de la forma: \<espacio de nombres de proyecto >.\< Nombre de la forma Transformación > _Map (por ejemplo, MyProject.Transform3_Map).  
+ Use la **nombre** campo debajo del botón de opción seleccionado para especificar una asignación. Si seleccionó **nueva asignación**, puede escribir una designación para la asignación que desea asignar. Cuando se usa el **nueva asignación** opción, debe especificar el nombre completo de la asignación en el cuadro de texto. El cuadro de texto muestra un ejemplo de un nombre de este tipo de forma predeterminada, porque se rellena automáticamente con un nombre de identificador único basado en el espacio de nombres del proyecto y **transformar** nombre de la forma: \<espacio de nombres de proyecto\>.\< Nombre de la forma transformación\>_Map (por ejemplo, MyProject.Transform3_Map).  
   
- Si seleccionó **mapa existente**, haga clic en la flecha de lista desplegable en el **nombre** campo para seleccionar el archivo de asignación para usar. Este cuadro de lista muestra una lista ordenada alfabéticamente de todas las asignaciones disponibles en el proyecto. En esta lista, si hace clic en el texto \<seleccionar del ensamblado mencionado >, el **Seleccionar tipo de artefacto** se muestra el cuadro de diálogo. Para obtener más información acerca de las selecciones que hace que estén disponible, consulte [cómo utilizar el cuadro de diálogo Seleccionar tipo de artefacto](../core/how-to-use-the-select-artifact-type-dialog-box.md).  
+ Si seleccionó **mapa existente**, haga clic en la flecha de lista desplegable en el **nombre** campo para seleccionar el archivo de asignación para usar. Este cuadro de lista muestra una lista ordenada alfabéticamente de todas las asignaciones disponibles en el proyecto. En esta lista, si hace clic en el texto \<seleccionar del ensamblado mencionado\>, **Seleccionar tipo de artefacto** se muestra el cuadro de diálogo. Para obtener más información acerca de las selecciones que hace que estén disponible, consulte [cómo utilizar el cuadro de diálogo Seleccionar tipo de artefacto](../core/how-to-use-the-select-artifact-type-dialog-box.md).  
   
 ### <a name="select-source-and-destination-messages"></a>Seleccionar mensajes de destino y de origen  
  Utilice esta parte de la **configuración de transformación** cuadro de diálogo para configurar la asignación seleccionada en la **archivo de asignación nueva o existente?** sección. Si seleccionó **nueva asignación** en esa sección, cree que se asignan mediante la configuración de esta sección.  

@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a686c7de8057fdf843ff855da109e77e8ba7b8ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f921699e9a98724c8ca2c36f99d7eb9b9848875
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-change-the-frequency-with-which-alerts-are-evaluated"></a>Cómo cambiar la frecuencia con la que se evalúan las alertas
 Hay casos en los que el generador de SQL Server Notification Services no puede seguir los eventos generados por el proveedor de eventos de BAM cuando se implementa con la configuración predeterminada. Se puede aumentar la frecuencia (la duración del cuanto) con la que se evalúan los eventos con respecto a las alertas mediante la modificación del archivo adf.xml de Notification Services.  
@@ -28,11 +28,11 @@ Hay casos en los que el generador de SQL Server Notification Services no puede s
   
 1.  Abra el símbolo del sistema de Notification Services. Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2005**, haga clic en **herramientas de configuración**y, a continuación, haga clic en **Símbolo del sistema de notification Services**.  
   
-2.  Obtenga el archivo de configuración de Notification Services. En el símbolo del sistema, escriba: **cscript ProcessBamNSFiles.vbs-Get config.xml adf.xml \<PimaryImport servidor de base de datos > \< PimaryImport nombre de base de datos >**.  
+2.  Obtenga el archivo de configuración de Notification Services. En el símbolo del sistema, escriba: **cscript ProcessBamNSFiles.vbs-Get config.xml adf.xml \<servidor de base de datos de PimaryImport\> \< nombre de base de datos de PimaryImport\>**.  
   
-3.  Modificar o agregar el \<QuantumDuration > elemento bajo el \<ApplicationExecutionSettings > nodo en el en el archivo adf.xml. Para obtener más información sobre elemento QuantumDuration, vea [http://go.microsoft.com/fwlink/?LinkId=78803](http://go.microsoft.com/fwlink/?LinkId=78803).  
+3.  Modificar o agregar el \<QuantumDuration\> elemento bajo el \<ApplicationExecutionSettings\> nodo en el en el archivo adf.xml. Para obtener más información sobre elemento QuantumDuration, vea [http://go.microsoft.com/fwlink/?LinkId=78803](http://go.microsoft.com/fwlink/?LinkId=78803).  
   
-4.  En el símbolo del sistema, escriba: **cscript ProcessBamNSFiles.vbs-actualizar config.xml adf.xml \<PimaryImport servidor de base de datos > \< PimaryImport nombre de base de datos >.**  
+4.  En el símbolo del sistema, escriba: **cscript ProcessBamNSFiles.vbs-actualizar config.xml adf.xml \<servidor de base de datos de PimaryImport\> \< nombre de base de datos de PimaryImport\>.**  
   
 ## <a name="see-also"></a>Vea también  
- [Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación](../core/bam-command-line-script-for-notification-services-configuration-files.md)
+ [Script de línea de comandos de BAM para archivos de configuración de servicios de notificación](../core/bam-command-line-script-for-notification-services-configuration-files.md)

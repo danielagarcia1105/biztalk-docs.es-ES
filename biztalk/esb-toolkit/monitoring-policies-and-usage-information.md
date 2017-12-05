@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4909b96e74d34d469decd11c1ffba0e49217ff7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b8ea9c6151b617e2eef2aa5404d6415f8dd71ded
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-policies-and-usage-information"></a>Información de uso y las directivas de supervisión
 El Administrador de servicios de SOA proporciona un mecanismo que permite crear y editar las directivas de supervisión. Por ejemplo, la figura 1 muestra la pantalla para aplicar una plantilla de directiva y activar la supervisión de una aplicación.  
@@ -44,4 +44,4 @@ El Administrador de servicios de SOA proporciona un mecanismo que permite crear 
  **El Administrador de servicios de SOA muestra los detalles de un mensaje individual**  
   
 > [!NOTE]
->  Administrador de servicios de SOA y Workbench productos son productos de Software, Inc. de SOA que se integran con [!INCLUDE[prague](../includes/prague-md.md)]. Para obtener más información acerca del Software de SOA y sus productos y para descargar la instalación más reciente y operativas instrucciones, consulte la [SOA Software](http://go.microsoft.com/fwlink/?LinkId=188559) sitio Web.
+>  Administrador de servicios de SOA y Workbench productos son productos de Software, Inc. de SOA que se integran con BizTalk Server. Para obtener más información acerca del Software de SOA y sus productos y para descargar la instalación más reciente y operativas instrucciones, consulte la [SOA Software](http://go.microsoft.com/fwlink/?LinkId=188559) sitio Web.

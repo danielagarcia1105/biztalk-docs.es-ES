@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d6aa6f1f3417bbfe7858ab8e1ef29d7155b6528c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2c89bc75871d19939846a587ff23730c05022c7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="the-supply-chain-solution"></a>La solución de la cadena de suministro
 Tecnología puede ayudar a resolver los desafíos de negocios relacionados con las comunicaciones de datos y procesos empresariales. Información de sistemas de tecnología (TI) pueden ayudar a las empresas de alta tecnología transformar las comunicaciones con sus socios de procesos desconectados, incompatibles para integrado, estandarizado los.  
@@ -31,7 +31,7 @@ Tecnología puede ayudar a resolver los desafíos de negocios relacionados con l
   
  En este sistema, la interfaz estándar entre socios comerciales es una conexión de RosettaNet Implementation Framework (RNIF). El sistema es una implementación compatible con RosettaNet que reemplaza todas las interacciones personalizadas y manuales con conexiones de RNIF automatizadas. Esto no evita que las empresas de personalizar sus sistemas, crear sus propios contratos con sus socios o con otros dispositivos de comunicación cuando quiera o deba. Este sistema brinda a los socios la flexibilidad para personalizar el sistema para sus propios fines. Sin embargo, significa que todos los asociados usan procesos coherentes para sus comunicaciones rutinario de datos.  
   
- Todas las compañías en esta cadena de suministros compartan una conexión RNIF. Para una gran compañía, puede configurar un sistema totalmente automatizado enterprise con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. También puede habilitar un socio comercial utilizar cualquier implementación compatible con RosettaNet ya la han instalado, o seguir utilizando un sistema EDI. Una pequeña empresa, por otro lado, no tenga los recursos de un completo [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sistema. Para ellos, puede configurar un servicio Web que permite que se puedan conectar con el sistema de la cadena de suministro. En este caso, el requisito de tecnología solo es un explorador Web. En cada uno de estos casos, todas las compañías en el sistema de sacar partido de un planteamiento unificado para efectuar la conexión con sus socios.  
+ Todas las compañías en esta cadena de suministros compartan una conexión RNIF. Para una gran compañía, puede configurar un sistema totalmente automatizado enterprise con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. También puede habilitar un socio comercial utilizar cualquier implementación compatible con RosettaNet ya la han instalado, o seguir utilizando un sistema EDI. Una pequeña empresa, por otro lado, no tenga los recursos de un completo [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sistema. Para ellos, puede configurar un servicio Web que permite que se puedan conectar con el sistema de la cadena de suministro. En este caso, el requisito de tecnología solo es un explorador Web. En cada uno de estos casos, todas las compañías en el sistema de sacar partido de un planteamiento unificado para efectuar la conexión con sus socios.  
   
 ## <a name="the-benefits-of-standardization"></a>Las ventajas de la normalización  
  Las empresas pueden intercambiar datos por medios electrónicos sin participar en un sistema completamente integrado. Sin embargo, si los datos mantenidos por socios comerciales independientes están en formatos diferentes, y sus sistemas de protocolos de transporte, aunque diferentes datos, el intercambio de datos puede requerir un esfuerzo significativo para diseñar y personalizar. Puede mejorar considerablemente la eficacia de las transacciones comerciales si cada socio conectado normaliza el formato y el protocolo que se utiliza con su intercambio de datos.  

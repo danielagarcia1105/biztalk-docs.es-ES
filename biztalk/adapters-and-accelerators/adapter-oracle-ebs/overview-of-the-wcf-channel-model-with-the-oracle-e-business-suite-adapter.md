@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d59965b4fe5a94ae29ac8459ef8b8d80999c1dc5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f5317099b1a576c9dd4e0b13593c16f4ef3a6831
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-e-business-suite-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador de Oracle E-Business Suite
 Para invocar operaciones en el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  
@@ -44,11 +44,11 @@ Para invocar operaciones en el [!INCLUDE[adapteroracleebusinesslong](../../inclu
   
  Al igual que cualquier enlace de WCF, el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] utiliza un modelo de generador para proporcionar canales al código de la aplicación. Usa un **Microsoft.Adapters.OracleEBSBinding** objeto que se va a crear instancias de:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >** para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>**  para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >** para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>**  para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel >** para proporcionar **IInputChannel** canales que se puede utilizar para recibir mensajes entrantes desde el adaptador.  
+-   **System.ServiceModel.IChannelListener\<IInputChannel\>**  para proporcionar **IInputChannel** canales que se puede utilizar para recibir mensajes entrantes desde el adaptador.  
   
 ### <a name="creating-messages-for-the-oracle-enterprise-business-solution-in-the-wcf-channel-model"></a>Crear mensajes para la solución de negocio empresarial de Oracle en el modelo del canal de WCF  
  En WCF la **System.ServiceModel.Channels.Message** clase proporciona una memoria en representación de un mensaje SOAP. Crear un **mensaje** instancia invocando el método estático **Message.Create** método.  

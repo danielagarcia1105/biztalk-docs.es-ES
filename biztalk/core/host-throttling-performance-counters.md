@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b823326a0cc486dcf3f95dc70a6249d4d719d133
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2ca80f44b9f1244a340e9a9892593ae42ba4b4e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-throttling-performance-counters"></a>Contadores de rendimiento de limitación de host
 En esta sección se describen los contadores del monitor de rendimiento que miden los parámetros del sistema que afectan a la limitación de host. Los siguientes contadores de rendimiento son accesibles para cada instancia de host en el **BizTalk: agente** categoría de objeto de rendimiento:  
@@ -74,7 +74,7 @@ En esta sección se describen los contadores del monitor de rendimiento que mide
   
 3.  En el **agregar contadores** cuadro de diálogo, desde el **contadores disponibles** lista, expanda la **BizTalk: agente de** objeto de contador de rendimiento y seleccione los contadores que pueden supervisar.  
   
-4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**.  Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**>.  
+4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**.  Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**\>.  
   
 5.  Después de agregar los contadores, haga clic en **Aceptar**.  
   
@@ -83,4 +83,4 @@ En esta sección se describen los contadores del monitor de rendimiento que mide
 ## <a name="see-also"></a>Vea también  
  [Recomendaciones de diseño de limitación](../core/throttling-design-recommendations.md)   
  [Cómo BizTalk Server incorpora la limitación de Host](../core/how-biztalk-server-implements-host-throttling.md)   
- [Mediante el panel de configuración de BizTalk Server ajuste del rendimiento](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
+ [Uso del panel de configuración para ajustar el rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

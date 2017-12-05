@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a497b4b2d81ef2e6d0e62032b8c3939794451cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82fcdc400395d7bbfd6de8f9bc0fca85114a25dc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enumerate-receive-locations-biztalk-server-sample"></a>Enumerar (ejemplo de BizTalk Server) de ubicaciones de recepción
 El ejemplo Enumerar ubicaciones de recepción demuestra cómo recuperar detalles sobre una o varias ubicaciones de recepción.  
@@ -40,9 +40,9 @@ El ejemplo Enumerar ubicaciones de recepción demuestra cómo recuperar detalles
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Estos ejemplos se encuentran en las siguientes ubicaciones de SDK:  
   
--   Versión de VBScript: \< *ruta de ejemplos*> \Admin\WMI\Enumerate Receive Locations\VBScript\  
+-   Versión de VBScript: \< *ruta de ejemplos*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
   
--   Versión Visual C#: \< *ruta de ejemplos*> \Admin\WMI\Enumerate Receive Locations\CSharp\  
+-   Versión Visual C#: \< *ruta de ejemplos*\>\Admin\WMI\Enumerate Receive Locations\CSharp\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -66,13 +66,13 @@ El ejemplo Enumerar ubicaciones de recepción demuestra cómo recuperar detalles
   
 1.  En una ventana de comandos, desplácese hasta una de las siguientes carpetas, en función de si va a ejecutar la versión de VBScript o la versión de Visual C# de este ejemplo, respectivamente:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Enumerate recibir Locations\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Enumerate Locations\VBScript\ de recepción  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Enumerate recibir Locations\CSharp\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Enumerate Locations\CSharp\bin\Debug\ de recepción  
   
 2.  Ejecute el archivo EnumRecLocs.vbs que usa el programa Cscript, o ejecute el archivo EnumRl.exe, en función de si va a ejecutar la versión de VBScript o la versión de Visual C# de este ejemplo, respectivamente: Para la versión de Visual C#, pase uno de los dos siguientes argumentos de línea de comandos:  
   
-    -   **\<ReceiveLocationName >.** El nombre de la ubicación de recepción para la que se mostrarán los detalles. Si el nombre de la ubicación de recepción contiene espacios, enciérrelo entre comillas.  
+    -   **\<ReceiveLocationName\>.** El nombre de la ubicación de recepción para la que se mostrarán los detalles. Si el nombre de la ubicación de recepción contiene espacios, enciérrelo entre comillas.  
   
     -   **/?.** Muestra la Ayuda.  
   
@@ -103,4 +103,4 @@ El ejemplo Enumerar ubicaciones de recepción demuestra cómo recuperar detalles
  El archivo de secuencias de comandos EnumRecLocs.vbs y el archivo de origen de Visual C# EnumRLs.cs contienen comentarios detallados con más explicaciones sobre las operaciones que realizan. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

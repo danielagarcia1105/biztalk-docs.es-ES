@@ -12,14 +12,14 @@ caps.latest.revision: "54"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3ccdc0c0f36f2dca474b962d3f108e4f287e378f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 26c296dfb2ca1f05a2f403aa31a73b67934fb23a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-for-the-wcf-adapters"></a>Problemas conocidos de los adaptadores de WCF
-En este tema se describen los problemas conocidos de los adaptadores de WCF incluidos con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+En este tema se describe los problemas conocidos de los adaptadores WCF incluidos con BizTalk Server.  
   
 ## <a name="a-message-that-fails-in-the-inbound-soap-marshaling-processing-is-not-suspended-in-wcf-receive-adapters"></a>Un mensaje que produce error en el procesamiento del cálculo de referencia de SOAP entrante no se suspende en los adaptadores de recepción WCF.  
  Cuando un mensaje llega a un adaptador de recepción WCF, el adaptador de WCF crea un mensaje de BizTalk desde el mensaje SOAP entrante y, a continuación, pasa el mensaje de BizTalk al proxy de transporte, administrado por el Gestor extremo. Si se produce un error en el adaptador al leer el sobre y el cuerpo SOAP durante la creación del mensaje de BizTalk, el mensaje no se suspende debido a que el adaptador usa el lector rápido, no almacenado en caché y progresivo para obtener acceso al mensaje SOAP.  

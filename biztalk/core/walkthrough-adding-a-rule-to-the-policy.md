@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 343dc2e9c7965ffb27a806d18944da99777dd3ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b08fc197c16f04f3eb738468421db340060b9613
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-adding-a-rule-to-the-policy"></a>Tutorial: Agregar una regla a la directiva
 Este tutorial proporciona procedimientos paso a paso para agregar una regla denominada **DeniedRule** a la **ProcessPurchaseOrder** directiva.  
@@ -58,7 +58,7 @@ Este tutorial proporciona procedimientos paso a paso para agregar una regla deno
   
 10. Arrastre **estado de la solicitud** al panel entonces.  
   
-11. Haga clic en  **\<una cadena vacía >** y, a continuación, escriba **denegado**.  
+11. Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **denegado**.  
   
 12. Haga clic en **versión 1.2 (sin guardar)**y, a continuación, haga clic en **guardar**.  
   

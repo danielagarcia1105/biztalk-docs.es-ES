@@ -20,14 +20,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6bcdeb4966da4a4b54fea826590f867e4125d2ba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2cbf8cd4c21009190fc459312467656410dc663a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adding-web-references"></a>Agregar referencias web
-Antes de que pueda agregar un puerto Web, necesitará agregar una referencia Web a su proyecto de BizTalk. Una referencia Web es una descripción de un servicio Web que se encuentra disponible en su proyecto. Cuando se agrega una referencia Web al proyecto, el proyecto de BizTalk crea una orquestación Web tipo de puerto, tipos de mensajes Web, Reference.map (archivo de asignación), Reference.odx (archivo de orquestación), \< *WebService*> .disco ( archivo de detección), y \< *WebService*> .wsdl (archivo de lenguaje de descripción de servicios Web) a su proyecto. Si su archivo de Lenguaje de descripción de servicios Web (WSDL) contiene tipos de esquemas de mensaje Web, el proyecto de BizTalk agregará Reference.xsd a su proyecto.  
+Antes de que pueda agregar un puerto Web, necesitará agregar una referencia Web a su proyecto de BizTalk. Una referencia Web es una descripción de un servicio Web que se encuentra disponible en su proyecto. Cuando se agrega una referencia Web al proyecto, el proyecto de BizTalk crea una orquestación Web tipo de puerto, tipos de mensajes Web, Reference.map (archivo de asignación), Reference.odx (archivo de orquestación), \< *WebService*\>. disco (archivo de descubrimiento) y \< *WebService*\>.wsdl (archivo de lenguaje de descripción de servicios Web) a su proyecto. Si su archivo de Lenguaje de descripción de servicios Web (WSDL) contiene tipos de esquemas de mensaje Web, el proyecto de BizTalk agregará Reference.xsd a su proyecto.  
   
  Una referencia Web incluye:  
   
@@ -45,4 +45,4 @@ Antes de que pueda agregar un puerto Web, necesitará agregar una referencia Web
   
 ## <a name="see-also"></a>Vea también  
  [Creación de puertos Web](../core/creating-web-ports.md)   
- [Consumir servicios Web](../core/consuming-web-services.md)
+ [Consumo de servicios web](../core/consuming-web-services.md)

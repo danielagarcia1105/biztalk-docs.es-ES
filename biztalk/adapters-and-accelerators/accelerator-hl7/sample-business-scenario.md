@@ -17,11 +17,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a74fafbac364469b1afdba5365c2af87cc4fa2d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78229d903461fe2b84033b036ef02b2838832fc0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="sample-business-scenario"></a>Escenario empresarial de ejemplo
 Procesos de atención sanitaria a menudo son complejos e implican muchos sistemas. Un ejemplo es el proceso que se produce cuando un paciente introduce un hospital y un médico envía al paciente para una prueba de laboratorio. Implicadas en este procedimiento son cinco partes:  
@@ -65,7 +65,7 @@ Procesos de atención sanitaria a menudo son complejos e implican muchos sistema
     3.  El motor de interfaz se envía un mensaje de correo electrónico al médico, que recibe los resultados de laboratorio en su PDA inalámbrico.  
   
 ## <a name="the-btahl7-solution"></a>La solución BTAHL7  
- El escenario empresarial de ejemplo que se ha descrito anteriormente es un ejemplo de un sistema de atención médica que necesita la integración. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona una solución para este escenario que ofrece la funcionalidad siguiente:  
+ El escenario empresarial de ejemplo que se ha descrito anteriormente es un ejemplo de un sistema de atención médica que necesita la integración. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona una solución para este escenario que ofrece la funcionalidad siguiente:  
   
 1.  [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]se integra todos los sistemas implicados en una organización de concentrador y radio. Cada sistema se comunica directamente con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. No tienen que comunicarse directamente entre ellas.  
   
@@ -82,4 +82,4 @@ Procesos de atención sanitaria a menudo son complejos e implican muchos sistema
 7.  Puede validar todos los mensajes en el motor y en el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2 esquemas X fabricado por la organización de HL7.  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server resuelve la necesidad empresarial](../../adapters-and-accelerators/accelerator-hl7/how-biztalk-server-solves-the-business-need2.md)
+ [Cómo resuelve BizTalk Server la necesidad empresarial](../../adapters-and-accelerators/accelerator-hl7/how-biztalk-server-solves-the-business-need2.md)

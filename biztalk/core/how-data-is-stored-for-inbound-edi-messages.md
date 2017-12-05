@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 60cc8743cd945ad231f3a42f9cbd4f0e76b418d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f9a395e691835f3e21622ebf5f29c2845361fb36
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-data-is-stored-for-inbound-edi-messages"></a>Cómo se almacenan los datos correspondientes a mensajes EDI de entrada
 Para generar una entrada del informe de estado correspondiente a un intercambio de entrada y a la confirmación enviada como respuesta, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:  
@@ -69,17 +69,17 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Estado de confirmación del intercambio = \< esperado o no aplicable >. Si la confirmación técnica está configurada o tiene un valor asignado en el intercambio de entrada, el estado es Esperado. En caso contrario, el estado es No aplicable.  
+-   Estado de confirmación del intercambio = \< esperado o no aplicable\>. Si la confirmación técnica está configurada o tiene un valor asignado en el intercambio de entrada, el estado es Esperado. En caso contrario, el estado es No aplicable.  
   
--   Id. de Control de confirmación del intercambio = \<sin valor >  
+-   Id. de Control de confirmación del intercambio = \<sin valor\>  
   
--   Fecha de confirmación del intercambio = \<sin valor >  
+-   Fecha de confirmación del intercambio = \<sin valor\>  
   
--   Hora de confirmación del intercambio = \<sin valor >  
+-   Hora de confirmación del intercambio = \<sin valor\>  
   
--   Código de confirmación/acción = \<sin valor >  
+-   Código de confirmación/acción = \<sin valor\>  
   
--   Código de nota de confirmación = \<sin valor >  
+-   Código de nota de confirmación = \<sin valor\>  
   
 ## <a name="data-updated-by-the-send-pipeline-for-each-technical-acknowledgment-generated-in-response-to-inbound-interchanges"></a>Datos actualizados por la canalización de envío correspondientes a cada confirmación técnica generada en respuesta a intercambios de entrada  
  Para cada confirmación técnica que envía la canalización de envío, se actualiza la entrada del informe de estado correspondiente al intercambio recibido correlacionado. Los sobres de intercambio que la canalización de envío crea serán el origen de los datos.  
@@ -128,7 +128,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Dirección de confirmación funcional = Recepción  
   
--   Estado de confirmación funcional = \< esperado o no aplicable >. Si la ficha de confirmación funcional en PAM está seleccionada, el estado se establecerá como Esperado. En caso contrario, el estado se establecerá como No aplicable.  
+-   Estado de confirmación funcional = \< esperado o no aplicable\>. Si la ficha de confirmación funcional en PAM está seleccionada, el estado se establecerá como Esperado. En caso contrario, el estado se establecerá como No aplicable.  
   
 -   Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
   
@@ -144,27 +144,27 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Número de conjuntos de transacciones = Datos (en EDIFACT esto se asigna a UNE.1 cuando se encuentran UNG/UNE o a UNZ.1 en caso de que no se encuentren segmentos de grupo)  
   
--   Identificador de Control de intercambio de confirmación funcional = \<sin valor >  
+-   Identificador de Control de intercambio de confirmación funcional = \<sin valor\>  
   
--   Fecha de intercambio de confirmación funcional = \<sin valor >  
+-   Fecha de intercambio de confirmación funcional = \<sin valor\>  
   
--   Hora de intercambio de confirmación funcional = \<sin valor >  
+-   Hora de intercambio de confirmación funcional = \<sin valor\>  
   
--   Número de conjuntos de transacciones entregados = \<sin valor >  
+-   Número de conjuntos de transacciones entregados = \<sin valor\>  
   
--   Número de conjuntos de transacciones aceptados = \<sin valor >  
+-   Número de conjuntos de transacciones aceptados = \<sin valor\>  
   
--   Código de confirmación/acción = \<sin valor >  
+-   Código de confirmación/acción = \<sin valor\>  
   
--   Código de Error de sintaxis/error = \<sin valor >  
+-   Código de Error de sintaxis/error = \<sin valor\>  
   
--   Adicionales X12 código de Error de confirmación 2 = \<sin valor >  
+-   Adicionales X12 código de Error de confirmación 2 = \<sin valor\>  
   
--   X12 adicionales 3 de código de Error de confirmación = \<sin valor >  
+-   X12 adicionales 3 de código de Error de confirmación = \<sin valor\>  
   
--   X12 adicionales 4 de código de Error de confirmación = \<sin valor >  
+-   X12 adicionales 4 de código de Error de confirmación = \<sin valor\>  
   
--   X12 adicional 5 de código de Error de confirmación = \<sin valor >  
+-   X12 adicional 5 de código de Error de confirmación = \<sin valor\>  
   
 ## <a name="data-updated-by-the-send-pipeline-for-each-functional-acknowledgment-generated-in-response-to-inbound-interchanges"></a>Datos actualizados por la canalización de envío correspondientes a cada confirmación funcional generada en respuesta a intercambios de entrada  
  Para cada confirmación funcional que envía la canalización de envío, se actualiza la entrada del informe de estado correspondiente al intercambio recibido correlacionado. Los sobres de intercambio que la canalización de envío crea serán el origen de los datos.  
@@ -227,4 +227,4 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 ## <a name="see-also"></a>Vea también  
  [Cómo se almacenan los datos para informes de estado de AS2 y EDI](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [Cómo se almacenan los datos para los mensajes EDI salientes](../core/how-data-is-stored-for-outbound-edi-messages.md)
+ [Cómo se almacenan los datos correspondientes a mensajes EDI de salida](../core/how-data-is-stored-for-outbound-edi-messages.md)

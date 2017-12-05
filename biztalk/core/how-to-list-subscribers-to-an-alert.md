@@ -16,11 +16,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d62f962847cf0e48929e11040bf1de226d567b6e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 909854abd251d94fa71ce963c3714f6d664153c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-list-subscribers-to-an-alert"></a>Cómo enumerar suscriptores de una alerta
 Los administradores utilizan el **get-subscriptions** comando para enumerar todos los suscriptores a una alerta específica.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **get-subscriptions** comando para enumerar todo
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo **bm get-subscriptions-View:\<nombre de vista >-Alert:\<nombre de la alerta >**.  
+3.  Tipo de **bm get-subscriptions-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

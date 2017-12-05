@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38ee916aaa5e158160f2096b0ba9b2678dd6b8d0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e466c4fc2a5f83f5a8445601235b53f44404a912
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="publishing-internet-facing-web-services-and-wcf-services"></a>Publicar servicios Web de conexión a Internet y servicios de WCF
 Puede utilizar varios enfoques para la publicación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicios Web y servicios WCF a Internet:  
@@ -25,12 +25,12 @@ Puede utilizar varios enfoques para la publicación [!INCLUDE[btsBizTalkServerNo
   
 -   Coloque los equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que publican los servicios Web o servicios WCF en el dominio de la red perimetral.  
   
--   Use [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] funcionalidad habilitador para publicar los servicios Web o servicios WCF como un extremo de retransmisión de Bus de servicio de AppFabric de Azure en la nube.  
+-   Utilizar la funcionalidad de habilitador de nube de BizTalk Server para publicar los servicios Web o servicios WCF como un extremo de retransmisión de Bus de servicio de AppFabric de Azure.  
   
 ## <a name="using-a-reverse-proxy"></a>Usar a un Proxy inverso  
  Esto ha sido el enfoque tradicional para la publicación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicios Web y los servicios de WCF. Usar reglas de proxy inverso en la red perimetral obvia la necesidad de tener servidores de BizTalk que se encuentran en la red perimetral. Las reglas de proxy inverso simplemente reenvían las solicitudes HTTP y SOAP desde la red perimetral a los equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el dominio de la intranet.  
   
- Para obtener más información sobre el uso de un proxy inverso, vea los temas siguientes en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda:  
+ Para obtener más información sobre el uso de un proxy inverso, vea los temas siguientes en la Ayuda de BizTalk Server:  
   
 -   ["Ejemplo de arquitectura: adaptadores SOAP y HTTP"](http://go.microsoft.com/fwlink/?LinkId=153339) (http://go.microsoft.com/fwlink/?LinkId=153339).  
   

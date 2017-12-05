@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca9f035eb97190c5a8999f73138d371e7dfddf98
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67fd3d34f25dd409121a3a21c9eb419b4aadce6e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-update-and-deploy-the-tutorial-solution"></a>Paso 2: Actualizar e implementar la solución del Tutorial
 ![Paso 2 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  En el árbol de consola de la **páginas de propiedades de Inbound_EDI** cuadro de diálogo, seleccione **implementación** y en el **Server** campo asegurarte de que se especifique el nombre del equipo.  
   
-5.  En el árbol de consola, haga clic en **firma** y, a continuación, seleccione **firmar el ensamblado**. Para **elegir un archivo de nombre de clave seguro**, seleccione \< **nuevo...** > y escriba **keyfile.snk** como el **nombre de archivo de clave**. Desactive **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**.  
+5.  En el árbol de consola, haga clic en **firma** y, a continuación, seleccione **firmar el ensamblado**. Para **elegir un archivo de nombre de clave seguro**, seleccione \< **nuevo...**  \> y escriba **keyfile.snk** como el **nombre de archivo de clave**. Desactive **proteger mi archivo de clave con una contraseña** y, a continuación, haga clic en **Aceptar**.  
   
 6.  Cerrar la **páginas de propiedades de Inbound_EDI** cuadro de diálogo.  
   
@@ -59,10 +59,10 @@ ms.lasthandoff: 09/20/2017
   
 4.  En el Explorador de soluciones, haga clic en el **Inbound_EDI** de proyecto y seleccione **implementar** para implementar el proyecto.  
   
-5.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, expanda **administración de BizTalk Server**, **grupo de BizTalk**, **aplicaciones**, \<  **Todos los artefactos**> y, a continuación, seleccione **recursos**. Compruebe que la **Inbound_EDI** ensamblado.  
+5.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, expanda **administración de BizTalk Server**, **grupo de BizTalk**, **aplicaciones**, \<  **Todos los artefactos** \> y, a continuación, seleccione **recursos**. Compruebe que la **Inbound_EDI** ensamblado.  
   
 ## <a name="next-steps"></a>Pasos siguientes  
  Configurar un perfil de entidad y de negocio para su organización (**OrderSystem**), tal y como se describe en [paso 3: configurar una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization1.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 1: Preparar el Tutorial de programadores de la interfaz EDI](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)
+ [Paso 1: Prepara el tutorial de programadores de interfaces de EDI](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)

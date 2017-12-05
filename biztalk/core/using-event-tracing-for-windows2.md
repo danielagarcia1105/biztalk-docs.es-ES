@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95495448bb7b92f30911d4d33b3456fa5cef9bb1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3c5f610d75048b250fc90aba7f723cee39c4f2e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta Seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl: por ejemplo, tracerpt.exe o tracedmp.exe.  
@@ -38,7 +38,7 @@ Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de erro
   
      Para que la aplicación de consumidor pueda leer el evento en el archivo .etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente, esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción en tiempo real,  **\<tiempo Real > = -rt**.  
+     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción en tiempo real,  **\<tiempo Real\> = -rt**.  
   
 -   **Proveedor.** Proporciona el evento.  
   
@@ -46,15 +46,15 @@ Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de erro
   
  BizTalk Adapter para JD Edwards OneWorld tiene cinco proveedores, que permiten registrar diferentes clases de mensajes:  
   
--   **Proveedor de registro de receptor.** El \<elemento de seguimiento > es el conmutador **-receptor**.  
+-   **Proveedor de registro de receptor.** El \<elemento Trace\> conmutador **-receptor**.  
   
--   **Proveedor CastDetails de receptor.** El \<elemento de seguimiento > es el conmutador **- castDetailsReceive**.  
+-   **Proveedor CastDetails de receptor.** El \<elemento Trace\> conmutador **- castDetailsReceive**.  
   
--   **Proveedor de registro de transmisor.** El \<elemento de seguimiento > es el conmutador **-transmisor**.  
+-   **Proveedor de registro de transmisor.** El \<elemento Trace\> conmutador **-transmisor**.  
   
--   **Proveedor CastDetails de transmisor.** El \<elemento de seguimiento > es el conmutador **- castDetailsTransmit**.  
+-   **Proveedor CastDetails de transmisor.** El \<elemento Trace\> conmutador **- castDetailsTransmit**.  
   
--   **Proveedor de registro de administración.** El \<elemento de seguimiento > es el conmutador **-administración**.  
+-   **Proveedor de registro de administración.** El \<elemento Trace\> conmutador **-administración**.  
   
  Comando BTAJDEOneWorldTrace  
   
@@ -68,7 +68,7 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
  Donde:  
   
--   **\<Elemento trace >** (obligatorio) es el tipo de proveedor.  
+-   **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
   
 -   Las opciones son:  
   
@@ -84,9 +84,9 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
     -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   
-    -   **-cir \<MB >**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB >: tamaño en meg.  
+    -   **-cir \<MB\>**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB\>: tamaño en meg.  
   
-    -   **-seq \<MB >**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB >: tamaño en meg.  
+    -   **-seq \<MB\>**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB\>: tamaño en meg.  
   
     -   **-rt**: activar el modo de tiempo real.  
   

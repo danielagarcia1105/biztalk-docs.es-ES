@@ -18,11 +18,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d146dbeaa94d47799794de7fa6f9e6b9082f9fa5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fc9e1a520153220bcc86d844ca94203ff2b78548
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="message-inspector-pipeline-component"></a>Componente de canalización del inspector de mensajes
 Este componente de canalización le permite examinar todas las partes de un mensaje de varias partes y el contexto del mensaje para determinar si hay un problema con el mensaje. Este componente se usa para solucionar problemas.  
@@ -32,17 +32,17 @@ Este componente de canalización le permite examinar todas las partes de un mens
  Debe generar este componente en una canalización personalizada y adjuntarlo a un puerto de envío. Cree un filtro en el puerto de envío para suscribirse a los mensajes que desea supervisar. Esta solución de problemas se produce en adición al procesamiento estándar que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ya lleva a cabo.  
   
 ## <a name="building-a-custom-pipeline-using-the-message-inspector-pipeline-component"></a>Generación de una canalización personalizada mediante el componente de canalización del inspector de mensajes  
- Para usar el componente de canalización del inspector de mensajes, debe generar e implementar una canalización personalizada que incluya el componente. Para obtener más información, vea "Crear canalizaciones con Diseñador de canalizaciones" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para usar el componente de canalización del inspector de mensajes, debe generar e implementar una canalización personalizada que incluya el componente. Para obtener más información, vea "Crear canalizaciones con Diseñador de canalizaciones" en la Ayuda de BizTalk Server.  
   
 #### <a name="to-deploy-the-message-inspector-pipeline-component"></a>Para implementar el componente de canalización del inspector de mensajes  
   
-1.  Inicie [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Inicie Visual Studio.  
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
 3.  Vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component, seleccione **MessageInspector.csproj**y haga clic en **Abrir**.  
   
-4.  Abra el [!INCLUDE[vs2012](../../includes/vs2012-md.md)] símbolo del sistema.  
+4.  Abra el símbolo del sistema de Visual Studio.  
   
 5.  En el símbolo del sistema, vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug.  
   

@@ -7,25 +7,19 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- BAM, limitations
-- infrastructure, BAM
-- BAM, objects
-- BAM, infrastructure
-- BAM, naming conventions
 ms.assetid: e33d2f6c-8d26-4a76-810e-85d810cfdbee
 caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bfb8751e42918a64f13d35685d7d73b4f2406ff8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e42b2a6af04c2ff5d76d8ffb9489dfc2b92b6689
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-infrastructure-limitations"></a>Limitaciones de la infraestructura de BAM
-La infraestructura de BAM está sujeta a las siguientes limitaciones de diseño para esta versión de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+La infraestructura de BAM tiene las siguientes limitaciones de diseño para esta versión de BizTalk Server:  
   
 -   Las agregaciones en tiempo real (ATR) no admiten las funciones MIN o MAX.  
   
@@ -50,7 +44,7 @@ La infraestructura de BAM está sujeta a las siguientes limitaciones de diseño 
 |Niveles de dimensión de OLAP|64|Limitación de OLAP con un límite adicional de 256 niveles por cubo.|  
 |Niveles de dimensión en la vista ATR|14 niveles de dimensión|BAM crea un índice en todos los niveles de dimensión. Se puede crear un índice del servidor SQL Server en un máximo de 16 columnas, y BAM reserva dos para columnas del sistema.|  
 |Medidas, medidas ocultas (número predeterminado, medidas SUM ocultas para AVG) y niveles de dimensión en la vista ATR|1,024|Máximo de 1.024 columnas en tabla o vista SQL|  
-|ActivityViews|63|Cuando configure una alerta estará limitado a 63 ActivityViews bajo [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)].|  
+|ActivityViews|63|Al configurar una alerta, estará limitado a 63 ActivityViews bajo SQL Server.|  
   
 ## <a name="bam-object-names"></a>Nombres de objeto de BAM  
  En la tabla siguiente se enumeran las limitaciones de nombres de objeto del esquema de definiciones de BAM y de la hoja de cálculo de Microsoft Excel.  

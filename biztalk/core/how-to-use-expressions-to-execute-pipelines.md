@@ -31,11 +31,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5a6090e0d7322a0e5b10d13016c073b73074392
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 08f5933d3592d391087196f31185e279c40c4836
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-expressions-to-execute-pipelines"></a>Cómo usar expresiones para ejecutar canalizaciones
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene la capacidad de llamar de forma sincrónica a una canalización desde una orquestación. Esto permite a las orquestaciones aprovechar el procesamiento de mensajes encapsulado en una canalización (tanto envío como recepción) frente a un conjunto de datos sin tener que enviar los datos a través de la infraestructura de mensajería.  
@@ -152,9 +152,9 @@ ms.lasthandoff: 09/20/2017
   
  El **mensaje** propiedad de la **XLANGPipelineManagerException** clase contiene detalles del error de ejecución de la canalización. Estos datos tienen el siguiente formato:  
   
--   Se produjo un error al ejecutar canalización \<tipo de canalización >.  Detalles del error \<con el formato de mensaje de error >.  
+-   Se produjo un error al ejecutar canalización \<tipo de canalización\>.  Detalles del error \<con el formato de mensaje de error\>.  
   
- En este mensaje, \<tipo de canalización > es el nombre de la clase de canalización y \<mensaje de error con formato > es una descripción del error específico que se produjeron durante la ejecución de la canalización.  
+ En este mensaje, \<tipo de canalización\> es el nombre de la clase de canalización y \<con el formato de mensaje de error\> es una descripción del error específico que se produjeron durante la ejecución de la canalización.  
   
  Por ejemplo, si una orquestación llama a una canalización de recepción y se produce un error en la ejecución de dicha canalización porque ninguno de los componentes de la canalización reconoce el mensaje, los valores de la **XLANGPipelineManagerException**de propiedades sería puede:  
   
@@ -167,5 +167,5 @@ ms.lasthandoff: 09/20/2017
   
 |Propiedad XLANGPipelineManagerException|Valor|  
 |--------------------------------------------|-----------|  
-|de mensaje|Error al ejecutar la canalización de envío "MyPipelines.SendPipeline".  Detalles del error: "no se pudo validar el documento:" la \<nombre del elemento > elemento no es válido - el valor \<valor del elemento > no es válido según su tipo de datos 'String': la restricción de patrón no se pudo. ""|  
+|de mensaje|Error al ejecutar la canalización de envío "MyPipelines.SendPipeline".  Detalles del error: "no se pudo validar el documento:" la \<nombre del elemento\> elemento no es válido - el valor \<valor del elemento\> no es válido según su tipo de datos 'String': la restricción de patrón no se pudo. ""|  
 |Componente|“Microsoft.BizTalk.Component.XmlValidator”|

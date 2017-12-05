@@ -16,11 +16,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 75cc2fa6a7e4f6318818534f6b3f99323f1d8ddf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb8bf8d87f7868367c252cdc75842b234cb06ff9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manually-purge-data-from-the-biztalk-tracking-database"></a>Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk
 El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar manualmente los datos de la base de datos de seguimiento de BizTalk (BizTalkDTADb) debido a la continua purga de la base de datos y a la compactación de los datos de seguimiento almacenados. Es posible que tenga que efectuar una purga manual cuando la base de datos de seguimiento de BizTalk (BizTalkDTADb) haya crecido tanto como para ocasionar una pérdida continua de rendimiento y el trabajo DTA Archive and Purge no pueda hacer frente al crecimiento de la base de datos.  
@@ -103,9 +103,9 @@ El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar 
   
 21. En el símbolo del sistema, reinicie cada uno de los servicios IIS que detuvo en el paso 4. Tipo:  
   
-     **Net start**  *\<IISserviceName >*  
+     **Net start**  *\<IISserviceName\>*  
   
-     Donde  *\<IISserviceName >* es el nombre del servicio IIS que desea reiniciar. Deberá repetir este comando para cada uno de los servicios IIS.  
+     Donde  *\<IISserviceName\>*  es el nombre del servicio IIS que desea reiniciar. Deberá repetir este comando para cada uno de los servicios IIS.  
   
 ## <a name="see-also"></a>Vea también  
  [Archivar y purgar la base de datos de seguimiento de BizTalk](../core/archiving-and-purging-the-biztalk-tracking-database.md)   

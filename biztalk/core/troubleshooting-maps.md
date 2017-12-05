@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fbb5800ba076184f09f0159f030a44e169ac742b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7bb7b3dc8356172989c215dc13e5fd82e46f4689
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-maps"></a>Solución de problemas de los mapas
 En este tema se proporcionan estrategias de solución de problemas, así como detalles de problemas de las asignaciones e información para su resolución.  
@@ -56,7 +56,7 @@ En este tema se proporcionan estrategias de solución de problemas, así como de
   
  Si decide personalizar la asignación a mano, puede modificar la versión que el compilador de asignaciones ha producido. El Asignador no reflejará los cambios y éstos se perderán la siguiente vez que cree la solución.  
   
-### <a name="tune-your-map-for-specific-scenarios-using-mapsource"></a>Ajuste la asignación para determinados escenarios mediante \<mapsource >  
+### <a name="tune-your-map-for-specific-scenarios-using-mapsource"></a>Ajuste la asignación para determinados escenarios mediante \<mapsource\>  
  Puede modificar algunos comportamientos predeterminados del asignador mediante la modificación de atributos de la **mapsource** elemento directamente en un archivo de origen (.btm) de asignación. Hay tres comportamientos que puede modificar:  
   
 -   **Optimizar la generación de código de functoid de asignación de valores**. También puede modificar el comportamiento que controla cuando se usa una variable con `if` instrucciones.  
@@ -65,7 +65,7 @@ En este tema se proporcionan estrategias de solución de problemas, así como de
   
 -   **Administrar el uso de for-each con functoids de bucle condicional y asignación de valores**. Puede controlar dónde el `xsl:for-each` instrucción se usa en el esquema de destino.  
   
- Para obtener más información acerca de cómo modificar **mapsource**, consulte [administrar usando de comportamiento en el asignador predeterminado \<mapsource >](../core/managing-default-mapper-behavior-using-mapsource.md).  
+ Para obtener más información acerca de cómo modificar **mapsource**, consulte [administrar usando de comportamiento en el asignador predeterminado \<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Solución de problemas de preguntas y respuestas de general](../core/general-troubleshooting-questions-and-answers.md)   

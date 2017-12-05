@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26c9e4551abcbd0fba32b21fb8e4205bece6e82f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42ad36873c5b252afb185f5e341de923942dea73
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="flat-file-messages-with-positional-records"></a>Mensajes de archivo sin formato con registros posicionales
 Los registros posicionales dentro de un mensaje de instancia de archivo sin formato contienen campos (elementos de datos) y cada uno de ellos tiene una longitud predefinida. Los campos se analizan según estas longitudes. Por ejemplo, considere el siguiente registro posicional de un mensaje de instancia de archivo sin formato que contiene una dirección de envío (la primera línea muestra el número de caracteres reservados para cada campo).  
@@ -65,7 +65,7 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
 -   Registros posicionales con longitudes de campo especificadas como un número determinado de bytes en vez de como un número específico de caracteres. Para obtener más información, consulte [contar posiciones en Bytes](../core/position-counting-in-bytes.md).  
   
- Para ayudarle a comprender mejor cómo trabajar con archivos sin formato posicionales, vea los ejemplos disponibles en las carpetas FlatFileReceive y FlatFileSend que se encuentran en \Program [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
+ Para ayudarle a comprender mejor cómo trabajar con archivos sin formato posicionales, vea los ejemplos disponibles en las carpetas FlatFileReceive y FlatFileSend que se encuentran en \Program BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler\\.  
   
 > [!NOTE]
 >  Si el archivo sin formato contiene registros delimitados y posicionales, debe establecer el **estructura** propiedad del nodo raíz a **delimitado** y **estructura** propiedad de los subordinados a cualquiera de los nodos Registro **delimitado** o **posicional** según corresponda.  

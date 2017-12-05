@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e352eb3ffb5418d7d109b5c0f574689c67f969f4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 374fc67f0a4b750aa1f797d57778f68347383736
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="applicationmanager-biztalk-server-sample"></a>ApplicationManager (ejemplo de BizTalk Server)
 El ejemplo de ApplicationManager muestra cómo iniciar o detener una aplicación de BizTalk mediante los objetos de administración.  
@@ -39,7 +39,7 @@ El ejemplo de ApplicationManager muestra cómo iniciar o detener una aplicación
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\ApplicationManager  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\ApplicationManager  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -60,13 +60,13 @@ El ejemplo de ApplicationManager muestra cómo iniciar o detener una aplicación
   
 1.  Abra una ventana de comandos y desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\ApplicationManager\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\ApplicationManager\bin\Debug  
   
 2.  Ejecute el archivo ApplicationManager.exe y proporcione los dos siguientes argumentos de línea de comandos en el orden indicado:  
   
-    -   **\<Iniciar &#124; detener >** primer argumento es la operación que se realizará en la aplicación implementada.  
+    -   **\<Iniciar &#124; detener\>**  primer argumento es la operación que se realizará en la aplicación implementada.  
   
-    -   **\<Nombre de aplicación >** segundo argumento es el nombre de la aplicación implementada.  
+    -   **\<ApplicationName\>**  segundo argumento es el nombre de la aplicación implementada.  
   
      Por ejemplo:  
   
@@ -136,4 +136,4 @@ Issuing start command to MyBizTalkApp ...
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

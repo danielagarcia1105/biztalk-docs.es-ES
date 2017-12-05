@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e9451ecb9cbeaf2077712f6e6b55a36dab7988c2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 55894eca1baa8ca6616c67f623a87e8015a2f32f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-viewing-and-deleting-fault-message-alerts"></a>Crear, ver y eliminar las alertas de mensaje de error
 El Portal de administración de ESB pueden generar alertas cuando llegan los mensajes de error en el portal, basándose en una comparación de valores en el mensaje con los criterios especificados para la alerta. El portal también puede mantener una lista de notificaciones de alertas vinculado a una persona y los usuarios, y notificará a estos usuarios cuando proactivamente genera alertas.  
@@ -29,7 +29,7 @@ El Portal de administración de ESB pueden generar alertas cuando llegan los men
   
 3.  En el **escriba el nombre de alerta** cuadro de texto, escriba un nombre para la nueva alerta.  
   
-4.  En el **condiciones** sección de la página Agregar alerta, seleccione un campo (como **aplicación**, **tipo de Error**, o **gravedad de error**) en el **Criterios** lista desplegable; seleccione un tipo de comparación (como +, =,! =, > =, \<=, o **como**) en el **operador** lista desplegable; y tipo o seleccione un valor en el tercer cuadro de lista o de texto (denominado **valor**). Al seleccionar un **criterios** valor, la página cambia para mostrar un cuadro de texto o una lista desplegable para el valor coincidente. Todas las condiciones se combinan con el **AND** operador.  
+4.  En el **condiciones** sección de la página Agregar alerta, seleccione un campo (como **aplicación**, **tipo de Error**, o **gravedad de error**) en el **Criterios** lista desplegable; seleccione un tipo de comparación (como +, =,! =, > =, < =, o **como**) en el **operador** lista desplegable y escriba o seleccione un valor de la tercero lista o cuadro de texto (denominado **valor**). Al seleccionar un **criterios** valor, la página cambia para mostrar un cuadro de texto o una lista desplegable para el valor coincidente. Todas las condiciones se combinan con el **AND** operador.  
   
 5.  Haga clic en el **agregar** use el vínculo para agregar esta condición a la lista y, a continuación, repita el paso anterior para agregar más condiciones Si es necesario.  
   

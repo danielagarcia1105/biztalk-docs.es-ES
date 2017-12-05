@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f13e4539fca9a14e7827afcb092af76e03f8acc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00000896eb4cb97e44ed51602675fc65495552be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a-file-not-found-exception-occurred-while-reflecting-a-biztalk-assembly"></a>Excepción de archivo no encontrado al reflejar el ensamblado de BizTalk
 ## <a name="details"></a>Detalles  
@@ -37,8 +37,8 @@ ms.lasthandoff: 09/20/2017
 ## <a name="user-action"></a>Acción del usuario  
  Además de las acciones especificadas en el mensaje de error, mueva el ensamblado de referencia a la memora caché global de ensamblados o cópielo en la misma ubicación que el ensamblado de BizTalk.  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione  **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** y, a continuación, haga clic en  **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** .  
+1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Visual Studio**y, a continuación, haga clic en **Visual Studio**.  
   
 2.  Abra un símbolo del sistema.  
   
-3.  Vaya a la ubicación del ensamblado y escriba **gacutil /I /\<***nombre de ensamblado***> .dll**
+3.  Vaya a la ubicación del ensamblado y escriba **gacutil /I /\<***nombre de ensamblado***\>.dll**

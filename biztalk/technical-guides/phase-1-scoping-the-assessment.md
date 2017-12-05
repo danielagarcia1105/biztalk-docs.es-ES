@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 16ab4286ba70a8bb14ae5ec726d17b3bde81d7fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d0d3cc9d02f9e68c171f950e7681e5f2ca2d787
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="phase-1-scoping-the-assessment"></a>Fase 1: La evaluación de ámbito de
 En este tema se describe los aspectos de la fase de ámbito de una evaluación del rendimiento de BizTalk Server.  
@@ -27,7 +27,7 @@ En este tema se describe los aspectos de la fase de ámbito de una evaluación d
  Los siguientes factores deben considerarse antes de que cualquier otro trabajo se realiza para una evaluación del rendimiento. Estos factores le ayudará a decidir la dirección general de la fase de ámbito y son un buen punto de partida para una evaluación del rendimiento.  
   
 ### <a name="message-load"></a>Carga de mensajes  
- Es importante tener en cuenta directamente desde el principio de cómo se van a replicar la carga de mensajes que se destina a través del sistema de producción. Por ejemplo, si se van a 20 por ciento de los mensajes en producción < 20KB de tamaño, será el 50 por ciento \<100 KB de tamaño y el 30 por ciento restante puede ser de hasta 1 MB de tamaño, es importante que esto se repliquen en el laboratorio.  
+ Es importante tener en cuenta directamente desde el principio de cómo se van a replicar la carga de mensajes que se destina a través del sistema de producción. Por ejemplo, si se van a 20 por ciento de los mensajes en producción < 20KB de tamaño, será el 50 por ciento < 100KB de tamaño y el 30 por ciento restante puede ser de hasta 1 MB de tamaño, es importante que esto se repliquen en el laboratorio.  
   
 ### <a name="develop-a-brief-detail-of-the-scenarios-to-be-tested"></a>Desarrollar un detalle breve de los escenarios que se va a probar  
  Después de haber identificado los casos de prueba que se probará, es importante identificar los principales componentes que intervienen en ellos. Esto incluye los componentes de BizTalk Server (como la mensajería y orquestaciones) y otros componentes, incluidas las tecnologías de terceros como MQSeries o SAP. Es muy importante que esté al corriente de todos estos desde el principio le ayudará a medir la complejidad del laboratorio y le permitirá planear los conocimientos técnicos necesarios durante la contratación.  
@@ -278,10 +278,10 @@ En este tema se describe los aspectos de la fase de ámbito de una evaluación d
   
     |Estado|Rendimiento|Latencia media|% < 2 segundos|número de ejecuciones de pruebas|número de equipos de servidor BizTalk Server|número de mensajes|Tamaño medio del mensaje|Duración|  
     |------------|----------------|---------------------|-------------------|---------------------|------------------------------------|--------------------|--------------------------|--------------|  
-    |Escalar horizontalmente|140 mensajes/segundo|0.777 segundos|99.3%|2|6|270,000|bytes 609|30 minutos|  
+    |Escalabilidad horizontal|140 mensajes/segundo|0.777 segundos|99.3%|2|6|270,000|bytes 609|30 minutos|  
     |Mejor|50 mensajes/segundo|1.12 segundos|99.12%|17|2|360,000|bytes 609|2 horas|  
     |Línea de base|30 mensajes por segundo|segundos 1.52|92.9 %|4|2|36,000|bytes 609|20 minutos|  
-    |Objetivos|5 mensajes/segundo|\<2 segundos|90%|-|2|-|-|-|  
+    |Objetivos|5 mensajes/segundo|< 2 segundos|90%|-|2|-|-|-|  
   
 ## <a name="define-all-deliverables-that-are-required-at-the-onset-of-the-performance-assessment"></a>Definir todos los productos que son necesarios al comienzo de la evaluación del rendimiento  
  Es importante están de acuerdo en las entregas que deben cumplirse antes de embarcarse en una evaluación del rendimiento de BizTalk Server. La siguiente sección describe las entregas que deben cumplirse al comienzo de la evaluación del rendimiento.  
@@ -341,4 +341,4 @@ En este tema se describe los aspectos de la fase de ámbito de una evaluación d
 -   **Planeación para automatizar las pruebas de carga y generación de carga** -después de establece el perfil de datos de prueba para la evaluación del rendimiento, es importante tener en cuenta cómo realizar dentro del entorno de prueba de carga. Para la prueba de carga de BizTalk Server 2010, hemos usado la prueba de carga de Visual Studio 2010. Para obtener más información acerca de cómo facilitar la prueba de carga mediante Visual Studio 2010, vea [con Visual Studio para facilitar las pruebas automatizadas](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Fases de una evaluación del rendimiento](../technical-guides/phases-of-a-performance-assessment.md)
+ [Fases de una valoración del rendimiento](../technical-guides/phases-of-a-performance-assessment.md)

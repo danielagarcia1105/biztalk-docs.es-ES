@@ -21,11 +21,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c49ca06bb8177f76344cdb8ff14c612a7aa52a71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ea033770504b0e0024a831e0ad8d8727603046e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-or-editing-an-agreement"></a>Crear o editar un acuerdo
 En este tema se describe cómo crear o editar un acuerdo entre socios comerciales. Un acuerdo entre socios comerciales configura la relación entre dos socios comerciales, incluidos sus identidades; el proceso de la interfaz de socio (PIP); la acción de señal y sincronizar las direcciones URL; y los protocolos asociados.  
@@ -54,9 +54,9 @@ En este tema se describe cómo crear o editar un acuerdo entre socios comerciale
 |**General**|**Acuerdo de 0A1**|Si [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] devolverá un mensaje de notificación de error (PIP 0A1) cuando se produce un error.<br /><br /> Puede ser **No 0A1** (valor predeterminado) o **0A1**.<br /><br /> Debe ser **No 0A1** para CIDX.|  
 |**General**|**Uso**|Indica el tipo de escenario que usará el acuerdo.<br /><br /> Puede ser **prueba** (valor predeterminado) o **producción**.|  
 |**General**<br /><br /> (**Adaptador de la aplicación** área)|**Nombre del ensamblado**|El nombre de archivo de la ApplicationAdapter que se puede seleccionar desde el sistema de archivos.<br /><br /> El valor predeterminado es una cadena vacía.|  
-|**General**<br /><br /> (**Área de adaptador de la aplicación**)|**Nombre de clase**|El nombre de la clase que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] usará desde el ApplicationAdapter.<br /><br /> El valor predeterminado es \<ninguno >.|  
+|**General**<br /><br /> (**Área de adaptador de la aplicación**)|**Nombre de clase**|El nombre de la clase que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] usará desde el ApplicationAdapter.<br /><br /> El valor predeterminado es \<ninguno\>.|  
 |**General**<br /><br /> (**Área de adaptador de validación**)|**Nombre del ensamblado**|El nombre de archivo de la ValidationAdapter que se puede seleccionar desde el sistema de archivos. El valor predeterminado es una cadena vacía.|  
-|**General**<br /><br /> (**Área de adaptador de validación**)|**Nombre de clase**|El nombre de la clase que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] usará desde el ValidationAdapter.<br /><br /> El valor predeterminado es \<ninguno >.|  
+|**General**<br /><br /> (**Área de adaptador de validación**)|**Nombre de clase**|El nombre de la clase que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] usará desde el ValidationAdapter.<br /><br /> El valor predeterminado es \<ninguno\>.|  
 |**Puertos**|**Dirección URL de acción**|La dirección URL a la que la organización principal transmitirá un mensaje de acción. Por ejemplo, http://FabrikamServer/BTARNApp/RNIFReceive.aspx.<br /><br /> Este es un campo obligatorio si se cumplen las siguientes condiciones:<br /><br /> -El **es sincrónico** valor de la configuración del proceso es `False`.<br /><br /> -El **es la única acción** valor de la configuración del proceso es `True`.<br /><br /> -El **rol principal** configuración del acuerdo es **iniciador**.<br /><br /> Esto también es un campo obligatorio si se cumple la siguiente (en cuyo caso, el **dirección URL de la señal** campo también es obligatorio):<br /><br /> -El **es sincrónico** valor de la configuración del proceso es `False`.<br /><br /> -El **es la única acción** valor de la configuración del proceso es `False`.<br /><br /> -Se debe especificar un URI válido en este campo, que comienza por "http://domain" o "https://domain".|  
 |**Puertos**|**Dirección URL de señal**|La dirección URL a la que la organización principal transmitirá un mensaje de señal. Por ejemplo, http://FabrikamServer/BTARNApp/RNIFReceive.aspx.<br /><br /> Este es un campo obligatorio si se cumplen las siguientes:<br /><br /> -El **es sincrónico** valor de la configuración del proceso es `False`.<br /><br /> -El **es la única acción** valor de la configuración del proceso es `True`.<br /><br /> -El **rol principal** configuración del acuerdo es **Respondedor**.<br /><br /> Esto también es un campo obligatorio si se cumple la siguiente (en cuyo caso, el **dirección URL de acción** campo también es obligatorio):<br /><br /> -El **es sincrónico** valor de la configuración del proceso es `False`.<br /><br /> -El **es la única acción** valor de la configuración del proceso es `False`.<br /><br /> Debe especificar un URI válido en este campo, que comienza por "http://domain" o "https://domain".|  
 |**Puertos**|**Dirección URL de la sincronización**|La dirección URL que usará la organización principal para establecer una conexión a través del adaptador HTTP. Por ejemplo, http://FabrikamServer/BTARNApp/RNIFReceive.aspx.<br /><br /> Este es un campo obligatorio si se cumplen las siguientes:<br /><br /> -El **es sincrónico** valor de la configuración del proceso es `True`.<br /><br /> -El **rol principal** configuración del acuerdo es **iniciador**.<br /><br /> Debe especificar un URI válido en este campo, que comienza por "http://domain" o "https://domain".|  
@@ -96,10 +96,10 @@ En este tema se describe cómo crear o editar un acuerdo entre socios comerciale
   
 3.  Haga clic en el acuerdo que desea editar y, a continuación, haga clic en **propiedades**.  
   
-4.  En el  **\<**  *nombre del contrato*  **>**  cuadro de diálogo de propiedades de la **General** y  **Póngase en contacto con propiedades** pestañas, cambiar la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
+4.  En el  **\<**  *nombre del contrato*  **\>**  cuadro de diálogo de propiedades de la **General** y  **Póngase en contacto con propiedades** pestañas, cambiar la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
   
 5.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar la configuración, certificados, las bases de datos y seguridad](manage-configuration-certificates-databases-security.md)   
- [Administrar la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [Administración de la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

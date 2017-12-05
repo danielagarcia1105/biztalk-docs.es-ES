@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c1b1dd0a6e11a1755bb69782f88f1a5a4b8b0067
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 840435ce334863a4b76e6ac7da0d8dd64e7d4937
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="connect-to-the-oracle-database-using-windows-authentication"></a>Conectarse a la base de datos de Oracle mediante la autenticación de Windows
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] permite a los clientes de adaptador utilizar la autenticación de Windows para establecer una conexión con la base de datos de Oracle. Para usar la autenticación de Windows, deben especificar los clientes de adaptador "/" para el nombre de usuario y deje en blanco la contraseña. Para obtener más información sobre cómo conectarse a la base de datos de Oracle mediante la autenticación de Windows, vea [conectar con base de datos de Oracle en Visual Studio mediante el servicio de adaptador](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md).  
@@ -34,13 +34,13 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] permite a los c
 3.  Cree el usuario de Windows como un usuario externo en la base de datos de Oracle. Tenga en cuenta que el nombre de usuario debe estar en mayúsculas.  
   
     ```  
-    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME>” IDENTIFIED EXTERNALLY;  
+    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
     ```  
   
 4.  Conceder privilegios para el usuario.  
   
     ```  
-    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME>”;  
+    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
     ```  
   
 5.  Para habilitar al usuario recién creado, inicia sesión con autenticación de Windows, para tener acceso a los artefactos de base de datos de Oracle, puede cambiar el esquema del usuario en el esquema SCOTT. Puede agregar el siguiente comando SQL a la secuencia de comandos de inicio de sesión que cambia el esquema predeterminado del usuario a SCOTT cuando el usuario inicia sesión.  

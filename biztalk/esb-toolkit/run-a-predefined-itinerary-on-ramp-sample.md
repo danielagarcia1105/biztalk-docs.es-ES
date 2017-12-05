@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 167d18f0eba624d62b03b3b0a5386fcac04e5b18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38320cc6877815ccbf7b078190a3c2be1c6f74b0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-a-predefined-itinerary-on-ramp-sample"></a>Ejecutar un ejemplo en rampa itinerario predefinido
 El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye 20 casos de uso de itinerario predefinidos pueden ejecutar. Para obtener una lista de estos casos de uso, consulte [los escenarios de ejemplo de itinerario](../esb-toolkit/the-sample-itinerary-scenarios.md).  
@@ -55,7 +55,7 @@ El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye 20 casos de uso 
     position="0" serviceInstanceId="" />  
 ```  
   
- El servicio de orquestación en este  **\<servicio >** elemento especifica la orquestación de enlace directo que tiene las propiedades de filtro se muestra en la figura 2. Tenga en cuenta que la orquestación se suscribe sólo a los mensajes que tienen el valor **Microsoft.Practices.ESB.Services.Transform** para el **ServiceName** propiedad de contexto, el valor  **Pendiente** para el **ServiceState** propiedad de contexto y el valor de la orquestación para la **ServiceType** propiedad de contexto.  
+ El servicio de orquestación en este  **\<servicio\>**  elemento especifica la orquestación de enlace directo que tiene las propiedades de filtro se muestra en la figura 2. Tenga en cuenta que la orquestación se suscribe sólo a los mensajes que tienen el valor **Microsoft.Practices.ESB.Services.Transform** para el **ServiceName** propiedad de contexto, el valor  **Pendiente** para el **ServiceState** propiedad de contexto y el valor de la orquestación para la **ServiceType** propiedad de contexto.  
   
  ![Expresión de filtro](../esb-toolkit/media/ch6-filterexpression.gif "Ch6-FilterExpression")  
   

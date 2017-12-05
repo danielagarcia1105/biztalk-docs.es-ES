@@ -12,25 +12,25 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6cc357809ecc446c0c282f6a4f8fa46ad7392a53
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d65bd37e6ad9c8b8b196df6092a0573d2774a756
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-tables-that-have-large-data-types-in-oracle-e-business-suite"></a>Trabajar con tablas que tienen tipos de datos de gran tamaño en Oracle E-Business Suite
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador realizar operaciones en tablas de interfaz y las vistas con tipos de datos de gran tamaño como BLOB, CLOB, NCLOB y BFILE.  
   
--   Para las columnas de tipo BLOB, CLOB y NCLOB el adaptador permite a los clientes leer, así como actualizar los datos. El adaptador expone Read_\<LOBColName > y Update_\<LOBColName > operations para leer y actualizar datos respectivamente, donde \<LOBColName > es el nombre de columna con el tipo de datos de gran tamaño. Si hay más de una columna con el tipo de datos de gran tamaño en una tabla única interfaz, el adaptador expone muchas leerán y actualización operaciones para esa tabla de interfaz.  
+-   Para las columnas de tipo BLOB, CLOB y NCLOB el adaptador permite a los clientes leer, así como actualizar los datos. El adaptador expone Read_\<LOBColName\> y Update_\<LOBColName\> operations para leer y actualizar datos respectivamente, donde \<LOBColName\> es el nombre de columna con grandes tipo de datos. Si hay más de una columna con el tipo de datos de gran tamaño en una tabla única interfaz, el adaptador expone muchas leerán y actualización operaciones para esa tabla de interfaz.  
   
--   Para las columnas de tipo BFILE, los clientes de adaptador solo pueden leer los datos. El adaptador expone Read_\<LOBColName > operación para leer datos de las columnas de tipo BFILE. Si hay más de una columna con el tipo de datos de gran tamaño en una tabla única interfaz, el adaptador se expone como muchas operaciones de la tabla de interfaz de lectura.  
+-   Para las columnas de tipo BFILE, los clientes de adaptador solo pueden leer los datos. El adaptador expone Read_\<LOBColName\> operación para leer datos de las columnas de tipo BFILE. Si hay más de una columna con el tipo de datos de gran tamaño en una tabla única interfaz, el adaptador se expone como muchas operaciones de la tabla de interfaz de lectura.  
   
  Para obtener más información acerca de estas operaciones, vea [operaciones en tablas de interfaz, vistas de interfaz, tablas y vistas que contienen LOB datos](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md). Para obtener información acerca de los esquemas de mensaje para llevar a cabo estas operaciones, vea [esquemas de mensaje para operaciones especiales de LOB](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md).  
   
 ## <a name="how-to-perform-operations-on-columns-with-large-data-types"></a>Cómo realizar operaciones en las columnas con tipos de datos de gran tamaño  
  Realizar una operación en Oracle E-Business Suite mediante [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] implica procedimientos tareas que se describen en [bloques de creación para crear aplicaciones de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md). Para llevar a cabo operaciones en tablas de interfaz y vistas de interfaz en Oracle E-Business Suite que contienen tipos de datos de gran tamaño, estas tareas son:  
   
-1.  Crear un proyecto de BizTalk y genere el esquema para la operación (Read_\<LOBColName > o Update_\<LOBColName >) que desea invocar en una tabla o vista.  
+1.  Crear un proyecto de BizTalk y genere el esquema para la operación (Read_\<LOBColName\> o Update_\<LOBColName\>) que desea invocar en una tabla o vista.  
   
 2.  Crear mensajes en el proyecto de BizTalk para enviar y recibir mensajes de Oracle E-Business Suite.  
   
@@ -222,7 +222,7 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
         -   Dado el WCF-Custom o WCF-OracleEBS puertos de envío envían y recibe mensajes sean conformes a más de un esquema y realiza dos operaciones, debe establecer acción dinámico para las operaciones de ambos. Para obtener más información acerca de las acciones, vea [configurar la acción SOAP para Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md). Para esta orquestación, debe establecerse la acción como se indica a continuación:  
   
             ```  
-            \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+            <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
               <Operation Name="Update_LOB" Action="Tables/UpdateBlob/SCOTT/CUSTOMER/PHOTO" />  
               <Operation Name="Read_LOB" Action="Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO" />  
             </BtsActionMapping>  
@@ -279,14 +279,14 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
  La orquestación consume el mensaje y lo envía a la base de datos de Oracle. La respuesta de base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de Oracle para el mensaje de solicitud anterior es similar al siguiente:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Update_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER" />  
 ```  
   
  Ahora la orquestación construye un mensaje de solicitud para la **Read_PHOTO** operación utilizando el mensaje de solicitud disponible en C:\TestLocation\MessageIn. El mensaje de solicitud se envía a la base de datos de Oracle y la respuesta se guarda en la misma ubicación de archivo. La respuesta para la operación de lectura en la columna de la fotografía es similar al siguiente:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Read_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER">  
   <Read_PHOTOResult>U2FtcGxlIERhdGE=</Read_PHOTOResult>  
 </Read_PHOTOResponse>  

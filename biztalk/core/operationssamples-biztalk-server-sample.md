@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3e190d06c084a6b1b3c9965856897e0df94daab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2e42b17f19791eef9bd3f1b5d7d4554f61f08356
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="operationssamples-biztalk-server-sample"></a>OperationsSamples (ejemplo de BizTalk Server)
 El ejemplo OperationsSamples muestra cómo se realizan actividades operativas mediante el modelo de objetos Operaciones.  
@@ -76,7 +76,7 @@ foreach (BizTalkMessage msg in messages)
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\OperationsOM\OperationsSamples\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\OperationsOM\OperationsSamples\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -148,7 +148,7 @@ foreach (BizTalkMessage msg in messages)
   
      `<Samples Path>\Admin\OperationsOM\OperationSamples`  
   
-5.  Haga doble clic en el **OperationsOM.sln** archivo de proyecto para cargarlo en [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+5.  Haga doble clic en el **OperationsOM.sln** archivo de proyecto para cargar en Visual Studio.  
   
 6.  Presione F5 para ejecutar el ejemplo.  
   
@@ -160,4 +160,4 @@ foreach (BizTalkMessage msg in messages)
  [Microsoft.BizTalk.Operations.BizTalkOperations](http://msdn.microsoft.com/library/microsoft.biztalk.operations.biztalkoperations.aspx)&#124; [Microsoft.BizTalk.Operations.MessageFlow](http://msdn.microsoft.com/library/microsoft.biztalk.operations.messageflow.aspx)&#124; [Microsoft.BizTalk.Operations.SendPortInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.sendportinstance.aspx)&#124; [Microsoft.BizTalk.Operations.RoutingFailureInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.routingfailureinstance.aspx)&#124; [Microsoft.BizTalk.Operations.OrchestrationInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.orchestrationinstance.aspx)&#124; [Microsoft.BizTalk.Operations.MSMQtInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.msmqtinstance.aspx)&#124; [Microsoft.BizTalk.Operations.TrackedServiceInstance](http://msdn.microsoft.com/library/Microsoft.BizTalk.Operations.TrackedServiceInstance.aspx)  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-OperationsOM (carpeta de ejemplos de BizTalk Server)](../core/admin-operationsom-biztalk-server-samples-folder.md)
+ [Admin\OperationsOM (carpeta de ejemplos de BizTalk Server)](../core/admin-operationsom-biztalk-server-samples-folder.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 914d5cd9ac19e160c1f26df3f762f81fb89345d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 02234637e38bb59e71c0f435ee24feef39e09e91
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="alert-subscription-management-commands"></a>Comandos de administración de suscripciones de alertas
 Los comandos de administración de suscripciones de la utilidad de administración de BAM permiten trabajar con suscripciones de alertas.  
@@ -36,16 +36,16 @@ Los comandos de administración de suscripciones de la utilidad de administraci�
 ## <a name="get-subscription-command"></a>get-subscription (comando)  
  **Uso**  
   
- **bm.exe get-subscriptions-View:\<nombre de vista >-alerta:\<nombre de la alerta > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-subscriptions-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista en la que se va a especificar la alerta.|  
-|Alerta:\<nombre de la alerta >|Nombre de la alerta desde la que se va a obtener la suscripción.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista en la que se va a especificar la alerta.|  
+|Alerta:\<nombre de la alerta\>|Nombre de la alerta desde la que se va a obtener la suscripción.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Enumera todos los suscriptores de la alerta especificada.  
   
@@ -59,19 +59,19 @@ bm.exe get-subscriptions -View:Shipments -Alert:SlowShipment -Server:Ship1
 ## <a name="add-subscription-command"></a>add-subscription (comando)  
  **Uso**  
   
- **suscripción de bm.exe-vista:\<nombre de la vista >-Alert:\<nombre de la alerta > - AccountName:\<nombre de cuenta >-tipo: [archivo de &#124; Email] [-correo electrónico:\<dirección de correo electrónico >] [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **suscripción de bm.exe-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\> - AccountName:\<nombre de la cuenta\> -tipo: [archivo de &#124; Email] [-correo electrónico:\<dirección de correo electrónico\> ] [-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista en la que se especifica la alerta.|  
-|Alerta:\<nombre de la alerta >|Nombre de la alerta a la que se va a suscribir.|  
-|AccountName:\<nombre de cuenta >|Cuenta, con formato dominio\usuario, que se va a suscribir a la alerta.|  
+|Vista:\<nombre de vista\>|Nombre de la vista en la que se especifica la alerta.|  
+|Alerta:\<nombre de la alerta\>|Nombre de la alerta a la que se va a suscribir.|  
+|AccountName:\<nombre de cuenta\>|Cuenta, con formato dominio\usuario, que se va a suscribir a la alerta.|  
 |Tipo: [Archivo de &#124; Correo electrónico]|Tipo de entrega de la alerta. Si especifica un tipo de entrega de correo electrónico, debe incluir el parámetro de correo electrónico en la línea de comandos.|  
-|Correo electrónico:\<dirección de correo electrónico >|Opcional: La dirección de correo electrónico a la que se va a entregar la notificación de alerta.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Correo electrónico:\<dirección de correo electrónico\>|Opcional: La dirección de correo electrónico a la que se va a entregar la notificación de alerta.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Agrega una suscripción para la cuenta especificada a la alerta especificada.  
   
@@ -85,17 +85,17 @@ bm.exe add-subscription -View:v1 -Alert:a2 -AccountName:domain\user -Type:Email 
 ## <a name="remove-subscription-command"></a>remove-subscription (comando)  
  **Uso**  
   
- **bm.exe remove-subscription-View:\<nombre de la vista >-alerta:\<nombre de la alerta > - AccountName:\<nombre de cuenta > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe remove-subscription-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\> - AccountName:\<nombre de la cuenta\>[-Server:\<server\> ] [- Base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista en la que se especifica la alerta.|  
-|Alerta:\<nombre de la alerta >|Nombre de la alerta.|  
-|AccountName:\<nombre de cuenta >|Cuenta, con formato dominio\usuario, que se va a quitar de la alerta.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista en la que se especifica la alerta.|  
+|Alerta:\<nombre de la alerta\>|Nombre de la alerta.|  
+|AccountName:\<nombre de cuenta\>|Cuenta, con formato dominio\usuario, que se va a quitar de la alerta.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Quita la suscripción de la cuenta especificada de la alerta especificada. Se quitan todas las suscripciones para la cuenta especificada.  
   

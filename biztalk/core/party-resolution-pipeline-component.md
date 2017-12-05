@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6649016dbfc225c4c2f557c73ff37dfc010a1588
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2e1c9b95c84d82dd1d7e2538138bcb9f89b6b8a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="party-resolution-pipeline-component"></a>Componente de canalización de resolución de entidades
 
@@ -27,7 +27,7 @@ La misión del componente de canalización de resolución de entidades es asigna
   
  Si el mensaje está firmado, la huella digital del certificado utilizado para validar la firma del mensaje entrante se utiliza entonces para mirar en el Repositorio de configuración con objeto de determinar qué entidad lleva asociada. Si se encuentra una entidad, el SourcePartyID de esta entidad se coloca en el contexto del mensaje como originador del mensaje.   
   
- Para permitir que el componente de canalización de resolución de entidades valide a un usuario de Windows, se debe agregar el alias "WindowsUser" a una entidad. Escriba "WindowsUser" en los campos nombre y calificador y establezca el valor en un nombre de usuario en formato de \<ombre de usuario > (por ejemplo, undominio\unusuario). En un escenario independiente, el valor WindowsUser utilizado para configurar la entidad debe coincidir con el valor establecido por el adaptador de recepción.  
+ Para permitir que el componente de canalización de resolución de entidades valide a un usuario de Windows, se debe agregar el alias "WindowsUser" a una entidad. Escriba "WindowsUser" en los campos nombre y calificador y establezca el valor en un nombre de usuario en formato de \<ombre\> (por ejemplo, undominio\unusuario). En un escenario independiente, el valor WindowsUser utilizado para configurar la entidad debe coincidir con el valor establecido por el adaptador de recepción.  
   
  Si el mensaje llega al componente de resolución de entidades con dos de las propiedades de marcado, el componente de resolución de entidades en primer lugar intenta resolver la entidad mediante el certificado (suponiendo que el **resolver entidad mediante certificado** propiedad es establecido en **True**). Si se resuelve la entidad, el sourcepartyid de esta para esa entidad se coloca en el contexto del mensaje como el OriginatorPID del mensaje si el proceso de host que ejecuta la canalización está marcado como **autenticación de confianza** por la canalización. Si no se puede completar la resolución de la entidad mediante el certificado, el valor OriginatorPID del mensaje se marca con "s-1-5-7", que es el SID de un usuario anónimo. Para obtener más información acerca de la propiedad OriginatorPID, consulte [cómo proteger canalizaciones](../core/how-to-secure-pipelines.md).  
 

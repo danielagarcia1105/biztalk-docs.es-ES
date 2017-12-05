@@ -28,11 +28,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c64b61c1c96b0ad6f9185ccd511d00f6dae2251
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5c567ea50f151f0ee36505bd6d8a71af059eb67d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="pipeline-tools"></a>Herramientas de canalización
 Las herramientas de canalización proporcionadas con el kit de desarrollo de software (SDK) de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permiten comprobar que una canalización está funcionando correctamente sin tener que configurar el entorno de BizTalk Server, por ejemplo, los puertos de recepción y envío. Además, puede usar las herramientas de canalización para:  
@@ -52,7 +52,7 @@ Las herramientas de canalización proporcionadas con el kit de desarrollo de sof
 -   Realizar mediciones de rendimiento precisas solo del componente (en lugar del subsistema de mensajería completo).  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*Ruta de acceso de instalación*> \SDK\Utilities\PipelineTools  
+ \<*Ruta de acceso de instalación*\>\SDK\Utilities\PipelineTools  
   
  Use herramientas de canalización para ejecutar, depurar y generar perfiles de canalizaciones, además de componentes de canalización (es decir, archivo sin formato y componentes de ensamblador y desensamblador XML).  
   
@@ -198,7 +198,7 @@ Pipeline.exe ReceivePipeline.btp –d file_in.xml –s MySchema.xsd:MyProject.My
   
 ```  
   
- \-O bien -  
+ \- O bien  
   
 ```  
 Pipeline.exe ReceivePipeline.btp –d file_in.xml –s MySchema.xsd –proj MyProject.btproj -c  
@@ -292,4 +292,4 @@ XmlDasm.exe file_in.txt –ds myDocumentSchema.xsd –es myEnvelopeSchema1.xsd �
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Utilidades del SDK de](../core/utilities-in-the-sdk.md)
+ [Utilidades del SDK](../core/utilities-in-the-sdk.md)

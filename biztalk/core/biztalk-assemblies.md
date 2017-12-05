@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 339d0bba76c26186fe8356145207462e7ce25ed7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb6c787219855ca219808fc1e95c0caefbf12a9d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-assemblies"></a>Ensamblados de BizTalk
 El aspecto más importante de Microsoft BizTalk Server y de .NET Framework es que todos los artefactos, las asignaciones, los esquemas, las orquestaciones y las canalizaciones de BizTalk Server se compilan en ensamblados .NET. Las dos consecuencias más importantes de este diseño son que estos ensamblados deben tener nombres seguros y, a causa de ello, que siguen reglas de control de versiones .NET. La repercusión principal de esto es que un proyecto de BizTalk, una vez generado con una versión concreta de otro proyecto o ensamblado .NET (incluidos los proyectos de BizTalk), sigue utilizando esa versión hasta que se vuelve a generar con una versión más reciente.  
@@ -34,7 +34,7 @@ El aspecto más importante de Microsoft BizTalk Server y de .NET Framework es qu
   
  Otra consecuencia importante de los artefactos de BizTalk Server implementados en la caché de ensamblados global y, por tanto, que tienen nombres seguros, es que los ensamblados con nombres seguros no pueden llamar a otros ensamblados que no dispongan de nombres seguros. Esto significa que cualquier ensamblado creado por un programador y utilizado en estos ensamblados de BizTalk Server debe tener también un nombre seguro. Asimismo, los ensamblados implementados en GAC que cargan otros ensamblados sin utilizar una ruta de acceso específica deben cargarlos desde GAC.  
   
- Componentes de canalización se agregan al cuadro de herramientas del desarrollador en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para que estén disponibles y se puedan arrastrar al diseñador de canalizaciones. Cuando se compila una canalización de BizTalk Server en un ensamblado .NET, la información acerca de todos los componentes de las distintas fases de la canalización se compila en el ensamblado. Cuando se implementa esta canalización en BizTalk Server, la información acerca de los componentes, incluido su nombre de archivo, se inserta en la base de datos de administración de BizTalk y el ensamblado de canalización se implementa en la GAC. Los ensamblados adicionales que dependan los componentes de canalización de BizTalk también deben implementarse en la GAC para que se encuentre en tiempo de ejecución. Ensamblados de componente de canalización deben copiarse también en el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]directorio \Pipeline Components para tener acceso a una canalización de BizTalk en tiempo de ejecución. Cuando se ejecuta la canalización, se cargan estos componentes, y se llama a las interfaces que implementan según convenga.  
+ Componentes de canalización se agregan al cuadro de herramientas del desarrollador en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para que estén disponibles y se puedan arrastrar al diseñador de canalizaciones. Cuando se compila una canalización de BizTalk Server en un ensamblado .NET, la información acerca de todos los componentes de las distintas fases de la canalización se compila en el ensamblado. Cuando se implementa esta canalización en BizTalk Server, la información acerca de los componentes, incluido su nombre de archivo, se inserta en la base de datos de administración de BizTalk y el ensamblado de canalización se implementa en la GAC. Los ensamblados adicionales que dependan los componentes de canalización de BizTalk también deben implementarse en la GAC para que se encuentre en tiempo de ejecución. Ensamblados de componente de canalización también deben copiarse en el directorio de componentes de BizTalk Server\Pipeline sea accesible por una canalización de BizTalk en tiempo de ejecución. Cuando se ejecuta la canalización, se cargan estos componentes, y se llama a las interfaces que implementan según convenga.  
   
 ## <a name="see-also"></a>Vea también  
  [Arquitectura en tiempo de ejecución](../core/runtime-architecture.md)

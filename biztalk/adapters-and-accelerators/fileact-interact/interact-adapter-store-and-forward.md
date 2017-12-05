@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8a7636734501be742f492a0fc4d42ebcac16540
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6c7aff0b2421a19f5fe84ee914c4f9d2bd7ef04e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interact-adapter-store-and-forward"></a>Interactuar el adaptador de almacenamiento y reenvío
 En el almacén y el modo de avance (SnF), los mensajes se entregan a una cola en el momento de envío y se recuperan de la cola por parte del destino. Cuando se usa SnF, la respuesta procede de SWIFTNet SnF propio y no contiene ningún tipo de información desde el servicio de respuesta.  
@@ -42,7 +42,7 @@ En el almacén y el modo de avance (SnF), los mensajes se entregan a una cola en
 ## <a name="sessions"></a>Sesiones  
  Al adquirir una cola, se inicia una sesión. Se devuelve el Sw:SnFSessionId para todos los mensajes que se entregan por SWIFTNet SnF. El Sw:SnFSessionId contiene el nombre de la cola, el modo de sesión: inserción y un número de sesión. El número de sesión se incrementa para cada sesión. Un ejemplo es:  
   
- **\<SW:SnFSessionId > bankwxyz_applicq1:p:000458\</Sw:SnFSessionId >**  
+ **\<SW:SnFSessionId\>bankwxyz_applicq1:p:000458\</Sw:SnFSessionId\>**  
   
  "p" indica que una sesión de inserción. Una sesión también puede considerarse como una reserva de la cola por un autorizador. Los mensajes subsiguientes deben ser confirmadas por el mismo autorizador.  
   
@@ -72,4 +72,4 @@ En el almacén y el modo de avance (SnF), los mensajes se entregan a una cola en
  [Arquitectura de seguridad del adaptador de interactuar](../../adapters-and-accelerators/fileact-interact/interact-adapter-security-architecture.md)   
  [Interactuar entrega confiable de adaptador-to-End](../../adapters-and-accelerators/fileact-interact/interact-adapter-end-to-end-reliable-delivery.md)   
  [Estado del adaptador de interactuar de supervisión](../../adapters-and-accelerators/fileact-interact/interact-adapter-status-monitoring.md)   
- [Interactuar sin repudio de adaptador](../../adapters-and-accelerators/fileact-interact/interact-adapter-non-repudiation.md)
+ [No rechazo del adaptador de InterAct](../../adapters-and-accelerators/fileact-interact/interact-adapter-non-repudiation.md)

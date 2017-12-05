@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9994ad36a8048b7430bbfa06338f2473fb0a9a60
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d8aa9b3202adaf57e7ec213a81384606eb1b8a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-functions-and-procedures-with-record-types-in-oracle-database-using-biztalk-server"></a>Invocar funciones y procedimientos con tipos de registro en la base de datos de Oracle mediante BizTalk Server
 Tipos de registros de Oracle se usan para representar la información jerárquica de parámetros pasados a los procedimientos y funciones de PL/SQL. La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de registros como tipos XML complejos. Para obtener más información acerca de cómo los [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con tipos de registros, consulte [operaciones en funciones y procedimientos con tipos de registro en la base de datos de Oracle.](../../adapters-and-accelerators/adapter-oracle-database/operations-on-functions-and-procedures-with-record-types-in-oracle-database.md). Para obtener información acerca de la estructura XML para tipos de registros, vea [esquemas de mensaje para tipos de registros](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-record-types.md).  
@@ -248,7 +248,7 @@ Tipos de registros de Oracle se usan para representar la información jerárquic
  El primer mensaje de solicitud, invoca la función GET_ACCOUNTINFO que devuelve un tipo de registro anidado. El mensaje de respuesta para invocar la función GET_ACCOUNTINFO es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <GET_ACCOUNTINFOResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <GET_ACCOUNTINFOResult>  
     <ACCT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTINFO">  
@@ -268,7 +268,7 @@ Tipos de registros de Oracle se usan para representar la información jerárquic
  El segundo mensaje de solicitud, invoca la función GET_ACCOUNTADDRESS que devuelve un tipo de registro simple. El mensaje de respuesta para invocar la función GET_ACCOUNTADDRESS es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_ACCOUNTADDRESSResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <GET_ACCOUNTADDRESSResult>  
     <ID xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTADDRESS">100004</ID>  

@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: deae453be1a89049f223e2da9813e449d68eeb07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ad3628f61fec11f135bf2235f5e0d25f52992d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-register-and-remove-the-biztalk-assembly-viewer"></a>Cómo registrar y quitar el Visor de ensamblado de BizTalk
 El Visor de ensamblado de BizTalk no se registra automáticamente durante la instalación de BizTalk Server. Para registrar y quitar el Visor de ensamblado de BizTalk, siga estos pasos.  
@@ -27,7 +27,7 @@ El Visor de ensamblado de BizTalk no se registra automáticamente durante la ins
   
 2.  En el cuadro de diálogo Ejecutar, escriba **cmd**.  
   
-3.  Desde la línea de comandos, vaya a \< *carpeta de instalación de BizTalk Server*> \Developer Tools\ donde se encuentra BTSAsmExt.dll.  
+3.  Desde la línea de comandos, vaya a \< *carpeta de instalación de BizTalk Server*\>\Developer Tools\ donde se encuentra BTSAsmExt.dll.  
   
 4.  En la línea de comandos, escriba:  
   
@@ -41,7 +41,7 @@ El Visor de ensamblado de BizTalk no se registra automáticamente durante la ins
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**.  
   
-3.  Desde la línea de comandos, vaya a \< *carpeta de instalación de BizTalk Server*> \Developer Tools\ donde se encuentra BTSAsmExt.dll.  
+3.  Desde la línea de comandos, vaya a \< *carpeta de instalación de BizTalk Server*\>\Developer Tools\ donde se encuentra BTSAsmExt.dll.  
   
 4.  En la línea de comandos, escriba:  
   
@@ -50,4 +50,4 @@ El Visor de ensamblado de BizTalk no se registra automáticamente durante la ins
 5.  Para completar la eliminación, cierre sesión y, a continuación, vuelva a iniciarla en el equipo.  
   
 ## <a name="see-also"></a>Vea también  
- [Ver ensamblados con el Visor de ensamblado de BizTalk](../core/viewing-assemblies-with-the-biztalk-assembly-viewer.md)
+ [Visualización de ensamblados con el Visor de ensamblados de BizTalk](../core/viewing-assemblies-with-the-biztalk-assembly-viewer.md)

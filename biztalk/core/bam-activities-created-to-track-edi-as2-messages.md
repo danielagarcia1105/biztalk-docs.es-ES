@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f255f2bb71ecef857860fdd5c512f4320b35cc95
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c7da7ac08a8f26e21b2c648670730db136392471
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-activities-created-to-track-edi-as2-messages"></a>Actividades BAM creadas para realizar un seguimiento de mensajes EDI-AS2
-[!INCLUDE[prague](../includes/prague-md.md)] incluye actividades de BAM que se han creado para los informes de estado de EDI y AS2. Estas actividades determinan los datos que se muestran en los informes de estado. En este tema se explican las actividades de BAM y los campos definidos en ellas, además de describir los valores de enumeración definidos para ciertos campos en las actividades de BAM.  
+BizTalk Server incluye actividades de BAM que se han creado para los informes de estado EDI y AS2. Estas actividades determinan los datos que se muestran en los informes de estado. En este tema se explican las actividades de BAM y los campos definidos en ellas, además de describir los valores de enumeración definidos para ciertos campos en las actividades de BAM.  
   
  Se puede crear un informe de estado personalizado mediante la creación de una actividad de BAM. La actividad personalizada se puede basar en una de las actividades estándar. También se puede mostrar el contenido del mensaje del informe de estado personalizado consultando la tabla EdiMessageContent en la base de datos BizTalkDTADb. Para obtener más información, vea la sección "Consultar la tabla EdiMessageContent" abajo.  
   
@@ -81,4 +81,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>Vea también  
  [Cómo se almacenan los datos para informes de estado de AS2 y EDI](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [Correlacionar un conjunto de transacciones entrante con un lote saliente](../core/correlating-an-incoming-transaction-set-with-an-outgoing-batch.md)
+ [Correlación de un conjunto de transacciones entrante con un lote saliente](../core/correlating-an-incoming-transaction-set-with-an-outgoing-batch.md)

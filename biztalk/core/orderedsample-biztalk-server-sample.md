@@ -17,11 +17,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf7b0de69005957a333e0c4f884e748e6ab5bbe9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b9e93c7bb9cb59088e465dc53dd992ffd5f1c11
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="orderedsample-biztalk-server-sample"></a>OrderedSample (ejemplo de BizTalk Server)
 El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y enviar un serie ordenada de mensajes en un modo de envío y recepción.  
@@ -36,7 +36,7 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
  La orquestación puede recibir lotes de mensajes, así como un único mensaje.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -176,4 +176,4 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
 3.  Ver los mensajes en la cola de envío de WebSphere MQ Explorer en la que ha configurado el puerto de envío para enviar mensajes.  
   
 ## <a name="see-also"></a>Vea también  
- [Ejemplos de adaptadores de MQSeries](../core/mqseries-adapter-samples.md)
+ [Ejemplos del adaptador de MQSeries](../core/mqseries-adapter-samples.md)

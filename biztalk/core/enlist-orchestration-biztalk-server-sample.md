@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95b03da5bf56367e59142a241dada6454a74c459
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6e8d85a49b410f0571e8e9cb0be816f1feda139e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enlist-orchestration-biztalk-server-sample"></a>Dar de alta una orquestación (ejemplo de BizTalk Server)
 El ejemplo para dar de alta una orquestación muestra cómo se da de alta una orquestación de BizTalk Server en un host.  
@@ -40,9 +40,9 @@ El ejemplo para dar de alta una orquestación muestra cómo se da de alta una or
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Estos ejemplos se encuentran en las siguientes ubicaciones de SDK:  
   
--   Versión de VBScript: \< *ruta de ejemplos*> \Admin\WMI\Enlist Orchestration\VBScript\  
+-   Versión de VBScript: \< *ruta de ejemplos*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
--   Versión de Visual C#: \< *ruta de ejemplos*> \Admin\WMI\Enlist Orchestration\CSharp\  
+-   Versión de Visual C#: \< *ruta de ejemplos*\>\Admin\WMI\Enlist Orchestration\CSharp\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -64,17 +64,15 @@ El ejemplo para dar de alta una orquestación muestra cómo se da de alta una or
   
 1.  En una ventana de comandos, desplácese a una de las carpetas siguientes, dependiendo de si va a ejecutar la versión de VBScript o la versión de Visual C# de este ejemplo, respectivamente:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Enlist Orchestration\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
-     \<*Ejemplos de ruta de acceso*> AdminWMIEnlist OrchestrationCSharpbinDebug  
+     \<*Ejemplos de ruta de acceso*\>AdminWMIEnlist OrchestrationCSharpbinDebug  
   
 2.  Ejecute el archivo EnlistOrch.vbs que usa el programa Cscript, o ejecute el archivo EnlistOrc.exe, en función de si va a ejecutar la versión de VBScript o la versión de Visual C# de este ejemplo, respectivamente: En cualquier evento, pase los siguientes argumentos de línea de comandos:  
   
-    -   **\<**   
-         ***OrchestrationName* >.** El nombre de la orquestación que se va a dar de alta.  
+    -   **\<** ***OrchestrationName* \>.** El nombre de la orquestación que se va a dar de alta.  
   
-    -   **\<**   
-         ***AssemblyName* >.** El nombre del ensamblado en el que se ha implementado la orquestación. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***AssemblyName* \>.** El nombre del ensamblado en el que se ha implementado la orquestación. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
   
          Por ejemplo: (VBScript):  
   
@@ -94,4 +92,4 @@ El ejemplo para dar de alta una orquestación muestra cómo se da de alta una or
  El archivo de secuencias de comandos EnlistOrch.vbs y el archivo de origen de Visual C# EnlistOrc.cs contienen comentarios detallados con más explicaciones sobre las operaciones que realizan. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

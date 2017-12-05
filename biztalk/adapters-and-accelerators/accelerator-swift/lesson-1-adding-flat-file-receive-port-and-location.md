@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6fcd41cd38074377fa179e3a414b278521c31f26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9856e0da6e8a4bc958b5fe08e0e1b5e87494531b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-adding-flat-file-receive-port-and-location"></a>Lección 1: Agregar archivos sin puerto de recepción y ubicación
 El puerto de recepción siempre tiene una ubicación de recepción asociada que se debe configurar al agregar el puerto de recepción. Una ubicación de recepción define una dirección específica para un mensaje entrante y la canalización que se utiliza para procesar el mensaje.  
@@ -46,9 +46,9 @@ El puerto de recepción siempre tiene una ubicación de recepción asociada que 
   
 9. En el cuadro de diálogo Propiedades de transporte de archivo, haga clic en **examinar**.  
   
-10. En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad >: \Labs\Inbound** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
+10. En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad\>: \Labs\Inbound** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
   
-11. Crear un **FlatFile** carpeta  **\<unidad >: \Labs\Inbound**y, a continuación, haga clic en **Aceptar**.  
+11. Crear un **FlatFile** carpeta  **\<unidad\>: \Labs\Inbound**y, a continuación, haga clic en **Aceptar**.  
   
 12. En el **máscara de archivo** , escriba  **\*.txt**y, a continuación, haga clic en **Aceptar**.  
   

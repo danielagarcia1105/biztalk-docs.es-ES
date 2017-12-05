@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5e74e297eba5dcc92d2008bcca90fdc7b325814
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: bcd87b89c6c23e709f21e78e3ea98dd2b84575ca
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-the-virtual-directory"></a>Configurar el directorio Virtual
 En este tema se muestran los procedimientos para configurar el directorio virtual y verificar la aplicación para un usuario.  
@@ -32,7 +32,7 @@ En este tema se muestran los procedimientos para configurar el directorio virtua
   
 2.  Haga clic en **iniciar**, seleccione **programas**, haga clic en **herramientas administrativas**y haga clic en **Internet Information Services (IIS) Manager**.  
   
-3.  Expanda  **\<nombre del servidor >** y, a continuación, expanda **sitios**.  
+3.  Expanda  **\<nombre del servidor\>**  y, a continuación, expanda **sitios**.  
   
 4.  Haga clic en **sitio Web predeterminado** y haga clic en **Agregar directorio Virtual**.  
   

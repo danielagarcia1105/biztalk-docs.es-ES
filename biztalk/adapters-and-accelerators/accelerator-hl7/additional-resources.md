@@ -13,14 +13,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb082b335aa1bae484eef799edfaba5105a2044f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e0f6cc39bda0d4e8a0f5331ea0d8d70c6dbf691
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="additional-resources"></a>Recursos adicionales
-Además [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda, hay recursos adicionales que se explican la programación en esta plataforma. Para obtener más información acerca de estos recursos, consulte los siguientes sitios Web:  
+Además [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server, no hay recursos adicionales que se explican la programación en esta plataforma. Para obtener más información acerca de estos recursos, consulte los siguientes sitios Web:  
   
 -   MSDN en [http://go.microsoft.com/fwlink/?LinkId=25353](http://go.microsoft.com/fwlink/?LinkId=25353)  
   

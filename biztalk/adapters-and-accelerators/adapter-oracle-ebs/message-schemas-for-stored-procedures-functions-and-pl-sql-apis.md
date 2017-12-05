@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6364716793e3638d157e1441e369133dc79bda95
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 029c48c1e6066d09d43da51b2bb1f6786a516f54
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-stored-procedures-functions-and-plsql-apis"></a>Esquemas de mensaje para los procedimientos almacenados, funciones y las API de PL/SQL
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]superficies del Oracle subyacente de base de datos los procedimientos almacenados, funciones y las API de PL/SQL (procedimientos almacenados y funciones dentro de un paquete) como operaciones. Esta sección describe la estructura de los mensajes y acciones que se usan para invocar procedimientos almacenados, funciones y las API de PL/SQL.  
@@ -32,7 +32,7 @@ El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
 |Solicitud de procedimiento almacenado|`<[SP_NAME] xmlns="[VERSION]/Procedures/[SCHEMA]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|Admite parámetros IN de Oracle y en espera en el cuerpo del mensaje|  
 |Respuesta de procedimiento almacenado|`<[SP_NAME]Response xmlns="[VERSION]/Procedures/[SCHEMA]">   <[PRM1_NAME]>value1<[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|Es compatible con los parámetros OUT de Oracle y en espera en el cuerpo del mensaje|  
 |Solicitud de una función|`<[FN_NAME] xmlns="[VERSION]/Functions/[SCHEMA] ">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[FN_NAME]>`|Admite parámetros IN de Oracle y en espera en el cuerpo del mensaje|  
-|Respuesta de la función|`<[FN_NAME]Response xmlns="[VERSION]/Functions/[SCHEMA]">   <[FN_NAME]Result>return_value</[FN_NAME]Result>   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   …    </[FN_NAME]Response>`|Es compatible con los parámetros OUT de Oracle y en espera en el cuerpo del mensaje<br /><br /> Se devuelve el valor devuelto de función en el \<[fn_name especial] resultado > elemento. Este es el primer elemento en el mensaje de respuesta. Se trata de antes de los parámetros.|  
+|Respuesta de la función|`<[FN_NAME]Response xmlns="[VERSION]/Functions/[SCHEMA]">   <[FN_NAME]Result>return_value</[FN_NAME]Result>   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   …    </[FN_NAME]Response>`|Es compatible con los parámetros OUT de Oracle y en espera en el cuerpo del mensaje<br /><br /> Se devuelve el valor devuelto de función en la \<[fn_name especial] resultado\> elemento. Este es el primer elemento en el mensaje de respuesta. Se trata de antes de los parámetros.|  
 |Solicitud de API de PL/SQL|`<[SP_NAME] xmlns="[VERSION]/PackageApis/[SCHEMA]/[PACKAGE_NAME/[SP_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|Igual que la función o procedimiento almacenado|  
 |Procedimiento empaquetada o respuesta de la función|`<[SP_NAME]Response xmlns="[VERSION]/PackageApis/[SCHEMA]/[PACKAGE_NAME]/[SP_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|Igual que la función o procedimiento almacenado|  
   

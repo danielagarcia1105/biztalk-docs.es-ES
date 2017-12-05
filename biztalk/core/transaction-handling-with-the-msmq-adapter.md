@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eed4a3b38e4dd328fbbb6099b1bec2c1515b3e5d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1bea79413042ec99cfd1cbc5bc6dee500aef4ac4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="transaction-handling-with-the-msmq-adapter"></a>Control de transacciones con el adaptador de MSMQ
 En esta sección se analiza la forma en la que funcionan las transacciones en el envío y la recepción.  
@@ -30,7 +30,7 @@ En esta sección se analiza la forma en la que funcionan las transacciones en el
  Es posible utilizar transacciones tanto en el envío como en la recepción con el adaptador de MSMQ. En envíos de transacción, el adaptador acumula mensajes hasta que tiene un lote completo. Seguidamente, el adaptador envía el lote al servicio Message Queue Server local como una sola transacción. Si el envío no se realiza correctamente, el adaptador intenta reenviar el lote. Si el reenvío no se efectúa correctamente, el adaptador se mueve al transporte secundario.  
   
 > [!NOTE]
->  El adaptador admite las lecturas transaccionales de colas remotas únicamente con Message Queue Server 4.0 o posterior. En este escenario, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y Message Queue Server deben estar ejecutando Message Queue Server 4.0 o posterior.  
+>  El adaptador admite las lecturas transaccionales de colas remotas únicamente con Message Queue Server 4.0 o posterior. En este escenario el servidor BizTalk Server y el servidor remoto de Message Queue Server deben ejecutar Message Queue Server 4.0 o posterior.  
   
  En las recepciones de transacción, el adaptador suspende los mensajes con errores para que, de este modo, no pierda ninguno de los mensajes. Durante una recepción de transacción, el adaptador agrega mensajes a un lote hasta que éste se completa. A continuación, envía el lote:  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b73129d884fea81bdb64609de5e95570275a344
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f419e7a0019287383080c319961b8a3831d27bb4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="alert-management-commands"></a>Comandos de administración de alerta
 Los comandos de administración de alertas de la utilidad de administración de BAM permiten trabajar con alertas implementadas.  
@@ -38,15 +38,15 @@ Los comandos de administración de alertas de la utilidad de administración de 
 ## <a name="get-alerts-command"></a>Comando get-alerts  
  **Uso**  
   
- **bm.exe get-alerts [-View:\<nombre de vista >] [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-alerts [-View:\<nombre de la vista\> ] [-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista desde la que se va a obtener la lista de alertas.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista desde la que se va a obtener la lista de alertas.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Enumera las alertas definidas en el equipo en el que se ejecuta el comando.  
   
@@ -60,15 +60,15 @@ bm.exe get-alerts -Server:MyServer -Database:MyPrimaryImport
 ## <a name="remove-alerts-command"></a>Comando remove-alerts  
  **Uso**  
   
- **bm.exe remove-alerts-View:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe remove-alerts-View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista desde la que se van a quitar las alertas.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista desde la que se van a quitar las alertas.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Quita todas las alertas en la vista especificada.  
   
@@ -82,15 +82,15 @@ bm.exe remove-alerts -View:Shipments -Server:Ship1
 ## <a name="enable-alerts-command"></a>Comando enable-alerts  
  **Uso**  
   
- **bm.exe enable-alerts-View:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe enable-alerts-View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista en la que se van a habilitar las alertas.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista en la que se van a habilitar las alertas.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Habilita todas las alertas en la vista especificada.  
   
@@ -104,15 +104,15 @@ bm.exe enable-alerts -View:SalesManagerView -Server:s1 -Database:db2
 ## <a name="disable-alerts-command"></a>Comando disable-alerts  
  **Uso**  
   
- **bm.exe disable-alerts-View:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe disable-alerts-View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista en la que se van a deshabilitar las alertas.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista en la que se van a deshabilitar las alertas.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Deshabilita todas las alertas en la vista especificada.  
   

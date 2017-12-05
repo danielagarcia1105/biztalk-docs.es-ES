@@ -12,18 +12,18 @@ caps.latest.revision: "33"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 97d2cb07bd0a05ddd1e79f4048bfe30e51e8d866
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 875a087fa3afe7515aee2c406cbc47551bea1f4d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="addresource-command"></a>AddResource (comando)
 Los temas de esta sección proporcionan información de referencia acerca de los parámetros del comando AddResource. Los parámetros que utilizan con este comando varían según el tipo de artefacto que se va a agregar. Para obtener una lista completa de tipos de artefactos, use la **ListTypes** de comandos, como se describe en [comando ListTypes](../core/listtypes-command.md).  
   
  Para obtener ayuda acerca de cómo agregar un tipo de artefacto determinado, escriba el comando siguiente:  
   
- **BTSTask AddResource/Type:**\<*nombre de tipo*> **/?**  
+ **BTSTask AddResource/Type:**\<*nombre de tipo* \> **/?**  
   
 > [!NOTE]
 >  Si el artefacto que está agregando tiene un nombre de ruta de acceso muy largo, incluido el nombre de archivo, se producirá un error en la operación de agregar el artefacto a la aplicación. Una ruta de acceso no puede superar los 260 caracteres.  
@@ -32,24 +32,24 @@ Los temas de esta sección proporcionan información de referencia acerca de los
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [El comando AddResource: El ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md)  
+-   [AddResource (comando): ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md)  
   
--   [El comando AddResource: Enlace de BizTalk](../core/addresource-command-biztalk-binding.md)  
+-   [AddResource (comando): enlace de BizTalk](../core/addresource-command-biztalk-binding.md)  
   
--   [AddResource (comando): Ensamblado de .NET](../core/addresource-command-net-assembly.md)  
+-   [AddResource (comando): ensamblado de .NET](../core/addresource-command-net-assembly.md)  
   
--   [AddResource (comando): Artefacto de BAM](../core/addresource-command-bam-artifact.md)  
+-   [AddResource (comando): artefacto de BAM](../core/addresource-command-bam-artifact.md)  
   
 -   [AddResource (comando): certificado](../core/addresource-command-certificate.md)  
   
--   [AddResource (comando): Componente de COM](../core/addresource-command-com-component.md)  
+-   [AddResource (comando): componente de COM](../core/addresource-command-com-component.md)  
   
 -   [AddResource (comando): archivo](../core/addresource-command-file.md)  
   
--   [AddResource (comando): Secuencia de comandos de preprocesamiento](../core/addresource-command-preprocessing-script.md)  
+-   [AddResource (comando): script de preprocesamiento](../core/addresource-command-preprocessing-script.md)  
   
--   [El comando AddResource: Secuencias de comandos](../core/addresource-command-postprocessing-script.md)  
+-   [AddResource (comando): script de posprocesamiento](../core/addresource-command-postprocessing-script.md)  
   
--   [Comando AddResource: directiva](../core/addresource-command-policy.md)  
+-   [AddResource (comando): directiva](../core/addresource-command-policy.md)  
   
--   [AddResource (comando): Directorio Virtual](../core/addresource-command-virtual-directory.md)
+-   [AddResource (comando): directorio virtual](../core/addresource-command-virtual-directory.md)

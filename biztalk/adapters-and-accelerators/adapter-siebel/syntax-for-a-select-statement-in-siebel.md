@@ -16,19 +16,19 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d2a5ee569ff05acf9a14293503ee1238e311bcf1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3eeb0a6d4a1fceebe7e16b3f71566f848e4a20f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-a-select-statement-in-siebel"></a>Sintaxis de una instrucción SELECT de Siebel
 Mediante la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], los clientes ADO.NET pueden realizar una consulta SELECT en componentes empresariales de Siebel mediante la especificación de una cláusula WHERE que representa una especificación de búsqueda de Siebel válida. La sintaxis de la instrucción SELECT es:  
   
 ```  
 SELECT  
-\<column name 1> AS \<column alias 1>,  
-\<column name 2> AS \<column alias 2>,  
+<column name 1> AS <column alias 1>,  
+<column name 2> AS <column alias 2>,  
 …  
 FROM  
 <Business object name>.<Business component name> AS <table alias>  
@@ -54,7 +54,7 @@ OPTION
   
  Las reglas para la especificación de búsqueda son:  
   
--   Operadores de comparación estándar deben utilizarse para comparar un campo con una constante o un campo a otro campo. Puede tratarse de =,! =, >, \<, > =, y < =.  
+-   Operadores de comparación estándar deben utilizarse para comparar un campo con una constante o un campo a otro campo. Puede tratarse de =,! =, >, <>, =, y < =.  
   
     ```  
     Example: [Revenue] > 5000  
@@ -97,4 +97,4 @@ OPTION
 -   La expresión de la especificación de ordenación debe ser 255 caracteres o menos.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar el proveedor de datos de .NET Framework para aplicaciones Siebel eBusiness](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)
+ [Usar el proveedor de datos de .NET Framework para aplicaciones de negocio electrónico de Siebel](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3868384641e4c5fa03c82c7ec4ba18e3ee9fb1b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0e74220ab71c0efcc09e1736511e8388de71f387
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-receive-shape"></a>Cómo configurar la forma Recepción
 ![](../core/media/ebiz-orch-receive.gif "ebiz_orch_receive")  
@@ -61,7 +61,7 @@ Forma Recepción
   
 3.  En la ventana Propiedades, establezca la propiedad Activar en True.  
   
-    1.  En la ventana Propiedades, haga clic en el **puntos suspensivos** (**...** ) botón para la propiedad de expresión de filtro crear un filtro para restringir los mensajes que este **recepción** forma acepta.  
+    1.  En la ventana Propiedades, haga clic en el **puntos suspensivos** (**... **) botón para la propiedad de expresión de filtro crear un filtro para restringir los mensajes que este **recepción** forma acepta.  
   
          : "O":  
   
@@ -92,7 +92,7 @@ Forma Recepción
     |<|Es menor que|  
     |\<=|Es menor o igual que|  
     |>|Es mayor que|  
-    |>=|Es mayor o igual que|  
+    |\>=|Es mayor o igual que|  
     |Exists|Exists|  
   
 -   **Valor.** Las celdas de la **valor** columna puede contener cualquier constante que se escribe en: un literal de cadena, un literal entero, o null.  
@@ -137,4 +137,4 @@ Forma Recepción
  Este cuadro de texto de solo lectura muestra la expresión a medida que la crea.  
   
 ## <a name="in-this-section"></a>En esta sección  
- [Uso de filtros con la forma de mensaje de recepción](../core/using-filters-with-the-receive-message-shape.md)
+ [Uso de filtros con la forma Recibir mensaje](../core/using-filters-with-the-receive-message-shape.md)

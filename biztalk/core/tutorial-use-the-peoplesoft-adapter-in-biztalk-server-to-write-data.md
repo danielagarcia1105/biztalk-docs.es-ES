@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9c4c0714c28f426ccfaa2799bd16463124e6e52
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b38c1f5a0bd442404e832274d13ace2b0660c2e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-write-data-to-peoplesoft-enterprise"></a>Tutorial: Usar el adaptador de BizTalk para PeopleSoft Enterprise para escribir datos en PeopleSoft Enterprise
 El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para escribir datos en un sistema PeopleSoft con información recibida de un socio comercial o de una aplicación interna. En este tutorial se describe un ejemplo de SDK que muestra esta función.  
@@ -143,7 +143,7 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para escribir d
   
 1.  Haga doble clic en **LOCATIONService_1.xsd** en el Explorador de soluciones para abrir el archivo en el Editor de esquemas.  
   
-2.  Haga clic en el  **\<esquema >** nodo en el Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
+2.  Haga clic en el  **\<esquema\>**  nodo en el Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
   
 3.  Seleccione **CreateEx** en la lista de nodos disponibles en la **referencia raíz** cuadro de lista desplegable. Esto debe hacerse para que cuando se genera una instancia de documento de ejemplo se generará en el **CreateEx** nodo del esquema.  
   
@@ -160,7 +160,7 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para escribir d
   
 8.  Haga clic en LOCATIONService_1.xsd en el Explorador de soluciones y haga clic en **generar instancia** para generar una instancia de documento en la ubicación especificada.  
   
-9. Haga clic en el  **\<esquema >** nodo en el Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
+9. Haga clic en el  **\<esquema\>**  nodo en el Editor de esquemas y haga clic en **propiedades** para mostrar las propiedades para el nodo.  
   
 10. Seleccione (**predeterminado)** en la lista de nodos disponibles en la **referencia raíz** cuadro de lista desplegable.  
   
@@ -249,4 +249,4 @@ El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para escribir d
 6.  BizTalk Adapter para PeopleSoft Enterprise invoca el método CreateEx para crear un registro mediante los datos del archivo XML.  
   
 ## <a name="see-also"></a>Vea también  
- [Tutoriales: Usar el adaptador de BizTalk para PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)
+ [Tutoriales: Uso del adaptador de BizTalk para PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)

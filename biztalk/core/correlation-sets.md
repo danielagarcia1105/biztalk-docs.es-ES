@@ -20,11 +20,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 28d11e5e174808ca7718d5fef98b3ad079cffc18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09bad0bf41f5b509f9a64e9484cac84f66a84e4b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="correlation-sets"></a>Conjuntos de correlaciones
 Este tipo de correlación de mensajes con instancias de orquestación se consigue mediante la definición de conjuntos de correlaciones. Un conjunto de correlaciones es un conjunto de propiedades *con valores específicos*. Es diferente de un tipo de correlación, que no es más que una lista de propiedades. Si un mensaje entrante no tiene todas estas propiedades, con valores coincidentes para cada una de ellas, se producirá un error en la correlación y la instancia de orquestación no recibirá el mensaje.  
@@ -35,17 +35,17 @@ Este tipo de correlación de mensajes con instancias de orquestación se consigu
   
 |Tipo de correlación (propiedad)|Posible representación XML|  
 |-------------------------------|---------------------------------|  
-|Número de la seguridad social|\<Nº DE SS >\</SSN >|  
-|Fecha de nacimiento|\<FECHA DE NACIMIENTO >\</DOB >|  
-|Gender|\<Sexo > \< /género >|  
+|Número de la seguridad social|\<Nº DE SS\>\</SSN\>|  
+|Fecha de nacimiento|\<FECHA DE NACIMIENTO\>\</DOB\>|  
+|Gender|\<Sexo\> \< /género\>|  
   
  Mientras que un conjunto de correlación derivado de este tipo de correlación constaría de las propiedades y valores siguientes:  
   
 |Propiedad o valor del conjunto de correlación|Posible representación XML|  
 |-------------------------------------|---------------------------------|  
-|Número de la seguridad social = 222112222|\<Nº DE SS > 222112222\</SSN >|  
-|Fecha de nacimiento= “1/1/1995”|\<FECHA DE NACIMIENTO > "1/1/1995"\</DOB >|  
-|Sexo = Varón|\<Sexo > M \< /género >|  
+|Número de la seguridad social = 222112222|\<Nº DE SS\>222112222\</SSN\>|  
+|Fecha de nacimiento= “1/1/1995”|\<FECHA DE NACIMIENTO\>"1/1/1995"\</DOB\>|  
+|Sexo = Varón|\<Sexo\>M \< /género\>|  
   
 > [!NOTE]
 >  Cada conjunto de correlación admite un máximo de tres parámetros.  

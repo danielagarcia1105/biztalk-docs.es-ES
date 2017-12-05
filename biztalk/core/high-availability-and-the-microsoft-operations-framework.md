@@ -21,11 +21,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ea715e92f7bfaa2f9d3baf3e82223f95328e3da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b8361875cf34f14118fb93818c78a6ca7d12a86f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>Alta disponibilidad y Microsoft Operations Framework
 La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de alta disponibilidad puede contribuir a garantizar que se están empleando los procesos adecuados en las distintas fases del ciclo de vida de un producto. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  
@@ -59,7 +59,7 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
   
 -   Determinar si el contrato de nivel de servicio con asociados o clientes requiere un determinado nivel de disponibilidad, tiempo de actividad y capacidad de procesamiento de carga.  
   
--   Si está actualizando desde [!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)] o [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], debe determinar si el hardware existente cumple los requisitos mínimos de hardware para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y los requisitos del acuerdo de nivel de servicio.  
+-   Si está actualizando desde [!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)] o [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] a BizTalk Server, debe determinar si el hardware existente cumple los requisitos mínimos de hardware para el servidor BizTalk Server y los requisitos del acuerdo de nivel de servicio.  
   
 -   Averigüe cuál es la mejor configuración de clúster de las bases de datos de BizTalk Server para sus necesidades empresariales. Los procesos de tiempo de ejecución escriben información en las bases de datos de administración de BizTalk, cuadro de mensajes, servicios de análisis de seguimiento, análisis de BAM, esquema de estrella de BAM, importación principal de BAM y archivo de BAM. Por tanto, estas bases de datos son especialmente importantes si se produce un desastre y deben tener prioridad a la hora de determinar las bases de datos para agrupar en clúster. En el resto de las bases de datos, solo escriben información los usuarios y las herramientas. Para las bases de datos de cuadro de mensajes, considere la posibilidad de utilizar un clúster de cuatro servidores activo/activo/activo/pasivo para minimizar las necesidades de hardware.  
   
@@ -122,4 +122,4 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
  Durante la función de continuidad del servicio, es necesario determinar qué configuración de alta disponibilidad se va a implementar para garantizar que se proporcionan a los clientes los servicios que esperan aunque se produzca una interrupción planeada o no planeada. Por ejemplo, puede producirse una interrupción de la actividad no planeada por errores de hardware o causas de fuerza mayor.  
   
 ## <a name="see-also"></a>Vea también  
- [Escenarios de alta disponibilidad de servidor BizTalk Server de ejemplo](../core/sample-biztalk-server-high-availability-scenarios.md)
+ [Escenarios de ejemplo de alta disponibilidad de BizTalk Server](../core/sample-biztalk-server-high-availability-scenarios.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70f77e536da4eb6589823529644e0c4ab7c95cfa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f62a37da291bdc148369a28149cdfe29ed7fe446
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-sign-and-build-the-projects"></a>Paso 7: Firmar y compilar los proyectos
 En este paso, se asigna un nombre seguro y generar el proyecto para generar un ensamblado que contiene los recursos (el esquema) que creó en [paso 6: validar los esquemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md). Esto también garantiza que no hay ningún error de compilación en el trabajo que ha completado hasta ahora.  
@@ -33,13 +33,13 @@ En este paso, se asigna un nombre seguro y generar el proyecto para generar un e
   
 3.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-4.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\<* unidad*>: \Tutorial\BTAHL7V22Common\key.snk** (como se crearon en [paso 3: asignar un nombre seguro al ensamblado](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)) y, a continuación, haga clic en **abiertos**.  
+4.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\<* unidad*\>: \Tutorial\BTAHL7V22Common\key.snk** (como se crearon en [paso 3: asignar un nombre seguro para el Ensamblado](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)) y, a continuación, haga clic en **abiertos**.  
   
 5.  Haga clic en **Aceptar** para guardar los cambios.  
   
 ### <a name="to-build-the-btahl7-project"></a>Para compilar el proyecto de BTAHL7  
   
--   En el Explorador de soluciones, haga clic en **BTAHL7 proyecto**y, a continuación, haga clic en **implementar**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]compila el ensamblado en un archivo DLL y lo guarda en la \< *unidad*>: \Tutorial\BTAHL7V22Common\Bin\Development carpeta.  
+-   En el Explorador de soluciones, haga clic en **BTAHL7 proyecto**y, a continuación, haga clic en **implementar**. [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]compila el ensamblado en un archivo DLL y lo guarda en la \< *unidad*\>: \Tutorial\BTAHL7V22Common\Bin\Development carpeta.  
   
  Continúe con [paso 8: crear un mapa con el asignador de BizTalk](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).  
   

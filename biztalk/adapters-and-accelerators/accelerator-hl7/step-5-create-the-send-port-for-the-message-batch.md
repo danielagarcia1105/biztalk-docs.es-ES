@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3176814481d98a7aa0e1e48abad9f20e887b17ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a5749166c8a9b34d5e5a04849c4179ac4427201c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a>Paso 5: Crear el puerto de envío para el lote de mensajes
 En este paso, creará un puerto de envío para entregar el lote de mensajes que cree para la entidad de destino. Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo. Designar una carpeta de archivos para el destino (\Tutorial_BatchMsgDrop) donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de mensajes. Defina un filtro para el puerto que indica qué tipo de lotes de mensajes que enviará los puertos. El filtro especifica el destino de Tutorial_BatchDest y el tipo de mensaje de OutboundBatch.  
@@ -26,7 +26,7 @@ En este paso, creará un puerto de envío para entregar el lote de mensajes que 
   
 ### <a name="to-create-the-send-port-for-the-message-batch"></a>Para crear el puerto de envío para el lote de mensajes  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] consola de administración, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
+1.  En la consola de administración de BizTalk Server, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
 2.  En el cuadro de diálogo Propiedades de puerto de envío, realice lo siguiente:  
   
@@ -40,7 +40,7 @@ En este paso, creará un puerto de envío para entregar el lote de mensajes que 
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<* unidad*: > \Program BizTalk \<versión > Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop **. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de mensajes.|  
+    |**Carpeta de destino**|Vaya a  **\<* unidad*:\>\Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End BatchMsgDrop **. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de mensajes.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (reemplazar la extensión .xml con la extensión .txt).|  
     |**Modo de copia**|Seleccione **crear nuevos**.|  
   
@@ -66,7 +66,7 @@ En este paso, creará un puerto de envío para entregar el lote de mensajes que 
   
 ### <a name="to-associate-the-send-port-with-the-destination-party"></a>Para asociar el puerto de envío a la entidad de destino  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] consola de administración, expanda **partes**, haga clic en **Tutorial_BatchDest**y, a continuación, haga clic en **propiedades**.  
+1.  En la consola de administración de BizTalk Server, expanda **partes**, haga clic en **Tutorial_BatchDest**y, a continuación, haga clic en **propiedades**.  
   
 2.  En el cuadro de diálogo Propiedades de la entidad, haga clic en **puertos de envío** en el árbol de consola.  Seleccione **Tutorial_BatchDest** desde la lista desplegable y, a continuación, haga clic en **Aceptar**.  
   

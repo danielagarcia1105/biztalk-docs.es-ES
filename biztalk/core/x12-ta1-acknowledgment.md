@@ -12,16 +12,16 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8547175461732e41248e1e94bf961f95e655890f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f6a3de45744b40335999c1471165ff851ec60664
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="x12-ta1-acknowledgment"></a>Confirmación TA1 de X12
 La confirmación técnica TA1 de X12 informa del estado del procesamiento de un encabezado de intercambio y finalizador mediante el receptor de direcciones. Si los segmentos ISA y IEA del mensaje codificado con X12 son válidos, se envía una confirmación TA1 positiva, siempre que el estado del otro contenido también sea válido. En caso contrario, la confirmación TA1 se envía con un código de error.  
   
- La confirmación TA1 se ajusta a la X12_ de X12\<número de versión > _TA1.xsd esquema. La confirmación TA1 se envía dentro de un sobre ISA/IEA. Los intercambios ISA e IEA no son distintos a otros intercambios.  
+ La confirmación TA1 se ajusta a la X12_ de X12\<número de versión\>_TA1.xsd esquema. La confirmación TA1 se envía dentro de un sobre ISA/IEA. Los intercambios ISA e IEA no son distintos a otros intercambios.  
   
  Los segmentos del intercambio de una confirmación TA1 se muestran en la siguiente tabla.  
   

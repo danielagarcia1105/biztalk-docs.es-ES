@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63d27a186cffc86a79f0a40f73cc6a0c1791c3b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 71021bb0a9bbb71f17f0899e625ac184f9087429
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-request-message-for-insert-operation-on-purchaseorder-table"></a>Paso 1: Crear el mensaje de solicitud para la operación de inserción en la tabla Purchase_Order
 ![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -89,7 +89,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  En el **firma** ficha, seleccione la **firmar el ensamblado** casilla de verificación.  
   
-    4.  Desde el **elegir un archivo de clave de nombre seguro** lista, haga clic en  **\<examinar >**.  
+    4.  Desde el **elegir un archivo de clave de nombre seguro** lista, haga clic en  **\<examinar\>**.  
   
     5.  Navegue hasta la carpeta donde se creó el archivo de clave de nombre seguro y, a continuación, haga clic en **abiertos**.  
   
@@ -125,4 +125,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>Vea también  
  [Paso 2: Asignar el mensaje de respuesta UPDATE_EMPLOYEE insertar el mensaje de solicitud de operación](../../adapters-and-accelerators/adapter-sql/step-2-map-update_employee-response-to-insert-operation-request.md)   
- [Lección 4: Realizar una operación de inserción en la tabla de orden de compra](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md)
+ [Lección 4: Realizar una operación de inserción en la tabla de pedidos de compra](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md)

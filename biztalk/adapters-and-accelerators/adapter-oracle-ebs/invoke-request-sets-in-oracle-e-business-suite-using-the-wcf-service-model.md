@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b01765cc47b0d8eafffcf30160ce9ee6c840003d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec243c1d1ed1093241e4dc6120c3703fbf2e4542
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-request-sets-in-oracle-e-business-suite-using-the-wcf-service-model"></a>Invocar conjuntos de solicitudes en Oracle E-Business Suite mediante el modelo de servicio WCF
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]permite ejecutar conjuntos de solicitudes en Oracle E-Business Suite. Solicitar conjuntos se dividen en una o varias fases y cada fase contiene un conjunto de informes y programas simultáneos. Para obtener más información acerca del modo en que el adaptador admite los conjuntos de solicitudes, consulte [operaciones en la solicitud establece](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md).  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 |Operación|Firma de método|  
 |---------------|----------------------|  
-|Conjunto de solicitud|pública \<tipo de valor devuelto > \<nombre del conjunto de solicitud > (parámetro 1, el parámetro 2,...)|  
+|Conjunto de solicitud|pública \<tipo de valor devuelto\> \<nombre del conjunto de solicitud\>(parámetro 1, el parámetro 2,...)|  
   
  Por ejemplo, el código siguiente muestra las firmas de método para generar una clase de cliente WCF para la **reqset_singlestage** solicitar conjunto.  
   

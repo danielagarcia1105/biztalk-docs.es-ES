@@ -12,11 +12,11 @@ caps.latest.revision: "31"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c83e610a96343dfc32917f898f69645c13e5fa79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c6a16d47f88be211b376f54d0f7116346771d136
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a>Guía de optimización de rendimiento de BizTalk Server 2010
 Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rendimiento. Hemos creado esta guía para proporcionar información detallada para optimizar el rendimiento de una solución de BizTalk Server. Pruebas de rendimiento de end-to-end se suelen pasarse por alto durante la implementación de aplicaciones empresariales. Saber que Microsoft ha creado una infraestructura de mensajería escalable, muchas organizaciones que usan el servidor BizTalk Server dedican tiempo a poca o ninguna realizar pruebas de rendimiento de sus propias aplicaciones. Aplicaciones de BizTalk Server constan de varios elementos, que pueden incluir los componentes, así como los proporcionados por Microsoft. No es posible para todas las combinaciones posibles de estos componentes de prueba de Microsoft para el rendimiento. Por lo tanto, completa y correctamente llevando a cabo una prueba de rendimiento de la aplicación es un paso crítico de cualquier implementación.  
@@ -28,7 +28,7 @@ Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rend
 ## <a name="whats-in-it"></a>¿Qué es lo?  
  Por lo general, el rendimiento de un servidor está determinado por el componente que tiene el rendimiento más bajo, el cuello de botella en el sistema. La clave para mejorar el rendimiento es ser capaz de identificar cuellos de botella, determinar su causa y aplicar la acción correctiva apropiada.  
   
- Cuando planee su [!INCLUDE[prague](../includes/prague-md.md)] implementación, use esta guía para ayudar a diseñar y optimizar su entorno. El concepto de rendimiento está estrechamente relacionado con el concepto de escalabilidad. Cuando tenga un conocimiento sólido de los factores que influyen en el rendimiento de componentes del sistema, puede implementar componentes de forma que pueda escalar para admitir los períodos de gran demanda.  
+ Cuando planee la implementación de BizTalk Server, use esta guía para ayudar a diseñar y optimizar su entorno. El concepto de rendimiento está estrechamente relacionado con el concepto de escalabilidad. Cuando tenga un conocimiento sólido de los factores que influyen en el rendimiento de componentes del sistema, puede implementar componentes de forma que pueda escalar para admitir los períodos de gran demanda.  
   
  Esta guía proporciona instrucciones para optimizar el rendimiento, en función de la experiencia práctica de profesionales de TI que han trabajado extensamente con BizTalk Server. En concreto, esta guía incluye cuatro secciones principales:  
   
@@ -36,7 +36,7 @@ Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rend
   
 -   **Optimizar el rendimiento de**: el [optimizar el rendimiento de](../technical-guides/optimizing-performance.md) sección proporcionan instrucciones para optimizar el rendimiento de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]rendimiento está estrechamente relacionado con el rendimiento de la plataforma en la que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado. Esta sección proporcionan recomendaciones para optimizar el rendimiento de ambos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plataforma.  
   
--   **Ajuste de escala en un entorno de producción de BizTalk Server**: el [ajuste de escala en un entorno de producción de BizTalk Server](../technical-guides/scaling-a-production-biztalk-server-environment.md) sección proporciona resultados detallados de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] pruebas de rendimiento completado por el producto de BizTalk equipo. Estas pruebas se centra en la escalabilidad y mide el efecto de agregar [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] equipos, el impacto de agregar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox bases de datos y el impacto de agregarlas [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] equipos y [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] bases de datos de cuadro de mensajes a un solución al mismo tiempo.  
+-   **Ajuste de escala en un entorno de producción de BizTalk Server**: el [ajuste de escala en un entorno de producción de BizTalk Server](../technical-guides/scaling-a-production-biztalk-server-environment.md) sección proporciona resultados detallados de pruebas de rendimiento de BizTalk Server completado por el equipo de producto de BizTalk . Estas pruebas se centra en la escalabilidad y mide el impacto de la adición de equipos de BizTalk Server, el impacto de agregar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox bases de datos y el impacto de la adición de equipos con BizTalk Server y bases de datos de cuadro de mensajes de BizTalk Server a una solución al mismo tiempo.  
   
     -   Al aumentar el número de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en una [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] grupo, para estas pruebas solo uno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] base de datos se configuró para el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] grupo. Estas pruebas se centraron exclusivamente en el impacto de agregar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos a un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] grupo.  
   
@@ -50,7 +50,7 @@ Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rend
  [Con Visual Studio para facilitar las pruebas automatizadas](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md) – describe el uso de Visual Studio de pruebas de carga para evaluar el rendimiento de una aplicación de BizTalk Server.  
   
 ## <a name="acknowledgments"></a>Confirmaciones  
- Los miembros de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo de educación del usuario confirmar expresar las contribuciones pendientes de las siguientes personas para proporcionar comentarios técnicos así como una gran cantidad de contenido para el [!INCLUDE[prague](../includes/prague-md.md)] Guía de optimización del rendimiento:  
+ Los miembros de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipo de educación del usuario confirmar expresar las contribuciones pendientes de las siguientes personas para proporcionar comentarios técnicos así como una gran cantidad de contenido de la Guía de optimización del rendimiento de BizTalk Server:  
   
  **Autores**  
   

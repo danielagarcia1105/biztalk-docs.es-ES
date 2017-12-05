@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2550d8e1ea0ad45147b2f27daef7244f6c18770b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9241c8d9c5f6e41f47199211d0215c16526951d6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-restore-the-master-secret"></a>Cómo restaurar el secreto principal
 Como parte de los procedimientos de recuperación de datos, es probable que tenga que restaurar el secreto principal para poder reutilizar los datos existentes. Para realizar esta tarea, debe iniciar la sesión en el servidor secreto principal con una cuenta que sea administrador de Windows y administrador de SSO.  
@@ -39,9 +39,9 @@ Como parte de los procedimientos de recuperación de datos, es probable que teng
   
 2.  Seleccione el administrador apropiado y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssoconfig – restoreSecret \<Restaurar archivo >**, donde  **\<Restaurar archivo >** es la ruta de acceso y nombre del archivo donde se almacena el secreto principal.  
+4.  Tipo de **ssoconfig – restoreSecret \<Restaurar archivo\>**, donde  **\<Restaurar archivo\>**  es la ruta de acceso y el nombre del archivo donde se encuentra el secreto principal almacena.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -50,4 +50,4 @@ Como parte de los procedimientos de recuperación de datos, es probable que teng
  [Cómo generar el secreto principal](../core/how-to-generate-the-master-secret.md)   
  [Cómo realizar copias de seguridad del secreto principal](../core/how-to-back-up-the-master-secret.md)   
  [Servidor secreto principal](../core/master-secret-server.md)   
- [Administrar el secreto principal](../core/managing-the-master-secret.md)
+ [Administración del secreto maestro](../core/managing-the-master-secret.md)

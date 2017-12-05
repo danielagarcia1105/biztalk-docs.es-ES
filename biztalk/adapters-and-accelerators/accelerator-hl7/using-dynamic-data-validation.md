@@ -15,14 +15,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1c08393b8e6d4b2563d6fb7ccdf49559943538ce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3387117648329828c9276545eafddca6872c4aa2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-dynamic-data-validation"></a>Mediante la validación de datos dinámicos
-Una parte importante de la validación de datos dinámicos se está validando contenido del mensaje con datos dinámicos, que incluye validar el formato del mensaje y el contenido del mensaje. Un esquema de documento, que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] implementa en un archivo XSD, define y valida los formatos de mensaje. Las reglas de negocios definen el contenido del mensaje, que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] valida a través de directivas de motor de reglas de negocios. Validación de contenido puede incluir la confirmación de que los datos en la instancia de mensaje coincide con los datos que pueden cambiar con relativa frecuencia. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]implementa este tipo de validación de forma dinámica, para que pueda actualizar estos datos en un entorno de producción, sin tener que compilar el código o cerrar los servicios.  
+Una parte importante de la validación de datos dinámicos se está validando contenido del mensaje con datos dinámicos, que incluye validar el formato del mensaje y el contenido del mensaje. Un esquema de documento, que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server se implementa en un archivo XSD, define y valida los formatos de mensaje. Las reglas de negocios definen el contenido del mensaje, que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] valida a través de directivas de motor de reglas de negocios. Validación de contenido puede incluir la confirmación de que los datos en la instancia de mensaje coincide con los datos que pueden cambiar con relativa frecuencia. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]implementa este tipo de validación de forma dinámica, para que pueda actualizar estos datos en un entorno de producción, sin tener que compilar el código o cerrar los servicios.  
   
 ## <a name="validate-and-expose-data"></a>Validar y exponer los datos  
  Existen dos pasos para realizar la validación de datos dinámicos (DDV):  
@@ -47,7 +47,7 @@ Una parte importante de la validación de datos dinámicos se está validando co
   
 -   Puede crear reglas en tiempo de diseño en la interfaz de usuario del compositor de reglas de negocio o directamente en las reglas de lenguaje negocios (BRL) XML en un editor de texto.  
   
- Para obtener más información acerca de las reglas de negocios y el motor de reglas de negocios, vea "Desarrollar con las reglas de negocios" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de las reglas de negocios y el motor de reglas de negocios, vea "Desarrollar con reglas de negocios" en la Ayuda de BizTalk Server.  
   
 ## <a name="extending-ddv"></a>Extender DDV  
  Si cambia la validación de campos cruzados basada en HL7 o validación de tipo de datos, se deben tener en cuenta dos cosas:  

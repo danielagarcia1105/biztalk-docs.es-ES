@@ -18,11 +18,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1555abddd218d28c360ee5364fa30fabaed47aa0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9090c4ee7d576bb7ab610cd81637680d837b2cae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-using-xml-envelopes-basic"></a>Tutorial: Utilizar sobres XML (básicos)
 En este ejemplo se demuestra un desensamblado de sobre XML básico implementando parte de un sistema de seguimiento de errores ficticio. El ejemplo cumple los requisitos siguientes:  
@@ -105,7 +105,7 @@ En este ejemplo se demuestra un desensamblado de sobre XML básico implementando
   
 3.  Cambie el nombre del nodo raíz de "Root" a "Envelope".  
   
-4.  Ahora, marque el esquema como esquema de sobres. Haga clic en el  **\<esquema >** nodo. En el panel Propiedades, establezca la propiedad de referencia de esquema **sobres** a `OK`.  
+4.  Ahora, marque el esquema como esquema de sobres. Haga clic en el  **\<esquema\>**  nodo. En el panel Propiedades, establezca la propiedad de referencia de esquema **sobres** a `OK`.  
   
 5.  Establecer el **XPath de cuerpo** propiedad. Para ello, haga clic en el **sobres** nodo. En la ventana Propiedades, haga clic en el botón de puntos suspensivos (**...** ) botón en el **XPath de cuerpo** propiedad, seleccione **sobres**y, a continuación, haga clic en **Aceptar**.  
   

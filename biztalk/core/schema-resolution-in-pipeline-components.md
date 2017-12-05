@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec002d19064032dcc663cf4da06b916eeda64d23
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 897c25ecb64a3038a6992b9c4caf927ba3e2d805
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schema-resolution-in-pipeline-components"></a>Resolución de esquemas en componentes de canalización
 Los componentes de canalización de desensamblador y de ensamblador utilizan esquemas XSD para procesar los mensajes. Los esquemas contienen información, como la lista de propiedades promocionadas, campos distintivos, anotaciones para mensajes de archivo sin formato y anotaciones para sobres XML.  
@@ -35,7 +35,7 @@ Los componentes de canalización de desensamblador y de ensamblador utilizan esq
 </ns0:MyDocument>  
 ```  
   
- Si un esquema no tiene un espacio de nombres definido para ella, el tipo de mensaje es "\<**rootNode**>". Por ejemplo, si el anterior ejemplo XML no tuviera espacio de nombres, el tipo de mensaje sería "MyDocument".  
+ Si un esquema no tiene un espacio de nombres definido para ella, el tipo de mensaje es "\<**rootNode**\>". Por ejemplo, si el anterior ejemplo XML no tuviera espacio de nombres, el tipo de mensaje sería "MyDocument".  
   
  Los componentes estándar de canalización utilizan el tipo de mensaje para recuperar el esquema apropiado de la base de datos. Las canalizaciones de recepción y de envío XML predeterminadas siempre determinan qué esquema cargar mediante el tipo de mensaje descubierto dinámicamente en tiempo de ejecución a partir del contenido XML del mensaje (a no ser que el componente de canalización esté establecido para permitir mensajes desconocidos). El desensamblador XML puede quitar el sobre del mensaje mediante este mecanismo; sin embargo, el ensamblador XML no puede crear un sobre para un mensaje saliente sin conocer qué esquema de sobres utilizar.  
   

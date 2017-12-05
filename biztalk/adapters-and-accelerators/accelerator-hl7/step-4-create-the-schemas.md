@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cbc70a0a00916f0e2b76f4245f80d488bf026bc8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ce9ea850632327e257909e1c7d4b60117865e46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-the-schemas"></a>Paso 4: Crear los esquemas
 En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los artefactos para este proyecto: los esquemas, el mapa y la orquestación. A continuación, cree un esquema (**Doorbell.xsd**) para el mensaje entrante de codificación XML y seleccione un esquema existente (**ADT_A04_22_GLO_DEF.xsd**) para el mensaje saliente con codificación HL7. Use estos esquemas para definir la estructura de los mensajes que intercambian en la orquestación.  
@@ -37,12 +37,12 @@ En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los a
   
 5.  En el **solución** campo, seleccione **agregar a solución**.  
   
-6.  En el **ubicación** , a continuación, compruebe que  **\<* unidad*>: \Tutorial\BTAHL7V22Common** es la ruta de acceso.  
+6.  En el **ubicación** , a continuación, compruebe que  **\<* unidad*\>: \Tutorial\BTAHL7V22Common** es la ruta de acceso.  
   
 7.  Haga clic en **Aceptar** para abrir el nuevo proyecto.  
   
     > [!NOTE]
-    >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega un nuevo proyecto en el Explorador de soluciones. También agrega la carpeta del proyecto y crea archivos de la \< *unidad*>: \Tutorial\\**BTAHL7V22Common** carpeta del proyecto.  
+    >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega un nuevo proyecto en el Explorador de soluciones. También agrega la carpeta del proyecto y crea archivos de la \< *unidad*\>: \Tutorial\\**BTAHL7V22Common** carpeta del proyecto.  
   
 8.  En el Explorador de soluciones, haga clic en el **BTAHL7 proyecto** , seleccione **agregar**y, a continuación, haga clic en **nuevo elemento**.  
   
@@ -52,7 +52,7 @@ En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los a
   
 11. Haga clic en **agregar** para abrir el esquema en blanco en el Editor de BizTalk.  
   
-12. En el  **\<esquema >** de árbol, haga clic en el **raíz** nodo y, a continuación, haga clic en **cambiar el nombre de**.  
+12. En el  **\<esquema\>**  de árbol, haga clic en el **raíz** nodo y, a continuación, haga clic en **cambiar el nombre de**.  
   
 13. Tipo de **DoorbellRoot** como nuevo nombre y, a continuación, presione **ENTRAR**.  
   
@@ -89,7 +89,7 @@ En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los a
   
 21. En el Explorador de soluciones, bajo **BTAHL7 proyecto**, haga clic en **referencias** y, a continuación, haga clic en **Agregar referencia**.  
   
-22. En el cuadro de diálogo Agregar referencia, haga clic en el **examinar** ficha. En el **buscar en** cuadro, pase a \< *unidad*>: \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BTAHL7Drop\Bin HL7\SDK\End-to-End. Haga clic en **Microsoft.Solutions.BTAHL7.HL7Schemas.dll**, haga clic en **agregar**y, a continuación, haga clic en **Aceptar**.  
+22. En el cuadro de diálogo Agregar referencia, haga clic en el **examinar** ficha. En el **buscar en** cuadro, pase a \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para Tutorial HL7\SDK\End-to-End \Tutorial_BTAHL7Drop\Bin. Haga clic en **Microsoft.Solutions.BTAHL7.HL7Schemas.dll**, haga clic en **agregar**y, a continuación, haga clic en **Aceptar**.  
   
  Continúe con [paso 5: promocionar las propiedades de esquema](../../adapters-and-accelerators/accelerator-hl7/step-5-promote-schema-properties.md).  
   

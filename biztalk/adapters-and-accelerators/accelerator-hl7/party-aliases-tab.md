@@ -17,11 +17,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc22c7e3eafffb035c791b258064e2149f31636b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dec1cde2206f055cbcf97c94a7e2f042aa391f51
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="party-aliases-tab"></a>Pestaña de alias de entidad
 Usa el **alias de entidad** pestaña para ver información acerca de la entidad seleccionada.  
@@ -29,7 +29,7 @@ Usa el **alias de entidad** pestaña para ver información acerca de la entidad 
 > [!NOTE]
 >  Utilice el Explorador de BizTalk para crear entidades.  
   
- Para obtener más información sobre la creación de entidades, vea "Administrar entidades utilizando el Explorador de BizTalk" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información sobre la creación de entidades, vea "Administrar entidades utilizando el Explorador de BizTalk" en la Ayuda de BizTalk Server.  
   
  En el **Explorador de configuración de BTAHL7** cuadro de diálogo, en la **alias de entidad** ficha, realice lo siguiente:  
   

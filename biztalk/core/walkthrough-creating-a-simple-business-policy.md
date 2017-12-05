@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c894ab80926d2fad66af540c492dd053570aaa4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1eb4f21cf9311399ef6092b95fa818547679a240
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-a-simple-business-policy"></a>Tutorial: Crear una directiva empresarial sencilla
 Este tutorial proporciona procedimientos paso a paso para que usar el Compositor de reglas de negocio para crear una directiva empresarial sencilla denominada **ProcessPurchaseOrder** que contiene una regla denominada **ApprovedRule**. El **ApprovedRule** regla espera que el usuario para enviar un documento XML como un hecho y establece el valor de la **estado** campo en el documento a **aprobado** si el valor de la  **Cantidad** campo es menor o igual a **500**.  
@@ -106,7 +106,7 @@ Este tutorial proporciona procedimientos paso a paso para que usar el Compositor
 8.  En la ventana Propiedades, cambie el valor de la **tipo de documento** propiedad de **pedido** a **RuleTest.PO**.  
   
     > [!NOTE]
-    >  Creará un proyecto de BizTalk denominado **RuleTest** más adelante en el [Tutorial: invocar la directiva desde una orquestación](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) tutorial. En que el tutorial, agregará el **PO.xsd** al proyecto, cree una orquestación que invoca la **ProcessPurchaseOrder** directiva y, a continuación, probar la directiva. Para probar la directiva desde la orquestación, debe asegurarse de que cambia el **tipo de documento** propiedad  **\<nombre del proyecto >.\< SchemaName >**, que es **RuleTest.PO** en este caso.  
+    >  Creará un proyecto de BizTalk denominado **RuleTest** más adelante en el [Tutorial: invocar la directiva desde una orquestación](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) tutorial. En que el tutorial, agregará el **PO.xsd** al proyecto, cree una orquestación que invoca la **ProcessPurchaseOrder** directiva y, a continuación, probar la directiva. Para probar la directiva desde la orquestación, debe asegurarse de que cambia el **tipo de documento** propiedad  **\<nombre del proyecto\>.\< SchemaName\>**, que es **RuleTest.PO** en este caso.  
   
      ![BRE &#45; Tutorial &#45; ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")  
   
@@ -128,7 +128,7 @@ Este tutorial proporciona procedimientos paso a paso para que usar el Compositor
   
      ![Compositor de reglas de negocios &#45; DragStatus](../core/media/3617251a-a192-4aec-9474-81f6290c0832.gif "3617251a-a192-4aec-9474-81f6290c0832")  
   
-14. En el panel, a continuación, haga clic en  **\<escriba un valor >** y, a continuación, escriba **aprobado**.  
+14. En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **aprobado**.  
   
 15. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
   
@@ -146,4 +146,4 @@ Este tutorial proporciona procedimientos paso a paso para que usar el Compositor
  Ahora que ha completado este tutorial, realice la [Tutorial: probar la directiva](../core/walkthrough-testing-the-policy.md) tutorial, que encontrará instrucciones paso a paso para probar el **ProcessPurchaseOrder** directiva se se creó en este tutorial.  
   
 ## <a name="see-also"></a>Vea también  
- [Acerca de las reglas de negocios](../core/about-business-rules.md)
+ [Acerca de las reglas de negocio](../core/about-business-rules.md)

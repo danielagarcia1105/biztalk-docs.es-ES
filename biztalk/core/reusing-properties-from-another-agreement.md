@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e2a4e1efbfb7a86c18fb3643a789312a3707a72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d7db2118f372014a3e8f108c1ff2273bc5aad976
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="reusing-properties-from-another-agreement"></a>Volver a usar propiedades de otro acuerdo
-Se pueden reusar propiedades entre acuerdos. De este modo, ahorrará tiempo cuando la mayoría o todas las propiedades de un acuerdo nuevo son las mismas que las de un acuerdo que ya existe. La interfaz de usuario [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] en [!INCLUDE[prague](../includes/prague-md.md)] permite exportar un acuerdo a un archivo de plantilla XML. A continuación, puede importar la plantilla XML para reusar las mismas propiedades de acuerdo.  
+Se pueden reusar propiedades entre acuerdos. De este modo, ahorrará tiempo cuando la mayoría o todas las propiedades de un acuerdo nuevo son las mismas que las de un acuerdo que ya existe. El [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] interfaz de usuario en BizTalk Server le permite exportar un acuerdo a un archivo de plantilla XML. A continuación, puede importar la plantilla XML para reusar las mismas propiedades de acuerdo.  
   
  La exportación de un acuerdo a una plantilla XML captura la mayoría de propiedades del acuerdo, pero no todas. Las siguientes propiedades *no* exportarán al archivo de plantilla XML:  
   
@@ -50,9 +50,9 @@ Se pueden reusar propiedades entre acuerdos. De este modo, ahorrará tiempo cuan
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Exportar las propiedades de acuerdo a un archivo XML](../core/exporting-agreement-properties-to-an-xml-file.md)  
+-   [Exportación de propiedades del acuerdo a un archivo XML](../core/exporting-agreement-properties-to-an-xml-file.md)  
   
--   [Propiedades del acuerdo de importación de un archivo XML](../core/importing-agreement-properties-from-an-xml-file.md)  
+-   [Importación de propiedades de acuerdo de un archivo XML](../core/importing-agreement-properties-from-an-xml-file.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades de EDI](../core/configuring-edi-properties.md)
+ [Configuración de las propiedades de EDI](../core/configuring-edi-properties.md)

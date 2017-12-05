@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bc8a298686772d354c934d76fbcb7dbbb8146f8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1027e30e847c4f35b9270083ad56074967072467
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-or-editing-a-home-organization"></a>Creación o edición de la organización principal
 En este tema se describe cómo crear o editar la organización principal. La configuración de la organización principal describe y clasifica la organización, establece sin repudio del período de origen y proporcione información de contacto.  
@@ -68,10 +68,10 @@ En este tema se describe cómo crear o editar la organización principal. La con
   
 4.  Haga clic en la organización principal que desea editar y, a continuación, haga clic en **propiedades**.  
   
-5.  En el  *\<principal organización >* cuadro de diálogo de propiedades el **General** y **póngase en contacto con propiedades** pestañas, cambie la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
+5.  En el  *\<principal organización\>*  cuadro de diálogo de propiedades el **General** y **póngase en contacto con propiedades** pestañas, cambie la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
   
 6.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar la configuración, certificados, las bases de datos y seguridad](manage-configuration-certificates-databases-security.md)   
- [Administrar la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [Administración de la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

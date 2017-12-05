@@ -13,11 +13,11 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: mandia
-ms.openlocfilehash: 59c6aabd6adf584bb27f5487ca31f852a0d11384
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbb7ddc2028383f8ac346e7876459f322d2dd96b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues"></a>Problemas conocidos
 Esta sección contiene información útil que puede ayudar a evitar errores con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. Los problemas conocidos se agrupan en las siguientes áreas:  
@@ -49,7 +49,7 @@ Esta sección contiene información útil que puede ayudar a evitar errores con 
  [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]admite la adición de un grupo para el grupo de usuarios de la aplicación de BizTalk o un grupo de administradores de BizTalk Server. Sin embargo, las cuentas de usuario individuales y grupos que pertenecen al grupo usuarios de aplicación de BizTalk o el grupo de administradores de BizTalk Server deben ser una parte del mismo dominio.  
   
 ### <a name="uninstallation-of-btarn-fails-if-biztalk-server-is-removed-first"></a>Se produce un error en la desinstalación de BTARN si BizTalk Server se quita primero  
- Si quita [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] antes de quitar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] se produce un error en el proceso de eliminación sin errores. Para resolver este problema, vuelva a instalar y volver a configurar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y, a continuación, quitar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+ Si quita el servidor BizTalk Server antes de quitar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] se produce un error en el proceso de eliminación sin errores. Para resolver este problema, vuelva a instalar y volver a configurar el servidor BizTalk Server y, a continuación, quitar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
 ### <a name="distributed-deployment-requires-a-domain-controller"></a>Implementación distribuida requiere un controlador de dominio  
  Implementar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] en un entorno multiservidor requiere un controlador de dominio, por ejemplo, cuando haya instalado [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] en un servidor y el [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] utilizados para la configuración en otro servidor de bases de datos.  
@@ -110,7 +110,7 @@ Esta sección contiene información útil que puede ayudar a evitar errores con 
  Cuando se crea un perfil de configuración de proceso y, a continuación, cree un acuerdo, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] realiza la validación de campos cruzados para asegurarse de que las propiedades del acuerdo y el perfil de son compatibles. Por ejemplo, comprueba que un perfil con la propiedad estándar establecida en "CIDX", la propiedad de acuerdo 0A1 del acuerdo se establece en "No 0A1". Sin embargo, si cambia un perfil de configuración de proceso después de haber creado un acuerdo, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] no realiza la validación de campos cruzados. Si cambia la propiedad estándar de "RosettaNet" a "CIDX" [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] no comprueba que la propiedad de acuerdo 0A1 del acuerdo se establece en "No 0A1".  
   
 ### <a name="errors-will-result-if-all-orchestrations-are-not-started"></a>Se producirán errores si no se inician todas las orquestaciones  
- El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación instala nueve orquestaciones. Para [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] para procesar los mensajes correctamente, debe enlazar, dar de alta e iniciar todos los nueve de estas orquestaciones antes de iniciar el procesamiento. Para obtener más información, vea los temas "Administración de orquestación en el Explorador de BizTalk" o "Administrar orquestaciones" de [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación instala nueve orquestaciones. Para [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] para procesar los mensajes correctamente, debe enlazar, dar de alta e iniciar todos los nueve de estas orquestaciones antes de iniciar el procesamiento. Para obtener más información, vea los temas "Administración de orquestación en el Explorador de BizTalk" o "Administrar orquestaciones" en la Ayuda de BizTalk Server.  
   
 ### <a name="rnifreceiveaspx-does-not-remove-the-mime-bottom-boundary-from-a-message"></a>RNIFReceive.aspx no se quita el límite inferior MIME de un mensaje  
  Cuando la página de trabajo RNIFReceive.aspx recibe un mensaje desde una página de RNIFSend.aspx de un asociado, el mensaje incluye un encabezado MIME y una parte superior e inferior límite MIME, un número en base 64. RNIFSend.aspx agrega el encabezado y los límites para el mensaje para la transmisión de RNIF. RNIFReceive.aspx debe quitar el encabezado MIME y los límites de los mensajes antes de enviar el mensaje para el proceso público. RNIFReceive.aspx quita el encabezado MIME y el límite superior, pero no quita el límite inferior. La presencia del límite inferior no afecta el procesamiento del mensaje en el proceso público.  
@@ -128,7 +128,7 @@ Esta sección contiene información útil que puede ayudar a evitar errores con 
  Si se produce un error de transmisión cuando una orquestación de proceso público procesa el mensaje final, el registro de eventos y HAT muestran el error, pero no BAM. BAM no puede mostrar el mensaje porque se ha detenido la orquestación.  
   
 ### <a name="the-pipelineexe-tool-cannot-be-used-to-debug-a-btarn-receive-pipeline"></a>No se puede usar la herramienta pipeline.exe para depurar un BTARN la canalización de recepción  
- Si desea depurar una canalización de recepción, tendrá que crear un puerto de hospedaje de la canalización. No se puede depurar utilizando la pipeline.exe herramienta que [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] proporciona.  
+ Si desea depurar una canalización de recepción, tendrá que crear un puerto de hospedaje de la canalización. No puede depurar mediante la herramienta pipeline.exe que proporciona BizTalk Server.  
   
 ### <a name="an-error-may-be-generated-for-a-retried-message-that-is-successfully-processed-after-the-orchestration-finishes"></a>Puede generarse un error de un mensaje volverá a intentar que se procesa correctamente cuando finaliza la orquestación  
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]utiliza orquestaciones para representar el flujo del proceso. En algunos casos, en el que se reintentan varios mensajes volverá a intentar, la orquestación puede finalizar correctamente antes de que llegue un mensaje volverá a intentar en BizTalk MessageBox. Cuando se produce este comportamiento, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] genera un mensaje de error correspondiente "se completó pero descarta". Debe considerar la aplicación de línea de negocio (LOB) para determinar si el proceso ha terminado o no. Si la aplicación de LOB indica la finalización correcta, puede ignorar el mensaje "completado pero descartado".  

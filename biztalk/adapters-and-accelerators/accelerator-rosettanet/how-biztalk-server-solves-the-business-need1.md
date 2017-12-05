@@ -13,17 +13,17 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b43e8be2d4f4fca9a48045eb1bc5f245adae97e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bdcabc80fcfeb667debc2c01d0f7ce40b57a4404
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-biztalk-server-solves-the-business-need"></a>Cómo BizTalk Server resuelve la necesidad empresarial
-Para resolver la integración de sistema es necesario, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] mejora la funcionalidad de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] para sistemas de fabricación de alta tecnología. Dado que la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación instala el acelerador en la parte superior de [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], esta sección describen la tecnología al proporcionar una visión general de la funcionalidad de [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]y una descripción de la funcionalidad que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] agrega a BizTalk Server.  
+Para resolver la integración de sistema es necesario, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] mejora la funcionalidad de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server para sistemas de fabricación de alta tecnología. Dado que la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación instala el Acelerador sobre BizTalk Server, esta sección describen la tecnología al proporcionar una visión general de la funcionalidad de BizTalk Server y una descripción de la funcionalidad que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] agrega a Servidor BizTalk Server.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
 -   [Integración de sistemas con BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/systems-integration-with-biztalk-server2.md)  
   
--   [Lo que agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)
+-   [Qué agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)

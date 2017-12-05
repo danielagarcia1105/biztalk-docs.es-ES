@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23525d3b2f72d59e2b0f44257c707f22e6bc2bab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce8a5cf43cd1d6e455492a74985edb91f2cb0a94
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-affiliate-applications-for-host-initiated-sso"></a>Cómo crear aplicaciones afiliadas SSO iniciado por Host
 Se pueden definir dos tipos de aplicaciones:  
@@ -45,9 +45,9 @@ Se pueden definir dos tipos de aplicaciones:
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage – createapps \<AffApp.xml >**, donde AffApp.xml es el nombre del archivo xml.  
+4.  Tipo de **ssomanage – createapps \<AffApp.xml\>**, donde AffApp.xml es el nombre del archivo xml.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -76,9 +76,9 @@ Se pueden definir dos tipos de aplicaciones:
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage – createapps \<AffApp.xml >**, donde AffApp.xml es el nombre del archivo xml.  
+4.  Tipo de **ssomanage – createapps \<AffApp.xml\>**, donde AffApp.xml es el nombre del archivo xml.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -107,9 +107,9 @@ Se pueden definir dos tipos de aplicaciones:
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage – createapps \<AffApp.xml >**, donde AffApp.xml es el nombre del archivo xml.  
+4.  Tipo de **ssomanage – createapps \<AffApp.xml\>**, donde AffApp.xml es el nombre del archivo xml.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

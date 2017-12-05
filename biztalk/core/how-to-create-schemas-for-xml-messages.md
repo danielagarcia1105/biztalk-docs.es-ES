@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 83a06aa7ca1ee4e37c29083ac38f5285565b7325
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6396d4607e93298961e6691ded2ca8d4566d819c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-schemas-for-xml-messages"></a>Cómo crear esquemas para mensajes XML
 Hay varios métodos para crear esquemas de mensaje de BizTalk. Este tema proporciona instrucciones paso a paso para algunos de estos métodos.  
@@ -27,7 +27,7 @@ Hay varios métodos para crear esquemas de mensaje de BizTalk. Este tema proporc
   
 2.  En el menú **Proyecto** , haga clic en **Agregar nuevo elemento**.  
   
-3.  En el  **Agregar nuevo elemento - \<* BizTalk ProjectName*> ** cuadro de diálogo, en la **plantillas** sección, haga clic en **esquema**.  
+3.  En el  **Agregar nuevo elemento - \<* BizTalk ProjectName*\>** cuadro de diálogo, en la **plantillas** sección, haga clic en **esquema**.  
   
 4.  En el **nombre** , escriba un nombre para el esquema y, a continuación, haga clic en **agregar**.  
   
@@ -45,7 +45,7 @@ Hay varios métodos para crear esquemas de mensaje de BizTalk. Este tema proporc
   
 1.  En **el Explorador de soluciones**, haga clic en un proyecto de BizTalk, seleccione **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el  **agregar elementos generados - \<* BizTalk ProjectName*> ** cuadro de diálogo, en la **plantillas** sección, haga clic en **generar esquemas**y, a continuación, haga clic en **agregar**.  
+2.  En el  **agregar elementos generados - \<* BizTalk ProjectName*\>** cuadro de diálogo, en la **plantillas** sección, haga clic en  **Generar esquemas**y, a continuación, haga clic en **agregar**.  
   
 3.  En el **generar esquemas** cuadro de diálogo, en la **tipo de documento** lista desplegable, seleccione **esquema XDR**, **esquema DTD**, o **XML correcto**.  
   
@@ -56,4 +56,4 @@ Hay varios métodos para crear esquemas de mensaje de BizTalk. Este tema proporc
      Se genera un nuevo esquema a partir del archivo especificado con el mismo nombre que el archivo con la extensión .xsd y se abre en el Editor de BizTalk.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar esquemas en proyectos](../core/managing-schemas-within-projects.md)
+ [Administración de esquemas en proyectos](../core/managing-schemas-within-projects.md)

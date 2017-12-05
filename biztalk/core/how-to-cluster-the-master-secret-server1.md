@@ -17,11 +17,11 @@ caps.latest.revision: "47"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c9fc06d9c735a59fe59499bf9ed0ac62aab0408
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: 9740bb1c73dd5f416dda3c2f29bb15fbc7241a51
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-cluster-the-master-secret-server"></a>Cómo agrupar el servidor secreto principal
 Se recomienda seguir las instrucciones contenidas en esta sección para agrupar el servicio de inicio de sesión único (SSO) empresarial correctamente en el servidor secreto principal.  
@@ -67,7 +67,7 @@ Se recomienda seguir las instrucciones contenidas en esta sección para agrupar 
   
     6.  Escriba el grupo Administradores afiliados de SSO de dominio creado anteriormente como el grupo asociado con el rol Administradores afiliados de SSO.  
   
-8.  Seleccione el **copia de seguridad de secreto de SSO de Enterprise** opción en el panel izquierdo y proporcione los parámetros adecuados para realizar una copia de seguridad del secreto de SSO empresarial. De forma predeterminada, el secreto de SSO empresarial es copia de seguridad  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*bak.  
+8.  Seleccione el **copia de seguridad de secreto de SSO de Enterprise** opción en el panel izquierdo y proporcione los parámetros adecuados para realizar una copia de seguridad del secreto de SSO empresarial. De forma predeterminada, el secreto de SSO empresarial es copia de seguridad  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On\\*SSOxxxx*bak.  
   
 9. Haga clic en el **aplicar configuración** y revise el resumen.  
   
@@ -133,7 +133,7 @@ Se recomienda seguir las instrucciones contenidas en esta sección para agrupar 
   
     2.  Guarde el archivo con la extensión .xml. Por ejemplo, puede guardar el archivo con el nombre SSOCLUSTER.xml.  
   
-    3.  En el símbolo del sistema, desplácese a la carpeta de instalación de SSO empresarial. De forma predeterminada, es la carpeta de instalación  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+    3.  En el símbolo del sistema, desplácese a la carpeta de instalación de SSO empresarial. De forma predeterminada, es la carpeta de instalación  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
     4.  Escriba el comando siguiente en el símbolo del sistema para actualizar el servidor secreto principal en la base de datos:  
   
@@ -191,7 +191,7 @@ Se recomienda seguir las instrucciones contenidas en esta sección para agrupar 
     > [!NOTE]
     >  Si no se completa este paso, es posible que el intento de restaurar el secreto principal resulte infructuoso.  
   
-4.  Copie el archivo de copia de seguridad del secreto principal del primer nodo a la carpeta de instalación \Enterprise Single Sign-On del segundo nodo. De forma predeterminada, es la carpeta de instalación  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+4.  Copie el archivo de copia de seguridad del secreto principal del primer nodo a la carpeta de instalación \Enterprise Single Sign-On del segundo nodo. De forma predeterminada, es la carpeta de instalación  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 5.  Inicie sesión en el segundo nodo y, en un símbolo del sistema, cambie a la carpeta de instalación de SSO empresarial.  
   

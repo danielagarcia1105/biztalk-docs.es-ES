@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e7da5d51407bed1cca257e14cc4f548e8c991cf9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4a6326ae6e82e819d3cdf76ecc4d81e2a377ea65
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-the-frr-send-ports-for-sending-to-the-custom-handlers"></a>Creación de los puertos de envío FRR para enviar a los controladores personalizados
 Para realizar la conciliación de respuesta de FIN, debe crear una serie de puertos de envío, cada uno de los cuales envía un mensaje (original mensaje o respuesta) de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] a los controladores personalizados que procesan los mensajes correlacionados.  
@@ -113,7 +113,7 @@ Para realizar la conciliación de respuesta de FIN, debe crear una serie de puer
     |**Grupo**|**Y**|  
     |**Propiedad**|Seleccione **Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_FRRFailedReason**.|  
     |**Operador**|Seleccione  **==** .|  
-    |**Valor**|Tipo de  *\<NAKErrorCode >*, por ejemplo, "Y01".|  
+    |**Valor**|Tipo de  *\<NAKErrorCode\>*, por ejemplo, "Y01".|  
     |**Grupo**|**Or**|  
     |**Propiedad**|Seleccione **Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_FRRFailedReason**.|  
     |**Operador**|Seleccione  **==** .|  

@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 155aad11ecddd021b8e16892b5a5294087fedd4d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5aec9ed6ebecb0b151dbfe9d5c09707b954fdf45
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-operators-in-expressions"></a>Usar operadores en expresiones
 Los siguientes operadores XLAN/s están disponibles para su uso en expresiones de orquestaciones. Cumplen estrictamente con las funciones de los operadores correspondientes en C#.  
@@ -31,7 +31,7 @@ Los siguientes operadores XLAN/s están disponibles para su uso en expresiones d
 |unchecked()|omite el desbordamiento aritmético.|unchecked(x = y * 1000)|  
 |nuevo|crea una instancia de una clase|myObject = new MyClass;|  
 |typeof|recuperación de tipo|myMapType = typeof(myMap)|  
-|succeeded()|prueba para la finalización correcta de ámbito transaccional u orquestación|se ha realizado correctamente (\<Id. de transacción para transacción secundaria de ámbito o servicio actual >)|  
+|succeeded()|prueba para la finalización correcta de ámbito transaccional u orquestación|se ha realizado correctamente (\<identificador de transacción de secundarios del ámbito actual o servicio\>)|  
 |exists|prueba para la existencia de una propiedad de contexto de mensaje|BTS.RetryCount exists Message_In|  
 |+|más unario|+(int x)|  
 |-|menos unario|-(int x)|  
@@ -42,11 +42,11 @@ Los siguientes operadores XLAN/s están disponibles para su uso en expresiones d
 |/|dividido por|x / y|  
 |+|más|x + y|  
 |-|menos|x - y|  
-|<<|desplazar a la izquierda|x <\< 2|  
+|<<|desplazar a la izquierda|x << 2|  
 |>>|desplazar a la derecha|x >> 2|  
-|<|menor que|Si (MyMsg.numOrders \< 10)...|  
+|<|menor que|Si (MyMsg.numOrders < 10)...|  
 |>|mayor que|Si (MyMsg.numOrders > 10)...|  
-|<=|menor que o igual a|Si (MyMsg.numOrders \<= 10)...|  
+|<=|menor que o igual a|Si (MyMsg.numOrders < = 10)...|  
 |>=|mayor que o igual a|Si (MyMsg.numOrders > = 10)...|  
 |==|igual a|If (MyMsg.numOrders == 10)...|  
 |!=|no es igual a|If (MyMsg.numOrders != 10)...|  
@@ -54,11 +54,11 @@ Los siguientes operadores XLAN/s están disponibles para su uso en expresiones d
 |^|exclusivo o|If (myByte ^ 1)...|  
 |&#124;|o bien|Si (myByte &#124; 1)...|  
 |&&|condicional y|Si (MyMsg.numOrders > 10) & & (MyMsg.numOrders < 100)|  
-|&#124;&#124;|condicional o|Si (MyMsg.numOrders \< 10) &#124; &#124; (MyMsg.numOrders > 100)|  
+|&#124;&#124;|condicional o|Si (MyMsg.numOrders < 10) &#124; &#124; (MyMsg.numOrders > 100)|  
 |//|comentario|//Éste es el comentario|  
   
 > [!NOTE]
 >  Las reglas difieren entre las expresiones generales y las expresiones de filtro que se usan con la **recepción** forma.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de filtros con la forma de mensaje de recepción](../core/using-filters-with-the-receive-message-shape.md)
+ [Uso de filtros con la forma Recibir mensaje](../core/using-filters-with-the-receive-message-shape.md)

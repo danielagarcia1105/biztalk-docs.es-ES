@@ -21,11 +21,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 394a002fedaffbb9c67fa4b0ae0229215e6d8efa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c27f1ecaf07c3f953372a9e5733d62c8376a288f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-references-to-the-bam-notification-services-databases"></a>Cómo actualizar referencias a las bases de datos de servicios de notificación de SAE
 Después de llevar a cabo los pasos necesarios para restaurar las bases de datos de los servicios de notificación de supervisión de la actividad económica (BAM) en el sistema de destino, tendrá que volver a registrar el Servicio de notificación en todos los equipos del grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en los que se ejecutan los Servicios de notificación (NSservice.exe). Con ello, se permite que los servicios de notificación se conecten a las bases de datos en su nueva ubicación.  
@@ -59,7 +59,7 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
   
 4.  Abra el archivo XML creado en el Paso 2 para obtener la lista de los equipos en los que debe volver a registrar los servicios de notificación.  
   
-     Los nombres de equipo se enumeran en la  **\<nombre de la propiedad\= >**  parámetros en la  **\<DeploymentUnit nombre = "Alertas" >** sección de xml archivo:  
+     Los nombres de equipo se enumeran en la  **\<nombre de la propiedad\= \>**  parámetros en la  **\<DeploymentUnit nombre = "Alertas"\>**  sección del archivo xml:  
   
     ```  
     -<DeploymentUnit Name="Alert">  
@@ -85,7 +85,7 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
   
     1.  Haga clic en **iniciar**, haga clic en **programas**, haga clic en **Microsoft SQL Server 2008 R2**, haga clic en **herramientas de configuración**y, a continuación, haga clic en **Símbolo del sistema de notification Services**.  
   
-    2.  En el símbolo del sistema, escriba: **nscontrol register - name BamAlerts-server**  *\<ServerName >***-service - serviceusername "**  *\<ServiceUserName >***"- servicepassword"***\<ServicePassword >***"**  
+    2.  En el símbolo del sistema, escriba: **nscontrol register - name BamAlerts-server**  *\<ServerName\>***-service - serviceusername "**  *\<ServiceUserName\>***"- servicepassword"***\<ServicePassword\>***"**  
   
          Esto permite que los servicios de notificación inicien sesión en la base de datos correcta (nscontrol mantiene esta información en el Registro del equipo de servicio).  
   
@@ -104,7 +104,7 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
   
 10. En el símbolo del sistema, escriba:  
   
-     **NSControl register - nombre***\<BamAlerts >***-server**  *\<NotificationServicesDatabaseServer >*   
+     **NSControl register - nombre***\<BamAlerts\>***-server**  *\<NotificationServicesDatabaseServer    \>*  
   
 11. En el símbolo del sistema, escriba: **net start NS$ BamAlerts**.  
   
@@ -120,4 +120,4 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ## <a name="see-also"></a>Vea también  
- [Copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md)
+ [Realizar una copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 886dc607f0d133392b522a13ec15026a0f421f40
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5078cdc0a4b2d28e81daf2247cb0f1f35b3d6288
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-2010-operations-guide"></a>Guía de operaciones de BizTalk Server 2010
 Bienvenido a la Guía de operaciones de Microsoft® BizTalk® Server 2010. Hemos creado esta guía para que sea un recurso valioso para todas las personas implicadas en la implementación y administración de una solución de BizTalk, especialmente los profesionales de TI.  
@@ -24,13 +24,13 @@ Bienvenido a la Guía de operaciones de Microsoft® BizTalk® Server 2010. Hemos
  Para descargar una copia de esta guía en forma de chm, pdf o docx, vaya a [Guía de operaciones de Microsoft BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=212652) (http://go.microsoft.com/fwlink/?LinkId=212652).  
   
 ## <a name="which-versions-of-biztalk-server-does-the-guide-cover"></a>¿Qué versiones de BizTalk Server cubre la Guía?  
- Esta guía se encarga [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y se proporciona información de preparación operativa que le ayudarán a iniciar con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] el programa de instalación.  
+ En esta guía se encarga de BizTalk Server y proporciona información de preparación operativa que le ayudarán a iniciar con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] el programa de instalación.  
   
 > [!NOTE]
 >  Para ver la Guía de operaciones de [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] o [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)], consulte [http://go.microsoft.com/fwlink/?LinkID=130458](http://go.microsoft.com/fwlink/?LinkID=130458).  
   
 ## <a name="where-do-i-start"></a>¿Dónde debo empezar?  
- Se organiza la Guía de acuerdo con los aspectos funcionales de planear, implementar y administrar un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instalación. Por lo tanto, puede leer según estos aspectos funcionales. Sin embargo, ser consciente de que las listas de comprobación, sería más buscado después de la información de la [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Operations Guide, nos hemos clasificar todas las listas de comprobación en el documento en la siguiente tabla para facilitar la accesibilidad.  
+ Se organiza la Guía de acuerdo con los aspectos funcionales de planear, implementar y administrar un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instalación. Por lo tanto, puede leer según estos aspectos funcionales. Sin embargo, ser consciente de que las listas de comprobación, sería más buscado después de la información de la Guía de operaciones de BizTalk Server, nos hemos clasificar todas las listas de comprobación en el documento en la siguiente tabla para facilitar la accesibilidad.  
   
 |||  
 |-|-|  

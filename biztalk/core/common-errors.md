@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14ff75bff7d5b22efdafb7aa3327683fbe805514
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b882c44e69489114a2dd8084df71d6414df0cb5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="common-errors"></a>Errores comunes
 En este tema se muestran mensajes de error habituales que pueden aparecer al crear asignaciones usando el Asignador de BizTalk.  
@@ -99,9 +99,9 @@ En este tema se muestran mensajes de error habituales que pueden aparecer al cre
 ### <a name="problem"></a>Problema  
  Al generar un proyecto de BizTalk, el Asignador de BizTalk genera un error similar a alguno de los siguientes:  
   
--   "El archivo \<nombre de archivo > tiene valores duplicados para las propiedades de nombre de espacio de nombres y tipo."  
+-   "El archivo \<filename\> tiene valores duplicados para las propiedades de nombre de espacio de nombres y tipo."  
   
--   "El espacio de nombres \<nombre > ya contiene una definición para '_'."  
+-   "El espacio de nombres \<nombre\> ya contiene una definición para '_'."  
   
 ### <a name="cause"></a>Causa  
  En el proyecto de BizTalk, compruebe lo siguiente:  

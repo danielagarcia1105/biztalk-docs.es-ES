@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23cd2a6550263f707531101db743a6ecdef39e5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: deaf3ddae7d7351d53c5cd46b7d48633e0271a3d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-the-biztalk-group"></a>Cómo recuperar el grupo de BizTalk
 Debe volver a unir BizTalk Server a un grupo de BizTalk como parte del proceso de recuperación del sistema.  
@@ -32,9 +32,9 @@ Debe volver a unir BizTalk Server a un grupo de BizTalk como parte del proceso d
   
 2.  En el símbolo del sistema, escriba:  
   
-     **RestoreConfig.vbe***\<SavedConfigXML >*   
+     **RestoreConfig.vbe***\<SavedConfigXML  \>*  
   
-     Donde  *\<SavedConfigXML >* es la ruta de acceso completa y el nombre del archivo de configuración guardado.  
+     Donde  *\<SavedConfigXML\>*  es la ruta de acceso completa y el nombre del archivo de configuración guardado.  
   
      Lo anterior debe aparecer sin mostrar ningún error.  
   
@@ -57,4 +57,4 @@ Debe volver a unir BizTalk Server a un grupo de BizTalk como parte del proceso d
 5.  Haga clic en **archivo**y, a continuación, haga clic en **Exit**.  
   
 ## <a name="see-also"></a>Vea también  
- [Recuperar un equipo que ejecuta BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)
+ [Recuperación de un equipo que ejecuta BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)

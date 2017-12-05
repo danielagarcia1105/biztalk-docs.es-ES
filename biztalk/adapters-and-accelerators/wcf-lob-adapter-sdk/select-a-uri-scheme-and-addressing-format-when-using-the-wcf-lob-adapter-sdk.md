@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6df8145fac74761fee4aabd34ff01d708b646c12
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9990facf6a23f4abea37ee9ce9758a7333eaca61
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="select-a-uri-scheme-and-addressing-format-when-using-the-wcf-lob-adapter-sdk"></a>Seleccione un esquema de URI y el formato de direccionamiento al usar el SDK de adaptador LOB de WCF
 Un identificador uniforme de recursos (URI) identifica de forma única recursos como un servicio Web o, en el caso de un adaptador que se desarrollan con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], el sistema al que conectarse, así como la acción que se va a realizar. Esta sección proporciona una recomendación sobre cómo construir un URI para describir de forma exclusiva la dirección del extremo y la acción para el adaptador.  
@@ -44,11 +44,11 @@ Un identificador uniforme de recursos (URI) identifica de forma única recursos 
 ## <a name="connecting-to-the-target-system"></a>Conectarse al sistema de destino  
  Cadenas de conexión presentan la sintaxis siguiente:  
   
- **\<esquema >: //[userinfo "@"]\<LOB cadena de conexión >**  
+ **\<esquema\>: //[userinfo "@"]\<LOB cadena de conexión\>**  
   
  Por ejemplo, puede conectarse al catálogo de contoso (una línea de ejemplo de aplicación de negocio) del sistema de pedidos con los siguientes:  
   
- **¿Northwind.contoso.v1.0://\<servername >? Catálogo = Contoso & Integrated Security = True**  
+ **¿Northwind.contoso.v1.0://\<servername\>? Catálogo = Contoso & Integrated Security = True**  
   
  También puede proporcionar información de la entidad opcional en el URI incluido el nombre de usuario y contraseña y otras credenciales importantes. Sin embargo, esto puede suponer un riesgo de seguridad.  
   

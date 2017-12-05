@@ -16,11 +16,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4eb1e9629b56fa667d68c246645d00416de221a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f2dbd51506da7b505f66b3001b8bdc6fa0a58ac
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="certificates-that-biztalk-server-uses-for-encrypted-messages"></a>Certificados que BizTalk Server usa para los mensajes cifrados
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admite mediante clave pública el cifrado de mensajes salientes y el descifrado de mensajes entrantes según las extensiones seguras multipropósito de correo Internet (S/MIME). BizTalk Server utiliza S/MIME versión 3 para el cifrado de mensajes salientes, y S/MIME versiones 2 y 3 para el descifrado de mensajes entrantes.  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 3.  Durante la ejecución de la canalización de recepción, el componente de canalización Descodificador de MIME/SMIME descifra el mensaje mediante la clave privada de BizTalk Server.  
   
     > [!NOTE]
-    >  Para que el descifrado de canalización se complete correctamente en un equipo con IIS 7.0, asegúrese de que la cuenta para el grupo de aplicaciones de IIS y la cuenta utilizada por la instancia de host asociada con el controlador de recepción son los mismos y que esta cuenta es miembro de la \<machineName > \IIS_WPG grupo. Para obtener más información acerca de cómo configurar IIS procesar identidad para IIS 7.0, vea [directrices para resolver problemas de permisos de IIS](../core/guidelines-for-resolving-iis-permissions-problems.md). Estos procesos se deben ejecutar en la misma cuenta para comprobar que se carga el perfil de cuenta que, a su vez, carga las claves de registro necesarias para llevar a cabo el descifrado en la canalización. Por motivos de rendimiento, IIS 7.0 no carga el perfil de cuenta al iniciar el proceso w3wp.exe asociado, de modo que la instancia de host de BizTalk debe configurarse con la misma cuenta, para que BizTalk cargue el perfil de cuenta y las claves del Registro.  
+    >  Para que el descifrado de canalización se complete correctamente en un equipo con IIS 7.0, asegúrese de que la cuenta para el grupo de aplicaciones de IIS y la cuenta utilizada por la instancia de host asociada con el controlador de recepción son los mismos y que esta cuenta es miembro de la \<machineName \>Grupo \IIS_WPG. Para obtener más información acerca de cómo configurar IIS procesar identidad para IIS 7.0, vea [directrices para resolver problemas de permisos de IIS](../core/guidelines-for-resolving-iis-permissions-problems.md). Estos procesos se deben ejecutar en la misma cuenta para comprobar que se carga el perfil de cuenta que, a su vez, carga las claves de registro necesarias para llevar a cabo el descifrado en la canalización. Por motivos de rendimiento, IIS 7.0 no carga el perfil de cuenta al iniciar el proceso w3wp.exe asociado, de modo que la instancia de host de BizTalk debe configurarse con la misma cuenta, para que BizTalk cargue el perfil de cuenta y las claves del Registro.  
   
 4.  Se produce un procesamiento adicional.  
   
@@ -62,4 +62,4 @@ ms.lasthandoff: 09/20/2017
  [Certificados que utiliza BizTalk Server para mensajes firmados](../core/certificates-that-biztalk-server-uses-for-signed-messages.md)   
  [Almacenes de certificados que utiliza BizTalk Server](../core/certificate-stores-that-biztalk-server-uses.md)   
  [Cifrado y certificados de firma](../core/encryption-and-signing-certificates.md)   
- [Enviar y recibir mensajes cifrados](../core/sending-and-receiving-encrypted-messages.md)
+ [Envío y recepción de mensajes cifrados](../core/sending-and-receiving-encrypted-messages.md)

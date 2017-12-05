@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92855ecc4e4e5ad2f7932327de7da8e19a80d490
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9122b74ecc82e32230d09e2d0e01b553aaa2bd06
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-subscribers-from-an-alert"></a>Cómo quitar suscriptores de una alerta
 Los administradores utilizan el **remove-subscription** comando para quitar el usuario especificado como un suscriptor de una alerta.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **remove-subscription** comando para quitar el u
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo de **bm remove-subscription-View:\<nombre de vista >-alerta:\<nombre de la alerta > - AccountName:\<nombre de cuenta >**.  
+3.  Tipo de **bm remove-subscription-View:\<nombre de la vista\> -alerta:\<nombre de la alerta\> - AccountName:\<nombre de la cuenta\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

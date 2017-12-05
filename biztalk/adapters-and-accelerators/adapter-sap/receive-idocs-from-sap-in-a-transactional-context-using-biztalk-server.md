@@ -15,14 +15,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5fd886cfb0e8ba175c22b5d55f12a4866a68921e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8903b6010555b3c7c6aba9a07e12c9204bcf19c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server"></a>Recibir IDOC de SAP en un contexto transaccional usando el servidor BizTalk Server
-Recibir IDOC en un contexto transaccional es similar a la recepción de tRFCs en un contexto transaccional. En tal caso, el IDOC recibido desde el sistema SAP contiene un TID como parte de la  *\<TransactionalRfcOperationIdentifier >* elemento. Este TID se conserva en una base de datos SQL por el adaptador. Si el código ABAP en el sistema SAP que envía el IDOC tiene una instrucción "COMMIT WORK", se elimina el TID de la base de datos SQL después de una respuesta se envía al sistema SAP.  
+Recibir IDOC en un contexto transaccional es similar a la recepción de tRFCs en un contexto transaccional. En tal caso, el IDOC recibido desde el sistema SAP contiene un TID como parte de la  *\<TransactionalRfcOperationIdentifier\>*  elemento. Este TID se conserva en una base de datos SQL por el adaptador. Si el código ABAP en el sistema SAP que envía el IDOC tiene una instrucción "COMMIT WORK", se elimina el TID de la base de datos SQL después de una respuesta se envía al sistema SAP.  
   
  La orquestación necesita para recibir un IDOC es similar con independencia de si se recibe el IDOC en un contexto transaccional o no. Vea [recibir IDOC desde SAP mediante BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-using-biztalk-server.md). Sin embargo, debe realizar ciertas tareas adicionales para asegurarse de que se recibe lo IDOC en un contexto transaccional.  
   
@@ -37,7 +37,7 @@ Recibir IDOC en un contexto transaccional es similar a la recepción de tRFCs en
      Para obtener más información acerca de la propiedad de enlace y cómo configurarlo, vea [obtener información sobre el adaptador de BizTalk para mySAP Business Suite enlace propiedades](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
     > [!IMPORTANT]
-    >  El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Asistente para instalación instala una instancia de SQL en el script, SapAdapter-DbScript-Install.sql, que se debe ejecutar el Administrador de SQL Server para crear una base de datos y los objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en  *\<unidad de instalación >*: programa FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
+    >  El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Asistente para instalación instala una instancia de SQL en el script, SapAdapter-DbScript-Install.sql, que se debe ejecutar el Administrador de SQL Server para crear una base de datos y los objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en  *\<unidad de instalación\>*: programa FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
     >   
     >  El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] utiliza estos objetos para conservar el TID. Por lo tanto, el Administrador de SQL Server debe asegurarse de que el nombre de usuario proporcionar como parte de la cadena de conexión tiene privilegios suficientes para ejecutar los procedimientos almacenados. También puede optar por la autenticación de Windows siempre que el usuario de Windows tenga permisos suficientes para ejecutar procedimientos almacenados en la base de datos.  
   

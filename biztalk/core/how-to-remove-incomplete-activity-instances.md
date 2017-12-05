@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 99c2f77b6883b7ffba997551c4121013a4379267
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2809fd4fcc1d94a96b158ffa46c3e217084a905d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-incomplete-activity-instances"></a>Cómo quitar instancias de actividad incompletas
 Al implementar un archivo de definición de BAM, se crean cinco tablas en la base de datos de importación principal de BAM por cada actividad definida en el archivo de definición. Estas tablas son:  
@@ -75,7 +75,7 @@ Al implementar un archivo de definición de BAM, se crean cinco tablas en la bas
 |@ActivityName nvarchar(128)|Especifica el nombre de la instancia de actividad incompleta que se va a quitar.|  
 |@ActivityId nvarchar(128)|(Opcional) Especifica que el procedimiento almacenado quita solo la instancia pendiente con el identificador de instancia especificado.|  
 |@DateThresholdfecha y hora|(Opcional) Especifica que se quitan todas las instancias activas de la tabla activa que sean anteriores (no iguales y anteriores, sino únicamente anteriores) a la fecha dada.|  
-|@NewTableExtensionnvarchar (30)|(Opcional) Especifica que el procedimiento almacenado crea tres tablas nuevas al concatenar la extensión proporcionada con las tablas de actividad existentes.<br /><br /> Las tablas resultantes serán las siguientes:<br /><br /> bam_ActivityName_Active_\<extensión ><br /><br /> bam_ActivityName_ActiveRelationships_\<extensión ><br /><br /> bam_ActivityName_Continuations_\<extensión ><br /><br /> Las instancias incompletas se mueven a las tablas nuevas en lugar de purgarse en la base de datos.<br /><br /> Si las tablas ya existen, el procedimiento almacenado las vuelve a usar; de lo contrario, se crean. **Importante:** si las tablas ya existen, el procedimiento almacenado se supone que sus esquemas coinciden con los que se utilizarían si se hubieran creado. Si un esquema no coincide, el procedimiento almacenado no podrá insertar los registros y se producirá un error en la operación de eliminación.|  
+|@NewTableExtensionnvarchar (30)|(Opcional) Especifica que el procedimiento almacenado crea tres tablas nuevas al concatenar la extensión proporcionada con las tablas de actividad existentes.<br /><br /> Las tablas resultantes serán las siguientes:<br /><br /> bam_ActivityName_Active_\<extensión\><br /><br /> bam_ActivityName_ActiveRelationships_\<extensión\><br /><br /> bam_ActivityName_Continuations_\<extensión\><br /><br /> Las instancias incompletas se mueven a las tablas nuevas en lugar de purgarse en la base de datos.<br /><br /> Si las tablas ya existen, el procedimiento almacenado las vuelve a usar; de lo contrario, se crean. **Importante:** si las tablas ya existen, el procedimiento almacenado se supone que sus esquemas coinciden con los que se utilizarían si se hubieran creado. Si un esquema no coincide, el procedimiento almacenado no podrá insertar los registros y se producirá un error en la operación de eliminación.|  
   
  `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`  
   
@@ -237,4 +237,4 @@ GO
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar bases de datos BAM](../core/managing-bam-databases.md)
+ [Administración de bases de datos de BAM](../core/managing-bam-databases.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f55b4e08fa03380c3361a44b7989301b606732d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63355f742f12fbbaf57ccde7a1406dbb694ee073
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-delete-a-send-port"></a>Cómo eliminar un puerto de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para eliminar un puerto de envío de una aplicación de BizTalk. Al hacerlo, el puerto de envío también se eliminará de la base de datos de administración de BizTalk del grupo.  
@@ -48,9 +48,9 @@ En este tema se describe cómo utilizar la consola de administración de BizTalk
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] administración, expanda el grupo de BizTalk, expanda aplicaciones y, a continuación, expanda la aplicación que contiene el puerto de envío que desea eliminar  
+2.  En el árbol de consola, expanda Administración de BizTalk Server, expanda el grupo de BizTalk, expanda aplicaciones y, a continuación, expanda la aplicación que contiene el puerto de envío que desea eliminar  
   
 3.  Haga clic en **puertos de envío**, haga clic en el puerto de envío y, a continuación, haga clic en **eliminar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear y configurar puertos de envío](../core/creating-and-configuring-send-ports.md)
+ [Creación y configuración de puertos de envío](../core/creating-and-configuring-send-ports.md)

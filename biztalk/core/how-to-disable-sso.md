@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5c8069ffb291b64d832a1d3ce483e7ab09be655f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d7096a9c77dda72bbf0aea3ec76423c759fa90df
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-sso"></a>Cómo deshabilitar SSO
 Se puede deshabilitar la totalidad del sistema de inicio de sesión único utilizando el Complemento MMC o la línea de comandos.  
@@ -39,7 +39,7 @@ Se puede deshabilitar la totalidad del sistema de inicio de sesión único utili
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – disablesso**.  
   

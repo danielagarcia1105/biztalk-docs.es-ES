@@ -12,11 +12,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 41994da40d6471688193f7aca915535fcd52bfbe
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 008e6c2d775fc5d46977ca4672b6d3376349b3f0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="large-message-to-msmq"></a>Mensajes de gran tamaño a MSMQ
 Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un documento .xml mayor de 4 megabytes (MB) de Message Queue Server (también conocido como MSMQ) para el adaptador de MSMQ de BizTalk mediante el uso de la **MQSendLargeMessage** API implementada por MQRTLarge.dll.  
@@ -37,10 +37,10 @@ Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un document
  En el contexto de este ejemplo, es importante que el código especifique un tipo de transacción en la llamada a **MQSendLargeMessage** que es coherente con la compatibilidad de transacción especificada para la cola a la que se envía el mensaje. Si esto último no se lleva a cabo y no se especifica ninguna cola de administración (como en el caso de este ejemplo), MSMQ descarta el mensaje enviado sin dar ninguna indicación de ello (es decir, sin que se devuelva código de error alguno a la aplicación, sin que se escriba ningún diagnóstico en el registro de eventos, etc.).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<Ruta de acceso de ejemplos > \AdaptersUsage\MSMQLarge  
+ \<Ejemplos de ruta de acceso\>\AdaptersUsage\MSMQLarge  
   
 > [!NOTE]
->  Si usa una versión de 64 bits de Windows y el servidor BizTalk Server, el ejemplo se instalará en el **C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \SDK\Samples\AdaptersUsage\MSMQLarge** carpeta.  Tenga en cuenta este cambio para el resto de instrucciones de este documento mediante el **C:\Program Files** carpeta.  
+>  Si usa una versión de 64 bits de Windows y el servidor BizTalk Server, el ejemplo se instalará en el **C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\SDK\Samples\AdaptersUsage\MSMQLarge** carpeta.  Tenga en cuenta este cambio para el resto de instrucciones de este documento mediante el **C:\Program Files** carpeta.  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -56,7 +56,7 @@ Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un document
   
 #### <a name="to-configure-biztalk-server"></a>Para configurar BizTalk Server  
   
-1.  En Visual Studio, abra el **C:\Program Files\Microsoft BizTalk Server \<versión > \SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** archivo de solución.  Cree el ejemplo.  
+1.  En Visual Studio, abra el **C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln** archivo de solución.  Cree el ejemplo.  
   
 2.  Crear un **C:\Demo** directorio en el servidor BizTalk Server colocará los mensajes de MSMQ.  
   
@@ -149,7 +149,7 @@ Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un document
   
 #### <a name="to-create-a-large-test-file"></a>Para crear un archivo de prueba de gran tamaño  
   
-1.  En Visual Studio, abra la solución **C:\Program Files\Microsoft BizTalk Server \<versión > \SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
+1.  En Visual Studio, abra la solución **C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**.  
   
 2.  Cree y ejecute el proyecto.  
   
@@ -163,7 +163,7 @@ Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un document
   
 #### <a name="to-run-the-sample"></a>Para ejecutar el ejemplo  
   
-1.  Abra un símbolo del sistema y cambie al directorio **C:\Program Files\Microsoft BizTalk Server \<versión > \SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**.  
+1.  Abra un símbolo del sistema y cambie al directorio **C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**.  
   
 2.  En el símbolo del sistema, ejecute **SendLargeMessage.exe**. El ejecutable SendLargeMessage acepta dos variables: la primera es la ubicación de la cola MSMQ y la segunda es la ubicación del archivo .xml que se va a enviar:  
   
@@ -180,4 +180,4 @@ Los mensajes de gran tamaño al ejemplo MSMQ se muestra cómo enviar un document
   
 ## <a name="see-also"></a>Vea también  
  [Extensión de mensajes de BizTalk para Message Queue grandes](../core/biztalk-message-queuing-large-message-extension.md)   
- [Ejemplos de adaptadores - uso](../core/adapter-samples-usage.md)
+ [Ejemplos de adaptadores: uso](../core/adapter-samples-usage.md)

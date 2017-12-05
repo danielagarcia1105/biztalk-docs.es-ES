@@ -15,18 +15,18 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 631a6bb3bab613004e11410a382687147e4adad8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 98cf9c3513a4fbd4a55a752233c9f0d704c59ecf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-the-bam-dynamic-infrastructure"></a>Administrar la infraestructura dinámica de BAM
 Las características de Supervisión de la actividad económica (BAM) utilizan una infraestructura de generación dinámica de SQL y de procesamiento analítico en línea (OLAP). Los administradores usan la utilidad de administración de BAM para implementar el libro de definiciones de BAM o archivo XML, que se encargará de desarrollar el analista de negocios.  
   
  La infraestructura dinámica de BAM consiste en vistas de libro de BAM, implementaciones de BAM, paquetes de Servicios de transformación de datos (DTS) de BAM y bases de datos de BAM. Para obtener más información acerca de la infraestructura dinámica de BAM, consulte [infraestructura dinámica de BAM](../core/bam-dynamic-infrastructure.md).  
   
- BizTalk Server crea las siguientes bases de datos BAM al configurar [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+ BizTalk Server crea las siguientes bases de datos BAM al configurar BizTalk Server:  
   
 -   Base de datos de importación principal de BAM BAMPrimaryImport  
   
@@ -50,13 +50,13 @@ Las características de Supervisión de la actividad económica (BAM) utilizan u
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Administrar definiciones de BAM](../core/managing-bam-definitions.md)
+-   [Administración de definiciones de BAM](../core/managing-bam-definitions.md)
   
--   [Administrar la seguridad BAM](../core/managing-bam-security.md)  
+-   [Administración de la seguridad de BAM](../core/managing-bam-security.md)  
   
--   [Administrar agregaciones](../core/managing-aggregations.md) 
+-   [Administración de agregaciones](../core/managing-aggregations.md) 
   
--   [Administrar bases de datos BAM](../core/managing-bam-databases.md)
+-   [Administración de bases de datos de BAM](../core/managing-bam-databases.md)
   
 ## <a name="see-also"></a>Vea también  
  [Administración de BAM](../core/managing-bam.md)

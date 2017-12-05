@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d01ae0a8d94b38583745ba706524c1b02c295b71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f6c4d4e4118bfe5f5cab7a9c44e770dd12656c7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-list-affiliate-applications"></a>Cómo enumerar aplicaciones afiliadas
 Utilice este comando para enumerar todas las aplicaciones afiliadas. Si el usuario es miembro de la cuenta de administradores de aplicación, este comando sólo mostrará la aplicación para la que el usuario es administrador.  
@@ -28,7 +28,7 @@ Utilice este comando para enumerar todas las aplicaciones afiliadas. Si el usuar
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage - listapps [all]** donde **todos los** es un parámetro opcional que se mostrará también las aplicaciones que usan la característica de almacén de configuración. Si el usuario que ejecuta este comando es un administrador de aplicaciones, sólo se enumerarán las aplicaciones para las que es administrador. Si el usuario que ejecuta este comando es un administrador afiliado o un administrador de SSO, se enumerarán todas las aplicaciones afiliadas.  
   
@@ -39,7 +39,7 @@ Utilice este comando para enumerar todas las aplicaciones afiliadas. Si el usuar
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssoclient – listapps** para enumerar las aplicaciones afiliadas. Se enumerarán sólo las aplicaciones afiliadas de las que el usuario que realiza esta tarea es miembro, por ejemplo, será necesario que pertenezcan a la cuenta de grupo de usuarios de la aplicación afiliada.  
   
@@ -50,4 +50,4 @@ Utilice este comando para enumerar todas las aplicaciones afiliadas. Si el usuar
  [Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md)   
  [Cómo crear una aplicación afiliada](../core/how-to-create-an-affiliate-application.md)   
  [Administrar asignaciones de usuario](../core/managing-user-mappings.md)   
- [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)
+ [Administración de aplicaciones afiliadas](../core/managing-affiliate-applications.md)

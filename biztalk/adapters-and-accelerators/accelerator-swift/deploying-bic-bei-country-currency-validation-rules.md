@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 65f1786b37194db25f0e38db7491538857f3406b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57bdaa8f2a13b650019fa02b096ca05971389570
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploying-bicbeicountrycurrency-validation-rules"></a>Implementar reglas de validación de BIC/BEI/país/moneda
 **Para implementar las reglas de validación de BIC/BEI/país/moneda:**  
@@ -39,4 +39,4 @@ ms.lasthandoff: 09/20/2017
   
 3.  Una vez que se han modificado las directivas maestras, la publicación, todas las directivas mediante el Asistente para implementación de motor de reglas de negocios. Utilice la siguiente opción: importar el archivo de directiva o vocabulario a la base de datos.  
   
-4.  Haga clic en programas, haga clic en el servidor BizTalk Server \<versión >, haga clic en el Compositor de reglas de negocios y, a continuación, implementar los seis publicarlos directivas.
+4.  Haga clic en programas, haga clic en el servidor BizTalk Server \<versión\>, haga clic en el Compositor de reglas de negocios y, a continuación, implementar los seis publicarlos directivas.

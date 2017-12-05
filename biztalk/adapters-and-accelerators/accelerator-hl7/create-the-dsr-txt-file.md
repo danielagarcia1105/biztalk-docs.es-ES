@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eef9f107b01c8e86d466cb1fb0a202e1aa5b0b54
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 69520639040893aad7f46b29760343afa68073fc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-the-dsrtxt-file"></a>Crear el archivo DSR.txt
 Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta DSR.txt. Más adelante usará este archivo para comprobar el escenario del tutorial.  
@@ -39,6 +39,6 @@ Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta
     DSP|||CO2 25 [20-30] MEQ/L STAT|LB  
     ```  
   
-2.  Guarde el archivo como **DSR.txt** en el \< *unidad*: > \Program BizTalk \<versión > Accelerator for carpeta HL7\SDK\Interrogative Tutorial y, a continuación, cierre el editor.  
+2.  Guarde el archivo como **DSR.txt** en el \< *unidad*:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Carpeta tutorial y a continuación, cierre el editor.  
   
  Continúe con [paso 1: crear e implementar encabezado común y esquemas de confirmación](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-common-header-and-acknowledgment-schemas.md).

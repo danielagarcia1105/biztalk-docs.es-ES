@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8143442b9d77d6881efe2b64dfb7f5888ab2d466
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0159d308c9befc90590d281351409ba571921a53
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---index-functoid-has-no-index"></a>Error - el Functoid de índice No tiene un índice
 **Código de error**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **Acción del usuario**  
   
- Proporcione un número apropiado de parámetros de entrada de índice para el functoid **índice** functoid, donde el número apropiado viene determinado por el número de bucle **registro** nodos dentro del cual el **Campo** está anidado el nodo del esquema de origen. Para crear parámetros de entrada de índice, seleccione el functoid indicado, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **parámetros de entrada** propiedad Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, utilice la ![](../core/media/bts-tls-paraminsert.gif "bts_tls_paraminsert") botón dentro de la **configurar \< Functoid > Functoid** cuadro de diálogo para agregar uno o más parámetros de entrada constantes, donde la primera de ellas representa un índice en el bucle principal inmediato **registro** nodo y parámetros de entrada de índice siguientes representar antecesor remoto bucle **registro** nodos.
+ Proporcione un número apropiado de parámetros de entrada de índice para el functoid **índice** functoid, donde el número apropiado viene determinado por el número de bucle **registro** nodos dentro del cual el **Campo** está anidado el nodo del esquema de origen. Para crear parámetros de entrada de índice, seleccione el functoid indicado, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, después, use la ![ ] (../core/media/bts-tls-paraminsert.gif "bts_tls_paraminsert") botón dentro de la **configurar \<Functoid\> Functoid** cuadro de diálogo para agregar uno o más parámetros de entrada constantes, donde la primera de ellas representa un índice en el elemento primario inmediato bucle **registro** parámetros representan antecesor remoto bucle de entrada de nodo e índice siguientes **registro** nodos.

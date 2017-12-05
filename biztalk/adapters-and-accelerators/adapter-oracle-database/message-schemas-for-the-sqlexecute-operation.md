@@ -13,11 +13,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8c0ee3d0905f5ee4205cb5f9e2357573bdbf55b4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d7c7efc6a59e9dd4c163388803763a7b90a13b31
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-the-sqlexecute-operation"></a>Esquemas de mensaje para la operación SQLEXECUTE
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]expone metadatos fuertemente tipada de artefactos presentes en el sistema LOB y expone las operaciones estándares de estos artefactos. Sin embargo, hay escenarios donde una aplicación puede requerir la ejecución de una instrucción SQL arbitraria que se controla mediante la lógica de negocios en la aplicación. Por ejemplo, puede:  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
  [PARAM_VAL_1] = el valor del primer parámetro.  
   
- Cada \<PARAMETERDATA > sección contiene un conjunto completo de \<parámetro > elementos que coinciden con el esquema en el \<PARAMETERSCHEMA > sección. El \<PARAMETERSET > puede contener varios \<PARAMETERDATA > secciones. Si este es el caso, la instrucción SQL se ejecuta varias veces, una vez en cada conjunto de parámetros.  
+ Cada \<PARAMETERDATA\> sección contiene un conjunto completo de \<parámetro\> elementos que coinciden con el esquema en el \<PARAMETERSCHEMA\> sección. El \<PARAMETERSET\> puede contener varios \<PARAMETERDATA\> secciones. Si este es el caso, la instrucción SQL se ejecuta varias veces, una vez en cada conjunto de parámetros.  
   
 ## <a name="see-also"></a>Vea también  
- [Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+ [Mensajes y esquemas de mensaje para el adaptador de BizTalk para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

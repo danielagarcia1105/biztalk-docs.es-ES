@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 870a3333ce638200c92125f08a4f048150584b51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 543c982a68d2a940b4800711d757f4fb159611de
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="soap-adapter-performance-counters"></a>Contadores de rendimiento del adaptador de SOAP
 Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por el servicio en el sitio o sistema. Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.  
@@ -41,7 +41,7 @@ Los contadores de rendimiento le permiten controlar aspectos específicos del tr
   
 3.  En el **agregar contadores** cuadro de diálogo, desde el **contadores disponibles** lista, expanda la **BizTalk** objeto de contador de rendimiento y seleccione los contadores que desea supervisar  
   
-4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**. Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**>.  
+4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**. Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**\>.  
   
 5.  Después de agregar los contadores, haga clic en **Aceptar**.  
   

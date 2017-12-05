@@ -20,11 +20,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8f7f15d01759704af6b6b3134c9d36f0e64f8e7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 339f4eb5fa11b23602d05f8cd75c30ca3aa16279
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter"></a>Establecer los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP
 Cuando se utiliza una orquestación de proceso público con un adaptador de HTTP en un escenario sincrónico, debe establecer los tiempos de espera para cada uno de ellos correctamente. El valor de tiempo de espera para la orquestación (tiempo para realizar) debe ser menor que el tiempo de espera para el adaptador HTTP (tiempo de espera de solicitud). Esto es porque si la configuración del adaptador de HTTP es menor, pudo instalar el adaptador de tiempo de espera antes de la orquestación. Esto proporciona al control de adaptador del proceso. La orquestación debe tener el control del proceso; por lo tanto, su valor de tiempo de espera debe ser menor.  
@@ -41,7 +41,7 @@ Cuando se utiliza una orquestación de proceso público con un adaptador de HTTP
   
 ### <a name="to-set-the-time-out-setting-for-the-public-process-orchestration"></a>Para establecer la configuración de tiempo de espera para la orquestación de proceso público  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en  **Acelerador de BizTalk para RosettaNet Management Console**.  
+1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para RosettaNet**y, a continuación, haga clic en  **Acelerador de BizTalk para RosettaNet Management Console**.  
   
 2.  Expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]y, a continuación, haga clic en **configuración del proceso**.  
   

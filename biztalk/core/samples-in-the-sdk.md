@@ -13,18 +13,18 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5181c501543c1dc1518665a55f4429ae12b4cf06
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 5780e90260f591696e494411deff97a4cdc246f3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="samples-in-the-sdk"></a>Ejemplos del SDK
 
 ## <a name="folder-paths"></a>Rutas de acceso de carpeta
 Esta sección describen más de 30 ejemplos incluidos en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Kit de desarrollo de Software (SDK). Además, se proporciona información detallada acerca de cada uno de los ejemplos, incluidas las instrucciones para la generación del ejemplo, cómo ejecutarlo y los resultados que se esperan obtener.  
   
- La documentación de los ejemplos utiliza la abreviatura de ruta de acceso \< *ruta de ejemplos*> para denotar la ruta de acceso a los ejemplos de la instalación. El valor predeterminado de la ruta de acceso puede variar en función de las decisiones tomadas durante la instalación. En la tabla siguiente se proporciona la ruta de acceso predeterminada para los escenarios comunes de instalación.  
+ La documentación de los ejemplos utiliza la abreviatura de ruta de acceso \< *ruta de ejemplos* \> para denotar la ruta de acceso a los ejemplos de la instalación. El valor predeterminado de la ruta de acceso puede variar en función de las decisiones tomadas durante la instalación. En la tabla siguiente se proporciona la ruta de acceso predeterminada para los escenarios comunes de instalación.  
   
 |Description|Ruta de acceso|  
 |-----------------|----------|  

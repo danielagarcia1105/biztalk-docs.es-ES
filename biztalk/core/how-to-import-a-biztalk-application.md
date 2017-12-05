@@ -20,11 +20,11 @@ caps.latest.revision: "70"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e640a11c709b25336b2a1625c42ce40b49926982
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 65a2e29be82cb55b0c8509eb3adb346f48d5b794
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-import-a-biztalk-application"></a>Cómo importar una aplicación de BizTalk
 En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o la línea de comandos para importar una aplicación de BizTalk en un grupo de BizTalk. La importación de una aplicación de BizTalk registra los artefactos en la base de datos de administración de BizTalk y escribe los datos de aquéllos en las bases de datos de BizTalk apropiadas. Para obtener más información, consulte [¿qué ocurre cuando artefactos se importarán](../core/what-happens-when-artifacts-are-imported.md). Cuando se instala una aplicación, ésta no se instala. Antes de poder ejecutar una aplicación que incluya artefactos basados en archivos, es preciso instalarla.  
@@ -41,7 +41,7 @@ En este tema se describe cómo usar la consola de administración de [!INCLUDE[b
 ## <a name="considerations-for-importing-applications"></a>Consideraciones para importar aplicaciones  
  Al importar una aplicación, es preciso tener en cuenta lo siguiente:  
   
--   **Importación de aplicaciones desde versiones anteriores de BizTalk Server**. Si está importando aplicaciones de BizTalk Server 2006 R2 o BizTalk Server 2009, y las aplicaciones contienen los datos de entidades EDI/AS2, se podría producir un error en la importación de la aplicación porque el modelo de administración de socio comercial ha cambiado considerablemente en [!INCLUDE[prague](../includes/prague-md.md)]. Debe utilizar en su lugar la Herramienta de migración de entidades para migrar los datos de entidades de versiones anteriores de BizTalk Server. Para obtener más información acerca de la herramienta, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+-   **Importación de aplicaciones desde versiones anteriores de BizTalk Server**. Si está importando aplicaciones de BizTalk Server 2006 R2 o BizTalk Server 2009 y las aplicaciones contienen datos de entidades EDI/AS2, la importación de la aplicación puede producir porque el modelo de administración de socios comerciales ha cambiado considerablemente en BizTalk Server. Debe utilizar en su lugar la Herramienta de migración de entidades para migrar los datos de entidades de versiones anteriores de BizTalk Server. Para obtener más información acerca de la herramienta, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 -   **Los enlaces importados siempre sobrescriben los enlaces existentes.** Al importar un archivo .msi que contenga enlaces en una aplicación existente, los enlaces importados sobrescribirán los existentes que tengan el mismo nombre. Esto ocurre aun si no se ha seleccionado la opción de sobrescritura de los artefactos existentes al importar el archivo .msi. Si no desea que los enlaces de la aplicación que se está exportando sobrescriba los enlaces de la aplicación en la que se está importando el archivo .msi, no seleccione el archivo de enlace como un recurso que es preciso exportar durante la exportación. Para obtener más información, consulte [cómo exportar una aplicación de BizTalk](../core/how-to-export-a-biztalk-application.md).  
   
@@ -94,7 +94,7 @@ En este tema se describe cómo usar la consola de administración de [!INCLUDE[b
     > [!NOTE]
     >  Si no selecciona esta opción y el archivo .msi contiene un artefacto ya existente en la aplicación, se producirán errores en la operación de importación y ésta se deshará. Ciertos tipos de artefactos de la aplicación o del grupo de BizTalk deben ser únicos. Si se agrega un artefacto ya existente en el grupo de BizTalk, pero no en la aplicación actual, la operación de importación no se llevará a cabo correctamente, aun si se especifica la opción de sobrescritura. Para obtener más información acerca de qué artefactos deben ser únicos y de qué formas deben ser únicos, vea [artefactos que deben ser únicos en una aplicación o un grupo de](../core/artifacts-that-must-be-unique-in-an-application-or-group.md).  
   
-7.  En la página de configuración del entorno de destino de aplicación, en la **entorno de ensayo de destino** la lista desplegable, seleccione el entorno de destino para esta aplicación y haga clic en **siguiente**. Esta lista contiene todos los entornos especificados para cualquiera de los archivos de enlace agregados a esta aplicación. Seleccione \<predeterminado > Si desea aplicar todos los enlaces de la aplicación, excepto los que tienen un entorno de destino especificado. Si el archivo .msi no contiene un archivo de enlace que desea aplicar de forma explícita, puede dejar \<predeterminado > seleccionado.  
+7.  En la página de configuración del entorno de destino de aplicación, en la **entorno de ensayo de destino** la lista desplegable, seleccione el entorno de destino para esta aplicación y haga clic en **siguiente**. Esta lista contiene todos los entornos especificados para cualquiera de los archivos de enlace agregados a esta aplicación. Seleccione \<predeterminado\> si desea aplicar todos los enlaces de la aplicación, excepto los que tienen un entorno de destino especificado. Si el archivo .msi no contiene un archivo de enlace que desea aplicar de forma explícita, puede dejar \<predeterminado\> seleccionado.  
   
     > [!NOTE]
     >  El entorno de destino para los enlaces se especifica al agregar un archivo de enlace a una aplicación. Para obtener información general, vea [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md). Para obtener instrucciones sobre cómo agregar archivos de enlace, consulte [cómo agregar un archivo de enlace a una aplicación](../core/how-to-add-a-binding-file-to-an-application2.md).  
@@ -134,4 +134,4 @@ En este tema se describe cómo usar la consola de administración de [!INCLUDE[b
   
 ## <a name="see-also"></a>Vea también  
  [Importación de directivas, los enlaces y las aplicaciones de BizTalk](../core/importing-biztalk-applications-bindings-and-policies.md)   
- [Comando ImportApp](../core/importapp-command.md)
+ [ImportApp (comando)](../core/importapp-command.md)

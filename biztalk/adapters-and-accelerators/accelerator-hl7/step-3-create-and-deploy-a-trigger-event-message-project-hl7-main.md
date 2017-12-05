@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ff7abfcf363d26d068fab067378eb61d5bcf5c3c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5ba388eef1f5dbfb885e33c6263c4e0f8ef4be29
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a>Paso 3: Crear e implementar un Project_hl7_main (mensaje) del evento de desencadenador
 En este paso, creará el esquema utilizado por un mensaje de evento de desencadenador. Por ejemplo, el sistema de admisión de descarga y la transferencia (ADT) envía un mensaje para el sistema de información de Hospital (HIS). Utilice este esquema para definir el formato del mensaje.  
@@ -87,7 +87,7 @@ En este paso, creará el esquema utilizado por un mensaje de evento de desencade
   
 3.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-4.  En el **archivo de clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for HL7\SDK\ Haga clic en de Tutorial, interrogative **key.snk**y, a continuación, haga clic en **abiertos**.  
+4.  En el **archivo de clave de ensamblado** cuadro de diálogo, vaya a \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\>Acelerador para HL7\SDK\Interrogative Tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 5.  En el **páginas de propiedades de BTAHL7V24Body** cuadro de diálogo, haga clic en **Aceptar** para guardar los cambios.  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed64aac8ea0cf4073f3085f4491f607373d721b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0732322d663e51c27bbaab957caa5474cc685326
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-creating-the-fabrikam-lobwebapplication"></a>Paso 2: Crear el Fabrikam LOBWebApplication
 En este paso, creará la aplicación de LOB que Fabrikam usa para enviar una solicitud PIP 3A2 a Contoso. El proyecto LOBWebApplication está instalado en el [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Para ejecutar la aplicación Web, tendrá que crear un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] directorio virtual de Internet Information Services (IIS) y compile el proyecto LOBWebApplication.  
@@ -42,7 +42,7 @@ En este paso, creará la aplicación de LOB que Fabrikam usa para enviar una sol
   
 5.  En la página **Alias del directorio virtual** , en el cuadro **Alias** , escriba **LOBWebApplication**y, a continuación, haga clic en **Siguiente**.  
   
-6.  En el **directorio de contenido del sitio Web** página, haga clic en **examinar**, seleccione la  **\<unidad >: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBWebApplication** carpeta y, a continuación, haga clic en **Aceptar**. Haga clic en **Siguiente**.  
+6.  En el **directorio de contenido del sitio Web** página, haga clic en **examinar**, seleccione la  **\<unidad\>: \Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBWebApplication** carpeta y, a continuación, haga clic en **Aceptar**. Haga clic en **Siguiente**.  
   
 7.  En el **permisos de acceso de directorio Virtual** página, haga clic en **siguiente**.  
   
@@ -71,11 +71,11 @@ En este paso, creará la aplicación de LOB que Fabrikam usa para enviar una sol
   
 2.  Desde el **archivo** menú, elija **abiertos**y, a continuación, haga clic en **Project\Solution**.  
   
-3.  En el cuadro de diálogo Abrir proyecto, en **buscar en**, mover a  **\<unidad >: \Program BizTalk \<versión > Accelerator for RosettaNet\ SDK\LOBWebApplication** , seleccione la **LOBWebApplication.sln** solución y, a continuación, haga clic en **abiertos**.  
+3.  En el cuadro de diálogo Abrir proyecto, en **buscar en**, mover a  **\<unidad\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\ SDK\ LOBWebApplication**, seleccione la **LOBWebApplication.sln** solución y, a continuación, haga clic en **abiertos**.  
   
 4.  En el Explorador de soluciones, haga clic en el nodo superior (http://localhost/LOBWebApplication) y, a continuación, haga clic en **Agregar referencia**.  
   
-5.  En el cuadro de diálogo Agregar referencia, haga clic en **examinar** y mover a  **\<unidad >: \Program BizTalk \<versión > Accelerator for RosettaNet\bin**.  
+5.  En el cuadro de diálogo Agregar referencia, haga clic en **examinar** y mover a  **\<unidad\>: \Program BizTalk \<versión\> Accelerator for RosettaNet\bin** .  
   
 6.  **Seleccione el Microsoft.Solutions.BTARN.ConfigurationManager.dll y Microsoft.Solutions.BTARN.Shared.dll** ensamblados **y, a continuación, haga clic en Aceptar.**  
   

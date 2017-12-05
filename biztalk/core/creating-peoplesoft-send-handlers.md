@@ -13,11 +13,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 31889aa0c4f13826758547fb5e8e7acdf061239b
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 2bc559f4e3c25560540a171b3f47ff25e6f34e89
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-peoplesoft-send-artifacts"></a>Crear artefactos de envío de PeopleSoft
 Microsoft BizTalk Adapter para PeopleSoft Enterprise obtiene acceso a PeopleSoft y explora los componentes disponibles o procesa las solicitudes SOAP En este tema se muestra cómo crear los artefactos de envío en administración de BizTalk Server para usar el adaptador de PeopleSoft.
@@ -68,7 +68,7 @@ Las propiedades de transporte de PeopleSoft se usan en el diseño y el tiempo de
   
     |Parámetro|Description|  
     |---------------|-----------------|  
-    |`Application Server Path`|Cadena que representa el equipo y el puerto en que se ejecuta y escucha el servidor de aplicaciones de PeopleSoft. La sintaxis de la ruta de acceso de dirección URL para la aplicación PeopleSoft 8 es / / < nombre_equipo >:\<puerto >. Pida al administrador de PeopleSoft para el \<puerto > valor. El \<puerto > valor es el JOLT puerto de escucha de protocolo, no al puerto del servidor de aplicaciones. El puerto JOLT predeterminado es 9000.|  
+    |`Application Server Path`|Cadena que representa el equipo y el puerto en que se ejecuta y escucha el servidor de aplicaciones de PeopleSoft. La sintaxis de la ruta de acceso de dirección URL para la aplicación PeopleSoft 8 es / / < nombre_equipo >:\<puerto\>. Pida al administrador de PeopleSoft para la \<puerto\> valor. El \<puerto\> valor es el JOLT puerto de escucha de protocolo, no al puerto del servidor de aplicaciones. El puerto JOLT predeterminado es 9000.|  
     |`JAVA_HOME`|Establezca la variable JAVA_HOME para que apunte a la instalación de JDK, por ejemplo: **C:\j2sdk1.4.2_08**.|  
     |`Password`|Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para PeopleSoft Enterprise tener acceso al sistema de servidor.<br /><br /> Cadena que representa la contraseña del usuario para iniciar sesión en un sistema de PeopleSoft. Los caracteres no aparecen, pero están representados por asteriscos (*).|  
     |`PeopleSoft 8.x Jar Files`|Para usar interfaces de componentes (solo para PeopleSoft 8), debe actualizar CLASSPATH para que incluya el archivo jar de la interfaz de componentes de PeopleSoft. Por ejemplo: **\web\PSJOA\psjoa.jar < PeopleSoft_Home >**.|  
@@ -130,4 +130,4 @@ Cuando el servidor BizTalk Server envía mensajes al adaptador de transmisión, 
 ## <a name="next"></a>Siguiente
   
 [Importar esquemas de PeopleSoft en proyectos de BizTalk Server](../core/importing-peoplesoft-schemas-into-biztalk-server-projects.md)  
-[Recepción de PeopleSoft](../core/receiving-from-peoplesoft.md)
+[Recibir desde PeopleSoft](../core/receiving-from-peoplesoft.md)

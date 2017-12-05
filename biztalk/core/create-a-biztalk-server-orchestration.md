@@ -12,15 +12,15 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb9c2347a989dd59b97125e119ea79a9996c53ec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6223ab8d8aa3c8d1c20559a88257dd0dccaa22e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="create-a-biztalk-server-orchestration"></a>Crear una orquestación de BizTalk Server
 > [!NOTE]
->  Este tutorial se aplica solo a [!INCLUDE[prague](../includes/prague-md.md)].  
+>  Este tutorial solo se aplica a BizTalk Server.  
   
  Cree una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que, al implementarla, reciba un mensaje de pedido de compra JSON, lo transforme en una factura XML y envíe una factura JSON.  
   

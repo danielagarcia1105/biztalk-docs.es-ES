@@ -12,14 +12,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dff1f35955229306bc2f39e0af670f939dec82da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 836ffa11e3b15b379b8f4a07def2269f0f29a453
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="changes-to-biztalk-project-system-in-biztalk-server-2013"></a>Cambios en el sistema de proyecto de BizTalk en BizTalk Server 2013
-En este tema se ofrece una descripción general de los cambios en el sistema de proyectos de BizTalk en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+Este tema ofrece una descripción general de los cambios al sistema del proyecto de BizTalk en BizTalk Server.  
   
 ## <a name="project-properties-are-displayed-in-project-designer-window"></a>Las propiedades del proyecto se muestran en la ventana del diseñador de proyectos.  
  Las propiedades para un proyecto de BizTalk se muestran ahora en el diseñador de proyectos de Visual Studio en lugar de en un diálogo Propiedades. El diseñador de proyectos proporciona una ubicación centralizada para administrar las propiedades del proyecto, la configuración y los recursos. El diseñador de proyectos aparece como una única ventana en el IDE de Visual Studio, de forma muy parecida a otros diseñadores, como los diseñadores de formas o clases, y contiene varias páginas a las que se obtiene acceso mediante pestañas del lado izquierdo. Para obtener más información, consulte [http://go.microsoft.com/fwlink/?LinkId=190417](http://go.microsoft.com/fwlink/?LinkId=190417).  
@@ -58,7 +58,7 @@ En este tema se ofrece una descripción general de los cambios en el sistema de 
  **Característica de asignación de depuración**. Puede depurar una asignación (XSLT) usando el depurador XSLT en línea de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Para obtener más información, consulte [cómo depurar mapas](../core/how-to-debug-maps.md).  
   
 ## <a name="migrating-biztalk-server-projects"></a>Migrar proyectos de BizTalk Server  
- Los proyectos de Visual Studio desarrollados para una versión anterior de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden migrar al entorno de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] mediante el asistente para conversión de Visual Studio. Para obtener más información, consulte [migrar un proyecto de BizTalk Server](../core/migrating-a-biztalk-server-project.md).  
+ Proyectos de Visual Studio desarrollan para la versión anterior de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden migrar al entorno de BizTalk Server mediante el Asistente para conversión de Visual Studio. Para obtener más información, consulte [migrar un proyecto de BizTalk Server](../core/migrating-a-biztalk-server-project.md).  
   
 ## <a name="release-and-debug-build-types"></a>Tipos de generación de lanzamiento y depuración  
  Proyectos de BizTalk ahora tienen dos tipos de compilación: **versión** y **depurar**, que sustituyen **desarrollo** y **implementación** de versiones anteriores versiones. Sin embargo, continuarán viendo el **desarrollo** y **implementación** configuraciones para los proyectos que se migran desde [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)].  
@@ -70,10 +70,10 @@ En este tema se ofrece una descripción general de los cambios en el sistema de 
 >  El asistente para conversión de Visual Studio migra automáticamente la configuración precedente mencionada al nuevo entorno.  
   
 ## <a name="user-access-control"></a>Control de acceso de usuario  
- Visual Studio no permite implementar un proyecto de BizTalk en un equipo con la característica Control de acceso de usuario (UAC) activada a menos que ejecute Visual Studio con privilegios administrativos. Para ejecutar Visual Studio con privilegios de administrador, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Visual Studio**, haga clic en  **Microsoft Visual Studio \<versión >**y, a continuación, haga clic en **ejecutar como administrador**.  
+ Visual Studio no permite implementar un proyecto de BizTalk en un equipo con la característica Control de acceso de usuario (UAC) activada a menos que ejecute Visual Studio con privilegios administrativos. Para ejecutar Visual Studio con privilegios de administrador, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Visual Studio**, haga clic en  **Microsoft Visual Studio \<versión\>**y, a continuación, haga clic en **ejecutar como administrador**.  
   
 ## <a name="c-files-in-a-biztalk-project"></a>Archivos C# en un proyecto de BizTalk  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]le permite combinar las clases auxiliares con artefactos de BizTalk para sólo las necesidades de empaquetado flexible.  Sin embargo, no se puede agregar un nuevo archivo de C# directamente mediante el **Agregar nuevo elemento** o **agregar nueva clase** opciones de menú.  
+ BizTalk Server permite combinar las clases auxiliares con artefactos de BizTalk para sólo las necesidades de empaquetado flexible.  Sin embargo, no se puede agregar un nuevo archivo de C# directamente mediante el **Agregar nuevo elemento** o **agregar nueva clase** opciones de menú.  
   
 ## <a name="generatecsfiles-registry-key-is-obsolete"></a>La clave de registro GenerateCSFiles está obsoleta  
  El **GenerateCSFiles** clave del registro ahora está obsoleta. Todos los archivos .cs generados se muestran en la ventana del Explorador de soluciones. Debe hacer clic en **mostrar todos los archivos** elemento de barra de herramientas en la ventana Explorador de soluciones para ver los archivos .cs asociados con algunos de los elementos de BizTalk.

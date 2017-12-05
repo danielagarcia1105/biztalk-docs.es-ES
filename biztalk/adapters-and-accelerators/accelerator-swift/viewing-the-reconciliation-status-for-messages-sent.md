@@ -12,16 +12,16 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0009e8eede7cb490f77bad8d30251b73a9431b4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0fbcdbbec66c16cdf2592ac7eacfd6d69fdc2b6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="viewing-the-reconciliation-status-for-messages-sent"></a>Ver el estado de conciliación de mensajes enviados
 Para ver el estado de conciliación de los mensajes enviados:  
   
-1.  En programas, haga clic en **Microsoft BizTalk Server \<versión >**y, a continuación, haga clic en **sitio Web de Portal de BAM**.  
+1.  En programas, haga clic en **Microsoft BizTalk Server \<versión\>**y, a continuación, haga clic en **sitio Web de Portal de BAM**.  
   
 2.  En el sitio de Web de Portal de BAM, en mi búsqueda View\XMLV2View\Activity, elija **mensaje enviado actividad**.  
   

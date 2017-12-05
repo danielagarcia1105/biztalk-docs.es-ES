@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5119b9b896b3b37b24b9b3151c5e11664dda8774
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec4ed8e39a05f81984dca21794eca3d829ba8f42
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="unexpected-root-element"></a>Elemento raíz inesperado.
 ## <a name="details"></a>Detalles  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 |Texto del mensaje|Elemento raíz inesperado.|  
   
 ## <a name="explanation"></a>Explicación  
- Propiedad de encabezado no está en \<encabezados >...\</headers > formato. Normalmente esta situación se aplica a InboundHeaders y OutboundCustomHeaders.  
+ Propiedad de encabezado no está en \<encabezados\>...\</headers\> formato. Normalmente esta situación se aplica a InboundHeaders y OutboundCustomHeaders.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Asegúrese de que es propiedad de encabezado en el formato de \<encabezados >... \</headers >.
+ Asegúrese de que es propiedad de encabezado en el formato de \<encabezados\>... \</headers\>.

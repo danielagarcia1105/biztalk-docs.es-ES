@@ -16,18 +16,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09b07843a6e010021b00a1ffa7c3010977d1d3c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea38eb106b3554b72885355aaa9aef4928f4fda2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-custom-data-types-in-schemas"></a>Crear tipos de datos personalizados en esquemas
-Puede crear un tipo de datos personalizados en el datatypes_\<*versión*> esquema común de XSD. Puede basar un tipo de datos personalizado en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
+Puede crear un tipo de datos personalizados en el datatypes_\<*versión*\>esquema común de XSD. Puede basar un tipo de datos personalizado en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
   
 ### <a name="to-create-a-z-data-type"></a>Para crear un tipo de datos de Z  
   
-1.  En el Explorador de soluciones de Visual Studio, abra el archivo de esquema de tipo de datos comunes (**datatypes_\<*versión*> .xsd **) y, a continuación, haga clic en **abrir**.  
+1.  En el Explorador de soluciones de Visual Studio, abra el archivo de esquema de tipo de datos comunes (**datatypes_\<*versión*\>.xsd **) y, a continuación, haga clic en **abrir**.  
   
 2.  En el Editor de BizTalk, haga clic en **HL7DefinedDataTypes**, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **registro secundario** para crear un tipo de datos de componentes, o haga clic en  **Elemento secundario** para crear un tipo de datos simple.  
   
@@ -40,4 +40,4 @@ Puede crear un tipo de datos personalizados en el datatypes_\<*versión*> esquem
  [Crear segmentos de Z declarado](../../adapters-and-accelerators/accelerator-hl7/creating-declared-z-segments.md)   
  [Crear tablas personalizadas en esquemas](../../adapters-and-accelerators/accelerator-hl7/creating-custom-tables-in-schemas.md)   
  [Extender las enumeraciones](../../adapters-and-accelerators/accelerator-hl7/extending-enumerations.md)   
- [Control de segmentos de Z no declarado](../../adapters-and-accelerators/accelerator-hl7/handling-undeclared-z-segments.md)
+ [Control de segmentos de Z no declarados](../../adapters-and-accelerators/accelerator-hl7/handling-undeclared-z-segments.md)

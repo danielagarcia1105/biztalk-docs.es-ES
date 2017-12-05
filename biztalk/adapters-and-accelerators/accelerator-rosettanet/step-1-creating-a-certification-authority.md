@@ -16,11 +16,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d94a2b02b654983701323703edcc1b3ba3fcca13
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3d796608a4cc323ccf5e1a8bdee7420c5bab259
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-creating-a-certification-authority"></a>Paso 1: Crear una entidad de certificación
 En este tema, instale los servicios de Certificate Server [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] componente. Usarlo para generar los certificados que necesita para promover una comunicación segura entre las organizaciones de Contoso y Fabrikam. Todos los socios comerciales tendrá un certificado de cifrado privada para la comunicación y el certificado de firma privada para propósitos de identificación. Además, los socios compartirán sus certificados de clave pública entre sí para promover una comunicación segura al implementar el proceso de interfaz de socio (PIP) 3A2.  
@@ -99,9 +99,9 @@ En este tema, instale los servicios de Certificate Server [!INCLUDE[btsWinNoVers
   
 1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, vaya a  **\<unidad >: \Program Files\MicrosoftBizTalk \<versión > Accelerator for RosettaNet\SDK**y, a continuación, presione **ENTRAR**.  
+2.  En el símbolo del sistema, vaya a  **\<unidad\>: \Program Files\MicrosoftBizTalk \<versión\> Accelerator for RosettaNet\SDK**y, a continuación, presione **ENTRAR**.  
   
-3.  En el símbolo del sistema, escriba **CertWizard /Rootkey "\<unidad >: \Certs\Contoso-FabrikamCA.cer"**y, a continuación, presione **ENTRAR**.  
+3.  En el símbolo del sistema, escriba **CertWizard /Rootkey "\<unidad\>: \Certs\Contoso-FabrikamCA.cer"**y, a continuación, presione **ENTRAR**.  
   
     > [!IMPORTANT]
     >  Llevar a cabo este procedimiento en los equipos de Contoso y Fabrikam.  
@@ -126,4 +126,4 @@ En este tema, instale los servicios de Certificate Server [!INCLUDE[btsWinNoVers
     >  Debe instalar el certificado raíz Contoso-FabrikamCA.cer en las entidades de certificación de raíz de User\Trusted actual.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 2: Crear Public y Private certificados](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md)
+ [Paso 2: Crear certificados públicos y privados](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d5bd6cdecda9ca2456a770d4cf885fcd420fc18e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 185f3ea674015e02cac2bdaa785c2ee06e67db65
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-back-up-the-master-secret"></a>Cómo realizar copias de seguridad del secreto principal
 Es posible hacer una copia de seguridad del secreto principal desde el servidor secreto principal en un sistema de archivos NTFS o en un medio extraíble, como un disco.  
@@ -44,9 +44,9 @@ Es posible hacer una copia de seguridad del secreto principal desde el servidor 
   
 2.  Seleccione el administrador apropiado y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssoconfig – backupSecret  *\<archivo de copia de seguridad >***, donde  *\<archivo de copia de seguridad >* es la ruta de acceso y nombre del archivo donde el maestro se copiarán el secreto. Por ejemplo, A:\ssobackup.bak  
+4.  Tipo de **ssoconfig – backupSecret  *\<archivo de copia de seguridad\>***, donde  *\<archivo de copia de seguridad\>*  es la ruta de acceso y nombre de el archivo donde se copiarán el secreto principal. Por ejemplo, A:\ssobackup.bak  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -60,4 +60,4 @@ Es posible hacer una copia de seguridad del secreto principal desde el servidor 
  [Cómo generar el secreto principal](../core/how-to-generate-the-master-secret.md)   
  [Cómo restaurar el secreto principal](../core/how-to-restore-the-master-secret.md)   
  [Servidor secreto principal](../core/master-secret-server.md)   
- [Administrar el secreto principal](../core/managing-the-master-secret.md)
+ [Administración del secreto maestro](../core/managing-the-master-secret.md)

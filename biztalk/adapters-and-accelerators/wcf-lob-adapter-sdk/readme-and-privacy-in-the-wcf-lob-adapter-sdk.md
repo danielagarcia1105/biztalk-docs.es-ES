@@ -12,25 +12,25 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d02a8064493d061e5b2d02a3b88a658178b26e2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9b0e66bb7f13fd0a7cc39e983ac891708183662b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="readme-and-privacy-in-the-wcf-lob-adapter-sdk"></a>Archivo Léame y privacidad en el SDK de adaptador LOB de WCF
 Línea de Kit de desarrollo de Software (SDK) de negocio (LOB) adaptador de Windows Communication Foundation (WCF)  
   
 ## <a name="inside-the-sdk"></a>En el SDK  
- En la tabla siguiente muestra el contenido de los distintos componentes de los SDK de adaptador LOB de WCF en el \<carpeta de instalación > después de la instalación.  
+ En la tabla siguiente muestra el contenido de los distintos componentes de los SDK de adaptador LOB de WCF en el \<carpeta de instalación\> después de la instalación.  
   
 |Tipo|Ubicación|Description|  
 |----------|--------------|-----------------|  
-|Tiempo de ejecución|\<Carpeta de instalación > \Bin\Microsoft.ServiceModel.Channels.dll<br /><br /> \<Carpeta de instalación > \Bin\Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse.dll|Estos ensamblados contienen la base incluido el componente de formulario principal que se utiliza dentro de las herramientas de tiempo de ejecución.|  
-|Herramientas|\<Carpeta de instalación > \Tools\Microsoft.ServiceModel.Channels.Tools.PlugInPackage.dll<br /><br /> \<Carpeta de instalación > \Tools\Microsoft.ServiceModel.Channels.Tools.BizTalkExtension.dll<br /><br /> \<Carpeta de instalación > \Tools\Microsoft.ServiceModel.Channels.Wizards.dll|**Agregar adaptador servicio referencia complemento de Visual Studio**<br /><br /> (Proyecto de .NET [contextual], agregar referencia de servicio de adaptador)<br /><br /> **Consume Adapter Service complemento del proyecto de BizTalk**<br /><br /> (Proyecto de BizTalk [contextual], agregar, agregar elementos generados, Consume Adapter Service)<br /><br /> **Asistente para desarrollo de adaptador LOB de WCF**<br /><br /> (Archivo, nuevo, proyecto, Visual C#, adaptador LOB de WCF)|  
-|Documentación|\<Carpeta de instalación > \Documents\WCFLOBAdapterSDK.chm|Este archivo incluye contenido conceptual y el contenido de referencia administrada para esta versión.|  
-|Archivo de identificador de producto|\<Carpeta de instalación > \Documents\pid.txt|Este archivo contiene el identificador de producto del SDK de adaptador LOB de WCF. Use este identificador de producto como una referencia al ponerse en contacto con el servicio al cliente de Microsoft y soporte técnico (CSS).|  
-|Ejemplos|\<Carpeta de instalación > \Documents\Samples\ContosoAdapterSample.zip<br /><br /> \<Carpeta de instalación > \Documents\Samples\EchoAdapterSample.zip|La carpeta de ejemplos contiene dos adaptadores de ejemplo: Contoso adaptador y el eco.|  
+|Tiempo de ejecución|\<Carpeta de instalación\> \Bin\Microsoft.ServiceModel.Channels.dll<br /><br /> \<Carpeta de instalación\> \Bin\Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse.dll|Estos ensamblados contienen la base incluido el componente de formulario principal que se utiliza dentro de las herramientas de tiempo de ejecución.|  
+|Herramientas|\<Carpeta de instalación\> \Tools\Microsoft.ServiceModel.Channels.Tools.PlugInPackage.dll<br /><br /> \<Carpeta de instalación\> \Tools\Microsoft.ServiceModel.Channels.Tools.BizTalkExtension.dll<br /><br /> \<Carpeta de instalación\> \Tools\Microsoft.ServiceModel.Channels.Wizards.dll|**Agregar adaptador servicio referencia complemento de Visual Studio**<br /><br /> (Proyecto de .NET [contextual], agregar referencia de servicio de adaptador)<br /><br /> **Consume Adapter Service complemento del proyecto de BizTalk**<br /><br /> (Proyecto de BizTalk [contextual], agregar, agregar elementos generados, Consume Adapter Service)<br /><br /> **Asistente para desarrollo de adaptador LOB de WCF**<br /><br /> (Archivo, nuevo, proyecto, Visual C#, adaptador LOB de WCF)|  
+|Documentación|\<Carpeta de instalación\> \Documents\WCFLOBAdapterSDK.chm|Este archivo incluye contenido conceptual y el contenido de referencia administrada para esta versión.|  
+|Archivo de identificador de producto|\<Carpeta de instalación\>\Documents\pid.txt|Este archivo contiene el identificador de producto del SDK de adaptador LOB de WCF. Use este identificador de producto como una referencia al ponerse en contacto con el servicio al cliente de Microsoft y soporte técnico (CSS).|  
+|Ejemplos|\<Carpeta de instalación\> \Documents\Samples\ContosoAdapterSample.zip<br /><br /> \<Carpeta de instalación\> \Documents\Samples\EchoAdapterSample.zip|La carpeta de ejemplos contiene dos adaptadores de ejemplo: Contoso adaptador y el eco.|  
 
 ## <a name="privacy"></a>Privacidad
 Microsoft se compromete a proteger la privacidad de los usuarios finales. Cuando se crea un adaptador mediante [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], puede afectan a la privacidad de sus usuarios finales. Por ejemplo, el adaptador de forma explícita puede recopilar y enviar las credenciales de usuario, o puede enviar y recibir información confidencial de un sistema de línea de negocio. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] no envía ninguna información a Microsoft desde su aplicación a menos que el usuario decida enviarla.  

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5bd66c9ce3bb104cfb471e725778faab2c4e9528
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5b99d6e60a2a5955a9f0873156dbc5f822b3d519
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-common-fallback-properties-for-x12-and-edifact-encoded-messages"></a>Configuración de las propiedades comunes de reserva para mensajes codificados en X12 y EDIFACT
 Las propiedades de reserva se aplican tanto a intercambios X12 (incluido HIPAA) como a intercambios con codificación EDIFACT. Al igual que sucede con las propiedades del acuerdo de reserva, estas propiedades solamente se aplican si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha determinado el acuerdo en el cual se resuelve el mensaje de entrada o salida.  
@@ -35,7 +35,7 @@ Las propiedades de reserva se aplican tanto a intercambios X12 (incluido HIPAA) 
         > [!IMPORTANT]
         >  Si no se activa esta opción, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no usará las propiedades configuradas en el acuerdo de reserva.  
   
-    2.  Haga clic en **activar informes de EDI** para activar los informes para todos los mensajes EDI. Esto garantiza que los mensajes se muestran en el estado de informes de las pantallas mostradas, haga clic en los vínculos situados en la parte inferior de la **concentrador de grupo** panel de la [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] consola de administración.  
+    2.  Haga clic en **activar informes de EDI** para activar los informes para todos los mensajes EDI. Esto garantiza que los mensajes se muestran en el estado de informes de las pantallas mostradas, haga clic en los vínculos situados en la parte inferior de la **concentrador de grupo** panel de la consola de administración de BizTalk Server.  
   
     3.  Si hace clic en **activar informes de EDI**, haga clic en **almacenar carga y conjunto de transacciones para los informes** almacenar transacciones se establece en las tablas EDI de la base de datos de seguimiento (BizTalkDTADb).  
   
@@ -47,4 +47,4 @@ Las propiedades de reserva se aplican tanto a intercambios X12 (incluido HIPAA) 
 3.  Haga clic en **aplicar** para aceptar los cambios antes de continuar con la configuración o haga clic en **Aceptar** para validar y aceptar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades del acuerdo de reserva o globales](../core/configuring-global-or-fallback-agreement-properties.md)
+ [Configuración de las propiedades de acuerdos globales o de respaldo](../core/configuring-global-or-fallback-agreement-properties.md)

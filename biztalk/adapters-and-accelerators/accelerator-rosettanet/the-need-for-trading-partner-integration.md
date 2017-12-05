@@ -15,14 +15,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec88e4413e46b0ce0e3d58e89fad064832707ab0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94122ceb1ccf39d7a5781334239b5002a2772979
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="the-need-for-trading-partner-integration"></a>Necesidad de integración de socios comerciales
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona socios en escenarios empresariales de alta tecnología con soluciones para sus necesidades de automatización de procesos de negocios e integración de aplicaciones. Esta sección describen algunos de los desafíos de negocios que las empresas actúan en la fabricación de alta tecnología y cómo sistemas que incorporan [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] puede ayudar a las empresas a enfrentar los desafíos. El último tema proporciona un escenario común que muestra una aplicación empresarial de ejemplo de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona socios en escenarios empresariales de alta tecnología con soluciones para sus necesidades de automatización de procesos de negocios e integración de aplicaciones. Esta sección describen algunos de los desafíos de negocios que las empresas actúan en la fabricación de alta tecnología y cómo sistemas que incorporan BizTalk Server y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] puede ayudar a las empresas a enfrentar los desafíos. El último tema proporciona un escenario común que muestra una aplicación empresarial de ejemplo de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
 ## <a name="in-this-section"></a>En esta sección  
   

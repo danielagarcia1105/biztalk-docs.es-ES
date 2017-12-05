@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8c847165eb61b6ba9044a95584de7be8f9999d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a>Configurar la FileAct e interactuar adaptador
 Configurar los diferentes artefactos utilizados por el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] en tiempo de ejecución. 
@@ -92,7 +92,7 @@ A continuación, escriba los asociados de mensaje de servidor en el paramfile SW
   
 ## <a name="step-4-configure-the-swiftnet-param-file"></a>Paso 4: Configurar el archivo de param SWIFTNet
 
-Para habilitar la FileAct e InterAct adaptadores de recepción para inicializar con los valores, el mensaje del servidor socios que creó en SAG deben especificarse en el paramfile SWIFTNet. El paramfile normalmente se encuentra en `c:\SWIFTAlliance\RA\<remote access instance name>\cfg\paramfile`. Después de configurar la paramfile, iniciar **SnlReceiver.exe**.  
+Para habilitar la FileAct e InterAct adaptadores de recepción para inicializar con los valores, el mensaje del servidor socios que creó en SAG deben especificarse en el paramfile SWIFTNet. El paramfile normalmente se encuentra en `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`. Después de configurar la paramfile, iniciar **SnlReceiver.exe**.  
   
 1. Abra la **SWIFTNet paramfile**. En la ubicación marcada con "***" agregue lo siguiente. Tenga en cuenta que la `AdapterType` valor puede ser `Interact` o `Fileact`.  
   
@@ -172,6 +172,6 @@ Para obtener ejemplos de mensajes de FileAct e InterAct, consulte [interactuar d
   
 ## <a name="see-also"></a>Vea también  
 
-[Instalar el FileAct e interactuar adaptador](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
+[Instalar los adaptadores FileAct e InterAct](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
 [Desinstalar o reparar el adaptador de FileAct e InterAct](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  
-[Lea la problemas conocidos de instalación](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)
+[Leer los problemas de instalación conocidos](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)

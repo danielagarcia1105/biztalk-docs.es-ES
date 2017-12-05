@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 847dd40bc7d0e8fe9ec225ad8af45d06c92d7b63
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0dba1e1a4f54b3b33ebca8297cfe9beef7c4f868
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deployment-of-bam-definition-observation-model-commands"></a>Comandos de implementación de definición de BAM (modelo de observación)
 Los comandos de implementación de la utilidad de administración de BAM le permiten aplicar, modificar y quitar definiciones.  
@@ -40,15 +40,15 @@ Los comandos de implementación de la utilidad de administración de BAM le perm
 ## <a name="deploy-all-command"></a>Comando deploy-all  
  **Uso**  
   
- **bm.exe implementar-all - DefinitionFile:\<archivo def > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe implementar-all - DefinitionFile:\<archivo def\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<archivo def >|Ruta y nombre del archivo que contiene las definiciones que se van a implementar.|  
-|Servidor:\<server >|Opcional: El nombre del servidor que se va a implementar las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos que se va a implementar las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|DefinitionFile:\<archivo def\>|Ruta y nombre del archivo que contiene las definiciones que se van a implementar.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor que se va a implementar las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos que se va a implementar las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Implementa todos los artefactos desde el archivo XML especificado de definición de BAM al servidor y a la base de datos especificados. El archivo puede ser un archivo de texto que contenga el XML de definición de BAM o un libro de Excel de BAM. El archivo de definición debe incluir sólo artefactos nuevos. Si el archivo contiene artefactos que ya se han implementado, la implementación no funcionará e informará de un error.  
   
@@ -98,15 +98,15 @@ bm.exe deploy-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="update-all-command"></a>Comando update-all  
  **Uso**  
   
- **bm.exe update-all - DefinitionFile:\<archivo def > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe update-all - DefinitionFile:\<archivo def\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<archivo def >|Ruta y nombre del archivo que contiene las definiciones desde el que se va a realizar la actualización.|  
-|Servidor:\<server >|Opcional: El nombre del servidor que se va a implementar las actualizaciones de definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos que se va a implementar las actualizaciones de definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|DefinitionFile:\<archivo def\>|Ruta y nombre del archivo que contiene las definiciones desde el que se va a realizar la actualización.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor que se va a implementar las actualizaciones de definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos que se va a implementar las actualizaciones de definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Actualiza ciertos artefactos del XML de definición de BAM. El archivo puede ser un archivo de texto que contenga el XML de definición de BAM o un libro de Excel de BAM. La actualización no elimina artefactos que no se describen en el archivo actual de definición. Puede agregar puntos nuevos de comprobación a actividades, pero no puede quitar puntos de control de actividades implementadas. La actualización no puede ni cambiar el nombre de los puntos de control ni modificar sus propiedades.  
   
@@ -125,15 +125,15 @@ bm.exe update-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="remove-all-command"></a>comando remove-all  
  **Uso**  
   
- **bm.exe remove-all DefinitionFile:\<archivo def > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe remove-all DefinitionFile:\<archivo def\> [-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<archivo def >|Ruta y nombre del archivo que contiene las definiciones que se van a quitar.|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se quitarán las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos desde el que se quitarán las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|DefinitionFile:\<archivo def\>|Ruta y nombre del archivo que contiene las definiciones que se van a quitar.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se quitarán las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos desde el que se quitarán las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Quita todos los artefactos especificados en el archivo XML de definición de BAM. El archivo puede ser un archivo de texto que contenga el XML de definición de BAM o un libro de Excel de BAM. La definición de cada artefacto debe coincidir exactamente con la definición original que se utilizó para implementación.  
   
@@ -147,15 +147,15 @@ bm.exe remove-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="update-livedataworkbook-command"></a>Comando update-livedataworkbook  
  **Uso**  
   
- **bm.exe update-livedataworkbook-nombre:\<nombre de archivo de libro de trabajo de datos dinámicos > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe update-livedataworkbook-nombre:\<nombre de archivo de libro de trabajo de datos dinámicos\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Nombre:\<libro de trabajo de datos dinámicos >|El nombre del libro de trabajo dinámico existente que se debe actualizar.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside el libro. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside el libro. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Nombre:\<libro de trabajo de datos dinámicos\>|El nombre del libro de trabajo dinámico existente que se debe actualizar.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside el libro. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside el libro. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Actualiza la información de conexión de la base de datos de importación principal de BAM del libro de trabajo de datos activos de BAM especificado.  
   
@@ -172,15 +172,15 @@ bm.exe update-livedataworkbook -Name:SalesManager_Live.xls -Server:SalesSrv
 ## <a name="regenerate-livedataworkbook-command"></a>Comando regenerate-livedataworkbook  
  **Uso**  
   
- **bm.exe regenerate-livedataworkbook - WorkbookName:\<nombre de archivo de libro de trabajo de datos dinámicos > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe regenerate-livedataworkbook - WorkbookName:\<nombre de archivo de libro de trabajo de datos dinámicos\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|WorkbookName:\<nombre de archivo de libro de trabajo de datos dinámicos >|Nombre del libro de trabajo que se va a actualizar.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside el libro. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside el libro. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|WorkbookName:\<nombre de archivo de libro de trabajo de datos dinámicos\>|Nombre del libro de trabajo que se va a actualizar.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside el libro. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside el libro. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Genera un libro de trabajo de datos activos de BAM, pero no implementa el libro de trabajo.  
   

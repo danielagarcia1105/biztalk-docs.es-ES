@@ -17,11 +17,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d5af783a5f2315aa39fc3ab49f727583b1bbf7d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 65eb19845bf4e103b4abe2466e58fb09a96c23c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-operations-on-the-oracle-database-using-the-wcf-channel-model"></a>Invocar operaciones en la base de datos de Oracle utilizando el modelo del canal de WCF
 Se pueden invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] mediante el uso de un **IRequestChannel** o **IOutputChannel** forma para enviar mensajes al adaptador. El patrón básico consiste en crear un generador de canales para la forma de canales necesarias utilizando un enlace (**OracleDBBinding**) y un punto de conexión creado a partir de un URI de conexión. A continuación, cree un **mensaje** instancia que representa un mensaje SOAP que se ajusta al esquema de mensajes para la operación de destino. A continuación, puede enviar este **mensaje** a la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] mediante el uso de un canal que se crea desde el generador de canales. Si usas un **IRequestChannel**, recibirá una respuesta. Si hay un problema al ejecutar la operación en la base de datos de Oracle, el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] produce una **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.  
@@ -71,7 +71,7 @@ Se pueden invocar operaciones en el [!INCLUDE[adapteroracle_short](../../include
   
 #### <a name="how-to-invoke-an-operation-by-using-an-instance-of-irequestchannel"></a>Cómo invocar una operación mediante una instancia de IRequestChannel  
   
-1.  Crear un generador de canales (**ChannelFactory\<IRequestChannel >**). Para ello, debe especificar un enlace (**OracleDBBinding**) y una dirección de extremo. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Para obtener más información sobre cómo especificar el enlace y la dirección del extremo en la configuración, consulte [crear un canal con la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
+1.  Crear un generador de canales (**ChannelFactory\<IRequestChannel\>**). Para ello, debe especificar un enlace (**OracleDBBinding**) y una dirección de extremo. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Para obtener más información sobre cómo especificar el enlace y la dirección del extremo en la configuración, consulte [crear un canal con la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  
   
     ```  
     // Create a binding  
@@ -147,7 +147,7 @@ Se pueden invocar operaciones en el [!INCLUDE[adapteroracle_short](../../include
   
  Siga los mismos pasos para enviar un mensaje mediante la **IOutputChannel** forma excepto:  
   
--   Crear un **ChannelFactory\<IOutputChannel >** en el paso 1.  
+-   Crear un **ChannelFactory\<IOutputChannel\>**  en el paso 1.  
   
 -   Se llama a la **enviar** método en el canal en el paso 6. `channel.Send(messageIn);`.  
   
@@ -177,7 +177,7 @@ namespace RequestChanneSample
         {  
             // The Select operation request message  
             const string selectRequestString =  
-                "\<Select xmlns=\"http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY\">" +  
+                "\<Select xmlns=\"http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY\"\>" +  
                     "<COLUMN_NAMES>*</COLUMN_NAMES>" +  
                     "<FILTER>ACCOUNT = 100002</FILTER>" +  
                 "</Select>";  

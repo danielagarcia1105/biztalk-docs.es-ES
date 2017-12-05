@@ -12,17 +12,17 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ea474e3717ec69dfe04261ba144a46350223856
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c2e4adac7c7d1503a49f68208e45e09f86b67ac
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="processing-json-messages-using-biztalk-server"></a>Procesamiento de mensajes JSON con BizTalk Server
 > [!NOTE]
->  Este tutorial se aplica solo a [!INCLUDE[prague](../includes/prague-md.md)].  
+>  Este tutorial solo se aplica a BizTalk Server.  
   
- En este tutorial se muestra cómo procesar mensajes JSON con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El tutorial usa componentes de canalización personalizada, que ahora están disponibles con [!INCLUDE[prague](../includes/prague-md.md)]. Estos componentes de canalización convierten el mensaje JSON en XML mientras se recibe el mensaje en la orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y convierten el mensaje de XML a JSON mientras se envía.  
+ En este tutorial se muestra cómo procesar mensajes JSON con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El tutorial usa componentes de canalización personalizados, ahora están disponibles con BizTalk Server. Estos componentes de canalización convierten el mensaje JSON en XML mientras se recibe el mensaje en la orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], y convierten el mensaje de XML a JSON mientras se envía.  
   
 ## <a name="what-does-this-tutorial-do"></a>¿Qué hace este tutorial?  
  Para mostrar el procesamiento de JSON, creamos un servidor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que hace lo siguiente, en el orden especificado:  

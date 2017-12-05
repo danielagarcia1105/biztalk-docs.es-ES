@@ -12,17 +12,17 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 53e20b7d94e44006df1042c9ca202e296508a5d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86fd882f89caee27211c03a4e13e617fe12faef1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="test-scenario-overview"></a>Información general del escenario de prueba
 Este tema proporciona información general de la aplicación de prueba; una descripción de las pruebas metodología empleada, listas y los indicadores clave de rendimiento (KPI) que se capturan durante las pruebas de carga.  
   
 ## <a name="test-application"></a>Aplicación de prueba  
- Una aplicación sincrónica de solicitud-respuesta se utiliza para comparar el rendimiento de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ejecutando en Hyper-V para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ejecutándose en hardware físico. Esta aplicación se usa para mostrar el rendimiento de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] soluciones que se han optimizado para una latencia baja. Mensajería de baja latencia es fundamental para algunos escenarios como la banca en línea, donde un cliente envía una solicitud y espera un mensaje de respuesta dentro de un intervalo muy corto (por ejemplo \< 3 segundos).  
+ Una aplicación sincrónica de solicitud-respuesta se utiliza para comparar el rendimiento de BizTalk Server que se ejecutan en Hyper-V a BizTalk Server que se ejecuta en hardware físico. Esta aplicación se usa para mostrar el rendimiento de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] soluciones que se han optimizado para una latencia baja. Mensajería de baja latencia es fundamental para algunos escenarios como la banca en línea, donde un cliente envía una solicitud y espera un mensaje de respuesta dentro de un intervalo muy corto (por ejemplo, < 3 segundos).  
   
  La ilustración siguiente muestra la arquitectura de alto nivel que se usa. Visual Studio Team System (VSTS) 2008 Test Load Agent invoca una clase de prueba personalizada, que utiliza el transporte WCF para generar cargas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación en este escenario se expone a través de un WCF-BasicHttp ubicación de recepción de solicitud-respuesta. VSTS 2008 Test Load Agent se utiliza como el cliente de prueba debido a la gran flexibilidad que proporciona, incluida la capacidad para configurar el número de mensajes enviados en total, número de subprocesos simultáneos y envía el intervalo de espera entre solicitudes.  
   
@@ -130,7 +130,7 @@ Orquestación de aplicación de prueba
   
 -   **Orquestaciones completadas por segundo:** devuelto por la **\Orchestrations orquestaciones XLANG/s (BizTalkServerApplication) completadas/s** contador del Monitor de rendimiento. Este contador proporciona una buena medida del rendimiento de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución.  
   
--   **% de los mensajes procesados \< 3 segundos –** para registrar el número total de mensajes procesados en 3 segundos durante la prueba.  
+-   **% de los mensajes procesados < 3 segundos –** para registrar el número total de mensajes procesados en 3 segundos durante la prueba.  
   
  Prueba de carga de VSTS 2008 se usó para generar una carga equilibrada a lo largo de todas las pruebas. Parámetros de ejecución de la siguiente prueba y modelo de carga se han modificado durante las pruebas para ajustar el perfil de carga de cada prueba:  
   
@@ -215,7 +215,7 @@ Configuración de patrones de prueba
   
  **Para SQL Server:**  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]se instaló según la Guía de instalación disponible en [http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021).  
+-   Se ha instalado SQL Server según la Guía de instalación disponible en [http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021).  
   
 -   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]usar tenía los LUN de SAN configurada según la tabla siguiente. Los archivos de registro y base de datos estuvieran separados a través de los LUN como se indica a continuación para reducir la contención de E/S de disco posibles:  
   
@@ -245,7 +245,7 @@ Configuración de patrones de prueba
     |Logs_BizTalkDatabases|Otros archivos de registro de la base de datos de BizTalk|20|20|64KB|  
     |N/D|Archivo de registro MSDTC|5|5|N/D|  
   
--   [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]se ha instalado según las guías de instalación disponibles en [http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383).  
+-   Se ha instalado BizTalk Server según las guías de instalación disponibles en [http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383).  
   
 -   El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usó la herramienta de Best Practices Analyzer (BPA) para realizar la validación de plataforma una vez que se ha configurado el sistema. El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA está disponible en [http://go.microsoft.com/fwlink/?LinkId=67150](http://go.microsoft.com/fwlink/?LinkId=67150).  
   
@@ -259,7 +259,7 @@ Configuración de patrones de prueba
  Este disco duro virtual base, a continuación, se copian y se utiliza como base para todas las máquinas virtuales de Hyper-V que se implementaron en el entorno. Sysprep se ejecutó en la imagen de disco duro virtual base para restablecer los identificadores de seguridad del sistema antes de cualquier [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] o [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] archivos binarios se implementaron en el sistema.  
   
 > [!NOTE]  
->  Ejecuta Sysprep después de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] se ha instalado y configurado en el servidor puede realizarse mediante el uso de un archivo de respuesta de Sysprep y secuencias de comandos que se proporcionan con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Estas secuencias de comandos de ejemplo están diseñados para su uso con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] instalado en las versiones de 32 bits y 64 bits de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] solo. Para obtener más información, consulte el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] documentación en línea.  
+>  Ejecuta Sysprep después de que se ha instalado y configurado en el servidor BizTalk Server puede realizarse mediante el uso de un archivo de respuesta de Sysprep y secuencias de comandos proporcionadas con BizTalk Server. Estas secuencias de comandos de ejemplo están diseñados para su uso con BizTalk Server instalado en las versiones de 32 bits y 64 bits de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] solo. Para obtener más información, consulte la documentación en línea de BizTalk Server.  
   
  La referencia de instalación desatendida de Windows está disponible en [http://go.microsoft.com/fwlink/?LinkId=142364](http://go.microsoft.com/fwlink/?LinkId=142364).  
   

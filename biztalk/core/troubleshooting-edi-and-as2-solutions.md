@@ -12,20 +12,20 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 073a52a4e8d4746980c15d42ce52bb226efda9a0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1d9b2862464da17a541733d1e5cff4a3ba29e36
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshooting-edi-and-as2-solutions"></a>Solucionar problemas de las soluciones EDI y AS2
-Los temas de esta sección describen los problemas conocidos de las soluciones EDI y AS2 en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y describen los pasos comunes de solución de problemas que pueden aplicarse para identificar y resolver dificultades relacionadas con las soluciones EDI y AS2.  
+Los temas de esta sección describen los problemas conocidos relacionados con las soluciones EDI y AS2 en BizTalk Server y describen los pasos de solución de problemas comunes que pueden usarse para identificar y resolver los problemas que se pueden producir en las soluciones EDI y AS2.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Problemas conocidos relacionados con la seguridad EDI](../core/known-issues-with-edi-security.md)  
+-   [Problemas conocidos de la seguridad de EDI](../core/known-issues-with-edi-security.md)  
   
--   [Problemas conocidos relacionados con la seguridad de AS2](../core/known-issues-with-as2-security.md)  
+-   [Problemas conocidos de la seguridad de AS2](../core/known-issues-with-as2-security.md)  
   
 -   [Problemas conocidos con la instalación, configuración e implementación de soluciones EDI y AS2](../core/known-issues-with-install-configuration-deployment-of-edi-and-as2-solutions.md)  
   
@@ -33,8 +33,8 @@ Los temas de esta sección describen los problemas conocidos de las soluciones E
   
 -   [Problemas conocidos del procesamiento de AS2](../core/known-issues-with-as2-processing.md)  
   
--   [Problemas conocidos con EDI y AS2 informes de estado](../core/known-issues-with-edi-and-as2-status-reporting.md)  
+-   [Problemas conocidos de los informes de estado de EDI y AS2](../core/known-issues-with-edi-and-as2-status-reporting.md)  
   
--   [Problemas conocidos de migración de EDI](../core/known-issues-with-edi-migration.md)  
+-   [Problemas conocidos de la migración de EDI](../core/known-issues-with-edi-migration.md)  
   
--   [Problemas conocidos relacionados con el rendimiento de AS2 y EDI](../core/known-issues-with-edi-and-as2-performance.md)
+-   [Problemas conocidos de rendimiento de EDI y AS2](../core/known-issues-with-edi-and-as2-performance.md)

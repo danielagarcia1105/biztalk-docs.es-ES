@@ -21,11 +21,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2939fd0594c878e3a5f1416d0b1e871b78ba3858
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8ce76f2ca16cca44af1658983c49d11f6931e931
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manage-password-synchronization"></a>Cómo administrar la sincronización de contraseña
 El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para habilitar o deshabilitar las características de SSO, así como para mostrar la configuración de la base de datos de SSO.  
@@ -42,7 +42,7 @@ El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **ssomanage-habilitar** y presione ENTRAR.  
   
@@ -52,7 +52,7 @@ El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **ssomanage-deshabilitar** y presione ENTRAR.  
   
@@ -62,9 +62,9 @@ El Complemento MMC o la utilidad de línea de comandos SSOMANAGE se utiliza para
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **ssomanage - displaydb** y presione ENTRAR.  
   
 ## <a name="see-also"></a>Vea también  
- [Sincronización de contraseña](../core/password-synchronization2.md)
+ [Sincronización de contraseñas](../core/password-synchronization2.md)

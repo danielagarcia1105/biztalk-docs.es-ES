@@ -12,24 +12,24 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d2e07078f630852fc14bf8081a4bd1453a0dc7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6622d201c6f7b7d94694a77198d0eb562482489
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="implementing-the-sample"></a>Implementar el ejemplo
 Para implementar el ejemplo, haga lo siguiente:  
   
-1.  Crear una nueva carpeta para SWIFT esquemas (\<DocumentSchemaLocation > en la sintaxis de la utilidad). Todos los esquemas para los que se va a crear o modificar los formularios de InfoPath deben encontrarse en esta carpeta cuando se ejecuta la utilidad.  
+1.  Crear una nueva carpeta para SWIFT esquemas (\<DocumentSchemaLocation\> en la sintaxis de la utilidad). Todos los esquemas para los que se va a crear o modificar los formularios de InfoPath deben encontrarse en esta carpeta cuando se ejecuta la utilidad.  
   
-2.  Si va a generar los formularios de InfoPath para los mensajes de MT, a continuación, copie **SWIFT Base Types.xsd** y **Types.xsd de datos común de SWIFT** de  **\<unidad: > \Program Acelerador de BizTalk para SWIFT \<versión del módulo de mensaje > mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión del módulo de mensaje > \Base esquemas** en la carpeta que ha creado para SWIFT esquemas.  
+2.  Si va a generar los formularios de InfoPath para los mensajes de MT, a continuación, copie **SWIFT Base Types.xsd** y **Types.xsd de datos común de SWIFT** de  **\<unidad:\> \Program Files\ Acelerador de Microsoft BizTalk para SWIFT \<versión del módulo de mensaje\> mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión del módulo de mensaje\>\Base esquemas** en la carpeta que crea esquemas SWIFT.  
   
 3.  Copie todos los esquemas para los que va a crear los formularios de InfoPath en la carpeta que ha creado para SWIFT esquemas en el paso 1.  
   
-4.  Cree o designe una carpeta que contiene el formulario de InfoPath creado los archivos de solución de plantilla (\<DestinationFolderPath > en la sintaxis de la utilidad). Si no crea la carpeta de salida, la utilidad creará la misma con la ruta de acceso y el nombre que pasa en la línea de comandos.  
+4.  Cree o designe una carpeta que contiene el formulario de InfoPath creado los archivos de solución de plantilla (\<DestinationFolderPath\> en la sintaxis de la utilidad). Si no crea la carpeta de salida, la utilidad creará la misma con la ruta de acceso y el nombre que pasa en la línea de comandos.  
   
-5.  [Opcional]-crear un archivo de texto \<NameOfFileContainingSchemaList > que enumeran los tipos de mensaje para los mensajes para los que es el formulario de InfoPath que se genere. Por ejemplo, el tipo de mensaje puede ser MT103, MT102 etcetera. Los nombres de mensaje pueden pasarse directamente a través de la línea de comandos en lugar de crear este archivo de texto.  
+5.  [Opcional]-crear un archivo de texto \<NameOfFileContainingSchemaList\> que enumeran los tipos de mensaje para los mensajes para los que es el formulario de InfoPath que se genere. Por ejemplo, el tipo de mensaje puede ser MT103, MT102 etcetera. Los nombres de mensaje pueden pasarse directamente a través de la línea de comandos en lugar de crear este archivo de texto.  
   
 ## <a name="syntax-of-command-usage-for-formgeneratorexe"></a>Sintaxis de uso del comando para FormGenerator.exe  
   

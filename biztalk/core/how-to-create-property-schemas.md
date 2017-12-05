@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 426e98e491ec71a7e430ff6886f5f9820c4b87fe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee97f4cb3065fdb201ec19f88a79e7899f03ac49
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-property-schemas"></a>Cómo crear esquemas de propiedades
 Si elige promocionar los campos como campos de propiedades, primero deberá definir un esquema de propiedades. Este esquema de propiedades especifica una colección no estructurada de campos en la puede promocionar los campos desde un mensaje de instancia definido por un esquema asociado con el esquema de propiedades.  
@@ -41,7 +41,7 @@ Si elige promocionar los campos como campos de propiedades, primero deberá defi
   
 5.  Establecer el **tipo de datos** y otras propiedades relevantes, según corresponda, para el **elemento de campo** nodo en la ventana Propiedades.  
   
-6.  Si desea insertar **elemento de campo** nodos para las propiedades adicionales, haga clic en el \<esquema > nodo, haga clic en **Insertar nodo de esquema**y, a continuación, haga clic en **elemento de campo secundario** y, a continuación, repita los pasos 4 y 5. Repita según sea necesario para crear el conjunto necesario de **elemento de campo** nodos en el que se va a promover los valores de los mensajes de instancia.  
+6.  Si desea insertar **elemento de campo** nodos para las propiedades adicionales, haga clic en el \<esquema\> nodo, haga clic en **Insertar nodo de esquema**y, a continuación, haga clic en  **Elemento de campo secundario**y, a continuación, repita los pasos 4 y 5. Repita según sea necesario para crear el conjunto necesario de **elemento de campo** nodos en el que se va a promover los valores de los mensajes de instancia.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar esquemas en proyectos](../core/managing-schemas-within-projects.md)
+ [Administración de esquemas en proyectos](../core/managing-schemas-within-projects.md)

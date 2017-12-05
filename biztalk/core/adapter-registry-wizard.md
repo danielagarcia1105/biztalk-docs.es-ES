@@ -15,17 +15,17 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f07ef6adc96a4f5819cd5438b4a5d24ce6fc0770
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b721294acb07d4c69c5b2ae7b58b0e135625eee8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adapter-registry-wizard"></a>Asistente para registro del adaptador
 Usar al Asistente para registro del adaptador para crear los archivos de registro necesarios para configurar y registrar un adaptador personalizado.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- *\<Ruta de acceso de instalación >*\SDK\Utilities\AdapterRegistryWizard\  
+ *\<Ruta de acceso de instalación\>*\SDK\Utilities\AdapterRegistryWizard\  
   
 ## <a name="to-run-this-utility"></a>Para ejecutar esta utilidad  
  Inicie el asistente mediante la ejecución de AdapterRegistryWizard.exe. Las páginas siguientes solicitan información acerca del adaptador y de las propiedades que admite. Las páginas del Asistente para el Registro del adaptador se describen en las secciones siguientes.  
@@ -76,4 +76,4 @@ Usar al Asistente para registro del adaptador para crear los archivos de registr
   
 ## <a name="see-also"></a>Vea también  
  [Utilidades del SDK de](../core/utilities-in-the-sdk.md)   
- [Registrar un adaptador](../core/registering-an-adapter.md)
+ [Registro de un adaptador](../core/registering-an-adapter.md)

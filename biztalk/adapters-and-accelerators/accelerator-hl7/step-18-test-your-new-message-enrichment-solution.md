@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca2716a5d05292f105798cf394cd05bac1104c4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 035925684617e74608246aed99fa98e16d0668a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-18-test-your-new-message-enrichment-solution"></a>Paso 18: Probar la nueva solución de enriquecimiento de mensajes
 En este paso, probará la solución mediante la aplicación WSClient para enviar un mensaje a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y ver si la aplicación MLLPReceive recibe un mensaje con formato HL7 según lo previsto.  
@@ -29,13 +29,13 @@ En este paso, probará la solución mediante la aplicación WSClient para enviar
     > [!NOTE]
     >  Paso 2 requiere que se haya instalado la herramienta de prueba de MLLP mediante el procedimiento de instalación personalizada. Si las utilidades \MLLP directorio que contiene MllpReceive.exe y MllpSend.exe no existe en el equipo, instálelos mediante la realización de una instalación personalizada. Para obtener información, consulte [realizar una instalación personalizada](http://msdn.microsoft.com/library/e55c86e1-af63-49ba-8510-d177e1b96692).  
   
-2.  En el símbolo del sistema, escriba  **cd \<* unidad*>: \Program BizTalk \<versión > Accelerator para HL7\SDK\MLLP utilidades ** (donde \< *unidad*> es la letra de unidad de instalación) y, a continuación, presione **ENTRAR**.  
+2.  En el símbolo del sistema, escriba  **cd \<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades * * (donde \< *unidad* \> es la letra de unidad de instalación) y, a continuación, presione **ENTRAR**.  
   
 3.  En el símbolo del sistema, escriba **mllpreceive /p 11000 /eb 11/SB 28 /cr 13**y, a continuación, presione **ENTRAR**. Esto ejecuta la aplicación de agente de escucha MLLP escuchando al puerto 11000 y especificar los caracteres EB, SB y CR predeterminado del mensaje MLLP y muestra cualquier mensaje recibido en la pantalla.  
   
 4.  Abra una segunda línea de comandos.  
   
-5.  En el símbolo del sistema, escriba  **cd \<* unidad*>: \Tutorial\WSClient\bin\Debug** y, a continuación, presione **ENTRAR**.  
+5.  En el símbolo del sistema, escriba  **cd \<* unidad*\>: \Tutorial\WSClient\bin\Debug** y, a continuación, presione **ENTRAR**.  
   
 6.  En el símbolo del sistema, escriba **smith henry de john wsclient 123456789**y, a continuación, presione **ENTRAR**. Esto envía un mensaje al servicio Web que contiene un mensaje de ejemplo con el nombre de un paciente de John Henry Smith y un número de seguridad social de ejemplo de 123456789.  
   

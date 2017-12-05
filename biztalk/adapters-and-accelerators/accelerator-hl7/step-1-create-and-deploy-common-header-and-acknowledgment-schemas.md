@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a134071ee1973961e0fb4ed9b4da73ad87d8dbb1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 222f78232afd988e5bb47b2aa12bb75eb4635ce5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a>Paso 1: Crear e implementar encabezado común y esquemas de confirmación
 Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la instancia de mensaje. Usar el esquema de confirmación para generar la confirmación de la instancia de mensaje. Este proceso es común en todas las versiones de esquema HL7.  
@@ -45,7 +45,7 @@ Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la
   
 1.  Inicie un **símbolo del sistema de Visual Studio 2012**.  
   
-2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo, cambie el directorio a la \< *unidad*>: \Program BizTalk \<versión > Accelerator for carpeta HL7\SDK\Interrogative Tutorial.  
+2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo, cambie el directorio a la \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Carpeta tutorial.  
   
 3.  En el símbolo del sistema, escriba **sn – k key.snk**y, a continuación, presione **ENTRAR**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
   
@@ -58,7 +58,7 @@ Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la
   
 6.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*>: \Program BizTalk \<versión > Accelerator for HL7\SDK\Interrogative Tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
+7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Tutorial, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 8.  En el cuadro de diálogo páginas de propiedades de Interrogative_2XSchemas, haga clic en **Aceptar** para guardar los cambios.  
   

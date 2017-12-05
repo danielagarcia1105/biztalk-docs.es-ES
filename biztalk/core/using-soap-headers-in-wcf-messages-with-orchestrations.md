@@ -16,14 +16,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a7492ac6e1f8e43559fa921f9ddd3b60d644fe5f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6e8248ec62e75a058566eefef1942e1f82061dbb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-orchestrations"></a>Usar encabezados SOAP en mensajes WCF con orquestaciones
-Para enviar los encabezados SOAP personalizados con mensajes WCF salientes en orquestaciones, use la propiedad de contexto **WCF. OutboundCustomHeaders**. Los adaptadores de WCF envían encabezados SOAP personalizados combinados con los encabezados SOAP estándar que utiliza la infraestructura de WCF para estándares de servicios Web, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados**> elemento como el elemento raíz. Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados**> elemento. Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**>\</**encabezados**> o \< **encabezados**/ > a la **OutboundCustomHeaders** propiedad.  
+Para enviar los encabezados SOAP personalizados con mensajes WCF salientes en orquestaciones, use la propiedad de contexto **WCF. OutboundCustomHeaders**. Los adaptadores de WCF envían encabezados SOAP personalizados combinados con los encabezados SOAP estándar que utiliza la infraestructura de WCF para estándares de servicios Web, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados** \> elemento como el elemento raíz. Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados** \> elemento. Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**\>\</**encabezados** \> o \< **encabezados** / \> a la **OutboundCustomHeaders** propiedad.  
   
  Respecto a las orquestaciones, las propiedades de contexto del encabezado SOAP están establecidas como cadenas que contienen datos XML. Establezca estas cadenas utilizando el Editor de expresiones de BizTalk en un **asignación de mensajes** o **expresión** forma. Para obtener más información acerca de cómo usar encabezados SOAP con los adaptadores WCF, vea el ejemplo de SDK Using Custom SOAP Headers with the WCF Adapters de [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).  
   

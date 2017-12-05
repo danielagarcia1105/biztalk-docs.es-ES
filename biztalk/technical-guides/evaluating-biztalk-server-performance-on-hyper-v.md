@@ -12,19 +12,19 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2efaac4744663d5122bcd9cb81a4fc22cc4f571
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2da65169d83a42ee9bdf818e440bc5d67f941a92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="evaluating-biztalk-server-performance-on-hyper-v"></a>Evaluar el rendimiento de servidor BizTalk Server en Hyper-V
-Esta sección proporcionan listas de comprobación para evaluar y optimizar el rendimiento de un [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] aplicación se ejecuta en un sistema operativo instalado en una máquina virtual de Hyper-V y un resumen de los costos de recursos del sistema asociados con Hyper-V en ejecución.  
+En esta sección se proporciona listas de comprobación para evaluar y optimizar el rendimiento de una aplicación de BizTalk Server que se ejecuta en un sistema operativo instalado en una máquina virtual de Hyper-V y un resumen de los costos de recursos del sistema asociados con Hyper-V en ejecución.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Lista de comprobación: Medir el rendimiento en Hyper-V](../technical-guides/checklist-measuring-performance-on-hyper-v.md)  
+-   [Lista de comprobación: medición del rendimiento en Hyper-V](../technical-guides/checklist-measuring-performance-on-hyper-v.md)  
   
--   [Lista de comprobación: Optimizar el rendimiento en Hyper-V](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)  
+-   [Lista de comprobación: optimización del rendimiento en Hyper-V](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)  
   
--   [Costos de recursos de sistema en Hyper-V](../technical-guides/system-resource-costs-on-hyper-v.md)
+-   [Costos de recursos del sistema en Hyper-V](../technical-guides/system-resource-costs-on-hyper-v.md)

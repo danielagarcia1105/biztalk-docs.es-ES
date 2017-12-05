@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0646f1c447cfc4949edafe94d634a6c651083307
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 72147ffe0f29fbb8456e4d652877b66e7ce0543c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-database-using-stored-procedures-functions-or-packaged-procedures-and-functions"></a>Sondeo de base de datos de Oracle mediante procedimientos almacenados, funciones, o empaquetados procedimientos y funciones
 Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicas mediante el uso de procedimientos almacenados, funciones, o empaquetados procedimientos y funciones que éstos sondeen periódicamente la base de datos de Oracle. Puede especificar un procedimiento almacenado, función o procedimiento empaquetada y funcionar como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle.  
@@ -111,7 +111,7 @@ Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-
     |Use|Para|  
     |--------------|----------------|  
     |Identificador|Tipo de **recibir**.|  
-    |Tipo de mensaje|En la lista desplegable, expanda **esquemas**y seleccione *Polling.OracleEBSBindingSchema*, donde *sondeo* es el nombre de su proyecto de BizTalk. *OracleEBSBindingSchema* es el esquema de respuesta generado para el **GET_ACTIVITYS** procedimiento almacenado.<br /><br /> **Importante:** porque sondeo es una operación unidireccional, el esquema generado por el adaptador no contiene un nodo de respuesta y, por lo tanto, hay solo un nodo raíz en el esquema. Si utiliza estos esquemas para un tipo de mensaje, debe identificar el esquema por el nombre de archivo del esquema generado.<br /><br /> Por ejemplo, si crea el esquema para una operación bidireccional, los nodos en el esquema de archivo con un nombre `OracleEBSBindingSchema` puede ser similar a "Solicitud" y "Respuesta". Si desea crear un mensaje en la orquestación que se asigna al esquema de solicitud, puede identificar el esquema en la lista, busque `OracleEBSBindingSchema.Request`. Sin embargo, en el caso de la operación de sondeo, dado que el único nodo es "Sondeo", no resulta sencillo identificar el esquema que desea asignar a porque esquemas con nodos únicos no se muestran como \<schemafilename >.\< rootnodename >. En su lugar, estos esquemas se enumeran por solo el nombre de archivo. En tal caso, la única manera de identificar el esquema es por el nombre de archivo de esquema, por ejemplo, OracleEBSBindingSchema.|  
+    |Tipo de mensaje|En la lista desplegable, expanda **esquemas**y seleccione *Polling.OracleEBSBindingSchema*, donde *sondeo* es el nombre de su proyecto de BizTalk. *OracleEBSBindingSchema* es el esquema de respuesta generado para el **GET_ACTIVITYS** procedimiento almacenado.<br /><br /> **Importante:** porque sondeo es una operación unidireccional, el esquema generado por el adaptador no contiene un nodo de respuesta y, por lo tanto, hay solo un nodo raíz en el esquema. Si utiliza estos esquemas para un tipo de mensaje, debe identificar el esquema por el nombre de archivo del esquema generado.<br /><br /> Por ejemplo, si crea el esquema para una operación bidireccional, los nodos en el esquema de archivo con un nombre `OracleEBSBindingSchema` puede ser similar a "Solicitud" y "Respuesta". Si desea crear un mensaje en la orquestación que se asigna al esquema de solicitud, puede identificar el esquema en la lista, busque `OracleEBSBindingSchema.Request`. Sin embargo, en el caso de la operación de sondeo, dado que el único nodo es "Sondeo", no resulta sencillo identificar el esquema que desea asignar a porque esquemas con nodos únicos no se muestran como \<schemafilename\>.\< rootnodename\>. En su lugar, estos esquemas se enumeran por solo el nombre de archivo. En tal caso, la única manera de identificar el esquema es por el nombre de archivo de esquema, por ejemplo, OracleEBSBindingSchema.|  
   
      El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] esquema se genera para las operaciones entrantes y salientes para el GET_ACTIVITYS de procedimiento almacenan. Debe usar el esquema para que la operación de entrada:  
   
@@ -210,7 +210,7 @@ Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-
 -   El adaptador ejecuta el procedimiento almacenado de GET_ACTIVITYS especificado para la **PollingStatement** enlace de propiedad y devuelve todas las filas de la tabla ACCOUNTACTIVITY. La respuesta de base de datos de Oracle es similar al siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <GET_ACTIVITYS xmlns=" http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/PollingPackage/ACCOUNT_PKG">  
       <OUTRECS>  
         <OUTRECSRecord xmlns=" http://Microsoft.LobServices.OracleDB/2007/03/ReferencedRecordTypes/SCOTT/ACCOUNT_PKG/GET_ACTIVITYS/SCOTT/GET_ACTIVITYS">  

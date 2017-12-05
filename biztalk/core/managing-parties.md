@@ -18,11 +18,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06f0c552b84fd8c4f56e2a88c59e8557585c947e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f639ad516ec4f4a61406b9690d2d52f2ea98599f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-parties"></a>Administrar entidades
 Mediante el **partes** nodo, puede configurar socios comerciales (entidades) o departamentos internos (perfiles de negocio) con el que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] interactúan las soluciones. Para obtener más información, consulte [socios comerciales](../core/trading-partners-and-business-profiles.md).  
@@ -50,7 +50,7 @@ Puede crear y configurar una entidad mediante la consola de administración de [
 3.  En el **puertos de envío** página, realice lo siguiente.  
   
     > [!NOTE]
-    >  En [!INCLUDE[prague](../includes/prague-md.md)], la asociación de puertos de envío se realiza en el nivel de acuerdo. El **puertos de envío** disponible como parte de las propiedades de entidad es para mantener la compatibilidad de la página. Siempre que asocie un puerto de envío con un acuerdo, la configuración del puerto de envío se propaga a la configuración de la entidad y también se puede ver la asociación de puerto de envío en esta página. Sin embargo, el proceso inverso no es verdadero. No se puede asociar un puerto de envío con una entidad y, después, hacer que ese puerto de envío esté automáticamente disponible como parte de la configuración del acuerdo.  
+    >  En BizTalk Server, la asociación de puertos de envío se realiza en el nivel de acuerdo. El **puertos de envío** disponible como parte de las propiedades de entidad es para mantener la compatibilidad de la página. Siempre que asocie un puerto de envío con un acuerdo, la configuración del puerto de envío se propaga a la configuración de la entidad y también se puede ver la asociación de puerto de envío en esta página. Sin embargo, el proceso inverso no es verdadero. No se puede asociar un puerto de envío con una entidad y, después, hacer que ese puerto de envío esté automáticamente disponible como parte de la configuración del acuerdo.  
   
     |Use|Para|  
     |--------------|----------------|  

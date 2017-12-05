@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f69fbeb86cf63485591f048ef75cdcfd3d5056d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 22a0d6e48d1a33e4d7c0aec8a1231346a671c1ef
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-sap"></a>Crear un canal con SAP
 En el modelo del canal WCF, puede invocar las operaciones en el sistema SAP o recibir mensajes desde el sistema SAP mediante el intercambio de mensajes SOAP con el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sobre un canal WCF.  
@@ -99,9 +99,9 @@ channel.Open();
  El código siguiente muestra los valores de configuración que se usa para el ejemplo anterior. El contrato para el extremo de cliente debe ser "System.ServiceModel.Channels.IRequestChannel" o "System.ServiceModel.Channels.IRequestChannel" según el tipo de forma del canal que se va a crear.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sapBinding>  
                 <binding name="SAPBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -119,7 +119,7 @@ channel.Open();
                 binding="sapBinding" bindingConfiguration="SAPBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -134,7 +134,7 @@ channel.Open();
   
 3.  Crear un **BindingParameterCollection** y agregue un **InboundActionCollection** que contiene las acciones de las operaciones que desea recibir. El adaptador devolverá una excepción al sistema SAP para todas las demás operaciones. Este paso es opcional. Para obtener más información, consulte [recibir las operaciones de entrada desde el sistema SAP mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
   
-4.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IReplyChannel >** método en el **SAPBinding**. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener parámetros para un destino RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte la [cree el URI de conexión del sistema SAP](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, también especificarlo al crear la escucha del canal.  
+4.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IReplyChannel\>**  método en el **SAPBinding**. Especifique el URI de conexión de SAP como uno de los parámetros a este método. El URI de conexión debe contener parámetros para un destino RFC en el sistema SAP. Para obtener más información sobre el URI de conexión de SAP, consulte la [cree el URI de conexión del sistema SAP](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). Si ha creado un **BindingParameterCollection** en el paso 3, también especificarlo al crear la escucha del canal.  
   
 5.  Abra el agente de escucha.  
   
@@ -176,4 +176,4 @@ channel.Open();
 ```  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

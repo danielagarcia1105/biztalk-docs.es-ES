@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f95ed755dcc709084d52c6fb8b207e9bbd9e866d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 852b85e0de23e01e39891adba56053683d18a9b8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="batching-outgoing-edi-messages"></a>Procesar por lotes mensajes EDI salientes
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procesará por lotes los conjuntos de transacciones EDI si se ha habilitado el procesamiento por lotes del acuerdo asociado con el socio comercial que lo recibirá. Las propiedades EDI de un acuerdo le permiten hacer lo siguiente:  
@@ -31,7 +31,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 -   Definir los criterios de activación del procesamiento por lotes.  
   
- Las funcionalidades EDI y AS2 de Microsoft [!INCLUDE[prague](../includes/prague-md.md)] permiten realizar el siguiente procesamiento de intercambios de EDI:  
+ Microsoft BizTalk Server EDI y AS2 permite el procesamiento de intercambios EDI siguiente:  
   
 -   Los intercambios de EDI pueden incluir confirmaciones y/o conjuntos de transacciones.  
   
@@ -45,8 +45,8 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Configurar un lote saliente](../core/configuring-an-outgoing-batch.md)  
+-   [Configuración de un lote de salida](../core/configuring-an-outgoing-batch.md)  
   
 -   [Ensamblar un intercambio EDI por lotes](../core/assembling-a-batched-edi-interchange.md)  
   
--   [Enviar un intercambio por lotes conservado](../core/sending-a-preserved-batch-interchange.md)
+-   [Envío de intercambios por lotes conservados](../core/sending-a-preserved-batch-interchange.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c44677d4d488a4770c540ef94c0922579be3184
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af9f90bf80435b00a0d39e83d2b2293595f6f200
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-the-resolver-service-sample-works"></a>Cómo funciona el ejemplo de servicio de resolución
 El ejemplo de servicio de resolución crea instancias del servicio de resolución y pasa el mensaje especificado a ella para su procesamiento. La aplicación de cliente de ejemplo de servicio de resolución usa el primer parámetro como la ruta de acceso al archivo ResolverList.xml, que contiene varias solicitudes de resolución y envía estas solicitudes al servicio de resolución. Por ejemplo, la siguiente es la solicitud XPATH que se utilizan en el ejemplo.  
@@ -49,9 +49,9 @@ El ejemplo de servicio de resolución crea instancias del servicio de resolució
 ```  
   
 > [!NOTE]
->  El contenido real de la  **\<contenido >** elemento no contiene los caracteres de espacio en blanco usados para ajustar las líneas en la lista anterior.  
+>  El contenido real de la  **\<contenido\>**  elemento no contiene los caracteres de espacio en blanco usados para ajustar las líneas en la lista anterior.  
   
- La lista anterior muestra que la solicitud contiene la cadena de conexión de configuración de resolución dentro de un  **\<contenido >** elemento. El  **\<cuerpo >** elemento contiene el cuerpo del mensaje.  
+ La lista anterior muestra que la solicitud contiene la cadena de conexión de configuración de resolución dentro de un  **\<contenido\>**  elemento. El  **\<cuerpo\>**  elemento contiene el cuerpo del mensaje.  
   
  El servicio de resolución utiliza el **ResolverMgr** clase para crear instancias de una instancia concreta de la resolución adecuada, definida por el tipo de resolución en la cadena de conexión. En el caso de la solicitud XPATH, esta es la resolución XPATH.  
   

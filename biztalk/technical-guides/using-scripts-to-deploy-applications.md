@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4566a810489a9f6c46424a525908aa5a2fbb6bee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9bc96c3b591baf81806182b6c3e988a46dd208ba
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-scripts-to-deploy-applications"></a>Uso de Scripts para implementar aplicaciones
 Debe utilizar secuencias de comandos para implementar aplicaciones de BizTalk siempre que sea posible. Secuencias de comandos, reducen el riesgo de error humano durante el proceso de implementación. También debe documentar los procedimientos de implementación en profundidad. Debe documentar todo lo que no script con pasos muy detallados. Esto incluye documentar los cambios a sistemas externos y a la implementación de componentes de terceros.  
@@ -31,7 +31,7 @@ Debe utilizar secuencias de comandos para implementar aplicaciones de BizTalk si
 -   [Descripción de implementación de aplicación de BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=101599) (http://go.microsoft.com/fwlink/?LinkId=101599)  
   
     > [!NOTE]  
-    >  En este último artículo también se aplica a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  En este último artículo también se aplica a BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Lista de comprobación: Configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+ [Lista de comprobación: configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

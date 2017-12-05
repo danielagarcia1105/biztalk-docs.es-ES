@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7b8b636534738dfc7445421ad79fd01e7b120b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ad7eabf54dc410ebed143641602599438f376a30
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-get-a-list-of-indexes-on-an-aggregation"></a>Cómo obtener una lista de índices de una agregación
 Los administradores utilizan el **get-index** comando para obtener una lista de todos los índices de la actividad especificada.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **get-index** comando para obtener una lista de 
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo de **bm get-index-actividad:\<nombre de actividad >**.  
+3.  Tipo de **bm get-index-actividad:\<nombre de la actividad\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

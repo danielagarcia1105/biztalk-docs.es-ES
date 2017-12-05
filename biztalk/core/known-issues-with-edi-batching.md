@@ -12,11 +12,11 @@ caps.latest.revision: "38"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e550a80cf8a7bbd6ae5e2b214c57d15427f919f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 537a0591ba45a209fd3f22c0a993a99baac58d7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-edi-batching"></a>Problemas conocidos del procesamiento por lotes de EDI
 En este tema se describen problemas conocidos relacionados con el procesamiento por lotes en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -51,7 +51,7 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
  Al ejecutar la ubicación de recepción BatchControlMessageRecvLoc en WOW en un equipo de 64 bits, debe ejecutar las orquestaciones de procesamiento por lotes en un host distinto. Si se ejecutan en el mismo host como ubicación de recepción, las orquestaciones de procesamiento por lotes también se ejecutarán en WOW y perderá las ventajas de ejecutarlas en un equipo de 64 bits.  
   
 ## <a name="a-batch-can-be-picked-up-by-an-unintended-send-port"></a>Un puerto de envío no esperado puede recoger un lote.  
- Cuando la orquestación por lotes publica un intercambio, promueve dos propiedades: ToBeBatched = False y DestinationPartyName = \< *PartyName*>. Un puerto de envío que se suscribe a una de estas propiedades o ambas puede recoger estos intercambios procesados por lotes. Compruebe que los filtros del puerto de envío se configuran de modo que el puerto de envío recoge dichos intercambios procesados por lotes para lo que ha sido diseñado.  
+ Cuando la orquestación por lotes publica un intercambio, promueve dos propiedades: ToBeBatched = False y DestinationPartyName = \< *PartyName*\>. Un puerto de envío que se suscribe a una de estas propiedades o ambas puede recoger estos intercambios procesados por lotes. Compruebe que los filtros del puerto de envío se configuran de modo que el puerto de envío recoge dichos intercambios procesados por lotes para lo que ha sido diseñado.  
   
 ## <a name="a-batch-element-count-greater-than-the-required-number-of-transaction-sets-for-a-batch-may-not-prompt-batch-release"></a>Un número de elementos de lotes superior al número de conjuntos de transacciones requerido para un lote puede que no solicite la versión del lote.  
  Si los criterios de versión del lote se basan en el número de conjuntos de transacciones por grupo o intercambio, es posible que un lote no se lance aunque el número de elementos de lotes sea superior al número de conjuntos de transacciones requerido para el lote que se va a lanzar. Esto puede suceder si habilita las confirmaciones y configura los criterios de filtro de lotes para agregar dichas confirmaciones al lote. En esta instancia, el número de elementos por lotes del grupo (o intercambio) será superior al número de conjuntos de transacciones por grupo (o intercambio). En dicha instancia, se lanzará un lote si el número de conjuntos de transacciones por grupo (o intercambio) es inferior al número requerido para el lanzamiento del lote, aunque al mismo tiempo el número de elementos por lotes puede ser superior al número de conjuntos de transacciones requerido para el lanzamiento del lote.  
@@ -113,7 +113,7 @@ En este tema se describen problemas conocidos relacionados con el procesamiento 
   
  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], cuando un mensaje debía procesarse mediante varias configuraciones de lote, debía establecer la propiedad EDI.DestinationParties en una lista delimitada por espacios de identificadores de entidades. La orquestación de enrutamiento se suscribe a mensajes mediante la propiedades EDI.ToBeBatched = True y EDI.DestinationParties y usaba la lista de identificadores de entidad incluidos en la propiedad EDI.DestinationParties para crear un mensaje para cada identificador y luego transferir los mensajes a la orquestación de lote.  Se usaba la determinación del lote mediante el identificador de entidad porque cada configuración de entidad solo podía tener una configuración de lote.  
   
- En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], cada entidad puede tener varias configuraciones de lote, por lo que ya no es suficiente usar solo el identificador de entidad para determinar la configuración de lote que hay que usar.  Para indicar que un mensaje debe ser procesado mediante varias configuraciones de lote, el mensaje debe tener la propiedad EDI.BatchIDs configurada en una lista delimitada por espacios de identificadores de lote a la que debe enviarse el mensaje.  
+ En BizTalk Server, cada entidad puede tener varias configuraciones de lote, por lo que ya no es suficiente para usar el identificador de la entidad para determinar la configuración de lote para que use.  Para indicar que un mensaje debe ser procesado mediante varias configuraciones de lote, el mensaje debe tener la propiedad EDI.BatchIDs configurada en una lista delimitada por espacios de identificadores de lote a la que debe enviarse el mensaje.  
   
 > [!NOTE]
 >  Al procesar mensajes marcados solo con un único identificador de entidad mediante la propiedad EDI.DestinationPartyId, el mensaje será procesado por la orquestación del lote de actualización. Para obtener más información, consulte [ensamblar un intercambio de EDI por lotes](../core/assembling-a-batched-edi-interchange.md).  

@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c68953a1846e8606df79dbdb8b74920ee4d5015
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4eeaa8b0d67e4592ef6622f747a1ddaea875084d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-trfcs-in-sap-using-biztalk-server"></a>Invocar tRFCs en SAP mediante BizTalk Server
 Llamadas a funciones remotas (tRFCs) transaccional garantiza un tiempo de ejecución y solamente uno de una solicitud de cambio en un sistema SAP. Puede invocar cualquiera de los documentos de RFC obtenidas por el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como un tRFC. Invocar un tRFC es similar a la invocación de una solicitud de cambio (consulte [invocar RFC en SAP utilizando BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) con las siguientes diferencias:  
@@ -134,7 +134,7 @@ Llamadas a funciones remotas (tRFCs) transaccional garantiza un tiempo de ejecuc
   
 ```  
 XmlDoc = new System.Xml.XmlDocument();  
-XmlDoc.LoadXml("\<RfcConfirmTransID xmlns='http://Microsoft.LobServices.Sap/2007/03/RfcApi/'><TransactionalRfcOperationIdentifier /></RfcConfirmTransID>");  
+XmlDoc.LoadXml("<RfcConfirmTransID xmlns='http://Microsoft.LobServices.Sap/2007/03/RfcApi/'><TransactionalRfcOperationIdentifier /></RfcConfirmTransID>");  
 TIDRequest = XmlDoc;  
 TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local-name()='BAPI_SALESORDER_CREATEFROMDAT2Response']/*[local-name()='TransactionalRfcOperationIdentifier']/text())");  
 ```  
@@ -243,7 +243,7 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
 -   Un mensaje de respuesta de SAP para invocar el tRFC se copia en la ubicación del archivo. Contiene el mismo GUID que se envió al sistema SAP. El mensaje de respuesta invocando BAPI_SALESORDER_CREATEFROMDAT2 como un tRFC es:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
+    <?xml version="1.0" encoding="utf-8"?>  
     <BAPI_SALESORDER_CREATEFROMDAT2Response xmlns="http://Microsoft.LobServices.Sap/2007/03/Trfc/">  
       <TransactionalRfcOperationIdentifier>def689b1-b514-4627-a861-d6d7f51c84e3</TransactionalRfcOperationIdentifier>  
     </BAPI_SALESORDER_CREATEFROMDAT2Response>  
@@ -252,7 +252,7 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
 -   Un mensaje de respuesta para el RfcConfirmTransID se copia en la misma ubicación. Se trata de una respuesta vacía. El mensaje de respuesta para la RfcConfirmTransID es:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
+    <?xml version="1.0" encoding="utf-8"?>  
     <RfcConfirmTransIDResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/RfcApi/"></RfcConfirmTransIDResponse>  
     ```  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d9cf7cddd25f3f01b6203c050a4391e16cedc989
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 084eaf8cd4ba1c251b1c196830f76ef9c6a8e33f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-tracing-in-bam"></a>Cómo habilitar el seguimiento en BAM
 Es posible habilitar el seguimiento en BAM para contribuir a la resolución de problemas en los siguientes cinco componentes de BAM:  
@@ -93,28 +93,28 @@ Es posible habilitar el seguimiento en BAM para contribuir a la resolución de p
   
 1.  Edite el archivo [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BTSNTSvc.exe.config.  
   
-2.  Busque la \<system.diagnostics > y \</system.diagnostics > etiqueta. Si no existen en el archivo, copie el código que figura arriba y péguelo en el archivo de configuración.  
+2.  Busque la \<system.diagnostics\> y \</system.diagnostics\> etiqueta. Si no existen en el archivo, copie el código que figura arriba y péguelo en el archivo de configuración.  
   
-3.  Quite el comentario de los diagnósticos de sistema sección moviendo el delimitador final del comentario ('-->') de después del \</system.diagnostics > etiqueta que antes el \<system.diagnostics > etiqueta.  
+3.  Quite el comentario de los diagnósticos de sistema sección moviendo el delimitador final del comentario ('-->') de después del \</system.diagnostics\> etiqueta que antes el \<system.diagnostics\> etiqueta.  
   
 4.  Guarde el archivo.  
   
 ## <a name="enabling-tracing-for-the-bam-portal"></a>Habilitar el seguimiento del Portal de BAM  
  La habilitación del seguimiento del portal de BAM permite solucionar los problemas relacionados con la conectividad.  
   
- El portal de BAM es una aplicación ASP.NET y sigue el protocolo estándar en lo que respecta al seguimiento. En el [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Bamportal\web archivo, hay una sección denominada \<seguimiento > que se puede habilitar.  
+ El portal de BAM es una aplicación ASP.NET y sigue el protocolo estándar en lo que respecta al seguimiento. En el [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Bamportal\web archivo, hay una sección denominada \<seguimiento\> que se puede habilitar.  
   
 #### <a name="to-enable-tracing-for-the-bam-portal"></a>Para habilitar el seguimiento del portal de BAM  
   
 1.  Edite el archivo [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config.  
   
-2.  Busque la \<system.diagnostics > y \</system.diagnostics > etiquetas.  
+2.  Busque la \<system.diagnostics\> y \</system.diagnostics\> etiquetas.  
   
-3.  Quite el comentario de la sección de diagnósticos del sistema por móvil delimitador final del comentario ('-->') de después la \</system.diagnostics > etiqueta que antes el \<system.diagnostics > etiqueta.  
+3.  Quite el comentario de la sección de diagnósticos del sistema por móvil delimitador final del comentario ('-->') de después la \</system.diagnostics\> etiqueta que antes el \<system.diagnostics\> etiqueta.  
   
 4.  Modifique el atributo initializeData para especificar la ubicación en la que escribir el registro de seguimiento.  
   
-5.  Busque \<system.web > etiqueta.  
+5.  Busque \<system.web\> etiqueta.  
   
 6.  En la sección system.web busque la etiqueta trace y quite el comando trace moviendo el delimitador ('-->') desde detrás de la etiqueta de seguimiento para antes de él.  
   

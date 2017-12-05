@@ -23,11 +23,11 @@ caps.latest.revision: "33"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: abf8944c3f55422189c0866608a3fd412dafe21d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: be8d7e33cefd2272490bd2f01243ff03b0e7009a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="partyresolution-biztalk-server-sample"></a>PartyResolution (ejemplo de BizTalk Server)
 En el ejemplo de PartyResolution se muestra cómo utilizar orquestaciones de BizTalk con resolución de entidades para enrutar mensajes a uno de los dos destinatarios posibles.  
@@ -125,7 +125,7 @@ En el ejemplo de PartyResolution se muestra cómo utilizar orquestaciones de Biz
 -   Shipper1Process.odx y Shipper2Process.odx se generan para recibir el pedido de envío y el consejo de envío de SupplierProcess.odx y enviar la respuesta de nuevo a SupplierProcess.odx. En las dos orquestaciones de remitente, se utiliza la correlación y el tipo de correlación se basa en la propiedad promocionada PONo.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Orchestrations\PartyResolution\  
+ *\<Ejemplos de ruta de acceso\>*\Orchestrations\PartyResolution\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -311,4 +311,4 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
  [Componente de canalización de resolución de entidades](../core/party-resolution-pipeline-component.md)   
  [Cómo configurar el componente de canalización de codificador de MIME-SMIME](../core/how-to-configure-the-mime-smime-encoder-pipeline-component.md)   
  [Cómo configurar el componente de canalización de descodificador de MIME-SMIME](../core/how-to-configure-the-mime-smime-decoder-pipeline-component.md)   
- [Orquestaciones (carpeta de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)
+ [Orquestaciones (carpetas de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)

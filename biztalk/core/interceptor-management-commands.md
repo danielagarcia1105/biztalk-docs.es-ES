@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cccf89cb6c3e1f6ed600c28377e5ad124c5498ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32392c05f47c00a6c62372acbf8d1ba0bed0da6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interceptor-management-commands"></a>Comandos de administración de interceptor
 Para el funcionamiento de la nueva funcionalidad del interceptor de BAM, se han agregado cuatro nuevos comandos a la utilidad de administración de BAM.  
@@ -40,16 +40,16 @@ Para el funcionamiento de la nueva funcionalidad del interceptor de BAM, se han 
 ## <a name="deploy-interceptor-command"></a>Comando deploy-interceptor:  
  **Uso**  
   
- **bm.exe implementar-interceptor - FileName:\<nombre de archivo de configuración XML > [-Force: True] [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe implementar-interceptor - FileName:\<nombre de archivo de configuración XML\> [-Force: True] [-Server:\<server\>] [-base de datos:\<base de datos\>]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Nombre de archivo:\<el nombre de archivo de configuración XML >|nombre del archivo XML que contiene la configuración del interceptor.|  
+|Nombre de archivo:\<el nombre de archivo de configuración XML\>|nombre del archivo XML que contiene la configuración del interceptor.|  
 |Force:True|Opcional: Obliga a implementar la configuración del interceptor cuando se detectan conflictos de nombres de origen de eventos.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que se va a implementar el interceptor. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos de importación principal de BAM en el que se va a configurar el interceptor.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que se va a implementar el interceptor. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos de importación principal de BAM en el que se va a configurar el interceptor.|  
   
  Este comando implementa la configuración del interceptor en la base de datos y el servidor especificados. Durante la implementación, la utilidad de administración de BAM lleva a cabo las validaciones siguientes:  
   
@@ -72,14 +72,14 @@ bm.exe deploy-interceptor  -FileName:myInceptor.xml -Force:True
 ## <a name="get-interceptorlist-command"></a>Comando get-interceptorlist  
  **Uso**  
   
- **bm.exe get-interceptorlist [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-interceptorlist [-Server:\<server\>] [-base de datos:\<base de datos\>]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se va a devolver una lista de los interceptores implementados. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos de importación principal de BAM desde el que se va a recuperar los interceptores implementados.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se va a devolver una lista de los interceptores implementados. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos de importación principal de BAM desde el que se va a recuperar los interceptores implementados.|  
   
  Este comando devuelve una lista de actividades (y de sus orígenes de eventos asociados) para las que se encuentra habilitada la interceptación.  
   
@@ -92,17 +92,17 @@ bm.exe get-interceptorlist
 ## <a name="get-interceptor-command"></a>Comando get-interceptor  
  **Uso**  
   
- **bm.exe get-interceptor [-Server:\<servidor >] [-base de datos:\<base de datos >] - FileName: \<nombre de archivo de configuración XML > [-actividad: \<nombre de actividad >] [-EventSource: \<eventos Nombre de origen >]**  
+ **bm.exe get-interceptor [-Server:\<server\>] [-base de datos:\<base de datos\>] - FileName: \<nombre de archivo de configuración XML\> [-actividad: \<nombre de la actividad \>] [-EventSource: \<el nombre del origen de evento\>]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se va a recuperar el interceptor implementado. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos de importación principal de BAM desde el que se va a recuperar el interceptor implementado.|  
-|Nombre de archivo:\<el nombre de archivo de configuración XML >|nombre del archivo XML en el que escribir la configuración del interceptor.|  
-|Actividad:\<nombre de actividad >|Opcional: Especifica la actividad para la que se va a devolver el interceptor configurado. Puede utilizarse junto con la **EventSource** parámetro para especificar aún más la configuración para devolver.|  
-|EventSource:\<el nombre del origen de evento >|Opcional: Especifica el origen del evento para el que se va a devolver el interceptor configurado. Puede utilizarse junto con la **actividad** parámetro para especificar aún más la configuración para devolver.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se va a recuperar el interceptor implementado. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos de importación principal de BAM desde el que se va a recuperar el interceptor implementado.|  
+|Nombre de archivo:\<el nombre de archivo de configuración XML\>|nombre del archivo XML en el que escribir la configuración del interceptor.|  
+|Actividad:\<nombre de la actividad\>|Opcional: Especifica la actividad para la que se va a devolver el interceptor configurado. Puede utilizarse junto con la **EventSource** parámetro para especificar aún más la configuración para devolver.|  
+|EventSource:\<el nombre del origen de eventos\>|Opcional: Especifica el origen del evento para el que se va a devolver el interceptor configurado. Puede utilizarse junto con la **actividad** parámetro para especificar aún más la configuración para devolver.|  
   
  Si no se proporciona ningún nombre de actividad o de origen de evento, el comando devuelve un archivo de configuración válido que contiene las configuraciones del interceptor para todos los orígenes de eventos y todas las actividades.  
   
@@ -122,16 +122,16 @@ bm.exe get-interceptor  -Activity:ShippingPO
 ## <a name="remove-interceptor-command"></a>Comando remove-interceptor  
  **Uso**  
   
- **bm.exe remove-interceptor [-Server:\<servidor >] [-base de datos:\<base de datos >] [-actividad: \<nombre de actividad >] [-EventSource: \<el nombre del origen de evento >]**  
+ **bm.exe remove-interceptor [-Server:\<server\>] [-base de datos:\<base de datos\>] [-actividad: \<nombre de la actividad\>] [-EventSource: \<nombre de origen del evento\>]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que está configurado el interceptor. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que está configurado el interceptor.|  
-|Actividad: \<nombre de actividad >|Opcional: Especifica la actividad para la que se va a eliminar el interceptor especificado. Puede utilizarse junto con la **EventSource** parámetro para especificar aún más la configuración para devolver.|  
-|EventSource: \<el nombre del origen de evento >|Opcional: Especifica el origen del evento para el que se va a eliminar el interceptor especificado. Puede utilizarse junto con la **actividad** parámetro para especificar aún más la configuración para devolver.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que está configurado el interceptor. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que está configurado el interceptor.|  
+|Actividad: \<nombre de la actividad\>|Opcional: Especifica la actividad para la que se va a eliminar el interceptor especificado. Puede utilizarse junto con la **EventSource** parámetro para especificar aún más la configuración para devolver.|  
+|EventSource: \<el nombre del origen de eventos\>|Opcional: Especifica el origen del evento para el que se va a eliminar el interceptor especificado. Puede utilizarse junto con la **actividad** parámetro para especificar aún más la configuración para devolver.|  
   
  Si sólo se proporciona un nombre de actividad, el comando elimina el interceptor de todos los orígenes de eventos de esa actividad.  
   

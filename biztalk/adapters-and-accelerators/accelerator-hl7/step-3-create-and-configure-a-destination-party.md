@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34fb3ef45123817f747ab9aa956e961c5bb9a1c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 66d955aeaabe4d7207a07827de04c1c21e4c2c7a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-and-configure-a-destination-party"></a>Paso 3: Crear y configurar una entidad de destino
 En este paso, crear y configurar una entidad de destino para el escenario de lote de crear. También selecciona los mensajes que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] lotes y el lote programa, tal como se define para esa entidad. Puede programar la hora de envío de lote como una hora después de copiar los archivos en la carpeta. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]los lotes de cualquier mensaje recibido posteriormente con una frecuencia de una hora.  
@@ -27,7 +27,7 @@ En este paso, crear y configurar una entidad de destino para el escenario de lot
   
 2.  En el cuadro de diálogo Propiedades de la entidad, en la **nombre** , escriba **Tutorial_BatchDest**y, a continuación, haga clic en **Aceptar**.  
   
-3.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+3.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
   
 4.  En el Explorador de configuración de BTAHL7, en la **partes** en el árbol de consola, haga clic en **Tutorial_BatchDest**.  
   

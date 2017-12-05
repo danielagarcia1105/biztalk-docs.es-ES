@@ -13,11 +13,11 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 89631ce3-f5af-4d30-b22f-6d20f595295f
 ms.author: mandia
-ms.openlocfilehash: 4da7190c7212f74a90689ca403d899eb1a849cc5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 580edcc7a8d779067895fb5aac99d81a1ad76872
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="prepare-for-the-private-process-tutorial"></a>Prepararse para el tutorial de procesos privado
 
@@ -29,12 +29,12 @@ Antes de iniciar el tutorial:
     > [!IMPORTANT]
     >  Asegúrese de configurar totalmente el Acelerador para RosettaNet, incluido el inicio de las orquestaciones de BTARN. Vea [instalar y configurar](install-configure-biztalk-accelerator-for-rosettanet.md). También es podrán que deba agregar la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] directorios virtuales (incluidos los btarnhttpreceive) a la lista de exclusión de la ruta de acceso administrado de Microsoft Windows® SharePoint™ Services. 
   
--   Este tutorial simula un escenario real mediante el uso de dos equipos en lugar de un único equipo con un contrato de bucle invertido. Cada vez que este tutorial usa nombres de equipo, utiliza un marcador de posición como el nombre del equipo. Reemplace ese marcador de posición con el nombre real del equipo elegido. Por ejemplo, si el equipo que está ejecutando la solución de Contoso se denomina **Contoso**, reemplace las apariciones en el tutorial de \\ \\< contoso**_**  *equipo*> con ese nombre de equipo.  
+-   Este tutorial simula un escenario real mediante el uso de dos equipos en lugar de un único equipo con un contrato de bucle invertido. Cada vez que este tutorial usa nombres de equipo, utiliza un marcador de posición como el nombre del equipo. Reemplace ese marcador de posición con el nombre real del equipo elegido. Por ejemplo, si el equipo que está ejecutando la solución de Contoso se denomina **Contoso**, reemplace las apariciones en el tutorial de \\ \\< contoso**_**  *equipo* \> con ese nombre de equipo.  
   
  Este tutorial promueve una comunicación segura a través de certificados entre Contoso y Fabrikam. Debe generar los certificados que requiere e instalarlos en los equipos correspondientes.  
   
 ## <a name="next-steps"></a>Pasos siguientes
   
--   [Restaurar la base de datos de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/restoring-the-contoso-database.md)  
+-   [Restauración de la base de datos de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/restoring-the-contoso-database.md)  
   
--   [Generar y habilitar certificados](../../adapters-and-accelerators/accelerator-rosettanet/generating-and-enabling-certificates.md)
+-   [Generación y habilitación de certificados](../../adapters-and-accelerators/accelerator-rosettanet/generating-and-enabling-certificates.md)

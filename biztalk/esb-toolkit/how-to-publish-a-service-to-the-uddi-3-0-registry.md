@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca41923dc4c392959af9f19cf3b7c32f6bfe7c20
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da3d2dc400c031ab5febda1568cb18ce5180366b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-publish-a-service-to-the-uddi-30-registry"></a>Cómo: publicar un servicio en la especificación UDDI 3.0 registro
 ## <a name="goal"></a>Objetivo  
@@ -136,7 +136,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-itinerary-model-to-test-the-uddi-service-publication"></a>Para crear un modelo itinerario para probar la publicación de servicios UDDI  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -272,8 +272,8 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: resolver un extremo de servicio mediante una búsqueda de la clave de enlace de UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
+-   [Cómo: Resolver un punto de conexión de servicio mediante una búsqueda de claves de enlace de UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
   
--   [Cómo: resolver un extremo de servicio mediante una búsqueda de la categoría UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-category-search.md)  
+-   [Cómo: Resolver un punto de conexión de servicio mediante una búsqueda de categorías de UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-category-search.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)

@@ -17,14 +17,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bf40cf5a81188dae0174199f16229daf61115796
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cce166c5d05b8ce48f513420e247e8f35ca1d509
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-pipeline-components"></a>Usar encabezados SOAP en mensajes WCF con componentes de canalización
-Se pueden establecer los encabezados SOAP personalizados con los adaptadores de WCF en componentes de canalización. Usar una combinación del nombre de la propiedad de contexto, **OutboundCustomHeaders**y el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**. Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados**> elemento como el elemento raíz. Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados**> elemento. Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**>\</**encabezados**> o \< **encabezados**/ > a la **OutboundCustomHeaders** propiedad. Para obtener más información acerca de cómo usar encabezados SOAP con los adaptadores WCF, vea el ejemplo de SDK Using Custom SOAP Headers with the WCF Adapters de [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).  
+Se pueden establecer los encabezados SOAP personalizados con los adaptadores de WCF en componentes de canalización. Usar una combinación del nombre de la propiedad de contexto, **OutboundCustomHeaders**y el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**. Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados** \> elemento como el elemento raíz. Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados** \> elemento. Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**\>\</**encabezados** \> o \< **encabezados** / \> a la **OutboundCustomHeaders** propiedad. Para obtener más información acerca de cómo usar encabezados SOAP con los adaptadores WCF, vea el ejemplo de SDK Using Custom SOAP Headers with the WCF Adapters de [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).  
   
  El ejemplo de código siguiente establece los encabezados SOAP personalizados en un componente de canalización de envío para una propiedad denominada **OutboundCustomHeaders**:  
   

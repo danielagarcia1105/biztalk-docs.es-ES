@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 322a97aba4ec5e02cf754106df30b0c9f0088e1b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8561156091c992e9329ef7d9627589eff9e0ed6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-detect-configuration-issues-for-a-functoid"></a>Detección de problemas de configuración de un functoid
 Mientras se trabaja con mapas, pueden surgir problemas con la configuración de un functoid o vínculo. El Asignador de BizTalk usa un mecanismo de visualización que ayuda a identificar rápidamente problemas asociados con una configuración de functoid. Esta indicación visual se representa como una anotación de advertencia en el icono del functoid (para p. ej. ![Functoid IntelliSense](../core/media/mapper-functoidintellisense.gif "Mapper_FunctoidIntelliSense")) en la vista de relaciones. En este tema se proporciona información acerca de cómo detectar los problemas de configuración para un functoid.  
@@ -38,11 +38,11 @@ Mientras se trabaja con mapas, pueden surgir problemas con la configuración de 
   
          ![Detección de errores en la configuración de functoid](../core/media/errordetectionfunctoid.gif "ErrorDetectionFunctoid")  
   
-    -   Haga doble clic en el functoid. El **configurar \<Functoid > Functoid** cuadro de diálogo muestra iconos de advertencia contra los parámetros de entrada. Esto indica que los parámetros de entrada del functoid seleccionado no están configurados.  
+    -   Haga doble clic en el functoid. El **configurar \<Functoid\> Functoid** cuadro de diálogo muestra iconos de advertencia contra los parámetros de entrada. Esto indica que los parámetros de entrada del functoid seleccionado no están configurados.  
   
          En la siguiente ilustración se muestra información de error acerca de los parámetros de entrada para el functoid “Suma”.  
   
          ![Advertencia aparece si no está configurado el functoid](../core/media/configure-input-parameters-warningicon.gif "Configure_input_parameters_WarningIcon")  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de características mejoradas en el asignador de BizTalk](../core/using-enhanced-features-in-biztalk-mapper.md)
+ [Uso de características mejoradas en el Asignador de BizTalk](../core/using-enhanced-features-in-biztalk-mapper.md)

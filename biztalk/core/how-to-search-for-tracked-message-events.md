@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3d4c573b864d16362c1b12b1e293e85f139cad4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6a3597d0d68dbd79de6c23e7b6d4b222b9c8376
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-search-for-tracked-message-events"></a>Búsqueda de eventos de mensaje de seguimiento
 Puede usar el **nueva consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración para buscar eventos de mensajes controlados.  Desde la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se puede habilitar el seguimiento del cuerpo y las propiedades de mensajes. En el panel Resultados de la consulta se puede ver información acerca del evento de mensaje, incluida la información de esquema, el tipo de evento, el identificador de instancia de servicio y todas las propiedades promocionadas para el mensaje generado.  
@@ -49,11 +49,11 @@ Puede usar el **nueva consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVers
     |**Nombre del esquema**|Nombre del esquema que usa el mensaje.|  
     |**Id. de instancia de servicio**|El identificador de instancia de servicio que se usa para el mensaje.|  
     |**URI**|El URI que se usa para el mensaje.|  
-    |**\<Seleccione un nombre de esquema para las propiedades controladas >**|Si selecciona un esquema, las propiedades promocionadas de ese esquema se podrán usar en la consulta.|  
+    |**\<Seleccione un nombre de esquema de propiedades sometidas a seguimiento\>**|Si selecciona un esquema, las propiedades promocionadas de ese esquema se podrán usar en la consulta.|  
   
 6.  Completar la **valor** columna según la selección que haya realizado en la **nombre de campo** columna.  
   
 7.  Seguir agregando líneas adicionales a la consulta según corresponda siguiendo el **nombre de campo**, **operador**, y **valores** columnas y, a continuación, haga clic en **ejecutar Consulta**.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de la pestaña de consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)
+ [Uso de la pestaña Consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)

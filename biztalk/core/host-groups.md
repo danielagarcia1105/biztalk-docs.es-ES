@@ -18,11 +18,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6d5e7782dd2e98822d6fc9e51ca08dac2d31f166
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 98e3798e42442e1a6533e4f286d194c8e2474be6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-groups"></a>Grupos de hosts
 El grupo de hosts es el grupo de Windows (denominado de forma predeterminada grupo de usuarios de la aplicación de BizTalk) que se utiliza para cuentas con acceso a los hosts de BizTalk de tipo En curso (procesos de host en el servidor BizTalk Server). Se recomienda que utilice un grupo de hosts para cada host de tipo En curso del entorno.  
@@ -54,7 +54,7 @@ El grupo de hosts es el grupo de Windows (denominado de forma predeterminada gru
   
     -   Importación principal de SAE  
   
--   Debe ser miembro del rol BTS_\<nombre de host in-process > rol de SQL Server _USERS de la base de datos de cuadro de mensajes  
+-   Debe ser miembro del rol BTS_\<nombre de host in-process\>rol de SQL Server _USERS de la base de datos de cuadro de mensajes  
   
 -   Debe ser miembro del rol BAM_EVENT_WRITER de SQL Server en la base de datos de importación principal de BAM.  
   

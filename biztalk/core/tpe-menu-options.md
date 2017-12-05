@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b5162d05f9daa591458acaf87aefd86478ef70d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e04d2dfcd6d7f34b0a60a450b64e217b02390a6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="tpe-menu-options"></a>Opciones de menú del TPE
 En este tema se describen las opciones de menú del Editor de perfiles de seguimiento (TPE). Los menús principales incluyen Archivo, Herramientas y Ayuda.  
@@ -91,7 +91,7 @@ En este tema se describen las opciones de menú del Editor de perfiles de seguim
  Puede trabajar al mismo tiempo con varios ensamblados. No funciona simultáneamente con los ensamblados, pero se puede tener el acceso a varios ensamblados en una sesión única de edición con respecto a cualquier definición  única de actividad de BAM  Es decir, si importa una definición de actividad de BAM y si a continuación, selecciona tres ensamblados desde los que trazar elementos de los que se ha realizado un seguimiento, el perfil que crea el TPE se aplica a varios perfiles que están asociados a las orquestaciones y puertos que se utilizan en el perfil de seguimiento. El perfil de seguimiento siempre contiene información sobre todos los ensamblados asociados a cualquier definición dada de actividad de BAM.  
   
 > [!CAUTION]
->  En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], cada actividad de BAM solo puede tener implementado un perfil de seguimiento contra sí. Es decir, si implementa un perfil que tiene asignada una actividad a una orquestación, y si implementa posteriormente un perfil diferente que tiene asignada la misma actividad a una orquestación diferente, el primer perfil implementado se sobrescribe.  
+>  En BizTalk Server, cada actividad de BAM sólo puede tener un perfil de seguimiento que se implementan en el mismo. Es decir, si implementa un perfil que tiene asignada una actividad a una orquestación, y si implementa posteriormente un perfil diferente que tiene asignada la misma actividad a una orquestación diferente, el primer perfil implementado se sobrescribe.  
   
 ### <a name="remove-tracking-profile"></a>Quitar perfil de seguimiento  
  El **quitar perfil de seguimiento** opción de menú quita el perfil de seguimiento para la definición de actividad carga y sus correspondientes orquestaciones y puertos. Se le pedirá que confirme antes de que se finalice esta acción.  

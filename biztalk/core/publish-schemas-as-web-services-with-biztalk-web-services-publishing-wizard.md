@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3421e2e6cfb5c76252bcb48d63f55eb5f1ecdb7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba7f93eae8866212546f5daa3b9ed1a5b653c983
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como servicios Web
 El Asistente para publicar servicios Web de BizTalk permite publicar esquemas como servicio Web.  
@@ -88,19 +88,19 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
     > [!NOTE]
     >  La misma combinación de espacio de nombres de destino/nombre de elemento raíz sólo se puede agregar una vez como un encabezado SOAP de solicitud y una vez como encabezado SOAP de respuesta.  
   
-9. En el **proyecto de servicio Web** página, en la **ubicación del proyecto** texto, escriba la ubicación del proyecto. Puede aceptar la ubicación predeterminada (http://localhost/\<*Nombre_proyecto*>), escriba una ubicación para el proyecto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+9. En el **proyecto de servicio Web** página, en la **ubicación del proyecto** texto, escriba la ubicación del proyecto. Puede aceptar la ubicación predeterminada (http://localhost/ <*Nombre_proyecto*>), escriba una ubicación para el proyecto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     -   **Sobrescribir proyecto existente.** Esta opción únicamente está disponible si la ubicación del proyecto ya existe. Podrá publicar en la misma ubicación sólo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
     -   **Permitir el acceso anónimo al servicio web.** Esta opción agrega acceso anónimo al directorio virtual creado. De forma predeterminada, el directorio virtual hereda los privilegios de acceso de su directorio virtual principal o del sitio Web (si existe un directorio virtual de nivel superior).  
   
-    -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe otra ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato "/\<*nombre del directorio virtual*>/\<*namespace_typename_portname de orquestación* > .asmx ". Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
+    -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe otra ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato "/\<*nombre del directorio virtual*\>/\<*namespace_typename_portname de orquestación*  \>.asmx ". Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://\<*servername*>/\<*Nombre_proyecto*> **.  
+        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://<*servername*>/<*Nombre_proyecto*> **.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost:8080/\<*Nombre_proyecto*>.  
+        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost: 8080 / <*Nombre_proyecto*>.  
   
         > [!NOTE]
         >  Al usar el asistente para crear ubicaciones de recepción, éstas se crean mediante muchos valores predeterminados. Los valores predeterminados para las canalizaciones de envío y recepción son **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** y **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**. Si los mensajes recibidos a través del servicio Web publicado requieren algún procesamiento de canalización especial (por ejemplo, validación, correlación o asignaciones de entrada/salida), debe establecer el envío y recepción de canalizaciones para  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, **Microsoft.BizTalk.DefaultPipelines.XMLSend**, o en una canalización personalizada.  
@@ -112,4 +112,4 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
 12. Haga clic en **finalizar** para completar el Asistente para publicación de servicios Web de BizTalk.  
   
 ## <a name="see-also"></a>Vea también  
- [Publicar esquemas como servicios Web](../core/publishing-schemas-as-a-web-service.md)
+ [Publicación de esquemas como un servicio web](../core/publishing-schemas-as-a-web-service.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8dfdedb58e4372caed38c7c272cbaaf65fefbcb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbe53def02f42c59cf5e40380c898f47695c19da
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error-getting-binding-extensions-from-machineconfig"></a>Error al obtener extensiones de enlace de machine.config.
 ## <a name="details"></a>Detalles  
@@ -58,6 +58,6 @@ ms.lasthandoff: 09/20/2017
         ```  
   
 > [!NOTE]
->  El código anterior también puede agregarse a la pestaña Extensiones de WCF. Si la extensión debe estar en el lado de recepción, vea el  **\<nombre de Host > Properties Dialog Box, extensiones de WCF** pestaña (WCF-Custom o el controlador de recepción de adaptador de WCF-CustomIsolated) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. Si la extensión debe estar en el lado de envío, vea  **\<nombre de Host > Properties Dialog Box, extensiones de WCF** pestaña (controlador de envío de adaptador de WCF-Custom) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+>  El código anterior también puede agregarse a la pestaña Extensiones de WCF. Si la extensión debe estar en el lado de recepción, vea el  **\<nombre de Host\> Properties Dialog Box, extensiones de WCF** pestaña (WCF-Custom o el controlador de recepción de adaptador de WCF-CustomIsolated) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. Si la extensión debe estar en el lado de envío, vea  **\<nombre de Host\> Properties Dialog Box, extensiones de WCF** pestaña (controlador de envío de adaptador de WCF-Custom) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
  3. Cierre y vuelva a abrir la consola de administración. Debe poder ver el comportamiento personalizado en el adaptador de WCF-Custom y el puerto debería permanecer habilitado cuando lo habilite.

@@ -19,11 +19,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ea8de4f60907e465f37502b5b0227e31ddcd92b5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75ac63fe0fee593f927e854ce425ff7f631f9475
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a>MQSCorrelationSetOrchestration (ejemplo de BizTalk Server)
 El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de correlación MQSeries para correlacionar los mensajes enviados a una cola de MQSeries de vuelta a una orquestación en ejecución. La orquestación establece el identificador de correlación de MQSeries y el mensaje valores de identificador mediante la **MQMD_CorrelId** y **MQMD_MsgID** propiedades. El administrador de cola de MQSeries copia el valor de MessageID en la propiedad CorrelationID del mensaje.  
@@ -38,7 +38,7 @@ El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de
  En este ejemplo se muestra un escenario en el que un documento que una orquestación está procesando puede enviarse a una cola MQSeries (supuestamente para otro procesamiento) y devolverse a la orquestación en ejecución.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
+ *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -240,7 +240,7 @@ El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de
   
 4.  Especifique un archivo de clave de nombre seguro para firmar el ensamblado en las propiedades del proyecto **firma** página y, a continuación, compile el proyecto.  
   
-5.  Use la herramienta de caché global de ensamblados (gacutil.exe) para cargar el ensamblado compilado en la GAC (gacutil /i \< *nombre de archivo dll compilado*>).  
+5.  Use la herramienta de caché global de ensamblados (gacutil.exe) para cargar el ensamblado compilado en la GAC (gacutil /i \< *nombre de archivo dll compilado*\>).  
   
 6.  Agregue una referencia al ensamblado GetId en el proyecto de BizTalk para este ejemplo.  
   
@@ -271,4 +271,4 @@ El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de
   
 ## <a name="see-also"></a>Vea también  
  [Correlacionar mensajes mediante la solicitud y respuesta](../core/correlating-messages-using-request-reply.md)   
- [Ejemplos de adaptadores de MQSeries](../core/mqseries-adapter-samples.md)
+ [Ejemplos del adaptador de MQSeries](../core/mqseries-adapter-samples.md)

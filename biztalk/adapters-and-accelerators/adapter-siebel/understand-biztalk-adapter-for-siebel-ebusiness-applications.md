@@ -17,11 +17,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ad8aecf0faa0a9a0117feaf91e5fa91203fa63f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51c3576df5f62a0350f85d79b603c9f1cbda8a60
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="understand-biztalk-adapter-for-siebel-ebusiness-applications"></a>Comprender el adaptador de BizTalk para Siebel eBusiness Applications
 El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios con el fin de interactuar con un sistema externo. Los adaptadores proporcionan las siguientes ventajas a los clientes:  
@@ -32,7 +32,7 @@ El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] p
   
 -   **Uniformes experiencia a través de LOB**. Los adaptadores estandarización sobre el uso de WCF y [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] y, por tanto, proporcionar una experiencia uniforme de obtener acceso a cualquier sistema LOB.  
   
- Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. La documentación se instala junto con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación >: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
+ Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. La documentación se instala junto con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación\>: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
   
  Para realizar operaciones en un sistema Siebel, los clientes de adaptador deben tener acceso a los servicios de negocios expuestos por el sistema Siebel. Una aplicación Siebel expone los datos como objetos de negocios y componentes empresariales. Un Siebel *componente empresarial* es una entidad lógica que asocia las columnas de una o más tablas en una única estructura. Un Siebel *objeto comercial* implementa un modelo de negocio al unir un conjunto de componentes empresariales interrelacionados. Con la [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)], los clientes de adaptador pueden exponer los objetos de negocios de Siebel y componentes empresariales.  
   
@@ -42,10 +42,10 @@ El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] p
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Información general del adaptador de BizTalk para Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)  
+-   [Información general del adaptador de BizTalk para las aplicaciones de negocio electrónico de Siebel](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)  
   
 -   [Características clave en el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/key-features-in-the-siebel-adapter.md) 
   
--   [Limitaciones del adaptador de BizTalk para Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/limitations-of-biztalk-adapter-for-siebel-ebusiness-applications.md)  
+-   [Limitaciones del adaptador de BizTalk para las aplicaciones de negocio electrónico de Siebel](../../adapters-and-accelerators/adapter-siebel/limitations-of-biztalk-adapter-for-siebel-ebusiness-applications.md)  
   
 -   [Acerca del proveedor de datos para Siebel](../../adapters-and-accelerators/adapter-siebel/about-the-data-provider-for-siebel.md)

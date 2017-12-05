@@ -15,18 +15,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 760865f6f69559031b10bc9f4e609bbb3cfffa33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e88ec7506a299476dccb6ef9f9d0125768ea80b6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="defining-a-custom-bam-view-for-message-repair-and-new-submission-data"></a>Definir una vista BAM personalizadas para la reparación de mensajes y los nuevos datos de envío
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]El programa de instalación proporciona un archivo de definición de BAM que define una actividad de negocio y una vista de negocio. Puede implementar el archivo de definición de BAM para utilizar esa vista, o puede crear una vista personalizada que se puede agregar al archivo de definición de BAM.  
   
- El archivo de definición de BAM es MrsrActivities.xml en  *\<unidad >*: \Program Acelerador de BizTalk para SWIFT\BAMTracking. Define una actividad de mensaje y una vista RepairView. Para obtener más información acerca de la implementación MrsrActivities.xml utilizando el bm, implementar la utilidad, consulte [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ El archivo de definición de BAM es MrsrActivities.xml en  *\<unidad\>*: \Program Acelerador de BizTalk para SWIFT\BAMTracking. Define una actividad de mensaje y una vista RepairView. Para obtener más información acerca de la implementación MrsrActivities.xml utilizando el bm implementar utilidad, vea la Ayuda de BizTalk Server.  
   
- Crear la vista personalizada en la supervisión de vista de Asistente para actividad económica desde el libro BAM. Para obtener más información acerca de cómo crear una vista personalizada, vea "Crear una vista de BAM" en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda de trabajador de información.  
+ Crear la vista personalizada en la supervisión de vista de Asistente para actividad económica desde el libro BAM. Para obtener más información acerca de cómo crear una vista personalizada, vea "Crear una vista de BAM" en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de trabajador de información de BizTalk Server.  
   
  La actividad de mensaje en MrsrActivities.xml incluye los siguientes elementos que puede agregar a la vista personalizada:  
   

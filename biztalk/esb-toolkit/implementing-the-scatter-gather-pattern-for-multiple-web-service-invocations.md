@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 03fb129d23b0884fdca518dca574be64d7672c6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2682418922c17fd4c6fbe8a6bffbac51051f7841
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="implementing-the-scatter-gather-pattern-for-multiple-web-service-invocations"></a>Implementar el patrón de dispersión y recopilación de varias invocaciones de servicio Web
-En este caso de uso, un mensaje contiene un paso de servicio itinerarios que especifica externas más de un servicio que [!INCLUDE[prague](../includes/prague-md.md)] debe tener acceso a. Resolución dinámica usa para determinar las ubicaciones de servicio y los puntos de conexión y cualquier BizTalk Service opcional que se asigna para transformar los datos devueltos. La orquestación que implementa este servicio lleva a cabo la transformación y las invocaciones de y todas las invocaciones del servicio se producen de forma asincrónica. Después de completar todas las invocaciones de servicio, el servicio itinerario agrega las respuestas en un único mensaje de respuesta y envía el mensaje al cliente a través de un punto de conexión asignado dinámicamente. La figura 1 muestra este caso de uso.  
+En este caso de uso, un mensaje contiene un paso de servicio itinerarios que especifica más de un servicio externo que debe tener acceso BizTalk Server. Resolución dinámica usa para determinar las ubicaciones de servicio y los puntos de conexión y cualquier BizTalk Service opcional que se asigna para transformar los datos devueltos. La orquestación que implementa este servicio lleva a cabo la transformación y las invocaciones de y todas las invocaciones del servicio se producen de forma asincrónica. Después de completar todas las invocaciones de servicio, el servicio itinerario agrega las respuestas en un único mensaje de respuesta y envía el mensaje al cliente a través de un punto de conexión asignado dinámicamente. La figura 1 muestra este caso de uso.  
   
  ![Implementación de dispersión recopilar patrón](../esb-toolkit/media/ch3-implementingscatter.gif "Ch3-ImplementingScatter")  
   

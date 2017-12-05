@@ -12,16 +12,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f71915866e807bea8cbd9fdcbf0b1b7ac38a505
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 9f3e2f76a972f851322f82f2e89b285db907d799
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="jms-mqrfh2-sample-dependencies-and-strong-key-name-definition"></a>Definición de nombre de clave seguro y dependencias de ejemplo MQRFH2 JMS
 El proyecto de Visual Studio ESB. JMS. PipelineComponents depende de la siguiente carpeta:  
   
--   \<Directorio de instalación de BizTalk Server >. Esta carpeta proporciona acceso a los espacios de nombres siguientes:  
+-   \<Directorio de instalación de BizTalk Server\>. Esta carpeta proporciona acceso a los espacios de nombres siguientes:  
   
     -   **Microsoft::BizTalk::Message::Interop**  
   

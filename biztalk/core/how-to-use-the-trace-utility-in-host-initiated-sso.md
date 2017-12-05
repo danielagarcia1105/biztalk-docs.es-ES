@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e00514515b31e79655fe457e1aa8682edf002183
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebb2003cc6091e3f14bd863902e03649d9005722
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-trace-utility-in-host-initiated-sso"></a>Cómo usar la utilidad de seguimiento de Host para SSO iniciado
 El seguimiento constituye el método principal para solucionar problemas.  
@@ -30,7 +30,7 @@ El seguimiento constituye el método principal para solucionar problemas.
 > [!NOTE]
 >  Para que este comando funcione, el archivo tracelog.exe debe encontrarse en el siguiente directorio:  
 >   
->  \<*unidad*>: \Program Files\Common Files\Enterprise Single Sign-On  
+>  \<*unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On  
   
 > [!NOTE]
 >  Puede descargar este archivo en la siguiente ubicación: [http://go.microsoft.com/fwlink/?LinkId=59534](http://go.microsoft.com/fwlink/?LinkId=59534)  
@@ -41,7 +41,7 @@ El seguimiento constituye el método principal para solucionar problemas.
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **Trace – start – high** para establecer el nivel de seguimiento como alto y comenzar el seguimiento.  
   

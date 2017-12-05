@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66d6d35ac668a324ed28f7c9519b32812e10cb3e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 632ca1c46a3df313e3aac4e144cad1647eb2360f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-sql-server"></a>Solucionar problemas de SQL Server
 La mayoría de los problemas de Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] que afectan a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se puede incluir en una de las siguientes categorías:  
@@ -100,13 +100,13 @@ La mayoría de los problemas de Microsoft [!INCLUDE[btsSQLServerNoVersion](../in
   
 ## <a name="permissions-related-problems"></a>Problemas relacionados con los permisos  
   
-#### <a name="biztalk-server-run-time-or-design-time-operations-fail-and-a-cannot-open-database-requested-in-login-database-error-is-written-to-the-application-log-of-the-biztalk-server-or-sql-server-computer"></a>Errores en las operaciones de tiempo de diseño o tiempo de ejecución de BizTalk Server y una "no se puede abrir la base de datos solicitada en el inicio de sesión \<base de datos >" error se escribe en el registro de aplicación del equipo de BizTalk Server o SQL Server  
+#### <a name="biztalk-server-run-time-or-design-time-operations-fail-and-a-cannot-open-database-requested-in-login-database-error-is-written-to-the-application-log-of-the-biztalk-server-or-sql-server-computer"></a>Errores en las operaciones de tiempo de diseño o tiempo de ejecución de BizTalk Server y una "no se puede abrir la base de datos solicitada en el inicio de sesión \<base de datos\>" error se escribe en el registro de aplicación del equipo de BizTalk Server o SQL Server  
   
 ##### <a name="problem"></a>Problema  
  Se produce un error en las operaciones en tiempo de ejecución o en tiempo de diseño y un error similar al siguiente se escribe en el registro de aplicaciones del equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]:  
   
- No se puede abrir la base de datos solicitada en el inicio de sesión \< *base de datos*>. Se produce un error de inicio de sesión.   
-Error de inicio de sesión de usuario \< *nombre de usuario*>.  
+ No se puede abrir la base de datos solicitada en el inicio de sesión \< *base de datos*\>. Se produce un error de inicio de sesión.   
+Error de inicio de sesión de usuario \< *nombre de usuario*\>.  
   
 ##### <a name="cause"></a>Causa  
  Este error puede producirse si la cuenta especificada no pertenece al grupo de Windows adecuado o a la función de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  

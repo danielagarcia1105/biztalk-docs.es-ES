@@ -19,11 +19,11 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2665967e27cf708fcdbbddf61a7b66c619757223
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79d92ca7a65262d18a08cab700710284accfbf78
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)
 En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo usar un identificador de correlación producido por MQSeries Server en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -35,7 +35,7 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
 >  Las orquestaciones que utilizan esta técnica pueden experimentar problemas si el mensaje de MQSeries Server llega antes que el identificador de correlación. Asegúrese de diseñar las orquestaciones de modo que otorgue el tiempo suficiente a MQSeries Server para devolver el identificador de correlación. Este ejemplo no considera esta posible condición de anticipación.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -243,4 +243,4 @@ En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo
   
 ## <a name="see-also"></a>Vea también  
  [Correlacionar mensajes mediante la solicitud y respuesta](../core/correlating-messages-using-request-reply.md)   
- [Ejemplos de adaptadores de MQSeries](../core/mqseries-adapter-samples.md)
+ [Ejemplos del adaptador de MQSeries](../core/mqseries-adapter-samples.md)

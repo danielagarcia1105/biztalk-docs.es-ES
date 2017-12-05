@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b03f6f3319e90d4782e1e9e5fd7e2a7e2a27b527
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4cd094feabe1ba23a6a73c89aae3a1042b8f7fc9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploying-bre-policies-for-existing-messages"></a>Implementación de directivas del BRE para los mensajes existentes
 **Para implementar las reglas de negocios relacionadas:**  
@@ -33,6 +33,6 @@ ms.lasthandoff: 09/20/2017
   
 5.  Cierre el cuadro de diálogo Utilidad de implementación de SWIFT BRE.  
   
-6.  En el Explorador de Windows, vaya a  *\<unidad >*: \Documents and Settings\All Users\Application datos para confirmar que el archivo de registro BREDeploymentLog.txt aparece en la carpeta.  
+6.  En el Explorador de Windows, vaya a  *\<unidad\>*: \Documents and Settings\All Users\Application datos para confirmar que el archivo de registro BREDeploymentLog.txt aparece en la carpeta.  
   
 7.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **services.msc**y, a continuación, haga clic en **Aceptar**. En la ventana Servicios (Local), haga clic en **servicio de actualización de motor de reglas**y, a continuación, haga clic en **reiniciar**.

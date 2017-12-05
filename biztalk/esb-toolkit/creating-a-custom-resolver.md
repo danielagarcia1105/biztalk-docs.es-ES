@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef1d583389189e09a0b9e0e5157ce5466004c03a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57fb0073437c32c8a8f064a4c77f267ee6806858
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-custom-resolver"></a>Crear a una resolución personalizada
 La implementación de resolución y marco de proveedores de adaptador en [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] utiliza un componente de canalización con nombre distribuidor y canalizaciones con nombre ItineraryReceive y ItinerarySend.  
@@ -142,7 +142,7 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
 |**TransformType**|String|**ActionField**|String|  
 |**Success**|Boolean|**EpmRRCorrelationTokenField**|String|  
 |**TransportNamespace**|String|**InboundTransportLocationField**|String|  
-|**Tipo de transporte**|String|**InterchangeIDField**|String|  
+|**TransportType**|String|**InterchangeIDField**|String|  
 |**TransportLocation**|String|**ReceiveLocationNameField**|String|  
 |**Acción**|String|**ReceivePortNameField**|String|  
 |**MessageExchangePattern**|String|**InboundTransportTypeField**|String|  
@@ -172,7 +172,7 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
   
 1.  Crear un ensamblado con una clase que implementa el **IResolveProvider** de interfaz y contiene un **resolver** método que devuelve los hechos de resolución como una instancia de la **diccionario**clase.  
   
-2.  Registre el solucionador, éste se agrega al archivo de configuración Esb.config utilizando un  **\<resolución >** elemento que contiene el moniker raíz como la **nombre** atributo y el nombre completo nombre del ensamblado como el **tipo** atributo.  
+2.  Registre el solucionador, éste se agrega al archivo de configuración Esb.config utilizando un  **\<resolución\>**  elemento que contiene el moniker raíz como la **nombre** atributo y totalmente nombre del ensamblado completo como el **tipo** atributo.  
   
 3.  (Opcional) Crear un esquema que define el moniker raíz y los parámetros de consulta y, a continuación, guárdelo en ESB. Carpeta Schemas.Resolvers. El nombre debe seguir convenciones de nomenclatura de ESB existentes; Esto significa que debe usar el nombre del moniker raíz anexado "_Resolution.xsd".  
   

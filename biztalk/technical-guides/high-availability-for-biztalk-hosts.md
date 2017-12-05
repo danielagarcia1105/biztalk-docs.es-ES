@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f500deb38df3f8145a2cba582164f14c87ac33d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29636a63f7847017b233275ee3dd7c2c389c43be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="high-availability-for-biztalk-hosts"></a>Alta disponibilidad para los Hosts de BizTalk
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]proporciona gran flexibilidad para tratar la alta disponibilidad, porque permite dedicar hosts lógicos para ejecutar áreas específicas de funcionalidad, como la recepción y envío de mensajes o el procesamiento de orquestaciones, que se pueden implementar físicamente en forma estratégica varios servidores.  
+BizTalk Server proporciona gran flexibilidad para tratar la alta disponibilidad, porque permite dedicar hosts lógicos para ejecutar áreas específicas de funcionalidad, como la recepción y envío de mensajes o el procesamiento de orquestaciones, que pueden estar físicamente de forma estratégica implementar en varios servidores.  
   
  Un Host de BizTalk es un contenedor lógico dentro de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] grupo que puede alojar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] elementos como adaptador (incluidas las canalizaciones) de controladores de envío, ubicaciones de recepción y orquestaciones. Normalmente, se agrupan elementos que tienen propiedades de escala similares en un host particular.  
   
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 |En curso|-Orquestaciones<br />-Controladores de envío de adaptador<br />-Controladores de recepción de adaptador en curso|  
 |Aislado|-Controladores de recepción HTTP, SOAP<br />-Cualquier otro adaptador aislado controladores de recepción|  
   
- Para obtener más información acerca de cómo administrar Hosts de BizTalk e instancias de host, consulte [administración de Hosts de BizTalk e instancias de Host](http://go.microsoft.com/fwlink/?LinkID=154191) (http://go.microsoft.com/fwlink/?LinkID=154191) en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de cómo administrar Hosts de BizTalk e instancias de host, consulte [administración de Hosts de BizTalk e instancias de Host](http://go.microsoft.com/fwlink/?LinkID=154191) (http://go.microsoft.com/fwlink/?LinkID=154191) en la Ayuda de BizTalk Server.  
   
  Para proporcionar alta disponibilidad para los Hosts de BizTalk, debe tener dos o más instancias de host para cada host (en dos o más equipos) en su entorno. Al tener más de una instancia de host para cada host Asegúrese de que, si una instancia de host no está disponible, el host de instancias en otros equipos que ejecutan instancias del mismo host puede reanudar las funciones de la instancia de host problemática, y que el sistema global puede continuar funcionando con interrupciones mínimas.  
   
@@ -59,17 +59,17 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [El escalado de Hosts de recepción](../technical-guides/scaling-out-receiving-hosts.md)  
+-   [Escalado horizontal de hosts de recepción](../technical-guides/scaling-out-receiving-hosts.md)  
   
--   [Clústeres de Hosts de recepción](../technical-guides/clustering-receiving-hosts.md)  
+-   [Agrupación en clústeres de hosts de recepción](../technical-guides/clustering-receiving-hosts.md)  
   
--   [Ajuste de escala en Hosts de procesamiento](../technical-guides/scaling-out-processing-hosts.md)  
+-   [Escalado horizontal de hosts de procesamiento](../technical-guides/scaling-out-processing-hosts.md)  
   
--   [El escalado de Hosts de envío](../technical-guides/scaling-out-sending-hosts.md)  
+-   [Escalado horizontal de hosts de envío](../technical-guides/scaling-out-sending-hosts.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Configuración de Hosts e instancias de Host](../technical-guides/configuring-hosts-and-host-instances.md)   
  [Configurar un Host de seguimiento dedicado](../technical-guides/configuring-a-dedicated-tracking-host.md)   
  [Planeación de alta disponibilidad2](../technical-guides/planning-for-high-availability2.md)   
  [Alta disponibilidad para bases de datos](../technical-guides/high-availability-for-databases.md)   
- [Alta disponibilidad para el servidor secreto principal](../technical-guides/high-availability-for-the-master-secret-server.md)
+ [Alta disponibilidad para el servidor de secreto maestro](../technical-guides/high-availability-for-the-master-secret-server.md)

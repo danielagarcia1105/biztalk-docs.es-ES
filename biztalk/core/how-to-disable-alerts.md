@@ -16,11 +16,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0252fc98cdf792626094ffee75fae95c1cab3b00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4279030b9c3bcc7913bf64cc870b0d82d618dff8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-alerts"></a>Cómo deshabilitar alertas
 Los administradores utilizan el **disable-alerts** comando para deshabilitar todas las alertas en la vista especificada.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **disable-alerts** comando para deshabilitar tod
   
 2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo de **bm disable-alerts-View:\<nombre de vista >**.  
+3.  Tipo de **bm disable-alerts-View:\<nombre de la vista\>**.  
   
     > [!NOTE]
     >  Si ha exportado configuraciones de BAM como archivos XML, no modifique el código XML relativo a las alertas. Si modifica el código XML relativo a las alertas e implementa los cambios, bm.exe detectará el cambio y habilitará las alertas de BAM.  

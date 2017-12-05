@@ -12,11 +12,11 @@ caps.latest.revision: "44"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 65576724a92cc60d2f4d59b2a868cd4861b5eff5
-ms.sourcegitcommit: 30189176c44873e3de42cc5f2b8951da51ffd251
+ms.openlocfilehash: ad4424327f6cd24624abe6b4a850f3c24153e6a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-deploy-the-projects"></a>Paso 1: Implementar los proyectos
 ![Paso 1 de 3](../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  Haga clic en el **firma** ficha, seleccione **firmar el ensamblado**.  
   
-3.  En la lista desplegable de la **elegir un archivo de clave de nombre seguro** cuadro, seleccione  **\<Examinar... >**.  
+3.  En la lista desplegable de la **elegir un archivo de clave de nombre seguro** cuadro, seleccione  **\<Examinar... \>**.  
   
 4.  En el **Seleccionar archivo** diálogo cuadro, vaya a **C:\BTStutorials**, haga clic en **tutorials.snk**y, a continuación, haga clic en **abiertos**. 
   

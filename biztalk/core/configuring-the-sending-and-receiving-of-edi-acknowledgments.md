@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a88b7596772e951a835ffc13874ade7fefab5137
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d1ffc367e4b87d29e372bc434c0eda18da4363a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a>Configuración del envío y la recepción de confirmaciones EDI
 Para configurar el envío de una confirmación de EDI en respuesta a un intercambio recibido, debe hacer lo siguiente:  
@@ -54,9 +54,9 @@ Para configurar el envío de una confirmación de EDI en respuesta a un intercam
   
     2.  En el **confirmaciones** página, seleccionados propiedades que definen el tipo de confirmación que espera la entidad remitente:  
   
-         Para X12 confirmaciones, seleccionadas **TA1 esperado** o **997 esperado** según las confirmaciones que se espera. Para cada tipo de confirmación, seleccione **no procesar por lotes \<tipo ACK >** si desea que cada instancia de una confirmación que se envían como un intercambio independiente.  
+         Para X12 confirmaciones, seleccionadas **TA1 esperado** o **997 esperado** según las confirmaciones que se espera. Para cada tipo de confirmación, seleccione **no procesar por lotes \<tipo ACK\>**  si desea que cada instancia de una confirmación que se envían como un intercambio independiente.  
   
-         Para confirmaciones EDIFACT, seleccione **recepción del mensaje (CONTRL) esperada** o **confirmación (CONTRL) esperada** según las confirmaciones que se espera. Para cada tipo de confirmación, seleccione **no procesar por lotes \<tipo ACK >** si desea que cada instancia de una confirmación que se envían como un intercambio independiente.  
+         Para confirmaciones EDIFACT, seleccione **recepción del mensaje (CONTRL) esperada** o **confirmación (CONTRL) esperada** según las confirmaciones que se espera. Para cada tipo de confirmación, seleccione **no procesar por lotes \<tipo ACK\>**  si desea que cada instancia de una confirmación que se envían como un intercambio independiente.  
   
     3.  En el **configuración de Host Local** página en el **configuración de intercambio** sección, desactive el **puerto de recepción de enrutar confirmación para la canalización de envío de solicitud-respuesta** para devolver el confirmación de forma asincrónica a través de un puerto de envío unidireccional. Mantenga esta propiedad seleccionada para devolver la confirmación de forma síncrona por un puerto de recepción bidireccional.  
   

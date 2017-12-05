@@ -23,11 +23,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 617461b104f3188c14bb7c5b6eb5eb0bd329693f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 723848f61294cc710bd2292758383cf674093265
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="activity-searches-in-the-bam-portal"></a>Búsquedas de actividad del portal de BAM
 La búsqueda de actividad le permite realizar búsquedas de datos de BAM para encontrar actividades que coincidan con el criterio que determinó en función de los elementos y valores de seguimiento que están disponibles en la vista de BAM, y para mostrar estas actividades para que las pueda editar y crear alertas en función de las actividades.  
@@ -65,7 +65,7 @@ La búsqueda de actividad le permite realizar búsquedas de datos de BAM para en
 |**AT**|Especifica una coincidencia exacta. Equivalente a una operación Boolean igual a (=). **Nota:** si selecciona el **en** operador y especifique una fecha sin ninguna parte del tiempo del portal utiliza la medianoche como valor predeterminado. Si esto no es su intención, use la **en o antes de** o **en o después de** operadores para obtener los resultados deseados.|  
 |**En o antes de**|Especifica que solo coinciden las transacciones en o antes de los datos determinados. Igual a una operación Boolean menor o igual que (≤).|  
 |**En o después de**|Especifica que solo coinciden las transacciones en o después de los datos determinados. Igual a una operación Boolean mayor o igual que (≥).|  
-|**Antes del**|Especifica que solo coinciden las transacciones antes de los datos determinados. Equivalente a un valor booleano menor que (\<) operación.|  
+|**Antes del**|Especifica que solo coinciden las transacciones antes de los datos determinados. Equivalente a un valor booleano menor que (<) operación.|  
 |**Después**|Especifica que solo coinciden las transacciones después de los datos determinados. Equivalente a una operación booleana mayor que (>).|  
 |**En los últimos**|Especifica que solo coinciden las transacciones que se llevaron a cabo en el período de tiempo anterior que se ha especificado. El período de tiempo se puede especificar en segundos, minutos, horas o días.|  
 |**Antes de que la última**|Especifica que solo coinciden las transacciones que se llevaron a cabo con anterioridad al período de tiempo anterior que se ha especificado. El período de tiempo se puede especificar en segundos, minutos, horas o días.|  

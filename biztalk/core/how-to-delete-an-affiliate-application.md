@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9ddb40109ff402f1c1794a90e591a43e11407fba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9cc742b41735f31b0da43560c19df4beb4f126d6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-delete-an-affiliate-application"></a>Cómo eliminar una aplicación afiliada
 Puede utilizar el Complemento MMC o la línea de comandos para eliminar la aplicación afiliada de la base de datos de SSO.  
@@ -43,9 +43,9 @@ Puede utilizar el Complemento MMC o la línea de comandos para eliminar la aplic
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-deleteapp  *\<nombre de aplicación >***, donde  *\<nombre de aplicación >* es el nombre de la aplicación afiliada ¿desea quitar de la base de datos SSO.  
+3.  Tipo de **ssomanage-deleteapp  *\<nombre de la aplicación\>***, donde  *\<nombre de la aplicación\>*  es el nombre de la aplicación afiliada que desea quitar de la base de datos SSO.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -54,4 +54,4 @@ Puede utilizar el Complemento MMC o la línea de comandos para eliminar la aplic
  [Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md)   
  [Cómo habilitar una aplicación afiliada](../core/how-to-enable-an-affiliate-application.md)   
  [Administrar asignaciones de usuario](../core/managing-user-mappings.md)   
- [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)
+ [Administración de aplicaciones afiliadas](../core/managing-affiliate-applications.md)

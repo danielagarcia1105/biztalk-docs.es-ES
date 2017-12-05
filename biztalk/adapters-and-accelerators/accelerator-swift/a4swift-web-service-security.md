@@ -24,11 +24,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8510172517d58475d855d258b72b16271835dbc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d484f3a28896528ac2ab9367a8a7a0bbe3604801
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a4swift-web-service-security"></a>Seguridad del servicio Web de A4SWIFT
 El [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]servicio Web de forma predeterminada se instala en un modelo de seguridad híbrido altamente seguro. En el modelo de IIS/ASP.NET existe un límite de confianza entre el servicio Web, el [!INCLUDE[btsWinSharePointSvcsNoVersion](../../includes/btswinsharepointsvcsnoversion-md.md)] sitio y el [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]base de datos.  
@@ -46,7 +46,7 @@ El [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentver
   
  Seguridad de protocolo Internet (IPSec) también puede implementarse para una comunicación segura entre [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  
   
- Para obtener más información sobre la implementación de IPSec para la comunicación segura entre [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)], vea "Proteger la implementación de BizTalk Server" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información sobre la implementación de IPSec para la comunicación segura entre [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)], vea "Proteger la implementación de BizTalk Server" en la Ayuda de BizTalk Server.  
   
   
 ## <a name="message-level-security"></a>Seguridad de nivel de mensaje  

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: feb9efa5ad879e86f32ca1963313dadc7e6a9d7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f70855621f03011c92be7b04b844122d98be48f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-custom-adapter-provider"></a>Crear un proveedor de adaptador personalizado
 Una vez ejecutada una resolución, tal como se describe en las secciones anteriores, el servicio de resolución dinámica comprueba si el resultado es un punto de conexión (no una transformación). Si es un punto de conexión, el servicio crea instancias el Administrador de adaptador, que es una instancia de la **AdapterMgr** clase.  
@@ -55,6 +55,6 @@ Una vez ejecutada una resolución, tal como se describe en las secciones anterio
   
 1.  Crear un ensamblado que se deriva de la **BaseAdapterProvider** clase base y contiene un **SetEndPoint** método que establece el punto de conexión en las propiedades de contexto del mensaje.  
   
-2.  Registrar el proveedor del adaptador, éste se agrega a los archivos de configuración de Esb.config con un  **\<adapterProvider >** elemento con un nombre para el adaptador como la **nombre** atributo, el totalmente nombre completo de la clase como el **tipo** de atributo, el moniker como el **moniker** atributo (varios valores deben estar separados por una coma) y, opcionalmente, el ensamblado del adaptador real como el **adapterAssembly** atributo.  
+2.  Registrar el proveedor del adaptador, éste se agrega a los archivos de configuración de Esb.config con un  **\<adapterProvider\>**  elemento con un nombre para el adaptador como la **nombre** atributo, el nombre completo de la clase como el **tipo** de atributo, el moniker como el **moniker** atributo (varios valores deben estar separados por una coma) y, opcionalmente, el ensamblado de la adaptador real como el **adapterAssembly** atributo.  
   
 3.  Registrar el nuevo ensamblado en la caché global de ensamblados.

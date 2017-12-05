@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3da0d65917598dbbce4e203a97a9e843b5ba70c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cc6ec29ece503f324758cdc08a6ff1351c066af4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="sysprep-a-biztalk-server-vhd-biztalk-server-sample"></a>Sysprep de un VHD de BizTalk Server (ejemplo de BizTalk Server)
 Sysprep crea una instantánea de una máquina virtual con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] instalado, para una implementación rápida en otras máquinas virtuales.  
@@ -34,7 +34,7 @@ Sysprep crea una instantánea de una máquina virtual con [!INCLUDE[btsBizTalkSe
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\Sysprep\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\Sysprep\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -45,22 +45,22 @@ Sysprep crea una instantánea de una máquina virtual con [!INCLUDE[btsBizTalkSe
 |----------|-----------------|  
 |Sysprep.xml|Archivo de respuesta|  
 |SetupCompletecmd.txt|Archivo de respuesta|  
-|ReplaceMachineName.vbs|Propósito: Abre un archivo y reemplaza todas las instancias de una cadena determinada con el nombre del equipo actual. Sirve para preparar los demás archivos de script y xml, así como para actualizar bm.exe.config.<br /><br /> Uso: ReplaceMachineName.vbs \<archivo para abrir > \<cadena para reemplazar >|  
-|UpdateRegistry.vbs|Propósito: Actualiza el nombre de equipo almacenado en la configuración del registro de BizTalk.<br /><br /> Uso: UpdateRegistry.vbs \<UpdateInfo.xml >. Asegúrese de reemplazar todas las instancias de $(OLDCOMPUTERNAME) y $(NEWCOMPUTERNAME) en este archivo xml.|  
-|UpdateDatabase.vbs|Propósito: Actualiza el nombre de equipo almacenado en las bases de datos de administración de BizTalk.<br /><br /> Uso: UpdateDatabase.vbs \<UpdateInfo.xml >|  
-|UpdateBAMDb.vbs|Propósito: Actualiza el nombre de equipo almacenado en las bases de datos BAM.<br /><br /> Uso: UpdateBamDb.vbs \<UpdateInfo.xml >|  
-|UpdateSSO.cmd|Propósito: Vuelve a configurar el servidor secreto del inicio de sesión único empresarial (SSO).<br /><br /> Uso: sso.cmd \<UpdateInfo.xml >|  
+|ReplaceMachineName.vbs|Propósito: Abre un archivo y reemplaza todas las instancias de una cadena determinada con el nombre del equipo actual. Sirve para preparar los demás archivos de script y xml, así como para actualizar bm.exe.config.<br /><br /> Uso: ReplaceMachineName.vbs \<archivo para abrir\> \<cadena para reemplazar\>|  
+|UpdateRegistry.vbs|Propósito: Actualiza el nombre de equipo almacenado en la configuración del registro de BizTalk.<br /><br /> Uso: UpdateRegistry.vbs \<UpdateInfo.xml\>. Asegúrese de reemplazar todas las instancias de $(OLDCOMPUTERNAME) y $(NEWCOMPUTERNAME) en este archivo xml.|  
+|UpdateDatabase.vbs|Propósito: Actualiza el nombre de equipo almacenado en las bases de datos de administración de BizTalk.<br /><br /> Uso: UpdateDatabase.vbs \<UpdateInfo.xml\>|  
+|UpdateBAMDb.vbs|Propósito: Actualiza el nombre de equipo almacenado en las bases de datos BAM.<br /><br /> Uso: UpdateBamDb.vbs \<UpdateInfo.xml\>|  
+|UpdateSSO.cmd|Propósito: Vuelve a configurar el servidor secreto del inicio de sesión único empresarial (SSO).<br /><br /> Uso: sso.cmd \<UpdateInfo.xml\>|  
 |UpdateSqlServerAndInstanceName.cmd|Propósito: Vuelve a configurar SQL y SQL Express, reinicia una serie de servicios dependientes y vuelve a registrar BAMAlerts.<br /><br /> Uso: Edite el script, reemplace todas las instancias de $(NEWCOMPUTERNAME) y actualice serviceusername y servicepassword para alertas de BAM. A continuación, ejecute UpdateSqlServerAndInstanceName.cmd y pase el nombre de equipo antiguo como el primer argumento.|  
   
 ## <a name="creating-the-answer-files-and-running-sysprep"></a>Creación de los archivos de respuesta y ejecución de Sysprep  
   
 #### <a name="to-create-the-answer-files"></a>Para crear los archivos de respuesta  
   
-1.  Instale y configure [!INCLUDE[prague](../includes/prague-md.md)] en una máquina virtual. Asegúrese de usar las opciones de instalación y configuración predeterminadas, porque Sysprep no es compatible con la instalación personalizada.  
+1.  Instalar y configurar BizTalk Server en una máquina virtual. Asegúrese de usar las opciones de instalación y configuración predeterminadas, porque Sysprep no es compatible con la instalación personalizada.  
   
 2.  En la máquina virtual, copie el contenido de la carpeta incluida “scripts” en C:\Scripts.  
   
-3.  Prepare un archivo de respuesta de sysprep mediante la modificación de las siguientes líneas en Sysprep.xml. (Nota: estas líneas se marcan con un "!" antes de ellos). Puede usar como una plantilla, o crear unas propias y copiar a través de la \<FirstLogonCommands > sección.  
+3.  Prepare un archivo de respuesta de sysprep mediante la modificación de las siguientes líneas en Sysprep.xml. (Nota: estas líneas se marcan con un "!" antes de ellos). Puede usar como una plantilla, o crear unas propias y copiar a través de la \<FirstLogonCommands\> sección.  
   
     -   $(OLDCOMPUTERNAME) Reemplácelo con el nombre del equipo de la máquina virtual.  
   
@@ -70,7 +70,7 @@ Sysprep crea una instantánea de una máquina virtual con [!INCLUDE[btsBizTalkSe
   
     -   También se deben actualizar los detalles de la compañía en UpdateSqlServerAndInstance.cmd y el Sysprep.xml.  
   
-     Como alternativa, puede crear un archivo de respuesta de Sysprep desde cero mediante el uso del [Kit de instalación automatizada (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) en Windows Server 2008. Asegúrese de que su \<FirstLogonCommands > sección coincide con los ejemplos para las secuencias de comandos de BizTalk se ejecutarán en el primer arranque.  
+     Como alternativa, puede crear un archivo de respuesta de Sysprep desde cero mediante el uso del [Kit de instalación automatizada (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) en Windows Server 2008. Asegúrese de que su \<FirstLogonCommands\> sección coincide con los ejemplos para las secuencias de comandos de BizTalk se ejecutarán en el primer arranque.  
   
 #### <a name="to-run-sysprep"></a>Para ejecutar Sysprep  
   

@@ -15,17 +15,17 @@ caps.latest.revision: "46"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be2392f7a74b12ddd0c030922b166bb9a701ae88
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de68c57c6b435f85edf630a7b224c5d58ffd0cd6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>Adaptador de archivo (ejemplo de BizTalk Server)
-El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET para trabajar con Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Proporciona código para construir un adaptador estático o dinámico.  Sin embargo, el siguiente procedimiento solo describe el adaptador estático. Un adaptador estático es un adaptador con un conjunto de esquemas estático y sin interfaz de usuario personalizada. Un adaptador dinámico tiene una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico. Tanto los adaptadores estáticos como los dinámicos utilizan el Asistente para agregar adaptador para agregar sus esquemas a un proyecto de BizTalk.  
+El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET para trabajar con Microsoft BizTalk Server. Proporciona código para construir un adaptador estático o dinámico.  Sin embargo, el siguiente procedimiento solo describe el adaptador estático. Un adaptador estático es un adaptador con un conjunto de esquemas estático y sin interfaz de usuario personalizada. Un adaptador dinámico tiene una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico. Tanto los adaptadores estáticos como los dinámicos utilizan el Asistente para agregar adaptador para agregar sus esquemas a un proyecto de BizTalk.  
   
 > [!NOTE]
->  El ejemplo del adaptador de archivo no es el mismo que el adaptador de archivo nativo que viene incluido con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Por lo tanto, al seleccionar el tipo de transporte que se va a utilizar con este ejemplo seleccione “estático” en lugar de Archivo.  
+>  El ejemplo de adaptador de archivo no es el mismo que el adaptador de archivo nativo que se incluye con BizTalk Server. Por lo tanto, al seleccionar el tipo de transporte que se va a utilizar con este ejemplo seleccione “estático” en lugar de Archivo.  
   
  El adaptador dinámico, al tener una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico, requerirá código adicional en la administración del adaptador. Para entender mejor el uso de la configuración dinámica de esquemas, vea [configuración de adaptador de tiempo de diseño dinámico](../core/dynamic-design-time-adapter-configuration.md).  
   
@@ -35,10 +35,10 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
  Puede utilizar el adaptador de archivo de ejemplo como una plantilla en la que crear otros adaptadores personalizados.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*>**\AdaptersDevelopment\File adaptador**  
+ \<*Ejemplos de ruta de acceso*\>**\AdaptersDevelopment\File adaptador**  
   
 > [!NOTE]
->  La ubicación predeterminada de \< *ruta de ejemplos*> es *% ProgramFiles %*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples cuando [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] está instalado en un equipo que ejecuta una versión de 32 bits de Windows. La ubicación predeterminada de \< *ruta de ejemplos*> es *ProgramFiles(x86) %*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples cuando [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] está instalado en un equipo con 64 bits versión de Windows. Para determinar los valores asociados a la *% ProgramFiles %* o *ProgramFiles(x86) %* tipo de las variables de entorno **echo % ProgramFiles %** o **echo % % De ProgramFiles(x86)** en un símbolo del sistema y presione ENTRAR. Si ejecuta este ejemplo en un sistema operativo de 64 bits, debe cambiar todas las referencias en cualquiera de los archivos .reg de **% ProgramFiles %** a **ProgramFiles(x86) %** antes de ejecutar estos archivos.  
+>  La ubicación predeterminada de \< *ruta de ejemplos* \> es *% ProgramFiles %*\Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server está instalado en un equipo que ejecuta 32 bits versión de Windows. La ubicación predeterminada de \< *ruta de ejemplos* \> es *ProgramFiles(x86) %*\Microsoft BizTalk Server\SDK\Samples cuando BizTalk Server se instala en un equipo que ejecuta un 64 - versión de bits de Windows. Para determinar los valores asociados a la *% ProgramFiles %* o *ProgramFiles(x86) %* tipo de las variables de entorno **echo % ProgramFiles %** o **echo % % De ProgramFiles(x86)** en un símbolo del sistema y presione ENTRAR. Si ejecuta este ejemplo en un sistema operativo de 64 bits, debe cambiar todas las referencias en cualquiera de los archivos .reg de **% ProgramFiles %** a **ProgramFiles(x86) %** antes de ejecutar estos archivos.  
   
  En las siguientes tablas se enumeran los archivos del ejemplo y se describe el propósito de cada uno.  
   
@@ -92,11 +92,11 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
     > [!NOTE]
     >  Ejecute el símbolo del sistema como administrador.  
   
-2.  Cambie el directorio actual a la \< *ruta de ejemplos*>**\AdaptersDevelopment\BaseAdapter\v1.0.2** directory.  
+2.  Cambie el directorio actual a la \< *ruta de ejemplos*\>**\AdaptersDevelopment\BaseAdapter\v1.0.2** directory.  
   
 3.  En el símbolo del sistema, escriba **sn – k BaseAdapter.snk** y, a continuación, presione ENTRAR. Es posible que este archivo .snk exista ya como resultado de la ejecución con anterioridad de otros ejemplos. Si es así, puede ir directamente al paso 4 y saltarse éste.  
   
-4.  Cambie el directorio actual a la \< *ruta de ejemplos*>\\**AdaptersDevelopment\File Adapter\Runtime** directory.  
+4.  Cambie el directorio actual a la \< *ruta de ejemplos*\>\\**AdaptersDevelopment\File Adapter\Runtime** directory.  
   
 5.  En el símbolo del sistema, escriba **sn – k DotNetFileAdapter.snk** y, a continuación, presione ENTRAR.  
   
@@ -106,7 +106,7 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 1.  Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **Explorador de Windows**.  
   
-2.  Navegue hasta la \< *ruta de ejemplos*>**"\AdaptersDevelopment\File Adapter\Runtime"** directorio y, a continuación, haga doble clic en **DotNetFile.sln**.  
+2.  Navegue hasta la \< *ruta de ejemplos*\>**"\AdaptersDevelopment\File Adapter\Runtime"** directorio y, a continuación, haga doble clic en **DotNetFile.sln**.  
   
 3.  Para volver a crear el proyecto de tiempo de ejecución de receptor de adaptador, en el Explorador de soluciones, haga clic en **DotNetFile**y, a continuación, haga clic en **volver a generar**.  
   
@@ -114,7 +114,7 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 #### <a name="to-build-the-adapter-design-time-project"></a>Para crear el proyecto en tiempo de diseño del adaptador  
   
-1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"** directorio y, a continuación, haga doble clic en **Y AdapterManagement.sln**.  
+1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"** directorio y, a continuación, haga doble clic en **Y AdapterManagement.sln**.  
   
 2.  En el Explorador de soluciones, haga clic en **AdapterManagement**y, a continuación, haga clic en **volver a generar**.  
   
@@ -122,12 +122,12 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 #### <a name="to-register-the-sample-static-adapter"></a>Para registrar el adaptador estático de ejemplo  
   
-1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*>**"\AdaptersDevelopment\File adaptador"** directory.  
+1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*\>**"\AdaptersDevelopment\File adaptador"** directory.  
   
 2.  Para agregar el adaptador de ejemplo en el registro, haga doble clic en **StaticAdapterManagement.reg**.  
   
     > [!NOTE]
-    >  StaticAdapterManagement.reg incluye rutas codificadas de forma rígida en C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] \\. Si no instaló [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el directorio %Archivos de programa%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\, si actualizó la instalación de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] desde BizTalk Server 2009 o BizTalk Server 2006 R2 o bien si instaló [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en un equipo que ejecuta una versión de 64 bits de Windows, deberá modificar el archivo StaticAdapterManagement.reg con las rutas adecuadas. De forma predeterminada, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] está instalado en el %\Microsoft ProgramFiles (x86) % [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\ directorio en los equipos que ejecutan una versión de 64 bits de Windows. Actualice las rutas asociadas a los valores "InboundAssemblyPath", "OutboundAssemblyPath" y "AdapterMgmtAssemblyPath" para que señalen la ubicación correcta de los archivos especificados.  
+    >  StaticAdapterManagement.reg incluye rutas codificadas de forma rígida en C:\Program Files\Microsoft BizTalk Server\\. Si no ha instalado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el %ProgramFiles%\Microsoft BizTalk Server\ directorio, si ha actualizado la instalación de BizTalk Server de BizTalk Server 2009 o BizTalk Server 2006 R2, o si ha instalado BizTalk Server en un equipo que ejecuta un versión de 64 bits de Windows, debe modificar el archivo StaticAdapterManagement.reg con las rutas apropiadas. De forma predeterminada, el servidor BizTalk Server está instalado en el % ProgramFiles(x86) %\Microsoft BizTalk Server\ directorio en los equipos que ejecutan una versión de 64 bits de Windows. Actualice las rutas asociadas a los valores "InboundAssemblyPath", "OutboundAssemblyPath" y "AdapterMgmtAssemblyPath" para que señalen la ubicación correcta de los archivos especificados.  
   
     > [!IMPORTANT]
     >  Si instala BizTalk en un equipo de 64 bits, cambie todas las instancias de la entrada de registro HKEY_CLASSES_ROOT\CLSID\ a HKEY_CLASSES_ROOT\Wow6432Node\CLSID\ en el **StaticAdapterManagement.reg** archivo de registro.  
@@ -170,13 +170,13 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 1.  Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **Explorador de Windows**.  
   
-2.  Cree las siguientes carpetas en la unidad de instalación de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+2.  Cree las siguientes carpetas en la unidad de instalación de BizTalk Server:  
   
-    -   *\<unidad >*:**\Temp**  
+    -   *\<unidad\>*:**\Temp**  
   
-    -   *\<unidad >*:**\Temp\Send**  
+    -   *\<unidad\>*:**\Temp\Send**  
   
-    -   *\<unidad >*:**\Temp\Receive**  
+    -   *\<unidad\>*:**\Temp\Receive**  
   
 3.  Para cerrar el Explorador de Windows, en la **archivo** menú, haga clic en **cerrar**.  
   
@@ -205,7 +205,7 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
     |Use|Para|  
     |--------------|----------------|  
     |**Nombre**|Tipo de **AdapterSend**.|  
-    |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y haga clic en **configurar**.<br /><br /> -En el **directorio** , escriba   ***\<unidad >*: \Temp\Send**.<br />-En el **modo de archivo** cuadro, seleccione **CreateNew**.<br />-En el **nombre de archivo** , escriba **%MessageID%.xml**.<br />-Haga clic en **Aceptar**.<br />-El **URI** campo debería mostrar   ***\<unidad >*: \Temp\Send\\%MessageID%.xml**.|  
+    |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y haga clic en **configurar**.<br /><br /> -En el **directorio** , escriba   ***\<unidad\>*: \Temp\Send**.<br />-En el **modo de archivo** cuadro, seleccione **CreateNew**.<br />-En el **nombre de archivo** , escriba **%MessageID%.xml**.<br />-Haga clic en **Aceptar**.<br />-El **URI** campo debería mostrar   ***\<unidad\>*: \Temp\Send\\%MessageID%.xml**.|  
     |**Canalización de envío**|Seleccione **PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)**y, a continuación, haga clic en **Aceptar**.|  
   
 11. En el **BizTalk Application 1** nodo haga clic en **puertos de recepción**y seleccione **puerto de recepción unidireccional / nueva**.  
@@ -224,9 +224,9 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
     |--------------|----------------|  
     |**Nombre**|Tipo de **AdapterReceiveLocation**|  
     |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y presione **configurar** para tener acceso a las propiedades restantes.|  
-    |**URI**|-Haga clic en el botón de puntos suspensivos (**...** ).<br />-En el **número Of Files In Batch** , escriba **20**.<br />-En el **directorio** , escriba   ***\<unidad >*: \Temp\Receive**.<br />-Asegúrese de que el **máscara de archivo** propiedad está establecida en  **\*.xml**.<br />-En el **intervalo de sondeo** , escriba **5**y haga clic en **Aceptar**.<br />-Asegúrese de que el **URI** etiqueta contiene   ***\<unidad >*: \Temp\Receive\\\*.xml**.|  
+    |**URI**|-Haga clic en el botón de puntos suspensivos (**...** ).<br />-En el **número Of Files In Batch** , escriba **20**.<br />-En el **directorio** , escriba   ***\<unidad\>*: \Temp\Receive**.<br />-Asegúrese de que el **máscara de archivo** propiedad está establecida en  **\*.xml**.<br />-En el **intervalo de sondeo** , escriba **5**y haga clic en **Aceptar**.<br />-Asegúrese de que el **URI** etiqueta contiene   ***\<unidad\>*: \Temp\Receive\\\*.xml**.|  
     |**Controlador de recepción**|Seleccione **BizTalkServerApplication** en la lista desplegable.|  
-    |**La canalización de recepción**|Seleccione **XMLReceive** en la lista desplegable.|  
+    |**Canalización de recepción**|Seleccione **XMLReceive** en la lista desplegable.|  
   
 17. Haga clic en **Aceptar**.  
   
@@ -239,7 +239,7 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 1.  Iniciar **símbolo del sistema de Visual Studio**.  
   
-2.  En el símbolo del sistema, cambie el directorio actual a la \< *ruta de ejemplos*>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter instrumento** directory.  
+2.  En el símbolo del sistema, cambie el directorio actual a la \< *ruta de ejemplos*\>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter instrumento** directory.  
   
 3.  En el símbolo del sistema, escriba **sn – k AdapterHarness.snk**y presione ENTRAR.  
   
@@ -310,11 +310,11 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 ##### <a name="to-test-the-sample-static-adapter-runtime"></a>Para probar el adaptador estático de ejemplo en tiempo de ejecución  
   
-1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*>**\AdaptersDevelopment\File adaptador** directorio y copie el archivo InstanceXML.xml en el Portapapeles.  
+1.  En el Explorador de Windows, navegue hasta la \< *ruta de ejemplos*\>**\AdaptersDevelopment\File adaptador** directorio y copie el archivo InstanceXML.xml en el Portapapeles.  
   
-2.  Vaya a  *\<unidad >*:**\Temp\Receive** y pegue el archivo Instance.xml en la carpeta.  
+2.  Vaya a  *\<unidad\>*:**\Temp\Receive** y pegue el archivo Instance.xml en la carpeta.  
   
-     Si la transmisión y recepción trabajan adaptadores, debe mover el archivo de la  *\<unidad >*:**\Temp\Receive** carpeta a la  *\<unidad >*:**\Temp\Send** carpeta.  
+     Si la transmisión y recepción trabajan adaptadores, debe mover el archivo de la  *\<unidad\>*:**\Temp\Receive** carpeta a la  *\<unidad \>* :**\Temp\Send** carpeta.  
   
 ##### <a name="to-test-the-sample-add-adapter-wizard-functionality-for-the-sample-static-adapter"></a>Para probar la funcionalidad del Asistente para agregar adaptador de ejemplo del adaptador estático de ejemplo  
   
@@ -348,4 +348,4 @@ El ejemplo del adaptador de archivo está escrito en Microsoft Visual C# .NET pa
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de adaptadores - uso](../core/adapter-samples-usage.md)   
- [Registrar un adaptador](../core/registering-an-adapter.md)
+ [Registro de un adaptador](../core/registering-an-adapter.md)

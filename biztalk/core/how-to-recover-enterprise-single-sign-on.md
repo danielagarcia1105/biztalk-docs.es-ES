@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0fa0c0b5435e235a07046f311a971a0036dc8346
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a87404e608789fa3dba003f3aba6155c5f049e8d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-enterprise-single-sign-on"></a>Cómo recuperar el inicio de sesión único (SSO) empresarial
 Antes de poder recuperar BizTalk Server, es preciso recuperar el inicio de sesión único (SSO) empresarial.  
@@ -60,9 +60,9 @@ Antes de poder recuperar BizTalk Server, es preciso recuperar el inicio de sesi�
   
 10. En el símbolo del sistema, escriba:  
   
-     **ssoconfig - restoreSecret***\<backupfile >*   
+     **ssoconfig - restoreSecret***\<backupfile  \>*  
   
-     donde  *\<backupfile >* es el nombre del archivo secreto maestro que hizo copia de seguridad.  
+     donde  *\<backupfile\>*  es el nombre del archivo secreto maestro que hizo copia de seguridad.  
   
      Cuando **ssoconfig** le pide la contraseña del archivo de copia de seguridad, escriba la contraseña que se especificó durante la configuración de SSO. Si la contraseña es correcta, **ssoconfig** muestra el siguiente mensaje:  
   

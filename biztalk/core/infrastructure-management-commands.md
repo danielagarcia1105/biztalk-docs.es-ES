@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ae58ea03f394b0fe8b7223bdd810dbc72ccb2472
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c82dc5cb65156af86e66abfeffef206f18add5cb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="infrastructure-management-commands"></a>Comandos de administración de infraestructura
 Los comandos de configuración de la utilidad de administración de BAM (BM) permiten obtener y actualizar la configuración de BAM.  
@@ -38,15 +38,15 @@ Los comandos de configuración de la utilidad de administración de BAM (BM) per
 ## <a name="get-config-command"></a>Comando get-config  
  **Uso**  
   
- **bm.exe get-config - FileName:\<archivo de salida > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-config - FileName:\<archivo de salida\> [-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Nombre de archivo:\<archivo de salida >|Ruta de acceso y nombre del archivo en el que se va a guardar el archivo de configuración.|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se va a obtener la configuración. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos que se va a obtener la configuración. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Nombre de archivo:\<archivo de salida\>|Ruta de acceso y nombre del archivo en el que se va a guardar el archivo de configuración.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se va a obtener la configuración. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos que se va a obtener la configuración. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Recupera el archivo XML de configuración de BAM y lo guarda en el archivo especificado. El **get-config** comando no sobrescribirá el archivo existente.  
   
@@ -60,13 +60,13 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
 ## <a name="update-config-command"></a>Comando update-config  
  **Uso**  
   
- **bm.exe update-config - FileName:\<el archivo de configuración >**  
+ **bm.exe update-config - FileName:\<el archivo de configuración\>**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Nombre de archivo:\<el archivo de configuración >|Ruta y nombre del archivo de configuración desde el que se va a actualizar la infraestructura de BAM.|  
+|Nombre de archivo:\<el archivo de configuración\>|Ruta y nombre del archivo de configuración desde el que se va a actualizar la infraestructura de BAM.|  
   
  Actualiza la configuración en el equipo local desde un archivo que contiene el XML de configuración de BAM. Puede agregar nombres de servidor y de base de datos que todavía no existan en la configuración actual. Si cambia los nombres de servidor o de base de datos que ya tengan implementada la infraestructura dinámica se generará un error y bm.exe lo informará.  
   
@@ -74,7 +74,7 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
   
  Para cambiar la ubicación de entrega de archivos, modifique la siguiente línea del archivo de configuración de BAM.  
   
- \<Nombre de propiedad = "FileDropUNC" >\\\\< nombre de equipo\>\alerts \< /Property >  
+ \<Nombre de propiedad = "FileDropUNC"\>\\\\< nombre de equipo\>\alerts \< /Property\>  
   
  Para que conocer los pasos adecuados actualizar las referencias, vea [copia de seguridad y restauración de BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md).  
   
@@ -90,14 +90,14 @@ bm.exe update-config -FileName:MyConfig.xml
 ## <a name="get-changes-command"></a>Comando get-changes  
  **Uso**  
   
- **bm.exe get-changes [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-changes [-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la base de datos de importación principal de BAM. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: Si no se especifica el nombre, bm.exe utiliza el nombre predeterminado BamPrimaryImport.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la base de datos de importación principal de BAM. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: Si no se especifica el nombre, bm.exe utiliza el nombre predeterminado BamPrimaryImport.|  
   
  Obtiene una lista de cambios aplicados a la base de datos de importación principal de BAM. Puede utilizar este comando para auditar cambios a la infraestructura de BAM. El comando devuelve la información siguiente:  
   
@@ -128,15 +128,15 @@ bm.exe get-changes
 ## <a name="get-defxml-command"></a>Comando get-defxml  
  **Uso**  
   
- **bm.exe get-defxml - FileName:\<archivo de salida > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-defxml - FileName:\<archivo de salida\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Nombre de archivo:\<archivo de salida >|Ruta y nombre del archivo en el que se van a guardar las definiciones.|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se va a obtener las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos que se va a obtener las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Nombre de archivo:\<archivo de salida\>|Ruta y nombre del archivo en el que se van a guardar las definiciones.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se va a obtener las definiciones. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos que se va a obtener las definiciones. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Recupera todos los artefactos de la base de datos de importación principal de BAM y los guarda en un archivo como XML. El comando no sobrescribirá archivos existentes.  
   

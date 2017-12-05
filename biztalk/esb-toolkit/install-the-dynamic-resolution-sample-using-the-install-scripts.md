@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95145af75916001895c03bd0b2665894a43083cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 872bb73b9060e25986876c1c2da71afae84b5c52
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-dynamic-resolution-sample-using-the-install-scripts"></a>Instalar el ejemplo de resolución dinámica con los Scripts de instalación
 En esta sección se describe cómo puede instalar el ejemplo de resolución dinámica de las secuencias de comandos de instalación proporcionadas con el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  
@@ -43,7 +43,7 @@ En esta sección se describe cómo puede instalar el ejemplo de resolución din�
   
 4.  En el **ejecutar** cuadro de diálogo, escriba **cmd**, y, a continuación, presione ENTRAR para abrir el símbolo del sistema.  
   
-5.  Ejecute el comando siguiente, reemplazando el \<ruta de acceso > parámetro con la ruta de acceso completa al archivo .cmd que desea instalar (la ruta predeterminada en esta versión es \Source\Samples\DynamicResolution\Install\Scripts\\):  
+5.  Ejecute el comando siguiente, reemplazando el \<ruta de acceso\> parámetro con la ruta de acceso completa al archivo .cmd que desea instalar (la ruta predeterminada en esta versión es \Source\Samples\DynamicResolution\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

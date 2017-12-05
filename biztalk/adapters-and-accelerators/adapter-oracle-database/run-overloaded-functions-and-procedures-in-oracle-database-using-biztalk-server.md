@@ -13,29 +13,29 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4616c097a04bbf84ce2a51808e98479ca1cd0604
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30d036313a69025e7fcf0e37116fc729623ac782
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>Invocar funciones sobrecargadas y los procedimientos de la base de datos de Oracle mediante BizTalk Server
 Funciones y procedimientos almacenados se pueden sobrecargar en una base de datos de Oracle. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite sobrecarga funciones y procedimientos, cambie el espacio de nombres de destino de la operación. Por ejemplo, la estructura del mensaje para ver los dos procedimientos sobrecargados el siguiente aspecto:  
   
 ```  
 Stored Procedure Overload 1:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
-  \<[PRM1_NAME]>value1\</[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
+  <[PRM1_NAME]>value1</[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
   
 Stored Procedure Overload 2:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
-  \<[PRM1_NAME]>value1\</I_[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</I_[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
+  <[PRM1_NAME]>value1</I_[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</I_[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
 ```  
   
  La estructura del mensaje SOAP y la acción SOAP necesarios para invocar una función sobrecargada o procedimiento es similar a invocar una función y el procedimiento, tal y como se describe en la sección [esquemas de mensaje para funciones y procedimientos](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md).  
@@ -265,7 +265,7 @@ Stored Procedure Overload 2:
  La orquestación consume los mensajes de solicitud y los envía a la base de datos de Oracle. La respuesta de la base de datos de Oracle se guarda en otra ubicación de archivo definido como parte de la orquestación. Por ejemplo, la respuesta para invocar el primer procedimiento sobrecargado es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_ACCOUNTResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT/overload1">  
  <ACCT>  
   <ACCTID>100001</ACCTID>  

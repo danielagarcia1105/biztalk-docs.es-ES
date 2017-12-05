@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df98f717c71198d4be6f8d13eaa539e5c1e16786
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 21003c4d3565158945e91371fa760cf97692b472
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshooting-biztalk-server-performance"></a>Solucionar problemas de rendimiento de BizTalk Server
 Esta sección contiene directrices generales para diagnosticar y resolver problemas de rendimiento relacionados con el motor de mensajería de BizTalk.  
@@ -84,7 +84,7 @@ Esta sección contiene directrices generales para diagnosticar y resolver proble
   
 -   El Analizador de SQL Server se puede utilizar para capturar instrucciones Transact-SQL enviadas al servidor SQL Server y conjuntos de resultados de SQL Server de estas instrucciones. Ya que BizTalk Server está integrado estrechamente con el servidor SQL Server, el análisis de la traza del Analizador de SQL Server puede ser una herramienta útil para analizar problemas que se puedan producir en BizTalk Server al leer o escribir a bases de datos del servidor SQL Server. Para obtener información acerca del uso del Analizador de SQL Server, vea la documentación de SQL Server.  
   
--   El Editor de consultas de [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] se puede usar para ejecutar instrucciones SQL directamente en bases de datos de SQL Server. Esta funcionalidad puede resultar útil para realizar consultas en las bases de datos de BizTalk Server o para actualizarlas en determinados escenarios. Para obtener más información sobre el Editor de consultas, vea la documentación de [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)].  
+-   El Editor de consultas de SQL Server puede utilizarse para ejecutar instrucciones SQL directamente en las bases de datos de SQL Server. Esta funcionalidad puede resultar útil para realizar consultas en las bases de datos de BizTalk Server o para actualizarlas en determinados escenarios. Para obtener más información sobre el Editor de consultas, consulte la documentación de SQL Server.  
   
 -   Revisión [solución de problemas de SQL Server](../core/troubleshooting-sql-server.md) para obtener información adicional.  
   

@@ -17,11 +17,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b218fa44b93211fdb51080d68b429744b5aabf72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12fb3eca6db9ceafeeab9b0b276bfd6f3cb23b16
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service"></a>Cómo utilizar el Asistente para consumición del Servicio WCF de BizTalk para consumir un Servicio WCF
 El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de adaptador y tipos de BizTalk a proyectos de BizTalk. El Asistente para consumición del Servicio WCF de BizTalk le permite agregar adaptadores de envío WCF a un proyecto de BizTalk. Para los adaptadores de envío WCF, debe seleccionar un extremo de intercambio de metadatos (MEX) existente en los puertos de envío. A continuación tendrá que especificar la información que se ha utilizado para generar los tipos y los esquemas. Una vez que ha finalizado el asistente, los esquemas y los tipos necesarios para consumir servicios WCF se agregan al proyecto de BizTalk.  
@@ -30,7 +30,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
   
 1.  En la Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, en el Explorador de soluciones, haga clic en el proyecto, haga clic en **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **consumir servicio WCF**y, a continuación, haga clic en **agregar**.  
+2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **\>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **consumir servicio WCF**y, a continuación, haga clic en **agregar**.  
   
 3.  En el **éste es el Asistente para consumición de servicio de BizTalk WCF** página, haga clic en **siguiente**.  
   

@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 03bbbade73537dd54a9289d2a107eaf41d0e335e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 644a6f017fee38db684fb0461bd6fa94aed65e15
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-alerts"></a>Cómo quitar alertas BAM
 Los administradores utilizan el **remove-alerts** comando para quitar todas las alertas de una vista determinada.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **remove-alerts** comando para quitar todas las 
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Tipo de **bm remove-alerts-View:\<nombre de vista >**.  
+3.  Tipo de **bm remove-alerts-View:\<nombre de la vista\>**.  
   
 4.  Presione **ENTRAR**.  
   

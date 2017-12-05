@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1dc83a0531460f513d146e2d03d0ef7e0a7c529f
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: fe869b76a155acb326420c3d5c29850548d8b7ff
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-publish-the-siebel-business-component-operations-as-a-wcf-service"></a>Paso 1: Publicar las operaciones de componente de negocios de Siebel como un servicio WCF
 ![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -34,7 +34,7 @@ ms.lasthandoff: 10/17/2017
   
 -   El cliente de Siebel requerido.  
   
- Para obtener más información sobre estos requisitos previos, consulte la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación. La Guía de instalación se instala normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ Para obtener más información sobre estos requisitos previos, consulte la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación. La Guía de instalación se instala normalmente en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 ## <a name="publish-the-siebel-business-components-as-a-wcf-service"></a>Publicar los componentes de negocios de Siebel como un servicio WCF  
   
@@ -167,7 +167,7 @@ ms.lasthandoff: 10/17/2017
   
     1.  Inicie la consola de administración de Microsoft IIS. Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services**.  
   
-    2.  Desplácese hasta el nodo donde se publica el servicio. Para el **Siebel_Account** de servicio, vaya a **Internet Information Services** > **\<nombre_equipo >**  >   **Sitios Web** > **sitio Web predeterminado** > **Siebel_Account**.  
+    2.  Desplácese hasta el nodo donde se publica el servicio. Para el **Siebel_Account** de servicio, vaya a **Internet Information Services** > **\<nombre_equipo\>**   >  **Sitios Web** > **sitio Web predeterminado** > **Siebel_Account**.  
   
     3.  En el panel derecho, haga clic en el archivo BusinessObjects_Account_Account_Operation.svc y, a continuación, haga clic en **examinar**.  
   
@@ -181,4 +181,4 @@ ms.lasthandoff: 10/17/2017
  Ahora tiene un servicio WCF para el componente de negocio de Siebel. Utilice el Editor de definición del catálogo de datos profesionales para crear un archivo de definición de aplicación para las operaciones de componente de negocio de Siebel. Vea [paso 2: crear un archivo de definición de aplicación para operaciones de componente de negocio de Siebel](../../adapters-and-accelerators/adapter-siebel/step-2-create-an-application-definition-file-for-siebel-business-component.md) para obtener instrucciones. El archivo de definición de aplicación identifica donde se almacenan los datos LOB y el formato en el que se almacena.  
   
 ## <a name="see-also"></a>Vea también  
- [Tutorial 1: Presentar datos desde un sistema Siebel en un sitio de SharePoint](../../adapters-and-accelerators/adapter-siebel/tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site.md)
+ [Tutorial 1: Presentación de datos de un sistema de Siebel en un sitio de SharePoint](../../adapters-and-accelerators/adapter-siebel/tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site.md)

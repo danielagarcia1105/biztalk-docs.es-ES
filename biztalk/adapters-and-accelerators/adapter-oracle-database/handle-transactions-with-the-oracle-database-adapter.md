@@ -12,16 +12,16 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d45355100e728220745620e1c0df3552f523f649
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5072a49c9edc5dc8ce03ec819d6042b640b94a47
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="handle-transactions-with-the-oracle-database-adapter"></a>Controlar las transacciones con el adaptador de la base de datos de Oracle
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]no se inicia una transacción al realizar una operación en la base de datos de Oracle. En su lugar, el adaptador realiza las operaciones mediante el contexto de transacción proporcionado por los clientes de adaptador. Para poder realizar operaciones en una transacción usando el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], debe:  
   
--   Habilitar transacciones en los clientes de adaptador. Por ejemplo, para habilitar las transacciones en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], debe seleccionar la **Use Transaction** casilla de verificación en la **transacciones** área no cliente de la **mensajes** pestaña para un Puerto de WCF-Custom o WCF-OracleDB.  
+-   Habilitar transacciones en los clientes de adaptador. Por ejemplo, para habilitar las transacciones en el servidor BizTalk Server, debe seleccionar la **Use Transaction** casilla de verificación en la **transacciones** área no cliente de la **mensajes** pestaña para un WCF-Custom o Puerto de WCF-OracleDB.  
   
 -   Establezca el valor de la **UseAmbientTransaction** enlazar la propiedad a **True** en el adaptador. Para obtener más información acerca de la propiedad de enlace, vea [configurar las propiedades de enlace de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
   
@@ -41,4 +41,4 @@ ms.lasthandoff: 09/20/2017
  Para obtener más información acerca de las operaciones de entrada obtenidas por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [¿cómo los metadatos de adaptador superficie Oracle?](https://msdn.microsoft.com/library/cc185310(v=bts.10).aspx).  
   
 ## <a name="see-also"></a>Vea también  
- [Información general sobre el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)
+ [Información general sobre el adaptador de BizTalk para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 122d821754fb6df447067d18f6f5da02b79058e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c5096539b86512e51756d3a872ff566872ff520f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-tables-that-contain-bfile-data-types"></a>Operaciones en tablas que contienen tipos de datos BFILE
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] es compatible con el tipo de datos BFILE en tablas y procedimientos almacenados. 
@@ -33,7 +33,7 @@ En la tabla siguiente se resume el tipo de datos BFILE expuestos por el adaptado
 |PROCEDIMIENTO ALMACENADO|PARÁMETRO DE SALIDA|String|Representa la ruta de acceso lógica del directorio de Oracle en el archivo que se va a insertar en la columna BFILE<br /><br /> Por ejemplo: MYDIR/screen.jpg donde MYDIR es un directorio lógico de Oracle|  
 |PROCEDIMIENTO ALMACENADO|INOUT PARAM|No se admite|-|  
   
- La operación especial `Read_<LOBColName>` también se admite en las tablas con el tipo de datos BFILE, donde \<LOBColName > es el nombre de columna LOB de la tabla. El `Update_<LOBColName>` operación no es compatible con el tipo de datos BFILE. Los clientes de adaptador o bien pueden usar la operación de actualización.  
+ La operación especial `Read_<LOBColName>` también se admite en las tablas con el tipo de datos BFILE, donde \<LOBColName\> es el nombre de columna LOB de la tabla. El `Update_<LOBColName>` operación no es compatible con el tipo de datos BFILE. Los clientes de adaptador o bien pueden usar la operación de actualización.  
   
 ## <a name="more-good-info"></a>Más información válida  
   

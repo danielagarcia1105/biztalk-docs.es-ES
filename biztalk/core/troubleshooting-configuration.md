@@ -12,11 +12,11 @@ caps.latest.revision: "37"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c16e2ee6d09afa3479a0540838086cb92270132
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e523c5c992ea422e6fe81f3c0d948db7007bcdb1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-configuration"></a>Solucionar problemas de configuración
 El programa de configuración de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] crea bases de datos en uno o varios de los equipos que ejecutan [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], rellena las bases de datos con tablas, funciones y procedimientos almacenados que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e implementa los ensamblados .NET que se usan durante el tiempo de ejecución en la base de datos de administración de BizTalk.  
@@ -151,7 +151,7 @@ echo %TEMP%
   
  No se puede establecer la conexión al repositorio.  
   
- Servidor de análisis: \<nombre de equipo >  
+ Servidor de análisis: \<nombre de equipo\>  
   
  Error:  
   
@@ -175,7 +175,7 @@ echo %TEMP%
   
 4.  En el **Editar cadena de conexión de repositorio** diálogo cuadro, compruebe el nombre del servidor de esta cadena y actualícelo con el nuevo nombre del equipo si es incorrecto.  
   
-5.  Vaya a la siguiente ubicación: \< *directorio de instalación*> \Program Analysis Services\Bin.  
+5.  Vaya a la siguiente ubicación: \< *directorio de instalación de*\>\Program Analysis Services\Bin.  
   
 6.  Haga clic en el **Bin** carpeta y, a continuación, haga clic en **compartir y seguridad**. El **propiedades de Bin** aparece el cuadro de diálogo.  
   

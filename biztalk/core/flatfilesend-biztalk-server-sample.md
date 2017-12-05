@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9bdbc0d4e06e5d6980ec984c8c701f4ee7ded7ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a9e967a8127a07b561e950b084bf799b0e2a4ee
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="flatfilesend-biztalk-server-sample"></a>FlatFileSend (ejemplo de BizTalk Server)
 El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo XML en el archivo sin formato equivalente.  
@@ -45,7 +45,7 @@ El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVer
  Estos elementos se combinan para producir una solución que acepta mensajes de pedido de compra en formato XML en la ubicación de recepción y escribe un pedido de compra de archivo sin formato en la ubicación de envío.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileSend  
+ *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -66,13 +66,13 @@ El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVer
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileSend  
+     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileSend  
+         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
   
     -   Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
@@ -114,9 +114,9 @@ El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVer
 -   **BTSTask RemoveApp** para quitar flatfilesendapplication.  
   
 ## <a name="see-also"></a>Vea también  
--  [Esquemas de archivo sin formato](../core/flat-file-schemas.md)   
+-  [Esquemas de archivos sin formato](../core/flat-file-schemas.md)   
 -  [Canalizaciones predeterminadas](../core/default-pipelines.md)   
--  [Las canalizaciones-AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+-  [Pipelines\AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
 -  **Ejemplos de scripts WMI**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
 -  [Referencia de línea de comandos de BTSTask](../core/btstask-command-line-reference.md)   
 -  [FlatFileReceive (ejemplo de BizTalk Server)](../core/flatfilereceive-biztalk-server-sample.md)

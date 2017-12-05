@@ -18,19 +18,19 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f204efd00858f3f4204848f4fb4a0dcef5233b3c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 45f9fd544b690031a14a53b829e5647890bf8e67
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="creating-the-contoso-lob-schemas-and-maps"></a>Creando los esquemas y asignaciones de LOB de Contoso
-En esta sección, creará los esquemas de línea de negocio (LOB) que la organización Contoso usa en su sistema ERP. Usa el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] herramienta asignador para crear transformaciones de datos entre los mensajes internos de Contoso y los tipos de mensajes de RosettaNet entrantes y salientes.  
+En esta sección, creará los esquemas de línea de negocio (LOB) que la organización Contoso usa en su sistema ERP. Usa el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® herramienta asignador de BizTalk Server para crear transformaciones de datos entre los mensajes internos de Contoso y los tipos de mensajes de RosettaNet entrantes y salientes.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Paso 1: Crear una nueva solución de BizTalk para la solicitud de disponibilidad y el precio de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-1-create-new-biztalk-solution-for-contoso-price-and-availability-request.md)  
+-   [Paso 1: Creación de una solución de BizTalk para la solicitud de precio y disponibilidad de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-1-create-new-biztalk-solution-for-contoso-price-and-availability-request.md)  
   
--   [Paso 2: Crear los esquemas de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el Editor de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-contoso-lob-application-schema-for-price-and-availability.md)  
+-   [Paso 2: Creación de los esquemas de aplicación de LOB de Contoso para el proyecto Precio y disponibilidad mediante el Editor de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-contoso-lob-application-schema-for-price-and-availability.md)  
   
--   [Paso 3: Crear las asignaciones de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el asignador de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)
+-   [Paso 3: Creación de los mapas de aplicación de LOB de Contoso para el proyecto Precio y disponibilidad mediante el Asignador de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e990e402b0b05c530764d578219adccc386b82cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db996437cce8cb6f89fb00b589fcbc95429e72f2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="flatfilereceive-biztalk-server-sample"></a>FlatFileReceive (ejemplo de BizTalk Server)
 El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo sin formato en el archivo .xml equivalente.  
@@ -51,7 +51,7 @@ El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNo
 -   XMLTransmit se utiliza como la canalización de envío. Utilice la canalización PassThruTransmit cuando no resulte necesario realizar la degradación de la propiedad u otro procesamiento de mensajes en el puerto de envío.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
+ *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -72,13 +72,13 @@ El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNo
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso >*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
     -   Compila e implementa el proyecto de Visual Studio para este ejemplo.  
   
@@ -120,9 +120,9 @@ El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNo
 -   **BTSTask RemoveApp** para quitar flatfilereceiveapplication.  
   
 ## <a name="see-also"></a>Vea también  
--  [Las canalizaciones-AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
--  [Componente de canalización de desensamblador de archivos sin formato](../core/flat-file-disassembler-pipeline-component.md)   
--  [Esquemas de archivo sin formato](../core/flat-file-schemas.md)   
+-  [Pipelines\AssemblerDisassembler (carpeta de ejemplos de BizTalk Server)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+-  [Desensamblador de archivos sin formato [componente de canalización]](../core/flat-file-disassembler-pipeline-component.md)   
+-  [Esquemas de archivos sin formato](../core/flat-file-schemas.md)   
 -  [Canalizaciones predeterminadas](../core/default-pipelines.md)   
 -  **Ejemplos de scripts WMI**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
 -  [Referencia de línea de comandos de BTSTask](../core/btstask-command-line-reference.md)   

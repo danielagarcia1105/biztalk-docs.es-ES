@@ -13,11 +13,11 @@ caps.latest.revision: "68"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 29af2ae479f1927665ddbb3171a64cd5b6ccfe3d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="glossary"></a>Glosario
 En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usan los términos y definiciones siguientes.  
@@ -207,8 +207,8 @@ En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiz
 |----------|----------------|  
 |ENRUTAMIENTO|Vea Intercambio electrónico de datos.|  
 |EDIFACT|Vea Intercambio electrónico de datos para administración, comercio y transporte (EDIFACT).|  
-|sintaxis EDIFACT UNOA|Sintaxis EDIFACT que permite a los siguientes caracteres: letras mayúsculas, todos los dígitos, espacio en blanco, signo de admiración (!), comillas dobles ("), signo de porcentaje (%)," y "comercial (&), la apertura y el paréntesis de cierre ("("y")"), asterisco (*), coma, guión (-), punto decimal (.), barra diagonal (/), punto y coma (;), menos-de inicio de sesión (\<) y versiones posteriores-que (>) de inicio de sesión.|  
-|sintaxis EDIFACT UNOB|Sintaxis EDIFACT que permite a los siguientes caracteres: letras mayúsculas y minúsculas, todos los dígitos, espacio en blanco, signo de admiración (!), comillas dobles ("), signo de porcentaje (%)," y "comercial (&), la marca de comillas simples ('), de apertura y cierre de paréntesis ("(" y ")"), asterisco (*), signo más (+), coma, guión (-), punto decimal (.), reenviar barra diagonal (/), dos puntos (:), punto y coma (;), menor-que el inicio de sesión (\<), signo de igual (=), mayor-máximo de inicio de sesión (>) y signo de interrogación (?).|  
+|sintaxis EDIFACT UNOA|Sintaxis EDIFACT que permite a los siguientes caracteres: letras mayúsculas, todos los dígitos, espacio en blanco, signo de admiración (!), comillas dobles ("), signo de porcentaje (%)," y "comercial (&), la apertura y el paréntesis de cierre ("("y")"), asterisco (*), coma, guión (-), punto decimal (.), barra diagonal (/), punto y coma (;), menos-de inicio de sesión (\<) y versiones posteriores: de inicio de sesión (\>).|  
+|sintaxis EDIFACT UNOB|Sintaxis EDIFACT que permite a los siguientes caracteres: letras mayúsculas y minúsculas, todos los dígitos, espacio en blanco, signo de admiración (!), comillas dobles ("), signo de porcentaje (%)," y "comercial (&), la marca de comillas simples ('), de apertura y cierre de paréntesis ("(" y ")"), asterisco (*), signo más (+), coma, guión (-), punto decimal (.), reenviar barra diagonal (/), dos puntos (:), punto y coma (;), menor-que el inicio de sesión (\<), signo de igual (=), mayor-de inicio de sesión (\>) y el signo de interrogación (?).|  
 |EIF|Vea Archivo de entrada del motor (EIF).|  
 |EIP|Vea Plataforma de integración de empresas (EIP).|  
 |Intercambio electrónico de datos (EDI)|Intercambio electrónico de documentos estructurados y normalizados entre dos aplicaciones informáticas, con la utilización de un conjunto de estándares para controlar la transferencia de documentos, por ejemplo, pedidos y facturas, entre equipos.|  

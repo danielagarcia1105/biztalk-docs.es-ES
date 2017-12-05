@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0f6f5cb6403c752b18cbfb1c4370cbe3ca95e65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ff7b45e560278053cec99208fd06917d079d6b8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="guidelines-for-implementing-active-directory-permissions-on-multi-server-biztalk-installations"></a>Directrices para implementar permisos de Active Directory en instalaciones de BizTalk multiservidor
 En este tema se describen las directrices para crear unidades de organización de Active Directory que consisten en las cuentas de usuario y los grupos que se usan en una instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -238,7 +238,7 @@ En este tema se describen las directrices para crear unidades de organización d
 |Administradores de servidor BizTalk Server|Global o universal|-BTUserAdmin<br />-BTUserInstall<br />: Los usuarios de desarrollo de BizTalk<br />: Los usuarios de la implementación de BizTalk|  
 |Usuarios de soporte técnico de BizTalk|Global o universal|BTUserSupport (cuentas de dominio local de usuarios de soporte técnico)|  
 |Administradores de SSO|Global o universal|-SSOService<br />-BTUserInstall<br />: Administrador local|  
-|Administradores afiliados de SSO|Global o universal|: Los usuarios de desarrollo de BizTalk<br />: Los usuarios de la implementación de BizTalk<br />-BTServiceHostIso<br />-   \<usuario de la consola >|  
+|Administradores afiliados de SSO|Global o universal|: Los usuarios de desarrollo de BizTalk<br />: Los usuarios de la implementación de BizTalk<br />-BTServiceHostIso<br />-   \<usuario de la consola\>|  
 |Administradores de Windows SharePoint Services|Global o universal|-SPAdmin<br />-BTUserInstall<br />-BTUserDeploy<br />: Los usuarios de desarrollo de BizTalk<br />: Los usuarios de la implementación de BizTalk|  
   
  Recomendaciones y notas acerca de los grupos de dominios:  
@@ -247,7 +247,7 @@ En este tema se describen las directrices para crear unidades de organización d
   
 -   Los grupos de dominios pueden ser grupos globales o universales.  
   
--   Use  *\<DomainName >\\< nombre de usuario\>*  cuando se especifica la información de la cuenta de dominio en el Asistente para configuración.  
+-   Use  *\<DomainName\>\\< nombre de usuario\>*  cuando se especifica la información de la cuenta de dominio en el Asistente para configuración.  
   
 -   Los grupos y las cuentas de usuario o servicio deben pertenecer al dominio al que pertenece el equipo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (el Asistente para configuración lo comprueba y no muestra cuentas ni grupos que contengan cuentas de otros dominios).  
   
@@ -337,7 +337,7 @@ En este tema se describen las directrices para crear unidades de organización d
 >  Estas recomendaciones están dirigidas únicamente a entornos de desarrollo y compartidos, y no se recomienda o se desaconseja el uso de directivas de contraseñas corporativas. Consulte al administrador de la red para conocer los requisitos de contraseña.  
   
 > [!NOTE]
->  Si la directiva de contraseñas corporativas incluye contraseñas generadas, tenga en cuenta que algunos símbolos y combinaciones de símbolos son caracteres de uso especial en XML. El uso inadecuado de estos caracteres impedirá que los archivos XML de configuración se puedan abrir durante el proceso de configuración. Estos símbolos incluyen "&", "\<", ">", comillas simples y dobles y pueden incluir otros usuarios. Pruebe el archivo XML de configuración antes de ejecutar la configuración basada en archivos. Puede probar de forma confiable el formato XML adecuado mediante la apertura del documento en Internet Explorer (o en un editor de XML) con las contraseñas generadas integradas en él.  
+>  Si la directiva de contraseñas corporativas incluye contraseñas generadas, tenga en cuenta que algunos símbolos y combinaciones de símbolos son caracteres de uso especial en XML. El uso inadecuado de estos caracteres impedirá que los archivos XML de configuración se puedan abrir durante el proceso de configuración. Estos símbolos incluyen "&", "\<","\>", comillas simples y dobles y pueden incluir otros usuarios. Pruebe el archivo XML de configuración antes de ejecutar la configuración basada en archivos. Puede probar de forma confiable el formato XML adecuado mediante la apertura del documento en Internet Explorer (o en un editor de XML) con las contraseñas generadas integradas en él.  
   
  Para obtener más información acerca de la implementación de contraseñas seguras en entornos principales (incluido el método para probar un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] archivo de configuración), consulte [Introducción a la configuración de BizTalk Server 2013 y 2013 R2](http://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
   

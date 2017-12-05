@@ -22,11 +22,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6bd67be0bbe70794f6fe6f77d388b69660e2d1ef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 966ad6ad752c36be36b4013743eaba3af5434d0a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="mapping-a-request-to-a-response-in-a-private-process"></a>Asignar una solicitud a una respuesta en un proceso privado
 Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso de servicio de respuesta privada: desde la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proceso de servicio de respuesta pública, en un mensaje de respuesta que se puede enviar a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el proceso de servicio de respuesta pública.  
@@ -37,11 +37,11 @@ Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso
   
 -   [Solicitud de 3A2 al ejemplo de asignación de respuesta de 3A2](../../adapters-and-accelerators/accelerator-rosettanet/3a2-request-to-3a2-response-map-sample.md)  
   
--   [Solicitud de 3A4 al ejemplo de asignación de respuesta 3A4](../../adapters-and-accelerators/accelerator-rosettanet/3a4-request-to-3a4-response-map-sample.md)  
+-   [Solicitud de 3A4 al ejemplo de asignación de respuesta de 3A4](../../adapters-and-accelerators/accelerator-rosettanet/3a4-request-to-3a4-response-map-sample.md)  
   
 -   [Orquestación PIPAutomation de acción doble](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)  
   
--   [Orquestación de Respondedor privada de 3A4 mediante una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)  
+-   [Orquestación del respondedor privado 3A4 mediante una regla de negocio](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)  
   
 ### <a name="to-create-the-map"></a>Para crear la asignación  
   
@@ -63,7 +63,7 @@ Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso
   
 9. En la ventana del selector de tipos de BizTalk, expanda **referencias**, expanda **Microsoft.Solutions.BTARN.Schemas.RNPIPs**, expanda **esquemas**, seleccione el esquema PIP para el mensaje de respuesta a la que desea asignar y, a continuación, haga clic en **Aceptar**.  
   
-10. Haga clic en el \< *esquema*> nodo del esquema de origen y, a continuación, haga clic en **Expandir nodo de árbol**.  
+10. Haga clic en el \< *esquema* \> nodo del esquema de origen y, a continuación, haga clic en **Expandir nodo de árbol**.  
   
 11. Repita el paso 10 para el esquema de destino.  
   
@@ -71,7 +71,7 @@ Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso
   
 13. Repita el paso 12 para todos los campos que se deben asignar entre los dos esquemas.  
   
-14. Valide y pruebe la asignación. Para obtener más información, vea el tema "Compilar y probar asignaciones" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+14. Valide y pruebe la asignación. Para obtener más información, vea el tema "Compilar y probar asignaciones" en la Ayuda de BizTalk Server.  
   
 ### <a name="to-add-the-map-to-the-orchestration"></a>Para agregar la asignación a la orquestación  
   
@@ -83,7 +83,7 @@ Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso
 2.  En el cuadro de herramientas, haga clic en el **transformar** forma y arrástrelo hasta el punto en la orquestación a la que se tiene que transformar el mensaje de solicitud en el mensaje de respuesta.  
   
     > [!NOTE]
-    >  Para obtener un ejemplo de la colocación de la **transformar** forma, vea la orquestación PIP3A4PrivateResponder.odx. Se encuentra en \< *unidad*>: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR. Este ejemplo pone el **transformar** forma inmediatamente en el **IsActivityDoubleAction** forma. Para obtener más información, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
+    >  Para obtener un ejemplo de la colocación de la **transformar** forma, vea la orquestación PIP3A4PrivateResponder.odx. Se encuentra en \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\PipAutomation\3A4\PR. Este ejemplo pone el **transformar** forma inmediatamente en el **IsActivityDoubleAction** forma. Para obtener más información, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
     > [!NOTE]
     >  Para obtener un ejemplo de cómo se pueden incorporar varias asignaciones para varias PIP, consulte [orquestación de PIPAutomation de doble acción](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md).  

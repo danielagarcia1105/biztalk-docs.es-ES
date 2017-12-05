@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25d24eda11d9547b545445239e783ac3bfee4057
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa55a240669ab9369dd7a1862d3fda055f577edd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-deploying-an-application"></a>Prácticas recomendadas para implementar una aplicación
 Este tema enumeran las prácticas recomendadas que deben seguirse al implementar aplicaciones de BizTalk.  
@@ -33,10 +33,7 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
 ## <a name="creating-a-biztalk-application"></a>Crear una aplicación de BizTalk  
  **Secuencia de comandos de la creación de archivos .msi y aplicación de BizTalk**  
   
--   BtsTask.exe puede utilizarse para generar un script la creación de aplicaciones de BizTalk. Si se crea el script la creación de las aplicaciones, a continuación, los paquetes pueden se generan automáticamente mediante un proceso automatizado en un servidor de compilación. Para obtener más información sobre la creación de aplicaciones de secuencias de comandos, consulte [implementar y administrar aplicaciones de BizTalk](http://go.microsoft.com/fwlink/?LinkID=154210) (http://go.Microsoft.com/fwlink/?) LinkID = 154210) y la [BizTalk Server 2006: descripción de implementación de aplicación de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=101599) (http://go.Microsoft.com/fwlink/?) LinkID = 101599) notas del producto.  
-  
-    > [!NOTE]  
-    >  Las notas del producto también se aplica a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   BtsTask.exe puede utilizarse para generar un script la creación de aplicaciones de BizTalk. Si se crea el script la creación de las aplicaciones, a continuación, los paquetes pueden se generan automáticamente mediante un proceso automatizado en un servidor de compilación. Para obtener más información sobre la creación de aplicaciones de secuencias de comandos, consulte [implementar y administrar aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md).
   
 ## <a name="deploying-a-biztalk-assembly"></a>Implementar un ensamblado de BizTalk  
  **No implemente nunca un ensamblado desde Visual Studio en un equipo de producción**  
@@ -54,7 +51,7 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
   
 -   Si dos o más aplicaciones van a compartir los artefactos, implemente los artefactos compartidos en una aplicación diferente. Por ejemplo, si dos aplicaciones comparten un esquema, coloque el esquema en una aplicación diferente. Se recomienda esto porque sólo un artefacto en un grupo de BizTalk puede tener un único identificador local único (LUID). Un LUID está formada por el nombre del artefacto y, opcionalmente, otros atributos. Si incluye un artefacto en una aplicación y, a continuación, cree una referencia a él desde otra aplicación, la aplicación que hace referencia no funcionen correctamente cuando se detiene la aplicación que contiene el artefacto.  
   
-     Estas prácticas recomendadas se aplican a todos los tipos de artefactos, salvo para archivos, como las secuencias de comandos y los archivos Léame, que se agregan a la aplicación como un tipo de archivo del artefacto. Esto es porque se puede implementar más de un artefacto de archivo con el mismo nombre en un grupo de BizTalk. Por lo tanto, puede utilizar un archivo que tenga el mismo nombre en dos aplicaciones o más. En este caso, detener una aplicación no afectará a la otra aplicación. Para obtener más información acerca de cómo agregar artefactos de archivo, consulte [cómo agregar un archivo a una aplicación](http://go.microsoft.com/fwlink/?LinkId=154997) (http://go.microsoft.com/fwlink/?LinkId=154997).  
+     Estas prácticas recomendadas se aplican a todos los tipos de artefactos, salvo para archivos, como las secuencias de comandos y los archivos Léame, que se agregan a la aplicación como un tipo de archivo del artefacto. Esto es porque se puede implementar más de un artefacto de archivo con el mismo nombre en un grupo de BizTalk. Por lo tanto, puede utilizar un archivo que tenga el mismo nombre en dos aplicaciones o más. En este caso, detener una aplicación no afectará a la otra aplicación. Para obtener más información acerca de cómo agregar artefactos de archivo, consulte [cómo agregar un archivo a una aplicación](../core/how-to-add-a-file-to-an-application.md).  
   
  **Implementar un sitio Web compartido en una aplicación diferente**  
   
@@ -75,7 +72,7 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
   
 -   Implemente varios archivos .msi más pequeños en lugar de un archivo .msi de gran tamaño.  
   
-    -   Aumentar el tiempo de espera de transacción predeterminado de 3.000 segundos asociados con el Microsoft.BizTalk.ApplicationDeployment.Group y los componentes de Microsoft.BizTalk.Deployment.DeployerComponent de la interfaz de administración de servicios de componentes. Estos componentes pertenecen a las aplicaciones de Microsoft.BizTalk.ApplicationDeployment.Engine y Microsoft.Biztalk.Deployment COM +, respectivamente. Para obtener más información, vea el artículo de Microsoft Knowledge Base 287499, [cómo cambiar el valor de tiempo de espera de transacción para MTS o COM +](http://go.microsoft.com/fwlink/?LinkId=109589) (http://go.microsoft.com/fwlink/?LinkId=109589).  
+    -   Aumentar el tiempo de espera de transacción predeterminado de 3.000 segundos asociados con el Microsoft.BizTalk.ApplicationDeployment.Group y los componentes de Microsoft.BizTalk.Deployment.DeployerComponent de la interfaz de administración de servicios de componentes. Estos componentes pertenecen a las aplicaciones de Microsoft.BizTalk.ApplicationDeployment.Engine y Microsoft.Biztalk.Deployment COM +, respectivamente. Para obtener más información, vea el artículo de Microsoft Knowledge Base 287499, [cómo cambiar el valor de tiempo de espera de transacción para MTS o COM +](https://support.microsoft.com/help/287499/how-to-change-the-transaction-time-out-value-for-mts-or-com).  
   
  **Evitar que se sobrescriban los enlaces**  
   
@@ -83,7 +80,7 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
   
  **Asegúrese de que el archivo .msi es seguro**  
   
--   Un archivo .msi puede contener datos confidenciales. Asegúrese de seguir los pasos necesarios para ayudar a garantizar que el archivo es seguro. Para obtener más información acerca de la seguridad del archivo .msi, consulte [seguridad y Windows Installer](http://go.microsoft.com/fwlink/?LinkId=154998) (http://go.microsoft.com/fwlink/?LinkId=154998).  
+-   Un archivo .msi puede contener datos confidenciales. Asegúrese de seguir los pasos necesarios para ayudar a garantizar que el archivo es seguro. Para obtener más información acerca de la seguridad del archivo .msi, consulte [seguridad y Windows Installer](../core/security-and-windows-installer.md).  
   
  **Asegúrese de que el archivo de enlace es seguro**  
   
@@ -96,12 +93,12 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
 ## <a name="importing-a-biztalk-application"></a>Importar una aplicación de BizTalk  
  **La importación de archivos .msi de la secuencia de comandos**  
   
--   BtsTask.exe puede utilizarse para generar script de la importación de los archivos .msi de BizTalk existentes. Para obtener más información acerca del scripting importar de archivo .msi, consulte [implementar y administrar aplicaciones de BizTalk](http://go.microsoft.com/fwlink/?LinkID=154210) (http://go.Microsoft.com/fwlink/?) LinkID = 154210) y la [BizTalk Server 2006: descripción de implementación de aplicación de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=101599) (http://go.Microsoft.com/fwlink/?) LinkID = 101599) notas del producto.  
+-   BtsTask.exe puede utilizarse para generar script de la importación de los archivos .msi de BizTalk existentes. Para obtener más información acerca del scripting importar de archivo .msi, consulte [implementar y administrar aplicaciones de BizTalk](../core/deploying-and-managing-biztalk-applications.md). 
   
     > [!NOTE]  
-    >  Las notas del producto también se aplica a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  Las notas del producto también se aplica a BizTalk Server.  
   
--   Puede agregar scripts para que se ejecute como secuencias de comandos previas y posteriores al procesamiento. Sin embargo, tendrá que incluir una lógica en las secuencias de comandos para comprobar las variables de entorno para determinar qué contexto se ejecuta la secuencia de comandos en (una importación, instalación o desinstalación) y procesar según corresponda. Para obtener más información sobre el uso de secuencias de comandos previas y posteriores al procesamiento, consulte [mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones](http://go.microsoft.com/fwlink/?LinkId=154995) (http://go.microsoft.com/fwlink/?LinkId=154995).  
+-   Puede agregar scripts para que se ejecute como secuencias de comandos previas y posteriores al procesamiento. Sin embargo, tendrá que incluir una lógica en las secuencias de comandos para comprobar las variables de entorno para determinar qué contexto se ejecuta la secuencia de comandos en (una importación, instalación o desinstalación) y procesar según corresponda. Para obtener más información sobre el uso de secuencias de comandos previas y posteriores al procesamiento, consulte [mediante secuencias de comandos previas y posteriores al procesamiento para personalizar la implementación de aplicaciones](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md). 
   
  **Comprobar la existencia de artefactos que se hace referencia**  
   
@@ -117,4 +114,4 @@ Este tema enumeran las prácticas recomendadas que deben seguirse al implementar
   
  **Si se agota el tiempo de espera de una operación de importación, divida la aplicación en archivos .msi adicionales**  
   
--   Una operación de importación agotará el tiempo si supera 3600 segundos de duración. Si está intentando importar un archivo .msi y agota el tiempo de espera de la operación, debería dividir el contenido de la aplicación en más de un archivo .msi exportando de nuevo la aplicación y seleccionando un subconjunto de artefactos para exportarlos. Para obtener más información acerca de cómo exportar una aplicación a un archivo .msi, consulte [cómo exportar una aplicación de BizTalk](http://go.microsoft.com/fwlink/?LinkID=154848) (http://go.microsoft.com/fwlink/?LinkID=154848).
+-   Una operación de importación agotará el tiempo si supera 3600 segundos de duración. Si está intentando importar un archivo .msi y agota el tiempo de espera de la operación, debería dividir el contenido de la aplicación en más de un archivo .msi exportando de nuevo la aplicación y seleccionando un subconjunto de artefactos para exportarlos. Para obtener más información acerca de cómo exportar una aplicación a un archivo .msi, consulte [exportar una aplicación de BizTalk](../core/how-to-export-a-biztalk-application.md).

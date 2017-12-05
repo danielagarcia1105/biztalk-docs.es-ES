@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d922c0acecf81a96b0e40cebf739e7b56c5ffd3e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b8a15ab9258c9212c2fa6fdd6557227f534a86c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="publishing-service-metadata-for-the-wcf-receive-adapters"></a>Publicar metadatos de servicio para los adaptadores de recepción WCF
 Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear servicios WCF para la publicación de metadatos de servicio de las ubicaciones de recepción WCF existentes. Para generar el código de modelo de servicio de cliente de los documentos de metadatos publicados puede usar la herramienta Utilidad de metadatos del modelo de servicio (SvcUtil.exe) incluida en el [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] Kit de desarrollo de Software (SDK) para [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] y [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Componentes de tiempo de ejecución.  
@@ -40,7 +40,7 @@ Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear 
 |Archivo|Carpeta|Description|  
 |----------|------------|-----------------|  
 |Servicios WCF (archivos .svc)|\|Servicios WCF que publican metadatos de servicio para las ubicaciones de recepción WCF. Los servicios WCF publican metadatos de servicio para recuperarlos mediante una solicitud HTTP/GET.|  
-|Web.config|\|Archivo de configuración de ASP.NET que contiene información de los comportamientos de la aplicación Web ASP.NET, los comportamientos de los servicios WCF publicados, el extremo de metadatos y la configuración específica de BizTalk. El asistente genera Web.config cuando el **httpGetEnabled** atributo de la  **\<serviceMetadata >** elemento está establecido en **true**. Puede usar una herramienta de importación de metadatos (como SvcUtil.exe) para generar el código de cliente necesario para llamar a este servicio en el entorno de desarrollo. La dirección en la que se publican los metadatos es la dirección del extremo del servicio WCF más una **? wsdl** cadena de consulta. **Nota:** el enlace de metadatos predeterminado generado por el Asistente para publicación de WCF de BizTalk no es seguro y permite el acceso anónimo a los metadatos. Los metadatos de servicio contienen una descripción detallada del servicio y es posible que contengan, de forma intencionada o involuntaria, información confidencial. Para evitar el acceso no autorizado a los metadatos de servicio, puede modificar Web.config para que utilice un enlace seguro para el extremo de metadatos.|  
+|Web.config|\|Archivo de configuración de ASP.NET que contiene información de los comportamientos de la aplicación Web ASP.NET, los comportamientos de los servicios WCF publicados, el extremo de metadatos y la configuración específica de BizTalk. El asistente genera Web.config cuando el **httpGetEnabled** atributo de la  **\<serviceMetadata\>**  elemento está establecido en **true**. Puede usar una herramienta de importación de metadatos (como SvcUtil.exe) para generar el código de cliente necesario para llamar a este servicio en el entorno de desarrollo. La dirección en la que se publican los metadatos es la dirección del extremo del servicio WCF más una **? wsdl** cadena de consulta. **Nota:** el enlace de metadatos predeterminado generado por el Asistente para publicación de WCF de BizTalk no es seguro y permite el acceso anónimo a los metadatos. Los metadatos de servicio contienen una descripción detallada del servicio y es posible que contengan, de forma intencionada o involuntaria, información confidencial. Para evitar el acceso no autorizado a los metadatos de servicio, puede modificar Web.config para que utilice un enlace seguro para el extremo de metadatos.|  
 |ServiceDescription.xml|\|Archivo XML que describe los contratos del Servicio WCF publicado incluidos los tipos de mensajes.|  
 |Esquemas de BizTalk (archivos .xsd)|\App_Data|Esquemas XML que definen la estructura de mensajes de instancia XML, que se usan en la ubicación de recepción WCF.|  
 |SchemaIndex.xml|\App_Data|Archivo XML que indica los archivos de esquema XML utilizados en la ubicación de recepción WCF.|  
@@ -55,4 +55,4 @@ Puede usar el Asistente para publicación de Servicio WCF de BizTalk para crear 
 -   [Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar los metadatos del servicio de ubicación de recepción WCF enlazada con un puerto de orquestación](../core/publish-receive-location-service-metadata-biztalk-wcf-service-publishing-wizard.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Tutorial: Publicar servicios WCF con el adaptador WCF-NetMsmq](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)
+ [Tutorial: Publicación de servicios WCF con el adaptador WCF-NetMsmq](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)

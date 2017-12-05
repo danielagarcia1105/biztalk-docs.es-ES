@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 538e47f481f0817acfbd26477866a3d45a0d285b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e84fcd29af6b698713623fbca556d988e037d8c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-bizunit-and-loadgen-to-automate-performance-and-stability-testing"></a>Usando BizUnit y LoadGen para automatizar las pruebas de rendimiento y estabilidad
 Este tema proporciona información acerca de cómo usar la herramienta de Microsoft BizTalk LoadGen 2007 con BizUnit para automatizar las pruebas de rendimiento y estabilidad de una solución de BizTalk Server.  
@@ -96,11 +96,11 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
  Microsoft [herramienta BizTalk LoadGen 2007](http://go.microsoft.com/fwlink/?LinkId=59841) está disponible para su descarga en [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841).  
   
 ### <a name="sample-loadgen-configuration-file"></a>Archivo de configuración de ejemplo LoadGen  
- LoadGen toda la información de configuración se almacena en un archivo xml. El archivo de configuración de LoadGen contiene un \<CommonSection > elemento que configura las opciones predeterminadas para todas las tareas de LoadGen en el escenario de LoadGen. El archivo de configuración de LoadGen también puede contener uno o más \<sección > elementos que proporcionan valores de configuración para una tarea específica de LoadGen. Las entradas de un \<sección > elemento sustituyen a los valores predeterminados especificados en el \<CommonSection > elemento.  
+ LoadGen toda la información de configuración se almacena en un archivo xml. El archivo de configuración de LoadGen contiene un \<CommonSection\> elemento que configura las opciones predeterminadas para todas las tareas de LoadGen en el escenario de LoadGen. El archivo de configuración de LoadGen también puede contener uno o varios \<sección\> elementos que proporcionan valores de configuración para una tarea específica de LoadGen. Las entradas de un \<sección\> elemento sustituyen a los valores predeterminados especificados en la \<CommonSection\> elemento.  
   
- El archivo de configuración de LoadGen de ejemplo que sigue es una versión ligeramente modificada del archivo de configuración de ejemplo FileToFileLG.xml que se incluye en el subdirectorio \ConfigFiles\ConsoleConfigFiles del directorio de instalación de LoadGen. Esta prueba envía 25 mensajes \<LotSizePerInterval > cada 200 milisegundos \<SleepInterval >, 5 subprocesos por el generador de carga \<NumThreadsperSection > y se detendrá la prueba de carga después de 5000 mensajes \<NumFiles > se han enviado.  
+ El archivo de configuración de LoadGen de ejemplo que sigue es una versión ligeramente modificada del archivo de configuración de ejemplo FileToFileLG.xml que se incluye en el subdirectorio \ConfigFiles\ConsoleConfigFiles del directorio de instalación de LoadGen. Esta prueba envía 25 mensajes \<LotSizePerInterval\> cada 200 milisegundos \<SleepInterval\>, 5 subprocesos por el generador de carga \<NumThreadsperSection\>y se detendrá la carga probar después de 5000 mensajes \<NumFiles\> se han enviado.  
   
- El controlador de limitación del archivo se especifica en el \<ThrottleController > sección. El valor de \<ThresholdRange > se establece en 1.000-2.000, lo que significa que si la ubicación del archivo C:\Scenarios\FileToFile\Receive (parámetros) tiene menos de 1000 o más de 2000 archivos, el controlador de limitación limitará el generador de archivos y carga ampliará o reducirá según corresponda. El número de archivos en la ubicación del archivo será comprueba cada 1000 milisegundos \<SleepInterval >. El \<FileSection > elemento define las propiedades de los mensajes que se enviarán por los generadores de carga. El archivo FileToFileLG.xml \<SrcFilePath > copiarán LoadGen en la entrega de archivos C:\Scenarios\FileToFile\Receive \<DstFilePath >. El transporte de archivo se utiliza aquí porque se trata el transporte predeterminado especificado en el \<nombre del transporte > elemento dentro de la \<CommonSection > elemento.  
+ El controlador de limitación del archivo se especifica en el \<ThrottleController\> sección. El valor de \<ThresholdRange\> se establece en 1.000-2.000, lo que significa que si la ubicación del archivo C:\Scenarios\FileToFile\Receive (parámetros) tiene menos de 1000 o más de 2000 archivos, el controlador de limitación limitará el archivo generador y aumentar o disminuir la carga según corresponda. El número de archivos en la ubicación del archivo será comprueba cada 1000 milisegundos \<SleepInterval\>. El \<FileSection\> elemento define las propiedades de los mensajes que se enviarán por los generadores de carga. El archivo FileToFileLG.xml \<SrcFilePath\> copiarán LoadGen en la entrega de archivos C:\Scenarios\FileToFile\Receive \<DstFilePath >. El transporte de archivo se utiliza aquí porque se trata el transporte predeterminado especificado en el \<nombre del transporte\> elemento dentro de la \<CommonSection\> elemento.  
   
 ```  
 <LoadGenFramework>  
@@ -350,7 +350,7 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 </TestStep>  
 ```  
   
- Al final de la prueba usamos **BizUnit.DBExecuteNonQueryStep** para actualizar la base de datos de resultados de pruebas. Finalización del este paso indica el final de la fase de ejecución de prueba, tal y como indica el cierre \</TestExecution > etiqueta. De nuevo, debe modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
+ Al final de la prueba usamos **BizUnit.DBExecuteNonQueryStep** para actualizar la base de datos de resultados de pruebas. Finalización del este paso indica el final de la fase de ejecución de prueba, tal y como indica el cierre \</TestExecution\> etiqueta. De nuevo, debe modificar el **ConnectionString** y **RawSQLQuery** parámetros para que coincida con su entorno.  
   
 ```  
    <!-- Step 11: Update test results DB with test stop time -->  
@@ -527,4 +527,4 @@ Este tema proporciona información acerca de cómo usar la herramienta de Micros
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Usando BizUnit para facilitar la prueba automatizada](../technical-guides/using-bizunit-to-facilitate-automated-testing.md)
+ [Uso de BizUnit para facilitar las pruebas automatizadas](../technical-guides/using-bizunit-to-facilitate-automated-testing.md)

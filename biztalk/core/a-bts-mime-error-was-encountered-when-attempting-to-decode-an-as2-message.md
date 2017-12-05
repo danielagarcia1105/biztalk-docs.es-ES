@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 660a9e3a6ca5834448dd64815b031e00a0b2942a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 096696f4420150cdd53f8fe561460d243c1bb018
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a-bts-mime-error-was-encountered-when-attempting-to-decode-an-as2-message"></a>Error de BTS MIME al intentar descodificar un mensaje AS2
 ## <a name="details"></a>Detalles  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 |Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]|  
+|Origen del evento|EDI de BizTalk Server|  
 |Componente|Motor AS2|  
 |Nombre simbólico|-|  
 |Texto del mensaje|Error de BTS MIME al intentar descodificar un mensaje AS2.  AS2-de: {0}, AS2-a: {1}, MessageId: {2}, Error: {3}|  

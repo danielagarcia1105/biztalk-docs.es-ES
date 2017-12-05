@@ -21,11 +21,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0380804039d45efbe3db06b6fc072a3afb8b6b48
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0b199ac25fea412e9912e7989ff1f16e6e0e8d9d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-an-http-receive-handler"></a>Cómo configurar controlador de recepción de HTTP
 Utilice este procedimiento para configurar las propiedades de un controlador de recepción de HTTP.  
@@ -53,7 +53,7 @@ Utilice este procedimiento para configurar las propiedades de un controlador de 
   
 6.  Haga clic en **Aceptar**.  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] está diseñado para procesar lotes de mensajes eficazmente y no para procesar un único mensaje muy rápidamente. Por lo que si se va a usar este controlador de recepción para ubicaciones de recepción bidireccionales o de solicitud-respuesta, puede minimizar la latencia siguiendo estos pasos:  
+ BizTalk Server está diseñado para procesar lotes de mensajes de manera eficaz y no para procesar un único mensaje muy rápidamente. Por lo que si se va a usar este controlador de recepción para ubicaciones de recepción bidireccionales o de solicitud-respuesta, puede minimizar la latencia siguiendo estos pasos:  
   
 -   Establecer el **tamaño de los lotes** en un valor de 1.  
   
@@ -77,4 +77,4 @@ Utilice este procedimiento para configurar las propiedades de un controlador de 
  Conceda a la cuenta que se especifica como la cuenta de inicio de sesión para la **BizTalkServerIsolatedHost** hospedar la instancia de lectura y permisos de escritura en el directorio o directorios asociados con la **TEMP** y  **TMP** variables de entorno. Para determinar la cuenta de inicio de sesión para la **BizTalkServerIsolatedHost** instancia, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **administración**, expanda  **Grupo de BizTalk**, expanda **configuración de plataforma**, expanda **instancias de Host**, haga clic en el **BizTalkServerIsolatedHost** host instancia en el panel derecho y, a continuación, haga clic en **propiedades**. La cuenta de inicio de sesión usada para la instancia de host aparece junto a la **inicio de sesión** etiqueta.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el adaptador HTTP](../core/configuring-the-http-adapter.md)
+ [Configuración del adaptador de HTTP](../core/configuring-the-http-adapter.md)

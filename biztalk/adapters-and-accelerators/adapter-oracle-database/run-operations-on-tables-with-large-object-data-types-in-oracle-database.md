@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6d01593fb50fd1b6faf851652319628b3d0cae58
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a1116947450fb1d900ea38be0254fb3d0f7f7c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-with-large-object-data-types-in-oracle-database"></a>Ejecuta operaciones en tablas con tipos de datos de objetos grandes en la base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona compatibilidad para los tipos de datos de objetos grandes (LOB) de Oracle:  
@@ -206,7 +206,7 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona com
     -   Definir un puerto de envío WCF-Custom o WCF-OracleDB físico para enviar mensajes a la base de datos de Oracle. También debe especificar la acción en el puerto de envío. Para obtener información sobre cómo crear puertos de WCF-Custom o WCF-OracleDB, consulte [configurar manualmente un enlace de puerto físico para el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md). Dado que el WCF-Custom o WCF-OracleDB puerto de envío envía y recibe mensajes sean conformes a más de un esquema y realiza dos operaciones, debe establecer acción dinámico para las operaciones. Para obtener más información acerca de las acciones, vea [configurar la acción SOAP para la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). Para esta orquestación, debe establecerse la acción como se indica a continuación:  
   
         ```  
-        \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+        <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
           <Operation Name="ReadLOB" Action="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/ReadLOB" />  
           <Operation Name="UpdateLOB" Action="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB" />  
         </BtsActionMapping>  
@@ -244,12 +244,12 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona com
 ```  
   
 > [!NOTE]
->  La cadena de filtro debe siempre capturar una fila coincidente en caso contrario, el adaptador de base de datos de Oracle se producirá una XmlReaderParsingException. También es el valor para el \<secuencia > elemento debe ser del tipo de base64Binary.  
+>  La cadena de filtro debe siempre capturar una fila coincidente en caso contrario, el adaptador de base de datos de Oracle se producirá una XmlReaderParsingException. También es el valor para el \<flujo\> elemento debe ser del tipo de base64Binary.  
   
  La respuesta para la operación de UpdateLOB es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <UpdateLOBResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER"></UpdateLOBResponse>  
 ```  
   
@@ -268,7 +268,7 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona com
  La respuesta para la operación de ReadLOB es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <ReadLOBResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER">  
   <ReadLOBResult>YWJjZA==</ReadLOBResult>  
 </ReadLOBResponse>  

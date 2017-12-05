@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79f908933015fa07e2ecf77a2e61d31227f73e62
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 16527acda7432b2eea35f0c87bb9d89fff632430
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="user-management-commands"></a>Comandos de administración de usuario
 Los comandos de administración de usuario de alertas de la utilidad de administración de BAM le permiten obtener, agregar y quitar usuarios.  
@@ -36,15 +36,15 @@ Los comandos de administración de usuario de alertas de la utilidad de administ
 ## <a name="get-accounts-command"></a>Comando get-accounts  
  **Uso**  
   
- **bm.exe get-accounts-View:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe get-accounts-View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|Vista:\<nombre de vista >|Nombre de la vista para la que se enumeran las cuentas.|  
-|Servidor:\<server >|Opcional: El nombre del servidor desde el que se va a recuperar las cuentas. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos que se va a recuperar las cuentas. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista para la que se enumeran las cuentas.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor desde el que se va a recuperar las cuentas. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos que se va a recuperar las cuentas. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Enumera todos los usuarios y grupos que pueden tener acceso a la vista especificada.  
   
@@ -57,16 +57,16 @@ Los comandos de administración de usuario de alertas de la utilidad de administ
 ## <a name="add-account-command"></a>Comando add-account  
  **Uso**  
   
- **bm.exe agregar-account - AccountName:\<nombre de cuenta >-Vista:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe agregar-account - AccountName:\<nombre de la cuenta\> -View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
 |AccountName:<nombre de cuenta|Nombre de la cuenta a la que se conceden derechos.|  
-|Vista:\<nombre de vista >|Nombre de la vista a la que se conceden derechos.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|Vista:\<nombre de vista\>|Nombre de la vista a la que se conceden derechos.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Otorga los derechos de acceso a la vista especificada al usuario o grupo de usuarios especificado.  
   
@@ -83,16 +83,16 @@ bm.exe add-account -AccountName:Agents -View:PO -Server:Srv1 -Database:Db2
 ## <a name="remove-account-command"></a>Comando remove-account  
  **Uso**  
   
- **bm.exe remove-account - AccountName:\<nombre de cuenta >-View:\<nombre de vista > [-Server:\<servidor >] [-base de datos:\<base de datos >]**  
+ **bm.exe remove-account - AccountName:\<nombre de la cuenta\> -View:\<nombre de la vista\>[-Server:\<server\> ] [-base de datos:\<base de datos\> ]**  
   
  **Parámetros**  
   
 |Parámetro|Description|  
 |---------------|-----------------|  
-|AccountName:\<nombre de cuenta >|Nombre de la cuenta desde la que se van a quitar derechos de la vista.|  
-|Vista:\<nombre de vista >|Nombre de la vista a la que se quitan derechos.|  
-|Servidor:\<server >|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
-|Base de datos:\<base de datos >|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
+|AccountName:\<nombre de cuenta\>|Nombre de la cuenta desde la que se van a quitar derechos de la vista.|  
+|Vista:\<nombre de vista\>|Nombre de la vista a la que se quitan derechos.|  
+|Servidor:\<server\>|Opcional: El nombre del servidor en el que reside la vista. El servidor debe estar en el mismo dominio que el equipo desde el que se ejecuta bm.exe. Si no se especifica el nombre de servidor, bm.exe utiliza el nombre predeterminado de localhost.|  
+|Base de datos:\<base de datos\>|Opcional: El nombre de la base de datos en el que reside la vista. Si no se especifica el nombre, bm.exe usa el nombre predeterminado BamPrimaryImport.|  
   
  Quita los derechos de acceso de un usuario o un grupo desde una vista especificada Al quitar una cuenta de una vista, se quita esa cuenta y todos sus miembros de las alertas definidas para la vista especificada. Si esa cuenta es el único propietario de un alerta, el usuario actual (admin) se convierte en el nuevo propietario de la alerta.  
   

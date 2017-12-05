@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e492b4c7092ec1561354fe772b11e16ea6c093ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee3aeff19069de5a10d7303b8b38d32a3a4ed3b7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edifact-contrl-acknowledgment-error-codes"></a>Códigos de error de confirmación CONTRL de EDIFACT
 En este tema se enumeran los códigos de error usados dentro de los segmentos de una confirmación CONTRL de EDIFACT. Para obtener más información acerca de estos segmentos, vea [confirmación CONTRL de EDIFACT](../core/edifact-contrl-acknowledgment.md).  
@@ -25,7 +25,7 @@ En este tema se enumeran los códigos de error usados dentro de los segmentos de
   
  **Códigos de Error EDIFACT estándar**  
   
- La tabla siguiente muestra los códigos de error que se utilizan en el campo UCI5 de la confirmación CONTRL de EDIFACT. En esta tabla se describe qué códigos de error indicados por la especificación EDIFACT se admiten en EDI y AS2 de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y cuáles no.  
+ La tabla siguiente muestra los códigos de error que se utilizan en el campo UCI5 de la confirmación CONTRL de EDIFACT. Esta tabla indica qué códigos de error especificados por la especificación EDIFACT se admiten en BizTalk Server EDI y AS2 y que no son compatibles.  
   
 |Código de error|Condición|Causa|¿Admitido?|  
 |----------------|---------------|-----------|----------------|  

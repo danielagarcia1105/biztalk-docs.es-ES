@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db79e5e4421719a936f68c409c166f9eac38605c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b96089f7f76af1183f457202bb2e22b5be7f146
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-document-schemas"></a>Esquemas de documentos EDI
 Los esquemas de documento definen el cuerpo de un tipo de documento de transacción EDI.  
@@ -31,7 +31,7 @@ Los esquemas de documento definen el cuerpo de un tipo de documento de transacci
 -   Para EDIFACT: `http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006`  
   
 ## <a name="schema-naming-convention"></a>Convención de nomenclatura de esquemas  
- La convención de nomenclatura para el X12 y tipo de codificación EDIFACT es \<codificación > _\<versión >\<versión >\_\<Doctype >. El esquema X12_00401_864.xsd es un ejemplo para el tipo de documento X12 864 (versión 004, lanzamiento 01) y el esquema EDIFACT_D01C_AUTHOR.xsd es un ejemplo del tipo de documento EDIFACT AUTHOR (versión D01, lanzamiento C).  
+ La convención de nomenclatura para el X12 y tipo de codificación EDIFACT es \<codificación\>_\<versión\>\<versión\>\_\<Doctype\>. El esquema X12_00401_864.xsd es un ejemplo para el tipo de documento X12 864 (versión 004, lanzamiento 01) y el esquema EDIFACT_D01C_AUTHOR.xsd es un ejemplo del tipo de documento EDIFACT AUTHOR (versión D01, lanzamiento C).  
   
 > [!NOTE]
 >  El nombre los esquemas EDIFACT distingue mayúsculas de minúsculas. Por ejemplo, EFACT_D98B_ORDERS y EFACT_d98B_Orders serían dos esquemas diferentes.  
@@ -47,4 +47,4 @@ Los esquemas de documento definen el cuerpo de un tipo de documento de transacci
   
 ## <a name="see-also"></a>Vea también  
  [Estructura de mensaje EDI](../core/edi-message-structure.md)   
- [Validación del mensaje EDI](../core/edi-message-validation.md)
+ [Validación de mensajes EDI](../core/edi-message-validation.md)

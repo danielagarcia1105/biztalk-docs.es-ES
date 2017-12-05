@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 108f13dfbdc7b42027f57e70d913202b4d4e3100
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 574e4a27342680ef4a37f6b12059cbf97bd9584a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="validation-settings"></a>Configuración de la validación
 Usar [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], puede validar los mensajes en el estándar HL7. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]garantiza que los mensajes que envíe o reciba un segmento de estructura y el cuerpo de mensaje que se ajusta al estándar HL7. También puede validar HL7 admitidas tipos de datos personalizados y permitir que los delimitadores finales. Usa el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración explorador **validación** ficha para configurar la validación.  
@@ -44,7 +44,7 @@ Pestaña validación de explorador de configuración de BTAHL7
   
 #### <a name="to-open-btahl7-configuration-explorer"></a>Para abrir el Explorador de configuración de BTAHL7  
   
--   Haga clic en **iniciar**, haga clic en **programas**, haga clic en **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+-   Haga clic en **iniciar**, haga clic en **programas**, haga clic en **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 #### <a name="to-configure-validation-settings"></a>Procedimiento para configurar la configuración de validación  
   
@@ -62,4 +62,4 @@ Pestaña validación de explorador de configuración de BTAHL7
 ## <a name="see-also"></a>Vea también  
  [Configuración de registro](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)   
  [Configuración de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-settings.md)   
-[Registro operativo, el procesamiento por lotes de mensajes, validación y configuración de asknowledgment](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)
+[Registro operativo, procesamiento de mensajes por lotes, validación y configuración de confirmaciones](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)

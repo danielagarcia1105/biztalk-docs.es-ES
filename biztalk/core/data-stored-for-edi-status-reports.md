@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3b84bf68e89478d4f3d82dfdaf47e38c0aef90b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9395cb3895675e586576088f3d257dbf4115948f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="data-stored-for-edi-status-reports"></a>Datos almacenados para informes de estado de EDI
 Existen dos niveles de informes están disponibles en los informes de estado EDI: el primero tiene lugar si la **activar informes** propiedad está seleccionada para un acuerdo y el segundo si el **reporting de carga y conjunto de transacciones de almacén** propiedad está seleccionada para un acuerdo. Estas propiedades están disponibles en la **propiedades generales** página de la **General** pestaña en el **propiedades del acuerdo de** cuadro de diálogo.  
@@ -65,8 +65,8 @@ Existen dos niveles de informes están disponibles en los informes de estado EDI
 |||  
 |-|-|  
 |Información|Campo o Valor|  
-|ApplicationSender|(GS02 o \<UNG2.1(UNG2.2) >|  
-|ApplicationReceiver|GS03 o \<ung3.1 (ung3.2) >|  
+|ApplicationSender|(GS02 o \<UNG2.1(UNG2.2)\>|  
+|ApplicationReceiver|GS03 o \<ung3.1 (ung3.2)\>|  
 |GroupDate|GS04 o UNG2.4|  
 |GroupTime|GS05 o UNG2.5|  
 |TransactionSetId|ST01 o UNH2.1 (una cadena)|  

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62313528ce406347b1a7f11abf9aa3db1dd5f8e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d03c969dc056e251d8109ce5bc0a29c16f8ffeda
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="resubmission-notes-and-restrictions"></a>Notas de reenvío y restricciones
 Las siguientes notas y restricciones se aplican al proceso de reenvío:  
@@ -25,7 +25,7 @@ Las siguientes notas y restricciones se aplican al proceso de reenvío:
   
 -   La dirección URL predeterminada para WCF rampa es http://localhost/ESB.ItineraryServices.WCF/ProcessItinerary.svc.  
   
--   El archivo Web.config portal define los detalles del extremo de la WCF rampa en el  **\<cliente >** nodo de la  **\<System.ServiceModel >** sección. Éste es el valor predeterminado.  
+-   El archivo Web.config portal define los detalles del extremo de la WCF rampa en el  **\<cliente\>**  nodo de la  **\<System.ServiceModel\>**  sección. Éste es el valor predeterminado.  
   
     ```  
     <endpoint  
@@ -41,7 +41,7 @@ Las siguientes notas y restricciones se aplican al proceso de reenvío:
   
 -   La dirección URL predeterminada para SOAP (ASMX) rampa es http://localhost/ESB.ItineraryServices/ProcessItinerary.asmx.  
   
--   El archivo Web.config portal define la configuración de la SOAP (ASMX) rampa en el  **\<applicationSettings >** sección. Éste es el valor predeterminado.  
+-   El archivo Web.config portal define la configuración de la SOAP (ASMX) rampa en el  **\<applicationSettings\>**  sección. Éste es el valor predeterminado.  
   
     ```  
     <setting   

@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9ca754e84d07718a3656aa9a6f27d3a54f831c25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b18b9b3188ce3d9fb478c3f2d4390d167e5566a9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a>Tutorial: Usar hechos .NET y base de datos
 Este tutorial proporciona procedimientos descritos paso a paso para usar el Compositor de reglas de negocio con el fin de crear una directiva que utilice hechos de base de datos y .NET.  
@@ -177,7 +177,7 @@ Este tutorial proporciona procedimientos descritos paso a paso para usar el Comp
   
 20. Arrastre el **estado** nodo desde la ventana Explorador de hechos hasta el panel, a continuación, en la parte inferior derecha del compositor de reglas de negocios.  
   
-21. En el panel, a continuación, haga clic en  **\<escriba un valor >** y, a continuación, escriba **aprobado**.  
+21. En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **aprobado**.  
   
 22. En la ventana Explorador de hechos, haga clic en **versión 1.0** en **ProcessPurchaseOrderDbNet**y, a continuación, haga clic en **AddNewRule**.  
   
@@ -197,7 +197,7 @@ Este tutorial proporciona procedimientos descritos paso a paso para usar el Comp
   
 30. Arrastre el **estado** nodo desde la ventana Explorador de hechos hasta el panel, a continuación, en la parte inferior derecha del compositor de reglas de negocios.  
   
-31. En el panel, a continuación, haga clic en  **\<escriba un valor >** y, a continuación, escriba **denegado**.  
+31. En el panel, a continuación, haga clic en  **\<escriba un valor\>**  y, a continuación, escriba **denegado**.  
   
 32. En la ventana Explorador de directivas, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
   
@@ -364,4 +364,4 @@ Este tutorial proporciona procedimientos descritos paso a paso para usar el Comp
     ```  
   
 ## <a name="see-also"></a>Vea también  
- [Seleccionar hechos](../core/selecting-facts.md)
+ [Selección de hechos](../core/selecting-facts.md)

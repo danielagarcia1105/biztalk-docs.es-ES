@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: adfe1e552c0f129df67ec5ea790f8e685b214fe6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78ae5f1c61f2a00359e88acd75c093e2b6c2fb91
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-bam-development-process"></a>Información general sobre el proceso de desarrollo con BAM
 En este tema se describen el proceso de desarrollo, así como las bases de datos y tablas que almacenan los datos de BAM.  
@@ -34,7 +34,7 @@ En este tema se describen el proceso de desarrollo, así como las bases de datos
   
     -   Utilice el administrador de configuración de BizTalk Server para instalar las herramientas de BAM. Recomendamos utilizar el administrador de configuración porque coloca las entradas apropiadas en el Registro, lo que facilita las actualizaciones. Para obtener más información sobre la configuración de BAM, consulte [configurar herramientas de BAM mediante el Administrador de configuración](http://go.microsoft.com/fwlink/?LinkId=70561) (http://go.microsoft.com/fwlink/?LinkId=70561).  
   
-    -   Copie el archivo DLL desde un equipo donde ya estén instaladas. El archivo DLL reside en Microsoft BizTalk Server \<versión > carpeta \Tracking.  
+    -   Copie el archivo DLL desde un equipo donde ya estén instaladas. El archivo DLL reside en Microsoft BizTalk Server \<versión\>carpeta \Tracking.  
   
 ## <a name="bam-development-process"></a>Proceso de desarrollo con BAM  
  En la ilustración siguiente se describe el flujo de desarrollo con BAM.  
@@ -56,11 +56,11 @@ En este tema se describen el proceso de desarrollo, así como las bases de datos
   
 4.  Ejecute la aplicación. Al hacerlo, el código hará lo siguiente:  
   
-    -   Agregar un registro de marcador de posición a la tabla BAM_\<*nombre de la actividad*> _especifique tabla.  
+    -   Agregar un registro de marcador de posición a la tabla BAM_\<*nombre de la actividad*\>_especifique tabla.  
   
     -   Actualizar los elementos de datos del registro.  
   
-    -   Finalizar la actividad y mover el registro a la tabla BAM_\<*actividad nam*e > tabla _completed.  
+    -   Finalizar la actividad y mover el registro a la tabla BAM_\<*nombre de la actividad**\>tabla _completed.  
   
 ## <a name="where-bam-data-is-stored"></a>¿Dónde se guardan los datos de BAM?  
  BAM proporciona el espacio de nombres EventObservation que contiene las clases EventStream usadas para controlar los eventos de BAM.  
@@ -69,11 +69,11 @@ En este tema se describen el proceso de desarrollo, así como las bases de datos
   
 |Nombre|Description|  
 |----------|-----------------|  
-|Tabla activa|Denominado bam_\<*nombre de la actividad*> _especifique, esta tabla contiene las actividades de este tipo que aún no se han completado.|  
-|Tabla de relaciones activas|Denominado bam_\<*nombre de la actividad*> _ActiveRelationships, esta tabla contiene las actividades relacionadas con la actividad que aún no se han completado.|  
-|Tabla de continuaciones|Denominado bam_\<*nombre de la actividad*> _continuations, esta tabla se muestran las actividades de continuaciones para la actividad.|  
-|Tabla de actividades completadas|Denominado bam_\<*nombre de la actividad*> _completed.|  
-|Tabla de relaciones completadas|Denominado bam_\<*nombre de la actividad*> _CompletedRelationships, esta tabla contiene las actividades relacionadas completadas para la actividad.|  
+|Tabla activa|Denominado bam_\<*nombre de la actividad*\>_especifique, esta tabla contiene las actividades de este tipo que aún no se han completado.|  
+|Tabla de relaciones activas|Denominado bam_\<*nombre de la actividad*\>_ActiveRelationships, esta tabla contiene las actividades relacionadas con la actividad que aún no se han completado.|  
+|Tabla de continuaciones|Denominado bam_\<*nombre de la actividad*\>_continuations, esta tabla se muestran las actividades de continuaciones para la actividad.|  
+|Tabla de actividades completadas|Denominado bam_\<*nombre de la actividad*\>_completed.|  
+|Tabla de relaciones completadas|Denominado bam_\<*nombre de la actividad*\>_CompletedRelationships, esta tabla contiene las actividades relacionadas completadas para la actividad.|  
   
  En una actividad de BAM se capturan cuatro tipos de datos:  
   

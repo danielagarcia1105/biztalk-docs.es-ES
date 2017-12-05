@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cff3d58712ca8e926ada18519fcebb5fddc7ea65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 227e6ce16e7cf555a1f600feac215e433a9e7574
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-oracle-e-business-suite"></a>Operaciones de ExecuteReader, ExecuteScalar o ExecuteNonQuery en Oracle E-Business Suite
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone operaciones genéricas como **ExecuteNonQuery**, **ExecuteReader**, y **ExecuteScalar**. Puede utilizar estas operaciones para ejecutar cualquier instrucción SQL en la base de datos de Oracle. Estas operaciones varían en función del tipo de respuesta que se obtiene de la instrucción SQL. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [soporte técnico para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  
@@ -172,30 +172,30 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
  La orquestación consume el mensaje y lo envía a la base de datos de Oracle. La respuesta de la base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación. La respuesta para la **ExecuteReader** operación contiene un conjunto de resultados como un conjunto de datos. Por ejemplo, la respuesta de la base de datos de Oracle para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/GenericOperation/">  
   <ExecuteReaderResult>  
-    \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-      \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                  \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                  \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
-    \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+    <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+      <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                  <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                  <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
+    <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
       <NewDataSet xmlns="">  
         <NewTable>  
           <TID>1</TID>   
@@ -212,7 +212,7 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
         ......  
         ......  
       </NewDataSet>  
-    \</diffgr:diffgram>  
+    </diffgr:diffgram>  
   </ExecuteReaderResult>  
 </ExecuteReaderResponse>  
 ```  

@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0c2c016387f6b70870e04b211b0bdfe047de11d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a0bcf80d4a1ea9fc6b54403faa14084816e413be
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-siebel-ebusiness-applications"></a>Usar la herramienta de utilidad de metadatos de ServiceModel con el adaptador de BizTalk para Siebel eBusiness Applications
 Puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe) para generar una clase de cliente WCF para las operaciones que el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] expone. Después de ejecutar svcutil.exe para generar una clase de cliente WCF, puede incluir el archivo generado en el código y crear instancias de la clase de cliente WCF para realizar operaciones en el sistema Siebel.  
@@ -41,9 +41,9 @@ Puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)
   
     ```  
     <configuration>  
-      \<system.serviceModel>  
+      <system.serviceModel>  
         <client>  
-          \<!-- the name should match the required scheme of the Metadata Exchange endpoint   
+          <!-- the name should match the required scheme of the Metadata Exchange endpoint   
           and the contract should be "IMetadataExchange" -->  
           <endpoint name="siebel"  
             binding="siebelBinding"  
@@ -56,7 +56,7 @@ Puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe)
           </siebelBinding>  
         </bindings>  
   
-      \</system.serviceModel>  
+      </system.serviceModel>  
   
     </configuration>  
   

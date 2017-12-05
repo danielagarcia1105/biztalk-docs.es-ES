@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3ac08628931ec4111eb1b5a9ad86991344c22d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc0bd397e49dcad670bb73e9dff9c164b9d0997a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-agreement-properties-from-an-xml-file"></a>Importación de propiedades de acuerdo de un archivo XML
 Esta sección proporciona instrucciones de cómo importar propiedades de acuerdo desde un archivo de plantilla XML.  
@@ -30,7 +30,7 @@ Esta sección proporciona instrucciones de cómo importar propiedades de acuerdo
   
 ### <a name="to-import-agreement-properties-from-an-xml-file"></a>Para importar propiedades de acuerdo desde un archivo XML  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] consola de administración, haga clic en el **partes** nodo bajo el **administración de BizTalk Server** y **grupo de BizTalk** nodos. En el **entidades y perfiles empresariales** página, cree un acuerdo como se describe en [General configuración (X12)](../core/configuring-general-settings-x12.md).  
+1.  En la consola de administración de BizTalk Server, haga clic en el **partes** nodo bajo el **administración de BizTalk Server** y **grupo de BizTalk** nodos. En el **entidades y perfiles empresariales** página, cree un acuerdo como se describe en [General configuración (X12)](../core/configuring-general-settings-x12.md).  
   
 2.  En el **propiedades del acuerdo de** cuadro de diálogo, haga clic en **cargar desde plantilla**.  
   
@@ -43,4 +43,4 @@ Esta sección proporciona instrucciones de cómo importar propiedades de acuerdo
   
 ## <a name="see-also"></a>Vea también  
  [Volver a usar propiedades de otro acuerdo](../core/reusing-properties-from-another-agreement.md)   
- [Exportar las propiedades de acuerdo a un archivo XML](../core/exporting-agreement-properties-to-an-xml-file.md)
+ [Exportación de propiedades del acuerdo a un archivo XML](../core/exporting-agreement-properties-to-an-xml-file.md)

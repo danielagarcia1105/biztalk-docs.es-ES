@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 32539b1c352ac1fd2b60d2acd4c5ee975e2c3d18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ba84bd9a0ab8c6f7d5ccd24b27e90ef9c441b93
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-create-and-configure-a-source-party"></a>Paso 7: Crear y configurar una entidad de origen
 En este paso, crear y configurar una entidad de origen y asignar los puertos de envío para habilitar las transformaciones de encabezado de mensaje para el mensaje saliente.  
@@ -36,7 +36,7 @@ En este paso, crear y configurar una entidad de origen y asignar los puertos de 
   
 5.  Haga clic en **Aceptar**.  
   
-6.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+6.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en **Explorador de configuración de BTAHL7**.  
   
 7.  En el Explorador de configuración de BTAHL7, en la **partes** , haga clic en **Tutorial_BatchSource**.  
   

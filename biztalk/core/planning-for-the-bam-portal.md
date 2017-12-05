@@ -22,17 +22,17 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54cc5bb9bd123f68fbeb0013423c3f3cc07cd50a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 85f7291d56d662a8e3a9d46308d6b16ca2a1cafc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-for-the-bam-portal"></a>Planear el portal de BAM
 Este tema describe los puntos que debería tener en cuenta cuando planee la implantación del portal de Supervisión de la actividad económica (BAM).  
   
 ## <a name="prerequisites"></a>Requisitos previos  
- **Requisitos del sistema**. Además de los requisitos de sistema para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], para instalar el portal de BAM debe instalar el siguiente software:  
+ **Requisitos del sistema**. Además de los requisitos del sistema para que BizTalk Server, debe instalar el software siguiente para instalar el portal de BAM:  
   
 -   Servicios de Internet Information Server (IIS)  
   
@@ -86,7 +86,7 @@ Este tema describe los puntos que debería tener en cuenta cuando planee la impl
 ## <a name="development-planning"></a>Planeamiento del desarrollo  
  **Cadenas de conexión para las tablas dinámicas**. La utilidad de administrador de BAM no siempre cambia las cadenas de conexión para las definiciones de tabla dinámica de la agregación en tiempo real (ATR) durante la implementación. Esto ocurre cuando la tabla dinámica de ATR tiene cadenas de conexión OLAP preexistentes que se han editado manualmente y la diferencia entre mayúsculas y minúsculas de la clave del valor es incorrecta. Por ejemplo, en esta línea del archivo XML de definición de BAM la clave es RTARef en lugar de la clave esperada RtaRef:  
   
- **\<PivotTableView CubeRef = "POCube" RTARef = "POAmountByLocation" >**  
+ **\<PivotTableView CubeRef = "POCube" RTARef = "POAmountByLocation"\>**  
   
  Esto hace que se vuelva a generar la tabla dinámica mediante el cubo OLAP en lugar de mediante la tabla dinámica de ATR.  
   
@@ -111,4 +111,4 @@ Este tema describe los puntos que debería tener en cuenta cuando planee la impl
 -   Si los usuarios utilizan portales de BAM en servidores diferentes para ver las vistas implementadas, es necesario que las referencias se habiliten simétricamente por orden para dos experiencias del portal, que se ejecutan cada una en la base de datos de importación principal de BAM, para que sean la misma.  
   
 ## <a name="see-also"></a>Vea también  
- [Personalizar la configuración del Portal de BAM](../core/customizing-the-bam-portal-configuration.md)
+ [Personalización de la configuración del portal de BAM](../core/customizing-the-bam-portal-configuration.md)

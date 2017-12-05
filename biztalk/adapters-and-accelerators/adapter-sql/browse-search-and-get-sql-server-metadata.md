@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5abb42ff1cae700077c44c391a1112c7309048c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba7a1b7644cc3a2e3e00b7a931250932359ab7b7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-sql-server-metadata"></a>Explorar, buscar y obtener los metadatos de SQL Server
 Los metadatos que [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de la base de datos de SQL Server se describe la estructura del mensaje para la comunicación con la base de datos de SQL Server mediante el adaptador. El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] es compatible con dos interfaces para recuperar los metadatos.  
@@ -45,7 +45,7 @@ Los metadatos que [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superf
   
 -   Las operaciones en tablas, vistas, procedimientos, funciones escalares y funciones con valores de tabla. Por ejemplo, el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] puede expuesta Insert, Update, Select y eliminar operaciones para la tabla EMPLOYEE.  
   
--   El conjunto de\<nombre de columna > operación para tablas y vistas que permite a los clientes de adaptador escribir valores de datos grandes en un modo de transmisión por secuencias. La operación de configuración solo se devuelve para las tablas y vistas que contienen columnas con ninguno de los siguientes tipos de datos: varchar (max), nvarchar (max) o varbinary (max). Para obtener más información, consulte [operaciones en tablas y vistas que contienen tipos de datos de gran tamaño mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/supported-operations-on-tables-and-views-with-large-data-types-with-sql-adapter.md).  
+-   El conjunto de\<nombre de la columna\> operación para tablas y vistas que permite a los clientes de adaptador escribir valores de datos grandes en un modo de transmisión por secuencias. La operación de configuración solo se devuelve para las tablas y vistas que contienen columnas con ninguno de los siguientes tipos de datos: varchar (max), nvarchar (max) o varbinary (max). Para obtener más información, consulte [operaciones en tablas y vistas que contienen tipos de datos de gran tamaño mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/supported-operations-on-tables-and-views-with-large-data-types-with-sql-adapter.md).  
   
 -   Las operaciones ExecuteNonQuery y ExecuteReader, ExecuteScalar que permiten a los clientes de adaptador ejecutar instrucciones SQL arbitrarias en SQL Server. Para obtener más información acerca de estas operaciones, vea [soporte técnico para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  
   

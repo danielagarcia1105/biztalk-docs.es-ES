@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a4ad59760d6efddcfe946c0ee13c26ee0f8ca1d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a295bacf263e3ecad9a9aa081fb0d5d3be2f635
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-save-rename-and-close-schemas"></a>Cómo guardar, cambiar el nombre y cerrar esquemas
 En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los esquemas son archivos de lenguaje de definición de esquemas XML (XSD) y residen en el sistema de archivos con extensiones .xsd. Cuando utilice el Editor de BizTalk para desarrollar esquemas, tendrá que guardar y cerrar archivos de esquema como parte de la rutina; además, ocasionalmente, tendrá que cambiarles el nombre. En este tema se describen los pasos necesarios para realizar estas operaciones básicas.  
@@ -25,12 +25,12 @@ En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
   
 1.  Si es necesario, active el Editor de BizTalk para guardar el esquema. Para ello, haga clic en la ficha correspondiente que se encuentra en la parte superior de la ventana de edición principal de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  En el **archivo** menú, haga clic en **guardar  *\<nombre de esquema >***.  
+2.  En el **archivo** menú, haga clic en **guardar  *\<nombre de esquema\>***.  
   
      Si el esquema tiene cambios sin guardar, el nombre mostrado en la ficha en la parte superior de la ventana de edición principal no terminará con un asterisco (*), que es el carácter utilizado para indicar que hay cambios sin guardar.  
   
 > [!NOTE]
->  Puede guardar el esquema con un nombre nuevo, haga clic en **guardar  *\<nombre de esquema >* como** en el **archivo** menú.  
+>  Puede guardar el esquema con un nombre nuevo, haga clic en **guardar  *\<nombre de esquema\>*  como** en el **archivo** menú.  
   
 > [!NOTE]
 >  Puede guardar el esquema como parte del proceso de guardar todos los elementos modificados en el proyecto, haga clic en **guardar todo** en el **archivo** menú.  
@@ -59,4 +59,4 @@ En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
      Se cierra el Editor de BizTalk para el esquema que se ha cerrado.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar esquemas en proyectos](../core/managing-schemas-within-projects.md)
+ [Administración de esquemas en proyectos](../core/managing-schemas-within-projects.md)

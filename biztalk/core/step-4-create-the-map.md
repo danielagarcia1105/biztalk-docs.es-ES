@@ -12,11 +12,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67128880233a04b6b1573f11ff5229cebe328b25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fcbce54a488cb687ad0fb2c7a1931243c8cd882
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-the-map"></a>Paso 4: Crear la asignación
 ![Paso 4 de 5](../core/media/step-4of5.gif "Step_4of5")  
@@ -60,13 +60,13 @@ ms.lasthandoff: 09/20/2017
   
 5.  En el **selector de tipos de BizTalk** cuadro de diálogo, expanda **EAISchemas**, expanda **esquemas**, haga clic en **EAISchemas.Request**y, a continuación, haga clic en  **Aceptar**.  
   
-6.  En el **esquema de origen** panel, haga clic en  **\<esquema >**y, a continuación, haga clic en **Expandir nodo de árbol**.  
+6.  En el **esquema de origen** panel, haga clic en  **\<esquema\>**y, a continuación, haga clic en **Expandir nodo de árbol**.  
   
 7.  En el **esquema de destino** panel, haga clic en **Abrir esquema de destino**.  
   
 8.  En el **selector de tipos de BizTalk** cuadro de diálogo, expanda **EAISchemas**, expanda **esquemas**, haga clic en **EAISchemas.RequestDecline**y, a continuación, Haga clic en **Aceptar**.  
   
-9. En el **esquema de destino** panel, haga clic en  **\<esquema >**y, a continuación, haga clic en **Expandir nodo de árbol**.  
+9. En el **esquema de destino** panel, haga clic en  **\<esquema\>**y, a continuación, haga clic en **Expandir nodo de árbol**.  
   
 10. En el **esquema de origen** , arrastre el **ReqID** campo a la **ReqID** en el **esquema de destino** panel. Aparece una línea que conecta los dos elementos.  
   

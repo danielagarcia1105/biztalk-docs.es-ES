@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78aa75762e40bfcdd033a057610cb34f38825dd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 05524abd4cd57b8d804ab5995072905392fd3645
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-interact-store-and-forward-scenario"></a>Paso 2: Agregar configuración de SWIFTNet la Paramfile para el almacén de interacción y el escenario de reenvío
 Los asociados de mensaje de servidor creados en SAG deben especificarse en el paramfile SWIFTNet para permitir que los receptores inicializar con estos valores.  
@@ -44,7 +44,7 @@ Los asociados de mensaje de servidor creados en SAG deben especificarse en el pa
   
      subsystem_start:  
   
-     **spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para interactuar SnF > - AdapterMode Interact"**  
+     **spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para interactuar SnF\> - AdapterMode Interact"**  
   
      * FINAL  
   
@@ -92,4 +92,4 @@ Los asociados de mensaje de servidor creados en SAG deben especificarse en el pa
  [Interactuar almacén y escenario de reenvío (inserción)](../../adapters-and-accelerators/fileact-interact/interact-store-and-forward-push-scenario.md)   
  [Paso 1: Configurar el adaptador de SWIFT para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-store-and-forward-scenario.md)   
  [Paso 3: Crear puertos de envío y puertos de recepción para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-interact-store-and-forward-scenario.md)   
- [Paso 4: Probar el almacén de interacción y el escenario de reenvío-to-End](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)
+ [Paso 4: Probar el escenario integral de almacenamiento y reenvío de InterAct](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)

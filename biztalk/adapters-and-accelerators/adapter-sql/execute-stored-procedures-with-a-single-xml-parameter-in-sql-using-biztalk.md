@@ -13,11 +13,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3d933b494e967184c8248d6f71ad9df113fb9b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 02c5f239300140022b1d26f35664add744b630c2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-stored-procedures-with-a-single-xml-parameter-in-sql-server-using-biztalk-server"></a>Ejecutar procedimientos almacenados con un solo parámetro XML en SQL Server con BizTalk Server
 Ejecutar un procedimiento almacenado que toma un parámetro único es similar a cualquier otro procedimiento almacenado que se ejecute como se describe en [ejecutar los procedimientos almacenados de SQL Server mediante BizTalk Server](execute-stored-procedures-in-sql-server-using-biztalk-server.md). Sin embargo, para el enfoque descrito en el vínculo anterior, debe generar los metadatos para el procedimiento almacenado en tiempo de diseño y crear una orquestación para invocar el procedimiento en tiempo de ejecución.  
@@ -104,7 +104,7 @@ Ejecutar un procedimiento almacenado que toma un parámetro único es similar a 
         ```  
         <ADD_LAST_EMP_XML_INFO xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/dbo">  
         <xml_info>  
-        \<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
+        <bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
         </xml_info>  
         </ADD_LAST_EMP_XML_INFO>  
         ```  

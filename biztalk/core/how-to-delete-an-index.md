@@ -16,11 +16,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0ab00dc2640bbede95881280b73962c33442e46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9934c333699b853a3e10a0e5ecf212acf17fa6c6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-delete-an-index"></a>Cómo eliminar un índice
 Los administradores utilizan el **delete-index** comando para eliminar un índice en la actividad especificada en los puntos de control especificados.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **delete-index** comando para eliminar un índic
   
 2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo de **bm delete-index - IndexName:\<nombre de índice >-actividad:\<nombre de actividad >**.  
+3.  Tipo de **bm delete-index - IndexName:\<nombre del índice\> -actividad:\<nombre de la actividad\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

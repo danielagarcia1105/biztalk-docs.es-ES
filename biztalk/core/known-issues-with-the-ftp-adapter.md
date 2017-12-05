@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4c12b6f1693fe475a1b123a6163a11b35fd96932
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e13ce12e8514eaa2b5843ba81eff4f505e65d9e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a>Problemas conocidos del adaptador de FTP
 Esta sección contiene información que puede servir de ayuda para evitar errores.  
@@ -45,7 +45,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 #### <a name="ftp-adapter-does-not-support-revocation-checks-on-the-server-certificates"></a>El adaptador FTP no admite la comprobación de revocaciones en los certificados del servidor  
   
 ##### <a name="problem"></a>Problema  
- El adaptador FTP de [!INCLUDE[prague](../includes/prague-md.md)] se ha mejorado para admitir la transferencia segura de archivos a un servidor FTPS y desde él, usando SSL/TLS. La lista de revocación de certificados (CRL) contiene una lista de certificados que se han revocado y que ya no son válidos. El adaptador FTP no consulta la CRL para autenticar el certificado de servidor.  
+ El adaptador de FTP en BizTalk Server se ha mejorado para admitir la transferencia de archivos de forma segura a y desde un servidor FTPS mediante SSL/TLS. La lista de revocación de certificados (CRL) contiene una lista de certificados que se han revocado y que ya no son válidos. El adaptador FTP no consulta la CRL para autenticar el certificado de servidor.  
   
 ##### <a name="cause"></a>Causa  
  Por diseño, el adaptador FTP no consulta la CRL antes de aceptar un certificado de servidor.  

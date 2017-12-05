@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 140022c6ebe197d1b0210d732b623d62d2903cd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4f14a199e3422a45235727d2d16fc1464e2e4927
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="disassemble-inbound-batches"></a>Desensamblar lotes entrantes
 
@@ -133,8 +133,8 @@ $
     > [!NOTE]
     >  Estas propiedades de configuración son válidas solamente cuando está habilitada la fragmentación (**fragmentación** establecido en **True**). Cuando se deshabilita la fragmentación, el Desensamblador publica una copia exacta del lote completo, en forma nativa, la base de datos de cuadro de mensajes, lo que configuración de conservación es irrelevante (*todo* se conserva).  
   
- Para obtener más información sobre cada propiedad de configuración, así como otra información de uso y la configuración, consulte [propiedades de configuración de SWIFT Desensamblador](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md). Para obtener más información acerca de la publicación de la base de datos de cuadro de mensajes y mensajes de varias partes, vea [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información sobre cada propiedad de configuración, así como otra información de uso y la configuración, consulte [propiedades de configuración de SWIFT Desensamblador](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md). Para obtener más información acerca de la publicación de la base de datos de cuadro de mensajes y mensajes de varias partes, vea la Ayuda de BizTalk Server.  
   
 ## <a name="next-step"></a>Paso siguiente
   
-[Propiedades promocionadas relacionadas con el lote](batch-related-promoted-properties.md)
+[Propiedades promocionadas relacionadas con los lotes](batch-related-promoted-properties.md)

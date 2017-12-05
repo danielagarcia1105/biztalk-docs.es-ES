@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56b390ef87ac2ea58d91be2ff16a50f2c3748db2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d93284823c2ce5d0c00a1601a5b9ae0aac4643c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="deploy-and-test-the-application"></a>Implementar y probar la aplicación
 > [!NOTE]
->  Este tutorial se aplica solo a [!INCLUDE[prague](../includes/prague-md.md)].  
+>  Este tutorial solo se aplica a BizTalk Server.  
   
  En este tema, vamos a compilar, implementar, configurar y probar la aplicación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  Navegue al ejemplo que ha descargado y desde el **TestMessage** carpeta, copie **JsonPurchaseOrder.json**y péguelo en la carpeta asociada con la ubicación de recepción. Espere hasta que desaparezca el archivo.  
   
-2.  Navegue a la carpeta que ha asociado al puerto de envío que había creado. Tenga en cuenta que un   ***\<GUID >*.json** archivo está disponible en la carpeta. Abra el archivo y verifique que es el mensaje de factura.  
+2.  Navegue a la carpeta que ha asociado al puerto de envío que había creado. Tenga en cuenta que un   ***\<GUID\>*.json** archivo está disponible en la carpeta. Abra el archivo y verifique que es el mensaje de factura.  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes JSON con BizTalk Server](../core/processing-json-messages-using-biztalk-server.md)

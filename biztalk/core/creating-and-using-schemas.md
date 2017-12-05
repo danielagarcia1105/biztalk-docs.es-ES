@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 707067ed0c48abb62d567098cd472b59bad302b0
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 384d140832c123f46ecf531e64b3c1ca11e64f4e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-and-use-tibco-schemas"></a>Crear y utilizar esquemas TIBCO
 
@@ -44,7 +44,7 @@ A continuación, establezca el espacio de nombres de destino.
   
 ## <a name="set-the-target-namespace"></a>Establecer el espacio de nombres de destino  
   
-1.  En el Editor de BizTalk, abra el archivo de esquema, haga clic en  **\<esquema >**y, a continuación, seleccione **propiedades**.  
+1.  En el Editor de BizTalk, abra el archivo de esquema, haga clic en  **\<esquema\>**y, a continuación, seleccione **propiedades**.  
   
 2.  En el **propiedades** panel, busque el **Namespace** campo y escriba un nombre, por ejemplo, `testNameSpace`.  
   

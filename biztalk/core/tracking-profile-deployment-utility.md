@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c4d261069b83741413e255a3f8bacd6dd9260d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 672879df2c1c5217d8a9710dad000609dd95d0c2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tracking-profile-deployment-utility"></a>Utilidad de implementación de perfiles de seguimiento
 Los programadores emplean la utilidad bttdeploy para aplicar perfiles de seguimiento y quitarlos de la infraestructura de BAM. Usar la utilidad bttdeploy equivale funcionalmente a hacer clic en la opción del menú Aplicar perfil de seguimiento del Editor de perfiles de seguimiento (TPE).  
@@ -31,7 +31,7 @@ Los programadores emplean la utilidad bttdeploy para aplicar perfiles de seguimi
 |Opción|Description|  
 |------------|-----------------|  
 |/h o /?|Opcional: Muestra la sintaxis de resumen para bttdeploy.|  
-|/mgdb \<nombre del servidor [, puerto] >\\< nombre de base de datos\>|Opcional: Especifica el servidor de administración, el puerto y el nombre de la base de datos que se va a aplicar el perfil. **Nota:** cuando se usa este parámetro, el puerto es opcional.|  
+|/mgdb \<nombre del servidor [, puerto]\>\\< nombre de base de datos\>|Opcional: Especifica el servidor de administración, el puerto y el nombre de la base de datos que se va a aplicar el perfil. **Nota:** cuando se usa este parámetro, el puerto es opcional.|  
 |/quitar|Opcional: Especifica que el perfil de seguimiento se quitará de la base de datos BAM.|  
 |filename|Nombre del archivo de perfil de seguimiento que se va a aplicar o quitar.|  
   

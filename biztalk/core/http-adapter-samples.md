@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c4eb20ba2a9dc91f9b8bd17442f8bd3e7986fcfa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a1111322d59f8ff5c6ba6209aa48eb515a23c72f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="http-adapter-samples"></a>Ejemplos de adaptadores de HTTP
 Esta sección contiene ejemplos que muestran la funcionalidad avanzada para configurar el adaptador de HTTP de BizTalk.  
@@ -31,9 +31,9 @@ Esta sección contiene ejemplos que muestran la funcionalidad avanzada para conf
 >   
 >      Haga clic en el nombre del equipo en el panel izquierdo, haga clic en "Restricciones de ISAPI y CGI" en el panel derecho y, a continuación, agregue la ruta de acceso de ISAPI o CGI:  
 >   
->      En un equipo de 64 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \HttpReceive64\BTSHTTPReceive.dll  
+>      En un equipo de 64 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\HttpReceive64\BTSHTTPReceive.dll  
 >   
->      En un equipo de 32 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \HttpReceive\BTSHTTPReceive.dll  
+>      En un equipo de 32 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\HttpReceive\BTSHTTPReceive.dll  
 >   
 >      Marque la casilla Permitir ejecución de la ruta de extensión.  
 > 2.  Haga clic en "HTTPRequestResponseSample" en panel izquierdo, haga clic en "Asignaciones de controlador" en el panel central y, a continuación, haga clic en "Agregar asignación de script" con el siguiente valor:  
@@ -42,9 +42,9 @@ Esta sección contiene ejemplos que muestran la funcionalidad avanzada para conf
 >   
 >      Ejecutable:  
 >   
->      En el equipo de 64 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \HttpReceive64\  
+>      En el equipo de 64 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\HttpReceive64\  
 >   
->      En el equipo de 32 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \HttpReceive\  
+>      En el equipo de 32 bits agregue: C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\HttpReceive\  
 >   
 >      Restricciones de solicitudes:  
 >   

@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa2504ebf80537e81e9ef0ee2f72e1e7afeb716d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 92b101b47e2f83a0390a47cf6b1e4fc9a210950d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-building-and-deploying-the-lobwebapplication-sdk-sample"></a>Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication
 En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa para enviar solicitudes de Proceso de interfaz de socio (PIP) a Contoso. Puede encontrar el proyecto LOBWebApplication en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK. Para ejecutar la aplicación Web, tendrá que crear un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] directorio virtual de Internet Information Services (IIS) y, a continuación, compile el proyecto de LOBWebApplication.  
@@ -36,7 +36,7 @@ En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa
   
 5.  En la página **Alias del directorio virtual** , en el cuadro **Alias** , escriba **LOBWebApplication**y, a continuación, haga clic en **Siguiente**.  
   
-6.  En la página **Directorio de contenido del sitio Web** , haga clic en **Examinar**. En el cuadro de diálogo Buscar carpeta, vaya a   ***\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBWebApplication**, y a continuación, haga clic en **Aceptar**. Haga clic en **Siguiente**.  
+6.  En la página **Directorio de contenido del sitio Web** , haga clic en **Examinar**. En el cuadro de diálogo Buscar carpeta, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ LOBWebApplication**y, a continuación, haga clic en **Aceptar**. Haga clic en **Siguiente**.  
   
 7.  En la página **Permisos de acceso de directorio virtual** , anule la selección de **Leer**, seleccione **Ejecutar scripts (por ejemplo, ASP)**y, a continuación, haga clic en **Siguiente**.  
   
@@ -64,11 +64,11 @@ En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto o solución**.  
   
-3.  En el cuadro de diálogo Abrir proyecto, vaya a   ***\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBWebApplication**, seleccione el **LOBWebApplication.sln** archivo de solución y, a continuación, haga clic en **abiertos**.  
+3.  En el cuadro de diálogo Abrir proyecto, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBWebApplication** , seleccione la **LOBWebApplication.sln** archivo de solución y, a continuación, haga clic en **abiertos**.  
   
 4.  En el Explorador de soluciones, haga clic con el botón derecho en **http://localhost/LOBWebApplication**y, a continuación, haga clic en **Agregar referencia**.  
   
-5.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. En el cuadro de diálogo Agregar referencia, vaya a   ***\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet\Bin** carpeta.  
+5.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. En el cuadro de diálogo Agregar referencia, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin** carpeta.  
   
 6.  En la carpeta Bin, seleccione los ensamblados **Microsoft.Solutions.BTARN.ConfigurationManager.dll** y **Microsoft.Solutions.BTARN.Shared.dll** assemblies, y then click **Abrir**.  
   
@@ -79,4 +79,4 @@ En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa
 9. Haga clic con el botón derecho en **default.aspx**y, a continuación, haga clic en **Establecer como página de inicio**.  
   
 ## <a name="see-also"></a>Vea también  
- [Probar el Tutorial de doble acción](../../adapters-and-accelerators/accelerator-rosettanet/testing-the-double-action-tutorial.md)
+ [Prueba del tutorial de doble acción](../../adapters-and-accelerators/accelerator-rosettanet/testing-the-double-action-tutorial.md)

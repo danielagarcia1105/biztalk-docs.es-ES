@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61ced5103cfc3f6156b4e3975c51365f505c4e22
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5087f88587d3c6453f8d470d7c6095c967904537
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-the-partner-organization"></a>Paso 2: Crear la organización del asociado
 En este paso, creará la organización de socios comerciales mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.  
   
 ### <a name="to-create-the-partner-organization"></a>Para crear la organización del asociado  
   
-1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda **BizTalk \<versión > Acelerador para RosettaNet**, haga clic en **socios**, haga clic en  **Nueva**y, a continuación, haga clic en **asociado**.  
+1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda **BizTalk \<versión\> Acelerador para RosettaNet**, haga clic en **socios** , haga clic en **New**y, a continuación, haga clic en **asociado**.  
   
 2.  En el **nuevas propiedades de socio comercial** diálogo cuadro, realice lo siguiente:  
   
@@ -52,4 +52,4 @@ En este paso, creará la organización de socios comerciales mediante el [!INCLU
 >  Si tiene un certificado de cifrado, configurarlo aquí. Para obtener información acerca de cómo configurar los certificados de cifrado, vea [administración de certificados](../../adapters-and-accelerators/accelerator-rosettanet/managing-certificates1.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 3: Modificar el proceso de la interfaz de socio comercial](../../adapters-and-accelerators/accelerator-rosettanet/step-3-edit-the-partner-interface-process.md)
+ [Paso 3: Modificar el proceso de interfaz de socio (PIP)](../../adapters-and-accelerators/accelerator-rosettanet/step-3-edit-the-partner-interface-process.md)

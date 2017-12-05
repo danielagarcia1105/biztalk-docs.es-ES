@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c25615c2efcb37ebfc6083bc09d48c7fc1506217
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b9e3921b8bf83e3e7e775efef77a029bfda2e7e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schemavalidator"></a>SchemaValidator
 Utilice la utilidad SchemaValidator para solucionar problemas relacionados con una instancia de mensaje. Si recibe un mensaje que se produce un error de validación, puede ejecutar la utilidad SchemaValidator para determinar el origen del error.  
@@ -29,7 +29,7 @@ Utilice la utilidad SchemaValidator para solucionar problemas relacionados con u
  Use esta utilidad si usa un ensamblado que incluye un archivo .dll de esquema y no tiene un archivo de esquema XSD. La utilidad SchemaValidator le permite validar usando el archivo .dll de esquemas.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\SchemaValidator  
+ \<*unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\SchemaValidator  
   
 ## <a name="building-and-running-schemavalidator"></a>Compilar y ejecutar SchemaValidator  
   
@@ -37,7 +37,7 @@ Utilice la utilidad SchemaValidator para solucionar problemas relacionados con u
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\SchemaValidator.  
+2.  Mover a \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\SchemaValidator.  
   
 3.  En el símbolo del sistema, escriba **sn -k SchemaValidator.snk**, y, a continuación, presione ENTRAR.  
   
@@ -45,7 +45,7 @@ Utilice la utilidad SchemaValidator para solucionar problemas relacionados con u
   
 5.  En el **archivo** menú, elija **abiertos**y, a continuación, haga clic en **Abrir solución**.  
   
-6.  Mover a \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\SchemaValidator, seleccione **SchemaValidator.sln**y, a continuación, Haga clic en **abiertos**.  
+6.  Mover a \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\SchemaValidator, seleccione **SchemaValidator.sln** y, a continuación, haga clic en **abiertos**.  
   
 7.  En el Explorador de soluciones, haga clic en **SchemaValidator**y, a continuación, haga clic en **propiedades**.  
   
@@ -67,12 +67,12 @@ Utilice la utilidad SchemaValidator para solucionar problemas relacionados con u
   
 12. Haga clic en **SchemaValidator**y, a continuación, haga clic en **generar**.  
   
-13. Modificar la instancia de mensaje al que desea probar mediante la eliminación de la \< \!DOCTYPE... > etiqueta Especifica el archivo DTD desde el encabezado de la instancia XML.  
+13. Modificar la instancia de mensaje al que desea probar mediante la eliminación de la \< \!DOCTYPE... \> etiqueta Especifica el archivo DTD desde el encabezado de la instancia XML.  
   
 14. En el nodo raíz de la instancia de mensaje, agregue un espacio de nombres XML del esquema que se validarán ante.  
   
     > [!NOTE]
-    >  Para obtener un ejemplo de un esquema listo para ser validado por la utilidad SchemaValidator, vea Sample3A4.xml en \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\ SchemaValidator.  
+    >  Para obtener un ejemplo de un esquema listo para ser validado por la utilidad SchemaValidator, vea Sample3A4.xml en \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\SchemaValidator.  
   
 15. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], haga clic en **SchemaValidator.cs**y, a continuación, presione CTRL y F5 para ejecutar la utilidad.  
   

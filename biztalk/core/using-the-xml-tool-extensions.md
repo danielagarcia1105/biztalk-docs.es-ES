@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c18dd9bc820b994f53e9f3e157497337e93550c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 976082fc14eb37d550956ec447eb63938706daa3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-xml-tool-extensions"></a>Utilizar las extensiones de herramientas XML
 Las extensiones de herramientas XML de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permiten realizar tareas en esquemas, asignaciones e instancias de mensajes. Utilice estas extensiones en el tiempo de diseño del entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Puede llevar a cabo las siguientes tareas:  
@@ -31,7 +31,7 @@ Las extensiones de herramientas XML de [!INCLUDE[btsBizTalkServerNoVersion](../i
   
 -   **Validar una asignación**. Esta operación genera un archivo que contiene el XSLT subyacente de la asignación y un archivo que contiene objetos de extensión. Para obtener más información, consulte [validar una asignación (EDI)](../core/validating-a-map-edi.md).  
   
- En [!INCLUDE[prague](../includes/prague-md.md)], estas extensiones funcionan en los esquemas EDI, asignaciones e instancias del mensaje. Estas extensiones permiten trabajar de forma más eficaz con esquemas EDI, asignaciones e intercambios complejos.  
+ En BizTalk Server, estas extensiones funcionan en esquemas EDI, asignaciones e instancias de mensaje. Estas extensiones permiten trabajar de forma más eficaz con esquemas EDI, asignaciones e intercambios complejos.  
   
  El programa de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] habilita de forma predeterminada las extensiones de herramientas XML. Si hace doble clic en un esquema en el Explorador de soluciones de Visual Studio, el **extensiones de Editor de esquemas** propiedad del esquema se establece en **extensión del Editor de esquemas EDI**. Esto es necesario para que funcionen las extensiones de herramientas XML. Puede seleccionar otra extensión del editor de esquemas a la vez que deja seleccionadas las extensiones EDI.  
   
@@ -40,4 +40,4 @@ Las extensiones de herramientas XML de [!INCLUDE[btsBizTalkServerNoVersion](../i
  [Validar una instancia (EDI)](../core/validating-an-instance-edi.md)   
  [Validar un esquema (EDI)](../core/validating-a-schema-edi.md)   
  [Comprobar una asignación](../core/testing-a-map.md)   
- [Validar una asignación (EDI)](../core/validating-a-map-edi.md)
+ [Validación de una asignación (EDI)](../core/validating-a-map-edi.md)

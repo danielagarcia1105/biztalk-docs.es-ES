@@ -13,14 +13,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bdf61e3c876d4e4e376952f72a8a5bd4a3cd90db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9c0583b119aec96264807928b1dab6bd219b5ab2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-command-line-tools"></a>Herramientas de línea de comandos de BAM
-Esta sección proporciona información de referencia para las herramientas de línea de comandos de BAM incluidas con Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+Esta sección proporciona información de referencia para las herramientas de línea de comandos de BAM incluidas con Microsoft BizTalk Server.  
   
 ## <a name="available-tools"></a>Herramientas disponibles 
   
@@ -28,4 +28,4 @@ Esta sección proporciona información de referencia para las herramientas de l�
   
 -   [Utilidad de implementación de perfiles de seguimiento](../core/tracking-profile-deployment-utility.md)  
   
--   [Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación](../core/bam-command-line-script-for-notification-services-configuration-files.md)
+-   [Script de línea de comandos de BAM para archivos de configuración de servicios de notificación](../core/bam-command-line-script-for-notification-services-configuration-files.md)

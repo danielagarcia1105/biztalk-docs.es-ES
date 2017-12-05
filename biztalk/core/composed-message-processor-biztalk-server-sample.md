@@ -17,11 +17,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3853a5b903215b6f716a13c33727e60c67107b2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3097ef6a0da695c3b07cf68182a374eabed11b5e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="composed-message-processor-biztalk-server-sample"></a>Procesador de mensajes compuestos  (ejemplo de BizTalk Server)
 Este ejemplo tiene como finalidad crear una aplicación de procesador de mensajes compuestos que procese elementos de línea individuales a partir de mensajes agregados.  
@@ -286,13 +286,13 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<Ruta de acceso de ejemplos > \Pipelines\ComposedMessageProcessor  
+     \<Ejemplos de ruta de acceso\>\Pipelines\ComposedMessageProcessor  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
   
-         \<Ruta de acceso de ejemplos > \Pipelines\ComposedMessageProcessor  
+         \<Ejemplos de ruta de acceso\>\Pipelines\ComposedMessageProcessor  
   
     -   Compila los proyectos de Visual Studio para este ejemplo.  
   

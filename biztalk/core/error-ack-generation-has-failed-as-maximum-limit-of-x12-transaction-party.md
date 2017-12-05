@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c5b82a8251504e1f9ff7b62c4e1cc813d4740a83
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e845960a85ebe2ebf90b8549634a0097676c80c5
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="error-ack-generation-has-failed-as-maximum-limit-of-x12-transaction-party"></a>Generación de confirmación de error error el límite máximo de X12 parte de la transacción
 ## <a name="details"></a>Detalles  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 |Nombre del producto|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |Versión del producto|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |Identificador del evento|-|  
-|Origen del evento|EDI de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]|  
+|Origen del evento|EDI de BizTalk Server|  
 |Componente|Motor EDI|  
 |Nombre simbólico|-|  
 |Texto del mensaje|Error en la generación de confirmación; se ha alcanzado el límite máximo del número aceptable de control de grupo de transacciones de X12 para la entidad {0}. Para restablecer el contador, vaya a Entidad, en la pantalla de función de remitente, en el campo ST 2 del administrador de acuerdos de socios comerciales.|  

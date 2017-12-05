@@ -15,14 +15,14 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a813634f2fe03d427ef5d0b14688ecca977f571
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7fc94930ba5ff0851114e36d728ee7f3ffb73ab
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="testing-your-installation"></a>Comprobación de la instalación
-Puede configurar su [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] instalación para las pruebas manualmente ejecutando el tutorial to-end o ejecutando el programa tutorial-to-end. Para practicar con el programa, haga clic en el **iniciar Tutorial** botón durante la instalación o ejecutar EndToEndTutorial.exe en C:\Program Files\Microsoft BizTalk \<versión > Accelerator for Tutorial HL7\SDK\End-to-End carpeta (después de ejecutar la instalación y configuración). Cualquiera de estas acciones automatizadas llevará a cabo los mismos pasos de instalación que debe realizar manualmente mediante la ejecución de todo el tutorial. El programa tutorial-to-end hace lo siguiente:  
+Puede configurar su [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] instalación para las pruebas manualmente ejecutando el tutorial to-end o ejecutando el programa tutorial-to-end. Para practicar con el programa, haga clic en el **iniciar Tutorial** botón durante la instalación o ejecutar EndToEndTutorial.exe en C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para HL7\SDK\ Carpeta Tutorial de extremo a extremo (después de ejecutar la instalación y configuración). Cualquiera de estas acciones automatizadas llevará a cabo los mismos pasos de instalación que debe realizar manualmente mediante la ejecución de todo el tutorial. El programa tutorial-to-end hace lo siguiente:  
   
 -   Implementa esquemas de confirmación y MSH  
   
@@ -58,16 +58,16 @@ Puede configurar su [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-cu
   
 ### <a name="to-test-your-installation"></a>Para probar la instalación  
   
-1.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*>: \Program BizTalk \<versión > Accelerator for carpeta Tutorial HL7\SDK\End-to-End.  
+1.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para la carpeta Tutorial HL7\SDK\End-to-End.  
   
 2.  Haga clic en el **TutorialSampleInstance.txt** de archivos y, a continuación, haga clic en **copia**.  
   
-3.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*>: \Program BizTalk \<versión > Accelerator for carpeta Tutorial\Tutorial_BTAHL7PickUp HL7\SDK\End-to-End.  
+3.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End Carpeta BTAHL7PickUp.  
   
 4.  Haga clic en la carpeta y, a continuación, haga clic en **pegar**.  
   
-5.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*>: \Program BizTalk \<versión > Accelerator for carpeta Tutorial\Tutorial_BTAHL7Drop HL7\SDK\End-to-End.  
+5.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End Carpeta BTAHL7Drop.  
   
-     Puede comprobar si la instalación fue correcta si la instancia procesada aparece en el **Tutorial_BTAHL7Drop** carpeta como \< *Guid*> .txt.  
+     Puede comprobar si la instalación fue correcta si la instancia procesada aparece en el **Tutorial_BTAHL7Drop** carpeta como \< *Guid*\>.txt.  
   
  Continúe con el paso siguiente, [preparando para utilizar el Tutorial](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-tutorial2.md).

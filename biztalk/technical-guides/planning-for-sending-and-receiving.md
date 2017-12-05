@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf635712e7cafa534f7b6441407e4ec31e8bf047
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-for-sending-and-receiving"></a>Planeación para enviar y recibir
 Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de recepción y se envían desde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del adaptador de envío. Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores de ilustración, por lo que de forma destacada en cualquier [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, es importante planificar con antelación determinar qué adaptadores o aceleradores va a usar y cómo configurar correctamente estos adaptadores o aceleradores.  
@@ -81,7 +81,7 @@ Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersi
 |TIBCO Enterprise Message Service|Habilita el intercambio de mensajes con formato de datos XML y binarios entre el servidor BizTalk Server y un servidor TIBCO EMS proporcionando una infraestructura de aplicación de confianza y estrechamente integrada.|4.2|  
 |WebSphere MQ|Habilita el intercambio de mensajes entre el servidor BizTalk Server e IBM WebSphere MQ.|5.3 con Fix Pack 10 o posterior y 6.0 con Fix Pack 1.1 o posterior|  
   
- Para obtener más información acerca de los adaptadores LOB disponibles con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], consulte [adaptadores incluidos con BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664).  
+ Para obtener más información acerca de los adaptadores LOB disponibles con BizTalk Server, vea [adaptadores incluidos con BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664).  
   
 ## <a name="biztalk-adapter-pack"></a>BizTalk Adapter Pack  
  Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contiene adaptadores basados en WCF para proporcionar conectividad a las aplicaciones de LOB, como la base de datos Oracle, Oracle E-Business Suite, SAP, Siebel y SQL Server. Para obtener una lista de adaptadores disponibles con [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], consulte [BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=152665) (http://go.microsoft.com/fwlink/?LinkId=152665).  
@@ -186,4 +186,4 @@ Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersi
 -   Si una orquestación se utiliza para procesar los mensajes, una sola instancia de la orquestación deben usarse, la orquestación debe estar configurada para utilizar un convoy secuencial y la **entrega ordenada** propiedad de la puerto de recepción de la orquestación debe establecerse en **True**.  
   
 ## <a name="see-also"></a>Vea también  
- [Planear el entorno de BizTalk Server](../technical-guides/planning-the-environment-for-biztalk-server.md)
+ [Planificación del entorno de BizTalk Server](../technical-guides/planning-the-environment-for-biztalk-server.md)

@@ -12,18 +12,18 @@ caps.latest.revision: "39"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07810f513c3530b214eb1405462db1e6ac96ed84
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8fc232edf6d99e31b5679932eb19873481fa579b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-deploy-a-biztalk-assembly-from-visual-studio"></a>Cómo implementar un ensamblado de BizTalk desde Visual Studio
 En este tema se proporcionan instrucciones sobre el uso del Explorador de soluciones de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] o el símbolo del sistema de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para implementar los ensamblados de BizTalk desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk. Aunque se pueda implementar un solo ensamblado desde el nivel de proyecto (haciendo clic con el botón secundario en el proyecto y haciendo clic en Implementar) o implementar todos los ensamblados en la solución al mismo tiempo desde el nivel de solución (haciendo clic con el botón secundario en la solución y haciendo clic en Implementar), recomendamos encarecidamente que se implementen todos al mismo tiempo desde el nivel de solución.  
   
  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se querían implementar varios ensamblados en una solución y alguno de ellos tenía una dependencia en cualquiera de los demás ensamblados, había que implementar individualmente los ensamblados en orden inverso a sus dependencias. Por ejemplo, si Ensamblado1 tenía una dependencia en Ensamblado2, había que implementar primero el Ensamblado 2 y, a continuación, el Ensamblado1.  
   
- Esto sigue siendo así al implementar ensamblados desde el nivel de proyecto. Sin embargo, con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], al implementar ensamblados desde el nivel de solución y no desde el nivel de proyecto, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ocupa automáticamente de todos los pasos de la implementación, incluida la implementación de los ensamblados en el orden correcto. Por lo tanto, para simplificar la implementación, cuando otro ensamblado tenga una dependencia en el ensamblado que se esté implementando, se deberán implementar los ensamblados en el nivel de solución.  
+ Esto sigue siendo así al implementar ensamblados desde el nivel de proyecto. Con BizTalk Server, sin embargo, al implementar ensamblados desde el nivel de solución en lugar de nivel de proyecto, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ocupa automáticamente de todos los pasos de implementación, incluida la implementación de ensamblados en el orden correcto. Por lo tanto, para simplificar la implementación, cuando otro ensamblado tenga una dependencia en el ensamblado que se esté implementando, se deberán implementar los ensamblados en el nivel de solución.  
   
  Al seleccionar la opción para implementar un proyecto o una solución desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], el ensamblado o ensamblados se crean e implementan automáticamente en la aplicación de BizTalk especificada en el grupo local de BizTalk. Si la aplicación aún no existe en el grupo, la implementación también crea la aplicación. Los ensamblados y los artefactos que contienen se registran y sus datos se guardan en la base de datos de administración (de configuración) de BizTalk correspondiente al grupo de BizTalk. Además, si se especifica esta opción en las propiedades de implementación del proyecto, los ensamblados se agregan a la caché de ensamblados global (GAC).  
   
@@ -60,7 +60,7 @@ En este tema se proporcionan instrucciones sobre el uso del Explorador de soluci
   
 2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **Devenv / deploy***Nombreconfigsolución* *nombresolución* [**/proyecto** *Nombre_proyecto*] [**/ projectconfig** *Nombreconfigproyecto*]    
+     **Devenv / deploy***Nombreconfigsolución* *nombresolución* [**/proyecto** *Nombre_proyecto*] [**/ projectconfig** *Nombreconfigproyecto*]  
   
      Ejemplo:  
   
@@ -77,4 +77,4 @@ En este tema se proporcionan instrucciones sobre el uso del Explorador de soluci
      Es posible que la primera vez que implemente un ensamblado que contenga una orquestación reciba un mensaje de advertencia que le indique que el archivo de enlace no contiene la orquestación. Ello se debe a que las orquestaciones no se enlazan automáticamente al host en el momento de la implementación. Deberá realizar este paso manualmente.  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+ [Implementación de ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

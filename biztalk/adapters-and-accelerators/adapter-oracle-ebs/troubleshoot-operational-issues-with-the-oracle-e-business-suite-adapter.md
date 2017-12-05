@@ -13,11 +13,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92f888c185a7c7bea800986615da04ce57c80db0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4654e228a4ca86c9d89686f826d57777f2353efd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de Oracle E-Business Suite
 Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  
@@ -50,7 +50,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **Resolución**  
   
--   Asegúrese de que las versiones de cliente LOB necesarias se instalan en el equipo donde instaló el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Para obtener información acerca de las versiones de cliente compatibles, consulte la Guía de instalación disponible en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
+-   Asegúrese de que las versiones de cliente LOB necesarias se instalan en el equipo donde instaló el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Para obtener información acerca de las versiones de cliente compatibles, consulte la Guía de instalación disponible en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
   
 -   Asegúrese de que se realiza una instalación personalizada de los adaptadores para instalar a sólo el adaptador que necesita.  
   
@@ -72,7 +72,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  El adaptador produce el siguiente error al realizar cualquier operación en el uso de Oracle E-Business Suite [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **Para[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **Para que BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  

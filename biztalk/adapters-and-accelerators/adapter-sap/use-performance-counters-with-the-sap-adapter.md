@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5da387377f6201b518d3c5fdf37dabb872bcf600
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dbc7ed347bc81a8a00ff7faa826bd48203c47e63
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-sap-adapter"></a>Utilizar contadores de rendimiento con el adaptador SAP
 Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] los clientes pueden usar los contadores de rendimiento para medir el rendimiento de los adaptadores. El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] programa de instalación crea la categoría de contador de rendimiento "[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]" a lo largo de instalar la [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  
@@ -35,23 +35,23 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
   
 -   Para las llamadas desde el adaptador al sistema SAP (saliente)  
   
-    -   A,\<host de servidor de aplicación >,\<número del sistema >  
+    -   A,\<host de servidor de aplicación\>,\<número del sistema\>  
   
-    -   B,\<host de servidor de mensaje >,\<R3NAME >  
+    -   B,\<host de servidor de mensaje\>,\<R3NAME\>  
   
-    -   D.,\<destino >  
+    -   D.,\<destino\>  
   
 -   Para las llamadas desde el sistema SAP para el adaptador (entrada)  
   
-    -   I,\<host de puerta de enlace >,\<el servidor de puerta de enlace >  
+    -   I,\<host de puerta de enlace\>,\<servidor de puerta de enlace\>  
   
-    -   Id.,\<destino >  
+    -   Id.,\<destino\>  
   
  El identificador de acción podría ser:  
   
--   \<Nombre RFC > (para una llamada de RFC)  
+-   \<Nombre RFC\> (para una llamada de RFC)  
   
--   T,\<nombre RFC > (para una llamada tRFC)  
+-   T,\<nombre RFC\> (para una llamada tRFC)  
   
  El contador de rendimiento se inicializa solo una vez que el adaptador realiza la primera llamada al sistema SAP. Además, el [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) propiedad del contador de rendimiento está establecida en 'Process', lo que significa que el contador de rendimiento deja de existir en cuanto finaliza el programa que crea el contador.
   

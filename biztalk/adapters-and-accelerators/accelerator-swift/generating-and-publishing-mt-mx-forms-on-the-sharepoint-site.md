@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e2bd45c54bfc312a52d199a2f117a108207cdf5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c8bd8248a916d1e98571551a8561119b6377329
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>Generar y publicar formularios de MT/MX en el sitio de SharePoint
 **Para generar y publicar MT/MX formularios en un sitio de SharePoint:**  
@@ -27,13 +27,13 @@ ms.lasthandoff: 09/20/2017
   
 3.  En un símbolo del sistema, tener acceso a la carpeta del archivo ejecutable compilado (FormGenerator.exe). Por ejemplo, si ha creado la utilidad en modo de depuración, tener acceso a la **... \bin\Debug** carpeta.  
   
-4.  Escriba FormGenerator.exe [-b] [-\<no. de las rutas de acceso de carpeta de plantilla >]  
+4.  Escriba FormGenerator.exe [-b] [-\<no. de las rutas de acceso de carpeta de plantilla\>]  
   
      `<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`. Reemplace los parámetros con los nombres de carpeta recién creada.  
   
 5.  El comando anterior también generará el esquema de sobres necesario para la reparación de mensajes de MX.  
   
-6.  Vaya a la carpeta de salida \<DestinationFolderPath >. En \<DestinationFolderPath >, abra la carpeta de la plantilla de formulario de InfoPath para los que desea generar el formulario. Por ejemplo, si desea generar el formulario de InfoPath MT103, a continuación, abra la carpeta MT103 en la DestinationFolderPath y abra el TemplateDS.sln.  
+6.  Vaya a la carpeta de salida \<DestinationFolderPath\>. En \<DestinationFolderPath\>, abra la carpeta de la plantilla de formulario de InfoPath para los que desea generar el formulario. Por ejemplo, si desea generar el formulario de InfoPath MT103, a continuación, abra la carpeta MT103 en la DestinationFolderPath y abra el TemplateDS.sln.  
   
 7.  En el Explorador de soluciones, haga doble clic en el **manifest.xsf**. Se abrirá el archivo de diseño del formulario de InfoPath que tardará algún tiempo en obtener abierto.  
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 12. En la ventana del Asistente para publicación, seleccione **a una ubicación de red** y haga clic en **siguiente**.  
   
-13. En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba **http://localhost/sites/BASSite/Templates/\<MessageType > .xsn** y tipo  **\<MessageType >** en el formulario Cuadro de texto de nombre de plantilla y haga clic en **siguiente**.  
+13. En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba **http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn** y tipo  **\<MessageType\>**  en la plantilla de formulario de cuadro de texto Nombre y haga clic en **siguiente**.  
   
 14. Haga clic en **Siguiente**.  
   
@@ -58,13 +58,13 @@ ms.lasthandoff: 09/20/2017
   
 16. En Internet Explorer, abra el sitio de SharePoint **http://localhost/sites/bassite/templates**.  
   
-17. Seleccione  **\<MessageType >**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.  
+17. Seleccione  **\<MessageType\>**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.  
   
-18. En las plantillas:\< MessageType > ventana, en el cuadro Namespace:  
+18. En las plantillas:\< MessageType\> ventana, en el cuadro Namespace:  
   
     -   Si va a generar los formularios de InfoPath de MT, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
   
-    -   Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName>**  
+    -   Si va a generar los formularios de InfoPath MX, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName\>**  
   
          Esto le ayudará a identificar la instancia de mensaje con la plantilla correspondiente.  
   

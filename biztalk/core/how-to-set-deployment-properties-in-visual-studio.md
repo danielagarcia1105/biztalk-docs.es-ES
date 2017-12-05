@@ -12,11 +12,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 079167f7607f434e48e29e90029468cd952c5620
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3f448ec0569d64a3b3a14738bf08e68e083b80f0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-deployment-properties-in-visual-studio"></a>Cómo establecer propiedades de implementación en Visual Studio
 Para poder implementar una solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk, primero debe establecer propiedades del proyecto. Si una solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contiene varios proyectos, debe configurar por separado las propiedades para cada proyecto.  
@@ -42,13 +42,13 @@ Para poder implementar una solución de [!INCLUDE[btsVStudioNoVersion](../includ
   
     |Propiedad|Valor|Explicación|  
     |--------------|-----------|-----------------|  
-    |Application Name|\<Name>|Nombre de la aplicación de BizTalk en la que se van a implementar los ensamblados de este proyecto. Si la aplicación ya existe, los ensamblados se agregarán a ella cuando implemente el proyecto. En cambio, si no existe, se creará la aplicación. Si se deja este campo en blanco, los ensamblados se implementarán en la aplicación de BizTalk predeterminada en el grupo actual. Los nombres que incluyen espacios deben flanquearse con comillas dobles (").|  
-    |Base de datos de configuración|\<Nombre de la base de datos de administración de BizTalk >|Nombre de la base de datos de administración de BizTalk del grupo; el nombre predeterminado es BizTalkMgmtDb.|  
-    |Server|\<Nombre del servidor >|Nombre de la instancia del servidor SQL Server que aloja la base de datos de administración de BizTalk en el equipo local. En las instalaciones de un solo equipo, suele ser el nombre del equipo local. **Nota:** si mueve este proyecto de BizTalk a otro equipo, probablemente necesitará modificar la propiedad del servidor para reflejar el nuevo nombre del equipo antes de poder implementar el ensamblado.|  
+    |Application Name|\<Nombre\>|Nombre de la aplicación de BizTalk en la que se van a implementar los ensamblados de este proyecto. Si la aplicación ya existe, los ensamblados se agregarán a ella cuando implemente el proyecto. En cambio, si no existe, se creará la aplicación. Si se deja este campo en blanco, los ensamblados se implementarán en la aplicación de BizTalk predeterminada en el grupo actual. Los nombres que incluyen espacios deben flanquearse con comillas dobles (").|  
+    |Base de datos de configuración|\<Nombre de la base de datos de administración de BizTalk\>|Nombre de la base de datos de administración de BizTalk del grupo; el nombre predeterminado es BizTalkMgmtDb.|  
+    |Server|\<Nombre del servidor\>|Nombre de la instancia del servidor SQL Server que aloja la base de datos de administración de BizTalk en el equipo local. En las instalaciones de un solo equipo, suele ser el nombre del equipo local. **Nota:** si mueve este proyecto de BizTalk a otro equipo, probablemente necesitará modificar la propiedad del servidor para reflejar el nuevo nombre del equipo antes de poder implementar el ensamblado.|  
     |Volver a implementar|True o False|Si se define en True (valor predeterminado), puede volver a implementar los ensamblados de BizTalk sin cambiar el número de versión.|  
     |Instalar caché de ensamblados total (GAC)|True o False|Si se define en True (valor predeterminado), los ensamblados se instalan en la caché de ensamblados global (GAC) del equipo local al instalar la aplicación. Establézcalo en False solo si tiene intención de usar otras herramientas en esta instalación, como gacutil.|  
     |Reiniciar instancias de host|True o False|Si se define en True, se reinician de forma automática todas las instancias de host que se ejecutan en el equipo local cuando el ensamblado se vuelve a implementar. En cambio, si se define en False (valor predeterminado), debe reiniciar manualmente las instancias de host al volver a implementar un ensamblado. **Nota:** si está volviendo a implementar ensamblados desde el nivel de solución, instancias de host se reiniciará una vez para cada proyecto que tenga esta opción se establece en True. Esto puede ocasionar varios reinicios. Si tiene intención de volver a implementar desde el nivel de solución, se recomienda establecer esta propiedad en True en solo un proyecto de la solución para evitar que la instancia de host se reinicie varias veces. Esto debe establecerse en el último proyecto que se vaya a volver a implementar en la solución. Además, si se detiene una instancia de host cuando esté llevando a cabo la nueva implementación, no se iniciará.|  
     |Habilitar pruebas de unidades|True o False|Especifica si se deben habilitar las pruebas de unidades para el proyecto.|  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+ [Implementación de ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

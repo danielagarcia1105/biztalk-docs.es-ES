@@ -18,18 +18,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 926a13d443e7002a71e2b9f6509c3a377f0af0be
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6e63590c8cc84a6c6c1a7e957900aa44cdcd61c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-5-create-a-send-port-to-deliver-acknowledgments-to-the-adt-system-using-the-file-adapter"></a>Paso 5: Crear un puerto de envío para entregar confirmaciones al sistema ADT usando el adaptador de archivo
 En este paso, creará el puerto de envío para generar confirmaciones mediante el adaptador de archivo.  
   
 ### <a name="to-create-the-tutorialsendackadt-send-port"></a>Para crear el puerto de envío Tutorial_sendAck_ADT  
   
-1.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, crear el \< *unidad*: > \Program BizTalk \<versión > Accelerator for carpeta Tutorial\Tutorial_sendAck_ADT HL7\SDK\End-to-End.  
+1.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, crear el \< *unidad*:\>\Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End carpeta sendAck_ADT.  
   
 2.  En la consola de administración de BizTalk Server, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
@@ -45,7 +45,7 @@ En este paso, creará el puerto de envío para generar confirmaciones mediante e
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<**  *unidad***: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_sendAck_ADT HL7\SDK\End-to-End** .|  
+    |**Carpeta de destino**|Vaya a  **\<**  *unidad***:\>\Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_sendAck_ADT**.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (reemplazar la extensión .xml con la extensión .txt).|  
   
 5.  En el cuadro de diálogo Propiedades de puerto de envío, para **canalización de envío**, seleccione **BTAHL72XPipelines.BTAHL72XSendPipeline**.  
@@ -72,7 +72,7 @@ En este paso, creará el puerto de envío para generar confirmaciones mediante e
     |**Valor**|Tipo de **Tutorial_ADTSystem**.|  
   
     > [!NOTE]
-    >  Para el puerto de envío Tutorial_sendAck_ADT BTAHL7 quita las confirmaciones en la ubicación de destino de archivo \< *unidad*>: programa FilesMicrosoft BizTalk <version> Acelerador para TutorialTutorial HL7SDKEnd-to-End _sendAck_ADT.  
+    >  Para el puerto de envío Tutorial_sendAck_ADT BTAHL7 quita las confirmaciones en la ubicación de destino de archivo \< *unidad*\>: programa FilesMicrosoft BizTalk <version> acelerador HL7SDKEnd-to-end TutorialTutorial_sendAck_ADT.  
   
 7.  Haga clic en **aplicar**y, a continuación, haga clic en **Aceptar.**  
   

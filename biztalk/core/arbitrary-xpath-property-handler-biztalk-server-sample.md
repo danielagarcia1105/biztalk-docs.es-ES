@@ -15,11 +15,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3ce40931caaf8f247afeacdae48721f31a7d99b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3f2f59ce48a3d46ebf33889e31a55f9aa452fd17
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)
 El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) muestra cómo escribir un componente de canalización personalizado para promover propiedades específicas en un documento XML que se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar la funcionalidad contenida en el ejemplo para crear componentes de ensamblador y desensamblador normales personalizados para evaluar las expresiones XPath.  
@@ -29,7 +29,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
   
 1.  Un puerto de recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recupera DocInstance.xml y un componente de canalización personalizado denominado controlador de propiedad XPath arbitrario lo procesa.  
   
-2.  El componente de controlador de propiedad XPath arbitrario promueve todos \<precio > y \<Quantity > elementos con una expresión XPath arbitraria como se definen en el esquema de pedido de compra. Además, la expresión XPath contiene la construcción de la posición que se va a usar con elementos secundarios ambiguos del elemento raíz del documento de pedido de compra.  
+2.  El componente de controlador de propiedad XPath arbitrario promueve todos \<precio\> y \<cantidad\> elementos con una expresión XPath arbitraria como se definen en el esquema de pedido de compra. Además, la expresión XPath contiene la construcción de la posición que se va a usar con elementos secundarios ambiguos del elemento raíz del documento de pedido de compra.  
   
 3.  El componente de controlador de propiedad XPath arbitrario determina el tipo de mensaje y lo promueve en el contexto del mensaje.  
   
@@ -42,7 +42,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
 7.  El nuevo documento de pedido de compra se escribe en un archivo del directorio \Output.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\ArbitraryXPathPropertyHandler  
+ *\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -68,7 +68,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
  Este ejemplo está diseñado para ejecutarse en un entorno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] en ejecución en el mismo equipo. Si el entorno no coincide con esta configuración, debe modificar el controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) para elegir el equipo de servidor SQL Server correcto.  
   
 > [!IMPORTANT]
->  Setup.bat supone que el directorio de instalación de Microsoft Windows es C:\Windows. Si la instalación de Windows se encuentra en otro directorio, debe modificar el archivo ArbitraryXPathPropertyHandler.csproj para reflejar la ubicación del ensamblado Microsoft.BizTalk.Component.Utilities en la caché de ensamblados global. En el elemento de referencia, cambie \<SYSTEMROOT > a la ubicación donde está instalado Windows (por ejemplo, C:\WINNT\\).  
+>  Setup.bat supone que el directorio de instalación de Microsoft Windows es C:\Windows. Si la instalación de Windows se encuentra en otro directorio, debe modificar el archivo ArbitraryXPathPropertyHandler.csproj para reflejar la ubicación del ensamblado Microsoft.BizTalk.Component.Utilities en la caché de ensamblados global. En el elemento de referencia, cambie \<SYSTEMROOT\> a la ubicación donde está instalado Windows (por ejemplo, C:\WINNT\\).  
   
 ```  
 <Reference  
@@ -84,13 +84,13 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
   
 1.  En una ventana de comandos, cambie los directorios (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\ArbitraryXPathPropertyHandler  
+     *\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Genera el componente de canalización del controlador de propiedad XPath arbitrario.  
   
-    -   Componente de canalización de copias generados para el  *\<ruta de acceso de instalación >*directorio \Pipeline Components.  
+    -   Componente de canalización de copias generados para el  *\<ruta de acceso de instalación\>*directorio \Pipeline Components.  
   
     -   Crea los puertos de envío y recepción.  
   
@@ -115,7 +115,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
   
 1.  Copie el archivo de pedido de compra (PO) DocInstance.xml en el directorio \Input. Un puerto de recepción recoge el archivo de pedido de compra y envía los datos XML al componente de canalización del controlador de propiedad Xpath arbitrario.  
   
-2.  Vea el contenido del directorio \Output. Tenga en cuenta que se crea un archivo nuevo que contiene toda la información del archivo DocInstance.xml que ha copiado en el directorio \Input. La diferencia en el archivo es que ahora el \<TotalAmount > se ha rellenado el elemento con la cantidad total del pedido de compra.  
+2.  Vea el contenido del directorio \Output. Tenga en cuenta que se crea un archivo nuevo que contiene toda la información del archivo DocInstance.xml que ha copiado en el directorio \Input. La diferencia en el archivo es que ahora el \<TotalAmount\> elemento se ha rellenado con la cantidad total del pedido de compra.  
   
 ## <a name="comments"></a>Comentarios  
  Las expresiones XPath canónicas son expresiones simples como "/ * [local-name () = 'element-name' and namespaceURI() = 'http://MyUri.org'] /\*[local-name () = 'element-name'] / @\*[local-name = 'attribute-name']".  

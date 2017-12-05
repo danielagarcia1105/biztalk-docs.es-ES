@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4dc65f584bdd474314cd976edc586d0ed60f0505
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a0bf65bdb3de30d5b701946215b5c7ae7d40d828
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a>Cómo administrar las asignaciones de usuario para el Host para SSO iniciado
 Utilice los procedimientos siguientes para crear asignaciones, definir credenciales y habilitar o deshabilitar asignaciones.  
@@ -40,9 +40,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage – createmappings \<archivo de asignación >**, donde **archivo de asignación >** es el nombre del archivo xml.  
+4.  Tipo de **ssomanage – createmappings \<archivo de asignación\>**, donde **archivo de asignación >** es el nombre del archivo xml.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -69,9 +69,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - setcredentials \<nombre de la cuenta de Windows > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - setcredentials \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -82,9 +82,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - setcredentials \<nombre de cuenta externa > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - setcredentials \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -95,9 +95,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - enablemapping \<nombre de la cuenta de Windows > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - enablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -108,9 +108,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - disablemapping \<nombre de la cuenta de Windows > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - disablemapping \<nombre de la cuenta de Windows\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -121,9 +121,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - enablemapping \<nombre de cuenta externa > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - enablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -134,9 +134,9 @@ Utilice los procedimientos siguientes para crear asignaciones, definir credencia
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage - disablemapping \<nombre de cuenta externa > \<nombre de aplicación >**.  
+4.  Tipo de **ssomanage - disablemapping \<nombre de cuenta externa\> \<nombre de la aplicación\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

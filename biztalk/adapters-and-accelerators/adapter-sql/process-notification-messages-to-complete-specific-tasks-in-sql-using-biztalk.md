@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efed30f3e65c4f58a060f67539672c95b3d6df59
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36d3c923593fe9a9402a14012e93fccb274ecdb6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk-server"></a>Procesar los mensajes de notificación para completar tareas específicas en SQL con BizTalk Server
 Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir notificaciones de cambios en las tablas de base de datos de SQL Server. Sin embargo, el adaptador sólo envía una notificación de que algunos registros se insertarlos, actualizarlos o eliminan en una tabla de base de datos determinada. Cualquier procesamiento posterior en esos registros debe controlarse las propias aplicaciones de cliente. En este tema se presenta una descripción basada en escenario sobre cómo procesar los registros de la tabla en función del tipo de notificación recibida de la base de datos de SQL Server.  
@@ -61,7 +61,7 @@ Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] 
 |Propiedad de enlace|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|Especifica la operación de entrada que se desea realizar. Para recibir mensajes de notificación, establezca esta propiedad en **notificación**.|  
-|**NotificationStatement**|Especifica la instrucción SQL (SELECT o EXEC \<procedimiento almacenado >) usa para registrar las notificaciones de consulta. El adaptador obtiene un mensaje de notificación de SQL Server sólo cuando el conjunto de resultados para que los cambios de instrucción SQL especificados.|  
+|**NotificationStatement**|Especifica la instrucción SQL (SELECT o EXEC \<procedimiento almacenado\>) usa para registrar las notificaciones de consulta. El adaptador obtiene un mensaje de notificación de SQL Server sólo cuando el conjunto de resultados para que los cambios de instrucción SQL especificados.|  
 |**NotifyOnListenerStart**|Especifica si en el adaptador envía una notificación a los clientes de adaptador cuando se inicia el agente de escucha.|  
   
  Para obtener una descripción más completa de estas propiedades, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Para obtener una descripción completa de cómo usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir notificaciones de SQL Server, seguir leyendo.  
@@ -140,7 +140,7 @@ Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] 
   
  Una orquestación de ejemplo es similar al siguiente.  
   
- ![Orquestación para realizar post &#45; tareas de notificación](../../adapters-and-accelerators/adapter-sql/media/20f62716-603d-4293-84f7-8c8f6d82ccd0.gif "20f62716-603d-4293-84f7-8c8f6d82ccd0")  
+ ![Orquestación para realizar post & #45; tareas de notificación](../../adapters-and-accelerators/adapter-sql/media/20f62716-603d-4293-84f7-8c8f6d82ccd0.gif "20f62716-603d-4293-84f7-8c8f6d82ccd0")  
   
 ### <a name="adding-message-shapes"></a>Agregar formas de mensaje  
  Asegúrese de que especifique las siguientes propiedades para cada una de las formas de mensaje. Los nombres que aparecen en la columna de forma son los nombres de las formas de mensaje como se muestra en la orquestación just-mencionado.  
@@ -166,7 +166,7 @@ Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] 
   
      Para este tema, nombre de la variable como **NotificationType**.  
   
--   Crear una consulta de xpath para extraer el valor de la \<información > etiqueta. La consulta xpath asemejará a lo siguiente:  
+-   Crear una consulta de xpath para extraer el valor de la \<información\> etiqueta. La consulta xpath asemejará a lo siguiente:  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -261,7 +261,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Dado que la **NotifyOnListenerStart** enlaza la propiedad se establece en **True**, recibirá el mensaje siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>SqlBinding</Source>   
@@ -274,7 +274,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Insertar un registro en la tabla de empleados. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Insert</Info>   
       <Source>Data</Source>   
@@ -287,7 +287,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Actualizar un registro en la tabla de empleados. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Update</Info>   
       <Source>Data</Source>   
@@ -300,7 +300,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Eliminar un registro de la tabla de empleados. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Delete</Info>   
       <Source>Data</Source>   

@@ -28,11 +28,11 @@ caps.latest.revision: "53"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c000c733097bffa58f652801b459c429df149e56
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: adaf5cb0117e0d571e0be0ddd42350ce3af2ba80
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-install-the-stub-version-of-the-service-oriented-solution"></a>Cómo instalar la versión de código auxiliar de esta solución orientada a servicios
 Los pasos siguientes describen cómo preparar el equipo para instalar la versión de código auxiliar de la solución orientada a servicios y cómo instalar ésta en el equipo.  
@@ -49,7 +49,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
 -   [Implementar la definición de BAM para la solución orientada a servicios](#step11)  
   
--   [Implementar solución orientada a servicios](#step13)  
+-   [Implementar la solución orientada a servicios](#step13)  
   
 ##  <a name="step1"></a>Preparar el equipo para instalar la versión de código auxiliar de la solución orientada a servicios  
   
@@ -109,7 +109,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
 3.  Agregue las clases WebSphere MQ para el ensamblado .NET a la caché de ensamblados global (GAC).  
   
-    1.  En el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, desplácese al directorio \<directorio de instalación de IBM MQSeries > \bin.  
+    1.  En el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, desplácese al directorio \<directorio de instalación de MQSeries de IBM\>\bin.  
   
     2.  Ejecute el siguiente comando (asegúrese de que gacutil.exe se encuentra en el entorno de la ruta):  
   
@@ -146,7 +146,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Stub  
   
-         Ruta de acceso = \<directorio de instalación de BizTalk > \SDK\Scenarios\SO\BTSSoln\OrchProxy\Stub  
+         Ruta de acceso = \<directorio de instalación de BizTalk\>\SDK\Scenarios\SO\BTSSoln\OrchProxy\Stub  
   
          Permisos de acceso = lectura, ejecución de scripts  
   
@@ -154,7 +154,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubSAP  
   
-         Ruta de acceso = \<directorio de instalación de BizTalk > \SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
+         Ruta de acceso = \<directorio de instalación de BizTalk\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\SAP  
   
          Permisos de acceso = lectura, ejecución de scripts  
   
@@ -162,7 +162,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPendingTransactions  
   
-         Ruta de acceso = \<directorio de instalación de BizTalk > \SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
+         Ruta de acceso = \<directorio de instalación de BizTalk\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PendingTrans  
   
          Permisos de acceso = lectura, ejecución de scripts  
   
@@ -170,7 +170,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
          Alias = Microsoft.Samples.BizTalk.WoodgroveBank.StubPaymentTracker  
   
-         Ruta de acceso = \<BizTalk Install Directory > \SDK\Scenarios\SO\BTSSoln\StubWebServices\PaymentTrack  
+         Ruta de acceso = \<directorio de instalación de BizTalk\>\SDK\Scenarios\SO\BTSSoln\StubWebServices\PaymentTrack  
   
          Permisos de acceso = lectura, ejecución de scripts  
   
@@ -255,7 +255,7 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
   
 1.  En el símbolo del sistema, escriba el siguiente comando y presione ENTRAR. De este modo, se configurará la ruta para buscar la utilidad de SAE:  
   
-    -   SET PATH=%PATH%;%programfiles%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\Tracking  
+    -   CONJUNTO PATH=%PATH%;%programfiles%\Microsoft BizTalk Server\Tracking  
   
 2.  En el símbolo del sistema, cambie el directorio a la carpeta %BTSSolutionsPath%\SO\BTSSoln\BAM, escriba el siguiente comando y, a continuación, presione ENTRAR:  
   
@@ -286,4 +286,4 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la versió
 ## <a name="see-also"></a>Vea también  
  [Antes de instalar la solución orientada a servicios](../core/before-installing-the-service-oriented-solution.md)   
  [Cómo instalar las versiones de adaptador del servicio y en línea solución orientada a servicios](../core/how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution.md)   
- [Solución orientada a servicios de configuración del equipo del desarrollador para el servicio](../core/developer-machine-setup-for-the-service-oriented-solution.md)
+ [Configurar el equipo del desarrollador para la solución orientada a servicios](../core/developer-machine-setup-for-the-service-oriented-solution.md)

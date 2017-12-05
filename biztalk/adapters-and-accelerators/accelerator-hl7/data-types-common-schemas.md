@@ -16,14 +16,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19ff35b515e70c21e2349ae54847ba312d7ce0f8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0e7d693cdf70f7d29a79aa8999dde49f408b8815
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="data-types-common-schemas"></a>Los esquemas comunes de los tipos de datos
-El  **datatypes_*\<versión >*el archivo de esquema .xsd ** (donde  *\<versión >* es el número de versión de HL7) contiene la definición de todos los HL7 elementales y de materiales compuestos tipos de datos de la versión de HL7 correspondiente. El segments_*\<versión >*archivo .xsd usa este archivo para que coincida con la versión de HL7 correspondiente. La tabla de base de datos de DataStructures Access genera el DataTypes_*\<versión >*archivo de esquema XSD. El ejemplo siguiente es una entrada para el tipo de datos básico HL7 **ST**:  
+El  **datatypes_*\<versión\>*el archivo de esquema .xsd ** (donde  *\<versión\>*  es el número de versión de HL7 ) contiene la definición de todos los tipos de datos elementales y de materiales compuestos de HL7 para la versión de HL7 correspondiente. El segments_*\<versión\>*archivo .xsd usa este archivo para que coincida con la versión de HL7 correspondiente. La tabla de base de datos de DataStructures Access genera el DataTypes_*\<versión\>*archivo de esquema XSD. El ejemplo siguiente es una entrada para el tipo de datos básico HL7 **ST**:  
   
 ```  
 <xsd:simpleType name="ST">  

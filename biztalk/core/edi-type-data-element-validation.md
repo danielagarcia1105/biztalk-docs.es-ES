@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88a71a44c305e1eabbcdb9aede32b44439f6b03c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a989c58f59581795f641601938fe76bb7b1671f6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-type-data-element-validation"></a>Validación de tipo EDI (elemento de datos)
 La canalización de recepción EDI y la canalización de envío EDI llevan a cabo una validación de EDI en los elementos de datos del conjunto de transacciones. Esta validación se configura para todos los mensajes desde o a un usuario específico, a través de propiedades del acuerdo de esa entidad en el **validación** página (bajo la **configuración del conjunto de transacciones** sección para cualquier X12 o acuerdos EDIFACT). Si el **validación de tipo EDI** propiedad no está seleccionada en el **validación** página, los datos no se realizarán las validaciones que se describe en este tema.  
@@ -99,7 +99,7 @@ La canalización de recepción EDI y la canalización de envío EDI llevan a cab
 |-|-|  
 |Datos inesperados|Acción|  
 |Conjunto de transacciones inesperado o no definido|La canalización de envío o recepción EDI aceptará un conjunto de transacciones aunque no se haya implementado un esquema para aquél.|  
-|Segmento o registro inesperado|La canalización de recepción generará una etiqueta con el prefijo adecuado: \<UnexpectedSegment_ % SegmentID % >.<br /><br /> La canalización de envío utilizará los tres primeros caracteres del nombre de la etiqueta XML como nombre del segmento.|  
+|Segmento o registro inesperado|La canalización de recepción generará una etiqueta con el prefijo adecuado: \<UnexpectedSegment_ % SegmentID %\>.<br /><br /> La canalización de envío utilizará los tres primeros caracteres del nombre de la etiqueta XML como nombre del segmento.|  
 |Elemento de datos simple inesperado|La canalización de recepción generará una etiqueta XML con un prefijo, un identificador de segmento y un índice que representará la posición del elemento de datos en el segmento: <UnexpectedDataElement_%FieldName%.|  
 |Elemento de datos compuesto inesperado|La canalización de recepción generará una etiqueta XML con un prefijo, un identificador de segmento y un índice que representará la posición del elemento de datos en el segmento: <UnexpectedCompositeDataElement_%FieldName%.|  
 |Datos necesarios que faltan|La canalización tratará los datos como opcionales.|  

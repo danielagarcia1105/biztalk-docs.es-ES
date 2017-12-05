@@ -15,18 +15,18 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6ecc01ef4bc9d8bf2e82ca3dfe23b13ea0b67be2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3a6a3f93e600a8e68581f09af8fcdbc77ed57af
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-install-password-synchronization"></a>Cómo instalar la sincronización de contraseña
 Al igual que con las demás características de inicio de sesión único, Sincronización de contraseñas no se instala con la instalación predeterminada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], sino que se debe seleccionar de forma específica durante la instalación.  
   
 ### <a name="to-install-password-synchronization"></a>Para instalar Sincronización de contraseñas  
   
-1.  En el CD de BizTalk Server, vaya a la  **\<CDRoot > \Platforms\SSO** carpeta.  
+1.  En el CD de BizTalk Server, vaya a la  **\<CDRoot\>\Platforms\SSO** carpeta.  
   
 2.  Ejecutar **setup.exe** y siga las instrucciones del asistente.  
   
@@ -45,4 +45,4 @@ Al igual que con las demás características de inicio de sesión único, Sincro
  Lea la documentación que los acompaña (también en esta carpeta) antes de proceder con la instalación en el controlador de dominio.  
   
 ## <a name="see-also"></a>Vea también  
- [Sincronización de contraseña](../core/password-synchronization2.md)
+ [Sincronización de contraseñas](../core/password-synchronization2.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59f5c2821af02fb87727a4096f4b6e586bfd5b4f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 500ec05df9a3a365a350571e8b3e66f5d584f92d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="httpsolicitresponse"></a>HTTPSolicitResponse
 El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que aproveche una aplicación ASP.NET para ayudar a procesar los datos de la orquestación. En este ejemplo, la orquestación hace uso de un puerto de solicitud y respuesta para enviar un mensaje a la aplicación ASP.NET y para recuperar la respuesta. La integración entre la orquestación de BizTalk Server y la aplicación ASP.NET se consigue mediante el adaptador de HTTP. Para obtener más información, consulte [adaptador de HTTP](../core/http-adapter.md).  
@@ -36,7 +36,7 @@ El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsof
 4.  La orquestación recibe el resultado como XML en una respuesta HTTP y escribe dicho resultado en un archivo .xml en una carpeta concreta.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \AdaptersUsage\HTTPSolicitResponse  
+ \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -61,15 +61,15 @@ El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsof
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersUsage\HTTPSolicitResponse  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HTTPSolicitResponse  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada y de salida para este ejemplo:  
   
-         \<*Ejemplos de ruta de acceso*> \AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+         \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*Ejemplos de ruta de acceso*> \AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+         \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
     -   Compila y configura la aplicación ASP.NET de multiplicador que usa este ejemplo.  
   
@@ -121,4 +121,4 @@ El ejemplo HTTPSolicitResponse muestra cómo crear una orquestación de Microsof
  Los archivos MultiplyRequest.xsd y MultiplyResponse.xsd son los esquemas XML que definen el formato de los datos de entrada y salida para la aplicación ASP.NET de multiplicador. La orquestación usa estos archivos para definir los tipos de mensajes de solicitud y respuesta.  
   
 ## <a name="see-also"></a>Vea también  
- [Ejemplos de adaptadores HTTP](../core/http-adapter-samples.md)
+ [Ejemplos de adaptadores de HTTP](../core/http-adapter-samples.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 730038af616cfbec75a9d7e6c4b77b3097b2b9ca
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b932ab2f179faab1381609c007dcdd148f200f7e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-10-verify-the-interrogative-scenario"></a>Paso 10: Comprobar el escenario Interrogative
 En este paso, comprobará el escenario de extremo a extremo para este tutorial.  
@@ -26,15 +26,15 @@ En este paso, comprobará el escenario de extremo a extremo para este tutorial.
   
 1.  Abra un símbolo del sistema.  
   
-2.  En el símbolo del sistema, vaya a  **\<* unidad*>: \Program BizTalk \<versión > Accelerator para HL7\SDK\MLLP utilidades **.  
+2.  En el símbolo del sistema, vaya a  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades * *.  
   
 3.  En el símbolo del sistema, escriba **MllpReceive /P 24000**y, a continuación, presione **ENTRAR**. Esto ejecuta la aplicación de agente de escucha MLLP escuchar al puerto 24000 y muestra cualquier mensaje recibido en la pantalla. Esta aplicación simula el sistema de información de salud.  
   
 4.  Abra un símbolo del sistema adicional.  
   
-5.  En la segunda ventana de símbolo del sistema, vaya a  **\<* unidad*>: \Program BizTalk \<versión > Accelerator para HL7\SDK\MLLP utilidades **.  
+5.  En la segunda ventana de símbolo del sistema, vaya a  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\ Utilidades MLLP **.  
   
-6.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13/TWOWAY /P 22000 /F "\<*unidad*>: \Program BizTalk \<versión > Accelerator for HL7\ SDK\Interrogative Tutorial\QRY^Q01.txt** y, a continuación, presione **ENTRAR.**  
+6.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13/TWOWAY /P 22000 /F "\<*unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Tutorial\QRY^Q01.txt** y, a continuación, presione **ENTRAR.**  
   
     > [!NOTE]
     >  Este comando envía el mensaje de consulta que creó al principio de este tutorial para el puerto MLLP 22000 y espera una respuesta (confirmación). El ADT puerto recoge este mensaje de recepción y lo procesa.  
@@ -48,7 +48,7 @@ En este paso, comprobará el escenario de extremo a extremo para este tutorial.
         QRD|200307231012|D|I|4387|||20^LI|12233|RES|ALL  
         ```  
   
-    -   Además, la utilidad MllpSend crea un archivo de confirmación en el \< *unidad*>: \Program BizTalk \<versión > Accelerator for carpeta Tutorial HL7\SDK\Interrogative denominada consulta de ^ Q01.txt.RESPONSE. Este archivo contiene la siguiente información como la confirmación:  
+    -   Además, la utilidad MllpSend crea un archivo de confirmación en el \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\ Carpeta de Tutorial interrogative denominada QRY^Q01.txt.RESPONSE. Este archivo contiene la siguiente información como la confirmación:  
   
         ```  
         MSH|^~\&|HIS||ADT||20040331154031.2222-0800||ACK^Q01^ACK|10000GSM|P|2.4  
@@ -65,7 +65,7 @@ En este paso, comprobará el escenario de extremo a extremo para este tutorial.
     > [!NOTE]
     >  Paso 2 ejecuta la aplicación de agente de escucha MLLP escuchar al puerto 25000 y muestra todos los mensajes recibidos a la pantalla. Esta aplicación simula el sistema ADT.  
   
-3.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13 /P 23000 /F "\<*unidad*>: \Program BizTalk \<versión > Accelerator for HL7\SDK\ Tutorial\DSR.txt"** interrogative, a continuación, presione **ENTRAR**.  
+3.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13 /P 23000 /F "\<*unidad*\>: \Program BizTalk \<versión\>Acelerador para HL7\SDK\Interrogative Tutorial\DSR.txt"**, a continuación, presione **ENTRAR**.  
   
     > [!NOTE]
     >  Paso 3 envía el mensaje de respuesta que creó al principio de este tutorial para el puerto MLLP 23000. El HIS puerto recoge este mensaje de recepción y lo procesa.  

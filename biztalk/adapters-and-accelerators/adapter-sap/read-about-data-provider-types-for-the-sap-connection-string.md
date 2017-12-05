@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b1a27fa8b09addc7874e6056f0b467c7f874a41e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e77219fb74b7af377953a3761c4d9f241b3a8bd0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-about-data-provider-types-for-the-sap-connection-string"></a>Más información sobre los tipos de proveedor de datos de la cadena de conexión de SAP
 Para establecer la conectividad a un sistema SAP, los clientes ADO.NET deben especificar las propiedades de conexión de SAP en forma de una cadena de conexión. El formato de la cadena de conexión ADO de SAP tiene el siguiente aspecto:  
@@ -52,7 +52,7 @@ Para establecer la conectividad a un sistema SAP, los clientes ADO.NET deben esp
 |Número del sistema (SYSNR)|Un|El número del sistema SAP|  
 |Nombre de grupo de servidores de aplicación (grupo)|B|Nombre del grupo de servidores SAP. Se trata de un grupo de servidores de aplicaciones en una conexión de equilibrio de carga opcional.|  
 |Host de servidor de mensaje (MSHOST)|B|Nombre del host del servidor de mensajes SAP|  
-|Servicio de servidor de mensajes (MSSERV)|B|Nombre del servicio del servidor de mensajes SAP como se especifica en el \<unidad del sistema >: archivo \WINDOWS\system32\drivers\etc\services. Si no especifica un valor, el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] se da por supuesto que sea "sapms\<nombre del sistema R/3 >". Por ejemplo, si el nombre del sistema R/3 se DV1, el adaptador asume el nombre de servicio del servidor de mensaje como "sapmsDV1".<br /><br /> Sin embargo, si la entrada en el archivo de servicios es diferente, debe especificar ese valor.|  
+|Servicio de servidor de mensajes (MSSERV)|B|Nombre del servicio del servidor de mensajes SAP como se especifica en el \<unidad del sistema\>: archivo \WINDOWS\system32\drivers\etc\services. Si no especifica un valor, el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] se da por supuesto que sea "sapms\<nombre del sistema R/3\>". Por ejemplo, si el nombre del sistema R/3 se DV1, el adaptador asume el nombre de servicio del servidor de mensaje como "sapmsDV1".<br /><br /> Sin embargo, si la entrada en el archivo de servicios es diferente, debe especificar ese valor.|  
 |Nombre del sistema R/3 (R3NAME)|B|El nombre SAP R/3.|  
 |Destino (destino)|D|Toma los parámetros de conexión del archivo saprfc.ini.|  
 |(Cliente)|A, B, D|El número de cliente SAP|  
@@ -110,4 +110,4 @@ ASHOST=SAPSERVER; SYSNR=00; CLIENT=800; LANG=EN; USER=YourUserName; PASSWD=",@/:
 >  Debe especificar los parámetros de conexión para la conexión solo un tipo A, B o D. Por ejemplo, si especifica al Host del servidor de aplicaciones en la cadena de conexión, no debe especificar un nombre de Host de servidor de mensaje o el R3NAME.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar el proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+ [Uso del proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

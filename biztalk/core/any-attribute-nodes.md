@@ -12,17 +12,17 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aa3542c2703dfba986d158b40e54982f92b8543c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82490a114149e3d4f71e3598900be5599c8a36e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="any-attribute-nodes"></a>Nodos Cualquier atributo
 En el Editor de BizTalk, puede usar un **cualquier atributo** nodo para indicar un elemento (conocido) dentro de un mensaje de instancia para el que pueden aparecer cero o más atributos desconocidos. Esto resulta útil para las situaciones en las que sabe que un elemento específico estará presente en una ubicación específica de un mensaje de instancia, pero no está seguro de qué atributos incluirá exactamente dicho elemento. Si coloca un **cualquier atributo** nodo dentro de la **registro** nodo asociado con el elemento correspondiente, BizTalk puede procesar dicho elemento, con el único requisito que se va a que los atributos asociados son sintácticamente correcto (attributeName = "attributeValue").  
   
 > [!NOTE]
->  En el Editor de BizTalk, el **cualquier atributo** nodo se representa con la cadena \<AnyAttribute > en la vista de árbol de esquema.  
+>  En el Editor de BizTalk, el **cualquier atributo** nodo se representa con la cadena \<AnyAttribute\> en la vista de árbol de esquema.  
   
 > [!NOTE]
 >  Puede controlar el grado al que la parte desconocida del mensaje se valida como XML con formato correcto mediante la **Process Contents** propiedad. En muchos casos puede que necesite establecer el **Process Contents** propiedad **omitir** para el contenido de un mensaje de instancia en la ubicación de la **cualquier atributo** nodo que se va a procesar . Conserva el valor predeterminado de **Strict** para el **Process Contents** propiedad impide que la validación de mensaje de instancia de paso.  
@@ -51,4 +51,4 @@ En el Editor de BizTalk, puede usar un **cualquier atributo** nodo para indicar 
  [Representación de esquemas de BizTalk](../core/biztalk-representation-of-schemas.md)   
  [Propiedades de nodo](../core/node-properties.md)   
  [Cómo establecer propiedades de nodo](../core/how-to-set-node-properties.md)   
- [Nodos cualquier elemento](../core/any-element-nodes.md)
+ [Nodos Cualquier elemento](../core/any-element-nodes.md)

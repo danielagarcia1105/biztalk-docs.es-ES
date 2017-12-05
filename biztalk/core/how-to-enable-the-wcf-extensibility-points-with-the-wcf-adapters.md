@@ -13,11 +13,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be2980f3235552f263efbd4fce92c0042216b88c
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 2881ddd83ebeb31a9f5ff3da6ed858f158751d64
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters"></a>Cómo habilitar los puntos de extensibilidad WCF con los adaptadores de WCF
 Habilitar tres puntos de extensibilidad WCF: extensión de comportamiento, extensión de elemento de enlace y extensión de enlace, con los adaptadores de WCF-Custom y WCF-CustomIsolated. Para ello, primero instale los ensamblados que implementan los puntos de extensibilidad WCF en la caché de ensamblado global (GAC), a continuación, modifique el archivo machine.config de su equipo y configure el adaptador de WCF-Custom o el WCF-CustomIsolated mediante la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -38,7 +38,7 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 4.  Escriba el siguiente comando:  
   
-     **Gacutil.exe /if "\<**  *ruta de acceso al archivo .dll del ensamblado* **>"**  
+     **Gacutil.exe /if "\<**  *ruta de acceso al archivo .dll del ensamblado*  **\>"**  
   
 5.  Se instalará el ensamblado en la GAC, sobrescribiendo cualquier ensamblado existente con el mismo nombre.  
   
@@ -53,7 +53,7 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 1.  En un símbolo del sistema, vaya a la % FrameworkDir%\v4. Carpeta X.XXXXX\CONFIG y, a continuación, abra el **machine.config** archivo mediante el Bloc de notas.  
   
-2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel >\\< extensiones\>**  elementos, agréguelos dentro del  **\< Configuración >** elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<bindingExtensions >** (elemento) para una extensión de enlace de WCF dentro de la  **\< system.serverModel >\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de enlace personalizado, netHttpBinding, agregue el código siguiente dentro de la  **\<configuración >** elemento del archivo machine.config:  
+2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel\>\\< extensiones\>**  elementos, agregar los elementos dentro de la  **\<configuración\>**  elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<bindingExtensions\>**  (elemento) para una extensión de enlace de WCF dentro de el  **\<system.serverModel\>\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de enlace personalizado, netHttpBinding, agregue el código siguiente dentro de la  **\<configuración\>**  elemento del archivo machine.config:  
   
     ```  
     <system.serviceModel>  
@@ -87,11 +87,11 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 3.  Si utiliza el adaptador de WCF-CustomIsolated, en la consola de administración de IIS, reinicie el grupo de aplicación asociado a la ubicación de recepción WCF.  
   
-4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >* , expanda **ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción >*.  
+4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>* , expanda **ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción\>*.  
   
     -   En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom** o **WCF-CustomIsolated** Dependiendo del adaptador WCF que desea usar y, a continuación, haga clic en **configurar**.  
   
-5.  Si desea configurar un puerto de envío para utilizar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >*, expanda **Puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío >*.  
+5.  Si desea configurar un puerto de envío para utilizar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>* , expanda **puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío\>*.  
   
     -   En el **propiedades de puerto de envío** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom**y, a continuación, haga clic en **configurar**.  
   
@@ -103,7 +103,7 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 1.  En un símbolo del sistema, vaya a la % FrameworkDir%\v4. Carpeta X.XXXXX\CONFIG y, a continuación, abra el **machine.config** archivo mediante el Bloc de notas.  
   
-2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel >\\< extensiones\>**  elementos, agréguelos dentro del  **\< Configuración >** elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<bindingElementExtensions >** (elemento) para una extensión de elemento de enlace de WCF dentro de la  **\<system.serverModel >\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de elemento de enlace personalizado, Droppingintercepto, agregue el código siguiente dentro de la  **\<configuración >** elemento del archivo machine.config:  
+2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel\>\\< extensiones\>**  elementos, agregar los elementos dentro de la  **\<configuración\>**  elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<bindingElementExtensions\>**  (elemento) para un elemento de enlace de WCF extensión de dentro de la  **\<system.serverModel\>\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de elemento de enlace personalizado, Droppingintercepto, agregue el código siguiente dentro de la  **\<configuración\>**  elemento del archivo machine.config:  
   
     ```  
     <system.serviceModel>  
@@ -137,11 +137,11 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 3.  Si utiliza el adaptador de WCF-CustomIsolated, en la consola de administración de IIS, reinicie el grupo de aplicación asociado a la ubicación de recepción WCF.  
   
-4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >* , expanda **ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción >*.  
+4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>* , expanda **ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción\>*.  
   
     -   En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom** o **WCF-CustomIsolated** Dependiendo del adaptador WCF que desea usar y, a continuación, haga clic en **configurar**.  
   
-5.  Si desea configurar un puerto de envío para utilizar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >*, expanda **Puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío >*.  
+5.  Si desea configurar un puerto de envío para utilizar un punto de extensibilidad WCF, en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>* , expanda **puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío\>*.  
   
     -   En el **propiedades de puerto de envío** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom**y, a continuación, haga clic en **configurar**.  
   
@@ -166,7 +166,7 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 1.  En un símbolo del sistema, vaya a la % FrameworkDir%\v4. Carpeta X.XXXXX\CONFIG y, a continuación, abra el **machine.config** archivo mediante el Bloc de notas.  
   
-2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel >\\< extensiones\>**  elementos, agréguelos dentro del  **\< Configuración >** elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<behaviorExtensions >** (elemento) para una extensión de comportamiento WCF dentro de la  **\< system.serverModel >\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de comportamiento personalizado, schemaValidator, agregue el código siguiente dentro de la  **\<configuración >** elemento del archivo machine.config:  
+2.  En el Bloc de notas, si el archivo machine.config no tiene la  **\<system.serverModel\>\\< extensiones\>**  elementos, agregar los elementos dentro de la  **\<configuración\>**  elemento del archivo machine.config de archivo y, a continuación, agregue el  **\<behaviorExtensions\>**  elemento para una extensión de comportamiento WCF dentro de la  **\<system.serverModel\>\\< extensiones\>**  elementos. Por ejemplo, para habilitar una extensión de comportamiento personalizado, schemaValidator, agregue el código siguiente dentro de la  **\<configuración\>**  elemento del archivo machine.config:  
   
     ```  
     <system.serviceModel>  
@@ -200,11 +200,11 @@ Inicie sesión con una cuenta que sea miembro de la [!INCLUDE[btsBizTalkServerNo
   
 3.  Si utiliza el adaptador de WCF-CustomIsolated, en la consola de administración de IIS, reinicie el grupo de aplicación asociado a la ubicación de recepción WCF.  
   
-4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la consola de administración de BizTalk, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >*, expanda **Ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción >*.  
+4.  Si desea configurar una ubicación de recepción para usar un punto de extensibilidad WCF, en la consola de administración de BizTalk, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>* , expanda **ubicaciones de recepción**y, a continuación, en el panel derecho, haga doble clic en  *\<ubicación de recepción\>*.  
   
     -   En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom** o **WCF-CustomIsolated** Dependiendo del adaptador WCF que desea usar y, a continuación, haga clic en **configurar**.  
   
-5.  Si desea configurar un puerto de envío para usar un punto de extensibilidad WCF, en la consola de administración de BizTalk, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk >*, expanda  **Puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío >*.  
+5.  Si desea configurar un puerto de envío para usar un punto de extensibilidad WCF, en la consola de administración de BizTalk, expanda **grupo de BizTalk**, expanda  *\<aplicación de BizTalk\>*, Expanda **puertos de envío**y, a continuación, en el panel derecho, haga doble clic en  *\<puerto de envío\>*.  
   
     -   En el **propiedades de puerto de envío** cuadro de diálogo, en la **tipo** lista desplegable, seleccione **WCF-Custom**y, a continuación, haga clic en **configurar**.  
   

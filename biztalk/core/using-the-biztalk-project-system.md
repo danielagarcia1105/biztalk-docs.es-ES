@@ -17,16 +17,16 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e55e1280f4054c431f53aa21fa16123f11509f7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c5b8c3a83d75219b9e52fd2ab13124480d772832
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-biztalk-project-system"></a>Utilizar el sistema del proyecto de BizTalk
 Puede usar el sistema del proyectos de BizTalk para crear, organizar y configurar soluciones de BizTalk en el entorno de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Los temas y procedimientos de esta sección describen como realizar varias tareas mediante el sistema del proyecto de BizTalk.  
   
- El sistema de proyectos de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] usa los mismos principios y procedimientos de administración del proyecto que se usan con otros proyectos de Microsoft Build Engine (MSBuild) en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Esta sección detalla procedimientos comunes que puede usar al crear una aplicación que ejecuta Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+ El sistema de proyectos de BizTalk Server utiliza los mismos principios de administración de proyectos y los procedimientos que se utilizan con otros proyectos de Microsoft Build Engine (MSBuild) en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Esta sección detalla procedimientos comunes que puede usar al crear una aplicación que ejecuta Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
  Para obtener más información acerca de MSBuild, vea la sección de referencia de MSBuild en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection en [http://go.microsoft.com/fwlink/?LinkId=193567](http://go.microsoft.com/fwlink/?LinkId=193567).  
   

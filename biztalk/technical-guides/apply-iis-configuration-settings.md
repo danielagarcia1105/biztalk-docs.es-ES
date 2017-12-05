@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a032070876df6bea0579a159d527a6ad903e2ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6309da02c84b9c317e0743a8ca2199237e835abb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="apply-iis-configuration-settings"></a>Aplicar opciones de configuración de IIS
 De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores (y .NET en general) abran sólo dos conexiones HTTP simultáneas desde cada instancia de host de BizTalk a cualquier servidor de destino específico. Por ejemplo, si tiene un puerto de envío SOAP envía mensajes a **http://www.contoso.com/SomeWebService.asmx**, a continuación, de forma predeterminada cada instancia de host que se ejecuta en cada [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] abrirá sólo dos conexiones HTTP simultáneas a **www.contoso.com**, con independencia de la cantidad de mensajes que deben enviarse.  
@@ -58,7 +58,7 @@ De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores 
   
 4.  Si es necesario, haga clic en **aplicar** en el **acciones** panel.  
   
- Deshabilitar la depuración para aplicaciones y servicios Web ASP.NET mediante la especificación de la \<indicador de compilación debug = "false" / > sección en el archivo web.config para la aplicación web.  
+ Deshabilitar la depuración para aplicaciones y servicios Web ASP.NET mediante la especificación de la \<indicador de compilación debug = "false"\> sección en el archivo web.config para la aplicación web.  
   
 ## <a name="tune-the-value-of-the-asp-threads-per-processor-limit-property"></a>Ajustar el valor de la propiedad de ASP subprocesos por límite de procesador  
  El ASP **límite de subprocesos por procesador** propiedad especifica el número máximo de subprocesos de trabajo por procesador que crea IIS. Aumente el valor para el límite de subprocesos por procesador hasta que el uso de procesador cumple al menos el 50 por ciento o una versión posterior. Esta configuración puede influir considerablemente en la escalabilidad de las aplicaciones Web y el rendimiento del servidor en general. Dado que esta propiedad define el número máximo de solicitudes ASP que se pueden ejecutar simultáneamente, este valor debe permanecer en el valor predeterminado a menos que sus aplicaciones ASP realicen llamadas de larga duración a componentes externos. En este caso, puede aumentar el valor de límite de subprocesos por procesador. Esto permite que el servidor para crear más subprocesos para atender más solicitudes concurrentes. El valor predeterminado del límite de subprocesos por procesador es 25. El valor máximo recomendado para esta propiedad es 100.  
@@ -71,7 +71,7 @@ De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores 
   
 3.  Haga clic para expandir **límites propiedades** en **comportamiento**, haga clic en **límite de subprocesos por procesador**, escriba el valor deseado para **límite de subprocesos por procesador**  y haga clic en **aplicar** en el **acciones** panel.  
   
- Para obtener más información sobre cómo modificar las propiedades de la \<límites > elemento de IIS 7.0 \<asp > elemento, vea [límites de ASP \<límites >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ Para obtener más información sobre cómo modificar las propiedades de la \<límites\> elemento de IIS 7.0 \<asp\> elemento, vea [límites de ASP \<límites\> ](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Dado que esta propiedad solo se aplica en el nivel de servidor, la modificación de esta propiedad afecta a todos los sitios Web que se ejecutan en el servidor.  
@@ -90,7 +90,7 @@ De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores 
   
 3.  Haga clic para expandir **límites propiedades** en **comportamiento**, haga clic en **longitud de cola**, escriba el valor deseado para **longitud de cola** y, a continuación, Haga clic en **aplicar** en el **acciones** panel.  
   
- Para obtener más información sobre cómo modificar las propiedades de la \<límites > elemento de IIS 7.0 \<asp > elemento, vea [límites de ASP \<límites >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ Para obtener más información sobre cómo modificar las propiedades de la \<límites\> elemento de IIS 7.0 \<asp\> elemento, vea [límites de ASP \<límites\> ](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Dado que esta propiedad solo se aplica en el nivel de servidor, la modificación de esta propiedad afecta a todos los sitios Web que se ejecutan en el servidor.  
@@ -105,4 +105,4 @@ De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores 
  Utilice la herramienta Editor de configuración (SvcConfigEditor.exe) para deshabilitar el seguimiento en un entorno de producción de los servicios WCF. Para obtener más información acerca de la herramienta Editor de configuración, consulte [herramienta Editor de configuración (SvcConfigEditor.exe)](http://go.microsoft.com/fwlink/?LinkID=127070) (http://go.microsoft.com/fwlink/?LinkID=127070).  
   
 ## <a name="see-also"></a>Vea también  
- [Lista de comprobación: Configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+ [Lista de comprobación: configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

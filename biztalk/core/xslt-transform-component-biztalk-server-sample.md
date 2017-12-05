@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8374e2069660998a46265986125b6b0159ea1961
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1879cb4d748e974454f929bde2018c24b5d276f2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xslt-transform-component-biztalk-server-sample"></a>Componente de transformación de XSLT (ejemplo de BizTalk Server)
 El ejemplo de componente de transformación de XSLT muestra cómo escribir un componente de canalización personalizado que modifique un mensaje XML mediante XSLT.  
@@ -34,7 +34,7 @@ El ejemplo de componente de transformación de XSLT muestra cómo escribir un co
 2.  La canalización transforma el documento XML en el cuerpo de HTML de un mensaje de correo electrónico mediante Transform.xsl.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\XslTransformComponent\  
+ *\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -60,7 +60,7 @@ El ejemplo de componente de transformación de XSLT muestra cómo escribir un co
   
 1.  En una ventana de comandos, cambie el directorio (**cd)** a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Pipelines\XslTransformComponent  
+     *\<Ejemplos de ruta de acceso\>*\Pipelines\XslTransformComponent  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -70,7 +70,7 @@ El ejemplo de componente de transformación de XSLT muestra cómo escribir un co
   
     -   Genera e implementa la canalización del componente de transformación de XSLT.  
   
-    -   Copia el componente de canalización generado para el \<ruta de acceso de instalación > carpeta \Pipeline Components.  
+    -   Copia el componente de canalización generado para el \<ruta de acceso de instalación\>carpeta \Pipeline Components.  
   
     -   Crea los puertos de envío y recepción.  
   

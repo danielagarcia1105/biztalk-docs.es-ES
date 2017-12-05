@@ -12,18 +12,18 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f66fa78b1efb8bd6850e64ba002ecd8e1cb91f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 03897ce3bd74329a19d85d48b3704f551122d272
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="as2-context-properties"></a>Propiedades de contexto de AS2
-Se aplican cinco tipos de propiedades de contexto a los mensajes AS2 en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+Cinco tipos de propiedades de contexto que se aplican a los mensajes de AS2 en BizTalk Server:  
   
 -   Propiedades de contexto del esquema EdiIntProperties.xsd  
   
--   Propiedades de contexto internas de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Propiedades de contexto internas con respecto a BizTalk Server  
   
 -   Propiedades de contexto internas con respecto a MIME de BizTalk  
   
@@ -96,4 +96,4 @@ Se aplican cinco tipos de propiedades de contexto a los mensajes AS2 en [!INCLUD
 |SenderQualifier|string|El calificador del remitente del intercambio de un intercambio EDI. Esta propiedad se lee desde un mensaje durante la codificación AS2 y se usa para informar de una actividad de intercambio AS2.|  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar y configurar soluciones AS2 de BizTalk Server](../core/developing-and-configuring-biztalk-server-as2-solutions.md)
+ [Desarrollo y configuración de soluciones AS2 de BizTalk Server](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

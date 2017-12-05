@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1bfd5b9f7b974b00d63831484ecbaa44e2568fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3aeef8ac3defc17f4c9bf0fbddedf6d389a1263e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="build-errors-in-the-task-list"></a>Error en la lista de tareas de compilación
 Al generar un proyecto o una solución, los resultados aparecen en la ventana Resultados, y los errores y las advertencias, en la lista de tareas.  
@@ -89,7 +89,7 @@ POAckMsg = XMLDOM;
 ## <a name="you-receive-a-use-of-unconstructed-message-error-when-building-your-project"></a>Se recibe el error "utilización de mensaje no construido" al generar el proyecto  
   
 ### <a name="problem"></a>Problema  
- Cuando se compila el proyecto de BizTalk, recibe el error "el uso de mensaje no construido '\<mensaje >'".  
+ Cuando se compila el proyecto de BizTalk, recibe el error "el uso de mensaje no construido '\<mensaje\>'".  
   
 ### <a name="cause"></a>Causa  
  Este error se produce cuando se usa un mensaje no construido un **enviar** forma.  
@@ -121,10 +121,10 @@ POAckMsg = XMLDOM;
 ### <a name="resolution"></a>Solución  
  Si no se llama a la orquestación otra orquestación, debe configurar uno de los **recepción** formas se recepciones de activación. Para obtener más información acerca de cómo configurar el **recepción** forma, incluidos los vínculos a correlaciones, vea [cómo configurar la forma recepción](../core/how-to-configure-the-receive-shape.md).  
   
-## <a name="you-receive-the-error-assembly-generation-failed----referenced-assembly-assembly-does-not-have-a-strong-name-when-building-your-solution"></a>Recibe el error "Error al generar el ensamblado--hace referencia el ensamblado '\<ensamblado >' no tiene un nombre seguro" al compilar la solución  
+## <a name="you-receive-the-error-assembly-generation-failed----referenced-assembly-assembly-does-not-have-a-strong-name-when-building-your-solution"></a>Recibe el error "Error al generar el ensamblado--hace referencia el ensamblado '\<ensamblado\>' no tiene un nombre seguro" al compilar la solución  
   
 ### <a name="problem"></a>Problema  
- Recibe el error "Error al generar el ensamblado--hace referencia el ensamblado '\<ensamblado >' no tiene un nombre seguro" al generar una solución que tiene una orquestación.  
+ Recibe el error "Error al generar el ensamblado--hace referencia el ensamblado '\<ensamblado\>' no tiene un nombre seguro" al generar una solución que tiene una orquestación.  
   
 ### <a name="cause"></a>Causa  
  Este problema se produce cuando se usa un tipo de un ensamblado sin firmar al que se hace referencia en una orquestación.  

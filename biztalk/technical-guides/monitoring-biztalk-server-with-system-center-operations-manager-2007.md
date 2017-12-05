@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06ebfbc9f895525b44174c0e947f5700d54b324f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bdaa0f0639bc640e87ff59e3cee0c229319de4ff
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-biztalk-server-with-system-center-operations-manager-2007"></a>Supervisión de BizTalk Server con System Center Operations Manager 2007
-La supervisión de las aplicaciones de BizTalk y la infraestructura de Microsoft System Center Operations Manager (Operations Manager) es el método preferido de supervisión. Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] módulos de administración para Operations Manager proporcionan supervisión proactiva y reactiva de equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Estos módulos de administración proporcionan una gran cantidad de reglas integradas y personalizables para permitir una supervisión completa y automatizada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+La supervisión de las aplicaciones de BizTalk y la infraestructura de Microsoft System Center Operations Manager (Operations Manager) es el método preferido de supervisión. Los módulos de administración de Microsoft BizTalk Server para Operations Manager proporcionan supervisión proactiva y reactiva de equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Estos módulos de administración proporcionan una gran cantidad de reglas integradas y personalizables para permitir una supervisión completa y automatizada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
  El siguiente módulo de administración de BizTalk Server está disponible para su uso con Operations Manager:  
   
@@ -29,10 +29,10 @@ La supervisión de las aplicaciones de BizTalk y la infraestructura de Microsoft
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Prácticas recomendadas para la supervisión con Operations Manager 2007](../technical-guides/best-practices-for-monitoring-with-operations-manager-2007.md)  
+-   [Procedimientos recomendados para la supervisión con Operations Manager 2007](../technical-guides/best-practices-for-monitoring-with-operations-manager-2007.md)  
   
--   [Usar reglas de umbral de rendimiento de limitación de supervisión](../technical-guides/monitoring-throttling-using-performance-threshold-rules.md)  
+-   [Limitación de supervisión mediante reglas de umbral de rendimiento](../technical-guides/monitoring-throttling-using-performance-threshold-rules.md)  
   
 -   [Supervisión de servidores SQL Server](../technical-guides/monitoring-sql-servers.md)  
   
--   [Supervisión de aplicaciones e instancias de Host](../technical-guides/monitoring-applications-and-host-instances.md)
+-   [Supervisión de aplicaciones e instancias de host](../technical-guides/monitoring-applications-and-host-instances.md)

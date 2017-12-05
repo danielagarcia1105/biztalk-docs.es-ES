@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c063e2e4ba213c3f72cbfb4977a3463d16b0a726
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5c0e2a18b1cdba47c999150b5bc52c0b016aec61
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="migration-and-upgrade-troubleshooting"></a>Solución de problemas de actualización y migración
 ## <a name="assemblies-need-to-be-undeployed-before-an-upgrade"></a>Ensamblados deben ser implementada antes de una actualización  
@@ -68,12 +68,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  Haga clic en la carpeta del servicio, haga clic en **propiedades**y, a continuación, haga clic en el **seguridad** ficha.  
   
-2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba   ***\<nombre del servidor >*\A4SWIFT administradores**y, a continuación, haga clic en **Aceptar**.  
+2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba   ***\<nombre del servidor\>*\A4SWIFT administradores**, y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba   ***\<nombre de dominio >*\A4SWIFT administradores**.  
+    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba   ***\<nombre de dominio\>*\A4SWIFT administradores**.  
   
-3.  Repita el paso 2 para   ***\<nombre del servidor >*\A4SWIFT usuarios**, o  **\<* nombre de dominio*> \A4SWIFT Los usuarios ** si el grupo de usuarios de A4SWIFT es un grupo de dominio.  
+3.  Repita el paso 2 para   ***\<nombre del servidor\>*\A4SWIFT usuarios**, o  **\<* nombre de dominio* \>\A4SWIFT usuarios ** si el grupo de usuarios de A4SWIFT es un grupo de dominio.  
   
 4.  En el panel de nombres de usuario o grupo, seleccione **A4SWIFT administradores**. En el panel permisos, seleccione **permitir** para **Control total**.  
   
@@ -82,4 +82,4 @@ ms.lasthandoff: 09/20/2017
 6.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Solución de problemas: Problemas y soluciones](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)
+ [Solución de problemas: problemas y soluciones](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)

@@ -12,17 +12,17 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a91afb8542284b5c83b19886a417350aebbc0ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b68781707211922d7d29958f896608c87358c7c0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-processing-in-biztalk-server"></a>Procesamiento de EDI en BizTalk Server
 En este tema se proporciona información general del procesamiento en el lado de recepción y en el lado de envío de mensajes EDI, y la forma en que los acuerdos de socios comerciales pueden ayudar a conseguir la mensajería de EDI.  
   
 ## <a name="trading-partner-agreements-for-edi-processing"></a>Acuerdos de socios comerciales para el procesamiento EDI  
- Los acuerdos entre socios comerciales desempeñan un rol clave en la compatibilidad de EDI en [!INCLUDE[prague](../includes/prague-md.md)]. La mayoría de las funciones administrativas y de configuración relacionadas con el procesamiento de EDI en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se realizan mediante la configuración de acuerdos entre socios comerciales para los perfiles de negocio. Los acuerdos unen propiedades comunes de procesamiento de mensaje bidireccionales de perfiles específicos del negocio de ambos socios. Los acuerdos se basan en la configuración de protocolo definida para cada perfil de negocio. Para implementar un acuerdo entre socios comerciales de dos perfiles de negocio, debe definir propiedades para cada perfil de negocio que va a intercambiar mensajes. Las propiedades de cada perfil de negocio se establecen como un receptor de intercambio y un remitente de intercambio. Para procesar un mensaje entrante o generar un mensaje saliente, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe conocer el acuerdo en el que se resuelve, y el esquema que se aplica al mensaje. Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo, usará las propiedades definidas en la interfaz TPM para el acuerdo de socios comerciales de reserva.  
+ Acuerdos de socios comerciales desempeñan un papel clave en la compatibilidad EDI en BizTalk Server. La mayoría de las funciones administrativas y de configuración relacionadas con el procesamiento de EDI en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se realizan mediante la configuración de acuerdos entre socios comerciales para los perfiles de negocio. Los acuerdos unen propiedades comunes de procesamiento de mensaje bidireccionales de perfiles específicos del negocio de ambos socios. Los acuerdos se basan en la configuración de protocolo definida para cada perfil de negocio. Para implementar un acuerdo entre socios comerciales de dos perfiles de negocio, debe definir propiedades para cada perfil de negocio que va a intercambiar mensajes. Las propiedades de cada perfil de negocio se establecen como un receptor de intercambio y un remitente de intercambio. Para procesar un mensaje entrante o generar un mensaje saliente, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe conocer el acuerdo en el que se resuelve, y el esquema que se aplica al mensaje. Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo, usará las propiedades definidas en la interfaz TPM para el acuerdo de socios comerciales de reserva.  
   
  Existen dos conjuntos principales de opciones de protocolo de codificación en TPM: uno para propiedades de EDIFACT y otro para propiedades de X12. Los dos conjuntos de propiedades cuentan con muchos paralelismos. Para obtener más información acerca de la configuración del protocolo, vea [configuración del protocolo](../core/protocol-settings.md). Para obtener más información acerca de los acuerdos, vea [acuerdo de socios comerciales](../core/trading-partner-agreement.md). La configuración del protocolo y el acuerdo de socios comerciales se establece en la interfaz de usuario de Administración de socios comerciales (TPM). Las pantallas TPM se encuentran en el **partes** nodo de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. No tiene que ser un programador para configurar el procesamiento de EDI en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
@@ -34,7 +34,7 @@ En este tema se proporciona información general del procesamiento en el lado de
 -   Búsqueda de acuerdo y determinación de esquema de socio comercial.  
   
     > [!NOTE]
-    >  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la definición de entidad incluía también la definición del acuerdo. De este modo, cuando la canalización de recepción buscaba las propiedades de la entidad, buscaba internamente la definición del acuerdo dentro de la definición de la entidad y, a continuación, procesaba los mensajes de forma correspondiente. Con [!INCLUDE[prague](../includes/prague-md.md)], puesto que la entidad (o socio comercial) es distinta del acuerdo entre socios comerciales, la canalización de recepción busca específicamente el acuerdo entre socios comerciales.  
+    >  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la definición de entidad incluía también la definición del acuerdo. De este modo, cuando la canalización de recepción buscaba las propiedades de la entidad, buscaba internamente la definición del acuerdo dentro de la definición de la entidad y, a continuación, procesaba los mensajes de forma correspondiente. Con BizTalk Server, porque la entidad (o socio comercial) es distinto del acuerdo entre socios comerciales, la canalización de recepción busca el acuerdo de socio comercial concreto.  
   
     > [!NOTE]
     >  Si se deshabilitan todos los acuerdos en los que se resuelve un mensaje, el mensaje se suspenderá. Además, se registra una advertencia en el registro de eventos.  
@@ -76,7 +76,7 @@ En este tema se proporciona información general del procesamiento en el lado de
 -   Búsqueda de acuerdo y determinación de esquema de socio comercial.  
   
     > [!NOTE]
-    >  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la definición de entidad incluía también la definición del acuerdo. Por lo tanto, cuando la canalización de envío buscaba las propiedades de la entidad, buscaba internamente la definición del acuerdo en la definición de la entidad y, luego, procesaba los mensajes de la forma correspondiente. Con [!INCLUDE[prague](../includes/prague-md.md)], puesto que la entidad (o socio comercial) es diferente del acuerdo entre socios comerciales, la canalización de envío busca específicamente el acuerdo entre socios comerciales.  
+    >  En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la definición de entidad incluía también la definición del acuerdo. Por lo tanto, cuando la canalización de envío buscaba las propiedades de la entidad, buscaba internamente la definición del acuerdo en la definición de la entidad y, luego, procesaba los mensajes de la forma correspondiente. Con BizTalk Server, porque la entidad (o socio comercial) es distinto del acuerdo entre socios comerciales, la canalización de envío busca el acuerdo de socio comercial concreto.  
   
     > [!NOTE]
     >  Si se deshabilitan todos los acuerdos en los que se resuelve un mensaje, el mensaje se suspenderá.  Además, se registra una advertencia en el registro de eventos.  
@@ -107,4 +107,4 @@ En este tema se proporciona información general del procesamiento en el lado de
  [Rol de los acuerdos en el procesamiento de EDI](../core/the-role-of-agreements-in-edi-processing.md)   
  [Cómo BizTalk Server recibe mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)   
  [Cómo BizTalk Server envía mensajes EDI](../core/how-biztalk-server-sends-edi-messages.md)   
- [Desarrollar y configurar soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)
+ [Desarrollo y configuración de soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

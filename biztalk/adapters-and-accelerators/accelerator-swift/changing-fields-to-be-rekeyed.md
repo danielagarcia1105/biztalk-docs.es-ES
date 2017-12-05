@@ -16,18 +16,18 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc47d080b43b7679e76b9c6f8a0d8de1216daeaf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 04693bf4c4d441487a3ce38f886bc680b1db368b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="changing-fields-to-be-rekeyed"></a>Cambiar los campos de regeneración
-En el paso de comprobación de un flujo de trabajo de reparación de mensaje [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] quita los datos de un número de campos para que el Verificador debe volver a escribir o regenerar, esos datos. Puede personalizar qué campos de la RekeyVerify [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario necesita regeneración. Puede hacerlo en el archivo MrsrXpathConfig.xml, que se encuentra en la \< *unidad*>: \Program Acelerador de BizTalk para la carpeta SWIFT\MRSR.  
+En el paso de comprobación de un flujo de trabajo de reparación de mensaje [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] quita los datos de un número de campos para que el Verificador debe volver a escribir o regenerar, esos datos. Puede personalizar qué campos de la RekeyVerify [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario necesita regeneración. Puede hacerlo en el archivo MrsrXpathConfig.xml, que se encuentra en la \< *unidad*\>: \Program Acelerador de BizTalk para la carpeta SWIFT\MRSR.  
   
- El archivo MrsrXpathConfig.xml contiene una serie de nodos para el tipo de mensaje procesado. Cada nodo de tipo de mensaje contiene una serie de nodos de campo, uno para cada campo. Puede cambiar los campos regeneración abriendo MrsrXpathConfig.xml en un editor de texto, como el Bloc de notas y agregando o quitando un \<ruta de acceso > nodo para el campo.  
+ El archivo MrsrXpathConfig.xml contiene una serie de nodos para el tipo de mensaje procesado. Cada nodo de tipo de mensaje contiene una serie de nodos de campo, uno para cada campo. Puede cambiar los campos regeneración abriendo MrsrXpathConfig.xml en un editor de texto, como el Bloc de notas y agregando o quitando un \<ruta de acceso\> nodo para el campo.  
   
- El \<ruta de acceso > nodo contiene las rutas de acceso para el tipo de mensaje y el campo. Por ejemplo, la entrada de la ruta de acceso de destino en el bloque de encabezado de la aplicación de entrada de un mensaje de MT103 es la siguiente:  
+ El \<ruta de acceso\> nodo contiene las rutas de acceso para el tipo de mensaje y el campo. Por ejemplo, la entrada de la ruta de acceso de destino en el bloque de encabezado de la aplicación de entrada de un mensaje de MT103 es la siguiente:  
   
 ```  
 <path>/*[local-name()='SWIFT_CATEGORY1_MT103_Interchange' and namespace-uri()'http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category1/MT103']/*[local-name()='SWIFTHeader' and namespace-uri=']'']/*[local-name()='ApplicationHeaderBlock_Input' and namespace-uri90='']/*[local-name()='DestinationAddress' and namespace-uri()='']</path>  

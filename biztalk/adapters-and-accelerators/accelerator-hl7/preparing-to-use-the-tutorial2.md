@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a957bd18fd6defad40d6b04e91bc3028802da1c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8688e84f7913dbc32a0629d21f29ed2578c43b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="preparing-to-use-the-tutorial"></a>Preparando para utilizar el Tutorial
 Antes de utilizar el tutorial, debe crear un archivo ADT^A03.txt.  
@@ -42,6 +42,6 @@ Antes de utilizar el tutorial, debe crear un archivo ADT^A03.txt.
     > [!NOTE]
     >  Debería haber cinco líneas en el .txt, archivo, cada uno a partir de "MSH", "EVN", "PID", "PD1" y "PV1". Debe quitar los espacios en la línea "PID" y la línea "PD1". Si es necesario, desactive el ajuste automático de línea en el Bloc de notas.  
   
-2.  Guarde el archivo como **ADT^A03.txt** en el \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for HL7\SDK\End-to-End Carpeta tutorial y, a continuación, cierre el Bloc de notas.  
+2.  Guarde el archivo como **ADT^A03.txt** en el \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para la carpeta Tutorial HL7\SDK\End-to-End y, a continuación, cierre el Bloc de notas.  
   
  Continúe con [paso 1: crear e implementar esquemas de confirmación y de encabezado](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md).

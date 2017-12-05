@@ -16,11 +16,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3973a5137075732d3c648bb8b0e575dd0d49c57
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 16b97b7c81b36774bcf2eaff53a1a4ff91b6f9e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="methodcall-biztalk-server-sample"></a>MethodCall (ejemplo de BizTalk Server)
 El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde una orquestación de BizTalk Server.  
@@ -63,7 +63,7 @@ El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde 
     ```  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Orchestrations\MethodCall\  
+ \<*Ejemplos de ruta de acceso*\>\Orchestrations\MethodCall\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -84,7 +84,7 @@ El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde 
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \orchestrations\methodcall\  
+     \<*Ejemplos de ruta de acceso*\>\orchestrations\methodcall\  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -105,7 +105,7 @@ El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde 
   
 1.  Pegue una copia del archivo Input.xml en la carpeta In.  
   
-2.  Observe el archivo .xml que se ha creado en la carpeta Out. Este archivo contiene el resultado del cálculo solicitado de suma o resta. El formato del nombre de este archivo es \< *MessageID*> .xml, donde  *\<MessageID >* es el GUID generado para identificar de forma exclusiva el mensaje.  
+2.  Observe el archivo .xml que se ha creado en la carpeta Out. Este archivo contiene el resultado del cálculo solicitado de suma o resta. El formato del nombre de este archivo es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el mensaje .  
   
 3.  Puede modificar el archivo de entrada para solicitar que se realicen cálculos de suma o resta diferentes.  
   
@@ -113,9 +113,9 @@ El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde 
   
 #### <a name="to-uninstall-the-methodcall-sample"></a>Para desinstalar el ejemplo MethodCall  
   
-1.  En un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a \< *ruta de ejemplos*> \orchestrations\methodcall\\\.  
+1.  En un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a \< *ruta de ejemplos*\>\orchestrations\methodcall\\\.  
   
 2.  Ejecute Cleanup.bat.  
   
 ## <a name="see-also"></a>Vea también  
- [Orquestaciones (carpeta de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)
+ [Orquestaciones (carpetas de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)

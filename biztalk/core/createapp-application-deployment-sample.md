@@ -18,11 +18,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 010c574c1c9c799d6235b9d10e3378b46c3d1548
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 842683d2eec04d77bad2b7726af0d687fae12884
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="createapp-application-deployment-sample"></a>CreateApp (ejemplo de implementación de aplicaciones)
 En este tema se describe cómo usar el ejemplo CreateApp, que muestra cómo implementar o anular la implementación de una aplicación de BizTalk utilizando la herramienta de línea de comandos BTSTask. Puede usar secuencias de comandos como los que se incluyen en este ejemplo para automatizar el proceso de implementación nocturno y, así, implementar o anular la implementación de las aplicaciones de BizTalk.  
@@ -76,7 +76,7 @@ En este tema se describe cómo usar el ejemplo CreateApp, que muestra cómo impl
          C:\ScriptLog.txt  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar los archivos de ejemplo en las siguientes carpetas en  *\<ruta de ejemplos >*\Application implementación\\:  
+ Puede encontrar los archivos de ejemplo en las siguientes carpetas en  *\<ruta de ejemplos\>*\Application implementación\\:  
   
 -   CreateApp (Carpeta)  
   
@@ -167,4 +167,4 @@ En este tema se describe cómo usar el ejemplo CreateApp, que muestra cómo impl
   
 ## <a name="see-also"></a>Vea también  
  [Implementación de aplicaciones (carpeta de ejemplos de BizTalk Server)](../core/application-deployment-biztalk-server-samples-folder.md)   
- [Implementar aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)
+ [Implementación de aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e22d5c24b0c2d29c225fa2206d47b67e3d166a2c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f2fdc186e93bd182b3021a3ef8fc258cee59923
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="verifying-a-message"></a>Comprobación de un mensaje
 En esta sección se describe cómo comprobar un mensaje que se ha reparado.  
@@ -30,7 +30,7 @@ En esta sección se describe cómo comprobar un mensaje que se ha reparado.
   
 2.  En la ventana principal, haga clic en **documentos**.  
   
-3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*> _Verifier **.  
+3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*\>_Verifier **.  
   
 4.  En la ventana de comprobar, haga clic en **Bandeja de entrada**.  
   
@@ -82,4 +82,4 @@ En esta sección se describe cómo comprobar un mensaje que se ha reparado.
   
 19. Cerrar la [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] ventana.  
   
-20. En el sitio MRSR, haga clic en **documentos y listas**. Si hace clic en **Accept** para aceptar los cambios en el paso 13, compruebe que el \<nombre de departamento > biblioteca de documentos de _Approve contiene el mensaje que se ha modificado recientemente. Si ya tenía abrir la ventana de documentos y listas, haga clic en **actualizar** en el **vista** menú. Si hace clic en **rechazar** para rechazar los cambios en el paso 13, compruebe que la  *\<nombre_equipo >*_Outbox biblioteca de documentos contiene el mensaje que se ha modificado recientemente.
+20. En el sitio MRSR, haga clic en **documentos y listas**. Si hace clic en **Accept** para aceptar los cambios en el paso 13, compruebe que la \<nombre de departamento\>_Approve biblioteca de documentos contiene el mensaje que se ha modificado recientemente. Si ya tenía abrir la ventana de documentos y listas, haga clic en **actualizar** en el **vista** menú. Si hace clic en **rechazar** para rechazar los cambios en el paso 13, compruebe que la  *\<nombre_equipo\>*_Outbox biblioteca de documentos contiene el mensaje que se ha modificado recientemente.

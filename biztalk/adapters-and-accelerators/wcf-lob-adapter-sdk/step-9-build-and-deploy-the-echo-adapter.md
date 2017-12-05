@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cec35363cca2f20b38e8a2ecf8bdaf36306f6554
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b9a4985629427e44b8ca85f324c89ab719cf249
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-9-build-and-deploy-the-echo-adapter"></a>Paso 9: Compilar e implementar el adaptador de eco
 ![Paso 9 de 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-9of9.gif "Step_9of9")  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  Haga clic en el **firmar el ensamblado** ficha.  
   
-4.  Elija  **\<nuevo... >** para el archivo de nombre seguro. Cuando se le solicite un nombre de archivo, escriba **EchoAdapter.snk**, anule la selección de la proteger mi archivo de clave con una opción de contraseña, a continuación, haga clic en **Aceptar**.  
+4.  Elija  **\<nuevo... \>**  para el archivo de nombre seguro. Cuando se le solicite un nombre de archivo, escriba **EchoAdapter.snk**, anule la selección de la proteger mi archivo de clave con una opción de contraseña, a continuación, haga clic en **Aceptar**.  
   
 5.  Haga clic en el **aplicación** ficha.  
   
@@ -60,13 +60,13 @@ ms.lasthandoff: 09/20/2017
   
 3.  Escriba el siguiente comando:  
   
-     **Gacutil.exe /if "\<**  *ruta de acceso a assembly\Microsoft.Adapters.Samples.EchoV2.dll* **>"**  
+     **Gacutil.exe /if "\<**  *ruta de acceso a assembly\Microsoft.Adapters.Samples.EchoV2.dll*  **\>"**  
   
      Se instalará el ensamblado en la GAC, sobrescribiendo cualquier ensamblado existente con el mismo nombre.  
   
 ### <a name="to-register-the-echo-adapter-with-windows-communication-foundation"></a>Para registrar el adaptador de eco con Windows Communication Foundation  
   
-1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **el Bloc de notas \<ruta de instalación de Windows > \Microsoft.NET\Framework\\< versión\>\CONFIG \Machine.config**y, a continuación, haga clic en **Aceptar**.  
+1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **el Bloc de notas \<ruta de instalación de Windows\>\Microsoft.NET\Framework\\< versión\>\CONFIG\machine.config**y, a continuación, haga clic en **Aceptar**.  
   
 2.  Actualice el archivo machine.config. Si el archivo machine.config no contiene una sección de system.serviceModel, agregue la siguiente sección al final del archivo de configuración, pero antes de que el cierre raíz etiqueta.  
   
@@ -122,4 +122,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>Vea también  
  [Paso 8: Implementar el controlador de entrada sincrónico para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)   
- [Tutorial 2: Utilizar el adaptador de eco de .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)
+ [Tutorial 2: Usar el adaptador de Echo desde .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)

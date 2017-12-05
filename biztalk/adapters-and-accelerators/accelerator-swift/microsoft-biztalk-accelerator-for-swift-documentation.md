@@ -13,16 +13,16 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 843c20229371e213a1409f3bf3c6d297bf16211a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e248ef72d52730894b4fed61c904896e9fe061e7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="microsoft-biztalk-accelerator-for-swift-documentation"></a>Acelerador de Microsoft BizTalk para SWIFT documentación
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] es un complemento para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]y aprovecha las herramientas de basada en estándares abiertos y funciones de tiempo de ejecución de [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] para implementar la compatibilidad para la sociedad para mensaje de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo da formato.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] es un complemento para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server y aprovecha las herramientas de basada en estándares abiertos y funciones de tiempo de ejecución de BizTalk Server para implementar la compatibilidad para la sociedad para formatos de mensaje de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo .  
   
- Esto agrega funcionalidad facilita a las empresas a adoptar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] como una plataforma de integración de middleware de uso general. Con A4SWIFT, clientes, socios y sistema integradores pueden simplificar el desarrollo, implementación y compatibilidad de las soluciones de integración para procesos de negocio y la infraestructura de la aplicación del servicios financieros principales.  
+ Esta funcionalidad agregada facilita a las empresas que deben adoptarse en BizTalk Server como una plataforma de integración de middleware de uso general. Con A4SWIFT, los clientes, socios e integradores de sistemas pueden simplificar el desarrollo, implementación y compatibilidad de las soluciones de integración para los servicios financieros principales, infraestructura de aplicaciones y procesos empresariales.  
 
 ## <a name="install-configure-and-deploy"></a>Instalar, configurar e implementar
 [Instalar, configurar e implementar](../../adapters-and-accelerators/accelerator-swift/install-configure-and-deploy-the-biztalk-accelerator-for-swift.md) muestra cómo instalar y configurar el acelerador en el servidor BizTalk Server. También puede configurar el tiempo de ejecución, reparación de mensajes y respuesta FIN. 

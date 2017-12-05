@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bd19ff62c4597cfa75762a1a89ae8e60409096f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ee9994861772be8fabe04a04e9bb30111cc1bc4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-enterprise-message-service-to-receive-data"></a>Tutorial: Uso del adaptador de BizTalk para TIBCO Enterprise Message Service para recuperar datos
 Puede usar el adaptador de BizTalk para TIBCO Enterprise Message Service (EMS) para recibir datos de un sistema TIBCO. En este tutorial se describe un ejemplo de SDK que ilustra este proceso.  
@@ -31,7 +31,7 @@ Puede usar el adaptador de BizTalk para TIBCO Enterprise Message Service (EMS) p
  Este ejemplo toma un archivo XML de una carpeta, envía el archivo a una orquestación y luego usa el adaptador de BizTalk para TIBCO Enterprise Message Service para recuperar datos de un sistema TIBCO. El resultado se escribe en un archivo XML.  
   
 ## <a name="how-this-sample-is-designed-and-why"></a>Cómo se ha diseñado este ejemplo y por qué  
- Este ejemplo, diseñado en [!INCLUDE[vs2010](../includes/vs2010-md.md)], ilustra funciones básicas mediante el uso del adaptador de BizTalk para TIBCO Enterprise Message Service con una orquestación de BizTalk.  
+ Este ejemplo, diseñado en Visual Studio, ilustra la funcionalidad básica que usa el adaptador de BizTalk para TIBCO Enterprise Message Service con una orquestación de BizTalk.  
   
 > [!NOTE]
 >  Este ejemplo supone que sabe cómo enviar un mensaje desde TIBCO para que la aplicación lo procese.  

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 666b08e0c7992f8660d005bef51d26c8f51bbed5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1b768bf667969c4adc8119b6d9d89c0ed79fc32
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-biztalk-web-services"></a>Solucionar problemas de servicios Web de BizTalk
 Esta sección ofrece recomendaciones sobre cómo identificar y resolver problemas comunes de los servicios Web.  
@@ -24,7 +24,7 @@ Esta sección ofrece recomendaciones sobre cómo identificar y resolver problema
 ## <a name="general-troubleshooting"></a>Solución de problemas generales  
   
 ### <a name="enabling-web-services-publishing-wizard-tracing"></a>Habilitar el seguimiento del Asistente para publicación de servicios Web  
- Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<Agregar > nodo en el archivo BTSWebSvcWiz.exe.config. Para obtener más información acerca de cómo obtener información de seguimiento desde el Asistente para publicación de Web Services, vea [cómo modificar BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md).  
+ Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<agregar\> nodo en el archivo BTSWebSvcWiz.exe.config. Para obtener más información acerca de cómo obtener información de seguimiento desde el Asistente para publicación de Web Services, vea [cómo modificar BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md).  
   
 ### <a name="enabling-soap-message-tracing"></a>Habilitar el seguimiento de mensajes SOAP  
  Habilitar el seguimiento de mensajes SOAP le ayuda a depurar la aplicación de publicación de servicios Web con una extensión SOAP. Para obtener más información sobre las extensiones SOAP, vea [Cómo: implementar una extensión SOAP](http://go.microsoft.com/fwlink/?LinkId=62314).  
@@ -34,7 +34,7 @@ Esta sección ofrece recomendaciones sobre cómo identificar y resolver problema
   
  Para depurar el servicio Web publicado, puede agregar un modificador al archivo web.config para controlar el nivel de los detalles de la excepción devuelta desde el servicio Web publicado. El modificador es **ThrowDetailedError**, y cuando se establece en **True** el servidor proxy devuelve información de excepción interna para el cliente Web, lo que le permite depurar el servicio Web publicado.  
   
- El código XML siguiente muestra el **ThrowDetailedError** conmutador que aparece en el archivo web.config bajo el \<appSettings > nodo:  
+ El código XML siguiente muestra el **ThrowDetailedError** conmutador que aparece en el archivo web.config bajo el \<appSettings\> nodo:  
   
 ```  
 <appSettings>  
@@ -160,7 +160,7 @@ Esta sección ofrece recomendaciones sobre cómo identificar y resolver problema
   
  Para obtener más información sobre estas y otras consideraciones relacionadas, consulte [consideraciones al consumir servicios Web](../core/considerations-when-consuming-web-services.md).  
   
-### <a name="why-am-i-getting-errors-publishing-my-schema-that-uses-the-include-element"></a>¿Por qué recibo errores al publicar un esquema que utiliza el \<incluyen > elemento?  
+### <a name="why-am-i-getting-errors-publishing-my-schema-that-uses-the-include-element"></a>¿Por qué recibo errores al publicar un esquema que utiliza el \<incluyen\> elemento?  
  Esquemas no pueden publicarse si incluyen referencias circulares (el esquema incluido tiene un **incluyen** elemento en el esquema de inclusión) o tiene un sin resolver **schemaLocation** atributo.  
   
  Para obtener más información acerca de la limitación de la **incluyen** elemento, vea [Include Element Binding Support](http://go.microsoft.com/fwlink/?LinkId=62312). El Asistente para publicación de servicios de Web tiene las mismas limitaciones que XSD.exe en .NET Framework 2.0; Para obtener más información, consulte [Import Element Binding Support](http://go.microsoft.com/fwlink/?LinkId=119606).  
@@ -170,7 +170,7 @@ Esta sección ofrece recomendaciones sobre cómo identificar y resolver problema
   
 ##### <a name="to-modify-the-generated-web-project-for-envelope-schemas"></a>Para modificar el proyecto Web generado de los esquemas de sobres  
   
-1.  Abra la  *\<myWebService >*. archivo asmx.cs.  
+1.  Abra la  *\<myWebService\>*. archivo asmx.cs.  
   
 2.  Edite el archivo y cambie `bodyTypeAssemblyQualifiedName = <dll.name.version>``bodyTypeAssemblyQualifiedName = null` a.  
   

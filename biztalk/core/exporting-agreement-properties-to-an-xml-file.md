@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d16a378c266b9243562e867c1041e009cabb9efc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a2091482bfda8110fc36dc0431b80093b715695
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="exporting-agreement-properties-to-an-xml-file"></a>Exportación de propiedades del acuerdo a un archivo XML
 En esta sección se proporcionan instrucciones acerca de cómo exportar las propiedades de acuerdo a un archivo de plantilla XML.  
@@ -26,7 +26,7 @@ En esta sección se proporcionan instrucciones acerca de cómo exportar las prop
   
 ### <a name="to-export-agreement-properties-to-an-xml-file"></a>Procedimiento para exportar las propiedades de acuerdo a un archivo XML  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] consola de administración, haga clic en el **partes** nodo bajo el **administración de BizTalk Server** y **grupo de BizTalk** nodos. En el **entidades y perfiles empresariales** página, haga clic en una entidad y, a continuación, en el perfil de negocio que tenga el acuerdo que desea exportar la configuración de.  
+1.  En la consola de administración de BizTalk Server, haga clic en el **partes** nodo bajo el **administración de BizTalk Server** y **grupo de BizTalk** nodos. En el **entidades y perfiles empresariales** página, haga clic en una entidad y, a continuación, en el perfil de negocio que tenga el acuerdo que desea exportar la configuración de.  
   
 2.  En el **entidades y perfiles empresariales** página, en la **contratos** sección, haga clic en el acuerdo que desea exportar las propiedades y haga clic en **propiedades**.  
   
@@ -38,4 +38,4 @@ En esta sección se proporcionan instrucciones acerca de cómo exportar las prop
   
 ## <a name="see-also"></a>Vea también  
  [Volver a usar propiedades de otro acuerdo](../core/reusing-properties-from-another-agreement.md)   
- [Propiedades del acuerdo de importación de un archivo XML](../core/importing-agreement-properties-from-an-xml-file.md)
+ [Importación de propiedades de acuerdo de un archivo XML](../core/importing-agreement-properties-from-an-xml-file.md)

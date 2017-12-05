@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db734237a874ef73b88ddb2e59fe51f34daa3fcd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b2e493f5b99c9b100a9683ffb90584a9cfd92b3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-idocs-to-sap-using-biztalk-server"></a>Enviar los IDOC a SAP mediante BizTalk Server
 Todas las llamadas IDOC a SAP internamente se tratan como llamadas de tRFC donde el adaptador actúa como un cliente tRFC y llama a una solicitud de cambio de SAP para enviar un IDOC. Esta sección proporciona información sobre cómo enviar IDOC a SAP mediante el uso de la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone dos operaciones diferentes para enviar IDOC:  
@@ -37,7 +37,7 @@ Todas las llamadas IDOC a SAP internamente se tratan como llamadas de tRFC donde
 |Entrada de BizTalk|Procesamiento de BizTalk|Salida de adaptador|  
 |----------------------|------------------------|-----------------------|  
 |IDOC de archivo sin formato|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **enviar** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir IDOC de archivo sin formato<br />2.  Utilizar el Desensamblador de archivos sin formato para convertir IDOC de archivo sin formato en XML IDOC mediante el esquema que se acaba de generar.<br />3.  Establezca la acción en **enviar** operación.|Enviar mensaje|  
-|IDOC de archivo sin formato|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **SendIdoc** operación desde el nodo IDOC mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir IDOC de archivo sin formato<br />2.  Utilizar el Desensamblador de archivos sin formato para convertir IDOC de archivo sin formato en XML (en este caso, el mensaje XML contiene un \<idocData > nodo que contiene todo el mensaje de archivo sin formato Idoc) mediante el esquema que se acaba de generar.<br />3.  Establezca la acción en **SendIdoc** operación.|Mensaje de SendIdoc|  
+|IDOC de archivo sin formato|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **SendIdoc** operación desde el nodo IDOC mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir IDOC de archivo sin formato<br />2.  Utilizar el Desensamblador de archivos sin formato para convertir IDOC de archivo sin formato en XML (en este caso, el mensaje XML contiene un \<idocData\> nodo que contiene todo el mensaje de archivo sin formato Idoc) mediante el esquema que se acaba de generar.<br />3.  Establezca la acción en **SendIdoc** operación.|Mensaje de SendIdoc|  
 |IDOC DE XML|**Tiempo de diseño de metadatos**<br /><br /> -Generar el esquema para el **enviar** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir IDOC de XML.<br />2.  Establezca la acción en **enviar** operación.|Enviar mensaje|  
 |IDOC de archivo sin formato en mensajes XML|**Tiempo de diseño de metadatos**<br /><br /> -Generar el esquema para el **SendIdoc** operación desde el nodo IDOC mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir mensaje XML.<br />2.  Establezca la acción en **SendIdoc** operación.|Mensaje de SendIdoc|  
   
@@ -211,7 +211,7 @@ Todas las llamadas IDOC a SAP internamente se tratan como llamadas de tRFC donde
  En ambos casos, el mensaje de respuesta desde el sistema SAP contiene un GUID. Por ejemplo, un mensaje de respuesta de la operación de envío en el IDOC ORDERS05 es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <SendResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send">  
   <guid>a5afe162-d5cc-47b0-bf6f-3b0bfe06a97e</guid>  
 </SendResponse>  

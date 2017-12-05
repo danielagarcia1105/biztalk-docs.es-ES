@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b03204b9de4b763f516b7fb22ada1f4f3f6173a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ac45c31ef76213e79249e96fe645ecbb5fb66ed4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoking-a-policy-from-another-policy"></a>Invocar una directiva desde otra directiva
 Puede invocar una directiva (secundaria) desde otra directiva (principal) mediante el uso de uno de los siguientes métodos:  
@@ -54,7 +54,7 @@ Puede invocar una directiva (secundaria) desde otra directiva (principal) median
   
 8.  Seleccione el esquema del documento XML que desea transferir como hecho y, a continuación, haga clic en **abiertos**.  
   
-9. Arrastre  *\<nombre de esquema >*.xsd al primer argumento de la **Policy.Execute** método para pasar el documento XML que se pasa a la directiva principal como un hecho a la directiva secundaria.  
+9. Arrastre  *\<nombre de esquema\>*.xsd al primer argumento de la **Policy.Execute** método para pasar el documento XML que se pasa a la directiva principal como un hecho a la directiva secundaria.  
   
 10. Si usas el **Execute** método que no tome el **IRuleSetTrackingInterceptor** como segundo argumento, omita los pasos siguientes.  
   

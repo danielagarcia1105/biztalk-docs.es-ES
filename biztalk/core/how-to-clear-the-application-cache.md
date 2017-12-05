@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eacb7a786ad2729dbbea365e70c3aba8fabed5d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 184569a3eed693a7b699b2ad14cfb8461cc496e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-clear-the-application-cache"></a>Cómo borrar la caché de aplicaciones
 Puede utilizar el Complemento MMC o la línea de comandos para quitar el contenido de la caché de credenciales (toda la información asociada a la aplicación afiliada) para una aplicación determinada en los servidores de inicio de sesión único.  
@@ -39,13 +39,13 @@ Puede utilizar el Complemento MMC o la línea de comandos para quitar el conteni
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage – /purgecache  *\<nombre de aplicación >***, donde \< *nombre de la aplicación*> es el nombre de la aplicación afiliada desea purgar la memoria caché.  
+3.  Tipo de **ssomanage – /purgecache  *\<nombre de la aplicación\>***, donde \< *nombre de la aplicación* \> es el nombre de la aplicación afiliada que desea purgar la memoria caché.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ## <a name="see-also"></a>Vea también  
  [Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md)   
- [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)
+ [Administración de aplicaciones afiliadas](../core/managing-affiliate-applications.md)

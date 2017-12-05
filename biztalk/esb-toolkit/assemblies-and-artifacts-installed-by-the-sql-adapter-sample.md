@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45d1f365935976bfed7e36ecfd46fbbdb907fa35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1660e791bdc6b25c86e42062f2a939b8ba3f9a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-sql-adapter-sample"></a>Ensamblados y artefactos instalados en el ejemplo de adaptador SQL
 En la tabla siguiente se enumera los ensamblados y otros artefactos instalados para el ejemplo del adaptador de SQL.  
@@ -35,4 +35,4 @@ En la tabla siguiente se enumera los ensamblados y otros artefactos instalados p
 |Aplicación de BizTalk GlobalBank.ESB|Directivas||  
 |Aplicación de BizTalk GlobalBank.ESB|Mapas|ESB. SqlAdapter.BTSArtifacts.ProductToInsertProductMap 1.0.0.0|  
 |Caché global de ensamblados|Ensamblados|ESB. SqlAdapter.BTSArtifacts versión 1.0.0.0|  
-|% Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline componentes|Componentes de canalización||
+|% Program Files %\\componentes BizTalk Server\Pipeline|Componentes de canalización||

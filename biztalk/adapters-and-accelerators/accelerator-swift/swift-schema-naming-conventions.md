@@ -15,17 +15,17 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: beb792fe66e5806a186b0ffb946aa99f86a6a10c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14245a185adcccdfb1f2ea2ed9382820fb84177e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="swift-schema-naming-conventions"></a>Convenciones de nomenclatura de esquema SWIFT
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye los esquemas para la sociedad para los mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo que se crearon con el Editor de BizTalk. Estos esquemas son compatibles con las siguientes convenciones a lo largo de:  
   
 > [!NOTE]
->  Todos los esquemas son con control de versiones. Para ver la versión, abra [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]y haga clic en el esquema en el Explorador de soluciones. Con el \<esquema > nodo seleccionado en el Editor de BizTalk, en el panel Propiedades, desplácese a la propiedad versión estándar.  
+>  Todos los esquemas son con control de versiones. Para ver la versión, abra [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]y haga clic en el esquema en el Explorador de soluciones. Con el \<esquema\> nodo seleccionado en el Editor de BizTalk, en el panel Propiedades, desplácese a la propiedad versión estándar.  
   
 -   El nombre de cada archivo de esquema de intercambio es  **MT*xxx*.xsd **, donde *xxx* es el tipo de mensaje FIN.  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   Las etiquetas de numeran SWIFT campos incluyen un título descriptivo seguido de la secuencia (si está presente), seguido por el código de número y el formato de letra opcional (por ejemplo, **Reference_A_20C**).  
   
--   Si hay una selección de varios formatos para un campo, la etiqueta del nodo es  **\<* elección*> **, y, a continuación, cada opción es un campo de número (por ejemplo, **Date_A_98A** y **DateTime_A_98C**).  
+-   Si hay una selección de varios formatos para un campo, la etiqueta del nodo es  **\<* elección*\>**, y, a continuación, cada opción es un campo de número (por ejemplo,  **Date_A_98A** y **DateTime_A_98C**).  
   
 -   El nombre de la definición de elemento de nivel más bajo de un subcampo consta del nombre del campo secundario seguido **tipo** (por ejemplo, **accountType** de cuenta).  
   

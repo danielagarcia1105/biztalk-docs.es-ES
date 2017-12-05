@@ -22,11 +22,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bba68613c924c8ada9db13581856794543057e85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60a317dabd31bc1a6f37645c6b3fb2ce25d6de43
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 El adaptador de Microsoft BizTalk para PeopleSoft Enterprise registra mensajes de error, advertencia e información en el visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW). Cuando está habilitado ETW, crea un archivo *.etl para recibir los mensajes. El archivo está en formato binario y se debe convertir para poder leerse. Para ello debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl; por ejemplo, tracerpt.exe o tracedmp.exe.  
@@ -45,7 +45,7 @@ El adaptador de Microsoft BizTalk para PeopleSoft Enterprise registra mensajes d
   
      Para que la aplicación de consumidor pueda leer el evento en el archivo .etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar el consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real > = -rt.  
+     Para usar el consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real\> = -rt.  
   
 -   **Proveedor:** proporciona el evento.  
   
@@ -53,15 +53,15 @@ El adaptador de Microsoft BizTalk para PeopleSoft Enterprise registra mensajes d
   
  El Adaptador de BizTalk para PeopleSoft Enterprise incluye cinco proveedores, lo cual le permite registrar diferentes tipos de mensajes:  
   
--   **Proveedor de registro de receptor**: el \<elemento de seguimiento > es el conmutador **-receptor**.  
+-   **Proveedor de registro de receptor**: el \<elemento Trace\> conmutador **-receptor**.  
   
--   **Proveedor CastDetails de receptor**: el \<elemento de seguimiento > es el conmutador **- castDetailsReceive**.  
+-   **Proveedor CastDetails de receptor**: el \<elemento Trace\> conmutador **- castDetailsReceive**.  
   
--   **Proveedor de registro de transmisor**: el \<elemento de seguimiento > es el conmutador **-transmisor**.  
+-   **Proveedor de registro de transmisor**: el \<elemento Trace\> conmutador **-transmisor**.  
   
--   **Proveedor CastDetails de transmisor**: el \<elemento de seguimiento > es el conmutador **- castDetailsTransmit**.  
+-   **Proveedor CastDetails de transmisor**: el \<elemento Trace\> conmutador **- castDetailsTransmit**.  
   
--   **Proveedor de registro de administración de**: el \<elemento Trace > modificador es **-administración**.  
+-   **Proveedor de registro de administración de**: el \<elemento Trace\> conmutador **-administración**.  
   
 ## <a name="btapeoplesofttrace-command"></a>Comando BTAPeopleSoftTrace  
  Para usar ETW, ejecute el comando adaptador **BTAPeopleSoftTrace.cmd**. Use este comando como sigue:  
@@ -74,7 +74,7 @@ BTAPeopleSoftTrace <Trace element> -stop
   
  Donde:  
   
--   \<Elemento trace > (obligatorio) es el tipo de proveedor.  
+-   \<Elemento Trace\> (obligatorio) es el tipo de proveedor.  
   
      Opciones son las siguientes:  
   
@@ -90,9 +90,9 @@ BTAPeopleSoftTrace <Trace element> -stop
   
     -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   
--   **-cir \<MB >**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB >: tamaño en megabytes.  
+-   **-cir \<MB\>**: tamaño y tipo de archivo. -cir es un archivo circular. \<MB\>: tamaño en megabytes.  
   
--   **-seq \<MB >**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB >: tamaño en megabytes.  
+-   **-seq \<MB\>**: tamaño y tipo de archivo. -seq es un archivo secuencial. \<MB\>: tamaño en megabytes.  
   
 -   **-rt**: activar el modo de tiempo real.  
   

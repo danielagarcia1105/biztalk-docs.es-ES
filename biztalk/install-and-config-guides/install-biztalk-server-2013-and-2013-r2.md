@@ -12,18 +12,18 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3563fe263a3921979c7a0c143112b1bbe9d73790
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e04bbce8870e4f0e8c0edb278511f2a6791d62d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-biztalk-server-2013-and-2013-r2"></a>Instalar BizTalk Server 2013 y 2013 R2
 Aquí se enumeran los pasos necesarios para instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="before-you-get-started"></a>Antes de comenzar
 
--   **Nombres de cuenta**: use los nombres de cuenta predeterminados siempre que sea posible. El programa de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] especifica de forma automática las cuentas predeterminadas. Si hay varios grupos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el dominio, cambie los nombres de cuenta para evitar conflictos. Si cambia los nombres, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sólo admite \< *nombre de dominio NetBIOS*>\\<*usuario*> para cuentas de servicio y Windows grupos.  
+-   **Nombres de cuenta**: use los nombres de cuenta predeterminados siempre que sea posible. El programa de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] especifica de forma automática las cuentas predeterminadas. Si hay varios grupos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el dominio, cambie los nombres de cuenta para evitar conflictos. Si cambia los nombres, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sólo admite \< *nombre de dominio NetBIOS*\>\\<*usuario* \> de servicio cuentas y grupos de Windows.  
   
 -   **Nombres de cuenta con Servicio web de administración de BAM**: [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no admite el uso de cuentas integradas ni cuentas sin contraseña para el usuario del Servicio web de administración de BAM. El servicio web accede a la base de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y estas cuentas pueden suponer una amenaza para la seguridad.  
   

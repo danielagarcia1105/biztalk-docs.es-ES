@@ -31,11 +31,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9f8a004c1883a05c3fcf60324f428144591cff4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 20b14539edc6b9b1026ca048feb881ce0d8a6d1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-requirements-for-host-initiated-sso"></a>Cómo configurar requisitos para SSO iniciado por host
 Si bien SSO empresarial y SSO iniciado por host tiene determinados aspectos en común, algunos requisitos de plataforma y Active Directory son únicos de SSO iniciado por host. Este tema trata esos requisitos y enumera los pasos para comprobarlos o crearlos en el sistema.  
@@ -66,7 +66,7 @@ Si bien SSO empresarial y SSO iniciado por host tiene determinados aspectos en c
   
 3.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-4.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+4.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 5.  Tipo de **setpsn - a hipsvc\computername.domain.com domain\hissvc**  
   

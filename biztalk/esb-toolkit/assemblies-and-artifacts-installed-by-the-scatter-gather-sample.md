@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: daf1fce43d967f28dab0d323afbda6b612f5cbef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e62dd1701284fec27084bbdaf5aab19d6dca64a4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-scatter-gather-sample"></a>Ensamblados y artefactos instalados en el ejemplo de dispersión y recopilación
 En la tabla siguiente se enumera los ensamblados y otros artefactos instalados para el ejemplo de ESB dispersión y recopilación.  
@@ -39,4 +39,4 @@ En la tabla siguiente se enumera los ensamblados y otros artefactos instalados p
 |Aplicación de BizTalk GlobalBank.ESB|Mapas||  
 |Caché global de ensamblados|Ensamblados|GlobalBank.ESB.ScatterGather.Processes versión 2.0.0.0|  
 |||GlobalBank.ESB.ScatterGather.Schemas versión 2.0.0.0|  
-|% Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline componentes|Componentes de canalización||
+|% Program Files %\\componentes BizTalk Server\Pipeline|Componentes de canalización||

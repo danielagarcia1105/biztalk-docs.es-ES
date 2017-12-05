@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d47932ffd9f7843d0b3d95073ca54bce987b8f75
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 92f13d938b0e0523ce6e20d6021bbca24595782f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-bam"></a>Solución de problemas de BAM
 En este tema se proporciona información que le ayudará a solucionar problemas que se pueden encontrar al usar la Supervisión de la actividad económica (BAM).  
@@ -24,7 +24,7 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
 ## <a name="bam-deployment-failed"></a>Error de implementación de BAM  
  Si intenta implementar una definición de BAM que incluye una agregación en tiempo real (ATR) cuando SQL Server Analysis Services no está disponible, el comando Bm.exe mostrará el mensaje siguiente:  
   
- ERROR: Error en la implementación de BAM. No se puede establecer una conexión. Asegúrese de que el servidor se está ejecutando. No se estableció ninguna conexión porque el equipo de destino rechazó  *\<dirección IP >*.  
+ ERROR: Error en la implementación de BAM. No se puede establecer una conexión. Asegúrese de que el servidor se está ejecutando. No se estableció ninguna conexión porque el equipo de destino rechazó  *\<dirección IP\>*.  
   
  Esto se produce porque SQL Server Analysis Services debe estar instalado, configurado y en ejecución para implementar una definición de BAM que incluya una RTA.  
   
@@ -67,7 +67,7 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
   
 2.  En el **User Account Control** cuadro de diálogo, haga clic en **continuar**.  
   
-3.  En la barra de direcciones de Internet Explorer, escriba `http://<server>/BAM`, donde  *\<server >* es el nombre del equipo que ejecuta el portal de BAM.  
+3.  En la barra de direcciones de Internet Explorer, escriba `http://<server>/BAM`, donde  *\<server\>*  es el nombre del equipo que ejecuta el portal de BAM.  
   
 ## <a name="bam-portal-does-not-work-if-invalid-users-are-granted-permissions"></a>El portal de BAM no funciona si se otorgan permisos a usuarios no válidos  
  Si se elimina de AD un usuario de AD que tiene permisos de visualización de BAM, el portal de BAM no se carga correctamente para otros usuarios (excepto DBO).  

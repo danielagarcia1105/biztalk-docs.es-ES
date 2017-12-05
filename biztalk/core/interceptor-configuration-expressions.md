@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a28af058ac4750426f66dc6e290bc6a02bf2efd6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 927afa60dc65fb014f0d44305db5e7f6e78b803b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interceptor-configuration-expressions"></a>Expresiones de configuración de interceptor
 El archivo de configuración de interceptor de BAM usa expresiones de filtro para identificar una actividad y usa expresiones de datos para construir un elemento de datos para el almacenamiento, usar un Id. de correlación o un token de continuación, o propósitos similares. Independientemente del propósito, las expresiones individuales se identifican en el archivo de configuración de interceptor por el elemento `expression` y contienen una o varias operaciones que usan la Notación polaca inversa, que se conoce también como notación de polaco inverso.  
@@ -115,7 +115,7 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
 ### <a name="data-expressions"></a>Expresiones de datos  
  Las expresiones de datos se usan para definir un único valor de datos de cadena. Una expresión de datos se considera cualquier expresión que no se incluye en un elemento de `Filter`. Las expresiones de datos las usan los elementos de `OnEvent` `CorrelationID`, `ContinuationToken`, `Reference` y `Update`.  
   
- Un requisito habitual suele ser actualizar la base de datos de actividad de BAM con una marca de tiempo sin etiqueta. Por ejemplo, desea capturar el tiempo que se inicia un evento con una formato de cadena como "iniciar: \<EventTime >". Para hacerlo, debe usar una expresión similar a la siguiente (donde + representa la concatenación):  
+ Un requisito habitual suele ser actualizar la base de datos de actividad de BAM con una marca de tiempo sin etiqueta. Por ejemplo, desea capturar el tiempo que se inicia un evento con una formato de cadena como "iniciar: \<EventTime\>". Para hacerlo, debe usar una expresión similar a la siguiente (donde + representa la concatenación):  
   
  `"Start: " + GetContextProperty(EventTime)`  
   
@@ -153,7 +153,7 @@ El archivo de configuración de interceptor de BAM usa expresiones de filtro par
 >  No use las operaciones de comparación "And" o "Equals" en expresiones de datos. De hacerlo, recibirá un error cuando implemente el archivo de configuración de interceptor.  
   
 ## <a name="in-this-section"></a>En esta sección  
- [Operaciones de interceptor](../core/interceptor-operations.md)  
+ [Operaciones del interceptor](../core/interceptor-operations.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Estructura de un archivo de configuración de Interceptor](../core/structure-of-an-interceptor-configuration-file.md)
+ [Estructura de un archivo de configuración de interceptores](../core/structure-of-an-interceptor-configuration-file.md)

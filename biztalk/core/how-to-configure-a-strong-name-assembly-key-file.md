@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e77f72effa1a9c9193f9ce589ebe22b65feb5a85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec807cf6b596f7e89f607ebeb56700c59134c211
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-strong-name-assembly-key-file"></a>Cómo configurar un archivo de clave de ensamblado de nombre seguro
 En el proceso de implementación de una solución de BizTalk, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] primero genera los ensamblados. El proceso de implementación necesita que cada ensamblado esté firmado de forma segura. Fuertemente puede firmar los ensamblados asociando el proyecto con un archivo de clave de ensamblado de nombre seguro. Antes de implementar una solución desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] si aún no ha generado un archivo de clave de ensamblado de nombre seguro, use el procedimiento siguiente para ello y para asignarlo a cada proyecto de la solución.  
@@ -34,7 +34,7 @@ En el proceso de implementación de una solución de BizTalk, [!INCLUDE[btsVStud
   
      Ejemplo: **sn /k ErrorHandling.snk**  
   
-     Un mensaje de confirmación, **escribe en el par de claves** \< *file_name*>**.snk** `,` muestra en la línea de comandos.  
+     Un mensaje de confirmación, **escribe en el par de claves** \< *file_name*\>**.snk** `,` muestra en la línea de comandos.  
   
 3.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] el Explorador de soluciones, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.  
   
@@ -45,4 +45,4 @@ En el proceso de implementación de una solución de BizTalk, [!INCLUDE[btsVStud
 6.  Repita los pasos del 3 al 6 para cada proyecto de la solución que desea implementar con este archivo de clave de ensamblado de nombre seguro.  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+ [Implementación de ensamblados de BizTalk en una aplicación de BizTalk desde Visual Studio](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

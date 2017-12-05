@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5b8cae6700328c68c8b6113c8719cf14f76a22c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 93f1bca77aea5aa6c75521e46edc8fc4d01b2d73
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="optimizing-iis-performance"></a>Optimizar el rendimiento de IIS
 ## <a name="apply-iis-configuration-options-to-improve-iis-performance"></a>Aplicar opciones de configuración de IIS para mejorar el rendimiento de IIS  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  Si es necesario, haga clic en **aplicar** en el **acciones** panel.  
   
- Deshabilitar la depuración para aplicaciones y servicios Web ASP.NET mediante la especificación de la \<indicador de compilación debug = "false" / > sección en el archivo web.config para la aplicación web.  
+ Deshabilitar la depuración para aplicaciones y servicios Web ASP.NET mediante la especificación de la \<indicador de compilación debug = "false"\> sección en el archivo web.config para la aplicación web.  
   
 ### <a name="tune-the-value-of-the-asp-threads-per-processor-limit-property"></a>Ajustar el valor de la propiedad de ASP subprocesos por límite de procesador  
  El ASP **límite de subprocesos por procesador** propiedad especifica el número máximo de subprocesos de trabajo por procesador que crea IIS. Aumente el valor para el límite de subprocesos por procesador hasta que el uso de procesador cumple al menos el 50 por ciento o una versión posterior. Esta configuración puede influir considerablemente en la escalabilidad de las aplicaciones Web y el rendimiento del servidor en general. Dado que esta propiedad define el número máximo de solicitudes ASP que se pueden ejecutar simultáneamente, este valor debe permanecer en el valor predeterminado a menos que sus aplicaciones ASP realicen llamadas de larga duración a componentes externos. En este caso, puede aumentar el valor de límite de subprocesos por procesador. Esto permite que el servidor para crear más subprocesos para atender más solicitudes concurrentes. El valor predeterminado del límite de subprocesos por procesador es 25. El valor máximo recomendado para esta propiedad es 100.  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  Haga clic para expandir **límites propiedades** en **comportamiento**, haga clic en **límite de subprocesos por procesador**, escriba el valor deseado para **límite de subprocesos por procesador**  y haga clic en **aplicar** en el **acciones** panel.  
   
- Para obtener más información sobre cómo modificar las propiedades de la \<límites > elemento de IIS 7.5 o 7.0 \<asp > elemento, vea [límites de ASP \<límites >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ Para obtener más información sobre cómo modificar las propiedades de la \<límites\> elemento de IIS 7.5 o 7.0 \<asp\> elemento, vea [límites de ASP \<límites\> ](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Dado que esta propiedad solo se aplica en el nivel de servidor, la modificación de esta propiedad afecta a todos los sitios Web que se ejecutan en el servidor.  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  Haga clic para expandir **límites propiedades** en **comportamiento**, haga clic en **longitud de cola**, escriba el valor deseado para **longitud de cola** y, a continuación, Haga clic en **aplicar** en el **acciones** panel.  
   
- Para obtener más información sobre cómo modificar las propiedades de la \<límites > elemento de IIS 7.5 o 7.0 \<asp > elemento, vea [límites de ASP \<límites >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+ Para obtener más información sobre cómo modificar las propiedades de la \<límites\> elemento de IIS 7.5 o 7.0 \<asp\> elemento, vea [límites de ASP \<límites\> ](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Dado que esta propiedad solo se aplica en el nivel de servidor, la modificación de esta propiedad afecta a todos los sitios Web que se ejecutan en el servidor.  
@@ -96,7 +96,7 @@ ms.lasthandoff: 09/20/2017
  Para obtener más información acerca de cómo configurar el uso de subprocesos de ASP.NET en IIS 7.5, vea [Blog de Thomas Marquardt sobre el uso de subprocesos de ASP.NET en IIS 7.0](http://go.microsoft.com/fwlink/?LinkId=157518) (http://go.microsoft.com/fwlink/?LinkId=157518).  
   
 ### <a name="configure-aspnet-4-maxconcurrentrequests-for-iis-7570-integrated-mode"></a>Configurar ASP.NET 4 MaxConcurrentRequests para el modo integrado de IIS 7.5 o 7.0  
- Con .NET Framework 4, el valor predeterminado de maxConcurrentRequestsPerCPU es 5000 que es un número muy grande y, por tanto, le permitirá una gran cantidad de solicitudes asincrónicas para ejecutar al mismo tiempo. Para obtener más información, consulte [ \<applicationPool > Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
+ Con .NET Framework 4, el valor predeterminado de maxConcurrentRequestsPerCPU es 5000 que es un número muy grande y, por tanto, le permitirá una gran cantidad de solicitudes asincrónicas para ejecutar al mismo tiempo. Para obtener más información, consulte [ \<Grupoaplicaciones\> Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
   
  Para el modo integrado de IIS 7.5 o 7.0, un valor DWORD denominado MaxConcurrentRequestsPerCPU en HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 determina el número de solicitudes simultáneas por CPU. De forma predeterminada, no existe la clave del registro y el número de solicitudes por CPU se limita a 5000.  
   
@@ -120,4 +120,4 @@ ms.lasthandoff: 09/20/2017
     3.  Establecer las opciones de compresión que desee y, a continuación, haga clic en **aplicar** en el **acciones** panel.  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento](../technical-guides/optimizing-performance.md)
+ [Optimización del rendimiento](../technical-guides/optimizing-performance.md)

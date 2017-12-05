@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3f0835c6d83efc9db91f5c1d63e91f4c143399d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 11c77b7b28c65c4743998f7d4c54d9c7cd48437f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-an-a4swift-receive-location"></a>Crear una A4SWIFT la ubicación de recepción
 Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] ubicación de recepción para habilitar la recepción de mensajes de la red SWIFT mediante [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], tal y como se muestra en la ilustración siguiente. La ubicación de recepción recibe mensajes de archivo sin formato desde una carpeta de archivo de entrada.  
@@ -35,7 +35,7 @@ Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-
 |Puerto de recepción|Puerto unidireccional|  
 |Tipo de transporte|FILE|  
 |Dirección URI|Nombre de la carpeta que desea recibir el mensaje|  
-|Máscara de archivo|\*.  *\<extensión >*, donde \< *extensión*> es la extensión del entrante mensaje de archivo sin formato|  
+|Máscara de archivo|\*.  *\<extensión\>*, donde \< *extensión* \> es la extensión del entrante mensaje de archivo sin formato|  
 |Controlador de recepción|BizTalkServerApplication|  
 |Canalización de recepción|El [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] canalización de recepción que ha creado|  
   
@@ -69,7 +69,7 @@ Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-
     > [!NOTE]
     >  Si esta carpeta no existe, puede crearlo mediante el **crear nueva carpeta** comando.  
   
-12. En el cuadro de diálogo Propiedades de transporte de archivo, en la **máscara de archivo** cuadro, escriba  **\*.\<* extensión*>**, donde \<* extensión*> es la extensión del entrante mensaje de archivo sin formato, como **.txt**. Haga clic en **Aceptar**.  
+12. En el cuadro de diálogo Propiedades de transporte de archivo, en la **máscara de archivo** cuadro, escriba  **\*.\<* extensión*\>**, donde \<* extensión* \> es la extensión de la entrada de archivo sin formato del mensaje, por ejemplo, como **.txt**. Haga clic en **Aceptar**.  
   
 13. En el cuadro de diálogo Propiedades de la ubicación de recepción, asegúrese de que **BizTalkServerApplication** se haya especificado para la **controlador de recepción** cuadro.  
   

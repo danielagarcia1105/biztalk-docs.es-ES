@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ab096378820e27c640af3262b0ae39d2fa1c5810
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6e603643ba1d969534e9954733572dc92acd04a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="node-types-and-ids-for-the-sql-server-adapter"></a>Tipos de nodo e identificadores para el adaptador de SQL Server
 
@@ -104,7 +104,7 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de SQL Se
   
 |Artefacto|Características de los metadatos|  
 |--------------|------------------------------|  
-|Tabla o vista|<ul><li>Nombre de la tabla.</li><li>Nombres de campo de tabla.</li><li>Tipos de datos de campo de tabla se asignan a tipos WSDL simples o complejos.</li><li>Longitud de campo de tabla se asigna a maxLength de faceta.</li><li>Restricción de clave principal de campos de tabla se asigna a la faceta minOccurs = 1.</li><li>Restricción de tabla campo NULL se asigna a la faceta isNillable = true.</li><li>Operaciones de tabla<br /><br /> <ul><li>INSERT</li><li>SELECT</li><li>UPDATE</li><li>DELETE</li><li>ESTABLECER\<nombre de columna ></li></ul></li></ul>|  
+|Tabla o vista|<ul><li>Nombre de la tabla.</li><li>Nombres de campo de tabla.</li><li>Tipos de datos de campo de tabla se asignan a tipos WSDL simples o complejos.</li><li>Longitud de campo de tabla se asigna a maxLength de faceta.</li><li>Restricción de clave principal de campos de tabla se asigna a la faceta minOccurs = 1.</li><li>Restricción de tabla campo NULL se asigna a la faceta isNillable = true.</li><li>Operaciones de tabla<br /><br /> <ul><li>INSERT</li><li>SELECT</li><li>UPDATE</li><li>DELETE</li><li>ESTABLECER\<nombre de columna\></li></ul></li></ul>|  
 |Procedimiento o función|-Nombre de función o procedimiento se asigna para el nombre de la operación.<br />Los nombres de parámetro procedimiento o función.<br />Tipos de datos de parámetro procedimiento o función se asignan a tipos WSDL.<br />-Dirección del parámetro procedimiento o función se asigna a la dirección del parámetro WSDL.<br />-Procedimiento función o parámetro parámetro longitud del tipo datos se asigna a maxLength de faceta.<br />-Orden de los parámetros procedimiento o función se asigna a la secuencia de elementos.<br />-Función devuelve el tipo de datos se asigna al tipo WSDL.<br />-Función devuelve la longitud del tipo de datos se asigna a maxLength de faceta.|  
   
  Para obtener información detallada sobre el formato de los metadatos que la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] expone para artefactos específicos y las operaciones en la base de datos de SQL Server, vea [mensajes y esquemas de mensaje para el adaptador de BizTalk para SQL Server](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).  

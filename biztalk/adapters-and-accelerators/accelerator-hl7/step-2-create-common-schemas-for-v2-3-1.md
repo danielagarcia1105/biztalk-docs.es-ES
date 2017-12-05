@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d65e2860e2140a16749ad434ead77bf8a4f49eb2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e5f8ed36b4a1ae8553e8df488e8fd5a606c0eabd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-common-schemas-for-v231"></a>Paso 2: Crear los esquemas comunes para V2.3.1
 Los esquemas V2.3.1 son esquemas normalmente se hace referencia, que se utilizan para validar la instancia de mensaje.  
@@ -47,9 +47,9 @@ Los esquemas V2.3.1 son esquemas normalmente se hace referencia, que se utilizan
   
 9. Seleccione el **firmar el ensamblado** casilla de verificación.  
   
-10. En **elegir un archivo de clave de nombre seguro**, seleccione  **\<Examinar... >** .  
+10. En **elegir un archivo de clave de nombre seguro**, seleccione  **\<Examinar... \>** .  
   
-11. Vaya a \<unidad >: \Batching Tutorial, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
+11. Vaya a \<unidad\>: Tutorial, seleccione \Batching **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 12. En el Explorador de soluciones, haga clic en **proyecto BTAHL7V231Common**y, a continuación, haga clic en **implementar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
   

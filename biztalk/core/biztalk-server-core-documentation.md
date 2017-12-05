@@ -1,24 +1,22 @@
 ---
 title: "Documentación de BizTalk Server core | Documentos de Microsoft"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/30/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-f1_keywords: bts10.default
-helpviewer_keywords: BizTalk Server Help
 ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
 caps.latest.revision: "48"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 81a742187f762047d9ab43e108e26784d24c0c33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7abfed788cfdd343397957d154dee104f310cbeb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-core-documentation"></a>Documentación de BizTalk Server core
 El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentación principal incluye una variedad de recursos que pueden ayudarle a aprender a desarrollar, implementar, administrar y utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -31,13 +29,13 @@ El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
   
 [Tareas comunes y tutoriales](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) y [tutoriales](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) también son una excelente manera de empezar a trabajar.
 
-## <a name="get-new-features-in-the-feature-pack"></a>Obtener nuevas características en el Feature Pack 
+## <a name="feature-pack"></a>Paquete de características 
 **[Configurar el feature pack](../core/configure-the-feature-pack.md)**  enumera las diferentes actualizaciones disponibles en el feature pack, incluido el uso de Application Insights y Power BI para realizar el seguimiento de datos, la implementación automática con Visual Studio Team Services y más atractivas. 
   
 ## <a name="plan-and-architect-your-applications"></a>Planear y diseñar las aplicaciones
 **[Planeamiento y arquitectura](../core/plan-and-architect-your-biztalk-server-solution.md)**  cubre la arquitectura, rendimiento y capacidad, alta disponibilidad y seguridad. Leer también sobre el diseño, la creación y ejecución de dos modelos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] soluciones: una solución orientada a servicios y una solución de administración de procesos empresariales.
 
-## <a name="learn-and-implement-business-to-business-messaging"></a>Obtenga información acerca de e implementan la mensajería de negocio a negocio
+## <a name="business-to-business-messaging"></a>Mensajería de negocio a negocio
 **[Mensajería B2B](../core/trading-partner-management-using-biztalk-server.md)**  describe los bloques de creación de una solución B2B, cómo EDI y AS2 se implementan e incluye tutoriales para hacerlo manualmente. También puede ir más detallada con confirmaciones, procesamiento por lotes, las soluciones de supervisión. 
 
 ## <a name="secure-and-protect-your-data"></a>Proteger y proteger los datos

@@ -15,11 +15,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 258fcb96bbb9bbb045aeb3f48c2b324502d44940
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e654d22a08a7b07210ded9c319953c288065927a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-automatic-archive-validation"></a>Cómo habilitar la validación automática de archivos
 La validación de archivos permite validar los archivos a medida que se crean. Antes de poder habilitar la validación de archivos automática, tendrá que configurar un servidor de base de datos secundario, también denominado servidor de validación. Ya que el proceso de archivo es una simple copia de seguridad, es posible que se pueda dañar la imagen real almacenada en el disco debido a un problema de hardware.  
@@ -89,7 +89,7 @@ La validación de archivos permite validar los archivos a medida que se crean. A
   
 13. En el **General** página, en la **comando** cuadro, en el comando **exec dtasp_ValidateArchive es null null**, sustituya null, null con el nombre del servidor que hospeda el BizTalk Seguimiento de la base de datos, entre comillas, seguidas del nombre de la base de seguimiento de BizTalk entrecomillado comillas simples y, a continuación, haga clic en **Aceptar**. Por ejemplo:  
   
-     **exec dtasp_ValidateArchive '**  *\<TrackingServerName >* **','**  *\<TrackingDatabaseName >* **'**  
+     **exec dtasp_ValidateArchive '**  *\<TrackingServerName\>*  **','**  *\<TrackingDatabaseName\>*  **'**  
   
 > [!NOTE]
 >  El trabajo ValidateArchive no tiene una programación y no se debería configurar una programación para él. En su lugar, el trabajo DTA Purge and Archive (BizTalkDTADb) inicia este trabajo automáticamente cuando se crea un archivo.  

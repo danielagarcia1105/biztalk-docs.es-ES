@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 923bc73e6ee778cbf960300902c7f631dc5d9f5b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6e95e61fa4152cdd7485175240b6481f3d28cfc7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edifact-contrl-message-as-functional-acknowledgment"></a>Mensaje CONTRL de EDIFACT como confirmación funcional
 Si ha seleccionado generar una confirmación funcional en la configuración de perfil de negocio o acuerdo entre socios comerciales (o acuerdo de reserva si no se ha definido ningún acuerdo entre los dos perfiles de negocio), o bien si el campo UNB9 del mensaje se configura en "1", se generará un mensaje CONTRL como confirmación funcional. Esta confirmación informa sobre los resultados de las comprobaciones de sintaxis del intercambio.  
@@ -45,7 +45,7 @@ Si ha seleccionado generar una confirmación funcional en la configuración de p
 >  El mensaje CONTRL contiene varios elementos de datos obligatorios que se copiarán del intercambio recibido. Si falta el elemento de datos del intercambio o no es válido sintácticamente, no se generará un mensaje CONTRL que sea válido sintácticamente. Como consecuencia, debe informarse del error por otros medios distintos a un mensaje CONTRL.  
   
 > [!NOTE]
->  En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], se envía un mensaje CONTRL (confirmación de recepción, aceptación o rechazo) como respuesta al intercambio recibido que solo contiene uno o más mensajes CONTRL. En [!INCLUDE[bts2010R2](../includes/bts2010r2-md.md)], no se envía ningún mensaje CONTRL (confirmación de recepción, aceptación o rechazo) como respuesta al intercambio recibido que solo contiene uno o más mensajes CONTRL. Debe informarse de los errores en mensajes CONTRL recibidos por otros medios distintos a un mensaje CONTRL. Si uno o más mensajes CONTRL se incluyen en un intercambio que contiene mensajes de datos, se generará el mensaje CONTRL generado como respuesta a ese intercambio, como si no hubiera mensajes en el intercambio recibido.  
+>  En BizTalk Server, se envía un mensaje CONTRL (confirmación de recepción, aceptación o rechazo) como respuesta a un intercambio recibido que contiene solo uno o más mensajes CONTRL. En [!INCLUDE[bts2010R2](../includes/bts2010r2-md.md)], no se envía ningún mensaje CONTRL (confirmación de recepción, aceptación o rechazo) como respuesta al intercambio recibido que solo contiene uno o más mensajes CONTRL. Debe informarse de los errores en mensajes CONTRL recibidos por otros medios distintos a un mensaje CONTRL. Si uno o más mensajes CONTRL se incluyen en un intercambio que contiene mensajes de datos, se generará el mensaje CONTRL generado como respuesta a ese intercambio, como si no hubiera mensajes en el intercambio recibido.  
   
  **Bucles SG**  
   

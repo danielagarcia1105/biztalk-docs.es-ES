@@ -32,11 +32,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43dd7d6245546f8d35760bfe2ed2224482d9d4bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f56b16f59b967ccd9e57d03d38f86e64795da477
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="frr-orchestration"></a>Orquestación de FRR
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]implementa FRR a través de la orquestación FRR. La orquestación determina si el Token de correlación de la respuesta FIN coincide con el identificador del mensaje del mensaje original. Procesa el mensaje en paralelo con las funciones de envío realizadas por el puerto de envío que envía el mensaje a AAS y con las funciones de recepción realizadas por la ubicación de recepción que recibe el mensaje de AAS.  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRFailedReason a uno de los valores siguientes, si la respuesta fue un NAK:  
   
-    -   *\<ErrorCode >* (desde el campo 405 del mensaje de confirmación negativo MTS21_FIN_ACKNAK)  
+    -   *\<ErrorCode\>*  (desde el campo 405 del mensaje de confirmación negativo MTS21_FIN_ACKNAK)  
   
     -   TransportError (desde un mensaje de MQ Series PAN/NAN)  
   

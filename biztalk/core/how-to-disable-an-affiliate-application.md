@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fe1a19ee34a98be4130be2ac72e9ad27e83b0c13
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09efa7dd00f563b8b02469909d2105d443438e95
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-an-affiliate-application"></a>Cómo deshabilitar una aplicación afiliada
 Puede utilizar el Complemento MMC o la línea de comandos para deshabilitar la aplicación afiliada especificada.  
@@ -37,9 +37,9 @@ Puede utilizar el Complemento MMC o la línea de comandos para deshabilitar la a
   
 1.  Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-disableapp  *\<nombre de aplicación >***, donde \< *nombre de la aplicación*> es el nombre de la aplicación afiliada que desea deshabilitar.  
+3.  Tipo de **ssomanage-disableapp  *\<nombre de la aplicación\>***, donde \< *nombre de la aplicación* \> es el nombre de la aplicación afiliada que desea deshabilitar.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -48,4 +48,4 @@ Puede utilizar el Complemento MMC o la línea de comandos para deshabilitar la a
  [Aplicaciones afiliadas de SSO](../core/sso-affiliate-applications.md)   
  [Cómo habilitar una aplicación afiliada](../core/how-to-enable-an-affiliate-application.md)   
  [Administrar asignaciones de usuario](../core/managing-user-mappings.md)   
- [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)
+ [Administración de aplicaciones afiliadas](../core/managing-affiliate-applications.md)

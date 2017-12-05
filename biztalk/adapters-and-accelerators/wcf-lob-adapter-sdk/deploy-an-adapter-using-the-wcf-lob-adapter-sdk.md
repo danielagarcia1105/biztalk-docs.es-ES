@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72c83998bbe16899055c839a73795d456a132381
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: c11ae1067fff276d8d24639d3e4d3cc6798c6ba5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>Implementar un adaptador mediante el SDK de adaptador LOB de WCF
 Para implementar un adaptador, debe instalar al ensamblado de adaptador en la caché global de ensamblados (GAC) y, a continuación, registrar el adaptador en el archivo machine.config.  
@@ -39,7 +39,7 @@ Para implementar un adaptador, debe instalar al ensamblado de adaptador en la ca
   
      Ejemplo: **sn /k EchoAdapter.snk**  
   
-     Un mensaje de confirmación, **escribe en el par de claves** \< *file_name*>**.snk** `,` muestra en la línea de comandos.  
+     Un mensaje de confirmación, **escribe en el par de claves** \< *file_name*\>**.snk** `,` muestra en la línea de comandos.  
   
 4.  En el Explorador de soluciones de Visual Studio, haga clic en el proyecto y, a continuación, haga clic en **propiedades**.  
   
@@ -76,18 +76,18 @@ Para implementar un adaptador, debe instalar al ensamblado de adaptador en la ca
   
 3.  Escriba el siguiente comando:  
   
-     **Gacutil.exe /if "\<**  *ruta de acceso al archivo .dll del ensamblado* **>"**  
+     **Gacutil.exe /if "\<**  *ruta de acceso al archivo .dll del ensamblado*  **\>"**  
   
 4.  Se instalará el ensamblado en la GAC, sobrescribiendo cualquier ensamblado existente con el mismo nombre.  
   
 ## <a name="register-the-adapter-in-machineconfig"></a>Registrar el adaptador en el archivo Machine.config  
- Un adaptador desarrolladas con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] aparece como un enlace de WCF.  Para obtener más información, consulte Microsoft.ServiceModel.Channels.Common.AdapterBinding.  El enlace del adaptador está registrado con WCF con \<bindingExtensions > dentro de la sección \<sistema. ServiceModel > y el elemento de enlace de transporte de adaptador está registrado con WCF con \<bindingElementExtensions > dentro de la sección \<sistema. ServiceModel >.  
+ Un adaptador desarrolladas con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] aparece como un enlace de WCF.  Para obtener más información, consulte Microsoft.ServiceModel.Channels.Common.AdapterBinding.  El enlace del adaptador está registrado con WCF con \<bindingExtensions\> sección dentro de \<sistema. ServiceModel\> y el elemento de enlace de transporte de adaptador está registrado con WCF con \<bindingElementExtensions\> sección dentro de \<sistema. ServiceModel\>.  
   
  Puede editar manualmente el archivo machine.config con un editor de texto.  
   
 #### <a name="manually-edit-the-machineconfig-file"></a>Editar manualmente el archivo machine.config  
   
-1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, escriba notepad \<ruta de instalación de Windows > \Microsoft.NET\Framework\\< versión\>\CONFIG\machine.config, y, a continuación, haga clic en **Aceptar**.  
+1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, escriba notepad \<ruta de instalación de Windows\>\Microsoft.NET\Framework\\< versión\>\CONFIG\ Machine.config y, a continuación, haga clic en **Aceptar**.  
   
 2.  Actualice el archivo machine.config. Si el archivo no contiene una sección de system.serviceModel, agregue la siguiente sección al final del archivo de configuración, pero antes de que el cierre raíz etiqueta.  
   
@@ -95,7 +95,7 @@ Para implementar un adaptador, debe instalar al ensamblado de adaptador en la ca
     >  Reemplace "myAdapterBinding", versión, referencia cultural y otra información específica del ensamblado con la información de su adaptador.  
   
     ```  
-    \<system.serviceModel>  
+    <system.serviceModel>  
       <extensions>  
         <bindingExtensions>  
             <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
@@ -103,7 +103,7 @@ Para implementar un adaptador, debe instalar al ensamblado de adaptador en la ca
             <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
           </bindingElementExtensions>  
       </extensions>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
     ```  
   
      - O BIEN  

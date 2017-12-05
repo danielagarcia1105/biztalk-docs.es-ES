@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9343cf9bd33f5880c564e2ec0dce72ece520ff01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8cee3564b90b730334d2d891edd2e9abc221a367
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-up-the-bam-databases-using-the-bam-management-utility"></a>Cómo configurar las bases de datos de BAM con la utilidad de administración de BAM
 Los administradores suelen usar la utilidad de configuración de BizTalk Server para configurar las bases de datos de BAM. Puede usar la utilidad de administración de BAM (bm.exe) como método alternativo de configuración de bases de datos.  
@@ -36,7 +36,7 @@ Los administradores suelen usar la utilidad de configuración de BizTalk Server 
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm el programa de instalación-databases - ConfigFile:\<archivo de configuración >**, donde \< *archivo de configuración*> se sustituye por el nombre de el archivo de configuración de BAM. Presione **ENTRAR**.  
+3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm el programa de instalación-databases - ConfigFile:\<archivo de configuración\>**, donde \< *archivo de configuración* \>se sustituye por el nombre de su archivo de configuración de BAM. Presione **ENTRAR**.  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidad de administración de BAM](../core/bam-management-utility.md)

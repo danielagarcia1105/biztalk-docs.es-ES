@@ -19,11 +19,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f60811a8b6875c8cbcf4a8037501855a08fe0be6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5d8896691557f48a8e85e67e09e35d20e1d606d0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-certificates-imported-using-mmc"></a>Configuración de certificados importados con MMC
 Después de haber importado los certificados con el complemento certificados para el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC), debe configurar su uso. Esto es necesario configurar el grupo de BizTalk, las cuentas de servicio de Host de BizTalk y Host aislado, procesos de interfaz de socio (PIP), comerciales acuerdos de socios y socios. Debe realizar los pasos siguientes:  
@@ -44,12 +44,12 @@ Después de haber importado los certificados con el complemento certificados par
   
 ### <a name="to-configure-the-signing-certificate-for-a-biztalk-group-or-the-decryption-certificate-for-a-biztalk-host"></a>Para configurar el certificado de firma para un grupo de BizTalk o el certificado de descifrado para un Host de BizTalk  
   
-1.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **runas/user:\<servicio de host > mmc**y, a continuación, haga clic en **Aceptar**.  
+1.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **runas/user:\<hospedar servicio\> mmc**y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  Para \< *hospedar servicio*>, escriba el nombre del servicio que asociado al servicio de host cuando instaló [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+    >  Para \< *hospedar servicio*\>, escriba el nombre del servicio que asociado al servicio de host cuando instaló [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-2.  Escriba la contraseña de \< *hospedar servicio*>, y, a continuación, presione ENTRAR.  
+2.  Escriba la contraseña de \< *hospedar servicio*\>, y, a continuación, presione ENTRAR.  
   
 3.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]y, a continuación, haga clic en [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **consola de administración**.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e48ec0dddcf17be70b915d2beb058f1ab2f6f576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25af22c85602c323b87340cce8b740fe5b68accb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="assembly-installation-in-the-gac"></a>Instalación de ensamblado en la GAC
 Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los ensamblados que una o varias aplicaciones del equipo usan. Para que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procese mensajes durante el tiempo de ejecución, los ensamblados incluidos en una aplicación de BizTalk deben estar presente en las GAC de los equipos que ejecutan la aplicación.  
@@ -37,7 +37,7 @@ Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los
   
      Además, puede configurar opciones de implementación en cualquier momento después de que se ha implementado en un ensamblado o se ha agregado a una aplicación, como se describe en [cómo modificar las opciones de implementación de un ensamblado de BizTalk](../core/how-to-modify-the-deployment-options-of-a-biztalk-assembly.md). Cuando los ensamblados se implementan en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] por primera vez, se establecen las opciones de implementación en la consola de administración como se indica a continuación: está habilitado en la instalación y se deshabilita la GAC durante la importación. Si realiza cambios en esta configuración, los cambios seguirán en vigor si se vuelve a implementar el ensamblado de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
--   **Arrastrar y colocar.** Mediante el Explorador de Windows, puede arrastrar y colocar el archivo de ensamblado en el \< *carpeta Windows*> \assembly.  
+-   **Arrastrar y colocar.** Mediante el Explorador de Windows, puede arrastrar y colocar el archivo de ensamblado en el \< *carpeta Windows*\>\assembly.  
   
 -   **Otros métodos.** Existen otras herramientas y métodos, como el instalador de Windows o herramientas de otros proveedores, que se pueden usar para instalar un ensamblado en la GAC.  
   
@@ -49,4 +49,4 @@ Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los
   
 ## <a name="see-also"></a>Vea también  
  [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)   
- [Descripción de la implementación de aplicaciones de BizTalk y administración](../core/understanding-biztalk-application-deployment-and-management.md)
+ [Descripción de la implementación y administración de aplicaciones de BizTalk](../core/understanding-biztalk-application-deployment-and-management.md)

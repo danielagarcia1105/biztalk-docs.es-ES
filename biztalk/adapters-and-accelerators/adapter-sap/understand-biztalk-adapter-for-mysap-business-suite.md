@@ -19,11 +19,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 359bbc9d25465cf5c293d24a12ffeb698b11ab02
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b5d04c435208e316c343ac7b307943e0f91b8af7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="understand-biztalk-adapter-for-mysap-business-suite"></a>Comprender el adaptador de BizTalk para mySAP Business Suite
 El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios con el fin de interactuar con un sistema externo. Los adaptadores proporcionan las siguientes ventajas a los clientes:  
@@ -34,7 +34,7 @@ El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] p
   
 -   **Uniformes experiencia a través de LOB**. Los adaptadores estandarización sobre el uso de WCF y [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] y, por tanto, proporcionar una experiencia uniforme de obtener acceso a cualquier sistema LOB.  
   
- Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. La documentación se instala junto con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación >: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
+ Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. La documentación se instala junto con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación\>: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
   
  Para llevar a cabo operaciones en un sistema SAP, los clientes de adaptador deben tener acceso al relevante llamadas a funciones remotas (RFC), Interfaces de programación de aplicaciones empresariales (BAPI) e IDOC (o documentos intermedios). Un sistema SAP R/3 expone RFC y BAPI, IDOC para la integración de negocios. Las solicitudes de cambio son módulos de función remota que implementan la lógica empresarial específica. Esta lógica se puede invocar desde una aplicación externa como BizTalk Server o una aplicación. NET. BAPI es interfaces de método para objetos de negocios SAP, que a su vez se exponen a través de interfaces RFC estándar. IDOC es un mecanismo para resumir el nivel de comunicación de datos electrónicos interchange (EDI) para la comunicación entre sistemas ajenos a SAP y SAP. Con [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)], puede tener acceso a los documentos de RFC, BAPI, y expone un sistema SAP IDOC.  
   
@@ -50,7 +50,7 @@ El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] p
   
 -   [Limitaciones del adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/limitations-of-biztalk-adapter-for-mysap-business-suite.md)  
   
--   [Sobre el proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)  
+-   [Acerca del proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)  
   
 ## <a name="see-also"></a>Vea también  
 [Empezar a trabajar con el adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/get-started-with-the-biztalk-adapter-for-mysap-business-suite.md)

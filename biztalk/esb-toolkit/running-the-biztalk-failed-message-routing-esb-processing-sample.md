@@ -12,16 +12,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a19f8c29c22638be97ae62dfea88d0d2feca6c55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 81a2b225e5316d16e31d2ed2ca830387dc14048d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-biztalk-failed-message-routing-esb-processing-sample"></a>Ejecución de BizTalk no pudo ejemplo de procesamiento de ESB de enrutamiento de mensajes
-El ejemplo de Microsoft BizTalk no se pudo enrutamiento ESB procesamiento de mensajes muestra cómo se puede utilizar el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] marco de administración de excepciones como un mecanismo de universal para administrar, serializar y representar las excepciones que se producen en todas las condiciones de [!INCLUDE[prague](../includes/prague-md.md)]. Esto incluye las excepciones generadas por el enrutamiento de mensajes de error de BizTalk mecanismo y error mensajes generados por el marco de administración de excepción desde una orquestación.  
+El ejemplo de Microsoft BizTalk no se pudo enrutamiento ESB procesamiento de mensajes muestra cómo se puede utilizar el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] marco de administración de excepciones como un mecanismo de universal para administrar, serializar y representar las excepciones que se producen en todas las condiciones de BizTalk Servidor. Esto incluye las excepciones generadas por el enrutamiento de mensajes de error de BizTalk mecanismo y error mensajes generados por el marco de administración de excepción desde una orquestación.  
   
- El mecanismo de enrutamiento de mensajes de error de BizTalk es la funcionalidad de control de errores de [!INCLUDE[prague](../includes/prague-md.md)]; gracias a ella, el diseñador puede designar un control automatizado de mensajes con errores como alternativa al tradicional comportamiento (ahora como configuración predeterminada) de colocar errores mensajes en la cola de "Suspensión". Este control automatizado enruta un mensaje de error a cualquier destino de enrutamiento de suscripción, como un puerto de envío o una orquestación. El mensaje de error es un clon del mensaje original con todas las propiedades anteriormente promocionadas degradadas y con propiedades seleccionadas relacionadas al error de mensajería específico promocionadas en el contexto del mensaje.  
+ El mecanismo de enrutamiento de mensajes de error de BizTalk es la funcionalidad de control de errores de BizTalk Server; mediante su uso, el diseñador puede designar un control automatizado de mensajes con errores como alternativa al tradicional comportamiento (ahora como configuración predeterminada) de colocar los mensajes en la cola de "Suspensión" con errores. Este control automatizado enruta un mensaje de error a cualquier destino de enrutamiento de suscripción, como un puerto de envío o una orquestación. El mensaje de error es un clon del mensaje original con todas las propiedades anteriormente promocionadas degradadas y con propiedades seleccionadas relacionadas al error de mensajería específico promocionadas en el contexto del mensaje.  
   
  Para habilitar el mecanismo de enrutamiento de mensajes de error de BizTalk en un puerto de recepción o un puerto de envío, seleccione el **habilitar enrutamiento para mensajes con errores** casilla de verificación, tal como se muestra en la figura 1.  
   

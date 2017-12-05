@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e4e833b05609d3889c30eac39a9285b09c63b68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df5f6e797e59e79ed275fb94217d94425e456e85
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-synonyms"></a>Operaciones en sinónimos
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] le permite realizar operaciones en sinónimos. Un sinónimo es un alias o un nombre descriptivo para los objetos de base de datos (como tablas, vistas, procedimientos almacenados, funciones y paquetes). Para obtener más información acerca de los sinónimos en Oracle, vea [http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058).  
@@ -49,7 +49,7 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
   
  Los sinónimos para cada uno de estos artefactos se exponen junto con el artefacto respectivo subyacente en el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], y [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Por ejemplo, el **tablas** nodo bajo el **vista basada en el esquema** mostrará todos los sinónimos para las tablas junto con las tablas de base de datos en un esquema, el **vistas** nodo en el **Vista basada en el esquema** se muestran todos los sinónimos de vistas junto con las vistas de base de datos en un esquema y así sucesivamente.  
   
--   Sinónimos que se crean en tablas y vistas, se exponen las mismas operaciones que en las tablas y vistas subyacente respectivamente. Por ejemplo, si las tablas y vistas subyacentes contienen columnas LOB, los sinónimos de las tablas y vistas también expondrá la Read_\<LOBColName > y Update_\<LOBColName > operaciones de sinónimos de tabla y la Read_\<LOBColName > operación los sinónimos de vista.  
+-   Sinónimos que se crean en tablas y vistas, se exponen las mismas operaciones que en las tablas y vistas subyacente respectivamente. Por ejemplo, si las tablas y vistas subyacentes contienen columnas LOB, los sinónimos de las tablas y vistas también expondrá la Read_\<LOBColName\> y Update_\<LOBColName\> operaciones sinónimos de tabla y el Read_\<LOBColName\> operación los sinónimos de vista.  
   
 -   Sinónimos creado en paquetes, funciones y procedimientos almacenados, los sinónimos se exponen como operaciones junto con los respectivos subyacente los procedimientos almacenados, funciones y paquetes en un esquema.  
   

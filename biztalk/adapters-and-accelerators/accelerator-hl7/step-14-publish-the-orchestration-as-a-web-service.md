@@ -19,11 +19,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fd7707ded0951eb1141368a91e7fe8f533e8241a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c742d21dd2f2e1d95f697beea3d5d5dfa0461d2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-14-publish-the-orchestration-as-a-web-service"></a>Paso 14: Publicar la orquestación como servicio Web
 En este paso, usa al Asistente para publicación de servicios Web de BizTalk para publicar una orquestación como un servicio Web.  
@@ -44,7 +44,7 @@ En este paso, usa al Asistente para publicación de servicios Web de BizTalk par
   
 3.  En el **crear servicio Web** página, seleccione **publicar orquestaciones de BizTalk como servicios web**y, a continuación, haga clic en **siguiente**.  
   
-4.  En el **ensamblado de BizTalk** página, en la **archivo de ensamblado de BizTalk (\*.dll)** campo, busque o escriba  **\<* unidad*>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, haga clic en **BTAHL7 Project.dll**, haga clic en **abiertos**y, a continuación, haga clic en **siguiente**.  
+4.  En el **ensamblado de BizTalk** página, en la **archivo de ensamblado de BizTalk (\*.dll)** campo, busque o escriba  **\<* unidad* \>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, haga clic en **BTAHL7 Project.dll**, haga clic en **abiertos**y, a continuación, haga clic en **siguiente**.  
   
 5.  En el **orquestaciones y puertos** página, asegúrese de que todos los nodos están seleccionados y, a continuación, haga clic en **siguiente**.  
   

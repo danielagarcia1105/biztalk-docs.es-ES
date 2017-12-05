@@ -16,11 +16,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80c0909a5544334cd9f0f8540ff5a4c357b851e2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e598dc13abb40a4b15d0624d68280c8f5279630a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-accounts-from-a-view"></a>Cómo quitar cuentas de una vista
 Los administradores utilizan el **remove-account** comando para quitar usuarios de vistas de BAM y proteger las vistas de hojas de cálculo de Excel de BAM de accesos no autorizados.  
@@ -33,7 +33,7 @@ Los administradores utilizan el **remove-account** comando para quitar usuarios 
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
-3.  Tipo de **bm remove-account - AccountName:\<nombre de cuenta >-View:\<nombre de vista >**.  
+3.  Tipo de **bm remove-account - AccountName:\<nombre-cuenta\> -vista:\<nombre de la vista\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

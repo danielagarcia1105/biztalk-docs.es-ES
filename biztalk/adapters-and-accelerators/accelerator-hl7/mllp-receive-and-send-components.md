@@ -19,11 +19,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ab82aa317b205d62b8bd05aff513e80d406b658b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e135b98c04531aa6200f3b79c5b6d5153bf299a7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mllp-receive-and-send-components"></a>Componentes de envío y recepción de MLLP
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) todos los admite [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tipos de adaptador nativo, incluidos el archivo, HTTP, SQL y FTP. Para HL7 mensaje codificado en recibir y enviar, sin embargo, se suele usa el adaptador MLLP. Este adaptador es un adaptador de socket de TCP/IP que usa el protocolo de nivel inferior (MLLP) mínimo. Este protocolo proporciona integración de aplicaciones sanitaria de soporte técnico y end-to-end de mensajes bidireccionales.  
@@ -32,14 +32,14 @@ ms.lasthandoff: 09/20/2017
   
  Los mensajes que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] recibe o envía en un adaptador MLLP requiere los siguientes contenedores:  
   
--   \<SB > caracteres de bloque de inicio  
+-   \<SB\> caracteres de bloque de inicio  
   
--   \<EB > caracteres de bloque final  
+-   \<EB\> caracteres de bloque final  
   
--   \<CR > bytes de devolver del carro (opcional)  
+-   \<CR\> bytes de devolver del carro (opcional)  
   
- Adaptadores MLLP proporcionan control de errores de falta \<SB > o \<EB > contenedores, las conexiones interrumpidas o tiempos de espera. Con un adaptador MLLP, puede configurar una limitación en el número de conexiones. Puede usar una gran variedad de confirmaciones con un adaptador MLLP.  
+ Adaptadores MLLP proporcionan control de errores de falta \<SB\> o \<EB\> contenedores, las conexiones interrumpidas o tiempos de espera. Con un adaptador MLLP, puede configurar una limitación en el número de conexiones. Puede usar una gran variedad de confirmaciones con un adaptador MLLP.  
   
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes con codificación MLLP](../../adapters-and-accelerators/accelerator-hl7/processing-mllp-encoded-messages.md)   
- [Acelerador de BizTalk para HL7 componentes](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)
+ [Acelerador de BizTalk para componentes de HL7](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)

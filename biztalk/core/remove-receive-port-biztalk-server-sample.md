@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b97c3b6fe5e743e6bf19c979b994cc7eb5a942de
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d15442da8afd4829245b742bdd45af8f7d1f832
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="remove-receive-port-biztalk-server-sample"></a>Quitar (ejemplo de BizTalk Server) del puerto de recepción
 El ejemplo para quitar puerto de recepción demuestra cómo quitar uno o varios puertos de recepción.  
@@ -44,7 +44,7 @@ El ejemplo para quitar puerto de recepción demuestra cómo quitar uno o varios 
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Estos ejemplos se encuentran en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\WMI\Remove recibir Port\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Remove Port\ de recepción  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -61,12 +61,11 @@ El ejemplo para quitar puerto de recepción demuestra cómo quitar uno o varios 
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Remove recibir Port\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Remove Port\VBScript\ de recepción  
   
 2.  Ejecute el archivo RemoveReceivePort.vbs mediante el programa cscript, de modo que se pase el siguiente argumento de línea de comandos:  
   
-     **\<**   
-     ***ReceivePortName* >**. El nombre de los puertos de recepción que se van a quitar. Si el nombre del puerto de recepción contiene espacios, enciérrelo entre comillas.  
+     **\<** ***ReceivePortName* \>** . El nombre de los puertos de recepción que se van a quitar. Si el nombre del puerto de recepción contiene espacios, enciérrelo entre comillas.  
   
      Por ejemplo:  
   
@@ -80,4 +79,4 @@ El ejemplo para quitar puerto de recepción demuestra cómo quitar uno o varios 
  El archivo de secuencias de comandos RemoveReceivePort.vbs contiene comentarios detallados con más explicaciones acerca de las operaciones que realiza. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

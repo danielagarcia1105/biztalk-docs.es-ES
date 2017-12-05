@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a531a5d0a2233dba5826f4bff680a3c55403671d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 17d8518a8c74f1fef77cf713852f1dfc87c8ef23
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="scheduling-sql-server-integration-services-packages"></a>Programación de paquetes de SQL Server Integration Services
 Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de procesamiento analítico en línea (OLAP). El paquete de actualización de cubos de Integration Services actualiza los datos del cubo para que las vistas OLAP reflejen los datos correctos.  
@@ -60,7 +60,7 @@ Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de proc
   
 7.  En el árbol de consola, expanda **Integration Services**, expanda **paquetes almacenados**y, a continuación, haga clic en **MSDB**.  
   
-8.  Haga clic en el **BAM_AN_\<nombre de vista >** del paquete y, a continuación, haga clic en **Ejecutar paquete**.  
+8.  Haga clic en el **BAM_AN_\<nombre de la vista\>**  del paquete y, a continuación, haga clic en **Ejecutar paquete**.  
   
 ### <a name="to-run-the-maintaining-bam-data-integration-services-package"></a>Para ejecutar el paquete de mantenimiento de servicios de integración de datos de BAM  
   
@@ -78,7 +78,7 @@ Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de proc
   
 7.  En el árbol de consola, expanda **Integration Services**, expanda **paquetes almacenados**y, a continuación, haga clic en **MSDB**.  
   
-8.  Haga clic en el **BAM_DM_\<nombre de actividad >** del paquete y, a continuación, haga clic en **Ejecutar paquete**.  
+8.  Haga clic en el **BAM_DM_\<nombre de la actividad\>**  del paquete y, a continuación, haga clic en **Ejecutar paquete**.  
   
 ### <a name="to-schedule-the-packages-to-run-regularly"></a>Para programar los paquetes para que se ejecuten con regularidad  
   
@@ -110,7 +110,7 @@ Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de proc
   
 14. En el **Server** lista desplegable, seleccione el servidor en el que se ejecuta el trabajo.  
   
-15. Haga clic en el botón selector de archivos para el **paquete** texto, seleccione el paquete que está programando (ya sea la **BAM_DM_\<nombre de actividad >** o **BAM_AN_\< Nombre de vista >** paquete) y, a continuación, haga clic en **Aceptar**.  
+15. Haga clic en el botón selector de archivos para el **paquete** texto, seleccione el paquete que está programando (ya sea la **BAM_DM_\<nombre de la actividad\>**  o **BAM_AN_ \<Nombre de la vista\>**  paquete) y, a continuación, haga clic en **Aceptar**.  
   
 16. En el **seleccionar una página** ventana, haga clic en **programaciones**y, a continuación, haga clic en **nuevo**. Se abrirá la **nueva programación de trabajo** cuadro de diálogo.  
   
@@ -124,4 +124,4 @@ Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de proc
     >  Si BAM se configura con una instancia no predeterminada de SQL Server, BAM_AN_POCube DTSPackage no se programa o ejecuta con precisión. Tiene que modificar el archivo de configuración para que los paquetes sigan ejecutándose. Para obtener más información, consulte la sección "Modificar el contenido del archivo de configuración" en [http://go.microsoft.com/fwlink/?LinkId=196768](http://go.microsoft.com/fwlink/?LinkId=196768).  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar bases de datos BAM](../core/managing-bam-databases.md)
+ [Administración de bases de datos de BAM](../core/managing-bam-databases.md)

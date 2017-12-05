@@ -12,17 +12,17 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b36340d241ac52fe4fb7f10025807f386c51a8ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b7ee5ad712466df79a4e6961062ea56b73ad248
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-pipeline"></a>Canalización de envío
 Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] canalización de envío que se puede personalizar para la aplicación.  
   
 ## <a name="demonstrates"></a>Demostraciones  
- Este ejemplo muestra cómo procesar un mensaje XML saliente en el mensaje RNIF equivalente mediante la canalización de envío BTARN (PipelineSend.btp). PipelineSend.btp se encuentra en  *\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\RNPipelines. Incluye las etapas siguientes:  
+ Este ejemplo muestra cómo procesar un mensaje XML saliente en el mensaje RNIF equivalente mediante la canalización de envío BTARN (PipelineSend.btp). PipelineSend.btp se encuentra en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\RNPipelines. Incluye las etapas siguientes:  
   
 -   ensamblador XML.  
   
@@ -37,4 +37,4 @@ Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de canalizaciones](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)   
- [Canalización de envío BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)
+ [Canalización de envío de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)

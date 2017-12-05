@@ -22,11 +22,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e887811b4aef771a33a1f4e4d8852d5815036a74
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 64be28927a49a1fc751870785ff3fc3f55a36cb1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a>Importación de certificados mediante la utilidad CertWizard
 Este tema describe cómo importar un certificado mediante la utilidad CertWizard, una utilidad de línea de comandos paso a paso disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Este tema describe la importación de una privada, pública o clave raíz. Describe los modificadores que utilizan para configurar el certificado.  
@@ -39,20 +39,20 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK con MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK** .  
+2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK con MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** .  
   
     > [!NOTE]
     >  ¿Para obtener ayuda con la utilidad CertWizard, escriba **CertWizard /?** en el símbolo del sistema.  
   
-3.  En el símbolo del sistema, escriba **CertWizard /Privatekey \<filename > .pfx**, donde \< *filename*> .pfx contiene el certificado privado. Para proporcionar la contraseña para el archivo, anexar **/Filepassword \<filepassword >** al comando.  
+3.  En el símbolo del sistema, escriba **CertWizard /Privatekey \<filename\>.pfx**, donde \< *filename*\>.pfx contiene el certificado privado. Para proporcionar la contraseña para el archivo, anexar **/Filepassword \<filepassword\>**  al comando.  
   
-4.  Si desea importar el certificado a una cuenta específica utilizada por el BizTalk Host, se anexa **/Useridentity \<useridentity >/password \<contraseña >** al comando.  
+4.  Si desea importar el certificado a una cuenta específica utilizada por el BizTalk Host, se anexa **/Useridentity \<useridentity\> /Password \<contraseña\>**  al comando.  
   
-5.  Si desea designar una huella digital específica en caso de que el archivo .pfx contiene más de un certificado, se anexa **/Thumbprint \<huella digital >** al comando.  
+5.  Si desea designar una huella digital específica en caso de que el archivo .pfx contiene más de un certificado, se anexa **/Thumbprint \<huella digital\>**  al comando.  
   
 6.  Si desea configurar el uso del certificado, anexe **/Usage como** para el comando y, a continuación, anexe uno de los valores siguientes:  
   
-    -   Anexar **inicio de sesión** para agregar la huella digital del certificado como certificado de firma para el grupo de BizTalk. como está establecido en el cuadro de diálogo para Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] (Local) en la consola de administración de BizTalk.  
+    -   Anexar **inicio de sesión** para agregar la huella digital del certificado como certificado de firma para el grupo de BizTalk. como está establecido en el cuadro de diálogo para Microsoft BizTalk Server (Local) en la consola de administración de BizTalk.  
   
     -   Anexar **descifrar** para agregar la huella digital del certificado como el certificado de descifrado para los Hosts de BizTalk, como está establecido en la ficha certificado de las páginas de propiedades para cada host de la consola de administración de BizTalk.  
   
@@ -74,11 +74,11 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK** .  
+2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.  
   
-3.  En el símbolo del sistema, escriba **/PublicKey CertWizard \<filename > .cer**, donde \< *filename*> .cer contiene el certificado público.  
+3.  En el símbolo del sistema, escriba **/PublicKey CertWizard \<filename\>.cer**, donde \< *filename*\>.cer contiene el certificado público.  
   
-4.  Si desea designar una huella digital del certificado en el archivo .cer o .der, anexe **/Thumbprint \<huella digital >** al comando.  
+4.  Si desea designar una huella digital del certificado en el archivo .cer o .der, anexe **/Thumbprint \<huella digital\>**  al comando.  
   
      La herramienta importa el certificado en el almacén de certificados (equipo Local) \Other People\Certificates y establece su configuración.  
   
@@ -86,11 +86,11 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
-2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK** .  
+2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.  
   
-3.  En el símbolo del sistema, escriba **CertWizard /Rootkey \<filename > .cer**, donde \< *filename*> .cer contiene el certificado raíz.  
+3.  En el símbolo del sistema, escriba **CertWizard /Rootkey \<filename\>.cer**, donde \< *filename*\>.cer contiene el certificado raíz.  
   
-4.  Si desea designar una huella digital del certificado en el archivo .cer o .der, anexe **/Thumbprint \<huella digital >** al comando.  
+4.  Si desea designar una huella digital del certificado en el archivo .cer o .der, anexe **/Thumbprint \<huella digital\>**  al comando.  
   
      La herramienta importa el certificado en el almacén de certificados (equipo Local) \Trusted Root Certification Authority\Certificates y establece su configuración.  
   

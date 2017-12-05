@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4eed7ead2f0d50e7841ed6c39ffdcee86c6524f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 439caac8f1da151a9f203a1372039aaeedbfe83c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-add-a-trigger-event-message-schema"></a>Paso 3: Agregar un esquema de desencadenador de eventos (mensaje)
 En este paso, cree un nuevo proyecto basado en vacío [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] plantilla de proyecto. Para este proyecto, agregue el esquema que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] usará para validar los mensajes del lote entrante (ADT ^ A03). Agregue una referencia al proyecto que contiene los esquemas comunes v2.3.1, asigne un nombre seguro al proyecto y, a continuación, implemente el proyecto.  
@@ -64,9 +64,9 @@ En este paso, cree un nuevo proyecto basado en vacío [!INCLUDE[btaBTAHL71.3abbr
   
 3.  Comprobar **firmar el ensamblado** casilla de verificación.  
   
-4.  En **elegir un archivo de clave de nombre seguro** de lista desplegable de la lista, seleccione  **\<Examinar... >.**  
+4.  En **elegir un archivo de clave de nombre seguro** de lista desplegable de la lista, seleccione  **\<Examinar... \>.**  
   
-5.  Vaya a  **\<* unidad*>: \Batching Tutorial **, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
+5.  Vaya a  **\<* unidad*\>: \Batching Tutorial **, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 6.  En el Explorador de soluciones, haga clic en **BTAHL7V231Body**y, a continuación, haga clic en **implementar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
   

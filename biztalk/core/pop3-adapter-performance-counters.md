@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b0f48879fcc00041ce0fa1cf842a066c6da59804
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c53bd0a487924a50155f388b6a657541ebe8fd3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="pop3-adapter-performance-counters"></a>Contadores de rendimiento del adaptador de POP3
 Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por el servicio en el sitio o sistema. Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.  
@@ -42,7 +42,7 @@ Los contadores de rendimiento le permiten controlar aspectos específicos del tr
   
 3.  En el **agregar contadores** cuadro de diálogo, desde el **contadores disponibles** lista, expanda la **adaptador de recepción POP3** objeto de contador de rendimiento y seleccione los contadores que pueden supervisar  
   
-4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**.  Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**>.  
+4.  En el **instancias del objeto seleccionado** , seleccione las instancias específicas que se deben supervisar en los contadores seleccionados y, a continuación, haga clic en **agregar**.  Para seleccionar todas las instancias de contador disponibles, seleccione \< **todas las instancias**\>.  
   
 5.  Después de agregar los contadores, haga clic en **Aceptar**.  
   
@@ -51,4 +51,4 @@ Los contadores de rendimiento le permiten controlar aspectos específicos del tr
 ## <a name="see-also"></a>Vea también  
  [Supervisión de BizTalk Server](../core/monitoring-biztalk-server.md)  
  [Procesar mensajes de varias partes con el adaptador de POP3](../core/processing-multi-part-messages-with-the-pop3-adapter.md)   
- [Consideraciones para ejecutar controladores del adaptador en un Host en clúster](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)
+ [Consideraciones para ejecutar controladores de adaptador en un host agrupado](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)

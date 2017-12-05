@@ -17,11 +17,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6262b87f304a27b36ed1d7bc6a15b5e681331be3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f6e8b625bcc3accbefda193c52459616691c265
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a>Mediante el Asistente para configuración de MQSAgent COM +
 El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, la parte de aplicación COM+ (componente MQSeries) del adaptador. El asistente define la identidad de aplicación del componente, así como el nombre de función y los usuarios incluidos en dicha función. El nombre del componente MQSAgent COM + creado con el Asistente de configuración de MQSAgent COM + es **MQSAgent2**.  
@@ -30,7 +30,7 @@ El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, l
 >  La aplicación MQSAgent COM+ se admite en un servidor de Windows de 64 bits. Se ejecutará como proceso de 32 bits en WOW64. Un equipo basado en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que se ejecute en una versión de 64 bits de Windows Server se puede comunicar con un equipo remoto de 32 bits que tenga instalado MQSAgent.  
   
 > [!NOTE]
->  MQSeries Agent y el ejecutable del Asistente de configuración de MQSAgent COM + **MQSConfigWiz.exe** no se instalan si actualiza desde BizTalk Server 2009 a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Después de actualizar a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en BizTalk Server 2009, vuelva a ejecutar el programa de instalación, seleccione la **modificar** opción y seleccione MQSeries Agent en Software adicional para instalar estos componentes.  
+>  MQSeries Agent y el ejecutable del Asistente de configuración de MQSAgent COM + **MQSConfigWiz.exe** no se instalan si actualiza desde BizTalk Server 2009 a BizTalk Server. Después de actualizar a BizTalk Server de BizTalk Server 2009 vuelva a ejecutar el programa de instalación, seleccione la **modificar** opción y seleccione MQSeries Agent en Software adicional para instalar estos componentes.  
   
 ## <a name="to-set-the-application-identity"></a>Para definir la identidad de la aplicación  
   
@@ -60,7 +60,7 @@ El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, l
 >  Agregue a la función sólo las cuentas que necesitan tener acceso al adaptador.  
   
 ## <a name="to-set-the-msdtc-security-configuration-on-the-windows-server-2008-computer-to-no-authentication-required"></a>Para definir la configuración de seguridad de MSDTC del equipo de Windows Server 2008 como No se requiere autenticación  
- Si la aplicación MQSAgent COM + está instalada en un [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] equipo y el adaptador de MQSeries (que se instala con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]) está instalado en un [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] equipo, la configuración de seguridad de MSDTC en el [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] equipo debe establecerse en **No se requiere autenticación**. Siga estos pasos para establecer la configuración de seguridad de MSDTC como No se requiere autenticación:  
+ Si la aplicación MQSAgent COM + está instalada en un [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] equipo y el adaptador de MQSeries (que se instala con BizTalk Server) se instala en un [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] equipo, la configuración de seguridad de MSDTC en el [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] equipo debe establecerse en **No se requiere autenticación**. Siga estos pasos para establecer la configuración de seguridad de MSDTC como No se requiere autenticación:  
   
 1.  Haga clic en **iniciar** y, a continuación, haga clic en **el Panel de Control**.  
   
@@ -130,4 +130,4 @@ El Asistente para configuración de MQSAgent COM+ permite configurar MQSAgent, l
   
 ## <a name="see-also"></a>Vea también  
  [Controladores de recepción y envío de cómo configurar el adaptador de MQSeries](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md)   
- [Configurar el adaptador de MQSeries](../core/configuring-the-mqseries-adapter.md)
+ [Configuración del adaptador de MQSeries](../core/configuring-the-mqseries-adapter.md)

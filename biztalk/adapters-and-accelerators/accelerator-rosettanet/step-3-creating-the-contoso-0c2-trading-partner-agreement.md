@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 85ff2722deb6ab8ba38bda34b6c68b62cb7dbccb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4ac1279232849620c7ca35be5e95ccf1fe6d08c8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-creating-the-contoso-0c2-trading-partner-agreement"></a>Paso 3: Crear el acuerdo de socios comerciales 2 0c de Contoso
 En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración. Crear un nuevo acuerdo de socio comercial para el 0c 2 proceso de interfaz de socio (PIP).  
   
 ### <a name="to-start-the-btarn-management-console"></a>Para iniciar la consola de administración de BTARN  
   
--   Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
+-   Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
   
 ### <a name="to-create-the-0c2-trading-partner-agreement"></a>Para crear el 0c de contrato de socios comerciales de 2  
   
@@ -58,4 +58,4 @@ En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrik
 5.  Haga clic en el **Fabrikam_To_Contoso_0C2** acuerdo y, a continuación, haga clic en **activar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 4: Crear el acuerdo de socios comerciales 4 de Contoso 0c](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-contoso-0c4-trading-partner-agreement.md)
+ [Paso 4: Creación del acuerdo entre socios comerciales Contoso 0C4](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-contoso-0c4-trading-partner-agreement.md)

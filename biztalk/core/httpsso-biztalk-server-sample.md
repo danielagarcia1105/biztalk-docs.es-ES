@@ -19,11 +19,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f056b05c492e0ca4151c5a70652ee74ea46a464
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41956d9e10cba87e0e1a1f44d49dd8ec8b6039bc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="httpsso-biztalk-server-sample"></a>HTTPSSO (ejemplo de BizTalk Server)
 El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único empresarial (SSO) con el adaptador de HTTP de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -65,7 +65,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
  Para obtener un ejemplo que muestra cómo utilizar la utilidad de línea de comandos ssomanage.exe para configurar SSO, como la creación de aplicaciones afiliadas y asignaciones de usuario, consulte [administrar (ejemplo de BizTalk Server)](../core/manage-biztalk-server-sample.md).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \SSO\HTTPSSO\  
+ \<*Ejemplos de ruta de acceso*\>\SSO\HTTPSSO\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -101,11 +101,11 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
     -   **Microsoft.BizTalk.ExplorerOM**. De forma predeterminada, el archivo Microsoft.BizTalk.ExplorerOM.dll se encuentra en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Developer Tools\\.  
   
-    -   **Microsoft.BizTalk.SSOClient.Interop**. De forma predeterminada, el archivo Microsoft.BizTalk.Interop.SSOClient.dll se encuentra en la carpeta \< *ProgramFiles*> \Common Files\Enterprise Single Sign-On\\.  
+    -   **Microsoft.BizTalk.SSOClient.Interop**. De forma predeterminada, el archivo Microsoft.BizTalk.Interop.SSOClient.dll se encuentra en la carpeta \< *ProgramFiles*\>\Common Files\Enterprise Single Sign-On\\.  
   
      Con esto, se produce el archivo ejecutable SsoSample.exe en la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \SSO\HTTPSSO\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\SSO\HTTPSSO\bin\Debug\  
   
 ## <a name="running-this-sample"></a>Ejecución del ejemplo  
   
@@ -116,7 +116,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 1.  Ejecute el archivo ejecutable SsoSample.exe, que se encuentra en la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \SSO\HTTPSSO\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\SSO\HTTPSSO\bin\Debug\  
   
      La aplicación del asistente de este ejemplo se abre.  
   
@@ -142,7 +142,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 8.  Revise los mensajes de estado correspondientes a la configuración de IIS, SSO y BizTalk que se está realizando. Puede encontrar el código que se ejecuta durante esta fase en la **IisConfigurator**, **SsoConfigurator**, y **BtsConfigurator** clases definidas en el archivo SsoSample.cs. Una vez finalizada la configuración, haga clic en **siguiente**.  
   
-9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<mensaje/>) y, a continuación, haga clic en **finalizar**.  
+9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>), y, a continuación, haga clic en **finalizar**.  
   
      Se abrirá una instancia de Internet Explorer, y pronto aparecerán los datos del empleado de ejemplo que ha agregado a la tabla Empelado de la base de datos Northwinds de SQL.  
   
@@ -159,11 +159,11 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 -   El primer directorio virtual está configurado con la autenticación integrada de Windows, y corresponde a la extensión ISAPI de recepción HTTP de BizTalk. Debe estar asociado al archivo BTSHTTPReceive.dll, que se encuentra en la siguiente carpeta:  
   
-     \<*La ruta de instalación*> \HttpReceive  
+     \<*La ruta de instalación*\>\HttpReceive  
   
 -   El segundo directorio virtual está configurado con la autenticación básica, y simula un sistema de servidor que acepta una contraseña y un Id. de usuario para que el usuario se autentique. Debe estar asociado a uno de los archivos ASPX: ValidateUser.aspx o EmployeeData.aspx que se encuentran en la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \SSO\HTTPSSO\Scripts  
+     \<*Ejemplos de ruta de acceso*\>\SSO\HTTPSSO\Scripts  
   
  Puede usar la aplicación del asistente de SsoSample.exe para configurar una o varias aplicaciones afiliadas. Para cada una de estas aplicaciones afiliadas, puede crear una o varias asignaciones de usuario. Cada una de estas asignaciones de usuario asigna una cuenta de usuario de Windows a una cuenta que se use para obtener acceso a un sistema de servidor específico. En este ejemplo, se trata de una cuenta local de Windows que se usa para la autenticación con el segundo directorio virtual de IIS, que está simulando un sistema de servidor original.  
   
@@ -171,7 +171,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 -   En Internet Explorer, desplácese directamente a la siguiente URL:  
   
-     http://localhost/SsoSampleBizTalkHttpReceive/BTSHTTPReceive.dll?\<mensaje/>  
+     http://localhost/SsoSampleBizTalkHttpReceive/BTSHTTPReceive.dll?<message/>  
   
 -   Ejecute de nuevo la aplicación del asistente, pero borre todas las casillas de verificación de configuración de la primera página.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3953baf4a60e2863f986ec54fe9c12663b2b587d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 207c50c8f2dc61c0e7e86f865fec470dae4d2e84
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-resolve-a-service-endpoint-using-a-uddi-category-search"></a>Cómo: resolver un extremo de servicio mediante una búsqueda de la categoría UDDI
 ## <a name="goal"></a>Objetivo  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-itinerary-model"></a>Para crear un modelo itinerario  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -169,8 +169,8 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: resolver un extremo de servicio mediante una búsqueda de la clave de enlace de UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
+-   [Cómo: Resolver un punto de conexión de servicio mediante una búsqueda de claves de enlace de UDDI](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   
--   [Uso de resolución dinámica y enrutamiento](../esb-toolkit/using-dynamic-resolution-and-routing.md)
+-   [Uso de resolución y enrutamiento dinámicos](../esb-toolkit/using-dynamic-resolution-and-routing.md)

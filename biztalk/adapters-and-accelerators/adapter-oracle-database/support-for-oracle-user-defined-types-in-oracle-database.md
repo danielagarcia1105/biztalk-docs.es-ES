@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8c4f29ce8b11f74db5ff7a145449f7f212f6f6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3de61b0659e06ebbf7b95f0b4adcad210c5c986e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="support-for-oracle-user-defined-types-in-oracle-database"></a>Compatibilidad con tipos definidos por el usuario de Oracle en base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite la realización de operaciones en artefactos en la base de datos de Oracle que contienen tipos de Oracle User-Defined (UDT). Los UDT pueden estar presentes en los siguientes artefactos:  
@@ -73,7 +73,7 @@ El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite la reali
   
  **En BizTalk Server**  
   
--   Agregar manualmente el ensamblado UDT de Oracle creado en el paso 4 "En tiempo de diseño" a la caché de ensamblados Global (GAC) en el equipo. Como alternativa, puede copiar manualmente el ensamblado UDT de Oracle en la ubicación de instalación de BizTalk Server. Para [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], normalmente se trata de \<unidad de instalación >: \Program [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+-   Agregar manualmente el ensamblado UDT de Oracle creado en el paso 4 "En tiempo de diseño" a la caché de ensamblados Global (GAC) en el equipo. Como alternativa, puede copiar manualmente el ensamblado UDT de Oracle en la ubicación de instalación de BizTalk Server. Para que BizTalk Server, esto suele \<unidad de instalación\>: \Program BizTalk Server.  
   
 -   Al configurar el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] WCF-Custom o WCF-OracleDB puerto, en la **enlace** ficha, especifique la ubicación del ensamblado UDT de Oracle para el **UserAssembliesLoadPath** propiedad de enlace. Para obtener información acerca de esta propiedad de enlace, vea [configurar las propiedades de enlace de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).  
   

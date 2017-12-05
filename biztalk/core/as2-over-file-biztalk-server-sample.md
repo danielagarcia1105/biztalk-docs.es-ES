@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84e497579b2f3b8465f7a30677dae6920e2750c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14d4c077cce861e94f6c2cdc0bfc6f4a14669340
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a>AS2 a través de archivo (ejemplo de BizTalk Server)
 El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través de una ubicación de recepción de archivo. Esto le permite usar un adaptador de archivo para recibir el mensaje AS2, en lugar de un adaptador de HTTP, que es el que se utiliza normalmente. Para ello, esta solución escribe los encabezados HTTP en el mensaje AS2 en la propiedad de contexto InboundHTTPHeaders, según requiere el descodificador AS2.  
@@ -139,11 +139,11 @@ El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través
   
 2.  Compruebe que un mensaje XML de salida se coloca en la carpeta de salida \AS2 Over File\Out.  
   
-3.  Abra el mensaje de entrada SampleMessage.txt en un editor de texto y abra el mensaje de salida \<GUID > .xml en un editor de texto. Compruebe que el mensaje de entrada SampleMessage.txt tenga los encabezados HTTP (y AS2) y que el mensaje de salida no tenga los encabezados HTTP.  
+3.  Abra el mensaje de entrada SampleMessage.txt en un editor de texto y abra el mensaje de salida \<GUID\>.xml en un editor de texto. Compruebe que el mensaje de entrada SampleMessage.txt tenga los encabezados HTTP (y AS2) y que el mensaje de salida no tenga los encabezados HTTP.  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
  Ninguno  
   
 ## <a name="see-also"></a>Vea también  
  [EDI y AS2 (carpeta de ejemplos de BizTalk Server)](../core/edi-and-as2-biztalk-server-samples-folder.md)   
- [Enviar un mensaje AS2 a través de un puerto de envío de archivo](../core/sending-an-as2-message-over-a-file-send-port.md)
+ [Envío de un mensaje AS2 a través de un puerto de envío de archivo](../core/sending-an-as2-message-over-a-file-send-port.md)

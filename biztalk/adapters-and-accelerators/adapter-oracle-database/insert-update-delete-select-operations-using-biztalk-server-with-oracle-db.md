@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5401e075e7fcf44d32ec1d1b259c5dd194b6767
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2ee4559a8a1111c3000499e87612ae754316596e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-oracle-database"></a>Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con la base de datos de Oracle
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto de operaciones estándares de las tablas de base de datos de Oracle y las vistas. Se conocen como operaciones de operaciones (DML) del lenguaje de manipulación de datos con la que puede realizar simples instrucciones INSERT, UPDATE, SELECT y DELETE calificadas por una cláusula WHERE en tablas y vistas. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [Insert, Update, Delete y las operaciones de Select en las tablas de Oracle y vistas](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-and-select-operations-on-oracle-tables-and-views.md). Para obtener información acerca de la estructura del mensaje SOAP para operaciones DML, vea [esquemas de mensaje para insertar básico, Update, Delete y seleccione operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  
@@ -173,7 +173,7 @@ La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conju
  La orquestación consume el mensaje y lo envía a la base de datos de Oracle. La respuesta de la base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de Oracle para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
   <SelectResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY">  
     <SelectResult>  
       <ACCOUNTACTIVITYRECORDSELECT>  
@@ -201,4 +201,4 @@ La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conju
  Una vez haya implementado y configurado el proyecto de BizTalk, puede exportar la configuración en un archivo XML denominado archivo de enlaces. Una vez que se genera un archivo de enlaces, puede importar los valores de configuración desde el archivo para que no es necesario crear los puertos de envío, recepción, puertos, etc. para la misma orquestación. Para obtener más información acerca de los archivos de enlace, vea [enlaces del adaptador de base de datos de Oracle reutilizar](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md).
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar las aplicaciones de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)
+[Desarrollar aplicaciones de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)

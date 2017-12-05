@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b29e5b275bdf5645717298f82b27aca7db36e034
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d2f6871ca730e741ca4877907593931fc362a4d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-the-receive-location-and-send-port-programmatically"></a>Crear la ubicación de recepción y el puerto de envío mediante programación
 Configurar un WCF-BasicHttp mediante programación, el puerto de envío y la ubicación de recepción. Para usar la consola de administración de BizTalk, consulte [adaptador WCF-BasicHttp](../core/wcf-basichttp-adapter.md). 
@@ -35,11 +35,11 @@ string server = System.Environment.MachineName;
 string database = "BizTalkMgmtDb";  
 string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
 string transportConfigData = @"<CustomProps>  
-  \<InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
-  \<UseSSO vt=""11"">0</UseSSO>  
-  \<Identity vt=""8"">  
+  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
+  <UseSSO vt=""11"">0</UseSSO>  
+  <Identity vt=""8"">  
     <identity>  
-    \<userPrincipalName value=""username@contoso.com"" />  
+    <userPrincipalName value=""username@contoso.com"" />  
     </identity>  
   </Identity>  
 </CustomProps>";  
@@ -84,7 +84,7 @@ Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`:
   <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
   <InboundBodyPathExpression vt="8" />  
   <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
   <OpenTimeout vt="8">00:01:00</OpenTimeout>  
   <Identity vt="8">  
     <identity>  
@@ -143,10 +143,10 @@ string server = System.Environment.MachineName;
 string database = "BizTalkMgmtDb";  
 string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
 string transportConfigData = @"<CustomProps>  
-                                 \<StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
-                                 \<MessageEncoding vt=""8"">Text</MessageEncoding>  
-                                 \<TextEncoding vt=""8"">utf-8</TextEncoding>  
-                                 \<OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
+                                 <StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+                                 <MessageEncoding vt=""8"">Text</MessageEncoding>  
+                                 <TextEncoding vt=""8"">utf-8</TextEncoding>  
+                                 <OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
                                </CustomProps>";  
 //requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
 BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
@@ -178,7 +178,7 @@ Puede usar el formato siguiente para establecer las propiedades `<CustomProps>`:
   <MessageClientCredentialType vt="8">UserName</MessageClientCredentialType>  
   <InboundBodyPathExpression vt="8" />  
   <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8">\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
   <OpenTimeout vt="8">00:01:00</OpenTimeout>  
   <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
   <SecurityMode vt="8">None</SecurityMode>  
@@ -221,7 +221,7 @@ En la tabla siguiente se enumera las propiedades de configuración que se pueden
 |**InboundBodyPathExpression**|String<br /><br /> Para obtener más información sobre cómo usar el **InboundBodyPathExpression** propiedad, vea [propiedades y esquema de propiedades de adaptadores de WCF](../core/wcf-adapters-property-schema-and-properties.md).|Especificar la expresión de ruta de cuerpo para identificar una parte específica de un mensaje entrante utilizada para crear la parte del cuerpo del mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del mensaje SOAP **cuerpo** nodo de un mensaje entrante. Si esta expresión de ruta de cuerpo devuelve varios nodos, solo se elegirá el primero de ellos para la parte del cuerpo del mensaje de BizTalk. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> El valor predeterminado es una cadena vacía.|  
 |**OutboundXMLTemplate**|String<br /><br /> Para obtener más información sobre cómo usar el **OutboundXMLTemplate** propiedad, vea [especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md).|Especifique la plantilla con formato XML para el contenido del mensaje SOAP **cuerpo** elemento de un mensaje saliente. Esta propiedad es necesaria si la **OutboundBodyLocation** propiedad está establecida en **UseTemplate**.<br /><br /> El valor predeterminado es una cadena vacía.|  
 |**InboundNodeEncoding**|Enum<br /><br /> -   **Base64** -codificación Base64.<br />-   **Hex** : Hexadecimal codificación.<br />-   **Cadena** : codificación de texto - UTF-8<br />-   **XML** -los adaptadores WCF crean el cuerpo del mensaje de BizTalk con el XML externo del nodo seleccionado por la expresión de ruta de acceso de cuerpo en **InboundBodyPathExpression**.|Especificar el tipo de codificación que el adaptador de envío WCF-BasicHttp utiliza para descodificar el nodo identificado por la expresión de ruta de acceso de cuerpo especificada en **InboundBodyPathExpression**. Esta propiedad es necesaria si la **InboundBodyLocation** propiedad está establecida en **UseBodyPath**. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Valor predeterminado: **XML**|  
-|**StaticAction**|String|Especifique el **SOAPAction** campo de encabezado HTTP para los mensajes salientes. Esta propiedad también puede establecerse a través de la propiedad de contexto de mensaje **WCF. Acción** en una canalización o una orquestación. Puede especificar este valor de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1: el **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad.<br /><br /> Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en Op1, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para el saliente **SOAPAction** encabezado.<br /><br /> \<BtsActionMapping ><br /><br /> \<Nombre de la operación = "Op1" Action = "http://contoso.com/Svc/Op1" / ><br /><br /> \<Nombre de la operación = "Op2" Action = "http://contoso.com/Svc/Op2" / ><br /><br /> \</ BtsActionMapping ><br /><br /> Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización.<br /><br /> El valor predeterminado es una cadena vacía.|  
+|**StaticAction**|String|Especifique el **SOAPAction** campo de encabezado HTTP para los mensajes salientes. Esta propiedad también puede establecerse a través de la propiedad de contexto de mensaje **WCF. Acción** en una canalización o una orquestación. Puede especificar este valor de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1: el **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad.<br /><br /> Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en Op1, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para el saliente **SOAPAction** encabezado.<br /><br /> \<BtsActionMapping\><br /><br /> \<Nombre de la operación = "Op1" Action = "http://contoso.com/Svc/Op1" /\><br /><br /> \<Nombre de la operación = "Op2" Action = "http://contoso.com/Svc/Op2" /\><br /><br /> \</ BtsActionMapping\><br /><br /> Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización.<br /><br /> El valor predeterminado es una cadena vacía.|  
 |**MaxReceivedMessageSize**|Integer|Especificar el tamaño máximo, en bytes, para mensajes (con encabezados incluidos) que se pueden recibir a través de la red. El tamaño de los mensajes se limita mediante la cantidad de memoria asignada a cada mensaje. Puede usar esta propiedad para limitar la exposición a ataques por denegación de servicio (DoS).<br /><br /> El adaptador de WCF-BasicHttp aprovecha la [BasicHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81086) clase en el modo de transferencia almacenado en búfer para comunicarse con un punto de conexión. Para el modo de transporte almacenado en búfer, el [BasicHttpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=80659) propiedad siempre es igual al valor de esta propiedad.<br /><br /> Valor predeterminado: 65.536|  
 |**MessageEncoding**|Enum<br /><br /> -   **Texto** -usar un codificador de mensajes de texto.<br />-   **MTOM** -usar un codificador Message Transmission organización Mechanism 1.0 (MTOM).|Especificar el codificador que se usa para codificar el mensaje SOAP.<br /><br /> Valor predeterminado: **texto**|  
 |**TextEncoding**|Enum<br /><br /> -   **unicodeFFF** -codificación Unicode BigEndian.<br />-   **UTF-16** : 16 bits codificación.<br />-   **UTF-8** : 8 bits codificación|Especifique la codificación que se usará para emitir los mensajes en el enlace del juego de caracteres cuando la **MessageEncoding** propiedad está establecida en **texto**.<br /><br /> Valor predeterminado: **utf-8**|  
@@ -233,7 +233,7 @@ En la tabla siguiente se enumera las propiedades de configuración que se pueden
 |**PropagateFaultMessage**|Boolean<br /><br /> -   **True** -enrutar el mensaje que se produce un error de procesamiento de salida a una aplicación de suscripción (por ejemplo, otro puerto o programación de orquestación de recepción).<br />-   **False** -suspender mensajes erróneos y generar una confirmación negativa (NACK).|Especificar si se enrutan o se suspenden mensajes que han generado errores en el procesamiento de salida.<br /><br /> Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Valor predeterminado: **True**|  
   
 ## <a name="see-also"></a>Vea también  
- [¿Cuáles son los adaptadores de WCF?](../core/what-are-the-wcf-adapters.md)  
+ [¿Qué son los adaptadores de WCF?](../core/what-are-the-wcf-adapters.md)  
  [Publicar servicios WCF con WCF aislado adaptadores de recepción](../core/publishing-wcf-services-with-the-isolated-wcf-receive-adapters.md)   
  [Configurar IIS para WCF aislado adaptadores de recepción](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)   
  [Administración de Hosts de BizTalk y las instancias de Host](../core/managing-biztalk-hosts-and-host-instances.md)   
@@ -241,4 +241,4 @@ En la tabla siguiente se enumera las propiedades de configuración que se pueden
  [Instalación de certificados para los adaptadores de WCF](../core/installing-certificates-for-the-wcf-adapters.md)   
  [Especificar el cuerpo del mensaje para los adaptadores de WCF](../core/specifying-the-message-body-for-the-wcf-adapters.md)    
   [Propiedades y esquema de propiedades de adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   
- [Configuración de puertos de envío dinámicos mediante propiedades de contexto de adaptadores de WCF](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)
+ [Configuración de puertos de envío dinámico mediante el uso de propiedades de contexto de adaptadores de WCF](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

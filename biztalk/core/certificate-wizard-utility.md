@@ -12,16 +12,16 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e3acbb1198034e76bb1e0f45c0f9755ec6ac95d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b0341a11c45cd08f8476d48ea38cbf96bcc49c1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="certificate-wizard-utility"></a>Utilidad de Asistente para certificados
 Use la utilidad CertWizard para importar un certificado de un archivo .pfx o .cer en un almacén privado o público para usarlo con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
- El código fuente del Asistente para certificados puede encontrarse en el **C:\Program Files\Microsoft BizTalk Server \<versión > \SDK\Utilities\Certificate asistente** carpeta. Con un sistema operativo de 64 bits y la versión [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], estará en el **C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \SDK\Utilities\Certificate asistente** carpeta. Para usar el Asistente para certificados, en primer lugar deberá que generarlo mediante [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+ El código fuente del Asistente para certificados puede encontrarse en el **C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Utilities\Certificate asistente** carpeta. Con un sistema operativo de 64 bits y la versión de BizTalk Server, estará en el **C:\Program Files (x86) \Microsoft BizTalk Server \<versión\>\SDK\Utilities\Certificate asistente** carpeta. Para usar al Asistente para certificados primero tendrá que cree mediante Visual Studio.  
   
  CertWizard importa una clave privada de un archivo .pfx en el almacén personal e importa una clave pública de un archivo .cer en un almacén público. Al importar una clave privada, el certificado puede ser un certificado de descifrado para mensajes entrantes o un certificado de firma para mensajes salientes.  
   
@@ -78,4 +78,4 @@ CertWizard /Rootkey <filename>.cer [/Thumbprint <thumbprint>]
     >  Si no proporciona el comando completo en el símbolo del sistema, CertWizard le solicitará que proporcione los valores requeridos.  
   
 ## <a name="see-also"></a>Vea también  
- [Utilidades del SDK de](../core/utilities-in-the-sdk.md)
+ [Utilidades del SDK](../core/utilities-in-the-sdk.md)

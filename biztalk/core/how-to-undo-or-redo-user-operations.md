@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f6f47071ee003a896b66120c0fd81a121ab73230
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8358fc1624346b90d98fd1f1707dd2bfb02446dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-undo-or-redo-user-operations"></a>Deshacer o rehacer operaciones de usuario
 La compatibilidad para deshacer/rehacer es otra facilidad de uso proporcionada por el Asignador de BizTalk. Si no está satisfecho con las modificaciones que ha realizado, o si ha hecho un cambio por error, puede deshacer para volver gradualmente al estado anterior "sin tocar" y continuar desde él. Rehacer permite volver a aplicar las acciones de edición que se han deshecho. En este tema se proporciona información acerca de las operaciones que se pueden deshacer o rehacer.  
@@ -77,7 +77,7 @@ La compatibilidad para deshacer/rehacer es otra facilidad de uso proporcionada p
     > [!NOTE]
     >  Para obtener más información, consulte [cómo crear vínculos](../core/how-to-create-links.md).  
   
--   Realizar varias modificaciones en el **configurar \<Functoid > Functoid** cuadro de diálogo que se trata como una única operación.  
+-   Realizar varias modificaciones en el **configurar \<Functoid\> Functoid** cuadro de diálogo que se trata como una única operación.  
   
 -   Arrastrar functoids o vínculos en la cuadrícula del Asignador.  
   

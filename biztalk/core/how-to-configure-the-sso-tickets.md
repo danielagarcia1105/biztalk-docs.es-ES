@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef78c47c3da88945573a70e85580c90e05b1d225
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c3b19d14a35d42c4a46bf9527a97f5bf749b875f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-sso-tickets"></a>Cómo configurar los vales de SSO
 Se puede utilizar el Complemento MMC o la línea de comandos para controlar el comportamiento de los vales en la totalidad del sistema de inicio de sesión único; lo anterior incluye la posibilidad de permitir vales y la exigencia de que el sistema los valide.  
@@ -57,9 +57,9 @@ Se puede utilizar el Complemento MMC o la línea de comandos para controlar el c
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage – vales \<permitido sí/no >  *\<validar sí/no >***, donde  *\<permitido sí/no >* indica si se permitirán vales o no, y  *\<validar sí/no >* indica si los vales necesitará que se debe validar una vez canjeados.  
+3.  Tipo de **ssomanage – vales \<permitido sí/no\>  *\<validar sí/no\>***, donde  *\<permitido sí/no \>*  indica si se permitirán vales o no, y  *\<validar sí/no\>*  indica si los vales necesitará que se debe validar una vez canjeados .  
   
     > [!NOTE]
     >  Se pueden utilizar las opciones sí, no, activado o desactivado para indicar si se permiten los vales y/o si se validan. El uso de mayúsculas y minúsculas en estas palabras carece de importancia y se deben utilizar independientemente de la configuración del idioma.  

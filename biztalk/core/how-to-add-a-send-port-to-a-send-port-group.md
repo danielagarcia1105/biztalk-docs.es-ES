@@ -18,11 +18,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61329a5489379f6b8840b15672e40195e3c58328
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d3e10a16b31f5cc112e814faf119dc424c99ba67
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-a-send-port-to-a-send-port-group"></a>Cómo agregar un puerto de envío a un grupo de puertos de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para agregar uno o varios puertos de envío a un grupo de puertos de envío. Solo puede agregar puertos de envío estáticos unidireccionales a un grupo de puertos de envío.  
@@ -40,10 +40,10 @@ En este tema se describe cómo utilizar la consola de administración de BizTalk
   
 3.  Haga clic en **grupos de puertos de envío**, haga clic en el grupo de puertos de envío y, a continuación, haga clic en **propiedades**.  
   
-4.  En **puertos de envío**, haga clic en la lista desplegable bajo **nombre**y haga clic en el puerto de envío para agregar al grupo de puertos de envío. Repita esta acción con cada uno de los puertos de envío que desee agregar al grupo. Para crear un nuevo puerto de envío y agregarlo, haga clic en  **\<nuevo envío puerto... >** y, a continuación, siga las instrucciones que aparecen en [cómo crear un puerto de envío](../core/how-to-create-a-send-port2.md).  
+4.  En **puertos de envío**, haga clic en la lista desplegable bajo **nombre**y haga clic en el puerto de envío para agregar al grupo de puertos de envío. Repita esta acción con cada uno de los puertos de envío que desee agregar al grupo. Para crear un nuevo puerto de envío y agregarlo, haga clic en  **\<nuevo puerto de envío... \>**  y, a continuación, siga las instrucciones que aparecen en [cómo crear un puerto de envío](../core/how-to-create-a-send-port2.md).  
   
 5.  Cuando termine de agregar puertos de envío para el grupo de puertos de envío, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Crear y configurar grupos de puertos de envío](../core/creating-and-configuring-send-port-groups.md)   
- [Crear y configurar puertos de envío](../core/creating-and-configuring-send-ports.md)
+ [Creación y configuración de puertos de envío](../core/creating-and-configuring-send-ports.md)

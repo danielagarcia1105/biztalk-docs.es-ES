@@ -16,11 +16,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ae5007816e606f15a74c54669be10c53fe530da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4448182792cd6f6f5f7e611cd9a9bd54c75a0d05
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-an-http-receive-location"></a>Cómo configurar una ubicación de recepción de HTTP
 Se pueden establecer variables de adaptador de ubicación de recepción HTTP mediante programación o con la consola de administración de BizTalk Server. Si no se definen las propiedades en la ubicación de recepción, se utilizarán los valores predeterminados del controlador de recepción definidos en la consola de administración de BizTalk Server.  
@@ -77,7 +77,7 @@ Se pueden establecer variables de adaptador de ubicación de recepción HTTP med
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Directorio virtual más extensión ISAPI**|Especificar el nombre del directorio virtual al que se envían los mensajes que recibe la ubicación de recepción HTTP/HTTPS. El directorio virtual incluye el nombre del archivo DLL de ubicación de recepción y una cadena de consulta opcional. Éstos son algunos ejemplos de nombres de directorio virtual:<br /><br /> /\<directorio virtual >/BTSHTTPReceive.dll<br /><br /> /\<¿directorio virtual > / BTSHTTPReceive.dll? Compra % 20Order<br /><br /> Esta ubicación no debe contener más de una extensión ISAPI BTSHTTPReceive.dll, incluidas todas las subcarpetas.<br /><br /> **Tipo:** cadena<br /><br /> **Longitud máxima:** 256 **Nota:** URI de un envío de puerto o recibir ubicación no puede superar los 256 caracteres.|  
+    |**Directorio virtual más extensión ISAPI**|Especificar el nombre del directorio virtual al que se envían los mensajes que recibe la ubicación de recepción HTTP/HTTPS. El directorio virtual incluye el nombre del archivo DLL de ubicación de recepción y una cadena de consulta opcional. Éstos son algunos ejemplos de nombres de directorio virtual:<br /><br /> /\<directorio virtual \> /BTSHTTPReceive.dll<br /><br /> /\<¿directorio virtual \> /BTSHTTPReceive.dll? Compra % 20Order<br /><br /> Esta ubicación no debe contener más de una extensión ISAPI BTSHTTPReceive.dll, incluidas todas las subcarpetas.<br /><br /> **Tipo:** cadena<br /><br /> **Longitud máxima:** 256 **Nota:** URI de un envío de puerto o recibir ubicación no puede superar los 256 caracteres.|  
     |**Dirección pública**|Especificar el URI completo de la ubicación de recepción. El valor de esta propiedad es una combinación del nombre del servidor y el directorio virtual. El motor de mensajería de BizTalk expone esta dirección a socios externos. El URI especificado debe designar la dirección URL del sitio Web público para que los socios comerciales se conecten cuando envíen mensajes a BizTalk Server.<br /><br /> Esta información es opcional y BizTalk Server no la utiliza. Este parámetro está disponible para permitir a los administradores documentar la dirección URL pública a la que está vinculada la ubicación de recepción.<br /><br /> **Tipo:** cadena<br /><br /> **Longitud mínima:** 0<br /><br /> **Longitud máxima:** 256|  
     |**Devolver el tipo de contenido**|Especificar el tipo de contenido de los mensajes de respuesta HTTP que la ubicación de recepción envía a los clientes. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> **Valor predeterminado:** texto/xml<br /><br /> **Tipo:** cadena<br /><br /> **Longitud mínima:** 0<br /><br /> **Longitud máxima:** 256|  
     |**Bucle invertido**|Definir que el mensaje de solicitud recibido en esta ubicación se enrute a un puerto de envío o se devuelva a esta ubicación de recepción para enviarlo como respuesta. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> **Valor predeterminado:** False<br /><br /> **Tipo:** booleano|  

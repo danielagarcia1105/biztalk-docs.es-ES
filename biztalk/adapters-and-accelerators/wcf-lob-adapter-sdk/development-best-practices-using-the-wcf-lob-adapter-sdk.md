@@ -12,11 +12,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d9786896a4a5983a438dd855dcc858ba4485cbc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4693d3ae4a443138c078e0da415fb72205dbd528
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="development-best-practices-using-the-wcf-lob-adapter-sdk"></a>Prácticas recomendadas de desarrollo mediante el SDK de adaptador LOB de WCF
 Puede usar los procedimientos recomendados en este tema para mejorar las aplicaciones y los adaptadores.  
@@ -103,7 +103,7 @@ public interface ICalculator
 |------------|-----------------|  
 |Tiempo de diseño|Cuando se usa el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], puede especificar los tipos de credencial de cliente que admite el adaptador.|  
 |Tiempo de ejecución|Cuando se utiliza a un proxy de .NET CLR generado, se pueden establecer mediante programación el cliente las credenciales.<br /><br /> `static void Main(string[] args) {    EchoServiceClient client = new EchoServiceClient();    client.ClientCredentials.UserName.UserName = "TestUser";    client.ClientCredentials.UserName.Password = "TestPassword";    string response=client.EchoString("Test String"); }`<br /><br /> O bien, si necesita interactuar directamente con el canal, puede usar el modelo de canal WCF para especificar las credenciales del cliente al crear un generador de canales.<br /><br /> `EchoAdapterBinding binding = new EchoAdapterBinding(); binding.Count = 3; ClientCredentials clientCredentials = new ClientCredentials(); clientCredentials.UserName.UserName = "TestUser"; clientCredentials.UserName.Password = "TestPassword"; BindingParameterCollection bindingParms = new BindingParameterCollection(); bindingParms.Add(clientCredentials); EndpointAddress address = new EndpointAddress("echo://"); IChannelFactory<IRequestChannel> requestChannelFactory = binding.BuildChannelFactory<IRequestChannel>(bindingParms); requestChannelFactory.Open();`|  
-|Configuración de WCF|En el archivo de configuración de cliente, agregue un \<endpointBehaviors > elemento que incluye \<clientCredentials >.<br /><br /> `<configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">       <system.serviceModel>           . . . . .           <behaviors>             <endpointBehaviors>               <behavior name="clientEndpointCredential">                 <clientCredentials>                   <windows allowNtlm="false" allowedImpersonationLevel="Delegation" />                    </clientCredentials>               </behavior>             </endpointBehaviors>           </behaviors>       </system.serviceModel>   </configuration>`|  
+|Configuración de WCF|En el archivo de configuración de cliente, agregue un \<endpointBehaviors\> elemento que incluye \<clientCredentials\>.<br /><br /> `<configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">       <system.serviceModel>           . . . . .           <behaviors>             <endpointBehaviors>               <behavior name="clientEndpointCredential">                 <clientCredentials>                   <windows allowNtlm="false" allowedImpersonationLevel="Delegation" />                    </clientCredentials>               </behavior>             </endpointBehaviors>           </behaviors>       </system.serviceModel>   </configuration>`|  
 |Uso de BizTalk|Cuando se usa el adaptador de WCF para utilizar el adaptador, puede agregar el **clientCredentials** extensión de comportamiento en la **comportamiento** ficha. Una vez que se ha agregado, puede establecer credenciales del cliente deseado en el comportamiento del extremo.|  
   
 ## <a name="do-not-return-both-strongdatasettype-and-weakdatasettype"></a>No se devuelven ambos StrongDataSetType y WeakDataSetType  
@@ -137,16 +137,16 @@ internal static QualifiedType GetDataSetQualifiedType(MyAdapterBindingProperties
  Por ejemplo, si `DefaultXsdFileNamePrefix` se establece en "MyAdapter" y el `fileNameHint` anotación está establecida en "Stream", el esquema XSD que se crea se denomina MyAdapterStream.xsd.  
   
 ```  
-\<xs:schema elementFormDefault='qualified' targetNamespace='http://schemas.microsoft.com/Message' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://schemas.microsoft.com/Message'>  
-\<xs:annotation>  
-\<xs:appinfo>  
-\<fileNameHint xmlns='http://schemas.microsoft.com/servicemodel/adapters/metadata/xsd'>Stream</fileNameHint>  
-\</xs:appinfo>  
-\</xs:annotation>  
-\<xs:simpleType name='StreamBody'>  
-\<xs:restriction base='xs:base64Binary' />  
-\</xs:simpleType>  
-\</xs:schema>  
+<xs:schema elementFormDefault='qualified' targetNamespace='http://schemas.microsoft.com/Message' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://schemas.microsoft.com/Message'>  
+<xs:annotation>  
+<xs:appinfo>  
+<fileNameHint xmlns='http://schemas.microsoft.com/servicemodel/adapters/metadata/xsd'>Stream</fileNameHint>  
+</xs:appinfo>  
+</xs:annotation>  
+<xs:simpleType name='StreamBody'>  
+<xs:restriction base='xs:base64Binary' />  
+</xs:simpleType>  
+</xs:schema>  
   
 ```  
   

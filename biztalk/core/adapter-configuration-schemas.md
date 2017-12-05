@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2afa0e2f06471d90326b0dd8e2b83b8d4c38a82b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89ca7d02c756fdbdf819e1a15069a95d0784d764
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adapter-configuration-schemas"></a>Esquemas de configuración del adaptador
 En la configuración en tiempo de diseño de un adaptador se emplean diferentes tipos de esquemas, que se usan y modifican en función de la visibilidad y del ámbito de los valores de las propiedades.  
@@ -35,7 +35,7 @@ En la configuración en tiempo de diseño de un adaptador se emplean diferentes 
  ![](../core/media/ebiz-prog-custad-sh.gif "ebiz_prog_custad_sh")  
 Página de propiedades del controlador de envío creada por el archivo TransmitHandler.xsd  
   
- Tenga en cuenta el uso de la \<Designer >, \<BAF: DisplayName >, y \<BAF: Description > etiquetas en el código de TransmitHandler.xsd que se muestra a continuación. Son decoraciones personalizadas proporcionadas por el marco de trabajo de adaptadores para acelerar la generación de estas páginas de propiedades.  
+ Tenga en cuenta el uso de la \<Designer\>, \<BAF: DisplayName\>, y \<BAF: Description\> etiquetas en el código de TransmitHandler.xsd que se muestra a continuación. Son decoraciones personalizadas proporcionadas por el marco de trabajo de adaptadores para acelerar la generación de estas páginas de propiedades.  
   
  Para obtener una lista de todas las decoraciones disponibles para su uso en el marco de trabajo, consulte [etiquetas de decoración de esquema de configuración de adaptador Framework](../core/adapter-framework-configuration-schema-decoration-tags.md).  
   
@@ -106,7 +106,7 @@ number of threads per CPU to execute in the thread pool</baf:description>
  ![](../core/media/ebiz-prog-custad-sp.gif "ebiz_prog_custad_sp")  
 Ilustra la página de propiedades del puerto de envío para el adaptador de archivo de ejemplo  
   
- Tenga en cuenta en el archivo TransmitLocation.xsd siguiente que contiene la configuración del puerto de envío el \<Designer >, \<BAF: DisplayName >, y \<BAF: Description > etiquetas, al igual que el controlador de envío, además de usar el \<Category > etiqueta. La etiqueta de categoría permite agrupar propiedades. Si tiene más de una categoría, la categoría se puede expandir y contraer y aparece en forma de encabezado de color gris encima de las propiedades de dicha categoría. Para obtener más información, consulte [extensiones de esquema de configuración de adaptador Framework](../core/adapter-framework-configuration-schema-extensions.md).  
+ Tenga en cuenta en el archivo TransmitLocation.xsd siguiente que contiene la configuración del puerto de envío el \<Designer\>, \<BAF: DisplayName\>, y \<BAF: Description\> etiquetas, igual que el controlador de envío y también usa el \<Category\> etiqueta. La etiqueta de categoría permite agrupar propiedades. Si tiene más de una categoría, la categoría se puede expandir y contraer y aparece en forma de encabezado de color gris encima de las propiedades de dicha categoría. Para obtener más información, consulte [extensiones de esquema de configuración de adaptador Framework](../core/adapter-framework-configuration-schema-extensions.md).  
   
  Este esquema también contiene un campo de URI, que se rellena en la página que aparece después de especificar toda la información del campo en la página de propiedades del puerto de envío durante el proceso de validación que realiza el adaptador.  
   

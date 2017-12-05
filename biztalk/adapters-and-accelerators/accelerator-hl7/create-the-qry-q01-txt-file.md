@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 57380a36759d9cf0139f295779b8e1f2628c554f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b3bc9de81259ba71547e3fb887e91872e9e549c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-the-qryq01txt-file"></a>Crear el archivo QRY^Q01.txt
 Utilice el procedimiento siguiente para crear el archivo de mensaje de consulta paciente QRY^Q01.txt. Más adelante usará este archivo para comprobar el escenario del tutorial.  
@@ -30,6 +30,6 @@ Utilice el procedimiento siguiente para crear el archivo de mensaje de consulta 
     QRD|200307231012|D|I|4387|||20^LI|12233|RES|ALL  
     ```  
   
-2.  Guarde el archivo como **QRY^Q01.txt** en el \< *unidad*: > \Program BizTalk \<versión > Accelerator for carpeta HL7\SDK\Interrogative Tutorial y, a continuación, Cierre el editor.  
+2.  Guarde el archivo como **QRY^Q01.txt** en el \< *unidad*:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\ Carpeta Tutorial interrogative y a continuación, cierre el editor.  
   
  Continúe con [crear el archivo DSR.txt](../../adapters-and-accelerators/accelerator-hl7/create-the-dsr-txt-file.md).

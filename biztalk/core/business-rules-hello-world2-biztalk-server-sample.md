@@ -15,11 +15,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48d92d3de6b4ef6b4d541d7f64e0d483feb9c30f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eed1c0c83432417b53debcf523eeec91f85e5c2b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="business-rules-hello-world2-biztalk-server-sample"></a>Business Rules Hello World2 (ejemplo de BizTalk Server)
 El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello World1 ya que le mostrará cómo a la versión, publicar e implementar la regla XML que se establece en el almacén de reglas SQL compartido y cómo ejecutar la directiva con la **directiva** objeto proporciona el marco de trabajo de reglas de negocios. El ejemplo también muestra las actualizaciones de directivas dinámicas en funcionamiento.  
@@ -55,7 +55,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
 >  Para obtener información importante acerca de todos los ejemplos de este SDK, vea [ejemplos](../core/samples-in-the-sdk.md).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Business Rules\Business reglas Hello World2\  
+ *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -74,7 +74,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Business Rules\Business reglas Hello World2\  
+     *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -93,7 +93,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso >*\Business Rules\Business reglas Hello World2\bin\Debug\  
+     *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\bin\Debug\  
   
 2.  En la ventana de comandos, escriba el nombre del archivo para este ejemplo (**BusinessRulesHelloWorld2.exe**), y, a continuación, presione ENTRAR.  
   
@@ -158,4 +158,4 @@ Press ENTER to continue after updating the policy...
 -   El número de la versión secundaria de la directiva es ahora 1.  
   
 ## <a name="see-also"></a>Vea también  
- [Reglas de negocios (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)
+ [Reglas de negocio (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)

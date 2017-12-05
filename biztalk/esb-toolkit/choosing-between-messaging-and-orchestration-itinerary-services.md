@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 735d8411f2587e8e241773c4ebb8f98d29f3abed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f98f48cc93e973b7170c854590359029a60ebf57
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="choosing-between-messaging-and-orchestration-itinerary-services"></a>Elegir entre mensajería y orquestación itinerarios servicios
-Itinerarios servicios pueden configurarse para que se produzca en el subsistema de mensajería o el subsistema de orquestación de [!INCLUDE[prague](../includes/prague-md.md)]. Estos servicios de mensajería itinerarios de ESB están configurados para procesar el mensaje y se pueden ejecutar en una canalización de BizTalk Server (en rampa o fuera de rampa). Esta opción permite al programador definir exactamente donde en la canalización el servicio se ejecutará. Naturalmente, se ejecutarán los servicios configurados para el procesamiento en el subsistema de orquestación en una orquestación de BizTalk.  
+Itinerarios servicios pueden configurarse para que se produzca en el subsistema de mensajería o el subsistema de orquestación de BizTalk Server. Estos servicios de mensajería itinerarios de ESB están configurados para procesar el mensaje y se pueden ejecutar en una canalización de BizTalk Server (en rampa o fuera de rampa). Esta opción permite al programador definir exactamente donde en la canalización el servicio se ejecutará. Naturalmente, se ejecutarán los servicios configurados para el procesamiento en el subsistema de orquestación en una orquestación de BizTalk.  
   
 ## <a name="esb-itinerary-messaging-services"></a>Servicios de mensajería itinerarios de ESB  
  Cuando se procesa un mensaje en una canalización de BizTalk Server, utilizando los servicios de mensajería itinerarios de ESB reduce la latencia de mensajes. Mediante la implementación de servicios de extremo a extremo en una sola canalización, es posible transformar un mensaje varias veces y enrutar el mensaje a sus puntos de conexión con solo una persistencia única para la base de datos de cuadro de mensaje. Además, el procesamiento basado en mensajería elimina el costo de recursos adicionales de procesamiento de orquestación. Por lo general, procesamiento basado en mensajería consume menos recursos y proporciona un procesamiento más rápido que el procesamiento de orquestación. En las canalizaciones, el distribuidor de ESB y ESB distribuidor desensamblar componentes proporcionados por la canalización [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] actúe como interceptores de mensajes y ejecutar servicios itinerarios basado en mensajería, si se trata de una ruta, transformación o un servicio personalizado. Para obtener más información acerca de cómo configurar estos componentes, consulte [el componente de distribuidor de ESB](../esb-toolkit/the-esb-dispatcher-component.md) y [el componente ESB distribuidor desensamblar](../esb-toolkit/the-esb-dispatcher-disassemble-component.md).  

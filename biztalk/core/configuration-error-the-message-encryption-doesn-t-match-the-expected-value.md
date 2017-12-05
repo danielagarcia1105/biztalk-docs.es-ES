@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b17460c4dcd6f9d2a8c18e5e7284cd36940d6820
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4920a4c26cb60c3215f58297445dc49551b1befe
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuration-error-the-message-encryption-doesn39t-match-the-expected-value"></a>Error de configuración. El no cifrado de mensaje &#39; coincidencia t el valor esperado.
 ## <a name="details"></a>Detalles  
@@ -37,6 +37,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, compruebe que el mensaje AS2 entrante está cifrado si el cifrado está especificado en la configuración de la entidad o bien que el mensaje AS2 entrante no está cifrado si el cifrado está especificado como no habilitada en la configuración de la entidad. Realice una de las siguientes operaciones:  
   
-1.  Si el **invalidación está seleccionada la propiedad de propiedades de mensaje entrante** en la página entidad como remitente del mensaje AS2 del cuadro de diálogo Propiedades de AS2 en el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, el **debe cifrarse el mensaje**  propiedad está seleccionada, pero no se cifra el mensaje, póngase en contacto con la entidad que envió el mensaje y pídale que cifre el mensaje y lo vuelva a enviar. También puede desactivar la **debe cifrarse el mensaje** propiedad, o la **invalidar propiedades de mensajes entrantes** propiedad.  
+1.  Si el **invalidación está seleccionada la propiedad de propiedades de mensaje entrante** en la página entidad como remitente del mensaje AS2 del cuadro de diálogo Propiedades de AS2 en la consola de administración de BizTalk Server, el **debe cifrarse el mensaje**  propiedad está seleccionada, pero no se cifra el mensaje, póngase en contacto con la entidad que envió el mensaje y pídale que cifre el mensaje y lo vuelva a enviar. También puede desactivar la **debe cifrarse el mensaje** propiedad, o la **invalidar propiedades de mensajes entrantes** propiedad.  
   
 2.  Si el **invalidar propiedades de mensajes entrantes** propiedad está seleccionada, el **debe cifrarse el mensaje** propiedad está desactivada, pero el mensaje está cifrado, póngase en contacto con la entidad que envió el mensaje y pídale que No cifrar el mensaje y lo vuelva a enviar. O bien puede seleccionar la **debe cifrarse el mensaje** propiedad.

@@ -18,11 +18,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2d328a1a95b7340520352b32b6d72e1579b9594a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 34cbb94dff7211a157fc492c1157fa379236641e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="unenlistparties-biztalk-server-sample"></a>UnenlistParties (ejemplo de BizTalk Server)
 El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociadas a un ensamblado de BizTalk Server implementado.  
@@ -50,7 +50,7 @@ El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociad
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\UnenlistParties\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -68,12 +68,11 @@ El ejemplo UnenlistParties muestra cómo dar de baja todas las entidades asociad
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\UnenlistParties\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
   
 2.  Ejecute el archivo UnenlistParties.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
   
-    -   **\<**   
-         ***AssemblyName* >**. El nombre de un ensamblado desde el que se darán de baja todas las entidades asociadas. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***AssemblyName* \>** . El nombre de un ensamblado desde el que se darán de baja todas las entidades asociadas. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
   
     -   **/?.** Muestra la Ayuda.  
   
@@ -183,7 +182,7 @@ else
   
 ```  
   
- Los resultados siguientes del script se generaron de la dada de baja de entidades del ensamblado de proveedor, que forma parte del ejemplo PartyResolution. El ejemplo PartyResolution se encuentra en la \< *ruta de ejemplos*> \Admin\Orchestrations\PartyResolution directory.  
+ Los resultados siguientes del script se generaron de la dada de baja de entidades del ensamblado de proveedor, que forma parte del ejemplo PartyResolution. El ejemplo PartyResolution se encuentra en la \< *ruta de ejemplos*\>\Admin\Orchestrations\PartyResolution directory.  
   
 ```  
 PS C:\> .\UnenlistParties.ps1 Supplier  
@@ -204,4 +203,4 @@ done.
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

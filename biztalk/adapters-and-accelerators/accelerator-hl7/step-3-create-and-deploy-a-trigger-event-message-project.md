@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf96bdc546223b68677b642944265c22d2ce4b14
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 49fd078f64cbd4163eef648f7a0d58fe6e8db6b2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-project"></a>Paso 3: Crear e implementar un proyecto de desencadenador de eventos (mensaje)
 En este paso, creará el esquema para el mensaje de evento de desencadenador. Por ejemplo, es posible que el sistema de admisión de descarga y la transferencia (ADT) que envía un mensaje para el sistema de información de Hospital (HIS). Necesita este esquema para definir el formato del mensaje.  
@@ -69,7 +69,7 @@ En este paso, creará el esquema para el mensaje de evento de desencadenador. Po
   
 3.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
   
-4.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*>: \Program BizTalk \<versión > Accelerator for Tutorial HL7\SDK\End-to-End, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
+4.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para Tutorial HL7\SDK\End-to-End, haga clic en **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 5.  En el cuadro de diálogo páginas de propiedades de proyecto, haga clic en **Aceptar** para guardar los cambios.  
   

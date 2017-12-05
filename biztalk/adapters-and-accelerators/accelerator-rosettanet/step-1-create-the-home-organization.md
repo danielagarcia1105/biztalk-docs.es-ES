@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4ec15331afee0f66944c836289a984e65b5c754e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42f0a645553a933a99f408036754a1d70b1dda47
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-home-organization"></a>Paso 1: Crear la organización principal
 En este paso, creará su organización principal mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.  
@@ -31,7 +31,7 @@ En este paso, creará su organización principal mediante la [!INCLUDE[btsCoName
   
 ### <a name="to-create-the-home-organization"></a>Para crear la organización principal  
   
-1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  consola de administración, expanda **BizTalk \<versión > Accelerator for RosettaNet**, haga clic en **organizaciones principales**, Haga clic en **New**y, a continuación, haga clic en **organización principal**.  
+1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda **BizTalk \<versión\> Acelerador para RosettaNet**, haga clic en **organizaciones principales**, haga clic en **New**y, a continuación, haga clic en **organización principal**.  
   
 2.  En el cuadro de diálogo nuevas propiedades de organización de inicio en el **General** ficha, realice lo siguiente:  
   
@@ -54,4 +54,4 @@ En este paso, creará su organización principal mediante la [!INCLUDE[btsCoName
 4.  Haga clic en **aplicar**y, a continuación, **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 2: Crear la organización del asociado](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-the-partner-organization.md)
+ [Paso 2: Crear la organización asociada](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-the-partner-organization.md)

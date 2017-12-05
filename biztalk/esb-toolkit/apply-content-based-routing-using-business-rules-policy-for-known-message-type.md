@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b384c63b26f98a866390a001c7d7c2ec6f3f7cb2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 878a6e180aaf7e5f37c5cf98ca0a67790917859a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-implement-content-based-routing-using-a-business-rules-policy-for-a-known-message-type"></a>Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido
 ## <a name="goal"></a>Objetivo  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
 #### <a name="to-create-a-bre-policy-to-route-using-custom-message-properties"></a>Para crear una directiva del BRE para enrutar con propiedades personalizadas de mensajes  
  Esta regla utilizará el nombre del cliente para establecer dinámicamente el extremo que se utiliza para enrutar el mensaje.  
   
-1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione  **[!INCLUDE[prague](../includes/prague-md.md)]** y, a continuación, haga clic en **Compositor de reglas de negocios**.  
+1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione **BizTalk Server**y, a continuación, haga clic en **Compositor de reglas de negocios**.  
   
 2.  En el Explorador de directivas, haga clic en **directivas**y, a continuación, haga clic en **agregar nueva directiva**. Nombre de la directiva **RouteBasedOnCustomerKnownType**.  
   
@@ -102,11 +102,11 @@ ms.lasthandoff: 09/20/2017
   
 10. En el Explorador de hechos, arrastre el **establecer ubicación de transporte saliente de punto final** definición a **acciones**.  
   
-11. Haga clic en  **\<una cadena vacía >** y, a continuación, escriba **C:\HowTos\Out\West%MessageID%.xml**.  
+11. Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **C:\HowTos\Out\West%MessageID%.xml**.  
   
 12. En el Explorador de hechos, arrastre el **establecer tipo de transporte saliente de punto final** definición a **acciones**.  
   
-13. En el Explorador de hechos, expanda **ESB. TransportTypes**, expanda **versión 1.0**y, a continuación, arrastre el **proveedores de adaptador** definición a  **\<una cadena vacía >**.  
+13. En el Explorador de hechos, expanda **ESB. TransportTypes**, expanda **versión 1.0**y, a continuación, arrastre el **proveedores de adaptador** definición a  **\<una cadena vacía\>** .  
   
 14. En el **acciones** panel, expanda el **proveedores de adaptador** lista desplegable y, a continuación, haga clic en **archivo**.  
   
@@ -126,7 +126,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  En el **acciones** sección, haga clic en **C:\HowTos\Out\West%MessageID%.xml**y, a continuación, haga clic en **Restablecer argumento**.  
   
-8.  Haga clic en  **\<una cadena vacía >**y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.  
+8.  Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.  
   
 #### <a name="to-add-a-routing-rule-for-unknown-customers"></a>Para agregar una regla de enrutamiento para los clientes desconocidos  
   
@@ -152,11 +152,11 @@ ms.lasthandoff: 09/20/2017
   
 11. Desde el Explorador de hechos, arrastre la definición de establecer ubicación de transporte saliente de punto de conexión a las acciones.  
   
-12. Haga clic en \<una cadena vacía >, y, a continuación, escriba C:\HowTos\Out\CustomerUnknown%MessageID%.xml.  
+12. Haga clic en \<una cadena vacía\>, y, a continuación, escriba C:\HowTos\Out\CustomerUnknown%MessageID%.xml.  
   
 13. Desde el Explorador de hechos, arrastre la definición de tipo de transporte saliente punto final establecido a las acciones.  
   
-14. En el Explorador de hechos, expanda ESB. TransportTypes, expanda versión 1.0 y, a continuación, arrastre la definición de proveedores de adaptador para \<una cadena vacía >.  
+14. En el Explorador de hechos, expanda ESB. TransportTypes, expanda versión 1.0 y, a continuación, arrastre la definición de proveedores de adaptador para \<una cadena vacía\>.  
   
 15. En el panel Acciones, expanda la lista desplegable de proveedores de adaptador y, a continuación, haga clic en archivo.  
   
@@ -168,7 +168,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>Para crear un modelo DSL itinerario de ESB  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -278,9 +278,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [Cómo: Seleccionar un itinerario mediante una directiva de reglas de negocio](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
--   [Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios](../esb-toolkit/dynamically-route-messages-based-on-message-context-using-business-rules-policy.md)  
+-   [Cómo: Enrutar dinámicamente un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocio](../esb-toolkit/dynamically-route-messages-based-on-message-context-using-business-rules-policy.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   

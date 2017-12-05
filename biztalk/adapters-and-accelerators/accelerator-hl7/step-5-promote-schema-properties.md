@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9000b0466c8c0fc8d466f8174bc0e900a93bf392
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 91d68ece5bedf7ec46a6d5ede7efc6878fa972fc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-5-promote-schema-properties"></a>Paso 5: Promocionar las propiedades de esquema
 En este paso, se promocionan las propiedades de esquema para que un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] orquestación puede hacer referencia a esos valores de propiedad que se crean en pasos posteriores. La promoción es un mecanismo que utiliza para hacer referencia a un valor específico dentro de una instancia de mensaje y hacerla accesible a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] componentes como orquestación o para fines de enrutamiento basado en contenido. Además, una propiedad promocionada está visible de forma [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] IntelliSense en el Editor de expresiones de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
@@ -50,7 +50,7 @@ En este paso, se promocionan las propiedades de esquema para que un [!INCLUDE[bt
     > [!IMPORTANT]
     >  Es importante tener en cuenta que promover un paciente identificador (PID), como un número del seguro social (SSN) hace [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] para realizar el seguimiento de esa propiedad para cada mensaje entrante a través del sistema. El efecto secundario de esta situación es que la base de datos de seguimiento de mensajes mantiene una copia del paciente números de seguridad social. Esto puede crear un problema de seguridad importante. Debe proteger este almacén de datos con mucho cuidado cuando o evitar la promoción de datos PID completamente.  
   
-     Para obtener más información sobre el seguimiento de documentos en función de los elementos de esquema que usted ha promocionado, consulte [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda para obtener información sobre el seguimiento de estado y actividad.  
+     Para obtener más información sobre el seguimiento de documentos en función de los elementos de esquema que usted ha promocionado, consulte la Ayuda de BizTalk Server para obtener información sobre el seguimiento de estado y actividad.  
   
  Continúe con [paso 6: validar los esquemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).  
   

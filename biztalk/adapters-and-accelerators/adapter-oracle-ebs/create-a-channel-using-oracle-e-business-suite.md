@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4273ab2dad26cee8f600ff3e502d88933d243e70
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d0f06a8f1e8b622574f20f331069d7ca280fc45c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-oracle-e-business-suite"></a>Crear un canal con Oracle E-Business Suite
 En el modelo de canal WCF, invocar las operaciones en Oracle E-Business Suite y recibir los resultados mediante el intercambio de mensajes SOAP con el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] sobre un canal WCF.  
@@ -94,9 +94,9 @@ channel.Open();
  El código siguiente muestra los valores de configuración que se usa para el ejemplo anterior. El contrato para el extremo de cliente debe ser "System.ServiceModel.Channels.IRequestChannel" o "System.ServiceModel.Channels.IOutputChannel" según el tipo de forma del canal que se va a crear.  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <oracleEBSBinding>  
                 <binding openTimeout="00:05:00" name="OracleEBSBinding" closeTimeout="00:01:00"  
@@ -122,7 +122,7 @@ channel.Open();
                 bindingConfiguration="OracleEBSBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -137,7 +137,7 @@ channel.Open();
   
 3.  Crear una colección de parámetros de enlace mediante la **BindingParameterCollection** clase y establecer las credenciales.  
   
-4.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IInputChannel >** método en el **OracleEBSBinding**. Especifique el URI de conexión de Oracle como uno de los parámetros a este método.  
+4.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IInputChannel\>**  método en el **OracleEBSBinding**. Especifique el URI de conexión de Oracle como uno de los parámetros a este método.  
   
 5.  Abra el agente de escucha.  
   

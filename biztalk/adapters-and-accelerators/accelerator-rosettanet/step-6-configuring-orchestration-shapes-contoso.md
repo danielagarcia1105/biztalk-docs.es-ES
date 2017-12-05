@@ -15,14 +15,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4185ea50d86b30df4bb61161bf6927845aff5c09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9310e9b287f35876a137d13dbcc2d1fa39ba9588
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-6-configuring-orchestration-shapes-contoso"></a>Paso 6: Configurar formas de orquestación (Contoso)
-En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  
+En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  
   
 ### <a name="to-configure-the-constructmessagepip3a2requestmessage-shape"></a>Para configurar la forma ConstructMessagePIP3A2RequestMessage  
   
@@ -50,7 +50,7 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
   
 4.  En la ventana Propiedades, seleccione la propiedad **Nombre de asignación** y, después, haga clic en el botón de puntos suspensivos (**…**) para abrir el cuadro de diálogo Configuración de transformación.  
   
-5.  En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en la **cuadro de nombre completo de asignación**, seleccione  **\<seleccionar del ensamblado mencionado >** en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.  
+5.  En el cuadro de diálogo Configuración de transformación, haga clic en **mapa existente**y, a continuación, en la **cuadro de nombre completo de asignación**, seleccione  **\<seleccionar del ensamblado mencionado\>**  en la lista desplegable para abrir el cuadro de diálogo Seleccionar tipo de artefacto.  
   
 6.  En el cuadro de diálogo Seleccionar tipo de artefacto, seleccione el ensamblado **ContosoPriceAndAvailability** en el panel izquierdo, seleccione la asignación **PIP3A2RequestToContosoPriceRequest** en el panel derecho y, después, haga clic en **Aceptar**.  
   
@@ -177,4 +177,4 @@ En este paso, configurará las formas de orquestación que agregó a la orquesta
 4.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 7: Crear y configurar puertos](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md)
+ [Paso 7: Creación y configuración de puertos](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md)

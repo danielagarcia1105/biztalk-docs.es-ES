@@ -19,11 +19,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7c200e6c7cf28b0f0e42976f203aaa16aef2871f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 493f4d28214a815aca88f214e5efb9cd883e7192
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="aggregator-biztalk-server-sample"></a>Agregación (ejemplo de BizTalk Server)
 La finalidad de este ejemplo consiste en crear una funcionalidad de agregación de mensaje con orquestaciones y canalizaciones. De forma más específica, crearemos una orquestación que:  
@@ -35,7 +35,7 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
 3.  Produce un mensaje de intercambio de XML cada minuto o en cuanto tiene suficientes mensajes para agregar.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\Pipelines\Aggregator  
+ *\<Ejemplos de ruta de acceso\>*\Pipelines\Aggregator  
   
  En la tabla siguiente se enumeran los archivos que se usan en el ejemplo.  
   
@@ -62,13 +62,13 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<Ruta de acceso de ejemplos > \Pipelines\Aggregator  
+     \<Ejemplos de ruta de acceso\>\Pipelines\Aggregator  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
   
-         \<Ruta de acceso de ejemplos > \Pipelines\Aggregator  
+         \<Ejemplos de ruta de acceso\>\Pipelines\Aggregator  
   
     -   Compila los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   

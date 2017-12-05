@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a4c8cb8766080a715ba309f2aa2736957b6ff54
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 03f7c1fa75b6fe7bb4c78e18c97fccd1404f89c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-delete-user-mappings"></a>Cómo eliminar asignaciones de usuario
 Utilice estos comandos para eliminar una o varias asignaciones de usuario, como especificó en el archivo XML. A continuación, se muestra un archivo XML de ejemplo.  
@@ -49,9 +49,9 @@ Utilice estos comandos para eliminar una o varias asignaciones de usuario, como 
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage – deletemappings  *\<asignaciones de nombre de archivo >***, donde \< *asignaciones de nombre de archivo*> es el nombre del archivo que contiene las asignaciones de usuarios que desea eliminar.  
+3.  Tipo de **ssomanage – deletemappings  *\<asignaciones de nombre de archivo\>***, donde \< *asignaciones de nombre de archivo* \> es el nombre del archivo que contiene las asignaciones de usuarios que desea eliminar.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -60,9 +60,9 @@ Utilice estos comandos para eliminar una o varias asignaciones de usuario, como 
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de  **ssomanage-deletemapping  *\<dominio >*\\*\<nombre de usuario >*  *\< nombre de la aplicación >***, donde  *\<dominio >* es el dominio de Windows para la cuenta de usuario  *\<nombre de usuario >* es el nombre de usuario de Windows, y \<* nombre de la aplicación*> es la aplicación específica para la que desea quitar la asignación de usuario.  
+3.  Tipo de  **ssomanage-deletemapping  *\<dominio\>*\\*\<nombre de usuario\>*   *\<nombre de la aplicación\>***, donde  *\<dominio\>*  es el dominio de Windows para la cuenta de usuario  *\<nombre de usuario\>*  es el nombre de usuario de Windows, y \<* nombre de la aplicación* \> es la aplicación específica para la que desea quitar la asignación de usuario.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -71,9 +71,9 @@ Utilice estos comandos para eliminar una o varias asignaciones de usuario, como 
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssoclient – deletemapping  *\<nombre de aplicación >***, donde  *\<nombre de aplicación >* es el nombre de la afiliada aplicación que desea quitar la asignación de usuario.  
+3.  Tipo de **ssoclient – deletemapping  *\<nombre de la aplicación\>***, donde  *\<nombre de la aplicación\>*  es el nombre de la aplicación afiliada que desea quitar la asignación de usuario.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -81,4 +81,4 @@ Utilice estos comandos para eliminar una o varias asignaciones de usuario, como 
 ## <a name="see-also"></a>Vea también  
  [Asignaciones de SSO](../core/sso-mappings.md)   
  [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)   
- [Administrar asignaciones de usuario](../core/managing-user-mappings.md)
+ [Administración de asignaciones de usuarios](../core/managing-user-mappings.md)

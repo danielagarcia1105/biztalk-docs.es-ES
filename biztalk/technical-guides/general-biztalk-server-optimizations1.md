@@ -12,11 +12,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ee8447bb77fee160c34cc86d30a0b7ac981c53aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2e9e799822c63cb78eda1b989cb157c71fd357d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="general-biztalk-server-optimizations"></a>Optimizaciones generales de BizTalk Server
 Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de BizTalk Server. Las optimizaciones que se enumeran en este tema se aplican después de que se ha instalado y configurado el servidor BizTalk Server.  
@@ -98,9 +98,9 @@ Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de
   
  Al establecer la propiedad maxconnection, HTTP, HTTPS, la dirección IP del sitio web y el número de puerto pueden especificarse. Otros ejemplos incluyen:  
   
- **\<Agregar dirección = "https://www.contoso.com" maxconnection = "24" / >**   
-**\<Agregar dirección = "http://www.contoso.com: 8080" maxconnection = "24" / >**   
-**\<Agregar dirección = "http://*IPAddress*" maxconnection = "24" / > ** para obtener más información acerca de cómo ajustar la configuración de IIS y ASP.NET para los servicios Web, consulte la "configuración de ASP.NET que puede afectar al rendimiento del adaptador de HTTP" sección de [Parámetros de configuración que afectan al rendimiento del adaptador](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) en la Ayuda de BizTalk Server 2010.  
+ **\<Agregar dirección = "https://www.contoso.com" maxconnection = "24" /\>**   
+**\<Agregar dirección = "http://www.contoso.com: 8080" maxconnection = "24" /\>**   
+**\<Agregar dirección = "http://*IPAddress*" maxconnection = "24" /\>** para obtener más información acerca de cómo ajustar la configuración de IIS y ASP.NET para los servicios Web, consulte la "configuración de ASP.NET que puede afectar al rendimiento del adaptador de HTTP" sección de [parámetros de configuración que afectan al rendimiento del adaptador](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) en la Ayuda de BizTalk Server 2010.  
   
 ## <a name="manage-aspnet-thread-usage-or-concurrently-executing-requests-for-web-applications-that-can-host--isolated-received-locations-back-end-web-services-and-wcf-services"></a>Administrar el uso de subprocesos ASP.NET o las solicitudes para las aplicaciones Web que pueden hospedar en ejecución simultáneamente aislada ubicaciones recibidos, servicios de back-end Web y servicios WCF  
  El número de trabajo y subprocesos de E/S (IIS 7.5 e IIS 7.0 en modo clásico) o el número de solicitudes (IIS 7.5 y 7.0 el modo integrado) para una aplicación Web ASP.NET que hosts aislados ubicaciones recibidos, servicios Web de back-end y los servicios WCF que se ejecutan concurrentemente debe modificarse en las siguientes condiciones:  
@@ -189,7 +189,7 @@ Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de
  Para obtener más información acerca de cómo configurar el uso de subprocesos de ASP.NET en IIS 7.0, vea [Blog de Thomas Marquardt sobre el uso de subprocesos de ASP.NET en IIS 7.0](http://go.microsoft.com/fwlink/?LinkId=157518) (http://go.microsoft.com/fwlink/?LinkId=157518).  
   
 ### <a name="manage-the-number-of-concurrently-executing-requests-for-aspnet-4web-applications-that-can-host-isolated-received-locations-back-end-web-services-and-wcf-services-on-iis-75-and-70-running-in-integrated-mode"></a>Administrar el número de solicitudes para las aplicaciones ASP.NET 4Web que pueden contener ubicaciones recibidos aislados, servicios Web de back-end y los servicios WCF en IIS 7.5 y 7.0 que se ejecuta en el modo integrado que se ejecutan concurrentemente  
- Con .NET Framework 4, el valor predeterminado de maxConcurrentRequestsPerCPU es 5000, que es un número muy grande y, por tanto, le permitirá una gran cantidad de solicitudes asincrónicas para ejecutar al mismo tiempo. Para obtener más información, consulte [ \<applicationPool > Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
+ Con .NET Framework 4, el valor predeterminado de maxConcurrentRequestsPerCPU es 5000, que es un número muy grande y, por tanto, le permitirá una gran cantidad de solicitudes asincrónicas para ejecutar al mismo tiempo. Para obtener más información, consulte [ \<Grupoaplicaciones\> Element (Web Settings)](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339).  
   
  Para el modo de IIS 7.5 e IIS 7.0 integrado, un valor DWORD denominado MaxConcurrentRequestsPerCPU en HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 determina el número de solicitudes simultáneas por CPU. De forma predeterminada, no existe la clave del registro y el número de solicitudes por CPU se limita a 5000.  
   
@@ -306,4 +306,4 @@ Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de
 -   [Establecer el tamaño del grupo de subprocesos EPM](http://go.microsoft.com/fwlink/?LinkId=158020) (http://go.microsoft.com/fwlink/?LinkId=158020)  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento de BizTalk Server](../technical-guides/optimizing-biztalk-server-performance.md)
+ [Optimización del rendimiento de BizTalk Server](../technical-guides/optimizing-biztalk-server-performance.md)

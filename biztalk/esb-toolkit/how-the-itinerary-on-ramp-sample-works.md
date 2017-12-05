@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c6c8af93f93e6acba6a0d2cffb69186715ccd49e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b73b4379944db548a30898403239ffcf9704791a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-the-itinerary-on-ramp-sample-works"></a>Cómo funciona el ejemplo en rampa itinerario
 El ejemplo de aplicación compila un conjunto de encabezados SOAP que contienen el itinerario que se crea con los controles en la ventana de la aplicación cliente, el cliente de prueba de itinerario carga el archivo de mensaje especificado desde el disco, anexa los encabezados itinerarios al mensaje, y lo envía a ESB a través de itinerario en rampa para su procesamiento. Si el itinerario genera una respuesta, la aplicación recopila la respuesta y lo muestra en la ventana de la aplicación.  
@@ -54,13 +54,13 @@ El ejemplo de aplicación compila un conjunto de encabezados SOAP que contienen 
 ```  
   
 > [!NOTE]
->  El contenido real de cada  **\<resoluciones >** elemento no contiene los caracteres de espacio en blanco usados para ajustar las líneas en la lista anterior.  
+>  El contenido real de cada  **\<resoluciones\>**  elemento no contiene los caracteres de espacio en blanco usados para ajustar las líneas en la lista anterior.  
   
  Éstos son los tres pasos definidos en la configuración anterior itinerario:  
   
 1.  Ejecutar la orquestación Microsoft.Practices.ESB.Services.Transform para transformar el mensaje con la directiva de ResolverMap mediante el motor de reglas de negocios (BRE) de BizTalk.  
   
-2.  Ejecutar la orquestación Microsoft.Practices.ESB.Services.Routing para enrutar el mensaje transformado a varias ubicaciones con el enrutamiento Microsoft.Practices.ESB.Services.Routing1. El  **\<ResolverGroups >** sección contiene un  **\<resoluciones >** elemento con este identificador, que define las cadenas de conexión.  
+2.  Ejecutar la orquestación Microsoft.Practices.ESB.Services.Routing para enrutar el mensaje transformado a varias ubicaciones con el enrutamiento Microsoft.Practices.ESB.Services.Routing1. El  **\<ResolverGroups\>**  sección contiene un  **\<resoluciones\>**  elemento con este identificador, que define las cadenas de conexión.  
   
 3.  Ejecutar la orquestación ProcessAndRespond proporcionada con este ejemplo. La implementación de esta orquestación envía como respuesta una copia del mensaje de solicitud al cliente de prueba de itinerario.  
   

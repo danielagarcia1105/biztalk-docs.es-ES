@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cbd45901afb229cf884390c2a5120deac0daa90d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b4f8a3b0bcc58fbed428152bb9f55c34d867258a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-orchestration-performance"></a>Optimizar el rendimiento de la orquestación
 Este tema describe las prácticas recomendadas para utilizar orquestaciones en soluciones de BizTalk Server. Esto incluye recomendaciones para:  
@@ -220,7 +220,7 @@ public static XmlDocument FromMsg(XLANGMessage old)
 }  
 ```  
   
- Otro método sería crear una clase .NET basada en el esquema. Esto consume menos memoria que cargar el documento en un **XmlDocument** objeto, así como proporcionar un acceso sencillo a los elementos de esquema para los desarrolladores de .NET. Para generar una clase basada en un esquema de BizTalk, puede usar la herramienta xsd.exe incluida con Visual Studio. Por ejemplo, ejecutar **xsd.exe \<schema.xsd >/classes** con un esquema simple que contiene campos denominados ItemA, ItemB, ItemC, producirá la siguiente clase.  
+ Otro método sería crear una clase .NET basada en el esquema. Esto consume menos memoria que cargar el documento en un **XmlDocument** objeto, así como proporcionar un acceso sencillo a los elementos de esquema para los desarrolladores de .NET. Para generar una clase basada en un esquema de BizTalk, puede usar la herramienta xsd.exe incluida con Visual Studio. Por ejemplo, ejecutar **xsd.exe \<schema.xsd\> /classes** con un esquema simple que contiene campos denominados ItemA, ItemB, ItemC, producirá la siguiente clase.  
   
 ```csharp  
 //------------------------------------------------------------------------------  
@@ -349,7 +349,7 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 -   [Blog de Charles Young, BizTalk Server 2006: El modelo de compensación](http://go.microsoft.com/fwlink/?LinkId=158017) (http://go.microsoft.com/fwlink/?LinkId=158017).  
   
     > [!NOTE]  
-    >  Aunque este blog se ha redactado teniendo [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] en mente, los principios descritos en el blog de también se aplican a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  Aunque este blog se ha redactado teniendo [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] en mente, los principios descritos en el blog de también se aplican a BizTalk Server.  
   
 ## <a name="considerations-when-using-maps-in-orchestrations"></a>Consideraciones al usar asignaciones en orquestaciones  
  Al utilizar asignaciones en orquestaciones, se aplican las consideraciones siguientes:  
@@ -359,4 +359,4 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 -   Si utiliza una asignación para agregar varios campos a un campo, use campos distintivos o propiedades promocionadas con una variable de orquestación para acumular el conjunto de resultados.  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento](../technical-guides/optimizing-performance.md)
+ [Optimización del rendimiento](../technical-guides/optimizing-performance.md)

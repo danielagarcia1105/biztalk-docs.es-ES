@@ -20,18 +20,18 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72f9769a571eb9b04cee21e42f5e75afbbadfafa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5fac30a9b884bc769752623003d16e7089b140d4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="migrating-functoids"></a>Migrar functoids
-Cuando migra una asignación de versiones anteriores de BizTalk Server a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], también se migran todos los functoids incluidos en la asignación. Si no incluye los functoids que migra **secuencias de comandos** functoids, ninguna tarea de migración adicionales es necesaria. Sin embargo si la asignación incluye **secuencias de comandos** functoids personalizados o, tendrá que realice más pasos.  
+Cuando se migra una asignación de versiones anteriores de BizTalk Server a BizTalk Server, también se migran todos los functoids incluidos en el mapa. Si no incluye los functoids que migra **secuencias de comandos** functoids, ninguna tarea de migración adicionales es necesaria. Sin embargo si la asignación incluye **secuencias de comandos** functoids personalizados o, tendrá que realice más pasos.  
   
  En versiones anteriores de BizTalk Server, incluido todo el script personalizado con un **secuencias de comandos** functoid se escribía en línea. Es decir, que cuando creó el functoid, todas las secuencias de comandos a las que llamó durante el tiempo de ejecución se almacenaron con el functoid. Si desea utilizar la misma secuencia de comandos con un functoid diferente, debe copiarlo y pegarlo de un **secuencias de comandos** functoid a otro, o se ha reescrito la secuencia de comandos desde el principio.  
   
- Al migrar una asignación, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copia los scripts en línea existentes con los functoids. Sin embargo, no todas las secuencias de comandos funcionen correctamente. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]usa Visual Basic .NET y JScript. NET, en lugar de como el VBScript y JScript usado en versiones anteriores. Las versiones .NET de los lenguajes incluyen algunos cambios en la sintaxis.  
+ Al migrar una asignación, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] copia los scripts en línea existentes con los functoids. Sin embargo, no todas las secuencias de comandos funcionen correctamente. BizTalk Server utiliza Visual Basic .NET y JScript. NET, en lugar de VBScript y JScript usado en versiones anteriores. Las versiones .NET de los lenguajes incluyen algunos cambios en la sintaxis.  
   
 > [!NOTE]
 >  No olvide probar el **secuencias de comandos** functoids después de la migración.  
@@ -61,4 +61,4 @@ Cuando migra una asignación de versiones anteriores de BizTalk Server a [!INCLU
   
 ## <a name="see-also"></a>Vea también  
  [Editar propiedades de Functoid y parámetros de entrada](../core/editing-functoid-properties-and-input-parameters.md)   
- [Secuencias de comandos de Functoid](../core/scripting-functoid.md)
+ [Functoid de scripting](../core/scripting-functoid.md)

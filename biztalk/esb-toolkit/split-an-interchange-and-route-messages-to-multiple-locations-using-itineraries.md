@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4c752c4b98f6a68e0a86ba4a418eab0705a7c513
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 538432f548b1403fd9c0cd566b82eb8cb113f737
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-split-an-interchange-and-route-the-resulting-messages-to-multiple-file-locations-using-distinct-itineraries"></a>Cómo: dividir un intercambio y enrutar los mensajes resultantes a varias ubicaciones de archivos utilizando distintos itinerarios
 ## <a name="goal"></a>Objetivo  
@@ -137,7 +137,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-add-a-schemas-project-to-the-patterns-solution"></a>Para agregar un proyecto de esquemas a la solución de patrones  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en **solución 'Patrones'**, seleccione **agregar**y, a continuación, haga clic en **nuevo proyecto**.  
   
@@ -151,7 +151,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  En la ventana Propiedades, en la **firma** ficha, seleccione la **firmar el ensamblado** casilla de verificación.  
   
-6.  En el **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<nuevo... >**.  
+6.  En el **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<nuevo... \>**.  
   
 7.  En el **crear clave de nombre seguro** diálogo cuadro, configure las siguientes propiedades:  
   
@@ -182,7 +182,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-a-business-rules-engine-bre-policy-to-select-an-itinerary-using-custom-message-properties"></a>Para crear una directiva del motor de reglas de negocios (BRE) para seleccionar un itinerario con propiedades personalizadas de mensajes  
   
-1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione  **[!INCLUDE[prague](../includes/prague-md.md)]** y, a continuación, haga clic en **Compositor de reglas de negocios**.  
+1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione **BizTalk Server**y, a continuación, haga clic en **Compositor de reglas de negocios**.  
   
 2.  En el Explorador de directivas, haga clic en **directivas**y, a continuación, haga clic en **agregar nueva directiva**. Nombre de la directiva **ResolveItineraryBasedOnCustomer**.  
   
@@ -212,7 +212,7 @@ ms.lasthandoff: 09/20/2017
   
 9. En el Explorador de hechos, haga clic en el **vocabularios** ficha. Expanda el **ESB. Itinerario** vocabulario, expanda **versión 1.1**y, a continuación, arrastre el **nombre del conjunto de itinerario** definición a **acciones**.  
   
-10. Haga clic en  **\<una cadena vacía >** y, a continuación, escriba **GlobalBankWestItinerary**.  
+10. Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **GlobalBankWestItinerary**.  
   
     > [!NOTE]
     >  Más adelante en este tema de procedimientos, creará este itinerario para procesar los mensajes de GlobalBank West.  
@@ -233,7 +233,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  En el **acciones** sección, haga clic en **GlobalBankWestItinerary**y, a continuación, haga clic en **Restablecer argumento**.  
   
-8.  Haga clic en  **\<una cadena vacía >** y, a continuación, escriba **GlobalBankEastItinerary.**  
+8.  Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **GlobalBankEastItinerary.**  
   
     > [!NOTE]
     >  Más adelante en este tema de procedimientos, creará este itinerario para procesar los mensajes de este GlobalBank.  
@@ -246,7 +246,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model-for-globalbank-west-messages"></a>Para crear un modelo DSL itinerario de ESB para los mensajes de GlobalBank West  
   
-1.  En  **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** , abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En **Visual Studio**, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -324,7 +324,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model-for-globalbank-east-message"></a>Para crear un modelo DSL itinerario de ESB para mensaje de este GlobalBank  
   
-1.  En  **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** , abra C:\HowTos\Patterns.sln.  
+1.  En **Visual Studio**, abra C:\HowTos\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -404,9 +404,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-and-configure-an-esb-on-ramp"></a>Para crear y configurar un ESB rampa  
   
-1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione  **[!INCLUDE[prague](../includes/prague-md.md)]** y, a continuación, haga clic en **deadministracióndeBizTalkServer**.  
+1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione **BizTalk Server**y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda **Microsoft.Practices.ESB**.  
+2.  En la consola de administración de BizTalk Server, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda **Microsoft.Practices.ESB**.  
   
 3.  Haga clic en **ubicaciones de recepción**, seleccione **New**y, a continuación, haga clic en **ubicación de recepción unidireccional**.  
   
@@ -435,7 +435,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  Haga clic en **Aceptar** para cerrar el **propiedades de la ubicación de recepción** cuadro de diálogo.  
   
-4.  En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **habilitar**.  
+4.  En la consola de administración de BizTalk Server, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **habilitar**.  
   
 #### <a name="to-test-the-itinerary-selector-and-business-rules"></a>Para probar el Selector de itinerario y reglas de negocios  
   
@@ -448,19 +448,19 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  Aunque los mensajes son idénticos, salvo por el valor del elemento customer, que fueron procesados mediante diferentes itinerarios, basados en la resolución del componente de canalización de Selector de itinerario.  
   
-4.  En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, haga la OnRamp.Itinerary.HowTo ubicación de recepción y, a continuación, haga clic en deshabilitar.  
+4.  En la consola de administración de BizTalk Server, haga la OnRamp.Itinerary.HowTo ubicación de recepción y, a continuación, haga clic en deshabilitar.  
   
 5.  Después de la **OnRamp.Itinerary.HowTo** recibir la ubicación está deshabilitado, haga clic en él y, a continuación, haga clic en **eliminar**. En el **Confirmar eliminación de ubicación de recepción** cuadro de diálogo, haga clic en **Sí**.  
   
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [Cómo: Seleccionar un itinerario mediante una directiva de reglas de negocio](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   
--   [Instalar y ejecutar el ejemplo de resolución dinámica](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)  
+-   [Instalación y ejecución del ejemplo de resolución dinámica](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)  
   
--   [Uso de resolución dinámica y enrutamiento](../esb-toolkit/using-dynamic-resolution-and-routing.md)  
+-   [Uso de resolución y enrutamiento dinámicos](../esb-toolkit/using-dynamic-resolution-and-routing.md)  
   
 -   [Patrones de enrutamiento de mensajes](../esb-toolkit/message-routing-patterns.md)

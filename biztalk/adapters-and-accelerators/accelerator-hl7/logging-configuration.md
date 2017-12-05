@@ -17,14 +17,14 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 058a1fce8105a3147fb2e537a9182e7d886bb953
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fb9a8cfb173881b3ec6c6e346bcd9f2d3ec54b87
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="logging-configuration"></a>Configuración de registro
-Juntos, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] ofrecer comunicaciones seguras de integración de aplicaciones empresariales (EAI) de transaccional y digitales para proveedores de atención médica como hospitales, las sesiones y convalecientes. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]proporciona la capacidad para coordinar la actividad de la aplicación y el procesamiento de transacciones, enrutar los mensajes de forma dinámica, validar y transformar datos y el transporte a través de una variedad de adaptadores. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite el American National Standards Institute ANSI-accredited mantenimiento nivel siete (HL7) estándar utilizado por aplicaciones clínicas y administrativas en redes de proveedores para intercambiar datos médicos en tiempo real de mensajería.  
+Juntos, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] ofrecer comunicaciones seguras de integración de aplicaciones empresariales (EAI) de transaccional y digitales para proveedores de atención médica como hospitales, las sesiones y convalecientes. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]proporciona la capacidad para coordinar la actividad de la aplicación y el procesamiento de transacciones, enrutar los mensajes de forma dinámica, validar y transformar datos y el transporte a través de una variedad de adaptadores. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]admite el American National Standards Institute ANSI-accredited mantenimiento nivel siete (HL7) estándar utilizado por aplicaciones clínicas y administrativas en redes de proveedores para intercambiar datos médicos en tiempo real de mensajería.  
   
  Los mensajes HL7 que pasan a través del sistema de acelerador pueden ser muy importantes. Por ejemplo, los datos pudieron ser una transacción financiera o historial médico del paciente. Para garantizar el cumplimiento con las normativas de privacidad y seguridad de HL7, los administradores del sistema deben poder hacer lo siguiente:  
   
@@ -38,4 +38,4 @@ Juntos, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTa
   
 -   [Acerca del proceso de registro](../../adapters-and-accelerators/accelerator-hl7/about-the-logging-process.md)  
   
--   [Configurar el registro](../../adapters-and-accelerators/accelerator-hl7/configuring-logging.md)
+-   [Configuración del registro](../../adapters-and-accelerators/accelerator-hl7/configuring-logging.md)

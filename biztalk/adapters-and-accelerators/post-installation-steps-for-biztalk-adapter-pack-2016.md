@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 33726ebafc3ed6b3d1ad62bf97019e30493a895e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 17bd0a76cacb35563448f31f79c2275c79b92ab8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="post-installation-steps-for-biztalk-adapter-pack-2016"></a>Pasos de instalación de POST de 2016 de módulo de adaptador de BizTalk
 Después de instalar la [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], hay algunos pasos posteriores a la instalación. En este tema se enumera estos pasos.   
@@ -70,7 +70,7 @@ Cuando se configura un puerto para usar el adaptador de WCF-OracleDB o usar Visu
 > - El *newVersion* valor debe actualizarse según la versión del archivo Oracle.DataAccess.dll instalado en el equipo.  Oracle.DataAccess.dll se incluye con el cliente de Oracle que se instala desde Oracle.  Solo se debe instalar una versión de cliente de Oracle [compatibles con BizTalk Adapter Pack](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx).  
   
 ## <a name="create-sql-server-database-objects-sap-adapter-only"></a>Crear objetos de base de datos de SQL Server (solo para el adaptador SAP)  
- Para invocar tRFCs en un sistema SAP, ejecute el *SapAdapter-DbScript-Install.sql* secuencia de comandos SQL. Esta secuencia de comandos se instala con el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación y crea objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en  *\<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* . Puede ejecutar este script en cualquier base de datos de SQL Server, como especificar ese nombre de base de datos al usar el adaptador para invocar tRFCs.
+ Para invocar tRFCs en un sistema SAP, ejecute el *SapAdapter-DbScript-Install.sql* secuencia de comandos SQL. Esta secuencia de comandos se instala con el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación y crea objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en  *\<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* . Puede ejecutar este script en cualquier base de datos de SQL Server, como especificar ese nombre de base de datos al usar el adaptador para invocar tRFCs.
   
 ## <a name="register-the-adapter-bindings"></a>Registrar los enlaces del adaptador
 Durante el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación, el Asistente para instalación puede fallar registrar los enlaces del adaptador o el proveedor de datos de .NET Framework para mySAP Business Suite. Y el programa de instalación continúa con la instalación del adaptador. Esto puede deberse a la instalación de Windows Communication Foundation (WCF), el [!INCLUDE[afproductnamelong](../includes/afproductnamelong-md.md)] instalación o el archivo machine.config está dañado.  
@@ -78,7 +78,7 @@ Durante el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.m
 > [!IMPORTANT]
 > Complete los pasos siguientes *sólo* si se produce un error en el Asistente para instalación registrar los enlaces del adaptador, o proveedores de datos de .NET Framework en el archivo machine.config.  
   
-1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config  *\<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG*.  
+1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config  *\<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG*.  
   
 2.  Abra el archivo con un editor de texto.  
   

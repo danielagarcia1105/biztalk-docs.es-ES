@@ -17,18 +17,18 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bae0b72eb323e75a8ecf9563b4fa0e0bc1b725d8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ac21ad1348dbc934c81d87f3c477977eeecd2ccf
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-import-a-policy"></a>Cómo importar una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para importar una directiva en un grupo de BizTalk o la herramienta de la línea de comandos BTSTask para importar una directiva en una aplicación de BizTalk.  
   
  Puede crear una directiva mediante el Compositor de reglas de negocios, como se describe en [crear reglas de negocios mediante el Compositor de reglas de negocios](../core/creating-business-rules-using-the-business-rule-composer.md)y, a continuación, importarla directamente, o puede exportar una directiva de otro grupo de BizTalk, tal y como se describe en [Cómo exportar una directiva](../core/how-to-export-a-policy.md) y, a continuación, importarlo.  
   
- Al importar una directiva, se registra en la base de datos del motor de reglas del grupo de BizTalk. Una vez importada la directiva, puede verla en la consola de administración de BizTalk Server. Si utiliza la consola de administración de BizTalk Server para importar una directiva, se mostrará en la \<todos los artefactos > nodo para el grupo de BizTalk. A continuación, puede publicarlo para que esté disponible para agregarlo a una aplicación de BizTalk, tal y como se describe en [cómo publicar una directiva](../core/how-to-publish-a-policy.md). Si usa la herramienta de la línea de comandos BTSTask para importar una directiva, ésta se publicará de forma automática y se mostrará en la carpeta Directivas de la aplicación en la que la importó.  
+ Al importar una directiva, se registra en la base de datos del motor de reglas del grupo de BizTalk. Una vez importada la directiva, puede verla en la consola de administración de BizTalk Server. Si utiliza la consola de administración de BizTalk Server para importar una directiva, se mostrará en el \<todos los artefactos\> nodo para el grupo de BizTalk. A continuación, puede publicarlo para que esté disponible para agregarlo a una aplicación de BizTalk, tal y como se describe en [cómo publicar una directiva](../core/how-to-publish-a-policy.md). Si usa la herramienta de la línea de comandos BTSTask para importar una directiva, ésta se publicará de forma automática y se mostrará en la carpeta Directivas de la aplicación en la que la importó.  
   
  Al importar una directiva, tenga en cuenta los siguientes puntos importantes:  
   
@@ -60,13 +60,13 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk en el que desea importar la directiva, expanda **aplicaciones**y, a continuación, expanda  **\<todos los artefactos >**.  
+2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk en el que desea importar la directiva, expanda **aplicaciones**y, a continuación, expanda  **\<todos los artefactos\>** .  
   
 3.  Haga clic en **directivas**y, a continuación, haga clic en **importación**.  
   
 4.  Busque el archivo .xml que contiene la directiva y haga clic en **abiertos**.  
   
-     La directiva se importa en el grupo y se muestra en el **directivas** carpeta de  **\<todos los artefactos >**.  
+     La directiva se importa en el grupo y se muestra en el **directivas** carpeta de  **\<todos los artefactos\>**.  
   
 #### <a name="using-the-command-line"></a>Utilizar la línea de comandos  
   

@@ -19,11 +19,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4676db07025b4395d58df7c24252769ba65ecfb4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a1e30f1703f554792ce5243414a95965da93670
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-change-the-master-secret-server"></a>Cómo cambiar el servidor secreto principal
 Después de configurar el servidor secreto principal y la base de datos de SSO, podrá cambiar el servidor secreto principal siempre que el original haya fallado y no pueda recuperarse. Para cambiar el servidor secreto principal, deberá promover un servidor de SSO para convertirlo en servidor secreto principal.  
@@ -43,11 +43,11 @@ Después de configurar el servidor secreto principal y la base de datos de SSO, 
   
 5.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-6.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+6.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 7.  Reinicie el nuevo servidor secreto principal.  
   
-8.  Tipo de **ssoconfig – restoreSecret \<Restaurar archivo >**, donde  **\<Restaurar archivo >** es la ruta de acceso y nombre del archivo donde se almacena el secreto principal.  
+8.  Tipo de **ssoconfig – restoreSecret \<Restaurar archivo\>**, donde  **\<Restaurar archivo\>**  es la ruta de acceso y el nombre del archivo donde se encuentra el secreto principal almacena.  
   
      El secreto principal se almacena en el Registro en la siguiente ubicación:  
   
@@ -73,16 +73,16 @@ Después de configurar el servidor secreto principal y la base de datos de SSO, 
   
 2.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-3.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssomanage-updatedb** \< **archivo de actualización**>, donde \< **archivo de actualización**> es el nombre del archivo XML se crea en el paso 1.  
+4.  Tipo de **ssomanage-updatedb** \< **archivo de actualización**\>, donde \< **archivo de actualización** \> es el nombre del archivo XML crear en el paso 1.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 5.  Reinicie el servidor secreto principal.  
   
-6.  Tipo de **ssoconfig – restoresecret \<Restaurar archivo >**, donde  **\<Restaurar archivo >** es la ruta de acceso y nombre del archivo donde se almacena el secreto principal.  
+6.  Tipo de **ssoconfig – restoresecret \<Restaurar archivo\>**, donde  **\<Restaurar archivo\>**  es la ruta de acceso y el nombre del archivo donde se encuentra el secreto principal almacena.  
   
      El secreto principal se almacena en el Registro en la siguiente ubicación:  
   

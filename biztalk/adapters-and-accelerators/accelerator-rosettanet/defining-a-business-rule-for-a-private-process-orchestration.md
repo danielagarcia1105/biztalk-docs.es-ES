@@ -41,11 +41,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c668b3123483de1d53afa8ca74cf9d7d2376ecea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8dd0ebb22bcf6253604e4e8bf7fd858deb776b0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="defining-a-business-rule-for-a-private-process-orchestration"></a>Definir una regla de negocios para una orquestación de procesos privado
 Puede definir una regla de negocios para su uso en un proceso privado de confirmación. Esto permite modificar la regla de negocios dinámicamente sin detener la orquestación de procesos privado. Este proceso utiliza el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] motor de reglas de negocios. Este proceso implica los pasos siguientes:  
@@ -56,11 +56,11 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
   
 3.  Al llamar a la regla de negocios de la orquestación de procesos privado. Esto implica agregar un **reglas de llamada** forma a la orquestación.  
   
- El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK incluye un ejemplo de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] directiva empresarial, samplebtarnpolicy.xml, en \< *unidad*>: \Program BizTalk \<versión > Accelerator for RosettaNet\ SDK\PipAutomation\3A4. Para obtener más información, consulte [directiva empresarial de BTARN de ejemplo](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
+ El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK incluye un ejemplo de [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] directiva empresarial, samplebtarnpolicy.xml, en \< *unidad*\>: \Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\PipAutomation\3A4. Para obtener más información, consulte [directiva empresarial de BTARN de ejemplo](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md).  
   
  PIP3A4PrivateResponder.odx orquestación es una orquestación de procesos privados de ejemplo que muestra cómo implementar un proceso de interfaz de socio (PIP)-procesos privados Respondedor específico que incorpore una regla de negocios. Para obtener más información acerca de este ejemplo, vea [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
- Para obtener más información acerca de vocabularios y directivas, vea el tema "Desarrollar con las reglas de negocios" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+ Para obtener más información acerca de vocabularios y directivas, vea el tema "Desarrollar con las reglas de negocios" en BizTalk Server.  
   
 ### <a name="to-add-a-new-vocabulary"></a>Para agregar un vocabulario nuevo  
   
@@ -170,11 +170,11 @@ Puede definir una regla de negocios para su uso en un proceso privado de confirm
 11. En la ventana de diseño de orquestación, escriba todas las formas adicionales necesarias para los procesos asociados con la directiva empresarial, incluida la adición de un **decisión** forma bajo la **reglas de llamada** forma.  
   
     > [!NOTE]
-    >  Para obtener un ejemplo de cómo usar un **reglas de llamada** forma de una orquestación, vea la orquestación PIP3A4PrivateResponder.odx incluida en el SDK de BTARN. Se encuentra en \< *unidad*>: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR. Para obtener más información, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
+    >  Para obtener un ejemplo de cómo usar un **reglas de llamada** forma de una orquestación, vea la orquestación PIP3A4PrivateResponder.odx incluida en el SDK de BTARN. Se encuentra en \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\PipAutomation\3A4\PR. Para obtener más información, consulte [3A4 privado Respondedor orquestación con una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md).  
   
 12. Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
  [Guía de programación](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)   
  [Directiva empresarial BTARN de ejemplo](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md)   
- [Orquestación de Respondedor privada de 3A4 mediante una regla de negocios](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)
+ [Orquestación del respondedor privado 3A4 mediante una regla de negocio](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)

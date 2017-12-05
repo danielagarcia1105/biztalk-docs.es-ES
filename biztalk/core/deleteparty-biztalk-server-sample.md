@@ -19,11 +19,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d07793400f0217ef2f3ddcc637265f186647a00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68016285a53a2655c56810028925a91c1f8d66b0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deleteparty-biztalk-server-sample"></a>DeleteParty (ejemplo de BizTalk Server)
 El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.  
@@ -52,7 +52,7 @@ El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Este ejemplo se encuentra en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\DeleteParty\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -70,12 +70,11 @@ El ejemplo DeleteParty muestra cómo eliminar una entidad especificada.
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\DeleteParty\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
 2.  Ejecute el archivo DeleteParty.exe y pase uno de los dos argumentos de línea de comandos siguientes:  
   
-    -   **\<**   
-         ***PartyName* >.** Nombre de una entidad que se va a eliminar. Si el nombre de la entidad contiene espacios, póngalo entre comillas.  
+    -   **\<** ***PartyName* \>.** Nombre de una entidad que se va a eliminar. Si el nombre de la entidad contiene espacios, póngalo entre comillas.  
   
     -   **/?.** Muestra la Ayuda.  
   
@@ -166,4 +165,4 @@ Name : Party2
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

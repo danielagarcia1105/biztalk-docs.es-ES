@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8c9a99c0efaacac233c339d9279c837744892fb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 76b3d26e9f1dd14463d153c89316b3cf3da0338d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously"></a>Paso 3: Crear una prueba de carga para llevar a cabo al mismo tiempo varias pruebas unitarias
 Pruebas de carga ejecutan varias instancias de uno o más pruebas unitarias para que se pueden medir el rendimiento y la capacidad para manejar la carga de la aplicación. Se incluyen los componentes principales de una prueba de carga de Visual Studio 2010:  
@@ -94,7 +94,7 @@ Pruebas de carga ejecutan varias instancias de uno o más pruebas unitarias para
   
 12. Haga clic en **finalizar** para cerrar el Asistente para nueva prueba de carga.  
   
-13. Haga clic en el **archivo** menú y seleccione **guardar \<nombre de la prueba de carga > LoadTest como**.  
+13. Haga clic en el **archivo** menú y seleccione **guardar \<nombre de la prueba de carga\>. LoadTest como**.  
   
     > [!NOTE]  
     >  En este ejemplo, <Load Test Name> será el nombre asignado en el archivo de prueba de carga mediante Visual Studio 2010, normalmente loadtestx.loadtest, a menos que el nombre del archivo ya se ha cambiado manualmente.  
@@ -129,7 +129,7 @@ Pruebas de carga ejecutan varias instancias de uno o más pruebas unitarias para
     |Categoría de rendimiento|Contador de rendimiento|  
     |--------------------------|-------------------------|  
     |Procesador|% De tiempo de procesador para la instancia _Total del contador.|  
-    |Cuadro de BizTalk: Contadores generales|Tamaño de la cola el  *\<nombre de base de datos de BizTalk MessageBox >*:*\<nombre de instancia de SQL Server >* instancia del contador. **Nota:***\<nombre de base de datos de BizTalk MessageBox >* y  *\<nombre de instancia de SQL Server >* son solo marcadores de posición para los nombres reales de BizTalk Base de datos de cuadro de mensajes y la instancia de SQL Server que aloja la base de datos de BizTalk MessageBox.   Estos marcadores de posición se deben reemplazar con los nombres reales de la base de datos BizTalk MessageBox y la instancia asociada de SQL Server.|  
+    |Cuadro de BizTalk: Contadores generales|Tamaño de la cola el  *\<nombre de base de datos de BizTalk MessageBox\>*:*\<nombre de instancia de SQL Server\>*  instancia del contador. **Nota:***\<nombre de base de datos de BizTalk MessageBox\>*  y  *\<nombre de instancia de SQL Server\>*  son solo marcadores de posición para el nombres reales de la base de datos de BizTalk MessageBox y la instancia de SQL Server que aloja la base de datos de BizTalk MessageBox.   Estos marcadores de posición se deben reemplazar con los nombres reales de la base de datos BizTalk MessageBox y la instancia asociada de SQL Server.|  
     |BizTalk:Mensajería|Documentos recibidos/seg. de la instancia de contador de host de recepción.<br /><br /> Documentos procesados/seg. de la instancia de contador de host de transmisión.|  
     |BizTalk:Agente de mensaje|Tasa entrante de entrega de mensajes para el documento de host de recepción.|  
     |BizTalk:Agente de mensaje|Tasa saliente de publicación del mensaje para el host de transmisión del documento.|  

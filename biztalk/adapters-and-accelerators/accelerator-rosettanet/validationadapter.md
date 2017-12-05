@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3fd80934cef17f930f5dc587bbdbf3f4b87c67e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a325a561017c6efaf6d6aefe2e271c834c13a363
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="validationadapter"></a>ValidationAdapter
 El ejemplo ValidationAdapter muestra cómo ejecutar las reglas de validación especiales en un mensaje en un proceso público de servicio de respuesta. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] realiza la validación en el envío o recepción canalización, de forma nativa y en orquestaciones. Si desea realizar una validación adicional, puede crear un adaptador de validación. La validación adicional podría incluir la validación de campos cruzados o las reglas de validación específicos del negocio que no se implementan mediante un XSD.  
@@ -25,7 +25,7 @@ El ejemplo ValidationAdapter muestra cómo ejecutar las reglas de validación es
   
  Puesto que se usa el ValidationAdapter por la orquestación de proceso público, se ejecuta bajo las mismas credenciales que el servicio de host de BizTalk que hospeda dicha orquestación.  
   
- El ejemplo ValidationAdapter se encuentra en \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for RosettaNet\SDK\ValidationAdapter.  
+ El ejemplo ValidationAdapter se encuentra en \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\ ValidationAdapter.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  El ejemplo ValidationAdapter ilustra la validación de la dirección de correo electrónico en el contenido del servicio. El ejemplo implementa el `IValidateRNIFMessageParts` interfaz. Devuelve un `RNIFException` si la dirección de correo electrónico no está en el formato correcto. Los documentos XML **preambleToValidate**, **serviceHeaderToValidate**, **deliveryHeaderToValidate**, y **serviceContentToValidate**definir la validación.  

@@ -13,14 +13,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3d9641f894a493aa5c2c298a71b1b5a49ffb55a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8de850022a03a3be0310da3022a2cf496c94f30
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a>Secuencia IDOC de archivo plano en SAP mediante el modelo de canal de WCF
-El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] es compatible con transmisión por secuencias para las operaciones de SendIdoc y ReceiveIdoc en el valor de nodo. Estas operaciones se utilizan para enviar y recibir (cadena) IDOC hacia y desde el adaptador de archivo sin formato. En ambas de estas operaciones, los datos para el IDOC completo se encuentran en una cadena en un único nodo (\<idocData >). Para IDOC grande, la transmisión por secuencias los datos IDOC entre el adaptador y el código puede ahorrar recursos de memoria considerables.  
+El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] es compatible con transmisión por secuencias para las operaciones de SendIdoc y ReceiveIdoc en el valor de nodo. Estas operaciones se utilizan para enviar y recibir (cadena) IDOC hacia y desde el adaptador de archivo sin formato. En ambas de estas operaciones, los datos para el IDOC completo se encuentran en una cadena en un único nodo (\<idocData\>). Para IDOC grande, la transmisión por secuencias los datos IDOC entre el adaptador y el código puede ahorrar recursos de memoria considerables.  
   
  Para obtener información general acerca de cómo el adaptador es compatible con transmisión por secuencias, vea [transmisión por secuencias y el adaptador SAP](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md). Debe leer este tema antes de continuar.  
   
@@ -291,4 +291,4 @@ fileXmlWriter.Close();
 ```  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

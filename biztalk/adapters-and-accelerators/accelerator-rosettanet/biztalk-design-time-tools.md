@@ -22,14 +22,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 203f02c3cf14ddf468419160187b5ef2a2f9d325
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f259167112ab87da5af14ca73f735ae38d8789e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-design-time-tools"></a>Herramientas de tiempo de diseño de BizTalk
-Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] puede usar el conjunto de herramientas en tiempo de diseño integrado en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]. Estas herramientas están integradas en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] puede usar el conjunto de herramientas en tiempo de diseño integrada en BizTalk Server. Estas herramientas están integradas en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  
   
 ## <a name="biztalk-editor"></a>Editor de BizTalk  
  Usar el Editor de BizTalk para administrar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] esquemas XSD que se basan en procesos de interfaz de socio (PIP) RosettaNet. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]instala los siguientes esquemas para el desarrollo de soluciones:  
@@ -62,7 +62,7 @@ Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconam
   
 -   3A4_MS_V02_02_PurchaseOrderRequest.xsd  
   
- Estos esquemas están disponibles en \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for RosettaNet\SDK\Schemas.  
+ Estos esquemas están disponibles en \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Accelerator for RosettaNet\SDK\Schemas.  
   
  Puede agregar varios esquemas mediante la descarga PIP desde el sitio RosettaNet Web en [http://go.microsoft.com/fwlink/?linkid=33859](http://go.microsoft.com/fwlink/?linkid=33859). Para obtener más información, consulte [incorpora un nuevo proceso de interfaz de socio comercial](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).  
   

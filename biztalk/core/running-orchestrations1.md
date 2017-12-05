@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b4559a3d362d0d778c4d60cc485fa79e8e05efe
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: c215009d6b911831c74ac22b2c03ceae45e74a62
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="running-orchestrations"></a>Orquestaciones en ejecución
 Los procedimientos siguientes describen cómo generar, implementar, enlazar e iniciar una orquestación.  
@@ -33,7 +33,7 @@ Los procedimientos siguientes describen cómo generar, implementar, enlazar e in
   
 1.  Inicie un símbolo del sistema de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Cambie los directorios a un proyecto existente, por ejemplo, \<unidad >: \Adapter_Install\biztalk2010\my_project.  
+2.  Cambie los directorios a un proyecto existente, por ejemplo, \<unidad\>: \Adapter_Install\biztalk2010\my_project.  
   
 3.  Escriba lo siguiente en el símbolo del sistema y presione ENTRAR:  
   

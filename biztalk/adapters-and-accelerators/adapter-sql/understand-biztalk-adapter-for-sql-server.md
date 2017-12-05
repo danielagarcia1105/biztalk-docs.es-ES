@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ce5fdb7f3bcc6f0ef87a021db4375a90ce3be16d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3fc14b7d9da40edd56c4c4cc4fa6b795386518db
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="understand-biztalk-adapter-for-sql-server"></a>Comprender el adaptador de BizTalk para SQL Server
 El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios lo que permite interactuar con un sistema externo. Los adaptadores proporcionan las siguientes ventajas a los clientes:  
@@ -27,7 +27,7 @@ El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] p
   
 -   **Uniformes experiencia a través de LOB**. Los adaptadores estandarización sobre el uso de WCF y la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]y por lo tanto, proporcionar una experiencia uniforme de obtener acceso a cualquier sistema LOB.  
   
- Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación está instalada junto con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación >: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
+ Como se mencionó, los adaptadores se generan en la parte superior de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] proporciona una base común para la creación de adaptadores de integración que puede consumir una gran variedad de aplicaciones cliente como el servidor BizTalk Server y Microsoft Office. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] Alinee la estrategia de adaptador con la estrategia de Microsoft Services mediante la exposición de adaptadores de integración como canales de Windows Communication Foundation (WCF). Para obtener más información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], consulte el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación. El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación está instalada junto con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], normalmente en \<unidad de instalación\>: \Program archivos\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents.  
   
  Para llevar a cabo operaciones en una base de datos de SQL Server, los clientes de adaptador deben tener acceso a tablas relevantes, procedimientos, vistas, funciones escalares y funciones con valores de tabla. Tablas de base de datos son la unidad básica de almacenamiento en la base de datos de SQL Server. Las aplicaciones externas pueden seleccionar, insertar, eliminar y actualizar los datos de una tabla mediante instrucciones SQL. Las aplicaciones también pueden tener acceso a datos en las tablas mediante el uso de procedimientos, vistas, funciones escalares y funciones con valores de tabla. Con [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], los clientes de adaptador pueden examinar artefactos, como tablas, procedimientos, vistas y otros elementos de este tipo en una base de datos de SQL Server. Los clientes de adaptador pueden seleccionar los artefactos que necesitan para su solución y recuperar los metadatos de los artefactos. Esto permite a los usuarios tener acceso y ejecutar las operaciones en los artefactos en la base de datos de SQL Server.  
   

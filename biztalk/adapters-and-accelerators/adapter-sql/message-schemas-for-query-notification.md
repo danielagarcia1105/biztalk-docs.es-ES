@@ -13,16 +13,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8c78c817470bd8acd41f44204653c41e9012d154
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f662f34a9ac31dd5ce200d776bc8b542008e98e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-query-notification"></a>Esquemas de mensaje de notificación de consulta
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de la operación de notificación para recibir las notificaciones de consulta de la base de datos de SQL Server.  
   
- Configurar la operación de notificación estableciendo las propiedades de enlace el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Para obtener más información acerca de las propiedades de enlace relacionadas con notificaciones, consulte [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Establece el **NotificationStatement** enlace de propiedad para especificar una instrucción SQL (SELECT o EXEC \<procedimiento almacenado >) para la notificación de consulta. El conjunto de resultados de esta consulta se devuelve como datos fuertemente tipados en el código en la operación de notificación.  
+ Configurar la operación de notificación estableciendo las propiedades de enlace el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Para obtener más información acerca de las propiedades de enlace relacionadas con notificaciones, consulte [obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). Establece el **NotificationStatement** enlace de propiedad para especificar una instrucción SQL (SELECT o EXEC \<procedimiento almacenado\>) para la notificación de consulta. El conjunto de resultados de esta consulta se devuelve como datos fuertemente tipados en el código en la operación de notificación.  
   
 ## <a name="message-structure-for-the-notification-operation"></a>Estructura del mensaje para la operación de notificación  
  En la tabla siguiente se muestra la estructura del mensaje XML para la operación de notificación.  

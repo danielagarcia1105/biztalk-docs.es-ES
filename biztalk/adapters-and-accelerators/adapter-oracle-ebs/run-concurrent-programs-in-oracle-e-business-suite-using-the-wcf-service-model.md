@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aed2b50eab9612e5a2a610047e41560e1dc24576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c9ff6b37f2e18c03a364e3f584ea9f79b547f1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-concurrent-programs-in-oracle-e-business-suite-using-the-wcf-service-model"></a>Invocar programas simultáneos en Oracle E-Business Suite mediante el modelo de servicio WCF
 Oracle E-Business Suite expone programas simultáneos que se pueden ejecutar para realizar operaciones específicas en las aplicaciones de Oracle. Cada aplicación de Oracle tiene un conjunto de programas simultáneos estándares (que son los mismos en todas las operaciones) y determinados programas simultáneos que son específicos de una aplicación de Oracle. La [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone todos los programas simultáneos como las operaciones que los clientes de adaptador pueden invocar. Para obtener más información acerca del modo en que el adaptador admite programas simultáneos, consulte [operaciones en programas simultáneos](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md).  
@@ -41,7 +41,7 @@ Oracle E-Business Suite expone programas simultáneos que se pueden ejecutar par
   
 |Operación|Firma de método|  
 |---------------|----------------------|  
-|Programa simultáneo|pública \<tipo de valor devuelto >< Concurrent_program_name > (parámetro 1, el parámetro 2,...)|  
+|Programa simultáneo|pública \<tipo de valor devuelto\> < Concurrent_program_name > (parámetro 1, el parámetro 2,...)|  
   
  Por ejemplo, el código siguiente muestra las firmas de método para generar una clase de cliente WCF para la **MS_SAMPLE_COPY_EMP_DATA** y **Get_Status** programas simultáneos.  
   

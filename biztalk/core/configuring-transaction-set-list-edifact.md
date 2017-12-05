@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f6b4d9a5aae6c8758d3a6d4f46d18f9a820fabd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a95feac48f7cb5137e95a34bf46c38811bb75c51
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-transaction-set-list-edifact"></a>Configuración de la lista de conjuntos de transacciones (EDIFACT)
-[!INCLUDE[prague](../includes/prague-md.md)] permite definir una lista de conjuntos de transacciones que siempre se deben incluir o excluir al procesar un intercambio EDI. Esta sección proporciona instrucciones sobre cómo crear la lista de conjuntos de transacciones.  
+BizTalk Server permite definir una lista de conjuntos de transacciones que siempre debe incluir o excluir al procesar un intercambio EDI. Esta sección proporciona instrucciones sobre cómo crear la lista de conjuntos de transacciones.  
   
 > [!IMPORTANT]
 >  Ninguna propiedad se deshabilita en esta página, incluso si se ha desactivado la **BizTalk Local procesa mensajes recibidos por la entidad o admite el envío de mensajes de esta entidad** casilla de verificación al crear la entidad para la que se crea el contrato.  
@@ -50,4 +50,4 @@ ms.lasthandoff: 09/20/2017
 7.  Haga clic en **aplicar** para aceptar los cambios antes de continuar con la configuración o haga clic en **Aceptar** para validar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar transacción configurar (EDIFACT).](../core/configuring-transaction-set-settings-edifact.md)
+ [Configuración de valores del conjunto de transacciones (EDIFACT)](../core/configuring-transaction-set-settings-edifact.md)

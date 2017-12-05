@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 21e6afcc3aca274d968b15f2bbe93c2226e54a48
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 06c1a9c4cf224055cc910e97902092fa476feb5a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-creating-the-contoso-home-organization"></a>Paso 1: Crear la organización principal de Contoso
 En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear la organización propia de Contoso.  
   
 ### <a name="to-start-the-btarn-management-console"></a>Para iniciar la consola de administración de BTARN  
   
--   En el equipo de Contoso, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Acelerador para RosettaNet** y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
+-   En el equipo de Contoso, haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  consola de administración.  
   
 ### <a name="to-create-the-home-organization"></a>Para crear la organización principal  
   
@@ -54,4 +54,4 @@ En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® 
 4.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 2: Crear la organización del socio comercial Fabrikam](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-fabrikam-partner-organization.md)
+ [Paso 2: Creación de la organización asociada Fabrikam](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-fabrikam-partner-organization.md)

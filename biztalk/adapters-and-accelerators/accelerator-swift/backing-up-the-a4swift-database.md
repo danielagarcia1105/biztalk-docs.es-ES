@@ -15,15 +15,15 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4cd2cd1eadf3dc6f11a6e3178258caaaf88006d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4102d459d5b579491f42747f1d3fe0dd3d381b71
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="backing-up-the-a4swift-database"></a>Copia de seguridad de la base de datos de A4SWIFT
 Habitualmente debe realizar la copia de seguridad de las bases de datos en el sistema de BizTalk Server y A4SWIFT para reducir los riesgos de un error catastrófico. Estas bases de datos son las de su sistema de origen de BizTalk Server y la base de datos de A4SWIFT. Además de reducir los riesgos, esto también habilitará purgar los archivos de historial de A4SWIFT que pueden alcanzar un tamaño considerable.  
   
- Para obtener más información acerca de la copia de seguridad de las bases de datos en el sistema de origen de BizTalk Server, vea el tema "Realizar una copia de seguridad y restaurar BizTalk Server bases de datos" en la [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda. Este tema describe el trabajo de copia de seguridad de BizTalk Server que utiliza para las bases de datos de BizTalk.  
+ Para obtener más información acerca de la copia de seguridad de las bases de datos en el sistema de origen de BizTalk Server, vea el tema "Realizar una copia de seguridad y restaurar BizTalk Server bases de datos" en la Ayuda de BizTalk Server. Este tema describe el trabajo de copia de seguridad de BizTalk Server que utiliza para las bases de datos de BizTalk.  
   
- Para obtener información acerca de la copia de seguridad de la base de datos de A4SWIFT, vea el tema "How to volver seguridad personalizada Databases" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda. En este tema se describe cómo modificar el trabajo de copia de seguridad de BizTalk Server para incluir la base de datos personalizada de A4SWIFT.
+ Para obtener información acerca de la copia de seguridad de la base de datos de A4SWIFT, vea el tema "How to volver seguridad personalizada Databases" en la Ayuda de BizTalk Server. En este tema se describe cómo modificar el trabajo de copia de seguridad de BizTalk Server para incluir la base de datos personalizada de A4SWIFT.

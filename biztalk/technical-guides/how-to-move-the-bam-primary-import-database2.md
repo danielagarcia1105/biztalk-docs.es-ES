@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f62dc38185f9235dd7d2e08629df4099d7ec4f6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd6abeeb04521e95b32b4d6007dcc7f1f532bdbb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>Cómo mover la base de datos de importación principal de BAM
 Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor. Desde una perspectiva de escenario to-end, mover la base de datos de importación principal de BAM consta de dos pasos principales:  
@@ -71,7 +71,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 ###  <a name="BKMK_UpdateDB"></a>Para actualizar las bases de datos de BizTalk con el nuevo nombre del servidor  
   
-1.  En un equipo en el que se ejecute [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], desplácese hasta la siguiente carpeta:  
+1.  En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:  
   
     -   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una versión de 64 bits de Windows Server:  
   
@@ -117,7 +117,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 ###  <a name="BKMK_Config"></a>Para actualizar el archivo Web.config del portal de BAM  
   
-1.  En un equipo que ejecuta [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], actualice los archivos Web.config en  **\<unidad >: \Program 2010\BAMPortal\BAMManagementService\Web.Config BizTalk Server**. Actualice los nombres de servidor y base de datos en la sección siguiente en el archivo Web.config:  
+1.  En un equipo que ejecuta BizTalk Server, actualice los archivos Web.config en  **\<unidad\>: \Program 2010\BAMPortal\BAMManagementService\Web.Config BizTalk Server**. Actualice los nombres de servidor y base de datos en la sección siguiente en el archivo Web.config:  
   
     ```  
     <appSettings>  
@@ -126,7 +126,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
     </appSettings>  
     ```  
   
-2.  En un equipo que ejecuta [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], actualice los archivos Web.config en  **\<unidad >: \Program 2010\BAMPortal\BAMQueryService\Web.Config BizTalk Server**. Actualice los nombres de servidor y base de datos en la sección siguiente en el archivo Web.config:  
+2.  En un equipo que ejecuta BizTalk Server, actualice los archivos Web.config en  **\<unidad\>: \Program 2010\BAMPortal\BAMQueryService\Web.Config BizTalk Server**. Actualice los nombres de servidor y base de datos en la sección siguiente en el archivo Web.config:  
   
     ```  
     <appSettings>  

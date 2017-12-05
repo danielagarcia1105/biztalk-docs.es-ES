@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fda8dd26908b241a9897bb4f1b2ba697b55f6532
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e87664180b7ad4d5fdcd121542974a08b8634d55
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-crashing"></a>Cómo capturar un volcado de memoria de un proceso que está bloqueado
 El proceso de BizTalk BTSNTSvc.exe se define como **bloqueo** cuando finaliza el proceso de forma inesperada por Windows. El bloqueo suele provocarlo una excepción no controlada en el proceso, como una infracción de acceso o un desbordamiento de la pila. En estas situaciones, las ventanas de forma predeterminada depurador, recuperación ante desastres. Watson (drwtsn32.exe) detecta la excepción y finaliza el proceso.  
@@ -41,7 +41,7 @@ El proceso de BizTalk BTSNTSvc.exe se define como **bloqueo** cuando finaliza el
   
 8.  En el **Rule Completed** diálogo haga clic en **finalizar** para aceptar el valor predeterminado de **activar la regla ahora**.  
   
-9. De forma predeterminada, se guardará un volcado de memoria del proceso para el \Program Files\IIS Resources\DebugDiag\Logs\\<*nombre de regla de bloqueo*> directorio del equipo local la próxima vez que una no controlada se produce una excepción en el proceso.  
+9. De forma predeterminada, se guardará un volcado de memoria del proceso para el \Program Files\IIS Resources\DebugDiag\Logs\\<*nombre de regla de bloqueo* \> directorio del equipo local la próxima vez que un se produce una excepción no controlada en el proceso.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo usar diagnósticos de depuración para analizar un volcado de memoria](../core/how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)

@@ -13,17 +13,17 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bf1b105f2e7cfc5601469ac55cac6af22aa21a16
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 64b17179b7131839dc369e9bdecf5e40dd831e4d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="transmitpipeline-receiveport-node"></a>TransmitPipeline (nodo ReceivePort)
 El nodo TransmitPipeline del nodo puertoRecepción de un archivo de enlace proporciona información específica acerca del enlazado de una canalización de envío a un puerto de recepción bidireccional que se exporta con el archivo de enlace.  
   
 > [!NOTE]
->  Puesto que canalizaciones de envío para recepciones bidireccionales se enlazan en el nivel de la ubicación de recepción en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], este nodo se proporciona para ofrecer compatibilidad con BizTalk Server 2004. Enviar canalizaciones para recepciones bidireccionales se enlazan en el nivel de puerto de recepción de BizTalk Server 2004. Propiedades que se establecen para este nodo de un archivo de enlace que se haya exportado desde BizTalk Server 2004 se aplicarán al nodo SendPipeline de cada ubicación de recepción bidireccional que se hace referenciada mediante el puerto de recepción al importar el archivo de enlace en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+>  Desde el envío de canalizaciones para recepciones bidireccionales se enlazan en el nivel de la ubicación de recepción en BizTalk Server, este nodo se proporciona para ofrecer compatibilidad con BizTalk Server 2004. Enviar canalizaciones para recepciones bidireccionales se enlazan en el nivel de puerto de recepción de BizTalk Server 2004. Propiedades que se establecen para este nodo de un archivo de enlace que se haya exportado desde BizTalk Server 2004 se aplicarán al nodo SendPipeline de cada ubicación de recepción bidireccional al que hace referencia el puerto de recepción al importar el archivo de enlace en el servidor BizTalk Server.  
   
 ## <a name="nodes-in-the-transmitpipeline-node"></a>Nodos del nodo TransmitPipeline  
  En la siguiente tabla se enumeran las propiedades que se pueden definir para este nodo de archivo de enlace:  

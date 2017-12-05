@@ -16,16 +16,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ba22559730a458a3c1968c991008c67ac0e4f5c9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5d81e5fe477aca032714ca124d8300c9b6c2d5ba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="samples"></a>Ejemplos
 Esta sección describen los ejemplos incluidos en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK). Esta sección proporciona información detallada sobre cada ejemplo, incluido cómo generar el ejemplo, cómo ejecutarlo y los resultados que se espera.  
   
- Los ejemplos se incluyen en el \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for RosettaNet\SDK\ carpeta.  
+ Los ejemplos se incluyen en el \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador de carpeta RosettaNet\SDK\.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42833e24ee4b0ad8f78a8f60139d66ceb41a5f8f
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 3ae4f855b01a7cfcd789e8d8a37e375f9e72c1a7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="domain-groups-in-biztalk"></a>Grupos de dominio de BIzTalk
 BizTalk Server admite cuentas de grupo de dominio y de usuario en configuraciones de uno y de varios equipos. Para configuraciones de varios equipos, debe observar los requisitos mencionados en esta sección y en el apartado Consideraciones para crear un entorno multiservidor de la Guía de instalación. Para obtener más información, consulte el [Introducción a la instalación](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
@@ -26,7 +26,7 @@ BizTalk Server admite cuentas de grupo de dominio y de usuario en configuracione
   
 -   Después de crear grupos de dominio o cuentas de usuario, agregar cuentas de usuario a los grupos adecuados según las afiliaciones de grupo en [grupos de Windows y cuentas de usuario en BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
--   Use  **\<DomainName >\\< nombre de usuario\>**  al especificar la información de cuenta de dominio en el Administrador de configuración.  
+-   Use  **\<DomainName\>\\< nombre de usuario\>**  al especificar la información de cuenta de dominio en el Administrador de configuración.  
   
 -   BizTalk Server necesita cuentas de dominio en todos los escenarios de clúster. No puede utilizar cuentas locales con un servidor SQL Server o un servidor de SSO (servidor secreto principal) agrupados.  
   

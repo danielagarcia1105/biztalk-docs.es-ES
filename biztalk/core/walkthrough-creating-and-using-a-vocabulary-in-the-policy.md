@@ -12,11 +12,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f44ebd8cb41f96260b48910410014da90bbed0c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8fb64a0548fefb816e1975e4c858934fc3dceb7c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a>Tutorial: Crear y utilizar un vocabulario en la directiva
 Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y usarlo en el **ProcessPurchaseOrder** directiva.  
@@ -119,7 +119,7 @@ Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y
   
 7.  Arrastre **estado de la solicitud** a la **, a continuación,** panel.  
   
-8.  Haga clic en  **\<una cadena vacía >** y, a continuación, escriba **aprobado**.  
+8.  Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **aprobado**.  
   
 9. Haga clic en **versión 1.1 (sin guardar)** en la ventana Explorador de directivas y, a continuación, haga clic en **guardar**.  
   

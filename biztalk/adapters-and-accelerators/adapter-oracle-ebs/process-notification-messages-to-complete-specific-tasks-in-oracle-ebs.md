@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 97b3cf9f99a4a7a2151b9b4f07d076ffb4bc1ec9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dcd2b531dd3486967f28df733d1e5dbbc510f924
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-oracle-e-business-suite"></a>Procesar los mensajes de notificación para completar tareas específicas en Oracle E-Business Suite
 Puede usar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir notificaciones de cambios en las tablas de base de datos de Oracle. Sin embargo, el adaptador sólo envía una notificación de que algunos registros se insertarlos, actualizarlos o eliminan en una tabla de base de datos determinada. Cualquier procesamiento posterior en esos registros debe controlarse las propias aplicaciones de cliente. En este tema se presenta una descripción basada en escenario sobre cómo procesar los registros de la tabla en función del tipo de notificación recibida de la base de datos de Oracle.  
@@ -156,7 +156,7 @@ Puede usar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroracle
  El propósito de inclusión de una forma expresión en la orquestación es que una consulta de xpath para extraer el tipo de mensaje de notificación recibido. Antes de crear una consulta xpath, echemos un vistazo en el formato de un mensaje de notificación. Un mensaje de notificación típico es similar al siguiente:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
   <Details>  
     <NotificationDetails>  
@@ -180,7 +180,7 @@ Puede usar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroracle
   
      Para este tema, nombre de la variable como **NotificationType**.  
   
--   Crear una consulta de xpath para extraer el valor de la \<información > etiqueta. La consulta xpath asemejará a lo siguiente:  
+-   Crear una consulta de xpath para extraer el valor de la \<información\> etiqueta. La consulta xpath asemejará a lo siguiente:  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -279,7 +279,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Dado que la **NotifyOnListenerStart** enlaza la propiedad se establece en **True**, recibirá el mensaje siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>OracleEBSBinding</Source>   
@@ -292,7 +292,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Insertar un registro en la tabla ACCOUNTACTIVITY. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -315,7 +315,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Actualizar un registro en la tabla ACCOUNTACTIVITY. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -338,7 +338,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Eliminar un registro de la tabla ACCOUNTACTIVITY. Recibirá un mensaje de notificación similar a lo siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  

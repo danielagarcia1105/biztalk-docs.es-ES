@@ -15,13 +15,13 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1d5a543e2fc5db228d249b2db2c445e254384d03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: caeac28ce33e2f5eeacbb73b03d9873ec1e74c92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="what-is-the-msmq-adapter"></a>¿Qué es el adaptador de MSMQ?
 Con el adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para MSMQ (el adaptador de MSMQ), podrá enviar mensajes a las colas de Microsoft Message Queuing (también conocido como MSMQ), así como efectuar la recepción desde éstas, mediante Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El adaptador de MSMQ admite Message Queue Server 4.0. El adaptador funciona con colas remotas y locales, públicas y privadas, y transaccionales y no transaccionales. Además, el adaptador de MSMQ ofrece compatibilidad para mensajes de gran tamaño (más de 4 MB), y proporciona acceso a características de Message Queuing 4.0 como, por ejemplo, lecturas transaccionales remotas y lectura desde subcolas.  
   
- Si ha actualizado la instalación de BizTalk Server a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], no se quitará el adaptador de BizTalk Server 2009 para MSMQ. Puesto que [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] instala una nueva versión del adaptador de MSMQ, podrá desinstalar el adaptador de BizTalk Server 2009 para MSMQ con toda seguridad y, a continuación, quitar manualmente la estructura de directorios de esta versión del adaptador.
+ Si ha actualizado la instalación de BizTalk Server a BizTalk Server, no se quita el adaptador de BizTalk Server 2009 para MSMQ. Dado que BizTalk Server instala una nueva versión del adaptador de MSMQ, puede desinstalar de manera segura el adaptador de BizTalk Server 2009 para MSMQ y, a continuación, quitar manualmente la estructura de directorios para esta versión del adaptador.

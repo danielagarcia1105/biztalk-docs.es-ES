@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71f689b035f926e0fd5bbdaa159e1450fbad92b8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1164cb59bf7fe0e168834f60364cd82f871b3ae0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-e-business-suite-using-select-statement-with-the-wcf-channel-model"></a>Sondeo Oracle E-Business Suite con la instrucción SELECT con el modelo de canal WCF
 Puede configurar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir mensajes de cambio de datos periódicos utilizando una instrucción SELECT para las tablas de interfaz un sondeo continuo, interfaz vistas, tablas y vistas de Oracle E-Business Suite. Puede especificar una instrucción SELECT como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear Oracle E-Business Suite. También puede especificar un bloque de código de PL/SQL de sondeo posterior a la que el adaptador se ejecuta después de ejecutar la instrucción de sondeo.  
@@ -184,7 +184,7 @@ Puede configurar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapter
 ### <a name="example"></a>Ejemplo  
  En el ejemplo siguiente se muestra una aplicación de sondeo que sondea la tabla de interfaz MS_SAMPLE_EMPLOYEE. El **PollingInput** propiedad contiene la instrucción select que lee todos los datos de la tabla MS_SAMPLE_EMPLOYEE y la instrucción de sondeo de envío, elimina todos los datos de la misma tabla. Se escribe el mensaje de sondeo en `C:\PollingOutput.xml`.  
   
- Mensajes de sondeo subsiguiente no contendrá ningún registro hasta que se agregan más datos a la tabla de interfaz MS_SAMPLE_EMPLOYEE. Puede hacerlo ejecutando el script insert_apps_data.sql proporcionado con los ejemplos. Después de ejecutar este script, la siguiente operación de sondeo capturará los nuevos registros que se insertan en la tabla. El adaptador seguirá sondea hasta que cierre el host de servicio presionando \<devolver >.  
+ Mensajes de sondeo subsiguiente no contendrá ningún registro hasta que se agregan más datos a la tabla de interfaz MS_SAMPLE_EMPLOYEE. Puede hacerlo ejecutando el script insert_apps_data.sql proporcionado con los ejemplos. Después de ejecutar este script, la siguiente operación de sondeo capturará los nuevos registros que se insertan en la tabla. El adaptador seguirá sondea hasta que cierre el host de servicio presionando \<devolver\>.  
   
 ```  
 using System;  

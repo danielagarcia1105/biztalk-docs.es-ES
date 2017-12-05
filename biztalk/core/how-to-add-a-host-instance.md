@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a446f5527bf06164d14079c0bb40f2f41942f38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4c2e029e9599143c52577771a313d9810ca6f12
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="add-a-host-instance"></a>Agregar una instancia de Host
 
@@ -78,7 +78,7 @@ Puede usar Instrumental de administración de Windows (WMI) o la consola de admi
   
  Si se intenta crear una instancia de un host de BizTalk en un equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que no está disponible, se muestra un cuadro de diálogo con el siguiente mensaje de error:  
   
- Instalación de la instancia de host \< *nombre de host*> en el servidor \< *nombre del servidor*> error.  
+ Instalación de la instancia de host \< *nombre de host* \> en servidor \< *nombre del servidor* \> error.  
   
  Información adicional:  
   
@@ -86,11 +86,11 @@ Puede usar Instrumental de administración de Windows (WMI) o la consola de admi
   
  Cuando se hace clic en Aceptar para omitir el cuadro de diálogo, aparecerá otro cuadro de diálogo con el siguiente mensaje de error:  
   
- Limpiar anuló la instalación de host \< *nombre de host*> en el servidor \< *nombre del servidor*> error.  
+ Limpiar anuló la instalación de host \< *nombre de host* \> en servidor \< *nombre del servidor* \> error.  
   
  Información adicional:  
   
- Se produjo un error al eliminar el servicio de Windows NT BTSSvc {*\<GUID >*}. (WinMgmt)  
+ Se produjo un error al eliminar el servicio de Windows NT BTSSvc {*\<GUID\>*}. (WinMgmt)  
   
  Al hacer clic en **Aceptar** para cerrar este cuadro de diálogo, la instancia del host de BizTalk se verá en la consola de administración de BizTalk con un **estado** de **desinstalar no se pudo** .  
   

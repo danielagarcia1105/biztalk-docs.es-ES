@@ -13,16 +13,16 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac62241b8c3bf3244bb9e055a5b744acd5080048
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 39d18b32e1b499009e7559a68d7e60e6ba43f28c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-inventory-for-the-service-oriented-solution"></a>Solución orientada a servicios de inventario de archivos para el servicio
-En esta sección se enumeran los subdirectorios y los archivos de origen para la solución orientada a servicios. El directorio de instalación predeterminado para los archivos de origen de la solución orientada a servicios es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación >.  
+En esta sección se enumeran los subdirectorios y los archivos de origen para la solución orientada a servicios. El directorio de instalación predeterminado para los archivos de origen de la solución orientada a servicios es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación\>.  
   
- Los archivos \<directorio de instalación > \BTSSoln  
+ Los archivos \<directorio de instalación\>\BTSSoln  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -31,14 +31,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ReplacePKToken.wsf|Archivo de secuencia de comandos para el VBScript ReplacePKToken.|  
 |SetupBTSSoln.bat|Crea una clave pública, actualiza las referencias a la clave pública y compila la solución. Para obtener información acerca de cómo implementar la solución, vea [implementar la solución orientada a servicios](../core/deploying-the-service-oriented-solution.md).|  
   
- Los archivos \<directorio de instalación > \BTSSoln\BAM  
+ Los archivos \<directorio de instalación\>\BTSSoln\BAM  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |ServiceLevelTracking.xls|Hoja de cálculo de Excel para los datos de SAE.|  
 |ServiceLevelTracking.xml|Esquema que define los tipos de elementos de datos de SAE.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Bindings  
+ Los archivos \<directorio de instalación\>\BTSSoln\Bindings  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -46,7 +46,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |InlineSOAOrchBindings.xml|Archivos de enlace para la versión en línea de la solución.|  
 |StubSOAOrchBindings.xml|Archivos de enlace para la versión de código auxiliar de la solución.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\ConfigHelper  
+ Los archivos \<directorio de instalación\>\BTSSoln\ConfigHelper  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -55,21 +55,21 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ConfigParameters.cs|Archivo de código C# para los métodos de ayuda de la configuración SSO.|  
 |ConfigPropertyBag.cs|Archivo de código C# para la bolsa de propiedades que utilizan los métodos de ayuda de la configuración SSO.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\ErrorHelper  
+ Los archivos \<directorio de instalación\>\BTSSoln\ErrorHelper  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |CustomerServiceErrors.cs|Archivo de código C# para los errores de atención al cliente.|  
 |ErrorHelper.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\InPipeline  
+ Los archivos \<directorio de instalación\>\BTSSoln\InPipeline  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |InPipeline.btp|Canalización de recepción que agrega un vale de SSO al mensaje.|  
 |InPipeline.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\InPipelineComp  
+ Los archivos \<directorio de instalación\>\BTSSoln\InPipelineComp  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -79,7 +79,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |SSOTicketIssuer.resx|Archivo de recursos.|  
 |SSOTicketIssuerIcon.bmp|Archivo de icono para el componente de canalización.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Maps  
+ Los archivos \<directorio de instalación\>\BTSSoln\Maps  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -94,7 +94,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CustomerServiceRequest_To_PendingTransactionsRequest.btm|Asignación para convertir una solicitud de atención al cliente en un mensaje para solicitar la información de la transacción pendiente.|  
 |Maps.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Adapter  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Adapter  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -103,7 +103,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CustomerServiceReceiveSend.odx|Versión del adaptador de orquestación que actúa como front-end a la **CustomerService** orquestación.|  
 |Orchestrations.Adapter.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -115,7 +115,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Reference.xsd|Archivo generado.|  
 |Reference1.xsd|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -126,7 +126,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubSAPWS.disco|Archivo generado.|  
 |StubSAPWS.wsdl|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Inline  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Inline  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -135,7 +135,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CustomerServiceReceiveSend.odx|Versión en línea de orquestación que actúa como front-end a la **CustomerService** orquestación.|  
 |Orchestrations.Inline.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Stub  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Stub  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -143,7 +143,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |CustomerServiceNativeRequestResponse.odx|Versión de código auxiliar de orquestación que actúa como front-end a la **CustomerService** orquestación.|  
 |Orchestrations.Stub.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -155,7 +155,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubPendTransWS.disco|Archivo generado.|  
 |StubPendTransWS.wsdl|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -167,7 +167,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubPmntTrckWS.disco|Archivo generado.|  
 |StubPmntTrckWS.wsdl|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
+ Los archivos \<directorio de instalación\>\BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -178,7 +178,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubSAPWS.disco|Archivo generado.|  
 |StubSAPWS.wsdl|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Adapter  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Adapter  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -190,7 +190,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Web.config|Archivo generado.|  
 |WsdlExtension.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Adapter\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Adapter\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -199,7 +199,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |datatypes.cs|Archivo generado.|  
 |global.asax.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Inline  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Inline  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -211,7 +211,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Web.config|Archivo generado.|  
 |WsdlExtension.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Inline\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Inline\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -220,7 +220,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |datatypes.cs|Archivo generado.|  
 |global.asax.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Stub  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Stub  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -232,7 +232,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |Web.config|Archivo generado.|  
 |WsdlExtension.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\OrchProxy\Stub\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\OrchProxy\Stub\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -241,7 +241,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |datatypes.cs|Archivo generado.|  
 |global.asax.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\PaymentTracker  
+ Los archivos \<directorio de instalación\>\BTSSoln\PaymentTracker  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -253,7 +253,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PaymentTrackerSimulator.cs|Código C# para el servidor para el simulador de seguimiento de pago.|  
 |runit.cmd|Archivo de comandos para iniciar el simulador de seguimiento de pago.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\PaymentTrackerCall  
+ Los archivos \<directorio de instalación\>\BTSSoln\PaymentTrackerCall  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -262,7 +262,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PaymentTrackerCall.csproj|Archivo de proyecto de C#.|  
 |PaymentTrackerCaller.cs|Código C# para llamar al sistema de seguimiento de pagos en línea desde las orquestaciones.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\PendTransCall  
+ Los archivos \<directorio de instalación\>\BTSSoln\PendTransCall  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -274,7 +274,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PendTransCall.csproj|Archivo de proyecto de C#.|  
 |WebServiceReference.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\PmTrkPipeline  
+ Los archivos \<directorio de instalación\>\BTSSoln\PmTrkPipeline  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -282,7 +282,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PaymentTrackerSendPipeline.btp|Canalización de envío para el sistema de seguimiento de pagos.|  
 |PmTrkPipeline.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\PmTrkPipelineComp  
+ Los archivos \<directorio de instalación\>\BTSSoln\PmTrkPipelineComp  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -291,7 +291,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |MQSeriesHeaderSetter.resx|Archivo de recursos.|  
 |PmTrkPipelineComp.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\SchemaClasses  
+ Los archivos \<directorio de instalación\>\BTSSoln\SchemaClasses  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -305,7 +305,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PendingTransactionsResponse.cs|Se generó a partir del archivo de esquema (.xsd) correspondiente.|  
 |SchemaClasses.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Schemas  
+ Los archivos \<directorio de instalación\>\BTSSoln\Schemas  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -319,7 +319,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PendingTransactionsResponse.xsd|Esquema para el mensaje de respuesta de transacción pendiente.|  
 |Schemas.btproj|Archivo de proyecto de BizTalk.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Scripts  
+ Los archivos \<directorio de instalación\>\BTSSoln\Scripts  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -341,7 +341,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |UnEnlistAll.vbs|Archivo de comandos que da de baja todas las orquestaciones.|  
 |UnEnlistStub.vbs|Archivo de comandos para dar de baja las versiones de código auxiliar de las orquestaciones.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\ServiceLevelTracking  
+ Los archivos \<directorio de instalación\>\BTSSoln\ServiceLevelTracking  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -349,7 +349,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ServiceLevelTracking.cs|Funciones auxiliares de C# para el seguimiento de nivel de servicio de SAE.|  
 |ServiceLevelTracking.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\SimpleClient  
+ Los archivos \<directorio de instalación\>\BTSSoln\SimpleClient  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -364,7 +364,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |SimpleClient.resx|Archivo de recursos.|  
 |WebServiceReferences.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\PaymentTrack  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\PaymentTrack  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -375,7 +375,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubPmntTrckWS.asmx.resx|Archivo generado.|  
 |Web.config|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\PaymentTrack\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\PaymentTrack\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -383,7 +383,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |global.asax.cs|Archivo generado.|  
 |StubPmntTrckWS.asmx.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\PendingTrans  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\PendingTrans  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -394,7 +394,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubPendTransWS.csproj.webinfo|Archivo generado.|  
 |Web.config|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\PendingTrans\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\PendingTrans\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -402,7 +402,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |global.asax.cs|Archivo generado.|  
 |StubPendTransWS.asmx.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\SAP  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\SAP  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -413,7 +413,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubSAPWS.asmx.resx|Archivo generado.|  
 |Web.config|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\SAP\app_code  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\SAP\app_code  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -421,7 +421,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |global.asax.cs|Archivo generado.|  
 |stubsapws.asmx.cs|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\StubWebServices\StubSAPCall  
+ Los archivos \<directorio de instalación\>\BTSSoln\StubWebServices\StubSAPCall  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -431,7 +431,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |StubSAPCallHelper.cs|Código C# para que un ensamblado auxiliar llame al servicio Web SAP de código auxiliar.|  
 |StubSAPWSProxy.cs|Código C# para que un ensamblado auxiliar llame al servicio Web SAP de código auxiliar.|  
   
- Los archivos \<directorio de instalación > \BTSSoln\Utilities  
+ Los archivos \<directorio de instalación\>\BTSSoln\Utilities  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -440,14 +440,14 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |ReceivePipelineHelper.cs|Código C# para que un ensamblado auxiliar llame a las canalizaciones desde las orquestaciones.|  
 |Utilities.csproj|Archivo de proyecto de C#.|  
   
- Los archivos \<directorio de instalación > \MFAccess  
+ Los archivos \<directorio de instalación\>\MFAccess  
   
 |Archivo|Description|  
 |----------|-----------------|  
 |Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln|Archivo de solución de Visual Studio.|  
 |SetupMFAccess.bat|Archivo por lotes que genera los componentes de acceso de los grandes sistemas (mainframes) a la solución.|  
   
- Los archivos \<directorio de instalación > \MFAccess\HISTIComponent  
+ Los archivos \<directorio de instalación\>\MFAccess\HISTIComponent  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -456,7 +456,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |MainFrameProgramVTCS2Description.txt|Archivo de exportación de Transaction Integrator.|  
 |SOHISTIUsingCOM.TLB|Biblioteca de tipos.|  
   
- Los archivos \<directorio de instalación > \MFAccess\HISTISimpleTester  
+ Los archivos \<directorio de instalación\>\MFAccess\HISTISimpleTester  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -467,7 +467,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |HISTISimpleTester.csproj|Archivo de proyecto de C#.|  
 |Interop.SOHISTIUsingCOM.dll.reg|Archivo de registro DLL.|  
   
- Los archivos \<directorio de instalación > \MFAccess\PendingTransactions  
+ Los archivos \<directorio de instalación\>\MFAccess\PendingTransactions  
   
 |Archivo|Description|  
 |----------|-----------------|  
@@ -482,7 +482,7 @@ En esta sección se enumeran los subdirectorios y los archivos de origen para la
 |PendTransWS.asmx.resx|Archivo generado.|  
 |Web.config|Archivo generado.|  
   
- Los archivos \<directorio de instalación > \MFAccess\SchemaClasses  
+ Los archivos \<directorio de instalación\>\MFAccess\SchemaClasses  
   
 |Archivo|Description|  
 |----------|-----------------|  

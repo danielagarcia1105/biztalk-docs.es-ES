@@ -17,11 +17,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a2c3c464e4b06e65ab15059da6ec3c36179ff25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2dde3f351c583be9037127c060d02c98d12b2fcb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility"></a>Cómo implementar perfiles de seguimiento con la utilidad de administración de perfiles de seguimiento
 Un gestor empresarial pide a un programador de soluciones que cree un nuevo perfil de seguimiento o que modifique uno ya existente para administrar y supervisar mejor un proceso empresarial específico de la organización.  
@@ -38,16 +38,16 @@ Un gestor empresarial pide a un programador de soluciones que cree un nuevo perf
   
 ### <a name="to-deploy-the-tracking-profile-from-the-command-line-utility"></a>Para implementar el perfil de seguimiento desde la utilidad de línea de comandos  
   
-1.  Desde un símbolo del sistema, desplácese hasta el directorio \<ruta de acceso de instalación > \Program BizTalk Server \<versión > \Tracking\\.  
+1.  Desde un símbolo del sistema, desplácese hasta el directorio \<ruta de acceso de instalación\>\Program BizTalk Server \<versión\>\Tracking\\.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
-2.  Tipo de **bttdeploy.exe \<nombre de perfil > btt**.  
+2.  Tipo de **bttdeploy.exe \<nombre de perfil\>.btt**.  
   
 3.  Presione ENTRAR.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
  [Recomendaciones de seguridad BAM](../core/bam-security-recommendations.md)   
- [Actividad económica (BAM) de supervisión](../core/business-activity-monitoring-bam.md)
+ [Supervisión de la actividad económica (BAM)](../core/business-activity-monitoring-bam.md)

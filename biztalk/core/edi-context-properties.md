@@ -12,14 +12,14 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc98b010edfbc92a07af5625af16a3af77674247
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36e2f9fcc839625cc0b1ac01ec6e70b53eb2a6e2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-context-properties"></a>Propiedades de contexto de EDI
-Las propiedades de contexto del mensaje del esquema de propiedades global de EDI están expuestos públicamente, lo que permite a los usuarios utilizarlos en operaciones como el enrutamiento de mensajes. Estas propiedades de contexto están definidas en el archivo PropertySchema.xsd del ensamblado Microsoft.BizTalk.Edi.BaseArtifacts. El espacio de nombres para las propiedades es `http://schemas.microsoft.com/ Edi/PropertySchema`. Si se promocionan, estas propiedades de contexto de mensaje están disponibles como Edi. \< *Nombre de la propiedad*> en el **filtros** página de la **cuadro de diálogo de propiedades de puerto de envío** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+Las propiedades de contexto del mensaje del esquema de propiedades global de EDI están expuestos públicamente, lo que permite a los usuarios utilizarlos en operaciones como el enrutamiento de mensajes. Estas propiedades de contexto están definidas en el archivo PropertySchema.xsd del ensamblado Microsoft.BizTalk.Edi.BaseArtifacts. El espacio de nombres para las propiedades es `http://schemas.microsoft.com/ Edi/PropertySchema`. Si se promocionan, estas propiedades de contexto de mensaje están disponibles como Edi. \< *Nombre de la propiedad* \> en el **filtros** página de la **cuadro de diálogo de propiedades de puerto de envío** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
 
 ## <a name="context-properties-list"></a>Lista de propiedades de contexto  
@@ -42,8 +42,8 @@ Las propiedades de contexto del mensaje del esquema de propiedades global de EDI
 |BatchName|String|El nombre de la configuración del lote que se usará al procesar este documento.|  
 |CodePage|string|La página de códigos que se usará para validar el intercambio.|  
 |CONTRL_UCI4|string|El campo de código de acción de una confirmación CONTRL, que indica si el intercambio se ha aceptado (con el valor "8") o rechazado a causa de un error en el segmento UNA o UNB (con el valor "4") (sólo confirmación de CONTRL de EDIFACT).|  
-|DestinationPartyID (en desuso en [!INCLUDE[prague](../includes/prague-md.md)])|int|El Id. de la entidad de destino a la que debe enviarse el mensaje.|  
-|DestinationPartyName (en desuso en [!INCLUDE[prague](../includes/prague-md.md)])|string|El nombre de la entidad de destino a la que debe enviarse el mensaje.|  
+|DestinationPartyID (en desuso en BizTalk Server)|int|El Id. de la entidad de destino a la que debe enviarse el mensaje.|  
+|DestinationPartyName (en desuso en BizTalk Server)|string|El nombre de la entidad de destino a la que debe enviarse el mensaje.|  
 |DestinationPartyReceiver<br />Identificador|string|El identificador de la entidad de destino a la que debe enviarse el mensaje. Esta propiedad puede promocionarse en un componente personalizado para habilitar la resolución de entidades en la canalización de envío.|  
 |DestinationPartyReceiver<br />Qualifier|string|El calificador de la entidad de destino a la que debe enviarse el mensaje. Esta propiedad puede promocionarse en un componente personalizado para habilitar la resolución de entidades en la canalización de envío.|  
 |DestinationPartySender<br />Identificador|string|El identificador de la entidad que envía el mensaje a la entidad de destino. Esta propiedad puede promocionarse en un componente personalizado para habilitar la resolución de entidades en la canalización de envío.|  
@@ -95,7 +95,7 @@ Las propiedades de contexto del mensaje del esquema de propiedades global de EDI
   
  Si necesita que un campo individual de uno de los segmentos (ISA, GS, UNB, UNG o UNA) se escriba en el contexto del mensaje, pero la escritura no se lleva a cabo de forma predeterminada, tendrá que escribir un componente personalizado para escribirla en el contexto de mensaje. Este componente personalizado debe analizar los campos del segmento y escribir un campo individual en el contexto del mensaje.  
   
- El ejemplo Message Enrichment muestra cómo utilizar un analizador para extraer los campos individuales de los segmentos y escribirlos en el contexto. En este ejemplo se incluye en el \<unidad >: \Program [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\EDI\MessageEnrichment. Para obtener más información, consulte [ejemplo de enriquecimiento de mensajes (ejemplo de BizTalk Server)](../core/message-enrichment-sample-biztalk-server-sample.md).  
+ El ejemplo Message Enrichment muestra cómo utilizar un analizador para extraer los campos individuales de los segmentos y escribirlos en el contexto. En este ejemplo se incluye en el \<unidad\>: \Program BizTalk Server\SDK\Samples\EDI\MessageEnrichment. Para obtener más información, consulte [ejemplo de enriquecimiento de mensajes (ejemplo de BizTalk Server)](../core/message-enrichment-sample-biztalk-server-sample.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar y configurar soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)
+ [Desarrollo y configuración de soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

@@ -12,17 +12,17 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 876cdb5f3740e5f06d00a536e1459c64ac886d89
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 488a87539228a90ac427339e260653a141eb7121
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="clustering-receiving-hosts"></a>Clústeres de Hosts de recepción
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]proporciona la funcionalidad que le permite configurar un Host de BizTalk como un recurso agrupado dentro de un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] grupo de clúster. Compatibilidad con clústeres de host se proporciona para admitir alta disponibilidad integrados de BizTalk adaptadores de recepción que no se deben ejecutar en varias instancias de host al mismo tiempo, como controlador de recepción FTP o, en determinadas circunstancias, controlador de recepción de POP3. También se proporciona la funcionalidad de agrupación de hosts para garantizar la coherencia transaccional de los mensajes enviados o recibidos por el adaptador de MSMQ en escenarios que requieren que el servicio MSMQ esté agrupado.  
+BizTalk Server proporciona la funcionalidad que le permite configurar un Host de BizTalk como un recurso agrupado dentro de un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] grupo de clúster. Compatibilidad con clústeres de host se proporciona para admitir alta disponibilidad integrados de BizTalk adaptadores de recepción que no se deben ejecutar en varias instancias de host al mismo tiempo, como controlador de recepción FTP o, en determinadas circunstancias, controlador de recepción de POP3. También se proporciona la funcionalidad de agrupación de hosts para garantizar la coherencia transaccional de los mensajes enviados o recibidos por el adaptador de MSMQ en escenarios que requieren que el servicio MSMQ esté agrupado.  
   
 > [!NOTE]  
->  Clústeres de host solo está disponible con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Enterprise Edition.  
+>  Clústeres de host solo está disponible con BizTalk Server Enterprise Edition.  
   
 > [!NOTE]  
 >  Para agrupar un Host de BizTalk debe haber configurado al menos dos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos en un grupo de BizTalk como miembros de un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] clúster. Para obtener más información acerca de cómo configurar un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] de clúster, consulte [documentos de agrupación en clústeres de Windows Server 2008, notas del producto, difusiones por Web, grupos de](http://go.microsoft.com/fwlink/?LinkId=156818) (http://go.microsoft.com/fwlink/?LinkId=156818).  
@@ -47,4 +47,4 @@ ms.lasthandoff: 09/20/2017
 ## <a name="see-also"></a>Vea también  
  [El escalado de Hosts de recepción](../technical-guides/scaling-out-receiving-hosts.md)   
  [Ajuste de escala en Hosts de procesamiento](../technical-guides/scaling-out-processing-hosts.md)   
- [El escalado de Hosts de envío](../technical-guides/scaling-out-sending-hosts.md)
+ [Escalado horizontal de hosts de envío](../technical-guides/scaling-out-sending-hosts.md)

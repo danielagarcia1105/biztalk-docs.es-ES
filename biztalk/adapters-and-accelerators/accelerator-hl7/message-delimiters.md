@@ -21,11 +21,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d6e5cf3c013f0a9bedf8c412206aebe1ce2e3f16
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e25e4fad2eb9e32c87f8a395bd924fc4a1f2eb5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-delimiters"></a>Delimitadores de mensaje
 Eventos de mensaje definidos por los estándares de HL7 adoptan la forma siguiente:  
@@ -38,7 +38,7 @@ Eventos de mensaje definidos por los estándares de HL7 adoptan la forma siguien
   
 |Delimitador|Valor|Uso|  
 |---------------|-----------|-----------|  
-|Terminador de segmento|\<CR >|Un retorno de carro finaliza un registro de segmento. No se puede cambiar este valor.|  
+|Terminador de segmento|\<CR\>|Un retorno de carro finaliza un registro de segmento. No se puede cambiar este valor.|  
 |Separador de campos|&#124;|Un carácter de barra vertical separa los dos campos de datos adyacentes en un segmento. También se separa el identificador de segmento del primer campo de datos en cada segmento.|  
 |Separador de componentes|^|Un carácter de hat separa los componentes adyacentes de datos de campos donde lo permite el estándar HL7.|  
 |Separador de subcomponentes|&|Un carácter de "y" comercial separa los subcomponentes adyacentes de datos campos donde lo permite el estándar HL7. Si no hay ningún subcomponentes, puede omitir este carácter.|  
@@ -48,4 +48,4 @@ Eventos de mensaje definidos por los estándares de HL7 adoptan la forma siguien
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes HL7](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
  [Procesamiento de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)   
- [Utilizar esquemas 2.X HL7](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)
+ [Uso de esquemas HL7 2.X](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)

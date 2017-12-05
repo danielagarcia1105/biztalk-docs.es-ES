@@ -19,11 +19,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb913c1719f4833ef36cf9f73f6a96432217f2af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b2e8348cdf78db3e95ed75e5d83e6ea53bdffdee
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-password-synchronization"></a>Cómo configurar la sincronización de contraseña
 La utilidad de línea de comandos SSOCONFIG se utiliza para establecer la configuración de la sincronización de contraseñas.  
@@ -34,9 +34,9 @@ La utilidad de línea de comandos SSOCONFIG se utiliza para establecer la config
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssoconfig - replayfiles \<directorio de archivos de reproducción > &#124; - predeterminado** y presione ENTRAR.  
+4.  Tipo de **ssoconfig - replayfiles \<directorio de archivos de reproducción\> &#124; - predeterminado** y presione ENTRAR.  
   
 > [!NOTE]
 >  Los archivos de reproducción no se eliminan al cambiar la cuenta de servicio. Si se cambia esta cuenta, será necesario eliminar los archivos de reproducción de forma manual.  
@@ -47,12 +47,12 @@ La utilidad de línea de comandos SSOCONFIG se utiliza para establecer la config
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssoconfig - syncage \<antigüedad máxima de contraseña en horas >** y presione ENTRAR.  
+4.  Tipo de **ssoconfig - syncage \<antigüedad máxima de contraseña en horas\>**  y presione ENTRAR.  
   
 > [!NOTE]
 >  La utilidad SSOCONFIG usa la hora del equipo de SQL Server como la hora del sistema. Téngalo en cuenta al utilizar cualquier comando relacionado con la hora.  
   
 ## <a name="see-also"></a>Vea también  
- [Sincronización de contraseña](../core/password-synchronization2.md)
+ [Sincronización de contraseñas](../core/password-synchronization2.md)

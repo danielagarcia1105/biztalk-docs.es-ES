@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8c9bf8691701aa9fba8060865fcd3cb5abfba06
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 089942c8b531575c157c0037777e85fe6d8608a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="design-of-the-esb-exception-management-framework"></a>Diseño de la estructura de administración de la excepción de ESB
 Patrones coherentes y reutilizables para administrar las excepciones son una consideración principal de cualquier proyecto de desarrollo; ayudan a maximizar la facilidad de mantenimiento y facilitan la compatibilidad con la aplicación después de la implementación.  
@@ -50,24 +50,24 @@ Patrones coherentes y reutilizables para administrar las excepciones son una con
   
 -   Detectar independientemente de que se produjo una excepción.  
   
--   Guardar de forma manual el mensaje con errores en el disco mediante el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración.  
+-   Guardar el mensaje con errores en el disco mediante la consola de administración de BizTalk Server de forma manual.  
   
 -   Manualmente editar y corregir el mensaje y volver a enviarla al sistema. En algunos casos, este proceso tiene el potencial de pérdida de información de contexto importante.  
   
- Para resolver estos problemas, [!INCLUDE[prague](../includes/prague-md.md)] proporciona el mecanismo de enrutamiento de mensajes de error. Los desarrolladores y administradores pueden utilizar esto para crear procesos de orquestación o mensajería puertos de envío configurados para suscribirse a las excepciones que aparecen en el subsistema de mensajería. Esto proporciona una detección de errores automatizada y el mecanismo de enrutamiento que conserva el estado del mensaje original y se resuelve el problema de detectar las excepciones.  
+ Para resolver estos problemas, BizTalk Server proporciona el mecanismo de enrutamiento de mensajes de error. Los desarrolladores y administradores pueden utilizar esto para crear procesos de orquestación o mensajería puertos de envío configurados para suscribirse a las excepciones que aparecen en el subsistema de mensajería. Esto proporciona una detección de errores automatizada y el mecanismo de enrutamiento que conserva el estado del mensaje original y se resuelve el problema de detectar las excepciones.  
   
  Porque no se proporciona el enrutamiento automático de mensajes error para los procesos de orquestación, el desarrollador debe tener en cuenta si hay errores mediante la adición de bloques de controlador de excepción para formas de ámbito de la orquestación. Con esta solución, cada orquestación puede tener su propio control de excepciones, pero no hay ningún mecanismo para volver a usar la funcionalidad de control a través de varias orquestaciones de excepciones.  
   
  Esto significa que ahora hay dos maneras muy diferentes en el que las excepciones de mensajes se procesan y administran en un sistema de BizTalk Server y una tercera forma de en qué orquestación se procesan las excepciones. Por lo tanto, los desarrolladores deben personalizar el mecanismo para satisfacer sus propias necesidades si van a implementar un sistema que cumple los requisitos descritos anteriormente en esta sección de control de excepciones.  
   
 ## <a name="biztalk-server-administration-console"></a>Consola de administración de BizTalk Server  
- El [!INCLUDE[prague](../includes/prague-md.md)] consola de administración proporciona un conjunto de páginas de información general del grupo, denominados el concentrador de grupo de BizTalk. Con estas páginas, los administradores para consultar mensajes suspendidos y excepciones agrupadas por aplicación, el nombre del servicio, el código de error o el URI, como se muestra en la figura 1.  
+ La consola de administración de BizTalk Server proporciona un conjunto de páginas de información general del grupo, denominados el concentrador de grupo de BizTalk. Con estas páginas, los administradores para consultar mensajes suspendidos y excepciones agrupadas por aplicación, el nombre del servicio, el código de error o el URI, como se muestra en la figura 1.  
   
  ![Consola de administración de](../esb-toolkit/media/ch4-adminconsole.gif "Ch4-AdminConsole")  
   
  **Figura 1**  
   
- **El [!INCLUDE[prague](../includes/prague-md.md)] páginas de información general sobre el grupo de consola de administración**  
+ **Las páginas de información general de grupo de BizTalk Server Administration Console**  
   
  Aunque la característica de información general de grupo proporciona una interfaz de usuario común para ver las excepciones, las vistas se limitan a "live" instancias de servicio. Examinar el estado puede ser una tarea compleja, dado que los administradores deben explorar en profundidad del árbol para cada elemento. Además, otros factores limitan las capacidades de la consola de administración de BizTalk Server como una herramienta de informes de excepción de aplicación:  
   
@@ -79,6 +79,6 @@ Patrones coherentes y reutilizables para administrar las excepciones son una con
   
 -   La consola muestra únicamente (instancias de servicio suspendidas) de las excepciones no controladas. Si el desarrollador controla la excepción en la orquestación, lo que permite la orquestación finalizar con normalidad, la información de excepción nunca aparecerá en la consola de administración.  
   
- El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] soluciona estas limitaciones mediante el mecanismo de excepción enrutamiento de orquestación de error de ESB. Esto se asemeja mucho el mecanismo de enrutamiento de mensajes de error de [!INCLUDE[prague](../includes/prague-md.md)]. Además, la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye un componente de canalización en un puerto de envío que se suscribe a los mensajes generados desde el mecanismo de excepción enrutamiento de orquestación de error de ESB y el mecanismo de enrutamiento de mensajes de error y normaliza ellos.  
+ El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] soluciona estas limitaciones mediante el mecanismo de excepción enrutamiento de orquestación de error de ESB. Esto parece el mecanismo de enrutamiento de mensajes de error del servidor BizTalk Server. Además, la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye un componente de canalización en un puerto de envío que se suscribe a los mensajes generados desde el mecanismo de excepción enrutamiento de orquestación de error de ESB y el mecanismo de enrutamiento de mensajes de error y normaliza ellos.  
   
  El marco de trabajo de administración de excepciones de ESB aprovecha las ventajas de otras características de BizTalk Server, como el modelo de suscripción y basado en eventos actividad supervisión económica (BAM). Esto significa que el marco de trabajo de administración de excepciones de ESB puede realizar un seguimiento de los puntos de datos de excepción con BAM y, a continuación, publicarlos en el Portal de BAM de BizTalk para la supervisión.

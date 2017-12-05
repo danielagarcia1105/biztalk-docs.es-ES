@@ -12,26 +12,26 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 033d40f069d52759c0014a75287370a7006c9f72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8684a2adadeb67352a6589d693a5e76261a98849
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-support-issues"></a>Problemas de compatibilidad con EDI
-En esta sección se describe cómo [!INCLUDE[prague](../includes/prague-md.md)] admite el procesamiento de EDI y AS2.  
+Esta sección describe cómo BizTalk Server admite el procesamiento de EDI y AS2.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Compatibilidad EDI en BizTalk Server](../core/edi-support-in-biztalk-server2.md)  
+-   [Compatibilidad con EDI en BizTalk Server](../core/edi-support-in-biztalk-server2.md)  
   
--   [Compatibilidad con los estándares EDI](../core/edi-standards-support.md)  
+-   [Compatibilidad con estándares EDI](../core/edi-standards-support.md)  
   
--   [Compatibilidad con esquema de documento EDI](../core/edi-document-schema-support.md)  
+-   [Compatibilidad con esquemas de documentos EDI](../core/edi-document-schema-support.md)  
   
--   [Compatibilidad con juego de caracteres de EDI](../core/edi-character-set-support.md)  
+-   [Compatibilidad de juegos de caracteres de EDI](../core/edi-character-set-support.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Compatibilidad EDI en BizTalk Server](../core/edi-support-in-biztalk-server1.md)   
  [Procesamiento de EDI en BizTalk Server](../core/edi-processing-in-biztalk-server.md)   
- [Arquitectura de la solución EDI](../core/edi-solution-architecture.md)
+ [Arquitectura de las soluciones EDI](../core/edi-solution-architecture.md)

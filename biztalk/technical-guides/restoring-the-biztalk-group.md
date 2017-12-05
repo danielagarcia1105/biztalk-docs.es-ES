@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c12a1deff8fea6d769f138aa34bf6dab269a167f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8e8d1741d89e8326cc68906644cf34e71bfcc8e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="restoring-the-biztalk-group"></a>Restaurar el grupo de BizTalk
 El grupo de BizTalk está representado por el conjunto de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] las bases de datos de Analysis Services, paquetes SSIS y trabajos del Agente SQL. En esta sección se describe el proceso para restaurar el grupo de BizTalk.  
@@ -25,14 +25,14 @@ El grupo de BizTalk está representado por el conjunto de [!INCLUDE[btsSQLServer
   
 1.  Restaurar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y bases de datos de Analysis Services.  
   
-2.  Restaurar [!INCLUDE[prague](../includes/prague-md.md)] en tiempo de ejecución servidores y aplicaciones.  
+2.  Restaurar las aplicaciones y servidores de BizTalk Server en tiempo de ejecución.  
   
  En la realización de estos pasos, el grupo de BizTalk se ha establecido en el sitio de recuperación ante desastres, el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden configurar servidores de tiempo de ejecución y las aplicaciones pueden implementarse en el grupo de BizTalk. Los temas de esta sección tratan los detalles de este proceso.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Detener el proceso en el sistema de origen de la aplicación](../technical-guides/stopping-application-processing-on-the-source-system.md)  
+-   [Detener el procesamiento de aplicaciones en el sistema de origen](../technical-guides/stopping-application-processing-on-the-source-system.md)  
   
--   [Cómo restaurar las bases de datos en el trabajo de copia de seguridad de BizTalk Server](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md)  
+-   [Cómo restaurar bases de datos en el trabajo de copia de seguridad de BizTalk Server](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md)  
   
--   [Restaurar bases de datos que no se incluye en el trabajo de copia de seguridad de BizTalk Server](../technical-guides/restoring-databases-not-included-in-the-backup-biztalk-server-job.md)
+-   [Restauración de bases de datos que no se incluyen en el trabajo de copia de seguridad de BizTalk Server](../technical-guides/restoring-databases-not-included-in-the-backup-biztalk-server-job.md)

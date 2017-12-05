@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 47332edbf974b7e45d3ab65644f28d9d2bd6a623
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa411b7ca828a45aa0d5e58212bb48195c48180f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8-on-premises-configure-the-biztalk-server-application"></a>Paso 8 (de forma local): Configurar la aplicación de BizTalk Server
 En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En este paso, compilará, implementará y configurará la aplicación.  
@@ -31,7 +31,7 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
   
     2.  Haga clic en el **firma** pestaña y seleccione la **firmar el ensamblado** casilla de verificación.  
   
-    3.  En la lista desplegable de la **elegir un archivo de clave de nombre seguro** cuadro, seleccione  **\<nuevo... >**.  
+    3.  En la lista desplegable de la **elegir un archivo de clave de nombre seguro** cuadro, seleccione  **\<nuevo... \>**.  
   
     4.  En el **crear clave de nombre seguro** diálogo cuadro, escriba un nombre para el archivo de clave, por ejemplo `OrderProcessingDemo.snk`. Desactive la casilla para proteger el archivo de clave con una contraseña y, a continuación, haga clic en **Aceptar**.  
   

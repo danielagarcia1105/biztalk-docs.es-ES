@@ -12,16 +12,16 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b2b5a0aadec9461d4ee951aa200246764e52f667
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dc5360cf5e76bfc6218f0fe54444b1651afdefae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-the-configuration-framework"></a>Trabajo con Configuration Framework
 Configuration Framework permite al usuario cambiar la configuración de forma rápida y sencilla durante la instalación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Junto con Microsoft Windows Installer (MSI), Configuration Framework determina e informa del estado del equipo y las tareas de configuración que requieren alguna acción.  
   
- Al configurar BizTalk Server por primer vez utilizando el Asistente para configuración, Configuration Framework genera un archivo XML (una instantánea de configuración) que puede modificar posteriormente (es decir, en el que puede cambiar nombres, contraseñas, etc.) y exportar a otros equipos. La instantánea de configuración se guarda en la página Resumen de configuración, una parte del Asistente para configuración. Puede modificar esta instantánea para replicar la configuración como parte de una instalación por secuencia de comandos. Este archivo se encuentra en \< *ruta de instalación de BizTalk*> \ConfigMain.xml.  
+ Al configurar BizTalk Server por primer vez utilizando el Asistente para configuración, Configuration Framework genera un archivo XML (una instantánea de configuración) que puede modificar posteriormente (es decir, en el que puede cambiar nombres, contraseñas, etc.) y exportar a otros equipos. La instantánea de configuración se guarda en la página Resumen de configuración, una parte del Asistente para configuración. Puede modificar esta instantánea para replicar la configuración como parte de una instalación por secuencia de comandos. Este archivo se encuentra en \< *ruta de instalación de BizTalk*\>\ConfigMain.xml.  
   
 > [!NOTE]
 >  Las contraseñas no se guardan en el archivo XML. Debe escribir una contraseña antes de usar este archivo.  

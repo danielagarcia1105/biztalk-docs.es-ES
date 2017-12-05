@@ -13,11 +13,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3f1baca3a561702546ca2fae10b1c567042cd387
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f20b35aca2c4fb35419153ccfb149aa34501b21a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-tracking-policy-execution"></a>Tutorial: Ejecución de la directiva de seguimiento
 Procedimientos paso a paso para habilitar el seguimiento de la **ProcessPurchaseOrder** Directiva así como para ver la información de seguimiento después de ejecutar la directiva.  
@@ -102,7 +102,7 @@ Completar la [Tutorial: modificar la directiva](../core/walkthrough-modifying-th
   
 -   La información de seguimiento de directiva es muy similar a la información de seguimiento que se ve en el Compositor de reglas de negocio cuando se prueba una directiva.  
   
--   Aunque el nombre de la orquestación es RuleTest.odx, el nombre que se ve es Orchestration_1, porque Nombre de tipo está establecido como Orchestration_1 para la orquestación a pesar de que se cambie su nombre. Seguimiento muestra el nombre de la orquestación con el formato \<Namespace >.\< Escriba el nombre >.  
+-   Aunque el nombre de la orquestación es RuleTest.odx, el nombre que se ve es Orchestration_1, porque Nombre de tipo está establecido como Orchestration_1 para la orquestación a pesar de que se cambie su nombre. Seguimiento muestra el nombre de la orquestación con el formato \<Namespace\>.\< Escriba el nombre\>.  
   
 -   Al eliminar una directiva de una aplicación de BizTalk con la consola de administración de BizTalk Server, ésta se elimina tanto de la aplicación como de la base de datos del motor de reglas. La directiva ya no aparecerá en el Compositor de reglas de negocio (presione F5 para actualizar la vista). Por tanto, se debe tener cuidado al eliminar una directiva de una aplicación.  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ff7fb7efbe41711213103224bdbcda11eeda6281
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 948ea484b5cc3138a73a67b384705ed73d9478b2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-3-testing-an-xml-instance"></a>Lección 3: Probar una instancia XML
 En esta lección, se envía un MT103 válido que creó en las lecciones anteriores de puertos de recepción de mensaje en formato XML en el archivo. Esta acción comprueba las canalizaciones de envío que creó en módulos anteriores. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]Escribe la salida como un archivo sin formato en la carpeta de salida que seleccionó para el puerto de envío en el módulo anterior.  
@@ -28,15 +28,15 @@ En esta lección, se envía un MT103 válido que creó en las lecciones anterior
   
 ### <a name="to-test-an-xml-instance"></a>Para probar una instancia XML  
   
-1.  En el Explorador de Windows, abra \< *unidad*>: \Labs\Outbound. Compruebe que esta carpeta contiene el archivo de {GUID} .xml que ha enviado a esta carpeta en [lección 1: enviar un archivo plano de ejemplo](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md) de este módulo.  
+1.  En el Explorador de Windows, abra \< *unidad*\>: \Labs\Outbound. Compruebe que esta carpeta contiene el archivo de {GUID} .xml que ha enviado a esta carpeta en [lección 1: enviar un archivo plano de ejemplo](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md) de este módulo.  
   
-2.  Copie el archivo XML y péguelo en \< *unidad*>: \Labs\Inbound\XMLFile. Tenga en cuenta el tiempo que pegó este archivo.  
+2.  Copie el archivo XML y péguelo en \< *unidad*\>: \Labs\Inbound\XMLFile. Tenga en cuenta el tiempo que pegó este archivo.  
   
-3.  Mover a \< *unidad*>: \Labs\Outbound. Compruebe que hay un archivo denominado .txt {GUID} en esta carpeta y que la hora en la columna de fecha de modificación de este archivo se corresponde con el tiempo que pegar el archivo en \< *unidad*>: \Labs\Inbound\XMLFile.  
+3.  Mover a \< *unidad*\>: \Labs\Outbound. Compruebe que hay un archivo denominado .txt {GUID} en esta carpeta y que la hora en la columna de fecha de modificación de este archivo se corresponde con el tiempo que pegar el archivo en \< *unidad*\>: \Labs\Inbound\ XMLFile.  
   
-4.  En el Bloc de notas, abra MT103_Sample.txt en \< *unidad*>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial.  
+4.  En el Bloc de notas, abra MT103_Sample.txt en \< *unidad*\>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial.  
   
-5.  En otra instancia del Bloc de notas, abra .txt {GUID} en \< *unidad*>: \Labs\Inbound\XMLFile.  
+5.  En otra instancia del Bloc de notas, abra .txt {GUID} en \< *unidad*\>: \Labs\Inbound\XMLFile.  
   
 6.  Compruebe que los dos archivos en el Bloc de notas contienen el mismo contenido.  
   

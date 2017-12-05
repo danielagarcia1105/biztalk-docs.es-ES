@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1898162b27956e4e527013ff765edf6aea440e9f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32dc7b0f73955c080f875eada2705300800df452
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="exporting-certificates"></a>Exportación de certificados
 En este tema se describe cómo exportar un certificado mediante el Asistente para exportación de certificados. Use este asistente para exportar un certificado público o un certificado privado.  
@@ -43,7 +43,7 @@ En este tema se describe cómo exportar un certificado mediante el Asistente par
   
 ### <a name="to-export-the-home-organization-certificate"></a>Para exportar el certificado de la organización principal  
   
-1.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **runas/user:\<servicio de host > mmc**, donde \< *hostservice* > es el nombre del servicio que asociado al servicio de host cuando instaló [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]y, a continuación, haga clic en **Aceptar** para ejecutar el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC) en el contexto de la servicio de host.  
+1.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **runas/user:\<hospedar servicio\> mmc**, donde \< *hostservice*  \> es el nombre del servicio que asociado al servicio de host cuando instaló [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]y, a continuación, haga clic en **Aceptar** para ejecutar el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] administración Console (MMC) en el contexto del servicio de host.  
   
     > [!NOTE]
     >  Ejecute el comando **runas** para asumir la identidad del servicio de host, que se requiere para acceder al certificado de la organización principal.  

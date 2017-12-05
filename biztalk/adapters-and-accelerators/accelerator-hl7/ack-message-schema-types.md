@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c29657226c993a68b8cd557a39a7837717e2c66
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09537a9fda34ee1148e3e4d880f17f35f83f761c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ack-message-schema-types"></a>Tipos de esquema de mensaje de confirmación
 Esquemas de mensaje de confirmación tienen dos formas:  
@@ -41,7 +41,7 @@ Esquemas de mensaje de confirmación tienen dos formas:
     |MSA|Confirmación de mensajes|2|  
     |[ERROR]|Error|2|  
   
- Mensajes de confirmación tienen el MSH9 campo establecido como **confirmación ^\<***eventos de desencadenador***> ^ confirmación** o **MCF ^\<**  *eventos de desencadenador***> ^ confirmación**. Como resultado, el primer componente de MSH9 es suficiente para determinar el esquema de confirmación. Nombre del documento que la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) utilizan canalizaciones siempre contiene HL7 como el espacio de nombres. El nombre de tipo es el contenido del campo MSH9_1, que es la confirmación o MCF. Como resultado, como se muestra en el ejemplo anterior, el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] canalización busca un esquema con los nombres de HL7. Confirmación o HL7. MCF, dependiendo del valor del campo MSH9_1. El esquema para el cuerpo del mensaje es el mismo para todos los mensajes de la versión 2.X.  
+ Mensajes de confirmación tienen el MSH9 campo establecido como **confirmación ^\<***eventos de desencadenador***\>^ confirmación** o **MCF ^\<**  *eventos de desencadenador***\>^ confirmación**. Como resultado, el primer componente de MSH9 es suficiente para determinar el esquema de confirmación. Nombre del documento que la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) utilizan canalizaciones siempre contiene HL7 como el espacio de nombres. El nombre de tipo es el contenido del campo MSH9_1, que es la confirmación o MCF. Como resultado, como se muestra en el ejemplo anterior, el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] canalización busca un esquema con los nombres de HL7. Confirmación o HL7. MCF, dependiendo del valor del campo MSH9_1. El esquema para el cuerpo del mensaje es el mismo para todos los mensajes de la versión 2.X.  
   
 > [!NOTE]
 >  En un lote en / lote escenario de confirmación, el contenido del encabezado de confirmación es como sigue:  
@@ -58,4 +58,4 @@ Esquemas de mensaje de confirmación tienen dos formas:
  [Creación y procesamiento de confirmaciones](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   
  [Segmento de confirmación del mensaje](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)   
  [Cómo configurar un puerto de envío para recibir mensajes de confirmación](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)   
- [Condiciones de Error de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-error-conditions.md)
+ [Condiciones de error de confirmación](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-error-conditions.md)

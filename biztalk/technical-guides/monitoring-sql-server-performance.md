@@ -1,7 +1,8 @@
 ---
-title: "Supervisión del rendimiento de SQL Server | Documentos de Microsoft"
+title: Supervisar el rendimiento de SQL Server | Documentos de Microsoft
+description: "Supervisar las bases de datos de BizTalk Server mediante herramientas de rendimiento, Monitor de actividad y la recopilación de datos"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/29/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,23 +13,22 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a5abdc3054576e03f28967017767112cea652f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e4f9db738298ec2a242350faae3ba5bc9da1c92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
-# <a name="monitoring-sql-server-performance"></a>Supervisión del rendimiento de SQL Server
-[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]proporciona varias herramientas para supervisar los eventos de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] y para optimizar el diseño físico de la base de datos. Estas herramientas se describen en el tema [herramientas para la supervisión de rendimiento y optimización](http://go.microsoft.com/fwlink/?LinkId=146357) (http://go.microsoft.com/fwlink/?LinkId=146357) en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla. Información sobre herramientas específicas que se usan para [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] a continuación se proporciona supervisión y optimización del rendimiento.  
+# <a name="monitor-sql-server-performance"></a>Supervisar el rendimiento de SQL Server
+SQL Server proporciona varias herramientas para supervisar los eventos de SQL Server y para optimizar el diseño físico de la base de datos. [Herramientas para la supervisión de rendimiento y optimización](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describe estas herramientas. 
   
-## <a name="sql-server-performance-monitoring-tools"></a>Herramientas de supervisión de rendimiento de SQL Server  
- Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es tal un proceso intensivo de la base de datos, a menudo resulta útil echar un vistazo a lo que ocurre en SQL Server cuando solucione problemas de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] problemas de rendimiento. El resto de este tema describe las herramientas disponibles para revisar los datos archivados y en tiempo real en de supervisión de rendimiento [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] y [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)].  
+BizTalk Server es un proceso intensivo de la base de datos. al solucionar problemas de rendimiento de BizTalk Server, puede ser beneficioso comprobar el rendimiento de SQL Server. Pueden ayudar las herramientas siguientes.  
   
-### <a name="sql-server-2008-r2-activity-monitor"></a>Monitor de actividad SQL Server 2008 R2  
- [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]Monitor de actividad proporciona información acerca de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] procesos y cómo estos procesos afectan a la instancia actual de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Para obtener más información acerca de [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] Monitor de actividad, vea [Monitor de actividad](http://go.microsoft.com/fwlink/?LinkId=146355) (http://go.microsoft.com/fwlink/?LinkId=146355) en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla. Para obtener información acerca de cómo abrir el Monitor de actividad de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Studio, consulte [Cómo: abrir el Monitor de actividad (SQL Server Management Studio](http://go.microsoft.com/fwlink/?LinkId=135094) (http://go.microsoft.com/fwlink/?LinkId=135094) en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla.  
+## <a name="sql-server-activity-monitor"></a>Monitor de actividad SQL Server  
+Monitor de actividad de SQL Server proporciona información acerca de los procesos de SQL Server y cómo estos procesos afectan a la instancia actual de SQL Server. Para obtener más información, consulte [Monitor de actividad](https://docs.microsoft.com/sql/relational-databases/performance-monitor/activity-monitor), y [Cómo: abrir el Monitor de actividad (SQL Server Management Studio](https://docs.microsoft.com/sql/relational-databases/performance-monitor/open-activity-monitor-sql-server-management-studio). 
   
-### <a name="sql-server-2008-r2-data-collection"></a>Recopilación de datos SQL Server 2008 R2  
- [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] proporciona un recopilador de datos que puede utilizar para obtener y guardar datos recopilados de varios orígenes. El recopilador de datos permite usar contenedores de recopilación de datos, que permiten determinar el ámbito y la frecuencia de recopilación de datos en un equipo que está ejecutando [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]. Para obtener más información acerca de cómo implementar [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] recopilación de datos, vea [la recopilación de datos](http://go.microsoft.com/fwlink/?LinkId=146356) (http://go.microsoft.com/fwlink/?LinkId=146356) en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla.  
+## <a name="sql-serverdata-collection"></a>Colección de registrando ServerData SQL  
+SQL Server proporciona un recopilador de datos que puede usar para obtener y guardar los datos recopilados de varios orígenes. El recopilador de datos permite usar contenedores de recopilación de datos, lo que permite determinar el ámbito y la frecuencia de recopilación de datos en un equipo que ejecuta SQL Server. Vea [la recopilación de datos](https://docs.microsoft.com/sql/relational-databases/data-collection/data-collection).
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)
+ [Optimización del rendimiento de la base de datos](../technical-guides/optimizing-database-performance.md)

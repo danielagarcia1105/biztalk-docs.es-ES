@@ -12,11 +12,11 @@ caps.latest.revision: "34"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94d1aa31a271f0ed88be42066abdae25be3f3e87
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 95c4bb48805eb0d2b349a8802c0bc8af1d12925a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-x12-receiving-batched-edi-interchanges"></a>Tutorial (X12): Recibir intercambios EDI por lotes
 Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para recibir lotes de EDI mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta solución muestra dos formas de recibir un intercambio EDI por lotes:  
@@ -65,10 +65,10 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
   
 2.  El proceso de canalización procesa el intercambio sin dividir los conjuntos de transacciones, convierte los dos conjuntos de transacciones en una unidad al formato XML interno.  
   
-3.  La canalización de recepción promociona las mismas propiedades como si el intercambio no fuese un lote, con la excepción de que se aplicará una etiqueta reservada al XML que genera la canalización. Esta etiqueta es \<X12InterchangeXml > para un intercambio EDI con codificación X12 o \<EdifactInterchangeXml > para un intercambio EDI con codificación EDIFACT. La canalización de recepción EDI también se aplica a la propiedad de contexto `ReuseEnvelope` para identificar el intercambio como conservado.  
+3.  La canalización de recepción promociona las mismas propiedades como si el intercambio no fuese un lote, con la excepción de que se aplicará una etiqueta reservada al XML que genera la canalización. Esta etiqueta es \<X12InterchangeXml\> para un intercambio EDI con codificación X12 o \<EdifactInterchangeXml\> para un intercambio EDI con codificación EDIFACT. La canalización de recepción EDI también se aplica a la propiedad de contexto `ReuseEnvelope` para identificar el intercambio como conservado.  
   
     > [!NOTE]
-    >  La canalización de envío EDI usa el \<X12InterchangeXml > o \<EdifactInterchangeXml > etiqueta para identificar el mensaje como un lote conservado. La propiedad de contexto `ReuseEnvelope` permite crear un puerto de envío que se suscribe a todos los intercambios por lotes que se hayan conservado.  
+    >  La canalización de envío EDI usa el \<X12InterchangeXml\> o \<EdifactInterchangeXml\> etiqueta para identificar el mensaje como un lote conservado. La propiedad de contexto `ReuseEnvelope` permite crear un puerto de envío que se suscribe a todos los intercambios por lotes que se hayan conservado.  
   
 4.  La canalización de recepción coloca el archivo XML del mensaje en el cuadro de mensajes.  
   
@@ -129,7 +129,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
     > [!NOTE]
     >  Este tema presupone que ya ha agregado una referencia de su aplicación a la aplicación EDI de BizTalk, que contiene esquemas, canalizaciones y orquestaciones EDI. Si no es así, consulte [cómo agregar una referencia a la aplicación EDI de BizTalk Server](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
-2.  Haga clic en el proyecto, seleccione **agregar**y, a continuación, haga clic en **elemento existente**. Mover a  **\<unidad >: \Program 2009\XSD_Schema\EDI\X12\00401 de BizTalk Server**y, a continuación, haga doble clic en el esquema correspondiente al mensaje de prueba.  
+2.  Haga clic en el proyecto, seleccione **agregar**y, a continuación, haga clic en **elemento existente**. Mover a  **\<unidad\>: \Program 2009\XSD_Schema\EDI\X12\00401 de BizTalk Server**y, a continuación, haga doble clic en el esquema correspondiente al mensaje de prueba.  
   
     > [!NOTE]
     >  Si los esquemas EDI no se han descomprimido en las carpetas XSD_SchemaEDI, ejecute el **MicrosoftEdiXSDTemplates.exe** archivo en la carpeta XSD_SchemaEDI para descomprimir los esquemas en la carpeta predeterminada.  
@@ -313,4 +313,4 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
  [Conservar un recibido el intercambio EDI por lotes](../core/preserving-a-received-batched-edi-interchange.md)   
  [Tutorial (X12): Enviar intercambios EDI por lotes](../core/walkthrough-x12-sending-batched-edi-interchanges.md)   
  [Tutorial (X12): Recibir intercambios EDI y devolución de una confirmación](../core/walkthrough-x12--receive-edi-interchanges-and-send-back-an-acknowledgement.md)   
- [Tutorial (X12): Enviar intercambios EDI](../core/walkthrough-x12-sending-edi-interchanges.md)
+ [Tutorial (X12): Envío de intercambios EDI](../core/walkthrough-x12-sending-edi-interchanges.md)

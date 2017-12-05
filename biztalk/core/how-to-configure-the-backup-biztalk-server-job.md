@@ -13,11 +13,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f1afb4f28584d65401220761dcee626fe63f913b
-ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
+ms.openlocfilehash: 452884062cb9c4cdabbfd4890f590e5f0202b417
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-backup-biztalk-server-job"></a>Configurar el trabajo de copia de seguridad de BizTalk Server
 Después de instalar y configurar BizTalk Server, configure la copia de seguridad [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trabajo de copia de seguridad de los datos. 
@@ -90,12 +90,12 @@ Para configurar este trabajo, debe:
   
     2. **Nombre**: el valor predeterminado es **BTS**. El nombre se usa como parte del nombre del archivo de copia de seguridad.  
   
-    3. **Ubicación de archivos de copia de seguridad**: reemplazar '*\<ruta de acceso de destino >*' con la ruta de acceso completa (la ruta de acceso debe incluir las comillas simples) del equipo y la carpeta donde desea realizar una copia de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] las bases de datos, o la URL del extremo de servicio de blob a una cuenta de almacenamiento de blobs de Azure.  
+    3. **Ubicación de archivos de copia de seguridad**: reemplazar '*\<ruta de acceso de destino\>*' con la ruta de acceso completa (la ruta de acceso debe incluir las comillas simples) del equipo y la carpeta donde desea realizar copias de seguridad de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]bases de datos o la URL del extremo de servicio de blob a una cuenta de almacenamiento de blobs de Azure.  
 
         > [!IMPORTANT]
         > - Si escribe una ruta de acceso local, tendrá que copiar manualmente todos los archivos en la misma carpeta del sistema de destino siempre que la copia de seguridad [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trabajo crea nuevos archivos.  
         >   
-        >      Para usar una ruta de acceso remoto, escriba un recurso compartido UNC como \\ \\  *\<ServerName >*\\*\<SharedDrive >*\\, donde  *\<ServerName >* es el nombre del servidor donde desea que los archivos, y  *\<SharedDrive >* es el nombre de la unidad o carpeta compartida.  
+        >      Para usar una ruta de acceso remoto, escriba un recurso compartido UNC como \\ \\  *\<ServerName\>*\\*\<SharedDrive\>*  \\, donde  *\<ServerName\>*  es el nombre del servidor donde desea que los archivos, y  *\<SharedDrive\>* es el nombre de la unidad o carpeta compartida.  
         >   
         >      La creación de copias de seguridad de datos a través de la red está sujeta a posibles problemas de red. Si usa una ubicación remota, al finalizar el trabajo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de copia de seguridad, compruebe que la copia de seguridad se haya creado correctamente.  
         > - Para evitar una pérdida de datos potencial, configure un disco de copia de seguridad distinto de los discos de registro y de datos de la base de datos. De este modo, podrá acceder a las copias de seguridad en caso de error en el disco de registro o datos.  
@@ -132,14 +132,14 @@ Para configurar este trabajo, debe:
   
 6.  Seleccione el **MarkAndBackupLog** paso a paso y seleccione **editar**. En el **comando** cuadro, actualice los valores de parámetro:  
   
-    1.  **@MarkName**: Esto forma parte de la convención de nomenclatura para archivos de copia de seguridad: <Server Name>  _<Database Name>  **_registro_**< nombre de la marca de registro >_<Timestamp>  
+    1.  **@MarkName**: Esto forma parte de la convención de nomenclatura para archivos de copia de seguridad: \<nombre del servidor\>\_\<nombre de base de datos\>**\_registro\_**  \< Nombre de la marca de registro \> \_ \<marca de tiempo\>  
     
-    2.  **@BackupPath**: Ruta de destino completa (incluidas las comillas simples) del equipo y la carpeta para almacenar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] registros, o la cuenta de almacenamiento de blobs de Azure y el contenedor de la base de datos. El  *\<ruta de acceso de destino >* también puede ser local o una ruta de acceso UNC a otro servidor.  
+    2.  **@BackupPath**: Ruta de destino completa (incluidas las comillas simples) del equipo y la carpeta para almacenar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] registros, o la cuenta de almacenamiento de blobs de Azure y el contenedor de la base de datos. El  *\<ruta de acceso de destino\>*  también puede ser local o una ruta de acceso UNC a otro servidor.  
   
      El paso MarkAndBackupLog marca los registros para realizar la copia de seguridad y después realiza la copia de seguridad.  
   
     > [!IMPORTANT]
-    >  Para evitar **posible pérdida de datos** y **mejora del rendimiento**,  *\<ruta de acceso de destino >* debe establecerse en un equipo diferente, o unidad de disco duro, diferente de la que se usa para almacenar los registros de base de datos original.  
+    >  Para evitar **posible pérdida de datos** y **mejora del rendimiento**,  *\<ruta de acceso de destino\>*  debe establecerse en un equipo diferente, o la unidad de disco duro, diferente de la que se usa para almacenar los registros de base de datos original.  
   
      Seleccione **Aceptar**.  
   

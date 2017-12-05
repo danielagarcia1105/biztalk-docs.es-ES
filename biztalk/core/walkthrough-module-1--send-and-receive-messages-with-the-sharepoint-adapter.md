@@ -23,11 +23,11 @@ caps.latest.revision: "41"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c66a54a50479a168715ccc66c116372f68f21698
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8e83297233c4f8ac51ad90f488437a6c259691a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-module-1---sending-and-receiving-messages-with-the-windows-sharepoint-services-adapter"></a>Tutorial: Módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services
 En este tutorial se muestra cómo configurar Windows SharePoint Services y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que pueda enviar y recibir mensajes mediante el adaptador de Windows SharePoint Services y el enrutamiento basado en contenido (CBR). El enrutamiento por contenidos elimina la necesidad de suscribir mensajes para los mensajes enlazados de forma determinista a puertos específicos. Asimismo, proporciona flexibilidad adicional para los usuarios que deseen enrutar los mensajes según las propiedades del sobre o simplemente según las propiedades de configuración del puerto de recepción. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
@@ -35,7 +35,7 @@ En este tutorial se muestra cómo configurar Windows SharePoint Services y [!INC
 ## <a name="prerequisites"></a>Requisitos previos  
  A continuación, se enumeran los requisitos previos para efectuar los procedimientos de este tema:  
   
--   Debe tener una implementación de servidor único con una instalación completa de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
+-   Debe tener una implementación de servidor único con una instalación completa de BizTalk Server que se ejecutan en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
   
  Para obtener información acerca de cómo utilizar el adaptador de Windows SharePoint Services en una implementación multiservidor, vea [configurar e implementar el adaptador de Windows SharePoint Services](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md).  
   

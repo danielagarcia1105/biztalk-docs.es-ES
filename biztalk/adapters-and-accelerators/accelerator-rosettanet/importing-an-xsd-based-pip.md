@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf0ced3dbb9404cd1c4b9c81e566f47b09c7d0b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d8865d7a75bdb06895b963b8269ed457cd5804f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="importing-an-xsd-based-pip"></a>Importar un PIP basado en XSD
 Aunque la mayoría de los PIP proporcionados por RosettaNet.org se basan en el DTD, algunos PIP más recientes están basados en XSD. En el siguiente procedimiento se describe cómo importar los PIP basados en XSD.  
@@ -42,7 +42,7 @@ Aunque la mayoría de los PIP proporcionados por RosettaNet.org se basan en el D
     The type or namespace name 'SerializableAttribute' does not exist in the class or namespace 'PIP7C7.System'.  
     ```  
   
-5.  Revise todos los archivos .xsd para asegurarse de que el \<esquema > TypeName y el nodo raíz TypeName no son idénticos. Por ejemplo, para un PIP PIP7C7 el archivo PartnerIdentification.xsd de la carpeta Universal tiene el TypeName 'Partneridentification' tanto para el \<esquema > (cuando PartnerIdentification.xsd se selecciona en el Explorador de soluciones) y también el Nodo raíz PartnerIdentification. Para corregir este problema, seleccione PartnerIdentification.xsd en el Explorador de soluciones y, después, en la página de propiedades cambie la propiedad TypeName para que no contenga el mismo TypeName que el nodo raíz PartnerIdentification. Por ejemplo, cambie el TypeName por "_PartnerIdentification". Si no realiza este paso, aparecerá el siguiente error al intentar generar el proyecto:  
+5.  Revise todos los archivos .xsd para asegurarse de que el \<esquema\> TypeName y el nodo raíz TypeName no son idénticos. Por ejemplo, para un PIP PIP7C7 el archivo PartnerIdentification.xsd de la carpeta Universal tiene el TypeName 'Partneridentification' tanto para el \<esquema\> (cuando PartnerIdentification.xsd se selecciona en el Explorador de soluciones) y también el Nodo raíz PartnerIdentification. Para corregir este problema, seleccione PartnerIdentification.xsd en el Explorador de soluciones y, después, en la página de propiedades cambie la propiedad TypeName para que no contenga el mismo TypeName que el nodo raíz PartnerIdentification. Por ejemplo, cambie el TypeName por "_PartnerIdentification". Si no realiza este paso, aparecerá el siguiente error al intentar generar el proyecto:  
   
     ```  
     Node "<Schema>" - This schema file has a TypeName that collides with the RootNode TypeName of one of its root Nodes. Make sure that they are different.  

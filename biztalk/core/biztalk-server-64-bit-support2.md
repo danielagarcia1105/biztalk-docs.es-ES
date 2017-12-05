@@ -13,11 +13,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aaf155bac387f613725023feb015f8f9a1894a2d
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: c67e68c210566a4f0ba42fcfa0e10cd0260fb6b2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-64-bit-support"></a>Compatibilidad de BizTalk Server con 64 bits
 Este tema responde a algunas preguntas frecuentes sobre la compatibilidad de 64 bits de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -27,7 +27,7 @@ Este tema responde a algunas preguntas frecuentes sobre la compatibilidad de 64 
  
   [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) (Requisitos de hardware y software de BizTalk Server 2016)  
   
- [Requisitos de hardware y Software para BizTalk Server 2013 y 2013 R2](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)  
+ [Requisitos de hardware y software de BizTalk Server 2013 y 2013 R2](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)  
   
 ## <a name="is-there-an-extra-cost-for-64-bit-support"></a>¿Supone la compatibilidad con 64 bits algún costo adicional?  
  No. compatibilidad con 64 bits se incluye sin cargo adicional.  
@@ -132,7 +132,7 @@ Este tema responde a algunas preguntas frecuentes sobre la compatibilidad de 64 
  No. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]conserva los componentes en tiempo de ejecución usando los formatos que son independientes de los tiempos de ejecución de 32 bits o 64 bits. Esto incluye orquestaciones, mensajes y puertos. Este modelo de persistencia permite a un administrador cambiar la configuración de host entre 32 y 64 bits sin crear incompatibilidades en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] datos.  
   
 ## <a name="when-i-upgrade-to-biztalk-server-will-my-biztalk-hosts-run-as-64-bit-by-default"></a>Al actualizar a la versión de BizTalk Server, ¿se ejecutan los hosts de BizTalk en modo de 64 bits de forma predeterminada?  
- No. De forma predeterminada, se actualiza a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] marcar todas las instancias de host de BizTalk como de 32 bits sólo. Un administrador debe crear nuevas instancias de host en equipos con Windows x64 y configurar las aplicaciones para que las usen.  
+ No. De forma predeterminada, las actualizaciones a BizTalk Server marcan todas las instancias de host de BizTalk como de 32 bits sólo. Un administrador debe crear nuevas instancias de host en equipos con Windows x64 y configurar las aplicaciones para que las usen.  
   
 ## <a name="can-i-have-a-mixed-biztalk-server-group-that-includes-both-32-bit-and-64-bit-biztalk-runtimes"></a>¿Se puede tener un grupo de BizTalk Server “mixto” que incluya tiempos de ejecución de BizTalk tanto de 32 como de 64 bits?  
  Sí.  
@@ -150,4 +150,4 @@ Este tema responde a algunas preguntas frecuentes sobre la compatibilidad de 64 
 -   Componentes heredados  
   
 ## <a name="see-also"></a>Vea también  
- [Planeación de capacidad y rendimiento](../core/performance-and-capacity-planning.md)
+ [Planificación del rendimiento y la capacidad](../core/performance-and-capacity-planning.md)

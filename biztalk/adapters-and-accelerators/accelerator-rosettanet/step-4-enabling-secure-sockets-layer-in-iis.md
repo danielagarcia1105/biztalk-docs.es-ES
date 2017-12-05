@@ -17,11 +17,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 05bd6b06ddc54ec0d337dd7dddfff300a625f7df
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2964b6ac26d6685a1c38b88c5bbf98e8119f3502
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-enabling-secure-sockets-layer-in-iis"></a>Paso 4: Habilitar SSL en IIS
 Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger el canal de comunicación entre un cliente y un servidor. Al habilitar SSL en Microsoft® Internet Information Services (IIS) 7.5 o 7.0, las organizaciones de Contoso y Fabrikam comunican mediante autenticación y cifrado para todas las transferencias de datos. En este paso, obtener información sobre cómo habilitar SSL en IIS 7.5 o 7.0.  
@@ -33,7 +33,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 1.  Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.  
   
-2.  En el panel izquierdo de Internet Information Services, expanda  **\<**  *computer_name*  **>**  (*ordenador*), expanda **sitios Web**, haga clic en **sitio Web predeterminado**y, a continuación, haga clic en **propiedades**.  
+2.  En el panel izquierdo de Internet Information Services, expanda  **\<**  *computer_name*  **\>**  (*ordenador*), expanda **sitios Web**, haga clic en **sitio Web predeterminado**y, a continuación, haga clic en **propiedades**.  
   
 3.  En el cuadro de diálogo de sitios Web predeterminados en la **seguridad de directorios** , haga clic en **certificado de servidor** para iniciar el **Asistente para certificados IIS**.  
   
@@ -59,10 +59,10 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 ### <a name="to-generate-a-new-server-certificate"></a>Para generar un nuevo certificado de servidor  
   
-1.  En Internet Explorer, busque y abra http://\<*contoso_machine*> / CertSrv.  
+1.  En Internet Explorer, busque y abra http://\<*contoso_machine* \> /certsrv.  
   
     > [!NOTE]
-    >  En el paso 1, abra http://\<*contoso_machine*> / CertSrv en el equipo de Contoso o Fabrikam.  
+    >  En el paso 1, abra http://\<*contoso_machine* \> /certsrv en el equipo de Contoso o Fabrikam.  
   
 2.  En el **principal del Asistente para Microsoft Certificate Services** página, haga clic en **solicitar un certificado.**  
   
@@ -77,7 +77,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 6.  Haga clic en **examinar** para abrir el **Elegir archivo** cuadro de diálogo.  
   
-7.  En el **Elegir archivo** diálogo cuadro, busque la  *\<unidad >*: \ carpeta, seleccione el archivo certreq.txt y, a continuación, haga clic en **abiertos**.  
+7.  En el **Elegir archivo** diálogo cuadro, busque la  *\<unidad\>*: \ carpeta, seleccione el archivo certreq.txt y, a continuación, haga clic en **abiertos**.  
   
 8.  En el **enviar una solicitud de certificado o una solicitud de renovación** página, haga clic en **lectura**.  
   
@@ -87,7 +87,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 11. En el **descarga de archivos** cuadro de diálogo, haga clic en **guardar**.  
   
-12. En el **Guardar como** cuadro de diálogo, guarde el certificado a \<unidad >: \Certs\SSLCert.cer y, a continuación, haga clic en **guardar**.  
+12. En el **Guardar como** cuadro de diálogo, guarde el certificado a \<unidad\>: \Certs\SSLCert.cer y, a continuación, haga clic en **guardar**.  
   
 13. Haga clic en **cerrar** para cerrar el **descarga completa** cuadro de diálogo.  
   
@@ -122,7 +122,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 7.  En el cuadro de diálogo descarga de archivos, haga clic en **guardar**.  
   
-8.  En el cuadro de diálogo Guardar como, guardar el certificado \<unidad >: \Certs\SSLCert.cer y, a continuación, haga clic en **guardar**.  
+8.  En el cuadro de diálogo Guardar como, guardar el certificado \<unidad\>: \Certs\SSLCert.cer y, a continuación, haga clic en **guardar**.  
   
 ### <a name="to-import-the-server-certificate-into-iis"></a>Para importar el certificado de servidor en IIS  
   
@@ -130,7 +130,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 2.  En el panel izquierdo de Internet Information Services, haga clic en **(equipo local)**, haga doble clic en **certificados de servidor** en el panel derecho. Seleccione **solicitud de certificado completo** en el panel Acciones.  
   
-3.  En el tipo de cuadro de diálogo Especificar respuesta de la entidad emisora de certificados  **\<unidad >: \Certs\SSLCert.cer** en **nombre de archivo que contiene la respuesta de la entidad de certificación** cuadro de texto. En el tipo de cuadro de texto Nombre descriptivo **ContosoSSLCert**.  
+3.  En el tipo de cuadro de diálogo Especificar respuesta de la entidad emisora de certificados  **\<unidad\>: \Certs\SSLCert.cer** en **nombre de archivo que contiene la respuesta de la entidad de certificación** cuadro de texto. En el tipo de cuadro de texto Nombre descriptivo **ContosoSSLCert**.  
   
 ### <a name="to-enable-ssl-bindings-for-iis"></a>Para permitir a los enlaces de SSL para IIS  
   
@@ -144,7 +144,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 1.  Haga clic en **iniciar**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.  
   
-2.  En el panel izquierdo de Internet Information Services, expanda  **\<**  *computer_name*> (*equipo local*), expanda **sitios Web**, haga clic en **sitio Web predeterminado**y, a continuación, haga clic en **propiedades**.  
+2.  En el panel izquierdo de Internet Information Services, expanda  **\<**  *computer_name* \> (*equipo local*), expanda **Web Sitios**, haga clic en **sitio Web predeterminado**y, a continuación, haga clic en **propiedades**.  
   
 3.  En el cuadro de diálogo Propiedades del sitio Web predeterminado, en la **seguridad de directorios** , haga clic en **certificado de servidor** para iniciar el **Asistente para certificados IIS**.  
   
@@ -152,7 +152,7 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
   
 5.  En el **solicitud de certificado pendiente** página, seleccione **procesar la petición pendiente e instalar el certificado**y, a continuación, haga clic en **siguiente**.  
   
-6.  En el **procesar una solicitud pendiente** página, en la **ruta de acceso y nombre de archivo** , escriba  **\<unidad >: \Certs\SSLCert.cer** (o vaya a ese archivo) y, a continuación, haga clic en **Siguiente**.  
+6.  En el **procesar una solicitud pendiente** página, en la **ruta de acceso y nombre de archivo** , escriba  **\<unidad\>: \Certs\SSLCert.cer** (o vaya a ese archivo) y, a continuación, haga clic en **siguiente**.  
   
 7.  En el **página puerto SSL**, haga clic en **siguiente**.  
   
@@ -161,4 +161,4 @@ Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger
 9. En el **completar el Asistente para certificados de servidor Web** página, haga clic en **finalizar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Crear y configurar la solución de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/creating-and-configuring-the-contoso-solution.md)
+ [Creación y configuración de la solución de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/creating-and-configuring-the-contoso-solution.md)

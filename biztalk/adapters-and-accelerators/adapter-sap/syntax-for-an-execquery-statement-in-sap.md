@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f1eb41d07ef6a6ac3577bf0ef6d3f5bffb874f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5198335cfa1a7d2036ca05759edc7d04e28cc20b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a>Sintaxis de una instrucción EXECQUERY en SAP
 Puede usar la GUI de SAP para crear consultas seleccionando las tablas que desea consultar, las columnas y el orden que desea incluir en el conjunto de resultados, etcetera gráficamente. El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] permite a los usuarios ejecutar estas consultas desde una aplicación de ADO.NET proporcionando una operación EXECQUERY que los usuarios pueden utilizar para ejecutar una consulta definida en el sistema SAP.  
@@ -30,16 +30,16 @@ Puede usar la GUI de SAP para crear consultas seleccionando las tablas que desea
   
 ```  
 EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='variant']   
-[, @P1='\<value 1>’] [, @P2='\<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='\<value 3>'] [, @P1 > '\<value 4>'] [, @P1 <= '\<value 2>']   
-[, NOT @P1 = '\<value 2>'] [, NOT @P1 != '\<value 2>'] [, NOT @P1 > '\<value 2>']   
-[, @P1 BETWEEN '\<value 1>' AND '\<value 2>'] [, NOT @P1 BETWEEN '\<value 1>' AND '<value2>’]  
+[, @P1='<value 1>’] [, @P2='<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='<value 3>'] [, @P1 > '<value 4>'] [, @P1 <= '<value 2>']   
+[, NOT @P1 = '<value 2>'] [, NOT @P1 != '<value 2>'] [, NOT @P1 > '<value 2>']   
+[, @P1 BETWEEN '<value 1>' AND '<value 2>'] [, NOT @P1 BETWEEN '<value 1>' AND '<value2>’]  
 [OPTION 'USEORIGINALCOLUMNNAMES']  
   
 ```  
   
  donde:  
   
--   **\<Nombredeconsulta >** es el nombre de la consulta definida en el sistema SAP.  
+-   **\<Nombredeconsulta\>**  es el nombre de la consulta definida en el sistema SAP.  
   
 -   **USERGROUP** hace referencia al grupo de usuarios en el que esté definida la consulta. Este parámetro es obligatorio.  
   
@@ -79,7 +79,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     EXECQUERY xyz uSERgROUP=’mygrp’, NOT @P1= 'somevalue'  
     ```  
   
--   Los operadores admitidos por el EXECQUERY son >, \<, > =, < =,! =, no es así y BETWEEN.  
+-   Los operadores admitidos por el EXECQUERY son >, <>, =, < =,! =, no es así y BETWEEN.  
   
 -   No se admiten caracteres comodín en la operación de EXECQUERY. Por ejemplo, la instrucción siguiente da el resultado esperado:  
   
@@ -107,4 +107,4 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     >  No es necesario especificar un nombre variant si se define una variante de forma predeterminada para la consulta en el sistema SAP.  
   
 ## <a name="see-also"></a>Vea también  
- [Usar el proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+ [Uso del proveedor de datos de .NET Framework para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

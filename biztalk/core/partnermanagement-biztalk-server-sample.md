@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 790530d79b06d399e032096d64d47e65bb1dd7a4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c2ffc9e84e8c31ed1e1feb4c768498e817ad474c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="partnermanagement-biztalk-server-sample"></a>PartnerManagement (ejemplo de BizTalk Server)
 El ejemplo PartnerManagement muestra cómo administrar entidades en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno mediante el uso de la **ExplorerOM** objetos de administración.  
@@ -41,7 +41,7 @@ El ejemplo PartnerManagement muestra cómo administrar entidades en el [!INCLUDE
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\PartnerManagement  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\PartnerManagement  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -51,7 +51,7 @@ El ejemplo PartnerManagement muestra cómo administrar entidades en el [!INCLUDE
 |PartnerManagement.sln y PartnerManagement.csproj|Archivos de solución y proyecto para el ejemplo.|  
   
 ## <a name="building-and-running-this-sample"></a>Generación y ejecución del ejemplo  
- Antes de generar el ejemplo, debe realizar cuatro modificaciones de código para personalizar el ejemplo del servidor BizTalk Server. Esta acción es necesaria porque el ejemplo usa nombres arbitrarios para puertos de envío asociados con la entidad y un nombre de rol arbitrario para dar de alta. Por lo tanto, debe proporcionar nombres válidos para el ejemplo. Para mostrar este ejemplo, en este tema describe primero compilar el ejemplo PartyResolution del siguiente directorio: \< *ruta de ejemplos*> \Orchestrations\PartyResolution. Este enfoque se usa para asegurar que estén presentes un nombre de rol y nombres de puerto de envío válidos en BizTalk Server para mostrar los procedimientos del ejemplo.  
+ Antes de generar el ejemplo, debe realizar cuatro modificaciones de código para personalizar el ejemplo del servidor BizTalk Server. Esta acción es necesaria porque el ejemplo usa nombres arbitrarios para puertos de envío asociados con la entidad y un nombre de rol arbitrario para dar de alta. Por lo tanto, debe proporcionar nombres válidos para el ejemplo. Para mostrar este ejemplo, en este tema describe primero compilar el ejemplo PartyResolution del siguiente directorio: \< *ruta de ejemplos*\>\Orchestrations\PartyResolution. Este enfoque se usa para asegurar que estén presentes un nombre de rol y nombres de puerto de envío válidos en BizTalk Server para mostrar los procedimientos del ejemplo.  
   
 #### <a name="to-build-this-sample"></a>Procedimiento para generar este ejemplo  
   
@@ -132,7 +132,7 @@ El ejemplo PartnerManagement muestra cómo administrar entidades en el [!INCLUDE
   
 1.  Abra una ventana de comandos y desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\PartnerManagement\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\PartnerManagement\bin\Debug  
   
 2.  Ejecute el archivo PartnerManagement.exe.  
   

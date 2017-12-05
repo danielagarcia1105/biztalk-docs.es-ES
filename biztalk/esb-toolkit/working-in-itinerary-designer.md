@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d54d742b883ec843d56610b25fdfb91371dbe4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: baf474c68d91b7648f7f0efcfe4e85e7531e4aa1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-in-itinerary-designer"></a>Trabajar en el Diseñador de itinerarios
 Después de crear un proyecto de Microsoft Visual C#, puede crear nuevos modelos itinerarios y agregar itinerarios existentes al proyecto. Los pasos siguientes describen cómo crear un nuevo itinerario, agregar un modelo de itinerarios existente o cambiar el nombre de un itinerario.  
@@ -52,7 +52,7 @@ Después de crear un proyecto de Microsoft Visual C#, puede crear nuevos modelos
   
 #### <a name="save-an-itinerary"></a>Guardar un itinerario  
   
-En el **archivo** menú, haga clic en **guardar \<nombre itinerario >**.  
+En el **archivo** menú, haga clic en **guardar \<nombre itinerario\>**.  
   
 > [!NOTE]
 >  Archivos itinerarios se guardan como modelos DSL en formato XML correspondiente.  

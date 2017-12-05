@@ -13,11 +13,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4416534bdd73e8ae6eeeca28165ebc62c11bfc92
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb8516ceb780e64c4f4a01370de0e7c40098f3da
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-orchestration-variables"></a>Cómo agregar variables de orquestación
 La ventana Vista orquestación permite administrar las propiedades de una orquestación (también conocido como **servicio** propiedades), parámetros, puertos, mensajes y otras variables. Además de los puertos y mensajes, puede crear variables de tipo entero, variables booleanas, variables de cadena o variables de una clase .NET.  
@@ -35,7 +35,7 @@ La ventana Vista orquestación permite administrar las propiedades de una orques
 3.  Asocie la variable con un tipo, por ejemplo, una clase .NET.  
   
     > [!NOTE]
-    >  El **tipos** lista desplegable contiene los siguientes tipos de variables predefinidos: **booleano**, **bytes**, **datetime**,  **decimal**, **doble**, **int16**, **int32**, **int64**, **sbyte** , **único**, **cadena**, **timespan**, **uint16**, **uint32**y **uint64**. También puede acceder a los tipos de datos de .NET y las clases seleccionando  **\<.NET clase.. >**, que abrirá el **Seleccionar tipo de artefacto** cuadro de diálogo.  
+    >  El **tipos** lista desplegable contiene los siguientes tipos de variables predefinidos: **booleano**, **bytes**, **datetime**,  **decimal**, **doble**, **int16**, **int32**, **int64**, **sbyte** , **único**, **cadena**, **timespan**, **uint16**, **uint32**y **uint64**. También puede acceder a los tipos de datos de .NET y las clases seleccionando  **\<clase. NET... \>** , que abrirá el **Seleccionar tipo de artefacto** cuadro de diálogo.  
   
 4.  Si selecciona un tipo de variable predefinido, tiene la opción de especificar un valor inicial para la variable. En la ventana Propiedades, establezca la **valor inicial** propiedad.  
   

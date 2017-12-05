@@ -17,16 +17,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04feeaf88cef2f4ab876b22eda1b1e060a1e0173
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0616c4adddc6e2d096624d02b968a21012ccd93b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline"></a>Lección 5: Agregar el Desensamblador SWIFT a una canalización de recepción personalizada
 En esta lección, agregará el Desensamblador SWIFT personalizado (DASM) a la canalización. Un componente de canalización DASM es un componente de canalización que divide los mensajes de un lote en documentos individuales.  
   
- Los componentes de canalización DASM proporcionados en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] son:  
+ Los componentes de canalización DASM proporcionados en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server son:  
   
 -   Desensamblador de archivos sin formato  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e996ea258b8f3ab1c7df2d30ed12aa0d0150b35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bd9778d6fb37058cfb70d476590b5d32fe8936e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-biztalk-server-to-receive-encrypted-mime-or-smime-messages"></a>Cómo configurar BizTalk Server para recibir mensajes SMIME o MIME cifrado
 Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usar certificados para recibir mensajes cifrados de MIME/SMIME. El procedimiento siguiente también se aplica a la configuración de la recepción de mensajes cifrados mediante transporte AS2.  
@@ -29,7 +29,7 @@ Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../incl
 1.  Crear una canalización para recibir mensajes cifrados, como se indica a continuación:  
   
     > [!NOTE]
-    >  Este paso no es necesario al configurar el transporte de AS2 para recibir mensajes cifrados, ya que la AS2Receive y AS2EdiReceive canalizaciones que se incluyen en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] servir esta función.  
+    >  Este paso no es necesario al configurar el transporte de AS2 para recibir mensajes cifrados, puesto que las canalizaciones AS2Receive y AS2EdiReceive que se incluyen en BizTalk Server sirven esta función.  
   
     > [!NOTE]
     >  El componente de canalización de descodificador de MIME/SMIME realiza tanto el descifrado como la validación de la firma digital (cuando se configura para que realice las dos funciones). Por tanto, si configura [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes cifrados y firmados, puede usar la misma canalización de recepción. Es decir, no tiene que crear canalizaciones diferentes para el descifrado y para la validación de la firma digital.  

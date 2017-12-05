@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 99923c3029b72dae660bee4b4089336e90e2e4e7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd2df85f051285e999660dc3765855d22c708939
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enable-receive-location-biztalk-server-sample"></a>Habilitar recepción ubicación (ejemplo de BizTalk Server)
 El ejemplo para habilitar ubicación de recepción muestra cómo se habilita una ubicación de recepción y como se establece, de forma opcional, la dirección URL de transporte de entrada para la ubicación de recepción.  
@@ -42,7 +42,7 @@ El ejemplo para habilitar ubicación de recepción muestra cómo se habilita una
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\WMI\Enable recibir Location\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Enable Location\ de recepción  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -59,18 +59,15 @@ El ejemplo para habilitar ubicación de recepción muestra cómo se habilita una
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Enable recibir Location\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Enable Location\VBScript\ de recepción  
   
 2.  Ejecute el archivo EnableRecLoc.vbs mediante el programa cscript, de modo que se pasen los siguientes argumentos de línea de comandos, de los cuales el tercero es opcional:  
   
-    -   **\<**   
-         ***ReceivePortName* >.** El nombre del puerto de recepción que contiene la ubicación de recepción que se va a habilitar. Si el nombre del puerto de recepción contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***ReceivePortName* \>.** El nombre del puerto de recepción que contiene la ubicación de recepción que se va a habilitar. Si el nombre del puerto de recepción contiene espacios, enciérrelo entre comillas.  
   
-    -   **\<**   
-         ***ReceiveLocationName* >.** El nombre de la ubicación de recepción en el puerto de recepción especificado que se va a habilitar. Si el nombre de la ubicación de recepción contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***ReceiveLocationName* \>.** El nombre de la ubicación de recepción en el puerto de recepción especificado que se va a habilitar. Si el nombre de la ubicación de recepción contiene espacios, enciérrelo entre comillas.  
   
-    -   **\<**   
-         ***InboundTransportURI* >.** Un URI del adaptador de recepción, relativo a la ubicación de instalación del producto, que se puede cambiar mediante la especificación de este argumento. Si el URI del adaptador de entrada contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***InboundTransportURI* \>.** Un URI del adaptador de recepción, relativo a la ubicación de instalación del producto, que se puede cambiar mediante la especificación de este argumento. Si el URI del adaptador de entrada contiene espacios, enciérrelo entre comillas.  
   
          Por ejemplo:  
   
@@ -92,4 +89,4 @@ El ejemplo para habilitar ubicación de recepción muestra cómo se habilita una
  Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

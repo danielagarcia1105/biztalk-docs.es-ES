@@ -12,14 +12,14 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8fcabebb1429fae8531753a8a3aede5595bb148f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3e98ac5f02363c02ff422f44397fbf1f0e3b4c0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-regenerate-the-live-data-workbook"></a>Cómo regenerar el libro de trabajo de datos activos
-En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también resulta de utilidad al actualizar de [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], puesto que los libros de trabajo de datos activos para [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] no son compatibles con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también resulta útil cuando está actualizando desde [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a BizTalk Server, desde los libros de datos en directo para [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] no son compatibles con BizTalk Server.  
   
  Los pasos generales son los siguientes:  
   
@@ -27,7 +27,7 @@ En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es pos
   
 -   Volver a crear informes de tabla dinámica. Puesto que la recuperación de XML mediante el comando get-defxml contiene, únicamente, las actividades y las vistas, es preciso volver a crear los informes de tabla dinámica mediante el complemento de BAM para Excel.  
   
--   Cambiar el nombre de los informes de tabla dinámica. Este paso es necesario si se actualiza de [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Esto es necesario porque en [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], BAM almacena dos conjuntos de nombres para los libros BAM: un nombre para mostrar y un nombre interno. Al recuperar la definición de BAM, el XML contiene el nombre interno del libro de trabajo. Es preciso cambiar el nombre de los informes de tabla dinámica para garantizar que el libro de trabajo de datos activos tenga la conexión adecuada con la base de datos.  
+-   Cambiar el nombre de los informes de tabla dinámica. Este paso es necesario si va a actualizar desde [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a BizTalk Server. Esto es necesario porque en [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], BAM almacena dos conjuntos de nombres para los libros BAM: un nombre para mostrar y un nombre interno. Al recuperar la definición de BAM, el XML contiene el nombre interno del libro de trabajo. Es preciso cambiar el nombre de los informes de tabla dinámica para garantizar que el libro de trabajo de datos activos tenga la conexión adecuada con la base de datos.  
   
 -   Regenerar el libro de trabajo de datos activos mediante la utilidad de administración de BAM.  
   
@@ -61,12 +61,12 @@ En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es pos
   
 1.  Abra el archivo abc.xml creado al recuperar las definiciones de BAM con el Bloc de notas haciendo clic en **iniciar**, haga clic en **ejecutar**, escriba notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]tracking\abc y, a continuación, haga clic en  **Aceptar**.  
   
-2.  Busque la \<título > etiqueta en \<BAMDefinition >\\< extensión\>\\< OWC\>\\< PivotTableView\>\\< Tabla dinámica\>\\< PivotView\>\\< etiqueta\>. El contenido de esta etiqueta es el nombre interno de uno de los informes de tabla dinámica. Puede encontrar el nombre interno para que los otros informes de tabla dinámica, localizando la próxima \<título > etiqueta. Abra **mynewbook.xls** y usar los nombres encontrados para cambiar el nombre de los informes de tabla dinámica.  
+2.  Busque la \<título\> etiqueta en \<BAMDefinition\>\\< extensión\>\\< OWC\>\\< PivotTableView\> \\< tabla dinámica\>\\< PivotView\>\\< etiqueta\>. El contenido de esta etiqueta es el nombre interno de uno de los informes de tabla dinámica. Puede encontrar el nombre interno para que los otros informes de tabla dinámica, localizando el siguiente \<título\> etiqueta. Abra **mynewbook.xls** y usar los nombres encontrados para cambiar el nombre de los informes de tabla dinámica.  
   
 3.  Guarde el libro de trabajo actualizado.  
   
     > [!NOTE]
-    >  Se deberá seguir este procedimiento únicamente si se efectúa una actualización de [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+    >  Debe seguir este procedimiento solo si está actualizando desde [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] a BizTalk Server.  
   
 ### <a name="to-regenerate-the-bam-live-data-workbook"></a>Para regenerar el libro de trabajo de datos activos de BAM  
   

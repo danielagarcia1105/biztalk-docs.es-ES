@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f6bc29589f0546dda3841221fcce3ab91d704ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0bd7c03e4cfa586a0dddd2579931bd5f30d293fa
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sendports-biztalk-server-sample"></a>SendPorts (ejemplo de BizTalk Server)
 El ejemplo SendPorts muestra cómo enumerar y administrar puertos de envío mediante el **Microsoft.BizTalk.ExplorerOM** las clases de administración.  
@@ -61,7 +61,7 @@ El ejemplo SendPorts muestra cómo enumerar y administrar puertos de envío medi
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\SendPorts  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\SendPorts  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -82,7 +82,7 @@ El ejemplo SendPorts muestra cómo enumerar y administrar puertos de envío medi
   
 1.  Abra una ventana de comandos y desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\SendPorts\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\SendPorts\bin\Debug  
   
 2.  Ejecute el archivo SendPorts.exe.  
   
@@ -339,4 +339,4 @@ DeleteSendPorts() completed.
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

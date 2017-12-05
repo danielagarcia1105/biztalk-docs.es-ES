@@ -18,11 +18,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d4bb5435b946ac02b73ce492410af9b4dfe34c8d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9165415ec736c7cf9f4716e8fb183395602a687d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-add-a-biztalk-assembly-to-an-application"></a>Cómo agregar un ensamblado de BizTalk a una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un ensamblado de BizTalk a una aplicación.  
@@ -50,7 +50,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda Administración de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y el grupo de BizTalk que contiene la aplicación a la que desea agregar el ensamblado de BizTalk.  
+2.  En el árbol de consola, expanda Administración de BizTalk Server y el grupo de BizTalk que contiene la aplicación a la que desea agregar el ensamblado de BizTalk.  
   
 3.  Expanda Administración de la aplicación la aplicación a la que desea agregar un ensamblado de BizTalk.  
   
@@ -87,4 +87,4 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 ## <a name="see-also"></a>Vea también  
  [Administrar ensamblados de BizTalk](../core/managing-biztalk-assemblies.md)   
- [El comando AddResource: El ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md)
+ [AddResource (comando): ensamblado de BizTalk](../core/addresource-command-biztalk-assembly.md)

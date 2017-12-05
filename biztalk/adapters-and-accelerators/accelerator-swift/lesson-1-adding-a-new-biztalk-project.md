@@ -15,11 +15,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c04dae55b18e5f5263ea31d258ef670903933df2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 942ef00948920cd19e2a34e0be52d61a8f492786
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-adding-a-new-biztalk-project"></a>Lección 1: Agregar un nuevo proyecto de BizTalk
 En esta lección, agregará un nuevo proyecto de BizTalk a la solución. Crear esquemas en este proyecto que utiliza a lo largo del tutorial.  
@@ -36,10 +36,10 @@ En esta lección, agregará un nuevo proyecto de BizTalk a la solución. Crear e
   
 4.  En el **nombre** , escriba **SWIFTSchemas** como el nombre del proyecto.  
   
-5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, asegúrese de que  **\<* unidad*: > \labs\SWIFTProject** está seleccionada.  
+5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, asegúrese de que  **\<* unidad*:\>\labs\SWIFTProject** está seleccionada.  
   
 6.  Haga clic en **Aceptar** para crear el nuevo proyecto.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega un nuevo proyecto en el Explorador de soluciones y crea la carpeta del proyecto y los archivos en el \< *unidad*: > \labs\SWIFTProject\SWIFTSchemas carpeta.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Agrega un nuevo proyecto en el Explorador de soluciones y crea la carpeta del proyecto y los archivos en el \< *unidad*:\>\labs\SWIFTProject\SWIFTSchemas carpeta.  
   
  Continúe con [lección 2: crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas](../../adapters-and-accelerators/accelerator-swift/lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project.md).

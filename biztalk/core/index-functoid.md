@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b777c7883001e0b82bf42e6795e11ead1dbeaef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a22881e7694fee872b7820b8b99157ef2cf20170
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="index-functoid"></a>Índice (functoid)
 El **índice** functoid le permite seleccionar información de un registro específico en una serie de registros. Cada **índice** functoid recopila información de un solo campo.  
@@ -46,7 +46,7 @@ Ejemplo de functoid de índice
   
  Para obtener la información de resumen diaria para el primer día, Establece la parte superior de tres **índice** functoids tienen sus valores de índice que se establece en 1. Para obtener la información de resumen diaria del segundo día, establezca el mínimo de tres **índice** functoids tienen sus valores de índice establecidos en 2.  
   
- **Índice** functoids usan el **configurar \<Functoid > Functoid** cuadro de diálogo para establecer sus parámetros de entrada. El primer parámetro de entrada identifica un campo que está dentro de un registro de bucle en el esquema de origen. El segundo parámetro de entrada y los siguientes especifican el registro concreto. Puede especificar múltiples valores de índice para seleccionar un registro de las estructuras de repetición anidadas. El valor de índice de la estructura más interna es el segundo parámetro. El valor de índice de la siguiente estructura más externa sería el tercer parámetro y así sucesivamente. Por ejemplo, suponga que los anteriores **DailySummary** registros estaban dentro de **WeeklyData** registros. Para recuperar el **presión** desde la primera **DailySummary** en el segundo **WeeklyData**, el segundo parámetro debería ser 1 y el tercer parámetro sería 2.  
+ **Índice** functoids usan el **configurar \<Functoid\> Functoid** cuadro de diálogo para establecer sus parámetros de entrada. El primer parámetro de entrada identifica un campo que está dentro de un registro de bucle en el esquema de origen. El segundo parámetro de entrada y los siguientes especifican el registro concreto. Puede especificar múltiples valores de índice para seleccionar un registro de las estructuras de repetición anidadas. El valor de índice de la estructura más interna es el segundo parámetro. El valor de índice de la siguiente estructura más externa sería el tercer parámetro y así sucesivamente. Por ejemplo, suponga que los anteriores **DailySummary** registros estaban dentro de **WeeklyData** registros. Para recuperar el **presión** desde la primera **DailySummary** en el segundo **WeeklyData**, el segundo parámetro debería ser 1 y el tercer parámetro sería 2.  
   
  Tenga en cuenta que este ejemplo se supone la **presión** campo no se repite. Si el campo se repitiera, los índices estarían desactivados — el número comenzaría con el **presión** campo, en lugar de la **Daily Summary**.  
   

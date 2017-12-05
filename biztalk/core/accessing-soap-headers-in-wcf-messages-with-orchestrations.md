@@ -17,16 +17,16 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3efc51b35b6ac522574c7adb66e27e56ab5f5bb3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3bfd1dd4e09071c3d7bcccf28878f19e13acad8a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="accessing-soap-headers-in-wcf-messages-with-orchestrations"></a>Obtener acceso a encabezados SOAP en mensajes WCF con orquestaciones
 Para obtener acceso a los valores del encabezado SOAP de mensajes entrantes de WCF en orquestaciones, use la propiedad de contexto **WCF. InboundHeaders**. Los adaptadores WCF copian encabezados SOAP personalizados y encabezados SOAP estándar en los mensajes entrantes en el **WCF. InboundHeaders** propiedad. Además, los adaptadores de WCF permiten seleccionar las propiedades que desee promocionar o escribir en las propiedades de contexto mediante programación. Vea [encabezados SOAP con servicios de WCF publican](../core/soap-headers-with-published-wcf-services.md) para obtener más detalles.  
   
- El valor contenido en la propiedad de contexto es una cadena que contiene los datos XML con la \< **encabezados**> elemento raíz y los encabezados SOAP entrantes se copian como elementos secundarios de la \< **encabezados** > elemento. La manera más sencilla de obtener acceso a estos datos consiste en usar el Editor de expresiones de BizTalk en un **asignación de mensajes** o **expresión** forma, carga la cadena en un **XmlDocument**y usar Consultas de XPath para tener acceso a campos específicos. Para obtener más información acerca de cómo crear documentos XML en el Editor de expresiones de BizTalk, consulte [lenguaje XLANG s](../core/xlang-s-language.md).  
+ El valor contenido en la propiedad de contexto es una cadena que contiene los datos XML con la \< **encabezados** \> elemento raíz y los encabezados SOAP entrantes se copian como elementos secundarios de la \< **encabezados** \> elemento. La manera más sencilla de obtener acceso a estos datos consiste en usar el Editor de expresiones de BizTalk en un **asignación de mensajes** o **expresión** forma, carga la cadena en un **XmlDocument**y usar Consultas de XPath para tener acceso a campos específicos. Para obtener más información acerca de cómo crear documentos XML en el Editor de expresiones de BizTalk, consulte [lenguaje XLANG s](../core/xlang-s-language.md).  
   
  En el ejemplo de código siguiente se obtiene el encabezado SOAP de solicitud un **asignación de mensajes** o **expresión** forma para el **WCF. InboundHeaders** propiedad:  
   

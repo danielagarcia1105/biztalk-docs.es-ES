@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77750a3ae6232b842961b83d3b672d2bbb084a73
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 326dc5f3102354c8f2aa6fa785b145b72014f3d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-an-adapter-in-iis-using-the-wcf-lob-adapter-sdk"></a>Hospedar un adaptador en IIS mediante el SDK de adaptador LOB de WCF
 Esta sección contiene información sobre el hospedaje de un adaptador que se compila mediante la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] en Internet Information Services (IIS). Para obtener más información sobre otras opciones de hospedaje, vea [servicios de hospedaje](https://msdn.microsoft.com/library/ms730158.aspx).
@@ -80,22 +80,22 @@ Use la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] para au
   
         |Propiedad|Description|  
         |--------------|-----------------|  
-        |**EnableMetadataExchange**|Establecer este valor en **True** permite la publicación de metadatos para las solicitudes de cliente de servicios. También puede establecerse mediante la modificación de \< **httpGetEnabled serviceMetadata = ""**> en el archivo web.config. Valor predeterminado es **False**|  
-        |**IncludeExceptionDetailsinFault**|Establecer este valor en **True** devuelven resultados en la información de excepción administrada al cliente en errores de SOAP. También puede establecerse mediante la modificación de \< **serviceDebug usingincludeExceptionDetailInFaults = ""**> en el archivo web.config. Valor predeterminado es **False**.|  
+        |**EnableMetadataExchange**|Establecer este valor en **True** permite la publicación de metadatos para las solicitudes de cliente de servicios. También puede establecerse mediante la modificación de \< **httpGetEnabled serviceMetadata = ""** \> en el archivo web.config. Valor predeterminado es **False**|  
+        |**IncludeExceptionDetailsinFault**|Establecer este valor en **True** devuelven resultados en la información de excepción administrada al cliente en errores de SOAP. También puede establecerse mediante la modificación de \< **serviceDebug usingincludeExceptionDetailInFaults = ""** \> en el archivo web.config. Valor predeterminado es **False**.|  
         |**Nombre**|Nombre de la configuración de comportamiento de servicio.|  
         |**UseServiceCertificate**|Este valor determina si el servicio utiliza un certificado X.509 para autenticarse en el proceso del cliente. Valor predeterminado es **True**.|  
-        |**FindValue**|Este valor se utiliza para buscar un certificado X.509 concreto en el almacén de certificados. También puede establecerse mediante la modificación de \< **serviceCredentials findValue = ""**> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate** se establece en **True**.|  
-        |**StoreLocation**|Este valor especifica la ubicación del almacén de sistema para buscar el certificado especificado. También puede establecerse mediante la modificación de \< **serviceCredentials storeLocation = ""**> en el archivo web.config. **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate** está establecido en **True**.|  
-        |**StoreName**|Este valor especifica el almacén del sistema específicos para buscar el certificado especificado. También puede establecerse mediante la modificación de \< **serviceCredentials storeName = ""**> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate** se establece en **True**.|  
-        |**X509FindType**|El tipo de búsqueda que se va a usar con el FindValue especificó anteriormente para encontrar el certificado específico que se va a usar. También puede establecerse mediante la modificación de \< **serviceCredentials x509FindType = ""**> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate**  está establecido en **True**.|  
+        |**FindValue**|Este valor se utiliza para buscar un certificado X.509 concreto en el almacén de certificados. También puede establecerse mediante la modificación de \< **serviceCredentials findValue = ""** \> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si  **UseServiceCertificate** está establecido en **True**.|  
+        |**StoreLocation**|Este valor especifica la ubicación del almacén de sistema para buscar el certificado especificado. También puede establecerse mediante la modificación de \< **serviceCredentials storeLocation = ""** \> en el archivo web.config. **Nota:** especifica un valor para esta propiedad sólo si **UseServiceCertificate** está establecido en **True**.|  
+        |**StoreName**|Este valor especifica el almacén del sistema específicos para buscar el certificado especificado. También puede establecerse mediante la modificación de \< **serviceCredentials storeName = ""** \> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si  **UseServiceCertificate** está establecido en **True**.|  
+        |**X509FindType**|El tipo de búsqueda que se va a usar con el FindValue especificó anteriormente para encontrar el certificado específico que se va a usar. También puede establecerse mediante la modificación de \< **serviceCredentials x509FindType = ""** \> en el archivo web.config **Nota:** especifica un valor para esta propiedad sólo si  **UseServiceCertificate** está establecido en **True**.|  
   
     2.  El **configuración de comportamiento de extremo** sección controla el comportamiento del extremo.  
   
         |Propiedad|Description|  
         |--------------|-----------------|  
         |**Nombre**|El nombre del comportamiento del extremo|  
-        |**AuthenticationType**|Este valor indica que el adaptador a dónde obtener al cliente de las credenciales del documento entrante. Para permitir que los clientes especificar un certificado de cliente para autenticarse en el servicio, establezca esta propiedad en **ClientCredentialUsernamePassword**. Para permitir que los clientes especificar el nombre de usuario y la contraseña como parte del encabezado HTTP, establezca esta propiedad en **HTTPUsernamePassword**. Para permitir que los clientes especificar las credenciales a través de la interfaz de ClientCredential, establezca esta propiedad en **automática**. Si se produce un error, los clientes pueden pasar las credenciales como parte del encabezado HTTP.<br /><br /> Este valor también puede establecerse mediante la modificación de \< **adapterSecurityBridgeType endpointBehavior**> en el archivo web.config. Valor predeterminado es **automática**.|  
-        |**UsernameHeader**|Esto especifica el nombre del encabezado que se usará para pasar el nombre de usuario para el servicio. Para obtener más información acerca de los encabezados HTTP, vea "Compatibilidad con encabezados HTTP personalizados y SOAP" en [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> Este valor también puede establecerse mediante la modificación de \< **usernameHttpHeader endpointBehavior**> en el archivo web.config. **Nota:** debe especificar un valor para esta propiedad si el **AuthenticationType** está establecido en **HTTPUserNamePassword**.  Si establece en **automática**, esta propiedad es opcional.|  
+        |**AuthenticationType**|Este valor indica que el adaptador a dónde obtener al cliente de las credenciales del documento entrante. Para permitir que los clientes especificar un certificado de cliente para autenticarse en el servicio, establezca esta propiedad en **ClientCredentialUsernamePassword**. Para permitir que los clientes especificar el nombre de usuario y la contraseña como parte del encabezado HTTP, establezca esta propiedad en **HTTPUsernamePassword**. Para permitir que los clientes especificar las credenciales a través de la interfaz de ClientCredential, establezca esta propiedad en **automática**. Si se produce un error, los clientes pueden pasar las credenciales como parte del encabezado HTTP.<br /><br /> Este valor también puede establecerse mediante la modificación de \< **endpointBehavior adapterSecurityBridgeType** \> en el archivo web.config. Valor predeterminado es **automática**.|  
+        |**UsernameHeader**|Esto especifica el nombre del encabezado que se usará para pasar el nombre de usuario para el servicio. Para obtener más información acerca de los encabezados HTTP, vea "Compatibilidad con encabezados HTTP personalizados y SOAP" en [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> Este valor también puede establecerse mediante la modificación de \< **endpointBehavior usernameHttpHeader** \> en el archivo web.config. **Nota:** debe especificar un valor para esta propiedad si el **AuthenticationType** está establecido en **HTTPUserNamePassword**.  Si establece en **automática**, esta propiedad es opcional.|  
         |**PasswordHeader**|Esto especifica el nombre del encabezado que se usará para pasar la contraseña del usuario para el servicio. Para obtener más información acerca de los encabezados HTTP, vea "Soporte técnico para Custom HTTP y SOAP Headers" en [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> Este valor también puede establecerse mediante la modificación de <**passwordHttpHeader endpointBehavior**< en el archivo web.config. **Nota:** debe especificar un valor para esta propiedad si el **AuthenticationType** está establecido en **HTTPUserNamePassword**. Si establece en **automática**, esta propiedad es opcional.|  
   
     3.  Después de establecer el comportamiento deseado, haga clic en **siguiente** para continuar.  
@@ -118,7 +118,7 @@ Use la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] para au
     |----------|-----------------|  
     |.svc|Archivo de servicio que hace referencia al proxy de WCF.|  
     |.cs|Implementa al proxy WCF.|  
-    |web.config|Contiene \< **extremo**>, \< **enlaces**>, y \< **comportamientos**> elementos para \< **sistema. ServiceModel**>|  
+    |web.config|Contiene \< **extremo** \, \< **enlaces**\>, y \< **comportamientos** \>elementos para \< **sistema. ServiceModel**\>|  
   
 12. Publique el proyecto de servicio WCF.  
   

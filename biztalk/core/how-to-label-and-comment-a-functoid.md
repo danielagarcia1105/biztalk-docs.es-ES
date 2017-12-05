@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fccdeefa35f9abb5a0c3158dba518d524811c611
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5720402e548992044eda26366c8b7b50bb95746a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-label-and-comment-a-functoid"></a>Agregación de etiquetas y comentarios en un functoid
 Las etiquetas y comentarios resultan útiles para documentar la finalidad de un functoid o vínculo en una asignación. Puede usar el **etiqueta** propiedad para proporcionar un nombre para un functoid. El **comentarios** propiedad le permite proporcionar información adicional acerca del functoid, normalmente información relevante sobre la operación que se va a realizar en él.  
@@ -30,7 +30,7 @@ Las etiquetas y comentarios resultan útiles para documentar la finalidad de un 
   
  Puede etiquetar y comentar un functoid de las siguientes maneras:  
   
--   Mediante el uso de la **configurar \<Functoid > Functoid** cuadro de diálogo.  
+-   Mediante el uso de la **configurar \<Functoid\> Functoid** cuadro de diálogo.  
   
 -   Mediante el uso de la **propiedades** ventana.  
   
@@ -41,7 +41,7 @@ Las etiquetas y comentarios resultan útiles para documentar la finalidad de un 
   
 1.  Haga clic en el functoid que desea etiquetar y comentar y, a continuación, haga clic en **configurar entradas de Functoid**.  
   
-2.  En el **configurar \<Functoid > Functoid** cuadro de diálogo, haga clic en el **etiqueta y comentarios** ficha.  
+2.  En el **configurar \<Functoid\> Functoid** cuadro de diálogo, haga clic en el **etiqueta y comentarios** ficha.  
   
 3.  Escriba la información siguiente y, a continuación, haga clic en **Aceptar**.  
   
@@ -72,4 +72,4 @@ Las etiquetas y comentarios resultan útiles para documentar la finalidad de un 
         >  El número máximo de caracteres permitido es 1024. Si se especifica una cadena con más de 1024 caracteres, se aceptan los primeros 1024 caracteres y el resto se descartan.  
   
 ## <a name="see-also"></a>Vea también  
- [Editar propiedades de Functoid y parámetros de entrada](../core/editing-functoid-properties-and-input-parameters.md)
+ [Editar propiedades de functoid y parámetros de entrada](../core/editing-functoid-properties-and-input-parameters.md)

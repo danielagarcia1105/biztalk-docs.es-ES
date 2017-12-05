@@ -22,11 +22,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c588f476cca366f139a359bfccd28413a6057fe4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6c96e2d99bd6071098a65b3635bb466de44a455d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-specify-sso-administrators-and-affiliate-administrators-accounts"></a>Cómo especificar administradores de SSO y los administradores afiliados de cuentas
 Las cuentas de administradores de inicio de sesión único (SSO) empresarial y las cuentas de administradores afiliados pueden ser individuales o de grupo de hosts. Debe crear estas cuentas antes de configurar el sistema de SSO.  
@@ -64,7 +64,7 @@ Las cuentas de administradores de inicio de sesión único (SSO) empresarial y l
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage** :**disablesso**.  
   
@@ -83,9 +83,9 @@ Las cuentas de administradores de inicio de sesión único (SSO) empresarial y l
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-updatedb  *\<archivo de actualización >***, donde  *\<archivo de actualización >* es la ruta de acceso y nombre del archivo XML.  
+3.  Tipo de **ssomanage-updatedb  *\<archivo de actualización\>***, donde  *\<archivo de actualización\>*  es la ruta de acceso y el nombre de la Archivo XML.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -102,7 +102,7 @@ Las cuentas de administradores de inicio de sesión único (SSO) empresarial y l
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – enablesso**.  
   
@@ -110,4 +110,4 @@ Las cuentas de administradores de inicio de sesión único (SSO) empresarial y l
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
   
 ## <a name="see-also"></a>Vea también  
- [Grupos de usuarios SSO](../core/sso-user-groups.md)
+ [Grupos de usuarios de SSO](../core/sso-user-groups.md)

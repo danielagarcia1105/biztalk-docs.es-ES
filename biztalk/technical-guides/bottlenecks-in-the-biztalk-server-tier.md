@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ce311461f4273b057c65913d3024f8092f87d1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd2eddf6cc88737375998237db97ca699a676170
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bottlenecks-in-the-biztalk-server-tier"></a>Cuellos de botella en el nivel de servidor BizTalk Server
 El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:  
@@ -121,7 +121,7 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
 ### <a name="other-system-resource-contention"></a>Contención de otros recursos de sistema  
  Según el tipo de transporte, puede ser necesario configurar los recursos del sistema como IIS para HTTP (por ejemplo, MaxIOThreads, MaxWorkerThreads).  
   
- Con ASP.NET 2.0 y ASP.Net 4, el \<processModel autoConfig = "true" / > en el archivo machine.config configurará automáticamente las siguientes opciones para un rendimiento óptimo:  
+ Con ASP.NET 2.0 y ASP.Net 4, el \<processModel autoConfig = "true"\> configuración en el archivo machine.config configurará automáticamente las siguientes opciones para un rendimiento óptimo:  
   
 -   Subprocesos de trabajo máximo  
   
@@ -131,7 +131,7 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
   
 -   atributo minLocalRequestFreeThreads del elemento httpRuntime  
   
--   atributo maxConnection el \<connectionManagement > elemento Element (Network Settings)  
+-   atributo maxConnection el \<connectionManagement\> elemento Element (Network Settings)  
   
  Para obtener más información acerca de cómo configurar los parámetros que afectan al rendimiento del adaptador, vea [valores de configuración de ASP.NET para el elemento processModel](http://go.microsoft.com/fwlink/?LinkId=158080) (http://go.microsoft.com/fwlink/?LinkId=158080).  
   
@@ -229,4 +229,4 @@ El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:
  En cada punto de interrupción, se puede examinar la información sobre variables locales, mensajes y sus propiedades, puertos y vínculos de función.  
   
 ## <a name="see-also"></a>Vea también  
- [Buscar y eliminar los cuellos de botella](../technical-guides/finding-and-eliminating-bottlenecks.md)
+ [Búsqueda y eliminación de cuellos de botella](../technical-guides/finding-and-eliminating-bottlenecks.md)

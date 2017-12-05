@@ -26,11 +26,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6e60465716931161e9b9949e16c4630d85c2cfe2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4eac8dab219e46dc569b604a63e195f4613eb344
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-trfcs-in-sap"></a>Operaciones en tRFCs en SAP
 RFC transaccional (tRFCs) son las solicitudes de cambio que se invocan como parte de una unidad lógica de trabajo (LUW). En un sistema SAP, un LUW contiene todos los pasos necesarios para completar una tarea de programación o de negocio. Un tRFC representa una manera de invocar una solicitud de cambio; no es un único artefacto SAP.  
@@ -114,7 +114,7 @@ RFC transaccional (tRFCs) son las solicitudes de cambio que se invocan como part
   
 -   El adaptador debe registrarse con un destino RFC en una puerta de enlace SAP. El registro se basa en un nombre lógico que se llama a un identificador de programa. Especifica los parámetros con el URI de conexión para especificar el identificador de programa, puerta de enlace SAP y servidor SAP para este registro.  
   
--   La base de datos TID debe crearse en SQL Server. Para ello, debe ejecutar un script SQL que se instala el programa de instalación. El script SQL se instala normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Para obtener más información, vea [instalar BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e).  
+-   La base de datos TID debe crearse en SQL Server. Para ello, debe ejecutar un script SQL que se instala el programa de instalación. El script SQL se instala normalmente en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Para obtener más información, vea [instalar BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e).  
   
 -   El **TidDatabaseConnectionString** enlaza la propiedad debe establecerse en la cadena de conexión de base de datos SQL para la base de datos TID. Para obtener más información sobre la **TidDatabaseConnectionString** enlace de propiedad, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   

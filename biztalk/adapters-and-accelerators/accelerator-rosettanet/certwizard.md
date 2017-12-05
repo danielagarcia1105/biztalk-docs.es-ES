@@ -16,17 +16,17 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8d9daf4ea1ea996680088c7a7a1333e9d26906b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea106299a734f79506823ca4a6951a3dad367553
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="certwizard"></a>CertWizard
 Use la utilidad CertWizard para importar un certificado desde un archivo .pfx o .cer en un almacén privado o público para su uso con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*> \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for RosettaNet\SDK\  
+ \<*unidad*\>archivos \Program\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\  
   
 ## <a name="running-certwizard"></a>Ejecutando CertWizard  
   
@@ -34,7 +34,7 @@ Use la utilidad CertWizard para importar un certificado desde un archivo .pfx o 
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*> \ archivos de programa\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for RosettaNet\SDK\\.  
+2.  Mover a \< *unidad*\>\ archivos de programa\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 3.  En el símbolo del sistema, escriba **CertWizard**, escriba los conmutadores requeridos y correspondientes y, a continuación, presione ENTRAR.  
   

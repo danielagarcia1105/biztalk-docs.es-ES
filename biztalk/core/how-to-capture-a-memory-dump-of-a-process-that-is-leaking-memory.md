@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d2999ce9a188b2d9b94df11328485e8b7440ecec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e1e57a3c4d3c035069c550cdc540de1c88e8880
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a>Cómo capturar un volcado de memoria de un proceso que pierde memoria
 Se dice que el proceso BTSNTSvc.exe de BizTalk pierde memoria cuando no puede liberar la memoria que ya no necesita, lo que reduce, por tanto, la cantidad de memoria disponible con el tiempo. Se puede determinar el uso de memoria del proceso observando el valor en el **uso de memoria** columna de la **procesos** ficha disponible en **el Administrador de tareas**. Si el proceso sigue utilizando memoria con el tiempo sin liberarla, el rendimiento general del sistema se verá afectado negativamente.  
@@ -50,7 +50,7 @@ Se dice que el proceso BTSNTSvc.exe de BizTalk pierde memoria cuando no puede li
   
 7.  En el **Rule Completed** diálogo haga clic en **finalizar** para aceptar el valor predeterminado de **activar la regla ahora**.  
   
-8.  De forma predeterminada, se guardará un volcado de memoria del proceso para el \Program Files\IIS Resources\DebugDiag\Logs\\<*nombre de regla de bloqueo*> directorio del equipo local después de los intervalos de tiempo especificado en el **Configure Tracking Duration** ha transcurrido el cuadro de diálogo.  
+8.  De forma predeterminada, se guardará un volcado de memoria del proceso para el \Program Files\IIS Resources\DebugDiag\Logs\\<*nombre de regla de bloqueo* \> directorio del equipo local después de los intervalos de tiempo se especifica en el **Configure Tracking Duration** ha transcurrido el cuadro de diálogo.  
   
 ### <a name="to-manually-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a>Para capturar manualmente un volcado de memoria de un proceso que pierde memoria  
   

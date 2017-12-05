@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c907ca8db5b9655d83889b75e7439de46ebeb59c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b5b1a6d6b651ea07430f67667a17029dfe162d4d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receivelocations-biztalk-server-sample"></a>ReceiveLocations (ejemplo de BizTalk Server)
 El ejemplo ReceiveLocations muestra cómo crear ubicaciones de recepción en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno mediante el uso de la **ExplorerOM** objetos de administración. Para obtener más información sobre ubicaciones de recepción en general, vea [ubicaciones de recepción](../core/receive-locations.md).  
@@ -39,7 +39,7 @@ El ejemplo ReceiveLocations muestra cómo crear ubicaciones de recepción en el 
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  Este ejemplo se encuentra en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\ReceiveLocations  
+ \<*Ejemplos de ruta de acceso* \> \Admin\ExplorerOM\ReceiveLocations  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -60,7 +60,7 @@ El ejemplo ReceiveLocations muestra cómo crear ubicaciones de recepción en el 
   
 1.  Abra un símbolo del sistema con privilegios de administrador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-2.  Cambie a la \< *ejemplos*> \Admin\ExplorerOM\ReceiveLocations\bin\debug directory.  
+2.  Cambie a la \< *ejemplos*\>\Admin\ExplorerOM\ReceiveLocations\bin\debug directory.  
   
 3.  Ejecute ReceiveLocations.exe.  
   
@@ -299,4 +299,4 @@ RP_Receive_ShipmentAgency_Ack
   
 ## <a name="see-also"></a>Vea también  
  [Ubicaciones de recepción](../core/receive-locations.md)   
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

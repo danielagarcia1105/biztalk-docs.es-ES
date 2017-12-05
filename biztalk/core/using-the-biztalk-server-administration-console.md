@@ -17,11 +17,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 079bae61dd4e692e25634414f6ff2e7078235b67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de8b806c8a6f39608608a3eabc975cf606410abc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-biztalk-server-administration-console"></a>Utilizar la consola de administración de BizTalk Server
 La consola de administración de BizTalk Server es un caso de Microsoft Management Console (MMC) que puede utilizar para administrar y supervisar BizTalk Server, y que puede usar para implementar y administrar las aplicaciones de BizTalk Server.  
@@ -30,7 +30,7 @@ La consola de administración de BizTalk Server es un caso de Microsoft Manageme
   
  Cuando selecciona un nodo del árbol de consola, el panel de detalles situado en la parte derecha de la consola de administración muestra información sobre los elementos.  
   
- Si selecciona el nodo de administración de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en el árbol de consola, se muestra la página de inicio, que contiene acciones que puede llevar a cabo, tal como conectarse a un grupo existente de BizTalk Server. Asimismo, la página de inicio además incluye vínculos a la documentación de BizTalk Server y a sitios web de comunidades en línea.  
+ Al seleccionar el nodo de administración de BizTalk Server en el árbol de consola, muestra la página de inicio, que contiene acciones que puede realizar, como la conexión a un grupo de BizTalk Server existente. Asimismo, la página de inicio además incluye vínculos a la documentación de BizTalk Server y a sitios web de comunidades en línea.  
   
  Para obtener información sobre cómo usar métodos abreviados de teclado para la consola de administración, consulte [métodos abreviados de teclado de consola de administración](../core/administration-console-keyboard-shortcuts.md).  
   
@@ -127,4 +127,4 @@ A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], puede guardar var
   
 -   [Configurar el seguimiento mediante la consola de administración de BizTalk Server](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
   
--   [Mediante la página concentrador de grupo](../core/using-the-group-hub-page.md)
+-   [Uso de la página Concentrador de grupo](../core/using-the-group-hub-page.md)

@@ -12,14 +12,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3601be46358a2f751bc44931043731d4e4b6351
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 65d8a17a9ac1f055312f0f1cdf3bc1231319842d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="support-for-generic-types-and-generic-methods"></a>Compatibilidad para tipos y métodos genéricos
-El motor de reglas admite el uso de tipos y métodos genéricos especializados en una regla. Sin embargo, no admite el uso de los tipos y métodos genéricos en una regla. Por ejemplo, en una regla de negocios puede utilizar **lista**\<*int*>, pero no **lista**\<T > (desde el  **System.Collections.Generic** espacio de nombres en la biblioteca de clases. NET). Actualmente, la herramienta Compositor de reglas de negocio no admite la creación de reglas mediante los tipos y métodos genéricos especializados. Las reglas deben crearse mediante programación utilizando el modelo de objetos del motor de reglas. El código de ejemplo siguiente muestra cómo utilizar el **lista** clase genérica en una regla de negocios:  
+El motor de reglas admite el uso de tipos y métodos genéricos especializados en una regla. Sin embargo, no admite el uso de los tipos y métodos genéricos en una regla. Por ejemplo, en una regla de negocios puede utilizar **lista**\<*int*\>, pero no **lista**\<T\> (a través de la  **System.Collections.Generic** espacio de nombres en la biblioteca de clases. NET). Actualmente, la herramienta Compositor de reglas de negocio no admite la creación de reglas mediante los tipos y métodos genéricos especializados. Las reglas deben crearse mediante programación utilizando el modelo de objetos del motor de reglas. El código de ejemplo siguiente muestra cómo utilizar el **lista** clase genérica en una regla de negocios:  
   
 ```  
   

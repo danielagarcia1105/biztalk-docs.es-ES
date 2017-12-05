@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc6738a2b46b3dc28aeee0642c03f92467ef6190
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3db5180d8b4183a2a48c726fd5e73b3347f82dc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-rfcs-in-sap-using-biztalk-server"></a>Invocar RFC en SAP mediante BizTalk Server
 La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone las RFC expuestas por un sistema SAP como operaciones que se pueden invocar mediante un cliente de adaptador. Esta sección proporciona instrucciones sobre cómo invocar una solicitud de cambio en un sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información acerca de cómo los [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite la invocación de una solicitud de cambio en un sistema SAP, consulte [operaciones en RFC en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md). Para obtener más información acerca de la estructura del mensaje SOAP para llamar a una solicitud de cambio, consulte [esquemas de mensaje para las operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md).  
@@ -164,7 +164,7 @@ La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone la
  La orquestación consume el mensaje y lo envía al sistema SAP. La respuesta desde el sistema SAP se guarda en otra ubicación de archivo definido como parte de la orquestación. Por ejemplo, la respuesta desde el sistema SAP para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RFC_CUSTOMER_GETResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <CUSTOMER_T>  
     <RFCCUST xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  

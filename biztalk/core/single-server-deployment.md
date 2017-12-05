@@ -20,11 +20,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38bb6aa65a77c5473ac2934bd2bd0c59268eb2af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6796bbbad4722e959962ea88e9854bce82476be4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="single-server-deployment"></a>Implementación de servidor único
 En este tema se trata la configuración e implementación de un solo servidor para el adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services.  
@@ -123,7 +123,7 @@ En este tema se trata la configuración e implementación de un solo servidor pa
   
 -   En [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)], la identidad bajo la que el servicio web del adaptador de SharePoint se ejecuta debe tener los permisos siguientes:  
   
-     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión > \Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y el servidor BizTalk Server, permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión > \Business Activity Services\BTSharePointV3AdapterWS**  
+     **Lectura** permisos en el **archivos de programa\Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS** carpeta. Si usa una versión de 64 bits de Windows y el servidor BizTalk Server, permisos deben establecerse en el **(x86) de archivos de programa \Microsoft BizTalk Server \<versión\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
      **Lectura** permiso en la siguiente clave del registro: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**.  
   

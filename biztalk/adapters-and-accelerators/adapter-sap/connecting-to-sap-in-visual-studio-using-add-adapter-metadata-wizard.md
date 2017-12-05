@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18f56b5035787587e429614749cbfb0c1091b72c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db24d079dc428c69733e36141280504f97728b26
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard"></a>Conectarse a SAP en Visual Studio mediante metadatos de Asistente para agregar adaptador
 El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] también se expone como un adaptador de BizTalk y por lo tanto, puede usar el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] para generar el esquema para las operaciones que desea realizar en un sistema SAP mediante el adaptador.  
@@ -71,7 +71,7 @@ El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] también 
     > [!IMPORTANT]
     >  Si está utilizando la biblioteca de SAP SNC para conectarse a un sistema SAP, establecer el **SncLibrary** y **SncPartnerName** en los valores adecuados.  
     >   
-    >  El **SncLibrary** enlaza la propiedad toma la ruta de acceso y el nombre de archivo de los archivos DLL necesarios para que usar SNC para conectarse a un sistema SAP. Estas DLL deben estar presentes en el equipo con el cliente SAP y [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] instalado. Para obtener más información, consulte el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación disponible en \<Guía de instalación >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+    >  El **SncLibrary** enlaza la propiedad toma la ruta de acceso y el nombre de archivo de los archivos DLL necesarios para que usar SNC para conectarse a un sistema SAP. Estas DLL deben estar presentes en el equipo con el cliente SAP y [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] instalado. Para obtener más información, consulte el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] Guía de instalación disponible en \<Guía de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
     >   
     >  El **SncPartnerName** enlaza la propiedad toma el nombre SNC del asociado de comunicación.  
   

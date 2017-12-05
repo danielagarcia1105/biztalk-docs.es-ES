@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6030b711e0fd48d2632ff84428e1cb9ffc6e0402
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 466917e0656dfa39467a00dfa91285b3cb7cf1a1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="importing-certificates-using-mmc"></a>Importación de certificados mediante MMC
 Este tema describe cómo importar un digital de certificado que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utiliza para autenticar a un socio comercial, descifrar un mensaje entrante, o cifrar o firmar un mensaje saliente.  
@@ -54,12 +54,12 @@ Este tema describe cómo importar un digital de certificado que [!INCLUDE[btsCoN
   
 1.  Certificado de clave privada (.pfx) copia archivos en una ubicación en el disco duro del servidor al que va a copiar certificados.  
   
-2.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **ejecutar como/User:\<servicio de host > mmc**y, a continuación, haga clic en **Aceptar**.  
+2.  Haga clic en **iniciar**, haga clic en **ejecutar**, tipo **ejecutar como/User:\<hospedar servicio\> mmc**y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  Para \< *hospedar servicio*>, escriba el nombre del servicio que se selecciona automáticamente para el servicio de host cuando instaló [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+    >  Para \< *hospedar servicio*\>, escriba el nombre del servicio que se selecciona automáticamente para el servicio de host cuando instaló [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
-3.  Escriba la contraseña de \< *hospedar servicio*> y, a continuación, presione **ENTRAR**.  
+3.  Escriba la contraseña de \< *hospedar servicio*\>y, a continuación, presione **ENTRAR**.  
   
 4.  En [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] consola de administración, en la **archivo** menú, haga clic en **agregar o quitar complemento**.  
   

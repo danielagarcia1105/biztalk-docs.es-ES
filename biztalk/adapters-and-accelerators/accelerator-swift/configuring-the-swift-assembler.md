@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76e1309012abbaac27e2e0ae6ec9b35f37d88884
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f77d47b2b3ab687f2fd72242f4ddbbc68ae8530c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-the-swift-assembler"></a>Configurar el ensamblador SWIFT
 El ensamblador de SWIFT realiza las tareas siguientes cuando se invoca en un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] canalización de envío:  
@@ -45,8 +45,8 @@ El ensamblador de SWIFT realiza las tareas siguientes cuando se invoca en un [!I
 > [!NOTE]
 >  Una vez que configura, compila e implementa una canalización personalizada, cambios en la configuración requieren volver a compilar y volver a implementar la canalización personalizada.  
   
- Para obtener información acerca de cómo crear, compilar e implementar canalizaciones personalizadas, consulte [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener información acerca de cómo crear, compilar e implementar canalizaciones personalizadas, consulte la Ayuda de BizTalk Server.  
   
  Esta sección contiene:  
   
--   [Propiedades de configuración de ensamblador SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-assembler-configuration-properties.md)
+-   [Propiedades de configuración del ensamblador de SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-assembler-configuration-properties.md)

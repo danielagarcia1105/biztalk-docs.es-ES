@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0cd96da053bad370d635c804df41badf10a7c154
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c23fa8aca6def654b594d8b4fccf5d584e12fed4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="esb-resolver-and-adapter-provider-framework"></a>Resolución ESB y marco de proveedores de adaptador
-La resolución y el marco de proveedores de adaptador proporciona una arquitectura completa y conectable para resolver dinámicamente la información de punto de conexión y [!INCLUDE[prague](../includes/prague-md.md)] asignar los tipos. Utiliza los componentes extensibles, que permiten a los desarrolladores cambiar el comportamiento para satisfacer sus propias necesidades y ampliar el mecanismo para admitir la solución alternativa y los métodos de enrutamiento.  
+La resolución y el marco de proveedores de adaptador proporciona una arquitectura acoplable completa para resolver dinámicamente información de punto de conexión y los tipos de asignación de BizTalk Server. Utiliza los componentes extensibles, que permiten a los desarrolladores cambiar el comportamiento para satisfacer sus propias necesidades y ampliar el mecanismo para admitir la solución alternativa y los métodos de enrutamiento.  
   
  La resolución y el marco de proveedores de adaptador proporciona compatibilidad con Universal Description, Discovery y Integration (UDDI), motor de reglas de negocios (BRE) y XML Path Language (XPath). También expone interfaces de desarrollador (**IResolveProvider** y **IAdapterProvider**) para permitir la creación de componentes personalizados de resolución y el adaptador. Éstos son los tres componentes principales de la resolución y el marco de proveedores de adaptador:  
   

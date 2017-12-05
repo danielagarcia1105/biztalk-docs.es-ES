@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 495e4cfe4c9c9b9d7ae16ee58f7831ad5447d37b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38c08be5cd58ed6c80af351715ff6257f533c6af
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="filetransport-sample"></a>Ejemplo de FileTransport
 El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utilice puertos de archivo, en lugar de los puertos SQL. El ejemplo FileTransport usa el protocolo de transferencia de archivos (FTP) para enviar y recibir mensajes, en lugar de HTTP.  
@@ -28,7 +28,7 @@ El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../inc
 >  Este ejemplo no es compatible con los datos adjuntos del mensaje.  
   
 ## <a name="filetransport-binding-files"></a>Archivos de enlace de FileTransport  
- El ejemplo de FileTransport incluye dos archivos de enlace. Puede utilizar cada uno de estos archivos de enlace para configurar los puertos de archivo para su uso con una orquestación de BTARN. Estos archivos de enlace se encuentran en  *\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet \SDK\FileTransport. Abra cada archivo de enlace en un editor como el Bloc de notas para ver la configuración de la orquestación, puerto de envío, puerto de recepción y ubicación de recepción, como se muestra a continuación.  
+ El ejemplo de FileTransport incluye dos archivos de enlace. Puede utilizar cada uno de estos archivos de enlace para configurar los puertos de archivo para su uso con una orquestación de BTARN. Estos archivos de enlace se encuentran en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet \SDK\FileTransport. Abra cada archivo de enlace en un editor como el Bloc de notas para ver la configuración de la orquestación, puerto de envío, puerto de recepción y ubicación de recepción, como se muestra a continuación.  
   
 -   PrivateInitiatorusingFileDrops.xml  
   
@@ -50,7 +50,7 @@ El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../inc
   
     -   Ubicación de recepción: File_To_PrivateResponder  
   
- El siguiente procedimiento describe cómo importar los enlaces de los archivos de enlace mediante el comando BTSTask. Para obtener más información, vea el tema "Comando ImportBindings" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ El siguiente procedimiento describe cómo importar los enlaces de los archivos de enlace mediante el comando BTSTask. Para obtener más información, vea el tema "Comando ImportBindings" en la Ayuda de BizTalk Server.  
   
 ## <a name="procedure"></a>Procedimiento  
   
@@ -66,7 +66,7 @@ El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../inc
   
 5.  Dar de baja Microsoft.Solutions.BTARN.PrivateInitiator.PrivateInitiatatorProcess.  
   
-6.  Cree una carpeta \FileDrops en la carpeta BTARN de C:\Program Files\Microsoft BizTalk \<versión > Accelerator for RosettaNet y, a continuación, cree la siguiente estructura de carpetas en \FileDrops:  
+6.  Cree una carpeta \FileDrops en la carpeta BTARN de C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet y, a continuación, cree la siguiente estructura de carpetas en \FileDrops:  
   
     -   \PrivateInitiator  
   

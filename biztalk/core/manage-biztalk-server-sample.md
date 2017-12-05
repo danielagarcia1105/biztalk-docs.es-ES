@@ -17,11 +17,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b15a94bf916550d9a2eada9b8f354432b4c154ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4234614cc9f00809f8922999ae96e6f254989c6a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="manage-biztalk-server-sample"></a>Administrar (ejemplo de BizTalk Server)
 El ejemplo para administrar inicio de sesión único (SSO) muestra cómo se construyen archivos .xml que se pueden usar con la utilidad de línea de comandos ssomanage.exe para llevar a cabo los siguientes tipos de operaciones de administración:  
@@ -40,7 +40,7 @@ El ejemplo para administrar inicio de sesión único (SSO) muestra cómo se cons
  Este ejemplo incluye pares de XSD y archivos .xml de ejemplo para cada uno de estos tipos de operaciones. Los valores de los archivos .xml de ejemplo no son válidos. Debe efectuar cambios en los valores para adecuarlos a sus necesidades específicas.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\SSO\Manage\  
+ *\<Ejemplos de ruta de acceso\>*\SSO\Manage\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   

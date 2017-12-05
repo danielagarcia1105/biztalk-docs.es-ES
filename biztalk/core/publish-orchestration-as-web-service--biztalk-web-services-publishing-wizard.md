@@ -20,11 +20,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 05fb4ae12e9ff22c82fed7d0c6e425b9e67ece43
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d8c86721091b9a0c9e8436b42a7489e228dbb7e0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-an-orchestration-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar una orquestación como servicio Web
 El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orquestaciones como servicios Web.  
@@ -97,19 +97,19 @@ El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orq
     > [!NOTE]
     >  La misma combinación de espacio de nombres de destino/nombre de elemento raíz sólo se puede agregar una vez como un encabezado SOAP de solicitud y una vez como encabezado SOAP de respuesta.  
   
-9. En el **proyecto de servicio Web** página, en la **nombre del proyecto** texto, escriba el nombre para el proyecto. Puede aceptar la ubicación predeterminada (http://localhost/\<*Nombre_proyecto*>), escriba una ubicación para el proyecto en el **ubicación del proyecto** cuadro de texto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+9. En el **proyecto de servicio Web** página, en la **nombre del proyecto** texto, escriba el nombre para el proyecto. Puede aceptar la ubicación predeterminada (http://localhost/ <*Nombre_proyecto*>), escriba una ubicación para el proyecto en el **ubicación del proyecto** cuadro de texto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     -   **Sobrescribir proyecto existente.** Esta opción únicamente está disponible si la ubicación del proyecto ya existe. Podrá publicar en la misma ubicación sólo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
     -   **Permitir el acceso anónimo al servicio web.** Esta opción agrega acceso anónimo al directorio virtual creado. De forma predeterminada, el directorio virtual hereda los privilegios de acceso de su directorio virtual principal o del sitio Web (si existe un directorio virtual de nivel superior).  
   
-    -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe una ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato /\<*nombre del directorio virtual*>/\<*namespace_typename_portname de orquestación* > .asmx. Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
+    -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe una ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato /\<*nombre del directorio virtual*\>/\<*namespace_typename_portname de orquestación*  \>.asmx. Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://\<*servername*>/\<*Nombre_proyecto*> **.  
+        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://<*servername*>/<*Nombre_proyecto*> **.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://localhost: 8080 /\<*Nombre_proyecto*>.  
+        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://localhost: 8080 / <*Nombre_proyecto*>.  
   
         > [!NOTE]
         >  Al utilizar el asistente para crear ubicaciones de recepción, éstas se crean mediante los valores predeterminados. El valor predeterminado para la canalización de recepción es el **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** canalización. Si los mensajes recibidos a través del servicio Web publicado requieren algún procesamiento de canalización especial (por ejemplo, validación, correlación o promoción de propiedades o asignaciones de entrada/salida), a continuación, debe establecer la canalización de recepción en  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, o en una canalización personalizada.  
@@ -127,7 +127,7 @@ El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orq
 12. Haga clic en **finalizar** para completar el Asistente para publicación de servicios Web de BizTalk.  
   
 > [!NOTE]
->  Si va a publicar una orquestación como un servicio Web en Windows Vista, debe actualizar el directorio virtual que aloja el servicio. Para ello, ejecute el siguiente comando desde el símbolo del sistema, reemplazando \<vdir > con el nombre del directorio virtual: **% systemroot%\system32\inetsrv\APPCMD. EXE migrar configuración "Default Web Site /\<nombre vdir >"**.  
+>  Si va a publicar una orquestación como un servicio Web en Windows Vista, debe actualizar el directorio virtual que aloja el servicio. Para ello, ejecute el siguiente comando desde el símbolo del sistema, reemplazando \<vdir\> con el nombre del directorio virtual: **% systemroot%\system32\inetsrv\APPCMD. EXE migrar configuración "Default Web Site /\<vdir nombre\>"**.  
   
 ## <a name="see-also"></a>Vea también  
  [Publicar una orquestación como servicio Web](../core/publishing-an-orchestration-as-a-web-service.md)   

@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c717d23886860363ca9c94d1eec79195f873fff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9357c172ff538bce73d3618739f3db4f98141814
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-store-and-forward-scenario"></a>Paso 3B: agregar un FILEACT ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct
 Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de recepción de archivo para el escenario de al día y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md).  
@@ -41,13 +41,13 @@ Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de 
     |------------------|--------------------|  
     |**Contraseña**|Escriba la contraseña que usa para conectarse a SAG. Para obtener más información, consulte la Ayuda de SAG.|  
     |**Nombre de usuario.**|Escriba el nombre de usuario que utiliza para conectarse a SAG.|  
-    |**Nombre de la aplicación**|Escriba la dirección del servidor \<nombre de la interfaz de aplicación > para el SAG cuadro enrutamiento conjunto.|  
+    |**Nombre de la aplicación**|Escriba la dirección del servidor \<nombre de la interfaz de aplicación\> para el SAG cuadro enrutamiento conjunto.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**Modo de FACrypto**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessages**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
     |**MemberRef**|En la lista desplegable, seleccione **ResponsePayload**.|  
     |**Indicador de sin repudio**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Servicio de respuesta**|Escriba la correspondiente \<Respondedor > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Escriba la correspondiente \<Respondedor\> cadena, según su aprovisionamiento con SWIFT.|  
     |**ResponseCrypto**|En la lista desplegable, seleccione **FALSE**.|  
     |**Indicador de confirmación**|En la lista desplegable, seleccione **ResponsePayload**.|  
     |**FileCompression**|En la lista desplegable, seleccione ninguno.|  
@@ -80,4 +80,4 @@ Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de 
  [Paso 3: Crear puertos de envío y puertos de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
  [Paso 3A: agregar un archivo de ubicación de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md)   
  [Paso 3c: agregar un puerto de envío de archivo para capturar los mensajes Sw:HandleFileRequest y Sw:HandleSnFRequest para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md)   
- [Paso 3D: agregar un puerto de envío de FILEACT para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario.md)
+ [Paso 3D: Agregar un puerto de envío de FILEACT para el escenario de almacenamiento y reenvío de FileAct](../../adapters-and-accelerators/fileact-interact/step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario.md)

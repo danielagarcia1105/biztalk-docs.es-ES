@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b860aa0d0253185f1c9ecc6f7a525776abfab5d6
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 18ae8d599b67a1a572021cae0ebc9bfc64992a9b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>Solucionar problemas de TIBCO Rendezvous
   
@@ -38,7 +38,7 @@ Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, 
   
      Para que la aplicación de consumidor pueda leer el evento en el archivo etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real > = -rt.  
+     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real\> = -rt.  
   
 -   **Proveedor**: proporciona el evento.  
   
@@ -46,15 +46,15 @@ Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, 
   
  BizTalk Adapter para TIBCO Rendezvous tiene tres proveedores. Esto le permite registrar diferentes tipos de mensajes:  
   
--   **Proveedor de registro de receptor**: el \<elemento de seguimiento > es el conmutador **-receptor**.  
+-   **Proveedor de registro de receptor**: el \<elemento Trace\> conmutador **-receptor**.  
   
 -   Use **-receptor** para recibir cualquier mensaje del registro que se han recibido por el adaptador en tiempo de ejecución.  
   
--   **Proveedor de registro de transmisor**: el \<elemento de seguimiento > es el conmutador **-transmisor**.  
+-   **Proveedor de registro de transmisor**: el \<elemento Trace\> conmutador **-transmisor**.  
   
      Use **-transmisor** para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.  
   
--   **Proveedor de registro de administración:**el \<elemento de seguimiento > es el conmutador **-administración**.  
+-   **Proveedor de registro de administración:**el \<elemento Trace\> conmutador **-administración**.  
   
      Use **-administración**para recibir cualquier mensaje del registro que se generaron durante la exploración del sistema del servidor.  
   
@@ -67,7 +67,7 @@ BTATIBCORVTrace <Trace element> -start [-cir <MB>|
 BTATIBCORVTrace <Trace element> -stop  
 ```  
   
- Dónde:  **\<elemento Trace >** (obligatorio) es el tipo de proveedor.  
+ Dónde:  **\<elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
   
  Sus opciones son:  
   
@@ -79,9 +79,9 @@ BTATIBCORVTrace <Trace element> -stop
   
 -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   
--   **-cir \<MB >**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB >**: tamaño en megabytes.  
+-   **-cir \<MB\>**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB\>**: tamaño en megabytes.  
   
--   **-seq \<MB >**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB >**: tamaño en megabytes.  
+-   **-seq \<MB\>**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB\>**: tamaño en megabytes.  
   
 -   **-rt**: activar el modo de tiempo real.  
   

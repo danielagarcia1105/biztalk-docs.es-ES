@@ -21,11 +21,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 91e0710a8238075610d98b5897fdc7865f30190f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e6989ac7e64cf28784d08f26aaf9e7af3a166a28
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="table-driven-looping-example"></a>Ejemplo de bucle controlado por tablas
 Esta sección describen brevemente una asignación que utiliza el **bucle de tabla** y **Extractor de tablas** functoids. Para obtener información detallada acerca de la selección, colocación, vinculación y configuración de los functoids, consulte [cómo agregar Functoids de bucle y tabla extractor de tablas a un mapa](../core/how-to-add-table-looping-and-table-extractor-functoids-to-a-map.md).  
@@ -92,7 +92,7 @@ Functoids de bucle de tabla y de extractor de tablas
   
  Tenga en cuenta que la **bucle de tabla** vínculos de functoid para el elemento de nivel de registro en los esquemas de entrada y salidos. El vínculo asegura la creación de la estructura envolvente y por lo tanto la creación de elementos dentro del registro. Observe también que hay un **Extractor de tablas** functoid para cada campo en el esquema de salida.  
   
- El vínculo con el registro en el esquema de entrada es el primer parámetro de la **configurar \<Functoid > Functoid**cuadro de diálogo.  
+ El vínculo con el registro en el esquema de entrada es el primer parámetro de la **configurar \<Functoid\> Functoid**cuadro de diálogo.  
   
  El segundo parámetro es el número de columnas en la tabla de la cuadrícula del functoid: una columna para el tipo de dirección, nombre, calle, ciudad, estado y código postal. Después del segundo parámetro, se encuentra una lista con todos los valores que pueden aparecer en la tabla de la cuadrícula. Entre los que se incluyen las constantes de las cadenas para el tipo de dirección ("ShipTo", "BillTo"), así como vínculos a los campos de la dirección. Observe que los vínculos de los campos de dirección tienen nombres. Al darles nombres a estos vínculos se simplifica la construcción de la tabla. En caso contrario, aparecen rutas completas en el **configurar Functoid de bucle de tabla** cuadro de diálogo.  
   

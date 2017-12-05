@@ -15,24 +15,24 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 762ad9dd241f65db700e452a2ac181442c863607
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e43310756cf12c0c2a48eb6716221afc5395ecb0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="querying-instance-data"></a>Consultar datos de instancia
 Los datos sobre instancias de actividad individuales están disponibles para consultas en una vista SQL creada dinámicamente en la base de datos de importación principal de BAM.  
   
  El nombre de esta vista es  
   
- **bam_\<**  *ViewName* **> _\<**  *ActivityName* **> _View**  
+ **bam_\<**  *ViewName*  **\>_\<**  *ActivityName*  **\>_View**  
   
  Where  
   
- **\<***ViewName*  **>**  es el atributo de nombre del elemento de vista en el XML de definición de BAM, que es el mismo que el nombre de vista especificado en los asistentes de Microsoft Excel relacionados.  
+ **\<***ViewName*  **\>**  es el atributo de nombre del elemento de vista en el XML de definición de BAM, que es el mismo que el nombre de vista especificado en los asistentes de Microsoft Excel relacionados.  
   
- **\<***ActivityName*  **>**  es el atributo de nombre del elemento de actividad en el XML de definición de BAM, que es el mismo que el nombre de actividad especificado en los asistentes de Excel.  
+ **\<***ActivityName*  **\>**  es el atributo de nombre del elemento de actividad en el XML de definición de BAM, que es el mismo que el nombre de actividad especificado en los asistentes de Excel.  
   
  Es importante tener en cuenta las siguientes condiciones a la hora de realizar consultas en datos de instancia:  
   
@@ -44,4 +44,4 @@ Los datos sobre instancias de actividad individuales están disponibles para con
   
 ## <a name="see-also"></a>Vea también  
  [Almacenamiento de datos de actividad](../core/activity-data-storage.md)   
- [Consultar datos de BAM](../core/querying-bam-data.md)
+ [Consulta de datos de BAM](../core/querying-bam-data.md)

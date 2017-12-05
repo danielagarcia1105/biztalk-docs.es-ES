@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf06cc866249e929c9ddf368f4594af58af1d6fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dc33d5d15ef876e18a5a17fa33944dd7d1b36461
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-sap-adapter"></a>Solucionar problemas de instalación con el adaptador SAP
 Instalación del software Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copia los archivos binarios del producto en el equipo y registra los enlaces para cada adaptador. Esta sección describen técnicas de solución de problemas para resolver errores de instalación.  
@@ -46,9 +46,9 @@ Instalación del software Microsoft [!INCLUDE[adapterpacknoversion](../../includ
   
 ### <a name="register-the-adapter-bindings-or-the-data-provider"></a>Registrar los enlaces del adaptador o el proveedor de datos  
   
-1.  Navegue hasta el archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
+1.  Navegue hasta el archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
   
-     En esta ruta de acceso, \<versión > es la versión de .NET Framework.  
+     En esta ruta de acceso, \<versión\> es la versión de .NET Framework.  
   
 2.  Abra el archivo con un editor de texto.  
   

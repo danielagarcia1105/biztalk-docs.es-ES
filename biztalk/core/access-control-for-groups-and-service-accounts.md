@@ -21,11 +21,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67bc5799d88c0dca876df463eb37d4af65ec84d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a04129427b524f0e183012ba7f10df1288327a8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="access-control-for-groups-and-service-accounts"></a>Control de acceso para grupos y cuentas de servicio
 Cada instancia de host de BizTalk se ejecuta bajo una cuenta de servicio creada por el usuario. Las cuentas de servicio y sus contraseñas deben proporcionarse en el momento de crear la instancia de host en un equipo. A continuación, BizTalk Server verifica que esas cuentas tienen los derechos de usuario mínimos necesarios para realizar sus tareas agregando cada una de ellas a un grupo de Windows local o de dominio que, a su vez, la agrega a la función de base de datos de SQL Server específica de ese host.  
@@ -41,7 +41,7 @@ Cada instancia de host de BizTalk se ejecuta bajo una cuenta de servicio creada 
   
  Con el fin de garantizar que las cuentas de servicio tienen los derechos de usuario mínimos necesarios para realizar sus tareas, las funciones de base de datos de SQL Server creadas por BizTalk Server para las cuentas de servicio no son idénticas en todas las bases de datos de BizTalk Server. Para las bases de datos de seguimiento y administración, todas las cuentas de servicio de instancia de host necesitan tener acceso a los mismos objetos de SQL Server, por lo que BizTalk Server crea una sola función de base de datos de SQL Server denominada BTS_Host_User. BizTalk agrega todos los grupos de Windows creados para hosts de BizTalk a esa función de base de datos de SQL Server.  
   
- Para la base de datos de cuadro de mensajes, cada host tiene ciertos recursos dedicados. BizTalk Server crea un rol de base de datos de SQL Server por host, denominada BTS_\<*hostname*> _usuario, y agrega el grupo de Windows para cada host en sus respectivos roles de base de datos de SQL Server con el fin de bloquear el acceso de un host recursos por otro host.  
+ Para la base de datos de cuadro de mensajes, cada host tiene ciertos recursos dedicados. BizTalk Server crea un rol de base de datos de SQL Server por host, denominada BTS_\<*hostname*\>_usuario, y agrega el grupo de Windows para cada host en sus respectivos roles de base de datos de SQL Server con el fin de bloquear el acceso de uno recursos de host por otro host.  
   
 ## <a name="accounts-not-supported-by-biztalk-server"></a>Cuentas no admitidas por BizTalk Server  
  BizTalk Server no permite utilizar ninguna de las siguientes cuentas integradas de Windows:  

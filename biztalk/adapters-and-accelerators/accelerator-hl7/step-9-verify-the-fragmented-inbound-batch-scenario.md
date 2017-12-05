@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a7e57d55be3d72ebe98f685733335db81503384a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 47d5ec8ffa7a7875af7073e60d6578149d532a7a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-9-verify-the-fragmented-inbound-batch-scenario"></a>Paso 9: Compruebe el escenario fragmentados por lotes entrantes
 En este paso, compruebe el escenario fragmentado por lotes de entrada.  
@@ -33,9 +33,9 @@ En este paso, compruebe el escenario fragmentado por lotes de entrada.
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **símbolo**.  
   
-2.  En el símbolo del sistema, vaya a  **\<* unidad*>: \Program BizTalk \<versión > Accelerator para HL7\SDK\MLLP utilidades **.  
+2.  En el símbolo del sistema, vaya a  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades * *.  
   
-3.  En el símbolo del sistema, escriba  **mllpreceive /p 41000/SB 11 /eb 28 /cr 13 /hl7ack "\<*unidad*>: \Program BizTalk \<versión > Accelerator for HL7\ Samples\Sample aplicación acepte ACK.txt** y, a continuación, presione **ENTRAR**. La ventana de símbolo del sistema entra en estado de espera hasta que realice el paso 5 y el sistema recibe la entrada.  
+3.  En el símbolo del sistema, escriba  **mllpreceive /p 41000/SB 11 /eb 28 /cr 13 /hl7ack "\<*unidad*\>: \Program BizTalk \<versión\>Acelerador para HL7\Samples\Sample aplicación acepte ACK.txt** y, a continuación, presione **ENTRAR**. La ventana de símbolo del sistema entra en estado de espera hasta que realice el paso 5 y el sistema recibe la entrada.  
   
     > [!NOTE]
     >  El comando en el paso 3 ejecuta la aplicación de agente de escucha MLLP que escucha el puerto 41000. Este puerto está asociado con el puerto de envío que envía mensajes (como se crearon en [paso 5: crear un puerto de envío para entregar mensajes](../../adapters-and-accelerators/accelerator-hl7/step-5-create-a-send-port-to-deliver-messages.md)). La herramienta MllpReceive actúa como la aplicación de línea de negocio que recibe los mensajes y envía la confirmación (ACK) al BTAHL7 (como contenido en el archivo de ejemplo ACK.txt de aceptación de aplicación de ejemplo). La herramienta muestra los mensajes devueltos a él en la ventana de símbolo del sistema. El comando en el paso 3 especifica los caracteres EB, SB y CR predeterminado del mensaje MLLP.  
@@ -45,7 +45,7 @@ En este paso, compruebe el escenario fragmentado por lotes de entrada.
     > [!NOTE]
     >  El comando en el paso 4 ejecuta la aplicación de agente de escucha MLLP escuchar al puerto 41002. Este puerto está asociado con el puerto de envío que ofrece confirmaciones hacia el origen del mensaje de lote (como se crearon en [paso 6: crear un puerto de envío para entregar confirmaciones](../../adapters-and-accelerators/accelerator-hl7/step-6-create-a-send-port-to-deliver-acknowledgments.md)). La herramienta MllpReceive actúa como la aplicación de línea de negocio que envió el lote original. La herramienta muestra confirmaciones devueltas a él en la ventana de símbolo del sistema. El comando en el paso 4 especifica los caracteres EB, SB y CR predeterminado del mensaje MLLP.  
   
-5.  Repita los pasos 1 y 2 para abrir otra ventana del símbolo del sistema y desplácese al directorio de utilidades de MLLP. En el símbolo del sistema, escriba  **mllpsend /twoway/SB 11 /eb 28 /cr 13 /f "\<*unidad*>: \Batching Tutorial\Instances\FragmentedInboundBatch.txt" /p 21000 **, donde \<* unidad*> es la letra de unidad de instalación y, a continuación, presione **ENTRAR**.  
+5.  Repita los pasos 1 y 2 para abrir otra ventana del símbolo del sistema y desplácese al directorio de utilidades de MLLP. En el símbolo del sistema, escriba  **mllpsend /twoway/SB 11 /eb 28 /cr 13 /f "\<*unidad*\>: \Batching Tutorial\Instances\FragmentedInboundBatch.txt" /p 21000 **, donde \<* unidad* \> es la letra de unidad de instalación y, a continuación, presione **ENTRAR**.  
   
     > [!NOTE]
     >  El comando en el paso 5 simula el envío del mensaje original por lotes para el puerto de recepción. La consola debería mostrar "mensaje enviados: 1", que indica que la herramienta MllpSend envió el mensaje de lote único. Si no se muestra "mensaje enviados: 1", compruebe el Visor de eventos. Compruebe el texto del comando especificado en el paso 5, a continuación, solucionar problemas de la configuración de envío y puertos de recepción y el estado de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y BTAHL7.  
@@ -68,4 +68,4 @@ En este paso, compruebe el escenario fragmentado por lotes de entrada.
   
 ## <a name="see-also"></a>Vea también  
  [Parte 2: Lote / escenario de lote](../../adapters-and-accelerators/accelerator-hl7/part-2-batch-in-batch-out-scenario.md)   
- [Parte 3: Escenario de lote crear](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md)
+ [Parte 3: Escenario de creación de lote](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md)

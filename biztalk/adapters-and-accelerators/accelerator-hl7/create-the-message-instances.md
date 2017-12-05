@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cd086459c52dbea01e5658115bfae9115f95479
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cfd39e1da4e8c730e2ca1c663a5844355ac9cd08
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-the-message-instances"></a>Crear las instancias de mensaje
 Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.txt y para crear las instancias de mensaje que debe usar al ejecutar el tutorial de procesamiento por lotes.  
@@ -47,7 +47,7 @@ Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.t
     FTS|1|File,BatchCount,TrailerComment  
     ```  
   
-3.  Guarde el archivo como **FragmentedInboundBatch.txt** en el \< *unidad*: > \Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
+3.  Guarde el archivo como **FragmentedInboundBatch.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
   
 ### <a name="to-create-the-batch-inbatch-out-message-instance-text-file"></a>Para crear el lote / archivo de instancia de mensaje de texto de lote  
   
@@ -68,7 +68,7 @@ Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.t
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-3.  Guarde el archivo como **BatchInBatchOut.txt** en el \< *unidad*: > \Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
+3.  Guarde el archivo como **BatchInBatchOut.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
   
 ### <a name="to-create-the-create-batch-message-instance-text-files"></a>Para crear la instancia de mensaje de lote de crear archivos de texto  
   
@@ -84,7 +84,7 @@ Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.t
     PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
     ```  
   
-3.  Guarde el archivo como **CreateBatchMessage1.txt** en el \< *unidad*: > \Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
+3.  Guarde el archivo como **CreateBatchMessage1.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
   
 4.  Copie el texto siguiente en una nueva instancia del Bloc de notas:  
   
@@ -96,6 +96,6 @@ Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.t
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-5.  Guarde el archivo como **CreateBatchMessage2.txt** en el \< *unidad*: > \Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
+5.  Guarde el archivo como **CreateBatchMessage2.txt** en el \< *unidad*:\>\Batching Tutorial\Instances carpeta y, a continuación, cierre el Bloc de notas.  
   
  Continúe con [parte 1: fragmentado por lotes entrantes escenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md).

@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bad04c72e4c3f0caf1af8e223d3f17e4687b736
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9383dd3751f9ccdd7790b0215e596eba95dc4a45
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a>Cómo abrir, guardar, cerrar y cambiar el nombre de asignaciones
 En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], las asignaciones existen como archivos en el sistema de archivos con la extensión .btm. No obstante, es mucho más habitual trabajar con asignaciones como elementos de un proyecto de BizTalk, desde el que lleva a cabo operaciones como abrir, guardar y cerrar asignaciones.  
@@ -36,13 +36,13 @@ En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 1.  En el Explorador de soluciones, seleccione la asignación que desea guardar.  
   
-2.  En el **archivo** menú, haga clic en **guardar  *\<nombre de mapa >***.  
+2.  En el **archivo** menú, haga clic en **guardar  *\<de asignación de nombre de\>***.  
   
 ### <a name="to-save-a-map-to-a-new-location"></a>Para guardar una asignación en una nueva ubicación  
   
 1.  En el Explorador de soluciones, seleccione la asignación que desea guardar en una nueva ubicación.  
   
-2.  En el **archivo** menú, haga clic en **guardar  *\<nombre de mapa >* como**.  
+2.  En el **archivo** menú, haga clic en **guardar  *\<de asignación de nombre de\>*  como**.  
   
 3.  En el **Guardar archivo como** cuadro de diálogo, vaya a la ubicación de la carpeta donde desea guardar el mapa.  
   
@@ -70,4 +70,4 @@ En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
     >  También puede hacer clic en el icono Cerrar ([**x**]) en la esquina superior derecha de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar asignaciones en proyectos](../core/managing-maps-within-projects.md)
+ [Administración de asignaciones en proyectos](../core/managing-maps-within-projects.md)

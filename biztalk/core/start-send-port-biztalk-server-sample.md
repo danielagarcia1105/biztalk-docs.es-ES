@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfb9db99f06e05877939631e4306be396c47ebda
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f293d00848c32f6b519349543c8a39824d9bca8c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="start-send-port-biztalk-server-sample"></a>Iniciar puerto de envío (ejemplo de BizTalk Server)
 El ejemplo de cómo iniciar un puerto de envío muestra cómo iniciar un puerto de envío y, opcionalmente, definir la dirección de transporte principal al utilizar el adaptador de archivo.  
@@ -43,7 +43,7 @@ El ejemplo de cómo iniciar un puerto de envío muestra cómo iniciar un puerto 
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Los archivos de ejemplo se encuentran en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\WMI\Start enviar Port\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Start enviar Port\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -60,15 +60,13 @@ El ejemplo de cómo iniciar un puerto de envío muestra cómo iniciar un puerto 
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Start enviar Port\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Start enviar Port\VBScript\  
   
 2.  Ejecute el archivo StartSendPort.vbs mediante el programa cscript, de modo que se pasen los siguientes argumentos de línea de comandos, de los cuales el segundo es opcional:  
   
-    -   **\<**   
-         ***SendPortName* >.** El nombre del puerto de envío que se van a iniciar. Si el nombre del puerto de envío contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***SendPortName* \>.** El nombre del puerto de envío que se van a iniciar. Si el nombre del puerto de envío contiene espacios, enciérrelo entre comillas.  
   
-    -   **\<**   
-         ***PrimaryTransportAddress* >.** La dirección de transporte principal, relativa a la ubicación de instalación del producto, que puede cambiar mediante la especificación de este argumento. Si la dirección del adaptador principal contiene espacios, enciérrela entre comillas.  
+    -   **\<** ***PrimaryTransportAddress* \>.** La dirección de transporte principal, relativa a la ubicación de instalación del producto, que puede cambiar mediante la especificación de este argumento. Si la dirección del adaptador principal contiene espacios, enciérrela entre comillas.  
   
          Por ejemplo:  
   
@@ -82,4 +80,4 @@ El ejemplo de cómo iniciar un puerto de envío muestra cómo iniciar un puerto 
  El archivo de secuencias de comandos StartSendPort.vbs contiene comentarios detallados con más explicaciones acerca de las operaciones que realiza. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

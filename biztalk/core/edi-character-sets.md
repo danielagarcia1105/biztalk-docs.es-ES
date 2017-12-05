@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 108424cf9ef8670340e51a1c9747f42eec9cc4cf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38d7b19c751f2bd380dad29ffc31a2be5f79245e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-character-sets"></a>Juegos de caracteres de EDI
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa un juego de caracteres para validar un intercambio EDI completo. Los juegos de caracteres usados para un mensaje codificado con X12 y un mensaje codificado con EDIFACT o KEDIFACT se determinan de distintos modos.  
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/20/2017
   
  El juego de caracteres básico incluye las siguientes letras en mayúscula, dígitos, espacio y caracteres especiales: A-z, 0-9,! “ & ’ ( ) * + , - . / : ; ? = (espacio).  
   
- El juego de caracteres ampliado incluye los caracteres de los caracteres del idioma seleccionado conjunto y letras minúsculas, caracteres básico y otros caracteres especiales: a z, % @ [] _ {} \ &#124; \< > ~ # $.  
+ El juego de caracteres ampliado incluye los caracteres de los caracteres del idioma seleccionado conjunto y letras minúsculas, caracteres básico y otros caracteres especiales: a z, % @ [] _ {} \ &#124; \< \> ~ # $.  
   
 ## <a name="see-also"></a>Vea también  
  [Mensajería EDI](../core/edi-messaging.md)   

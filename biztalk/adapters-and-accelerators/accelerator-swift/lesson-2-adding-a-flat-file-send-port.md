@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1370b4877c2e32055e2ee0a0aca1f922bd8668a9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d438a6fa68136b05b358a81f4b026350d92a6af4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-adding-a-flat-file-send-port"></a>Lección 2: Agregar un puerto de envío de archivo sin formato
 En esta lección, configurará el puerto de envío y la ubicación de envío. Utilice el puerto de envío para definir cómo desea que los mensajes enviados. También crea una ubicación de carpeta de archivos para los mensajes enviados.  
@@ -38,9 +38,9 @@ En esta lección, configurará el puerto de envío y la ubicación de envío. Ut
   
 5.  En el cuadro de diálogo Propiedades de transporte de archivo, haga clic en **examinar**.  
   
-6.  En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad >: \Labs** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
+6.  En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad\>: \Labs** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
   
-7.  Crear un **saliente** carpeta  **\<unidad >: \Labs**y, a continuación, haga clic en **Aceptar**.  
+7.  Crear un **saliente** carpeta  **\<unidad\>: \Labs**y, a continuación, haga clic en **Aceptar**.  
   
 8.  En el **nombre de archivo** , escriba **%MessageID%.txt**y, a continuación, haga clic en **Aceptar**.  
   

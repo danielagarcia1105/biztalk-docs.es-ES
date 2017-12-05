@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e16020afb17d17c8add8e973ade0cd0c5cfcbbc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 040fee5fab56a1e54b777fc7548b8ff28e5b07ec
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-well-formed-message-instance-from-a-pip"></a>Crear una instancia de mensaje correcto a partir de un PIP
 En este tema se describe cómo generar una instancia de mensaje correcto. Puede generar una plantilla para una instancia de mensaje a partir del Proceso de interfaz de socio (PIP). Después de hacerlo, debe modificar la plantilla para que sea correcta antes de agregar los datos.  
@@ -30,7 +30,7 @@ En este tema se describe cómo generar una instancia de mensaje correcto. Puede 
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-3.  Busque \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNetSDK\Schemas, haga clic en **RNPIPs.btproj**y, a continuación, haga clic en **Abiertos**.  
+3.  Busque \< *unidad*\>\Program BizTalk \<versión\> Accelerator for RosettaNetSDK\Schemas, haga clic en **RNPIPs.btproj**, y, a continuación, haga clic en **abiertos**.  
   
 4.  En el Explorador de soluciones, expanda **RNPIP**y haga clic con el botón derecho en el PIP para el que desea crear una instancia.  
   

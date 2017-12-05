@@ -31,11 +31,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6e7f5f215ec2fc3dc85f88ed54ab22280a81fd0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0782c421dfe771cd024b5ce4df893e2aaa45721d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-and-receive-aspx-pages"></a>Enviar y recibir páginas ASPX
 El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] páginas ASPX son las interfaces directa entre [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] e Internet. Las dos páginas ASPX son la página de recepción (RNIFReceive.aspx) y la página de envío (RNIFSend.aspx). Cada página ASPX es una extensión a la correspondiente [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] canalización. La canalización requiere la página ASPX para controlar los encabezados de RosettaNet Implementation Framework (RNIF). La canalización lleva a cabo la mayoría de HTTP de procesamiento; Sin embargo, cada página ASPX realiza el procesamiento HTTP de los encabezados RNIF. Las páginas de aumentan su funcionalidad en el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adaptador de HTTP.  
@@ -53,7 +53,7 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  La cadena de consulta incluye los siguientes datos que necesita la página de envío para enviar el mensaje al socio comercial y los datos que el socio comercial debe tener para procesar el mensaje:  
   
--   La dirección URL de socio comercial: http://www. \< *dirección*>.com/RNIFReceive.aspx  
+-   La dirección URL de socio comercial: http://www. \< *dirección*\>.com/RNIFReceive.aspx  
   
 -   El tipo de respuesta: sincronización o asincrónico  
   
@@ -143,4 +143,4 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
 ## <a name="see-also"></a>Vea también  
  [Procesamiento de mensajes en BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)   
  [Canalización de recepción de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md)   
- [Canalización de envío BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)
+ [Canalización de envío de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)

@@ -7,22 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- sustainable load test
-- maximum sustainable throughput (MST), testing
-- LoadGen tool
-- LoadGen tool, downloading
-- testing, engine maximum sustainable throughput
 ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
 caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df522748a2d4522e691fb4f579c3fdd26c788e4f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dd5b9a2697cb96bb2d042b9fee6a15317f35971c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="test-scenarios-for-measuring-mst-of-the-engine"></a>Escenarios de prueba para medir MST del motor
 En esta sección se describe el escenario de prueba que se ha implementado para medir el efecto de exponer un sistema de BizTalk a tres niveles distintos de carga:  
@@ -59,7 +53,7 @@ En esta sección se describe el escenario de prueba que se ha implementado para 
  El escenario de prueba es muy sencillo. La herramienta para la generación de cargas, LoadGen 2007, se ha instalado en el servidor para el control de carga y se ha usado para enviar copias de un archivo a recursos compartidos supervisados por el adaptador de archivo. La herramienta para la generación de cargas distribuye copias de la instancia del archivo entrante de modo uniforme a los recursos compartidos.  
   
 > [!NOTE]
->  La herramienta LoadGen 2007 está disponible para su descarga en [http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841). La versión anterior de esta herramienta, la herramienta de generación de cargas de BizTalk Server 2004 está disponible para su descarga en [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999). Para obtener información acerca del uso de LoadGen con el adaptador de MSMQ, vea [uso de LoadGen 2007 con MSMQ](../core/using-loadgen-2007-with-msmq.md).  
+>  Descargar [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). La versión anterior de esta herramienta, la herramienta de generación de cargas de BizTalk Server 2004 está disponible para su descarga en [http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999). Para obtener información acerca del uso de LoadGen con el adaptador de MSMQ, vea [uso de LoadGen 2007 con MSMQ](../core/using-loadgen-2007-with-msmq.md).  
   
  El adaptador de archivo de BizTalk se configura para supervisar los recursos compartidos de archivo y publicar los mensajes en el cuadro de mensajes. Una orquestación sencilla que contiene únicamente una forma de recepción y una forma de envío se suscribe a un mensaje publicado. Los mensajes que la orquestación vuelve a publicar en el cuadro de mensajes son recogidos por un puerto de envío de archivos y enviados a un recurso compartido que se define en la SAN. Los archivos que llegan al recurso compartido de SAN de salida se eliminan de forma automática, a fin de evitar que se amontonen en el recurso durante pruebas de larga ejecución.  
   
@@ -101,10 +95,8 @@ En esta sección se describe el escenario de prueba que se ha implementado para 
 > [!NOTE]
 >  Si no puede generar la carga necesaria para que la tabla de la cola de impresión crezca de esa forma, es porque la parte más lenta del sistema se encuentra en el extremo de recepción, en lugar de en el extremo de envío o procesamiento.  
   
-> [!NOTE]
->  Mientras que SQL Server 2000 se ha utilizado en la prueba de la carga sostenible y de la sobrecarga, la prueba de carga de control de tráfico (floodgate) se ha realizado con SQL Server 2005.  
-  
-## <a name="in-this-section"></a>En esta sección  
+
+## <a name="next"></a>Siguiente
   
 -   [Con la herramienta de Microsoft BizTalk LoadGen 2007](../core/using-the-microsoft-biztalk-loadgen-2007-tool.md)  
   

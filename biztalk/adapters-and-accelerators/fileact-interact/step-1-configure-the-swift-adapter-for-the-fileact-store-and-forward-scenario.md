@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d2946bcd37e0e7641a2d3bf750f88cd3199fc74
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e2883bb75667d2ad2518a4b8bf0c2a90be79ec8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario"></a>Paso 1: Configurar el adaptador de SWIFT para el escenario de reenvío y almacenamiento de FileAct
 Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) antes de comenzar este paso.
@@ -33,7 +33,7 @@ Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/
   
     |**Use esto**|**Para ello**|  
     |------------------|--------------------|  
-    |**Argumentos**|Escriba el siguiente argumento: - SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG > **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
+    |**Argumentos**|Escriba el siguiente argumento: - SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG\> **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**FACryptoMode**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessages**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
@@ -54,4 +54,4 @@ Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/
  [Escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/fileact-store-and-forward-scenario.md)   
  [Paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-store-and-forward.md)   
  [Paso 3: Crear puertos de envío y puertos de recepción para el escenario de reenvío y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
- [Paso 4: Probar el escenario de reenvío-to-End y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-end-to-end-scenario.md)
+ [Paso 4: Probar el escenario integral de almacenamiento y reenvío de FileAct](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-end-to-end-scenario.md)

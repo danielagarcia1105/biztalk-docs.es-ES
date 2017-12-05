@@ -15,22 +15,22 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c51f0ff13b06bd57ccdd52ec6e35fdd7e0acf839
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82476c440f1bae482eff5308f1a5238f8bd85d92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a>Préstamos procesamiento con reglas de negocios (ejemplo de BizTalk Server)
 En el ejemplo Loans Processing Using Business Rules se muestra cómo usar un conjunto de reglas administrado en una orquestación y cómo usar una combinación de entradas conocidas como hechos para calcular la configuración de algunos campos en un documento que se está procesando. Los hechos pueden ser el resultado de la llamada a un ensamblado basado en .NET, de los valores recuperados del XML del mensaje o de los datos recuperados de una base de datos. En el ejemplo también se muestra cómo puede cambiar las reglas en cualquier momento, lo que afecta a los cálculos posteriores sin tener que volver a realizar la implementación.  
   
 ## <a name="what-this-sample-does"></a>Descripción del ejemplo  
- En este ejemplo se muestran estas funciones en el contexto de un escenario de procesamiento de préstamos simplificado. La orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recoge y procesa una solicitud de préstamo, que se conoce también como un escenario de préstamo, en formato de mensaje XML. Esta orquestación usa el Motor de reglas de negocios para evaluar los mensajes entrantes en base a las reglas, modifica el mensaje con el resultado de la aplicación de las reglas y, a continuación, escribe el mensaje como un archivo en la carpeta de salida.  
+ En este ejemplo se muestran estas funciones en el contexto de un escenario de procesamiento de préstamos simplificado. La orquestación de BizTalk Server recoge y procesa una solicitud de préstamo, que se conoce también como un escenario de préstamo, en formato de mensaje XML. Esta orquestación usa el Motor de reglas de negocios para evaluar los mensajes entrantes en base a las reglas, modifica el mensaje con el resultado de la aplicación de las reglas y, a continuación, escribe el mensaje como un archivo en la carpeta de salida.  
   
  Basadas en hechos de varios orígenes, incluido el mensaje que se va a procesar, este ejemplo establece el **IncomeStatus**, **CommitmentsStatus**, **EmploymentStatus**y  **ResidencyStatus** elementos del mensaje que se va a procesar.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Business Rules\Loans Processing using Business Rules\  
+ \<*Ejemplos de ruta de acceso*\>\Business Rules\Loans Processing using Business Rules\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -54,11 +54,11 @@ En el ejemplo Loans Processing Using Business Rules se muestra cómo usar un con
 1.  Asegúrese de que la base de datos Northwind esté instalada en el equipo.  
   
     > [!IMPORTANT]
-    >  Para ejecutar este ejemplo, debe disponer de una base de datos con el nombre Northwind. [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] y [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] no se distribuyen con la base de datos Northwind de ejemplo. Para crear la base de datos Northwind, descargue el archivo de instalación de [http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020)y siga las instrucciones.  
+    >  Para ejecutar este ejemplo, debe tener la base de datos de ejemplo Northwind de SQL Server. [Descargar](https://www.microsoft.com/download/details.aspx?id=23654)e instalar. 
   
 2.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Business Rules\Loans Processing using Business Rules  
+     \<*Ejemplos de ruta de acceso*\>\Business Rules\Loans Processing using Business Rules  
   
 3.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -177,4 +177,4 @@ En el ejemplo Loans Processing Using Business Rules se muestra cómo usar un con
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Reglas de negocios (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)
+ [Reglas de negocio (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e554de9b00869db4a258f03984fe1ebc71e99c38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7c5624eb6cf88f45d1ecad0b68fee3f5f7b8a8ba
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-performance-of-the-msmq-adapter"></a>Optimizar el rendimiento del adaptador de MSMQ
 La optimización del adaptador de MSMQ no es la misma para envío y para recepción. Para la recepción, la optimización se controla definiendo una propiedad en la ubicación de recepción. Para el envío, la optimización puede controlarse mediante una orquestación.  
@@ -42,9 +42,9 @@ La optimización del adaptador de MSMQ no es la misma para envío y para recepci
  En el caso de los envíos, el procesamiento de un solo mensaje se consigue utilizando la orquestación de ejemplo. La orquestación de ejemplo envía un solo mensaje y espera a recibir la confirmación para enviar el mensaje siguiente. Para obtener más información, consulte [cómo crear ubicaciones de recepción de MSMQ y puertos de envío desde el código](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md).  
   
 ## <a name="remote-transactional-read-operations"></a>Operaciones de lectura transaccionales remotas  
- Con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], el adaptador de MSMQ puede realizar operaciones de lectura remotas desde colas MSMQ transaccionales.  Esto se debe a que MSMQ 4.0 y las versiones posteriores admiten operaciones de lectura remotas transaccionales.  Sin embargo, las operaciones de lectura transaccionales suelen ser operaciones lentas. Para optimizar el rendimiento, se deben usar únicamente cuando no hay ninguna otra opción.  
+ Con BizTalk Server el MSMQ para el adaptador es capaz de realizar operaciones de lectura remotas desde colas MSMQ transaccionales.  Esto se debe a que MSMQ 4.0 y las versiones posteriores admiten operaciones de lectura remotas transaccionales.  Sin embargo, las operaciones de lectura transaccionales suelen ser operaciones lentas. Para optimizar el rendimiento, se deben usar únicamente cuando no hay ninguna otra opción.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo configurar ubicación de recepción de MSMQ](../core/how-to-configure-an-msmq-receive-location.md)   
  [Cómo configurar un puerto de envío MSMQ](../core/how-to-configure-an-msmq-send-port.md)   
- [Configurar el adaptador MSMQ](../core/configuring-the-msmq-adapter.md)
+ [Configuración del adaptador de MSMQ](../core/configuring-the-msmq-adapter.md)

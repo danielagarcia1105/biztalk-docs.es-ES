@@ -18,11 +18,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c5117bed6ea1116047052359eadcd11754e9f85d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 54f91f83285d554ad9ef825b10cf8004bd7dc0bc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>Functoid personalizado (ejemplo de BizTalk Server)
 El ejemplo de functoid personalizado muestra cómo escribir un functoid personalizado para el asignador de BizTalk. Puede agregar el functoid al cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. El functoid se mostrará en el cuadro de herramientas cuando el asignador de BizTalk esté en el foco.  
@@ -42,7 +42,7 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
 >  Si reutiliza el código de ejemplo del functoid personalizado para implementar su propio functoid, debe asegurarse de cambiar el atributo de GUID a uno que sea único.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\XmlTools\CustomFunctoid  
+ *\<Ejemplos de ruta de acceso\>*\XmlTools\CustomFunctoid  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -68,7 +68,7 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
   
 1.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \XmlTools\CustomFunctoid  
+     \<*Ejemplos de ruta de acceso*\>\XmlTools\CustomFunctoid  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -159,7 +159,7 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
   
 2.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \XmlTools\CustomFunctoid  
+     \<*Ejemplos de ruta de acceso*\>\XmlTools\CustomFunctoid  
   
 3.  Ejecute el archivo Cleanup.bat que realiza las acciones siguientes:  
   

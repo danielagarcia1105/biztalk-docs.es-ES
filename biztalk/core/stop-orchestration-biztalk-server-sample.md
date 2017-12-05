@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8ce53882b20f6615ef280a38eddc8c3e2ef7ea3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b0c88bdeb85b8ad493b85d2569061c35bd516e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="stop-orchestration-biztalk-server-sample"></a>Detener la orquestación (ejemplo de BizTalk Server)
 El ejemplo Detener una orquestación muestra cómo detener una orquestación de BizTalk Server y, de forma opcional, darla de baja.  
@@ -42,7 +42,7 @@ El ejemplo Detener una orquestación muestra cómo detener una orquestación de 
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Los archivos de ejemplo se encuentran en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\WMI\Stop Orchestration\  
+ \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Stop Orchestration\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -59,15 +59,13 @@ El ejemplo Detener una orquestación muestra cómo detener una orquestación de 
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Stop Orchestration\VBScript\  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Stop Orchestration\VBScript\  
   
 2.  Ejecute el archivo StopOrch.vbs mediante el programa cscript, de modo que se pasen los siguientes argumentos de línea de comandos, de los cuales el tercero es opcional:  
   
-    -   **\<**   
-         ***OrchestrationName* >.** El nombre de la orquestación de BizTalk Server que se va a detener y, de forma opcional, a dar de baja.  
+    -   **\<** ***OrchestrationName* \>.** El nombre de la orquestación de BizTalk Server que se va a detener y, de forma opcional, a dar de baja.  
   
-    -   **\<**   
-         ***AssemblyName* >.** El nombre del ensamblado de BizTalk en el que se ha especificado la orquestación. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
+    -   **\<** ***AssemblyName* \>.** El nombre del ensamblado de BizTalk en el que se ha especificado la orquestación. Si el nombre del ensamblado contiene espacios, enciérrelo entre comillas.  
   
     -   **Dar de baja.** Una cadena opcional y literal que se utiliza para indicar que la orquestación especificada debe darse de baja además de detenerse.  
   
@@ -89,4 +87,4 @@ El ejemplo Detener una orquestación muestra cómo detener una orquestación de 
  El archivo de secuencias de comandos StopOrch.vbs contiene comentarios detallados con más explicaciones acerca de las operaciones que realiza. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

@@ -12,18 +12,18 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b19a7d7c87289e07c7ac7a26bacd0c96f9090c9e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a7dbec7cfa23c8a1e07e32cdf0c3ce7b044651ec
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="log-shipping-user-accounts-and-roles"></a>Roles y cuentas de usuario de trasvase de registros
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]trasvase de registros está controlado por un trabajo del Agente SQL Server para automatizar el proceso de restauración de registros y copias de seguridad. Permisos incorrectos pueden hacer que las operaciones de restauración realizadas por [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] trasvase de registros para un error. La cuenta de usuario configurada para restaurar las bases de datos debe tener acceso a la instancia de base de datos de producción que hospeda la base de datos de administración de BizTalk. En la mayoría de los casos esto significa que la cuenta de servicio para el trabajo de agente SQL Server impulsar el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] trabajo de trasvase de registros en la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia requiere un inicio de sesión y permisos en la instancia de base de datos de producción que hospeda el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]base de datos de administración. Se supone que la cuenta de servicio del Agente SQL Server está configurada como el propietario del trabajo.  
+Trasvase de registros está controlado por un trabajo del Agente SQL Server para automatizar el proceso de restauración de registros y copias de seguridad de BizTalk Server. Permisos incorrectos pueden hacer que las operaciones de restauración realizadas por el trasvase de registros de servidor BizTalk Server para producirá un error. La cuenta de usuario configurada para restaurar las bases de datos debe tener acceso a la instancia de base de datos de producción que hospeda la base de datos de administración de BizTalk. En la mayoría de los casos esto significa que la cuenta de servicio para el trabajo de agente SQL Server que se imponen el trabajo de trasvase de registros de servidor BizTalk Server en la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia requiere un inicio de sesión y permisos en la instancia de base de datos de producción que hospeda el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]base de datos de administración. Se supone que la cuenta de servicio del Agente SQL Server está configurada como el propietario del trabajo.  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]incluye una función de SQL Server denominada BTS_BACKUP_USERS para que la cuenta de usuario configurada para restaurar las bases de datos no requieren el permiso de los administradores del sistema de SQL Server.  
+ BizTalk Server incluye una función de SQL Server denominada BTS_BACKUP_USERS para que la cuenta de usuario configurada para restaurar las bases de datos no requieren el permiso de los administradores del sistema de SQL Server.  
   
- Al configurar la cuenta de usuario que se llevará a cabo las operaciones de restauración de base de datos como parte de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] trasvase de registros, compruebe lo siguiente:  
+ Al configurar la cuenta de usuario que se llevará a cabo las operaciones de restauración de base de datos como parte del trasvase de registros de servidor BizTalk Server, compruebe lo siguiente:  
   
 -   Configurar el servicio Agente SQL Server para ejecutarse bajo una cuenta de dominio con un usuario asignado configurado en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Studio (en **seguridad**, **inicios de sesión**) en cada [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia hosts [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos restaurados la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trabajos de trasvase de registro.  
   

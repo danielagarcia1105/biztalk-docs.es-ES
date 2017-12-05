@@ -12,16 +12,16 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f7839807244ecebadeb93640703886c12ce646a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3d87396713b7fa8f7874b921e6ee9097399d1c6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="editing-functoid-properties-and-input-parameters"></a>Editar propiedades de functoid y parámetros de entrada
 Las propiedades de functoid pueden clasificarse de la siguiente manera:  
   
--   **Etiqueta** y **parámetros de entrada**. Estas dos propiedades son de lectura y escritura y están disponibles para todos los functoids. El **etiqueta** propiedad proporciona un mecanismo para proporcionar un nombre descriptivo para una instancia determinada de un functoid, que puede ayudar a mantener las asignaciones. El **parámetros de entrada** propiedad proporciona acceso a la **configurar \<Functoid > Functoid** cuadro de diálogo que desempeña un papel fundamental en la configuración de functoid.  
+-   **Etiqueta** y **parámetros de entrada**. Estas dos propiedades son de lectura y escritura y están disponibles para todos los functoids. El **etiqueta** propiedad proporciona un mecanismo para proporcionar un nombre descriptivo para una instancia determinada de un functoid, que puede ayudar a mantener las asignaciones. El **parámetros de entrada** propiedad proporciona acceso a la **configurar \<Functoid\> Functoid** cuadro de diálogo que desempeña un papel fundamental en la configuración de functoid.  
   
 -   **Secuencia de comandos** y **cuadrícula de bucle de tabla**. Estas dos propiedades proporcionan acceso a los cuadros de diálogo que solo son aplicables a la **secuencias de comandos** y **bucle de tabla** functoids, respectivamente. Estos cuadros de diálogo son el **configurar Functoid de secuencias de comandos** cuadro de diálogo y el **configurar Functoid de bucle de tabla** cuadro de diálogo.  
   

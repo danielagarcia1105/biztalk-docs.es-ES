@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04db816f1209b7cd503b9a162cdd2a030ba86292
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 31814f9bd38bd07a75be0d4a2cc3e9d8b838720e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="attribute-group-nodes"></a>Nodos Grupo de atributos
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 En el Editor de BizTalk, puede agregar un **grupo de atributos** nodo a un **registro** nodo o a otro **grupo de atributos** nodo contenga un grupo de atributos que se esperan que use en más que uno **registro** nodo. Agregar un **grupo de atributos** nodo a otro **grupo de atributos** nodo logra anidamiento de grupos de atributos. Esto le permite definir un grupo de atributos en un lugar que se puede usar en varios **registro** o **grupo de atributos** nodos. Cualquier modificación que se realice posteriormente en el grupo de atributos se propagará a todos los nodos que tengan asociado dicho grupo de atributos, con independencia del contexto de nodo en el que se realicen las modificaciones.  
   
 > [!NOTE]
->  En el Editor de BizTalk, el **AttributeGroup** nodo se representa de forma predeterminada con la cadena \<AttribGroup:attribGroup*N*> en la vista de árbol de esquema, donde *N*es un número de progresión continua. Puede cambiar la attribGroup*N* parte de su nombre, escriba un nuevo nombre único en su **Group Reference** propiedad.  
+>  En el Editor de BizTalk, el **AttributeGroup** nodo se representa de forma predeterminada con la cadena \<AttribGroup:attribGroup*N* \> en la vista de árbol de esquema, donde  *N* es un número de progresión continua. Puede cambiar la attribGroup*N* parte de su nombre, escriba un nuevo nombre único en su **Group Reference** propiedad.  
   
  Al crear inicialmente un **grupo de atributos** nodo, se inserta en uno de los **registro** o **grupo de atributos** nodos en el que se usará y, opcionalmente, cambiar su nombre en su **Group Reference** propiedad. Hay dos maneras de utilizar el mismo grupo de atributos en otro **registro** o **grupo de atributos** nodo:  
   
@@ -62,9 +62,9 @@ En el Editor de BizTalk, puede agregar un **grupo de atributos** nodo a un **reg
 >  Nombres de grupo de atributos predeterminados que se proporcionan de forma automática tienen el formato attrGroup*N*, donde *N* es un número de progresión continua. Puede cambiar el nombre de un grupo de atributos al proporcionar un nombre nuevo y único en su **Group Reference** propiedad. No se puede cambiar el nombre de un grupo de atributos, en la posición actual, en el árbol de esquema.  
   
 ## <a name="see-also"></a>Vea también  
--  [Representación de esquemas de BizTalk](../core/biztalk-representation-of-schemas.md)   
--  [Propiedades de nodo](../core/node-properties.md)   
+-  [Representación de esquemas en BizTalk](../core/biztalk-representation-of-schemas.md)   
+-  [Propiedades de los nodos](../core/node-properties.md)   
 -  **Propiedades de nodo de grupo de secuencias**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
 -  [Cómo establecer propiedades de nodo](../core/how-to-set-node-properties.md)   
--  [Nodos de atributo de campo](../core/field-attribute-nodes.md)   
--  [Los nodos de atributo](../core/any-attribute-nodes.md)
+-  [Nodos Atributo de campo](../core/field-attribute-nodes.md)   
+-  [Nodos Cualquier atributo](../core/any-attribute-nodes.md)

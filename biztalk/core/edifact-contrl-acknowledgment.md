@@ -12,18 +12,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: baaca02ac076c79be004ed7b3d2c0f4fffce6ff9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ddbc35fecd2412632f0c4a81750a3662e6e7bf11
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edifact-contrl-acknowledgment"></a>Confirmación CONTRL de EDIFACT
 La confirmación CONTRL (ACK) sirve de confirmación técnica y funcional para los mensajes con codificación EDIFACT. Como confirmación técnica, el mensaje CONTRL indica la recepción de un intercambio. Como confirmación funcional, el mensaje CONTRL indica la aceptación o el rechazo del intercambio, el grupo o el mensaje recibido, con una lista de los errores o la funcionalidad no admitida.  
   
  El mensaje CONTRL completo sirve de confirmación funcional. Las secciones de la confirmación funcional vuelven a utilizarse para la confirmación técnica. Si ha seleccionado las confirmaciones técnicas y funcionales en las propiedades de entidad para una entidad de envío o en las propiedades globales, BizTalk Server generará dos mensajes CONTRL: una ACK CONTRL técnica y una ACK. CONTRL funcionales  
   
- El ACK CONTRL se ajusta a la EFACT_\<número de versión > _CONTRL.xsd esquema.  
+ El ACK CONTRL se ajusta a la EFACT_\<número de versión\>_CONTRL.xsd esquema.  
   
 ## <a name="technical-acknowledgement"></a>Confirmación técnica  
  Una confirmación técnica implica que el destinatario del mensaje:  
@@ -59,9 +59,9 @@ La confirmación CONTRL (ACK) sirve de confirmación técnica y funcional para l
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Mensaje de CONTRL de EDIFACT como confirmación técnica](../core/edifact-contrl-message-as-technical-acknowledgment.md)  
+-   [Mensaje CONTRL de EDIFACT como confirmación técnica](../core/edifact-contrl-message-as-technical-acknowledgment.md)  
   
--   [Mensaje de CONTRL de EDIFACT como confirmación funcional](../core/edifact-contrl-message-as-functional-acknowledgment.md)  
+-   [Mensaje CONTRL de EDIFACT como confirmación funcional](../core/edifact-contrl-message-as-functional-acknowledgment.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Estructura de confirmación EDI](../core/edi-acknowledgment-structure.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f20046580913ee8ea3ccb4a742ab693bcaa08d38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36b95a4213f4ef449aa78441a7caabc1e7f6f074
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-the-administration-console-query-tab"></a>Usar la ficha Consulta de la consola de administración
 Utilice la ficha Consulta de la página Concentrador de grupo de la consola de administración de BizTalk Server para buscar instancias de servicio, suscripciones o mensajes específicos en ejecución o en suspensión. Las consultas realizadas con la consola de administración buscan elementos activos, que se almacenan en la base de datos de cuadro de mensajes. Cada vez que se ejecuta una nueva consulta, aparece una ficha Consulta nueva.  
@@ -27,7 +27,7 @@ Utilice la ficha Consulta de la página Concentrador de grupo de la consola de a
  Para buscar instancias de servicio o mensajes archivados supervisados, use el seguimiento de eventos de mensaje e instancias de servicio. Para obtener más información, consulte [ver realiza el seguimiento de mensajes y datos de instancia](../core/viewing-tracked-message-and-instance-data.md).  
   
 > [!NOTE]
->  Cuando se ejecuta una consulta de instancias de servicio, el conjunto de resultados que se devuelve mostrará el valor de  **\<nombre no está disponible >** para el **ServiceName** campo de un servicio de instancia si el puerto de envío correspondiente ubicación de recepción, o se ha eliminado la orquestación.  El **ServiceName** campo de una instancia de servicio se rellena mediante una búsqueda en la base de datos de administración de BizTalk para el nombre descriptivo del puerto de envío, ubicación de recepción, u orquestación.  Si el puerto de envío, ubicación de recepción, o se elimina la orquestación, a continuación, se produce un error en la búsqueda para el nombre descriptivo y  **\<nombre no está disponible >** se muestra.  
+>  Cuando se ejecuta una consulta de instancias de servicio, el conjunto de resultados que se devuelve mostrará el valor de  **\<nombre no está disponible\>**  para el **ServiceName** campo de un servicio instancia si correspondiente puerto de envío, ubicación de recepción, o se ha eliminado la orquestación.  El **ServiceName** campo de una instancia de servicio se rellena mediante una búsqueda en la base de datos de administración de BizTalk para el nombre descriptivo del puerto de envío, ubicación de recepción, u orquestación.  Si el puerto de envío, ubicación de recepción, o se elimina la orquestación, a continuación, se produce un error en la búsqueda para el nombre descriptivo y  **\<nombre no está disponible\>**  se muestra.  
   
 ## <a name="in-this-section"></a>En esta sección  
   

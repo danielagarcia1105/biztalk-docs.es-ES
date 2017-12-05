@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a7fd507b301d20d84680cb626953d21b8a6e201
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 1ff6e36afd7cecc967069fd3ecf5414c6afdb014
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de Siebel
 Esta sección proporciona una ubicación centralizada para obtener información acerca de problemas de funcionamiento que pueden surgir al usar el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  
@@ -81,7 +81,7 @@ Connecting to the system LOB has failed. Retrieving the COM class factory for co
   
  **Resolución**  
   
- Asegúrese de que la versión admitida del cliente Siebel Web está instalada en el equipo. Consulte la Guía de instalación de cliente admitida y las versiones de servidor para Siebel. La Guía de instalación está disponible en \<unidad del sistema >: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
+ Asegúrese de que la versión admitida del cliente Siebel Web está instalada en el equipo. Consulte la Guía de instalación de cliente admitida y las versiones de servidor para Siebel. La Guía de instalación está disponible en \<unidad del sistema\>: \Program [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.  
   
 ###  <a name="BKMK_SiebelXMLRetrieve"></a>Error al recuperar el XML con más de 65536 nodos  
  **Problema**  
@@ -118,9 +118,9 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
  Un ejemplo app.config será similar:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration>  
-  \<system.serviceModel>  
+  <system.serviceModel>  
     <behaviors>  
       <endpointBehaviors>  
         <behavior name="NewBehavior">  
@@ -132,7 +132,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
       <endpoint   behaviorConfiguration="NewBehavior" binding="siebelBinding"  
        contract="IOutboundContract" name="siebel_ICalculator" />  
     </client>  
-  \</system.serviceModel>  
+  </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -161,7 +161,7 @@ Error saving properties.
   
  El adaptador produce el siguiente error al realizar cualquier operación en el sistema Siebel mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **Para[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **Para que BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -182,7 +182,7 @@ Error saving properties.
   
 ```  
 Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argument:  
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<operation_name>" Action="<action>" />  
 </BtsActionMapping>  
 ```  
@@ -232,7 +232,7 @@ Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argume
   
 ```  
 Microsoft.ServiceModel.Channels.Common.UnsupportedOperationException: Incorrect Action   
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<op_name>" Action="<action>" />  
 </BtsActionMapping>. Correct the specified Action, or refer to the documentation on the allowed formats for the Actions.  
 ```  

@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ba7e0c601276779067c1699da1526491dc3f7ca2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 34c25f3837d6eb0c938900b0da9e34246f1c6038
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-import-bindings-for-an-edi-as2-solution"></a>Cómo importar enlaces para una solución EDI y AS2
 En este tema se describe cómo importar la configuración de una solución EDI y/o AS2 en otro equipo. La implementación de una solución EDI y AS2 se integra con la implementación de aplicaciones de BizTalk. Está disponible a través de la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y la herramienta de línea de comandos BTSTask.  
@@ -39,7 +39,7 @@ En este tema se describe cómo importar la configuración de una solución EDI y
  Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede importar un conjunto de enlaces, esto puede deberse a que la propiedad de host de confianza del archivo de enlace es diferente de la propiedad de autenticación de confianza para el host. Puede solucionar este problema cambiando la propiedad de host de confianza en el archivo de enlace.  
   
 > [!NOTE]
->  Importar un archivo de enlace de las versiones anteriores de BizTalk Server en [!INCLUDE[prague](../includes/prague-md.md)] puede producir un error. Dado que el modelo de administración de socios ha cambiado considerablemente para [!INCLUDE[prague](../includes/prague-md.md)], importar un archivo de enlace de versiones anteriores de BizTalk Server no puede crear las entidades en [!INCLUDE[prague](../includes/prague-md.md)] de acuerdo con el nuevo modelo. Para obtener más información, consulte [¿cómo definiciones de entidades de traducir de versiones de servidor de BizTalk anterior en las nuevas entidades TPM?](../core/how-to-import-bindings-for-an-edi-as2-solution.md#BKMK_Party).  
+>  Importar un archivo de enlace de las versiones anteriores de BizTalk Server a BizTalk Server puede producir un error. Dado que el modelo de administración de socios ha cambiado considerablemente para BizTalk Server, importar un archivo de enlace de versiones anteriores de BizTalk Server no puede crear las entidades en BizTalk Server de acuerdo con el nuevo modelo. Para obtener más información, consulte [¿cómo definiciones de entidades de traducir de versiones de servidor de BizTalk anterior en las nuevas entidades TPM?](../core/how-to-import-bindings-for-an-edi-as2-solution.md#BKMK_Party).  
   
 ### <a name="to-import-the-configuration-from-a-binding-file"></a>Para importar la configuración de un archivo de enlace  
   
@@ -52,12 +52,12 @@ En este tema se describe cómo importar la configuración de una solución EDI y
 4.  Después de importar los enlaces, abra la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Configure de forma manual todos los campos de contraseña de EDI con los valores correspondientes.  
   
 ##  <a name="BKMK_Party"></a>¿Cómo definiciones de entidades de traducir de versiones de servidor de BizTalk anterior en las nuevas entidades TPM?  
- En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], una definición de entidad es básicamente un acuerdo que define cómo se intercambian los mensajes entre dos socios comerciales. En [!INCLUDE[prague](../includes/prague-md.md)], la mensajería de EDI y AS2 ha sido sujeta a muchos cambios, y el nuevo modelo de Administración de socios comerciales (TPM) ahora requiere la creación de acuerdos entre dos perfiles de socios comerciales. Por lo tanto, para que exista un acuerdo, se deben haber definido primero los dos socios comerciales, los perfiles para cada uno de ellos y la configuración de protocolo para ambos perfiles de socios comerciales. Una vez definidas estas entidades, puede crear un acuerdo entre socios comerciales.  
+ En BizTalk Server, una definición de entidad es básicamente un acuerdo que define cómo se intercambian los mensajes entre dos socios comerciales. En BizTalk Server, EDI y AS2 de mensajería se ha sometido a una gran cantidad de cambio y el nuevo modelo de administración de socios comerciales (TPM) ahora requiere acuerdos que se pueden crear entre dos perfiles de socios comerciales. Por lo tanto, para que exista un acuerdo, se deben haber definido primero los dos socios comerciales, los perfiles para cada uno de ellos y la configuración de protocolo para ambos perfiles de socios comerciales. Una vez definidas estas entidades, puede crear un acuerdo entre socios comerciales.  
   
 > [!NOTE]
->  Para obtener más información relacionada con las mejoras de TPM en [!INCLUDE[prague](../includes/prague-md.md)], consulte [bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md).  
+>  Para obtener más información relacionada con las mejoras de TPM en BizTalk Server, vea [bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md).  
   
- ¿A causa del nuevo modelo de objeto TPM, las aplicaciones EDI que se crearon en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] no se pueden migrar a [!INCLUDE[prague](../includes/prague-md.md)]? La respuesta es no. Puede volver a usar las aplicaciones existentes de BizTalk Server 2006 R2 o BizTalk Server 2009 en [!INCLUDE[prague](../includes/prague-md.md)] mediante el uso de la herramienta de migración de entidades para migrar los datos de entidades de versiones anteriores de BizTalk Server. Para obtener más información acerca de la herramienta, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+ ¿Dado el nuevo modelo de objetos TPM, esto significa que no se pueden migrar las aplicaciones EDI que creó en el servidor BizTalk Server a BizTalk Server? La respuesta es no. Puede volver a usar las aplicaciones existentes de BizTalk Server 2006 R2 o BizTalk Server 2009 en BizTalk Server mediante el uso de la herramienta de migración de entidades para migrar los datos de entidades de versiones anteriores de BizTalk Server. Para obtener más información acerca de la herramienta, consulte [migrar artefactos de EDI desde una versión anterior de BizTalk Server](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
   
 ## <a name="see-also"></a>Vea también  
- [Importar enlaces](../core/importing-bindings2.md)
+ [Importación de enlaces](../core/importing-bindings2.md)

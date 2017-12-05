@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eafa1831d6f99ef925a79ab7276caea005c2380f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: efd3a0b5f68ded39fbf5cc88a4ba8aac6725602e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="cross-field-segment-validation"></a>Campo de segmento validación cruzada
 La canalización de recepción EDI y la canalización de envío EDI pueden llevar a cabo una validación de segmentos/campos cruzados en los elementos de datos del conjunto de transacciones en los mensajes codificados con X12. Esta validación se denomina condiciones de relación en X12. La validación de campos cruzados se expresa mediante anotaciones y, como resultado, se relaciona con la validación EDI.  
@@ -32,7 +32,7 @@ La canalización de recepción EDI y la canalización de envío EDI pueden lleva
  La opcionalidad en X12 se compone de obligatorio (M), opcional (O) y relacional (R) (validación de campos cruzados). Si la opcionalidad es obligatoria, se debe valorar como mínimo un elemento de datos de componente en tipos compuestos.  
   
 ## <a name="x12-optionality"></a>Opcionalidad X12  
- En X12, la validación de segmentos/campos cruzados para la opcionalidad relacional incluye una serie de comprobaciones enumeradas en las reglas del esquema. Cada regla se identifica mediante el siguiente elemento en un \<xs: annotation > elemento:  
+ En X12, la validación de segmentos/campos cruzados para la opcionalidad relacional incluye una serie de comprobaciones enumeradas en las reglas del esquema. Cada regla se identifica mediante el siguiente elemento en un \<xs\> elemento:  
   
 ```  
 <b:Rule subjects="X12ConditionDesignatorX_<relational_condition>"…>  
@@ -55,4 +55,4 @@ La canalización de recepción EDI y la canalización de envío EDI pueden lleva
 |Condicional de lista|X12ConditionDesignatorX_List Conditional|Si está presente el primer elemento del asunto especificado en la condición relacional, debe estar presente, como mínimo, uno de los elementos restantes del asunto. Puede aparecer alguno o todos los elementos no especificados como primer elemento en la condición sin que sea necesario que el primer elemento esté presente. El orden de los elementos en la condición no tiene que ser el mismo que el orden de los elementos de datos en los segmentos de datos.|  
   
 ## <a name="see-also"></a>Vea también  
- [Validación del mensaje EDI](../core/edi-message-validation.md)
+ [Validación de mensajes EDI](../core/edi-message-validation.md)

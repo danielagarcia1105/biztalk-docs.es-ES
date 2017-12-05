@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1567f0b4bceb756381c4033f3243ac7a58fda366
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e7e7a310c222cead89efd23e3f8202ade9eb47ab
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="getendpointname"></a>GetEndpointName (operación)
 Inserta el nombre del extremo de interceptación actual en la pila.  
@@ -39,9 +39,9 @@ Inserta el nombre del extremo de interceptación actual en la pila.
   
  En el caso de las aplicaciones cliente, el nombre del extremo recuperado por la operación GetEndPointName será el nombre del enlace seguido por un guión bajo y el nombre del contrato.  
   
- Por ejemplo, si no se establece la propiedad de nombre en ServiceEndpoint, pero se establece el enlace, el nombre se establecerá \< *enlace*> _\<*contrato*>.  
+ Por ejemplo, si no se establece la propiedad de nombre en ServiceEndpoint, pero se establece el enlace, el nombre se establecerá \< *enlace*\>_\<*contrato* \>.  
   
- Si no se establecen el nombre y el enlace, se establecerá la propiedad Name \< *contrato*>.  
+ Si no se establecen el nombre y el enlace, se establecerá la propiedad Name \< *contrato*\>.  
   
  En el caso del servicio, el nombre recuperado será el nombre del extremo especificado en el archivo App.config.  
   
@@ -83,4 +83,4 @@ Inserta el nombre del extremo de interceptación actual en la pila.
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Operaciones de Windows Communication Foundation](../core/operations-in-windows-communication-foundation.md)
+ [Operaciones en Windows Communication Foundation](../core/operations-in-windows-communication-foundation.md)

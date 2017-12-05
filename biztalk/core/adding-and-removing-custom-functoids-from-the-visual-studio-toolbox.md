@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b34d546de0bbb2a79300c4f672bdfcecdab5958
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 955c526c39a1cbb376a0d83848554bdeb6cc15c7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adding-and-removing-custom-functoids-from-the-visual-studio-toolbox"></a>Adición y eliminación de functoids personalizados del cuadro de herramientas de Visual Studio
 En este tema se describe cómo agregar functoids personalizados y quitarlos del cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -30,7 +30,7 @@ En este tema se describe cómo agregar functoids personalizados y quitarlos del 
   
     1.  Mediante el Explorador de Windows, busque el ensamblado que implemente su functoid personalizado.  
   
-    2.  Copie el ensamblado en el \< *carpeta de instalación de BizTalk Server*>**\Developer Tools\Mapper extensiones** directory. Aquí es donde el Asignador de BizTalk busca functoids personalizados.  
+    2.  Copie el ensamblado en el \< *carpeta de instalación de BizTalk Server*\>**\Developer Tools\Mapper extensiones** directory. Aquí es donde el Asignador de BizTalk busca functoids personalizados.  
   
     3.  Desde un [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, en el **herramientas** menú, haga clic en **elegir elementos del cuadro de herramientas**.  
   
@@ -113,4 +113,4 @@ En este tema se describe cómo agregar functoids personalizados y quitarlos del 
     3.  Cuando haya terminado, escriba **salir**.  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar Functoids personalizados](../core/developing-custom-functoids.md)
+ [Desarrollo de functoids personalizados](../core/developing-custom-functoids.md)

@@ -16,18 +16,18 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c25a348fb739f4558f1507eda0d46d209cd44c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 62581310d4260ecb5b1162df1f52b0170d791d57
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-6-create-a-send-port-to-deliver-the-adta03-message-to-the-rx-system-using-the-file-adapter"></a>Paso 6: Crear un puerto de envío para entregar el ADT ^ A03 mensaje en el sistema de recepción mediante el adaptador de archivo
 En este paso, creará el puerto de envío para la farmacia sistema (RX) mediante el adaptador de archivo.  
   
 ### <a name="to-create-the-tutorialsendmsgrx-send-port"></a>Para crear el puerto de envío Tutorial_sendMsg_RX  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] consola de administración, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
+1.  En la consola de administración de BizTalk Server, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
 2.  En el **propiedades de puerto de envío** diálogo cuadro, realice las siguientes acciones y, a continuación, haga clic en **Aceptar**.  
   
@@ -41,7 +41,7 @@ En este paso, creará el puerto de envío para la farmacia sistema (RX) mediante
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<**  *unidad***: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_sendMsg_RX HL7\SDK\End-to-End** .|  
+    |**Carpeta de destino**|Vaya a  **\<**  *unidad***:\>\Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_sendMsg_RX**.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (reemplazar la extensión .xml con la extensión .txt).|  
   
 4.  En el **propiedades de puerto de envío** cuadro de diálogo para **canalización de envío**, seleccione **BTAHL72XPipelines.BTAHL72XSendPipeline**.  
@@ -66,7 +66,7 @@ En este paso, creará el puerto de envío para la farmacia sistema (RX) mediante
     >  El primer filtro significa que el sistema de información de salud (HIS) se suscribe a un mensaje, no una confirmación. El segundo filtro significa que su se suscribe a mensajes cuyo origen es la admisión de descarga y el sistema de transferencia (ADT).  
   
     > [!NOTE]
-    >  BTAHL7 coloca el mensaje en la ubicación de destino de archivo \< *unidad*>: programa FilesMicrosoft BizTalk <version> Acelerador para TutorialTutorial_sendMsg_RX HL7SDKEnd-to-End.  
+    >  BTAHL7 coloca el mensaje en la ubicación de destino de archivo \< *unidad*\>: programa FilesMicrosoft BizTalk <version> Acelerador para TutorialTutorial_sendMsg_RX HL7SDKEnd-to-End.  
   
 6.  Haga clic en **aplicar**y, a continuación, haga clic en **Aceptar.**  
   

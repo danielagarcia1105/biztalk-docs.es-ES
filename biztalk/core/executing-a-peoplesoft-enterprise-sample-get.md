@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 101124b5992ba2fb6948ca2722700bb01bdc2a95
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 29cf6bba03e6a43bb3fdedf0742741e48ac22dd6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-a-peoplesoft-enterprise-sample-get"></a>Ejecutar un comando Get de ejemplo de PeopleSoft Enterprise
 Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de PeopleSoft. Este adaptador se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
@@ -98,11 +98,11 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
          Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft >  
+    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft\>  
   
     4.  **Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-    5.  **Nombre de usuario:** \<escriba el PeopleSoft UserID >  
+    5.  **Nombre de usuario:** \<escriba el PeopleSoft UserID\>  
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
@@ -196,7 +196,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En la página **Seleccione un tipo de puerto** , seleccione **Utilizar un tipo de puerto existente**. Para **Tipos de puertos disponibles**, seleccione **PS_Test.LOCATION**y haga clic en **Siguiente**.  
   
-     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
+     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294D-4124-a29d-aeb42bbb107e")  
   
 4.  Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:  
   
@@ -288,7 +288,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema >** y establecer **referencia raíz: obtener**.  
+3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema\>**  y establecer **referencia raíz: obtener**.  
   
 4.  Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Generar instancia**. De este modo se genera el archivo **SampleQuery.xml** . Este archivo se colocará en la ubicación de recepción como entrada del adaptador para iniciar el proceso de orquestación.  
   
@@ -304,7 +304,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  Seleccione **Orchestration_1** y haga clic en el cuadro desplegable **Host** . Seleccionar **BizTalkServerApplication**.  
   
-4.  En **puertos de recepción**, haga clic en  **\<ninguno >**. En la lista desplegable, seleccione **Nuevo puerto de recepción**.  
+4.  En **puertos de recepción**, haga clic en  **\<ninguno\>**. En la lista desplegable, seleccione **Nuevo puerto de recepción**.  
   
 5.  For **Nombre**, escriba `FileInPort`y, a continuación, haga clic en **Aceptar**. Aparecerá un cuadro de mensaje que indica que debe designar una ubicación de recepción. Haga clic en **Aceptar**y, a continuación, en **Nuevo**.  
   
@@ -326,7 +326,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
      ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  Haga clic en  **\<ninguno >** para **PeopleSoft_Port** en la lista desplegable.  
+8.  Haga clic en  **\<ninguno\>**  para **PeopleSoft_Port** en la lista desplegable.  
   
 9. Seleccione **Nuevo puerto de envío** y, a continuación, seleccione o escriba los siguientes valores para las propiedades.  
   
@@ -348,15 +348,15 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
          Esta ruta de acceso es específica de la instalación de Java SDK en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft >  
+    3.  **Contraseña**: \<escriba su contraseña de PeopleSoft\>  
   
     4.  **Archivos JAR de PeopleSoft 8.x**: **C:\PSJARS\VER841\PSJOA.JAR**  
   
-     **Nombre de usuario:** \<escriba el PeopleSoft UserID >  
+     **Nombre de usuario:** \<escriba el PeopleSoft UserID\>  
   
 11. Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.  
   
-12. En el Applicationwindow configurar, haga clic en  **\<ninguno >** para **FileOut** en la lista desplegable.  
+12. En el Applicationwindow configurar, haga clic en  **\<ninguno\>**  para **FileOut** en la lista desplegable.  
   
 13. Seleccione **Nuevo puerto de envío** y escriba o seleccione los siguientes valores para las propiedades:  
   
@@ -395,9 +395,9 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En unos segundos debe aparecer un archivo XML en la carpeta **C:\Labs\PS_Test\FileOut** , que debe contener los datos del registro donde la ubicación es AUS01.  
   
-     ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
+     ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-B200-c3c550079ccb")  
   
-     Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft. Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el  **\<ubicación: ADDRESS1 >** y  **\<ubicación: ADDRESS2 >** campos, podrá comprobar que el **obtener** método ha funcionado correctamente.  
+     Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft. Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el  **\<ubicación: ADDRESS1\>**  y  **\<ubicación: ADDRESS2\>**  campos, podrá comprobar que el **obtener** método ha funcionado correctamente.  
   
 ## <a name="summary"></a>Resumen  
  En esta práctica, primero comprobó que los requisitos previos estaban correctamente configurados para obtener acceso al sistema PeopleSoft. A continuación, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk que contiene una orquestación. Configuró la orquestación de BizTalk para usar el adaptador de PeopleSoft con el fin de obtener datos del sistema PeopleSoft. Para configurar la orquestación, creó puertos de envío, recepción y envío/recepción. Enlazó estos puertos al adaptador de PeopleSoft y asignó mensajes a los puertos correspondientes.  

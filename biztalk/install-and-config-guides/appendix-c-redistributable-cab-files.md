@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6049ac62e8a8b55ff6bbfe241f716c2ea9570d34
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a1a1f2b6866a2841abaa248479430a7584db3a0b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="appendix-c-redistributable-cab-files"></a>Apéndice C: Archivos .cab redistribuibles
 El programa de instalación de BizTalk Server usa estos archivos CAB.
@@ -40,7 +40,7 @@ El programa de instalación de BizTalk Server usa estos archivos CAB.
 
 - SQL XML puede tener sus propios requisitos de software (como `.NET Framework 3.5` y `.NET Framework 2.0`), que no se incluyen en el archivo CAB. Si BizTalk Server tiene acceso a Internet, los requisitos de software de SQL XML podrían instalarse automáticamente. Si BizTalk Server no tiene acceso a Internet, debe instalar manualmente los requisitos de software de SQL XML.
 
-- Las rutas de acceso de instalación de los archivos CAB también se muestran en el archivo **Setup.xml**, ubicado en la carpeta de instalación ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<su versión>).
+- También se muestran las rutas de acceso de instalación de archivo CAB en el **Setup.xml** archivo en la carpeta de instalación ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<su versión\>).
   
 -   Cierto software que necesita [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se instala en el equipo cuando se ejecuta el programa de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   

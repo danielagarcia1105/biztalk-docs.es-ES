@@ -12,18 +12,18 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c673e5c31c0498bb82fe7979d2855765f4c9bf35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1da0def828c1dbfa8511dc61b529fa02cb53ca5a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-in-sql-using-the-wcf-service-model"></a>Ejecutar operaciones en tablas y vistas con los tipos de datos grandes en SQL mediante el modelo de servicio de WCF
-El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max). Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección. Para insertar o actualizar datos en estas columnas, el adaptador expone un conjunto\<*column_name*> operación, donde \< *column_name*> es el nombre de la columna de tipo varchar ( max), nvarchar (max) o varbinary (max).  
+El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max). Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección. Para insertar o actualizar datos en estas columnas, el adaptador expone un conjunto\<*column_name* \> operación, donde \< *column_name* \> es el nombre de la columna de tipo varchar (max), nvarchar (max) o varbinary (max).  
   
  Además, en SQL Server, puede tener la columna varbinay(max) almacenar datos no estructurados, como documentos de texto e imágenes. Los datos no estructurados se denominan datos FILESTREAM. Los datos de FILESTREAM se pueden almacenar como archivos en el sistema de archivos. El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite al cliente especificar datos FILESTREAM en columnas de tipo varbinary (max). [Almacenamiento de FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/filestream-sql-server) se proporciona más información. 
   
- Este tema proporciona información acerca de ciertas tareas que debe realizar en el equipo que ejecuta SQL Server y el equipo que ejecuta el cliente de adaptador para que pueda insertar o actualizar los datos FILESTREAM. Este tema también proporciona instrucciones acerca de cómo realizar conjunto\<*column_name*> operaciones para insertar datos FILESTREAM.  
+ Este tema proporciona información acerca de ciertas tareas que debe realizar en el equipo que ejecuta SQL Server y el equipo que ejecuta el cliente de adaptador para que pueda insertar o actualizar los datos FILESTREAM. Este tema también proporciona instrucciones acerca de cómo realizar conjunto\<*column_name* \> operaciones para insertar datos FILESTREAM.  
   
 > [!NOTE]
 >  Si va a realizar la operación en tablas con columnas de tipos definidos por el usuario, asegúrese de que hace referencia a [operaciones en tablas y vistas con tipos definidos por el usuario mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter.md).  
@@ -46,7 +46,7 @@ El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a l
  Después de completar estas tareas, está preparado para insertar o actualizar los datos FILESTREAM en tablas de base de datos de SQL Server.  
   
 ## <a name="how-this-topic-demonstrates-operations-on-large-data-types"></a>Cómo en este tema muestra las operaciones en tipos de datos de gran tamaño  
- Para demostrar cómo realizar conjunto\<*column_name*> operaciones en tablas con tipos de datos de gran tamaño, usan una tabla, **registros**, que tiene columnas **identificador** y **Documento**:  
+ Para demostrar cómo realizar conjunto\<*column_name* \> operaciones en tablas con tipos de datos de gran tamaño, usan una tabla, **registros**, que tiene columnas **deId.** y **documento**:  
   
 -   El **registros** tabla, con todos los datos, se crea al ejecutar el script SQL que se proporciona con los ejemplos. Para obtener más información, consulte [ejemplos de adaptadores](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md).  
   
@@ -75,9 +75,9 @@ El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a l
   
 |Operación|Firma de método|  
 |---------------|----------------------|  
-|Establecer\<*column_name*>|Set void público\<*column_name*> (cadena de filtro, byte [] datos;)|  
+|Establecer\<*column_name*\>|Set void público\<*column_name*\>(cadena de filtro, byte [] datos;)|  
   
- \<*column_name*> = nombre de la columna de tipo de datos de gran tamaño.  
+ \<*column_name* \> = nombre de la columna de tipo de datos de gran tamaño.  
   
  Por ejemplo, el código siguiente muestra las firmas de método para generar una clase de cliente WCF para la **SetDocument** operación en el **registros** tabla en el esquema predeterminado de "dbo".  
   
@@ -90,14 +90,14 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
  En este fragmento de código, **TableOp_dbo_RecordsClient** es el nombre de la clase WCF en el SqlAdapterBindingClient.cs generado por la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
 ### <a name="parameters-for-operations-on-columns-of-large-data-types"></a>Parámetros para las operaciones en las columnas de tipos de datos de gran tamaño  
- Esta sección proporciona los parámetros requeridos por el conjunto de\<*column_name*> operación.  
+ Esta sección proporciona los parámetros requeridos por el conjunto de\<*column_name* \> operación.  
   
 |Nombre del parámetro|Description|  
 |--------------------|-----------------|  
 |cadena de filtro|Especifica la cláusula WHERE basada en el que el adaptador actualiza el registro de la columna de tipo de datos de gran tamaño.|  
 |Byte [] datos|Especifica el valor que se debe actualizar para la columna de tipo de datos de gran tamaño.|  
   
- El conjunto de\<*column_name*> operación no devuelve ningún valor.  
+ El conjunto de\<*column_name* \> operación no devuelve ningún valor.  
   
 ## <a name="creating-a-wcf-client-to-invoke-operations-on-columns-of-large-data-types"></a>Creación de un cliente WCF para invocar operaciones en las columnas de tipos de datos de gran tamaño  
  El conjunto de acciones necesarias para realizar una operación en SQL Server mediante un cliente de WCF genérico implica un conjunto de tareas que se describen en [información general sobre el modelo de servicio de WCF con el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/overview-of-the-wcf-service-model-with-the-sql-adapter.md). Esta sección describe cómo crear un cliente WCF para invocar la **SetDocument** operación en el **registros** tabla. El adaptador expone la **SetDocument** operación para actualizar los datos en columnas de tipos de datos de gran tamaño.  
@@ -173,4 +173,4 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
 9. Compile el proyecto y, a continuación, ejecútelo. Las actualizaciones de la aplicación la **documento** columna en el **registros** tabla.  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones con el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+[Desarrollar aplicaciones con el modelo de servicio WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

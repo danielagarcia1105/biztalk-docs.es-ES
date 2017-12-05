@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2540801af6c30632250602b45c21e7b57cd2bc22
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bebbd605df52e023c78112b78ad51db13d896cc7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-siebel-adapter"></a>Utilizar contadores de rendimiento con el adaptador de Siebel
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]los clientes pueden utilizar los contadores de rendimiento para medir el rendimiento de los adaptadores. El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] programa de instalación crea la categoría de contador de rendimiento "[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]" junto con la instalación del Adapter Pack.  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 <process id>:<app domain id>:<endpoint id>:<action id>  
 ```  
   
- En caso de los [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], Id. de extremo es el nombre del servidor de Siebel, como se especifica en el URI de conexión. El identificador de acción podría ser cualquier acción realizada por el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] como inicio de sesión, cierre de sesión, metadatos, \<nombre de componente de negocio >.\< operación >, \<nombre de servicio de negocio >.\< método de servicio de negocio >. Si la convención de nomenclatura anterior da como resultado un nombre que supera los 127 caracteres solo el identificador de acción se muestra en el siguiente formato:  
+ En caso de los [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], Id. de extremo es el nombre del servidor de Siebel, como se especifica en el URI de conexión. El identificador de acción podría ser cualquier acción realizada por el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] como inicio de sesión, cierre de sesión, metadatos, \<nombre del componente empresarial\>.\< operación\>, \<nombre de servicio de negocios\>.\< método de servicio de negocio\>. Si la convención de nomenclatura anterior da como resultado un nombre que supera los 127 caracteres solo el identificador de acción se muestra en el siguiente formato:  
   
 ```  
 :::<action id>  

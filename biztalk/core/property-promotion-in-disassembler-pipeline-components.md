@@ -19,11 +19,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9770b0e66b85dcc41400002e2e0c1780bc51c3a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6c95c58dafe1f7f875232c5b65962e731334f16
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="property-promotion-in-disassembler-pipeline-components"></a>Promoción de propiedades en componentes de canalización de desensamblador
 La promoción de propiedad es un proceso por el cual se extrae un valor de propiedad de un documento XML mediante una expresión XPath y se coloca en el contexto del mensaje de manera que se pueda utilizar para enrutamiento de mensajes.  
@@ -32,7 +32,7 @@ La promoción de propiedad es un proceso por el cual se extrae un valor de propi
   
  Un componente de canalización personalizado puede promocionar propiedades de múltiples valores (es decir, de matriz). Los mensajes que contienen propiedades de múltiples valores solo se admiten en escenarios de enrutamiento por contenidos (CBR); no pueden enrutarse hacia orquestaciones ni utilizarse para realizar seguimientos.  
   
- El desensamblador XML no promociona valores predeterminados o fijos de un elemento vacío si tiene una etiqueta de cierre. Por ejemplo, \<field1 > no se promociona en el siguiente código XML.  
+ El desensamblador XML no promociona valores predeterminados o fijos de un elemento vacío si tiene una etiqueta de cierre. Por ejemplo, \<field1\> no se promociona en el siguiente código XML.  
   
 ```  
 <document>  

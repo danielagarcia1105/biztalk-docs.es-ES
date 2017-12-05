@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b343ff085cee7049ea916a38fe1216e097200fbf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75aea1f23236d448f6efaa451d45663352fb3083
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-adapter-metadata-to-a-biztalk-project"></a>Cómo agregar metadatos de adaptador a un proyecto de BizTalk
 El Asistente para agregar metadatos de adaptador le permite agregar metadatos de adaptador a un proyecto de BizTalk. Esos datos incluyen esquemas, tipos de mensajes y tipos de puertos necesarios para comunicarse con un adaptador desde una orquestación. Use este asistente con los adaptadores de aplicación, como FTP, para insertar los esquemas correspondientes a dichos adaptadores en el sistema. Tenga en cuenta que los adaptadores de transporte, como HTTP, no suelen usar esquemas.  
@@ -27,7 +27,7 @@ El Asistente para agregar metadatos de adaptador le permite agregar metadatos de
   
 1.  En su [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, en el Explorador de soluciones, haga clic en el proyecto, haga clic en **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **agregar adaptador**y, a continuación, haga clic en **abiertos**.  
+2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **\>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **agregar adaptador**y, a continuación, haga clic en **abiertos**.  
   
 3.  En el Asistente para agregar metadatos de adaptador, en el **Seleccionar adaptador** página, realice lo siguiente.  
   

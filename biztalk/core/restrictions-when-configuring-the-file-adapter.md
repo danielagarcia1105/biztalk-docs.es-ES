@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: daa14a5eba95b11ac29500dce1d60b60ba608abc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6fbf9296e56db816277f9a7a348377bfa4b359d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restrictions-when-configuring-the-file-adapter"></a>Restricciones al configurar el adaptador de archivo
 Restricciones y reglas al usar el adaptador de archivo.
@@ -36,9 +36,9 @@ La máscara de archivo es una cadena que especifica el tipo del archivo que el c
   
 -   La máscara de archivo y el nombre de archivo no distinguen entre mayúsculas y minúsculas.  
   
--   El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< >: / &#124; " ? * ;  
+-   El nombre de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ? * ;  
   
--   La máscara de archivo no puede contener ninguno de los siguientes caracteres: \< >: / &#124; " ; 
+-   La máscara de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ; 
   
 -   Los siguientes nombres de dispositivo reservados no se puede usar como el nombre de un archivo: CON, PRN, AUX, RELOJ$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9. Asimismo, no se permite ninguna combinación de éstos con extensiones.  
   
@@ -118,15 +118,15 @@ La ubicación de recepción de archivos es una cadena que contiene una ruta de a
   
 -   La ruta de acceso debe ser siempre absoluta.  
   
--   Puede especificar la ruta de acceso de archivo con formato de convención de nomenclatura universal (UNC, Universal Naming Convention) (por ejemplo, \\ \\ < *server* > \\ <  *compartir*>).  
+-   Puede especificar la ruta de acceso de archivo con formato de convención de nomenclatura universal (UNC, Universal Naming Convention) (por ejemplo, \\ \\ < *server* \> \\ <  *compartir*\>).  
   
--   Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no debe contener los siguientes caracteres: ' ~! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< > / ? ;  
+-   Si la ruta de acceso de archivo está en formato UNC, el nombre del servidor no debe contener los siguientes caracteres: ' ~! @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ? ;  
   
 -   No se puede utilizar primario (\\... \\) y actual (\\.\\) símbolos de carpeta en cualquier parte de la ruta de acceso de archivo.  
   
 -   La ruta de acceso de archivos no distingue mayúsculas de minúsculas.  
   
--   La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< >: / &#124; " ? * ;  
+-   La ruta de acceso de archivo no puede contener ninguno de los siguientes caracteres: \< \> : / &#124; " ? * ;  
   
 -   No se pueden usar los siguientes nombres de dispositivo reservados en la ruta de acceso de archivos: CON, PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 y LPT9.  
   

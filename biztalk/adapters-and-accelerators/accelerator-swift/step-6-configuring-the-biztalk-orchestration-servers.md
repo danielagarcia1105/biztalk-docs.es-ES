@@ -15,11 +15,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: acf5cb36908031f9256f25dd68435003b74d2633
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0e495be91cc80e072f58a1e8149feb64773f1e51
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-6-configuring-the-biztalk-orchestration-servers"></a>Paso 6: Configurar los servidores de orquestación de BizTalk Server
 Esta sección proporciona instrucciones sobre cómo configurar los servidores de orquestación de BizTalk.  
@@ -34,12 +34,12 @@ Esta sección proporciona instrucciones sobre cómo configurar los servidores de
   
     -   Si el DTC está detrás de un firewall, vea Configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Coordinador de transacciones distribuidas (DTC) para el trabajo a través de un Firewall, ubicado en [http://go.microsoft.com/fwlink/?linkid=48872](http://go.microsoft.com/fwlink/?linkid=48872).  
   
-2.  Instalar requisitos previos de software adicional para el servidor BizTalk Server e instalar y configurar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)], tal y como se describe en [instalar y configurar BizTalk Server en los servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-orchestration-servers.md).  
+2.  Instalar requisitos previos de software adicional para el servidor BizTalk Server e instalar y configurar BizTalk Server, como se describe en [instalar y configurar BizTalk Server en los servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-orchestration-servers.md).  
   
 3.  Instalar y configurar [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] tal y como se describe en instalar y [instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de mensajería](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-accelerator-for-swift-on-messaging-servers.md).  
   
  Esta sección contiene:  
   
--   [Instalar y configurar el servidor BizTalk Server en los servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-orchestration-servers.md)  
+-   [Instalación y configuración de BizTalk Server en los servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-orchestration-servers.md)  
   
--   [Instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/install-and-configure-biztalk-accelerator-for-swift-on-orchestration-servers.md)
+-   [Instalación y configuración del Acelerador de BizTalk para SWIFT en los servidores de orquestación](../../adapters-and-accelerators/accelerator-swift/install-and-configure-biztalk-accelerator-for-swift-on-orchestration-servers.md)

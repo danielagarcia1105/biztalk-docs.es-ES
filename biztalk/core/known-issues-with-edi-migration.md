@@ -12,14 +12,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b642c56151750232be3d17aa3f3cb3b8c858474c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bd62c1c965e814929537a62dc5d49be7e017ae3b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-edi-migration"></a>Problemas conocidos de la migración de EDI
-Este tema describe los problemas conocidos en la migración del modelo de adaptador EDI/HIPAA en [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] a [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+En este tema se describe problemas conocidos con la migración desde el modelo de adaptador EDI e HIPAA en [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] a BizTalk Server.  
   
 ## <a name="credential-information-not-migrated-for-a-file-send-port"></a>Información de credenciales no migradas para un puerto de envío de archivo  
  Al migrar un puerto de envío con el tipo de transporte de archivo, las credenciales empleadas para obtener acceso a la carpeta de archivos cuando el host no dispone de acceso al recurso compartido de red no se migran. Tras la migración, deberá habilitar las credenciales manualmente, y escriba el nombre de usuario y contraseña que se utilizará, en la **autenticación** página de la **propiedades de transporte de archivo** cuadro de diálogo.  

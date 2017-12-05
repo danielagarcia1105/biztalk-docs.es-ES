@@ -15,11 +15,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d87e814fd43545d18db0d6e4fd0c585279eb5261
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa252b520f985667820861403a46d39c8527ea07
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-happens-when-artifacts-are-imported"></a>¿Qué ocurre cuando se importan los artefactos?
 En este tema se describe lo que sucede cuando se importan artefactos. Hay tres modos de importar artefactos, que se tratan en este tema:  
@@ -58,7 +58,7 @@ En este tema se describe lo que sucede cuando se importan artefactos. Hay tres m
  Después de importar una aplicación, puede ver, administrar e implementar los artefactos de la aplicación ya sea juntos, como una entidad única, o individualmente mediante la consola de administración o BTSTask. Para obtener más información, consulte [implementación de aplicaciones y herramientas de administración](../core/application-deployment-and-management-tools.md).  
   
 ## <a name="importing-a-policy"></a>Importar una directiva  
- Al importar una directiva desde un archivo .xml, se agrega a la base de datos del motor de reglas. Al contrario de lo que ocurre cuando importa una directiva en un archivo .msi de BizTalk, ésta no se asocia con ninguna aplicación de la base de datos de administración de BizTalk. La directiva se muestra en el nodo de directivas de la \<todos los artefactos > carpeta en la consola de administración de BizTalk Server. Después de haber importado la directiva, puede publicarla para que esté disponible para las aplicaciones en el grupo que vaya a usar. Para obtener más información, consulte [administrar directivas](../core/managing-policies.md).  
+ Al importar una directiva desde un archivo .xml, se agrega a la base de datos del motor de reglas. Al contrario de lo que ocurre cuando importa una directiva en un archivo .msi de BizTalk, ésta no se asocia con ninguna aplicación de la base de datos de administración de BizTalk. La directiva se muestra en el nodo de directivas de la \<todos los artefactos\> carpeta en la consola de administración de BizTalk Server. Después de haber importado la directiva, puede publicarla para que esté disponible para las aplicaciones en el grupo que vaya a usar. Para obtener más información, consulte [administrar directivas](../core/managing-policies.md).  
   
 ## <a name="importing-a-binding-file"></a>Importar un archivo de enlace  
  Al importar un archivo de enlace en un grupo de BizTalk, todos los enlaces que existan en ese momento en el grupo y que tengan el mismo nombre que los enlaces del archivo importado se sobrescribirán con los archivos de éste, y se aplicará la configuración.  
@@ -71,4 +71,4 @@ En este tema se describe lo que sucede cuando se importan artefactos. Hay tres m
 ## <a name="see-also"></a>Vea también  
  [¿Qué ocurre con los artefactos durante la implementación de aplicaciones](../core/what-happens-to-artifacts-during-application-deployment.md)   
  [Importación de directivas, los enlaces y las aplicaciones de BizTalk](../core/importing-biztalk-applications-bindings-and-policies.md)   
- [Implementación de aplicaciones y dependencias](../core/dependencies-and-application-deployment.md)
+ [Dependencias e implementación de aplicaciones](../core/dependencies-and-application-deployment.md)

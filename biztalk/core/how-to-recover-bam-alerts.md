@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 37c18265712fa2f0dd1bb2d83d756cc9a9bd1505
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec36491dd7368e0e2fdbcd8fb5abab9d840c6b1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-bam-alerts"></a>Cómo recuperar alertas SAE
 Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se usa Supervisión de la actividad económica (BAM), también será necesario recuperar las alertas de BAM.  
@@ -30,7 +30,7 @@ Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includ
   
 2.  En el símbolo del sistema, escriba:  
   
-     **NSControl register - name BamAlerts-server***\<ServerName >***-service - serviceusername "**  *\<ServiceUserName >* **"- servicepassword"**  *\<ServicePassword >* **"**   
+     **NSControl register - name BamAlerts-server***\<ServerName\>***-service - serviceusername "**  *\< ServiceUserName\>*  **"- servicepassword"**  *\<ServicePassword\>*  **"**   
   
      Esto habilita los servicios de notificación iniciar sesión en la base de datos correcta (esta información se mantiene en el registro del equipo del servicio NSControl).  
   
@@ -42,4 +42,4 @@ Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includ
 4.  En el símbolo del sistema, escriba: **net start NS$ BamAlerts**.  
   
 ## <a name="see-also"></a>Vea también  
- [Recuperar un equipo que ejecuta BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)
+ [Recuperación de un equipo que ejecuta BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)

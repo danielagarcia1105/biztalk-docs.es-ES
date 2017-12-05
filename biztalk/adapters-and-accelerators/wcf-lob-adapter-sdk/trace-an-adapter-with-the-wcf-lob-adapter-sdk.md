@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 57471341bfe2179e977687de024c0e6f8ee6f90a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8ca4b68f23f791de3ecd68bc69b85c2908b6d7a0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="trace-an-adapter-with-the-wcf-lob-adapter-sdk"></a>Seguimiento de un adaptador con el SDK de adaptador LOB de WCF
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]el seguimiento se basa en Systems.Diagnostics. Usar Microsoft.ServiceModel.Channels origen de seguimiento para el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] en tiempo de ejecución.  Usar origen de seguimiento Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse para [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. Los seguimientos de WCF se escriben en el origen denominado System.ServiceModel.  
@@ -55,7 +55,7 @@ public class EchoAdapterUtilities
  Puede habilitar el seguimiento que se proporcionan en el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] agregando la siguiente sección en el archivo app.config de la aplicación que utiliza el adaptador.  
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
   <sources>  
     <source name="Microsoft.Adapters.Samples.Echo.EchoAdapter" switchValue="Verbose">  
       <listeners>  
@@ -74,7 +74,7 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
  Puede utilizar el elemento Agregar para especificar el nombre y el tipo del agente de escucha de seguimiento que desea usar. En nuestro ejemplo de configuración, se denomina el agente de escucha "xmlTrace" y se agrega la escucha de seguimiento estándar de .NET Framework (System.Diagnostics.XmlWriterTraceListener) como el tipo que deseamos utilizar. Puede agregar cualquier número de agentes de escucha de seguimiento para cada origen. Por ejemplo, en los ejemplos siguientes, también hemos agregado otro agente de escucha denominado "textTrace" que usa el agente de escucha de seguimiento de .NET Framework System.Diagnostics.TextWriterTraceListener. Si el agente de escucha de seguimiento emite el seguimiento en un archivo, debe especificar la ubicación del archivo de salida y el nombre del archivo de configuración. Esto se hace estableciendo initializeData para el nombre del archivo para ese agente de escucha.  
@@ -83,7 +83,7 @@ public class EchoAdapterUtilities
  Puede habilitar el seguimiento para este complemento agregando la siguiente sección en el archivo devenv.exe.config ubicado en `\Program Files (x86)\Microsoft Visual Studio\Common7\IDE`.
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
    <sources>  
     <source name="Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse" switchValue="Verbose, ActivityTracing">  
       <listeners>  
@@ -100,14 +100,14 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" indentsize="4" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
 ## <a name="enable-tracing-for-the-consume-adapter-service-add-in"></a>Habilitar el seguimiento de los Consume Adapter Service complemento  
  Puede habilitar el seguimiento para este complemento agregando la siguiente sección en el archivo BTSNTSVC.exe.config ubicado en `\Program Files (x86)\Microsoft BizTalk Server`.  
   
 ```  
-\<system.diagnostics>  
+<system.diagnostics>  
    <sources>  
     <source name="Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse" switchValue="Verbose, ActivityTracing">  
       <listeners>  
@@ -124,7 +124,7 @@ public class EchoAdapterUtilities
     </add>  
   </sharedListeners>  
   <trace autoflush="true" indentsize="4" />  
-\</system.diagnostics>  
+</system.diagnostics>  
 ```  
   
 ## <a name="see-also"></a>Vea también  

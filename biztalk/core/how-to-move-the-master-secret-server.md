@@ -16,22 +16,22 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b35fae6551a95c1c2009ac9786aa791d189f338
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4158b59e3cce9664ca7c8c7d8ea4c5e3221b04b9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-move-the-master-secret-server"></a>Cómo mover el servidor secreto principal
 En este tema se documentan los pasos que pueden seguirse para mover el secreto principal de un servidor a otro, así como para mover el secreto principal de un servidor a un clúster de Windows Server.  
   
 ### <a name="to-move-the-master-secret-from-one-server-to-another-server"></a>Para mover el secreto principal de un servidor a otro  
   
-1.  Instale Microsoft Enterprise Single Sign-On (SSO) Server en el nuevo servidor secreto principal si aún no se ha instalado. Inicie el programa de instalación de Microsoft Enterprise Single Sign-On Server desde \Platform\SSO\setup.exe en el CD de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+1.  Instale Microsoft Enterprise Single Sign-On (SSO) Server en el nuevo servidor secreto principal si aún no se ha instalado. Inicie el programa de instalación de Microsoft Enterprise Single Sign-On Server desde \Platform\SSO\setup.exe en el CD de BizTalk Server.  
   
 2.  Configure SSO empresarial en el nuevo servidor secreto principal si aún no se ha configurado. Siga los pasos que se detallan a continuación para configurar SSO empresarial:  
   
-    1.  Abra la herramienta de configuración. De forma predeterminada, la herramienta de configuración se encuentra en \<unidad >: \Program Files\Common Files\Enterprise inicio de sesión único-On\Configuration.exe.  
+    1.  Abra la herramienta de configuración. De forma predeterminada, la herramienta de configuración se encuentra en \<unidad\>: \Program Files\Common Files\Enterprise inicio de sesión único-On\Configuration.exe.  
   
     2.  Haga clic para seleccionar **SSO empresarial** en el panel izquierdo.  
   
@@ -66,7 +66,7 @@ En este tema se documentan los pasos que pueden seguirse para mover el secreto p
   
     2.  Guarde el archivo como archivo .xml. Por ejemplo, guarde el archivo como **NewMSSServer.xml**.  
   
-    3.  En el símbolo del sistema, desplácese a la carpeta de instalación de SSO empresarial. De forma predeterminada, es la carpeta de instalación \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+    3.  En el símbolo del sistema, desplácese a la carpeta de instalación de SSO empresarial. De forma predeterminada, es la carpeta de instalación \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
     4.  Tipo de **ssomanage - updatedb** *XMLFile* para actualizar el nombre de servidor secreto principal en la base de datos.  
   
@@ -121,4 +121,4 @@ En este tema se documentan los pasos que pueden seguirse para mover el secreto p
 7.  Restaure el secreto principal del que se ha realizado una copia de seguridad en cada nodo del clúster de Windows que aloja el servidor secreto principal agrupado. Siga los pasos de [cómo restaurar el secreto principal](../core/how-to-restore-the-master-secret.md) en cada nodo del clúster de Windows que aloja el servidor secreto principal agrupado.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar el secreto principal](../core/managing-the-master-secret.md)
+ [Administración del secreto maestro](../core/managing-the-master-secret.md)

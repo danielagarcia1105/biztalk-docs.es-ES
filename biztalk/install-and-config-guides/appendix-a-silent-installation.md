@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5ece3e8aa8469d1b47d256a0001bebce950b7c9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c03568f86b8c3b609fed74a9faf7f6057614151c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="appendix-a-silent-installation"></a>Apéndice A: Instalación silenciosa
 En este tema se indican los pasos necesarios para crear una instalación silenciosa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -31,18 +31,18 @@ En este tema se indican los pasos necesarios para crear una instalación silenci
 |------------------|------------|-----------------|  
 |/HELP, /? o /H||Proporciona ayuda y una referencia rápida.|  
 |/QUIET||Suprime la interfaz de usuario durante la instalación, todos los cuadros de diálogo, los errores, o los mensajes que soliciten la intervención del usuario. Todos los mensajes se ingresan en el archivo de registro de instalación. **Nota:** No se puede especificar la marca Silencioso para actualizaciones, ya que estas requieren la confirmación del usuario para las opciones seleccionadas.|  
-|/CABPATH|\<*Ubicación del archivo CAB*>|Indica la ubicación del archivo .cab redistribuible.|  
-|/S|\<*Archivo XML de configuración*>|Lleva a cabo una instalación silenciosa de las características que se encuentran en el archivo de configuración especificado. **Nota:** Para instalar todas las características, especifique ALL para el parámetro `InstalledFeature` del archivo XML de configuración.|  
+|/CABPATH|\<*Ubicación del archivo CAB*\>|Indica la ubicación del archivo .cab redistribuible.|  
+|/S|\<*Archivo XML de configuración*\>|Lleva a cabo una instalación silenciosa de las características que se encuentran en el archivo de configuración especificado. **Nota:** Para instalar todas las características, especifique ALL para el parámetro `InstalledFeature` del archivo XML de configuración.|  
 |/PASSIVE||Efectúa una instalación pasiva. El programa de instalación tan solo muestra la barra de progreso.|  
 |/NORESTART||Suprime las solicitudes de reinicio y reinicia automáticamente el equipo al final de la instalación.|  
 |/FORCERESTART||Siempre fuerza un reinicio una vez finalizada la instalación.|  
 |/PROMPTRESTART||Pregunta al usuario antes de reiniciar.|  
 |/X o /UNINSTALL||Desinstala [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].|  
-|/L|\<Archivo de registro > [i] [w] [e] [a] [r] [u] [c] [m] [p] [v] [*]|Escribe información de registro en un archivo de registro en la ruta de acceso especificada. Siempre usa el registro de Windows Installer detallado y lo anexa a un archivo existente.<br /><br /> Los siguientes marcadores especifican la información que se va a registrar:<br /><br /> i: mensajes de estado<br /><br /> w: advertencias no graves<br /><br /> e: todos los mensajes de error<br /><br /> a: inicio de acciones<br /><br /> r: registros específicos para la acción<br /><br /> u: solicitudes de usuario<br /><br /> c: parámetros iniciales de la interfaz de usuario<br /><br /> m: memoria insuficiente<br /><br /> p: propiedades de terminal<br /><br /> v: información detallada<br /><br /> *: todo|  
+|/L|\<Archivo de registro\> [i] [w] [e] [a] [r] [u] [c] [m] [p] [v] [*]|Escribe información de registro en un archivo de registro en la ruta de acceso especificada. Siempre usa el registro de Windows Installer detallado y lo anexa a un archivo existente.<br /><br /> Los siguientes marcadores especifican la información que se va a registrar:<br /><br /> i: mensajes de estado<br /><br /> w: advertencias no graves<br /><br /> e: todos los mensajes de error<br /><br /> a: inicio de acciones<br /><br /> r: registros específicos para la acción<br /><br /> u: solicitudes de usuario<br /><br /> c: parámetros iniciales de la interfaz de usuario<br /><br /> m: memoria insuficiente<br /><br /> p: propiedades de terminal<br /><br /> v: información detallada<br /><br /> *: todo|  
 |/IGNOREDEPENDENCIES||Omite las comprobaciones de los requisitos previos descargables.|  
-|/ INSTALLDIR \< *la ruta de instalación*>|\<*carpeta de archivos de programa>*|Especifica la ruta de acceso completa a la ubicación de instalación del producto.|  
-|/COMPANYNAME|\<*nombre de la compañía*>|Establece el nombre de la empresa o la organización.|  
-|/USERNAME|\<*nombre de usuario*>|Establece el nombre de usuario.|  
+|/ INSTALLDIR \< *la ruta de instalación*\>|\<*carpeta archivos de programa\>*|Especifica la ruta de acceso completa a la ubicación de instalación del producto.|  
+|/COMPANYNAME|\<*nombre de la compañía*\>|Establece el nombre de la empresa o la organización.|  
+|/USERNAME|\<*nombre de usuario*\>|Establece el nombre de usuario.|  
 |/ADDLOCAL ALL||Instala todas las características. Para obtener más información sobre el comando ADDLOCAL, consulte [Listing of Values for the ADDLOCAL Command](http://go.microsoft.com/fwlink/p/?LinkID=189319) (Lista de valores para el comando ADDLOCAL).|  
 |/REMOVE ALL||Quita todas las características.|  
 |/REPAIR ALL||Repara todas las características.|  

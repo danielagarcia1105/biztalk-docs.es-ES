@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb44c851258cc623cf991a0b2be5c18d58e59770
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78490c7b6447ddb097c0ca61154aab20c44086c3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="extending-the-itinerary-designer"></a>Extender el Diseñador de itinerarios
 El Diseñador de itinerario es un lenguaje específico de dominio visual (DSL) para Microsoft Visual Studio que permite el modelado del gráfico de itinerarios para su uso con el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. El diseñador expone varios puntos de extensión para que los programadores pueden escribir extensiones personalizadas para habilitar la funcionalidad nueva o nuevas opciones de configuración.  
@@ -54,7 +54,7 @@ El Diseñador de itinerario es un lenguaje específico de dominio visual (DSL) p
  La siguiente es una instancia de la referencia de un archivo de manifiesto del proveedor de adaptador; archivos de manifiesto personalizados deben estructurarse del mismo modo.  
   
 ```xml  
-\<?xml version="1.0" encoding="utf-8" ?>  
+<?xml version="1.0" encoding="utf-8" ?>  
 <adapterPropertyManifest adapterName="FTP">  
      <aliases>  
           <alias name="globalPropertySchemas" value="Microsoft.BizTalk.GlobalPropertySchemas, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />  
@@ -83,7 +83,7 @@ El Diseñador de itinerario es un lenguaje específico de dominio visual (DSL) p
  El **ValidationEngine** clase realiza la validación de elemento de modelo mediante el bloque de aplicaciones de Enterprise Library validación y registra los errores de validación en la ventana Lista de errores de Microsoft Visual Studio IDE. La validación que se debe realizar para cada tipo de elemento de un modelo se define en el archivo de configuración de Enterprise Library. El archivo se denomina Ruleset.config y se encuentra en la carpeta binaria donde se encuentran todos los binarios de diseñador de itinerario. En el ejemplo siguiente se muestra un fragmento del archivo de configuración e incluye dos reglas de validación (denominadas validadores) para la **UddiResolver** dispositivo extender, uno para la **ServerUrl** propiedad y otra para el  **ServiceKey** propiedad.  
   
 ```  
-\<!--   
+<!--   
 UddiResolver  
 -->  
 <type assemblyName="Microsoft.Practices.Services.Extenders.Resolvers.UDDI"  

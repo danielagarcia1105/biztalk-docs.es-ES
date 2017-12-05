@@ -16,11 +16,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a2fce9c39fad76ad0e621fb4773cc39efc3488cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6cf0243eccb6a38dc121cfe06a60e30fa0c26c7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sendmail"></a>SendMail
 El ejemplo SendMail muestra el modo en que puede usar el adaptador del Protocolo simple de transferencia de correo (SMTP) para enviar mensajes de correo electrónico dentro de una orquestación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. La información dinámica empleada para enviar los mensajes de correo se recupera de un mensaje XML mediante la funcionalidad de promoción de propiedades.  
@@ -37,7 +37,7 @@ El ejemplo SendMail muestra el modo en que puede usar el adaptador del Protocolo
 4.  La orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] envía el mensaje de correo electrónico construido mediante el adaptador SMTP.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \AdaptersUsage\SendMail\  
+ \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\SendMail\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -54,13 +54,13 @@ El ejemplo SendMail muestra el modo en que puede usar el adaptador del Protocolo
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersUsage\SendMail  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\SendMail  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la siguiente carpeta de entrada para este ejemplo:  
   
-         \<*Ejemplos de ruta de acceso*> \AdaptersUsage\SendMail\In  
+         \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\SendMail\In  
   
     -   Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
@@ -105,4 +105,4 @@ El ejemplo SendMail muestra el modo en que puede usar el adaptador del Protocolo
 2.  Observe si llega un mensaje de correo electrónico a la dirección especificada en el procedimiento anterior.  
   
 ## <a name="see-also"></a>Vea también  
- [Ejemplos de adaptadores - uso](../core/adapter-samples-usage.md)
+ [Ejemplos de adaptadores: uso](../core/adapter-samples-usage.md)

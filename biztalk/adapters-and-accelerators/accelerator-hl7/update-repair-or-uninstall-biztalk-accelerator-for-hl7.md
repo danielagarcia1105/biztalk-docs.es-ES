@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eb49cdff18e880c91034aaf7d2ab81500c40dbab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e5b4fa1dba322e830114a76a0ca69134edbb1d06
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update-repair-or-uninstall-biztalk-accelerator-for-hl7"></a>Actualizar, reparar o desinstalar el Acelerador de BizTalk para HL7
 
@@ -35,7 +35,7 @@ Cambiar, reparar o desinstalar el [!INCLUDE[btaBTAHL7NoNumber](../../includes/bt
 > [!NOTE]
 >  Al modificar la instalación de [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], el Tutorial to-End no se ejecuta automáticamente. 
 > 
-> Para ejecutar el tutorial y verificar que la instalación modificada se ha ejecutado correctamente, ejecute el tutorial manualmente desde el  ***\<unidad >*** **\Program BizTalk \<versión > Acelerador para HL7\SDK\End-to-End Tutorial** carpeta.
+> Para ejecutar el tutorial y verificar que la instalación modificada se ha ejecutado correctamente, ejecute el tutorial manualmente desde el  ***\<unidad\>***  **\Program BizTalk \< versión\> Acelerador para HL7\SDK\End-to-End Tutorial** carpeta.
   
 1. Ejecute el [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] **setup.exe** como administrador 
   
@@ -101,4 +101,4 @@ Para continuar con la desinstalación, haga lo siguiente:
 3.  Desinstale [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)].  
   
 ## <a name="see-also"></a>Vea también  
-[Instalar o actualizar Acelerador de Microsoft BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-or-upgrade-microsoft-biztalk-accelerator-for-hl7.md)
+[Instalar o actualizar el Acelerador de Microsoft BizTalk para HL7](../../adapters-and-accelerators/accelerator-hl7/install-or-upgrade-microsoft-biztalk-accelerator-for-hl7.md)

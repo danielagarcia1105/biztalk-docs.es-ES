@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73bd5013cd2a09d240fa58b7cf5283c8d1903c69
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 20693f00d536414b44a7577277cf9acd3e5af530
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-bam-portal-to-work-on-an-nlb-cluster"></a>Cómo configurar el portal de BAM para trabajar en un clúster NLB
 Se puede configurar el portal de BAM para trabajar en un clúster de equilibrio de carga de red (NLB).  
@@ -145,7 +145,7 @@ Se puede configurar el portal de BAM para trabajar en un clúster de equilibrio 
     > [!NOTE]
     >  El propósito de este comando es conceder acceso de lectura al usuario de grupo de aplicaciones de BAM a la clave del registro SOFTWAREMicrosoftBizTalk Server3.0BAMWebServicesidentity. Este ejemplo utiliza el servicio de red ya que es el servicio predeterminado que utiliza IIS para el grupo de aplicaciones. Si no utiliza los valores predeterminados de IIS, debería sustituir al usuario del grupo de aplicaciones que utiliza la implementación.  
   
-16. Escriba lo siguiente en el símbolo del sistema: subinacl.exe /keyreg "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3. 0" "/ conceder =\<BAM WebService Account >"  
+16. Escriba lo siguiente en el símbolo del sistema: subinacl.exe /keyreg "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3. 0" "/ conceder =\<BAM WebService Account\>"  
   
     > [!NOTE]
     >  El objetivo de este comando es conceder a la cuenta de usuario del servicio Web de administración de BAM acceso de lectura a la clave del Registro SOFTWARE\Microsoft\BizTalk Server\3.0\BAM\WebServices\Identity.  
@@ -154,10 +154,10 @@ Se puede configurar el portal de BAM para trabajar en un clúster de equilibrio 
   
 18. Utilice la herramienta de administrador de Administración de equipos para agregar al usuario de servicio Web de administración de BAM y a la cuenta de usuario de grupo de aplicaciones de BAM al grupo de proceso de trabajo de IIS (IIS_WPG) y al grupo de servicios (STS_WPG) de SharePoint.  
   
-19. Establecer los permisos en las carpetas temporales de ASP.NET para el grupo de aplicaciones y usuarios del servicio Web: c:\windows\system32\cacls "%windir%\Microsoft.NET\Framework\ v2.0. \<número mínimo de versión > \Temporary ASP.NET Files "/T /E /G \<BAM WebService Account >: F  
+19. Establecer los permisos en las carpetas temporales de ASP.NET para el grupo de aplicaciones y usuarios del servicio Web: c:\windows\system32\cacls "%windir%\Microsoft.NET\Framework\ v2.0. \<número mínimo de versión\>\Temporary ASP.NET Files "/T /E /G \<BAM WebService Account\>: F  
   
     > [!NOTE]
     >  Concede acceso tanto a la cuenta de usuario de servicio Web de administración de BAM como a la cuenta de usuario de grupo de aplicaciones de BAM.  
   
 ## <a name="see-also"></a>Vea también  
- [Administración del Portal BAM](../core/managing-the-bam-portal.md)
+ [Administración del portal de BAM](../core/managing-the-bam-portal.md)

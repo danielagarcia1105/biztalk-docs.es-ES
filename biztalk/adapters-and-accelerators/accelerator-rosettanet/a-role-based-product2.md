@@ -17,14 +17,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78eacae899dada5dd2de659d1599ca60676814d9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e67044fbbf5809365475ecdc8e8b9a82d7a843bd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a-role-based-product"></a>Un producto basada en roles
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporcionan características y herramientas en el entorno adecuado para el rol del usuario. Estas características y herramientas permiten el desarrollo rápido, implementación, operaciones, administración y uso empresarial.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporcionan características y herramientas en el entorno adecuado para el rol del usuario. Estas características y herramientas permiten el desarrollo rápido, implementación, operaciones, administración y uso empresarial.  
   
 ## <a name="features-and-tools"></a>Características y herramientas  
  Herramientas para el programador se integran en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]® [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. Los programadores pueden administrar sus soluciones y proyectos en el Explorador de soluciones y tener acceso inmediato a las herramientas de tiempo de diseño de BizTalk.  

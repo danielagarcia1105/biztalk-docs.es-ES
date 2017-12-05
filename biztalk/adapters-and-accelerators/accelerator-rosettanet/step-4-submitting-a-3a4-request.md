@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2436d33033163b32c4ead0fdab807b7db0b0158f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff36b6181b167d70340a65913e1e85e7acfeeaf4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-submitting-a-3a4-request"></a>Paso 4: Enviar una solicitud de 3A4
 En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 3A4 - pedido de compra de la solicitud. Este PIP permite a una organización de comprador enviar una solicitud de pedido de compra a un proveedor. Por lo general, se solicita la 3A4 - pedido de compra de solicitud después de ejecutar una consulta de la disponibilidad de producto mediante el 3A2 - solicitud precio y disponibilidad PIP. El PIP 3A4 es una PIP asincrónica que envía confirmaciones de recepción.  
@@ -39,7 +39,7 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
     |**Id. de instancia de PIP**|Tipo de **3A4_Test**. **Importante:** para evitar errores de Id. de mensaje duplicado, debe asegurarse de que el **Id. de instancia de Pip** es único para cada mensaje que envíe. Si ejecuta la prueba de 3A4 en el futuro, tendrá que cambiar este campo.|  
     |**Categoría de mensaje**|Escriba **Acción**.|  
   
-3.  Con el Bloc de notas u otro editor de texto, abra el archivo 3A4_Request.xml en el \< *unidad*>: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBApplication\ Carpeta SampleInstances y, a continuación, copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
+3.  Con el Bloc de notas u otro editor de texto, abra el archivo 3A4_Request.xml en el \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ Carpeta LOBApplication\SampleInstances y, a continuación, copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
   
 4.  Haga clic en **enviar** para enviar la solicitud 3A4 en el equipo de Contoso.  
   
@@ -58,7 +58,7 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
   
 3.  En Microsoft SQL Server Management Studio, haga clic en **Nueva consulta**.  
   
-4.  En el \<tabla > cuadro de diálogo de texto, seleccione **BTARNDATA** en la lista.  
+4.  En el \<tabla\> el cuadro de diálogo de texto, seleccione **BTARNDATA** en la lista.  
   
 5.  En la ventana de SQL, escriba la siguiente instrucción SQL:  
   
@@ -88,4 +88,4 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial de doble acción](../../adapters-and-accelerators/accelerator-rosettanet/double-action-tutorial.md)   
- [Flujo de mensajes de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)
+ [Flujo de mensajes en BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)

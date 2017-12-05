@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45dc38a939e71a8f4eb3d3afe87736fc548f8570
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb03368a9d046eacf31f8b7bbed5c0a7f090c3d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-idocs-from-sap-using-biztalk-server"></a>Recibir IDOC desde SAP mediante BizTalk Server
 Recibir un IDOC implica la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] para que actúe como un servidor RFC para recibir una llamada RFC especial de SAP. El adaptador SAP puede recibir IDOC actúa como un servidor RFC o un servidor de tRFC. Para obtener más información sobre cómo recibir un IDOC con el adaptador que se comporta como un servidor de tRFC, consulte [recibir IDOC desde SAP en un contexto transaccional usando el servidor BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md).  
@@ -29,13 +29,13 @@ Recibir un IDOC implica la [!INCLUDE[adaptersap_short](../../includes/adaptersap
   
 -   **Recibir** operación habilita el adaptador recibir los IDOC que tengan un esquema fuertemente tipado.  
   
--   **ReceiveIdoc** operación habilita el adaptador recibir los IDOC que tengan un esquema débilmente tipada. Esta operación recibe IDOC como una cadena en un mensaje XML en el \<idocData > etiqueta.  
+-   **ReceiveIdoc** operación habilita el adaptador recibir los IDOC que tengan un esquema débilmente tipada. Esta operación recibe IDOC como una cadena en un mensaje XML en el \<idocData\> etiqueta.  
   
  En el lado de adaptador, puede especificar un valor para el **ReceiveIDocFormat** enlace de propiedad para especificar el formato de IDOC recibiría el adaptador.  
   
 -   **Escribió** especifica el adaptador recibirá IDOC con esquema fuertemente tipado. Esto da como resultado un IDOC XML.  
   
--   **Cadena** especifica el adaptador recibirá IDOC con esquema débilmente tipada. Esto da como resultado un mensaje XML con el \<idocData > etiqueta.  
+-   **Cadena** especifica el adaptador recibirá IDOC con esquema débilmente tipada. Esto da como resultado un mensaje XML con el \<idocData\> etiqueta.  
   
 -   **RFC** especifica el adaptador recibirá IDOC en cualquier formato.  
   
@@ -50,8 +50,8 @@ Recibir un IDOC implica la [!INCLUDE[adaptersap_short](../../includes/adaptersap
 |-------------------------------|------------------------|------------|  
 |IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **recepción** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />3.  Establezca la propiedad de enlace ReceiveIdocFormat a **Typed**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir IDOC de XML.<br />2.  Usar el ensamblador de archivo sin formato para convertir XML IDOC a archivo sin formato.|IDOC de archivo sin formato|  
 |IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **recepción** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />3.  Establezca la propiedad de enlace ReceiveIdocFormat a **Typed**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> -Recibir IDOC de XML.|IDOC DE XML|  
-|IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **recepción** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />3.  Establezca la propiedad de enlace ReceiveIdocFormat a **cadena**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir mensaje XML con IDOC de archivo sin formato en \<idocData > etiqueta.<br />2.  Usar la compatibilidad de XPath del adaptador de WCF en la configuración del puerto de recepción para extraer el IDoc de archivo sin formato del mensaje XML. Por ejemplo:<br />     `/*[local-name()='ReceiveIdoc']/*[local-name()='idocData']`<br />3.  Utilice el Desensamblador de archivos sin formato para convertir IDOC de archivo sin formato en XML IDOC.<br /><br /> **Importante** este enfoque puede utilizarse para recibir los IDOC con el nuevo basado en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y aplicarlos directamente en un proyecto de BizTalk existente escrito para recibir IDOC desde el adaptador de SAP de BizTalk existente. También es el enfoque recomendado para recibir IDOC con número de versión menor que el número de versión (SYSREL).|IDOC DE XML|  
-|IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Generar el esquema para el **ReceiveIdoc** operación desde el nodo IDOC mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />2.  Establezca la propiedad de enlace ReceiveIdocFormat a **cadena**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> -Recibir mensaje XML con el IDOC representado como una cadena en el \<idocData > etiqueta.|IDOC de archivo sin formato en mensajes XML|  
+|IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Establezca la propiedad de enlace GenerateFlatFileCompatibleIdocSchema a **True**.<br />2.  Generar el esquema para el **recepción** operación para obtener un uso específico de IDOC [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />3.  Establezca la propiedad de enlace ReceiveIdocFormat a **cadena**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> 1.  Recibir mensaje XML con IDOC de archivo sin formato en \<idocData\> etiqueta.<br />2.  Usar la compatibilidad de XPath del adaptador de WCF en la configuración del puerto de recepción para extraer el IDoc de archivo sin formato del mensaje XML. Por ejemplo:<br />     `/*[local-name()='ReceiveIdoc']/*[local-name()='idocData']`<br />3.  Utilice el Desensamblador de archivos sin formato para convertir IDOC de archivo sin formato en XML IDOC.<br /><br /> **Importante** este enfoque puede utilizarse para recibir los IDOC con el nuevo basado en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] y aplicarlos directamente en un proyecto de BizTalk existente escrito para recibir IDOC desde el adaptador de SAP de BizTalk existente. También es el enfoque recomendado para recibir IDOC con número de versión menor que el número de versión (SYSREL).|IDOC DE XML|  
+|IDOC (a través de la interfaz de tRFC)|**Tiempo de diseño de metadatos**<br /><br /> 1.  Generar el esquema para el **ReceiveIdoc** operación desde el nodo IDOC mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].<br />2.  Establezca la propiedad de enlace ReceiveIdocFormat a **cadena**.<br /><br /> **Tiempo de diseño de orquestación**<br /><br /> -Recibir mensaje XML con el IDOC representado como una cadena en el \<idocData\> etiqueta.|IDOC de archivo sin formato en mensajes XML|  
   
 ## <a name="how-to-receive-an-idoc-from-an-sap-system"></a>¿Cómo recibir un IDOC desde un sistema SAP?  
  Realizar una operación en un sistema SAP mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] implica procedimientos tareas que se describen en [bloques de creación para crear aplicaciones de SAP](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md). Para recibir un IDOC desde un sistema SAP, estas tareas son:  
@@ -76,9 +76,9 @@ Recibir un IDOC implica la [!INCLUDE[adaptersap_short](../../includes/adaptersap
 ## <a name="generating-schema"></a>Generar el esquema  
  Debe generar esquema para el *recepción* el funcionamiento de la *ORDERS03. V3.620* IDOC en el */IDOC/ORDERS/ORDERS03* nodo. Vea [exploración, búsqueda y obtener metadatos para las operaciones de IDOC de SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-idoc-operations-in-sap.md) para obtener instrucciones sobre cómo generar el esquema para un IDOC determinado. Al generar el esquema, puede establecer las siguientes propiedades:  
   
--   *GenerateFlatFileCompatibleIDoc* – genera \<appinfo > etiquetas para que el analizador de archivos sin formato de BizTalk puede usarse en escenarios de BizTalk para admitir IDOC de archivo sin formato.  
+-   *GenerateFlatFileCompatibleIDoc* – genera \<appinfo\> etiquetas para que el analizador de archivos sin formato de BizTalk puede usarse en escenarios de BizTalk para admitir IDOC de archivo sin formato.  
   
--   *FlatFileSegmentIndicator* : indica si el esquema IDOC \<appinfo > etiquetas deben contener los nombres de definición de segmento o nombres de tipos de segmento. Esto es aplicable cuando un deseos usado para enviar y recibir un IDOC de archivo sin formato de SAP. Si el *GenerateFlatFileCompatibleIDoc* se establece en false, entonces *FlatFileSegmentIndicator* se omite la propiedad de enlace.  
+-   *FlatFileSegmentIndicator* : indica si el esquema IDOC \<appinfo\> etiquetas deben contener los nombres de definición de segmento o nombres de tipos de segmento. Esto es aplicable cuando un deseos usado para enviar y recibir un IDOC de archivo sin formato de SAP. Si el *GenerateFlatFileCompatibleIDoc* se establece en false, entonces *FlatFileSegmentIndicator* se omite la propiedad de enlace.  
   
 > [!IMPORTANT]
 >  Dado que va a generar el esquema para una llamada entrante de IDOC, asegúrese de seleccionar **servicio (operación entrante)** desde el **seleccione el tipo de contrato** lista desplegable situada en la [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].  

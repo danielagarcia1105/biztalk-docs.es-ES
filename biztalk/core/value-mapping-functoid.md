@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b2bb8e89ed790fe9916efe69685ad667d9fe9403
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 038d59827a62c9f4e83879ec7cf2e0b47fd738f4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="value-mapping-functoid"></a>Asignación de valores (functoid)
 El **Value Mapping** functoid devuelve el valor de su segundo parámetro si el primer parámetro es true. Una utilización común del functoid es cambiar los atributos de un campo a los atributos de un registro. Para eliminar la estructura de una parte de un mensaje de entrada convirtiendo varios registros en un único registro, use el [Functoid de asignación de valores (sin formato)](../core/value-mapping-flattening-functoid.md).  
@@ -62,7 +62,7 @@ Asignación de functoid de asignación de valores
  Para suprimir etiquetas vacías, utilice el functoid de asignación de valores para controlar si una etiqueta se crea o no. Si el valor se evalúa como, se creará el campo de destino; de lo contrario, el campo de destino no se creará. En un escenario de bucle, utilice un functoid lógico y conéctelo al registro o al campo de destino. Si la condición se evalúa como false, la etiqueta no se creará. Para obtener un ejemplo, vea [bucle condicional](../core/conditional-looping.md).  
   
 ## <a name="forcing-the-creation-of-empty-tags"></a>Forzar la creación de etiquetas vacías  
- Para forzar la creación de etiquetas vacías, puede agregar un valor en la propiedad de valor del campo de destino o vincular una **Concatenate** functoid para el campo de destino.  En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es posible forzar la generación de etiquetas vacías seleccionando el "\<vacía >" valor de la propiedad Value del campo de destino. En este caso, el campo se creará con el valor  vacío.  
+ Para forzar la creación de etiquetas vacías, puede agregar un valor en la propiedad de valor del campo de destino o vincular una **Concatenate** functoid para el campo de destino.  En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es posible forzar la generación de etiquetas vacías seleccionando el "\<vacía\>" valor de la propiedad Value del campo de destino. En este caso, el campo se creará con el valor  vacío.  
   
 ## <a name="see-also"></a>Vea también  
  [Valor de asignación de Functoid (sin formato)](../core/value-mapping-flattening-functoid.md)   

@@ -18,11 +18,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68fe19b4616e23066603995b6403654fa3960789
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fe2002bd92342a953406a21e076b801d3e90b938
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="scripting-using-inline-c-jscript-net-and-visual-basic-net"></a>Secuencias de comandos que utilizan C#, JScript .NET y Visual Basic .NET en línea
 Las secuencias de comandos en línea son convenientes para el código personalizado que es poco probable que utilice en otra parte de la aplicación.  
@@ -40,7 +40,7 @@ Las secuencias de comandos en línea son convenientes para el código personaliz
 |System.Xml.Xpath|Las clases XPath.|  
 |Microsoft.VisualBasic|Las clases de secuencias de comandos de Visual Basic.|  
   
- Para obtener más información acerca de los espacios de nombres y tipos de datos, busque "uso de secuencias de comandos de hojas de estilo XSLT \<msxsl: script >" y "System.Xml.Xsl.XslCompiledTransform" en la colección de .NET Framework.  
+ Para obtener más información acerca de los espacios de nombres y tipos de datos, busque "uso de secuencias de comandos de hojas de estilo XSLT \<msxsl: script\>" y "System.Xml.Xsl.XslCompiledTransform" en la colección de .NET Framework.  
   
 > [!CAUTION]
 >  Evite utilizar la misma firma de método más de una vez. Cuando varios functoids de secuencia de comandos tienen la misma firma de método, BizTalk selecciona la primera implementación y descarta las otras.  

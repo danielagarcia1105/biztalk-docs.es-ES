@@ -12,11 +12,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a8d82a69b342c278e7cb17de8759d4986a71cd6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fab8d26f7f4da3c60587bd7d2863941080c69953
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter"></a>Examinar, buscar y obtener los metadatos de las operaciones de SQL con el adaptador de SQL
 Esta sección proporciona información sobre cómo usar el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]y el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. Mediante el uso de estos [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] componentes, puede:  
@@ -215,7 +215,7 @@ Esta sección proporciona información sobre cómo usar el [!INCLUDE[consumeadap
 6.  Haga clic en **Aceptar**. El archivo de esquema se guarda con una extensión .xsd en la misma ubicación que el proyecto de BizTalk.  
   
     > [!NOTE]
-    >  Si usas el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] para generar metadatos para los artefactos de SQL Server, de forma predeterminada, los archivos se crean con una convención de nomenclatura específica. El WSDL generado contiene un **fileNameHint** etiqueta de anotación que incluye el nombre que se debe asignar al archivo XSD. Por ejemplo, una sugerencia de nombre de archivo para un archivo de esquema para la operación de tabla sigue la convención de TableOperation. \<esquema >. \<NombreDeTabla >. Si desea personalizar el nombre del archivo XSD generado, puede proporcionar un prefijo en el **prefijo de nombre de archivo** cuadro. Por último, el nombre de un archivo XSD se llegó al como prefijo de nombre de archivo + fileNameHint + entero único (si es necesario, para asegurarse de que el nombre de archivo es único).  
+    >  Si usas el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] para generar metadatos para los artefactos de SQL Server, de forma predeterminada, los archivos se crean con una convención de nomenclatura específica. El WSDL generado contiene un **fileNameHint** etiqueta de anotación que incluye el nombre que se debe asignar al archivo XSD. Por ejemplo, una sugerencia de nombre de archivo para un archivo de esquema para la operación de tabla sigue la convención de TableOperation. \<esquema\>.\< TableName\>. Si desea personalizar el nombre del archivo XSD generado, puede proporcionar un prefijo en el **prefijo de nombre de archivo** cuadro. Por último, el nombre de un archivo XSD se llegó al como prefijo de nombre de archivo + fileNameHint + entero único (si es necesario, para asegurarse de que el nombre de archivo es único).  
   
     > [!NOTE]
     >  El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también crea un archivo de enlace (un archivo XML) que contiene las propiedades de enlace especificado al generar el esquema para una operación y la acción SOAP para invocar la operación. Puede importar este archivo de enlace en la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] set de la consola de administración para crear un puerto personalizado de WCF o BizTalk SQL puerto del adaptador con el URI de conexión, propiedades de enlace y la acción SOAP. Para obtener más información, consulte [configurar un enlace de puerto físico mediante un archivo de enlace de puerto para utilizar el adaptador SQL](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).

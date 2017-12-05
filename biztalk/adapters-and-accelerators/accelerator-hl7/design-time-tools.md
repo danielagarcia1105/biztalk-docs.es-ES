@@ -22,14 +22,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e22272fd04dd3bf2461e4b9fef104657cf007fbb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1253de9aa3bc7e45324402d5de6d4705ecf8f92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="design-time-tools"></a>Herramientas de tiempo de diseño
-Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) tiene el uso de un conjunto de herramientas en tiempo de diseño integrado en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]. Estas herramientas están integradas en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) tiene el uso de un conjunto de herramientas en tiempo de diseño integrada en BizTalk Server. Estas herramientas están integradas en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  
   
 ## <a name="biztalk-editor"></a>Editor de BizTalk  
  Utilice el Editor de BizTalk para administrar esquemas XSD HL7. Puede usar las siguientes plantillas de esquemas admitidas (como archivos XSD) para el desarrollo de soluciones:  
@@ -65,7 +65,7 @@ Los desarrolladores que trabajan en [!INCLUDE[btsCoName](../../includes/btsconam
 ## <a name="visual-studio-starter-project"></a>Proyecto de inicio de Visual Studio  
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]incluye el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] proyecto de inicio, que puede usar para la implementación de soluciones de HL7 de inicio rápido. El proyecto de inicio incluye los siguientes proyectos:  
   
--   **Vacía**[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]**proyecto**.     No incluye todos los esquemas.  
+-   **Vacía**[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]**proyecto**. No incluye todos los esquemas.  
   
 -   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]**V2XCommon proyecto**. Incluye los esquemas de encabezado y confirmación.  
   

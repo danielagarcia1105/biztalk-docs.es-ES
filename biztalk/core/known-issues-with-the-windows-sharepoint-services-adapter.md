@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09369108d5e122bb8243ac94d2748db7bc1e06f7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4ed4f0961bc80a3fe858caaca1d4aa51644912be
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-with-the-windows-sharepoint-services-adapter"></a>Problemas conocidos del adaptador de Windows SharePoint Services
 Esta sección contiene información que puede servir de ayuda para evitar errores.  
@@ -24,7 +24,7 @@ Esta sección contiene información que puede servir de ayuda para evitar errore
 ## <a name="known-issues"></a>Problemas conocidos  
   
 #### <a name="wss-adapter-fails-to-start-a-workflow-attached-to-a-doc-librarysharepoint-list"></a>El adaptador de WSS no inicia un flujo de trabajo conectado a una lista de biblioteca de documentos/SharePoint  
- Al usar el adaptador de WSS desde BizTalk para enviar un documento o un elemento de lista a una lista de biblioteca de documentos/Sharepoint, tampoco inicia el flujo de trabajo vinculado con dicha lista. La solución consiste en copiar el código XML siguiente en el archivo \Program Files\Microsoft BizTalk Server 20xx\Business Activity Services\BTSharePointV3AdapterWS\web.config.  El siguiente XML se debe insertar código dentro de la \<configuración > elemento.  
+ Al usar el adaptador de WSS desde BizTalk para enviar un documento o un elemento de lista a una lista de biblioteca de documentos/Sharepoint, tampoco inicia el flujo de trabajo vinculado con dicha lista. La solución consiste en copiar el código XML siguiente en el archivo \Program Files\Microsoft BizTalk Server 20xx\Business Activity Services\BTSharePointV3AdapterWS\web.config.  El siguiente XML se debe insertar código dentro de la \<configuración\> elemento.  
   
 ```  
 <configSections>  

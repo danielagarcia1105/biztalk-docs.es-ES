@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63a6a79a12949148f77363d7e4cffd2b2c321d00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e14fd3f433609da7748197a8b67112d815da153
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-validate-a-message-using-an-esb-on-ramp"></a>Cómo: validar un mensaje mediante un ESB rampa
 ## <a name="goal"></a>Objetivo  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  En el Bloc de notas, abra Invalid.xml.  
   
-4.  Cambio  **\<ns0:requestType > 10\</ns0:requestType > a \<ns0:requestType > diez\</ns0:requestType >**.  
+4.  Cambio  **\<ns0:requestType\>10\</ns0:requestType\> a \<ns0:requestType\>diez\</ns0:requestType\>** .  
   
 5.  Guardar Invalid.xml como UTF-8 y, a continuación, cierre el Bloc de notas.  
   
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>Para crear un modelo DSL itinerario de ESB  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en **ItineraryLibrary**, seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -145,9 +145,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-and-configure-an-esb-on-ramp"></a>Para crear y configurar un ESB rampa  
   
-1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione  **[!INCLUDE[prague](../includes/prague-md.md)]** y, a continuación, haga clic en **deadministracióndeBizTalkServer**.  
+1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione **BizTalk Server**y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda **Microsoft.Practices.ESB**.  
+2.  En la consola de administración de BizTalk Server, expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda **Microsoft.Practices.ESB**.  
   
 3.  Haga clic en **ubicaciones de recepción**, seleccione **New**y, a continuación, haga clic en **ubicación de recepción unidireccional**.  
   
@@ -188,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  Haga clic en **Aceptar** para cerrar el **propiedades de la ubicación de recepción** cuadro de diálogo.  
   
-3.  En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **habilitar**.  
+3.  En la consola de administración de BizTalk Server, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **habilitar**.  
   
 #### <a name="to-test-the-message-validation-and-itinerary-selection"></a>Para probar la selección de itinerario y la validación de mensaje  
   
@@ -216,20 +216,20 @@ ms.lasthandoff: 09/20/2017
   
 9. En el Visor de eventos, expanda **registros de Windows**y, a continuación, haga clic en **aplicación**.  
   
-10. Busque un evento reciente donde la **origen** es  **[!INCLUDE[prague](../includes/prague-md.md)]** y el **Id. de evento** es **5719**.  
+10. Busque un evento reciente donde la **origen** es **BizTalk Server**y el **Id. de evento** es **5719**.  
   
     > [!NOTE]
     >  La presentación y el error del mensaje no válido generó una entrada de excepción en el registro de eventos de aplicación.  
   
-11. En el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **deshabilitar**.  
+11. En la consola de administración de BizTalk Server, haga clic en el **OnRamp.Itinerary.HowTo** ubicación de recepción y, a continuación, haga clic en **deshabilitar**.  
   
 12. Después de la **OnRamp.Itinerary.HowTo** recibir la ubicación está deshabilitado, haga clic en él y, a continuación, haga clic en **eliminar**. En el **Confirmar eliminación de ubicación de recepción** cuadro de diálogo, haga clic en **Sí**.  
   
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [Cómo: Seleccionar un itinerario mediante una directiva de reglas de negocio](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   
--   [Instalar y ejecutar el ejemplo de resolución dinámica](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)
+-   [Instalación y ejecución del ejemplo de resolución dinámica](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)

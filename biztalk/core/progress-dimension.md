@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c6044cd77532c012ddd534bd2b70be8eaaffb09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2e4764071beb2aa94aac738e8f1cec2377dd1d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="progress-dimension"></a>Dimensión de progreso
 Use una dimensión de progreso para agrupar las actividades de BAM por hitos conseguidos. A continuación se incluye ejemplo ilustrativo.  
@@ -69,7 +69,7 @@ Use una dimensión de progreso para agrupar las actividades de BAM por hitos con
   
 6.  En el **hito de progreso** cuadro de la **nuevo hito de progreso** diálogo cuadro, escriba el nombre del hito de progreso en el nivel superior de la jerarquía que ha diseñado. En este ejemplo, escribiría `Received`.  
   
-7.  Seleccione el hito económico correspondiente al hito de progreso y, a continuación, haga clic en **Aceptar**. En este ejemplo, seleccionaría **recibidos (\<nombre de actividad >)**.  
+7.  Seleccione el hito económico correspondiente al hito de progreso y, a continuación, haga clic en **Aceptar**. En este ejemplo, seleccionaría **recibidos (\<nombre de la actividad\>)**.  
   
 8.  En el **nueva dimensión** cuadro de diálogo, haga clic en **nueva fase**.  
   
@@ -79,7 +79,7 @@ Use una dimensión de progreso para agrupar las actividades de BAM por hitos con
   
 11. En el **hito de progreso** cuadro de la **nuevo hito de progreso** diálogo cuadro, escriba el nombre de uno de los hitos de primer nivel. Por ejemplo, estamos usando, debería escribir `Approved`.  
   
-12. En el **hito económico** cuadro de lista desplegable, seleccione el hito económico correspondiente al hito de progreso y, a continuación, haga clic en **Aceptar**. En este ejemplo, seleccionaría **aprobado (\<nombre de actividad >)**.  
+12. En el **hito económico** cuadro de lista desplegable, seleccione el hito económico correspondiente al hito de progreso y, a continuación, haga clic en **Aceptar**. En este ejemplo, seleccionaría **aprobado (\<nombre de la actividad\>)**.  
   
 13. Repita los tres pasos anteriores para agregar otros hitos de la misma fase de progreso.  
   

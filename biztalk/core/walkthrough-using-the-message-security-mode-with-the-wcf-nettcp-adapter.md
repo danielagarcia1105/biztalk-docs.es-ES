@@ -12,11 +12,11 @@ caps.latest.revision: "47"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68fc5e0a90fdfcaa6c3b6e5f6ae280d320be5647
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 850d0ee715984c7465063addd778828c727e0233
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-using-the-message-security-mode-with-the-wcf-nettcp-adapter"></a>Tutorial: Usar el modo de seguridad de mensajes con el adaptador WCF-NetTcp
   
@@ -40,11 +40,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo los pasos de este ejemplo Asegúrese de que su entorno instala los siguientes requisitos previos;  
   
--   El equipo que genera los ensamblados y ejecuta el proceso de implementación tanto el equipo que ejecuta el ejemplo requieren Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]y Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   El equipo que genera los ensamblados y ejecuta el proceso de implementación tanto el equipo que ejecuta el ejemplo requieren Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]y Microsoft BizTalk Server.  
   
--   El equipo que se usa para generar los ensamblados y ejecutar el proceso de implementación requiere Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+-   El equipo que se usa para generar los ensamblados y ejecutar el proceso de implementación requiere Microsoft Visual Studio.  
   
--   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Se trata de opciones de instalación durante la instalación de Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Estas son opciones para instalar durante la instalación de Microsoft BizTalk Server.  
   
 -   En los equipos que use para realizar las tareas administrativas, debe ejecutar una cuenta de usuario que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar los parámetros de aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta cuenta de usuario también debe ser miembro del grupo de administradores local para la implementación de la aplicación, la administración de las instancias de host y otras tareas que puedan ser necesarias.  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
     3.  En el **solicitud de certificado avanzada** página, escriba `contoso` en el **nombre** cuadro de texto, seleccione **certificado de autenticación de cliente** desde el  **Tipo de certificado necesario** lista desplegable y, a continuación, haga clic en **enviar**.  
   
     > [!NOTE]
-    >  El certificado de autenticación de cliente se utiliza si está ejecutando [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en el equipo que no sea el controlador de dominio. Esto se configurará en el cuadro de diálogo de propiedades del adaptador.  
+    >  El certificado de autenticación de cliente se utiliza si se ejecuta BizTalk Server en el equipo que no sea el controlador de dominio. Esto se configurará en el cuadro de diálogo de propiedades del adaptador.  
   
 4.  Emita los certificados utilizando la consola de administración de la entidad emisora de certificados como se indica a continuación:  
   

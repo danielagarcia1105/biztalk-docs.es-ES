@@ -17,24 +17,24 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 484cd78dfd83cb30c5da242c30bf643101797013
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d497d8b312559e6155da86ae952b644a0f6ac0fc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-submitting-a-sample-flat-file"></a>Lección 1: Enviar un archivo plano de ejemplo
 Enviar un archivo plano de ejemplo para probar la solución.  
   
 ### <a name="to-submit-a-sample-mt103-flat-file"></a>Para enviar un archivo plano de ejemplo MT103  
   
-1.  Copie el archivo MT103_Sample.txt de \< *unidad*>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial a \< *unidad*>: \Labs\Inbound\FlatFile carpeta.  
+1.  Copie el archivo MT103_Sample.txt de \< *unidad*\>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial a \< *unidad* \>: Carpeta \Labs\Inbound\FlatFile.  
   
 2.  Compruebe que, tras unos instantes, el archivo MT103_Sample.txt desaparece de la carpeta.  
   
-3.  Vaya a la \< *unidad*>: \Labs\Outbound carpeta. Compruebe que la carpeta contiene un archivo denominado {GUID} .xml.  
+3.  Vaya a la \< *unidad*\>: \Labs\Outbound carpeta. Compruebe que la carpeta contiene un archivo denominado {GUID} .xml.  
   
-4.  Haga clic en el archivo {GUID} .xml, seleccione **abrir con**y, a continuación, haga clic en **el Bloc de notas**. Hacer lo mismo para el archivo denominado MT103_Sample.txt de \< *unidad*>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial. Compruebe que el contenido dentro de las etiquetas del archivo XML es el mismo que el contenido del archivo plano.  
+4.  Haga clic en el archivo {GUID} .xml, seleccione **abrir con**y, a continuación, haga clic en **el Bloc de notas**. Hacer lo mismo para el archivo denominado MT103_Sample.txt de \< *unidad*\>: \Program Acelerador de BizTalk para SWIFT\SDK\Tutorial. Compruebe que el contenido dentro de las etiquetas del archivo XML es el mismo que el contenido del archivo plano.  
   
     > [!NOTE]
     >  No elimine el archivo resultante; se usará en una lección posterior.  

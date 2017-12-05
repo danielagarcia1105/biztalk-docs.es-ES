@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d3bf6d53ec95ebfc57cff646ce5658fc6b1f4a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8c50db43b14899439877fde8ce0ee476feb5095
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="hipaa-schema-trigger-field-annotations"></a>Anotaciones del campo desencadenador del esquema HIPAA
-Los segmentos EDI contienen con frecuencia valores de calificador que modifican el significado del segmento. Por ejemplo, el segmento N1 puede contener un elemento calificador “BT” para indicar “bill-to name” o puede contener un elemento calificador “ST” para indicar “ship-to name”. Normalmente, se deja a la lógica de negocio determinar cómo interpretar estos campos y el desensamblador resuelve todas las instancias del segmento N1 en el mismo nombre de registro XML. Sin embargo, los esquemas HIPAA suministrados con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] contienen anotaciones que permiten que el desensamblador EDI cree registros XML únicos según la presencia de un elemento de calificación.  
+Los segmentos EDI contienen con frecuencia valores de calificador que modifican el significado del segmento. Por ejemplo, el segmento N1 puede contener un elemento calificador “BT” para indicar “bill-to name” o puede contener un elemento calificador “ST” para indicar “ship-to name”. Normalmente, se deja a la lógica de negocios para determinar cómo interpretar estos campos y el Desensamblador resuelve todas las instancias del segmento N1 en el mismo nombre de registro XML; Sin embargo, los esquemas HIPAA incluidos con BizTalk Server contienen anotaciones que permiten el Desensamblador EDI cree registros XML únicos basados en la presencia de un elemento de calificación.  
   
  **Implementación del campo desencadenador**  
   
@@ -59,7 +59,7 @@ N4*N401__PayeeCityName*N4*N403__PayeePost**N4*N406~
   
  **Segmentos predeterminados y campos desencadenadores**  
   
- En la tabla siguiente se incluye contiene información sobre los segmentos predeterminados y los campos que se en los documentos HIPAA suministrados como parte de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+ En la tabla siguiente contiene información sobre los segmentos predeterminados y campos de desencadenador que se usan en documentos HIPAA suministrados como parte de BizTalk Server:  
   
 > [!NOTE]
 >  Los valores desencadenadores individuales que se usan con los campos desencadenadores pueden variar entre esquemas.  

@@ -18,14 +18,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af660403bb45b25a3ceb31163ecc8a442f0ce7de
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ad5f8d9c9436f9d32f6adbb30de9ac0efc9948f8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="administration-and-run-time-tools"></a>Herramientas de administración y tiempo de ejecución
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporcionan un conjunto de herramientas para realizar tareas administrativas y de tiempo de ejecución, como implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporcionan un conjunto de herramientas para realizar tareas administrativas y de tiempo de ejecución, como implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  
   
 ## <a name="biztalk-explorer"></a>Explorador de BizTalk  
  Utilice el Explorador de BizTalk para configurar y administrar proyectos, entidades y orquestaciones. El Explorador de BizTalk muestra el contenido de la base de datos de configuración, que muestra elementos como ensamblados, puertos y entidades.  

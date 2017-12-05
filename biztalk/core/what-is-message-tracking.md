@@ -23,11 +23,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c898c2a30d883da4507957c62a0acb75e56a71b3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d76a4bd4133906a7949fac9e63816168506f412
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-is-message-tracking"></a>¿Qué es el seguimiento de mensajes?
 Un mensaje es una instancia electrónica de datos, que se intercambia normalmente entre dos aplicaciones o procesos empresariales que se estén ejecutando. Una instancia de mensaje está compuesta por un cuerpo de mensaje, propiedades de mensaje y metadatos.  
@@ -38,7 +38,7 @@ Un mensaje es una instancia electrónica de datos, que se intercambia normalment
  El seguimiento del cuerpo del mensaje proporciona un registro de mensajes enviados y recibidos. Para guardar los mensajes después de que se haya completado el procesamiento de instancias de servicio, debe tener activado el seguimiento del cuerpo de los mensajes. Después de haber establecido las opciones de seguimiento, puede tardar unos minutos en ver los mensajes.  
   
 > [!IMPORTANT]
->  El servicio Agente SQL Server debe ejecutarse en todas las bases de datos de cuadro de mensajes. El TrackedMessages_Copy_\<Nombrecuadrodemensajes > trabajo pone a disposición para consultas de seguimiento y WMI cuerpos de mensaje. Para copiar eficazmente los cuerpos de mensaje, permanecen en la base de datos de cuadro de mensajes y se copian periódicamente a la base de datos de seguimiento de BizTalk (BizTalkDTADb) el TrackedMessages_Copy_\<Nombrecuadrodemensajes > trabajos. Asimismo, la ejecución del servicio Agente SQL Server constituye un requisito previo para que el proceso de archivo y purga funcione correctamente.  
+>  El servicio Agente SQL Server debe ejecutarse en todas las bases de datos de cuadro de mensajes. El TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo pone a disposición para consultas de seguimiento y WMI cuerpos de mensaje. Para copiar eficazmente los cuerpos de mensaje, permanecen en la base de datos de cuadro de mensajes y se copian periódicamente a la base de datos de seguimiento de BizTalk (BizTalkDTADb) el TrackedMessages_Copy_\<Nombrecuadrodemensajes\> trabajo. Asimismo, la ejecución del servicio Agente SQL Server constituye un requisito previo para que el proceso de archivo y purga funcione correctamente.  
   
  Puede utilizar mensajes de los que se ha realizado un seguimiento para proporcionar confirmación de recepción, habilitar la solución de problemas y permitir la extracción de datos de las transacciones históricas. Es posible realizar un seguimiento de los cuerpos de mensaje en las orquestaciones, canalizaciones y puertos de entrada y salida. Puede recuperar estos mensajes mediante la consola de administración de BizTalk Server o mediante las interfaces de programación de aplicaciones (API) de Instrumental de administración de Windows (WMI) o del modelo de objetos (OM) de Operaciones (recomendado).  
   

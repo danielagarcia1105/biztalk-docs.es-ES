@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3651d91f9c4b28fae30182ed6ddd18cde1bb3f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b91a4b65c6e9a9b293e967385b8f0ac4eece1aa4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-a-dedicated-tracking-host"></a>Configurar un Host de seguimiento dedicado
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]está optimizado para el rendimiento, por lo que los motores de mensajes y orquestación principal no mueve realmente eventos o mensajes directamente a las bases de datos de seguimiento de BizTalk (DTA) o supervisión de la actividad económica (BAM), ya que esto podría desviar estos motores desde su servidor principal trabajo de ejecución de procesos empresariales. En su lugar, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deja los eventos y mensajes en la base de datos de cuadro de mensajes y las marca como que requieren un cambio a las bases de datos de seguimiento de BizTalk o BAM. Un proceso en segundo plano (el host de seguimiento), a continuación, mueve los eventos para las bases de datos de seguimiento de BizTalk y BAM, mientras un trabajo de agente SQL Server copias mensajes controlados en la base de datos de seguimiento de BizTalk.  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
  Un seguimiento de la instancia de host mueve datos de seguimiento para bases de datos de cuadro de mensajes específicas, pero nunca habrá datos móviles para una base de datos de cuadro de mensajes específico de la instancia de host de más de un seguimiento. Por ejemplo, si tiene tres bases de datos de cuadro de mensaje y sólo dos instancias de host de seguimiento, a continuación, una de las instancias de host debe mover los datos de dos de las bases de datos de cuadro de mensajes. Agrega una tercera instancia de host de seguimiento distribuye el seguimiento hospedar trabajo a otro equipo que ejecute [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En este escenario, agregar un cuarto de seguimiento de la instancia de host no se distribuiría cualquier host de seguimiento más trabajo, pero proporcionaría un adicional de seguimiento de la instancia de host de tolerancia a errores.  
   
- Para obtener más información sobre el servicio de Bus de sucesos SAE, vea los temas siguientes en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda:  
+ Para obtener más información sobre el servicio de Bus de sucesos SAE, vea los temas siguientes en la Ayuda de BizTalk Server:  
   
 -   [Administrar el servicio de Bus de eventos BAM](http://go.microsoft.com/fwlink/?LinkId=154194) (http://go.microsoft.com/fwlink/?LinkId=154194)  
   
@@ -71,4 +71,4 @@ ms.lasthandoff: 09/20/2017
      Si la desactiva, el host actual solo tendrá privilegios de escritura para las tablas de seguimiento en la base de datos de cuadro de mensajes y no tendrá acceso a la base de datos de seguimiento.  
   
 ## <a name="see-also"></a>Vea también  
- [Lista de comprobación: Configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+ [Lista de comprobación: configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5aca6e7be3c4fbeff2484f1d59454b09a4777cff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca19a58410014b9ea7c0c49df7420b439a544581
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>Uso de la característica de pruebas de unidades con canalizaciones
 En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para la canalización al ejemplo de canalización FlatFileReceive. Pruebas unitarias de canalización están similar a la herramienta Pipeline.exe que se documenta aquí: [herramientas de canalización](../core/pipeline-tools.md). Cuando se habilitación la pruebas unitarias en el **implementación** ficha de propiedades del proyecto, la clase de canalización en el proyecto se deriva de **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**.  Esta clase modela parte de la misma funcionalidad expuesta por la herramienta Pipeline.exe.  
@@ -119,7 +119,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 4.  En el directorio TestResults, examine el archivo *.out. Este archivo debe contener el nuevo mensaje procesado por la canalización.  Debe estar ubicado en un directorio similar al siguiente:  
   
-     C:\Program Files\Microsoft BizTalk Server \<versión > \SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
+     C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
      El mensaje procesado debe ser similar al siguiente:  
   
@@ -175,7 +175,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
 |--------------------|-----------------|  
 |Documentos|StringCollection que contiene los mensajes que va a procesar la canalización.|  
 |Partes|StringCollection que contiene las partes para los mensajes.|  
-|Esquemas|Asignación de diccionario que se usa para asignar cada tipo de mensaje a su correspondiente \*archivo de esquema XSD. La clave debe tener el formato **Namespace.Type**. El espacio de nombres y el tipo utilizado deben anotarse desde la ventana Propiedades de la \*archivo .xsd en [!INCLUDE[vs2010](../includes/vs2010-md.md)]. Consulte la captura de pantalla siguiente.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace y tipo expuestos desde la ventana Propiedades de un archivo XSD.**|  
+|Esquemas|Asignación de diccionario que se usa para asignar cada tipo de mensaje a su correspondiente \*archivo de esquema XSD. La clave debe tener el formato **Namespace.Type**. El espacio de nombres y el tipo utilizado deben tener en cuenta en la ventana de propiedades para el \*archivo .xsd en Visual Studio. Consulte la captura de pantalla siguiente.<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **Namespace y tipo expuestos desde la ventana Propiedades de un archivo XSD.**|  
   
 ## <a name="see-also"></a>Vea también  
  [Uso de la característica con esquemas y asignaciones de pruebas de unidades](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   

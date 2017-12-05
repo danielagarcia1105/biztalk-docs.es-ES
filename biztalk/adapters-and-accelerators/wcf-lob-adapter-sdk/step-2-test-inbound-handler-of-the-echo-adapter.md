@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73c2c7c97777df8c0875a1735899d9eb739572cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94e17bcc987949b9ca25ac25db9a1789ebe980eb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-test-inbound-handler-of-the-echo-adapter"></a>Paso 2: Probar el controlador de entrada del adaptador de eco
 ![Paso 2 de 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  
@@ -123,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
      **El servicio está listo.**  
   
-     **Presione \<ENTRAR > para terminar el servicio.**  
+     **Presione \<ENTRAR\> para terminar el servicio.**  
   
      **ruta de acceso = file:///C:/Tutorial/InboundTest/InboundTest.txt, len = 229179**  
   
@@ -137,4 +137,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>Vea también  
  [Tutorial 2: Utilizar el adaptador de eco de .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
- [Tutorial 1: Desarrollar el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+ [Tutorial 1: Desarrollar el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

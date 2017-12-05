@@ -15,11 +15,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7c93f7c07f92c7517dbc84403747da869e0d4ceb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 44a9696f907928f31a740e4d8545567921a82df9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-creating-and-configuring-ports"></a>Paso 7: Crear y configurar puertos
 En este paso, se creará y configurará los puertos que se usan para comunicarse con los procesos empresariales. Cada puerto tiene un tipo, la dirección y la propiedad de enlace. Estas propiedades establecen la dirección y el patrón de comunicación, la ubicación de donde se envía o recibe el mensaje y cómo se produce la comunicación.  
@@ -46,7 +46,7 @@ En este paso, se creará y configurará los puertos que se usan para comunicarse
   
 1.  En la Vista orquestación, expanda **tipos**, expanda **tipos de puerto**, expanda **ContosoSQLReqResponsePortName**, expanda **Operation_1**, y, a continuación, seleccione **solicitar**.  
   
-2.  En la ventana Propiedades, seleccione la **tipo de mensaje** propiedad, expanda **esquemas** y, a continuación, haga clic en  **\<seleccionar del ensamblado mencionado >**.  
+2.  En la ventana Propiedades, seleccione la **tipo de mensaje** propiedad, expanda **esquemas** y, a continuación, haga clic en  **\<seleccionar del ensamblado mencionado\>**  .  
   
 3.  En el cuadro de diálogo Seleccionar tipo de artefacto, haga clic en **ContosoPriceAndAvailability**.  
   
@@ -54,7 +54,7 @@ En este paso, se creará y configurará los puertos que se usan para comunicarse
   
 5.  En la Vista orquestación, en **Operation_1**, seleccione **respuesta** para el **ContosoSQLReqResponsePortName** tipo de puerto.  
   
-6.  En la ventana Propiedades, seleccione la **tipo de mensaje** propiedad, expanda **esquemas** y, a continuación, haga clic en \< **seleccionar del ensamblado mencionado >**.  
+6.  En la ventana Propiedades, seleccione la **tipo de mensaje** propiedad, expanda **esquemas** y, a continuación, haga clic en \< **seleccionar del ensamblado mencionado\>**  .  
   
 7.  En el **Seleccionar tipo de artefacto** cuadro de diálogo, haga clic en **ContosoPriceAndAvailability**.  
   
@@ -77,4 +77,4 @@ En este paso, se creará y configurará los puertos que se usan para comunicarse
 7.  En el **archivo** menú, haga clic en **guardar todo**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 8: Crear e implementar la orquestación de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-8-building-and-deploying-the-contoso-orchestration.md)
+ [Paso 8: Creación e implementación de la orquestación de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-8-building-and-deploying-the-contoso-orchestration.md)

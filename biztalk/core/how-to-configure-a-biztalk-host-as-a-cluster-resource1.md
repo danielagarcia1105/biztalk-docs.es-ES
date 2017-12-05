@@ -27,11 +27,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9704dbdf2bcf3549e23f1875e85a49f0ee051b2f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a18548394980912796daf1100f700fd03e72f294
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-biztalk-host-as-a-cluster-resource"></a>Cómo configurar un host de BizTalk como un recurso de clúster
 Este tema explica los pasos que se deben seguir para configurar un host de BizTalk como un recurso de clúster. Para realizar los pasos de este tema, debe haber configurado al menos dos servidores BizTalk Server en un grupo de BizTalk Server como miembros de un clúster de Windows Server. Para obtener más información acerca de la configuración de un clúster de Windows Server, vea la Ayuda en pantalla de Windows Server.  
@@ -92,7 +92,7 @@ Este tema explica los pasos que se deben seguir para configurar un host de BizTa
   
 #### <a name="to-configure-a-biztalk-host-as-a-cluster-resource"></a>Para configurar un host de BizTalk como recurso de clúster  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<nombreDeServidor >:\<base de datos de administración >]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **Hosts**. La lista de hosts aparecerá en la carpeta.  
+1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<administración base de datos\>]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **Hosts**. La lista de hosts aparecerá en la carpeta.  
   
 2.  Haga clic en el host que desea que en el clúster y, a continuación, seleccione **clúster**.  
   
@@ -106,7 +106,7 @@ Este tema explica los pasos que se deben seguir para configurar un host de BizTa
   
 #### <a name="to-uncluster-a-clustered-biztalk-host"></a>Para desagrupar un host de BizTalk en clúster  
   
-1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<nombreDeServidor >:\<base de datos de administración >]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **Hosts**. La lista de hosts aparecerá en la carpeta.  
+1.  En el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<administración base de datos\>]**, haga clic para expandir **configuración de plataforma**y, a continuación, haga clic para expandir **Hosts**. La lista de hosts aparecerá en la carpeta.  
   
 2.  Haga clic en el host en clúster que desea quitar del clúster y, a continuación, seleccione **desagrupe**.  
   

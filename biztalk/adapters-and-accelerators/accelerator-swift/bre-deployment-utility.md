@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 731f40a75d898369cfc730ba5cb4f25c199e1333
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5868172b566a12ab6299e0eaabe12fa2153bfb97
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bre-deployment-utility"></a>Utilidad de implementación de BRE
 Puede usar la utilidad de implementación del BRE para publicar e implementar los vocabularios del motor de reglas de negocios (BRE) y las directivas necesarias para un esquema SWIFT. Para habilitar la validación de BRE para el tipo de mensaje, es necesario publicar e implementar estas directivas y vocabularios.  
@@ -36,13 +36,13 @@ Puede usar la utilidad de implementación del BRE para publicar e implementar lo
   
 -   Publica e implementa la directiva principal y la directiva de validación asociados a cada esquema de mensaje.  
   
--   Genera un archivo de registro que indica todos los pasos que se tarda. Este archivo es BREDeploymentLog.txt en la \< *unidad*>: \Documents and carpeta Settings\All Users\Application Data.  
+-   Genera un archivo de registro que indica todos los pasos que se tarda. Este archivo es BREDeploymentLog.txt en la \< *unidad*\>: \Documents and carpeta Settings\All Users\Application Data.  
   
     > [!NOTE]
     >  La utilidad de implementación del BRE no implementa la directiva de maestro de BIC y la directiva de validación de BIC. Debe implementarlas mediante el Asistente para implementación de motor de reglas.  
   
     > [!NOTE]
-    >  Si ha instalado [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] en un directorio no predeterminado (que no sea de C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), o está trabajando en un equipo de 64 bits, la utilidad de implementación del BRE no funcionará correctamente hasta que cambie las rutas de acceso en el Archivo BREDeployment.exe.config. Este archivo de configuración se encuentra en la \< *unidad*>: \Program [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools carpeta. Para actualizar la configuración de la utilidad, abra BREDeployment.exe.config en el Bloc de notas y cambiar las carpetas de las directivas de base, esquemas y directorios de vocabulario.  
+    >  Si ha instalado [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] en un directorio no predeterminado (que no sea de C:\Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]), o está trabajando en un equipo de 64 bits, la utilidad de implementación del BRE no funcionará correctamente hasta que cambie las rutas de acceso en el Archivo BREDeployment.exe.config. Este archivo de configuración se encuentra en la \< *unidad*\>: \Program [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools carpeta. Para actualizar la configuración de la utilidad, abra BREDeployment.exe.config en el Bloc de notas y cambiar las carpetas de las directivas de base, esquemas y directorios de vocabulario.  
   
  También puede usar la utilidad de implementación a la inversa de este proceso, anular la implementación y anular la publicación de las directivas y vocabularios. La utilidad ha ambos implementar y anular la implementación de funcionalidad.  
   
@@ -62,7 +62,7 @@ Puede usar la utilidad de implementación del BRE para publicar e implementar lo
     > [!NOTE]
     >  Para anular la implementación de las directivas y vocabularios, haga clic en **anular la implementación**. El proceso de anular la implementación no anular la implementación de los vocabularios A4SWIFT_CodeLists.xml y A4SWIFT_Functions.xml, que pueden ser utilizados por otras directivas implementadas.  
   
-5.  Busque \< *unidad*>: \Documents and Settings\All Users\Application datos para confirmar que la utilidad creado el registro de archivo BREDeploymentLog.txt.  
+5.  Busque \< *unidad*\>: \Documents and Settings\All Users\Application datos para confirmar que la utilidad creado el registro de archivo BREDeploymentLog.txt.  
   
     > [!NOTE]
     >  Puede abrir el archivo de registro mediante un editor de texto para confirmar cada paso de implementación.  

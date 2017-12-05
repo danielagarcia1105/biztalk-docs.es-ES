@@ -15,11 +15,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f5e222567c60596f572412bdcae9aadf6025ee0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 084eae49777b62b190e8e090c0b1045d301d420b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-message-context-properties"></a>Cómo utilizar las propiedades de contexto de mensaje
 Las propiedades del sistema son las que suele utilizar de forma interna el motor de mensajería de BizTalk Server y sus componentes. En general, no se recomienda cambiar los valores que establece el motor para estas propiedades, ya que esto puede afectar a la lógica de ejecución del motor. Sin embargo, hay numerosas propiedades que sí se pueden modificar.  
@@ -55,7 +55,7 @@ MySubject= MyMessage(POP3.Subject);
 |BTS.InterchangeSequenceNumber|Promocionada por el motor de mensajería después de recibir un mensaje del adaptador de recepción y antes de publicarlo en la base de datos de cuadro de mensajes.|xs:int|Indica el número de secuencia del documento en el intercambio. Si el documento no forma parte de un intercambio que se ha desensamblado en documentos individuales, este valor será 1. La propiedad puede leerse en una orquestación, una canalización de envío y del adaptador de envío.|  
 |BTS.IsDynamicSend|Esta propiedad puede definirse en el contexto del mensaje. No se promocionará y sólo se aplicará a las operaciones de envío.|xs:boolean|El motor de mensajería la escribe en el contexto del mensaje con un valor true cuando la operación de envío se efectúa en un puerto de envío dinámico. Si quisiera definir de forma dinámica propiedades para puertos de envío estáticos en las canalizaciones de envío, tendría que definir este valor como true.|  
 |BTS.MessageDestination|Esta propiedad puede establecerla un componente de canalización de desensamblador en la canalización de recepción cuando devuelve un mensaje de GetNext().|xs:string|Se utiliza principalmente para admitir el procesamiento de intercambio recuperable en desensambladores, esta propiedad controla si un mensaje se publica en el cuadro de mensajes o se suspende en la cola de suspensión. Si una canalización detecta un mensaje no válido en un intercambio y desea suspender el mensaje y continuar el procesamiento, puede hacerlo estableciendo MessageDestination = SuspendQueue y devolver el mensaje cuando el motor llame a GetNext() en el desensamblador.<br /><br /> Valores válidos:<br /><br /> -Valor predeterminado. si la propiedad no existe, el mensaje se da por válido y se publica en el cuadro de mensajes.<br />-SuspendQueue. indica al motor de mensajería que suspenda el mensaje. **Nota:** el mensaje suspendido será el mensaje de poscanalización y asignación posterior y no en el mensaje enviado por el adaptador (es decir, el mensaje de conexión).|  
-|BTS.MessageType|Promocionada por los componentes de canalización de desensamblador durante el análisis del mensaje.|xs:string|Especifica el tipo del mensaje. El tipo de mensaje se define como una concatenación del espacio de nombres de esquema de documento y el nodo raíz del documento: http://\<*MyNamespace*>#\<*MyRoot*>.|  
+|BTS.MessageType|Promocionada por los componentes de canalización de desensamblador durante el análisis del mensaje.|xs:string|Especifica el tipo del mensaje. El tipo de mensaje se define como una concatenación del espacio de nombres de esquema de documento y el nodo raíz del documento: http://<*MyNamespace*>#<*MyRoot*>.|  
 |BTS.OutboundTransportLocation|Si se establece esta propiedad en el contexto de mensaje, el motor de mensajería la promociona. Esta propiedad se establece implícitamente en un contexto de mensaje cuando una orquestación envía un mensaje a un puerto de envío. Esta propiedad también se puede establecer explícitamente en una orquestación o en una canalización.|xs:string|Especifica el URI de la ubicación de destino al que se envía el mensaje. El URI puede contener el prefijo del adaptador, como **http://**. El motor de mensajería utiliza el prefijo del adaptador para determinar el tipo de adaptador que se va a utilizar al enviar el mensaje. Si tanto el prefijo del adaptador y el **BTS. OutboundTransportType** propiedad se establece, el tipo de adaptador de **BTS. OutboundTransportType** siempre tiene prioridad sobre el tipo de adaptador determinado desde el prefijo.<br /><br /> Valores válidos:<br /><br /> BizTalk para Message Queue: **DIRECT =**, **privada =**, y **pública =**<br /><br /> ARCHIVO: **file://**<br /><br /> FTP: **FTP: / /**<br /><br /> HTTP: **http://** y **https://**<br /><br /> SMTP: **mailto:**<br /><br /> SOAP: **SOAP: / /**<br /><br /> SQL: **SQL: / /**|  
 |BTS.OutboundTransportType|Si se establece esta propiedad en el contexto de mensaje, el motor de mensajería la promociona. Esta propiedad se establece implícitamente en un contexto cuando una orquestación envía un mensaje a un puerto de envío. Esta propiedad también puede establecerse explícitamente en una orquestación o en una canalización.|xs:string|Especifica el tipo de adaptador utilizado para enviar el mensaje. Los tipos de adaptador disponibles son **archivo**, **FTP**, **HTTP**, **SMTP**, **SOAP**y **SQL**.<br /><br /> Los valores establecidos en esta propiedad, así como los prefijos del adaptador especificados en la dirección, no hacen distinción entre mayúsculas y minúsculas.|  
 |BTS.PropertiesToUpdate|Un adaptador establece esta propiedad cuando tiene que conservar algunos valores de la propiedad en un mensaje con error que se reenvía o suspende.<br /><br /> Esto quiere decir que, cuando el mensaje se reenvía o reanuda, las propiedades especificadas estarán establecidas en el contexto.|xs:string|Contiene una cadena XML con elementos que representan nombres de propiedades, espacios de nombres y valores.|  
@@ -85,29 +85,29 @@ MySubject= MyMessage(POP3.Subject);
   
  Para obtener más información sobre propiedades y esquemas de propiedades asociados a componentes de canalización y adaptadores, vea los temas siguientes:  
   
--   [Propiedades y esquema de propiedades de adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
+-   [Propiedades y esquema de propiedades del adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
   
--   [Propiedades y esquema de propiedades del adaptador FTP](../core/ftp-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de FTP](../core/ftp-adapter-property-schema-and-properties.md)  
   
--   [Propiedades y esquema de propiedades del adaptador HTTP](../core/http-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de HTTP](../core/http-adapter-property-schema-and-properties.md)  
   
--   [Propiedades y esquema de propiedades de adaptador MSMQ](../core/msmq-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de MSMQ](../core/msmq-adapter-property-schema-and-properties.md)  
   
--   [Propiedades y esquema de propiedades de adaptador de SMTP](../core/smtp-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de SMTP](../core/smtp-adapter-property-schema-and-properties.md)  
   
--   [Propiedades y esquema de propiedades del adaptador SOAP](../core/soap-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de SOAP](../core/soap-adapter-property-schema-and-properties.md)  
   
 -   [Propiedades y esquema de BizTalk Framework](../core/biztalk-framework-schema-and-properties.md)  
   
 -   [Propiedades del adaptador de MQSeries](../core/mqseries-adapter-properties.md)  
   
--   [POP3 Propiedades y esquema de propiedades de adaptador](../core/pop3-adapter-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades del adaptador de POP3](../core/pop3-adapter-property-schema-and-properties.md)  
   
--   [Referencia de propiedades de adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-properties-reference.md)  
+-   [Referencia de propiedades del adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-properties-reference.md)  
   
 -   [Propiedades y esquema de propiedades MIME/SMIME](../core/mime-smime-property-schema-and-properties.md)  
   
--   [Propiedades y esquema de propiedad de archivo sin formato y XML](../core/xml-and-flat-file-property-schema-and-properties.md)  
+-   [Propiedades y esquema de propiedades de archivo sin formato y XML](../core/xml-and-flat-file-property-schema-and-properties.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Acerca de las propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)   

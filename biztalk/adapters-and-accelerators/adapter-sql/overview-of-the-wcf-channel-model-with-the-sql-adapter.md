@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc154ed37569238b4a41940df0310ec9066e975f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ad124e7ce9fdf8c3dac6a1ac0ffda122127becb9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sql-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador de SQL
 Para invocar operaciones en el [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  
@@ -44,11 +44,11 @@ Para invocar operaciones en el [!INCLUDE[adaptersql](../../includes/adaptersql-m
   
  Al igual que cualquier enlace de WCF, el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] utiliza un modelo de generador para proporcionar canales al código de la aplicación. Usa un **Microsoft.Adapters.SQLBinding** objeto que se va a crear instancias de:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >** para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>**  para proporcionar **IRequestChannel** canales puede usar para invocar operaciones de solicitud-respuesta en el adaptador.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >** para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>**  para proporcionar **IOutputChannel** canales puede usar para invocar las operaciones unidireccionales en el adaptador.  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel >** para proporcionar **IInputChannel** canales que se puede utilizar para recibir mensajes para operaciones de entrada, como **sondeo** o **notificación**, desde el adaptador.  
+-   **System.ServiceModel.IChannelListener\<IInputChannel\>**  para proporcionar **IInputChannel** canales que se puede utilizar para recibir mensajes para operaciones de entrada, como  **Sondeo** o **notificación**, desde el adaptador.  
   
 ### <a name="creating-messages-for-the-sql-server-database-adapter-in-the-wcf-channel-model"></a>Crear mensajes para el adaptador de base de datos SQL Server en el modelo del canal de WCF  
  En WCF la **System.ServiceModel.Channels.Message** clase proporciona una memoria en representación de un mensaje SOAP. Crear un **mensaje** instancia invocando el método estático **Message.Create** método.  
@@ -82,4 +82,4 @@ Message messageIn = Message.CreateMessage(MessageVersion.Default,
 >  Debe proporcionar una acción de mensaje en su **mensaje** instancia. Esto se hace normalmente cuando la **mensaje** se crea la instancia.  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones con el modelo del canal de WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0654bcf011648bcc40c092cb45e529b89cec1924
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0139e76512eb9ca60089cb3c5f1e71b4f5524690
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="activity-data-storage"></a>Almacenamiento de datos de actividad
 Este tema describe el almacenamiento de datos de actividad, los problemas de rendimiento provocados con el tiempo por el crecimiento de las tablas de actividad y cómo BAM soluciona estos problemas de rendimiento con tablas diferentes de las actividades en ejecución y las completadas. Este tema también describe la ventana en línea para la realización de consultas de datos y la forma en la que puede realizar particiones en BAM para obtener una mejora del rendimiento.  
@@ -37,14 +37,14 @@ Este tema describe el almacenamiento de datos de actividad, los problemas de ren
 |124|8:30 a.m.|Seattle|234|8:45 a.m.|1:20 p.m.|  
 |125|8:35 am|Redmond|87|9:05 a.m.|2:30 p.m.|  
 |126|8:45 a.m.|Seattle|450|9:20 a.m.|3:10 p.m.|  
-|127|8:55 a. m.|Redmond|200|9:30 a.m.|\<NULL >|  
+|127|8:55 a. m.|Redmond|200|9:30 a.m.|\<NULL\>|  
 |128|8:57 a.m.|Seattle|340|9:20 a.m.|3:05 p.m.|  
-|129|9:12 am|Seattle|120|9:45 a.m.|\<NULL >|  
-|130|9:30 a.m.|Redmond|25|10:15 a.m.|\<NULL >|  
-|131|9:45|Seattle|250|10:35 am|\<NULL >|  
-|132|10:00 a.m.|Redmond|100|\<NULL >|\<NULL >|  
-|133|10:15 a.m.|Seattle|230|\<NULL >|\<NULL >|  
-|134|10:25 a. m.|Redmond|45|\<NULL >|\<NULL >|  
+|129|9:12 am|Seattle|120|9:45 a.m.|\<NULL\>|  
+|130|9:30 a.m.|Redmond|25|10:15 a.m.|\<NULL\>|  
+|131|9:45|Seattle|250|10:35 am|\<NULL\>|  
+|132|10:00 a.m.|Redmond|100|\<NULL\>|\<NULL\>|  
+|133|10:15 a.m.|Seattle|230|\<NULL\>|\<NULL\>|  
+|134|10:25 a. m.|Redmond|45|\<NULL\>|\<NULL\>|  
   
  En esta tabla, cuando BAM recibe un pedido nuevo, se inserta una fila nueva y algunos conjuntos de algunas columnas con valores que no son nulos (RecvTime, City, Quantity, etc.). Más adelante, cuando apruebe y envíe este pedido, BAM establece el ShipTime para valores que no son nulos Finalmente, cuando recibe y confirma el envío, BAM establece DeliveryTime para valores que no son nulos.  
   
@@ -88,11 +88,11 @@ UNION ALL
   
  Tenga en cuenta lo siguiente sobre la creación de particiones de BAM:  
   
--   El nombre de la vista con particiones es **bam_\<ActivityName > _AllInstances**. Esta vista no es para consultas directas, pero puede ser útil para solucionar problemas de la instrumentación de BAM. Debería consultar los datos de vistas determinadas para cada categoría de usuarios empresariales que crea en la parte superior de esta vista. Para obtener más información, consulte [consultar datos de instancia](../core/querying-instance-data.md).  
+-   El nombre de la vista con particiones es **bam_\<ActivityName\>_AllInstances**. Esta vista no es para consultas directas, pero puede ser útil para solucionar problemas de la instrumentación de BAM. Debería consultar los datos de vistas determinadas para cada categoría de usuarios empresariales que crea en la parte superior de esta vista. Para obtener más información, consulte [consultar datos de instancia](../core/querying-instance-data.md).  
   
 -   Establecer la ventana en línea mediante la modificación de los valores de **OnlineWindowTimeUnit** y **OnlineWindowLength** en el registro para la actividad actual en la tabla **bam_Metadata_Activities** en la base de datos de importación principal.  
   
--   El paquete DTS, **BAM_DM_\<ActivityName >**, lleva a cabo la creación de particiones y el archivo y la purga. Cada vez que se ejecuta este paquete, trunca otra partición y archiva y quita todas las particiones que están fuera de la ventana en línea.  
+-   El paquete DTS, **BAM_DM_\<ActivityName\>**, lleva a cabo la creación de particiones y el archivo y la purga. Cada vez que se ejecuta este paquete, trunca otra partición y archiva y quita todas las particiones que están fuera de la ventana en línea.  
   
 -   Si no está configurada la base de datos de archivo, BAM quita la actividad antigua sin archivar.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 74289ae59ef96c579b3c132fd76f1d0e8e77cf13
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d98a3a5e497a4476de897c8008f3a9976812209a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="visualstudiohostrestart-application-deployment-sample"></a>VisualStudioHostRestart (ejemplo de implementación de aplicaciones)
 En este tema se explica como utilizar la secuencia de comandos de ejemplo VisualStudioHostRestart para reiniciar una instancia de host que se ejecuta en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un equipo local. Puede utilizar esta secuencia de comandos a la hora de volver a implementar ensamblados en Visual Studio, de manera que el tiempo de ejecución de BizTalk Server adopta los cambios de forma inmediata. Como alternativa, puede usar la opción para reiniciar instancias de host que puede establecer en las propiedades de implementación del proyecto. Para obtener más información, consulte [cómo establecer propiedades de implementación en Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md).  
@@ -29,7 +29,7 @@ En este tema se explica como utilizar la secuencia de comandos de ejemplo Visual
 2.  Iniciar todas las instancias de host en curso en el equipo local.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- El ejemplo se encuentra en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] carpeta de instalación, como se indica a continuación:  *\<ruta de ejemplos >*\Application Deployment\VisualStudioHostRestart.  
+ El ejemplo se encuentra en la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] carpeta de instalación, como se indica a continuación:  *\<ruta de ejemplos\>*\Application Deployment\VisualStudioHostRestart.  
   
  En el ejemplo se incluye el archivo siguiente:  
   
@@ -45,4 +45,4 @@ En este tema se explica como utilizar la secuencia de comandos de ejemplo Visual
 ## <a name="see-also"></a>Vea también  
  [Implementación de aplicaciones (carpeta de ejemplos de BizTalk Server)](../core/application-deployment-biztalk-server-samples-folder.md)   
  [Implementar ensamblados de BizTalk desde Visual Studio en una aplicación de BizTalk](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)   
- [Implementar aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)
+ [Implementación de aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)

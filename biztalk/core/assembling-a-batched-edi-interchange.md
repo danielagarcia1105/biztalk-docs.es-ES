@@ -12,11 +12,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43d7a54305443d35aba5b363983b17157780fe4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c4274362e5ec8441e203d0b2b97f27e95235fd9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="assembling-a-batched-edi-interchange"></a>Ensamblar un intercambio EDI por lotes
 Para ensamblar elementos por lotes de conjunto de transacción individual en un intercambio EDI, las funcionalidades EDI y AS2 de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] realizan lo siguiente:  
@@ -60,7 +60,7 @@ Para ensamblar elementos por lotes de conjunto de transacción individual en un 
   
 8.  Una vez que la orquestación por lotes finaliza el procesamiento por lotes de un intercambio, promociona las siguientes propiedades en ese intercambio: EDI.DestinationPartyName = %PartyName%, EDI.BatchEncodingType = X12 o EDIFACT, y EDI.ToBeBatched = False.  
   
-9. Un puerto de envío recoge los conjuntos de transacciones por lotes en función de EDI. DestinationPartyName = \<PartyName >, EDI. BatchEncodingType = EDIFACT o X12 y EDI. ToBeBatched = False.  
+9. Un puerto de envío recoge los conjuntos de transacciones por lotes en función de EDI. DestinationPartyName = \<PartyName\>, EDI. BatchEncodingType = EDIFACT o X12 y EDI. ToBeBatched = False.  
   
 ## <a name="batching-orchestration-control-messages"></a>Mensajes de control de orquestaciones por lotes  
  La orquestación por lotes se activa, finaliza o reemplaza mediante los siguientes mensajes de control:  
@@ -206,7 +206,7 @@ Para ensamblar elementos por lotes de conjunto de transacción individual en un 
   
 -   `EDI.DestinationPartyId` existe  
   
- Si la orquestación recibe un mensaje, usará el nombre de la entidad y el tipo de codificación para intentar buscar una configuración de lote coincidente para el mensaje.  El `EDI.DestinationPartyID` propiedad se utiliza para determinar el nombre de la entidad y, a continuación, la orquestación busca un nombre de lote que coincida con \<PartyName > +\<EncodingType > + Default.  Por ejemplo, si el nombre de la entidad es Contoso, y el valor de `EDI.EncodingType` es X12, la orquestación buscará un lote con el nombre ContosoX12Default.  
+ Si la orquestación recibe un mensaje, usará el nombre de la entidad y el tipo de codificación para intentar buscar una configuración de lote coincidente para el mensaje.  El `EDI.DestinationPartyID` propiedad se utiliza para determinar el nombre de la entidad y, a continuación, la orquestación busca un nombre de lote que coincida con \<PartyName\>+\<EncodingType\>+ Default.  Por ejemplo, si el nombre de la entidad es Contoso, y el valor de `EDI.EncodingType` es X12, la orquestación buscará un lote con el nombre ContosoX12Default.  
   
  Si se encuentra una configuración de lote coincidente, el mensaje se coloca de nuevo en el cuadro de mensajes, con las siguientes propiedades:  
   

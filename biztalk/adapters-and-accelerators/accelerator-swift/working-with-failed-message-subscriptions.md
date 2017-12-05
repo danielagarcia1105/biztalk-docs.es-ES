@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 17a29c6e00ee56c6869b9d9326d045a2ad8fb5fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6540259fd6983fd418e57ff700de3f1b550016ec
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="working-with-failed-message-subscriptions"></a>Trabajar con suscripciones de mensajes con errores
 Cuando el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] procesos Desensamblador (analiza y valida) un mensaje, promociona propiedades para ese mensaje. Estas propiedades promocionadas proporcionan información sobre la corrección y validez del mensaje, así como información relacionada con el lote si A4SWIFT recibe el mensaje como parte de un lote de entrada. Para obtener una lista completa de estas propiedades, vea [A4SWIFT_ * las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).  
@@ -55,8 +55,8 @@ Cuando el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIF
 >  Si se superponen las suscripciones, A4SWIFT cumplirán todas las suscripciones. Es decir, si más de un servicio (puerto de envío u orquestación) tiene un mensaje determinado que cumple las expresiones de filtro, todos los servicios de este tipo recibe el mismo mensaje. Por ejemplo, si un puerto de envío se suscribe a todos los mensajes error y una orquestación se suscribe a solo los mensajes con errores de análisis, las suscripciones se atenderá cuando A4SWIFT encuentra errores de análisis al procesar un mensaje. No olvide eliminar superposiciones no deseadas en las suscripciones a través de servicios.  
   
 > [!NOTE]
->  Si A4SWIFT recibe y procesa un mensaje y publica ese mensaje en la base de datos de cuadro de mensajes, pero el mensaje no satisface cualquier suscripción, A4SWIFT suspenderá el mensaje con un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] error que indica una falta de suscriptores. Por ejemplo, si tiene un servicio que se suscribe a todos los mensajes "A4SWIFT_Failed == false", pero no hay servicios suscriben a mensajes donde "A4SWIFT_Failed == true", a continuación, los mensajes que generan errores de análisis o validación realmente se suspende debido a una falta de suscriptores. Este escenario permite realmente imitar tradicional suspensión de mensajes con errores. No olvide suscribirse a todos los mensajes que no desea que se ha suspendido. Vea [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda para obtener más información acerca de las suscripciones de base de datos de cuadro de mensajes, puertos de envío, orquestaciones y expresiones de filtro.  
+>  Si A4SWIFT recibe y procesa un mensaje y publica ese mensaje en la base de datos de cuadro de mensajes, pero el mensaje no satisface cualquier suscripción, A4SWIFT suspenderá el mensaje con un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] error que indica una falta de suscriptores. Por ejemplo, si tiene un servicio que se suscribe a todos los mensajes "A4SWIFT_Failed == false", pero no hay servicios suscriben a mensajes donde "A4SWIFT_Failed == true", a continuación, los mensajes que generan errores de análisis o validación realmente se suspende debido a una falta de suscriptores. Este escenario permite realmente imitar tradicional suspensión de mensajes con errores. No olvide suscribirse a todos los mensajes que no desea que se ha suspendido. Consulte la Ayuda de BizTalk Server para obtener más información acerca de las suscripciones de base de datos de cuadro de mensajes, puertos de envío, orquestaciones y expresiones de filtro.  
   
  Esta sección contiene:  
   
--   [Mensajes de error y ErrorCollection objetos](../../adapters-and-accelerators/accelerator-swift/failed-messages-and-errorcollection-objects.md)
+-   [Mensajes de error y objetos ErrorCollection](../../adapters-and-accelerators/accelerator-swift/failed-messages-and-errorcollection-objects.md)

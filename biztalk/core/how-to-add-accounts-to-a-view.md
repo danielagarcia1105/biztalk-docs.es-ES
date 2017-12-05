@@ -16,11 +16,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc8d369eb24d1a239f1c305ab74230eab0f32d67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 808d5395452733d43337e0883b306b7757a7da08
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-accounts-to-a-view"></a>Cómo agregar cuentas a una vista
 Los administradores utilizan el **Agregar cuenta** comando para asociar usuarios a vistas de BAM y proteger las vistas de hojas de cálculo de Excel de BAM de accesos no autorizados. Cuando los usuarios guardan vistas de BAM, estas vistas hacen referencia a una cadena de conexión de SQL oculta en el libro. El libro está protegido, pero debe asegurarse de que el documento también esté protegido.  
@@ -38,7 +38,7 @@ Los administradores utilizan el **Agregar cuenta** comando para asociar usuarios
   
 2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo de **bm agregar-account - AccountName:\<nombre de cuenta >-View:\<nombre de vista >**.  
+3.  Tipo de **bm agregar-account - AccountName:\<nombre-cuenta\> -vista:\<nombre de la vista\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

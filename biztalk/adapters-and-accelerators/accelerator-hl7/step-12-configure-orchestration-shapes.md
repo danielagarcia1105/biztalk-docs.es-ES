@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f7375912c49c431c67c7ff55025cd2821374b87b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f21c373aacc949b95588c66f1243936b15ea9e89
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-12-configure-orchestration-shapes"></a>Paso 12: Configurar formas de orquestación
 En este paso, completa la configuración de las formas de orquestación con el fin de quitar las etiquetas inteligentes de configuración incompleta. Designe **DoorbellOutputMessage** como la salida del primer proceso de transformación, que designa **DoorbellMap.btm** como la asignación que se utiliza en ese proceso. A continuación, designe **DoorbellFinalMessage** como la salida del segundo proceso de transformación y agregue la expresión que enriquece el mensaje con los datos de campo adicional.  
@@ -29,7 +29,7 @@ En este paso, completa la configuración de las formas de orquestación con el f
   
 ### <a name="to-configure-orchestration-shapes"></a>Para configurar formas de orquestación  
   
-1.  En la vista de diseño de orquestación de [!INCLUDE[vs2012](../../includes/vs2012-md.md)], haga clic en el **ConstructMessage_1** forma.  
+1.  En la superficie de la vista de diseño de orquestación de Visual Studio, haga clic en el **ConstructMessage_1** forma.  
   
 2.  En el **propiedades** ventana, haga clic en el **mensajes construidos** propiedad, seleccione **DoorbellOutputMessage** desde la lista desplegable y, a continuación, presione  **Escriba**.  
   

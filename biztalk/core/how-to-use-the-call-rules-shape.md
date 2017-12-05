@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a634c2e0a97e627925390610bf4c3039c8afc85c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c85badfaf22ff4fb6aebd9ed19c757faaa1f303c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-use-the-call-rules-shape"></a>Cómo usar la forma Reglas de llamada
 En el Diseñador de orquestaciones, puede usar el **reglas de llamada** forma para llamar a una directiva empresarial.  
@@ -35,7 +35,7 @@ En el Diseñador de orquestaciones, puede usar el **reglas de llamada** forma pa
      Haga clic en la línea de conexión o el marcador de posición de la forma en la que desea agregar la forma, seleccione **Insertar forma** en el menú contextual y, a continuación, haga clic en **reglas de llamada**.  
   
     > [!NOTE]
-    >  En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], no debe tener un ámbito atómico para insertar un **reglas de llamada** forma. Puede arrastrar una **reglas de llamada** forma en la superficie de diseño de orquestación en el cuadro de herramientas. Sin embargo, en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], **reglas de llamada** elemento de menú está deshabilitado en el menú contextual si se intenta insertar un **reglas de llamada** forma dentro de una orquestación que no tiene un ámbito atómico. Ésta es una limitación del producto [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+    >  En BizTalk Server, no es necesario tener un ámbito atómico para insertar un **reglas de llamada** forma. Puede arrastrar una **reglas de llamada** forma en la superficie de diseño de orquestación en el cuadro de herramientas. Sin embargo, en el servidor BizTalk Server, el **reglas de llamada** elemento de menú está deshabilitado en el menú contextual si se intenta insertar un **reglas de llamada** forma dentro de una orquestación que no tiene un ámbito atómico. Ésta es una limitación del producto [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 2.  En el Diseñador de orquestaciones, seleccione la **reglas de llamada** forma.  
   

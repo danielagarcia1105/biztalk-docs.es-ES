@@ -18,16 +18,16 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec579716f9ab02389ce9f2d5ae5ec02ef0b30730
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f84cd2de6d5f79062592dbf71947587b6d7a6ff0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="customizing-a-private-process-to-work-with-a-specific-pip"></a>Personalizar un proceso privado para trabajar con un PIP específico
 Puede crear una expresión de filtro que hará que un servicio de respuesta orquestación de procesos privado para procesar o no las instancias de proceso de un proceso de interfaz de socio (PIP) específico. Esto le da la flexibilidad de crear un proceso personalizado privado para recibir y procesar algunas instancias PIP y usar privado predeterminado procesos todas las demás instancias PIP.  
   
- Para crear un proceso personalizado privado para trabajar con un determinado PIP o varios PIP específico, cree una expresión de filtro para la forma de recepción de la orquestación de procesos privado. Un ejemplo es la orquestación PIP3A4PrivateResponder.odx en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Se encuentra en \< *unidad*>: \Program Files\BizTalk \<versión > Accelerator for RosettaNet\SDK\PIP3A4Process Rules\PIP3A4PrivateResponder de negocios utilizando.  
+ Para crear un proceso personalizado privado para trabajar con un determinado PIP o varios PIP específico, cree una expresión de filtro para la forma de recepción de la orquestación de procesos privado. Un ejemplo es la orquestación PIP3A4PrivateResponder.odx en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Se encuentra en \< *unidad*\>: \Program Files\BizTalk \<versión\> Acelerador para RosettaNet\SDK\PIP3A4Process Rules\PIP3A4PrivateResponder de negocios utilizando.  
   
  Además de crear un proceso privado que procesan solo las instancias de un PIP específico, debe personalizar el proceso predeterminado de BTARN privado para que no procesará instancias para ese PIP.  
   
@@ -36,7 +36,7 @@ Puede crear una expresión de filtro que hará que un servicio de respuesta orqu
 1.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], cree una orquestación de procesos privados Respondedor personalizados para trabajar con un PIP específico. Puede basar la orquestación en la orquestación de procesos privados predeterminado Respondedor BTARN.  
   
     > [!NOTE]
-    >  Puede encontrar el valor predeterminado orquestación de procesos de privados de servicio de respuesta, denominado PrivateResponder.odx, en el SDK de BTARN. Se encuentra en  *\<unidad >*: \Program Files\BizTalk \<versión > Accelerator for RosettaNet\SDK\PrivateResponder.  
+    >  Puede encontrar el valor predeterminado orquestación de procesos de privados de servicio de respuesta, denominado PrivateResponder.odx, en el SDK de BTARN. Se encuentra en  *\<unidad\>*: \Program Files\BizTalk \<versión\> Acelerador para RosettaNet\SDK\PrivateResponder.  
   
 2.  Agregue la orquestación personalizada al proyecto de BizTalk. Asegúrese de que el proyecto tiene una referencia al archivo Microsoft.Solutions.BTARN.GlobalSchemas.dll.  
   
@@ -67,7 +67,7 @@ Puede crear una expresión de filtro que hará que un servicio de respuesta orqu
   
 14. En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-15. Mover a \< *unidad*>: \Program Files\BizTalk \<versión > Accelerator for RosettaNet\SDK\PrivateResponder, seleccione **PrivateResponder.odx**y, a continuación, haga clic en  **Aceptar**.  
+15. Mover a \< *unidad*\>: \Program Files\BizTalk \<versión\> Acelerador para RosettaNet\SDK\PrivateResponder, seleccione **PrivateResponder.odx**y, a continuación, haga clic en **Aceptar**.  
   
 16. En el Explorador de soluciones, haga clic con el botón derecho en el proyecto y, después, haga clic en **Generar**.  
   

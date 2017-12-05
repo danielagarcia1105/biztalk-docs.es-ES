@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61f201f8b20d5824b1b037cc61edaa1d64729135
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0fa94183f0eb83dc51fc0add22ba50484f7282fb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a>Paso 2: Modificar o crear el envío y puertos de recepción
 Necesitará envío de archivos y los puertos de recepción para el lote en / lote tutorial. Si hace clic en el **iniciar Tutorial** botón al final de la instalación de la edición Enterprise de [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] crea estos puertos: un puerto de envío denominado Tutorial_BTAHL7Drop y un puerto de recepción denominado Tutorial_BTAHL7PickUp. Si dispone de estos puertos, deberá modificar el puerto de envío Tutorial_BTAHL7Drop.  
@@ -68,7 +68,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de recepción**|Vaya a  **\<**  *unidad***>: \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BTAHL7PickUp HL7\SDK\End-to-End** . **Nota:** trata la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público desde donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] recogerá el archivo.|  
+    |**Carpeta de recepción**|Vaya a  **\<**  *unidad***\>: \Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_BTAHL7PickUp**. **Nota:** trata la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público desde donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] recogerá el archivo.|  
     |**Máscara de archivo**|Tipo de  **\*.txt**.|  
   
 12. Haga clic en **Aceptar**.  
@@ -78,7 +78,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
     |Use|Para|  
     |--------------|----------------|  
     |**Controlador de recepción**|Mantener **BizTalkServerApplication** como seleccionado.|  
-    |**La canalización de recepción**|Seleccione **BTAHL72XPipelines.BTAHL72XReceivePipeline**.|  
+    |**Canalización de recepción**|Seleccione **BTAHL72XPipelines.BTAHL72XReceivePipeline**.|  
   
 14. Haga clic en **Aceptar**.  
   
@@ -86,7 +86,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
 ### <a name="to-create-the-tutorialbtahl7drop-send-port"></a>Para crear el puerto de envío Tutorial_BTAHL7Drop  
   
-1.  En el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] consola de administración, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
+1.  En la consola de administración de BizTalk Server, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
 2.  En el cuadro de diálogo Propiedades de puerto de envío, realice lo siguiente:  
   
@@ -100,7 +100,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<**  *unidad***: > \Program BizTalk \<versión > Accelerator for Tutorial\Tutorial_BTAHL7Drop HL7\SDK\End-to-End** . **Nota:** se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo.|  
+    |**Carpeta de destino**|Vaya a  **\<**  *unidad***:\>\Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_BTAHL7Drop**. **Nota:** se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (tenga en cuenta que la extensión txt, xml no).|  
   
 4.  Haga clic en **Aceptar**.  

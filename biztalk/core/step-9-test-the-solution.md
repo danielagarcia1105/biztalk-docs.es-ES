@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec68ad7e60033c0830eaf9977e1edf8ab45847d8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89a3722d6d8e1d4b730341dfaf16d60af1686f21
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-9-test-the-solution"></a>Paso 9: Probar la solución
 En este tema, probará la aplicación híbrida enviando un mensaje de pedido de ventas X12 840 al extremo HTTP donde se implementa el acuerdo EDI. El aspecto del mensaje de pedido de ventas de muestra será parecido al siguiente:  
@@ -74,7 +74,7 @@ IEA*1*000000025~
 4.  Use **MessageSender** enviar otro mensaje, pero esta vez establezca el valor de la cantidad pedida en el mensaje a *99*. Observará que ahora hay ningún registro insertado en el **SalesOrder** tabla. En su lugar, el mensaje se copia en la ubicación de archivo especificada para recibir los mensajes con cantidades de pedido inferior a 100. El mensaje recibido es similar al siguiente:  
   
     ```  
-    \<ns1:SalesOrder xmlns:ns0="http://schemas.microsoft.com/BizTalk/EDI/X12/2006" xmlns:ns1="http://ECommerceSalesOrder.Inbound">  
+    <ns1:SalesOrder xmlns:ns0="http://schemas.microsoft.com/BizTalk/EDI/X12/2006" xmlns:ns1="http://ECommerceSalesOrder.Inbound">  
       <CompanyCode>co</CompanyCode>  
       <PartID>1</PartID>  
       <Quantity>99</Quantity>  
@@ -94,7 +94,7 @@ IEA*1*000000025~
       </Contact>  
       <Comments>Order from Partnerco</Comments>  
       <DateNow>2012-06-19</DateNow>  
-    \</ns1:SalesOrder>  
+    </ns1:SalesOrder>  
   
     ```  
   

@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b62ebea1380e686a0afbf18dc63aedbfab190fac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78f36e778930a781ac797e18308240ecb4bef667
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="soap-headers-with-published-wcf-services"></a>Encabezados SOAP con servicios WCF publicados
 Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado SOAP en los mensajes entrantes en el **InboundHeaders** propiedad, o puede escribir o promover valores específicos en el contexto del mensaje de BizTalk. Los adaptadores pueden funcionar con los encabezados SOAP personalizados y los encabezados SOAP estándar que utiliza la infraestructura de WCF, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. El **InboundHeaders** propiedad de contexto está en el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**y contiene representaciones de cadena de SOAP valores de encabezado de mensajes entrantes.  
@@ -45,11 +45,11 @@ Adaptadores de recepción de WCF pueden copiar todos los valores de encabezado S
   
  Para escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk, es necesario colocar una colección de parejas de valores que se componen del nombre de propiedad y de espacio de nombres en el mensaje WCF, de modo que los adaptadores de WCF reconocerán que los valores de encabezado se deben escribir o promover. Un adaptador de WCF espera las siguientes propiedades del mensaje en los mensajes de WCF para escribir o promover los valores del encabezado SOAP en el contexto del mensaje de BizTalk:  
   
--   Para promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** y el valor **lista < KeyValuePair\<XmlQualifiedName, objeto >>**.  
+-   Para promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** y el valor **lista\< KeyValuePair\<XmlQualifiedName, objeto\>\>**.  
   
      Con esta pareja, adaptadores de WCF toman el espacio de nombres, el nombre y el valor de la **XmlQualifiedName** objeto y usarlos para la promoción de los valores de encabezado.  
   
--   Para escribir pero no promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** y el valor  **Lista < KeyValuePair\<XmlQualifiedName, objeto >>**.  
+-   Para escribir pero no promover los valores del encabezado SOAP en el contexto de mensaje de BizTalk, los adaptadores de WCF se buscan la pareja de clave **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** y el valor  **Lista\<KeyValuePair\<XmlQualifiedName, objeto\>\>**.  
   
      Con esta pareja, los adaptadores de WCF escriben los valores en el contexto del mensaje.  
   
@@ -74,7 +74,7 @@ writeProps.Add(new KeyValuePair<XmlQualifiedName, object>(PropName2, "Property v
 wcfMessage.Properties[PropertiesToWriteKey]=writeProps;  
 ```  
   
- El Asistente para publicación de Servicio WCF de BizTalk no incluye definiciones de encabezado SOAP personalizadas en los metadatos generados. Para publicar los metadatos de los servicios WCF con encabezados SOAP personalizados, debe crear de forma manual un archivo de Lenguaje de descripción de servicios Web (WSDL). Puede usar el **externalMetadataLocation** atributo de la [ \<serviceMetadata >](http://go.microsoft.com/fwlink/?LinkId=89121) elemento en el archivo Web.config que genera el Asistente para especificar la ubicación del archivo WSDL. El archivo WSDL se devuelve al usuario en respuesta a las solicitudes de intercambio de metadatos (MEX) WSDL en lugar de WSDL generado de forma automática.  
+ El Asistente para publicación de Servicio WCF de BizTalk no incluye definiciones de encabezado SOAP personalizadas en los metadatos generados. Para publicar los metadatos de los servicios WCF con encabezados SOAP personalizados, debe crear de forma manual un archivo de Lenguaje de descripción de servicios Web (WSDL). Puede usar el **externalMetadataLocation** atributo de la [ \<serviceMetadata\> ](http://go.microsoft.com/fwlink/?LinkId=89121) elemento en el archivo Web.config que genera el Asistente para especificar la ubicación de la Archivo WSDL. El archivo WSDL se devuelve al usuario en respuesta a las solicitudes de intercambio de metadatos (MEX) WSDL en lugar de WSDL generado de forma automática.  
   
  Los siguientes datos XML muestran un ejemplo de una parte del archivo WSDL que define los encabezados SOAP personalizados:  
   
@@ -94,9 +94,9 @@ wcfMessage.Properties[PropertiesToWriteKey]=writeProps;
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Obtener acceso a los encabezados SOAP en mensajes WCF con orquestaciones](../core/accessing-soap-headers-in-wcf-messages-with-orchestrations.md)  
+-   [Obtener acceso a encabezados SOAP en mensajes WCF con orquestaciones](../core/accessing-soap-headers-in-wcf-messages-with-orchestrations.md)  
   
--   [Obtener acceso a los encabezados SOAP en mensajes WCF con componentes de canalización](../core/accessing-soap-headers-in-wcf-messages-with-pipeline-components.md)  
+-   [Obtener acceso a encabezados SOAP en mensajes WCF con componentes de canalización](../core/accessing-soap-headers-in-wcf-messages-with-pipeline-components.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Propiedades y esquema de propiedades de adaptadores WCF](../core/wcf-adapters-property-schema-and-properties.md)   

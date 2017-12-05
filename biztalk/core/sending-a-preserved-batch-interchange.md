@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22572f01f1e76dae36cbdcb34a4321c2db1c44c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5813bb4881535290422e2ba01d20d4370f4e604
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sending-a-preserved-batch-interchange"></a>Enviar intercambios por lotes conservados
 Cuando la canalización de envío EDI procesa un intercambio por lotes conservado, toma el intercambio como una unidad entera. Normalmente, vuelve a utilizar los segmentos de sobre (control) existentes para la creación del intercambio de EDI, en vez de aplicar un sobre basado en el acuerdo. Esto se produce cuando el **opción de procesamiento por lotes de entrada** propiedad está establecida en **conservar intercambio: suspender intercambio en caso de Error** o **conservar intercambio: suspender conjuntos de transacciones en Error**.  
@@ -43,7 +43,7 @@ Cuando la canalización de envío EDI procesa un intercambio por lotes conservad
 >  Puede enviar un lote conservado con una canalización de envío XML. Sin embargo, para ello es necesario que cambie el espacio de nombre del esquema por lotes. Para obtener más información, consulte [enviar un lote conservado con una canalización de envío XML](../core/sending-a-preserved-batch-with-an-xml-send-pipeline.md).  
   
 ## <a name="error-processing"></a>Procesamiento de errores  
- La canalización de envío EDI reconoce un intercambio de EDI por lotes como un lote conservado debido a una etiqueta reservada en el XML. Esta etiqueta, ya sea \<X12InterchangeXml > o \<EdifactInterchangeXml >, se aplica al XML EDI canalización de recepción.  
+ La canalización de envío EDI reconoce un intercambio de EDI por lotes como un lote conservado debido a una etiqueta reservada en el XML. Esta etiqueta, ya sea \<X12InterchangeXml\> o \<EdifactInterchangeXml\>, se aplica al XML EDI canalización de recepción.  
   
  Las siguientes casos especiales se aplican los conjuntos de transacción suspendidos en caso de error:  
   

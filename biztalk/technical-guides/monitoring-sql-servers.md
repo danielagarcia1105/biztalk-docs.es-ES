@@ -1,7 +1,8 @@
 ---
-title: "Supervisión de servidores SQL Server | Documentos de Microsoft"
+title: Supervisar los servidores SQL Server | Documentos de Microsoft
+description: "Utilizar el módulo de administración de SQL Server para comprobar el rendimiento, espacio disponible, configuración de base de datos, los procesos bloqueados, conectividad, error SQL trabajos del agente, replicación y más información en el servidor BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/29/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,20 +13,22 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6ac37905574090fb346aeee198ea8e92a0f436f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1d0e3ea9ecb9d9d910549790568d5891b72d06de
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-sql-servers"></a>Supervisión de servidores SQL Server
-Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración proporciona supervisión reactiva y proactiva de [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] y [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] en un entorno empresarial. Disponibilidad y la supervisión de configuración, recopilación de datos de rendimiento y umbrales predeterminados se crean para la supervisión de nivel de empresa. Conectividad local y remota comprobaciones ayudan a garantizar la disponibilidad de la base de datos.  
+
+## <a name="use-sql-management-pack"></a>Usar el módulo de administración de SQL
+El módulo de administración de Microsoft SQL Server proporciona tanto proactiva como reactiva de supervisión de SQL Server en un entorno empresarial. Disponibilidad y la supervisión de configuración, recopilación de datos de rendimiento y umbrales predeterminados se crean para la supervisión de nivel de empresa. Conectividad local y remota comprobaciones ayudan a garantizar la disponibilidad de la base de datos.  
   
- Con los conocimientos incrustados en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración, pueden administrar de manera proactiva [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]e identificar problemas antes de que resulten críticos. Este módulo de administración aumenta la seguridad, la disponibilidad y el rendimiento de su [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] infraestructura.  
+ Con los conocimientos incrustados en el módulo de administración de SQL Server, proactivamente puede administrar SQL Server e identificar problemas antes de que resulten críticos. Este módulo de administración aumenta la seguridad, la disponibilidad y el rendimiento de la infraestructura de SQL Server.  
   
- Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Guía del módulo de administración que se incluye con el módulo de describe el contenido del módulo de administración y cómo implementarla. Características del módulo de administración incluyen:  
+ La Guía del módulo de administración de Microsoft SQL Server viene con el módulo de describe el contenido del módulo de administración y cómo implementarla. Características del módulo de administración incluyen:  
   
--   Supervisión del estado de los servicios incluidos como [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], Agente SQL, servidor de informes, Notification Services  
+-   Supervisión del estado de los servicios incluidos como SQL Server, Agente SQL, servidor de informes, Notification Services  
   
 -   Supervisión del estado de las bases de datos  
   
@@ -33,7 +36,7 @@ Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.
   
 -   Asegurarse de que las bases de datos están configurados correctamente  
   
--   Asegúrese de que los clientes pueden conectarse a la[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]  
+-   Asegúrese de que los clientes pueden conectarse a SQL Server  
   
 -   Supervisar procesos bloqueados  
   
@@ -43,10 +46,10 @@ Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.
   
 -   Supervisar el estado de creación de reflejo de base de datos  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="next-steps"></a>Pasos siguientes
   
--   [Supervisión de trabajos del Agente SQL Server y bases de datos](../technical-guides/monitoring-sql-server-agent-jobs-and-databases.md)  
+-   [Supervisión de las bases de datos y trabajos del Agente SQL Server](../technical-guides/monitoring-sql-server-agent-jobs-and-databases.md)  
   
--   [Cómo marcar bases de datos de BizTalk Server para supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
+-   [Cómo marcar las bases de datos de BizTalk Server para la supervisión personalizada](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
   
--   [Supervisar las bases de datos de servidor BizTalk Server](../technical-guides/monitor-the-biztalk-server-databases.md)
+-   [Supervisar las bases de datos de BizTalk Server](../technical-guides/monitor-the-biztalk-server-databases.md)

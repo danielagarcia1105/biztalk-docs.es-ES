@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eb8cd252c9aa5557ea3845e7b6665dc749486f01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1030e0a743a9b06d856bc593198f4afebc1ffa38
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-operations-on-the-sap-system-using-the-wcf-channel-model"></a>Invocar operaciones en el sistema SAP mediante el modelo del canal de WCF
 Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un **IRequestChannel** o **IOutputChannel** forma para enviar mensajes al adaptador de canal. El patrón básico consiste en crear un generador de canales para la forma de canales necesarias utilizando un enlace (**SAPBinding**) y un punto de conexión creado a partir de un URI de conexión. A continuación, cree un **mensaje** instancia que representa un mensaje SOAP que se ajusta al esquema de mensajes para la operación de destino. A continuación, puede enviar este **mensaje** a la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] mediante el uso de un canal que se crea desde el generador de canales. Si usas un **IRequestChannel**, recibirá una respuesta. Si hay un problema al ejecutar la operación en el sistema SAP, la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] produce una **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.  
@@ -45,7 +45,7 @@ Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-
   
 #### <a name="how-to-invoke-an-operation-by-using-an-instance-of-irequestchannel"></a>Cómo invocar una operación mediante una instancia de IRequestChannel  
   
-1.  Crear un generador de canales (**ChannelFactory\<IRequestChannel >**). Para ello, debe especificar un enlace (**SAPBinding**) y una dirección de extremo. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Debe establecer cualquier enlace propiedades necesarios para las operaciones que enviará antes de abrir el generador. Para obtener más información sobre cómo especificar el enlace y la dirección del extremo en la configuración, consulte [crear un canal con SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
+1.  Crear un generador de canales (**ChannelFactory\<IRequestChannel\>**). Para ello, debe especificar un enlace (**SAPBinding**) y una dirección de extremo. Puede especificar la dirección de enlace y el punto de conexión de forma imperativa en el código o mediante declaración en configuración. Debe establecer cualquier enlace propiedades necesarios para las operaciones que enviará antes de abrir el generador. Para obtener más información sobre cómo especificar el enlace y la dirección del extremo en la configuración, consulte [crear un canal con SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md).  
   
     ```  
     // Create a binding  
@@ -79,7 +79,7 @@ Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-
 5.  Crear un **mensaje** instancia para la operación de destino. Asegúrese de que se ha especificado la acción de mensaje para la operación de destino. En este ejemplo, el cuerpo del mensaje se pasa mediante la creación de un **XmlReader** a través de una cadena. La operación de destino, invoca la RFC SD_RFC_CUSTOMER_GET en un sistema SAP.  
   
     ```  
-    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
     //create an XML reader from the input XML  
     XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -125,7 +125,7 @@ Invocar operaciones en el [!INCLUDE[adaptersap_short](../../includes/adaptersap-
   
  Siga los mismos pasos para enviar un mensaje mediante la **IOutputChannel** forma excepto:  
   
--   Crear un **ChannelFactory\<IOutputChannel >** en el paso 1.  
+-   Crear un **ChannelFactory\<IOutputChannel\>**  en el paso 1.  
   
 -   Se llama a la **enviar** método en el canal en el paso 6. `channel.Send(messageIn);`.  
   
@@ -178,7 +178,7 @@ namespace SapRfcClientCM
             //create an XML message to send to the SAP system  
             //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
             //The XML below specifies that we want to search for customers with names starting with "AB"  
-            string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+            string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
             //create an XML reader from the input XML  
             XmlReader readerOut = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -243,4 +243,4 @@ namespace SapRfcClientCM
 ```  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones mediante el modelo de canal de WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

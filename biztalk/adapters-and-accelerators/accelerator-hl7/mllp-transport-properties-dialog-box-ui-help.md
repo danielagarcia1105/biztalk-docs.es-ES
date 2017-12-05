@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2892d2cd9072e462ff32668040a88859df094e91
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b9856b7fbbac5dd9d6a4f809e369e586d95a31b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mllp-transport-properties-dialog-box-ui-help"></a>Ayuda de interfaz de usuario de cuadro de cuadro de diálogo Propiedades de transporte MLLP
 Usa el **propiedades de transporte de MLLP** cuadro de diálogo para configurar los parámetros de envío y recepción de adaptadores de protocolo de nivel inferior mínimo (MLLP). Puede definir los parámetros de conexión de red en las propiedades de transporte de MLLP para un puerto de envío o ubicación de recepción mediante el tipo de transporte MLLP.  
@@ -28,13 +28,13 @@ Usa el **propiedades de transporte de MLLP** cuadro de diálogo para configurar 
  En el **propiedades de transporte de MLLP** diálogo cuadro, realice lo siguiente:  
   
 #### <a name="block-characters"></a>Caracteres de bloque  
- Parámetros de caracteres de bloque son caracteres especiales que deben incluir HL7 mensajes recibidos o enviados a través de adaptadores MLLP. Estos caracteres forman un bloque en el siguiente formato: \<SB >*DDD*\<EB >\<CR >, donde *DDD* los datos del mensaje, el acrónimo \<SB > es el carácter de bloque inicial, \<EB > es el carácter de bloque final, y \<CR > es el transporte devuelto.  
+ Parámetros de caracteres de bloque son caracteres especiales que deben incluir HL7 mensajes recibidos o enviados a través de adaptadores MLLP. Estos caracteres forman un bloque en el siguiente formato: \<SB\>*DDD*\<EB\>\<CR\>, donde *DDD* son las siglas para los datos del mensaje, \<SB\> es el carácter de bloque inicial, \<EB\> es el carácter de bloque final, y \<CR\> es devuelto al transporte.  
   
 |Use|Para|  
 |--------------|----------------|  
-|**\<CR > retorno de carro**|Valor de bytes (en formato hexadecimal) que usa para el retorno de carro (el segundo contenedor de bytes tras el byte final). Opcional.|  
-|**\<EB > caracteres de bloque final**|Valor de bytes que usa para el byte final (contenedor de finalizador de mensaje). ASCII \<FS >, por ejemplo, \<1C >.|  
-|**\<SB > caracteres de bloque inicial**|Valor de bytes que use para el byte inicial (contenedor de encabezado de mensaje). ASCII \<VT >, por ejemplo, \<0b >.|  
+|**\<CR\> retorno de carro**|Valor de bytes (en formato hexadecimal) que usa para el retorno de carro (el segundo contenedor de bytes tras el byte final). Opcional.|  
+|**\<EB\> caracteres de bloque final**|Valor de bytes que usa para el byte final (contenedor de finalizador de mensaje). ASCII \<FS\>, por ejemplo, \<1C\>.|  
+|**\<SB\> caracteres de bloque inicial**|Valor de bytes que use para el byte inicial (contenedor de encabezado de mensaje). ASCII \<VT\>, por ejemplo, \<0b\>.|  
   
 #### <a name="deliverymode"></a>DeliveryMode  
  Utilice el parámetro de modo de entrega para controlar si los archivos de la instancia se entregan de manera secuencial o fuera de la secuencia (en orden, fuera de servicio). Cada ubicación de recepción tiene su propio entrega para la instancia de secuencia de archivos.  
@@ -93,4 +93,4 @@ Usa el **propiedades de transporte de MLLP** cuadro de diálogo para configurar 
  [Procesamiento de mensajes con codificación MLLP](../../adapters-and-accelerators/accelerator-hl7/processing-mllp-encoded-messages.md)   
  [Cómo procesa el adaptador de recepción de MLLP](../../adapters-and-accelerators/accelerator-hl7/mllp-receive-adapter-processing.md)   
  [Cómo procesa el adaptador MLLP envío](../../adapters-and-accelerators/accelerator-hl7/mllp-send-adapter-processing.md)   
- [Cómo configurar un puerto de envío para recibir mensajes de confirmación](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)
+ [Configurar un puerto de envío para recibir confirmaciones](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)

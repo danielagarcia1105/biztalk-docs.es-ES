@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d97c2f58639814bda45a23c115fea0c3708c2579
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ea9d5e9cab7cedf0a4d83ac19b2e241f6776209
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-real-time-scenario"></a>Paso 3B: agregar un FILEACT ubicación de recepción para el escenario en tiempo real de FileAct
 Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de recepción de archivo para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md).  
@@ -41,13 +41,13 @@ Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de 
     |------------------|--------------------|  
     |**Contraseña**|Escriba la contraseña que usa para conectarse a SAG. Para obtener más información, consulte la Ayuda de SAG.|  
     |**Nombre de usuario.**|Escriba el nombre de usuario que utiliza para conectarse a SAG.|  
-    |**Nombre de la aplicación**|Escriba la dirección del servidor \<nombre de la interfaz de aplicación > para el SAG cuadro enrutamiento conjunto.|  
+    |**Nombre de la aplicación**|Escriba la dirección del servidor \<nombre de la interfaz de aplicación\> para el SAG cuadro enrutamiento conjunto.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**Modo de FACrypto**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessages**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
     |**MemberRef**|En la lista desplegable, seleccione **ResponsePayload**.|  
     |**Indicador de sin repudio**|En la lista desplegable, seleccione **FALSE**.|  
-    |**Servicio de respuesta**|Escriba la correspondiente \<Respondedor > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Escriba la correspondiente \<Respondedor\> cadena, según su aprovisionamiento con SWIFT.|  
     |**ResponseCrypto**|En la lista desplegable, seleccione **FALSE**.|  
     |**Indicador de confirmación**|En la lista desplegable, seleccione **ResponsePayload**.|  
     |**FileCompression**|En la lista desplegable, seleccione **ninguno**.|  
@@ -81,4 +81,4 @@ Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de 
  [Paso 3A: agregar un archivo de ubicación de recepción para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md)   
  [Paso 3c: agregar un puerto de envío de archivo para capturar los mensajes de Sw:HandleRequest para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-message-for-fileact.md)   
  [Paso 3D: agregar un puerto de envío de FILEACT para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3d-add-a-fileact-send-port-for-the-fileact-real-time-scenario.md)   
- [Paso 3E: agregar un puerto de envío de archivo para capturar los mensajes de Sw:ExchangeFileResponse para el escenario en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)
+ [Paso 3E: Agregar un puerto de envío de ARCHIVOS para capturar el mensaje Sw:ExchangeFileResponse para el escenario de FileAct en tiempo real](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)

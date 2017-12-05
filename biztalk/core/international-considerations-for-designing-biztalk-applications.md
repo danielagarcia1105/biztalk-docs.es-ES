@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94c1c3c6430b049d98444349394eff05eeb21561
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ef22467c18580219e8587d63017d8bf146090d4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="international-considerations-for-designing-biztalk-applications"></a>Consideraciones internacionales para diseñar aplicaciones de BizTalk
 Se recomienda encarecidamente que revise los siguientes problemas conocidos cuando implemente las aplicaciones internacionales de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -45,7 +45,7 @@ Se recomienda encarecidamente que revise los siguientes problemas conocidos cuan
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]admite varias codificaciones diferentes para XML y documentos de archivo sin formato, por ejemplo UTF-16, UTF-8, chino simplificado GBK, chino simplificado GB18030 y así sucesivamente.  
   
- Para los documentos entrantes, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede reconocer la declaración de codificación en documentos XML, como "\<? versión xml ="1.0"encoding ="GB2312"? >". El esquema de archivo sin formato tiene un **página de códigos** propiedad para indicar la codificación de los documentos de archivo sin formato entrante.  
+ Para los documentos entrantes, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede reconocer la declaración de codificación en documentos XML, como "\<? versión xml ="1.0"encoding ="GB2312"?\>". El esquema de archivo sin formato tiene un **página de códigos** propiedad para indicar la codificación de los documentos de archivo sin formato entrante.  
   
  Para los documentos de salida, XML y ensambladores de archivos sin utilizar el **juego de caracteres de destino** propiedad. Si se especifica esta propiedad, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] convierte los documentos salientes en el juego de caracteres especificado, independientemente de cuál sea el original. Si no hay ningún **juego de caracteres de destino** propiedad está establecida, XML usa el protocolo UTF-8 y archivos sin formato usan la página de códigos especificada en el esquema de archivo sin formato.  
   
@@ -84,4 +84,4 @@ Se recomienda encarecidamente que revise los siguientes problemas conocidos cuan
  [Codificación de caracteres en el componente de canalización de desensamblador de archivos sin formato](../core/character-encoding-in-the-flat-file-disassembler-pipeline-component.md)   
  [Codificación de caracteres en el componente de canalización de ensamblador de archivo sin formato](../core/character-encoding-in-the-flat-file-assembler-pipeline-component.md)   
  [Codificación de caracteres en el componente de canalización de ensamblador XML](../core/character-encoding-in-the-xml-assembler-pipeline-component.md)   
- [Codificación de caracteres en el componente de canalización de desensamblador XML](../core/character-encoding-in-xml-disassembler-pipeline-component.md)
+ [Codificación de caracteres en componentes de canalización de desensamblador XML](../core/character-encoding-in-xml-disassembler-pipeline-component.md)

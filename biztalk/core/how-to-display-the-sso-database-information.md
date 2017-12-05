@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1328e6066af0d19c68657728f8dc7777ba62f12d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e834874cb87da598db0bc92e516b58dfe2da9069
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-display-the-sso-database-information"></a>Cómo mostrar la información de la base de datos SSO
 Es posible ver la información de la base de datos de SSO utilizando el Complemento MMC o la utilidad de línea de comandos (ssomanage).  
@@ -39,7 +39,7 @@ Es posible ver la información de la base de datos de SSO utilizando el Compleme
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – displaydb**.  
   
@@ -50,7 +50,7 @@ Es posible ver la información de la base de datos de SSO utilizando el Compleme
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – showdb**.  
   
@@ -61,9 +61,9 @@ Es posible ver la información de la base de datos de SSO utilizando el Compleme
   
 |Propiedad|Valor|  
 |--------------|-----------|  
-|SQL Server|**\<Nombre de SQL Server >**|  
-|Single Sign-On base de datos|**\<Nombre de la base de datos de SQL Server >**|  
-|Nombre del servidor secreto de inicio de sesión único|**\<Nombre del servidor de inicio de sesión único >**|  
+|SQL Server|**\<Nombre de SQL Server\>**|  
+|Single Sign-On base de datos|**\<Nombre de la base de datos de SQL Server\>**|  
+|Nombre del servidor secreto de inicio de sesión único|**\<Nombre del servidor de inicio de sesión único\>**|  
 |Cuenta de administradores de inicio de sesión único|Dominio\nombre de cuenta|  
 |Cuenta de administradores afiliados de inicio de sesión único|Dominio\nombre de cuenta|  
 |Tamaño de la tabla de auditoría para las aplicaciones eliminadas (número de entradas de auditoría)|1.000 (valor predeterminado)|  

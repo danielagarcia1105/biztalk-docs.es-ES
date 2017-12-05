@@ -15,16 +15,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e1c12936f2883bfdbcdcd80d300d2ab5a9ff58d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 404beaeb617f7a6c0c5e3fc4ddc40126e6b97990
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-schemas"></a>Trabajar con esquemas
 Los esquemas que se proporcionan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] son el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] representación XSD de la sociedad para mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo. Cada tipo de mensaje tiene su propio esquema, incluida la SWIFT encabezado y finalizador SWIFT (formato de intercambio). Este esquema es suficiente para enviar o recibir un mensaje SWIFT. Estos esquemas son una combinación única de los registros delimitados y posicionales, lo que proporciona una representación XML detallada de las estructuras FIN de archivo sin formato.  
   
- Mayoría de los clientes SWIFT usa un subconjunto relativamente pequeño de los mensajes de FIN de SWIFT. Para implementar una solución para estos clientes, puede crear un proyecto de esquema de BizTalk (como se muestra en [módulo 2: agregar un nuevo proyecto de esquemas](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md) del tutorial de A4SWIFT). Agregue los esquemas de mensaje relevante (MT*xxx*.xsd) de \\\ programa Files\Microsoft BizTalk Accelerator para SWIFT \<versión > MessagePack\SWIFT Messages\A4SWIFT-SRG\<versión > \ Directorio de categoría x\MT xyy, donde x es el primer dígito del tipo de mensaje FIN y xyy es el tipo de mensaje de tres dígitos para el mensaje.  
+ Mayoría de los clientes SWIFT usa un subconjunto relativamente pequeño de los mensajes de FIN de SWIFT. Para implementar una solución para estos clientes, puede crear un proyecto de esquema de BizTalk (como se muestra en [módulo 2: agregar un nuevo proyecto de esquemas](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md) del tutorial de A4SWIFT). Agregue los esquemas de mensaje relevante (MT*xxx*.xsd) de \\\ programa Files\Microsoft BizTalk Accelerator para SWIFT \<versión\> MessagePack\SWIFT Messages\A4SWIFT-SRG\< versión\>\Category x\MT xyy directorio, donde x es el primer dígito del tipo de mensaje FIN y xyy es el tipo de mensaje de tres dígitos para el mensaje.  
   
  Puede agregar varios esquemas para el mismo proyecto. Para mantener la capacidad de administración, no debe agregar más de 20 esquemas de mensaje por proyecto. También debe agregar los esquemas de base y comunes para el proyecto. Si ya ha implementado los esquemas de base y común, debe hacer referencia a su ensamblado, en lugar de implementarlos. Esta sección describen estos esquemas. Los esquemas de mensaje están listos para usar que sea para mensajes enviados a la red SWIFT y mensajes recibidos de SWIFT.  
   
@@ -62,8 +62,8 @@ Los esquemas que se proporcionan en [!INCLUDE[btsCoName](../../includes/btsconam
   
  Esta sección contiene:  
   
--   [Base y los esquemas comunes](../../adapters-and-accelerators/accelerator-swift/base-and-common-schemas.md)  
+-   [Esquemas base y comunes](../../adapters-and-accelerators/accelerator-swift/base-and-common-schemas.md)  
   
--   [Esquemas de finalizador y encabezado SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-header-and-trailer-schemas.md)  
+-   [Esquemas de finalizadores y encabezados de SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-header-and-trailer-schemas.md)  
   
--   [Convenciones de nomenclatura de esquema SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-schema-naming-conventions.md)
+-   [Convenciones de nomenclatura de esquemas de SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-schema-naming-conventions.md)

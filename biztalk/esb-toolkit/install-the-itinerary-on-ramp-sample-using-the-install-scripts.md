@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b1912bd6c9ec0b32c8b6b230d15299777ff42735
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 28bd132591730c63af219e3b8acfbcf52c882c87
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-itinerary-on-ramp-sample-using-the-install-scripts"></a>Instalar el ejemplo en rampa itinerario con los Scripts de instalación
 En esta sección se describe cómo puede instalar el ejemplo de itinerario en rampa de las secuencias de comandos de instalación proporcionadas con el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  
@@ -27,7 +27,7 @@ En esta sección se describe cómo puede instalar el ejemplo de itinerario en ra
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**, y, a continuación, presione ENTRAR para abrir un símbolo del sistema.  
   
-3.  Ejecute el comando siguiente, reemplazando el \<ruta de acceso > parámetro con la ruta de acceso completa al archivo .cmd que desea instalar (la ruta predeterminada en esta versión es \Source\Samples\Itinerary\Install\Scripts\\):  
+3.  Ejecute el comando siguiente, reemplazando el \<ruta de acceso\> parámetro con la ruta de acceso completa al archivo .cmd que desea instalar (la ruta predeterminada en esta versión es \Source\Samples\Itinerary\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

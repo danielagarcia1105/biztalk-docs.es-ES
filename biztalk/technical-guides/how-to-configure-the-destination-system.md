@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a74df47c0e23cd0bbe9fc0f1151702b7eec0223
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 56aefdd899b8c3edc18f07ade2ef436729c38d32
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-the-destination-system"></a>Cómo configurar el sistema de destino
-Para obtener información acerca de cómo configurar el sistema de destino de trasvase de registros, vea [cómo configurar el sistema de destino de trasvase de registros](http://go.microsoft.com/fwlink/?LinkId=151402) (http://go.microsoft.com/fwlink/?LinkId=151402) en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+Para obtener información acerca de cómo configurar el sistema de destino de trasvase de registros, vea [cómo configurar el sistema de destino de trasvase de registros](http://go.microsoft.com/fwlink/?LinkId=151402) (http://go.microsoft.com/fwlink/?LinkId=151402) en la Ayuda de BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
  [¿Qué es el trasvase de registros de servidor BizTalk Server?](../technical-guides/what-is-biztalk-server-log-shipping.md)   

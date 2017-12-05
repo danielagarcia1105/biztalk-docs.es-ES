@@ -17,11 +17,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 256731dbb6194aa1962d62ec9fdbe58a0fd60e03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd5f7bb392a6fbd4e1b4d64139fc38cc5a71aa38
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (ejemplo de BizTalk Server)
 En este ejemplo se muestra cómo escribir un componente de canalización que lea un conjunto de valores de propiedades de MQSeries a partir de un archivo XML y que los aplique a un mensaje.  
@@ -31,9 +31,9 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
   
--   *\<Ruta de ejemplos >*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+-   *\<Rutaejemplos\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<Ruta de ejemplos >*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+-   *\<Rutaejemplos\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -109,7 +109,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
     1.  Abra un símbolo del sistema de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-    2.  Cambie los directorios a \<Rutaejemplos > \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
+    2.  Cambie los directorios a \<Rutaejemplos\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent.  
   
     3.  Escriba lo siguiente:  
   
@@ -125,7 +125,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
     3.  Haga clic en la lista desplegable para la **elegir un archivo de clave de nombre seguro** opción y haga clic en **examinar**.  
   
-    4.  Vaya a \<Rutaejemplos > \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, haga clic en **abiertos**.  
+    4.  Vaya a \<Rutaejemplos\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk, haga clic en **abiertos**.  
   
 4.  El componente de canalización que creó anteriormente se ha agregado a la **preensamblar** fase de este proyecto de canalización. En caso de que no se haya agregado, debería completar los pasos siguientes para agregarlo:  
   
@@ -148,7 +148,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
     1.  Abra la consola de administración de BizTalk.  
   
-    2.  Haga clic para expandir **grupo de BizTalk [\<nombreDeServidor >:\<base de datos de administración >]**y, a continuación, haga clic para expandir el **ensamblados** carpeta.  
+    2.  Haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración\>]**y, a continuación, haga clic para expandir el **ensamblados** carpeta.  
   
          El ensamblado de canalización implementado debe verse en la **ensamblados** carpeta.  
   
@@ -186,7 +186,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
 1.  Haga clic en **iniciar**, seleccione **programas**, seleccione **IBM WebSphere MQ**y, a continuación, haga clic en **WebSphere MQ Explorer**.  
   
-2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se suele llamar **QM_**\<*nombre_equipo*> donde *nombre_equipo* es el nombre del equipo.  
+2.  Haga doble clic en **administradores de cola**y, a continuación, haga doble clic en el Administrador de cola predeterminado. El Administrador de cola predeterminado se suele llamar **QM_**\<*nombre_equipo* \> donde *nombre_equipo* es el nombre del equipo.  
   
 3.  Haga clic en **colas**, seleccione **New**y, a continuación, haga clic en **cola Local**.  
   
@@ -261,4 +261,4 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
 3.  Las propiedades de contexto de mensaje para cada mensaje deben estar visibles en el **Message Browser** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Ejemplos de adaptadores de MQSeries](../core/mqseries-adapter-samples.md)
+ [Ejemplos del adaptador de MQSeries](../core/mqseries-adapter-samples.md)

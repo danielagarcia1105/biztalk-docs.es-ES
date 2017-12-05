@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 303924e2aaf8304388a18d2ffe70d99fdc69acd3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a7fae2fc49487597380e6c5d04a946b1078daeeb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="btsntsvcexeconfig-file"></a>BTSNTSvc.exe.config (archivo)
 Las propiedades de deshidratación y sus valores predeterminados se pueden configurar en [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] o como XML en el archivo de configuración de BizTalk (BTSNTSvc.exe.config o BTSNTSvc64.exe.config). Los valores del archivo de configuración de BizTalk se aplican antes. A continuación, se aplica la configuración de [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]. Las propiedades de deshidratación se leen cuando se inician todas las instancias de host que contienen una orquestación.  
@@ -25,7 +25,7 @@ Las propiedades de deshidratación y sus valores predeterminados se pueden confi
   
  Para cambiar los valores predeterminados, debe agregarlos de forma explícita al archivo de configuración. Para obtener información acerca de cómo cambiar el comportamiento de deshidratación predeterminado, consulte [cómo modificar configuración de la limitación de orquestación](../core/how-to-modify-orchestration-throttling-settings.md). Para obtener información acerca de la limitación de memoria de orquestación, consulte [cómo modificar configuración de limitación de orquestación memoria](../core/how-to-modify-orchestration-memory-throttling-settings.md).  
   
- A continuación figura el contenido del archivo BTSNTSvc.exe.config. Este archivo siempre se encuentra en el mismo directorio que el archivo BTSNTSvc.exe, que normalmente está en C:\Archivos de programa\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+ A continuación figura el contenido del archivo BTSNTSvc.exe.config. Este archivo siempre se encuentra en el mismo directorio que el archivo BTSNTSvc.exe, que normalmente es C:\Program Files\Microsoft BizTalk Server.  
   
 ```  
 <?xml version="1.0" ?>  
@@ -51,4 +51,4 @@ Las propiedades de deshidratación y sus valores predeterminados se pueden confi
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Mediante el panel de configuración de BizTalk Server ajuste del rendimiento](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
+ [Uso del panel de configuración para ajustar el rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

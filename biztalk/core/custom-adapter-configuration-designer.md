@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e876892b3eef9e5dd47c51c64997d84a0f0dc98
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5cff46f95062eff856653b6114f76f89ac17efd1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="custom-adapter-configuration-designer"></a>Diseñador de configuración de adaptador personalizado
 Deberá crear una biblioteca de clases .NET a partir de los diseñadores personalizados. Puede integrarlos al DLL del adaptador o crear un DLL distinto.  Una vez creado un ensamblado de diseñador debe hacer referencia a él mediante decoraciones, como lo haría con una descripción o categoría. La referencia incluye una especificación del ensamblado y un nombre completo de clase para su uso.  
@@ -35,7 +35,7 @@ Deberá crear una biblioteca de clases .NET a partir de los diseñadores persona
   
  Puede arrastrar el ensamblado hasta la caché de ensamblados global o usar GACUTIL para agregarlo a ella.  
   
- Para usar este diseñador, especifique el nombre completo de clase, una coma y la entrada de la caché de ensamblados global (nombre de ensamblado, versión, referencia cultural y token de clave pública) como valor de la decoración. Use \<editor > decoraciones para **UITypeEditor** implementaciones y \<convertidor > decoraciones para **TypeConverter** implementaciones.  
+ Para usar este diseñador, especifique el nombre completo de clase, una coma y la entrada de la caché de ensamblados global (nombre de ensamblado, versión, referencia cultural y token de clave pública) como valor de la decoración. Use \<editor\> decoraciones para **UITypeEditor** implementaciones y \<convertidor\> decoraciones para **TypeConverter** implementaciones .  
   
  En el código siguiente se muestra cómo inicializar los diseñadores personalizados en un archivo XSD:  
   

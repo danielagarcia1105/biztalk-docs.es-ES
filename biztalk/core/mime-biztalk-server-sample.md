@@ -18,11 +18,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e948aeca31d3eb9908d6933f5ac375bce206761
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec6e6e290761ba6d1be2ed08c8519e96c2846fa7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mime-biztalk-server-sample"></a>MIME (ejemplo de BizTalk Server)
 El ejemplo MIME muestra cómo se realiza la codificación MIME en una canalización de envío.  
@@ -39,7 +39,7 @@ El ejemplo MIME muestra cómo se realiza la codificación MIME en una canalizaci
 4.  En la canalización de envío, realizar la codificación MIME y colocar el archivo en la carpeta MIMEOut del adaptador de envío.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Pipelines\MIME\  
+ \<*Ejemplos de ruta de acceso*\>\Pipelines\MIME\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -59,13 +59,13 @@ El ejemplo MIME muestra cómo se realiza la codificación MIME en una canalizaci
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Pipelines\MIME  
+     \<*Ejemplos de ruta de acceso*\>\Pipelines\MIME  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (MIMEIn) y de salida (MIMEOut) de este ejemplo en la carpeta:  
   
-         \<*Ejemplos de ruta de acceso*> \Pipelines\MIME  
+         \<*Ejemplos de ruta de acceso*\>\Pipelines\MIME  
   
     -   Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   

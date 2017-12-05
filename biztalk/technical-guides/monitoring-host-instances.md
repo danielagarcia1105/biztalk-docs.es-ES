@@ -12,17 +12,17 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 561c40e791d82b28060a45ada51bebed4cd784c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b41dd0e01aa1e28862a3e99cfc767b3dd6ddec3c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-host-instances"></a>Supervisión de instancias de Host
 Este tema describe supervisión instancias de host de BizTalk mediante Microsoft System Center Operations Manager.  
   
 ## <a name="using-threshold-rules-to-monitor-health"></a>Uso de reglas de umbral para supervisar el estado  
- El [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] módulo de administración incorpora reglas de umbral de rendimiento que proporcionan una vista completa del estado de los hosts de BizTalk. Se proporcionan dos tipos distintos de reglas de umbral:  
+ El módulo de administración de BizTalk Server incorpora reglas de umbral de rendimiento que proporcionan una vista completa del estado de los hosts de BizTalk. Se proporcionan dos tipos distintos de reglas de umbral:  
   
 -   Reglas que se aplican genéricamente (por ejemplo, para todos los hosts de BizTalk y a todas las bases de datos de cuadro de mensajes).  
   
@@ -39,7 +39,7 @@ Este tema describe supervisión instancias de host de BizTalk mediante Microsoft
 -   Debe crear reglas de específico del host de BizTalk en función de los umbrales adecuados y reglas de plantilla.  
   
 ## <a name="monitoring-biztalk-host-instances"></a>Supervisar instancias de Host de BizTalk  
- Las reglas dirigidas a hosts específicos de BizTalk son más flexibles desde la perspectiva de supervisión. Umbral de todas las reglas de supervisión para el host de BizTalkServerApplication proporcionado en el [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] módulo de administración son reglas de plantilla. Para usar estas reglas, debe usar la consola de administrador de Operations Manager para:  
+ Las reglas dirigidas a hosts específicos de BizTalk son más flexibles desde la perspectiva de supervisión. Todas las reglas de supervisión de umbral para el host de BizTalkServerApplication proporcionado en el módulo de administración de BizTalk Server son reglas de plantilla. Para usar estas reglas, debe usar la consola de administrador de Operations Manager para:  
   
 -   Crear una copia de la regla de plantilla en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] grupo de reglas y cambie su nombre.  
   

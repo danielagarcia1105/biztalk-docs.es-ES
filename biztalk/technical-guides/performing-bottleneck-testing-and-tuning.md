@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d21b558f75824340718f7bd6efa3f10ae9926ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27d2e0ed3c8298287471b60d87b199fcfc800e61
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="performing-bottleneck-testing-and-tuning"></a>Realización de pruebas y ajustes de cuello de botella
 Debe completar las pruebas de rendimiento para determinar los cuellos de botella en el sistema y para optimizar el sistema en consecuencia.  
@@ -33,7 +33,7 @@ Debe completar las pruebas de rendimiento para determinar los cuellos de botella
 ## <a name="testing-the-end-to-end-system"></a>Pruebas del sistema to-End  
  Pruebas de las tasas de entrada y salidas, como se describe en la sección anterior es una manera eficaz para aislar el rendimiento del subsistema de aplicación, aunque no se describe el rendimiento de extremo a extremo. También debe probar el rendimiento de extremo a extremo porque no se puede identificar algunos cuellos de botella hasta que empieza a varios recursos compitan por el mismo recurso compartido (por ejemplo, la base de datos de cuadro de mensajes).  
   
- Para generar una carga en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, considere el uso de la herramienta de Microsoft BizTalk LoadGen 2007. Para obtener más información acerca de la herramienta LoadGen 2007 vea [Microsoft BizTalk LoadGen 2007](http://go.microsoft.com/fwlink/?LinkID=59841) (http://go.microsoft.com/fwlink/?LinkID=59841).  
+ Para generar una carga en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, considere el uso de la herramienta de Microsoft BizTalk LoadGen 2007. Descargar [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925).  
   
  Para generar y analizar un informe de rendimiento para un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, considere el uso de la herramienta de análisis de rendimiento de registros (PAL). Para obtener más información acerca de la herramienta de la PAL, vea [mediante la herramienta de análisis de rendimiento de registros (PAL)](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).  
   

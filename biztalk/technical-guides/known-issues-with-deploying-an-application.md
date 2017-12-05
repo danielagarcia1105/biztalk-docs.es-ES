@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09970e43bd53306a6394eeffc4c2e642a8333dbc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7fa139469ea8718c3d4430235ffb576195e67a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-deploying-an-application"></a>Problemas conocidos con la implementación de una aplicación
 ## <a name="deploying-a-biztalk-application"></a>Implementar una aplicación de BizTalk  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="exporting-a-biztalk-application"></a>Exportar una aplicación de BizTalk  
  **Se mostrará un error incorrecto al instalar un archivo .msi en Windows Vista**  
   
- Al instalar un paquete .msi exportado mediante [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en Windows Vista®, recibirá el siguiente mensaje de error, "el instalador ha encontrado un error inesperado al instalar este paquete. Esto puede deberse a un problema del paquete. El código de error es 2869". Para corregir este error, primero importe el paquete mediante [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y, a continuación, volver a exportar e instalar el paquete.  
+ Al instalar un paquete .msi exportado mediante [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] en BizTalk Server con Windows Vista®, recibirá el siguiente mensaje de error, "el instalador ha encontrado un error inesperado al instalar este paquete. Esto puede deberse a un problema del paquete. El código de error es 2869". Para corregir este error, primero importe el paquete con BizTalk Server y, a continuación, volver a exportar e instalar el paquete.  
   
 ## <a name="importing-a-biztalk-application"></a>Importar una aplicación de BizTalk  
  **Las contraseñas no se quitan de archivos que se agrega a una aplicación de enlace**  
@@ -55,4 +55,4 @@ ms.lasthandoff: 09/20/2017
  Si crea un filtro para un puerto de envío en una aplicación que utilice un esquema de propiedades en otra aplicación y si, a continuación, importa la primera aplicación en un nuevo grupo de BizTalk, no recibirá ninguna advertencia de la falta del esquema, y el filtrado no se efectuará una vez instalada e iniciada la aplicación. Puede corregir el problema importando la aplicación que contiene el esquema antes de instalar la aplicación que no contiene el esquema.  
   
 ## <a name="see-also"></a>Vea también  
- [Implementar una aplicación](../technical-guides/deploying-an-application.md)
+ [Implementación de una aplicación](../technical-guides/deploying-an-application.md)

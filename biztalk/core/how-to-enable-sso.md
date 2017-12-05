@@ -21,11 +21,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f51b07bc34779643124efd5b249373301f7e47b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a843c0f6cdea32ba5218140069163058fcd42442
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-sso"></a>Cómo habilitar SSO
 Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial mediante el Complemento MMC o la línea de comandos.  
@@ -46,7 +46,7 @@ Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial me
   
 1.  Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 3.  Tipo de **ssomanage – enablesso**.  
   
@@ -59,7 +59,7 @@ Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial me
   
 2.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-3.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad >*: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **ssomanage - enablesso** para habilitar el servicio de Enterprise Single Sign-On.  
   
@@ -68,7 +68,7 @@ Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial me
   
 5.  Inicie sesión como administrador afiliado de SSO  
   
-6.  Tipo de **ssomanage - createapps  *\<archivo de aplicación >***  para crear una aplicación afiliada, donde \<archivo de aplicación > es el archivo XML que contiene definiciones para las aplicaciones afiliadas.  
+6.  Tipo de **ssomanage - createapps  *\<archivo de la aplicación\>***  para crear una aplicación afiliada, donde \<archivo de la aplicación\> es el archivo XML que contiene las definiciones de las aplicaciones afiliadas.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

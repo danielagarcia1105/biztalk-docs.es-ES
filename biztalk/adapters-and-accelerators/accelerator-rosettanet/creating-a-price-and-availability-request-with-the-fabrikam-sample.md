@@ -13,18 +13,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 914988661789fdb7750e9c9b650f9887d888694b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d0619dc77496fd1547505221ff2f437bf486fb8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-price-and-availability-request-with-the-fabrikam-sample"></a>Crear un precio y una solicitud de disponibilidad con el ejemplo de Fabrikam
 En este paso, creará una solicitud de precio y disponibilidad 3A2 mediante la herramienta de LOBWebApplication.  
   
 ### <a name="to-submit-a-3a2-price-and-availability-request-to-contoso"></a>Para enviar una solicitud de precio y disponibilidad 3A2 a Contoso  
   
-1.  En el Explorador de Internet, vaya a http://\<*fabrikam_computername*> / LOBWebApplication/default.aspx.  
+1.  En el Explorador de Internet, vaya a http://\<*fabrikam_computername*\>/LOBWebApplication/default.aspx.  
   
 2.  En el **LOBWebApplication** página, realice lo siguiente:  
   
@@ -36,7 +36,7 @@ En este paso, creará una solicitud de precio y disponibilidad 3A2 mediante la h
     |**Versión PIP**|Tipo de **R02.00.00A**.|  
     |**Categoría de mensaje**|Escriba **Acción**.|  
   
-3.  Con el Bloc de notas u otro editor de texto, abra el **3A2_Request.xml** archivo en C:\Program Files\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBApplication\SampleInstancesfolder y copiar y Pegue el texto en el **contenido de servicio** campo en la herramienta de LOBWebApplication.  
+3.  Con el Bloc de notas u otro editor de texto, abra el **3A2_Request.xml** archivo en C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication\SampleInstancesfolder Copie y pegue el texto en el **contenido de servicio** campo en la herramienta de LOBWebApplication.  
   
 4.  Haga clic en **enviar** para enviar la solicitud de 3A2 a Contoso.  
   
@@ -53,7 +53,7 @@ En este paso, creará una solicitud de precio y disponibilidad 3A2 mediante la h
   
 4.  En Microsoft SQL Server Management Studio, haga clic en **Nueva consulta**.  
   
-5.  En el  **\<tabla > texto** cuadro de diálogo, seleccione **BTARNDATA** en la lista.  
+5.  En el  **\<tabla\> texto** cuadro de diálogo, seleccione **BTARNDATA** en la lista.  
   
 6.  En el **SQL** ventana, escriba la siguiente instrucción SQL:  
   
@@ -76,7 +76,7 @@ En este paso, creará una solicitud de precio y disponibilidad 3A2 mediante la h
   
 3.  En Microsoft SQL Server Management Studio, haga clic en **Nueva consulta**.  
   
-4.  En el  **\<tabla > texto** cuadro de diálogo, seleccione **BTARNDATA** en la lista.  
+4.  En el  **\<tabla\> texto** cuadro de diálogo, seleccione **BTARNDATA** en la lista.  
   
 5.  En el **SQL** ventana, escriba la siguiente instrucción SQL:  
   
@@ -105,4 +105,4 @@ En este paso, creará una solicitud de precio y disponibilidad 3A2 mediante la h
     >  Debería ver un mensaje de 25 de categoría que representa la confirmación de recepción enviada desde Contoso en el equipo de Fabrikam. También verá un mensaje de categoría 50 que representa la respuesta enviada desde la aplicación de Contoso línea de negocio (LOB) en el equipo de Fabrikam.  
   
 ## <a name="see-also"></a>Vea también  
- [Tutorial de procesos privado](../../adapters-and-accelerators/accelerator-rosettanet/private-process-tutorial.md)
+ [Tutorial de procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/private-process-tutorial.md)

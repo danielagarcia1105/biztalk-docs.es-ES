@@ -18,11 +18,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 540cd06f15ae95dba41636418be273a78c39f447
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fd689cbf378f41578c5f46b3067410a184cf650
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a>Ejecutar una operación Insert en la base de datos de Oracle mediante el modelo de canal de WCF
 Esta sección muestra cómo insertar un registro en una base de datos de Oracle mediante el uso de un canal. Debe especificar un cuerpo del mensaje y una acción de mensaje cuando se envía un mensaje.  
@@ -31,9 +31,9 @@ Esta sección muestra cómo insertar un registro en una base de datos de Oracle 
  El siguiente XML muestra un cuerpo del mensaje para una operación de inserción en el recursos humanos. Tabla de empleados. El conjunto de registros consta de un registro de empleado único. Para obtener más información acerca del esquema de un mensaje de inserción, vea [esquemas de mensaje para insertar básico, Update, Delete y seleccione operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md). Este es el contenido del archivo Employee_Insert.xml usado en el ejemplo.  
   
 ```  
-\<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
+<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
 <Insert xmlns="http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES">  
-    \<RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
+    <RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
         <EMPLOYEESRECORDINSERT>  
             <EMPLOYEE_ID>0</EMPLOYEE_ID>  
             <FIRST_NAME>Anton</FIRST_NAME>  

@@ -19,11 +19,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4913dbfa6f3d027d5540234b5af9370eb69f67a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d6e7f9f70e6f1f0f09ae1d006172fdc00dc1bc0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a>Cómo implementar o anular la implementación de una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para implementar o anular la implementación de una directiva de forma manual. Además, al iniciar una aplicación, las directivas que contenga se implementan automáticamente, y cuando se detiene, se anula de forma automáticamente la implementación de las directivas correspondientes. Al implementar una directiva, entra en vigor en la aplicación que la usa. Al anular la implementación de una directiva, se desactiva de modo que deja de funcionar en cualquier aplicación del grupo de BizTalk que la use.  
@@ -43,7 +43,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene la directiva que desea implementar o anular la implementación y, a continuación, expanda  **\<todos los artefactos >**.  
+2.  En el árbol de consola, expanda **administración de BizTalk Server**, expanda el grupo de BizTalk que contiene la directiva que desea implementar o anular la implementación y, a continuación, expanda  **\<todos los artefactos\>** .  
   
 3.  Haga clic en **directivas**, haga clic en la directiva y, a continuación, haga clic en **implementar** o **anular la implementación**.  
   

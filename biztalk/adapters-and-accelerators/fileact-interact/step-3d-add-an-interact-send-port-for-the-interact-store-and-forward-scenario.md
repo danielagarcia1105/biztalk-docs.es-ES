@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ac1d379f2e68431f197f2db339cd0ac9f50c92e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 11b4e17a4435c5d9e6e99cd3ed471fa8819923e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3d-add-an-interact-send-port-for-the-interact-store-and-forward-scenario"></a>Paso 3D: agregar un puerto de envío de interacción para el almacén de interacción y el escenario de reenvío
 Completa [paso 3c: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleRequest para el almacén de interacción y reenviar escenario](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md) antes de comenzar este paso.
@@ -41,11 +41,11 @@ Completa [paso 3c: agregar un puerto de envío de archivo para capturar el mensa
     |**Nombre de usuario.**|Defina el nombre de usuario según corresponda para la conectividad SAG.|  
     |**Formato de mensaje**|**InteractMessage**|  
     |**Indicador de sin repudio**|**FALSE**|  
-    |**Tipo de solicitud**|Escriba la correspondiente \<RequestType > cadena, según su aprovisionamiento con SWIFT.|  
+    |**Tipo de solicitud**|Escriba la correspondiente \<RequestType\> cadena, según su aprovisionamiento con SWIFT.|  
     |**ResponseCrypto**|**FALSE**|  
-    |**Solicitante**|Escriba la correspondiente \<RequestorDN > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Servicio de respuesta**|Escriba la correspondiente \<ResponderDN > cadena, según su aprovisionamiento con SWIFT.|  
-    |**Nombre del servicio**|Escriba la correspondiente \<nombre del servicio >, en función de su aprovisionamiento con SWIFT.|  
+    |**Solicitante**|Escriba la correspondiente \<RequestorDN\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Servicio de respuesta**|Escriba la correspondiente \<ResponderDN\> cadena, según su aprovisionamiento con SWIFT.|  
+    |**Nombre del servicio**|Escriba la correspondiente \<nombre del servicio\>, en función de su aprovisionamiento con SWIFT.|  
     |**Notificación de entrega**|En la lista desplegable, seleccione **FALSE**.|  
     |**Cola de notificación**|Escriba el nombre de la cola apropiada, en función de su aprovisionamiento con SWIFT.|  
   
@@ -77,4 +77,4 @@ Completa [paso 3c: agregar un puerto de envío de archivo para capturar el mensa
  [Paso 3: Crear puertos de envío y puertos de recepción para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-interact-store-and-forward-scenario.md)   
  [Paso 3A: agregar un archivo de ubicación de recepción para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-interact-store-and-forward-scenario.md)   
  [Paso 3B: agregar un INTERACTÚE ubicación de recepción para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-3b-add-interact-receive-location-for-interact-store-and-forward-scenario.md)   
- [Paso 3c: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleRequest para el almacén de interacción y el escenario de reenvío](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md)  
+ [Paso 3C: Agregar un puerto de envío de ARCHIVOS para capturar el mensaje Sw:HandleRequest para el escenario de almacenamiento y reenvío de InterAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md)  

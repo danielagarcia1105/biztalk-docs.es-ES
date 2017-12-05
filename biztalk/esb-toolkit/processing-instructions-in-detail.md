@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 532721c347189f2e3d4db9e57b2afc3aa45b76db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9cf0a726d2c8c4f6242ed19a7dcd1e5430775e63
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="processing-instructions-in-detail"></a>Instrucciones de procesamiento en detalle
-Este tema describe el formato y la estructura del esquema de propiedad al sistema-Properties.xsd, que define varias propiedades de contexto necesarias para el procesamiento de itinerarios. Estas propiedades se promocionan cuando se recibe un mensaje y se procesan a través de [!INCLUDE[prague](../includes/prague-md.md)] canalizaciones; porque son propiedades promocionadas, son accesibles para los componentes de BizTalk Server. Las siguientes propiedades se definen en el esquema de propiedades del sistema-Properties.xsd:  
+Este tema describe el formato y la estructura del esquema de propiedad al sistema-Properties.xsd, que define varias propiedades de contexto necesarias para el procesamiento de itinerarios. Estas propiedades se promocionan cuando se recibe un mensaje y se procesan a través de canalizaciones de BizTalk Server; Dado que son las propiedades promocionadas, son accesibles a los componentes de BizTalk Server. Las siguientes propiedades se definen en el esquema de propiedades del sistema-Properties.xsd:  
   
 -   **ItineraryHeader.** Esta propiedad contiene toda la información de itinerarios y una lista de servicios itinerarios para invocarse a través de una secuencia de pasos de itinerarios. La API de itinerario utiliza internamente esta propiedad.  
   

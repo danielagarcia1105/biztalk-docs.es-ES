@@ -13,11 +13,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82bfb1782c6bccdafe4f69326cddff0f49974386
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 5b6850a1b8c3b0cb5d1356078fce8dc8f50c6963
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-sql-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de SQL
 Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].  
@@ -66,7 +66,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  El adaptador produce el siguiente error al realizar cualquier operación en una base de datos de SQL Server mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **Para[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **Para que BizTalk Server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -123,26 +123,26 @@ ErrorCode:5
   
  **Resolución**  
   
--   **Para[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **Para que BizTalk Server**  
   
-    1.  Especifique el tiempo de espera para el adaptador de WCF en el archivo machine.config. Navegue hasta el archivo machine.config en \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG y agregue el extracto que tiene el siguiente aspecto.  
+    1.  Especifique el tiempo de espera para el adaptador de WCF en el archivo machine.config. Navegue hasta el archivo machine.config en \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG y agregue el extracto que tiene el siguiente aspecto.  
   
         ```  
         <configuration>  
-         \<system.transactions>  
+         <system.transactions>  
           <machineSettings maxTimeout="02:00:00" />  
-         \</system.transactions>  
+         </system.transactions>  
         </configuration>  
         ```  
   
          Con esta configuración, el tiempo de espera del adaptador WCF se establece en 2 horas.  
   
-    2.  Especifique la configuración de tiempo de espera para las transacciones de MSDTC en el archivo machine.config. Navegue hasta el archivo machine.config en \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG y agregue el extracto que tiene el siguiente aspecto.  
+    2.  Especifique la configuración de tiempo de espera para las transacciones de MSDTC en el archivo machine.config. Navegue hasta el archivo machine.config en \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG y agregue el extracto que tiene el siguiente aspecto.  
   
         ```  
-        \<system.transactions>   
+        <system.transactions>   
                 <defaultSettings distributedTransactionManagerName="<computer_name>" timeout="02:00:00"/>   
-            \</system.transactions>  
+            </system.transactions>  
   
         ```  
   

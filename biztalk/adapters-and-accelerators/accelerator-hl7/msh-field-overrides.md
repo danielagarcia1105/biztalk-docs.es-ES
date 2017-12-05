@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82603ded113fa25c839661fb7874d97f8b3bb074
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7303de4a8054cfe9f7140bd6eb548c228248777c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="msh-field-overrides"></a>Invalidaciones de campo de MSH
 Cada mensaje HL7 tiene un encabezado del mensaje. Usar [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], puede reemplazar cualquier valor de encabezado de mensaje en función de sus necesidades de negocio. Usa el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración explorador **MSH mapa** tab para manualmente invalidar los valores de encabezado de mensaje sin utilizar ninguna asignación o una orquestación.  
@@ -37,7 +37,7 @@ Cada mensaje HL7 tiene un encabezado del mensaje. Usar [!INCLUDE[btaBTAHL7NoNumb
   
 #### <a name="to-open-btahl7-configuration-explorer"></a>Para abrir el Explorador de configuración de BTAHL7  
   
--   Haga clic en **iniciar**, haga clic en **programas**, haga clic en **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+-   Haga clic en **iniciar**, haga clic en **programas**, haga clic en **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 #### <a name="to-configure-msh-field-overrides"></a>Para configurar invalidaciones de campo de MSH  
   
@@ -63,4 +63,4 @@ Cada mensaje HL7 tiene un encabezado del mensaje. Usar [!INCLUDE[btaBTAHL7NoNumb
 ## <a name="see-also"></a>Vea también  
  [Configuración de registro](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)   
  [Procesamiento por lotes de mensajes](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)   
-[Registro operativo, el procesamiento por lotes de mensajes, validación y configuración de asknowledgment](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)
+[Registro operativo, procesamiento de mensajes por lotes, validación y configuración de confirmaciones](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)

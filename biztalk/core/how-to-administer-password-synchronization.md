@@ -22,11 +22,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b85fd34a016fe013f10dd618dd551c9467d4b530
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ddd696da8b4cab24a8de6a4b5d8ac8f26856f7e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-administer-password-synchronization"></a>Cómo administrar la sincronización de contraseña
 La sincronización de contraseñas puede administrarse desde el Complemento MMC o desde la línea de comandos.  
@@ -83,7 +83,7 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
 4.  Tipo de **ssops-lista** y presione ENTRAR.  
   
@@ -95,9 +95,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-mostrar \<nombre del adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-mostrar \<nombre de adaptador\>**  y presione ENTRAR.  
   
      La pantalla presentará información detallada del adaptador que se haya especificado.  
   
@@ -130,9 +130,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-crear \<archivo adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-crear \<archivo adaptador\>**  y presione ENTRAR.  
   
      La pantalla presentará información detallada del adaptador que se acaba de crear.  
   
@@ -142,9 +142,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops - setprops \<nombre del adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops - setprops \<nombre de adaptador\>**  y presione ENTRAR.  
   
      La pantalla presentará las propiedades del adaptador que se haya especificado. Si es necesario, puede editarlas, aunque los valores nuevos no se validarán.  
   
@@ -154,9 +154,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-actualizar \<archivo adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-actualizar \<archivo adaptador\>**  y presione ENTRAR.  
   
      Utilice este comando para actualizar los parámetros e indicadores de un adaptador concreto. No utilice este comando para la definición de propiedades. En su lugar, utilice -setprops.  
   
@@ -166,9 +166,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-eliminar \<nombre del adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-eliminar \<nombre de adaptador\>**  y presione ENTRAR.  
   
      El adaptador especificado se eliminará.  
   
@@ -178,9 +178,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-habilitar \<nombre del adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-habilitar \<nombre de adaptador\>**  y presione ENTRAR.  
   
      El adaptador especificado quedará habilitado.  
   
@@ -190,9 +190,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-deshabilitar \<nombre del adaptador >** y presione ENTRAR.  
+4.  Tipo de **ssops-deshabilitar \<nombre de adaptador\>**  y presione ENTRAR.  
   
      El adaptador especificado quedará deshabilitado.  
   
@@ -202,9 +202,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops - addapp \<nombre del adaptador > \<nombre de aplicación >** y presione ENTRAR.  
+4.  Tipo de **ssops - addapp \<nombre de adaptador\> \<nombre de la aplicación\>**  y presione ENTRAR.  
   
      La aplicación de SSO especificada quedará asignada al adaptador especificado. Esto significa que las contraseñas de las asignaciones de dicha aplicación no se sincronizarán con este adaptador.  
   
@@ -216,9 +216,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops - deleteapp \<nombre de aplicación >** y presione ENTRAR.  
+4.  Tipo de **ssops - deleteapp \<nombre de la aplicación\>**  y presione ENTRAR.  
   
      La aplicación de SSO especificada quedará eliminada del adaptador especificado. Puesto que una aplicación sólo puede tener asignado un adaptador, no será necesario especificar el nombre del adaptador.  
   
@@ -228,9 +228,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops-reset \<nombre de adaptador &#124; todas las &#124; cambios de contraseñas >** y presione ENTRAR.  
+4.  Tipo de **ssops-reset \<nombre de adaptador &#124; todas las &#124; cambios de contraseñas\>**  y presione ENTRAR.  
   
      Este comando deja vacías la cola de la tabla histórica de cambios de contraseñas y la cola de notificaciones de uno adaptador o de todos, según se especifique. La tabla histórica de cambios de contraseñas almacena un historial de cambio de contraseñas cada 10 minutos. Antes de aceptar o enviar un cambio de contraseña, el sistema de SSO empresarial verifica la tabla histórica de cambios de contraseñas para comprobar si se ha efectuado dicho cambio recientemente. Si es así, la contraseña nueva queda descartada.  
   
@@ -240,9 +240,9 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops - addtogroup \<nombre del adaptador > \<grupo de adaptadores >** y presione ENTRAR.  
+4.  Tipo de **ssops - addtogroup \<nombre de adaptador\> \<grupo de adaptadores\>**  y presione ENTRAR.  
   
      Este comando permite agregar el adaptador especificado al grupo de adaptadores especificado. Mientras que un adaptador puede pertenecer a un solo grupo de adaptadores, un grupo de adaptadores puede contener varios adaptadores.  
   
@@ -252,11 +252,11 @@ La sincronización de contraseñas puede administrarse desde el Complemento MMC 
   
 2.  En el **ejecutar** cuadro de diálogo, escriba **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad >: \Program Files\Common Files\Enterprise Single Sign-On.  
+3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El valor predeterminado es \<unidad\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssops - deletefromgroup \<nombre del adaptador > \<grupo de adaptadores >** y presione ENTRAR.  
+4.  Tipo de **ssops - deletefromgroup \<nombre de adaptador\> \<grupo de adaptadores\>**  y presione ENTRAR.  
   
      Este comando permite eliminar el adaptador especificado del grupo de adaptadores especificado.  
   
 ## <a name="see-also"></a>Vea también  
- [Sincronización de contraseña](../core/password-synchronization2.md)
+ [Sincronización de contraseñas](../core/password-synchronization2.md)

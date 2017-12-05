@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c09514abf0576daeecf42e87f39467443d45f47e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 07a27fbfa906a258f0dd3d3e476a30ad5773885d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edifact-transaction-sets-aperak-iftrin"></a>Conjuntos de transacciones de EDIFACT APERAK-IFTRIN
-En este tema se enumeran los conjuntos de transacciones de EDIFACT que admite [!INCLUDE[prague](../includes/prague-md.md)].  
+Este tema enumeran los conjuntos de transacciones de EDIFACT que son compatibles con BizTalk Server.  
   
  En este tema se incluyen los siguientes conjuntos de transacciones:  
   

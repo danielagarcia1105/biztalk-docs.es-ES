@@ -16,11 +16,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0e16577e8bb7e9d624b6ba38211cf04b84a234be
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 410bfed33402d8d810434e7ff9287fa5c01462da
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-pop3-receive-location"></a>Cómo configurar un adaptador de POP3
 Se pueden establecer variables de adaptador de ubicación de recepción de POP3 en la consola de administración de BizTalk Server. Si no se definen las propiedades en la ubicación de recepción, se utilizarán los valores predeterminados del controlador de recepción definidos en la consola de administración de BizTalk Server.  
@@ -47,7 +47,7 @@ Se pueden establecer variables de adaptador de ubicación de recepción de POP3 
     |**Índice de parte del cuerpo**|Especificar la parte del cuerpo del mensaje de correo electrónico entrante que se va a enviar a BizTalk Server. Vea [¿qué es el adaptador de POP3?](../core/what-is-the-pop3-adapter.md) para obtener más información.<br /><br /> Valor predeterminado: 0|  
     |**Servidor de correo electrónico**|Especificar el servidor de correo POP3 que aloja el buzón que sondeará el adaptador de POP3. **Nota:** el URI para un envío de puerto o recibir ubicación no puede superar los 256 caracteres.|  
     |**Puerto**|Especificar el puerto del servidor de correo POP3.<br /><br /> Valores válidos: de 1 a 65535 inclusive.<br /><br /> Valor predeterminado: 0 **Nota:** un valor de 0 indica que se use el puerto POP3 predeterminado 110 si **usar SSL** es `False` o el puerto 995 si **usar SSL** es `True`.|  
-    |**Esquema de autenticación**|Especificar el tipo de autenticación que se utilizará con el servidor de destino.<br /><br /> Las opciones válidas son:<br /><br /> -   **Básico**<br />-   **Resumen**<br />-   **SPA** **Nota:** cuando utiliza la autenticación SPA, se debe especificar el nombre de usuario con uno de los siguientes formatos: las cuentas de dominio deben escribirse con la sintaxis: \<nombre de dominio >\\< nombre de usuario\> cuentas locales deben escribirse con la sintaxis: \<nombre de equipo >\\< nombre de usuario\>|  
+    |**Esquema de autenticación**|Especificar el tipo de autenticación que se utilizará con el servidor de destino.<br /><br /> Las opciones válidas son:<br /><br /> -   **Básico**<br />-   **Resumen**<br />-   **SPA** **Nota:** cuando utiliza la autenticación SPA, se debe especificar el nombre de usuario con uno de los siguientes formatos: las cuentas de dominio deben escribirse con la sintaxis: \<nombre de dominio\> \\< nombre de usuario\> cuentas locales deben escribirse con la sintaxis: \<nombre de la máquina\>\\< nombre de usuario\>|  
     |**Contraseña**|Especificar la contraseña de usuario que se utilizará para la autenticación con el servidor POP3.|  
     |**Usar SSL**|Especificar si se utilizará Capa de sockets seguros (SSL) para establecer la comunicación con el servidor de destino.<br /><br /> Valor predeterminado:`False`|  
     |**Nombre de usuario**|Especificar el nombre de usuario que se utilizará para la autenticación con el servidor POP3. Esta propiedad necesita un valor. **Nota:** la cuenta especificada para la propiedad de nombre de usuario debe tener la capacidad de inicio de sesión a la red. El adaptador de POP3 se conecta al buzón asociado con la cuenta especificada para la propiedad Nombre de usuario. Por esta razón, el adaptador de POP3 no se puede usar para conectarse a un buzón que no sea el asignado a la cuenta especificada. Por ejemplo, aunque varias cuentas tengan permisos de lectura para el buzón asociado con una cuenta concreta, solo se puede especificar el nombre de cuenta real para el Nombre de usuario.|  
@@ -66,4 +66,4 @@ Se pueden establecer variables de adaptador de ubicación de recepción de POP3 
 >  Después de que el adaptador de POP3 haya recuperado correctamente un mensaje de correo electrónico de un buzón de destino, lo eliminará de éste. Este comportamiento forma parte del diseño predeterminado para ayudar a evitar que el adaptador de POP3 recupere varias copias de un mensaje de correo electrónico. No configure una ubicación de recepción de POP3 para que supervise un buzón si no se desea eliminar el correo electrónico del buzón.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el adaptador de POP3](../core/configuring-the-pop3-adapter.md)
+ [Configuración del adaptador de POP3](../core/configuring-the-pop3-adapter.md)

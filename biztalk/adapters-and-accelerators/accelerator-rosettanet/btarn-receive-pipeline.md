@@ -22,11 +22,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80d7d5951b40b5c76b533e6425ee4d898b41c6cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db4bc69348cfb99b5e7cebb07c65e05a0513cd0e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="btarn-receive-pipeline"></a>Canalización de recepción de BTARN
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] realiza la recepción de mensajes de RosettaNet Implementation Framework (RNIF) con la canalización de RNIFReceive (RNIFReceive.btp). La canalización de recepción incluye los siguientes componentes:  
@@ -45,16 +45,16 @@ ms.lasthandoff: 09/20/2017
  Este componente almacena el mensaje recibido en la tabla MessageStorageIn. Este componente realiza el procesamiento sin repudio requerido por los estándares RNIF.  
   
 ## <a name="rnmimedecoder"></a>RNMimeDecoder  
- Este componente se basa en nativo [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] preprocesador y descodificador MIME. RNMimeDecoder agrega la siguiente funcionalidad para el procesamiento de RNIF:  
+ Este componente se basa en el nativo BizTalk Server preprocesador y descodificador MIME. RNMimeDecoder agrega la siguiente funcionalidad para el procesamiento de RNIF:  
   
 -   Para RNIF 2.01, descifra el contenido del servicio y los datos adjuntos, si están presentes.  
   
 -   Para RNIF 1.1, controla el encabezado de 8 bytes y el encabezado de firma desasociada al final de la carga.  
   
- Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocesador y descodificador, vea "Componente de canalización de descodificador MIME/SMIME" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] preprocesador y descodificador, consulte "Componente de canalización de descodificador MIME/SMIME" en la Ayuda de BizTalk Server.  
   
 ## <a name="rndasm"></a>RNDAsm  
- Este componente se basa en nativo [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] desensamblador XML. RNDAsm agrega la siguiente funcionalidad para el procesamiento de RNIF:  
+ Este componente se basa en el Desensamblador de XML de servidor nativa de BizTalk. RNDAsm agrega la siguiente funcionalidad para el procesamiento de RNIF:  
   
 -   Si un documento entrante tiene un encabezado de tipo de documento, este componente genera un espacio de nombres del mismo y mueve todos los nodos del documento entrante a ese espacio de nombres.  
   
@@ -64,16 +64,16 @@ ms.lasthandoff: 09/20/2017
   
 -   Promociona las propiedades de mensaje.  
   
- Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Desensamblador, vea "Componente de canalización de desensamblador XML" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Desensamblador, consulte "Componente de canalización de desensamblador XML" en la Ayuda de BizTalk Server.  
   
 ## <a name="rnpartyres"></a>RNPartyRes  
- Este componente se basa en nativo [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] componente resolución de entidades. RNPartyRes agrega la siguiente funcionalidad para el procesamiento de RNIF:  
+ Este componente se basa en el componente de resolución de entidades de BizTalk Server nativo. RNPartyRes agrega la siguiente funcionalidad para el procesamiento de RNIF:  
   
 -   Si el mensaje entrante está firmado a una entidad de BizTalk se asigna el certificado del remitente. Si el mensaje entrante no está firmado y permite el acuerdo de socio comercial, este componente recupera la entidad del remitente del encabezado de entrega para RNIF 2.01 o el encabezado de servicio para RNIF 1.1.  
   
 -   Valida que el remitente existe y que el remitente tiene un acuerdo de socio comercial con la organización principal.  
   
- Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] componente de resolución de terceros, consulte "Componente de canalización de resolución de entidad" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] componente de resolución de terceros, consulte "Componente de canalización de resolución de entidad" en la Ayuda de BizTalk Server.  
   
 ## <a name="messageupdater"></a>MessageUpdater  
  Este componente agrega la siguiente funcionalidad para el procesamiento de RNIF:  

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a42fb3ca8381faedbd2283b9f4d297738bbb040d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 01e445ef19a1d65cc97a3603492a1ad9ba0442e9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-updating-applications-and-artifacts"></a>Problemas conocidos de actualización de las aplicaciones y artefactos
 ## <a name="updating-an-application"></a>Actualizar una aplicación  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
  **No se admiten archivos de directivas de .NET**  
   
- No se admite el uso de archivos de directiva de .NET en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. ya que es posible que los archivos de directiva no funcionen de la forma esperada. Archivos de directiva redirigen a .NET a una versión de ensamblado especificado en la GAC, pero [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suele tener acceso a los ensamblados y datos de artefactos de una memoria caché o la base de datos de administración de BizTalk. Según el tipo de artefacto, la situación de almacenamiento en caché y el reinicio o no de las instancias de host, es posible que el archivo de directiva no realice lo que se desea.  
+ No se admite el uso de archivos de directiva de .NET en BizTalk Server. ya que es posible que los archivos de directiva no funcionen de la forma esperada. Archivos de directiva redirigen a .NET a una versión de ensamblado especificado en la GAC, pero [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suele tener acceso a los ensamblados y datos de artefactos de una memoria caché o la base de datos de administración de BizTalk. Según el tipo de artefacto, la situación de almacenamiento en caché y el reinicio o no de las instancias de host, es posible que el archivo de directiva no realice lo que se desea.  
   
 ## <a name="updating-an-assembly"></a>Actualizar un ensamblado  
  **Posible que los cambios a un ensamblado no surtan efecto si el host no se ha detenido**  

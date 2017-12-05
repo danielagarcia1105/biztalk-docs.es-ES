@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 089ad320f9363e1a3284af863512c89bcb67167d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f05aa5200bd1df6207a962849cd776a03fe71805
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-submitting-a-0c2-request"></a>Paso 1: Enviar un 0c solicitar 2
 En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 0c 2 - solicitud asincrónica de prueba. Este PIP garantiza que un canal de comunicación asincrónica funciona correctamente entre dos organizaciones diferentes. Este PIP sigue el mismo patrón que otros PIP de doble acción asincrónica, como el 3A4 - solicitud PIP de pedido de compra.  
@@ -37,7 +37,7 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
     |**Id. de instancia de PIP**|Tipo de **0C2_Test**. **Importante:** debe asegurarse de que el **PIP** es único para cada mensaje que se envía para evitar errores de Id. de mensaje duplicado. Si ejecuta el 0 C 2 probar en el futuro, tendrá que cambiar este campo.|  
     |**Categoría de mensaje**|Escriba **Acción**.|  
   
-3.  Con el Bloc de notas u otro editor de texto, abra el archivo 0C2_Request.xml en el \< *unidad*>: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBApplication\ Carpeta SampleInstances y, a continuación, copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
+3.  Con el Bloc de notas u otro editor de texto, abra el archivo 0C2_Request.xml en el \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ Carpeta LOBApplication\SampleInstances y, a continuación, copie y pegue el contenido en el **contenido de servicio** campo LOBWebApplication.  
   
     > [!NOTE]
     >  Para eliminar el texto existente en el campo de contenido de servicio de la forma de enviar el mensaje, coloque el cursor al principio del texto, mantenga presionada la **MAYÚS** y **Ctrl** botones, haga clic en **final** y, a continuación, haga clic en **eliminar**.  
@@ -62,7 +62,7 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
   
 3.  En Microsoft SQL Server Management Studio, haga clic en **Nueva consulta**.  
   
-4.  En el \<tabla > cuadro de diálogo de texto, seleccione **BTARNDATA** en la lista y, a continuación, haga clic en **Aceptar**.  
+4.  En el \<tabla\> el cuadro de diálogo de texto, seleccione **BTARNDATA** en la lista y, a continuación, haga clic en **Aceptar**.  
   
 5.  En la ventana de SQL, escriba la siguiente instrucción SQL:  
   
@@ -92,4 +92,4 @@ En este paso, se preparará y enviará una solicitud con el proceso de interfaz 
   
 ## <a name="see-also"></a>Vea también  
  [Paso 2: Enviar un 0c consultar 4](../../adapters-and-accelerators/accelerator-rosettanet/step-2-submitting-a-0c4-query.md)   
- [Flujo de mensajes de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)
+ [Flujo de mensajes en BTARN](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)

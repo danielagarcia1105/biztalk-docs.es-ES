@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b5b77ca46be2e6a3fb4c882947eb47829f591ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f3bdbd4845ddc1dff698274492f33ec69d659188
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="approving-a-message"></a>Aprobación de un mensaje
 En esta sección se describe cómo aprobar un mensaje que se ha reparado y comprobado.  
@@ -30,9 +30,9 @@ En esta sección se describe cómo aprobar un mensaje que se ha reparado y compr
   
 2.  En la ventana principal, haga clic en **documentos**.  
   
-3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*> _Approver **.  
+3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*\>_Approver **.  
   
-4.  En el \<nombre de departamento > _Approver ventana, haga clic en **Bandeja de entrada**.  
+4.  En el \<nombre de departamento\>_Approver ventana, haga clic en **Bandeja de entrada**.  
   
 5.  En la ventana de la Bandeja de entrada, seleccione el título del mensaje, haga clic en la flecha situada a la derecha del título del mensaje y, a continuación, haga clic en **editar en Microsoft Office InfoPath**.  
   

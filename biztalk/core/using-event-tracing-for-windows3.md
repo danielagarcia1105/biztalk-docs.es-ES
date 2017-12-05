@@ -21,11 +21,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6267689c46c66cc2ab791313d55cb46884190473
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75b2b339c99dcf1b64368c73381d1dbe81e0fb39
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 Microsoft BizTalk Adapter para TIBCO Enterprise Message Service registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta de seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl, por ejemplo, tracerpt.exe o tracedmp.exe. Por ejemplo, la aplicación tracerpt.exe convierte el \*archivo .etl en dos archivos de texto: summary.txt y dumpfile.csv.  
@@ -44,7 +44,7 @@ Microsoft BizTalk Adapter para TIBCO Enterprise Message Service registra los men
   
      Para que la aplicación de consumidor pueda leer el evento en el archivo etl, Seguimiento de eventos para Windows debe volcarlos en dicho archivo. Normalmente esto se realiza cuando el controlador desactiva el seguimiento.  
   
-     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real > = -rt.  
+     Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción de tiempo real, \<tiempo Real\> = -rt.  
   
 -   **Proveedor**: proporciona el evento.  
   
@@ -52,11 +52,11 @@ Microsoft BizTalk Adapter para TIBCO Enterprise Message Service registra los men
   
  BizTalk Adapter para TIBCO Enterprise Message Service tiene proveedores que permiten registrar diferentes clases de mensajes:  
   
--   **Proveedor de registro de receptor**: el \<elemento de seguimiento > es el conmutador **-receptor**.  
+-   **Proveedor de registro de receptor**: el \<elemento Trace\> conmutador **-receptor**.  
   
      Use **-receptor** para recibir cualquier mensaje del registro que se han recibido por el adaptador en tiempo de ejecución.  
   
--   **Proveedor de registro de transmisor**: el \<elemento de seguimiento > es el conmutador **-transmisor**.  
+-   **Proveedor de registro de transmisor**: el \<elemento Trace\> conmutador **-transmisor**.  
   
      Use **-transmisor**para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.  
   
@@ -71,7 +71,7 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
  Donde:  
   
--   **\<Elemento trace >** (obligatorio) es el tipo de proveedor.  
+-   **\<Elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
   
  Sus opciones son:  
   
@@ -81,9 +81,9 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
 -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   
--   **-cir \<MB >**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB >**: tamaño en megabytes.  
+-   **-cir \<MB\>**: tamaño y tipo de archivo. **-cir** es un archivo circular. **\<MB\>**: tamaño en megabytes.  
   
--   **-seq \<MB >**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB >**: tamaño en megabytes.  
+-   **-seq \<MB\>**: tamaño y tipo de archivo. **-seq** es un archivo secuencial. **\<MB\>**: tamaño en megabytes.  
   
 -   **-rt**: activar el modo de tiempo real.  
   

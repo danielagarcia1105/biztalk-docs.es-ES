@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e1ccddee7bb7b08ec363fabd9b7e061cd41357d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a2e2679edafd72dc0d64510e7a8566180818f8c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-implement-the-synchronous-outbound-handler-for-the-echo-adapter"></a>Paso 7: Implemente el controlador de salida sincrónico para el adaptador de eco
 ![Paso 7 de 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  
@@ -64,13 +64,13 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
   
 -   La acción del mensaje de entrada de WCF = Id. de nodo de la operación  
   
--   Cuerpo del mensaje entrante = el inicio es el elemento del cuerpo del \<displayname >\<nombre de parámetro > {datos}\<nombre/parámetro >\</displayname >  
+-   Cuerpo del mensaje entrante = el inicio es el elemento del cuerpo del \<displayname\>\<nombre de parámetro\>{datos}\<nombre/parámetro\>\</displayname\>  
   
  Para el mensaje de respuesta saliente de WCF:  
   
 -   Acción de mensaje de salida de WCF = Id. de nodo de la operación + "/ respuesta"  
   
--   El cuerpo del mensaje de salida = el inicio es el elemento del cuerpo del \<displayname + "Respuesta" >, seguido de \<displayname + "Resultado" > y seguido por el \<tipo de datos > datos\</datatype >\</ DisplayName + "resultado >\</displayname +"Respuesta">  
+-   El cuerpo del mensaje de salida = el inicio es el elemento del cuerpo del \<displayname + "Respuesta"\>, seguido de \<displayname + "Resultado"\>y seguido por el \<datatype\>datos\</datatype\>\</displayname+ "resultado\>\</displayname +"Respuesta"\>  
   
  Por ejemplo, operación **string [] EchoStrings (datos de cadena)**, Id. de nodo = eco/EchoStrings y nombre para mostrar = EchoStrings:  
   
@@ -145,7 +145,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     return null;              
     ```  
   
-4.  A continuación, agregue el **ExecuteEchoStrings** método para controlar el string [] operación EchoStrings (datos de cadena). Esta función auxiliar lee el mensaje de solicitud WCF, comprueba si el elemento URI echoInUpperCase se establece como true; Si es así, convierte la cadena de entrada en mayúsculas tantas veces como indica la variable de recuento. A continuación, genera el mensaje de respuesta WCF con el formato: \<EchoStringsResponse >\<EchoStringResult >\<cadena > {datos}\</cadena >\</EchoStringResult >\</EchoStringsResponse >.  
+4.  A continuación, agregue el **ExecuteEchoStrings** método para controlar el string [] operación EchoStrings (datos de cadena). Esta función auxiliar lee el mensaje de solicitud WCF, comprueba si el elemento URI echoInUpperCase se establece como true; Si es así, convierte la cadena de entrada en mayúsculas tantas veces como indica la variable de recuento. A continuación, genera el mensaje de respuesta WCF con el formato: \<EchoStringsResponse\>\<EchoStringResult\>\<cadena\>{datos}\</string\> \</EchoStringResult\>\</EchoStringsResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoStrings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -187,7 +187,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-5.  Continuar agregando el **ExecuteEchoGreetings** método para controlar la operación de EchoGreetings. Esta función auxiliar lee el mensaje de solicitud WCF, se resuelve la operación y el tipo por la `ResolveOperationMetadata` y `ResolveTypeMetadata` métodos de la `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` de interfaz y, a continuación, genera el mensaje de respuesta WCF con el formato de: \< EchoGreetingsResponse >\<EchoGreetingsResult >... mensaje... \</EchoGreetingsResult >\</EchoGreetingsResponse >.  
+5.  Continuar agregando el **ExecuteEchoGreetings** método para controlar la operación de EchoGreetings. Esta función auxiliar lee el mensaje de solicitud WCF, se resuelve la operación y el tipo por la `ResolveOperationMetadata` y `ResolveTypeMetadata` métodos de la `Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler` de interfaz y, a continuación, genera el mensaje de respuesta WCF con el formato de: \< EchoGreetingsResponse\>\<EchoGreetingsResult\>... mensaje... \</EchoGreetingsResult\>\</EchoGreetingsResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoGreetings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -232,7 +232,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-6.  A continuación, agregue el **ExecuteEchoCustomGreetingFromFile** método para controlar la operación de EchoCustomGreetingFromFile. Esta función auxiliar lee el mensaje de solicitud WCF, lee el mensaje desde el archivo especificado y, a continuación, genera el mensaje de respuesta WCF con el formato de: \<EchoGreetingsFromFileResponse >\<EchoGreetingsFromFileResult >... mensaje... \</EchoGreetingsFromFileResult >\</EchoGreetingsFromFileResponse >.  
+6.  A continuación, agregue el **ExecuteEchoCustomGreetingFromFile** método para controlar la operación de EchoCustomGreetingFromFile. Esta función auxiliar lee el mensaje de solicitud WCF, lee el mensaje desde el archivo especificado y, a continuación, genera el mensaje de respuesta WCF con el formato de: \<EchoGreetingsFromFileResponse\> \< EchoGreetingsFromFileResult\>... mensaje... \</EchoGreetingsFromFileResult\>\</EchoGreetingsFromFileResponse\>.  
   
     ```csharp  
     private Message ExecuteEchoCustomGreetingFromFile(OperationMetadata om, Message message, TimeSpan timeout)  
@@ -287,4 +287,4 @@ Compilar e implementar el adaptador de eco.
   
 ## <a name="see-also"></a>Vea también  
  [Paso 6: Implementar el controlador de la resolución de metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
- [Paso 8: Implementar el controlador de entrada sincrónico para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)
+ [Paso 8: Implementar el controlador de entrada sincrónico para el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efd3a6bf371312348d7ce54a24f34b3cb5e4206c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86349adae1a3ae061cb07c6c770532cf92c74dc8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="basic-oracle-data-types"></a>Tipos de datos de Oracle básica
 Este tema se describe cómo la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de datos básicos de Oracle.  
@@ -59,7 +59,7 @@ Este tema se describe cómo la [!INCLUDE[adapteroracle](../../includes/adapteror
 |Binario doble **|xsd: Double si prec < = 15<br />xsd: String si prec > 15|Doble<br />String|-|  
 |Entero binario **|xsd:integer|Int32|Se admite para los procedimientos, funciones y paquetes.|  
 |Boolean|xsd:boolean|Valor booleano que acepta valores null||  
-|XMLTYPE|xsd:cadena|String|Se admite para parámetros de procedimiento de nivel superior.<br /><br /> Los caracteres XML como reservados '**\<**','**>**' debe sustituirse por su representación de entidad **(&lt;, &gt;)**al desarrollar aplicaciones de BizTalk y al modelo del canal con WCF. Esto no es necesario en el caso del modelo de servicio de WCF.|  
+|XMLTYPE|xsd:cadena|String|Se admite para parámetros de procedimiento de nivel superior.<br /><br /> Los caracteres XML como reservados '**\<**','**\>**' debe sustituirse por su representación de entidad **(&lt;, &gt;)**al desarrollar aplicaciones de BizTalk y al modelo del canal con WCF. Esto no es necesario en el caso del modelo de servicio de WCF.|  
   
  \*La manera en que se producen estos tipos de datos de Oracle se ve afectada por la **EnableSafeTyping** propiedad de enlace.  
   

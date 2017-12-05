@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f79fa2e40bd80bb3a4fd8b976aa31a34e4d3c0bb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c31146310b8c8b559fcd93d19362679b060cb42
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-the-sql-adapter"></a>Crear un canal con el adaptador de SQL
 En el modelo de canal WCF, invocar las operaciones en la base de datos de SQL Server y recibir los resultados mediante el intercambio de mensajes SOAP con el [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] sobre un canal WCF.  
@@ -128,7 +128,7 @@ channel.Open();
   
 2.  Establecer las propiedades de enlace necesarias para la operación de entrada. Por ejemplo, para un **sondeo** operación, como mínimo, debe establecer el **InboundOperationType**, **PolledDataAvailableStatement**, y  **PollingStatement** enlace Propiedades para configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para sondear la base de datos de SQL Server.  
   
-3.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IInputChannel >** método en el **SQLBinding**. Especifique el URI de conexión de SQL Server como uno de los parámetros a este método.  
+3.  Crear un agente de escucha de canal invocando **BuildChannelListener\<IInputChannel\>**  método en el **SQLBinding**. Especifique el URI de conexión de SQL Server como uno de los parámetros a este método.  
   
 4.  Abra el agente de escucha.  
   
@@ -168,4 +168,4 @@ channel.Open();
 ```  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones con el modelo del canal de WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)
+[Desarrollar aplicaciones con el modelo de canal WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)

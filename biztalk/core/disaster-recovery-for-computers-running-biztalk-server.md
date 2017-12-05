@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac655c10aaa443f9971fc40f7301a9e608e0e7eb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b0ca86ef9a412514fdf3f30f0a38cbac710e0f59
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="disaster-recovery-for-computers-running-biztalk-server"></a>Recuperación ante desastres para equipos que ejecutan BizTalk Server
 Si se produce un error de hardware irrecuperable en el equipo de la organización en el que se ejecuta BizTalk Server, será preciso sustituirlo con un equipo idéntico. En este caso, se presume que las bases de datos de BizTalk Server se encuentran intactas y que el error se ha producido en cualquiera de los equipos en los que se ejecuta BizTalk Server.  
@@ -25,9 +25,9 @@ Si se produce un error de hardware irrecuperable en el equipo de la organizació
 ## <a name="recovering-different-editions-of-biztalk-server"></a>Recuperar distintas ediciones de BizTalk Server  
  El enfoque de recuperación varía en función de la edición de BizTalk Server que se ejecute en el equipo.  
   
- Para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Developer Edition y [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Enterprise Edition, se permiten varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Cuando se produce un error en alguno de los equipos en los que se ejecuta BizTalk Server, se puede preparar un equipo de sustitución y unirlo al grupo de BizTalk existente. En este caso, se puede unir al grupo de BizTalk un equipo con un nombre idéntico o distinto.  
+ Para BizTalk Server Developer Edition y BizTalk Server Enterprise Edition, varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se permiten. Cuando se produce un error en alguno de los equipos en los que se ejecuta BizTalk Server, se puede preparar un equipo de sustitución y unirlo al grupo de BizTalk existente. En este caso, se puede unir al grupo de BizTalk un equipo con un nombre idéntico o distinto.  
   
- En el caso de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] Standard Edition, no es posible unir el equipo a un grupo de BizTalk, de modo que el enfoque anterior no resulta adecuado. En lugar de ello, se indican los pasos necesarios para instalar un nuevo equipo y restaurar los valores de configuración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que funcione como sustituto. Para obtener más información, consulte [cómo recuperar el grupo de BizTalk](../core/how-to-recover-the-biztalk-group.md).  
+ Para BizTalk Server Standard Edition, no se puede unir el equipo a un grupo de BizTalk, de modo que el enfoque anterior no resulta adecuado. En lugar de ello, se indican los pasos necesarios para instalar un nuevo equipo y restaurar los valores de configuración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que funcione como sustituto. Para obtener más información, consulte [cómo recuperar el grupo de BizTalk](../core/how-to-recover-the-biztalk-group.md).  
   
 ## <a name="recovery-phases"></a>Fases de recuperación  
  En la recuperación de un equipo en el que se ejecute BizTalk Server, se pueden diferenciar las tres fases siguientes:  
@@ -45,4 +45,4 @@ Si se produce un error de hardware irrecuperable en el equipo de la organizació
      En esta fase, se efectúa la restauración de los ensamblados .NET conectados con las aplicaciones alojadas por los procesos de BizTalk Server en el equipo de sustitución. Los artefactos que resulten necesarios, como los ensamblados de usuario, aparte de los ensamblados de BizTalk, deberían instalarse en sus ubicaciones respectivas o en la caché de ensamblados global (GAC) del equipo. En esta guía, se proporcionan algunas directrices para esta fase. No obstante, no hay secuencias de comandos o herramientas independientes para la restauración de aplicaciones de BizTalk.  
   
 ## <a name="see-also"></a>Vea también  
- [Copia de seguridad y restauración de BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md)
+ [Realizar una copia de seguridad y una restauración de BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ead07059cac11f251d35fae18f0e228c4488c07a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6bfff208920b25ee1a22aa2c3c74feeba42f4b43
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-wcf-lob-adapter-sdk"></a>Utilice los contadores de rendimiento con el SDK de adaptador LOB de WCF
 Puede usar la herramienta de rendimiento para recopilar automáticamente datos de rendimiento de equipos locales o remotos que ejecutan el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. Puede definir el inicio y detener tiempos de generación automática de registros, administrar varias sesiones de registro desde una sola ventana de consola y establecer una alerta en un equipo que permite que se envíe un mensaje o un registro para iniciarse cuando se cumplen los criterios. Este tema describen los contadores de rendimiento para el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  
@@ -24,7 +24,7 @@ Puede usar la herramienta de rendimiento para recopilar automáticamente datos d
 ## <a name="performance-objects-and-counters"></a>Los contadores y objetos de rendimiento  
  Al instalar el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], un objeto de rendimiento único denominado "ServiceModel adaptadores" está instalado. El objeto de rendimiento contiene un número de contadores de rendimiento. Un objeto de rendimiento mide la actividad para un recurso determinado, aplicación o servicio. Objetos de rendimiento y los contadores de obtendrán datos de rendimiento de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], características y servicios en el equipo cuando se utilicen. Normalmente, estos datos de rendimiento se denominan para el componente que genera los datos. Contadores de rendimiento se utilizan para recopilar información específica o datos de un objeto de rendimiento determinado.  
   
- Al seleccionar los contadores del objeto de rendimiento ServiceModel adaptadores, puede elegir supervisar sólo las instancias de adaptador específico de información, seleccione la instancia en la lista Seleccionar instancias. Cada instancia del adaptador se mostrarán en el formato de \<ProcessId > @\<ConnectionString >. Por ejemplo, 115@echo:&#124; &#124; host &#124; temp? echoprefix = anterior indica la instancia de adaptador de eco ejecutando en proceso 115.  
+ Al seleccionar los contadores del objeto de rendimiento ServiceModel adaptadores, puede elegir supervisar sólo las instancias de adaptador específico de información, seleccione la instancia en la lista Seleccionar instancias. Cada instancia del adaptador se mostrarán en el formato de \<ProcessId\>@\<ConnectionString\>. Por ejemplo, 115@echo:&#124; &#124; host &#124; temp? echoprefix = anterior indica la instancia de adaptador de eco ejecutando en proceso 115.  
   
  Para obtener información sobre los contadores de rendimiento de WCF, vea [contadores de rendimiento de WCF](https://msdn.microsoft.com/library/ms735098.aspx).
   

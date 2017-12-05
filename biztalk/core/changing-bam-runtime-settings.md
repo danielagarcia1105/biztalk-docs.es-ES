@@ -15,20 +15,20 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 97d8b9f443c01496b4f435a8e69d53ad3afc9abd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3bc90f401a562ed34e51035ddb8b86d8e9021b4c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="changing-bam-runtime-settings"></a>Cambiar la configuración en tiempo de ejecución de BAM
-En general, configure los componentes en tiempo de ejecución de BAM cuando se instala Microsoft® [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]. Puede que desee cambiar la configuración en tiempo de ejecución de BAM, por ejemplo, para escalar verticalmente el sistema o por si tiene una directiva de caducidad de contraseñas.  
+En general, los componentes en tiempo de ejecución de BAM se configuran al instalar Microsoft® BizTalk Server. Puede que desee cambiar la configuración en tiempo de ejecución de BAM, por ejemplo, para escalar verticalmente el sistema o por si tiene una directiva de caducidad de contraseñas.  
   
 ## <a name="in-this-section"></a>En esta sección  
   
 -   [Esquema de configuración de BAM](../core/bam-configuration-schema.md)  
   
--   [Definir el período de tiempo y las propiedades del período de tiempo](../core/defining-the-time-window-and-time-slice-properties.md)  
+-   [Definición de las propiedades del período de tiempo y de la ventana de tiempo](../core/defining-the-time-window-and-time-slice-properties.md)  
   
 -   [Modificación del esquema de configuración de BAM](../core/modifying-the-bam-configuration-schema.md)  
   

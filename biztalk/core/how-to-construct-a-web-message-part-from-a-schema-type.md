@@ -18,11 +18,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3434dc46be2fa43885346ac8d146e9326ab1ea73
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da57e32f2ba4d4d5feb60a6f44cc7d92195852c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-construct-a-web-message-part-from-a-schema-type"></a>Cómo construir una parte de mensaje Web a partir de un tipo de esquema
 Crear una parte de mensaje Web desde un tipo de esquema mediante una **transformar** forma. Como alternativa, puede crear una parte de mensaje Web a partir de un tipo de esquema mediante la utilización de una clase .NET auxiliar para establecer las partes. Para obtener más información sobre cómo crear tipos de mensaje mediante una clase. NET, vea [construir mensajes en el código de usuario](../core/constructing-messages-in-user-code.md).  
@@ -34,7 +34,7 @@ Crear una parte de mensaje Web desde un tipo de esquema mediante una **transform
 2.  En el asignador de BizTalk, haga clic en **Abrir esquema de destino** en el **esquema de destino** panel del mapa y, en la **selector de tipos de BizTalk** cuadro de diálogo, expanda el  **Esquemas** nodo, seleccione el esquema de la referencia Web agregada y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
-    >  El formato del esquema de referencia Web es  **\<espacio de nombres predeterminado del proyecto >.\< Nombre de referencia Web >. Referencia**.  
+    >  El formato del esquema de referencia Web es  **\<espacio de nombres predeterminado del proyecto\>.\< Nombre de referencia Web\>. Referencia**.  
   
 3.  En el **nodo raíz para esquema de destino** cuadro de diálogo, seleccione un nodo raíz para el esquema de destino y, a continuación, haga clic en **Aceptar**. Para obtener más información sobre cómo determinar un nodo raíz para un tipo de parte de mensaje Web, consulte [cómo determinar un tipo de parte de mensaje Web](../core/how-to-determine-a-web-message-part-type.md).  
   
@@ -61,4 +61,4 @@ Crear una parte de mensaje Web desde un tipo de esquema mediante una **transform
  También puede usar este procedimiento para asignar la instancia de mensaje de respuesta del método Web a otra instancia de mensaje Web.  
   
 ## <a name="see-also"></a>Vea también  
- [Construcción de mensajes Web](../core/constructing-web-messages.md)
+ [Construcción de mensajes web](../core/constructing-web-messages.md)

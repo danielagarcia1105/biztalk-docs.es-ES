@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b5fb871bed9f6a4f54261db7e54587c65244344
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f79778801b1ca70d4e8356a24886c792fe447e33
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-1-add-header-and-acknowledgment-schemas"></a>Paso 1: Agregar encabezado y esquemas de confirmación
 En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BTAHL72XCommon. Esta plantilla contiene los tres esquemas comunes para encabezados de mensaje (MSH_25_GLO_DEF.xsd) y confirmaciones (ACK_24_GLO_DEF.xsd) y (ACK_25_GLO_DEF.xsd). Debe incluir estos esquemas en un proyecto de modo que ese Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) genera o valida correctamente los encabezados de mensaje y confirmaciones. Este proceso es común en todas las versiones de esquema de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.  
@@ -33,7 +33,7 @@ En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BT
   
 4.  En el **nombre** , escriba **BTAHL7V2XCommon** como el nombre del proyecto.  
   
-5.  En el **ubicación** cuadro, vaya a  **\<**  *unidad***: > \Batching Tutorial**.  
+5.  En el **ubicación** cuadro, vaya a  **\<**  *unidad***:\>\Batching Tutorial**.  
   
 6.  Haga clic en **Aceptar**.  
   
@@ -42,9 +42,9 @@ En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BT
   
 ### <a name="to-assign-a-strong-key-to-the-assembly-and-deploy"></a>Para asignar una clave segura para el ensamblado e implementar  
   
-1.  Abra  **[!INCLUDE[vs2012](../../includes/vs2012-md.md)] símbolo**.  
+1.  Abra **símbolo del sistema de Visual Studio**.  
   
-2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo del sistema, vaya a la  **\<**  *unidad***>: \Batching Tutorial** carpeta.  
+2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo del sistema, vaya a la  **\<**  *unidad***\>: \Batching Tutorial** carpeta.  
   
 3.  En el símbolo del sistema, escriba **sn – k key.snk**, y, a continuación, presione ENTRAR. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
   
@@ -57,9 +57,9 @@ En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BT
   
 6.  Comprobar **firmar el ensamblado** casilla de verificación.  
   
-7.  En **elegir un nombre seguro** desplegable archivo de clave de lista, seleccione  **\<Examinar... >**.  
+7.  En **elegir un nombre seguro** desplegable archivo de clave de lista, seleccione  **\<Examinar... \>**.  
   
-8.  Vaya a \< *unidad*>: Tutorial, seleccione \Batching **key.snk**y, a continuación, haga clic en **abiertos**.  
+8.  Vaya a \< *unidad*\>: Tutorial, seleccione \Batching **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 9. En la ventana páginas de propiedades de proyecto BTAHL7V2XCommon, haga clic en **Aceptar** para guardar los cambios.  
   

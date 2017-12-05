@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3b81a8c9c605f646a8ac0b6df2045af05eb58e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df751526661ddef455be45c4258c331c940fdd47
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="outboundcustomheaders-does-not-have-correct-format"></a>OutboundCustomHeaders no tiene el formato correcto
 ## <a name="details"></a>Detalles  
@@ -32,11 +32,11 @@ ms.lasthandoff: 09/20/2017
 |Texto del mensaje|OutboundCustomHeaders no tiene un formato correcto.|  
   
 ## <a name="explanation"></a>Explicación  
- El valor de WCF. InboundHeaders o WCF. OutboundCustomHeaders no tiene el formato siguiente: \<encabezados >...\</headers >.  
+ El valor de WCF. InboundHeaders o WCF. OutboundCustomHeaders no tiene el formato siguiente: \<encabezados\>...\</headers\>.  
   
 ## <a name="user-action"></a>Acción del usuario  
- Ajustar los valores de propiedad con \<encabezados > elemento.  
+ Ajustar los valores de propiedad con \<encabezados\> elemento.  
   
  Para obtener más información, vea el recurso siguiente en la Ayuda de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   [Usar encabezados SOAP en mensajes WCF con componentes de canalización](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)
+-   [Uso de encabezados SOAP en mensajes WCF con componentes de canalización](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)

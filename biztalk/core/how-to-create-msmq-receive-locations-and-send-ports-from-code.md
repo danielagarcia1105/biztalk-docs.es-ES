@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d362ae262c7b054bd86fda72f8aacd3b5ab1455
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b5f00a0bfe14eeb7d4205973b3fef96e23026616
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>Crear ubicaciones de recepción de MSMQ y puertos de envío mediante programación
 En este tema se explica cómo usar WMI para crear un puerto o una ubicación para el adaptador de MSMQ.  
@@ -53,7 +53,7 @@ objReceiveLocation["CustomCfg"] =
   
  Los nombres de las etiquetas del elemento CustomProps son nombres internos que el adaptador utiliza para las propiedades.  
   
- El adaptador de MSMQ tiene una única etiqueta, AdapterConfig, dentro de la etiqueta CustomProps. La etiquete AdapterConfig contiene una cadena de etiquetas XML para los valores de propiedad personalizados incluidos en una etiqueta Config. Sin embargo, las etiquetas están incluidas: "&lt;"reemplaza"\<"y"&gt;" reemplaza ">". Por ejemplo, el XML de un subconjunto del adaptador de propiedades de MSMQ puede aparecer de la siguiente forma:  
+ El adaptador de MSMQ tiene una única etiqueta, AdapterConfig, dentro de la etiqueta CustomProps. La etiquete AdapterConfig contiene una cadena de etiquetas XML para los valores de propiedad personalizados incluidos en una etiqueta Config. Sin embargo, las etiquetas están incluidas: "&lt;"reemplaza"\<"y"&gt;"reemplaza"\>". Por ejemplo, el XML de un subconjunto del adaptador de propiedades de MSMQ puede aparecer de la siguiente forma:  
   
 ```  
 <Config>  

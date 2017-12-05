@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0bfab230d919c2cb7f8c05d58b87cdeea6033423
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c9ffa8ab8d80a8b2da172378349eb9761a728fb7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-and-deploy-header-and-acknowledgment-schemas"></a>Paso 1: Crear e implementar encabezado y esquemas de confirmación
 Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la instancia de mensaje. Usar el esquema de confirmación para generar la confirmación de la instancia de mensaje. Este proceso es común en todas las versiones de esquemas de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.  
@@ -43,7 +43,7 @@ Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la
   
 1.  Inicie un **símbolo del sistema de Visual Studio 2012**.  
   
-2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo del sistema, vaya a la \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for HL7 \SDK\End-to-End Tutorial carpeta.  
+2.  En el [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] símbolo del sistema, vaya a la \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para HL7 \SDK\ Carpeta de Tutorial de extremo a extremo.  
   
 3.  En el símbolo del sistema, escriba **sn – k key.snk**, y, a continuación, presione ENTRAR. Asegúrese de que el siguiente mensaje de confirmación que aparece en la ventana de salida y, a continuación, cierre la ventana de comandos.  
   
@@ -58,7 +58,7 @@ Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la
   
 6.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (**...** ) botón.  
   
-7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión > Accelerator for Tutorial HL7\SDK\End-to-End, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
+7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 8.  En la página de propiedades del proyecto BTAHL7V2XCommon, haga clic en **Aceptar** para guardar los cambios.  
   

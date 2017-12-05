@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0e14f58cbdd07a8c13dec6cd44fbc95584f2ecc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f783f465feff207ae1759ea358b0b848ccc0f4c3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="set-send-handler-property-biztalk-server-sample"></a>Establecer la propiedad de controlador de envío (ejemplo de BizTalk Server)
 El ejemplo para establecer propiedad de controlador de envío muestra cómo establecer la información de configuración de XML para un controlador de envío del Protocolo simple de transferencia de correo (SMTP).  
@@ -40,7 +40,7 @@ El ejemplo para establecer propiedad de controlador de envío muestra cómo esta
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Los archivos de ejemplo se encuentran en la siguiente ubicación de SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\WMI\Set Property\ del controlador de envío  
+ \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Set Property\ del controlador de envío  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -57,15 +57,13 @@ El ejemplo para establecer propiedad de controlador de envío muestra cómo esta
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\WMI\Set Property\VBScript\ del controlador de envío  
+     \<*Ejemplos de ruta de acceso*\>\Admin\WMI\Set Property\VBScript\ del controlador de envío  
   
 2.  Ejecute el archivo ConfigureSMTP.vbs mediante el programa cscript, de modo que se pase el siguiente argumento de línea de comandos:  
   
-    -   **\<**   
-         ***SMTPServerName* >.** El nombre del servidor SMTP que se usará para enviar correo.  
+    -   **\<** ***SMTPServerName* \>.** El nombre del servidor SMTP que se usará para enviar correo.  
   
-    -   **\<**   
-         ***FromEmailAddress* >.** Una dirección de correo electrónico que se usará como remite.  
+    -   **\<** ***FromEmailAddress* \>.** Una dirección de correo electrónico que se usará como remite.  
   
          Por ejemplo:  
   
@@ -79,4 +77,4 @@ El ejemplo para establecer propiedad de controlador de envío muestra cómo esta
  El archivo de secuencias de comandos ConfigureSMTP.vbs contiene comentarios detallados con más explicaciones acerca de las operaciones que realiza. Para obtener más información, vea Instrumental de administración de Windows en [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102).  
   
 ## <a name="see-also"></a>Vea también  
- [WMI de administración (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)
+ [Admin\WMI (carpeta de ejemplos de BizTalk Server)](../core/admin-wmi-biztalk-server-samples-folder.md)

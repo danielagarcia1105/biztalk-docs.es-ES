@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8831e0d76c2bb4483bc1012ed7345c760b87bdf9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00121334b076ed4c705e7b440c75c1347e4208c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-maps"></a>Crear asignaciones
 La interfaz de usuario principal para el asignador de BizTalk se muestra en una pestaña en la [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición. Esta presentación se divide en tres paneles distintos. El panel de la izquierda muestra el esquema de origen como un árbol. El panel de la derecha muestra el esquema de destino como un árbol. El panel central muestra la cuadrícula como varias páginas. Para indicar cómo desea asignar los datos del esquema de origen al de destino, dibuje líneas entre los registros y los campos que desea asignar. Estas líneas se llaman *vínculos*, y son la manera más sencilla para especificar la asignación de datos. Para obtener más información acerca de la vinculación de registros y campos, consulte [vínculos en asignaciones](../core/links-in-maps.md).  
@@ -49,12 +49,12 @@ La interfaz de usuario principal para el asignador de BizTalk se muestra en una 
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Administrar asignaciones en proyectos](../core/managing-maps-within-projects.md)  
+-   [Administración de asignaciones en proyectos](../core/managing-maps-within-projects.md)  
   
--   [Utilizar vínculos para especificar el registro y las asignaciones de campos](../core/using-links-to-specify-record-and-field-mappings.md)  
+-   [Uso de vínculos para especificar asignaciones de registros y campos](../core/using-links-to-specify-record-and-field-mappings.md)  
   
--   [Utilizar Functoids para crear asignaciones más complejas.](../core/using-functoids-to-create-more-complex-mappings.md)  
+-   [Uso de functoids para crear asignaciones más complejas](../core/using-functoids-to-create-more-complex-mappings.md)  
   
 -   [Cómo crear una asignación sin asignaciones](../core/how-to-create-a-map-without-maps.md)  
   
--   [Administrar el comportamiento de asignador predeterminado mediante \<mapsource >](../core/managing-default-mapper-behavior-using-mapsource.md)
+-   [Administrar el comportamiento de asignador predeterminado mediante \<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f0b9e1538ea667eab2299a1a02021c1237bc985
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af1d853e381da6cbfbbe96fa805ca6396a1b7aae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8c-configure-party-information-for-the-hi-system"></a>Paso 8C: configurar la información de entidad para el sistema de alta
 En este paso, configurará la información de entidad para el sistema de alta.  
@@ -31,7 +31,7 @@ En este paso, configurará la información de entidad para el sistema de alta.
   
 4.  En el panel de puertos de envío, haga clic en el campo en blanco en el **nombre** columna, seleccione **Tutorial_MllpSend**y, a continuación, haga clic en **Aceptar**.  
   
-5.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+5.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 6.  En el Explorador de configuración de BTAHL7, seleccione la **MSH mapa** ficha y, a continuación, haga lo siguiente:  
   

@@ -85,11 +85,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77f229c950c3f49eca80810e9702ce021f0e8579
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a04b8e774156acaaa44dc49377bbdd7e3f91b198
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="windows-groups-and-user-accounts-in-biztalk-server"></a>Cuentas de grupos y de usuario de Windows en BizTalk Server
 Información sobre las cuentas de usuario y grupo de locales y de dominio de BizTalk Server. El Administrador de configuración crea las cuentas de grupo de BizTalk necesarias de forma predeterminada si se instala BizTalk Server con todo el software necesario en un solo equipo. La información de esta sección se aplica a topologías de varios equipos.  
@@ -131,7 +131,7 @@ Información sobre las cuentas de usuario y grupo de locales y de dominio de Biz
 |Cuenta de instancias de host de BizTalk|Cuenta de servicio usada para ejecutar la instancia de host In-Process de BizTalk que tiene acceso a la instancia de host In-Process de BizTalk (BTNTSVC).|Usuarios de aplicación de BizTalk<br /><br /> Administradores afiliados de SSO||  
 |Cuenta de instancia de host aislada de BizTalk|Cuenta de servicio usada para ejecutar la instancia de host de BizTalk aislada (HTTP/SOAP).|Usuarios de hosts aislados de BizTalk<br /><br /> Administradores afiliados de SSO<br /><br /> IIS_WPG||  
 |Servicio de actualización de motor de reglas|Cuenta de servicio usada para ejecutar el Servicio de actualización del motor de reglas; recibe notificaciones de la base de datos de motor de reglas relativas a directivas de implementación o de anulación de implementación.||Función de base de datos de servidor SQL Server RE_HOST_USERS en el BizTalkRuleEngineDb|  
-|Usuario de BAM Notification Services|Cuenta de servicio usada para ejecutar Servicios de notificación de SAE; tiene acceso a las bases de datos de SAE.|SQLServer2008NotificationServicesUser$\<**NombreDeEquipo**>|Función de base de datos de servidor SQL Server NSRunService en las bases de datos siguientes:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementNSReader para el BAMPrimaryImport|  
+|Usuario de BAM Notification Services|Cuenta de servicio usada para ejecutar Servicios de notificación de SAE; tiene acceso a las bases de datos de SAE.|SQLServer2008NotificationServicesUser$\<**NombreDeEquipo**\>|Función de base de datos de servidor SQL Server NSRunService en las bases de datos siguientes:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementNSReader para el BAMPrimaryImport|  
 |Usuario de servicio web de administración de BAM|Cuenta de usuario para que el servicio web de administración de BAM (BAMManagementService) tenga acceso a varios recursos de BAM. El portal de SAE llama a BAMManagementService con las credenciales de usuario registradas en el portal de SAE para administrar alertas, obtener el XML de definición de SAE y obtener vistas de SAE|IIS_WPG|Función de base de datos de servidor SQL Server NSSubscriberAdmin en las siguientes bases de datos:<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> Función de servidor SQL Server BAM_ManagementWS para el BAMPrimaryImport|  
 |Cuenta de grupo de aplicaciones de SAE|Cuenta de grupo de aplicaciones para BAMAppPool que aloja el sitio Web del portal de SAE.|IIS_WPG||  
   

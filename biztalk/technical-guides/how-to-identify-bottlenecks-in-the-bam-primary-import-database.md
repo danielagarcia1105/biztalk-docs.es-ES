@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: decf27009eea6aff0ff5ed9088ae49ef2014b1cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5780c8fcc893126997b37f687f010c5eb62e74c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-identify-bottlenecks-in-the-bam-primary-import-database"></a>Cómo identificar cuellos de botella en la base de datos de importación principal de BAM
 Para identificar cuellos de botella en la base de datos de supervisión de la actividad económica (BAM), realice los pasos siguientes:  
@@ -25,9 +25,9 @@ Para identificar cuellos de botella en la base de datos de supervisión de la ac
   
 2.  Asegúrese de que servicio del Agente SQL está en ejecución.  
   
-3.  Si está configurado el análisis OLAP, asegúrese de que el BAM_AN_\<activityname > trabajo se ejecuta a intervalos periódicos.  
+3.  Si está configurado el análisis OLAP, asegúrese de que el BAM_AN_\<activityname\> trabajo se ejecuta a intervalos periódicos.  
   
-4.  Asegúrese de que BAM_DM_\<activityname > trabajo (Mantenimiento de datos) está programado para ejecutarse a intervalos periódicos.  
+4.  Asegúrese de que BAM_DM_\<activityname\> trabajo (Mantenimiento de datos) está programado para ejecutarse a intervalos periódicos.  
   
     > [!NOTE]  
     >  En la actividad de base de datos BAM de escenarios de uso elevado puede afectar al rendimiento de otras bases de datos de BizTalk Server, lo que afectará al rendimiento general de BizTalk Server. En este caso, tenga en cuenta las siguientes medidas:  

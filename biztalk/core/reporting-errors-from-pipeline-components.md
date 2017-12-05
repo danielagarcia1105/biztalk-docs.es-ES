@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d181f557d64152ff79f70b09986c05727076121
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c111a0c10f4316e7b29e873adf53a8e6b9a9acd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="reporting-errors-from-pipeline-components"></a>Informar de errores de componentes de canalización
 Los componentes de canalización informan de errores de dos formas:  
@@ -35,7 +35,7 @@ Los componentes de canalización informan de errores de dos formas:
   
  El motor de mensajería utiliza el **mensaje** y **origen** propiedades de la **excepción** objeto que se va a notificar un error. Se escribe el siguiente mensaje en el registro de eventos:  
   
- "Hubo un error al ejecutar el [recepción &#124; envío] canalización: \<nombre de la canalización > origen: \<origen > [ubicación de recepción &#124; Puerto de envío:] \<ubicación &#124; nombre de puerto > razón: \<mensaje >. "  
+ "Hubo un error al ejecutar el [recepción &#124; envío] canalización: \<nombre de la canalización\> origen: \<origen\> [ubicación de recepción &#124; Puerto de envío:] \<ubicación &#124; nombre de puerto\> razón: \<mensaje\>. "  
   
 ## <a name="reporting-errors-from-com-pipeline-components"></a>Notificar errores desde los componentes de canalización COM  
  Para notificar un error, los componentes de canalización basados en COM realizan las siguientes acciones:  
@@ -46,7 +46,7 @@ Los componentes de canalización informan de errores de dos formas:
   
  El motor de mensajería utiliza el **GetSource** y **GetDescription** propiedades de la **IErrorInfo** objeto que se va a notificar un error. Si no se ha establecido el origen, se usa el nombre del componente. Si la descripción no está establecido o todo el **ErrorInfo** objeto no está establecido, se notifica el HRESULT devuelto en lugar de la descripción. Se escribe el siguiente mensaje en el registro de eventos:  
   
- "Hubo un error al ejecutar el [recepción &#124; envío] canalización: \<nombre de la canalización > origen: \<GetSource > [ubicación de recepción &#124; Puerto de envío:] \<ubicación &#124; nombre de puerto > razón: \<GetDescription o HRESULT >. "  
+ "Hubo un error al ejecutar el [recepción &#124; envío] canalización: \<nombre de la canalización\> origen: \<GetSource\> [ubicación de recepción &#124; Puerto de envío:] \<ubicación &#124; nombre de puerto\> razón: \<GetDescription o HRESULT\>. "  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar componentes de canalización personalizado](../core/developing-custom-pipeline-components.md)
+ [Desarrollo de componentes de canalización personalizados](../core/developing-custom-pipeline-components.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7cac65ac29af9983ec3024677bc8eedc86c924b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c99c14f16df3f6b98555a4006706eb7804f24a34
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>Lista de comprobación: Planeación de operaciones en un entorno seguro
 Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno seguro, requiere pasos adicionales para la implementación y configuración. Mientras que las instalaciones predeterminadas de sistema operativo necesitan no tenerla en cuenta, pero en escenarios donde se aplicaron las directivas de seguridad restrictiva, debe tomar en cuenta la información de esta sección. Puede variar en el nivel de restricción aplicada en servidores, pero la información a continuación debe cubrir la mayoría de los casos y sería un buen punto de partida.  
@@ -86,7 +86,7 @@ Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernove
 |Adjust memory quotas for a process (Ajustar las cuotas de memoria de un proceso)|Cuenta de servicio Agente SQL Server, cuenta de servicio SQL Server|Necesario para ejecutar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Para obtener más información, consulte [cuentas de servicios de configuración de Windows](http://go.microsoft.com/fwlink/?LinkId=157415) (http://go.microsoft.com/fwlink/?LinkId=157415).|  
 |Omisión de la comprobación transversal|Cuenta de servicio Agente SQL Server, cuenta de servicio SQL Server|Necesario para ejecutar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Para obtener más información, consulte [cuentas de servicios de configuración de Windows](http://go.microsoft.com/fwlink/?LinkId=157415) (http://go.microsoft.com/fwlink/?LinkId=157415).|  
 |Crear objetos globales|Cuenta de servicio de SQL Server|Requiere el servicio SSIS. Para obtener más información, consulte [cuentas de servicios de configuración de Windows](http://go.microsoft.com/fwlink/?LinkId=157415) (http://go.microsoft.com/fwlink/?LinkId=157415).|  
-|Habilitar cuentas de usuario y equipo que sea de confianza para la delegación|Nombre del clúster de servidores del servidor BizTalk Server de cuenta, servidores de SQL Server, servicio SQL Server, SQL Server|Requiere el servidor BizTalk Server. Nombre del servidor tiene la forma de \<nombreDeServidor >$. Para obtener más información, consulte [Cómo: habilitar la autenticación Kerberos en un clúster de conmutación por error de SQL Server](http://go.microsoft.com/fwlink/?LinkId=157417) (http://go.microsoft.com/fwlink/?LinkId=157417).|  
+|Habilitar cuentas de usuario y equipo que sea de confianza para la delegación|Nombre del clúster de servidores del servidor BizTalk Server de cuenta, servidores de SQL Server, servicio SQL Server, SQL Server|Requiere el servidor BizTalk Server. Nombre del servidor tiene la forma de \<servername\>$. Para obtener más información, consulte [Cómo: habilitar la autenticación Kerberos en un clúster de conmutación por error de SQL Server](http://go.microsoft.com/fwlink/?LinkId=157417) (http://go.microsoft.com/fwlink/?LinkId=157417).|  
 |Iniciar sesión como servicio|Cuenta de servicio Agente SQL Server, cuenta de servicio SQL Server|Necesario para ejecutar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Para obtener más información, consulte [cuentas de servicios de configuración de Windows](http://go.microsoft.com/fwlink/?LinkId=157415) (http://go.microsoft.com/fwlink/?LinkId=157415).|  
 |Iniciar sesión como servicio|Cuenta de servicio SSO|Necesario para ejecutar el servicio de inicio de sesión único de Enterprise. Para obtener más información acerca de las cuentas de usuario diferente, consulte [grupos de Windows y cuentas de usuario en BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=155755) (http://go.microsoft.com/fwlink/?LinkID=155755).|  
 |Iniciar sesión como proceso por lotes|Cuenta de servicio Agente SQL Server, cuenta de servicio SQL Server|Necesario para ejecutar [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Para obtener más información, consulte [cuentas de servicios de configuración de Windows](http://go.microsoft.com/fwlink/?LinkId=157415) (http://go.microsoft.com/fwlink/?LinkId=157415).|  

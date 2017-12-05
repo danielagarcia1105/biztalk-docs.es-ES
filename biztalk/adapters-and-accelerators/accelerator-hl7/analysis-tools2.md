@@ -19,14 +19,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 947796495a321a4b3b9cabbc01db1610223c034f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78dd748febee568513c6138b036aab89369fcafc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="analysis-tools"></a>Herramientas de análisis
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] proporciona un conjunto de herramientas de análisis para los analistas de negocios y los trabajadores de información. Para obtener más información acerca de estas herramientas, consulte [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server proporciona un conjunto de herramientas de análisis para los analistas de negocios y los trabajadores de información. Para obtener más información acerca de estas herramientas, consulte [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  
   
 ## <a name="business-activity-monitoring"></a>Supervisión de la actividad económica  
  Supervisión de actividad de negocio de BizTalk (BAM) proporciona a los usuarios empresariales una vista en tiempo real de los procesos empresariales heterogéneos. Proporciona los datos que necesita para tomar decisiones comerciales.  

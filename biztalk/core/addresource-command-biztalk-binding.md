@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e19e1961293002e8b4169a6fee55708cf3217d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00f9a5eac7d2c6f2be72ba78ee4c538ca505151e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="addresource-command-biztalk-binding"></a>El comando AddResource: Enlace de BizTalk
 Para agregar un archivo de enlace a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: biztalkbinding** para el **tipo** parámetro. Cuando agrega un archivo de enlace, puede especificar un entorno de implementación para él. Cuando importa posteriormente la aplicación, puede seleccionar este entorno de implementación para aplicar los enlaces. Puede agregar cualquier número de archivos de enlace a una aplicación de BizTalk, cada uno personalizado para un entorno de implementación diferente. Para agregar varios archivos de enlace, ejecute este comando para cada archivo que desee agregar.  
@@ -25,7 +25,7 @@ Para agregar un archivo de enlace a una aplicación de BizTalk, use la **AddReso
   
  Ejecutar este comando agrega el archivo de enlace a la base de datos de administración de BizTalk y el archivo se muestra en la carpeta Recursos de la aplicación. Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md). A diferencia de lo que ocurre al importar un archivo de enlace, agregar un archivo de enlace no cambia inmediatamente los enlaces existentes. Los enlaces no se aplican hasta que la aplicación se importe a otro grupo de BizTalk.  
   
- Cuando agrega un archivo de enlace, puede especificar el entorno de implementación mediante el parámetro opcional "TargetEnvironment" /Property. El valor puede ser cualquier cadena que represente el entorno de implementación en el que desea aplicar los enlaces en este archivo, como Prueba o Producción. Si no especifica un valor para el parámetro/Property, un valor de  **\<predeterminado >** se especifica automáticamente, y este archivo de enlace se aplicarán cada vez que se importe la aplicación.  
+ Cuando agrega un archivo de enlace, puede especificar el entorno de implementación mediante el parámetro opcional "TargetEnvironment" /Property. El valor puede ser cualquier cadena que represente el entorno de implementación en el que desea aplicar los enlaces en este archivo, como Prueba o Producción. Si no especifica un valor para el parámetro/Property, un valor de  **\<predeterminado\>**  se especifica automáticamente, y este archivo de enlace se aplicarán cada vez que se importe la aplicación.  
   
  Cuando importa una aplicación que incluye uno o varios archivos de enlace que ha agregado explícitamente de esta forma, puede seleccionar los archivos de enlace que se van a aplicar al especificar el valor del parámetro /Property. Los enlaces se aplican en la importación de la aplicación.  
   
@@ -49,7 +49,7 @@ Para agregar un archivo de enlace a una aplicación de BizTalk, use la **AddReso
 |**/ ApplicationName** (o **/A**, vea la sección Comentarios)|No|Nombre de la aplicación de BizTalk a la que se agrega el archivo de enlace. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles ("). Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk.|  
 |**/ Escriba** (o **/T**, vea la sección Comentarios)|Sí|**BizTalk: biztalkbinding** (este valor no distingue entre mayúsculas y minúsculas).|  
 |**/ Origen** (o **/So**, vea la sección Comentarios)|Sí|Ruta completa del archivo de enlace, incluido el nombre de archivo. Si la ruta incluye espacios, la debe encerrar entre comillas dobles (").|  
-|**/Property:TargetEnvironment =** (o **/P:TargetEnvironment =**, vea la sección Comentarios)|No|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de  **\<predeterminado >** se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
+|**/Property:TargetEnvironment =** (o **/P:TargetEnvironment =**, vea la sección Comentarios)|No|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de  **\<predeterminado\>**  se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
 |**/ Sobrescribir** (o **/Ov**, vea la sección Comentarios)|No|Opción para actualizar un archivo de enlace existente. Si no se especifica y ya existe un archivo de enlace en la aplicación que tiene el mismo nombre de archivo que el archivo que se agrega, se produce un error en la operación AddResource.|  
 |**/ Servidor** (o **/Se**, vea la sección Comentarios)|No|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
 |**/ Base de datos** (o **/Da**, vea la sección Comentarios)|No|Nombre de la base de datos de administración de BizTalk. Si no se proporciona, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  

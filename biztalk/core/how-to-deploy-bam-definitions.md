@@ -17,11 +17,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63c3572658e78c7e32722adf38436133ee098e00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 094a37d90db41e505adeaec3a31ece9128785e04
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-bam-definitions"></a>Cómo implementar definiciones de BAM
 Los administradores utilizan el **all implementar** comando de la utilidad de administración de BAM para implementar una definición de BAM desde el libro de Excel o el archivo de definiciones XML exportados desde el libro. Cuando realice una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], el Asistente para configuración configura automáticamente el XML de configuración de BAM.  
@@ -36,7 +36,7 @@ Los administradores utilizan el **all implementar** comando de la utilidad de ad
 >  Se recomienda comprobar la seguridad de los libros de Excel de BAM (.xls) antes de implementarlos. Se utiliza Excel en el equipo de administración para comprobar la seguridad de los libros de Excel de BAM. Antes de implementar un libro, ábralo y asegúrese de que la seguridad de las macros está establecida en “alta” y que no existen advertencias.  
   
 > [!IMPORTANT]
->  En las bases de datos BAM, el "BAM_\<... >" convención de nomenclatura está reservada para todas las entidades SQL (tablas, índices, procedimientos almacenados, funciones, etcetera...). *No* utilizar esta convención de nomenclatura para crear una entidad SQL; este tipo de uso puede dar lugar a un comportamiento indefinido.  
+>  En las bases de datos BAM, el "BAM_\<... \>"convención de nomenclatura está reservada para todas las entidades SQL (tablas, índices, procedimientos almacenados, funciones, etcetera...). *No* utilizar esta convención de nomenclatura para crear una entidad SQL; este tipo de uso puede dar lugar a un comportamiento indefinido.  
   
  Antes de poder implementar un archivo XML de definición de BAM, debe asegurarse de que la configuración regional que se utiliza para crear este archivo coincide con la configuración regional del equipo en el que lo está implementado. Por ejemplo, si crea un archivo en un equipo que ejecuta la versión en japonés de Microsoft Windows, el equipo en el que implementa el archivo debe estar configurado con la configuración regional en japonés. Si la configuración del equipo y del archivo no coinciden, debe cambiar la configuración del equipo que va a ejecutar la utilidad de administración de BAM por una configuración regional correcta y debe reiniciarlo antes de ejecutar la utilidad.  
   
@@ -49,13 +49,13 @@ Los administradores utilizan el **all implementar** comando de la utilidad de ad
   
 1.  Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-2.  Navegue hasta la carpeta de seguimiento escribiendo **C:\Program Files\Microsoft BizTalk Server \<versión > \Tracking** en el símbolo del sistema. Presione **ENTRAR**.  
+2.  Navegue hasta la carpeta de seguimiento escribiendo **C:\Program Files\Microsoft BizTalk Server \<versión\>\Tracking** en el símbolo del sistema. Presione **ENTRAR**.  
   
-3.  Tipo de **bm implementar-all - DefinitionFile:\<archivo de definición de BAM >**.  
+3.  Tipo de **bm implementar-all - DefinitionFile:\<archivo de definición de BAM\>**.  
   
 4.  Presione **ENTRAR**.  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md)   
  [Utilidad de administración de BAM](../core/bam-management-utility.md)   
- [Recomendaciones de seguridad BAM](../core/bam-security-recommendations.md)
+ [Recomendaciones de seguridad para BAM](../core/bam-security-recommendations.md)

@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3411adf32a15cd2a3b5f11a02dbafcf58f66b184
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d5780be22259fcd118ab70a0bc80174b53a9f27
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-is-a-bam-definition-schema"></a>¿Qué es un esquema de definición de BAM?
 El esquema de definición de BAM define la estructura del modelo de observación que creó el analista de negocios.  
@@ -43,7 +43,7 @@ El esquema de definición de BAM define la estructura del modelo de observación
   
  Puede crear un archivo XML que contiene las definiciones de BAM (instancias de este esquema) con cualquier editor de texto o mediante el complemento de BAM para Excel para crear una hoja de cálculo que se pueden exportar a un archivo XML mediante el uso de la exportación de complemento de BAM para la característica XML.  
   
- Tras definir las vistas y actividades de BAM, debe exportar manualmente el archivo XML ya que la utilidad de administración de BAM (bm.exe) puede leer esta hoja de cálculo y obtener el XML de ella para implementar automáticamente su infraestructura. El resultado es otra copia de la hoja de cálculo denominada \<el nombre del libro > _Livedata.xls. Puede usar esta hoja de cálculo nueva para conectarse al origen de datos en directo y ver las agregaciones en los informes de tabla dinámica.  
+ Tras definir las vistas y actividades de BAM, debe exportar manualmente el archivo XML ya que la utilidad de administración de BAM (bm.exe) puede leer esta hoja de cálculo y obtener el XML de ella para implementar automáticamente su infraestructura. El resultado es otra copia de la hoja de cálculo denominada \<el nombre del libro\>_Livedata.xls. Puede usar esta hoja de cálculo nueva para conectarse al origen de datos en directo y ver las agregaciones en los informes de tabla dinámica.  
   
 > [!NOTE]
 >  No se pueden ver los datos activos con las herramientas de Office si exporta manualmente el archivo XML mediante el elemento de menú de BAM en la parte superior de la hoja de cálculo y usa la utilidad de administración de BAM para implementar el archivo XML exportado, y no el archivo de Microsoft Excel.  

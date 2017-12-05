@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e10a4b54688c59991f25bb69a3251bee2f4607b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b1dff8e981b65b6b91c744ce26648a5f4e06adea
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-bring-selected-map-items-in-view"></a>Agregación de elementos de asignación seleccionados en la vista
-Con las versiones anteriores del Asignador de BizTalk, si un mapa comprendía esquemas grandes, era necesario desplazarse por el panel de esquema de origen, la página de cuadrícula y el panel de esquema de destino para llevar todos los elementos del mapa relevantes a una única vista. El Asignador de BizTalk con [!INCLUDE[prague](../includes/prague-md.md)] le permite llevar todos los elementos del mapa relevantes del functoid/vínculo seleccionado a una única vista desplazando automáticamente la página de cuadrícula. En este tema se proporciona información acerca de cómo realizar esta operación.  
+Con las versiones anteriores del Asignador de BizTalk, si un mapa comprendía esquemas grandes, era necesario desplazarse por el panel de esquema de origen, la página de cuadrícula y el panel de esquema de destino para llevar todos los elementos del mapa relevantes a una única vista. El asignador de BizTalk con BizTalk Server le permite llevar todos los elementos del mapa relevantes del functoid/vínculo seleccionado en una única vista desplazando automáticamente la página de cuadrícula. En este tema se proporciona información acerca de cómo realizar esta operación.  
   
  En función de lo que seleccione (un nodo de esquema de origen, un elemento de la vista de relación o un nodo de esquema de destino), el Asignador de BizTalk desplaza automáticamente las vistas de esquema y la vista de relación de modo sincronizado, y muestra la vista de relación global del elemento seleccionado.  
   
@@ -54,4 +54,4 @@ Con las versiones anteriores del Asignador de BizTalk, si un mapa comprendía es
     >  Como alternativa, puede presionar CTRL+M o CTRL+U del teclado. Para obtener una lista de métodos abreviados de teclado del asignador, vea [métodos abreviados de teclado del asignador de BizTalk](../core/biztalk-mapper-keyboard-shortcuts.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de características mejoradas en el asignador de BizTalk](../core/using-enhanced-features-in-biztalk-mapper.md)
+ [Uso de características mejoradas en el Asignador de BizTalk](../core/using-enhanced-features-in-biztalk-mapper.md)

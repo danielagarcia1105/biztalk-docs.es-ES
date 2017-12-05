@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a9451d1f156bf98b3e8fd7da177937cd4492b0b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 02412b86b8649b73cadb4715793f085682a1de74
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xlang-s-to-bpel4ws-type-conversions"></a>XLANG-s para las conversiones de tipo de BPEL4WS
 En las siguientes tablas se detallan las conversiones entre varias construcciones XLANG/s y BPEL4WS.  
@@ -61,7 +61,7 @@ En las siguientes tablas se detallan las conversiones entre varias construccione
 |- unario|Unario - de XPath|  
 |Unario !|not() function de XPath|  
 |Binario & &, &#124; &#124;|Operadores de XPath 'and', 'or' |  
-|Binarios ==,! =, < =, \<, > =, >|XPath '=', '! =', ' < = ','\<', ' > =', ' >' operadores|  
+|Binarios ==,! =, < =, <>, =, >|XPath '=', '! =', ' < =', ' <', ' > =', ' >' operadores|  
 |Binarios +, -, *, % con ambos operandos de tipo entero|Operadores '+', '-', '*', 'mod' de XPath|  
   
 ## <a name="xlangs-constructs-that-are-disallowed-in-bpel4ws"></a>Construcciones XLANG/s que no se permiten en BPEL4WS  
@@ -84,11 +84,11 @@ En las siguientes tablas se detallan las conversiones entre varias construccione
   
 -   Binarios +, -, *, %, / con operandos de tipo no entero  
   
--   Binarios < =, \<, > =, > con operandos no es una cadena  
+-   Binarios < =, <>, =, > con operandos no es una cadena  
   
 -   Operadores bit a bit &, ^, &#124;  
   
--   Operadores de desplazamiento <\<, >>  
+-   Operadores de desplazamiento <<>>,  
   
 -   Expresión comprobada  
   

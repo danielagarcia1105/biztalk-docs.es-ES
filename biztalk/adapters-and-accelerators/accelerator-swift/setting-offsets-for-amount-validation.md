@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eaa41714cbe5c3baba85e82f2992ff72544c425c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7cfae474407daa7dd3c0b95db3fed076a581cf1c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="setting-offsets-for-amount-validation"></a>Configuración de desplazamientos para la validación de cantidad
 Las reglas de uso para los campos de cantidad de tipos de mensaje MT102, MT103 y MT103PLUS se validan las reglas en las directivas de validación correspondiente. Los campos de cantidad pueden coincidir exactamente o pueden comprobar que está dentro del intervalo de cantidades.  
@@ -41,7 +41,7 @@ Las reglas de uso para los campos de cantidad de tipos de mensaje MT102, MT103 y
   
 1.  Abra un editor de texto, como el Bloc de notas.  
   
-2.  En el editor, vaya a la ubicación de la directiva de validación de mensaje en el que desea establecer un porcentaje de desplazamiento. Por ejemplo, puede encontrar la directiva de validación de mensajes para el tipo de mensaje MT103, MT103_Validation_Policy.xml, en  *\<unidad >*: \Program Files\ Acelerador de Microsoft BizTalk para SWIFT \<versión > Mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión > \Category 1\MT103. Abra la directiva de validación.  
+2.  En el editor, vaya a la ubicación de la directiva de validación de mensaje en el que desea establecer un porcentaje de desplazamiento. Por ejemplo, puede encontrar la directiva de validación de mensajes para el tipo de mensaje MT103, MT103_Validation_Policy.xml, en  *\<unidad\>*: \Program Files\ Acelerador de Microsoft BizTalk para SWIFT \< versión\> mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Category 1\MT103. Abra la directiva de validación.  
   
 3.  En la directiva, buscar en IsValidSettlementAmount para mensajes MT102 y MT102PLUS o IsValidInterbankSettledAmount MT103 mensajes.  
   

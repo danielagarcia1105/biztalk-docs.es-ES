@@ -25,11 +25,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f87f210c4b0d2969edc9ddfa27b1d8494310eb6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4e4a07b88e832d99f586d10cdf8af4dbea3af3e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-multi-part-message-types"></a>Cómo usar los tipos de mensaje de varias partes
 Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la estructura del mensaje que se compone de cero o más partes de mensaje. Las partes se definen en el lenguaje de definición de esquemas XML (XSD) mediante esquemas o clases .NET. Puede definir sus propios tipos de mensaje de varias partes o usar los esquemas y las clases .NET existentes.  
@@ -52,7 +52,7 @@ Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la e
   
 3.  Asigne un nombre al tipo de mensaje de varias partes y a la parte de mensaje proporcionada.  
   
-     Si el tipo de mensaje de varias partes requiere más de una parte de mensaje, puede agregar partes adicionales asignando un nombre a la \<nuevo > parte de mensaje.  
+     Si el tipo de mensaje de varias partes requiere más de una parte de mensaje, puede agregar partes adicionales asignando un nombre a la \<New\> parte de mensaje.  
   
 4.  Asocie cada parte de mensaje a un tipo; por ejemplo, esquema o clase .NET.  
   
@@ -101,4 +101,4 @@ Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la e
  **IBaseMessage.AddPart (método) (COM)**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
  [Recursos XSD en Internet](../core/xsd-resources-on-the-web.md)   
  [Usar campos distintivos y campos de propiedades](../core/using-distinguished-fields-and-property-fields.md)   
- [Usar mensajes en orquestaciones](../core/using-messages-in-orchestrations.md)
+ [Uso de mensajes en orquestaciones](../core/using-messages-in-orchestrations.md)

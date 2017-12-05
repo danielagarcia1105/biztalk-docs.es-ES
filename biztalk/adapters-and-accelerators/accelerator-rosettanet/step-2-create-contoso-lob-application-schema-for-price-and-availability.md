@@ -13,14 +13,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71e3141e436bc50a629f495d8372b05d15e90b90
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 441bb90c8fa0f2edb271af384e2540a741150137
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-creating-the-contoso-lob-application-schemas-for-the-price-and-availability-project-using-biztalk-editor"></a>Paso 2: Crear los esquemas de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el Editor de BizTalk
-En este paso, se genera el esquema se utiliza para consultar el sistema ERP de Contoso para el precio y la disponibilidad de un producto determinado. Generar este esquema mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® el adaptador de SQL para [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)].  
+En este paso, se genera el esquema se utiliza para consultar el sistema ERP de Contoso para el precio y la disponibilidad de un producto determinado. Generar este esquema mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® el adaptador de SQL para el servidor BizTalk Server.  
   
 ### <a name="to-update-the-sql-stored-procedure-for-schema-generation"></a>Para actualizar el código SQL el procedimiento almacenado para la generación de esquema  
   
@@ -70,7 +70,7 @@ En este paso, se genera el esquema se utiliza para consultar el sistema ERP de C
   
 10. En el **información de tipo de instrucción** página, seleccione **Stored Procedure**y, a continuación, haga clic en **siguiente**.  
   
-11. En el **instrucción** página, para  **\<seleccionar un procedimiento almacenado >**, seleccione **SP_GetInventoryForProductID** en la lista desplegable. Haga clic en **generar**y, a continuación, haga clic en **siguiente**.  
+11. En el **instrucción** página, para  **\<seleccionar un procedimiento almacenado\>**, seleccione **SP_GetInventoryForProductID** desde el lista desplegable. Haga clic en **generar**y, a continuación, haga clic en **siguiente**.  
   
 12. En el **completar el Asistente para generación de esquema de transporte SQL** página, haga clic en **finalizar** para importar el esquema en el proyecto de ContosoPriceAndAvailability BizTalk.  
   
@@ -83,4 +83,4 @@ En este paso, se genera el esquema se utiliza para consultar el sistema ERP de C
 16. En Microsoft SQL Server Management Studio, quite el `xmldata` predicado y el punto y coma de la `SP_GetInventoryForProductID` procedimiento almacenado que agregó en el paso anterior y, a continuación, haga clic en **Execute**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 3: Crear las asignaciones de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el asignador de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)
+ [Paso 3: Creación de los mapas de aplicación de LOB de Contoso para el proyecto Precio y disponibilidad mediante el Asignador de BizTalk](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)

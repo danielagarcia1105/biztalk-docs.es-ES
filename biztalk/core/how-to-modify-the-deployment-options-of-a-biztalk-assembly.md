@@ -18,11 +18,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 416fc38c8768e7391659d133877b2ae59e704463
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 58365383b1981ae40e87ee23891929bf05c8530e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-biztalk-assembly"></a>Cómo modificar las opciones de implementación de un ensamblado de BizTalk
 En este tema se describe cómo usar la consola de administración de BizTalk Server para modificar las opciones de implementación de un ensamblado de BizTalk.  
@@ -44,7 +44,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] administración, expanda el grupo de BizTalk que contiene el ensamblado de BizTalk para el que se va a modificar opciones de implementación y, a continuación, expanda la aplicación que contiene el ensamblado de BizTalk.  
+2.  En el árbol de consola, expanda Administración de BizTalk Server, expanda el grupo de BizTalk que contiene el ensamblado de BizTalk para el que se va a modificar opciones de implementación y, a continuación, expanda la aplicación que contiene el ensamblado de BizTalk.  
   
 3.  Haga clic en el **recursos** carpeta, haga clic en el ensamblado de BizTalk y, a continuación, haga clic en **modificar**.  
   
@@ -53,4 +53,4 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
 5.  Si es necesario, en **ubicación de destino** modificar la ruta de acceso donde se copiará cuando la aplicación se instala el ensamblado y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar ensamblados de BizTalk](../core/managing-biztalk-assemblies.md)
+ [Administración de ensamblados de BizTalk](../core/managing-biztalk-assemblies.md)

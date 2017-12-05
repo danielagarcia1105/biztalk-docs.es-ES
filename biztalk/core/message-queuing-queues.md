@@ -23,11 +23,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a9156b6d6fa1374f532efb354e5816c054b83994
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa8d2521a8cf434c7a0ea56f749f9df3f032551e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-queuing-queues"></a>Colas de puesta en cola de mensajes
 Esta sección describe cómo especificar colas de Microsoft Message Queue Server (a la que también se conoce como MSMQ) cuando utiliza el adaptador de MSMQ. Describe las convenciones para especificar rutas y la función que los nombres de formato desempeñan cuando se traducen rutas a designaciones de cola.  
@@ -60,9 +60,9 @@ Esta sección describe cómo especificar colas de Microsoft Message Queue Server
   
  Si la ruta de la cola de envío o recepción es una URL HTTP o HTTPS, la sintaxis es:  
   
- FormatName:DIRECT = http: / /\<nombre de cliente >/MSMQ /\<nombre de la cola >  
+ FormatName:DIRECT = http: / /\<nombre de cliente\>/MSMQ /\<nombre de la cola\>  
   
- FormatName:DIRECT = https: / /\<nombre de cliente >/MSMQ /\<nombre de la cola >  
+ FormatName:DIRECT = https: / /\<nombre de cliente\>/MSMQ /\<nombre de la cola\>  
   
 > [!NOTE]
 >  "msmq" es la carpeta virtual creada por Message Queue Server en Servicios de Internet Information Server (IIS).  
@@ -102,4 +102,4 @@ Esta sección describe cómo especificar colas de Microsoft Message Queue Server
 -   **System.Messaging.MessageQueue.Exists** no funciona para las colas remotas. Para obtener más información, vea "Método MessageQueue.Exists" en la Ayuda de la biblioteca de clases de .NET Framework.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el adaptador MSMQ](../core/configuring-the-msmq-adapter.md)
+ [Configuración del adaptador de MSMQ](../core/configuring-the-msmq-adapter.md)

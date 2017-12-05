@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 29ab7194e0e1b81a773c61123de9171f1c65eb0a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8ce204ed2e892a6206f6e2db28bbccd0201e2f0f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8b-configure-party-information-for-the-rx-system"></a>Paso 8: configurar la información de entidad para el sistema RX
 En este paso, configurará la información de entidad para el sistema de recepción.  
@@ -31,7 +31,7 @@ En este paso, configurará la información de entidad para el sistema de recepci
   
 4.  En el panel de puertos de envío, haga clic en el campo en blanco en el **nombre** columna, seleccione **Tutorial_sendMsg_RX**y, a continuación, haga clic en **Aceptar**.  
   
-5.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+5.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 6.  En el Explorador de configuración BTAHL7, seleccione la **MSH mapa** ficha y, a continuación, haga lo siguiente:  
   

@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 674cbf64e11817c951d3841ebdc9f6ee979c0e8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f37997582cbd94d8bbb5eaee829eead0af85ad2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="clustering-the-master-secret-server"></a>El servidor secreto principal de agrupación en clústeres
-El [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] servicio de la aplicación mantiene una dependencia codificada de forma rígida con el servicio de inicio de sesión único (SSO) empresarial que se instala con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El servicio SSO debe poder comunicarse con el servidor secreto principal para iniciar. Se recomienda agrupar el servicio SSO en el servidor secreto principal para proporcionar tolerancia a errores para el servidor secreto principal. Para obtener más información, consulte [opciones de instalación de SSO de alta disponibilidad](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+El servicio de aplicación de BizTalk Server mantiene una dependencia codificada de forma rígida con el servicio de inicio de sesión único (SSO) empresarial que se instala con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El servicio SSO debe poder comunicarse con el servidor secreto principal para iniciar. Se recomienda agrupar el servicio SSO en el servidor secreto principal para proporcionar tolerancia a errores para el servidor secreto principal. Para obtener más información, consulte [opciones de instalación de SSO de alta disponibilidad](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) en la Ayuda de BizTalk Server.  
   
 ## <a name="preparing-for-clustering-the-master-secret-server"></a>Preparar el servidor secreto principal de agrupación en clústeres  
   
@@ -52,4 +52,4 @@ El [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 
  Para obtener pasos detallados acerca de los clústeres del servidor secreto principal, consulte [cómo agrupar el servidor secreto principal](http://go.microsoft.com/fwlink/?LinkId=156839) (http://go.microsoft.com/fwlink/?LinkId=156839) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.  
   
 ## <a name="see-also"></a>Vea también  
- [La designación de un nuevo servidor de secreto principal manualmente](../technical-guides/designating-a-new-master-secret-server-manually.md)
+ [Designación manual de un nuevo servidor de secreto maestro](../technical-guides/designating-a-new-master-secret-server-manually.md)

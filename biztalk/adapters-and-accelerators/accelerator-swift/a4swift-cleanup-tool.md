@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34611a463efa19f6fc8e2cb9718748cf90d09e49
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b2d0e251bf5e8a4169ff0d86cc6635944ca12e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="a4swift-cleanup-tool"></a>Herramienta de limpieza de A4SWIFT
 El [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] limpieza herramienta le permite preparar un servidor que tiene el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] instalado en él para una nueva instalación de [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]. La herramienta quita los artefactos de A4SWIFT como contratos, departamentos y las directivas de motor de reglas de negocios (BRE) y anula la implementación de ensamblados. Ejecutar la herramienta le permite evitar la eliminación manual de muchos artefactos de A4SWIFT y resuelve los problemas con los ensamblados de anular la implementación que se pueden hacer referencia desde otros ensamblados.  
@@ -67,7 +67,7 @@ El [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonu
   
 1.  Antes de ejecutar la herramienta de limpieza de A4SWIFT, anular la implementación de cualquier proyecto que hace referencia a cualquiera de los ensamblados de forma predeterminada de A4SWIFT.  
   
-2.  Abra un símbolo del sistema y mover a \< *unidad*>: \Program BizTalk Accelerator for SWIFT\SDK\Tools.  
+2.  Abra un símbolo del sistema y mover a \< *unidad*\>: \Program BizTalk Accelerator for SWIFT\SDK\Tools.  
   
 3.  Tipo de **A4SWIFTCleanupTool.exe** y, a continuación, presione **ENTRAR**.  
   

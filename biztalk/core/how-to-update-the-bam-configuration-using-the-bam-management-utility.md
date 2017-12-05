@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ee5958120e364cc0c2661ead6100bd2ba5502226
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b08209d3b3a1555bbc674e469ea9f8a4b1f81a9d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-the-bam-configuration-using-the-bam-management-utility"></a>Cómo actualizar la configuración de BAM mediante la utilidad de administración de BAM
 Los administradores pueden utilizar la utilidad de administración de BAM para actualizar una instalación de BAM existente.  
@@ -30,7 +30,7 @@ Los administradores pueden utilizar la utilidad de administración de BAM para a
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm update-config - FileName:\<el archivo de configuración >**, donde \< *archivo de configuración*> se sustituye por el nombre de la BAM archivo de configuración. Presione **ENTRAR**.  
+3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm update-config - FileName:\<el archivo de configuración\>**, donde \< *archivo de configuración* \> es se sustituye por el nombre de su archivo de configuración de BAM. Presione **ENTRAR**.  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidad de administración de BAM](../core/bam-management-utility.md)

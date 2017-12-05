@@ -17,11 +17,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca265c240f0e20534c5140d0810479152ad90914
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19383ca97f979d6932698d06eabd507b4a00954f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>Cómo configurar los servicios WCF publicados con el Asistente para publicación de Servicio WCF de BizTalk
 Una vez que ha publicado los servicios WCF con el Asistente para publicación de Servicio WCF de BizTalk, debe configurarlos adecuadamente. En este tema se describe cómo configurar los servicios WCF publicados.  
@@ -73,7 +73,7 @@ Una vez que ha publicado los servicios WCF con el Asistente para publicación de
   
 12. Abra un símbolo del sistema, vaya a la carpeta donde el Asistente de publicación de servicio de BizTalk Server WCF crea el servicio WCF en %SystemDrive%\InetPub\\y, a continuación, abra el archivo Web.config mediante el Bloc de notas.  
   
-13. En el Bloc de notas, agregue la siguiente línea dentro de la  **\<system.web >** elemento:  
+13. En el Bloc de notas, agregue la siguiente línea dentro de la  **\<system.web\>**  elemento:  
   
     ```  
     <trust level="Full" originUrl="" />  
@@ -94,7 +94,7 @@ Una vez que ha publicado los servicios WCF con el Asistente para publicación de
   
     1.  En el Bloc de notas, abra el archivo Web.config en la carpeta donde el Asistente de publicación de servicio de BizTalk Server WCF crea el servicio WCF en %SystemDrive%\InetPub\\.  
   
-    2.  En el Bloc de notas, establezca el el **httpGetEnabled** de atributo en el  **\<serviceMetadata >** elemento en false como la siguiente línea:  
+    2.  En el Bloc de notas, establezca el el **httpGetEnabled** de atributo en el  **\<serviceMetadata\>**  elemento en false como la siguiente línea:  
   
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

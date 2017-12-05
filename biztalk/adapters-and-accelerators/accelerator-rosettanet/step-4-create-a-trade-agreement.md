@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6b94acad2b71694223b0566f86edfcfa86610099
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4e49efd8a2fd195c0b5fa912ced3773fa85153e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-a-trade-agreement"></a>Paso 4: Crear un acuerdo comercial
 En este paso, creará un acuerdo comercial entre el inicio y la organización de socios comerciales mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.  
   
 ### <a name="to-create-a-trade-agreement"></a>Para crear un acuerdo comercial  
   
-1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda **BizTalk \<versión > Acelerador para RosettaNet**, haga clic en **contratos**, haga clic en  **Nueva**y, a continuación, haga clic en **acuerdo**.  
+1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda **BizTalk \<versión\> Acelerador para RosettaNet**, haga clic en **contratos**, haga clic en **New**y, a continuación, haga clic en **acuerdo**.  
   
 2.  En el **nuevas propiedades de acuerdo** cuadro de diálogo, en la **General** ficha, realice lo siguiente:  
   
@@ -56,4 +56,4 @@ En este paso, creará un acuerdo comercial entre el inicio y la organización de
 -   En el [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **contratos**, haga clic en **acuerdo comercial** en el panel de resultados y, a continuación, haga clic en **activar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 5: Crear un acuerdo de reflejo](../../adapters-and-accelerators/accelerator-rosettanet/step-5-create-a-mirror-agreement.md)
+ [Paso 5: Crear un acuerdo reflejado](../../adapters-and-accelerators/accelerator-rosettanet/step-5-create-a-mirror-agreement.md)

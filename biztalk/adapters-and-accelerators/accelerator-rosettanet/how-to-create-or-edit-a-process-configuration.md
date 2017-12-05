@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4c9c9be5e9f3361683e495febbd98a05156399d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c011183c6ba34c9614d1e642916264224def546e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-or-edit-a-process-configuration"></a>Cómo crear o editar una configuración de procesos
 En este tema se describe cómo crear o editar una configuración de procesos.  
@@ -61,7 +61,7 @@ En este tema se describe cómo crear o editar una configuración de procesos.
 |**Iniciador**<br /><br /> (Área General)|**Rol**|Rol del iniciador. Por ejemplo, "Comprador" o "Pagador".<br /><br /> El valor predeterminado es "Iniciador".|  
 |**Iniciador**<br /><br /> (Área General)|**Descripción de la función**|Descripción del rol del iniciador. Por ejemplo, "Entidad emisora del pago".|  
 |**Iniciador**<br /><br /> (Área General)|**Tipo de rol**|Tipo de rol del iniciador.<br /><br /> Valores posibles: **Organizativo**, **Empleado**o **Funcional** (valor predeterminado).|  
-|**Iniciador**<br /><br /> (Área General)|**ssNoVersion**|Servicio iniciador. Por ejemplo, "Servicio comprador" o "Servicio pagador".|  
+|**Iniciador**<br /><br /> (Área General)|**Servicio**|Servicio iniciador. Por ejemplo, "Servicio comprador" o "Servicio pagador".|  
 |**Iniciador**<br /><br /> (Área General)|**Clasificación de servicio**|Tipo de servicio iniciador. Por ejemplo, "Servicio empresarial".|  
 |**Servicio de respuesta**<br /><br /> (Área Documento empresarial)|**Description**|Descripción del documento empresarial de la acción del respondedor. Por ejemplo, "Confirma formalmente el estado de los elementos de línea de un pedido".|  
 |**Servicio de respuesta**<br /><br /> (Área Documento empresarial)|**Nombre**|Nombre del documento empresarial de la acción del respondedor. Por ejemplo, "Confirmación de pedido".|  
@@ -70,7 +70,7 @@ En este tema se describe cómo crear o editar una configuración de procesos.
 |**Servicio de respuesta**<br /><br /> (Área General)|**Rol**|Rol del respondedor. Por ejemplo, "Vendedor".<br /><br /> El valor predeterminado es "Respondedor".|  
 |**Servicio de respuesta**<br /><br /> (Área General)|**Descripción de la función**|Descripción del rol del respondedor. Por ejemplo, "Entidad receptora del pago".|  
 |**Servicio de respuesta**<br /><br /> (Área General)|**Tipo de rol**|Tipo de rol del respondedor.<br /><br /> Valores posibles: **Organizativo** (valor predeterminado), **Empleado**o **Funcional**.|  
-|**Servicio de respuesta**<br /><br /> (Área General)|**ssNoVersion**|Servicio del respondedor. Por ejemplo, "Servicio vendedor".|  
+|**Servicio de respuesta**<br /><br /> (Área General)|**Servicio**|Servicio del respondedor. Por ejemplo, "Servicio vendedor".|  
 |**Servicio de respuesta**<br /><br /> (Área General)|**Clasificación de servicio**|Tipo de servicio del respondedor. Por ejemplo, "Servicio empresarial".|  
   
 ### <a name="to-implement-a-new-process-configuration"></a>Para implementar una nueva configuración de procesos  
@@ -93,7 +93,7 @@ En este tema se describe cómo crear o editar una configuración de procesos.
   
 4.  Haga clic con el botón derecho en la configuración de procesos que desea editar y, a continuación, haga clic en **Propiedades**.  
   
-5.  En el  *\<configuración del proceso >* cuadro de diálogo de propiedades de la **General** y **póngase en contacto con propiedades** pestañas, cambiar la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
+5.  En el  *\<configuración del proceso\>*  cuadro de diálogo de propiedades de la **General** y **póngase en contacto con propiedades** pestañas, cambie la configuración según Obligatorio. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
   
 6.  Haga clic en **Aceptar**.  
   
@@ -101,4 +101,4 @@ En este tema se describe cómo crear o editar una configuración de procesos.
  [Mediante la especificación de PIP para crear una configuración de procesos](../../adapters-and-accelerators/accelerator-rosettanet/using-the-pip-specification-to-create-a-process-configuration.md)   
  [Propiedades de autorización y sin repudio](../../adapters-and-accelerators/accelerator-rosettanet/authorization-and-non-repudiation-properties.md)   
  [Normas europeas de configuración seguridad CIDX intercambio de mensajes](../../adapters-and-accelerators/accelerator-rosettanet/setting-up-cidx-estandards-message-exchange.md)   
- [Administrar la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [Administración de la configuración de BTARN](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

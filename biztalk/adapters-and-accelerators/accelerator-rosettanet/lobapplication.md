@@ -19,25 +19,25 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed2dc02911ad8ce78e3657c78ad1150d96b4f4f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af11e69c90c9d211e36e706710c1d1de44a72399
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lobapplication"></a>LOBApplication
 Use la utilidad LOBApplication para enviar un mensaje de acción o respuesta a un socio comercial, simulando un programa de escritorio real de línea de negocio (LOB).  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye ejemplos de mensajes en el \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances carpeta.  
+ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye ejemplos de mensajes en el \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication\ Carpeta SampleInstances.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\LOBApplication  
+ \<*unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication  
   
 ## <a name="running-lobapplication"></a>Ejecutando LOBApplication  
   
 #### <a name="to-run-lobapplication"></a>Para ejecutar LOBApplication  
   
-1.  En el Explorador de Windows, desplácese a \< *unidad*> \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\\.  
+1.  En el Explorador de Windows, desplácese a \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 2.  Haga doble clic en **LOBApplication.exe**, y, a continuación, presione ENTRAR.  
   

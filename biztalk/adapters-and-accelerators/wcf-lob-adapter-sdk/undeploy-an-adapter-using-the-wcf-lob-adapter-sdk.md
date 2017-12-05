@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 90208dd99a6b4ccdc8f3f55d2ad019baabe635ad
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 1332e41593ede5f7075ec7f5ede1293d79d65594
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="undeploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>Anular la implementación de un adaptador mediante el SDK de adaptador LOB de WCF
 Para anular la implementación de un adaptador desde un equipo, el usuario debe realizar las dos tareas siguientes:  
@@ -41,7 +41,7 @@ Para anular la implementación de un adaptador desde un equipo, el usuario debe 
   
 2.  En el símbolo del sistema, escriba el comando siguiente:  
   
-     **Gacutil /u** \< *completo**nombre de ensamblado*>  
+     **Gacutil /u** \< *completo**nombre de ensamblado*\>  
   
      En este comando, el nombre del ensamblado es el nombre del ensamblado que se va a desinstalar de la GAC.  
   
@@ -54,7 +54,7 @@ Para anular la implementación de un adaptador desde un equipo, el usuario debe 
   
 #### <a name="manually-edit-the-machineconfig-file"></a>Editar manualmente el archivo machine.config  
   
-1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **el Bloc de notas \<ruta de instalación de Windows > \Microsoft.NET\Framework\\< versión\>\CONFIG \Machine.config**y, a continuación, haga clic en **Aceptar**.  
+1.  Edite el archivo machine.config situado en la carpeta de configuración de Microsoft .NET. Para ello, haga clic en **iniciar**, haga clic en **ejecutar**, tipo **el Bloc de notas \<ruta de instalación de Windows\>\Microsoft.NET\Framework\\< versión\>\CONFIG\machine.config**y, a continuación, haga clic en **Aceptar**.  
   
     > [!NOTE]
     >  Realizar una copia de seguridad del archivo machine.config antes de realizar cambios para protegerse contra errores de edición.  

@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 186cbb4e021a281ab834f04097f005c2597fbd37
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d01f9457404e135027f35f1402575efeec311e2e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-adding-xml-receive-port-and-location"></a>Lección 1: Agregar puerto y la ubicación de recepción de XML
 Un puerto de recepción es una agrupación lógica de ubicaciones de recepción similares. Una ubicación de recepción define una dirección específica (por ejemplo, una ubicación de archivo o dirección URL) para un mensaje entrante y la canalización que se utiliza para procesar el mensaje.  
@@ -51,9 +51,9 @@ Un puerto de recepción es una agrupación lógica de ubicaciones de recepción 
   
 10. Haga clic en el **configurar** situado a la derecha de la lista desplegable de tipo.  
   
-11. En el cuadro de diálogo Propiedades de transporte de archivo, haga clic en **examinar**. Mover a la  **\<unidad >: \Labs** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
+11. En el cuadro de diálogo Propiedades de transporte de archivo, haga clic en **examinar**. Mover a la  **\<unidad\>: \Labs** carpeta y, a continuación, haga clic en **crear nueva carpeta**.  
   
-12. En el cuadro de diálogo Buscar carpeta, cree una **entrada** carpeta en  **\<unidad >: \Labs**y, a continuación, cree un **XMLFile** carpeta  **\<unidad >: \Labs\Inbound**. Haga clic en **Aceptar**.  
+12. En el cuadro de diálogo Buscar carpeta, cree un **entrada** carpeta  **\<unidad\>: \Labs**y, a continuación, cree un **XMLFile** carpeta  **\<unidad\>: \Labs\Inbound**. Haga clic en **Aceptar**.  
   
 13. En el cuadro de diálogo Propiedades de transporte de archivo, asegúrese de que  **\*.xml** se escribe en el **máscara de archivo** cuadro y, a continuación, haga clic en **Aceptar**.  
   

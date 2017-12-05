@@ -30,11 +30,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 16c300229163805dcb750590414851eb6013c7a6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1cf72847fccd84a1435e436a4bf2b59d36e26179
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="ftp-adapter-property-schema-and-properties"></a>Propiedades y esquema de propiedades del adaptador de FTP
 La tabla siguiente contiene las propiedades del esquema de propiedades del adaptador de FTP.  
@@ -52,7 +52,7 @@ La tabla siguiente contiene las propiedades del esquema de propiedades del adapt
 |**ReceivedFileName**|xs:string|Especifica el nombre completo del archivo en el que el adaptador de FTP leerá el mensaje.|  
 |**MaxConnections**|xs:unsignedInt|Especifica el número máximo de conexiones FTP simultáneas que se pueden abrir con el servidor. El valor 0 significa que no hay ningún límite.|  
 |**CommandLogFileName**|xs:string|Especifica la ubicación en la que se guardará una copia del archivo de registro que se puede utilizar para diagnosticar las condiciones de error cuando se envían o reciben archivos mediante FTP.|  
-|**AllocateStorage**|xs:boolean|Esta opción se ha dejado de utilizar en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y se desaconseja el uso de esta propiedad.|  
+|**AllocateStorage**|xs:boolean|Esta opción está en desuso en BizTalk Server y se desaconseja el uso de esta propiedad.|  
 |**PassiveMode**|xs:boolean|Especifica el modo en el que el adaptador establece la conexión con el servidor FTP.<br /><br /> En modo activo, el servidor FTP se conecta a un puerto abierto por el adaptador FTP. En modo pasivo, el adaptador FTP se conecta a un puerto abierto por el servidor FTP.<br /><br /> Si **PassiveMode** es false, el adaptador se conecta al servidor FTP con el modo activo. El valor predeterminado de esta propiedad es False.|  
 |**SpoolingFolder**|xs:string|Especifica la ubicación para una carpeta temporal del servidor FTP. Esta carpeta se utiliza para asegurar la recuperación tras un error de transferencia.|  
 |**UseSsl**|xs:boolean|Especifica si el adaptador FTP debe usar SSL para comunicarse con el servidor FTPS.|  
@@ -61,8 +61,8 @@ La tabla siguiente contiene las propiedades del esquema de propiedades del adapt
 |**ClientCertificateHash**|xs:string|Especifica el hash SHA1 del certificado de cliente que se debe usar en la negociación de la Capa de sockets seguros (SSL).<br /><br /> En función de este hash, el certificado de cliente se toma del almacén personal de la cuenta de usuario bajo la que se ejecuta la instancia de host de BizTalk.|  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el adaptador FTP](../core/configuring-the-ftp-adapter.md)
+ [Configuración del adaptador de FTP](../core/configuring-the-ftp-adapter.md)
  
- [Prácticas recomendadas y recomendaciones para el adaptador de FTP](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)
+ [Procedimientos recomendados y recomendaciones para el adaptador de FTP](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)
  
  [Adaptador de FTP](../core/ftp-adapter.md)

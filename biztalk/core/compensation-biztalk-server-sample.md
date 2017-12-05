@@ -18,11 +18,11 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e7d3e2e917f9ac0cc09117f3de83bbcc6166af1c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9752fced7e1b889c41b6e981be6c2858f0411b7b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="compensation-biztalk-server-sample"></a>Compensación (ejemplo de BizTalk Server)
 El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una orquestación.  
@@ -67,7 +67,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
 4.  En caso de que se produzca un error durante la actualización de la base de datos BTSCompensationSampleMailingList, se genera una excepción y se produce un retraso de diez segundos antes de volver a escribir los datos originales del cliente en la base de datos Northwind.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Orchestrations\Compensation\  
+ \<*Ejemplos de ruta de acceso*\>\Orchestrations\Compensation\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -103,7 +103,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
 1.  En una ventana de comandos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Orchestrations\Compensation\  
+     \<*Ejemplos de ruta de acceso*\>\Orchestrations\Compensation\  
   
 2.  Ejecute el archivo Setup.bat, que realiza las acciones siguientes:  
   
@@ -115,7 +115,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
     2.  En el **crear servicio Web** página, seleccione **publicar orquestaciones de BizTalk como servicios web**y, a continuación, haga clic en **siguiente**.  
   
-    3.  En el **ensamblado de BizTalk** página, busque y seleccione \< *ruta de ejemplos*> \Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll y, a continuación, haga clic en  **Siguiente**.  
+    3.  En el **ensamblado de BizTalk** página, busque y seleccione \< *ruta de ejemplos*\>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll y, a continuación, haga clic en **Siguiente**.  
   
     4.  En el **orquestaciones y puertos** página, haga clic en **siguiente**.  
   
@@ -147,7 +147,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
 -   Conceder el permiso de db_owner del grupo de usuarios de la aplicación de BizTalk a la **BTSCompensationSampleMailingList** y **Northwind** bases de datos.  
   
--   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no está instalado en la ubicación predeterminada (unidad: \Program BizTalk Server \<versión >\\), deberá publicar el formulario de información de contacto Update.xsn antes de usarlo. Para ello, haga lo siguiente.  
+-   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no está instalado en la ubicación predeterminada (unidad: \Program BizTalk Server \<versión\>\\), deberá publicar el formulario de información de contacto Update.xsn antes de usarlo. Para ello, haga lo siguiente.  
   
     #### <a name="to-publish-the-infopath-form"></a>Para publicar el formulario de InfoPath  
   
@@ -157,7 +157,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
     3.  En el **varios** sección, asegúrese de que el **acceder a orígenes de datos a través de dominios** configuración está habilitada y, a continuación, haga clic en **Aceptar**. Esta configuración es necesaria para que se ejecute el código de las secuencias de comandos de la solución de interfaz de usuario de InfoPath.  
   
-    4.  En el Explorador de Windows, vaya a \< *ruta de ejemplos*> \Orchestrations\Compensation\InfoPath, haga clic en **información de contacto Update.xsn** y, a continuación, haga clic en **diseño**.  
+    4.  En el Explorador de Windows, vaya a \< *ruta de ejemplos*\>\Orchestrations\Compensation\InfoPath, haga clic en **información de contacto Update.xsn** y, a continuación, haga clic en  **Diseño**.  
   
     5.  La solución de actualización de la información de contacto de InfoPath se abre en modo de diseño.  
   
@@ -165,7 +165,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
     7.  Aparece el Asistente de publicación.  
   
-    8.  Seleccione **a una carpeta compartida en este equipo o en una red** y publique la solución en la ruta de acceso \< *ruta de ejemplos*> \Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
+    8.  Seleccione **a una carpeta compartida en este equipo o en una red** y publique la solución en la ruta de acceso \< *ruta de ejemplos*\>\Orchestrations\Compensation\InfoPath\Contact Info Update.xsn.  
   
     9. Cierre el modo de diseño de InfoPath.  
   
@@ -179,7 +179,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
     3.  En el **archivo** menú, seleccione **enviar**y haga clic en **enviar**.  
   
-    4.  El documento de respuesta debe aparecer en el \< *ruta de ejemplos*> \Orchestrations\Compensation\Out carpeta y Northwind y las bases de datos BTSCompensationSampleMailingList deben actualizarse con la nueva datos del formulario de InfoPath.  
+    4.  El documento de respuesta debe aparecer en el \< *ruta de ejemplos*\>\Orchestrations\Compensation\Out carpeta y Northwind y las bases de datos BTSCompensationSampleMailingList deben actualizarse con los nuevos datos del formulario de InfoPath.  
   
         > [!NOTE]
         >  Puede desasociar la base de datos BTSCompensationSampleMailingList o ponerla fuera de conexión para probar la acción de compensación que lleva a cabo la orquestación. Tenga en cuenta que el registro se actualiza en la base de datos Northwind en primer lugar. A continuación, cuando la orquestación intenta actualizar la base de datos BTSCompensationSampleMailingList, porque se ha desasociado la base de datos, se produce un error al intentar llevar a cabo la actualización. Por tanto, se genera una excepción y se produce un retraso de diez segundos antes de que se ejecute la acción de compensación para volver a escribir los datos originales del cliente en la base de datos Northwind.  
@@ -193,9 +193,9 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
 1.  En una ventana de comandos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Orchestrations\Compensation\  
+     \<*Ejemplos de ruta de acceso*\>\Orchestrations\Compensation\  
   
 2.  Ejecute Cleanup.bat.  
   
 ## <a name="see-also"></a>Vea también  
- [Orquestaciones (carpeta de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)
+ [Orquestaciones (carpetas de ejemplos de BizTalk Server)](../core/orchestrations-biztalk-server-samples-folder.md)

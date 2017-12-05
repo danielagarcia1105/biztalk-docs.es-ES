@@ -21,11 +21,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8bd102c58f85fd38c2f769f6e4aca2b5fd0d7919
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f566b37cc43f8aca2f0a36143d10d809c008d5cd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="btarn-send-pipeline"></a>Canalización de envío BTARN
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] prepara un mensaje de RosettaNet Implementation Framework (RNIF) para su transmisión en la canalización de RNIFSend (RNIFSend.btp). La canalización de envío incluye lo siguiente:  
@@ -40,12 +40,12 @@ ms.lasthandoff: 09/20/2017
  El preprocesador XML agrega un encabezado de tipo de documento al mensaje. El encabezado identifica el esquema de definición (DTD) de tipo de documento asociado con el mensaje. La especificación de RNIF requiere la presencia de un encabezado de tipo de documento para la transmisión de RNIF.  
   
 ## <a name="xml-assembler"></a>ensamblador XML.  
- El ensamblador XML se basa en el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ensamblador XML. Transfiere las propiedades del contexto del mensaje en sobres y documentos. Ensambla el mensaje de sus elementos XML y los datos adjuntos. No realiza validación del mensaje.  
+ El ensamblador XML se basa en el ensamblador de XML de BizTalk Server. Transfiere las propiedades del contexto del mensaje en sobres y documentos. Ensambla el mensaje de sus elementos XML y los datos adjuntos. No realiza validación del mensaje.  
   
- Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] ensamblador XML, vea "Componente de canalización de ensamblador XML" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] ensamblador XML, vea "Componente de canalización de ensamblador XML" en la Ayuda de BizTalk Server.  
   
 ## <a name="mimesmime-encoder"></a>codificador de MIME/SMIME  
- El codificador MIME/SMIME se basa en el [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] codificador de MIME/SMIME. Según la configuración del protocolo en el acuerdo de socio comercial y la configuración de la [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] codificador MIME/SMIME, la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] codificador realiza lo siguiente:  
+ El codificador MIME/SMIME se basa en el codificador MIME/SMIME de BizTalk Server. Dependiendo de la configuración del protocolo de acuerdo de socio comercial y la configuración del codificador MIME/SMIME de BizTalk Server, el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] codificador realiza lo siguiente:  
   
 -   Agrega un encabezado binario de 8 bytes para el mensaje, según sea necesario para los mensajes de RNIF 1.1.  
   
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 -   Cifra la carga (contenido del servicio y los datos adjuntos) o el contenedor de carga (contenido del servicio más cab más datos adjuntos). Si ha configurado la **codificar todos los puertos** en el **protocolo** ficha del acuerdo de socio comercial a `False`, el codificador cifrará solo la carga. Si ha configurado la **codificar todos los puertos** si se establece en `True`, el codificador cifrará el contenedor de carga.  
   
- Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] codificador MIME/SMIME, vea "Componente de canalización de codificador MIME/SMIME" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] codificador MIME/SMIME, vea "Componente de canalización de codificador MIME/SMIME" en la Ayuda de BizTalk Server.  
   
 ## <a name="message-flow"></a>Flujo de mensajes  
  El flujo de mensajes a través de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] enviar canalización es como sigue:  

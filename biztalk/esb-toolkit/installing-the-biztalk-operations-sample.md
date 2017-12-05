@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6307f9d9e4ff9907bab22efcde0755dbdfdc228b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa8fb289e5bb7950f9ad8bca3dac98035bada176
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-the-biztalk-operations-sample"></a>Instalar el ejemplo de operaciones de BizTalk
 El ejemplo de operaciones de BizTalk de Microsoft requiere el servicio de operaciones de BizTalk ESB instalado y configurado. Servicio de operaciones de BizTalk ESB es uno de los servicios de Web de básicos que pueden ser instalados y configuran con la herramienta de configuración de ESB. Para obtener más información acerca de cómo utilizar la herramienta de configuración de ESB, consulte [http://msdn.microsoft.com/library/jj684558(v=bts.80).aspx](http://msdn.microsoft.com/library/jj684558\(v=bts.80\).aspx). La ubicación predeterminada del servicio Web de las operaciones de BizTalk es http://localhost/ESB.BizTalkOperationsService/Operations.asmx; Sin embargo, puede cambiarlo en el archivo de configuración de aplicación si implementa el servicio en una ubicación diferente o un servidor remoto.  
@@ -25,6 +25,6 @@ El ejemplo de operaciones de BizTalk de Microsoft requiere el servicio de operac
   
  **Para instalar el ejemplo de operaciones de BizTalk**  
   
-1.  Abra la solución denominada ESB.BizTalkOperations.Test.Client.csproj desde la carpeta \Source\Samples\BizTalkOperations donde instaló el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplos en [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1.  Abra la solución denominada ESB.BizTalkOperations.Test.Client.csproj desde la carpeta \Source\Samples\BizTalkOperations donde instaló el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplos en Visual Studio.  
   
 2.  Use los comandos en el **generar** menú para compilar la solución.

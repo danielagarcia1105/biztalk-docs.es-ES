@@ -12,11 +12,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3336d472326dc5ceb8c17e30150039229c18cb77
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de196288f3f1d4475e6859e2440e4b03b1e521dc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="modifying-edi-schemas"></a>Modificación de esquemas EDI
 Puede modificar un esquema de EDI existente que se incluye en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Si usted y sus socios comerciales han acordado las modificaciones en esquemas estándar y, quizás, han cambiado el archivo Message Implementation Guideline (MIG) adecuado, puede modificar los esquemas en el Editor de BizTalk en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -50,7 +50,7 @@ Puede modificar un esquema de EDI existente que se incluye en [!INCLUDE[btsBizTa
 |Agregar campos desencadenadores a un documento HIPAA|Puede permitir que el desensamblador de EDI cree registros XML exclusivos para un segmento de su documento HIPAA basándose en un elemento de calificación conocido como campo desencadenador. Debe especificar los atributos que describen el segmento y el valor desencadenador de modo que se cree un registro XML exclusivo para el segmento. Para obtener más información, consulte [anotaciones de campo desencadenador HIPAA esquema](../core/hipaa-schema-trigger-field-annotations.md).|  
 |Agregar un segmento a un conjunto de transacciones X12|Cuando agrega un segmento nuevo a un conjunto de transacciones X12, los tres primeros caracteres del nombre del segmento se usan como identificador del segmento. Por tanto, recomendamos que asigne al segmento un nombre tal que los tres primeros caracteres sean únicos.|  
 |Agregar un bucle a un conjunto de transacciones HIPAA|Al agregar un nuevo bucle a un conjunto de transacciones HIPAA, recomendamos asignar nombre al bucle para incluir “Bucle” en el n ombre. Un formato de ejemplo para un bucle es “TS837_2010AB_Loop”. **Nota:** el primer segmento en un bucle es obligatorio (minOccurs del segmento debe ser igual a 1) con el fin de evitar la ambigüedad.|  
-|Agregar un ‘bucle en cualquier orden’ a un conjunto de transacciones HIPAA|Cuando un conjunto de transacciones tiene segmentos equivalentes con diferente semántica, debe definirlos en un subbucle. Un subbucle con la anotación XML \<xs: all > permite que segmentos equivalentes tengan lugar en cualquier orden.<br /><br /> Recomendamos asignar nombre al ‘bucle en cualquier orden’ de modo que se incluya “SubLoop” en el nombre. Un ejemplo de formato es "TS837Q1_2010A_SubLoop" **Nota:** los elementos de un bucle en cualquier orden solo deben aparecer una vez dentro del bucle. Los hermanos de un subbucle deben tener maxOccurs configurado en 1, para evitar ambigüedades.|  
+|Agregar un ‘bucle en cualquier orden’ a un conjunto de transacciones HIPAA|Cuando un conjunto de transacciones tiene segmentos equivalentes con diferente semántica, debe definirlos en un subbucle. Un subbucle con la anotación de XML de \<xs: All\> permite que segmentos equivalentes tengan lugar en cualquier orden.<br /><br /> Recomendamos asignar nombre al ‘bucle en cualquier orden’ de modo que se incluya “SubLoop” en el nombre. Un ejemplo de formato es "TS837Q1_2010A_SubLoop" **Nota:** los elementos de un bucle en cualquier orden solo deben aparecer una vez dentro del bucle. Los hermanos de un subbucle deben tener maxOccurs configurado en 1, para evitar ambigüedades.|  
   
 ### <a name="to-modify-an-existing-edi-schema-in-biztalk-editor"></a>Para modificar un esquema EDI existente en el Editor de BizTalk  
   
@@ -70,14 +70,14 @@ Puede modificar un esquema de EDI existente que se incluye en [!INCLUDE[btsBizTa
   
 5.  Para agregar un registro personalizado para el esquema, haga clic en un nodo de registro en el árbol de consola del Editor de esquemas, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **registro secundario**. Asigne un nombre al registro y arrastre el registro a la posición adecuada del esquema. Agregue como mínimo un elemento de datos al registro. Establezca las propiedades para el registro personalizado como necesarias.  
   
-6.  Después de realizar los cambios deseados en el esquema, puede cambiar el espacio de nombres de destino que se aplica a la propiedad de esquema haciendo clic en el nodo raíz (\<esquema >) y, a continuación, cambie la **Target Namespace** propiedad.  
+6.  Después de realizar los cambios deseados en el esquema, puede cambiar el espacio de nombres de destino que se aplica a la propiedad de esquema haciendo clic en el nodo raíz (\<esquema\>) y, a continuación, cambie la **Target Namespace** propiedad.  
   
 7.  Guarde el esquema.  
   
 8.  Validar el esquema haciendo clic en el esquema en el Explorador de soluciones y haga clic en **Validar esquema**.  
   
     > [!NOTE]
-    >  El **Validar esquema** comando validará el esquema EDI ya la **extensión del Editor de esquema** propiedad del nodo raíz (\<esquema >) se establece en **Editor de esquemas EDI Extensión**.  
+    >  El **Validar esquema** comando validará el esquema EDI ya la **extensión del Editor de esquema** propiedad del nodo raíz (\<esquema\>) se establece en **EDI Extensión del Editor de esquema**.  
   
 ### <a name="to-modify-annotation-properties-in-an-existing-edi-schema"></a>Para modificar propiedades de anotación en un esquema EDI existente  
   
@@ -88,7 +88,7 @@ Puede modificar un esquema de EDI existente que se incluye en [!INCLUDE[btsBizTa
     1.  En la anotación appinfo en la parte superior del esquema, establezca la marca de validación de campos cruzados (ya sea **X12ConditionDesignator_Check** para esquemas X12 o HIPAA o **EdifactDependencyRule_Check** para EDIFACT esquemas) a **Sí**.  
   
         > [!NOTE]
-        >  La marca de validación de campos cruzados es **Sí** de forma predeterminada para [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] esquemas HIPAA.  
+        >  La marca de validación de campos cruzados es **Sí** de forma predeterminada para los esquemas HIPAA de BizTalk Server.  
   
     2.  En la anotación de un elemento específico, especifique las condiciones relacionales (X12 o HIPAA) o las reglas de dependencia (EDIFACT) del elemento. Para obtener más información acerca de estas opciones, consulte [validación cruzada de segmentos de campos](../core/cross-field-segment-validation.md).  
   

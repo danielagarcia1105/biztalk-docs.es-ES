@@ -12,14 +12,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15f73b9c343e62e0a0a83bf76f8c762b9ce9ede9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da7147f4c2500946fb97c47592a2a4a35d3dcf62
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="unit-testing-with-biztalk-server-projects"></a>Pruebas de unidades con proyectos de BizTalk Server
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]introdujo una unidad de probar la característica que se puede habilitar en el **implementación** página de propiedades de un proyecto de BizTalk. Captura de pantalla siguiente muestra esta configuración del proyecto que se tiene acceso desde el Diseñador de proyectos cuando haga clic en un proyecto y haga clic en el **propiedades**.  
+BizTalk Server introdujo un característica que se puede habilitar en de pruebas unitarias la **implementación** página de propiedades de un proyecto de BizTalk. Captura de pantalla siguiente muestra esta configuración del proyecto que se tiene acceso desde el Diseñador de proyectos cuando haga clic en un proyecto y haga clic en el **propiedades**.  
   
  ![](../core/media/projectdesignerenableunittesting.gif "ProjectDesignerEnableUnitTesting")  
   

@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 50b4aaa0187c10038dde907fa8b5fa8c595d2847
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 66ef0c7200c69cd69a72a5743ca8f14a8950b17d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-the-duration-on-an-activity-window"></a>Cómo definir la duración en una ventana Actividad
 Los administradores utilizan el **set-activitywindow** comando para establecer la duración de la actividad especificada.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **set-activitywindow** comando para establecer l
   
 2.  Escriba [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking en el símbolo del sistema para desplazarse hasta la carpeta de seguimiento. Presione **ENTRAR**.  
   
-3.  Tipo de **bm set-activitywindow-actividad:\<nombre de actividad > - TimeLength:\<número entero > - TimeUnit: mes &#124; día &#124; Hora &#124; Minuto**.  
+3.  Tipo de **bm set-activitywindow-actividad:\<nombre de la actividad\> - TimeLength:\<número entero\> - TimeUnit: mes &#124; día &#124; Hora &#124; Minuto**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

@@ -15,11 +15,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7231fd0d2aba7298127534eb43f1bf3c8c453b61
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebe9f04fc8dac06676d7f29bf5dd2ecd01e7a06c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="business-rules-hello-world1-biztalk-server-sample"></a>Business Rules Hello World1 (ejemplo de BizTalk Server)
 El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas BizTalk, guardarlo en un archivo (SampleRuleSet.xml), cargarlo y ejecutarlo basado en un conjunto de ejemplos de hechos. El conjunto de reglas de ejemplos consta de una regla sencilla que implica a un elemento XML y objetos basados en .NET (propiedades y miembros) como términos de la definición de reglas.  
@@ -42,7 +42,7 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
 7.  Realiza una limpieza mediante la eliminación del archivo de conjunto de reglas en preparación de las ejecuciones posteriores del ejemplo.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Business Rules\Business reglas Hello World1\  
+ \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -64,7 +64,7 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Business Rules\Business reglas Hello World1\  
+     \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -86,7 +86,7 @@ El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Business Rules\Business reglas Hello World1\bin\Debug\  
+     \<*Ejemplos de ruta de acceso*\>\Business Rules\Business reglas Hello World1\bin\Debug\  
   
 2.  En la ventana de comandos, escriba el nombre del archivo ejecutable para este ejemplo (BusinessRulesHelloWorld1.exe) y, a continuación, presione ENTRAR.  
   
@@ -144,4 +144,4 @@ Press any key to finish ...
  Puede definir las reglas en términos de clases y esquemas pero, durante la ejecución, se necesitan las instancias de objetos de las clases relevantes y las instancias de documentos de los esquemas relevantes. Evalúe las reglas en estas instancias de tiempo de ejecución (conocidas como hechos). En este ejemplo, los hechos son varias instancias de la **MySampleBusinessObject** objeto, construido con valores diferentes para sus **MyValue** propiedad y una única instancia XML del esquema definido que contiene un valor para el **identificador** elemento.  
   
 ## <a name="see-also"></a>Vea también  
- [Reglas de negocios (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)
+ [Reglas de negocio (carpeta de ejemplos de BizTalk Server)](../core/business-rules-biztalk-server-samples-folder.md)

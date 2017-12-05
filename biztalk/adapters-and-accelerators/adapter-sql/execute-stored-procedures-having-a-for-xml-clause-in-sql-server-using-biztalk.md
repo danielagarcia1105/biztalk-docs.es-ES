@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e47c269516ba73ab1e61664d200db207110e98e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c1b69c522f01f2561ea8145c11dec3e36b5cd4e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-stored-procedures-having-a-for-xml-clause-in-sql-server-using-biztalk-server"></a>Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server con BizTalk Server
 Una instrucción SELECT de SQL puede tener una cláusula FOR XML que devuelve el resultado de la consulta como XML en lugar de un conjunto de filas. También puede tener un procedimiento almacenado que contiene una instrucción SELECT con una cláusula FOR XML. [FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) se proporciona más información.
@@ -86,7 +86,7 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
   
          Esto es necesario porque el esquema sqltypes.xsd ya ha agregado al proyecto de BizTalk.  
   
-    4.  Proporciona un espacio de nombres de destino para el esquema. Haga clic en el  **\<esquema >** nodo y en el panel Propiedades, especifique un espacio de nombres en el **Target Namespace** propiedad. De este tema, asigne el espacio de nombres como `http://ForXmlStoredProcs/namespace`.  
+    4.  Proporciona un espacio de nombres de destino para el esquema. Haga clic en el  **\<esquema\>**  nodo y en el panel Propiedades, especifique un espacio de nombres en el **Target Namespace** propiedad. De este tema, asigne el espacio de nombres como `http://ForXmlStoredProcs/namespace`.  
   
 ## <a name="generating-schema-for-the-request-message-to-invoke-the-stored-procedure"></a>Generar el esquema para el mensaje de solicitud invocar el procedimiento almacenado  
  Para generar el esquema del mensaje de solicitud puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] desde un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. En este tema, generar el esquema para el procedimiento almacenado de GET_EMP_DETAILS_FOR_XML. Para obtener más información sobre cómo generar el esquema mediante [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], consulte [recuperación de metadatos para operaciones de SQL Server en Visual Studio mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md).  
@@ -227,9 +227,9 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
  La orquestación consume el mensaje y lo envía a la base de datos de SQL Server. La respuesta de base de datos de SQL Server se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de SQL Server para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Root xmlns="http://ForXmlStoredProcs/namespace">  
-  \<Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
+  <Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
 </Root>  
 ```  
   

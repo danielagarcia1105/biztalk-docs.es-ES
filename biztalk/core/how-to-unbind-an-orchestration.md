@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ce49c3e74846fac5943bda522d11218410f428ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38b8adc77e5e8579339931e49abb501f9981e5fc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="unbind-an-orchestration"></a>Separar una orquestación
 
@@ -37,11 +37,11 @@ En este tema se describen cómo utilizar la consola de administración de BizTal
   
 3.  Haga clic en **orquestaciones**, haga clic en la orquestación, haga clic en **propiedades**y, a continuación, haga clic en **enlaces** en el panel izquierdo.  
   
-4.  Para quitar los enlaces de host, de la **Hosts** lista, seleccione  **\<ninguno >**.  
+4.  Para quitar los enlaces de host, de la **Hosts** lista, seleccione  **\<ninguno\>**.  
   
-5.  Para quitar enlaces de puertos de recepción en la lista desplegable de **puertos de recepción**, haga clic en  **\<ninguno >**.  
+5.  Para quitar enlaces de puertos de recepción en la lista desplegable de **puertos de recepción**, haga clic en  **\<ninguno\>**.  
   
-6.  Para quitar enlaces de puertos de envío, en la lista desplegable de **grupos de puertos de envío y puertos de envío**, haga clic en  **\<ninguno >**.  
+6.  Para quitar enlaces de puertos de envío, en la lista desplegable de **grupos de puertos de envío y puertos de envío**, haga clic en  **\<ninguno\>**.  
   
 7.  Cuando termine de quitar los enlaces, haga clic en **Aceptar**.  
   

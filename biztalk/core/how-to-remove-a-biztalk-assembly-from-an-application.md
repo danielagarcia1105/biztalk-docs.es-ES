@@ -18,11 +18,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c6731183fd4be4655d0365c1ce6277dd4052b6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89e46b8610114149e8618811361090d8644f82aa
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-remove-a-biztalk-assembly-from-an-application"></a>Cómo quitar un ensamblado de BizTalk de una aplicación
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server o la línea de comandos para quitar un ensamblado de BizTalk de una aplicación de BizTalk. Al hacerlo, el ensamblado y los artefactos que incluye, tales como orquestaciones, esquemas y canalizaciones, se quitan de la aplicación y de la base de datos de administración de BizTalk.  
@@ -44,7 +44,7 @@ En este tema se describe cómo utilizar la consola de administración de BizTalk
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de la consola, expanda sucesivamente Administración de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], el grupo de BizTalk que contiene el ensamblado de BizTalk que se va a quitar y la aplicación que contiene el ensamblado de BizTalk.  
+2.  En el árbol de consola, expanda Administración de BizTalk Server, expanda el grupo de BizTalk que contiene el ensamblado de BizTalk para quitar y, a continuación, expanda la aplicación que contiene el ensamblado de BizTalk.  
   
 3.  Haga clic en el **recursos** carpeta, haga clic en el ensamblado de BizTalk y, a continuación, haga clic en **quitar**.  
   

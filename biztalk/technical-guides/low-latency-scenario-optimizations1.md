@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a2957888253826845ea9a941ad7fce8fd7a2ed7f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12f16f67f1c161f74e6a9179db8c85f48b5b3e14
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="low-latency-scenario-optimizations"></a>Optimizaciones de escenario de baja latencia
 De forma predeterminada, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está optimizado para rendimiento en lugar de baja latencia. Las siguientes optimizaciones se aplicaron a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para el escenario de prueba usado para esta guía.  
@@ -25,7 +25,7 @@ De forma predeterminada, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiz
 >  Estas optimizaciones mejorarán la latencia, pero pueden hacerlo con algún impacto en el rendimiento global.  
   
 ## <a name="increase-the-biztalk-server-host-internal-message-queue-size"></a>Aumentar el tamaño de la cola de mensajes interna de host de BizTalk Server  
- Cada host de BizTalk tiene su propia cola en memoria interna. Aumentar el tamaño de esta cola desde el valor predeterminado de 100 y 1000 para mejorar el rendimiento para un escenario de baja latencia. Para obtener más información acerca de cómo modificar el valor del tamaño de cola de mensajes interna, consulte "Cómo modificar la configuración predeterminada de Host limitación" en la [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] ayuda en [http://go.microsoft.com/fwlink/?LinkID=120225](http://go.microsoft.com/fwlink/?LinkID=120225).  
+ Cada host de BizTalk tiene su propia cola en memoria interna. Aumentar el tamaño de esta cola desde el valor predeterminado de 100 y 1000 para mejorar el rendimiento para un escenario de baja latencia. Para obtener más información acerca de cómo modificar el valor del tamaño de cola de mensajes interna, consulte "Cómo modificar la configuración predeterminada de Host limitación" en la Ayuda de BizTalk Server en [http://go.microsoft.com/fwlink/?LinkID=120225](http://go.microsoft.com/fwlink/?LinkID=120225).  
   
 ## <a name="reduce-the-maxreceiveinterval-value-in-the-admserviceclass-table-of-the-biztalk-server-management-database"></a>Reduzca el valor de MaxReceiveInterval en la tabla adm_ServiceClass de la base de datos de administración de BizTalk Server  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]utiliza un mecanismo de sondeo para recibir mensajes desde sus colas de host en el cuadro de mensajes. El **MaxReceiveInterval** valor en la tabla adm_ServiceClass de la base de datos de administración de BizTalk (BizTalkMgmtDb) es el valor máximo en milisegundos que cada instancia de host de BizTalk esperará hasta que sondea el cuadro de mensajes. La tabla adm_ServiceClass contiene un registro para los siguientes tipos de servicio:  

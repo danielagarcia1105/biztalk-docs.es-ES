@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00c603a3a0c52d735441858af6a2f602c30d1f51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d235fa0f6882ecd9e180aabd26999b1d7f73390
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-deploying-the-policy"></a>Tutorial: Implementar la directiva
 Este tutorial proporciona instrucciones paso a paso para implementar la **ProcessPurchaseOrder** directiva en las tres formas siguientes:  
@@ -268,7 +268,7 @@ Este tutorial proporciona instrucciones paso a paso para implementar la **Proces
   
 3.  Busque y haga doble clic en el archivo XML (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) que creó en el primer procedimiento.  
   
-4.  Expanda  **\<todos los artefactos >** en **aplicaciones**.  
+4.  Expanda  **\<todos los artefactos\>**  en **aplicaciones**.  
   
 5.  Haga clic en **directivas**, verá la versión 1.3 de la **ProcessPurchaseOrder** directiva en la lista.  
   
@@ -413,7 +413,7 @@ Este tutorial proporciona instrucciones paso a paso para implementar la **Proces
   
     2.  Copie el contenido XML completo del primer archivo BRL que contiene el vocabulario.  
   
-    3.  Copie el bloque de conjunto de reglas (comienza con la \<ruleset > etiqueta y finaliza con el \</ruleset > etiqueta) del segundo archivo BRL.  
+    3.  Copie el bloque de conjunto de reglas (comienza con la \<ruleset\> etiqueta y termina con la \</ruleset\> etiqueta) del segundo archivo BRL.  
   
     4.  Guarde el archivo nuevo. Puede importar este archivo XML único para crear el **POVocabulary** vocabulario y **ProcessPurchaseOrder** directiva.  
   

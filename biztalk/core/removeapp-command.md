@@ -12,18 +12,18 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9808b43ba07434793403d175885694f67530dae0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 05269411c81aeccdaf1c30e36e47c02787bf044a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="removeapp-command"></a>RemoveApp (comando)
 Quita (elimina) de la base de datos de administración de BizTalk una aplicación de BizTalk así como todos los artefactos que contiene. No se desinstala la aplicación. Para obtener instrucciones sobre cómo hacer esto, consulte [cómo desinstalar una aplicación de BizTalk](../core/how-to-uninstall-a-biztalk-application.md).  
   
  Se producirá un error en la operación de quitar cuando:  
   
--   **No se detiene la aplicación.** Para obtener instrucciones acerca de cómo detener una aplicación, consulte [cómo iniciar y detener una aplicación de BizTalk](../core/how-to-start-and-stop-a-biztalk-application.md). El **ApplicationManager** ejemplo SDK que se instala en el  *\<ruta de ejemplos >\\*directorio Admin\ExplorerOM\ muestra cómo iniciar o detener mediante programación un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación.  
+-   **No se detiene la aplicación.** Para obtener instrucciones acerca de cómo detener una aplicación, consulte [cómo iniciar y detener una aplicación de BizTalk](../core/how-to-start-and-stop-a-biztalk-application.md). El **ApplicationManager** ejemplo SDK que se instala en el  *\<ruta de ejemplos\>\\*directorio Admin\ExplorerOM\ ilustra cómo mediante programación iniciar o detener un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicación.  
   
 -   **Otras aplicaciones contienen referencias a la aplicación.** Si otras aplicaciones contienen referencias a la aplicación que desea quitar, primero debe quitar las referencias de las otras aplicaciones. Para obtener instrucciones, consulte [cómo quitar una referencia a otra aplicación](../core/how-to-remove-a-reference-to-another-application.md).  
   
@@ -36,7 +36,7 @@ Quita (elimina) de la base de datos de administración de BizTalk una aplicació
 -   **Una orquestación en la aplicación se inscribe, inicia, o tiene una instancia suspendida.** Para obtener más información acerca de las orquestaciones, consulte [administrar orquestaciones](../core/managing-orchestrations.md).  
   
 > [!NOTE]
->  Si la aplicación contiene una directiva que se encuentra en un estado implementado, la directiva no se quita de la base de datos de motor de reglas y continuará mostrándose en la carpeta directivas bajo la \<todos los artefactos > nodo de la aplicación de la administración de BizTalk consola. Si agrega la directiva a otra aplicación, la directiva permanece en un estado implementado.  
+>  Si la aplicación contiene una directiva que se encuentra en un estado implementado, la directiva no se quita de la base de datos de motor de reglas y continuará mostrándose en la carpeta directivas bajo el \<todos los artefactos\> nodo de la aplicación de BizTalk Consola de administración. Si agrega la directiva a otra aplicación, la directiva permanece en un estado implementado.  
   
 ## <a name="usage"></a>Uso  
  **/ ApplicationName BTSTask RemoveApp:** *valor* [**/Server:***valor*] [**/Database:**  *valor*]  

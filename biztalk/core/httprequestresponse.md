@@ -15,11 +15,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fad45e80cac2a398507b4288c9ac6f35c887e71b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 549f343818464a8316246f8b6996755ce5fef136
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="httprequestresponse"></a>HTTPRequestResponse
 En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz de programación de aplicaciones para servidores de Internet (ISAPI) de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de Microsoft para permitir que una aplicación ASP.NET se comunique con una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -36,7 +36,7 @@ En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz
  La aplicación ASP.NET recibe la respuesta de confirmación de pedido XML y actualiza el formulario Web con la información de estado extraída de la respuesta.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\AdaptersUsage\HTTPRequestResponse\  
+ *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\HTTPRequestResponse\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -57,7 +57,7 @@ En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersUsage\HTTPRequestResponse  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersUsage\HTTPRequestResponse  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -77,7 +77,7 @@ En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz
         > [!IMPORTANT]
         >  Debe modificar el código del ejemplo que implementa la aplicación Web (Default.aspx.cs) para reflejar su entorno:  
         >   
-        >  http://\<*nombre del servidor*>/\<*dir virtual*>/BTSHTTPReceive.dll donde `<servername>` es el nombre del servidor Web que va a registrar y `<` *dir virtual* `>` es el directorio virtual donde reside este archivo.  
+        >  http://\<*nombre del servidor*\>/\<*dir virtual*\>/BTSHTTPReceive.dll donde `<servername>` es el nombre de la Web servidor que se va a registrar en, y `<` *dir virtual* `>` es el directorio virtual donde reside este archivo.  
   
         > [!NOTE]
         >  Debe confirmar que BizTalk no ha informado de ningún error durante el proceso de generación e inicialización antes de intentar ejecutar este ejemplo.  
@@ -127,4 +127,4 @@ En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz
  Puede extender este ejemplo a aplicaciones que requieren enviar datos a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] a través de un formulario web o mediante HTTP de manera general. Si extiende la parte de la aplicación ASP.NET de este ejemplo, podrá consultar más información y realizar otro preprocesamiento antes de enviar los datos a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="see-also"></a>Vea también  
- [Ejemplos de adaptadores HTTP](../core/http-adapter-samples.md)
+ [Ejemplos de adaptadores de HTTP](../core/http-adapter-samples.md)

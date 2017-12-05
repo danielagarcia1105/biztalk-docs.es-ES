@@ -17,11 +17,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a44fd7e30bf511ee77cc1f3e79f6ba63908259ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23bc9f0b1f2d350864509536a393de639e108e2d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>Tutorial: Módulo 3: obtener acceso a propiedades de SharePoint desde una orquestación
 En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md) y muestra cómo obtener acceso a las propiedades de un mensaje entrante en el contexto de Windows SharePoint Services tiempo de ejecución y, a continuación, determine el destino del mensaje, en función de una propiedad que utiliza puertos dinámicos en una orquestación. Para obtener una introducción al adaptador de Windows SharePoint Services, vea [¿qué es el adaptador de Windows SharePoint Services?](../core/what-is-the-windows-sharepoint-services-adapter.md).  
@@ -29,7 +29,7 @@ En este tutorial es la continuación de [Tutorial: módulo 2: integrar Office co
 ## <a name="prerequisites"></a>Requisitos previos  
  A continuación, se enumeran los requisitos previos para efectuar los procedimientos de este tema:  
   
--   Debe contar con una implementación de un solo servidor con una instalación completa de [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] en ejecución en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
+-   Debe tener una implementación de servidor único con una instalación completa de BizTalk Server que se ejecutan en [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)].  
   
 -   Debe completar los siguientes tutoriales: [Tutorial: módulo 1 – enviar y recibir mensajes con el adaptador de Windows SharePoint Services](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) y [Tutorial: módulo 2: integrar Office con las ventanas Adaptador de SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
   

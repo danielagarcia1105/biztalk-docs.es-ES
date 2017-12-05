@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be973777fda6fad83b4ed6c672b68969cdde5919
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fca916339e48f6bce053753111f4467a4c9ae7d5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-reference-additional-bam-primary-import-databases"></a>Cómo agregar referencias a bases de datos de importación principal de BAM adicionales
 Los administradores utilizan el **enable-reference** comando para hacer referencia a otras bases de datos de importación principal de BAM. La finalidad de agregar referencias a bases de datos de importación principales de BAM consiste en facilitar las actividades de BAM distribuidas.  
@@ -27,7 +27,7 @@ Los administradores utilizan el **enable-reference** comando para hacer referenc
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm enable-reference - TargetServer:\<servidor de destino > - TargetDatabase:\<base de datos de destino >**, donde \< *destino servidor*> se sustituye por el nombre de SQL server en el que la base de datos de importación principal de BAM de destino especificado por \<base de datos de destino > reside. Presione ENTRAR.  
+3.  Escriba lo siguiente en el símbolo del sistema de línea de comandos: **bm enable-reference - TargetServer:\<TargetServer\> - TargetDatabase:\<base de datos de destino\>**, donde \< *TargetServer* \> se sustituye por el nombre de SQL server en el que la base de datos de importación principal de BAM de destino especificado por \<base de datos de destino\> reside. Presione ENTRAR.  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidad de administración de BAM](../core/bam-management-utility.md)

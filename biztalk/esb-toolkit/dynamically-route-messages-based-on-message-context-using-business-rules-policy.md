@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 717e0180ba92d49751342e00a4d0367832084135
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0d36df10b271d83b1e77f4d7f57d357f4b22033
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-dynamically-route-a-message-based-on-message-context-using-a-business-rules-policy"></a>Cómo: dinámicamente enrutar un mensaje basado en el contexto del mensaje mediante una directiva de reglas de negocios
 ## <a name="goal"></a>Objetivo  
- En esta sección se muestra cómo crear un itinerario que determina los puntos de conexión de mensaje, en función de propiedades de contexto de mensaje con un [!INCLUDE[prague](../includes/prague-md.md)] directiva del motor de reglas de negocios (BRE) y, a continuación, las rutas el mensaje mediante la [!INCLUDE[prague](../includes/prague-md.md)] adaptador de archivo.  
+ Esta sección muestra cómo crear un itinerario que determina los puntos de conexión de mensaje, en función de propiedades de contexto del mensaje, mediante una directiva del motor de reglas de negocios (BRE) de BizTalk Server y, a continuación, enruta el mensaje mediante el adaptador de archivo de BizTalk Server.  
   
  En este tema "Cómo...", se realizarán los pasos siguientes:  
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="steps"></a>Pasos  
  **Para crear una directiva del BRE para enrutar un mensaje con propiedades de contexto de mensaje**  
   
-1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione  **[!INCLUDE[prague](../includes/prague-md.md)]** y, a continuación, haga clic en **Compositor de reglas de negocios**.  
+1.  Haga clic en **iniciar** en la barra de tareas, seleccione **todos los programas**, seleccione **BizTalk Server**y, a continuación, haga clic en **Compositor de reglas de negocios**.  
   
 2.  En el Explorador de directivas, haga clic en **directivas**y, a continuación, haga clic en **agregar nueva directiva**. Nombre de la directiva **RouteBasedOnMessageType**.  
   
@@ -55,11 +55,11 @@ ms.lasthandoff: 09/20/2017
   
 5.  En el Explorador de hechos, expanda el **ESB. EndPointInfo** vocabulario, expanda **versión 1.0**y, a continuación, arrastre el **establecer ubicación de transporte saliente de punto final** definición a **acciones**.  
   
-6.  Haga clic en  **\<una cadena vacía >**y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
+6.  Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
   
 7.  En el Explorador de hechos, arrastre el **establecer tipo de transporte saliente de punto final** definición a **acciones**.  
   
-8.  En el Explorador de hechos, expanda el **ESB. TansportTypes** vocabulario, expanda **versión 1.0**y, a continuación, arrastre el **proveedores de adaptador** definición a  **\<una cadena vacía >**.  
+8.  En el Explorador de hechos, expanda el **ESB. TansportTypes** vocabulario, expanda **versión 1.0**y, a continuación, arrastre el **proveedores de adaptador** definición a  **\<una cadena vacía\>** .  
   
 9. En el panel Acciones, expanda la **proveedores de adaptador** lista desplegable y, a continuación, haga clic en **archivo**.  
   
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
  **Para crear un modelo de lenguaje de específico de dominio (DSL) itinerarios de ESB**  
   
-1.  En [!INCLUDE[vs2010](../includes/vs2010-md.md)], abra C:\HowTos\Patterns\Patterns.sln.  
+1.  En Visual Studio, abra C:\HowTos\Patterns\Patterns.sln.  
   
 2.  En el Explorador de soluciones, haga clic en el **ItineraryLibrary** , seleccione **agregar**y, a continuación, haga clic en **itinerario nueva**.  
   
@@ -179,14 +179,14 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>Recursos adicionales  
  Para obtener más información, vea los siguientes temas relacionados:  
   
--   [Cómo: seleccionar un itinerario mediante una directiva de reglas de negocios](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [Cómo: Seleccionar un itinerario mediante una directiva de reglas de negocio](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
--   [Cómo: transformar un mensaje y enrutar el mensaje resultante a una ubicación de archivo con una lista de distribución itinerario](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
+-   [Cómo: Transformar un mensaje y enrutar el mensaje resultante a una ubicación de archivo con una lista de distribución de itinerarios](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
   
--   [Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido](../esb-toolkit/apply-content-based-routing-using-business-rules-policy-for-known-message-type.md)  
+-   [Cómo: Implementar el enrutamiento basado en contenido mediante una directiva de reglas de negocio para un tipo de mensaje conocido](../esb-toolkit/apply-content-based-routing-using-business-rules-policy-for-known-message-type.md)  
   
 -   [Actividades de desarrollo](../esb-toolkit/development-activities.md)  
   
 -   [Patrones de enrutamiento de mensajes](../esb-toolkit/message-routing-patterns.md)  
   
--   [Uso de resolución dinámica y enrutamiento](../esb-toolkit/using-dynamic-resolution-and-routing.md)
+-   [Uso de resolución y enrutamiento dinámicos](../esb-toolkit/using-dynamic-resolution-and-routing.md)

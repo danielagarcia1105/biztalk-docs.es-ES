@@ -19,11 +19,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c027d5ab993c2110dbcbd6d992859d0d1d4ac7d9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fe578337d7137f3c9973ec4d57f195ead94ad908
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-adapter-configuration-properties"></a>Propiedades de configuración del adaptador de archivo
 En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para una ubicación de recepción de un adaptador de archivo:  
@@ -62,7 +62,7 @@ En la siguiente tabla se enumeran las propiedades de configuración que se puede
   
 |Nombre de la propiedad|Tipo|Description|Restricciones|Comentarios|  
 |-------------------|----------|-----------------|------------------|--------------|  
-|Nombre de usuario|VT_BSTR|Especifica credenciales alternativas cuando la instancia de host del adaptador de archivo no tiene los derechos necesarios para un recurso compartido de red.|Ninguno|Especifique el nombre de usuario con el formato \<dominio > \username.|  
+|Nombre de usuario|VT_BSTR|Especifica credenciales alternativas cuando la instancia de host del adaptador de archivo no tiene los derechos necesarios para un recurso compartido de red.|Ninguno|Especifique el nombre de usuario con el formato \<dominio\>\username.|  
 |UseTempFileOnWrite|VT_BOOL|Especifica que se utilizará un archivo temporal al escribir en la carpeta de destino. Una vez que se termina de escribir, se le cambia el nombre al valor especificado para la propiedad Nombre de archivo.|Esta propiedad solo puede establecerse como -1 (verdadero) si la propiedad CopyMode se establece con el valor 2 (Crear nuevo).<br /><br /> Los valores válidos son:<br /><br /> --1 (true)<br />-0 (false)|El valor predeterminado es 0 (falso).|  
 |CopyMode|VT_UI4|Definir el modo de copia que se utilizará al escribir un mensaje en un archivo|Los valores válidos son:<br /><br /> -0 (anexar)<br />-1 (sobrescribir)<br />-2 (crear nuevo)|El valor predeterminado es 2 (Crear nuevo).|  
 |FileName|VT_BSTR|Especificar el nombre de archivo en el que el controlador de envío de archivos escribe el mensaje.|Para obtener información acerca de las restricciones en esta propiedad, vea [restricciones en las propiedades de nombre de archivo y la máscara de archivo](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769).|El valor predeterminado es %MessageID%.xml.|  

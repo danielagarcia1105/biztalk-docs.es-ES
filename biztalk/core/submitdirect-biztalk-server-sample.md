@@ -16,11 +16,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d1e355f752241135d781c3425e05f017b0d86d93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4941cb95e180b7075b7e113fb89f7734a9abd82
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="submitdirect-biztalk-server-sample"></a>SubmitDirect (ejemplo de BizTalk Server)
 El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes unidireccionales y de solicitud-respuesta a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde aplicaciones basadas en .NET. El ejemplo muestra el uso de las API de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para los adaptadores. También proporciona un adaptador de recepción, conocido como adaptador de envío, que puede usarse para enviar mensajes a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -46,7 +46,7 @@ El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes uni
 -   **Envío de mensaje de solicitud/respuesta.** La aplicación de consola SubmitRequest.exe toma el archivo .xml especificado en su línea de comandos y lo envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. El esquema de este archivo .xml define elementos que contienen dos campos enteros. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recoge el archivo .xml y lo procesa con una orquestación (con un puerto de solicitud-respuesta). Usa una asignación para producir un mensaje de respuesta XML que devuelva un entero, que será el producto de los dos enteros en la solicitud. Cuando la aplicación de consola reciba la respuesta, mostrará el resultado.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\SubmitDirect\  
+ \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\SubmitDirect\  
   
  En la siguiente tabla se enumeran los archivos de este ejemplo y se describe el propósito de cada uno de ellos.  
   
@@ -69,13 +69,13 @@ El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes uni
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\SubmitDirect  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\SubmitDirect  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la siguiente carpeta de salida para la parte de envío por lotes de este ejemplo.  
   
-         \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\SubmitDirect\Out  
+         \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\SubmitDirect\Out  
   
     -   Compila los diversos proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
@@ -110,7 +110,7 @@ El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes uni
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
   
 2.  Ejecute el archivo SubmitMessages.exe, y pase varias cadenas de la línea de comandos.  
   
@@ -122,7 +122,7 @@ El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes uni
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
   
 2.  Ejecute el archivo SubmitRequest.exe. Para ello, pase un nombre de archivo .xml correspondiente en la línea de comandos.  
   
@@ -158,4 +158,4 @@ El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes uni
   
 ## <a name="see-also"></a>Vea también  
  [Ejemplos de adaptador: desarrollo](../core/adapter-samples-development.md)   
- [Registrar un adaptador](../core/registering-an-adapter.md)
+ [Registro de un adaptador](../core/registering-an-adapter.md)

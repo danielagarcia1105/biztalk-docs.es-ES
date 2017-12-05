@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7aa71ce6ba1d2a910626446ed45439b8c7132e75
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 26147924950a73b0f654531e9e0eff8e5ac82541
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-the-swift-disassembler"></a>Configurar el Desensamblador SWIFT
 El Desensamblador SWIFT (DASM) realiza las tareas siguientes cuando se invoca en un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] canalización de recepción:  
@@ -51,8 +51,8 @@ El Desensamblador SWIFT (DASM) realiza las tareas siguientes cuando se invoca en
 > [!NOTE]
 >  Una vez que configura, compila e implementa una canalización personalizada, cambios en la configuración requieren volver a compilar y volver a implementar la canalización personalizada.  
   
- Para obtener información acerca de cómo crear, compilar e implementar canalizaciones personalizadas, consulte [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener información acerca de cómo crear, compilar e implementar canalizaciones personalizadas, consulte la Ayuda de BizTalk Server.  
   
  Esta sección contiene:  
   
--   [Propiedades de configuración de desensamblador SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md)
+-   [Propiedades de configuración del desensamblador de SWIFT](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md)

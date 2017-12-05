@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e2024217812544152e7c8a51b9db4a018046a3ca
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e7be3f8060bba20bc0ba127443095c228f954bba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="general-guidelines-for-improving-operating-system-performance"></a>Directrices generales para mejorar el rendimiento del sistema operativo
 Deben seguirse las siguientes directrices generales para mejorar el rendimiento del sistema operativo:  
@@ -165,7 +165,7 @@ Enlace de interrupción utilizando IntPolicy debe siempre se evalúan en un ento
 ## <a name="use-the-ntfs-file-system-on-all-volumes"></a>Usar el sistema de archivos NTFS en todos los volúmenes  
  Windows Server ofrece varios tipos de sistema de archivos para dar formato a las unidades, incluidos NTFS, FAT y FAT32. NTFS siempre debería ser el sistema de archivos preferido para los servidores.  
 NTFS ofrece ventajas de rendimiento considerable sobre los sistemas de archivos FAT y FAT32 y debe usarse exclusivamente en servidores de Windows. Además, NTFS ofrece muchas ventajas de seguridad, la escalabilidad, la estabilidad y la capacidad de recuperación sobre FAT y FAT32.  
-En versiones anteriores de Windows, FAT y FAT32 a menudo se implementaron para volúmenes menores (diga \<500 MB) porque a menudo estaban más rápidos en estas situaciones. Con capacidad de la unidad de inserción hasta un máximo de aplicaciones y sistemas operativos y almacenamiento en disco relativamente económico hoy en día, no es probable que estos volúmenes pequeños dejarán de estar en uso. FAT32 se escala mejor que FAT en volúmenes más grandes, pero todavía no es un sistema de archivos adecuado para los servidores de Windows.  
+En versiones anteriores de Windows, FAT y FAT32 a menudo se implementaron para volúmenes menores (diga < 500 MB) porque a menudo estaban más rápidos en estas situaciones. Con capacidad de la unidad de inserción hasta un máximo de aplicaciones y sistemas operativos y almacenamiento en disco relativamente económico hoy en día, no es probable que estos volúmenes pequeños dejarán de estar en uso. FAT32 se escala mejor que FAT en volúmenes más grandes, pero todavía no es un sistema de archivos adecuado para los servidores de Windows.  
 FAT y FAT32 a menudo se han implementado en el pasado como que se considera más fácilmente recuperables y administrable con las herramientas nativas de DOS en el caso de un problema con un volumen. En la actualidad, con la capacidad de recuperación NTFS diversas herramientas generan ambos forma nativa en el sistema operativo y disponible como utilidades de otros fabricantes disponibles, no debe haber ya un argumento válido para no usar NTFS para sistemas de archivos.  
   
 ## <a name="do-not-use-ntfs-file-compression"></a>No utilice la compresión de archivos NTFS  
@@ -310,4 +310,4 @@ Para deshabilitar los servicios de Windows Server 2008 que no son necesarios par
  Se conocen 3D o protectores de pantalla OpenGL para consumir gran cantidad de CPU y utilizar recursos de sistema importante cuando se están ejecutando. Es mejor evitar la instalación de estos completamente como una opción en tiempo de compilación de servidor, o quítelas si se han instalado. La básica "Windows Server 2008" o protectores de pantalla en blanco son una excelente alternativa al uso de los protectores de pantalla de la CPU.  
   
 ## <a name="see-also"></a>Vea también  
- [Optimizar el rendimiento del sistema operativo](../technical-guides/optimizing-operating-system-performance.md)
+ [Optimización del rendimiento del sistema operativo](../technical-guides/optimizing-operating-system-performance.md)

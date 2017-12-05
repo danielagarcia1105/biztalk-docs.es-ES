@@ -19,11 +19,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d68a55ce0f6eba835313075e8ab3753ec825db2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3172759541f46ec6c3c8c2b3e684086747036f37
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ops-adapter-implementation-details"></a>Detalles de implementación de adaptadores de OPS
 Puede que le resulte de utilidad conocer los siguientes aspectos del adaptador OPS al modificar el adaptador o configurarlo mediante programación.  
@@ -50,9 +50,9 @@ Puede que le resulte de utilidad conocer los siguientes aspectos del adaptador O
 |**InitializationData**|**InitializationData**|  
 |**Transportlocationuri se construye a**|No aplicable.|  
   
- Todas las propiedades son valores de cadena. El valor de la propiedad TransportLocationUri se construye a partir del nombre de ensamblado y del nombre de clase. El identificador URI tiene el valor OPS: / /\<DotNetAssemblyStrongName > /\<DotNetClassName > donde los marcadores de posición se reemplazan por los valores de la propiedad personalizada correspondiente.  
+ Todas las propiedades son valores de cadena. El valor de la propiedad TransportLocationUri se construye a partir del nombre de ensamblado y del nombre de clase. El identificador URI tiene el valor OPS: / /\<DotNetAssemblyStrongName\>/\<DotNetClassName\> donde los marcadores de posición se reemplazan por los valores de la propiedad personalizada correspondiente.  
   
  Para obtener información sobre la creación de puertos desde el código, vea [cómo crear ubicaciones de recepción de MSMQ y puertos de envío desde el código](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md).  
   
 ## <a name="see-also"></a>Vea también  
- [El adaptador Ops](../core/the-ops-adapter.md)
+ [El adaptador de Ops](../core/the-ops-adapter.md)

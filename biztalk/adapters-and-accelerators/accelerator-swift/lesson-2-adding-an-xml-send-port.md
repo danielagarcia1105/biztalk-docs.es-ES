@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06b110b911c8cba2dbc643928e8b97e3746935a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23d8aac412bf81492793eec2f4936d84b54fda0d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-adding-an-xml-send-port"></a>Lección 2: Agregar un puerto de envío de XML
 Use un puerto de envío para definir cómo desea que los mensajes enviados. En esta lección, creará un puerto de envío para definir cómo se deberían enviar los mensajes XML.  
@@ -36,7 +36,7 @@ Use un puerto de envío para definir cómo desea que los mensajes enviados. En e
   
 5.  En el cuadro de diálogo Propiedades de transporte de archivo, haga clic en **examinar**.  
   
-6.  En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad >: \Labs\Outbound** carpeta y, a continuación, haga clic en **Aceptar**.  
+6.  En el cuadro de diálogo Buscar carpeta, desplácese a la  **\<unidad\>: \Labs\Outbound** carpeta y, a continuación, haga clic en **Aceptar**.  
   
 7.  En el cuadro de diálogo Propiedades de transporte de archivo, asegúrese de que **%MessageID%.xml** se escribe en el **nombre de archivo** cuadro y, a continuación, haga clic en **Aceptar**.  
   

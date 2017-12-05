@@ -15,14 +15,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96ae60b2731f48d8bef3488ceb8ce4bafa29bdc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f9593a00ed9a3429192bcf9f0187fae62511cf6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server"></a>Lo que agrega el Acelerador de BizTalk para RosettaNet a BizTalk Server
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] genera un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] sistema de integración en un sistema de integración compatible con RosettaNet. Todo lo que debe tener para implementar una solución compatible con RosettaNet agrega.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] genera un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]sistema de integración de BizTalk Server en un sistema de integración compatible con RosettaNet. Todo lo que debe tener para implementar una solución compatible con RosettaNet agrega.  
   
  Instalar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] sobre BizTalk Server. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]agrega funcionalidad para el núcleo del motor de BizTalk Server. Agrega características, herramientas y utilidades para los que proporciona BizTalk Server. También agrega interfaces de programación de aplicaciones (API) para lo que proporciona el kit de desarrollo de software (SDK) de BizTalk Server.  
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [Compatibilidad con CIDX](../../adapters-and-accelerators/accelerator-rosettanet/cidx-support.md)  
   
--   [Acuerdos de socios comerciales](../../adapters-and-accelerators/accelerator-rosettanet/trading-partner-agreements.md)  
+-   [Acuerdos entre socios comerciales](../../adapters-and-accelerators/accelerator-rosettanet/trading-partner-agreements.md)  
   
 -   [Canalizaciones RNIF](../../adapters-and-accelerators/accelerator-rosettanet/rnif-pipelines.md)  
   

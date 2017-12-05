@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71287d29d13406d3f1159054e988ef0e2b98a648
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4c6ac3b8a3104e1c96b2dc9ebd880489d3c9833
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system"></a>Consideraciones al usar BizTalk Server en un sistema operativo Windows de 64 bits
-Al utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un sistema operativo de Windows de 64 bits, asegúrese de que tenga en cuenta los problemas descritos en este tema. Para con frecuencia más frecuentes preguntas relacionadas con la compatibilidad con 64 bits para Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], consulte [compatibilidad con BizTalk Server de 64 bits](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).  
+Al utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un sistema operativo de Windows de 64 bits, asegúrese de que tenga en cuenta los problemas descritos en este tema. Para las preguntas más frecuentes relacionadas con la compatibilidad con 64 bits de Microsoft BizTalk Server, vea [compatibilidad con BizTalk Server de 64 bits](http://go.microsoft.com/fwlink/?LinkID=155306) (http://go.microsoft.com/fwlink/?LinkID=155306).  
   
 ## <a name="modify-the-process-memory-usage-throttling-threshold"></a>Modificar el umbral de limitación del uso de memoria de proceso  
  De forma predeterminada, el **uso de memoria del proceso** umbral de limitación de host se establece en 25. Si se supera este valor y el uso de memoria de proceso de BizTalk es de más de 300 MB, puede producirse una condición de limitación. En un servidor de 64 bits, puede aumentar este valor en 100. Esto permite más consumo de memoria por el proceso de BizTalk antes de que se produce una limitación. Para obtener instrucciones sobre cómo modificar el host de uso de memoria de proceso umbral de limitación, consulte [cómo modificar la configuración predeterminada de limitación de Host](http://go.microsoft.com/fwlink/?LinkId=157210) (http://go.microsoft.com/fwlink/?LinkId=157210).  
@@ -37,4 +37,4 @@ Al utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernov
  Asegúrese de que ejecutar estos adaptadores en una instancia de host de 32 bits.  
   
 ## <a name="configure-the-mimesmime-encoder-to-run-in-32-bit-mode"></a>Configurar el codificador MIME/SMIME para ejecutarse en modo de 32 bits  
- En [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)], el agote de componente de canalización de codificador MIME/SMIME no tiene compatibilidad nativa de 64 bits. Esto significa que el componente debe ejecutarse como un proceso en modo de emulación de 32 bits (WOW64). Por lo tanto, la instancia de host en la que se ejecuta este componente de codificador (o la canalización de envío de la que forma parte) debe funcionar en modo de emulación de 32 bits. Tenga en cuenta las implicaciones de rendimiento (entre otras) de esta restricción para otros elementos de BizTalk que se ejecuten en la misma instancia de host.
+ En BizTalk Server, el agote de componente de canalización de codificador MIME/SMIME no tiene compatibilidad nativa de 64 bits. Esto significa que el componente debe ejecutarse como un proceso en modo de emulación de 32 bits (WOW64). Por lo tanto, la instancia de host en la que se ejecuta este componente de codificador (o la canalización de envío de la que forma parte) debe funcionar en modo de emulación de 32 bits. Tenga en cuenta las implicaciones de rendimiento (entre otras) de esta restricción para otros elementos de BizTalk que se ejecuten en la misma instancia de host.

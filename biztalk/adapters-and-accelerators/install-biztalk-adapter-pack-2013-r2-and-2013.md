@@ -13,11 +13,11 @@ caps.latest.revision: "107"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d91e697504adf23585392c6c761bc13b300c3ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8bc1ebbdaf2973f4749da6c0832d49204588b6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-biztalk-adapter-pack-2013-r2-and-2013"></a>Instalar 2013 y BizTalk adaptador Pack 2013 R2
 Este documento enumeran los requisitos de software y los pasos para instalar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) incluidos con BizTalk Server 2013 o [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].  
@@ -429,7 +429,7 @@ Complete los pasos siguientes para instalar el [!INCLUDE[adapterpacknoversion](.
   
 <a name="BKMK_CreateSQLServer"></a>   
 #### <a name="create-sql-server-database-objects-only-for-the-sap-adapter"></a>Crear objetos de base de datos de SQL Server (solo para el adaptador SAP)  
- Para invocar tRFCs en un sistema SAP, ejecute el *SapAdapter-DbScript-Install.sql* secuencia de comandos SQL. Esta secuencia de comandos se instala con el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación y crea objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Puede ejecutar este script en cualquier base de datos de SQL Server, como especificar ese nombre de base de datos al usar el adaptador para invocar tRFCs.  
+ Para invocar tRFCs en un sistema SAP, ejecute el *SapAdapter-DbScript-Install.sql* secuencia de comandos SQL. Esta secuencia de comandos se instala con el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación y crea objetos de base de datos en SQL Server. La secuencia de comandos se instala normalmente en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Puede ejecutar este script en cualquier base de datos de SQL Server, como especificar ese nombre de base de datos al usar el adaptador para invocar tRFCs.  
   
 <a name="BKMK_Register_Bindings"></a>   
 #### <a name="register-the-adapter-bindings"></a>Registrar los enlaces del adaptador  
@@ -439,7 +439,7 @@ Siga estos pasos *sólo* si se produce un error en el Asistente para instalació
   
 ###### <a name="register-the-adapter-bindings-or-the-net-framework-data-providers"></a>Registrar los enlaces del adaptador o los proveedores de datos de .NET Framework  
   
-1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
+1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
   
 2.  Abra el archivo con un editor de texto.  
   
@@ -675,7 +675,7 @@ Para los pasos e instrucciones para instalar los sistemas LOB empresarial difere
 ## <a name="removing-the-biztalk-adapter-pack"></a>Quitar BizTalk Adapter Pack  
   
 > [!IMPORTANT]
->  Si ha creado las tablas en la base de datos de SQL Server para que funcione con la característica de tRFC de la [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], debe quitarlos manualmente antes de quitar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación copia un archivo SapAdapter-DbScript-Uninstall.sql normalmente en \<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Ejecute este archivo para quitar las tablas que creó.  
+>  Si ha creado las tablas en la base de datos de SQL Server para que funcione con la característica de tRFC de la [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], debe quitarlos manualmente antes de quitar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] instalación copia un archivo SapAdapter-DbScript-Uninstall.sql normalmente en \<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Ejecute este archivo para quitar las tablas que creó.  
   
 Complete los pasos siguientes para quitar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] desde su equipo. Asegúrese de que tiene el [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)] instalado antes de ejecutar el Asistente para la instalación para quitar los adaptadores.  
   
@@ -726,7 +726,7 @@ Complete los pasos siguientes para quitar el [!INCLUDE[adapterpacknoversion](../
   
 ###### <a name="remove-the-adapter-bindings-or-net-framework-data-provider-registration"></a>Quitar los enlaces del adaptador o el registro del proveedor de datos de .NET Framework  
   
-1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
+1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config \<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG.  
   
 2.  Abra el archivo con un editor de texto.  
   
@@ -845,7 +845,7 @@ Complete este paso para quitar las RFC personalizadas que ha instalado en el sis
   
 -   **Ejecuta la instalación en un equipo de 64 bits podría producir un error al obtener acceso al archivo de esquema**  
   
-     El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] el programa de instalación produce un error al obtener acceso a la  **Microsoft.Adapters.* \<AdapterName >*_schema.xml** archivo, pero continúa con la instalación del adaptador.  
+     El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] el programa de instalación produce un error al obtener acceso a la  **Microsoft.Adapters.* \<AdapterName\>*_schema.xml** archivo, pero continúa con la instalación del adaptador.  
   
      **Causa**  
   
@@ -853,4 +853,4 @@ Complete este paso para quitar las RFC personalizadas que ha instalado en el sis
   
      **Resolución**  
   
-     Copie manualmente el  **Microsoft.Adapters.* \<AdapterName >*archivo _schema.xml** desde `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`"a `C:\Windows\System32\inetsrv\config\schema`.  
+     Copie manualmente el  **Microsoft.Adapters.* \<AdapterName\>*archivo _schema.xml** desde `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`"a `C:\Windows\System32\inetsrv\config\schema`.  

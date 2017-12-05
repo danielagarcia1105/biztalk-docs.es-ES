@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bead22f33bbe38cb8deac3a201121438d344c09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67c937ae0edb1698991ad111622a582ebfc64d76
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-applications"></a>Supervisión de aplicaciones
 Configuración de Microsoft System Center Operations Manager para supervisar BizTalk aplicaciones normalmente pueden dividirse en un proceso de cuatro pasos progresivo como sigue:  
@@ -51,7 +51,7 @@ Configuración de Microsoft System Center Operations Manager para supervisar Biz
   
 4.  **Usar reglas de umbral para automatizar las tareas manuales**  
   
-     El siguiente paso en el procesamiento es algo más que el sistema de alertas reactivos y usar reglas de umbral. El [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] módulo de administración no contiene ninguna regla de umbral de forma predeterminada. Esto es porque estas reglas se suele ser específicas de la aplicación personalizada y son diferentes para cada aplicación. Un umbral personifica una regla de negocios con respecto a la aplicación personalizada y proporciona un medio de un sistema de supervisión proactivo. Puede usar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plantillas de umbral que se proporciona con la herramienta de análisis de rendimiento de registros (PAL) para definir las reglas.  
+     El siguiente paso en el procesamiento es algo más que el sistema de alertas reactivos y usar reglas de umbral. El módulo de administración de BizTalk Server no contiene ninguna regla de umbral de forma predeterminada. Esto es porque estas reglas se suele ser específicas de la aplicación personalizada y son diferentes para cada aplicación. Un umbral personifica una regla de negocios con respecto a la aplicación personalizada y proporciona un medio de un sistema de supervisión proactivo. Puede usar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] plantillas de umbral que se proporciona con la herramienta de análisis de rendimiento de registros (PAL) para definir las reglas.  
   
      Un ejemplo de dicha regla de umbral es medir cuando las CPU en un servidor ejecutan constantemente por encima del 75 por ciento durante un período de tiempo específico. Esto podría indicar que necesite escalar el sistema. Aún otro ejemplo es que cree una regla de umbral que supervisa un único conjunto de contadores. Esta regla, a continuación, podría invocar el código para inicializar las instancias de host de BizTalk en un servidor de copia de seguridad configurada previamente durante los períodos de gran demanda.  
   

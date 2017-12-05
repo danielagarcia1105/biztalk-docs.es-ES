@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 31476c3a538427a8c582533fbb0d7ad0418e3a0f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ae1e7ad95aa8be661e283f5671d3443615c7033a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-tracking"></a>Cómo deshabilitar el seguimiento
 Este tema describe cómo deshabilitar el seguimiento mediante la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Puede configurar diversas opciones de seguimiento en tiempo de ejecución para las orquestaciones, puertos de envío, puertos de recepción y canalizaciones mediante el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Se pueden cambiar las opciones de seguimiento de un elemento en cualquier momento, sin necesidad de interrumpir el proceso empresarial.  
@@ -138,7 +138,7 @@ Este tema describe cómo deshabilitar el seguimiento mediante la [!INCLUDE[btsBi
   
 3.  Realice una de las siguientes operaciones:  
   
-    -   Para deshabilitar el seguimiento para una de manera predeterminada las canalizaciones de BizTalk, expanda \<todos los artefactos >.  
+    -   Para deshabilitar el seguimiento para una de manera predeterminada las canalizaciones de BizTalk, expanda \<todos los artefactos\>.  
   
     -   Para deshabilitar el seguimiento para una canalización personalizada que se haya implementado en una aplicación de BizTalk, expanda la aplicación que contiene la canalización.  
   
@@ -157,4 +157,4 @@ Este tema describe cómo deshabilitar el seguimiento mediante la [!INCLUDE[btsBi
     |**Mensaje después del procesamiento de canalización**|Desactive esta casilla para deshabilitar el seguimiento de cuerpos de los mensajes enviados por la canalización y guardar, que contiene metadatos tales como las direcciones URL y las propiedades promocionadas. Si se trata de una canalización de recepción, el cuerpo del mensaje es el mensaje procesado que se va a enviar a la base de datos de cuadro de mensajes, que puede ser XML, según la aplicación que utilice. Cuando se usa un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mapa, si se trata de una canalización de envío, el seguimiento se efectúa antes de procesa la asignación de salida.<br /><br /> Esta casilla de verificación está disponible solo si **envío de mensajes y recibir eventos** está seleccionada.|  
   
 ## <a name="see-also"></a>Vea también  
- [Mantener el rendimiento](../technical-guides/maintaining-performance.md)
+ [Mantenimiento del rendimiento](../technical-guides/maintaining-performance.md)

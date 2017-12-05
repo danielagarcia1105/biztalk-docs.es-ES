@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59aea2c772f1906ca779187f22a094e3f6cb4ceb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 017184e5f530096dc0ca166fdaaa9810a3372cfa
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="removing-usage-rule-validation"></a>Quitar la validación de la regla de uso
 Reglas de uso se definen en estándares de SWIFT y aplica [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] directivas de negocio específicas para cada tipo de mensaje. Estas reglas de uso son instrucciones que puede usar para proporcionar validación adicional para un campo. A diferencia de las reglas de validación de red, que son obligatorias, puede elegir no exigir reglas de uso para un tipo de mensaje. Si es así, puede realizar una de las siguientes acciones:  
@@ -33,7 +33,7 @@ Reglas de uso se definen en estándares de SWIFT y aplica [!INCLUDE[A4SWIFT_Curr
   
 ### <a name="to-remove-a-rule-from-a-policy"></a>Para quitar una regla de una directiva  
   
-1.  En un editor de texto, como el Bloc de notas, abra la directiva de validación que se va a cambiar, por ejemplo, MT103_Validation_Policy en  *\<unidad >*: \Program Files\ Acelerador de Microsoft BizTalk para SWIFT \< versión > mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión > \Category 1\MT103.  
+1.  En un editor de texto, como el Bloc de notas, abra la directiva de validación que se va a cambiar, por ejemplo, MT103_Validation_Policy en  *\<unidad\>*: \Program Files\ Acelerador de Microsoft BizTalk para SWIFT \<versión\> mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Category 1\MT103.  
   
 2.  Quite el nodo de regla que no desee y, a continuación, guardar la directiva.  
   

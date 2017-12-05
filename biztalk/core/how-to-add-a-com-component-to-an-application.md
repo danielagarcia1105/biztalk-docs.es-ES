@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3e32e05fbc7ba9f08a7bbbd5fd546033806c3ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cc2fe522d024059ce672124d48e458c869de9406
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-add-a-com-component-to-an-application"></a>Cómo agregar un componente COM a una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un componente COM a una aplicación de BizTalk.  
@@ -43,7 +43,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] administración, expanda el grupo de BizTalk, expanda aplicaciones y, a continuación, expanda la aplicación a la que desea agregar un componente COM.  
+2.  En el árbol de consola, expanda Administración de BizTalk Server, expanda el grupo de BizTalk, expanda aplicaciones y, a continuación, expanda la aplicación a la que desea agregar un componente COM.  
   
 3.  Haga clic en el **recursos** carpeta, seleccione **agregar**y, a continuación, haga clic en **recursos**.  
   
@@ -85,4 +85,4 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
 ## <a name="see-also"></a>Vea también  
  [Administrar ensamblados. NET, certificados y otros recursos](../core/managing-net-assemblies-certificates-and-other-resources.md)   
  [AddResource (comando): Componente de COM](../core/addresource-command-com-component.md)   
- [Creación y modificación de las aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)
+ [Creación y modificación de aplicaciones de BizTalk](../core/creating-and-modifying-biztalk-applications.md)

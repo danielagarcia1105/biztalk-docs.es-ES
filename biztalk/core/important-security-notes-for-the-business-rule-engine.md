@@ -17,14 +17,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a90090c55dcbb0f8e55296d2711d5e4b36cd346
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e54a532d33e4f84eb5f1ecea67f957d415344a7c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="important-security-notes-for-the-business-rule-engine"></a>Notas de seguridad importante para el motor de reglas de negocios
-En este tema se resume los problemas de seguridad conocidos en Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] y los pasos que debe seguir para mitigar los riesgos de seguridad.  
+En este tema se resume los problemas de seguridad conocidos en Microsoft BizTalk Server y los pasos que debe seguir para mitigar los riesgos de seguridad.  
   
 ## <a name="malicious-schema-input-causing-denial-of-service-attack"></a>Entrada de esquema malintencionada que causa un ataque de denegación de servicio  
  Mientras se imponen hechos, cada regla se comprueba con respecto a todos los objetos que coinciden con los tipos admitidos de una directiva. Suponga que hay una regla en una directiva que utiliza uno de los elementos de un esquema pasado mediante un selector. Si la instancia de este elemento/atributo que coincide con el selector se repite miles de veces, cada una de esas instancias se impone, lo que causa una degradación en el rendimiento y, posiblemente, la posterior denegación de servicio.  

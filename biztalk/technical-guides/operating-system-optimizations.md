@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2ede5ad9dd3affba3ce132ab4c4415e8dba4f3cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 15ef1c8d5860b6e9bd3683551096c947de8c7a42
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operating-system-optimizations"></a>Optimizaciones de sistema operativo
 Este tema proporcionan recomendaciones para optimizar el rendimiento de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos utilizados en la producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno. Estas optimizaciones se aplican después de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ha instalado y configurado.  
@@ -90,7 +90,7 @@ Este tema proporcionan recomendaciones para optimizar el rendimiento de la [!INC
   
  NTFS ofrece ventajas de rendimiento considerable sobre los sistemas de archivos FAT y FAT32 y debe usarse exclusivamente en servidores de Windows. Además, NTFS ofrece muchas ventajas de seguridad, la escalabilidad, la estabilidad y la capacidad de recuperación sobre FAT y FAT32.  
   
- En versiones anteriores de Windows, FAT y FAT32 a menudo se implementaron para volúmenes menores (diga \<500 MB) porque a menudo estaban más rápidos en estas situaciones. Con capacidad de la unidad de inserción hasta un máximo de aplicaciones y sistemas operativos y almacenamiento en disco relativamente económico hoy en día, no es probable que estos volúmenes pequeños dejarán de estar en uso. FAT32 se escala mejor que FAT en volúmenes más grandes, pero todavía no es un sistema de archivos adecuado para los servidores de Windows.  
+ En versiones anteriores de Windows, FAT y FAT32 a menudo se implementaron para volúmenes menores (diga < 500 MB) porque a menudo estaban más rápidos en estas situaciones. Con capacidad de la unidad de inserción hasta un máximo de aplicaciones y sistemas operativos y almacenamiento en disco relativamente económico hoy en día, no es probable que estos volúmenes pequeños dejarán de estar en uso. FAT32 se escala mejor que FAT en volúmenes más grandes, pero todavía no es un sistema de archivos adecuado para los servidores de Windows.  
   
  FAT y FAT32 a menudo se han implementado en el pasado como que se considera más fácilmente recuperables y administrable con las herramientas nativas de DOS en el caso de un problema con un volumen. En la actualidad, con la capacidad de recuperación NTFS diversas herramientas generan ambos forma nativa en el sistema operativo y disponible como utilidades de otros fabricantes disponibles, no debe haber ya un argumento válido para no usar NTFS para sistemas de archivos.  
   

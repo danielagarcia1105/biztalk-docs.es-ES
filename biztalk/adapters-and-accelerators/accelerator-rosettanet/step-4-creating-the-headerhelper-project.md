@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a7a5dc4aa7c3acca26705449108bb75541099c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2525e0e87106e2eeb82fb05b52b3ec69d4be876d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-creating-the-headerhelper-project"></a>Paso 4: Crear el proyecto HeaderHelper
 En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] biblioteca de clases. Cuando una orquestación de procesos privados recibe un mensaje entrante, la biblioteca de HeaderHelper determina si una conversión de documento es necesaria y si es necesario, realiza esa conversión. Esto permite que la orquestación trabajar con distintas versiones de documentos de RosettaNet Implementation Framework (RNIF). Además, cuando se envía un mensaje de respuesta de 3A2, la biblioteca HeaderHelper realiza una conversión de documento adicionales antes de transmitir el mensaje.  
@@ -112,7 +112,7 @@ En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] b
   
 3.  En el panel derecho, haga clic en **firmar el ensamblado**.  
   
-4.  Haga clic en el **elegir un archivo de clave de nombre seguro** cuadro de texto y, a continuación, seleccione  **\<examinar >** en la lista desplegable.  
+4.  Haga clic en el **elegir un archivo de clave de nombre seguro** cuadro de texto y, a continuación, seleccione  **\<examinar\>**  en la lista desplegable.  
   
 5.  En el cuadro de diálogo Seleccionar archivo, desplácese a la ubicación del ensamblado de Contoso y haga doble clic en **FabConPriceAvail.snk**.  
   
@@ -139,4 +139,4 @@ En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] b
 4.  En el símbolo del sistema, escriba **gacutil /if HeaderHelper.dll** y presione **ENTRAR** para instalar el **HeaderHelper** ensamblado en el **caché Global de ensamblados** .  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 5: Modificar la orquestación de procesos privados de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)
+ [Paso 5: Modificación de la orquestación de procesos privados de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)

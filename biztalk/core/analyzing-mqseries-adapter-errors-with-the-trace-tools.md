@@ -22,11 +22,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8880197e58f6a499cc63e8b6ec89f67af9f0086
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b53d1d2c0bbe19c54804b553041f8dc9ae4db20c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a>Analizar los errores de adaptador de MQSeries con las herramientas de seguimiento
 Las herramientas de seguimiento sirven para analizar errores de mensajería al ejecutar la aplicación. El adaptador de MQSeries debe usarse conjuntamente con dos herramientas: una para el adaptador y la aplicación de BizTalk (trace.cmd), y la otra para MQSAgent (MQSTrace.cmd). Ambas herramientas utilizan tracelog.exe. Tendrá que instalar tracelog.exe si no lo tiene.  
@@ -55,7 +55,7 @@ Las herramientas de seguimiento sirven para analizar errores de mensajería al e
 ## <a name="enable-the-trace-utility"></a>Habilitar la Utilidad de seguimiento  
  Siga este procedimiento para habilitar la herramienta Utilidad de seguimiento del adaptador de BizTalk:  
   
-1.  Ir al directorio que contiene trace.cmd. La ubicación predeterminada es Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] directory.  
+1.  Ir al directorio que contiene trace.cmd. La ubicación predeterminada es el directorio de Microsoft BizTalk Server.  
   
 2.  Escriba el siguiente comando, sustituya el directorio que contiene el archivo tracelog.exe file en su PC por el directorio que está entre comillas y, a continuación, presione ENTRAR:  
   

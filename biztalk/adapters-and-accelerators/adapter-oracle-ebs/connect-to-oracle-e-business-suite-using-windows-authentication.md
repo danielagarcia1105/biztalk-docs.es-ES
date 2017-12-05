@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3fef7c954b1384a31c2185d21b3dc4c529c561c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ed71a893ef029e6524b7e71f68626c32f207f91e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="connect-to-oracle-e-business-suite-using-windows-authentication"></a>Conectarse a Oracle E-Business Suite mediante la autenticación de Windows
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador utilizar la autenticación de Windows para establecer una conexión con Oracle E-Business Suite. Para usar la autenticación de Windows los clientes de adaptador deben especificar una "/" para el nombre de usuario y deje la contraseña en blanco. Para obtener más información sobre cómo conectarse a Oracle E-Business Suite mediante la autenticación de Windows, vea [conectarse a Oracle E-Business Suite en Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md).  
@@ -42,13 +42,13 @@ El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssho
 3.  Cree el usuario de Windows como un usuario externo en la base de datos de Oracle. Tenga en cuenta que el nombre de usuario debe estar en mayúsculas.  
   
     ```  
-    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME>” IDENTIFIED EXTERNALLY;  
+    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
     ```  
   
 4.  Conceder privilegios para el usuario.  
   
     ```  
-    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME>”;  
+    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
     ```  
   
 5.  Los artefactos de Oracle E-Business Suite están disponibles en el esquema de aplicaciones. Para habilitar al usuario recién creado, inicia sesión con autenticación de Windows, para tener acceso a los artefactos de Oracle E-Business Suite, esquema del usuario debe cambiarse en el esquema de aplicaciones. Puede agregar el siguiente comando SQL a la secuencia de comandos de inicio de sesión que cambia el esquema predeterminado del usuario a las aplicaciones cuando el usuario inicia sesión.  

@@ -12,14 +12,14 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ffb23914964d4fd1c114818d6a616c2d57fae434
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebb7ab3abb9a4bc547d920614e1a1839a85c593b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-standards-support"></a>Compatibilidad de estándares EDI
-[!INCLUDE[prague](../includes/prague-md.md)] proporciona compatibilidad en las fases de diseño y de tiempo de ejecución con cuatro estándares de codificación. En la tabla siguiente se enumeran los estándares de codificación con vínculos a información complementaria.  
+BizTalk Server proporciona para la compatibilidad de diseño y tiempo de ejecución con cuatro estándares de codificación. En la tabla siguiente se enumeran los estándares de codificación con vínculos a información complementaria.  
   
 |Estándar de codificación|Sector industrial|Referencias|  
 |-----------------------|----------------------|----------------|  
@@ -53,14 +53,14 @@ ms.lasthandoff: 09/20/2017
   
 -   X12 recomienda la codificación ASCII, mientras que EDIFACT recomienda la codificación UTF8.  
   
- [!INCLUDE[prague](../includes/prague-md.md)] admite el estándar KEDIFACT (EDIFACT de Corea). KEDIFACT sigue la guía de implementación de mensajes de UN/EDIFACT, por lo que se basa en gran medida en EDIFACT. Sin embargo, existen diferencias entre KEDIFACT y X12 y EDIFACT. KEDIFACT usa diversos esquemas EDI específicos de KEDIFACT y usa la página de códigos KECA.  
+ BizTalk Server es compatible con el estándar KEDIFACT (EDIFACT coreano). KEDIFACT sigue la guía de implementación de mensajes de UN/EDIFACT, por lo que se basa en gran medida en EDIFACT. Sin embargo, existen diferencias entre KEDIFACT y X12 y EDIFACT. KEDIFACT usa diversos esquemas EDI específicos de KEDIFACT y usa la página de códigos KECA.  
   
 ## <a name="hipaa"></a>HIPAA  
- [!INCLUDE[prague](../includes/prague-md.md)] admite el procesamiento de X12 y puesto que el procesamiento de HIPAA se deriva del procesamiento de X12, [!INCLUDE[prague](../includes/prague-md.md)] admite el procesamiento de HIPAA. Cuando se vean referencias a X12 admite en este documento, también se aplica al procesamiento de HIPAA.  
+ BizTalk Server admite X12 de procesamiento y, puesto que el procesamiento de HIPAA es un derivado de X12 de procesamiento, BizTalk Server admite el procesamiento de HIPAA. Cuando se vean referencias a X12 admite en este documento, también se aplica al procesamiento de HIPAA.  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona compatibilidad adicional específica de HIPAA:  
   
--   Un grupo de esquemas de documentos HIPAA de la versión 4010A1. Para obtener más información sobre los esquemas de documento EDI e HIPAA en [!INCLUDE[prague](../includes/prague-md.md)], consulte [esquemas de documento EDI](../core/edi-document-schemas.md).  
+-   Un grupo de esquemas de documentos HIPAA de la versión 4010A1. Para obtener más información sobre los esquemas de documento EDI e HIPAA en BizTalk Server, vea [esquemas de documento EDI](../core/edi-document-schemas.md).  
   
 -   Un conjunto de esquemas de documentos HIPAA de la versión 5010. Para obtener más información, consulte [HIPAA 5010 de versión de esquema de documento](../core/hipaa-document-schema-version-5010.md).  
   
@@ -68,15 +68,15 @@ ms.lasthandoff: 09/20/2017
   
 -   Compatibilidad con los dos primeros niveles de pruebas WEDI SNIP: X12 integridad de la sintaxis y los requisitos de la [Guía de implementación de HIPAA](http://go.microsoft.com/fwlink/?LinkId=77541).  
   
- [!INCLUDE[prague](../includes/prague-md.md)] proporciona compatibilidad con HIPAA como parte de la funcionalidad nativa de EDI de BizTalk Server. Para obtener más información, consulte [compatibilidad de EDI en BizTalk Server](../core/edi-support-in-biztalk-server2.md).  
+ BizTalk Server proporciona compatibilidad con HIPAA como parte de la funcionalidad nativa de EDI de BizTalk Server. Para obtener más información, consulte [compatibilidad de EDI en BizTalk Server](../core/edi-support-in-biztalk-server2.md).  
   
 ## <a name="eancom"></a>EANCOM  
- [!INCLUDE[prague](../includes/prague-md.md)] admite el procesamiento de EDIFACT y, puesto que el procesamiento de EANCOM se deriva del procesamiento de EDIFACT, [!INCLUDE[prague](../includes/prague-md.md)] admite el procesamiento de EANCOM. Cuando se vean referencias a la compatibilidad con EDIFACT en este documento, también son aplicables al procesamiento de EANCOM.  
+ BizTalk Server admite el procesamiento de EDIFACT y, puesto que el procesamiento de EANCOM se deriva del procesamiento de EDIFACT, BizTalk Server admite el procesamiento de EANCOM. Cuando se vean referencias a la compatibilidad con EDIFACT en este documento, también son aplicables al procesamiento de EANCOM.  
   
- [!INCLUDE[prague](../includes/prague-md.md)] proporciona compatibilidad adicional específica de EANCOM:  
+ BizTalk Server proporciona compatibilidad adicional específica de EANCOM:  
   
--   Un grupo de esquemas de documentos EANCOM de las versiones EAN94, EAN97 Y EAN02. Para obtener más información sobre los esquemas de documento EDI y EANCOM en [!INCLUDE[prague](../includes/prague-md.md)], consulte [esquemas de documento EDI](../core/edi-document-schemas.md).  
+-   Un grupo de esquemas de documentos EANCOM de las versiones EAN94, EAN97 Y EAN02. Para obtener más información sobre los esquemas de documento EDI y EANCOM en BizTalk Server, vea [esquemas de documento EDI](../core/edi-document-schemas.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Estructura de mensaje EDI](../core/edi-message-structure.md)   
- [Esquemas de documento EDI](../core/edi-document-schemas.md)
+ [Esquemas de documentos EDI](../core/edi-document-schemas.md)

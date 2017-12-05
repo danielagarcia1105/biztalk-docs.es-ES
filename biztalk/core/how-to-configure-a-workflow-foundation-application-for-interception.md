@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad184ce4b0ef619361f44f6eb1ee54a2354f5148
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 70afa4ffae47abf5cdd541846831b4054414eff8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-workflow-foundation-application-for-interception"></a>Cómo configurar una aplicación de Workflow Foundation para llevar a cabo una intercepción
 Debe instalar el software interceptor de BAM y configurar la aplicación para utilizar el servicio de interceptor [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] antes de comenzar a recopilar los datos de actividad de BAM. Se supone que ha instalado correctamente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y sus dependencias, y que ha creado al menos un grupo de BizTalk.  
@@ -31,7 +31,7 @@ Debe instalar el software interceptor de BAM y configurar la aplicación para ut
   
 -   Un archivo de configuración de interceptor se debe crear e implementarse mediante la línea de comandos de administrador de BAM-herramienta (bm.exe).  
   
--   El usuario que ejecuta la aplicación host debe ser un miembro del sistema de escritura de evento de actividad BAM adecuado (bam_\<actividad > _EventWriter) roles de SQL Server para permitir que la aplicación leer información de configuración de interceptor y escribir en el de BAM actividades.  
+-   El usuario que ejecuta la aplicación host debe ser un miembro del sistema de escritura de evento de actividad BAM adecuado (bam_\<actividad\>_EventWriter) roles de SQL Server para permitir que la aplicación leer información de configuración de interceptor y escribir para las actividades de BAM.  
   
 -   Debe modificar el archivo App.config o la aplicación para cargar el servicio de seguimiento de BAM y, a continuación, reiniciar la aplicación.  
   
@@ -50,9 +50,9 @@ Debe instalar el software interceptor de BAM y configurar la aplicación para ut
   
 4.  Implementar un modelo de observación mediante bm.exe:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe implementar-all - definitionfile:\<*definitionfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe implementar-all - definitionfile:\<*definitionfile.xml*\>  
   
-     Asegúrese de reemplazar \< *definitionfile.xml*> con el nombre del archivo de observación que desea implementar. Para obtener más opciones, consulte [comandos de administración de Interceptor](../core/interceptor-management-commands.md).  
+     Asegúrese de reemplazar \< *definitionfile.xml* \> con el nombre del archivo de observación que desea implementar. Para obtener más opciones, consulte [comandos de administración de Interceptor](../core/interceptor-management-commands.md).  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -72,9 +72,9 @@ Debe instalar el software interceptor de BAM y configurar la aplicación para ut
   
 4.  Implementar un archivo de configuración de interceptor mediante bm.exe:  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe implementar-interceptor - filename:\<*icfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe implementar-interceptor - filename:\<*icfile.xml*\>  
   
-     Asegúrese de reemplazar \< *icfile.xml*> con el nombre del archivo de configuración de interceptor que desea implementar.  
+     Asegúrese de reemplazar \< *icfile.xml* \> con el nombre del archivo de configuración de interceptor que desea implementar.  
   
     > [!NOTE]
     >  Puede usar el **-Force: True** marca para invalidar los orígenes de eventos existentes con el mismo nombre que los de su archivo de configuración de interceptor. Si lo hace, asegúrese de hacer la copia de seguridad de la configuración existente mediante el **get-interceptor** comando. Con la marca -Force:True puede eliminar cualquier configuración de interceptor que haga referencia a los orígenes de eventos que se están anulando.  

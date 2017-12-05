@@ -12,16 +12,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ead0b1363933dbf1c4c44687387967d68d6699cf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0ab34088b381c4dc7b0815d020768f3d42429b77
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="0c2-request-to-0c2-response-map-sample"></a>0c2 la solicitud de ejemplo de asignación de 0c respuesta 2
 El ejemplo _0C2RequestMessageTo0C2ResponseMessage.btm muestra cómo se puede asignar un mensaje de solicitud 2 0c a un mensaje de respuesta 2 0c.  
   
- De forma predeterminada, el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] programa de instalación instala el ejemplo en \< *unidad*>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
+ De forma predeterminada, el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® programa de instalación de BizTalk Server instala el ejemplo en \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<versión \> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.  
   
 ## <a name="sample-contents"></a>Contenido del ejemplo  
  Este ejemplo muestra cómo asignar los campos de un mensaje de solicitud 2 0c a un mensaje de respuesta 2 0c. Puede utilizar este ejemplo con el ejemplo de orquestación de PIPAutomation de doble acción. El ejemplo de orquestación de PIPAutomation de doble acción, muestra cómo implementar una orquestación para generar automáticamente las respuestas de doble acción 0c2, 0c4, 3A2 y 3A4 PIP.  

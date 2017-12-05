@@ -15,24 +15,24 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f02ec8a33fdb050462860efc6c6a0cd5f8fa5650
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b71c3adbcbe5aaaea4d9fa4bf25b2aa4191c580
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="querying-real-time-aggregated-data"></a>Consultar datos agregados en tiempo real
 Los datos de agregación en tiempo real (ATR) están disponibles para consulta en una vista SQL creada dinámicamente en la base de datos de importación principal de BAM.  
   
  El nombre de esta vista es  
   
- **bam_\<**  *ViewName* **> _\<**  *RTAName* **> _RTAView**  
+ **bam_\<**  *ViewName*  **\>_\<**  *RTAName*  **\>_RTAView**  
   
  Where  
   
- **\<***ViewName*  **>**  es el atributo de nombre del elemento de vista en la definición de BAM XML, que es el mismo que el nombre de vista especificado en los asistentes de Microsoft Excel relacionados.  
+ **\<***ViewName*  **\>**  es el atributo de nombre del elemento de vista en la definición de BAM XML, que es el mismo que el nombre de vista especificado en los asistentes de Microsoft Excel relacionados.  
   
- **\<***RTAName*  **>**  se basa el atributo Name del elemento RealTimeAggregation del XML de definición de BAM, que BAM genera sean únicos en el nombre de vista.  
+ **\<***RTAName*  **\>**  se basa el atributo Name del elemento RealTimeAggregation del XML de definición de BAM, que BAM genera sean únicos en el nombre de vista.  
   
  Es importante tener en cuenta las siguientes condiciones a la hora de consultar datos agregados en tiempo real:  
   
@@ -48,4 +48,4 @@ Los datos de agregación en tiempo real (ATR) están disponibles para consulta e
   
 ## <a name="see-also"></a>Vea también  
  [Consultar datos agregados programados](../core/querying-scheduled-aggregated-data.md)   
- [Consultar datos de BAM](../core/querying-bam-data.md)
+ [Consulta de datos de BAM](../core/querying-bam-data.md)

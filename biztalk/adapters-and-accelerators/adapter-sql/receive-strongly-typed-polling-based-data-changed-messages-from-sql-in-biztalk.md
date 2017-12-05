@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 451987a9b6461064047041ee6afa348d32929b51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b12450e87e730e3713a89350fc2a16440e4d911
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-biztalk-server"></a>Recibir fuertemente tipado mensajes de cambio de datos basado en sondeo desde SQL Server mediante BizTalk Server
 Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de sondeo fuertemente tipado de SQL Server. Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos. La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.  
@@ -54,18 +54,18 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
  Como parte del mismo proyecto de BizTalk, agregue otro archivo de esquema, por ejemplo EmployeeDetails.xsd. El esquema para EmployeeDetails.xsd es similar al siguiente:  
   
 ```  
-\<?xml version="1.0" encoding="utf-16" ?>   
-\<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-  \<xs:element name="EmployeeDetails">  
-    \<xs:complexType>  
-      \<xs:sequence>  
-        \<xs:element name="Employee_Info" type="xs:string" />   
-        \<xs:element name="Employee_Profile" type="xs:string" />   
-        \<xs:element name="Employee_Performance" type="xs:string" />   
-      \</xs:sequence>  
-    \</xs:complexType>  
-  \</xs:element>  
-\</xs:schema>  
+<?xml version="1.0" encoding="utf-16" ?>   
+<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+  <xs:element name="EmployeeDetails">  
+    <xs:complexType>  
+      <xs:sequence>  
+        <xs:element name="Employee_Info" type="xs:string" />   
+        <xs:element name="Employee_Profile" type="xs:string" />   
+        <xs:element name="Employee_Performance" type="xs:string" />   
+      </xs:sequence>  
+    </xs:complexType>  
+  </xs:element>  
+</xs:schema>  
 ```  
   
  También agregará a un asignador de BizTalk al proyecto para asignar los elementos de la tabla Employee (recibida como mensaje de sondeo) a los elementos en el esquema de EmployeeDetails.xsd. Como parte de la asignación, combinar uno o más elementos del mensaje de sondeo y asignarla a un único elemento en el esquema de EmployeeDetails. Puede hacerlo mediante el **concatenación de cadenas** functoid.  
@@ -307,7 +307,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
      Cuando se ejecuta la instrucción de sondeo y se recibe el mensaje, el mensaje de sondeo obtenga el envío al puerto de envío de archivo. Aquí, la asignación de salida (**MapSchema**) configurada en las asignaciones de puerto de envío el mensaje de sondeo para el esquema de EmployeeDetails y coloca el mensaje en una ubicación de archivo. El mensaje es similar al siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <EmployeeDetails xmlns="http://Typed_Polling.EmployeeDetails">  
       <Employee_Info>10751John</Employee_Info>   
       <Employee_Profile>TesterManagesTesting</Employee_Profile>   

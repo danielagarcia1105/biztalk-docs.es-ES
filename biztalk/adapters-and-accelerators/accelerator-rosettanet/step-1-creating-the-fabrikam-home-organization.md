@@ -13,18 +13,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db347b955d89818b44d2d0dbb86ab7bac30352d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d5190bcc7d757a2f2f2ca2a0efacc6c0ffc0a9c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-creating-the-fabrikam-home-organization"></a>Paso 1: Crear la organización principal de Fabrikam
 En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear la organización principal de Fabrikam.  
   
 ### <a name="to-start-the-btarn-management-console"></a>Para iniciar la consola de administración de BTARN  
   
--   Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
+-   Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para RosettaNet**y, a continuación, haga clic en  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Consola de administración.  
   
 ### <a name="to-create-the-home-organization"></a>Para crear la organización principal  
   
@@ -51,4 +51,4 @@ En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® 
 4.  Haga clic en **Aceptar**.  
   
 ## <a name="see-also"></a>Vea también  
- [Paso 2: Crear la organización del asociado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-contoso-partner-organization.md)
+ [Paso 2: Creación de la organización asociada Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-contoso-partner-organization.md)

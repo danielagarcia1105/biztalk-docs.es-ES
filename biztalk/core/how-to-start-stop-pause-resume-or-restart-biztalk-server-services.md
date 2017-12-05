@@ -13,11 +13,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b143f528a7c02ccfc1bdb5f68a7cb9576187fb9a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9860625480c2c3e469736989415b4e1510cf6707
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restart-biztalk-services-or-shut-down-the-biztalk-server"></a>Reiniciar servicios de BizTalk, o apagar el servidor BizTalk Server
 
@@ -25,7 +25,7 @@ En la tabla siguiente se enumeran los servicios de BizTalk Server que se pueden 
   
 |Nombre|Descripción|Tipo de inicio|Dependencias|  
 |----------|-----------------|------------------|------------------|  
-|Servicio de BizTalk grupo:  *\<BizTalkServerApplication >*|Proporciona el servicio de aplicaciones de BizTalk Server.|Automático|-Servicio de inicio de sesión único (SSO) Enterprise<br />: El registro de eventos<br />-Llamada a procedimiento remoto (RPC)|  
+|Servicio de BizTalk grupo:  *\<BizTalkServerApplication\>*|Proporciona el servicio de aplicaciones de BizTalk Server.|Automático|-Servicio de inicio de sesión único (SSO) Enterprise<br />: El registro de eventos<br />-Llamada a procedimiento remoto (RPC)|  
 |Servicio de inicio de sesión único (SSO) empresarial|Proporciona servicios de inicio de sesión único a aplicaciones empresariales.|Automático|Con servidor SQL Server instalado localmente:<br /><br /> -Aplicación del sistema COM +<br />-Llamada a procedimiento remoto (RPC)<br />-SQL Server (MSSQLSERVER)<br /><br /> Con servidor SQL Server instalado de forma remota:<br /><br /> -Aplicación del sistema COM +<br />-Llamada a procedimiento remoto (RPC) None|  
 |Servicio de actualización de motor de reglas|Notifica a los usuarios acerca de la implementación o anulación de implementación de directivas.|Automática|Ninguno|  
   

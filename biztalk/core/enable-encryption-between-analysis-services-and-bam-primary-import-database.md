@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77069c3690a73957936c786bc05c2690b9df7a10
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 61784be74d93753b8c3ca8ecf7302c6517a1d9c4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-encryption-between-analysis-services-and-the-bam-primary-import-database"></a>Cómo habilitar el cifrado entre los servicios de análisis y la base de datos de importación principal de BAM
 El cifrado no se habilita de forma predeterminada durante una instalación o actualización de BAM. Para habilitar el cifrado, deberá definir la marca UseEncryption del archivo XML de configuración de BAM con el valor 1.  
@@ -34,7 +34,7 @@ El cifrado no se habilita de forma predeterminada durante una instalación o act
   
 2.  Navegue a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
   
-3.  Tipo de **bm get-config - FileName:\<archivo de salida >**.  
+3.  Tipo de **bm get-config - FileName:\<archivo de salida\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -43,11 +43,11 @@ El cifrado no se habilita de forma predeterminada durante una instalación o act
   
 5.  En un editor de texto, abra el archivo de configuración que ha exportado, y cambie a 1 el valor de la marca de propiedad UseEncryption.  
   
-    -   Valor predeterminado: \<nombre de propiedad = "UseEncryption" > 0 \< /Property >  
+    -   Valor predeterminado: \<nombre de propiedad = "UseEncryption"\>0 \< /Property\>  
   
-    -   Nueva configuración: \<nombre de propiedad = "UseEncryption" > 1 \< /Property >  
+    -   Nueva configuración: \<nombre de propiedad = "UseEncryption"\>1 \< /Property\>  
   
-6.  Actualizar la configuración de BAM escribiendo **bm update-config - FileName:\<el archivo de configuración >**.  
+6.  Actualizar la configuración de BAM escribiendo **bm update-config - FileName:\<el archivo de configuración\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

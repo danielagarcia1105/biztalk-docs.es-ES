@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d89f81bbaf15dfb0c87de91659888d70a2345a6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 573e7a2509741748b0f95837f310e2e651b255c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a>Solución de problemas de administración de BizTalk Server
 En esta sección se proporciona una ubicación centralizada de información sobre problemas comunes que se pueden producir al usar la consola de administración de BizTalk Server.  
@@ -71,13 +71,13 @@ En esta sección se proporciona una ubicación centralizada de información sobr
 >  Este problema se produce en un entorno de varios cuadros de mensaje.  
   
 ##### <a name="cause"></a>Causa  
- Este problema puede producirse en un entorno de cuadro de mensajes múltiples, si el trabajo del Agente SQL ' Operations_OperateOnInstances_OnMaster_\<*dbName*>' no se está ejecutando en las bases de datos de cuadro de mensaje secundaria. Para propagar información desde las bases de datos de cuadro de mensaje secundarias a la base de datos de cuadro de mensajes primaria, este trabajo debe estar en ejecución. Este trabajo no se podrá ejecutar si no está habilitado o si se produce un error de inicio de sesión.  
+ Este problema puede producirse en un entorno de cuadro de mensajes múltiples, si el trabajo del Agente SQL ' Operations_OperateOnInstances_OnMaster_\<*dbName*\>' no se está ejecutando en las bases de datos de cuadro de mensaje secundaria. Para propagar información desde las bases de datos de cuadro de mensaje secundarias a la base de datos de cuadro de mensajes primaria, este trabajo debe estar en ejecución. Este trabajo no se podrá ejecutar si no está habilitado o si se produce un error de inicio de sesión.  
   
 ##### <a name="solution"></a>Solución  
- Si está utilizando la consola de administración de BizTalk para realizar operaciones en varias instancias del servicio al mismo tiempo y el entorno de BizTalk Server está configurado con varias bases de datos de cuadro de mensajes, compruebe que el trabajo del Agente SQL Server con el nombre ' Operations_ OperateOnInstances_OnMaster_\<*dbName*>' está habilitada en todas las bases de datos de cuadro de mensaje secundarias (no principales). Además, el servicio Agente SQL Server en el equipo SQL Server que hospeda las bases de datos de cuadro de mensaje secundarias debe ejecutarse como cuenta incluida en el rol de base de datos BTS_SQLAGENT_USER de la base de datos de cuadro de mensaje secundaria.  
+ Si está utilizando la consola de administración de BizTalk para realizar operaciones en varias instancias del servicio al mismo tiempo y el entorno de BizTalk Server está configurado con varias bases de datos de cuadro de mensajes, compruebe que el trabajo del Agente SQL Server con el nombre ' Operations_ OperateOnInstances_OnMaster_\<*dbName*\>' está habilitada en todas las bases de datos de cuadro de mensaje secundarias (no principales). Además, el servicio Agente SQL Server en el equipo SQL Server que hospeda las bases de datos de cuadro de mensaje secundarias debe ejecutarse como cuenta incluida en el rol de base de datos BTS_SQLAGENT_USER de la base de datos de cuadro de mensaje secundaria.  
   
 > [!NOTE]
->  \<*dbname*> es un marcador de posición para el nombre real de la base de datos de cuadro de mensajes de BizTalk.  
+>  \<*dbname* \> es un marcador de posición para el nombre real de la base de datos de cuadro de mensajes de BizTalk.  
   
  Siga estos pasos para agregar la cuenta del servicio Agente SQL Server al rol de base de datos BTS_SQLAGENT_USER de la base de datos de cuadro de mensaje secundaria.  
   

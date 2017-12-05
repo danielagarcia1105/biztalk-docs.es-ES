@@ -12,17 +12,17 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09c2d2d922b9a7ed8a9dfd1ea4c64c369d0e9d2a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d54d05a459eb6fef772add6d4bb77f0269fa0ba8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="as2-messages"></a>Mensajes AS2
 En este tema se describe un mensaje AS2, incluida su estructura, propiedades de contexto y encabezados.  
   
 ## <a name="structure-of-an-as2-message"></a>Estructura de un mensaje AS2  
- En [!INCLUDE[prague](../includes/prague-md.md)], mensajes de AS2 se estructuran de acuerdo con [RFC 4130, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/? LinkID = 184212](http://go.microsoft.com/fwlink/?LinkID=184212)).  
+ En BizTalk Server, mensajes de AS2 se estructuran de acuerdo con [RFC 4130, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/? LinkID = 184212](http://go.microsoft.com/fwlink/?LinkID=184212)).  
   
  La estructura básica de un mensaje AS2 está compuesta de formato MIME dentro de un mensaje HTTP con encabezados específicos de AS2 adicionales. La naturaleza del mensaje bajo los encabezados HTTP, AS2 y MIME depende del tipo de mensaje:  
   

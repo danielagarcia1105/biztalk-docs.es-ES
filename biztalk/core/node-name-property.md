@@ -12,16 +12,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 155ad9ac5310b5084a94eb59a225e4d40e552bb9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1d39c71a425e20c5a9228e418cfa86acb579fa5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="node-name-property"></a>Propiedad Nombre de nodo
 Como el Editor de BizTalk se utiliza para insertar nodos en el árbol de esquema, algunos nodos están pensados para que se cambie su nombre y otros no. Básicamente, puede y debe cambiarse **registro** nodos, **elemento de campo** nodos, y **atributo de campo** nodos. Los nombres que asigne a estos nodos serán los nombres de los elementos y atributos XML en el mensaje que define el esquema.  
   
- En el árbol de esquema, se muestran los nodos que no se puede cambiar el nombre en forma de etiquetas XML; es decir, con la menor que (\<) y mayor que (>) signos. Por ejemplo, el **esquema** nodo, **grupo de elecciones** nodos, **cualquier elemento** nodos, y **cualquier atributo** nodos se representan en el esquema con los nombres \<esquema >, \<elección >, \<cualquier >, y \<AnyAttribute >, respectivamente. El **nombre de nodo** propiedad de dichos nodos es de solo lectura.  
+ En el árbol de esquema, se muestran los nodos que no se puede cambiar el nombre en forma de etiquetas XML; es decir, con la menor que (\<) y mayor que (\>) signos. Por ejemplo, el **esquema** nodo, **grupo de elecciones** nodos, **cualquier elemento** nodos, y **cualquier atributo** nodos se representan en el esquema con los nombres \<esquema\>, \<elección\>, \<cualquier\>, y \<AnyAttribute\>, respectivamente. El **nombre de nodo** propiedad de dichos nodos es de solo lectura.  
   
  Dentro de un determinado **registro** nodo, no puede tener dos **atributo de campo** nodos con el mismo nombre. Sin embargo, puede tener más de un **elemento de campo** nodo o **registro** nodo con el mismo nombre que los nodos secundarios del mismo **registro** nodo, siempre y cuando todos ellos tienen los mismos datos de tipo (según lo especificado por su **tipo de datos** propiedad **elemento de campo** nodos o su **Data Structure Type** para **registro** nodos).  
   
@@ -37,6 +37,6 @@ Como el Editor de BizTalk se utiliza para insertar nodos en el árbol de esquema
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Se codifican los caracteres de nombre de nodo](../core/which-node-name-characters-get-encoded.md)  
+-   [Caracteres de los nombres de nodo que se codifican](../core/which-node-name-characters-get-encoded.md)  
   
--   [¿Cómo se codifican los caracteres del nombre de nodo](../core/how-node-name-characters-get-encoded.md)
+-   [Cómo se codifican los caracteres de los nombres de nodo](../core/how-node-name-characters-get-encoded.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46ddba35a603217660df22668d548ca7c40eb5f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8198b17d07288bff04b64b0a1ad05db0cde4fd91
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-bam-alerts"></a>Configurar Alertas BAM
 Los administradores pueden modificar determinados elementos del marco de trabajo de alertas BAM. En este tema se describen las opciones de configuración disponibles para los administradores.  
@@ -31,7 +31,7 @@ Los administradores pueden modificar determinados elementos del marco de trabajo
 >  A la hora de crear alertas, debe tener en cuenta que los datos de hora se almacenan con formato de hora local en las bases de datos de esquema de estrella y de servicios de notificación de OLAP. También se presupone que las tres bases de datos se encuentran en la misma zona horaria. En la base de datos de importación principal, la información se almacena en formato de hora UTC, y puede encontrarse en la misma zona horaria o en una distinta.  
   
 ## <a name="changing-the-adf-configuration"></a>Cambiar la configuración de ADF  
- Al implementar una vista de la utilidad de administración de BAM utiliza el valor de CommandTimeout especificado en el archivo bm.exe.config para rellenar el archivo de definición de aplicación de Notification Services \<EventRule >\\< ActionTimeout\> elemento.  
+ Al implementar una vista de la utilidad de administración de BAM utiliza el valor de CommandTimeout especificado en el archivo bm.exe.config para rellenar el archivo de definición de aplicación de Notification Services \<EventRule\>\\< ActionTimeout\> elemento.  
   
  El cambio del valor CommandTimeout en bm.exe.config no cambia el valor CommandTimeout de las vistas implementadas con anterioridad.  
   
@@ -43,15 +43,15 @@ Los administradores pueden modificar determinados elementos del marco de trabajo
   
 1.  Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.  
   
-2.  Navegue hasta la carpeta de seguimiento, escriba en el símbolo del sistema **cd "C:\Program Files\Microsoft BizTalk Server \<versión > \Tracking"** o **cd "C:\Program Files (x86) \Microsoft BizTalk Server \<versión > \Tracking "** en un equipo de 64 bits. Presione **ENTRAR**.  
+2.  Navegue hasta la carpeta de seguimiento, escriba en el símbolo del sistema **cd "C:\Program Files\Microsoft BizTalk Server \<versión\>\Tracking"** o **cd "C:\Program Files (x86) \Microsoft BizTalk Servidor \<versión\>\Tracking "** en un equipo de 64 bits. Presione **ENTRAR**.  
   
-3.  Recupere el archivo ADF. Tipo de **cscript ProcessBamNSFiles.vbs-Get \<ConfigFilePath > \<ADFFilePath > \< servidor PID > \< base de datos PID >**. Sustituya ConfigFilePath, ADFFilePath, Servidor PID y Base de datos PID con los valores apropiados para su instalación.  
+3.  Recupere el archivo ADF. Tipo de **cscript ProcessBamNSFiles.vbs-Get \<ConfigFilePath\> \<ADFFilePath\> \< servidor PID\> \< base de datos PID \>** . Sustituya ConfigFilePath, ADFFilePath, Servidor PID y Base de datos PID con los valores apropiados para su instalación.  
   
 4.  Presione **ENTRAR**.  
   
-5.  Abra el archivo ADF en un editor y busque \<ActionTimeout >, actualizar con el valor deseado y tenga en cuenta que este valor es una duración XML.  
+5.  Abra el archivo ADF en un editor y busque \<ActionTimeout\>, actualizar con el valor deseado y tenga en cuenta que este valor es una duración XML.  
   
-6.  Guarde el archivo ADF. Tipo de **cscript ProcessBamNSFiles.vbs-Update \<ConfigFilePath > \<ADFFilePath > \< servidor PID > \< base de datos PID >**.  
+6.  Guarde el archivo ADF. Tipo de **cscript ProcessBamNSFiles.vbs-Update \<ConfigFilePath\> \<ADFFilePath\> \< servidor PID\> \< base de datos PID \>** .  
   
 7.  Presione **ENTRAR**.  
   
@@ -89,6 +89,6 @@ Los administradores pueden modificar determinados elementos del marco de trabajo
   
  Para cambiar la ubicación de entrega de archivos, modifique la siguiente línea del archivo de configuración de BAM y use el comando update-config de la utilidad de administración de BAM.  
   
- \<Nombre de propiedad = "FileDropUNC" >\\\\< nombre de equipo\>\alerts \< /Property >  
+ \<Nombre de propiedad = "FileDropUNC"\>\\\\< nombre de equipo\>\alerts \< /Property\>  
   
  Para obtener más información sobre la utilidad de administración de BAM, consulte [utilidad de administración de BAM](../core/bam-management-utility.md).

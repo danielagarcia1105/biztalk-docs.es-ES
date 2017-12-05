@@ -16,11 +16,11 @@ caps.latest.revision: "61"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22b16e8c33dfdbf44b000cc9a048e86a5869d616
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 706bc1cec8afc796fa44e022243782a207fe1777
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>Cómo instalar la solución de administración de procesos empresariales
 Los pasos siguientes describen cómo preparar el equipo para instalar la solución Administración de procesos empresariales (BPM) y cómo realizar la instalación.  
@@ -262,8 +262,8 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la soluci�
         |Nombre de propiedad|Valor|  
         |-------------------|-----------|  
         |**Server**|`localhost`|  
-        |**Nombre de usuario**|\<*Nombre de cuenta de servicio de BizTalk*>|  
-        |**Contraseña**|\<*Contraseña de cuenta de servicio de BizTalk*>|  
+        |**Nombre de usuario**|\<*Nombre de cuenta de servicio de BizTalk*\>|  
+        |**Contraseña**|\<*Contraseña de cuenta de servicio de BizTalk*\>|  
   
 6.  Ejecute la solución BPM Para obtener más información acerca de cómo ejecutar la solución, vea [cómo ejecutar la solución de administración de procesos empresariales](../core/how-to-run-the-business-process-management-solution.md).  
   
@@ -272,4 +272,4 @@ Los pasos siguientes describen cómo preparar el equipo para instalar la soluci�
   
 ## <a name="see-also"></a>Vea también  
  [Antes de instalar la solución de administración de procesos empresariales](../core/before-installing-the-business-process-management-solution.md)   
- [Configuración del equipo del desarrollador para la solución de administración de procesos empresariales](../core/developer-machine-setup-for-the-business-process-management-solution.md)
+ [Configurar el equipo del desarrollador para la solución de administración de procesos empresariales](../core/developer-machine-setup-for-the-business-process-management-solution.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fea95a74a15c685f2cff202fcf7f04c86244041b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f50e4de965e8f1efaa1454bb9123317ae904f7e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="related-activities"></a>Actividades relacionadas
 El área Actividades relacionadas contiene una lista de actividades que se relacionan con la actividad en la que se basa la consulta. Un ejemplo de una actividad relacionada para una actividad de pedido de compra serían varias actividades de envío, ya que los artículos de un pedido de compra se pueden entregar en varios envíos.  
@@ -34,7 +34,7 @@ El área Actividades relacionadas contiene una lista de actividades que se relac
   
 -   Se definen dos actividades. El programador realiza una conexión de correlación en su aplicación personalizada llamando a AddRelationship() y definiendo la clave, el campo y las relaciones de valor entre las actividades.  
   
- Definir las relaciones de actividad en cualquiera de estas formas agrega una fila en la \<activityname > _Relationships tabla.  
+ Definir las relaciones de actividad en cualquiera de estas formas agrega una fila en la \<activityname\>tabla _Relationships.  
   
 > [!NOTE]
 >  solo el primer método de definición de relaciones hace que las actividades relacionadas tengan vínculos activos entre ellas. El segundo método no define una vista de distribución y por tanto, el portal no puede conocer la relación entre las dos actividades.  

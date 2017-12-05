@@ -1,7 +1,7 @@
 ---
 title: "Introducción a BizTalk Server | Documentos de Microsoft"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/29/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,18 +12,18 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 544522fd2761cf12702ce517116bfaac84830084
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7984b9044ff21263e780cba545ddea472b358c76
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="introducing-biztalk-server"></a>Introducción a BizTalk Server
 Ninguna aplicación está aislada. Nos guste o no, unir los sistemas se ha convertido en la norma. Sin embargo, conectar software es algo más que el simple intercambio de bytes. Dado que las organizaciones tienden a un mundo orientado a los servicios, el verdadero objetivo, es decir, la creación de procesos empresariales efectivos que aúnen sistemas independientes dentro de un todo coherente, está al alcance de todos.  
   
- Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] es compatible con este objetivo. Al igual que las anteriores, esta última versión permite conectar software variado para, a continuación, crear y modificar de forma gráfica la lógica de proceso que emplea dicho software. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También permite que los trabajadores de información supervisar los procesos en ejecución, interactuar con socios comerciales y realizar otras tareas orientadas al negocio.  
+ Microsoft BizTalk Server permite conectar software variado para, a continuación, crear gráficamente y modificar la lógica del proceso que emplea dicho software. Además, BizTalk Server hace posible que los trabajadores de la información supervisen los procesos que están ejecutándose, interactúen con los socios comerciales y lleven a cabo otras tareas de tipo empresarial.  
   
- Entre las nuevas características clave de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se incluyen:  
+ Las nuevas características de BizTalk Server son:  
   
 -   Soporte mejorado para la implementación, la supervisión y la administración de aplicaciones.  
   
@@ -31,7 +31,7 @@ Ninguna aplicación está aislada. Nos guste o no, unir los sistemas se ha conve
   
 -   Capacidades mejoradas para la Supervisión de la actividad económica (BAM).  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] también usa las versiones más recientes de otras tecnologías de Microsoft. Por ejemplo, se basa en la versión 3.5 de .NET Framework y las herramientas de programadores se hospedan en Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]. Para el almacenamiento, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puede usar [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)], la versión más reciente del producto de base de datos de estrella de Microsoft. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]También puede ejecutar en servidores de Windows de 64 bits, sacar partido de la máxima cantidad de memoria y otras ventajas que esta nueva generación de hardware ofrece.  
+BizTalk Server también usa las versiones más recientes de otras tecnologías de Microsoft. Se basa en .NET Framework, y las herramientas de desarrollo están hospedadas en Microsoft Visual Studio. Para el almacenamiento, usa BizTalk Server puede BizTalk Server de SQL Server se ejecuta en servidores de Windows de 64 bits, sacar partido de la máxima cantidad de memoria y otras ventajas que ofrece el hardware.  
   
 ## <a name="what-is-biztalk-server"></a>¿Qué es BizTalk Server?  
  La combinación de distintos sistemas en procesos empresariales efectivos supone todo un desafío. En consecuencia, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye una amplia variedad de tecnologías. La siguiente ilustración muestra los componentes más destacados del producto.  
@@ -67,7 +67,7 @@ Ninguna aplicación está aislada. Nos guste o no, unir los sistemas se ha conve
   
  La conexión de aplicaciones dentro de una organización resulta de importancia, pero la conexión de aplicaciones que abarquen varias empresas puede ser crucial. La siguiente ilustración muestra un ejemplo sencillo de este tipo de integración negocio a negocio. En este caso, la organización que realiza el pedido, situada en la parte superior de la ilustración, ejecuta una orquestación de BizTalk Server que interactúa con dos organizaciones proveedoras. El Proveedor A también utiliza BizTalk Server, con lo que proporciona acceso indirecto a su aplicación de suministro. El proveedor B usa una plataforma de integración de otro fabricante y se conecta a la orquestación de BizTalk Server de la organización que realiza el pedido mediante, por ejemplo, los servicios web.  
   
- ![Business &#45; a &#45; diagrama de integración empresarial](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
+ ![Diagrama de integración negocio a negocio](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
   
 ## <a name="see-also"></a>Vea también  
  [Descripción de BizTalk Server](../core/understanding-biztalk-server.md)

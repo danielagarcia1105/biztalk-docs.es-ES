@@ -20,14 +20,14 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e537ca4bc2dd85722ddf3afd4eaba443aab7a25b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9c48791d26842b7224bb950334d6b184452a54d6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="solution-build-configurations"></a>Configuraciones de generación de soluciones
-Al igual que ocurre con otros proyectos generados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], es posible utilizar el Administrador de configuración para especificar configuraciones de generación de soluciones. Las configuraciones de generación de soluciones permiten seleccionar qué proyectos se incluirán en las diferentes generaciones de una solución y si se van a implementar. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]admite tanto **depurar** y **versión** configuraciones de compilación.  
+Al igual que ocurre con otros proyectos generados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], es posible utilizar el Administrador de configuración para especificar configuraciones de generación de soluciones. Las configuraciones de generación de soluciones permiten seleccionar qué proyectos se incluirán en las diferentes generaciones de una solución y si se van a implementar. BizTalk Server admite tanto **depurar** y **versión** configuraciones de compilación.  
   
  Una generación de soluciones configuración con una marca de verificación en la **generar** columna le permite crear una solución y para generar un ensamblado cuando haya terminado. Si también hay una marca de verificación en la **implementar** columna y, a continuación, la aplicación se implementará en función de la configuración de implementación en el Diseñador de proyectos.  
   

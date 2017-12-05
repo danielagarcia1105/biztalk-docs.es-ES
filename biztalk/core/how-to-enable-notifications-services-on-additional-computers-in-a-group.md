@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b65596e59820258df01a5655ea30adafe439674
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9787c5ac1371f6743285a151e5666d12b592a300
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-notifications-services-on-additional-computers-in-a-group"></a>Cómo habilitar servicios de notificación en equipos adicionales en un grupo
 Al ejecutar BAM en un entorno de varios equipos, debe habilitar Notification Services en cada equipo en el que va a ejecutar la utilidad de administración de BAM para implementar una actividad.  
@@ -53,7 +53,7 @@ Al ejecutar BAM en un entorno de varios equipos, debe habilitar Notification Ser
   
 1.  En el equipo del grupo adicional, haga clic en **iniciar**, seleccione **todos los programas**, haga clic en **Microsoft SQL Server 2005**, haga clic en **deherramientasdeconfiguración**y, a continuación, haga clic en **comandos de Notification Services**.  
   
-2.  En el símbolo del sistema, escriba: **nscontrol register - nombre \<NS prefijo nombre elegido en Configuración >-server \<sql server de ns db >**. Esto permite que los servicios de notificación inicien sesión en la base de datos correcta (nscontrol mantiene esta información en el Registro del equipo de servicio).  
+2.  En el símbolo del sistema, escriba: **nscontrol register - nombre \<NS prefijo nombre elegido en config\> -server \<sql server de ns db\>**. Esto permite que los servicios de notificación inicien sesión en la base de datos correcta (nscontrol mantiene esta información en el Registro del equipo de servicio).  
   
 ## <a name="see-also"></a>Vea también  
  [Cambiar la configuración de tiempo de ejecución BAM](../core/changing-bam-runtime-settings.md)   

@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24fe647f5ab5c87a5d8d9c78189134c6700ded6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 154b7d62af79f557f01064235744b2b56ba0fe3a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-biztalk-server"></a>Administrar BizTalk Server
-Esta sección proporciona instrucciones para administrar un [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] sistema en un entorno de producción. Los procedimientos siguientes generalmente se suponen que está trabajando con una aplicación de BizTalk después de la implementación. Estos procedimientos describen las prácticas recomendadas y conceptos para operaciones rutinarias, incluidas las siguientes:  
+Esta sección proporciona instrucciones para administrar un sistema de BizTalk Server en un entorno de producción. Los procedimientos siguientes generalmente se suponen que está trabajando con una aplicación de BizTalk después de la implementación. Estos procedimientos describen las prácticas recomendadas y conceptos para operaciones rutinarias, incluidas las siguientes:  
   
 -   Listas de comprobación y procedimientos para implementar una aplicación de BizTalk en un entorno de producción.  
   

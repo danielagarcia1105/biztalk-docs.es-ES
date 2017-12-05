@@ -29,18 +29,18 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e210fbe805e5a942605920e481faa2f1ca7cf2a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: effa2f5787f04493713ea6972562fe768081f4bc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases"></a>Cómo realizar una copia de seguridad de las bases de datos de servidor de análisis de seguimiento y de análisis de SAE
 La base de datos de análisis de Supervisión de la actividad económica (SAE) y la base de datos de servidor de análisis de seguimiento almacenan contenido en los cubos de los servicios de análisis de SQL Server. El trabajo de copia de seguridad de BizTalk Server no realiza ninguna copia de seguridad de estas bases de datos. Para ello, tendrá que utilizar Analysis Manager de SQL Server.  
   
  Después de realizar una copia de seguridad de estas bases de datos, es posible que desee purgar los cubos OLAP. Al purgar los cubos OLAP, también debe llevar a cabo los pasos siguientes:  
   
-1.  Antes de purgar los cubos OLAP, en la base de datos BAMStarSchema, trunque las tablas de hechos del cubo que desee purgar. La convención de nomenclatura de tabla es "bam_*\<CubeName >*_Facts".  
+1.  Antes de purgar los cubos OLAP, en la base de datos BAMStarSchema, trunque las tablas de hechos del cubo que desee purgar. La convención de nomenclatura de tabla es "bam_*\<CubeName\>*_Facts".  
   
 2.  Tras purgar los cubos OLAP, debe procesar completamente los cubos virtuales, completados y activos.  
   
@@ -67,4 +67,4 @@ La base de datos de análisis de Supervisión de la actividad económica (SAE) y
 3.  Realice una copia de seguridad de la base de datos BAMAnalysis y, a continuación, de la base de datos BAMStarSchema.  
   
 ## <a name="see-also"></a>Vea también  
- [Copia de seguridad y restaurar las bases de datos de servidor BizTalk Server](../core/backing-up-and-restoring-the-biztalk-server-databases.md)
+ [Realizar una copia de seguridad y restaurar las bases de datos de BizTalk Server](../core/backing-up-and-restoring-the-biztalk-server-databases.md)

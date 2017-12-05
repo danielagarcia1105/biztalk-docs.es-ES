@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e52712730546847a821d53a5f8013fff4d553501
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 17c4b470b802a980306481361c1fafcec4f70269
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-deploying-the-related-business-rules"></a>Lección 1: Implementar las reglas de negocios relacionadas
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye un programa en el Kit de desarrollo de Software de A4SWIFT (SDK) llamado a la utilidad de implementación del motor de reglas de negocios (BRE). En esta lección, use esta utilidad para examinar un ensamblado para esquemas implementados, determinar las reglas requeridas e implementar los vocabularios necesarios y directivas para cada esquema.  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-deploy-the-related-business-rules"></a>Para implementar las reglas de negocios relacionadas  
   
-1.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión > Accelerator para SWIFT**y, a continuación, haga clic en **BRE Utilidad de implementación**.  
+1.  Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para SWIFT**y, a continuación, haga clic en **Utilidad de implementación de BRE**.  
   
 2.  En el cuadro de diálogo Utilidad de implementación del BRE, haga clic en **examinar**.  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  Cierre el cuadro de diálogo Utilidad de implementación de SWIFT BRE.  
   
-6.  En el Explorador de Windows, vaya a \< *unidad*>: \Documents and Settings\All Users\Application datos para confirmar que el archivo de registro **BREDeploymentLog.txt** aparece en la carpeta.  
+6.  En el Explorador de Windows, vaya a \< *unidad*\>: \Documents and Settings\All Users\Application datos para confirmar que el archivo de registro **BREDeploymentLog.txt** aparece en el carpeta.  
   
     > [!NOTE]
     >  Puede abrir el archivo de registro con un editor de texto para confirmar cada uno de los pasos de implementación.  

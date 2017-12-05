@@ -17,19 +17,19 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e673e55557af87e5f28005a50c2a01aedf09d2c9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0f5a33b8951d1f02cf0504ba833b35adf275834
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update2xmlschema-tool"></a>Herramienta Update2XMLSchema
-La herramienta Update2XMLSchema le permite modificar los esquemas XML de HL7 2. para trabajar con el Editor de BizTalk. Esto es necesario porque algunos esquemas XML de 2. HL7 no funcionan correctamente en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sin ninguna modificación. Después de modificar los esquemas, la herramienta coloca en la carpeta esquemas donde [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] está instalado, por ejemplo,  *\<unidad >*: \Program BizTalk \<versión > Accelerator for HL7\Templates\Schemas.  
+La herramienta Update2XMLSchema le permite modificar los esquemas XML de HL7 2. para trabajar con el Editor de BizTalk. Esto es necesario porque algunos esquemas XML de 2. HL7 no funcionan correctamente en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sin ninguna modificación. Después de modificar los esquemas, la herramienta coloca en la carpeta esquemas donde [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] está instalado, por ejemplo,  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para HL7\Templates\Schemas.  
   
  Debe actualizar manualmente algunos campos de los esquemas que son el resultado de ejecutar la herramienta Update2XMLSchema. Vea [requiere actualizaciones manuales](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md) para obtener una lista de los esquemas.  
   
 ## <a name="syntax"></a>Sintaxis  
- Esta herramienta se encuentra en  *\<unidad >*: \Program BizTalk \<versión > Accelerator for HL7\SDK\2XML utilidades. Ejecute esta herramienta en el símbolo del sistema con el comando siguiente:  
+ Esta herramienta se encuentra en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para HL7\SDK\2XML utilidades. Ejecute esta herramienta en el símbolo del sistema con el comando siguiente:  
   
 ```  
 Update2XMLSchema /s /v  
@@ -52,4 +52,4 @@ Update2XMLSchema /s c:\231XML\v231\xsd /v 2.3.1
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Actualizaciones manuales necesarias](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md)
+-   [Actualizaciones manuales obligatorias](../../adapters-and-accelerators/accelerator-hl7/required-manual-updates.md)

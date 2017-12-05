@@ -15,17 +15,17 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4f443bf0b60f0bb90a914824b3922110ee1b300
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
-ms.translationtype: HT
+ms.openlocfilehash: f09615b8038170bfdc0f9d63492e40dc1b2a0eba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="http-adapter-biztalk-server-sample"></a>Adaptador de HTTP (ejemplo de BizTalk Server)
 En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigmas de comunicación de solicitud-respuesta y de petición-respuesta que se usan en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso >*\AdaptersDevelopment\HttpAdapter\  
+ *\<Ejemplos de ruta de acceso\>*\AdaptersDevelopment\HttpAdapter\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -49,7 +49,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \AdaptersDevelopment\HttpAdapter  
+     \<*Ejemplos de ruta de acceso*\>\AdaptersDevelopment\HttpAdapter  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -63,7 +63,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
   
 -   Grupo IIS_WPG.  
   
--   En IIS 7.0, debe migrar la aplicación para que funcione con el modo .NET integrado. Puede migrar la configuración de la aplicación, incluido el contenido de la \<httpHandlers > sección de configuración, con lo siguiente desde una ventana de línea de comandos (la ventana debe estar ejecutándose como administrador):  
+-   En IIS 7.0, debe migrar la aplicación para que funcione con el modo .NET integrado. Puede migrar la configuración de la aplicación, incluido el contenido de la \<httpHandlers\> sección de configuración, con lo siguiente desde una ventana de línea de comandos (la ventana debe estar ejecutándose como administrador):  
   
     ```  
     %systemroot%\system32\inetsrv\APPCMD.EXE migrate config "Default Web Site/HttpReceive"  
@@ -84,7 +84,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
   
 #### <a name="to-register-the-http-adapter-sample"></a>Para registrar el ejemplo de adaptador de HTTP  
   
-1.  En el Explorador de Windows, vaya a la unidad de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]y, a continuación, navegue hasta \<ruta de ejemplos > \AdaptersDevelopment\HTTPAdapter.  
+1.  En el Explorador de Windows, vaya a la unidad de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]y, a continuación, vaya a \<ruta de ejemplos\>\AdaptersDevelopment\HTTPAdapter.  
   
 2.  Para agregar el adaptador de ejemplo en el registro, haga doble clic en **HTTP.NET.reg**.  
   
@@ -137,7 +137,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
  La aplicación ya puede utilizar el adaptador de HTTP.NET. Al configurar el adaptador, el formato para la **directorio Virtual** propiedades de transporte tiene el formato: /httpreceive/httpreceive.aspx?optionalQueryString.  
   
 ## <a name="comments"></a>Comentarios  
- El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en *\<ruta de ejemplos >*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
+ El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en  *\<ruta de ejemplos\>*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
   
 ## <a name="see-also"></a>Vea también  
  [Registrar un adaptador](../core/registering-an-adapter.md)   
@@ -149,4 +149,4 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
  [Desarrollar un adaptador de envío](../core/developing-a-send-adapter.md)   
  [Cómo implementar un adaptador personalizado](../core/how-to-deploy-a-custom-adapter.md)   
  [Sugerencias para diseñar un adaptador](../core/tips-for-designing-your-adapter.md)   
- [Configuración de tiempo de diseño de adaptador](../core/adapter-design-time-configuration.md)
+ [Configuración de adaptadores en tiempo de diseño](../core/adapter-design-time-configuration.md)

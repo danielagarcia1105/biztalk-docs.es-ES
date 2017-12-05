@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb14221ba11fe514ab076dd6bad8cc0aeb5b929e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e34fcb08776d6be2c98e7c0e71d754caf9bdbb6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receiveports-biztalk-server-sample"></a>ReceivePorts (ejemplo de BizTalk Server)
 El ejemplo ReceivePorts muestra cómo crear un nuevo puerto de recepción mediante el uso de la **ExplorerOM** clases administrativas.  
@@ -41,7 +41,7 @@ El ejemplo ReceivePorts muestra cómo crear un nuevo puerto de recepción median
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\ReceivePorts  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\ReceivePorts  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -62,7 +62,7 @@ El ejemplo ReceivePorts muestra cómo crear un nuevo puerto de recepción median
   
 1.  Abra una ventana de comandos y desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\ReceivePorts\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\ReceivePorts\bin\Debug  
   
 2.  Ejecute el archivo ReceivePorts.exe. El nuevo puerto de recepción deben crearse y se muestra en la enumeración de puertos. Después de la enumeración, el puerto de recepción se quita inmediatamente.  
   
@@ -223,4 +223,4 @@ RP_Receive_ShipmentAgency_Ack
 ```  
   
 ## <a name="see-also"></a>Vea también  
- [Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)
+ [Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)](../core/admin-explorerom-biztalk-server-samples-folder.md)

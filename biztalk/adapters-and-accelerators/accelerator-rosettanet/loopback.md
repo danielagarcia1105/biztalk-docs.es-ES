@@ -27,19 +27,19 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 346ed59bbf1666861a6a899c7cf7e4ca8646810a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23c2f18d8422440f9a40645642787723642f3ee6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="loopback"></a>Loopback
 Use la utilidad de bucle invertido para generar automáticamente un acuerdo de bucle invertido que es una copia reflejada de un acuerdo de principal a asociado. Esto le permite realizar intercambios de mensajes de principal a asociado y de asociado a principal en un único equipo. Puede usar esta utilidad para un escenario con mensajes de 0A1 o un escenario sin mensajes 0A1. Puede crear un acuerdo de bucle invertido para un contrato de mensaje de acción (no-0A1) o un acuerdo 0A1.  
   
- También puede usar la utilidad para dar de alta o de baja de la organización principal para un rol de remitente. Al usar la utilidad para habilitar la organización principal, crea dos puertos de envío, \<principal >. Async y \<Inicio >. Sincronización, que usa la organización para comunicarse con su socio comercial.  
+ También puede usar la utilidad para dar de alta o de baja de la organización principal para un rol de remitente. Al usar la utilidad para habilitar la organización principal, crea dos puertos de envío, \<principal\>. Async y \<inicio\>. Sincronización, que usa la organización para comunicarse con su socio comercial.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*> \ programa comunes\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\  
+ \<*unidad*\>\ programa comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\  
   
 ## <a name="running-loopback"></a>Ejecución de bucle invertido  
   
@@ -47,7 +47,7 @@ Use la utilidad de bucle invertido para generar automáticamente un acuerdo de b
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*> \ programa comunes\Microsoft BizTalk \<versión > Accelerator for RosettaNet\SDK\\.  
+2.  Mover a \< *unidad*\>\ programa comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 3.  En el símbolo del sistema, escriba **bucle invertido**, escriba los conmutadores requeridos y correspondientes y, a continuación, presione ENTRAR.  
   
@@ -63,13 +63,13 @@ Loopback [/enable|/disable <home_organization>] [/mirror|/unmirror <agreement_na
   
 |**Sintaxis**|**Description**|  
 |----------------|---------------------|  
-|**habilitar**|Da de alta la organización designada en < home_organization > para un rol de remitente. Crea dos puertos de envío, \<Inicio >. Async y \<Inicio >. Sincronización, que el socio utiliza para comunicarse de vuelta con la organización principal.|  
+|**habilitar**|Da de alta la organización designada en < home_organization > para un rol de remitente. Crea dos puertos de envío, \<inicio\>. Async y \<inicio\>. Sincronización, que el socio utiliza para comunicarse de vuelta con la organización principal.|  
 |**deshabilitar**|Anula la inscripción de la organización principal para un rol de remitente.|  
 |**home_organization**|El asociado dada de alta o dar de baja para un rol de remitente.|  
-|**reflejado**|Crea un acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name**>.|  
-|**se realizaron**|Elimina el acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name >**.|  
+|**reflejado**|Crea un acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name**\>.|  
+|**se realizaron**|Elimina el acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name\>**.|  
 |**agreement_name**|El acuerdo para reflejar ni se realizaron en el escenario de bucle invertido.|  
-|**Ndel**|Establece el **0A1 acuerdo** propiedad del acuerdo de mensaje de acción reflejado por la utilidad de bucle invertido para \<0A1_agreement >. A **/nde** conmutador solo pueden agregarse a un comando de bucle invertido que también contiene un **/mirror** cambiar.|  
+|**Ndel**|Establece el **0A1 acuerdo** propiedad del contrato de mensaje de acción reflejado por la utilidad de bucle invertido de \<0A1_agreement\>. A **/nde** conmutador solo pueden agregarse a un comando de bucle invertido que también contiene un **/mirror** cambiar.|  
 |**0A1_agreement**|Un contrato de 0A1 que va a usar el acuerdo de reflejado de agreement_name. Este contrato se genera un contrato de servicio de respuesta 0A1 de creación de reflejo.|  
   
 ## <a name="remarks"></a>Comentarios  
@@ -142,12 +142,12 @@ Loopback [/enable|/disable <home_organization>] [/mirror|/unmirror <agreement_na
   
 4.  Usar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] set de la consola de administración, el **0A1 acuerdo** propiedad de la organización principal solicitud mensaje de acción para el nombre del contrato el acuerdo de 0A1 de iniciador de la organización propia.  
   
-5.  Mediante la utilidad de bucle invertido, cree un acuerdo para el mensaje de 0A1 de iniciador que se enviarán por la organización del asociado. Para ello, el servicio de respuesta de creación de reflejo 0A1 acuerdo para la organización principal. Esto crea un nuevo contrato de 0A1 con el nombre **bucle invertido:\<nombre del contrato 0A1 >**. El `My organization` propiedad está establecida en el socio comercial, el `Partner organization` propiedad está establecida en la organización principal y la `Home role` propiedad es **notificador de error de PIP (iniciador)**.  
+5.  Mediante la utilidad de bucle invertido, cree un acuerdo para el mensaje de 0A1 de iniciador que se enviarán por la organización del asociado. Para ello, el servicio de respuesta de creación de reflejo 0A1 acuerdo para la organización principal. Esto crea un nuevo contrato de 0A1 con el nombre **bucle invertido:\<nombre del contrato 0A1\>**. El `My organization` propiedad está establecida en el socio comercial, el `Partner organization` propiedad está establecida en la organización principal y la `Home role` propiedad es **notificador de error de PIP (iniciador)**.  
   
-6.  Con la utilidad de bucle invertido, cree un acuerdo para el mensaje de 0A1 de servicio de respuesta para la organización del asociado. Para ello, el acuerdo de iniciador de 0A1 para la organización principal de la creación de reflejo. Esto crea un nuevo contrato de 0A1 con el nombre **bucle invertido:\<nombre del contrato 0A1 >**. El `My organization` propiedad está establecida en el socio comercial, el `Partner organization` propiedad está establecida en la organización principal y la `Home role` propiedad es **Administrador de informes de error (respondedor)**.  
+6.  Con la utilidad de bucle invertido, cree un acuerdo para el mensaje de 0A1 de servicio de respuesta para la organización del asociado. Para ello, el acuerdo de iniciador de 0A1 para la organización principal de la creación de reflejo. Esto crea un nuevo contrato de 0A1 con el nombre **bucle invertido:\<nombre del contrato 0A1\>**. El `My organization` propiedad está establecida en el socio comercial, el `Partner organization` propiedad está establecida en la organización principal y la `Home role` propiedad es **Administrador de informes de error (respondedor)**.  
   
-7.  Con la utilidad de bucle invertido, cree un acuerdo para el mensaje de acción de respuesta para la organización del asociado. En el mismo comando, debe establecer la propiedad de acuerdo 0A1 el contrato de servicio de respuesta 0A1 para el socio comercial. Para ello, el contrato de mensaje de la acción de solicitud de la organización propia de creación de reflejo y utilizando la **/nde** cambiar con el nombre del acuerdo de 0A1 de servicio de respuesta del asociado. Esto crea un nuevo contrato de mensaje de la acción de respuesta con el nombre **bucle invertido:\<nombre del contrato >**. El `My organization` propiedad está establecida en el asociado y se establece la propiedad de acuerdo 0A1 al acuerdo de 0A1 de servicio de respuesta del asociado.  
+7.  Con la utilidad de bucle invertido, cree un acuerdo para el mensaje de acción de respuesta para la organización del asociado. En el mismo comando, debe establecer la propiedad de acuerdo 0A1 el contrato de servicio de respuesta 0A1 para el socio comercial. Para ello, el contrato de mensaje de la acción de solicitud de la organización propia de creación de reflejo y utilizando la **/nde** cambiar con el nombre del acuerdo de 0A1 de servicio de respuesta del asociado. Esto crea un nuevo contrato de mensaje de la acción de respuesta con el nombre **bucle invertido:\<nombre del contrato\>**. El `My organization` propiedad está establecida en el asociado y se establece la propiedad de acuerdo 0A1 al acuerdo de 0A1 de servicio de respuesta del asociado.  
   
 ## <a name="see-also"></a>Vea también  
  [Utilidades](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)   
- [Tutorial de bucle invertido](../../adapters-and-accelerators/accelerator-rosettanet/loopback-tutorial.md)
+ [Tutorial de bucles invertidos](../../adapters-and-accelerators/accelerator-rosettanet/loopback-tutorial.md)

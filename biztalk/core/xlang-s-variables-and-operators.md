@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1affe6ebdebac515782ec9ecb82b0c6085341bfe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c1773b7af3ec029026ee884e6c1161e27a3c330
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xlang-s-variables-and-operators"></a>Operadores y Variables de XLANG-s
 En esta sección se tratan las variables y los operadores utilizados en el lenguaje XLANG/s.  
@@ -49,7 +49,7 @@ En esta sección se tratan las variables y los operadores utilizados en el lengu
 |No está activada|Hace caso omiso del desbordamiento aritmético.|unchecked(x = y * 1000)|  
 |nuevo|Crea una instancia de una clase|myObject = new MyClass;|  
 |typeof|Recupera un tipo|myMapType = typeof(myMap)|  
-|succeeded|Comprueba la finalización correcta de ámbito transaccional u orquestación|se ha realizado correctamente (\<Id. de transacción para transacción secundaria de ámbito o servicio actual >)|  
+|succeeded|Comprueba la finalización correcta de ámbito transaccional u orquestación|se ha realizado correctamente (\<identificador de transacción de secundarios del ámbito actual o servicio\>)|  
 |exists|Comprueba la existencia de una propiedad de contexto de mensaje|BTS.RetryCount exists Message_In|  
 |+|Suma unaria|+(int x)|  
 |-|Resta unaria|-(int x)|  
@@ -60,11 +60,11 @@ En esta sección se tratan las variables y los operadores utilizados en el lengu
 |/|Dividido por|x / y|  
 |+|signo más|x + y|  
 |-|Resta|x - y|  
-|<<|Desplazamiento a la izquierda|x <\< 2|  
+|<<|Desplazamiento a la izquierda|x << 2|  
 |>>|Desplazamiento a la derecha|x >> 2|  
-|<|Menor que|Si (MyMsg.numOrders \< 10)...|  
+|<|Menor que|Si (MyMsg.numOrders < 10)...|  
 |>|Mayor que|Si (MyMsg.numOrders > 10)...|  
-|<=|Menor o igual que|Si (MyMsg.numOrders \<= 10)...|  
+|<=|Menor o igual que|Si (MyMsg.numOrders < = 10)...|  
 |>=|Mayor o igual que|Si (MyMsg.numOrders > = 10)...|  
 |==|Igual a|If (MyMsg.numOrders == 10)...|  
 |!=|No es igual a|If (MyMsg.numOrders != 10)...|  
@@ -74,4 +74,4 @@ En esta sección se tratan las variables y los operadores utilizados en el lengu
  [Instrucciones de XLANG-s](../core/xlang-s-statements.md)   
  [Expresiones de XLANG-s](../core/xlang-s-expressions.md)   
  [Palabras reservadas de XLANG-s](../core/xlang-s-reserved-words.md)   
- [XLANG-s para las conversiones de tipo de BPEL4WS](../core/xlang-s-to-bpel4ws-type-conversions.md)
+ [Conversiones de tipos de XLANG/s a BPEL4WS](../core/xlang-s-to-bpel4ws-type-conversions.md)

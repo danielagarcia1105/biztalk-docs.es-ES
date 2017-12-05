@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26e840148b4a5cfb8b390d5e89ee0e8edc677aad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2987d58e17ea7ddbd0db5b0a4d242f9ff42afec5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a>Sondeo de base de datos de Oracle mediante la instrucción SELECT
 Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicos utilizando una instrucción SELECT para sondear continuamente las tablas y vistas en la base de datos de Oracle de Oracle. Puede especificar una instrucción SELECT como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle. Si lo desea, también puede especificar un bloque de código de PL/SQL de sondeo posterior a la que el adaptador se ejecuta si se produce un cambio en los datos. Este bloque se utiliza a menudo para actualizar un campo en los registros consultados en el destino o para mover los registros consultados a otra tabla o vista.  
@@ -126,7 +126,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
     |Use|Para|  
     |--------------|----------------|  
     |Identificador|Tipo de **recibir**.|  
-    |Tipo de mensaje|En la lista desplegable, expanda **esquemas**y seleccione *TablePolling.OracleDBBinding*, donde *TablePolling* es el nombre de su proyecto de BizTalk. *OracleDBBindingSchema* es el esquema de respuesta generado para el **POLLINGSTMT** operación en la tabla ACCOUNTACTIVITY.<br /><br /> **Importante** porque sondeo es una operación unidireccional, el esquema generado por el adaptador no contiene un nodo de respuesta y, por lo tanto, hay solo un nodo raíz en el esquema. Si utiliza estos esquemas para un tipo de mensaje, debe identificar el esquema por el nombre de archivo del esquema generado.<br /><br /> Por ejemplo, si crea el esquema para una operación bidireccional, los nodos en el esquema de archivo con un nombre `OracleDBBindingSchema` puede ser similar a "Solicitud" y "Respuesta". Si desea crear un mensaje en la orquestación que se asigna al esquema de solicitud, puede identificar el esquema en la lista, busque `OracleDBBindingSchema.Request`. Sin embargo, en el caso de la operación de sondeo, dado que el único nodo es "POLLINGSTMT", no resulta sencillo identificar el esquema que desea asignar a porque esquemas con nodos únicos no se muestran como \<schemafilename >.\< rootnodename >. En su lugar, estos esquemas se enumeran por solo el nombre de archivo. En tal caso, la única manera de identificar el esquema es por el nombre de archivo de esquema, por ejemplo, OracleDBBindingSchema.|  
+    |Tipo de mensaje|En la lista desplegable, expanda **esquemas**y seleccione *TablePolling.OracleDBBinding*, donde *TablePolling* es el nombre de su proyecto de BizTalk. *OracleDBBindingSchema* es el esquema de respuesta generado para el **POLLINGSTMT** operación en la tabla ACCOUNTACTIVITY.<br /><br /> **Importante** porque sondeo es una operación unidireccional, el esquema generado por el adaptador no contiene un nodo de respuesta y, por lo tanto, hay solo un nodo raíz en el esquema. Si utiliza estos esquemas para un tipo de mensaje, debe identificar el esquema por el nombre de archivo del esquema generado.<br /><br /> Por ejemplo, si crea el esquema para una operación bidireccional, los nodos en el esquema de archivo con un nombre `OracleDBBindingSchema` puede ser similar a "Solicitud" y "Respuesta". Si desea crear un mensaje en la orquestación que se asigna al esquema de solicitud, puede identificar el esquema en la lista, busque `OracleDBBindingSchema.Request`. Sin embargo, en el caso de la operación de sondeo, dado que el único nodo es "POLLINGSTMT", no resulta sencillo identificar el esquema que desea asignar a porque esquemas con nodos únicos no se muestran como \<schemafilename\>.\< rootnodename\>. En su lugar, estos esquemas se enumeran por solo el nombre de archivo. En tal caso, la única manera de identificar el esquema es por el nombre de archivo de esquema, por ejemplo, OracleDBBindingSchema.|  
   
 ## <a name="setting-up-the-orchestration"></a>Configuración de la orquestación  
  Debe crear una orquestación de BizTalk para usar [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes de cambio de datos basado en sondeo de Oracle. En esta orquestación, el adaptador recibe la respuesta mediante la ejecución de la instrucción SELECT especificada para la **PollingStatement** propiedad de enlace. El mensaje de respuesta para la instrucción SELECT se guarda en una ubicación de archivo. Contendría una orquestación típica para el sondeo de base de datos de Oracle:  
@@ -216,7 +216,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
 -   El adaptador ejecuta la instrucción SELECT para la **PollingStatement** enlace de propiedad y devuelve todas las filas de la tabla ACCOUNTACTIVITY. La respuesta de base de datos de Oracle es similar al siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <POLLINGSTMT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT">  
       <POLLINGSTMTRECORD>  
         <POLLINGSTMTRECORD>  

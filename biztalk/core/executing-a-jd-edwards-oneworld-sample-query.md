@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 58e06eb1b606217aea6fe5e40ac645a2eaf623c2
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: e4e15310442d12c0b2604eb0d22b071ff6c57212
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-a-jd-edwards-oneworld-sample-query"></a>Ejecutar una consulta de ejemplo de OneWorld JD Edwards
 El adaptador de JD Edwards OneWorld permite obtener acceso al sistema JD Edwards OneWorld (JDEOW) desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Este adaptador se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
@@ -95,13 +95,13 @@ A continuación, compruebe que el adaptador de JD Edwards OneWorld está instala
   
 4.  Haga clic en **Configurar**y escriba los siguientes valores de propiedades:  
   
-    1.  **Host:** \<escriba su nombre de host JDEOW >  
+    1.  **Host:** \<escriba su nombre de host JDEOW\>  
   
     2.  **JAVA_HOME:**`C:\j2sdk1.4.2_08`  
   
-    3.  **Entorno JDEdwards:** \<entran en el entorno de JDEOW >  
+    3.  **Entorno JDEdwards:** \<entran en el entorno de JDEOW\>  
   
-    4.  **Archivos JAR de JDEdwards:** \<escriba la ruta de acceso completa de archivos JAR >  
+    4.  **Archivos JAR de JDEdwards:** \<escriba la ruta de acceso completa de archivos JAR\>  
   
          `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
@@ -109,7 +109,7 @@ A continuación, compruebe que el adaptador de JD Edwards OneWorld está instala
   
     6.  **Puerto:**  `6009`  
   
-    7.  **Nombre de usuario:** \<escriba su nombre de usuario de JD Edwards >  
+    7.  **Nombre de usuario:** \<escriba su nombre de usuario de JD Edwards\>  
   
      ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
   
@@ -287,7 +287,7 @@ A continuación, cree un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](.
   
      `C:\LABS\JDE_OW_TEST\SAMPLE.XML`  
   
-3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema >** y establecer **referencia raíz:** a `AddressBookMasterMBF`. Esto hará que el XML generado sólo incluirá el **consulta** xml.  
+3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema\>**  y establecer **referencia raíz:** a `AddressBookMasterMBF`. Esto hará que el XML generado sólo incluirá el **consulta** xml.  
   
      ![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
   
@@ -305,7 +305,7 @@ A continuación, cree un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](.
   
 4.  Seleccione **Orchestration_1** y haga clic en el cuadro desplegable **Host** . Seleccionar **BizTalkServerApplication**.  
   
-5.  En **puertos de recepción**, haga clic en  **\<ninguno >**. En la lista desplegable, seleccione **Nuevo puerto de recepción**.  
+5.  En **puertos de recepción**, haga clic en  **\<ninguno\>**. En la lista desplegable, seleccione **Nuevo puerto de recepción**.  
   
 6.  Para **nombre**, tipo `JDE_FileIn_Port`y, a continuación, haga clic en **Aceptar**. Aparecerá un cuadro de mensaje que indica que debe designar una ubicación de recepción. Haga clic en **Aceptar**y, a continuación, en **Nuevo**.  
   
@@ -327,7 +327,7 @@ A continuación, cree un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](.
   
      ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
-9. Haga clic en  **\<ninguno >** para **JDE_OW_Port** en la lista desplegable.  
+9. Haga clic en  **\<ninguno\>**  para **JDE_OW_Port** en la lista desplegable.  
   
 10. Seleccione **nuevo puerto de envío** y, a continuación, seleccione o escriba los valores para las propiedades siguientes:  
   
@@ -341,11 +341,11 @@ A continuación, cree un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](.
   
 11. Haga clic en **Configurar**y escriba los siguientes valores de propiedades:  
   
-     **Host:** \<escriba su nombre de host JDEOW >  
+     **Host:** \<escriba su nombre de host JDEOW\>  
   
      **JAVA_HOME:**`C:\j2sdk1.4.2_08`  
   
-     **Entorno JDEdwards:** \<entran en el entorno de JDEOW >  
+     **Entorno JDEdwards:** \<entran en el entorno de JDEOW\>  
   
      **Archivos JAR de JDEdwards:**<enter full path of JAR files>  
   
@@ -361,7 +361,7 @@ A continuación, cree un proyecto de BizTalk en [!INCLUDE[btsVStudioNoVersion](.
   
 12. Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.  
   
-13. En el Applicationwindow configurar, haga clic en  **\<ninguno >** para **JDE_FileOut** en la lista desplegable.  
+13. En el Applicationwindow configurar, haga clic en  **\<ninguno\>**  para **JDE_FileOut** en la lista desplegable.  
   
 14. Seleccione **Nuevo puerto de envío** y escriba o seleccione los siguientes valores para las propiedades:  
   

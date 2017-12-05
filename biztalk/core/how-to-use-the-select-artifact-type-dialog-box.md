@@ -16,16 +16,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3027971059d99a921bd743ff28aca1617c5d628d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88167cbeb5c8c6bb0a62030e64f4ed3d91a9d1aa
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-select-artifact-type-dialog-box"></a>Cómo usar el cuadro de diálogo de tipo de artefacto Select
 Un *elemento* se usa para configurar los elementos de una orquestación en el Diseñador de orquestaciones. Los esquemas, las asignaciones, las canalizaciones, los tipos de puerto y los tipos de mensajes de varias partes son por ejemplo elementos. Al desarrollar una orquestación y las partes que la componen (por ejemplo, formas Puerto, formas Transformación y mensajes), puede que deba hacer referencia a elementos que no residen en la orquestación actual, pero que se encuentran en el proyecto actual o en otro proyecto compilado en un ensamblado de BizTalk Server. Usa el **Seleccionar tipo de artefacto** cuadro de diálogo para buscar y, a continuación, especificar elementos al configurar un elemento dentro de una orquestación.  
   
- El **Seleccionar tipo de artefacto** cuadro de diálogo está disponible desde varias ubicaciones en el Diseñador de orquestaciones. Puede seleccionar \<seleccionar del ensamblado mencionado > en una lista desplegable que muestra las opciones de configuración; al hacer clic en este texto se abre el **Seleccionar tipo de artefacto** cuadro de diálogo.  
+ El **Seleccionar tipo de artefacto** cuadro de diálogo está disponible desde varias ubicaciones en el Diseñador de orquestaciones. Puede seleccionar \<seleccionar del ensamblado mencionado\> en una lista desplegable que muestra las opciones de configuración; al hacer clic en este texto se abre el **Seleccionar tipo de artefacto** cuadro de diálogo.  
   
  Para poder seleccionar un elemento, primero debe seleccionar el elemento que desea configurar.  
   

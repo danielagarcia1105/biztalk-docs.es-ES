@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 952db36f794d36bd98af6e5bc31eee78adcc8a35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 450b2df7ec043dfd4bc775cfec7acdec0fb3ca1f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-enterprise-single-sign-on"></a>Solución de problemas de Enterprise Single Sign-On
 En esta tema se proporciona información sobre los problemas comunes que se pueden producir al usar el inicio de sesión único (SSO) empresarial.  
@@ -32,8 +32,8 @@ En esta tema se proporciona información sobre los problemas comunes que se pued
 |¿Qué es la cuenta de administrador de SSO?|Use la línea de comandos **ssomanage –displaydb**. Para obtener más información sobre este comando, consulte [cómo mostrar la información de la base de datos de SSO](../core/how-to-display-the-sso-database-information.md).|  
 |¿Está todo habilitado correctamente?|Use la línea de comandos **ssomanage –displaydb**. Para obtener más información sobre este comando, consulte [cómo mostrar la información de la base de datos de SSO](../core/how-to-display-the-sso-database-information.md).|  
 |¿Existen las aplicaciones afiliadas?|Use la línea de comandos **ssomanage –listapps all**. Para obtener más información sobre este comando, consulte [cómo enumerar las aplicaciones afiliadas](../core/how-to-list-affiliate-applications.md).|  
-|¿La aplicación afiliada específica parece correcta?<br /><br /> ¿Qué cuentas utiliza esta aplicación afiliada?|Usar la línea de comandos **ssomanage-displayapp***\<nombre de aplicación >*. Para obtener más información sobre este comando, consulte [cómo mostrar las propiedades de una aplicación afiliada](../core/how-to-list-the-properties-of-an-affiliate-application.md).|  
-|¿Existe alguna asignación para esta aplicación afiliada?|Usar la línea de comandos **ssomanage – listmappings***\<nombre de aplicación >*. Para obtener más información sobre este comando, consulte [cómo Listar asignaciones de usuarios](../core/how-to-list-user-mappings.md).|  
+|¿La aplicación afiliada específica parece correcta?<br /><br /> ¿Qué cuentas utiliza esta aplicación afiliada?|Usar la línea de comandos **ssomanage-displayapp***\<nombre de la aplicación\>*. Para obtener más información sobre este comando, consulte [cómo mostrar las propiedades de una aplicación afiliada](../core/how-to-list-the-properties-of-an-affiliate-application.md).|  
+|¿Existe alguna asignación para esta aplicación afiliada?|Usar la línea de comandos **ssomanage – listmappings***\<nombre de la aplicación\>*. Para obtener más información sobre este comando, consulte [cómo Listar asignaciones de usuarios](../core/how-to-list-user-mappings.md).|  
 |¿Qué cuentas pertenecen a los grupos de SSO?|Compruebe la pertenencia al grupo de todos los grupos y cuentas de SSO.|  
 |¿La aplicación COM+ del servidor de SSO se está ejecutando del modo previsto?|Compruebe la aplicación COM+ del servidor de SSO. **Nota:** también puede comprobar el registro de eventos para obtener información detallada, como eventos y mensajes de advertencia.|  
   
@@ -75,7 +75,7 @@ En esta tema se proporciona información sobre los problemas comunes que se pued
 #### <a name="rpc-error-occurs-when-connecting-to-a-client-computer"></a>Se produce un error RPC al conectarse a un equipo cliente  
   
 ##### <a name="problem"></a>Problema  
- Cuando un usuario ejecuta un comando como **ssomanage - displayapp***\<applicationname >*, donde el equipo intenta conectarse a un servidor de SSO remoto para recuperar la información que reciben el siguiente error: ERROR: 0x800706BA: el servidor RPC no está disponible.  
+ Cuando un usuario ejecuta un comando como **ssomanage - displayapp***\<applicationname\>*, donde el equipo intenta conectarse a un servidor de SSO remoto para recuperar la información recibe el siguiente error: ERROR: 0x800706BA: el servidor RPC no está disponible.  
   
 ##### <a name="cause"></a>Causa  
  Este error se produce cuando el usuario especifica la información de servidor incorrecta o cuando el servicio SSO no está disponible en el servidor remoto.  

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2eaf57c08157ffb9785f591016793c4c416704bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32314638b3352dccb2c30eb0b99a4d328d22b092
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-test-the-migrated-application-that-uses-the-sql-adapter"></a>Paso 3: Probar la aplicación migrados que utiliza el adaptador de SQL
 ![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 3.  La orquestación consume el mensaje de solicitud y lo envía a la base de datos de SQL Server. Se recibe la respuesta de la base de datos de SQL Server en el esquema que se ajusta al esquema de basadas en WCF [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Mediante la asignación de entrada, WCF-Custom enviarla puerto convierte el esquema para el vPrev [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. La respuesta de la base de datos de SQL Server se guarda en la otra ubicación de archivo definida como parte de la orquestación. La respuesta para el mensaje de solicitud anterior es:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <InsertResponse xmlns="http://SQLInsert">  
       <Success>  
         <long xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">101</long>   

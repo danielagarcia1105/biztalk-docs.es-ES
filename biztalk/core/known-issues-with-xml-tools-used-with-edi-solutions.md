@@ -12,14 +12,14 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88edef073bdab21213d9f1f52ec7e4424ff4e4b2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23b8222369503f616f2d994f9292091f8e6c1f0d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-xml-tools-used-with-edi-solutions"></a>Problemas conocidos con herramientas XML utilizadas con soluciones EDI
-En este tema se describen los problemas conocidos relacionados con herramientas XML en [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+En este tema se describe problemas conocidos con herramientas XML en BizTalk Server.  
   
 ## <a name="validation-of-test-map-input-and-output-file-still-occurs-when-the-validate-property-is-set-to-false"></a>La validación del archivo de entrada y de salida de asignación de comprobación se produce cuando se establece la propiedad de validación como False.  
  Si prueba una asignación con la propiedad de entrada de comprobar asignación establecida en **nativo** y establecen las propiedades validar entrada de comprobar asignación y validar salida de comprobar asignación en **False**, todavía se realizará la validación. Esto ocurre porque el archivo de entrada con formato nativo se convertirá a formato XML y BizTalk Server validará el XML con respecto al esquema. Si hay problemas de validación en el archivo de entrada, este mecanismo de validación registrará errores, incluso si se establecen las propiedades validar entrada de comprobar asignación y validar salida de comprobar asignación en **False**.  
@@ -28,7 +28,7 @@ En este tema se describen los problemas conocidos relacionados con herramientas 
  Cuando una instancia se genera a partir de un esquema y los valores de enumeración para un elemento de datos en el esquema no satisfacen el requisito de longitud, la instancia puede generarse con un elemento de datos que provocará un error de validación XSD debido al requisito de longitud. La validación del esquema no comprobará si un valor en la instancia generada que se extrae de la lista de enumeraciones en el esquema satisface el requisito de duración mínimo y máximo.  
   
 ## <a name="validate-schema-may-not-detect-an-invalid-transaction-set-id-code"></a>Validar esquema puede no detectar un código de Id. de conjunto de transacciones no válidas.  
- Cuando se valida un esquema con el comando Validar esquema en la ventana Explorador de soluciones de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], la comprobación del nodo raíz no puede detectar código de Id. de conjunto de una transacción no válida en la última parte del nodo raíz de referencia (con el formato X12_\< VersionRelease > _TSID). Si el TSID en el nodo raíz de referencia del esquema no es válido pero es el mismo que el TSID en el nodo de enumeración del elemento ST'01 en el esquema, la operación Validar esquema no detectará que el TSID no es válido.  
+ Cuando se valida un esquema con el comando Validar esquema en la ventana Explorador de soluciones de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], la comprobación del nodo raíz no puede detectar código de Id. de conjunto de una transacción no válida en la última parte del nodo raíz de referencia (con el formato X12_\< Es\>_TSID). Si el TSID en el nodo raíz de referencia del esquema no es válido pero es el mismo que el TSID en el nodo de enumeración del elemento ST'01 en el esquema, la operación Validar esquema no detectará que el TSID no es válido.  
   
 ## <a name="visual-studio-must-be-restarted-to-make-an-enum-change-in-a-schema-effective-for-instance-validation"></a>Visual Studio debe reiniciarse para realizar un cambio de enumeración en un esquema efectivo para la validación de instancia.  
  Si cambia una lista de enumeración en un esquema, lo guardo y, a continuación, ejecuta la validación de instancia, BizTalk Server realizará la validación que se basa en la versión anterior del esquema, no en la última versión. BizTalk Server no utilizará la última versión del esquema hasta que reinicie Visual Studio.  

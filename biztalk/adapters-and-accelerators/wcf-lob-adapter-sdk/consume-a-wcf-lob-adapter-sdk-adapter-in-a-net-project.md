@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb6208395813c7e4be25964d9949d2f909e4806d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 622c6ad687e681591071d472e2ff8a9e8c515f95
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="consume-a-wcf-lob-adapter-sdk-adapter-in-a-net-project"></a>Utilizar un adaptador de SDK de adaptador LOB de WCF en un proyecto de .NET
 Para consumir un adaptador que se generan con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe agregar una referencia de servicio al proyecto. Puede hacerlo:  
@@ -67,10 +67,10 @@ Para consumir un adaptador que se generan con el [!INCLUDE[afproductnameshort](.
     |Tipo de contrato|Artefacto|Description||  
     |-------------------|--------------|-----------------|-|  
     |Salida|Proxy de WCF de CLR|Contiene la implementación del contrato y servicio.||  
-    |Salida||App.config|Contiene el \<punto de conexión > y \<enlaces > elementos para \<sistema. ServiceModel >\<cliente >.|  
+    |Salida||App.config|Contiene el \<extremo\> y \<enlaces\> elementos para \<sistema. ServiceModel\>\<cliente\>.|  
     |Entrada|Interfaz de servicio WCF de CLR|Contiene el contrato.||  
     |Entrada||Implementación de servicio de WCF de CLR|Implementación de código auxiliar que se deriva el contrato.|  
-    |Entrada||App.config|Contiene el \<extremo >, \<enlaces > y \<comportamientos > elementos para \<sistema. ServiceModel >\<servicio >.|  
+    |Entrada||App.config|Contiene el \<extremo\>, \<enlaces\> y \<comportamientos\> elementos para \<sistema. ServiceModel\>\<servicio\>.|  
   
 10. Ahora puede usar al proxy de la aplicación.  
   
@@ -79,7 +79,7 @@ Para consumir un adaptador que se generan con el [!INCLUDE[afproductnameshort](.
   
  Para generar una clase de proxy de un adaptador alojado en IIS  
   
-1.  En el símbolo del sistema, escriba **svcutil.exe "http://localhost/adapter/AdapterService.svc?wsdl" /config:app.config**. Reemplace la ruta de acceso HTTP con la ruta de acceso correcta para el adaptador hospedado. Esto crea un archivo .cs que contiene el proxy de .NET CLR y output.config que contiene el \<enlaces > y el cliente \<extremo > para \<system.serviceModel >.  
+1.  En el símbolo del sistema, escriba **svcutil.exe "http://localhost/adapter/AdapterService.svc?wsdl" /config:app.config**. Reemplace la ruta de acceso HTTP con la ruta de acceso correcta para el adaptador hospedado. Esto crea un archivo .cs que contiene el proxy de .NET CLR y output.config que contiene el \<enlaces\> y cliente \<extremo\> para \<system.serviceModel\>.  
   
     > [!NOTE]
     >  Si el adaptador contiene muchas operaciones, puede limitar las operaciones devueltas utilizando una cadena de consulta de ' op =' seguido por el nombre de la operación en el que esté interesado. Por ejemplo: `svcutil.exe “http://localhost/adapter/AdapterService.svc?wsdl&op=Echo/EchoString&op=Echo/EchoArray”` genera código de proxy para las operaciones EchoString y EchoArray.  

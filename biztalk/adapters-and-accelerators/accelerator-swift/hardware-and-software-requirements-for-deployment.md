@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0888fed8c554857a577e254f26e33be104da24e8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7e772c409533e5ef6e3fedd13e3db7acbfdc572c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="hardware-and-software-requirements-for-deployment"></a>Requisitos de hardware y Software para la implementación
 En la tabla siguiente se enumera los requisitos para cada servidor de la arquitectura de implementación establecidas y recomendaciones de hardware y software. Para obtener más información acerca de cómo configurar el software necesario, consulte [implementar los servidores](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md).  
@@ -30,6 +30,6 @@ En la tabla siguiente se enumera los requisitos para cada servidor de la arquite
 |------------|------------------------------|---------------------------|  
 |Controladores de dominio|-adaptador de red 1|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsAD](../../includes/btsad-md.md)] Server<br />-Nombres de dominio (DNS)|  
 |Servidores de Microsoft SQL|-2 adaptadores de red<br />-Opcional: Para los discos de la red de área de almacenamiento (SAN), elija el espacio de disco duro necesario para el rendimiento medio, el rendimiento de pico y el rendimiento de horas punta más promedio de tamaño del mensaje. La SAN debe dividirse en tres unidades de disco: quórum, datos y registros de transacciones.|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-   [!INCLUDE[SQLServer2008or2005](../../includes/sqlserver2008or2005-md.md)]|  
-|Servidores de BizTalk para la mensajería de|-2 adaptadores de red|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-   [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|  
-|Servidores front-end de HTTP de BizTalk (sitio MRSR)|-2 adaptadores de red|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-Internet Information Services (IIS)<br />-Servicio message Queue Server con enrutamiento habilitado<br />-   [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|  
-|Servidores de BizTalk de orquestaciones|-adaptador de red 1|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-   [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|
+|Servidores de BizTalk para la mensajería de|-2 adaptadores de red|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-Servidor BizTalk<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|  
+|Servidores front-end de HTTP de BizTalk (sitio MRSR)|-2 adaptadores de red|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-Internet Information Services (IIS)<br />-Servicio message Queue Server con enrutamiento habilitado<br />-Servidor BizTalk<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|  
+|Servidores de BizTalk de orquestaciones|-adaptador de red 1|-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Windows Server 2012 R2 o 2012<br />-Servidor BizTalk<br />-   [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]|

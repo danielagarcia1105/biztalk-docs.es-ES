@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4899ec5f03e3474e61e4272ffd0612c77c90ea32
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a22b49a921b957c0fb36f9e6b6925c991cc3cf6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---index-functoid-has-too-many-indexes"></a>Error - el Functoid de índice tiene demasiados índices
 **Código de error**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **Acción del usuario**  
   
- Seleccione el functoid **índice** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en la **configurar \<Functoid > Functoid** cuadro de diálogo, elimine el índice exceso los parámetros de entrada seleccionando y haciendo clic en el ![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") botón para cada uno de ellos.
+ Seleccione el functoid **índice** functoid, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, en la **configurar \<Functoid\> Functoid** cuadro de diálogo, elimine el índice exceso los parámetros de entrada seleccionando y haciendo clic en el ![ ] (../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete") botón para cada uno de ellos.

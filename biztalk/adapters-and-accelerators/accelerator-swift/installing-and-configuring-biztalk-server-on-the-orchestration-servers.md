@@ -15,14 +15,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d872d58c72110d7af22c6d64e7d212fbee53fae9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 18a13d553e31739c959ff6baf317240c3c268ecc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a>Instalar y configurar el servidor BizTalk Server en los servidores de orquestación
-Esta sección describe cómo instalar y configurar [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] que se usará como el servidor para ejecutar la orquestación de reparación/nuevo envío del mensaje y la orquestación FINÉS reparación y conciliación.  
+Esta sección describe cómo instalar y configurar BizTalk Server que se usará como el servidor para ejecutar la orquestación de reparación/nuevo envío del mensaje y la reparación de FIN y la orquestación de conciliación.  
   
 ### <a name="to-install-and-configure-biztalk-server-on-the-orchestration-server"></a>Para instalar y configurar BizTalk Server en el servidor de orquestación  
   

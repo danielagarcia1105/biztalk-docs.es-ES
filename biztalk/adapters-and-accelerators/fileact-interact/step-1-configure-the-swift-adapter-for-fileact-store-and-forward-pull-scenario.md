@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c9103caf451bb74a6ba23a7a6cf30ebe17896dfa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41e57df0f77718e3e36b5d0d68896def6a768be7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-the-swift-adapter-for-fileact-store-and-forward-pull-scenario"></a>Paso 1: Configurar el adaptador de SWIFT para el escenario de extracción hacia delante y de almacenamiento de FileAct
 Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) antes de comenzar este paso.
@@ -33,7 +33,7 @@ Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/
   
     |**Use esto**|**Para ello**|  
     |------------------|--------------------|  
-    |**Argumentos**|Escriba el siguiente argumento: - SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG > **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
+    |**Argumentos**|Escriba el siguiente argumento: - SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG\> **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**FACryptoMode**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessages**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
@@ -58,7 +58,7 @@ Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/
   
     |**Use esto**|**Para ello**|  
     |------------------|--------------------|  
-    |**Argumentos**|Escriba el siguiente argumento: – SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG > **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
+    |**Argumentos**|Escriba el siguiente argumento: – SagMessagePartner \<Fileact cliente mensaje asociado se crean en SAG\> **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessageBody**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM. **Nota:** si se establece en TRUE, conserva el cuerpo del mensaje en la base de datos de seguimiento de BizTalk. Sin embargo, por motivos de seguridad, el cuerpo del mensaje nunca se ve en el portal de BAM.|  
     |**LogMessages**|En la lista desplegable, seleccione **TRUE**. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
@@ -80,4 +80,4 @@ Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/
 ## <a name="see-also"></a>Vea también  
  [Paso 2: Crear puertos de envío y puertos de recepción para el escenario de reenvío (extracción) y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-2-create-send-and-receive-ports-for-fileact-store-and-forward-scenario.md)   
  [Paso 3: Crear y enlazar una orquestación con el puerto de envío dinámico para el almacén de archivos de Act y escenario de reenvío (extracción)](../../adapters-and-accelerators/fileact-interact/step-3-create-and-bind-an-orchestration-with-dynamic-send-port-for-file-act.md)   
- [Paso 4: Probar el escenario de reenvío (extracción)-to-End y almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-pull-end-to-end-scenario.md)
+ [Paso 4: Probar el escenario integral de almacenamiento y reenvío (extracción) de FileAct](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-pull-end-to-end-scenario.md)

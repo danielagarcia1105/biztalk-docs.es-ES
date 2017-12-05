@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 593937dca387d79a127117ee96005b3dc48fbdc2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e4d4d19caebb667e822b15b937d9045a26493a57
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="exception-management-framework"></a>Marco de administración de excepciones
-El marco de trabajo de administración de excepciones de ESB proporciona un mecanismo de generación de errores orientado a mensajes unificada para administrar todas las excepciones que pueden aparecer en un [!INCLUDE[prague](../includes/prague-md.md)] entorno. El marco de trabajo de administración de excepciones de ESB puede recibir mensajes de excepción publicados a través del servicio de publicación de excepción, además de mensajes desde el mecanismo de BizTalk Server no se pudo enrutamiento de mensajes.  
+El marco de trabajo de administración de excepciones de ESB proporciona un mecanismo de generación de errores orientado a mensajes unificada para administrar todas las excepciones que pueden aparecer en un entorno de BizTalk Server. El marco de trabajo de administración de excepciones de ESB puede recibir mensajes de excepción publicados a través del servicio de publicación de excepción, además de mensajes desde el mecanismo de BizTalk Server no se pudo enrutamiento de mensajes.  
   
  El marco de trabajo proporciona una API para la creación de mensajes de error, la publicación y la administración de procesos de orquestación, la replicación de la característica de enrutamiento de mensajes con errores de BizTalk Server se introdujo por primera vez con BizTalk Server 2006. Además, el marco de trabajo proporciona funciones para la normalización de todas las excepciones, enriquecer, aplicar el seguimiento de supervisión de la actividad económica (BAM) y publicar el resultado final en la base de datos de administración de excepciones para su presentación y los informes en ESB Portal de administración.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46bbb5a1c796149f762ce438aed7df5c256bf465
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e48eb329a50dda26555e76dd54dd4f4d33cb2c98
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuration-parameters-that-affect-adapter-performance"></a>Configuración de parámetros que afectan al rendimiento del adaptador
 Esta sección describe los valores de configuración que pueden afectar al rendimiento de los adaptadores de BizTalk Server.  
@@ -31,13 +31,13 @@ Esta sección describe los valores de configuración que pueden afectar al rendi
   
 |**Parámetro**|**Sección del archivo de configuración**|**Valor predeterminado**|**Valor recomendado**|  
 |-------------------|---------------------------------------|-----------------------|---------------------------|  
-|**minFreeThreads**<br /><br /> El número mínimo de subprocesos libres para permitir la ejecución de nuevas solicitudes. ASP.NET mantiene tantos subprocesos libres para solicitudes que requieren subprocesos adicionales para completar su procesamiento.|\<httpRuntime >|8|88 * es el número de procesadores del servidor que hospeda la aplicación web.|  
-|**minFreeLocalRequestFreeThreads**<br /><br /> El número mínimo de subprocesos libres que ASP.NET mantiene disponibles para permitir la ejecución de nuevas solicitudes locales. Este número de subprocesos se mantiene reservado para las solicitudes que procedan del host local en caso de que algunas solicitudes emitan solicitudes secundarias al host local durante su procesamiento. Esto evita que se produzca un interbloqueo con una reentrada recursiva en el servidor Web.|\<httpRuntime >|4|76 * el número de procesadores en el servidor que hospeda la aplicación Web.|  
-|**executionTimeout**<br /><br /> Indica el número máximo de segundos que una solicitud tiene permitido ejecutar antes de que ASP.NET la cierre automáticamente.|\<httpRuntime >|90|90|  
-|**maxconnection**<br /><br /> Determina el número de conexiones a una dirección IP específica que se pueden realizar.|\<connectionManagement >|2<br /><br /> Un valor de 2 para este ajuste cumple con la RFC de IETF RFC para la especificación HTTP 1.1 y está disponible para los escenarios de usuarios, pero no optimizada para un alto rendimiento.|12 * número de procesadores en el servidor que hospeda la aplicación Web.|  
-|**maxWorkerThreads**<br /><br /> Configura la cantidad máxima de subprocesos de trabajador que se van a utilizar para el proceso por CPU.|\<processModel >|20|100 **Nota:** este valor se multiplica implícitamente por el número de procesadores en el servidor.|  
-|**minWorkerThreads**|\<processModel >|1|**maxWorkerThreads** / 2 **Nota:** el parámetro minWorkerThreads no está en el archivo de configuración de forma predeterminada. Debe agregarlo. **Nota:** este valor se multiplica implícitamente por el número de procesadores en el servidor.|  
-|**maxIoThreads**<br /><br /> ASP.NET lo utiliza para limitar el número de subprocesos de finalización que se utilizan.|\<processModel >|20|100<br /><br /> Este valor se multiplica implícitamente por el número de procesadores del servidor.|  
+|**minFreeThreads**<br /><br /> El número mínimo de subprocesos libres para permitir la ejecución de nuevas solicitudes. ASP.NET mantiene tantos subprocesos libres para solicitudes que requieren subprocesos adicionales para completar su procesamiento.|\<httpRuntime\>|8|88 * es el número de procesadores del servidor que hospeda la aplicación web.|  
+|**minFreeLocalRequestFreeThreads**<br /><br /> El número mínimo de subprocesos libres que ASP.NET mantiene disponibles para permitir la ejecución de nuevas solicitudes locales. Este número de subprocesos se mantiene reservado para las solicitudes que procedan del host local en caso de que algunas solicitudes emitan solicitudes secundarias al host local durante su procesamiento. Esto evita que se produzca un interbloqueo con una reentrada recursiva en el servidor Web.|\<httpRuntime\>|4|76 * el número de procesadores en el servidor que hospeda la aplicación Web.|  
+|**executionTimeout**<br /><br /> Indica el número máximo de segundos que una solicitud tiene permitido ejecutar antes de que ASP.NET la cierre automáticamente.|\<httpRuntime\>|90|90|  
+|**maxconnection**<br /><br /> Determina el número de conexiones a una dirección IP específica que se pueden realizar.|\<connectionManagement\>|2<br /><br /> Un valor de 2 para este ajuste cumple con la RFC de IETF RFC para la especificación HTTP 1.1 y está disponible para los escenarios de usuarios, pero no optimizada para un alto rendimiento.|12 * número de procesadores en el servidor que hospeda la aplicación Web.|  
+|**maxWorkerThreads**<br /><br /> Configura la cantidad máxima de subprocesos de trabajador que se van a utilizar para el proceso por CPU.|\<processModel\>|20|100 **Nota:** este valor se multiplica implícitamente por el número de procesadores en el servidor.|  
+|**minWorkerThreads**|\<processModel\>|1|**maxWorkerThreads** / 2 **Nota:** el parámetro minWorkerThreads no está en el archivo de configuración de forma predeterminada. Debe agregarlo. **Nota:** este valor se multiplica implícitamente por el número de procesadores en el servidor.|  
+|**maxIoThreads**<br /><br /> ASP.NET lo utiliza para limitar el número de subprocesos de finalización que se utilizan.|\<processModel\>|20|100<br /><br /> Este valor se multiplica implícitamente por el número de procesadores del servidor.|  
   
  Si el equipo que hospeda los servicios Web ejecuta ASP.NET 2.0 o posterior, puede establecer **autoConfig = true** en la sección processModel del archivo Machine.config para configurar automáticamente las siguientes opciones para conseguir óptimo rendimiento en comparación con la configuración del equipo:  
   
@@ -49,7 +49,7 @@ Esta sección describe los valores de configuración que pueden afectar al rendi
   
 -   El **minLocalRequestFreeThreads** atributo del elemento httpRuntime.  
   
--   El **maxConnection** atributo de la \<connectionManagement > elemento Element (Network Settings).  
+-   El **maxConnection** atributo de la \<connectionManagement\> elemento Element (Network Settings).  
   
 > [!NOTE]
 >  El **processModel** sección se pueden establecer solo en el archivo Machine.config y afecta a todas las aplicaciones de ASP.NET que se ejecutan en el servidor.  
@@ -80,4 +80,4 @@ Esta sección describe los valores de configuración que pueden afectar al rendi
 3.  Cierre el Editor del registro.  
   
 ## <a name="see-also"></a>Vea también  
- [Planeación de capacidad y rendimiento](../core/performance-and-capacity-planning.md)
+ [Planificación del rendimiento y la capacidad](../core/performance-and-capacity-planning.md)

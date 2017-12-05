@@ -28,11 +28,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1fb8ac3fe3752702ed3e1aa2795e521d7173618
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 50659e267731caafe4bad6dabe89944cb16c0c98
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="scaled-out-sending-hosts"></a>Hosts de envío escalados horizontalmente
 Un host de envío de escala horizontal asegura de que la funcionalidad de envío [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene una alta disponibilidad. Si agrega varios equipos a un host para el envío de mensajes, puede ejecutar varias instancias de host de envío para obtener redundancia y alta disponibilidad.  
@@ -50,8 +50,8 @@ Un host de envío de escala horizontal asegura de que la funcionalidad de envío
  Para proporcionar alta disponibilidad al adaptador de envío MSMQ, debe agrupar el servicio MSMQ, agrupar un host de BizTalk en el mismo grupo que el servicio MSMQ agrupado y configurar el controlador de envío MSMQ para ejecutarse en este host de BizTalk agrupado. Esto se debe hacer para garantizar la coherencia de los envíos transaccionales iniciados por el adaptador MSMQ. Para obtener más información, consulte [consideraciones para ejecutar controladores de adaptador dentro de un Host en clúster](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).  
   
 ### <a name="high-availability-for-the-windows-sharepoint-services-send-adapter"></a>Alta disponibilidad para el adaptador de envío de Windows SharePoint Services  
- Para proporcionar alta disponibilidad al adaptador de envío de Windows SharePoint Services, agregue varios equipos al host de envío con el puerto de envío de cada equipo host haciendo referencia a la misma biblioteca de documentos. El adaptador de Windows SharePoint Services envía mensajes a SharePoint mediante una llamada al servicio web de Windows SharePoint Services instalado por BizTalk en el equipo de SharePoint. [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]Proporciona alta disponibilidad para el adaptador de envío de SharePoint al permitir que se ejecuta el mismo envío puertos en varias instancias de host que envían mensajes a la misma dirección URL de HTTP que apunte a una instalación de NLB de SharePoint.  
+ Para proporcionar alta disponibilidad al adaptador de envío de Windows SharePoint Services, agregue varios equipos al host de envío con el puerto de envío de cada equipo host haciendo referencia a la misma biblioteca de documentos. El adaptador de Windows SharePoint Services envía mensajes a SharePoint mediante una llamada al servicio web de Windows SharePoint Services instalado por BizTalk en el equipo de SharePoint. BizTalk Server proporciona alta disponibilidad para el adaptador de envío de SharePoint al permitir que se ejecuta el mismo envío puertos en varias instancias de host que envían mensajes a la misma dirección URL de HTTP que apunte a una instalación de NLB de SharePoint.  
   
 ## <a name="see-also"></a>Vea también  
  [Proporcionar alta disponibilidad de Hosts de BizTalk](../core/providing-high-availability-for-biztalk-hosts.md)   
- [Consideraciones para ejecutar controladores del adaptador en un Host en clúster](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)
+ [Consideraciones para ejecutar controladores de adaptador en un host agrupado](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)

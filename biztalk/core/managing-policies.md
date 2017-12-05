@@ -13,11 +13,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d49f0343c324900bf10c2efcce46cd57682ed04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6dd482c2f7a226a15fe730d2b75b470a54ff27e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="manage-policies"></a>Administrar directivas
 
@@ -27,7 +27,7 @@ Los temas de esta sección proporcionan instrucciones sobre el uso de la consola
 ## <a name="import-publish-deploy-and-remove-policies"></a>Importar, publicar, implementar y quitar directivas
  Los programadores de soluciones pueden crear y ver directivas mediante el Compositor de reglas de negocios, como se describe en [crear reglas de negocios mediante el Compositor de reglas de negocios](../core/creating-business-rules-using-the-business-rule-composer.md). Posteriormente, los programadores y administradores de TI pueden realizar las tareas que se describen en los temas de esta sección para implementar y administrar las directivas en un grupo y una aplicación de BizTalk:  
   
--   **Importar la directiva a un grupo de BizTalk.** Al hacerlo, la directiva se agrega a la base de datos de motor de reglas para el grupo y se muestra en la consola de administración de BizTalk Server en la \<todos los artefactos > nodo para el grupo de BizTalk. Con esta acción, la directiva no se activa para ninguna aplicación concreta. En primer lugar, debe publicar la directiva, luego agregarla a una aplicación y, por último, implementarla, como se describe en otros temas de esta sección. La base de datos del motor de reglas es una base de datos que contiene todas las directivas de un grupo de BizTalk Server.  
+-   **Importar la directiva a un grupo de BizTalk.** Al hacerlo, la directiva se agrega a la base de datos de motor de reglas para el grupo y se muestra en la consola de administración de BizTalk Server en el \<todos los artefactos\> nodo para el grupo de BizTalk. Con esta acción, la directiva no se activa para ninguna aplicación concreta. En primer lugar, debe publicar la directiva, luego agregarla a una aplicación y, por último, implementarla, como se describe en otros temas de esta sección. La base de datos del motor de reglas es una base de datos que contiene todas las directivas de un grupo de BizTalk Server.  
   
 -   **Publicar una directiva.** al publicarse, la directiva está disponible para su uso en una aplicación de BizTalk.  
   
@@ -60,6 +60,6 @@ Los temas de esta sección proporcionan instrucciones sobre el uso de la consola
   
 -   [Configurar el seguimiento de una directiva](../core/how-to-configure-tracking-for-a-policy.md)  
   
--   [Quitar una directiva de una aplicación y el grupo de BizTalk](../core/how-to-remove-a-policy-from-an-application-and-the-biztalk-group.md)  
+-   [Quitar una directiva de una aplicación y del grupo de BizTalk](../core/how-to-remove-a-policy-from-an-application-and-the-biztalk-group.md)  
   
 -   [Exportar una directiva](../core/how-to-export-a-policy.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8028688f918854d8251f7b059c76642800961088
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 54eff7c2a455d9f1129bb40d83c002bac92841bd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-17-create-the-wsclient-application"></a>Paso 17: Crear la aplicación WSClient
 WSClient.exe (cliente de servicios Web) es una aplicación de consola escrita en [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] que muestra cómo enviar datos a la orquestación que se publicó como un servicio Web en los pasos anteriores. La aplicación WSClient acepta cuatro parámetros en orden de entrada: nombre del paciente primero, segundo nombre, apellido y número del seguro social, respectivamente. Para enviar la información del paciente a su servicio Web, use la siguiente sintaxis de línea de comandos:  
@@ -35,7 +35,7 @@ wsclient john henry smith 123456789
   
 2.  En el **Agregar nuevo proyecto** cuadro de diálogo, en la **tipos de proyecto** panel, haga clic en **Visual C#** y en el **plantillas** panel, haga clic en **Aplicación de consola**.  
   
-3.  En el **nombre** , escriba **WSClient**. En el **ubicación** campo, vaya a  **\<* unidad*>: \Tutorial** y, a continuación, haga clic en **Aceptar**. El Explorador de soluciones agrega WSClient al árbol y aparece el archivo Program.cs.  
+3.  En el **nombre** , escriba **WSClient**. En el **ubicación** campo, vaya a  **\<* unidad*\>: \Tutorial** y, a continuación, haga clic en **Aceptar**. El Explorador de soluciones agrega WSClient al árbol y aparece el archivo Program.cs.  
   
 4.  En el Explorador de soluciones, haga clic en **WSClient**y, a continuación, haga clic en **Agregar referencia Web**.  
   
@@ -76,7 +76,7 @@ wsclient john henry smith 123456789
     }  
     ```  
   
-9. En el Explorador de soluciones, haga clic en **WSClient**y, a continuación, haga clic en **generar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida. Si no aparece ningún mensaje de correcto, solucione **WSClient**. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]coloca una copia del archivo ejecutable, WSClient.exe, en la \< *unidad*>: \Tutorial\WSClient\bin\Debug carpeta.  
+9. En el Explorador de soluciones, haga clic en **WSClient**y, a continuación, haga clic en **generar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida. Si no aparece ningún mensaje de correcto, solucione **WSClient**. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]coloca una copia del archivo ejecutable, WSClient.exe, en la \< *unidad*\>: \Tutorial\WSClient\bin\Debug carpeta.  
   
  Continúe con [paso 18: probar la nueva solución de enriquecimiento de mensaje](../../adapters-and-accelerators/accelerator-hl7/step-18-test-your-new-message-enrichment-solution.md).  
   

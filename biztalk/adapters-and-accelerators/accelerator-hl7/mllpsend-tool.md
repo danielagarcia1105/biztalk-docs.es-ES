@@ -16,18 +16,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a15da306f61cb4297d9ba8cdc036035310474d8e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ed9b666b019fe7dc415f28c0dd01522b728b149c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mllpsend-tool"></a>Herramienta MllpSend
 Puede utilizar la herramienta MllpSend para enviar datos a un MLLP la ubicación de recepción.  
   
  Instalar esta herramienta a través de la [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] procedimiento de instalación personalizada. Si ha realizado una instalación típica para instalar BTAHL7, debe ejecutar una instalación personalizada e instalar las herramientas de prueba en orden para que funcione correctamente este tutorial. En la pantalla instalación personalizada, seleccione **herramienta de prueba de MLLP** desde el **adaptador** carpeta y seleccione **instancias de prueba** desde el **artefactos** carpeta. Para obtener más información, consulte [realizar una instalación personalizada](http://msdn.microsoft.com/library/e55c86e1-af63-49ba-8510-d177e1b96692).  
   
- El programa de instalación de BTAHL7 instala esta herramienta en  *\<unidad >*: \Program BizTalk \<versión > Accelerator for HL7\SDK\MLLP utilidades.  
+ El programa de instalación de BTAHL7 instala esta herramienta en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades.  
   
  Use esta herramienta en el [-to-End Tutorial](../../adapters-and-accelerators/accelerator-hl7/end-to-end-tutorial1.md), el [Tutorial Interrogative](../../adapters-and-accelerators/accelerator-hl7/interrogative-tutorial.md), el [Tutorial de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md)y el [mensaje enriquecimiento Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md). Si ha instalado [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] a través de la instalación predeterminada y no se ha instalado el Testtools MLLP (incluidos MllpSend y MllpReceive), no podrá probar los resultados del tutoriales.  
   
@@ -43,10 +43,10 @@ mllpsend.exe [/?] [/I <IP>] [/P <PORT>] [/TWOWAY] [/REPEAT <n>] [/F <FILENAME> |
 |Sintaxis|Description|  
 |------------|-----------------|  
 |**/?**|Muestra la Ayuda en la ventana de símbolo del sistema.|  
-|**/I \<IP >**|Indica la dirección que se envía a. El valor predeterminado es localhost.|  
-|**/P \<PUERTO >**|Indica el número de puerto para enviar a. El valor predeterminado es **11000**.|  
+|**/I \<IP\>**|Indica la dirección que se envía a. El valor predeterminado es localhost.|  
+|**/P \<PUERTO\>**|Indica el número de puerto para enviar a. El valor predeterminado es **11000**.|  
 |**/F**|Envía el contenido del archivo de nombre de archivo.|  
-|**/ REPETICIÓN\<n>**|Envía el mismo mensaje  *n*  veces. Los caracteres de contenedor se aplicarán a cada mensaje.|  
+|**/ REPETICIÓN\<n\>**|Envía el mismo mensaje  *n*  veces. Los caracteres de contenedor se aplicarán a cada mensaje.|  
 |**/ TWOWAY**|El remitente va a esperar una respuesta desde el receptor. SB y EB deben especificarse. CR es opcional. En el modo de archivo, la respuesta se almacena en el archivo. RESPUESTA.|  
 |**/ SB**|Establece el valor ASCII del Byte de delimitador de bloque de inicio. El valor predeterminado es none.|  
 |**/EB**|Establece el valor ASCII del Byte de delimitador de bloque final. El valor predeterminado es none.|  

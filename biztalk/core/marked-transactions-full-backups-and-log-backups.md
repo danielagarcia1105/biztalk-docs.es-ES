@@ -17,11 +17,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 36c7eab426bfc19c082d8c9651cf4d02eae0075a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff71cbe7eb910c66530dee3264822eae121c0ce2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="marked-transactions-full-backups-and-log-backups"></a>Copias de seguridad de registros, copias de seguridad completas y transacciones marcadas
 El trabajo de copia de seguridad de BizTalk Server crea copias de seguridad sincronizadas de todas las bases de datos de BizTalk Server mediante el uso de las copias de seguridad completa de la base de datos y copias de seguridad de registro de transacciones, junto con un tipo de transacción que se conoce como un *transacción marcada*. Las transacciones marcadas son transacciones que colocan una marca en el registro de transacciones de todas las bases de datos que participan en la transacción. La transacción marcada bloquea el inicio de nuevas transacciones distribuidas, espera a que se completen las transacciones distribuidas que están actualmente en ejecución y, seguidamente, efectúa la ejecución para colocar la marca.  
@@ -38,9 +38,9 @@ El trabajo de copia de seguridad de BizTalk Server crea copias de seguridad sinc
 ## <a name="transaction-log-backups"></a>Copias de seguridad del registro de transacciones  
  Es el segundo proceso que realiza el trabajo de copia de seguridad de BizTalk Server *MarkAndBackupLog*. Este proceso coloca una marca en todas las bases de datos de BizTalk Server y realiza una copia de seguridad de registros de transacciones cada vez que se ejecuta el trabajo.  
   
- La marca es la cadena creada mediante el uso de  *\<ServerName >*_*\<DatabaseName >*_Log\_*\<LogMarkName >* \_  *\<Timestamp >*.bak, donde el  *\<nombre de la marca de registro >* está configurado en el trabajo del Agente SQL Server. Esta marca se debe utilizar al restaurar el último registro en cada base de datos.  
+ La marca es la cadena creada mediante el uso de  *\<ServerName\>*_*\<DatabaseName\>*_Log\_  *\<LogMarkName\>*\_*\<Timestamp\>*.bak, donde el  *\<nombre de la marca de registro\>*  está configurado en el trabajo del Agente SQL Server. Esta marca se debe utilizar al restaurar el último registro en cada base de datos.  
   
  Para obtener más información, vea las secciones que tratan de las copias de seguridad de registros de transacciones, y de la copia de seguridad de las bases de datos relacionadas y de su restauración, en los Libros en pantalla de SQL Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Información avanzada sobre la copia de seguridad y restauración](../core/advanced-information-about-backup-and-restore1.md)
+ [Información avanzada sobre copias de seguridad y restauración](../core/advanced-information-about-backup-and-restore1.md)

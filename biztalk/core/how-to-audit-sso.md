@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: abea3028c2ec9fd2131b8fd17247476b6fdfa6f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27528cf6da53c69db4b2bc6c9e1d296472b24186
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-audit-sso"></a>Cómo auditar SSO
 Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo. Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.  
@@ -67,9 +67,9 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es ** \<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssoconfig – auditlevel \<positivo >\<negativo >**, donde  **\<positivo >** es el nivel de auditoría cuando se ejecuten correctamente las acciones y  **\<negativo >** es el nivel de auditoría cuando haya un error de acciones.  
+3.  Tipo de **ssoconfig – auditlevel \<positivo\>\<negativo\>**, donde ** \<positivo\> ** es el nivel de Cuando las acciones se realizan correctamente, la auditoría y ** \<negativo\> ** es el nivel de auditoría cuando haya un error de acciones.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -78,9 +78,9 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 1.  Haga clic en **iniciar**, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad >**: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es ** \<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-updatedb \<archivo de actualización >**, donde  **\<archivo de actualización >**es la ruta de acceso y nombre del archivo.  
+3.  Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde ** \<archivo de actualización\>**es la ruta de acceso y nombre del archivo.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

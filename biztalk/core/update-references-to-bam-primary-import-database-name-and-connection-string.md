@@ -23,11 +23,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b56264155ed9f739669da1cb6f646adac0f9db55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23efa3df9c59732c8459018a886f7f499d268eff
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-references-to-the-bam-primary-import-database-name-and-connection-string"></a>Cómo actualizar referencias a la cadena de conexión y al nombre de base de datos de importación principal de SAE
 Si ha realizado una copia de seguridad de la base de datos BAMPrimaryImport, en el caso de que se produzca un error de datos o del sistema podrá restaurar la copia de seguridad en un equipo distinto y cambiar el nombre a esa copia de seguridad.  
@@ -61,31 +61,31 @@ Si ha realizado una copia de seguridad de la base de datos BAMPrimaryImport, en 
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamManagementService\Web.Config.  
   
-         Reemplace el  *\<ServerName >* de cadena con el nuevo nombre del servidor y  *\<DatabaseName >* con el nuevo nombre de base de datos. Actualice las cadenas de conexión siguientes:  
+         Reemplace el  *\<ServerName\>*  de cadena con el nuevo nombre del servidor y  *\<DatabaseName\>*  con el nuevo nombre de base de datos. Actualice las cadenas de conexión siguientes:  
   
-         \<appSettings >  
+         \<appSettings\>  
   
-         < Agregar clave = "BamServer" value = "*\<ServerName >*" /\>  
+         < Agregar clave = "BamServer" value = "*\<ServerName\>*" /\>  
   
-         < Agregar clave = "BamDatabase" value = "*\<DatabaseName >*" /\>  
+         < Agregar clave = "BamDatabase" value = "*\<DatabaseName\>*" /\>  
   
-         \<Agregar clave = "MaxResultRows" value = "2000" / >  
+         \<Agregar clave = "MaxResultRows" value = "2000" /\>  
   
-         \</appSettings >  
+         \</appSettings\>  
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamQueryService\Web.Config.  
   
-         Reemplace el  *\<ServerName >* de cadena con el nuevo nombre del servidor y  *\<DatabaseName >* con el nuevo nombre de base de datos. Actualice las cadenas de conexión siguientes:  
+         Reemplace el  *\<ServerName\>*  de cadena con el nuevo nombre del servidor y  *\<DatabaseName\>*  con el nuevo nombre de base de datos. Actualice las cadenas de conexión siguientes:  
   
-         \<appSettings >  
+         \<appSettings\>  
   
-         < Agregar clave = "BamServer" value = "*\<ServerName >*" /\>  
+         \<Agregar clave = "BamServer" value = "*\<ServerName\>*" /\>  
   
-         <add key="BamDatabase" value="*<DatabaseName>*" />  
+         \<Agregar clave = "BamDatabase" value = "*\<DatabaseName\>*" /\>  
   
-         <add key="MaxResultRows" value="2000" />  
+         \<Agregar clave = "MaxResultRows" value = "2000" /\>  
   
-         </appSettings>  
+         \</appSettings\>  
   
 5.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
@@ -146,4 +146,4 @@ Si ha realizado una copia de seguridad de la base de datos BAMPrimaryImport, en 
 14. Para resolver las instancias de seguimiento incompletas, vea [cómo resolver instancias de actividad incompletas](../core/how-to-resolve-incomplete-activity-instances.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md)
+ [Realizar una copia de seguridad y restauración de BAM](../core/backing-up-and-restoring-bam.md)

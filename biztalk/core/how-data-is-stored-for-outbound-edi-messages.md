@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 278ab244ab48d2e11a84e99f0af2e02948ff961a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f98d5113c63e29f3f4b85834b7ca1aa0836d0a5d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a>Cómo se almacenan los datos correspondientes a mensajes EDI de salida
 Para generar una entrada del informe de estado correspondiente a un intercambio de salida, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:  
@@ -69,7 +69,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Id. de control del intercambio = Datos actualizados (necesarios para la correlación)  
   
--   Estado de confirmación del intercambio = generado o no es aplicable \<consultar Nota 0 >-Actualizar datos  
+-   Estado de confirmación del intercambio = generado o no es aplicable \<consultar Nota 0\> -actualizar datos  
   
 -   Id. de control de confirmación del intercambio= Sin valor – se aplicará en el envío  
   
@@ -77,9 +77,9 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Hora de confirmación del intercambio = Sin valor – se aplicará en el envío  
   
--   Código de confirmación/acción = datos actualizados \<consultar Nota 1 > (de X12-TA104 o EDIFACT-UCI4) *  
+-   Código de confirmación/acción = datos actualizados \<consultar Nota 1\> (de X12-TA104 o EDIFACT-UCI4) *  
   
--   Código de nota de confirmación = datos actualizados \<consultar Nota 2 > (de X12-TA105, no es aplicable a EDIFACT) *  
+-   Código de nota de confirmación = datos actualizados \<consultar Nota 2\> (de X12-TA105, no es aplicable a EDIFACT) *  
   
  Se utilizan los siguientes códigos de confirmación/acción:  
   
@@ -163,9 +163,9 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Hora de confirmación del intercambio = Datos actualizados  
   
--   Código de confirmación/acción = datos actualizados (de X12-TA104 o EDIFACT-UCI4) * \<consultar Nota 1 >  
+-   Código de confirmación/acción = datos actualizados (de X12-TA104 o EDIFACT-UCI4) * \<consultar Nota 1\>  
   
--   Código de nota de confirmación 2 = datos actualizados (de X12-TA105 y sin valor para EDIFACT) * \<consultar Nota 2 >  
+-   Código de nota de confirmación 2 = datos actualizados (de X12-TA105 y sin valor para EDIFACT) * \<consultar Nota 2\>  
   
  Los datos de confirmación X12:TA1-104 o EDIFACT UCI4 se asignarán del modo siguiente:  
   
@@ -222,7 +222,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Dirección de confirmación funcional = Envío  
   
--   Estado de confirmación funcional = \<generado o no está disponible, consulte la nota 1 >  
+-   Estado de confirmación funcional = \<generado o no está disponible, consulte la nota 1\>  
   
 -   Receptor del intercambio = Datos actualizados (necesarios para la correlación)  
   
@@ -248,7 +248,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 -   Número de conjuntos de transacciones aceptados = Datos actualizados (X12-AK904 y calculado por el motor para la codificación EDIFACT)  
   
--   Código de confirmación/acción = datos actualizados \<consultar Nota 2 > (de X12-AK901 o EDIFACT-UCI4) *  
+-   Código de confirmación/acción = datos actualizados \<consultar Nota 2\> (de X12-AK901 o EDIFACT-UCI4) *  
   
 -   Código de error y de error de sintaxis = Datos actualizados (X12-AK905, EDIFACT UCI5) Nota 3  
   
@@ -465,4 +465,4 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 ## <a name="see-also"></a>Vea también  
  [Cómo se almacenan los datos para informes de estado de AS2 y EDI](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [Cómo se almacenan los datos para los mensajes EDI entrantes](../core/how-data-is-stored-for-inbound-edi-messages.md)
+ [Cómo se almacenan los datos correspondientes a mensajes EDI de entrada](../core/how-data-is-stored-for-inbound-edi-messages.md)

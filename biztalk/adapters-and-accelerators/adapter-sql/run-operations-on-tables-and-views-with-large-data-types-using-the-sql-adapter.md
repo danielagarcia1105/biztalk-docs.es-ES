@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 85403ed8ed76246b93bd30c5246fb7a799284ec1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 692cd1466353e366a1c8e806dba9f1070eadd065
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-using-the-sql-adapter"></a>Ejecutar operaciones en tablas y vistas con tipos de datos de gran tamaño mediante el adaptador de SQL
 El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max). Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección. Para insertar o actualizar datos en estas columnas, el adaptador expone una operación de establecimiento < column_name >, donde < column_name > es el nombre de la columna de tipo varchar (max), nvarchar (max) o varbinary (max).  
@@ -197,7 +197,7 @@ El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a l
  Este mensaje de solicitud actualiza la columna de documento con el valor especificado. La orquestación consume el mensaje y lo envía a la base de datos de SQL Server. La respuesta de la base de datos de SQL Server se guarda en la otra ubicación de archivo definida como parte de la orquestación. Por ejemplo, la respuesta de la base de datos de SQL Server para el mensaje de solicitud anterior es:  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <SetDocumentResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Records" />  
 ```  
   

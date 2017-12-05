@@ -12,19 +12,19 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22e779bf9e6297cc9e69e7e0cd85b88afc44dccf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19d57f602854572349d7fc7905a607c19fec5cf2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="soa-biztalk-management-point"></a>Punto de administración de BizTalk de SOA
-El punto de administración de BizTalk para [!INCLUDE[prague](../includes/prague-md.md)] es una extensión conceptual para el punto de administración de Software de SOA Web Services, que se aplica específicamente a la [!INCLUDE[prague](../includes/prague-md.md)] las aplicaciones de servicio de entorno y proporcionar el control de tiempo de ejecución de Web.  
+El punto de administración de BizTalk para que BizTalk Server es una extensión conceptual a punto de administración de servicios de Web de Software de SOA, aplica específicamente para el entorno de BizTalk Server y proporcionar el control de tiempo de ejecución de aplicaciones de servicio Web.  
   
  Esta sección contiene los siguientes temas:  
   
--   [Información general sobre el punto de administración de BizTalk de SOA](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
+-   [Información general sobre el punto de administración de SOA de BizTalk](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
   
 -   [Integración de BizTalk Server](../esb-toolkit/biztalk-server-integration1.md)  
   
--   [Información de uso y las directivas de supervisión](../esb-toolkit/monitoring-policies-and-usage-information.md)
+-   [Directivas de supervisión e información de uso](../esb-toolkit/monitoring-policies-and-usage-information.md)

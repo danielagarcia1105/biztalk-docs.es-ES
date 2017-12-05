@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c38a58e376bbc8908ff0fe578aa54cbb009c58d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d8489c484bdb88a292b998d31e7c6de90e0937c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3d-enabling-biztalk-server-to-send-and-receive-messages-from-salesforce"></a>Paso 3d: Habilitar BizTalk Server para enviar y recibir mensajes desde Salesforce
 Debemos autenticarnos en Salesforce cuando enviamos mensajes con la interfaz REST. Los métodos de autenticación para llamadas REST que admite Salesforce no están disponibles listos para usar con el adaptador WCF-WebHttp, que es el que usaremos para invocar a la interfaz REST de Salesforce. Por tanto, vamos a crear un comportamiento de extremo WCF personalizado y lo asociaremos al adaptador de envío WCF-WebHttp que configuraremos para invocar a la interfaz REST de Salesforce.  
@@ -231,7 +231,7 @@ Debemos autenticarnos en Salesforce cuando enviamos mensajes con la interfaz RES
   
     -   Crear una clase que se derive de `BehaviorExtensionElement`  
   
-    -   Registrar BehavaiorExtensionElement en el \<extensiones >\\< behaviorExtensions\> elemento en el archivo machine.config con un nombre de elemento.  
+    -   Registrar BehavaiorExtensionElement en el \<extensiones\>\\< behaviorExtensions\> elemento en el archivo machine.config con un nombre de elemento.  
   
      Agregaremos también propiedades de configuración a esta clase para que estén disponibles en la interfaz de usuario de configuración del adaptador WCF-WebHttp.  
   

@@ -18,11 +18,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1427e8ee22e2012f759817350b0e3fa8ae49cf6e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 61c0393beae4883359d71915543b629e41c5f6ec
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-an-index"></a>Cómo crear un índice
 Los administradores utilizan el **índice crear** comando para crear un índice en la actividad especificada en los puntos de control especificados.  
@@ -31,7 +31,7 @@ Los administradores utilizan el **índice crear** comando para crear un índice 
   
 1.  Desde un símbolo del sistema, vaya al directorio siguiente: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]de seguimiento.  
   
-2.  Tipo de **bm crear-index - IndexName:\<nombre de índice >-actividad:\<nombre de actividad >-punto de comprobación:\<punto de Control1 >**.  
+2.  Tipo de **bm crear-index - IndexName:\<nombre del índice\> -actividad:\<nombre de la actividad\> -punto de comprobación:\<punto de Control1\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

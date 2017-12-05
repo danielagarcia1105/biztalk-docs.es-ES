@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 02236b1d7ff76762fffd70ed809a2cee23746372
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57af8140157b901d7e6265fc26249c7fbfef0c46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="rnifreceive"></a>RNIFReceive
 Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFReceive.aspx archivo que recibe un mensaje RNIF y se prepara para que lo procese la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] proceso público. Puede personalizar la página ASPX para hacer lo siguiente:  
@@ -27,7 +27,7 @@ Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)
   
 -   Agregar validación a la página  
   
- Este ejemplo se encuentra en  *\<unidad >*: \Program BizTalk \<versión > Accelerator for RosettaNet\SDK\WebApplication\RNIFReceiver.  
+ Este ejemplo se encuentra en  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\WebApplication\RNIFReceiver.  
   
 ## <a name="demonstrates"></a>Demostraciones  
  Este ejemplo muestra cómo preparar los mensajes entrantes para el proceso público, incluidos los siguientes pasos:  
@@ -44,4 +44,4 @@ Este ejemplo proporciona un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)
   
 ## <a name="see-also"></a>Vea también  
  [Enviar y recibir páginas ASPX](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)   
- [Ejemplos de aplicaciones Web](../../adapters-and-accelerators/accelerator-rosettanet/web-application-samples.md)
+ [Ejemplos de aplicaciones web](../../adapters-and-accelerators/accelerator-rosettanet/web-application-samples.md)

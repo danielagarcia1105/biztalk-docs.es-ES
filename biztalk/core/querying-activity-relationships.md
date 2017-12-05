@@ -15,24 +15,24 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 11570bbf42001ac11b5be61ff7b76d06f3df0889
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 70c94644e505409f863e5104168740232d57c664
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="querying-activity-relationships"></a>Consultar relaciones de actividades
 La información sobre relaciones de actividades está disponible en una vista SQL creada dinámicamente para cada actividad. El nombre de esta vista es  
   
- **bam_\<**  *actividad* **> _AllRelationships**  
+ **bam_\<**  *actividad*  **\>_AllRelationships**  
   
- Donde \< *actividad*> es el atributo de nombre del elemento de actividad en la definición de BAM XML, que es el mismo que el nombre de actividad especificado con el complemento de BAM para Excel.  
+ Donde \< *actividad* \> es el atributo de nombre del elemento de actividad en la definición de BAM XML, que es el mismo que el nombre de actividad especificado con el complemento de BAM para Excel.  
   
  Los eventos de relación tienen lugar en el contexto de una actividad específica. Por ejemplo, si la relación entre pedido de compra y el envío se produce en el contexto de la actividad de pedido de compra, el registro de relaciones se mostrará en **bam_PurchaseOrder_AllRelationships**, pero no en **bam _Shipment_AllRelationships**. Para obtener más información, consulte [relaciones de actividades](../core/activity-relationships.md).  
   
- Para buscar todas las actividades relacionadas con una compra pedido que necesita consultar tanto en la vista **bam_PurchaseOrder_AllRelationships** , así como todas las vistas **bam_\<***OtherActivity*  **> _AllRelationships**, donde \< *OtherActivity*> es la actividad en la misma vista BAM.  
+ Para buscar todas las actividades relacionadas con una compra pedido que necesita consultar tanto en la vista **bam_PurchaseOrder_AllRelationships** , así como todas las vistas **bam_\<***OtherActivity*   **\>_AllRelationships**, donde \< *OtherActivity* \> es la actividad en la misma vista BAM.  
   
  Los registros de relación forman parte de la instancia de actividad y se mantienen en la sincronización con los datos de instancia como se describe en [almacenamiento de datos de actividad](../core/activity-data-storage.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Consultar datos de BAM](../core/querying-bam-data.md)
+ [Consulta de datos de BAM](../core/querying-bam-data.md)

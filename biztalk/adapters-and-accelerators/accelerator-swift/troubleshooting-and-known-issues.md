@@ -13,23 +13,23 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af46891fe226ae09c1c2938b459d6e9acdabffcf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f2dc861f7f8e670fc0ae83b787ff108cef904b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos
 Esta sección proporciona una ubicación centralizada para obtener información relacionada con la solución de problemas de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  
 
 ## <a name="readme"></a>Archivo Léame
   
- Información adicional relacionada con problemas detectados después de esta versión de la documentación de A4SWIFT se incluye en el archivo Léame que se encuentra en la \< *unidad:*> \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Acelerador de carpeta SWIFT\Documentation.  
+ Información adicional relacionada con problemas detectados después de esta versión de la documentación de A4SWIFT se incluye en el archivo Léame que se encuentra en la \< *unidad:*\>archivos \Program\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para la carpeta SWIFT\Documentation.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
  Esta sección contiene:  
 
-- [Códigos de Error SWIFT](swift-error-codes.md)
+- [Códigos de Error de SWIFT](swift-error-codes.md)
 
 -   [Solucionar problemas y soluciones](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)  
   

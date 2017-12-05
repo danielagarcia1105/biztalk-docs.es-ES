@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0303378f6e265d3b5d86a1aa9cd4fb1e88df86fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a04904f1170644498d49670104a842b4c8f9dd2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-scalar-functions-in-sql-server-by-using-the-wcf-service-model"></a>Invocar funciones escalares en SQL Server mediante el modelo de servicio WCF
 Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] en una aplicación de .NET mediante el modelo de servicio WCF para invocar funciones escalares en SQL Server. El adaptador expone las funciones escalares como métodos que se pueden invocar directamente en SQL Server. Para obtener más información acerca del modo en que el adaptador admite funciones escalares, consulte [ejecutar funciones escalares en SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md).  
@@ -43,9 +43,9 @@ Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] 
 |---------------|----------------------|  
 |Nombre de la función escalar|pública *< return_type >**< scalar_function_name >*(parámetro1, parámetro2,...)|  
   
- \<*retrun_type*> = tipo de valor devuelto definido en la definición de función  
+ \<*retrun_type* \> = tipo de valor devuelto definido en la definición de función  
   
- \<*scalar_function_name*> = nombre de la función escalar.  
+ \<*scalar_function_name* \> = nombre de la función escalar.  
   
  Por ejemplo, el código siguiente muestra las firmas de método para generar una clase de cliente WCF para la **GET_EMP_ID** funciones escalares, en el esquema dbo, que toma la designación de empleado como parámetro y devuelve un empleado (Id. valor entero).  
   
@@ -133,4 +133,4 @@ public partial class ScalarFunctions_dboClient : System.ServiceModel.ClientBase<
 8.  Compile el proyecto y, a continuación, ejecútelo. La aplicación muestra el identificador de empleado del empleado con la designación de "Administrador".  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones con el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+[Desarrollar aplicaciones con el modelo de servicio WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

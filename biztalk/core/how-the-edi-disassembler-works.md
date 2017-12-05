@@ -12,11 +12,11 @@ caps.latest.revision: "43"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66f47db034e0c193d4dab6ee303c13dd8c360661
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4edf1353a9f06103205e1e6e4296c2aa77e74dc6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-the-edi-disassembler-works"></a>Cómo funciona el desensamblador EDI
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] realiza la mayoría del procesamiento para los intercambios codificados en EDI recibidos en la canalización de recepción EDI (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`). La canalización incluye el componente de canalización del componente de canalización de desensamblador EDI que realiza el siguiente procesamiento:  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 -   Convierte todo el intercambio a XML si la **opción de procesamiento por lotes de entrada** propiedad se establece en uno de los dos **conservar intercambio** valores. Esta propiedad se establece en el **configuración de Host Local** página en **configuración de intercambio** de la pestaña del acuerdo bidireccional del **propiedades del acuerdo de** cuadro de diálogo. La canalización de recepción promociona la propiedad ReuseEnvelope para identificar el intercambio como conservado.  
   
--   Genera una confirmación funcional y/o técnica (si está configurada). Ésta puede incluir el procesamiento por lotes de las confirmaciones (si está configurado). Promociona la propiedad de contexto de BTS. MessageType, si se establece igual que el esquema de control en el http://schemas.microsoft.com/EDI/\<X12 o EDIFACT > espacio de nombres (por ejemplo, X12_997_Root para una confirmación 997). También promociona la propiedad de contexto EDI.DestinationPartyName, que garantiza que la confirmación se seleccionará para su envío. Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).  
+-   Genera una confirmación funcional y/o técnica (si está configurada). Ésta puede incluir el procesamiento por lotes de las confirmaciones (si está configurado). Promociona la propiedad de contexto de BTS. MessageType, si se establece igual que el esquema de control en el http://schemas.microsoft.com/EDI/\<X12 o EDIFACT\> espacio de nombres (por ejemplo, X12_997_Root para una confirmación 997). También promociona la propiedad de contexto EDI.DestinationPartyName, que garantiza que la confirmación se seleccionará para su envío. Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).  
   
 -   Realiza la división de documentos HIPAA 276/277 (solo la versión 5010) 834, 835 (solo la versión 4010) y 837, si se aplica.  
   
@@ -156,7 +156,7 @@ ms.lasthandoff: 09/20/2017
 |Juego de caracteres de X12|X12 generación de sobres de intercambio **Nota:** esta opción solo se usa para validar los valores especificados para las propiedades del acuerdo. El juego de caracteres X12 utilizado para el procesamiento en tiempo de ejecución se selecciona en las propiedades de canalización. Para obtener más información, consulte [juegos de caracteres de EDI](../core/edi-character-sets.md).|  
   
 ## <a name="using-hipaa-trigger-fields"></a>Uso de campos de desencadenador HIPAA  
- Los segmentos EDI contienen con frecuencia valores de calificador que modifican el significado del segmento. Por ejemplo, el segmento N1 puede contener un elemento calificador “BT” para indicar “bill-to name” o puede contener un elemento calificador “ST” para indicar “ship-to name”. Normalmente, se deja a la lógica de negocios para determinar cómo interpretar estos campos y el Desensamblador resuelve todas las instancias del segmento N1 en el mismo nombre de registro XML; Sin embargo, los esquemas HIPAA suministrados con [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] contienen anotaciones que permiten el Desensamblador EDI cree registros XML únicos basados en la presencia de un valor calificador (consulte [anotaciones de campo desencadenador HIPAA esquema](../core/hipaa-schema-trigger-field-annotations.md)).  
+ Los segmentos EDI contienen con frecuencia valores de calificador que modifican el significado del segmento. Por ejemplo, el segmento N1 puede contener un elemento calificador “BT” para indicar “bill-to name” o puede contener un elemento calificador “ST” para indicar “ship-to name”. Normalmente, se deja a la lógica de negocios para determinar cómo interpretar estos campos y el Desensamblador resuelve todas las instancias del segmento N1 en el mismo nombre de registro XML; Sin embargo, los esquemas HIPAA incluidos con BizTalk Server contienen anotaciones que permiten el Desensamblador EDI cree registros XML únicos basados en la presencia de un valor calificador (consulte [anotaciones de campo desencadenador HIPAA esquema](../core/hipaa-schema-trigger-field-annotations.md)).  
   
  Cuando recibe un conjunto de transacciones HIPAA, si el desensamblador EDI detecta un segmento que contiene un campo desencadenador, usa la información del desencadenador para generar un registro XML específico para la combinación de segmento y desencadenador.  
   
@@ -168,4 +168,4 @@ ms.lasthandoff: 09/20/2017
 |N1 * PE\*Fabrikam\*FI\*9999999 ~|`<TS835W1_1000B_Loop>   <N1_PayeeIdentification_TS835W1_1000B>    <N101__EntityIdentifierCode>PE</N101__EntityIdentifierCode>    <N102__PayeeName>Fabrikam</N102__PayeeName>    <N103__IdentificationCodeQualifier>FI</N103__IdentificationCodeQualifier>    <N104__PayeeIdentificationCode>9999999</N104__PayeeIdentificationCode>   </N1_PayeeIdentification_TS835W1_1000B>`|  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server recibe mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)
+ [Cómo recibe BizTalk Server los mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)

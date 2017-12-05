@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4bb40e943cc06f298db01142590e2a133c1ee05
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6816a432b7a1c1ba5163d922cd1754ebcb398389
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-general-party-properties"></a>Configuración de las propiedades generales de la entidad
 Una entidad o socio comercial representa una organización participante en una relación de negocios. Las propiedades de la entidad contienen la información siguiente:  
@@ -48,7 +48,7 @@ Una entidad o socio comercial representa una organización participante en una r
 3.  En el **puertos de envío** página de la **propiedades de la entidad** diálogo cuadro, realice lo siguiente.  
   
     > [!NOTE]
-    >  En [!INCLUDE[prague](../includes/prague-md.md)], la asociación de puertos de envío se realiza en el nivel de acuerdo. El **puertos de envío** disponible como parte de las propiedades de entidad es para mantener la compatibilidad de la página. Siempre que asocie un puerto de envío con un acuerdo, la configuración del puerto de envío se propaga a la configuración de la entidad y también se puede ver la asociación de puerto de envío en esta página. Sin embargo, el proceso inverso no es verdadero. No se puede asociar un puerto de envío con una entidad y, después, hacer que ese puerto de envío esté automáticamente disponible como parte de la configuración del acuerdo. Para obtener más información sobre cómo asociar puertos de envío con un acuerdo, vea [configuración de asociación de envío del puerto (X12)](../core/configuring-send-port-association-x12.md) o [configuración de asociación de puerto de envío (EDIFACT)](../core/configuring-send-port-association-edifact.md).  
+    >  En BizTalk Server, la asociación de puertos de envío se realiza en el nivel de acuerdo. El **puertos de envío** disponible como parte de las propiedades de entidad es para mantener la compatibilidad de la página. Siempre que asocie un puerto de envío con un acuerdo, la configuración del puerto de envío se propaga a la configuración de la entidad y también se puede ver la asociación de puerto de envío en esta página. Sin embargo, el proceso inverso no es verdadero. No se puede asociar un puerto de envío con una entidad y, después, hacer que ese puerto de envío esté automáticamente disponible como parte de la configuración del acuerdo. Para obtener más información sobre cómo asociar puertos de envío con un acuerdo, vea [configuración de asociación de envío del puerto (X12)](../core/configuring-send-port-association-x12.md) o [configuración de asociación de puerto de envío (EDIFACT)](../core/configuring-send-port-association-edifact.md).  
   
     |Use|Para|  
     |--------------|----------------|  
@@ -69,4 +69,4 @@ Una entidad o socio comercial representa una organización participante en una r
 5.  Haga clic en **aplicar** para aceptar las propiedades o haga clic en **Aceptar** para completar la configuración. Cualquier acción validará la configuración.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades de EDI](../core/configuring-edi-properties.md)
+ [Configuración de las propiedades de EDI](../core/configuring-edi-properties.md)

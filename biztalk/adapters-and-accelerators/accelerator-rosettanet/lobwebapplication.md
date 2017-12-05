@@ -20,11 +20,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b00e29b51eac2c58ac7843cca75994efceb4085
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a9be49eab2560cc9e9eab5a29456a27f92760e5d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="lobwebapplication"></a>LOBWebApplication
 Use la utilidad LOBWebApplication para enviar un mensaje de acción o respuesta de una página ASPX a un socio comercial, simulando una aplicación Web de línea de negocio real.  
@@ -32,7 +32,7 @@ Use la utilidad LOBWebApplication para enviar un mensaje de acción o respuesta 
  Una vez haya configurado la página ASPX, la página de inicio y escriba los parámetros de un mensaje: el principal y organizaciones asociadas; el código PIP, versión y un identificador de instancia; y la categoría del mensaje. A continuación, puede modificar el contenido del servicio y enviar el mensaje.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*> \Program BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication  
+ \<*unidad*\>\Program BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication  
   
 ## <a name="adding-a-virtual-server-for-lobwebapplication"></a>Agregar un servidor Virtual para LOBWebApplication  
   
@@ -40,13 +40,13 @@ Use la utilidad LOBWebApplication para enviar un mensaje de acción o respuesta 
   
 1.  Haga clic en **iniciar**, seleccione **AllPrograms**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Internet Information Services (IIS) Manager**.  
   
-2.  En el Administrador de servicios de información, expanda  **\<nombre_equipo > (equipo local)**, expanda **sitios Web**y, a continuación, haga clic en **sitio Web predeterminado**.  
+2.  En el Administrador de servicios de información, expanda  **\<nombre_equipo\> (equipo local)**, expanda **sitios Web**y, a continuación, haga clic en **sitio Web predeterminado**.  
   
 3.  Seleccione **New**y, a continuación, haga clic en **directorio Virtual**.  
   
 4.  En el **Asistente para crear un directorio Virtual** página, haga clic en **siguiente**y, a continuación, escriba un alias para el sitio, como **LOBWebApplication**.  
   
-5.  En el **directorio de contenido del sitio Web** página, haga clic en **examinar**, mover a \< *unidad*> \Program BizTalk 2013 Accelerator for RosettaNet\ SDK\LOBWebApplication, haga clic en **Aceptar**y, a continuación, haga clic en **siguiente**.  
+5.  En el **directorio de contenido del sitio Web** página, haga clic en **examinar**, mover a \< *unidad*\>\Program BizTalk 2013 Accelerator para RosettaNet\SDK\LOBWebApplication, haga clic en **Aceptar**y, a continuación, haga clic en **siguiente**.  
   
 6.  En el **permisos de acceso de directorio Virtual** página, seleccione **lectura** y **ejecutar secuencias de comandos**y, a continuación, haga clic en **siguiente**. Haga clic en **Finalizar**.  
   
@@ -62,18 +62,18 @@ Use la utilidad LOBWebApplication para enviar un mensaje de acción o respuesta 
   
 #### <a name="to-build-lobwebapplication"></a>Para compilar LOBWebApplication  
   
-1.  Inicie [!INCLUDE[vs2012](../../includes/vs2012-md.md)].  
+1.  Inicie Visual Studio.  
   
 2.  En el **archivo**, seleccione **abiertos**y, a continuación, haga clic en **Abrir solución**.  
   
-3.  Mover a \< *unidad*> \Program BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication, seleccione **LOBWebApplication.sln**y, a continuación, haga clic en  **Abra**.  
+3.  Mover a \< *unidad*\>\Program BizTalk 2013 Accelerator for RosettaNet\SDK\LOBWebApplication, seleccione **LOBWebApplication.sln**y, a continuación, haga clic en  **Abra**.  
   
     > [!NOTE]
     >  Si no ha agregado un servidor virtual de LOBWebApplication, no se abrirá correctamente en la solución [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
 4.  Haga clic en **referencias**y, a continuación, haga clic en **Agregar referencia**.  
   
-5.  En el **Agregar referencia** cuadro de diálogo, haga clic en **examinar**, mover a \< *unidad*>: \Program BizTalk 2013 Accelerator for RosettaNet\Bin, Seleccione los archivos Microsoft.Solutions.BTARN.ConfigurationManager.dll y Microsoft.Solutions.BTARN.Shared.dll y, a continuación, haga clic en **abiertos**.  
+5.  En el **Agregar referencia** cuadro de diálogo, haga clic en **examinar**, mover a \< *unidad*\>: \Program BizTalk 2013 Accelerator para Seleccione los archivos Microsoft.Solutions.BTARN.ConfigurationManager.dll y Microsoft.Solutions.BTARN.Shared.dll RosettaNet\Bin y, a continuación, haga clic en **abiertos**.  
   
 6.  Haga clic en **LOBWebApplication**y, a continuación, haga clic en **generar**.  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5ffbcc0cb5ca00eb0b461f77c36397179f5c91f7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 019adf0cd41c643ac77790c96a3450bb967ddd6b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-user-mappings"></a>Cómo crear asignaciones de usuario
 Utilice este comando para crear una o más asignaciones de usuarios, según se especifica en el archivo XML. A continuación, se muestra un archivo XML de ejemplo.  
@@ -53,9 +53,9 @@ Utilice este comando para crear una o más asignaciones de usuarios, según se e
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage – createmappings  *\<asignaciones de nombre de archivo >***, donde  *\<asignaciones de nombre de archivo >* es el nombre del archivo que contiene el asignaciones de usuarios que desea crear.  
+3.  Tipo de **ssomanage – createmappings  *\<asignaciones de nombre de archivo\>***, donde  *\<asignaciones de nombre de archivo\>*  es el nombre del archivo que contiene las asignaciones de usuarios que desea crear.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -64,9 +64,9 @@ Utilice este comando para crear una o más asignaciones de usuarios, según se e
   
 1.  En el **iniciar** menú, haga clic en **ejecutar**y, a continuación, escriba **cmd**.  
   
-2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*>: \Program Files\Common Files\Enterprise Single Sign-On.  
+2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssoclient – setcredentials  *\<nombre de aplicación >***, donde  *\<nombre de aplicación >* es el nombre de aplicación afiliada que el usuario desea crear una asignación para.  
+3.  Tipo de **ssoclient – setcredentials  *\<nombre de la aplicación \>*** , donde  *\<nombre de la aplicación \>*  es el nombre de aplicación afiliada que desea crear una asignación para el usuario.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  
@@ -74,4 +74,4 @@ Utilice este comando para crear una o más asignaciones de usuarios, según se e
 ## <a name="see-also"></a>Vea también  
  [Asignaciones de SSO](../core/sso-mappings.md)   
  [Administrar aplicaciones afiliadas](../core/managing-affiliate-applications.md)   
- [Administrar asignaciones de usuario](../core/managing-user-mappings.md)
+ [Administración de asignaciones de usuarios](../core/managing-user-mappings.md)

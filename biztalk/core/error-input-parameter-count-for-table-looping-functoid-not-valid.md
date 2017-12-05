@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 137ee97363adce49bfce6e74c3e154832e70471e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2df0a6780485b91fc89356aecb73823643276be1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---input-parameter-count-for-table-looping-functoid-not-valid"></a>Error: número de parámetros de entrada no es válido el Functoid de bucle de tabla
 **Código de error**  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  **Acción del usuario**  
   
- Asegúrese de que los parámetros de entrada para el **bucle de tabla** functoid, que se obtiene acceso a través de la **parámetros de entrada** propiedad y el **configurar \<Functoid > Functoid** cuadro de diálogo, son como se muestra en la tabla siguiente.  
+ Asegúrese de que los parámetros de entrada para el **bucle de tabla** functoid, que se obtiene acceso a través de la **parámetros de entrada** propiedad y el **configurar \<Functoid\> Functoid** cuadro de diálogo, son como se muestra en la tabla siguiente.  
   
 |Número de parámetro de entrada de functoid de Bucle de tabla|Description|  
 |---------------------------------------------------|-----------------|  

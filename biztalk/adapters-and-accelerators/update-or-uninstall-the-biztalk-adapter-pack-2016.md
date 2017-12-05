@@ -13,11 +13,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 51c30fa3b107113991a8b4893fa2626a53d67159
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb0dd0b9d778f878df9a06efdfc0f41754403690
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update-or-uninstall-the-biztalk-adapter-pack-2016"></a>Actualizar o desinstalar el módulo de adaptador de BizTalk 2016
 Cómo cambiar o desinstalar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
@@ -97,7 +97,7 @@ Antes de ejecutar el Asistente para la instalación para modificar el [!INCLUDE[
 ## <a name="uninstall-or-remove-the-biztalk-adapter-pack"></a>Desinstalar o eliminar el módulo de adaptador de BizTalk  
   
 > [!IMPORTANT]
->  Si ha creado las tablas en la base de datos de SQL Server para que funcione con la característica de tRFC de la [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], debe quitarlos manualmente antes de desinstalar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] de instalación copia un `SapAdapter-DbScript-Uninstall.sql` archivos normalmente en  *\<unidad de instalación >: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* . Ejecute este archivo para quitar las tablas que creó.  
+>  Si ha creado las tablas en la base de datos de SQL Server para que funcione con la característica de tRFC de la [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)], debe quitarlos manualmente antes de desinstalar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] de instalación copia un `SapAdapter-DbScript-Uninstall.sql` archivos normalmente en  *\<unidad de instalación\>: \Program [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* . Ejecute este archivo para quitar las tablas que creó.  
   
 Complete los pasos siguientes para quitar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] desde su equipo. Asegúrese de que tiene el [!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)] instalado antes de ejecutar el Asistente para la instalación.  
   
@@ -137,7 +137,7 @@ Complete los pasos siguientes para quitar el [!INCLUDE[adapterpacknoversion](../
 ## <a name="remove-the-bindings"></a>Quitar los enlaces  
  Siga estos pasos *sólo* si se produce un error en el Asistente para la instalación quitar los enlaces del adaptador o el registro del proveedor de datos de .NET Framework desde el archivo machine.config.  
   
-1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config  *\<unidad del sistema >: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG*.  
+1.  Vaya al archivo machine.config en el equipo. Por ejemplo, en una plataforma de 32 bits, está disponible en el archivo machine.config  *\<unidad del sistema\>: \WINDOWS\Microsoft.NET\Framework\\< versión\>\CONFIG*.  
   
 2.  Abra el archivo con un editor de texto.  
   

@@ -15,18 +15,18 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1686932099baa98f36af9ef8a2ca384f7f27a0ce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4862e347fd74c1431f253a1cccedbd844c97c63c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-modify-btswebsvcwizexeconfig"></a>Cómo modificar BTSWebSvcWiz.exe.config
-Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<Agregar > nodo en el archivo BTSWebSvcWiz.exe.config. Si el nodo de agente de escucha de seguimiento no se hace referencia y la *initializeData* parámetro se ha modificado, BizTalk Server escribe la salida del archivo de seguimiento en el directorio actual. Como alternativa, puede establecer el seguimiento de nivel de **ApplicationTraceSwitch** y establezca el nombre de ruta de acceso al archivo de seguimiento.  
+Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<agregar\> nodo en el archivo BTSWebSvcWiz.exe.config. Si el nodo de agente de escucha de seguimiento no se hace referencia y la *initializeData* parámetro se ha modificado, BizTalk Server escribe la salida del archivo de seguimiento en el directorio actual. Como alternativa, puede establecer el seguimiento de nivel de **ApplicationTraceSwitch** y establezca el nombre de ruta de acceso al archivo de seguimiento.  
   
  BTSWebSvcWiz.exe.config está ubicado en el mismo directorio que el archivo BTSWebSvcWiz.exe, que normalmente es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
   
- El siguiente es un ejemplo de una línea \<Agregar > nodo en el archivo BTSWebSvcWiz.exe.config:  
+ El siguiente es un ejemplo de una línea \<agregar\> nodo en el archivo BTSWebSvcWiz.exe.config:  
   
 ```  
 <system.diagnostics>  
@@ -49,4 +49,4 @@ Puede habilitar el seguimiento depurar el Asistente para publicación de servici
  Para obtener información acerca de **TextWriterTraceListener**, vea "TextWriterTraceListener" en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ayudar a la colección [http://go.microsoft.com/fwlink/?LinkId=62267](http://go.microsoft.com/fwlink/?LinkId=62267).  
   
 ## <a name="see-also"></a>Vea también  
- [Depurar servicios Web publicados](../core/debugging-published-web-services.md)
+ [Depuración de servicios web publicados](../core/debugging-published-web-services.md)

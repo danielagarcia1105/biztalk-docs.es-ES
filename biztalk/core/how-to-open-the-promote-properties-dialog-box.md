@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59cebe24ffdc1a72608dd3b3301aed94d2804052
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10633851eaffe6e08f230da8552514cd976f23a8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-open-the-promote-properties-dialog-box"></a>Cómo abrir el cuadro de diálogo Promocionar propiedades
 Promoción de propiedades se administra en el **promocionar propiedades** cuadro de diálogo. En este tema se proporcionan instrucciones paso a paso para abrir este cuadro de diálogo con el fin de administrar las propiedades promocionadas.  
@@ -28,7 +28,7 @@ Promoción de propiedades se administra en el **promocionar propiedades** cuadro
   
 ### <a name="to-open-the-promote-properties-dialog-box-from-the-schema-node"></a>Para abrir el cuadro de diálogo Promocionar propiedades desde el nodo Esquema  
   
-1.  En el árbol de esquema, seleccione la  **\<esquema >** nodo.  
+1.  En el árbol de esquema, seleccione la  **\<esquema\>**  nodo.  
   
 2.  En la ventana Propiedades, haga clic en el botón de puntos suspensivos (**...** ) botón en el campo de valor de la **promocionar propiedades** propiedad.  
   
@@ -45,4 +45,4 @@ Promoción de propiedades se administra en el **promocionar propiedades** cuadro
 ## <a name="see-also"></a>Vea también  
  [Promoción de propiedades](../core/promoting-properties.md)   
  [Cómo crear esquemas de propiedades](../core/how-to-create-property-schemas.md)   
- [Formas de usar el contenido de mensaje para el procesamiento de mensajes de Control](../core/ways-to-use-message-content-to-control-message-processing.md)
+ [Modos de usar el contenido de los mensajes para controlar el procesamiento de los mensajes](../core/ways-to-use-message-content-to-control-message-processing.md)

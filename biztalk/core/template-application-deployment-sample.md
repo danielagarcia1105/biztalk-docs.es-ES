@@ -17,11 +17,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f32e9432800249e6cbc64d36e281fb564648f78
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 315a685f0e289d60e3db9dfbe77bae5a7e2b19f0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="template-application-deployment-sample"></a>Plantilla (ejemplo de implementación de aplicaciones)
 En este tema se describe cómo usar el ejemplo de la plantilla para la implementación de aplicaciones.  
@@ -64,7 +64,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Este ejemplo se encuentra en la carpeta de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], en la ruta de acceso siguiente:  
   
- *\<Ejemplos de ruta de acceso >*\applicationdeployment\template  
+ *\<Ejemplos de ruta de acceso\>*\applicationdeployment\template  
   
  Como se ha mencionado anteriormente, el ejemplo incluye dos archivos:  
   
@@ -81,7 +81,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
      Ejemplo:  
   
-     conjunto LogFile = "*\<ruta de ejemplos >*\ApplicationDeployment\Templates\SampleLogOut.txt"  
+     conjunto LogFile = "*\<ruta de ejemplos\>*\ApplicationDeployment\Templates\SampleLogOut.txt"  
   
 ### <a name="to-create-a-new-application"></a>Para crear una aplicación nueva  
   
@@ -172,4 +172,4 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
 ## <a name="see-also"></a>Vea también  
  [Implementación de aplicaciones (carpeta de ejemplos de BizTalk Server)](../core/application-deployment-biztalk-server-samples-folder.md)   
- [Implementar aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)
+ [Implementación de aplicaciones de BizTalk](../core/deploying-biztalk-applications.md)

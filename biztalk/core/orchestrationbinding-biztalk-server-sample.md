@@ -12,18 +12,18 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d539b4249e02422b4189d9c8daea5c19011c4722
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b361968ddb28d629244515281cc02147af533cd0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="orchestrationbinding-biztalk-server-sample"></a>OrchestrationBinding (ejemplo de BizTalk Server)
 En el ejemplo de enlace de orquestación se muestra el uso de los objetos administrativos de [Microsoft.BizTalk.ExplorerOM](http://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx) para configurar y administrar las orquestaciones.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
   
--   Este ejemplo requiere que el ejemplo HelloWorld se pueden implementar mediante la ejecución de setup.bat ubicado en el \< *ruta de ejemplos*> \Orchestrations\HelloWorld directory.  
+-   Este ejemplo requiere que el ejemplo HelloWorld se pueden implementar mediante la ejecución de setup.bat ubicado en el \< *ruta de ejemplos*\>directory \Orchestrations\HelloWorld.  
   
 -   Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.  
   
@@ -43,7 +43,7 @@ En el ejemplo de enlace de orquestación se muestra el uso de los objetos admini
 ## <a name="where-to-find-this-sample"></a>Dónde encontrar este ejemplo  
  El ejemplo se encuentra en la siguiente ubicación del SDK:  
   
- \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\OrchestrationBinding  
+ \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\OrchestrationBinding  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -66,7 +66,7 @@ En el ejemplo de enlace de orquestación se muestra el uso de los objetos admini
   
 1.  Abra una ventana de comandos y desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\OrchestrationBinding\bin\Debug  
+     \<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\OrchestrationBinding\bin\Debug  
   
 2.  Ejecute el archivo OrchestrationBinding.exe y siga las instrucciones que proporciona el ejemplo.  
   

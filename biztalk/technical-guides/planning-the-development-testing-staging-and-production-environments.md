@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5572ab96215d07570a39f53009eae3038792db8
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: c52fc2ae61d4e261a729de702a2fbffbde3fd1bd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-the-development-testing-staging-and-production-environments"></a>Planear el desarrollo, pruebas, ensayo y entornos de producción
 Este tema describen los entornos que se utiliza en el proceso de administración de versión para una solución de BizTalk. Al igual que con cualquier solución de software empresarial, debe seguir directrices para la administración de versión de software establecido cuando se desarrollan y la versión de una solución de BizTalk. Este proceso debe incluir las siguientes fases distintas:  
@@ -43,7 +43,7 @@ Este tema describen los entornos que se utiliza en el proceso de administración
 >  Para obtener recomendaciones sobre el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno virtual, vea [Guía de Hyper-V de BizTalk Server 2009](http://go.microsoft.com/fwlink/?LinkId=151834) (http://go.microsoft.com/fwlink/?LinkId=151834).  
   
 > [!NOTE]  
->  [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]es totalmente compatible en un sistema operativo compatible que se ejecuta en el software de virtualización aparecen en la 842301 de artículo de Microsoft Knowledge Base [compatibilidad de Microsoft BizTalk Server en una máquina virtual](https://support.microsoft.com/kb/842301). Sin embargo, [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] no funcionen según lo esperado si se instala en un sistema operativo compatible que se ejecuta en un software de virtualización distinto de los mencionados en el artículo KB.  
+>  BizTalk Server es totalmente compatible en un sistema operativo compatible que se ejecuta en el software de virtualización aparecen en la 842301 de artículo de Microsoft Knowledge Base [compatibilidad de Microsoft BizTalk Server en una máquina virtual](https://support.microsoft.com/kb/842301). Sin embargo, BizTalk Server no puede realizar según lo esperado si se instala en un sistema operativo compatible que se ejecuta en un software de virtualización distinto de los mencionados en el artículo KB.  
   
 ## <a name="development-environment"></a>Entorno de desarrollo  
  Los proyectos de BizTalk que se usan para la solución de BizTalk se crean en el entorno de desarrollo. Debe instalar el software siguiente en los equipos utilizados en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno de desarrollo:  
@@ -103,4 +103,4 @@ Este tema describen los entornos que se utiliza en el proceso de administración
 |4|2|4|1|11|  
   
 ## <a name="see-also"></a>Vea también  
- [Planear el entorno de BizTalk Server](../technical-guides/planning-the-environment-for-biztalk-server.md)
+ [Planificación del entorno de BizTalk Server](../technical-guides/planning-the-environment-for-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3ab7f1c75baf5a974fdbc10deb1651fcce1c7d51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ab603f12e1f2c431f83af00dc79b57a9e416c251
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario"></a>Paso 1: Configurar el adaptador de SWIFT para el escenario en tiempo real de interactuar
 Los pasos siguientes explican cómo configurar el controlador de envío para el adaptador de Interact. Antes de comenzar el procedimiento, debe completar los requisitos enumerados en [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).  
@@ -33,7 +33,7 @@ Los pasos siguientes explican cómo configurar el controlador de envío para el 
   
     |**Use esto**|**Para ello**|  
     |------------------|--------------------|  
-    |**Argumentos**|Escriba el siguiente argumento: **SagMessagePartner**\<interactuar socio de mensaje de cliente creado en SAG > **Nota:** el cliente en el argumento es el MessagePartner configurado en SAG.|  
+    |**Argumentos**|Escriba el siguiente argumento: **SagMessagePartner**\<interactuar socio de mensaje de cliente creado en SAG\> **Nota:** el cliente en el argumento es el MessagePartner SAG configurado en.|  
     |**Modo de cifrado**|En la lista desplegable, seleccione **avanzadas**.|  
     |**LogMessageBody**|En la lista desplegable, seleccione `FALSE`. **Nota:** si se establece en `TRUE`, conserva el cuerpo del mensaje en la base de datos de seguimiento. Sin embargo, por motivos de seguridad, el cuerpo del mensaje nunca se ve en el portal de BAM.|  
     |**LogMessages**|En la lista desplegable, seleccione `TRUE`. Esto permite que los eventos de mensaje capturar y realizar el seguimiento en el portal de BAM.|  
@@ -52,4 +52,4 @@ Los pasos siguientes explican cómo configurar el controlador de envío para el 
  [Paso 1: Configurar el adaptador de SWIFT para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md)   
  [Paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-real-time-scenario.md)   
  [Paso 3: Crear el envío y puertos de recepción para el escenario en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-the-interact-real-time-scenario.md)   
- [Paso 4: Probar el escenario de extremo a extremo en tiempo real de interactuar](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)
+ [Paso 4: Probar el escenario integral de InterAct en tiempo real](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)

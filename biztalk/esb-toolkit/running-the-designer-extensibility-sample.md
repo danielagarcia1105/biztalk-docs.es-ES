@@ -12,18 +12,18 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b26c483568e1ceb05679d7548721c1cce818fde
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 69659359af123af7d9239241128cae06934d9a54
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-designer-extensibility-sample"></a>Ejecutar el ejemplo de extensibilidad del diseñador
 El ejemplo de extensibilidad del diseñador utiliza dos dispositivos Extender de ejemplo para demostrar cómo puede proporcionar opciones de configuración de tiempo de diseño para los solucionadores personalizados y servicios itinerarios.  
   
  **Para ejecutar el ejemplo de extensibilidad del diseñador**  
   
-1.  Inicie [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1.  Inicie Visual Studio.  
   
 2.  En Visual Studio, seleccione **New** en el **archivo** menú y, a continuación, haga clic en **proyecto**.  
   

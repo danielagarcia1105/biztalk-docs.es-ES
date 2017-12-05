@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1de45b5acbc780fad0847ab207d0d5c72ca2a652
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3559b63ec7588fa2d7451779947a476cf19b7bf0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="supporting-leading-zeros-in-amount-field-validations"></a>Compatibilidad con los ceros iniciales de validaciones de campo de cantidad
 Las directivas de validación de algunos tipos de mensaje realizan validaciones en los campos de cantidad. Para habilitar los ceros a la izquierda en los campos de cantidad, debe modificar la directiva de validación para el tipo de mensaje. Puede crear una nueva versión de la directiva de validación de forma predeterminada y editar el argumento en el Compositor de reglas de negocios, o puede modificar la directiva predeterminada manualmente en un editor de texto antes de implementa la directiva.  
@@ -41,7 +41,7 @@ Las directivas de validación de algunos tipos de mensaje realizan validaciones 
   
 1.  Abra un editor de texto, como el Bloc de notas.  
   
-2.  En el editor, vaya a la ubicación de la directiva de validación de mensaje en el que desea habilitar o deshabilitar los ceros a la izquierda. Por ejemplo, puede encontrar la directiva de validación de mensajes para el tipo de mensaje MT103, MT103_Validation_Policy.xml, en  *\<unidad >*: / programa archivos/Microsoft BizTalk Accelerator for SWIFT/SWIFT mensajes/categoría 1 / MT103. Abra la directiva de validación.  
+2.  En el editor, vaya a la ubicación de la directiva de validación de mensaje en el que desea habilitar o deshabilitar los ceros a la izquierda. Por ejemplo, puede encontrar la directiva de validación de mensajes para el tipo de mensaje MT103, MT103_Validation_Policy.xml, en  *\<unidad\>*: / programa archivos/Microsoft BizTalk Accelerator for SWIFT/SWIFT mensajes / Categoría 1/MT103. Abra la directiva de validación.  
   
 3.  En la directiva, busque en el **CheckValidAmount** método.  
   

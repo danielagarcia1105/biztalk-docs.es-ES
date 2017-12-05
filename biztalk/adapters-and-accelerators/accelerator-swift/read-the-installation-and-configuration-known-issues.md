@@ -12,16 +12,16 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a09ff5969cc0c47da6a9e885118e227cc27c4ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 83bbeec3430f479d28502e818b9ead402278f9b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-the-installation-and-configuration-known-issues"></a>Leer la instalación y configuración que se describen los problemas conocidos
   
 ## <a name="installing-over-terminal-server-creates-log-files-in-a-different-folder"></a>La instalación a través de Terminal Server crea archivos de registro en una carpeta diferente  
- Cuando instala A4SWIFT sobre una conexión de Terminal Server, el programa de instalación de A4SWIFT crea los archivos de registro de instalación y configuración en el  *\<unidad >*: \Documents and Settings\\  *\<nombre de usuario >*\Local carpeta de configuración. Normalmente, el programa de instalación crea estos archivos en el  *\<unidad >*: \Documents and Settings\\*\<nombre de usuario >*\Local carpeta. Puede revisar estos archivos de registro para asegurarse de que los equipos se instala y configura correctamente.  
+ Cuando instala A4SWIFT sobre una conexión de Terminal Server, el programa de instalación de A4SWIFT crea los archivos de registro de instalación y configuración en el  *\<unidad\>*: \Documents and Settings\\  *\<nombre de usuario\>*carpeta de \Local Settings. Normalmente, el programa de instalación crea estos archivos en el  *\<unidad\>*: \Documents and Settings\\*\<nombre de usuario\>*\Local Carpeta Settings\temp. Puede revisar estos archivos de registro para asegurarse de que los equipos se instala y configura correctamente.  
   
 ## <a name="silent-installation-is-not-recommended"></a>No se recomienda la instalación silenciosa  
  Una instalación silenciosa es compatible con el programa de instalación de A4SWIFT, pero no se recomienda debido a la complejidad de los pasos de configuración adicionales que son necesarios.  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
  Una base de datos de A4SWIFT se mostrará en el **componentes Web de reparación de mensajes y nuevo envío** panel del cuadro de diálogo Configuración de A4SWIFT, incluso si esa base de datos no existe. Una advertencia será muestra para la A4SWIFT base de datos en los datos almacena panel, pero que advertencia no impedirá el proceso de configuración continuar.  
   
 ## <a name="upgrade-process-does-not-create-a-new-root-folder"></a>Proceso de actualización no crea una nueva carpeta de raíz  
- El proceso de actualización actualiza los archivos de A4SWIFT existente  *\<unidad >*: \Program Acelerador de BizTalk para la carpeta de A4SWIFT 2.3/3.0. No crea una nueva carpeta para los archivos actualizados, ni tampoco cambia el nombre de la carpeta existente a  *\<unidad >*: \Program Acelerador de BizTalk para SWIFT.  
+ El proceso de actualización actualiza los archivos de A4SWIFT existente  *\<unidad\>*: \Program Acelerador de BizTalk para la carpeta de A4SWIFT 2.3/3.0. No crea una nueva carpeta para los archivos actualizados, ni tampoco cambia el nombre de la carpeta existente a  *\<unidad\>*: \Program Acelerador de BizTalk para SWIFT.  
   
 ## <a name="canceling-setup-during-an-upgrade-for-a4swift-may-leave-your-system-in-an-unknown-state"></a>Cancelar el programa de instalación durante la actualización de A4SWIFT puede dejar el sistema en un estado desconocido  
  En algunos escenarios, al hacer clic en el **cancelar** botón durante una actualización puede dejar archivos, los ensamblados, los artefactos de BizTalk Server y claves del registro intacto después de que el programa de instalación ha finalizado su restauración.  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
  También puede quitar manualmente todos los elementos sin problemas.  
   
 ## <a name="download-the-a4swift-setup-exe-file-from-the-web-into-a-temp-folder"></a>Descargue el archivo exe de instalación de A4SWIFT desde el sitio Web en una carpeta temporal  
- Si va a instalar A4SWIFT desde un archivo ejecutable autoextraíble que descargó desde el sitio Web, asegúrese de descargar ese archivo en una carpeta temporal. Descargue el archivo en la carpeta raíz de BizTalk Server (BizTalk Server \Program \< *su versión*>).  
+ Si va a instalar A4SWIFT desde un archivo ejecutable autoextraíble que descargó desde el sitio Web, asegúrese de descargar ese archivo en una carpeta temporal. Descargue el archivo en la carpeta raíz de BizTalk Server (BizTalk Server \Program \< *su versión*\>).  
   
  Si ejecuta el archivo exe desde la carpeta raíz de BizTalk Server, se ejecuta al servidor BizTalk Server Asistente para la instalación, no el Asistente de instalación de A4SWIFT.  
   

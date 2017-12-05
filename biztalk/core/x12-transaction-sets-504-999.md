@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9ab6de85a9468db75c2b1e71ff15ceb7fa5c935
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 40ae8c54dc49759f78f13e7f39cc5552adf5c52b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="x12-transaction-sets-504-999"></a>Conjuntos de transacciones de X12 de 504 a 999
-En este tema se enumeran los documentos y las versiones de X12 compatibles con [!INCLUDE[prague](../includes/prague-md.md)].  
+Este tema enumera los X12 documentos y versiones que son compatibles con BizTalk Server.  
 
 ##  <a name="trns504"></a>Conjuntos de transacciones de 504 a 568  
   

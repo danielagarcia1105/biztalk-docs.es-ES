@@ -13,11 +13,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e49014ac4c15f1fd303b2646c74f11b5242aed3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7c1406367f047794c6d8931352104bb59e6ca5b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-flat-file-disassembly-using-a-header-and-trailer"></a>Tutorial: Desensamblador de archivos sin formato con un encabezado y finalizador
 
@@ -128,7 +128,7 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-10. Haga clic en el  **\<esquema >** nodo en el panel de esquema de encabezado. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+10. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de encabezado. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-trailer-schema"></a>Usar al Asistente para esquemas de archivo sin formato para crear el esquema de finalizador  
   
@@ -165,7 +165,7 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-10. Haga clic en el  **\<esquema >** nodo en el panel de esquema de finalizador. En el panel Propiedades, cambie **elementFormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+10. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de finalizador. En el panel Propiedades, cambie **elementFormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-body-schema"></a>Usar al Asistente para esquemas de archivo sin formato para crear el esquema de cuerpo  
   
@@ -216,9 +216,9 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Si se ha cometido algún, haga clic en **volver** y realice las correcciones necesarias. Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-15. Haga clic en el  **\<esquema >** nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+15. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
-16. Haga clic en el  **\<Error >** nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Max Occurs** a **1**. Con ello, el Desensamblador de archivos sin formato divide cada uno de los errores en su propio mensaje.  
+16. Haga clic en el  **\<Error\>**  nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Max Occurs** a **1**. Con ello, el Desensamblador de archivos sin formato divide cada uno de los errores en su propio mensaje.  
   
 ##### <a name="test-the-schemas-using-ffdasm"></a>Probar los esquemas mediante FFDasm  
   

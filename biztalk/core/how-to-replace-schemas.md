@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e8d4e3be39d27d30ca8fa6062bb452a8ce32a12
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df444b8169d75408fe6e412135029ae2b051a6d2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-replace-schemas"></a>Cómo reemplazar esquemas
 Puede que en algún momento desee reemplazar el esquema de origen o el de destino en una asignación existente, como cuando recibe un esquema actualizado de un socio comercial.  
@@ -40,7 +40,7 @@ Puede que en algún momento desee reemplazar el esquema de origen o el de destin
       
      Si solo existe una raíz en el esquema de reemplazo, o se ha establecido un nodo de raíz para el esquema de reemplazo mediante la **referencia raíz** propiedad de la **esquema** abre el nodo, el esquema de reemplazo en el panel correspondiente, y no debe realizar el paso 3.  
   
-3.  Si existen múltiples nodos raíz en el esquema de destino, y no se ha establecido ningún nodo de raíz para el esquema de destino mediante el **referencia raíz** propiedad de la **esquema** nodo, en la  **Nodo raíz para \<* origen/destino*> esquema ** cuadro de diálogo, seleccione el nodo raíz apropiado y, a continuación, seleccione **Aceptar**.  
+3.  Si existen múltiples nodos raíz en el esquema de destino, y no se ha establecido ningún nodo de raíz para el esquema de destino mediante el **referencia raíz** propiedad de la **esquema** nodo, en la  **Nodo raíz para \<* origen/destino* \> esquema ** cuadro de diálogo, seleccione el nodo raíz apropiado y, a continuación, seleccione **Aceptar**.  
   
      El esquema de reemplazo se abre en el panel correspondiente.  
   
@@ -48,4 +48,4 @@ Puede que en algún momento desee reemplazar el esquema de origen o el de destin
     >  Mientras se reemplaza el esquema, si no se encuentran los registros/campos relevantes, pueden perderse algunos vínculos. El esquema se sustituirá solo cuando se selecciona **Sí** en el **confirmación** cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar asignaciones en proyectos](../core/managing-maps-within-projects.md)
+ [Administración de asignaciones en proyectos](../core/managing-maps-within-projects.md)

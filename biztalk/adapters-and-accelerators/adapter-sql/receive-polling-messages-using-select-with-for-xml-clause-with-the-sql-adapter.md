@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77ac34fb06497f72b778592b3ce4c927b0ca3a07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51cd634d7933f7e25de2e742711b1593bf6b6dc1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-polling-messages-using-select-statements-with-for-xml-clause-from-sql-using-biztalk-server"></a>Recibir mensajes de sondeo mediante las instrucciones SELECT con la cláusula FOR XML de SQL con BizTalk Server
 Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de cambio de datos periódicos para SQL Server tablas o vistas mediante las instrucciones SELECT o procedimientos almacenados que incluyan una cláusula FOR XML. Puede especificar estas instrucciones como instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos. La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.  
@@ -86,7 +86,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
          Esto es necesario porque el esquema sqltypes.xsd ya ha agregado al proyecto de BizTalk.  
   
-    4.  Proporciona un espacio de nombres de destino para el esquema. Haga clic en el  **\<esquema >** nodo y en el panel Propiedades, especifique un espacio de nombres en el **Target Namespace** propiedad. De este tema, asigne el espacio de nombres como `http://ForXmlPolling/namespace`.  
+    4.  Proporciona un espacio de nombres de destino para el esquema. Haga clic en el  **\<esquema\>**  nodo y en el panel Propiedades, especifique un espacio de nombres en el **Target Namespace** propiedad. De este tema, asigne el espacio de nombres como `http://ForXmlPolling/namespace`.  
   
 ## <a name="defining-messages-and-message-types"></a>Definición de mensajes y tipos de mensaje  
  El esquema que ha generado anteriormente describe los "tipos" necesarios para los mensajes en la orquestación. Un mensaje suele ser una variable, el tipo para el que está definido por el esquema correspondiente. Una vez que se genera el esquema, debe vincular a los mensajes desde la vista de orquestación de BizTalk del proyecto.  
@@ -204,7 +204,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 -   El adaptador ejecuta la instrucción de sondeo y recibe un mensaje de sondeo de la base de datos de SQL Server. Dado que la instrucción de sondeo está formada por una instrucción SELECT con una cláusula FOR XML, el mensaje de sondeo recibido por el adaptador es similar al siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Root xmlns="http://ForXmlPolling/namespace">  
       <Employee Employee_ID="10765" Name="John" Designation="Tester" xmlns="" />   
       <Employee Employee_ID="10766" Name="Sam" Designation="Manager" xmlns="" />   

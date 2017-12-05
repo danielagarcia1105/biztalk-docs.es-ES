@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb5f2e7af54ef99acff37a350c5fa7d9ba65af5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51264a79480031bd334dfb7d699a3a701f2c0254
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-1-for-azure-create-the-edi-project"></a>Paso 1 (para Azure): Crear el proyecto EDI
 En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] de abril de 2012. Como parte del proyecto, Contoso agrega lo siguiente:  
@@ -29,7 +29,7 @@ En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[a
   
 ### <a name="to-create-edi-project"></a>Para crear un proyecto EDI  
   
-1.  Abra [!INCLUDE[vs2010](../includes/vs2010-md.md)], desde el **archivo** menú, seleccione **New**y, a continuación, haga clic en **proyecto**.  
+1.  Abra Visual Studio, desde la **archivo** menú, seleccione **New**y, a continuación, haga clic en **proyecto**.  
   
 2.  En el **nuevo proyecto** cuadro de diálogo, desde el **plantillas instaladas**, seleccione **Bus de servicio**. Especifique un nombre de proyecto y una ubicación para el proyecto y, a continuación, haga clic en **Aceptar**.  
   
@@ -42,42 +42,42 @@ En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[a
 3.  Edite y cree el esquema para que quede de forma similar a la siguiente:  
   
     ```  
-    \<?xml version="1.0" encoding="utf-16"?>  
-    \<xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-      \<xs:element name="SalesOrder">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element name="CompanyCode" type="xs:string" />  
-            \<xs:element name="PartID" type="xs:int" />  
-            \<xs:element name="Quantity" type="xs:int" />  
-            \<xs:element name="AskPrice" type="xs:decimal" />  
-            \<xs:element name="RequestShipmentDate" type="xs:date" />  
-            \<xs:element name="Address">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Line1" type="xs:string" />  
-                  \<xs:element name="Line2" type="xs:string" />  
-                  \<xs:element name="City" type="xs:string" />  
-                  \<xs:element name="State" type="xs:string" />  
-                  \<xs:element name="Country" type="xs:string" />  
-                  \<xs:element name="Zipcode" type="xs:int" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Contact">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Firstname" type="xs:string" />  
-                  \<xs:element name="Lastname" type="xs:string" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Comments" type="xs:string" />  
-            \<xs:element name="DateNow" type="xs:date" />  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
+    <?xml version="1.0" encoding="utf-16"?>  
+    <xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+      <xs:element name="SalesOrder">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element name="CompanyCode" type="xs:string" />  
+            <xs:element name="PartID" type="xs:int" />  
+            <xs:element name="Quantity" type="xs:int" />  
+            <xs:element name="AskPrice" type="xs:decimal" />  
+            <xs:element name="RequestShipmentDate" type="xs:date" />  
+            <xs:element name="Address">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Line1" type="xs:string" />  
+                  <xs:element name="Line2" type="xs:string" />  
+                  <xs:element name="City" type="xs:string" />  
+                  <xs:element name="State" type="xs:string" />  
+                  <xs:element name="Country" type="xs:string" />  
+                  <xs:element name="Zipcode" type="xs:int" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Contact">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Firstname" type="xs:string" />  
+                  <xs:element name="Lastname" type="xs:string" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Comments" type="xs:string" />  
+            <xs:element name="DateNow" type="xs:date" />  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
     ```  
   
      Puede usar el Editor de esquemas para crear este esquema. Para obtener más información, consulte [utilizando el Editor de BizTalk](../core/using-biztalk-editor.md).  

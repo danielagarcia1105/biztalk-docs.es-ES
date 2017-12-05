@@ -20,11 +20,11 @@ caps.latest.revision: "72"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8915c298160f53ea21c62bc6f44d51aec36cdf94
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca976d2e965d781de352a010bd4ef8c16e712ffb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter"></a>Tutorial: Publicar servicios WCF con el adaptador WCF-BasicHttp
 ## <a name="introduction"></a>Introducción  
@@ -46,11 +46,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo los pasos descritos en este ejemplo, asegúrese de que el entorno instala los siguientes requisitos previos:  
   
--   El equipo que genera los ensamblados y ejecuta el proceso de implementación tanto el equipo que ejecuta el ejemplo requieren Microsoft Windows Server 2008 SP2 o Windows Server 2008 R2, Microsoft .NET Framework 4 y Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   Tanto en el equipo que genera los ensamblados y ejecuta el proceso de implementación y el equipo que ejecuta el ejemplo requieren Microsoft Windows Server 2008 SP2 o Windows Server 2008 R2, Microsoft .NET Framework 4 y Microsoft BizTalk Server.  
   
 -   El equipo que se usa para generar los ensamblados y ejecutar el proceso de implementación requiere Microsoft Visual Studio.  
   
--   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Se trata de opciones de instalación durante la instalación de Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].  
+-   El equipo que ejecuta el ejemplo requiere los adaptadores de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] y las herramientas de administración de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]. Estas son opciones para instalar durante la instalación de Microsoft BizTalk Server.  
   
 -   En los equipos que use para realizar las tareas administrativas, debe ejecutar una cuenta de usuario que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar los parámetros de aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta cuenta de usuario también debe ser miembro del grupo de administradores local para la implementación de la aplicación, la administración de las instancias de host y otras tareas que puedan ser necesarias.  
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  En Microsoft Visual Studio, abra el **C:\WCFBasicHttpReceiveAdapter\WCFBasicHttpReceiveAdapter.sln** archivo.  
   
-3.  El **Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp** ensamblado contiene un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orquestación, un mapa y dos esquemas. Debe instalarse en la GAC y necesita una clave de nombre seguro archivará para que esto se produzca. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<nuevo >**y escriba `keyfile.snk` en el **nombre de archivo de clave** cuadro de texto . Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
+3.  El **Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp** ensamblado contiene un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orquestación, un mapa y dos esquemas. Debe instalarse en la GAC y necesita una clave de nombre seguro archivará para que esto se produzca. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>**y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto. Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
   
 4.  En el Explorador de soluciones, haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **volver a generar**.  
   
@@ -97,7 +97,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  Seleccione el **punto de conexión de servicio** opción, que establece que publicará un [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] servicio desde una orquestación en un ensamblado. Seleccione **WCF-BasicHttp** desde el **nombre de adaptador (tipo de transporte)** lista desplegable.  
   
-    2.  Seleccione el **habilitar extremo de metadatos** casilla de verificación para realizar la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] hospedado por IIS de ubicación de recepción publicar sus [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] metadatos del servicio. Al seleccionar esta casilla de verificación establece el **httpGetEnabled** atributo de la \< **serviceMetadata**> elemento `true` en el archivo Web.Config. Estos metadatos se recuperan cuando una solicitud HTTP/GET los solicita. Después, usará la herramienta SvcUtil.exe para obtener estos datos con el fin de generar una clase de proxy para el código de cliente para llamar al Servicio [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)].  
+    2.  Seleccione el **habilitar extremo de metadatos** casilla de verificación para realizar la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] hospedado por IIS de ubicación de recepción publicar sus [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] metadatos del servicio. Al seleccionar esta casilla de verificación establece el **httpGetEnabled** atributo de la \< **serviceMetadata** \> elemento `true` en el archivo Web.Config. Estos metadatos se recuperan cuando una solicitud HTTP/GET los solicita. Después, usará la herramienta SvcUtil.exe para obtener estos datos con el fin de generar una clase de proxy para el código de cliente para llamar al Servicio [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)].  
   
     3.  Seleccione el **ubicaciones de recepción de BizTalk crea en la siguiente aplicación** opción para crear los puertos de recepción y las ubicaciones correspondientes a cada archivo .svc generado para el adaptador de WCF-BasicHttp. Elija el nombre de la aplicación de BizTalk, **WCFBasicHttpReceiveAdapter**, donde los puertos de recepción y las ubicaciones se genera y, a continuación, haga clic en **siguiente**.  
   

@@ -15,18 +15,18 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a788b83614c809505d632848a5a789070948fed5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60e6c9b3a6fadfcc0407c1b4fa206d0f966fa7dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-batching-acknowledgments"></a>Configurar confirmaciones de procesamiento por lotes
 Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Explorador de configuración para especificar las propiedades de confirmación de confirmaciones entrantes y generadas.  
   
 ### <a name="to-run-btahl7-configuration-explorer"></a>Para ejecutar el Explorador de configuración de BTAHL7  
   
--   Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión > Accelerator for HL7**y, a continuación, haga clic en **BTAHL7 Explorador de configuración**.  
+-   Haga clic en **iniciar**, seleccione **programas**, seleccione **Microsoft BizTalk \<versión\> Acelerador para HL7**y, a continuación, haga clic en  **BTAHL7 Explorador de configuración**.  
   
 ### <a name="to-configure-message-batching-acknowledgments"></a>Para configurar el procesamiento por lotes las confirmaciones de mensajes  
   
@@ -51,4 +51,4 @@ Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-fir
     >  Confirmaciones generadas para un mensaje por lotes con fragmentación desactivada contendrá MSH12.1 con valor 2.4. Puede modificar manualmente el número de versión mediante la aplicación de un mapa en la canalización de envío. Para obtener más información, consulte [crear y procesar confirmaciones](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar el procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md)
+ [Configuración del procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md)

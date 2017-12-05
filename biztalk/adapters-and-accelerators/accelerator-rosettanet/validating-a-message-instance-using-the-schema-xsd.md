@@ -17,11 +17,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 50a4e0b08e3bbe9e29b3417fd6e53475fd98483c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0eda0b76b3daff53290264169c5b2effe80a9e5c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="validating-a-message-instance-using-the-schema-xsd"></a>Validar una instancia de mensaje con el esquema XSD
 Este tema describe cómo validar una instancia de mensaje utilizando uno de los archivos de esquema XSD que Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ha integrado en el archivo de ensamblado Rnpip.  
@@ -32,7 +32,7 @@ Este tema describe cómo validar una instancia de mensaje utilizando uno de los 
   
 2.  En el **archivo**, seleccione **abiertos**y, a continuación, haga clic en **proyecto**.  
   
-3.  Busque  *\<unidad >*\Program BizTalk \<versión > Accelerator for RosettaNet\SDK\Schemas, haga clic en **RNPIPs.btproj**y, a continuación, haga clic en **Abiertos**.  
+3.  Busque  *\<unidad\>*\Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\Schemas, haga clic en **RNPIPs.btproj**, y, a continuación, haga clic en **abiertos**.  
   
 4.  En el Explorador de soluciones, expanda **Rnpip**, haga clic en el esquema XSD que se desea usar para validar una instancia de mensaje y, a continuación, haga clic en **propiedades**.  
   

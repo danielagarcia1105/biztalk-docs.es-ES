@@ -18,11 +18,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bfd309f332726efe2a13231ee1a337b428e3cff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 386e9729ac32cb08863e2ac3e0699ecda7890dbc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error-handling-biztalk-server-samples-folder"></a>Error Handling (carpeta de ejemplos de BizTalk Server)
 Este ejemplo tiene como finalidad crear una funcionalidad de control de errores para la aplicación de enrutamiento por contenidos (CBR).  
@@ -169,7 +169,7 @@ Este ejemplo tiene como finalidad crear una funcionalidad de control de errores 
   
      Copie y pegue este archivo en el **ExpenseReportIn** carpeta.  
   
-3.  Debería ver un nuevo archivo denominado **ErrorReport_\<***fecha*_*tiempo***> .xml** coloca en el  **ExpenseReportOut** carpeta.  
+3.  Debería ver un nuevo archivo denominado **ErrorReport_\<***fecha*_*tiempo***\>.xml** coloca en el  **ExpenseReportOut** carpeta.  
   
      Abra el archivo y observe que se trata del informe de gastos enviado en el paso anterior, pero con la información de errores agregada al principio.  
   
@@ -183,4 +183,4 @@ Este ejemplo tiene como finalidad crear una funcionalidad de control de errores 
   
 ## <a name="see-also"></a>Vea también  
  [Usar el enrutamiento de mensajes con errores](../core/using-failed-message-routing.md)   
- [Mensajería (carpeta de ejemplos de BizTalk Server)](../core/messaging-biztalk-server-samples-folder.md)
+ [Messaging (carpeta de ejemplos de BizTalk Server)](../core/messaging-biztalk-server-samples-folder.md)

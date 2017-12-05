@@ -17,11 +17,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f910dd6bbe95579e0c2be8f3957333d6e78d7938
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b3566e40deaa05886ead701e1871634cf6fb94e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-a-custom-analysis-task"></a>Cómo crear una tarea de análisis personalizada
 La manera más sencilla de crear una tarea DTS personalizada para procesar datos de BAM consiste en empezar por el paquete generado por BAM de forma automática y sustituir todo el procesamiento real de datos.  
@@ -30,7 +30,7 @@ La manera más sencilla de crear una tarea DTS personalizada para procesar datos
   
 1.  Cree una definición de BAM que requiera un cubo OLAP. Por ejemplo, utilice los asistentes de Excel y deje un informe de tabla dinámica® como vista no ATR.  
   
-2.  Abra el paquete DTS de procesamiento de cubos creado por BAM. BAM crea un paquete de este tipo para cada vista, conocido como BAM_AN_\<*nombre de la vista*>.  
+2.  Abra el paquete DTS de procesamiento de cubos creado por BAM. BAM crea un paquete de este tipo para cada vista, conocido como BAM_AN_\<*nombre de la vista*\>.  
   
 3.  Abra el paquete en el Diseñador DTS y quite todos los pasos, excepto los dos primeros y el último. Puede que desee conservar también la conexión a la base de datos de importación principal.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b00e829ad569790b257e1d5f0c16290cca68d176
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e5c4d7e20fc4d8e7c8bea724625dde770b4aca2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="undeploy-other-tutorial-projects"></a>Anular la implementación de otros proyectos del Tutorial
 Cuando se implementa un acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) tutoriales, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] almacena los archivos de ensamblado del tutorial en la base de datos de configuración (también conocido como la base de datos de administración de BizTalk) y la caché global de ensamblados. Si ha ejecutado otro [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] tutorial e implementado los ensamblados que creó en este tutorial, podría experimentar errores al probar los ensamblados en las tres partes del tutorial de procesamiento por lotes. Esto puede ocurrir porque solo se puede implementar un esquema de mensaje al mismo tiempo.  
@@ -33,7 +33,7 @@ Cuando se implementa un acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3ab
   
 3.  Abra el Explorador de BizTalk, haga clic en el ensamblado que desea anular la implementación y, a continuación, haga clic en **anular la implementación**.  
   
- Para obtener más información acerca de cómo anular la implementación de un ensamblado, vea "Anular la implementación un ensamblado utilizando el Explorador de BizTalk" en [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] ayuda.  
+ Para obtener más información acerca de cómo anular la implementación de un ensamblado, vea "Anular la implementación un ensamblado utilizando el Explorador de BizTalk" en la Ayuda de BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Preparando para utilizar el Tutorial de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)
+ [Preparación para usar el tutorial de procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

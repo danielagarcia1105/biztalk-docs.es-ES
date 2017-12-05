@@ -23,18 +23,18 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94fe45a2882d85164ab81c13e78fca2ac26d0ec4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a02e3eddcd43acf67e8e928e1a8f172c0019c616
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mitigating-denial-of-service-attacks"></a>Denegación de servicio de mitigar los ataques
 Se recomienda utilizar las siguientes técnicas de mitigación para ayudar a proteger los servidores y servicios de BizTalk Server contra los ataques de denegación de servicio. Tendrá que decidir si estas técnicas de mitigación son apropiadas para su entorno.  
   
 -   **Utilice la propiedad de autenticación necesaria en el puerto de recepción.** De forma predeterminada, BizTalk envía todos los mensajes que recibe a la base de datos de cuadro de mensajes, aunque procedan de una entidad desconocida o sin resolver (Invitado). Para mitigar la posibilidad de que un atacante envíe un gran número de mensajes a BizTalk Server y sature (llene) la base de datos de cuadro de mensajes, puede usar el **requerida autenticación** propiedad en el puerto de recepción para recibir solo mensajes que procedan de entidades que BizTalk Server conozca. Puede elegir entre quitar los mensajes procedentes de una entidad desconocida o colocarlos en estado de suspensión. Para obtener más información sobre la **requerida autenticación** propiedad, vea [autenticación del remitente de un mensaje](../core/authenticating-the-sender-of-a-message.md). Además el **requerida autenticación** propiedad, considere el uso de un mecanismo externo, como el filtrado de puertos de firewall o bloqueo para protegerse frente a ataques por denegación de servicio de dirección IP.  
   
--   **Limitar el tamaño de los mensajes que BizTalk puede recibir.** Por ejemplo, al usar el adaptador de recepción de SOAP, puede evitar la recepción de tamaño de mensajes muy grandes estableciendo el atributo maxRequestLength el \<httpRuntime > elemento a un tamaño razonable. El \<httpRuntime > elemento está definido en el archivo Machine.config, que se encuentra en la \< *unidad*>:\\<*directorio de Windows* > \Microsoft.NET\Framework\vX.X.XXXXX\CONFIG directory. Para obtener más información acerca de \<httpRuntime > elemento, vea el sitio Web de Microsoft MSDN en [http://go.microsoft.com/fwlink/?LinkId=60948](http://go.microsoft.com/fwlink/?LinkId=60948).  
+-   **Limitar el tamaño de los mensajes que BizTalk puede recibir.** Por ejemplo, al usar el adaptador de recepción de SOAP, puede evitar la recepción de tamaño de mensajes muy grandes estableciendo el atributo maxRequestLength el \<httpRuntime\> elemento a un tamaño razonable. El \<httpRuntime\> elemento está definido en el archivo Machine.config, que se encuentra en la \< *unidad*\>:\\<*Windows directorio*\>\Microsoft.NET\Framework\vX.X.XXXXX\CONFIG directory. Para obtener más información acerca de \<httpRuntime\> elemento, vea el sitio Web de Microsoft MSDN en [http://go.microsoft.com/fwlink/?LinkId=60948](http://go.microsoft.com/fwlink/?LinkId=60948).  
   
 -   **Use listas DACL seguras para ubicaciones de recepción.** Se recomienda utilizar listas de control de acceso discrecional (DACL) seguras en las ubicaciones de descarga para las ubicaciones de recepción. Por ejemplo, utilice listas DACL seguras en el directorio en el que la ubicación de recepción de archivos recoge los mensajes, de modo que sólo los usuarios autorizados puedan descargar mensajes en esta ubicación.  
   

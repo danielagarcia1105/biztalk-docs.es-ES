@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15f491077d6c6d09958fb5aa5f1af8f432537514
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 068b7d8295710157af7a8a7358768e85e006beb8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-static-send-port-for-messages-over-as2"></a>Configurar un puerto de envío estático para mensajes a través de AS2
 En este tema se describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para enviar mensajes AS2 a través de un puerto de envío estático. Esta configuración conlleva crear el puerto de envío estático y configurar el acuerdo. Si es necesario, también configurará un certificado de cifrado para que lo use el puerto de envío.  
@@ -34,7 +34,7 @@ En este tema se describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](.
 |**Propiedades de puerto de envío: General**|Canalización de envío|-AS2EdiSend (para mensajes con codificación EDI)<br /><br /> -AS2Send (para mensajes no pertenecientes a EDI)|  
 |**Propiedades de puerto de envío: General**|Controlador de recepción<br /><br /> (si solicitar MDN en **confirmaciones (MDN)** se selecciona la página de la ficha de acuerdo unidireccional)|BizTalkServerApplication|  
 |**Propiedades de puerto de envío: General**|Canalización de recepción<br /><br /> (si solicitar MDN en **confirmaciones (MDN)** se selecciona la página de la ficha de acuerdo unidireccional)|AS2Receive|  
-|**Propiedades de transporte HTTP**|Dirección URL de destino|\<Cadena de dirección URL de destino >|  
+|**Propiedades de transporte HTTP**|Dirección URL de destino|\<Cadena de dirección URL de destino\>|  
 |**Propiedades de transporte HTTP**|Habilitar codificación fragmentada|Desactivado|  
 |**Propiedades de puerto de envío: filtros**|Propiedad|BTS.MessageType<br /><br /> Nota:<br /><br /> Puede usar diversas expresiones de filtro, como BTS.ReceivePortName.<br /><br /> Nota:<br /><br /> (Para mensajes no pertenecientes a EDI, tendrá que filtrar en una propiedad diferente).|  
 |**Propiedades de puerto de envío: filtros**|Operador|==|  
@@ -79,4 +79,4 @@ En este tema se describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](.
 ## <a name="see-also"></a>Vea también  
  [Configurar puertos para una solución AS2](../core/configuring-ports-for-an-as2-solution.md)   
  [Generar un mensaje AS2 saliente](../core/generating-an-outgoing-as2-message.md)   
- [Procesamiento de MDN entrante](../core/processing-an-incoming-mdn.md)
+ [Procesamiento de un MDN de entrada](../core/processing-an-incoming-mdn.md)

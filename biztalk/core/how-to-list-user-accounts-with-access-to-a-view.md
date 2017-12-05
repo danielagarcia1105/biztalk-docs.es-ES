@@ -16,11 +16,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 099a2b8f3d914297529a192def9e5c23a49d31af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c80a01aa9b4bd19581cb97f7fee127fc244322d4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-list-user-accounts-with-access-to-a-view"></a>Cómo enumerar cuentas de usuario con acceso a una vista
 Los administradores utilizan el **get-accounts** comando de la utilidad de administración de BAM para obtener una lista de todas las cuentas de usuario para un rol de la vista, lo que significa que todas las cuentas de usuario con acceso a la vista especificada.  
@@ -33,7 +33,7 @@ Los administradores utilizan el **get-accounts** comando de la utilidad de admin
   
 2.  Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking  
   
-3.  Tipo de **bm get-accounts-View:\<nombre de vista >**.  
+3.  Tipo de **bm get-accounts-View:\<nombre de la vista\>**.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

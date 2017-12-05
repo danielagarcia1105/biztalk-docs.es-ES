@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e445bc1d2fb4dcea719c33a336eec88554e20962
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2f2de6a4c4cae93db90f0fb2cfc79321bfc7b3e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-file-adapter"></a>Configurar el adaptador de archivo
 Cómo configurar el adaptador de archivo, lea las recomendaciones de seguridad y ver los permisos necesarios.
@@ -84,7 +84,7 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
     |--------------|----------------|  
     |**Carpeta de recepción**|Requerido. Escriba la ruta de acceso a una carpeta del sistema de archivos, el recurso compartido de red, o un recurso compartido de archivos de Azure que el archivo de controlador de recepción lee archivos. Puede escribir la ruta de acceso directamente en el **carpeta recepción** texto cuadro o selecciónelo en el sistema de archivos mediante el **examinar** botón. Al buscar la carpeta, también puede crear una nueva carpeta mediante **crear nueva carpeta**.<br /><br /> Si usa un recurso compartido de almacenamiento de archivos de Azure, escriba `\\yourfilestoragename.file.core.windows.net\yourfilesharename`. <br /><br />**Tipo:** cadena <br/><br/>**Nota:** no establezca la **carpeta recepción** propiedad a una carpeta que utiliza el sistema de archivos distribuido de NT con un vínculo simbólico. Si usas un sistema de archivos distribuido de NT, solo puede usar carpetas con rutas de acceso de red directas en el adaptador de archivo ubicaciones de recepción. <br /><br /> Para las restricciones en esta propiedad, vea [restricciones al configurar el adaptador de archivo](../core/restrictions-when-configuring-the-file-adapter.md). <br/><br/>**Nota:** el URI para un envío de puerto o recibir ubicación no puede superar los 256 caracteres.|  
     |**Máscara de archivo**|Requerido. Especificar la máscara de los archivos. Esta máscara puede contener el valor comodín estándar "\*".<br /><br /> **Valor predeterminado:** \*.xml<br /><br /> **Tipo:** cadena<br /><br /> Para las restricciones en esta propiedad, vea [restricciones al configurar el adaptador de archivo](../core/restrictions-when-configuring-the-file-adapter.md).|  
-    |**Dirección pública**|Especificar la dirección pública de la ubicación. BizTalk Server expone la dirección a los socios comerciales externos.<br /><br /> Si no se especifica esta propiedad, el motor de tiempo de ejecución la sustituye por:<br /><br /> File://\<*carpeta recepción*>/\<*máscara de archivo*><br /><br /> El valor de esta propiedad necesita un prefijo de adaptador.<br /><br /> **Tipo:** cadena<br /><br /> **Longitud mínima:** 0<br /><br /> **Longitud máxima:** 256|  
+    |**Dirección pública**|Especificar la dirección pública de la ubicación. BizTalk Server expone la dirección a los socios comerciales externos.<br /><br /> Si no se especifica esta propiedad, el motor de tiempo de ejecución la sustituye por:<br /><br /> File://\<*carpeta recepción*\>/\<*máscara de archivo*\><br /><br /> El valor de esta propiedad necesita un prefijo de adaptador.<br /><br /> **Tipo:** cadena<br /><br /> **Longitud mínima:** 0<br /><br /> **Longitud máxima:** 256|  
     |**Número de reintentos**|Especificar el número de intentos de obtención de acceso a la ubicación de recepción de un recurso compartido de red que no está disponible temporalmente.<br /><br /> **Valor predeterminado:** 5<br /><br /> **Tipo:** largo<br /><br /> **Valor mínimo:** 0<br /><br /> **Valor máximo:** MAX_LONG|  
     |**Vuelva a intentar intervalo (min)**|Especificar el tiempo de intervalo de reintentos (en minutos) entre los intentos de obtención de acceso a la ubicación de recepción del recurso compartido de red que no está disponible temporalmente.<br /><br /> **Valor predeterminado:** 5 minutos<br /><br /> **Tipo:** largo<br /><br /> **Valor mínimo:** 0<br /><br /> **Valor máximo:** MAX_LONG|  
   
@@ -169,7 +169,7 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
 
 [Crear el archivo de ubicación de recepción o puerto de envío mediante programación](../core/create-the-receive-location-and-send-port-programmatically.md)
 
-[Propiedades y esquema de propiedades de adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
+[Propiedades y esquema de propiedades del adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
 
 [Restricciones al configurar el adaptador de archivo](../core/restrictions-when-configuring-the-file-adapter.md)
 

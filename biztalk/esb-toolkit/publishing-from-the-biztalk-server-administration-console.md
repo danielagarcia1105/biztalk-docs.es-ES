@@ -12,20 +12,20 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 313bfb773a94914ed9bebd3930dfd0033ecf4ac3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fbe03b1a8df67581ce73db31cd5ed4b80b7a109c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="publishing-from-the-biztalk-server-administration-console"></a>Publicar desde la consola de administración de BizTalk Server
-Si desea administrar la publicación de punto de conexión a través de la [!INCLUDE[prague](../includes/prague-md.md)] consola de administración en lugar del Portal de administración de ESB, puede hacerlo escribiendo un moniker de Universal Description, Discovery y Integration (UDDI) en el campo de descripción de la extremos para publicar en UDDI. El siguiente es un moniker de ejemplo.  
+Si desea administrar el punto de conexión que se publica a través de la consola de administración de BizTalk Server en lugar del Portal de administración de ESB, puede hacerlo escribiendo un moniker de Universal Description, Discovery y Integration (UDDI) en el campo de descripción de los puntos de conexión Para publicar en UDDI. El siguiente es un moniker de ejemplo.  
   
 ```  
 uddi://TransportType=other;Status=Published.  
 ```  
   
- Puede establecer las siguientes propiedades UDDI mediante el **descripción** campo el [!INCLUDE[prague](../includes/prague-md.md)] consola de administración:  
+ Puede establecer las siguientes propiedades UDDI mediante el **descripción** campo en la consola de administración de BizTalk Server:  
   
 -   **ModifiedBy**. Esta propiedad opcional contiene el nombre de cuenta del usuario que modificó el punto de conexión; Por ejemplo, MyDomainName\MyUserName.  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 060a20e9d074017a79f32f2c2cf526394df9c51d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5edc8ed8991920c0da239979386fb264bdbb8610
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="biztalk-mapper-keyboard-shortcuts"></a>Métodos abreviados de teclado del Asignador de BizTalk
 Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar métodos abreviados de teclado en el Asignador de BizTalk para tener acceso a comandos que, por otra parte, están disponibles mediante los menús. La tabla siguiente describe los métodos abreviados de teclado disponibles.  
@@ -48,7 +48,7 @@ Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar mé
 |BizTalk &#124; Actualización de la búsqueda<br /><br /> Actualiza los resultados de búsqueda en el esquema de origen, en el de destino o en la página de cuadrícula.|CTRL+M, CTRL+B|  
 |BizTalk &#124; Mostrar nodos vinculados (esquema de origen)<br /><br /> Muestra todos los nodos vinculados en el esquema de origen.|CTRL+M, CTRL+H|  
 |BizTalk &#124; Mostrar nodos vinculados (esquema de destino)<br /><br /> Muestra todos los nodos vinculados en el esquema de destino.|CTRL+M, CTRL+D|  
-|BizTalk &#124; Configurar entradas de Functoid<br /><br /> Se abre la **configurar \<Functoid > Functoid** cuadro de diálogo donde puede configurar los parámetros de entrada para el functoid seleccionado.|CTRL+M, CTRL+I<br /><br /> Seleccione el functoid + ENTRAR|  
+|BizTalk &#124; Configurar entradas de Functoid<br /><br /> Se abre la **configurar \<Functoid\> Functoid** cuadro de diálogo donde puede configurar los parámetros de entrada para el functoid seleccionado.|CTRL+M, CTRL+I<br /><br /> Seleccione el functoid + ENTRAR|  
 |BizTalk &#124; Búsqueda<br /><br /> Permite buscar elementos en el esquema de origen, en el de destino y en la superficie de la cuadrícula.|CTRL+M, CTRL+F|  
 |BizTalk &#124; Opciones de búsqueda<br /><br /> Permite buscar elementos específicos.|CTRL+M, CTRL+O|  
 |BizTalk &#124; Buscar anterior<br /><br /> Busca la cadena de búsqueda de las instancias de búsqueda anteriores.|CTRL+M, CTRL+J<br /><br /> FLECHA ARRIBA|  
@@ -63,4 +63,4 @@ Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar mé
 |BizTalk &#124; Continuar a coincidencias indicativas<br /><br /> Permite recorrer las coincidencias indicativas en el orden de preferencia.|FLECHA ARRIBA, FLECHA ABAJO|  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de comandos del asignador de BizTalk](../core/using-biztalk-mapper-commands.md)
+ [Uso de comandos del Asignador de BizTalk](../core/using-biztalk-mapper-commands.md)

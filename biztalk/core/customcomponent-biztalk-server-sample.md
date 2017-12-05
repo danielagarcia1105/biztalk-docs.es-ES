@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e178faee3ed05d4d77eec8f4da182c7dcd21a67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7fd774848dec1ae54541e749a0cc551bf7c42d49
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="customcomponent-biztalk-server-sample"></a>CustomComponent (ejemplo de BizTalk Server)
 El ejemplo CustomComponent muestra cómo crear y utilizar un componente de canalización personalizado que modifique un mensaje transmitido. También muestra la configuración de un componente de canalización personalizado en el Diseñador de canalizaciones.  
@@ -38,7 +38,7 @@ El ejemplo CustomComponent muestra cómo crear y utilizar un componente de canal
 4.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escribe el mensaje de texto que se obtiene como resultado en un archivo en una carpeta determinada.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- \<*Ejemplos de ruta de acceso*> \Pipelines\CustomComponent\  
+ \<*Ejemplos de ruta de acceso*\>\Pipelines\CustomComponent\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -62,13 +62,13 @@ El ejemplo CustomComponent muestra cómo crear y utilizar un componente de canal
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     \<*Ejemplos de ruta de acceso*> \Pipelines\CustomComponent  
+     \<*Ejemplos de ruta de acceso*\>\Pipelines\CustomComponent  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea las carpetas de entrada (In) y de salida (Out) de este ejemplo en la carpeta:  
   
-         \<*Ejemplos de ruta de acceso*> \Pipelines\CustomComponent  
+         \<*Ejemplos de ruta de acceso*\>\Pipelines\CustomComponent  
   
     -   Compila e implementa los proyectos de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   
@@ -100,7 +100,7 @@ El ejemplo CustomComponent muestra cómo crear y utilizar un componente de canal
   
 1.  Pegue una copia del archivo de texto Input.txt en la carpeta In.  
   
-2.  Observe el archivo de texto que se ha creado en la carpeta Out. Este archivo incluye el contenido del archivo Input.txt con texto adicional insertado al principio (por la canalización de recepción) y al final (por la canalización de envío). El formato del nombre de este archivo es \< *MessageID*> .xml, donde  *\<MessageID >* es el GUID generado para identificar de forma exclusiva el mensaje.  
+2.  Observe el archivo de texto que se ha creado en la carpeta Out. Este archivo incluye el contenido del archivo Input.txt con texto adicional insertado al principio (por la canalización de recepción) y al final (por la canalización de envío). El formato del nombre de este archivo es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el mensaje .  
   
 ## <a name="comments"></a>Comentarios  
  Puede ver las canalizaciones preconfiguradas en el Diseñador de canalizaciones mediante los pasos que se indican a continuación:  

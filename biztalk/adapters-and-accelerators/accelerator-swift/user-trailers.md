@@ -15,11 +15,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4dc2d7f2a3dd21d35bb33fa625f59aa27c04e656
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff907e262088acd188028282fe2e03441071358a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="user-trailers"></a>Finalizadores de usuario
 Finalizadores de usuario, excepto el finalizador de distrib, son opcionales y cuando está presente, se producen en el orden siguiente:  
@@ -41,7 +41,7 @@ Finalizadores de usuario, excepto el finalizador de distrib, son opcionales y cu
     where <authentication-result> = 8!h  
     ```  
   
--   **Finalizador de autenticación propietario código (PAC).** El finalizador de PAC se utiliza en el servicio de copia de FIN solo cuando se utiliza la opción de autenticación dobles. Mensajes de usuario a otro bloque 5 de FINÉS incluyen el finalizador de PAC inmediatamente después del finalizador de MAC, si está presente. Este resultado se calcula en los campos extraídos del bloque 4 del mensaje, el valor del campo 115, si está presente y el \<resultado de la autenticación > del finalizador de MAC para servicios de copia con doble autenticación.  
+-   **Finalizador de autenticación propietario código (PAC).** El finalizador de PAC se utiliza en el servicio de copia de FIN solo cuando se utiliza la opción de autenticación dobles. Mensajes de usuario a otro bloque 5 de FINÉS incluyen el finalizador de PAC inmediatamente después del finalizador de MAC, si está presente. Este resultado se calcula en los campos extraídos del bloque 4 del mensaje, el valor del campo 115, si está presente y el \<resultado de la autenticación\> del finalizador de MAC para servicios de copia con doble autenticación.  
   
      Como resultado, el indicador de bloque final (CrLf-) se incluye en el cálculo de PAC y los campos se definen como sigue:  
   
