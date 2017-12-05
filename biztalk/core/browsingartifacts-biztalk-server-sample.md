@@ -12,54 +12,54 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 32e29f945d9d20cd2ea998e0fa05eda6b52174ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7a9d88e0a3c765e3bd143b966bf699eb7730d8f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="browsingartifacts-biztalk-server-sample"></a><span data-ttu-id="5afb8-102">BrowsingArtifacts (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="5afb8-102">BrowsingArtifacts (BizTalk Server Sample)</span></span>
-<span data-ttu-id="5afb8-103">En el ejemplo BrowsingArtifacts se muestra cómo enumerar los artefactos y atributos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="5afb8-103">The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and attributes.</span></span>  
+# <a name="browsingartifacts-biztalk-server-sample"></a><span data-ttu-id="22792-102">BrowsingArtifacts (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="22792-102">BrowsingArtifacts (BizTalk Server Sample)</span></span>
+<span data-ttu-id="22792-103">En el ejemplo BrowsingArtifacts se muestra cómo enumerar los artefactos y atributos de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="22792-103">The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and attributes.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="5afb8-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="5afb8-104">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="22792-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="22792-104">Prerequisites</span></span>  
   
--   <span data-ttu-id="5afb8-105">Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="5afb8-105">You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.</span></span>  
+-   <span data-ttu-id="22792-105">Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="22792-105">You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.</span></span>  
   
--   <span data-ttu-id="5afb8-106">El ejemplo del script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts.</span><span class="sxs-lookup"><span data-stu-id="5afb8-106">The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution.</span></span> <span data-ttu-id="5afb8-107">Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).</span><span class="sxs-lookup"><span data-stu-id="5afb8-107">For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).</span></span>  
+-   <span data-ttu-id="22792-106">El ejemplo del script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts.</span><span class="sxs-lookup"><span data-stu-id="22792-106">The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution.</span></span> <span data-ttu-id="22792-107">Para obtener más información, consulte: [examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).</span><span class="sxs-lookup"><span data-stu-id="22792-107">For more information see: [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).</span></span>  
   
-## <a name="what-this-sample-does"></a><span data-ttu-id="5afb8-108">Descripción del ejemplo</span><span class="sxs-lookup"><span data-stu-id="5afb8-108">What This Sample Does</span></span>  
- <span data-ttu-id="5afb8-109">Este ejemplo muestra cómo utilizar el **BtsCatalogExplorer** clase desde el **Microsoft.BizTalk.ExplorerOM** espacio de nombres para enumerar los artefactos y notificar sus atributos.</span><span class="sxs-lookup"><span data-stu-id="5afb8-109">This sample demonstrates using the **BtsCatalogExplorer** class from the **Microsoft.BizTalk.ExplorerOM** namespace to enumerate artifacts and report their attributes.</span></span> <span data-ttu-id="5afb8-110">Los siguientes artefactos se incluyen en el informe generado por este ejemplo: orquestaciones, puertos, ensamblados, entidades y transformaciones.</span><span class="sxs-lookup"><span data-stu-id="5afb8-110">The following artifacts are included in the report generated by this sample: Orchestrations, Ports, Assemblies, Parties, and Transforms.</span></span> <span data-ttu-id="5afb8-111">El ejemplo está escrito en Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5afb8-111">This sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span></span> <span data-ttu-id="5afb8-112">Una secuencia de comandos de ejemplo de Windows PowerShell también se proporciona en este tema.</span><span class="sxs-lookup"><span data-stu-id="5afb8-112">A Windows PowerShell example script is also provided in this topic.</span></span>  
+## <a name="what-this-sample-does"></a><span data-ttu-id="22792-108">Descripción del ejemplo</span><span class="sxs-lookup"><span data-stu-id="22792-108">What This Sample Does</span></span>  
+ <span data-ttu-id="22792-109">Este ejemplo muestra cómo utilizar el **BtsCatalogExplorer** clase desde el **Microsoft.BizTalk.ExplorerOM** espacio de nombres para enumerar los artefactos y notificar sus atributos.</span><span class="sxs-lookup"><span data-stu-id="22792-109">This sample demonstrates using the **BtsCatalogExplorer** class from the **Microsoft.BizTalk.ExplorerOM** namespace to enumerate artifacts and report their attributes.</span></span> <span data-ttu-id="22792-110">Los siguientes artefactos se incluyen en el informe generado por este ejemplo: orquestaciones, puertos, ensamblados, entidades y transformaciones.</span><span class="sxs-lookup"><span data-stu-id="22792-110">The following artifacts are included in the report generated by this sample: Orchestrations, Ports, Assemblies, Parties, and Transforms.</span></span> <span data-ttu-id="22792-111">El ejemplo está escrito en Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="22792-111">This sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span></span> <span data-ttu-id="22792-112">Una secuencia de comandos de ejemplo de Windows PowerShell también se proporciona en este tema.</span><span class="sxs-lookup"><span data-stu-id="22792-112">A Windows PowerShell example script is also provided in this topic.</span></span>  
   
-## <a name="where-to-find-this-sample"></a><span data-ttu-id="5afb8-113">Dónde encontrar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="5afb8-113">Where To Find This Sample</span></span>  
- <span data-ttu-id="5afb8-114">El ejemplo se encuentra en la siguiente ubicación del SDK:</span><span class="sxs-lookup"><span data-stu-id="5afb8-114">The sample is located in the following SDK location:</span></span>  
+## <a name="where-to-find-this-sample"></a><span data-ttu-id="22792-113">Dónde encontrar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="22792-113">Where To Find This Sample</span></span>  
+ <span data-ttu-id="22792-114">El ejemplo se encuentra en la siguiente ubicación del SDK:</span><span class="sxs-lookup"><span data-stu-id="22792-114">The sample is located in the following SDK location:</span></span>  
   
- <span data-ttu-id="5afb8-115">\<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\BrowsingArtifacts</span><span class="sxs-lookup"><span data-stu-id="5afb8-115">\<*Samples Path*>\Admin\ExplorerOM\BrowsingArtifacts</span></span>  
+ <span data-ttu-id="22792-115">\<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\BrowsingArtifacts</span><span class="sxs-lookup"><span data-stu-id="22792-115">\<*Samples Path*\>\Admin\ExplorerOM\BrowsingArtifacts</span></span>  
   
- <span data-ttu-id="5afb8-116">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="5afb8-116">The following table shows the files in this sample and describes their purpose.</span></span>  
+ <span data-ttu-id="22792-116">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="22792-116">The following table shows the files in this sample and describes their purpose.</span></span>  
   
-|<span data-ttu-id="5afb8-117">Archivos</span><span class="sxs-lookup"><span data-stu-id="5afb8-117">File(s)</span></span>|<span data-ttu-id="5afb8-118">Description</span><span class="sxs-lookup"><span data-stu-id="5afb8-118">Description</span></span>|  
+|<span data-ttu-id="22792-117">Archivos</span><span class="sxs-lookup"><span data-stu-id="22792-117">File(s)</span></span>|<span data-ttu-id="22792-118">Description</span><span class="sxs-lookup"><span data-stu-id="22792-118">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="5afb8-119">BrowsingArtifacts.cs</span><span class="sxs-lookup"><span data-stu-id="5afb8-119">BrowsingArtifacts.cs</span></span>|<span data-ttu-id="5afb8-120">Archivo de origen de [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] para las operaciones que se muestran en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="5afb8-120">[!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample.</span></span>|  
-|<span data-ttu-id="5afb8-121">BrowsingArtifacts.sln, BrowsingArtifacts.csproj, BrowsingArtifacts.suo</span><span class="sxs-lookup"><span data-stu-id="5afb8-121">BrowsingArtifacts.sln, BrowsingArtifacts.csproj, BrowsingArtifacts.suo</span></span>|<span data-ttu-id="5afb8-122">Archivos de solución y proyecto para el ejemplo.</span><span class="sxs-lookup"><span data-stu-id="5afb8-122">Solution and project files for the sample.</span></span>|  
+|<span data-ttu-id="22792-119">BrowsingArtifacts.cs</span><span class="sxs-lookup"><span data-stu-id="22792-119">BrowsingArtifacts.cs</span></span>|<span data-ttu-id="22792-120">Archivo de origen de [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] para las operaciones que se muestran en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="22792-120">[!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample.</span></span>|  
+|<span data-ttu-id="22792-121">BrowsingArtifacts.sln, BrowsingArtifacts.csproj, BrowsingArtifacts.suo</span><span class="sxs-lookup"><span data-stu-id="22792-121">BrowsingArtifacts.sln, BrowsingArtifacts.csproj, BrowsingArtifacts.suo</span></span>|<span data-ttu-id="22792-122">Archivos de solución y proyecto para el ejemplo.</span><span class="sxs-lookup"><span data-stu-id="22792-122">Solution and project files for the sample.</span></span>|  
   
-## <a name="building-and-running-this-sample"></a><span data-ttu-id="5afb8-123">Generación y ejecución del ejemplo</span><span class="sxs-lookup"><span data-stu-id="5afb8-123">Building and Running This Sample</span></span>  
+## <a name="building-and-running-this-sample"></a><span data-ttu-id="22792-123">Generación y ejecución del ejemplo</span><span class="sxs-lookup"><span data-stu-id="22792-123">Building and Running This Sample</span></span>  
   
-#### <a name="to-build-this-sample"></a><span data-ttu-id="5afb8-124">Procedimiento para generar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="5afb8-124">To build this sample</span></span>  
+#### <a name="to-build-this-sample"></a><span data-ttu-id="22792-124">Procedimiento para generar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="22792-124">To build this sample</span></span>  
   
-1.  <span data-ttu-id="5afb8-125">En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución BrowsingArtifacts.sln.</span><span class="sxs-lookup"><span data-stu-id="5afb8-125">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BrowsingArtifacts.sln.</span></span>  
+1.  <span data-ttu-id="22792-125">En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución BrowsingArtifacts.sln.</span><span class="sxs-lookup"><span data-stu-id="22792-125">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BrowsingArtifacts.sln.</span></span>  
   
-2.  <span data-ttu-id="5afb8-126">En el menú **Compilar** , haga clic en **Compilar solución**.</span><span class="sxs-lookup"><span data-stu-id="5afb8-126">On the **Build** menu, click **Build Solution**.</span></span>  
+2.  <span data-ttu-id="22792-126">En el menú **Compilar** , haga clic en **Compilar solución**.</span><span class="sxs-lookup"><span data-stu-id="22792-126">On the **Build** menu, click **Build Solution**.</span></span>  
   
-#### <a name="to-run-this-sample"></a><span data-ttu-id="5afb8-127">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="5afb8-127">To run this sample</span></span>  
+#### <a name="to-run-this-sample"></a><span data-ttu-id="22792-127">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="22792-127">To run this sample</span></span>  
   
-1.  <span data-ttu-id="5afb8-128">Abra una ventana de comandos y desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="5afb8-128">Open a command window and navigate to the following folder:</span></span>  
+1.  <span data-ttu-id="22792-128">Abra una ventana de comandos y desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="22792-128">Open a command window and navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="5afb8-129">\<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\BrowsingArtifacts\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="5afb8-129">\<*Samples Path*>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug</span></span>  
+     <span data-ttu-id="22792-129">\<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="22792-129">\<*Samples Path*\>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug</span></span>  
   
-2.  <span data-ttu-id="5afb8-130">Ejecute el archivo BrowsingArtifacts.exe.</span><span class="sxs-lookup"><span data-stu-id="5afb8-130">Run the file BrowsingArtifacts.exe.</span></span>  
+2.  <span data-ttu-id="22792-130">Ejecute el archivo BrowsingArtifacts.exe.</span><span class="sxs-lookup"><span data-stu-id="22792-130">Run the file BrowsingArtifacts.exe.</span></span>  
   
-## <a name="windows-powershell-script-example"></a><span data-ttu-id="5afb8-131">Ejemplo de un script de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5afb8-131">Windows PowerShell Script Example</span></span>  
- <span data-ttu-id="5afb8-132">El siguiente script de Windows PowerShell puede utilizarse para mostrar las mismas características de la **ExplorerOM** clases:</span><span class="sxs-lookup"><span data-stu-id="5afb8-132">The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes:</span></span>  
+## <a name="windows-powershell-script-example"></a><span data-ttu-id="22792-131">Ejemplo de un script de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="22792-131">Windows PowerShell Script Example</span></span>  
+ <span data-ttu-id="22792-132">El siguiente script de Windows PowerShell puede utilizarse para mostrar las mismas características de la **ExplorerOM** clases:</span><span class="sxs-lookup"><span data-stu-id="22792-132">The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes:</span></span>  
   
 ```  
 Function EnumOrchestrations($catalog)  
@@ -183,7 +183,7 @@ EnumOrchestrations $Catalog
 EnumOtherArtifacts $Catalog  
 ```  
   
- <span data-ttu-id="5afb8-133">A continuación se incluye un ejemplo de la ejecución del script de Windows PowerShell junto con el resultado correspondiente:</span><span class="sxs-lookup"><span data-stu-id="5afb8-133">Here is an example of running the Windows PowerShell script along with example output:</span></span>  
+ <span data-ttu-id="22792-133">A continuación se incluye un ejemplo de la ejecución del script de Windows PowerShell junto con el resultado correspondiente:</span><span class="sxs-lookup"><span data-stu-id="22792-133">Here is an example of running the Windows PowerShell script along with example output:</span></span>  
   
 ```  
 PS C:\> .\BrowsingArtifacts.ps1  
@@ -300,5 +300,5 @@ BTSWhitespaceTest.Map1 :
          FFDisassemblerWalkthrough.Body ==> BTSWhitespaceTest.Schema1  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="5afb8-134">Vea también</span><span class="sxs-lookup"><span data-stu-id="5afb8-134">See Also</span></span>  
- [<span data-ttu-id="5afb8-135">Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="5afb8-135">Admin-ExplorerOM (BizTalk Server Samples Folder)</span></span>](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a><span data-ttu-id="22792-134">Vea también</span><span class="sxs-lookup"><span data-stu-id="22792-134">See Also</span></span>  
+ [<span data-ttu-id="22792-135">Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="22792-135">Admin-ExplorerOM (BizTalk Server Samples Folder)</span></span>](../core/admin-explorerom-biztalk-server-samples-folder.md)

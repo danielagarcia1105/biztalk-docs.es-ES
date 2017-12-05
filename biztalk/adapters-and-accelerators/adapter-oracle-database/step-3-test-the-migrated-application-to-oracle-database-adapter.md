@@ -12,54 +12,54 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 144313f742bd4256319ff35435a401b4228093dd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30b5871aee85316b9885bd1ec22f4118c83743d1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="step-3-test-the-migrated-application-to-oracle-database-adapter"></a><span data-ttu-id="f219b-102">Paso 3: Probar la aplicación migrada al adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="f219b-102">Step 3: Test the migrated application to Oracle Database adapter</span></span>
-<span data-ttu-id="f219b-103">![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="f219b-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
+# <a name="step-3-test-the-migrated-application-to-oracle-database-adapter"></a><span data-ttu-id="ef513-102">Paso 3: Probar la aplicación migrada al adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="ef513-102">Step 3: Test the migrated application to Oracle Database adapter</span></span>
+<span data-ttu-id="ef513-103">![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="ef513-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
- <span data-ttu-id="f219b-104">**Tiempo en completarse:** 5 minutos</span><span class="sxs-lookup"><span data-stu-id="f219b-104">**Time to complete:** 5 minutes</span></span>  
+ <span data-ttu-id="ef513-104">**Tiempo en completarse:** 5 minutos</span><span class="sxs-lookup"><span data-stu-id="ef513-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="f219b-105">**Objetivo:** en este paso, probará la aplicación migrada realizando una operación de inserción en el SCOTT. Tabla de clientes.</span><span class="sxs-lookup"><span data-stu-id="f219b-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the SCOTT.CUSTOMER table.</span></span> <span data-ttu-id="f219b-106">Para ello, se coloca un mensaje de solicitud que se ajusta al esquema generado con el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="f219b-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Oracle Database adapter.</span></span>  
+ <span data-ttu-id="ef513-105">**Objetivo:** en este paso, probará la aplicación migrada realizando una operación de inserción en el SCOTT. Tabla de clientes.</span><span class="sxs-lookup"><span data-stu-id="ef513-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the SCOTT.CUSTOMER table.</span></span> <span data-ttu-id="ef513-106">Para ello, se coloca un mensaje de solicitud que se ajusta al esquema generado con el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="ef513-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Oracle Database adapter.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="f219b-107">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="f219b-107">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="ef513-107">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="ef513-107">Prerequisites</span></span>  
   
--   <span data-ttu-id="f219b-108">Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="f219b-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
+-   <span data-ttu-id="ef513-108">Configurar la aplicación de BizTalk mediante la asignación de los puertos lógicos de la orquestación de BizTalk a puertos físicos en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="ef513-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
   
--   <span data-ttu-id="f219b-109">Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom para basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f219b-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span>  
+-   <span data-ttu-id="ef513-109">Configurar la aplicación de BizTalk para utilizar el puerto de envío WCF-Custom para basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ef513-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span>  
   
-### <a name="to-test-the-migrated-application"></a><span data-ttu-id="f219b-110">Para probar la aplicación migrada</span><span class="sxs-lookup"><span data-stu-id="f219b-110">To test the migrated application</span></span>  
+### <a name="to-test-the-migrated-application"></a><span data-ttu-id="ef513-110">Para probar la aplicación migrada</span><span class="sxs-lookup"><span data-stu-id="ef513-110">To test the migrated application</span></span>  
   
-1.  <span data-ttu-id="f219b-111">En la carpeta Oracle_Migration, copie el mensaje de solicitud de OracleInsert.xml.</span><span class="sxs-lookup"><span data-stu-id="f219b-111">From the Oracle_Migration folder, copy the OracleInsert.xml request message.</span></span> <span data-ttu-id="f219b-112">Este mensaje de solicitud cumple el esquema generado por el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="f219b-112">This request message conforms to the schema generated by the vPrev Oracle Database adapter.</span></span> <span data-ttu-id="f219b-113">Mediante la asignación de salida, WCF-Custom enviarla convierte de puerto para que se ajuste al esquema de basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] y lo envía a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="f219b-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] and sends it to the Oracle database.</span></span>  
-  
-    ```  
-    \<ns0:Insert xmlns:ns0="http://schemas.microsoft.com/[OracleDb://ADAPTER/SCOTT/Tables/CUSTOMER]">  
-      \<ns0:Rows>  
-        \<ns0:InsertRecord>  
-          \<ns0:NAME>Customer_1\</ns0:NAME>  
-          \<ns0:STREET>Street_1\</ns0:STREET>  
-          \<ns0:CITY>City_1\</ns0:CITY>  
-        \</ns0:InsertRecord>  
-        \<ns0:InsertRecord>  
-          \<ns0:NAME>Customer_2\</ns0:NAME>  
-          \<ns0:STREET>Street_2\</ns0:STREET>  
-          \<ns0:CITY>City_2\</ns0:CITY>  
-        \</ns0:InsertRecord>  
-      \</ns0:Rows>  
-    \</ns0:Insert>  
-    ```  
-  
-2.  <span data-ttu-id="f219b-114">Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="f219b-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
-  
-3.  <span data-ttu-id="f219b-115">La orquestación consume el mensaje de solicitud y lo envía a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="f219b-115">The orchestration consumes the request message and sends it to the Oracle database.</span></span> <span data-ttu-id="f219b-116">Se recibe la respuesta de la base de datos de Oracle en el esquema que se ajusta con el esquema de basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f219b-116">The response from the Oracle database is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span> <span data-ttu-id="f219b-117">Mediante la asignación de entrada, WCF-Custom enviarla puerto convierte el esquema para el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="f219b-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Oracle Database adapter.</span></span> <span data-ttu-id="f219b-118">La respuesta de la base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="f219b-118">The response from the Oracle database is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="f219b-119">La respuesta para el mensaje de solicitud anterior es:</span><span class="sxs-lookup"><span data-stu-id="f219b-119">The response for the preceding request message is:</span></span>  
+1.  <span data-ttu-id="ef513-111">En la carpeta Oracle_Migration, copie el mensaje de solicitud de OracleInsert.xml.</span><span class="sxs-lookup"><span data-stu-id="ef513-111">From the Oracle_Migration folder, copy the OracleInsert.xml request message.</span></span> <span data-ttu-id="ef513-112">Este mensaje de solicitud cumple el esquema generado por el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="ef513-112">This request message conforms to the schema generated by the vPrev Oracle Database adapter.</span></span> <span data-ttu-id="ef513-113">Mediante la asignación de salida, WCF-Custom enviarla convierte de puerto para que se ajuste al esquema de basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] y lo envía a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="ef513-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] and sends it to the Oracle database.</span></span>  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
-    \<ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[OracleDb://ADAPTER/SCOTT/Tables/CUSTOMER]">\</ns0:InsertResponse>  
+    <ns0:Insert xmlns:ns0="http://schemas.microsoft.com/[OracleDb://ADAPTER/SCOTT/Tables/CUSTOMER]">  
+      <ns0:Rows>  
+        <ns0:InsertRecord>  
+          <ns0:NAME>Customer_1</ns0:NAME>  
+          <ns0:STREET>Street_1</ns0:STREET>  
+          <ns0:CITY>City_1</ns0:CITY>  
+        </ns0:InsertRecord>  
+        <ns0:InsertRecord>  
+          <ns0:NAME>Customer_2</ns0:NAME>  
+          <ns0:STREET>Street_2</ns0:STREET>  
+          <ns0:CITY>City_2</ns0:CITY>  
+        </ns0:InsertRecord>  
+      </ns0:Rows>  
+    </ns0:Insert>  
     ```  
   
-## <a name="see-also"></a><span data-ttu-id="f219b-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="f219b-120">See Also</span></span>  
- <span data-ttu-id="f219b-121">[Tutorial: Migrar proyectos de BizTalk](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)</span><span class="sxs-lookup"><span data-stu-id="f219b-121">[Tutorial: Migrating BizTalk Projects](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)</span></span>
+2.  <span data-ttu-id="ef513-114">Pegar el mensaje de solicitud a la carpeta que se asigna al archivo de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="ef513-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
+  
+3.  <span data-ttu-id="ef513-115">La orquestación consume el mensaje de solicitud y lo envía a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="ef513-115">The orchestration consumes the request message and sends it to the Oracle database.</span></span> <span data-ttu-id="ef513-116">Se recibe la respuesta de la base de datos de Oracle en el esquema que se ajusta con el esquema de basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ef513-116">The response from the Oracle database is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span> <span data-ttu-id="ef513-117">Mediante la asignación de entrada, WCF-Custom enviarla puerto convierte el esquema para el adaptador de la base de datos de Oracle vPrev.</span><span class="sxs-lookup"><span data-stu-id="ef513-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Oracle Database adapter.</span></span> <span data-ttu-id="ef513-118">La respuesta de la base de datos de Oracle se guarda en la otra ubicación de archivo definida como parte de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="ef513-118">The response from the Oracle database is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="ef513-119">La respuesta para el mensaje de solicitud anterior es:</span><span class="sxs-lookup"><span data-stu-id="ef513-119">The response for the preceding request message is:</span></span>  
+  
+    ```  
+    <?xml version="1.0" encoding="utf-8"?>  
+    <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[OracleDb://ADAPTER/SCOTT/Tables/CUSTOMER]"></ns0:InsertResponse>  
+    ```  
+  
+## <a name="see-also"></a><span data-ttu-id="ef513-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="ef513-120">See Also</span></span>  
+ <span data-ttu-id="ef513-121">[Tutorial: Migrar proyectos de BizTalk](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)</span><span class="sxs-lookup"><span data-stu-id="ef513-121">[Tutorial: Migrating BizTalk Projects](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)</span></span>

@@ -17,46 +17,46 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3411adf32a15cd2a3b5f11a02dbafcf58f66b184
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d5780be22259fcd118ab70a0bc80174b53a9f27
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="what-is-a-bam-definition-schema"></a><span data-ttu-id="320e0-103">¿Qué es un esquema de definición de BAM?</span><span class="sxs-lookup"><span data-stu-id="320e0-103">What Is a BAM Definition Schema?</span></span>
-<span data-ttu-id="320e0-104">El esquema de definición de BAM define la estructura del modelo de observación que creó el analista de negocios.</span><span class="sxs-lookup"><span data-stu-id="320e0-104">The BAM definition schema defines the structure of the observation model created by the business analyst.</span></span>  
+# <a name="what-is-a-bam-definition-schema"></a><span data-ttu-id="c6261-103">¿Qué es un esquema de definición de BAM?</span><span class="sxs-lookup"><span data-stu-id="c6261-103">What Is a BAM Definition Schema?</span></span>
+<span data-ttu-id="c6261-104">El esquema de definición de BAM define la estructura del modelo de observación que creó el analista de negocios.</span><span class="sxs-lookup"><span data-stu-id="c6261-104">The BAM definition schema defines the structure of the observation model created by the business analyst.</span></span>  
   
- <span data-ttu-id="320e0-105">El esquema define la estructura del documento XML de definición de BAM, incluidos los elementos y subelementos del documento.</span><span class="sxs-lookup"><span data-stu-id="320e0-105">The schema defines the structure of the BAM definition XML document including the document's elements and subelements.</span></span> <span data-ttu-id="320e0-106">Por ejemplo, el elemento raíz es la definición de BAM y, dentro de la definición de BAM, existen los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="320e0-106">For example, the root element is the BAM definition, and inside the BAM definition there are the following elements:</span></span>  
+ <span data-ttu-id="c6261-105">El esquema define la estructura del documento XML de definición de BAM, incluidos los elementos y subelementos del documento.</span><span class="sxs-lookup"><span data-stu-id="c6261-105">The schema defines the structure of the BAM definition XML document including the document's elements and subelements.</span></span> <span data-ttu-id="c6261-106">Por ejemplo, el elemento raíz es la definición de BAM y, dentro de la definición de BAM, existen los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="c6261-106">For example, the root element is the BAM definition, and inside the BAM definition there are the following elements:</span></span>  
   
--   <span data-ttu-id="320e0-107">Actividades</span><span class="sxs-lookup"><span data-stu-id="320e0-107">Activities</span></span>  
+-   <span data-ttu-id="c6261-107">Actividades</span><span class="sxs-lookup"><span data-stu-id="c6261-107">Activities</span></span>  
   
--   <span data-ttu-id="320e0-108">Vistas</span><span class="sxs-lookup"><span data-stu-id="320e0-108">Views</span></span>  
+-   <span data-ttu-id="c6261-108">Vistas</span><span class="sxs-lookup"><span data-stu-id="c6261-108">Views</span></span>  
   
--   <span data-ttu-id="320e0-109">Cubos</span><span class="sxs-lookup"><span data-stu-id="320e0-109">Cubes</span></span>  
+-   <span data-ttu-id="c6261-109">Cubos</span><span class="sxs-lookup"><span data-stu-id="c6261-109">Cubes</span></span>  
   
--   <span data-ttu-id="320e0-110">Alertas</span><span class="sxs-lookup"><span data-stu-id="320e0-110">Alerts</span></span>  
-  
-> [!NOTE]
->  <span data-ttu-id="320e0-111">Si el XML de definición de BAM contiene dos vistas y el usuario solo tiene permisos para una de las vistas, acerca de cómo realizar una llamada a **GetViewDefinition**, el usuario obtiene la definición de ambas vistas.</span><span class="sxs-lookup"><span data-stu-id="320e0-111">If the BAM definition XML contains two views and the user only has permission for one of the views, on making a call to **GetViewDefinition**, the user gets back the definition of both views.</span></span>  
-  
- <span data-ttu-id="320e0-112">El esquema define las restricciones del documento.</span><span class="sxs-lookup"><span data-stu-id="320e0-112">The schema defines the document constraints.</span></span> <span data-ttu-id="320e0-113">Las restricciones indican, por ejemplo, que algunos elementos sólo pueden hacer referencia a otros elementos determinados.</span><span class="sxs-lookup"><span data-stu-id="320e0-113">The constraints dictate, for example, that some elements can only reference certain other elements.</span></span>  
-  
- <span data-ttu-id="320e0-114">Puede crear un archivo XML que contiene las definiciones de BAM (instancias de este esquema) con cualquier editor de texto o mediante el complemento de BAM para Excel para crear una hoja de cálculo que se pueden exportar a un archivo XML mediante el uso de la exportación de complemento de BAM para la característica XML.</span><span class="sxs-lookup"><span data-stu-id="320e0-114">You can create an XML file containing the BAM definitions (instances of this schema) with any text editor or by using BAM Add-in for Excel to create a worksheet that can be exported into an XML file by using the BAM add-in export to XML feature .</span></span>  
-  
- <span data-ttu-id="320e0-115">Tras definir las vistas y actividades de BAM, debe exportar manualmente el archivo XML ya que la utilidad de administración de BAM (bm.exe) puede leer esta hoja de cálculo y obtener el XML de ella para implementar automáticamente su infraestructura.</span><span class="sxs-lookup"><span data-stu-id="320e0-115">Once you define the BAM activities and views, you do not have to manually export the XML file, since the BAM Management utility (bm.exe) can read this spreadsheet and get the XML from it to deploy your infrastructure automatically.</span></span> <span data-ttu-id="320e0-116">El resultado es otra copia de la hoja de cálculo denominada \<el nombre del libro > _Livedata.xls.</span><span class="sxs-lookup"><span data-stu-id="320e0-116">The result is another copy of the spreadsheet named \<your workbook name>_Livedata.xls.</span></span> <span data-ttu-id="320e0-117">Puede usar esta hoja de cálculo nueva para conectarse al origen de datos en directo y ver las agregaciones en los informes de tabla dinámica.</span><span class="sxs-lookup"><span data-stu-id="320e0-117">You can use this new spreadsheet to connect to your live data source and view the aggregations in PivotTable reports.</span></span>  
+-   <span data-ttu-id="c6261-110">Alertas</span><span class="sxs-lookup"><span data-stu-id="c6261-110">Alerts</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="320e0-118">No se pueden ver los datos activos con las herramientas de Office si exporta manualmente el archivo XML mediante el elemento de menú de BAM en la parte superior de la hoja de cálculo y usa la utilidad de administración de BAM para implementar el archivo XML exportado, y no el archivo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="320e0-118">If you manually export your XML file through the BAM menu item at the top of the spreadsheet and use the BAM Management utility to deploy the exported XML file and not the Microsoft Excel file, then you cannot view your live data using the Office tools.</span></span>  
+>  <span data-ttu-id="c6261-111">Si el XML de definición de BAM contiene dos vistas y el usuario solo tiene permisos para una de las vistas, acerca de cómo realizar una llamada a **GetViewDefinition**, el usuario obtiene la definición de ambas vistas.</span><span class="sxs-lookup"><span data-stu-id="c6261-111">If the BAM definition XML contains two views and the user only has permission for one of the views, on making a call to **GetViewDefinition**, the user gets back the definition of both views.</span></span>  
+  
+ <span data-ttu-id="c6261-112">El esquema define las restricciones del documento.</span><span class="sxs-lookup"><span data-stu-id="c6261-112">The schema defines the document constraints.</span></span> <span data-ttu-id="c6261-113">Las restricciones indican, por ejemplo, que algunos elementos sólo pueden hacer referencia a otros elementos determinados.</span><span class="sxs-lookup"><span data-stu-id="c6261-113">The constraints dictate, for example, that some elements can only reference certain other elements.</span></span>  
+  
+ <span data-ttu-id="c6261-114">Puede crear un archivo XML que contiene las definiciones de BAM (instancias de este esquema) con cualquier editor de texto o mediante el complemento de BAM para Excel para crear una hoja de cálculo que se pueden exportar a un archivo XML mediante el uso de la exportación de complemento de BAM para la característica XML.</span><span class="sxs-lookup"><span data-stu-id="c6261-114">You can create an XML file containing the BAM definitions (instances of this schema) with any text editor or by using BAM Add-in for Excel to create a worksheet that can be exported into an XML file by using the BAM add-in export to XML feature .</span></span>  
+  
+ <span data-ttu-id="c6261-115">Tras definir las vistas y actividades de BAM, debe exportar manualmente el archivo XML ya que la utilidad de administración de BAM (bm.exe) puede leer esta hoja de cálculo y obtener el XML de ella para implementar automáticamente su infraestructura.</span><span class="sxs-lookup"><span data-stu-id="c6261-115">Once you define the BAM activities and views, you do not have to manually export the XML file, since the BAM Management utility (bm.exe) can read this spreadsheet and get the XML from it to deploy your infrastructure automatically.</span></span> <span data-ttu-id="c6261-116">El resultado es otra copia de la hoja de cálculo denominada \<el nombre del libro\>_Livedata.xls.</span><span class="sxs-lookup"><span data-stu-id="c6261-116">The result is another copy of the spreadsheet named \<your workbook name\>_Livedata.xls.</span></span> <span data-ttu-id="c6261-117">Puede usar esta hoja de cálculo nueva para conectarse al origen de datos en directo y ver las agregaciones en los informes de tabla dinámica.</span><span class="sxs-lookup"><span data-stu-id="c6261-117">You can use this new spreadsheet to connect to your live data source and view the aggregations in PivotTable reports.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="320e0-119">Si exporta una definición de BAM como XML, no podrá exportar la definición de BAM al host local.</span><span class="sxs-lookup"><span data-stu-id="320e0-119">When you export a BAM definition as XML, you cannot export the BAM definition to localhost.</span></span> <span data-ttu-id="320e0-120">Por ejemplo, al intentar exportar la definición de BAM a `\\localhost\C$\definition1.xml` daría un error como resultado.</span><span class="sxs-lookup"><span data-stu-id="320e0-120">For example, trying to export the BAM definition to `\\localhost\C$\definition1.xml` would result in an error.</span></span>  
+>  <span data-ttu-id="c6261-118">No se pueden ver los datos activos con las herramientas de Office si exporta manualmente el archivo XML mediante el elemento de menú de BAM en la parte superior de la hoja de cálculo y usa la utilidad de administración de BAM para implementar el archivo XML exportado, y no el archivo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="c6261-118">If you manually export your XML file through the BAM menu item at the top of the spreadsheet and use the BAM Management utility to deploy the exported XML file and not the Microsoft Excel file, then you cannot view your live data using the Office tools.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="c6261-119">Si exporta una definición de BAM como XML, no podrá exportar la definición de BAM al host local.</span><span class="sxs-lookup"><span data-stu-id="c6261-119">When you export a BAM definition as XML, you cannot export the BAM definition to localhost.</span></span> <span data-ttu-id="c6261-120">Por ejemplo, al intentar exportar la definición de BAM a `\\localhost\C$\definition1.xml` daría un error como resultado.</span><span class="sxs-lookup"><span data-stu-id="c6261-120">For example, trying to export the BAM definition to `\\localhost\C$\definition1.xml` would result in an error.</span></span>  
 >   
->  <span data-ttu-id="320e0-121">De forma similar, no puede importar una definición de BAM desde el host local.</span><span class="sxs-lookup"><span data-stu-id="320e0-121">Similarly, you cannot import a BAM definition from localhost.</span></span>  
+>  <span data-ttu-id="c6261-121">De forma similar, no puede importar una definición de BAM desde el host local.</span><span class="sxs-lookup"><span data-stu-id="c6261-121">Similarly, you cannot import a BAM definition from localhost.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="320e0-122">Si cambia las actividades o las vistas, es necesario que quite y luego vuelva a implementar la definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="320e0-122">If you change the activities or views, you need to remove and then redeploy the BAM definition.</span></span>  
+>  <span data-ttu-id="c6261-122">Si cambia las actividades o las vistas, es necesario que quite y luego vuelva a implementar la definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="c6261-122">If you change the activities or views, you need to remove and then redeploy the BAM definition.</span></span>  
   
- <span data-ttu-id="320e0-123">El archivo siguiente es el propio esquema de definición de BAM:</span><span class="sxs-lookup"><span data-stu-id="320e0-123">The following file is the BAM definition schema itself:</span></span>  
+ <span data-ttu-id="c6261-123">El archivo siguiente es el propio esquema de definición de BAM:</span><span class="sxs-lookup"><span data-stu-id="c6261-123">The following file is the BAM definition schema itself:</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-16"?>  
@@ -684,9 +684,9 @@ ms.lasthandoff: 09/20/2017
 </xs:schema>  
 ```  
   
- <span data-ttu-id="320e0-124">**XML de ejemplo**</span><span class="sxs-lookup"><span data-stu-id="320e0-124">**Example XML**</span></span>  
+ <span data-ttu-id="c6261-124">**XML de ejemplo**</span><span class="sxs-lookup"><span data-stu-id="c6261-124">**Example XML**</span></span>  
   
- <span data-ttu-id="320e0-125">El ejemplo siguiente es un archivo XML que se ajusta al esquema de definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="320e0-125">The following example is an XML file that conforms to the BAM definition schema.</span></span>  
+ <span data-ttu-id="c6261-125">El ejemplo siguiente es un archivo XML que se ajusta al esquema de definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="c6261-125">The following example is an XML file that conforms to the BAM definition schema.</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-8" ?>  
@@ -923,6 +923,6 @@ ms.lasthandoff: 09/20/2017
 </BAM:BAMDefinition>  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="320e0-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="320e0-126">See Also</span></span>  
- <span data-ttu-id="320e0-127">[Esquema de configuración de BAM](../core/bam-configuration-schema.md) </span><span class="sxs-lookup"><span data-stu-id="320e0-127">[BAM Configuration Schema](../core/bam-configuration-schema.md) </span></span>  
- [<span data-ttu-id="320e0-128">Infraestructura dinámica de BAM</span><span class="sxs-lookup"><span data-stu-id="320e0-128">BAM Dynamic Infrastructure</span></span>](../core/bam-dynamic-infrastructure.md)
+## <a name="see-also"></a><span data-ttu-id="c6261-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="c6261-126">See Also</span></span>  
+ <span data-ttu-id="c6261-127">[Esquema de configuración de BAM](../core/bam-configuration-schema.md) </span><span class="sxs-lookup"><span data-stu-id="c6261-127">[BAM Configuration Schema](../core/bam-configuration-schema.md) </span></span>  
+ [<span data-ttu-id="c6261-128">Infraestructura dinámica de BAM</span><span class="sxs-lookup"><span data-stu-id="c6261-128">BAM Dynamic Infrastructure</span></span>](../core/bam-dynamic-infrastructure.md)

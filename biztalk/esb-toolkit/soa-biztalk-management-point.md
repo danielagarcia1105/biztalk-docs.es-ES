@@ -12,19 +12,19 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22e779bf9e6297cc9e69e7e0cd85b88afc44dccf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19d57f602854572349d7fc7905a607c19fec5cf2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
-# <a name="soa-biztalk-management-point"></a><span data-ttu-id="99b98-102">Punto de administración de BizTalk de SOA</span><span class="sxs-lookup"><span data-stu-id="99b98-102">SOA BizTalk Management Point</span></span>
-<span data-ttu-id="99b98-103">El punto de administración de BizTalk para [!INCLUDE[prague](../includes/prague-md.md)] es una extensión conceptual para el punto de administración de Software de SOA Web Services, que se aplica específicamente a la [!INCLUDE[prague](../includes/prague-md.md)] las aplicaciones de servicio de entorno y proporcionar el control de tiempo de ejecución de Web.</span><span class="sxs-lookup"><span data-stu-id="99b98-103">The BizTalk Management Point for [!INCLUDE[prague](../includes/prague-md.md)] is a conceptual extension to SOA Software's Web Services Management Point, applied specifically to the [!INCLUDE[prague](../includes/prague-md.md)] environment and providing run-time governance for Web service applications.</span></span>  
+# <a name="soa-biztalk-management-point"></a><span data-ttu-id="8d49e-102">Punto de administración de BizTalk de SOA</span><span class="sxs-lookup"><span data-stu-id="8d49e-102">SOA BizTalk Management Point</span></span>
+<span data-ttu-id="8d49e-103">El punto de administración de BizTalk para que BizTalk Server es una extensión conceptual a punto de administración de servicios de Web de Software de SOA, aplica específicamente para el entorno de BizTalk Server y proporcionar el control de tiempo de ejecución de aplicaciones de servicio Web.</span><span class="sxs-lookup"><span data-stu-id="8d49e-103">The BizTalk Management Point for BizTalk Server is a conceptual extension to SOA Software's Web Services Management Point, applied specifically to the BizTalk Server environment and providing run-time governance for Web service applications.</span></span>  
   
- <span data-ttu-id="99b98-104">Esta sección contiene los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="99b98-104">This section contains the following topics:</span></span>  
+ <span data-ttu-id="8d49e-104">Esta sección contiene los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="8d49e-104">This section contains the following topics:</span></span>  
   
--   [<span data-ttu-id="99b98-105">Información general sobre el punto de administración de BizTalk de SOA</span><span class="sxs-lookup"><span data-stu-id="99b98-105">Overview of the SOA BizTalk Management Point</span></span>](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
+-   [<span data-ttu-id="8d49e-105">Información general sobre el punto de administración de SOA de BizTalk</span><span class="sxs-lookup"><span data-stu-id="8d49e-105">Overview of the SOA BizTalk Management Point</span></span>](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
   
--   [<span data-ttu-id="99b98-106">Integración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="99b98-106">BizTalk Server Integration</span></span>](../esb-toolkit/biztalk-server-integration1.md)  
+-   [<span data-ttu-id="8d49e-106">Integración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="8d49e-106">BizTalk Server Integration</span></span>](../esb-toolkit/biztalk-server-integration1.md)  
   
--   [<span data-ttu-id="99b98-107">Información de uso y las directivas de supervisión</span><span class="sxs-lookup"><span data-stu-id="99b98-107">Monitoring Policies and Usage Information</span></span>](../esb-toolkit/monitoring-policies-and-usage-information.md)
+-   [<span data-ttu-id="8d49e-107">Directivas de supervisión e información de uso</span><span class="sxs-lookup"><span data-stu-id="8d49e-107">Monitoring Policies and Usage Information</span></span>](../esb-toolkit/monitoring-policies-and-usage-information.md)

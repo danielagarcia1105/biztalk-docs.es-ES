@@ -12,88 +12,88 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1fa513f0dfb9208abc3e9231f3b8eb23c0b561d9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c9bb4a3453539a4c1329e9b0a2de6b46785b53fd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="sendportgroups-biztalk-server-sample"></a><span data-ttu-id="89193-102">SendPortGroups (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="89193-102">SendPortGroups (BizTalk Server Sample)</span></span>
-<span data-ttu-id="89193-103">El ejemplo SendPortGroups muestra cómo enumerar y administrar grupos de puertos de envío mediante el **Microsoft.BizTalk.ExplorerOM** las clases de administración.</span><span class="sxs-lookup"><span data-stu-id="89193-103">The SendPortGroups sample demonstrates how to enumerate and manage send port groups by using the **Microsoft.BizTalk.ExplorerOM** administration classes.</span></span>  
+# <a name="sendportgroups-biztalk-server-sample"></a><span data-ttu-id="bcd45-102">SendPortGroups (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="bcd45-102">SendPortGroups (BizTalk Server Sample)</span></span>
+<span data-ttu-id="bcd45-103">El ejemplo SendPortGroups muestra cómo enumerar y administrar grupos de puertos de envío mediante el **Microsoft.BizTalk.ExplorerOM** las clases de administración.</span><span class="sxs-lookup"><span data-stu-id="bcd45-103">The SendPortGroups sample demonstrates how to enumerate and manage send port groups by using the **Microsoft.BizTalk.ExplorerOM** administration classes.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="89193-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="89193-104">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="bcd45-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="bcd45-104">Prerequisites</span></span>  
   
--   <span data-ttu-id="89193-105">Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="89193-105">You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.</span></span>  
+-   <span data-ttu-id="bcd45-105">Debe disponer de privilegios administrativos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar los objetos de administración de este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bcd45-105">You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.</span></span>  
   
--   <span data-ttu-id="89193-106">El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts.</span><span class="sxs-lookup"><span data-stu-id="89193-106">The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution.</span></span> <span data-ttu-id="89193-107">Para obtener más información, vea [Examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).</span><span class="sxs-lookup"><span data-stu-id="89193-107">For more information see [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).</span></span>  
+-   <span data-ttu-id="bcd45-106">El script de Windows PowerShell requiere que la directiva de ejecución de Windows PowerShell permita la ejecución de scripts.</span><span class="sxs-lookup"><span data-stu-id="bcd45-106">The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution.</span></span> <span data-ttu-id="bcd45-107">Para obtener más información, vea [Examinar la directiva de ejecución](http://go.microsoft.com/fwlink/?LinkId=128930).</span><span class="sxs-lookup"><span data-stu-id="bcd45-107">For more information see [Examining the Execution Policy](http://go.microsoft.com/fwlink/?LinkId=128930).</span></span>  
   
-## <a name="what-this-sample-does"></a><span data-ttu-id="89193-108">Descripción del ejemplo</span><span class="sxs-lookup"><span data-stu-id="89193-108">What This Sample Does</span></span>  
- <span data-ttu-id="89193-109">Este ejemplo muestra cómo utilizar el **BtsCatalogExplorer** y **grupoPuertosEnvío** clases a partir de la **Microsoft.BizTalk.ExplorerOM** espacio de nombres para administrar grupos de puertos de envío en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="89193-109">This sample demonstrates using the **BtsCatalogExplorer** and **SendPortGroup** classes from the **Microsoft.BizTalk.ExplorerOM** namespace to manage send port groups in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="89193-110">El ejemplo está escrito en Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="89193-110">The sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span></span> <span data-ttu-id="89193-111">En este tema también se incluye un script de ejemplo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="89193-111">A Windows PowerShell example script is also included in this topic.</span></span> <span data-ttu-id="89193-112">El ejemplo muestra las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="89193-112">The sample demonstrates the following operations:</span></span>  
+## <a name="what-this-sample-does"></a><span data-ttu-id="bcd45-108">Descripción del ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcd45-108">What This Sample Does</span></span>  
+ <span data-ttu-id="bcd45-109">Este ejemplo muestra cómo utilizar el **BtsCatalogExplorer** y **grupoPuertosEnvío** clases a partir de la **Microsoft.BizTalk.ExplorerOM** espacio de nombres para administrar grupos de puertos de envío en un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="bcd45-109">This sample demonstrates using the **BtsCatalogExplorer** and **SendPortGroup** classes from the **Microsoft.BizTalk.ExplorerOM** namespace to manage send port groups in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="bcd45-110">El ejemplo está escrito en Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="bcd45-110">The sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span></span> <span data-ttu-id="bcd45-111">En este tema también se incluye un script de ejemplo de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bcd45-111">A Windows PowerShell example script is also included in this topic.</span></span> <span data-ttu-id="bcd45-112">El ejemplo muestra las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="bcd45-112">The sample demonstrates the following operations:</span></span>  
   
--   <span data-ttu-id="89193-113">Conectarse a la base de datos de administración de BizTalk mediante el **BtsCatalogExplorer** clase.</span><span class="sxs-lookup"><span data-stu-id="89193-113">Connecting to the BizTalk Management database by using the **BtsCatalogExplorer** class.</span></span>  
+-   <span data-ttu-id="bcd45-113">Conectarse a la base de datos de administración de BizTalk mediante el **BtsCatalogExplorer** clase.</span><span class="sxs-lookup"><span data-stu-id="bcd45-113">Connecting to the BizTalk Management database by using the **BtsCatalogExplorer** class.</span></span>  
   
--   <span data-ttu-id="89193-114">Creación de un nuevo puerto de envío denominado “My Send Port Group”.</span><span class="sxs-lookup"><span data-stu-id="89193-114">Creating a new send port group named “My Send Port Group”.</span></span>  
+-   <span data-ttu-id="bcd45-114">Creación de un nuevo puerto de envío denominado “My Send Port Group”.</span><span class="sxs-lookup"><span data-stu-id="bcd45-114">Creating a new send port group named “My Send Port Group”.</span></span>  
   
--   <span data-ttu-id="89193-115">Enumeración de grupos de puerto de envío para mostrar el grupo de puertos de envío recién creados.</span><span class="sxs-lookup"><span data-stu-id="89193-115">Enumerating send port groups to display the newly created send port group.</span></span>  
+-   <span data-ttu-id="bcd45-115">Enumeración de grupos de puerto de envío para mostrar el grupo de puertos de envío recién creados.</span><span class="sxs-lookup"><span data-stu-id="bcd45-115">Enumerating send port groups to display the newly created send port group.</span></span>  
   
--   <span data-ttu-id="89193-116">Eliminación del nuevo grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="89193-116">Deleting the new send port group.</span></span>  
+-   <span data-ttu-id="bcd45-116">Eliminación del nuevo grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="bcd45-116">Deleting the new send port group.</span></span>  
   
- <span data-ttu-id="89193-117">En el ejemplo están presentes funciones adicionales, pero no se ejecutan en la versión [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="89193-117">Additional functions are present in the sample but are not executed in the [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] version.</span></span>  <span data-ttu-id="89193-118">Algunas de las funciones adicionales se muestran en el script de ejemplo de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="89193-118">Some of the additional functions are demonstrated in the PowerShell example script.</span></span> <span data-ttu-id="89193-119">Las funciones adicionales muestran las siguientes funciones:</span><span class="sxs-lookup"><span data-stu-id="89193-119">The additional functions demonstrate the following functionality:</span></span>  
+ <span data-ttu-id="bcd45-117">En el ejemplo están presentes funciones adicionales, pero no se ejecutan en la versión [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)].</span><span class="sxs-lookup"><span data-stu-id="bcd45-117">Additional functions are present in the sample but are not executed in the [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] version.</span></span>  <span data-ttu-id="bcd45-118">Algunas de las funciones adicionales se muestran en el script de ejemplo de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bcd45-118">Some of the additional functions are demonstrated in the PowerShell example script.</span></span> <span data-ttu-id="bcd45-119">Las funciones adicionales muestran las siguientes funciones:</span><span class="sxs-lookup"><span data-stu-id="bcd45-119">The additional functions demonstrate the following functionality:</span></span>  
   
--   <span data-ttu-id="89193-120">Adición de un puerto de envío al grupo de puertos de envío recién creado (que se describe en el ejemplo de PowerShell).</span><span class="sxs-lookup"><span data-stu-id="89193-120">Adding a send port to the newly created send port group (covered in the PowerShell example).</span></span>  
+-   <span data-ttu-id="bcd45-120">Adición de un puerto de envío al grupo de puertos de envío recién creado (que se describe en el ejemplo de PowerShell).</span><span class="sxs-lookup"><span data-stu-id="bcd45-120">Adding a send port to the newly created send port group (covered in the PowerShell example).</span></span>  
   
--   <span data-ttu-id="89193-121">Eliminación de un puerto de envío del grupo de puertos de envío (que se describe en el ejemplo de PowerShell).</span><span class="sxs-lookup"><span data-stu-id="89193-121">Deleting a send port from the send port group (covered in the PowerShell example).</span></span>  
+-   <span data-ttu-id="bcd45-121">Eliminación de un puerto de envío del grupo de puertos de envío (que se describe en el ejemplo de PowerShell).</span><span class="sxs-lookup"><span data-stu-id="bcd45-121">Deleting a send port from the send port group (covered in the PowerShell example).</span></span>  
   
--   <span data-ttu-id="89193-122">Inicio del grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="89193-122">Starting the send port group.</span></span>  
+-   <span data-ttu-id="bcd45-122">Inicio del grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="bcd45-122">Starting the send port group.</span></span>  
   
--   <span data-ttu-id="89193-123">Detención del grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="89193-123">Stopping the send port group.</span></span>  
+-   <span data-ttu-id="bcd45-123">Detención del grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="bcd45-123">Stopping the send port group.</span></span>  
   
-## <a name="where-to-find-this-sample"></a><span data-ttu-id="89193-124">Dónde encontrar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="89193-124">Where To Find This Sample</span></span>  
- <span data-ttu-id="89193-125">El ejemplo se encuentra en la siguiente ubicación del SDK:</span><span class="sxs-lookup"><span data-stu-id="89193-125">The sample is located in the following SDK location:</span></span>  
+## <a name="where-to-find-this-sample"></a><span data-ttu-id="bcd45-124">Dónde encontrar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcd45-124">Where To Find This Sample</span></span>  
+ <span data-ttu-id="bcd45-125">El ejemplo se encuentra en la siguiente ubicación del SDK:</span><span class="sxs-lookup"><span data-stu-id="bcd45-125">The sample is located in the following SDK location:</span></span>  
   
- <span data-ttu-id="89193-126">\<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\SendPortGroups</span><span class="sxs-lookup"><span data-stu-id="89193-126">\<*Samples Path*>\Admin\ExplorerOM\SendPortGroups</span></span>  
+ <span data-ttu-id="bcd45-126">\<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\SendPortGroups</span><span class="sxs-lookup"><span data-stu-id="bcd45-126">\<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups</span></span>  
   
- <span data-ttu-id="89193-127">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="89193-127">The following table shows the files in this sample and describes their purpose.</span></span>  
+ <span data-ttu-id="bcd45-127">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="bcd45-127">The following table shows the files in this sample and describes their purpose.</span></span>  
   
-|<span data-ttu-id="89193-128">Archivos</span><span class="sxs-lookup"><span data-stu-id="89193-128">File(s)</span></span>|<span data-ttu-id="89193-129">Description</span><span class="sxs-lookup"><span data-stu-id="89193-129">Description</span></span>|  
+|<span data-ttu-id="bcd45-128">Archivos</span><span class="sxs-lookup"><span data-stu-id="bcd45-128">File(s)</span></span>|<span data-ttu-id="bcd45-129">Description</span><span class="sxs-lookup"><span data-stu-id="bcd45-129">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="89193-130">SendPortGroups.cs</span><span class="sxs-lookup"><span data-stu-id="89193-130">SendPortGroups.cs</span></span>|<span data-ttu-id="89193-131">Archivo de origen de [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] para las operaciones que se muestran en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="89193-131">[!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample.</span></span>|  
-|<span data-ttu-id="89193-132">SendPortGroups.sln, SendPortGroups.csproj, SendPortGroups.suo</span><span class="sxs-lookup"><span data-stu-id="89193-132">SendPortGroups.sln, SendPortGroups.csproj, SendPortGroups.suo</span></span>|<span data-ttu-id="89193-133">Archivos de solución y proyecto para el ejemplo.</span><span class="sxs-lookup"><span data-stu-id="89193-133">Solution and project files for the sample.</span></span>|  
+|<span data-ttu-id="bcd45-130">SendPortGroups.cs</span><span class="sxs-lookup"><span data-stu-id="bcd45-130">SendPortGroups.cs</span></span>|<span data-ttu-id="bcd45-131">Archivo de origen de [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] para las operaciones que se muestran en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bcd45-131">[!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample.</span></span>|  
+|<span data-ttu-id="bcd45-132">SendPortGroups.sln, SendPortGroups.csproj, SendPortGroups.suo</span><span class="sxs-lookup"><span data-stu-id="bcd45-132">SendPortGroups.sln, SendPortGroups.csproj, SendPortGroups.suo</span></span>|<span data-ttu-id="bcd45-133">Archivos de solución y proyecto para el ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bcd45-133">Solution and project files for the sample.</span></span>|  
   
-## <a name="building-and-running-this-sample"></a><span data-ttu-id="89193-134">Generación y ejecución del ejemplo</span><span class="sxs-lookup"><span data-stu-id="89193-134">Building and Running This Sample</span></span>  
+## <a name="building-and-running-this-sample"></a><span data-ttu-id="bcd45-134">Generación y ejecución del ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcd45-134">Building and Running This Sample</span></span>  
   
-#### <a name="to-build-this-sample"></a><span data-ttu-id="89193-135">Procedimiento para generar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="89193-135">To build this sample</span></span>  
+#### <a name="to-build-this-sample"></a><span data-ttu-id="bcd45-135">Procedimiento para generar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcd45-135">To build this sample</span></span>  
   
-1.  <span data-ttu-id="89193-136">En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución SendPortGroups.sln.</span><span class="sxs-lookup"><span data-stu-id="89193-136">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file SendPortGroups.sln.</span></span>  
+1.  <span data-ttu-id="bcd45-136">En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], abra el archivo de solución SendPortGroups.sln.</span><span class="sxs-lookup"><span data-stu-id="bcd45-136">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file SendPortGroups.sln.</span></span>  
   
-2.  <span data-ttu-id="89193-137">En el Explorador de soluciones, haga doble clic en **SendPortGroups.cs** para abrir el código de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="89193-137">In Solution Explorer, double click **SendPortGroups.cs** to open the sample code.</span></span>  
+2.  <span data-ttu-id="bcd45-137">En el Explorador de soluciones, haga doble clic en **SendPortGroups.cs** para abrir el código de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bcd45-137">In Solution Explorer, double click **SendPortGroups.cs** to open the sample code.</span></span>  
   
-3.  <span data-ttu-id="89193-138">Busque `root.ConnectionString` en la función `CreateSendPortGroup`.</span><span class="sxs-lookup"><span data-stu-id="89193-138">Find the `root.ConnectionString` in the `CreateSendPortGroup` function.</span></span>  <span data-ttu-id="89193-139">Debe cambiar la especificación del servidor para que señale correctamente al servidor SQL que hospeda la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="89193-139">You must change the server specification to correctly point to the SQL server hosting your BizTalk Management database.</span></span>  <span data-ttu-id="89193-140">También puede usar un punto (.) para conectarse al servidor SQL local.</span><span class="sxs-lookup"><span data-stu-id="89193-140">You can also use a period (.) to connect to the local SQL server.</span></span>  <span data-ttu-id="89193-141">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="89193-141">For example:</span></span>  
+3.  <span data-ttu-id="bcd45-138">Busque `root.ConnectionString` en la función `CreateSendPortGroup`.</span><span class="sxs-lookup"><span data-stu-id="bcd45-138">Find the `root.ConnectionString` in the `CreateSendPortGroup` function.</span></span>  <span data-ttu-id="bcd45-139">Debe cambiar la especificación del servidor para que señale correctamente al servidor SQL que hospeda la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="bcd45-139">You must change the server specification to correctly point to the SQL server hosting your BizTalk Management database.</span></span>  <span data-ttu-id="bcd45-140">También puede usar un punto (.) para conectarse al servidor SQL local.</span><span class="sxs-lookup"><span data-stu-id="bcd45-140">You can also use a period (.) to connect to the local SQL server.</span></span>  <span data-ttu-id="bcd45-141">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="bcd45-141">For example:</span></span>  
   
     ```  
     root.ConnectionString = "Integrated Security=SSPI;database=BizTalkMgmtDb;server=.";  
     ```  
   
-4.  <span data-ttu-id="89193-142">Repita el paso 3 para las funciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="89193-142">Repeat step 3 for the following functions:</span></span>  
+4.  <span data-ttu-id="bcd45-142">Repita el paso 3 para las funciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="bcd45-142">Repeat step 3 for the following functions:</span></span>  
   
-    -   <span data-ttu-id="89193-143">**EnumerateSendPortGroups**</span><span class="sxs-lookup"><span data-stu-id="89193-143">**EnumerateSendPortGroups**</span></span>  
+    -   <span data-ttu-id="bcd45-143">**EnumerateSendPortGroups**</span><span class="sxs-lookup"><span data-stu-id="bcd45-143">**EnumerateSendPortGroups**</span></span>  
   
-    -   <span data-ttu-id="89193-144">**DeleteSendPortGroup**</span><span class="sxs-lookup"><span data-stu-id="89193-144">**DeleteSendPortGroup**</span></span>  
+    -   <span data-ttu-id="bcd45-144">**DeleteSendPortGroup**</span><span class="sxs-lookup"><span data-stu-id="bcd45-144">**DeleteSendPortGroup**</span></span>  
   
-5.  <span data-ttu-id="89193-145">Guardar **SendPortGroups.cs**.</span><span class="sxs-lookup"><span data-stu-id="89193-145">Save **SendPortGroups.cs**.</span></span>  
+5.  <span data-ttu-id="bcd45-145">Guardar **SendPortGroups.cs**.</span><span class="sxs-lookup"><span data-stu-id="bcd45-145">Save **SendPortGroups.cs**.</span></span>  
   
-6.  <span data-ttu-id="89193-146">En el menú principal, haga clic en **generar**y, a continuación, haga clic en **generar solución**.</span><span class="sxs-lookup"><span data-stu-id="89193-146">On the main menu, click **Build**, and then click **Build Solution**.</span></span>  
+6.  <span data-ttu-id="bcd45-146">En el menú principal, haga clic en **generar**y, a continuación, haga clic en **generar solución**.</span><span class="sxs-lookup"><span data-stu-id="bcd45-146">On the main menu, click **Build**, and then click **Build Solution**.</span></span>  
   
-#### <a name="to-run-this-sample"></a><span data-ttu-id="89193-147">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="89193-147">To run this sample</span></span>  
+#### <a name="to-run-this-sample"></a><span data-ttu-id="bcd45-147">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcd45-147">To run this sample</span></span>  
   
-1.  <span data-ttu-id="89193-148">Abra una ventana de comandos y desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="89193-148">Open a command window and navigate to the following folder:</span></span>  
+1.  <span data-ttu-id="bcd45-148">Abra una ventana de comandos y desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="bcd45-148">Open a command window and navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="89193-149">\<*Ejemplos de ruta de acceso*> \Admin\ExplorerOM\SendPortGroups\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="89193-149">\<*Samples Path*>\Admin\ExplorerOM\SendPortGroups\bin\Debug</span></span>  
+     <span data-ttu-id="bcd45-149">\<*Ejemplos de ruta de acceso*\>\Admin\ExplorerOM\SendPortGroups\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="bcd45-149">\<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups\bin\Debug</span></span>  
   
-2.  <span data-ttu-id="89193-150">Ejecute el archivo SendPortGroups.exe.</span><span class="sxs-lookup"><span data-stu-id="89193-150">Run the file SendPortGroups.exe.</span></span>  
+2.  <span data-ttu-id="bcd45-150">Ejecute el archivo SendPortGroups.exe.</span><span class="sxs-lookup"><span data-stu-id="bcd45-150">Run the file SendPortGroups.exe.</span></span>  
   
-## <a name="windows-powershell-script-example"></a><span data-ttu-id="89193-151">Ejemplo de un script de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="89193-151">Windows PowerShell Script Example</span></span>  
- <span data-ttu-id="89193-152">El siguiente fragmento de script de Windows PowerShell puede usarse para mostrar las mismas características de la **ExplorerOM** clases:</span><span class="sxs-lookup"><span data-stu-id="89193-152">The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:</span></span>  
+## <a name="windows-powershell-script-example"></a><span data-ttu-id="bcd45-151">Ejemplo de un script de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="bcd45-151">Windows PowerShell Script Example</span></span>  
+ <span data-ttu-id="bcd45-152">El siguiente fragmento de script de Windows PowerShell puede usarse para mostrar las mismas características de la **ExplorerOM** clases:</span><span class="sxs-lookup"><span data-stu-id="bcd45-152">The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:</span></span>  
   
 ```  
 Function CreateSendPortGroup($Catalog, $strName)  
@@ -316,7 +316,7 @@ DeleteSendPortGroup $Catalog $SendPortGroupName
 Write-Host  
 ```  
   
- <span data-ttu-id="89193-153">A continuación se indica el resultado esperado del ejemplo tras la ejecución del ejemplo de script de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="89193-153">Here is example expected output from running the Windows PowerShell script sample.</span></span>  
+ <span data-ttu-id="bcd45-153">A continuación se indica el resultado esperado del ejemplo tras la ejecución del ejemplo de script de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bcd45-153">Here is example expected output from running the Windows PowerShell script sample.</span></span>  
   
 ```  
 PS C:\> .\sendportgroups.ps1  
@@ -370,5 +370,5 @@ Deleting "PowerShell Sample Send Port Group"...
 DeleteSendPortGroup() completed.  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="89193-154">Vea también</span><span class="sxs-lookup"><span data-stu-id="89193-154">See Also</span></span>  
- [<span data-ttu-id="89193-155">Administración-ExplorerOM (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="89193-155">Admin-ExplorerOM (BizTalk Server Samples Folder)</span></span>](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a><span data-ttu-id="bcd45-154">Vea también</span><span class="sxs-lookup"><span data-stu-id="bcd45-154">See Also</span></span>  
+ [<span data-ttu-id="bcd45-155">Admin\ExplorerOM (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="bcd45-155">Admin-ExplorerOM (BizTalk Server Samples Folder)</span></span>](../core/admin-explorerom-biztalk-server-samples-folder.md)

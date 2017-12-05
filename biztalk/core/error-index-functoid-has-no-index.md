@@ -13,21 +13,21 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8143442b9d77d6881efe2b64dfb7f5888ab2d466
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0159d308c9befc90590d281351409ba571921a53
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="error---index-functoid-has-no-index"></a>Error - el Functoid de índice No tiene un índice
-**Código de error**  
+# <a name="error---index-functoid-has-no-index"></a><span data-ttu-id="94779-102">Error - el Functoid de índice No tiene un índice</span><span class="sxs-lookup"><span data-stu-id="94779-102">Error - Index Functoid Has No Index</span></span>
+<span data-ttu-id="94779-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="94779-103">**Error Code**</span></span>  
   
- btm1014  
+ <span data-ttu-id="94779-104">btm1014</span><span class="sxs-lookup"><span data-stu-id="94779-104">btm1014</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="94779-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="94779-105">**Explanation**</span></span>  
   
- Se ha proporcionado ningún valor o valores de índice para el functoid **índice** functoid.  
+ <span data-ttu-id="94779-106">Se ha proporcionado ningún valor o valores de índice para el functoid **índice** functoid.</span><span class="sxs-lookup"><span data-stu-id="94779-106">No index value(s) have been provided for the indicated **Index** functoid.</span></span>  
   
- **Acción del usuario**  
+ <span data-ttu-id="94779-107">**Acción del usuario**</span><span class="sxs-lookup"><span data-stu-id="94779-107">**User Action**</span></span>  
   
- Proporcione un número apropiado de parámetros de entrada de índice para el functoid **índice** functoid, donde el número apropiado viene determinado por el número de bucle **registro** nodos dentro del cual el **Campo** está anidado el nodo del esquema de origen. Para crear parámetros de entrada de índice, seleccione el functoid indicado, haga clic en el botón de puntos suspensivos (**...** ) botón asociado a la **parámetros de entrada** propiedad Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, a continuación, utilice la ![](../core/media/bts-tls-paraminsert.gif "bts_tls_paraminsert") botón dentro de la **configurar \< Functoid > Functoid** cuadro de diálogo para agregar uno o más parámetros de entrada constantes, donde la primera de ellas representa un índice en el bucle principal inmediato **registro** nodo y parámetros de entrada de índice siguientes representar antecesor remoto bucle **registro** nodos.
+ <span data-ttu-id="94779-108">Proporcione un número apropiado de parámetros de entrada de índice para el functoid **índice** functoid, donde el número apropiado viene determinado por el número de bucle **registro** nodos dentro del cual el **Campo** está anidado el nodo del esquema de origen.</span><span class="sxs-lookup"><span data-stu-id="94779-108">Provide an appropriate number of index input parameters for the indicated **Index** functoid, where the appropriate number is determined by the number of looping **Record** nodes within which the **Field** node in the source schema is nested.</span></span> <span data-ttu-id="94779-109">Para crear parámetros de entrada de índice, seleccione el functoid indicado, haga clic en el botón de puntos suspensivos (**...** ) asociado a la **parámetros de entrada** propiedad de Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana Propiedades y, después, use la ![ ] (../core/media/bts-tls-paraminsert.gif "bts_tls_paraminsert") botón dentro de la **configurar \<Functoid\> Functoid** cuadro de diálogo para agregar uno o más parámetros de entrada constantes, donde la primera de ellas representa un índice en el elemento primario inmediato bucle **registro** parámetros representan antecesor remoto bucle de entrada de nodo e índice siguientes **registro** nodos.</span><span class="sxs-lookup"><span data-stu-id="94779-109">To created index input parameters, select the indicated functoid, click the ellipsis (**...**) button associated with the **Input Parameters** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then use the  ![](../core/media/bts-tls-paraminsert.gif "bts_tls_paraminsert") button within the **Configure \<Functoid\> Functoid** dialog box to add one or more constant input parameters, where the first one represents an index into the immediate parent looping **Record** node, and subsequent index input parameters represent increasingly remote ancestor looping **Record** nodes.</span></span>

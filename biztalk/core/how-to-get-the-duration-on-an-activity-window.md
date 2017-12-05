@@ -16,29 +16,29 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0dbef138603421a46edd4b2d17a5123116cece6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 37c5bb2c60133d19887e157f8e06633527e0fa11
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="how-to-get-the-duration-on-an-activity-window"></a><span data-ttu-id="db7f0-102">Cómo obtener la duración en una ventana Actividad</span><span class="sxs-lookup"><span data-stu-id="db7f0-102">How to Get the Duration on an Activity Window</span></span>
-<span data-ttu-id="db7f0-103">Los administradores utilizan el **get-activitywindow** comando para obtener la duración de la actividad especificada.</span><span class="sxs-lookup"><span data-stu-id="db7f0-103">Administrators use the **get-activitywindow** command to get the duration for the specified activity.</span></span> <span data-ttu-id="db7f0-104">El comando recupera la longitud de la duración y las unidades con las que se mide la duración.</span><span class="sxs-lookup"><span data-stu-id="db7f0-104">The command returns the length of the duration and the units by which the duration is measured.</span></span>  
+# <a name="how-to-get-the-duration-on-an-activity-window"></a><span data-ttu-id="4b91a-102">Cómo obtener la duración en una ventana Actividad</span><span class="sxs-lookup"><span data-stu-id="4b91a-102">How to Get the Duration on an Activity Window</span></span>
+<span data-ttu-id="4b91a-103">Los administradores utilizan el **get-activitywindow** comando para obtener la duración de la actividad especificada.</span><span class="sxs-lookup"><span data-stu-id="4b91a-103">Administrators use the **get-activitywindow** command to get the duration for the specified activity.</span></span> <span data-ttu-id="4b91a-104">El comando recupera la longitud de la duración y las unidades con las que se mide la duración.</span><span class="sxs-lookup"><span data-stu-id="4b91a-104">The command returns the length of the duration and the units by which the duration is measured.</span></span>  
   
-### <a name="to-get-the-duration-on-an-activity"></a><span data-ttu-id="db7f0-105">Para obtener la duración de una actividad</span><span class="sxs-lookup"><span data-stu-id="db7f0-105">To get the duration on an activity</span></span>  
+### <a name="to-get-the-duration-on-an-activity"></a><span data-ttu-id="4b91a-105">Para obtener la duración de una actividad</span><span class="sxs-lookup"><span data-stu-id="4b91a-105">To get the duration on an activity</span></span>  
   
-1.  <span data-ttu-id="db7f0-106">Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="db7f0-106">Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="4b91a-106">Abra un símbolo del sistema como sigue: haga clic en **iniciar**, haga clic en **ejecutar**, tipo **cmd**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4b91a-106">Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-2.  <span data-ttu-id="db7f0-107">Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span><span class="sxs-lookup"><span data-stu-id="db7f0-107">Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span></span>  
+2.  <span data-ttu-id="4b91a-107">Desplácese a [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span><span class="sxs-lookup"><span data-stu-id="4b91a-107">Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span></span>  
   
-3.  <span data-ttu-id="db7f0-108">Escriba bm get-activitywindow-actividad:\<nombre de actividad >.</span><span class="sxs-lookup"><span data-stu-id="db7f0-108">Type  bm get-activitywindow -Activity:\<activity name>.</span></span>  
+3.  <span data-ttu-id="4b91a-108">Escriba bm get-activitywindow-actividad:\<nombre de la actividad\>.</span><span class="sxs-lookup"><span data-stu-id="4b91a-108">Type  bm get-activitywindow -Activity:\<activity name\>.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="db7f0-109">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="db7f0-109">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
+    >  <span data-ttu-id="4b91a-109">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="4b91a-109">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-4.  <span data-ttu-id="db7f0-110">Presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="db7f0-110">Press **ENTER**.</span></span>  
+4.  <span data-ttu-id="4b91a-110">Presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="4b91a-110">Press **ENTER**.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="db7f0-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="db7f0-111">See Also</span></span>  
- <span data-ttu-id="db7f0-112">[Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md) </span><span class="sxs-lookup"><span data-stu-id="db7f0-112">[Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md) </span></span>  
- <span data-ttu-id="db7f0-113">[Utilidad de administración de BAM](../core/bam-management-utility.md) </span><span class="sxs-lookup"><span data-stu-id="db7f0-113">[BAM Management Utility](../core/bam-management-utility.md) </span></span>  
- [<span data-ttu-id="db7f0-114">Cómo establecer la duración de una ventana actividad</span><span class="sxs-lookup"><span data-stu-id="db7f0-114">How to Set the Duration on an Activity Window</span></span>](../core/how-to-set-the-duration-on-an-activity-window.md)
+## <a name="see-also"></a><span data-ttu-id="4b91a-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="4b91a-111">See Also</span></span>  
+ <span data-ttu-id="4b91a-112">[Administración de la infraestructura dinámica de BAM](../core/managing-the-bam-dynamic-infrastructure.md) </span><span class="sxs-lookup"><span data-stu-id="4b91a-112">[Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md) </span></span>  
+ <span data-ttu-id="4b91a-113">[Utilidad de administración de BAM](../core/bam-management-utility.md) </span><span class="sxs-lookup"><span data-stu-id="4b91a-113">[BAM Management Utility](../core/bam-management-utility.md) </span></span>  
+ [<span data-ttu-id="4b91a-114">Cómo establecer la duración de una ventana actividad</span><span class="sxs-lookup"><span data-stu-id="4b91a-114">How to Set the Duration on an Activity Window</span></span>](../core/how-to-set-the-duration-on-an-activity-window.md)
