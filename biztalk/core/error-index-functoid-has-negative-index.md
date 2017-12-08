@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---index-functoid-has-negative-index"></a>Error - el Functoid de índice tiene un índice negativo
-**Código de error**  
+# <a name="error---index-functoid-has-negative-index"></a><span data-ttu-id="aedbc-102">Error - el Functoid de índice tiene un índice negativo</span><span class="sxs-lookup"><span data-stu-id="aedbc-102">Error - Index Functoid Has Negative Index</span></span>
+<span data-ttu-id="aedbc-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="aedbc-103">**Error Code**</span></span>  
   
- btm1017  
+ <span data-ttu-id="aedbc-104">btm1017</span><span class="sxs-lookup"><span data-stu-id="aedbc-104">btm1017</span></span>  
   
- **Explicación**  
+ <span data-ttu-id="aedbc-105">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="aedbc-105">**Explanation**</span></span>  
   
- Parámetros proporcionados para el functoid de entrada de uno o varios del índice **índice** functoid no es válido. Los parámetros de entrada de índice deben ser variables de números enteros positivos.
+ <span data-ttu-id="aedbc-106">Parámetros proporcionados para el functoid de entrada de uno o varios del índice **índice** functoid no es válido.</span><span class="sxs-lookup"><span data-stu-id="aedbc-106">One or more of the index input parameters provided for the indicated **Index** functoid is not valid.</span></span> <span data-ttu-id="aedbc-107">Los parámetros de entrada de índice deben ser variables de números enteros positivos.</span><span class="sxs-lookup"><span data-stu-id="aedbc-107">Index input parameters must be positive integers.</span></span>

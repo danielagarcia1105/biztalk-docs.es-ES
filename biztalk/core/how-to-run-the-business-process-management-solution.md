@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a><span data-ttu-id="37861-106">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="37861-106">Prerequisites</span></span>  
  <span data-ttu-id="37861-107">Antes de ejecutar la solución BPM, debe realizar los pasos descritos en [cómo instalar la solución de administración de procesos empresariales](../core/how-to-install-the-business-process-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="37861-107">Before running the BPM solution, you must perform the steps in [How to Install the Business Process Management Solution](../core/how-to-install-the-business-process-management-solution.md).</span></span>  
   
-##  <span data-ttu-id="37861-108"><a name="step1"></a>Iniciar la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="37861-108"><a name="step1"></a> Start the Business Process Management Solution</span></span>  
+##  <a name="step1"></a><span data-ttu-id="37861-108">Iniciar la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="37861-108">Start the Business Process Management Solution</span></span>  
   
 #### <a name="to-start-the-business-process-management-solution"></a><span data-ttu-id="37861-109">Para iniciar la solución de administración de proceso empresarial</span><span class="sxs-lookup"><span data-stu-id="37861-109">To start the Business Process Management Solution</span></span>  
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  <span data-ttu-id="37861-146">Escriba `BTSScnBPMProvisioning.exe 8880` y, a continuación, presione ENTRAR.</span><span class="sxs-lookup"><span data-stu-id="37861-146">Type `BTSScnBPMProvisioning.exe 8880`, and then press ENTER.</span></span> <span data-ttu-id="37861-147">A continuación, mantenga el sistema de suministro de cable en ejecución.</span><span class="sxs-lookup"><span data-stu-id="37861-147">Then, keep the Cable Provisioning System running.</span></span> <span data-ttu-id="37861-148">El sistema de suministro de Cable escucha en el puerto TPC 8880.</span><span class="sxs-lookup"><span data-stu-id="37861-148">The Cable Provisioning System listens on the TCP port, 8880.</span></span> <span data-ttu-id="37861-149">Esta aplicación simula un sistema de pedidos de back-end y muestra los pedidos finales.</span><span class="sxs-lookup"><span data-stu-id="37861-149">This application simulates a back-end order system, and displays the final orders.</span></span>  
   
-##  <span data-ttu-id="37861-150"><a name="step3"></a>Ejecutar y validar la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="37861-150"><a name="step3"></a> Run and validate the Business Process Management Solution</span></span>  
+##  <a name="step3"></a><span data-ttu-id="37861-150">Ejecutar y validar la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="37861-150">Run and validate the Business Process Management Solution</span></span>  
   
 #### <a name="to-submit-a-new-order-and-validate-the-solution"></a><span data-ttu-id="37861-151">Para enviar un pedido nuevo y validar la solución.</span><span class="sxs-lookup"><span data-stu-id="37861-151">To submit a new order and validate the solution</span></span>  
   
