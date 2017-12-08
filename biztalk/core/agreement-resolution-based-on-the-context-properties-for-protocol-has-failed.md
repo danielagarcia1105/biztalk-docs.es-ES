@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# Error en la resolución de acuerdo basada en las propiedades de contexto para el protocolo
-## Detalles  
+# <a name="agreement-resolution-based-on-the-context-properties-for-protocol-has-failed"></a>Error en la resolución de acuerdo basada en las propiedades de contexto para el protocolo
+## <a name="details"></a>Detalles  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |Nombre simbólico|AgreementResolutionContextPropertiesLookupFailed|  
 |Texto del mensaje|Resolución del acuerdo se basa en las propiedades de contexto para {0} protocolo ha fallado.|  
   
-## Explicación  
+## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server no se pudo resolver en un acuerdo según las propiedades de contexto que proporciona el cliente.  
   
-## Acción del usuario  
+## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, proporcione las propiedades de contexto como parte del mensaje de BizTalk, de modo que la resolución del acuerdo pueda tener lugar.

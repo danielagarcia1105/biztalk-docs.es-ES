@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# El acuerdo encontrado para el protocolo tiene el estado Deshabilitado o Expirado
-## Detalles  
+# <a name="agreement-found-for-the-protocol-is-in-disabled-or-expired-state"></a>El acuerdo encontrado para el protocolo tiene el estado Deshabilitado o Expirado
+## <a name="details"></a>Detalles  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |Nombre simbólico|AgreementResolutionAgreementDiasbledOrExpired|  
 |Texto del mensaje|Acuerdo encontrado para el protocolo de {0} está deshabilitado o expirado estado.|  
   
-## Explicación  
+## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server pudo resolver en un acuerdo, pero este último se encuentra en estado deshabilitado o expirado.  
   
-## Acción del usuario  
+## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, habilite el acuerdo.

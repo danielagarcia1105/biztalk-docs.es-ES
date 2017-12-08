@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# Protocolo de transacción no compatible
-## Detalles  
+# <a name="unsupported-transaction-protocol"></a>Protocolo de transacción no compatible
+## <a name="details"></a>Detalles  
   
 |||  
 |-|-|  
@@ -31,10 +31,10 @@ ms.lasthandoff: 09/20/2017
 |Nombre simbólico|0|  
 |Texto del mensaje|Protocolo de transacción no admitido: {0}|  
   
-## Explicación  
+## <a name="explanation"></a>Explicación  
  Este error se produce cuando la propiedad de protocolo de transacción de una ubicación de recepción o un puerto de envío se establece en un valor no válido.  
   
-## Acción del usuario  
+## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, realice una o varias de las siguientes acciones:  
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y haga clic en **administración de BizTalk Server**.  

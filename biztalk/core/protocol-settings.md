@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# Configuración de protocolo
-## Información general
+# <a name="protocol-settings"></a>Configuración de protocolo
+## <a name="overview"></a>Información general
 Después de crear los perfiles de negocio, que reflejan las divisiones de la empresa dentro de una organización, es necesario que una empresa declare los parámetros que definen cómo tiene lugar la comunicación entre los perfiles de negocio. Estos parámetros de comunicación se definen como configuración del protocolo. La configuración del protocolo define cómo deben admitirse las transacciones empresariales para un determinado protocolo B2B. Cada perfil de negocio define las diversas opciones para procesar mensajes (codificación) o transmitir mensajes (transporte) para cada uno de los protocolos B2B a través de los cuales puede comunicarse el socio. Los parámetros de comunicación para los perfiles de negocio se definen en las dos categorías siguientes:  
   
 -   **Configuración de protocolo de codificación**: los protocolos de codificación rigen la estructura y el contenido de un mensaje de B2B. La configuración del protocolo de codificación para un perfil de negocio define el protocolo de codificación que usa una división empresarial para enviar y recibir mensajes B2B. Algunos ejemplos de protocolos de codificación son X12, EDIFACT, HL7, etcetera. Para obtener una explicación detallada aproximadamente admite protocolos de codificación para [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], consulte [compatibilidad con los estándares EDI](../core/edi-standards-support.md). Como parte del protocolo de codificación, puede proporcionar varias opciones, como si la parte que envía espera una confirmación, si los mensajes se enviarán por lotes o individualmente, etc. Siempre podrá sobrescribir estas opciones como parte del acuerdo de socio comercial. Vea [acuerdo de socio comercial](../core/trading-partner-agreement.md).  
@@ -39,15 +39,15 @@ Después de crear los perfiles de negocio, que reflejan las divisiones de la emp
   
  Ahora resulta evidente de qué modo puede ayudar la definición de un perfil de negocio para crear una solución TPM en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En la actualidad, como muestra la ilustración, el perfil de negocio “Shipping” solo puede enviar y recibir mensajes X12. Por lo tanto, cualquier perfil de negocio que se comunique con el perfil de negocio “Shipping” deberá adherirse a su configuración de propiedades. No obstante, en el futuro, si el perfil de negocio “Shipping” comienza a aceptar mensajes con la codificación EDIFACT, solo tiene que establecer las propiedades relevantes para incluir la compatibilidad con EDIFACT. La organización del socio no tiene que crear un nuevo perfil de negocio para la misma división de envío.  
   
-## ¿Es siempre necesario especificar la configuración del protocolo al crear un perfil de negocio?  
+## <a name="do-i-always-need-to-specify-the-protocol-settings-when-creating-a-business-profile"></a>¿Es siempre necesario especificar la configuración del protocolo al crear un perfil de negocio?  
  Teóricamente, sí: un perfil de negocio debe contener la definición de configuración de protocolo. Sin embargo, esto no implica que deba definir la configuración de protocolo al crear un perfil de negocio en la interfaz de usuario de TPM. TPM le proporciona flexibilidad para que pueda especificar la configuración del protocolo mientras crear el perfil de negocio o mientras crea un acuerdo de socio comercial. Si define la configuración del protocolo como parte del perfil de negocio, estará disponible mientras crea un acuerdo de socio comercial para dicho perfil. No obstante, si define la configuración del protocolo como parte del acuerdo, deberá proporcionar todos los valores como parte del acuerdo.  
   
 > [!IMPORTANT]
 >  Si no define la configuración del protocolo como parte del perfil de negocio, deberá especificar los valores como parte de cada acuerdo para dicho perfil de negocio, evitando así el modelo de escalabilidad de la nueva solución de TPM. Por lo tanto, Microsoft recomienda que defina la configuración del protocolo para cada perfil de negocio. Siempre podrá anular dicha configuración si es necesario, al crear un acuerdo de socio comercial.  
 
-## Obtenga información acerca de continuación
+## <a name="learn-next"></a>Obtenga información acerca de continuación
 [Acuerdo de socio comercial](../core/trading-partner-agreement.md)  
 [Perspectiva general: definir una solución de administración de socios comerciales](../core/putting-it-all-together-defining-a-trading-partner-management-solution.md)  
   
-## Vea también  
+## <a name="see-also"></a>Vea también  
  [Bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md)

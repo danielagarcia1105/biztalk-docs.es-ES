@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# No se encuentra la configuración de reserva para el protocolo
-## Detalles  
+# <a name="fallback-settings-for-the-protocol-not-found"></a>No se encuentra la configuración de reserva para el protocolo
+## <a name="details"></a>Detalles  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |Nombre simbólico|AgreementResolutionFallbackSettingsNotFound|  
 |Texto del mensaje|No se encuentra la configuración de reserva para el protocolo {0}.|  
   
-## Explicación  
+## <a name="explanation"></a>Explicación  
  Este evento de error,  indica que BizTalk Server pudo resolver en un acuerdo y que se ha redireccionado a la configuración de reserva y se ha encontrado que ésta no se encontraba allí para el protocolo en particular.  
   
-## Acción del usuario  
+## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, configure la configuración de reserva para el protocolo en particular.

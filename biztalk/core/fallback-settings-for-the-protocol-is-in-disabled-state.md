@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
 ---
-# La configuración de reserva para el protocolo tiene el estado Deshabilitado
-## Detalles  
+# <a name="fallback-settings-for-the-protocol-is-in-disabled-state"></a>La configuración de reserva para el protocolo tiene el estado Deshabilitado
+## <a name="details"></a>Detalles  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |Nombre simbólico|AgreementResolutionFallbackSettingsDisabled|  
 |Texto del mensaje|La configuración de reserva para el protocolo {0} tiene el estado Deshabilitado.|  
   
-## Explicación  
+## <a name="explanation"></a>Explicación  
  Este evento de error, advertencia o información indica que BizTalk Server pudo resolver en un acuerdo y que se ha redireccionado a la configuración de reserva y se ha encontrado que ésta estaba en el estado deshabilitado para el protocolo en particular.  
   
-## Acción del usuario  
+## <a name="user-action"></a>Acción del usuario  
  Para resolver este error, habilite a la configuración de reserva para el protocolo en particular.
