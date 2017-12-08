@@ -1,1 +1,1 @@
-# <a name="welcome-to-his"></a>Le damos la bienvenida
+# <a name="welcome-to-his"></a><span data-ttu-id="02420-101">Le damos la bienvenida</span><span class="sxs-lookup"><span data-stu-id="02420-101">Welcome to his!</span></span>
