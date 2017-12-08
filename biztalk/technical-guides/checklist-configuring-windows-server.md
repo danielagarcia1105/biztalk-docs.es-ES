@@ -21,7 +21,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="checklist-configuring-windows-server"></a><span data-ttu-id="33c01-102">Lista de comprobación: Configurar Windows Server</span><span class="sxs-lookup"><span data-stu-id="33c01-102">Checklist: Configuring Windows Server</span></span>
 <span data-ttu-id="33c01-103">En este tema se enumera los pasos que deben seguirse al preparar Windows Server para su uso en producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="33c01-103">This topic lists steps that you should follow when preparing Windows Server for use in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span>  
   
-##  <span data-ttu-id="33c01-104"><a name="BKMK_Win2k8"></a>Configurar Windows Server</span><span class="sxs-lookup"><span data-stu-id="33c01-104"><a name="BKMK_Win2k8"></a> Configure Windows Server</span></span>  
+##  <a name="BKMK_Win2k8"></a><span data-ttu-id="33c01-104">Configurar Windows Server</span><span class="sxs-lookup"><span data-stu-id="33c01-104">Configure Windows Server</span></span>  
   
 |<span data-ttu-id="33c01-105">Pasos</span><span class="sxs-lookup"><span data-stu-id="33c01-105">Steps</span></span>|<span data-ttu-id="33c01-106">Referencia</span><span class="sxs-lookup"><span data-stu-id="33c01-106">Reference</span></span>|  
 |-----------|---------------|  

@@ -22,7 +22,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="whats-new-in-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="4a753-103">Novedades de BizTalk Server 2013 y 2013 R2</span><span class="sxs-lookup"><span data-stu-id="4a753-103">What's New in BizTalk Server 2013 and 2013 R2</span></span>
 <span data-ttu-id="4a753-104">Consulte las novedades y lo que está en desuso en [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span><span class="sxs-lookup"><span data-stu-id="4a753-104">See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span></span>
   
-##  <span data-ttu-id="4a753-105"><a name="BKMK_NewR2"></a> Novedades de BizTalk Server 2013 R2</span><span class="sxs-lookup"><span data-stu-id="4a753-105"><a name="BKMK_NewR2"></a> What’s New in BizTalk Server 2013 R2?</span></span>  
+##  <a name="BKMK_NewR2"></a> <span data-ttu-id="4a753-105">Novedades de BizTalk Server 2013 R2</span><span class="sxs-lookup"><span data-stu-id="4a753-105">What’s New in BizTalk Server 2013 R2?</span></span>  
   
 |<span data-ttu-id="4a753-106">Característica</span><span class="sxs-lookup"><span data-stu-id="4a753-106">Feature</span></span>|<span data-ttu-id="4a753-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="4a753-107">Description</span></span>|  
 |-------------|-----------------|  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 >  -   <span data-ttu-id="4a753-165">La característica puede utilizarse internamente en BizTalk y no está diseñada para utilizarse en soluciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="4a753-165">The feature may be used internally within BizTalk and is not meant to be used by customer solutions.</span></span> <span data-ttu-id="4a753-166">No se admite en soluciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="4a753-166">It is not supported in customer solutions.</span></span>  
 > -   <span data-ttu-id="4a753-167">Microsoft ha modificado las interfaces y es posible que no estén disponibles públicamente.</span><span class="sxs-lookup"><span data-stu-id="4a753-167">The interfaces may have been modified by Microsoft and may not be publicly available.</span></span>  
   
-##  <span data-ttu-id="4a753-168"><a name="BKMK_New"></a> Novedades de BizTalk Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a753-168"><a name="BKMK_New"></a> What’s New in BizTalk Server 2013?</span></span>  
+##  <a name="BKMK_New"></a> <span data-ttu-id="4a753-168">Novedades de BizTalk Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a753-168">What’s New in BizTalk Server 2013?</span></span>  
  <span data-ttu-id="4a753-169">En BizTalk Server 2013, se han incorporado las siguientes características.</span><span class="sxs-lookup"><span data-stu-id="4a753-169">The following features are added in BizTalk Server 2013.</span></span>  
   
  <span data-ttu-id="4a753-170">**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en Azure IaaS**</span><span class="sxs-lookup"><span data-stu-id="4a753-170">**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on Azure IaaS**</span></span>  
