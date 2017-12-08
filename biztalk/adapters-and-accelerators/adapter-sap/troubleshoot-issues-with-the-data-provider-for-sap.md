@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="troubleshoot-issues-with-the-data-provider-for-sap"></a><span data-ttu-id="0d2f0-102">Solucionar problemas relacionados con el proveedor de datos para SAP</span><span class="sxs-lookup"><span data-stu-id="0d2f0-102">Troubleshoot Issues with the Data Provider for SAP</span></span>
 <span data-ttu-id="0d2f0-103">Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0d2f0-103">This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)].</span></span>  
   
-##  <span data-ttu-id="0d2f0-104"><a name="BKMK_SAPUnknownParam"></a>Error desconocido de parámetro mediante el proveedor de datos para SAP</span><span class="sxs-lookup"><span data-stu-id="0d2f0-104"><a name="BKMK_SAPUnknownParam"></a> Unknown Parameter error using the Data Provider for SAP</span></span>  
+##  <a name="BKMK_SAPUnknownParam"></a><span data-ttu-id="0d2f0-104">Error desconocido de parámetro mediante el proveedor de datos para SAP</span><span class="sxs-lookup"><span data-stu-id="0d2f0-104">Unknown Parameter error using the Data Provider for SAP</span></span>  
  <span data-ttu-id="0d2f0-105">**Problema**</span><span class="sxs-lookup"><span data-stu-id="0d2f0-105">**Problem**</span></span>  
   
  <span data-ttu-id="0d2f0-106">El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] produce el siguiente error:</span><span class="sxs-lookup"><span data-stu-id="0d2f0-106">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] gives the following error:</span></span>  
@@ -41,7 +41,7 @@ Microsoft.Data.SAPClient.SAPException: Failed to retrieve data from SAP server -
   
  <span data-ttu-id="0d2f0-111">Debe actualizar la solicitud de cambio personalizada a la última versión disponible.</span><span class="sxs-lookup"><span data-stu-id="0d2f0-111">You must update the custom RFC to the latest available version.</span></span> <span data-ttu-id="0d2f0-112">Esta RFC, Z_EXTRACT_DATA_OO, está disponible con la adapterpacknoversion.</span><span class="sxs-lookup"><span data-stu-id="0d2f0-112">This RFC, Z_EXTRACT_DATA_OO, is available with the adapterpacknoversion.</span></span> <span data-ttu-id="0d2f0-113">Para obtener más información acerca de cómo instalar y desinstalar la solicitud de cambio personalizada, vea [instalar RFC personalizado para el proveedor de datos para SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).</span><span class="sxs-lookup"><span data-stu-id="0d2f0-113">For more information about how to install and uninstall the custom RFC, see [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).</span></span>
   
-##  <span data-ttu-id="0d2f0-114"><a name="BKMK_SAPOOM"></a>Fuera de las excepciones de memoria al seleccionar los datos de una tabla SAP</span><span class="sxs-lookup"><span data-stu-id="0d2f0-114"><a name="BKMK_SAPOOM"></a> Out of memory exceptions when selecting data from an SAP table</span></span>  
+##  <a name="BKMK_SAPOOM"></a><span data-ttu-id="0d2f0-114">Fuera de las excepciones de memoria al seleccionar los datos de una tabla SAP</span><span class="sxs-lookup"><span data-stu-id="0d2f0-114">Out of memory exceptions when selecting data from an SAP table</span></span>  
  <span data-ttu-id="0d2f0-115">**Problema**</span><span class="sxs-lookup"><span data-stu-id="0d2f0-115">**Problem**</span></span>  
   
  <span data-ttu-id="0d2f0-116">El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] produce un excepción de memoria insuficiente al seleccionar los datos de un sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="0d2f0-116">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] throws an out of memory exception when selecting data from an SAP system.</span></span>  
@@ -66,7 +66,7 @@ SELECT * FROM <tablename> OPTION 'batchsize 1000'
   
  <span data-ttu-id="0d2f0-128">El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] ahora recupera solo 1000 filas a la vez y, por tanto, no lo consume gran cantidad de memoria.</span><span class="sxs-lookup"><span data-stu-id="0d2f0-128">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] now retrieves only 1000 rows at a time and hence does not consume large amount of memory.</span></span>  
   
-##  <span data-ttu-id="0d2f0-129"><a name="BKMK_SAPQueryExcep"></a>Excepción al ejecutar una consulta que toma parámetros con valores de fecha</span><span class="sxs-lookup"><span data-stu-id="0d2f0-129"><a name="BKMK_SAPQueryExcep"></a> Exception while executing a query that takes parameters with date values</span></span>  
+##  <a name="BKMK_SAPQueryExcep"></a><span data-ttu-id="0d2f0-129">Excepción al ejecutar una consulta que toma parámetros con valores de fecha</span><span class="sxs-lookup"><span data-stu-id="0d2f0-129">Exception while executing a query that takes parameters with date values</span></span>  
  <span data-ttu-id="0d2f0-130">**Problema**</span><span class="sxs-lookup"><span data-stu-id="0d2f0-130">**Problem**</span></span>  
   
  <span data-ttu-id="0d2f0-131">Obtener la siguiente excepción al ejecutar una consulta mediante el comando EXECQUERY que tiene un parámetro que toma un valor de fecha:</span><span class="sxs-lookup"><span data-stu-id="0d2f0-131">You get the following exception when you execute a query using the EXECQUERY command that has a parameter which takes a date value:</span></span>  
@@ -88,7 +88,7 @@ SapErrorMessage=Enter date in the format __.__.____.
 EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024', @P1='20080606'  
 ```  
   
-##  <span data-ttu-id="0d2f0-137"><a name="BKMK_SAPNOVARIANT"></a>Excepción de NO_VARIANT ejecutar consultas con el comando EXECQUERY</span><span class="sxs-lookup"><span data-stu-id="0d2f0-137"><a name="BKMK_SAPNOVARIANT"></a> NO_VARIANT exception executing queries using the EXECQUERY command</span></span>  
+##  <a name="BKMK_SAPNOVARIANT"></a><span data-ttu-id="0d2f0-137">Excepción de NO_VARIANT ejecutar consultas con el comando EXECQUERY</span><span class="sxs-lookup"><span data-stu-id="0d2f0-137">NO_VARIANT exception executing queries using the EXECQUERY command</span></span>  
  <span data-ttu-id="0d2f0-138">**Problema**</span><span class="sxs-lookup"><span data-stu-id="0d2f0-138">**Problem**</span></span>  
   
  <span data-ttu-id="0d2f0-139">Obtener la siguiente excepción al ejecutar una consulta mediante el comando EXECQUERY:</span><span class="sxs-lookup"><span data-stu-id="0d2f0-139">You get the following exception when you execute a query using the EXECQUERY command:</span></span>  

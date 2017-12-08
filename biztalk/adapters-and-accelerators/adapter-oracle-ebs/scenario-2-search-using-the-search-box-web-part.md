@@ -23,7 +23,7 @@ ms.lasthandoff: 09/20/2017
   
  
   
-##  <span data-ttu-id="1138f-105"><a name="Define"></a>Definir el origen de contenido</span><span class="sxs-lookup"><span data-stu-id="1138f-105"><a name="Define"></a> Define the Content Source</span></span>  
+##  <a name="Define"></a><span data-ttu-id="1138f-105">Definir el origen de contenido</span><span class="sxs-lookup"><span data-stu-id="1138f-105">Define the Content Source</span></span>  
  <span data-ttu-id="1138f-106">Esta sección trata acerca de cómo definir un origen de contenido desde donde Microsoft Office SharePoint Server puede rastrear los datos.</span><span class="sxs-lookup"><span data-stu-id="1138f-106">This section talks about defining a content source from where Microsoft Office SharePoint Server can crawl the data.</span></span> <span data-ttu-id="1138f-107">Esto consiste en asignar el contenido para el enumerador de Id. de instancia de método creado en [paso 2: crear un archivo de definición de aplicación para los artefactos de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md).</span><span class="sxs-lookup"><span data-stu-id="1138f-107">This involves mapping the content to the Id Enumerator method instance created in [Step 2: Create an application definition file for the Oracle E-Business Suite artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md).</span></span>  
   
 #### <a name="to-define-a-content-source"></a><span data-ttu-id="1138f-108">Para definir un origen de contenido</span><span class="sxs-lookup"><span data-stu-id="1138f-108">To define a content source</span></span>  
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 11. <span data-ttu-id="1138f-128">En el panel izquierdo bajo **rellenando**, haga clic en **registro de rastreo**y, a continuación, compruebe el archivo de registro para asegurarse que el rastreo se realice correctamente.</span><span class="sxs-lookup"><span data-stu-id="1138f-128">In the left pane under **Crawling**, click **Crawl Log**, and then verify the log file to ensure that the crawling is successful.</span></span>  
   
-##  <span data-ttu-id="1138f-129"><a name="Scope"></a>Definir un ámbito para el contenido rastreado</span><span class="sxs-lookup"><span data-stu-id="1138f-129"><a name="Scope"></a> Define a Scope for the Crawled Content</span></span>  
+##  <a name="Scope"></a><span data-ttu-id="1138f-129">Definir un ámbito para el contenido rastreado</span><span class="sxs-lookup"><span data-stu-id="1138f-129">Define a Scope for the Crawled Content</span></span>  
   
 1.  <span data-ttu-id="1138f-130">Inicie Administración Central de SharePoint 3.0.</span><span class="sxs-lookup"><span data-stu-id="1138f-130">Start SharePoint 3.0 Central Administration.</span></span> <span data-ttu-id="1138f-131">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Office Server**y, a continuación, haga clic en **Administración Central de SharePoint 3.0**.</span><span class="sxs-lookup"><span data-stu-id="1138f-131">Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.</span></span>  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="1138f-147">El **estado de actualización de ámbito** fila mostrará el estado de la actualización de ámbito.</span><span class="sxs-lookup"><span data-stu-id="1138f-147">The **Scope update status** row will display the status of the scope update.</span></span> <span data-ttu-id="1138f-148">Espere hasta que finalice la actualización.</span><span class="sxs-lookup"><span data-stu-id="1138f-148">Wait until the update is complete.</span></span> <span data-ttu-id="1138f-149">Una vez completada la actualización, el ámbito está listo para usarse.</span><span class="sxs-lookup"><span data-stu-id="1138f-149">After the updated is completed, the scope is ready to be used.</span></span>  
   
-##  <span data-ttu-id="1138f-150"><a name="AddScope"></a>Agregar el ámbito a la lista desplegable de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-150"><a name="AddScope"></a> Add the Scope to the Search Dropdown</span></span>  
+##  <a name="AddScope"></a><span data-ttu-id="1138f-150">Agregar el ámbito a la lista desplegable de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-150">Add the Scope to the Search Dropdown</span></span>  
  <span data-ttu-id="1138f-151">Después de haber creado el ámbito de búsqueda, debe agregar el ámbito a la lista desplegable de búsqueda en Microsoft Office SharePoint Server para que se puede utilizar.</span><span class="sxs-lookup"><span data-stu-id="1138f-151">After you have created the search scope, you must add the scope to the search dropdown in Microsoft Office SharePoint Server so that it can be used.</span></span>  
   
 #### <a name="to-add-the-scope-to-the-search-dropdown"></a><span data-ttu-id="1138f-152">Para agregar el ámbito a la lista desplegable de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-152">To add the scope to the search dropdown</span></span>  
@@ -119,7 +119,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="1138f-164">Volverá a la página Ver ámbitos con el ámbito de MS_SAMPLE_EMPLOYEE_Search agregado en el grupo de presentación de la lista desplegable de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="1138f-164">You will return to the View Scopes page with the MS_SAMPLE_EMPLOYEE_Search scope added in the Search Dropdown display group.</span></span>  
   
-##  <span data-ttu-id="1138f-165"><a name="SearchWebPart"></a>Agregar el elemento Web de cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-165"><a name="SearchWebPart"></a> Add the Search Box Web Part</span></span>  
+##  <a name="SearchWebPart"></a><span data-ttu-id="1138f-165">Agregar el elemento Web de cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-165">Add the Search Box Web Part</span></span>  
  <span data-ttu-id="1138f-166">Para permitir a los usuarios a realizar una búsqueda de texto completo en la tabla de interfaz MS_SAMPLE_EMPLOYEE en Oracle E-Business Suite, ahora debe crear una página de elementos Web y agregar un elemento Web de cuadro de búsqueda a él.</span><span class="sxs-lookup"><span data-stu-id="1138f-166">To enable the users to perform a full-text search on the MS_SAMPLE_EMPLOYEE interface table in Oracle E-Business Suite, you must now create a Web part page, and add a Search Box Web Part to it.</span></span>  
   
 #### <a name="to-add-the-search-box-web-part"></a><span data-ttu-id="1138f-167">Para agregar el elemento Web de cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-167">To add the Search Box Web Part</span></span>  

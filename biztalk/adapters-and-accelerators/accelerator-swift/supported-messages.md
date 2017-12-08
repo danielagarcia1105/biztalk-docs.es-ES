@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [<span data-ttu-id="e5a3e-116">Categoría 9: Estado de cliente y la gestión de efectivo</span><span class="sxs-lookup"><span data-stu-id="e5a3e-116">Category 9: Cash Management and Customer Status</span></span>](#fsa_intro_sptj)  
   
-##  <span data-ttu-id="e5a3e-117"><a name="fsa_intro_xtkj"></a>Mensajes de SWIFT - Microsoft</span><span class="sxs-lookup"><span data-stu-id="e5a3e-117"><a name="fsa_intro_xtkj"></a> SWIFT Messages - Microsoft</span></span>  
+##  <a name="fsa_intro_xtkj"></a><span data-ttu-id="e5a3e-117">Mensajes de SWIFT - Microsoft</span><span class="sxs-lookup"><span data-stu-id="e5a3e-117">SWIFT Messages - Microsoft</span></span>  
  <span data-ttu-id="e5a3e-118">La tabla siguiente se describen los [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] mensajes SWIFT para tipos de servicio GPA y Control de FIN.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-118">The following table describes the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SWIFT messages for service types GPA and FIN Control.</span></span>  
   
 |<span data-ttu-id="e5a3e-119">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-119">Message type</span></span>|<span data-ttu-id="e5a3e-120">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-120">Description</span></span>|  
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-157">**42**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-157">**42**</span></span>|<span data-ttu-id="e5a3e-158">Confirmación de inicio de sesión que no (LNK)</span><span class="sxs-lookup"><span data-stu-id="e5a3e-158">Login Negative Acknowledgement (LNK)</span></span>|  
 |<span data-ttu-id="e5a3e-159">**43**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-159">**43**</span></span>|<span data-ttu-id="e5a3e-160">Seleccione una confirmación negativa (SNK)</span><span class="sxs-lookup"><span data-stu-id="e5a3e-160">Select Negative Acknowledgement (SNK)</span></span>|  
   
-##  <span data-ttu-id="e5a3e-161"><a name="fsa_intro_xcpk"></a>Categoría 0: Mensajes del sistema FIN</span><span class="sxs-lookup"><span data-stu-id="e5a3e-161"><a name="fsa_intro_xcpk"></a> Category 0: FIN System Messages</span></span>  
+##  <a name="fsa_intro_xcpk"></a><span data-ttu-id="e5a3e-161">Categoría 0: Mensajes del sistema FIN</span><span class="sxs-lookup"><span data-stu-id="e5a3e-161">Category 0: FIN System Messages</span></span>  
  <span data-ttu-id="e5a3e-162">En la tabla siguiente describe la forma de mensajes categoría 0: financieros mensajes del sistema, incluidos los usuarios puedan SWIFT y SWIFT al usuario.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-162">The following table describes messages form Category 0: Financial System Messages, including User to SWIFT and SWIFT to User.</span></span>  
   
 |<span data-ttu-id="e5a3e-163">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-163">Message type</span></span>|<span data-ttu-id="e5a3e-164">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-164">Description</span></span>|  
@@ -135,7 +135,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-275">**MT 096**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-275">**MT 096**</span></span>|<span data-ttu-id="e5a3e-276">Copia FIN al mensaje de la entidad Central</span><span class="sxs-lookup"><span data-stu-id="e5a3e-276">FIN Copy to Central Institution Message</span></span>|  
 |<span data-ttu-id="e5a3e-277">**MT 097**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-277">**MT 097**</span></span>|<span data-ttu-id="e5a3e-278">Notificación de autorización o denegación de mensaje de copia FIN</span><span class="sxs-lookup"><span data-stu-id="e5a3e-278">FIN Copy Message Authorization/Refusal Notification</span></span>|  
   
-##  <span data-ttu-id="e5a3e-279"><a name="fsa_intro_lxnf"></a>Categoría 1: Los pagos del cliente y comprobaciones</span><span class="sxs-lookup"><span data-stu-id="e5a3e-279"><a name="fsa_intro_lxnf"></a> Category 1: Customer Payments and Checks</span></span>  
+##  <a name="fsa_intro_lxnf"></a><span data-ttu-id="e5a3e-279">Categoría 1: Los pagos del cliente y comprobaciones</span><span class="sxs-lookup"><span data-stu-id="e5a3e-279">Category 1: Customer Payments and Checks</span></span>  
  <span data-ttu-id="e5a3e-280">En la tabla siguiente describe los mensajes de categoría 1: pagos y comprobaciones.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-280">The following table describes messages from Category 1: Payments and Checks.</span></span>  
   
 |<span data-ttu-id="e5a3e-281">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-281">Message type</span></span>|<span data-ttu-id="e5a3e-282">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-282">Description</span></span>|  
@@ -161,7 +161,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-319">**MT 198**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-319">**MT 198**</span></span>|<span data-ttu-id="e5a3e-320">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-320">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-321">**MT 199**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-321">**MT 199**</span></span>|<span data-ttu-id="e5a3e-322">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-322">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-323"><a name="fsa_intro_fywg"></a>Categoría 2: Las transferencias de institución financiera</span><span class="sxs-lookup"><span data-stu-id="e5a3e-323"><a name="fsa_intro_fywg"></a> Category 2: Financial Institution Transfers</span></span>  
+##  <a name="fsa_intro_fywg"></a><span data-ttu-id="e5a3e-323">Categoría 2: Las transferencias de institución financiera</span><span class="sxs-lookup"><span data-stu-id="e5a3e-323">Category 2: Financial Institution Transfers</span></span>  
  <span data-ttu-id="e5a3e-324">En la tabla siguiente describe los mensajes de la categoría 2: las transferencias de institución financiera.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-324">The following table describes messages from Category 2: Financial Institution Transfers.</span></span>  
   
 |<span data-ttu-id="e5a3e-325">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-325">Message type</span></span>|<span data-ttu-id="e5a3e-326">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-326">Description</span></span>|  
@@ -185,7 +185,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-359">**MT 298**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-359">**MT 298**</span></span>|<span data-ttu-id="e5a3e-360">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-360">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-361">**MT 299**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-361">**MT 299**</span></span>|<span data-ttu-id="e5a3e-362">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-362">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-363"><a name="fsa_intro_qipa"></a>Categoría 3: Tesoro mercados Exchange externa, mercados de dinero y derivados</span><span class="sxs-lookup"><span data-stu-id="e5a3e-363"><a name="fsa_intro_qipa"></a> Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>  
+##  <a name="fsa_intro_qipa"></a><span data-ttu-id="e5a3e-363">Categoría 3: Tesoro mercados Exchange externa, mercados de dinero y derivados</span><span class="sxs-lookup"><span data-stu-id="e5a3e-363">Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>  
  <span data-ttu-id="e5a3e-364">En la tabla siguiente describe los mensajes de la categoría 3: Tesoro mercados divisas, mercados de dinero y derivados.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-364">The following table describes messages from Category 3: Treasury Markets Foreign Exchange, Money Markets, and Derivatives.</span></span>  
   
 |<span data-ttu-id="e5a3e-365">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-365">Message type</span></span>|<span data-ttu-id="e5a3e-366">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-366">Description</span></span>|  
@@ -218,7 +218,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-417">**MT 398**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-417">**MT 398**</span></span>|<span data-ttu-id="e5a3e-418">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-418">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-419">**MT 399**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-419">**MT 399**</span></span>|<span data-ttu-id="e5a3e-420">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-420">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-421"><a name="fsa_intro_ruuc"></a>Categoría 4: Colecciones y letras efectivo</span><span class="sxs-lookup"><span data-stu-id="e5a3e-421"><a name="fsa_intro_ruuc"></a> Category 4: Collections and Cash Letters</span></span>  
+##  <a name="fsa_intro_ruuc"></a><span data-ttu-id="e5a3e-421">Categoría 4: Colecciones y letras efectivo</span><span class="sxs-lookup"><span data-stu-id="e5a3e-421">Category 4: Collections and Cash Letters</span></span>  
  <span data-ttu-id="e5a3e-422">En la tabla siguiente describe los mensajes de la categoría 4: colecciones y letras de efectivo.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-422">The following table describes messages from Category 4: Collections and Cash Letters.</span></span>  
   
 |<span data-ttu-id="e5a3e-423">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-423">Message type</span></span>|<span data-ttu-id="e5a3e-424">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-424">Description</span></span>|  
@@ -242,7 +242,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-457">**MT 498**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-457">**MT 498**</span></span>|<span data-ttu-id="e5a3e-458">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-458">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-459">**MT 499**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-459">**MT 499**</span></span>|<span data-ttu-id="e5a3e-460">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-460">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-461"><a name="fsa_intro_iitn"></a>Categoría 5: Los mercados de valores</span><span class="sxs-lookup"><span data-stu-id="e5a3e-461"><a name="fsa_intro_iitn"></a> Category 5: Securities Markets</span></span>  
+##  <a name="fsa_intro_iitn"></a><span data-ttu-id="e5a3e-461">Categoría 5: Los mercados de valores</span><span class="sxs-lookup"><span data-stu-id="e5a3e-461">Category 5: Securities Markets</span></span>  
  <span data-ttu-id="e5a3e-462">En la tabla siguiente describe los mensajes de categoría 5: los mercados de valores.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-462">The following table describes messages from Category 5: Securities Markets.</span></span>  
   
 |<span data-ttu-id="e5a3e-463">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-463">Message type</span></span>|<span data-ttu-id="e5a3e-464">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-464">Description</span></span>|  
@@ -315,7 +315,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-595">**MT 598**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-595">**MT 598**</span></span>|<span data-ttu-id="e5a3e-596">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-596">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-597">**MT 599**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-597">**MT 599**</span></span>|<span data-ttu-id="e5a3e-598">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-598">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-599"><a name="fsa_intro_bjez"></a>Categoría 6: Tesoro comercializa preciosos metal</span><span class="sxs-lookup"><span data-stu-id="e5a3e-599"><a name="fsa_intro_bjez"></a> Category 6: Treasury Markets Precious Metals</span></span>  
+##  <a name="fsa_intro_bjez"></a><span data-ttu-id="e5a3e-599">Categoría 6: Tesoro comercializa preciosos metal</span><span class="sxs-lookup"><span data-stu-id="e5a3e-599">Category 6: Treasury Markets Precious Metals</span></span>  
  <span data-ttu-id="e5a3e-600">En la tabla siguiente describe los mensajes de la categoría 6: Tesoro mercados preciosos metal, las sindicaciones de mercados de Tesoro y mensajes comunes de mercados de Tesoro.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-600">The following table describes messages from Category 6: Treasury Markets Precious Metals, Treasure Markets Syndications, and Treasury Markets Common Messages.</span></span>  
   
 |<span data-ttu-id="e5a3e-601">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-601">Message type</span></span>|<span data-ttu-id="e5a3e-602">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-602">Description</span></span>|  
@@ -345,7 +345,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-644">**MT 698**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-644">**MT 698**</span></span>|<span data-ttu-id="e5a3e-645">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-645">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-646">**MT 699**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-646">**MT 699**</span></span>|<span data-ttu-id="e5a3e-647">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-647">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-648"><a name="fsa_intro_vhkw"></a>Categoría 7: Créditos documentales y las garantías</span><span class="sxs-lookup"><span data-stu-id="e5a3e-648"><a name="fsa_intro_vhkw"></a> Category 7: Documentary Credits and Guarantees</span></span>  
+##  <a name="fsa_intro_vhkw"></a><span data-ttu-id="e5a3e-648">Categoría 7: Créditos documentales y las garantías</span><span class="sxs-lookup"><span data-stu-id="e5a3e-648">Category 7: Documentary Credits and Guarantees</span></span>  
  <span data-ttu-id="e5a3e-649">En la tabla siguiente describe los mensajes de categoría 7: documental créditos y garantías.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-649">The following table describes messages from Category 7: Documentary Credits and Guarantees.</span></span>  
   
 |<span data-ttu-id="e5a3e-650">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-650">Message type</span></span>|<span data-ttu-id="e5a3e-651">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-651">Description</span></span>|  
@@ -380,7 +380,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-706">**MT 798**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-706">**MT 798**</span></span>|<span data-ttu-id="e5a3e-707">Mensaje de propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-707">Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-708">**MT 799**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-708">**MT 799**</span></span>|<span data-ttu-id="e5a3e-709">Mensaje de formato libre</span><span class="sxs-lookup"><span data-stu-id="e5a3e-709">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-710"><a name="fsa_intro_qlwo"></a>Categoría 8: Viajeros Cheques</span><span class="sxs-lookup"><span data-stu-id="e5a3e-710"><a name="fsa_intro_qlwo"></a> Category 8: Travellers Cheques</span></span>  
+##  <a name="fsa_intro_qlwo"></a><span data-ttu-id="e5a3e-710">Categoría 8: Viajeros Cheques</span><span class="sxs-lookup"><span data-stu-id="e5a3e-710">Category 8: Travellers Cheques</span></span>  
  <span data-ttu-id="e5a3e-711">En la tabla siguiente describe los mensajes de la categoría 8: los Cheques.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-711">The following table describes messages from Category 8: Travellers Cheques.</span></span>  
   
 |<span data-ttu-id="e5a3e-712">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-712">Message type</span></span>|<span data-ttu-id="e5a3e-713">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-713">Description</span></span>|  
@@ -404,7 +404,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="e5a3e-746">**MT 898**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-746">**MT 898**</span></span>|<span data-ttu-id="e5a3e-747">MT 898 mensaje propietario</span><span class="sxs-lookup"><span data-stu-id="e5a3e-747">MT 898 Proprietary Message</span></span>|  
 |<span data-ttu-id="e5a3e-748">**MT 899**</span><span class="sxs-lookup"><span data-stu-id="e5a3e-748">**MT 899**</span></span>|<span data-ttu-id="e5a3e-749">Mensaje de formato libre 899 MT</span><span class="sxs-lookup"><span data-stu-id="e5a3e-749">MT 899 Free Format Message</span></span>|  
   
-##  <span data-ttu-id="e5a3e-750"><a name="fsa_intro_sptj"></a>Categoría 9: Estado de cliente y la gestión de efectivo</span><span class="sxs-lookup"><span data-stu-id="e5a3e-750"><a name="fsa_intro_sptj"></a> Category 9: Cash Management and Customer Status</span></span>  
+##  <a name="fsa_intro_sptj"></a><span data-ttu-id="e5a3e-750">Categoría 9: Estado de cliente y la gestión de efectivo</span><span class="sxs-lookup"><span data-stu-id="e5a3e-750">Category 9: Cash Management and Customer Status</span></span>  
  <span data-ttu-id="e5a3e-751">En la tabla siguiente describe los mensajes de la categoría 9: administración de efectivo y el estado de cliente.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-751">The following table describes messages from Category 9: Cash Management and Customer Status.</span></span>  
   
 |<span data-ttu-id="e5a3e-752">Tipo de mensaje</span><span class="sxs-lookup"><span data-stu-id="e5a3e-752">Message type</span></span>|<span data-ttu-id="e5a3e-753">Description</span><span class="sxs-lookup"><span data-stu-id="e5a3e-753">Description</span></span>|  

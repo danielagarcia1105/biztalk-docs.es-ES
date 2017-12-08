@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="3b13b-112">Las secciones siguientes proporcionan información acerca de las operaciones expuestas por la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para programas simultáneos.</span><span class="sxs-lookup"><span data-stu-id="3b13b-112">The following sections provide information about the operations exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] for concurrent programs.</span></span>  
   
-##  <span data-ttu-id="3b13b-113"><a name="Concurrent"></a>Operación de < Concurrent_Program_Name ></span><span class="sxs-lookup"><span data-stu-id="3b13b-113"><a name="Concurrent"></a> <Concurrent_Program_Name> Operation</span></span>  
+##  <a name="Concurrent"></a><span data-ttu-id="3b13b-113">Operación de < Concurrent_Program_Name ></span><span class="sxs-lookup"><span data-stu-id="3b13b-113"><Concurrent_Program_Name> Operation</span></span>  
  <span data-ttu-id="3b13b-114">Como se mencionó anteriormente, habrá tantas operaciones < Concurrent_Program_Name > como el número de programas simultáneos en una aplicación de Oracle.</span><span class="sxs-lookup"><span data-stu-id="3b13b-114">As mentioned earlier, there will be as many <Concurrent_Program_Name> operations as the number of concurrent programs in an Oracle Aapplication.</span></span> <span data-ttu-id="3b13b-115">La operación < Concurrent_Program_Name > tiene cinco parámetros estándares: tres de tipo complejo y dos de tipo simple.</span><span class="sxs-lookup"><span data-stu-id="3b13b-115">The <Concurrent_Program_Name> operation takes five standard parameters:  three of complex type and two of simple type.</span></span>  
   
 > [!NOTE]
