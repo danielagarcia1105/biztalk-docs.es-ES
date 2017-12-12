@@ -12,16 +12,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1195e153eb94215bf8861b4856e4d2135b24443e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0b5a5c60d42892479feacc93aedb3802b11308c
+ms.sourcegitcommit: d572ae5c887898adedcb3dfc5f83841beedd3434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="delimiter-preservation-and-suppression"></a>Supresión y conservación de delimitador
 
 ## <a name="overview"></a>Información general
-Hay dos propiedades que se aplican a los registros delimitados: **conservar delimitador para datos vacíos** y **[Suprimir delimitadores finales**. Utilice estas propiedades para controlar la forma en que el ensamblador de archivo sin formato utiliza delimitadores asociados con datos que no existen y delimitadores finales. Al establecer el **conservar delimitador para datos vacíos** propiedad **Sí** (que es el valor predeterminado), los delimitadores se incluyen en el mensaje de archivo sin formato traducido de:  
+Hay dos propiedades que se aplican a los registros delimitados: **conservar delimitador para datos vacíos** y **Suprimir delimitadores finales**. Utilice estas propiedades para controlar la forma en que el ensamblador de archivo sin formato utiliza delimitadores asociados con datos que no existen y delimitadores finales. Al establecer el **conservar delimitador para datos vacíos** propiedad **Sí** (que es el valor predeterminado), los delimitadores se incluyen en el mensaje de archivo sin formato traducido de:  
   
 -   Los campos sin datos  
   
@@ -111,5 +111,5 @@ Hay dos propiedades que se aplican a los registros delimitados: **conservar deli
 ```  
   
 ## <a name="see-also"></a>Vea también  
--  [Consideraciones de registro delimitadas](../core/delimited-record-considerations.md)   
+-  [Consideraciones acerca de los registros delimitados](../core/delimited-record-considerations.md)   
 -  **Conservar delimitador para datos vacíos (propiedad de nodo de esquemas de archivo sin formato)** y **Suprimir delimitadores (propiedad de nodo de esquemas de archivo sin formato) finales**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

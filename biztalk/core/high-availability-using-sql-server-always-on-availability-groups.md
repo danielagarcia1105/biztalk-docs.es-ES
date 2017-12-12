@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db9b066b6d1f2334e14e4829d61ec6b84830c4c1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 52579934be36d4bb42fa4b299f54b66fd6af3894
+ms.sourcegitcommit: 654a9586d1232ac332a1675b8a4fae832a0d559a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/10/2017
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn
 Configurar alta disponibilidad mediante el uso de grupos de disponibilidad AlwaysOn de SQL Server.
@@ -69,7 +69,7 @@ Se recomienda que las bases de datos de BizTalk Server se agrupan en las siguien
 |1 |Autenticación |SSODB|
 |2 |Administración |BizTalkMgmtDb| 
 |3 |Tiempo de ejecución |BizTalkMsgBoxDb<br/> BizTalkRulesEngineDb<br/> BAMPrimaryImport<br/>BAMStarSchema <br/>BAMAlertsApplication |
-|4 |Seguimiento |BizTalkDTADb| 
+|4 |Seguimiento |BizTalkDTADb<br/>EsbItineraryDb<br/>EsbExceptionDb | 
  
 En un escenario de cuadro de mensajes de escala horizontal (una configuración con más de un cuadro de mensajes), hay más de una base de datos de cuadro de mensajes, y cada base de datos de cuadro de mensajes debe estar en su propia instancia de SQL Server. 
 
@@ -241,7 +241,7 @@ Si va a agregar otras bases de datos de BizTalk para el trabajo de copia de segu
  
 * [Proporcionar una alta disponibilidad para bases de datos de servidor BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md)  
 * [Soporte de software de servidor de Microsoft para máquinas virtuales de Microsoft Azure](https://support.microsoft.com/kb/2721672)  
-* [Creación de reflejo, servicio de instantáneas de volumen y AlwaysOn de base de datos de SQL Server](../core/sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson.md)  
+* [Creación de reflejo de base de datos de SQL Server, Servicio de instantáneas de volumen y AlwaysOn](../core/sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson.md)  
 * [Información general de los grupos de disponibilidad AlwaysOn (SQL Server)](https://msdn.microsoft.com/library/ff877884.aspx)  
 * [Compatibilidad para las transacciones entre bases de datos para la creación de reflejo de base de datos o grupos de disponibilidad AlwaysOn (SQL Server)](https://msdn.microsoft.com/library/ms366279.aspx)  
 * [No se puede llamar Reenlist cuando SQL Server recibe el resultado de la transacción de MSDTC en Windows Server 2012 R2](https://support.microsoft.com/kb/3090973)  
