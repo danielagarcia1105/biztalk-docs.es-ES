@@ -17,23 +17,23 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6102e39eb38e919c68405ae18bebde0b46c0b053
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="how-to-determine-a-web-message-part-type"></a><span data-ttu-id="cbfc0-102">Cómo determinar un tipo de parte de mensaje web</span><span class="sxs-lookup"><span data-stu-id="cbfc0-102">How to Determine a Web Message Part Type</span></span>
-<span data-ttu-id="cbfc0-103">Se puede determinar si un tipo de parte de un mensaje Web es un tipo .NET primitivo o un tipo de esquema mediante la ventana Propiedades de un tipo de mensaje Web concreto.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-103">You can determine if a Web message part type is a primitive .NET type or a schema type by using the Properties window for a given Web message type.</span></span>  
+# <a name="how-to-determine-a-web-message-part-type"></a><span data-ttu-id="4e9fa-102">Cómo determinar un tipo de parte de mensaje web</span><span class="sxs-lookup"><span data-stu-id="4e9fa-102">How to Determine a Web Message Part Type</span></span>
+<span data-ttu-id="4e9fa-103">Se puede determinar si un tipo de parte de un mensaje Web es un tipo .NET primitivo o un tipo de esquema mediante la ventana Propiedades de un tipo de mensaje Web concreto.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-103">You can determine if a Web message part type is a primitive .NET type or a schema type by using the Properties window for a given Web message type.</span></span>  
   
-### <a name="to-determine-a-web-message-part-type"></a><span data-ttu-id="cbfc0-104">Para determinar un tipo de parte de mensaje Web</span><span class="sxs-lookup"><span data-stu-id="cbfc0-104">To determine a Web message part type</span></span>  
+### <a name="to-determine-a-web-message-part-type"></a><span data-ttu-id="4e9fa-104">Para determinar un tipo de parte de mensaje Web</span><span class="sxs-lookup"><span data-stu-id="4e9fa-104">To determine a Web message part type</span></span>  
   
-1.  <span data-ttu-id="cbfc0-105">Con una orquestación abierta, en el **vista** menú, haga clic en **otras ventanas**y, a continuación, haga clic en **Vista orquestación**.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-105">With an orchestration open, on the **View** menu, click **Other Windows**,and then click **Orchestration View**.</span></span>  
+1.  <span data-ttu-id="4e9fa-105">Con una orquestación abierta, en el **vista** menú, haga clic en **otras ventanas**y, a continuación, haga clic en **Vista orquestación**.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-105">With an orchestration open, on the **View** menu, click **Other Windows**,and then click **Orchestration View**.</span></span>  
   
-2.  <span data-ttu-id="cbfc0-106">Expanda el **tipos de mensaje de varias partes** nodo y, a continuación, expanda un tipo de mensaje Web.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-106">Expand the **Multi-part Message Types** node, and then expand a Web message type.</span></span>  
+2.  <span data-ttu-id="4e9fa-106">Expanda el **tipos de mensaje de varias partes** nodo y, a continuación, expanda un tipo de mensaje Web.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-106">Expand the **Multi-part Message Types** node, and then expand a Web message type.</span></span>  
   
-3.  <span data-ttu-id="cbfc0-107">Seleccione una parte de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-107">Select a message part.</span></span>  
+3.  <span data-ttu-id="4e9fa-107">Seleccione una parte de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-107">Select a message part.</span></span>  
   
-     <span data-ttu-id="cbfc0-108">Una firma de parte de mensaje Web que comienza por  **\<* espacio de nombres predeterminado del proyecto*\>.\< *Nombre de referencia web*\>. Referencia. \< *raíz del esquema*\>** es un tipo de esquema.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-108">A Web message part signature that begins as **\<*project default namespace*\>.\<*Web reference name*\>.Reference.\<*schema root*\>** is a schema type.</span></span> <span data-ttu-id="cbfc0-109">El  **\<* raíz del esquema*\>** parte del tipo es el elemento raíz del esquema de referencia Web que construye la parte del mensaje Web.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-109">The **\<*schema root*\>** part of the type is the root element of the Web reference schema that constructs the Web message part.</span></span> <span data-ttu-id="cbfc0-110">En caso contrario, la firma de la parte de mensaje es un tipo .NET primitivo como **System.String** o **System.Int32**.</span><span class="sxs-lookup"><span data-stu-id="cbfc0-110">Otherwise, the message part signature is a primitive .NET type such as **System.String** or **System.Int32**.</span></span>  
+     <span data-ttu-id="4e9fa-108">Una firma de parte de mensaje Web que comienza por  **\< *espacio de nombres predeterminado del proyecto*\>.\< *Nombre de referencia web*\>. Referencia. \< *raíz del esquema* \>**  es un tipo de esquema.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-108">A Web message part signature that begins as **\<*project default namespace*\>.\<*Web reference name*\>.Reference.\<*schema root*\>** is a schema type.</span></span> <span data-ttu-id="4e9fa-109">El  **\< *raíz del esquema* \>**  parte del tipo es el elemento raíz del esquema de referencia Web que construye la parte del mensaje Web.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-109">The **\<*schema root*\>** part of the type is the root element of the Web reference schema that constructs the Web message part.</span></span> <span data-ttu-id="4e9fa-110">En caso contrario, la firma de la parte de mensaje es un tipo .NET primitivo como **System.String** o **System.Int32**.</span><span class="sxs-lookup"><span data-stu-id="4e9fa-110">Otherwise, the message part signature is a primitive .NET type such as **System.String** or **System.Int32**.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="cbfc0-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="cbfc0-111">See Also</span></span>  
- [<span data-ttu-id="cbfc0-112">Construcción de mensajes web</span><span class="sxs-lookup"><span data-stu-id="cbfc0-112">Constructing Web Messages</span></span>](../core/constructing-web-messages.md)
+## <a name="see-also"></a><span data-ttu-id="4e9fa-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="4e9fa-111">See Also</span></span>  
+ [<span data-ttu-id="4e9fa-112">Construcción de mensajes web</span><span class="sxs-lookup"><span data-stu-id="4e9fa-112">Constructing Web Messages</span></span>](../core/constructing-web-messages.md)
