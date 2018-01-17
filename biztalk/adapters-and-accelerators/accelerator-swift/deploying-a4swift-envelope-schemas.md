@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a8811f1dd056ca5a4ea4582d593af30e2ffc879f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="deploying-a4swift-envelope-schemas"></a>Implementación de esquemas de sobres de A4SWIFT
 Debe incluir esquemas de sobres en proyectos de esquema siempre que se establezca una reparación de mensajes y nuevo envío. Un esquema de sobre, por ejemplo, EnvelopeMT103.xsd, es necesario para escribir en el sitio de MRSR.  
@@ -47,7 +47,7 @@ Debe incluir esquemas de sobres en proyectos de esquema siempre que se establezc
   
 3.  En el cuadro de diálogo Agregar referencia, haga clic en el **examinar** etiqueta.  
   
-4.  En el cuadro de diálogo Seleccionar componente, abra el **buscar en** lista desplegable. Mover a   ***\<unidad\>*: \Program Acelerador de BizTalk para SWIFT \<versión\> Pack\Assemblies mensaje**. Seleccione **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** en la lista de ensamblados y, a continuación, haga clic en **agregar**.  
+4.  En el cuadro de diálogo Seleccionar componente, abra el **buscar en** lista desplegable. Mover a ***\<unidad\>*:\Program de programa\Microsoft BizTalk Accelerator para SWIFT \<versión\> Pack\Assemblies mensaje**. Seleccione **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** en la lista de ensamblados y, a continuación, haga clic en **agregar**.  
   
 5.  En el **Agregar referencia** cuadro de diálogo, haga clic en **Aceptar**.  
   
@@ -62,7 +62,7 @@ Debe incluir esquemas de sobres en proyectos de esquema siempre que se establezc
   
 8.  En el Explorador de soluciones, haga clic en el proyecto, seleccione **agregar**y, a continuación, haga clic en **Agregar elemento existente**.  
   
-9. Si utiliza la característica de reparación de mensajes y nuevo envío, en el cuadro de diálogo Agregar elemento existente, en la **buscar en** cuadro de lista desplegable, desplácese a  **\<* unidad* \>: \Microsoft BizTalk Accelerator para SWIFT \<versión\> mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Unparsed mensaje **. Seleccione **EnvelopeUnparsedMessage.xsd**y, a continuación, haga clic en **agregar**.  
+9. Si utiliza la característica de reparación de mensajes y nuevo envío, en el cuadro de diálogo Agregar elemento existente, en la **buscar en** cuadro de lista desplegable, desplácese a  **\< *unidad*\>: \ Acelerador de Microsoft BizTalk para SWIFT \<versión\> mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Unparsed mensaje**. Seleccione **EnvelopeUnparsedMessage.xsd**y, a continuación, haga clic en **agregar**.  
   
 10. En el Explorador de soluciones, haga clic con el botón secundario en el nombre del proyecto y, a continuación, haga clic en **Versión de compilación**.  
   

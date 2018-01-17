@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2752203b0498a6cd5a4a8b6df6bc558c444e355
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="migrating-a-biztalk-server-project"></a>Migración de un proyecto de BizTalk Server
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]los proyectos desarrollan para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden migrar a los entornos más recientes mediante el uso de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversión. Para obtener una lista de las versiones de migración compatibles, consulte [admiten rutas de acceso de actualización y guías de instalación](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).  

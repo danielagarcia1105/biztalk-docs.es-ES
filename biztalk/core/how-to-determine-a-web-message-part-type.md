@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6102e39eb38e919c68405ae18bebde0b46c0b053
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-determine-a-web-message-part-type"></a>Cómo determinar un tipo de parte de mensaje web
 Se puede determinar si un tipo de parte de un mensaje Web es un tipo .NET primitivo o un tipo de esquema mediante la ventana Propiedades de un tipo de mensaje Web concreto.  
@@ -33,7 +33,7 @@ Se puede determinar si un tipo de parte de un mensaje Web es un tipo .NET primit
   
 3.  Seleccione una parte de un mensaje.  
   
-     Una firma de parte de mensaje Web que comienza por  **\<* espacio de nombres predeterminado del proyecto*\>.\< *Nombre de referencia web*\>. Referencia. \< *raíz del esquema*\>** es un tipo de esquema. El  **\<* raíz del esquema*\>** parte del tipo es el elemento raíz del esquema de referencia Web que construye la parte del mensaje Web. En caso contrario, la firma de la parte de mensaje es un tipo .NET primitivo como **System.String** o **System.Int32**.  
+     Una firma de parte de mensaje Web que comienza por  **\< *espacio de nombres predeterminado del proyecto*\>.\< *Nombre de referencia web*\>. Referencia. \< *raíz del esquema* \>**  es un tipo de esquema. El  **\< *raíz del esquema* \>**  parte del tipo es el elemento raíz del esquema de referencia Web que construye la parte del mensaje Web. En caso contrario, la firma de la parte de mensaje es un tipo .NET primitivo como **System.String** o **System.Int32**.  
   
 ## <a name="see-also"></a>Vea también  
  [Construcción de mensajes web](../core/constructing-web-messages.md)

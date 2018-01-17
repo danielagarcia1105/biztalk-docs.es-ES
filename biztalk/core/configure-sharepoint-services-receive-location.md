@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 807f13611b7e8977e0d5067787717427efc4bed2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="configure-sharepoint-services-receive-location"></a>Configurar una ubicación de recepción de SharePoint Services
 Este tema muestra los pasos necesarios para crear una ubicación de recepción de [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)].  
@@ -26,7 +26,7 @@ Este tema muestra los pasos necesarios para crear una ubicación de recepción d
   
  Crear la ubicación de recepción:  
   
-1.  En el **administración de BizTalk Server** de la consola, expanda  **grupo de BizTalk [*GroupName*] **, expanda **aplicaciones**y, a continuación, expanda la aplicación para que contenga la ubicación de recepción.  
+1.  En el **administración de BizTalk Server** de la consola, expanda **grupo de BizTalk [*GroupName*]**, expanda **aplicaciones**y, a continuación, expanda la aplicación para que contenga la ubicación de recepción.  
   
 2.  Crear un **unidireccional puerto de recepción**. [Cómo crear un puerto de recepción](../core/how-to-create-a-receive-port.md) se enumeran los pasos.  
   
@@ -61,7 +61,7 @@ Este tema muestra los pasos necesarios para crear una ubicación de recepción d
     |Utilizar modelo de objetos del cliente|**Requiere**. Determina si se utiliza el modelo de objetos del cliente de SharePoint (CSOM) o el modelo de objetos del servicio (SSOM).<br /><br /> Valor predeterminado es **Sí**. Establecido en **Sí** para utilizar el CSOM de SharePoint en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. No hay ningún requisito para el equipo de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)].<br /><br /> Establecido en **No** utilizar el SSOM de SharePoint que incluye el servicio web instalado en el [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] equipo.<br /><br /> [Apéndice B: instalar el adaptador de SharePoint de Microsoft](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) proporciona información específica acerca de los componentes SSOM y CSOM utilizados por el [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] adaptador.|  
     |Nombre del archivo|**Opcional**. Los servicios web de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] pueden archivar documentos desde una biblioteca de SharePoint. Escriba el nombre del fichero archivado.<br /><br /> Escriba un nombre de archivo, como **Pedido0001.XML** o una expresión. Las expresiones incluyen cualquier combinación de valores literales, macros y consultas XPATH. Por ejemplo, "Pedido-%XPATH=//pd:IdPedido%-%IdMensaje%.xml". Cuando no se proporciona ningún nombre de archivo, se utiliza el nombre de archivo del archivo de origen. Vea [expresiones del adaptador de Windows SharePoint Services](../core/windows-sharepoint-services-adapter-expressions.md) para obtener más información. **Nota:** el "% SendingOrchestrationID %" y "% SendingOrchestrationType %" macros no son compatibles con este campo.|  
     |Dirección URL de ubicación de archivado|**Opcional**. Dirección URL de la carpeta de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] en la que se van a almacenarlos documentos archivados. Escriba una ruta de acceso relativa al sitio de SharePoint. Por ejemplo, **archivo** o **compartido documentos/pedidos procesados /**. Si no se especifica ninguna ubicación de archivado, el documento se eliminará tras haber sido procesado por el adaptador. **Nota:** la URL de carpeta o biblioteca de documentos de SharePoint puede ser diferente de su nombre. Compruebe la dirección en el explorador web para obtener la dirección URL correcta.|  
-    |Sobrescribir archivo|**Requiere**. Especifica si se van a sobrescribir los archivos existentes.<br /><br /> Valor predeterminado es **n**, lo que produce un error en el archivo si existe un archivo con el mismo nombre en el archivo. En este escenario, el archivo se desprotegerá y deberá archivarse de forma manual. **Nota:** al archivar ficheros, use valores de nombre del archivo con macros de nombre de archivo es único. Por ejemplo, utilice un nombre de archivado como  **PO-%MessageID%.XML o PO-%XPATH=//ns0:PurchaseOrder/ns0:*identificador*%.xml**, donde Id. es el identificador de pedido de compra único.|  
+    |Sobrescribir archivo|**Requiere**. Especifica si se van a sobrescribir los archivos existentes.<br /><br /> Valor predeterminado es **n**, lo que produce un error en el archivo si existe un archivo con el mismo nombre en el archivo. En este escenario, el archivo se desprotegerá y deberá archivarse de forma manual. **Nota:** al archivar ficheros, use valores de nombre del archivo con macros de nombre de archivo es único. Por ejemplo, utilice un nombre de archivado como **PO-%MessageID%.XML o PO-%XPATH=//ns0:PurchaseOrder/ns0:*identificador*%.xml**, donde ID es el identificador de pedido de compra único.|  
     |Tamaño del lote|**Requiere**. Número máximo de documentos procesados por el servicio como lote. Un lote procesado puede contener menos mensajes que el tamaño de lote definido. No contiene más mensajes.<br /><br /> Valor predeterminado es **20** y debe tener al menos un valor de **1**.|  
     |Error de umbral|**Requiere**. El número máximo de errores de sondeo consecutivos por el adaptador hasta que se deshabilite la ubicación de recepción.<br /><br /> Valor predeterminado es **10**. Para detener la ubicación de recepción de estar habilitada, establezca esta propiedad en **0**.|  
     |Alias de espacios de nombres|**Opcional**. Lista separada por comas o punto y coma de definiciones de alias de espacios de nombres.<br /><br /> Utilice este campo para definir los alias de espacio de nombres utilizados en las consultas XPATH que se han introducido en el campo Nombre del arriba mencionado. Por ejemplo, escriba **po = 'http://OrderProcess/POrder', conf = 'http://OrderProcess/Confirmation' ipsol = '{D8217CF1-4EF7-4bb5-A30D-765ECB09E0D9}'**.|  
@@ -83,15 +83,15 @@ Este tema muestra los pasos necesarios para crear una ubicación de recepción d
   
  Temas adicionales de puerto de recepción y ubicación de recepción:  
   
- [Administrar puertos de recepción](../core/managing-receive-ports.md)  
+ [Administración de puertos de recepción](../core/managing-receive-ports.md)  
   
- [Administrar ubicaciones de recepción](../core/managing-receive-locations.md)  
+ [Administración de ubicaciones de recepción](../core/managing-receive-locations.md)  
   
  A continuación, cree un puerto de envío de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)]:  
   
- [Configurar el puerto de envío de SharePoint Services](../core/configure-sharepoint-services-send-port.md)  
+ [Configurar un puerto de envío de SharePoint Services](../core/configure-sharepoint-services-send-port.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Configurar el puerto de envío de SharePoint Services](../core/configure-sharepoint-services-send-port.md)   
  [Solución de problemas de adaptador de SharePoint Services](../core/troubleshooting-sharepoint-services-adapter.md)   
- [CSOM: Adaptador de servicios de SharePoint](../core/csom-sharepoint-services-adapter.md)
+ [CSOM: Adaptador de SharePoint Services](../core/csom-sharepoint-services-adapter.md)

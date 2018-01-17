@@ -23,10 +23,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64be28927a49a1fc751870785ff3fc3f55a36cb1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a>Importación de certificados mediante la utilidad CertWizard
 Este tema describe cómo importar un certificado mediante la utilidad CertWizard, una utilidad de línea de comandos paso a paso disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Este tema describe la importación de una privada, pública o clave raíz. Describe los modificadores que utilizan para configurar el certificado.  

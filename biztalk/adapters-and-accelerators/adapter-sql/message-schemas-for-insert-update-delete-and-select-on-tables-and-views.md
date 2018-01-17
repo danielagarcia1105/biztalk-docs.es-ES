@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 73270b3d096a8d72de5b339835737cc74d264c9c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations-on-tables-and-views"></a>Esquemas de mensaje para insertar, actualizar, eliminar y seleccione las operaciones en tablas y vistas
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de Insert, Update, Delete y las operaciones Select para cada tabla y la vista en la base de datos de SQL Server. Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE. El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] usa fuertemente tipada de registros y conjuntos de registros en estas operaciones.  
@@ -32,7 +32,7 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de Insert
 |Seleccionar respuesta|`<SelectResponse  xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <SelectResult>     <[TABLE_NAME]>       <[FIELD1_NAME]>[value1]</[FIELD1_NAME]>       <[FIELD2_NAME]>[value2]</[FIELD2_NAME]>       …     </[TABLE_NAME]>   </SelectResult> <SelectResponse>`|Conjunto de resultados fuertemente tipado generado por la consulta SELECT.|--|  
 |Update|`<SelectResponse  xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <SelectResult>     <[TABLE_NAME]>       <[FIELD1_NAME]>[value1]</[FIELD1_NAME]>       <[FIELD2_NAME]>[value2]</[FIELD2_NAME]>       …     </[TABLE_NAME]>   </SelectResult> </SelectResponse>`<br /><br /> `<Update xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <Rows>     <RowPair>       <After>         <[FIELD1_NAME]>[value1]</[FIELD1_NAME]>         <[FIELD2_NAME]>[value2]</[FIELD2_NAME]>         …       </After>       <Before>         <[FIELD1_NAME]>[value3]</[FIELD1_NAME]>         <[FIELD2_NAME]>[value4]</[FIELD2_NAME]>         …       </Before>     </RowPair>   </Rows> </Update>`|Usar una matriz de pares de registros como entrada. Cada par de registros es una colección de dos registros fuertemente tipado:<br /><br /> Debe registrar (en el `<After>` elemento) corresponde a los nuevos valores que deben actualizarse.<br /><br /> Segundo registro (en la `<Before>`) corresponde a los valores anteriores de las filas.|`UPDATE [TABLE_NAME] SET [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, … WHERE [FIELD1_NAME] = value3, [FIELD2_NAME] = value4, …;`|  
 |Respuesta de actualización|`<UpdateResponse xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <UpdateResult>[rows updated]</UpdateResult> </UpdateResponse>`|Se devuelve el número de filas actualizadas en el **UpdateResult** elemento.|--|  
-|DELETE|`<Delete xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <Rows>     <[TABLE_NAME]>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </[TABLE_NAME]>   </Rows> </Delete>`|--|`DELETE FROM [TABLE_NAME] WHERE [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, …;`|  
+|Delete|`<Delete xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <Rows>     <[TABLE_NAME]>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </[TABLE_NAME]>   </Rows> </Delete>`|--|`DELETE FROM [TABLE_NAME] WHERE [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, …;`|  
 |Respuesta de eliminación|`<DeleteResponse xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <DeleteResult>[rows deleted]</DeleteResult> </DeleteResponse>`|Se devuelve el número de filas eliminadas en el **DeleteResult** elemento.|--|  
   
  [Versión] = la cadena de versión de mensaje; Por ejemplo, http://schemas.microsoft.com/Sql/2008/05.  
@@ -57,14 +57,14 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de Insert
   
 |Operación|Acción de mensaje|Ejemplo|  
 |---------------|--------------------|-------------|  
-|Insert|TableOp/Insert / [esquema] / [NombreTabla]|TableOp/Insert/dbo/Employee|  
-|Insertar la respuesta|TableOp/Insert / [esquema] / [NombreTabla] / respuesta|TableOp/Insert/dbo/empleado/respuesta|  
-|Select|Seleccione/TableOp / [esquema] / [NombreTabla]|TableOp/seleccione/dbo/Employee|  
-|Seleccionar respuesta|Seleccione/TableOp / [esquema] / [NombreTabla] / respuesta|TableOp/seleccione/dbo/empleado/respuesta|  
-|Update|TableOp/actualizar / [esquema] / [NombreTabla]|TableOp/actualización/dbo/Employee|  
-|Respuesta de actualización|TableOp/actualizar / [esquema] / [NombreTabla] / respuesta|TableOp/actualización/dbo/empleado/respuesta|  
-|DELETE|TableOp/Delete / [esquema] / [NombreTabla]|TableOp/Delete/dbo/Employee|  
-|Respuesta de eliminación|TableOp/Delete / [esquema] / [NombreTabla] / respuesta|TableOp/Delete/dbo/empleado/respuesta|  
+|Insert|TableOp/Insert/[SCHEMA]/[TABLE_NAME]|TableOp/Insert/dbo/Employee|  
+|Insertar la respuesta|TableOp/Insert/[SCHEMA]/[TABLE_NAME]/response|TableOp/Insert/dbo/Employee/response|  
+|Select|TableOp/Select/[SCHEMA]/[TABLE_NAME]|TableOp/seleccione/dbo/Employee|  
+|Seleccionar respuesta|TableOp/Select/[SCHEMA]/[TABLE_NAME]/response|TableOp/seleccione/dbo/empleado/respuesta|  
+|Update|TableOp/Update/[SCHEMA]/[TABLE_NAME]|TableOp/Update/dbo/Employee|  
+|Respuesta de actualización|TableOp/Update/[SCHEMA]/[TABLE_NAME]/response|TableOp/Update/dbo/Employee/response|  
+|Delete|TableOp/Delete/[SCHEMA]/[TABLE_NAME]|TableOp/Delete/dbo/Employee|  
+|Respuesta de eliminación|TableOp/Delete/[SCHEMA]/[TABLE_NAME]/response|TableOp/Delete/dbo/Employee/response|  
   
  [Esquema] = artefactos de la colección de SQL Server; Por ejemplo, dbo.  
   

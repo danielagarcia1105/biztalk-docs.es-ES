@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3f2f59ce48a3d46ebf33889e31a55f9aa452fd17
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)
 El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) muestra cómo escribir un componente de canalización personalizado para promover propiedades específicas en un documento XML que se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar la funcionalidad contenida en el ejemplo para crear componentes de ensamblador y desensamblador normales personalizados para evaluar las expresiones XPath.  

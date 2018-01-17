@@ -17,13 +17,13 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 50bdcacfe1459ba4a236c3701b786d97217db8ef
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="segments-common-schemas"></a>Esquemas comunes de segmentos
-El  **segments_\<*versión*\>archivo .xsd ** incluye datatypes_\<*versión*\>.xsd y contiene la definición de todos los segmentos relacionada con la versión de HL7. Cada esquema de mensaje utiliza segments_\<*versión*\>.xsd. Mensaje de HL7 definiciones están bajo cada subcarpeta e incluyen segments_\<*versión*\>.xsd. Las tablas de base de datos SegmentDataElements y DataElements acceso generan el segments_\<*versión*\>archivo .xsd, que incluye un puntero al archivo de esquema Fields.xsd para todos los tipos de datos. El formato de nombre de archivo de esquema es:  
+El **segments_\<*versión*\>.xsd** archivo incluye datatypes_\<*versión*\>.xsd y contiene el definición de todos los segmentos relacionada con la versión de HL7. Cada esquema de mensaje utiliza segments_\<*versión*\>.xsd. Mensaje de HL7 definiciones están bajo cada subcarpeta e incluyen segments_\<*versión*\>.xsd. Las tablas de base de datos SegmentDataElements y DataElements acceso generan el segments_\<*versión*\>archivo .xsd, que incluye un puntero al archivo de esquema Fields.xsd para todos los tipos de datos. El formato de nombre de archivo de esquema es:  
   
 ```  
   

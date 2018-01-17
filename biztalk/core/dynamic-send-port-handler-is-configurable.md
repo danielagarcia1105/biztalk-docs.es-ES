@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 11dffbe28d44d7665bc86ff0842c17ea01f7b3d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="dynamic-send-port-handler-is-configurable"></a>El controlador de puerto de envío dinámico es configurable
 Al crear un puerto de envío dinámico, puede configurar un controlador de envío de adaptador para *cada* adaptador instalado. Considere el caso siguiente:  
@@ -32,7 +32,7 @@ Al crear un puerto de envío dinámico, puede configurar un controlador de enví
 ## <a name="select-a-send-handler"></a>Seleccione un controlador de envío  
  Al crear un puerto de envío unidireccional dinámico o un puerto de envío de petición-respuesta dinámico, el controlador de envío se puede configurar para usar cada adaptador instalado. Pasos:  
   
-1.  En el **administración de BizTalk Server** de la consola, expanda  **grupo de BizTalk [*GroupName*] **, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
+1.  En el **administración de BizTalk Server** de la consola, expanda **grupo de BizTalk [*GroupName*]**, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
   
 2.  Haga clic en **puertos de envío**, haga clic en **New**y, a continuación, haga clic en **puerto de envío unidireccional dinámico** o **puerto de envío de petición-respuesta dinámico**.  
   
@@ -66,4 +66,4 @@ Al crear un puerto de envío dinámico, puede configurar un controlador de enví
   
  [Optimizaciones generales de BizTalk Server](http://go.microsoft.com/fwlink/p/?LinkId=267703)  
   
- [Administración de la configuración de rendimiento de servidor BizTalk Server](http://go.microsoft.com/fwlink/p/?LinkId=267704)
+ [Administración de la configuración de rendimiento de BizTalk Server](http://go.microsoft.com/fwlink/p/?LinkId=267704)

@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ba7f93eae8866212546f5daa3b9ed1a5b653c983
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como servicios Web
 El Asistente para publicar servicios Web de BizTalk permite publicar esquemas como servicio Web.  
@@ -57,12 +57,12 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
   
 6.  En el **propiedades del servicio Web** página, en la **espacio de nombres de destino del servicio web** cuadro de diálogo, escriba un espacio de nombres de destino para el servicio Web y seleccione las casillas adecuadas para especificar cómo debe el Asistente controlar encabezados SOAP y la compatibilidad con el inicio de sesión único para el servicio Web. Si desea personalizar aún más la implementación del servicio Web, haga clic en **avanzadas** botón. Mostrará más opciones disponibles:  
   
-    |Opción|Valor|Description|  
+    |Opción|Value|Description|  
     |------------|-----------|-----------------|  
     |Estilo de parámetro SOAP|Predeterminado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
     |Estilo de parámetro SOAP|Reconstrucción|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
     |Estilo de parámetro SOAP|Ajustado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
-    |Afirmaciones de conformidad|Ninguno|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
+    |Afirmaciones de conformidad|None|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
     |Afirmaciones de conformidad|Perfil básico de servicios Web WS-I, versión 1.1|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
     |Forzar solicitud-respuesta|[Predeterminado]|Esta opción especifica si se deben exponer las operaciones de BizTalk unidireccionales como métodos Web de solicitud-respuesta. El valor predeterminado es no forzar el indicador unidireccional.|  
   
@@ -97,7 +97,7 @@ El Asistente para publicar servicios Web de BizTalk permite publicar esquemas co
     -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe otra ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato "/\<*nombre del directorio virtual*\>/\<*namespace_typename_portname de orquestación*  \>.asmx ". Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://<*servername*>/<*Nombre_proyecto*> **.  
+        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como **http://<*servername*>/<*Nombre_proyecto*>**.  
   
         > [!NOTE]
         >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Al publicar en un sitio Web no predeterminado, incluya el número de puerto del sitio Web en la dirección URL: http://localhost: 8080 / <*Nombre_proyecto*>.  

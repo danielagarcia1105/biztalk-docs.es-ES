@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c8bc1ebbdaf2973f4749da6c0832d49204588b6c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="install-biztalk-adapter-pack-2013-r2-and-2013"></a>Instalar 2013 y BizTalk adaptador Pack 2013 R2
 Este documento enumeran los requisitos de software y los pasos para instalar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) incluidos con BizTalk Server 2013 o [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].  
@@ -845,12 +845,12 @@ Complete este paso para quitar las RFC personalizadas que ha instalado en el sis
   
 -   **Ejecuta la instalación en un equipo de 64 bits podría producir un error al obtener acceso al archivo de esquema**  
   
-     El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] el programa de instalación produce un error al obtener acceso a la  **Microsoft.Adapters.* \<AdapterName\>*_schema.xml** archivo, pero continúa con la instalación del adaptador.  
+     El [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] el programa de instalación produce un error al obtener acceso a la **Microsoft.Adapters. *\<AdapterName\>*_schema.xml** archivo, pero continúa con la instalación del adaptador.  
   
-     **Causa**  
+     **Cause**  
   
      Si las versiones de 32 bits y 64 bits de la [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] están instalados en el mismo equipo, el archivo de esquema de destino utilizado es el mismo. Como resultado, se instala el archivo de 32 bits [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] podría estar utilizando IIS cuando el programa de instalación de 64 bits intenta tener acceso a él.  
   
      **Resolución**  
   
-     Copie manualmente el  **Microsoft.Adapters.* \<AdapterName\>*archivo _schema.xml** desde `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`"a `C:\Windows\System32\inetsrv\config\schema`.  
+     Copie manualmente el **Microsoft.Adapters. *\<AdapterName\>*_schema.xml** archivo `C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`"a `C:\Windows\System32\inetsrv\config\schema`.  

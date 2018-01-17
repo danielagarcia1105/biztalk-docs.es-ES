@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 48a35373735102bd75d1c388da29b06d4392ba18
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="test-a-biztalk-web-service"></a>Probar un servicio Web de BizTalk
 
@@ -72,13 +72,13 @@ Puede probar el servicio Web publicado sin escribir una aplicación cliente Web.
   
 #### <a name="access-a-web-service-with-internet-explorer"></a>Obtener acceso a un servicio Web con Internet Explorer  
   
--   En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL para el servicio Web con el formato  **http://*servername*/*apppath* / *webservicename*.asmx **.  
+-   En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL para el servicio Web con el formato **http://*servername*/*apppath* / *webservicename*.asmx**.  
   
-    |Parámetro|Valor|  
+    |Parámetro|Value|  
     |---------------|-----------|  
-    |***ServerName***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
-    |***AppPath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
-    |***WebServiceName.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
+    |***servername***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
+    |***Apppath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
+    |***webservicename.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
   
  La descripción del servicio Web muestra todos los métodos del servicio Web que admite el servicio Web concreto. La página de descripción del servicio Web contiene vínculos para los métodos Web disponibles y la descripción del servicio del servicio Web.  
   
@@ -99,13 +99,13 @@ Puede probar el servicio Web publicado sin escribir una aplicación cliente Web.
   
 1.  En Internet Explorer, en el **dirección** cuadro, escriba la dirección URL para el servicio Web con el formato ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***.  
   
-    |Parámetro|Valor|  
+    |Parámetro|Value|  
     |---------------|-----------|  
-    |***ServerName***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
-    |***AppPath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
-    |***WebServiceName.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
-    |***MethodName***|El nombre de un método público que expone el servicio Web XML. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
-    |***parámetro***|El nombre y el valor del parámetro correspondiente para los parámetros que requiere el método. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
+    |***servername***|El nombre del servidor en el que ha implementado el servicio Web XML.|  
+    |***Apppath***|El nombre del directorio virtual y la ruta de aplicación Web.|  
+    |***webservicename.asmx***|El nombre del archivo .asmx del servicio Web XML.|  
+    |***Methodname***|El nombre de un método público que expone el servicio Web XML. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
+    |***parameter***|El nombre y el valor del parámetro correspondiente para los parámetros que requiere el método. Si se deja en blanco, aparecerá la página de descripción del servicio Web XML, que enumera los métodos públicos disponibles en el archivo .asmx. (Opcional)|  
   
     > [!NOTE]
     >  El nombre del método del servicio Web XML con esta sintaxis distingue mayúsculas de minúsculas, pero los nombres del servidor, proyecto y servicio Web XML no hacen esta distinción.  

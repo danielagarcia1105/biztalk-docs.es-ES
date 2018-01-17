@@ -13,15 +13,15 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1c38d00cbaf5d34aa880f5efd1d9e9a59d59c4e0
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="adapter-registration-file"></a>Archivo de registro del adaptador
 Después de que el código del adaptador personalizado se haya generado correctamente, se debe registrar con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para ello, actualice el Registro con la configuración del adaptador adecuada. Puede escribir de forma manual un archivo de Registro, pero hay más probabilidad de errores debido a la precisión y complejidad de la información que hay que escribir. Una decisión más acertada consiste en ejecutar el Asistente para el Registro del adaptador. Este asistente le proporciona las mismas opciones de que dispone al crear un archivo de Registro nuevo y reduce la probabilidad de errores en el archivo. Para obtener más información acerca del Asistente para registro de adaptador, vea [Asistente para registro del adaptador](../core/adapter-registry-wizard.md).  
   
- El archivo StaticAdapterManagement.reg y dynamicadaptermanagement.reg se encuentran en * \<unidad\>*: \Program Server\SDK\Samples\AdaptersDevelopment\File el adaptador de BizTalk. Al ejecutar uno de estos archivos (puede hacer doble clic o haga clic en y y seleccione **mezcla**), que registra el adaptador de archivo de ejemplo con el registro y se instala el ensamblado en la caché global de ensamblados. Para registrar el adaptador personalizado, la mejor opción consiste en crear un archivo de Registro nuevo mediante el Asistente para el Registro del adaptador. Si el adaptador estático personalizado es parecido al adaptador de ejemplo y decide modificar el archivo de Registro existente, abra y modifique las propiedades siguientes en el archivo StaticAdapterManagement.reg:  
+ El archivo StaticAdapterManagement.reg y dynamicadaptermanagement.reg se encuentran en  *\<unidad\>*: \Program Server\SDK\Samples\AdaptersDevelopment\File el adaptador de BizTalk. Al ejecutar uno de estos archivos (puede hacer doble clic o haga clic en y y seleccione **mezcla**), que registra el adaptador de archivo de ejemplo con el registro y se instala el ensamblado en la caché global de ensamblados. Para registrar el adaptador personalizado, la mejor opción consiste en crear un archivo de Registro nuevo mediante el Asistente para el Registro del adaptador. Si el adaptador estático personalizado es parecido al adaptador de ejemplo y decide modificar el archivo de Registro existente, abra y modifique las propiedades siguientes en el archivo StaticAdapterManagement.reg:  
   
 -   **Restricciones**  
   
@@ -52,13 +52,13 @@ Después de que el código del adaptador personalizado se haya generado correcta
   
 -   **Implementa categorías\\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}**  
   
--   **"InboundProtocol_PageProv" = "{2DE93EE6-CB01-4007-93E9-C3D71689A281}"**  
+-   **"InboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A281}"**  
   
--   **"OutboundProtocol_PageProv" = "{2DE93EE6-CB01-4007-93E9-C3D71689A283}"**  
+-   **"OutboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A283}"**  
   
--   **"ReceiveLocation_PageProv" = "{2DE93EE6-CB01-4007-93E9-C3D71689A280}"**  
+-   **"ReceiveLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A280}"**  
   
--   **"TransmitLocation_PageProv" = "{2DE93EE6-CB01-4007-93E9-C3D71689A282}"**  
+-   **"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"**  
   
  Los adaptadores basados en el marco de trabajo de adaptadores deben utilizar estos GUID específicos para las páginas de propiedades de ubicación y controlador de envío y recepción. Tenga en cuenta que si un adaptador es un adaptador sólo de envío solo necesita la **OutboundProtocol_PageProv**y **TransmitLocation_PageProv**GUID. De forma similar un adaptador sólo de recepción simplemente requiere la **InboundProtocol_PageProv** y **ReceiveLocation_PageProv** GUID.  
   
@@ -99,7 +99,7 @@ Windows Registry Editor Version 5.00
   
 2.  Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **Explorador de Windows**.  
   
-3.  Vaya a la unidad de instalación de BizTalk Server y, a continuación, vaya a ** < ** `drive` **>: \Program** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples Adaptador \AdaptersUsage\File**.  
+3.  Vaya a la unidad de instalación de BizTalk Server y, a continuación, vaya a  **<**  `drive` **>: \Program** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples Adaptador \AdaptersUsage\File**.  
   
 4.  Para agregar el adaptador de ejemplo en el registro, haga doble clic en **StaticAdapterManagement.reg**. (Si desea agregar el adaptador de archivo dinámico al registro, ejecute **DynamicAdapterManagement.reg** en su lugar y usar ese archivo según corresponda.)  
   

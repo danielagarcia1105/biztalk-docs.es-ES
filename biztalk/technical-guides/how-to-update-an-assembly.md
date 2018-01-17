@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 163b06706652b1f65b9a76e3feea8911a2ca4c88
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-update-an-assembly"></a>Cómo actualizar un ensamblado
 En este tema se describe cómo actualizar la versión de un ensamblado y la aplicación que se implementa un ensamblado al uso de Visual Studio 2010.  

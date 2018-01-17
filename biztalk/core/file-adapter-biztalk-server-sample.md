@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: de68c57c6b435f85edf630a7b224c5d58ffd0cd6
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>Adaptador de archivo (ejemplo de BizTalk Server)
 El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET para trabajar con Microsoft BizTalk Server. Proporciona código para construir un adaptador estático o dinámico.  Sin embargo, el siguiente procedimiento solo describe el adaptador estático. Un adaptador estático es un adaptador con un conjunto de esquemas estático y sin interfaz de usuario personalizada. Un adaptador dinámico tiene una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico. Tanto los adaptadores estáticos como los dinámicos utilizan el Asistente para agregar adaptador para agregar sus esquemas a un proyecto de BizTalk.  
@@ -172,11 +172,11 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
   
 2.  Cree las siguientes carpetas en la unidad de instalación de BizTalk Server:  
   
-    -   *\<unidad\>*:**\Temp**  
+    -   *\<drive\>*:**\Temp**  
   
-    -   *\<unidad\>*:**\Temp\Send**  
+    -   *\<drive\>*:**\Temp\Send**  
   
-    -   *\<unidad\>*:**\Temp\Receive**  
+    -   *\<drive\>*:**\Temp\Receive**  
   
 3.  Para cerrar el Explorador de Windows, en la **archivo** menú, haga clic en **cerrar**.  
   
@@ -196,7 +196,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
   
 7.  Haga clic en **Aceptar**.  
   
-8.  Expanda el  **grupo de BizTalk [*nombre del servidor*] ** nodo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda el **aplicaciones** nodo, expanda el  **BizTalk Application 1** nodo.  
+8.  Expanda el **grupo de BizTalk [*nombre del servidor*]** nodo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administración de la consola, expanda el **aplicaciones** nodo, expanda el  **BizTalk Application 1** nodo.  
   
 9. Haga clic en el **puertos de envío** nodo y, a continuación, haga clic en **New**, seleccione **puerto de envío unidireccional estático**y, a continuación, haga clic en **Aceptar**.  
   
@@ -205,7 +205,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
     |Use|Para|  
     |--------------|----------------|  
     |**Nombre**|Tipo de **AdapterSend**.|  
-    |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y haga clic en **configurar**.<br /><br /> -En el **directorio** , escriba   ***\<unidad\>*: \Temp\Send**.<br />-En el **modo de archivo** cuadro, seleccione **CreateNew**.<br />-En el **nombre de archivo** , escriba **%MessageID%.xml**.<br />-Haga clic en **Aceptar**.<br />-El **URI** campo debería mostrar   ***\<unidad\>*: \Temp\Send\\%MessageID%.xml**.|  
+    |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y haga clic en **configurar**.<br /><br /> -En el **directorio** , escriba ***\<unidad\>*:\Temp\Send**.<br />-En el **modo de archivo** cuadro, seleccione **CreateNew**.<br />-En el **nombre de archivo** , escriba **%MessageID%.xml**.<br />-Haga clic en **Aceptar**.<br />-El **URI** campo debería mostrar ***\<unidad\>*:\Temp\Send\\%MessageID%.xml**.|  
     |**Canalización de envío**|Seleccione **PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)**y, a continuación, haga clic en **Aceptar**.|  
   
 11. En el **BizTalk Application 1** nodo haga clic en **puertos de recepción**y seleccione **puerto de recepción unidireccional / nueva**.  
@@ -224,7 +224,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
     |--------------|----------------|  
     |**Nombre**|Tipo de **AdapterReceiveLocation**|  
     |**Tipo de transporte**|Seleccione **estático** desde la lista desplegable y presione **configurar** para tener acceso a las propiedades restantes.|  
-    |**URI**|-Haga clic en el botón de puntos suspensivos (**...** ).<br />-En el **número Of Files In Batch** , escriba **20**.<br />-En el **directorio** , escriba   ***\<unidad\>*: \Temp\Receive**.<br />-Asegúrese de que el **máscara de archivo** propiedad está establecida en  **\*.xml**.<br />-En el **intervalo de sondeo** , escriba **5**y haga clic en **Aceptar**.<br />-Asegúrese de que el **URI** etiqueta contiene   ***\<unidad\>*: \Temp\Receive\\\*.xml**.|  
+    |**URI**|-Haga clic en el botón de puntos suspensivos (**...** ).<br />-En el **número Of Files In Batch** , escriba **20**.<br />-En el **directorio** , escriba ***\<unidad\>*:\Temp\Receive**.<br />-Asegúrese de que el **máscara de archivo** propiedad está establecida en  **\*.xml**.<br />-En el **intervalo de sondeo** , escriba **5**y haga clic en **Aceptar**.<br />-Asegúrese de que el **URI** etiqueta contiene ***\<unidad\>*:\Temp\Receive\\\*.xml**.|  
     |**Controlador de recepción**|Seleccione **BizTalkServerApplication** en la lista desplegable.|  
     |**Canalización de recepción**|Seleccione **XMLReceive** en la lista desplegable.|  
   

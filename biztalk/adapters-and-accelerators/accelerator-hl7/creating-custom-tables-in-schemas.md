@@ -17,17 +17,17 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a663dd593123e647f2f466b6d472d60bb32be1be
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="creating-custom-tables-in-schemas"></a>Crear tablas personalizadas en esquemas
 Puede crear una tabla personalizada en el tablevalues_\<*versión*\>esquema común de XSD. Puede basar una tabla personalizada en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
   
 ### <a name="to-create-a-z-table"></a>Para crear una tabla de Z  
   
-1.  En el Explorador de soluciones, abra el archivo de esquema de tipo de datos común  **tablevalues_\<*versión*\>.xsd ** y, a continuación, haga clic en **abrir**.  
+1.  En el Explorador de soluciones, abra el archivo de esquema de tipo de datos común **tablevalues_\<*versión*\>.xsd**y, a continuación, haga clic en **abrir**.  
   
 2.  En el Editor de BizTalk, haga clic en **HL7DefinedTables**, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **elemento de campo secundario**.  
   

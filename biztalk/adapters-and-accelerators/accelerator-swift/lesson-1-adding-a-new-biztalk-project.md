@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 942ef00948920cd19e2a34e0be52d61a8f492786
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-1-adding-a-new-biztalk-project"></a>Lección 1: Agregar un nuevo proyecto de BizTalk
 En esta lección, agregará un nuevo proyecto de BizTalk a la solución. Crear esquemas en este proyecto que utiliza a lo largo del tutorial.  
@@ -36,7 +36,7 @@ En esta lección, agregará un nuevo proyecto de BizTalk a la solución. Crear e
   
 4.  En el **nombre** , escriba **SWIFTSchemas** como el nombre del proyecto.  
   
-5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, asegúrese de que  **\<* unidad*:\>\labs\SWIFTProject** está seleccionada.  
+5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, asegúrese de que  **\< *unidad*:\>\labs\SWIFTProject** está seleccionada.  
   
 6.  Haga clic en **Aceptar** para crear el nuevo proyecto.  
   

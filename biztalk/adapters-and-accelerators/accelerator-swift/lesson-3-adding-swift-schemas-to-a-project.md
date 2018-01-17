@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 12fb5741b75fb9792cbabf46bf7a0402972d7bb4
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-3-adding-swift-schemas-to-a-project"></a>Lección 3: Agregar esquemas SWIFT a un proyecto
 Ahora que tiene una solución y un nuevo proyecto, puede agregar elementos al proyecto. El primer elemento que se agrega es un esquema para un mensaje de pago de SWIFT MT103. Cuando se selecciona la plantilla de esquema, se inicia el Editor de BizTalk.  
@@ -28,7 +28,7 @@ Ahora que tiene una solución y un nuevo proyecto, puede agregar elementos al pr
   
 1.  En el Explorador de soluciones, haga clic en el **SWIFTSchemas** , seleccione **agregar**y, a continuación, haga clic en **elemento existente**.  
   
-2.  En el cuadro de diálogo Agregar elemento existente-SWIFTSchemas, vaya a  **\<* unidad*\>: \Program Acelerador de BizTalk para SWIFT \<versión\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Base esquemas **.  
+2.  En el cuadro de diálogo Agregar elemento existente-SWIFTSchemas, vaya a  **\< *unidad*\>: \Program Acelerador de BizTalk para SWIFT \<versión\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Base esquemas**.  
   
 3.  Seleccione el **SWIFT Base Types.xsd** y **Types.xsd de datos común de SWIFT** esquemas y, a continuación, haga clic en **agregar**.  
   
@@ -37,7 +37,7 @@ Ahora que tiene una solución y un nuevo proyecto, puede agregar elementos al pr
   
 4.  En el Explorador de soluciones, haga clic en el **SWIFTSchemas** , seleccione **agregar**y, a continuación, haga clic en **elemento existente**.  
   
-5.  En el cuadro de diálogo Agregar elemento existente-SWIFTSchemas, vaya a la  **\<* unidad*\>: \Program Acelerador de BizTalk para SWIFT \<versión\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Category 1\MT103** carpeta.  
+5.  En el cuadro de diálogo Agregar elemento existente-SWIFTSchemas, vaya a la  **\< *unidad*\>: \Program Acelerador de BizTalk para SWIFT \<versión\> MessagePack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Category 1\MT103** carpeta.  
   
 6.  Seleccione el **MT103.xsd** esquema y, a continuación, haga clic en **agregar**.  
   

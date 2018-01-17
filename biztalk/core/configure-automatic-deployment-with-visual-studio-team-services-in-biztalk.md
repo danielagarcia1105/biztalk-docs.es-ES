@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d135960143fed33d1ce4847c681f5b1134489b65
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="configure-automatic-deployment-with-visual-studio-team-services-in-biztalk-server"></a>Configurar la implementación automática con Visual Studio Team Services en BizTalk Server
 

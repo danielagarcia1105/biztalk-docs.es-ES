@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 825a16555f0b0c82282ae4d85592567d2a19c073
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="considerations-when-publishing-web-services"></a>Consideraciones al publicar servicios web
 En este tema se proporciona información que debe tener en cuenta antes de publicar servicios Web.  
@@ -84,4 +84,4 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
 -   Reducir el tiempo de espera de secuencia de comandos de servidor en un valor menor que el tiempo de espera de solicitud de cliente al disminuir el valor de la **HttpServerUtility.ScriptTimeout** propiedad en el servidor.  
   
 ## <a name="see-also"></a>Vea también  
- [Publicar servicios Web](../core/publishing-web-services.md)
+ [Publicación de servicios web](../core/publishing-web-services.md)

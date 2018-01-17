@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>Componentes de canalización de campos distintivos en el Desensamblador
 Los componentes de desensamblador XML, desensamblador de BizTalk Framework o desensamblador de archivos sin formato escriben en el contexto del mensaje los campos distintivos definidos en un esquema.  

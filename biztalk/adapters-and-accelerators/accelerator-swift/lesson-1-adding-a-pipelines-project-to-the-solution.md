@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b45fb5e3ebc47bcaa27226be28618269f9da2e55
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-1-adding-a-pipelines-project-to-the-solution"></a>Lección 1: Agregar un proyecto de canalizaciones a la solución
 En esta lección, se agregará que un nuevo proyecto de BizTalk para SWIFT canaliza a la solución para que pueda personalizar su envío y las canalizaciones de recepción.  
@@ -34,7 +34,7 @@ En esta lección, se agregará que un nuevo proyecto de BizTalk para SWIFT canal
   
 4.  En el **nombre** , escriba **SWIFTPipelines** como el nombre del proyecto.  
   
-5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, localice y seleccione  **\<* unidad*:\>\labs\SWIFTProject** está seleccionada.  
+5.  En el **solución** cuadro, seleccione **agregar a solución**. En el **ubicación** cuadro, localice y seleccione  **\< *unidad*:\>\labs\SWIFTProject** está seleccionada.  
   
 6.  Haga clic en **Aceptar** para abrir el nuevo proyecto.  
   

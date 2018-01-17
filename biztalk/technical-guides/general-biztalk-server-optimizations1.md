@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 2e9e799822c63cb78eda1b989cb157c71fd357d8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="general-biztalk-server-optimizations"></a>Optimizaciones generales de BizTalk Server
 Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de BizTalk Server. Las optimizaciones que se enumeran en este tema se aplican después de que se ha instalado y configurado el servidor BizTalk Server.  
@@ -98,9 +98,9 @@ Las recomendaciones siguientes pueden utilizarse para aumentar el rendimiento de
   
  Al establecer la propiedad maxconnection, HTTP, HTTPS, la dirección IP del sitio web y el número de puerto pueden especificarse. Otros ejemplos incluyen:  
   
- **\<Agregar dirección = "https://www.contoso.com" maxconnection = "24" /\>**   
-**\<Agregar dirección = "http://www.contoso.com: 8080" maxconnection = "24" /\>**   
-**\<Agregar dirección = "http://*IPAddress*" maxconnection = "24" /\>** para obtener más información acerca de cómo ajustar la configuración de IIS y ASP.NET para los servicios Web, consulte la "configuración de ASP.NET que puede afectar al rendimiento del adaptador de HTTP" sección de [parámetros de configuración que afectan al rendimiento del adaptador](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) en la Ayuda de BizTalk Server 2010.  
+ **\<add address="https://www.contoso.com" maxconnection="24" /\>**   
+**\<add address="http://www.contoso.com:8080" maxconnection="24" /\>**   
+**\<Agregar dirección = "http://*IPAddress*" maxconnection = "24" /\>**  para obtener más información acerca de cómo ajustar la configuración de IIS y ASP.NET para los servicios Web, vea la configuración de ASP.NET"que puede afectar al adaptador de HTTP sección de rendimiento"de [parámetros de configuración que afectan al rendimiento del adaptador](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200) en la Ayuda de BizTalk Server 2010.  
   
 ## <a name="manage-aspnet-thread-usage-or-concurrently-executing-requests-for-web-applications-that-can-host--isolated-received-locations-back-end-web-services-and-wcf-services"></a>Administrar el uso de subprocesos ASP.NET o las solicitudes para las aplicaciones Web que pueden hospedar en ejecución simultáneamente aislada ubicaciones recibidos, servicios de back-end Web y servicios WCF  
  El número de trabajo y subprocesos de E/S (IIS 7.5 e IIS 7.0 en modo clásico) o el número de solicitudes (IIS 7.5 y 7.0 el modo integrado) para una aplicación Web ASP.NET que hosts aislados ubicaciones recibidos, servicios Web de back-end y los servicios WCF que se ejecutan concurrentemente debe modificarse en las siguientes condiciones:  

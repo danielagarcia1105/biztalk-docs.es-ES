@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3ce9ea850632327e257909e1c7d4b60117865e46
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-4-create-the-schemas"></a>Paso 4: Crear los esquemas
 En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los artefactos para este proyecto: los esquemas, el mapa y la orquestación. A continuación, cree un esquema (**Doorbell.xsd**) para el mensaje entrante de codificación XML y seleccione un esquema existente (**ADT_A04_22_GLO_DEF.xsd**) para el mensaje saliente con codificación HL7. Use estos esquemas para definir la estructura de los mensajes que intercambian en la orquestación.  
@@ -37,7 +37,7 @@ En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los a
   
 5.  En el **solución** campo, seleccione **agregar a solución**.  
   
-6.  En el **ubicación** , a continuación, compruebe que  **\<* unidad*\>: \Tutorial\BTAHL7V22Common** es la ruta de acceso.  
+6.  En el **ubicación** , a continuación, compruebe que  **\< *unidad*\>: \Tutorial\BTAHL7V22Common** es la ruta de acceso.  
   
 7.  Haga clic en **Aceptar** para abrir el nuevo proyecto.  
   
@@ -62,7 +62,7 @@ En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los a
   
     -   **MiddleName**  
   
-    -   **Apellidos**  
+    -   **LastName**  
   
     -   **SSN**  
   

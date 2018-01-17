@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6f11fa41cabb6d5199953c2df005aa79965216f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-the-edi-assembler-works"></a>Cómo funciona el ensamblador EDI
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] realiza la mayoría del procesamiento de intercambios codificados en EDI que se van a enviar en la canalización de envío de EDI (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`). La canalización incluye el componente de canalización del ensamblador EDI que realiza el siguiente procesamiento:  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="sources-for-x12-envelope-values"></a>Orígenes para valores de sobre X12  
  En la tabla siguiente se muestra de dónde toma la canalización de envío EDI la información que necesita para cada parte de un sobre X12:  
   
-|Encabezado|Source|  
+|Encabezado|Origen|  
 |------------|------------|  
 |Encabezado de control de intercambio (ISA)|-Propiedades de contexto EdiOverride (si `EdiOverride.OverrideEdiHeader` es true).<br />-Si se ha definido un contrato, de segmento ISA definiciones de diferentes páginas bajo la **configuración de intercambio** sección en las propiedades del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo.<br />-Si se ha definido ningún acuerdo, de segmento ISA definiciones de diferentes páginas bajo la **configuración de intercambio** sección la **configuración de reserva de EDIFACT** cuadro de diálogo.|  
 |Encabezados de grupo funcional (GS)|-Propiedades de contexto EdiOverride (si `EdiOverride.OverrideEdiHeader` es true)<br />-Si se ha definido un contrato, de las definiciones de segmento GS el **sobres** página (en **configuración del conjunto de transacciones** sección) en las propiedades del acuerdo unidireccional en la **propiedades del acuerdo**  cuadro de diálogo<br />-Si se ha definido ningún acuerdo, de las definiciones de segmento GS el **sobres** página (en **configuración del conjunto de transacciones** sección) en el **X12 configuración de reserva** cuadro de diálogo<br /><br /> Si hay un acuerdo definido, los valores para los elementos de datos GS se determinan según la combinación del identificador del conjunto de transacciones (ST1), la versión y el espacio de nombres de destino. Estos valores se comparan con la cuadrícula en el **sobres** página (en **configuración del conjunto de transacciones** sección) de las propiedades del acuerdo (si se ha definido un acuerdo) o las propiedades de acuerdo de reserva (si está se ha definido ningún acuerdo):<br /><br /> -Si hay una fila coincidente, se usan los valores contenidos en la fila coincidente para el encabezado GS.<br />-Si no hay ninguna coincidencia, pero se define una fila de manera predeterminada, todos los elementos de datos GS excepto GS01 se rellenan con la fila predeterminada. GS01 se determina dinámicamente basándose en el valor de ST1.<br />-Si no hay ninguna fila coincidente y no hay ninguna fila de manera predeterminada, el mensaje se suspende. **Nota:** para que un grupo sea exclusivo con respecto a otros grupos, no todos estos valores pueden ser los mismos que los de otro grupo. <br /><br /> Si no hay ningún acuerdo definido, los elementos de datos GS se rellenan a partir de las propiedades de acuerdo de reserva.|  
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="sources-for-edifact-envelope-values"></a>Orígenes para valores de sobre EDIFACT  
  En la tabla siguiente se muestra de dónde toma la canalización de envío EDI la información que necesita para cada parte de un sobre EDIFACT:  
   
-|Encabezado|Source|  
+|Encabezado|Origen|  
 |------------|------------|  
 |Notificación del servicio (UNA)|-Propiedades de contexto EdiOverride (si `EdiOverride.OverrideEdiHeader` es true).<br />-Si se ha definido un contrato, de las definiciones de segmento UNA **juego de caracteres y separadores** página en las propiedades del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo.<br />-Si se ha definido ningún acuerdo, de las definiciones de segmento UNA **juego de caracteres y separadores** página en el **configuración de reserva de EDIFACT** cuadro de diálogo.|  
 |Encabezado de control de intercambio (UNB)|-Propiedades de contexto EdiOverride (si `EdiOverride.OverrideEdiHeader` es true).<br />-Si se ha definido un contrato, de segmento UNB definiciones de diferentes páginas bajo la **configuración de intercambio** sección en las propiedades del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo.<br />-Si se ha definido ningún acuerdo, de segmento UNB definiciones de diferentes páginas bajo la **configuración de intercambio** sección la **configuración de reserva de EDIFACT** cuadro de diálogo.|  
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 ####  <a name="BKMK_X12"></a>X12 segmentos de finalizador y encabezado del conjunto de transacciones  
  En el caso de conjuntos de transacciones con codificación X12 que no tengan segmentos de encabezado y finalizador, el ensamblador EDI establecerá los segmentos ST y SE del siguiente modo:  
   
-|Segmento de encabezado y pie de página|Valor|  
+|Segmento de encabezado y pie de página|Value|  
 |----------------------------|-----------|  
 |Código identificador del conjunto de transacciones (ST01)|Asignado a los últimos tres caracteres del nombre RootNode del conjunto de transacciones XML entrante. Por ejemplo, "855" de "X12_00401_855". En el caso de reclamaciones HIPAA cuyo código de identificador TS sea 837P, 837D o 837I, se usa "837".|  
 |ST02 (número de Control del conjunto de transacciones)|El valor de `EdiOverride.ST02` (si `EdiOveride.OverrideEdiHeader` es true,) o asignado al valor de la **(ST02) del número de control del conjunto de transacciones** en el **configuración de Host Local** página (bajo **de intercambio Configuración de**) de la ficha de acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo.<br /><br /> Un número de control nuevo o aumentado se aplica independientemente de la configuración de la **aplicar Id. nuevo** propiedad.|  
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/20/2017
 ####  <a name="BKMK_EDIFACT"></a>Encabezado del conjunto de transacciones de EDIFACT y segmentos de finalizador  
  En el caso de conjuntos de transacciones con codificación EDIFACT que no tengan segmentos de encabezado y finalizador, el ensamblador EDI establecerá los segmentos UNH y UNT del siguiente modo:  
   
-|Segmento de encabezado y pie de página|Valor|  
+|Segmento de encabezado y pie de página|Value|  
 |----------------------------|-----------|  
 |Número de control de referencia de mensaje (UNH01)|El valor de `EdiOverride.UNH1` (si `EdiOverride.OverrideEdiHeader` es true,) o asignado al valor de **número de referencia (UNH1)** en el **configuración de Host Local** página (en **deconfiguracióndeintercambio**) de la pestaña de acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo. Un número de control nuevo o aumentado se aplica independientemente de la configuración de la **aplicar Id. nuevo** propiedad.|  
 |Tipo de mensaje (UNH2.1)|Asignado a los seis últimos caracteres del nombre RootNode del conjunto de transacciones XML entrante. Por ejemplo, "INVOIC" de "EFACT_D96A_INVOIC".|  
@@ -153,4 +153,4 @@ ms.lasthandoff: 09/20/2017
  Por ejemplo, los dos elementos <N1_PayerIdentification_TS835W1_1000A> y <N1_PayeeIdentification_TS835W1_1000B> se convertirán en segmentos N1.  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server envía mensajes EDI](../core/how-biztalk-server-sends-edi-messages.md)
+ [Cómo envía BizTalk Server los mensajes EDI](../core/how-biztalk-server-sends-edi-messages.md)

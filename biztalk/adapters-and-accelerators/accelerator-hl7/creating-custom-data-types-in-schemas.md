@@ -17,17 +17,17 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ea38eb106b3554b72885355aaa9aef4928f4fda2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="creating-custom-data-types-in-schemas"></a>Crear tipos de datos personalizados en esquemas
 Puede crear un tipo de datos personalizados en el datatypes_\<*versión*\>esquema común de XSD. Puede basar un tipo de datos personalizado en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.  
   
 ### <a name="to-create-a-z-data-type"></a>Para crear un tipo de datos de Z  
   
-1.  En el Explorador de soluciones de Visual Studio, abra el archivo de esquema de tipo de datos comunes (**datatypes_\<*versión*\>.xsd **) y, a continuación, haga clic en **abrir**.  
+1.  En el Explorador de soluciones de Visual Studio, abra el archivo de esquema de tipo de datos comunes (**datatypes_\<*versión*\>.xsd**) y, a continuación, haga clic en **abrir**.  
   
 2.  En el Editor de BizTalk, haga clic en **HL7DefinedDataTypes**, seleccione **Insertar nodo de esquema**y, a continuación, haga clic en **registro secundario** para crear un tipo de datos de componentes, o haga clic en  **Elemento secundario** para crear un tipo de datos simple.  
   

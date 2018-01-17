@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a5749166c8a9b34d5e5a04849c4179ac4427201c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a>Paso 5: Crear el puerto de envío para el lote de mensajes
 En este paso, creará un puerto de envío para entregar el lote de mensajes que cree para la entidad de destino. Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo. Designar una carpeta de archivos para el destino (\Tutorial_BatchMsgDrop) donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de mensajes. Defina un filtro para el puerto que indica qué tipo de lotes de mensajes que enviará los puertos. El filtro especifica el destino de Tutorial_BatchDest y el tipo de mensaje de OutboundBatch.  
@@ -40,7 +40,7 @@ En este paso, creará un puerto de envío para entregar el lote de mensajes que 
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<* unidad*:\>\Program BizTalk \<versión\> Acelerador para Tutorial\Tutorial_ HL7\SDK\End-to-End BatchMsgDrop **. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de mensajes.|  
+    |**Carpeta de destino**|Vaya a  **\< *unidad*:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\End-to-End Tutorial\Tutorial_BatchMsgDrop**. Se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo que contiene el lote de mensajes.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (reemplazar la extensión .xml con la extensión .txt).|  
     |**Modo de copia**|Seleccione **crear nuevos**.|  
   

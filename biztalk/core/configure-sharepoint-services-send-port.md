@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f424d3ad1b38316802585aefca0a49bf2f67f0a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="configure-sharepoint-services-send-port"></a>Configurar un puerto de envío de SharePoint Services
 En este tema, se compara un puerto de envío estático con un puerto de envío dinámico y también se incluyen los pasos para crear un puerto de envío [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)]. Concretamente:  
@@ -31,18 +31,18 @@ En este tema, se compara un puerto de envío estático con un puerto de envío d
   
 ||Puerto de envío estático|Puerto de envío dinámico|  
 |-|----------------------|-----------------------|  
-|Use un puerto de envío individual con diferentes adaptadores.|No<br /><br /> Al crear un puerto de envío estático, es necesario el tipo de transporte.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. El tipo de transporte se configura en la lógica de la orquestación.|  
-|Use un puerto de envío individual con diferentes propiedades como, por ejemplo, la URL.|No<br /><br /> Al crear un puerto de envío estático, se deben configurar algunas propiedades de adaptador como la URL.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. Las propiedades se configuran en la lógica de la orquestación.|  
-|Debe usar el controlador de envío predeterminado.|No<br /><br /> El controlador de envío se puede configurar al crear un puerto de envío.|No<br /><br /> El controlador de envío se puede configurar al crear un puerto de envío.|  
-|Úselo cuando no sepa dónde debería ir el mensaje.|No<br /><br /> Al crear un puerto de envío estático, se especifica el tipo de transporte y la ubicación de llegada.|Sí<br /><br /> La ubicación de llegada se puede configurar en una orquestación y en un escenario de enrutamiento por contenidos. Las reglas también se pueden usar para filtrar dónde se envía el mensaje.|  
-|Use un puerto de envío individual para enviar mensajes a varios socios.|No<br /><br /> Al crear un puerto de envío estático, se especifica el tipo de transporte y la ubicación de llegada.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. Las propiedades se configuran en la lógica de la orquestación y se basan en reglas que el usuario especifica; los mensajes se pueden enviar a varios socios.|  
+|Use un puerto de envío individual con diferentes adaptadores.|no<br /><br /> Al crear un puerto de envío estático, es necesario el tipo de transporte.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. El tipo de transporte se configura en la lógica de la orquestación.|  
+|Use un puerto de envío individual con diferentes propiedades como, por ejemplo, la URL.|no<br /><br /> Al crear un puerto de envío estático, se deben configurar algunas propiedades de adaptador como la URL.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. Las propiedades se configuran en la lógica de la orquestación.|  
+|Debe usar el controlador de envío predeterminado.|no<br /><br /> El controlador de envío se puede configurar al crear un puerto de envío.|no<br /><br /> El controlador de envío se puede configurar al crear un puerto de envío.|  
+|Úselo cuando no sepa dónde debería ir el mensaje.|no<br /><br /> Al crear un puerto de envío estático, se especifica el tipo de transporte y la ubicación de llegada.|Sí<br /><br /> La ubicación de llegada se puede configurar en una orquestación y en un escenario de enrutamiento por contenidos. Las reglas también se pueden usar para filtrar dónde se envía el mensaje.|  
+|Use un puerto de envío individual para enviar mensajes a varios socios.|no<br /><br /> Al crear un puerto de envío estático, se especifica el tipo de transporte y la ubicación de llegada.|Sí<br /><br /> Normalmente, se agrega un puerto de envío dinámico a una orquestación. Las propiedades se configuran en la lógica de la orquestación y se basan en reglas que el usuario especifica; los mensajes se pueden enviar a varios socios.|  
   
 ##  <a name="BKMK_StaticSend"></a>Crear un puerto de envío estático  
  Al crear un puerto de envío estático, este usa el controlador de envío predeterminado asociado al tipo de transporte. Cuando se usa el [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adaptador, el controlador de envío predeterminado es **BizTalkServerApplication**. Para que conocer los pasos agregar un nuevo controlador de envío, vaya a [cómo crear un controlador de adaptador](http://go.microsoft.com/fwlink/p/?LinkId=263646).  
   
  Cree el puerto de envío estático:  
   
-1.  En el **administración de BizTalk Server** de la consola, expanda  **grupo de BizTalk [*GroupName*] **, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
+1.  En el **administración de BizTalk Server** de la consola, expanda **grupo de BizTalk [*GroupName*]**, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
   
 2.  Haga clic en **puertos de envío**, haga clic en **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
@@ -65,7 +65,7 @@ En este tema, se compara un puerto de envío estático con un puerto de envío d
     |Dirección URL del sitio de SharePoint|**Requiere**. Dirección URL completa del sitio web de [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)]. Por ejemplo, http://*SharePointServer*  /sites/TestSite. **Nota:** ubicación de recepción o puerto de envío de un URI no puede superar los 256 caracteres.|  
     |Integración con Microsoft Office|**Requiere**. Para mensajes binarios, debe usar **No** o **opcional**.<br /><br /> Valor predeterminado es **opcional**. Las opciones son:<br /><br /> <ul><li>**Ya no**: guarda el documento **como-es**. Puede usar esta opción para los mensajes binarios.</li><li>**Opcional**: modifica el documento de manera que se abre automáticamente en una aplicación de Office, como InfoPath. Si no se encuentran las instrucciones de procesamiento, se procesa el documento **como-es**. Puede usar esta opción para los mensajes binarios.</li><li>**Orquestación**: usa el valor definido en la orquestación.</li><li>**Sí**: modifica el documento de manera que se abre automáticamente en una aplicación de Office, como InfoPath. Si no se encuentran las instrucciones de procesamiento, el mensaje se suspende.<br /><br />     Cuando se establece en **Sí**, se requiere al menos uno de los siguientes pares de propiedad:<br /><br /> <ul><li>*Biblioteca de documentos de plantillas de* y *plantillas Namespace columna*</li><li>*Biblioteca de documentos de reserva de plantillas* y *columna Namespace reserva de plantillas*</li></ul></li><li>**Sí (biblioteca de formularios de InfoPath)**: si una solución de InfoPath reside en la biblioteca de formularios, el documento se modifica para evitar que se abre automáticamente en una aplicación de Office, como InfoPath. Si la Biblioteca de documentos no tiene una solución, el mensaje se suspende.</li></ul>|  
     |Biblioteca de documentos de plantillas|**Requiere *sólo* cuando *plantillas Namespace columna* se rellena**. La biblioteca de documentos de SharePoint que almacena las soluciones de InfoPath. Por ejemplo, **soluciones mi**. El adaptador busca en el *biblioteca de documentos de plantillas de* una solución de InfoPath coincidente. Si no se encuentra una solución, el adaptador busca en el *biblioteca de documentos de reserva de plantillas*. **Nota:** el *biblioteca de documentos de plantillas* requiere al menos una columna de SharePoint 'Una línea de texto' rellenada con lo siguiente: <ul><li>El espacio de nombres y el nodo raíz de los documentos XML que se abren con la solución de InfoPath</li><li>O bien, el nodo raíz del documento XML</li></ul> Para obtener más información, consulte [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md).|  
-    |Biblioteca de documentos de reserva de plantillas|**Requiere *sólo* cuando *columna Namespace de reserva de plantillas* se rellena**. La biblioteca de documentos de SharePoint que almacena las soluciones de InfoPath. Por ejemplo, **plantillas**.<br /><br /> Si una solución no se encuentra en la *biblioteca de documentos de plantillas de*, el adaptador busca en *biblioteca de documentos de reserva de plantillas* una solución de InfoPath coincidente. El *biblioteca de documentos de reserva de plantillas* y *biblioteca de documentos de plantillas* campos se pueden usar con dos conjuntos de soluciones de InfoPath. Hay soluciones de InfoPath genéricas que funcionan para todos los fines y soluciones de InfoPath especializadas que se usan únicamente para un socio concreto. El *biblioteca de documentos de reserva de plantillas* campo debe apuntar a las soluciones genéricas y el *biblioteca de documentos de plantillas* debe apuntar a las soluciones especializadas para ese socio concreto. **Nota:***biblioteca de documentos de reserva de plantillas* requiere al menos una columna de SharePoint 'Una línea de texto' rellenada con lo siguiente:   <ul><li>El espacio de nombres y el nodo raíz de los documentos XML que se abren con la solución de InfoPath</li><li>O bien, el nodo raíz del documento XML</li></ul> Para obtener más información, consulte [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md).|  
+    |Biblioteca de documentos de reserva de plantillas|**Requiere *sólo* cuando *columna Namespace de reserva de plantillas* se rellena**. La biblioteca de documentos de SharePoint que almacena las soluciones de InfoPath. Por ejemplo, **plantillas**.<br /><br /> Si una solución no se encuentra en la *biblioteca de documentos de plantillas de*, el adaptador busca en *biblioteca de documentos de reserva de plantillas* una solución de InfoPath coincidente. El *biblioteca de documentos de reserva de plantillas* y *biblioteca de documentos de plantillas* campos se pueden usar con dos conjuntos de soluciones de InfoPath. Hay soluciones de InfoPath genéricas que funcionan para todos los fines y soluciones de InfoPath especializadas que se usan únicamente para un socio concreto. El *biblioteca de documentos de reserva de plantillas* campo debe apuntar a las soluciones genéricas y el *biblioteca de documentos de plantillas* debe apuntar a las soluciones especializadas para ese socio concreto. **Nota:***biblioteca de documentos de reserva de plantillas* requiere al menos una columna de SharePoint 'Una línea de texto' rellenada con lo siguiente: <ul><li>El espacio de nombres y el nodo raíz de los documentos XML que se abren con la solución de InfoPath</li><li>O bien, el nodo raíz del documento XML</li></ul> Para obtener más información, consulte [Tutorial: módulo 2: integrar Office con el adaptador de Windows SharePoint Services](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md).|  
     |Columna de espacio de nombres de reserva de plantillas|**Requiere *sólo* cuando *biblioteca de documentos de reserva de plantillas* se rellena**. La biblioteca de documentos de SharePoint que almacena el espacio de nombres de las soluciones de InfoPath. Por ejemplo, **myNamespace**. **Nota:** este campo distingue mayúsculas de minúsculas.|  
     |Columna de espacio de nombres de plantillas|**Requiere *sólo* cuando *biblioteca de documentos de plantillas de* se rellena**. SharePoint *biblioteca de documentos de plantillas de* una columna que almacena el espacio de nombres de la solución de InfoPath. Por ejemplo, **myNamespace**. **Nota:** este campo distingue mayúsculas de minúsculas.|  
     |Contraseña de SharePoint Online|**Opcional**. Contraseña de la cuenta de SharePoint Online.|  
@@ -92,7 +92,7 @@ En este tema, se compara un puerto de envío estático con un puerto de envío d
 ##  <a name="BKMK_DynamicSend"></a>Crear un puerto de envío dinámico  
  Al crear un puerto de envío dinámico, el controlador de envío se puede configurar para cada adaptador. Varios adaptadores pueden usar un puerto de envío dinámico individual. Vea [controlador de puerto de envío dinámico es Configurable](../core/dynamic-send-port-handler-is-configurable.md) para conocer los pasos configurar el controlador de puerto de envío dinámico.  
   
-1.  En el **administración de BizTalk Server** de la consola, expanda  **grupo de BizTalk [*GroupName*] **, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
+1.  En el **administración de BizTalk Server** de la consola, expanda **grupo de BizTalk [*GroupName*]**, expanda **aplicaciones**y, a continuación, expanda la aplicación que contendrá el puerto de envío.  
   
 2.  Haga clic en **puertos de envío**, haga clic en **New**y, a continuación, elija **puerto de envío unidireccional dinámico** o **puerto de envío de petición-respuesta dinámico**  
   
@@ -106,7 +106,7 @@ En este tema, se compara un puerto de envío estático con un puerto de envío d
   
     -   **Requisitos de 32 bits**: algunos adaptadores requieren un host de 32 bits, al igual que los adaptadores de FTP y POP3. Puede agrupar todos los adaptadores de 32 bits individual o conjuntamente en su propio host.  
   
-         [Compatibilidad de 64 bits de BizTalk Server](../core/biztalk-server-64-bit-support2.md)  
+         [Compatibilidad de BizTalk Server con 64 bits](../core/biztalk-server-64-bit-support2.md)  
   
     -   **Host por propósito**: crear un host para el envío, un host de recepción, un host para las orquestaciones de procesamiento y un host para el seguimiento.  
   
@@ -138,11 +138,11 @@ En este tema, se compara un puerto de envío estático con un puerto de envío d
   
  Temas adicionales sobre el puerto de envío:  
   
- [Crear y configurar puertos de envío](../core/creating-and-configuring-send-ports.md)  
+ [Creación y configuración de puertos de envío](../core/creating-and-configuring-send-ports.md)  
   
- [Crear y configurar grupos de puertos de envío](../core/creating-and-configuring-send-port-groups.md)  
+ [Creación y configuración de grupos de puertos de envío](../core/creating-and-configuring-send-port-groups.md)  
   
 ## <a name="see-also"></a>Vea también  
  [Solución de problemas de adaptador de SharePoint Services](../core/troubleshooting-sharepoint-services-adapter.md)   
  [Configurar SharePoint servicios de ubicación de recepción](../core/configure-sharepoint-services-receive-location.md)   
- [CSOM: Adaptador de servicios de SharePoint](../core/csom-sharepoint-services-adapter.md)
+ [CSOM: Adaptador de SharePoint Services](../core/csom-sharepoint-services-adapter.md)

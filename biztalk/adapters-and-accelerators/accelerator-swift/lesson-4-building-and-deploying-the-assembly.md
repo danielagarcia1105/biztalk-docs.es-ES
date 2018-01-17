@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3ca5a539fdaea9026a7c18cae6f076e72df9efe2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-4-building-and-deploying-the-assembly"></a>Lección 4: Crear e implementar el ensamblado
 En esta lección, generará e implementará el proyecto para generar un ensamblado que contiene los esquemas creados en las lecciones anteriores. Esta tarea garantiza que no hay ningún error de compilación en el trabajo que ha creado hasta ahora.  
@@ -37,7 +37,7 @@ En esta lección, generará e implementará el proyecto para generar un ensambla
     > [!NOTE]
     >  Compruebe que **se compiló correctamente** aparece en la esquina inferior izquierda de la pantalla. Durante el proceso de compilación, podría ver algunos mensajes de estado. Estos mensajes son normales cuando se trabaja con los esquemas SWIFT. Si no aparece ningún error, haga clic en herramientas y, a continuación, haga clic en administración de BizTalk Server para abrir la consola de administración de BizTalk Server. Use la característica Visor de eventos y el mantenimiento y seguimiento de actividad (HAT) en la consola de administración de BizTalk para corregir los errores y vuelva a generar.  
   
-2.  Usando [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\<* unidad*\>: \labs\SWIFTProject\SWIFTSchemas\bin\Development** carpeta y compruebe que la  **SWIFTSchemas.dll** archivo existe en esta carpeta.  
+2.  Usar [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a la  **\< *unidad*\>: \labs\SWIFTProject\SWIFTSchemas\bin\Development** carpeta y compruebe que la  **SWIFTSchemas.dll** archivo existe en esta carpeta.  
   
 3.  En el Explorador de soluciones, haga clic en **SWIFTSchemas**y, a continuación, haga clic en **implementar**.  
   

@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2f2de6a4c4cae93db90f0fb2cfc79321bfc7b3e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="configure-the-file-adapter"></a>Configurar el adaptador de archivo
 Cómo configurar el adaptador de archivo, lea las recomendaciones de seguridad y ver los permisos necesarios.
@@ -70,13 +70,13 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
 > [!NOTE]
 >  Antes de completar el procedimiento siguiente, debe haber agregado un unidireccional puerto de recepción. Vea [cómo crear un puerto de recepción](../core/how-to-create-a-receive-port.md).  
   
-1.  En la consola de administración de BizTalk Server, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **grupo de BizTalk**, expanda **aplicaciones**y, a continuación, expanda la aplicación en la que desea crear una ubicación de recepción.  
+1.  En la consola de administración de BizTalk, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda **Grupo de BizTalk**, expanda **Aplicaciones**y, luego, expanda la aplicación en la que desea crear la ubicación de recepción.  
   
 2.  En el panel izquierdo, haga clic en el **puertos de recepción** nodo. A continuación, en el panel de la derecha, haga clic con el botón secundario en el puerto de recepción asociado con una ubicación de recepción existente o que desee asociar con una nueva ubicación de recepción. A continuación, haga clic en **Propiedades**.  
   
-3.  En el panel izquierdo de la **propiedades de puerto de recepción** cuadro de diálogo, seleccione **ubicaciones de recepción**y en el panel derecho haga doble clic otra ubicación de recepción o haga clic en **New** a crear una nueva ubicación de recepción.  
+3.  En el panel izquierdo de la **propiedades de puerto de recepción** cuadro de diálogo, seleccione **ubicaciones de recepción**y en el panel derecho haga doble clic otra ubicación de recepción o haga clic en **New** para crear una nueva ubicación de recepción.  
   
-4.  En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **transporte** sección, seleccione **archivo** tipo en la lista desplegable y, a continuación, haga clic en **configurar**  para configurar las propiedades de transporte para la ubicación de recepción.  
+4.  En el **propiedades de la ubicación de recepción** cuadro de diálogo, en la **transporte** sección, seleccione **archivo** tipo en la lista desplegable y, a continuación, haga clic en **configurar** para configurar las propiedades de transporte para la ubicación de recepción.  
   
 5.  En el **General** ficha, realice lo siguiente:  
   
@@ -122,7 +122,7 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
     |**Ubicación de destino**|Requerido. Escriba la ruta de acceso a la ubicación en el sistema de archivos, recurso compartido público o el recurso compartido de archivos de Azure para escribir los mensajes de salida. Puede escribir la ruta de acceso directamente en el **ubicación de destino**, o selecciónelo en el sistema de archivos mediante el **examinar** botón. Al buscar la carpeta en la **Buscar carpeta** cuadro de diálogo, también puede crear una carpeta nueva haciendo clic en **crear nueva carpeta**.<br /><br /> Si usa un recurso compartido de almacenamiento de archivos de Azure, escriba `\\yourfilestoragename.file.core.windows.net\yourfilesharename`.<br /><br /> **Tipo:** cadena <br /><br />**Nota:** el URI para un envío de puerto o recibir ubicación no puede superar los 256 caracteres.|  
     |**Nombre de archivo**|Especificar el nombre del archivo en el que el controlador de envío de archivo escribe el mensaje.<br /><br /> Para conocer las restricciones en esta propiedad, incluido el uso de macros en el nombre de archivo, consulte [restricciones al configurar el adaptador de archivo](../core/restrictions-when-configuring-the-file-adapter.md).|  
     |**Modo de copia**|Definir el modo de copia que se usará al escribir un mensaje en un archivo. Los valores válidos son:<br /><br /> **Anexar.** El controlador de envío de archivo abre un archivo, si existe, y anexa un mensaje al final del archivo. Si el archivo no existe, el controlador de envío de archivo crea un nuevo archivo.<br /><br /> **Sobrescribir**. El controlador de envío de archivo abre un archivo, si existe, y sobrescribe su contenido. Si el archivo no existe, el controlador de envío de archivo crea un nuevo archivo.<br /><br /> **Cree una nueva**. Si el archivo no existe, el controlador de envío de archivo crea un archivo nuevo para escribir en él. Si el archivo ya existe, el controlador de envío de archivo notifica un error y sigue la lógica de reintento de adaptador común para los puertos de envío. Éste el modo de copia predeterminado para el controlador de envío de archivo.|  
-    |**Permitir caché durante la escritura**|Definir si se utiliza el almacenamiento en caché del sistema de archivos al escribir un mensaje en un archivo.<br /><br /> Las opciones válidas son:<br /><br /> **False** no utilice la caché del sistema de archivos.<br /><br /> **True** utiliza la caché de sistema de archivos.<br /><br /> **Valor predeterminado:** False **importante:** establecer esta propiedad en **True** puede aumentar el rendimiento del adaptador de archivos con el riesgo de pérdida de datos cuando se produce una pérdida de alimentación y no todos los datos se escriben en el disco.|  
+    |**Permitir caché durante la escritura**|Definir si se utiliza el almacenamiento en caché del sistema de archivos al escribir un mensaje en un archivo.<br /><br /> Las opciones válidas son:<br /><br /> **False** no utilice la caché del sistema de archivos.<br /><br /> **True** utiliza la caché de sistema de archivos.<br /><br /> **Valor predeterminado:** False **importante:** establecer esta propiedad en **True** puede aumentar el rendimiento del adaptador de archivos con el riesgo de pérdida de datos cuando hay una pérdida de alimentación y no todos los datos se escriben en el disco.|  
     |**Utilizar un archivo temporal al escribir**|Definir si se debe escribir el archivo de resultados en un archivo temporal en primer lugar y, a continuación, cambiar el nombre del archivo una vez que se ha completado la operación de escritura. Si esta opción está habilitada, el archivo temporal se creará con la extensión **BTS-WIP**.<br /><br /> Las opciones válidas son<br /><br /> **True** el adaptador de archivo crea un archivo temporal al escribir en la carpeta de destino.<br /><br /> **False** el adaptador de archivo no crea un archivo temporal al escribir en la carpeta de destino.<br /><br /> **Valor predeterminado:** False **Nota:** esta opción solo está disponible cuando la **CopyMode** propiedad está establecida en un valor de **crear nuevo**|  
   
 4.  En el **autenticación** ficha, realice lo siguiente:  
@@ -157,7 +157,7 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
   
 ## <a name="configure-the-receive-or-send-handler"></a>Configurar la recepción o el controlador de envío
   
-1.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, haga clic en  **Adaptadores**.  
+1.  En la consola de administración de BizTalk Server, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **configuración de plataforma**y, a continuación, haga clic en **adaptadores**.  
   
 2.  En la lista de adaptadores expandida, haga clic en **archivo**, en el panel derecho, haga clic en la recepción o envío de controlador que desea configurar. Seleccione **propiedades**.  
   
@@ -169,7 +169,7 @@ La cuenta de usuario de instancia de host utilizada por el controlador requiere 
 
 [Crear el archivo de ubicación de recepción o puerto de envío mediante programación](../core/create-the-receive-location-and-send-port-programmatically.md)
 
-[Propiedades y esquema de propiedades del adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
+[Propiedades y esquema de propiedades de adaptador de archivo](../core/file-adapter-property-schema-and-properties.md)
 
 [Restricciones al configurar el adaptador de archivo](../core/restrictions-when-configuring-the-file-adapter.md)
 

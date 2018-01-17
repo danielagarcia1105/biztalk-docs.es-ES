@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6d341a7f03c70e1ddcd242d7804b162338798e94
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="message-repair-and-new-submission-troubleshooting"></a>Reparación de mensajes y solución de problemas de envío nuevo
 ## <a name="a-repaired-message-cannot-be-submitted-if-the-envelope-schema-is-not-deployed"></a>No se puede enviar un mensaje reparado si no se ha implementado el esquema de sobres  
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/28/2017
 ### <a name="symptom"></a>Síntoma  
  Al intentar enviar un mensaje que se reparó, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] envía el mensaje siguiente:  
   
- "El adaptador no pudo transmitir el mensaje destinado para el puerto de envío" http://mrsrtest:80/StsWebReceive/default.aspx?PartnerId=Unparsed & FolderType = MessagesInbox ". Se retransmitirá después del intervalo de reintentos especificado para este puerto de envío. Detalles: "80131600". Para obtener más información, consulte Ayuda y soporte técnico en [http://go.microsoft.com/fwlink/?LinkId=142493](http://go.microsoft.com/fwlink/?LinkId=142493).  
+ "El adaptador no pudo transmitir el mensaje destinado para el puerto de envío" http://mrsrtest:80/StsWebReceive/default.aspx?PartnerId=Unparsed & FolderType = MessagesInbox ". Se retransmitirá después del intervalo de reintentos especificado para este puerto de envío. Details:"80131600". Para obtener más información, consulte Ayuda y soporte técnico en [http://go.microsoft.com/fwlink/?LinkId=142493](http://go.microsoft.com/fwlink/?LinkId=142493).  
   
 ### <a name="possible-cause"></a>Causa posible  
  No se ha implementado el esquema de sobre. Esto es cierto para cualquier MT*xxx* mensaje o cualquier mensaje que no se pudo analizar.  

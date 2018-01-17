@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9a7123d908f25e6575eaaba4f9a92608f17c88be
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="walkthrough-custom-message-processing-with-the-wcf-nettcp-adapter"></a>Tutorial: Mensaje personalizado de procesamiento con el adaptador de WCF-NetTcp
 En este tutorial, un cliente de [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] envía un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] que contiene datos binarios de imagen JPEG integrados a una ubicación de recepción de BizTalk mediante el adaptador de WCF-NetTcp. La imagen JPEG codificada en binario se extrae mediante una instrucción XPath (con codificación de nodo Base64) a través de la **cuerpo de mensaje entrante** configuración en la configuración del adaptador. El procesamiento de XPath difiere del método predeterminado en que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para controlar los mensajes entrantes. En el método de manera predeterminada, el adaptador obtiene todo el contenido de la **cuerpo** elemento de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] , el mensaje y, a continuación, se envía a la base de datos de BizTalk MessageBox. El procesamiento de mensajes de XPath extrae partes específicas de un mensaje de [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] entrante para crear un mensaje de BizTalk personalizado. En este ejemplo de procesamiento de XPath localiza un elemento XML denominado **SendPicture** en entrante [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] mensaje (que está en formato XML). Después de encontrar ese elemento, XPath extrae su valor como un objeto codificado en Base64 y coloca el valor binario en un mensaje de BizTalk. El mensaje se publica en la base de datos de cuadro de mensajes y luego se pasa a un puerto de envío de archivos con la ayuda de una suscripción de filtro de puertos de envío. No se usa ninguna orquestación en este ejemplo, y todo el procesamiento se realiza mediante la mensajería de BizTalk con XPath.  
@@ -73,7 +73,7 @@ En este tutorial, un cliente de [!INCLUDE[firstref_btsWinCommFoundation](../incl
   
     4.  En el **seguridad** pestaña, establezca el **modo de seguridad** a **ninguno.**  
   
-    5.  En el **mensaje** ficha, seleccione la **ruta de acceso** opción el **cuerpo del mensaje entrante de BizTalk**y escriba `/*[local-name()="SendPicture" and namespace-uri()='http://tempuri.org/']/*[local-name()="stream"]` para la expresión de ruta de cuerpo. Seleccione **Base64** como el **codificación de nodo**. El **ruta de acceso** opción se establece en valor porque el cuerpo de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] de mensajes que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe tiene el formato siguiente:   **\<SendPicture xmlns = "http:// tempuri.org/ "\>\<flujo\>*real en base 64 codifica los datos de imagen binarios*\</transmitir\>\</SendPicture\>**  
+    5.  En el **mensaje** ficha, seleccione la **ruta de acceso** opción el **cuerpo del mensaje entrante de BizTalk**y escriba `/*[local-name()="SendPicture" and namespace-uri()='http://tempuri.org/']/*[local-name()="stream"]` para la expresión de ruta de cuerpo. Seleccione **Base64** como el **codificación de nodo**. El **ruta de acceso** opción se establece en valor porque el cuerpo de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] de mensajes que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe tiene el formato siguiente:  **\<SendPicture xmlns = "http://tempuri.org/"\> \<flujo\>*real en base 64 codifica los datos de imagen binarios*\</transmitir\>\</SendPicture\>**  
   
     6.  En el **propiedades de la ubicación de recepción** cuadro de diálogo, haga clic en **Aceptar**.  
   

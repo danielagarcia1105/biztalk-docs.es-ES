@@ -19,10 +19,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 30175e7966d565306c45820f1a6c2e22e4611876
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters"></a>Consideraciones al publicar servicios WCF con los adaptadores de recepción WCF
 Este tema proporciona información que debe tenerse en cuenta a la hora de publicar servicios WCF con los adaptadores de recepción WCF.  Publicar un servicio mediante un adaptador WCF permite que un cliente WCF lo pueda llamar del mismo modo que si fuera un Servicio WCF convencional.  
@@ -116,15 +116,15 @@ Este tema proporciona información que debe tenerse en cuenta a la hora de publi
   
 |Elemento de esquema XML|Consumir servicios WCF publicados con el Asistente para publicación de Servicio WCF de BizTalk|Consumir servicios WCF alojados por aplicaciones .NET|  
 |------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------|  
-|\<importar\>|Compatible con el Asistente para consumición del Servicio WCF de BizTalk y Svcutil.exe|Compatible con el Asistente para consumición del Servicio WCF de BizTalk y Svcutil.exe|  
-|\<incluir\>|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|  
-|\<volver a definir\>|-Compatible con el servicio de WCF de BizTalk consumiendo Asistente<br />-Compatibilidad svcutil.exe limitada **Nota:** Svcutil.exe cuenta con la misma limitación para el **redefinir** tiene elemento como XSD.exe.|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|  
+|\<import\>|Compatible con el Asistente para consumición del Servicio WCF de BizTalk y Svcutil.exe|Compatible con el Asistente para consumición del Servicio WCF de BizTalk y Svcutil.exe|  
+|\<include\>|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|  
+|\<redefine\>|-Compatible con el servicio de WCF de BizTalk consumiendo Asistente<br />-Compatibilidad svcutil.exe limitada **Nota:** Svcutil.exe cuenta con la misma limitación para el **redefinir** tiene elemento como XSD.exe.|Compatible con el Asistente de consumición de servicio WCF de BizTalk y Svcutil.exe **Nota:** Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy.|  
   
 > [!NOTE]
 >  Svcutil.exe puede generar un mensaje de advertencia al crear la clase de proxy en el servicio de WCF de BizTalk publicado con los esquemas mediante la **incluyen** y **redefinir** elementos. Por ejemplo, para indicar que el elemento global ya ha sido declarado.  
   
 ## <a name="ensure-that-an-in-process-wcf-receive-location-is-not-disabled-after-you-change-the-computer-name-part-in-its-service-endpoint-address"></a>Garantizar que una ubicación de recepción WCF en curso no se encuentra deshabilitada después de cambiar la parte del nombre del equipo en la dirección de extremo de servicio  
- Si cambia la parte del nombre del equipo en el **dirección (URI)** ubicación de recepción del cuadro de texto de un WCF que se ejecutan en un proceso, le recomendamos que use la consola de administración de BizTalk para comprobar si la ubicación de recepción se sigue ejecutando. Por ejemplo, si cambia una dirección de punto de conexión de servicio mediante WCF-NetTcp adaptador de recepción, **net.tcp://\<***el nombre del equipo***\>/samplepath**a **net.tcp://localhost/samplepath**, la ubicación de recepción puede deshabilitarse con una **Service.InvalidOperationException**. Si sólo modifica la parte del nombre del equipo en la dirección de extremo de servicio sin modificar la parte de la ruta, asegúrese de que la ubicación de recepción no se encuentra deshabilitada y habilítela si es necesario.  
+ Si cambia la parte del nombre del equipo en el **dirección (URI)** ubicación de recepción del cuadro de texto de un WCF que se ejecutan en un proceso, le recomendamos que use la consola de administración de BizTalk para comprobar si la ubicación de recepción se sigue ejecutando. Por ejemplo, si cambia una dirección de punto de conexión de servicio mediante WCF-NetTcp adaptador de recepción, **net.tcp://\<***el nombre del equipo***\>/samplepath**a  **NET.TCP://localhost/samplepath**, la ubicación de recepción puede deshabilitarse con una **Service.InvalidOperationException**. Si sólo modifica la parte del nombre del equipo en la dirección de extremo de servicio sin modificar la parte de la ruta, asegúrese de que la ubicación de recepción no se encuentra deshabilitada y habilítela si es necesario.  
   
 ## <a name="set-the-appropriate-msdtc-security-configuration-options-on-client-computers-communicating-with-remote-wcf-receive-locations-through-a-transaction-protocol"></a>Establezca las opciones apropiadas de configuración de seguridad de MSDTC en los equipos clientes que se comunican con ubicaciones de recepción WCF remotas a través de un protocolo de transacción  
  Adaptadores de recepción WCF-NetTcp, WCF-WSHttp y WCF-NetNamedPipe pueden participar en procesos de coordinación transaccionales que los clientes de WCF administran con la **WS-AtomicTransaction** y **OleTransaction**protocolos de transacción. Los mensajes pueden transmitirse a las ubicaciones de recepción de destino y pueden eliminarse de la base de datos de cuadro de mensajes en un contexto transaccional usando el protocolo WS-AtomicTransaction.  

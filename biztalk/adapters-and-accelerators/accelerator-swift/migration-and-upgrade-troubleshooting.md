@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5c0e2a18b1cdba47c999150b5bc52c0b016aec61
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="migration-and-upgrade-troubleshooting"></a>Solución de problemas de actualización y migración
 ## <a name="assemblies-need-to-be-undeployed-before-an-upgrade"></a>Ensamblados deben ser implementada antes de una actualización  
@@ -68,12 +68,12 @@ ms.lasthandoff: 11/28/2017
   
 1.  Haga clic en la carpeta del servicio, haga clic en **propiedades**y, a continuación, haga clic en el **seguridad** ficha.  
   
-2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba   ***\<nombre del servidor\>*\A4SWIFT administradores**, y, a continuación, haga clic en **Aceptar**.  
+2.  En el panel de nombres de grupo o usuario del cuadro de diálogo Propiedades del servicio, haga clic en **agregar**, escriba ***\<nombre del servidor\>* los administradores \A4SWIFT**y, a continuación, haga clic en **Aceptar** .  
   
     > [!NOTE]
-    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba   ***\<nombre de dominio\>*\A4SWIFT administradores**.  
+    >  Si el grupo de administradores de A4SWIFT es un grupo de dominio, escriba ***\<nombre de dominio\>* \A4SWIFT administradores**.  
   
-3.  Repita el paso 2 para   ***\<nombre del servidor\>*\A4SWIFT usuarios**, o  **\<* nombre de dominio* \>\A4SWIFT usuarios ** si el grupo de usuarios de A4SWIFT es un grupo de dominio.  
+3.  Repita el paso 2 para ***\<nombre del servidor\>* \A4SWIFT usuarios**, o  **\< *nombre de dominio*\>\A4SWIFT usuarios** si el Grupo de usuarios de A4SWIFT es un grupo de dominio.  
   
 4.  En el panel de nombres de usuario o grupo, seleccione **A4SWIFT administradores**. En el panel permisos, seleccione **permitir** para **Control total**.  
   

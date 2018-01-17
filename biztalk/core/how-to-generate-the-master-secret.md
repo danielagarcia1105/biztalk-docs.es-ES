@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d1a7ee4f8ffe73a71e8c0b2e3d45c7a966669fd8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-generate-the-master-secret"></a>Cómo generar el secreto principal
 Debe tener derechos de administrador en el servidor secreto principal para realizar esta tarea. Asimismo, debe realizar esta tarea en el servidor secreto principal.  
@@ -46,7 +46,7 @@ Debe tener derechos de administrador en el servidor secreto principal para reali
   
 2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de  **ssoconfig – generateSecret \<* archivo de copia de seguridad*\>**, donde \<* el archivo de copia de seguridad* \> es el nombre del archivo que contiene el secreto principal.  
+3.  Tipo de **ssoconfig – generateSecret \< *archivo de copia de seguridad*\>**, donde \< *archivo de copia de seguridad* \> es el nombre de la archivo que contiene el secreto principal.  
   
      Se le pedirá que escriba una contraseña para proteger el archivo que acaba de crear.  
   

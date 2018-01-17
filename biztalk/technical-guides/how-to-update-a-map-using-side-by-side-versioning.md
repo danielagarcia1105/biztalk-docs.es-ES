@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6d463823a7038e1ead7e2de323da97eda372db76
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-update-a-map-using-side-by-side-versioning"></a>Cómo actualizar un mapa con control de versiones en paralelo
 Algunos artefactos de BizTalk, como las asignaciones, se eligen por nombre seguro completo (FQSN), en cuyo caso los enlaces incluyen la versión utilizada. Esto permite que dos o más asignaciones pueden coexistir en paralelo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Como resultado, puede seleccionar una de las asignaciones de entrada mapas en las propiedades de ubicación de recepción o de salida en las propiedades de puerto de envío.  

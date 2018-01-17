@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a8ff979c7b6915f53ebc7144cf0774ab1ffb779a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project"></a>Lección 2: Crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas
 En esta lección, creará un nombre seguro en el que se compilan e implementan los ensamblados de BizTalk. Un ensamblado con nombre seguro ofrece varias ventajas de seguridad:  
@@ -49,7 +49,7 @@ En esta lección, creará un nombre seguro en el que se compilan e implementan l
   
 6.  Desplácese hacia abajo en las propiedades del ensamblado en el panel derecho y en el **nombre seguro** sección, haga clic en el cuadro a la derecha del **archivo de clave de ensamblado**. Haga clic en el botón de puntos suspensivos.  
   
-7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\<* unidad*:\>\labs**.  
+7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\< *unidad*:\>\labs**.  
   
 8.  Seleccione el **swift.snk** de archivos como el archivo de clave y, a continuación, haga clic en **abiertos**.  
   

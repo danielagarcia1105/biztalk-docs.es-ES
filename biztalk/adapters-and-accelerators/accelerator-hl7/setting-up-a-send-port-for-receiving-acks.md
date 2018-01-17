@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: df0988a9edc2af81970237aad363315a778f821b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="setting-up-a-send-port-for-receiving-acks"></a>Cómo configurar un puerto de envío para recibir mensajes de confirmación
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) puede recibir confirmaciones (ACK) en un puerto de envío unidireccional. Cuando configura un nuevo puerto de envío unidireccional para recibir mensajes de confirmación en la misma conexión, debe asociar ese envío puerto de recepción del puerto con un unidireccional.  
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/28/2017
     >  Cuando sale de **ubicación de recepción envíe** en blanco, BTAHL7 entra en el URI para el valor predeterminado **TwoWayAckReceiveLocation**. Puede comprobar que después al hacer clic **Aceptar** en el paso 6, haciendo clic en **configuración** nuevo. El URI para **TwoWayAckReceiveLocation** (127.0.0.1:65535) se escribirán en **enviar recibir ubicación (URI) para la confirmación**.  
   
     > [!NOTE]
-    >  Debe crear un puerto de envío para suscribirse a la confirmación recibida o la confirmación se verá en un estado suspendido, porque no se encontró ninguna suscripción. Para suscribirse a las Confirmaciones recibidas por el puerto de envío, utilice filtros, por ejemplo,  **BTS. MessageType == \<* MessageType*\>** y  **BTS. ReceivePortName == \<* puertoRecepción*\>**. Para confirmaciones estáticos, el tipo de mensaje es **StaticAck**.  
+    >  Debe crear un puerto de envío para suscribirse a la confirmación recibida o la confirmación se verá en un estado suspendido, porque no se encontró ninguna suscripción. Para suscribirse a las Confirmaciones recibidas por el puerto de envío, utilice filtros, por ejemplo, **BTS. MessageType == \< *MessageType* \>**  y **BTS. ReceivePortName == \< *puertoRecepción*\>**. Para confirmaciones estáticos, el tipo de mensaje es **StaticAck**.  
   
 7.  Haga clic en **Aceptar**.  
   

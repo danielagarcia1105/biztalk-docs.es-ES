@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 57368dbbb2d8ecaa6621707ea7b989bf7f5b005d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-3-assign-a-strong-name-to-the-assembly"></a>Paso 3: Asignar un nombre seguro al ensamblado
 En este paso, creará y asignar un nombre seguro para la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] ensamblado. Un ensamblado con nombre seguro ofrece varias ventajas de seguridad y es necesario para implementar el proyecto en la caché global de ensamblados (GAC). Un nombre seguro garantiza la exclusividad del ensamblado mediante la asignación de una firma digital y un único par de claves. Además, esto protege el linaje del ensamblado al garantizar que nadie puede generar una versión posterior del ensamblado. Por último, un nombre seguro proporciona una comprobación de integridad sólida para garantizar que el contenido del ensamblado no ha cambiado desde que se compiló.  
@@ -42,7 +42,7 @@ En este paso, creará y asignar un nombre seguro para la [!INCLUDE[btsBizTalkSer
   
 6.  En el panel derecho, desplácese hacia abajo hasta la **nombre seguro** sección, haga clic en el campo a la derecha del **archivo de clave de ensamblado**y, a continuación, haga clic en el botón de puntos suspensivos (...).  
   
-7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\<* unidad*\>: \Tutorial\BTAHL7V22Common\key.snk**, haga clic en **abiertos**y, a continuación, haga clic en **Aceptar**.  
+7.  En el cuadro de diálogo de archivo de clave de ensamblado, vaya a  **\< *unidad*\>: \Tutorial\BTAHL7V22Common\key.snk**, haga clic en **abiertos**y, a continuación, haga clic en **Aceptar**.  
   
 8.  En el Explorador de soluciones, haga clic en **BTAHL7V22Common**y, a continuación, haga clic en **implementar**. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea un ensamblado que puede hacer referencia desde el proyecto siguiente.  
   

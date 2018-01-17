@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: fd36081bd92c3bfae13916ed7d984fcd5de9763f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-using-the-wcf-service-model"></a>Recibir mensajes de cambio de datos basado en sondeo de base de datos de Oracle mediante el modelo de servicio de WCF
 Puede configurar el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] recibir datos de sondeo cambiado mensajes con respecto a una tabla de Oracle o la vista. Para recibir mensajes de cambio de datos, el adaptador ejecuta periódicamente una consulta SQL en una tabla de Oracle o vista seguido de un bloque de código de PL/SQL opcional. A continuación, se devuelven los resultados de la consulta SQL por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] a la aplicación como fuertemente tipados conjunto de resultados en una operación de POLLINGSTMT entrante. Para obtener más información sobre el mecanismo utilizado para configurar y realizar el sondeo de Oracle de base de datos mediante la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [recibir mensajes de cambio de datos basado en sondeo en el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md). Se recomienda encarecidamente que lea este tema antes de continuar.  

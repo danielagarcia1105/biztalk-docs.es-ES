@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 84bbc42297a10c7d42adb8d778ba19b3b392742c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-migrate-xdr-schemas-to-xsd-schemas"></a>Cómo migrar esquemas XDR a esquemas XSD
 Si va a migrar esquemas de una versión anterior de BizTalk Server, deberá convertir los esquemas de datos reducidos XML (XDR) a esquemas de lenguaje de definición de esquemas XML (XSD). En este tema se describe los pasos necesarios.  
@@ -25,7 +25,7 @@ Si va a migrar esquemas de una versión anterior de BizTalk Server, deberá conv
   
 1.  En **el Explorador de soluciones**, haga clic en el proyecto de BizTalk correspondiente, seleccione **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el  **agregar elementos generados - \<* BizTalk ProjectName*\>** cuadro de diálogo, en la **plantillas** sección, haga clic en **generar Esquemas**y, a continuación, haga clic en **agregar**.  
+2.  En el **agregar elementos generados - \< *BizTalk ProjectName* \>**  cuadro de diálogo, en la **plantillas** sección, haga clic en **generar Esquemas**y, a continuación, haga clic en **agregar**.  
   
 3.  En el **generar esquemas** cuadro de diálogo, en la **tipo de documento** lista, seleccione **esquema XDR**.  
   

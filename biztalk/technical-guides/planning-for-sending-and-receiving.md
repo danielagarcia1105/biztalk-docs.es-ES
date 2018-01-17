@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="planning-for-sending-and-receiving"></a>Planeación para enviar y recibir
 Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de recepción y se envían desde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del adaptador de envío. Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores de ilustración, por lo que de forma destacada en cualquier [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, es importante planificar con antelación determinar qué adaptadores o aceleradores va a usar y cómo configurar correctamente estos adaptadores o aceleradores.  
@@ -43,23 +43,23 @@ Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersi
   
 |Adaptador|Principales ventajas|Compatibilidad con transacciones|Compatibilidad con comunicación bidireccional|Compatibilidad con recepción por orden|Compatibilidad con SSO|  
 |-------------|---------------------|-------------------------|------------------------------------|-------------------------------|-----------------|  
-|Archivo|Fácil de usar|No|No|No|No|  
-|FTP|Se usa ampliamente para comunicaciones de negocio a negocio|No|No|No|Sí|  
-|HTTP(s)|Se usa ampliamente para comunicaciones de negocio a negocio|No|Solicitud - respuesta y petición - respuesta|No|Sí|  
-|SOAP|Admite el uso de servicios Web|No|Solicitud - respuesta y petición - respuesta|No|Sí|  
-|MSMQ|Admite una sola vez entrega garantizada de mensajes entre BizTalk Server y Microsoft Message Queue Server|Sí|No|Sí|No|  
+|Archivo|Fácil de usar|no|No|No|no|  
+|FTP|Se usa ampliamente para comunicaciones de negocio a negocio|no|No|No|Sí|  
+|HTTP(s)|Se usa ampliamente para comunicaciones de negocio a negocio|no|Solicitud - respuesta y petición - respuesta|no|Sí|  
+|SOAP|Admite el uso de servicios Web|no|Solicitud - respuesta y petición - respuesta|no|Sí|  
+|MSMQ|Admite una sola vez entrega garantizada de mensajes entre BizTalk Server y Microsoft Message Queue Server|Sí|No|Sí|no|  
 |MQ Series|Admite una sola vez entrega garantizada de mensajes entre BizTalk Server e IBM WebSphere MQ para plataformas de Windows|Sí|No|Sí|Sí|  
-|SQL|Admite comunicación directa entre las bases de datos de BizTalk Server y SQL Server|Sí|Sólo petición - respuesta|No|No|  
-|Windows SharePoint Services|Permite el intercambio de mensajes XML y binarios entre BizTalk Server y las bibliotecas de documentos de SharePoint|No|No|No|No|  
-|POP3|Admite la recepción de documentos por correo electrónico|No|No|No|No|  
-|SMTP|Admite el envío de documentos por correo electrónico|No|No|No|No|  
-|ENRUTAMIENTO|Admite el procesamiento de documentos empresariales que se ajusta al estándar EDI|No|No|No|No|  
+|SQL|Admite comunicación directa entre las bases de datos de BizTalk Server y SQL Server|Sí|Sólo petición - respuesta|no|no|  
+|Windows SharePoint Services|Permite el intercambio de mensajes XML y binarios entre BizTalk Server y las bibliotecas de documentos de SharePoint|no|No|No|no|  
+|POP3|Admite la recepción de documentos por correo electrónico|no|No|No|no|  
+|SMTP|Admite el envío de documentos por correo electrónico|no|No|No|no|  
+|ENRUTAMIENTO|Admite el procesamiento de documentos empresariales que se ajusta al estándar EDI|no|No|No|no|  
 |Personalizado|Es compatible con el sistema heredado|Sí, requiere código personalizado.|Sí, requiere código personalizado.|Sí, requiere código personalizado.|Sí, requiere código personalizado.|  
-|WCF-WSHttp|Es compatible con WS-* estándares mediante el transporte HTTP|Sí, las transacciones se admiten en WsHTTP (sólo las transacciones WS)|Solicitud - respuesta y petición - respuesta|No|Sí|  
-|WCF-BasicHttp|Se comunica con servicios Web basados en ASMX y clientes y otros servicios que cumplan con WS-I Basic Profile 1.1 mediante HTTP o HTTPS|No|Solicitud - respuesta y petición - respuesta|No|Sí|  
-|WCF-NetTcp|Es compatible con WS-* estándares a través del transporte TCP|Sí|Solicitud - respuesta y petición - respuesta|No|Sí|  
+|WCF-WSHttp|Es compatible con WS-* estándares mediante el transporte HTTP|Sí, las transacciones se admiten en WsHTTP (sólo las transacciones WS)|Solicitud - respuesta y petición - respuesta|no|Sí|  
+|WCF-BasicHttp|Se comunica con servicios Web basados en ASMX y clientes y otros servicios que cumplan con WS-I Basic Profile 1.1 mediante HTTP o HTTPS|no|Solicitud - respuesta y petición - respuesta|no|Sí|  
+|WCF-NetTcp|Es compatible con WS-* estándares a través del transporte TCP|Sí|Solicitud - respuesta y petición - respuesta|no|Sí|  
 |WCF-NetMsmq|Permite poner en cola aprovechando Microsoft Message Queuing (MSMQ) como transporte|Sí|No|Sí|Sí|  
-|WCF-NetNamedPipe|Proporciona un transporte rápido para la comunicación entre procesos en el mismo equipo (sólo para aplicaciones WCF)|Sí|Solicitud - respuesta y petición - respuesta|No|Sí|  
+|WCF-NetNamedPipe|Proporciona un transporte rápido para la comunicación entre procesos en el mismo equipo (sólo para aplicaciones WCF)|Sí|Solicitud - respuesta y petición - respuesta|no|Sí|  
 |WCF-Custom|Habilita el uso de características de extensibilidad WCF|Sí.|Sí.|Sí, siempre que lo admita el enlace.|Sí.|  
 |WCF-CustomIsolated|Habilita el uso de características de extensibilidad WCF mediante el transporte HTTP|Sí.|Sí.|No.|Sí.|  
   

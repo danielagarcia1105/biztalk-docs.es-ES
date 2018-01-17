@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 56aa8490bd9e72677c9c8eefa73e7f6bd8438dfd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="field-padding"></a>Relleno de los campos
 
@@ -38,4 +38,4 @@ Para obtener más información acerca de estas propiedades [!INCLUDE[ui-guidance
 ## <a name="see-also"></a>Vea también  
  [Consideraciones de campo](../core/field-considerations.md)   
  [Justificación de los campos](../core/field-justification.md)   
- [Especificación de posiciones de campo en los registros posicionales](../core/specification-of-field-positions-within-positional-records.md)  
+ [Especificación de las posiciones de los campos en los registros posicionales](../core/specification-of-field-positions-within-positional-records.md)  
