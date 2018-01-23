@@ -1,7 +1,8 @@
 ---
-title: "Cómo quitar instancias de actividad incompletas | Documentos de Microsoft"
+title: Quitar instancias de actividad incompletas | Documentos de Microsoft
+description: "Ejecute el script personalizado de RemoveDanglingInstances SQL para quitar instancias incompletas de la base de datos de importación principal de BAM de BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 01/18/2018
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,13 +13,13 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2809fd4fcc1d94a96b158ffa46c3e217084a905d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 542d92b838b1638a2d018c6325d4c40467545c42
+ms.sourcegitcommit: 9e7a7dc5544d30d4523c0b3cdaa59f4890e7a4e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="how-to-remove-incomplete-activity-instances"></a>Cómo quitar instancias de actividad incompletas
+# <a name="remove-incomplete-activity-instances"></a>Quitar instancias de actividad incompletas
 Al implementar un archivo de definición de BAM, se crean cinco tablas en la base de datos de importación principal de BAM por cada actividad definida en el archivo de definición. Estas tablas son:  
   
 -   bam_`ActivityName`_Active  
@@ -39,33 +40,29 @@ Al implementar un archivo de definición de BAM, se crean cinco tablas en la bas
   
  Para crear el procedimiento almacenado, copie el script y ejecútelo en la base de datos de importación principal de BAM con la administración de SQL Server. La secuencia de comandos generará un procedimiento almacenado denominado **RemoveDanglingInstances** en la base de datos.  
   
-### <a name="to-create-the-removedanglinginstances-stored-procedure"></a>Procedimiento para crear el procedimiento almacenado RemoveDanglingInstances  
+## <a name="create-the-removedanglinginstances-stored-procedure"></a>Crear el procedimiento almacenado de RemoveDanglingInstances  
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 SP1** o **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en  **SQL Server Management Studio**.  
+1.  Abra **SQL Server Management Studio**y conectarse a SQL server.
   
-2.  En el **conectar al servidor** cuadro de diálogo, seleccione el servidor SQL server y el método de autenticación adecuado y, a continuación, haga clic en **conectar**.  
+2.  Expanda el nombre del servidor, expanda **bases de datos**y, a continuación, seleccione la base de datos de importación principal de BAM.  
   
-3.  Expanda el nombre del servidor, expanda **bases de datos**y, a continuación, seleccione la base de datos de importación principal de BAM.  
+3.  Haga clic en **Nueva consulta**.  
   
-4.  Haga clic en **Nueva consulta**.  
+4.  Copie el script de creación de procedimientos almacenados y péguelo en el panel de consulta.  
   
-5.  Copie el script de creación de procedimientos almacenados y péguelo en el panel de la derecha.  
+5.  **Ejecutar** la secuencia de comandos. El procedimiento almacenado resultante puede verse en la lista de procedimientos almacenados como dbo.RemoveDanglingInstances.  
   
-6.  Haga clic en **Execute** para ejecutar el script. El procedimiento almacenado resultante puede verse en la lista de procedimientos almacenados como dbo.RemoveDanglingInstances.  
+## <a name="remove-incomplete-activity-instances"></a>Quitar instancias de actividad incompletas  
   
-### <a name="to-remove-incomplete-activity-instances"></a>Procedimiento para quitar instancias de actividad incompletas  
+1.  Abra **SQL Server Management Studio**y conectarse a SQL server.
   
-1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 SP1** o **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en  **SQL Server Management Studio**.  
+2.  Expanda el nombre del servidor, expanda **bases de datos**y, a continuación, seleccione la base de datos de importación principal de BAM.  
   
-2.  En el **conectar al servidor** cuadro de diálogo, seleccione el servidor SQL server y el método de autenticación adecuado y, a continuación, haga clic en **conectar**.  
+3.  Haga clic en **Nueva consulta**.  
   
-3.  Expanda el nombre del servidor, expanda **bases de datos**y, a continuación, seleccione la base de datos de importación principal de BAM.  
+4.  En el panel de consulta, escriba `exec RemoveDanglingInstances` y los parámetros adecuados para la operación de eliminación que se va a realizar. Por ejemplo, para quitar todas las instancias incompletas de la actividad de pedido de compra, escriba `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`.  
   
-4.  Haga clic en **Nueva consulta**.  
-  
-5.  En el panel derecho, escriba `exec RemoveDanglingInstances` y los parámetros adecuados para la operación de eliminación que se va a realizar. Por ejemplo, para quitar todas las instancias incompletas de la actividad de pedido de compra, escriba `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`.  
-  
-6.  Haga clic en **Execute** para ejecutar el script.  
+5.  **Ejecutar** la secuencia de comandos.  
   
 ## <a name="removedanglinginstances-usage-examples"></a>Ejemplos de uso de RemoveDanglingInstances  
  El procedimiento almacenado puede recibir cuatro parámetros:  
@@ -75,7 +72,7 @@ Al implementar un archivo de definición de BAM, se crean cinco tablas en la bas
 |@ActivityName nvarchar(128)|Especifica el nombre de la instancia de actividad incompleta que se va a quitar.|  
 |@ActivityId nvarchar(128)|(Opcional) Especifica que el procedimiento almacenado quita solo la instancia pendiente con el identificador de instancia especificado.|  
 |@DateThresholdfecha y hora|(Opcional) Especifica que se quitan todas las instancias activas de la tabla activa que sean anteriores (no iguales y anteriores, sino únicamente anteriores) a la fecha dada.|  
-|@NewTableExtensionnvarchar (30)|(Opcional) Especifica que el procedimiento almacenado crea tres tablas nuevas al concatenar la extensión proporcionada con las tablas de actividad existentes.<br /><br /> Las tablas resultantes serán las siguientes:<br /><br /> bam_ActivityName_Active_\<extensión\><br /><br /> bam_ActivityName_ActiveRelationships_\<extensión\><br /><br /> bam_ActivityName_Continuations_\<extensión\><br /><br /> Las instancias incompletas se mueven a las tablas nuevas en lugar de purgarse en la base de datos.<br /><br /> Si las tablas ya existen, el procedimiento almacenado las vuelve a usar; de lo contrario, se crean. **Importante:** si las tablas ya existen, el procedimiento almacenado se supone que sus esquemas coinciden con los que se utilizarían si se hubieran creado. Si un esquema no coincide, el procedimiento almacenado no podrá insertar los registros y se producirá un error en la operación de eliminación.|  
+|@NewTableExtensionnvarchar (30)|(Opcional) Especifica que el procedimiento almacenado crea tres tablas nuevas al concatenar la extensión proporcionada con las tablas de actividad existentes.<br /><br /> Las tablas resultantes serán las siguientes:<br /><br /> bam_ActivityName_Active_\<Extension\><br /><br /> bam_ActivityName_ActiveRelationships_\<Extension\><br /><br /> bam_ActivityName_Continuations_\<Extension\><br /><br /> Las instancias incompletas se mueven a las tablas nuevas en lugar de purgarse en la base de datos.<br /><br /> Si las tablas ya existen, el procedimiento almacenado las vuelve a usar; de lo contrario, se crean. **Importante:** si las tablas ya existen, el procedimiento almacenado se supone que sus esquemas coinciden con los que se utilizarían si se hubieran creado. Si un esquema no coincide, el procedimiento almacenado no podrá insertar los registros y se producirá un error en la operación de eliminación.|  
   
  `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`  
   
@@ -235,6 +232,9 @@ AS
     COMMIT TRAN      
 GO  
 ```  
-  
+
+## <a name="another-method-of-resolving-incomplete-instances"></a>Otro método de resolución de instancias incompletas
+También puede resolver instancias de actividad incompletas de la base de datos BAMPrimaryImport mediante una consulta SQL. Vea [resolver instancias de actividad incompletas](how-to-resolve-incomplete-activity-instances.md).
+
 ## <a name="see-also"></a>Vea también  
- [Administración de bases de datos de BAM](../core/managing-bam-databases.md)
+ [Administrar bases de datos BAM](../core/managing-bam-databases.md)
