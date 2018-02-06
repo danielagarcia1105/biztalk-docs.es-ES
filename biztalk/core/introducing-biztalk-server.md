@@ -1,25 +1,25 @@
 ---
 title: "Introducción a BizTalk Server | Documentos de Microsoft"
 ms.custom: 
-ms.date: 11/29/2017
+ms.date: 01/30/2018
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 06a4a31a-eefe-4b1b-89ca-2cba2b6fa587
-caps.latest.revision: "17"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7984b9044ff21263e780cba545ddea472b358c76
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 4de6778bef644dc7bbfa25b46c28b36e1741ba6f
+ms.sourcegitcommit: d0a1816a8dd8412906245d40c6479b08d7b3b20a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="introducing-biztalk-server"></a>Introducción a BizTalk Server
-Ninguna aplicación está aislada. Nos guste o no, unir los sistemas se ha convertido en la norma. Sin embargo, conectar software es algo más que el simple intercambio de bytes. Dado que las organizaciones tienden a un mundo orientado a los servicios, el verdadero objetivo, es decir, la creación de procesos empresariales efectivos que aúnen sistemas independientes dentro de un todo coherente, está al alcance de todos.  
+Unir los sistemas se espera y se ha convertido en la norma. Dado que las organizaciones tienden a un mundo orientado a los servicios, el verdadero objetivo, es decir, la creación de procesos empresariales efectivos que aúnen sistemas independientes dentro de un todo coherente, está al alcance de todos.  
   
  Microsoft BizTalk Server permite conectar software variado para, a continuación, crear gráficamente y modificar la lógica del proceso que emplea dicho software. Además, BizTalk Server hace posible que los trabajadores de la información supervisen los procesos que están ejecutándose, interactúen con los socios comerciales y lleven a cabo otras tareas de tipo empresarial.  
   
@@ -31,7 +31,7 @@ Ninguna aplicación está aislada. Nos guste o no, unir los sistemas se ha conve
   
 -   Capacidades mejoradas para la Supervisión de la actividad económica (BAM).  
   
-BizTalk Server también usa las versiones más recientes de otras tecnologías de Microsoft. Se basa en .NET Framework, y las herramientas de desarrollo están hospedadas en Microsoft Visual Studio. Para el almacenamiento, usa BizTalk Server puede BizTalk Server de SQL Server se ejecuta en servidores de Windows de 64 bits, sacar partido de la máxima cantidad de memoria y otras ventajas que ofrece el hardware.  
+BizTalk Server también usa las versiones más recientes de otras tecnologías de Microsoft. Se basa en .NET Framework, y las herramientas de desarrollo están hospedadas en Microsoft Visual Studio. Para el almacenamiento, BizTalk Server utiliza SQL Server. BizTalk Server puede ejecutar en servidores de Windows de 64 bits, sacar partido de la máxima cantidad de memoria y otras ventajas que ofrece el hardware.  
   
 ## <a name="what-is-biztalk-server"></a>¿Qué es BizTalk Server?  
  La combinación de distintos sistemas en procesos empresariales efectivos supone todo un desafío. En consecuencia, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye una amplia variedad de tecnologías. La siguiente ilustración muestra los componentes más destacados del producto.  
@@ -54,14 +54,14 @@ BizTalk Server también usa las versiones más recientes de otras tecnologías d
   
  Sobre esta base, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye supervisión de la actividad económica, que los trabajadores de la información usan para controlar los procesos empresariales que se llevan a cabo. El tipo de información que se muestre dependerá de las preferencias de los usuarios empresariales y se expresará en términos empresariales, en lugar de técnicos.  
   
-## <a name="biztalk-server-and-the-challenge-of-connecting-diverse-systems"></a>BizTalk Server y el desafío de conectar sistemas diferentes  
+## <a name="connecting-diverse-systems"></a>Conectar sistemas diferentes  
  La gran mayoría de los procesos empresariales modernos dependen de las aplicaciones de software en mayor o menor medida. Así, si bien algunos de estos procesos dependen una sola aplicación, muchos otros están basados en distintos sistemas de software. En numerosas ocasiones, estas aplicaciones de software son diferentes respecto a la fecha de creación, la plataforma en la que se generaron y la tecnología que emplean. La automatización de esos procesos empresariales hace necesaria la conexión de sistemas distintos.  
   
  Afrontar este desafío adopta nombres diversos: automatización de procesos empresariales (BPA), administración de procesos empresariales (BPM) y otros. Independientemente del nombre, la mayor importancia de la integración de aplicaciones la adquieren dos escenarios. El primero es la conexión de las aplicaciones en una única organización, denominada habitualmente Integración de aplicaciones de negocios (EAI). El segundo, denominado Integración negocio a negocio (B2B), conecta las aplicaciones en distintas organizaciones.  
   
  La siguiente ilustración muestra un sencillo ejemplo del motor principal de BizTalk Server aplicado a un problema de EAI. En este escenario, una aplicación de inventario, que puede estar ejecutándose en un gran sistema IBM, advierte que quedan pocos repuestos de un elemento, por lo que emite una solicitud para pedir más material. Esta solicitud se envía a la orquestación de BizTalk Server (paso 1) que, a continuación, emite una solicitud de pedido a esta aplicación ERP de la organización (paso 2). La aplicación ERP, que puede estar ejecutándose en un sistema Unix, devuelve el pedido solicitado (paso 3), y la orquestación de BizTalk Server informa a una aplicación de procesamiento, integrada quizás en Windows mediante .NET Framework, de que debería solicitarse dicho elemento (paso 4).  
   
- ![EAI implementado en el motor de BizTalk. ] (../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
+ ![EAI implementado en el motor de BizTalk.](../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
   
  En este ejemplo, cada aplicación se comunica mediante un protocolo diferente. Por consiguiente, el componente de mensajería del motor de BizTalk Server debe ser capaz de comunicarse con cada aplicación en su estilo de comunicación nativo. Además, tenga en cuenta que ninguna aplicación es consciente del proceso empresarial completo. La inteligencia necesaria para coordinar todas las partes implicadas del software se implementa en la orquestación de BizTalk Server.  
   
