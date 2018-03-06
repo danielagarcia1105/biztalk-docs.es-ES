@@ -1,38 +1,24 @@
 ---
 title: Migrar desde el adaptador de MSMQT al adaptador de MSMQ | Documentos de Microsoft
 ms.custom: 
-ms.date: 2015-12-07
+ms.date: 12/07/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- performance, MSMQT adapters
-- scaling, MSMQT adapters
-- reliability, MSMQT adapters
-- MSMQT adapters, transactional consistency
-- migrating, MSMQT adapters
-- MSMQT adapters, ordered delivery
-- MSMQT adapters, migrating to MSMQ adapters
-- MSMQT adapters, scaling
-- MSMQT adapters, reliability
-- MSMQ adapters, migrating MSMQT adapters
-- high availability, MSMQT adapters
-- MSMQT adapters, performance
-- MSMQT adapters, availability
 ms.assetid: 97126f70-0be5-4a2f-bcba-173fd932b6de
-caps.latest.revision: "30"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b1fce448788a8c6c5721403dbb7e4e58609a31a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1696e732bdbd005b01f16834a075fe69460602f9
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
-# <a name="migrating-from-the-msmqt-adapter-to-the-msmq-adapter"></a>Migrar del adaptador de MSMQT al adaptador de MSMQ
+# <a name="migrate-from-the-msmqt-adapter-to-the-msmq-adapter"></a>Migrar desde el adaptador de MSMQT al adaptador de MSMQ
 Este tema comenta los aspectos que se deben considerar respecto a la entrega ordenada de un extremo a otro, la coherencia transaccional, una alta disponibilidad y escalabilidad antes de migrar soluciones del adaptador de BizTalk para Message Queue (MSMQT) al adaptador de Message Queue Server (MSMQ). En este tema, los conceptos de entrega ordenada, coherencia transaccional, alta disponibilidad y escalabilidad son los siguientes:  
   
 -   **Entrega ordenada.** Garantizar que los mensajes se envían desde BizTalk Server en el mismo orden en el que se recibieron.  
@@ -58,15 +44,15 @@ Este tema comenta los aspectos que se deben considerar respecto a la entrega ord
   
 5.  El cuadro de mensaje enruta los mensajes y garantiza que, si se enrutan a la misma instancia de una orquestación o un puerto de envío, se entreguen a esta instancia en el mismo orden: 1, 2, 3.  
   
- En [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)], MSMQT es el único adaptador capaz de garantizar la entrega ordenada de un extremo a otro. Todos los demás adaptadores integrados de BizTalk pueden cambiar el orden de los mensajes en los pasos 3 a 5 anteriores. La mayoría de los demás adaptadores integrados completan el paso 3 usando un componente conocido como Gestor extremo, que es intrínsecamente multiproceso y, por tanto, no mantiene el orden. El adaptador de MSMQ para [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] puede usar una característica de "Procesamiento en serie" que mantiene el orden para el Paso 3, aunque no solicita al Agente de mensajes que mantenga el orden ulteriormente, por lo que los mensajes se pueden enrutar a una orquestación o un puerto de envío de forma no ordenada.  
+ En BizTalk Server 2004, MSMQT era el único adaptador capaz de garantizar end-to-end entrega ordenada. Todos los demás adaptadores integrados de BizTalk pueden cambiar el orden de los mensajes en los pasos 3 a 5 anteriores. La mayoría de los demás adaptadores integrados completan el paso 3 usando un componente conocido como Gestor extremo, que es intrínsecamente multiproceso y, por tanto, no mantiene el orden. El adaptador de MSMQ de BizTalk Server 2004 utiliza una característica de "Procesamiento en serie" que conserva el orden en el paso 3, pero no pide, a continuación, el agente de mensajes para conservar el orden en el futuro, por lo que los mensajes se pueden enrutar a una orquestación o puerto de envío fuera de servicio.  
   
  **Entrega ordenada con el adaptador de MSMQ end-to-end**  
   
  Para lograr la entrega ordenada con el adaptador de MSMQ end-to-end, siga estos pasos:  
   
-1.  Habilitar la **entrega ordenada** puerto para la orquestación de suscripción de propiedad en la recepción o puerto de envío. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] puertos de recepción en orquestaciones y puertos de envío tienen un **entrega ordenada** opción de configuración. Si está habilitada esta opción, el puerto de recepción de la orquestación o el puerto de envío pide al cuadro de mensajes que le entregue los mensajes en el mismo orden en el que se enviaron al cuadro de mensajes.  
+1.  Habilitar la **entrega ordenada** puerto para la orquestación de suscripción de propiedad en la recepción o puerto de envío. En BizTalk Server, los puertos en orquestaciones de recepción y puertos de envío tienen un **entrega ordenada** opción de configuración. Si está habilitada esta opción, el puerto de recepción de la orquestación o el puerto de envío pide al cuadro de mensajes que le entregue los mensajes en el mismo orden en el que se enviaron al cuadro de mensajes.  
   
-2.  Establecer el **procesamiento ordenado** propiedad para la ubicación de recepción que está enlazada al adaptador de MSMQ a `True`. En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], las ubicaciones de recepción que usan el transporte MSMQ se pueden configurar para utilizar Procesamiento ordenado que, si está habilitado, garantiza el envío de los mensajes al cuadro de mensajes en el mismo orden en el que se reciben.  
+2.  Establecer el **procesamiento ordenado** propiedad para la ubicación de recepción que está enlazada al adaptador de MSMQ a `True`. En BizTalk Server, que el transporte de MSMQ se pueden configurar para utilizar procesamiento ordenado que, si está habilitada, garantiza que los mensajes se envíen al cuadro de mensajes en el mismo orden que se reciben de ubicaciones de recepción.  
   
 3.  Establecer el **transaccional** propiedad para la ubicación de recepción que está enlazada al adaptador de MSMQ a `True`.  
   
@@ -98,7 +84,7 @@ Este tema comenta los aspectos que se deben considerar respecto a la entrega ord
  Para implementar la entrega ordenada con esta arquitectura, siga los pasos que se explican en la sección "End-to-end entrega ordenada con el adaptador de MSMQ."  
   
 ## <a name="high-availability-nontransactional-not-in-order"></a>Alta disponibilidad (no transaccional, sin orden)  
- Si necesita alta disponibilidad pero no necesita procesamiento transaccional, puede lograrlo con el adaptador de MSMQ, mediante la implementación de NLB y la ejecución de instancias de un host configurado con los controladores de envío y recepción de MSMQ en varios servidores BizTalk detrás de NLB. Al implementar NLB con MSMQ debe seguir los procedimientos recomendados como se documenta en el artículo 899611 de Microsoft Knowledge Base "cómo Message Queue Server puede funcionar a través de red (NLB) de equilibrio de carga" disponible en [http://go.microsoft.com/fwlink/? LinkId = 57510](http://go.microsoft.com/fwlink/?LinkId=57510). En este escenario, si uno de los servidores BizTalk deja de funcionar, los mensajes que se están ejecutando en la instancia de host de ese servidor BizTalk no estarán disponibles hasta que se recupere el servidor BizTalk. Esta configuración proporciona alta disponibilidad porque, si uno de los servidores de BizTalk no está disponible, NLB enruta las solicitudes al otro servidor BizTalk.  
+ Si necesita alta disponibilidad pero no necesita procesamiento transaccional, puede lograrlo con el adaptador de MSMQ, mediante la implementación de NLB y la ejecución de instancias de un host configurado con los controladores de envío y recepción de MSMQ en varios servidores BizTalk detrás de NLB. Al implementar NLB con MSMQ debe seguir los procedimientos recomendados como se documenta en el artículo de Microsoft Knowledge Base [899611: cómo Message Queue Server puede funcionar sobre el equilibrio de carga en la red (NLB)](https://support.microsoft.com/help/899611/how-message-queuing-can-function-over-network-load-balancing-nlb). En este escenario, si uno de los servidores BizTalk deja de funcionar, los mensajes que se están ejecutando en la instancia de host de ese servidor BizTalk no estarán disponibles hasta que se recupere el servidor BizTalk. Esta configuración proporciona alta disponibilidad porque, si uno de los servidores de BizTalk no está disponible, NLB enruta las solicitudes al otro servidor BizTalk.  
   
 ## <a name="scalability-nontransactional-not-in-order"></a>Escalabilidad (no transaccional, sin orden)  
  Para obtener escalabilidad, siga las instrucciones para lograr alta disponibilidad (no transaccional) y agregue instancias de host adicionales. Esta arquitectura proporciona entrega rápida y escalabilidad, pero no proporciona entrega ordenada.  
@@ -121,12 +107,12 @@ Este tema comenta los aspectos que se deben considerar respecto a la entrega ord
 ## <a name="summary"></a>Resumen  
  En la tabla siguiente, se resumen las arquitecturas que puede implementar para alojar funcionalidad específica.  
   
-|**Funcionalidad**|**Ni NLB ni clúster**|**NLB**|**Cluster**|**NLB y clúster**|  
+|**Funcionalidad**|**Ni NLB ni clúster**|**NLB**|**Clúster**|**NLB y clúster**|  
 |-----------------------|---------------------------------|-------------|-----------------|-------------------------|  
 |Entrega ordenada de un extremo a otro|Sí|No|Sí|Posible con configuración manual|  
-|Coherencia transaccional|No (los mensajes se pueden perder o duplicar si se producen errores en el servicio)|No|Sí|Sí|  
-|Alta disponibilidad|No|Sí|Sí|Sí|  
-|Escalable|No|Sí|No|Sí|  
+|Coherencia transaccional|No (los mensajes se pueden perder o duplicar si se producen errores en el servicio)|no|Sí|Sí|  
+|Alta disponibilidad|no|Sí|Sí|Sí|  
+|Escalable|no|Sí|No|Sí|  
   
 ## <a name="see-also"></a>Vea también  
  [Uso de clúster de Windows Server para proporcionar alta disponibilidad para el servidor BizTalk Server Hosts2](../core/use-windows-cluster-to-provide-high-availability-for-biztalk-hosts.md)

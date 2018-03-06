@@ -1,5 +1,5 @@
 ---
-title: API de BAM (ejemplo de BizTalk Server) | Documentos de Microsoft
+title: Ejemplo de la API de BAM | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- BAM, APIs
-- examples, BAM
-- BAM, examples
-- APIs, BAM
 ms.assetid: 32a925f2-c7f4-4111-9c59-8865f15c6a89
-caps.latest.revision: "20"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f65b98871f054d96caa278e48de19ad669157b1f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 7e181af5766231ed9a7d828b49e2d840a47f216c
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="bam-api-biztalk-server-sample"></a>API de BAM (ejemplo de BizTalk Server)
 El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM en una aplicación para guardar información de claves que podrá supervisar.  
@@ -94,7 +89,7 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
   
  El **Global** clase define las constantes que se usan por la aplicación de ejemplo, como el número de subprocesos para crear y el porcentaje de los pedidos de compra para rechazar.  
   
- Además de la solución [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], el ejemplo también contiene un archivo Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] que define las actividades.  
+ Además de la solución de Visual Studio, el ejemplo también contiene un archivo de Microsoft Excel que define las actividades.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamApiSample.  
@@ -119,14 +114,11 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
 |Shipment_config.xml|Configuración del interceptor de envío.|  
 |Shipment_interceptor.bin|Interceptor de envío serializado.|  
   
-## <a name="how-to-use-this-sample"></a>Uso del ejemplo  
- Use el procedimiento siguiente para ejecutar la API de BAM de ejemplo y ver los resultados.  
+## <a name="run-the-bam-api-sample"></a>Ejecutar el ejemplo de API de BAM  
   
-#### <a name="to-run-the-bam-api-sample"></a>Procedimiento para ejecutar el ejemplo de API de BAM  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\ BamApiSample\setup.bat.  
   
-1.  Abra un símbolo del sistema y ejecute  *\<ruta de ejemplos\>*\BAM\ BamApiSample\setup.bat. Si usa [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], abra el símbolo del sistema como administrador.  
-  
-2.  Iniciar [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]y abra el  *\<ruta de ejemplos\>*solución \bam\. Si está usando [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], inicie [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] como administrador.  
+2.  Inicie Visual Studio como administrador y abra la  *\<ruta de ejemplos\>*solución \bam\. 
   
     > [!IMPORTANT]
     >  La línea `//#define Interceptor` del archivo BamApiSample.cs debe marcarse como comentario. No quite el signo “//” desde esta línea. El ejemplo de API de BAM usa solo el código que no se encuentra dentro de una directiva de preprocesador `#if Interceptor`.  
@@ -157,7 +149,7 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
   
 5.  Al cabo de un minuto aproximadamente, presione CTRL+C o cierre la ventana del símbolo del sistema para detener el programa BamApiSample.  
   
-#### <a name="to-view-the-results-of-running-the-bam-api-sample"></a>Procedimiento para ver los resultados de ejecutar el ejemplo de API de BAM  
+## <a name="view-the-results"></a>Ver los resultados
   
 1.  Abra SQL Server Management Studio.  
   

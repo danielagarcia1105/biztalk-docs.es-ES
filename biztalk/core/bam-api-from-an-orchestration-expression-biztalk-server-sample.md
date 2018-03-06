@@ -1,5 +1,5 @@
 ---
-title: "API de BAM en una expresión de orquestación (ejemplo de BizTalk Server) | Documentos de Microsoft"
+title: "API de BAM en el ejemplo de expresión de orquestación | Documentos de Microsoft"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,26 +7,21 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- orchestrations, examples
-- examples, BAM
-- examples, orchestrations
-- BAM, examples
 ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
-caps.latest.revision: "23"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3f78297b57dc2c9bc61d5996c49f7543ac64163
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 5413940eaba97e6f68d5e068e26625f320e6e817
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="bam-api-from-an-orchestration-expression-biztalk-server-sample"></a>API de BAM desde una expresión de orquestación (ejemplo de BizTalk Server)
 En este ejemplo se demuestra cómo realizar lo siguiente:  
   
--   Usar la API de BAM en una expresión de orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+-   Usar la API de BAM en una expresión de orquestación de BizTalk Server.  
   
 -   Realizar el seguimiento de elementos repetitivos en un mensaje como instancias de actividad individuales.  
   
@@ -41,8 +36,8 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
 |----------|-----------------|  
 |BamDefinition.xls|Hoja de estilo de definición de BAM.|  
 |BamDefinition.xml|Definición de BAM.|  
-|BamFromExpression.btproj|Proyecto de archivo de seguimiento de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].|  
-|BamFromExpression.sln|Solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].|  
+|BamFromExpression.btproj|Seguimiento de archivo de proyecto de Visual Studio.|  
+|BamFromExpression.sln|Solución de Visual Studio.|  
 |Cleanup.bat|Archivo por lotes que se usa para anular la implementación del ejemplo.|  
 |InputMessage.xml|Mensaje de entrada.|  
 |Orchestration1.odx|Orquestación.|  
@@ -51,14 +46,11 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
 |Setup.bat|Archivo por lotes para compilar e implementar el ejemplo.|  
 |QueryBam.sql|Script de SQL.|  
   
-## <a name="how-to-use-this-sample"></a>Uso del ejemplo  
- Use los procedimientos siguientes para crear el perfil de seguimiento, ejecutar el ejemplo y ver los resultados.  
+## <a name="create-the-tracking-profile"></a>Crear el perfil de seguimiento  
   
-#### <a name="to-create-the-tracking-profile"></a>Para crear el perfil de seguimiento  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BAMFromExpression\Setup.bat. Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.  
   
-1.  Abra un símbolo del sistema y ejecute  *\<ruta de ejemplos\>*\BAM\BAMFromExpression\Setup.bat. Si usa [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], abra el símbolo del sistema como administrador. Setup.bat inicializa la infraestructura de BAM para este ejemplo e implementa la actividad de BAM.  
-  
-2.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **Editor de perfiles de seguimiento**. Si utilizas [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], haga clic en **Editor de perfiles de seguimiento** y, a continuación, haga clic en **ejecutar como administrador**.  
+2.  Desde el **programas** > **Microsoft BizTalk Server**, haga clic en **Editor de perfiles de seguimiento**, y **ejecutar como administrador**.
   
 3.  En el panel izquierdo de la **Editor de perfiles de seguimiento** ventana, haga clic en **haga clic aquí para seleccionar una definición de actividad de BAM**.  
   
@@ -76,7 +68,7 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
   
 10. Arrastre los elementos siguientes del panel derecho y suéltelos en los nodos con nombre del panel izquierdo:  
   
-    |De|Para|  
+    |De|A|  
     |----------|--------|  
     |Nombre|De|  
     |State|State|  
@@ -94,17 +86,17 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
   
 15. En el **herramientas** menú, haga clic en **aplicar perfil de seguimiento**.  
   
-#### <a name="to-build-and-initialize-this-sample"></a>Para generar e inicializar el ejemplo  
+## <a name="build-and-initialize-this-sample"></a>Crear e inicializar este ejemplo  
   
--   Implemente el perfil de seguimiento BamFromExpression.btt. Para obtener más información, consulte [cómo implementar perfiles de seguimiento con la utilidad de administración de perfiles de seguimiento](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
+Implemente el perfil de seguimiento BamFromExpression.btt. Vea [utilidad de administración de perfiles de cómo implementar perfiles de seguimiento con el seguimiento](../core/how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility.md).  
   
-#### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
+## <a name="run-this-sample"></a>Ejecutar este ejemplo  
   
--   Copie el archivo  *\<ruta de ejemplos\>*\BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>*\BamFromExpression\Input.  
+Copie el archivo  *\<ruta de ejemplos\>*\BamFromExpression\InputMessage.xml a  *\<ruta de ejemplos\>*\BamFromExpression\Input.  
   
-     En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>*\BamFromExpression\Output.  
+En unos 10 segundos, aparecerá el mensaje de salida en  *\<ruta de ejemplos\>*\BamFromExpression\Output.  
   
-#### <a name="to-view-the-bam-data"></a>Para ver los datos de BAM  
+## <a name="view-the-bam-data"></a>Ver los datos de BAM  
   
 1.  Abra SQL Server Management Studio.  
   
@@ -122,9 +114,9 @@ En este ejemplo se demuestra cómo realizar lo siguiente:
   
      El contenido de la tabla bam_FromExpressionPoItem_CompletedRelationships se muestra en el panel derecho. Cada fila de la tabla representa una relación entre una actividad FromExpressionPoItem y una actividad FromExpressionPo. El valor de la **ActivityID** columna hace referencia al identificador de la actividad FromExpressionPoItem. El valor de la **ReferenceData** columna hace referencia al identificador de la actividad FromExpressionPo. En este caso, ambos registros indican que los artículos MC Flash y descodificador de infrarrojos están asociados con el pedido de 345 USD.  
   
-#### <a name="to-re-run-the-sample"></a>Para volver a ejecutar el ejemplo  
+## <a name="re-run-the-sample"></a>Vuelva a ejecutar el ejemplo  
   
-1.  Abra un símbolo del sistema y ejecute  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM. Si usa [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], abra el símbolo del sistema como administrador.  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Cleanup.bat para quitar el perfil de seguimiento y otras infraestructuras BAM. 
   
 2.  Ejecutar  *\<ruta de ejemplos\>*\BAM\BamFromExpression\Setup.bat para compilar el ejemplo e implementarlo.  
   

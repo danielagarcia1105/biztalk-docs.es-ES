@@ -1,5 +1,5 @@
 ---
-title: Problemas conocidos en el Portal de BAM | Documentos de Microsoft
+title: Problemas conocidos con el Portal de BAM | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -8,23 +8,23 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: e681e910-c664-479c-86f3-a6ae0ec97775
-caps.latest.revision: "16"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0aa12d0f25a004f2e713f360e00c0f0c1192d304
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 61cbfa298590c62b359045b6c7372501d8ef397e
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="known-issues-in-the-bam-portal"></a>Problemas conocidos del portal de BAM
 Este tema contiene información que le ayudará a identificar y resolver los problemas que pueden surgir al usar el portal de BAM.  
   
-## <a name="errors-are-generated-when-the-bam-portal-and-internet-explorer-7-or-internet-explorer-8-are-on-the-same-computer-and-the-security-settings-are-set-to-low"></a>Se generan errores cuando el portal de BAM e Internet Explorer 7 o Internet Explorer 8 se encuentran en el mismo equipo y la configuración de seguridad se establece en Baja  
+## <a name="errors-occur-when-the-bam-portal-and-ie-are-on-the-same-computer-and-security-settings-are-low"></a>Se producen errores cuando el Portal de BAM e Internet Explorer están en el mismo equipo y la configuración de seguridad baja  
  **Problema**  
   
- Cuando se usa Internet Explorer 7 o Internet Explorer 7 o Internet Explorer 8 con [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] puede aparecer el mensaje de error **Error de servidor en ' / BAM' aplicación** debajo de los siguientes circunstancias:  
+ Al usar Internet Explorer, puede aparecer el mensaje de error **Error de servidor en ' / BAM' aplicación** en las siguientes circunstancias:  
   
 -   Al hacer clic en una actividad relacionada que remite a una instancia de actividad inexistente.  
   
@@ -38,9 +38,9 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
   
     -   Hacer clic en el **guardar alerta** nuevamente en el botón.  
   
- **Causa**  
+ **Cause**  
   
- Al ejecutar [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] o [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] e Internet Explorer 7 o Internet Explorer 8 con la configuración de seguridad en nivel bajo, las solicitudes web se ejecutan con pocos privilegios. Para afrontar el desafío de la seguridad integrada de Windows, Internet Explorer pasa un token de usuario con muy pocos privilegios.  
+ Cuando se ejecuta Internet Explorer con el nivel de seguridad establece bajo, las solicitudes Web se ejecutan con pocos privilegios. Para afrontar el desafío de la seguridad integrada de Windows, Internet Explorer pasa un token de usuario con muy pocos privilegios.  
   
  Si se está usando Internet Explorer en el mismo equipo en que está instalado el portal de BAM, y se establece el nivel de seguridad de Internet Explorer como bajo, el portal actúa como el usuario con el token de pocos privilegios. Dicho token no concede permisos de escritura en el registro de eventos. Cuando detecta un error, el portal intenta registrarlo en el registro de eventos; esto le hará generar un error, ya que los privilegios reducidos del token de usuario son insuficientes para tener acceso al registro de eventos.  
   
@@ -48,7 +48,7 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
   
  Si necesita explorar desde el equipo local, debe agregar http://localhost a la lista de sitios de confianza.  
   
-#### <a name="to-add-localhost-to-the-list-of-trusted-sites"></a>Para agregar localhost a la lista de sitios de confianza  
+#### <a name="add-localhost-to-the-list-of-trusted-sites"></a>Agregar host local a la lista de sitios de confianza  
   
 1.  En Internet Explorer, haga clic en **herramientas**y, a continuación, haga clic en **opciones de Internet**.  
   
@@ -62,20 +62,20 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
   
 6.  Haga clic en el **cerrar** botón y, a continuación, haga clic en **Aceptar**.  
   
-## <a name="bam-portal-aggregations-do-not-populate-existing-data-when-using-an-ip-address-as-a-url-in-internet-explorer-7"></a>Las agregaciones del portal de BAM no llenarán los datos existentes cuando se utilice una dirección IP como URL en Internet Explorer 7  
+## <a name="bam-portal-aggregations-do-not-populate-existing-data-when-using-an-ip-address-as-a-url-in-internet-explorer"></a>Las agregaciones del Portal de BAM no llenarán los datos existentes cuando se usa una dirección IP como una dirección URL en Internet Explorer
  **Problema**  
   
- Cuando se usa una dirección IP como una dirección URL con Internet Explorer 7 o Internet Explorer 8 y [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], o [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] para ver el portal de BAM, las agregaciones muestran el siguiente mensaje: "sin detalles. No se ha podido procesar la consulta."  
+ Cuando se usa una dirección IP como una dirección URL con Internet Explorer para ver el portal de BAM, las agregaciones muestran el siguiente mensaje: "sin detalles. No se ha podido procesar la consulta."  
   
- **Causa**  
+ **Cause**  
   
- La configuración de seguridad predeterminada de Internet Explorer 7 o Internet Explorer 8 no permite el acceso a los sitios que usan direcciones IPv4 e IPv6 como URL.  
+ La configuración de seguridad predeterminada en Internet Explorer puede impedir el acceso a sitios que utilizan direcciones IPv4 e IPv6 como direcciones URL.  
   
  **Resolución**  
   
  Agregue la dirección del sitio a la lista de sitios de confianza y habilite el acceso a los orígenes de datos entre dominios.  
   
-#### <a name="to-add-the-ip-address-to-the-trusted-sites-list"></a>Para agregar la dirección IP a la lista de sitios de confianza:  
+#### <a name="add-the-ip-address-to-the-trusted-sites-list"></a>Agregar la dirección IP a la lista de sitios de confianza  
   
 1.  En Internet Explorer, haga clic en **herramientas**y, a continuación, haga clic en **opciones de Internet**.  
   
@@ -87,7 +87,7 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
   
 5.  Haga clic en **Cerrar**y, a continuación, en **Aceptar**.  
   
-#### <a name="to-enable-access-to-data-sources-across-domains"></a>Para habilitar el acceso a orígenes de datos entre dominios:  
+#### <a name="enable-access-to-data-sources-across-domains"></a>Habilitar el acceso a orígenes de datos entre dominios  
   
 1.  En Internet Explorer, haga clic en **herramientas**y, a continuación, haga clic en **opciones de Internet**.  
   
@@ -106,7 +106,7 @@ Este tema contiene información que le ayudará a identificar y resolver los pro
 bm.exe get-config -FileName:config.xml  
 ```  
   
- **Causa**  
+ **Cause**  
   
  PowerShell no ha podido localizar la ruta de los archivos .exe y config.  
   
@@ -115,4 +115,4 @@ bm.exe get-config -FileName:config.xml
  Si usa bm.exe en PowerShell, especifique la ruta completa de los archivos .exe y config. Por ejemplo: `bm.exe get-config -FileName:config.xml` debe especificarse como `“%BizTalkPathTracking%”\bm.exe get-config -FileName:”%InstallDir%”\Tracking\config.xml`.  
   
 ## <a name="see-also"></a>Vea también  
- [Planeación del Portal de BAM](../core/planning-for-the-bam-portal.md)
+ [Planificar para el portal de BAM](../core/planning-for-the-bam-portal.md)

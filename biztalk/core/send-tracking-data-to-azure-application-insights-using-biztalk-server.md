@@ -9,15 +9,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: b3ff6cb9-44d0-46cd-9b4f-a346365afb7b
-caps.latest.revision: "10"
+caps.latest.revision: 
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7a6fe0c50527f51b599bca5f51c7b8ed8fb7313e
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: f5ddd60f72955c7196edfc8bf2310b73226d2abe
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="send-biztalk-tracking-data-to-azure-application-insights-or-event-hubs"></a>Enviar datos a Azure Application Insights o concentradores de eventos de seguimiento de BizTalk
 
@@ -33,7 +33,7 @@ Utilice estos servicios de Azure para realizar el seguimiento de las instancias 
 ## <a name="prerequisites"></a>Requisitos previos
 * Crear una nueva instancia de [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server utiliza el **clave de instrumentación** para autenticar.
 * Crear un [concentrador de espacio de nombres y eventos de los centros de eventos de Azure](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server utiliza la directiva de nivel del centro de eventos o SAS (nivel de espacio de nombres) para autenticar.
-* Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 
 ## <a name="enable-analytics-for-your-environment"></a>Habilitar el análisis de su entorno
 
@@ -85,7 +85,7 @@ Una vez que los datos se envían a Application Insights, puede usar las herramie
 4. Volver al recurso de Application Insights y seleccione **análisis**. En **uso**, seleccione **ejecutar**. Se ejecuta una consulta de ejemplo y los resultados se muestran en un gráfico.  
 
 > [!TIP]
-> Azure Application Insights es una herramienta eficaz. No hay recursos para ayudarle a escribir consultas en Application Insights en [funciones analíticas en Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics)e incluso para empezar a trabajar en [¿qué es Application Insights?](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview).
+> Azure Application Insights es una herramienta eficaz. No hay recursos para ayudarle a escribir consultas en Application Insights en [funciones analíticas en Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics)e incluso para empezar a trabajar en [¿qué es Application Insights?](https://docs.microsoft.com/azure/application-insights/app-insights-overview).
 
 #### <a name="use-event-hubs"></a>Usar centros de eventos
 Una vez que los datos se envían a los centros de eventos, hay un par de maneras para ver los datos. Muchos usuarios de los centros de eventos están usando la captura de los centros de eventos para cargar datos de transmisión por secuencias en Azure. La intención es que centrarse en el procesamiento de datos, en lugar de captura de datos. [Captura de los centros de eventos](https://docs.microsoft.com/azure/event-hubs/event-hubs-capture-overview) explica cómo funciona y cómo se configura.

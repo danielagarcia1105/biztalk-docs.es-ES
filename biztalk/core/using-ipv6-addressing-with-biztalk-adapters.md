@@ -8,18 +8,18 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 93cd2ead-5e87-47ac-8f78-d56b80afd34e
-caps.latest.revision: "9"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 446125cbe164cfebfe7635975c5fd1825a026081
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e5726d5b05c548fd728228fcad39e56ce535fbb5
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="using-ipv6-addressing-with-biztalk-adapters"></a>Usar el direccionamiento de IPv6 de los adaptadores de BizTalk
-Los adaptadores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admiten el uso del direccionamiento de IPv6 cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en los sistemas operativos [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]. Este tema describe la nomenclatura que debe utilizarse para especificar una dirección IPv6 para una ruta UNC, la nomenclatura para especificar una dirección IPv6 literal y el uso de identificadores de ámbito IPv6 con los adaptadores de HTTP y SOAP.  
+Adaptadores de BizTalk Server admiten el uso del direccionamiento IPv6. Este tema describe la nomenclatura que debe utilizarse para especificar una dirección IPv6 para una ruta UNC, la nomenclatura para especificar una dirección IPv6 literal y el uso de identificadores de ámbito IPv6 con los adaptadores de HTTP y SOAP.  
   
 ## <a name="ipv6-address-nomenclature-used-for-a-unc-path"></a>Nomenclatura de dirección IPv6 utilizada para una ruta UNC  
  Siga estos pasos para especificar una dirección IPv6 literal en una ruta UNC:  
@@ -37,7 +37,7 @@ Los adaptadores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
  Donde \< *sharename* \> es el nombre del recurso compartido de archivos en el equipo de destino.  
   
 > [!NOTE]
->  Asegúrese de que las cuentas de usuario para las instancias de host que están ejecutando los controladores de envío y recepción de archivos tienen los permisos adecuados para el recurso compartido. Para obtener más información acerca de los permisos de carpeta necesarios para recibir archivos con el adaptador de archivo vea [cómo configurar un controlador de recepción de archivo](http://msdn.microsoft.com/library/68333bb6-d79b-4a82-9742-230f62d535c4). Para obtener más información acerca de los permisos de carpeta necesarios para enviar archivos con el adaptador de archivo vea [problemas conocidos relacionados con el adaptador de archivo](../core/known-issues-with-the-file-adapter.md). Para obtener información acerca de los sistemas de archivos que se admiten para su uso con el adaptador de archivo, consulte [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  
+>  Asegúrese de que las cuentas de usuario para las instancias de host que están ejecutando los controladores de envío y recepción de archivos tienen los permisos adecuados para el recurso compartido. Para obtener más información acerca de los permisos de carpeta necesarios para recibir archivos con el adaptador de archivo vea [configurar un controlador de recepción de archivo](../core/configure-the-file-adapter.md). Para obtener más información acerca de los permisos de carpeta necesarios para enviar archivos con el adaptador de archivo vea [problemas conocidos relacionados con el adaptador de archivo](../core/known-issues-with-the-file-adapter.md). Para obtener información acerca de los sistemas de archivos que se admiten para su uso con el adaptador de archivo, consulte [http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070).  
   
 ## <a name="using-ipv6-scope-identifiers-with-the-http-adapter-and-the-soap-send-adapter"></a>Usar identificadores de ámbito de IPv6 con el adaptador de HTTP y el adaptador de envío de SOAP  
  HTTP de envío y recepción de adaptador y el adaptador de envío SOAP requieren que si se utiliza un identificador de ámbito en una dirección IPv6, el identificador de ámbito debe ser caracteres de escape con el código de escape **% 25**. Por ejemplo, **fe80::550c:489f:e65e:aef3 %8** es una dirección IPv6 válida que contiene un identificador de ámbito (%8). Para utilizar esta dirección IPv6 con los adaptadores de envío y recepción de HTTP o el adaptador de envío de SOAP, el identificador de ámbito debe ir acompañado del carácter de escape del modo que se indica a continuación.  
@@ -63,14 +63,14 @@ fe80::550c:489f:e65e:aef3%258
  La tabla siguiente resumen cuando el uso de una dirección IPv6 literal requiere que la dirección IP vaya entre corchetes "[", "]" y cuando el identificador de ámbito que se utiliza en una dirección IPv6 debe ir acompañado de un carácter de escape:  
   
 |Adaptador|¿Necesita que la dirección IPv6 literal vaya entre corchetes?|¿Necesita que el identificador de ámbito vaya acompañado de un carácter de escape?|  
-|-------------|------------------------------------------------------------------------|------------------------------------------------|  
-|Recepción de POP3|No|No|  
-|Envío de SMTP|No|No|  
-|Envío y recepción de SQL|No|No|  
-|Envío y recepción de archivos|No (consulte la sección **nomenclatura de dirección IPv6 utiliza para una ruta de acceso UNC**)|No|  
+|---|---|---|  
+|Recepción de POP3|no|no|  
+|Envío de SMTP|no|no|  
+|Envío y recepción de SQL|no|no|  
+|Envío y recepción de archivos|No (consulte la sección **nomenclatura de dirección IPv6 utiliza para una ruta de acceso UNC**)|no|  
 |Envío y recepción de HTTP|Sí|Sí|  
-|Envío y recepción de MQSeries|Sí|No|  
-|Envío y recepción de MSMQ|Sí|No|  
+|Envío y recepción de MQSeries|Sí|no|  
+|Envío y recepción de MSMQ|Sí|no|  
 |Envío de SOAP|Sí|Sí|  
-|Recepción de SOAP|Sí|No|  
-|Envío y recepción de WCF|Sí|No|
+|Recepción de SOAP|Sí|no|  
+|Envío y recepción de WCF|Sí|no|

@@ -1,5 +1,5 @@
 ---
-title: Con el adaptador de MQSeries | Documentos de Microsoft
+title: Usar el adaptador de MQSeries | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,34 +7,31 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- MQSeries Server
-- MQSeries adapters, MQSeries Server
 ms.assetid: 1e70399a-a582-4808-915f-8b7da62300aa
-caps.latest.revision: "10"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df331c5a72ece65d85d5c3ad086105700b81863d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a7e774a951ad13f4c0c6b9050cfc03358114fb6f
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="using-the-mqseries-adapter"></a>Uso del adaptador de MQSeries
-Las organizaciones que requieren integración con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y que usan MQSeries Server como el sistema principal de mensajería utilizan el adaptador de MQSeries.  
+
+## <a name="overvew"></a>Información general acerca de
+El adaptador de MQSeries actúa las organizaciones que requieren integración con BizTalk Server y MQSeries Server como el sistema de mensajería principal.  
   
  Un administrador de red implementa el adaptador y lleva a cabo su configuración. Un programador de software puede ampliar la funcionalidad creando componentes de adaptador.  
   
 > [!NOTE]
->  Se puede utilizar el adaptador de MQSeries con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configurado para varios equipos.  
+>  Puede usar el adaptador con BizTalk Server configurado de MQSeries para varios equipos.  
   
-## <a name="in-this-section"></a>En esta sección  
+## <a name="next-steps"></a>Pasos siguientes
   
 -   [Opciones de implementación del adaptador de MQSeries](../core/mqseries-adapter-deployment-options.md)  
   
 -   [Flujo de mensajes del adaptador de MQSeries](../core/mqseries-adapter-message-flow.md)  
-  
--   [Utilizar el adaptador de MQSeries con una versión anterior del adaptador](../core/using-mqseries-adapter-with-an-earlier-version-of-the-adapter.md)  
   
 -   [Alta disponibilidad del adaptador de MQSeries](../core/mqseries-adapter-high-availability.md)

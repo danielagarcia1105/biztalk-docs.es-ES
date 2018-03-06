@@ -7,34 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- certificates, HTTP adapters
-- HTTP adapters, client certificates
-- HTTP adapters, POST requests
-- HTTP adapters, GET requests
-- HTTP adapters, batching
-- HTTP adapters, suspending failed requests
-- HTTP adapters, chunked encoding
-- messages, batching
-- HTTP GET requests, about HTTP GET requests
-- HTTP GET requests, process flow
-- batching, messages
-- HTTP adapters, process flow
-- HTTP POST requests
-- HTTP adapters, status codes
-- chuncked encoding, receive adapters
-- HTTP GET requests
-- batching, HTTP adapters
 ms.assetid: 9008833c-5a02-4fb4-a43e-09ca28a21eff
-caps.latest.revision: "21"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9ed0c24184d35a836435db3a09202551b7b50ddd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f2f309a129c66d11d019b28b8ffc2b51d68e93d
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="http-receive-adapter"></a>Adaptador de recepción HTTP
 La ubicación de recepción del adaptador de recepción HTTP es una dirección URL distinta configurada a través de la consola de administración de BizTalk Server.  
@@ -110,11 +92,11 @@ La ubicación de recepción del adaptador de recepción HTTP es una dirección U
  El adaptador de recepción HTTP envía mensajes al servidor en lotes. El tamaño del lote utilizado para enviar mensajes al servidor se puede configurar en el controlador de recepción del adaptador de HTTP.  
   
 ## <a name="http-receive-adapter-support-for-suspending-failed-requests"></a>Capacidad del adaptador de recepción HTTP para suspender solicitudes con errores  
- El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de recepción HTTP tiene un valor de configuración, **suspender solicitudes con errores**, para controlar lo que ocurre con una solicitud HTTP si se produce un error de procesamiento entrante debido a un error de canalización de recepción, un error de asignación, o un Error de enrutamiento. Esta opción de configuración tiene dos valores posibles:  
+ El adaptador de recepción HTTP de BizTalk Server tiene un valor de configuración, **suspender solicitudes con errores**, para controlar lo que ocurre con una solicitud HTTP si se produce un error de procesamiento entrante debido a un error de canalización de recepción, un error de asignación, o un Error de enrutamiento. Esta opción de configuración tiene dos valores posibles:  
   
--   **False.** Esta es la configuración predeterminada. El adaptador de recepción HTTP descarta los mensajes que dan error en el procesamiento de entrada debido a un error de canalización de recepción, un error de asignación o un error de enrutamiento. Además, se envía un código de estado de error 401 o 500 al cliente. Éste es el mismo comportamiento que tenía el adaptador de recepción HTTP en [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)].  
+-   **False.** Esta es la configuración predeterminada. El adaptador de recepción HTTP descarta los mensajes que dan error en el procesamiento de entrada debido a un error de canalización de recepción, un error de asignación o un error de enrutamiento. Además, se envía un código de estado de error 401 o 500 al cliente. 
   
--   **Es true.** El adaptador de recepción HTTP suspende los mensajes que dan error en el procesamiento de entrada debido a un error de canalización de recepción, un error de asignación o un error de enrutamiento. Para unidireccional puertos de recepción un **aceptado** código de estado 202 se envía al cliente. Para bidireccional puertos de recepción un **Error** código de estado 500 se envía al cliente.  
+-   **True.** El adaptador de recepción HTTP suspende los mensajes que dan error en el procesamiento de entrada debido a un error de canalización de recepción, un error de asignación o un error de enrutamiento. Para unidireccional puertos de recepción un **aceptado** código de estado 202 se envía al cliente. Para bidireccional puertos de recepción un **Error** código de estado 500 se envía al cliente.  
   
 ## <a name="chunked-encoding-support-for-the-http-receive-adapter"></a>Compatibilidad del adaptador de recepción HTTP con la codificación fragmentada  
  El adaptador de recepción HTTP acepta solicitudes HTTP con mensajes que tienen el cuerpo con codificación fragmentada. El adaptador de recepción utiliza la codificación fragmentada para enviar mensajes de respuesta cuando el tamaño del cuerpo es superior a 4 KB. La codificación fragmentada puede desactivarse estableciendo la clave del Registro DWORD se describe en [parámetros de ajuste y configuración del adaptador de HTTP](../core/http-adapter-configuration-and-tuning-parameters.md)  
@@ -130,7 +112,7 @@ SourcePartyEvidence = <certificate thumbprint>
 ## <a name="status-codes-returned-by-the-http-receive-adapter"></a>Códigos de estado devueltos por el adaptador de recepción HTTP  
  La lista siguiente contiene los códigos de estado devueltos por el adaptador de recepción HTTP.  
   
--   **200 ACEPTAR.** El adaptador procesó correctamente el mensaje de solicitud y generó una respuesta. El adaptador devuelve este código de estado en la respuesta HTTP del puerto de solicitud-respuesta HTTP.  
+-   **200 OK.** El adaptador procesó correctamente el mensaje de solicitud y generó una respuesta. El adaptador devuelve este código de estado en la respuesta HTTP del puerto de solicitud-respuesta HTTP.  
   
 -   **Mensaje 202 aceptado.** El adaptador envió correctamente el mensaje al servidor o una solicitud unidireccional está suspendida. El adaptador devuelve este código de estado en la respuesta HTTP del puerto de recepción HTTP unidireccional.  
   

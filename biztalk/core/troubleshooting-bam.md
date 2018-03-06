@@ -1,5 +1,5 @@
 ---
-title: "Solución de problemas de BAM | Documentos de Microsoft"
+title: Solucionar problemas de BAM | Documentos de Microsoft
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -8,15 +8,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
-caps.latest.revision: "18"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92f13d938b0e0523ce6e20d6021bbca24595782f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 12cd08ae9bee686946c8db14039504411506035f
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="troubleshooting-bam"></a>Solución de problemas de BAM
 En este tema se proporciona información que le ayudará a solucionar problemas que se pueden encontrar al usar la Supervisión de la actividad económica (BAM).  
@@ -35,7 +35,7 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
   
  Esto se produce porque no se agregó en Excel el complemento de BAM.  
   
-#### <a name="to-add-the-bam-add-in-to-excel"></a>Para agregar el complemento de BAM en Excel  
+#### <a name="add-the-bam-add-in-to-excel"></a>Agregar el complemento de BAM para Excel  
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft Office**y, a continuación, haga clic en **Microsoft Office Excel**.  
   
@@ -59,9 +59,9 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
 -   C:\Documents and Settings\\< nombre de usuario\>\AppData\Local\Temp\VBE  
   
 ## <a name="bam-portal-cannot-connect"></a>El portal de BAM no se puede establecer conexión  
- En [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] o [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)], debe ejecutar el portal de BAM como administrador.  
+Ejecutar el portal de BAM como administrador.  
   
-#### <a name="to-run-the-bam-portal-on-windows-server-2008-r2-or-windows-7"></a>Para ejecutar el portal BAM en Windows Server 2008 R2 o Windows 7  
+#### <a name="run-the-bam-portal"></a>Ejecutar el portal de BAM
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, haga clic en **Internet Explorer**y, a continuación, haga clic en **ejecutar como administrador**.  
   
@@ -82,9 +82,9 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
  No se admite la exportación de una definición de BAM al host local. Del mismo modo, no se admite la importación de una definición de BAM desde el host local.  
   
 ## <a name="alerts-do-not-work-after-upgrading-sql-server-editions"></a>Las alertas no funcionan después de actualizar las ediciones de SQL Server  
- Si ha actualizado una edición de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] a otra edición (por ejemplo, desde Standard Edition a Enterprise Edition), las alertas de BAM no se reiniciarán. Para corregir este problema, elimine las alertas de BAM y vuelva a crearlas, o bien actualice [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Service.  
+ Si ha actualizado una edición de SQL Server a otra edición (por ejemplo, desde Standard Edition a Enterprise Edition), las alertas de BAM no se reiniciará. Para solucionar este problema, elimine las alertas de BAM y volver a crearlos o actualizar el servicio de notificación de SQL Server.  
   
-#### <a name="to-upgrade-the-sql-server-notification-service"></a>Para actualizar SQL Server Notification Service  
+#### <a name="upgrade-the-sql-server-notification-service"></a>Actualizar el servicio de notificación de SQL Server  
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2005**y, a continuación, haga clic en **línea de comandos del servicio de notificación**.  
   
@@ -93,8 +93,9 @@ En este tema se proporciona información que le ayudará a solucionar problemas 
      `nscontrol.exe upgrade -name <instanceName>`  
   
 ## <a name="objectdisposedexception-exception"></a>Excepción ObjectDisposedException  
- Si la aplicación está usando el interceptor de WF 3.5 de BAM, puede recibir el siguiente mensaje de error: **System.ObjectDisposedException: no se puede obtener acceso a un objeto desechado**. Para obtener más información acerca de este mensaje de error, consulte [ObjectDisposedException Exception](http://go.microsoft.com/fwlink/?LinkID=195338) (http://go.microsoft.com/fwlink/?LinkID=195338).   
-Para resolver este problema, instale la revisión 960754, disponible en [http://go.microsoft.com/fwlink/?LinkID=195339](http://go.microsoft.com/fwlink/?LinkID=195339).  
+ Si la aplicación está usando el interceptor de WF 3.5 de BAM, puede recibir el siguiente mensaje de error: **System.ObjectDisposedException: no se puede obtener acceso a un objeto desechado**. Para obtener más información acerca de este mensaje de error, consulte [ObjectDisposedException Exception](https://support.microsoft.com/help/960754). 
+
+Para resolver este problema, instale el [revisión 960754](https://support.microsoft.com/help/960754). 
   
 ## <a name="workbook-has-lost-its-vba-project-activex-controls-and-other-programmability-related-features"></a>El libro de trabajo ha perdido su proyecto VBA, los controles ActiveX y otras características relacionadas con la programabilidad  
  Al intentar usar BAM.xla en Microsoft Excel, obtendrá el siguiente error:  
@@ -121,7 +122,7 @@ Failed to get data.  If available, errors returned from the provider are listed 
   
 4.  En el **conexión de área Local** página, seleccione **protocolo de Internet versión 4 (TCP/IPv4)**y haga clic en **propiedades**.  
   
-5.  Haga clic en **Avanzadas**. En el **configuración de adelanto de TCP/IP** página, haga clic en el **DNS** ficha.  
+5.  Haga clic en **Avanzado**. En el **configuración de adelanto de TCP/IP** página, haga clic en el **DNS** ficha.  
   
 6.  Seleccione **anexar estos sufijos DNS** y, a continuación, agregue los sufijos DNS necesarios.  
   

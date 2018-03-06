@@ -7,24 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- host groups, privileges
-- Windows groups, host groups
-- host groups, Windows groups
-- host groups, about host groups
-- host groups
 ms.assetid: 0d92478b-b3a2-4c5a-925e-5495ee481e82
-caps.latest.revision: "15"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 98e3798e42442e1a6533e4f286d194c8e2474be6
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 4b3132b4084ed0d153895e252c5c64419ce0ac72
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="host-groups"></a>Grupos de hosts
+
+## <a name="overview"></a>Información general
 El grupo de hosts es el grupo de Windows (denominado de forma predeterminada grupo de usuarios de la aplicación de BizTalk) que se utiliza para cuentas con acceso a los hosts de BizTalk de tipo En curso (procesos de host en el servidor BizTalk Server). Se recomienda que utilice un grupo de hosts para cada host de tipo En curso del entorno.  
   
  Sólo se puede asociar un host con un grupo de Windows (denominado un *grupo host*). El grupo de hosts debe disponer de un inicio de sesión de SQL Server y de privilegios en todas las bases de datos de BizTalk Server correspondientes. Cuando asocia un host con el grupo de hosts, le asigna al host los privilegios del grupo de hosts.  
@@ -39,12 +35,13 @@ El grupo de hosts es el grupo de Windows (denominado de forma predeterminada gru
   
 > [!NOTE]
 >  Si desea crear un grupo de hosts local, puede crear un grupo de Windows local y asignar un usuario de dominio como miembro del grupo. Si especifica un grupo de Windows local para el host, el miembro del grupo de Windows, sea un usuario local o de dominio, se puede utilizar como el usuario de inicio de sesión de instancia de host.  
-  
+
+## <a name="required-permissions"></a>Permisos necesarios  
  El grupo de hosts requiere los privilegios siguientes:  
   
 -   Debe ser un miembro del rol BTS_HOST_USERS de SQL Server en las bases de datos siguientes:  
   
-    -   Administración de BizTalk (conocida como la base de datos de configuración en [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)])  
+    -   Administración de BizTalk 
   
     -   Cuadro de mensajes  
   
@@ -59,7 +56,7 @@ El grupo de hosts es el grupo de Windows (denominado de forma predeterminada gru
 -   Debe ser miembro del rol BAM_EVENT_WRITER de SQL Server en la base de datos de importación principal de BAM.  
   
 > [!NOTE]
->  Si designa un host como host de seguimiento, la consola de administración de BizTalk Server quita automáticamente el grupo de hosts de BizTalk de los roles de SQL Server para la base de datos de seguimiento. Debe quitar manualmente el grupo de hosts de BizTalk de los roles del servidor SQL Server para la base de datos de administración de BizTalk y la base de datos de cuadro de mensajes. Para obtener información acerca de cómo designar un host como host de seguimiento, vea [cómo modificar propiedades de Host](../core/how-to-modify-host-properties.md).  
+>  Si designa un host como host de seguimiento, la consola de administración de BizTalk Server quita automáticamente el grupo de hosts de BizTalk de los roles de SQL Server para la base de datos de seguimiento. Debe quitar manualmente el grupo de hosts de BizTalk de los roles del servidor SQL Server para la base de datos de administración de BizTalk y la base de datos de cuadro de mensajes. Para obtener información acerca de cómo designar un host como host de seguimiento, vea [modificar propiedades de Host](../core/how-to-modify-host-properties.md).  
   
 ## <a name="see-also"></a>Vea también  
  [Entidades](../core/entities.md)

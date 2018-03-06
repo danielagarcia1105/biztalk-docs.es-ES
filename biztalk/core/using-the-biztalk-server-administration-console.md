@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- Administration Console [BizTalk Server], how to
-- Administration Console [BizTalk Server], about Administration Console
-- artifacts, list
-- groups, Hub
 ms.assetid: af00d9de-0f94-407b-b6f4-4da63a0867a0
-caps.latest.revision: "42"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de8b806c8a6f39608608a3eabc975cf606410abc
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 52cc7b687dc081b84dbdd8079c314468580ad4b6
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="using-the-biztalk-server-administration-console"></a>Utilizar la consola de administración de BizTalk Server
 La consola de administración de BizTalk Server es un caso de Microsoft Management Console (MMC) que puede utilizar para administrar y supervisar BizTalk Server, y que puede usar para implementar y administrar las aplicaciones de BizTalk Server.  
@@ -55,7 +50,7 @@ La consola de administración de BizTalk Server es un caso de Microsoft Manageme
   
 -   **Directivas**. Las directivas son colecciones de reglas de negocios y tienen asignada una versión. Para obtener más información, consulte [administrar directivas](../core/managing-policies.md).  
   
--   **Esquemas**. Un esquema es una estructura de un mensaje. Un esquema puede contener varios subesquemas. Para obtener más información, consulte [administrar esquemas](../core/managing-schemas.md).  
+-   **Schemas**. Un esquema es una estructura de un mensaje. Un esquema puede contener varios subesquemas. Para obtener más información, consulte [administrar esquemas](../core/managing-schemas.md).  
   
 -   **Mapas de**. Una asignación es un archivo XML que define la correspondencia entre los registros y campos en una especificación y los registros y los campos en otra. Una asignación contiene una hoja de estilo del lenguaje de hojas de estilo extensible (XSL) que utiliza BizTalk Server para ejecutar la transformación descrita en la asignación. Para obtener más información, consulte [administrar mapas](../core/managing-maps.md).  
   
@@ -121,10 +116,8 @@ A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], puede guardar var
 3. Seleccione **Ejecutar consulta**. En los resultados de consulta, utilice las teclas CTRL o MAYÚS para seleccionar varias instancias suspendidas al mismo tiempo. Haga clic en y seleccione **seguro al archivo**. 
 4. Elija la carpeta para guardar los archivos. Al guardar, se crea un archivo XML para cada mensaje.
 
-## <a name="in-this-section"></a>En esta sección  
+## <a name="next-steps"></a>Pasos siguientes
   
--   [Cómo abrir la consola de administración de BizTalk Server](../core/how-to-open-the-biztalk-server-administration-console.md)  
+-   [Abrir la consola de administración de BizTalk Server](../core/how-to-open-the-biztalk-server-administration-console.md)  
   
--   [Configurar el seguimiento mediante la consola de administración de BizTalk Server](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
-  
--   [Uso de la página Concentrador de grupo](../core/using-the-group-hub-page.md)
+-   [Mediante la página concentrador de grupo](../core/using-the-group-hub-page.md)

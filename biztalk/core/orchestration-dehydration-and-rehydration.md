@@ -8,15 +8,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 57d7c0bf-a707-4ebd-afab-e75dd80c3c34
-caps.latest.revision: "9"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23ec36d960173c9ce912bb89a38b1df9590f84e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f7cee568cda6c869ede94e28bce441462c0c7cdc
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="orchestration-dehydration-and-rehydration"></a>Deshidratación y rehidratación de orquestaciones
 Cuando se ejecutan a la vez muchos procesos empresariales de larga duración, la memoria y el rendimiento se convierten en problemas potenciales. El motor de la orquestación aborda estos problemas mediante la "deshidratación" y la "rehidratación" de las instancias de orquestación.  
@@ -41,9 +41,7 @@ Cuando se ejecutan a la vez muchos procesos empresariales de larga duración, la
   
  Una orquestación se puede configurar para que se ejecute en más de un servidor. Después de que una instancia de orquestación se haya deshidratado, puede rehidratarse en cualquiera de estos servidores. Si un servidor deja de funcionar, el motor continúa ejecutando la orquestación en un servidor diferente desde su estado anterior. El motor también aprovecha esta característica para implementar el equilibrio de carga entre los servidores.  
   
-## <a name="in-this-section"></a>En esta sección  
-  
--   [Cambios en la directiva de deshidratación de BizTalk Server 2004](../core/changes-in-dehydration-policy-from-biztalk-server-2004.md)  
+## <a name="next-steps"></a>Pasos siguientes
   
 -   [Propiedades predeterminadas de deshidratación](../core/dehydration-default-properties.md)  
   
@@ -53,6 +51,6 @@ Cuando se ejecutan a la vez muchos procesos empresariales de larga duración, la
   
 -   [Contadores de rendimiento de deshidratación de orquestaciones](../core/orchestration-dehydration-performance-counters.md)  
   
--   [Archivo BTSNTSvc.exe.config](../core/btsntsvc-exe-config-file.md)  
+-   [BTSNTSvc.exe.config (archivo)](../core/btsntsvc-exe-config-file.md)  
   
 -   [Otras actividades que pueden afectar al comportamiento de deshidratación](../core/other-activities-that-can-affect-dehydration-behavior.md)

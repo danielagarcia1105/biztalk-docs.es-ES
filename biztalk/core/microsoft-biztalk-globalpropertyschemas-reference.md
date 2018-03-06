@@ -8,17 +8,17 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 2acf3083-a0a9-483f-88bf-8023d9933e1e
-caps.latest.revision: "12"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c1300dbcdb0bcc1534bbc0de2ab693ae49793867
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: db71f6bbf80b924262a473e7ecdef28d914ae3ef
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
-# <a name="microsoftbiztalkglobalpropertyschemas-reference"></a>Referencia de Microsoft.BizTalk.GlobalPropertySchemas
+# <a name="microsoftbiztalkglobalpropertyschemas-reference"></a>Microsoft.BizTalk.GlobalPropertySchemas Reference
 El **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres contiene esquemas de propiedad para las propiedades que usan varios componentes de BizTalk Server. Este espacio de nombres contiene propiedades del sistema que utiliza el motor de BizTalk, propiedades específicas de transporte que cada transporte utiliza para controlar la configuración y propiedades para configurar componentes de canalización.  
 
 ## <a name="namespace-schemas"></a>Esquemas de Namespace  
@@ -32,7 +32,6 @@ El **Microsoft.BizTalk.GlobalPropertySchemas** espacio de nombres contiene esque
 |bts-system-properties.xsd|Esquema de propiedad del sistema. El motor de BizTalk utiliza la mayoría de las propiedades de este esquema. Puede utilizar algunas propiedades para enrutamiento de mensajes. Para obtener más información sobre las propiedades que puede utilizar para enrutar los mensajes, consulte **propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].|  
 |bts-endpoint-properties.xsd|Esquema de propiedad interno.|  
 |bts-mime-properties.xsd<br /><br /> bts-xmlnorm-properties.xsd|Esquemas de propiedad para componentes de canalización: componentes de canalización de MIME, XML, archivos planos y ensamblador de BizTalk Framework y desensamblador.|  
-|bts-legacy-properties.xsd|BizTalk utiliza este esquema para actualizar [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] aplicaciones de BizTalk Server.|  
 |bts-messagetracking-properties.xsd|Motor de seguimiento utiliza este esquema.|  
 |bts-file-properties.xsd<br /><br /> bts-ftp-properties.xsd<br /><br /> bts-http-properties.xsd<br /><br /> bts-pop3-properties.xsd<br /><br /> bts-smtp-properties.xsd<br /><br /> soap-encoding_1__1.xsd<br /><br /> soap-envelope_1__1.xsd<br /><br /> bts-soap-properties.xsd<br /><br /> bts-WindowsSharePointServices-properties.xsd|Esquemas de propiedad específicos de transporte. Los transportes utilizan estos esquemas para trasladar información y configuraciones de transporte específicas. Para obtener más información sobre los transportes, consulte [usando adaptadores](../core/using-adapters.md).|  
 |XLANGsBizTalkProperties.xsd|El motor de orquestaciones utiliza este esquema.|  

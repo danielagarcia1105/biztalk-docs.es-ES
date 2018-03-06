@@ -7,33 +7,24 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- high availability, managing
-- service management functions (SMFs)
-- service continuity management
-- jobs, scheduling
-- MOF, high availability
-- change management
-- MOF, process model
-- high availability, MOF
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: "16"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8361875cf34f14118fb93818c78a6ca7d12a86f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 1a06bdadb026617dc55ed40d03e0344584111a0c
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>Alta disponibilidad y Microsoft Operations Framework
-La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de alta disponibilidad puede contribuir a garantizar que se están empleando los procesos adecuados en las distintas fases del ciclo de vida de un producto. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  
+Aplicar el modelo de proceso de Microsoft Operations Framework (MOF) al planeamiento y la implementación de una solución de alta disponibilidad Microsoft BizTalk Server puede ayudarle a asegurarse de que se están empleando los procesos adecuados en las distintas fases del ciclo de vida. La instalación, el mantenimiento y la solución de problemas de disponibilidad del entorno resultará más fácil si se anticipan todas las fases del ciclo de vida en las que aparece la alta disponibilidad.  
   
  Esta sección contiene información sobre los procesos de MOF en los que deben tenerse en cuenta las tareas de alta disponibilidad.  
   
 ## <a name="microsoft-operations-framework-process-model"></a>Modelo de proceso de Microsoft Operations Framework  
- Microsoft Operations Framework (MOF) ofrece directrices que permiten a las organizaciones obtener las características esenciales de confiabilidad, disponibilidad, compatibilidad y capacidad de administración de los productos y tecnologías de Microsoft. MOF proporciona instrucciones de funcionamiento en forma de notas del producto, guías de operaciones, herramientas de evaluación, prácticas recomendadas, casos de estudio, plantillas, herramientas de soporte y servicios. En estas instrucciones se tratan los problemas relacionados con usuarios, procesos, tecnología y administración de entornos de TI complejos, distribuidos y heterogéneos. Para obtener más información acerca de Microsoft Operations Framework, consulte [http://go.microsoft.com/fwlink/?LinkId=31988](http://go.microsoft.com/fwlink/?LinkId=31988).  
+ El [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx) proporciona una guía que permite a las organizaciones lograr la confiabilidad del sistema de misión crítica, disponibilidad, compatibilidad y facilidad de uso de tecnologías y productos de Microsoft . MOF proporciona instrucciones de funcionamiento en forma de notas del producto, guías de operaciones, herramientas de evaluación, prácticas recomendadas, casos de estudio, plantillas, herramientas de soporte y servicios. En estas instrucciones se tratan los problemas relacionados con usuarios, procesos, tecnología y administración de entornos de TI complejos, distribuidos y heterogéneos. 
   
  El modelo de proceso de MOF permite a las compañías:  
   
@@ -47,7 +38,7 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
   
  La ilustración siguiente muestra los procesos de MOF en los que debe tenerse en cuenta la alta disponibilidad.  
   
- ![Procesos de MOF](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
+ ![MOF Processes](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
   
 ## <a name="changing-quadrant"></a>Cuadrante de cambios  
  El cuadrante de cambios incluye las funciones de administración de servicios (SMF) necesarias para identificar, revisar, aprobar e incorporar cambios a un entorno de TI administrado. Entre ellos, los cambios de software, hardware, documentación, roles y responsabilidades, así como los cambios de procedimientos y procesos específicos.  
@@ -58,8 +49,6 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
  Durante el proceso de administración de cambios, como parte del diseño de la implementación de BizTalk Server, puede realizar las siguientes operaciones:  
   
 -   Determinar si el contrato de nivel de servicio con asociados o clientes requiere un determinado nivel de disponibilidad, tiempo de actividad y capacidad de procesamiento de carga.  
-  
--   Si está actualizando desde [!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)] o [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] a BizTalk Server, debe determinar si el hardware existente cumple los requisitos mínimos de hardware para el servidor BizTalk Server y los requisitos del acuerdo de nivel de servicio.  
   
 -   Averigüe cuál es la mejor configuración de clúster de las bases de datos de BizTalk Server para sus necesidades empresariales. Los procesos de tiempo de ejecución escriben información en las bases de datos de administración de BizTalk, cuadro de mensajes, servicios de análisis de seguimiento, análisis de BAM, esquema de estrella de BAM, importación principal de BAM y archivo de BAM. Por tanto, estas bases de datos son especialmente importantes si se produce un desastre y deben tener prioridad a la hora de determinar las bases de datos para agrupar en clúster. En el resto de las bases de datos, solo escriben información los usuarios y las herramientas. Para las bases de datos de cuadro de mensajes, considere la posibilidad de utilizar un clúster de cuatro servidores activo/activo/activo/pasivo para minimizar las necesidades de hardware.  
   
@@ -72,7 +61,7 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
 ### <a name="configuration-management"></a>Administración de la configuración  
  La administración de la configuración se encarga de identificar, controlar y realizar un seguimiento de todas las versiones del software, el hardware, la documentación, los procesos, los procedimientos y los demás componentes del entorno de TI que controla la administración de cambios.  
   
- Durante el proceso de administración de configuración, debe crear un plan detallado de cómo va a implementar la solución de alta disponibilidad para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Asimismo, debe documentar los pasos que ha seguido para crear la solución. En un nivel superior, estos pasos son:  
+ Durante el proceso de administración de configuración, debe crear un plan detallado de cómo va a implementar la solución de alta disponibilidad para el servidor BizTalk Server. Asimismo, debe documentar los pasos que ha seguido para crear la solución. En un nivel superior, estos pasos son:  
   
 -   El controlador de dominio crea las cuentas y los grupos de dominio que se van a usar en el entorno de BizTalk Server.  
   
@@ -82,7 +71,7 @@ La aplicación del modelo de proceso de Microsoft Operations Framework (MOF) al 
   
 -   El administrador de BizTalk Server configura el clúster del servidor secreto principal.  
   
--   El Administrador de BizTalk Server instala y configura [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el procesamiento, recibir y enviar los servidores.  
+-   El Administrador de BizTalk Server instala y configura el servidor BizTalk Server en el procesamiento, recibir y enviar los servidores.  
   
 -   El administrador de BizTalk Server crea los hosts e instala las instancias de host en los servidores correspondientes para proporcionar alta disponibilidad e incrementar la capacidad.  
   
