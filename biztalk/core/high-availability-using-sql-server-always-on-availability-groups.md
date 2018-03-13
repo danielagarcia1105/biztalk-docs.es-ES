@@ -8,15 +8,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 4511a578-77d2-49ee-99bd-f0406ad625d0
-caps.latest.revision: "10"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 52579934be36d4bb42fa4b299f54b66fd6af3894
-ms.sourcegitcommit: 654a9586d1232ac332a1675b8a4fae832a0d559a
+ms.openlocfilehash: d065013cb4975e6d37e2ab50211c5207852ece64
+ms.sourcegitcommit: 6fe505d37e81dc2da43f89548e8977b60a6f5dbd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn
 Configurar alta disponibilidad mediante el uso de grupos de disponibilidad AlwaysOn de SQL Server.
@@ -103,7 +103,9 @@ Los siguientes trabajos del Agente SQL Server están asociados a BizTalk Server.
     - Supervisar el servidor BizTalk Server (BizTalkMgmtDb) 
 - Trabajos de BizTalkMsgBoxDb: 
     - MessageBox_DeadProcesses_Cleanup_BizTalkMsgBoxDb 
-    - MessageBox_Message_Cleanup_BizTalkMsgBoxDb MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
+    - MessageBox_Message_Cleanup_BizTalkMsgBoxDb
+    - MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb
+    - MessageBox_Parts_Cleanup_BizTalkMsgBoxDb 
     - MessageBox_UpdateStats_BizTalkMsgBoxDb 
     - Operations_OperateOnInstances_OnMaster_BizTalkMsgBoxDb 
     - PurgeSubscriptionsJob_BizTalkMsgBoxDb 
@@ -157,9 +159,9 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
     1. Detenga todos los servicios de SSO empresarial y servicios de BizTalk en BizTalk Server. Detener servicio Agente SQL en SQL Server. 
     2. En BizTalk Server, edite SampleUpdateInfo.xml en la siguiente carpeta: 
  
-        equipo de 32 bits:`%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore`
+        equipo de 32 bits: `%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore`
  
-        equipo de 64 bits:`%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore`
+        equipo de 64 bits: `%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore`
  
             1. Replace "SourceServer" with the source server name (old SQL Server hosting old databases).  
             2. Replace "DestinationServer" with the name of the destination server, which should be the availability group listener name.  
@@ -167,9 +169,9 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
 
     3. Abra un símbolo del sistema y vaya a: 
  
-        equipo de 32 bits:`%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore` 
+        equipo de 32 bits: `%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore` 
  
-        equipo de 64 bits:`%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
+        equipo de 64 bits: `%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
  
         En el símbolo del sistema, ejecute:  
     `cscript UpdateDatabase.vbs SampleUpdateInfo.xml`  
@@ -178,15 +180,15 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
 
     4. Copie el archivo SampleUpdateInfo.xml editado en la carpeta siguiente en cada equipo de servidor BizTalk Server de este grupo de BizTalk: 
  
-        equipo de 32 bits:`%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore` 
+        equipo de 32 bits: `%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore` 
  
-        equipo de 64 bits:`%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
+        equipo de 64 bits: `%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
  
     5. En cada equipo en el grupo de BizTalk Server, abra un símbolo del sistema y vaya a: 
  
-        equipo de 32 bits:`%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore`
+        equipo de 32 bits: `%SystemRoot%\Program Files\Microsoft BizTalk Server 20xx\Schema\Restore`
  
-        equipo de 64 bits:`%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
+        equipo de 64 bits: `%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore` 
  
         En el símbolo del sistema, ejecute:  
     `cscript UpdateRegistry.vbs SampleUpdateInfo.xml` 
@@ -200,7 +202,7 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
 
 ## <a name="requirements"></a>Requisitos 
 * BizTalk Server 2016 Enterprise
-* Corporativo de SQL Server 2016
+* SQL Server 2016 Enterprise
 * Windows Server 2012 R2
 * Windows Server 2016 
 
