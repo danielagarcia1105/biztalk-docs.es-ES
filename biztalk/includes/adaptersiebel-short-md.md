@@ -1,1 +1,1 @@
-<span data-ttu-id="b1d85-101">Siebel adapter</span><span class="sxs-lookup"><span data-stu-id="b1d85-101">Siebel adapter</span></span>
+<span data-ttu-id="d553b-101">Siebel adapter</span><span class="sxs-lookup"><span data-stu-id="d553b-101">Siebel adapter</span></span>

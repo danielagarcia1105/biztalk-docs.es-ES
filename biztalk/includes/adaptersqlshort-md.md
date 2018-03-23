@@ -1,1 +1,1 @@
-<span data-ttu-id="93f7c-101">Adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="93f7c-101">SQL adapter</span></span>
+<span data-ttu-id="745dd-101">Adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="745dd-101">SQL adapter</span></span>

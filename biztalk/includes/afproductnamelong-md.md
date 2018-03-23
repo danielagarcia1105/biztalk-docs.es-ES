@@ -1,1 +1,1 @@
-<span data-ttu-id="0e943-101">Microsoft Windows Communication Foundation (WCF) Línea de negocio (LOB) Adapter SDK</span><span class="sxs-lookup"><span data-stu-id="0e943-101">Microsoft Windows Communication Foundation (WCF) Line of Business (LOB) Adapter SDK</span></span>
+<span data-ttu-id="3e3de-101">Microsoft Windows Communication Foundation (WCF) Línea de negocio (LOB) Adapter SDK</span><span class="sxs-lookup"><span data-stu-id="3e3de-101">Microsoft Windows Communication Foundation (WCF) Line of Business (LOB) Adapter SDK</span></span>
