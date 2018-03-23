@@ -1,22 +1,22 @@
 ---
 title: Propiedades y esquema de propiedades de archivos XML y plana | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: fb69a5375603d307c15a0bf884c924c0f6e6bb31
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a>Propiedades y esquema de propiedades de archivo sin formato y XML
 El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de nombres contiene propiedades que puede utilizar para configurar los componentes de canalización de ensamblador de archivo sin formato y desensamblador de archivo sin formato. Las propiedades se describen en la tabla siguiente.  
@@ -40,8 +40,8 @@ El **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** espacio de n
   
 ## <a name="see-also"></a>Vea también  
 -  [Configurar el componente de canalización de ensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-assembler-pipeline-component.md)   
--  [Configurar el componente de canalización de desensamblador de archivos sin formato](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
--  [Configurar el componente de canalización de ensamblador XML](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
--  [Configurar el componente de canalización de desensamblador XML](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
+-  [Configurar el componente de canalización de desensamblador de archivo sin formato](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)   
+-  [Configurar el componente de canalización de ensamblador de XML](../core/how-to-configure-the-xml-assembler-pipeline-component.md)   
+-  [Configurar el componente de canalización de desensamblador de XML](../core/how-to-configure-the-xml-disassembler-pipeline-component.md)   
 -  [Configurar componentes de canalización nativos](../core/configuring-native-pipeline-components.md)   
--  **Propiedades de contexto del mensaje**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

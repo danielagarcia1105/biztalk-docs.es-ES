@@ -1,22 +1,22 @@
 ---
 title: 'P+F del adaptador de WCF: Utilizar servicios de WCF | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: befa2268-8a65-465f-8086-70a66808845e
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 41d02fe0b7be1f53edaac4c18cfd7717a25c3a71
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>P+F del Adaptador de WCF: Utilizar Servicios de WCF
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>¿Cómo usa BizTalk Server sus adaptadores de WCF para obtener acceso a los servicios WCF?  
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  Seleccione el elemento de enlace que especificó en el archivo machine.config y configure el enlace según se necesario. Ahora está listo para usarse en la transmisión o recepción de mensajes.  
   
- BizTalk realiza una validación muy limitada de un enlace personalizado cuando se ha agregado de esta manera. Por lo tanto, es importante asegurarse de que los elementos de enlace se enumeran en el orden correcto. El elemento de enlace que desea invocar primero en tiempo de ejecución debe estar en al final del árbol de enlace CustomBindingElement del cuadro de diálogo. La lista de BindingElements debe contener un transporte y este último debe encontrarse al final de la lista. El conjunto de BindingElements también puede contener un codificador. Para obtener más información, consulte la documentación de WCF en elementos de enlace en [http://go.microsoft.com/fwlink/?LinkId=142449](http://go.microsoft.com/fwlink/?LinkId=142449).  
+ BizTalk realiza una validación muy limitada de un enlace personalizado cuando se ha agregado de esta manera. Por lo tanto, es importante asegurarse de que los elementos de enlace se enumeran en el orden correcto. El elemento de enlace que desea invocar primero en tiempo de ejecución debe estar en al final del árbol de enlace CustomBindingElement del cuadro de diálogo. La lista de BindingElements debe contener un transporte y este último debe encontrarse al final de la lista. El conjunto de BindingElements también puede contener un codificador. Para obtener más información, consulte la documentación de WCF en elementos de enlace en [ http://go.microsoft.com/fwlink/?LinkId=142449 ](http://go.microsoft.com/fwlink/?LinkId=142449).  
   
 ## <a name="what-is-a-wcf-custom-behavior-and-how-do-i-use-one-with-biztalk-server"></a>¿Qué es un comportamiento personalizado de WCF? y cómo se usa con BizTalk Server?  
  Una de las ventajas de usar WCF como mecanismo de comunicación de mensajes es la oportunidad de ampliar la funcionalidad de sus servicios mediante código personalizado. Las extensiones del comportamiento personalizado son una de las características que distinguen a WCF de otras tecnologías de servicios web del mercado.  

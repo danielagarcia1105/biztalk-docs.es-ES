@@ -1,11 +1,11 @@
 ---
-title: "Los contratos de cómo tratar con tipos erróneos en orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Los contratos de cómo tratar con tipos erróneos en orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - typed fault contracts [orchestrations]
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - orchestrations, typed fault contracts
 - orchestrations, WCF services
 ms.assetid: 5a1a7d22-b0ff-4d09-bebf-4995229784b0
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0a7643c4a39785018368572d721eed3ef6545c6b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-handle-typed-fault-contracts-in-orchestrations"></a>Cómo controlar los contratos con tipos erróneos en orquestaciones
 En este tema se explica cómo controlar los contratos con tipos erróneos al consumir servicios WCF desde las orquestaciones. Para controlar las excepciones de tipo erróneo en orquestaciones, los servicios WCF que va a consumir deben tener la **FaultContractAttribute** aplica a las operaciones de servicio; por lo tanto, los errores se pueden iniciar mediante el uso de  **FaultException**\<T\> donde T puede ser cualquier contrato de datos válido o un tipo serializable de los servicios WCF.  
@@ -32,7 +32,7 @@ En este tema se explica cómo controlar los contratos con tipos erróneos al con
   
 1.  En la Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, en el Explorador de soluciones, haga clic en el proyecto, haga clic en **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **\>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **consumir servicio WCF**y, a continuación, haga clic en **agregar**.  
+2.  En el **agregar elementos generados - \< ***nombre del proyecto*** \>**  cuadro de diálogo, en la **plantillas** sección, seleccione **consumir WCF Servicio**y, a continuación, haga clic en **agregar**.  
   
 3.  En el **éste es el Asistente para consumición de servicio de BizTalk WCF** página, haga clic en **siguiente**.  
   

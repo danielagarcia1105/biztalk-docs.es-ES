@@ -1,22 +1,22 @@
 ---
-title: "Cómo optimizar la vista de árbol de esquema | Documentos de Microsoft"
-ms.custom: 
+title: Cómo optimizar la vista de árbol de esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: aeeddd0893b80c1c7b37b2d0ee5f9f6cd68849d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-optimize-the-schema-tree-view"></a>Optimización de la vista del árbol de esquema
 Puede usar el **la vista de relevancia** en el asignador de BizTalk para optimizar el origen o árboles de esquema de destino. En este tema se proporcionan instrucciones sobre cómo realizar la operación.  

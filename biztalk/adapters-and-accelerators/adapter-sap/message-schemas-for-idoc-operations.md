@@ -1,23 +1,23 @@
 ---
 title: Esquemas de mensajes para las operaciones de IDOC en el el adaptador SAP en BizTalk | Documentos de Microsoft
-description: "Operaciones de mensajes, estructuras y las acciones para enviar y recibir IDOCs mediante el adaptador de mySAP - módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Operaciones de mensajes, estructuras y las acciones para enviar y recibir IDOCs mediante el adaptador de mySAP - módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 601aa9f9-e42f-47aa-b020-7a1eed4f0780
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 53da14ff55d427e3507273af4c991072cff26bec
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="message-schemas-for-idoc-operations"></a>Esquemas de mensaje para las operaciones de IDOC
 Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma asincrónica con SAP y los sistemas SAP no normalizados documentos de EDI similar. IDOC se usa para enviar y recibir documentos de negocio como pedidos de venta a o desde el sistema SAP un socio comercial o un programa externo.  
@@ -50,7 +50,7 @@ Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma 
   
 |RFC|Description|  
 |---------|-----------------|  
-|IDOC_INBOUND_ASYNCHRONOUS|Este módulo de función se utiliza desde la versión 4.0 y versiones posterior. Procesa IDOC en tipos de registros que son válidos para las versiones 4.x. Esto garantiza que se admiten nombres de segmento IDOC más largos.<br /><br /> Los parámetros para esta RFC incluyen:<br /><br /> -idoc_control_rec_40 (estructura SAP es EDI_DC40)<br /><br /> -idoc_data_rec_40 (estructura SAP es EDI_DD40)<br /><br /> El registro de control IDOC consta de los siguientes campos:<br /><br /> - **Mestyp**. El tipo de mensaje lógico. Transmite el significado de negocio del mensaje. Se trata de un campo obligatorio.<br /><br /> - **Idoctyp**. La estructura básica del IDOC. Este campo identifica el conjunto de diseño que usa este mensaje. Se trata de un campo obligatorio.<br /><br /> -                      **Cimtyp**. La estructura de extensión del cliente. Si se amplía una estructura básica de SAP, el cliente debe proporcionar un nombre a la estructura de la extensión. Este campo es obligatorio si un cliente ha realizado una mejora; en caso contrario inicial.<br /><br /> - **Campos de socios comerciales**. Éstas son lado de envío y reciban parámetros de socio comercial de lado como tipo de servidor asociado, número de socios comerciales, función de socio comercial.<br /><br /> El registro de datos IDOC consta de los siguientes campos:<br /><br /> - **Campos de encabezado**. Campos de encabezado como nombre de la tabla, el número de segmento, el tipo de segmento del segmento. Estos campos son obligatorios.<br /><br /> -                      **Sdata**. campo de carácter de 1000 bytes para los datos utilizados por el IDOC. Se trata de un campo obligatorio.|  
+|IDOC_INBOUND_ASYNCHRONOUS|Este módulo de función se utiliza desde la versión 4.0 y versiones posterior. Procesa IDOC en tipos de registros que son válidos para las versiones 4.x. Esto garantiza que se admiten nombres de segmento IDOC más largos.<br /><br /> Los parámetros para esta RFC incluyen:<br /><br /> -idoc_control_rec_40 (estructura SAP es EDI_DC40)<br /><br /> - idoc_data_rec_40 (SAP structure is EDI_DD40)<br /><br /> El registro de control IDOC consta de los siguientes campos:<br /><br /> - **Mestyp**. El tipo de mensaje lógico. Transmite el significado de negocio del mensaje. Se trata de un campo obligatorio.<br /><br /> - **Idoctyp**. La estructura básica del IDOC. Este campo identifica el conjunto de diseño que usa este mensaje. Se trata de un campo obligatorio.<br /><br /> -                      **Cimtyp**. La estructura de extensión del cliente. Si se amplía una estructura básica de SAP, el cliente debe proporcionar un nombre a la estructura de la extensión. Este campo es obligatorio si un cliente ha realizado una mejora; en caso contrario inicial.<br /><br /> - **Campos de socios comerciales**. Éstas son lado de envío y reciban parámetros de socio comercial de lado como tipo de servidor asociado, número de socios comerciales, función de socio comercial.<br /><br /> El registro de datos IDOC consta de los siguientes campos:<br /><br /> - **Campos de encabezado**. Campos de encabezado como nombre de la tabla, el número de segmento, el tipo de segmento del segmento. Estos campos son obligatorios.<br /><br /> -                      **Sdata**. campo de carácter de 1000 bytes para los datos utilizados por el IDOC. Se trata de un campo obligatorio.|  
 |INBOUND_IDOC_PROCESS|Este módulo de función se utiliza para las versiones hasta 4.0. Procesa IDOC en tipos de registros que son válidos para las versiones 3.x. También es posible usar este módulo de función en 4.x.<br /><br /> Los parámetros para esta RFC incluyen:<br /><br /> -idoc_control (estructura SAP es EDI_DC)<br /><br /> -idoc_data (estructura SAP es EDI_DD)|  
   
 ## <a name="operations-to-send-idocs"></a>Operaciones para enviar los IDOC  
@@ -93,10 +93,10 @@ Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma 
   
 |Operación|Acción|Ejemplo|  
 |---------------|------------|-------------|  
-|Send|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / envío|http://Microsoft.LobServices.SAP/2007/03/IDOC/3/ORDERS05//620/Send|  
-|Enviar respuesta|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / envío solicitud-respuesta|http://Microsoft.LobServices.SAP/2007/03/IDOC/3/ORDERS05//620/Send/Response|  
-|SendIdoc|[MESSAGE_VERSION] / Idoc/SendIdoc|http://Microsoft.LobServices.SAP/2007/03/IDOC/SendIdoc|  
-|Respuesta de SendIdoc|[MESSAGE_VERSION] / Idoc/SendIdoc/respuesta|http://Microsoft.LobServices.SAP/2007/03/IDOC/SendIdoc/Response|  
+|Send|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / envío|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send|  
+|Enviar respuesta|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / envío solicitud-respuesta|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send/response|  
+|SendIdoc|[MESSAGE_VERSION]/Idoc/SendIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc|  
+|Respuesta de SendIdoc|[MESSAGE_VERSION]/Idoc/SendIdoc/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc/response|  
   
  [MESSAGE_VERSION] = la cadena de versión de mensaje; Por ejemplo, http://Microsoft.LobServices.Sap/2007/03.  
   
@@ -183,8 +183,8 @@ Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma 
   
 |Operación|Acción|Ejemplo|  
 |---------------|------------|-------------|  
-|Receive|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / recibir|http://Microsoft.LobServices.SAP/2007/03/IDOC/3/ORDERS05//620/Receive|  
-|Recibir respuesta|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / recepción solicitud-respuesta|http://Microsoft.LobServices.SAP/2007/03/IDOC/3/ORDERS05//620/Receive/Response|  
-|ReceiveIdoc|[MESSAGE_VERSION] / Idoc/ReceiveIdoc|http://Microsoft.LobServices.SAP/2007/03/IDOC/ReceiveIdoc|  
-|Respuesta de ReceiveIdoc|[MESSAGE_VERSION] / Idoc/ReceiveIdoc/respuesta|http://Microsoft.LobServices.SAP/2007/03/IDOC/ReceiveIdoc/Response|  
+|Receive|[MESSAGE_VERSION] /Idoc/ [versión] / [IDOCTYP] / [CIMTYP] / [RELNO] / recibir|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive|  
+|Recibir respuesta|[MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive/response|  
+|ReceiveIdoc|[MESSAGE_VERSION]/Idoc/ReceiveIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc|  
+|Respuesta de ReceiveIdoc|[MESSAGE_VERSION]/Idoc/ReceiveIdoc/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc/response|  
   

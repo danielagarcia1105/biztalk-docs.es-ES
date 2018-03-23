@@ -1,22 +1,22 @@
 ---
 title: 'El comando AddResource: El ensamblado de BizTalk | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c18607b5-d929-48c9-9fa3-f728a7a80d04
-caps.latest.revision: "24"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 94cf353abb1e601a14c9e2f081fa2946f1e3ed24
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="addresource-command-biztalk-assembly"></a>El comando AddResource: El ensamblado de BizTalk
 Para agregar un ensamblado de BizTalk a una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:BizTalkAssembly** para el parámetro de tipo. Ejecutar este comando agrega el ensamblado a la base de datos de administración de BizTalk. El ensamblado también se muestra en la consola de administración de BizTalk Server, en la carpeta de recursos de la aplicación a la que se agregó. Los artefactos incluidos en el ensamblado también se muestran en las carpetas correspondientes. Además, los artefactos se muestran cuando se usa el [comando ListApp](../core/listapp-command.md).  
@@ -34,20 +34,20 @@ Para agregar un ensamblado de BizTalk a una aplicación de BizTalk, use la **Add
  Para obtener más información acerca de las dependencias, consulte [dependencias e implementación de aplicaciones](../core/dependencies-and-application-deployment.md).  
   
 ## <a name="usage"></a>Uso  
- **BTSTask AddResource** [**/ApplicationName:***valor*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***valor* [**/Destination:***valor*] [**/Options:GacOnAdd** *&#124;* **GacOnInstall***&#124;* **GacOnImport**] [**/Server:***valor*] [**/Database:***valor*]  
+ **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]  
   
 ## <a name="parameters"></a>Parámetros  
   
-|Parámetro|Necesario|Valor|  
+|Parámetro|Obligatorio|Value|  
 |---------------|--------------|-----------|  
-|**/ ApplicationName** (o **/A**, vea la sección Comentarios)|No|Nombre de la aplicación de BizTalk a la que se agrega el ensamblado. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles ("). Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk.|  
+|**/ ApplicationName** (o **/A**, vea la sección Comentarios)|no|Nombre de la aplicación de BizTalk a la que se agrega el ensamblado. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles ("). Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk.|  
 |**/ Escriba** (o **/T**, vea la sección Comentarios)|Sí|**System.BizTalk:BizTalkAssembly** (este valor no distingue entre mayúsculas y minúsculas).|  
-|**/ Sobrescribir** (o **/Ov**, vea la sección Comentarios)|No|Opción para actualizar un ensamblado existente. Si no se especifica y ya existe un ensamblado en la aplicación que tiene el mismo nombre completo que el ensamblado que se agrega, se produce un error en la operación AddResource. El nombre completo corresponde con el identificador local único (LUID) para el ensamblado. Puede ver los LUID para los artefactos de una aplicación mediante la [comando ListApp](../core/listapp-command.md). Sin embargo, si otra aplicación depende del ensamblado que se está sobrescribiendo, se producirá un error en la operación AddResource aunque se especifique este parámetro.|  
+|**/ Sobrescribir** (o **/Ov**, vea la sección Comentarios)|no|Opción para actualizar un ensamblado existente. Si no se especifica y ya existe un ensamblado en la aplicación que tiene el mismo nombre completo que el ensamblado que se agrega, se produce un error en la operación AddResource. El nombre completo corresponde con el identificador local único (LUID) para el ensamblado. Puede ver los LUID para los artefactos de una aplicación mediante la [comando ListApp](../core/listapp-command.md). Sin embargo, si otra aplicación depende del ensamblado que se está sobrescribiendo, se producirá un error en la operación AddResource aunque se especifique este parámetro.|  
 |**/ Origen** (o **/So**, vea la sección Comentarios)|Sí|Ruta de acceso completa al archivo de ensamblado, incluido el nombre de archivo. Si la ruta incluye espacios, la debe encerrar entre comillas dobles (").|  
-|**/ Destino** (o **/De**, vea la sección Comentarios)|No|Ruta completa de la ubicación en la que se va a copiar el archivo de ensamblado cuando se instale la aplicación desde el archivo .msi. Si no se proporciona, el archivo de ensamblado no se copia al sistema de archivos local durante instalación. Si la ruta incluye espacios, la debe encerrar entre comillas dobles ("). **Nota:** entorno variable % BTAD_InstallDir %, que se establece durante la instalación de BizTalk Server, se puede utilizar para especificar la carpeta de instalación de la aplicación. Esto creará una ubicación coherente para los archivos de la aplicación en equipos de destino diferentes. Ejemplo: "% BTAD_InstallDir%\MyFiles\Orchestrations.dll"|  
-|**/ Opciones de** (o **/Op**, vea la sección Comentarios)|No|-   **GacOnAdd**: especificar para instalar el ensamblado en la caché global de ensamblados (GAC) en el equipo local durante la operación AddResource.<br />-   **GacOnInstall**: Especifica que se instale el ensamblado a la GAC cuando se instala la aplicación desde el archivo MSI.<br />-   **GacOnImport**: Especifica que se instale el ensamblado a la GAC cuando se importa el archivo .msi de aplicación.<br /><br /> Debe separar varias opciones mediante una coma.|  
-|**/ Servidor** (o **/Se**, vea la sección Comentarios)|No|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
-|**/ Base de datos** (o **/Da**, vea la sección Comentarios)|No|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
+|**/ Destino** (o **/De**, vea la sección Comentarios)|no|Ruta completa de la ubicación en la que se va a copiar el archivo de ensamblado cuando se instale la aplicación desde el archivo .msi. Si no se proporciona, el archivo de ensamblado no se copia al sistema de archivos local durante instalación. Si la ruta incluye espacios, la debe encerrar entre comillas dobles ("). **Nota:** entorno variable % BTAD_InstallDir %, que se establece durante la instalación de BizTalk Server, se puede utilizar para especificar la carpeta de instalación de la aplicación. Esto creará una ubicación coherente para los archivos de la aplicación en equipos de destino diferentes. Ejemplo: "% BTAD_InstallDir%\MyFiles\Orchestrations.dll"|  
+|**/ Opciones de** (o **/Op**, vea la sección Comentarios)|no|-   **GacOnAdd**: especificar para instalar el ensamblado en la caché global de ensamblados (GAC) en el equipo local durante la operación AddResource.<br />-   **GacOnInstall**: Especifica que se instale el ensamblado a la GAC cuando se instala la aplicación desde el archivo MSI.<br />-   **GacOnImport**: Especifica que se instale el ensamblado a la GAC cuando se importa el archivo .msi de aplicación.<br /><br /> Debe separar varias opciones mediante una coma.|  
+|**/ Servidor** (o **/Se**, vea la sección Comentarios)|no|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
+|**/ Base de datos** (o **/Da**, vea la sección Comentarios)|no|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
   
 ## <a name="sample"></a>Ejemplo  
  **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:BizTalkAssembly / Overwrite**  

@@ -1,11 +1,11 @@
 ---
 title: Agregador (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - examples, pipelines
 - messages, correlating to orchestrations
 ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: "20"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 493f4d28214a815aca88f214e5efb9cd883e7192
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="aggregator-biztalk-server-sample"></a>Agregación (ejemplo de BizTalk Server)
 La finalidad de este ejemplo consiste en crear una funcionalidad de agregación de mensaje con orquestaciones y canalizaciones. De forma más específica, crearemos una orquestación que:  
@@ -49,7 +49,7 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
 |En la carpeta Aggregator:<br /><br /> Aggregate.odx|Orquestación que reúne los mensajes correlacionados y después ejecuta la canalización de envío para ensamblarlos en un intercambio único.|  
 |En la carpeta Aggregate:<br /><br /> SuspendMessage.odx|Orquestación usada para suspender mensajes que no se pueden procesar en la orquestación de agregación.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> FFReceivePipeline.btp|Canalización de recepción con desensamblador de archivos sin formato.|  
-|En la carpeta PipelinesAndSchemas:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Instancias de documento para el ejemplo. Instance1.txt e Instance2.txt deben agregarse a un intercambio de socio comercial de destino [http://www.contoso.com](http://www.contoso.com/) mientras que Instance3.txt e Instance4.txt deben agregarse a un intercambio de socio comercial de destino [ http://www.Northwind.com](http://www.northwind.com/).|  
+|En la carpeta PipelinesAndSchemas:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Instancias de documento para el ejemplo. Instance1.txt e Instance2.txt deben agregarse a un intercambio de socio comercial de destino [ http://www.contoso.com ](http://www.contoso.com/) mientras que Instance3.txt e Instance4.txt deben agregarse a un intercambio de socio comercial de destino [ http://www.northwind.com ](http://www.northwind.com/).|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> Invoice.xsd, InvoiceEnvelope.xsd|Esquema de documento y esquema de sobre para el intercambio de salida.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> PipelinesAndSchemas.btproj|Proyecto de BizTalk para los esquemas y las canalizaciones.|  
 |En la carpeta PipelinesAndSchemas:<br /><br /> PropertySchema.xsd|Esquema de propiedad del ejemplo.|  
@@ -91,9 +91,9 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
   
 1.  Abra los archivos Instance1.txt e Instance2.txt que se encuentran en la carpeta PipelinesAndSchemas para inspeccionar su contenido.  
   
-     Tenga en cuenta que en ambos archivos, el elemento DestinationPartnerURI contiene el valor http://www.contoso.com. Este valor se usará para correlacionar estos dos mensajes juntos de modo que se puedan agregar a un intercambio.  
+     Tenga en cuenta que en ambos archivos el elemento DestinationPartnerURI contiene el valor http://www.contoso.com. Este valor se usará para correlacionar estos dos mensajes juntos de modo que se puedan agregar a un intercambio.  
   
-     Del mismo modo, los archivos Instance3.txt e Instance4.txt tienen el elemento DestinationPatnerURI establecido en http://www.northwind.com.  
+     Del mismo modo en que los archivos Instance3.txt e Instance4.txt tienen elemento DestinationPatnerURI establecido en http://www.northwind.com.  
   
      Estos dos mensajes juntos se agregarán a un intercambio diferente.  
   

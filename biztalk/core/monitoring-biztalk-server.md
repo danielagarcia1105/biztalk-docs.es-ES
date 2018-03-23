@@ -1,23 +1,23 @@
 ---
 title: Supervisar el estado y el rendimiento con las herramientas integradas | Documentos de Microsoft
-description: "Disponibilidad, el estado y la supervisión del rendimiento en BizTalk Server y Agente SQL monitor trabajos"
-ms.custom: 
+description: Disponibilidad, el estado y la supervisión del rendimiento en BizTalk Server y Agente SQL monitor trabajos
+ms.custom: ''
 ms.date: 01/14/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 96e244dc-b826-4a9f-a4e1-6dabc41eb144
-caps.latest.revision: "20"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e6652c962d8ef522128dfb4c9febeca55ce42669
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="monitoring-biztalk-server"></a>Supervisión de BizTalk Server
 Supervisar las aplicaciones y la infraestructura de BizTalk Server de forma periódica y solucionar los problemas que encuentre ayuda a mantener las aplicaciones de BizTalk Server accesibles a los usuarios. El objetivo de la supervisión es tratar de minimizar la cantidad de tiempo que permanece una excepción sin detectar y, por lo tanto, sin resolver. Además, puede usar la supervisión para que le ayude a detectar situaciones que puedan causar una excepción.  

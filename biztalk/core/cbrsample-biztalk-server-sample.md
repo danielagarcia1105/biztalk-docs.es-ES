@@ -1,11 +1,11 @@
 ---
 title: CBRSample (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, routing
@@ -17,15 +17,15 @@ helpviewer_keywords:
 - examples, filters
 - messages, examples
 ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
-caps.latest.revision: "26"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b772bc44d4a745d5bfa330e7df7fcadcf2c020db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="cbrsample-biztalk-server-sample"></a>CBRSample (ejemplo de BizTalk Server)
 El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida para transformar y enrutar mensajes de instancias basándose en su contenido.  
@@ -79,7 +79,7 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     `<Samples Path>`**\Messaging\CBRSample**  
+     `<Samples Path>` **\Messaging\CBRSample**  
   
 2.  Ejecutar **Setup.bat**, que realiza las siguientes acciones:  
   
@@ -116,17 +116,17 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
   
 1.  En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRUSSendPort**y, a continuación, haga clic en **editar**.  
   
-2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros, asignación &#124; Filtros**y, a continuación, agregue una nueva fila estableciendo **propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en  **==** y estableciendo el **valor** columna **100**.  
+2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **100**.  
   
-3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros, asignación &#124; Asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2USMap**y, a continuación, haga clic en **Aceptar**. Puede que tenga que hacer clic en el botón de desplazamiento para ver la asignación.  
+3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2USMap**, y, a continuación, haga clic en **Aceptar**. Puede que tenga que hacer clic en el botón de desplazamiento para ver la asignación.  
   
 #### <a name="to-configure-enlist-and-start-the-canadian-send-port"></a>Para configurar, dé de alta e inicie el puerto de envío canadiense  
   
 1.  En la consola de administración de BizTalk Server, expanda **puertos de envío**, haga clic en **CBRCANSendPort**y, a continuación, haga clic en **editar**.  
   
-2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros, asignación &#124; Filtros**y, a continuación, agregue una nueva fila estableciendo **propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en  **==** y estableciendo el **valor** columna **200**.  
+2.  En el **propiedades de puerto de envío de unidireccional estático** cuadro de diálogo, en el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; filtros**y, a continuación, agregue una nueva fila estableciendo  **Propiedad** a **CBRSample.CountryCode**, dejando el **operador** columna establecida en **==**y la configuración de la **Valor** columna **200**.  
   
-3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros, asignación &#124; Asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2CANMap**y, a continuación, haga clic en **Aceptar**.  
+3.  En el árbol de carpetas a la izquierda del cuadro de diálogo, seleccione **filtros & asignación &#124; asignaciones de salida**, establezca el **asignar para aplicar** propiedad **CBRSample.CBRInput2CANMap** y, a continuación, haga clic en **Aceptar**.  
   
  Mediante estos pasos se conecta el puerto de envío al puerto de recepción. El ejemplo utiliza las propiedades promocionadas para enrutar los documentos.  
   
@@ -139,17 +139,17 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
   
 1.  Copie los archivos de entrada, **CBRDataCAN.xml** y **CBRDataUS.xml**, en la carpeta de entrada siguiente:  
   
-     `<Samples Path>`**\Messaging\CBRSample\In**  
+     `<Samples Path>` **\Messaging\CBRSample\In**  
   
 2.  Observe cómo cada uno de estos archivos se transforma y enrutan a uno de los siguientes dos carpetas de salida en función del valor de sus **CountryCode** elemento (100 frente a 200):  
   
-    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]transforma y enruta el archivo de entrada **CBRDataCAN.xml** a la carpeta:  
+    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transforma y enruta el archivo de entrada **CBRDataCAN.xml** a la carpeta:  
   
-         `<Samples Path>`**\Messaging\CBRSample\CAN**  
+         `<Samples Path>` **\Messaging\CBRSample\CAN**  
   
     -   BizTalk Server transforma y enruta el archivo de entrada **CBRDataUS.xml** a la carpeta:  
   
-         `<Samples Path>`**\Messaging\CBRSample\US**  
+         `<Samples Path>` **\Messaging\CBRSample\US**  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
  Ninguno.  
@@ -157,4 +157,4 @@ El ejemplo CBRSample muestra cómo aplicar filtros y una asignación de salida p
 ## <a name="see-also"></a>Vea también  
  [Canalizaciones predeterminadas](../core/default-pipelines.md)   
  [Cómo configurar asignaciones de salida para un puerto de envío](../core/how-to-configure-outbound-maps-for-a-send-port.md)   
- [Mensajería (carpeta de ejemplos de BizTalk Server)](../core/messaging-biztalk-server-samples-folder.md)
+ [Messaging (carpeta de ejemplos de BizTalk Server)](../core/messaging-biztalk-server-samples-folder.md)

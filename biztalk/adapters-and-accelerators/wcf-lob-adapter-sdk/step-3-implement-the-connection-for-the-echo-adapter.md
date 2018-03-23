@@ -1,22 +1,22 @@
 ---
-title: "Paso 3: Implementar la conexión para el adaptador de eco | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Implementar la conexión para el adaptador de eco | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc223901-3ad3-4e71-8672-fea6bb4efe65
-caps.latest.revision: "22"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0a735654fd03f5efb39fe73eb845f4db3632d283
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="step-3-implement-the-connection-for-the-echo-adapter"></a>Paso 3: Implementar la conexión para el adaptador de eco
 ![Paso 3 de 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")  
@@ -64,17 +64,17 @@ ms.lasthandoff: 09/20/2017
 |**Método**|**Description**|  
 |----------------|---------------------|  
 |invalidación públicas Uri Uri|Obtiene y establece el identificador Uri. Obtiene para generar la cadena de Uri y se establece para analizar la cadena de Uri.|  
-|EchoAdapterConnectionUri() público|Inicializa una nueva instancia de la clase ConnectionUri.|  
-|cadena de invalidación públicas SampleUriString|Devuelve EchoAdapter.SCHEME + ": //{hostname}/{application}?enableAuthentication={True &#124; False} ".<br /><br /> Esta cadena de valor devuelta se muestra como el **ejemplo** en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] de herramientas, como se muestra en la ilustración siguiente.|  
+|public EchoAdapterConnectionUri()|Inicializa una nueva instancia de la clase ConnectionUri.|  
+|cadena de invalidación públicas SampleUriString|Returns EchoAdapter.SCHEME + "://{hostname}/{application}?enableAuthentication={True&#124;False}".<br /><br /> Esta cadena de valor devuelta se muestra como el **ejemplo** en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] de herramientas, como se muestra en la ilustración siguiente.|  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/e4b9d0b8-f07f-4342-815f-9ef1507b0980.gif "e4b9d0b8-f07f-4342-815f-9ef1507b0980")  
   
 ## <a name="echo-adapter-connection-uri"></a>URI de conexión del adaptador eco  
- La conexión del adaptador de eco de ejemplo URI se describe como: EchoAapter.SCHEME://{hostname}/{application}?enableAuthentication={true &#124; false}  
+ La conexión del adaptador de eco de ejemplo URI se describe como: EchoAapter.SCHEME://{hostname}/{application}?enableAuthentication={true&#124;false}  
   
  Dado que la EchoAapter.SCHEME es echov2, la conexión URI es:  
   
- echo2: / / lobhostname/lobapplication? enableAuthentication = {true &#124; false}  
+ echo2://lobhostname/lobapplication?enableAuthentication={true&#124;false}  
   
  Puede leer el URI de conexión anterior cuando enableAuthentication = false como sigue:  
   
@@ -88,19 +88,19 @@ ms.lasthandoff: 09/20/2017
   
  En el código siguiente, el adaptador de eco construye el URI de dos maneras para mostrar cómo el adaptador puede utilizar varios elementos URI para modificar la característica de adaptador.  
   
- echo2: / / lobhostname/lobapplication? enableAuthentication = [true &#124; false]  
+ echo2://lobhostname/lobapplication?enableAuthentication=[true&#124;false]  
   
- echo2: / / lobhostname/lobapplication? enableAuthentication = [true &#124; false] & echoInUpperCase = true  
+ echo2://lobhostname/lobapplication?enableAuthentication=[true&#124;false]&echoInUpperCase=true  
   
 ### <a name="retrieving-the-uri-element"></a>Recupera el elemento de URI  
  Puede analizar el elemento de cada URI en el adaptador de eco URI echo2: / / lobhostname/lobapplication? enableAuthentication = false & echoInUpperCase = false.  En la tabla siguiente se muestran los valores de elemento URI y los métodos asociados:  
   
 |**Valor del elemento URI**|**Método**|  
 |---------------------------|----------------|  
-|lobhostname|`System.Uri.Host%2A`para recuperar el nombre de host|  
-|Lobapplication|`System.Uri.AbsolutePath%2A`para recuperar el nombre de la aplicación de destino|  
-|enableAuthentation = false|GetQueryStringValue("enableAuthentication")<br /><br /> Utilice este elemento URI para validar las credenciales de usuario **Nota:** GetQueryStringValue es un método estático definido en el`Microsoft.ServiceModel.Channels.Common.ConnectionUri`|  
-|echoInUpperValue = false|GetQueryStringValue("echoInUpperValue")<br /><br /> Utilice este elemento URI para convertir la cadena de entrada en mayúsculas.|  
+|lobhostname|`System.Uri.Host%2A` para recuperar el nombre de host|  
+|Lobapplication|`System.Uri.AbsolutePath%2A` para recuperar el nombre de la aplicación de destino|  
+|enableAuthentation=false|GetQueryStringValue("enableAuthentication")<br /><br /> Utilice este elemento URI para validar las credenciales de usuario **Nota:** GetQueryStringValue es un método estático definido en el `Microsoft.ServiceModel.Channels.Common.ConnectionUri`|  
+|echoInUpperValue=false|GetQueryStringValue("echoInUpperValue")<br /><br /> Utilice este elemento URI para convertir la cadena de entrada en mayúsculas.|  
   
 ### <a name="enableauthentication-uri-element"></a>Elemento EnableAuthentication URI  
  El sistema de destino a menudo requiere que proporcione las credenciales de cliente para establecer una conexión con el sistema de destino. Como se ha mencionado, el adaptador de eco no implica ningún sistema de destino. Aunque como ejemplo, se muestra cómo usar un elemento URI personalizado denominado enableAuthentication para proporcionar las credenciales.  
@@ -334,4 +334,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>Vea también  
  [Paso 4: Implementar el controlador de exploración de metadatos para el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   
- [Tutorial 1: Desarrollar el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+ [Tutorial 1: Desarrollar el adaptador de Echo](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

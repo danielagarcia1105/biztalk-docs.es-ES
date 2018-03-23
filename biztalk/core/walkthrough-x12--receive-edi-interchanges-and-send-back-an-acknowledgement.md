@@ -1,22 +1,22 @@
 ---
-title: "Tutorial (X12): Recibir intercambios EDI y devolver una confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (X12): Recibir intercambios EDI y devolver una confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 25d2b5f3-6bd1-413c-aace-e4dd71f80403
-caps.latest.revision: "45"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 79eb16ac77f2f1573735c36b19fa6aa68c001c76
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="walkthrough-x12-receiving-edi-interchanges-and-sending-back-an-acknowledgement"></a>Tutorial (X12): Recepción de intercambios EDI y devolución de una confirmación
 Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para recibir intercambios de EDI mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En esta solución, se envía un intercambio EDI desde un socio comercial, Fabrikam, a otro, Contoso.  
@@ -156,7 +156,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
   
 7.  En **canalización de envío**, seleccione **EdiSend**.  
   
-8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir el intercambio EDI. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba  **==** ; y para **valor** especifique el esquema para el intercambio, por ejemplo, http:// schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850.  
+8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir el intercambio EDI. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba **==**; y para **valor** especifique el esquema para el intercambio, por ejemplo, http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850.  
   
     > [!NOTE]
     >  La configuración de filtro anterior asegura que esos intercambios, no las confirmaciones, se enviarán a la carpeta asociada a este puerto de envío.  
@@ -181,7 +181,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
   
 7.  En **canalización de envío**, seleccione **EdiSend**.  
   
-8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir la confirmación 997. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba  **==** ; y para **valor** especifique el esquema para la confirmación, por ejemplo, `http://schemas.microsoft.com/Edi/X12#X12_997_Root`.  
+8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir la confirmación 997. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba **==**; y para **valor** especifique el esquema para la confirmación, por ejemplo, `http://schemas.microsoft.com/Edi/X12#X12_997_Root`.  
   
 9. Haga clic en **Aceptar**.  
   
@@ -203,7 +203,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
   
 7.  En **canalización de envío**, seleccione **EdiSend**.  
   
-8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir la confirmación TA1. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba  **==** ; y para **valor** especifique el esquema para la confirmación, por ejemplo, http:// schemas.microsoft.com/Edi/X12#X12_TA1_Root.  
+8.  En el árbol de consola, seleccione **filtros**. Especifique un filtro al que suscribir la confirmación TA1. Por ejemplo, para **propiedad**, escriba **BTS. MessageType**; para **operador**, escriba **==**; y para **valor** especifique el esquema para la confirmación, por ejemplo, http://schemas.microsoft.com/Edi/X12#X12_TA1_Root.  
   
 9. Haga clic en **Aceptar**.  
   
@@ -262,7 +262,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
     1.  En el **identificadores** página en el **configuración de intercambio** sección, especifique valores para los campos de calificador e identificador (**ISA5**, **ISA6**, **ISA7**, y **ISA8**) que corresponden a los valores de esos campos de encabezado de mensaje de prueba.  
   
         > [!NOTE]
-        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesita los campos de identificador y calificador del remitente y del receptor para realizar una resolución de acuerdo. Coincidirá con los valores de **ISA5**, **ISA6**, **ISA7**, y **ISA8** en el encabezado de intercambio con aquellos de las propiedades de un acuerdo. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]también resolverá el acuerdo haciendo coincidir el calificador de remitente y el identificador (sin el calificador de receptor y el identificador). Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede resolver el acuerdo, usará las propiedades de acuerdo de reserva.  
+        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesita los campos de identificador y calificador del remitente y del receptor para realizar una resolución de acuerdo. Coincidirá con los valores de **ISA5**, **ISA6**, **ISA7**, y **ISA8** en el encabezado de intercambio con aquellos de las propiedades de un acuerdo. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] también resolverá el acuerdo haciendo coincidir el calificador de remitente y el identificador (sin el calificador de receptor y el identificador). Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede resolver el acuerdo, usará las propiedades de acuerdo de reserva.  
   
         > [!NOTE]
         >  Si está utilizando el archivo SamplePO.txt de "EDI Interface Developer Tutorial" como mensaje de prueba, establecer **ISA5** a **ZZ**, **ISA6** a **THEM**, **ISA7** a **ZZ**, y **ISA8** a **US**.  
@@ -291,9 +291,9 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
   
         |Use|Para|  
         |--------------|----------------|  
-        |**Default**|Seleccione **predeterminado**. **Nota:** al seleccionar esta fila como valor predeterminado, los valores de **GS1**, **GS2**, **GS3**, **GS7**y **GS8** se usan incluso si los valores de **tipo de transacción**, **versión**, y **espacio de nombres de destino** no son una coincidencia para el Mensaje.|  
+        |**Valor de DB-Library**|Seleccione **predeterminado**. **Nota:** al seleccionar esta fila como valor predeterminado, los valores de **GS1**, **GS2**, **GS3**, **GS7**, y  **GS8** se usan incluso si los valores de **tipo de transacción**, **versión**, y **espacio de nombres de destino** no son una coincidencia para el mensaje.|  
         |**Tipo de transacción**|Seleccione el tipo de mensaje del mensaje de prueba, **850 - pedido de compra**.|  
-        |**Versión y lanzamiento**|Especifique la versión EDI, **00401**.|  
+        |**Version/Release**|Especifique la versión EDI, **00401**.|  
         |**Espacio de nombres de destino**|Seleccione **http://schemas.microsoft.com/Edi/X12**.|  
         |**GS1**|Compruebe que está seleccionado el tipo de mensaje del mensaje de prueba, **PO - Purchase Order (850)**.|  
         |**GS2**|Escribir un valor para el remitente de aplicación.|  
@@ -304,7 +304,7 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
         |**GS8**|Compruebe que se ha especificado la versión de EDI, **00401**.|  
   
         > [!NOTE]
-        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Para establecer los valores de GS01, GS02, GS03, GS04, GS05, GS07 y GS08 de las confirmaciones salientes basados en los valores especificados para **tipo de transacción**, **versión**, y **destino espacio de nombres**. La canalización de envío intenta hacer coincidir el tipo de conjunto de transacciones, la versión X12 y el espacio de nombres de destino con los valores correspondientes del encabezado del mensaje. Si es correcta, usa los valores de GS asociados a la **tipo de transacción**, **versión**, y **espacio de nombres de destino** valores.  
+        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Para establecer los valores de GS01, GS02, GS03, GS04, GS05, GS07 y GS08 de las confirmaciones salientes basados en los valores especificados para **tipo de transacción**, **versión**, y **destino espacio de nombres**. La canalización de envío intenta hacer coincidir el tipo de conjunto de transacciones, la versión X12 y el espacio de nombres de destino con los valores correspondientes del encabezado del mensaje. Si es correcta, usa los valores de GS asociados a la **tipo de transacción**, **versión**, y **espacio de nombres de destino** valores.  
   
 8.  Realizar las tareas siguientes en el **Contoso -> Fabrikam** ficha.  
   
@@ -342,4 +342,4 @@ Este tutorial proporciona un conjunto de procedimientos descritos paso a paso qu
 4.  Abra la carpeta asociada al puerto de envío para la confirmación TA1 y compruebe que ésta contiene una confirmación TA1.  
   
 ## <a name="see-also"></a>Vea también  
- [Desarrollar y configurar soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)
+ [Desarrollo y configuración de soluciones EDI de BizTalk Server](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

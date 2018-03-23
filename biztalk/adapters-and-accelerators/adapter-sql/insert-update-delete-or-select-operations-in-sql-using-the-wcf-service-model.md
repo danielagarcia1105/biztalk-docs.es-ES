@@ -1,22 +1,22 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar las operaciones de SQL mediante el modelo de servicio WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 340048ad-ce28-4acf-ae4e-f18bdb3b6f47
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2bc522a1b0b60a9ba0b8407228dd1db65c4e6f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="insert-update-delete-or-select-operations-in-sql-using-the-wcf-service-model"></a>Insertar, actualizar, eliminar o seleccionar las operaciones de SQL mediante el modelo de servicio WCF
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] detecta un conjunto de operaciones básicas de Insert, Select, Update y Delete en vistas y tablas de base de datos de SQL Server. Mediante el uso de estas operaciones, puede realizar simple SQL Insert, Select, Update y eliminar instrucciones que califican Where cláusula en una tabla de destino o la vista. Este tema proporciona instrucciones sobre cómo realizar estas operaciones mediante el modelo de servicio WCF.  
@@ -34,8 +34,8 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] detecta un conjunto d
   
 |Artefactos de base de datos SQL Server|Nombre de cliente WCF|  
 |----------------------------------|---------------------|  
-|Tabla|Cliente de TableOp_ [esquema] _ [NombreTabla]|  
-|Ver|Cliente de ViewOp_ [esquema] _ [VIEW_NAME]|  
+|Table|TableOp_[Schema]_[TABLE_NAME]Client|  
+|Ver|ViewOp_[Schema]_[VIEW_NAME]Client|  
   
  [Esquema] = artefactos de la colección de SQL Server; Por ejemplo, dbo.  
   
@@ -48,10 +48,10 @@ El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] detecta un conjunto d
   
 |Operación|Firma de método|  
 |---------------|----------------------|  
-|Insert|[] largo Insert ([TABLE_NS]. [ Filas NombreTabla] []);|  
+|Insert|long[] Insert([TABLE_NS].[TABLE_NAME][] Rows);|  
 |Select|[TABLE_NS]. [NOMBRETABLA] [] Seleccione (cadena de columnas, la cadena de consulta);|  
-|Update|int actualización ([TABLE_NS]. [ TABLE_NAME]. Filas [] RowPair);|  
-|DELETE|int Delete ([TABLE_NS]. [ Filas NombreTabla] []);|  
+|Update|int Update([TABLE_NS].[TABLE_NAME].RowPair[] Rows);|  
+|Delete|int Delete ([TABLE_NS]. [ Filas NombreTabla] []);|  
   
  [TABLE_NS] = el nombre del espacio de nombres de tabla; Por ejemplo, schemas.microsoft.com.Sql._2008._05.Types.Tables.dbo.Employee.  
   
@@ -130,7 +130,7 @@ public partial class TableOp_dbo_EmployeeClient : System.ServiceModel.ClientBase
     client.ClientCredentials.UserName.Password = "<Enter password here>";  
     ```  
   
-     En este fragmento de código, `TableOp_dbo_EmployeeClient` es el cliente WCF definido en SqlAdapterBindingClient.cs. Este archivo es generado por el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. `SqlAdapterBinding_TableOp_dbo_Employee`es el nombre de la configuración de punto de conexión de cliente y se define en el archivo app.config. Este archivo también se genera mediante el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y contiene las propiedades de enlace y otras opciones de configuración.  
+     En este fragmento de código, `TableOp_dbo_EmployeeClient` es el cliente WCF definido en SqlAdapterBindingClient.cs. Este archivo es generado por el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. `SqlAdapterBinding_TableOp_dbo_Employee` es el nombre de la configuración de punto de conexión de cliente y se define en el archivo app.config. Este archivo también se genera mediante el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y contiene las propiedades de enlace y otras opciones de configuración.  
   
     > [!NOTE]
     >  En este fragmento de código, utilice el enlace y dirección de punto de conexión del archivo de configuración. Puede especificar también explícitamente estos valores en el código. Para obtener más información sobre las distintas formas de especificar el enlace del cliente, consulte [configurar un enlace de cliente para el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md).  
@@ -296,4 +296,4 @@ catch (Exception ex)
 ```  
   
 ## <a name="see-also"></a>Vea también  
-[Desarrollar aplicaciones con el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+[Desarrollar aplicaciones con el modelo de servicio WCF](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma retraso | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma retraso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Delay shape [Orchestration Designer], configuring
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - Delay shape [Orchestration Designer], about Delay shape
 - configuring [Orchestration Designer], Delay shapes
 ms.assetid: 727be28d-932a-41d5-af3f-3ee6f7129a17
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0b76448398facd3af7f3b9712491f9895ffb406d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-configure-the-delay-shape"></a>Cómo configurar la forma Retraso
 ![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  
@@ -53,6 +53,6 @@ Forma Retraso
   
 ### <a name="to-configure-a-delay-shape"></a>Para configurar una forma Retraso  
   
-1.  Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** ( **...** ) botón la **expresión** propiedad.  
+1.  Si el Editor de expresiones de BizTalk no está visible, haga clic en el **retraso** forma y haga clic en **editar retraso**, o en la ventana Propiedades, haga clic en el **puntos suspensivos** (**...** ) botón la **expresión** propiedad.  
   
 2.  En el Editor de expresiones de BizTalk, cree una expresión que devuelve un **System.DateTime** objeto o un **System.TimeSpan** objeto. Para obtener más información, consulte [requisitos y limitaciones para las expresiones](../core/requirements-and-limitations-for-expressions.md).

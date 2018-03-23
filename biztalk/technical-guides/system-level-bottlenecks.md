@@ -1,22 +1,22 @@
 ---
 title: Los cuellos de botella de nivel de sistema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 058fd60e1c38a3045197b4a36bdcc81250ab5be5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="system-level-bottlenecks"></a>Cuellos de botella de nivel de sistema
 En este tema se describe cómo solucionar cuellos de botella de nivel de sistema comunes que pueden afectar al rendimiento de una solución de BizTalk Server.  
@@ -203,7 +203,7 @@ En este tema se describe cómo solucionar cuellos de botella de nivel de sistema
   
     -   Importancia: Este contador indica el tiempo, en segundos, de la transferencia de disco Media. Esto puede indicar una gran cantidad de fragmentación del disco, discos lentos o errores de disco. Multiplica los valores de la **físico\promedio. Segundos/transferencia** y **Memoria\Páginas/seg.** contadores. Si el producto de estos contadores es superior a 0,1, la paginación está tardando más de un 10 por ciento de tiempo de acceso de disco, por lo que necesita más memoria física disponible.  
   
--   **DiscoFísico\Bytes de disco/seg.**  
+-   **PhysicalDisk\Disk Writes/sec**  
   
     -   Umbral: Depende de las especificaciones del fabricante.  
   
@@ -291,7 +291,7 @@ En este tema se describe cómo solucionar cuellos de botella de nivel de sistema
   
          Si la CPU está muy ocupado (90 por ciento o una mayor utilización) y el promedio PQL es constantemente superior a 2 por cada procesador, puede tener un cuello de botella de procesador que puede beneficiarse de la adición de CPU. O bien, puede reducir el número de subprocesos y cola más en el nivel de aplicación. Esto hará que menos cambios de contexto y menos cambios de contexto es bueno para reducir la carga de la CPU. Un motivo habitual para un valor PQL de 2 o superior con poca utilización de CPU es que llegan al azar solicitudes de tiempo de procesador y subprocesos exigen irregulares cantidades de tiempo del procesador. Esto significa que el procesador no es un cuello de botella pero que debe mejorarse la aplicación lógica de subprocesos.  
   
--   **Sistema\Cambios de contexto/seg.**  
+-   **System\Context Switches/sec**  
   
     -   Umbral: Como norma general, un cambio de contexto menos de 5.000 por segundo por el procesador no es correspondientes a velocidad preocuparse. Si las tasas de cambio de contexto superan 15.000 por segundo por cada procesador, a continuación, el cambio de contexto puede convertirse en un cuello de botella.  
   
@@ -341,7 +341,7 @@ En este tema se describe cómo solucionar cuellos de botella de nivel de sistema
   
          Si una tasa baja de operaciones de lectura de página coincide con valores altos de **disco físico\\% tiempo de disco** y **físico\promedio. Longitud de la cola de disco**, puede que exista un condición de cuello de botella de E/S de disco. Si un aumento en la longitud de la cola no está acompañado por una disminución de la velocidad de lectura de páginas, existe un cuello de botella de memoria debido a suficiente memoria física.  
   
--   **Memoria\Páginas/seg.**  
+-   **Memory\Pages/sec**  
   
     -   Umbral: Un valor continuado de más de cinco indica un cuello de botella.  
   
@@ -428,13 +428,13 @@ En este tema se describe cómo solucionar cuellos de botella de nivel de sistema
   
     -   Importancia: Este contador indica la velocidad a la que los bytes son enviados y recibidos en cada adaptador de red. Este contador le ayuda a determinar si un adaptador de red está saturado y si debe agregar uno o más adaptadores de red para aumentar el ancho de banda de red disponible.  
   
--   **Interfaz de red\Bytes recibidos/seg.**  
+-   **Network Interface\Bytes Received/sec**  
   
     -   Umbral: Ningún valor específico.  
   
     -   Importancia: Este contador indica la velocidad a la que se reciben bytes en cada adaptador de red. Utilice el valor de este contador para calcular la tasa de datos de entrada como un porcentaje del ancho de banda total disponible. Esto le ayudará a determinar si se debe aumentar el ancho de banda de red en el envío de datos de cliente para el servidor BizTalk Server o si se debe aumentar el ancho de banda de red en el mismo equipo de BizTalk Server.  
   
--   **Interfaz de red\Bytes enviados/seg.**  
+-   **Network Interface\Bytes Sent/sec**  
   
     -   Umbral: Ningún valor específico.  
   
@@ -454,4 +454,4 @@ En este tema se describe cómo solucionar cuellos de botella de nivel de sistema
 -   Ejecute el script de optimización de red de Windows Powershell se describe en el tema [optimizar el rendimiento de red](~/technical-guides/optimizing-network-performance.md) en cada equipo en el entorno de BizTalk Server.  
   
 ## <a name="see-also"></a>Vea también  
- [Buscar y eliminar los cuellos de botella](~/technical-guides/finding-and-eliminating-bottlenecks.md)
+ [Búsqueda y eliminación de cuellos de botella](~/technical-guides/finding-and-eliminating-bottlenecks.md)

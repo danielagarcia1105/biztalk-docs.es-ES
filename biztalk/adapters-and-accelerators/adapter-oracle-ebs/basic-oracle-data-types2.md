@@ -1,23 +1,23 @@
 ---
-title: "Tipos de datos básicos de Oracle en el adaptador de Oracle EBS en BizTalk | Documentos de Microsoft"
-description: "Datos XSD tipos, escriba prueba de errores y la validación en Oracle e-Business Suite en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Tipos de datos básicos de Oracle en el adaptador de Oracle EBS en BizTalk | Documentos de Microsoft
+description: Datos XSD tipos, escriba prueba de errores y la validación en Oracle e-Business Suite en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9012e2ef6adaf94f55b87bbccfc24b7fb889fbf3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="basic-oracle-data-types"></a>Tipos de datos de Oracle básica
 Este tema se describe cómo la [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone los tipos de datos básicos de Oracle.  
@@ -48,11 +48,11 @@ Este tema se describe cómo la [!INCLUDE[adapteroracleebusinesslong](../../inclu
 |NVarchar2|xsd:cadena|String|-|  
 |Sin formato|xsd:base64Binary|Byte[]||  
 |RowID|xsd:cadena|String|-|  
-|Marca de tiempo *<br /><br /> (No escriba seguro si dentro de un UDT)|xsd: DateTime si prec < = 7<br /><br /> xsd: String si prec > 7|DateTime<br /><br /> String|Cuando se expone como cadena (prec > 7), el valor debe expresarse en NLS_TIMESTAMP_FORMAT de Oracle. Puede especificar el formato de cadena para tipos de datos de marca de tiempo en el **TimeStampFormat** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Si se especifica ningún valor para el **TimeStampFormat** propiedad de enlace, el adaptador utiliza la configuración de MLS para el cliente ODP.NET en el mismo equipo donde está instalado el adaptador.<br /><br /> Valores de marca de tiempo no pueden contener información de zona horaria (hora UTC o UTC offsets):<br /><br /> -no deben contener valores de XSD: DateTime UTC o UTC desplazamientos<br />-   **DateTime.Kind** debe ser **DateTimeKind.Unspecified**<br /><br /> Si se especifica la información de zona horaria, el adaptador lanza una **XmlReaderParsingException** excepción con un mensaje que indica el campo.|  
+|TimeStamp*<br /><br /> (No escriba seguro si dentro de un UDT)|xsd: DateTime si prec < = 7<br /><br /> xsd: String si prec > 7|DateTime<br /><br /> String|Cuando se expone como cadena (prec > 7), el valor debe expresarse en NLS_TIMESTAMP_FORMAT de Oracle. Puede especificar el formato de cadena para tipos de datos de marca de tiempo en el **TimeStampFormat** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Si se especifica ningún valor para el **TimeStampFormat** propiedad de enlace, el adaptador utiliza la configuración de MLS para el cliente ODP.NET en el mismo equipo donde está instalado el adaptador.<br /><br /> Valores de marca de tiempo no pueden contener información de zona horaria (hora UTC o UTC offsets):<br /><br /> -no deben contener valores de XSD: DateTime UTC o UTC desplazamientos<br />-   **DateTime.Kind** debe ser **DateTimeKind.Unspecified**<br /><br /> Si se especifica la información de zona horaria, el adaptador lanza una **XmlReaderParsingException** excepción con un mensaje que indica el campo.|  
 |TimeStampLTZ|xsd:cadena|String|No se admite TimeStampLTZ dentro de los UDT.<br /><br /> **Fuera de un UDT**: el valor se debe expresar en NLS_TIMESTAMP_TZ_FORMAT de Oracle. Puede especificar el formato de cadena para tipos de datos de TimeStampLTZ en el **TimeStampTZFormat** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Si se especifica ningún valor para el **TimeStampTZFormat** propiedad de enlace, el adaptador utiliza la configuración de MLS para el cliente ODP.NET en el mismo equipo donde está instalado el adaptador.|  
 |TimeStampTZ|xsd:cadena<br /><br /> xsd: DateTime si dentro de un UDT|String<br /><br /> Fecha y hora si dentro de un UDT|**Fuera de un UDT**: el valor se debe expresar en NLS_TIMESTAMP_TZ_FORMAT de Oracle. Puede especificar el formato de cadena para tipos de datos de TimeStampTZ en el **TimeStampTZFormat** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Si se especifica ningún valor para el **TimeStampTZFormat** propiedad de enlace, el adaptador utiliza la configuración de MLS para el cliente ODP.NET en el mismo equipo donde está instalado el adaptador.|  
-|Decimal **|xsd: decimal si prec < = 28<br /><br /> xsd: String si prec > 28|Decimal<br /><br /> String|-|  
-|VARCHAR2|xsd:cadena|String|-|  
+|Decimal**|xsd: decimal si prec < = 28<br /><br /> xsd: String si prec > 28|Decimal<br /><br /> String|-|  
+|Varchar2|xsd:cadena|String|-|  
 |Binario Float **|float si prec < = 7<br /><br /> xsd: String si prec > 7|Float<br /><br /> String|Debe especificar el valor coherente con el formato especificado para el carácter decimal y el separador de grupo en el **NumericCharacters** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Si se especifica ningún valor para el **NumericCharacters** propiedad de enlace, el adaptador utiliza la configuración de MLS para el cliente ODP.NET en el mismo equipo donde está instalado el adaptador.|  
 |Binario doble **|xsd: Double si prec < = 15<br /><br /> xsd: String si prec > 15|Doble<br /><br /> String|-|  
 |Entero binario **|xsd:integer|Int32||  

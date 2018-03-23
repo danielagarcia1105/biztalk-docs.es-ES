@@ -1,25 +1,25 @@
 ---
-title: "Types1 de datos de Oracle básica | Documentos de Microsoft"
-ms.custom: 
+title: Types1 de datos de Oracle básica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data types, supported
 - data types, unsupported
 ms.assetid: 491230b9-b946-4681-a048-5da46102c370
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 86349adae1a3ae061cb07c6c770532cf92c74dc8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="basic-oracle-data-types"></a>Tipos de datos de Oracle básica
 Este tema se describe cómo la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de datos básicos de Oracle.  
@@ -50,11 +50,11 @@ Este tema se describe cómo la [!INCLUDE[adapteroracle](../../includes/adapteror
 |NVarchar2|xsd:cadena|String|-|  
 |Sin formato|xsd:base64Binary|Byte[]|Se admite para los procedimientos y las operaciones de tabla.|  
 |RowID|xsd:cadena|String|-|  
-|Marca de tiempo *<br /><br /> (No escriba seguro si dentro de un UDT)|xsd: DateTime si prec < = 7<br />xsd: String si prec > 7|DateTime<br />String|Valores de marca de tiempo no pueden contener información de zona horaria (hora UTC o UTC offsets):<br /><br /> -no deben contener valores de XSD: DateTime UTC o UTC desplazamientos<br />-   **DateTime.Kind** debe ser **DateTimeKind.Unspecified**<br /><br /> Si se especifica la información de zona horaria, el adaptador lanza una **XmlReaderParsingException** excepción con un mensaje que indica el campo.|  
+|TimeStamp*<br /><br /> (No escriba seguro si dentro de un UDT)|xsd: DateTime si prec < = 7<br />xsd: String si prec > 7|DateTime<br />String|Valores de marca de tiempo no pueden contener información de zona horaria (hora UTC o UTC offsets):<br /><br /> -no deben contener valores de XSD: DateTime UTC o UTC desplazamientos<br />-   **DateTime.Kind** debe ser **DateTimeKind.Unspecified**<br /><br /> Si se especifica la información de zona horaria, el adaptador lanza una **XmlReaderParsingException** excepción con un mensaje que indica el campo.|  
 |TimeStampLTZ|xsd:cadena|String|No se admite TimeStampLTZ dentro de los UDT.<br /><br /> **Fuera de un UDT**: el valor se debe expresar en NLS_TIMESTAMP_TZ_FORMAT.|  
 |TimeStampTZ|xsd:cadena<br /><br /> xsd: DateTime si dentro de un UDT|String<br /><br /> Fecha y hora si dentro de un UDT|**Fuera de un UDT**: el valor se debe expresar en NLS_TIMESTAMP_TZ_FORMAT.|  
-|Decimal **|xsd: decimal si prec < = 28<br />xsd: String si prec > 28|Decimal<br />String|-|  
-|VARCHAR2|xsd:cadena|String|-|  
+|Decimal**|xsd: decimal si prec < = 28<br />xsd: String si prec > 28|Decimal<br />String|-|  
+|Varchar2|xsd:cadena|String|-|  
 |Binario Float **|float si prec < = 7<br />xsd: String si prec > 7|Float<br />String|Debe especificar el valor en un formato coherente con la configuración regional (**System.Globalization.CultureInfo.CurrentCulture**). Por ejemplo, para la configuración regional en inglés, use un carácter de punto ('. ') para especificar la coma decimal; para la configuración regional en francés, utilice un carácter de coma (',').|  
 |Binario doble **|xsd: Double si prec < = 15<br />xsd: String si prec > 15|Doble<br />String|-|  
 |Entero binario **|xsd:integer|Int32|Se admite para los procedimientos, funciones y paquetes.|  

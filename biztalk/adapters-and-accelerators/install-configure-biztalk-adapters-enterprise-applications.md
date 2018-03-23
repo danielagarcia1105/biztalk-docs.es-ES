@@ -1,21 +1,21 @@
 ---
 title: Instalar adaptadores de BizTalk para aplicaciones empresariales | Documentos de Microsoft
-description: "Requisitos y los pasos de instalación para TIBCO Enterprise Message Service, JD Edwards OneWorld, JD Edwards EnterpriseOne, PeopleSoft Enterprise y TIBCO Rendezvous en BizTalk Server"
-ms.custom: 
+description: Requisitos y los pasos de instalación para TIBCO Enterprise Message Service, JD Edwards OneWorld, JD Edwards EnterpriseOne, PeopleSoft Enterprise y TIBCO Rendezvous en BizTalk Server
+ms.custom: ''
 ms.date: 10/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 8fa1a09f3d9fa531cee51ecd0e94b99ab972ba13
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-adapters-for-enterprise-applications"></a>Instalar y configurar Microsoft BizTalk Adapters para aplicaciones empresariales 
   
@@ -69,7 +69,7 @@ Esta sección se incluye información clave sobre el uso de Microsoft BizTalk Ad
   
  Puede copiar estos archivos en cualquier ubicación. Sin embargo, debe especificar la ubicación de los archivos JAR en CLASSPATH. CLASSPATH debe incluir la ruta de acceso completa del archivo y el nombre del archivo JAR (separado por punto y coma).  
   
- El adaptador de BizTalk para JD Edwards OneWorld proporciona el archivo JAR JDEJAccess para su uso con JD Edwards OneWorld. De forma predeterminada, se hace referencia desde el archivo JDEJAccess.jar *archivos de programa\Archivos comunes\Microsoft BizTalk Adapters para Enterprise applications\j. Edwards OneWorld(r) \classes\JDEJAccess.jar*. 
+ El adaptador de BizTalk para JD Edwards OneWorld proporciona el archivo JAR JDEJAccess para su uso con JD Edwards OneWorld. De forma predeterminada, se hace referencia desde el archivo JDEJAccess.jar *archivos de programa\Archivos comunes\Microsoft BizTalk Adapters para Enterprise applications\j. Edwards OneWorld(r)\classes\JDEJAccess.jar*. 
   
 > [!NOTE]
 >  Debe comprobar el registro del archivo jdeinterop.ini antes de poder utilizar el adaptador de BizTalk para JD Edwards OneWorld. Asegúrese de incluir una ruta de acceso a este archivo en el **propiedades de transporte de JDE** página cuando se crea el puerto de envío de BizTalk Server. Para obtener una explicación completa, vea "Personalizar el archivo jdeinterop.ini."  
@@ -358,11 +358,11 @@ Actualizar jdeinterop.ini para que coincida con los valores de parámetro que de
 |Sección|Parámetro y descripción|  
 |-------------|-------------------------------|  
 |[JDENET]|**EnterpriseServerTimeout.** El valor de tiempo de espera para una solicitud en el servidor de empresa en milisegundos. El tamaño predeterminado es 120000.<br /><br /> **maxPoolSize.** El tamaño de grupo de conexión de socket JDENET. El tamaño predeterminado es 30.|  
-|[SERVER]|**glossaryTextServer.** El servidor de empresa y el puerto que proporcionan información de texto de glosario. Este es el servidor que devuelve las descripciones de texto para los errores. Suele ser los mismos host y puerto que el servidor de aplicación de JD Edwards OneWorld. Puede haber más de un servidor de glosario para las diferentes codificaciones de idioma admitidas. Por ejemplo, JDED:6010 o actsrv1:6009. Los valores deben coincidir con los establecidos en la definición del sistema.<br /><br /> **página de códigos.** El esquema de codificación. El valor predeterminado es 1252.<br /><br /> -Europeo occidental e inglés de 1252<br /><br /> -Japonés 932<br /><br /> -950 Chino tradicional<br /><br /> -936 Chino simplificado<br /><br /> -Coreano 949|  
-|[REGISTROS]|**registro = c:\jas.log.** Ubicación del archivo de registro. Puede omitir este parámetro de forma segura.<br /><br /> **debuglog = c:\jasdebug.log.** Ubicación del archivo de registro de depuración. Puede omitir este parámetro de forma segura.<br /><br /> **Depurar.** Determina si la depuración de JDENET está activada. El valor predeterminado es FALSE.|  
-|[DEBUG]|**JobFile = c:\Interop.log.** La ubicación del archivo de error. Puede omitir este parámetro de forma segura.<br /><br /> **DebugFile = c:\InteropDebug.log.** Ubicación del archivo de depuración. Puede omitir este parámetro de forma segura.<br /><br /> **registro = c:\net.log.** Ubicación del archivo de registro. Puede omitir este parámetro de forma segura.<br /><br /> **debugLevel = 0 - 12.** Niveles de depuración. Puede omitir este parámetro de forma segura. Define el nivel de seguimiento proporcionado por el conector de COM y el componente Callobject en el archivo de registro especificado, solo en el servidor COM.<br /><br /> -0 Ninguno. El registro está desactivado y solo los errores se escriben en el archivo JobFile.<br /><br /> -2 errores (mensajes de error)<br /><br /> -4 errores del sistema (mensajes de excepción)<br /><br /> -Información sobre la advertencia 6<br /><br /> -Min 8 seguimiento (operaciones de clave. Por ejemplo, inicio de sesión, cierre de sesión, llamadas de función empresarial)<br /><br /> -Información de solución de problemas de 10 (Ayuda).<br /><br /> -12 información de depuración completa (registra todo)<br /><br /> -De forma predeterminada, no es necesario activar el seguimiento, pero es útil al depurar el código.<br /><br /> -NetTraceLevel = 0. Niveles de seguimiento. Puede omitir este parámetro de forma segura. Define el nivel de seguimiento proporcionado por el componente de ThinNet en el archivo de registro especificado en el servidor COM solo. Los valores impares se reservan para agregar futuros niveles.<br /><br /> -La siguiente lista describe aún más los niveles de depuración:<br /><br /> -0 ningún seguimiento<br /><br /> -1 hace referencia el identificador de proceso de registro, Id. de subproceso y el estado de socket disponibles cuando se agrega una nueva conexión y se busca en el grupo de Sockets.<br /><br /> -2 incluye la información en el nivel de seguimiento 1 y también realiza un seguimiento de todas las llamadas efectuadas en la clase del Administrador de conexiones.<br /><br /> -3 incluye toda la información de seguimiento de nivel 2 y también seguimientos las llamadas getPort() y getHost() llamadas.|  
-|[INTEROP]|**enterpriseServer.** Este valor es el nombre del servidor host. Asegúrese de que este valor es el mismo valor que escribe en el **nombre de Host** campo el **credenciales de JDE** sección **definición del sistema** en el  **Las propiedades de transporte** cuadro de diálogo. El valor predeterminado es JDED.<br /><br /> **puerto.** Este valor es el número de puerto que se utiliza para intercambiar datos. Asegúrese de que este valor es el mismo valor que escribe en el **número de puerto** campo JD Edwards **credenciales** sección en la **propiedades de transporte, la definición del sistema**. Por ejemplo, 6010 o 6009. Los valores deben coincidir con los establecidos en **definición del sistema**.<br /><br /> **inactive_timeout**. El valor de tiempo de espera en milisegundos para que una transacción en modo de confirmación automática. Si el usuario está inactivo durante este período de tiempo (en milisegundos), el servidor de interoperabilidad cierra al usuario. Puede cambiar este valor a un período de tiempo menor. El valor predeterminado es 1200000.<br /><br /> **manual_timeout.** El valor de tiempo de espera en milisegundos para una transacción en el modo de confirmación manual. El valor predeterminado es 120000.<br /><br /> **Repositorio.** Apunta a la ubicación del directorio que contiene Connector.jar y Kernel.jar. En UNIX, se trata de una ruta de acceso completa.|  
-|[CORBA]|Puede omitir este parámetro de forma segura.<br /><br /> **Multiproceso.** Puede omitir la configuración. Establézcalo en 1 para compatibilidad multiproceso con CORBA.<br /><br /> Objects= CORBA::Connector;CORBA::OneWorldVersion<br /><br /> Define los objetos que el servidor CORBA crea durante el inicio. También reemplaza - DIORFILENAME = la opción de línea de comandos, por ejemplo: CORBA::Connector=connector.ior.|  
+|[SERVER]|**glossaryTextServer.** El servidor de empresa y el puerto que proporcionan información de texto de glosario. Este es el servidor que devuelve las descripciones de texto para los errores. Suele ser los mismos host y puerto que el servidor de aplicación de JD Edwards OneWorld. Puede haber más de un servidor de glosario para las diferentes codificaciones de idioma admitidas. Por ejemplo, JDED:6010 o actsrv1:6009. Los valores deben coincidir con los establecidos en la definición del sistema.<br /><br /> **codePage.** El esquema de codificación. El valor predeterminado es 1252.<br /><br /> -Europeo occidental e inglés de 1252<br /><br /> -Japonés 932<br /><br /> -950 Chino tradicional<br /><br /> -936 Chino simplificado<br /><br /> -Coreano 949|  
+|[REGISTROS]|**log= c:\jas.log.** Ubicación del archivo de registro. Puede omitir este parámetro de forma segura.<br /><br /> **debuglog= c:\jasdebug.log.** Ubicación del archivo de registro de depuración. Puede omitir este parámetro de forma segura.<br /><br /> **Debug.** Determina si la depuración de JDENET está activada. El valor predeterminado es FALSE.|  
+|[DEBUG]|**JobFile= c:\Interop.log.** La ubicación del archivo de error. Puede omitir este parámetro de forma segura.<br /><br /> **DebugFile= c:\InteropDebug.log.** Ubicación del archivo de depuración. Puede omitir este parámetro de forma segura.<br /><br /> **log= c:\net.log.** Ubicación del archivo de registro. Puede omitir este parámetro de forma segura.<br /><br /> **debugLevel= 0 - 12.** Niveles de depuración. Puede omitir este parámetro de forma segura. Define el nivel de seguimiento proporcionado por el conector de COM y el componente Callobject en el archivo de registro especificado, solo en el servidor COM.<br /><br /> -0 Ninguno. El registro está desactivado y solo los errores se escriben en el archivo JobFile.<br /><br /> -2 errores (mensajes de error)<br /><br /> -4 errores del sistema (mensajes de excepción)<br /><br /> -Información sobre la advertencia 6<br /><br /> -Min 8 seguimiento (operaciones de clave. Por ejemplo, inicio de sesión, cierre de sesión, llamadas de función empresarial)<br /><br /> -Información de solución de problemas de 10 (Ayuda).<br /><br /> -12 información de depuración completa (registra todo)<br /><br /> -De forma predeterminada, no es necesario activar el seguimiento, pero es útil al depurar el código.<br /><br /> - NetTraceLevel=0. Niveles de seguimiento. Puede omitir este parámetro de forma segura. Define el nivel de seguimiento proporcionado por el componente de ThinNet en el archivo de registro especificado en el servidor COM solo. Los valores impares se reservan para agregar futuros niveles.<br /><br /> -La siguiente lista describe aún más los niveles de depuración:<br /><br /> -0 ningún seguimiento<br /><br /> -1 hace referencia el identificador de proceso de registro, Id. de subproceso y el estado de socket disponibles cuando se agrega una nueva conexión y se busca en el grupo de Sockets.<br /><br /> -2 incluye la información en el nivel de seguimiento 1 y también realiza un seguimiento de todas las llamadas efectuadas en la clase del Administrador de conexiones.<br /><br /> -3 incluye toda la información de seguimiento de nivel 2 y también seguimientos las llamadas getPort() y getHost() llamadas.|  
+|[INTEROP]|**enterpriseServer.** Este valor es el nombre del servidor host. Asegúrese de que este valor es el mismo valor que escribe en el **nombre de Host** campo el **credenciales de JDE** sección **definición del sistema** en el  **Las propiedades de transporte** cuadro de diálogo. El valor predeterminado es JDED.<br /><br /> **port.** Este valor es el número de puerto que se utiliza para intercambiar datos. Asegúrese de que este valor es el mismo valor que escribe en el **número de puerto** campo JD Edwards **credenciales** sección en la **propiedades de transporte, la definición del sistema**. Por ejemplo, 6010 o 6009. Los valores deben coincidir con los establecidos en **definición del sistema**.<br /><br /> **inactive_timeout**. El valor de tiempo de espera en milisegundos para que una transacción en modo de confirmación automática. Si el usuario está inactivo durante este período de tiempo (en milisegundos), el servidor de interoperabilidad cierra al usuario. Puede cambiar este valor a un período de tiempo menor. El valor predeterminado es 1200000.<br /><br /> **manual_timeout.** El valor de tiempo de espera en milisegundos para una transacción en el modo de confirmación manual. El valor predeterminado es 120000.<br /><br /> **Repository.** Apunta a la ubicación del directorio que contiene Connector.jar y Kernel.jar. En UNIX, se trata de una ruta de acceso completa.|  
+|[CORBA]|Puede omitir este parámetro de forma segura.<br /><br /> **Multithread.** Puede omitir la configuración. Establézcalo en 1 para compatibilidad multiproceso con CORBA.<br /><br /> Objects= CORBA::Connector;CORBA::OneWorldVersion<br /><br /> Define los objetos que el servidor CORBA crea durante el inicio. También reemplaza - DIORFILENAME = la opción de línea de comandos, por ejemplo: CORBA::Connector=connector.ior.|  
   
 ## <a name="jd-edwards-enterpriseone"></a>JD Edwards EnterpriseOne  
 Esta sección se incluye información clave sobre el uso de Microsoft BizTalk Adapter para JD Edwards EnterpriseOne con BizTalk Server.
@@ -400,7 +400,7 @@ Esta sección se incluye información clave sobre el uso de Microsoft BizTalk Ad
  Si recibe un mensaje de advertencia de jdearglist.txt en el registro, su finalidad es que le informan de que el archivo jdearglist.txt no existe. Sin embargo, si se ejecuta la función de negocio SalesOrder o PurchaseOrder, debe tener ese archivo en la ruta de acceso o no funciona.  
   
 ### <a name="understand-jdeinteropini"></a>Comprender jdeinterop.ini  
- Las clases de conector de JD Edwards EnterpriseOne en Connector.jar y Kernel.jar requieren el uso de un archivo de configuración denominado jdeinterop.ini. Este archivo se define por el software de JD Edwards EnterpriseOne y usa su terminología. Para obtener más información sobre el propósito y la terminología de este archivo, consulte a la Guía de interoperabilidad de JD Edwards. Hay un archivo de ejemplo jdeinterop.ini en: archivos de programa\ Microsoft BizTalk Adapters para Enterprise Applications\ J.D. Edwards EnterpriseOne(r) \config.  
+ Las clases de conector de JD Edwards EnterpriseOne en Connector.jar y Kernel.jar requieren el uso de un archivo de configuración denominado jdeinterop.ini. Este archivo se define por el software de JD Edwards EnterpriseOne y usa su terminología. Para obtener más información sobre el propósito y la terminología de este archivo, consulte a la Guía de interoperabilidad de JD Edwards. Hay un archivo de ejemplo jdeinterop.ini en: archivos de programa\ Microsoft BizTalk Adapters para Enterprise Applications\ J.D. Edwards EnterpriseOne(r)\config.  
   
  No se recomienda modificar este archivo manualmente porque interactúa con el **propiedades de transporte** cuadro de diálogo para el puerto de envío, por ejemplo, los campos marcados como **< configurado por BizTalk\>** .  
   
@@ -434,7 +434,7 @@ Para obtener más información acerca de PeopleSoft, consulte la documentación 
   
 #### <a name="set-classpath-environment-variable"></a>Establecer la variable de entorno ClassPath  
 
-**Actualizar JAVA_HOME**    
+**Update JAVA_HOME**    
   
  Defina la variable JAVA_HOME para que señale a la instalación de JDK, por ejemplo:  
   
@@ -676,11 +676,11 @@ Para agregar los adaptadores de BizTalk Server, vea "Agregar adaptadores para la
   
     -   Bin\BTAJDEEnterpriseOneTrace.cmd    
     -   Classes\JDEDynAccess.jar    
-    -   Config\btaJDEEnterpriseOneTrace.MOF    
+    -   Config\btaJDEEnterpriseOneTrace.mof    
     -   Config\jdearglist.txt    
     -   Config\jdeinterop.ini    
     -   Config\jdelog.properties    
-    -   SDK  
+    -   Sdk  
   
  
 ## <a name="post-install---peoplesoft-enterprise"></a>Posterior a la instalación-PeopleSoft Enterprise  
@@ -701,7 +701,7 @@ Para agregar los adaptadores de BizTalk Server, vea "Agregar adaptadores para la
 * Archivos específicos del adaptador se instalan en *archivos de programa* y *archivos de programa\Archivos comunes*. Los siguientes archivos se instalan en *archivos de programa\Microsoft BizTalk Adapters para Enterprise Applications\PeopleSoft Enterprise (r)*:
   
     -   bin\BTAPeopleSoftTrace.cmd    
-    -   config\btaPeopleSoftTrace.MOF    
+    -   config\btaPeopleSoftTrace.mof    
     -   config\GET_CI_INFO.pc    
     -   config\GET_CI_INFO.pc    
     -   sdk\  
@@ -792,7 +792,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
     -   bin\BTATibcoEMSTrace.cmd    
     -   Microsoft.BizTalk.Adapters.TibcoEMS.dll    
-    -   Config\btaTibcoEMSTrace.MOF    
+    -   Config\btaTibcoEMSTrace.mof    
     -   sdk\  
   
 * *Programa de programa\Archivos comunes\Microsoft BizTalk Adapters for Enterprise Applications\bin* carpeta contiene los archivos siguientes:  
@@ -886,13 +886,13 @@ BTA<Adapter Name>Trace <Trace element> -stop
   
  **-castDetailsTransmit**  
   
- **-transmisor**  
+ **-transmitter**  
   
  **-castDetailsReceive**  
   
- **-receptor**  
+ **-receiver**  
   
- **-administración**  
+ **-management**  
   
  **-iniciar, - detener:** activar o desactivar el proveedor.  
   

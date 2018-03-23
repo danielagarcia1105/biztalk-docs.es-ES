@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el servicio de WCF de BizTalk consumiendo Asistente para consumir un servicio WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el servicio de WCF de BizTalk consumiendo Asistente para consumir un servicio WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services, WCF Service Consuming Wizard
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - tools, WCF Service Consuming Wizard
 - consuming, WCF Service Consuming Wizard
 ms.assetid: d5fad2ac-4d98-4720-8026-88ebab78b120
-caps.latest.revision: "23"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 12fb3eca6db9ceafeeab9b0b276bfd6f3cb23b16
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service"></a>Cómo utilizar el Asistente para consumición del Servicio WCF de BizTalk para consumir un Servicio WCF
 El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de adaptador y tipos de BizTalk a proyectos de BizTalk. El Asistente para consumición del Servicio WCF de BizTalk le permite agregar adaptadores de envío WCF a un proyecto de BizTalk. Para los adaptadores de envío WCF, debe seleccionar un extremo de intercambio de metadatos (MEX) existente en los puertos de envío. A continuación tendrá que especificar la información que se ha utilizado para generar los tipos y los esquemas. Una vez que ha finalizado el asistente, los esquemas y los tipos necesarios para consumir servicios WCF se agregan al proyecto de BizTalk.  
@@ -30,7 +30,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
   
 1.  En la Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] proyecto de BizTalk, en el Explorador de soluciones, haga clic en el proyecto, haga clic en **agregar**y, a continuación, haga clic en **agregar elementos generados**.  
   
-2.  En el **agregar elementos generados - \<**  *nombre del proyecto*  **\>**  cuadro de diálogo, en la **plantillas** sección, Seleccione **consumir servicio WCF**y, a continuación, haga clic en **agregar**.  
+2.  En el **agregar elementos generados - \< ***nombre del proyecto*** \>**  cuadro de diálogo, en la **plantillas** sección, seleccione **consumir WCF Servicio**y, a continuación, haga clic en **agregar**.  
   
 3.  En el **éste es el Asistente para consumición de servicio de BizTalk WCF** página, haga clic en **siguiente**.  
   
@@ -63,7 +63,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
   
      Haga clic en **quitar** para quitar los archivos de metadatos seleccionados en el **archivos de metadatos** vista.  
   
-     ![Página de archivos de metadatos](../core/media/445bccd1-88b0-41ad-b91d-e899e7d5902d.gif "445bccd1-88b0-41ad-b91d-e899e7d5902d")  
+     ![Metadata Files page](../core/media/445bccd1-88b0-41ad-b91d-e899e7d5902d.gif "445bccd1-88b0-41ad-b91d-e899e7d5902d")  
   
     > [!NOTE]
     >  El archivo SvcUtil.exe está incluido en el kit de desarrollo de software (SDK) de Microsoft Windows de los componentes en tiempo de ejecución de .NET Framework y Windows Vista.  
@@ -79,7 +79,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
   
      Cuando se importa el archivo de enlace generado, rellena la **WCF. Acción** propiedad con el formato de asignación de acción. Para ver cómo se configura esta propiedad, busque en el **acción** cuadro de texto en el **General** ficha en el cuadro de diálogo WCF envío puerto transporte propiedades en la consola de administración de BizTalk.  
   
-     Puede especificar el **WCF. Acción** propiedad de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1 - la **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad. Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en **Op1**, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para el saliente **SOAPAction** encabezado.  
+     Puede especificar el **WCF. Acción** propiedad de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1 - la **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad. Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en **Op1**, WCF adaptador de envío utiliza http://contoso.com/Svc/Op1 para los salientes **SOAPAction** encabezado.  
   
      `<BtsActionMapping>`  
   
@@ -89,7 +89,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
   
      `</BtsActionMapping>`  
   
-     Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización. Los puertos generados por el Asistente para consumición de WCF de BizTalk tienen operaciones cuyos nombres coincidan con el **nombre** atributos en el  **<BtsActionMapping>**  elemento. No es necesario establecer explícitamente la **BTS. Operación** propiedad en orquestaciones cuando se envían mensajes a través de puertos generados por el asistente.  
+     Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización. Los puertos generados por el Asistente para consumición de WCF de BizTalk tienen operaciones cuyos nombres coincidan con el **nombre** atributos en el **<BtsActionMapping>** elemento. No es necesario establecer explícitamente la **BTS. Operación** propiedad en orquestaciones cuando se envían mensajes a través de puertos generados por el asistente.  
   
 ## <a name="see-also"></a>Vea también  
  [Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar orquestaciones como servicios WCF](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md)   

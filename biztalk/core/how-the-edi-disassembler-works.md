@@ -1,22 +1,22 @@
 ---
-title: "Cómo funciona el Desensamblador EDI | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el Desensamblador EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8da91ba4-e1c9-4e6b-bbd1-fe71ea880118
-caps.latest.revision: "43"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4edf1353a9f06103205e1e6e4296c2aa77e74dc6
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-the-edi-disassembler-works"></a>Cómo funciona el desensamblador EDI
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] realiza la mayoría del procesamiento para los intercambios codificados en EDI recibidos en la canalización de recepción EDI (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`). La canalización incluye el componente de canalización del componente de canalización de desensamblador EDI que realiza el siguiente procesamiento:  
@@ -37,7 +37,7 @@ ms.lasthandoff: 01/17/2018
   
 -   Convierte todo el intercambio a XML si la **opción de procesamiento por lotes de entrada** propiedad se establece en uno de los dos **conservar intercambio** valores. Esta propiedad se establece en el **configuración de Host Local** página en **configuración de intercambio** de la pestaña del acuerdo bidireccional del **propiedades del acuerdo de** cuadro de diálogo. La canalización de recepción promociona la propiedad ReuseEnvelope para identificar el intercambio como conservado.  
   
--   Genera una confirmación funcional y/o técnica (si está configurada). Ésta puede incluir el procesamiento por lotes de las confirmaciones (si está configurado). Promociona la propiedad de contexto de BTS. MessageType, si se establece igual que el esquema de control en el http://schemas.microsoft.com/EDI/\<X12 o EDIFACT\> espacio de nombres (por ejemplo, X12_997_Root para una confirmación 997). También promociona la propiedad de contexto EDI.DestinationPartyName, que garantiza que la confirmación se seleccionará para su envío. Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).  
+-   Genera una confirmación funcional y/o técnica (si está configurada). Ésta puede incluir el procesamiento por lotes de las confirmaciones (si está configurado). Promociona la propiedad de contexto de BTS. MessageType, si se establece igual que el esquema de control en el http://schemas.microsoft.com/EDI/ \<X12 o EDIFACT\> espacio de nombres (por ejemplo, X12_997_Root para una confirmación 997). También promociona la propiedad de contexto EDI.DestinationPartyName, que garantiza que la confirmación se seleccionará para su envío. Para obtener más información, consulte [envía una confirmación EDI](../core/sending-an-edi-acknowledgment.md).  
   
 -   Realiza la división de documentos HIPAA 276/277 (solo la versión 5010) 834, 835 (solo la versión 4010) y 837, si se aplica.  
   
@@ -79,7 +79,7 @@ ms.lasthandoff: 01/17/2018
   
     -   ISA15  
   
-    -   LastInterchangeMessage = {True &#124; False}  
+    -   LastInterchangeMessage = {True&#124;False}  
   
     -   MessageType  
   

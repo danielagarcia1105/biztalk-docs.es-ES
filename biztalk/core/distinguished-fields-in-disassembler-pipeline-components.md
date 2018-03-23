@@ -1,11 +1,11 @@
 ---
-title: "Componentes de canalización de campos distintivos en el Desensamblador | Documentos de Microsoft"
-ms.custom: 
+title: Componentes de canalización de campos distintivos en el Desensamblador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, distinquished fields
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - BizTalk Framework Disassembler [pipeline component], distinquished fields
 - XML Disassembler [pipeline component], distinquished fields
 ms.assetid: 7e51d2fe-0004-4a7b-9055-bd41e8a4b7ab
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>Componentes de canalización de campos distintivos en el Desensamblador
 Los componentes de desensamblador XML, desensamblador de BizTalk Framework o desensamblador de archivos sin formato escriben en el contexto del mensaje los campos distintivos definidos en un esquema.  
@@ -67,7 +67,7 @@ Los componentes de desensamblador XML, desensamblador de BizTalk Framework o des
   
  el desensamblador XML escribe un campo distintivo en un contexto del mensaje como se indica a continuación:  
   
- Nombre de la propiedad en el contexto: "/ * [local-name () = 'Pedido' y el espacio = 'http://SendHtmlMessage.PO'] /\*[local-name () = 'Precio' y el espacio ='']"  
+ Nombre de la propiedad en el contexto: "/ * [local-name () = 'Pedido' y el espacio ='http://SendHtmlMessage.PO'] /\*[local-name () = 'Precio' y el espacio ='']"  
   
  Namespace de la propiedad: http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   

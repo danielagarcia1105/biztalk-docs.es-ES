@@ -1,22 +1,22 @@
 ---
-title: "Publicar el archivo de instancia de mensaje MX (creación de nuevos mensajes) | Documentos de Microsoft"
-ms.custom: 
+title: Publicar el archivo de instancia de mensaje MX (creación de nuevos mensajes) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e6cdf4-b9db-42be-a92d-10a7471e2c2d
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4082174428f177905527d0c648b4d7ad000dde36
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="publishing-the-mx-message-instance-file-creating-new-messages"></a>Publicar el archivo de instancia de mensaje MX (creación de nuevos mensajes)
 **Para publicar el archivo de instancia de mensaje MX:**  
@@ -33,4 +33,4 @@ ms.lasthandoff: 11/28/2017
   
 6.  En la ventana Cargar documento, haga clic en **Aceptar**.  
   
-7.  En los mensajes de nuevo MX SWIFT: \<MessageType\> ventana, en el cuadro de Namespace, escriba **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageType\>** y, a continuación, haga clic en **Aceptar**.
+7.  En los mensajes de nuevo MX SWIFT: \<MessageType\> ventana, en el cuadro de Namespace, escriba  **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageType\>**y, a continuación, haga clic en **Aceptar**.

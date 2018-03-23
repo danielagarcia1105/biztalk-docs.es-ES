@@ -1,22 +1,22 @@
 ---
 title: 'Tutorial: Probar la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53ed915d-0f3a-48ea-bfd5-a1f89b9b689c
-caps.latest.revision: "23"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6a6f879111a28d5cbf9b2a75c7b3f3b3b865fb38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="walkthrough-testing-the-policy"></a>Tutorial: Probar la directiva
 Este tutorial proporciona procedimientos paso a paso para probar la directiva que creó en el [Tutorial: crear una directiva empresarial sencilla](../core/walkthrough-creating-a-simple-business-policy.md) tutorial.  
@@ -101,7 +101,7 @@ Este tutorial proporciona procedimientos paso a paso para probar la directiva qu
   
 3.  En el **XMLDocuments** nodo, seleccione **RuleTest.PO**y, a continuación, haga clic en **Agregar instancia**.  
   
-     ![Compositor de reglas de negocios &#45; TestPolicySelectFacts](../core/media/7115f0d4-0c12-4292-81a5-eb78d62c5543.gif "7115f0d4-0c12-4292-81a5-eb78d62c5543")  
+     ![Compositor de reglas de negocios&#45;TestPolicySelectFacts](../core/media/7115f0d4-0c12-4292-81a5-eb78d62c5543.gif "7115f0d4-0c12-4292-81a5-eb78d62c5543")  
   
 4.  Seleccione el **SamplePO.xml** archivos que creó anteriormente y, a continuación, haga clic en **abiertos**.  
   
@@ -128,7 +128,7 @@ Este tutorial proporciona procedimientos paso a paso para probar la directiva qu
   
  **SEGUIMIENTO de motor de reglas para conjunto de reglas: ProcessPurchaseOrder 31/8/2006 1:33:10 P.M.**  
   
- El seguimiento de motor de reglas para la ejecución de la directiva de **ProcessPurchaseOrder** se inició a 31/8/2006 1:33:10 P.M..  
+ El seguimiento de motor de reglas para la ejecución de la directiva de **ProcessPurchaseOrder** se inició a 31/8/2006 1:33:10 P.M.  
   
  **ACTIVIDAD DE HECHOS 31/8/2006 1:33:10 P.M.**  
   

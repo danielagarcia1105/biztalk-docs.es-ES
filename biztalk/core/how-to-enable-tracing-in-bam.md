@@ -1,22 +1,22 @@
 ---
-title: "Cómo habilitar el seguimiento en BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar el seguimiento en BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4da99e74-a41d-4ab1-a07d-e3bee6187216
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 084eaf8cd4ba1c251b1c196830f76ef9c6a8e33f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-enable-tracing-in-bam"></a>Cómo habilitar el seguimiento en BAM
 Es posible habilitar el seguimiento en BAM para contribuir a la resolución de problemas en los siguientes cinco componentes de BAM:  
@@ -35,7 +35,7 @@ Es posible habilitar el seguimiento en BAM para contribuir a la resolución de p
  La habilitación del seguimiento de la utilidad de administración de BAM permite obtener información sobre errores de implementación. Existen dos maneras de hacerlo: se puede habilitar el seguimiento de comandos de BM.exe específicos a través de la línea de comandos, o bien se puede modificar el archivo de configuración de la utilidad de administración de BAM para habilitar el seguimiento de todos los comandos de BM.exe.  
   
 ### <a name="using-the-command-line"></a>Usar la línea de comandos  
- Seguimiento de la línea de comandos de BM.exe se activa mediante el **-Trace: en &#124; desactivar** cambiar. Al utilizar el conmutador Trace, se invalidan las opciones del archivo de configuración.  
+ Seguimiento de la línea de comandos de BM.exe se activa a través la **-Trace: en&#124;desactivar** cambiar. Al utilizar el conmutador Trace, se invalidan las opciones del archivo de configuración.  
   
  El conmutador se utiliza junto con cualquier comando normal de BM.exe.  
   
@@ -183,7 +183,7 @@ Es posible habilitar el seguimiento en BAM para contribuir a la resolución de p
 ## <a name="bam-alerting"></a>Alertas de BAM  
  La habilitación del seguimiento de las alertas de BAM ayuda a solucionar los errores relacionados con la entrega de las alertas.  
   
- Las alertas de BAM se basa en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] infraestructura de servicios de notificación. Para habilitar el seguimiento de las alertas de BAM, consulte solución de problemas de temas en los servicios de notificación [http://go.microsoft.com/fwlink/?LinkId=79416](http://go.microsoft.com/fwlink/?LinkId=79416).  
+ Las alertas de BAM se basa en el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] infraestructura de servicios de notificación. Para habilitar el seguimiento de las alertas de BAM, consulte solución de problemas de temas en los servicios de notificación [ http://go.microsoft.com/fwlink/?LinkId=79416 ](http://go.microsoft.com/fwlink/?LinkId=79416).  
   
 ## <a name="bam-interceptors"></a>Interceptores de BAM  
  Para habilitar el seguimiento de extremo a extremo de los interceptores de BAM, modifique el archivo de configuración de la aplicación: Web.config para las aplicaciones hospedadas en Web o Appname.config para las aplicaciones autohospedadas. A continuación se muestra un ejemplo de cómo puede modificar el archivo:  
@@ -216,14 +216,14 @@ Es posible habilitar el seguimiento en BAM para contribuir a la resolución de p
 |Error|Registra todas las excepciones.|  
 |Advertencia|Existe una condición que puede generar un error o un error crítico posteriormente.|  
 |Información|Se generan mensajes útiles para la supervisión y diagnóstico del estado del sistema, la medición del rendimiento o la generación de perfiles. Dicha información puede utilizarse para planear la capacidad y administrar el rendimiento.|  
-|Detallado|Seguimiento de nivel de depuración para el código de usuario y el servicio.|  
+|Verbose|Seguimiento de nivel de depuración para el código de usuario y el servicio.|  
 |Todos|Todos los mensajes.|  
   
 > [!NOTE]
 >  El seguimiento puede afectar de forma negativa al rendimiento. Actívelo únicamente cuando realice actividades relacionadas con la solución de problemas.  
   
 ### <a name="viewing-the-wcf-trace-file"></a>Ver el archivo de seguimiento de WCF  
- Para analizar el seguimiento de WCF, utilice la herramienta WCF Service Trace Viewer. Para obtener más información acerca de la herramienta Service Trace Viewer, vea [http://go.microsoft.com/fwlink/?LinkId=75218](http://go.microsoft.com/fwlink/?LinkId=75218).  
+ Para analizar el seguimiento de WCF, utilice la herramienta WCF Service Trace Viewer. Para obtener más información acerca de la herramienta Service Trace Viewer, vea [ http://go.microsoft.com/fwlink/?LinkId=75218 ](http://go.microsoft.com/fwlink/?LinkId=75218).  
   
 ## <a name="see-also"></a>Vea también  
  [Administración de BAM](../core/managing-bam.md)

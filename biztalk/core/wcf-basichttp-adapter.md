@@ -1,26 +1,27 @@
 ---
 title: Adaptador de WCF-BasicHttp | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-BasicHttp adapters
+helpviewer_keywords:
+- WCF-BasicHttp adapters
 ms.assetid: 51bc56be-3c78-4bf9-87b6-8fb1435d8cde
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 27d0e731fd63ce01e9cc1c2604eb8f83141e024e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="wcf-basichttp-adapter"></a>Adaptador de WCF-BasicHttp
-[!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-BasicHttp para recibir y enviar solicitudes de servicio WCF a través de la [clase BasicHttpBinding](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx). El adaptador de WCF-BasicHttp permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **BasicHttpBinding**.  
+[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el adaptador de WCF-BasicHttp para recibir y enviar solicitudes de servicio WCF a través de la [clase BasicHttpBinding](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx). El adaptador de WCF-BasicHttp permite publicar orquestaciones y esquemas como servicios WCF y consumir servicios WCF externos con el **BasicHttpBinding**.  
   
 Puede usar el adaptador de WCF-BasicHttp para realizar una comunicación entre equipos con servicios Web basados en ASMX antiguos y con clientes compatibles con el Perfil básico de servicios Web WS-I, versión 1.1, mediante el transporte HTTP o HTTPS con codificación de texto. No obstante, no podrá utilizar las características compatibles con los protocolos WS-*.  
   
@@ -34,8 +35,8 @@ Puede usar el adaptador de WCF-BasicHttp para realizar una comunicación entre e
 |Protocolo de transporte|HTTP o HTTPS|  
 |Modo de seguridad|Ninguno, Mensaje, Transporte, TransportWithMessageCredential y TransportCredentialOnly|  
 |Mecanismo de autenticación de cliente|Seguridad de transporte y seguridad de mensaje|  
-|Compatibilidad con WS-ReliableMessaging|No|  
-|Compatibilidad con WS-AtomicTransaction|No|  
+|Compatibilidad con WS-ReliableMessaging|no|  
+|Compatibilidad con WS-AtomicTransaction|no|  
 |Compatibilidad con mensajería unidireccional|Sí|  
 |Compatibilidad con mensajería bidireccional|Sí|  
 |Tipo de host para adaptador de recepción|Aislado|  
@@ -114,16 +115,16 @@ Esta ubicación de recepción se puede configurar como unidireccional o de solic
     
     |**Modo de seguridad**|**Tipo de credencial de cliente de transporte**|**Tipo de credencial de cliente de mensajes**|  
     |-----------------------|------------------------------------------|----------------------------------------|  
-    |**Transporte**|**Básico**|N/D|  
-    |**Transporte**|**Resumen**|N/D|  
-    |**Transporte**|**NTLM**|N/D|  
-    |**Transporte**|**Windows**|N/D|  
-    |**Transporte**|**Certificado**|N/D|  
+    |**Transport**|**Básico**|N/D|  
+    |**Transport**|**Digest**|N/D|  
+    |**Transport**|**Ntlm**|N/D|  
+    |**Transport**|**Windows**|N/D|  
+    |**Transport**|**Certificado**|N/D|  
     |**de mensaje**|N/D|**UserName**|  
     |**TransportWithMessageCredential**|N/D|**UserName**|  
     |**TransportCredentialOnly**|**Básico**|N/D|  
-    |**TransportCredentialOnly**|**Resumen**|N/D|  
-    |**TransportCredentialOnly**|**NTLM**|N/D|  
+    |**TransportCredentialOnly**|**Digest**|N/D|  
+    |**TransportCredentialOnly**|**Ntlm**|N/D|  
     |**TransportCredentialOnly**|**Windows**|N/D|  
     |**TransportCredentialOnly**|**Certificado**|N/D|  
   
@@ -138,7 +139,7 @@ Esta ubicación de recepción se puede configurar como unidireccional o de solic
     |**Codificación de nodo**|Especifique el tipo de codificación que WCF-BasicHttp adaptador de recepción utiliza para descodificar el nodo identificado por la expresión de ruta de cuerpo en el **expresión de ruta de acceso del cuerpo** cuadro de texto.<br /><br /> Esta propiedad es necesaria si la opción **Ruta -- contenido ubicado por la ruta de cuerpo** aparece seleccionada. Los valores válidos incluyen los siguientes:<br /><br /> -   **Base64**: codificación Base64.<br />-   **Hex**: codificación Hexadecimal.<br />-   **Cadena**: codificación de texto - UTF-8<br />-   **XML**: los adaptadores WCF crean el cuerpo del mensaje de BizTalk con el XML externo del nodo seleccionado por la expresión de ruta de acceso de cuerpo en el **expresión de ruta de acceso del cuerpo** cuadro de texto.<br /><br /> El valor predeterminado es **XML**.|  
     |**Cuerpo--Cuerpo de mensaje de respuesta de BizTalk**|Use la parte del cuerpo del mensaje de BizTalk para crear el contenido del elemento **Cuerpo** de SOAP de un mensaje de respuesta saliente. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> Esta es la configuración predeterminada.|  
     |**Plantilla--contenido especificado por plantilla**|Use la plantilla proporcionada en el cuadro de texto **XML** para crear el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> Esta opción está desactivada de forma predeterminada.|  
-    |**XML**|Escriba la plantilla con formato XML para el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente. Esta propiedad es necesaria si la opción **Cuerpo – cuerpo de mensaje de respuesta de BizTalk** aparece seleccionada. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> Tipo: cadena<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es  **\<bts-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" encoding = "xml"\>**.|  
+    |**XML**|Escriba la plantilla con formato XML para el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente. Esta propiedad es necesaria si la opción **Cuerpo – cuerpo de mensaje de respuesta de BizTalk** aparece seleccionada. Esta propiedad sólo es válida para las ubicaciones de recepción de solicitud-respuesta.<br /><br /> Tipo: cadena<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es  **\<bts-msg-body xmlns = "http://www.microsoft.com/schemas/bts2007" codificación = "xml"\>**.|  
     |**Suspender mensaje de solicitud en caso de error**|Especificar si se va a suspender el mensaje de solicitud cuyo procesamiento de entrada no se puede realizar correctamente debido a un error de canalización de recepción o de enrutamiento.<br /><br /> Esta opción está desactivada de forma predeterminada.|  
     |**Incluir detalle de excepción en errores**|Especificar si se van a devolver errores de SOAP cuando se produce un error para una depuración sencilla.<br /><br /> Esta opción está desactivada de forma predeterminada.|   
  
@@ -161,7 +162,7 @@ Esta ubicación de recepción se puede configurar como unidireccional o de solic
     |--------------|----------------|  
     |**Dirección (URI)**|Requerido. Especificar el URI completo de este puerto de envío. Use la **https** o **http** esquema según la configuración de seguridad.<br /><br /> Longitud máxima: 255<br /><br /> Valor predeterminado: http://localhost/|  
     |**Identidad del extremo**|Opcional. Especifique la identidad de servicio que espera este puerto de envío. Esta configuración permite al puerto de envío autenticar el servicio. En el proceso de negociación entre el cliente y el servicio, la infraestructura de Windows Communication Foundation (WCF) asegurará que la identidad del servicio esperado coincide con los valores de este elemento. Los valores que se pueden especificar para el **identidad** propiedad difieren según la configuración de seguridad.<br /><br /> Esta opción está desactivada de forma predeterminada.| 
-    |**Acción**|Especifique el **SOAPAction** campo de encabezado HTTP para los mensajes salientes. Esta propiedad también puede establecerse a través de la propiedad de contexto de mensaje **WCF. Acción** en una canalización o una orquestación. Puede especificar este valor de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única-por ejemplo, http://contoso.com/Svc/Op1-el **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad.<br /><br /> Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en Op1, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para el saliente **SOAPAction** encabezado.<br /><br /> \<BtsActionMapping\><br /><br /> \<Nombre de la operación = "Op1" Action = "http://contoso.com/Svc/Op1"\><br /><br /> \<Nombre de la operación = "Op2" Action = "http://contoso.com/Svc/Op2"\><br /><br /> \</ BtsActionMapping\><br /><br /> Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización.<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es una cadena vacía.|
+    |**Acción**|Especifique el **SOAPAction** campo de encabezado HTTP para los mensajes salientes. Esta propiedad también puede establecerse a través de la propiedad de contexto de mensaje **WCF. Acción** en una canalización o una orquestación. Puede especificar este valor de dos maneras diferentes: el formato de acción única y el formato de asignación de acciones. Si establece esta propiedad en el formato de acción única: por ejemplo, http://contoso.com/Svc/Op1- el **SOAPAction** encabezado mensajes salientes siempre se establece en el valor especificado en esta propiedad.<br /><br /> Si establece esta propiedad en el formato de asignación de acción, la salida **SOAPAction** encabezado viene determinado por la **BTS. Operación** propiedad de contexto. Por ejemplo, si esta propiedad se establece en el siguiente formato XML y **BTS. Operación** propiedad está establecida en Op1, el adaptador de envío WCF usa http://contoso.com/Svc/Op1 para los salientes **SOAPAction** encabezado.<br /><br /> \<BtsActionMapping\><br /><br /> \<Nombre de la operación = "Op1" Action = "http://contoso.com/Svc/Op1" \><br /><br /> \<Nombre de la operación = "Op2" Action = "http://contoso.com/Svc/Op2" \><br /><br /> \</BtsActionMapping\><br /><br /> Si los mensajes salientes proceden de un puerto de orquestación, las instancias de orquestación establecen dinámicamente la **BTS. Operación** propiedad con el nombre de la operación del puerto. Si los mensajes salientes se enrutan con enrutamiento por contenidos, puede establecer el **BTS. Operación** propiedad en componentes de canalización.<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es una cadena vacía.|
  
 4.  En **propiedades de transporte de WCF-BasicHttp**, en la **enlace** pestaña, configure el tiempo de espera y propiedades de codificación: 
 
@@ -192,10 +193,10 @@ Esta ubicación de recepción se puede configurar como unidireccional o de solic
   
     |**Modo de seguridad**|**Tipo de credencial de cliente de transporte**|**Tipo de credencial de cliente de mensajes**|  
     |-----------------------|------------------------------------------|----------------------------------------|  
-    |**Transporte**|**Básico**|N/D|  
-    |**Transporte**|**Resumen**|N/D|  
+    |**Transport**|**Básico**|N/D|  
+    |**Transport**|**Digest**|N/D|  
     |**TransportCredentialOnly**|**Básico**|N/D|  
-    |**TransportCredentialOnly**|**Resumen**|N/D|  
+    |**TransportCredentialOnly**|**Digest**|N/D|  
     |**de mensaje**|N/D|**UserName**|  
     |**TransportWithMessageCredential**|N/D|**UserName**|   
  
@@ -217,7 +218,7 @@ Esta ubicación de recepción se puede configurar como unidireccional o de solic
     |--------------|----------------|  
     |**Cuerpo--Cuerpo de mensaje de solicitud de BizTalk**|Utilice la parte del cuerpo de mensaje de BizTalk para crear el contenido del mensaje SOAP **cuerpo** (elemento) para un mensaje saliente.<br /><br /> Esta es la configuración predeterminada.|  
     |**Plantilla--contenido especificado por plantilla**|Use la plantilla proporcionada en el cuadro de texto **XML** para crear el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente.<br /><br /> Esta opción está desactivada de forma predeterminada.|  
-    |**XML**|Escriba la plantilla con formato XML para el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente. Esta propiedad es necesaria si la opción **Cuerpo – cuerpo de mensaje de respuesta de BizTalk** aparece seleccionada.<br /><br /> Tipo: cadena<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es < bts-msg-body<br /><br /> xmlns="http://www.microsoft.com/schemas/bts2007" codificación="xml"/>.|  
+    |**XML**|Escriba la plantilla con formato XML para el contenido del elemento **Cuerpo** de SOAP de un mensaje saliente. Esta propiedad es necesaria si la opción **Cuerpo – cuerpo de mensaje de respuesta de BizTalk** aparece seleccionada.<br /><br /> Tipo: cadena<br /><br /> Longitud mínima: 0<br /><br /> Longitud máxima: 32767<br /><br /> El valor predeterminado es < bts-msg-body<br /><br /> xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/>.|  
     |**Sobre--entero \<soap: Envelope\>**|Cree la parte del cuerpo del mensaje de BizTalk a partir del **Sobre** de SOAP completo de un mensaje entrante. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Esta opción está desactivada de forma predeterminada.|  
     |**Cuerpo--contenido \<soap: Body\> elemento**|Usar el contenido del elemento **Cuerpo** de SOAP de un mensaje entrante para crear la parte del cuerpo del mensaje de BizTalk. Si el elemento **Body** tiene varios elementos secundarios, sólo el primero de ellos será la parte del cuerpo del mensaje de BizTalk. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Esta es la configuración predeterminada.|  
     |**Ruta--contenido ubicado por la ruta de cuerpo**|Usar la expresión de ruta de cuerpo mostrada en el cuadro de texto **Expresión de ruta de cuerpo** para crear la parte del cuerpo del mensaje de BizTalk. Esta expresión se evalúa con respecto al elemento secundario inmediato del elemento **Cuerpo** de SOAP de un mensaje entrante. Esta propiedad sólo es válida para puertos de petición-respuesta.<br /><br /> Esta opción está desactivada de forma predeterminada.|  

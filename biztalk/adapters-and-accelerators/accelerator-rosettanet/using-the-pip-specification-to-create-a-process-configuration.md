@@ -1,11 +1,11 @@
 ---
-title: "Mediante la especificación de PIP para crear una configuración de proceso | Documentos de Microsoft"
-ms.custom: 
+title: Mediante la especificación de PIP para crear una configuración de proceso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PIPs, PIP settings
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - process configuration, PIPs
 - PIPs, process configuration
 ms.assetid: 64f0f5fb-f880-4ef1-95d7-2575b8d0bcff
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 777f32e5a9e035f6009f5450eb48ae8286159f05
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="using-the-pip-specification-to-create-a-process-configuration"></a>Mediante la especificación de PIP para crear una configuración de procesos
 Después de descargar un proceso de interfaz de socio (PIP) de la organización RosettaNet (en RosettaNet.org), el paquete de descarga incluye un documento de especificación de PIP. Este documento contiene instrucciones sobre la configuración que desea usar al crear una configuración de procesos en el [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] consola de administración.  

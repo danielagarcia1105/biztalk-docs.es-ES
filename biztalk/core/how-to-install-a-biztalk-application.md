@@ -1,11 +1,11 @@
 ---
-title: "Cómo instalar una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, requirements
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - installing, warnings
 - applications, installing
 ms.assetid: 99ee0b1a-d46a-4fb6-802b-6827dc740418
-caps.latest.revision: "56"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ffc3d1d6d8fdbfcc168446883e2b65a7d8ed0351
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-install-a-biztalk-application"></a>Cómo instalar una aplicación de BizTalk
 Este tema describe cómo instalar una aplicación en un equipo local al hacer doble clic en el archivo (.msi) de Windows Installer para la aplicación de la interfaz de Windows o al ejecutar msiexec desde la línea de comandos. También puede iniciar el Asistente para la instalación como último paso del Asistente para importación, tal y como se describe en [cómo importar una aplicación de BizTalk](../core/how-to-import-a-biztalk-application.md).  
@@ -93,7 +93,7 @@ Este tema describe cómo instalar una aplicación en un equipo local al hacer do
   
      \<*unidad de instalación*\>\Program BizTalk Server\HttpReceive  
   
-     \-**o** :  
+     \- **or** –  
   
      \<*unidad de instalación*\>\Program archivos (x86) \Microsoft BizTalk Server\HttpReceive  
   
@@ -130,16 +130,16 @@ Este tema describe cómo instalar una aplicación en un equipo local al hacer do
     > [!IMPORTANT]
     >  Sólo se admiten los valores de msiexec que se muestran en la tabla siguiente.  
   
-     **msiexec** [**/i**] *paquete* [**/qn**] **TARGETDIR = "***valor* **"**]  
+     **msiexec** [**/i**] *Package* [**/qn**] **TARGETDIR="***value***"**]  
   
      Ejemplo: **msiexec /i MyApplication.msi**  
   
-    |Parámetro|Valor|  
+    |Parámetro|Value|  
     |---------------|-----------|  
-    |**/ i.**|Instala la aplicación.|  
+    |**/i**|Instala la aplicación.|  
     |*Paquete*|Nombre del archivo (.msi) de Windows Installer.|  
     |**/qn**|Efectúa la instalación sin mostrar una interfaz de usuario.|  
-    |**TARGETDIR = "** *valor* **"**|Especifica la carpeta de instalación de la aplicación. El valor se ha configurado en la variable de entorno %BTAD_InstallDir%.<br /><br /> Ejemplo: TARGETDIR="C:\Archivos de programa\BizTalk Applications\My Application"|  
+    |**TARGETDIR="** *value* **"**|Especifica la carpeta de instalación de la aplicación. El valor se ha configurado en la variable de entorno %BTAD_InstallDir%.<br /><br /> Ejemplo: TARGETDIR="C:\Archivos de programa\BizTalk Applications\My Application"|  
   
 5.  Si varios equipos ejecutarán la aplicación, repita los pasos anteriores en cada equipo.  
   

@@ -1,11 +1,11 @@
 ---
 title: Crear o editar un acuerdo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, about agreements
@@ -17,28 +17,28 @@ helpviewer_keywords:
 - modifying, agreements
 - agreements, trading partners
 ms.assetid: 4bbe4b57-d6ec-4448-9c80-2aecd98e0dc7
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1ea033770504b0e0024a831e0ad8d8727603046e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="creating-or-editing-an-agreement"></a>Crear o editar un acuerdo
 En este tema se describe cómo crear o editar un acuerdo entre socios comerciales. Un acuerdo entre socios comerciales configura la relación entre dos socios comerciales, incluidos sus identidades; el proceso de la interfaz de socio (PIP); la acción de señal y sincronizar las direcciones URL; y los protocolos asociados.  
   
- Un acuerdo entre socios comerciales incluye la configuración de una configuración del proceso, organización principal, asociado y contrato. Todas estas configuraciones son necesarias para un acuerdo. Puede crear una configuración de proceso basada en un PIP de RosettaNet o un esquema personalizado, pero debe crear la configuración. También debe definir la organización principal y una organización asociada. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]no se admite el intercambio de mensajes entre entidades desconocidas.  
+ Un acuerdo entre socios comerciales incluye la configuración de una configuración del proceso, organización principal, asociado y contrato. Todas estas configuraciones son necesarias para un acuerdo. Puede crear una configuración de proceso basada en un PIP de RosettaNet o un esquema personalizado, pero debe crear la configuración. También debe definir la organización principal y una organización asociada. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] no se admite el intercambio de mensajes entre entidades desconocidas.  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]procesa y valida un mensaje basado en todas estas configuraciones. Por ejemplo, para un mensaje CIDX, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] valida según la versión de RosettaNet Implementation Framework (RNIF) (solo 1.1), el acuerdo de 0A1 (sin 0A1 solo), y `Is Single Action` propiedad (acción única solo). Un mensaje CIDX validará sólo si se establece la versión RNIF a la versión "1.1", el acuerdo 0A1 a "No 0A1" y el `Is Single Action` propiedad `True`. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]También comprueba que las propiedades del acuerdo son coherentes con la configuración de perfil de configuración de proceso. Por ejemplo, comprobará que ha establecido la `Standard` propiedad del perfil para que "CIDX" y que la propiedad de acuerdo 0A1 del acuerdo se establece en "No 0A1".  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] procesa y valida un mensaje basado en todas estas configuraciones. Por ejemplo, para un mensaje CIDX, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] valida según la versión de RosettaNet Implementation Framework (RNIF) (solo 1.1), el acuerdo de 0A1 (sin 0A1 solo), y `Is Single Action` propiedad (acción única solo). Un mensaje CIDX validará sólo si se establece la versión RNIF a la versión "1.1", el acuerdo 0A1 a "No 0A1" y el `Is Single Action` propiedad `True`. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] También comprueba que las propiedades del acuerdo son coherentes con la configuración de perfil de configuración de proceso. Por ejemplo, comprobará que ha establecido la `Standard` propiedad del perfil para que "CIDX" y que la propiedad de acuerdo 0A1 del acuerdo se establece en "No 0A1".  
   
  Si cambia un acuerdo mientras un proceso esté activo, puede que observe resultados imprevisibles. Los cambios en las propiedades del acuerdo se aplicarán en cuanto haga clic en **aplicar** o **Aceptar** Aceptar, pero no puede predecir qué fase de un proceso se está ejecutando. Después de cambiar el acuerdo, cualquier actividad nueva en un proceso actual o cualquier proceso nuevo utilizará las propiedades del acuerdo modificada. Sin embargo, un proceso que se ejecuta cuando se cambia el contrato puede ya ha utilizado las propiedades del acuerdo anterior de un mensaje que se está procesando.  
   
  Después de crear un acuerdo, primero debe activarlo para habilitar los mensajes asociados con el acuerdo para enviar o recibir. También puede desactivar un acuerdo para evitar que todos los mensajes asociados con el acuerdo de envío o recepción. Debe desactivar un acuerdo para modificarlo y, a continuación, reactivarla después de editar.  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]guarda esta información en la tabla TPAConfig en la base de datos BTARNCONFIG.  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] guarda esta información en la tabla TPAConfig en la base de datos BTARNCONFIG.  
   
  La configuración en el acuerdo de socio comercial es como se muestra en la siguiente tabla, organizada por pestaña. Los valores predeterminados son los valores utilizados normalmente. Los procedimientos para crear y editar estos valores aparecen después de la tabla.  
   
@@ -96,7 +96,7 @@ En este tema se describe cómo crear o editar un acuerdo entre socios comerciale
   
 3.  Haga clic en el acuerdo que desea editar y, a continuación, haga clic en **propiedades**.  
   
-4.  En el  **\<**  *nombre del contrato*  **\>**  cuadro de diálogo de propiedades de la **General** y  **Póngase en contacto con propiedades** pestañas, cambiar la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
+4.  En el **\< ***nombre del contrato*** \>** cuadro de diálogo de propiedades de la **General** y **póngase en contacto con propiedades** pestañas, cambiar la configuración según sea necesario. Para obtener información acerca de estas opciones de configuración, consulte la tabla anterior.  
   
 5.  Haga clic en **Aceptar**.  
   

@@ -1,23 +1,23 @@
 ---
-title: "Términos y definiciones comunes | Documentos de Microsoft"
-description: "Glosario de términos y y sus significados para BizTalk Server"
-ms.custom: 
+title: Términos y definiciones comunes | Documentos de Microsoft
+description: Glosario de términos y y sus significados para BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac9c7c7d-a97e-425a-9666-02ca6edd8be6
-caps.latest.revision: "68"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="glossary"></a>Glosario
 En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usan los términos y definiciones siguientes.  
@@ -35,7 +35,7 @@ En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiz
 |archivo .xsd|Archivo de esquema de BizTalk Server.|  
 |||  
   
-## <a name="a"></a>Un  
+## <a name="a"></a>A  
   
 |Término|Definición|  
 |----------|----------------|  
@@ -298,7 +298,7 @@ En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiz
 |orquestación interrumpible|Orquestación que se puede interrumpir a mitad de proceso en puntos bien definidos.|  
 |host de tipo En curso|Tipo de host que funciona dentro del espacio del proceso de BizTalk Server. Cualquier orquestación se puede dar de alta en un host de tipo En curso y éste puede alojar cualquier controlador de envío. Los hosts de tipo En curso únicamente pueden alojar controladores de recepción de host para hosts de tipo En curso (adaptador File).|  
 |adaptador de recepción de tipo En curso|Adaptador alojado en los procesos de BizTalk Server. Creados, controlados y destruidos por los procesos de servidor.|  
-|Asistente para la instalación|Asistente que se puede iniciar durante el paso final del Asistente para importación para instalar una aplicación de BizTalk en un equipo local.|  
+|Asistente para instalación|Asistente que se puede iniciar durante el paso final del Asistente para importación para instalar una aplicación de BizTalk en un equipo local.|  
 |actividad de instancias|Serie de pasos contiguos de procesamiento a través de los cuales fluyen uno o más mensajes.|  
 |mensaje de instancia|Unidad discreta de datos de tiempo de ejecución que fluyen a través de BizTalk Server y que normalmente representa un documento empresarial en concreto como, por ejemplo, un pedido. Se diferencia del esquema de BizTalk Server que define su estructura.|  
 |Entorno de desarrollo integrado (IDE)|Conjunto combinado de herramientas de interfaz de usuario basadas en Microsoft Windows para crear, probar y refinar una plataforma y sus características.|  

@@ -1,23 +1,24 @@
 ---
-title: "Sintaxis de una instrucción SELECT en SAP | Documentos de Microsoft"
-ms.custom: 
+title: Sintaxis de una instrucción SELECT en SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SELECT statement, syntax for
+helpviewer_keywords:
+- SELECT statement, syntax for
 ms.assetid: 47120d74-bf41-4622-a6bc-7b8ddc959305
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5f57cac0673a6520de4b0d881527bbc7b670ca1b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="syntax-for-a-select-statement-in-sap"></a>Sintaxis de una instrucción SELECT en SAP
 Las siguientes secciones describen las especificaciones de gramática para implementar consultas SELECT sobre la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Tenga en cuenta que, en muchos casos, la sintaxis es un poco diferente de la sintaxis básica de Transact-SQL.  
@@ -32,11 +33,11 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
  Donde:  
   
--   **< select_list >** = `[ {table_name.}[0,1]column_name { AS alias_name } [0,1] } [ 1, …n ]`  
+-   **<select_list>** = `[ {table_name.}[0,1]column_name { AS alias_name } [0,1] } [ 1, …n ]`  
   
--   **< Join_Condition >** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
+-   **<Join_Condition>** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
   
--   **\<predicado\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
+-   **\<predicate\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
   
  Las condiciones admitidas y las expresiones son:  
   
@@ -48,7 +49,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
  **Valores de la palabra clave de opción**  
   
- Puede especificar las opciones como `OPTION '<option>'`, donde`<option> = 'no_conversion' | 'batchsize <size>' | 'disabledatavalidation'`  
+ Puede especificar las opciones como `OPTION '<option>'`, donde `<option> = 'no_conversion' | 'batchsize <size>' | 'disabledatavalidation'`  
   
 -   El **no_conversion** opción:  
   
@@ -165,13 +166,13 @@ Table | '['Table']'
   
      `SELECT BUKRS from T001`  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]no admite nombres de alias duplicados en una instrucción SELECT. Por lo tanto, la siguiente instrucción SELECT produce un error:  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] no admite nombres de alias duplicados en una instrucción SELECT. Por lo tanto, la siguiente instrucción SELECT produce un error:  
   
     ```  
     SELECT KUNNR AS [MYKNA1], JMJAH AS MYKNA1 from KNA1 where KUNNR LIKE 'T-S62A08' AND JMJAH=1995  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]no se admite una instrucción SELECT con nombres de columna duplicados. Por lo tanto, la siguiente instrucción SELECT produce un error:  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] no se admite una instrucción SELECT con nombres de columna duplicados. Por lo tanto, la siguiente instrucción SELECT produce un error:  
   
     ```  
     SELECT KUNNR AS [MYKNA1], KUNNR AS MYKNA2 from KNA1 where MYKNA2='T-S62A08'  
@@ -183,13 +184,13 @@ Table | '['Table']'
     SELECT NAME1, PSTLZ  from KNA1 where CITY IS NULL AND NAME1 LIKE '%MODE%'  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]no admite una cláusula ORDER BY en una instrucción SELECT. Por lo tanto, la siguiente instrucción SELECT produce un error:  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] no admite una cláusula ORDER BY en una instrucción SELECT. Por lo tanto, la siguiente instrucción SELECT produce un error:  
   
     ```  
     SELECT NAME1  AS [MYNAME],  LAND1, KUNNR  from KNA1 where NAME1 LIKE '%MODE%'  ORDER BY NAME1  ASC  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]no se admite la especificación de un asterisco (*) para seleccionar todos los campos de una tabla SAP. Por lo tanto, la siguiente instrucción SELECT produce un error:  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] no se admite la especificación de un asterisco (*) para seleccionar todos los campos de una tabla SAP. Por lo tanto, la siguiente instrucción SELECT produce un error:  
   
     ```  
     SELECT spfli.* from spfli inner join sflight on spfli.carrid = sflight.carrid  
