@@ -1,1 +1,1 @@
-<span data-ttu-id="0e267-101">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="0e267-101">Windows Server 2008 R2</span></span>
+<span data-ttu-id="ce340-101">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="ce340-101">Windows Server 2008 R2</span></span>

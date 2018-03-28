@@ -1,1 +1,1 @@
-<span data-ttu-id="cb501-101">Adaptador de Microsoft BizTalk para mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="cb501-101">Microsoft BizTalk Adapter for mySAP Business Suite</span></span>
+<span data-ttu-id="91dee-101">Adaptador de Microsoft BizTalk para mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="91dee-101">Microsoft BizTalk Adapter for mySAP Business Suite</span></span>

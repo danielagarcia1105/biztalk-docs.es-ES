@@ -1,1 +1,1 @@
-<span data-ttu-id="bd917-101">Asistente para agregar metadatos de adaptador</span><span class="sxs-lookup"><span data-stu-id="bd917-101">Add Adapter Metadata Wizard</span></span>
+<span data-ttu-id="0eb39-101">Asistente para agregar metadatos de adaptador</span><span class="sxs-lookup"><span data-stu-id="0eb39-101">Add Adapter Metadata Wizard</span></span>

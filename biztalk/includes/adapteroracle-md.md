@@ -1,1 +1,1 @@
-<span data-ttu-id="eae6a-101">Adaptador de Microsoft BizTalk para base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="eae6a-101">Microsoft BizTalk Adapter for Oracle Database</span></span>
+<span data-ttu-id="553aa-101">Adaptador de Microsoft BizTalk para base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="553aa-101">Microsoft BizTalk Adapter for Oracle Database</span></span>

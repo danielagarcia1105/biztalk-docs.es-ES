@@ -1,1 +1,1 @@
-<span data-ttu-id="93ea2-101">Complemento Add Adapter Service Reference</span><span class="sxs-lookup"><span data-stu-id="93ea2-101">Add Adapter Service Reference Plug-in</span></span>
+<span data-ttu-id="50828-101">Complemento Add Adapter Service Reference</span><span class="sxs-lookup"><span data-stu-id="50828-101">Add Adapter Service Reference Plug-in</span></span>
