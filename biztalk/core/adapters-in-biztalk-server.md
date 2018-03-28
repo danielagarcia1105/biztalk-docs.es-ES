@@ -1,23 +1,23 @@
 ---
 title: Adaptadores de BizTalk Server | Documentos de Microsoft
 description: Lista completa de todos los adaptadores disponibles en BizTalk Server, incluidos los adaptadores integrados y adaptadores empresariales, BizTalk Adapter Pack
-ms.custom: 
+ms.custom: ''
 ms.date: 10/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
-caps.latest.revision: "48"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 7834fe9f7365e9ed94bce82f353e1cd305a2863c
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="adapters-in-biztalk-server"></a>Adaptadores de BizTalk Server
 Uno de los principales objetivos del diseño de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es facilitar el intercambio de documentos empresariales entre socios comerciales. Para contribuir a lograr este objetivo, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye varios adaptadores que proporcionan conectividad entre BizTalk Server y socios comerciales mediante los protocolos de datos y formatos de documento comúnmente reconocidos. Este tema explica lo que es un adaptador y por qué se utiliza.  
@@ -25,7 +25,7 @@ Uno de los principales objetivos del diseño de [!INCLUDE[btsBizTalkServerNoVers
 ## <a name="what-is-an-adapter"></a>¿Qué es un adaptador?  
  Un adaptador es un componente de software que permite enviar y recibir mensajes fácilmente en BizTalk Server con un mecanismo de entrega que cumple un estándar ampliamente reconocido, como SMTP, POP3, FTP o Microsoft Message Queue Server (MSMQ). Conforme Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ha ido evolucionando, ha aumentado la necesidad de adaptadores que habiliten con rapidez la conectividad con las aplicaciones y tecnologías más utilizadas.  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]incluye los siguientes adaptadores, que se conocen como los adaptadores "nativos" o "integrados": archivo, FTP, HTTP, MQSeries, MSMQ, POP3, SMTP, SOAP, Windows Sharepoint Services y los siete adaptadores WCF (WCF-WSHttp, WCF-BasicHttp, WCF-NetTcp, WCF-NetMsmq, WCF-NetNamedPipe, WCF-Custom y WCF-CustomIsolated). Los adaptadores nativos se instalan con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. También es posible crear adaptadores personalizados para sus soluciones específicas mediante el marco de trabajo de adaptadores de BizTalk.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye los siguientes adaptadores, que se conocen como los adaptadores "nativos" o "integrados": archivo, FTP, HTTP, MQSeries, MSMQ, POP3, SMTP, SOAP, Windows Sharepoint Services y los siete adaptadores WCF (WCF-WSHttp, WCF-BasicHttp, WCF-NetTcp, WCF-NetMsmq, WCF-NetNamedPipe, WCF-Custom y WCF-CustomIsolated). Los adaptadores nativos se instalan con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. También es posible crear adaptadores personalizados para sus soluciones específicas mediante el marco de trabajo de adaptadores de BizTalk.  
   
  Cada uno de los adaptadores nativos está asociado con una ubicación de recepción diseñada para escuchar mensajes de un transporte específico en una dirección determinada. Una vez recibido el mensaje en la ubicación de recepción, se pasa al adaptador. El adaptador adjunta la secuencia de datos al mensaje (normalmente en el cuerpo del mensaje), agrega los metadatos que pertenecen al extremo del que se recibieron los datos y envía el mensaje al motor de mensajería de BizTalk.  
   
@@ -52,21 +52,21 @@ Uno de los principales objetivos del diseño de [!INCLUDE[btsBizTalkServerNoVers
 |Adaptador|Ventaja principal|Compatibilidad con transacciones|Compatibilidad con comunicación bidireccional|Compatibilidad con recepción por orden|Compatibilidad con SSO|Proceso de alojamiento|  
 |---|---|---|---|---|---|---|  
 |Personalizado|Compatible con su sistema.|Sí, requiere código personalizado.|Sí, requiere código personalizado.|Sí, requiere código personalizado.|Sí, requiere código personalizado.|IP de BizTalk|  
-|Archivo|Facilidad de uso.|No|No|No|No|IP de BizTalk|  
-|FTP|Se usa ampliamente para comunicaciones de negocio a negocio.|No|No|No|Sí|IP de BizTalk|  
-|HTTP(s)|Se usa ampliamente para comunicaciones de negocio a negocio.|No|Solicitud - respuesta y petición - respuesta|No|Sí|OOP de IIS|  
-|MSMQ|Admite entrega de una sola vez garantizada de mensajes entre BizTalk Server y Microsoft Message Queue Server.|Sí|No|Sí|No|IP de BizTalk|  
+|Archivo|Facilidad de uso.|no|No|No|no|IP de BizTalk|  
+|FTP|Se usa ampliamente para comunicaciones de negocio a negocio.|no|No|No|Sí|IP de BizTalk|  
+|HTTP(s)|Se usa ampliamente para comunicaciones de negocio a negocio.|no|Solicitud - respuesta y petición - respuesta|no|Sí|OOP de IIS|  
+|MSMQ|Admite entrega de una sola vez garantizada de mensajes entre BizTalk Server y Microsoft Message Queue Server.|Sí|No|Sí|no|IP de BizTalk|  
 |Aplicación lógica| Recibir de y enviar a una aplicación de lógica de Azure. Para local y la nube entornos, utilizar este adaptador para tener acceso a muchos servicios de Azure | Sí | Depende de su diseño de flujo de trabajo| | |De recepción: IP de BizTalk<br/>Envío: OOP de IIS| 
 |MQ Series|Admite entrega de una sola vez garantizada de mensajes entre BizTalk Server e IBM WebSphere MQ para plataformas Windows.|Sí|No|Sí|Sí|IP de BizTalk|  
-|POP3|Admite la recepción de documentos por correo electrónico.|No|No|No|No|IP de BizTalk|  
-|SMTP|Admite el envío de documentos por correo electrónico.|No|No|No|No|IP de BizTalk|  
-|SOAP|Admite el uso de servicios Web.|No|Solicitud - respuesta y petición - respuesta|No|Sí|OOP de IIS|  
-|Windows SharePoint Services|Permite el intercambio de mensajes XML y binarios entre BizTalk Server y las bibliotecas de documentos de SharePoint.|No|No|No|No|IP de BizTalk| 
-|WCF-WSHttp|Admite los estándares WS-* a través de transporte HTTP.|Sí, las transacciones se admiten en WsHTTP (sólo las transacciones WS)|Solicitud - respuesta y petición - respuesta|No|Sí|OOP de IIS|  
-|WCF-BasicHttp|Se comunica con servicios y clientes web basados en ASMX y con otros servicios compatibles con el Perfil básico de servicios web WS-I, versión 1.1 mediante HTTP o HTTPS.|No|Solicitud - respuesta y petición - respuesta|No|Sí|OOP de IIS|  
-|WCF-NetTcp|Admite los estándares WS-* a través de transporte TCP.|Sí|Solicitud - respuesta y petición - respuesta|No|Sí|IP de BizTalk|  
+|POP3|Admite la recepción de documentos por correo electrónico.|no|No|No|no|IP de BizTalk|  
+|SMTP|Admite el envío de documentos por correo electrónico.|no|No|No|no|IP de BizTalk|  
+|SOAP|Admite el uso de servicios Web.|no|Solicitud - respuesta y petición - respuesta|no|Sí|OOP de IIS|  
+|Windows SharePoint Services|Permite el intercambio de mensajes XML y binarios entre BizTalk Server y las bibliotecas de documentos de SharePoint.|no|No|No|no|IP de BizTalk| 
+|WCF-WSHttp|Admite los estándares WS-* a través de transporte HTTP.|Sí, las transacciones se admiten en WsHTTP (sólo las transacciones WS)|Solicitud - respuesta y petición - respuesta|no|Sí|OOP de IIS|  
+|WCF-BasicHttp|Se comunica con servicios y clientes web basados en ASMX y con otros servicios compatibles con el Perfil básico de servicios web WS-I, versión 1.1 mediante HTTP o HTTPS.|no|Solicitud - respuesta y petición - respuesta|no|Sí|OOP de IIS|  
+|WCF-NetTcp|Admite los estándares WS-* a través de transporte TCP.|Sí|Solicitud - respuesta y petición - respuesta|no|Sí|IP de BizTalk|  
 |WCF-NetMsmq|Admite las colas mediante la utilización de Microsoft Message Queue Server (MSMQ) como transporte.|Sí|No|Sí|Sí|IP de BizTalk|  
-|WCF-NetNamedPipe|Ofrece un transporte rápido para comunicaciones entre procesos en el mismo equipo (sólo para aplicaciones WCF).|Sí|Solicitud - respuesta y petición - respuesta|No|Sí|IP de BizTalk|  
+|WCF-NetNamedPipe|Ofrece un transporte rápido para comunicaciones entre procesos en el mismo equipo (sólo para aplicaciones WCF).|Sí|Solicitud - respuesta y petición - respuesta|no|Sí|IP de BizTalk|  
 |WCF-Custom|permite el uso de características de extensibilidad de WCF.|Sí|Sí|Sí, siempre que lo admita el enlace.|Sí|IP de BizTalk|  
 |WCF-CustomIsolated|permite el uso de características de extensibilidad de WCF a través del transporte HTTP.|Sí|Sí|No|Sí|OOP de IIS|  
   

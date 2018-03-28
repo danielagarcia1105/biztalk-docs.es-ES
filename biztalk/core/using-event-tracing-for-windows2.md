@@ -1,25 +1,25 @@
 ---
 title: Uso de seguimiento de eventos para Windows2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ETW
 - Event Tracing for Windows
 ms.assetid: 88b91b74-2b2e-40e0-a3e9-1ebd6367abe8
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3c5f610d75048b250fc90aba7f723cee39c4f2e1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-event-tracing-for-windows"></a>Uso de seguimiento de eventos para Windows
 Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de error, de advertencia e informativos en el Visor de eventos de Windows. Puede ver mensajes de seguimiento adicionales mediante la herramienta Seguimiento de eventos para Windows (ETW). Cuando se activa ETW, crea un archivo *.etl para recibir los mensajes. Este archivo está en formato binario y se debe convertir para poder leerse. Para ello, debe tener una aplicación de consumidor disponible para interpretar el \*archivo .etl: por ejemplo, tracerpt.exe o tracedmp.exe.  
@@ -40,7 +40,7 @@ Microsoft BizTalk Adapter para JD Edwards OneWorld registra los mensajes de erro
   
      Para usar la aplicación de consumidor sin desactivar el seguimiento, el controlador debe activar el seguimiento con la opción en tiempo real,  **\<tiempo Real\> = -rt**.  
   
--   **Proveedor.** Proporciona el evento.  
+-   **Provider.** Proporciona el evento.  
   
  El Adaptador de BizTalk para J.D. Edwards OneWorld incluye cinco proveedores diferentes. Están registrados en el Instrumental de administración de Windows (WMI). Para encontrar los proveedores registrados en la ruta root\WMI\EventTrace, puede usar herramientas tales como WMI CIM Studio.  
   
@@ -74,13 +74,13 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
     -   **-castDetailsTransmit**  
   
-    -   **-transmisor**  
+    -   **-transmitter**  
   
     -   **-castDetailsReceive**  
   
-    -   **-receptor**  
+    -   **-receiver**  
   
-    -   **-administración**  
+    -   **-management**  
   
     -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   

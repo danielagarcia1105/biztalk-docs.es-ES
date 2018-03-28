@@ -1,11 +1,11 @@
 ---
-title: "Cómo importar una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo importar una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, requirements
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - policies, importing
 - managing [policies], importing
 ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
-caps.latest.revision: "29"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ac21ad1348dbc934c81d87f3c477977eeecd2ccf
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-import-a-policy"></a>Cómo importar una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para importar una directiva en un grupo de BizTalk o la herramienta de la línea de comandos BTSTask para importar una directiva en una aplicación de BizTalk.  
@@ -60,7 +60,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 1.  Haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk en el que desea importar la directiva, expanda **aplicaciones**y, a continuación, expanda  **\<todos los artefactos\>** .  
+2.  En el árbol de consola, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expanda el grupo de BizTalk en el que desea importar la directiva, expanda **aplicaciones**y, a continuación, expanda **\<todos los artefactos\>**.  
   
 3.  Haga clic en **directivas**y, a continuación, haga clic en **importación**.  
   
@@ -74,19 +74,19 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **ImportApp /Package de BTSTask:** *valor* [**/ApplicationName:***valor*] [**/Overwrite**] [ **/ Server:***valor*] [**/Database:***valor*]  
+     **ImportApp /Package de BTSTask:** *valor* [**/ApplicationName: ***valor*] [**/Overwrite**] [**/Server: ***valor *] [** / Database:***valor *]  
   
      Ejemplo:  
   
      **/Package ImportApp de BTSTask: "C:\MSI msi\miaplicación. msi" /Environment:Test /ApplicationName:MyApplication / Overwrite**  
   
-    |Parámetro|Valor|  
+    |Parámetro|Value|  
     |---------------|-----------|  
-    |**/ Paquete**|Ruta completa del archivo .msi que contenga la directiva que se va a importar. Si la ruta de acceso incluye espacios, debe encerrarlo entre comillas (").|  
-    |**/ ApplicationName**|Nombre de la aplicación de BizTalk en la que se importa la directiva. Si no se especifica, se utiliza el nombre de aplicación especificado al exportar el archivo .msi. Si la aplicación especificada no existe, se creará. Los nombres de aplicación que incluyen espacios deben flanquearse con comillas dobles (").|  
-    |**/ Sobrescribir**|Opción para sobrescribir directivas en la aplicación con artefactos del archivo .msi que tienen el mismo nombre y número de versión. Si no se especifica esta opción y hay una o varias directivas en la aplicación que tienen el mismo nombre y número de versión que las directivas del archivo .msi, se produce un error en la importación. Puede ver el nombre y número de versión de las directivas en una aplicación mediante la [comando ListApp](../core/listapp-command.md).|  
-    |**/ Servidor**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
-    |**/ Base de datos**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
+    |**/Package**|Ruta completa del archivo .msi que contenga la directiva que se va a importar. Si la ruta de acceso incluye espacios, debe encerrarlo entre comillas (").|  
+    |**/ApplicationName**|Nombre de la aplicación de BizTalk en la que se importa la directiva. Si no se especifica, se utiliza el nombre de aplicación especificado al exportar el archivo .msi. Si la aplicación especificada no existe, se creará. Los nombres de aplicación que incluyen espacios deben flanquearse con comillas dobles (").|  
+    |**/Overwrite**|Opción para sobrescribir directivas en la aplicación con artefactos del archivo .msi que tienen el mismo nombre y número de versión. Si no se especifica esta opción y hay una o varias directivas en la aplicación que tienen el mismo nombre y número de versión que las directivas del archivo .msi, se produce un error en la importación. Puede ver el nombre y número de versión de las directivas en una aplicación mediante la [comando ListApp](../core/listapp-command.md).|  
+    |**/Server**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
+    |**/Database**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos. Para ello, haga clic en la aplicación y, a continuación, seleccione **ejecutar como administrador**.  

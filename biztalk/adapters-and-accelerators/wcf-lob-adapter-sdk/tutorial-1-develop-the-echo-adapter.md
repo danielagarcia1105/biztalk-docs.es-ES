@@ -1,22 +1,22 @@
 ---
 title: 'Tutorial 1: Desarrollar el adaptador de eco | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ffb0df3c-cd07-4bcf-af69-971065081fd6
-caps.latest.revision: "24"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 484452dc4ee624f4fa41e9387098f6f792c1de28
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="tutorial-1-develop-the-echo-adapter"></a>Tutorial 1: Desarrollar el adaptador de eco
 En este tutorial, desarrollará una adaptadores funcional con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. El adaptador simula las operaciones de un sistema de línea de negocio ficticio para ilustrar muchas de las características claves del SDK de adaptador LOB de WCF, incluyendo:  
@@ -45,7 +45,7 @@ En este tutorial, desarrollará una adaptadores funcional con el [!INCLUDE[afpro
 > [!NOTE]
 >  La [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] muestra el patrón de intercambio de mensajes como flujo de datos en la interfaz de usuario.  
   
-## <a name="metadata-support"></a>Compatibilidad con metadatos  
+## <a name="metadata-support"></a>Metadata Support  
  El adaptador de eco admite metadatos exploración, búsqueda y resolver las capacidades. Normalmente, la exploración y búsqueda recuperan operaciones desde un sistema LOB. Para el adaptador de eco, un sistema LOB es un conjunto de operaciones predefinidas, como se muestra a continuación:  
   
 ```  
@@ -63,8 +63,8 @@ EchoMainCategory
 |EchoMainCategory|Categoría|Clasifica las operaciones.|N/D|  
 |Eco/EchoStrings|String [] EchoStrings(string data)|Devuelve la cadena de entrada de un número especificado de veces que el cliente que realiza la llamada.|Salida|  
 |Eco/EchoGreetings|Saludo [] EchoGreetings(Greeting greeting)|Devuelve el objeto de saludo un número especificado de veces que el cliente que realiza la llamada entrante.|Salida|  
-|Eco/EchoCustomGreetingFromFile|CustomGreeting EchoCustomGreetingFromFile(Uri greetingInstancePath)|Devuelve el objeto de saludo al leer su instancia de un archivo. Metadatos del objeto de saludo se obtienen desde un archivo XSD predefinido.|Salida|  
-|Eco/OnReceiveEcho|void OnReceiveEcho (ruta de acceso Uri, contenido long)|Devuelve la ubicación y la longitud de un archivo que se hayan colocado en la carpeta especificada.|Entrada|  
+|Echo/EchoCustomGreetingFromFile|CustomGreeting EchoCustomGreetingFromFile(Uri greetingInstancePath)|Devuelve el objeto de saludo al leer su instancia de un archivo. Metadatos del objeto de saludo se obtienen desde un archivo XSD predefinido.|Salida|  
+|Echo/OnReceiveEcho|void OnReceiveEcho (ruta de acceso Uri, contenido long)|Devuelve la ubicación y la longitud de un archivo que se hayan colocado en la carpeta especificada.|Entrada|  
   
 ## <a name="adapter-properties"></a>Propiedades de adaptador  
  El adaptador expone las siguientes propiedades del adaptador.  
@@ -73,7 +73,7 @@ EchoMainCategory
 |--------------|------------------|-------------------|---------------------|  
 |Count|Varios|System.Int32|Se utiliza para hacer eco de la entrada del número de veces especificado para el cliente que realiza la llamada.<br /><br /> Valor predeterminado = 5|  
 |EnableConnectionPooling|Varios|System.Boolean|Se utiliza para habilitar o deshabilitar la agrupación de conexiones para el adaptador.<br /><br /> Valor predeterminado = true, lo que significa que la agrupación de conexiones está habilitada en el motor en tiempo de ejecución de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].|  
-|InboundFileFilter|Entrada|System.String|Utilizado para el escenario de entrada y utiliza la clase FileSystemWatcher para supervisar los archivos de la extensión.<br /><br /> Valor predeterminado = * .txt|  
+|InboundFileFilter|Entrada|System.String|Utilizado para el escenario de entrada y utiliza la clase FileSystemWatcher para supervisar los archivos de la extensión.<br /><br /> Default=*.txt|  
 |InboundFileSystemWatcherFolder|Entrada|System.String|Se usa para establecer la carpeta donde se colocarán los archivos para que FileSystemWatcher generar la notificación al adaptador.<br /><br /> Valor predeterminado = c:\inbound\watcher.|  
   
 ## <a name="connection-properties"></a>Propiedades de conexión  
@@ -88,7 +88,7 @@ EchoMainCategory
 ## <a name="interface-implementation"></a>Implementación de interfaz  
  El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] define una colección de clases e interfaces que deben implementarse para admitir características específicas del adaptador. La tabla siguiente describen esas clases y interfaces, sus descripciones y cuándo implementarlos.  
   
-|**Clase o interfaz**|**Cuándo implementar**|**Description**|  
+|**Class/Interface**|**Cuándo implementar**|**Description**|  
 |--------------------------|---------------------------|---------------------|  
 |Microsoft.ServiceModel.Channels.Common.IConnection|Si tiene que definir la conexión con el sistema de destino.|Define la conexión al sistema de destino.|  
 |Microsoft.ServiceModel.Channels.Common.IConnectionFactory|Si necesita crear una conexión con el sistema de destino.|Crea la conexión con el sistema de destino.|  
@@ -103,9 +103,9 @@ EchoMainCategory
   
  Para personalizar las propiedades de adaptador y la conexión a través de la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] herramientas, modifique los siguientes archivos generados por [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)].  
   
--   {Projectname} BindingElement.cs  
+-   {Projectname}BindingElement.cs  
   
--   {Projectname} BindingElementExtensionElement.cs  
+-   {Projectname}BindingElementExtensionElement.cs  
   
 -   {Projectname} ConnectionUri.cs  
   

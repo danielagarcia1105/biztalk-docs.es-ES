@@ -1,11 +1,11 @@
 ---
 title: 'Tutorial: Publicar servicios WCF con el adaptador WCF-BasicHttp | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, publishing
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - WCF services, publishing
 - tutorials, WCF adapters
 ms.assetid: 43b76215-9cb0-47ab-a085-c4cf265410f9
-caps.latest.revision: "72"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca976d2e965d781de352a010bd4ef8c16e712ffb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter"></a>Tutorial: Publicar servicios WCF con el adaptador WCF-BasicHttp
 ## <a name="introduction"></a>Introducción  
@@ -54,11 +54,11 @@ ms.lasthandoff: 12/01/2017
   
 -   En los equipos que use para realizar las tareas administrativas, debe ejecutar una cuenta de usuario que sea miembro del grupo de administradores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar los parámetros de aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta cuenta de usuario también debe ser miembro del grupo de administradores local para la implementación de la aplicación, la administración de las instancias de host y otras tareas que puedan ser necesarias.  
   
--   En cualquier equipo que requiera [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capacidad, complete el procedimiento de instalación única para la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejemplos en [http://go.microsoft.com/fwlink/?LinkId=135510](http://go.microsoft.com/fwlink/?LinkId=135510).  
+-   En cualquier equipo que requiera [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capacidad, complete el procedimiento de instalación única para la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejemplos en [ http://go.microsoft.com/fwlink/?LinkId=135510 ](http://go.microsoft.com/fwlink/?LinkId=135510).  
   
 -   En el equipo que ejecuta el ejemplo e importa un enlace o un archivo .msi en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], asegúrese de que el host no es un host de confianza. De lo contrario, se producirá un error en la importación.  
   
--   Debe descargar el código del tutorial y extraerlo en el equipo. Este tutorial es una parte de todo el [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] paquete de tutoriales del adaptador. Puede descargar el archivo **WCFAdapterWalkthroughs.exe** desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center en [http://go.microsoft.com/fwlink/?LinkId=194140](http://go.microsoft.com/fwlink/?LinkId=194140).  
+-   Debe descargar el código del tutorial y extraerlo en el equipo. Este tutorial es una parte de todo el [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] paquete de tutoriales del adaptador. Puede descargar el archivo **WCFAdapterWalkthroughs.exe** desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center en [ http://go.microsoft.com/fwlink/?LinkId=194140 ](http://go.microsoft.com/fwlink/?LinkId=194140).  
   
 ### <a name="to-deploy-the-sample-biztalk-solution-biztalkapp"></a>Para implementar la solución de BizTalk de ejemplo, BizTalkApp  
   
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/01/2017
   
     2.  Asegúrese de que el **nombre de la aplicación** propiedad está establecida en **WCFBasicHttpReceiveAdapter**. Se trata del nombre de la aplicación de BizTalk en la que se va a implementar la solución de BizTalk.  
   
-    3.  En el Explorador de soluciones, haga clic en **BizTalkApp**y, a continuación, haga clic en **implementar**. Si no se implementa de forma local, es posible que sea necesario configurar el servidor SQL Server para permitir conexiones remotas. Para obtener más información, consulte [http://go.microsoft.com/fwlink/?LinkId=194141](http://go.microsoft.com/fwlink/?LinkId=194141).  
+    3.  En el Explorador de soluciones, haga clic en **BizTalkApp**y, a continuación, haga clic en **implementar**. Si no se implementa de forma local, es posible que sea necesario configurar el servidor SQL Server para permitir conexiones remotas. Para obtener más información, consulte [ http://go.microsoft.com/fwlink/?LinkId=194141 ](http://go.microsoft.com/fwlink/?LinkId=194141).  
   
 ### <a name="to-publish-the-sample-orchestration-by-using-the-biztalk-wcf-service-publishing-wizard"></a>Para publicar la orquestación de ejemplo mediante el Asistente para publicación de Servicio WCF de BizTalk  
   
@@ -116,7 +116,7 @@ ms.lasthandoff: 12/01/2017
   
 8.  En el **ubicación del servicio WCF** página, lleve a cabo las siguientes acciones para especificar la ubicación de la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services para crear y, a continuación, haga clic en **siguiente**:  
   
-    1.  En el **ubicación** cuadro de texto, escriba el directorio Web nombre donde la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejecuciones del servicio, o haga clic en **examinar** y seleccione el directorio Web. En este tutorial, como el nombre del ensamblado es el mismo que el directorio virtual, deje la ubicación predeterminada (**http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp**) en el  **Ubicación** cuadro de texto.  
+    1.  En el **ubicación** cuadro de texto, escriba el directorio Web nombre donde la [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] ejecuciones del servicio, o haga clic en **examinar** y seleccione el directorio Web. En este tutorial, como el nombre del ensamblado es el mismo que el directorio virtual, deje la ubicación predeterminada (**http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp**) en el **ubicación** cuadro de texto.  
   
     2.  Seleccione el **permitir acceso anónimo al servicio WCF** opción y, a continuación, haga clic en **siguiente**. Esta opción permite acceso anónimo al directorio virtual creado. Debido a que este tutorial usa el modo de seguridad de transporte sin autenticación, es necesario que esta opción se seleccione para permitir la autenticación anónima para la aplicación web que este asistente va a crear.  
   

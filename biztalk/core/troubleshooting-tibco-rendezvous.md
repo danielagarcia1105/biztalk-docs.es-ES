@@ -1,23 +1,23 @@
 ---
 title: Solucionar problemas de TIBCO Rendezvous | Documentos de Microsoft
 description: Utilizar el seguimiento de eventos de Windows para troubl = esdhoot Microsoft BizTalk Adapter para TIBCO Rendezvous en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 18ae8d599b67a1a572021cae0ebc9bfc64992a9b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>Solucionar problemas de TIBCO Rendezvous
   
@@ -67,15 +67,15 @@ BTATIBCORVTrace <Trace element> -start [-cir <MB>|
 BTATIBCORVTrace <Trace element> -stop  
 ```  
   
- Dónde:  **\<elemento Trace\>**  (obligatorio) es el tipo de proveedor.  
+ Dónde: **\<elemento Trace\>** (obligatorio) es el tipo de proveedor.  
   
  Sus opciones son:  
   
--   **-transmisor**  
+-   **-transmitter**  
   
--   **-receptor**  
+-   **-receiver**  
   
--   **-administración**  
+-   **-management**  
   
 -   **-iniciar, - detener**: activar o desactivar el proveedor.  
   

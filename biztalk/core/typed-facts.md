@@ -1,11 +1,11 @@
 ---
 title: Con el tipo de hechos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RuleEngine library
@@ -17,18 +17,18 @@ helpviewer_keywords:
 - TypedDataRow class
 - TypedXmlDocument class
 ms.assetid: 8207bfd5-ebd2-45ac-8992-795acdf3ba4c
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a6041a64fcc4b3496c319a25a2ce758ed7f52a71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="typed-facts"></a>Hechos con tipo
-*Con el tipo de hechos* son clases que implementan la **ITypedFact** interfaz: **TypedXmlDocument**, **DataConnection**,  **TypedDataTable**, y **TypedDataRow**.  
+*Con el tipo de hechos* son clases que implementan la **ITypedFact** interfaz: **TypedXmlDocument**, **DataConnection**, **TypedDataTable** , y **TypedDataRow**.  
   
 ## <a name="typedxmldocument"></a>TypedXmlDocument  
  El **TypedXmlDocument** clase representa el tipo de documento XML en el marco de trabajo de reglas de negocios. Cuando se usa un nodo de un documento XML como un argumento en una regla, se crean dos expresiones de XPath: los enlaces de Selector y campo.  
@@ -48,10 +48,10 @@ Case.xsd
   
  Sin embargo, si se selecciona el nodo Name, se crean tanto un enlace de selector como un enlace de campo. La información de enlace es similar a la siguiente.  
   
-|Propiedad|Valor|  
+|Propiedad|Value|  
 |--------------|-----------|  
 |**Campo XPath**|*[local-name()='Name' and namespace-uri()='']|  
-|**Selector XPath**|/*[local-name()='Root' and namespace-uri()='http://LoansProcessor.Case']|  
+|**Selector XPath**|/ * [local-name () = 'Root' y el espacio ='http://LoansProcessor.Case']|  
   
  Las expresiones XPath predeterminadas para los nodos XML se pueden cambiar antes de arrastrar el nodo a un argumento de regla y colocar la información de enlace nueva en la directiva. No obstante, tenga en cuenta que cualquier cambio realizado a las expresiones XPath debe volver a especificarse en el Compositor de reglas de negocio al volver a cargar el esquema.  
   

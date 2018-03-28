@@ -1,22 +1,22 @@
 ---
-title: "Tutorial: Invocar la directiva desde una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Invocar la directiva desde una orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb2d2974-8a36-4d36-905c-799e4236ef99
-caps.latest.revision: "30"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 36de942d34a4235b689b464192a460451e7c921a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="walkthrough-invoking-the-policy-from-an-orchestration"></a>Tutorial: Invocar la directiva desde una orquestación
 Puede invocar una directiva desde una orquestación de una de las formas siguientes:  
@@ -47,7 +47,7 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 1.  Iniciar **Microsoft Visual Studio**.  
   
-2.  En [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], en la **archivo** menú, elija **New**y, a continuación, haga clic en **proyecto**.  
+2.  En el menú [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]Archivo **de** , elija **Nuevo**y, a continuación, haga clic en **Proyecto**.  
   
 3.  En el **nuevo proyecto** diálogo cuadro, realice lo siguiente:  
   
@@ -90,13 +90,13 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 15. En la ventana Propiedades, cambie el nombre de la **enviar** dar forma a **SendPO**. La orquestación tendrá aspecto de la ilustración siguiente:  
   
-     ![BRE &#45; Tutorial &#45; UnconfiguredOrch](../core/media/1f3502ac-82a9-40bf-ae31-6e8356a283e2.gif "1f3502ac-82a9-40bf-ae31-6e8356a283e2")  
+     ![BRE&#45;Walkthrough&#45;UnconfiguredOrch](../core/media/1f3502ac-82a9-40bf-ae31-6e8356a283e2.gif "1f3502ac-82a9-40bf-ae31-6e8356a283e2")  
   
 ### <a name="to-create-message-variables"></a>Procedimiento para crear variables de mensaje  
   
 1.  En la ventana Vista orquestación, haga clic en **mensajes**y, a continuación, haga clic en **nuevo mensaje**. Si no ve la ventana Vista orquestación, haga clic en el **vista** menú, elija **otras ventanas**y, a continuación, haga clic en **Vista orquestación**. Normalmente, la ventana Vista orquestación está en la ficha situada junto a la ficha Explorador de soluciones. De forma predeterminada, se denomina el nuevo mensaje **Message_1**.  
   
-     ![BRE &#45; Tutorial &#45; OrchViewNewMsg](../core/media/a0b7fee3-af90-4c01-9464-146f0ca449e5.gif "a0b7fee3-af90-4c01-9464-146f0ca449e5")  
+     ![BRE&#45;Walkthrough&#45;OrchViewNewMsg](../core/media/a0b7fee3-af90-4c01-9464-146f0ca449e5.gif "a0b7fee3-af90-4c01-9464-146f0ca449e5")  
   
 2.  En la ventana Vista orquestación, haga clic en **Message_1**.  
   
@@ -107,7 +107,7 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
     |**Identificador**|Tipo de **POInst**, y, a continuación, presione ENTRAR.|  
     |**Tipo de mensaje**|En la lista desplegable, expanda **esquemas**y, a continuación, seleccione **RuleTest.PO**.|  
   
-     ![BRE &#45; Tutorial &#45; MsgProps](../core/media/c82cfb67-63f6-4133-95bf-daadac0e213a.gif "c82cfb67-63f6-4133-95bf-daadac0e213a")  
+     ![BRE&#45;Walkthrough&#45;MsgProps](../core/media/c82cfb67-63f6-4133-95bf-daadac0e213a.gif "c82cfb67-63f6-4133-95bf-daadac0e213a")  
   
 ### <a name="to-configure-shapes"></a>Para configurar formas  
   
@@ -119,9 +119,9 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 4.  En el **configuración de la directiva de reglas de llamada** cuadro de diálogo, seleccione **ProcessPurchaseOrder** para la directiva.  
   
-5.  Haga clic en siguiente para  **\*** , a continuación **nombre de parámetro**y seleccione **POInst** como un parámetro a la directiva.  
+5.  Haga clic en siguiente para **\***, a continuación **nombre de parámetro**y seleccione **POInst** como un parámetro a la directiva.  
   
-     ![BRE &#45; Tutorial &#45; ConfigureCallRules](../core/media/0e7dab04-41db-433b-bbf5-b13901033b41.gif "0e7dab04-41db-433b-bbf5-b13901033b41")  
+     ![BRE&#45;Walkthrough&#45;ConfigureCallRules](../core/media/0e7dab04-41db-433b-bbf5-b13901033b41.gif "0e7dab04-41db-433b-bbf5-b13901033b41")  
   
 6.  Haga clic en **Aceptar**.  
   
@@ -163,11 +163,11 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 1.  Conectar el **ReceivePOPrt** puerto a la **ReceivePO** forma. (Arrastre la flecha situada a la derecha del puerto ReceivePOPrt sobre la superficie de puerto hasta el cuadro sobre la forma ReceivePO.)  
   
-     ![BRE &#45; Tutorial &#45; ConnectRP](../core/media/75bdf79e-ca98-43bb-8ff6-5f46005a6490.gif "75bdf79e-ca98-43bb-8ff6-5f46005a6490")  
+     ![BRE&#45;Walkthrough&#45;ConnectRP](../core/media/75bdf79e-ca98-43bb-8ff6-5f46005a6490.gif "75bdf79e-ca98-43bb-8ff6-5f46005a6490")  
   
 2.  Conectar el **SendPO** dar forma a la **SendPOPrt** puerto.  
   
-     ![BRE &#45; Tutorial &#45; ConnectSP](../core/media/7513f52b-2782-4357-b8eb-1874dec33869.gif "7513f52b-2782-4357-b8eb-1874dec33869")  
+     ![BRE&#45;Walkthrough&#45;ConnectSP](../core/media/7513f52b-2782-4357-b8eb-1874dec33869.gif "7513f52b-2782-4357-b8eb-1874dec33869")  
   
 ### <a name="to-build-and-deploy-the-solution"></a>Procedimiento para generar e implementar la solución  
   
@@ -183,7 +183,7 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 6.  Especifique **RuleTestApp** como el nombre de la aplicación.  
   
-     ![BRE &#45; Tutorial &#45; RuleTestApp](../core/media/b153e5b0-ca46-4d27-bfa1-9ad4e58e9787.gif "b153e5b0-ca46-4d27-bfa1-9ad4e58e9787")  
+     ![BRE&#45;Walkthrough&#45;RuleTestApp](../core/media/b153e5b0-ca46-4d27-bfa1-9ad4e58e9787.gif "b153e5b0-ca46-4d27-bfa1-9ad4e58e9787")  
   
 7.  Haga clic en **Aceptar**.  
   
@@ -205,7 +205,7 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
   
 6.  Haga clic en **Orchestration_1**y especifique **BizTalkServerApplication** como el host.  
   
-     ![BRE &#45; Tutorial &#45; AppHost](../core/media/ba348a98-661f-4e71-8b9b-b8c5fadf035a.gif "ba348a98-661f-4e71-8b9b-b8c5fadf035a")  
+     ![BRE&#45;Walkthrough&#45;AppHost](../core/media/ba348a98-661f-4e71-8b9b-b8c5fadf035a.gif "ba348a98-661f-4e71-8b9b-b8c5fadf035a")  
   
 7.  Haga clic en **Aceptar**.  
   
@@ -241,4 +241,4 @@ Puede invocar una directiva desde una orquestación de una de las formas siguien
 ## <a name="see-also"></a>Vea también  
  [Evaluación de condiciones y ejecución de acciones](../core/condition-evaluation-and-action-execution.md)   
  [Agenda y prioridad](../core/agenda-and-priority.md)   
- [Invocar reglas de negocios en orquestaciones](../core/invoking-business-rules-in-orchestrations.md)
+ [Invocación de reglas de negocio en orquestaciones](../core/invoking-business-rules-in-orchestrations.md)

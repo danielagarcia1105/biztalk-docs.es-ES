@@ -1,23 +1,23 @@
 ---
-title: "Crear artefactos de envío del adaptador de PeopleSoft | Documentos de Microsoft"
-description: "Crear el puerto de envío, las propiedades de transporte de envío y actualizar el número máximo de llamadas simultáneas para enviar mensajes a PeopleSoft mediante el adaptador de PeopleSoft Enterprise en BizTalk Server"
-ms.custom: 
+title: Crear artefactos de envío del adaptador de PeopleSoft | Documentos de Microsoft
+description: Crear el puerto de envío, las propiedades de transporte de envío y actualizar el número máximo de llamadas simultáneas para enviar mensajes a PeopleSoft mediante el adaptador de PeopleSoft Enterprise en BizTalk Server
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce67da59-26a6-44a2-929c-ed3acb21d407
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 2bc559f4e3c25560540a171b3f47ff25e6f34e89
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-peoplesoft-send-artifacts"></a>Crear artefactos de envío de PeopleSoft
 Microsoft BizTalk Adapter para PeopleSoft Enterprise obtiene acceso a PeopleSoft y explora los componentes disponibles o procesa las solicitudes SOAP En este tema se muestra cómo crear los artefactos de envío en administración de BizTalk Server para usar el adaptador de PeopleSoft.
@@ -45,7 +45,7 @@ Microsoft BizTalk Adapter para PeopleSoft Enterprise obtiene acceso a PeopleSoft
   
 4.  En el **propiedades de transporte de PeopleSoft**, realice lo siguiente:  
   
-    1.  Expanda **propiedades de adaptador necesarias**y escriba **ruta de acceso de servidor de aplicación**, **JAVA_HOME**, **nombre de usuario**,  **contraseña**y el archivo Jar para la conexión en el sistema Peoplesoft.  
+    1.  Expanda **propiedades de adaptador necesarias**y escriba **ruta de acceso de servidor de aplicación**, **JAVA_HOME**, **nombre de usuario**, ** contraseña**y el archivo Jar para la conexión en el sistema Peoplesoft.  
   
          No tiene que establecer la información de inicio de sesión.  
   
@@ -71,7 +71,7 @@ Las propiedades de transporte de PeopleSoft se usan en el diseño y el tiempo de
     |`Application Server Path`|Cadena que representa el equipo y el puerto en que se ejecuta y escucha el servidor de aplicaciones de PeopleSoft. La sintaxis de la ruta de acceso de dirección URL para la aplicación PeopleSoft 8 es / / < nombre_equipo >:\<puerto\>. Pida al administrador de PeopleSoft para la \<puerto\> valor. El \<puerto\> valor es el JOLT puerto de escucha de protocolo, no al puerto del servidor de aplicaciones. El puerto JOLT predeterminado es 9000.|  
     |`JAVA_HOME`|Establezca la variable JAVA_HOME para que apunte a la instalación de JDK, por ejemplo: **C:\j2sdk1.4.2_08**.|  
     |`Password`|Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para PeopleSoft Enterprise tener acceso al sistema de servidor.<br /><br /> Cadena que representa la contraseña del usuario para iniciar sesión en un sistema de PeopleSoft. Los caracteres no aparecen, pero están representados por asteriscos (*).|  
-    |`PeopleSoft 8.x Jar Files`|Para usar interfaces de componentes (solo para PeopleSoft 8), debe actualizar CLASSPATH para que incluya el archivo jar de la interfaz de componentes de PeopleSoft. Por ejemplo: **\web\PSJOA\psjoa.jar < PeopleSoft_Home >**.|  
+    |`PeopleSoft 8.x Jar Files`|Para usar interfaces de componentes (solo para PeopleSoft 8), debe actualizar CLASSPATH para que incluya el archivo jar de la interfaz de componentes de PeopleSoft. For example: **<PeopleSoft_Home>\web\PSJOA\psjoa.jar**.|  
     |`User Name`|Si no ha seleccionado **usar SSO**, debe establecer parámetros de credenciales para el adaptador de BizTalk para PeopleSoft Enterprise tener acceso al sistema de servidor.<br /><br /> Cadena que representa el nombre de usuario necesario para iniciar sesión en un sistema de PeopleSoft.|  
   
 2.  Escriba un **parámetros adicionales** valor cuando se usa una fecha como una clave; tiene un formato diferente. AAAA-MM-DD es el formato predeterminado.  

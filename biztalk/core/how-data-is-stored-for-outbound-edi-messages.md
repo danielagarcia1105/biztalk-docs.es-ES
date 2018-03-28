@@ -1,22 +1,22 @@
 ---
-title: "Cómo se almacenan los datos para los mensajes EDI salientes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo se almacenan los datos para los mensajes EDI salientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6e576fc-37fd-417d-ae68-607a0a8bcc0a
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f98d5113c63e29f3f4b85834b7ca1aa0836d0a5d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a>Cómo se almacenan los datos correspondientes a mensajes EDI de salida
 Para generar una entrada del informe de estado correspondiente a un intercambio de salida, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:  
@@ -85,7 +85,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 |Datos en código de confirmación/acción|Descripción del error para informes|Comentario (aplicabilidad)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|Un|Aceptado|X12|  
+|A|Aceptado|X12|  
 |E|Aceptado con errores registrados|X12|  
 |P|Parcialmente aceptado|X12|  
 |L|Rechazado|X12|  
@@ -171,7 +171,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 |Datos en código de confirmación/acción|Asignado para informes de estado|Comentario|  
 |------------------------------|---------------------------------|-------------|  
-|Un|Aceptado|X12|  
+|A|Aceptado|X12|  
 |P|Parcialmente aceptado|X12|  
 |R, M, W, X|Rechazado|X12|  
 |E|Aceptado con errores|X12|  
@@ -264,7 +264,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 |Datos en código de confirmación/acción|Descripción del error para informes|Comentario (aplicabilidad)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|Un|Aceptado|X12|  
+|A|Aceptado|X12|  
 |E|Aceptado con errores|X12|  
 |P|Parcialmente aceptado|X12|  
 |L|Rechazado|X12|  
@@ -395,7 +395,7 @@ Para generar una entrada del informe de estado correspondiente a un intercambio 
   
 |Datos en código de confirmación/acción|Asignado para informes de estado|Comentario|  
 |------------------------------|---------------------------------|-------------|  
-|Un|Aceptado|X12|  
+|A|Aceptado|X12|  
 |P|Parcialmente aceptado|X12|  
 |R, M, W, X|Rechazado|X12|  
 |E|Aceptado con errores|X12|  

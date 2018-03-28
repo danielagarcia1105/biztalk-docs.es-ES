@@ -21,7 +21,7 @@ ms.openlocfilehash: 7b32a0044321ce6ac57d7bd49c14b40ba17430db
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-import-bpel4ws"></a>Cómo importar BPEL4WS
 Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.  
@@ -69,7 +69,7 @@ Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.
     </element>  
     ```  
   
-     XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']  
+     XPath - / * [local-name () = 'Root' y el espacio ='http://BizTalk_Server_Project3.Schema1'] /\*[local-name () = 'promotedField' and espacio ='']  
   
     |XPath canónico|XPath no canónico|  
     |---------------------|--------------------------|  

@@ -1,22 +1,22 @@
 ---
 title: 'Resultados de pruebas: Indicadores clave de rendimiento de red | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9bdbc2df-9d19-4ae8-b540-ec1b9a7cdbe9
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3eb4e10c739178e6cd923f65b51f982e05ab7f56
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="test-results-networking-key-performance-indicators"></a>Resultados de pruebas: Indicadores clave de rendimiento de red
 En este tema se resume observado durante los escenarios de prueba la indicadores de rendimiento de clave de red (KPI). Estas pruebas evalúan el rendimiento de la red según lo medido por la **\Network interfaz (\*) \Bytes totales/seg.** contador y mediante la medición del monitor de rendimiento del **SQL red\Bytes totales/seg. (Avg)**  devuelto por el controlador de pruebas de carga de VSTS 2008.  

@@ -1,22 +1,22 @@
 ---
 title: Crear e implementar directivas para nuevos tipos de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43343238-ec45-44ed-a230-9e234bd22d05
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b826b3ee9408caf91fe5adcb2177d709f885a6e1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-and-deploying-policies-for-new-message-types"></a>Crear e implementar directivas para nuevos tipos de mensaje
 Para crear e implementar directivas para nuevos tipos de mensajes:  
@@ -57,6 +57,6 @@ Para crear e implementar directivas para nuevos tipos de mensajes:
   
      El archivo de directiva principal también debe cambiarse para reflejar el nuevo nombre en las siguientes etiquetas:  
   
-    -   \<conjunto de reglas name="swift.if.ia.setr.004.001.02_Master_Policy"\>  
+    -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy"\>  
   
-    -   < regla name="swift.if.ia.setr.004.001.02_Policy_List"
+    -   <rule name="swift.if.ia.setr.004.001.02_Policy_List"

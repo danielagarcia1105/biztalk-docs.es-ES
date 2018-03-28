@@ -1,11 +1,11 @@
 ---
-title: "Cómo habilitar SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications [SSO], creating
@@ -17,15 +17,15 @@ helpviewer_keywords:
 - creating, applications [SSO]
 - managing [SSO], creating affiliate applications
 ms.assetid: dda89d15-6b70-4c40-b658-2f6cbdd545c8
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a843c0f6cdea32ba5218140069163058fcd42442
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-enable-sso"></a>Cómo habilitar SSO
 Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial mediante el Complemento MMC o la línea de comandos.  
@@ -68,7 +68,7 @@ Puede habilitar todo el sistema de inicio de sesión único (SSO) empresarial me
   
 5.  Inicie sesión como administrador afiliado de SSO  
   
-6.  Tipo de **ssomanage - createapps  *\<archivo de la aplicación\>***  para crear una aplicación afiliada, donde \<archivo de la aplicación\> es el archivo XML que contiene las definiciones de las aplicaciones afiliadas.  
+6.  Tipo de **ssomanage - createapps *\<archivo de la aplicación\>***  para crear una aplicación afiliada, donde \<archivo de la aplicación\> es el archivo XML que contiene las definiciones de las aplicaciones afiliadas.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

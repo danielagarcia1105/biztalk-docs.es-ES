@@ -1,22 +1,22 @@
 ---
-title: "Información general del escenario | Documentos de Microsoft"
-ms.custom: 
+title: Información general del escenario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac14328d-c373-49da-a899-4b3ca7d6dc0a
-caps.latest.revision: "22"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ab36aa51d2dd28651895818caa781c49bf366f50
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="scenario-overview"></a>Información general del escenario
 Este tema proporciona una visión general de las pruebas de carga completada por el servidor de BizTalk grupo de productos para evaluar la escalabilidad del servidor BizTalk Server cuando se ejecuta en hardware de clase empresarial modernas.  
@@ -48,7 +48,7 @@ Este tema proporciona una visión general de las pruebas de carga completada por
 ## <a name="test-measurements-used"></a>Medidas de prueba usadas  
 Rendimiento de BizTalk Server ha medido con los siguientes criterios:  
   
-1.  **El rendimiento global** : medir con el  **BizTalk: mensajería (*hostname*) \Documents recibidos / seg. ** y  **BizTalk: mensajería (*hostname*) \Documents procesadas / s ** contadores de rendimiento para el servidor BizTalk Server reciban y procesar los hosts.  
+1.  **El rendimiento global** : medir con el **BizTalk: mensajería (*hostname*) \Documents recibidos/seg.** y **BizTalk: mensajería (*denombredehost*) \Documents procesadas por segundo** contadores de rendimiento para el servidor BizTalk Server reciban y procesar los hosts.  
   
 2.  **El uso de CPU** : medido con el **\Processor(_Total)\\% Processor Time** contadores de rendimiento en el servidor de BizTalk] y equipos de SQL Server. Todos los resultados de la prueba completa se revisaron y los cuellos de botella de rendimiento se describen en [observaciones y recomendaciones](../technical-guides/observations-and-recommendations.md).  
   
@@ -184,13 +184,13 @@ Para medir la capacidad de entrada/salida de la configuración de red (SAN) del 
   
 -   **Ubicación física de los archivos de pruebas**:  
   
-    -   H:\testfile.dat 2 25000 0 x 0  
+    -   H:\testfile.dat 2 0x0 25000  
   
-    -   I:\testfile.dat 2 25000 0 x 0  
+    -   I:\testfile.dat 2 0x0 25000  
   
-    -   J:\testfile.dat 2 25000 0 x 0  
+    -   J:\testfile.dat 2 0x0 25000  
   
-    -   K:\testfile.dat 2 25000 0 x 0  
+    -   K:\testfile.dat 2 0x0 25000  
   
  En la tabla siguiente se enumera los resultados de pruebas:  
   

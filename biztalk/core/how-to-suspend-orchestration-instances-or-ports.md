@@ -1,11 +1,11 @@
 ---
-title: "Cómo suspender puertos o instancias de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo suspender puertos o instancias de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, suspending
@@ -20,15 +20,15 @@ helpviewer_keywords:
 - suspending, instances
 - ports, suspending
 ms.assetid: cacc7e58-7d3e-4d6b-adb0-618fdc4f0d89
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 62d91c8d1e02b7283a430f7c82c572b6a989d108
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-suspend-orchestration-instances-or-ports"></a>Cómo suspender puertos o instancias de orquestación
 Puede suspender puertos o instancias de orquestación desde una lista de resultados de consulta de la consola de administración de BizTalk Server.  
@@ -57,4 +57,4 @@ Puede suspender puertos o instancias de orquestación desde una lista de resulta
 7.  En la lista de resultados de la consulta, haga clic en la orquestación activa o el puerto que desea suspender y, a continuación, haga clic en **Suspender instancia** o **suspender instancias**.  
   
 ## <a name="see-also"></a>Vea también  
- [Investigación de orquestación, puerto y errores de mensaje](../core/investigating-orchestration-port-and-message-failures.md)
+ [Investigación de errores de mensaje, orquestación y puerto](../core/investigating-orchestration-port-and-message-failures.md)

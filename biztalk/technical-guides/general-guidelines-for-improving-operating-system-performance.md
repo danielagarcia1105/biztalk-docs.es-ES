@@ -1,22 +1,22 @@
 ---
 title: Directrices generales para mejorar el rendimiento del sistema operativo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc9ca38e-1feb-4f34-a64b-d04566e85db9
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e7be3f8060bba20bc0ba127443095c228f954bba
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="general-guidelines-for-improving-operating-system-performance"></a>Directrices generales para mejorar el rendimiento del sistema operativo
 Deben seguirse las siguientes directrices generales para mejorar el rendimiento del sistema operativo:  
@@ -133,29 +133,29 @@ Deben seguirse las siguientes directrices generales para mejorar el rendimiento 
   
 -   [Puertos necesarios para que BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=153238) (http://go.microsoft.com/fwlink/?LinkID=153238).  
   
--   Para configurar la asignación de puertos dinámicos RPC para trabajar con firewalls, consulte el artículo de Knowledge Base 929851, ["ha cambiado el intervalo de puertos dinámicos predeterminado para TCP/IP en Windows Vista y en Windows Server 2008"](http://go.microsoft.com/fwlink/?LinkID=204568) (HYPERLINK "http:// ¿go.Microsoft.com/fwlink/? LinkID = 204568" http://go.microsoft.com/fwlink/? LinkID = 204568). Para obtener información sobre cómo configurar Firewall de Windows para dar cabida a los puertos necesarios, consulte [Guía de paso a paso de implementación de directiva de IPsec y Firewall de Windows](http://go.microsoft.com/fwlink/?LinkID=204569) (http://go.microsoft.com/fwlink/?LinkID=204569).  
+-   Para configurar la asignación de puertos dinámicos RPC para trabajar con firewalls, consulte el artículo de Knowledge Base 929851, ["ha cambiado el intervalo de puertos dinámicos predeterminado para TCP/IP en Windows Vista y en Windows Server 2008"](http://go.microsoft.com/fwlink/?LinkID=204568) (HYPERLINK "http://go.microsoft.com/fwlink/?LinkID=204568" http://go.microsoft.com/fwlink/?LinkID=204568). Para obtener información sobre cómo configurar Firewall de Windows para dar cabida a los puertos necesarios, consulte [Guía de paso a paso de implementación de directiva de IPsec y Firewall de Windows](http://go.microsoft.com/fwlink/?LinkID=204569) (http://go.microsoft.com/fwlink/?LinkID=204569).  
   
 ## <a name="install-appropriate-com-and-msdtc-hotfix-rollup-packages"></a>Instalar adecuados paquetes de acumulativos de revisiones de COM + y MSDTC  
  Revise la información siguiente para instalar los paquetes de paquete acumulativo de actualizaciones de revisión COM + y MS DTC adecuados:  
   
 -   La revisión de MS DTC puede encontrarse en Microsoft Knowledge Base article978476 ["El problema de MS DTC que se ha corregido en Windows Server 2008 R2 MS DTC paquete acumulativo de revisiones 1"](http://go.microsoft.com/fwlink/?LinkID=204109) (http://go.microsoft.com/fwlink/?LinkID=204109).  
   
--   Encontrará el artículo KB de paquete del paquete acumulativo de actualizaciones de revisión DTC más reciente mediante la búsqueda [http://support.microsoft.com](http://go.microsoft.com/fwlink/?LinkID=96185) (http://go.microsoft.com/fwlink/?LinkID=96185) para la frase (incluidas las comillas):  
+-   Encontrará el artículo KB de paquete del paquete acumulativo de actualizaciones de revisión DTC más reciente mediante la búsqueda [ http://support.microsoft.com ](http://go.microsoft.com/fwlink/?LinkID=96185) (http://go.microsoft.com/fwlink/?LinkID=96185) para la frase (incluidas las comillas):  
   
     ```  
     "MS DTC Hotfix Rollup Package"  
     ```  
   
      La siguiente consulta realiza esta búsqueda para usted. Elegir cuál es el más reciente:   
-    [http://support.Microsoft.com/search/default.aspx?Query= "MS + DTC + + paquete acumulativo de revisiones +"](http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")  
+    [http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")  
   
 ## <a name="use-the-interrupt-affinity-policy-tool-to-bind-network-adapter-interrupts-to-specific-processors-on-multiprocessor-computers"></a>Use la herramienta de directiva de Affinity de interrupción para enlazar interrupciones de adaptador de red con procesadores específicos en equipos con varios procesadores  
  La directiva de Affinity de interrupción (IntPolicy) es una herramienta que le permite cambiar la afinidad de CPU de las interrupciones de un dispositivo determinado (por ejemplo, un adaptador de red) o "enlazar" un procesador específico o procesadores en un equipo multiprocesador. Este enlace también se conoce como creación de particiones. El enlace de interrupciones de un adaptador de red específicas para determinados procesadores en un equipo multiprocesador fuerza la ejecución llamadas a procedimiento diferidas (DPC) y las rutinas de servicio de interrupción (ISR) para el adaptador de red en los procesadores designados. Tenga en cuenta que no se puede configurar la afinidad de interrupción en los equipos de un único procesador.  
   
 > [!NOTE]  
->  Una DPC se define como una llamada a una función de modo kernel que normalmente se ejecutará en un momento posterior en cola. Una ISR se define como una rutina cuyo propósito es un dispositivo de servicio cuando genera una interrupción. Para obtener más información sobre llamadas a procedimiento diferidas y rutinas de servicio de interrupción, consulte el [documentación del Kit de controladores de Windows](http://go.microsoft.com/fwlink/?LinkId=84418) (http://go.microsoft.com/fwlink/?LinkId=84418).  
+>  Una DPC se define como una llamada a una función de modo kernel que normalmente se ejecutará en un momento posterior en cola. Una ISR se define como una rutina cuyo propósito es un dispositivo de servicio cuando genera una interrupción. Para obtener más información sobre llamadas a procedimiento diferidas y rutinas de servicio de interrupción, consulte el [documentación de Windows Driver Kit](http://go.microsoft.com/fwlink/?LinkId=84418) (http://go.microsoft.com/fwlink/?LinkId=84418).  
   
- ![Interrupción &#45; Herramienta de la directiva de afinidad](../technical-guides/media/interrupt-affinitypolicytool.gif "AffinityPolicyTool de interrupción")  
+ ![Interrupción&#45;herramienta de la directiva de afinidad](../technical-guides/media/interrupt-affinitypolicytool.gif "AffinityPolicyTool de interrupción")  
 Herramienta de directivas de Affinity de interrupción  
   
  En equipos multiprocesador que según Windows Server 2008, el comportamiento predeterminado de la controladora de interrupciones es asignar interrupciones del dispositivo a cualquier procesador disponible. Cuando las conexiones de red y sesiones de servidor de archivos para un adaptador de red determinado están enlazados a/particiones para que se ejecute en un conjunto específico de procesadores, en lugar de cualquier procesador disponible, el rendimiento y la escalabilidad del procesamiento de red asociado se ha mejorado. Soluciones de BizTalk Server de gran tamaño a menudo emplean el uso de equipos de SQL Server con varios procesadores con varios adaptadores de red para el que puede ser bastante útil enlace de interrupción.   
@@ -275,7 +275,7 @@ Para deshabilitar los servicios de Windows Server 2008 que no son necesarios par
 ## <a name="manually-load-microsoft-certificate-revocation-lists"></a>Cargar manualmente las listas de revocación de certificados de Microsoft  
  Al iniciar una aplicación. NET, .NET Framework intentará descargar la lista de revocación de certificados (CRL) para cualquier ensamblado firmado. Si el sistema no tiene acceso directo a Internet o está restringido el acceso en el dominio Microsoft.com, esto puede retrasar el inicio del servidor BizTalk Server. Para evitar este retraso al iniciar la aplicación, puede utilizar los pasos siguientes para descargar e instalar el código de firma de listas de revocación de certificados en el sistema manualmente.  
   
-1.  Descargar las últimas actualizaciones CRL de [http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](http://go.microsoft.com/fwlink/?LinkID=117794) (http://go.Microsoft.com/fwlink/?) LinkID = 117794) y [http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](http://go.microsoft.com/fwlink/?LinkId=117795) (http://go.Microsoft.com/fwlink/?) LinkId = 117795).  
+1.  Descargar las últimas actualizaciones CRL de [ http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl ](http://go.microsoft.com/fwlink/?LinkID=117794) (http://go.microsoft.com/fwlink/?LinkID=117794) y [ http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl ](http://go.microsoft.com/fwlink/?LinkId=117795) (http://go.microsoft.com/fwlink/?LinkId=117795).  
   
 2.  Mueva los archivos CodeSignPCA.crl y CodeSignPCA2.crl a la red aislada.  
   

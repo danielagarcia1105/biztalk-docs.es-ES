@@ -1,11 +1,11 @@
 ---
-title: "Cómo BizTalk Server incorpora la limitación de Host | Documentos de Microsoft"
-ms.custom: 
+title: Cómo BizTalk Server incorpora la limitación de Host | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host throttling, rate based throttling
@@ -17,18 +17,18 @@ helpviewer_keywords:
 - host throttling, user controlled throttling
 - host throttling, strategies
 ms.assetid: 46d3c3de-66b9-4c8a-8369-e68563fc9c40
-caps.latest.revision: "27"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1944b61f9710b02f4e6db18a38972849847c532e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-biztalk-server-implements-host-throttling"></a>Cómo implementa BizTalk Server la limitación de host
-El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continuamente, el mecanismo de limitación de host supervisa para una condición de limitación, calcula la gravedad de la condición de limitación y aplica progresivamente la limitación según la gravedad calculada de host. El mecanismo de limitación se ajusta automáticamente y son adecuadas para la mayoría de las opciones de configuración predeterminadas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenarios de procesamiento. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]limitación de host expone varias opciones configurables que pueden usarse para optimizar la limitación en escenarios concretos. Para obtener información acerca de cómo cambiar estas opciones de configuración, consulte [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md).  
+El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] continuamente, el mecanismo de limitación de host supervisa para una condición de limitación, calcula la gravedad de la condición de limitación y aplica progresivamente la limitación según la gravedad calculada de host. El mecanismo de limitación se ajusta automáticamente y son adecuadas para la mayoría de las opciones de configuración predeterminadas [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] escenarios de procesamiento. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] limitación de host expone varias opciones configurables que pueden usarse para optimizar la limitación en escenarios concretos. Para obtener información acerca de cómo cambiar estas opciones de configuración, consulte [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md).  
   
 ## <a name="components-of-the-host-throttling-algorithm"></a>Componentes del algoritmo de limitación de host  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el siguiente algoritmo al aplicar la limitación de host:  

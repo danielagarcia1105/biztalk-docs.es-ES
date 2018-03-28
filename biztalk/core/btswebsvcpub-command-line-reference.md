@@ -16,7 +16,7 @@ ms.openlocfilehash: 9c9993092c0d798ae2d47f614a24da21c3a2df62
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="btswebsvcpub-command-line-reference"></a>Referencia de línea de comandos de BTSWebSvcPub
 Esta sección proporciona información de referencia para la herramientas de línea de comandos de BTSWebSvcPub incluidas en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar BTSWebSvcPub para crear servicios Web (.asmx) para publicar orquestaciones mediante los servicios Web como se muestra a continuación:  
@@ -37,7 +37,7 @@ Esta sección proporciona información de referencia para la herramientas de lí
 |Parámetro|Obligatorio|Description|  
 |---------------|--------------|-----------------|  
 |**Ruta de acceso**|Sí|Ruta de acceso y nombre de archivo de ensamblado de BizTalk (*.dll) o la descripción del servicio web (\*.xml) archivo.|  
-|**-Ubicación**|no|Ubicación de publicación. (Sintaxis:"http://host[:puerto]/ruta")|  
+|**-Ubicación**|no|Ubicación de publicación. (Syntax:"http://host[:port]/path")|  
 |**-Overwrite**|no|Sobrescribir la ubicación especificada.|  
 |**-Anonymous**|no|Permitir el acceso anónimo al servicio Web.|  
 |**-Name**|no|Nombre del ensamblado (archivos .sln y .dll) y de la solución que contiene el servicio Web.|  
@@ -52,7 +52,7 @@ Esta sección proporciona información de referencia para la herramientas de lí
 |**-ApplicationName**|no|Nombre de la aplicación de BizTalk en la que se crean ubicaciones de recepción. Si no se especifica, se utiliza la aplicación de BizTalk predeterminada.|  
   
 ## <a name="sample"></a>Ejemplo  
- BTSWebSvcPub.exe "MyAssembly.dll" -Location: http://localhost/MyVdir  
+ BTSWebSvcPub.exe "MyAssembly.dll"-ubicación:http://localhost/MyVdir  
   
  -Overwrite  
   

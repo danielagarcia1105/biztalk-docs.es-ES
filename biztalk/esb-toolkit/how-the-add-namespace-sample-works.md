@@ -1,22 +1,22 @@
 ---
-title: "Cómo agregar Namespace ejemplo funciona | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar Namespace ejemplo funciona | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c76a90a9-5898-43b3-98af-ff546dd97153
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 212364030353001cae0589d4d7562641db4b77e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-the-add-namespace-sample-works"></a>Cómo agregar Namespace ejemplo funciona
 El primer, segundo y cuarta pruebas utilizan el **agregar Namespace** componente ubicado en la canalización de NamespaceSampleReceivePipeline. Toma como entrada un documento con ningún espacio de nombres en el nodo raíz, como la siguiente:  
@@ -27,10 +27,10 @@ El primer, segundo y cuarta pruebas utilizan el **agregar Namespace** componente
   
  La tabla siguiente muestran los valores de propiedad establecidos para el **agregar Namespace** componente.  
   
-|Propiedad|Tipo|Valor|  
+|Propiedad|Tipo|Value|  
 |--------------|----------|-----------|  
 |ExtractionNodeXPath|Estático|(vacío)|  
-|NamespaceBase|Estático|http://schemas.Microsoft.BizTalk.ESB.Test.com/Test|  
+|NamespaceBase|Estático|http://schemas.microsoft.biztalk.esb.test.com/test|  
 |NamespacePrefix|Estático|esbTest|  
 |Separador|Estático|/|  
 |XPaths|Dinámica|/CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate|  

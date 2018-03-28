@@ -1,26 +1,26 @@
 ---
 title: Configurar el adaptador de archivo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - File adapters, configuring
 - configuring [File adapters], about configuring File adapters
 - configuring [File adapters]
 ms.assetid: 1e0c7e20-80f8-469b-b423-34a2b90f9ec3
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2f2de6a4c4cae93db90f0fb2cfc79321bfc7b3e
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="configure-the-file-adapter"></a>Configurar el adaptador de archivo
 Cómo configurar el adaptador de archivo, lea las recomendaciones de seguridad y ver los permisos necesarios.
@@ -28,7 +28,7 @@ Cómo configurar el adaptador de archivo, lea las recomendaciones de seguridad y
 Puede crear una ubicación de recepción y envío mediante el puerto [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], o mediante programación. En este tema se centra en la [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] consola. Para conocer los pasos mediante programación, vaya a [crear la ubicación de recepción o puerto de envío mediante programación](../core/create-the-receive-location-and-send-port-programmatically.md).
 
 > [!IMPORTANT]
-> **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]** , puede conectarse a un recurso compartido de archivos de Azure con el adaptador de archivo. La cuenta de almacenamiento de Azure se debe montar en el servidor BizTalk Server. [Introducción al almacenamiento de archivos de Azure en Windows](https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-files#mount-the-file-share) se enumeran los pasos de montaje.
+> **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] **, puede conectarse a un recurso compartido de archivos de Azure con el adaptador de archivo. La cuenta de almacenamiento de Azure se debe montar en el servidor BizTalk Server. [Introducción al almacenamiento de archivos de Azure en Windows](https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-files#mount-the-file-share) se enumeran los pasos de montaje.
 
 ## <a name="security-recommendations"></a>Recomendaciones de seguridad
 
@@ -42,7 +42,7 @@ El adaptador de archivo efectúa la transferencia de archivos de BizTalk Server 
   
 ## <a name="required-permissions"></a>Permisos necesarios
 
-Controladores de adaptador que se ejecutan en el contexto de seguridad de la instancia de host seleccionada para el controlador de adaptador. La instancia de host usa la `Logon` propiedad en el  ***nombre de Host* -propiedades de instancia de Host** en administración de BizTalk. Esto `Logon` cuenta debe tener permisos específicos para las carpetas o recursos compartidos utilizados por el adaptador de archivo.
+Controladores de adaptador que se ejecutan en el contexto de seguridad de la instancia de host seleccionada para el controlador de adaptador. La instancia de host usa la `Logon` propiedad en el ** *nombre de Host* -propiedades de instancia de Host** en administración de BizTalk. Esto `Logon` cuenta debe tener permisos específicos para las carpetas o recursos compartidos utilizados por el adaptador de archivo.
 
 La cuenta de usuario de instancia de host utilizada por el controlador requiere los siguientes permisos. Un ✔ significa que se requiere el permiso. Una entrada en blanco significa que no se requiere el permiso.
 

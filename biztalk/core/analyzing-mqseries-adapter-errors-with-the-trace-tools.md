@@ -1,11 +1,11 @@
 ---
 title: Analizar los errores de adaptador de MQSeries con las herramientas de seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Adapter Trace Utility, about Adapter Trace Utility
@@ -18,15 +18,15 @@ helpviewer_keywords:
 - MQSeries adapters, errors
 - Adapter Trace Utility
 ms.assetid: fdc73d99-3b73-491d-9b2f-7064364fefa7
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b53d1d2c0bbe19c54804b553041f8dc9ae4db20c
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a>Analizar los errores de adaptador de MQSeries con las herramientas de seguimiento
 Las herramientas de seguimiento sirven para analizar errores de mensajería al ejecutar la aplicación. El adaptador de MQSeries debe usarse conjuntamente con dos herramientas: una para el adaptador y la aplicación de BizTalk (trace.cmd), y la otra para MQSAgent (MQSTrace.cmd). Ambas herramientas utilizan tracelog.exe. Tendrá que instalar tracelog.exe si no lo tiene.  
@@ -36,7 +36,7 @@ Las herramientas de seguimiento sirven para analizar errores de mensajería al e
 ## <a name="install-the-trace-utility"></a>Instalar la Utilidad de seguimiento  
  Siga este procedimiento para instalar la herramienta Utilidad de seguimiento del adaptador de BizTalk:  
   
-1.  Para descargar el archivo Tracelog.exe, visite el sitio Web de descarga de Microsoft Platform SDK en [http://go.microsoft.com/fwlink/?LinkId=21975](http://go.microsoft.com/fwlink/?LinkId=21975).  
+1.  Para descargar el archivo Tracelog.exe, visite el sitio Web de descarga de Microsoft Platform SDK en [ http://go.microsoft.com/fwlink/?LinkId=21975 ](http://go.microsoft.com/fwlink/?LinkId=21975).  
   
 2.  Inicie el programa de instalación Web de Platform SDK haciendo clic en el vínculo para la **PSDK-x86.exe** archivo en la parte inferior de la página Web.  
   
@@ -76,7 +76,7 @@ Las herramientas de seguimiento sirven para analizar errores de mensajería al e
   
 3.  En el símbolo del sistema, escriba **trace.cmd-stop**, y, a continuación, presione ENTRAR.  
   
-4.  El archivo bts2006.bin contiene la salida de la herramienta de seguimiento. Póngase en contacto con los servicios de soporte técnico de Microsoft para su análisis. Para obtener más información, consulte [http://go.microsoft.com/fwlink/?LinkId=41645](http://go.microsoft.com/fwlink/?LinkId=41645).  
+4.  El archivo bts2006.bin contiene la salida de la herramienta de seguimiento. Póngase en contacto con los servicios de soporte técnico de Microsoft para su análisis. Para obtener más información, consulte [ http://go.microsoft.com/fwlink/?LinkId=41645 ](http://go.microsoft.com/fwlink/?LinkId=41645).  
   
  Siga este procedimiento para ejecutar la Utilidad de seguimiento de MQSAgent:  
   
@@ -86,4 +86,4 @@ Las herramientas de seguimiento sirven para analizar errores de mensajería al e
   
 3.  En el símbolo del sistema, escriba **MQSTrace.cmd-stop**.  
   
-4.  El archivo MQSAdapterTrace.bin contiene la salida de la herramienta de seguimiento. Póngase en contacto con los servicios de soporte técnico de Microsoft para su análisis. Para obtener más información, consulte [http://go.microsoft.com/fwlink/?LinkId=41645](http://go.microsoft.com/fwlink/?LinkId=41645).
+4.  El archivo MQSAdapterTrace.bin contiene la salida de la herramienta de seguimiento. Póngase en contacto con los servicios de soporte técnico de Microsoft para su análisis. Para obtener más información, consulte [ http://go.microsoft.com/fwlink/?LinkId=41645 ](http://go.microsoft.com/fwlink/?LinkId=41645).

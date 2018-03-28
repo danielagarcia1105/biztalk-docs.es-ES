@@ -1,23 +1,24 @@
 ---
-title: "Reparación de un mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Reparación de un mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: repairing messages
+helpviewer_keywords:
+- repairing messages
 ms.assetid: 3a61b73b-5433-4249-b580-6194ccb4aebc
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4489e463257f811fe2c71efea49880940751c66a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="repairing-a-message"></a>Reparación de un mensaje
 En esta sección se describe cómo reparar un mensaje que no se pudo validar.  
@@ -28,7 +29,7 @@ En esta sección se describe cómo reparar un mensaje que no se pudo validar.
   
 2.  En la ventana principal, haga clic en **documentos**.  
   
-3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\<* nombre de departamento*\>**_** Taller de reparación **.  
+3.  En la ventana de documentos, en **las bibliotecas de documentos**, haga clic en  **\< *nombre de departamento*\>**_**taller de reparación**.  
   
 4.  En el \< *nombre de departamento*\>_Repair ventana, haga clic en **Bandeja de entrada**.  
   

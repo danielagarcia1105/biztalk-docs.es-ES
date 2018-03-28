@@ -1,22 +1,22 @@
 ---
-title: "Planeación para enviar y recibir | Documentos de Microsoft"
-ms.custom: 
+title: Planeación para enviar y recibir | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d67e5f7-5127-4c1d-be20-8d8dbb538286
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="planning-for-sending-and-receiving"></a>Planeación para enviar y recibir
 Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptador de recepción y se envían desde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] del adaptador de envío. Dado que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adaptadores de ilustración, por lo que de forma destacada en cualquier [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno, es importante planificar con antelación determinar qué adaptadores o aceleradores va a usar y cómo configurar correctamente estos adaptadores o aceleradores.  
@@ -92,7 +92,7 @@ Casi todos los documentos que es procesado por [!INCLUDE[btsBizTalkServerNoVersi
 ## <a name="biztalk-accelerators"></a>Aceleradores de BizTalk  
  Mientras que los adaptadores de BizTalk trabajar con documentos de envío y recepción con un protocolo determinado, aceleradores de BizTalk están diseñados para albergar el intercambio de documentos de acuerdo con un estándar del sector determinado. Para obtener una lista de los aceleradores de BizTalk disponibles, consulte [Acelerador de Microsoft BizTalk Server](http://go.microsoft.com/fwlink/?LinkId=103609) (http://go.microsoft.com/fwlink/?LinkId=103609).  
   
-##  <a name="BKMK_InternetTrans"></a>Configurar el dominio al exponer transportes a Internet  
+##  <a name="BKMK_InternetTrans"></a> Configurar el dominio al exponer transportes a Internet  
  Para facilitar el envío y recepción de documentos entre su organización y los socios comerciales externos, puede ser necesario exponer los transportes en un sitio orientados al público que sea accesible desde Internet. En estos casos, se recomienda la configuración de dominio siguientes:  
   
 -   **Emplear un dominio de red perimetral (también conocida como zona desmilitarizada (DMZ) o subred filtrada) a servidores de enrutamiento para proporcionar Internet relacionadas con servicios para su organización**  

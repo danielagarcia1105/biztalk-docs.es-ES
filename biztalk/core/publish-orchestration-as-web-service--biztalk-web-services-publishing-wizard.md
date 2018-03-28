@@ -1,11 +1,11 @@
 ---
-title: "Asistente para publicar una orquestación como un servicio Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Asistente para publicar una orquestación como un servicio Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, about BizTalk Web Services Publishing Wizard
 - orchestrations, publishing
 ms.assetid: d990f8e4-88ce-4718-8a94-63796b8d92dc
-caps.latest.revision: "20"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d8c86721091b9a0c9e8436b42a7489e228dbb7e0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-an-orchestration-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar una orquestación como servicio Web
 El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orquestaciones como servicios Web.  
@@ -64,15 +64,15 @@ El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orq
   
 6.  En el **propiedades del servicio Web** página, en la **espacio de nombres de destino del servicio web** cuadro, escriba un espacio de nombres de destino para el servicio Web, seleccione las casillas adecuadas para especificar cómo debe controlar el Asistente SOAP encabezados y SharePoint Portal Server 2007 Single Sign-On (SSO) se admiten para el servicio Web. Si desea personalizar aún más la implementación del servicio Web, haga clic en **avanzadas** botón. Mostrará más opciones disponibles:  
   
-    |Opción|Valor|Description|  
+    |Opción|Value|Description|  
     |------------|-----------|-----------------|  
-    |Estilo de parámetro SOAP|Predeterminado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
-    |Estilo de parámetro SOAP|Reconstrucción|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
-    |Estilo de parámetro SOAP|Ajustado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
-    |Afirmaciones de conformidad|Ninguno|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
-    |Afirmaciones de conformidad|Perfil básico de servicios Web WS-I, versión 1.1|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
+    |Estilo de parámetro SOAP|Predeterminado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
+    |Estilo de parámetro SOAP|Reconstrucción|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
+    |Estilo de parámetro SOAP|Ajustado|Esta opción especifica el modo en que se da formato a los parámetros de un mensaje SOAP. Para obtener más información, vea SoapParameterStyle Enumeration en [ http://go.microsoft.com/fwlink/?LinkId=62259 ](http://go.microsoft.com/fwlink/?LinkId=62259).|  
+    |Afirmaciones de conformidad|None|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [ http://go.microsoft.com/fwlink/?LinkId=193064 ](http://go.microsoft.com/fwlink/?LinkId=193064).|  
+    |Afirmaciones de conformidad|Perfil básico de servicios Web WS-I, versión 1.1|Esta opción especifica la interoperabilidad de servicios Web (WSI) en la que se afirma que el enlace se ajusta. Para obtener más información, vea WebServiceBindingAttribute.ConformsTo Property en [ http://go.microsoft.com/fwlink/?LinkId=193064 ](http://go.microsoft.com/fwlink/?LinkId=193064).|  
     |Forzar solicitud-respuesta|[Predeterminado]|Esta opción especifica si se deben exponer las operaciones de BizTalk unidireccionales como métodos Web de solicitud-respuesta. El valor predeterminado es no forzar el indicador unidireccional.|  
-    |Forzar solicitud-respuesta|No|Esta opción especifica si se deben exponer las operaciones de BizTalk unidireccionales como métodos Web de solicitud-respuesta. El valor predeterminado es no forzar el indicador unidireccional.|  
+    |Forzar solicitud-respuesta|no|Esta opción especifica si se deben exponer las operaciones de BizTalk unidireccionales como métodos Web de solicitud-respuesta. El valor predeterminado es no forzar el indicador unidireccional.|  
     |Forzar solicitud-respuesta|Sí|Esta opción especifica si se deben exponer las operaciones de BizTalk unidireccionales como métodos Web de solicitud-respuesta. El valor predeterminado es no forzar el indicador unidireccional.|  
   
 7.  En el **propiedades del servicio Web** página, haga clic en **siguiente**.  
@@ -97,7 +97,7 @@ El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orq
     > [!NOTE]
     >  La misma combinación de espacio de nombres de destino/nombre de elemento raíz sólo se puede agregar una vez como un encabezado SOAP de solicitud y una vez como encabezado SOAP de respuesta.  
   
-9. En el **proyecto de servicio Web** página, en la **nombre del proyecto** texto, escriba el nombre para el proyecto. Puede aceptar la ubicación predeterminada (http://localhost/ <*Nombre_proyecto*>), escriba una ubicación para el proyecto en el **ubicación del proyecto** cuadro de texto o haga clic en **examinar** y seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
+9. En el **proyecto de servicio Web** página, en la **nombre del proyecto** texto, escriba el nombre para el proyecto. Puede aceptar la ubicación predeterminada (http://localhost/<*Nombre_proyecto*>), escriba una ubicación para el proyecto en el **ubicación del proyecto** cuadro de texto o haga clic en **examinar** y Seleccione un directorio Web. Seleccione cualquiera de las siguientes opciones:  
   
     -   **Sobrescribir proyecto existente.** Esta opción únicamente está disponible si la ubicación del proyecto ya existe. Podrá publicar en la misma ubicación sólo si selecciona esta opción. De lo contrario, debe especificar una ubicación de proyecto diferente.  
   
@@ -106,10 +106,10 @@ El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orq
     -   **Crear BizTalk ubicaciones de recepción.** esta opción crea de forma automática los puertos y las ubicaciones de recepción del adaptador de SOAP que correspondan a cada archivo .asmx generado. Si ya existe una ubicación de recepción, no se sustituirá. Ubicaciones de recepción para el adaptador de SOAP se resuelven mediante el formato /\<*nombre del directorio virtual*\>/\<*namespace_typename_portname de orquestación*  \>.asmx. Después de seleccionar esta opción, elija la aplicación donde se generarán los puertos y las ubicaciones de recepción.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como  **http://<*servername*>/<*Nombre_proyecto*> **.  
+        >  La ubicación del proyecto puede producirse en un servidor distinto. Para publicar un servicio Web en un servidor diferente, escriba el nombre del proyecto como **http://<*servername*>/<*Nombre_proyecto*>**.  
   
         > [!NOTE]
-        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://localhost: 8080 / <*Nombre_proyecto*>.  
+        >  La ubicación del proyecto puede producirse en un sitio Web que no sea predeterminado. Cuando se publique en un sitio Web que no sea predeterminado, incluya el número de puerto del sitio Web en la URL. Por ejemplo, http://localhost:8080/< *Nombre_proyecto*>.  
   
         > [!NOTE]
         >  Al utilizar el asistente para crear ubicaciones de recepción, éstas se crean mediante los valores predeterminados. El valor predeterminado para la canalización de recepción es el **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** canalización. Si los mensajes recibidos a través del servicio Web publicado requieren algún procesamiento de canalización especial (por ejemplo, validación, correlación o promoción de propiedades o asignaciones de entrada/salida), a continuación, debe establecer la canalización de recepción en  **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, o en una canalización personalizada.  

@@ -1,11 +1,11 @@
 ---
 title: Consideraciones al publicar servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, publishing
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - Web services, schemas
 - schemas, Web services
 ms.assetid: 3ace0260-a1cb-4e59-a820-36ee7d5cceda
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 825a16555f0b0c82282ae4d85592567d2a19c073
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="considerations-when-publishing-web-services"></a>Consideraciones al publicar servicios web
 En este tema se proporciona información que debe tener en cuenta antes de publicar servicios Web.  
@@ -33,13 +33,13 @@ En este tema se proporciona información que debe tener en cuenta antes de publi
   
 -   Un sin resolver **schemaLocation** atributo producirá un error  
   
- Para obtener más información acerca del límite del elemento include, vea "Include Element Binding Support" en [http://go.microsoft.com/fwlink/?LinkId=62312](http://go.microsoft.com/fwlink/?LinkId=62312).  
+ Para obtener más información acerca del límite del elemento include, vea "Include Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62312 ](http://go.microsoft.com/fwlink/?LinkId=62312).  
   
 ## <a name="publishing-schemas-and-the-import-element"></a>Publicar esquemas y el elemento import  
- El Asistente para publicar servicios Web de BizTalk Server tiene la misma limitación que el XSD.exe incluido en .NET Framework. Para obtener más información, vea "Import Element Binding Support" en [http://go.microsoft.com/fwlink/?LinkId=62311](http://go.microsoft.com/fwlink/?LinkId=62311).  
+ El Asistente para publicar servicios Web de BizTalk Server tiene la misma limitación que el XSD.exe incluido en .NET Framework. Para obtener más información, vea "Import Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62311 ](http://go.microsoft.com/fwlink/?LinkId=62311).  
   
 ## <a name="publishing-schemas-and-the-redefine-element"></a>Publicar esquemas y el elemento redefine  
- El Asistente para publicar servicios Web de BizTalk Server tiene la misma limitación que el XSD.exe incluido en .NET Framework. Para obtener más información, consulte "Redefine Element Binding Support" en [http://go.microsoft.com/fwlink/?LinkId=62313](http://go.microsoft.com/fwlink/?LinkId=62313).  
+ El Asistente para publicar servicios Web de BizTalk Server tiene la misma limitación que el XSD.exe incluido en .NET Framework. Para obtener más información, consulte "Redefine Element Binding Support" en [ http://go.microsoft.com/fwlink/?LinkId=62313 ](http://go.microsoft.com/fwlink/?LinkId=62313).  
   
 ## <a name="publishing-schemas-that-specify-values-for-minoccurs-or-maxoccurs-attributes"></a>Publicar esquemas que especifiquen valores para los atributos minOccurs o maxOccurs  
  Si publica un esquema que contiene **minOccurs** o **maxOccurs** atributos con valores específicos, estos valores pueden ser diferentes en el esquema expuesto por el servicio Web publicado. Como regla general, todos los atributos minOccurs están convertidos a 0 (minOccurs=0), y los atributos maxOccurs están convertidos a 1 o están sin enlazar (maxOccurs=1 o maxOccurs=sin enlazar).  

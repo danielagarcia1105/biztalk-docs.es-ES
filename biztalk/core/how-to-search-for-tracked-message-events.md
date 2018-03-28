@@ -1,22 +1,22 @@
 ---
-title: "Búsqueda de eventos de mensajes controlados | Documentos de Microsoft"
-ms.custom: 
+title: Búsqueda de eventos de mensajes controlados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18df4cf7-c307-4175-926c-9be9f30b29ed
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b6a3597d0d68dbd79de6c23e7b6d4b222b9c8376
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-search-for-tracked-message-events"></a>Búsqueda de eventos de mensaje de seguimiento
 Puede usar el **nueva consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración para buscar eventos de mensajes controlados.  Desde la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se puede habilitar el seguimiento del cuerpo y las propiedades de mensajes. En el panel Resultados de la consulta se puede ver información acerca del evento de mensaje, incluida la información de esquema, el tipo de evento, el identificador de instancia de servicio y todas las propiedades promocionadas para el mensaje generado.  
@@ -44,7 +44,7 @@ Puede usar el **nueva consulta** pestaña en el [!INCLUDE[btsBizTalkServerNoVers
     |**Hora de creación**|Hora de creación del mensaje.|  
     |**Tipo de evento**|El tipo de evento que se supervisa.|  
     |**N.º máximo de coincidencias**|Número de coincidencias que se van a mostrar.|  
-    |**Entidad**|La organización que envió el mensaje.|  
+    |**entidad**|La organización que envió el mensaje.|  
     |**Puerto**|El puerto usado para procesar el mensaje.|  
     |**Nombre del esquema**|Nombre del esquema que usa el mensaje.|  
     |**Id. de instancia de servicio**|El identificador de instancia de servicio que se usa para el mensaje.|  

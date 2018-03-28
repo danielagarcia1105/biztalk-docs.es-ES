@@ -1,25 +1,25 @@
 ---
-title: "Módulo 1: Crear una solución sencilla | Documentos de Microsoft"
-ms.custom: 
+title: 'Módulo 1: Crear una solución sencilla | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT solutions
 - tutorial, creating SWIFT solutions
 ms.assetid: 550af497-abd2-4044-8c6f-15f9dba0ac5d
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f46ae3000577d747fbebd9c09dead9ecebf72169
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="module-1-creating-a-swift-solution"></a>Módulo 1: Crear una solución sencilla
 En este módulo, cree una solución de BizTalk en blanco. En la primera lección, cree una nueva solución mediante el uso de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. También crea los proyectos individuales que contienen los componentes de la solución de BizTalk como esquema, asignaciones, orquestaciones y componentes de canalización.  
@@ -36,10 +36,10 @@ En este módulo, cree una solución de BizTalk en blanco. En la primera lección
   
 4.  En el **nombre** , escriba **SWIFTProject** como el nombre de la solución.  
   
-5.  En el **ubicación** , escriba  **\<* unidad*\>: \labs**.  
+5.  En el **ubicación** , escriba  **\< *unidad*\>: \labs**.  
   
 6.  Haga clic en **Aceptar** para abrir el nuevo proyecto.  
   
-     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]crea una solución vacía en el Explorador de soluciones y una nueva solución en blanco en el \< *unidad*:\>\labs carpeta.  
+     [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] crea una solución vacía en el Explorador de soluciones y una nueva solución en blanco en el \< *unidad*:\>\labs carpeta.  
   
  Continúe con [módulo 2: agregar un nuevo proyecto de esquemas](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md).

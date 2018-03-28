@@ -1,23 +1,23 @@
 ---
 title: Instalar y configurar el Kit de herramientas de Microsoft BizTalk ESB | Documentos de Microsoft
 description: Instrucciones de paso por pasos para instalar y configurar el Kit de herramientas de ESB en BizTalk Server
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 698843f7-8361-4d02-9278-0e66f2a9f472
 ms.author: mandia
 ms.openlocfilehash: 33805fe58298e4f4729161a62742d3b204996b00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-esb-toolkit"></a>Instalar y configurar el Kit de herramientas de Microsoft BizTalk ESB
 A partir de BizTalk Server 2013 y versiones posteriores, [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] se integra con la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] el programa de instalación. Este tema muestra cómo instalar y configurar [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]y también incluye un vínculo escrito por la Comunidad para actualizar el Kit de herramientas de ESB.  
@@ -100,7 +100,7 @@ Se crea un archivo de registro de instalación, similar a 'C:\Users\yourUserName
     -   Seleccione **aplicar configuración** para crear las aplicaciones que ha seleccionado. Asegúrese de que las aplicaciones se han creado en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="upgrade-esb-toolkit--community-addition"></a>Actualizar el Kit de herramientas ESB: adición de la Comunidad  
- [In-place upgrade of ESB Toolkit 2.1 to 2.2](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (Actualización in situ del kit de herramientas de ESB 2.1 a 2.2) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
+ [Actualización de ESB Toolkit 2.1 a 2.2 in situ](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) ()http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
 
 ## <a name="see-also"></a>Vea también
 [Solucionar problemas de errores & resoluciones de problemas de instalación y comunes](troubleshooting-the-biztalk-esb-toolkit.md)

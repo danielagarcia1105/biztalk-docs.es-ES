@@ -1,22 +1,22 @@
 ---
-title: "Información general sobre el proceso de desarrollo de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el proceso de desarrollo de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 098db3f6-2a61-4cc8-88c7-2299c2e2a55e
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 78ae5f1c61f2a00359e88acd75c093e2b6c2fb91
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="overview-of-the-bam-development-process"></a>Información general sobre el proceso de desarrollo con BAM
 En este tema se describen el proceso de desarrollo, así como las bases de datos y tablas que almacenan los datos de BAM.  
@@ -48,7 +48,7 @@ En este tema se describen el proceso de desarrollo, así como las bases de datos
 1.  Cree un modelo de observación con el complemento BAM para Excel.  
   
     > [!NOTE]
-    >  Ejemplos de los pasos de este procedimiento pueden encontrarse en la API de BAM (ejemplo de BizTalk Server) en [http://go.microsoft.com/fwlink/?LinkId=69968](http://go.microsoft.com/fwlink/?LinkId=69968).  
+    >  Ejemplos de los pasos de este procedimiento pueden encontrarse en la API de BAM (ejemplo de BizTalk Server) en [ http://go.microsoft.com/fwlink/?LinkId=69968 ](http://go.microsoft.com/fwlink/?LinkId=69968).  
   
 2.  Utilice la utilidad de administración de BAM para implementar la actividad en la base de datos de importación principal (BDIP).  
   
@@ -60,7 +60,7 @@ En este tema se describen el proceso de desarrollo, así como las bases de datos
   
     -   Actualizar los elementos de datos del registro.  
   
-    -   Finalizar la actividad y mover el registro a la tabla BAM_\<*nombre de la actividad**\>tabla _completed.  
+    -   Finalizar la actividad y mover el registro a la tabla BAM_\<* nombre de actividad **\>tabla _completed.  
   
 ## <a name="where-bam-data-is-stored"></a>¿Dónde se guardan los datos de BAM?  
  BAM proporciona el espacio de nombres EventObservation que contiene las clases EventStream usadas para controlar los eventos de BAM.  

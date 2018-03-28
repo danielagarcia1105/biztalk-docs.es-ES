@@ -1,22 +1,22 @@
 ---
-title: "Cómo mover la Database2 de esquema de estrella de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database2 de esquema de estrella de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6832ac2-c8c5-4515-883e-26d125d6ace0
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d74e49cc1504547bff80bd2688383f1f6bea053c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a>Cómo mover la base de datos de esquema de estrella de BAM
 Este procedimiento se puede utilizar para mover la base de datos de esquema de estrella de BAM a otro servidor.  Desde una perspectiva de escenario to-end, mover la base de datos de esquema de estrella de BAM consta de dos pasos principales:  
@@ -28,7 +28,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro del rol fijo de servidor sysadmin de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
-##  <a name="BKMK_StarMoveDB"></a>Mover la base de datos de esquema de estrella de BAM  
+##  <a name="BKMK_StarMoveDB"></a> Mover la base de datos de esquema de estrella de BAM  
  Realice los pasos en el siguiente procedimiento para mover la base de datos de esquema de estrella de BAM.  
   
 #### <a name="to-move-the-bam-star-schema-database"></a>Para mover la base de datos de esquema de estrella de BAM  
@@ -53,7 +53,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 7.  Restaure la base de datos de esquema de estrella de BAM en el nuevo servidor. Para obtener instrucciones acerca de cómo restaurar la base de datos, siga las instrucciones de [Cómo: restaurar una copia de seguridad de base de datos (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511) en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla acerca de cómo restaurar una base de datos.  
   
-##  <a name="BKMK_StarUpdate"></a>Actualizar las referencias a la nueva base de datos de esquema de estrella de BAM  
+##  <a name="BKMK_StarUpdate"></a> Actualizar las referencias a la nueva base de datos de esquema de estrella de BAM  
  Después de haber movido la base de datos, debe actualizar todas las referencias a la base de datos de esquema de estrella de BAM nueva. Deben actualizar las referencias siguientes:  
   
 -   Actualizar la configuración de BAM con los nuevos nombres de base de datos y el servidor. Vea [para actualizar la configuración de BAM](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_StarUpdateBAMConfig).  
@@ -62,7 +62,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 -   Actualice los nombres de servidor y base de datos nueva en orígenes de datos para todos los cubos OLAP no. Vea [para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP no](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_UpdateDS_non_OLAP).  
   
-###  <a name="BKMK_StarUpdateBAMConfig"></a>Para actualizar la configuración de BAM  
+###  <a name="BKMK_StarUpdateBAMConfig"></a> Para actualizar la configuración de BAM  
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
@@ -103,9 +103,9 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 6.  En el símbolo del sistema, escriba:  
   
-     **bm.exe update-config-FileName:BAMConfiguration.xml**  
+     **bm.exe update-config -FileName:BAMConfiguration.xml**  
   
-###  <a name="BKMK_StarUpdateRef"></a>Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
+###  <a name="BKMK_StarUpdateRef"></a> Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
   
 1.  Actualice los nombres de servidor y base de datos en todos los paquetes SSIS análisis BAM, que tienen el prefijo "Bam_an_". Para ello, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2** o **Microsoft SQL Server 2008 SP1**y, a continuación, haga clic en **SQL Server Business Intelligence Development Studio**.  
   
@@ -164,7 +164,7 @@ Este procedimiento se puede utilizar para mover la base de datos de esquema de e
   
 23. Habilite todos los paquetes SSIS de mantenimiento de datos y de actualización de cubos de SAE.  
   
-###  <a name="BKMK_UpdateDS_non_OLAP"></a>Para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP no  
+###  <a name="BKMK_UpdateDS_non_OLAP"></a> Para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP no  
   
 1.  Actualice los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP no. Para ello, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2** o **Microsoft SQL Server 2008 SP1**y, a continuación, haga clic en **SQL Server Management Studio**.  
   

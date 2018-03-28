@@ -1,22 +1,22 @@
 ---
-title: "Paso 2: Modificar o crear el envío y puertos de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Modificar o crear el envío y puertos de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d96d02c-b75d-4d18-a127-37002c5ff138
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0fa94183f0eb83dc51fc0add22ba50484f7282fb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a>Paso 2: Modificar o crear el envío y puertos de recepción
 Necesitará envío de archivos y los puertos de recepción para el lote en / lote tutorial. Si hace clic en el **iniciar Tutorial** botón al final de la instalación de la edición Enterprise de [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] crea estos puertos: un puerto de envío denominado Tutorial_BTAHL7Drop y un puerto de recepción denominado Tutorial_BTAHL7PickUp. Si dispone de estos puertos, deberá modificar el puerto de envío Tutorial_BTAHL7Drop.  
@@ -33,7 +33,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
 4.  En el árbol de consola, haga clic en **filtros**.  
   
-5.  En el **filtros** panel, en la segunda fila, seleccione **BTAHL7Schemas.MessageClass** para **propiedades**, seleccione  **==**  para **Operador**y el tipo de **MessageClass2X** para **valor**. Haga clic en **Entrar**.  
+5.  En el **filtros** panel, en la segunda fila, seleccione **BTAHL7Schemas.MessageClass** para **propiedades**, seleccione **==** para **Operador**y el tipo de **MessageClass2X** para **valor**. Haga clic en **Entrar**.  
   
 6.  Establecer **Agrupar por** en el **BTS. ReceivePortName** línea a **o**y, a continuación, haga clic en **Aceptar**.  
   
@@ -68,7 +68,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de recepción**|Vaya a  **\<**  *unidad***\>: \Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_BTAHL7PickUp**. **Nota:** trata la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público desde donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] recogerá el archivo.|  
+    |**Carpeta de recepción**|Vaya a  **\< ***unidad***\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7PickUp**. **Nota:** trata la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público desde donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] recogerá el archivo.|  
     |**Máscara de archivo**|Tipo de  **\*.txt**.|  
   
 12. Haga clic en **Aceptar**.  
@@ -100,7 +100,7 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
   
     |Use|Para|  
     |--------------|----------------|  
-    |**Carpeta de destino**|Vaya a  **\<**  *unidad***:\>\Program BizTalk \<versión\> acelerador HL7\SDK\End-to-end Tutorial\Tutorial_BTAHL7Drop**. **Nota:** se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo.|  
+    |**Carpeta de destino**|Vaya a  **\< ***unidad***:\>\Program BizTalk \<versión\> Acelerador para HL7\SDK\End-to-End Tutorial\Tutorial_BTAHL7Drop**. **Nota:** se trata de la ruta de acceso a la ubicación en el sistema de archivos o un recurso compartido público al que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] escribirá el archivo.|  
     |**Nombre de archivo**|Tipo de **%MessageID%.txt** (tenga en cuenta que la extensión txt, xml no).|  
   
 4.  Haga clic en **Aceptar**.  
@@ -112,11 +112,11 @@ Necesitará envío de archivos y los puertos de recepción para el lote en / lot
     |Use|Para|  
     |--------------|----------------|  
     |**Propiedad**|Seleccione **BTS. ReceivePortName** en la lista desplegable.|  
-    |**Operador**|Deje  **==**  como el operador.|  
+    |**Operador**|Deje **==** como el operador.|  
     |**Valor**|Tipo de **Tutorial_BTAHL7PickUp**.|  
     |**Agrupar por**|Seleccione **o** en la lista desplegable.|  
     |**Propiedad**|Seleccione **BTAHL7Schemas.MessageClass**.|  
-    |**Operador**|Deje  **==**  como el operador.|  
+    |**Operador**|Deje **==** como el operador.|  
     |**Valor**|Tipo de **MessageClass2X**.|  
   
 7.  Haga clic en **Entrar**. En el panel en la parte inferior del cuadro de diálogo, compruebe que la expresión de filtro es correcta.  

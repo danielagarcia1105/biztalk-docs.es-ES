@@ -1,22 +1,22 @@
 ---
-title: "Uso de la característica con canalizaciones de pruebas de unidades | Documentos de Microsoft"
-ms.custom: 
+title: Uso de la característica con canalizaciones de pruebas de unidades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d58bfa4-322b-455f-a062-5bd44d368f57
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca19a58410014b9ea7c0c49df7420b439a544581
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>Uso de la característica de pruebas de unidades con canalizaciones
 En este tema se muestra el modo de usar la función de pruebas de unidad para agregar una prueba de unidad para la canalización al ejemplo de canalización FlatFileReceive. Pruebas unitarias de canalización están similar a la herramienta Pipeline.exe que se documenta aquí: [herramientas de canalización](../core/pipeline-tools.md). Cuando se habilitación la pruebas unitarias en el **implementación** ficha de propiedades del proyecto, la clase de canalización en el proyecto se deriva de **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**.  Esta clase modela parte de la misma funcionalidad expuesta por la herramienta Pipeline.exe.  
@@ -119,7 +119,7 @@ En este tema se muestra el modo de usar la función de pruebas de unidad para ag
   
 4.  En el directorio TestResults, examine el archivo *.out. Este archivo debe contener el nuevo mensaje procesado por la canalización.  Debe estar ubicado en un directorio similar al siguiente:  
   
-     C:\Program Files\Microsoft BizTalk Server \<versión\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
+     C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
      El mensaje procesado debe ser similar al siguiente:  
   

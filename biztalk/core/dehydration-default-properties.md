@@ -1,22 +1,22 @@
 ---
-title: "Propiedades predeterminadas de deshidratación | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades predeterminadas de deshidratación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68c59def-d73b-4880-9884-ccbe5d982f4b
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ff78b1e096f1a73675ffc02550794f5a300f5614
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="dehydration-default-properties"></a>Propiedades predeterminadas de deshidratación
 A continuación se proporcionan los nombres de las propiedades de deshidratación y sus valores predeterminados. Estas propiedades se pueden configurar en [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] o como XML en el archivo de configuración de BizTalk (BTSNTSvc.exe.config o BTSNTSvc64.exe.config). Los valores del archivo de configuración de BizTalk se aplican antes. A continuación, se aplica la configuración de [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]. Las propiedades de deshidratación se leen cuando se inician todas las instancias de host que contienen una orquestación.  
@@ -38,7 +38,7 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
 -   **OptimalUsage** = 900  
   
--   **MaximalUsage** = 1300  
+-   **MaximalUsage** =  1300  
   
 -   **IsActive** = true  
   
@@ -46,7 +46,7 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
 -   **OptimalUsage** = 50  
   
--   **MaximalUsage** = 350  
+-   **MaximalUsage** =  350  
   
 -   **IsActive** = true  
   
@@ -54,7 +54,7 @@ A continuación se proporcionan los nombres de las propiedades de deshidratació
   
 -   **OptimalUsage** = 90  
   
--   **MaximalUsage** = 95  
+-   **MaximalUsage** =  95  
   
 -   **IsActive** = false  
   

@@ -1,22 +1,22 @@
 ---
-title: "Apéndice A: instalación silenciosa | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice A: instalación silenciosa | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94ded6b3-13ca-47e6-a038-254514f500e7
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c03568f86b8c3b609fed74a9faf7f6057614151c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="appendix-a-silent-installation"></a>Apéndice A: Instalación silenciosa
 En este tema se indican los pasos necesarios para crear una instalación silenciosa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -27,7 +27,7 @@ En este tema se indican los pasos necesarios para crear una instalación silenci
   
 2.  Vaya a la ubicación de instalación. En el símbolo del sistema, escriba `setup.exe /``<command name> <options>` y pulse **ENTRAR**. El archivo de registro muestra el estado de la instalación.  
   
-|Nombre de comando|Opción|Descripción|  
+|Nombre de comando|Opción|Description|  
 |------------------|------------|-----------------|  
 |/HELP, /? o /H||Proporciona ayuda y una referencia rápida.|  
 |/QUIET||Suprime la interfaz de usuario durante la instalación, todos los cuadros de diálogo, los errores, o los mensajes que soliciten la intervención del usuario. Todos los mensajes se ingresan en el archivo de registro de instalación. **Nota:** No se puede especificar la marca Silencioso para actualizaciones, ya que estas requieren la confirmación del usuario para las opciones seleccionadas.|  
@@ -38,7 +38,7 @@ En este tema se indican los pasos necesarios para crear una instalación silenci
 |/FORCERESTART||Siempre fuerza un reinicio una vez finalizada la instalación.|  
 |/PROMPTRESTART||Pregunta al usuario antes de reiniciar.|  
 |/X o /UNINSTALL||Desinstala [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].|  
-|/L|\<Archivo de registro\> [i] [w] [e] [a] [r] [u] [c] [m] [p] [v] [*]|Escribe información de registro en un archivo de registro en la ruta de acceso especificada. Siempre usa el registro de Windows Installer detallado y lo anexa a un archivo existente.<br /><br /> Los siguientes marcadores especifican la información que se va a registrar:<br /><br /> i: mensajes de estado<br /><br /> w: advertencias no graves<br /><br /> e: todos los mensajes de error<br /><br /> a: inicio de acciones<br /><br /> r: registros específicos para la acción<br /><br /> u: solicitudes de usuario<br /><br /> c: parámetros iniciales de la interfaz de usuario<br /><br /> m: memoria insuficiente<br /><br /> p: propiedades de terminal<br /><br /> v: información detallada<br /><br /> *: todo|  
+|/L|\<Logfile\> [i][w][e][a][r][u][c][m][p][v][*]|Escribe información de registro en un archivo de registro en la ruta de acceso especificada. Siempre usa el registro de Windows Installer detallado y lo anexa a un archivo existente.<br /><br /> Los siguientes marcadores especifican la información que se va a registrar:<br /><br /> i: mensajes de estado<br /><br /> w: advertencias no graves<br /><br /> e: todos los mensajes de error<br /><br /> a: inicio de acciones<br /><br /> r: registros específicos para la acción<br /><br /> u: solicitudes de usuario<br /><br /> c: parámetros iniciales de la interfaz de usuario<br /><br /> m: memoria insuficiente<br /><br /> p: propiedades de terminal<br /><br /> v: información detallada<br /><br /> *: todo|  
 |/IGNOREDEPENDENCIES||Omite las comprobaciones de los requisitos previos descargables.|  
 |/ INSTALLDIR \< *la ruta de instalación*\>|\<*carpeta archivos de programa\>*|Especifica la ruta de acceso completa a la ubicación de instalación del producto.|  
 |/COMPANYNAME|\<*nombre de la compañía*\>|Establece el nombre de la empresa o la organización.|  

@@ -1,22 +1,22 @@
 ---
-title: "Cómo mover la Database2 de importación principal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database2 de importación principal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: fd6abeeb04521e95b32b4d6007dcc7f1f532bdbb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>Cómo mover la base de datos de importación principal de BAM
 Este procedimiento se puede utilizar para mover la base de datos de importación principal de BAM a otro servidor. Desde una perspectiva de escenario to-end, mover la base de datos de importación principal de BAM consta de dos pasos principales:  
@@ -28,7 +28,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro del rol fijo de servidor sysadmin de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
-##  <a name="BKMK_MovingBAMPI"></a>Mover la base de datos de importación principal de BAM  
+##  <a name="BKMK_MovingBAMPI"></a> Mover la base de datos de importación principal de BAM  
  Realice los pasos en el siguiente procedimiento para mover la base de datos de importación principal de BAM.  
   
 #### <a name="to-move-the-bam-primary-import-database"></a>Para mover la base de datos de importación principal de BAM  
@@ -56,7 +56,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
     > [!NOTE]  
     >  Si restaura la base de datos de importación principal de BAM a partir de una copia de seguridad, también debe restaurar las bases de datos de archivo de BAM, de esquema de estrella de BAM y de análisis de BAM mediante una copia de seguridad anterior a la principal de BAM.  
   
-##  <a name="BKMK_BAMPIRef"></a>Actualizar las referencias a la nueva base de datos de importación principal de BAM  
+##  <a name="BKMK_BAMPIRef"></a> Actualizar las referencias a la nueva base de datos de importación principal de BAM  
  Después de haber movido la base de datos, debe actualizar todas las referencias a la base de importación principal de BAM nueva. Deben actualizar las referencias siguientes:  
   
 -   Actualizar todas las bases de datos de BizTalk con el nuevo nombre del servidor. Puede hacerlo mediante el uso de la secuencia de comandos UpdateDatabase.vbs. Vea [para actualizar las bases de datos de BizTalk con el nuevo nombre del servidor](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_UpdateDB).  
@@ -69,13 +69,13 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 -   Actualice los nombres de servidor y base de datos nueva en orígenes de datos para todos los cubos OLAP. Vea [para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_UpdateDSOLAP).  
   
-###  <a name="BKMK_UpdateDB"></a>Para actualizar las bases de datos de BizTalk con el nuevo nombre del servidor  
+###  <a name="BKMK_UpdateDB"></a> Para actualizar las bases de datos de BizTalk con el nuevo nombre del servidor  
   
 1.  En un equipo que ejecuta BizTalk Server, vaya a la siguiente carpeta:  
   
     -   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una versión de 64 bits de Windows Server:  
   
-         **% ProgramFiles (x86) %\Microsoft BizTalk Server 2010\bins32\Schema\Restore**  
+         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\bins32\Schema\Restore**  
   
     -   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una versión de 32 bits de Windows Server:  
   
@@ -105,7 +105,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
     -   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una versión de 64 bits de Windows Server:  
   
-         **% ProgramFiles (x86) %\Microsoft BizTalk Server 2010\Schema\Restore**  
+         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
     -   Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está instalado en una versión de 32 bits de Windows Server:  
   
@@ -115,7 +115,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
      **cscript UpdateDatabase.vbs SampleUpdateInfo.xml**  
   
-###  <a name="BKMK_Config"></a>Para actualizar el archivo Web.config del portal de BAM  
+###  <a name="BKMK_Config"></a> Para actualizar el archivo Web.config del portal de BAM  
   
 1.  En un equipo que ejecuta BizTalk Server, actualice los archivos Web.config en  **\<unidad\>: \Program 2010\BAMPortal\BAMManagementService\Web.Config BizTalk Server**. Actualice los nombres de servidor y base de datos en la sección siguiente en el archivo Web.config:  
   
@@ -138,7 +138,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 3.  Guarde y cierre los archivos.  
   
-###  <a name="BKMK_UpdateExcel"></a>Para actualizar la referencia en los archivos de Excel de Microsoft de datos activos de BAM  
+###  <a name="BKMK_UpdateExcel"></a> Para actualizar la referencia en los archivos de Excel de Microsoft de datos activos de BAM  
   
 1.  Abra el archivo de datos activos de Excel. El nombre de archivo finaliza con _LiveData.xls.  
   
@@ -150,7 +150,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 5.  En el menú **Archivo** , haga clic en **Guardar**.  
   
-###  <a name="BKMK_UpdatePckg"></a>Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
+###  <a name="BKMK_UpdatePckg"></a> Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
   
 1.  Actualice los nombres de servidor y base de datos en todos los paquetes SSIS análisis BAM, que tienen el prefijo "BAM_AN_" o "BAM_DM_". Para ello, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2** o **Microsoft SQL Server 2008 SP1**y, a continuación, haga clic en **SQL Server Business Intelligence Development Studio**.  
   
@@ -202,7 +202,7 @@ Este procedimiento se puede utilizar para mover la base de datos de importación
   
 21. Habilite todos los paquetes SSIS de mantenimiento de datos y de actualización de cubos de SAE.  
   
-###  <a name="BKMK_UpdateDSOLAP"></a>Para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP  
+###  <a name="BKMK_UpdateDSOLAP"></a> Para actualizar los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP  
   
 1.  Actualice los nombres de servidor y base de datos en orígenes de datos para todos los cubos OLAP. Para ello, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2** o **Microsoft SQL Server 2008 SP1**y, a continuación, haga clic en **SQL Server Management Studio**.  
   

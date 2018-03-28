@@ -1,22 +1,22 @@
 ---
 title: Ejecutar un comando Get de ejemplo de PeopleSoft Enterprise | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb54f14c-3fce-44d6-91bb-cb1ca38a20da
-caps.latest.revision: "27"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 29cf6bba03e6a43bb3fdedf0742741e48ac22dd6
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="execute-a-peoplesoft-enterprise-sample-get"></a>Ejecutar un comando Get de ejemplo de PeopleSoft Enterprise
 Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de PeopleSoft. Este adaptador se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
@@ -148,7 +148,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:  
   
-     **Nombre de tipo de puerto**:`FileInPort`  
+     **Nombre de tipo de puerto**: `FileInPort`  
   
      **Patrón de comunicación**: **Unidireccional**  
   
@@ -172,7 +172,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En la página **Seleccionar un tipo de puerto** , seleccione **Crear un nuevo tipo de puerto**y escriba o seleccione los siguientes valores para las propiedades:  
   
-     **Nombre de tipo de puerto**:`FileOutPort`  
+     **Nombre de tipo de puerto**: `FileOutPort`  
   
      **Patrón de comunicación**: **Unidireccional**  
   
@@ -196,7 +196,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En la página **Seleccione un tipo de puerto** , seleccione **Utilizar un tipo de puerto existente**. Para **Tipos de puertos disponibles**, seleccione **PS_Test.LOCATION**y haga clic en **Siguiente**.  
   
-     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294D-4124-a29d-aeb42bbb107e")  
+     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
   
 4.  Haga clic en **Siguiente** para ir a la página **Enlace de puerto** y seleccione los siguientes valores de propiedades:  
   
@@ -288,7 +288,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione  **\<esquema\>**  y establecer **referencia raíz: obtener**.  
+3.  Haga clic en **Aceptar.** En la ventana Propiedades, seleccione **\<esquema\>** y establecer **referencia raíz: obtener**.  
   
 4.  Haga clic con el botón secundario en **LOCATIONService_LOCATION_x5d.xsd** y, a continuación, haga clic en **Generar instancia**. De este modo se genera el archivo **SampleQuery.xml** . Este archivo se colocará en la ubicación de recepción como entrada del adaptador para iniciar el proceso de orquestación.  
   
@@ -326,7 +326,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
      ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  Haga clic en  **\<ninguno\>**  para **PeopleSoft_Port** en la lista desplegable.  
+8.  Haga clic en **\<ninguno\>** para **PeopleSoft_Port** en la lista desplegable.  
   
 9. Seleccione **Nuevo puerto de envío** y, a continuación, seleccione o escriba los siguientes valores para las propiedades.  
   
@@ -356,7 +356,7 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 11. Haga clic en **Aceptar** dos veces para cerrar los cuadros de diálogo.  
   
-12. En el Applicationwindow configurar, haga clic en  **\<ninguno\>**  para **FileOut** en la lista desplegable.  
+12. En el Applicationwindow configurar, haga clic en **\<ninguno\>** para **FileOut** en la lista desplegable.  
   
 13. Seleccione **Nuevo puerto de envío** y escriba o seleccione los siguientes valores para las propiedades:  
   
@@ -395,9 +395,9 @@ Se puede obtener acceso al sistema PeopleSoft desde un sistema [!INCLUDE[btsBizT
   
 3.  En unos segundos debe aparecer un archivo XML en la carpeta **C:\Labs\PS_Test\FileOut** , que debe contener los datos del registro donde la ubicación es AUS01.  
   
-     ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-B200-c3c550079ccb")  
+     ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
   
-     Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft. Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el  **\<ubicación: ADDRESS1\>**  y  **\<ubicación: ADDRESS2\>**  campos, podrá comprobar que el **obtener** método ha funcionado correctamente.  
+     Estos datos de registro devueltos deben coincidir con lo que devolvió la consulta en el sistema PeopleSoft en la práctica 1 de PeopleSoft. Comparando los valores que obtuvo en la práctica 1, específicamente el **Address1** y **Address2** líneas, al que se muestra a continuación en el **\<ubicación: ADDRESS1\>** y **\<ubicación: ADDRESS2\>** campos, podrá comprobar que el **obtener** método ha funcionado correctamente.  
   
 ## <a name="summary"></a>Resumen  
  En esta práctica, primero comprobó que los requisitos previos estaban correctamente configurados para obtener acceso al sistema PeopleSoft. A continuación, usó [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para crear un nuevo proyecto de BizTalk que contiene una orquestación. Configuró la orquestación de BizTalk para usar el adaptador de PeopleSoft con el fin de obtener datos del sistema PeopleSoft. Para configurar la orquestación, creó puertos de envío, recepción y envío/recepción. Enlazó estos puertos al adaptador de PeopleSoft y asignó mensajes a los puertos correspondientes.  

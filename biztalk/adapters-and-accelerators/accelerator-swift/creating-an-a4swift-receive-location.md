@@ -1,25 +1,25 @@
 ---
-title: "Crear una A4SWIFT la ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Crear una A4SWIFT la ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
 - creating, receive locations
 ms.assetid: 712cf42f-8d71-47e9-b2bf-3da158b74fe4
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 11c77b7b28c65c4743998f7d4c54d9c7cd48437f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-an-a4swift-receive-location"></a>Crear una A4SWIFT la ubicación de recepción
 Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] ubicación de recepción para habilitar la recepción de mensajes de la red SWIFT mediante [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], tal y como se muestra en la ilustración siguiente. La ubicación de recepción recibe mensajes de archivo sin formato desde una carpeta de archivo de entrada.  
@@ -69,7 +69,7 @@ Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-
     > [!NOTE]
     >  Si esta carpeta no existe, puede crearlo mediante el **crear nueva carpeta** comando.  
   
-12. En el cuadro de diálogo Propiedades de transporte de archivo, en la **máscara de archivo** cuadro, escriba  **\*.\<* extensión*\>**, donde \<* extensión* \> es la extensión de la entrada de archivo sin formato del mensaje, por ejemplo, como **.txt**. Haga clic en **Aceptar**.  
+12. En el cuadro de diálogo Propiedades de transporte de archivo, en la **máscara de archivo** cuadro, escriba  **\*.\< *extensión*\>**, donde \< *extensión* \> es la extensión del entrante mensaje de archivo sin formato, como **.txt**. Haga clic en **Aceptar**.  
   
 13. En el cuadro de diálogo Propiedades de la ubicación de recepción, asegúrese de que **BizTalkServerApplication** se haya especificado para la **controlador de recepción** cuadro.  
   

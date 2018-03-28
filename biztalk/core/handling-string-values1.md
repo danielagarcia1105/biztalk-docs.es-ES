@@ -1,11 +1,11 @@
 ---
 title: Control de cadena Values1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - jdearglist.txt, configuring strings
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - strings, configuring
 - strings, right-justified
 ms.assetid: a180b818-1009-45f5-a503-d10ed7dd27fc
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6f32b29b9a8688fe8402730c1db8f12e42a67bab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="handling-string-values"></a>Control de valores de cadena
 En este tema se describe cómo configurar ciertos argumentos de cadena como justificado a la derecha (y relleno a la izquierda).  
@@ -87,4 +87,4 @@ B4200310.*.szBusinessUnit
   
 ## <a name="see-also"></a>Vea también  
  [Configuración de justificación de cadena en Jdearglist](../core/setting-string-justification-in-jdearglist.md)   
- [Apéndice A: tipos de datos](../core/appendix-a-data-types.md)
+ [Apéndice A: Tipos de datos](../core/appendix-a-data-types.md)

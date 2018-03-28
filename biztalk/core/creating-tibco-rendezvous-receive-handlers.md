@@ -1,23 +1,23 @@
 ---
-title: "Crear TIBCO Rendezvous artefactos de recepción del adaptador | Documentos de Microsoft"
-description: "Crear un puerto de envío, configure las propiedades de transporte para recibir mensajes desde el adaptador de BizTalk para TIBCO Rendezvous en BizTalk"
-ms.custom: 
+title: Crear TIBCO Rendezvous artefactos de recepción del adaptador | Documentos de Microsoft
+description: Crear un puerto de envío, configure las propiedades de transporte para recibir mensajes desde el adaptador de BizTalk para TIBCO Rendezvous en BizTalk
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d617a97-c165-46bb-b5a7-b66f0c1ff9f2
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ed400a06f07d61f78f62f2633a80deeee293f618
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-tibco-rendezvous-receive-artifacts"></a>Crear artefactos de recepción de TIBCO Rendezvous
 Crear notificaciones o eventos es similar a crear otras llamadas en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En esta sección se explica cómo crear una ubicación de recepción para escuchar mensajes de TIBCO Rendezvous.  
@@ -126,7 +126,7 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
     |**Número de página de códigos**|Identifica la página de códigos que usa el originador del mensaje para codificar las cadenas contenidas en los mensajes entrantes. Valor predeterminado es 65001. (El adaptador no admite tener los mismos asuntos del mensaje generados a partir de dos entornos de página de códigos diferente.)|  
     |**Sustituto de comodín de elemento**|Especifique un sustituto de texto comodín diferente, los nombres de asunto que escucha una ubicación de recepción se utilizan para generar el espacio de nombres XML en los mensajes resultantes. De forma predeterminada, el adaptador reemplaza cualquier comodín '*' con el texto STARWILDCARD en los mensajes generados. Puede especificar un comodín diferente en este campo.|  
     |**Nombre de la cola de eventos**|Especifique un nombre que se va a usar al crear el objeto de cola Rendezvous. Se proporciona por comodidad, porque los mensajes de registro asociados muestran el nombre de la cola de eventos. Valor predeterminado está vacío.|  
-    |**Filter**|Si especifica caracteres comodín al escuchar nombres de asunto, es posible que la orquestación de destino solo esté interesada en un subconjunto del conjunto de asuntos que podrían alcanzarse, potencialmente muy grande. Para minimizar el impacto en BizTalk Server y el acceso asociado a las bases de datos, puede especificar qué mensajes deben enviarse a BizTalk Server. Esta entrada contiene una lista separada por punto y coma de nombres de asunto (no se permiten caracteres comodín). Los mensajes que coincidan con un nombre de asunto especificado por comodín, pero cuyo nombre de asunto se encuentre en esta lista, se desechan (no se envían a BizTalk Server). La lógica del filtro puede invertirse anteponiendo un carácter '!' al valor del filtro. El valor predeterminado es vacío (sin filtro).|  
+    |**Filtro**|Si especifica caracteres comodín al escuchar nombres de asunto, es posible que la orquestación de destino solo esté interesada en un subconjunto del conjunto de asuntos que podrían alcanzarse, potencialmente muy grande. Para minimizar el impacto en BizTalk Server y el acceso asociado a las bases de datos, puede especificar qué mensajes deben enviarse a BizTalk Server. Esta entrada contiene una lista separada por punto y coma de nombres de asunto (no se permiten caracteres comodín). Los mensajes que coincidan con un nombre de asunto especificado por comodín, pero cuyo nombre de asunto se encuentre en esta lista, se desechan (no se envían a BizTalk Server). La lógica del filtro puede invertirse anteponiendo un carácter '!' al valor del filtro. El valor predeterminado es vacío (sin filtro).|  
     |**Asignar tipos no compatibles a cadena**|Si los tipos no compatibles generan un error o se asignan a una cadena. Puede usarse si se usa el adaptador con una versión más reciente de TIBCO Rendezvous, en la cual se hayan agregado nuevos tipos.|  
     |**Miembro del grupo de BizTalk**|Si se configura en True, deberán configurarse los parámetros de Cola distribuida (consulte el nodo Configuración de cola distribuida) y de Escucha certificada (consulte el nodo Configuración de escucha certificada). El valor predeterminado es False.|  
     |**Ruta de acceso**|Configúrelo para que señale los binarios de TIBCO Rendezvous, en caso de que dicha información no se encuentre aún en la variable de entorno PATH.|  
@@ -142,9 +142,9 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
   
     |Parámetro|Description|  
     |---------------|-----------------|  
-    |**Demonio**|Escriba el identificador numérico para el parámetro Daemon del transporte Rendezvous.|  
-    |**Red**|Escriba el nombre del parámetro Red de Rendezvous.|  
-    |**Nombre de servicio**`e`|Escriba el nombre del servicio de transporte Rendezvous.|  
+    |**Daemon**|Escriba el identificador numérico para el parámetro Daemon del transporte Rendezvous.|  
+    |**Network**|Escriba el nombre del parámetro Red de Rendezvous.|  
+    |**Nombre de servicio** `e`|Escriba el nombre del servicio de transporte Rendezvous.|  
   
 6.  Proporcione credenciales mediante el inicio de sesión único (SSO).  
   
@@ -170,10 +170,10 @@ Cuando configure el Adaptador de Microsoft BizTalk para TIBCO Rendezvous para es
    
 ## <a name="next-steps"></a>Pasos siguientes
   
--   [Esquemas de recepción y procesar eventos](../core/using-tibco-rendezvous-receive-ports-from-biztalk-server.md) 
+-   [Recibir esquemas y procesar eventos](../core/using-tibco-rendezvous-receive-ports-from-biztalk-server.md) 
   
 -   [Asignación de mensajes](../core/message-mapping-in-tibco-rendezvous.md)  
   
--   [Asignar tipos de datos](../core/data-type-mapping-for-receive-handlers-in-tibco-rendezvous.md)  
+-   [Asignación de tipos de datos](../core/data-type-mapping-for-receive-handlers-in-tibco-rendezvous.md)  
   
 -   [Propiedades de contexto del mensaje (controladores de recepción)](../core/biztalk-server-message-context-properties-receive-handlers.md)

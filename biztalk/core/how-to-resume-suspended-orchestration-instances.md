@@ -1,11 +1,11 @@
 ---
-title: "Cómo reanudar instancias de orquestación suspendidas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo reanudar instancias de orquestación suspendidas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - instances, resuming [HAT]
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - resuming, orchestrations
 - HAT, debug mode
 ms.assetid: da133183-68d9-48d1-9601-8f6d4d5b8898
-caps.latest.revision: "18"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6696547ce3e918dc8d84b7cfcb4f24e31c8b70a0
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-resume-suspended-orchestration-instances"></a>Cómo reanudar instancias de orquestación suspendidas
 Si ha suspendido instancias de orquestación enumeradas como "suspendidas reanudables", puede intentar reanudarlas desde el panel de previsualización o de resultados de consulta. La reanudación de la instancia de orquestación sólo se realizará correctamente si el problema subyacente que ocasionó su suspensión se ha resuelto.  
@@ -55,4 +55,4 @@ Si ha suspendido instancias de orquestación enumeradas como "suspendidas reanud
      [Estados de la instancia de servicio](../core/service-instance-states.md) proporciona más información sobre el en estado suspendido.  
   
 ## <a name="see-also"></a>Vea también  
- [Investigación de orquestación, puerto y errores de mensaje](../core/investigating-orchestration-port-and-message-failures.md)
+ [Investigación de errores de mensaje, orquestación y puerto](../core/investigating-orchestration-port-and-message-failures.md)

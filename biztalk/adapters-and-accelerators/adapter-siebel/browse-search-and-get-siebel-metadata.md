@@ -1,11 +1,11 @@
 ---
 title: Explorar, buscar y obtener metadatos de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - metadata, retrieving
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - metadata, searching
 - searching, metadata
 ms.assetid: 48fc3bb1-b949-4b8d-ab62-a41cd8c2f0a0
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ef1ed7d74b4e69f56c53beda8273533bb6891a55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-siebel-metadata"></a>Explorar, buscar y obtener metadatos de Siebel
 El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] superficies metadatos en el sistema Siebel que describe la estructura del mensaje para la comunicación con un sistema de Siebel utilizando el adaptador. El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] es compatible con dos interfaces para recuperar los metadatos.  
@@ -72,4 +72,4 @@ El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] sup
  Para obtener más información acerca de cómo recuperar los metadatos, vea [obtener metadatos para operaciones de Siebel en Visual Studio](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md).  
   
 ## <a name="see-also"></a>Vea también  
- [Información general del adaptador de BizTalk para Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)
+ [Información general del adaptador de BizTalk para las aplicaciones de negocio electrónico de Siebel](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)

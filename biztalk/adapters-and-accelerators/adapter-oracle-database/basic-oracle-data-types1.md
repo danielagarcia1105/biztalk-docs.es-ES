@@ -19,7 +19,7 @@ ms.openlocfilehash: 86349adae1a3ae061cb07c6c770532cf92c74dc8
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="basic-oracle-data-types"></a>Tipos de datos de Oracle básica
 Este tema se describe cómo la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de datos básicos de Oracle.  

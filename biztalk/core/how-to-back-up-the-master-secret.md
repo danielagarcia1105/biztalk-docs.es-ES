@@ -1,26 +1,26 @@
 ---
-title: "Cómo realizar copias de seguridad del secreto principal | Documentos de Microsoft"
-ms.custom: 
+title: Cómo realizar copias de seguridad del secreto principal | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [Master Secret server], backing up
 - backing up, Master Secret server
 - Master Secret server, backing up
 ms.assetid: 22c23f66-b7df-4379-8a9f-065406ba8aa8
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 185f3ea674015e02cac2bdaa785c2ee06e67db65
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-back-up-the-master-secret"></a>Cómo realizar copias de seguridad del secreto principal
 Es posible hacer una copia de seguridad del secreto principal desde el servidor secreto principal en un sistema de archivos NTFS o en un medio extraíble, como un disco.  
@@ -46,7 +46,7 @@ Es posible hacer una copia de seguridad del secreto principal desde el servidor 
   
 3.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  *\<unidad\>*: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Tipo de **ssoconfig – backupSecret  *\<archivo de copia de seguridad\>***, donde  *\<archivo de copia de seguridad\>*  es la ruta de acceso y nombre de el archivo donde se copiarán el secreto principal. Por ejemplo, A:\ssobackup.bak  
+4.  Tipo ** ssoconfig – backupSecret *\<archivo de copia de seguridad\>***, donde *\<archivo de copia de seguridad\>* es la ruta de acceso y nombre del archivo donde se copiarán el secreto principal. Por ejemplo, A:\ssobackup.bak  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

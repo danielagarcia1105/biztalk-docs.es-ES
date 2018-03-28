@@ -17,7 +17,7 @@ ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="glossary"></a>Glosario
 En la Ayuda de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usan los términos y definiciones siguientes.  

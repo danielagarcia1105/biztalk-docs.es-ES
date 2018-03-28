@@ -1,22 +1,22 @@
 ---
-title: "Paso 8 (de forma local): Configurar la aplicación de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 8 (de forma local): Configurar la aplicación de BizTalk Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 2015-12-08
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5109fb54-8453-444f-bc9c-070a65053397
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: fa411b7ca828a45aa0d5e58212bb48195c48180f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="step-8-on-premises-configure-the-biztalk-server-application"></a>Paso 8 (de forma local): Configurar la aplicación de BizTalk Server
 En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. En este paso, compilará, implementará y configurará la aplicación.  
@@ -49,7 +49,7 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
   
 ## <a name="configure-the-application"></a>Configurar la aplicación  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione  **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]** y, a continuación, haga clic en [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
+1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**y, a continuación, haga clic en [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
 2.  En el árbol de consola en el panel izquierdo, expanda [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], haga clic en **grupo de BizTalk**y, a continuación, haga clic en **actualizar**.  
   
@@ -57,7 +57,7 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
   
 4.  En la orquestación, creó un puerto lógico (**ReceiveSO**) para recibir mensajes desde la cola de Bus de servicio. En este paso, se crea un puerto de recepción físico para asignar al puerto lógico.  
   
-    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de recepción**, seleccione **nuevo**y, a continuación, haga clic en **Unidireccional puerto de recepción**.  
+    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de recepción**, seleccione **New**y, a continuación, haga clic en **puerto de recepción unidireccional**.  
   
     2.  En la pestaña **General** , haga lo siguiente:  
   
@@ -79,7 +79,7 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
   
     5.  Haga clic en **configurar**.  
   
-    6.  Cuadro de diálogo Propiedades de transporte SB-Messaging en el **General** ficha, para **cola o la dirección URL de suscripción**, escriba **sb://mynamespace.servicebus.appfabriclabs.com/queueordersedi** . En este caso, *mynamespace* es el espacio de nombres de Bus de servicio y *queueordersedi* es la cola de Bus de servicio que creó en [(para Azure) del paso 3: crear una cola de Bus de servicio](../core/step-3-for-azure-create-a-service-bus-queue.md).  
+    6.  Cuadro de diálogo Propiedades de transporte SB-Messaging en el **General** ficha, para **cola o la dirección URL de suscripción**, escriba **sb://mynamespace.servicebus.appfabriclabs.com/queueordersedi**. En este caso, *mynamespace* es el espacio de nombres de Bus de servicio y *queueordersedi* es la cola de Bus de servicio que creó en [(para Azure) del paso 3: crear una cola de Bus de servicio](../core/step-3-for-azure-create-a-service-bus-queue.md).  
   
     7.  Cuadro de diálogo Propiedades de transporte SB-Messaging en el **autenticación** ficha, especifique los valores siguientes:  
   
@@ -96,7 +96,7 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
   
 5.  En la orquestación, creó un puerto lógico (**SendToSQL**) para enviar mensajes a la **SalesOrder** tabla de base de datos. En este paso, se crea un puerto de envío físico para asignar al puerto lógico.  
   
-    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de envío**, seleccione **nuevo**y, a continuación, haga clic en **Puerto de envío unidireccional estático**.  
+    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
     2.  En la ficha General, haga lo siguiente:  
   
@@ -116,13 +116,13 @@ En el paso anterior, creó una orquestación de [!INCLUDE[btsBizTalkServerNoVers
         |**Dirección (URI)**|Tipo de **mssql://computername/database_instance_name/databasename**. Por ejemplo, para conectarse a un **DemoDB** en el equipo local que se ejecuta en la instancia de base de datos predeterminada de base de datos, escriba`mssql://.//DemoDB`<br /><br /> Para obtener más información, consulte [crear el URI de conexión de SQL Server](../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).|  
         |**Acción**|Tipo de **TableOp/Insert/dbo/SalesOrder**.|  
   
-    5.  Propiedades de transporte WCF-SQL en el **credenciales** ficha, seleccione **no use Single Sign-On**y especifique las credenciales (distingue mayúsculas de minúsculas) para conectarse a SQL Server de base de datos que especificó en el cadena de conexión. Si quiere conectase usando la autenticación de Windows, deje las credenciales en blanco.  
+    5.  Propiedades de transporte WCF-SQL en el **credenciales** ficha, seleccione **no use Single Sign-On**y especifique las credenciales (distingue mayúsculas de minúsculas) para conectarse a la base de datos de SQL Server que especificó en la cadena de conexión. Si quiere conectase usando la autenticación de Windows, deje las credenciales en blanco.  
   
     6.  Haga clic en **Aceptar** hasta que salga de todos los cuadros de diálogo.  
   
 6.  En la orquestación, creó un puerto lógico (**SendToFile**) para enviar mensajes a una ubicación compartida. En este paso, se crea un puerto de envío físico para asignar al puerto lógico.  
   
-    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de envío**, seleccione **nuevo**y, a continuación, haga clic en **Puerto de envío unidireccional estático**.  
+    1.  Desde el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, en la **OrderProcessingDemo** nodo, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío unidireccional estático**.  
   
     2.  En la ficha General, haga lo siguiente:  
   

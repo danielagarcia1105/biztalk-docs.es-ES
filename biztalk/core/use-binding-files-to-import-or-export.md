@@ -1,22 +1,22 @@
 ---
 title: Usar archivos de enlace para importar o exportar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a2a82a-f8d4-4ec2-b8c1-be6cda3f993a
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e3707726eb9e8e77e0536f36700fe098d83ad414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-binding-files-to-import-or-export"></a>Usar archivos de enlace para importar o exportar
 
@@ -46,7 +46,7 @@ Algunas de las características de importación y exportación son:
 * Debe haber agregado una referencia a la **aplicación EDI de BizTalk** desde una aplicación de BizTalk que se usará como una aplicación de EDI. Vea [pasos posteriores a la configuración](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).
 
 ## <a name="import-or-export-all-the-trading-partners"></a>Importar o exportar a todos los socios comerciales
-1. Abra  **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** y expanda el grupo de BizTalk.
+1. Abra **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**y expanda el grupo de BizTalk.
 2. Haga clic en **partes**y seleccione **exportar**. 
 
     Cuando se exportan en el **partes**-nivel, que va a exportar todos los socios comerciales. También exporta todos los elementos utilizados por los socios comerciales, incluidos los perfiles de negocio y los contratos en un archivo XML. 
@@ -63,7 +63,7 @@ Vea [ImportParties comando](../core/importparties-command.md).
 
     
 ## <a name="export-individual-partners"></a>Asociados de negocios individuales de exportación
-1. En  **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** , seleccione **partes**.
+1. En **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**, seleccione **partes**.
 2. En el **entidades y perfiles empresariales** panel, haga clic en una entidad y seleccione **exportar**.
 
     Cuando se exporta una entidad específica, se tiene la opción para exportar todas las entidades y todos los acuerdos utilizados por esa entidad. Puede desactivar **exportar entidades seleccionados y todos los acuerdos dentro de las entidades seleccionadas** para exportar solo la entidad que seleccione.
@@ -84,7 +84,7 @@ Vea [ExportParties comando](../core/exportparties-command.md).
 
 En el nivel de aplicación, puede importar un archivo de enlace con entidades EDI y AS2. 
 
-1. En  **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** , expanda **aplicaciones**
+1. En **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**, expanda **aplicaciones**
 2. Haga clic en la aplicación y seleccione **importación**.
 3. **Importar la configuración de seguimiento** y **excluir entidades** opciones están disponibles. Usar estas opciones, puede importar cualquier configuración de seguimiento existente o excluir todas las entidades EDI/AS2 en el archivo de enlace.
 

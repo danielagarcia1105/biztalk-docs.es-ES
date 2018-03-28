@@ -1,22 +1,22 @@
 ---
-title: "Sintaxis de una instrucción EXECQUERY en SAP | Documentos de Microsoft"
-ms.custom: 
+title: Sintaxis de una instrucción EXECQUERY en SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99bd7fbb-64f2-4327-a8ae-ccb574e56150
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5198335cfa1a7d2036ca05759edc7d04e28cc20b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a>Sintaxis de una instrucción EXECQUERY en SAP
 Puede usar la GUI de SAP para crear consultas seleccionando las tablas que desea consultar, las columnas y el orden que desea incluir en el conjunto de resultados, etcetera gráficamente. El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] permite a los usuarios ejecutar estas consultas desde una aplicación de ADO.NET proporcionando una operación EXECQUERY que los usuarios pueden utilizar para ejecutar una consulta definida en el sistema SAP.  
@@ -47,7 +47,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
   
 -   **VARIANT** hace referencia a un conjunto de criterios de selección que puede especificar al ejecutar una consulta SAP almacenado. Por ejemplo, puede usar variantes para especificar valores predeterminados para las consultas.  
   
--   **@Pn**hace referencia al n<sup>th</sup> campo de selección en la definición de consulta SAP.  
+-   **@Pn** hace referencia al n<sup>th</sup> campo de selección en la definición de consulta SAP.  
   
 -   **USEORIGINALCOLUMNNAMES** especifica si el proveedor utiliza los nombres de columna originales del conjunto de datos, tal como aparecen en el sistema SAP. De forma predeterminada, el proveedor utiliza los nombres descriptivos que se definen en la consulta SAP. Sin embargo, si los nombres descriptivos dentro de la consulta no son únicos, el cliente ADO.NET producirá un error al leer los datos del conjunto de datos. En estos escenarios, debe especificar la opción USEORIGINALCOLUMNNAMES, que indica que el proveedor utiliza los nombres de columna originales del conjunto de datos.  
   
@@ -87,7 +87,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = 'La Quinta Hotel & Towers'  
     ```  
   
-     Sin embargo, la misma consulta cuando se ejecuta con un carácter comodín produce un error. Observe el uso de caracteres comodín para  **@P2** .  
+     Sin embargo, la misma consulta cuando se ejecuta con un carácter comodín produce un error. Observe el uso de caracteres comodín para **@P2**.  
   
     ```  
     EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = '*&*'  

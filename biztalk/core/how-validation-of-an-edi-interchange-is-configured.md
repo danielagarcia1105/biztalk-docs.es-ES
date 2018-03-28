@@ -1,22 +1,22 @@
 ---
-title: "Cómo configurar la validación de un intercambio EDI | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la validación de un intercambio EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e698b21-e234-4d7d-b101-742eff68155c
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 06485274a0053846c361d1aaab6707a073c16958
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-validation-of-an-edi-interchange-is-configured"></a>Cómo configurar la validación de un intercambio EDI
 Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelve un intercambio entrante o saliente, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará las propiedades del acuerdo (y no las propiedades de la canalización) para determinar el modo en que se realiza la validación. Si ningún acuerdo se resuelve en un intercambio, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará algunas propiedades del acuerdo de reserva y algunas propiedades de la canalización en la realización de la validación.  
@@ -27,9 +27,9 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
   
 |Validación|Configurada por el socio comercial|Configurada por la canalización<sup>*</sup>|Configurada por el acuerdo|Configurada por las opciones del acuerdo de reserva|  
 |----------------|-----------------------------------|----------------------------------------|-----------------------------|-----------------------------------------------|  
-|Asociaciones de puerto de envío|Sí|No|Sí|No|  
-|Certificados|Sí|No|No|No|  
-|Informes de estado|No|No|Sí|Sí|  
+|Asociaciones de puerto de envío|Sí|No|Sí|no|  
+|Certificados|Sí|No|No|no|  
+|Informes de estado|no|No|Sí|Sí|  
   
 > [!NOTE]
 >  Aunque la configuración está disponible a través de la canalización, Microsoft recomienda no configurar las propiedades en la canalización.  
@@ -46,7 +46,7 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
 |----------------|-----------------------------|----------------------------------------|-----------------------------------------------|  
 |Autorización/seguridad|Sí|Solo disponible en el nivel de acuerdo|Solo disponible en el nivel de acuerdo|  
 |Id. de remitente|Sí|Solo disponible en el nivel de acuerdo|Solo disponible en el nivel de acuerdo|  
-|RepSeparator /<br />ISA11|Sí|Sí|No|  
+|RepSeparator/<br />ISA11|Sí|Sí|no|  
 |Duplicar/validez en ISA|Sí|No|Sí|  
 |Duplicar/validez en GS|Sí|No|Sí|  
 |Duplicar/validez en ST|Sí|No|Sí|  
@@ -64,13 +64,13 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
 |Duplicar/validez en UNB|Sí|No|Sí|  
 |Duplicar/validez en UNG|Sí|No|Sí|  
 |Duplicar/validez en UNH|Sí|No|Sí|  
-|Delimitadores UNA|No|Sí|No|  
+|Delimitadores UNA|no|Sí|no|  
   
  **Propiedades de confirmación generales**  
   
 |Validación|Configurada por el acuerdo|Configurada por la canalización<sup>*</sup>|Configurada por las opciones del acuerdo de reserva|  
 |----------------|-----------------------------|----------------------------------------|-----------------------------------------------|  
-|Confirmación bidireccional|Sí|Sí|No|  
+|Confirmación bidireccional|Sí|Sí|no|  
 |Generar confirmación funcional|Sí|No|Sí|  
 |Confirmación de intercambio de lotes|Sí|Solo disponible en el nivel de acuerdo|Solo disponible en el nivel de acuerdo|  
 |Control de confirmación personalizado|Sí|No|Sí|  
@@ -83,14 +83,14 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
   
 |Validación|Configurada por el acuerdo|Configurada por la canalización<sup>*</sup>|Configurada por las opciones del acuerdo de reserva|  
 |----------------|-----------------------------|----------------------------------------|-----------------------------------------------|  
-|ENRUTAMIENTO|Sí|Sí|No|  
-|Extendido|Sí|Sí|No|  
-|Separadores finales|Sí|Sí|No|  
-|Generar etiquetas para separadores finales|Sí|Sí|No|  
-|Enmascaramiento de seguridad/contraseña|Sí|Sí|No|  
-|Conversión decimal|Sí|Sí|No|  
+|ENRUTAMIENTO|Sí|Sí|no|  
+|Extendido|Sí|Sí|no|  
+|Separadores finales|Sí|Sí|no|  
+|Generar etiquetas para separadores finales|Sí|Sí|no|  
+|Enmascaramiento de seguridad/contraseña|Sí|Sí|no|  
+|Conversión decimal|Sí|Sí|no|  
 |Procesar por lotes|-|-|-|  
-|Conservar intercambio|Sí|Sí|No|  
+|Conservar intercambio|Sí|Sí|no|  
   
 > [!NOTE]
 >  Aunque la configuración está disponible a través de la canalización, Microsoft recomienda no configurar las propiedades en la canalización.  
@@ -119,9 +119,9 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
   
 |Validación|Configurada por el acuerdo|Configurada por la canalización<sup>*</sup>|Configurada por las opciones del acuerdo de reserva|  
 |----------------|-----------------------------|----------------------------------------|-----------------------------------------------|  
-|ENRUTAMIENTO|Sí|Sí|No|  
-|Extendido|Sí|Sí|No|  
-|Generación de separadores finales|Sí|Sí|No|  
+|ENRUTAMIENTO|Sí|Sí|no|  
+|Extendido|Sí|Sí|no|  
+|Generación de separadores finales|Sí|Sí|no|  
   
  **Creación de lotes**  
   
@@ -135,4 +135,4 @@ Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelv
 >  Aunque la configuración está disponible a través de la canalización, Microsoft recomienda no configurar las propiedades en la canalización.  
   
 ## <a name="see-also"></a>Vea también  
- [Validación del mensaje EDI](../core/edi-message-validation.md)
+ [Validación de mensajes EDI](../core/edi-message-validation.md)

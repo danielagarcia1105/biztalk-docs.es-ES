@@ -1,11 +1,11 @@
 ---
-title: "Cómo finalizar instancias de orquestación suspendidas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo finalizar instancias de orquestación suspendidas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, terminating [HAT]
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - HAT, terminiating orchestrations
 - orchestrations, terminating [HAT]
 ms.assetid: b5d44cce-b05c-47f9-9015-5b10c2312bf1
-caps.latest.revision: "17"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5dc0160be5aeeef43b9595953893b4ea1af82c62
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-terminate-suspended-orchestration-instances"></a>Cómo finalizar instancias de orquestación suspendidas
 Puede finalizar cualquier puerto o instancia de orquestación suspendida desde el panel Resultados de la consulta o el panel de previsualización de la consola de administración de BizTalk Server.  
@@ -55,4 +55,4 @@ Puede finalizar cualquier puerto o instancia de orquestación suspendida desde e
 7.  En la lista de resultados de la consulta, haga clic en la instancia de orquestación o un grupo de instancias que desea finalizar y, a continuación, haga clic en **finalizar instancia** o **finalizar instancias**.  
   
 ## <a name="see-also"></a>Vea también  
- [Investigación de orquestación, puerto y errores de mensaje](../core/investigating-orchestration-port-and-message-failures.md)
+ [Investigación de errores de mensaje, orquestación y puerto](../core/investigating-orchestration-port-and-message-failures.md)

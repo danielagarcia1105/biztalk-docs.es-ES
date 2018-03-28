@@ -1,23 +1,24 @@
 ---
 title: 'Paso 10: Comprobar el escenario Interrogative | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: interrogative tutorial, verifying solution
+helpviewer_keywords:
+- interrogative tutorial, verifying solution
 ms.assetid: 1f28800b-4a1d-4f29-8123-5cdea4b4a365
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b932ab2f179faab1381609c007dcdd148f200f7e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="step-10-verify-the-interrogative-scenario"></a>Paso 10: Comprobar el escenario Interrogative
 En este paso, comprobará el escenario de extremo a extremo para este tutorial.  
@@ -26,15 +27,15 @@ En este paso, comprobará el escenario de extremo a extremo para este tutorial.
   
 1.  Abra un símbolo del sistema.  
   
-2.  En el símbolo del sistema, vaya a  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\MLLP utilidades * *.  
+2.  En el símbolo del sistema, vaya a  **\< *unidad*\>: \Program BizTalk \<versión\> Acelerador para utilidades HL7\SDK\MLLP**.  
   
 3.  En el símbolo del sistema, escriba **MllpReceive /P 24000**y, a continuación, presione **ENTRAR**. Esto ejecuta la aplicación de agente de escucha MLLP escuchar al puerto 24000 y muestra cualquier mensaje recibido en la pantalla. Esta aplicación simula el sistema de información de salud.  
   
 4.  Abra un símbolo del sistema adicional.  
   
-5.  En la segunda ventana de símbolo del sistema, vaya a  **\<* unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\ Utilidades MLLP **.  
+5.  En la segunda ventana de símbolo del sistema, vaya a  **\< *unidad*\>: \Program BizTalk \<versión\> Acelerador para utilidades HL7\SDK\MLLP**.  
   
-6.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13/TWOWAY /P 22000 /F "\<*unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Tutorial\QRY^Q01.txt** y, a continuación, presione **ENTRAR.**  
+6.  En la segunda ventana del símbolo del sistema, escriba **MllpSend/SB 11 /EB 28 /CR 13/TWOWAY /P 22000 /F "\<*unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Tutorial\QRY^Q01.txt**y, a continuación, presione **ENTRAR.**  
   
     > [!NOTE]
     >  Este comando envía el mensaje de consulta que creó al principio de este tutorial para el puerto MLLP 22000 y espera una respuesta (confirmación). El ADT puerto recoge este mensaje de recepción y lo procesa.  
@@ -65,7 +66,7 @@ En este paso, comprobará el escenario de extremo a extremo para este tutorial.
     > [!NOTE]
     >  Paso 2 ejecuta la aplicación de agente de escucha MLLP escuchar al puerto 25000 y muestra todos los mensajes recibidos a la pantalla. Esta aplicación simula el sistema ADT.  
   
-3.  En la segunda ventana del símbolo del sistema, escriba  **MllpSend/SB 11 /EB 28 /CR 13 /P 23000 /F "\<*unidad*\>: \Program BizTalk \<versión\>Acelerador para HL7\SDK\Interrogative Tutorial\DSR.txt"**, a continuación, presione **ENTRAR**.  
+3.  En la segunda ventana del símbolo del sistema, escriba **MllpSend/SB 11 /EB 28 /CR 13 /P 23000 /F "\<*unidad*\>: \Program BizTalk \<versión\> Acelerador para HL7\SDK\Interrogative Tutorial\DSR.txt"**, a continuación, presione **ENTRAR**.  
   
     > [!NOTE]
     >  Paso 3 envía el mensaje de respuesta que creó al principio de este tutorial para el puerto MLLP 23000. El HIS puerto recoge este mensaje de recepción y lo procesa.  

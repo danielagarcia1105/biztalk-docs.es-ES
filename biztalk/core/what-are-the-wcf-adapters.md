@@ -1,22 +1,22 @@
 ---
-title: "¿Qué son los adaptadores de WCF? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué son los adaptadores de WCF? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 41c942c7c2ef870b2a61c519e79fb8a124059f03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="what-are-the-wcf-adapters"></a>¿Qué son los adaptadores de WCF?
 Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de recepción y un adaptador de envío. Utilice el adaptador de recepción WCF para recibir solicitudes de Servicio WCF. El adaptador de recepción WCF recibe una solicitud, crea un objeto de mensaje de BizTalk y promociona las propiedades asociadas al contexto de mensaje. Puede utilizar el adaptador de envío WCF para llamar a un Servicio WCF. El adaptador de envío WCF llama a los servicios WCF a través de los contratos sin tipo.  
@@ -25,7 +25,7 @@ Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de r
 >  Si los adaptadores de WCF no son compatibles con la utilización de los servicios Web de estilo Llamada a procedimiento remoto (RPC) debido a que las partes de mensaje en los servicios Web de estilo RPC se refieren a los tipos de mensajes en vez de a los elementos de mensaje en los que los adaptadores de WCF utilizan elementos para las partes de mensaje. Le recomendamos que agregue los servicios Web de estilo RPC a través del asistente Agregar referencia Web para utilizar los servicios Web en los proyectos de BizTalk.  
   
 ## <a name="web-services-standards-support"></a>Compatibilidad con los estándares de los servicios Web  
- Los adaptadores de WCF proporcionan compatibilidad con los estándares WS-*, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. WS-ReliableMessaging no es compatible con esta versión de los adaptadores de WCF. Para obtener una lista de especificaciones admitidas por WCF, vea [http://go.microsoft.com/fwlink/?LinkId=88314](http://go.microsoft.com/fwlink/?LinkId=88314).  
+ Los adaptadores de WCF proporcionan compatibilidad con los estándares WS-*, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction. WS-ReliableMessaging no es compatible con esta versión de los adaptadores de WCF. Para obtener una lista de especificaciones admitidas por WCF, vea [ http://go.microsoft.com/fwlink/?LinkId=88314 ](http://go.microsoft.com/fwlink/?LinkId=88314).  
   
 ### <a name="ws-addressing"></a>WS-Addressing  
  Los adaptadores de WCF se basan en la compatibilidad de estándares WS-Addressing que proporciona WCF. En los adaptadores de WCF, están disponibles las siguientes características:  
@@ -54,7 +54,7 @@ Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de r
 #### <a name="service-authentication-types"></a>Tipos de autenticación de servicio  
  Son compatibles los siguientes tipos de autenticación de servicios WCF:  
   
--   Ninguno  
+-   None  
   
 -   Windows  
   
@@ -110,11 +110,11 @@ Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de r
   
 |Modo de seguridad|Credencial|  
 |-------------------|----------------|  
-|Ninguno|Ninguno|  
-|Transporte|Ninguno|  
-|de mensaje|Ninguno|  
-|TransportWithMessageCredentials|Ninguno|  
-|TransportCredentialOnly|Ninguno|  
+|None|None|  
+|Transporte|None|  
+|de mensaje|None|  
+|TransportWithMessageCredentials|None|  
+|TransportCredentialOnly|None|  
   
 ## <a name="wcf-extensibility"></a>Extensibilidad de WCF  
  Puede extender la funcionalidad de WCF mediante el desarrollo de las siguientes extensiones y la utilización de éstas con los adaptadores de WCF-Custom y WCF-CustomIsolated:  
@@ -133,8 +133,8 @@ Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de r
   
 -   [Adaptador de recepción de WCF](../core/wcf-receive-adapter.md)  
   
--   [Adaptador de envío WCF](../core/wcf-send-adapter.md)  
+-   [Adaptador de envío de WCF](../core/wcf-send-adapter.md)  
   
 ## <a name="see-also"></a>Vea también  
 -  [Adaptadores de WCF](../core/wcf-adapters.md)   
--  **Referencia de contrato de servicio de adaptadores de WCF**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **Referencia de contrato de servicio de adaptadores WCF** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

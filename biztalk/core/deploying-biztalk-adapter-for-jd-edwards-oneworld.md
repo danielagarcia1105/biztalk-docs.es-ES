@@ -1,23 +1,23 @@
 ---
 title: Importar el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft
-description: "Importe el archivo de enlace de la aplicación y revisar las limitaciones del adaptador de JD Edwards OneWorld en BizTalk"
-ms.custom: 
+description: Importe el archivo de enlace de la aplicación y revisar las limitaciones del adaptador de JD Edwards OneWorld en BizTalk
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f308d2fe-39dd-4008-94ed-292c4c26fe06
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d4a452d61b3bdb5f5d0fee9e0916811645938d70
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>Importar la aplicación JD Edwards EnterpriseOne
   
@@ -74,11 +74,11 @@ La contraseña del adaptador de transporte se almacena como asteriscos (\*\*\*\*
  Al exportar la información de enlace, el archivo de enlace resultante no contiene ninguna de las contraseñas usadas por los adaptadores de transporte en los puertos de envío o las ubicaciones de recepción. De este modo, se evita que la información de contraseña aparezca en texto no cifrado. La próxima vez que use el archivo para importar la información de enlace, deberá escribir las contraseñas a través de la interfaz de usuario de las páginas de propiedades de transporte. También puede modificar temporalmente el archivo de enlace antes de la importación si especifica las contraseñas en este archivo. En ese caso, debe eliminar las contraseñas del archivo de enlace una vez que finalice correctamente la operación de importación.  
   
 > [!NOTE]
->  Al importar un archivo .msi en una aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que contiene información de enlace para cualquiera de los adaptadores empresariales, es posible que aparezca un mensaje de error de importación. Está disponible de Microsoft junto con una descripción completa del error en una revisión compatible [http://support.microsoft.com/kb/923733/en-us](http://support.microsoft.com/kb/923733/en-us).  
+>  Al importar un archivo .msi en una aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que contiene información de enlace para cualquiera de los adaptadores empresariales, es posible que aparezca un mensaje de error de importación. Está disponible de Microsoft junto con una descripción completa del error en una revisión compatible [ http://support.microsoft.com/kb/923733/en-us ](http://support.microsoft.com/kb/923733/en-us).  
   
 ### <a name="work-around-the-password-limitation"></a>Evitar la limitación de contraseña  
 
-**Opción 1**  
+**opción 1**  
 
 - Antes de importar, actualice el archivo de enlace reemplazando los asteriscos por texto sin formato.  
   

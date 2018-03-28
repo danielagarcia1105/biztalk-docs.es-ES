@@ -1,22 +1,22 @@
 ---
-title: "X12 confirmación TA1 | Documentos de Microsoft"
-ms.custom: 
+title: X12 confirmación TA1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68568a1a-3669-46f4-8edc-8d057b012544
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f6a3de45744b40335999c1471165ff851ec60664
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="x12-ta1-acknowledgment"></a>Confirmación TA1 de X12
 La confirmación técnica TA1 de X12 informa del estado del procesamiento de un encabezado de intercambio y finalizador mediante el receptor de direcciones. Si los segmentos ISA y IEA del mensaje codificado con X12 son válidos, se envía una confirmación TA1 positiva, siempre que el estado del otro contenido también sea válido. En caso contrario, la confirmación TA1 se envía con un código de error.  
@@ -25,7 +25,7 @@ La confirmación técnica TA1 de X12 informa del estado del procesamiento de un 
   
  Los segmentos del intercambio de una confirmación TA1 se muestran en la siguiente tabla.  
   
-|Campo en TA1|Nombre del campo|Asignado a un intercambio entrante|Valor|  
+|Campo en TA1|Nombre del campo|Asignado a un intercambio entrante|Value|  
 |------------------|-------------------|------------------------------------|-----------|  
 |TA101|Número de control de intercambio.|ISA13 - Número de control de intercambio|-|  
 |TA102|Fecha de intercambio|Fecha del intercambio ISA09|-|  
@@ -33,4 +33,4 @@ La confirmación técnica TA1 de X12 informa del estado del procesamiento de un 
 |TA104|Código de confirmación de intercambio*|N/D|Comportamiento del motor: A, E o R<br /><br /> A = Aceptar<br /><br /> E = Intercambio aceptado con errores<br /><br /> R = Intercambio rechazado/suspendido|  
 |TA105|Código de nota de intercambio|N/D|Código de error de resultado de procesamiento. **Nota:** tabla vea en [X12 códigos de Error de confirmación de TA1](../core/x12-ta1-acknowledgment-error-codes.md).|  
   
- \*Comportamiento del motor se basa en la validación de elementos de datos; excepto la información de autenticación y seguridad, que se basará fuera comparaciones de cadenas de información de configuración.
+ \* Comportamiento del motor se basa en la validación de elementos de datos; excepto la información de autenticación y seguridad, que se basará fuera comparaciones de cadenas de información de configuración.

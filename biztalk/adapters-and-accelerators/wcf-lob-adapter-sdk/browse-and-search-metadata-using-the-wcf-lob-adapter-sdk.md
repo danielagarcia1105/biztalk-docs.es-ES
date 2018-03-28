@@ -1,22 +1,22 @@
 ---
 title: Examinar y buscar los metadatos mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fbb4add7-6cc8-4b93-b559-471b6e31c01a
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 67f4717c8621b798ff960487dfd156c4f0934dfc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-and-search-metadata-using-the-wcf-lob-adapter-sdk"></a>Examinar y buscar los metadatos mediante el SDK de adaptador LOB de WCF
 Esta sección proporciona información acerca de cómo exponer la funcionalidad de exploración y búsqueda con un adaptador mediante la implementación IMetadataBrowseHandler y IMetadataSearchHandler, respectivamente.  
@@ -26,7 +26,7 @@ Esta sección proporciona información acerca de cómo exponer la funcionalidad 
   
  Cuando se usa el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] o [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para agregar un adaptador a un proyecto, se rellena la IMetadataBrowseHandler la **tipo de contrato Select**, **seleccione una categoría de**, y  **Operaciones y categorías disponibles** cuadros.  
   
- ![Examinar operaciones](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/b143971c-a50b-4ef2-a973-dfe4aa4fc17e.gif "b143971c-a50b-4ef2-a973-dfe4aa4fc17e")  
+ ![Browse Operations](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/b143971c-a50b-4ef2-a973-dfe4aa4fc17e.gif "b143971c-a50b-4ef2-a973-dfe4aa4fc17e")  
   
  En el ejemplo siguiente se muestra cómo implementar IMetadataBrowseHandler. Crea una matriz de MetadataRetrievalNode que contiene información sobre las categorías y las operaciones que admite el adaptador.  
   

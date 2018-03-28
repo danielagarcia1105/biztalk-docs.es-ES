@@ -1,22 +1,22 @@
 ---
 title: Los costos de recursos de sistema en Hyper-V | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f25a76c-1c41-41c0-b28d-d7473dbe1cd1
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 491c71a446829ddddfc4d7c55053b94dcf7fc9d1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>Costos de recursos de sistema en Hyper-V
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>Costos de recursos del sistema asociados a la ejecución de un sistema operativo invitado en Hyper-V  
@@ -44,7 +44,7 @@ ms.lasthandoff: 12/01/2017
  Configuración de discos en volúmenes de datos con la controladora SCSI. Esto garantizará que están instalados los servicios de integración porque la controladora SCSI solo puede instalarse si están instalados los servicios de integración de Hyper-V, mientras que la controladora IDE emulada está disponible sin necesidad de instalar servicios de integración de Hyper-V. E/S de disco que se realizan con la controladora SCSI o el controlador de filtro IDE proporcionado con integration services es significativamente mejores que proporcionada con la controladora IDE emulada de rendimiento de E/S de disco. Por lo tanto, para asegurarse de disco óptimo rendimiento de E/S para los archivos de datos en un entorno virtualizado de Hyper-V, instale Servicios de integración en el sistema operativo del host y el cliente y configure discos para volúmenes de datos con la controladora SCSI sintética. Para las cargas de trabajo de E/S de almacenamiento de alto rendimiento que abarcan varias unidades de datos, cada disco duro virtual debe conectarse a una controladora SCSI sintética independiente para mejorar el rendimiento general. Además, cada disco duro virtual debe almacenarse en LUN o discos físicos separados.  
   
 #### <a name="measuring-passthrough-disk-performance"></a>Medir el rendimiento de disco de acceso directo  
- Durante cualquier ejercicio de consolidación es importante sacar el máximo provecho de los recursos disponibles. Según lo descrito anteriormente, una E/S de almacenamiento en volúmenes de datos SQL juega un papel importante en el rendimiento general de una solución de BizTalk Server. Por lo tanto, como parte de esta guía, el rendimiento relativo de un disco físico en el rendimiento de disco de acceso directo de Hyper-V se ha probado. El rendimiento relativo de los datos de cuadro de mensajes de unidad en Physical_SQL01 y Virtual_SQL01 se mide mediante la IOMeter herramienta de código abierto desarrollado originalmente por Intel Corporation y ahora se mantiene por Abrir origen Development Lab (OSDL). Para obtener más información acerca de IOMeter, consulte [http://go.microsoft.com/fwlink/?LinkId=122412](http://go.microsoft.com/fwlink/?LinkId=122412).  
+ Durante cualquier ejercicio de consolidación es importante sacar el máximo provecho de los recursos disponibles. Según lo descrito anteriormente, una E/S de almacenamiento en volúmenes de datos SQL juega un papel importante en el rendimiento general de una solución de BizTalk Server. Por lo tanto, como parte de esta guía, el rendimiento relativo de un disco físico en el rendimiento de disco de acceso directo de Hyper-V se ha probado. El rendimiento relativo de los datos de cuadro de mensajes de unidad en Physical_SQL01 y Virtual_SQL01 se mide mediante la IOMeter herramienta de código abierto desarrollado originalmente por Intel Corporation y ahora se mantiene por Abrir origen Development Lab (OSDL). Para obtener más información acerca de IOMeter, consulte [ http://go.microsoft.com/fwlink/?LinkId=122412 ](http://go.microsoft.com/fwlink/?LinkId=122412).  
   
  Las tablas siguientes describen la configuración de hardware físico y virtual utilizada en el entorno de prueba, las opciones de configuración de IOMeter que se utilizaron, una descripción de la prueba que se ha ejecutado y un resumen de resultados.  
   
@@ -57,7 +57,7 @@ ms.lasthandoff: 12/01/2017
 |**Modelo**|HP DL580|  
 |**Procesador**|Procesador cuádruple, núcleo cuádruple Intel Xeon 2,4 Ghz|  
 |**Memoria**|8 GB|  
-|**Funciones de red**|Adaptador de servidor de HP NC3T3i multifunción Gigabit|  
+|**Networking**|Adaptador de servidor de HP NC3T3i multifunción Gigabit|  
 |**Configuración de SAN**|Almacenamiento SAN con conexión directa (vea la siguiente tabla)|  
   
 ### <a name="physicalsql01--san-configuration"></a>Physical_SQL01: configuración de SAN  
@@ -79,7 +79,7 @@ ms.lasthandoff: 12/01/2017
 |**Modelo**|HP DL580|  
 |**Procesador**|Procesador cuádruple, núcleo cuádruple Intel Xeon 2,4 Ghz|  
 |**Memoria**|32 GB|  
-|**Funciones de red**|Broadcom BCM5708C NetXtreme II GigEHP DL380 G5|  
+|**Networking**|Broadcom BCM5708C NetXtreme II GigEHP DL380 G5|  
   
 ### <a name="virtualsql01---virtual-machine-configuration"></a>Virtual_SQL01 - configuración de máquina Virtual  
   
@@ -87,10 +87,10 @@ ms.lasthandoff: 12/01/2017
 |-|-|  
 |**Procesadores virtuales**|4 asignado|  
 |**Memoria**|8 GB|  
-|**Funciones de red**|Funciones de red de máquina virtual conectado al siguiente:<br />Broadcom BCM5708C NetXtreme II GigE|  
+|**Networking**|Funciones de red de máquina virtual conectado al siguiente:<br />Broadcom BCM5708C NetXtreme II GigE|  
 |**Configuración de disco duro**|**Controladora IDE** : 30 GB vhd fijada para el sistema operativo<br />**Controladora SCSI** -7 conectados directamente el LUN de SAN de acceso directo (vea la siguiente tabla)|  
   
-### <a name="virtualsql01--san-configuration"></a>Virtual_SQL01: configuración de SAN  
+### <a name="virtualsql01--san-configuration"></a>Virtual_SQL01 – SAN Configuration  
   
 |Letra de unidad|Description|Tamaño LUN|Configuración de RAID|  
 |------------------|-----------------|--------------|------------------------|  
@@ -135,7 +135,7 @@ ms.lasthandoff: 12/01/2017
   
  Los resultados indican que un disco de acceso directo con la controladora SCSI habilitada puede proporcionar más de 90% del rendimiento de un disco físico conectado directamente. Rendimiento del subsistema de E/S es fundamental para el funcionamiento eficaz de BizTalk Server, proporcionando un excelente rendimiento y tiempos de respuesta Hyper-V es un excelente candidato para la consolidación de un entorno de BizTalk Server. La tabla siguiente proporciona que un resumen de los resultados de pruebas de disco tenerse en cuenta al comparar el rendimiento de disco de acceso directo a un disco físico:  
   
-|Medida|Physical_SQL01 (disco físico)|Virtual_SQL01 (acceso directo)|Rendimiento relativo de los discos de acceso directo a discos físicos|  
+|Medida|Physical_SQL01 (disco físico)|Virtual_SQL01 (passthrough)|Rendimiento relativo de los discos de acceso directo a discos físicos|  
 |-----------------|---------------------------------------|------------------------------------|-----------------------------------------------------------------|  
 |Total de E/s por segundo|269.73|250.47|92.86%|  
 |Operaciones de E/s de lectura por segundo|180.73|167.60|92.74%|  

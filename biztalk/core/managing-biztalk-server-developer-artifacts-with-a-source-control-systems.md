@@ -1,22 +1,22 @@
 ---
 title: Administrar artefactos de programador de BizTalk Server con un origen de sistemas de Control | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce25b112-38c9-40c8-9a5f-a2855572aabb
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 829749911bd4f3ca6aee1da42578a1aac28db7ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>Administración de artefactos de programadores de BizTalk Server con sistemas de control de código fuente
 Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser un tema de máxima prioridad. Una manera de proteger los archivos del proyecto es usar un sistema de control de código fuente, por ejemplo, Team Foundation Server Source Control y Microsoft Visual SourceSafe. En este tema se analizan algunas estrategias básicas para organizar proyectos con el fin de que funcionen mejor con un sistema de control de código fuente, y proporciona algunas sugerencias específicas para usar Visual SourceSafe.  
@@ -104,7 +104,7 @@ Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser 
   
 5.  Agregue lo siguiente al final de la lista de archivos binarios. Compruebe que hay puntos y comas entre cada tipo de archivo:  
   
-     *.btm; \*.btp; \*.xsd; \*.odx  
+     *.btm;\*.btp;\*.xsd;\*.odx  
   
 6.  Haga clic en **Aceptar**.  
   

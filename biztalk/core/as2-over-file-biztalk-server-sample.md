@@ -1,22 +1,22 @@
 ---
-title: "AS2 a través de archivo (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: AS2 a través de archivo (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 14d4c077cce861e94f6c2cdc0bfc6f4a14669340
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a>AS2 a través de archivo (ejemplo de BizTalk Server)
 El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través de una ubicación de recepción de archivo. Esto le permite usar un adaptador de archivo para recibir el mensaje AS2, en lugar de un adaptador de HTTP, que es el que se utiliza normalmente. Para ello, esta solución escribe los encabezados HTTP en el mensaje AS2 en la propiedad de contexto InboundHTTPHeaders, según requiere el descodificador AS2.  
@@ -126,7 +126,7 @@ El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través
   
 5.  En el nodo puertos de envío, haga clic en el puerto de envío AS2OverFile_Send y, a continuación, haga clic en **iniciar**.  
   
-6.  En el nodo Entidades, cree una entidad con el nombre "Socio comercial". En la lista de alias, agregue un alias con un **nombre** de **valor From de EDIINT-AS2**, **calificador** de **AS2-de**y un  **Valor** de **asociado**.  
+6.  En el nodo Entidades, cree una entidad con el nombre "Socio comercial". En la lista de alias, agregue un alias con un **nombre** de **valor From de EDIINT-AS2**, **calificador** de **AS2-de**y un ** Valor** de **asociado**.  
   
  BizTalk Server ahora está listo para trabajar con este ejemplo.  
   
@@ -142,7 +142,7 @@ El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través
 3.  Abra el mensaje de entrada SampleMessage.txt en un editor de texto y abra el mensaje de salida \<GUID\>.xml en un editor de texto. Compruebe que el mensaje de entrada SampleMessage.txt tenga los encabezados HTTP (y AS2) y que el mensaje de salida no tenga los encabezados HTTP.  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>Clases o métodos usados en el ejemplo  
- Ninguno  
+ None  
   
 ## <a name="see-also"></a>Vea también  
  [EDI y AS2 (carpeta de ejemplos de BizTalk Server)](../core/edi-and-as2-biztalk-server-samples-folder.md)   

@@ -1,22 +1,22 @@
 ---
-title: "Cómo mover la Database1 de archivo BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database1 de archivo BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e371321c-6b8d-4be6-a6d2-926f6218db01
-caps.latest.revision: "3"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 383aef74519f7527383d9f681f83ace2e515eba7
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-move-the-bam-archive-database"></a>Cómo mover la base de datos de archivo de BAM
 Este procedimiento se puede utilizar para mover la base de datos de archivo de BAM a otro servidor.  Desde una perspectiva de escenario to-end, mover la base de datos de archivo de BAM consta de dos pasos principales:  
@@ -28,7 +28,7 @@ Este procedimiento se puede utilizar para mover la base de datos de archivo de B
 ## <a name="prerequisites"></a>Requisitos previos  
  Para llevar a cabo este procedimiento, debe haber iniciado sesión con una cuenta que sea miembro del rol fijo de servidor sysadmin de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
-##  <a name="BKMK_MovingArch"></a>Mover la base de datos de archivo BAM  
+##  <a name="BKMK_MovingArch"></a> Mover la base de datos de archivo BAM  
  Realice los pasos en el siguiente procedimiento para mover la base de datos de archivo de BAM.  
   
 #### <a name="to-move-the-bam-archive-database"></a>Para mover la base de datos de archivo de BAM  
@@ -53,14 +53,14 @@ Este procedimiento se puede utilizar para mover la base de datos de archivo de B
   
 7.  Restaure la base de datos de archivo de BAM en el nuevo servidor. Para obtener instrucciones acerca de cómo restaurar la base de datos, siga las instrucciones de [Cómo: restaurar una copia de seguridad de base de datos (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511) en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] libros en pantalla acerca de cómo restaurar una base de datos.  
   
-##  <a name="BKMK_UpdateArch"></a>Actualizar las referencias a la nueva base de datos de archivo BAM  
+##  <a name="BKMK_UpdateArch"></a> Actualizar las referencias a la nueva base de datos de archivo BAM  
  Después de haber movido la base de datos, debe actualizar todas las referencias a la nueva base de datos de archivo de BAM. Deben actualizar las referencias siguientes:  
   
 -   Actualizar la configuración de BAM con los nuevos nombres de base de datos y el servidor. Vea [para actualizar la configuración de BAM](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_UpdateArchConfig).  
   
 -   Actualice los nombres de servidor y base de datos nueva en todos los paquetes SSIS de análisis BAM. Vea [para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_UpdateArchSSIS).  
   
-###  <a name="BKMK_UpdateArchConfig"></a>Para actualizar la configuración de BAM  
+###  <a name="BKMK_UpdateArchConfig"></a> Para actualizar la configuración de BAM  
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
@@ -101,9 +101,9 @@ Este procedimiento se puede utilizar para mover la base de datos de archivo de B
   
 6.  En el símbolo del sistema, escriba:  
   
-     **bm.exe update-config-FileName:BAMConfiguration.xml**  
+     **bm.exe update-config -FileName:BAMConfiguration.xml**  
   
-###  <a name="BKMK_UpdateArchSSIS"></a>Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
+###  <a name="BKMK_UpdateArchSSIS"></a> Para actualizar los nombres de servidor y base de datos en todos los paquetes SSIS de BAM  
   
 1.  Actualice los nombres de servidor y base de datos en todos los paquetes SSIS análisis BAM, que tienen el prefijo "BAM_DM_". Para ello, haga clic en **iniciar**, haga clic en **todos los programas**, haga clic en **Microsoft SQL Server 2008 R2** o **Microsoft SQL Server 2008 SP1**y, a continuación, haga clic en **SQL Server Business Intelligence Development Studio**.  
   

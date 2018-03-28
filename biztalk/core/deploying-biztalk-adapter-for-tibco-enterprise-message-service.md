@@ -1,28 +1,28 @@
 ---
 title: Importar enlaces para TIBCO EMS | Documentos de Microsoft
-description: "Implementar el adaptador de BizTalk para aplicaciones de TIBCO Enterprise Message Service con la característica Importar enlaces en BizTalk Server"
-ms.custom: 
+description: Implementar el adaptador de BizTalk para aplicaciones de TIBCO Enterprise Message Service con la característica Importar enlaces en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69dae448-4ec6-4a56-a628-bb447bc21b62
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 79f7f3ec0478746b8c2c6762fe212229f9c7b11d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="deploy-tibco-ems-ports-and-assemblies"></a>Implementar ensamblados y puertos de TIBCO EMS
 
 ## <a name="overview"></a>Información general
-Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede duplicar puertos y ensamblados en un equipo de destino. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]configuración de la ubicación de recepción/puertos de envío de exportaciones en un archivo XML.  
+Con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], puede duplicar puertos y ensamblados en un equipo de destino. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuración de la ubicación de recepción/puertos de envío de exportaciones en un archivo XML.  
   
  Puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para realizar las tareas siguientes:  
   

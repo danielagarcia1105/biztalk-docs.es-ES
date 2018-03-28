@@ -1,23 +1,23 @@
 ---
 title: Agregar el adaptador de BizTalk para JD Edwards EnterpriseOne | Documentos de Microsoft
-description: "Agregar JD Edwards EnterpriseOne a administración de BizTalk, cree el puerto de envío, configurar las propiedades de transporte y use las canalizaciones XMLReceive y XMLTransmit al usar el adaptador de JD Edwards EnterpriseOne en BizTalk Server"
-ms.custom: 
+description: Agregar JD Edwards EnterpriseOne a administración de BizTalk, cree el puerto de envío, configurar las propiedades de transporte y use las canalizaciones XMLReceive y XMLTransmit al usar el adaptador de JD Edwards EnterpriseOne en BizTalk Server
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: baecebcd-c324-40aa-bacf-876f45b6c37f
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 46496172a1f436a302e5131f5ff55ede66c2a751
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a>Configurar los artefactos de JD Edwards EnterpriseOne en administración de BizTalk
 Microsoft BizTalk Adapter para J.D.Edwards EnterpriseOne contiene las carpetas Controlador de recepción y Controlador de envío. Las carpetas contienen BizTalkServerApplication. BizTalk Adapter para J.D.Edwards EnterpriseOne se puede crear; se ejecuta en proceso con BizTalk Server y no se ejecuta en procesos de host aislados.  
@@ -78,10 +78,10 @@ Las propiedades del transporte JD Edwards EnterpriseOne se usan para el diseño 
     |Use|Para hacer lo siguiente|  
     |--------------|----------------|  
     |**Propiedades de adaptador necesarias**||  
-    |Host|Escriba el nombre del equipo de servidor host (por ejemplo:<br /><br /> `actsvr1`)<br /><br /> --o bien<br /><br /> Escriba la dirección IP del equipo (por ejemplo,<br /><br /> `123.456.0.789`)|  
+    |Host|Escriba el nombre del equipo de servidor host (por ejemplo:<br /><br /> `actsvr1`)<br /><br /> --or--<br /><br /> Escriba la dirección IP del equipo (por ejemplo,<br /><br /> `123.456.0.789`)|  
     |JAVA_HOME|Escriba la ruta de acceso completa a la instalación de JDK (por ejemplo,<br /><br /> `C:\jdk1sdk1.4.2_07`)|  
     |Entorno JDEdwards|Escriba el nombre de un entorno en JD Edwards EnterpriseOne (por ejemplo, `DV7333`).<br /><br /> DV7333 es un nombre común para el entorno de desarrollo, PY7333 es común para el entorno de prototipo y PD7333 es común para el entorno de producción.|  
-    |Archivos JAR de JDEdwards|Escriba el nombre de archivo y ruta de acceso completos para cada uno de los archivos JAR:<br /><br /> -C:\JDEOWJars\Connector.jar<br />-C:\JDEOWJars\Kernel.jar<br />-Archivos de programa\Microsoft BizTalk Adapters para Enterprise applications\j. Edwards EnterpriseOne(r)\Classes\JDEDynAccess.jar<br /><br /> Cada archivo jar debe estar separado mediante un punto y coma (;) y sin espacio (por ejemplo,<br /><br /> `<c:>\Connector.jar;<c:>\Kernel.jar;`)|  
+    |Archivos JAR de JDEdwards|Escriba el nombre de archivo y ruta de acceso completos para cada uno de los archivos JAR:<br /><br /> -   C:\JDEOWJars\Connector.jar<br />-   C:\JDEOWJars\Kernel.jar<br />-Archivos de programa\Microsoft BizTalk Adapters para Enterprise applications\j. Edwards EnterpriseOne(r)\Classes\JDEDynAccess.jar<br /><br /> Cada archivo jar debe estar separado mediante un punto y coma (;) y sin espacio (por ejemplo,<br /><br /> `<c:>\Connector.jar;<c:>\Kernel.jar;`)|  
     |Contraseña|Escriba una contraseña de usuario. Si no usa el inicio de sesión único (SSO), debe establecer parámetros de credenciales para el adaptador BizTalk para que JD Edwards EnterpriseOne obtenga acceso al sistema servidor. La contraseña corresponde al nombre de usuario, y determina los privilegios que se le conceden al obtener acceso a la base de datos.|  
     |Puerto|Escriba el identificador numérico de envío o puerto de recepción (por ejemplo, `6009`).|  
     |Nombre de usuario|Escriba el nombre del usuario y, a continuación, haga clic en **Aceptar**.|  
@@ -130,7 +130,7 @@ Las propiedades del transporte JD Edwards EnterpriseOne se usan para el diseño 
   
  Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] obtiene varios lotes antes de invocar `Done`, puede que el comando `Done` nunca se ejecute. El establecimiento del número máximo de mensajes que se van a incluir en un lote le permite controlar los mensajes que se van a transmitir al servidor.  
   
- Cambios en el parámetro surte efecto en un minuto. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]debe recuperar los cambios a la configuración del adaptador guardada en la base de datos SQL.  
+ Cambios en el parámetro surte efecto en un minuto. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] debe recuperar los cambios a la configuración del adaptador guardada en la base de datos SQL.  
   
 #### <a name="refresh-agent"></a>Agente de actualización  
  Cuando se selecciona **Sí** para el **agente de actualización**, forzar los procesos runtimeagent.exe y browsingagent.exe se reinicie automáticamente cuando sea necesario.  

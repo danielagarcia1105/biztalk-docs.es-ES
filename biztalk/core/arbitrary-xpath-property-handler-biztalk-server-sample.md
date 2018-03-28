@@ -1,25 +1,25 @@
 ---
 title: Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
 - examples, pipeline components [custom]
 ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3f2f59ce48a3d46ebf33889e31a55f9aa452fd17
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)
 El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) muestra cómo escribir un componente de canalización personalizado para promover propiedades específicas en un documento XML que se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar la funcionalidad contenida en el ejemplo para crear componentes de ensamblador y desensamblador normales personalizados para evaluar las expresiones XPath.  
@@ -90,7 +90,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
   
     -   Genera el componente de canalización del controlador de propiedad XPath arbitrario.  
   
-    -   Componente de canalización de copias generados para el  *\<ruta de acceso de instalación\>*directorio \Pipeline Components.  
+    -   Componente de canalización de copias generados para el * \<ruta de acceso de instalación\>*directorio \Pipeline Components.  
   
     -   Crea los puertos de envío y recepción.  
   
@@ -118,7 +118,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
 2.  Vea el contenido del directorio \Output. Tenga en cuenta que se crea un archivo nuevo que contiene toda la información del archivo DocInstance.xml que ha copiado en el directorio \Input. La diferencia en el archivo es que ahora el \<TotalAmount\> elemento se ha rellenado con la cantidad total del pedido de compra.  
   
 ## <a name="comments"></a>Comentarios  
- Las expresiones XPath canónicas son expresiones simples como "/ * [local-name () = 'element-name' and namespaceURI() = 'http://MyUri.org'] /\*[local-name () = 'element-name'] / @\*[local-name = 'attribute-name']".  
+ Las expresiones XPath canónicas son expresiones simples como "/ * [local-name () = 'element-name' and namespaceURI() ='http://MyUri.org'] /\*[local-name () = 'element-name'] / @\*[local-name = 'attribute-name']".  
   
  Una expresión XPath arbitraria puede ser tan compleja como "//element-name//*[local-name()='element-name' and position()=2]". Dado el caso, recibirá un error de tiempo de ejecución que indica que las expresiones XPath no canónicas no son compatibles con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] si el esquema tiene un XPath no canónico utilizado en el cuerpo de XPath o en una propiedad de XPath. Una solución para admitir expresiones XPath arbitrarias es crear componentes de desensamblador y de ensamblador personalizados que admiten un cuerpo de XPath arbitrario, así como expresiones de propiedad de XPath arbitrarias.  
   

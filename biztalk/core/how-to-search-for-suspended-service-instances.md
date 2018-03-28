@@ -1,11 +1,11 @@
 ---
-title: "Búsqueda de instancias de servicio suspendidas | Documentos de Microsoft"
-ms.custom: 
+title: Búsqueda de instancias de servicio suspendidas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service instances, viewing
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - instances, suspended
 - instances, services
 ms.assetid: f91b1151-d879-4aa7-afc8-4cf13d928158
-caps.latest.revision: "19"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 52c0d3ad192ad2cc8f4429f78cfa38ddc97ac837
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-search-for-suspended-service-instances"></a>Cómo buscar instancias de servicio suspendidas
 Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar instancias de servicio suspendidas. Puede buscar un determinado subconjunto de mensajes para localizar un mensaje concreto asociado a un host, tipo, nombre de servicio, etc.  
@@ -72,4 +72,4 @@ Puede usar el **consulta** pestaña en la consola de administración de BizTalk 
 7.  Seguir agregando líneas adicionales a la consulta según corresponda, siguiendo el **nombre de campo**, **operador**, y **valores** columnas y, a continuación, haga clic en **ejecutar Consulta**.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de la pestaña de consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)
+ [Uso de la pestaña Consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)

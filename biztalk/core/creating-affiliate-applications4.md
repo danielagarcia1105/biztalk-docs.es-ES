@@ -1,11 +1,11 @@
 ---
 title: Crear aplicaciones afiliadas Applications4 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tickets, Single Sign-On
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - Single Sign-On, creating tickets
 - SSO tickets
 ms.assetid: 790fbe21-8081-4d57-803f-23014c8a3135
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 87aa9be716e437e80c0e85bd9e462713e48090ad
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliadas con SSO.  
@@ -38,7 +38,7 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
   
      Por ejemplo:  
   
-     **C:\Program programa\Archivos comunes\enterprise Single Sign-On >**  
+     **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
   
 3.  Utilice los comandos del Inicio de sesión único empresarial. Para obtener una lista de comandos, utilice la **-ayuda** cambiar.  
   
@@ -111,9 +111,9 @@ Los pasos siguientes describen cómo empezar a trabajar con aplicaciones afiliad
   
     -   Id. de usuario: **usuario**  
   
-    -   Contraseña:`******`  
+    -   Contraseña: `******`  
   
-    -   Confirmar? Contraseña:`******`  
+    -   Confirmar? Contraseña: `******`  
   
      La aplicación afiliada aparecerá en el adaptador de BizTalk para JD Edwards EnterpriseOne **propiedades de transporte** cuadro de diálogo.  
   

@@ -1,20 +1,20 @@
 ---
-title: "Solución de problemas y problemas conocidos con el Acelerador de RosettaNet de BizTalk (BTARN) se instalación en el servidor BizTalk Server | Documentos de Microsoft\""
-description: "Recomendaciones para la instalación de SQL, la cuenta de servicio para las instancias de host y los errores conocidos con la instalación de BTARN en BizTalk Server"
+title: Solución de problemas y problemas conocidos con el Acelerador de RosettaNet de BizTalk (BTARN) se instalación en el servidor BizTalk Server | Documentos de Microsoft"
+description: Recomendaciones para la instalación de SQL, la cuenta de servicio para las instancias de host y los errores conocidos con la instalación de BTARN en BizTalk Server
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: cdca89c1a7a4ed3834103776f9f28c8631c5de0a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="troubleshoot-the-installation-and-see-the-known-install-issues"></a>Solucionar problemas de la instalación y consulte los problemas de instalación conocidos
 
@@ -89,7 +89,7 @@ Manualmente, copie los archivos y vuelva a configurar:
   
  Es posible que obtenga un `Service Unavailable` error al intentar obtener acceso a HTTP de BTARN recibir una ubicación en sistemas operativos de Windows de 64 bits.  
   
- **Causa**  
+ **Cause**  
   
  Esto problema puede deberse al filtro ISAPI "RPCProxy.dll".  
   
@@ -103,7 +103,7 @@ Quite las referencias al filtro ISAPI del proxy RPC y reiniciar IIS:
   
 3.  Reinicie IIS.  
   
-4.  Tras reiniciar IIS, intente acceder a http://localhost. Debería obtener el mensaje 400 del explorador de Internet.  
+4.  Después de reiniciar IIS, intente obtener acceso a http://localhost. Debería obtener el mensaje 400 del explorador de Internet.  
   
 ### <a name="sql-server-mixed-mode-not-supported"></a>Modo mixto de SQL Server no admite  
 BTARN no es compatible con SQL Server en modo mixto.  

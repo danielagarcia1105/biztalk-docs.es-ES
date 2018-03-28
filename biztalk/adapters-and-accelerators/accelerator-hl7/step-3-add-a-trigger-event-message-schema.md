@@ -1,29 +1,29 @@
 ---
 title: 'Paso 3: Agregar un esquema de desencadenador de eventos (mensaje) | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc4a67d9-9582-4f2b-9bc9-18fbff823d29
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 439caac8f1da151a9f203a1372039aaeedbfe83c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="step-3-add-a-trigger-event-message-schema"></a>Paso 3: Agregar un esquema de desencadenador de eventos (mensaje)
 En este paso, cree un nuevo proyecto basado en vacío [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] plantilla de proyecto. Para este proyecto, agregue el esquema que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] usará para validar los mensajes del lote entrante (ADT ^ A03). Agregue una referencia al proyecto que contiene los esquemas comunes v2.3.1, asigne un nombre seguro al proyecto y, a continuación, implemente el proyecto.  
   
 ### <a name="to-add-the-project-containing-the-message-schema"></a>Para agregar el proyecto que contiene el esquema de mensaje  
   
-1.  En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en la **archivo** menú, elija **New**y, a continuación, haga clic en **proyecto**.  
+1.  En el menú [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Archivo **de** , elija **Nuevo**y, a continuación, haga clic en **Proyecto**.  
   
 2.  En el cuadro de diálogo nuevo proyecto, en la **tipos de proyecto** sección, expanda **proyectos de BizTalk**y, a continuación, seleccione **BTAHL7Projects**.  
   
@@ -66,7 +66,7 @@ En este paso, cree un nuevo proyecto basado en vacío [!INCLUDE[btaBTAHL71.3abbr
   
 4.  En **elegir un archivo de clave de nombre seguro** de lista desplegable de la lista, seleccione  **\<Examinar... \>.**  
   
-5.  Vaya a  **\<* unidad*\>: \Batching Tutorial **, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
+5.  Vaya a  **\< *unidad*\>: \Batching Tutorial**, seleccione **key.snk**y, a continuación, haga clic en **abiertos**.  
   
 6.  En el Explorador de soluciones, haga clic en **BTAHL7V231Body**y, a continuación, haga clic en **implementar**. Asegúrese de que aparece un mensaje de confirmación en la ventana de salida.  
   

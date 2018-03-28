@@ -1,22 +1,22 @@
 ---
 title: Dividir subdocumentos HIPAA | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66d9badd-00c6-43a3-807e-0ad313983adc
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 799cb5813b3c13339a0c477bf142a467a91b2c94
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="splitting-hipaa-subdocuments"></a>Dividir subdocumentos HIPAA
 Los intercambios EDI para HIPAA suelen tener varios documentos secundarios/subdocumentos en un único conjunto de transacciones, limitado por los encabezados ST/SE. La canalización de recepción EDI admite la creación de subdocumentos HIPAA individuales en dicho conjunto de transacciones. Es distinta de los intercambios EDI que no son para HIPAA, en los que se procesa un solo conjunto de transacciones como mensaje único.  

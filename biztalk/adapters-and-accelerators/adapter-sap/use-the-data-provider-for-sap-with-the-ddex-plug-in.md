@@ -1,26 +1,26 @@
 ---
 title: Usar el proveedor de datos para SAP con el complemento DDEX | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DDEX plug-in
 - DDEX plug-in, Data Provider for SAP
 - Data Provider for SAP, using with DDEX plug-in
 ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a2a1dd348b6d897e147d6add49499e9716a67aeb
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>Usar el proveedor de datos para SAP con el complemento DDEX
 Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] junto con el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, el programa de instalación instala un [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] complemento DDEX. Puede usar este complemento para examinar objetos SAP mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. Esta sección proporciona información acerca de cómo utilizar el complemento DDEX.  
@@ -66,7 +66,7 @@ Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersa
   
      La siguiente ilustración muestra el Explorador de servidores una vez establecida la conexión.  
   
-     ![DDEX plug &#45; en el proveedor de ADO.NET de SAP de](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
+     ![Plug DDEX&#45;en para el proveedor de ADO.NET de SAP](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
   
 ### <a name="to-add-tables-from-an-sap-system-using-the-ddex-plug-in"></a>Para agregar las tablas de un sistema SAP mediante el complemento DDEX  
   
@@ -79,7 +79,7 @@ Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersa
   
 3.  El **resultados de búsqueda** cuadro muestra los nombres de tabla que cumplen los criterios de búsqueda.  
   
-     ![DDEX plug &#45; en el cuadro de diálogo de nombre de búsqueda y agregar tablas](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
+     ![Plug DDEX&#45;en el cuadro de diálogo de nombre de búsqueda y agregar tablas](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
   
 4.  Active la casilla de verificación correspondientes a las tablas que desea agregar y haga clic en **agregar**. Para seleccionar todas las tablas, haga clic en **seleccionar todo**. Para borrar todas las selecciones, haga clic en **Borrar todo**.  
   
@@ -100,7 +100,7 @@ Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersa
   
 3.  El **resultados de búsqueda** cuadro muestra los módulos de función que cumplen los criterios de búsqueda.  
   
-     ![DDEX plug &#45; en el cuadro de diálogo Buscar y agregar módulos](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
+     ![Plug DDEX&#45;en el cuadro de diálogo Buscar y agregar módulos](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
   
 4.  Active la casilla correspondiente a los módulos de función que desea agregar y haga clic en **agregar**. Para seleccionar todos los módulos, haga clic en **seleccionar todo**. Para borrar todas las selecciones, haga clic en **Borrar todo**.  
   

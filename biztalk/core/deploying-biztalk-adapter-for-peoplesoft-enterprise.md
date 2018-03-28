@@ -1,23 +1,23 @@
 ---
 title: Importar aplicaciones PeopleSoft | Documentos de Microsoft
 description: Usar un archivo de enlace XML para importar las aplicaciones de adaptador de PeopleSoft en BizTalk Server y leer todas las limitaciones al importar
-ms.custom: 
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f53d1b4-e1df-41ff-b554-1bb1d20b9111
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ed076bd238eff5106bb0b2f08449144d922fed4d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>Implementar el adaptador de BizTalk para PeopleSoft Enterprise
 Esta sección proporciona información acerca de la implementación del adaptador de BizTalk para PeopleSoft Enterprise.  
@@ -75,7 +75,7 @@ La contraseña del adaptador de transporte se almacena como asteriscos (*) en el
 
 ### <a name="work-around-the-password-limitation"></a>Evitar la limitación de contraseña  
 
-**Opción 1**   
+**opción 1**   
   
 -   Antes de importar, actualice el archivo de enlace reemplazando los asteriscos por texto sin formato.  
   

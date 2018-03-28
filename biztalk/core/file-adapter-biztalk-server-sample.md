@@ -1,25 +1,25 @@
 ---
 title: (Ejemplo de BizTalk Server) del adaptador de archivo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, File adapters
 - File adapters, examples
 ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: "46"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: de68c57c6b435f85edf630a7b224c5d58ffd0cd6
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>Adaptador de archivo (ejemplo de BizTalk Server)
 El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET para trabajar con Microsoft BizTalk Server. Proporciona código para construir un adaptador estático o dinámico.  Sin embargo, el siguiente procedimiento solo describe el adaptador estático. Un adaptador estático es un adaptador con un conjunto de esquemas estático y sin interfaz de usuario personalizada. Un adaptador dinámico tiene una interfaz de usuario personalizada y posiblemente un conjunto de esquemas dinámico. Tanto los adaptadores estáticos como los dinámicos utilizan el Asistente para agregar adaptador para agregar sus esquemas a un proyecto de BizTalk.  
@@ -191,7 +191,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
   
     |Use|Para|  
     |--------------|----------------|  
-    |**SQL Server**|Tipo de **.** (un punto).|  
+    |**SQL Server**|Type **.** (un punto).|  
     |**Base de datos**|Seleccionar el nombre de la base de datos de administración de BizTalk que creó el Asistente para configuración. El nombre de base de datos predeterminado utilizado por el Asistente para configuración es **BizTalkMgmtDb**.|  
   
 7.  Haga clic en **Aceptar**.  
@@ -314,7 +314,7 @@ El ejemplo de adaptador de archivo está escrito en Microsoft Visual C# .NET par
   
 2.  Vaya a  *\<unidad\>*:**\Temp\Receive** y pegue el archivo Instance.xml en la carpeta.  
   
-     Si la transmisión y recepción trabajan adaptadores, debe mover el archivo de la  *\<unidad\>*:**\Temp\Receive** carpeta a la  *\<unidad \>* :**\Temp\Send** carpeta.  
+     Si la transmisión y recepción trabajan adaptadores, debe mover el archivo de la  *\<unidad\>*:**\Temp\Receive** carpeta a la *\<unidad \>*:**\Temp\Send** carpeta.  
   
 ##### <a name="to-test-the-sample-add-adapter-wizard-functionality-for-the-sample-static-adapter"></a>Para probar la funcionalidad del Asistente para agregar adaptador de ejemplo del adaptador estático de ejemplo  
   

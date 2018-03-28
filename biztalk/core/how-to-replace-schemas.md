@@ -1,22 +1,22 @@
 ---
-title: "Cómo reemplazar esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo reemplazar esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 104e60d3-1303-4e56-b13a-c10ab14ba383
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: df444b8169d75408fe6e412135029ae2b051a6d2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-replace-schemas"></a>Cómo reemplazar esquemas
 Puede que en algún momento desee reemplazar el esquema de origen o el de destino en una asignación existente, como cuando recibe un esquema actualizado de un socio comercial.  
@@ -40,7 +40,7 @@ Puede que en algún momento desee reemplazar el esquema de origen o el de destin
       
      Si solo existe una raíz en el esquema de reemplazo, o se ha establecido un nodo de raíz para el esquema de reemplazo mediante la **referencia raíz** propiedad de la **esquema** abre el nodo, el esquema de reemplazo en el panel correspondiente, y no debe realizar el paso 3.  
   
-3.  Si existen múltiples nodos raíz en el esquema de destino, y no se ha establecido ningún nodo de raíz para el esquema de destino mediante el **referencia raíz** propiedad de la **esquema** nodo, en la  **Nodo raíz para \<* origen/destino* \> esquema ** cuadro de diálogo, seleccione el nodo raíz apropiado y, a continuación, seleccione **Aceptar**.  
+3.  Si existen múltiples nodos raíz en el esquema de destino, y no se ha establecido ningún nodo de raíz para el esquema de destino mediante el **referencia raíz** propiedad de la **esquema** nodo, en el **raíz Nodo de \< *origen/destino* \> esquema** cuadro de diálogo, seleccione el nodo raíz apropiado y, a continuación, seleccione **Aceptar**.  
   
      El esquema de reemplazo se abre en el panel correspondiente.  
   

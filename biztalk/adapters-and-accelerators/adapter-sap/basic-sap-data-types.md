@@ -1,23 +1,23 @@
 ---
-title: "Tipos de datos básicos de SAP en el adaptador de mySAP en BizTalk | Documentos de Microsoft"
-description: "Tipos de datos admitidos de ABAP y base de datos para el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Tipos de datos básicos de SAP en el adaptador de mySAP en BizTalk | Documentos de Microsoft
+description: Tipos de datos admitidos de ABAP y base de datos para el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 296b4813-f175-4a02-8fd3-227ae301bc3d
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f40e7dc6f98e1de2ff0388a8e7e52fdabafc7681
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="basic-sap-data-types"></a>Tipos de datos SAP básica
 Los tipos de parámetros que el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] admite se rige por el:  
@@ -67,13 +67,13 @@ Los tipos de parámetros que el [!INCLUDE[adaptersap](../../includes/adaptersap-
 ### <a name="support-for-date-and-time-fields"></a>Compatibilidad para campos de hora y fecha  
  Cuando escriba seguro no está habilitada, los tipos de fecha ABAP (D) y el tiempo (T) aparecen como XSD: DateTime; Sin embargo, la faceta de patrón aparecen para los tipos de fecha y hora es diferente.  
   
--   La faceta de patrón de fecha es:`(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)`  
+-   La faceta de patrón de fecha es: `(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)`  
   
      Por ejemplo, 7 de julio de 2007 (2007-07-07) se representa como:  
   
      `(2007-07-07)T(00:00:00)`.  
   
--   La faceta de patrón de hora es:`(0001-01-01)T(\d\d:\d\d:\d\d)(.*)`  
+-   La faceta de patrón de hora es: `(0001-01-01)T(\d\d:\d\d:\d\d)(.*)`  
   
      Por ejemplo, 18:30:30 (6:30 p.m. y 30 segundos) se representa como:  
   
@@ -97,13 +97,13 @@ Los tipos de parámetros que el [!INCLUDE[adaptersap](../../includes/adaptersap-
 |DAT (campo de fecha) *|RFC_DATE|xsd:dateTime<br /><br /> Internamente, el adaptador deserializa el valor en un **DateTime** objeto. A continuación, se invoca el **DateTime.ToUniversalTime** método para convertir el valor de este objeto en una hora UTC. Por último, el componente de fecha (**DateTime.Date**) se utiliza para crear el valor que se envía al sistema SAP. El sistema SAP trata este valor de fecha como hora local.<br /><br /> Debe especificar valores de fecha como UTC para evitar la conversión. Se recomienda el patrón siguiente: "(\d\d\d\d-\d\d-\d\d) T (00: 00:00)(.*) Z".|DateTime<br /><br /> Debe especificar valores de fecha como hora UTC (DateTime.Kind = DateTimeKind.Utc) para evitar la conversión.|  
 |DEC (cantidad)|RFC_BCD|xsd: decimal **Nota:** el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] redondea los valores decimales en función de la definición del parámetro DECIMAL. Por ejemplo, si un parámetro DECIMAL puede aceptar hasta cinco dígitos después del separador decimal, se redondea un valor como 4,000028 a 4.00003.|Decimal|  
 |FLTP (punto flotante)|RFC_FLOAT|xsd:double|Doble|  
-|INT1|RFC_INT1|xsd:unsignedByte|Byte|  
+|INT1|RFC_INT1|xsd:unsignedbyte|Byte|  
 |INT2|RFC_INT2|xsd:short|Int16|  
 |INT4|RFC_INT|xsd:int|Int32|  
 |LANG (clave de lenguaje)|RFC_CHAR|xsd:cadena|String|  
 |LCHR|RFC_STRING|xsd:cadena|String|  
 |LRAW (seq bytes largo)|RFC_BYTE|xsd: base64Binary|Byte[]|  
-|NUMC *|RFC_NUM|xsd:int<br />xsd:long<br />xsd:cadena|Int32 si longitud < = 9<br />Int64 si longitud > 9 y < = 19<br />La cadena si longitud > 19|  
+|NUMC*|RFC_NUM|xsd:int<br />xsd:long<br />xsd:cadena|Int32 si longitud < = 9<br />Int64 si longitud > 9 y < = 19<br />La cadena si longitud > 19|  
 |PREC (precisión)|RFC_INT2|xsd:short|Int16|  
 |QUAN (Quantity)|RFC_BCD|xsd: decimal **Nota:** el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] redondea los valores decimales en función de la definición del parámetro DECIMAL. Por ejemplo, si un parámetro DECIMAL puede aceptar hasta cinco dígitos después del separador decimal, se redondea un valor como 4,000028 a 4.00003.|Decimal|  
 |RAW (secuencia de bytes)|RFC_BYTE|xsd: base64Binary|Byte[]|  
@@ -132,10 +132,10 @@ Los tipos de parámetros que el [!INCLUDE[adaptersap](../../includes/adaptersap-
   
 |Tipo RFC|Faceta de XSD (**EnableSafeTyping** = false)|Faceta de XSD (**EnableSafeTyping** = true)|  
 |--------------|-------------------------------------------------|------------------------------------------------|  
-|RFC_BCD|**Faceta de patrón XSD**<br /><br /> **Cero decimales:**`"([\\-]{0,1})(([0-9]{1,"`  `+ digitsBeforeDecimal +`  `"}))"`<br /><br /> **Uno o más posiciones decimales:**`"([\\-]{0,1})(([0-9]{0,"` + `digitsBeforeDecimal +``"}\\.[0-9]{0,"``+ digitsAfterDecimal +``"})&#124;([0-9]{1,"``+ digitsBeforeDecimal +``"}))"`|Mismo|  
+|RFC_BCD|**Faceta de patrón XSD**<br /><br /> **Decimales:** `"([\\-]{0,1})(([0-9]{1,"`  `+ digitsBeforeDecimal +`  `"}))"`<br /><br /> **Uno o más posiciones decimales:** `"([\\-]{0,1})(([0-9]{0,"` + `digitsBeforeDecimal +``"}\\.[0-9]{0,"``+ digitsAfterDecimal +``"})&#124;([0-9]{1,"``+ digitsBeforeDecimal +``"}))"`|Mismo|  
 |RFC_NUM|**Faceta XSD totalDigits** si longitud < = 19<br /><br /> **Faceta de patrón XSD** si longitud > 19|**Faceta XSD maxLength (depende de la longitud del valor en SAP)**|  
-|RFC_DATE|**Faceta de patrón XSD**<br /><br /> `"(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)"`<br /><br /> Patrón contiene la hora 00:00:00 para que sea compatible con`xsd:datetime`|**Faceta XSD maxLength = 8**|  
-|RFC_TIME|**Faceta de patrón XSD**<br /><br /> `"(0001-01-01)T(\d\d:\d\d:\d\d)(.*)"`<br /><br /> Patrón contiene la fecha de 0001-01-01 para ser compatible con`xsd:datetime`|**Faceta XSD maxLength = 6**|  
+|RFC_DATE|**Faceta de patrón XSD**<br /><br /> `"(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)"`<br /><br /> Patrón contiene la hora 00:00:00 para que sea compatible con `xsd:datetime`|**Faceta XSD maxLength = 8**|  
+|RFC_TIME|**Faceta de patrón XSD**<br /><br /> `"(0001-01-01)T(\d\d:\d\d:\d\d)(.*)"`<br /><br /> Patrón contiene la fecha de 0001-01-01 para ser compatible con `xsd:datetime`|**Faceta XSD maxLength = 6**|  
 |RFC_CHAR|**Faceta XSD maxLength**|Mismo|  
   
 ## <a name="unsupported-data-types"></a>Tipos de datos no compatibles  

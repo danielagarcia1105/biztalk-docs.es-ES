@@ -1,22 +1,22 @@
 ---
-title: "Cómo abrir, guardar, cerrar y cambiar el nombre de los mapas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo abrir, guardar, cerrar y cambiar el nombre de los mapas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9aa88ca7-a731-4295-8692-6dd36fdf0872
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9383dd3751f9ccdd7790b0215e596eba95dc4a45
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a>Cómo abrir, guardar, cerrar y cambiar el nombre de asignaciones
 En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], las asignaciones existen como archivos en el sistema de archivos con la extensión .btm. No obstante, es mucho más habitual trabajar con asignaciones como elementos de un proyecto de BizTalk, desde el que lleva a cabo operaciones como abrir, guardar y cerrar asignaciones.  
@@ -36,13 +36,13 @@ En Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 1.  En el Explorador de soluciones, seleccione la asignación que desea guardar.  
   
-2.  En el **archivo** menú, haga clic en **guardar  *\<de asignación de nombre de\>***.  
+2.  En el **archivo** menú, haga clic en ** Guardar *\<de asignación de nombre de\>***.  
   
 ### <a name="to-save-a-map-to-a-new-location"></a>Para guardar una asignación en una nueva ubicación  
   
 1.  En el Explorador de soluciones, seleccione la asignación que desea guardar en una nueva ubicación.  
   
-2.  En el **archivo** menú, haga clic en **guardar  *\<de asignación de nombre de\>*  como**.  
+2.  En el **archivo** menú, haga clic en **guardar *\<de asignación de nombre de\>* como**.  
   
 3.  En el **Guardar archivo como** cuadro de diálogo, vaya a la ubicación de la carpeta donde desea guardar el mapa.  
   

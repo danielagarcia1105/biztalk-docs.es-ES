@@ -1,23 +1,23 @@
 ---
 title: 'Tutorial: Desensamblador de archivos sin formato con un encabezado y finalizador | Documentos de Microsoft'
-description: "Use el Asistente para esquemas de archivo sin formato para crear un esquema de encabezado, el esquema de finalizador y el esquema de cuerpo y, a continuación, desensamblar un archivo sin formato de BizTalk Server"
-ms.custom: 
+description: Use el Asistente para esquemas de archivo sin formato para crear un esquema de encabezado, el esquema de finalizador y el esquema de cuerpo y, a continuación, desensamblar un archivo sin formato de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 715af9cc-d718-483d-b593-64462aa5a58b
-caps.latest.revision: "16"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b7c1406367f047794c6d8931352104bb59e6ca5b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="walkthrough-flat-file-disassembly-using-a-header-and-trailer"></a>Tutorial: Desensamblador de archivos sin formato con un encabezado y finalizador
 
@@ -128,7 +128,7 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-10. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de encabezado. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+10. Haga clic en el **\<esquema\>** nodo en el panel de esquema de encabezado. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-trailer-schema"></a>Usar al Asistente para esquemas de archivo sin formato para crear el esquema de finalizador  
   
@@ -165,7 +165,7 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-10. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de finalizador. En el panel Propiedades, cambie **elementFormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+10. Haga clic en el **\<esquema\>** nodo en el panel de esquema de finalizador. En el panel Propiedades, cambie **elementFormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-body-schema"></a>Usar al Asistente para esquemas de archivo sin formato para crear el esquema de cuerpo  
   
@@ -216,9 +216,9 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
      Si se ha cometido algún, haga clic en **volver** y realice las correcciones necesarias. Cuando esté satisfecho, haga clic en **finalizar** para completar el asistente.  
   
-15. Haga clic en el  **\<esquema\>**  nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
+15. Haga clic en el **\<esquema\>** nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Element FormDefault** a **Qualified**. Con ello, se indica que el espacio de nombres de destino debe calificar los elementos declarados localmente en un documento de instancia.  
   
-16. Haga clic en el  **\<Error\>**  nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Max Occurs** a **1**. Con ello, el Desensamblador de archivos sin formato divide cada uno de los errores en su propio mensaje.  
+16. Haga clic en el **\<Error\>** nodo en el panel de esquema de cuerpo. En el panel Propiedades, cambie **Max Occurs** a **1**. Con ello, el Desensamblador de archivos sin formato divide cada uno de los errores en su propio mensaje.  
   
 ##### <a name="test-the-schemas-using-ffdasm"></a>Probar los esquemas mediante FFDasm  
   
@@ -281,7 +281,7 @@ Antes de generar esquemas, es necesario crear un archivo de prueba.
   
 1.  Utilice el Explorador de Windows para crear un directorio denominado "Send" en la **FFDisassemblerWalkthrough** directorio del proyecto.  
   
-2.  En la consola de administración de BizTalk Server, expanda el **FlatFileExample** aplicación, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en  **Puerto de envío unidireccional estático...** .  
+2.  En la consola de administración de BizTalk Server, expanda el **FlatFileExample** aplicación, haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **Puerto de envío unidireccional estático...**.  
   
 3.  En el **propiedades de puerto de envío** diálogo cuadro, establezca el nombre del puerto de "Envío".  
   

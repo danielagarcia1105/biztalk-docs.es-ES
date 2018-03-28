@@ -1,11 +1,11 @@
 ---
-title: "Búsqueda de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Búsqueda de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, viewing
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - Query tab [Administration Console], searching
 - Query tab [Administration Console], messages
 ms.assetid: c751d23f-913a-4325-81da-a36d61c07e8b
-caps.latest.revision: "16"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a5443cc021bd5f97621f44d295432c99834bdaed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-search-for-messages"></a>Cómo buscar mensajes
 Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar una clase específica de mensajes.  
@@ -64,4 +64,4 @@ Puede usar el **consulta** pestaña en la consola de administración de BizTalk 
 7.  Seguir agregando líneas adicionales a la consulta según corresponda, siguiendo el **nombre de campo**, **operador**, y **valores** columnas y, a continuación, haga clic en **ejecutar Consulta**.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de la pestaña de consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)
+ [Uso de la pestaña Consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)

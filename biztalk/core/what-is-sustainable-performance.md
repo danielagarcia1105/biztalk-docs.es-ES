@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es rendimiento sostenible? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es rendimiento sostenible? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - reliability, sustainable performance
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - performance, planning
 - sustainable performance
 ms.assetid: 4b18b976-7714-431f-8976-f40a1016d5f3
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 276ce104d8667166d020b33b2f1fb4e7bfb98dbc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="what-is-sustainable-performance"></a>¿Qué es rendimiento sostenible?
 Cuando se planea la sostenibilidad estimada de un sistema, es fundamental pensar en términos de sostenibilidad a largo plazo. Las principales consideraciones son:  

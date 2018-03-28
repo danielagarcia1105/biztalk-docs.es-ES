@@ -1,26 +1,27 @@
 ---
-title: "Habilita la validación de códigos de identificación del banco | Documentos de Microsoft"
-ms.custom: 
+title: Habilita la validación de códigos de identificación del banco | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Bank Identifier Code (BIC), enabling
+helpviewer_keywords:
+- Bank Identifier Code (BIC), enabling
 ms.assetid: d268a892-f304-44cb-b590-28ef359c8d99
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c3868906d4f61242b1344a02147e4e71307d67d3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="enabling-validation-of-bank-identifier-codes"></a>Habilita la validación de códigos de identificación del banco
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] esquemas asegurarse de que los códigos de identificación del banco (BICs) especificado en el documento de intercambio SWIFT se ajusta al formato de datos definidos por el SWIFT BIC. A4SWIFT también admite la validación de la BICs con una lista BIC especificado por el cliente en una base de datos.  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] esquemas de asegurarse de que los códigos de identificación del banco (BICs) especificado en el documento de intercambio SWIFT se ajusta al formato de datos definidos por el SWIFT BIC. A4SWIFT también admite la validación de la BICs con una lista BIC especificado por el cliente en una base de datos.  
   
  Puede realizar esta validación si se ha habilitado la validación de BRE y, a continuación, habilitó la validación de BIC.  
   
@@ -39,9 +40,9 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-customize-the-bic-master-policy"></a>Para personalizar la directiva BIC Master  
   
-1.  Abra un editor XML (como el Bloc de notas) y vaya a  **<* unidad*programa de programa\ Microsoft BizTalk Accelerator para SWIFT \<versión\> Pack\SWIFT de mensaje SRG Messages\A4SWIFT\<versión\>\Base directivas **.  
+1.  Abra un editor XML (como el Bloc de notas) y vaya a  **< *unidad*programa de programa\ Microsoft BizTalk Accelerator para SWIFT \<versión\> mensajes de detención\ de mensaje Pack\SWIFT SRG A4SWIFT\<versión\>\Base directivas**.  
   
-2.  Abra **BIC_Master_Policy.xml**. Reemplace las siguientes cadenas existentes con nuevos valores.  
+2.  Open **BIC_Master_Policy.xml**. Reemplace las siguientes cadenas existentes con nuevos valores.  
   
     > [!NOTE]
     >  Debe especificar los valores para la tabla de Bicplus en la base de datos de A4SWIFT o su propia base de datos personalizada. La base de datos de A4SWIFT no es el valor predeterminado en BIC_Master_Policy.xml.  
@@ -65,7 +66,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  En la página almacén de directivas, en **nombre de SQL Server**, seleccione la [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] que contiene las bases de datos de BizTalk. En **base de datos de configuración en el servidor seleccionado**, seleccione **BizTalkRuleEngineDb**y, a continuación, haga clic en **siguiente**.  
   
-8.  En la página de archivo de motor de reglas de importación directiva o vocabulario, vaya a  **<* unidad*\Program Files\ Acelerador de Microsoft BizTalk para SWIFT \<versión\> Mensaje Pack\SWIFT Messages\A4SWIFT-SRG\<versión\>\Base directivas **, haga clic en **BIC_Master_Policy.xml**, haga clic en **abiertos**y, a continuación, haga clic en **Siguiente**.  
+8.  En la página de archivo de motor de reglas de importación directiva o vocabulario, vaya a  **< *unidad*\Program Files\ Acelerador de Microsoft BizTalk para SWIFT \<versión\> Pack\SWIFT de mensaje SRG Messages\A4SWIFT\<versión\>\Base directivas**, haga clic en **BIC_Master_Policy.xml**, haga clic en **abiertos**y, a continuación, haga clic en **Siguiente**.  
   
 9. En la página Listo, comprobar los datos y, a continuación, haga clic en **siguiente**.  
   

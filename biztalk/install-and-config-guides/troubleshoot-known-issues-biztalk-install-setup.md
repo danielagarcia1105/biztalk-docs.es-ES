@@ -1,23 +1,23 @@
 ---
-title: "Problemas de instalación conocidos | Documentos de Microsoft"
+title: Problemas de instalación conocidos | Documentos de Microsoft
 description: Problemas conocidos y problemas comunes y soluciones al instalar y configurar el servidor BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
-caps.latest.revision: "27"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 90217a4e80df6f017b451dd7c40f6a1dfe3898ac
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="troubleshoot-biztalk-server-setup"></a>Solucionar problemas de instalación de BizTalk Server
 
@@ -101,7 +101,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
 ## <a name="configuration-logging"></a>Registro de configuración  
  El programa de configuración escribe información detallada en un archivo de registro de configuración que se encuentra en el directorio temp del equipo que ejecuta BizTalk Server de forma predeterminada. Para determinar la carpeta especificada por la variable de entorno TEMP, abra un símbolo del sistema en este equipo, escriba el comando siguiente y presione ENTRAR:  
   
- **Echo % TEMP %**  
+ **echo %TEMP%**  
   
  El archivo de registro de configuración contiene un resumen de los pasos de configuración que se han llevado a cabo, así como información de diagnóstico sobre errores que se pueden producir durante el proceso de configuración. Si se produce un error de configuración, abra el registro de configuración en un editor de texto como el Bloc de notas y compruebe el archivo de registro para ver las posibles causas del error.  
   
@@ -130,10 +130,10 @@ Use [solución de problemas con MSDTC](https://support.microsoft.com/help/306843
   
 ### <a name="antivirus-software-interferes-with-configuration-and-causes-configuration-failures"></a>El software antivirus interfiere con la configuración y provoca errores en ella  
   
-**Problema**   
+**Problem**   
  Se produce un error en la configuración de BizTalk Server cuando el software antivirus determina incorrectamente que el programa de configuración es un virus.  
   
-**Causa**  
+**Cause**  
  El software antivirus no se actualizó para incluir el programa de configuración de BizTalk Server como programa legítimo (no virus).  
   
 **Resolución**  
@@ -146,7 +146,7 @@ Use [solución de problemas con MSDTC](https://support.microsoft.com/help/306843
   
  No se pudo implementar el ensamblado de sistema de BizTalk "C:\Program programa\microsoft\biztalk Server 20xx\Microsoft.BizTalk.DefaultPipelines.dll. Excepción no especificada: no se encontró el archivo .dll de nombre de archivo del nombre de ensamblado o una de sus dependencias. "  
   
-**Causa**  
+**Cause**  
  Este error puede producirse si el servicio de red cuenta no tiene permisos de escritura a la carpeta temporal en el equipo que ejecuta BizTalk Server. Durante la configuración, la configuración de BizTalk Server utiliza Instrumental de administración de Windows (WMI) para implementar ensamblados de .NET en la base de datos de administración de BizTalk. WMI suplanta la cuenta de servicio de red mientras se implementan estos ensamblados en la base de datos de administración de BizTalk y, por lo que la cuenta de servicio de red debe tener acceso de escritura a la carpeta temporal en el equipo que ejecuta BizTalk Server.  
   
 **Resolución**  
@@ -169,7 +169,7 @@ Cannot open database requested in login 'BAMPrimaryImport'
 Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'  
 ```
   
-**Causa**  
+**Cause**  
  Este error puede producirse si un archivo .mdf o un archivo .ldf ya existe en la carpeta \MSSQL\data del equipo que ejecuta SQL Server que tenga el mismo nombre que el archivo .mdf o el archivo .ldf que el programa de configuración de BizTalk Server está intentando crear. Los nombres de los archivos .mdf y .ldf que se crean para las bases de datos se derivan del nombre de la base de datos que se especifica en el programa de configuración de BizTalk Server con un .mdf y una extensión .ldf anexado.  
   
 **Resolución**  
@@ -184,7 +184,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **Problema**  
  Al ejecutar programa de configuración de BizTalk Server en un controlador de dominio, configuración produce un error si se especifica un grupo local (por ejemplo, grupo de usuarios de BizTalk Host) para el host de BizTalkServerApplication o el de biztalkisolatedhost.  
   
-**Causa**  
+**Cause**  
  Un controlador de dominio trata de forma automática un grupo local de Windows como un grupo de dominio de Windows (en un controlador de dominio no hay grupo local de Windows). Si especifica un grupo de Windows local para el host mientras se ejecuta el programa de configuración, la configuración se producirá un error al intentar crear un inicio de sesión de SQL Server para el grupo. El programa de configuración no deshabilita la opción de grupo local de Windows cuando el servidor es un controlador de dominio.  
   
 **Resolución**  
@@ -209,7 +209,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
  connected to the server on which the file resides.  
 ```
   
-**Causa**  
+**Cause**  
  El programa de configuración no puede determinar el nuevo nombre del equipo en el que instaló el servidor SQL Server Analysis Services.  
   
 **Resolución**  
@@ -234,7 +234,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **Problema**  
  Cuando un proyecto de BizTalk Server se vuelve a implementar en el nivel de proyecto en Visual Studio, todos los artefactos incluidos en el proyecto que va a aparecer la referencia del proyecto que se vuelve a desaparecer cuando se actualiza la MMC de BizTalk Server.  
   
-**Causa**  
+**Cause**  
  Para ilustrar la causa de este problema, se considerará el siguiente ejemplo que se basa en una solución de ejemplo de BizTalk Server donde un usuario desea volver a implementar el proyecto Asignaciones. Se debe tener en cuenta que si se compilan proyectos, se obtienen ensamblados individuales. En la siguiente ilustración se indica el estado de la solución antes de que el usuario implemente de nuevo. Las relaciones entre los artefactos son las siguientes:  
   
 -   Orch1, Orch2, Maps, Pipelines y Schemas son proyectos.  
@@ -283,7 +283,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  Si durante la configuración se encuentran y eliminan inicios de sesión obsoletos, es posible que no pueda verse la información de grupo.  
   
-**Causa**  
+**Cause**  
  Se trata de un problema de configuración conocido.  
   
 **Resolución**  
@@ -294,7 +294,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  Puede producirse cuando cambia el nombre del equipo en un equipo que ejecuta BizTalk Server y reiniciar (reinicio) el equipo, error mensajes.  
   
-**Causa**  
+**Cause**  
  SQL Server no admite cambiar el nombre del equipo, por lo que el servidor BizTalk Server no admite el cambio el nombre del equipo una vez que BizTalk Server está instalado y configurado.  
   
 **Resolución**  
@@ -308,7 +308,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  El Servicio ENTSSO no consigue iniciarse.  
   
-**Causa**  
+**Cause**  
  El Servicio ENTSSO no se podrá iniciar si no se ejecuta con una cuenta de administrador de SSO válida.  
   
 **Resolución**  
@@ -319,7 +319,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  BTSSvc$BizTalkServerApplication depende del Servicio de inicio de sesión único empresarial (ENTSSO) y después de reiniciar el equipo puede causar un tiempo de espera durante el inicio.  
   
-**Causa**  
+**Cause**  
  El Servicio de inicio de sesión único empresarial puede tardar unos 3 minutos en iniciarse.  
   
 **Resolución**  
@@ -330,7 +330,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  El Servicio de inicio de sesión único empresarial deshabilita una aplicación afiliada si la cuenta de administrador de aplicación asociada con él no es válida.  
   
-**Causa**  
+**Cause**  
  La cuenta de administrador de aplicación de SSO no es válida.  
   
 **Resolución**  
@@ -341,7 +341,7 @@ Si el usuario vuelve a implementar el proyecto Asignaciones mediante la configur
 **Problema**  
  Al ejecutar un comando como **ssomanage - displayapp** *< applicationname\>*, donde el equipo intenta conectarse a un servidor de SSO remoto para recuperar la información, recibirá el siguiente error: ERROR: 0x800706BA: el servidor RPC no está disponible.  
   
-**Causa**  
+**Cause**  
  Este error se produce cuando se especifica la información de servidor incorrecta o cuando el servicio SSO no está disponible en el servidor remoto.  
   
 **Resolución**  
@@ -367,7 +367,7 @@ Severity=Error
 SSO_ERROR_SECRETS_NOT_LOADED  
 ```
 
-**Causa**  
+**Cause**  
  Es posible que este problema se produzca si se genera un secreto mientras se estaba ejecutando el Servicio de inicio de sesión único (SSO) empresarial en una cuenta de servicio y, posteriormente, se cambia la cuenta de servicio. El secreto se almacena en el Registro en formato cifrado mediante una clave basada en la identidad de la cuenta de servicio (en la cual se ejecuta ENTSSO).  
   
 **Resolución**  
@@ -454,7 +454,7 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |RBKRegsvcsSQLAdapter|Ejecuta regsvcs.exe en un archivo binario especificado.|  
 |RestoreBTSCounters|Restaura la propiedad con el nombre de archivo ini del contador de rendimiento.|  
 |RollbackBTSCounters|Ejecuta el comando unlodctr BTSSvc.3.0.|  
-|RollbackRegsvcsApplicationDeployment|Configura [rutaDeAccesoDeFramework] &#124; [INSTALLDIR] Microsoft.BizTalk.ApplicationDeployment.Engine.dll para los escenarios de error en la instalación.|  
+|RollbackRegsvcsApplicationDeployment|Configura [rutaDeAccesoDeFramework]&#124;[INSTALLDIR]Microsoft.BizTalk.ApplicationDeployment.Engine.dll para los escenarios de error en la instalación.|  
 |RollbackRegsvcsDeployment|Invoca regsvcs.exe durante situaciones de desinstalación o reversión.|  
 |WMI_Restore_MSBTS_Silent|Invoca mofcomp para registrar los esquemas de WMI.|  
 |WMI_Rollback_MSBTS|Quita ‎el espacio de nombres de BizTalk Server de WMI.|  

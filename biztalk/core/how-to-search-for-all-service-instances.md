@@ -1,11 +1,11 @@
 ---
-title: "Búsqueda de todas las instancias de servicio | Documentos de Microsoft"
-ms.custom: 
+title: Búsqueda de todas las instancias de servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service instances, Query tab [Administration Console]
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - service instances, searching
 - instances, services
 ms.assetid: 48cb885c-aaf1-44e8-9810-2e70cf63db81
-caps.latest.revision: "18"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e96622fad23c28c0d4147f64a11cc540e88e7f97
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-search-for-all-service-instances"></a>Cómo buscar todas las instancias de servicio
 Puede usar el **consulta** pestaña en la consola de administración de BizTalk Server para buscar todas las instancias de servicio. No se podrá dar de baja un tipo de servicio específico cuando se trate de instancias en ejecución o suspendidas. Por ejemplo, antes de poder dar de baja un tipo de servicio específico, puede buscar todas las instancias de servicio para asegurarse de que no haya ninguna en ejecución o suspendida.  
@@ -63,4 +63,4 @@ Puede usar el **consulta** pestaña en la consola de administración de BizTalk 
 7.  Seguir agregando líneas adicionales a la consulta según corresponda, siguiendo el **nombre de campo**, **operador**, y **valores** columnas y, a continuación, haga clic en **ejecutar Consulta**.  
   
 ## <a name="see-also"></a>Vea también  
- [Uso de la pestaña de consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)
+ [Uso de la pestaña Consulta de la consola de administración](../core/using-the-administration-console-query-tab.md)

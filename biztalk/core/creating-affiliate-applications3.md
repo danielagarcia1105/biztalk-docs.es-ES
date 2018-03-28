@@ -1,11 +1,11 @@
 ---
 title: Crear aplicaciones afiliadas Applications3 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - affiliate applications
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - affiliate applications, creating
 - SSO tickets
 ms.assetid: 800644fd-2286-4e59-894b-260f584dd29f
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 857ee7edd623332e72176ac09082f0ec9fc460f4
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-affiliate-applications"></a>Crear aplicaciones afiliadas
 Los pasos siguientes describen cómo empezar a usar aplicaciones afiliadas con el inicio de sesión único (SSO).  
@@ -40,7 +40,7 @@ Los pasos siguientes describen cómo empezar a usar aplicaciones afiliadas con e
   
      Por ejemplo:  
   
-     **C:\Program programa\Archivos comunes\enterprise Single Sign-On >**  
+     **C:\Program Files\Common Files\Enterprise Single Sign-On>**  
   
 3.  Utilice los comandos del Inicio de sesión único empresarial. Para obtener una lista de comandos, use el modificador -help.  
   
@@ -48,7 +48,7 @@ Los pasos siguientes describen cómo empezar a usar aplicaciones afiliadas con e
   
 4.  Para crear la aplicación afiliada mediante el *. XML como un principio, escriba el comando siguiente:  
   
-     **ssomanage.exe - createapps C:\SSOtest\AffiliateApplication.xml**  
+     **ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml**  
   
      donde:  
   

@@ -1,23 +1,23 @@
 ---
 title: Los identificadores de nodo de metadatos para el adaptador de mySAP en BizTalk Adapter Pack | Documentos de Microsoft
-description: "Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en los componentes SAP que se exponen en el adaptador de mySAP - módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en los componentes SAP que se exponen en el adaptador de mySAP - módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 46385060-f56a-4e06-9122-b75808776716
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 138e46b198df48348dcef35662589f6a3c2e317a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="node-types-and-ids-for-the-sap-adapter"></a>Tipos de nodo e identificadores para el adaptador SAP
 
@@ -27,25 +27,25 @@ La tabla siguiente enumera el tipo de nodo y el identificador de nodo para los a
 |Nombre para mostrar artefacto|Tipo de nodo|Id. de nodo|  
 |---------------------------|---------------|-------------|  
 |RFC|CATEGORÍA|[VERSIÓN] / RFCSECTION|  
-|[RFC_APPL_GROUP_NAME]|CATEGORÍA|/RFCGROUP/ [VERSIÓN] [RFC_APPL_GROUP_ID]|  
-|[RFC_NAME]|OPERATION|/Rfc/ [versión] [RFC_NAME]|  
-|RfcGetAttributes|OPERATION|[Versión] / RfcApi/RfcGetAttributes|  
+|[RFC_APPL_GROUP_NAME]|CATEGORÍA|[VERSION]/RFCGROUP/[RFC_APPL_GROUP_ID]|  
+|[RFC_NAME]|OPERATION|[VERSION]/Rfc/[RFC_NAME]|  
+|RfcGetAttributes|OPERATION|[VERSION]/RfcApi/RfcGetAttributes|  
 |TRFC|CATEGORÍA|[VERSIÓN] / TRFCSECTION|  
-|[TRFC_APPL_GROUP_NAME]|CATEGORÍA|/TRFCGROUP/ [VERSIÓN] [TRFC_APPL_GROUP_ID]|  
-|[TRFC_NAME]|OPERATION|/TRfc/ [versión] [TRFC_NAME]|  
-|RfcConfirmTransID|OPERATION|[Versión] / RfcApi/RfcConfirmTransID|  
+|[TRFC_APPL_GROUP_NAME]|CATEGORÍA|[VERSION]/TRFCGROUP/[TRFC_APPL_GROUP_ID]|  
+|[TRFC_NAME]|OPERATION|[VERSION]/TRfc/[TRFC_NAME]|  
+|RfcConfirmTransID|OPERATION|[VERSION]/RfcApi/RfcConfirmTransID|  
 |BAPI|CATEGORÍA|[VERSIÓN] / BAPISECTION/000001|  
 |[BAPI_APPL_GROUP_NAME]|CATEGORÍA|/BAPISECTION/ [VERSIÓN] [BAPI_APPL_GROUP_NODE_ID]|  
-|[BUSINESS_OBJECT_NAME]|CATEGORÍA|/BAPIOBJ/ [VERSIÓN] [BUSOBJ_TYPE]|  
-|[BUSINESS_OBJECT_METHOD]|OPERATION|/BAPIOBJ/ [VERSIÓN] [BUSOBJ_TYPE] / [BUSOBJ_METHOD] / [FUNCTION_MODULE]|  
+|[BUSINESS_OBJECT_NAME]|CATEGORÍA|[VERSION]/BAPIOBJ/[BUSOBJ_TYPE]|  
+|[BUSINESS_OBJECT_METHOD]|OPERATION|[VERSION]/BAPIOBJ/[BUSOBJ_TYPE]/[BUSOBJ_METHOD]/[FUNCTION_MODULE]|  
 |IDOC|CATEGORÍA|[VERSIÓN] / IDOCSECTION|  
-|[IDOC_MSG_TYPE_NAME]|CATEGORÍA|/IDOCMESTYP/ [VERSIÓN] [IDOC_MSG_TYPE_NAME]|  
-|([IDOC_TYPE_NAME]) ([IDOC_CIMTYPE])|CATEGORÍA|/IDOCCIMTYP/ [VERSIÓN] [IDOC_TYPE_NAME] / [IDOC_CIMTYPE] / [FIRST_IDOC_REL_NO]|  
-|([IDOC_TYPE_NAME]. V[IDOC_VERSION]) ([IDOC_CIMTYPE]) ([IDOC_REL_NO])|CATEGORÍA|/IDOCCIMVER/ [VERSIÓN] [IDOC_VERSION] / [IDOC_TYPE_NAME] / [IDOC_CIMTYPE] / [IDOC_REL_NO]|  
-|Send|OPERATION|/Idoc/ [versión] [IDOC_VERSION] / [IDOC_TYPE_NAME] / [IDOC_CIMTYPE] / [IDOC_REL_NO] / envío|  
-|SendIdoc|OPERATION|[Versión] / Idoc/SendIdoc|  
-|Receive|OPERATION|/Idoc/ [versión] [IDOC_VERSION] / [IDOC_TYPE_NAME] / [IDOC_CIMTYPE] / [IDOC_REL_NO] / recibir|  
-|ReceiveIdoc|OPERATION|[Versión] / Idoc/ReceiveIdoc|  
+|[IDOC_MSG_TYPE_NAME]|CATEGORÍA|[VERSION]/IDOCMESTYP/[IDOC_MSG_TYPE_NAME]|  
+|([IDOC_TYPE_NAME]) ([IDOC_CIMTYPE])|CATEGORÍA|[VERSION]/IDOCCIMTYP/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[FIRST_IDOC_REL_NO]|  
+|([IDOC_TYPE_NAME].V[IDOC_VERSION]) ([IDOC_CIMTYPE]) ([IDOC_REL_NO])|CATEGORÍA|[VERSION]/IDOCCIMVER/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]|  
+|Send|OPERATION|[VERSION]/Idoc/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]/Send|  
+|SendIdoc|OPERATION|[VERSION]/Idoc/SendIdoc|  
+|Receive|OPERATION|[VERSION]/Idoc/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]/Receive|  
+|ReceiveIdoc|OPERATION|[VERSION]/Idoc/ReceiveIdoc|  
   
  [Versión] = la cadena de versión; Por ejemplo, http://Microsoft.LobServices.Sap/2007/03.  
   
@@ -90,12 +90,12 @@ La tabla siguiente enumera el tipo de nodo y el identificador de nodo para los a
   
 |Nombre para mostrar artefacto|Id. de nodo|Description|  
 |---------------------------|-------------|-----------------|  
-|/ RFC|[VERSIÓN] / RFCSECTION|Devolver todas las operaciones de RFC que coinciden con la expresión de búsqueda.|  
-|/RFC/ [RFC_APPL_GROUP_NAME]|/RFCGROUP/ [VERSIÓN] [RFC_APPL_GROUP_NAME]|Devolver RFC operaciones en el grupo de aplicaciones que coinciden con la expresión de búsqueda.|  
-|/ TRFC|[VERSIÓN] / TRFCSECTION|Devolver todas las operaciones de RFC que coinciden con la expresión de búsqueda.|  
-|/TRFC/ [TRFC_APPL_GROUP_NAME]|/TRFCGROUP/ [VERSIÓN] [TRFC_APPL_GROUP_NAME]|Devolver RFC operaciones en el grupo de aplicaciones que coinciden con la expresión de búsqueda.|  
-|/ BAPI|[VERSIÓN] / BAPISECTION|Devolver todos los BAPI que coinciden con la expresión de búsqueda.|  
-|/ IDOC|[VERSIÓN] / IDOCSECTION|Devolver todos los IDOC que coinciden con la expresión de búsqueda.|  
+|/RFC|[VERSIÓN] / RFCSECTION|Devolver todas las operaciones de RFC que coinciden con la expresión de búsqueda.|  
+|/RFC/[RFC_APPL_GROUP_NAME]|[VERSION]/RFCGROUP/[RFC_APPL_GROUP_NAME]|Devolver RFC operaciones en el grupo de aplicaciones que coinciden con la expresión de búsqueda.|  
+|/TRFC|[VERSIÓN] / TRFCSECTION|Devolver todas las operaciones de RFC que coinciden con la expresión de búsqueda.|  
+|/TRFC/[TRFC_APPL_GROUP_NAME]|[VERSION]/TRFCGROUP/[TRFC_APPL_GROUP_NAME]|Devolver RFC operaciones en el grupo de aplicaciones que coinciden con la expresión de búsqueda.|  
+|/BAPI|[VERSIÓN] / BAPISECTION|Devolver todos los BAPI que coinciden con la expresión de búsqueda.|  
+|/IDOC|[VERSIÓN] / IDOCSECTION|Devolver todos los IDOC que coinciden con la expresión de búsqueda.|  
   
  La siguiente tabla muestra el carácter comodín los caracteres que el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite en expresiones de búsqueda.  
   

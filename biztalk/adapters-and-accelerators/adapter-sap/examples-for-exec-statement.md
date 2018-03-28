@@ -1,23 +1,23 @@
 ---
-title: "Ejemplos de la instrucción EXEC en mySAP adaptador en BizTalk | Documentos de Microsoft"
-description: "Ejemplos EXEC y ejemplos de uso del adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Ejemplos de la instrucción EXEC en mySAP adaptador en BizTalk | Documentos de Microsoft
+description: Ejemplos EXEC y ejemplos de uso del adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad2691f4-34bb-423c-9b3e-4abe2d55ddac
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6eaae930d7d94d24bac9d484957ccf02718af60f
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="examples-for-exec-statement"></a>Ejemplos de la instrucción EXEC
 Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
@@ -86,7 +86,7 @@ Este tema muestra la sintaxis de ejemplo para diversas instrucciones EXEC.
 ## <a name="support-for-complex-parameter-types"></a>Compatibilidad con tipos de parámetros complejos  
  Hay dos maneras para admitir parámetros complejos de RFC (tablas y estructuras) cuando se usa el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]:  
   
--   Proporcione un valor XML en línea para el tipo complejo. Este ejemplo muestra cómo pasar XML al tipo de parámetro complejos *campos*. En el ejemplo siguiente,  *@fields*  es un parámetro de la tabla.  
+-   Proporcione un valor XML en línea para el tipo complejo. Este ejemplo muestra cómo pasar XML al tipo de parámetro complejos *campos*. En el ejemplo siguiente, *@fields* es un parámetro de la tabla.  
   
     ```  
     exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  

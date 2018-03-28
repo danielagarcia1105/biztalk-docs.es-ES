@@ -1,22 +1,22 @@
 ---
-title: "Actualización a BizTalk Server 2016 | Documentos de Microsoft"
-ms.custom: 
+title: Actualización a BizTalk Server 2016 | Documentos de Microsoft
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 06/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 975ec82b-ed27-4545-8e4a-0e567507c9ba
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 39b5b6b6da7d97d3c763e5f45f215aa03d13c77c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a>Actualización a BizTalk Server 2016
 Actualización a [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] desde [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] o BizTalk Server 2013.
@@ -47,11 +47,11 @@ En la tabla siguiente se detallan los sistemas operativos que se pueden actualiz
 
 | Sistemas operativos | BizTalk Server 2013 R2 |BizTalk Server 2013 |
 | --- | --- | --- |
-| Windows Server 2012 R2 | Sí | No |
-| Windows Server 2012 | No | No |
-| Windows 8.1 | Sí | No |
-| Windows 8 | No | No
-| Windows 7 SP1 | No | No |
+| Windows Server 2012 R2 | Sí | no |
+| Windows Server 2012 | no | no |
+| Windows 8.1 | Sí | no |
+| Windows 8 | no | no
+| Windows 7 SP1 | no | no |
 
 En la tabla siguiente se detallan las versiones de SQL Server que se pueden actualizar a [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. El servidor SQL Server hospeda las bases de datos que usa BizTalk Server. "Sí" significa que se puede actualizar el servidor BizTalk Server si se usa esa versión de SQL Server. "No" significa que no se puede actualizar BizTalk Server si se usa esa versión de SQL Server. En el caso de que no se pueda, el entorno de BizTalk debe crearse de nuevo en una versión de SQL Server compatible. En [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) (Requisitos de hardware y software de BizTalk Server 2016) se indican las versiones de SQL Server admitidas. 
 
@@ -60,21 +60,21 @@ En la tabla siguiente se detallan las versiones de SQL Server que se pueden actu
 
 | SQL Server | BizTalk Server 2013 R2 |BizTalk Server 2013 |
 | --- | --- | --- |
-| SQL Server 2014 | Sí | No |
-| SQL Server 2012 SP1| No | No |
-| SQL Server 2012 | No | No |
-| SQL Server 2008 R2 SP1 | No | No |
+| SQL Server 2014 | Sí | no |
+| SQL Server 2012 SP1| no | no |
+| SQL Server 2012 | no | no |
+| SQL Server 2008 R2 SP1 | no | no |
 
 
 En la tabla siguiente se muestra la ruta de actualización de edición admitida de [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 a [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. "Sí" significa que la edición [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 se puede actualizar a la edición. "No" significa que la edición [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 no se puede actualizar a la edición. En el caso de que no se pueda, debe crearse de nuevo el entorno de BizTalk.
 
 | BizTalk Server 2013 R2/2013 | BizTalk Server 2016 Evaluation Edition | BizTalk Server 2016 Branch Edition | BizTalk Server 2016 Developer Edition | BizTalk Server 2016 Standard Edition | BizTalk Server 2016 Enterprise Edition |
 | --- | --- | --- | --- | --- | --- |
-| Evaluation | No | No | No | No | Sí | 
-| Branch | No | Sí | No | No | Sí | 
-| Developer | No | No | Sí | No | Sí | 
-| Standard | No | No | No | Sí | Sí | 
-| Enterprise | No | No | No | No | Sí | 
+| Evaluation | no | No | No | No | Sí | 
+| Branch | no | Sí | No | No | Sí | 
+| Developer | no | No | Sí | No | Sí | 
+| Standard | no | No | No | Sí | Sí | 
+| Enterprise | no | No | No | No | Sí | 
 
 ## <a name="before-the-upgrade--what-you-need-to-know"></a>Lo que necesita saber antes de realizar la actualización
 

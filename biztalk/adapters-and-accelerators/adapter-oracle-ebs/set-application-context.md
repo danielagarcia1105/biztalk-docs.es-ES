@@ -1,22 +1,22 @@
 ---
-title: "Establecer el contexto de aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Establecer el contexto de aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9697155-70c0-4173-80d2-d02d103c397b
-caps.latest.revision: "25"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 88db982be92123a13084892bfc396cb1d89c46ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="set-application-context"></a>Establecer el contexto de aplicación
 En [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], Establece el contexto de aplicación es obligatorio para algunos artefactos de Oracle E-Business Suite (tablas de interfaz, vistas de interfaz, programas simultáneos y conjuntos de solicitudes) para poder realizar operaciones en ellos. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no permite realizar operaciones en estos artefactos hasta que haya establecido el contexto de la aplicación. Sin embargo, para los artefactos en la base de datos de Oracle subyacente, es el usuario quien si desea establecer el contexto de la aplicación o no.  
@@ -37,7 +37,7 @@ En [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
   
 -   **Propiedades de enlace**: el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone las siguientes propiedades de enlace para establecer el contexto de la aplicación: **OracleEBSOrganizationId**, **OracleUserName**,  **OraclePassword**, **OracleEBSResponsibilityKey**, **OracleEBSResponsibilityName**, y **ApplicationShortName**. No es necesario especificar valores para todas estas propiedades de enlace establecer el contexto de la aplicación para distintos artefactos. Para obtener información acerca de las propiedades de enlace necesarios para el contexto de la aplicación de configuración de un artefacto, consulte [propiedades de enlace de la configuración de contexto para varios artefactos de la aplicación](#Binding) más adelante en este tema.  
   
--   **Propiedades de contexto del mensaje**: el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone las siguientes propiedades de contexto de mensaje para establecer el contexto de la aplicación: **ApplicationShortName**, **OrganizationID**, **ResponsibilityKey**, y **ResponsibilityName**. Para especificar el nombre de usuario y la contraseña, debe usar las propiedades de enlace. Para obtener información sobre cómo establecer el contexto de la aplicación mediante las propiedades de contexto de mensaje, consulte [configurar las propiedades del mensaje utilizando aplicación contexto contexto](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
+-   **Propiedades de contexto del mensaje**: el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone las siguientes propiedades de contexto de mensaje para establecer el contexto de la aplicación: **ApplicationShortName**, **OrganizationID** , **ResponsibilityKey**, y **ResponsibilityName**. Para especificar el nombre de usuario y la contraseña, debe usar las propiedades de enlace. Para obtener información sobre cómo establecer el contexto de la aplicación mediante las propiedades de contexto de mensaje, consulte [configurar las propiedades del mensaje utilizando aplicación contexto contexto](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
   
 > [!IMPORTANT]
 >  El valor especificado para la **OracleEBSResponsibilityKey** propiedad de enlace invalida el valor de la **OracleEBSResponsibilityName** propiedad de enlace. De forma similar, el valor especificado para la **ResponsibilityKey** propiedad de contexto de mensaje invalida el valor especificado para la **ResponsibilityName** propiedad de contexto de mensaje.  
@@ -105,7 +105,7 @@ En [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
   
  El valor especificado para la **lenguaje** propiedad de contexto de mensaje invalida el valor de la **lenguaje** enlaza la propiedad en el **MlsSettings** propiedad de enlace. Para obtener más información sobre la **MlsSettings** enlace de propiedad, vea [obtener información sobre el adaptador de BizTalk para propiedades de enlace de Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   
-##  <a name="Binding"></a>Propiedades de enlace para establecer el contexto de la aplicación para distintos artefactos  
+##  <a name="Binding"></a> Propiedades de enlace para establecer el contexto de la aplicación para distintos artefactos  
  En la tabla siguiente proporciona información acerca de las propiedades de enlace para el que debe especificar los valores adecuados para establecer el contexto de la aplicación para distintos artefactos:  
   
 |Artefactos|OracleEBSOrganizationId|OracleUserName|OraclePassword|OracleEBSResponsibilityKey<br />o bien<br />OracleEBSResponsibilityName|ApplicationShortName|  

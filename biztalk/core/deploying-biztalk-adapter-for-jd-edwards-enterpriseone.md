@@ -1,23 +1,23 @@
 ---
 title: Importar aplicaciones de JD Edwards EnterpriseOne | Documentos de Microsoft
-description: "Confirmar la instalación, importe el archivo de enlace de la aplicación y revisar las limitaciones del adaptador de JD Edwards EnterpriseOne en BizTalk"
-ms.custom: 
+description: Confirmar la instalación, importe el archivo de enlace de la aplicación y revisar las limitaciones del adaptador de JD Edwards EnterpriseOne en BizTalk
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 852f948b-48ba-4ae2-b1eb-7c88c1542a52
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 55374c87192c993e26cc11cb496d89074d527868
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>Importar la aplicación JD Edwards EnterpriseOne
   
