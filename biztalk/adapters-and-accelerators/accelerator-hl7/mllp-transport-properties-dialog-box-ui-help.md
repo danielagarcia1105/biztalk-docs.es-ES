@@ -1,15 +1,16 @@
 ---
-title: "Ayuda de interfaz de usuario de cuadro de cuadro de diálogo Propiedades de transporte MLLP | Documentos de Microsoft"
-ms.custom: 
+title: Ayuda de interfaz de usuario de cuadro de cuadro de diálogo Propiedades de transporte MLLP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.mllp.transportproperties
+f1_keywords:
+- btahl7.mllp.transportproperties
 ms.assetid: 2a41aaeb-a91d-4d89-ac8a-1cfe48ab4cd4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

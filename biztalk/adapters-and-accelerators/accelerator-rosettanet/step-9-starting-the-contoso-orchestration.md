@@ -1,15 +1,16 @@
 ---
-title: "Paso 9: Iniciar la orquestación de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 9: Iniciar la orquestación de Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: private process tutorial, starting orchestrations
+helpviewer_keywords:
+- private process tutorial, starting orchestrations
 ms.assetid: df3ff90b-5a9f-4ae7-819a-11cb36d64ccd
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

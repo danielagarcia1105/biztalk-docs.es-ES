@@ -1,15 +1,16 @@
 ---
-title: "Advertencia: XML de extensión personalizada pero no hay XSLT personalizado | Documentos de Microsoft"
-ms.custom: 
+title: 'Advertencia: XML de extensión personalizada pero no hay XSLT personalizado | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.warning.customExtensionXmlButNoCustomXSLT
+f1_keywords:
+- bts10.map.warning.customExtensionXmlButNoCustomXSLT
 ms.assetid: 3219c73c-2e58-4fe2-bc6e-2d60348d2415
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

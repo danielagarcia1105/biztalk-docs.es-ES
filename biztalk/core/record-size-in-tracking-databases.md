@@ -1,15 +1,16 @@
 ---
-title: "Tamaño de registro para el seguimiento de las bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Tamaño de registro para el seguimiento de las bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Tracking database, database size
+helpviewer_keywords:
+- Tracking database, database size
 ms.assetid: be7a891b-2674-49a3-a8e0-6aa11a918bf2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

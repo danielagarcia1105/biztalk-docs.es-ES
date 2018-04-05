@@ -1,19 +1,20 @@
 ---
 title: Implementar aplicaciones de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.deployment.application
+f1_keywords:
+- bts10.deployment.application
 helpviewer_keywords:
 - deploying [applications]
 - managing [applications], deploying
 - applications, deploying
 ms.assetid: eef12d8a-6f5c-4eb2-b85b-df9281c0b88e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

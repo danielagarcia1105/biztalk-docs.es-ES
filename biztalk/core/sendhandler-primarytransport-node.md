@@ -1,15 +1,16 @@
 ---
 title: SendHandler (nodo PrimaryTransport) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SendHandler node [binding file]
+helpviewer_keywords:
+- SendHandler node [binding file]
 ms.assetid: c0b200ee-ecbc-4708-a2c8-c37cd6cd0060
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "Valor de asignación de Functoid (sin formato) | Documentos de Microsoft"
-ms.custom: 
+title: Valor de asignación de Functoid (sin formato) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Value Mapping (Flattening) functoids
+helpviewer_keywords:
+- Value Mapping (Flattening) functoids
 ms.assetid: d30c3ffe-d3ed-46fd-a692-cd26d042033c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

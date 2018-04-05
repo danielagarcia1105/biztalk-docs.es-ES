@@ -1,15 +1,16 @@
 ---
-title: "Paso 2: Crear los esquemas de aplicación de LOB de Contoso para el precio y disponibilidad del proyecto mediante el Editor de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Crear los esquemas de aplicación de LOB de Contoso para el precio y disponibilidad del proyecto mediante el Editor de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: private process tutorial, creating LOB schemas
+helpviewer_keywords:
+- private process tutorial, creating LOB schemas
 ms.assetid: 70e26dc9-4299-4d30-8f8b-5cc3469a2025
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
 title: Obtiene los metadatos para operaciones de SAP en Visual Studio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: metadata, retrieving for SAP operations in Visual Studio
+helpviewer_keywords:
+- metadata, retrieving for SAP operations in Visual Studio
 ms.assetid: 1be5934a-a5d4-4734-8bea-fb8274f59c71
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

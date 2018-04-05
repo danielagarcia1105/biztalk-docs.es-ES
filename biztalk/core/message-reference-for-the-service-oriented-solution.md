@@ -1,15 +1,16 @@
 ---
-title: "Solución orientada a servicios de referencia de mensajes para el servicio | Documentos de Microsoft"
-ms.custom: 
+title: Solución orientada a servicios de referencia de mensajes para el servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: service solution tutorial, message reference
+helpviewer_keywords:
+- service solution tutorial, message reference
 ms.assetid: 47b56d83-799d-444d-b7ef-c2db56a0e470
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

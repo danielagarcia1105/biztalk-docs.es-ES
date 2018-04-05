@@ -1,15 +1,16 @@
 ---
-title: "Solución de administración de procesos de aspectos destacados de la implementación de la empresa | Documentos de Microsoft"
-ms.custom: 
+title: Solución de administración de procesos de aspectos destacados de la implementación de la empresa | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: process management solution tutorial, implementing
+helpviewer_keywords:
+- process management solution tutorial, implementing
 ms.assetid: 3558db0e-d7f6-4c10-bd58-1601bd44e73f
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

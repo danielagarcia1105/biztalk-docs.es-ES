@@ -1,15 +1,16 @@
 ---
-title: "Error - la asignación carece de vínculos o constantes | Documentos de Microsoft"
-ms.custom: 
+title: Error - la asignación carece de vínculos o constantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.mapWithoutAnyLinksOrConstants
+f1_keywords:
+- bts10.map.error.mapWithoutAnyLinksOrConstants
 ms.assetid: 8d1cdbcd-4bd0-4ddc-9e94-746e82b6ec48
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

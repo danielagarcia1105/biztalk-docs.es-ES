@@ -1,19 +1,20 @@
 ---
-title: "Cómo crear un envío Port2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un envío Port2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.procedure.createsendport
+f1_keywords:
+- bts10.admin.procedure.createsendport
 helpviewer_keywords:
 - managing [send ports], creating
 - creating, send ports
 - send ports, creating
 ms.assetid: 7f0d07b8-1ac5-4032-bb08-2f7e05185f86
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

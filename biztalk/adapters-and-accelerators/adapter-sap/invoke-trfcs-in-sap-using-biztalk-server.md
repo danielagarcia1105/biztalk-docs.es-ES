@@ -1,15 +1,16 @@
 ---
 title: Invocar tRFCs en SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: tRFCs, invoking using BizTalk Server
+helpviewer_keywords:
+- tRFCs, invoking using BizTalk Server
 ms.assetid: 9489adca-cf2c-4e15-8573-445acd7ebf73
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

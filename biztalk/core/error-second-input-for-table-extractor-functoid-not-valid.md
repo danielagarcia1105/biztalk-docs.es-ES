@@ -1,15 +1,16 @@
 ---
-title: "Error: segunda entrada de Functoid de tabla extractor de tablas no válida | Documentos de Microsoft"
-ms.custom: 
+title: 'Error: segunda entrada de Functoid de tabla extractor de tablas no válida | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.secondInputForTableExtractorNotValid
+f1_keywords:
+- bts10.map.error.secondInputForTableExtractorNotValid
 ms.assetid: 099f7374-8625-40af-a74b-24c4de941a7b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

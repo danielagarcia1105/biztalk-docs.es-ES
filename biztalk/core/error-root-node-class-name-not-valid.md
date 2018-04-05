@@ -1,15 +1,16 @@
 ---
-title: "Error: nombre de clase de nodo raíz no válido | Documentos de Microsoft"
-ms.custom: 
+title: 'Error: nombre de clase de nodo raíz no válido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.rootNodeClassNameNotValid
+f1_keywords:
+- bts10.edit.error.rootNodeClassNameNotValid
 ms.assetid: 48b4f7e4-8c20-4e94-86be-1425ea62f8c5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

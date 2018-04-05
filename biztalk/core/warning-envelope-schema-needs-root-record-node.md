@@ -1,15 +1,16 @@
 ---
-title: "Advertencia: esquema de sobres necesita nodo raíz registro | Documentos de Microsoft"
-ms.custom: 
+title: 'Advertencia: esquema de sobres necesita nodo raíz registro | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.envelopeSchemaNeedsRoot
+f1_keywords:
+- bts10.edit.error.envelopeSchemaNeedsRoot
 ms.assetid: 3fbc1571-1270-4c5e-adcf-00633bf46efe
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
