@@ -1,15 +1,16 @@
 ---
-title: "Lección 1: Definir esquemas y una asignación | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 1: Definir esquemas y una asignación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: enterprise application integration tutorial, creating solutions
+helpviewer_keywords:
+- enterprise application integration tutorial, creating solutions
 ms.assetid: 4fe7720d-722e-4fa0-a556-477fc66ffa12
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

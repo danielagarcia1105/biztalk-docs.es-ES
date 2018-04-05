@@ -1,15 +1,16 @@
 ---
 title: 'Paso 4: Crear el acuerdo de socios comerciales 4 de Fabrikam 0c | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: double action tutorial, creating agreements
+helpviewer_keywords:
+- double action tutorial, creating agreements
 ms.assetid: a99c2cd1-0d42-4fae-a380-a53d77cd87d0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

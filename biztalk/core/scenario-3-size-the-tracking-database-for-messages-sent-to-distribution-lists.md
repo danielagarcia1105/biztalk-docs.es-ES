@@ -1,15 +1,16 @@
 ---
-title: "Escenario 3: Ajustar el tamaño de la base de datos de seguimiento para mensajes envían fuera a listas de distribución | Documentos de Microsoft"
-ms.custom: 
+title: 'Escenario 3: Ajustar el tamaño de la base de datos de seguimiento para mensajes envían fuera a listas de distribución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Tracking database, database size
+helpviewer_keywords:
+- Tracking database, database size
 ms.assetid: bc6e0da0-46d1-42d6-8ec9-29a28719fbb3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

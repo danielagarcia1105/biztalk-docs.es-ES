@@ -1,15 +1,16 @@
 ---
-title: "Error: estructura de esquema de propiedad no es válido | Documentos de Microsoft"
-ms.custom: 
+title: 'Error: estructura de esquema de propiedad no es válido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.propSchemaStructNotValid<
+f1_keywords:
+- bts10.edit.error.propSchemaStructNotValid<
 ms.assetid: c5fd81a7-fa5a-4ec2-b895-00b280aca227
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

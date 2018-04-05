@@ -1,15 +1,16 @@
 ---
 title: Preparando para utilizar el Tutorial de procesamiento por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: batching tutorial, pre-requisites
+helpviewer_keywords:
+- batching tutorial, pre-requisites
 ms.assetid: 27ae89ca-63f4-41d4-8228-ddc871ad041e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

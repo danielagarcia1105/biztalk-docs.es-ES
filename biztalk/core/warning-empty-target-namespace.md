@@ -1,15 +1,16 @@
 ---
-title: "Advertencia: vacío destino Namespace | Documentos de Microsoft"
-ms.custom: 
+title: 'Advertencia: vacío destino Namespace | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.emptyTargetNamespace
+f1_keywords:
+- bts10.edit.error.emptyTargetNamespace
 ms.assetid: 00d43bcc-6fd6-4766-b91d-f6c33608c6c1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

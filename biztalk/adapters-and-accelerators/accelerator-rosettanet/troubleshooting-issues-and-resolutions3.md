@@ -1,15 +1,16 @@
 ---
-title: "Solución de problemas: Problemas y Resolutions3 | Documentos de Microsoft"
-ms.custom: 
+title: 'Solución de problemas: Problemas y Resolutions3 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: troubleshooting
+helpviewer_keywords:
+- troubleshooting
 ms.assetid: 40f59f54-183e-43db-afb5-0a45b437697f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -327,7 +328,7 @@ ms.lasthandoff: 12/01/2017
   
  1. <span data-ttu-id="f3b34-291">Habilitar los grupos de aplicaciones de BTARN de 32 bits.</span><span class="sxs-lookup"><span data-stu-id="f3b34-291">Enable the BTARN Application Pools for 32 bit.</span></span>  
   
- 2. <span data-ttu-id="f3b34-292">Agregue un controlador HTTP para referencia *.dll los filtros IsapiModule.</span><span class="sxs-lookup"><span data-stu-id="f3b34-292">Add a HTTP Handler for *.dll refering the IsapiModule Filters.</span></span>  
+ 2. <span data-ttu-id="f3b34-292">Agregue un controlador HTTP para referencia \*.dll los filtros IsapiModule.</span><span class="sxs-lookup"><span data-stu-id="f3b34-292">Add a HTTP Handler for \*.dll refering the IsapiModule Filters.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="f3b34-293">Vea también</span><span class="sxs-lookup"><span data-stu-id="f3b34-293">See Also</span></span>  
  <span data-ttu-id="f3b34-294">[BtarnClean](../../adapters-and-accelerators/accelerator-rosettanet/btarnclean.md) </span><span class="sxs-lookup"><span data-stu-id="f3b34-294">[BtarnClean](../../adapters-and-accelerators/accelerator-rosettanet/btarnclean.md) </span></span>  

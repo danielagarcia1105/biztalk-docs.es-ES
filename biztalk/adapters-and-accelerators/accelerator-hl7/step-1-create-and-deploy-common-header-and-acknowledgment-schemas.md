@@ -1,15 +1,16 @@
 ---
-title: "Paso 1: Crear e implementar encabezado común y esquemas de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear e implementar encabezado común y esquemas de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: interrogative tutorial, headers
+helpviewer_keywords:
+- interrogative tutorial, headers
 ms.assetid: e0f11f58-9a8c-4567-a537-3d182fa7dce2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "Cómo crear un nuevo nodo de puerta de enlace | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un nuevo nodo de puerta de enlace | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: gateway nodes, creating
+helpviewer_keywords:
+- gateway nodes, creating
 ms.assetid: e7c5f9a7-a58e-4661-9cb5-2414e31a57a3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

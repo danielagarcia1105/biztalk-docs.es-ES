@@ -1,18 +1,19 @@
 ---
-title: "Introducción a BizTalk Accelerator para SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a BizTalk Accelerator para SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: a4swift.configuration.gettingstarted
+f1_keywords:
+- a4swift.configuration.gettingstarted
 helpviewer_keywords:
 - getting started
 - BizTalk Accelerator for SWIFT, getting started
 ms.assetid: 5f4ad849-a94d-4035-a24d-9ba059ee35a3
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
 title: Clase SAPClientFactory en el adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SAPClientFactory, supported methods and classes
+helpviewer_keywords:
+- SAPClientFactory, supported methods and classes
 ms.assetid: e64de5e4-e53f-4708-ab02-9e12774e94cd
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

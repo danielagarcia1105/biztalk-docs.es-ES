@@ -1,15 +1,16 @@
 ---
 title: Identificar cuellos de botella de rendimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: performance, bottlenecks
+helpviewer_keywords:
+- performance, bottlenecks
 ms.assetid: d8b93243-e383-4c21-9c08-073a0d4f79be
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

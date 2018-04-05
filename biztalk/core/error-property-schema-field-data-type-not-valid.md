@@ -1,15 +1,16 @@
 ---
-title: "Error: tipo de datos de campo de esquema de propiedad no es válido | Documentos de Microsoft"
-ms.custom: 
+title: 'Error: tipo de datos de campo de esquema de propiedad no es válido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.propSchemaFieldDataTypeNotValid
+f1_keywords:
+- bts10.edit.error.propSchemaFieldDataTypeNotValid
 ms.assetid: eba41c5c-5512-4cc9-ab10-07626cfbd178
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

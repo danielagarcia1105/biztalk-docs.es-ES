@@ -1,15 +1,16 @@
 ---
-title: "Transformaciones (nodo puertoEnvío) | Documentos de Microsoft"
-ms.custom: 
+title: Transformaciones (nodo puertoEnvío) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Transforms node [binding file]
+helpviewer_keywords:
+- Transforms node [binding file]
 ms.assetid: b405397b-e394-44fa-b507-93896f800f66
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

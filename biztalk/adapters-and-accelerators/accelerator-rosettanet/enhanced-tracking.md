@@ -1,15 +1,16 @@
 ---
 title: Mejorado seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: tracking
+helpviewer_keywords:
+- tracking
 ms.assetid: 8adf78f0-ab0f-44d4-aa5b-9546e2bdf01f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
