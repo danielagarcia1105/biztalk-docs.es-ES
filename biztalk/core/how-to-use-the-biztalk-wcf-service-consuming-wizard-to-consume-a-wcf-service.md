@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tools, WCF Service Consuming Wizard
 - consuming, WCF Service Consuming Wizard
 ms.assetid: d5fad2ac-4d98-4720-8026-88ebab78b120
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -53,7 +53,7 @@ El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de
      ![Página extremo de metadatos](../core/media/2b17f85a-64d0-4719-99c4-ce61c706f10c.gif "2b17f85a-64d0-4719-99c4-ce61c706f10c")  
   
     > [!NOTE]
-    >  Para descargar los metadatos de los servicios WCF publicados a través de HTTP o HTTPS, no puede usar el extremo MEX como 8087/CalculatorService/mex para la **dirección de metadatos** cuadro de texto. Para los servicios WCF, debe usar los metadatos de WSDL para descargar los metadatos como sigue: 8087/CalculatorService o 8087/CalculatorService? wsdl  
+    >  Para descargar los metadatos de los servicios WCF publicados a través de HTTP o HTTPS, no puede usar el extremo MEX como http://localhost:8087/CalculatorService/mex para la **dirección de metadatos** cuadro de texto. Para los servicios WCF, debe usar los metadatos de WSDL para descargar los metadatos como sigue: http://localhost:8087/CalculatorService o http://localhost:8087/CalculatorService? wsdl  
   
 6.  Si ha seleccionado la **archivos de metadatos (WSDL y XSD)** opción el **origen de metadatos** página, el **extremo de metadatos** aparecerá la página. En el **extremo de metadatos** página, especifique los archivos de metadatos para importar. Haga clic en **agregar** para agregar los archivos de metadatos para importar a la **archivos de metadatos** vista. Se abrirá la **agregar archivos de metadatos** cuadro de diálogo en el que puede buscar ubicaciones de disco para archivos de metadatos.  
   
