@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF adapters, message bodies
 - SOAP messages, WCF adapters
 ms.assetid: b20364b7-0365-4636-b4d6-bde9c69b8dcb
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -101,7 +101,7 @@ Puede usar el **mensajes** ficha en los adaptadores de WCF para especificar cóm
  Para el mensaje SOAP entrante anterior, los adaptadores de WCF usan los datos de caracteres, **CONTOSO**, de la **CustomerID** elemento que se va a crear la parte del cuerpo de mensaje de BizTalk entrante.  
   
 > [!NOTE]
->  No se puede utilizar la sintaxis abreviada de XPath, **/Order/OrderDetail/CustomerID**, para el mensaje SOAP entrante anterior. Esto es porque la sintaxis abreviada de XPath devuelve el nodo no declarado en un espacio de nombres y el **CustomerID** elemento del mensaje SOAP anterior se declara en el **http:// Microsoft.Samples.BizTalk.NetNamedPipe/OrderProcess** espacio de nombres con espacios de nombres predeterminados.  
+>  No se puede utilizar la sintaxis abreviada de XPath, **/Order/OrderDetail/CustomerID**, para el mensaje SOAP entrante anterior. Esto es porque la sintaxis abreviada de XPath devuelve el nodo no declarado en un espacio de nombres y el **CustomerID** elemento del mensaje SOAP anterior se declara en el **http://Microsoft.Samples.BizTalk.NetNamedPipe/OrderProcess** espacio de nombres con espacios de nombres predeterminados.  
   
  Si configura el **cuerpo del mensaje de BizTalk** sección tal y como se muestra en la siguiente tabla, el **CustomID** elemento en el mensaje SOAP entrante anterior debe tener válido **BinHex**o **Base64** secuencia.  
   
