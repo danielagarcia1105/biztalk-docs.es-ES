@@ -1,5 +1,5 @@
 ---
-title: La resolución y el marco de proveedores de adaptador | Documentos de Microsoft
+title: Resolución ESB y marco de proveedores de adaptador | Documentos de Microsoft
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb7ea42e-b32c-40a8-b36b-c349f56f6edd
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6b97eec38f868a6d1aa00684d92166bb2759a51d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: a350ac19ac1fa95ffb8eb6782380bda78a457b75
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="the-resolver-and-adapter-provider-framework"></a>La resolución y el marco de proveedores de adaptador
 La resolución y el marco de proveedores de adaptador es compatible con la resolución de itinerario, transformación y punto de conexión y el enrutamiento. El marco de trabajo puede resolver los puntos de conexión y establecer las propiedades de salida del adaptador dinámicamente. Después de la resolución de una componente resuelve un punto de conexión (por ejemplo, mediante Universal Description, Discovery e integración [UDDI] para buscar un extremo de servicio Web salientes), un componente de proveedor de adaptador establece propiedades específicas del servidor BizTalk Server registrado adaptadores. Por ejemplo, el proveedor del adaptador de WCF-BasicHttp es responsable de establecer el mensaje de BizTalk específico de propiedades de contexto para el extremo de URI que se va a utilizar el adaptador de BizTalk específico; el proveedor de adaptador FTP es responsable de establecer las propiedades específicas del adaptador de FTP.  
@@ -38,21 +38,21 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
 -   **ESTÁTICO**  
   
-     STATIC:\\\TransportType=;  
+     ESTÁTICO:\\\TransportType=;  
   
-     TransportLocation=http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
+     TransportLocation =http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
   
      Acción =;  
   
-     EndPointConfig=;  
+     EndPointConfig =;  
   
-     JaxRpcResponse=false;  
+     JaxRpcResponse = false;  
   
      MessageExchangePattern=;  
   
-     TargetNamespace=http://globalbank.esb.dynamicresolution.com/canadianservices/;  
+     TargetNamespace =http://globalbank.esb.dynamicresolution.com/canadianservices/;  
   
-     TransformType=;  
+     TransformType =;  
   
 -   **UDDI**  
   
@@ -64,29 +64,29 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
 -   **XPATH**  
   
-     \\\TransportType=;  
+     XPATH:\\\TransportType=;  
   
-     TransportLocation = /*[local-name () = 'OrderDoc' y el espacio ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name () = 'ID' y el espacio ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
      Acción =;  
   
-     EndPointConfig=;  
+     EndPointConfig =;  
   
-     JaxRpcResponse=;  
+     JaxRpcResponse =;  
   
      MessageExchangePattern=;  
   
-     TargetNamespace = /*[local-name () = 'OrderDoc' y el espacio ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name () = 'customerName' y el espacio ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
-     TransformType=;  
-  
+     TransformType =;  
+
 -   **BRE**  
   
      BRE:\\\policy=GetCanadaEndPoint;  
   
      versión =;  
   
-     useMsg=;  
+     useMsg =;  
   
 -   **BRI**  
   
@@ -94,17 +94,17 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
      versión =;  
   
-     useMsg=;  
+     useMsg =;  
   
 -   **ITINERARIO**  
   
-     ITINERARY:\\\name=TwoWayTestItinerary;  
+     ITINERARIO:\\\name=TwoWayTestItinerary;  
   
      versión =;  
   
 -   **ITINERARIO ESTÁTICOS**  
   
-     ITINERARY-STATIC:\\\name=TwoWayTestItinerary;  
+     ITINERARIO estático:\\\name=TwoWayTestItinerary;  
   
      versión =;  
   
@@ -112,39 +112,39 @@ La resolución y el marco de proveedores de adaptador es compatible con la resol
   
      LDAP:\\\TransportType=SMTP;  
   
-     TransportLocation={mail}  
+     TransportLocation = {correo}  
   
-     Filter=(&amp;(objectClass=User)(&#124;(userPrincipalName=yourname@domain.com)));  
+     Filtro = (&(objectClass=User) (| () userPrincipalName =yourname@domain.com)));  
   
-     SearchRoot=;  
+     SearchRoot =;  
   
      SearchScope = subárbol;  
   
-     EndpointConfig = sujeto = mensaje de prueba de itinerario al correo electrónico de {}&amp;  
+     EndpointConfig = sujeto = mensaje de prueba de itinerario a {mail} & 
   
-     SMTPAuthenticate=0&amp;  
+     SMTPAuthenticate = 0 &
   
-     SMTPHost=127.0.0.1&amp;  
+     SMTPHost = 127.0.0.1 &
   
-     From=test@globalbank.com&amp;  
+     FROM =test@globalbank.com&
   
-     DeliveryReceipt=false&amp;  
+     DeliveryReceipt = false &
   
-     MessagePartsAttachments=0&amp;  
+     MessagePartsAttachments = 0 &
   
-     ReadReceipt=false;  
+     ReadReceipt = false;  
   
-     ThrowErrorIfNotFound=false;  
+     ThrowErrorIfNotFound = false;  
   
      Acción =;  
   
-     JaxRpcResponse=false;  
+     JaxRpcResponse = false;  
   
      MessageExchangePattern=;  
   
-     TargetNamespace=;  
+     TargetNamespace =;  
   
-     TransformType=;  
+     TransformType =;  
   
  No todos los atributos de la cadena de conexión son obligatorios. Además, **EndPointConfig** es un atributo especial que puede rellenar y devolver cualquier resolución. Si lo desea, la resolución puede almacenar los pares de nombre/valor que se corresponden con determinadas propiedades de contexto del adaptador de BizTalk, que a su vez, pueden escribir en el contexto del mensaje de BizTalk.  
   

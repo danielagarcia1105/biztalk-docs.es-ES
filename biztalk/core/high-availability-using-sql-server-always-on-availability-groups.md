@@ -1,22 +1,23 @@
 ---
 title: Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn | Documentos de Microsoft
-ms.custom: 
-ms.date: 06/08/2017
+description: Agrupe la base de datos de BizTalk Server en varios nodos para obtener una solución de alta disponibilidad (HA) mediante SQL Server siempre en disponibles grupos (AG), incluidos los requisitos de sistema y limitaciones. Siempre AG requiere clústeres de conmutación por error de servidor de Windows (WSFC).
+ms.custom: ''
+ms.date: 04/10/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4511a578-77d2-49ee-99bd-f0406ad625d0
-caps.latest.revision: 
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d065013cb4975e6d37e2ab50211c5207852ece64
-ms.sourcegitcommit: 6fe505d37e81dc2da43f89548e8977b60a6f5dbd
+ms.openlocfilehash: 5e7bc583cf64ab822cd785e73b3994e7f8e33a75
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn
 Configurar alta disponibilidad mediante el uso de grupos de disponibilidad AlwaysOn de SQL Server.
@@ -202,7 +203,7 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
 
 ## <a name="requirements"></a>Requisitos 
 * BizTalk Server 2016 Enterprise
-* SQL Server 2016 Enterprise
+* Corporativo de SQL Server 2016
 * Windows Server 2012 R2
 * Windows Server 2016 
 
@@ -259,7 +260,7 @@ Estas limitaciones son para BizTalk Server, SQL Server AlwaysOn disponibilidad e
 * No se administran los inicios de sesión, trabajos del Agente SQL, el perfil de correo electrónico de base de datos de SQL y las cuentas dentro de grupos de disponibilidad. Esto requiere una modificación manual de trabajos para asegurarse de que se ejecutan en la réplica principal. 
 * SQL Server Analysis Services y SQL Server Integration Services no participar en grupos de disponibilidad. Sin esta compatibilidad de SQL Server, no hay ninguna solución de alta disponibilidad para estas máquinas virtuales de Azure. Capacidades BAM de BizTalk Server dependen de estos servicios. 
 * Grupos de disponibilidad no es compatible con MSDTC entre bases de datos en la misma instancia SQL. Por lo tanto, un mínimo 8 instancias SQL necesarios para configurar BizTalk. 
-* Para solucionar MSDTC limitaciones con grupos de disponibilidad, las bases de datos de BizTalk pueden configurarse con un mínimo de dos servidores que hospedan cuatro instancias SQL. Sin embargo, en Azure máquinas virtuales, ILB no admiten varias direcciones IP. Esto obliga a crear cada instancia de SQL en un servidor independiente. 
+* Para solucionar MSDTC limitaciones con grupos de disponibilidad, las bases de datos de BizTalk pueden configurarse con un mínimo de dos servidores que hospedan cuatro instancias SQL. También puede usar [varias direcciones IP con el equilibrador de carga de Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). Por ello, si desea usar cuatro instancias SQL de forma predeterminada en el puerto 1433 en un solo servidor, debe cuatro direcciones IP. Si está obligado a una dirección IP, y desea hospedar varias instancias SQL en el mismo servidor, a continuación, asegúrese seguro utilizar un puerto personalizado para cada instancia de SQL. 
 * BizTalk Server no puede usar enrutamiento de solo lectura. 
 * BizTalk Server no establece la `MultiSubnetFailover` propiedad de conexión. 
 * Trabajos de copia de seguridad de BizTalk mediante el trasvase de registros siempre tendrán como destino la réplica principal, independientemente de la preferencia de copia de seguridad definida en el grupo de disponibilidad. 
