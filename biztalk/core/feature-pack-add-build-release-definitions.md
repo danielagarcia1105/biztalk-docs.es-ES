@@ -11,11 +11,11 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5ce84071fbc105fd9faddd794792273aae2e76b9
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 2df2cb82508a12e8e8d279204130d2deedd744f4
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>Paso 3: Crear la compilación y la versión de definición
 
@@ -95,7 +95,7 @@ Cuando la compilación se realiza correctamente, la definición de la versión i
         * **Actualizar una aplicación de BizTalk existente**: anexa los cambios, como esquemas, a una aplicación ya se está ejecuta. No se requiere una nueva implementación completa de la aplicación.
         * **Instalar la aplicación de BizTalk Server**: [instalar las aplicaciones](../core/how-to-install-a-biztalk-application.md), y escriba el nombre del equipo de administración de BizTalk y la ruta de acceso del paquete de implementación.
 
-        ![Deploy operations](../core/media/vsts-deploy-operations.png)
+     ![Implementar las operaciones](../core/media/vsts-deploy-operations.png)
 
     **Nombre de la aplicación**: el texto que escriba será el nombre de aplicación de administración de BizTalk. Hacer **no** escriba BizTalk Application 1.
 

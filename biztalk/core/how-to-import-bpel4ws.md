@@ -7,23 +7,18 @@ ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- BPEL4WS, restrictions
-- BPEL4WS, importing
-- BPEL4WS, orchestrations
-- orchestrations, BPEL4WS
 ms.assetid: 3626fcb9-8e7d-4812-a0c9-bde6e7954ec8
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b32a0044321ce6ac57d7bd49c14b40ba17430db
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 9e82dd80e280eff39ff5c1678b5c9751e378ee1b
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="how-to-import-bpel4ws"></a>Cómo importar BPEL4WS
+# <a name="import-bpel4ws-in-biztalk-server"></a>Importar BPEL4WS en BizTalk Server
 Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.  
   
 > [!IMPORTANT]
@@ -31,7 +26,7 @@ Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.
   
  Para obtener un ejemplo de cómo importar BPEL4WS, consulte [BPEL importar (ejemplo de BizTalk Server)](../core/bpel-import-biztalk-server-sample.md).  
   
-### <a name="to-import-bpel4ws-into-an-orchestration"></a>Para importar BPEL4WS a una orquestación  
+## <a name="import-bpel4ws-into-an-orchestration"></a>Importar BPEL4WS a una orquestación  
   
 1.  Cree un nuevo proyecto.  
   
@@ -69,7 +64,7 @@ Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.
     </element>  
     ```  
   
-     XPath - / * [local-name () = 'Root' y el espacio ='http://BizTalk_Server_Project3.Schema1'] /\*[local-name () = 'promotedField' and espacio ='']  
+     `XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']` 
   
     |XPath canónico|XPath no canónico|  
     |---------------------|--------------------------|  

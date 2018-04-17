@@ -13,15 +13,15 @@ helpviewer_keywords:
 - BizTalk Framework Disassembler [pipeline component], distinquished fields
 - XML Disassembler [pipeline component], distinquished fields
 ms.assetid: 7e51d2fe-0004-4a7b-9055-bd41e8a4b7ab
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 20a9c79050b4489238ed94444eaebf8c3dac79d9
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>Componentes de canalización de campos distintivos en el Desensamblador
 Los componentes de desensamblador XML, desensamblador de BizTalk Framework o desensamblador de archivos sin formato escriben en el contexto del mensaje los campos distintivos definidos en un esquema.  
@@ -67,7 +67,7 @@ Los componentes de desensamblador XML, desensamblador de BizTalk Framework o des
   
  el desensamblador XML escribe un campo distintivo en un contexto del mensaje como se indica a continuación:  
   
- Nombre de la propiedad en el contexto: "/ * [local-name () = 'Pedido' y el espacio ='http://SendHtmlMessage.PO'] /\*[local-name () = 'Precio' y el espacio ='']"  
+ Nombre de la propiedad en el contexto: `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`  
   
  Namespace de la propiedad: http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   
