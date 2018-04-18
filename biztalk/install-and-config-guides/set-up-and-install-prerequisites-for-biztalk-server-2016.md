@@ -1,17 +1,17 @@
 ---
 title: Configurar e instalar los requisitos previos para BizTalk Server 2016 | Documentos de Microsoft
-description: "Instrucciones paso a paso para instalar y configurar el software necesario y la configuración de BizTalk Server 2016"
+description: Instrucciones paso a paso para instalar y configurar el software necesario y la configuración de BizTalk Server 2016
 author: MandiOhlinger
 manager: anneta
 ms.prod: biztalk-server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/30/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
-caps.latest.revision: "11"
+caps.latest.revision: 11
 ms.author: mandia
 ms.openlocfilehash: 2f03aaf7d33cc494320d1ef0944b48286bc1b24c
 ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
@@ -81,10 +81,10 @@ El programa de instalación de BizTalk Server mantiene un registro de eventos en
 
 ## <a name="edge-cant-be-opened-optional"></a>No se puede abrir borde (opcional)
 
-Al usar Edge, aparece el siguiente mensaje:  
+Al usar Microsoft Edge, aparece el siguiente mensaje:  
 `Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
 
-Para permitir que se abra Edge con la cuenta predefinida de administrador:
+Para permitir que se abra Microsoft Edge con la cuenta predefinida de administrador:
 
 1. En el menú Inicio, abra **Directiva de seguridad local**. O bien, abra **Administrador de servidores**, seleccione **Herramientas** y, después, **Directiva de seguridad local**.
 2.  Expanda **Directivas locales** y seleccione **Opciones de seguridad**. 
