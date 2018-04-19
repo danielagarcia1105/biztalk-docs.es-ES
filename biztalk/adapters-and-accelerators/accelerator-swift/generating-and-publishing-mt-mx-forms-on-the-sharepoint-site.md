@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4adf7117-11ad-4a8e-8d6a-fd78c5e496a3
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1c8bd8248a916d1e98571551a8561119b6377329
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>Generar y publicar formularios de MT/MX en el sitio de SharePoint
 **Para generar y publicar MT/MX formularios en un sitio de SharePoint:**  
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/23/2018
   
 12. En la ventana del Asistente para publicación, seleccione **a una ubicación de red** y haga clic en **siguiente**.  
   
-13. En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba **http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn** y tipo ** \<MessageType\> ** en la plantilla de formulario de cuadro de texto Nombre y haga clic en **siguiente**.  
+13. En el formulario plantilla ruta de acceso y cuadro de texto Nombre, escriba  **http://localhost/sites/BASSite/Templates/ \<MessageType\>.xsn** y tipo **\<MessageType\>** en el formulario Cuadro de texto de nombre de plantilla y haga clic en **siguiente**.  
   
 14. Haga clic en **Siguiente**.  
   
@@ -58,13 +58,13 @@ ms.lasthandoff: 03/23/2018
   
 16. En Internet Explorer, abra el sitio de SharePoint **http://localhost/sites/bassite/templates**.  
   
-17. Seleccione ** \<MessageType\>**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.  
+17. Seleccione  **\<MessageType\>**, haga clic en la flecha abajo situada junto a él y, a continuación, haga clic en **editar propiedades**.  
   
 18. En las plantillas:\< MessageType\> ventana, en el cuadro Namespace:  
   
     -   Si va a generar los formularios de InfoPath de MT, escriba: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
   
-    -   Si va a generar los formularios de InfoPath MX, escriba: ** http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageName\>**  
+    -   Si va a generar los formularios de InfoPath MX, escriba:  **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageName\>**  
   
          Esto le ayudará a identificar la instancia de mensaje con la plantilla correspondiente.  
   

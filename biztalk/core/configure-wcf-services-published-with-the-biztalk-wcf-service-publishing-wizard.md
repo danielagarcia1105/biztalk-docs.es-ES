@@ -13,15 +13,15 @@ helpviewer_keywords:
 - configuring, WCF services
 - WCF Service Publishing Wizard
 ms.assetid: f51b86c0-8c19-453d-a66d-3f373e9f096e
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 19383ca97f979d6932698d06eabd507b4a00954f
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>Cómo configurar los servicios WCF publicados con el Asistente para publicación de Servicio WCF de BizTalk
 Una vez que ha publicado los servicios WCF con el Asistente para publicación de Servicio WCF de BizTalk, debe configurarlos adecuadamente. En este tema se describe cómo configurar los servicios WCF publicados.  
@@ -56,7 +56,7 @@ Una vez que ha publicado los servicios WCF con el Asistente para publicación de
 7.  Si no ha seleccionado la **ubicaciones de recepción de BizTalk crear** opción al crear el WCF services, en la **propiedades de transporte** cuadro de diálogo, haga clic en el **General** ficha. En el **General** ficha, escriba el URI de esta ubicación de recepción en el **dirección** cuadro de texto. Indique el directorio virtual, así como el nombre del archivo .svc que el Asistente para publicación de Servicio WCF de BizTalk ha generado en el procedimiento anterior; por ejemplo /path/service.svc.  
   
     > [!NOTE]
-    >  El **dirección** propiedad debe empezar con una barra diagonal ("/") y terminan en ".svc". El **dirección** no debe contener un esquema de protocolo, el nombre de equipo o el número de puerto como http://host: Port. Sólo se puede usar la ruta de acceso del directorio virtual. La extensión del archivo de marcado del Servicio WCF debe ser .svc.  
+    >  El **dirección** propiedad debe empezar con una barra diagonal ("/") y terminan en ".svc". El **dirección** no debe contener un esquema de protocolo, el nombre del equipo o el número de puerto como http://host:port. Sólo se puede usar la ruta de acceso del directorio virtual. La extensión del archivo de marcado del Servicio WCF debe ser .svc.  
   
      ![La ficha General de WCF&#45;adaptador BasicHttp](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")  
   
@@ -86,8 +86,8 @@ Una vez que ha publicado los servicios WCF con el Asistente para publicación de
   
     |Parámetro|Value|  
     |---------------|-----------|  
-    |*host[:port]*|El nombre del equipo en el que ha implementado el Servicio WCF. Este nombre de servidor puede ir seguido de dos puntos y el número de puerto.|  
-    |*apppath*|El nombre del directorio virtual y la ruta de aplicación Web.|  
+    |*host [: puerto]*|El nombre del equipo en el que ha implementado el Servicio WCF. Este nombre de servidor puede ir seguido de dos puntos y el número de puerto.|  
+    |*AppPath*|El nombre del directorio virtual y la ruta de aplicación Web.|  
     |*wcfservicename.svc*|El nombre del archivo .svc de Servicio WCF.|  
   
 15. Para evitar la revelación de metadatos de servicio potencialmente confidenciales, se recomienda deshabilitar este comportamiento en el entorno de producción mediante la realización de las siguientes tareas:  
