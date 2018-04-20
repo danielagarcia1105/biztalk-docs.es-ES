@@ -1,40 +1,40 @@
 ---
 title: Glosario de Acelerador para RosettaNet en BizTalk Server | Documentos de Microsoft
-description: "Común de términos y definiciones para conocer y aprender a usar el Acelerador de BizTalk para RosettaNet"
-ms.custom: 
+description: Común de términos y definiciones para conocer y aprender a usar el Acelerador de BizTalk para RosettaNet
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d98a5ed4-adc5-4ca9-b9d9-38ab02a0bda6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: bd89d75b0d36359fcf59f7edae0bb950a7196ca7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="glossary"></a>Glosario
-[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]usa el siguiente Glosario de términos y definiciones.  
+[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] usa el siguiente Glosario de términos y definiciones.  
 
   
-## <a name="a"></a>Un  
+## <a name="a"></a>A  
  **adaptador de la aplicación**  
  Aplicación que implementa la interfaz de adaptador de la aplicación. El mecanismo de notificación de la aceptación de un mensaje entrante de acción (solicitud o respuesta) invoca al adaptador de la aplicación. Implementa dos métodos: `BeginNotify` y `EndNotify`. El servicio de respuesta pública invoca el método `BeginNotify` , mientras que el servicio de respuesta privado estándar invoca el método `EndNotify` . La llamada al método `Notify` significa que el mensaje se guardó correctamente en la tabla MessagesToLOB.  
   
- **dirección URL de acción**  
+ **Dirección URL de acción**  
  La dirección URL de socio comercial a la que la organización principal transmite un mensaje de acción durante un proceso asincrónico, por ejemplo, http://FabrikamServer/BTARNApp/RNIFReceive.aspx.  
   
 ## <a name="b"></a>B  
  **Acelerador de BizTalk para RosettaNet**  
  Un producto complementario a BizTalk Server que ayuda a las organizaciones a crear RosettaNet Implementation Framework (RNIF)-soluciones compatibles con.  
   
- **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]Administración**  
+ **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] Administración**  
  Microsoft [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] aplicación que le permite describir plantillas de proceso y administrar acuerdos de socios.  
   
  **Editor de BizTalk**  
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
  **Para la industria química normas europeas de química de intercambio de datos (CIDX)**  
  Normas uniformes de intercambio de datos desarrolladas específicamente para la compra, venta y entrega de productos químicos. Estas normas se basan en los estándares universalmente reconocidos para el intercambio electrónico de datos: XML. BTARN admite las normas europeas de química CIDX.  
   
- **clúster**  
+ **Clúster**  
  Grupo de procesos de negocio de alto nivel, como administración de pedidos, administración de inventario o servicio y soporte técnico. Los clústeres dirigidos por RosettaNet representan procesos empresariales básicos para el sector de la cadena de suministro.  
   
 ## <a name="d"></a>D  
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
  Especificación desarrollada por World Wide Web Consortium (W3C) que permite a los diseñadores crear etiquetas personalizadas más allá de las capacidades de HTML estándar. Mientras que HTML usa solo las etiquetas predefinidas para describir los elementos de la página, XML permite que el desarrollador de la página defina las etiquetas. Las etiquetas para prácticamente cualquier elemento de datos, como un producto o una cantidad debida, pueden utilizarse para aplicaciones específicas. Esto permite que las páginas web funcionen como registros de la base de datos.  
   
  **Transformaciones Extensible Stylesheet Language (XSL)**  
- Formato de hoja de estilos para documentos XML. XSL se utiliza para definir la presentación de XML, al igual que las hojas de estilo en cascada (CSS) se usan para definir la presentación de HTML. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]utiliza XSL como idioma de traducción entre dos especificaciones.  
+ Formato de hoja de estilos para documentos XML. XSL se utiliza para definir la presentación de XML, al igual que las hojas de estilo en cascada (CSS) se usan para definir la presentación de HTML. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] utiliza XSL como idioma de traducción entre dos especificaciones.  
   
 ## <a name="g"></a>G  
  **Identificación empresarial global (GBI)**  
@@ -145,11 +145,11 @@ ms.lasthandoff: 09/20/2017
  PIP especial que indica los errores inesperados en el proceso. El iniciador o el servicio de respuesta puede iniciar una notificación de error. Hace referencia a un proceso existente o intercambiado con anterioridad. Tras la recepción de un 0A1, la parte receptora se asegura de que el proceso al que hace referencia se considera no válido.  
   
 ## <a name="o"></a>O  
- **organización**  
+ **Organización**  
  Socio comercial o unidad de negocio que puede realizar transacciones comerciales.  
   
 ## <a name="p"></a>P  
- **empaquetado**  
+ **Empaquetado**  
  El proceso de convertir un mensaje de RosettaNet en su representación XML y viceversa.  
   
  **Proceso de interfaz de socio (PIP)**  
@@ -187,7 +187,7 @@ ms.lasthandoff: 09/20/2017
  Un mensaje de RosettaNet con doble cifrado para ser entregado en el Marco de implementación de RosettaNet, versión 1.1.  
   
 ## <a name="s"></a>S  
- **esquema**  
+ **schema**  
  La definición de la estructura de un archivo XML. Un esquema contiene información de la propiedad ya que pertenece a los registros y campos de la estructura.  
   
  **contenido del servicio**  
@@ -196,17 +196,17 @@ ms.lasthandoff: 09/20/2017
  **encabezado de servicio**  
  Un documento XML que identifica las partes asociadas a un mensaje de negocio, incluido el PIP, la acción y actividad económica, enviar y recibir servicios, socios comerciales y roles.  
   
- **dirección URL de señal**  
+ **Dirección URL de señal**  
  Dirección URL a la que la organización principal transmite un mensaje de señal. Por ejemplo, http://FabrikamServer/BTARNApp/RNIFReceive.aspx.  
   
  **notificación de acción única**  
  Proceso en el que el iniciador envía un mensaje de acción única y el servicio de respuesta responde con un mensaje.  
   
- **especificación**  
+ **Especificación**  
  Un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]-esquema XML específico. Cree las especificaciones en el Editor de BizTalk y se pueden basar en estándares del sector, como EDIFACT, X 12 y XML, o en los archivos sin formato, como delimitados, posicionales o delimitados y posicionales. El Asignador de BizTalk utiliza especificaciones, abiertas como especificaciones de origen y destino especificaciones, para crear asignaciones.  
   
- **dirección URL de la sincronización**  
- La dirección URL que la organización principal utiliza para establecer transacciones sincrónicas con el socio comercial, por ejemplo, http://FabikamServer/BTARNApp/RNIFReceive.aspx.  
+ **Dirección URL de la sincronización**  
+ La dirección URL que la organización principal se utiliza para establecer transacciones sincrónicas con el socio comercial, por ejemplo, http://FabikamServer/BTARNApp/RNIFReceive.aspx.  
   
  **transacción sincrónica**  
  Un proceso en el que el iniciador devuelve una respuesta (doble acción) o señal (acción única) en el mismo estado HTTP sin cerrar la conexión.  

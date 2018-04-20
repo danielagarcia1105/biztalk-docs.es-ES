@@ -1,23 +1,23 @@
 ---
-title: "Administración de la configuración de rendimiento de servidor BizTalk Server | Documentos de Microsoft"
-description: "Utilice el panel de configuración para actualizar el grupo de BizTalk, host e instancias de host en BizTalk Server"
-ms.custom: 
+title: Administración de la configuración de rendimiento de servidor BizTalk Server | Documentos de Microsoft
+description: Utilice el panel de configuración para actualizar el grupo de BizTalk, host e instancias de host en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca56a981-a255-4c4d-82f8-a57d390e425e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0660fd4aa130049d80de4a0c2ee239ef5cae0068
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="manage-biztalk-server-performance-settings"></a>Administrar la configuración de rendimiento de servidor BizTalk Server
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
  Puede usar el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] para modificar la configuración del grupo de BizTalk y todos los hosts de BizTalk y las instancias de host de BizTalk de dicho grupo.  
   
- Para obtener más información sobre el grupo, el host y la configuración de la instancia de host, consulte [cómo modificar la configuración del grupo de](../core/how-to-modify-group-settings.md), [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md), y [cómo modificar configuración de instancia de Host](../core/how-to-modify-host-instance-settings.md).  
+ Para obtener más información sobre el grupo, el host y la configuración de la instancia de host, consulte [cómo modificar la configuración del grupo de](../core/how-to-modify-group-settings.md), [cómo modificar la configuración del Host](../core/how-to-modify-host-settings.md), y [cómo modificar la configuración de instancia de Host](../core/how-to-modify-host-instance-settings.md).  
   
 ## <a name="prerequisites"></a>Requisitos previos 
  Puede iniciar el [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] desde la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para obtener información sobre cómo administrar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuración de rendimiento mediante la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración, consulte [mediante la consola de administración de BizTalk Server](../core/using-the-biztalk-server-administration-console.md).  
@@ -68,9 +68,9 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="next"></a>Siguiente  
   
--   [Usar el panel de configuración para el servidor BizTalk Server ajuste del rendimiento](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)  
+-   [Uso del panel de configuración para ajustar el rendimiento de BizTalk Server](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)  
   
--   [Automatizar el servidor BizTalk Server ajuste del rendimiento](../core/automating-biztalk-server-performance-tuning.md)  
+-   [Automatizar el ajuste de rendimiento de BizTalk Server](../core/automating-biztalk-server-performance-tuning.md)  
   
 ## <a name="see-also"></a>Vea también  
- [Administrar el servidor BizTalk Server](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)
+ [Administrar BizTalk Server](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)

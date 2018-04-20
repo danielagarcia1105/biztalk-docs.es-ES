@@ -1,22 +1,22 @@
 ---
-title: "Resolución de acuerdos, detección de esquemas y autorización para los mensajes EDI recibidos | Documentos de Microsoft"
-ms.custom: 
+title: Resolución de acuerdos, detección de esquemas y autorización para los mensajes EDI recibidos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 503e307c-4cb0-49b5-8751-82dcea203151
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: de5f7fd9b022daf2d123de1c971797b53df202d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="agreement-resolution-schema-discovery-and-authorization-for-received-edi-messages"></a>Resolución de acuerdos, detección de esquemas y autorización para los mensajes EDI recibidos
 Cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un mensaje EDI, la canalización de recepción EDI realiza la búsqueda de acuerdos de socio comercial, la detección de esquemas y los procesos de autorización para determinar el modo en que se procesa el mensaje.  
@@ -130,4 +130,4 @@ Cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversio
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] comprueba los valores de los campos de autorización y seguridad definidos para el acuerdo con los campos del mensaje. En caso de que haya una falta de coincidencia, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspenderá el intercambio. Para los mensajes codificados con EDIFACT, estos campos son la contraseña de referencia del destinatario (UNB6.1 y UNB6.2). Para los mensajes codificados con X12, estos campos son el calificador y la información de autorización (ISA1-2), y el calificador y la información de seguridad (ISA3-4).  
   
 ## <a name="see-also"></a>Vea también  
- [Cómo BizTalk Server recibe mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)
+ [Cómo recibe BizTalk Server los mensajes EDI](../core/how-biztalk-server-receives-edi-messages.md)

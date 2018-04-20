@@ -1,22 +1,22 @@
 ---
 title: Comando ImportBindings | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b8dd1ee-1719-4cd1-b503-b004f312daeb
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 576f9055e7b70ab43cc150f208f8c55789f28da8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="importbindings-command"></a>ImportBindings (comando)
 Importa enlaces desde un archivo de enlace basado en XML a un grupo o a una aplicación de BizTalk. Los enlaces pueden haber exportado de un ensamblado, la aplicación o el grupo, como se describe en [exportar enlaces](../core/exporting-bindings6.md). En función de la ubicación desde la que se exportaron los enlaces, los parámetros ApplicationName y GroupLevel tienen efectos diferentes. Para obtener más información, vea la sección "Comentarios" más adelante en este tema.  
@@ -25,13 +25,13 @@ Importa enlaces desde un archivo de enlace basado en XML a un grupo o a una apli
 >  Enlace de archivos que se generan en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no tiene una aplicación especificada. Se importan a la aplicación predeterminada.  
   
 ## <a name="usage"></a>Uso  
- **BTSTask ImportBindings-origen**:*valor* [**- GroupLevel** &#124; **- ApplicationName**:*valor*] [**-Server**:*valor*] [**-base de datos**: *valor*] [**- ImportTrackingSettings**:*valor*] [**- ExcludeParties**]
+ **BTSTask ImportBindings-origen**:*valor* [**- GroupLevel** &#124; **- ApplicationName**:*valor*] [**-Server**:*valor*] [**-base de datos**:*valor*] [**- ImportTrackingSettings**: *valor*] [**- ExcludeParties**]
   
 ## <a name="parameters"></a>Parámetros  
   
-|Parámetro|Necesario|Valor|  
+|Parámetro|Obligatorio|Value|  
 |---------------|--------------|-----------|  
-|**-Origen** (o **-tan**, vea la sección Comentarios)|Necesario|Ruta completa del archivo de enlace que se va a importar, incluido el nombre de archivo. Si el nombre de las rutas incluye espacios, debe ir entre comillas dobles (").|  
+|**-Origen** (o **-tan**, vea la sección Comentarios)|Obligatorio|Ruta completa del archivo de enlace que se va a importar, incluido el nombre de archivo. Si el nombre de las rutas incluye espacios, debe ir entre comillas dobles (").|  
 |**-GroupLevel** (o **- G**, vea la sección Comentarios)|Opcional|Opción para importar el archivo de enlace al grupo actual. Si especifica este parámetro, no especifique /ApplicationName.|  
 |**-ApplicationName** (o **- A**, vea la sección Comentarios)|Opcional|Nombre de la aplicación de BizTalk en la que se van a importar los enlaces. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles ("). La aplicación debe existir o se producirá un error en la operación de importación. Si no se especifica este parámetro, se utiliza la aplicación de BizTalk predeterminada. Si especifica este parámetro, no especifique /GroupLevel.|  
 |**-Server** (o **-Se**, vea la sección Comentarios)|Opcional|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  

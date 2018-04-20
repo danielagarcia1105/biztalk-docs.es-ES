@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar puertos de envío mediante Windows Sharepoint Services propiedades de contexto | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar puertos de envío mediante Windows Sharepoint Services propiedades de contexto | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, InfoPath forms
@@ -18,15 +18,15 @@ helpviewer_keywords:
 - send ports, Windows SharePoint Services adapters
 - Windows SharePoint Services, Windows SharePoint Services adapters
 ms.assetid: 1ff50fb8-7ba0-47b8-9476-d57413989346
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e766272f33bf23166ba412a76498e4240ab3343b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="how-to-configure-send-ports-using-windows-sharepoint-services-context-properties"></a>Cómo configurar puertos de envío mediante las propiedades de contexto de Windows SharePoint Services
 En este tema se describe cómo configurar puertos de envío de Windows SharePoint Services en tiempo de ejecución mediante las propiedades de contexto de Windows Sharepoint Service en una orquestación de BizTalk. Se puede usar el mismo mecanismo para configurar los puertos de envío enlazados en tiempo de ejecución. Las propiedades de configuración para un puerto de envío dinámico se establecen en una orquestación en tiempo de ejecución. Propiedades del adaptador que se exponen en la **propiedades de transporte de Windows SharePoint Services** cuadro de diálogo también puede aplicarse a un puerto de envío enlazado en tiempo de ejecución. Para establecer las propiedades de configuración para un puerto de envío enlazado en tiempo de ejecución mediante las propiedades de contexto del adaptador de Windows Sharepoint Services, siga estos pasos:  
@@ -43,15 +43,15 @@ En este tema se describe cómo configurar puertos de envío de Windows SharePoin
     |Timeout|WSS.ConfigTimeout|int|Los valores válidos son de 1000 a 2147483647.<br /><br /> El valor predeterminado es 100000<br /><br /> Especifique un valor de 0 para indicar un tiempo de espera infinito.|  
     |Dirección URL de carpeta de destino|N/D|N/D|Para puertos dinámicos, se establece indirectamente estableciendo la **Microsoft.XLANGs.BaseTypes.Address** propiedad del puerto dinámico con una forma de expresión en una orquestación. En puertos enlazados en tiempo de ejecución, esta propiedad no se puede establecer en tiempo de ejecución puesto que siempre se reemplaza por el valor del puerto de envío físico.|  
     |Nombre de archivo|WSS.Filename|String|Admite el uso de todas las macros de nombre de archivo que se puede usar en las propiedades de transporte excepto para la **% Filename %** y **% Extension %** macros.|  
-    |Alias de espacios de nombres|WSS.ConfigNamespaceAliases|String|Si un conjunto de alias de espacios de nombres para un mensaje en tiempo de ejecución coincide con el conjunto de alias de espacios de nombres para el puerto de envío al que se enruta el mensaje, los espacios de nombres se combinan y se produce un error de enrutamiento. Pare evitar este problema, asegúrese de que los alias de espacios de nombres no sean idénticos. Por ejemplo, si se usa la siguiente expresión en una orquestación para establecer el alias de espacios de nombres para un mensaje:<br /><br /> `Message_Task(WSS.ConfigNamespaceAliases)= "orchns='http://OrderProcess.PurchaseOrder'";`<br /><br /> y si este mensaje se enruta a un puerto de envío que especifica el siguiente valor para la **alias Namespace** propiedad:<br /><br /> orchns='http://OrderProcess.PurchaseOrder'<br /><br /> se producirá un error cuando BizTalk Server intente enrutar el mensaje en este puerto de envío. Para resolver este problema podría especificar el siguiente valor para la **alias Namespace** propiedad del puerto de envío:<br /><br /> **orchns2**= 'http://OrderProcess.PurchaseOrder'|  
+    |Alias de espacios de nombres|WSS.ConfigNamespaceAliases|String|Si un conjunto de alias de espacios de nombres para un mensaje en tiempo de ejecución coincide con el conjunto de alias de espacios de nombres para el puerto de envío al que se enruta el mensaje, los espacios de nombres se combinan y se produce un error de enrutamiento. Pare evitar este problema, asegúrese de que los alias de espacios de nombres no sean idénticos. Por ejemplo, si se usa la siguiente expresión en una orquestación para establecer el alias de espacios de nombres para un mensaje:<br /><br /> `Message_Task(WSS.ConfigNamespaceAliases)= "orchns='http://OrderProcess.PurchaseOrder'";`<br /><br /> y si este mensaje se enruta a un puerto de envío que especifica el siguiente valor para la **alias Namespace** propiedad:<br /><br /> orchns ='http://OrderProcess.PurchaseOrder'<br /><br /> se producirá un error cuando BizTalk Server intente enrutar el mensaje en este puerto de envío. Para resolver este problema podría especificar el siguiente valor para la **alias Namespace** propiedad del puerto de envío:<br /><br /> **orchns2**='http://OrderProcess.PurchaseOrder'|  
     |Sobrescribir|WSS.ConfigOverwrite|String|Los valores válidos son:<br /><br /> -"Sí"<br /><br /> -"no"<br /><br /> -"rename"|  
     |Dirección URL del sitio de SharePoint|WSS.InListUrl|String|Para puertos dinámicos, se establece indirectamente estableciendo la **Microsoft.XLANGs.BaseTypes.Address** propiedad del puerto dinámico con una forma de expresión en una orquestación. En puertos enlazados en tiempo de ejecución, esta propiedad no se puede establecer en tiempo de ejecución puesto que siempre se reemplaza por el valor del puerto de envío físico.|  
     |Integración con Microsoft Office|WSS.ConfigOfficeIntegration|String|Los valores válidos son:<br /><br /> -"Sí"<br /><br /> -"no"<br /><br /> -"yesformlibrary"<br /><br /> -"opcional"|  
-    |Biblioteca de documentos de plantillas|WSS.ConfigTemplatesDocLib|String|Ninguno|  
-    |Biblioteca de documentos de reserva de plantillas|WSS.ConfigCustomTemplatesDocLib|String|Ninguno|  
-    |Columna de espacio de nombres de reserva de plantillas|WSS.ConfigCustomTemplatesNamespaceCol|String|Ninguno|  
-    |Columna de espacio de nombres de plantillas|WSS.ConfigTemplatesNamespaceCol|String|Ninguno|  
-    |Columna `n`|WSS.ConfigPropertiesXml<br /><br /> Nombre de la columna se establece \<PropertyName*x*\>*columnname*\</ PropertyName*x* \> campo.|String|Ninguno|  
+    |Biblioteca de documentos de plantillas|WSS.ConfigTemplatesDocLib|String|None|  
+    |Biblioteca de documentos de reserva de plantillas|WSS.ConfigCustomTemplatesDocLib|String|None|  
+    |Columna de espacio de nombres de reserva de plantillas|WSS.ConfigCustomTemplatesNamespaceCol|String|None|  
+    |Columna de espacio de nombres de plantillas|WSS.ConfigTemplatesNamespaceCol|String|None|  
+    |Columna `n`|WSS.ConfigPropertiesXml<br /><br /> Nombre de la columna se establece \<PropertyName*x*\>*columnname*\</ PropertyName*x* \> campo.|String|None|  
     |Columna `n` Valor|WSS.ConfigPropertiesXml<br /><br /> Valor de la columna se establece \<PropertySource*x*\>*columnvalue*\</ PropertySource*x* \> campo.|String|Admite el uso de todas las macros de nombre de archivo que se puede usar en las propiedades de transporte excepto para la **% Filename %** y **% Extension %** macros.|  
   
     > [!NOTE]

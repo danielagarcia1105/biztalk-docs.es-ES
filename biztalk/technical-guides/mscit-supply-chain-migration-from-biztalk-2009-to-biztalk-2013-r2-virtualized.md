@@ -1,22 +1,22 @@
 ---
-title: "MSCIT: Migración de cadena de suministros desde el concentrador de BizTalk Server 2009 a BizTalk Server 2013 R2 virtualizado concentrador | Documentos de Microsoft"
-ms.custom: 
+title: 'MSCIT: Migración de cadena de suministros desde el concentrador de BizTalk Server 2009 a BizTalk Server 2013 R2 virtualizado concentrador | Documentos de Microsoft'
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 06/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7366ffc2-d1f6-44df-b1f8-f07b99cf5d11
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 7a3cc49424ead924bdb98dd196f7792806d2702f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="mscit-supply-chain-migration-from-biztalk-server-2009-hub-to-biztalk-server-2013-r2-virtualized-hub"></a>MSCIT: Migración de cadena de suministros de concentrador de BizTalk Server 2009 a BizTalk Server 2013 R2 virtualiza concentrador
 Migración de aplicaciones de BizTalk Server 2010 a BizTalk Server 2013 R2.  

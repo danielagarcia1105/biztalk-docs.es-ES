@@ -1,22 +1,22 @@
 ---
 title: Configurar la FileAct e interactuar adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d3876ff-e8e4-47f4-9ca8-d4dad419ed67
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a>Configurar la FileAct e interactuar adaptador
 Configurar los diferentes artefactos utilizados por el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] en tiempo de ejecución. 
@@ -24,7 +24,7 @@ Configurar los diferentes artefactos utilizados por el [!INCLUDE[swift_adapter](
   
 ## <a name="prerequisites"></a>Requisitos previos  
    
--   Instalar el[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
+-   Instalar el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
   
 -   Inicie sesión como miembro de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] grupo de administradores
   

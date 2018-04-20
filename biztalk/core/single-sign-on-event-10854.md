@@ -1,22 +1,22 @@
 ---
-title: "Inicio de sesión único: Evento 10854 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10854 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8faed9d-5c7e-4b99-bcd9-ea5f670d5e72
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 42f9e9e761689b2ed21ec37acdbb8a63f1f88070
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="single-sign-on-event-10854"></a>Inicio de sesión único: Evento 10854
 ## <a name="details"></a>Detalles  

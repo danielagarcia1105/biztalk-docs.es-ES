@@ -1,22 +1,22 @@
 ---
 title: 'Tutorial 3: Tutorial de AS2 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 018829a9-e670-4b87-bac5-7f7b1332d90e
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 03de45aa09b2704f205b81db4c513a0da5770ee3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="tutorial-3-as2-tutorial"></a>Tutorial 3: Tutorial de AS2
 En este tutorial, establezca una solución que reciba y envíe mensajes de cifrado EDIINT/AS2 a través de un transporte HTTP.  
@@ -85,7 +85,7 @@ En este tutorial, establezca una solución que reciba y envíe mensajes de cifra
   
 7.  El **Send_Async_MDN** puerto de envío dinámico recoge el MDN asíncrono del cuadro de mensajes, filtra en la propiedad de contexto EdiIntAS.IsAS2AsynchronousMdn.  
   
-8.  El MDN enviar puerto devuelve el MDN el \\carpeta _MDNToFabrikam. Puesto que se trata de un puerto de envío dinámico, utilizará la dirección en la línea Receipt-Delivery-Option en el encabezado del mensaje (**http://localhost/Fabrikam/Default.aspx? Destino = _MDNToFabrikam**) para enrutar el mensaje a la \\carpeta _MDNToFabrikam.  
+8.  El MDN enviar puerto devuelve el MDN el \\carpeta _MDNToFabrikam. Puesto que se trata de un puerto de envío dinámico, utilizará la dirección en la línea Receipt-Delivery-Option en el encabezado del mensaje (**http://localhost/Fabrikam/Default.aspx?Destination=_MDNToFabrikam**) para enrutar el mensaje a la \\carpeta _MDNToFabrikam.  
   
 9. El **Send_Async_997** enviar puerto recoge el 997 del cuadro de mensajes, filtrar según el BTS. Propiedad de contexto de MessageType.  
   
@@ -103,25 +103,25 @@ En este tutorial, establezca una solución que reciba y envíe mensajes de cifra
   
 ## <a name="in-this-section"></a>En esta sección  
   
--   [Paso 1: Preparar el Tutorial de AS2](../core/step-1-prepare-for-the-as2-tutorial.md)  
+-   [Paso 1: Preparar el tutorial de AS2](../core/step-1-prepare-for-the-as2-tutorial.md)  
   
--   [Paso 2: Crear e implementar el ejemplo X12 esquema](../core/step-2-create-and-deploy-the-sample-x12-schema.md)  
+-   [Paso 2: Crear e implementar el esquema X12 de ejemplo](../core/step-2-create-and-deploy-the-sample-x12-schema.md)  
   
--   [Paso 3: Configurar una entidad y perfil de negocio para su organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md)  
+-   [Paso 3: Configurar un perfil de entidad y negocio para la organización](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md)  
   
--   [Paso 4: Configurar una entidad y perfil de negocio para el socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner2.md)  
+-   [Paso 4: Configurar un perfil de entidad y negocio para el socio comercial](../core/step-4-configure-a-party-and-business-profile-for-your-trading-partner2.md)  
   
--   [Paso 5: Configurar las páginas Web de socios comerciales](../core/step-5-configure-the-trading-partner-web-pages.md)  
+-   [Paso 5: Configurar las páginas web de los socios comerciales](../core/step-5-configure-the-trading-partner-web-pages.md)  
   
--   [Paso 6: Configurar EDI-AS2 ubicación de recepción](../core/step-6-configure-the-edi-as2-receive-location.md)  
+-   [Paso 6: Configurar la ubicación de recepción EDI/AS2](../core/step-6-configure-the-edi-as2-receive-location.md)  
   
 -   [Paso 7: Configurar el puerto de envío MDN](../core/step-7-configure-the-mdn-send-port.md)  
   
--   [Paso 8: Configurar el puerto de 997 envío](../core/step-8-configure-the-997-send-port.md)  
+-   [Paso 8: Configurar el puerto de envío 997](../core/step-8-configure-the-997-send-port.md)  
   
--   [Paso 9: Configurar el puerto de envío de carga de EDI](../core/step-9-configure-the-edi-payload-send-port.md)  
+-   [Paso 9: Configurar el puerto de envío de carga EDI](../core/step-9-configure-the-edi-payload-send-port.md)  
   
--   [Paso 10: Configurar el acuerdo de socio X12 y comerciales de AS2](../core/step-10-configure-the-x12-and-as2-trading-partner-agreement.md)  
+-   [Paso 10: Configurar el acuerdo entre socios comerciales X12 y AS2](../core/step-10-configure-the-x12-and-as2-trading-partner-agreement.md)  
   
 -   [Paso 11: Probar la solución AS2](../core/step-11-test-the-as2-solution.md)  
   

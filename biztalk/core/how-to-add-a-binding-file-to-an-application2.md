@@ -1,23 +1,23 @@
 ---
-title: "Agregar un archivo de enlace a una aplicación | Documentos de Microsoft"
-description: "Agregar un archivo de enlace mediante administración de BizTalk Server o utilizar el símbolo del sistema en BizTalk Server"
-ms.custom: 
+title: Agregar un archivo de enlace a una aplicación | Documentos de Microsoft
+description: Agregar un archivo de enlace mediante administración de BizTalk Server o utilizar el símbolo del sistema en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1543ee5f-9ae4-4683-b6fe-ee84028c381d
-caps.latest.revision: 
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 2f6d2a999be4a12860616bc92f3086b37dbd265f
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="add-a-binding-file-to-an-application"></a>Agregar un archivo de enlace a una aplicación
 
@@ -76,21 +76,21 @@ Inicie sesión con una cuenta que sea miembro del grupo Administradores de BizTa
   
 2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **BTSTask AddResource** [**/ApplicationName:"***value***"**] **/Type:System.BizTalk:BizTalkBinding** [**/Overwrite**] **/Source:***value***/Property:TargetEnvironment="***value***"** [**/Server:***value*] [**/Database:***value*]  
+     **BTSTask AddResource** [**/ApplicationName: "***valor***"**] **/Type:System.BizTalk:BizTalkBinding** [**/Overwrite**] **/Source:***valor***/Property:TargetEnvironment = "***valor***"** [**/Server: ***valor*] [**/Database: ***valor*]  
   
      Ejemplo:  
   
-     **BTSTask AddResource /ApplicationName:"My Application" /Type:System.BizTalk:BizTalkBinding  /Source:"C:\Binding Files\MyBinding.xml" /Property:TargetEnvironment="Production" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+     **/ ApplicationName BTSTask AddResource: "Mi aplicación" /Type:System.BizTalk:BizTalkBinding /Source: /Property:TargetEnvironment "C:\Binding Files\MyBinding.xml" = "Producción" /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
     |Parámetro|Value|  
     |---------------|-----------|  
-    |**/ApplicationName**|Nombre de la aplicación de BizTalk a la que se agrega el archivo de enlace. Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles (").|  
-    |**/Type**|**BizTalk: biztalkbinding** (este valor no distingue entre mayúsculas y minúsculas).|  
-    |**/Overwrite**|Opción para actualizar un archivo de enlace existente. Si no especificado y enlace el archivo ya existe en la aplicación que tiene el mismo nombre de archivo que el archivo que se agrega, se produce un error en la operación AddResource.|  
+    |**/ ApplicationName**|Nombre de la aplicación de BizTalk a la que se agrega el archivo de enlace. Si no se especifica el nombre de aplicación, se utiliza la aplicación predeterminada de BizTalk. Si el nombre incluye espacios, debe encerrarlo entre comillas dobles (").|  
+    |**/ Tipo**|**BizTalk: biztalkbinding** (este valor no distingue entre mayúsculas y minúsculas).|  
+    |**/ Sobrescribir**|Opción para actualizar un archivo de enlace existente. Si no especificado y enlace el archivo ya existe en la aplicación que tiene el mismo nombre de archivo que el archivo que se agrega, se produce un error en la operación AddResource.|  
     |**Código fuente**|Ruta completa del archivo de enlace, incluido el nombre de archivo. Si la ruta incluye espacios, la debe encerrar entre comillas dobles (").|  
-    |**/Property:TargetEnvironment=**|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de \<predeterminado\> se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
-    |**/Server**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
-    |**/Database**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
+    |**/Property:TargetEnvironment =**|Cadena que especifica el entorno de implementación de destino. Puede utilizar cualquier cadena, por ejemplo Producción. Ejemplo: **/Property:TargetEnvironment = "Producción"**<br /><br /> Si no se especifica, un valor de \<predeterminado\> se aplica automáticamente. El valor distingue mayúsculas de minúsculas. Si el valor incluye espacios, lo debe encerrar entre comillas dobles ("). La longitud máxima del valor del entorno es 128 caracteres.|  
+    |**/ Servidor**|Nombre del servidor SQL Server que aloja la base de datos de administración de BizTalk en el formato Nombredelservidor\Nombredeinstancia,Puerto.<br /><br /> Sólo se necesita el nombre de instancia cuando el nombre de instancia es diferente del nombre de servidor. Sólo se necesita el puerto cuando el servidor SQL Server utiliza un nombre de puerto diferente al predeterminado (1433)<br /><br /> Ejemplos:<br /><br /> Servidor = MyServer<br /><br /> Servidor = MyServer\MySQLServer,1533<br /><br /> Si no se proporciona, se utiliza el nombre de la instancia de SQL Server que se ejecuta en el equipo local.|  
+    |**/ Base de datos**|Nombre de la base de datos de administración de BizTalk. Si no se especifica, se utiliza la base de datos de administración de BizTalk que se ejecuta en la instancia local de SQL Server.|  
   
 ## <a name="see-also"></a>Vea también  
  [Administrar ensamblados. NET, certificados y otros recursos](../core/managing-net-assemblies-certificates-and-other-resources.md)   

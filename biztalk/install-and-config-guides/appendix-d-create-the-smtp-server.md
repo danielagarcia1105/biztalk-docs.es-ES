@@ -1,22 +1,22 @@
 ---
-title: "Apéndice D: crear el servidor SMTP | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice D: crear el servidor SMTP | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7441ba9-a498-42ec-a04d-7f2731407373
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9f4d4acc35f5cb38be5f783ee7c4017c8ada83e2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="appendix-d-create-the-smtp-server"></a>Apéndice D: Crear el servidor SMTP
 Cree el servidor SMTP usado por Correo electrónico de base de datos de SQL Server.  
@@ -151,7 +151,7 @@ Estos pasos se aplican a:
   
   
 ## <a name="test-the-smtp-server"></a>Probar el servidor SMTP  
- Para probar la configuración del servidor SMTP, se puede usar Telnet. En los pasos siguientes, se envía un mensaje mediante el servidor SMTP configurado a una dirección de correo electrónico. En [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) se proporcionan descripciones de los comandos de Telnet.  
+ Para probar la configuración del servidor SMTP, se puede usar Telnet. En los pasos siguientes, se envía un mensaje mediante el servidor SMTP configurado a una dirección de correo electrónico. [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) se proporcionan descripciones de los comandos de telnet.  
   
 1.  Abra una ventana de comandos como administrador.
   

@@ -1,11 +1,11 @@
 ---
 title: Mediante el seguimiento del adaptador de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Adapter Trace Utility, installing
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - Adapter Trace Utility, running
 - enabling, Adapter Trace Utility
 ms.assetid: ddc6b2c7-9dee-43c1-950b-8fd580bfcb26
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d1e14234363ace4b953fa4766a97502753572e6f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="using-biztalk-adapter-tracing"></a>Usar el seguimiento del adaptador BizTalk
 Este tema describe cómo instalar la herramienta de registro de seguimiento y cómo habilitar el seguimiento del adaptador de BizTalk.  

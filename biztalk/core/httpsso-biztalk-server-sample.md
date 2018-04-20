@@ -1,11 +1,11 @@
 ---
 title: HTTPSSO (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - HTTP adapters, SSO
 - examples, SSO
 ms.assetid: 322360df-81d2-4a73-9512-bda9382351a2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 41956d9e10cba87e0e1a1f44d49dd8ec8b6039bc
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="httpsso-biztalk-server-sample"></a>HTTPSSO (ejemplo de BizTalk Server)
 El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único empresarial (SSO) con el adaptador de HTTP de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -128,7 +128,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 5.  En la página de configuración de SSO, acepte la mayor parte de la configuración predeterminada para las asignaciones de usuario, puede obtener acceso mediante la **Agregar asignación** botón. Proporciona valores para las siguientes dos configuraciones basándose en la cuenta local de Windows agregada durante la creación e inicialización de este ejemplo.  
   
-    |Configuración|Valor|  
+    |Configuración|Value|  
     |-------------|-----------|  
     |Nombre de usuario externo|Establecido como el nombre de la cuenta de usuario de Windows local agregado.|  
     |Contraseña de usuario externa|Establecida como la contraseña de la cuenta de usuario de Windows local agregada.|  
@@ -142,7 +142,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 8.  Revise los mensajes de estado correspondientes a la configuración de IIS, SSO y BizTalk que se está realizando. Puede encontrar el código que se ejecuta durante esta fase en la **IisConfigurator**, **SsoConfigurator**, y **BtsConfigurator** clases definidas en el archivo SsoSample.cs. Una vez finalizada la configuración, haga clic en **siguiente**.  
   
-9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>), y, a continuación, haga clic en **finalizar**.  
+9. En la página final de la aplicación del asistente, acepte la configuración predeterminada de **Iniciar explorador en** (la casilla está activada y un cuadro de texto con la dirección URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll? <message/>) y, a continuación, haga clic en **finalizar**.  
   
      Se abrirá una instancia de Internet Explorer, y pronto aparecerán los datos del empleado de ejemplo que ha agregado a la tabla Empelado de la base de datos Northwinds de SQL.  
   
@@ -171,7 +171,7 @@ El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único
   
 -   En Internet Explorer, desplácese directamente a la siguiente URL:  
   
-     http://localhost/SsoSampleBizTalkHttpReceive/BTSHTTPReceive.dll?<message/>  
+     http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>  
   
 -   Ejecute de nuevo la aplicación del asistente, pero borre todas las casillas de verificación de configuración de la primera página.  
   

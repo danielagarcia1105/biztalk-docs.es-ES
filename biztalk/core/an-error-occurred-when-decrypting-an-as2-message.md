@@ -1,22 +1,22 @@
 ---
 title: Se produjo un error al descifrar un mensaje AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bfb1d2a-c79d-4541-8a6d-bab0986f456b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 183933ae48468569cdd89f1d051f4bf961c71e05
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="an-error-occurred-when-decrypting-an-as2-message"></a>Error al descifrar un mensaje AS2
 ## <a name="details"></a>Detalles  

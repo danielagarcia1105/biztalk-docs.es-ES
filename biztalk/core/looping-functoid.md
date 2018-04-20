@@ -1,22 +1,22 @@
 ---
 title: Functoid de bucle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19886ccb-4642-48a4-b93e-563640ea828b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5ce2b66fd796708a0e8b24ee05e3a0b043af6808
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="looping-functoid"></a>Bucle (functoid)
 
@@ -56,7 +56,7 @@ El **bucle** functoid combina múltiples registros o campos del esquema de orige
 </ns0:MasterAddresses>  
 ```  
   
- El **FoodSurvey** y **FlowerSurvey** han combinado las direcciones de mensaje. El mensaje combinado no indica el origen de cada dirección. Si desea realizar un seguimiento del origen, agregue un **origen** atribuir a la **dirección** registros de la **MasterAddress** esquema y asignar un valor constante. Para establecer este valor, conecte el **FoodSurvey** campo a la nueva **origen** campo. En la línea de conexión, modifique la **propiedades de vínculo de** &#124; **Compilador** &#124; **Vínculos de origen** propiedad a "Copiar nombre". Repita este proceso para el **FlowerSurvey** campo. Volver a procesar el mensaje de entrada anterior produce el resultado siguiente:  
+ El **FoodSurvey** y **FlowerSurvey** han combinado las direcciones de mensaje. El mensaje combinado no indica el origen de cada dirección. Si desea realizar un seguimiento del origen, agregue un **origen** atribuir a la **dirección** registros de la **MasterAddress** esquema y asignar un valor constante. Para establecer este valor, conecte el **FoodSurvey** campo a la nueva **origen** campo. En la línea de conexión, modifique la **propiedades de vínculo de** &#124; **compilador** &#124; **vínculos de origen** propiedad a "Copiar nombre". Repita este proceso para el **FlowerSurvey** campo. Volver a procesar el mensaje de entrada anterior produce el resultado siguiente:  
   
 ```  
 <ns0:MasterAddresses xmlns:ns0="http://LoopingFunctoid.MasterAddresses">  
@@ -93,11 +93,11 @@ El **bucle** functoid combina múltiples registros o campos del esquema de orige
   
 ## <a name="next-steps"></a>Pasos siguientes
   
--   [Bucle condicional](../core/conditional-looping.md)  
+-   [Bucles condicionales](../core/conditional-looping.md)  
   
--   [Esquema sin formato a catálogo](../core/flat-schema-to-catalog.md)  
+-   [De esquema sin formato a catálogo](../core/flat-schema-to-catalog.md)  
   
--   [Rutas de bucle](../core/loop-paths.md)  
+-   [Rutas de acceso de bucles](../core/loop-paths.md)  
   
 ## <a name="see-also"></a>Vea también  
- **Referencia de Functoid de bucle de tabla**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+ **Referencia de Functoid de bucle de tabla** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

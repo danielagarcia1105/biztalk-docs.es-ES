@@ -1,22 +1,22 @@
 ---
-title: "Cómo configurar la jerarquía de nodos que coincidan con | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la jerarquía de nodos que coincidan con | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5302e194-cbc7-4d26-b25b-eb4e38abfe23
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d29a794db6f34d7e8251c32bbf428b3a336601fe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="how-to-configure-node-hierarchy-matching"></a>Cómo configurar coincidencia de jerarquía de nodos
 Cuando se crea un vínculo en una asignación, el Asignador de BizTalk crea automáticamente vínculos de compilador para implementar el vínculo diseñado. El **vínculos de destino** propiedad de un vínculo controla cómo el asignador de BizTalk dibuja los vínculos de compilador. En este tema se proporciona información acerca de cómo establecer los vínculos de destino.  

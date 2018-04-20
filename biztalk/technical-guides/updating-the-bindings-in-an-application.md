@@ -1,22 +1,22 @@
 ---
-title: "Actualizar los enlaces de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar los enlaces de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe4ee4d8-67bf-4137-94e2-8274107c8ed6
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 2d4d30296a2bb81b3685793884010f02eb950828
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="updating-the-bindings-in-an-application"></a>Actualizar los enlaces de una aplicación
 Al actualizar un ensamblado en una aplicación, a menudo se sobrescriben sus enlaces o bien no se puede enlazar el ensamblado, de modo que es necesario volver a configurar los enlaces de forma manual. Para evitar esto, puede usar un archivo de enlace para actualizar la misma versión del ensamblado o actualizar un ensamblado con una versión más reciente.  

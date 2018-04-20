@@ -1,22 +1,22 @@
 ---
 title: Optimizar los grupos de archivos de base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7dbed4d-95d6-4a41-a69e-737a6f2f5a82
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6df4f1213ed35c06b14ae127cf0593abfdd8ff35
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a>Optimizar los grupos de archivos para las bases de datos
 Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuello de botella en un entorno de BizTalk Server de producción. BizTalk Server es una aplicación de uso intensivo de la parte de la base de datos y a su vez, la base de datos de SQL Server que utiliza BizTalk Server es intensivo de E/S de archivo muy.  
@@ -38,7 +38,7 @@ Archivo de entrada/salida contención (E/S) suele ser un factor limitador o cuel
   
  Lo óptimo el uso de los archivos y resolver los cuellos de botella de E/S de archivos de forma efectiva y mejorar el rendimiento general en soluciones de BizTalk Server haya demostrado característica de grupos de archivos de SQL Server. Esta optimización solo debe realizarse por un administrador experimentado de base de datos de SQL Server y solo después todas las bases de datos de BizTalk Server se han realizado copias correctamente una. Esta optimización debe realizarse en todos los equipos de SQL Server en el entorno de BizTalk Server.  
   
- Archivos y grupos de archivos de SQL Server se pueden utilizar para mejorar el rendimiento de la base de datos porque esta funcionalidad permite que se crea una base de datos en varios discos, varios controladores de disco o RAID de sistemas (matriz redundante de discos independientes). Por ejemplo, si su equipo tiene cuatro discos, puede crear una base de datos que contenga tres archivos de datos y un archivo de registro, y mantener un archivo en cada disco. Tal y como se tiene acceso a datos, cuatro cabezales de lectura/escritura al mismo tiempo pueden tener acceso a los datos en paralelo. Esto acelera significativamente las operaciones de base de datos. Para obtener más información acerca de cómo implementar soluciones de hardware para discos de SQL Server, consulte "Rendimiento de base de datos" en los libros en pantalla de SQL Server en [http://go.microsoft.com/fwlink/?LinkID=71419](http://go.microsoft.com/fwlink/?LinkID=71419).  
+ Archivos y grupos de archivos de SQL Server se pueden utilizar para mejorar el rendimiento de la base de datos porque esta funcionalidad permite que se crea una base de datos en varios discos, varios controladores de disco o RAID de sistemas (matriz redundante de discos independientes). Por ejemplo, si su equipo tiene cuatro discos, puede crear una base de datos que contenga tres archivos de datos y un archivo de registro, y mantener un archivo en cada disco. Tal y como se tiene acceso a datos, cuatro cabezales de lectura/escritura al mismo tiempo pueden tener acceso a los datos en paralelo. Esto acelera significativamente las operaciones de base de datos. Para obtener más información acerca de cómo implementar soluciones de hardware para discos de SQL Server, consulte "Rendimiento de base de datos" en los libros de SQL Server en línea en [ http://go.microsoft.com/fwlink/?LinkID=71419 ](http://go.microsoft.com/fwlink/?LinkID=71419).  
   
  Además, los archivos y grupos de archivos Habilitar selección de ubicación de datos, porque se pueden crear tablas en grupos de archivos específicos. Esto mejora el rendimiento, dado que todas las E/S de archivo para una tabla específica pueden dirigirse a un disco concreto. Por ejemplo, una tabla de usa muy elevado puede colocarse en un archivo en un grupo de archivos ubicado en un disco, y las otras tablas menos utilizadas de la base de datos se pueden ubicar en distintos archivos de otro grupo de archivos, ubicado en un segundo disco.  
   

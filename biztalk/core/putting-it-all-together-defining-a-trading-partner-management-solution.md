@@ -1,22 +1,22 @@
 ---
-title: "Perspectiva general: definir una solución de administración de socios comerciales | Documentos de Microsoft"
-ms.custom: 
+title: 'Perspectiva general: definir una solución de administración de socios comerciales | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4219312a-c4b5-45f3-b77b-d5cc4f1a1ca4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ea32fba8e9e57d7a0549a680b06e08d5bf8e087f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="putting-it-all-together-defining-a-trading-partner-management-solution"></a>Perspectiva general: definir una solución de administración de socios comerciales
 Ahora que hemos comprendido los diferentes tipos de componentes en la generación de una solución TPM, vamos a describir el flujo de una solución TPM típica y cómo funcionan juntos los diferentes componentes fundamentales. En esta sección también se enumeran algunas de las prácticas recomendadas para modelar una solución TPM.  

@@ -1,22 +1,22 @@
 ---
-title: "Instancia con promoción de propiedades de procesamiento de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Instancia con promoción de propiedades de procesamiento de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 753571b8-4609-4ac4-a974-8bd6dfecb077
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 288657d43443582c5a05df5dd6e67059eca572e9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="instance-message-processing-using-property-promotion"></a>Procesar mensajes de instancia con promoción de propiedades
 Promocionar propiedades mediante la **campo de propiedad** método requiere la creación de un esquema de propiedad. Para obtener más información acerca de cómo crear un esquema de propiedades, vea [cómo crear esquemas de propiedad](../core/how-to-create-property-schemas.md). Como con la promoción de propiedades, use el **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la **esquema** nodo esquemas de mensaje.  
@@ -36,7 +36,7 @@ Promocionar propiedades mediante la **campo de propiedad** método requiere la c
   
  El **ruta del nodo** columna en el **diccionario de campos de propiedades** tabla muestra la expresión XPath en el nodo de esquema correspondiente a la propiedad promocionada. Puede editar este valor directamente mediante el **Editar XPath de instancia** cuadro de diálogo. Puede abrir este cuadro de diálogo, haga clic en el botón de puntos suspensivos (**...** ) botón que aparece en el extremo derecho de la celda correspondiente cuando se selecciona esa celda. Preste atención cuando edite valores XPath directamente, ya que los XPath que no puede resolver el Editor de BizTalk impedirán realizar correctamente operaciones de validación.  
   
- El Editor de BizTalk también proporciona un comando sofisticado para promocionar las propiedades mediante el **campo de propiedad** mecanismo. Este comando se denomina promoción rápida y está disponible con la **promover &#124; Promoción rápida** comando en los menús BizTalk y contextuales. Este comando promociona seleccionado **campo** nodo (o **registro** nodo) a un campo de propiedad que se crea automáticamente en el esquema de propiedad especificado por el **nombre de esquema de propiedades predeterminadas**  propiedad en el **páginas de propiedades** cuadro de diálogo para el esquema contenedor. Para obtener instrucciones paso a paso acerca de la promoción de propiedades para campos de propiedades mediante el comando promoción rápida, consulte [cómo copiar datos en el contexto del mensaje como campos de propiedades](../core/how-to-copy-data-to-the-message-context-as-property-fields.md).  
+ El Editor de BizTalk también proporciona un comando sofisticado para promocionar las propiedades mediante el **campo de propiedad** mecanismo. Este comando se denomina promoción rápida y está disponible con la **promover &#124; promoción rápida** comando en los menús BizTalk y contextuales. Este comando promociona seleccionado **campo** nodo (o **registro** nodo) a un campo de propiedad que se crea automáticamente en el esquema de propiedad especificado por el **nombre de esquema de propiedades predeterminadas**  propiedad en el **páginas de propiedades** cuadro de diálogo para el esquema contenedor. Para obtener instrucciones paso a paso acerca de la promoción de propiedades para campos de propiedades mediante el comando promoción rápida, consulte [cómo copiar datos en el contexto del mensaje como campos de propiedades](../core/how-to-copy-data-to-the-message-context-as-property-fields.md).  
   
  Cuando promocione una propiedad mediante el mecanismo de campos de propiedades, se agregarán dos fragmentos del lenguaje de definición de esquemas XML (XSD) a la representación XSD del esquema de mensaje. El primer fragmento XSD es un fragmento de anotación asociado con el **esquema** elemento que identifica el esquema de propiedad correspondiente, como en el ejemplo siguiente:  
   

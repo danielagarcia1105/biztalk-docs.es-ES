@@ -1,22 +1,22 @@
 ---
-title: "Listas de comprobación de preparación operativa | Documentos de Microsoft"
-ms.custom: 
+title: Listas de comprobación de preparación operativa | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c308a876-9872-43b3-a1fb-76e81396612f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f9e9297e5539fd95f316ebbf6239a5d017ec4ecf
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="operational-readiness-checklists"></a>Listas de comprobación de preparación operativa
 Las listas de comprobación de preparación operativa contienen recomendaciones que debe tener en cuenta y las tareas que se deben realizar antes de implementar una solución de BizTalk en producción. Estas listas de comprobación incluyen información para configurar el software de requisito previo, aumentar la disponibilidad, supervisión de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno y procedimientos para las pruebas.  
@@ -59,22 +59,22 @@ Las listas de comprobación de preparación operativa contienen recomendaciones 
   
 ## <a name="next-steps"></a>Pasos siguientes
   
--   [Lista de comprobación: Introducción a BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
+-   [Lista de comprobación: introducción a BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
   
--   [Lista de comprobación: Configurar Windows Server](../technical-guides/checklist-configuring-windows-server.md)  
+-   [Lista de comprobación: configuración de Windows Server](../technical-guides/checklist-configuring-windows-server.md)  
   
--   [Lista de comprobación: Configurar Internet Information Services](../technical-guides/checklist-configuring-internet-information-services.md)  
+-   [Lista de comprobación: configuración de Internet Information Services](../technical-guides/checklist-configuring-internet-information-services.md)  
   
--   [Lista de comprobación: Configurar SQL Server](~/technical-guides/checklist-configuring-sql-server.md)  
+-   [Lista de comprobación: configuración de SQL Server](~/technical-guides/checklist-configuring-sql-server.md)  
   
--   [Lista de comprobación: Configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)  
+-   [Lista de comprobación: configuración de BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)  
   
--   [Lista de comprobación: Proporcionar una alta disponibilidad con tolerancia a errores o equilibrio de carga](../technical-guides/checklist-providing-high-availability-with-fault-tolerance-or-load-balancing.md)  
+-   [Lista de comprobación: proporcionar una alta disponibilidad con la tolerancia a errores o el equilibrio de carga](../technical-guides/checklist-providing-high-availability-with-fault-tolerance-or-load-balancing.md)  
   
--   [Lista de comprobación: Aumentar la disponibilidad con recuperación ante desastres](../technical-guides/checklist-increasing-availability-with-disaster-recovery.md)  
+-   [Lista de comprobación: aumento de la disponibilidad con la recuperación ante desastres](../technical-guides/checklist-increasing-availability-with-disaster-recovery.md)  
   
--   [Lista de comprobación: Supervisión preparación operativa](../technical-guides/checklist-monitoring-operational-readiness.md)  
+-   [Lista de comprobación: supervisión de la preparación operativa](../technical-guides/checklist-monitoring-operational-readiness.md)  
   
--   [Lista de comprobación: Mantenimiento y solución de problemas de las bases de datos de servidor BizTalk Server](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md)  
+-   [Lista de comprobación: mantenimiento y solución de problemas de las bases de datos de BizTalk Server](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md)  
   
--   [Lista de comprobación: Probar la preparación operativa](../technical-guides/checklist-testing-operational-readiness.md)
+-   [Lista de comprobación: probar la preparación operativa](../technical-guides/checklist-testing-operational-readiness.md)

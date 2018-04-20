@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - filter expressions, Receive shape [Orchestration Designer]
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - Receive shape [Orchestration Designer]
 - Receive shape [Orchestration Designer], filter expressions
 ms.assetid: 15aadee4-fa05-4edd-a191-e4d191c1ea22
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0e74220ab71c0efcc09e1736511e8388de71f387
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="how-to-configure-the-receive-shape"></a>Cómo configurar la forma Recepción
 ![](../core/media/ebiz-orch-receive.gif "ebiz_orch_receive")  
@@ -61,7 +61,7 @@ Forma Recepción
   
 3.  En la ventana Propiedades, establezca la propiedad Activar en True.  
   
-    1.  En la ventana Propiedades, haga clic en el **puntos suspensivos** (**... **) botón para la propiedad de expresión de filtro crear un filtro para restringir los mensajes que este **recepción** forma acepta.  
+    1.  En la ventana Propiedades, haga clic en el **puntos suspensivos** (**...** ) botón para la propiedad de expresión de filtro crear un filtro para restringir los mensajes que este **recepción** forma acepta.  
   
          : "O":  
   
@@ -81,9 +81,9 @@ Forma Recepción
 ## <a name="filter-expression-grid-control"></a>Control de cuadrícula de expresión de filtro  
  Una expresión de filtro se genera usando este control de cuadrícula para definir los predicados que componen la expresión. Puede agregar, editar y eliminar predicados de las celdas de la cuadrícula. Este control de cuadrícula tiene cuatro columnas: propiedad, operador, valor y agrupación.  
   
--   **Propiedad.** Puede escribir una referencia a una propiedad o seleccionar una en la lista desplegable de la celda. La lista contiene las propiedades del mensaje de entrada.  
+-   **propiedad.** Puede escribir una referencia a una propiedad o seleccionar una en la lista desplegable de la celda. La lista contiene las propiedades del mensaje de entrada.  
   
--   **Operador.** Puede escribir en esta celda o seleccionar un operador en la lista desplegable. Los valores que puede seleccionar son:  
+-   **operador.** Puede escribir en esta celda o seleccionar un operador en la lista desplegable. Los valores que puede seleccionar son:  
   
     |Operando|Significado|  
     |-------------|-------------|  
@@ -119,9 +119,9 @@ Forma Recepción
 ## <a name="hint-label"></a>Etiqueta de sugerencia  
  Este campo proporciona directrices para el usuario. El texto de la etiqueta cambia según cuál sea la columna que contiene la celda activa. El texto muestra el nombre de la columna, seguido por el texto con las directrices, como se muestra a continuación:  
   
--   **Propiedad.** Please select a property on the incoming message from the list (Seleccione una propiedad del mensaje de entrada en la lista).  
+-   **propiedad.** Please select a property on the incoming message from the list (Seleccione una propiedad del mensaje de entrada en la lista).  
   
--   **Operador.** Select an operator to compare the Property with the Value (Seleccione un operador para comparar la propiedad con el valor).  
+-   **operador.** Select an operator to compare the Property with the Value (Seleccione un operador para comparar la propiedad con el valor).  
   
 -   **Valor.** Select a message property from the list, or type in a literal value (Seleccione una propiedad de mensaje de la lista o escriba un valor literal).  
   

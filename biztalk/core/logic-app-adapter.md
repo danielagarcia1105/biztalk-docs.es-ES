@@ -1,23 +1,23 @@
 ---
-title: "Adaptador de aplicación lógica de uso de BizTalk Server | Documentos de Microsoft"
-description: "Instalar y configurar el adaptador de aplicaciones de la lógica para crear un puerto de recepción, la ubicación de recepción y el puerto de envío de BizTalk Server"
-ms.custom: 
+title: Adaptador de aplicación lógica de uso de BizTalk Server | Documentos de Microsoft
+description: Instalar y configurar el adaptador de aplicaciones de la lógica para crear un puerto de recepción, la ubicación de recepción y el puerto de envío de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72f2a5ac-a1f6-4bdb-8c29-8267ede75b17
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: faa43c187df7a8eb9fccd2f02f23f16e86b97ce0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="logic-app-adapter"></a>Adaptador de aplicación lógica
 
@@ -301,7 +301,7 @@ Puede crear un puerto de recepción y ubicación de recepción mediante el adapt
 
 3. En el puerto de envío que creó, establezca el **filtro** para:
 
-    | Propiedad | Operador | Valor |
+    | Propiedad | Operador | Value |
     | --- | --- | --- |
     | BTS.ReceivePortName |  == | *FileSendPort* |
 

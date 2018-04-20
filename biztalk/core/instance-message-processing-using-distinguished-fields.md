@@ -1,25 +1,25 @@
 ---
 title: Procesamiento de mensajes de instancia con campos distintivos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b8f3f77-5385-4294-b441-bcb28bdc51b4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f4dca22ff1b09a0d1cfb261a9d5726da8b1b17b1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="instance-message-processing-using-distinguished-fields"></a>Procesar mensajes de instancia con campos distintivos
-Promocionar propiedades mediante la **campo distintivo** mecanismo no requiere la creación de un esquema de propiedad. Como con la promoción de propiedades, use el **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la **esquema** nodo esquemas de mensaje o mediante el **promover &#124; Mostrar promociones** comando el **BizTalk** o menús contextuales.  
+Promocionar propiedades mediante la **campo distintivo** mecanismo no requiere la creación de un esquema de propiedad. Como con la promoción de propiedades, use el **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la **esquema** nodo esquemas de mensaje o mediante el **promover &#124; mostrar promociones** comando el **BizTalk** o menús contextuales.  
   
  En el **promocionar propiedades** diálogo cuadro, asegúrese del **campos distintivos** ficha está seleccionada en el lado derecho del cuadro de diálogo. A continuación, expanda los nodos del árbol de esquema en el lado izquierdo del cuadro de diálogo para buscar y seleccionar la **elemento de campo** nodo o **atributo de campo** nodo que desea promover como campo distintivo y, a continuación, Haga clic en **agregar**. Para obtener instrucciones detalladas acerca de la promoción de propiedades para **campos distintivos** mediante la **promocionar propiedades** cuadro de diálogo, vea [copiar datos en el contexto del mensaje como completos Campos](../core/how-to-copy-data-to-the-message-context-as-distinguished-fields.md).  
   

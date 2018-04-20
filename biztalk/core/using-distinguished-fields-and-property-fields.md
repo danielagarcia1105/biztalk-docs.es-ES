@@ -1,25 +1,25 @@
 ---
 title: Usar campos distintivos y campos de propiedades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, distinquished fields
 - messages, properties
 ms.assetid: 264ee15e-be9a-4ba2-9c61-a1570b20378e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 18b5d5ee3b29c068b3a37d248b9fb20f07bdfbb2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="using-distinguished-fields-and-property-fields"></a>Usar campos distintivos y campos de propiedades
 los campos distintivos son datos de mensaje de especial interés que se usan principalmente para tomar decisiones o manipular datos de la orquestación.  
@@ -67,4 +67,4 @@ MyMessage2(*)=MyMessage1(*);
  [Promoción de propiedades](../core/promoting-properties.md)   
  [Uso de filtros con la forma de mensaje de recepción](../core/using-filters-with-the-receive-message-shape.md)   
  [Usar mensajes en orquestaciones](../core/using-messages-in-orchestrations.md)   
- [Propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)
+ [Acerca de las propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)

@@ -1,26 +1,26 @@
 ---
 title: Ejecuta SSO Projects1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO projects
 - running SSO projects
 - samples, SSO projects
 ms.assetid: f8da1874-7495-47cd-a3a3-881f722c80a2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: beeeef2a18c32ed0779e5631ac316240e709702e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="running-sso-projects"></a>Ejecución de proyectos SSO
 Puede ejecutar el ejemplo desde Internet Explorer.  
@@ -39,7 +39,7 @@ Puede ejecutar el ejemplo desde Internet Explorer.
   
      Por ejemplo:  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method % 20xmlns: ns0 = "http://microsoft.com/exposed/object/object1" >< ns0:method_list_method >< ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/ el objeto">< ns1:comp_code >< / ns1:comp_code >< ns1:comp_name >< / ns1:comp_name >< / ns1:object_1 >< / ns0:method_list >< / ns0:method_list_method >  
+     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1" >< ns0:method_list_method >< ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object" >< ns1:comp_code >< / ns1:comp_code >< ns1:comp_name >< / ns1:comp_name >< / ns1:object_1 >< / ns0:method_ lista >< / ns0:method_list_method >  
   
      En este caso no es necesario proporcionar las credenciales.  
   

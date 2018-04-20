@@ -1,26 +1,26 @@
 ---
-title: "Análisis de modelo de amenazas | Documentos de Microsoft"
-ms.custom: 
+title: Análisis de modelo de amenazas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - TMA, about TMA
 - TMA
 - TMA, procedure steps
 ms.assetid: dfbf46aa-0a35-4925-8718-df8591efc279
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 06f5de73434d2c3a7bf67e659c6566b530b38aeb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="threat-model-analysis"></a>Análisis de modelo de amenazas
 El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar los riesgos de seguridad que pueden acaecer en un producto, aplicación, red o entorno, así como la forma en la que se aparecen los ataques. El objetivo consiste en determinar cuáles son las amenazas que requieren mitigación y los modos de hacerlo.  
@@ -93,7 +93,7 @@ El análisis de modelo de amenazas (TMA) es un análisis que ayuda a determinar 
     >  Puede agregar las categorías de riesgo, técnicas de mitigación y estado de mitigación al revisar las amenazas. No invierta demasiado tiempo en estas áreas durante la reunión sobre el modelo de amenazas.  
   
 ## <a name="step-3-review-threats"></a>Paso 3. Analizar las amenazas  
- Una vez identificadas las amenazas del entorno, debe valorar el riesgo de cada una de ellas y determinar cómo va a actuar ante ellas. Para ello puede convocar nuevas reuniones o utilizar el correo electrónico. Puede usar las siguientes categorías de efecto para calcular la exposición al riesgo: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **una**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Una vez identificadas las amenazas del entorno, debe valorar el riesgo de cada una de ellas y determinar cómo va a actuar ante ellas. Para ello puede convocar nuevas reuniones o utilizar el correo electrónico. Puede usar las siguientes categorías de efecto para calcular la exposición al riesgo: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
   
  Cuando disponga de una lista de las amenazas que ponen en peligro su entorno de destino en función del riesgo, debe determinar cómo actuará ante cada una. Su respuesta puede ser no hacer nada (aunque ésta no suele ser una buena opción), advertir a los usuarios del posible problema o eliminar el problema o solucionarlo.  
   

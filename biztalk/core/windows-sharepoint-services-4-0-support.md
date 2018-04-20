@@ -1,22 +1,22 @@
 ---
 title: Windows SharePoint Services 4.0 compatibilidad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 84be7aa0-2ff2-4e40-9c39-5cb89549c636
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ff27ebd5804f3603aabf3bae24e469c2028234f2
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="windows-sharepoint-services-40-support"></a>Compatibilidad con Windows SharePoint Services 4.0
 El adaptador de Windows SharePoint Services para BizTalk Server proporciona paridad de características/funcionalidades con el adaptador de Windows SharePoint Services para [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]. El adaptador de Windows SharePoint Services para BizTalk Server también admite la siguiente funcionalidad disponible con Windows SharePoint Services 4.0:  
@@ -38,10 +38,10 @@ El adaptador de Windows SharePoint Services para BizTalk Server proporciona pari
   
  Para enviar un mensaje a un sitio de blog de Windows SharePoint Services 4.0, introduzca los siguientes valores en el adaptador de **propiedades de transporte** cuadro de diálogo al configurar un puerto de envío que usa el adaptador de Windows SharePoint Services:  
   
-|Propiedad|Valor|  
+|Propiedad|Value|  
 |--------------|-----------|  
 |Dirección URL de carpeta de destino|La URL de la carpeta de destino de la lista de envíos, relacionada con el sitio de SharePoint, por ejemplo, "Lists/Posts".|  
-|Dirección URL del sitio de SharePoint|Dirección URL del sitio de blog de Windows SharePoint Services 4.0, por ejemplo http://*\<servername\>*/sites/blog/donde  *\<servername\>*  es un marcador de posición para el nombre real del servidor Web.|  
+|Dirección URL del sitio de SharePoint|Dirección URL del sitio de blog de Windows SharePoint Services 4.0, por ejemplo http://*\<servername\>*/sites/blog/donde *\<servername\>* es un marcador de posición para el nombre real del servidor Web.|  
   
  A continuación, establezca los valores para la **categoría**, **publicada**, **título**, y **cuerpo** propiedades para el envío del blog mediante configuración correspondiente valores de WSS. ConfigPropertiesXml la propiedad de contexto del mensaje. Esto puede hacerse con una canalización personalizada o en una orquestación. Por ejemplo, la siguiente expresión de una orquestación debería definir los valores de la propiedad de contexto WSS.ConfigPropertiesXml del mensaje Message_Out.  
   
@@ -83,10 +83,10 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
 ### <a name="sending-to-a-windows-sharepoint-services-40-wiki-document-library"></a>Enviar a una biblioteca de documentos Wiki de Windows SharePoint Services 4.0  
  Al enviar mensajes a un sitio Wiki de Windows SharePoint Services 4.0, el contenido de la página Wiki se almacena en la propiedad de contexto del adaptador de Windows SharePoint Services denominada **WSS. ConfigPropertiesXml**. Para enviar un mensaje a un sitio Wiki de Windows SharePoint Services 4.0, introduzca los siguientes valores en el adaptador **propiedades de transporte** cuadro de diálogo al configurar un puerto de envío que usa el adaptador de Windows SharePoint Services:  
   
-|Propiedad|Valor|  
+|Propiedad|Value|  
 |--------------|-----------|  
 |Dirección URL de carpeta de destino|Dirección URL de la página de inicio del sitio Wiki, relativa al sitio de SharePoint, por ejemplo, "wikiSP".|  
-|Dirección URL del sitio de SharePoint|Dirección URL del sitio Wiki de Windows SharePoint Services 4.0, por ejemplo http://*\<servername\>*/sites/wiki/donde  *\<servername\>*  es un marcador de posición para el nombre real del servidor web.|  
+|Dirección URL del sitio de SharePoint|Dirección URL del sitio Wiki de Windows SharePoint Services 4.0, por ejemplo http://*\<servername\>*/sites/wiki/donde *\<servername\>* es un marcador de posición para el nombre real del servidor web.|  
   
  A continuación, establezca el valor de la **contenido Wiki** propiedad de la página Wiki estableciendo el valor correspondiente en el WSS. ConfigPropertiesXml la propiedad de contexto del mensaje. Esto puede hacerse con una canalización personalizada o en una orquestación. Por ejemplo, la siguiente expresión de una orquestación debería definir los valores de la propiedad de contexto WSS.ConfigPropertiesXml del mensaje Message_Out:  
   
@@ -108,7 +108,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
   
  Para recibir un mensaje desde una página de Wiki de Windows SharePoint Services 4.0, introduzca los valores siguientes en el adaptador **propiedades de transporte** cuadro de diálogo al configurar una ubicación de recepción que usa el adaptador de Windows SharePoint Services:  
   
-|Propiedad|Valor|  
+|Propiedad|Value|  
 |--------------|-----------|  
 |Dirección URL del sitio de SharePoint|Dirección URL de la página de inicio del sitio Wiki, relativa al sitio de SharePoint, por ejemplo, "wiki".|  
 |Dirección URL de la biblioteca de documentos de origen|Dirección URL de la página de inicio del sitio Wiki, relativa al sitio de SharePoint, por ejemplo, "wikiRL".|  

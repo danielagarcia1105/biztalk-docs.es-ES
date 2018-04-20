@@ -1,22 +1,22 @@
 ---
 title: Propiedades y esquema de propiedades de MIME-SMIME | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 26dd25b9-7eb8-4354-9929-dc1985dd1d77
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 882b25733a46b8b7b973c992d465132df4c47b75
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="mime-smime-property-schema-and-properties"></a>Propiedades y esquema de propiedades de MIME-SMIME
 
@@ -44,4 +44,4 @@ El **http://schemas.microsoft.com/BizTalk/2003/mime-properties** espacio de nomb
  [Cómo configurar el componente de canalización de codificador de MIME-SMIME](../core/how-to-configure-the-mime-smime-encoder-pipeline-component.md)   
  [Configurar componentes de canalización nativos](../core/configuring-native-pipeline-components.md)   
  [MIME (ejemplo de BizTalk Server)](../core/mime-biztalk-server-sample.md)   
- **Propiedades de contexto del mensaje**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+ **Propiedades de contexto de mensaje** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

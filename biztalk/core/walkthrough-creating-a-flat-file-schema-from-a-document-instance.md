@@ -1,29 +1,29 @@
 ---
 title: 'Tutorial: Crear un esquema de archivo sin formato desde una instancia de documento | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5e1453f-0380-4505-97a9-9d3526db0923
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9077e8c8b878b3e24319ef112eb391a3eaf4e0ef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="walkthrough-creating-a-flat-file-schema-from-a-document-instance"></a>Tutorial: Crear un esquema de archivo sin formato desde una instancia de documento
 Este tutorial muestra cómo crear un esquema de archivo sin formato a partir de una instancia de documento mediante el Asistente para esquemas de archivos sin formato de BizTalk tomando como base el pedido de muestra siguiente. Para obtener una introducción al Asistente para esquema de plano archivos BizTalk, consulte [cómo usar BizTalk esquema Asistente para archivos planos](../core/how-to-use-biztalk-flat-file-schema-wizard.md).  
   
  ![Ejemplo de pedido de compra](../core/media/flatfileschema-samplepurchaseorder.gif "FlatFileSchema_SamplePurchaseOrder")  
   
- Todas las líneas del pedido terminan con un avance de línea de retorno de carro (CRLF), marcado en verde. El pedido comienza con una etiqueta de pedido (PO) de color rojo, seguida de una fecha. Dos campos posicionales fijos de repetición contienen información de cliente y se muestran en púrpura. Después del campo de comentario, hay un campo de repetición a partir de una etiqueta de elementos que contiene varios registros separados por comas (,) y valores de datos separados mediante canalizaciones (&#124;), que se muestran en azul.  
+ Todas las líneas del pedido terminan con un avance de línea de retorno de carro (CRLF), marcado en verde. El pedido comienza con una etiqueta de pedido (PO) de color rojo, seguida de una fecha. Dos campos posicionales fijos de repetición contienen información de cliente y se muestran en púrpura. Después del campo de comentario, hay un campo de repetición a partir de una etiqueta de elementos que contiene varios registros separados por comas (,) y valores de datos separados por barras verticales (&#124;), que se muestran en azul.  
   
 ## <a name="prerequisites"></a>Requisitos previos  
  Antes de seguir este tutorial, asegúrese de que el software siguiente se encuentre instalado y configurado en el servidor:  
@@ -105,7 +105,7 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
     -   **Carácter de escape:** un carácter de escape es un carácter individual que suprime cualquier significado especial del carácter que lo sigue. Vea [caracteres de Escape](../core/escape-characters.md) para obtener más información. Déjelo en blanco para este tutorial.  
   
         > [!NOTE]
-        >  Cuando se usa  **\\** , **{,** y **}** para **delimitador secundario** o **carácter de Escape**, debe utilizarse la barra diagonal inversa. Por ejemplo,  **\\ \\,** y  **\\{**.  
+        >  Cuando se usa **\\**, **{,** y **}** para **delimitador secundario** o **carácter de Escape**, debe utilizarse la barra diagonal inversa. Por ejemplo,  **\\ \\,** y  **\\{**.  
   
     -   Comprobar **registro tiene un identificador de etiquetas** y escriba **pedido** en **etiqueta**. En un archivo de varios registros, **PO** se usará para identificar cada registro individual. Para continuar, haga clic en **Siguiente** .  
   
@@ -125,9 +125,9 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
     |Nombre de elemento|Tipo de elemento|Tipo de datos|  
     |------------------|------------------|---------------|  
-    |**cliente**|**Repitiendo registro**||  
+    |**Cliente**|**Repitiendo registro**||  
     ||**Pasar por alto**||  
-    |**elementos**|**Registro**||  
+    |**Elementos**|**Registro**||  
   
      ![Pantalla elementos secundarios](../core/media/flatfileschemawizard-childelements.gif "FlatFileSchemaWizard_ChildElements")  
   
@@ -164,12 +164,12 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
 5.  En el **elementos secundarios** página, especifique las propiedades de los elementos secundarios. Seleccione la primera fila y escriba **país** como el **nombre del elemento**. En las otras columnas, deje los valores predeterminados. Escriba los siguientes valores para las otras propiedades para el **nombre del elemento**:  
   
-    |Nombre de elemento|Valor|  
+    |Nombre de elemento|Value|  
     |------------------|-----------|  
-    |**customer_Child2**|**fullName**|  
+    |**customer_Child2**|**FullName**|  
     |**customer_Child3**|**Calle**|  
     |**customer_Child4**|**Ciudad**|  
-    |**customer_Child5**|**estado**|  
+    |**customer_Child5**|**state**|  
     |**customer_Child6**|**código postal**|  
   
      Para continuar, haga clic en **Siguiente** .  
@@ -202,9 +202,9 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
 6.  Seleccione **elemento** y, a continuación, haga clic en **siguiente** para continuar en la **vista esquema** página.  
   
-7.  En el **seleccionar datos del documento** , seleccione **ITEM872-AA &#124; Lawnmower &#124; 1 &#124; 148.95 &#124; Confirme que se trata de electric**. Para continuar, haga clic en **Siguiente** .  
+7.  En el **seleccionar datos del documento** , seleccione **ITEM872-AA&#124;Lawnmower&#124;1&#124;148.95&#124;confirmar es electric**. Para continuar, haga clic en **Siguiente** .  
   
-8.  En el **Seleccionar formato de registro** , seleccione la **por símbolo delimitador** opción porque el elemento individual se delimita mediante una canalización (&#124;).  
+8.  En el **Seleccionar formato de registro** , seleccione la **por símbolo delimitador** opción porque el elemento individual está delimitado por una barra vertical (&#124;).  
   
 9. En el **registro delimitado** página, escriba lo siguiente para definir el registro de elemento. Cuando haya terminado, haga clic en **siguiente**.  
   
@@ -214,12 +214,12 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
 10. En el **elementos secundarios** página, el asistente ha identificado cinco elementos secundarios. Seleccione la primera fila y escriba **productCode** para **nombre del elemento**. Deje los valores predeterminados en el resto de las columnas. Para el resto de la **propiedades de nombre del elemento**, escriba lo siguiente:  
   
-    |Nombre de elemento|Valor|  
+    |Nombre de elemento|Value|  
     |------------------|-----------|  
     |**item_Child2**|**Descripción**|  
-    |**item_Child3**|**cantidad**|  
+    |**item_Child3**|**Cantidad**|  
     |**item_Child4**|**unitPrice**|  
-    |**item_Child5**|**notas de la**|  
+    |**item_Child5**|**Notas de la**|  
   
      Para continuar, haga clic en **Siguiente** .  
   
@@ -250,4 +250,4 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
 ## <a name="see-also"></a>Vea también  
  [Cómo usar el Asistente para esquemas de archivo sin formato de BizTalk](../core/how-to-use-biztalk-flat-file-schema-wizard.md)   
- [Crear esquemas con el Asistente para esquemas de archivo sin formato de BizTalk](../core/creating-schemas-using-biztalk-flat-file-schema-wizard.md)
+ [Creación de esquemas con el Asistente para esquemas de archivo sin formato de BizTalk](../core/creating-schemas-using-biztalk-flat-file-schema-wizard.md)

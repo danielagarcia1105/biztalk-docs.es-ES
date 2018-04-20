@@ -1,33 +1,33 @@
 ---
-title: "MSIT: Caso de migración del mundo Real desde Gentran 5.1 a BizTalk 2010 | Documentos de Microsoft"
-ms.custom: 
+title: 'MSIT: Caso de migración del mundo Real desde Gentran 5.1 a BizTalk 2010 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31326e2f-fb86-4b2c-88cd-b9406695038b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1b742777c5e547078c2fa3fbf1a8d5bd8c466924
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="msit-real-world-migration-story-from-gentran-51-to-biztalk-2010"></a>MSIT: Caso de migración del mundo Real desde Gentran 5.1 a BizTalk 2010
 Artículo técnico de BizTalk  
   
- **MSIT: Caso de migración del mundo Real desde Gentran 5.1 a BizTalk 2010**  
+ **MSIT: Caso de migración real desde Gentran 5.1 a BizTalk 2010**  
   
- **Autor:** Dua Amit Kumar, Microsoft &#124;  Banupriya Thirumaran, Microsoft  
+ **Autor:** Amit Kumar Dua, Microsoft &#124; Banupriya Thirumaran, Microsoft  
   
- **Revisores:** Mandi Ohlinger, Microsoft &#124;  Nitin Mehrotra, Microsoft  
+ **Revisores:** Mandi Ohlinger, Microsoft &#124; Nitin Mehrotra, Microsoft  
   
- **Colaboradores:** Nikhil Tayal, Microsoft &#124;  Anil Chandra Lingam, Microsoft  
+ **Colaboradores:** Nikhil Tayal, Microsoft &#124; Anil Chandra Lingam, Microsoft  
   
  **Fecha de publicación:** octubre de 2014  
   

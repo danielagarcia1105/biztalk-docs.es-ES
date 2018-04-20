@@ -1,23 +1,23 @@
 ---
 title: Adaptador SFTP | Documentos de Microsoft
-description: "Crear o configurar una ubicación de recepción y el puerto de envío mediante el adaptador SFTP en BizTalk Server, incluyendo Preguntas frecuentes con el adaptador SFTP"
-ms.custom: 
+description: Crear o configurar una ubicación de recepción y el puerto de envío mediante el adaptador SFTP en BizTalk Server, incluyendo Preguntas frecuentes con el adaptador SFTP
+ms.custom: ''
 ms.date: 02/26/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f64c4c8-64a0-4e43-9660-b5c2d75d28aa
-caps.latest.revision: 
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0d28c3b453ab3e704ddbb06ed42b23dc641a6711
-ms.sourcegitcommit: 3bcf85356d43c3502e61fa801316dc12a4547406
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="sftp-adapter"></a>Adaptador SFTP
 BizTalk Server incluye un **SFTP** adaptador para enviar y recibir mensajes desde un servidor FTP seguro mediante el protocolo de transferencia de archivos SSH. Este tema incluyen los pasos para configurar un **SFTP** ubicación de recepción y configurar un puerto de envío SFTP para recibir y enviar mensajes desde un servidor FTP seguro. También incluye preguntas y respuestas más comunes.
@@ -178,7 +178,7 @@ Cuando termine, la configuración tiene un aspecto similar al siguiente:
 |¿Admite el adaptador SFTP el cifrado de 256 bits?|Sí, el adaptador SFTP admite el cifrado de 256 bits. Los algoritmos de cifrado admitidos son:<br /><br /> -El cifrado AES: SDCTR o CBC de 256 bits, 192 bits o 128 bits<br /><br /> -El cifrado 3DES (Triple DES): SDCTR o CBC de 168 bits|  
 |¿Qué versiones SSH admite el adaptador?|Sólo SSH2. No se puede establecer conexión con los servidores SFTP con la versión SSH1.|  
 |¿La máscara del archivo distingue mayúsculas de minúsculas?|No. *.txt y \*. TXT funciona igual. Instale la actualización acumulativa más reciente de BizTalk Server 2013. Versión de BizTalk Server 2013 RTM tenía máscaras de archivo que distinguen mayúsculas y minúsculas.|  
-|Exportar enlaces da un campo de contraseña en blanco. ¿Al intentar crear una ubicación de recepción al importar estos enlaces qué cambios se realizarán?|Editar el archivo de enlace editando el campo de contraseña. Además, en `<Password vt="1">MySecretPassword</Password>`, **vt = "1"** indica un valor null. Cámbielo a **vt = "8"**, lo que indica una cadena. Por ejemplo:<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> Para obtener más información, consulte [http://msdn.microsoft.com/library/system.runtime.interopservices.varenum (v=vs.100).aspx](http://msdn.microsoft.com/library/system.runtime.interopservices.varenum\(v=vs.100\).aspx)|  
+|Exportar enlaces da un campo de contraseña en blanco. ¿Al intentar crear una ubicación de recepción al importar estos enlaces qué cambios se realizarán?|Editar el archivo de enlace editando el campo de contraseña. Además, en `<Password vt="1">MySecretPassword</Password>`, **vt = "1"** indica un valor null. Cámbielo a **vt = "8"**, lo que indica una cadena. Por ejemplo:<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> Para obtener más información, vea [http://msdn.microsoft.com/library/system.runtime.interopservices.varenum(v=vs.100).aspx](http://msdn.microsoft.com/library/system.runtime.interopservices.varenum\(v=vs.100\).aspx)|  
 |¿Cómo se pueden especificar las rutas de acceso de archivo?|Normalmente, se especifican las rutas de acceso en el formato `/folder/pathname`. Sin embargo, los distintos servidores requieren diferentes formatos, con o sin barras iniciales o finales. Por lo tanto, también puede intentar lo siguiente:<br /><br /> -                   `/folder/pathname`<br /><br /> -                   `/folder/pathname/`<br /><br /> -                   `folder/pathname`<br /><br /> -                   `folder/pathname/`|  
   
 

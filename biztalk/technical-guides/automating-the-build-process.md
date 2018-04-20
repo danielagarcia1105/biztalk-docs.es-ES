@@ -1,22 +1,22 @@
 ---
-title: "Automatizar el proceso de compilación | Documentos de Microsoft"
-ms.custom: 
+title: Automatizar el proceso de compilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 995dac20-82a1-46ed-b8a3-0aa6182cb821
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d62380146f0bfba188843ed0e022340d88fcaceb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="automating-the-build-process"></a>Automatizar el proceso de compilación
 Un proceso automatizado de compilación compila, implementa y, a continuación, ejecuta pruebas de comprobación de la compilación (BVT) en el código fuente más reciente para un proyecto a intervalos regulares, predeterminados. A continuación, un "informe de compilación", que detalla el éxito o error del proceso de compilación, se difunde a las partes interesadas del proyecto. El informe de generación se analiza para determinar qué áreas del proyecto necesitan atención y si el proyecto debe puede revertir a una versión anterior.  
@@ -49,14 +49,14 @@ Un proceso automatizado de compilación compila, implementa y, a continuación, 
   
  Después de un proceso de compilación diaria tiene muchas ventajas para el proyecto. En primer lugar, proporciona un latido regular (formado por la compilación diaria además de las pruebas automatizadas BVT). En segundo lugar, si se utiliza pruebas BVT fuerza la integración con sistemas que es una tarea difícil y hacerlo al principio de por sí reduce los riesgos del proyecto. Debido al tiempo necesario para completarlos, se suelen realizar pruebas de rendimiento y esfuerzo fuera del proceso de compilación diaria. Pruebas de rendimiento y esfuerzo normalmente están programadas para realizarse en una compilación de hito en el proyecto.  
   
- El proceso de compilación diaria puede ser y se ha utilizado, muy eficazmente en soluciones de BizTalk. Sin embargo, debe asegurarse de las tareas que se suelen dejar al final en los proyectos de se realizan de forma iterativa desde el principio. Por ejemplo, la implementación de BizTalk Server es ciertamente no trivial. Es importante que los scripts de implementación automatizada se desarrollado por adelantado. Si no lo hace, podrá finalizar la implementación manual y sin implementar la solución muchas veces a lo largo del proyecto, que cuestan más tiempo al final. Hay herramientas disponibles para controlar el proceso de compilación diaria; Visual Studio Team System y Team Foundation Server son la opción principal para muchas personas. Scripts de MSBuild pueden utilizarse para controlar los pasos del proceso de compilación. Otra alternativa es el código abierto [CruiseControl.NET herramienta](http://go.microsoft.com/fwlink/?LinkId=116093) (http://go.microsoft.com/fwlink/?LinkId=116093).  
+ El proceso de compilación diaria puede ser y se ha utilizado, muy eficazmente en soluciones de BizTalk. Sin embargo, debe asegurarse de las tareas que se suelen dejar al final en los proyectos de se realizan de forma iterativa desde el principio. Por ejemplo, la implementación de BizTalk Server es ciertamente no trivial. Es importante que los scripts de implementación automatizada se desarrollado por adelantado. Si no lo hace, podrá finalizar la implementación manual y sin implementar la solución muchas veces a lo largo del proyecto, que cuestan más tiempo al final. Hay herramientas disponibles para controlar el proceso de compilación diaria; Visual Studio Team System y Team Foundation Server son la opción principal para muchas personas. Scripts de MSBuild pueden utilizarse para controlar los pasos del proceso de compilación. Otra alternativa es el código abierto [herramienta CruiseControl.NET](http://go.microsoft.com/fwlink/?LinkId=116093) (http://go.microsoft.com/fwlink/?LinkId=116093).  
   
 > [!NOTE]  
 >  Uso de esta herramienta no es compatible con Microsoft y Microsoft no otorga ninguna garantía sobre la idoneidad de este programa. La utilización de este programa queda bajo su propia responsabilidad.  
   
  Para obtener más información acerca de la automatización de pruebas mediante Microsoft Test manager, vea el tema [Running Automated Tests](http://go.microsoft.com/fwlink/?LinkID=208368) (http://go.microsoft.com/fwlink/?LinkID=208368) en la documentación en línea de Visual Studio 2010  
   
- Para obtener más información acerca de cómo automatizar el proceso de compilación con Visual Studio 2010, vea [compilar la aplicación](http://go.microsoft.com/fwlink/?LinkID=208369) (HYPERLINK "http://go.microsoft.com/fwlink/? LinkID = 208369" http://go.microsoft.com/fwlink/? LinkID = 208369) en la documentación de Visual Studio 2010.  
+ Para obtener más información acerca de cómo automatizar el proceso de compilación con Visual Studio 2010, vea [compilar la aplicación](http://go.microsoft.com/fwlink/?LinkID=208369) (HYPERLINK "http://go.microsoft.com/fwlink/?LinkID=208369" http://go.microsoft.com/fwlink/?LinkID=208369) en la documentación de Visual Studio 2010.  
   
 ## <a name="build-verification-testing"></a>Crear pruebas de comprobación  
  Pruebas de comprobación de compilación normalmente consta de los siguientes elementos:  
@@ -76,7 +76,7 @@ Un proceso automatizado de compilación compila, implementa y, a continuación, 
   
  Es fundamental que las pruebas funcionales está diseñada para cubrir todas las rutas posibles a través de la solución. Esto debe incluir no sólo los escenarios esperados en producción, pero también el error ni rutas de control de excepciones ha implementado, pero nunca pretende utilizar: una frase utilizada normalmente para describir esto es probar "escenario de un mal día". Debe asegurarse de todas las orquestaciones, todos los tipos de mensaje permitidos y todas las ramas de código se ha ejecutado por el conjunto de pruebas funcionales. Las siguientes secciones describen desarrollar positivos y negativos casos de pruebas funcionales para cubrir todas las rutas de código.  
   
- Para obtener más información acerca de las pruebas funcionales y las otras categorías de pruebas que se deben implementar antes de colocar una solución de BizTalk Server al entorno de producción, consulte el tema [lista de comprobación: preparación operativa pruebas](http://go.microsoft.com/fwlink/?LinkId=160138) en el Guía de operaciones de BizTalk Server 2010 en [http://go.microsoft.com/fwlink/?LinkId=160138](http://go.microsoft.com/fwlink/?LinkId=160138).  
+ Para obtener más información acerca de las pruebas funcionales y las otras categorías de pruebas que se deben implementar antes de colocar una solución de BizTalk Server al entorno de producción, consulte el tema [lista de comprobación: preparación operativa pruebas](http://go.microsoft.com/fwlink/?LinkId=160138) en el Guía de operaciones de BizTalk Server 2010 en [ http://go.microsoft.com/fwlink/?LinkId=160138 ](http://go.microsoft.com/fwlink/?LinkId=160138).  
   
 ### <a name="positive-tests"></a>Pruebas positivas  
   

@@ -1,28 +1,28 @@
 ---
 title: Adaptador de modelo para alojamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cf9a8e6b-8c8d-47ec-b2a3-aed58206121d
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 645a1fcd41650c98c442549a898f7083be770842
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="adapter-hosting-model"></a>Adaptador de modelo para alojamiento
 En general, los adaptadores de BizTalk se hospedan en el servicio de BizTalk, Btsntsvc.exe. Esto significa que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administra la duración del adaptador. También hay situaciones, que se describen a continuación, en las que otros procesos administran el adaptador.  
   
 ## <a name="in-process-adapters"></a>Adaptadores de tipo En curso  
- Los adaptadores que se administran mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se denominan adaptadores en curso. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]hace lo siguiente para estos adaptadores:  
+ Los adaptadores que se administran mediante [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se denominan adaptadores en curso. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace lo siguiente para estos adaptadores:  
   
 -   Crear una instancia del adaptador al [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se inicia  
   
@@ -32,7 +32,7 @@ En general, los adaptadores de BizTalk se hospedan en el servicio de BizTalk, Bt
   
 -   Finaliza el adaptador apagado de la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicio  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]ofrece información de configuración de configuración y el punto de conexión de controlador para el adaptador en tiempo de ejecución. Se especifican otros aspectos de la configuración, tales como las ventanas de servicio que definen períodos de tiempo específicos durante los cuales el adaptador está habilitado para administrar solicitudes de forma activa.  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ofrece información de configuración de configuración y el punto de conexión de controlador para el adaptador en tiempo de ejecución. Se especifican otros aspectos de la configuración, tales como las ventanas de servicio que definen períodos de tiempo específicos durante los cuales el adaptador está habilitado para administrar solicitudes de forma activa.  
   
  El servicio BizTalk se puede apagar manualmente mediante la consola de administración [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o mediante el Administrador de control de servicios. Si la conectividad a la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos se pierde automáticamente el servicio se recicla.  
   
@@ -56,4 +56,4 @@ Modelo de asignación de host a adaptador de tipo En curso
 Modelo de asignación de host a adaptador aislado  
   
 ## <a name="see-also"></a>Vea también  
- [¿Qué es el marco de trabajo?](../core/what-is-the-adapter-framework.md)
+ [¿Qué es el marco de trabajo de adaptadores?](../core/what-is-the-adapter-framework.md)
