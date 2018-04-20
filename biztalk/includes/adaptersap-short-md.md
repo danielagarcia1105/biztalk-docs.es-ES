@@ -1,1 +1,1 @@
-<span data-ttu-id="59499-101">SAP adapter</span><span class="sxs-lookup"><span data-stu-id="59499-101">SAP adapter</span></span>
+<span data-ttu-id="67aab-101">SAP adapter</span><span class="sxs-lookup"><span data-stu-id="67aab-101">SAP adapter</span></span>

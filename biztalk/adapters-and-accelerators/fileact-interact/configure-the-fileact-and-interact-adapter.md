@@ -1,100 +1,100 @@
 ---
 title: Configurar la FileAct e interactuar adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d3876ff-e8e4-47f4-9ca8-d4dad419ed67
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/20/2018
 ---
-# <a name="configure-the-fileact-and-interact-adapter"></a><span data-ttu-id="2962d-102">Configurar la FileAct e interactuar adaptador</span><span class="sxs-lookup"><span data-stu-id="2962d-102">Configure the FileAct and InterAct Adapter</span></span>
-<span data-ttu-id="2962d-103">Configurar los diferentes artefactos utilizados por el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="2962d-103">Configure the different artifacts used by the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] runtime.</span></span> 
+# <a name="configure-the-fileact-and-interact-adapter"></a><span data-ttu-id="61f9b-102">Configurar la FileAct e interactuar adaptador</span><span class="sxs-lookup"><span data-stu-id="61f9b-102">Configure the FileAct and InterAct Adapter</span></span>
+<span data-ttu-id="61f9b-103">Configurar los diferentes artefactos utilizados por el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="61f9b-103">Configure the different artifacts used by the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] runtime.</span></span> 
 
   
-## <a name="prerequisites"></a><span data-ttu-id="2962d-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="2962d-104">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="61f9b-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="61f9b-104">Prerequisites</span></span>  
    
--   <span data-ttu-id="2962d-105">Instalar el[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]</span><span class="sxs-lookup"><span data-stu-id="2962d-105">Install the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]</span></span>
+-   <span data-ttu-id="61f9b-105">Instalar el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]</span><span class="sxs-lookup"><span data-stu-id="61f9b-105">Install the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]</span></span>
   
--   <span data-ttu-id="2962d-106">Inicie sesión como miembro de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] grupo de administradores</span><span class="sxs-lookup"><span data-stu-id="2962d-106">Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators group</span></span>
+-   <span data-ttu-id="61f9b-106">Inicie sesión como miembro de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] grupo de administradores</span><span class="sxs-lookup"><span data-stu-id="61f9b-106">Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators group</span></span>
   
--   <span data-ttu-id="2962d-107">Confirme que está ejecutando SQL Server</span><span class="sxs-lookup"><span data-stu-id="2962d-107">Confirm SQL Server is running</span></span>
+-   <span data-ttu-id="61f9b-107">Confirme que está ejecutando SQL Server</span><span class="sxs-lookup"><span data-stu-id="61f9b-107">Confirm SQL Server is running</span></span>
   
-## <a name="step-1-configure-the-fileact-and-interact-adapter"></a><span data-ttu-id="2962d-108">Paso 1: Configurar el adaptador de FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="2962d-108">Step 1: Configure the FileAct and InterAct adapter</span></span>  
+## <a name="step-1-configure-the-fileact-and-interact-adapter"></a><span data-ttu-id="61f9b-108">Paso 1: Configurar el adaptador de FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="61f9b-108">Step 1: Configure the FileAct and InterAct adapter</span></span>  
   
-1.  <span data-ttu-id="2962d-109">En el **FileAct de BizTalk de Microsoft e interactuar configuración del adaptador** asistente, vaya a **Introducción**.</span><span class="sxs-lookup"><span data-stu-id="2962d-109">In the **Microsoft BizTalk FileAct and InterAct Adapter Configuration** wizard, go to **Overview**.</span></span> <span data-ttu-id="2962d-110">En el panel izquierdo, seleccione **en tiempo de ejecución** para configurar los componentes en tiempo de ejecución de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="2962d-110">In the left pane, select **Runtime** to configure the runtime components of the adapters.</span></span>  
+1.  <span data-ttu-id="61f9b-109">En el **FileAct de BizTalk de Microsoft e interactuar configuración del adaptador** asistente, vaya a **Introducción**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-109">In the **Microsoft BizTalk FileAct and InterAct Adapter Configuration** wizard, go to **Overview**.</span></span> <span data-ttu-id="61f9b-110">En el panel izquierdo, seleccione **en tiempo de ejecución** para configurar los componentes en tiempo de ejecución de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="61f9b-110">In the left pane, select **Runtime** to configure the runtime components of the adapters.</span></span>  
   
-2.  <span data-ttu-id="2962d-111">En **configuración en tiempo de ejecución**, en **cuenta**, seleccione los puntos suspensivos […] para escribir el COM más la configuración para el modo de almacenamiento y reenvío.</span><span class="sxs-lookup"><span data-stu-id="2962d-111">In **Runtime Configuration**, under **Account**, select the ellipsis […] to enter the COM plus configuration for the Store and Forward mode.</span></span>  
+2.  <span data-ttu-id="61f9b-111">En **configuración en tiempo de ejecución**, en **cuenta**, seleccione los puntos suspensivos […] para escribir el COM más la configuración para el modo de almacenamiento y reenvío.</span><span class="sxs-lookup"><span data-stu-id="61f9b-111">In **Runtime Configuration**, under **Account**, select the ellipsis […] to enter the COM plus configuration for the Store and Forward mode.</span></span>  
   
-3.  <span data-ttu-id="2962d-112">En **las credenciales de usuario**, escriba el nombre de usuario (en el *ombre* formato) y una contraseña para la cuenta utilizada en COM además de la configuración.</span><span class="sxs-lookup"><span data-stu-id="2962d-112">In **User Credentials**, enter the user name (in the *domain\user name* format) and password for the account used in the COM plus configuration.</span></span> <span data-ttu-id="2962d-113">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2962d-113">Select **OK**.</span></span>  
-  
-    > [!NOTE]
-    >  <span data-ttu-id="2962d-114">A **las credenciales de usuario** advertencia aparece si la cuenta que especificó tiene privilegios más elevados que se recomiendan.</span><span class="sxs-lookup"><span data-stu-id="2962d-114">A **User Credentials** warning appears if the account you entered has higher privileges than are recommended.</span></span> <span data-ttu-id="2962d-115">Seleccione **Sí** para continuar.</span><span class="sxs-lookup"><span data-stu-id="2962d-115">Select **Yes** to continue.</span></span>
-  
-4.  <span data-ttu-id="2962d-116">Seleccione **aplicar configuración** para aplicar el COM más la configuración para el adaptador de interactuar and FileAct.</span><span class="sxs-lookup"><span data-stu-id="2962d-116">Select **Apply configuration** to apply the COM plus configuration to the FileAct and InterAct Adapter.</span></span>  
-  
-5.  <span data-ttu-id="2962d-117">En el **resumen**, revise y seleccione **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="2962d-117">In the **Summary**, review, and select **Next**.</span></span>  
-  
-6.  <span data-ttu-id="2962d-118">Cuando se completa la configuración, revise la lista de componentes.</span><span class="sxs-lookup"><span data-stu-id="2962d-118">When the configuration completes, review the list of components.</span></span> <span data-ttu-id="2962d-119">Una marca de verificación significa que el componente está configurado correctamente.</span><span class="sxs-lookup"><span data-stu-id="2962d-119">A check mark means that the component is configured successfully.</span></span> <span data-ttu-id="2962d-120">Una "X" significa que hay un problema con ese componente.</span><span class="sxs-lookup"><span data-stu-id="2962d-120">An "X" means that there is a problem with that component.</span></span>  
+3.  <span data-ttu-id="61f9b-112">En **las credenciales de usuario**, escriba el nombre de usuario (en el *ombre* formato) y una contraseña para la cuenta utilizada en COM además de la configuración.</span><span class="sxs-lookup"><span data-stu-id="61f9b-112">In **User Credentials**, enter the user name (in the *domain\user name* format) and password for the account used in the COM plus configuration.</span></span> <span data-ttu-id="61f9b-113">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-113">Select **OK**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="2962d-121">Use la **archivo de registro** vínculo para ver los eventos de configuración.</span><span class="sxs-lookup"><span data-stu-id="2962d-121">Use the **Logfile** link to view the configuration events.</span></span>  
+    >  <span data-ttu-id="61f9b-114">A **las credenciales de usuario** advertencia aparece si la cuenta que especificó tiene privilegios más elevados que se recomiendan.</span><span class="sxs-lookup"><span data-stu-id="61f9b-114">A **User Credentials** warning appears if the account you entered has higher privileges than are recommended.</span></span> <span data-ttu-id="61f9b-115">Seleccione **Sí** para continuar.</span><span class="sxs-lookup"><span data-stu-id="61f9b-115">Select **Yes** to continue.</span></span>
   
-7.  <span data-ttu-id="2962d-122">Seleccione **finalizar** para completar la configuración.</span><span class="sxs-lookup"><span data-stu-id="2962d-122">Select **Finish** to complete the configuration.</span></span> <span data-ttu-id="2962d-123">El **Introducción** muestra el estado actual de la configuración de los componentes en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="2962d-123">The **Overview** shows the current configuration status for the Runtime components.</span></span>  
-
-<span data-ttu-id="2962d-124">A continuación, cree el host y las instancias de host para ejecutar estos adaptadores.</span><span class="sxs-lookup"><span data-stu-id="2962d-124">Next, create the host and host instances to run these adapters.</span></span>
-
-## <a name="step-2-create-the-host-and-host-instances"></a><span data-ttu-id="2962d-125">Paso 2: Crear el host e instancias de host</span><span class="sxs-lookup"><span data-stu-id="2962d-125">Step 2: Create the host and host instances</span></span>
-
-<span data-ttu-id="2962d-126">Le recomendamos que cree un host dedicado para el adaptador de FileAct y un host independiente dedicado para el adaptador de InterAct.</span><span class="sxs-lookup"><span data-stu-id="2962d-126">We recommend that you create a dedicated host for the FileAct adapter and a separate dedicated host for the InterAct adapter.</span></span> <span data-ttu-id="2962d-127">Para cada adaptador, cree al menos una instancia de host.</span><span class="sxs-lookup"><span data-stu-id="2962d-127">For each adapter, create at least one host instance.</span></span>  
-
-<span data-ttu-id="2962d-128">[Administración de Hosts de BizTalk y las instancias de Host](../../core/managing-biztalk-hosts-and-host-instances.md) enumeran los pasos para crear hosts e instancias de host.</span><span class="sxs-lookup"><span data-stu-id="2962d-128">[Managing BizTalk Hosts and Host Instances](../../core/managing-biztalk-hosts-and-host-instances.md) list the steps to create hosts and host instances.</span></span> 
-
-<span data-ttu-id="2962d-129">Una vez creado, el siguiente paso es agregar el controlador de envío y usar al asociado de mensaje de cliente que creó en la puerta de enlace de Alliance de SWIFT (SAG).</span><span class="sxs-lookup"><span data-stu-id="2962d-129">Once created, the next step is to add the send handler, and use the Client Message Partner you created in the SWIFT Alliance Gateway (SAG).</span></span>
-
-## <a name="step-3-create-the-send-handler"></a><span data-ttu-id="2962d-130">Paso 3: Crear el controlador de envío</span><span class="sxs-lookup"><span data-stu-id="2962d-130">Step 3: Create the send handler</span></span>
-
-<span data-ttu-id="2962d-131">Puede utilizar el FileAct y InterAct enviar propiedades del controlador como el envío valores de configuración de puerto, si no se establecen las propiedades en el FileAct individual o puerto de envío de interacción.</span><span class="sxs-lookup"><span data-stu-id="2962d-131">You use the FileAct and InterAct send handler properties as the send port configuration values, if the properties are not set on the individual FileAct or InterAct send port.</span></span> 
+4.  <span data-ttu-id="61f9b-116">Seleccione **aplicar configuración** para aplicar el COM más la configuración para el adaptador de interactuar and FileAct.</span><span class="sxs-lookup"><span data-stu-id="61f9b-116">Select **Apply configuration** to apply the COM plus configuration to the FileAct and InterAct Adapter.</span></span>  
   
-1.  <span data-ttu-id="2962d-132">En el **administración de BizTalk Server** de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **deconfiguracióndeplataforma**y, a continuación, expanda **adaptadores**.</span><span class="sxs-lookup"><span data-stu-id="2962d-132">In the **BizTalk Server Administration** console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.</span></span>  
+5.  <span data-ttu-id="61f9b-117">En el **resumen**, revise y seleccione **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-117">In the **Summary**, review, and select **Next**.</span></span>  
   
-2.  <span data-ttu-id="2962d-133">Seleccione el **FileAct** o **InterAct** adaptador.</span><span class="sxs-lookup"><span data-stu-id="2962d-133">Select the **FileAct** or **InterAct** adapter.</span></span> <span data-ttu-id="2962d-134">En el panel derecho, haga doble clic en el controlador de envío.</span><span class="sxs-lookup"><span data-stu-id="2962d-134">In the right pane, double-click the send handler.</span></span>  
+6.  <span data-ttu-id="61f9b-118">Cuando se completa la configuración, revise la lista de componentes.</span><span class="sxs-lookup"><span data-stu-id="61f9b-118">When the configuration completes, review the list of components.</span></span> <span data-ttu-id="61f9b-119">Una marca de verificación significa que el componente está configurado correctamente.</span><span class="sxs-lookup"><span data-stu-id="61f9b-119">A check mark means that the component is configured successfully.</span></span> <span data-ttu-id="61f9b-120">Una "X" significa que hay un problema con ese componente.</span><span class="sxs-lookup"><span data-stu-id="61f9b-120">An "X" means that there is a problem with that component.</span></span>  
   
-3.  <span data-ttu-id="2962d-135">En el **nombre de Host** lista desplegable, seleccione el host que creó en la sección anterior.</span><span class="sxs-lookup"><span data-stu-id="2962d-135">In the **Host name** drop-down list, select the host you created in the previous section.</span></span> <span data-ttu-id="2962d-136">A continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="2962d-136">Then select **Properties**.</span></span>  
+    > [!NOTE]
+    >  <span data-ttu-id="61f9b-121">Use la **archivo de registro** vínculo para ver los eventos de configuración.</span><span class="sxs-lookup"><span data-stu-id="61f9b-121">Use the **Logfile** link to view the configuration events.</span></span>  
   
-4.  <span data-ttu-id="2962d-137">En el **propiedades de transporte**, seleccione la **argumento** propiedad y escriba el siguiente argumento como:</span><span class="sxs-lookup"><span data-stu-id="2962d-137">In the **Transport Properties**, select the **Argument** property, and enter the following argument as:</span></span>  
+7.  <span data-ttu-id="61f9b-122">Seleccione **finalizar** para completar la configuración.</span><span class="sxs-lookup"><span data-stu-id="61f9b-122">Select **Finish** to complete the configuration.</span></span> <span data-ttu-id="61f9b-123">El **Introducción** muestra el estado actual de la configuración de los componentes en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="61f9b-123">The **Overview** shows the current configuration status for the Runtime components.</span></span>  
+
+<span data-ttu-id="61f9b-124">A continuación, cree el host y las instancias de host para ejecutar estos adaptadores.</span><span class="sxs-lookup"><span data-stu-id="61f9b-124">Next, create the host and host instances to run these adapters.</span></span>
+
+## <a name="step-2-create-the-host-and-host-instances"></a><span data-ttu-id="61f9b-125">Paso 2: Crear el host e instancias de host</span><span class="sxs-lookup"><span data-stu-id="61f9b-125">Step 2: Create the host and host instances</span></span>
+
+<span data-ttu-id="61f9b-126">Le recomendamos que cree un host dedicado para el adaptador de FileAct y un host independiente dedicado para el adaptador de InterAct.</span><span class="sxs-lookup"><span data-stu-id="61f9b-126">We recommend that you create a dedicated host for the FileAct adapter and a separate dedicated host for the InterAct adapter.</span></span> <span data-ttu-id="61f9b-127">Para cada adaptador, cree al menos una instancia de host.</span><span class="sxs-lookup"><span data-stu-id="61f9b-127">For each adapter, create at least one host instance.</span></span>  
+
+<span data-ttu-id="61f9b-128">[Administración de Hosts de BizTalk y las instancias de Host](../../core/managing-biztalk-hosts-and-host-instances.md) enumeran los pasos para crear hosts e instancias de host.</span><span class="sxs-lookup"><span data-stu-id="61f9b-128">[Managing BizTalk Hosts and Host Instances](../../core/managing-biztalk-hosts-and-host-instances.md) list the steps to create hosts and host instances.</span></span> 
+
+<span data-ttu-id="61f9b-129">Una vez creado, el siguiente paso es agregar el controlador de envío y usar al asociado de mensaje de cliente que creó en la puerta de enlace de Alliance de SWIFT (SAG).</span><span class="sxs-lookup"><span data-stu-id="61f9b-129">Once created, the next step is to add the send handler, and use the Client Message Partner you created in the SWIFT Alliance Gateway (SAG).</span></span>
+
+## <a name="step-3-create-the-send-handler"></a><span data-ttu-id="61f9b-130">Paso 3: Crear el controlador de envío</span><span class="sxs-lookup"><span data-stu-id="61f9b-130">Step 3: Create the send handler</span></span>
+
+<span data-ttu-id="61f9b-131">Puede utilizar el FileAct y InterAct enviar propiedades del controlador como el envío valores de configuración de puerto, si no se establecen las propiedades en el FileAct individual o puerto de envío de interacción.</span><span class="sxs-lookup"><span data-stu-id="61f9b-131">You use the FileAct and InterAct send handler properties as the send port configuration values, if the properties are not set on the individual FileAct or InterAct send port.</span></span> 
+  
+1.  <span data-ttu-id="61f9b-132">En el **administración de BizTalk Server** de la consola, expanda **administración de BizTalk Server**, expanda **grupo de BizTalk**, expanda **deconfiguracióndeplataforma**y, a continuación, expanda **adaptadores**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-132">In the **BizTalk Server Administration** console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.</span></span>  
+  
+2.  <span data-ttu-id="61f9b-133">Seleccione el **FileAct** o **InterAct** adaptador.</span><span class="sxs-lookup"><span data-stu-id="61f9b-133">Select the **FileAct** or **InterAct** adapter.</span></span> <span data-ttu-id="61f9b-134">En el panel derecho, haga doble clic en el controlador de envío.</span><span class="sxs-lookup"><span data-stu-id="61f9b-134">In the right pane, double-click the send handler.</span></span>  
+  
+3.  <span data-ttu-id="61f9b-135">En el **nombre de Host** lista desplegable, seleccione el host que creó en la sección anterior.</span><span class="sxs-lookup"><span data-stu-id="61f9b-135">In the **Host name** drop-down list, select the host you created in the previous section.</span></span> <span data-ttu-id="61f9b-136">A continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-136">Then select **Properties**.</span></span>  
+  
+4.  <span data-ttu-id="61f9b-137">En el **propiedades de transporte**, seleccione la **argumento** propiedad y escriba el siguiente argumento como:</span><span class="sxs-lookup"><span data-stu-id="61f9b-137">In the **Transport Properties**, select the **Argument** property, and enter the following argument as:</span></span>  
   
      `-SagMessagePartner <Client Message Partner created in SAG\>`
   
     > [!NOTE]
-    >  <span data-ttu-id="2962d-138">Reemplace <`Client Message Partner created in SAG`> con el nombre del asociado de mensaje de cliente.</span><span class="sxs-lookup"><span data-stu-id="2962d-138">Replace <`Client Message Partner created in SAG`> with the name of the client message partner.</span></span> <span data-ttu-id="2962d-139">Deje los valores predeterminados para el modo de cifrado, modo de FACrypto y propiedades LogMessages.</span><span class="sxs-lookup"><span data-stu-id="2962d-139">Leave the default values for the Crypto Mode, FACrypto Mode, and LogMessages properties.</span></span>  
+    >  <span data-ttu-id="61f9b-138">Reemplace <`Client Message Partner created in SAG`> con el nombre del asociado de mensaje de cliente.</span><span class="sxs-lookup"><span data-stu-id="61f9b-138">Replace <`Client Message Partner created in SAG`> with the name of the client message partner.</span></span> <span data-ttu-id="61f9b-139">Deje los valores predeterminados para el modo de cifrado, modo de FACrypto y propiedades LogMessages.</span><span class="sxs-lookup"><span data-stu-id="61f9b-139">Leave the default values for the Crypto Mode, FACrypto Mode, and LogMessages properties.</span></span>  
   
-5.  <span data-ttu-id="2962d-140">Seleccione **Aceptar** para guardar los cambios y, a continuación, cierre la ventana Propiedades.</span><span class="sxs-lookup"><span data-stu-id="2962d-140">Select **OK** to save your changes, and then to close the properties window.</span></span> 
+5.  <span data-ttu-id="61f9b-140">Seleccione **Aceptar** para guardar los cambios y, a continuación, cierre la ventana Propiedades.</span><span class="sxs-lookup"><span data-stu-id="61f9b-140">Select **OK** to save your changes, and then to close the properties window.</span></span> 
   
-6.  <span data-ttu-id="2962d-141">En **configuración de plataforma**, seleccione **instancias de Host**.</span><span class="sxs-lookup"><span data-stu-id="2962d-141">Under **Platform Settings**, select **Host Instances**.</span></span>  
+6.  <span data-ttu-id="61f9b-141">En **configuración de plataforma**, seleccione **instancias de Host**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-141">Under **Platform Settings**, select **Host Instances**.</span></span>  
   
-7. <span data-ttu-id="2962d-142">Reinicie las instancias de host:</span><span class="sxs-lookup"><span data-stu-id="2962d-142">Restart the host instances:</span></span> 
+7. <span data-ttu-id="61f9b-142">Reinicie las instancias de host:</span><span class="sxs-lookup"><span data-stu-id="61f9b-142">Restart the host instances:</span></span> 
 
-  - <span data-ttu-id="2962d-143">Haga clic en la instancia de host de FileAct y **reiniciar**</span><span class="sxs-lookup"><span data-stu-id="2962d-143">Right-click the FileAct host instance, and **Restart**</span></span>
-  - <span data-ttu-id="2962d-144">Haga clic en la instancia de host interactuar y **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="2962d-144">Right-click the InterAct host instance, and **Restart**.</span></span>  
+  - <span data-ttu-id="61f9b-143">Haga clic en la instancia de host de FileAct y **reiniciar**</span><span class="sxs-lookup"><span data-stu-id="61f9b-143">Right-click the FileAct host instance, and **Restart**</span></span>
+  - <span data-ttu-id="61f9b-144">Haga clic en la instancia de host interactuar y **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-144">Right-click the InterAct host instance, and **Restart**.</span></span>  
 
-<span data-ttu-id="2962d-145">A continuación, escriba los asociados de mensaje de servidor en el paramfile SWIFTNet para habilitar la FileAct y adaptadores de recepción interactuar.</span><span class="sxs-lookup"><span data-stu-id="2962d-145">Next, enter the server message partners in the SWIFTNet paramfile to enable the FileAct and InterAct receive adapters.</span></span>
+<span data-ttu-id="61f9b-145">A continuación, escriba los asociados de mensaje de servidor en el paramfile SWIFTNet para habilitar la FileAct y adaptadores de recepción interactuar.</span><span class="sxs-lookup"><span data-stu-id="61f9b-145">Next, enter the server message partners in the SWIFTNet paramfile to enable the FileAct and InterAct receive adapters.</span></span>
   
-## <a name="step-4-configure-the-swiftnet-param-file"></a><span data-ttu-id="2962d-146">Paso 4: Configurar el archivo de param SWIFTNet</span><span class="sxs-lookup"><span data-stu-id="2962d-146">Step 4: Configure the SWIFTNet param file</span></span>
+## <a name="step-4-configure-the-swiftnet-param-file"></a><span data-ttu-id="61f9b-146">Paso 4: Configurar el archivo de param SWIFTNet</span><span class="sxs-lookup"><span data-stu-id="61f9b-146">Step 4: Configure the SWIFTNet param file</span></span>
 
-<span data-ttu-id="2962d-147">Para habilitar la FileAct e InterAct adaptadores de recepción para inicializar con los valores, el mensaje del servidor socios que creó en SAG deben especificarse en el paramfile SWIFTNet.</span><span class="sxs-lookup"><span data-stu-id="2962d-147">To enable the FileAct and InterAct receive adapters to initialize with the values, the Server message partners created in SAG must be entered in the SWIFTNet paramfile.</span></span> <span data-ttu-id="2962d-148">El paramfile normalmente se encuentra en `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`.</span><span class="sxs-lookup"><span data-stu-id="2962d-148">The paramfile is typically located in `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`.</span></span> <span data-ttu-id="2962d-149">Después de configurar la paramfile, iniciar **SnlReceiver.exe**.</span><span class="sxs-lookup"><span data-stu-id="2962d-149">After you configure the paramfile, start **SnlReceiver.exe**.</span></span>  
+<span data-ttu-id="61f9b-147">Para habilitar la FileAct e InterAct adaptadores de recepción para inicializar con los valores, el mensaje del servidor socios que creó en SAG deben especificarse en el paramfile SWIFTNet.</span><span class="sxs-lookup"><span data-stu-id="61f9b-147">To enable the FileAct and InterAct receive adapters to initialize with the values, the Server message partners created in SAG must be entered in the SWIFTNet paramfile.</span></span> <span data-ttu-id="61f9b-148">El paramfile normalmente se encuentra en `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`.</span><span class="sxs-lookup"><span data-stu-id="61f9b-148">The paramfile is typically located in `c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`.</span></span> <span data-ttu-id="61f9b-149">Después de configurar la paramfile, iniciar **SnlReceiver.exe**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-149">After you configure the paramfile, start **SnlReceiver.exe**.</span></span>  
   
-1. <span data-ttu-id="2962d-150">Abra la **SWIFTNet paramfile**.</span><span class="sxs-lookup"><span data-stu-id="2962d-150">Open the **SWIFTNet paramfile**.</span></span> <span data-ttu-id="2962d-151">En la ubicación marcada con "\*\*\*" agregue lo siguiente.</span><span class="sxs-lookup"><span data-stu-id="2962d-151">In the location marked with "\*\*\*" add the following.</span></span> <span data-ttu-id="2962d-152">Tenga en cuenta que la `AdapterType` valor puede ser `Interact` o `Fileact`.</span><span class="sxs-lookup"><span data-stu-id="2962d-152">Note that the `AdapterType` value can be `Interact` or `Fileact`.</span></span>  
+1. <span data-ttu-id="61f9b-150">Abra la **SWIFTNet paramfile**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-150">Open the **SWIFTNet paramfile**.</span></span> <span data-ttu-id="61f9b-151">En la ubicación marcada con "\*\*\*" agregue lo siguiente.</span><span class="sxs-lookup"><span data-stu-id="61f9b-151">In the location marked with "\*\*\*" add the following.</span></span> <span data-ttu-id="61f9b-152">Tenga en cuenta que la `AdapterType` valor puede ser `Interact` o `Fileact`.</span><span class="sxs-lookup"><span data-stu-id="61f9b-152">Note that the `AdapterType` value can be `Interact` or `Fileact`.</span></span>  
   
      ```spawn "snlreceiver -SagMessagePartner <Server MessagePartnerName\> -AdapterMode <AdapterType\>"```  
        
@@ -119,24 +119,24 @@ ms.lasthandoff: 01/17/2018
    ```  
   
    > [!NOTE]
-    >  <span data-ttu-id="2962d-153">Antes de empezar SNLreceiver, habilitar los puertos de recepción para el adaptador que usa (FileAct o que interactúen).</span><span class="sxs-lookup"><span data-stu-id="2962d-153">Before you start SNLreceiver, enable the receive ports for the adapter you are using (FileAct or InterAct).</span></span>  
+    >  <span data-ttu-id="61f9b-153">Antes de empezar SNLreceiver, habilitar los puertos de recepción para el adaptador que usa (FileAct o que interactúen).</span><span class="sxs-lookup"><span data-stu-id="61f9b-153">Before you start SNLreceiver, enable the receive ports for the adapter you are using (FileAct or InterAct).</span></span>  
   
-2. <span data-ttu-id="2962d-154">Iniciar y detener SnlReceiver.exe:</span><span class="sxs-lookup"><span data-stu-id="2962d-154">Start and stop SnlReceiver.exe:</span></span>
+2. <span data-ttu-id="61f9b-154">Iniciar y detener SnlReceiver.exe:</span><span class="sxs-lookup"><span data-stu-id="61f9b-154">Start and stop SnlReceiver.exe:</span></span>
 
-    1.  <span data-ttu-id="2962d-155">En el escritorio, seleccione la **remota (API)** icono para abrir el símbolo del sistema de remota (API).</span><span class="sxs-lookup"><span data-stu-id="2962d-155">On the desktop, select the **Remote API** icon to open the Remote API command prompt.</span></span>  
+    1.  <span data-ttu-id="61f9b-155">En el escritorio, seleccione la **remota (API)** icono para abrir el símbolo del sistema de remota (API).</span><span class="sxs-lookup"><span data-stu-id="61f9b-155">On the desktop, select the **Remote API** icon to open the Remote API command prompt.</span></span>  
   
-    2.  <span data-ttu-id="2962d-156">En el símbolo del sistema, escriba `Swiftnet start`.</span><span class="sxs-lookup"><span data-stu-id="2962d-156">At the command prompt, type `Swiftnet start`.</span></span> <span data-ttu-id="2962d-157">Presione ENTRAR para iniciar SnlReceiver.exe.</span><span class="sxs-lookup"><span data-stu-id="2962d-157">Select ENTER to start SnlReceiver.exe.</span></span>  
+    2.  <span data-ttu-id="61f9b-156">En el símbolo del sistema, escriba `Swiftnet start`.</span><span class="sxs-lookup"><span data-stu-id="61f9b-156">At the command prompt, type `Swiftnet start`.</span></span> <span data-ttu-id="61f9b-157">Presione ENTRAR para iniciar SnlReceiver.exe.</span><span class="sxs-lookup"><span data-stu-id="61f9b-157">Select ENTER to start SnlReceiver.exe.</span></span>  
   
-    3.  <span data-ttu-id="2962d-158">En el símbolo del sistema, escriba `Swiftnet stop`.</span><span class="sxs-lookup"><span data-stu-id="2962d-158">At the command prompt, type `Swiftnet stop`.</span></span> <span data-ttu-id="2962d-159">Presione ENTRAR para detener SnlReceiver.exe.</span><span class="sxs-lookup"><span data-stu-id="2962d-159">Select ENTER to stop SnlReceiver.exe.</span></span>  
+    3.  <span data-ttu-id="61f9b-158">En el símbolo del sistema, escriba `Swiftnet stop`.</span><span class="sxs-lookup"><span data-stu-id="61f9b-158">At the command prompt, type `Swiftnet stop`.</span></span> <span data-ttu-id="61f9b-159">Presione ENTRAR para detener SnlReceiver.exe.</span><span class="sxs-lookup"><span data-stu-id="61f9b-159">Select ENTER to stop SnlReceiver.exe.</span></span>  
 
   
-<span data-ttu-id="2962d-160">A continuación, actualice el archivo **autoexec.bat** para establecer las variables de entorno de SWIFT.</span><span class="sxs-lookup"><span data-stu-id="2962d-160">Next, update the file **autoexec.bat** to set the SWIFT environment variables.</span></span>
+<span data-ttu-id="61f9b-160">A continuación, actualice el archivo **autoexec.bat** para establecer las variables de entorno de SWIFT.</span><span class="sxs-lookup"><span data-stu-id="61f9b-160">Next, update the file **autoexec.bat** to set the SWIFT environment variables.</span></span>
 
-## <a name="step-5-update-autoexecbat-to-configure-the-receive-adapters"></a><span data-ttu-id="2962d-161">Paso 5: Actualizar archivos autoexec.bat para configurar los adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="2962d-161">Step 5: Update autoexec.bat to configure the receive adapters</span></span>
+## <a name="step-5-update-autoexecbat-to-configure-the-receive-adapters"></a><span data-ttu-id="61f9b-161">Paso 5: Actualizar archivos autoexec.bat para configurar los adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="61f9b-161">Step 5: Update autoexec.bat to configure the receive adapters</span></span>
 
-<span data-ttu-id="2962d-162">Actualización de la **autoexec.bat** archivo para establecer las variables de entorno de SWIFT en el equipo donde instaló el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] adaptadores de recepción.</span><span class="sxs-lookup"><span data-stu-id="2962d-162">Update the **autoexec.bat** file to set the SWIFT environment variables on the computer where you installed the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] receive adapters.</span></span> <span data-ttu-id="2962d-163">Las variables de entorno se generan a partir del sistema que tiene el adaptador de recepción que se instalan en la ruta de acceso `c:\SWIFTAlliance` con una instancia del adaptador de recepción denominado **ar1**.</span><span class="sxs-lookup"><span data-stu-id="2962d-163">The environment variables are generated from the system that has the receive adapter installed in the path `c:\SWIFTAlliance` with an instance of the receive adapter named **Ra1**.</span></span> <span data-ttu-id="2962d-164">Actualizar las variables de entorno SWIFT correctamente para la configuración.</span><span class="sxs-lookup"><span data-stu-id="2962d-164">Update the SWIFT environment variables appropriately for your configuration.</span></span>  
+<span data-ttu-id="61f9b-162">Actualización de la **autoexec.bat** archivo para establecer las variables de entorno de SWIFT en el equipo donde instaló el [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] adaptadores de recepción.</span><span class="sxs-lookup"><span data-stu-id="61f9b-162">Update the **autoexec.bat** file to set the SWIFT environment variables on the computer where you installed the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] receive adapters.</span></span> <span data-ttu-id="61f9b-163">Las variables de entorno se generan a partir del sistema que tiene el adaptador de recepción que se instalan en la ruta de acceso `c:\SWIFTAlliance` con una instancia del adaptador de recepción denominado **ar1**.</span><span class="sxs-lookup"><span data-stu-id="61f9b-163">The environment variables are generated from the system that has the receive adapter installed in the path `c:\SWIFTAlliance` with an instance of the receive adapter named **Ra1**.</span></span> <span data-ttu-id="61f9b-164">Actualizar las variables de entorno SWIFT correctamente para la configuración.</span><span class="sxs-lookup"><span data-stu-id="61f9b-164">Update the SWIFT environment variables appropriately for your configuration.</span></span>  
   
- <span data-ttu-id="2962d-165">El siguiente es un ejemplo del archivo autoexe.bat:</span><span class="sxs-lookup"><span data-stu-id="2962d-165">The following is a sample of the autoexe.bat file:</span></span>
+ <span data-ttu-id="61f9b-165">El siguiente es un ejemplo del archivo autoexe.bat:</span><span class="sxs-lookup"><span data-stu-id="61f9b-165">The following is a sample of the autoexe.bat file:</span></span>
   
 ```  
 SET COMPUTERNAME=<Machine Name>  
@@ -167,11 +167,11 @@ SET Path=%PATH%;C:\SWIFTAlliance\RA\lib
   
 ```  
   
-## <a name="see-some-examples"></a><span data-ttu-id="2962d-166">Se muestran algunos ejemplos</span><span class="sxs-lookup"><span data-stu-id="2962d-166">See some examples</span></span>
-<span data-ttu-id="2962d-167">Para obtener ejemplos de mensajes de FileAct e InterAct, consulte [interactuar de ejemplo y los mensajes de FileAct](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md).</span><span class="sxs-lookup"><span data-stu-id="2962d-167">For examples of FileAct and InterAct messages, see [Sample InterAct and FileAct Messages](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md).</span></span>  
+## <a name="see-some-examples"></a><span data-ttu-id="61f9b-166">Se muestran algunos ejemplos</span><span class="sxs-lookup"><span data-stu-id="61f9b-166">See some examples</span></span>
+<span data-ttu-id="61f9b-167">Para obtener ejemplos de mensajes de FileAct e InterAct, consulte [interactuar de ejemplo y los mensajes de FileAct](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md).</span><span class="sxs-lookup"><span data-stu-id="61f9b-167">For examples of FileAct and InterAct messages, see [Sample InterAct and FileAct Messages](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md).</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="2962d-168">Vea también</span><span class="sxs-lookup"><span data-stu-id="2962d-168">See Also</span></span>  
+## <a name="see-also"></a><span data-ttu-id="61f9b-168">Vea también</span><span class="sxs-lookup"><span data-stu-id="61f9b-168">See Also</span></span>  
 
-[<span data-ttu-id="2962d-169">Instalar los adaptadores FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="2962d-169">Install the FileAct and InterAct Adapter</span></span>](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
-[<span data-ttu-id="2962d-170">Desinstalar o reparar el adaptador de FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="2962d-170">Uninstall or repair the FileAct and InterAct adapter</span></span>](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  
-[<span data-ttu-id="2962d-171">Leer los problemas de instalación conocidos</span><span class="sxs-lookup"><span data-stu-id="2962d-171">Read the installation known issues</span></span>](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)
+[<span data-ttu-id="61f9b-169">Instalar los adaptadores FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="61f9b-169">Install the FileAct and InterAct Adapter</span></span>](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
+[<span data-ttu-id="61f9b-170">Desinstalar o reparar el adaptador de FileAct e InterAct</span><span class="sxs-lookup"><span data-stu-id="61f9b-170">Uninstall or repair the FileAct and InterAct adapter</span></span>](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  
+[<span data-ttu-id="61f9b-171">Leer los problemas de instalación conocidos</span><span class="sxs-lookup"><span data-stu-id="61f9b-171">Read the installation known issues</span></span>](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)

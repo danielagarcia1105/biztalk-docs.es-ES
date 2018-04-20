@@ -1,1 +1,1 @@
-<span data-ttu-id="65346-101">Acelerador de BizTalk para RosettaNet (BTARN)</span><span class="sxs-lookup"><span data-stu-id="65346-101">BizTalk Accelerator for RosettaNet (BTARN)</span></span>
+<span data-ttu-id="edf25-101">Acelerador de BizTalk para RosettaNet (BTARN)</span><span class="sxs-lookup"><span data-stu-id="edf25-101">BizTalk Accelerator for RosettaNet (BTARN)</span></span>
