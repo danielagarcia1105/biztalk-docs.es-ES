@@ -1,22 +1,22 @@
 ---
-title: "Configuración de las propiedades de sobres de reserva (configuración de intercambio de EDIFACT EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de sobres de reserva (configuración de intercambio de EDIFACT EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8826041e-02fa-4086-a774-d44a388f42b1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b6a141b852f85947165d3d3d4d638cf1cb10ccb0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="configuring-fallback-envelope-properties-edifact-interchange-settngs"></a>Configuración de propiedades de sobre de reserva (configuración de intercambio EDIFACT)
 Esta sección proporciona instrucciones acerca de cómo configurar el sobre para mensajes EDIFACT salientes.  
@@ -46,4 +46,4 @@ Esta sección proporciona instrucciones acerca de cómo configurar el sobre para
 8.  Haga clic en **aplicar** para aceptar los cambios antes de continuar con la configuración o haga clic en **Aceptar** para validar los cambios y, a continuación, cierre el cuadro de diálogo.  
   
 ## <a name="see-also"></a>Vea también  
- [Configurar propiedades de acuerdo de reserva de EDIFACT para el procesamiento de intercambio](../core/configuring-edifact-fallback-agreement-properties-for-interchange-processing.md)
+ [Configuración de las propiedades de acuerdos de reserva de EDIFACT para el procesamiento de intercambio](../core/configuring-edifact-fallback-agreement-properties-for-interchange-processing.md)

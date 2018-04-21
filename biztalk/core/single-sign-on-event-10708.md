@@ -1,22 +1,22 @@
 ---
-title: "Inicio de sesión único: Evento 10708 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10708 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63675191-41cb-43fc-9355-e4ddc3f354c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d600c39b2e79e619e5adfbda2ffc152169ccd5d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="single-sign-on-event-10708"></a>Inicio de sesión único: Evento 10708
 ## <a name="details"></a>Detalles  
@@ -37,10 +37,10 @@ ms.lasthandoff: 09/20/2017
 ## <a name="user-action"></a>Acción del usuario  
  Para resolver esta advertencia, haga lo siguiente:  
   
--   Use el complemento MMC de administración de SSO, (sistema &#124; Propiedades de &#124; Opciones) o la herramienta de línea de comandos `ssomanage –enable winsync/extsync` para habilitar los marcadores globales.  
+-   Usar el SSO administrador complemento MMC, (sistema &#124; propiedades &#124; opciones) o la herramienta de línea de comandos `ssomanage –enable winsync/extsync` para habilitar los marcadores globales.  
   
 ## <a name="more-info"></a>Más información
   
--   **Marcas de inicio de sesión único de Enterprise**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-   **Marcas de inicio de sesión único de Enterprise** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
   
 -   [Cómo administrar la sincronización de contraseña](../core/how-to-administer-password-synchronization.md)
