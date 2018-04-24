@@ -18,18 +18,18 @@ ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
 ---
-# <a name="running-sso-projects"></a><span data-ttu-id="13a4b-102">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="13a4b-102">Running SSO Projects</span></span>
-<span data-ttu-id="13a4b-103">Puede ejecutar un proyecto de inicio de sesión único (SSO) de ejemplo desde Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="13a4b-103">You can run a sample Single Sign-On (SSO) project from Internet Explorer.</span></span>  
+# <a name="running-sso-projects"></a><span data-ttu-id="04d2f-102">Ejecución de proyectos SSO</span><span class="sxs-lookup"><span data-stu-id="04d2f-102">Running SSO Projects</span></span>
+<span data-ttu-id="04d2f-103">Puede ejecutar un proyecto de inicio de sesión único (SSO) de ejemplo desde Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="04d2f-103">You can run a sample Single Sign-On (SSO) project from Internet Explorer.</span></span>  
   
-## <a name="run-a-sample-from-a-web-browser"></a><span data-ttu-id="13a4b-104">Ejecutar un ejemplo de un explorador web</span><span class="sxs-lookup"><span data-stu-id="13a4b-104">Run a sample from a web browser</span></span>
+## <a name="run-a-sample-from-a-web-browser"></a><span data-ttu-id="04d2f-104">Ejecutar un ejemplo de un explorador web</span><span class="sxs-lookup"><span data-stu-id="04d2f-104">Run a sample from a web browser</span></span>
   
-1.  <span data-ttu-id="13a4b-105">Abra el explorador.</span><span class="sxs-lookup"><span data-stu-id="13a4b-105">Open your browser.</span></span>  
+1.  <span data-ttu-id="04d2f-105">Abra el explorador.</span><span class="sxs-lookup"><span data-stu-id="04d2f-105">Open your browser.</span></span>  
   
-2.  <span data-ttu-id="13a4b-106">Vaya a la dirección URL siguiente:</span><span class="sxs-lookup"><span data-stu-id="13a4b-106">Go to the following URL:</span></span>  
+2.  <span data-ttu-id="04d2f-106">Vaya a la dirección URL siguiente:</span><span class="sxs-lookup"><span data-stu-id="04d2f-106">Go to the following URL:</span></span>  
   
-     <span data-ttu-id="13a4b-107">http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1" >< ns0:method_list_method >< ns1:method_list % 20xmlns: ns1 = "http://microsoft.com/exposed/object" >< ns1:comp_code >< / ns1:comp_code >< ns1:comp_name >< / ns1:comp_name >< / ns1:object_1 >< / ns0:method_ lista >< / ns0:method_list_method ></span><span class="sxs-lookup"><span data-stu-id="13a4b-107">http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method></span></span>  
+     <span data-ttu-id="04d2f-107">http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method></span><span class="sxs-lookup"><span data-stu-id="04d2f-107">http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method></span></span>  
   
-     <span data-ttu-id="13a4b-108">En este caso, no es necesario proporcionar las credenciales.</span><span class="sxs-lookup"><span data-stu-id="13a4b-108">In this case, you do not need to provide the credentials.</span></span>  
+     <span data-ttu-id="04d2f-108">En este caso, no es necesario proporcionar las credenciales.</span><span class="sxs-lookup"><span data-stu-id="04d2f-108">In this case, you do not need to provide the credentials.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="13a4b-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="13a4b-109">See Also</span></span>  
- [<span data-ttu-id="13a4b-110">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="13a4b-110">Using Single Sign-On</span></span>](../core/using-single-sign-on4.md)
+## <a name="see-also"></a><span data-ttu-id="04d2f-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="04d2f-109">See Also</span></span>  
+ [<span data-ttu-id="04d2f-110">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="04d2f-110">Using Single Sign-On</span></span>](../core/using-single-sign-on4.md)
