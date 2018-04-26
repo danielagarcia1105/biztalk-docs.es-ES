@@ -184,8 +184,8 @@ Este tutorial proporciona procedimientos paso a paso para probar la directiva qu
   
 |Nombre de campo|Selector XPath|Campo XPath|Selector XPath (forma simplificada)|Campo XPath<br /><br /> (forma simplificada)|  
 |----------------|--------------------|-----------------|----------------------------------------|-----------------------------------------|  
-|Cantidad|/ * [local-name () = 'PurchaseOrder' y el espacio ='http://EAISolution.PurchaseOrder'] /\*[local-name () = 'Item' y el espacio ='']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Cantidad|  
-|Estado|/ * [local-name () = 'PurchaseOrder' y el espacio ='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|Estado|
+|Cantidad|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']/\*[local-name()='Item' and namespace-uri()='']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Cantidad|  
+|Estado|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|Estado|
 <!---Loc Comment: Please, verify strucutre in line 183 and 184--->
   
 #### <a name="to-view-the-xpath-selector-and-xpath-field-bindings-for-the-quantity-and-status-fields"></a>Para ver los enlaces de Selector Xpath y Campo Xpath de los campos Quantity y Status  
