@@ -1,23 +1,23 @@
 ---
-title: "Configurar usando la configuración básica o personalizada | Documentos de Microsoft"
-description: "Pasos para realizar una configuración básica o personalizada de BizTalk Server y obtenga información acerca de lo que ocurre con cada configuración"
-ms.custom: 
+title: Configurar usando la configuración básica o personalizada | Documentos de Microsoft
+description: Pasos para realizar una configuración básica o personalizada de BizTalk Server y obtenga información acerca de lo que ocurre con cada configuración
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 861a1237-d77a-42db-b563-d83f7930add6
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8989fd322fd9fc34e947a80b510619446a65f71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb5850c9dc32fd7b793e24cc08862d86a17abedd
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-biztalk-server"></a>Configuración de BizTalk Server
 Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante una configuración básica o una configuración personalizada.
@@ -28,7 +28,7 @@ Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 * Si su configuración usa nombres de grupo personalizados en lugar de los nombres de grupo predeterminados, use una configuración personalizada.
 * Si su configuración usa nombres de base de datos personalizados en lugar de los nombres de base de datos predeterminados, use una configuración personalizada.
 * Si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server están en equipos diferentes, se requieren grupos de dominio. Por tanto, use una configuración personalizada.
-* No puede configurar el análisis de BAM en una instancia de SQL Server con nombre mediante una configuración básica. Si usa instancias con nombre y quiere configurar el análisis de BAM, use una configuración personalizada.
+* No se puede configurar el análisis de BAM en un servidor de SQL Server con la configuración básica de instancia con nombre. Si usa instancias con nombre y quiere configurar el análisis de BAM, use una configuración personalizada.
 * La configuración básica es recomendable para usuarios que llevan a cabo una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y SQL Server en ejecución en un único servidor.
 * La configuración básica es más rápida porque crea automáticamente los grupos y las bases de datos locales con los nombres predeterminados.
 

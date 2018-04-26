@@ -1,26 +1,9 @@
 ---
-title: "Guía técnica de BizTalk | Documentos de Microsoft"
-ms.custom: 
-ms.prod: biztalk-server
-ms.date: 2016-03-17
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-ms.assetid: 157d9169-46e6-4001-aaac-273a5069fd8d
-caps.latest.revision: "9"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 6723eebb0146ff395d60dafd91e55c8a78cfac05
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/technical-guides/
+redirect_document_id: true
+ms.openlocfilehash: e6691101854150d73ba9b9b72fe1f0bf2f4503c4
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="biztalk-technical-guides"></a>Guía técnica de BizTalk
-Hay muchos productos y servicios en la familia de BizTalk, incluidos los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en [!INCLUDE[winazure](../includes/winazure-md.md)] [!INCLUDE[vm](../includes/vm-md.md)]s, [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] (MABS), y [!INCLUDE[winazure](../includes/winazure-md.md)] servicio de aplicaciones. Esta biblioteca incluye guías y notas del producto que abarcan todas las áreas, incluidos el rendimiento, las operaciones, ESB y TI de Microsoft (MSIT) escenarios.  
-  
-|En esta biblioteca|Vínculos adicionales|  
-|---------------------|----------------------|  
-|**Notas del producto Microsoft IT**<br /><br /> -   [MSCIT: Migración de cadena de suministros de concentrador de BizTalk Server 2009 a BizTalk Server 2013 R2 virtualiza concentrador](../technical-guides/mscit-supply-chain-migration-from-biztalk-2009-to-biztalk-2013-r2-virtualized.md)<br />-   [MSCIT: Uso de servicios de BizTalk de Microsoft Azure para pedidos de la cadena de suministro](../technical-guides/mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders.md)<br />-   [MSIT: Caso de migración del mundo Real desde Gentran 5.1 a BizTalk 2010](../technical-guides/msit-real-world-migration-story-from-gentran-5-1-to-biztalk-2010.md)<br /><br /> **Guías de optimización y rendimiento**<br /><br /> -   [Guía de optimización de rendimiento de BizTalk Server 2013](../technical-guides/biztalk-server-2013-performance-optimization-guide.md)<br />-   [Proactividad en BizTalk Server](../technical-guides/proactivity-in-biztalk-server.md)<br />-   [Guía de operaciones de BizTalk Server 2010](~/technical-guides/biztalk-server-2010-operations-guide.md)<br />-   [Guía de optimización de rendimiento de BizTalk Server 2010](../technical-guides/biztalk-server-2010-performance-optimization-guide.md)<br />-   [Prácticas recomendadas de instrumentación para soluciones de BizTalk de alto rendimiento](../technical-guides/instrumentation-best-practices-for-high-performance-biztalk-solutions.md)<br /><br /> **Guías de instalación y administración**<br /><br /> -   [Guía del módulo de administración de supervisión de BizTalk Server 2013](../technical-guides/biztalk-server-2013-monitoring-management-pack-guide.md)<br />-   [Información general técnica de BizTalk Server 2010](../technical-guides/biztalk-server-2010-technical-overview.md)<br />-   [Guía de Hyper-V de BizTalk Server 2010](../technical-guides/biztalk-server-2010-hyper-v-guide.md)<br />-   [Instalar BizTalk Server 2010 Accelerator para SWIFT](../technical-guides/installing-biztalk-server-2010-accelerator-for-swift.md)<br />-   [Instalación de AppFabric conectarse para servicios](../technical-guides/installing-appfabric-connect-for-services.md)<br /><br /> **Guías de Bus de servicio de empresa (ESB)**<br /><br /> -   [Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con Sentinet](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-sentinet.md)<br />-   [Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con el control de SOA](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-soa-governance.md)|-   [Los servicios de BizTalk Server y BizTalk: Galería de papel blanco](http://social.technet.microsoft.com/wiki/contents/articles/15469.biztalk-serverbiztalk-services-white-paper-gallery.aspx)<br />-   [El servidor BizTalk Server: Se admiten las rutas de actualización y guías de instalación](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx)<br />-   [BizTalk Server 2013: Guía de supervivencia de licencias y precios](http://social.technet.microsoft.com/wiki/contents/articles/20494.biztalk-server-2013-pricing-and-licensing-survival-guide.aspx)<br />-   [BizTalk Server: Guía de supervivencia de ESB](http://social.technet.microsoft.com/wiki/contents/articles/7756.biztalk-server-esb-survival-guide.aspx)<br />-   [BizTalk Server: Admite la línea de negocio (LOB) y sistemas de empresa](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)<br />-   [BizTalk Server: Cómo instalar el nuevo complemento de BizTalk Health Monitor](http://social.technet.microsoft.com/wiki/contents/articles/26466.biztalk-server-how-to-install-the-new-biztalk-health-monitor-snap-in.aspx)<br />-   [BizTalk Server: Guía de supervivencia de alta disponibilidad](http://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)<br />-   [Instalación de BizTalk Server 2013 en varios equipos virtuales en Microsoft Azure](http://social.technet.microsoft.com/wiki/contents/articles/23968.installing-biztalk-server-2013-on-multiple-virtual-machine-on-windows-azure.aspx)<br />-   [Herramientas de supervisión de BizTalk](http://social.technet.microsoft.com/wiki/contents/articles/5364.biztalk-monitoring-tools.aspx)|

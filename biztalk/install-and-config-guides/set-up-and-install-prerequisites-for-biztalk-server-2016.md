@@ -5,7 +5,7 @@ author: MandiOhlinger
 manager: anneta
 ms.prod: biztalk-server
 ms.custom: ''
-ms.date: 11/30/2017
+ms.date: 04/25/2018
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -13,11 +13,11 @@ ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
 caps.latest.revision: 11
 ms.author: mandia
-ms.openlocfilehash: 2f03aaf7d33cc494320d1ef0944b48286bc1b24c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 666cddaab4d23fa69b0ae488f665e2eda5182c05
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a>Configurar e instalar los requisitos previos de BizTalk Server 2016
 Configure el servidor e instale y configure los requisitos previos de software.
@@ -295,7 +295,7 @@ BizTalk Server requiere SQL Server. SQL Server se puede instalar en el mismo equ
         - Integration Services
 
     > [!NOTE]
-    > **SQL Server Data Tools** no se incluye en la instalación predeterminada de SQL Server. No es necesario, pero se puede descargar en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Descargue [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms), que funciona con todas las versiones compatibles de SQL Server, incluido Azure SQL Database. 
+    > **SQL Server Data Tools** no se incluye en la instalación predeterminada de SQL Server. No es necesario, pero se puede descargar en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Descargue [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms), que funciona con todas las versiones compatibles de SQL Server, incluido Azure SQL Database. Sin embargo, para conectarse a SSIS remoto cuando se usa BAM, debe instalar la misma versión de SSMS que el servidor de SSIS de destino. Por ejemplo, [instalar SSMS 16. *x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) para instalar los controladores relacionados para conectarse a SQL 2016 SSIS. SSMS 17. *x* no se puede conectar a SQL 2016 SSIS. Puede tener varias versiones de SSMS instalado. 
 
 3. Continúe con la instalación y reinicie el equipo si se le solicita.
 
@@ -304,7 +304,7 @@ BizTalk Server requiere SQL Server. SQL Server se puede instalar en el mismo equ
 1. Abra el **Administrador de configuración de SQL Server**.
 2. En el Administrador de configuración de SQL Server, expanda **configuración de red de SQL Server**y, a continuación, seleccione **protocolos para MSSQLSERVER**.
 3. Haga clic con el botón derecho en **Memoria compartida** y seleccione **Deshabilitar**.
-4. Seleccione **Services de SQL Server**, haga clic en SQL **Server (MSSQLSERVER)**y, a continuación, seleccione **detener**. Después de detener el servicio, haga clic en **SQL Server (MSSQLSERVER)**y, a continuación, seleccione **iniciar**.
+4. Seleccione **Services de SQL Server**, haga clic en SQL **Server (MSSQLSERVER)** y, a continuación, seleccione **detener**. Después de detener el servicio, haga clic en **SQL Server (MSSQLSERVER)** y, a continuación, seleccione **iniciar**.
 5. Cierre el **Administrador de configuración de SQL Server**.
 
 Normalmente, el protocolo de memoria compartida solo afecta a los clientes (BizTalk Server) que están instalados en el mismo equipo que SQL Server. Bajo determinadas condiciones de sobrecarga (como, por ejemplo, cuando los clientes obtienen acceso al servidor SQL Server desde el mismo equipo), el protocolo de memoria compartida de SQL Server puede reducir el rendimiento de BizTalk Server. Al deshabilitar el protocolo de red de memoria compartida, resuelve esto.

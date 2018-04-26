@@ -13,11 +13,11 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e7bc583cf64ab822cd785e73b3994e7f8e33a75
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 4bc7a1d1864b4e31bc20d170e2f2dd2602646188
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn
 Configurar alta disponibilidad mediante el uso de grupos de disponibilidad AlwaysOn de SQL Server.
@@ -260,7 +260,7 @@ Estas limitaciones son para BizTalk Server, SQL Server AlwaysOn disponibilidad e
 * No se administran los inicios de sesión, trabajos del Agente SQL, el perfil de correo electrónico de base de datos de SQL y las cuentas dentro de grupos de disponibilidad. Esto requiere una modificación manual de trabajos para asegurarse de que se ejecutan en la réplica principal. 
 * SQL Server Analysis Services y SQL Server Integration Services no participar en grupos de disponibilidad. Sin esta compatibilidad de SQL Server, no hay ninguna solución de alta disponibilidad para estas máquinas virtuales de Azure. Capacidades BAM de BizTalk Server dependen de estos servicios. 
 * Grupos de disponibilidad no es compatible con MSDTC entre bases de datos en la misma instancia SQL. Por lo tanto, un mínimo 8 instancias SQL necesarios para configurar BizTalk. 
-* Para solucionar MSDTC limitaciones con grupos de disponibilidad, las bases de datos de BizTalk pueden configurarse con un mínimo de dos servidores que hospedan cuatro instancias SQL. También puede usar [varias direcciones IP con el equilibrador de carga de Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). Por ello, si desea usar cuatro instancias SQL de forma predeterminada en el puerto 1433 en un solo servidor, debe cuatro direcciones IP. Si está obligado a una dirección IP, y desea hospedar varias instancias SQL en el mismo servidor, a continuación, asegúrese seguro utilizar un puerto personalizado para cada instancia de SQL. 
+* Para solucionar MSDTC limitaciones con grupos de disponibilidad, las bases de datos de BizTalk pueden configurarse con un mínimo de dos servidores que hospedan cuatro instancias SQL. También puede usar [varias direcciones IP con el equilibrador de carga de Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). Por ello, si desea usar cuatro instancias SQL de forma predeterminada en el puerto 1433 en un solo servidor, debe cuatro direcciones IP. Si están restringidos a una dirección IP, y desea hospedar varias instancias SQL en el mismo servidor, asegúrese de utilizar un puerto personalizado para cada instancia de SQL. 
 * BizTalk Server no puede usar enrutamiento de solo lectura. 
 * BizTalk Server no establece la `MultiSubnetFailover` propiedad de conexión. 
 * Trabajos de copia de seguridad de BizTalk mediante el trasvase de registros siempre tendrán como destino la réplica principal, independientemente de la preferencia de copia de seguridad definida en el grupo de disponibilidad. 

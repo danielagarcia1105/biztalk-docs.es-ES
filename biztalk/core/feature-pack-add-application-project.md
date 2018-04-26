@@ -1,21 +1,21 @@
 ---
-title: "Paso 1: Agregar aplicación json de proyecto y actualice | Documentos de Microsoft"
-description: "Agregue el proyecto de aplicación de BizTalk Server en Visual Studio y actualizar el archivo BizTalkServerInventory.json con los archivos DLL, archivos de enlace y la secuencia de implementación de las aplicaciones - Visual Studio Team Services"
-ms.custom: 
+title: 'Paso 1: Agregar aplicación json de proyecto y actualice | Documentos de Microsoft'
+description: Agregue el proyecto de aplicación de BizTalk Server en Visual Studio y actualizar el archivo BizTalkServerInventory.json con los archivos DLL, archivos de enlace y la secuencia de implementación de las aplicaciones - Visual Studio Team Services
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8d4b9773c9c7b23715b5ddae29c3c97f381da5e
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: da1c4bb3cb12cf67e84bab7aa7f38c1a893eca00
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="step-1-add-the-biztalk-server-application-project-in-visual-studio"></a>Paso 1: Agregar el proyecto de aplicación de BizTalk Server en Visual Studio
 
@@ -80,7 +80,7 @@ El proyecto de aplicación de BizTalk incluye la `BizTalkServerInventory.json` a
     ```
     "BizTalkAssemblies": [
         {
-            "Name": "AssemblyName"
+            "Name": "AssemblyName",
             "Path": "PathToAssembly
         }
     ]
@@ -91,7 +91,7 @@ El proyecto de aplicación de BizTalk incluye la `BizTalkServerInventory.json` a
     ```
     "BindingsFiles": [
         {
-            "Name": "Binding File Name"
+            "Name": "Binding File Name",
             "Path": "PathToBindingFile
         }
     ]
@@ -135,7 +135,7 @@ El proyecto de aplicación de BizTalk incluye la `BizTalkServerInventory.json` a
 
     ![Establezca la versión debug o release](../core/media/application-project-version.png)
 
-8. Haga clic en el proyecto de aplicación (por ejemplo, appProjectHelloWorld) y seleccione **generar**. Si se realiza correctamente, se crea un archivo zip en  ***yourApplicationProject*\bin\debug** carpeta:  
+8. Haga clic en el proyecto de aplicación (por ejemplo, appProjectHelloWorld) y seleccione **generar**. Si se realiza correctamente, se crea un archivo zip en ***yourApplicationProject * \bin\debug** carpeta:  
 
     ![Compilar el archivo zip](../core/media/application-project-zip-file.png)
 
