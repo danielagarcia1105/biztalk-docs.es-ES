@@ -1,15 +1,15 @@
 ---
-title: "Problemas conocidos y solución de problemas | Documentos de Microsoft"
-description: "Errores conocidos, zombies, solucionar problemas de rendimiento, solución de problemas de adaptadores, solucionar problemas de permisos, solucionar problemas de EDI y AS2 y mucho más en BizTalk Server"
-ms.custom: 
+title: Problemas conocidos y solución de problemas | Documentos de Microsoft
+description: Errores conocidos, zombies, solucionar problemas de rendimiento, solución de problemas de adaptadores, solucionar problemas de permisos, solucionar problemas de EDI y AS2 y mucho más en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecb934c6-3efa-40b6-949b-a04a73e60b07
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286692"
 ---
 # <a name="troubleshooting"></a><span data-ttu-id="f0ff1-103">Solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="f0ff1-103">Troubleshooting</span></span>
 
