@@ -11,11 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2df2cb82508a12e8e8d279204130d2deedd744f4
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 37928509c255dbb2720ad393dfc0f1cee0386a85
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320948"
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>Paso 3: Crear la compilación y la versión de definición
 
@@ -91,9 +92,10 @@ Cuando la compilación se realiza correctamente, la definición de la versión i
 
 7. Seleccione el **implementar** , escriba los valores y de la tarea: 
 
-    **Nombre de la operación**: las opciones: * **crear nueva aplicación de BizTalk**: implementa una nueva aplicación. Si la aplicación ya existe, desinstala las aplicaciones actuales (detención completa) e instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualiza en el repositorio. 
-        * **Actualizar una aplicación de BizTalk existente**: anexa los cambios, como esquemas, a una aplicación ya se está ejecuta. No se requiere una nueva implementación completa de la aplicación.
-        * **Instalar la aplicación de BizTalk Server**: [instalar las aplicaciones](../core/how-to-install-a-biztalk-application.md), y escriba el nombre del equipo de administración de BizTalk y la ruta de acceso del paquete de implementación.
+    **Nombre de la operación**: las opciones:   
+        - **Crear nueva aplicación de BizTalk**: implementa una nueva aplicación. Si la aplicación ya existe, desinstala las aplicaciones actuales (detención completa) e instala la nueva aplicación. Si está habilitada la integración continua, lo automáticamente vuelve a implementar la aplicación cuando se actualiza en el repositorio.   
+        - **Actualizar una aplicación de BizTalk existente**: anexa los cambios, como esquemas, a una aplicación ya se está ejecuta. No se requiere una nueva implementación completa de la aplicación.  
+        - **Instalar la aplicación de BizTalk Server**: [instalar las aplicaciones](../core/how-to-install-a-biztalk-application.md), y escriba el nombre del equipo de administración de BizTalk y la ruta de acceso del paquete de implementación.  
 
      ![Implementar las operaciones](../core/media/vsts-deploy-operations.png)
 

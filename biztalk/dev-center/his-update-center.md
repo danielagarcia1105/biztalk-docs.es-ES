@@ -1,19 +1,20 @@
 ---
-title: "Centro de actualización para Host Integration Server | Documentos de Microsoft"
+title: Centro de actualización para Host Integration Server | Documentos de Microsoft
 description: Ver todos los disponibles actualizaciones acumulativas y service Pack disponible para su y proveedor OLE DB para DB2
 author: MandiOhlinger
 manager: anneta
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
-ms.openlocfilehash: 25a2b89e7048d957d8f54a2e897f59817281eff5
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 896d9ac6e9a53e218791b37b9c581c74a76806c1
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320940"
 ---
 # <a name="update-center-for-host-integration-server-and-ole-db-provider-for-db2"></a>Centro de actualización para Host Integration Server y el proveedor OLE DB para DB2
 
@@ -39,7 +40,7 @@ Estos adaptadores son actualizados por las actualizaciones acumulativas de HIS.
 
 | Versión del producto | Service Pack más reciente | Actualización acumulativa más reciente |
 | --- | --- | --- |
-| SU 2016 | n/d | CU 1 ([KB 3216544](https://support.microsoft.com/kb/3216544)) |
+| SU 2016 | n/d | CU 2 ([KB 4043569](https://support.microsoft.com/kb/4043569)) |
 | SU 2013 | n/d | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
 |  HIS 2010 | n/d | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
 |  SU 2009 | n/d | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |

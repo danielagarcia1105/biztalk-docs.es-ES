@@ -10,15 +10,16 @@ ms.topic: article
 helpviewer_keywords:
 - SELECT statement, syntax for
 ms.assetid: 47120d74-bf41-4622-a6bc-7b8ddc959305
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f57cac0673a6520de4b0d881527bbc7b670ca1b
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 343e96bb25a062bd524f25c770137bc64227063d
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320964"
 ---
 # <a name="syntax-for-a-select-statement-in-sap"></a>Sintaxis de una instrucción SELECT en SAP
 Las siguientes secciones describen las especificaciones de gramática para implementar consultas SELECT sobre la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Tenga en cuenta que, en muchos casos, la sintaxis es un poco diferente de la sintaxis básica de Transact-SQL.  
@@ -37,7 +38,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
 -   **<Join_Condition>** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
   
--   **\<predicate\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
+-   **\<predicado\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
   
  Las condiciones admitidas y las expresiones son:  
   
@@ -208,9 +209,9 @@ Table | '['Table']'
   
 -   Una instrucción SELECT utilizando [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] admite nombres de parámetro de valores de argumento en una consulta SELECT. Sin embargo, asegúrese de que seguir estas reglas con respecto a los nombres de parámetro:  
   
-    -   En la consulta SELECT, una "@" símbolo debe preceder al nombre de parámetro.  
+    -   En la consulta SELECT, una "\@" símbolo debe preceder al nombre de parámetro.  
   
-    -   El "@" símbolo debe ir seguido por un carácter alfabético (A-z o a-z).  
+    -   El "\@" símbolo debe ir seguido por un carácter alfabético (A-z o a-z).  
   
     -   El nombre del parámetro puede contener caracteres alfanuméricos (A-z, a-z o 0-9) y caracteres especiales. Los únicos caracteres especiales que se pueden incluir en el nombre del parámetro son caracteres de subrayado "_" y el hash "#".  
   
