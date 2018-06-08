@@ -1,25 +1,24 @@
 ---
 title: Usar campos distintivos y campos de propiedades | Documentos de Microsoft
+description: Obtenga información acerca de las diferencias entre los conjuntos de propiedades, campos distintivos y campos de propiedades. Los campos distintivos utilizan la ruta de acceso en el campo de mensaje, campos de propiedades utiliza el el nombre tiene y el espacio de nombres de esquema y los conjuntos de propiedades asignan las propiedades de contexto de un mensaje (un conjunto de propiedades) a las propiedades de contexto de otro mensaje de BizTalk Server
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 05/02/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- messages, distinquished fields
-- messages, properties
 ms.assetid: 264ee15e-be9a-4ba2-9c61-a1570b20378e
 caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18b5d5ee3b29c068b3a37d248b9fb20f07bdfbb2
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 2dc6233f71bb56fe831fded343e6557292cdb315
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848908"
 ---
 # <a name="using-distinguished-fields-and-property-fields"></a>Usar campos distintivos y campos de propiedades
 los campos distintivos son datos de mensaje de especial interés que se usan principalmente para tomar decisiones o manipular datos de la orquestación.  
@@ -50,7 +49,7 @@ MyMessage(Invoice.PropertySchema.InvoiceID)
 ```  
   
 > [!NOTE]
->  Cuando se utiliza una palabra clave reservada como el nombre de un campo en un esquema y promocionar el campo seleccionando promoción rápida, se cambia el nombre de propiedad del campo a __\<palabra clave reservada\>. (El subrayado doble se agrega delante del nombre de la propiedad.) Sin embargo, si usa este nombre de propiedad en una expresión de orquestación, recibirá un error del compilador al crear la orquestación.  Para solucionarlo, debe agregar manualmente una @ delante del subrayado doble. Por ejemplo,  
+>  Cuando se utiliza una palabra clave reservada como el nombre de un campo en un esquema y promocionar el campo seleccionando promoción rápida, se cambia el nombre de propiedad del campo a __\<palabra clave reservada\>. (El subrayado doble se agrega delante del nombre de la propiedad.) Sin embargo, si usa este nombre de propiedad en una expresión de orquestación, recibirá un error del compilador al crear la orquestación.  Para solucionar este error, debe agregar manualmente \@ delante del subrayado doble. Por ejemplo,  
 >   
 >  `MyMessage(Invoice.PropertySchema.@__Name) = "Product Name";`  
   
@@ -67,4 +66,4 @@ MyMessage2(*)=MyMessage1(*);
  [Promoción de propiedades](../core/promoting-properties.md)   
  [Uso de filtros con la forma de mensaje de recepción](../core/using-filters-with-the-receive-message-shape.md)   
  [Usar mensajes en orquestaciones](../core/using-messages-in-orchestrations.md)   
- [Acerca de las propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)
+ [Propiedades de contexto de mensaje de BizTalk](../core/about-biztalk-message-context-properties.md)
