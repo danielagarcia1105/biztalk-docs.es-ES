@@ -1,22 +1,23 @@
 ---
-title: "Apéndice D: herramientas para medir el rendimiento | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice D: herramientas para medir el rendimiento | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 024f4a08-f3fd-4786-8549-0da5463c0bb9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19953e021a2416f777d9b28c14b1eb8516c70c81
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: f34e2bcda68a9ce2b56af5987f26f071378a52df
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848892"
 ---
 # <a name="appendix-d-tools-for-measuring-performance"></a>Apéndice D: herramientas para medir el rendimiento
 En este tema se describe varias herramientas que pueden utilizar para supervisar y evaluar el rendimiento de un entorno de BizTalk Server.  
@@ -49,7 +50,7 @@ En este tema se describe varias herramientas que pueden utilizar para supervisar
 >  Uso de esta herramienta no es compatible con Microsoft y Microsoft no otorga ninguna garantía sobre la idoneidad de este programa. La utilización de este programa queda bajo su propia responsabilidad.  
   
 ## <a name="iometer"></a>IOMeter  
- IOMeter es una herramienta de código abierto que se usa para medir rendimiento de E/S de disco. Vea [http://www.iometer.org](http://www.iometer.org/).
+ IOMeter es una herramienta de código abierto que se usa para medir rendimiento de E/S de disco. Vea [ http://www.iometer.org ](http://www.iometer.org/).
   
 > [!NOTE]  
 >  Uso de esta herramienta no es compatible con Microsoft y Microsoft no otorga ninguna garantía sobre la idoneidad de este programa. La utilización de este programa queda bajo su propia responsabilidad.  
@@ -59,7 +60,7 @@ En este tema se describe varias herramientas que pueden utilizar para supervisar
  Pathping proporciona información acerca de la posible pérdida de datos en uno o varios saltos de enrutador en la forma de un host de destino. Para ello, pathping envía paquetes de protocolo de mensajes de Control de Internet (ICMP) a cada enrutador en la ruta de acceso. 
   
 ## <a name="sql-server-tools-for-performance-monitoring-and-tuning"></a>Herramientas de supervisión y optimización del rendimiento de SQL Server  
-SQL Server proporciona varias herramientas para supervisar los eventos de SQL Server y para optimizar el diseño físico de la base de datos. Vea [supervisión de rendimiento y herramientas de optimización](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools). 
+SQL Server proporciona varias herramientas para supervisar los eventos de SQL Server y para optimizar el diseño físico de la base de datos. Vea [supervisión de rendimiento y herramientas de optimización](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools). 
   
 ### <a name="sql-profiler"></a>SQL Profiler  
  Microsoft SQL Server Profiler puede usarse para capturar instrucciones Transact-SQL que se envían a SQL Server y conjuntos de resultados de SQL Server de estas instrucciones. Dado que SQL Server está totalmente integrado con SQL Server, el análisis de una traza del analizador de SQL Server puede ser una herramienta útil para analizar problemas que pueden producirse en BizTalk Server al leer y escribir en las bases de datos de SQL Server. Vea [mediante SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions).

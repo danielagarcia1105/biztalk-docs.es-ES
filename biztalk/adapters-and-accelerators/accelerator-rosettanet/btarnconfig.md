@@ -1,11 +1,11 @@
 ---
 title: BtarnConfig | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, exporting configuration data
@@ -13,21 +13,22 @@ helpviewer_keywords:
 - BtarnConfig utility
 - BTARN, importing configuration data
 ms.assetid: 8c95be2a-7df5-47fb-ae2d-64fa27e2811a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78ab62a86e97bf70e07629052a850b5aea2cee27
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 507379535b09e3b44355f6b0f6f1373eb142eab4
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855543"
 ---
 # <a name="btarnconfig"></a>BtarnConfig
 Use la utilidad BtarnConfig para importar datos de configuración en, o exportar datos de configuración de, un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] entorno. Estos datos de configuración son los datos que se establece mediante la consola de administración de BTARN, incluidos los valores de configuración de proceso, organizaciones internas, socios comerciales y acuerdos.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*\>\ archivos de programa\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK  
+ \<*unidad*\>\ archivos de programa (x86)\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK  
   
 ## <a name="running-btarnconfig"></a>Ejecutando BtarnConfig  
   
@@ -35,7 +36,7 @@ Use la utilidad BtarnConfig para importar datos de configuración en, o exportar
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*\>\ archivos de programa\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
+2.  Mover a \< *unidad*\>\ archivos de programa (x86)\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 3.  En el símbolo del sistema, escriba **BtarnConfig**, escriba los modificadores correspondientes y, a continuación, presione ENTRAR.  
   
@@ -60,9 +61,9 @@ BTARNCONFIG /EXPORT <filename>.xml [/H] [/P] [/R] [/A]
 ### <a name="syntax-description"></a>Descripción de la sintaxis  
  En la tabla siguiente describe cada parte de la sintaxis que usa la utilidad BtarnConfig.  
   
-|Sintaxis|Description|  
+|Sintaxis|Descripción|  
 |------------|-----------------|  
-|\<*nombre de archivo*.xml\>|Ruta de acceso completa del archivo para importar o exportar desde. Si no se proporciona una ruta de acceso, en BTARN se da por supuesto que la ruta de acceso es \< *unidad*\>\ archivos de programa\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet \SDK.|  
+|\<*nombre de archivo*.xml\>|Ruta de acceso completa del archivo para importar o exportar desde. Si no se proporciona una ruta de acceso, en BTARN se da por supuesto que la ruta de acceso es \< *unidad*\>\ archivos de programa (x86)\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<versión\> Acelerador para RosettaNet\SDK.|  
 |**E IMPORTACIÓN**|Importa los datos XML de \< *filename*.xml\> en la configuración de BTARN.|  
 |**/ EXPORTACIÓN**|Exporta la configuración de BTARN como datos XML a \< *filename*.xml\>.|  
 |**/H**|Importa o exporta los datos de configuración de la organización principal.|  
@@ -70,7 +71,7 @@ BTARNCONFIG /EXPORT <filename>.xml [/H] [/P] [/R] [/A]
 |**/R**|Importa o exporta datos de configuración de proceso.|  
 |**/A**|Importa o exporta datos de configuración del acuerdo.|  
   
-## <a name="remarks"></a>Comentarios  
+## <a name="remarks"></a>Notas  
  Si no se proporciona uno de los **/H**, **/P**, **/r**, o **/A** se activa, el BtarnConfig utilidad importa o exporta todos los datos. Al exportar todos los datos en una sola operación, BtarnConfig exporta los datos en el archivo XML en el orden siguiente: inicio de las organizaciones, socios comerciales, la configuración del proceso y acuerdos.  
   
  Si hay un problema con el archivo que va a importar desde estructural, BTARN detectará el error durante la fase de validación de esquema y se producirá un error en la operación antes de importan los datos. Si se produce otro error, por ejemplo, está intentando importar un artefacto duplicado o HTTPS es necesario para el contrato de PIP y, a continuación, se producirá un error en la operación de importación. Sin embargo, todos los datos se importarán hasta que punto permanecerá en la configuración.  

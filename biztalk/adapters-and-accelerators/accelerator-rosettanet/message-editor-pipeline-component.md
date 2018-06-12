@@ -1,11 +1,11 @@
 ---
-title: "Componente de canalización del Editor de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización del Editor de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, Message Editor Pipeline Component
@@ -13,15 +13,16 @@ helpviewer_keywords:
 - messages, editing
 - pipelines, Message Editor Pipeline Component
 ms.assetid: f2b22dea-54e8-410b-868f-2978139f438b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f5877fe04a87a8387340c8e4b004300f41e609e
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 7f7685fbf800ad69b20eda31e9b64cb75ec7c511
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855687"
 ---
 # <a name="message-editor-pipeline-component"></a>Componente de canalización del editor de mensajes
 Este componente permite editar automáticamente cualquier parte de un mensaje de varias partes dentro de una canalización de envío o recepción. Este componente se agrega a una canalización existente para configurar el reemplazo como parte del procesamiento normal.  
@@ -35,11 +36,11 @@ Este componente permite editar automáticamente cualquier parte de un mensaje de
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-3.  Vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, seleccione **MessageEditor.csproj**y haga clic en **Abrir**.  
+3.  Mover a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component, seleccione **MessageEditor.csproj**y, a continuación, haga clic en **abrir** .  
   
 4.  Inicie el símbolo del sistema de Visual Studio.  
   
-5.  En el símbolo del sistema, vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
+5.  En el símbolo del sistema, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug.  
   
 6.  En el símbolo del sistema, escriba **sn -k MessageEditor.snk** para crear una clave y, a continuación, presione ENTRAR.  
   
@@ -47,7 +48,7 @@ Este componente permite editar automáticamente cualquier parte de un mensaje de
   
 8.  En la página **Propiedad de MessageEditor** , haga clic en la ficha **Firma** y, a continuación, haga clic en la casilla **Firmar el ensamblado** .  
   
-9. En el menú desplegable **Elegir un archivo de clave de nombre seguro** , vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug, seleccione **MessageEditor.snk** y haga clic en **Abrir**.  
+9. En **elegir un archivo de clave de nombre seguro** lista desplegable, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para Component\obj\debug de canalización RosettaNet\ SDK\Message Editor y seleccione **MessageEditor.snk** y, a continuación, haga clic en **abiertos**.  
   
 10. En el Explorador de soluciones, haga clic con el botón derecho en **MessageEditor**y, a continuación, haga clic en **Compilar**. En el panel de salida, compruebe que la compilación se realizó correctamente.  
   

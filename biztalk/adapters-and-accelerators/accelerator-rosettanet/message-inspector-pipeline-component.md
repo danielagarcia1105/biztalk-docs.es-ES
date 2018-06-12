@@ -1,11 +1,11 @@
 ---
-title: "Componente de canalización del Inspector de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización del Inspector de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -14,15 +14,16 @@ helpviewer_keywords:
 - Message Inspector Pipeline Component
 - pipelines, creating
 ms.assetid: d9c00718-c8cd-4289-8f58-e4edc61b9a05
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc9e1a520153220bcc86d844ca94203ff2b78548
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: bb6b8a2d9bcd503b1b295110665827ead3e85ee6
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855623"
 ---
 # <a name="message-inspector-pipeline-component"></a>Componente de canalización del inspector de mensajes
 Este componente de canalización le permite examinar todas las partes de un mensaje de varias partes y el contexto del mensaje para determinar si hay un problema con el mensaje. Este componente se usa para solucionar problemas.  
@@ -40,11 +41,11 @@ Este componente de canalización le permite examinar todas las partes de un mens
   
 2.  En el menú **Archivo** , seleccione **Abrir**y haga clic en **Proyecto**.  
   
-3.  Vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component, seleccione **MessageInspector.csproj**y haga clic en **Abrir**.  
+3.  Mover a C:\Program Files (x86) \Microsoft BizTalk \<versión\> seleccione Acelerador para el componente de canalización del Inspector de RosettaNet\SDK\Message **MessageInspector.csproj**y, a continuación, haga clic en  **Abra**.  
   
 4.  Abra el símbolo del sistema de Visual Studio.  
   
-5.  En el símbolo del sistema, vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug.  
+5.  En el símbolo del sistema, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Inspector canalización Component\obj\debug.  
   
 6.  En el símbolo del sistema, escriba **"sn -k MessageInspector.snk"** para crear una clave y, a continuación, presione ENTRAR.  
   
@@ -52,15 +53,15 @@ Este componente de canalización le permite examinar todas las partes de un mens
   
 8.  En la página **Propiedad de MessageInspector**  , haga clic en la ficha **Firma** y, a continuación, haga clic en la casilla **Firmar el ensamblado** .  
   
-9. En el menú desplegable **Elegir un archivo de clave de nombre seguro** , vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, seleccione **MessageInspector.snk** y haga clic en **Abrir**.  
+9. En **elegir un archivo de clave de nombre seguro** lista desplegable, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Inspector canalización Component\obj\debug y seleccione **MessageInspector.snk** y, a continuación, haga clic en **abiertos**.  
   
 10. En el Explorador de soluciones, haga clic con el botón derecho en **MessageInspector**y, a continuación, haga clic en **Generar**. En el panel de salida, compruebe que la compilación se realizó correctamente.  
   
 11. Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Accesorios**y, a continuación, haga clic en **Explorador de Windows**.  
   
-12. En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] pulse el botón derecho en el explorador, vaya a C:\Program Files\Microsoft BizTalk 2013 Accelerator para Component\obj\debug de canalización del Inspector de RosettaNet\SDK\Message, **Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**y, a continuación, haga clic en **copia**.  
+12. En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Inspector canalización Component\obj\debug, haga clic en  **Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**y, a continuación, haga clic en **copia**.  
   
-13. Vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\Pipeline Components, haga clic con el botón derecho en **Componentes de canalización**y haga clic en **Pegar**.  
+13. Mover a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para los componentes de RosettaNet\Pipeline, haga clic en **componentes de canalización**y, a continuación, haga clic en **pegar**.  
   
 14. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], en la **archivo** menú, elija **New**y, a continuación, haga clic en **proyecto**.  
   
@@ -83,7 +84,7 @@ Este componente de canalización le permite examinar todas las partes de un mens
   
 22. En el cuadro de diálogo **Páginas de propiedades** , haga clic en **Propiedades comunes**y, a continuación, haga clic en **Ensamblado**.  
   
-23. En el panel de la derecha, en el cuadro de texto asociado con el **Archivo de clave de ensamblado**, haga clic en el botón de puntos suspensivos. Vaya a C:\Archivos de programa\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug, seleccione **MessageInspector.snk**y haga clic en **Aceptar**.  
+23. En el panel derecho, en el cuadro de texto asociado con **archivo de clave de ensamblado**, haga clic en el botón de puntos suspensivos, lleve a C:\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\Message Inspector Canalización Component\obj\debug, seleccione **MessageInspector.snk**y, a continuación, haga clic en **Aceptar**.  
   
 24. En [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Diseñador de canalizaciones, seleccione la **componente de Inspector de mensajes de BTARN** forma.  
   
@@ -111,7 +112,7 @@ Este componente de canalización le permite examinar todas las partes de un mens
   
 36. En el Explorador de BizTalk, haga clic en el puerto de envío que acaba de crear, haga clic en **Dar de alta**, haga clic con el botón derecho en el puerto de envío de nuevo y, a continuación, haga clic en **Iniciar**.  
   
-## <a name="remarks"></a>Comentarios  
+## <a name="remarks"></a>Notas  
  En el procesamiento normal, solo puede examinar una de las partes del mensaje cada vez (la parte que ha designado como el cuerpo del mensaje en la orquestación). Por lo tanto, solo puede examinar una de las partes en la consola de administración de BizTalk y su capacidad para solucionar problemas es limitada. El componente de canalización del inspector de mensajes le ayuda a superar esta limitación.  
   
 ## <a name="see-also"></a>Vea también  

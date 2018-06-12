@@ -1,11 +1,11 @@
 ---
 title: Bucle invertido | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, 0A1 agreements
@@ -23,15 +23,16 @@ helpviewer_keywords:
 - syntax [loopbacks]
 - agreements, Loopback utility
 ms.assetid: b4ebbdac-05be-4dfc-a133-6b752994e85a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23c2f18d8422440f9a40645642787723642f3ee6
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b4fcd620ff90a4ca1650e4a93ad05194c1749774
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855655"
 ---
 # <a name="loopback"></a>Loopback
 Use la utilidad de bucle invertido para generar automáticamente un acuerdo de bucle invertido que es una copia reflejada de un acuerdo de principal a asociado. Esto le permite realizar intercambios de mensajes de principal a asociado y de asociado a principal en un único equipo. Puede usar esta utilidad para un escenario con mensajes de 0A1 o un escenario sin mensajes 0A1. Puede crear un acuerdo de bucle invertido para un contrato de mensaje de acción (no-0A1) o un acuerdo 0A1.  
@@ -39,7 +40,7 @@ Use la utilidad de bucle invertido para generar automáticamente un acuerdo de b
  También puede usar la utilidad para dar de alta o de baja de la organización principal para un rol de remitente. Al usar la utilidad para habilitar la organización principal, crea dos puertos de envío, \<principal\>. Async y \<inicio\>. Sincronización, que usa la organización para comunicarse con su socio comercial.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*\>\ programa comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\  
+ \<*unidad*\>\ (x86) de archivos de programa \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\  
   
 ## <a name="running-loopback"></a>Ejecución de bucle invertido  
   
@@ -47,7 +48,7 @@ Use la utilidad de bucle invertido para generar automáticamente un acuerdo de b
   
 1.  Abra un símbolo del sistema.  
   
-2.  Mover a \< *unidad*\>\ programa comunes\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
+2.  Mover a \< *unidad*\>\ (x86) de archivos de programa \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 3.  En el símbolo del sistema, escriba **bucle invertido**, escriba los conmutadores requeridos y correspondientes y, a continuación, presione ENTRAR.  
   
@@ -61,18 +62,18 @@ Loopback [/enable|/disable <home_organization>] [/mirror|/unmirror <agreement_na
 ## <a name="syntax-description"></a>Descripción de la sintaxis  
  En la tabla siguiente describe cada parte de la sintaxis que usa la utilidad de bucle invertido.  
   
-|**Sintaxis**|**Description**|  
+|**Sintaxis**|**Descripción**|  
 |----------------|---------------------|  
-|**habilitar**|Da de alta la organización designada en < home_organization > para un rol de remitente. Crea dos puertos de envío, \<inicio\>. Async y \<inicio\>. Sincronización, que el socio utiliza para comunicarse de vuelta con la organización principal.|  
-|**deshabilitar**|Anula la inscripción de la organización principal para un rol de remitente.|  
+|**Habilitar**|Da de alta la organización designada en < home_organization > para un rol de remitente. Crea dos puertos de envío, \<inicio\>. Async y \<inicio\>. Sincronización, que el socio utiliza para comunicarse de vuelta con la organización principal.|  
+|**disable**|Anula la inscripción de la organización principal para un rol de remitente.|  
 |**home_organization**|El asociado dada de alta o dar de baja para un rol de remitente.|  
-|**reflejado**|Crea un acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name**\>.|  
+|**Reflejado**|Crea un acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name**\>.|  
 |**se realizaron**|Elimina el acuerdo de bucle invertido basándose en el acuerdo designado en \< **agreement_name\>**.|  
 |**agreement_name**|El acuerdo para reflejar ni se realizaron en el escenario de bucle invertido.|  
 |**Ndel**|Establece el **0A1 acuerdo** propiedad del contrato de mensaje de acción reflejado por la utilidad de bucle invertido de \<0A1_agreement\>. A **/nde** conmutador solo pueden agregarse a un comando de bucle invertido que también contiene un **/mirror** cambiar.|  
 |**0A1_agreement**|Un contrato de 0A1 que va a usar el acuerdo de reflejado de agreement_name. Este contrato se genera un contrato de servicio de respuesta 0A1 de creación de reflejo.|  
   
-## <a name="remarks"></a>Comentarios  
+## <a name="remarks"></a>Notas  
  La utilidad de bucle invertido cambia los roles para crear el acuerdo de bucle invertido. Si una organización se encontraba la organización principal en el contrato original, la utilidad facilita la organización del asociado en el acuerdo de bucle invertido. De forma similar, si una organización se encontraba la organización del asociado en el contrato original, la utilidad facilita la organización principal en el acuerdo de bucle invertido. La utilidad también cambia la configuración de la propiedad del rol principal. Si la propiedad de la función principal es el iniciador en el contrato original, la utilidad hace el servicio de respuesta y viceversa. Todas las demás propiedades siguen siendo los mismos.  
   
  La utilidad de bucle invertido nombres el acuerdo de bucle invertido con el mismo nombre que el contrato original, precedido de "bucle invertido:". Para evitar confusiones, no asigne a un acuerdo a partir de "bucle invertido".  

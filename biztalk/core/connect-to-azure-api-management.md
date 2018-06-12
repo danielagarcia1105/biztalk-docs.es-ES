@@ -1,23 +1,24 @@
 ---
-title: "Publicar extremos SOAP administración de API | Documentos de Microsoft"
-description: "Utilice Feature Pack 1 y Feature Pack 2 para exponer un HTTP de WCF-Basic BizTalk ubicación de recepción como un extremo SOAP en administración de API. Puede hacerlo mediante la consola de administración de BizTalk o pegue el punto de conexión directamente dentro de la API de administración en el portal de Azure."
-ms.custom: 
+title: Publicar extremos SOAP administración de API | Documentos de Microsoft
+description: Utilice Feature Pack 1 y Feature Pack 2 para exponer un HTTP de WCF-Basic BizTalk ubicación de recepción como un extremo SOAP en administración de API. Puede hacerlo mediante la consola de administración de BizTalk o pegue el punto de conexión directamente dentro de la API de administración en el portal de Azure.
+ms.custom: ''
 ms.date: 11/21/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a87bfb40-7e6f-46aa-8ac7-db6d13ce7eb2
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: valrobb
 manager: anneta
-ms.openlocfilehash: 8ac1e824ad11ef18eac6deb1252101bbd1ec187a
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: eb716729dcdbac07c5b17cf267866cf282046a70
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848956"
 ---
 # <a name="publish-biztalk-soap-endpoints-in-api-management"></a>Publicar extremos de SOAP de BizTalk en administración de API
 
@@ -28,10 +29,10 @@ Exponer los extremos de SOAP de BizTalk como servicios de administración de API
 **A partir de [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, puede exponer un WCF-BasicHTTP ubicación de recepción como un punto de conexión en administración de API de Azure mediante la administración de BizTalk. 
 
 > [!TIP]
-> [¿Qué es la administración de API? ](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) es un excelente recurso para comprender y obtener más información sobre este servicio de Azure.
+> [¿Qué es la administración de API? ](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) es un excelente recurso para comprender y obtener más información sobre este servicio de Azure.
 
 ## <a name="prerequisites"></a>Requisitos previos
-* Configurar y establecer [administración de API de Azure](https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started)
+* Configurar y establecer [administración de API de Azure](https://docs.microsoft.com/azure/api-management/api-management-get-started)
 * Crear un [red virtual](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet) entre el equipo de BizTalk y la instancia de la administración de API
 * Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el servidor BizTalk Server
 
@@ -92,7 +93,7 @@ Exponer los extremos de SOAP de BizTalk como servicios de administración de API
 3. Seleccione **publicar**. Cuando se realiza correctamente, la ubicación de recepción se muestra como un servicio de administración de API en el [portal de Azure](https://portal.azure.com). 
 
 ## <a name="do-more"></a>Llevar a cabo más
-Administración de API de Azure es un servicio eficaz que se utiliza una gran cantidad de servicios de Azure, incluidas las aplicaciones de lógica. Administración de API incluye muchas características, incluidos los límites de velocidad y las cuotas, quién tiene acceso a las API, almacenar en caché y mucho más. Vea [¿qué es la administración de API?](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) para empezar a trabajar.
+Administración de API de Azure es un servicio eficaz que se utiliza una gran cantidad de servicios de Azure, incluidas las aplicaciones de lógica. Administración de API incluye muchas características, incluidos los límites de velocidad y las cuotas, quién tiene acceso a las API, almacenar en caché y mucho más. Vea [¿qué es la administración de API?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) para empezar a trabajar.
 
 ## <a name="see-also"></a>Vea también
 [Configuración del Feature Pack](configure-the-feature-pack.md)

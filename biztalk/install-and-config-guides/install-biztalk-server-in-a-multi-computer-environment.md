@@ -1,23 +1,24 @@
 ---
 title: Instalar BizTalk Server en un entorno de varios equipo | Documentos de Microsoft
-description: "Varios servidores instalación y configuración guía cuando BizTalk y SQL Server están instalados en equipos diferentes, incluidos BAM en"
-ms.custom: 
+description: Varios servidores instalación y configuración guía cuando BizTalk y SQL Server están instalados en equipos diferentes, incluidos BAM en
+ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26100e268e6dd657369bb044461c42a6ba0b5a9c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 22fd52c38d7c05fd91453900a26c048ba13bb9f4
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34849012"
 ---
 # <a name="install-biztalk-server-in-a-multi-computer-environment"></a>Instalar BizTalk Server en un entorno de varios equipos
 
@@ -226,7 +227,7 @@ Si va a actualizar la topología de alertas de escalabilidad horizontal de BAM d
 4. Volver a registrar el servicio de notificación en todos los servidores excepto el servidor donde se utiliza el programa de migración (bm.exe).
 
     1. En **programas**, haga clic en **Microsoft SQL Server 2005**, haga clic en **herramientas de configuración**y, a continuación, haga clic en **comandos de Notification Services**.
-    2. En el símbolo del sistema, escriba:`nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
+    2. En el símbolo del sistema, escriba: `nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
 
     Esto habilita los servicios de notificación iniciar sesión en la base de datos correcta (esta información se mantiene en el registro del equipo del servicio NSControl).
 
@@ -327,7 +328,7 @@ En la tabla siguiente se enumeran las afiliaciones de grupo y las cuentas de ser
 ## <a name="databases-list"></a>Lista de bases de datos
 La siguiente es la lista de bases de datos de SQL Server utilizadas en BizTalk Server:
 
-| Nombre de almacén de datos | Nombre predeterminado de la base de datos | Volume | Crecimiento | Description | 
+| Nombre de almacén de datos | Nombre predeterminado de la base de datos | Volume | Crecimiento | Descripción | 
 | ---|---|---|---|---|
 | Base de datos de SSO | SSODB | Baja | Baja | Esta base de datos de credenciales de inicio de sesión único empresarial almacena el nombre de usuario y la contraseña de forma segura.| 
 | Base de datos de administración de BizTalk | BizTalkMgmtDb | Baja | Baja | Esta base de datos es el almacén central de metainformación para todas las instancias de BizTalk Server.| 
@@ -342,7 +343,7 @@ La siguiente es la lista de bases de datos de SQL Server utilizadas en BizTalk S
 
 #### <a name="sql-server-databases-used-by-sharepoint"></a>Bases de datos de SQL Server usados por SharePoint
 
-| Nombre de almacén de datos | Nombre predeterminado de la base de datos | Volume | Crecimiento | Description | 
+| Nombre de almacén de datos | Nombre predeterminado de la base de datos | Volume | Crecimiento | Descripción | 
 |---|---|---|---|---|
 | Base de datos de configuración de Windows SharePoint Services | Definidos por el usuario | Baja | Baja | Esta base de datos contiene toda la configuración global del servidor. | 
 | Base de datos de contenido de Windows SharePoint Services | Definidos por el usuario | Media | Media | Esta base de datos incluye todo el contenido de un sitio, como elementos de lista y documentos. | 
@@ -351,7 +352,7 @@ La siguiente es la lista de bases de datos de SQL Server utilizadas en BizTalk S
 
 1. **Instalar servicios de dominio de Active Directory** -es el primer paso necesario para instalar BizTalk Server en un entorno de varios servidores instalar servicios de dominio de Active Directory para los distintos grupos de BizTalk Server y las cuentas. Para crear el dominio de Active Directory, consulte lo siguiente:
 
-    - Windows Server 2012 y versiones posterior: [instalar servicios de dominio de Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+    - Windows Server 2012 y versiones posterior: [instalar servicios de dominio de Active Directory](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
     - Windows Server 2008 R2: [instalación de AD DS y Guía paso a paso de eliminación](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
     > [!IMPORTANT]

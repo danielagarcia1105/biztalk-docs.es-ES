@@ -1,11 +1,11 @@
 ---
 title: LOBApplication | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trading partners, submitting actions
@@ -15,29 +15,30 @@ helpviewer_keywords:
 - LOBs, LOBApplication utility
 - LOBs, response messages
 ms.assetid: ad5986af-4175-49cd-806b-04e1fde63f55
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af11e69c90c9d211e36e706710c1d1de44a72399
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 7bacce1a64f59d61b5175b10fc14cde1ca862635
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855535"
 ---
 # <a name="lobapplication"></a>LOBApplication
 Use la utilidad LOBApplication para enviar un mensaje de acción o respuesta a un socio comercial, simulando un programa de escritorio real de línea de negocio (LOB).  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye ejemplos de mensajes en el \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication\ Carpeta SampleInstances.  
+ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] incluye ejemplos de mensajes en el \< *unidad*\>\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication\ Carpeta SampleInstances.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- \<*unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication  
+ \<*unidad*\>\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\LOBApplication  
   
 ## <a name="running-lobapplication"></a>Ejecutando LOBApplication  
   
 #### <a name="to-run-lobapplication"></a>Para ejecutar LOBApplication  
   
-1.  En el Explorador de Windows, desplácese a \< *unidad*\>\Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
+1.  En el Explorador de Windows, desplácese a \< *unidad*\>\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\.  
   
 2.  Haga doble clic en **LOBApplication.exe**, y, a continuación, presione ENTRAR.  
   
@@ -61,7 +62,7 @@ Use la utilidad LOBApplication para enviar un mensaje de acción o respuesta a u
 |**Enviar mensaje**|Haga clic aquí para enviar el mensaje.|  
 |**Estado**|Leer el estado de la acción en este campo.|  
   
-## <a name="remarks"></a>Comentarios  
+## <a name="remarks"></a>Notas  
  La utilidad LOBApplication crea un mensaje con las propiedades especificadas y lo envía al socio comercial. Esta utilidad escribe los datos de contenido del servicio en el mensaje en la base de datos BTARNDATA, en la tabla MessageFromLOB. Esta utilidad simula el envío de un mensaje de acción.  
   
  Los mensajes de ejemplo en la carpeta SampleInstances en la carpeta LOBApplication en la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK están preconfigurados para supone los siguientes identificadores globales de negocio (GBIs): 123456789 para la organización principal y 987654321 para el socio comercial organización. Debe cambiar los mensajes de ejemplo en un editor de texto para usar otros GBIs.  

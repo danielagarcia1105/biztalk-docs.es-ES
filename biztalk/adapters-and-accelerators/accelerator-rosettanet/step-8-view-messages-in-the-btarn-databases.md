@@ -1,26 +1,27 @@
 ---
 title: 'Paso 8: Ver los mensajes en las bases de datos BTARN | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, viewing
 - loopback tutorial, viewing messages
 - databases, viewing messages
 ms.assetid: c549670c-4428-483c-906c-eff163ddef9a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2324cca59a9104d8f40b5b6b69eca76af1004384
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 018bd2515dc2c363474c8058a861fd763cb73352
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855447"
 ---
 # <a name="step-8-view-messages-in-the-btarn-databases"></a>Paso 8: Ver los mensajes en las bases de datos BTARN
 En este paso, utilice el analizador de consultas de SQL para ver los mensajes de línea de negocio (LOB) que se almacenan en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] base de datos para comprobar que el escenario de bucle invertido funciona correctamente.  
@@ -43,7 +44,7 @@ En este paso, utilice el analizador de consultas de SQL para ver los mensajes de
   
  Flujo de trabajo de servicio de respuesta  
   
--   [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]envía el mensaje RNIF a la página de trabajo RNIFReceive.aspx donde se quita el contenedor de descodificación MIME. El mensaje se identifica como sincrónico o asincrónico y, a continuación, se reenvían a ubicación (RNIF_Sync_Receive o RNIF_Async_Receive) de recepción del modo sincrónico o asincrónico.  
+-   [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] envía el mensaje RNIF a la página de trabajo RNIFReceive.aspx donde se quita el contenedor de descodificación MIME. El mensaje se identifica como sincrónico o asincrónico y, a continuación, se reenvían a ubicación (RNIF_Sync_Receive o RNIF_Async_Receive) de recepción del modo sincrónico o asincrónico.  
   
 -   La recepción de HTTP ubicación primera guarda el formato del mensaje en la tabla MessageStorageIn para el no rechazo de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] base de datos de archivo. Ubicación de recepción de HTTP, a continuación, se descodifica, descifra (para RNIF 2.0), valida en su firma, desensambla las partes del mensaje XML, se autoriza en función de la firma y, a continuación, lo coloca en la base de datos de cuadro de mensajes con las propiedades promocionadas correctas  
   
@@ -52,14 +53,14 @@ En este paso, utilice el analizador de consultas de SQL para ver los mensajes de
 -   La instrucción SQL puerto de envío recoge el mensaje basándose en el filtro de suscripción. A continuación, guarda el mensaje en la tabla MessagesToLOB de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] base de datos.  
   
 > [!NOTE]
->  En el lado de servicio de respuesta, el servicio de respuesta pública es responsable de generar el acuse de recibo o la señal de excepción al iniciador. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]no guarda el mensaje de señal en la tabla MessagesFromLOB. Esto es porque la aplicación de LOB no genera el mensaje de señal. El mensaje de acción proseguirá con el servicio de respuesta privado, y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] lo guarda en la tabla MessagesToLOB.  
+>  En el lado de servicio de respuesta, el servicio de respuesta pública es responsable de generar el acuse de recibo o la señal de excepción al iniciador. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] no guarda el mensaje de señal en la tabla MessagesFromLOB. Esto es porque la aplicación de LOB no genera el mensaje de señal. El mensaje de acción proseguirá con el servicio de respuesta privado, y [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] lo guarda en la tabla MessagesToLOB.  
   
 > [!NOTE]
->  PIP de doble acción, el LOB en el lado de servicio de respuesta es responsable para generar un mensaje de respuesta. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]coloca en la tabla MessagesFromLOB pasen por el mismo proceso que el proceso de iniciador. En este caso, el proceso de iniciador público en el lado del iniciador nuevo envía una señal de confirmación de recepción o de una excepción para el mensaje de respuesta.  
+>  PIP de doble acción, el LOB en el lado de servicio de respuesta es responsable para generar un mensaje de respuesta. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] coloca en la tabla MessagesFromLOB pasen por el mismo proceso que el proceso de iniciador. En este caso, el proceso de iniciador público en el lado del iniciador nuevo envía una señal de confirmación de recepción o de una excepción para el mensaje de respuesta.  
   
 ### <a name="to-view-messages-in-the-btarn-databases"></a>Para ver los mensajes en las bases de datos BTARN  
   
-1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.  
+1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft SQL Server \<versión\>** y, a continuación, haga clic en **SQL Server Management Studio**.  
   
 2.  En conectar al servidor, cuadro de diálogo, haga clic en **conectar**.  
   
@@ -87,4 +88,4 @@ En este paso, utilice el analizador de consultas de SQL para ver los mensajes de
   
 ## <a name="see-also"></a>Vea también  
  [Bucle invertido](../../adapters-and-accelerators/accelerator-rosettanet/loopback.md)   
- [Tutorial de bucle invertido](../../adapters-and-accelerators/accelerator-rosettanet/loopback-tutorial.md)
+ [Tutorial de bucles invertidos](../../adapters-and-accelerators/accelerator-rosettanet/loopback-tutorial.md)

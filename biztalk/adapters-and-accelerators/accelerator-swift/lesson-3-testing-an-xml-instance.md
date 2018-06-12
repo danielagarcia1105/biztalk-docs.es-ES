@@ -1,28 +1,29 @@
 ---
-title: "Lección 3: Probar una instancia XML | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 3: Probar una instancia XML | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, XML instances
 - XML instances
 ms.assetid: 19d7dd18-17dc-4355-a4f1-5c5e6750faf3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 948ea484b5cc3138a73a67b384705ed73d9478b2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: dcb9d5ada3054219b1387d92f4244475037c26ac
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848900"
 ---
 # <a name="lesson-3-testing-an-xml-instance"></a>Lección 3: Probar una instancia XML
-En esta lección, se envía un MT103 válido que creó en las lecciones anteriores de puertos de recepción de mensaje en formato XML en el archivo. Esta acción comprueba las canalizaciones de envío que creó en módulos anteriores. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]Escribe la salida como un archivo sin formato en la carpeta de salida que seleccionó para el puerto de envío en el módulo anterior.  
+En esta lección, se envía un MT103 válido que creó en las lecciones anteriores de puertos de recepción de mensaje en formato XML en el archivo. Esta acción comprueba las canalizaciones de envío que creó en módulos anteriores. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Escribe la salida como un archivo sin formato en la carpeta de salida que seleccionó para el puerto de envío en el módulo anterior.  
   
  Iniciar el archivo de adaptador de recepción mediante la copia de un archivo con formato XML de SWIFT a la carpeta entrante. Esta acción hace que el sistema copia un archivo plano SWIFT válido a la carpeta de salida.  
   
@@ -40,4 +41,4 @@ En esta lección, se envía un MT103 válido que creó en las lecciones anterior
   
 6.  Compruebe que los dos archivos en el Bloc de notas contienen el mismo contenido.  
   
- Continúe con [módulo 8: reparar un mensaje no válido](http://msdn.microsoft.com/en-us/fb531b22-ac7a-4620-b395-87aebf56077d).
+ Continúe con [módulo 8: reparar un mensaje no válido](http://msdn.microsoft.com/fb531b22-ac7a-4620-b395-87aebf56077d).

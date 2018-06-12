@@ -2,7 +2,7 @@
 title: Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn | Documentos de Microsoft
 description: Agrupe la base de datos de BizTalk Server en varios nodos para obtener una solución de alta disponibilidad (HA) mediante SQL Server siempre en disponibles grupos (AG), incluidos los requisitos de sistema y limitaciones. Siempre AG requiere clústeres de conmutación por error de servidor de Windows (WSFC).
 ms.custom: ''
-ms.date: 04/10/2018
+ms.date: 05/14/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,11 +13,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bc7a1d1864b4e31bc20d170e2f2dd2602646188
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: ed8605ecaa1f2dc97cb68f592804219db35eb20f
+ms.sourcegitcommit: ef2c75711d8d08a2aafd389a12d203fa3d3ebe80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34759691"
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>Alta disponibilidad mediante SQL Server grupos de disponibilidad AlwaysOn
 Configurar alta disponibilidad mediante el uso de grupos de disponibilidad AlwaysOn de SQL Server.
@@ -55,7 +56,7 @@ Los clientes pueden conectarse a la réplica principal de un grupo de disponibil
 
 SQL Server no es compatible con MSDTC con AlwaysOn AG para cualquier versión anterior a 2016.  
 
-MSDTC entre bases de datos en la misma instancia de SQL Server no es compatible con grupos de disponibilidad AlwaysOn de SQL Server. Esto significa que no hay dos bases de datos de BizTalk en una transacción distribuida se pueden hospedar en la misma instancia SQL server. Para mantener la coherencia transaccional, deben hospedar bases de datos de BizTalk participan en transacciones distribuidas en varias instancias SQL server. Tenga en cuenta que no importa si las instancias de SQL se encuentran en el mismo equipo o en equipos diferentes.  
+MSDTC entre bases de datos en la misma instancia de SQL Server no es compatible con grupos de disponibilidad AlwaysOn de SQL Server. Esto significa que no hay dos bases de datos de BizTalk en una transacción distribuida se pueden hospedar en la misma instancia SQL server. Para mantener la coherencia transaccional, deben hospedar bases de datos de BizTalk participan en transacciones distribuidas en varias instancias SQL server. Tenga en cuenta que no importa si las instancias de SQL se encuentran en el mismo equipo o en equipos diferentes. 
 
 
 ## <a name="providing-high-availability-for-biztalk-databases-using-alwayson-availability-groups"></a>Proporcionar alta disponibilidad de bases de datos de BizTalk mediante grupos de disponibilidad AlwaysOn 
@@ -203,9 +204,8 @@ Esta configuración también se puede realizar con las instancias de SQL que hos
 
 ## <a name="requirements"></a>Requisitos 
 * BizTalk Server 2016 Enterprise
-* Corporativo de SQL Server 2016
-* Windows Server 2012 R2
-* Windows Server 2016 
+* SQL Server 2016 Enterprise o SQL Server 2016 Standard (vea **limitaciones conocidas** en este tema)
+* Windows Server 2012 R2 o Windows Server 2016 
 
 ### <a name="availability-group-listener-configured-with-non-default-port-1433"></a>Agente de escucha de grupo de disponibilidad configurado tiene un valor no predeterminado (1433) de puerto 
 Usar SQL alias en máquinas de BizTalk Server. 
@@ -240,7 +240,7 @@ BizTalk Server incorpora capacidades en espera de base de datos mediante el uso 
 
 Si va a agregar otras bases de datos de BizTalk para el trabajo de copia de seguridad de bases de datos de BizTalk, asegúrese de utilizar el nombre de agente de escucha de grupo de disponibilidad como el servidor de base de datos para ellos al configurar la copia de seguridad.  
  
-## <a name="references"></a>Referencias 
+## <a name="references"></a>References 
  
 * [Proporcionar una alta disponibilidad para bases de datos de servidor BizTalk Server](../core/providing-high-availability-for-biztalk-server-databases.md)  
 * [Soporte de software de servidor de Microsoft para máquinas virtuales de Microsoft Azure](https://support.microsoft.com/kb/2721672)  
@@ -264,4 +264,5 @@ Estas limitaciones son para BizTalk Server, SQL Server AlwaysOn disponibilidad e
 * BizTalk Server no puede usar enrutamiento de solo lectura. 
 * BizTalk Server no establece la `MultiSubnetFailover` propiedad de conexión. 
 * Trabajos de copia de seguridad de BizTalk mediante el trasvase de registros siempre tendrán como destino la réplica principal, independientemente de la preferencia de copia de seguridad definida en el grupo de disponibilidad. 
- 
+* SQL Server 2016 Standard admite solo una sola base de datos en cada AG de AlwaysOn de SQL. Dado que BizTalk usa muchas bases de datos, normalmente se recomienda la edición de SQL Server Enterprise.
+* Si usa máquinas virtuales de Azure, recomienda para usar una dedicado fijo de puerto TCP/IP para MSDTC. Cuando se usa un puerto TCP/IP fijo, no limitar el intervalo de puertos RPC suele utilizado con los sistemas operativos anteriores; y ayuda a simplificar el firewall y reglas del equilibrador de carga. Para evitar conflictos con puertos inferiores conocidos, considere la posibilidad de utilizar un puerto fijo superior (como > 20000). [Configuración de la compatibilidad de puerto único de DTC](https://msdn.microsoft.com/library/windows/desktop/dd573191(v=vs.85).aspx) describe la `ServerTcpPort` clave del registro. Además el puerto fijo para MSDTC, también se usa el puerto RPC principal 135. 

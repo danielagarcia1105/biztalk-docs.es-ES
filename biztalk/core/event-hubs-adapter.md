@@ -1,21 +1,22 @@
 ---
 title: Usar el adaptador de centros de eventos | Documentos de Microsoft
 description: Enviar y recibir mensajes mediante el adaptador de centros de eventos de Azure en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: plarsen
 manager: anneta
-ms.openlocfilehash: f394665a40b0a786ef6411b68ff8871e1a683614
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: cb9bbe26f07d87d7cccc084b6842b6d0974fdbb3
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848924"
 ---
 # <a name="event-hub-adapter-in-biztalk"></a>Adaptador de concentrador de eventos de BizTalk
 
@@ -26,7 +27,7 @@ Centros de eventos de Azure es una plataforma, de transmisión por secuencias de
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-* Crear un [espacio de nombres de los centros de eventos de Azure y centro de eventos](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
+* Crear un [espacio de nombres de los centros de eventos de Azure y centro de eventos](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)
 * Crear un [cuenta de almacenamiento de blobs de Azure con un contenedor](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
 * Instalar [Feature Pack 2 de](https://aka.ms/bts2016fp2) en el servidor BizTalk Server
 
@@ -44,7 +45,7 @@ Ahora se crea el centro de eventos y de que las cadenas de conexión que necesit
 
     |Use|Para|  
     |---|---|  
-    | **Inicio de sesión** | Inicie sesión en su cuenta de Azure |
+    | **inicio de sesión** | Inicie sesión en su cuenta de Azure |
     | **Suscripción** | Seleccione la suscripción que tenga el espacio de nombres EventHubs |
     | **Grupo de recursos** | Seleccione el grupo de recursos que tiene el espacio de nombres EventHubs |
 
@@ -71,7 +72,7 @@ Ahora se crea el centro de eventos y de que las cadenas de conexión que necesit
 
 Puede usar un simple archivo de puerto de recepción y ubicación para enviar mensajes a su centro de eventos de Azure. 
 
-1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\**y establece la máscara de archivo en  **\*.xml**.
+1. Crear un puerto de recepción mediante el adaptador de archivo. Dentro de la ubicación de recepción, establezca la **carpeta recepción** a **C:\Temp\In\** y establece la máscara de archivo en  **\*.xml**.
 2. En el centro de eventos de propiedades de puerto de envío, establezca la **filtros** a `BTS.ReceivePortName == FileReceivePort`.
 3. Pegue lo siguiente en un editor de texto y guarde el archivo como **EventHubMessage.xml**. Este es el mensaje de ejemplo. 
 
@@ -99,7 +100,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
     |Use|Para|  
     |---|---|  
-    | **Inicio de sesión** | Inicie sesión en su cuenta de Azure |
+    | **inicio de sesión** | Inicie sesión en su cuenta de Azure |
     | **Suscripción** | Seleccione la suscripción que tenga el espacio de nombres EventHubs |
     | **Grupo de recursos** | Seleccione el grupo de recursos que tiene el espacio de nombres EventHubs |
 
@@ -129,7 +130,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
     |Use|Para|  
     |---|---|  
-    | **Propiedades de mensaje definidas por el Namespace para el usuario** | http://schemas.Microsoft.com/BizTalk/EventHubAdapter/EventData/User es el esquema predeterminado, pero puede escribir otro esquema. Este valor representa un esquema de mensaje de BizTalk asignado a propiedades de mensaje de los centros de eventos. |
+    | **Propiedades de mensaje definidas por el Namespace para el usuario** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User es el esquema predeterminado, pero puede escribir otro esquema. Este valor representa un esquema de mensaje de BizTalk asignado a propiedades de mensaje de los centros de eventos. |
     | **Promocionar propiedades definidas por el usuario** | Opcional. Si lo prefiere puede promocionar estas propiedades. <br/><br/>**NOTA**<br/>Las propiedades que deben promocionarse deben tener un esquema de porperty implementarlo *antes de* recibir eventos.|
 
 7. Seleccione **Aceptar** para guardar los cambios. 
@@ -138,7 +139,7 @@ Puede usar un simple archivo de puerto de recepción y ubicación para enviar me
 
 Puede utilizar un puerto de envío de archivo simple para recibir mensajes desde el centro de eventos de Azure. 
 
-1. Crear un puerto de envío mediante el adaptador de archivo. En las propiedades de puerto de envío, establecer el **carpeta de destino** a **C:\Temp\Out\**y establezca el y **nombre de archivo** a **%MessageID%.xml** .
+1. Crear un puerto de envío mediante el adaptador de archivo. En las propiedades de puerto de envío, establecer el **carpeta de destino** a **C:\Temp\Out\** y establezca el y **nombre de archivo** a **%MessageID%.xml** .
 2. En el archivo de propiedades de puerto de envío, establezca la **filtros** a `BTS.ReceivePortName == EHReceivePort`.
 3. El concentrador de eventos de inicio ubicación de recepción y el puerto de envío de archivos.
 4. Buscar mensajes en la carpeta de destino (c:\temp\out).

@@ -1,11 +1,11 @@
 ---
-title: "Asignación de derechos | Documentos de Microsoft"
-ms.custom: 
+title: Asignación de derechos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user accounts, assigning permissions
@@ -18,15 +18,16 @@ helpviewer_keywords:
 - unparsed document library
 - security, permissions
 ms.assetid: cee44240-aa00-4080-9e7f-728b2421102b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a980fde1a4aea5d2e741fa576e55e659c0835f9d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a0d152442bf375c43d371e5ca5c3fcfb9dc5939
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848964"
 ---
 # <a name="assigning-rights"></a>Asignación de derechos
 Deben conceder los siguientes permisos en las bibliotecas de documentos para cada grupo de sitio que creó en el tema anterior:  
@@ -49,4 +50,4 @@ Deben conceder los siguientes permisos en las bibliotecas de documentos para cad
 ## <a name="new-swift-mt-mx-messages-document-library"></a>Nueva MT SWIFT / biblioteca de documentos de mensajes MX  
  Las bibliotecas de documentos nuevos mensajes de SWIFT MT y mensajes de MX de SWIFT nuevos se crean en el momento de implementar el sitio MRSR. Las bibliotecas de documentos nuevos mensajes de SWIFT MT y nuevos mensajes de SWIFT MX almacenan nuevas plantillas de SWIFT XML o mensajes de "reutilizable". Puede utilizar estos mensajes para crear nuevo SWIFT mensajes representados en formato XML de InfoPath. Estos mensajes se cargan en las bibliotecas de documentos nuevos mensajes de SWIFT MT y nuevos mensajes de SWIFT MX por el usuario haciendo clic en el botón de carga en la biblioteca de documentos. Además, podrá distribuir las plantillas de nuevo mensaje SWIFT para restringir el acceso a los usuarios especificados. Para ello, primero cree una nueva biblioteca de documentos y, a continuación, copie las plantillas XML necesarias para la biblioteca de documentos.  
   
- Para obtener más información acerca de la herramienta FormPublish, consulte [FormPublish herramienta](http://msdn.microsoft.com/en-us/09a6ed31-5917-4776-9a5e-955af440cdac) en la sección de herramientas.
+ Para obtener más información acerca de la herramienta FormPublish, consulte [FormPublish herramienta](http://msdn.microsoft.com/09a6ed31-5917-4776-9a5e-955af440cdac) en la sección de herramientas.
