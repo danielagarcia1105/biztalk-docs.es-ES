@@ -1,0 +1,1 @@
+<span data-ttu-id="7030a-101">\<*unidad*\>\Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK\\</span><span class="sxs-lookup"><span data-stu-id="7030a-101">\<*drive*\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\\</span></span>

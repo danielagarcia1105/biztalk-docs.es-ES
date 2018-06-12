@@ -1,11 +1,11 @@
 ---
 title: 'Paso 7: Crear un mensaje de LOB de ejemplo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, LOB
@@ -13,40 +13,41 @@ helpviewer_keywords:
 - creating, LOB messages
 - LOBs, creating messages
 ms.assetid: 3023bbc0-5bc4-4e5a-a345-c3253874f0d3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1246f56615381d2627db3058dc821ba85bf8b74d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 7f4bb518217a3fac3f42b60daccbfedc51ee15c0
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855495"
 ---
-# <a name="step-7-create-a-sample-lob-message"></a><span data-ttu-id="fb2e5-102">Paso 7: Crear un mensaje de LOB de ejemplo</span><span class="sxs-lookup"><span data-stu-id="fb2e5-102">Step 7: Create a Sample LOB Message</span></span>
-<span data-ttu-id="fb2e5-103">En este paso, se utiliza la utilidad de la aplicación de LOB para crear un mensaje de la línea de negocio (LOB) de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-103">In this step, you use the LOB Application utility to create a sample line-of-business (LOB) message.</span></span>  
+# <a name="step-7-create-a-sample-lob-message"></a><span data-ttu-id="7d9bc-102">Paso 7: Crear un mensaje de LOB de ejemplo</span><span class="sxs-lookup"><span data-stu-id="7d9bc-102">Step 7: Create a Sample LOB Message</span></span>
+<span data-ttu-id="7d9bc-103">En este paso, se utiliza la utilidad de la aplicación de LOB para crear un mensaje de la línea de negocio (LOB) de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-103">In this step, you use the LOB Application utility to create a sample line-of-business (LOB) message.</span></span>  
   
-### <a name="to-create-a-sample-message-using-the-lob-application-utility"></a><span data-ttu-id="fb2e5-104">Para crear un mensaje de ejemplo mediante la utilidad de la aplicación de LOB</span><span class="sxs-lookup"><span data-stu-id="fb2e5-104">To create a sample message using the LOB Application utility</span></span>  
+### <a name="to-create-a-sample-message-using-the-lob-application-utility"></a><span data-ttu-id="7d9bc-104">Para crear un mensaje de ejemplo mediante la utilidad de la aplicación de LOB</span><span class="sxs-lookup"><span data-stu-id="7d9bc-104">To create a sample message using the LOB Application utility</span></span>  
   
-1.  <span data-ttu-id="fb2e5-105">En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a \< *unidad*\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK carpeta y, a continuación, haga doble clic en  **LOBApplication.exe**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-105">In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK folder, and then double-click **LOBApplication.exe**.</span></span>  
+1.  <span data-ttu-id="7d9bc-105">En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a \< *unidad*\>: \Program Files (x86) \Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK carpeta y, a continuación, haga doble clic en **LOBApplication.exe**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-105">In [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK folder, and then double-click **LOBApplication.exe**.</span></span>  
   
-2.  <span data-ttu-id="fb2e5-106">En el **aplicación LOB** diálogo cuadro, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="fb2e5-106">In the **LOB Application** dialog box, do the following:</span></span>  
+2.  <span data-ttu-id="7d9bc-106">En el **aplicación LOB** diálogo cuadro, realice lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="7d9bc-106">In the **LOB Application** dialog box, do the following:</span></span>  
   
-    |<span data-ttu-id="fb2e5-107">**Use esto**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-107">**Use this**</span></span>|<span data-ttu-id="fb2e5-108">**Para ello**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-108">**To do this**</span></span>|  
+    |<span data-ttu-id="7d9bc-107">**Use esto**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-107">**Use this**</span></span>|<span data-ttu-id="7d9bc-108">**Para ello**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-108">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |<span data-ttu-id="fb2e5-109">**Nombre del perfil de inicio**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-109">**Home Profile Name**</span></span>|<span data-ttu-id="fb2e5-110">Tipo de **inicio**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-110">Type **HOME**.</span></span>|  
-    |<span data-ttu-id="fb2e5-111">**Nombre del socio comercial**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-111">**Trading Partner Name**</span></span>|<span data-ttu-id="fb2e5-112">Tipo de **asociado**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-112">Type **PARTNER**.</span></span>|  
-    |<span data-ttu-id="fb2e5-113">**Nombre del PIP**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-113">**PIP Name**</span></span>|<span data-ttu-id="fb2e5-114">Tipo de **0c1**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-114">Type **0C1**.</span></span>|  
-    |<span data-ttu-id="fb2e5-115">**Versión PIP**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-115">**PIP Version**</span></span>|<span data-ttu-id="fb2e5-116">Escriba **R01.02**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-116">Type **R01.02**.</span></span>|  
-    |<span data-ttu-id="fb2e5-117">**Nombre de archivo**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-117">**File Name**</span></span>|<span data-ttu-id="fb2e5-118">Haga clic en el botón de puntos suspensivos (**...** ) y mover a \< *unidad*:\>\Program BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-118">Click the ellipsis button (**...**), and move to \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances.</span></span> <span data-ttu-id="fb2e5-119">Seleccione **0C1_Request.xml** en la lista de archivos y, a continuación, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-119">Select **0C1_Request.xml** from the list of files, and then click **Open**.</span></span>|  
-    |<span data-ttu-id="fb2e5-120">**Categoría de mensaje**</span><span class="sxs-lookup"><span data-stu-id="fb2e5-120">**Message Category**</span></span>|<span data-ttu-id="fb2e5-121">Seleccione **acción** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-121">Select **Action** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="7d9bc-109">**Nombre del perfil de inicio**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-109">**Home Profile Name**</span></span>|<span data-ttu-id="7d9bc-110">Tipo de **inicio**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-110">Type **HOME**.</span></span>|  
+    |<span data-ttu-id="7d9bc-111">**Nombre del socio comercial**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-111">**Trading Partner Name**</span></span>|<span data-ttu-id="7d9bc-112">Tipo de **asociado**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-112">Type **PARTNER**.</span></span>|  
+    |<span data-ttu-id="7d9bc-113">**Nombre del PIP**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-113">**PIP Name**</span></span>|<span data-ttu-id="7d9bc-114">Tipo de **0c1**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-114">Type **0C1**.</span></span>|  
+    |<span data-ttu-id="7d9bc-115">**Versión PIP**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-115">**PIP Version**</span></span>|<span data-ttu-id="7d9bc-116">Escriba **R01.02**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-116">Type **R01.02**.</span></span>|  
+    |<span data-ttu-id="7d9bc-117">**Nombre de archivo**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-117">**File Name**</span></span>|<span data-ttu-id="7d9bc-118">Haga clic en el botón de puntos suspensivos (**...** ) y mover a \< *unidad*:\>\Program Files (x86) \Microsoft BizTalk \<versión\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances .</span><span class="sxs-lookup"><span data-stu-id="7d9bc-118">Click the ellipsis button (**...**), and move to \<*drive*:\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances.</span></span> <span data-ttu-id="7d9bc-119">Seleccione **0C1_Request.xml** en la lista de archivos y, a continuación, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-119">Select **0C1_Request.xml** from the list of files, and then click **Open**.</span></span>|  
+    |<span data-ttu-id="7d9bc-120">**Categoría de mensaje**</span><span class="sxs-lookup"><span data-stu-id="7d9bc-120">**Message Category**</span></span>|<span data-ttu-id="7d9bc-121">Seleccione **acción** en la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-121">Select **Action** from the drop-down list.</span></span>|  
   
-3.  <span data-ttu-id="fb2e5-122">En el **aplicación LOB** cuadro de diálogo, haga clic en **enviar mensaje**.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-122">In the **LOB Application** dialog box, click **Submit Message**.</span></span>  
+3.  <span data-ttu-id="7d9bc-122">En el **aplicación LOB** cuadro de diálogo, haga clic en **enviar mensaje**.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-122">In the **LOB Application** dialog box, click **Submit Message**.</span></span>  
   
- <span data-ttu-id="fb2e5-123">La aplicación de LOB genera un mensaje de Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] simulando un mensaje original generado por una aplicación de LOB.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-123">The LOB application generates a message for Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] simulating an original message generated by an LOB application.</span></span> <span data-ttu-id="fb2e5-124">Puede ver el estado del mensaje en la ventana de estado.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-124">You can view the status of the message in the Status window.</span></span>  
+ <span data-ttu-id="7d9bc-123">La aplicación de LOB genera un mensaje de Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] simulando un mensaje original generado por una aplicación de LOB.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-123">The LOB application generates a message for Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] simulating an original message generated by an LOB application.</span></span> <span data-ttu-id="7d9bc-124">Puede ver el estado del mensaje en la ventana de estado.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-124">You can view the status of the message in the Status window.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="fb2e5-125">Los mensajes de ejemplo se supone que los identificadores de empresarial Global (GBI) para "Hogar" y "Asociado" son 123456789 y 987654321, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-125">The sample messages assume that the Global Business Identifiers (GBI) for "HOME" and "PARTNER" are 123456789 and 987654321, respectively.</span></span> <span data-ttu-id="fb2e5-126">Para usar un GBI diferente, debe modificar el contenido de estos archivos.</span><span class="sxs-lookup"><span data-stu-id="fb2e5-126">To use a different GBI, you must modify the content of these files.</span></span>  
+>  <span data-ttu-id="7d9bc-125">Los mensajes de ejemplo se supone que los identificadores de empresarial Global (GBI) para "Hogar" y "Asociado" son 123456789 y 987654321, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-125">The sample messages assume that the Global Business Identifiers (GBI) for "HOME" and "PARTNER" are 123456789 and 987654321, respectively.</span></span> <span data-ttu-id="7d9bc-126">Para usar un GBI diferente, debe modificar el contenido de estos archivos.</span><span class="sxs-lookup"><span data-stu-id="7d9bc-126">To use a different GBI, you must modify the content of these files.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="fb2e5-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="fb2e5-127">See Also</span></span>  
- [<span data-ttu-id="fb2e5-128">Paso 8: Ver los mensajes en las bases de datos de BTARN</span><span class="sxs-lookup"><span data-stu-id="fb2e5-128">Step 8: View Messages in the BTARN Databases</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-8-view-messages-in-the-btarn-databases.md)
+## <a name="see-also"></a><span data-ttu-id="7d9bc-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="7d9bc-127">See Also</span></span>  
+ [<span data-ttu-id="7d9bc-128">Paso 8: Ver los mensajes en las bases de datos de BTARN</span><span class="sxs-lookup"><span data-stu-id="7d9bc-128">Step 8: View Messages in the BTARN Databases</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/step-8-view-messages-in-the-btarn-databases.md)
