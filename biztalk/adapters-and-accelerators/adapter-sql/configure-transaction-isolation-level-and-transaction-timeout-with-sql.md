@@ -1,14 +1,14 @@
 ---
-title: "Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55355272-60c0-49e4-b37e-9198458ab305
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222372"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-sql"></a><span data-ttu-id="9aeeb-102">Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con SQL</span><span class="sxs-lookup"><span data-stu-id="9aeeb-102">Configure Transaction Isolation Level and Transaction Timeout with SQL</span></span>
 <span data-ttu-id="9aeeb-103">Al realizar operaciones de entrada (sondeo y la notificación) mediante la [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe configurar de manera adecuada el nivel de aislamiento de transacción y los valores de tiempo de espera de transacción.</span><span class="sxs-lookup"><span data-stu-id="9aeeb-103">While performing inbound operations (Polling and Notification) using the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you should appropriately configure the transaction isolation level and the transaction timeout values.</span></span> <span data-ttu-id="9aeeb-104">Para hacerlo:</span><span class="sxs-lookup"><span data-stu-id="9aeeb-104">To do this:</span></span>  

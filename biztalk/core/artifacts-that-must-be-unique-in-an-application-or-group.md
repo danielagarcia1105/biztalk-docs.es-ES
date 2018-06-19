@@ -1,18 +1,18 @@
 ---
-title: "Artefactos que deben ser únicos en una aplicación o grupo | Documentos de Microsoft"
-ms.custom: 
+title: Artefactos que deben ser únicos en una aplicación o grupo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, artifacts
 - artifacts, requirements
 - applications, artifacts
 ms.assetid: a758cd74-a962-4e75-aea2-47752ab72a64
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230388"
 ---
 # <a name="artifacts-that-must-be-unique-in-an-application-or-group"></a><span data-ttu-id="cc989-102">Artefactos que deben ser únicos en una aplicación o en un grupo</span><span class="sxs-lookup"><span data-stu-id="cc989-102">Artifacts That Must Be Unique in an Application or Group</span></span>
 <span data-ttu-id="cc989-103">Ciertos tipos de artefactos de un grupo o una aplicación de BizTalk deben ser únicos, como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="cc989-103">Certain types of artifacts in a BizTalk group or application must be unique, as follows:</span></span>  

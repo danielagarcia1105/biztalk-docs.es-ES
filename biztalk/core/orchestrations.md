@@ -1,11 +1,11 @@
 ---
 title: Orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - deploying, orchestrations
 - orchestrations, about orchestrations
 ms.assetid: fb01f78a-b805-46be-a7d9-2b7597daab96
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266676"
 ---
 # <a name="orchestrations"></a><span data-ttu-id="80eb4-102">Orquestaciones</span><span class="sxs-lookup"><span data-stu-id="80eb4-102">Orchestrations</span></span>
 <span data-ttu-id="80eb4-103">*Orquestaciones* son procesos empresariales ejecutables que se pueden suscribir para recibir y publicar (enviar) mensajes a través de la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="80eb4-103">*Orchestrations* are executable business processes that can subscribe to (receive) and publish (send) messages through the MessageBox database.</span></span> <span data-ttu-id="80eb4-104">Además, las orquestaciones pueden construir nuevos mensajes.</span><span class="sxs-lookup"><span data-stu-id="80eb4-104">In addition, orchestrations can construct new messages.</span></span> <span data-ttu-id="80eb4-105">Los mensajes se reciben mediante la suscripción y enrutamiento de infraestructura, descrito en [ciclo de vida de un mensaje](../core/lifecycle-of-a-message.md).</span><span class="sxs-lookup"><span data-stu-id="80eb4-105">Messages are received using the subscription and routing infrastructure discussed in [Lifecycle of a Message](../core/lifecycle-of-a-message.md).</span></span> <span data-ttu-id="80eb4-106">Cuando se completan las suscripciones para las orquestaciones, se activa una nueva instancia y el mensaje se entrega, o, en caso de que se trate de suscripciones de instancia, la instancia vuelve a hidratarse si es necesario y el mensaje se entrega.</span><span class="sxs-lookup"><span data-stu-id="80eb4-106">When subscriptions are filled for orchestrations, a new instance is activated and the message is delivered, or in the case of instance subscriptions, the instance is rehydrated if necessary and the message is then delivered.</span></span> <span data-ttu-id="80eb4-107">Cuando los mensajes se envían desde una orquestación, éstos se publican en el cuadro de mensajes de la misma forma en que un mensaje que llega a la ubicación de recepción con las propiedades adecuadas se inserta en la base de datos para su enrutamiento.</span><span class="sxs-lookup"><span data-stu-id="80eb4-107">When messages are sent from an orchestration, they are published to the MessageBox in the same manner as a message arriving on a receive location with the appropriate properties getting inserted into the database for use in routing.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Ver los patrones de intercambio de mensajes compatibles en el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b6662f17-b4f8-45fe-a22f-5d027dc9f2ff
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225524"
 ---
 # <a name="view-the-supported-message-exchange-patterns-in-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="cf386-102">Ver los patrones de intercambio de mensajes compatibles en el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="cf386-102">View the supported message exchange patterns in the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="cf386-103">El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] admite varios de los patrones de mensajería compatibles con subyacente [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] incluida la comunicación unidireccional y solicitud y respuesta.</span><span class="sxs-lookup"><span data-stu-id="cf386-103">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supports several of the messaging patterns supported by the underlying [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] including request-reply, and one-way communication.</span></span> <span data-ttu-id="cf386-104">Transportes diferentes admiten patrones de mensajería diferentes y lo que afecta a los tipos de interacciones que admiten.</span><span class="sxs-lookup"><span data-stu-id="cf386-104">Different transports support different messaging patterns, and thus affect the types of interactions that they support.</span></span>  

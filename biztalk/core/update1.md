@@ -1,11 +1,11 @@
 ---
-title: "Actualización 1 | Documentos de Microsoft"
-ms.custom: 
+title: Actualización 1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Update function [Business Rules Engine]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - .NET objects
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: 939e45dc-6433-42f3-a336-8f3c247417ac
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288404"
 ---
 # <a name="update"></a><span data-ttu-id="f2009-102">Update</span><span class="sxs-lookup"><span data-stu-id="f2009-102">Update</span></span>
 <span data-ttu-id="f2009-103">Cuando **actualización** función se invoca un objeto, el objeto se vuelve a imponer en el motor para volverse a evaluar, en función de los nuevos datos y estado.</span><span class="sxs-lookup"><span data-stu-id="f2009-103">When **Update** function is invoked an object, the object is reasserted into the engine to be re-evaluated, based on the new data and state.</span></span> <span data-ttu-id="f2009-104">El objeto puede ser de tipo **TypedXmlDocument** o clase .NET o **DataConnection** o **TypedDataTable**.</span><span class="sxs-lookup"><span data-stu-id="f2009-104">The object can be of type **TypedXmlDocument** or .NET class or **DataConnection** or **TypedDataTable**.</span></span>  

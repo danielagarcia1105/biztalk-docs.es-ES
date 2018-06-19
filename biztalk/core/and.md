@@ -1,14 +1,14 @@
 ---
 title: Y | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80bd8f1f-edae-476d-b488-78e6c5ee70bf
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230020"
 ---
 # <a name="and"></a><span data-ttu-id="43cbf-102">And</span><span class="sxs-lookup"><span data-stu-id="43cbf-102">And</span></span>
 <span data-ttu-id="43cbf-103">Quita los dos elementos principales de la pila, realiza un booleano **AND** de los dos elementos y, a continuación, inserta el resultado en la pila.</span><span class="sxs-lookup"><span data-stu-id="43cbf-103">Removes the top two items from the stack, performs a Boolean **AND** of the two items, and then pushes the result onto the stack.</span></span>  

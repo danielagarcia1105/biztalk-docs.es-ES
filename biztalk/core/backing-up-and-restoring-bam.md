@@ -1,11 +1,11 @@
 ---
 title: Copia de seguridad y restaurar BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up [BAM]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - restoring [BAM]
 - BAM, backing up
 ms.assetid: 5d477492-fdb7-4866-92a8-2720fea15839
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230300"
 ---
 # <a name="backing-up-and-restoring-bam"></a><span data-ttu-id="e2afc-102">Realizar una copia de seguridad y la restauración de BAM</span><span class="sxs-lookup"><span data-stu-id="e2afc-102">Backing Up and Restoring BAM</span></span>
 <span data-ttu-id="e2afc-103">En esta sección, se proporciona información acerca de cómo realizar una copia de seguridad de las bases de datos de archivo de SAE, de esquema de estrella de SAE, de análisis de seguimiento y de análisis de SAE, además de cómo efectuar su restauración.</span><span class="sxs-lookup"><span data-stu-id="e2afc-103">This section provides information about how to back up and restore the BAM Analysis, Tracking Analysis, BAM Star Schema, and BAM Archive databases.</span></span>  

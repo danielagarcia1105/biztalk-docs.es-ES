@@ -1,15 +1,15 @@
 ---
 title: Los identificadores de nodo de metadatos para el adaptador de BizTalk Adapter Pack | Documentos de Microsoft
-description: "Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en componentes de Siebel aparecen en el adaptador de Siebel - módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en componentes de Siebel aparecen en el adaptador de Siebel - módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdffc8d1-0a0a-48d7-b134-5d16acf2c523
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223388"
 ---
 # <a name="node-types-and-ids-for-the-siebel-adapter"></a><span data-ttu-id="45fc3-103">Tipos de nodo e identificadores para el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="45fc3-103">Node types and IDs for the Siebel adapter</span></span>
 
@@ -71,7 +72,7 @@ ms.lasthandoff: 09/20/2017
  <span data-ttu-id="45fc3-204">Para las expresiones de búsqueda válidos, consulte la documentación de Siebel.</span><span class="sxs-lookup"><span data-stu-id="45fc3-204">For valid search expressions, refer to the Siebel documentation.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="45fc3-205">El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] sólo es compatible con las búsquedas en el nivel por debajo del nodo seleccionado actualmente.</span><span class="sxs-lookup"><span data-stu-id="45fc3-205">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] only supports searches at the level below the currently selected node.</span></span>  <span data-ttu-id="45fc3-206">Por ejemplo, cuando se selecciona BusinessObjects, un * es compatible búsqueda, pero A\*/A\* no es.</span><span class="sxs-lookup"><span data-stu-id="45fc3-206">For example, when BusinessObjects is selected, A* is a supported search, but A\*/A\* is not.</span></span>  
+>  <span data-ttu-id="45fc3-205">El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] sólo es compatible con las búsquedas en el nivel por debajo del nodo seleccionado actualmente.</span><span class="sxs-lookup"><span data-stu-id="45fc3-205">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] only supports searches at the level below the currently selected node.</span></span>  <span data-ttu-id="45fc3-206">Por ejemplo, cuando se selecciona BusinessObjects, un \* es compatible búsqueda, pero A\*/A\* no es.</span><span class="sxs-lookup"><span data-stu-id="45fc3-206">For example, when BusinessObjects is selected, A\* is a supported search, but A\*/A\* is not.</span></span>  
   
 ## <a name="metadata-retrieval-and-node-ids"></a><span data-ttu-id="45fc3-207">Recuperación de metadatos y los identificadores de nodo</span><span class="sxs-lookup"><span data-stu-id="45fc3-207">Metadata Retrieval and Node IDs</span></span>  
  <span data-ttu-id="45fc3-208">El adaptador de Siebel captura las siguientes características para cada tipo de artefacto.</span><span class="sxs-lookup"><span data-stu-id="45fc3-208">The Siebel adapter captures the following characteristics for each type of artifact.</span></span>  

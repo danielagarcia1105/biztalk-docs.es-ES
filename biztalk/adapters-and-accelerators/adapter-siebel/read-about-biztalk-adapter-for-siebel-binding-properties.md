@@ -1,18 +1,18 @@
 ---
-title: "Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace | Documentos de Microsoft"
-ms.custom: 
+title: Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, setting
 - binding properties, adapter
 - how to, set binding properties
 ms.assetid: 48c77a2d-091c-40e0-aaf3-dc2ec34c55f2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224044"
 ---
 # <a name="read-about-biztalk-adapter-for-siebel-binding-properties"></a><span data-ttu-id="cfed4-102">Obtener información sobre el adaptador de BizTalk para Siebel propiedades de enlace</span><span class="sxs-lookup"><span data-stu-id="cfed4-102">Read about BizTalk Adapter for Siebel Binding Properties</span></span>
 <span data-ttu-id="cfed4-103">La [!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)] expone varias propiedades de enlace que le permiten controlar parte de su comportamiento de tiempo de diseño y tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="cfed4-103">The [!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)] surfaces several binding properties that enable you to control some of its run-time and design-time behavior.</span></span> <span data-ttu-id="cfed4-104">En esta sección se describe estas propiedades de enlace y proporciona vínculos a temas que explican cómo establecerlas.</span><span class="sxs-lookup"><span data-stu-id="cfed4-104">This section describes these binding properties and provides links to topics that explain how you can set them.</span></span>  

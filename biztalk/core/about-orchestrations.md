@@ -1,11 +1,11 @@
 ---
 title: Acerca de las orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, about orchestrations
 - Orchestration Designer, about Orchestration Designer
 ms.assetid: c0d9a3fb-da87-42cc-9e9e-e2c37232e606
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225140"
 ---
 # <a name="about-orchestrations"></a><span data-ttu-id="2004c-102">Acerca de las orquestaciones</span><span class="sxs-lookup"><span data-stu-id="2004c-102">About Orchestrations</span></span>
 <span data-ttu-id="2004c-103">Una orquestación es una herramienta flexible y eficaz para la representación de un proceso empresarial ejecutable basado en el lenguaje XLANG/s.</span><span class="sxs-lookup"><span data-stu-id="2004c-103">An orchestration is a flexible, powerful tool for representing an executable business process based on XLANG/s language.</span></span> <span data-ttu-id="2004c-104">XLANG/s se puede ver como un lenguaje de mensajería con algunas de las capacidades de expresión de C#.</span><span class="sxs-lookup"><span data-stu-id="2004c-104">XLANG/s can be viewed as a messaging language with some of the expression capabilities of C#.</span></span> <span data-ttu-id="2004c-105">Puede diseñar flujo, interpretar y generar datos, llamar código personalizado, así como organizar el proceso completo en un dibujo visual intuitivo y, en tiempo de ejecución, el motor de orquestaciones de BizTalk ejecuta los archivos XLANG/s que son los procesos empresariales ejecutables que produce el Diseñador de orquestaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="2004c-105">You can design flow, interpret and generate data, call custom code, and organize the entire process in an intuitive visual drawing, and at run time, the BizTalk Orchestration Engine executes XLANG/s files which are the executable business processes that are produced by BizTalk Orchestration Designer.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 3e: compilar e implementar la solución de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3e: compilar e implementar la solución de BizTalk Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbfc382b-ed4a-4401-9343-be1bffd747c9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276628"
 ---
 # <a name="step-3e-build-and-deploy-the-biztalk-server-solution"></a><span data-ttu-id="561c1-102">Paso 3e: compilar e implementar la solución de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="561c1-102">Step 3e: Build and Deploy the BizTalk Server Solution</span></span>
 <span data-ttu-id="561c1-103">En este tema, implementaremos los dos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proyectos (**BtsSalesforceIntegration** y **CustomPipeline**) que creamos en los pasos anteriores.</span><span class="sxs-lookup"><span data-stu-id="561c1-103">In this topic, we’ll deploy the two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] projects (**BtsSalesforceIntegration** and **CustomPipeline**) that we created in the earlier steps.</span></span>  

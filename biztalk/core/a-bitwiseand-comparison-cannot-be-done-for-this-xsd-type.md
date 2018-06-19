@@ -1,14 +1,14 @@
 ---
-title: "No se puede realizar una comparación BitwiseAnd para este tipo XSD | Documentos de Microsoft"
-ms.custom: 
+title: No se puede realizar una comparación BitwiseAnd para este tipo XSD | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82bc2351-c002-458a-9d35-5fdcc91c6a0e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224812"
 ---
 # <a name="a-bitwiseand-comparison-cannot-be-done-for-this-xsd-type"></a><span data-ttu-id="bdbb6-102">No se puede realizar una comparación BitwiseAnd para este tipo XSD</span><span class="sxs-lookup"><span data-stu-id="bdbb6-102">A BitwiseAnd comparison cannot be done for this XSD type</span></span>
 ## <a name="details"></a><span data-ttu-id="bdbb6-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="bdbb6-103">Details</span></span>  

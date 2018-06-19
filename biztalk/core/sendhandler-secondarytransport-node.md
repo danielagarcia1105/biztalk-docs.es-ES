@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270836"
 ---
 # <a name="sendhandler-secondarytransport-node"></a><span data-ttu-id="55982-102">SendHandler (nodo SecondaryTransport)</span><span class="sxs-lookup"><span data-stu-id="55982-102">SendHandler (SecondaryTransport Node)</span></span>
 <span data-ttu-id="55982-103">El nodo SendHandler del nodo SecondaryTransport de un archivo de enlace contiene información específica acerca del controlador de envío asociado a un transporte que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="55982-103">The SendHandler node of the SecondaryTransport node of a binding file contains specific information about the send handler associated with a transport that is exported with the binding file.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277868"
 ---
 # <a name="soap-adapter"></a><span data-ttu-id="028d7-102">Adaptador de SOAP</span><span class="sxs-lookup"><span data-stu-id="028d7-102">SOAP Adapter</span></span>
 <span data-ttu-id="028d7-103">Los servicios web de Microsoft BizTalk Server utilizan el adaptador de SOAP cuando reciben y envían solicitudes de servicio web.</span><span class="sxs-lookup"><span data-stu-id="028d7-103">Microsoft BizTalk Server Web services use the SOAP adapter when receiving and sending Web service requests.</span></span> <span data-ttu-id="028d7-104">El adaptador de SOAP le permite publicar orquestaciones como servicios web y consumir servicios web externos.</span><span class="sxs-lookup"><span data-stu-id="028d7-104">The SOAP adapter enables you to publish orchestrations as Web services and consume external Web services.</span></span>  

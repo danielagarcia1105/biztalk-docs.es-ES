@@ -1,17 +1,17 @@
 ---
-title: "Uso de canalizaciones desde el servicio solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Uso de canalizaciones desde el servicio solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, pipelines
 - pipelines, service solutions
 ms.assetid: 0870fce1-52ec-4ff8-884f-a3199bd7ccbb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287212"
 ---
 # <a name="using-pipelines-from-the-service-oriented-solution"></a><span data-ttu-id="00016-102">Uso de canalizaciones desde el servicio solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="00016-102">Using Pipelines from the Service Oriented Solution</span></span>
 <span data-ttu-id="00016-103">La versión en línea de la orquestación de atención al cliente (**CustomerService**) llama el pago al sistema de seguimiento directamente.</span><span class="sxs-lookup"><span data-stu-id="00016-103">The inline version of the customer service orchestration (**CustomerService**) calls the payment tracking system directly.</span></span> <span data-ttu-id="00016-104">Para preparar el mensaje de envío y procesar el mensaje recibido, la orquestación llama a las canalizaciones desde el código.</span><span class="sxs-lookup"><span data-stu-id="00016-104">To prepare the sent message and process the received message, the orchestration calls the pipelines from code.</span></span> <span data-ttu-id="00016-105">Esto permite la reutilización de las canalizaciones desde las otras versiones de escenarios.</span><span class="sxs-lookup"><span data-stu-id="00016-105">This allows the reuse of the pipelines from the other scenarios versions.</span></span> <span data-ttu-id="00016-106">También mantiene la separación de la orquestación desde las fases de canalización.</span><span class="sxs-lookup"><span data-stu-id="00016-106">It also maintains the decoupling of the orchestration from the pipeline stages.</span></span>  

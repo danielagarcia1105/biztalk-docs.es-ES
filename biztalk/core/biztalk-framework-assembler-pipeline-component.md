@@ -1,17 +1,17 @@
 ---
-title: "Componente de canalización de ensamblador de BizTalk Framework | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de ensamblador de BizTalk Framework | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, BizTalk Framework Assembler
 - BizTalk Framework Assembler [pipeline component]
 ms.assetid: 116dff8d-b7f8-4564-a7fb-6440682683dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231108"
 ---
 # <a name="biztalk-framework-assembler-pipeline-component"></a><span data-ttu-id="a4f45-102">Componente de canalización de ensamblador de BizTalk Framework</span><span class="sxs-lookup"><span data-stu-id="a4f45-102">BizTalk Framework Assembler Pipeline Component</span></span>
 <span data-ttu-id="a4f45-103">BizTalk Framework es un enfoque para hacer una entrega garantizada exactamente una vez utilizando protocolos de transporte mediante conexión como HTTP o SMTP.</span><span class="sxs-lookup"><span data-stu-id="a4f45-103">The BizTalk Framework is one approach for doing exactly-once guaranteed delivery using over-the-wire transport protocols such as HTTP or SMTP.</span></span> <span data-ttu-id="a4f45-104">Este marco de trabajo existe desde 1998 y puede considerarse un precursor de las iniciativas de estándares pendientes basadas en servicios Web, específicamente WSReliable.</span><span class="sxs-lookup"><span data-stu-id="a4f45-104">This framework has existed since 1998, and can be thought of as a precursor to pending standards initiatives based on Web services, specifically WSReliable.</span></span> <span data-ttu-id="a4f45-105">Por lo general, el problema de la entrega de datos garantizada exactamente una vez ha sido el dominio de tecnologías como Message Queue Server (también conocida como MSMQ).</span><span class="sxs-lookup"><span data-stu-id="a4f45-105">Typically, the problem of guaranteed exactly-once delivery of data has been the domain of technologies like Message Queuing (also known as MSMQ).</span></span> <span data-ttu-id="a4f45-106">Sin embargo, estas tecnologías suelen requerir software común en los dos extremos de un flujo de datos y tampoco hacen nada para resolver la utilización de protocolos de transporte abiertos basados en redes públicas, por ejemplo, datos que fluyen entre empresas a través de Internet.</span><span class="sxs-lookup"><span data-stu-id="a4f45-106">However, such technologies usually require common software at the two endpoints of a data flow, and also do nothing to address the use of open transport protocols based on public networks, for example, data that flows across enterprise boundaries by using the Internet.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Establecer el intervalo de sondeo en el adaptador SQL por lotes de ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Establecer el intervalo de sondeo en el adaptador SQL por lotes de ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling interval [receive adapters]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SQL adapters, receive locations
 - receive locations, SQL adapters
 ms.assetid: 9053b20d-145a-4445-b414-c0482cf975a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269692"
 ---
 # <a name="setting-the-polling-interval-on-the-batching-sql-adapter-receive-location"></a><span data-ttu-id="76fcd-102">Definir el intervalo de sondeo en la ubicación de recepción del adaptador de SQL de procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="76fcd-102">Setting the Polling Interval on the Batching SQL Adapter Receive Location</span></span>
 <span data-ttu-id="76fcd-103">Puede establecer el intervalo de sondeo en el procesamiento por lotes de recepción del adaptador SQL ubicación (**BatchControlMessageRecvLoc**) diferente en los equipos de desarrollo y producción.</span><span class="sxs-lookup"><span data-stu-id="76fcd-103">You can set the polling interval on the batching SQL adapter receive location (**BatchControlMessageRecvLoc**) differently on development and production computers.</span></span> <span data-ttu-id="76fcd-104">En un servidor de desarrollo, Microsoft recomienda que mantenga el intervalo de sondeo en el valor predeterminado de 30 segundos para una rápida activación de la orquestación de procesamiento por lotes de un acuerdo.</span><span class="sxs-lookup"><span data-stu-id="76fcd-104">On a development server, Microsoft recommends that you keep the polling interval at the default of 30 seconds, for quick activation of the batching orchestration for an agreement.</span></span> <span data-ttu-id="76fcd-105">Sin embargo, en un servidor de producción, un valor de 30 segundos puede afectar al rendimiento.</span><span class="sxs-lookup"><span data-stu-id="76fcd-105">However, on a production server, a setting of 30 seconds may affect performance.</span></span> <span data-ttu-id="76fcd-106">Una vez activado un lote, puede que desee definir el intervalo de sondeo a un valor mayor, como cinco minutos.</span><span class="sxs-lookup"><span data-stu-id="76fcd-106">Once you have activated a batch, you may want to set the polling interval to a higher value, such as five minutes.</span></span>  

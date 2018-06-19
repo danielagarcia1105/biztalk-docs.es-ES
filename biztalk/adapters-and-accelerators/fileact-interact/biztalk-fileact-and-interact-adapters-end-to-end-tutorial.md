@@ -1,14 +1,14 @@
 ---
 title: BizTalk FileAct e interactuar adaptadores-to-End Tutorial | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 2015-12-10
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73fbfb10-73e8-4365-a943-bcb9055f4f74
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222964"
 ---
 # <a name="biztalk-fileact-and-interact-adapters-end-to-end-tutorial"></a><span data-ttu-id="47ae6-102">BizTalk FileAct e interactuar Tutorial de adaptadores-to-End</span><span class="sxs-lookup"><span data-stu-id="47ae6-102">BizTalk FileAct and InterAct Adapters End-to-End Tutorial</span></span>
 <span data-ttu-id="47ae6-103">The Microsoft® [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] -to-End Tutorial proporciona información específica acerca de cómo puede usar [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para configurar en tiempo real, almacenar y reenviar los escenarios de intercambio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="47ae6-103">The Microsoft® [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] End-to-End Tutorial provides specific information about how you can use [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to set up real-time and store and forward message exchange scenarios.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar la configuración de utilidad de administración de BAM después de una copia de seguridad y restauración | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar la configuración de utilidad de administración de BAM después de una copia de seguridad y restauración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b27062b-546f-4030-983b-15d793912690
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286676"
 ---
 # <a name="how-to-update-the-bam-management-utility-configuration-after-a-backup-and-restore"></a><span data-ttu-id="14864-102">Cómo actualizar la configuración de la utilidad de administración de BAM tras realizar una copia de seguridad y restaurar</span><span class="sxs-lookup"><span data-stu-id="14864-102">How to Update the BAM Management Utility Configuration After a Backup and Restore</span></span>
 <span data-ttu-id="14864-103">Cuando la combinación de nombre de servidor\base de datos cambia debido a un cambio en el entorno de BizTalk Server, como en la copia de seguridad y la secuencia de restauración, debe actualizar el archivo de configuración de la utilidad de administración de BAM (bm.exe.config) para reflejar estos cambios de nombres.</span><span class="sxs-lookup"><span data-stu-id="14864-103">When the server\database name combination changes as the result of a change in your BizTalk Server environment such as a backup and restore sequence, you must update the BAM management utility configuration file (bm.exe.config) to reflect these name changes.</span></span>  

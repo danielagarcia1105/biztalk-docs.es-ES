@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter para la documentación de SQL Server | Documentos de Microsoft"
+title: Microsoft BizTalk Adapter para la documentación de SQL Server | Documentos de Microsoft
 description: Obtener iniciado, arquitectura, seguridad, desarrollar aplicaciones, esquemas de mensajes y solucionar problemas del adaptador SQL en BizTalk Adapter Pack
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1979ca70-9075-4fdb-b4b4-0749c92b792f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223060"
 ---
 # <a name="microsoft-biztalk-adapter-for-sql-server-documentation"></a><span data-ttu-id="cb224-103">Microsoft BizTalk Adapter para la documentación de SQL Server</span><span class="sxs-lookup"><span data-stu-id="cb224-103">Microsoft BizTalk Adapter for SQL Server documentation</span></span>
 <span data-ttu-id="cb224-104">El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] incluye una serie de recursos para ayudarle a entender cómo funciona el adaptador, cómo crear aplicaciones que usan el adaptador, se describen las opciones de conexión diferente, aprenda a crear aplicaciones y mucho más.</span><span class="sxs-lookup"><span data-stu-id="cb224-104">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.</span></span>

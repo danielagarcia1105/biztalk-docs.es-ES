@@ -1,11 +1,11 @@
 ---
-title: "Continuación de actividad | Documentos de Microsoft"
-ms.custom: 
+title: Continuación de actividad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - continuation tokens
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - continuations, activities [BAM]
 - code samples, activities [BAM]
 ms.assetid: 47d91ae6-77c1-4efb-940f-a7b3a325e5bd
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224796"
 ---
 # <a name="activity-continuation"></a><span data-ttu-id="cf811-102">Continuación de actividad</span><span class="sxs-lookup"><span data-stu-id="cf811-102">Activity Continuation</span></span>
 <span data-ttu-id="cf811-103">La actividad de BAM (a la que también se denomina la actividad de negocio) puede abarcar varias aplicaciones heterogéneas (por ejemplo, una canalización, dos orquestaciones, una aplicación de líneas de negocio y la otra canalización).</span><span class="sxs-lookup"><span data-stu-id="cf811-103">The BAM activity (also called the business activity) can span multiple heterogeneous applications (for example, a pipeline, two orchestrations, a line-of-business application, and then another pipeline).</span></span> <span data-ttu-id="cf811-104">La infraestructura de BAM puede correlacionar los eventos de varias aplicaciones con un poco de Ayuda del programador, concepto que se denomina "*continuación*," que se muestra en la ilustración siguiente.</span><span class="sxs-lookup"><span data-stu-id="cf811-104">The BAM infrastructure can correlate the events from multiple applications with a little help from the developer – a concept called "*Continuation*," which is shown in the following figure.</span></span>  

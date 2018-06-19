@@ -1,11 +1,11 @@
 ---
-title: "Seguimiento de eventos empresariales asíncronos | Documentos de Microsoft"
-ms.custom: 
+title: Seguimiento de eventos empresariales asíncronos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, event tracking
 - BAM, performance
 ms.assetid: 6d51fadf-b329-4536-9618-d982d9c17882
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230476"
 ---
 # <a name="asynchronous-business-event-tracking"></a><span data-ttu-id="8f7bb-102">Seguimiento asíncrono de eventos empresariales</span><span class="sxs-lookup"><span data-stu-id="8f7bb-102">Asynchronous Business Event Tracking</span></span>
 <span data-ttu-id="8f7bb-103">Asincrónica (con `BufferedEventStream`)-este modelo ofrece importantes mejoras de rendimiento.</span><span class="sxs-lookup"><span data-stu-id="8f7bb-103">Asynchronous (using `BufferedEventStream`) - This model offers significant performance improvements.</span></span> <span data-ttu-id="8f7bb-104">Utiliza una API parecida a la del modelo sincrónico, que utiliza solo un constructor diferente.</span><span class="sxs-lookup"><span data-stu-id="8f7bb-104">This uses a similar API to the synchronous model, using only a different constructor.</span></span> <span data-ttu-id="8f7bb-105">En lugar de insertar los datos en la base de datos de importación principal, BufferedEventStream acumula los datos de eventos en la memoria en forma binaria y luego los inserta como un registro de tabla único en la base de datos temporal (cuadro de mensajes).</span><span class="sxs-lookup"><span data-stu-id="8f7bb-105">Instead of pushing the data into the primary import database, BufferedEventStream accumulates the event data in memory in binary form, and then inserts it as a single table record into an interim database (MessageBox).</span></span> <span data-ttu-id="8f7bb-106">El servicio de bus de eventos BAM lee los datos que BizTalk tiene en cola en la base de datos de cuadro de mensajes y los importa a la base de datos de importación principal.</span><span class="sxs-lookup"><span data-stu-id="8f7bb-106">The Event Bus service reads the data queued in the MessageBox database by BizTalk and imports it into the primary import database.</span></span>  

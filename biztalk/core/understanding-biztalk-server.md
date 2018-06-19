@@ -1,14 +1,14 @@
 ---
-title: "Descripción de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Descripción de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 011684a5-0aaf-4355-b6a6-d6fef5993863
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286668"
 ---
 # <a name="understanding-biztalk-server"></a><span data-ttu-id="9441f-102">Descripción de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="9441f-102">Understanding BizTalk Server</span></span>
 > [!NOTE]

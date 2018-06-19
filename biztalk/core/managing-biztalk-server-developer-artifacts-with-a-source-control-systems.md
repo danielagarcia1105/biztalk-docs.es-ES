@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce25b112-38c9-40c8-9a5f-a2855572aabb
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22265804"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a><span data-ttu-id="3e7a5-102">Administración de artefactos de programadores de BizTalk Server con sistemas de control de código fuente</span><span class="sxs-lookup"><span data-stu-id="3e7a5-102">Managing BizTalk Server Developer Artifacts with a Source Control Systems</span></span>
 <span data-ttu-id="3e7a5-103">Proteger su proyecto de BizTalk de errores inesperados del sistema debería ser un tema de máxima prioridad.</span><span class="sxs-lookup"><span data-stu-id="3e7a5-103">Protecting your BizTalk project from unexpected system failures should be a top priority.</span></span> <span data-ttu-id="3e7a5-104">Una manera de proteger los archivos del proyecto es usar un sistema de control de código fuente, por ejemplo, Team Foundation Server Source Control y Microsoft Visual SourceSafe.</span><span class="sxs-lookup"><span data-stu-id="3e7a5-104">One way to protect project files is to use a source code control system like Team Foundation Server Source Control and Microsoft Visual SourceSafe.</span></span> <span data-ttu-id="3e7a5-105">En este tema se analizan algunas estrategias básicas para organizar proyectos con el fin de que funcionen mejor con un sistema de control de código fuente, y proporciona algunas sugerencias específicas para usar Visual SourceSafe.</span><span class="sxs-lookup"><span data-stu-id="3e7a5-105">This topic discusses some basic strategies for organizing projects to best work with any source control system, and then provides specific suggestions for using Visual SourceSafe.</span></span>  

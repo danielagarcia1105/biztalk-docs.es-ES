@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 11016 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 11016 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3963b706-168d-438d-a068-637f8a6b7b0c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276532"
 ---
 # <a name="single-sign-on-event-11016"></a><span data-ttu-id="8fd2f-102">Inicio de sesión único: Evento 11016</span><span class="sxs-lookup"><span data-stu-id="8fd2f-102">Single Sign-On: Event 11016</span></span>
 ## <a name="details"></a><span data-ttu-id="8fd2f-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="8fd2f-103">Details</span></span>  

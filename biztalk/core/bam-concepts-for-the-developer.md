@@ -1,14 +1,14 @@
 ---
 title: Conceptos BAM para que el programador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c26d0aed-821c-4e1f-9cc9-9375a2ba28de
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230812"
 ---
 # <a name="bam-concepts-for-the-developer"></a><span data-ttu-id="4f9f4-102">Conceptos de BAM para el programador</span><span class="sxs-lookup"><span data-stu-id="4f9f4-102">BAM Concepts for the Developer</span></span>
 <span data-ttu-id="4f9f4-103">Como programador de BAM, es necesario familiarizarse con los conceptos BAM importantes, por ejemplo, las actividades, continuaciones y referencias.</span><span class="sxs-lookup"><span data-stu-id="4f9f4-103">As a BAM developer, you need to be familiar with important BAM concepts, such as activities, continuations, and references.</span></span> <span data-ttu-id="4f9f4-104">Además, debe comprender las diferencias entre el procesamiento de seguimiento y el procesamiento transaccional.</span><span class="sxs-lookup"><span data-stu-id="4f9f4-104">You should also understand the differences between tracking and transactional processing.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de un clúster de servidores de Windows | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de un clúster de servidores de Windows | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 283cf4cd-ce40-48b7-8549-9ab17d7d2c34
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279964"
 ---
 # <a name="troubleshooting-a-windows-server-cluster"></a><span data-ttu-id="b068b-102">Solución de problemas de un clúster de servidores de Windows</span><span class="sxs-lookup"><span data-stu-id="b068b-102">Troubleshooting a Windows Server Cluster</span></span>
 <span data-ttu-id="b068b-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] admite el uso del clúster de Windows Server para la funcionalidad de clúster de hosts con el fin de proporcionar alta disponibilidad para el servidor secreto principal de inicio de sesión único (SSO) empresarial, así como para las bases de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b068b-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports the use of Windows Server cluster for host cluster support, to provide high availability for the Enterprise Single Sign-On (SSO) Master Secret, and to provide high availability for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.</span></span> <span data-ttu-id="b068b-104">Este tema proporciona directrices generales para utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de clúster de Windows Server y trata algunos problemas conocidos que pueden producirse al utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno de clúster de Windows Server.</span><span class="sxs-lookup"><span data-stu-id="b068b-104">This topic provides some general guidelines for using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a Windows Server cluster environment and discusses some known issues that may occur when using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a Windows Server cluster environment.</span></span>  

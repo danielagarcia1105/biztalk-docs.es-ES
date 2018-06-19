@@ -1,11 +1,11 @@
 ---
-title: "Ubicaciones de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Ubicaciones de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive locations
 - receive locations, receive location types
 ms.assetid: be5f7e5d-b63f-42f6-985e-895ba3912d34
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268628"
 ---
 # <a name="receive-locations"></a><span data-ttu-id="cf3b1-102">Ubicaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="cf3b1-102">Receive Locations</span></span>
 <span data-ttu-id="cf3b1-103">La creación de una ubicación de recepción conlleva especificar la dirección a la que llegan los mensajes de entrada, además de la canalización de mensajería que procesa los mensajes recibidos en dicha dirección.</span><span class="sxs-lookup"><span data-stu-id="cf3b1-103">Creating a receive location involves specifying an address at which inbound messages arrive and the messaging pipeline that processes the message received at that address.</span></span> <span data-ttu-id="cf3b1-104">Solo los administradores pueden crear y habilitar las ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="cf3b1-104">Only administrators can create and enable receive locations.</span></span>  

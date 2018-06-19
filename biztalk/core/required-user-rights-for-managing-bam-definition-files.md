@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb4fb73f-b783-4a04-9bd6-a135b3dd2655
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22268756"
 ---
 # <a name="required-user-rights-for-managing-bam-definition-files"></a><span data-ttu-id="fd74b-102">Derechos de usuario necesarios para administrar archivos de definición de BAM</span><span class="sxs-lookup"><span data-stu-id="fd74b-102">Required User Rights for Managing BAM Definition Files</span></span>
 <span data-ttu-id="fd74b-103">Los usuarios con cualquier función podrán crear, administrar y ver los archivos de definición de BAM.</span><span class="sxs-lookup"><span data-stu-id="fd74b-103">BAM definition files can be created, managed, and viewed by users in any role.</span></span> <span data-ttu-id="fd74b-104">La administración de archivos de definición de BAM incluye su implementación y eliminación, así como la administración de las actividades, vistas, alertas y artefactos asociados al archivo de definición.</span><span class="sxs-lookup"><span data-stu-id="fd74b-104">Managing BAM definition files includes deploying and removing them as well as managing the activities, views, alerts, and artifacts that are associated with the definition file.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Interfaces de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7398aeb-7c1c-400e-a552-d0ab39e55a0b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225492"
 ---
 # <a name="adapter-interfaces"></a><span data-ttu-id="cc7dc-102">Interfaces de adaptador</span><span class="sxs-lookup"><span data-stu-id="cc7dc-102">Adapter Interfaces</span></span>
 <span data-ttu-id="cc7dc-103">Hay tres interfaces que los adaptadores personalizados deben implementar y dos interfaces que son opcionales.</span><span class="sxs-lookup"><span data-stu-id="cc7dc-103">There are three interfaces that custom adapters must implement, and two interfaces that are optional.</span></span>  

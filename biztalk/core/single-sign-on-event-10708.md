@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22271700"
 ---
 # <a name="single-sign-on-event-10708"></a><span data-ttu-id="00ab8-102">Inicio de sesión único: Evento 10708</span><span class="sxs-lookup"><span data-stu-id="00ab8-102">Single Sign-On: Event 10708</span></span>
 ## <a name="details"></a><span data-ttu-id="00ab8-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="00ab8-103">Details</span></span>  

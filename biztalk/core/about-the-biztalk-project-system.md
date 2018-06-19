@@ -1,11 +1,11 @@
 ---
 title: El sistema del proyecto de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, about projects
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating, business solutions
 - business solutions, creating
 ms.assetid: 69807e57-356e-451d-b803-4253b891b617
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226268"
 ---
 # <a name="about-the-biztalk-project-system"></a><span data-ttu-id="277a1-102">El sistema del proyecto de BizTalk</span><span class="sxs-lookup"><span data-stu-id="277a1-102">About the BizTalk Project System</span></span>
 <span data-ttu-id="277a1-103">El sistema del proyecto de BizTalk se usa para crear una parte o toda una aplicación o solución empresarial de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="277a1-103">You use the BizTalk project system to create part or all of a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application or business solution.</span></span> <span data-ttu-id="277a1-104">El elemento principal de una solución de este tipo es un proyecto de BizTalk, es decir, una colección de elementos como, por ejemplo, esquemas, orquestaciones, tipos de mensajes Web, clases, canalizaciones, asignaciones y referencias, que se pueden crear y generar en un ensamblado antes de implementarlo.</span><span class="sxs-lookup"><span data-stu-id="277a1-104">The core element of any such solution is a BizTalk project—a collection of items, such as schemas, orchestrations, Web message types, classes, pipelines, maps, and references that you can build and generate into an assembly before deploying it.</span></span>  

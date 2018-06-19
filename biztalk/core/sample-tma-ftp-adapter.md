@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Adaptador de FTP | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - FTP adapters, TMA
 - DFD, FTP adapters
 ms.assetid: c648f84a-c83a-44f0-adc9-a3f98b597506
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271964"
 ---
 # <a name="sample-tma-ftp-adapter"></a><span data-ttu-id="3f80f-102">TMA de ejemplo: Adaptador de FTP</span><span class="sxs-lookup"><span data-stu-id="3f80f-102">Sample TMA: FTP Adapter</span></span>
 <span data-ttu-id="3f80f-103">En este tema se presenta el análisis de modelo de amenaza (TMA) del escenario del adaptador de FTP de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="3f80f-103">This topic presents the threat model analysis (TMA) for the FTP adapter scenario for the sample architecture.</span></span>  
@@ -64,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="3f80f-128">**Identificar puntos de entrada, límites de confianza y flujo de datos -** ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="3f80f-128">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   <span data-ttu-id="3f80f-129">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="3f80f-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="3f80f-130">La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="3f80f-130">The following table lists the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="3f80f-129">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="3f80f-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="3f80f-130">La siguiente tabla enumera las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="3f80f-130">The following table lists the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="3f80f-131">**Tabla 1: lista de amenazas identificadas**</span><span class="sxs-lookup"><span data-stu-id="3f80f-131">**Table 1 List of identified threats**</span></span>  
   
@@ -74,7 +75,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="3f80f-144">El servidor FTP está expuesto a ataques de servidores DHCP no autorizados.</span><span class="sxs-lookup"><span data-stu-id="3f80f-144">FTP server is vulnerable to unauthorized DHCP server attacks</span></span>|<span data-ttu-id="3f80f-145">Si el URI no contiene la contraseña del usuario pero está especificado en el controlador, la contraseña del controlador se está enviando actualmente al servidor FTP en el tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="3f80f-145">If the URI does not contain the password of the user but it is specified on the handler, at run time the password from the handler is currently sent to the FTP server.</span></span> <span data-ttu-id="3f80f-146">Si un servidor FTP deshonesto está escuchando las llamadas de autenticación, puede que se valga de este método para averiguar las contraseñas.</span><span class="sxs-lookup"><span data-stu-id="3f80f-146">If there is a rogue FTP server listening for authentication calls, it might steal passwords in this way.</span></span> <span data-ttu-id="3f80f-147">Una posible solución es habilitar o deshabilitar el uso de la contraseña en el nivel del controlador.</span><span class="sxs-lookup"><span data-stu-id="3f80f-147">One solution is to enable/disable using the password at the handler level.</span></span>|<span data-ttu-id="3f80f-148">Servidor FTP</span><span class="sxs-lookup"><span data-stu-id="3f80f-148">FTP server</span></span>|<span data-ttu-id="3f80f-149">Suplantación de identidad</span><span class="sxs-lookup"><span data-stu-id="3f80f-149">Spoofing identity</span></span><br /><br /> <span data-ttu-id="3f80f-150">Manipulación de datos</span><span class="sxs-lookup"><span data-stu-id="3f80f-150">Tampering with data</span></span><br /><br /> <span data-ttu-id="3f80f-151">Revelación de información</span><span class="sxs-lookup"><span data-stu-id="3f80f-151">Information disclosure</span></span>|  
   
 ## <a name="step-3-review-threats-ftp-adapter-scenario"></a><span data-ttu-id="3f80f-152">Paso 3.</span><span class="sxs-lookup"><span data-stu-id="3f80f-152">Step 3.</span></span> <span data-ttu-id="3f80f-153">Analizar las amenazas (escenario del adaptador de FTP)</span><span class="sxs-lookup"><span data-stu-id="3f80f-153">Review Threats (FTP Adapter Scenario)</span></span>  
- <span data-ttu-id="3f80f-154">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="3f80f-154">This section provides the results of the risk analysis we did for threats we identified for the FTP adapter scenario for the sample architecture.</span></span> <span data-ttu-id="3f80f-155">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="3f80f-155">After the main threat model meeting, we reviewed the threats and used the used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
+ <span data-ttu-id="3f80f-154">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del adaptador de FTP de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="3f80f-154">This section provides the results of the risk analysis we did for threats we identified for the FTP adapter scenario for the sample architecture.</span></span> <span data-ttu-id="3f80f-155">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="3f80f-155">After the main threat model meeting, we reviewed the threats and used the used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
  <span data-ttu-id="3f80f-156">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el adaptador de FTP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="3f80f-156">The following table lists the risk ratings for the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
   

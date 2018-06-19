@@ -1,14 +1,14 @@
 ---
 title: Antes de empezar el Tutorial | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b77a49ba-9e15-4754-b8b9-7b7af6e6db0f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230780"
 ---
 # <a name="before-you-begin-the-tutorial"></a><span data-ttu-id="16bc6-102">Antes de comenzar el tutorial</span><span class="sxs-lookup"><span data-stu-id="16bc6-102">Before You Begin the Tutorial</span></span>
 <span data-ttu-id="16bc6-103">Antes de comenzar el tutorial, debe instalar BizTalk Server en un único equipo e instalar también los archivos del tutorial.</span><span class="sxs-lookup"><span data-stu-id="16bc6-103">Before you begin the tutorial, you must install BizTalk Server on a single computer, and also install the tutorial files.</span></span> <span data-ttu-id="16bc6-104">El tutorial no proporciona instrucciones correspondientes a un entorno de varios equipos.</span><span class="sxs-lookup"><span data-stu-id="16bc6-104">The tutorial does not provide instructions for a multicomputer environment.</span></span> <span data-ttu-id="16bc6-105">Si trabaja en un entorno de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] distribuido, debe tenerlo en cuenta al seguir los pasos de los tutoriales.</span><span class="sxs-lookup"><span data-stu-id="16bc6-105">If you are working in a distributed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, you must take that into consideration when you perform the steps in the tutorials.</span></span>  

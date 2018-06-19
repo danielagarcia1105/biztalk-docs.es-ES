@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de dependencias de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de dependencias de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 677b7ef3-9a91-4f1e-bfc5-926bfab23a0f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279252"
 ---
 # <a name="troubleshooting-biztalk-server-dependencies"></a><span data-ttu-id="546d4-102">Solucionar problemas de dependencias de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="546d4-102">Troubleshooting BizTalk Server Dependencies</span></span>
 <span data-ttu-id="546d4-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace uso masivo de varios otros productos de Microsoft para operaciones de tiempo de ejecución y tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="546d4-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of several other Microsoft products for design time and run-time operations.</span></span> <span data-ttu-id="546d4-104">Esta sección incluye pautas para la solución de problemas que pueden producirse en estas tecnologías subyacentes.</span><span class="sxs-lookup"><span data-stu-id="546d4-104">This section contains troubleshooting guidelines for resolving problems that can occur in these underlying technologies.</span></span>  

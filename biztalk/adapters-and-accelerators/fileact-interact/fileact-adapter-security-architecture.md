@@ -1,14 +1,14 @@
 ---
 title: Arquitectura de seguridad del adaptador de FileAct | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5faeebd6-5287-4ac4-a1db-e3c055d323d2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222796"
 ---
 # <a name="fileact-adapter-security-architecture"></a><span data-ttu-id="bfc38-102">Arquitectura de seguridad del adaptador de FileAct</span><span class="sxs-lookup"><span data-stu-id="bfc38-102">FileAct Adapter Security Architecture</span></span>
 <span data-ttu-id="bfc38-103">Seguridad para la transmisión de archivos y la recepción se implementa mediante las características de certificado y clave criptográfica inherentes en SNL y el SAG.</span><span class="sxs-lookup"><span data-stu-id="bfc38-103">Security for the file transmission and receipt is implemented using the certificate and crypto features inherent in SNL and the SAG.</span></span>  <span data-ttu-id="bfc38-104">La administración de certificados, etc., es completamente fuera del ámbito del adaptador de FileAct.</span><span class="sxs-lookup"><span data-stu-id="bfc38-104">The management of certificates, etc., is completely outside of the scope of the FileAct Adapter.</span></span> <span data-ttu-id="bfc38-105">Siempre y cuando la instancia asociada de SNL/SAG se registra para el servicio de FileAct con SWIFT y el software está instalado correctamente en SNL/SAG, el adaptador hace uso de la a través de instalaciones las API de SNL.</span><span class="sxs-lookup"><span data-stu-id="bfc38-105">As long as the associated SNL/SAG instance is registered for the FileAct service with SWIFT and the software properly installed on SNL/SAG, the adapter makes use of the facilities throught the SNL APIs.</span></span> <span data-ttu-id="bfc38-106">El adaptador de FileAct siempre establecerá el FACryptoMode en "Advanced" (se recomienda).</span><span class="sxs-lookup"><span data-stu-id="bfc38-106">The FileAct Adapter will always set the FACryptoMode to “Advanced” (best practice).</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Restricciones al configurar el adaptador de SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
 - SMTP adapters, restrictions
 ms.assetid: ba11ee6d-cd1e-493e-a6d7-bd5ed9c54fe2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268348"
 ---
 # <a name="restrictions-when-configuring-the-smtp-adapter"></a><span data-ttu-id="de2b5-102">Restricciones al configurar el adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="de2b5-102">Restrictions When Configuring the SMTP Adapter</span></span>
 <span data-ttu-id="de2b5-103">Esta sección contiene información útil para configurar el adaptador de SMTP.</span><span class="sxs-lookup"><span data-stu-id="de2b5-103">This section contains information to consider when configuring the SMTP adapter.</span></span>  

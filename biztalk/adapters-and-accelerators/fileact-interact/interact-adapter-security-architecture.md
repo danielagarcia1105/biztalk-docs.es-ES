@@ -1,14 +1,14 @@
 ---
 title: Arquitectura de seguridad del adaptador de interactuar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a4924b8c-1fda-4a0c-b9be-8f2ccba38013
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225364"
 ---
 # <a name="interact-adapter-security-architecture"></a><span data-ttu-id="3aec5-102">Arquitectura de seguridad del adaptador de interactuar</span><span class="sxs-lookup"><span data-stu-id="3aec5-102">InterAct Adapter Security Architecture</span></span>
 <span data-ttu-id="3aec5-103">Seguridad para la transmisión de un mensaje y la recepción se implementa mediante las características de certificado y clave criptográfica inherentes en vínculo SWIFTNet (SNL) y la puerta de enlace de SWIFTAlliance (SAG).</span><span class="sxs-lookup"><span data-stu-id="3aec5-103">Security for the message transmission and receipt is implemented using the certificate and crypto features inherent in SWIFTNet Link (SNL) and the SWIFTAlliance Gateway (SAG).</span></span> <span data-ttu-id="3aec5-104">SWIFT recomienda que los servicios diseñados para que interactuar aplicar una firma de "end-to-end", es decir, los mensajes firmar la solicitud y respuesta.</span><span class="sxs-lookup"><span data-stu-id="3aec5-104">SWIFT recommends that services designed for InterAct to apply an “end-to-end” signature—that is, to sign both request and response messages.</span></span>  

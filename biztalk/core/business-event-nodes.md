@@ -1,11 +1,11 @@
 ---
 title: Nodos de eventos empresariales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - events, Tracking Profile Editor
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Business Event nodes [Tracking Profile Editor]
 - Tracking Profile Editor, events
 ms.assetid: 177bc3c4-e762-42fe-80bc-edede5cd4fcd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230908"
 ---
 # <a name="business-event-nodes"></a><span data-ttu-id="2f83f-102">Nodos de eventos empresariales</span><span class="sxs-lookup"><span data-stu-id="2f83f-102">Business Event Nodes</span></span>
 <span data-ttu-id="2f83f-103">Los nodos de hitos o eventos empresariales definen eventos que son específicos de la fecha o la hora.</span><span class="sxs-lookup"><span data-stu-id="2f83f-103">Business Event or milestone nodes define events that are date- or time-specific.</span></span> <span data-ttu-id="2f83f-104">Las carpetas de hito o evento empresarial predefinidas existen en la definición de actividad que importa del usuario empresarial final y no las puede eliminar sin tener que volver a importar el archivo de definición de actividad.</span><span class="sxs-lookup"><span data-stu-id="2f83f-104">Pre-defined business event and milestone folders exist in the activity definition you import from the business end user, and you cannot delete them without reimporting the activity definition file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Resolución del acuerdo para mensajes AS2 entrantes | Documentos de Microsoft"
-ms.custom: 
+title: Resolución del acuerdo para mensajes AS2 entrantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 746d01af-de6a-4d5d-9433-b0e1a2b41861
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230156"
 ---
 # <a name="agreement-resolution-for-incoming-as2-messages"></a><span data-ttu-id="55705-102">Resolución del acuerdo para mensajes AS2 entrantes</span><span class="sxs-lookup"><span data-stu-id="55705-102">Agreement Resolution for Incoming AS2 Messages</span></span>
 <span data-ttu-id="55705-103">Cuando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un mensaje con codificación EDIINT/AS2 sobre el transporte HTTP/HTTPS, intenta determinar el perfil de negocio del socio comercial que envió el mensaje.</span><span class="sxs-lookup"><span data-stu-id="55705-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDIINT/AS2-encoded message over HTTP/HTTPS transport, it attempts to determine the trading partner’s business profile that sent the message.</span></span> <span data-ttu-id="55705-104">Para ello, trata de realizar lo que se indica a continuación (en el mismo orden que se muestra):</span><span class="sxs-lookup"><span data-stu-id="55705-104">It does so by attempting to do the following (in the order shown):</span></span>  

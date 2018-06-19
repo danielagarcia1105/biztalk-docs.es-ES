@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de mensajería de confianza con el adaptador de MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de mensajería de confianza con el adaptador de MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, properties
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - MSMQ adapters, reliability
 - MSMQ adapters, clustering
 ms.assetid: 34bfe028-b2aa-4816-a437-3679d19dffb2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268852"
 ---
 # <a name="properties-for-reliable-messaging-with-the-msmq-adapter"></a><span data-ttu-id="fe9ae-102">Propiedades de mensajería de confianza con el adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="fe9ae-102">Properties for Reliable Messaging with the MSMQ Adapter</span></span>
 <span data-ttu-id="fe9ae-103">Es posible mejorar la confiabilidad del envío y la recepción de mensajes con el adaptador de MSMQ mediante el modo de configuración de éste.</span><span class="sxs-lookup"><span data-stu-id="fe9ae-103">You can improve the reliability of sending and receiving messages with the MSMQ adapter by the way you configure the MSMQ adapter.</span></span> <span data-ttu-id="fe9ae-104">En este tema se analiza el uso de varias propiedades de configuración para la mensajería confiable.</span><span class="sxs-lookup"><span data-stu-id="fe9ae-104">This topic discusses using several configuration properties for reliable messaging.</span></span>  

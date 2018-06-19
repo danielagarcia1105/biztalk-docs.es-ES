@@ -1,14 +1,14 @@
 ---
 title: Administradores de propiedades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 823352a0-e397-464a-a163-1dbf8feea8d7
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269108"
 ---
 # <a name="property-managers"></a><span data-ttu-id="e766b-102">Administradores de propiedades</span><span class="sxs-lookup"><span data-stu-id="e766b-102">Property Managers</span></span>
 <span data-ttu-id="e766b-103">Los administradores de propiedades permiten a una extensión agregar propiedades personalizadas (normalmente como anotaciones XSD) a los elementos y atributos de la representación XSD del esquema, así como ampliar la funcionalidad de la ventana Propiedades para incluir propiedades personalizadas asociadas con la extensión.</span><span class="sxs-lookup"><span data-stu-id="e766b-103">Property Managers allow an extension to add custom properties (generally as XSD annotations) to elements and attributes in the XSD representation of the schema, as well as extending the Properties window to include the custom properties associated with the extension.</span></span>  

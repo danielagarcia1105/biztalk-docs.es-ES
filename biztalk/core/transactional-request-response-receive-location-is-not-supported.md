@@ -1,14 +1,14 @@
 ---
-title: "Ubicación de recepción de solicitud-respuesta transaccional no se admite | Documentos de Microsoft"
-ms.custom: 
+title: Ubicación de recepción de solicitud-respuesta transaccional no se admite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c89b619-280c-4ab5-b6aa-06b14a075f8e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278516"
 ---
 # <a name="transactional-request-response-receive-location-is-not-supported"></a><span data-ttu-id="d9c91-102">La ubicación de recepción de solicitud-respuesta transaccional no es compatible</span><span class="sxs-lookup"><span data-stu-id="d9c91-102">Transactional request-response receive location is not supported</span></span>
 ## <a name="details"></a><span data-ttu-id="d9c91-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="d9c91-103">Details</span></span>  

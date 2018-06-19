@@ -1,14 +1,14 @@
 ---
 title: Primitivas de extremo a extremo en tiempo real de FileAct adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8591120-7259-49cb-90ac-954d8be226ed
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224932"
 ---
 # <a name="fileact-adapter-real-time-end-to-end-primitives"></a><span data-ttu-id="1f3b1-102">Primitivas de extremo a extremo de FileAct adaptador en tiempo real</span><span class="sxs-lookup"><span data-stu-id="1f3b1-102">FileAct Adapter Real-Time End-to-End Primitives</span></span>
 <span data-ttu-id="1f3b1-103">Primitivas de SWIFTNet son un par de documentos XML intercambiados entre la aplicación y el vínculo de SWIFTNet (SNL).</span><span class="sxs-lookup"><span data-stu-id="1f3b1-103">SWIFTNet primitives are a pair of XML documents exchanged between the application and SWIFTNet Link (SNL).</span></span> <span data-ttu-id="1f3b1-104">Para cada existen primitivo, de-to-end son dos versiones de la primitiva: uno en el lado cliente (o envío) y otro en el servidor (o recepción).</span><span class="sxs-lookup"><span data-stu-id="1f3b1-104">For each end-to-end primitive, there are two versions of the primitive – one at the client (or send) side and one at the server (or receive) side.</span></span> <span data-ttu-id="1f3b1-105">Esto incluye un total de cuatro mensajes: archivo colocar primitiva, primitivos de Get File y una notificación de entrega de envío para cada uno.</span><span class="sxs-lookup"><span data-stu-id="1f3b1-105">This comprises a total of four messages: Put File primitive, Get File primitive, and a Send Delivery Notification for each.</span></span>  

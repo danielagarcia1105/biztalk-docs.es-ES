@@ -1,14 +1,14 @@
 ---
-title: "Configurar el URI de conexión del adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el URI de conexión del adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6460b22-48e4-4b7e-b82e-151e7dab1e09
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226796"
 ---
 # <a name="configure-the-connection-uri-for-the-sql-adapter"></a><span data-ttu-id="4d3cf-102">Configurar el URI de conexión del adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="4d3cf-102">Configure the connection URI for the SQL adapter</span></span>
 <span data-ttu-id="4d3cf-103">Un URI de conexión es una cadena de conexión que contiene los parámetros necesarios para conectarse a SQL Server.</span><span class="sxs-lookup"><span data-stu-id="4d3cf-103">A connection URI is a connection string that contains parameters required to connect to SQL Server.</span></span> <span data-ttu-id="4d3cf-104">Al usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe especificar el URI para conectarse a SQL Server para generar los metadatos.</span><span class="sxs-lookup"><span data-stu-id="4d3cf-104">While using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the URI to connect to SQL Server to generate the metadata.</span></span> <span data-ttu-id="4d3cf-105">Al configurar un envío o recepción puerto utilizado por el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, debe especificar el URI para conectarse a SQL Server para realizar operaciones.</span><span class="sxs-lookup"><span data-stu-id="4d3cf-105">While configuring a send or receive port using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the URI to connect to SQL Server to perform operations.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Mensajería de solicitud-respuesta | Documentos de Microsoft"
-ms.custom: 
+title: Mensajería de solicitud-respuesta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - request/response messaging, about request/response messaging
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - request/response messaging, SOAP adapters
 - messages, patterns
 ms.assetid: 1a2f79b5-1f44-4191-8ce1-b3c9043be4f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268524"
 ---
 # <a name="request-response-messaging"></a><span data-ttu-id="dd5ce-102">Mensajería de solicitud-respuesta</span><span class="sxs-lookup"><span data-stu-id="dd5ce-102">Request-Response Messaging</span></span>
 <span data-ttu-id="dd5ce-103">En un patrón de mensajería de solicitud-respuesta, una parte envía un mensaje de solicitud y la parte receptora devuelve un mensaje de respuesta.</span><span class="sxs-lookup"><span data-stu-id="dd5ce-103">In a request/response messaging pattern, one party sends a request message and the receiving party returns a response message.</span></span> <span data-ttu-id="dd5ce-104">Dos ejemplos típicos del procesamiento de solicitud-respuesta son la interacción que tiene un explorador con un servidor Web que usa el adaptador de HTTP y el procesamiento de servicios Web que usan el adaptador de protocolo de acceso simple a objetos (SOAP).</span><span class="sxs-lookup"><span data-stu-id="dd5ce-104">Two typical examples of request/response processing are the interaction that a browser has with a Web server using the HTTP adapter, and Web service processing using the Simple Object Access Protocol (SOAP) adapter.</span></span> <span data-ttu-id="dd5ce-105">En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], la solicitud y los mensajes de respuesta se controlan de forma típica publicación-suscripción.</span><span class="sxs-lookup"><span data-stu-id="dd5ce-105">In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], both the request and the response messages are handled in a typical publish/subscribe fashion.</span></span> <span data-ttu-id="dd5ce-106">Ésta es una consideración importante para comprender el ajuste de rendimiento de una aplicación de BizTalk, porque es posible que un sistema que requiera un alto rendimiento deba configurarse de forma diferente a otro que requiera baja latencia para mensajes individuales.</span><span class="sxs-lookup"><span data-stu-id="dd5ce-106">This is an important consideration to understand when you performance-tune a BizTalk application, because a system requiring high throughput might be configured differently than one requiring low latency for individual messages.</span></span>  

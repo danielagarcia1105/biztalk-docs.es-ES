@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268428"
 ---
 # <a name="recommendations-when-testing-engine-performance"></a><span data-ttu-id="163c9-102">Recomendaciones al probar el rendimiento del motor</span><span class="sxs-lookup"><span data-stu-id="163c9-102">Recommendations When Testing Engine Performance</span></span>
 <span data-ttu-id="163c9-103">Es recomendable seguir las siguientes instrucciones al probar el rendimiento del motor de BizTalk:</span><span class="sxs-lookup"><span data-stu-id="163c9-103">The following guidelines should be followed when testing BizTalk engine performance:</span></span>  

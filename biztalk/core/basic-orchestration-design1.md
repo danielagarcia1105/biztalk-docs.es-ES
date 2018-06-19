@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230700"
 ---
 # <a name="basic-orchestration-design"></a><span data-ttu-id="e77a1-102">Diseño de orquestación básica</span><span class="sxs-lookup"><span data-stu-id="e77a1-102">Basic Orchestration Design</span></span>
 <span data-ttu-id="e77a1-103">Cuando se crea una orquestación básica, recibe un XML en el puerto de recepción de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="e77a1-103">When you create a basic orchestration, you receive XML into the receive port of your orchestration.</span></span> <span data-ttu-id="e77a1-104">El XML se envía al sistema back-end para que se procese.</span><span class="sxs-lookup"><span data-stu-id="e77a1-104">The XML is sent to the back-end system to be processed.</span></span> <span data-ttu-id="e77a1-105">En el sistema de servidor, se puede producir una excepción que detenga la orquestación y genere un error.</span><span class="sxs-lookup"><span data-stu-id="e77a1-105">In the back-end system, an exception could occur that could stop the orchestration and generate a fault.</span></span> <span data-ttu-id="e77a1-106">La excepción que se genera, se proporciona información que no se completó la orquestación.</span><span class="sxs-lookup"><span data-stu-id="e77a1-106">The exception that is produced, provides information that the orchestration did not complete.</span></span>  

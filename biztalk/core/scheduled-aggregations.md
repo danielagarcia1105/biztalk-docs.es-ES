@@ -1,18 +1,18 @@
 ---
 title: Agregaciones programadas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, aggregations
 - scheduling, aggregations [BAM]
 - aggregations [BAM], scheduling
 ms.assetid: 4e2da2eb-b1fc-4b27-98d6-564e6df719e1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269092"
 ---
 # <a name="scheduled-aggregations"></a><span data-ttu-id="3d7b3-102">Agregaciones programadas</span><span class="sxs-lookup"><span data-stu-id="3d7b3-102">Scheduled Aggregations</span></span>
 <span data-ttu-id="3d7b3-103">BAM basa las agregaciones programadas en cubos OLAP generados dinámicamente y paquetes de Servicios de transformación de datos (DTS).</span><span class="sxs-lookup"><span data-stu-id="3d7b3-103">BAM bases scheduled aggregations on dynamically generated OLAP cubes and Data Transformation Services (DTS) packages.</span></span> <span data-ttu-id="3d7b3-104">Los datos de las agregaciones programadas representan una instantánea de sus actividades de negocio en el momento de iniciar su paquete DTS.</span><span class="sxs-lookup"><span data-stu-id="3d7b3-104">The data in scheduled aggregations represents a snapshot of your business activities when you start your DTS package.</span></span> <span data-ttu-id="3d7b3-105">Para lograr esto, el primer paso del paquete DTS para el análisis es una llamada al procedimiento almacenado **bam_Metadata_BeginAnalysis** que recuperará una instantánea que se compone de:</span><span class="sxs-lookup"><span data-stu-id="3d7b3-105">To achieve this, the first step of the DTS package for analysis is a call to the stored procedure **bam_Metadata_BeginAnalysis** that will retrieve a snapshot consisting of:</span></span>  

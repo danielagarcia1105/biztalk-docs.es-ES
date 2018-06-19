@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3: Probar el 2 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30dbc7c9-3c5f-4953-b26f-5c41141c22ad
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277276"
 ---
 # <a name="step-3-test-the-solution"></a><span data-ttu-id="5c2c5-102">Paso 3: Probar la solución</span><span class="sxs-lookup"><span data-stu-id="5c2c5-102">Step 3: Test the Solution</span></span>
 <span data-ttu-id="5c2c5-103">![Paso 3 de 3](../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="5c2c5-103">![Step 3 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  

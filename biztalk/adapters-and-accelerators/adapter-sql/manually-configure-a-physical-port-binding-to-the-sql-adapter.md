@@ -1,14 +1,14 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d3f0bb78-c85f-4629-9e2d-cce180ff78ae
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222668"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-sql-adapter"></a><span data-ttu-id="b97ea-102">Configurar manualmente un enlace de puerto físico para el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="b97ea-102">Manually configure a physical port binding to the SQL adapter</span></span>
 <span data-ttu-id="b97ea-103">Esta sección proporciona información acerca de cómo configurar el [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] como un enlace personalizado de WCF o como un puerto de WCF-SQL mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="b97ea-103">This section provides information about configuring the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] as a WCF custom binding or as a WCF-SQL port by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="b97ea-104">Después de implementar el adaptador, podrá enviar y recibir mensajes de SQL Server mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="b97ea-104">After deploying the adapter, you will be able to send and receive messages from SQL Server by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="b97ea-105">Los pasos para implementar el adaptador varían en función de:</span><span class="sxs-lookup"><span data-stu-id="b97ea-105">The steps for deploying the adapter vary depending on:</span></span>  

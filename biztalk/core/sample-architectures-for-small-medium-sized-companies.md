@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269556"
 ---
 # <a name="sample-architectures-for-small-amp-medium-sized-companies"></a><span data-ttu-id="e7635-102">Arquitecturas de ejemplo para pequeñas &amp; medianas empresas</span><span class="sxs-lookup"><span data-stu-id="e7635-102">Sample Architectures for Small &amp; Medium-Sized Companies</span></span>
 <span data-ttu-id="e7635-103">Esta sección ofrece una arquitectura de ejemplo en la que Microsoft BizTalk Server se implementa para proteger los activos de una pequeña o mediana empresa.</span><span class="sxs-lookup"><span data-stu-id="e7635-103">This section provides a sample architecture to deploy Microsoft BizTalk Server when you want to help to protect the assets in a small or medium-sized company.</span></span> <span data-ttu-id="e7635-104">Aunque estas arquitecturas fomentan la protección en profundidad y la separación de servicios para minimizar el impacto de un ataque, dan por sentadas las magnitudes de hardware, software y recursos humanos que normalmente tienen a su disposición las grandes compañías.</span><span class="sxs-lookup"><span data-stu-id="e7635-104">While these architectures encourage defense in depth and separation of services to minimize the impact of an attack, they assume quantities of hardware, software, and human resources that are generally available to large companies.</span></span>  

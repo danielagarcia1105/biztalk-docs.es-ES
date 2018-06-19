@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Crear un archivo de definición de aplicación para operaciones de componente de negocio de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Crear un archivo de definición de aplicación para operaciones de componente de negocio de Siebel | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75d34c48-0f2a-42e4-a60b-e04bcf2404e1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227036"
 ---
 # <a name="step-2-create-an-application-definition-file-for-siebel-business-component-operations"></a><span data-ttu-id="562ec-102">Paso 2: Crear un archivo de definición de aplicación para operaciones de componente de negocio de Siebel</span><span class="sxs-lookup"><span data-stu-id="562ec-102">Step 2: Create an Application Definition File for Siebel Business Component Operations</span></span>
 <span data-ttu-id="562ec-103">![Paso 2 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="562ec-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  

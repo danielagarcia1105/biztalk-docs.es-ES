@@ -1,18 +1,18 @@
 ---
-title: "Invocación de RFC y BAPI utilizando el comando EXEC en SAP | Documentos de Microsoft"
-ms.custom: 
+title: Invocación de RFC y BAPI utilizando el comando EXEC en SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - EXEC command, invoking RFCs and BAPIs
 - BAPIs and RFCs, invoking by using the EXEC command
 - RFCs and BAPIs, invoking by using the EXEC command
 ms.assetid: 55443679-2fa8-4c13-ac3b-1c85b5166cd2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217220"
 ---
 # <a name="invoke-rfcs-and-bapis-using-the-exec-command-in-sap"></a><span data-ttu-id="1d772-102">Invocación de RFC y BAPI utilizando el comando EXEC en SAP</span><span class="sxs-lookup"><span data-stu-id="1d772-102">Invoke RFCs and BAPIs using the EXEC Command in SAP</span></span>
 <span data-ttu-id="1d772-103">La [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] expone el sistema SAP como un origen de datos ADO.NET.</span><span class="sxs-lookup"><span data-stu-id="1d772-103">The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] exposes the SAP system as an ADO.NET data source.</span></span> <span data-ttu-id="1d772-104">Mediante el uso de [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], puede invocar RFC y BAPI en el sistema SAP a través de un comando EXEC.</span><span class="sxs-lookup"><span data-stu-id="1d772-104">By using [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], you can invoke RFCs and BAPIs on the SAP system through an EXEC command.</span></span>  

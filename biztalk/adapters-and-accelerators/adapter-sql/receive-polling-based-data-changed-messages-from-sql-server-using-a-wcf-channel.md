@@ -1,14 +1,14 @@
 ---
 title: Recibir mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de canal de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0f4af71-fb0c-433d-ba74-48ee6487eb1a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226396"
 ---
 # <a name="receive-polling-based-data-changed-messages-from-sql-server-by-using-the-wcf-channel-model"></a><span data-ttu-id="ce6e2-102">Recibir mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de canal de WCF</span><span class="sxs-lookup"><span data-stu-id="ce6e2-102">Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model</span></span>
 <span data-ttu-id="ce6e2-103">Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de cambio de datos periódicos para SQL Server tablas o vistas.</span><span class="sxs-lookup"><span data-stu-id="ce6e2-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views.</span></span> <span data-ttu-id="ce6e2-104">Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos.</span><span class="sxs-lookup"><span data-stu-id="ce6e2-104">You can specify a polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="ce6e2-105">La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="ce6e2-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  

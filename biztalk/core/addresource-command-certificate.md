@@ -1,14 +1,14 @@
 ---
 title: 'El comando AddResource: Certificado | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e915043-6634-4644-8d69-376d762c7cec
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230348"
 ---
 # <a name="addresource-command-certificate"></a><span data-ttu-id="50e17-102">AddResource (comando): certificado</span><span class="sxs-lookup"><span data-stu-id="50e17-102">AddResource Command: Certificate</span></span>
 <span data-ttu-id="50e17-103">Para agregar un certificado de seguridad para una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:Certificate** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="50e17-103">To add a security certificate to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Certificate** for the Type parameter.</span></span> <span data-ttu-id="50e17-104">Para que funcione este comando, el certificado debe estar presente en el almacén de certificados Otras personas del equipo local.</span><span class="sxs-lookup"><span data-stu-id="50e17-104">For this command to work, the certificate must be present in the Other People certificate store on the local computer.</span></span>  

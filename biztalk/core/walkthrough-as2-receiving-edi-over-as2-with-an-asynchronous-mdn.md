@@ -1,14 +1,14 @@
 ---
-title: "Tutorial (AS2): Recibir EDI a través de AS2 con un MDN asíncrono | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (AS2): Recibir EDI a través de AS2 con un MDN asíncrono | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac3962e4-0525-4194-8cf1-b90664f1a139
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292404"
 ---
 # <a name="walkthrough-as2-receiving-edi-over-as2-with-an-asynchronous-mdn"></a><span data-ttu-id="99bd5-102">Tutorial (AS2): Recibir EDI a través de AS2 con un MDN asíncrono</span><span class="sxs-lookup"><span data-stu-id="99bd5-102">Walkthrough (AS2): Receiving EDI over AS2 with an Asynchronous MDN</span></span>
 <span data-ttu-id="99bd5-103">Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para la recepción de mensajes EDI a través del transporte AS2 y la devolución de MDN sincrónicos.</span><span class="sxs-lookup"><span data-stu-id="99bd5-103">This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI messages over AS2 transport, returning synchronous MDNs.</span></span>  

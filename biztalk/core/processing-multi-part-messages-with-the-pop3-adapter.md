@@ -1,14 +1,14 @@
 ---
 title: Mensajes de procesamiento de varias partes con el adaptador de POP3 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56ad041f-f155-4c1c-ab87-1405c80d9b68
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266444"
 ---
 # <a name="processing-multi-part-messages-with-the-pop3-adapter"></a><span data-ttu-id="93480-102">Procesar mensajes de varias partes con el adaptador de POP3</span><span class="sxs-lookup"><span data-stu-id="93480-102">Processing Multi Part Messages with the POP3 Adapter</span></span>
 <span data-ttu-id="93480-103">El adaptador de POP3 puede procesar mensajes codificado con MIME que cumplen con los estándares IETF documentados en [RFC 2045](http://go.microsoft.com/fwlink/?LinkId=58810), [RFC 2046](http://go.microsoft.com/fwlink/?LinkId=58811), y [RFC 2047](http://go.microsoft.com/fwlink/?LinkId=58812).</span><span class="sxs-lookup"><span data-stu-id="93480-103">The POP3 Adapter can process MIME-encoded messages that conform to the IETF standards documented in [RFC 2045](http://go.microsoft.com/fwlink/?LinkId=58810), [RFC 2046](http://go.microsoft.com/fwlink/?LinkId=58811), and [RFC 2047](http://go.microsoft.com/fwlink/?LinkId=58812).</span></span> <span data-ttu-id="93480-104">Los mensajes codificados con MIME pueden tener una o varias partes con distintos tipos de contenido.</span><span class="sxs-lookup"><span data-stu-id="93480-104">MIME encoded messages can have from one to many parts with different content types.</span></span> <span data-ttu-id="93480-105">En este tema se trata el modo en que el adaptador de POP3 procesa mensajes de varias partes codificados con MIME.</span><span class="sxs-lookup"><span data-stu-id="93480-105">This topic discusses the how the POP3 adapter processes multi part MIME encoded messages.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Advanced componentes de configuración para los adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Advanced componentes de configuración para los adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb31b996-6959-4b5a-9a9f-f48fd91a6180
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230012"
 ---
 # <a name="advanced-configuration-components-for-adapters"></a><span data-ttu-id="07d9c-102">Componentes de configuración avanzada para adaptadores</span><span class="sxs-lookup"><span data-stu-id="07d9c-102">Advanced Configuration Components for Adapters</span></span>
 <span data-ttu-id="07d9c-103">El Marco de trabajo de adaptadores de BizTalk es compatible con un editor desplegable personalizado, un editor de cuadro de diálogo modal personalizado y con un convertidor de tipos personalizado.</span><span class="sxs-lookup"><span data-stu-id="07d9c-103">The BizTalk Adapter Framework supports a custom drop-down editor, a custom modal dialog editor, and a custom type converter.</span></span> <span data-ttu-id="07d9c-104">Estos componentes de diseño personalizado son especialmente útiles al tomar la información de nombre de usuario y contraseña como entrada.</span><span class="sxs-lookup"><span data-stu-id="07d9c-104">These custom design components are especially useful when taking user name and password information as input.</span></span>  

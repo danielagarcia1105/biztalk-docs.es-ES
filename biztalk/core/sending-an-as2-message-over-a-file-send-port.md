@@ -1,14 +1,14 @@
 ---
-title: "Enviar un mensaje AS2 a través de un puerto de envío de archivo | Documentos de Microsoft"
-ms.custom: 
+title: Enviar un mensaje AS2 a través de un puerto de envío de archivo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c5ce9ff-fd73-4d5f-9b16-387c1e520c3a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270732"
 ---
 # <a name="sending-an-as2-message-over-a-file-send-port"></a><span data-ttu-id="a46a6-102">Enviar un mensaje AS2 a través de un puerto de envío de archivo</span><span class="sxs-lookup"><span data-stu-id="a46a6-102">Sending an AS2 Message over a FILE Send Port</span></span>
 <span data-ttu-id="a46a6-103">Los mensajes AS2 suelen enviarse a través de un adaptador de HTTP.</span><span class="sxs-lookup"><span data-stu-id="a46a6-103">AS2 messages are normally sent over an HTTP adapter.</span></span> <span data-ttu-id="a46a6-104">No obstante, puede enviar mensajes AS2 a través de un adaptador de archivo si crea componentes personalizados.</span><span class="sxs-lookup"><span data-stu-id="a46a6-104">You can, however, send AS2 messages over a FILE adapter if you create custom components.</span></span> <span data-ttu-id="a46a6-105">En este tema se describe cómo funcionaría esta solución y ofrece códigos de ejemplo para ella.</span><span class="sxs-lookup"><span data-stu-id="a46a6-105">This topic describes how such a solution would work and provides sample code for the solution.</span></span>  

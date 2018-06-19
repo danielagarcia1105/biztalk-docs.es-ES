@@ -1,14 +1,14 @@
 ---
 title: Archivos WSDL del adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d4b35c0-1e4b-4106-8921-29d14f976d65
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229828"
 ---
 # <a name="adapter-wsdl-files"></a><span data-ttu-id="fef73-102">Archivos WSDL del adaptador</span><span class="sxs-lookup"><span data-stu-id="fef73-102">Adapter WSDL Files</span></span>
 <span data-ttu-id="fef73-103">En el Asistente para agregar metadatos de adaptador está seleccionado y de entrada en el archivo de lenguaje de descripción de servicios Web (WSDL) la **seleccionar servicios para importar** página.</span><span class="sxs-lookup"><span data-stu-id="fef73-103">In the Add Adapter Metadata Wizard the Web Services Description Language (WSDL) file is selected and input on the **Select Services to Import** page.</span></span> <span data-ttu-id="fef73-104">El asistente lee los archivos WSDL expuestos por el servicio y seleccionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="fef73-104">The wizard reads the WSDL files exposed by the service and selected by the user.</span></span> <span data-ttu-id="fef73-105">Después crea y agrega un archivo XSD y una orquestación en el proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="fef73-105">It then creates and adds an XSD file and an orchestration in the BizTalk project.</span></span>  

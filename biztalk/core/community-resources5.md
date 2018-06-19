@@ -1,14 +1,14 @@
 ---
 title: Comunidad Resources5 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-03-24
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 632c6dcf-c60a-4914-8df4-97ef76d22b16
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231724"
 ---
 # <a name="community-resources"></a><span data-ttu-id="c3d6b-102">Recursos de la Comunidad</span><span class="sxs-lookup"><span data-stu-id="c3d6b-102">Community Resources</span></span>
 <span data-ttu-id="c3d6b-103">Conecte a la Comunidad de BizTalk Server para comunicarse con otros programadores y administradores y obtener respuestas a sus preguntas, leer la versión más reciente de los distintos recursos de comunidad de BizTalk, vea vídeos de Channel 9, profundizar en Azure y mucho más.</span><span class="sxs-lookup"><span data-stu-id="c3d6b-103">Plug into the BizTalk Server community to connect with other developers and admins and get answers to your questions, read the latest from different BizTalk community resources, watch Channel 9 videos, dive into Azure, and more.</span></span>  

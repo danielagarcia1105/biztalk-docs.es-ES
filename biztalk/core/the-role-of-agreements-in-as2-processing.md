@@ -1,14 +1,14 @@
 ---
 title: Rol de los acuerdos AS2 procesamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb6a6fe1-8fb4-4998-a1b4-aadad7e672c4
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279436"
 ---
 # <a name="the-role-of-agreements-in-as2-processing"></a><span data-ttu-id="b9c80-102">Rol de los acuerdos en el procesamiento de AS2</span><span class="sxs-lookup"><span data-stu-id="b9c80-102">The Role of Agreements in AS2 Processing</span></span>
 <span data-ttu-id="b9c80-103">Una organización usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes AS2 de uno o varios socios comerciales, así como para enviar mensajes AS2 a ellos.</span><span class="sxs-lookup"><span data-stu-id="b9c80-103">An organization uses [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive AS2 messages from, and send AS2 messages to, one or more trading partners.</span></span> <span data-ttu-id="b9c80-104">A su vez, los socios comerciales definen perfiles de negocio que son entidades de negocio dentro de una organización.</span><span class="sxs-lookup"><span data-stu-id="b9c80-104">The trading partners, in turn define business profiles that are business entities within an organization.</span></span> <span data-ttu-id="b9c80-105">Las propiedades de AS2 se establecen en acuerdos entre socios comerciales bidireccionales entre dos perfiles de negocio que pertenecen a socios comerciales distintos.</span><span class="sxs-lookup"><span data-stu-id="b9c80-105">You set AS2 properties in bi-directional trading partner agreements between two business profiles belonging to different trading partners.</span></span>  

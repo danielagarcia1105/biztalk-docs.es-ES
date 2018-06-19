@@ -1,11 +1,11 @@
 ---
-title: "Permisos necesarios para implementar y administrar una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Permisos necesarios para implementar y administrar una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [applications], security
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - assemblies, security
 - managing, security
 ms.assetid: 4a459ff1-661d-403a-99e0-d54b82e008d0
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265548"
 ---
 # <a name="permissions-required-for-deploying-and-managing-a-biztalk-application"></a><span data-ttu-id="f9ae8-102">Permisos necesarios para la implementación y administración de aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="f9ae8-102">Permissions Required for Deploying and Managing a BizTalk Application</span></span>
 <span data-ttu-id="f9ae8-103">La implementación de aplicaciones incluye la implementación de ensamblados de BizTalk a partir de Visual Studio, así como la importación, exportación e instalación de aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f9ae8-103">Application deployment includes deploying BizTalk assemblies from Visual Studio as well as importing, exporting, and installing BizTalk applications.</span></span> <span data-ttu-id="f9ae8-104">Los permisos básicos necesarios para llevar a cabo estas tareas son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="f9ae8-104">The basic permissions you need to perform these tasks are as follows:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Definición de tipo Global complejo y nomenclatura | Documentos de Microsoft"
-ms.custom: 
+title: Definición de tipo Global complejo y nomenclatura | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5a12956-7b77-4be8-b323-38363d04fcbc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231628"
 ---
 # <a name="complex-global-type-definition-and-naming"></a><span data-ttu-id="adfd0-102">Definición y nomenclatura de los tipos globales complejos</span><span class="sxs-lookup"><span data-stu-id="adfd0-102">Complex Global Type Definition and Naming</span></span>
 <span data-ttu-id="adfd0-103">Para definir un tipo global complejo en el Editor de BizTalk, defina el primer caso de tipo complejo que aparezca en una de las ubicaciones donde se usará el tipo global, después de que se haya convertido a un tipo global.</span><span class="sxs-lookup"><span data-stu-id="adfd0-103">Within BizTalk Editor, you begin to define a complex global type by defining the first occurrence of the complex type in one of the locations where the global type will be used, after it has been converted to a global type.</span></span> <span data-ttu-id="adfd0-104">Siguiendo con el ejemplo de dirección, puede definir el tipo complejo de dirección mientras configura una dirección de envío dentro del esquema.</span><span class="sxs-lookup"><span data-stu-id="adfd0-104">Continuing with the address example, you might define the complex address type in the course of defining a shipping address within the schema.</span></span>  

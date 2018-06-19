@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Enterprise Single Sign-On | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security examples [TMA], SSO
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - examples, SSO
 - examples, TMA
 ms.assetid: c2c15b1b-54f3-4d1a-b3d8-6679abd41ccb
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22273196"
 ---
 # <a name="sample-tma-enterprise-single-sign-on"></a><span data-ttu-id="a52cd-102">TMA de ejemplo: Enterprise Single Sign-On</span><span class="sxs-lookup"><span data-stu-id="a52cd-102">Sample TMA: Enterprise Single Sign-On</span></span>
 <span data-ttu-id="a52cd-103">En este tema se presenta el análisis de modelo de amenazas (TMA) del escenario del servicio de inicio de sesión único empresarial de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="a52cd-103">This topic presents the threat model analysis (TMA) for the Enterprise Single Sign-On scenario for the sample architecture.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="a52cd-123">**Identificar puntos de entrada, límites de confianza y flujo de datos** -ver la información básica descrita en el paso 1 y en [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="a52cd-123">**Identify Entry Points, Trust Boundaries, and Flow of Data** - See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   <span data-ttu-id="a52cd-124">**Crear una lista de amenazas identificadas** -usamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="a52cd-124">**Create a List of the Identified Threats** - We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="a52cd-125">La siguiente tabla contiene la lista de amenazas que identificamos al usar el servicio de inicio de sesión único empresarial (SSO) para enviar y recibir mensajes del servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a52cd-125">The following table lists the threats we identified when you use Enterprise Single Sign-On (SSO) to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="a52cd-124">**Crear una lista de amenazas identificadas** -usamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="a52cd-124">**Create a List of the Identified Threats** - We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="a52cd-125">La siguiente tabla contiene la lista de amenazas que identificamos al usar el servicio de inicio de sesión único empresarial (SSO) para enviar y recibir mensajes del servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a52cd-125">The following table lists the threats we identified when you use Enterprise Single Sign-On (SSO) to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="a52cd-126">**Tabla 1: lista de amenazas identificadas**</span><span class="sxs-lookup"><span data-stu-id="a52cd-126">**Table 1 List of identified threats**</span></span>  
   
@@ -73,7 +74,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="a52cd-144">Un usuario malintencionado podría pueden manipular los datos durante su tránsito de un servidor a otro.</span><span class="sxs-lookup"><span data-stu-id="a52cd-144">A malicious user can tamper with the data as it travels from one server to another</span></span>|<span data-ttu-id="a52cd-145">La comunicación entre servidores se realiza en texto sin cifrar, por lo que los usuarios malintencionados podrían leer la información mientras está en tránsito.</span><span class="sxs-lookup"><span data-stu-id="a52cd-145">The communication between servers is in clear text, and a malicious user can potentially read the data as it travels.</span></span>|<span data-ttu-id="a52cd-146">data</span><span class="sxs-lookup"><span data-stu-id="a52cd-146">Data</span></span>|<span data-ttu-id="a52cd-147">Manipulación de datos</span><span class="sxs-lookup"><span data-stu-id="a52cd-147">Tampering with data</span></span><br /><br /> <span data-ttu-id="a52cd-148">Revelación de información</span><span class="sxs-lookup"><span data-stu-id="a52cd-148">Information disclosure</span></span>|  
   
 ## <a name="step-3-review-threats-enterprise-single-sign-on-scenario"></a><span data-ttu-id="a52cd-149">Paso 3.</span><span class="sxs-lookup"><span data-stu-id="a52cd-149">Step 3.</span></span> <span data-ttu-id="a52cd-150">Analizar las amenazas (escenario único empresarial inicio de sesión)</span><span class="sxs-lookup"><span data-stu-id="a52cd-150">Review Threats (Enterprise Single Sign-On Scenario)</span></span>  
- <span data-ttu-id="a52cd-151">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del servicio de inicio de sesión único empresarial (SSO) de la arquitectura de referencia.</span><span class="sxs-lookup"><span data-stu-id="a52cd-151">This section provides the results of the risk analysis we did for threats we identified for the Enterprise Single Sign-On (SSO) scenario for the reference architecture.</span></span> <span data-ttu-id="a52cd-152">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="a52cd-152">After the main threat model meeting, we reviewed the threats and used the used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
+ <span data-ttu-id="a52cd-151">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario del servicio de inicio de sesión único empresarial (SSO) de la arquitectura de referencia.</span><span class="sxs-lookup"><span data-stu-id="a52cd-151">This section provides the results of the risk analysis we did for threats we identified for the Enterprise Single Sign-On (SSO) scenario for the reference architecture.</span></span> <span data-ttu-id="a52cd-152">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa el valor utilizado afectan a los siguientes categorías para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="a52cd-152">After the main threat model meeting, we reviewed the threats and used the used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
  <span data-ttu-id="a52cd-153">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar el servicio de inicio de sesión único empresarial para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a52cd-153">The following table lists the risk ratings for the threats we identified when you use Enterprise Single Sign-On to send and receive messages to and from BizTalk Server.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
 title: RemoveResource (comando) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e2c6046-43d4-4ac1-a1b1-3795b4e44038
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269380"
 ---
 # <a name="removeresource-command"></a><span data-ttu-id="1f098-102">RemoveResource (comando)</span><span class="sxs-lookup"><span data-stu-id="1f098-102">RemoveResource Command</span></span>
 <span data-ttu-id="1f098-103">Quita (elimina) un artefacto de la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="1f098-103">Removes (deletes) an artifact from the BizTalk Management database.</span></span> <span data-ttu-id="1f098-104">Ejecutar este comando no quita el artefacto de la caché de ensamblados global (GAC), del sistema de archivos, del almacén de certificados, de Internet Information Services o del Registro de Windows si existe en cualquiera de estas ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="1f098-104">Running this command does not remove the artifact from the global assembly cache (GAC), file system, certificate store, Internet Information Services, or the Windows registry, if it exists in any of these locations.</span></span> <span data-ttu-id="1f098-105">No quita una definición de BAM de la base de datos de importación principal de BAM ni directivas de la base de datos del motor de reglas.</span><span class="sxs-lookup"><span data-stu-id="1f098-105">It does not remove a BAM definition from the BAM Primary Import database nor does it remove policies from the Rule Engine database.</span></span> <span data-ttu-id="1f098-106">Si ejecuta este comando para quitar un archivo de enlace, los enlaces no se modificarán. Solo se quita el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="1f098-106">If you run this command to remove a binding file, the bindings remain unchanged – only the binding file is removed.</span></span>  

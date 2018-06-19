@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278916"
 ---
 # <a name="trackedschemas-moduleref-node"></a><span data-ttu-id="fe150-102">TrackedSchemas (nodo ModuleRef)</span><span class="sxs-lookup"><span data-stu-id="fe150-102">TrackedSchemas (ModuleRef Node)</span></span>
 <span data-ttu-id="fe150-103">El nodo TrackedSchemas de un archivo de enlace es el nodo primario de todos los nodos Esquema que describen los esquemas enlazados con el servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="fe150-103">The TrackedSchemas node of a binding file is the parent node for all of the Schema nodes which describe the schemas bound to the service that is exported with the binding file.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277676"
 ---
 # <a name="success---validate-schema"></a><span data-ttu-id="9767e-102">Correcto: Validar esquema</span><span class="sxs-lookup"><span data-stu-id="9767e-102">Success - Validate Schema</span></span>
 <span data-ttu-id="9767e-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="9767e-103">**Explanation**</span></span>  

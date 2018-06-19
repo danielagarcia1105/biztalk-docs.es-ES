@@ -1,14 +1,14 @@
 ---
 title: Acerca de los mensajes de instancia | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: de7fc3d3-57a7-4df9-b981-127e21941e22
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224780"
 ---
 # <a name="about-instance-messages"></a><span data-ttu-id="35e5a-102">Acerca de los mensajes de instancia</span><span class="sxs-lookup"><span data-stu-id="35e5a-102">About Instance Messages</span></span>
 <span data-ttu-id="35e5a-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] envía y recibe mensajes de instancia, cada uno de los cuales representa normalmente uno o varios documentos empresariales, como un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="35e5a-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends and receives instance messages, each of which typically represents one or more business documents such as a purchase order.</span></span> <span data-ttu-id="35e5a-104">Un mensaje de instancia es una instancia de una estructura de mensaje definida por uno o más esquemas</span><span class="sxs-lookup"><span data-stu-id="35e5a-104">An instance message is an instance of a message structure defined by one or more schemas.</span></span> <span data-ttu-id="35e5a-105">Un esquema, o un conjunto de esquemas utilizados de forma conjunta, define lo que constituye un mensaje de instancia válido.</span><span class="sxs-lookup"><span data-stu-id="35e5a-105">A schema, or a set of schemas being used together, defines what constitutes a valid instance message.</span></span> <span data-ttu-id="35e5a-106">Por ejemplo, se puede establecer que un pedido de compra tenga varios registros dentro; por ejemplo, un registro ShipTo, un registro BillTo, un registro Items, etc.</span><span class="sxs-lookup"><span data-stu-id="35e5a-106">For example, a purchase order might be defined to have several records within it, such as a ShipTo record, a BillTo record, an Items record, and so on.</span></span> <span data-ttu-id="35e5a-107">Cada uno de estos registros se puede definir de modo que contenga sus propios subregistros y campos.</span><span class="sxs-lookup"><span data-stu-id="35e5a-107">Each of these records can be defined to contain their own subrecords and fields.</span></span> <span data-ttu-id="35e5a-108">El esquema correspondiente define el contenido potencial de estos registros y campos, y los mensajes de instancia correspondientes incluyen los pedidos de compra reales que contienen datos de pedidos de compra estructurados en función del esquema.</span><span class="sxs-lookup"><span data-stu-id="35e5a-108">The corresponding schema defines the potential contents of these records and fields and the corresponding instance messages contain actual purchase orders that contain purchase order data structured according to the schema.</span></span>  

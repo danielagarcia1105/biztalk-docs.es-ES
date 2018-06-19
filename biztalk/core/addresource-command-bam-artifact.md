@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Artefacto de BAM | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a9de7a82-9b06-4d50-9678-73140e80d0af
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230404"
 ---
 # <a name="addresource-command-bam-artifact"></a><span data-ttu-id="29f17-102">AddResource (comando): Artefacto de BAM</span><span class="sxs-lookup"><span data-stu-id="29f17-102">AddResource Command: BAM Artifact</span></span>
 <span data-ttu-id="29f17-103">Para agregar un artefacto de BAM a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: BAM** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="29f17-103">To add a BAM artifact to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Bam** for the Type parameter.</span></span> <span data-ttu-id="29f17-104">Ejecutar este comando agrega el archivo de artefacto de BAM a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="29f17-104">Running this command adds the BAM artifact file to the BizTalk Management database.</span></span> <span data-ttu-id="29f17-105">Además, el artefacto de BAM aparece en la consola de administración de BizTalk Server en la carpeta Recursos de la aplicación a la que lo agregó.</span><span class="sxs-lookup"><span data-stu-id="29f17-105">The BAM artifact is also displayed in the BizTalk Server Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="29f17-106">Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="29f17-106">In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  

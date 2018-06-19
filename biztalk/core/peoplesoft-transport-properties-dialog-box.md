@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265148"
 ---
 # <a name="peoplesoft-transport-properties-dialog-box"></a><span data-ttu-id="e21fe-102">Cuadro de diálogo de propiedades de transporte de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="e21fe-102">PeopleSoft Transport Properties Dialog Box</span></span>
 <span data-ttu-id="e21fe-103">Use el cuadro de diálogo Propiedades de transporte de PeopleSoft para establecer las propiedades requeridas por el adaptador.</span><span class="sxs-lookup"><span data-stu-id="e21fe-103">Use the PeopleSoft Transport Properties dialog box to set the adapter-required properties.</span></span>  

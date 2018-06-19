@@ -1,15 +1,15 @@
 ---
 title: Accesibilidad para personas con discapacidades | Documentos de Microsoft
-description: "Métodos abreviados de teclado y accesibilidad para BizTalk Server"
-ms.custom: 
+description: Métodos abreviados de teclado y accesibilidad para BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d96c203e-9697-4c1d-9492-f74cf6f080b6
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224668"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a><span data-ttu-id="3993f-103">Accesibilidad para personas con discapacidades</span><span class="sxs-lookup"><span data-stu-id="3993f-103">Accessibility for People with Disabilities</span></span>
 

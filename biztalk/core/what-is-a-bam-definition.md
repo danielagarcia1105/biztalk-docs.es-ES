@@ -1,18 +1,18 @@
 ---
-title: "¿Qué es una definición de BAM? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es una definición de BAM? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definitions [BAM], observation models
 - definitions [BAM], about BAM definitions
 - definitions [BAM]
 ms.assetid: 1ba1f45e-85fe-492f-8a2e-98bf3570c633
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289684"
 ---
 # <a name="what-is-a-bam-definition"></a><span data-ttu-id="c0213-103">¿Qué es una definición de BAM?</span><span class="sxs-lookup"><span data-stu-id="c0213-103">What Is a BAM Definition?</span></span>
 <span data-ttu-id="c0213-104">Una definición de BAM es una representación XML de un modelo de observación de BAM, que es una definición de alto nivel de un proceso empresarial que desea supervisar.</span><span class="sxs-lookup"><span data-stu-id="c0213-104">A BAM definition is an XML representation of a BAM observation model, which is a high-level definition a business process that you want to monitor.</span></span> <span data-ttu-id="c0213-105">Las partes principales del modelo de observación, y por lo tanto, la definición de BAM, son los hitos y eventos de datos que se van a recopilar (la actividad de BAM), una descripción de cualquier agregación de datos y la presentación de la información a los usuarios (la vista de BAM).</span><span class="sxs-lookup"><span data-stu-id="c0213-105">The main parts of the observation model, and therefore the BAM definition, are the milestone and data events to collect (the BAM activity); a description of any data aggregations; and how to present the information to users (the BAM view).</span></span>  

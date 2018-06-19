@@ -1,11 +1,11 @@
 ---
-title: "Canalizaciones de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Canalizaciones de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, about receive pipelines
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - pipelines, receive pipelines
 - receive pipelines, stages
 ms.assetid: ee75c1d4-00b7-4177-bca3-1447a39d2238
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268868"
 ---
 # <a name="receive-pipelines"></a><span data-ttu-id="d52c8-102">Canalizaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="d52c8-102">Receive Pipelines</span></span>
 <span data-ttu-id="d52c8-103">La ilustración que aparece a continuación muestra el flujo de trabajo de procesamiento de mensajes aunque se centra en la canalización de recepción.</span><span class="sxs-lookup"><span data-stu-id="d52c8-103">The following figure shows the message processing workflow, highlighting the receive pipeline.</span></span>  

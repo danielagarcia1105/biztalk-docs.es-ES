@@ -1,17 +1,17 @@
 ---
-title: "Infraestructura dinámica de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Infraestructura dinámica de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - infrastructure, BAM
 - BAM, infrastructure
 ms.assetid: 88f39438-3213-4f0d-8b8d-e6426c266138
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230452"
 ---
 # <a name="bam-dynamic-infrastructure"></a><span data-ttu-id="2ee1d-102">Infraestructura dinámica de BAM</span><span class="sxs-lookup"><span data-stu-id="2ee1d-102">BAM Dynamic Infrastructure</span></span>
 <span data-ttu-id="2ee1d-103">La infraestructura de BAM consta de tablas de SQL Server, vistas de BAM, procedimientos almacenados y paquetes de servicios de transformación de datos (DTS) en las bases de datos BAM (importación principal, archivo, esquema de estrella y análisis) como configurado y administrado mediante incremental implementaciones de definiciones de BAM.</span><span class="sxs-lookup"><span data-stu-id="2ee1d-103">The BAM infrastructure consists of SQL Server tables, BAM views, stored procedures, and Data Transformation Services (DTS) packages in the BAM databases (Primary Import, Archive, Star Schema, and Analysis) as configured and managed through incremental deployments of BAM definitions.</span></span> <span data-ttu-id="2ee1d-104">La infraestructura es donde, en tiempo de ejecución eventos se correlacionan, agregan y, a continuación, están disponibles para consultar los usuarios.</span><span class="sxs-lookup"><span data-stu-id="2ee1d-104">The infrastructure is where, at run time, events are correlated, aggregated, and then made available for querying by users.</span></span>  

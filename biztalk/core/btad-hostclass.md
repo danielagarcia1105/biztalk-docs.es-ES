@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230684"
 ---
 # <a name="btadhostclass"></a><span data-ttu-id="c97af-102">BTAD_HostClass</span><span class="sxs-lookup"><span data-stu-id="c97af-102">BTAD_HostClass</span></span>
 <span data-ttu-id="c97af-103">BTAD_HostClass indica si la operación que se realiza en la base de datos de administración de BizTalk o en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="c97af-103">BTAD_HostClass indicates whether the operation is being performed on the BizTalk Management database or the local computer.</span></span>  

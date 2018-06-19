@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con tipos que aceptan valores null | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a5ea191-09d5-47ab-a197-390fbbcf6306
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278724"
 ---
 # <a name="support-for-nullable-types"></a><span data-ttu-id="cd3f4-102">Compatibilidad con tipos que aceptan valores NULL</span><span class="sxs-lookup"><span data-stu-id="cd3f4-102">Support for Nullable Types</span></span>
 <span data-ttu-id="cd3f4-103">El motor de reglas admite el uso de los tipos que aceptan valores NULL en una regla de negocios.</span><span class="sxs-lookup"><span data-stu-id="cd3f4-103">The rule engine supports using nullable types in a business rule.</span></span> <span data-ttu-id="cd3f4-104">Puede usar tipos que aceptan valores NULL en enlaces de clase .NET, enlaces XML y enlaces de bases de datos.</span><span class="sxs-lookup"><span data-stu-id="cd3f4-104">You can use nullable types in .NET class bindings, XML bindings, and database bindings.</span></span> <span data-ttu-id="cd3f4-105">Actualmente, la herramienta Compositor de reglas de negocio no admite el uso de tipos que aceptan valores NULL en una regla de negocios.</span><span class="sxs-lookup"><span data-stu-id="cd3f4-105">Currently, the Business Rule Composer tool does not support using nullable types in a business rule.</span></span> <span data-ttu-id="cd3f4-106">Puede usar los tipos que aceptan valores NULL a la hora de crear reglas mediante programación.</span><span class="sxs-lookup"><span data-stu-id="cd3f4-106">You can use the nullable types when creating rules programmatically.</span></span>  

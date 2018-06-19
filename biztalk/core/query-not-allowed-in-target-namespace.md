@@ -1,14 +1,14 @@
 ---
 title: No se permite en el espacio de nombres de destino de consulta | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d0475fe-2a44-415e-9995-dcb77e0d945d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268612"
 ---
 # <a name="query-not-allowed-in-target-namespace"></a><span data-ttu-id="1f193-102">No se admite la consulta en espacio de nombres de destino</span><span class="sxs-lookup"><span data-stu-id="1f193-102">Query not allowed in target namespace</span></span>
 ## <a name="details"></a><span data-ttu-id="1f193-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="1f193-103">Details</span></span>  

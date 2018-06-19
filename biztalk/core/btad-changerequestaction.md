@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230580"
 ---
 # <a name="btadchangerequestaction"></a><span data-ttu-id="ae67e-102">BTAD_ChangeRequestAction</span><span class="sxs-lookup"><span data-stu-id="ae67e-102">BTAD_ChangeRequestAction</span></span>
 <span data-ttu-id="ae67e-103">BTAD_ChangeRequestAction contiene un valor que indica una acción de solicitud de cambio.</span><span class="sxs-lookup"><span data-stu-id="ae67e-103">BTAD_ChangeRequestAction contains a value indicating a change request action.</span></span>  

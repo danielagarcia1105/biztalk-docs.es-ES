@@ -1,14 +1,14 @@
 ---
 title: Comando UninstallApp | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f45c9530-8138-40f1-b279-1428c5a7fbbc
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286788"
 ---
 # <a name="uninstallapp-command"></a><span data-ttu-id="f3ece-102">UninstallApp (comando)</span><span class="sxs-lookup"><span data-stu-id="f3ece-102">UninstallApp Command</span></span>
 <span data-ttu-id="f3ece-103">Desinstala una aplicación de BizTalk desde el equipo local y también quita la aplicación de la lista de programas en Agregar o quitar programas del Panel de control.</span><span class="sxs-lookup"><span data-stu-id="f3ece-103">Uninstalls a BizTalk application from the local computer and also removes the application from the list of programs in Add or Remove Programs in Control Panel.</span></span> <span data-ttu-id="f3ece-104">Este comando tiene el mismo efecto que si se quita una aplicación mediante Agregar o quitar programas.</span><span class="sxs-lookup"><span data-stu-id="f3ece-104">This command has the same effect as removing an application by using Add or Remove Programs.</span></span> <span data-ttu-id="f3ece-105">Si se han instalado varios archivos .msi para esta aplicación, se desinstalan todos los elementos instalados por todos los archivos .msi.</span><span class="sxs-lookup"><span data-stu-id="f3ece-105">If multiple .msi files have been installed for this application, all of the items installed by all of the .msi files are uninstalled.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Propiedad Node Name | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95d9e5bf-7439-4ef4-ad14-e8d3e8eff911
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972802"
 ---
 # <a name="node-name-property"></a><span data-ttu-id="86cea-102">Propiedad Nombre de nodo</span><span class="sxs-lookup"><span data-stu-id="86cea-102">Node Name Property</span></span>
 <span data-ttu-id="86cea-103">Como el Editor de BizTalk se utiliza para insertar nodos en el árbol de esquema, algunos nodos están pensados para que se cambie su nombre y otros no.</span><span class="sxs-lookup"><span data-stu-id="86cea-103">As you use BizTalk Editor to insert nodes into the schema tree, some nodes are meant to be renamed and others are not.</span></span> <span data-ttu-id="86cea-104">Básicamente, puede y debe cambiarse **registro** nodos, **elemento de campo** nodos, y **atributo de campo** nodos.</span><span class="sxs-lookup"><span data-stu-id="86cea-104">Essentially, you can and should rename **Record** nodes, **Field Element** nodes, and **Field Attribute** nodes.</span></span> <span data-ttu-id="86cea-105">Los nombres que asigne a estos nodos serán los nombres de los elementos y atributos XML en el mensaje que define el esquema.</span><span class="sxs-lookup"><span data-stu-id="86cea-105">The names that you give to these nodes will become the names of the XML elements and attributes in the message that the schema defines.</span></span>  

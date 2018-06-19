@@ -1,11 +1,11 @@
 ---
-title: "Codificación de caracteres en el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Codificación de caracteres en el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBaseMessagePart.Charset property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipeline components, Flat File Disassembler
 - Flat File Disassembler [pipeline component], character encoding
 ms.assetid: 0dbe24fb-c431-4edf-8aa9-4c040d6a7b32
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231644"
 ---
 # <a name="character-encoding-in-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="d8440-102">Codificación de caracteres en el componente de canalización de desensamblador de archivos sin formato</span><span class="sxs-lookup"><span data-stu-id="d8440-102">Character Encoding in the Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="d8440-103">El componente de desensamblador de archivo sin formato utiliza el siguiente algoritmo para determinar la codificación que se utilizará para procesar un mensaje entrante.</span><span class="sxs-lookup"><span data-stu-id="d8440-103">The following algorithm is used by the Flat File Disassembler component to determine which encoding to use for processing an incoming message:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Prácticas recomendadas para realizar copias de seguridad y restaurar bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Prácticas recomendadas para realizar copias de seguridad y restaurar bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - best practices, maintaining
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - maintaining, best practices
 - best practices, restoring
 ms.assetid: 649ca56b-3cc1-49ad-9f74-ba1521e65ee1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231180"
 ---
 # <a name="best-practices-for-backing-up-and-restoring-databases"></a><span data-ttu-id="eaab9-102">Prácticas recomendadas para realizar copia de seguridad y restaurar las bases de datos</span><span class="sxs-lookup"><span data-stu-id="eaab9-102">Best Practices for Backing Up and Restoring Databases</span></span>
 <span data-ttu-id="eaab9-103">Revise las siguientes prácticas recomendadas para garantizar la posibilidad de llevar a cabo una copia de seguridad de las bases de datos de BizTalk Server, así como de restaurarlas.</span><span class="sxs-lookup"><span data-stu-id="eaab9-103">Review the following best practices to help ensure that you can backup and restore your BizTalk Server databases.</span></span>  

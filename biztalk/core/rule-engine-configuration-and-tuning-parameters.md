@@ -1,11 +1,11 @@
 ---
-title: "Configuración del motor y parámetros de ajuste de reglas | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del motor y parámetros de ajuste de reglas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, registry keys
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - validating, business rules
 - business rules, validating
 ms.assetid: cb0bcffe-bbc6-4495-84d2-2a822c3413b3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270340"
 ---
 # <a name="rule-engine-configuration-and-tuning-parameters"></a><span data-ttu-id="ffc4e-102">Parámetros de configuración y ajuste del motor de reglas</span><span class="sxs-lookup"><span data-stu-id="ffc4e-102">Rule Engine Configuration and Tuning Parameters</span></span>
 <span data-ttu-id="ffc4e-103">La siguiente tabla contiene una lista de claves del Registro que puede ser útil para la validación y solución de problemas de la configuración.</span><span class="sxs-lookup"><span data-stu-id="ffc4e-103">The following table contains a list of registry keys that may be useful for configuration validation and troubleshooting.</span></span> <span data-ttu-id="ffc4e-104">Estas claves del registro se almacenan en **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BusinessRules\3.0**.</span><span class="sxs-lookup"><span data-stu-id="ffc4e-104">These registry keys are stored under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BusinessRules\3.0**.</span></span>  

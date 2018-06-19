@@ -1,17 +1,17 @@
 ---
-title: "Información avanzada sobre copias de seguridad y Restore1 | Documentos de Microsoft"
-ms.custom: 
+title: Información avanzada sobre copias de seguridad y Restore1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up
 - restoring
 ms.assetid: d1ec7820-80cb-489d-a091-74c5d881da6a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229948"
 ---
 # <a name="advanced-information-about-backup-and-restore"></a><span data-ttu-id="731f0-102">Información avanzada acerca de la realización de copia de seguridad y de restauración</span><span class="sxs-lookup"><span data-stu-id="731f0-102">Advanced Information About Backup and Restore</span></span>
 <span data-ttu-id="731f0-103">Los temas de esta sección describen los procesos de copia de seguridad y de restauración de forma más detallada, y están destinados a usuarios avanzados con una visión completa y precisa de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="731f0-103">The topics in this section describe the backup and restore processes in more detail and are intended to be used by advanced users with a thorough understanding of BizTalk Server.</span></span>  

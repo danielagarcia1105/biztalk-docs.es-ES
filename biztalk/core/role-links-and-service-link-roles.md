@@ -1,11 +1,11 @@
 ---
-title: "Vínculos de función y el servicio vinculan Roles | Documentos de Microsoft"
-ms.custom: 
+title: Vínculos de función y el servicio vinculan Roles | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, orchestrations
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - role links, about role links
 - orchestrations, deleting
 ms.assetid: 23b4ca34-a1a5-44d4-a50d-661277681c72
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268684"
 ---
 # <a name="role-links-and-service-link-roles"></a><span data-ttu-id="40cc0-102">Vínculos de rol y roles de vínculo de servicio</span><span class="sxs-lookup"><span data-stu-id="40cc0-102">Role Links and Service Link Roles</span></span>
 <span data-ttu-id="40cc0-103">A *rol* es una colección de tipos de puerto que utiliza un servicio o implementa un servicio.</span><span class="sxs-lookup"><span data-stu-id="40cc0-103">A *role* is a collection of port types that either uses a service or implements a service.</span></span> <span data-ttu-id="40cc0-104">Una función representa el tipo de interacción que una entidad puede tener con una o muchas orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="40cc0-104">A role represents the type of interaction that a party can have with one or many orchestrations.</span></span> <span data-ttu-id="40cc0-105">Las funciones proporcionan flexibilidad y facilidad de administración cuando aumenta el número de entidades.</span><span class="sxs-lookup"><span data-stu-id="40cc0-105">Roles provide flexibility and ease of management as the number of parties increase.</span></span> <span data-ttu-id="40cc0-106">Por ejemplo, una orquestación puede que utilice la función de un remitente.</span><span class="sxs-lookup"><span data-stu-id="40cc0-106">For example, an orchestration might use the role of a Shipper.</span></span> <span data-ttu-id="40cc0-107">El remitente tendría una o dos entidades asociadas con él.</span><span class="sxs-lookup"><span data-stu-id="40cc0-107">The Shipper would have one or two parties associated with it.</span></span> <span data-ttu-id="40cc0-108">Cuando la orquestación decide qué compañía remitente se va a utilizar para enviar un elemento, compara los precios de las entidades de la función del remitente.</span><span class="sxs-lookup"><span data-stu-id="40cc0-108">When the orchestration decides which shipping company to use to ship an item, it compares the prices of the parties in the Shipper role.</span></span>  

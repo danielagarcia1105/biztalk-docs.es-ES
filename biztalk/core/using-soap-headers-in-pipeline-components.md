@@ -1,11 +1,11 @@
 ---
-title: "Usar encabezados SOAP en componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Usar encabezados SOAP en componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, code samples
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Web services, SOAP headers
 - creating, SOAP headers
 ms.assetid: 5b4a8902-e8f5-44a4-88f7-17f47a9deecd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287276"
 ---
 # <a name="using-soap-headers-in-pipeline-components"></a><span data-ttu-id="bf046-102">Usar encabezados SOAP en componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="bf046-102">Using SOAP Headers in Pipeline Components</span></span>
 <span data-ttu-id="bf046-103">Para obtener acceso a las propiedades de contexto del encabezado SOAP en componentes de canalización, utilice una combinación del contexto propiedad nombre y destino de espacio de nombres como se describe en [utilizar encabezados SOAP en orquestaciones](../core/using-soap-headers-in-orchestrations.md).</span><span class="sxs-lookup"><span data-stu-id="bf046-103">To access the SOAP header context properties in pipeline components, you use a combination of the context property name and target namespace as discussed in [Using SOAP Headers in Orchestrations](../core/using-soap-headers-in-orchestrations.md).</span></span>  

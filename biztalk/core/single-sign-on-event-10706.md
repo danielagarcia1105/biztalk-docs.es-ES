@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22271564"
 ---
 # <a name="single-sign-on-event-10706"></a><span data-ttu-id="c2126-102">Inicio de sesión único: Evento 10706</span><span class="sxs-lookup"><span data-stu-id="c2126-102">Single Sign-On: Event 10706</span></span>
 ## <a name="details"></a><span data-ttu-id="c2126-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="c2126-103">Details</span></span>  

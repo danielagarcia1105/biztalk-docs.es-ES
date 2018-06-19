@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231836"
 ---
 # <a name="components-of-the-tpe"></a><span data-ttu-id="cd07c-102">Componentes del TPE</span><span class="sxs-lookup"><span data-stu-id="cd07c-102">Components of the TPE</span></span>
 <span data-ttu-id="cd07c-103">Esta sección contiene información acerca de la interfaz de usuario del TPE y las funciones que realiza.</span><span class="sxs-lookup"><span data-stu-id="cd07c-103">This section contains information about the TPE user interface and the functions it performs.</span></span>  

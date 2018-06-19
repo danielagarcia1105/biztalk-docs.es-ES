@@ -1,14 +1,14 @@
 ---
 title: Validar un esquema (EDI) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6175460-2dcf-4fef-b770-02f0a058bf93
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287788"
 ---
 # <a name="validating-a-schema-edi"></a><span data-ttu-id="01fad-102">Validar un esquema (EDI)</span><span class="sxs-lookup"><span data-stu-id="01fad-102">Validating a Schema (EDI)</span></span>
 <span data-ttu-id="01fad-103">Un esquema EDI se puede validar en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="01fad-103">You can validate an EDI schema at design time.</span></span> <span data-ttu-id="01fad-104">Para ello, se usan las extensiones de la herramienta XML para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="01fad-104">To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="01fad-105">La operación de validación de esquema valida el esquema según reglas EDI.</span><span class="sxs-lookup"><span data-stu-id="01fad-105">The validate-schema operation validates the schema based on EDI rules.</span></span> <span data-ttu-id="01fad-106">No tiene que designar una instancia de mensaje de entrada para validar un esquema.</span><span class="sxs-lookup"><span data-stu-id="01fad-106">You do not have to designate an input message instance to validate a schema.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Ejemplo de enriquecimiento (ejemplo de BizTalk Server) del mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a41ed707-dbdb-46b7-97a6-86fdbc8ad285
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265212"
 ---
 # <a name="message-enrichment-sample-biztalk-server-sample"></a><span data-ttu-id="775ba-102">Message Enrichment (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="775ba-102">Message Enrichment Sample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="775ba-103">El ejemplo Message Enrichment muestra cómo anexar encabezados de intercambio a mensajes de conjunto de transacciones para documentos X12 y EDIFACT.</span><span class="sxs-lookup"><span data-stu-id="775ba-103">The Message Enrichment sample demonstrates how to append interchange headers to transaction-set messages for X12 and EDIFACT documents.</span></span>  

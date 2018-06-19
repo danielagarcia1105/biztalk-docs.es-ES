@@ -1,14 +1,14 @@
 ---
-title: "Configuración de tiempo de diseño de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de tiempo de diseño de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5e7b63c-6e17-4c54-9bbf-6964668a2420
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226172"
 ---
 # <a name="adapter-design-time-configuration"></a><span data-ttu-id="7b985-102">Configuración de adaptador en tiempo de diseño</span><span class="sxs-lookup"><span data-stu-id="7b985-102">Adapter Design-Time Configuration</span></span>
 <span data-ttu-id="7b985-103">Un adaptador contiene un componente de tiempo de ejecución y un componente de tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="7b985-103">An adapter contains both a run-time and a design-time component.</span></span> <span data-ttu-id="7b985-104">El componente de tiempo de ejecución no está visible para el usuario.</span><span class="sxs-lookup"><span data-stu-id="7b985-104">The run-time component is not visible to a user.</span></span> <span data-ttu-id="7b985-105">Es responsable de forma transparente para la transmisión, la recepción y el procesamiento de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mensajes.</span><span class="sxs-lookup"><span data-stu-id="7b985-105">It is transparently responsible for the transmission, receipt, and processing of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messages.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Requisitos previos para crear aplicaciones de SQL mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb3a8963-88a8-4db0-a740-eb54b041931c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224516"
 ---
 # <a name="prerequisites-to-create-sql-applications-using-the-sql-adapter"></a><span data-ttu-id="ba27c-102">Requisitos previos para crear aplicaciones de SQL mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="ba27c-102">Prerequisites to create SQL applications using the SQL adapter</span></span>
 <span data-ttu-id="ba27c-103">¿Qué debe hacer antes de desarrollar aplicaciones de BizTalk con el [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ba27c-103">What you must do before developing BizTalk applications using the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)].</span></span> <span data-ttu-id="ba27c-104">El tema también enumeran algunas herramientas de BizTalk Server que se utilizan para desarrollar aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ba27c-104">The topic also lists some BizTalk Server tools that are used to develop BizTalk applications.</span></span>  

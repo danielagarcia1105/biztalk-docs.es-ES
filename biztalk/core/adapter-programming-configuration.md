@@ -1,14 +1,14 @@
 ---
-title: "Configuración de programación del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de programación del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e5fef6c-6928-42e7-9a1f-42b5bd769937
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229988"
 ---
 # <a name="adapter-programming-configuration"></a><span data-ttu-id="64570-102">Configuración de programación del adaptador</span><span class="sxs-lookup"><span data-stu-id="64570-102">Adapter Programming Configuration</span></span>
 <span data-ttu-id="64570-103">Todos los tipos de adaptador de sincronización de contraseñas poseen diferentes requisitos de configuración en función de los sistemas ajenos a Windows para los que diseñe el adaptador.</span><span class="sxs-lookup"><span data-stu-id="64570-103">Every type of password sync adapter has different configuration requirements, depending on what non-Windows system you design the adapter for.</span></span> <span data-ttu-id="64570-104">Al igual que en el caso de las aplicaciones afiliadas, puede utilizar el almacenamiento de configuración de inicio de sesión único (SSO) empresarial para almacenar propiedades de configuración de manera central y más segura.</span><span class="sxs-lookup"><span data-stu-id="64570-104">Like affiliate applications, you can use the Enterprise Single Sign-On configuration store to store configuration properties centrally and more securely.</span></span>  

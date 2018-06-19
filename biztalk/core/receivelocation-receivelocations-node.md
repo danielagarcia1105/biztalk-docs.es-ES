@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270284"
 ---
 # <a name="receivelocation-receivelocations-node"></a><span data-ttu-id="3a1a1-102">ReceiveLocation (nodo ReceiveLocations)</span><span class="sxs-lookup"><span data-stu-id="3a1a1-102">ReceiveLocation (ReceiveLocations Node)</span></span>
 <span data-ttu-id="3a1a1-103">El nodo ReceiveLocation del nodo ReceiveLocations de un archivo de enlace contiene información específica acerca de una ubicación de recepción que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="3a1a1-103">The ReceiveLocation node of the ReceiveLocations node of a binding file contains specific information about a receive location that is exported with the binding file.</span></span>  

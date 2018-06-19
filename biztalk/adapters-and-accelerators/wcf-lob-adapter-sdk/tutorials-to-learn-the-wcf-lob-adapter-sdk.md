@@ -1,14 +1,14 @@
 ---
-title: "Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99002b01-da8a-483e-ada3-1ffbe9cd7357
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226124"
 ---
 # <a name="tutorials-to-learn-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="2f3f9-102">Tutoriales para obtener información sobre el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="2f3f9-102">Tutorials to learn the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="2f3f9-103">El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] tutoriales contienen información acerca de cómo se puede utilizar [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] para desarrollar con numerosas características de línea de adaptadores de negocio para facilitar la integración de aplicaciones empresariales dentro de su empresa.</span><span class="sxs-lookup"><span data-stu-id="2f3f9-103">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] tutorials contain information about how you can use [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] to develop feature-rich line of business adapters to facilitate enterprise application integration within your enterprise.</span></span> <span data-ttu-id="2f3f9-104">Mediante el uso de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], las operaciones y los datos que exponga pueden ser utilizados por cualquier aplicación que puede utilizar un enlace WCF, incluidos los [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="2f3f9-104">By using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], the operations and data you expose can be consumed by any application that can consume a WCF binding, including [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span>  

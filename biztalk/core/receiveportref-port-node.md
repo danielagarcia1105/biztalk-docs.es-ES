@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268484"
 ---
 # <a name="receiveportref-port-node"></a><span data-ttu-id="6f466-102">ReceivePortRef (nodo Puerto)</span><span class="sxs-lookup"><span data-stu-id="6f466-102">ReceivePortRef (Port Node)</span></span>
 <span data-ttu-id="6f466-103">El nodo ReceivePortRef del nodo Puerto de un archivo de enlace contiene información acerca de un puerto de recepción al que hace referencia un servicio.</span><span class="sxs-lookup"><span data-stu-id="6f466-103">The ReceivePortRef node of the Port node of a binding file contains information about a receive port that is referenced by a service.</span></span>  

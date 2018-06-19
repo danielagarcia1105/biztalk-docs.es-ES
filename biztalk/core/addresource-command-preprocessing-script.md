@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Secuencia de comandos de preprocesamiento | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b4f66e5-1f40-4bc3-82a8-c27a0e435797
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230876"
 ---
 # <a name="addresource-command-preprocessing-script"></a><span data-ttu-id="e6eee-102">AddResource (comando): Secuencia de comandos de preprocesamiento</span><span class="sxs-lookup"><span data-stu-id="e6eee-102">AddResource Command: Preprocessing Script</span></span>
 <span data-ttu-id="e6eee-103">Para agregar una secuencia de comandos de preprocesamiento para una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:PreProcessingScript** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="e6eee-103">To add a preprocessing script to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:PreProcessingScript** for the Type parameter.</span></span> <span data-ttu-id="e6eee-104">Ejecutar este comando agrega el archivo de secuencia de comandos a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="e6eee-104">Running this command adds the script file to the BizTalk Management database.</span></span> <span data-ttu-id="e6eee-105">Además, el archivo de secuencia de comandos aparece en la consola de administración de BizTalk Server, en la carpeta Recursos de la aplicación a la que lo agregó.</span><span class="sxs-lookup"><span data-stu-id="e6eee-105">The script file is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="e6eee-106">Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="e6eee-106">In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  

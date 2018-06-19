@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277900"
 ---
 # <a name="success---create-xml-instance"></a><span data-ttu-id="c180b-102">Correcto: crear instancia XML</span><span class="sxs-lookup"><span data-stu-id="c180b-102">Success - Create XML Instance</span></span>
 <span data-ttu-id="c180b-103">**Explicación**</span><span class="sxs-lookup"><span data-stu-id="c180b-103">**Explanation**</span></span>  

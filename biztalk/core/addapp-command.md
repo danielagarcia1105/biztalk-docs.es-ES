@@ -1,14 +1,14 @@
 ---
 title: El comando AddApp | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 445784f1-505b-4259-a3f4-6f0d61578b1c
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230004"
 ---
 # <a name="addapp-command"></a><span data-ttu-id="f5369-102">AddApp (comando)</span><span class="sxs-lookup"><span data-stu-id="f5369-102">AddApp Command</span></span>
 <span data-ttu-id="f5369-103">Crea una aplicación nueva de BizTalk en la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f5369-103">Creates a new BizTalk application in the BizTalk Management database.</span></span> <span data-ttu-id="f5369-104">Puede ver la aplicación en el nodo Aplicaciones de la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="f5369-104">You can view the application in the Applications node of the BizTalk Server Administration console.</span></span> <span data-ttu-id="f5369-105">Puede agregar artefactos a la aplicación mediante el comando AddResource, como se describe en [comando AddResource](../core/addresource-command.md).</span><span class="sxs-lookup"><span data-stu-id="f5369-105">You can add artifacts to the application by using the AddResource command, as described in [AddResource Command](../core/addresource-command.md).</span></span>  

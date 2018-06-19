@@ -1,14 +1,14 @@
 ---
-title: "Functoids básicos | Documentos de Microsoft"
-ms.custom: 
+title: Functoids básicos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd4b6924-4ad1-4297-a12f-22de11328bab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230948"
 ---
 # <a name="basic-functoids"></a><span data-ttu-id="cb8c9-102">Functoids básicos</span><span class="sxs-lookup"><span data-stu-id="cb8c9-102">Basic Functoids</span></span>
 <span data-ttu-id="cb8c9-103">Cualquier functoid no está en el **avanzadas** categoría se considera un functoid básico.</span><span class="sxs-lookup"><span data-stu-id="cb8c9-103">Any functoid not in the **Advanced** category is considered a basic functoid.</span></span> <span data-ttu-id="cb8c9-104">Los functoids básicos suelen ser fáciles de utilizar, con pocos parámetros de entrada que configurar y muy sencillos.</span><span class="sxs-lookup"><span data-stu-id="cb8c9-104">Basic functoids are generally easy to use, having few and, often, straightforward input parameters to be configured.</span></span> <span data-ttu-id="cb8c9-105">Esta sección proporciona información conceptual sobre los functoids básicos, organizados por categorías.</span><span class="sxs-lookup"><span data-stu-id="cb8c9-105">This section provides conceptual information about the basic functoids, organized by category.</span></span>  

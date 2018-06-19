@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 08035518-17ad-44d2-ab06-90d725c95ced
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22231892"
 ---
 # <a name="biztalk-esb-toolkit"></a><span data-ttu-id="74b34-102">Kit de herramientas de BizTalk ESB</span><span class="sxs-lookup"><span data-stu-id="74b34-102">BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="74b34-103">El kit de herramientas de Microsoft BizTalk ESB usa Microsoft BizTalk Server para admitir una arquitectura de mensajería ligeramente acoplada.</span><span class="sxs-lookup"><span data-stu-id="74b34-103">The Microsoft BizTalk ESB Toolkit uses Microsoft BizTalk Server to support a loosely coupled messaging architecture.</span></span> <span data-ttu-id="74b34-104">BizTalk Server incluye un eficaz mecanismo de publicación o suscripción para aplicaciones de mensajería que funciona al crear y completar suscripciones, lo que proporciona una plataforma escalable y de gran eficacia para aplicaciones de arquitectura orientada a servicios (SOA).</span><span class="sxs-lookup"><span data-stu-id="74b34-104">BizTalk Server includes a powerful publish/subscribe mechanism for messaging applications that works by creating and filling subscriptions, which provides a highly efficient and scalable platform for service-oriented architecture (SOA) applications.</span></span> <span data-ttu-id="74b34-105">El kit de herramientas de BizTalk ESB amplía la funcionalidad de BizTalk Server para proporcionar una variedad de capacidades nuevas centradas en la creación de robustas aplicaciones orientadas a servicios y conectadas que incorporen una invocación de servicios basada en itinerarios para la composición de servicios ligeros, la resolución dinámica de extremos y asignaciones, servicio web e integración con WS-\*, administración e informes de errores, así como integración con soluciones de control SOA de terceros.</span><span class="sxs-lookup"><span data-stu-id="74b34-105">The BizTalk ESB Toolkit extends the functionality of BizTalk Server to provide a range of new capabilities focused on building robust, connected, service-oriented applications that incorporate itinerary-based service invocation for lightweight service composition, dynamic resolution of endpoints and maps, Web service and WS-\* integration, fault management and reporting, and integration with third-party SOA governance solutions.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Grupos de adaptadores y adaptadores de grupo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e0a9423-99dd-4474-afa1-fd8e1d074cd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225380"
 ---
 # <a name="adapter-groups-and-group-adapters"></a><span data-ttu-id="97f6c-102">Grupos de adaptadores y adaptadores de grupo</span><span class="sxs-lookup"><span data-stu-id="97f6c-102">Adapter Groups and Group Adapters</span></span>
 <span data-ttu-id="97f6c-103">Un *grupo de adaptadores* es un mecanismo de administración que puede usar para recopilar y organizar un conjunto de adaptadores.</span><span class="sxs-lookup"><span data-stu-id="97f6c-103">An *adapter group* is an administration mechanism that you can use to collect and organize a set of adapters.</span></span> <span data-ttu-id="97f6c-104">En cambio, un *adaptador de grupo* es un componente que da servicio a todos los adaptadores de un grupo de adaptadores.</span><span class="sxs-lookup"><span data-stu-id="97f6c-104">In contrast, a *group adapter* is a component that services all adapters in an adapter group.</span></span> <span data-ttu-id="97f6c-105">Por ejemplo, puede escribir un conjunto de adaptadores y que utilicen todos el mismo componente COM para transmitir sincronizaciones de contraseñas sobre TCP/IP.</span><span class="sxs-lookup"><span data-stu-id="97f6c-105">For example, you might write a set of adapters that all use the same COM component to transmit password synchronizations over TCP/IP.</span></span> <span data-ttu-id="97f6c-106">El conjunto de adaptadores se llama grupo de adaptadores, mientras que el componente que da servicio a todos ellos se llama adaptador de grupo.</span><span class="sxs-lookup"><span data-stu-id="97f6c-106">Your set of adapters is called the adapter group, whereas the component that services them all is called a group adapter.</span></span> <span data-ttu-id="97f6c-107">Los grupos de adaptadores se describen en el almacén de configuración.</span><span class="sxs-lookup"><span data-stu-id="97f6c-107">Adapter groups are described in the configuration store.</span></span> <span data-ttu-id="97f6c-108">Puede recuperar la información y las actualizaciones en un grupo de adaptadores mediante `ISSOPSAdapter.ReceiveNotification`.</span><span class="sxs-lookup"><span data-stu-id="97f6c-108">You can retrieve information and updates on an adapter group by using `ISSOPSAdapter.ReceiveNotification`.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Procesar un mensaje AS2 entrante | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 998ff334-71e2-4686-b2b7-44940a0ebed1
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266396"
 ---
 # <a name="processing-an-incoming-as2-message"></a><span data-ttu-id="d2997-102">Procesar un mensaje AS2 entrante</span><span class="sxs-lookup"><span data-stu-id="d2997-102">Processing an Incoming AS2 Message</span></span>
 <span data-ttu-id="d2997-103">La canalización de recepción AS2 procesa un mensaje entrante a través de AS2.</span><span class="sxs-lookup"><span data-stu-id="d2997-103">The AS2 receive pipelines process an incoming message over AS2.</span></span> <span data-ttu-id="d2997-104">La canalización de recepción AS2EdiReceive procesa un mensaje con codificación EDI mediante el Desensamblador EDI.</span><span class="sxs-lookup"><span data-stu-id="d2997-104">The AS2EdiReceive receive pipeline processes an EDI-encoded message, using the EDI Disassembler.</span></span> <span data-ttu-id="d2997-105">La canalización de recepción AS2Receive procesa un mensaje sin codificación EDI mediante el Desensamblador de AS2.</span><span class="sxs-lookup"><span data-stu-id="d2997-105">The AS2Receive receive pipeline processes a non-EDI-encoded message, using the AS2 Disassembler.</span></span> <span data-ttu-id="d2997-106">Las dos canalizaciones procesan la carga del mensaje AS2 y generan un MDN de forma distinta; sin embargo, ambas canalizaciones de recepción utilizan el descodificador AS2 para procesar el mensaje AS2.</span><span class="sxs-lookup"><span data-stu-id="d2997-106">The two pipelines process the payload of the AS2 message and generate an MDN differently; however, both receive pipelines use the AS2 Decoder to process the AS2 message.</span></span>  

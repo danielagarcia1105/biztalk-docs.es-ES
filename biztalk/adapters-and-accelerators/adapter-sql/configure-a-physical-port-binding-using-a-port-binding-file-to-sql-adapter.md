@@ -1,14 +1,14 @@
 ---
-title: "Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para utilizar el adaptador SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para utilizar el adaptador SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95b54357-b23d-4ed7-8e31-bd60ed3e625f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225460"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-use-the-sql-adapter"></a><span data-ttu-id="c61b1-102">Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para utilizar el adaptador SQL</span><span class="sxs-lookup"><span data-stu-id="c61b1-102">Configure a physical port binding using a port binding file to use the SQL adapter</span></span>
 <span data-ttu-id="c61b1-103">Cuando se usa el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para generar metadatos para un artefacto de SQL Server, que no sea de los archivos de esquema, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también genera un archivo de enlace de puerto.</span><span class="sxs-lookup"><span data-stu-id="c61b1-103">When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for a SQL Server artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file.</span></span> <span data-ttu-id="c61b1-104">Puede importar este archivo de enlace en la aplicación de BizTalk para crear un envío físico o puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="c61b1-104">You can import this binding file into your BizTalk application to create a physical send or receive port.</span></span> <span data-ttu-id="c61b1-105">Para obtener instrucciones sobre cómo importar archivos de enlace, consulte [reutilizar enlaces del adaptador](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md).</span><span class="sxs-lookup"><span data-stu-id="c61b1-105">For instructions on importing binding files, see [Reuse adapter bindings](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md).</span></span> <span data-ttu-id="c61b1-106">Si importa este archivo de enlace, no es necesario crear manualmente un envío físico, o puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="c61b1-106">If you import this binding file, you do not have to manually create a physical send or receive port.</span></span>  

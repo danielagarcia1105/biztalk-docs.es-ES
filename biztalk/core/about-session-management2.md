@@ -1,14 +1,14 @@
 ---
-title: "Acerca de la sesión 2 | Documentos de Microsoft"
-ms.custom: 
+title: Acerca de la sesión 2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3ecdb4f-d384-42ac-9776-e7ad14d5f151
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225612"
 ---
 # <a name="about-session-management"></a><span data-ttu-id="8a901-102">Administración de sesiones</span><span class="sxs-lookup"><span data-stu-id="8a901-102">About Session Management</span></span>
 <span data-ttu-id="8a901-103">El adaptador de Microsoft BizTalk para J.D. Edwards EnterpriseOne crea una sesión de conexión para enviar una llamada al servidor J.D. Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="8a901-103">The Microsoft BizTalk Adapter for JD Edwards EnterpriseOne creates a connection session to send a call to the JD Edwards EnterpriseOne server.</span></span> <span data-ttu-id="8a901-104">Cuando la llamada termina, la sesión se coloca en un grupo para que pueda ser utilizada por una llamada posterior.</span><span class="sxs-lookup"><span data-stu-id="8a901-104">When the call terminates, the session is put in a pool to be re-used by a subsequent call.</span></span> <span data-ttu-id="8a901-105">El adaptador crea varias sesiones de conexión para controlar las llamadas concurrentes al servidor J.D. Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="8a901-105">The adapter creates multiple connection sessions to handle concurrent calls to the JD Edwards EnterpriseOne server.</span></span> <span data-ttu-id="8a901-106">El grupo se limpia regularmente para quitar sesiones que ya no son necesarias.</span><span class="sxs-lookup"><span data-stu-id="8a901-106">The pool is periodically cleaned to remove sessions that are no longer necessary.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el modelo de servicio WCF con el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de servicio WCF con el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7641bcc7-3845-4914-9b1b-cb86b998ea6d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222892"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-sql-adapter"></a><span data-ttu-id="e51ef-102">Información general sobre el modelo de servicio WCF con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="e51ef-102">Overview of the WCF service model with the SQL adapter</span></span>
 <span data-ttu-id="e51ef-103">La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone una operación de SQL Server como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="e51ef-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes a SQL Server operation as a WCF service.</span></span> <span data-ttu-id="e51ef-104">Para llevar a cabo operaciones en artefactos de SQL Server, por ejemplo, para invocar un procedimiento almacenado, se invoca una operación en el adaptador, que a su vez, realiza la operación en el servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e51ef-104">To perform operations on SQL Server artifacts, for example to invoke a stored procedure, you invoke an operation on the adapter, which, in turn, performs the operation on the SQL Server.</span></span> <span data-ttu-id="e51ef-105">Por lo tanto, el código actúa como un cliente al servicio de WCF presentado por el adaptador.</span><span class="sxs-lookup"><span data-stu-id="e51ef-105">Your code therefore acts as a client to the WCF service presented by the adapter.</span></span>  

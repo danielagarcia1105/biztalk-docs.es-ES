@@ -1,11 +1,11 @@
 ---
 title: Procesamiento de intercambio recuperable | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - interchange processing [Messaging Engine], modes
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - System.Xml.XmlReader
 - interchange modes [Messaging Engine]
 ms.assetid: d9e366fe-b2a0-4f1a-b6b9-1264717e4731
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268268"
 ---
 # <a name="recoverable-interchange-processing"></a><span data-ttu-id="4d470-102">Procesamiento de intercambio recuperable</span><span class="sxs-lookup"><span data-stu-id="4d470-102">Recoverable Interchange Processing</span></span>
 <span data-ttu-id="4d470-103">Esta sección se describen **procesamiento de intercambio recuperable** característica, lo que permite un intercambio que se va a procesarse completamente incluso si hay uno o más mensajes en el intercambio errores en las fases siguientes:</span><span class="sxs-lookup"><span data-stu-id="4d470-103">This section discusses **recoverable interchange processing** feature, which allows an interchange to be processed completely even if one or more messages in the interchange fail at the following stages/phases:</span></span>  

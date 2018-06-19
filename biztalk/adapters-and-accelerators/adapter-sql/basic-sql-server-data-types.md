@@ -1,14 +1,14 @@
 ---
-title: "Tipos de datos básicos de SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Tipos de datos básicos de SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f744fe14-4134-486d-b060-9ac2d5f21c56
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222620"
 ---
 # <a name="basic-sql-server-data-types"></a><span data-ttu-id="08356-102">Tipos de datos básicos de SQL Server</span><span class="sxs-lookup"><span data-stu-id="08356-102">Basic SQL Server Data Types</span></span>
 <span data-ttu-id="08356-103">Este tema se describe cómo la [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]expone los tipos de datos básicos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="08356-103">This topic describes how the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]surfaces basic SQL Server data types.</span></span>  

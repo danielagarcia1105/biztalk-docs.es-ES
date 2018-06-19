@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el adaptador de BizTalk para SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el adaptador de BizTalk para SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e46690e-d5c4-4d6b-b7a0-9a5adf4431cd
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222748"
 ---
 # <a name="overview-of-biztalk-adapter-for-sql-server"></a><span data-ttu-id="1cead-102">Información general sobre el adaptador de BizTalk para SQL Server</span><span class="sxs-lookup"><span data-stu-id="1cead-102">Overview of BizTalk Adapter for SQL Server</span></span>
 <span data-ttu-id="1cead-103">La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone la base de datos de SQL Server como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="1cead-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the SQL Server database as a WCF service.</span></span> <span data-ttu-id="1cead-104">Los clientes de adaptador pueden realizar operaciones en la base de datos de SQL Server mediante el intercambio de mensajes SOAP con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="1cead-104">Adapter clients can perform operations on the SQL Server database by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="1cead-105">El adaptador consume el mensaje SOAP y realiza llamadas ADO.NET adecuadas para realizar la operación.</span><span class="sxs-lookup"><span data-stu-id="1cead-105">The adapter consumes the SOAP message and makes appropriate ADO.NET calls to perform the operation.</span></span> <span data-ttu-id="1cead-106">El adaptador devuelve la respuesta de la base de datos de SQL Server al cliente en forma de mensajes SOAP.</span><span class="sxs-lookup"><span data-stu-id="1cead-106">The adapter returns the response from the SQL Server database back to the client in the form of SOAP messages.</span></span>  

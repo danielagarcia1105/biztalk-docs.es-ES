@@ -1,14 +1,14 @@
 ---
-title: "Contexto de seguridad del adaptador de recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Contexto de seguridad del adaptador de recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3db2b534-db9d-4075-aaad-0974b024dc71
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223828"
 ---
 # <a name="swift-receive-adapter-security-context"></a><span data-ttu-id="d791d-102">Contexto de seguridad del adaptador de recepción de SWIFT</span><span class="sxs-lookup"><span data-stu-id="d791d-102">SWIFT Receive Adapter Security Context</span></span>
 <span data-ttu-id="d791d-103">El adaptador de recepción, a diferencia del adaptador de envío, se inicia desde la línea de comandos de vínculo SWIFTNet (SNL/RA) (SWIFTNet inicio).</span><span class="sxs-lookup"><span data-stu-id="d791d-103">The Receiver adapter, unlike send adapter, is started from the SWIFTNet Link (SNL/RA) command prompt (SWIFTNet start).</span></span> <span data-ttu-id="d791d-104">El ejecutable del adaptador de recepción está configurado en el archivo de configuración de SNL/RA (paramconfig).</span><span class="sxs-lookup"><span data-stu-id="d791d-104">The receive adapter executable is configured in the SNL/RA configuration file (paramconfig).</span></span> <span data-ttu-id="d791d-105">El adaptador en el inicio inicializa la biblioteca SNL basándose en el parámetro de línea de comandos.</span><span class="sxs-lookup"><span data-stu-id="d791d-105">The adapter on startup initializes the SNL library based on the command line parameter.</span></span> <span data-ttu-id="d791d-106">Los valores de configuración se almacenan en caché para su uso posterior.</span><span class="sxs-lookup"><span data-stu-id="d791d-106">The configuration values are cached for later use.</span></span>  

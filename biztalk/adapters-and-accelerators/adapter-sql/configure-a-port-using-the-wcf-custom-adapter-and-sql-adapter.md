@@ -1,15 +1,15 @@
 ---
 title: Configurar un puerto mediante el adaptador de WCF-custom y el adaptador de SQL en BizTalk | Documentos de Microsoft
-description: "Crear envío WCF-custom y puertos de recepción para usar el adaptador de SQL Server en BizTalk Server"
-ms.custom: 
+description: Crear envío WCF-custom y puertos de recepción para usar el adaptador de SQL Server en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d44d9932-0a5e-4072-a480-2f8dc544ca79
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226036"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-sql-adapter"></a><span data-ttu-id="87651-103">Configurar un puerto mediante el adaptador de WCF-custom y el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="87651-103">Configure a port using the WCF-custom adapter and SQL adapter</span></span>
 <span data-ttu-id="87651-104">Pasos para configurar el envío de WCF-Custom y puertos de recepción para realizar operaciones de entrada y salidas en SQL Server mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="87651-104">Steps to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  

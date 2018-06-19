@@ -1,14 +1,14 @@
 ---
-title: "Alertas por la aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Alertas por la aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6fcfca81-05bb-4f2a-84be-94560b84e746
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290004"
 ---
 # <a name="alerts-by-application-or-service"></a><span data-ttu-id="c3685-102">Alertas por la aplicación o servicio</span><span class="sxs-lookup"><span data-stu-id="c3685-102">Alerts by Application or Service</span></span>
 <span data-ttu-id="c3685-103">Esta opción muestra una vista agregada de todas las alertas generadas para un grupo de aplicaciones especificado durante un tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="c3685-103">This option displays an aggregate view of all the alerts generated for a specified set of applications over a specified time.</span></span> <span data-ttu-id="c3685-104">Al seleccionar un servicio concreto, muestra un informe que muestre las alertas para ese servicio específico.</span><span class="sxs-lookup"><span data-stu-id="c3685-104">Selecting a specific service displays a report that lists the alerts for that specific service.</span></span> <span data-ttu-id="c3685-105">Puede exportar la lista de alertas como una hoja de cálculo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="c3685-105">You can export the list of alerts as a Microsoft Excel spreadsheet.</span></span>  

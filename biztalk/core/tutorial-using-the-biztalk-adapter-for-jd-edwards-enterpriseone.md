@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el adaptador de BizTalk para JD Edwards EnterpriseOne | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1cafbe72-2b90-4d8e-9a1d-5735cefeb3d4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286380"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-jd-edwards-enterpriseone"></a><span data-ttu-id="f376b-102">Tutorial: Usar el adaptador de BizTalk para JD Edwards EnterpriseOne</span><span class="sxs-lookup"><span data-stu-id="f376b-102">Tutorial: Using the BizTalk Adapter for JD Edwards EnterpriseOne</span></span>
 <span data-ttu-id="f376b-103">A continuación se muestra el uso de propiedades de contexto de BizTalk para controlar la J.D.</span><span class="sxs-lookup"><span data-stu-id="f376b-103">The following demonstrates using BizTalk Context Properties to control the J.D.</span></span>  <span data-ttu-id="f376b-104">Sesión de Edwards OneWorld en la orquestación.</span><span class="sxs-lookup"><span data-stu-id="f376b-104">Edwards OneWorld session in your orchestration.</span></span> <span data-ttu-id="f376b-105">El tutorial se supone que dispone de una orquestación que envía llamadas BeginDoc, EditLine y EndDoc a un puerto de envío enlazado con el adaptador de Microsoft BizTalk para J.D.</span><span class="sxs-lookup"><span data-stu-id="f376b-105">The tutorial assumes you have an orchestration that sends BeginDoc, EditLine and EndDoc calls to a send port bound to the Microsoft BizTalk Adapter for J.D.</span></span> <span data-ttu-id="f376b-106">Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="f376b-106">Edwards OneWorld.</span></span>  

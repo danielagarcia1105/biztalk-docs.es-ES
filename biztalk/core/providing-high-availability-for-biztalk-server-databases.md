@@ -1,11 +1,11 @@
 ---
 title: Proporcionar una alta disponibilidad para bases de datos de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - clustering, SQL Servers
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - data, persistence
 - SQL Server Analysis Services
 ms.assetid: 47fbc402-9e46-41dd-bc12-d1cde1982576
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269348"
 ---
 # <a name="providing-high-availability-for-biztalk-server-databases"></a><span data-ttu-id="0dbaf-102">Proporcionar una alta disponibilidad a las bases de datos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="0dbaf-102">Providing High Availability for BizTalk Server Databases</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0dbaf-103"> depende en gran medida de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] para la persistencia de datos.</span><span class="sxs-lookup"><span data-stu-id="0dbaf-103"> relies heavily on [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] for data persistence.</span></span> <span data-ttu-id="0dbaf-104">Los demás componentes y hosts de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tienen funciones específicas en el proceso de integrar aplicaciones empresariales diferentes (por ejemplo, recibir, procesar o enrutar mensajes), pero el equipo de la base de datos captura este trabajo y lo almacena en disco.</span><span class="sxs-lookup"><span data-stu-id="0dbaf-104">All other components and hosts in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] have specific roles in the process of integrating disparate business applications (for example, receiving, processing, or routing messages), but the database computer captures this work and persists it to disk.</span></span>  

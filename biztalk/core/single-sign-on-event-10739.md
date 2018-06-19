@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10739 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10739 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1039c832-80ff-4cc2-97b4-2671672b6b12
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271356"
 ---
 # <a name="single-sign-on-event-10739"></a><span data-ttu-id="3305f-102">Inicio de sesión único: Evento 10739</span><span class="sxs-lookup"><span data-stu-id="3305f-102">Single Sign-On: Event 10739</span></span>
 ## <a name="details"></a><span data-ttu-id="3305f-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="3305f-103">Details</span></span>  

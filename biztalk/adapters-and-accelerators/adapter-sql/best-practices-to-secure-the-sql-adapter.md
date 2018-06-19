@@ -1,14 +1,14 @@
 ---
 title: Los procedimientos recomendados para proteger el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e32379d7-800a-49b7-a09a-6b3f04a6e5ef
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225556"
 ---
 # <a name="best-practices-to-secure-the-sql-adapter"></a><span data-ttu-id="16b33-102">Prácticas recomendadas para proteger el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="16b33-102">Best practices to secure the SQL adapter</span></span>
 <span data-ttu-id="16b33-103">Prácticas recomendadas que debería seguir más completamente protección los datos confidenciales si utiliza o desarrollar aplicaciones que consumen la [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span><span class="sxs-lookup"><span data-stu-id="16b33-103">Best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span></span>  

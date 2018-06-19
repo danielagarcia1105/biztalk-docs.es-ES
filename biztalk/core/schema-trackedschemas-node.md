@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269564"
 ---
 # <a name="schema-trackedschemas-node"></a><span data-ttu-id="9317f-102">Esquema (nodo TrackedSchemas)</span><span class="sxs-lookup"><span data-stu-id="9317f-102">Schema (TrackedSchemas Node)</span></span>
 <span data-ttu-id="9317f-103">El nodo Esquema del nodo TrackedSchemas de un archivo de enlace describe un esquema enlazado con un servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="9317f-103">The Schema node of the TrackedSchemas node of a binding file describes a schema bound to a service that is exported with the binding file.</span></span>  

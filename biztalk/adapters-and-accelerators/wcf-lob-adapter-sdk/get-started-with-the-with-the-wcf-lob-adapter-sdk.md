@@ -1,14 +1,14 @@
 ---
 title: Empezar a trabajar con el con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80b2d80b-9160-4569-821d-1e5c1338127d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224884"
 ---
 # <a name="get-started-with-the-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="acab3-102">Empezar a trabajar con el con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="acab3-102">Get started with the with the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="acab3-103">Esta sección contiene información que es relevante para los usuarios que están familiarizados con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="acab3-103">This section contains information that is relevant to users who are new to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span> <span data-ttu-id="acab3-104">Contiene temas sobre la instalación, habilidades necesarias y conocimiento, tareas comunes de programadores, recursos de la Comunidad disponible y tutoriales.</span><span class="sxs-lookup"><span data-stu-id="acab3-104">It contains topics about installation, required skills and knowledge, common developer tasks, available community resources, and tutorials.</span></span>  

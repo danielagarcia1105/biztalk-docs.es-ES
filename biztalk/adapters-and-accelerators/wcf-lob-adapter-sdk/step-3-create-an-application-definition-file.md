@@ -1,14 +1,14 @@
 ---
-title: "Paso 3: Crear un archivo de definición de aplicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Crear un archivo de definición de aplicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 843fafdb-571e-4da4-ad04-7dc7f23e03ac
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227012"
 ---
 # <a name="step-3-create-an-application-definition-file"></a><span data-ttu-id="5d0d1-102">Paso 3: Crear un archivo de definición de aplicación</span><span class="sxs-lookup"><span data-stu-id="5d0d1-102">Step 3: Create an Application Definition File</span></span>
 <span data-ttu-id="5d0d1-103">![Paso 3 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="5d0d1-103">![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  
@@ -83,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="5d0d1-147">En el panel de objetos de metadatos, expanda la **EchoWSLOB** nodo y, a continuación, expanda el **instancias** nodo.</span><span class="sxs-lookup"><span data-stu-id="5d0d1-147">In the Metadata Objects pane, expand the **EchoWSLOB** node, and then expand the **Instances** node.</span></span>  
   
-2.  <span data-ttu-id="5d0d1-148">Haga clic en **EchoWSLOB_Instance**y en el panel Propiedades, haga clic en los puntos suspensivos **(...)** botón en el **propiedades** campo.</span><span class="sxs-lookup"><span data-stu-id="5d0d1-148">Click **EchoWSLOB_Instance**, and in the Properties pane, click the ellipsis **(…)**button in the **Properties** field.</span></span>  
+2.  <span data-ttu-id="5d0d1-148">Haga clic en **EchoWSLOB_Instance**y en el panel Propiedades, haga clic en los puntos suspensivos **(...)** botón en el **propiedades** campo.</span><span class="sxs-lookup"><span data-stu-id="5d0d1-148">Click **EchoWSLOB_Instance**, and in the Properties pane, click the ellipsis **(…)** button in the **Properties** field.</span></span>  
   
 3.  <span data-ttu-id="5d0d1-149">En la ventana del Editor de colección de PropertyView, haga clic en **agregar**y en el panel de propiedades, escriba **SecondarySsoApplicationId** en el **nombre** campo.</span><span class="sxs-lookup"><span data-stu-id="5d0d1-149">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **SecondarySsoApplicationId** in the **Name** field.</span></span>  
   

@@ -1,18 +1,18 @@
 ---
 title: Operaciones en componentes de negocio de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business components, operations on
 - operations, on business components
 - operations, on business components with picklist fields
 ms.assetid: 5430a8bd-88eb-4851-92e3-676ca83780c9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223620"
 ---
 # <a name="operations-on-business-components-in-siebel"></a><span data-ttu-id="d3811-102">Operaciones en componentes de negocio de Siebel</span><span class="sxs-lookup"><span data-stu-id="d3811-102">Operations on Business Components in Siebel</span></span>
 <span data-ttu-id="d3811-103">Un componente de negocio de Siebel es una entidad lógica que asocia las columnas de una o varias tablas de base de datos en una única estructura.</span><span class="sxs-lookup"><span data-stu-id="d3811-103">A Siebel business component is a logical entity that associates columns from one or more database tables into a single structure.</span></span> <span data-ttu-id="d3811-104">Los clientes de adaptador pueden realizar las siguientes operaciones en los componentes de negocios de Siebel mediante el adaptador:</span><span class="sxs-lookup"><span data-stu-id="d3811-104">Adapter clients can perform the following operations on the Siebel business components by using the adapter:</span></span>  

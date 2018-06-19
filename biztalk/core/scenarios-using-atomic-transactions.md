@@ -1,11 +1,11 @@
 ---
-title: "Escenarios de uso de transacciones atómicas | Documentos de Microsoft"
-ms.custom: 
+title: Escenarios de uso de transacciones atómicas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shape [Orchestration Designer], examples
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - atomic transactions, examples
 - examples, atomic transactions
 ms.assetid: f3481b4e-7e7e-47f0-b8f4-6012a2fc5310
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270948"
 ---
 # <a name="scenarios-using-atomic-transactions"></a><span data-ttu-id="25016-102">Escenarios que usan transacciones atómicas</span><span class="sxs-lookup"><span data-stu-id="25016-102">Scenarios Using Atomic Transactions</span></span>
 <span data-ttu-id="25016-103">En los escenarios siguientes se describe el uso de transacciones atómicas.</span><span class="sxs-lookup"><span data-stu-id="25016-103">The following scenarios describe the use of atomic transactions.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Arquitectura de BizTalk Adapter para TIBCO Enterprise Message Service | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transmit adapter
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - one-way send operations
 - receive adapter
 ms.assetid: 304c7236-aacd-4761-8c33-e876b53e84ff
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230284"
 ---
 # <a name="architecture-of-biztalk-adapter-for-tibco-enterprise-message-service"></a><span data-ttu-id="657ef-102">Arquitectura del adaptador de BizTalk para TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="657ef-102">Architecture of BizTalk Adapter for TIBCO Enterprise Message Service</span></span>
 <span data-ttu-id="657ef-103">El Adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service (EMS) proporciona un medio de intercambiar datos empresariales en tiempo real entre sistemas TIBCO EMS y BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="657ef-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides a means to exchange real-time business data between TIBCO EMS systems and BizTalk Server.</span></span> <span data-ttu-id="657ef-104">El adaptador permite la interacción entre una aplicación XML y TIBCO EMS.</span><span class="sxs-lookup"><span data-stu-id="657ef-104">The adapter enables interaction between an XML application and TIBCO EMS.</span></span>  

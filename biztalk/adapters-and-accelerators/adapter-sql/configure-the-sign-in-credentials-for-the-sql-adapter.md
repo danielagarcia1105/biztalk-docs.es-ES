@@ -1,14 +1,14 @@
 ---
-title: "Configurar el inicio de sesión en las credenciales para el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el inicio de sesión en las credenciales para el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c20e177-0e64-4df3-a3dd-dca3fcf314db
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226244"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-sql-adapter"></a><span data-ttu-id="9bb0a-102">Configurar el inicio de sesión en las credenciales para el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="9bb0a-102">Configure the sign in credentials for the SQL adapter</span></span>
 <span data-ttu-id="9bb0a-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] requiere que los clientes de adaptador proporcionar las credenciales del cliente.</span><span class="sxs-lookup"><span data-stu-id="9bb0a-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] requires the adapter clients to provide client credentials.</span></span> <span data-ttu-id="9bb0a-104">El adaptador utiliza estas credenciales para autenticar al usuario con SQL Server y para establecer una conexión.</span><span class="sxs-lookup"><span data-stu-id="9bb0a-104">The adapter uses these credentials to authenticate the user with SQL Server and to establish a connection.</span></span>  

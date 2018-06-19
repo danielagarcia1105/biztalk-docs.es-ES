@@ -1,11 +1,11 @@
 ---
-title: "Seguimiento de eventos empresariales sincrónico | Documentos de Microsoft"
-ms.custom: 
+title: Seguimiento de eventos empresariales sincrónico | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, event tracking
 - BAM, performance
 ms.assetid: 302c7918-bc62-46f1-a949-fbf94a7073e3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277940"
 ---
 # <a name="synchronous-business-event-tracking"></a><span data-ttu-id="c1cd9-102">Seguimiento sincrónico de eventos empresariales</span><span class="sxs-lookup"><span data-stu-id="c1cd9-102">Synchronous Business Event Tracking</span></span>
 <span data-ttu-id="c1cd9-103">La manera más fácil de enviar datos de evento a BAM consiste en usar una instancia de la clase DirectEventStream.</span><span class="sxs-lookup"><span data-stu-id="c1cd9-103">The simplest way to send event data to BAM is to use an instance of the class DirectEventStream.</span></span> <span data-ttu-id="c1cd9-104">Esta clase guarda los datos de evento directamente en la base de datos de importación principal de BAM en el contexto de la transacción actual de la aplicación (si existe).</span><span class="sxs-lookup"><span data-stu-id="c1cd9-104">This class saves the event data directly into the BAM Primary Import Database in the context of the current transaction of the application (if present).</span></span>  

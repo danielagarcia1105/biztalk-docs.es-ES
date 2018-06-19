@@ -1,14 +1,14 @@
 ---
 title: Acerca de los esquemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ec2b79c-7cfe-4b00-bcff-dfad3944c83b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224228"
 ---
 # <a name="about-schemas"></a><span data-ttu-id="64cd3-102">Acerca de los esquemas</span><span class="sxs-lookup"><span data-stu-id="64cd3-102">About Schemas</span></span>
 <span data-ttu-id="64cd3-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el lenguaje de definición de esquemas XML (XSD) para definir la estructura de todos los mensajes que procesa y hace referencia a estas definiciones de estructura de los mensajes como esquemas.</span><span class="sxs-lookup"><span data-stu-id="64cd3-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the XML Schema definition (XSD) language to define the structure of all messages that it processes, and refers to these definitions of message structure as schemas.</span></span> <span data-ttu-id="64cd3-104">Salvo contadas excepciones, los mensajes estructurados son la base de cualquier aplicación.</span><span class="sxs-lookup"><span data-stu-id="64cd3-104">With few exceptions, structured messages are the core of any application.</span></span> <span data-ttu-id="64cd3-105">Estos mensajes estructurados pueden adoptar cualquier forma, ser grandes o pequeños, y dirigirse a un amplio conjunto de sistemas de servidor y almacenes de datos.</span><span class="sxs-lookup"><span data-stu-id="64cd3-105">These structured messages can take any form, large or small, and target a wide array of back-end systems and data stores.</span></span> <span data-ttu-id="64cd3-106">Los sistemas que crean y consumen mensajes estructurados a menudo usan distintos formatos.</span><span class="sxs-lookup"><span data-stu-id="64cd3-106">Systems that create and consume the structured messages frequently use different formats.</span></span> <span data-ttu-id="64cd3-107">Dos de los formatos más comunes en los mensajes estructurados son XML y archivos sin formato.</span><span class="sxs-lookup"><span data-stu-id="64cd3-107">Two of the most common formats for structured messages are XML and flat files.</span></span>  

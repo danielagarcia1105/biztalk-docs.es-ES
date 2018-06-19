@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269412"
 ---
 # <a name="services-moduleref-node"></a><span data-ttu-id="21ea1-102">Servicios (nodo de ModuleRef)</span><span class="sxs-lookup"><span data-stu-id="21ea1-102">Services (ModuleRef Node)</span></span>
 <span data-ttu-id="21ea1-103">El nodo Servicios de un archivo de enlace contiene información específica acerca de cada servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="21ea1-103">The Services node of a binding file contains specific information about each service that is exported with the binding file.</span></span>  

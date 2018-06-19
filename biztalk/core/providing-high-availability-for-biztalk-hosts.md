@@ -1,11 +1,11 @@
 ---
 title: Proporcionar alta disponibilidad de Hosts de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - hosts, planning
 - MessageBox database
 ms.assetid: 9583b85c-7cad-4016-8065-5ca7de3f4359
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271900"
 ---
 # <a name="providing-high-availability-for-biztalk-hosts"></a><span data-ttu-id="8e5c1-102">Proporcionar alta disponibilidad a hosts de BizTalk</span><span class="sxs-lookup"><span data-stu-id="8e5c1-102">Providing High Availability for BizTalk Hosts</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="8e5c1-103"> proporciona gran flexibilidad a la hora de tratar la alta disponibilidad, porque permite dedicar hosts lógicos de forma estratégica para ejecutar áreas específicas de funcionalidad como la recepción, el envío de mensajes o el procesamiento de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="8e5c1-103"> provides great flexibility for addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality such as receiving messages, sending messages or processing orchestrations.</span></span>  

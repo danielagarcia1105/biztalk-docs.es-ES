@@ -1,14 +1,14 @@
 ---
-title: "Recepción de sondeo el mensajes a través de varios puertos de recepción de SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recepción de sondeo el mensajes a través de varios puertos de recepción de SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21cf4875-1c04-41cf-98f5-d1307987ca55
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223964"
 ---
 # <a name="receive-polling-messages-across-multiple-receive-ports-from-sql-using-biztalk-server"></a><span data-ttu-id="2cea0-102">Recepción de sondeo mensajes a través de varios puertos de recepción de SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="2cea0-102">Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server</span></span>
 <span data-ttu-id="2cea0-103">Considere un escenario donde desea crear una aplicación de BizTalk que incluye dos operaciones de sondeo.</span><span class="sxs-lookup"><span data-stu-id="2cea0-103">Consider a scenario where you want to create a BizTalk application that includes two polling operations.</span></span> <span data-ttu-id="2cea0-104">Cada operación de sondeo sondea tablas independientes, empleados y clientes, desde la misma base de datos.</span><span class="sxs-lookup"><span data-stu-id="2cea0-104">Each polling operation polls separate tables, Employee and Customer, from the same database.</span></span> <span data-ttu-id="2cea0-105">Al implementar este tipo de aplicación en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, debe crear dos puertos de recepción.</span><span class="sxs-lookup"><span data-stu-id="2cea0-105">When you deploy such an application in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you will need to create two receive ports.</span></span> <span data-ttu-id="2cea0-106">El URI de conexión para cada puerto de recepción será:</span><span class="sxs-lookup"><span data-stu-id="2cea0-106">The connection URI for each receive port will be:</span></span>  

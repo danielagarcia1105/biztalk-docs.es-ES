@@ -1,17 +1,17 @@
 ---
 title: Secuencias de comandos con ensamblados externos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scripting functoids, warnings
 - Scripting functoids, external assemblies
 ms.assetid: 0bdf6adc-91b9-462e-8fd0-9cb48bfa7817
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269204"
 ---
 # <a name="scripting-using-external-assemblies"></a><span data-ttu-id="19cb7-102">Secuencias de comandos que utilizan ensamblados externos</span><span class="sxs-lookup"><span data-stu-id="19cb7-102">Scripting Using External Assemblies</span></span>
 <span data-ttu-id="19cb7-103">Las secuencias de comandos con ensamblados externos es la forma recomendada de usar las secuencias de comandos en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="19cb7-103">Scripting with external assemblies is the preferred way to use scripting in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="19cb7-104">Los ensamblados externos proporcionan varias ventajas:</span><span class="sxs-lookup"><span data-stu-id="19cb7-104">External assemblies provide several advantages:</span></span>  

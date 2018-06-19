@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es el adaptador de interactuar? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el adaptador de interactuar? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a09063df-c6c4-41b9-96a1-e5059777fa72
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224756"
 ---
 # <a name="what-is-the-interact-adapter"></a><span data-ttu-id="be0a8-103">¿Qué es el adaptador de interactuar?</span><span class="sxs-lookup"><span data-stu-id="be0a8-103">What Is the InterAct Adapter?</span></span>
 <span data-ttu-id="be0a8-104">El adaptador interactuar para SWIFTNet proporciona conectividad entre BizTalk Server y la red de IP seguros de SWIFT (SIPN) para la transferencia de mensajes.</span><span class="sxs-lookup"><span data-stu-id="be0a8-104">The InterAct Adapter for SWIFTNet provides connectivity between BizTalk Server and the SWIFT Secure IP Network (SIPN) for the transfer of messages.</span></span> <span data-ttu-id="be0a8-105">La SIPN transfiere los mensajes y archivos a través de una red privada segura que interconecta instituciones financieras, infraestructuras de sector financiero y los clientes.</span><span class="sxs-lookup"><span data-stu-id="be0a8-105">The SIPN transfers messages and files over a secure private network which interconnects financial institutions, financial industry infrastructures, and customers.</span></span> <span data-ttu-id="be0a8-106">El adaptador de InterAct utiliza la interfaz de programación de aplicaciones (API) s para conectarse a la SIPN SWIFTNet vínculo (SNL).</span><span class="sxs-lookup"><span data-stu-id="be0a8-106">The InterAct adapter uses the SWIFTNet Link (SNL) application programming interface (API)s to connect to the SIPN.</span></span>  

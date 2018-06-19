@@ -1,14 +1,14 @@
 ---
-title: "Agregar avanzada Functoids a una asignación | Documentos de Microsoft"
-ms.custom: 
+title: Agregar avanzada Functoids a una asignación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbec5e9c-65b3-4734-a7fc-4ee66cf26eee
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229908"
 ---
 # <a name="adding-advanced-functoids-to-a-map"></a><span data-ttu-id="d81b1-102">Agregar functoids avanzados a una asignación</span><span class="sxs-lookup"><span data-stu-id="d81b1-102">Adding Advanced Functoids to a Map</span></span>
 <span data-ttu-id="d81b1-103">Functoids de la **avanzadas** categoría son más complejos para comprender y usar que los functoids en el resto de categorías, clasificados como functoids básicos.</span><span class="sxs-lookup"><span data-stu-id="d81b1-103">Functoids in the **Advanced** category are more complex to understand and use than the functoids in the other categories, together classified as basic functoids.</span></span> <span data-ttu-id="d81b1-104">Los functoids avanzados se utilizan cuando necesita asignaciones más complejas.</span><span class="sxs-lookup"><span data-stu-id="d81b1-104">You use advanced functoids when you need more complex maps.</span></span> <span data-ttu-id="d81b1-105">Estas asignaciones pueden necesitar contar registros, recorrer en bucle registros con un número variable de subregistros o ejecutar secuencias de comandos complejas arbitrariamente.</span><span class="sxs-lookup"><span data-stu-id="d81b1-105">These maps might need to count records, loop through records with a variable number of subrecords, or run an arbitrarily complex script.</span></span>  

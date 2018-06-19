@@ -1,11 +1,11 @@
 ---
 title: Propiedades relacionadas con BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MQSeries adapters], properties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - MQSeries adapters, properties
 - DataConversion property [MQSeries adapters]
 ms.assetid: c27d7f9c-8198-4624-9952-054ba8ea1c7c
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269660"
 ---
 # <a name="properties-related-to-biztalk-server"></a><span data-ttu-id="4115e-102">Propiedades relacionadas con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="4115e-102">Properties Related to BizTalk Server</span></span>
 <span data-ttu-id="4115e-103">El adaptador de MQSeries asigna valores a algunas propiedades de contexto que no están directamente relacionadas con MQSeries, pero que siguen siendo útiles en sus aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="4115e-103">The MQSeries adapter assigns values to some context properties that are not directly related to MQSeries but are still useful in your applications.</span></span>  

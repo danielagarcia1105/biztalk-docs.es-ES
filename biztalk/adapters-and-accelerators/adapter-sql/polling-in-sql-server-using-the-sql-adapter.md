@@ -1,14 +1,14 @@
 ---
 title: Sondeo en SQL Server mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c31b3cda-c05e-46db-827b-6c47a53d1a3a
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225852"
 ---
 # <a name="polling-in-sql-server-using-the-sql-adapter"></a><span data-ttu-id="3b01b-102">Sondeo en SQL Server mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="3b01b-102">Polling in SQL Server using the SQL adapter</span></span>
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]<span data-ttu-id="3b01b-103">permite a los clientes de adaptador recibir mensajes de cambio de datos de la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="3b01b-103"> enables adapter clients to receive data-change messages from the SQL Server database.</span></span> <span data-ttu-id="3b01b-104">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] admite la recepción de mensajes "basada en sondeo" en el que el adaptador ejecuta una instrucción SQL especificada (instrucción SELECT o procedimiento almacenado), recupera o actualiza los datos y proporciona el resultado al cliente de adaptador a intervalos regulares de hora.</span><span class="sxs-lookup"><span data-stu-id="3b01b-104">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SQL statement (SELECT statement or stored procedure), retrieves or updates the data, and provides the result to the adapter client at regular intervals of time.</span></span>  

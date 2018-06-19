@@ -1,11 +1,11 @@
 ---
-title: "Descripción de la implementación de aplicaciones de BizTalk y administración | Documentos de Microsoft"
-ms.custom: 
+title: Descripción de la implementación de aplicaciones de BizTalk y administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [applications]
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - what's new, applications
 - managing, applications
 ms.assetid: 4bc1677d-24a2-4f55-83b2-6dfc39767072
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286628"
 ---
 # <a name="understanding-biztalk-application-deployment-and-management"></a><span data-ttu-id="a25ca-102">Comprender la implementación y administración de aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="a25ca-102">Understanding BizTalk Application Deployment and Management</span></span>
 <span data-ttu-id="a25ca-103">Esta sección presentan las características nuevas de implementación y administración de aplicaciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y proporciona información general que le ayudará a entender cómo utilizar estas características para implementar y administrar aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a25ca-103">This section introduces the new application deployment and management features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and provides background information that will help you understand how to use these features to deploy and manage BizTalk applications.</span></span>  

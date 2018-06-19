@@ -1,11 +1,11 @@
 ---
 title: Enlaces de puerto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, warnings
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - bindings, deployment
 - bindings, dynamic
 ms.assetid: b61c725a-0082-42d3-b88a-533583161734
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265204"
 ---
 # <a name="port-bindings"></a><span data-ttu-id="f8d5b-102">Enlaces de puerto</span><span class="sxs-lookup"><span data-stu-id="f8d5b-102">Port Bindings</span></span>
 <span data-ttu-id="f8d5b-103">Un enlace de puerto es la información de configuración que determina dónde y cómo se enviará o recibirá un mensaje.</span><span class="sxs-lookup"><span data-stu-id="f8d5b-103">A port binding is the configuration information that determines where and how a message will be sent or received.</span></span> <span data-ttu-id="f8d5b-104">Según el tipo, es posible que un enlace de puerto haga referencia a ubicaciones físicas, canalizaciones u otras orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="f8d5b-104">Depending on its type, a port binding might refer to physical locations, pipelines, or other orchestrations.</span></span>  

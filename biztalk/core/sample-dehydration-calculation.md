@@ -1,14 +1,14 @@
 ---
-title: "Ejemplo de cálculo de deshidratación | Documentos de Microsoft"
-ms.custom: 
+title: Ejemplo de cálculo de deshidratación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4da41d0d-10ee-4f64-97d1-3cfa9da153f7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268884"
 ---
 # <a name="sample-dehydration-calculation"></a><span data-ttu-id="db750-102">Ejemplo de cálculo de deshidratación</span><span class="sxs-lookup"><span data-stu-id="db750-102">Sample Dehydration Calculation</span></span>
 <span data-ttu-id="db750-103">A continuación, se muestra un ejemplo del cálculo, utilizando bytes privados, para determinar si BizTalk se deshidratará o no.</span><span class="sxs-lookup"><span data-stu-id="db750-103">Here is an example of a sample calculation, using private bytes, to determine if BizTalk will dehydrate or not.</span></span> <span data-ttu-id="db750-104">Usa los valores configurados predeterminados y algunos ejemplos de valores de tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="db750-104">It uses the default configured values, and some example run-time values.</span></span>  

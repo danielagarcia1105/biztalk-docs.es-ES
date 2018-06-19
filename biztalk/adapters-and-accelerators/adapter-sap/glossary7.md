@@ -1,15 +1,15 @@
 ---
 title: Glosario para el adaptador de mySAP en BizTalk | Documentos de Microsoft
-description: "Términos y definiciones utilizadas por el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP) comunes"
-ms.custom: 
+description: Términos y definiciones utilizadas por el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP) comunes
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87db79be-e242-40fa-9897-8915e6fb5cae
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218836"
 ---
 # <a name="glossary"></a><span data-ttu-id="462f9-103">Glosario</span><span class="sxs-lookup"><span data-stu-id="462f9-103">Glossary</span></span>
 <span data-ttu-id="462f9-104">Los términos y definiciones siguientes se utilizan en [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span><span class="sxs-lookup"><span data-stu-id="462f9-104">The following terms and definitions are used in [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span></span>  

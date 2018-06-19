@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3: Enviar el mensaje de solicitud para insertar registros y recibir una respuesta | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a8a8906-7c7d-437c-9f04-345ad4ac460e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224092"
 ---
 # <a name="step-3-send-the-request-message-to-insert-records-and-receive-a-response"></a><span data-ttu-id="a9d45-102">Paso 3: Enviar el mensaje de solicitud para insertar registros y recibir una respuesta</span><span class="sxs-lookup"><span data-stu-id="a9d45-102">Step 3: Send the Request Message to Insert Records and Receive a Response</span></span>
 <span data-ttu-id="a9d45-103">![Paso 3 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="a9d45-103">![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  

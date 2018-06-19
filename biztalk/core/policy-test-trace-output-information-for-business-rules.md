@@ -1,11 +1,11 @@
 ---
-title: "Información de salida de seguimiento de prueba de directivas para reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: Información de salida de seguimiento de prueba de directivas para reglas de negocios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, business rules
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, testing
 - policies, testing
 ms.assetid: 26ff584e-97a1-4d76-a8a9-a55b4c99231f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265068"
 ---
 # <a name="policy-test-trace-output-information-for-business-rules"></a><span data-ttu-id="eee4e-102">Información del resultado del seguimiento de pruebas de directivas para reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="eee4e-102">Policy Test Trace Output Information for Business Rules</span></span>
 <span data-ttu-id="eee4e-103">En esta sección se proporciona información acerca de la información de seguimiento que se muestra al probar una directiva en el Compositor de reglas de negocio.</span><span class="sxs-lookup"><span data-stu-id="eee4e-103">This section provides information on the tracking information that is displayed when testing a policy in the Business Rule Composer.</span></span> <span data-ttu-id="eee4e-104">Se ve información muy similar al visualizar los resultados de seguimiento de la ejecución de directivas mediante las consultas de seguimiento de instancias de servicio y eventos de mensaje en la página Concentrador de grupo.</span><span class="sxs-lookup"><span data-stu-id="eee4e-104">Very similar information is seen when viewing tracking results for policy execution using the message event and service instance tracking queries on the Group Hub page.</span></span>  

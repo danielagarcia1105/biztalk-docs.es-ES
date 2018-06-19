@@ -1,18 +1,18 @@
 ---
 title: Clase SiebelParameter en el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SiebelParameter
 - Data Provider for Siebel, SiebelParameter
 - SiebelParameter, supported properties and methods
 ms.assetid: 1dcb72c7-a470-4609-8aba-a5c8ad5f3ac9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222492"
 ---
 # <a name="siebelparameter-class-in-the-siebel-adapter"></a><span data-ttu-id="36d86-102">Clase SiebelParameter en el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="36d86-102">SiebelParameter class in the Siebel adapter</span></span>
 <span data-ttu-id="36d86-103">El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] proporciona un `DbParameter` implementación para permitir que un cliente ADO.NET especificar los parámetros de un comando concreto.</span><span class="sxs-lookup"><span data-stu-id="36d86-103">The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] provides a `DbParameter` implementation to enable an ADO.NET client to specify parameters for a particular command.</span></span> <span data-ttu-id="36d86-104">Mediante una instancia de la `System.Data.Common.DbCommand` clase de la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], un programa cliente puede obtener una instancia de la `System.Data.Common.DbParameter` clase.</span><span class="sxs-lookup"><span data-stu-id="36d86-104">Using an instance of the `System.Data.Common.DbCommand` class of the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], a client program can obtain an instance of the `System.Data.Common.DbParameter` class.</span></span>  

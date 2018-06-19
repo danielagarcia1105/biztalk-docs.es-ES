@@ -1,14 +1,14 @@
 ---
-title: "Estado del adaptador de interactuar supervisión | Documentos de Microsoft"
-ms.custom: 
+title: Estado del adaptador de interactuar supervisión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2bbc6a45-8d3a-444e-b760-aef0dfa7218a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224300"
 ---
 # <a name="interact-adapter-status-monitoring"></a><span data-ttu-id="b325d-102">Estado del adaptador de interactuar de supervisión</span><span class="sxs-lookup"><span data-stu-id="b325d-102">InterAct Adapter Status Monitoring</span></span>
 <span data-ttu-id="b325d-103">Vínculo de SWIFTNet (SNL-C) mantiene el estado local sobre SWIFTNet almacén y reenvíos sesiones (SnF) adquiridas en ese SNL.</span><span class="sxs-lookup"><span data-stu-id="b325d-103">SWIFTNet Link (SNL-C) retains a local status about SWIFTNet store and forward (SnF) sessions acquired on that SNL.</span></span> <span data-ttu-id="b325d-104">Para obtener la información acerca de la sesión, utilice SwCall() con el tipo primitivo siguiente:</span><span class="sxs-lookup"><span data-stu-id="b325d-104">To get the information about the session, use SwCall() with the following primitive:</span></span>  
