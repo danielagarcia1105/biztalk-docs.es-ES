@@ -1,17 +1,17 @@
 ---
-title: "Requisitos de hardware y Software para la implementación | Documentos de Microsoft"
-ms.custom: 
+title: Requisitos de hardware y Software para la implementación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, hardware requirements
 - deploying, software requirements
 ms.assetid: 1dd9c4bb-b724-4195-8496-eff95cd1548a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004605"
 ---
 # <a name="hardware-and-software-requirements-for-deployment"></a><span data-ttu-id="c1b90-102">Requisitos de hardware y Software para la implementación</span><span class="sxs-lookup"><span data-stu-id="c1b90-102">Hardware and Software Requirements for Deployment</span></span>
 <span data-ttu-id="c1b90-103">En la tabla siguiente se enumera los requisitos para cada servidor de la arquitectura de implementación establecidas y recomendaciones de hardware y software.</span><span class="sxs-lookup"><span data-stu-id="c1b90-103">The following table lists the hardware and software recommendations and requirements for each server in the prescribed deployment architecture.</span></span> <span data-ttu-id="c1b90-104">Para obtener más información acerca de cómo configurar el software necesario, consulte [implementar los servidores](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md).</span><span class="sxs-lookup"><span data-stu-id="c1b90-104">For details about configuring required software, see [Deploying Your Servers](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md).</span></span>  

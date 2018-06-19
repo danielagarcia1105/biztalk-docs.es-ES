@@ -1,17 +1,17 @@
 ---
-title: "Administrador de procesos lógica | Documentos de Microsoft"
-ms.custom: 
+title: Administrador de procesos lógica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, processing logic
 ms.assetid: 6b69fc71-0f01-4513-9361-d7787d0cde6d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264484"
 ---
 # <a name="process-manager-logic"></a><span data-ttu-id="5b3dd-102">Lógica del Administrador de procesos</span><span class="sxs-lookup"><span data-stu-id="5b3dd-102">Process Manager Logic</span></span>
 <span data-ttu-id="5b3dd-103">Esta sección se describe cómo el Administrador de procesos, el **OrderManager** orquestación, procesa pedidos.</span><span class="sxs-lookup"><span data-stu-id="5b3dd-103">This section describes how the process manager, the **OrderManager** orchestration, processes orders.</span></span> <span data-ttu-id="5b3dd-104">Describe campos fundamentales en los distintos mensajes de pedido y realiza un seguimiento de los pedidos nuevos y actualizados a través de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="5b3dd-104">It describes key fields in the various order messages and follows new and updated orders through the orchestration.</span></span>  

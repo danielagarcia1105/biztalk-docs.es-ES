@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270532"
 ---
 # <a name="sendhandler-primarytransport-node"></a><span data-ttu-id="68b78-102">SendHandler (nodo PrimaryTransport)</span><span class="sxs-lookup"><span data-stu-id="68b78-102">SendHandler (PrimaryTransport Node)</span></span>
 <span data-ttu-id="68b78-103">El nodo SendHandler del nodo PrimaryTransport de un archivo de enlace contiene información específica acerca del controlador de envío asociado a un transporte que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="68b78-103">The SendHandler node of the PrimaryTransport node of a binding file contains specific information about the send handler associated with a transport that is exported with the binding file.</span></span>  

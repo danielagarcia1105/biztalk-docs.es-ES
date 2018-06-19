@@ -1,11 +1,11 @@
 ---
 title: El adaptador Ops | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, Ops adapters
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - process management solution tutorial, Ops adapters
 - process management solution tutorial, errors
 ms.assetid: 7f747a5f-14af-4e4c-bc29-f083f8f00bd0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279380"
 ---
 # <a name="the-ops-adapter"></a><span data-ttu-id="50031-102">El adaptador Ops</span><span class="sxs-lookup"><span data-stu-id="50031-102">The Ops Adapter</span></span>
 <span data-ttu-id="50031-103">El diseño de la solución tiene como finalidad pasar, siempre que sea posible, mensajes problemáticos y errores a sistemas de operaciones que tomen una decisión respecto a si corregir el error o finalizar el pedido.</span><span class="sxs-lookup"><span data-stu-id="50031-103">The design of the solution is to pass, where possible, problematic messages and errors to operations systems that make a decision about fixing the error or terminating the order.</span></span> <span data-ttu-id="50031-104">El adaptador Ops, combinado con la característica de elaboración de informes de errores nueva, controla muchos de estos casos.</span><span class="sxs-lookup"><span data-stu-id="50031-104">The Ops adapter, combined with the new error reporting feature, handles many of these cases.</span></span>  

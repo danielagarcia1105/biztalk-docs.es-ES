@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262524"
 ---
 # <a name="mapping-mappings-node"></a><span data-ttu-id="bc76a-102">Mapping (nodo Mappings)</span><span class="sxs-lookup"><span data-stu-id="bc76a-102">Mapping (Mappings Node)</span></span>
 <span data-ttu-id="bc76a-103">El nodo Mapping de un archivo de enlace describe la asignación entre un puerto de entidad y una operación de tipo de puerto de rol para la entidad dada de alta.</span><span class="sxs-lookup"><span data-stu-id="bc76a-103">The Mapping node of a binding file describes the mapping between a party port and role port type operation for the enlisted party.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Probar el rendimiento de la virtualización de servidor BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Probar el rendimiento de la virtualización de servidor BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d09121b1-cdd6-4c01-9d69-0f1923464f0e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008573"
 ---
 # <a name="testing-biztalk-server-virtualization-performance"></a><span data-ttu-id="72a77-102">Probar el rendimiento de la virtualización de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="72a77-102">Testing BizTalk Server Virtualization Performance</span></span>
 <span data-ttu-id="72a77-103">Cada uno de los escenarios de prueba de rendimiento que se describe en esta guía se implementaron en equipos físicos en un laboratorio de pruebas de Microsoft y, a continuación, se realiza la misma prueba de carga en cada arquitectura de sistemas distintos.</span><span class="sxs-lookup"><span data-stu-id="72a77-103">Each of the performance test scenarios described in this guide were deployed on physical computers in a Microsoft test lab, and then the same load test was performed on each distinct system architecture.</span></span> <span data-ttu-id="72a77-104">El sistema operativo de host en cada equipo físico era una instalación completa de [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits, con el rol de servidor de Hyper-V instalado.</span><span class="sxs-lookup"><span data-stu-id="72a77-104">The host operating system on each physical computer was a full installation of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition, with the Hyper-V server role installed.</span></span> <span data-ttu-id="72a77-105">Las máquinas virtuales que se usan para probar el servidor BizTalk Server se han configurado con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado.</span><span class="sxs-lookup"><span data-stu-id="72a77-105">The virtual machines used for testing BizTalk Server were set up with [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition as the guest operating system.</span></span> <span data-ttu-id="72a77-106">La máquina virtual que se usan para probar SQL Server se configuró con [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, edición de 64 bits como el sistema operativo invitado.</span><span class="sxs-lookup"><span data-stu-id="72a77-106">The virtual machine used for testing SQL Server was set up with [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition as the guest operating system.</span></span> <span data-ttu-id="72a77-107">Los escenarios de prueba, métodos de prueba, los resultados de pruebas de rendimiento y su análisis posterior empleadas para formular una serie de procedimientos recomendados y orientación para diseñar, implementar, y optimizar virtualiza [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="72a77-107">The test scenarios, test methods, performance test results, and subsequent analysis were used to formulate a series of best practices and guidance for designing, implementing, and optimizing virtualized [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

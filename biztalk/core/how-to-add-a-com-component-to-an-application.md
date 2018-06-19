@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un componente COM a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un componente COM a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], COM components
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, COM components
 - COM components, applications
 ms.assetid: fdda1a9d-96af-41fe-9d94-ee1fbd80a7c9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007285"
 ---
 # <a name="how-to-add-a-com-component-to-an-application"></a><span data-ttu-id="9900a-102">Cómo agregar un componente COM a una aplicación</span><span class="sxs-lookup"><span data-stu-id="9900a-102">How to Add a COM Component to an Application</span></span>
 <span data-ttu-id="9900a-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar un componente COM a una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="9900a-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a COM component to a BizTalk application:</span></span>  

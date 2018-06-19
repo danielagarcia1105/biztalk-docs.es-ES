@@ -1,11 +1,11 @@
 ---
-title: "Métodos estándar en Interfaces de componentes | Documentos de Microsoft"
-ms.custom: 
+title: Métodos estándar en Interfaces de componentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, standard methods
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - methods, component interfaces
 - methods, changing
 ms.assetid: 2273d946-3fc8-4b2d-a6a1-9e4f0da74d5b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278052"
 ---
 # <a name="standard-methods-in-component-interfaces"></a><span data-ttu-id="f3368-102">Métodos estándar en Interfaces de componentes</span><span class="sxs-lookup"><span data-stu-id="f3368-102">Standard Methods in Component Interfaces</span></span>
 <span data-ttu-id="f3368-103">Los métodos estándar para la interfaz de componente son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="f3368-103">The standard methods for the component interface are as follows:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: No se permite el tipo de mensaje como parte del acuerdo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 829f8230-33b8-4b5f-a56a-d0c1d3a17271
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262740"
 ---
 # <a name="message-type-is-not-allowed-as-part-of-the-agreement"></a><span data-ttu-id="459a1-102">No se permite el tipo de mensaje como parte del acuerdo</span><span class="sxs-lookup"><span data-stu-id="459a1-102">Message Type is not allowed as part of the Agreement</span></span>
 ## <a name="details"></a><span data-ttu-id="459a1-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="459a1-103">Details</span></span>  

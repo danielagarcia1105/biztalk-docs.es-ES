@@ -1,11 +1,11 @@
 ---
 title: MQSCorrelationSetOrchestration (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: fcda65d0-e3ec-4ead-978d-3904903b8762
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974986"
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a><span data-ttu-id="70345-102">MQSCorrelationSetOrchestration (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="70345-102">MQSCorrelationSetOrchestration (BizTalk Server Sample)</span></span>
 <span data-ttu-id="70345-103">El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de correlación MQSeries para correlacionar los mensajes enviados a una cola de MQSeries de vuelta a una orquestación en ejecución.</span><span class="sxs-lookup"><span data-stu-id="70345-103">The MQSCorrelationSetOrchestration sample demonstrates how to use the MQSeries correlation identifier for correlating messages sent to an MQSeries queue back to a running orchestration.</span></span> <span data-ttu-id="70345-104">La orquestación establece el identificador de correlación de MQSeries y el mensaje valores de identificador mediante la **MQMD_CorrelId** y **MQMD_MsgID** propiedades.</span><span class="sxs-lookup"><span data-stu-id="70345-104">The orchestration sets the MQSeries correlation identifier and message identifier values using the **MQMD_CorrelId** and **MQMD_MsgID** properties.</span></span> <span data-ttu-id="70345-105">El administrador de cola de MQSeries copia el valor de MessageID en la propiedad CorrelationID del mensaje.</span><span class="sxs-lookup"><span data-stu-id="70345-105">The MQSeries Queue Manager copies the MessageID value to the CorrelationID property of the message.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="70345-114">En este ejemplo se muestra un escenario en el que un documento que una orquestación está procesando puede enviarse a una cola MQSeries (supuestamente para otro procesamiento) y devolverse a la orquestación en ejecución.</span><span class="sxs-lookup"><span data-stu-id="70345-114">This sample illustrates a scenario in which a document that is being processed by an orchestration can be sent to an MQSeries queue (presumably for additional processing) and returned back to the running orchestration.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="70345-115">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="70345-115">Where to Find This Sample</span></span>  
- <span data-ttu-id="70345-116">*\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span><span class="sxs-lookup"><span data-stu-id="70345-116">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span></span>  
+ <span data-ttu-id="70345-116">*\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span><span class="sxs-lookup"><span data-stu-id="70345-116">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span></span>  
   
  <span data-ttu-id="70345-117">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="70345-117">The following table shows the files in this sample and describes their purpose.</span></span>  
   

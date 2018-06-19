@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar el ejemplo de resolución dinámica | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar el ejemplo de resolución dinámica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c933839f-13e6-4b49-9838-2773e3f99b64
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300052"
 ---
 # <a name="running-the-dynamic-resolution-sample"></a><span data-ttu-id="ea48a-102">Ejecutar el ejemplo de resolución dinámica</span><span class="sxs-lookup"><span data-stu-id="ea48a-102">Running the Dynamic Resolution Sample</span></span>
 <span data-ttu-id="ea48a-103">Para ejecutar uno de los ejemplos de casos de uso, importa el archivo de enlace de Microsoft BizTalk correspondiente a la aplicación de GlobalBank.ESB BizTalk y, a continuación, coloca un mensaje adecuado en la carpeta de entrada de ejemplo o llame al servicio Web de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="ea48a-103">To execute one of the use case examples, you import the appropriate Microsoft BizTalk binding file into the GlobalBank.ESB BizTalk application and then either drop a suitable message into the sample input folder or call the sample Web service.</span></span> <span data-ttu-id="ea48a-104">El ejemplo de resolución dinámica admite dos escenarios principales:</span><span class="sxs-lookup"><span data-stu-id="ea48a-104">The Dynamic Resolution sample supports two main scenarios:</span></span>  

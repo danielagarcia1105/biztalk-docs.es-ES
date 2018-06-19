@@ -1,14 +1,14 @@
 ---
 title: Crear un proveedor de adaptador personalizado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb93acf8-fd9d-4315-8690-f0c152a954b5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974282"
 ---
 # <a name="creating-a-custom-adapter-provider"></a><span data-ttu-id="6e284-102">Crear un proveedor de adaptador personalizado</span><span class="sxs-lookup"><span data-stu-id="6e284-102">Creating a Custom Adapter Provider</span></span>
 <span data-ttu-id="6e284-103">Una vez ejecutada una resolución, tal como se describe en las secciones anteriores, el servicio de resolución dinámica comprueba si el resultado es un punto de conexión (no una transformación).</span><span class="sxs-lookup"><span data-stu-id="6e284-103">After a resolver executes, as described in the previous sections, the dynamic resolution service checks whether the result is an endpoint (not a transformation).</span></span> <span data-ttu-id="6e284-104">Si es un punto de conexión, el servicio crea instancias el Administrador de adaptador, que es una instancia de la **AdapterMgr** clase.</span><span class="sxs-lookup"><span data-stu-id="6e284-104">If it is an endpoint, the service instantiates the adapter manager, which is an instance of the **AdapterMgr** class.</span></span>  

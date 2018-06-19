@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Crear e implementar el ejemplo X12 esquema | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5862168-6621-40ab-8c97-3f317530d34e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974474"
 ---
 # <a name="step-2-create-and-deploy-the-sample-x12-schema"></a><span data-ttu-id="b6a82-102">Paso 2: Crear e implementar el ejemplo X12 esquema</span><span class="sxs-lookup"><span data-stu-id="b6a82-102">Step 2: Create and Deploy the Sample X12 Schema</span></span>
 <span data-ttu-id="b6a82-103">![Paso 2 de 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")</span><span class="sxs-lookup"><span data-stu-id="b6a82-103">![Step 2 of 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")</span></span>  

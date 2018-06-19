@@ -1,11 +1,11 @@
 ---
-title: "Coincidencia del nivel jerárquico de nodos | Documentos de Microsoft"
-ms.custom: 
+title: Coincidencia del nivel jerárquico de nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Field nodes
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - compiler directives, flattening source hierarchies
 - maps, processing
 ms.assetid: 5ba1ac77-0e70-4c58-9b8c-1b379dbbb3bd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264764"
 ---
 # <a name="node-hierarchy-level-matching"></a><span data-ttu-id="c9c9c-102">Coincidencia del nivel jerárquico de nodos</span><span class="sxs-lookup"><span data-stu-id="c9c9c-102">Node-Hierarchy Level Matching</span></span>
 <span data-ttu-id="c9c9c-103">El Asignador de BizTalk le permite configurar una propiedad de vínculo para controlar cómo el compilador hace coincidir las jerarquías de nodos entre los esquemas de origen y de destino.</span><span class="sxs-lookup"><span data-stu-id="c9c9c-103">BizTalk Mapper enables you to configure a link property to control how the compiler matches node hierarchies between the source and destination schemas.</span></span> <span data-ttu-id="c9c9c-104">Cuando crea un vínculo desde un campo del esquema de origen hacia un campo del esquema de destino, el Asignador de BizTalk agrega automáticamente vínculos de compilador.</span><span class="sxs-lookup"><span data-stu-id="c9c9c-104">When you create a link from a field in the source schema to a field in the destination schema, BizTalk Mapper automatically adds compiler links.</span></span> <span data-ttu-id="c9c9c-105">Estos vínculos de compilador dependen de la coincidencia que seleccione.</span><span class="sxs-lookup"><span data-stu-id="c9c9c-105">These compiler links depend on the matching you select.</span></span>  

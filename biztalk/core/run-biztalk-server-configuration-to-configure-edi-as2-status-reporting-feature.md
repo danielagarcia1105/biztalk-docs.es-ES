@@ -1,14 +1,14 @@
 ---
-title: "Para habilitar los informes de estado, ejecutar &#39; Configuración de BizTalk Server &#39; y configurar la característica de informes de estado de EDI y AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Para habilitar los informes de estado, ejecutar &#39; Configuración de BizTalk Server &#39; y configurar la característica de informes de estado de EDI y AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf125919-80ab-4cb8-b1f5-0f2616cc6f5c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268916"
 ---
 # <a name="to-enable-status-reporting-run-39biztalk-server-configuration39-and-configure-edi-as2-status-reporting-feature"></a><span data-ttu-id="661ef-102">Para habilitar los informes de estado, ejecutar &#39; Configuración de BizTalk Server &#39; y configurar la característica de informes de estado de EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="661ef-102">To enable status reporting, run &#39;BizTalk Server Configuration&#39; and configure EDI-AS2 status reporting feature</span></span>
 ## <a name="details"></a><span data-ttu-id="661ef-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="661ef-103">Details</span></span>  

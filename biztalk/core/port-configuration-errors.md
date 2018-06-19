@@ -1,14 +1,14 @@
 ---
-title: "Errores de configuración de puerto | Documentos de Microsoft"
-ms.custom: 
+title: Errores de configuración de puerto | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92eae0d8-a0c4-4f8c-b91a-fd98b9f6931a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264196"
 ---
 # <a name="port-configuration-errors"></a><span data-ttu-id="5c880-102">Errores de configuración de puerto</span><span class="sxs-lookup"><span data-stu-id="5c880-102">Port Configuration Errors</span></span>
 <span data-ttu-id="5c880-103">Información para diagnosticar y resolver errores de configuración de puerto de WCF.</span><span class="sxs-lookup"><span data-stu-id="5c880-103">Information for diagnosing and resolving WCF Port Configuration errors.</span></span>  

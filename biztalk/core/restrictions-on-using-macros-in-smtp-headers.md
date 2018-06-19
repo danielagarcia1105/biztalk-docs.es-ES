@@ -1,11 +1,11 @@
 ---
 title: Restricciones sobre el uso de Macros en encabezados SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring [SMTP adapters], macros
 - SMTP headers
 ms.assetid: ceab0917-cb3c-423b-a15f-63747ab1d8da
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268644"
 ---
 # <a name="restrictions-on-using-macros-in-smtp-headers"></a><span data-ttu-id="f75a8-102">Restricciones sobre el uso de Macros en encabezados SMTP</span><span class="sxs-lookup"><span data-stu-id="f75a8-102">Restrictions on Using Macros in SMTP Headers</span></span>
 <span data-ttu-id="f75a8-103">Puede utilizar un conjunto predefinido de macros para formar dinámicamente las propiedades **Asunto**, **Para**, **De**y **CC** de un encabezado de mensaje SMTP.</span><span class="sxs-lookup"><span data-stu-id="f75a8-103">You can form the **Subject**, **To**, **From**, and **CC** properties on an SMTP message header dynamically by using a predefined set of macros.</span></span> <span data-ttu-id="f75a8-104">Antes de enviar un mensaje, el controlador de envío de SMTP sustituye todas las macros de los encabezados por el valor correspondiente.</span><span class="sxs-lookup"><span data-stu-id="f75a8-104">Before sending a message, the SMTP send handler substitutes all the macros in headers with their values.</span></span> <span data-ttu-id="f75a8-105">Puede utilizar varias macros para formar un encabezado.</span><span class="sxs-lookup"><span data-stu-id="f75a8-105">You can use several different macros when forming one header.</span></span>  

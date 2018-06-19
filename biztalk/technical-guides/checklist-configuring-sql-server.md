@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Configurar SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Configurar SQL Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: edd20f24-8a72-40b7-abee-81fbd3ceefda
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010293"
 ---
 # <a name="checklist-configuring-sql-server"></a><span data-ttu-id="82662-102">Lista de comprobación: Configurar SQL Server</span><span class="sxs-lookup"><span data-stu-id="82662-102">Checklist: Configuring SQL Server</span></span>
 <span data-ttu-id="82662-103">Pasos que deben seguirse al preparar SQL Server para usan en un entorno de producción de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="82662-103">Steps to follow when preparing SQL Server for use in a BizTalk Server production environment.</span></span>    

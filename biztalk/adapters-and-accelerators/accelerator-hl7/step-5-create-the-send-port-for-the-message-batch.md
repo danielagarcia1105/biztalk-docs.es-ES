@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Crear el puerto de envío para el lote de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Crear el puerto de envío para el lote de mensajes | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5db815df-5b76-4ba4-99ab-c7766b0c301a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006013"
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a><span data-ttu-id="b9f94-102">Paso 5: Crear el puerto de envío para el lote de mensajes</span><span class="sxs-lookup"><span data-stu-id="b9f94-102">Step 5: Create the Send Port for the Message Batch</span></span>
 <span data-ttu-id="b9f94-103">En este paso, creará un puerto de envío para entregar el lote de mensajes que cree para la entidad de destino.</span><span class="sxs-lookup"><span data-stu-id="b9f94-103">In this step, you create a send port to deliver the message batch that you create to the destination party.</span></span> <span data-ttu-id="b9f94-104">Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo.</span><span class="sxs-lookup"><span data-stu-id="b9f94-104">This is a static one-way port with a FILE adapter type.</span></span> <span data-ttu-id="b9f94-105">Designar una carpeta de archivos para el destino (\Tutorial_BatchMsgDrop) donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de mensajes.</span><span class="sxs-lookup"><span data-stu-id="b9f94-105">You designate a file folder for the destination (\Tutorial_BatchMsgDrop) where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will drop the message batch file.</span></span> <span data-ttu-id="b9f94-106">Defina un filtro para el puerto que indica qué tipo de lotes de mensajes que enviará los puertos.</span><span class="sxs-lookup"><span data-stu-id="b9f94-106">You define a filter for the port indicating what type of message batches the ports will send.</span></span> <span data-ttu-id="b9f94-107">El filtro especifica el destino de Tutorial_BatchDest y el tipo de mensaje de OutboundBatch.</span><span class="sxs-lookup"><span data-stu-id="b9f94-107">The filter specifies the destination of Tutorial_BatchDest and the message type of OutboundBatch.</span></span>  

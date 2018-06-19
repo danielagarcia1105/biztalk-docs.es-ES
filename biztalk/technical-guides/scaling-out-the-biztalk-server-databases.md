@@ -1,14 +1,14 @@
 ---
 title: Ajuste de escala fuera de las bases de datos de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18853ceb-7975-4c30-878f-6b162005f795
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009621"
 ---
 # <a name="scaling-out-the-biztalk-server-databases"></a><span data-ttu-id="8c3c1-102">Ajuste de escala en las bases de datos de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="8c3c1-102">Scaling Out the BizTalk Server Databases</span></span>
 <span data-ttu-id="8c3c1-103">Para proporcionar alta disponibilidad para las bases de datos de BizTalk Server, configure dos equipos que ejecutan SQL Server en un clúster de Windows.</span><span class="sxs-lookup"><span data-stu-id="8c3c1-103">To provide high availability for the BizTalk Server databases, configure two computers that are running SQL Server in a Windows cluster.</span></span> <span data-ttu-id="8c3c1-104">Estos equipos pueden ejecutar en un activo/activo, activo/pasivo o activo/activo/pasivo (requiere tres equipos) configuración para obtener redundancia y puede almacenar datos en una unidad compartida (por ejemplo, una RAID 1 + 0 matriz de discos SCSI) o una red de área de almacenamiento (SAN).</span><span class="sxs-lookup"><span data-stu-id="8c3c1-104">These computers can run in an active/active, active/passive, or active/active/passive (requires three computers) configuration for redundancy and can store data on a shared drive (such as a RAID 1+0 SCSI disk array) or storage area network (SAN).</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc9ca38e-1feb-4f34-a64b-d04566e85db9
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976578"
 ---
 # <a name="general-guidelines-for-improving-operating-system-performance"></a><span data-ttu-id="0e969-102">Directrices generales para mejorar el rendimiento del sistema operativo</span><span class="sxs-lookup"><span data-stu-id="0e969-102">General Guidelines for Improving Operating System Performance</span></span>
 <span data-ttu-id="0e969-103">Deben seguirse las siguientes directrices generales para mejorar el rendimiento del sistema operativo:</span><span class="sxs-lookup"><span data-stu-id="0e969-103">The following general guidelines should be followed to improve operating system performance:</span></span>  

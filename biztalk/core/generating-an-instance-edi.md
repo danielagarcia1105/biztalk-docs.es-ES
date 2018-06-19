@@ -1,14 +1,14 @@
 ---
 title: Generar una instancia (EDI) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 362b9803-4d4a-4d17-9ad6-439ec4c7d8aa
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247420"
 ---
 # <a name="generating-an-instance-edi"></a><span data-ttu-id="36c9e-102">Generar una instancia (EDI)</span><span class="sxs-lookup"><span data-stu-id="36c9e-102">Generating an Instance (EDI)</span></span>
 <span data-ttu-id="36c9e-103">Puede generar una instancia de mensaje desde un esquema EDI en el tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="36c9e-103">You can generate a message instance from an EDI schema at design time.</span></span> <span data-ttu-id="36c9e-104">Para ello, se usan las extensiones de la herramienta XML para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="36c9e-104">To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span>  

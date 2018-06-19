@@ -1,14 +1,14 @@
 ---
 title: Comandos de la base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c54131-0793-45a9-822a-554cd4fc05a2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971370"
 ---
 # <a name="database-commands"></a><span data-ttu-id="5084f-102">Comandos de base de datos</span><span class="sxs-lookup"><span data-stu-id="5084f-102">Database Commands</span></span>
 <span data-ttu-id="5084f-103">Los comandos de base de datos de la utilidad de administración de BAM le permiten trabajar con las bases de datos de BAM:</span><span class="sxs-lookup"><span data-stu-id="5084f-103">The BAM Management utility database commands allow you to work with the BAM databases:</span></span>  

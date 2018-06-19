@@ -1,14 +1,14 @@
 ---
 title: Juegos de caracteres EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57fae748-d66e-4ecf-be00-70147078ef93
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971394"
 ---
 # <a name="edi-character-sets"></a><span data-ttu-id="076bd-102">Juegos de caracteres de EDI</span><span class="sxs-lookup"><span data-stu-id="076bd-102">EDI Character Sets</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="076bd-103"> usa un juego de caracteres para validar un intercambio EDI completo.</span><span class="sxs-lookup"><span data-stu-id="076bd-103"> uses a character set to validate an entire EDI interchange.</span></span> <span data-ttu-id="076bd-104">Los juegos de caracteres usados para un mensaje codificado con X12 y un mensaje codificado con EDIFACT o KEDIFACT se determinan de distintos modos.</span><span class="sxs-lookup"><span data-stu-id="076bd-104">The character sets used for an X12-encoded message and an EDIFACT- or KEDIFACT-encoded message are determined in different ways.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  <span data-ttu-id="076bd-142">Los valores especificados para el separador de elemento de datos, separador de elemento de componentes y terminador de segmento en el acuerdo bidireccional o acuerdo de reserva se limitan a los valores del juego de caracteres ASCII.</span><span class="sxs-lookup"><span data-stu-id="076bd-142">The values entered for the data-element separator, component-element separator, and segment terminator in the bi-directional agreement or fallback agreement are limited to the values in the ASCII character set.</span></span> <span data-ttu-id="076bd-143">Estas propiedades no se validan con respecto al juego de caracteres de X12.</span><span class="sxs-lookup"><span data-stu-id="076bd-143">These properties are not validated against the X12 character set.</span></span>  
   
- <span data-ttu-id="076bd-144">El juego de caracteres básico incluye las siguientes letras en mayúscula, dígitos, espacio y caracteres especiales: A-z, 0-9,!</span><span class="sxs-lookup"><span data-stu-id="076bd-144">The Basic character set includes the following uppercase letters, digits, space, and special characters: A through Z, 0 through 9, !</span></span> <span data-ttu-id="076bd-145">“ & ’ ( ) * + , - .</span><span class="sxs-lookup"><span data-stu-id="076bd-145">“ & ’ ( ) * + , - .</span></span> <span data-ttu-id="076bd-146">/ : ; ?</span><span class="sxs-lookup"><span data-stu-id="076bd-146">/ : ; ?</span></span> <span data-ttu-id="076bd-147">= (espacio).</span><span class="sxs-lookup"><span data-stu-id="076bd-147">= (space).</span></span>  
+ <span data-ttu-id="076bd-144">El juego de caracteres básico incluye las siguientes letras en mayúscula, dígitos, espacio y caracteres especiales: A-z, 0-9,!</span><span class="sxs-lookup"><span data-stu-id="076bd-144">The Basic character set includes the following uppercase letters, digits, space, and special characters: A through Z, 0 through 9, !</span></span> <span data-ttu-id="076bd-145">“ & ’ ( ) \* + , - .</span><span class="sxs-lookup"><span data-stu-id="076bd-145">“ & ’ ( ) \* + , - .</span></span> <span data-ttu-id="076bd-146">/ : ; ?</span><span class="sxs-lookup"><span data-stu-id="076bd-146">/ : ; ?</span></span> <span data-ttu-id="076bd-147">= (espacio).</span><span class="sxs-lookup"><span data-stu-id="076bd-147">= (space).</span></span>  
   
  <span data-ttu-id="076bd-148">El juego de caracteres ampliado incluye los caracteres de los caracteres del idioma seleccionado conjunto y letras minúsculas, caracteres básico y otros caracteres especiales: a z, % @ [] _ {} \ &#124; \< \> ~ # $.</span><span class="sxs-lookup"><span data-stu-id="076bd-148">The Extended character set includes the characters in the Basic character set, and lowercase letters, select language characters, and other special characters: a through z, % @ [ ] _ { } \ &#124; \< \> ~ # $.</span></span>  
   

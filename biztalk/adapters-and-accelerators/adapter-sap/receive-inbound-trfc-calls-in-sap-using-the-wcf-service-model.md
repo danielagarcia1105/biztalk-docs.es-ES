@@ -1,17 +1,17 @@
 ---
 title: Recibir llamadas de tRFC entrante en SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC calls, receiving inbound using the WCF service model
 - WCF service model, receiving inbound tRFC calls
 ms.assetid: 02dc282b-b659-466a-8bd1-f400a05f71ec
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217860"
 ---
 # <a name="receive-inbound-trfc-calls-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="11f65-102">Recibir llamadas de tRFC entrante en SAP mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="11f65-102">Receive Inbound tRFC Calls in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="11f65-103">Puede usar el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] como un servidor RFC (tRFC) transaccional para recibir llamadas de tRFC entrada de SAP.</span><span class="sxs-lookup"><span data-stu-id="11f65-103">You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a transactional RFC (tRFC) server to receive inbound tRFC calls from SAP.</span></span> <span data-ttu-id="11f65-104">Para tRFCs entrante, la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite varios tRFCs en la misma unidad lógica de SAP de trabajo (LUW).</span><span class="sxs-lookup"><span data-stu-id="11f65-104">For inbound tRFCs, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports multiple tRFCs in the same SAP logical unit of work (LUW).</span></span>  

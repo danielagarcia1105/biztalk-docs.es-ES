@@ -1,15 +1,15 @@
 ---
 title: Ejemplo de extremo a extremo BAM en BizTalk Server | Documentos de Microsoft
-description: "Escenario sobre cómo correlacionar eventos desde varios componentes mediante la supervisión de la actividad de negocio de BizTalk Server"
-ms.custom: 
+description: Escenario sobre cómo correlacionar eventos desde varios componentes mediante la supervisión de la actividad de negocio de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 81406038-7f3f-499f-a003-12423d92c44b
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009885"
 ---
 # <a name="bam-end-to-end-biztalk-server-sample"></a><span data-ttu-id="be2c8-103">Extremo a extremo de BAM (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="be2c8-103">BAM End-to-End (BizTalk Server Sample)</span></span>
 <span data-ttu-id="be2c8-104">En el ejemplo de extremo a extremo se muestra cómo correlacionar eventos desde varios componentes (en este caso, tres orquestaciones y una canalización) mediante BAM.</span><span class="sxs-lookup"><span data-stu-id="be2c8-104">The End-to-End sample demonstrates how to correlate events from multiple components (in this case, three orchestrations and a pipeline) by using BAM.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 12/01/2017
 
 <span data-ttu-id="be2c8-117">El ejemplo funciona como se describe a continuación:</span><span class="sxs-lookup"><span data-stu-id="be2c8-117">The sample works as follows:</span></span>  
   
-1.  <span data-ttu-id="be2c8-118">Un mensaje de entrada se recupera de la  *\<ruta de ejemplos\>*carpeta \BamEndToEnd\Input.</span><span class="sxs-lookup"><span data-stu-id="be2c8-118">An input message is retrieved from the *\<Samples Path\>*\BamEndToEnd\Input folder.</span></span>  
+1.  <span data-ttu-id="be2c8-118">Un mensaje de entrada se recupera de la  *\<ruta de ejemplos\>* carpeta \BamEndToEnd\Input.</span><span class="sxs-lookup"><span data-stu-id="be2c8-118">An input message is retrieved from the *\<Samples Path\>* \BamEndToEnd\Input folder.</span></span>  
   
 2.  <span data-ttu-id="be2c8-119">El componente de canalización asigna un identificador de documento único al mensaje y usa la API de BAM para comenzar una nueva actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="be2c8-119">The pipeline component assigns a unique DocumentID to the message, and uses the BAM API to begin a new BAM activity.</span></span> <span data-ttu-id="be2c8-120">El DocumentID se adjunta como una parte separada del mensaje de entrada para que esté disponible para las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="be2c8-120">The DocumentID is attached as a separate part of the input message to make it available to the orchestrations.</span></span>  
   
@@ -54,12 +55,12 @@ ms.lasthandoff: 12/01/2017
   
 5.  <span data-ttu-id="be2c8-123">La Orchestration2 modifica el mensaje de entrada y lo envía a la base de datos de cuadro de mensajes, la cual activa la Orchestration3.</span><span class="sxs-lookup"><span data-stu-id="be2c8-123">Orchestration2 modifies the input message and sends it to the MessageBox database, which activates Orchestration3.</span></span>  
   
-6.  <span data-ttu-id="be2c8-124">La Orchestration3 modifica el mensaje y lo escribe en la carpeta  *\<ruta de ejemplos\>*\BamEndToEnd\Output.</span><span class="sxs-lookup"><span data-stu-id="be2c8-124">Orchestration3 modifies the message and writes it to the folder *\<Samples Path\>*\BamEndToEnd\Output.</span></span>  
+6.  <span data-ttu-id="be2c8-124">La Orchestration3 modifica el mensaje y lo escribe en la carpeta  *\<ruta de ejemplos\>* \BamEndToEnd\Output.</span><span class="sxs-lookup"><span data-stu-id="be2c8-124">Orchestration3 modifies the message and writes it to the folder *\<Samples Path\>* \BamEndToEnd\Output.</span></span>  
   
 7.  <span data-ttu-id="be2c8-125">Cada orquestación actualiza los elementos de actividad de la actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="be2c8-125">Each orchestration updates activity items in the BAM activity.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="be2c8-126">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="be2c8-126">Where to Find This Sample</span></span>  
- <span data-ttu-id="be2c8-127">Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-127">You can find this sample at *\<Samples Path\>*\BAM\BamEndToEnd.</span></span>  
+ <span data-ttu-id="be2c8-127">Puede encontrar este ejemplo en  *\<ruta de ejemplos\>* \BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-127">You can find this sample at *\<Samples Path\>* \BAM\BamEndToEnd.</span></span>  
   
  <span data-ttu-id="be2c8-128">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="be2c8-128">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -101,11 +102,11 @@ ms.lasthandoff: 12/01/2017
   
 ##  <a name="To_Build_Sample"></a><span data-ttu-id="be2c8-186">Crear e inicializar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="be2c8-186">Build and initialize this sample</span></span>  
   
-1.  <span data-ttu-id="be2c8-187">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BAMEndToEnd\Setup.bat.</span><span class="sxs-lookup"><span data-stu-id="be2c8-187">Open a command prompt as Administrator, and run *\<Samples Path\>*\BAM\BAMEndToEnd\Setup.bat.</span></span> <span data-ttu-id="be2c8-188">Setup.bat genera e inicializa la infraestructura de BAM para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-188">Setup.bat builds and initializes the BAM infrastructure for this sample.</span></span> <span data-ttu-id="be2c8-189">Mantenga abierto el símbolo del sistema.</span><span class="sxs-lookup"><span data-stu-id="be2c8-189">Keep the command prompt open.</span></span>  
+1.  <span data-ttu-id="be2c8-187">Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BAMEndToEnd\Setup.bat.</span><span class="sxs-lookup"><span data-stu-id="be2c8-187">Open a command prompt as Administrator, and run *\<Samples Path\>* \BAM\BAMEndToEnd\Setup.bat.</span></span> <span data-ttu-id="be2c8-188">Setup.bat genera e inicializa la infraestructura de BAM para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-188">Setup.bat builds and initializes the BAM infrastructure for this sample.</span></span> <span data-ttu-id="be2c8-189">Mantenga abierto el símbolo del sistema.</span><span class="sxs-lookup"><span data-stu-id="be2c8-189">Keep the command prompt open.</span></span>  
   
 2.  <span data-ttu-id="be2c8-190">Cree un perfil de seguimiento para asignar Orchestration1, Orchestration2 y Orchestration3 a la actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="be2c8-190">Create a tracking profile to map Orchestration1, Orchestration2, and Orchestration3 to the BAM activity.</span></span> <span data-ttu-id="be2c8-191">(Dado que crear el perfil de seguimiento es un proceso complejo, las instrucciones detalladas se encuentran en un procedimiento independiente denominado **para crear un perfil de seguimiento**.</span><span class="sxs-lookup"><span data-stu-id="be2c8-191">(Because creating the tracking profile is a complex process, the detailed instructions are in a separate procedure called **To create a tracking profile**.</span></span> <span data-ttu-id="be2c8-192">Este procedimiento aparece más adelante en este documento).</span><span class="sxs-lookup"><span data-stu-id="be2c8-192">This procedure appears later in this document.)</span></span>  
   
-3.  <span data-ttu-id="be2c8-193">Implemente el perfil de seguimiento BamEndToEnd.btt que creó en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="be2c8-193">Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.</span></span>  <span data-ttu-id="be2c8-194">En el símbolo del sistema, cambie a la  *\<ruta de ejemplos\>*directorio \BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-194">In the command prompt change to the *\<Samples Path\>*\BAM\BamEndToEnd directory.</span></span> <span data-ttu-id="be2c8-195">Para implementar el perfil de seguimiento, escriba la línea siguiente y, a continuación, presione **ENTRAR**:</span><span class="sxs-lookup"><span data-stu-id="be2c8-195">To deploy the tracking profile, type the following line, and then press **Enter**:</span></span>  
+3.  <span data-ttu-id="be2c8-193">Implemente el perfil de seguimiento BamEndToEnd.btt que creó en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="be2c8-193">Deploy the tracking profile BamEndToEnd.btt that you created in the previous step.</span></span>  <span data-ttu-id="be2c8-194">En el símbolo del sistema, cambie a la  *\<ruta de ejemplos\>* directorio \BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-194">In the command prompt change to the *\<Samples Path\>* \BAM\BamEndToEnd directory.</span></span> <span data-ttu-id="be2c8-195">Para implementar el perfil de seguimiento, escriba la línea siguiente y, a continuación, presione **ENTRAR**:</span><span class="sxs-lookup"><span data-stu-id="be2c8-195">To deploy the tracking profile, type the following line, and then press **Enter**:</span></span>  
   
     `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
@@ -116,7 +117,7 @@ ms.lasthandoff: 12/01/2017
   
 ##  <a name="To_Run_Sample"></a><span data-ttu-id="be2c8-199">Ejecutar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="be2c8-199">Run this sample</span></span>  
   
-<span data-ttu-id="be2c8-200">Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carpeta  *\<ruta de ejemplos\>*\BamEndToEnd\Input.</span><span class="sxs-lookup"><span data-stu-id="be2c8-200">Copy the file *\<Samples Path\>*\BamEndToEnd\InputMessage.xml into the folder *\<Samples Path\>*\BamEndToEnd\Input.</span></span> <span data-ttu-id="be2c8-201">Después de unos segundos, el mensaje desaparece de la carpeta de entrada y aparece un mensaje de salida en el  *\<ruta de ejemplos\>*carpeta \BamEndToEnd\Output.</span><span class="sxs-lookup"><span data-stu-id="be2c8-201">After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path\>*\BamEndToEnd\Output folder.</span></span>  
+<span data-ttu-id="be2c8-200">Copie el archivo  *\<ruta de ejemplos\>* \BamEndToEnd\InputMessage.xml en la carpeta  *\<ruta de ejemplos\>* \BamEndToEnd\Input.</span><span class="sxs-lookup"><span data-stu-id="be2c8-200">Copy the file *\<Samples Path\>* \BamEndToEnd\InputMessage.xml into the folder *\<Samples Path\>* \BamEndToEnd\Input.</span></span> <span data-ttu-id="be2c8-201">Después de unos segundos, el mensaje desaparece de la carpeta de entrada y aparece un mensaje de salida en el  *\<ruta de ejemplos\>* carpeta \BamEndToEnd\Output.</span><span class="sxs-lookup"><span data-stu-id="be2c8-201">After a few seconds, the message disappears from the Input folder, and an output message appears in the *\<Samples Path\>* \BamEndToEnd\Output folder.</span></span>  
   
 ##  <a name="To_View_Data"></a><span data-ttu-id="be2c8-202">Ver los datos de BAM</span><span class="sxs-lookup"><span data-stu-id="be2c8-202">View the BAM data</span></span>  
   
@@ -130,14 +131,14 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="rerun-this-sample"></a><span data-ttu-id="be2c8-209">Vuelva a ejecutar este ejemplo</span><span class="sxs-lookup"><span data-stu-id="be2c8-209">Rerun this sample</span></span>  
   
-1.  <span data-ttu-id="be2c8-210">Abra un símbolo del sistema como administrador y cambie a la  *\<ruta de ejemplos\>*directorio \BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-210">Open a command prompt as Administrator, and change to the *\<Samples Path\>*\BAM\BamEndToEnd directory.</span></span> <span data-ttu-id="be2c8-211">Escriba la línea siguiente:</span><span class="sxs-lookup"><span data-stu-id="be2c8-211">Type the following line:</span></span>  
+1.  <span data-ttu-id="be2c8-210">Abra un símbolo del sistema como administrador y cambie a la  *\<ruta de ejemplos\>* directorio \BAM\BamEndToEnd.</span><span class="sxs-lookup"><span data-stu-id="be2c8-210">Open a command prompt as Administrator, and change to the *\<Samples Path\>* \BAM\BamEndToEnd directory.</span></span> <span data-ttu-id="be2c8-211">Escriba la línea siguiente:</span><span class="sxs-lookup"><span data-stu-id="be2c8-211">Type the following line:</span></span>  
   
     `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
     >  <span data-ttu-id="be2c8-212">Si no ha instalado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la unidad C, reemplace "C" por la letra de unidad donde se instaló [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="be2c8-212">If you did not install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the C drive, replace "C" with the drive letter where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
-2.  <span data-ttu-id="be2c8-213">Ejecutar  *\<ejemplos de ruta de acceso\>*\BAM\BAMEndToEnd\Cleanup.bat.</span><span class="sxs-lookup"><span data-stu-id="be2c8-213">Run *\<Samples Path\>*\BAM\BAMEndToEnd\Cleanup.bat.</span></span> <span data-ttu-id="be2c8-214">Cleanup.bat quita la infraestructura de BAM para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-214">Cleanup.bat removes the BAM infrastructure for this sample.</span></span>  
+2.  <span data-ttu-id="be2c8-213">Ejecutar  *\<ejemplos de ruta de acceso\>* \BAM\BAMEndToEnd\Cleanup.bat.</span><span class="sxs-lookup"><span data-stu-id="be2c8-213">Run *\<Samples Path\>* \BAM\BAMEndToEnd\Cleanup.bat.</span></span> <span data-ttu-id="be2c8-214">Cleanup.bat quita la infraestructura de BAM para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-214">Cleanup.bat removes the BAM infrastructure for this sample.</span></span>  
   
 3.  <span data-ttu-id="be2c8-215">Realice los pasos en **para crear e inicializar este ejemplo** sección en este tema.</span><span class="sxs-lookup"><span data-stu-id="be2c8-215">Perform the steps in **To build and initialize this sample** section in this topic.</span></span>  
   
@@ -163,7 +164,7 @@ ms.lasthandoff: 12/01/2017
   
 10. <span data-ttu-id="be2c8-231">Desplácese hasta el final de la **nombre de la propiedad de contexto** lista y, a continuación, haga doble clic en **BAMEndToEnd.Services.PropertySchema.DocumentID**.</span><span class="sxs-lookup"><span data-stu-id="be2c8-231">Scroll to the end of the **Context Property Name** list, and then double-click **BAMEndToEnd.Services.PropertySchema.DocumentID**.</span></span>  
   
-11. <span data-ttu-id="be2c8-232">Expanda  **\<esquema\>**y, a continuación, arrastre **DocumentID** en el panel derecho a **Orch1_** en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-232">Expand **\<Schema\>**, and then drag **DocumentID** in the right pane to **Orch1_** in the left pane.</span></span>  
+11. <span data-ttu-id="be2c8-232">Expanda  **\<esquema\>** y, a continuación, arrastre **DocumentID** en el panel derecho a **Orch1_** en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-232">Expand **\<Schema\>**, and then drag **DocumentID** in the right pane to **Orch1_** in the left pane.</span></span>  
   
 12. <span data-ttu-id="be2c8-233">Haga clic en el icono de carpeta con la flecha (![botón con carpeta y flecha arriba](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) dos veces para mostrar la orquestación.</span><span class="sxs-lookup"><span data-stu-id="be2c8-233">Click the folder icon with the arrow (![button with folder and up arrow](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) twice to display the orchestration.</span></span>  
   
@@ -183,7 +184,7 @@ ms.lasthandoff: 12/01/2017
   
 19. <span data-ttu-id="be2c8-241">Desplácese hasta el final de la **nombre de la propiedad de contexto** lista y, a continuación, haga doble clic en **BAMEndToEnd.Services.PropertySchema.DocumentID**.</span><span class="sxs-lookup"><span data-stu-id="be2c8-241">Scroll to the end of the **Context Property Name** list, and then double-click **BAMEndToEnd.Services.PropertySchema.DocumentID**.</span></span>  
   
-20. <span data-ttu-id="be2c8-242">Expanda  **\<esquema\>**y, a continuación, arrastre **DocumentID** a la **Orch2_** continuación en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-242">Expand **\<Schema\>**, and then drag **DocumentID** to the **Orch2_** continuation in the left pane.</span></span>  
+20. <span data-ttu-id="be2c8-242">Expanda  **\<esquema\>** y, a continuación, arrastre **DocumentID** a la **Orch2_** continuación en el panel izquierdo.</span><span class="sxs-lookup"><span data-stu-id="be2c8-242">Expand **\<Schema\>**, and then drag **DocumentID** to the **Orch2_** continuation in the left pane.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="be2c8-243">No confunda la continuación Orch2_ con el identificador de continuación Orch2_.</span><span class="sxs-lookup"><span data-stu-id="be2c8-243">Do not confuse the Orch2_ continuation with the Orch2_ continuation ID.</span></span> <span data-ttu-id="be2c8-244">El icono que representa un identificador de continuación contiene una clave (![icono para un identificador de continuación](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea")), mientras que el icono que representa una continuación no contiene una clave ( ![icono para una continuación](../core/media/test.gif "probar")).</span><span class="sxs-lookup"><span data-stu-id="be2c8-244">The icon that represents a continuation ID contains a key (![icon for a continuation ID](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea")), whereas the icon that represents a continuation does not contain a key (![icon for a continuation](../core/media/test.gif "test")).</span></span>  
@@ -256,7 +257,7 @@ ms.lasthandoff: 12/01/2017
   
 48. <span data-ttu-id="be2c8-280">En el **seleccionar puertos** sección de la **seleccionar puertos** cuadro de diálogo, haga clic en **BamEndToEnd_ReceivePort**, haga clic en la mayor-de inicio de sesión ( **>** ) y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="be2c8-280">In the **Select Ports** section of the **Select Ports** dialog box, click **BamEndToEnd_ReceivePort**, click the greater-than sign (**>**), and then click **OK**.</span></span>  
   
-49. <span data-ttu-id="be2c8-281">Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>*\BAM\BamEndToEnd\BamEndToEnd.btt.</span><span class="sxs-lookup"><span data-stu-id="be2c8-281">Save the tracking profile to *\<Samples Path\>*\BAM\BamEndToEnd\BamEndToEnd.btt.</span></span>  
+49. <span data-ttu-id="be2c8-281">Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>* \BAM\BamEndToEnd\BamEndToEnd.btt.</span><span class="sxs-lookup"><span data-stu-id="be2c8-281">Save the tracking profile to *\<Samples Path\>* \BAM\BamEndToEnd\BamEndToEnd.btt.</span></span>  
   
 ## <a name="important-details"></a><span data-ttu-id="be2c8-282">Detalles importantes</span><span class="sxs-lookup"><span data-stu-id="be2c8-282">Important details</span></span>  
  <span data-ttu-id="be2c8-283">Los archivos de seguimiento no son compatibles con las canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="be2c8-283">Tracking profiles are not supported for pipelines.</span></span> <span data-ttu-id="be2c8-284">Sin embargo, la llamada a **BeginActivity** en la canalización de componente es lo mismo que usar ActivityID en una orquestación.</span><span class="sxs-lookup"><span data-stu-id="be2c8-284">However, the call to **BeginActivity** in the pipeline component is the same as using ActivityID in an orchestration.</span></span> <span data-ttu-id="be2c8-285">La llamada a **EnableContinuation** es lo mismo que usar una continuación en una orquestación.</span><span class="sxs-lookup"><span data-stu-id="be2c8-285">The call to **EnableContinuation** is the same as using a continuation in an orchestration.</span></span>  

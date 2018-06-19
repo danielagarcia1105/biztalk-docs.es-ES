@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar los metadatos del servicio de ubicación de recepción WCF enlazada con un puerto de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar los metadatos del servicio de ubicación de recepción WCF enlazada con un puerto de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF Service Publishing Wizard, publishing metadata
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, metadata
 - orchestrations, WCF services
 ms.assetid: 04ccce9f-8d18-433a-8299-d06fa155db06
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975050"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-bound-to-an-orchestration-port"></a><span data-ttu-id="601ce-102">Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar metadatos de servicio para un ubicación de recepción WCF enlazada con un puerto de orquestación</span><span class="sxs-lookup"><span data-stu-id="601ce-102">How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location Bound to an Orchestration Port</span></span>
 <span data-ttu-id="601ce-103">Utilice el Asistente para publicación de Servicio WCF de BizTalk para crear un Servicio WCF para publicar los metadatos del servicio para las ubicaciones de recepción WCF existentes enlazadas con puertos de orquestación.</span><span class="sxs-lookup"><span data-stu-id="601ce-103">You use the BizTalk WCF Service Publishing Wizard to create a WCF service to publish service metadata for existing WCF receive locations bound to orchestration ports.</span></span>  

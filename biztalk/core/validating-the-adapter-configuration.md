@@ -1,14 +1,14 @@
 ---
-title: "Validar la configuración del adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Validar la configuración del adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8eeb8742-7083-462b-8d3a-e58103112542
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973306"
 ---
 # <a name="validating-the-adapter-configuration"></a><span data-ttu-id="b2697-102">Validar la configuración del adaptador</span><span class="sxs-lookup"><span data-stu-id="b2697-102">Validating the Adapter Configuration</span></span>
 <span data-ttu-id="b2697-103">Al agregar la ubicación de recepción y el puerto de envío, le pedirá que configure las propiedades personalizadas en el  **\<**  *nombre de adaptador*  **\> propiedades de transporte**  cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="b2697-103">While adding the receive location and send port, you will be asked to configure your custom properties in the **\<***Adapter Name***\> Transport Properties** dialog box.</span></span> <span data-ttu-id="b2697-104">Los archivos de esquema XSD del proyecto AdapterHarness definen estas propiedades.</span><span class="sxs-lookup"><span data-stu-id="b2697-104">The XSD schema files in the AdapterHarness project define these properties.</span></span>  

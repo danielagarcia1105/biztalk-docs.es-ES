@@ -1,14 +1,14 @@
 ---
-title: "Optimizar el rendimiento de la orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Optimizar el rendimiento de la orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 437c7325-f037-451a-8dbd-f8d8c8889e20
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010397"
 ---
 # <a name="optimizing-orchestration-performance"></a><span data-ttu-id="39f81-102">Optimizar el rendimiento de la orquestación</span><span class="sxs-lookup"><span data-stu-id="39f81-102">Optimizing Orchestration Performance</span></span>
 <span data-ttu-id="39f81-103">Este tema describe las prácticas recomendadas para utilizar orquestaciones en soluciones de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="39f81-103">This topic describes best practices for using orchestrations in BizTalk Server solutions.</span></span> <span data-ttu-id="39f81-104">Esto incluye recomendaciones para:</span><span class="sxs-lookup"><span data-stu-id="39f81-104">This includes recommendations for:</span></span>  

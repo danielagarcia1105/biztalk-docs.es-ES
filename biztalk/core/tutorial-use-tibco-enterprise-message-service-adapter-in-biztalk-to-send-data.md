@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el adaptador de BizTalk para TIBCO Enterprise Message Service para enviar datos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1912d594-3839-4e04-bc40-93bd7cc0b309
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010685"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-enterprise-message-service-to-send-data"></a><span data-ttu-id="1c9dc-102">Tutorial: Usar el adaptador de BizTalk para TIBCO Enterprise Message Service para enviar datos</span><span class="sxs-lookup"><span data-stu-id="1c9dc-102">Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data</span></span>
 <span data-ttu-id="1c9dc-103">El adaptador de BizTalk para TIBCO Enterprise Message Service (EMS) se puede usar para enviar datos a un sistema TIBCO.</span><span class="sxs-lookup"><span data-stu-id="1c9dc-103">You can use the BizTalk Adapter for TIBCO Enterprise Message Service (EMS) to send data to a TIBCO system.</span></span> <span data-ttu-id="1c9dc-104">En este tutorial se describe un ejemplo de SDK que ilustra este proceso.</span><span class="sxs-lookup"><span data-stu-id="1c9dc-104">This walkthrough describes an SDK sample that illustrates this.</span></span>  

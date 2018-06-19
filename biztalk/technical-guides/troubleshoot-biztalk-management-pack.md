@@ -1,14 +1,14 @@
 ---
-title: "El módulo de administración de BizTalk Server de la solución de problemas | Documentos de Microsoft"
-ms.custom: 
+title: El módulo de administración de BizTalk Server de la solución de problemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676fd891-ee7f-49fc-a6d7-204dc6f2f382
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302484"
 ---
 # <a name="troubleshooting"></a><span data-ttu-id="bbb1a-102">Solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="bbb1a-102">Troubleshooting</span></span>
 <span data-ttu-id="bbb1a-103">Hay una serie de acciones que puede seguir para solucionar los problemas de módulos de administración de BizTalk Server:</span><span class="sxs-lookup"><span data-stu-id="bbb1a-103">There are a number of actions that you can take to troubleshoot BizTalk Server management pack issues:</span></span>  

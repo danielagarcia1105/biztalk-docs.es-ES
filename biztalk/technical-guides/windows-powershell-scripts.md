@@ -1,14 +1,14 @@
 ---
 title: Scripts de Windows PowerShell | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9848e3ed-8686-4bb8-b8f5-7e3111a83177
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976346"
 ---
 # <a name="windows-powershell-scripts"></a><span data-ttu-id="30aaa-102">Scripts de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="30aaa-102">Windows PowerShell Scripts</span></span>
 <span data-ttu-id="30aaa-103">Este tema contiene las secuencias de comandos de Windows PowerShell que se pueden ejecutar en los equipos en un entorno de BizTalk Server para aplicar la configuración del registro descrita en esta guía.</span><span class="sxs-lookup"><span data-stu-id="30aaa-103">This topic contains Windows PowerShell scripts that can be run on the computers in a BizTalk Server environment to apply registry settings described in this guide.</span></span>  

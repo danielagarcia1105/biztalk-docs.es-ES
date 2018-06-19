@@ -1,14 +1,14 @@
 ---
-title: "Paso 3: Crear una prueba de carga para llevar a cabo varias pruebas unitarias simultáneamente | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Crear una prueba de carga para llevar a cabo varias pruebas unitarias simultáneamente | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5dd7e31-7188-4edf-9513-ea2725950b47
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976554"
 ---
 # <a name="step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously"></a><span data-ttu-id="09f5a-102">Paso 3: Crear una prueba de carga para llevar a cabo al mismo tiempo varias pruebas unitarias</span><span class="sxs-lookup"><span data-stu-id="09f5a-102">Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously</span></span>
 <span data-ttu-id="09f5a-103">Pruebas de carga ejecutan varias instancias de uno o más pruebas unitarias para que se pueden medir el rendimiento y la capacidad para manejar la carga de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="09f5a-103">Load tests run multiple instances of one or more unit tests so that you can measure your application's performance and ability to handle load.</span></span> <span data-ttu-id="09f5a-104">Se incluyen los componentes principales de una prueba de carga de Visual Studio 2010:</span><span class="sxs-lookup"><span data-stu-id="09f5a-104">The primary components of a Visual Studio 2010 load test include:</span></span>  

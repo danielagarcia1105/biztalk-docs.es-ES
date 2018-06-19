@@ -1,18 +1,18 @@
 ---
 title: Hechos de objetos .NET | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - facts, .NET objects
 - Business Rule Composer, .NET object facts
 - .NET objects
 ms.assetid: 68323022-8359-44ce-a60c-191850785822
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262956"
 ---
 # <a name="net-object-facts"></a><span data-ttu-id="caf37-102">Hechos de objetos .NET</span><span class="sxs-lookup"><span data-stu-id="caf37-102">.NET Object Facts</span></span>
 <span data-ttu-id="caf37-103">En el Compositor de reglas de negocio, se puede especificar un ensamblado .NET como origen de datos.</span><span class="sxs-lookup"><span data-stu-id="caf37-103">In the Business Rule Composer, you can specify a .NET assembly as a data source.</span></span> <span data-ttu-id="caf37-104">A continuación, puede seleccionar una clase o miembro de clase del ensamblado y arrastrarla hasta una definición de vocabulario o regla.</span><span class="sxs-lookup"><span data-stu-id="caf37-104">You can subsequently select a class or class member from the assembly, and drag it onto a vocabulary definition or rule.</span></span>  

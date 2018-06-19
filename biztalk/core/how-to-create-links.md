@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear vínculos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear vínculos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 670b831f-be03-4612-93d5-a894f7bb3c11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250196"
 ---
 # <a name="how-to-create-links"></a><span data-ttu-id="b377d-102">Cómo crear vínculos</span><span class="sxs-lookup"><span data-stu-id="b377d-102">How to Create Links</span></span>
 <span data-ttu-id="b377d-103">Crear un vínculo desde un **registro** o **campo** nodo en un esquema de origen a un **registro** o **campo** nodo en un esquema de destino es la más básica actividad en la creación de mapas.</span><span class="sxs-lookup"><span data-stu-id="b377d-103">Creating a link from a **Record** or **Field** node in a source schema to a **Record** or **Field** node in a destination schema is the most basic activity in creating maps.</span></span> <span data-ttu-id="b377d-104">En este tema se proporcionan instrucciones detalladas para diversas variantes de esta actividad, incluida la creación de vínculos desde y hacia functoids.</span><span class="sxs-lookup"><span data-stu-id="b377d-104">This topic provides step-by-step instructions for several variations of this activity, including creating links to and from functoids.</span></span> <span data-ttu-id="b377d-105">Para obtener información adicional acerca de cómo trabajar con functoids, consulte [utilizar Functoids para crear asignaciones más complejas](../core/using-functoids-to-create-more-complex-mappings.md).</span><span class="sxs-lookup"><span data-stu-id="b377d-105">For additional information about working with functoids, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Instalar el ejemplo de extensibilidad del diseñador | Documentos de Microsoft"
-ms.custom: 
+title: Instalar el ejemplo de extensibilidad del diseñador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eba13a4a-1b87-4268-af91-29af3a5bc5ef
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007981"
 ---
 # <a name="installing-the-designer-extensibility-sample"></a><span data-ttu-id="a870a-102">Instalar el ejemplo de extensibilidad del diseñador</span><span class="sxs-lookup"><span data-stu-id="a870a-102">Installing the Designer Extensibility Sample</span></span>
 <span data-ttu-id="a870a-103">Esta sección describe el proceso de instalación del ejemplo de extensibilidad del diseñador.</span><span class="sxs-lookup"><span data-stu-id="a870a-103">This section describes the process for installing the Designer Extensibility sample.</span></span> <span data-ttu-id="a870a-104">Debe instalar los ejemplos en [instalar y ejecutar el ejemplo de itinerario en rampa](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md) y [instalar y ejecutar el ejemplo de resolución dinámica](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md) antes de instalar y utilizar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="a870a-104">You must install the samples in [Installing and Running the Itinerary On-Ramp Sample](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md) and [Installing and Running the Dynamic Resolution Sample](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md) before you install and use this sample.</span></span>  

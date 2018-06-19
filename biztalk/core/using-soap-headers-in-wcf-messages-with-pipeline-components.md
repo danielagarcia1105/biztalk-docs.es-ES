@@ -1,11 +1,11 @@
 ---
-title: "Usar encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Usar encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, SOAP headers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SOAP headers, WCF services
 - WCF services, SOAP headers
 ms.assetid: b02f2913-4948-4de9-bc59-73bab40aa1a0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973842"
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-pipeline-components"></a><span data-ttu-id="14cf3-102">Usar encabezados SOAP en mensajes WCF con componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="14cf3-102">Using SOAP Headers in WCF Messages with Pipeline Components</span></span>
 <span data-ttu-id="14cf3-103">Se pueden establecer los encabezados SOAP personalizados con los adaptadores de WCF en componentes de canalización.</span><span class="sxs-lookup"><span data-stu-id="14cf3-103">You can set the custom SOAP headers with the WCF adapters in pipeline components.</span></span> <span data-ttu-id="14cf3-104">Usar una combinación del nombre de la propiedad de contexto, **OutboundCustomHeaders**y el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**.</span><span class="sxs-lookup"><span data-stu-id="14cf3-104">You use a combination of the context property name, **OutboundCustomHeaders**, and the target namespace **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**.</span></span> <span data-ttu-id="14cf3-105">Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados** \> elemento como el elemento raíz.</span><span class="sxs-lookup"><span data-stu-id="14cf3-105">When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element.</span></span> <span data-ttu-id="14cf3-106">Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados** \> elemento.</span><span class="sxs-lookup"><span data-stu-id="14cf3-106">All of the custom SOAP headers must be placed inside the \<**headers**\> element.</span></span> <span data-ttu-id="14cf3-107">Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**\>\</**encabezados** \> o \< **encabezados** / \> a la **OutboundCustomHeaders** propiedad.</span><span class="sxs-lookup"><span data-stu-id="14cf3-107">If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property.</span></span> <span data-ttu-id="14cf3-108">Para obtener más información acerca de cómo usar encabezados SOAP con los adaptadores WCF, vea el ejemplo de SDK Using Custom SOAP Headers with the WCF Adapters de [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).</span><span class="sxs-lookup"><span data-stu-id="14cf3-108">For more information about how to use SOAP headers with the WCF adapters, see the SDK sample, Using Custom SOAP Headers with the WCF Adapters, from [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).</span></span>  

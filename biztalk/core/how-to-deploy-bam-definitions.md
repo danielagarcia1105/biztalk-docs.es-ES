@@ -1,11 +1,11 @@
 ---
-title: "Cómo implementar definiciones de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar definiciones de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, definitions [BAM]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - definitions [BAM], deploying
 - Deploy-All command [BAM]
 ms.assetid: 02b8888c-6f6c-45dd-8445-6e507a02f5f0
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970747"
 ---
 # <a name="how-to-deploy-bam-definitions"></a><span data-ttu-id="4aaad-102">Cómo implementar definiciones de BAM</span><span class="sxs-lookup"><span data-stu-id="4aaad-102">How to Deploy BAM Definitions</span></span>
 <span data-ttu-id="4aaad-103">Los administradores utilizan el **all implementar** comando de la utilidad de administración de BAM para implementar una definición de BAM desde el libro de Excel o el archivo de definiciones XML exportados desde el libro.</span><span class="sxs-lookup"><span data-stu-id="4aaad-103">Administrators use the **deploy-all** BAM Management utility command to deploy a BAM definition from the Excel workbook or the XML definitions file exported from the workbook.</span></span> <span data-ttu-id="4aaad-104">Cuando realice una instalación completa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], el Asistente para configuración configura automáticamente el XML de configuración de BAM.</span><span class="sxs-lookup"><span data-stu-id="4aaad-104">When you perform a complete installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the Configuration Wizard automatically configures the BAM Configuration XML.</span></span>  

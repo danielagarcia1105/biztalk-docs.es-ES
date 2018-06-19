@@ -1,14 +1,14 @@
 ---
-title: "Invocar miembros estáticos de una clase | Documentos de Microsoft"
-ms.custom: 
+title: Invocar miembros estáticos de una clase | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a51171c-8de0-45dd-8659-f674cf27acbe
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262276"
 ---
 # <a name="invoking-static-members-of-a-class"></a><span data-ttu-id="fef16-102">Invocar miembros estáticos de una clase</span><span class="sxs-lookup"><span data-stu-id="fef16-102">Invoking Static Members of a Class</span></span>
 <span data-ttu-id="fef16-103">De forma predeterminada, el motor de reglas necesita que imponga una instancia de una clase .NET para ejecutar una directiva que invoque un miembro estático de la clase .NET.</span><span class="sxs-lookup"><span data-stu-id="fef16-103">By default, the rule engine requires you to assert an instance of a .NET class to execute a policy that invokes a static member of the .NET class.</span></span> <span data-ttu-id="fef16-104">Puede modificar este comportamiento si cambia el valor de la **StaticSupport** clave del registro bajo **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** a uno de los valores en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="fef16-104">You can modify this behavior by changing the value of the **StaticSupport** registry key under **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** to one of the values in the following table.</span></span>  

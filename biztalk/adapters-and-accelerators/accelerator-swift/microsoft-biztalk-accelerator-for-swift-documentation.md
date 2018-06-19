@@ -1,15 +1,15 @@
 ---
-title: "Acelerador de Microsoft BizTalk para SWIFT documentación | Documentos de Microsoft"
-description: "Vínculos rápidos a instalar, configurar, implementar, introducción, proteger, desarrollar y solución de problemas del Acelerador de SWIFT de BizTalk Server"
-ms.custom: 
+title: Acelerador de Microsoft BizTalk para SWIFT documentación | Documentos de Microsoft
+description: Vínculos rápidos a instalar, configurar, implementar, introducción, proteger, desarrollar y solución de problemas del Acelerador de SWIFT de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a742cd84-a159-461b-a410-6e75a45e7d8b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006485"
 ---
 # <a name="microsoft-biztalk-accelerator-for-swift-documentation"></a><span data-ttu-id="55c9c-103">Acelerador de Microsoft BizTalk para SWIFT documentación</span><span class="sxs-lookup"><span data-stu-id="55c9c-103">Microsoft BizTalk Accelerator for SWIFT documentation</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="55c9c-104">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] es un complemento para [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server y aprovecha las herramientas de basada en estándares abiertos y funciones de tiempo de ejecución de BizTalk Server para implementar la compatibilidad para la sociedad para formatos de mensaje de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo .</span><span class="sxs-lookup"><span data-stu-id="55c9c-104"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is an add-in to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server, and leverages the open standards-based tools and run-time facilities of BizTalk Server to implement support for Society for Worldwide Interbank Financial Telecommunication (SWIFT) message formats.</span></span>  

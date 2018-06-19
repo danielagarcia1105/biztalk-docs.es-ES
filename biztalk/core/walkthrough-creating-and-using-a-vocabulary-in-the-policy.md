@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Crear y utilizar un vocabulario en la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c306a6e-3384-4f43-9c75-c5407cd9aed2
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975922"
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a><span data-ttu-id="c880d-102">Tutorial: Crear y utilizar un vocabulario en la directiva</span><span class="sxs-lookup"><span data-stu-id="c880d-102">Walkthrough: Creating and Using a Vocabulary in the Policy</span></span>
 <span data-ttu-id="c880d-103">Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y usarlo en el **ProcessPurchaseOrder** directiva.</span><span class="sxs-lookup"><span data-stu-id="c880d-103">This walkthrough provides step-by-step procedures for creating a vocabulary and using the vocabulary in the **ProcessPurchaseOrder** policy.</span></span>  
@@ -66,7 +67,7 @@ ms.lasthandoff: 11/28/2017
   
 12. <span data-ttu-id="c880d-136">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-136">Click **Finish**.</span></span>  
   
-13. <span data-ttu-id="c880d-137">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="c880d-137">Right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
+13. <span data-ttu-id="c880d-137">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="c880d-137">Right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
   
 14. <span data-ttu-id="c880d-138">Seleccione **atributo o elemento de documento XML**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="c880d-138">Select **XML Document Element or Attribute**, and then click **Next**.</span></span>  
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
   
 20. <span data-ttu-id="c880d-145">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-145">Click **Finish**.</span></span>  
   
-21. <span data-ttu-id="c880d-146">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="c880d-146">Right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
+21. <span data-ttu-id="c880d-146">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="c880d-146">Right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
   
 22. <span data-ttu-id="c880d-147">Asegúrese de que **valor constante, rango de valores o conjunto de valores** está seleccionada y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="c880d-147">Make sure that **Constant Value, Range of Values, or Set of Values** is selected, and then click **Next**.</span></span>  
   
@@ -92,9 +93,9 @@ ms.lasthandoff: 11/28/2017
   
 25. <span data-ttu-id="c880d-150">Tipo de **500** para el valor y, a continuación, haga clic en **finalizar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-150">Type **500** for the value, and then click **Finish**.</span></span>  
   
-26. <span data-ttu-id="c880d-151">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-151">Right-click **Version 1.0(not saved)**, and then click **Save**.</span></span>  
+26. <span data-ttu-id="c880d-151">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-151">Right-click **Version 1.0(not saved)**, and then click **Save**.</span></span>  
   
-27. <span data-ttu-id="c880d-152">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-152">Right-click **Version 1.0(not saved)**, and then click **Publish**.</span></span>  
+27. <span data-ttu-id="c880d-152">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c880d-152">Right-click **Version 1.0(not saved)**, and then click **Publish**.</span></span>  
   
 ### <a name="to-use-the-povocabulary-in-the-processpurchaseorder-policy"></a><span data-ttu-id="c880d-153">Para usar el POVocabulary en la directiva ProcessPurchaseOrder</span><span class="sxs-lookup"><span data-stu-id="c880d-153">To use the POVocabulary in the ProcessPurchaseOrder policy</span></span>  
   

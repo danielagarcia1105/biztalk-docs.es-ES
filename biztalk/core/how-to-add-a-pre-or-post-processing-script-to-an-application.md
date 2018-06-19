@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar una secuencia de comandos previa y posteriores al procesamiento a una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar una secuencia de comandos previa y posteriores al procesamiento a una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], adding scripts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - scripts, adding to applications
 - scripts
 ms.assetid: 729cb236-b9cf-468a-8b98-a24d86e60d3c
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248452"
 ---
 # <a name="how-to-add-a-pre--or-post-processing-script-to-an-application"></a><span data-ttu-id="eaebd-102">Cómo agregar secuencias de comandos previas y posteriores al procesamiento a una aplicación</span><span class="sxs-lookup"><span data-stu-id="eaebd-102">How to Add a Pre- or Post-processing Script to an Application</span></span>
 <span data-ttu-id="eaebd-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para agregar una secuencia de comandos previa o posterior al procesamiento a una aplicación.</span><span class="sxs-lookup"><span data-stu-id="eaebd-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a pre- or post-processing script to an application.</span></span> <span data-ttu-id="eaebd-104">Al agregar una secuencia de comandos a una aplicación, la secuencia de comandos se incluye en el archivo .msi de la aplicación y se ejecuta cuando se importa, se instala o se desinstala la aplicación.</span><span class="sxs-lookup"><span data-stu-id="eaebd-104">When you add a script to an application, the script is included in the application .msi file, and runs when the application is imported, installed, or uninstalled.</span></span>  

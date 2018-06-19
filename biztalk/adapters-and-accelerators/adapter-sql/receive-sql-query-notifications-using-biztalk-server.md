@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de consulta de SQL mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69444df7-f2ae-4d1a-9b49-817b437517d8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223820"
 ---
 # <a name="receive-sql-query-notifications-using-biztalk-server"></a><span data-ttu-id="c21c0-102">Recibir notificaciones de consulta SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="c21c0-102">Receive SQL Query Notifications using BizTalk Server</span></span>
 <span data-ttu-id="c21c0-103">Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de notificación para SQL Server tablas o vistas.</span><span class="sxs-lookup"><span data-stu-id="c21c0-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notification messages for SQL Server tables or views.</span></span> <span data-ttu-id="c21c0-104">Puede especificar una instrucción SQL que el adaptador utiliza para registrar las notificaciones de con SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c21c0-104">You can specify a SQL statement that the adapter uses to register for notifications with SQL Server.</span></span> <span data-ttu-id="c21c0-105">La instrucción de notificación puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="c21c0-105">The notification statement can be a SELECT statement or a stored procedure that returns a result set.</span></span> <span data-ttu-id="c21c0-106">Para obtener más información acerca de las notificaciones de consulta, vea "Using Query Notifications" en [http://go.microsoft.com/fwlink/?LinkId=122159](http://go.microsoft.com/fwlink/?LinkId=122159).</span><span class="sxs-lookup"><span data-stu-id="c21c0-106">For more information about query notifications, see “Using Query Notifications” at  [http://go.microsoft.com/fwlink/?LinkId=122159](http://go.microsoft.com/fwlink/?LinkId=122159).</span></span> <span data-ttu-id="c21c0-107">Para obtener información acerca de las consultas que se puede usar para las notificaciones de consulta, vea "Creating a Query for Notification" en [http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160).</span><span class="sxs-lookup"><span data-stu-id="c21c0-107">For information about queries that can be used for query notifications, see “Creating a Query for Notification” at [http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160).</span></span>  

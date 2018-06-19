@@ -15,7 +15,7 @@ helpviewer_keywords:
 - performance, planning
 - sustainable performance
 ms.assetid: 4b18b976-7714-431f-8976-f40a1016d5f3
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22290972"
 ---
 # <a name="what-is-sustainable-performance"></a><span data-ttu-id="46079-103">¿Qué es rendimiento sostenible?</span><span class="sxs-lookup"><span data-stu-id="46079-103">What Is Sustainable Performance?</span></span>
 <span data-ttu-id="46079-104">Cuando se planea la sostenibilidad estimada de un sistema, es fundamental pensar en términos de sostenibilidad a largo plazo.</span><span class="sxs-lookup"><span data-stu-id="46079-104">When planning for and estimating system sustainability, it is critical to think in terms of sustainability over the long term.</span></span> <span data-ttu-id="46079-105">Las principales consideraciones son:</span><span class="sxs-lookup"><span data-stu-id="46079-105">The primary considerations are:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Planeación de operaciones en un entorno seguro | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Planeación de operaciones en un entorno seguro | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d6464df-6736-46e2-a0c7-cc2a256c5144
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976834"
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a><span data-ttu-id="b9499-102">Lista de comprobación: Planeación de operaciones en un entorno seguro</span><span class="sxs-lookup"><span data-stu-id="b9499-102">Checklist: Planning for Operations in a Secure Environment</span></span>
 <span data-ttu-id="b9499-103">Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno seguro, requiere pasos adicionales para la implementación y configuración.</span><span class="sxs-lookup"><span data-stu-id="b9499-103">Running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a secure environment requires additional steps for deployment and configuration.</span></span> <span data-ttu-id="b9499-104">Mientras que las instalaciones predeterminadas de sistema operativo necesitan no tenerla en cuenta, pero en escenarios donde se aplicaron las directivas de seguridad restrictiva, debe tomar en cuenta la información de esta sección.</span><span class="sxs-lookup"><span data-stu-id="b9499-104">While default operating system installations need not take these into account, but scenarios where restrictive security policies have been applied, you should take into account information in this section.</span></span> <span data-ttu-id="b9499-105">Puede variar en el nivel de restricción aplicada en servidores, pero la información a continuación debe cubrir la mayoría de los casos y sería un buen punto de partida.</span><span class="sxs-lookup"><span data-stu-id="b9499-105">The level of restriction applied onto servers may vary but information below should cover most cases and would be a a good starting point.</span></span>  

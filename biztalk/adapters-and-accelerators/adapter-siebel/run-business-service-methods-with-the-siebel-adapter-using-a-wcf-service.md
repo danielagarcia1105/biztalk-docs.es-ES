@@ -1,17 +1,17 @@
 ---
-title: "Invocar métodos de servicio empresarial con el adaptador de Siebel mediante el modelo de servicio de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Invocar métodos de servicio empresarial con el adaptador de Siebel mediante el modelo de servicio de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, invoking business service methods
 - business service methods, invoking by using the WCF service model
 ms.assetid: b41cf944-efdc-453f-824b-70581e7143e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222180"
 ---
 # <a name="invoke-business-service-methods-with-the-siebel-adapter-using-the-wcf-service-model"></a><span data-ttu-id="fbbb1-102">Invocar métodos de servicio empresarial con el adaptador de Siebel mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="fbbb1-102">Invoke Business Service Methods with the Siebel adapter using the WCF Service Model</span></span>
 <span data-ttu-id="fbbb1-103">Puede crear a un cliente WCF que métodos de destinos de servicios empresariales de Siebel.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-103">You can create a WCF client that targets methods of Siebel business services.</span></span> <span data-ttu-id="fbbb1-104">A continuación, puede usar al cliente de WCF para invocar estos métodos en el sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-104">You can then use the WCF client to invoke these methods on the Siebel system.</span></span> <span data-ttu-id="fbbb1-105">Servicios empresariales de Siebel aparecen bajo el nodo de servicios para la empresa en el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="fbbb1-105">Siebel business services are surfaced under the Business Services node in the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="fbbb1-106">Los métodos expuestos por cada servicio de negocio aparecen bajo el nodo correspondiente a ese servicio.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-106">The methods exposed by each business service are surfaced under the node corresponding to that service.</span></span> <span data-ttu-id="fbbb1-107">Puede seguir los pasos descritos en [información general sobre el modelo de servicio de WCF con el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md) para generar un cliente WCF para un servicio empresarial y usarlo para invocar métodos del servicio.</span><span class="sxs-lookup"><span data-stu-id="fbbb1-107">You can follow the steps in [Overview of the WCF Service Model with the Siebel Adapter](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md) to generate a WCF client for a business service and to use it to invoke the service's methods.</span></span>  

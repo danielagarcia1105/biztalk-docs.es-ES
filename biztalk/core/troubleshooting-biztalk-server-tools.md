@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de herramientas de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de herramientas de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 038a5f5c-d6eb-42db-88d6-70f3deba7a8a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279772"
 ---
 # <a name="troubleshooting-biztalk-server-tools"></a><span data-ttu-id="b4866-102">Herramientas de solución de problemas de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="b4866-102">Troubleshooting BizTalk Server Tools</span></span>
 <span data-ttu-id="b4866-103">En este tema se proporciona una ubicación centralizada de información sobre problemas comunes que se pueden producir al usar las herramientas incluidas con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b4866-103">This topic provides a centralized location for information about common problems encountered while using the tools included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

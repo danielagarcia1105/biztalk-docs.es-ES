@@ -1,17 +1,17 @@
 ---
 title: Ver mensajes de seguimiento y datos de instancia | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - monitoring, HAT
 - HAT, about HAT
 ms.assetid: e3cc7bef-90c7-4375-9f6c-7df00391132e
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288220"
 ---
 # <a name="viewing-tracked-message-and-instance-data"></a><span data-ttu-id="c9ac6-102">Visualización de datos de instancias y mensajes de seguimiento</span><span class="sxs-lookup"><span data-stu-id="c9ac6-102">Viewing Tracked Message and Instance Data</span></span>
 <span data-ttu-id="c9ac6-103">Puede usar datos históricos y de seguimiento para ayudar a solucionar problemas de las aplicaciones de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c9ac6-103">You can use historical and tracked data to help troubleshoot your BizTalk Server applications.</span></span> <span data-ttu-id="c9ac6-104">Por ejemplo, los administradores del sistema pueden usar datos históricos y de seguimiento para realizar lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="c9ac6-104">For example, system administrators can use historical and tracked data to:</span></span>  

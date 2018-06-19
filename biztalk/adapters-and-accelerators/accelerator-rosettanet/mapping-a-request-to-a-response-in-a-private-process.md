@@ -1,11 +1,11 @@
 ---
 title: Asignar una solicitud a una respuesta en un proceso privado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, maps
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - requests, mapping
 - requests, private processes
 ms.assetid: 5452c0a2-3a9b-43e7-bfa7-713eef0eab3b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008373"
 ---
 # <a name="mapping-a-request-to-a-response-in-a-private-process"></a><span data-ttu-id="8e73c-102">Asignar una solicitud a una respuesta en un proceso privado</span><span class="sxs-lookup"><span data-stu-id="8e73c-102">Mapping a Request to a Response in a Private Process</span></span>
 <span data-ttu-id="8e73c-103">Este tema describe cómo asignar un mensaje de solicitud recibido por el proceso de servicio de respuesta privada: desde la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proceso de servicio de respuesta pública, en un mensaje de respuesta que se puede enviar a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el proceso de servicio de respuesta pública.</span><span class="sxs-lookup"><span data-stu-id="8e73c-103">This topic describes how to map a request message received by the private responder process—from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] public responder process, to a response message that can be sent to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public responder process.</span></span>  

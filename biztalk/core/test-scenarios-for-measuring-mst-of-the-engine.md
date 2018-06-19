@@ -1,14 +1,14 @@
 ---
 title: Escenarios de prueba para medir MST del motor de | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008021"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-the-engine"></a><span data-ttu-id="5cadf-102">Escenarios de prueba para medir MST del motor</span><span class="sxs-lookup"><span data-stu-id="5cadf-102">Test Scenarios for Measuring MST of the Engine</span></span>
 <span data-ttu-id="5cadf-103">En esta sección se describe el escenario de prueba que se ha implementado para medir el efecto de exponer un sistema de BizTalk a tres niveles distintos de carga:</span><span class="sxs-lookup"><span data-stu-id="5cadf-103">This section describes a test scenario that was implemented to measure the effect of driving a BizTalk system at three different levels of load:</span></span>  

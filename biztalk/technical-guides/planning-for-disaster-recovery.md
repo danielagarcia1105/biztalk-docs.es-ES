@@ -1,14 +1,14 @@
 ---
-title: "Planear la recuperación ante desastres de | Documentos de Microsoft"
-ms.custom: 
+title: Planear la recuperación ante desastres de | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a33e8875-cfde-4a60-9dab-fc6bb3ac4f1c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008993"
 ---
 # <a name="planning-for-disaster-recovery"></a><span data-ttu-id="f0c7e-102">Planear la recuperación de un desastre</span><span class="sxs-lookup"><span data-stu-id="f0c7e-102">Planning for Disaster Recovery</span></span>
 <span data-ttu-id="f0c7e-103">Este tema proporciona instrucciones para los equipos de la aplicación para los requisitos de recuperación ante desastres y procedimientos para BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="f0c7e-103">This topic provides guidance to application teams for disaster recovery requirements and procedures for BizTalk Server.</span></span> <span data-ttu-id="f0c7e-104">Microsoft BizTalk Server almacena información de configuración y el procesamiento en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f0c7e-104">Microsoft BizTalk Server stores configuration and processing information in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span></span> <span data-ttu-id="f0c7e-105">BizTalk Server alta disponibilidad y recuperación ante desastres se logra a través de las capacidades de recuperación de desastres y la disponibilidad alta de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f0c7e-105">BizTalk Server high availability and disaster recovery is achieved through the high availability and disaster recovery capabilities of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span></span>  

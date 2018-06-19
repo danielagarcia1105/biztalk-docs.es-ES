@@ -1,14 +1,14 @@
 ---
 title: Administrar esquemas en proyectos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1af8d360-ccda-4e0e-824f-4ace242b5aa7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262492"
 ---
 # <a name="managing-schemas-within-projects"></a><span data-ttu-id="c3d6d-102">Administrar esquemas en proyectos</span><span class="sxs-lookup"><span data-stu-id="c3d6d-102">Managing Schemas Within Projects</span></span>
 <span data-ttu-id="c3d6d-103">En esta sección se proporcionan instrucciones detalladas para trabajar con esquemas completos; por ejemplo, los pasos necesarios para crear un esquema, usar varios esquemas a la vez y guardar esquemas.</span><span class="sxs-lookup"><span data-stu-id="c3d6d-103">This section provides step-by-step instructions for working with entire schemas; for example, the steps involved in creating a schema, using multiple schemas together, and saving schemas.</span></span> <span data-ttu-id="c3d6d-104">Para obtener información sobre cómo trabajar con nodos de un esquema, vea [administrar los nodos de un esquema](../core/managing-the-nodes-within-a-schema.md).</span><span class="sxs-lookup"><span data-stu-id="c3d6d-104">For information about working with nodes within a schema, see [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md).</span></span>  

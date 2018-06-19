@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Implementar una aplicación básica de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Implementar una aplicación básica de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, tutorials
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tutorials, applications
 - applications, tutorials
 ms.assetid: 21b67153-0f8c-406a-a224-fc792b16192f
-caps.latest.revision: "69"
+caps.latest.revision: 69
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010997"
 ---
 # <a name="walkthrough-deploying-a-basic-biztalk-application"></a><span data-ttu-id="61c33-102">Tutorial: Implementar una aplicación de BizTalk básico</span><span class="sxs-lookup"><span data-stu-id="61c33-102">Walkthrough: Deploying a Basic BizTalk Application</span></span>
 <span data-ttu-id="61c33-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye características que simplifican la administración e implementación de las soluciones empresariales de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="61c33-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes features that simplify managing and deploying BizTalk business solutions.</span></span> <span data-ttu-id="61c33-104">Ahora incluye un contenedor de aplicaciones de BizTalk para los elementos que componen una solución empresarial, como orquestaciones, esquemas, asignaciones, canalizaciones y ensamblados .NET.</span><span class="sxs-lookup"><span data-stu-id="61c33-104">It now provides a BizTalk application container for the items in a business solution, such as orchestrations, schemas, maps, pipelines, schemas, and .NET assemblies.</span></span> <span data-ttu-id="61c33-105">Puede administrar, modificar, implementar e instalar todos los elementos en una aplicación como una sola unidad.</span><span class="sxs-lookup"><span data-stu-id="61c33-105">You can manage, modify, deploy, and install all of the items in an application as a single unit.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="61c33-106">También incluye asistentes para ayudar a automatizar las tareas de implementación de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="61c33-106"> also includes wizards to help automate application deployment tasks.</span></span> <span data-ttu-id="61c33-107">Para obtener información general, vea [implementación de aplicaciones y características de administración de](../core/application-deployment-and-management-features.md) y [implementación de aplicaciones y herramientas de administración](../core/application-deployment-and-management-tools.md).</span><span class="sxs-lookup"><span data-stu-id="61c33-107">For background information, see [Application Deployment and Management Features](../core/application-deployment-and-management-features.md) and [Application Deployment and Management Tools](../core/application-deployment-and-management-tools.md).</span></span>  

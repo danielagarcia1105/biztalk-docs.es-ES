@@ -1,14 +1,14 @@
 ---
-title: "Cómo importar enlaces para una solución EDI AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo importar enlaces para una solución EDI AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b918fa2-44f2-4f57-95af-36858cea0d86
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007597"
 ---
 # <a name="how-to-import-bindings-for-an-edi-as2-solution"></a><span data-ttu-id="67bed-102">Cómo importar enlaces para una solución EDI y AS2</span><span class="sxs-lookup"><span data-stu-id="67bed-102">How to Import Bindings for an EDI-AS2 Solution</span></span>
 <span data-ttu-id="67bed-103">En este tema se describe cómo importar la configuración de una solución EDI y/o AS2 en otro equipo.</span><span class="sxs-lookup"><span data-stu-id="67bed-103">This topic describes how to import the configuration of an EDI and/or AS2 solution onto another computer.</span></span> <span data-ttu-id="67bed-104">La implementación de una solución EDI y AS2 se integra con la implementación de aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="67bed-104">Deployment of an EDI/AS2 solution is integrated with BizTalk application deployment.</span></span> <span data-ttu-id="67bed-105">Está disponible a través de la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y la herramienta de línea de comandos BTSTask.</span><span class="sxs-lookup"><span data-stu-id="67bed-105">It is available through the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console and the BTSTask command-line tool.</span></span>  

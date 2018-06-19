@@ -1,14 +1,14 @@
 ---
-title: "Portal de errores de página | Documentos de Microsoft"
-ms.custom: 
+title: Portal de errores de página | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b11e3492-da1a-43f3-acf8-3775b5cbc2c5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294612"
 ---
 # <a name="portal-faults-page"></a><span data-ttu-id="61996-102">Portal errores de página</span><span class="sxs-lookup"><span data-stu-id="61996-102">Portal Faults Page</span></span>
 <span data-ttu-id="61996-103">La figura 1 muestra la página de errores.</span><span class="sxs-lookup"><span data-stu-id="61996-103">Figure 1 shows the Faults page.</span></span> <span data-ttu-id="61996-104">Esta página muestra las propiedades principales de cada error, así como ordenar y filtrar las capacidades que admiten un análisis detallado de los errores en un intervalo de criterios, como el tipo de error y la hora.</span><span class="sxs-lookup"><span data-stu-id="61996-104">This page displays the main properties of each fault, and it provides sorting and filtering capabilities that support detailed analysis of faults over a range of criteria, such as error type and time.</span></span> <span data-ttu-id="61996-105">Un vínculo para cada error le permite ver más detalles en el Visor de mensajes de error.</span><span class="sxs-lookup"><span data-stu-id="61996-105">A link for each fault allows you to view more details in the Fault Message Viewer.</span></span>  

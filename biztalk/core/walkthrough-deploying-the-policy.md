@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Implementar la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 205760e2-9cd4-496f-93cd-0f93bc5d3231
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975914"
 ---
 # <a name="walkthrough-deploying-the-policy"></a><span data-ttu-id="139d7-102">Tutorial: Implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="139d7-102">Walkthrough: Deploying the Policy</span></span>
 <span data-ttu-id="139d7-103">Este tutorial proporciona instrucciones paso a paso para implementar la **ProcessPurchaseOrder** directiva en las tres formas siguientes:</span><span class="sxs-lookup"><span data-stu-id="139d7-103">This walkthrough provides step-by-step instructions for deploying the **ProcessPurchaseOrder** policy in the following three ways:</span></span>  
@@ -287,7 +288,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="139d7-281">Haga clic en la lista de la derecha, seleccione **agregar**y, a continuación, haga clic en **directiva**.</span><span class="sxs-lookup"><span data-stu-id="139d7-281">Right-click in the list on the right, point to **Add**, and then click **Policy**.</span></span>  
   
-5.  <span data-ttu-id="139d7-282">Expanda el **ProcessPurchaseOrder** nodo, seleccione la casilla de verificación **versión 1.3 (publicada)**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="139d7-282">Expand the **ProcessPurchaseOrder** node, select the check box for **Version 1.3 (Published)**, and then click **OK**.</span></span> <span data-ttu-id="139d7-283">.</span><span class="sxs-lookup"><span data-stu-id="139d7-283">.</span></span>  
+5.  <span data-ttu-id="139d7-282">Expanda el **ProcessPurchaseOrder** nodo, seleccione la casilla de verificación **versión 1.3 (publicada)** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="139d7-282">Expand the **ProcessPurchaseOrder** node, select the check box for **Version 1.3 (Published)**, and then click **OK**.</span></span> <span data-ttu-id="139d7-283">.</span><span class="sxs-lookup"><span data-stu-id="139d7-283">.</span></span>  
   
 6.  <span data-ttu-id="139d7-284">Haga clic en **ProcessPurchaseOrder**y, a continuación, haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="139d7-284">Right-click **ProcessPurchaseOrder**, and then click **Deploy**.</span></span> <span data-ttu-id="139d7-285">Si no ve **ProcessPurchaseOrder** en la lista, presione F5 para actualizar la vista.</span><span class="sxs-lookup"><span data-stu-id="139d7-285">If you do not see **ProcessPurchaseOrder** in the list, press F5 to refresh the view.</span></span>  
   

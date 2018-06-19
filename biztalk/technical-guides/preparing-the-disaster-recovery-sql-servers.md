@@ -1,14 +1,14 @@
 ---
-title: "Preparar los servidores SQL de recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: Preparar los servidores SQL de recuperación ante desastres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44b77fe8-393d-4781-b0b0-5b7f6e50a67b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008077"
 ---
 # <a name="preparing-the-disaster-recovery-sql-servers"></a><span data-ttu-id="a3cb0-102">Preparar los servidores SQL de recuperación ante desastres</span><span class="sxs-lookup"><span data-stu-id="a3cb0-102">Preparing the Disaster Recovery SQL Servers</span></span>
 <span data-ttu-id="a3cb0-103">Crea el conjunto de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias en el sitio de recuperación ante desastres de bases de datos.</span><span class="sxs-lookup"><span data-stu-id="a3cb0-103">Createa set of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances in the disaster recovery site.</span></span> <span data-ttu-id="a3cb0-104">Para asegurarse de que la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias de base de datos pueden proporcionar el mismo nivel de rendimiento a medida que la producción [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias de base de datos, la recuperación ante desastres [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancias de base de datos deben configurarse con similares hardware y el número de equipos físicos que ejecutan [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a3cb0-104">To ensure that the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances can provide the same level of performance as the production [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances, the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances should be configured with similar hardware and number of physical computers running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span></span> <span data-ttu-id="a3cb0-105">En este escenario, el trasvase de registros se configurará para cada producción de BizTalk Server [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia de base de datos para aplicar a su correspondiente [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia de base de datos en el sitio de recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="a3cb0-105">In this scenario, BizTalk Server log shipping will be configured for each production [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instance to apply to a corresponding [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instance at the disaster recovery site.</span></span>  

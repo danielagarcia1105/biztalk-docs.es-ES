@@ -1,11 +1,11 @@
 ---
-title: "Desarrollar componentes de canalización personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Desarrollar componentes de canalización personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom]
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - pipeline components [custom], interfaces
 - pipeline components [custom], component types
 ms.assetid: cce61e0d-f1e3-4ec2-b38c-7c6eaf83ac10
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005469"
 ---
 # <a name="developing-custom-pipeline-components"></a><span data-ttu-id="7ba97-102">Desarrollar componentes de canalización personalizado</span><span class="sxs-lookup"><span data-stu-id="7ba97-102">Developing Custom Pipeline Components</span></span>
 <span data-ttu-id="7ba97-103">En esta sección, se describe cómo desarrollar un componente de canalización.</span><span class="sxs-lookup"><span data-stu-id="7ba97-103">This section describes how to develop a pipeline component.</span></span> <span data-ttu-id="7ba97-104">Puede crear tres tipos de componentes de canalización: general, ensamblado y de desensamblado.</span><span class="sxs-lookup"><span data-stu-id="7ba97-104">You can create three types of pipeline components: general, assembling, and disassembling.</span></span> <span data-ttu-id="7ba97-105">Todos ellos pueden, de forma adicional, implementar la funcionalidad de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7ba97-105">Each of the three types can additionally implement probing functionality.</span></span> <span data-ttu-id="7ba97-106">Cada tipo de componente de canalización tiene una interfaz asociada que se debe implementar para que el componente para incluirse en el motor de mensajería de BizTalk; las interfaces de canalización que distinguen los tipos de componentes son **IComponent**, **IAssemblerComponent**, y **IDisassemblerComponent**.</span><span class="sxs-lookup"><span data-stu-id="7ba97-106">Each type of pipeline component has an associated interface that must be implemented for the component to be plugged into the BizTalk Messaging Engine; the pipeline interfaces that distinguish the types of components are **IComponent**, **IAssemblerComponent**, and **IDisassemblerComponent**.</span></span> <span data-ttu-id="7ba97-107">Para buscar componentes, debe implementar la **IProbeMessage** interfaz.</span><span class="sxs-lookup"><span data-stu-id="7ba97-107">For probing components, you must implement the **IProbeMessage** interface.</span></span>  

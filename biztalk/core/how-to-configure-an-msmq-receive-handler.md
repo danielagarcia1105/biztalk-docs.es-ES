@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar controlador de recepción de MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar controlador de recepción de MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive handlers, MSMQ adapters
 - configuring [MSMQ adapters], receive handlers
 - MSMQ adapters, receive handlers
 ms.assetid: d6d82098-3a73-44e2-80d5-143f77e919cc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247876"
 ---
 # <a name="how-to-configure-an-msmq-receive-handler"></a><span data-ttu-id="9078e-102">Cómo configurar un controlador de recepción de MSMQ</span><span class="sxs-lookup"><span data-stu-id="9078e-102">How to Configure an MSMQ Receive Handler</span></span>
 <span data-ttu-id="9078e-103">Utilice el procedimiento siguiente para cambiar el host al que está asociado el controlador de recepción de MSMQ.</span><span class="sxs-lookup"><span data-stu-id="9078e-103">Use the following procedure to change the host with which the MSMQ receive handler is associated.</span></span>  

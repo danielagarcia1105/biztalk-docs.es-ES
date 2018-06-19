@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005733"
 ---
 # <a name="a-role-based-product"></a><span data-ttu-id="bbb10-102">Un producto basada en roles</span><span class="sxs-lookup"><span data-stu-id="bbb10-102">A Role-based Product</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="bbb10-103">BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporcionan características y herramientas en el entorno adecuado para el rol del usuario, como se describe en la siguiente:</span><span class="sxs-lookup"><span data-stu-id="bbb10-103"> BizTalk Server and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provide features and tools in the environment appropriate for the role of the user, as described in the following:</span></span>  

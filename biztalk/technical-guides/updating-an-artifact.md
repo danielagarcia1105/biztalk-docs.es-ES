@@ -1,14 +1,14 @@
 ---
 title: Actualizar un artefacto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 40feab57-4286-4bdf-8f52-25d02b3fa60c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302580"
 ---
 # <a name="updating-an-artifact"></a><span data-ttu-id="35893-102">Actualizar un artefacto</span><span class="sxs-lookup"><span data-stu-id="35893-102">Updating an Artifact</span></span>
 <span data-ttu-id="35893-103">Las dependencias entre artefactos de dos o más aplicaciones de BizTalk pueden tener un efecto significativo en la implementación de aplicación y el mantenimiento.</span><span class="sxs-lookup"><span data-stu-id="35893-103">Dependencies between artifacts in two or more BizTalk applications can have a significant effect on application deployment and maintenance.</span></span> <span data-ttu-id="35893-104">Un artefacto es depende de otro cuando necesita utilizar ese artefacto para funcionar correctamente, por ejemplo una orquestación que se debe usar una canalización específica para transmitir mensajes correctamente.</span><span class="sxs-lookup"><span data-stu-id="35893-104">An artifact is dependent on another when it needs to use that artifact in order to function properly, for example an orchestration that needs to use a specific pipeline in order to transmit messages correctly.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Suma de comprobación Adler32 no válido encontrado | Documentos de Microsoft"
-ms.custom: 
+title: Suma de comprobación Adler32 no válido encontrado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa47a208-0f33-496e-8dbe-b50be9979bf2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257972"
 ---
 # <a name="invalid-adler32-checksum-encountered"></a><span data-ttu-id="49922-102">Suma de comprobación Adler32 no válido encontrado</span><span class="sxs-lookup"><span data-stu-id="49922-102">Invalid Adler32 checksum encountered</span></span>
 ## <a name="details"></a><span data-ttu-id="49922-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="49922-103">Details</span></span>  

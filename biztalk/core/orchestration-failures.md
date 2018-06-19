@@ -1,11 +1,11 @@
 ---
 title: Errores de orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Catch Exception block [Orchestration Designer], suspended orchestrations
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - orchestrations, HAT
 - HAT, orchestrations
 ms.assetid: d0a799fb-7859-4774-b444-979f22f04215
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263812"
 ---
 # <a name="orchestration-failures"></a><span data-ttu-id="75cba-102">Errores de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="75cba-102">Orchestration Failures</span></span>
 <span data-ttu-id="75cba-103">Las orquestaciones varían en complejidad; por ejemplo, una orquestación puede llamar a un objeto .NET o construir mensajes mediante la forma de transformación o de asignación.</span><span class="sxs-lookup"><span data-stu-id="75cba-103">Orchestrations vary in complexity; for example, an orchestration may call a .NET object or construct messages via transform and assignment shape.</span></span> <span data-ttu-id="75cba-104">En consecuencia, resulta imposible mostrar una lista de todos los errores debido a la variedad de su contenido y al nivel de personalización.</span><span class="sxs-lookup"><span data-stu-id="75cba-104">As a result, it is impossible to list out every possible failure, due to the variety of its content as well as level of customization.</span></span> <span data-ttu-id="75cba-105">Sin embargo, los errores que se producen en las orquestaciones aparecen como excepciones.</span><span class="sxs-lookup"><span data-stu-id="75cba-105">However, all failures encountered in orchestrations appear as exceptions.</span></span>  

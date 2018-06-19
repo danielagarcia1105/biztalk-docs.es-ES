@@ -1,14 +1,14 @@
 ---
-title: "Elemento raíz inesperado. | Documentos de Microsoft"
-ms.custom: 
+title: Elemento raíz inesperado. | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecccf57e-9295-4a6d-95b6-efec662478cf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973034"
 ---
 # <a name="unexpected-root-element"></a><span data-ttu-id="fe6bd-102">Elemento raíz inesperado.</span><span class="sxs-lookup"><span data-stu-id="fe6bd-102">Unexpected root element</span></span>
 ## <a name="details"></a><span data-ttu-id="fe6bd-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="fe6bd-103">Details</span></span>  

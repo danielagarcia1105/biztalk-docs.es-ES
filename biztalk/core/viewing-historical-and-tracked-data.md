@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287692"
 ---
 # <a name="viewing-historical-and-tracked-data"></a><span data-ttu-id="3d41a-102">Visualización de datos históricos y de seguimiento</span><span class="sxs-lookup"><span data-stu-id="3d41a-102">Viewing Historical and Tracked Data</span></span>
 <span data-ttu-id="3d41a-103">En esta sección se proporciona información específica de la tarea sobre cómo visualizar los datos históricos y de seguimiento de la página Concentrador de grupo de la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="3d41a-103">This section provides task-specific information about using how to view historical and tracked data from the Group Hub page in the BizTalk Server Administration Console.</span></span>  

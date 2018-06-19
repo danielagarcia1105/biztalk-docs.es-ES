@@ -1,18 +1,18 @@
 ---
-title: "Cómo actualizar un recurso | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar un recurso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [resources], refreshing
 - refreshing resources
 - resources, refreshing
 ms.assetid: d6ff7c9d-8aaf-42a4-b1a3-00c05f6ac869
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254548"
 ---
 # <a name="how-to-refresh-a-resource"></a><span data-ttu-id="9c405-102">Cómo actualizar un recurso</span><span class="sxs-lookup"><span data-stu-id="9c405-102">How to Refresh a Resource</span></span>
 <span data-ttu-id="9c405-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para actualizar un artefacto de recurso.</span><span class="sxs-lookup"><span data-stu-id="9c405-103">This topic describes how to use the BizTalk Server Administration console to refresh a resource artifact.</span></span> <span data-ttu-id="9c405-104">La información del artefacto se actualiza en la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="9c405-104">This updates the artifact information in the BizTalk Management database.</span></span> <span data-ttu-id="9c405-105">Otra manera de hacerlo es mediante la adición del artefacto a la aplicación mediante BTSTask [comando AddResource](../core/addresource-command.md) con la opción de sobrescritura.</span><span class="sxs-lookup"><span data-stu-id="9c405-105">Another way to do this is by adding the artifact to the application using the BTSTask [AddResource Command](../core/addresource-command.md) with the overwrite option.</span></span>  

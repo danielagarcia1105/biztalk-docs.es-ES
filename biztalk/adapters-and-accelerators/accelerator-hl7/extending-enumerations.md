@@ -1,17 +1,17 @@
 ---
 title: Extender las enumeraciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enumeration values
 - 2.X schemas, enumeration values
 ms.assetid: 043def35-b644-4502-a2e2-cc1a5fc0328a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006245"
 ---
 # <a name="extending-enumerations"></a><span data-ttu-id="5df3b-102">Extender las enumeraciones</span><span class="sxs-lookup"><span data-stu-id="5df3b-102">Extending Enumerations</span></span>
 <span data-ttu-id="5df3b-103">Puede agregar valores a las enumeraciones que establecer los valores aceptados para muchos tipos de campos, los segmentos y los datos en el cuerpo del mensaje HL7, confirmación y esquemas de cuerpo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="5df3b-103">You can add values to the enumerations that establish accepted values for many fields, segments, and data types in HL7 message body, acknowledgment, and message body schemas.</span></span> <span data-ttu-id="5df3b-104">Esto implica cambiar el conjunto de valores en una tabla específica en el archivo de esquema de valores de tabla común para la versión de HL7 en el que está trabajando (la **Tablevalues_\<***versión*  **\>.xsd** archivo de esquema).</span><span class="sxs-lookup"><span data-stu-id="5df3b-104">This involves changing the set of values in a specific table in the common table values schema file for the HL7 version in which you are working (the **Tablevalues_\<***version***\>.xsd** schema file).</span></span>  

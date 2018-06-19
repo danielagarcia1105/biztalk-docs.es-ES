@@ -1,14 +1,14 @@
 ---
-title: "Apéndice C: archivos .cab redistribuibles | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice C: archivos .cab redistribuibles | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2049d61-e169-4b30-869a-33d5af097941
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976394"
 ---
 # <a name="appendix-c-redistributable-cab-files"></a><span data-ttu-id="a7ba7-102">Apéndice C: Archivos .cab redistribuibles</span><span class="sxs-lookup"><span data-stu-id="a7ba7-102">Appendix C: Redistributable CAB Files</span></span>
 <span data-ttu-id="a7ba7-103">El programa de instalación de BizTalk Server usa estos archivos CAB.</span><span class="sxs-lookup"><span data-stu-id="a7ba7-103">These CAB files are used by the BizTalk Server setup.</span></span>

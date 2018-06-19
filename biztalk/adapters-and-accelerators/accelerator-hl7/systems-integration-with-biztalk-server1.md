@@ -1,14 +1,14 @@
 ---
-title: "HL7 Integración de sistemas | Documentos de Microsoft"
-ms.custom: 
+title: HL7 Integración de sistemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f66a4fc-186c-415f-a7ed-31f620f0495f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005037"
 ---
 # <a name="systems-integration-with-biztalk-server"></a><span data-ttu-id="d1115-102">Integración de sistemas con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="d1115-102">Systems Integration with BizTalk Server</span></span>
 <span data-ttu-id="d1115-103">Microsoft BizTalk Server es un servidor de integración diseñado para las aplicaciones de comercio electrónico.</span><span class="sxs-lookup"><span data-stu-id="d1115-103">Microsoft BizTalk Server is an integration server designed for eBusiness applications.</span></span> <span data-ttu-id="d1115-104">Se genera en Windows Server, SQL Server y SharePoint y aprovecha la funcionalidad de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="d1115-104">It is built on the  Windows Server, SQL Server, and SharePoint, and leverages the functionality of  Visual Studio.</span></span> <span data-ttu-id="d1115-105">Esta pila de tecnología proporciona una gama de funcionalidad y características para desarrollar, implementar, el funcionamiento y mantenimiento de la solución.</span><span class="sxs-lookup"><span data-stu-id="d1115-105">This technology stack provides a range of functionality and features for developing, implementing, operating, and maintaining your solution.</span></span>  

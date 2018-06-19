@@ -1,18 +1,18 @@
 ---
 title: Usar encabezados SOAP en mensajes WCF con orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, SOAP headers [WCF services]
 - WCF services, orchestrations
 - WCF services, SOAP headers
 ms.assetid: 31c01e35-a2a6-4ea9-bdf4-6d4311268dbe
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972914"
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-orchestrations"></a><span data-ttu-id="7cbd1-102">Usar encabezados SOAP en mensajes WCF con orquestaciones</span><span class="sxs-lookup"><span data-stu-id="7cbd1-102">Using SOAP Headers in WCF Messages with Orchestrations</span></span>
 <span data-ttu-id="7cbd1-103">Para enviar los encabezados SOAP personalizados con mensajes WCF salientes en orquestaciones, use la propiedad de contexto **WCF. OutboundCustomHeaders**.</span><span class="sxs-lookup"><span data-stu-id="7cbd1-103">To send the custom SOAP headers with outgoing WCF messages in orchestrations, you use the context property, **WCF.OutboundCustomHeaders**.</span></span> <span data-ttu-id="7cbd1-104">Los adaptadores de WCF envían encabezados SOAP personalizados combinados con los encabezados SOAP estándar que utiliza la infraestructura de WCF para estándares de servicios Web, por ejemplo, WS-Addressing, WS-Security y WS-AtomicTransaction.</span><span class="sxs-lookup"><span data-stu-id="7cbd1-104">The WCF adapters send the custom SOAP headers combined with the standard SOAP headers that the WCF infrastructure uses for Web services standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction.</span></span> <span data-ttu-id="7cbd1-105">Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados** \> elemento como el elemento raíz.</span><span class="sxs-lookup"><span data-stu-id="7cbd1-105">When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element.</span></span> <span data-ttu-id="7cbd1-106">Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados** \> elemento.</span><span class="sxs-lookup"><span data-stu-id="7cbd1-106">All of the custom SOAP headers must be placed inside the \<**headers**\> element.</span></span> <span data-ttu-id="7cbd1-107">Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**\>\</**encabezados** \> o \< **encabezados** / \> a la **OutboundCustomHeaders** propiedad.</span><span class="sxs-lookup"><span data-stu-id="7cbd1-107">If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Implementación de servidor único | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de servidor único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, deploying
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], single-server deployment
 - Windows SharePoint Services adapters, single-server deployment
 ms.assetid: 94ba8241-9a30-46ca-b962-721e2d00f420
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975760"
 ---
 # <a name="single-server-deployment"></a><span data-ttu-id="409d2-102">Implementación de servidor único</span><span class="sxs-lookup"><span data-stu-id="409d2-102">Single-Server Deployment</span></span>
 <span data-ttu-id="409d2-103">En este tema se trata la configuración e implementación de un solo servidor para el adaptador de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="409d2-103">This topic discusses single-server setup and deployment considerations for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Asistente para publicar esquemas como servicios Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Asistente para publicar esquemas como servicios Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, publishing
 - BizTalk Web Services Publishing Wizard, schemas
 ms.assetid: b22de720-1416-486a-988f-e52527ad9ab1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25974818"
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a><span data-ttu-id="cd7cd-102">Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como servicios Web</span><span class="sxs-lookup"><span data-stu-id="cd7cd-102">How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service</span></span>
 <span data-ttu-id="cd7cd-103">El Asistente para publicar servicios Web de BizTalk permite publicar esquemas como servicio Web.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-103">You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web service.</span></span>  
@@ -73,7 +74,7 @@ ms.lasthandoff: 01/17/2018
   
 8.  <span data-ttu-id="cd7cd-162">Si seleccionó **agregar encabezados SOAP adicionales**, **encabezados SOAP de solicitud** y **encabezados SOAP de respuesta** páginas aparecen.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-162">If you selected **Add additional SOAP headers**, the **Request SOAP Headers** and **Response SOAP Headers** pages appear.</span></span> <span data-ttu-id="cd7cd-163">Puede agregar y quitar encabezados SOAP de solicitud y respuesta mediante la **agregar** y **quitar** botones en los cuadros de diálogo siguientes:</span><span class="sxs-lookup"><span data-stu-id="cd7cd-163">You can add and remove request and response SOAP headers using the **Add** and **Remove** buttons in the following dialog boxes:</span></span>  
   
-    -   <span data-ttu-id="cd7cd-164">Para agregar un encabezado SOAP, haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-164">To add a SOAP header, click **Add**.</span></span> <span data-ttu-id="cd7cd-165">En el **nombre de ensamblado de BizTalk (\\*.dll)** cuadro de texto, escriba el nombre del ensamblado o busque el ensamblado que contiene el esquema de encabezado SOAP en el **archivo de ensamblado de BizTalk** cuadro de texto.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-165">In the **BizTalk assembly name (\\*.dll)** text box, type the assembly name or browse for the assembly containing the SOAP Header schema in the **BizTalk assembly file** text box.</span></span> <span data-ttu-id="cd7cd-166">El **tipos de esquemas disponibles** vista de lista muestra cada elemento raíz del esquema.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-166">The **Available schema types** list view displays each root element of the schema.</span></span> <span data-ttu-id="cd7cd-167">Seleccione un nodo raíz para agregar como un encabezado SOAP de solicitud o de respuesta.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-167">Select a root node to add as a request or response SOAP header.</span></span> <span data-ttu-id="cd7cd-168">Para seleccionar varios elementos, mantenga presionada la tecla CTRL y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-168">To select multiple items, hold the CTRL key and click **OK**.</span></span>  
+    -   <span data-ttu-id="cd7cd-164">Para agregar un encabezado SOAP, haga clic en **agregar**.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-164">To add a SOAP header, click **Add**.</span></span> <span data-ttu-id="cd7cd-165">En el **nombre de ensamblado de BizTalk (\*.dll)** cuadro de texto, escriba el nombre del ensamblado o busque el ensamblado que contiene el esquema de encabezado SOAP en el **archivo de ensamblado de BizTalk** cuadro de texto.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-165">In the **BizTalk assembly name (\*.dll)** text box, type the assembly name or browse for the assembly containing the SOAP Header schema in the **BizTalk assembly file** text box.</span></span> <span data-ttu-id="cd7cd-166">El **tipos de esquemas disponibles** vista de lista muestra cada elemento raíz del esquema.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-166">The **Available schema types** list view displays each root element of the schema.</span></span> <span data-ttu-id="cd7cd-167">Seleccione un nodo raíz para agregar como un encabezado SOAP de solicitud o de respuesta.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-167">Select a root node to add as a request or response SOAP header.</span></span> <span data-ttu-id="cd7cd-168">Para seleccionar varios elementos, mantenga presionada la tecla CTRL y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-168">To select multiple items, hold the CTRL key and click **OK**.</span></span>  
   
     -   <span data-ttu-id="cd7cd-169">Para quitar un encabezado SOAP de la lista, selecciónelo en la lista de encabezados SOAP agregados y, a continuación, haga clic en **quitar**.</span><span class="sxs-lookup"><span data-stu-id="cd7cd-169">To remove a SOAP header from the list, select it from the list of added SOAP headers, and then click **Remove**.</span></span>  
   

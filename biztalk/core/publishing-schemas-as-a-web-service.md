@@ -1,11 +1,11 @@
 ---
 title: Publicar esquemas como servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, schemas
 - schemas, Web services
 ms.assetid: 65b5f826-6abf-437f-b2dc-b36e488ba6da
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269044"
 ---
 # <a name="publishing-schemas-as-a-web-service"></a><span data-ttu-id="a9b14-102">Publicar esquemas como un servicio web</span><span class="sxs-lookup"><span data-stu-id="a9b14-102">Publishing Schemas as a Web Service</span></span>
 <span data-ttu-id="a9b14-103">Use el Asistente para publicar servicios Web de BizTalk para crear los servicios Web que utilizan los esquemas existentes.</span><span class="sxs-lookup"><span data-stu-id="a9b14-103">You use the BizTalk Web Services Publishing Wizard to create Web services that use existing schemas.</span></span> <span data-ttu-id="a9b14-104">Declare los servicios Web, métodos Web y esquemas de solicitud y respuesta que desee publicar.</span><span class="sxs-lookup"><span data-stu-id="a9b14-104">You declare the Web services, Web methods, and request and response schemas that you want to publish.</span></span> <span data-ttu-id="a9b14-105">Mediante el Asistente, defina el espacio de nombres de destino, los requisitos de encabezado SOAP y la ubicación del proyecto del servicio Web generado.</span><span class="sxs-lookup"><span data-stu-id="a9b14-105">Using the wizard, you define the target namespace, SOAP header requirements, and the location of the generated Web service project.</span></span>  

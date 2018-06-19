@@ -1,18 +1,18 @@
 ---
 title: MethodCall (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, calling
 - examples, orchestrations
 - orchestrations, methods
 ms.assetid: 6bdc72da-9478-403a-b706-3089b7374ac7
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973978"
 ---
 # <a name="methodcall-biztalk-server-sample"></a><span data-ttu-id="56c80-102">MethodCall (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="56c80-102">MethodCall (BizTalk Server Sample)</span></span>
 <span data-ttu-id="56c80-103">El ejemplo de MethodCall muestra cómo llamar a un método basado en .NET desde una orquestación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="56c80-103">The MethodCall sample demonstrates how to call a .NET-based method from a BizTalk Server orchestration.</span></span>  

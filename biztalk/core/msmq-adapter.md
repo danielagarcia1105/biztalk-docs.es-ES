@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263148"
 ---
 # <a name="msmq-adapter"></a><span data-ttu-id="912e3-102">Adaptador de MSMQ</span><span class="sxs-lookup"><span data-stu-id="912e3-102">MSMQ Adapter</span></span>
 <span data-ttu-id="912e3-103">El adaptador de MSMQ le permite usar Microsoft Queuing 4.0 desde [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="912e3-103">The MSMQ adapter lets you use Message Queuing 4.0 from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="912e3-104">La integración de la tecnología de Message Queue Server con BizTalk Server permite que las aplicaciones que se ejecutan en momentos distintos se comuniquen a través de redes y sistemas heterogéneos que pueden encontrarse sin conexión de forma temporal.</span><span class="sxs-lookup"><span data-stu-id="912e3-104">Integrating Message Queuing technology with BizTalk Server enables applications that are running at different times to communicate across heterogeneous networks and systems that may be temporarily offline.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados de teclado TPE | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados de teclado TPE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Tracking Profile Editor
 - Tracking Profile Editor, keyboard shortcuts
 ms.assetid: b10288b8-c63d-4564-905c-5817fd92a592
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279220"
 ---
 # <a name="tpe-keyboard-shortcuts"></a><span data-ttu-id="5bf85-102">Métodos abreviados de teclado del TPE</span><span class="sxs-lookup"><span data-stu-id="5bf85-102">TPE Keyboard Shortcuts</span></span>
 <span data-ttu-id="5bf85-103">En el Editor de perfiles de seguimiento (TPE) puede utilizar métodos abreviados de teclado para llevar a cabo las mismas funciones de desplazamiento y edición que realiza con el mouse.</span><span class="sxs-lookup"><span data-stu-id="5bf85-103">In the Tracking Profile Editor (TPE), you can use keyboard shortcuts to perform the same navigation and edit functions that you do by using a mouse.</span></span> <span data-ttu-id="5bf85-104">Puede usar estos métodos abreviados para realizar todas las funciones utilizadas en el TPE.</span><span class="sxs-lookup"><span data-stu-id="5bf85-104">You can use these shortcuts to perform all the functions used in TPE.</span></span> <span data-ttu-id="5bf85-105">Esta sección describe los métodos abreviados de teclado y ofrece sugerencias sobre el uso de su teclado para desplazarse por el TPE.</span><span class="sxs-lookup"><span data-stu-id="5bf85-105">This section describes the keyboard shortcuts and provides some tips about using your keyboard to navigate in TPE.</span></span>  

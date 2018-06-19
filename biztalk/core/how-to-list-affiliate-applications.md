@@ -1,17 +1,17 @@
 ---
-title: "Cómo enumerar aplicaciones afiliadas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo enumerar aplicaciones afiliadas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO applications], listing applications
 - applications [SSO], listing applications
 ms.assetid: b51ff597-824e-4488-a47f-3a9b3d4437c6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974154"
 ---
 # <a name="how-to-list-affiliate-applications"></a><span data-ttu-id="0796e-102">Cómo enumerar aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="0796e-102">How to List Affiliate Applications</span></span>
 <span data-ttu-id="0796e-103">Utilice este comando para enumerar todas las aplicaciones afiliadas.</span><span class="sxs-lookup"><span data-stu-id="0796e-103">Use this command to list all the affiliate applications.</span></span> <span data-ttu-id="0796e-104">Si el usuario es miembro de la cuenta de administradores de aplicación, este comando sólo mostrará la aplicación para la que el usuario es administrador.</span><span class="sxs-lookup"><span data-stu-id="0796e-104">If the user is a member of the Application Administrators account, this command will only display the application for which the user is an administrator.</span></span>  

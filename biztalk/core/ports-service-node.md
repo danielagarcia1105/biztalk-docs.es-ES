@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263460"
 ---
 # <a name="ports-service-node"></a><span data-ttu-id="d5119-102">Puertos (nodo Servicio)</span><span class="sxs-lookup"><span data-stu-id="d5119-102">Ports (Service Node)</span></span>
 <span data-ttu-id="d5119-103">El nodo Puertos de un archivo de enlace es el nodo primario de todos los nodos Puerto que contienen información específica acerca de los puertos enlazados a un servicio que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="d5119-103">The Ports node of a binding file is the parent node for all of the Port nodes which contain specific information about ports bound to a service that is exported with the binding file.</span></span>  

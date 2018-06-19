@@ -1,14 +1,14 @@
 ---
-title: "Implementación de la seguridad de mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de la seguridad de mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 971977a0-b74e-4408-8a07-ad327658f2bc
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256500"
 ---
 # <a name="implementing-message-security"></a><span data-ttu-id="5e565-102">Implementar seguridad en los mensajes</span><span class="sxs-lookup"><span data-stu-id="5e565-102">Implementing Message Security</span></span>
 <span data-ttu-id="5e565-103">Puede configurar el entorno de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para usar certificados para el envío y recepción de mensajes firmados y cifrados.</span><span class="sxs-lookup"><span data-stu-id="5e565-103">You can configure your Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to use certificates for sending and receiving signed and encrypted messages.</span></span> <span data-ttu-id="5e565-104">Mediante los certificados para el cifrado y la aplicación de firmas digitales, BizTalk Server puede realizar lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5e565-104">By using certificates for encryption and digital signatures, BizTalk Server can:</span></span>  

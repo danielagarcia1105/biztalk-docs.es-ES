@@ -1,11 +1,11 @@
 ---
-title: "Lección 5: Agregar el Desensamblador SWIFT a una canalización de recepción personalizada | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 5: Agregar el Desensamblador SWIFT a una canalización de recepción personalizada | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, adding disassembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - disassembler, custom pipelines
 - disassembler, adding to pipelines
 ms.assetid: 96e26d97-bfab-448f-b7b6-3bc2ec3ccebf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005557"
 ---
 # <a name="lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline"></a><span data-ttu-id="cb40a-102">Lección 5: Agregar el Desensamblador SWIFT a una canalización de recepción personalizada</span><span class="sxs-lookup"><span data-stu-id="cb40a-102">Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline</span></span>
 <span data-ttu-id="cb40a-103">En esta lección, agregará el Desensamblador SWIFT personalizado (DASM) a la canalización.</span><span class="sxs-lookup"><span data-stu-id="cb40a-103">In this lesson, you add the custom SWIFT disassembler (DASM) to your pipeline.</span></span> <span data-ttu-id="cb40a-104">Un componente de canalización DASM es un componente de canalización que divide los mensajes de un lote en documentos individuales.</span><span class="sxs-lookup"><span data-stu-id="cb40a-104">A DASM pipeline component is a pipeline component that divides messages in a batch into individual documents.</span></span>  

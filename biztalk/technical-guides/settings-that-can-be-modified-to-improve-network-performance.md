@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25976330"
 ---
 # <a name="settings-that-can-be-modified-to-improve-network-performance"></a><span data-ttu-id="ee0d5-102">Configuración que puede modificarse para mejorar el rendimiento de red</span><span class="sxs-lookup"><span data-stu-id="ee0d5-102">Settings that can be Modified to Improve Network Performance</span></span>
 <span data-ttu-id="ee0d5-103">Este tema proporciona una descripción de los valores recomendados que afectan al rendimiento red.</span><span class="sxs-lookup"><span data-stu-id="ee0d5-103">This topic provides a description of recommended values   that impact network performance.</span></span>  

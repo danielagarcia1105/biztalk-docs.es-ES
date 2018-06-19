@@ -1,15 +1,15 @@
 ---
 title: Administrar ensamblados. NET, certificados y otros recursos | Documentos de Microsoft
-description: "Vínculos para agregar archivos de enlace, certificados, ensamblados, directorios virtuales, archivos y más información en el servidor BizTalk Server"
-ms.custom: 
+description: Vínculos para agregar archivos de enlace, certificados, ensamblados, directorios virtuales, archivos y más información en el servidor BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: efe27a11-19d8-4eb3-9f8c-f4336e4c3d66
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262732"
 ---
 # <a name="manage-net-assemblies-certificates-and-other-resources"></a><span data-ttu-id="b515d-103">Administrar ensamblados. NET, certificados y otros recursos</span><span class="sxs-lookup"><span data-stu-id="b515d-103">Manage .NET Assemblies, Certificates, and Other Resources</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "Cómo establecer propiedades de implementación en Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer propiedades de implementación en Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2c6752e-c50d-4dd0-ac07-bf36ca10559c
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972994"
 ---
 # <a name="how-to-set-deployment-properties-in-visual-studio"></a><span data-ttu-id="edc64-102">Cómo establecer propiedades de implementación en Visual Studio</span><span class="sxs-lookup"><span data-stu-id="edc64-102">How to Set Deployment Properties in Visual Studio</span></span>
 <span data-ttu-id="edc64-103">Para poder implementar una solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] en una aplicación de BizTalk, primero debe establecer propiedades del proyecto.</span><span class="sxs-lookup"><span data-stu-id="edc64-103">Before you can deploy a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application, you must first set project properties.</span></span> <span data-ttu-id="edc64-104">Si una solución de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contiene varios proyectos, debe configurar por separado las propiedades para cada proyecto.</span><span class="sxs-lookup"><span data-stu-id="edc64-104">If a solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contains multiple projects, you must separately configure properties for each project.</span></span>  

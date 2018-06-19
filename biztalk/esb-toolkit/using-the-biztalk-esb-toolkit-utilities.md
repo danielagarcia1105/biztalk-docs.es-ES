@@ -1,14 +1,14 @@
 ---
 title: Con las utilidades del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2dc05ac-831a-44e1-bd44-e41398552ab1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976690"
 ---
 # <a name="using-the-biztalk-esb-toolkit-utilities"></a><span data-ttu-id="1b3a4-102">Con las utilidades del Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="1b3a4-102">Using the BizTalk ESB Toolkit Utilities</span></span>
 <span data-ttu-id="1b3a4-103">Esta sección describen diversas utilidades incluidas como parte de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span><span class="sxs-lookup"><span data-stu-id="1b3a4-103">This section describes various utilities included as part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span>  

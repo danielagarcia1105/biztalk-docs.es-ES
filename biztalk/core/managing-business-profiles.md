@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263524"
 ---
 # <a name="managing-business-profiles"></a><span data-ttu-id="85462-102">Administración de perfiles de negocio</span><span class="sxs-lookup"><span data-stu-id="85462-102">Managing Business Profiles</span></span>
 <span data-ttu-id="85462-103">Un perfil de negocio representa las divisiones de negocio dentro de una organización.</span><span class="sxs-lookup"><span data-stu-id="85462-103">A business profile represents the business divisions within of an organization.</span></span> <span data-ttu-id="85462-104">Al igual que una organización puede tener distintas divisiones, una entidad puede tener varios [perfiles de negocio](http://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf).</span><span class="sxs-lookup"><span data-stu-id="85462-104">Just like an organization can have various divisions, a party can have various [business profiles](http://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf).</span></span> 

@@ -1,14 +1,14 @@
 ---
 title: Crear, ver y eliminar error mensaje alertas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59df2b40-b42c-4167-873c-0819839919da
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974450"
 ---
 # <a name="creating-viewing-and-deleting-fault-message-alerts"></a><span data-ttu-id="5a13e-102">Crear, ver y eliminar las alertas de mensaje de error</span><span class="sxs-lookup"><span data-stu-id="5a13e-102">Creating, Viewing, and Deleting Fault Message Alerts</span></span>
 <span data-ttu-id="5a13e-103">El Portal de administración de ESB pueden generar alertas cuando llegan los mensajes de error en el portal, basándose en una comparación de valores en el mensaje con los criterios especificados para la alerta.</span><span class="sxs-lookup"><span data-stu-id="5a13e-103">The ESB Management Portal can generate alerts when fault messages arrive at the portal, based on a comparison of values in the message with criteria specified for the alert.</span></span> <span data-ttu-id="5a13e-104">El portal también puede mantener una lista de notificaciones de alertas vinculado a una persona y los usuarios, y notificará a estos usuarios cuando proactivamente genera alertas.</span><span class="sxs-lookup"><span data-stu-id="5a13e-104">The portal can also maintain a list of notifications linked to individual alerts and users, and it will notify these users when it proactively raises alerts.</span></span>  

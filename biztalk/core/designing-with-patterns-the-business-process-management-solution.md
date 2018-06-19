@@ -1,11 +1,11 @@
 ---
-title: "Diseñar con patrones: la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: 'Diseñar con patrones: la solución de administración de procesos empresariales | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [process management solutions], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, programming patterns
 - designing, programming patterns
 ms.assetid: 0583f4a4-01db-4d5b-a1f5-1694c1ddbd30
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239668"
 ---
 # <a name="designing-with-patterns-the-business-process-management-solution"></a><span data-ttu-id="461a5-102">Diseñar con patrones: la solución de administración de procesos empresariales</span><span class="sxs-lookup"><span data-stu-id="461a5-102">Designing with Patterns: the Business Process Management Solution</span></span>
 <span data-ttu-id="461a5-103">La solución Administración de procesos empresariales muestra una forma de construir un administrador de procesos en una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="461a5-103">The business process management solution shows one way to construct a process manager in a BizTalk application.</span></span> <span data-ttu-id="461a5-104">La solución utiliza un componente para seleccionar y controlar la secuencia de fases en el procesamiento de pedidos.</span><span class="sxs-lookup"><span data-stu-id="461a5-104">The solution uses a component to select and control the sequence of stages in order processing.</span></span> <span data-ttu-id="461a5-105">La solución toma un pedido, que puede ser de un nuevo servicio, un cambio o cancelación del servicio, lo registra y lo confirma antes de pasarlo para su procesamiento.</span><span class="sxs-lookup"><span data-stu-id="461a5-105">The solution takes an order—which may be for new service, a change, or cancellation of service—logs it, and acknowledges the order before passing it on for processing.</span></span> <span data-ttu-id="461a5-106">El procesamiento consta de uno o más fases de control del pedido.</span><span class="sxs-lookup"><span data-stu-id="461a5-106">The processing consists of one or more stages that handle the order.</span></span> <span data-ttu-id="461a5-107">Por último, la solución devuelve una respuesta final a la solicitud de pedido original.</span><span class="sxs-lookup"><span data-stu-id="461a5-107">Finally, the solution returns a final response to the original order request.</span></span>  

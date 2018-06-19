@@ -11,7 +11,7 @@ helpviewer_keywords:
 - maps [SSO], deleting
 - managing [SSO maps], deleting user maps
 ms.assetid: de511113-b0b0-4920-91dc-4c9e380fda58
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970666"
 ---
 # <a name="how-to-delete-user-mappings"></a><span data-ttu-id="fa237-102">Cómo eliminar asignaciones de usuario</span><span class="sxs-lookup"><span data-stu-id="fa237-102">How to Delete User Mappings</span></span>
 <span data-ttu-id="fa237-103">Utilice estos comandos para eliminar una o varias asignaciones de usuario, como especificó en el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="fa237-103">Use these commands to delete one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="fa237-104">A continuación, se muestra un archivo XML de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="fa237-104">The following is an example XML file.</span></span>  
@@ -51,7 +52,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="fa237-110">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="fa237-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="fa237-111">El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="fa237-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="fa237-112">Tipo **ssomanage – deletemappings *\<asignaciones de nombre de archivo\>***, donde \<*asignaciones de nombre de archivo* \> es el nombre del archivo que contiene el asignaciones de usuarios que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="fa237-112">Type **ssomanage –deletemappings *\<mappings file name\>***, where \<*mappings file name*\> is the name of the file that contains the user mapping(s) you want to delete.</span></span>  
+3.  <span data-ttu-id="fa237-112">Tipo **ssomanage – deletemappings *\<asignaciones de nombre de archivo\>***, donde \<* asignaciones de nombre de archivo* \> es el nombre del archivo que contiene el asignaciones de usuarios que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="fa237-112">Type **ssomanage –deletemappings *\<mappings file name\>***, where \<* mappings file name*\> is the name of the file that contains the user mapping(s) you want to delete.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fa237-113">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="fa237-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="fa237-116">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="fa237-116">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="fa237-117">El directorio de instalación predeterminado es  *\<unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="fa237-117">The default installation directory is *\<drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="fa237-118">Tipo de  **ssomanage-deletemapping  *\<dominio\>*\\*\<nombre de usuario\> *  *\<nombre de la aplicación\>***, donde *\<dominio\>* es el dominio de Windows para la cuenta de usuario *\<denombredeusuario\>* es el nombre de usuario de Windows, y \<*nombre de la aplicación* \> es la aplicación específica para la que desea quitar la asignación de usuario.</span><span class="sxs-lookup"><span data-stu-id="fa237-118">Type **ssomanage –deletemapping *\<domain\>*\\*\<username\>* *\<application name\>***, where *\<domain\>* is the Windows domain for the user account, *\<username\>* is the Windows user name, and \<*application name*\> is the specific application for which you want to remove the user mapping.</span></span>  
+3.  <span data-ttu-id="fa237-118">Tipo de  **ssomanage-deletemapping  *\<dominio\>*\\*\<nombre de usuario\> *  *\<nombre de la aplicación\>***, donde *\<dominio\>* es el dominio de Windows para la cuenta de usuario *\<denombredeusuario\>* es el nombre de usuario de Windows, y \<* nombre de la aplicación* \> es la aplicación específica para la que desea quitar la asignación de usuario.</span><span class="sxs-lookup"><span data-stu-id="fa237-118">Type **ssomanage –deletemapping *\<domain\>*\\*\<username\>* *\<application name\>***, where *\<domain\>* is the Windows domain for the user account, *\<username\>* is the Windows user name, and \<* application name*\> is the specific application for which you want to remove the user mapping.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fa237-119">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="fa237-119">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

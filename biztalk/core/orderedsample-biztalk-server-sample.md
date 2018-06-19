@@ -1,11 +1,11 @@
 ---
 title: OrderedSample (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, orchestrations
 - MQSeries adapters, examples
 ms.assetid: 7e59ff43-d425-40cd-9725-af13084f83d9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974754"
 ---
 # <a name="orderedsample-biztalk-server-sample"></a><span data-ttu-id="2417f-102">OrderedSample (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="2417f-102">OrderedSample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="2417f-103">El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y enviar un serie ordenada de mensajes en un modo de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="2417f-103">The OrderedSample sample demonstrates how to use an orchestration to receive and send an ordered series of messages in a round-trip fashion.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="2417f-111">La orquestación puede recibir lotes de mensajes, así como un único mensaje.</span><span class="sxs-lookup"><span data-stu-id="2417f-111">The orchestration can receive batches of messages and single messages.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="2417f-112">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="2417f-112">Where to Find This Sample</span></span>  
- <span data-ttu-id="2417f-113">*\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample</span><span class="sxs-lookup"><span data-stu-id="2417f-113">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample</span></span>  
+ <span data-ttu-id="2417f-113">*\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample</span><span class="sxs-lookup"><span data-stu-id="2417f-113">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample</span></span>  
   
  <span data-ttu-id="2417f-114">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="2417f-114">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -73,11 +74,11 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="2417f-140">Haga clic en **colas**, seleccione **New**y, a continuación, haga clic en **cola Local**.</span><span class="sxs-lookup"><span data-stu-id="2417f-140">Right-click **Queues**, point to **New**, and then click **Local Queue**.</span></span>  
   
-4.  <span data-ttu-id="2417f-141">En **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue1"**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2417f-141">In **Create Local Queue** dialog box, in **Queue Name**, type **"queue1"**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="2417f-141">En **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue1"** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2417f-141">In **Create Local Queue** dialog box, in **Queue Name**, type **"queue1"**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="2417f-142">Haga clic en **colas**, haga clic en **New**y, a continuación, haga clic en **cola Local**.</span><span class="sxs-lookup"><span data-stu-id="2417f-142">Right-click **Queues**, click **New**, and then click **Local Queue**.</span></span>  
   
-6.  <span data-ttu-id="2417f-143">En el **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue2"**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2417f-143">In the **Create Local Queue** dialog box, in **Queue Name**, type **"queue2"**, and then click **OK**.</span></span>  
+6.  <span data-ttu-id="2417f-143">En el **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue2"** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2417f-143">In the **Create Local Queue** dialog box, in **Queue Name**, type **"queue2"**, and then click **OK**.</span></span>  
   
 ## <a name="creating-the-receive-location-and-the-mqseries-queue"></a><span data-ttu-id="2417f-144">Crear la ubicación de recepción y la cola MQSeries</span><span class="sxs-lookup"><span data-stu-id="2417f-144">Creating the Receive Location and the MQSeries Queue</span></span>  
  <span data-ttu-id="2417f-145">Este procedimiento crea el puerto de envío y la ubicación de recepción para enviar el mensaje y recibir el mensaje de correlación de MQSeries.</span><span class="sxs-lookup"><span data-stu-id="2417f-145">This procedure creates the send port and receive location to send the message to and receive the correlation message from MQSeries.</span></span> <span data-ttu-id="2417f-146">La cola MQSeries también se creará al crear la ubicación de recepción si no se ha creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="2417f-146">The MQSeries queue will also be created when you create the receive location if not already created.</span></span>  

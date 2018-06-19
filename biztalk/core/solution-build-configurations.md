@@ -1,11 +1,11 @@
 ---
-title: "Configuraciones de compilación de soluciones | Documentos de Microsoft"
-ms.custom: 
+title: Configuraciones de compilación de soluciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Configuration Manager
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - solutions, developing
 - solutions, build configuration
 ms.assetid: 6f2cce47-388d-4c93-9146-768f53b8207e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006909"
 ---
 # <a name="solution-build-configurations"></a><span data-ttu-id="ae442-102">Configuraciones de generación de soluciones</span><span class="sxs-lookup"><span data-stu-id="ae442-102">Solution Build Configurations</span></span>
 <span data-ttu-id="ae442-103">Al igual que ocurre con otros proyectos generados en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], es posible utilizar el Administrador de configuración para especificar configuraciones de generación de soluciones.</span><span class="sxs-lookup"><span data-stu-id="ae442-103">As with other projects that you build in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], you can use Configuration Manager to specify solution build configurations.</span></span> <span data-ttu-id="ae442-104">Las configuraciones de generación de soluciones permiten seleccionar qué proyectos se incluirán en las diferentes generaciones de una solución y si se van a implementar.</span><span class="sxs-lookup"><span data-stu-id="ae442-104">Solution build configurations enable you to determine which projects to include in builds of a solution and if they will be deployed.</span></span> <span data-ttu-id="ae442-105">BizTalk Server admite tanto **depurar** y **versión** configuraciones de compilación.</span><span class="sxs-lookup"><span data-stu-id="ae442-105">BizTalk Server supports both **Debug** and **Release** build configurations.</span></span>  

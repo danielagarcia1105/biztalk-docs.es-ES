@@ -1,15 +1,15 @@
 ---
 title: Habilitar los puntos de extensibilidad de WCF con los adaptadores de WCF | Documentos de Microsoft
-description: "Instalar ensamblados, configurar machine.config, agregar la extensión al administrador de BizTalk, crear ubicación de recepción para habilitar puntos de extensibilidad WCF para los adaptadores de WCF en BizTalk Server"
-ms.custom: 
+description: Instalar ensamblados, configurar machine.config, agregar la extensión al administrador de BizTalk, crear ubicación de recepción para habilitar puntos de extensibilidad WCF para los adaptadores de WCF en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c2af105-5272-4a6a-95d2-066312ab788e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975418"
 ---
 # <a name="how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters"></a><span data-ttu-id="8a46d-103">Cómo habilitar los puntos de extensibilidad WCF con los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="8a46d-103">How to Enable the WCF Extensibility Points with the WCF Adapters</span></span>
 <span data-ttu-id="8a46d-104">Habilitar tres puntos de extensibilidad WCF: extensión de comportamiento, extensión de elemento de enlace y extensión de enlace, con los adaptadores de WCF-Custom y WCF-CustomIsolated.</span><span class="sxs-lookup"><span data-stu-id="8a46d-104">Enable three WCF extensibility points—behavior extension, binding element extension, and binding extension—with the WCF-Custom and WCF-CustomIsolated adapters.</span></span> <span data-ttu-id="8a46d-105">Para ello, primero instale los ensamblados que implementan los puntos de extensibilidad WCF en la caché de ensamblado global (GAC), a continuación, modifique el archivo machine.config de su equipo y configure el adaptador de WCF-Custom o el WCF-CustomIsolated mediante la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="8a46d-105">To do so, you first install the assemblies implementing the WCF extensibility points in the global assembly cache (GAC), then modify the machine.config file on your computers, and then configure the WCF-Custom or the WCF-CustomIsolated adapter by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

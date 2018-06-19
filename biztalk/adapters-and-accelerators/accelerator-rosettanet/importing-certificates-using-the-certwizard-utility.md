@@ -1,11 +1,11 @@
 ---
-title: "Importación de certificados mediante la utilidad CertWizard | Documentos de Microsoft"
-ms.custom: 
+title: Importación de certificados mediante la utilidad CertWizard | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, root keys
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - certificates, importing
 - root keys
 ms.assetid: 0c54d7ab-69cf-4f4a-b976-6f740a41280b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006845"
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a><span data-ttu-id="ff606-102">Importación de certificados mediante la utilidad CertWizard</span><span class="sxs-lookup"><span data-stu-id="ff606-102">Importing Certificates Using the CertWizard Utility</span></span>
 <span data-ttu-id="ff606-103">Este tema describe cómo importar un certificado mediante la utilidad CertWizard, una utilidad de línea de comandos paso a paso disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK.</span><span class="sxs-lookup"><span data-stu-id="ff606-103">This topic describes how to import a certificate by using CertWizard utility, a step-by-step command-line utility available in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK.</span></span> <span data-ttu-id="ff606-104">Este tema describe la importación de una privada, pública o clave raíz.</span><span class="sxs-lookup"><span data-stu-id="ff606-104">This topic discusses importing a private, public, or root key.</span></span> <span data-ttu-id="ff606-105">Describe los modificadores que utilizan para configurar el certificado.</span><span class="sxs-lookup"><span data-stu-id="ff606-105">It describes the switches that you use to configure the certificate.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 01/17/2018
   
 ### <a name="to-import-a-private-key"></a><span data-ttu-id="ff606-111">Para importar una clave privada</span><span class="sxs-lookup"><span data-stu-id="ff606-111">To import a private key</span></span>  
   
-1.  <span data-ttu-id="ff606-112">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-112">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="ff606-112">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-112">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="ff606-113">En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK con MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** .</span><span class="sxs-lookup"><span data-stu-id="ff606-113">At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** .</span></span>  
   
@@ -72,7 +73,7 @@ ms.lasthandoff: 01/17/2018
   
 ### <a name="to-import-a-public-key"></a><span data-ttu-id="ff606-135">Para importar una clave pública</span><span class="sxs-lookup"><span data-stu-id="ff606-135">To import a public key</span></span>  
   
-1.  <span data-ttu-id="ff606-136">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-136">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="ff606-136">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-136">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="ff606-137">En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.</span><span class="sxs-lookup"><span data-stu-id="ff606-137">At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK**.</span></span>  
   
@@ -84,7 +85,7 @@ ms.lasthandoff: 01/17/2018
   
 ### <a name="to-import-a-root-key"></a><span data-ttu-id="ff606-141">Para importar una clave raíz</span><span class="sxs-lookup"><span data-stu-id="ff606-141">To import a root key</span></span>  
   
-1.  <span data-ttu-id="ff606-142">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-142">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="ff606-142">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff606-142">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="ff606-143">En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.</span><span class="sxs-lookup"><span data-stu-id="ff606-143">At the command prompt, move to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK folder by using the MS-DOS **CD** command, for example, type **cd C:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK**.</span></span>  
   

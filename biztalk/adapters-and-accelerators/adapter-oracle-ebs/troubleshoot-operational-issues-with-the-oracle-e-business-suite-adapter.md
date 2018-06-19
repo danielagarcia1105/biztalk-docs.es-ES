@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de funcionamiento con el adaptador de Oracle E-Business Suite | Documentos de Microsoft
-description: "Problemas comunes y soluciones para el adaptador de Oracle EBS en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Problemas comunes y soluciones para el adaptador de Oracle EBS en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 667633e0-055a-418a-ab64-d4f6e6c7a898
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010205"
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter"></a><span data-ttu-id="9b0c0-103">Solucionar problemas de funcionamiento con el adaptador de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="9b0c0-103">Troubleshoot Operational Issues with the Oracle E-Business Suite adapter</span></span>
 <span data-ttu-id="9b0c0-104">Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="9b0c0-104">This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Conjuntos de transacciones HIPAA | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d659d3d-ada4-4bbc-9005-6c5caad394c1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005757"
 ---
 # <a name="hipaa-transaction-sets"></a><span data-ttu-id="471b3-102">Conjuntos de transacciones de HIPAA</span><span class="sxs-lookup"><span data-stu-id="471b3-102">HIPAA Transaction Sets</span></span>
 <span data-ttu-id="471b3-103">Este tema describe los conjuntos de transacciones HIPAA y las versiones son compatibles con BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="471b3-103">This topic describes the HIPAA transaction sets and versions that are supported by BizTalk Server.</span></span>  

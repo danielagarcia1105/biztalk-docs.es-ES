@@ -18,7 +18,7 @@ helpviewer_keywords:
 - managing [SSO], disabling
 - SSO, administrator accounts
 ms.assetid: 6c300e09-b781-45de-b2da-b1083164a1c0
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972722"
 ---
 # <a name="how-to-specify-sso-administrators-and-affiliate-administrators-accounts"></a><span data-ttu-id="76b5d-102">Cómo especificar administradores de SSO y los administradores afiliados de cuentas</span><span class="sxs-lookup"><span data-stu-id="76b5d-102">How to Specify SSO Administrators and Affiliate Administrators Accounts</span></span>
 <span data-ttu-id="76b5d-103">Las cuentas de administradores de inicio de sesión único (SSO) empresarial y las cuentas de administradores afiliados pueden ser individuales o de grupo de hosts.</span><span class="sxs-lookup"><span data-stu-id="76b5d-103">The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators accounts can be host group or individual accounts.</span></span> <span data-ttu-id="76b5d-104">Debe crear estas cuentas antes de configurar el sistema de SSO.</span><span class="sxs-lookup"><span data-stu-id="76b5d-104">You must create these accounts before you configure the SSO system.</span></span>  

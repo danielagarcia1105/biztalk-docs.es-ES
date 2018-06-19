@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos con el adaptador de FTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e58f2db-9ec5-41fe-af02-9a7d60a217db
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010093"
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a><span data-ttu-id="dc8ec-102">Problemas conocidos del adaptador de FTP</span><span class="sxs-lookup"><span data-stu-id="dc8ec-102">Known Issues with the FTP Adapter</span></span>
 <span data-ttu-id="dc8ec-103">Esta sección contiene información que puede servir de ayuda para evitar errores.</span><span class="sxs-lookup"><span data-stu-id="dc8ec-103">This section contains information that may help you avoid errors.</span></span>  

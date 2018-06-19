@@ -1,17 +1,17 @@
 ---
 title: Combinar documentos XML | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML, documents
 - process management solution tutorial, merging XML documents
 ms.assetid: 444c983a-397a-4342-85e1-80bb152986d9
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262644"
 ---
 # <a name="merging-xml-documents"></a><span data-ttu-id="257ed-102">Combinar documentos XML</span><span class="sxs-lookup"><span data-stu-id="257ed-102">Merging XML Documents</span></span>
 <span data-ttu-id="257ed-103">Uno de los mensajes que el **OrderBroker** orquestación crea consta de uno o actualizar la base de datos de historial de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="257ed-103">One of the messages that the **OrderBroker** orchestration creates is one to update the SQL Server history database.</span></span> <span data-ttu-id="257ed-104">Este mensaje contiene campos del mensaje de pedido así como del mensaje de pedido original.</span><span class="sxs-lookup"><span data-stu-id="257ed-104">This message contains fields from the order message as well as the original order message.</span></span> <span data-ttu-id="257ed-105">El pedido original aparece en este mensaje en forma de cadena.</span><span class="sxs-lookup"><span data-stu-id="257ed-105">The original order appears in this message a string.</span></span> <span data-ttu-id="257ed-106">Esto coincide con el tipo de datos del historial de pedidos de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="257ed-106">This matches the data type for the order history in the database.</span></span>  

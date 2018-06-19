@@ -1,14 +1,14 @@
 ---
 title: Lectura de Batchdescriptions desde la base de datos no se pudo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f959aa35-d957-45b0-bfac-1134b5087d0c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268660"
 ---
 # <a name="reading-batch-descriptions-from-database-failed"></a><span data-ttu-id="dbf52-102">Error en la lectura de BatchDescriptions desde la base de datos</span><span class="sxs-lookup"><span data-stu-id="dbf52-102">Reading Batch Descriptions from database failed</span></span>
 ## <a name="details"></a><span data-ttu-id="dbf52-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="dbf52-103">Details</span></span>  

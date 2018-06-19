@@ -1,14 +1,14 @@
 ---
 title: Ejemplo FileTransport | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a32c8cbf-0c17-4237-b2a3-9d21faa13496
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005005"
 ---
 # <a name="filetransport-sample"></a><span data-ttu-id="cf51a-102">Ejemplo de FileTransport</span><span class="sxs-lookup"><span data-stu-id="cf51a-102">FileTransport Sample</span></span>
 <span data-ttu-id="cf51a-103">El ejemplo FileTransport muestra cómo configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utilice puertos de archivo, en lugar de los puertos SQL.</span><span class="sxs-lookup"><span data-stu-id="cf51a-103">The FileTransport sample demonstrates how to configure [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to use File ports, instead of SQL ports.</span></span> <span data-ttu-id="cf51a-104">El ejemplo FileTransport usa el protocolo de transferencia de archivos (FTP) para enviar y recibir mensajes, en lugar de HTTP.</span><span class="sxs-lookup"><span data-stu-id="cf51a-104">The FileTransport sample uses File Transport Protocol (FTP) to send and receive messages, instead of HTTP.</span></span>  

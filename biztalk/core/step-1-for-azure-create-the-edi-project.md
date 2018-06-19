@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1 (para Azure): Crear el proyecto EDI | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d353129-04f0-456b-b371-b346959f5155
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010005"
 ---
 # <a name="step-1-for-azure-create-the-edi-project"></a><span data-ttu-id="e137b-102">Paso 1 (para Azure): Crear el proyecto EDI</span><span class="sxs-lookup"><span data-stu-id="e137b-102">Step 1 (For Azure): Create the EDI Project</span></span>
 <span data-ttu-id="e137b-103">En esta sección, Contoso crea un proyecto de EDI con la versión de [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] de abril de 2012.</span><span class="sxs-lookup"><span data-stu-id="e137b-103">In this section, Contoso creates an EDI project using the [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] April 2012 release.</span></span> <span data-ttu-id="e137b-104">Como parte del proyecto, Contoso agrega lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="e137b-104">As part of the project, Contoso adds the following:</span></span>  

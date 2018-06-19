@@ -1,11 +1,11 @@
 ---
-title: "Cómo desarrollar vocabularios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo desarrollar vocabularios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, vocabularies
 - vocabularies, creating
 ms.assetid: 5c16eb98-2257-44f2-8a29-899e02f7e556
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249060"
 ---
 # <a name="how-to-develop-vocabularies"></a><span data-ttu-id="8e6b0-102">Cómo desarrollar vocabularios</span><span class="sxs-lookup"><span data-stu-id="8e6b0-102">How to Develop Vocabularies</span></span>
 <span data-ttu-id="8e6b0-103">Las condiciones y acciones de reglas se basan en orígenes que pueden tener información de enlace detallada y de difícil lectura y que cuentan al usuario poco o nada acerca de aquello a lo que se refieren.</span><span class="sxs-lookup"><span data-stu-id="8e6b0-103">Rule conditions and actions are based on sources that may have detailed, difficult-to-read binding information that tells the user little or nothing about what they refer to.</span></span> <span data-ttu-id="8e6b0-104">El marco de trabajo de reglas de negocios permite crear vocabularios para simplificar el desarrollo de reglas mediante terminología intuitiva para el usuario y específica del dominio, y que los usuarios pueden asociar con condiciones y acciones de reglas.</span><span class="sxs-lookup"><span data-stu-id="8e6b0-104">The Business Rules Framework enables you to create vocabularies to simplify the development of rules by offering users intuitive, domain-specific terminology that users can associate with rule conditions and actions.</span></span>  

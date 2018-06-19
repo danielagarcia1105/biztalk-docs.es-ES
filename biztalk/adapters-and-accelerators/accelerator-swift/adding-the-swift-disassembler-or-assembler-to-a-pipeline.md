@@ -1,11 +1,11 @@
 ---
-title: "Agregar el SWIFT Desensamblador o ensamblador a una canalización | Documentos de Microsoft"
-ms.custom: 
+title: Agregar el SWIFT Desensamblador o ensamblador a una canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, adding assembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipelines, adding disassembler
 - disassembler, adding to pipelines
 ms.assetid: f39eb340-fe58-4c8f-b3f2-f7686a245095
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005253"
 ---
 # <a name="adding-the-swift-disassembler-or-assembler-to-a-pipeline"></a><span data-ttu-id="aa9ef-102">Agregar el SWIFT Desensamblador o ensamblador a una canalización</span><span class="sxs-lookup"><span data-stu-id="aa9ef-102">Adding the SWIFT Disassembler or Assembler to a Pipeline</span></span>
 <span data-ttu-id="aa9ef-103">Puede utilizar el Diseñador de canalizaciones de BizTalk con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] crear personalizado BizTalk canalizaciones de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-103">You can use BizTalk Pipeline Designer with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] to create custom BizTalk receive and send pipelines.</span></span> <span data-ttu-id="aa9ef-104">Puede utilizar el Desensamblador SWIFT para la fase "desensamblar" en una canalización de recepción personalizada.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-104">You can use the SWIFT disassembler for the "disassemble" stage in a custom receive pipeline.</span></span> <span data-ttu-id="aa9ef-105">De forma similar, puede utilizar el ensamblador SWIFT para la fase "montar" en una canalización de envío personalizada.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-105">Similarly, you can use the SWIFT assembler for the "assemble" stage in a custom send pipeline.</span></span> <span data-ttu-id="aa9ef-106">Para invocar el SWIFT Desensamblador o ensamblador desde el cuadro de herramientas del Diseñador de canalizaciones, arrastra el Desensamblador o ensamblador la etapa de canalización correspondiente en el lienzo del Diseñador de canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-106">To invoke the SWIFT disassembler or assembler from the Pipeline Designer toolbox, you drag the disassembler or assembler onto the corresponding pipeline stage on the Pipeline Designer canvas.</span></span> <span data-ttu-id="aa9ef-107">Para obtener instrucciones paso a paso sobre cómo invocar el Desensamblador o ensamblador, consulte [módulo 3: agregar un proyecto de canalización](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md) en el Tutorial de extremo a extremo.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-107">For step-by-step instructions about invoking the disassembler or assembler, see [Module 3: Adding a Pipeline Project](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md) in the End-to-End Tutorial.</span></span> <span data-ttu-id="aa9ef-108">Para obtener más información sobre el Diseñador de canalizaciones o trabajar con proyectos de canalización, consulte la Ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="aa9ef-108">For more information about the Pipeline Designer or working with pipeline projects, see BizTalk Server Help.</span></span>  

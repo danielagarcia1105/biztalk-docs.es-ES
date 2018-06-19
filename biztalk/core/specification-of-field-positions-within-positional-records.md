@@ -1,14 +1,14 @@
 ---
-title: "Especificación de posiciones de campo en los registros posicionales | Documentos de Microsoft"
-ms.custom: 
+title: Especificación de posiciones de campo en los registros posicionales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33c2eee3-ec30-46c5-a143-a3d2e2f265a6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279348"
 ---
 # <a name="specification-of-field-positions-within-positional-records"></a><span data-ttu-id="9f554-102">Especificación de posiciones de campo en los registros posicionales</span><span class="sxs-lookup"><span data-stu-id="9f554-102">Specification of Field Positions within Positional Records</span></span>
 <span data-ttu-id="9f554-103">Para definir un registro posicional, debe proporcionar información acerca de las posiciones y longitudes de los campos de ese registro.</span><span class="sxs-lookup"><span data-stu-id="9f554-103">To define a positional record, you must provide information about the positions and lengths of the fields within that record.</span></span> <span data-ttu-id="9f554-104">Si el registro contiene un subregistro, las posiciones y longitudes de los campos del subregistro se acumulan a la información del registro que lo contiene.</span><span class="sxs-lookup"><span data-stu-id="9f554-104">If the record contains subrecords, the positions and lengths of the fields in the subrecord are rolled up to contribute to the information about the containing record.</span></span>  

@@ -1,15 +1,15 @@
 ---
 title: Problemas conocidos del Acelerador para RosettaNet en BizTalk Server | Documentos de Microsoft
-description: "Consulte los problemas conocidos y soluciones con 0A1 notificación de error, BAM, instalación y configuración y más en BTARN en BizTalk Server"
-caps.latest.revision: "11"
+description: Consulte los problemas conocidos y soluciones con 0A1 notificación de error, BAM, instalación y configuración y más en BTARN en BizTalk Server
+caps.latest.revision: 11
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010781"
 ---
 # <a name="known-issues"></a><span data-ttu-id="4c8cb-103">Problemas conocidos</span><span class="sxs-lookup"><span data-stu-id="4c8cb-103">Known Issues</span></span>
 <span data-ttu-id="4c8cb-104">Esta sección contiene información útil que puede ayudar a evitar errores con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4c8cb-104">This section contains useful information that may help you avoid errors with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="4c8cb-105">Los problemas conocidos se agrupan en las siguientes áreas:</span><span class="sxs-lookup"><span data-stu-id="4c8cb-105">The known issues are grouped into the following areas:</span></span>  
@@ -194,7 +195,7 @@ GO
  <span data-ttu-id="4c8cb-239">Si tiene que iniciar sesión o enviar una descripción del error, puede personalizar el código de aspx para que tenga el texto real que se devuelve en la respuesta.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-239">If you need to log or send an error description, you can customize the aspx code to have the actual text returned in the response.</span></span> <span data-ttu-id="4c8cb-240">Para ello, utilice HttpResponse.Status (que es el objeto de respuesta de la solicitud asp intrínsecos) o HttpWebResponse.StatusDescription (que es devuelto por la [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] llamada al método del objeto HttpWebRequest).</span><span class="sxs-lookup"><span data-stu-id="4c8cb-240">To do so, use HttpResponse.Status (which is the intrinsic asp request’s response object) or HttpWebResponse.StatusDescription (which is returned by the [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] call to the HttpWebRequest object’s GetResponse method).</span></span> <span data-ttu-id="4c8cb-241">Para devolver los valores devueltos de uno de los objetos de respuesta es aplicable, establezca el valor de Response.Status similar a cómo Response.StatusCode se establece en el código aspx que se suministra con [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4c8cb-241">To return the return values from one of the applicable response objects, set the Response.Status value similar to how Response.StatusCode is set in the aspx code that ships with [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].</span></span>  
   
 ### <a name="rnif-11-messages-cannot-be-read-in-plain-text-from-non-repudiation-tables-if-the-encoding-method-is-set-to-base64"></a><span data-ttu-id="4c8cb-242">Mensajes de RNIF 1.1 no se puede leer en texto sin formato de tablas sin repudio, si se establece el método de codificación en Base64</span><span class="sxs-lookup"><span data-stu-id="4c8cb-242">RNIF 1.1 messages cannot be read in plain text from non-repudiation tables if the encoding method is set to Base64</span></span>  
- <span data-ttu-id="4c8cb-243">Esto sólo ocurre si se establece el método de codificación en Base64.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-243">This only happens if the encoding method is set to Base64.</span></span> <span data-ttu-id="4c8cb-244">Si el método de codificación se establece en Entrecomillado imprimible o de 8 bits, los mensajes pueden leerse en texto no cifrado de tablas sin repudio.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-244">Messages can be read in clear text from non-repudiation tables if encoding method is set to quoted-printable or 8-bit.</span></span> <span data-ttu-id="4c8cb-245">Debe guardar el archivo de mensaje con la extensión *.eml y, a continuación, abrirlo con Outlook Express para leer el mensaje y Outlook Express descodifica el mensaje para usted.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-245">You need to save the message file with *.eml extension and then open it using Outlook Express to read the message and Outlook Express will decode the message for you.</span></span> <span data-ttu-id="4c8cb-246">También puede usar el código siguiente para leer los mensajes con codificación Base64 de tablas sin repudio.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-246">You may also use the code below to read the Base64 encoded messages from non-repudiation tables.</span></span>  
+ <span data-ttu-id="4c8cb-243">Esto sólo ocurre si se establece el método de codificación en Base64.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-243">This only happens if the encoding method is set to Base64.</span></span> <span data-ttu-id="4c8cb-244">Si el método de codificación se establece en Entrecomillado imprimible o de 8 bits, los mensajes pueden leerse en texto no cifrado de tablas sin repudio.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-244">Messages can be read in clear text from non-repudiation tables if encoding method is set to quoted-printable or 8-bit.</span></span> <span data-ttu-id="4c8cb-245">Debe guardar el archivo de mensaje con la extensión \*.eml y, a continuación, abrirlo con Outlook Express para leer el mensaje y Outlook Express descodifica el mensaje para usted.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-245">You need to save the message file with \*.eml extension and then open it using Outlook Express to read the message and Outlook Express will decode the message for you.</span></span> <span data-ttu-id="4c8cb-246">También puede usar el código siguiente para leer los mensajes con codificación Base64 de tablas sin repudio.</span><span class="sxs-lookup"><span data-stu-id="4c8cb-246">You may also use the code below to read the Base64 encoded messages from non-repudiation tables.</span></span>  
   
 ```  
 byte[] textBytes = Convert.FromBase64String(txtEncodedText.Text);  

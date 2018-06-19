@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de administración de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de administración de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dfb56b0-352f-4012-b030-087bbcfe09d4
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975082"
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a><span data-ttu-id="2c83b-102">Solución de problemas de administración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="2c83b-102">Troubleshooting BizTalk Server Administration</span></span>
 <span data-ttu-id="2c83b-103">En esta sección se proporciona una ubicación centralizada de información sobre problemas comunes que se pueden producir al usar la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="2c83b-103">This section provides a centralized location for information about common problems encountered while using the BizTalk Server Administration console.</span></span>  

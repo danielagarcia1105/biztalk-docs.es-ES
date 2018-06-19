@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Realización de comprobaciones de mantenimiento diario | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Realización de comprobaciones de mantenimiento diario | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1abae6fb-abce-4f23-a07d-b32ba58cd070
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007877"
 ---
 # <a name="checklist-performing-daily-maintenance-checks"></a><span data-ttu-id="f798b-102">Lista de comprobación: Realización de comprobaciones de mantenimiento diario</span><span class="sxs-lookup"><span data-stu-id="f798b-102">Checklist: Performing Daily Maintenance Checks</span></span>
 <span data-ttu-id="f798b-103">En este tema se describe algunos de los elementos que se deben comprobar diariamente para ayudar a supervisar el estado de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="f798b-103">This topic describes some of the items that you should check on a daily basis to help monitor the status of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span> <span data-ttu-id="f798b-104">Debe realizar la mayor parte de estas comprobaciones de forma coherente y archivar los resultados durante un período de tiempo para obtener la mayor ventaja.</span><span class="sxs-lookup"><span data-stu-id="f798b-104">You must perform most of these checks consistently and archive the results over a period of time to obtain the greatest benefit.</span></span> <span data-ttu-id="f798b-105">Se recomienda que automaticen las comprobaciones de mantenimiento rutinarias siempre que sea posible.</span><span class="sxs-lookup"><span data-stu-id="f798b-105">We recommend that you automate routine maintenance checks whenever possible.</span></span>  

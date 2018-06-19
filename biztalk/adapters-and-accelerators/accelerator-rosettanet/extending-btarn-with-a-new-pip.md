@@ -1,18 +1,18 @@
 ---
 title: Extender BTARN con un PIP nueva | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, extending functionality
 - PIPs, extending BTARN
 - BTARN, PIPs
 ms.assetid: 3db5cd5c-031f-4451-9be5-4b5d6163c3b1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007181"
 ---
 # <a name="extending-btarn-with-a-new-pip"></a><span data-ttu-id="7c225-102">Extender BTARN con un PIP nueva</span><span class="sxs-lookup"><span data-stu-id="7c225-102">Extending BTARN with a New PIP</span></span>
 <span data-ttu-id="7c225-103">Este tema describe cómo extender [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] con un nuevo esquema de proceso de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="7c225-103">This topic describes how to extend [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] with a new Partner Interface Process (PIP) schema.</span></span> <span data-ttu-id="7c225-104">Esto le permite agregar un esquema basado en un PIP de RosettaNet cuando ese PIP no está asociado con ninguno de los esquemas que instala el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="7c225-104">This lets you add a schema based on a RosettaNet PIP when that PIP is not associated with any of the schemas installed by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program.</span></span>  
@@ -29,7 +30,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-extend-btarn-with-a-new-pip"></a><span data-ttu-id="7c225-108">Para ampliar BTARN con un PIP nueva</span><span class="sxs-lookup"><span data-stu-id="7c225-108">To extend BTARN with a new PIP</span></span>  
   
-1.  <span data-ttu-id="7c225-109">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7c225-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="7c225-109">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7c225-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="7c225-110">En el símbolo del sistema, vaya a \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.</span><span class="sxs-lookup"><span data-stu-id="7c225-110">At the command prompt, move to \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.</span></span>  
   
@@ -50,7 +51,7 @@ ms.lasthandoff: 12/01/2017
   
 9. <span data-ttu-id="7c225-118">Inicie el símbolo del sistema de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="7c225-118">Start Visual Studio command prompt.</span></span>  
   
-10. <span data-ttu-id="7c225-119">En el símbolo del sistema, vaya a la ubicación especificada en el paso 7, tipo **sn -k \<proyecto name.snk\>**y, a continuación, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="7c225-119">At the command prompt, move to the location entered in step 7, type **sn -k \<project name.snk\>**, and then press **Enter**.</span></span>  
+10. <span data-ttu-id="7c225-119">En el símbolo del sistema, vaya a la ubicación especificada en el paso 7, tipo **sn -k \<proyecto name.snk\>** y, a continuación, presione **ENTRAR**.</span><span class="sxs-lookup"><span data-stu-id="7c225-119">At the command prompt, move to the location entered in step 7, type **sn -k \<project name.snk\>**, and then press **Enter**.</span></span>  
   
 11. <span data-ttu-id="7c225-120">En el Explorador de soluciones, haga clic en el nombre del proyecto y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="7c225-120">In Solutions Explorer, right-click the project name, and then click **Properties**.</span></span>  
   
@@ -107,7 +108,7 @@ ms.lasthandoff: 12/01/2017
   
 32. <span data-ttu-id="7c225-161">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="7c225-161">Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
   
-33. <span data-ttu-id="7c225-162">En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, expanda **Hosts**.</span><span class="sxs-lookup"><span data-stu-id="7c225-162">In BizTalk Administration Console, expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, and then expand **Hosts**.</span></span> <span data-ttu-id="7c225-163">En **Host**, haga clic en **BizTalkServerApplication**.</span><span class="sxs-lookup"><span data-stu-id="7c225-163">Under **Host**, click **BizTalkServerApplication**.</span></span>  
+33. <span data-ttu-id="7c225-162">En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, expanda **Hosts**.</span><span class="sxs-lookup"><span data-stu-id="7c225-162">In BizTalk Administration Console, expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, and then expand **Hosts**.</span></span> <span data-ttu-id="7c225-163">En **Host**, haga clic en **BizTalkServerApplication**.</span><span class="sxs-lookup"><span data-stu-id="7c225-163">Under **Host**, click **BizTalkServerApplication**.</span></span>  
   
 34. <span data-ttu-id="7c225-164">En el panel derecho, haga clic en el nombre del host y, a continuación, haga clic en **reiniciar**.</span><span class="sxs-lookup"><span data-stu-id="7c225-164">In the right pane, right-click the name of the host, and then click **Restart**.</span></span>  
   

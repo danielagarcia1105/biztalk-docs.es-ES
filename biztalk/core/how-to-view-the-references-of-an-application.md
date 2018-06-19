@@ -1,17 +1,17 @@
 ---
-title: "Cómo ver las referencias de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver las referencias de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, viewing
 - applications, referencing
 ms.assetid: 5f1026e1-c73e-495d-8160-9ba68f38b9d8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256652"
 ---
 # <a name="how-to-view-the-references-of-an-application"></a><span data-ttu-id="8f53d-102">Cómo ver las referencias de una aplicación</span><span class="sxs-lookup"><span data-stu-id="8f53d-102">How to View the References of an Application</span></span>
 <span data-ttu-id="8f53d-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para ver la lista de aplicaciones a las que hace referencia la aplicación actual.</span><span class="sxs-lookup"><span data-stu-id="8f53d-103">This topic describes how to use the BizTalk Server Administration console to view the list of applications to which the current application has references.</span></span> <span data-ttu-id="8f53d-104">Para obtener más información sobre cómo agregar referencias, vea [cómo agregar una referencia a otra aplicación](../core/how-to-add-a-reference-to-another-application.md).</span><span class="sxs-lookup"><span data-stu-id="8f53d-104">For more information about adding references, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md).</span></span> <span data-ttu-id="8f53d-105">También puede ver la lista de aplicaciones que incluyen referencias a esta aplicación.</span><span class="sxs-lookup"><span data-stu-id="8f53d-105">You can also view the list of applications that have references to this application.</span></span>  

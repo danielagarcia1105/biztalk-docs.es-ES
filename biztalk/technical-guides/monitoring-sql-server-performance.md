@@ -1,15 +1,15 @@
 ---
 title: Supervisar el rendimiento de SQL Server | Documentos de Microsoft
-description: "Supervisar las bases de datos de BizTalk Server mediante herramientas de rendimiento, Monitor de actividad y la recopilación de datos"
-ms.custom: 
+description: Supervisar las bases de datos de BizTalk Server mediante herramientas de rendimiento, Monitor de actividad y la recopilación de datos
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 020fa764-968e-467c-b146-d069f5606a0f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007901"
 ---
 # <a name="monitor-sql-server-performance"></a><span data-ttu-id="1b427-103">Supervisar el rendimiento de SQL Server</span><span class="sxs-lookup"><span data-stu-id="1b427-103">Monitor SQL Server Performance</span></span>
 <span data-ttu-id="1b427-104">SQL Server proporciona varias herramientas para supervisar los eventos de SQL Server y para optimizar el diseño físico de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="1b427-104">SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design.</span></span> <span data-ttu-id="1b427-105">[Herramientas para la supervisión de rendimiento y optimización](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describe estas herramientas.</span><span class="sxs-lookup"><span data-stu-id="1b427-105">[Tools for Performance Monitoring and Tuning](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describes these tools.</span></span> 

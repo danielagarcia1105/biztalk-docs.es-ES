@@ -1,14 +1,14 @@
 ---
-title: "Documentación de BizTalk Server core | Documentos de Microsoft"
-ms.custom: 
+title: Documentación de BizTalk Server core | Documentos de Microsoft
+ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
-caps.latest.revision: "48"
+caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005389"
 ---
 # <a name="biztalk-server-core-documentation"></a><span data-ttu-id="737e9-102">Documentación de BizTalk Server core</span><span class="sxs-lookup"><span data-stu-id="737e9-102">BizTalk Server core documentation</span></span>
 <span data-ttu-id="737e9-103">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentación principal incluye una variedad de recursos que pueden ayudarle a aprender a desarrollar, implementar, administrar y utilizar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="737e9-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation includes a variety of resources that can help you learn to develop, deploy, administer, and use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

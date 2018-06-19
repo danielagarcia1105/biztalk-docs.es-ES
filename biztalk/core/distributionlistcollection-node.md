@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239740"
 ---
 # <a name="distributionlistcollection-node"></a><span data-ttu-id="68b16-102">DistributionListCollection (nodo)</span><span class="sxs-lookup"><span data-stu-id="68b16-102">DistributionListCollection Node</span></span>
 <span data-ttu-id="68b16-103">El nodo DistributionListCollection de un archivo de enlace es el nodo primario de todos los nodos DistributionList que contienen información específica acerca de las listas de distribución que se exportan con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="68b16-103">The DistributionListCollection node of a binding file is the parent node for all of the DistributionList nodes which contain specific information about distribution lists that are exported with the binding file.</span></span>  

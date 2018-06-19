@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976210"
 ---
 # <a name="introduction-to-the-biztalk-esb-toolkit"></a><span data-ttu-id="9ebde-102">Introducción al Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="9ebde-102">Introduction to the BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="9ebde-103">Explica la arquitectura y el contenido de Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span><span class="sxs-lookup"><span data-stu-id="9ebde-103">Explains the architecture and contents of the Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span> <span data-ttu-id="9ebde-104">La documentación también muestra cómo aplicar un modelo de arquitectura de Bus de servicio de empresa (ESB) para desarrollar aplicaciones empresariales que permiten flexible y seguro, y servicios reutilizables y organización rápida de los servicios existentes en el nuevo extremo procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="9ebde-104">The documentation also demonstrates how to apply an Enterprise Service Bus (ESB) architecture pattern to develop enterprise applications that enable flexible, secure, and reusable services and rapid organization of existing services into new end-to-end business processes.</span></span>  

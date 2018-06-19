@@ -1,14 +1,14 @@
 ---
-title: "Apéndice B: instalar el adaptador de SharePoint | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice B: instalar el adaptador de SharePoint | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f44c6e0a-dcce-4444-8cac-bd403c81a233
-caps.latest.revision: 
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710839"
 ---
 # <a name="appendix-b-install-the-microsoft-sharepoint-adapter"></a><span data-ttu-id="ac9de-102">Apéndice B: Instalar el adaptador de Microsoft SharePoint</span><span class="sxs-lookup"><span data-stu-id="ac9de-102">Appendix B: Install the Microsoft SharePoint Adapter</span></span>
 <span data-ttu-id="ac9de-103">BizTalk Server incluye un adaptador de SharePoint que permite recibir o enviar mensajes a SharePoint.</span><span class="sxs-lookup"><span data-stu-id="ac9de-103">BizTalk Server includes a SharePoint adapter that can receive messages or send messages to SharePoint.</span></span> 

@@ -1,17 +1,17 @@
 ---
 title: HTTPRequestResponse | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: 81c66f61-d86c-49cf-8d24-21c67c68bc5a
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973754"
 ---
 # <a name="httprequestresponse"></a><span data-ttu-id="6b36b-102">HTTPRequestResponse</span><span class="sxs-lookup"><span data-stu-id="6b36b-102">HTTPRequestResponse</span></span>
 <span data-ttu-id="6b36b-103">En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz de programación de aplicaciones para servidores de Internet (ISAPI) de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de Microsoft para permitir que una aplicación ASP.NET se comunique con una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="6b36b-103">The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Internet Server Application Programming Interface (ISAPI) filter to allow an ASP.NET application to communicate with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="6b36b-111">La aplicación ASP.NET recibe la respuesta de confirmación de pedido XML y actualiza el formulario Web con la información de estado extraída de la respuesta.</span><span class="sxs-lookup"><span data-stu-id="6b36b-111">The ASP.NET application receives the XML PO acknowledgement response and refreshes the Web form with status information extracted from the response.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="6b36b-112">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="6b36b-112">Where to Find This Sample</span></span>  
- <span data-ttu-id="6b36b-113">*\<Ejemplos de ruta de acceso\>*\AdaptersUsage\HTTPRequestResponse\\</span><span class="sxs-lookup"><span data-stu-id="6b36b-113">*\<Samples Path\>*\AdaptersUsage\HTTPRequestResponse\\</span></span>  
+ <span data-ttu-id="6b36b-113">*\<Ejemplos de ruta de acceso\>* \AdaptersUsage\HTTPRequestResponse\\</span><span class="sxs-lookup"><span data-stu-id="6b36b-113">*\<Samples Path\>* \AdaptersUsage\HTTPRequestResponse\\</span></span>  
   
  <span data-ttu-id="6b36b-114">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="6b36b-114">The following table shows the files in this sample and describes their purpose.</span></span>  
   

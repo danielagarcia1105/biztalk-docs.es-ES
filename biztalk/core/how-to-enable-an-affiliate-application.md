@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], enabling
 - enabling, applications [SSO]
 ms.assetid: 81c94e1b-cd3d-482e-9a78-9b1476af9e5f
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971202"
 ---
 # <a name="how-to-enable-an-affiliate-application"></a><span data-ttu-id="0c990-102">Cómo habilitar una aplicación afiliada</span><span class="sxs-lookup"><span data-stu-id="0c990-102">How to Enable an Affiliate Application</span></span>
 <span data-ttu-id="0c990-103">Utilice el Complemento MMC o la línea de comandos para habilitar la aplicación afiliada especificada.</span><span class="sxs-lookup"><span data-stu-id="0c990-103">You can use the MMC Snap-In or the command line to enable the specified affiliate application.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="0c990-110">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="0c990-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="0c990-111">El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="0c990-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="0c990-112">Tipo **ssomanage-enableapp *\<nombre de la aplicación\>***, donde \<*nombre de la aplicación* \> es el nombre de la aplicación afiliada que desee Para habilitar.</span><span class="sxs-lookup"><span data-stu-id="0c990-112">Type **ssomanage –enableapp *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to enable.</span></span>  
+3.  <span data-ttu-id="0c990-112">Tipo **ssomanage-enableapp *\<nombre de la aplicación\>***, donde \<* nombre de la aplicación* \> es el nombre de la aplicación afiliada que desee Para habilitar.</span><span class="sxs-lookup"><span data-stu-id="0c990-112">Type **ssomanage –enableapp *\<application name\>***, where \<* application name*\> is the name of the affiliate application you want to enable.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="0c990-113">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="0c990-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

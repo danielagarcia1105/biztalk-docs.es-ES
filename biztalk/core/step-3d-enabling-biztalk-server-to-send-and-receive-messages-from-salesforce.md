@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3d: Habilitar BizTalk Server para enviar y recibir mensajes desde Salesforce | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 470c4a72-1e97-4493-8958-33a13f793ffd
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975778"
 ---
 # <a name="step-3d-enabling-biztalk-server-to-send-and-receive-messages-from-salesforce"></a><span data-ttu-id="0063b-102">Paso 3d: Habilitar BizTalk Server para enviar y recibir mensajes desde Salesforce</span><span class="sxs-lookup"><span data-stu-id="0063b-102">Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce</span></span>
 <span data-ttu-id="0063b-103">Debemos autenticarnos en Salesforce cuando enviamos mensajes con la interfaz REST.</span><span class="sxs-lookup"><span data-stu-id="0063b-103">We must authenticate with Salesforce while sending messages using the REST interface.</span></span> <span data-ttu-id="0063b-104">Los métodos de autenticación para llamadas REST que admite Salesforce no están disponibles listos para usar con el adaptador WCF-WebHttp, que es el que usaremos para invocar a la interfaz REST de Salesforce.</span><span class="sxs-lookup"><span data-stu-id="0063b-104">The authentication methods for REST calls supported by Salesforce are not available out of the box with the WCF-WebHttp adapter, which we’ll use to invoke Salesforce’s REST interface.</span></span> <span data-ttu-id="0063b-105">Por tanto, vamos a crear un comportamiento de extremo WCF personalizado y lo asociaremos al adaptador de envío WCF-WebHttp que configuraremos para invocar a la interfaz REST de Salesforce.</span><span class="sxs-lookup"><span data-stu-id="0063b-105">So, we’ll create a custom WCF endpoint behavior and then attach it to WCF-WebHttp send adapter that we’ll configure to invoke the Salesforce REST interface.</span></span>  

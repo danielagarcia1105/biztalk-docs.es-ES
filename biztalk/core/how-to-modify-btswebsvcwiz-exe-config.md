@@ -1,17 +1,17 @@
 ---
-title: "Cómo modificar BTSWebSvcWiz.exe.config | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar BTSWebSvcWiz.exe.config | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, code samples
 - Web services, debugging
 ms.assetid: 8466e460-faa9-45ea-9586-19174858d194
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971130"
 ---
 # <a name="how-to-modify-btswebsvcwizexeconfig"></a><span data-ttu-id="20e9d-102">Cómo modificar BTSWebSvcWiz.exe.config</span><span class="sxs-lookup"><span data-stu-id="20e9d-102">How to Modify BTSWebSvcWiz.exe.config</span></span>
 <span data-ttu-id="20e9d-103">Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<agregar\> nodo en el archivo BTSWebSvcWiz.exe.config.</span><span class="sxs-lookup"><span data-stu-id="20e9d-103">You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add\> node in the BTSWebSvcWiz.exe.config file.</span></span> <span data-ttu-id="20e9d-104">Si el nodo de agente de escucha de seguimiento no se hace referencia y la *initializeData* parámetro se ha modificado, BizTalk Server escribe la salida del archivo de seguimiento en el directorio actual.</span><span class="sxs-lookup"><span data-stu-id="20e9d-104">If the trace listener node is uncommented and the *initializeData* parameter is unchanged, BizTalk Server writes the trace file output to the current directory.</span></span> <span data-ttu-id="20e9d-105">Como alternativa, puede establecer el seguimiento de nivel de **ApplicationTraceSwitch** y establezca el nombre de ruta de acceso al archivo de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="20e9d-105">Alternatively, you can set the trace level of **ApplicationTraceSwitch** and set the path name of the trace file.</span></span>  

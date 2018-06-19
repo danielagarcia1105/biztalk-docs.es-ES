@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar controlador de recepción de HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar controlador de recepción de HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - permissions, receive handlers
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - receive handlers, HTTP adapters
 - HTTP adapters, permissions
 ms.assetid: c295489e-dbbb-44f7-bddb-d3cdfe302cf5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007613"
 ---
 # <a name="how-to-configure-an-http-receive-handler"></a><span data-ttu-id="51efc-102">Cómo configurar controlador de recepción de HTTP</span><span class="sxs-lookup"><span data-stu-id="51efc-102">How to Configure an HTTP Receive Handler</span></span>
 <span data-ttu-id="51efc-103">Utilice este procedimiento para configurar las propiedades de un controlador de recepción de HTTP.</span><span class="sxs-lookup"><span data-stu-id="51efc-103">Use the following procedure to configure the properties for an HTTP receive handler.</span></span>  

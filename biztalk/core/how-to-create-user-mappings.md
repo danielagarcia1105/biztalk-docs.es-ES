@@ -11,7 +11,7 @@ helpviewer_keywords:
 - maps [SSO], creating
 - managing [SSO maps], creating user maps
 ms.assetid: c2e9f0db-920b-4d89-8e1e-5dc92805fd23
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970946"
 ---
 # <a name="how-to-create-user-mappings"></a><span data-ttu-id="45075-102">Cómo crear asignaciones de usuario</span><span class="sxs-lookup"><span data-stu-id="45075-102">How to Create User Mappings</span></span>
 <span data-ttu-id="45075-103">Utilice este comando para crear una o más asignaciones de usuarios, según se especifica en el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="45075-103">Use this command to create one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="45075-104">A continuación, se muestra un archivo XML de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="45075-104">The following is an example XML file.</span></span>  

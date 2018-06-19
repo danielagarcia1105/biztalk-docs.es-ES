@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar un adaptador de sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un adaptador de sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0effdc9b-4aee-4674-90c5-03dfd7cc4cd6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247356"
 ---
 # <a name="how-to-configure-a-password-sync-adapter"></a><span data-ttu-id="7164d-102">Cómo configurar un adaptador de sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="7164d-102">How to Configure a Password Sync Adapter</span></span>
 <span data-ttu-id="7164d-103">Cuando haya terminado de crear el adaptador de sincronización de contraseñas, debe cargarlo en un sistema.</span><span class="sxs-lookup"><span data-stu-id="7164d-103">After you have finished creating your password sync adapter, you must load your adapter on to a system.</span></span> <span data-ttu-id="7164d-104">Asimismo, debe informar al inicio de sesión único empresarial (ENTSSO) y al almacén de configuración de que la aplicación es un adaptador de sincronización de contraseñas.</span><span class="sxs-lookup"><span data-stu-id="7164d-104">Additionally, you must inform Enterprise Single Sign-On (ENTSSO) and the configuration store that your application is a password sync adapter.</span></span> <span data-ttu-id="7164d-105">Debe registrar con el almacén de configuración por motivos de seguridad: el adaptador solicitará actualizaciones de contraseñas y otras credenciales.</span><span class="sxs-lookup"><span data-stu-id="7164d-105">You must register with the configuration store for security purposes: your adapter will request updates to passwords and other credentials.</span></span> <span data-ttu-id="7164d-106">Por lo tanto, ENTSSO debe saber que un determinado adaptador tiene autorización para pedir estos permisos.</span><span class="sxs-lookup"><span data-stu-id="7164d-106">Therefore, ENTSSO must know that a given adapter is allowed to ask for such permissions.</span></span>  

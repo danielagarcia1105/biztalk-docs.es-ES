@@ -1,14 +1,14 @@
 ---
-title: "Cómo incluir y excluir esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo incluir y excluir esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9206458-e5d6-48d7-87a6-9471ba60dca7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254348"
 ---
 # <a name="how-to-include-and-exclude-schemas"></a><span data-ttu-id="d2fa1-102">Cómo incluir y excluir esquemas</span><span class="sxs-lookup"><span data-stu-id="d2fa1-102">How to Include and Exclude Schemas</span></span>
 <span data-ttu-id="d2fa1-103">Un archivo de esquema puede estar presente en una carpeta de proyecto de BizTalk, pero no incluirse en ese proyecto.</span><span class="sxs-lookup"><span data-stu-id="d2fa1-103">A schema file can exist in a BizTalk project folder and not be included in that project.</span></span> <span data-ttu-id="d2fa1-104">En ese caso, se dice que el esquema se puede excluir del proyecto.</span><span class="sxs-lookup"><span data-stu-id="d2fa1-104">Such a schema is said to be excluded from the project.</span></span> <span data-ttu-id="d2fa1-105">Los esquemas excluidos no se compilan cuando se genera el proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d2fa1-105">Excluded schemas are not compiled when you build the BizTalk project.</span></span> <span data-ttu-id="d2fa1-106">Este tema describe los pasos necesarios para incluir un esquema excluido en un proyecto de BizTalk, así como para excluir un esquema de un proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d2fa1-106">This topic describes the steps required to include an excluded schema in a BizTalk project, and to exclude a schema from a BizTalk project.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Tecnologías de trabajador de información | Documentos de Microsoft"
-ms.custom: 
+title: Tecnologías de trabajador de información | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 772c3087-8493-4288-9a49-49f45a608fe1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005813"
 ---
 # <a name="information-worker-technologies"></a><span data-ttu-id="6fe85-102">Tecnologías de los trabajadores de la información</span><span class="sxs-lookup"><span data-stu-id="6fe85-102">Information Worker Technologies</span></span>
 <span data-ttu-id="6fe85-103">El motor de Microsoft BizTalk Server proporciona compatibilidad para los procesos empresariales automatizados que abarquen varias aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="6fe85-103">The Microsoft BizTalk Server engine provides support for automated business processes that span multiple applications.</span></span> <span data-ttu-id="6fe85-104">Pero una vez que estos procesos se han creado, los trabajadores de información que las utilizan, trabajadores de una empresa, no son programadores: tienen otros requisitos.</span><span class="sxs-lookup"><span data-stu-id="6fe85-104">But once those processes have been created, the information workers that use them—business people, not developers—have other requirements.</span></span> <span data-ttu-id="6fe85-105">Por ejemplo, tal vez necesiten supervisar distintos aspectos de la actividad relacionados con los negocios o trabajar con algunos de sus socios comerciales de formas diferentes.</span><span class="sxs-lookup"><span data-stu-id="6fe85-105">They might need to monitor various business-related aspects of the process, for example, or work with trading partners in various ways.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Configurar el ensamblador SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, configuring
 - configuring, assembler
 ms.assetid: 76944226-e29b-4a7f-a4ab-3c3d5f13ec51
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004613"
 ---
 # <a name="configuring-the-swift-assembler"></a><span data-ttu-id="90b29-102">Configurar el ensamblador SWIFT</span><span class="sxs-lookup"><span data-stu-id="90b29-102">Configuring the SWIFT Assembler</span></span>
 <span data-ttu-id="90b29-103">El ensamblador de SWIFT realiza las tareas siguientes cuando se invoca en un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] canalización de envío:</span><span class="sxs-lookup"><span data-stu-id="90b29-103">The SWIFT assembler performs the following tasks when you invoke it in a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] send pipeline:</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254340"
 ---
 # <a name="how-to-open-a-pipeline"></a><span data-ttu-id="7824d-102">Cómo abrir una canalización</span><span class="sxs-lookup"><span data-stu-id="7824d-102">How to Open a Pipeline</span></span>
 <span data-ttu-id="7824d-103">Abrir un archivo de canalización hace que el Diseñador de canalizaciones aparezca con la canalización definida y las fases correspondientes en el área de diseño.</span><span class="sxs-lookup"><span data-stu-id="7824d-103">Opening a pipeline file causes Pipeline Designer to appear with the defined pipeline and its stages in the design area.</span></span> <span data-ttu-id="7824d-104">Además, aparecerán el cuadro de herramientas del Diseñador de canalizaciones y la ventana Propiedades si aún no estuvieran abiertas.</span><span class="sxs-lookup"><span data-stu-id="7824d-104">In addition, the Pipeline Designer Toolbox and the Properties window will appear if they are not already open.</span></span>  

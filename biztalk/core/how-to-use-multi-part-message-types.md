@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar los tipos de mensaje de varias partes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar los tipos de mensaje de varias partes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - multi-part message types, parts
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - creating, multi-part messages
 - messages, about messages
 ms.assetid: 009a39bd-cfc4-42d9-918c-88ac24bfc370
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972082"
 ---
 # <a name="how-to-use-multi-part-message-types"></a><span data-ttu-id="c9164-102">Cómo usar los tipos de mensaje de varias partes</span><span class="sxs-lookup"><span data-stu-id="c9164-102">How to Use Multi-part Message Types</span></span>
 <span data-ttu-id="c9164-103">Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la estructura del mensaje que se compone de cero o más partes de mensaje.</span><span class="sxs-lookup"><span data-stu-id="c9164-103">Each message has a multi-part message type, a description of the message structure that consists of zero or more message parts.</span></span> <span data-ttu-id="c9164-104">Las partes se definen en el lenguaje de definición de esquemas XML (XSD) mediante esquemas o clases .NET.</span><span class="sxs-lookup"><span data-stu-id="c9164-104">The parts are defined by XML Schema Definition (XSD) language schemas or .NET classes.</span></span> <span data-ttu-id="c9164-105">Puede definir sus propios tipos de mensaje de varias partes o usar los esquemas y las clases .NET existentes.</span><span class="sxs-lookup"><span data-stu-id="c9164-105">You can define your own multi-part message types, or you can use existing .NET classes and schemas.</span></span>  
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="c9164-127">Propiedad</span><span class="sxs-lookup"><span data-stu-id="c9164-127">Property</span></span>|<span data-ttu-id="c9164-128">Description</span><span class="sxs-lookup"><span data-stu-id="c9164-128">Description</span></span>|  
     |--------------|-----------------|  
-    |<span data-ttu-id="c9164-129">**Modificador de tipo**</span><span class="sxs-lookup"><span data-stu-id="c9164-129">**Type Modifier**</span></span>|<span data-ttu-id="c9164-130">Determina el ámbito del tipo de mensaje de varias partes:</span><span class="sxs-lookup"><span data-stu-id="c9164-130">Determines the scope of the multi-part message type:</span></span><br /><br /> <span data-ttu-id="c9164-131">-   **Privado:**acceso a este tipo de mensaje de varias partes está limitado al módulo contenedor.</span><span class="sxs-lookup"><span data-stu-id="c9164-131">-   **Private—**Access to this multi-part message type is limited to the containing module.</span></span><br /><span data-ttu-id="c9164-132">-   **Público:**no se limita el acceso a este tipo de mensaje de varias partes.</span><span class="sxs-lookup"><span data-stu-id="c9164-132">-   **Public—**Access to this multi-part message type is not limited.</span></span><br /><span data-ttu-id="c9164-133">-   **Interno:**acceso a este tipo de mensaje de varias partes está limitado a los módulos dentro del mismo proyecto.</span><span class="sxs-lookup"><span data-stu-id="c9164-133">-   **Internal—**Access to this multi-part message type is limited to modules within the same project.</span></span>|  
+    |<span data-ttu-id="c9164-129">**Modificador de tipo**</span><span class="sxs-lookup"><span data-stu-id="c9164-129">**Type Modifier**</span></span>|<span data-ttu-id="c9164-130">Determina el ámbito del tipo de mensaje de varias partes:</span><span class="sxs-lookup"><span data-stu-id="c9164-130">Determines the scope of the multi-part message type:</span></span><br /><br /> <span data-ttu-id="c9164-131">-   **Privado:** acceso a este tipo de mensaje de varias partes está limitado al módulo contenedor.</span><span class="sxs-lookup"><span data-stu-id="c9164-131">-   **Private—** Access to this multi-part message type is limited to the containing module.</span></span><br /><span data-ttu-id="c9164-132">-   **Público:** no se limita el acceso a este tipo de mensaje de varias partes.</span><span class="sxs-lookup"><span data-stu-id="c9164-132">-   **Public—** Access to this multi-part message type is not limited.</span></span><br /><span data-ttu-id="c9164-133">-   **Interno:** acceso a este tipo de mensaje de varias partes está limitado a los módulos dentro del mismo proyecto.</span><span class="sxs-lookup"><span data-stu-id="c9164-133">-   **Internal—** Access to this multi-part message type is limited to modules within the same project.</span></span>|  
   
 ## <a name="add-parts-to-an-existing-multi-part-message"></a><span data-ttu-id="c9164-134">Agregar elementos a un mensaje de varias partes existente</span><span class="sxs-lookup"><span data-stu-id="c9164-134">Add parts to an existing multi-part message</span></span>  
   

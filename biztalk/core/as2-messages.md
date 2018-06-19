@@ -1,14 +1,14 @@
 ---
 title: AS2 Mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fac8418-3c07-4513-94aa-e7a25087d789
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008069"
 ---
 # <a name="as2-messages"></a><span data-ttu-id="398f6-102">Mensajes AS2</span><span class="sxs-lookup"><span data-stu-id="398f6-102">AS2 Messages</span></span>
 <span data-ttu-id="398f6-103">En este tema se describe un mensaje AS2, incluida su estructura, propiedades de contexto y encabezados.</span><span class="sxs-lookup"><span data-stu-id="398f6-103">This topic describes an AS2 message, including its structure, its context properties, and its headers.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Plantilla (ejemplo de implementación de aplicaciones) | Documentos de Microsoft"
-ms.custom: 
+title: Plantilla (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, deploying
 ms.assetid: 7e77ff8e-b2bc-4d38-b5fd-329d6d54221f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975018"
 ---
 # <a name="template-application-deployment-sample"></a><span data-ttu-id="4bae5-102">Plantilla (ejemplo de implementación de aplicaciones)</span><span class="sxs-lookup"><span data-stu-id="4bae5-102">Template (Application Deployment Sample)</span></span>
 <span data-ttu-id="4bae5-103">En este tema se describe cómo usar el ejemplo de la plantilla para la implementación de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="4bae5-103">This topic describes how to use the Template sample for application deployment.</span></span>  
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="4bae5-131">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="4bae5-131">Where to Find This Sample</span></span>  
  <span data-ttu-id="4bae5-132">Este ejemplo se encuentra en la carpeta de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], en la ruta de acceso siguiente:</span><span class="sxs-lookup"><span data-stu-id="4bae5-132">The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows:</span></span>  
   
- <span data-ttu-id="4bae5-133">*\<Ejemplos de ruta de acceso\>*\applicationdeployment\template</span><span class="sxs-lookup"><span data-stu-id="4bae5-133">*\<Samples Path\>*\Application Deployment\Template</span></span>  
+ <span data-ttu-id="4bae5-133">*\<Ejemplos de ruta de acceso\>* \applicationdeployment\template</span><span class="sxs-lookup"><span data-stu-id="4bae5-133">*\<Samples Path\>* \Application Deployment\Template</span></span>  
   
  <span data-ttu-id="4bae5-134">Como se ha mencionado anteriormente, el ejemplo incluye dos archivos:</span><span class="sxs-lookup"><span data-stu-id="4bae5-134">As previously mentioned, the sample includes the following two files:</span></span>  
   
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="4bae5-143">Ejemplo:</span><span class="sxs-lookup"><span data-stu-id="4bae5-143">Example:</span></span>  
   
-     <span data-ttu-id="4bae5-144">conjunto LogFile = "*\<ruta de ejemplos\>*\ApplicationDeployment\Templates\SampleLogOut.txt"</span><span class="sxs-lookup"><span data-stu-id="4bae5-144">set LogFile="*\<Samples Path\>*\ApplicationDeployment\Templates\SampleLogOut.txt"</span></span>  
+     <span data-ttu-id="4bae5-144">conjunto LogFile = "*\<ruta de ejemplos\>* \ApplicationDeployment\Templates\SampleLogOut.txt"</span><span class="sxs-lookup"><span data-stu-id="4bae5-144">set LogFile="*\<Samples Path\>* \ApplicationDeployment\Templates\SampleLogOut.txt"</span></span>  
   
 ### <a name="to-create-a-new-application"></a><span data-ttu-id="4bae5-145">Para crear una aplicación nueva</span><span class="sxs-lookup"><span data-stu-id="4bae5-145">To create a new application</span></span>  
   

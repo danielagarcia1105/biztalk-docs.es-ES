@@ -1,14 +1,14 @@
 ---
-title: "Un archivo de excepción no encontrado al reflejar el ensamblado de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Un archivo de excepción no encontrado al reflejar el ensamblado de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 223147eb-785f-4dfc-b2a6-7d50dfaf8092
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004773"
 ---
 # <a name="a-file-not-found-exception-occurred-while-reflecting-a-biztalk-assembly"></a><span data-ttu-id="3447c-102">Excepción de archivo no encontrado al reflejar el ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="3447c-102">A file not found exception occurred while reflecting a BizTalk assembly</span></span>
 ## <a name="details"></a><span data-ttu-id="3447c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="3447c-103">Details</span></span>  

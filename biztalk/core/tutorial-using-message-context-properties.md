@@ -1,15 +1,15 @@
 ---
 title: 'Tutorial: Usar propiedades de contexto del mensaje TIBCO EMS | Documentos de Microsoft'
-description: "Guía paso a paso para usar los campos de descriptor de mensajes de TIBCO Enterprise Message Service en la orquestación de BizTalk Server"
-ms.custom: 
+description: Guía paso a paso para usar los campos de descriptor de mensajes de TIBCO Enterprise Message Service en la orquestación de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e52593b-5001-4740-89fb-e003e12d8e69
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974002"
 ---
 # <a name="tutorial-use-tibco-ems-message-descriptors"></a><span data-ttu-id="3bf66-103">Tutorial: Descriptores de mensaje uso TIBCO EMS</span><span class="sxs-lookup"><span data-stu-id="3bf66-103">Tutorial: Use TIBCO EMS message descriptors</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "Usar XPaths no canónicos en las asignaciones de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Usar XPaths no canónicos en las asignaciones de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 052d1d72-43ce-4654-bf29-86f82ad65e91
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287628"
 ---
 # <a name="using-non-canonical-xpaths-in-message-assignments"></a><span data-ttu-id="7b6a7-102">Usar XPaths no canónicos en las asignaciones de mensajes</span><span class="sxs-lookup"><span data-stu-id="7b6a7-102">Using Non-Canonical XPaths in Message Assignments</span></span>
 <span data-ttu-id="7b6a7-103">Si se utilizan partes de mensaje de .Net, es posible anotar el código con el atributo de serialización XML que, cuando también se acompaña con anotaciones de propiedad o campos distintivos, puede tener como resultado expresiones de XPath de considerable complejidad.</span><span class="sxs-lookup"><span data-stu-id="7b6a7-103">If you use .Net message parts, it is possible to annotate your code with the XML serialization attribute that, when also accompanied by distinguished fields and/or property annotations, can result in fairly complex XPath expressions.</span></span> <span data-ttu-id="7b6a7-104">Es posible que estas expresiones complejas de XPath sean no canónicas.</span><span class="sxs-lookup"><span data-stu-id="7b6a7-104">It is possible that these complex XPath expressions will be non-canonical.</span></span> <span data-ttu-id="7b6a7-105">solo se debería utilizar XPath no canónico en orquestaciones de enlace directo; es posible que se produzcan errores con orquestaciones enlazadas lógica o físicamente.</span><span class="sxs-lookup"><span data-stu-id="7b6a7-105">Non-canonical XPath should only be used in direct bound orchestrations and may fail with logically or physically bound orchestrations.</span></span> <span data-ttu-id="7b6a7-106">Las orquestaciones de enlace directo no se basan en una canalización para procesar el documento XML; en consecuencia, todo el documento XML se carga en la memoria antes del procesamiento.</span><span class="sxs-lookup"><span data-stu-id="7b6a7-106">Direct bound orchestrations do not rely on a pipeline for processing the XML document; as a result, the entire XML document is loaded in memory prior to processing.</span></span>  

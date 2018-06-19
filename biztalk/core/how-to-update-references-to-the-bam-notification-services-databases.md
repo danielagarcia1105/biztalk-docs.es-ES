@@ -1,11 +1,11 @@
 ---
-title: "Cómo actualizar referencias a la notificación de BAM de servicios de bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar referencias a la notificación de BAM de servicios de bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Notification Services Application database [BAM], restoring
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - restoring [BAM], Notification Services Application database
 - restoring [BAM], NS$instance_name service
 ms.assetid: b007fdc2-2e74-4eef-b4c3-43689e9f2180
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973008"
 ---
 # <a name="how-to-update-references-to-the-bam-notification-services-databases"></a><span data-ttu-id="43d25-102">Cómo actualizar referencias a las bases de datos de servicios de notificación de SAE</span><span class="sxs-lookup"><span data-stu-id="43d25-102">How to Update References to the BAM Notification Services Databases</span></span>
 <span data-ttu-id="43d25-103">Después de llevar a cabo los pasos necesarios para restaurar las bases de datos de los servicios de notificación de supervisión de la actividad económica (BAM) en el sistema de destino, tendrá que volver a registrar el Servicio de notificación en todos los equipos del grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en los que se ejecutan los Servicios de notificación (NSservice.exe).</span><span class="sxs-lookup"><span data-stu-id="43d25-103">After you perform the steps necessary to restore the Business Activity Monitoring (BAM) Notification Services databases to the destination system, you must re-register the Notification Service on all computers in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group that are running Notification Services (NSservice.exe).</span></span> <span data-ttu-id="43d25-104">Con ello, se permite que los servicios de notificación se conecten a las bases de datos en su nueva ubicación.</span><span class="sxs-lookup"><span data-stu-id="43d25-104">This enables Notification Services to connect to the databases in their new location.</span></span>  
@@ -48,7 +49,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-update-references-to-the-bam-notification-services-databases-sql-server-2008-r2sp1"></a><span data-ttu-id="43d25-118">Para actualizar referencias a las bases de datos de servicios de notificación de BAM (SQL Server 2008 R2/SP1)</span><span class="sxs-lookup"><span data-stu-id="43d25-118">To update references to the BAM Notification Services databases (SQL Server 2008 R2/SP1)</span></span>  
   
-1.  <span data-ttu-id="43d25-119">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="43d25-119">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="43d25-119">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="43d25-119">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="43d25-120">En el símbolo del sistema, desplácese al directorio siguiente: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span><span class="sxs-lookup"><span data-stu-id="43d25-120">At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span></span>  
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 11/28/2017
   
 11. <span data-ttu-id="43d25-144">En el símbolo del sistema, escriba: **net start NS$ BamAlerts**.</span><span class="sxs-lookup"><span data-stu-id="43d25-144">At the command prompt, type: **net start NS$BamAlerts**.</span></span>  
   
-12. <span data-ttu-id="43d25-145">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="43d25-145">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+12. <span data-ttu-id="43d25-145">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="43d25-145">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 13. <span data-ttu-id="43d25-146">En el símbolo del sistema, desplácese al directorio siguiente: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span><span class="sxs-lookup"><span data-stu-id="43d25-146">At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span></span>  
   

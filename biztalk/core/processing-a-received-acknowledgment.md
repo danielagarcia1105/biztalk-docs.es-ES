@@ -1,14 +1,14 @@
 ---
 title: Procesamiento de confirmaciones recibidas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67f67a95-7368-40c2-a162-6ffc9de076fc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971186"
 ---
 # <a name="processing-a-received-acknowledgment"></a><span data-ttu-id="a59d2-102">Procesamiento de confirmaciones recibidas</span><span class="sxs-lookup"><span data-stu-id="a59d2-102">Processing a Received Acknowledgment</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="a59d2-103"> espera una confirmación técnica si se especifica la propiedad relevante en el acuerdo.</span><span class="sxs-lookup"><span data-stu-id="a59d2-103"> will expect a technical acknowledgment if the relevant property is specified in the agreement.</span></span> <span data-ttu-id="a59d2-104">Para X12, este es el **TA1 esperado** propiedad en el **confirmaciones** página del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo o de acuerdo de reserva Propiedades.</span><span class="sxs-lookup"><span data-stu-id="a59d2-104">For X12, this is the **TA1 Expected** property in the **Acknowledgements** page of the one-way agreement in the **Agreement Properties** dialog box or from fallback agreement properties.</span></span> <span data-ttu-id="a59d2-105">Para EDIFACT, se trata de la **recepción del mensaje (CONTRL) esperada** propiedad en el **confirmaciones** página del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo cuadro o de propiedades del acuerdo de reserva.</span><span class="sxs-lookup"><span data-stu-id="a59d2-105">For EDIFACT, this is the **Receipt of message (CONTRL) expected** property in the **Acknowledgements** page of the one-way agreement in the **Agreement Properties** dialog box or from fallback agreement properties.</span></span> <span data-ttu-id="a59d2-106">Si el acuerdo de recepción procesa el mensaje recibido, generará la confirmación técnica como resultado del valor de ISA14 o UNB9 en el mensaje.</span><span class="sxs-lookup"><span data-stu-id="a59d2-106">When the receiving agreement processes the received message, it will generate the technical acknowledgment as a result of the value of ISA14 or UNB9 in the message.</span></span>  

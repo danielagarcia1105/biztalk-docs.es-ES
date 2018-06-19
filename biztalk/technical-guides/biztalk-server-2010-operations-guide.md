@@ -1,14 +1,14 @@
 ---
-title: "Guía de operaciones de BizTalk Server 2010 | Documentos de Microsoft"
-ms.custom: 
+title: Guía de operaciones de BizTalk Server 2010 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4dc0d8e9-9ad6-4ce1-8ca7-399b67cb360e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010389"
 ---
 # <a name="biztalk-server-2010-operations-guide"></a><span data-ttu-id="b766f-102">Guía de operaciones de BizTalk Server 2010</span><span class="sxs-lookup"><span data-stu-id="b766f-102">BizTalk Server 2010 Operations Guide</span></span>
 <span data-ttu-id="b766f-103">Bienvenido a la Guía de operaciones de Microsoft® BizTalk® Server 2010.</span><span class="sxs-lookup"><span data-stu-id="b766f-103">Welcome to the Microsoft® BizTalk® Server 2010 Operations Guide.</span></span> <span data-ttu-id="b766f-104">Hemos creado esta guía para que sea un recurso valioso para todas las personas implicadas en la implementación y administración de una solución de BizTalk, especialmente los profesionales de TI.</span><span class="sxs-lookup"><span data-stu-id="b766f-104">We created this guide to be a valuable resource for anyone involved in the implementation and administration of a BizTalk solution, particularly IT professionals.</span></span>  

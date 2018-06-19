@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar una canalización mediante el control de versiones en paralelo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar una canalización mediante el control de versiones en paralelo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd884a76-71dd-4c90-b4ba-f1cd7f48eb04
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008381"
 ---
 # <a name="how-to-update-a-pipeline-using-side-by-side-versioning"></a><span data-ttu-id="559b4-102">Cómo actualizar una canalización mediante el control de versiones en paralelo</span><span class="sxs-lookup"><span data-stu-id="559b4-102">How to Update a Pipeline Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="559b4-103">El método sencillo para usar una nueva canalización agregada por el control de versiones en paralelo consiste en seleccionar la versión de canalización recién implementado en el puerto de envío o ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="559b4-103">The simple way to use a new pipeline added by side-by-side versioning is to select the newly deployed pipeline version in the send port or receive location.</span></span> <span data-ttu-id="559b4-104">Esto reemplazará la canalización antigua con uno nuevo.</span><span class="sxs-lookup"><span data-stu-id="559b4-104">This will replace the old pipeline with the new one.</span></span> <span data-ttu-id="559b4-105">Sin embargo, si necesita verdadera funcionalidad en paralelo para la compatibilidad con versiones anteriores, a continuación, debe crear nuevos puertos de envío y ubicaciones de recepción y enlazarlos a la nueva versión de canalización especificada.</span><span class="sxs-lookup"><span data-stu-id="559b4-105">However, if you need true side-by-side functionality for backwards-compatibility, then you must create new send ports and receive locations and bind them to the new pipeline version specified.</span></span>  

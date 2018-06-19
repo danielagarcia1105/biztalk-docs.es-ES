@@ -1,14 +1,14 @@
 ---
 title: Esquemas XML | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1ec364e7-866d-4164-be91-be75a40ce878
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008101"
 ---
 # <a name="xml-schemas"></a><span data-ttu-id="a7cd0-102">Esquemas XML</span><span class="sxs-lookup"><span data-stu-id="a7cd0-102">XML Schemas</span></span>
 <span data-ttu-id="a7cd0-103">Un esquema XML describe un documento empresarial que se representa en lenguaje XML.</span><span class="sxs-lookup"><span data-stu-id="a7cd0-103">An XML schema describes a business document that is represented in XML.</span></span> <span data-ttu-id="a7cd0-104">Dado que Microsoft BizTalk Server utiliza XML como representación canónica de documentos empresariales, los documentos entrantes y salientes no necesitan ninguna traducción.</span><span class="sxs-lookup"><span data-stu-id="a7cd0-104">Because Microsoft BizTalk Server uses XML as its canonical representation for business documents, inbound and outbound documents do not require any translation.</span></span> <span data-ttu-id="a7cd0-105">Los esquemas XML se pueden crear en el Editor de BizTalk mediante el uso únicamente del conjunto básico de propiedades que está disponible en todos los esquemas y no precisan que se habilite ninguna extensión del editor de esquemas.</span><span class="sxs-lookup"><span data-stu-id="a7cd0-105">XML schemas can be created in BizTalk Editor using only the basic set of properties that are available within all schemas, and do not require any schema editor extensions to be enabled.</span></span>  

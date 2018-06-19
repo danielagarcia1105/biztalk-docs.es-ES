@@ -1,14 +1,14 @@
 ---
-title: "Interfaces de un envío asíncrono adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces de un envío asíncrono adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a214716-8f39-400d-a111-ba1b92a284b4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257764"
 ---
 # <a name="interfaces-for-an-asynchronous-send-adapter"></a><span data-ttu-id="92498-102">Interfaces de un adaptador de envío asíncrono</span><span class="sxs-lookup"><span data-stu-id="92498-102">Interfaces for an Asynchronous Send Adapter</span></span>
 <span data-ttu-id="92498-103">Los adaptadores que envían mensajes de uno en uno pueden enviar mensajes de forma sincrónica o asíncrona.</span><span class="sxs-lookup"><span data-stu-id="92498-103">Adapters sending messages one at a time may send messages either synchronously or asynchronously.</span></span> <span data-ttu-id="92498-104">Un adaptador envía mensajes de forma asíncrona cuando no bloquea el subproceso del proxy de transporte pero, en su lugar, utiliza un subproceso distinto al realizar operaciones de envío.</span><span class="sxs-lookup"><span data-stu-id="92498-104">An adapter sends messages asynchronously when it does not block the transport proxy thread but rather uses a separate thread while performing the send operations.</span></span> <span data-ttu-id="92498-105">Para poder enviar mensajes de forma asíncrona, un adaptador necesita implementar las interfaces siguientes:</span><span class="sxs-lookup"><span data-stu-id="92498-105">To be able to send messages asynchronously, an adapter needs to implement the following interfaces:</span></span>  

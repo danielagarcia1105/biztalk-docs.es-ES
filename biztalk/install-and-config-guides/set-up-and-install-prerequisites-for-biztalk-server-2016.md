@@ -18,6 +18,7 @@ ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31816968"
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a><span data-ttu-id="1d47e-103">Configurar e instalar los requisitos previos de BizTalk Server 2016</span><span class="sxs-lookup"><span data-stu-id="1d47e-103">Set up and install prerequisites for BizTalk Server 2016</span></span>
 <span data-ttu-id="1d47e-104">Configure el servidor e instale y configure los requisitos previos de software.</span><span class="sxs-lookup"><span data-stu-id="1d47e-104">Set up the server, and install and configure the software prerequisites.</span></span>

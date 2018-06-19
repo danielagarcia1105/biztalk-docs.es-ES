@@ -1,14 +1,14 @@
 ---
-title: "0c2 la solicitud de ejemplo de asignación de respuesta 2 0c | Documentos de Microsoft"
-ms.custom: 
+title: 0c2 la solicitud de ejemplo de asignación de respuesta 2 0c | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 012d663a-71f0-4509-85b7-f2068176bde2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004989"
 ---
 # <a name="0c2-request-to-0c2-response-map-sample"></a><span data-ttu-id="fe130-102">0c2 la solicitud de ejemplo de asignación de 0c respuesta 2</span><span class="sxs-lookup"><span data-stu-id="fe130-102">0C2 Request to 0C2 Response Map Sample</span></span>
 <span data-ttu-id="fe130-103">El ejemplo _0C2RequestMessageTo0C2ResponseMessage.btm muestra cómo se puede asignar un mensaje de solicitud 2 0c a un mensaje de respuesta 2 0c.</span><span class="sxs-lookup"><span data-stu-id="fe130-103">The _0C2RequestMessageTo0C2ResponseMessage.btm sample demonstrates how you can map a 0C2 request message to a 0C2 response message.</span></span>  

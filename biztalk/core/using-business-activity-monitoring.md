@@ -1,15 +1,15 @@
 ---
-title: "Uso de la actividad económica supervisión | Documentos de Microsoft"
-description: "Empezar a trabajar con actividad de supervisión económica (BAM) en BizTalk Server"
-ms.custom: 
+title: Uso de la actividad económica supervisión | Documentos de Microsoft
+description: Empezar a trabajar con actividad de supervisión económica (BAM) en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e01f54f-1d7f-4aed-ad14-2aeae716fd58
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287004"
 ---
 # <a name="using-business-activity-monitoring"></a><span data-ttu-id="428f1-103">Utilizar Supervisión de la actividad económica</span><span class="sxs-lookup"><span data-stu-id="428f1-103">Using Business Activity Monitoring</span></span>
 <span data-ttu-id="428f1-104">La supervisión de la actividad económica (BAM) proporciona visibilidad a los procesos empresariales independiente de sus entornos de TI o en una implementación de TI heterogénea.</span><span class="sxs-lookup"><span data-stu-id="428f1-104">Business Activity Monitoring (BAM) provides visibility into business processes independent of your IT environments and across a heterogeneous IT implementation.</span></span> <span data-ttu-id="428f1-105">Esto distingue a BAM del seguimiento operativo, tal como seguimiento de mensaje e instancia.</span><span class="sxs-lookup"><span data-stu-id="428f1-105">This distinguishes BAM from operational monitoring such message and instance monitoring.</span></span> <span data-ttu-id="428f1-106">Un aspecto clave de BAM es el de ser capaz de ver los datos económicos, de la forma más actual posible, lo que se denomina latencia cero.</span><span class="sxs-lookup"><span data-stu-id="428f1-106">A key aspect of BAM is being able to view business data in as close to real time as possible, referred to as zero latency.</span></span>  

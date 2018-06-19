@@ -1,11 +1,11 @@
 ---
 title: Propiedades de contexto de MQSeries | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQXQH_RemoteQName property [MQSeries adapters]
@@ -80,7 +80,7 @@ helpviewer_keywords:
 - MQCIH_ADSDescriptor property [MQSeries adapters]
 - MQMD_MsgId property [MQSeries adapters]
 ms.assetid: 1b22b7d7-432b-4ec5-938c-c43077ce3e0f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -89,6 +89,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266628"
 ---
 # <a name="mqseries-context-properties"></a><span data-ttu-id="bfd67-102">Propiedades de contexto de MQSeries</span><span class="sxs-lookup"><span data-stu-id="bfd67-102">MQSeries Context Properties</span></span>
 <span data-ttu-id="bfd67-103">El adaptador de MQSeries proporciona un conjunto de propiedades de contexto, específicas de MQSeries, para su uso en las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="bfd67-103">The MQSeries adapter provides a set of context properties, specific to MQSeries, for use in your applications.</span></span> <span data-ttu-id="bfd67-104">Puede utilizar estas propiedades en expresiones de filtro y en las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="bfd67-104">You can use these properties in filter expressions and in your orchestrations.</span></span>  

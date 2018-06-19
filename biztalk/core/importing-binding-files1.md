@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 907c21377a6affd5a99576137a5babaa1626c135
 ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971306"
 ---
 # <a name="import-binding-files"></a><span data-ttu-id="f253e-101">Importar archivos de enlace</span><span class="sxs-lookup"><span data-stu-id="f253e-101">Import Binding Files</span></span>
 
@@ -17,7 +18,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="f253e-106">Las carpetas para las respuestas deben existir y ser idénticas en el equipo nuevo, o editar el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="f253e-106">The folders for the responses must exist and be identical on the new computer—or edit the binding file.</span></span>  
   
--   <span data-ttu-id="f253e-107">Las contraseñas del sistema PeopleSoft Enterprise, si están presentes en la configuración, se guardan como ***** en el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="f253e-107">PeopleSoft Enterprise system passwords, if present in the configuration, are saved as ***** in the binding file.</span></span> 
+-   <span data-ttu-id="f253e-107">Las contraseñas del sistema PeopleSoft Enterprise, si están presentes en la configuración, se guardan como \*\*\*\*\* en el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="f253e-107">PeopleSoft Enterprise system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file.</span></span> 
   
 > [!NOTE]
 >  <span data-ttu-id="f253e-108">La implementación sobrescribe la configuración de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="f253e-108">Deployment overwrites receive location configuration.</span></span> <span data-ttu-id="f253e-109">Al implementar un archivo de enlace y un ensamblado en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se importan.</span><span class="sxs-lookup"><span data-stu-id="f253e-109">When you deploy a binding file and assembly on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  

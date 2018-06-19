@@ -1,11 +1,11 @@
 ---
-title: "Cómo modificar las opciones de implementación de un ensamblado de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar las opciones de implementación de un ensamblado de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - modifying, deploying
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [assemblies], deploying
 - assemblies, deploying
 ms.assetid: d25e2f71-08bd-4786-ab6c-35ae4e88b8cc
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007757"
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-biztalk-assembly"></a><span data-ttu-id="83f85-102">Cómo modificar las opciones de implementación de un ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="83f85-102">How to Modify the Deployment Options of a BizTalk Assembly</span></span>
 <span data-ttu-id="83f85-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para modificar las opciones de implementación de un ensamblado de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="83f85-103">This topic describes how to use the BizTalk Server Administration console to modify the deployment options of a BizTalk assembly.</span></span>  

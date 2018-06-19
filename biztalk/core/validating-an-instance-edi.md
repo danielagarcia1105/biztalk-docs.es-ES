@@ -1,14 +1,14 @@
 ---
 title: Validar una instancia (EDI) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0fe4e87-5ab4-41e4-8ceb-8f6cf40cae0b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288916"
 ---
 # <a name="validating-an-instance-edi"></a><span data-ttu-id="3d629-102">Validar instancias (EDI)</span><span class="sxs-lookup"><span data-stu-id="3d629-102">Validating an Instance (EDI)</span></span>
 <span data-ttu-id="3d629-103">Las instancias pueden validarse con respecto a su esquema EDI en el tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="3d629-103">You can validate an instance against its EDI schema at design time.</span></span> <span data-ttu-id="3d629-104">Para ello, se usan las extensiones de la herramienta XML para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="3d629-104">To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="3d629-105">La instancia que valide puede ser un único conjunto de transacciones (sin intercambio ni encabezados de grupo), un intercambio con un único conjunto de transacciones (con intercambio y encabezados de grupo) o un intercambio procesado por lotes completo con varios conjuntos de transacciones (con intercambio y encabezados de grupo).</span><span class="sxs-lookup"><span data-stu-id="3d629-105">The instance that you validate can be a single transaction set (without interchange and group headers), an interchange with a single transaction set (with interchange and group headers), or a complete batched interchange with multiple transaction sets (with interchange and group headers).</span></span>  

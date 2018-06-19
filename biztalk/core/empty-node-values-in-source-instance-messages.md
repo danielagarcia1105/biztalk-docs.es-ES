@@ -1,14 +1,14 @@
 ---
-title: "Mensajes de instancia de valores de nodos vacíos en origen | Documentos de Microsoft"
-ms.custom: 
+title: Mensajes de instancia de valores de nodos vacíos en origen | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 76f9d7c8-5a82-41e9-9077-7b1ddd80a837
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240084"
 ---
 # <a name="empty-node-values-in-source-instance-messages"></a><span data-ttu-id="3fef0-102">Valores de nodos vacíos en mensajes de instancia de origen</span><span class="sxs-lookup"><span data-stu-id="3fef0-102">Empty Node Values in Source Instance Messages</span></span>
 <span data-ttu-id="3fef0-103">En ocasiones puede que no desee tener contenido en todos los nodos de esquema cuando está comprobando una asignación.</span><span class="sxs-lookup"><span data-stu-id="3fef0-103">There may be times when you do not want content in all of the schema nodes when you test a map.</span></span>  

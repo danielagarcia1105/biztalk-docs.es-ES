@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es una aplicación de BizTalk? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es una aplicación de BizTalk? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk.System application, about BizTalk.System application
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - what's new, applications
 - BizTalk.System application, warnings
 ms.assetid: 68b5527c-d5e1-453b-a51b-3fc1a1d5dce2
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008781"
 ---
 # <a name="what-is-a-biztalk-application"></a><span data-ttu-id="41b41-103">¿Qué es una aplicación de BizTalk?</span><span class="sxs-lookup"><span data-stu-id="41b41-103">What Is a BizTalk Application?</span></span>
 <span data-ttu-id="41b41-104">La aplicación de BizTalk es una característica de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] que facilita y agiliza la implementación, administración y solución de problemas de las soluciones empresariales de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="41b41-104">The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that makes it quicker and easier to deploy, manage, and troubleshoot [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions.</span></span> <span data-ttu-id="41b41-105">Una aplicación de BizTalk es una agrupación lógica de elementos, denominados "artefactos", que se utiliza en una solución empresarial de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="41b41-105">A BizTalk application is a logical grouping of the items, called "artifacts," used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solution.</span></span> <span data-ttu-id="41b41-106">Los artefactos se describen con más detalle posteriormente en este tema.</span><span class="sxs-lookup"><span data-stu-id="41b41-106">Artifacts are described in more detail later in this topic.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Cómo administrar las asignaciones de usuario para el Host para SSO iniciado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo administrar las asignaciones de usuario para el Host para SSO iniciado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, host initiated SSO
 - host initiated SSO, user maps
 ms.assetid: 6b05249e-da35-475b-9c23-5eb556013d57
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972386"
 ---
 # <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a><span data-ttu-id="aeddf-102">Cómo administrar las asignaciones de usuario para el Host para SSO iniciado</span><span class="sxs-lookup"><span data-stu-id="aeddf-102">How to Manage User Mappings for Host Initiated SSO</span></span>
 <span data-ttu-id="aeddf-103">Utilice los procedimientos siguientes para crear asignaciones, definir credenciales y habilitar o deshabilitar asignaciones.</span><span class="sxs-lookup"><span data-stu-id="aeddf-103">Use the following procedures to create mappings, set credentials, and enable or disable mapping.</span></span>  

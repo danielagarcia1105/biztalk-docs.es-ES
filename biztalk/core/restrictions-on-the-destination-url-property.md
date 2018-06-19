@@ -11,7 +11,7 @@ helpviewer_keywords:
 - configuring [HTTP adapters], restrictions
 - HTTP adapters, restrictions
 ms.assetid: 982a5122-e43d-4730-a8b9-ceb1ff88638c
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972074"
 ---
 # <a name="restrictions-on-the-destination-url-property"></a><span data-ttu-id="61f14-102">Restricciones de la propiedad de dirección URL de destino</span><span class="sxs-lookup"><span data-stu-id="61f14-102">Restrictions on the Destination URL Property</span></span>
 <span data-ttu-id="61f14-103">La dirección URL de destino es una cadena que especifica la dirección del servidor HTTP donde desea enviar mensajes con el protocolo HTTP.</span><span class="sxs-lookup"><span data-stu-id="61f14-103">The destination URL is a string that specifies the address of the HTTP server where you want to send messages using the HTTP protocol.</span></span>  

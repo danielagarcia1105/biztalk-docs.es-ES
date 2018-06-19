@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262684"
 ---
 # <a name="modulerefcollection-node"></a><span data-ttu-id="2c941-102">ModuleRefCollection (nodo)</span><span class="sxs-lookup"><span data-stu-id="2c941-102">ModuleRefCollection Node</span></span>
 <span data-ttu-id="2c941-103">La sección ModuleRefCollection de un archivo de enlace es el nodo primario de todos los nodos ModuleRef que contienen información específica acerca de los ensamblados .NET que se exportan con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="2c941-103">The ModuleRefCollection section of a binding file is the parent node for all of the ModuleRef nodes which contain specific information about .NET assemblies exported with the binding file.</span></span>  

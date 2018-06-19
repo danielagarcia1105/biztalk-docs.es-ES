@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el cuadro de herramientas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el cuadro de herramientas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Pipeline Designer, toolbox
 - pipelines, creating
 ms.assetid: 7a60c590-1a38-46fe-addf-0aa2c8b63cf9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257276"
 ---
 # <a name="how-to-use-the-toolbox"></a><span data-ttu-id="98b5c-102">Uso del cuadro de herramientas</span><span class="sxs-lookup"><span data-stu-id="98b5c-102">How to Use the Toolbox</span></span>
 <span data-ttu-id="98b5c-103">Una canalización se crea arrastrando componentes (formas) desde el cuadro de herramientas hasta la superficie de diseño.</span><span class="sxs-lookup"><span data-stu-id="98b5c-103">You create a pipeline by dragging components (shapes) from the Toolbox to the design surface.</span></span> <span data-ttu-id="98b5c-104">El Diseñador de canalizaciones ayuda a ensamblar canalizaciones válidas poniendo algunas restricciones en el proceso de creación.</span><span class="sxs-lookup"><span data-stu-id="98b5c-104">Pipeline Designer helps you assemble valid pipelines by placing certain restrictions on the creation process.</span></span> <span data-ttu-id="98b5c-105">Solo puede seleccionar componentes del cuadro de herramientas aplicables al tipo de canalización que está creando.</span><span class="sxs-lookup"><span data-stu-id="98b5c-105">You can only select Toolbox components that apply to the pipeline type you are creating.</span></span> <span data-ttu-id="98b5c-106">Por ejemplo, una canalización de recepción mostrará descodificadores, desensambladores y validadores como componentes válidos del cuadro de herramientas, mientras que los codificadores y ensambladores estarán deshabilitados (atenuados).</span><span class="sxs-lookup"><span data-stu-id="98b5c-106">For example, a receive pipeline will show decoders, disassemblers, and validators as valid Toolbox components, while encoders and assemblers will be disabled (dimmed).</span></span>  

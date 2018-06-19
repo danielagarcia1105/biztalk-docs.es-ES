@@ -1,11 +1,11 @@
 ---
-title: "Enviar mensajes a través de ubicaciones de recepción y formularios de InfoPath | Documentos de Microsoft"
-ms.custom: 
+title: Enviar mensajes a través de ubicaciones de recepción y formularios de InfoPath | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, receive locations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, InfoPath forms
 - InfoPath forms, messages
 ms.assetid: e8676830-3fbc-423f-82f6-03e6a532075f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005125"
 ---
 # <a name="submitting-messages-through-receive-locations-and-infopath-forms"></a><span data-ttu-id="fcf27-102">Enviando mensajes a través de ubicaciones de recepción y formularios de InfoPath</span><span class="sxs-lookup"><span data-stu-id="fcf27-102">Submitting Messages Through Receive Locations and InfoPath Forms</span></span>
 <span data-ttu-id="fcf27-103">Recibir ubicaciones reciban mensajes de envío en [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="fcf27-103">Receive locations receive messages for submission into [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] applications.</span></span> <span data-ttu-id="fcf27-104">Puede definir ubicaciones de recepción como puntos de conexión físicos configurados para recibir mensajes mediante un protocolo de transporte especificado.</span><span class="sxs-lookup"><span data-stu-id="fcf27-104">You can define receive locations as physical endpoints configured to receive messages using a specified transport protocol.</span></span> <span data-ttu-id="fcf27-105">Por ejemplo, una ubicación de recepción puede configurarse para archivos de recepción que se coloquen en una carpeta de sistema de archivo en particular mediante el transporte de archivo.</span><span class="sxs-lookup"><span data-stu-id="fcf27-105">For example, a receive location may be configured to receive files dropped to a particular file system folder using the FILE transport.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Planeación de la solución | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de la solución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Greenfield project
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Migration project
 - Coexistence installation
 ms.assetid: a108c6d0-dd51-4bf9-85a0-103f60fae971
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005749"
 ---
 # <a name="planning-for-your-solution"></a><span data-ttu-id="1fb98-102">Planeación de la solución</span><span class="sxs-lookup"><span data-stu-id="1fb98-102">Planning for your solution</span></span>
 <span data-ttu-id="1fb98-103">Esta sección proporciona información sobre lo debe considerar al planear la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] solución.</span><span class="sxs-lookup"><span data-stu-id="1fb98-103">This section provides information about what you should consider when planning for your [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] solution.</span></span>  

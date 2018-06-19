@@ -1,11 +1,11 @@
 ---
 title: Transacciones marcadas, copias de seguridad completas y diferenciales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, transaction logs
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - transaction logs
 - backing up, backup jobs
 ms.assetid: a383a16d-1e40-4b0b-a515-f1cb90bfb4d2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973594"
 ---
 # <a name="marked-transactions-full-backups-and-log-backups"></a><span data-ttu-id="6c02e-102">Copias de seguridad de registros, copias de seguridad completas y transacciones marcadas</span><span class="sxs-lookup"><span data-stu-id="6c02e-102">Marked Transactions, Full Backups, and Log Backups</span></span>
 <span data-ttu-id="6c02e-103">El trabajo de copia de seguridad de BizTalk Server crea copias de seguridad sincronizadas de todas las bases de datos de BizTalk Server mediante el uso de las copias de seguridad completa de la base de datos y copias de seguridad de registro de transacciones, junto con un tipo de transacción que se conoce como un *transacción marcada*.</span><span class="sxs-lookup"><span data-stu-id="6c02e-103">The Backup BizTalk Server Job creates synchronized backups of all BizTalk Server databases by using full database backups and transaction log backups, in conjunction with a type of transaction known as a *marked transaction*.</span></span> <span data-ttu-id="6c02e-104">Las transacciones marcadas son transacciones que colocan una marca en el registro de transacciones de todas las bases de datos que participan en la transacción.</span><span class="sxs-lookup"><span data-stu-id="6c02e-104">Marked transactions are transactions that place a mark into the transaction log of all databases participating in the transaction.</span></span> <span data-ttu-id="6c02e-105">La transacción marcada bloquea el inicio de nuevas transacciones distribuidas, espera a que se completen las transacciones distribuidas que están actualmente en ejecución y, seguidamente, efectúa la ejecución para colocar la marca.</span><span class="sxs-lookup"><span data-stu-id="6c02e-105">The marked transaction blocks new distributed transactions from starting, waits for the distributed transactions that are currently running to complete, and then executes to place the mark.</span></span>  

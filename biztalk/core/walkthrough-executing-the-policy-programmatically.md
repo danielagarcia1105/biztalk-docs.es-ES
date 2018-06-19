@@ -1,14 +1,14 @@
 ---
-title: "Tutorial: Ejecutar la directiva mediante programación | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Ejecutar la directiva mediante programación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6398e7af-2ed1-4596-879c-3b7d000b8de2
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290380"
 ---
 # <a name="walkthrough-executing-the-policy-programmatically"></a><span data-ttu-id="a0d0a-102">Tutorial: Ejecutar la directiva mediante programación</span><span class="sxs-lookup"><span data-stu-id="a0d0a-102">Walkthrough: Executing the Policy Programmatically</span></span>
 <span data-ttu-id="a0d0a-103">Este tutorial proporciona procedimientos paso a paso para invocar la directiva creada en el [Tutorial: crear una directiva empresarial sencilla](../core/walkthrough-creating-a-simple-business-policy.md) tutorial desde una aplicación de consola mediante programación.</span><span class="sxs-lookup"><span data-stu-id="a0d0a-103">This walkthrough provides step-by-step procedures for invoking the policy you created in the [Walkthrough: Creating a Simple Business Policy](../core/walkthrough-creating-a-simple-business-policy.md) walkthrough from a console application programmatically.</span></span>  

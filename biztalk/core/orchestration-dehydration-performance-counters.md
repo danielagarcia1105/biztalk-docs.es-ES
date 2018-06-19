@@ -1,14 +1,14 @@
 ---
-title: "Contadores de rendimiento de deshidratación de orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Contadores de rendimiento de deshidratación de orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ab92e0e-6a33-4aaa-ab14-0c82322b04d5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263788"
 ---
 # <a name="orchestration-dehydration-performance-counters"></a><span data-ttu-id="64590-102">Contadores de rendimiento de deshidratación de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="64590-102">Orchestration Dehydration Performance Counters</span></span>
 <span data-ttu-id="64590-103">En la tabla siguiente se incluyen los nombres de los contadores de rendimiento del motor de orquestaciones que son específicos para la supervisión del comportamiento de deshidratación.</span><span class="sxs-lookup"><span data-stu-id="64590-103">The following table lists the names of Orchestration Engine performance counters that are specific to monitoring the behavior of dehydration.</span></span> <span data-ttu-id="64590-104">Use el monitor de rendimiento para observar estos contadores mientras ajusta los parámetros de deshidratación.</span><span class="sxs-lookup"><span data-stu-id="64590-104">Use Performance Monitor to watch these counters while tuning your dehydration parameters.</span></span>  

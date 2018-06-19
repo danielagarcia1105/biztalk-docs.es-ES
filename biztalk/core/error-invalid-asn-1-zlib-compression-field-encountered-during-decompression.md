@@ -1,14 +1,14 @@
 ---
-title: "Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión | Documentos de Microsoft"
-ms.custom: 
+title: Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7caf047-badd-49e8-b955-554e5ec7511f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241868"
 ---
 # <a name="invalid-asn1-zlib-compression-field-encountered-during-decompression-processing"></a><span data-ttu-id="5d2e1-102">Campo de compresión ASN.1 ZLib no válido detectado durante el proceso de descompresión</span><span class="sxs-lookup"><span data-stu-id="5d2e1-102">Invalid ASN.1 ZLib compression field encountered during decompression processing</span></span>
 ## <a name="details"></a><span data-ttu-id="5d2e1-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="5d2e1-103">Details</span></span>  

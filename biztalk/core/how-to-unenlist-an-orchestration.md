@@ -1,11 +1,11 @@
 ---
-title: "Cómo dar de baja una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo dar de baja una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, unenlisting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [orchestrations], unenlisting
 - unenlisting, orchestrations
 ms.assetid: 038ed7bb-615c-4e4e-a5bb-79de2626de77
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255884"
 ---
 # <a name="how-to-unenlist-an-orchestration"></a><span data-ttu-id="7d784-102">Cómo dar de baja una orquestación</span><span class="sxs-lookup"><span data-stu-id="7d784-102">How to Unenlist an Orchestration</span></span>
 <span data-ttu-id="7d784-103">Este tema explica cómo dar de baja una orquestación mediante la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="7d784-103">This topic describes how to unenlist an orchestration by using the BizTalk Server Administration console.</span></span> <span data-ttu-id="7d784-104">Al dar de baja una orquestación, ésta se quita del host.</span><span class="sxs-lookup"><span data-stu-id="7d784-104">Unenlisting an orchestration removes it from the host.</span></span> <span data-ttu-id="7d784-105">Con ello, se elimina la suscripción, por lo que la orquestación deja de procesar mensajes.</span><span class="sxs-lookup"><span data-stu-id="7d784-105">This removes the subscription so that the orchestration no longer processes messages.</span></span> <span data-ttu-id="7d784-106">Es preciso dar de baja una orquestación antes de poder editar sus enlaces.</span><span class="sxs-lookup"><span data-stu-id="7d784-106">You must unenlist an orchestration before you can edit its bindings.</span></span>  

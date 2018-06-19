@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e698b21-e234-4d7d-b101-742eff68155c
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22258020"
 ---
 # <a name="how-validation-of-an-edi-interchange-is-configured"></a><span data-ttu-id="43899-102">Cómo configurar la validación de un intercambio EDI</span><span class="sxs-lookup"><span data-stu-id="43899-102">How Validation of an EDI Interchange Is Configured</span></span>
 <span data-ttu-id="43899-103">Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelve un intercambio entrante o saliente, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará las propiedades del acuerdo (y no las propiedades de la canalización) para determinar el modo en que se realiza la validación.</span><span class="sxs-lookup"><span data-stu-id="43899-103">If the process to look up an agreement determines the agreement to which an incoming or outgoing interchange resolves to, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the agreement properties (not pipeline properties) to determine how validation is performed.</span></span> <span data-ttu-id="43899-104">Si ningún acuerdo se resuelve en un intercambio, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará algunas propiedades del acuerdo de reserva y algunas propiedades de la canalización en la realización de la validación.</span><span class="sxs-lookup"><span data-stu-id="43899-104">If no agreement resolves to an interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses some fallback agreement properties and some pipeline properties in performing validation.</span></span>  

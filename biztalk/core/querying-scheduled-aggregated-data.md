@@ -1,17 +1,17 @@
 ---
 title: Consultar datos agregados programados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, scheduled data
 - queries [BAM], scheduled data
 ms.assetid: fb785ec0-7862-4d83-bb6f-0ebd69a28ce6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970866"
 ---
 # <a name="querying-scheduled-aggregated-data"></a><span data-ttu-id="91ae0-102">Consultar datos agregados programados</span><span class="sxs-lookup"><span data-stu-id="91ae0-102">Querying Scheduled Aggregated Data</span></span>
 <span data-ttu-id="91ae0-103">Los datos de agregación programados están disponibles para consultas mediante cubos OLAP creados de forma dinámica en la base de datos de análisis de BAM.</span><span class="sxs-lookup"><span data-stu-id="91ae0-103">Scheduled aggregation data is available to queries through dynamically created OLAP cubes in the  BAM Analysis database.</span></span>  

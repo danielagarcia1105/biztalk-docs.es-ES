@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea6e5481-fc2e-4b17-b6c8-1ec5d2bfa2c3
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009829"
 ---
 # <a name="configuring-certificates-for-mime-or-smime-messages"></a><span data-ttu-id="ea259-102">Configurar certificados para MIME o mensajes SMIME</span><span class="sxs-lookup"><span data-stu-id="ea259-102">Configuring Certificates for MIME or SMIME Messages</span></span>
 <span data-ttu-id="ea259-103">Para ayudar a proteger de transferencia de datos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe asociar certificados instalados en los almacenes de certificados con los artefactos apropiados de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ea259-103">To help secure data transfer on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must associate certificates installed in the certificate stores with the appropriate BizTalk artifacts.</span></span> <span data-ttu-id="ea259-104">Esto se aplica a los mensajes con codificación MIME/SMIME.</span><span class="sxs-lookup"><span data-stu-id="ea259-104">This applies to MIME/SMIME-encoded messages.</span></span> <span data-ttu-id="ea259-105">También se aplica al transporte de AS2, que transporta los mensajes MIME/SMIME.</span><span class="sxs-lookup"><span data-stu-id="ea259-105">It also applies to AS2 transport, which transports MIME/SMIME messages.</span></span>  

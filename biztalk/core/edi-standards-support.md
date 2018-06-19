@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con los estándares EDI | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con los estándares EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2ef14c5-5f12-40e2-93d7-59b5c5a0d641
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007925"
 ---
 # <a name="edi-standards-support"></a><span data-ttu-id="036af-102">Compatibilidad de estándares EDI</span><span class="sxs-lookup"><span data-stu-id="036af-102">EDI Standards Support</span></span>
 <span data-ttu-id="036af-103">BizTalk Server proporciona para la compatibilidad de diseño y tiempo de ejecución con cuatro estándares de codificación.</span><span class="sxs-lookup"><span data-stu-id="036af-103">BizTalk Server provides for design- and run-time support for four encoding standards.</span></span> <span data-ttu-id="036af-104">En la tabla siguiente se enumeran los estándares de codificación con vínculos a información complementaria.</span><span class="sxs-lookup"><span data-stu-id="036af-104">The following table lists the encoding standards with links to more information.</span></span>  

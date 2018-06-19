@@ -1,18 +1,18 @@
 ---
-title: "Paso 12: Configurar formas de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 12: Configurar formas de orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, orchestration shapes
 - orchestrations, shapes
 - message enrichment tutorial, orchestrations
 ms.assetid: 9388254b-2841-4489-838e-de913ceff151
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006429"
 ---
 # <a name="step-12-configure-orchestration-shapes"></a><span data-ttu-id="6ee6a-102">Paso 12: Configurar formas de orquestación</span><span class="sxs-lookup"><span data-stu-id="6ee6a-102">Step 12: Configure Orchestration Shapes</span></span>
 <span data-ttu-id="6ee6a-103">En este paso, completa la configuración de las formas de orquestación con el fin de quitar las etiquetas inteligentes de configuración incompleta.</span><span class="sxs-lookup"><span data-stu-id="6ee6a-103">In this step, you complete the configuration of the orchestration shapes in order to remove the insufficient configuration smart tags.</span></span> <span data-ttu-id="6ee6a-104">Designe **DoorbellOutputMessage** como la salida del primer proceso de transformación, que designa **DoorbellMap.btm** como la asignación que se utiliza en ese proceso.</span><span class="sxs-lookup"><span data-stu-id="6ee6a-104">You designate **DoorbellOutputMessage** as the output of the first transform process, designating **DoorbellMap.btm** as the map used in that process.</span></span> <span data-ttu-id="6ee6a-105">A continuación, designe **DoorbellFinalMessage** como la salida del segundo proceso de transformación y agregue la expresión que enriquece el mensaje con los datos de campo adicional.</span><span class="sxs-lookup"><span data-stu-id="6ee6a-105">You then designate **DoorbellFinalMessage** as the output of the second transform process, and add the expression that enriches the message with additional field data.</span></span>  

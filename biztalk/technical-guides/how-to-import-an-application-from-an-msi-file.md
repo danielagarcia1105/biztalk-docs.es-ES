@@ -1,14 +1,14 @@
 ---
-title: "Cómo importar una aplicación desde un archivo .msi | Documentos de Microsoft"
-ms.custom: 
+title: Cómo importar una aplicación desde un archivo .msi | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5472df9-9f1e-42d5-82e0-cc559caf56b3
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009549"
 ---
 # <a name="how-to-import-an-application-from-an-msi-file"></a><span data-ttu-id="a734d-102">Cómo importar una aplicación desde un archivo .msi</span><span class="sxs-lookup"><span data-stu-id="a734d-102">How to Import an Application from an .msi File</span></span>
 <span data-ttu-id="a734d-103">Puede usar al Asistente para importación de MSI en la consola de administración de BizTalk Server o BTSTask para importar una aplicación de BizTalk desde un archivo .msi a un grupo de BizTalk en el entorno de destino e instalar la aplicación en las instancias de host individual en el grupo.</span><span class="sxs-lookup"><span data-stu-id="a734d-103">You can use the Import MSI Wizard in the BizTalk Server Administration Console or BTSTask to import a BizTalk application from an .msi file into a BizTalk group in the target environment and install the application on individual host instances in the group.</span></span> <span data-ttu-id="a734d-104">El proceso de importación completa realiza las siguientes operaciones:</span><span class="sxs-lookup"><span data-stu-id="a734d-104">The full import process performs the following operations:</span></span>  

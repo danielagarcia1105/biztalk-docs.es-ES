@@ -1,14 +1,14 @@
 ---
 title: Configurar MSDTC en el cliente de SQL Server y el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222924"
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a><span data-ttu-id="f63d2-102">Configurar MSDTC en el cliente de SQL Server y el adaptador</span><span class="sxs-lookup"><span data-stu-id="f63d2-102">Configure MSDTC on SQL Server and adapter client</span></span>
 <span data-ttu-id="f63d2-103">Las operaciones se realizan en SQL Server mediante la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (a través de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], el modelo de servicio WCF o el modelo de canal WCF) se pueden realizar en un ámbito de transacción.</span><span class="sxs-lookup"><span data-stu-id="f63d2-103">The operations performed on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (through [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], the WCF service model, or the WCF channel model) can be performed within a transaction scope.</span></span> <span data-ttu-id="f63d2-104">Si el programa de cliente tiene más de un recurso transaccional como parte de la misma transacción, la transacción obtiene elevada a una transacción MSDTC.</span><span class="sxs-lookup"><span data-stu-id="f63d2-104">If the client program has more than one transactional resource as part of the same transaction, the transaction gets elevated to an MSDTC transaction.</span></span> <span data-ttu-id="f63d2-105">Para habilitar el adaptador realizar operaciones dentro del ámbito de una transacción MSDTC, debe configurar MSDTC tanto en el equipo que ejecuta el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] y SQL Server.</span><span class="sxs-lookup"><span data-stu-id="f63d2-105">To enable the adapter to perform operations within the scope of an MSDTC transaction, you must configure MSDTC both on the computer running the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] and SQL Server.</span></span> <span data-ttu-id="f63d2-106">Además, debe agregar MSDTC a la lista de excepciones de Firewall de Windows.</span><span class="sxs-lookup"><span data-stu-id="f63d2-106">Also, you must add MSDTC to the exceptions list of Windows Firewall.</span></span> <span data-ttu-id="f63d2-107">Esta sección proporciona información acerca de cómo realizar estas tareas en equipos que ejecutan el cliente de adaptador y SQL Server.</span><span class="sxs-lookup"><span data-stu-id="f63d2-107">This section provides information about how to perform these tasks on computers running the adapter client and SQL Server.</span></span>  

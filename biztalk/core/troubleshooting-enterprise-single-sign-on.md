@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de Enterprise Single Sign-On | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de Enterprise Single Sign-On | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb54af9f-a6ef-46c1-b987-2019cff3f837
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975314"
 ---
 # <a name="troubleshooting-enterprise-single-sign-on"></a><span data-ttu-id="4fd7c-102">Solución de problemas de Enterprise Single Sign-On</span><span class="sxs-lookup"><span data-stu-id="4fd7c-102">Troubleshooting Enterprise Single Sign-On</span></span>
 <span data-ttu-id="4fd7c-103">En esta tema se proporciona información sobre los problemas comunes que se pueden producir al usar el inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="4fd7c-103">This topic describes information about common problems you may encounter while using Enterprise Single Sign-On (SSO).</span></span>  

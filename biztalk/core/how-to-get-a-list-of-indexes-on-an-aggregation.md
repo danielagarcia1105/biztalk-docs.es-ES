@@ -1,18 +1,18 @@
 ---
-title: "Cómo obtener una lista de índices en una agregación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo obtener una lista de índices en una agregación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - indexes [BAM], listing indexes
 - aggregations [BAM], listing indexes
 - Get-Index command [BAM]
 ms.assetid: 46a4a2fc-10f8-499c-bf2a-d0a19bb84151
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970762"
 ---
 # <a name="how-to-get-a-list-of-indexes-on-an-aggregation"></a><span data-ttu-id="64e65-102">Cómo obtener una lista de índices de una agregación</span><span class="sxs-lookup"><span data-stu-id="64e65-102">How to Get a List of Indexes on an Aggregation</span></span>
 <span data-ttu-id="64e65-103">Los administradores utilizan el **get-index** comando para obtener una lista de todos los índices de la actividad especificada.</span><span class="sxs-lookup"><span data-stu-id="64e65-103">Administrators use the **get-index** command to get a list of all the indexes on the specified activity.</span></span>  

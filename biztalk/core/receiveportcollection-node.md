@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268396"
 ---
 # <a name="receiveportcollection-node"></a><span data-ttu-id="add54-102">ReceivePortCollection (nodo)</span><span class="sxs-lookup"><span data-stu-id="add54-102">ReceivePortCollection Node</span></span>
 <span data-ttu-id="add54-103">El nodo ReceivePortCollection de un archivo de enlace es el nodo principal para todos los nodos puertoRecepción que contienen información específica acerca de un puerto de recepción que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="add54-103">The ReceivePortCollection node of a binding file is the parent node for all of the ReceivePort nodes which contain specific information about a receive port that is exported with the binding file.</span></span>  

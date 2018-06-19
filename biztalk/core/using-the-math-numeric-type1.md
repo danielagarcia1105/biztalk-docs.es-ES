@@ -1,11 +1,11 @@
 ---
 title: Mediante el Type1 MATH_NUMERIC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters [JD Edwards EnterpriseOne adapters], currency
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, currency
 - exponents, values [JD Edwards EnterpriseOne adapters]
 ms.assetid: 2a302216-f0a6-4afb-8f7d-bb1475ea1c57
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288516"
 ---
 # <a name="using-the-mathnumeric-type"></a><span data-ttu-id="3de2c-102">Uso del tipo MATH_NUMERIC</span><span class="sxs-lookup"><span data-stu-id="3de2c-102">Using the MATH_NUMERIC Type</span></span>
 <span data-ttu-id="3de2c-103">En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan los exponentes, el número máximo de dígitos y el número máximo de dígitos decimales.</span><span class="sxs-lookup"><span data-stu-id="3de2c-103">This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits.</span></span> <span data-ttu-id="3de2c-104">También incluye una explicación sobre:</span><span class="sxs-lookup"><span data-stu-id="3de2c-104">It also includes a discussion on:</span></span>  
@@ -104,7 +105,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="3de2c-151">1.9e-31 / 100.0 = 0.00000000000000000000000000000000</span><span class="sxs-lookup"><span data-stu-id="3de2c-151">1.9e-31 / 100.0 = 0.00000000000000000000000000000000</span></span>  
   
- <span data-ttu-id="3de2c-152">En otros casos se producen resultados impredecibles, como cuando un valor positivo muy grande se multiplica por otro.</span><span class="sxs-lookup"><span data-stu-id="3de2c-152">In other cases, unpredictable results occur, as when a very large positive value is multiplied by another.</span></span> <span data-ttu-id="3de2c-153">1.01e32 * 2.053e32 no produce resultados fiables y no genera un error.</span><span class="sxs-lookup"><span data-stu-id="3de2c-153">1.01e32 * 2.053e32 does not yield reliable results and does not raise an error.</span></span> <span data-ttu-id="3de2c-154">Para la mayoría de las situaciones empresariales, no se superan estos intervalos.</span><span class="sxs-lookup"><span data-stu-id="3de2c-154">For most business scenarios, these ranges are not exceeded.</span></span>  
+ <span data-ttu-id="3de2c-152">En otros casos se producen resultados impredecibles, como cuando un valor positivo muy grande se multiplica por otro.</span><span class="sxs-lookup"><span data-stu-id="3de2c-152">In other cases, unpredictable results occur, as when a very large positive value is multiplied by another.</span></span> <span data-ttu-id="3de2c-153">1.01e32 \* 2.053e32 no produce resultados fiables y no genera un error.</span><span class="sxs-lookup"><span data-stu-id="3de2c-153">1.01e32 \* 2.053e32 does not yield reliable results and does not raise an error.</span></span> <span data-ttu-id="3de2c-154">Para la mayoría de las situaciones empresariales, no se superan estos intervalos.</span><span class="sxs-lookup"><span data-stu-id="3de2c-154">For most business scenarios, these ranges are not exceeded.</span></span>  
   
 ## <a name="currency"></a><span data-ttu-id="3de2c-155">Moneda</span><span class="sxs-lookup"><span data-stu-id="3de2c-155">Currency</span></span>  
  <span data-ttu-id="3de2c-156">Cuando una función empresarial de JD Edwards EnterpriseOne espera un valor de divisa, dicha función siempre tiene un parámetro independiente para un código de divisa de cuatro caracteres.</span><span class="sxs-lookup"><span data-stu-id="3de2c-156">When a JD Edwards EnterpriseOne business function expects a currency value, the business function always has a separate parameter for a four-character currency code.</span></span> <span data-ttu-id="3de2c-157">No es necesario escribir este código salvo que use una divisa distinta a la configurada de manera predeterminada para el sistema JD Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="3de2c-157">It is not necessary to pass in this code unless you are using a currency other than the default configured for the JD Edwards EnterpriseOne system.</span></span>  

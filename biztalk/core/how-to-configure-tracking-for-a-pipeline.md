@@ -1,15 +1,15 @@
 ---
 title: Habilitar el seguimiento de canalizaciones | Documentos de Microsoft
-description: "Realizar un seguimiento de cuerpos de mensaje y eventos cuando la canalización procesa los mensajes en BizTalk Server"
-ms.custom: 
+description: Realizar un seguimiento de cuerpos de mensaje y eventos cuando la canalización procesa los mensajes en BizTalk Server
+ms.custom: ''
 ms.date: 12/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f7f3c4a-4464-4170-a580-b4ce9296a097
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/13/2017
+ms.locfileid: "26686627"
 ---
 # <a name="configure-pipeline-tracking-in-biztalk-server"></a><span data-ttu-id="e6d5b-103">Configurar la canalización de seguimiento de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e6d5b-103">Configure pipeline tracking in BizTalk Server</span></span>
 <span data-ttu-id="e6d5b-104">Use la administración de BizTalk Server para configurar el seguimiento de una canalización.</span><span class="sxs-lookup"><span data-stu-id="e6d5b-104">Use the BizTalk Server Administration to configure tracking for a pipeline.</span></span> <span data-ttu-id="e6d5b-105">Puede que desee configurar el seguimiento con fines de solución de problemas y auditoría.</span><span class="sxs-lookup"><span data-stu-id="e6d5b-105">You might want to configure tracking for troubleshooting and auditing purposes.</span></span> <span data-ttu-id="e6d5b-106">Puede ver propiedades de mensajes, eventos de puerto y eventos de mensajes.</span><span class="sxs-lookup"><span data-stu-id="e6d5b-106">You can view message properties, port events, and message events.</span></span> <span data-ttu-id="e6d5b-107">También puede realizar un seguimiento de eventos de mensaje y eventos de puerto para mensajes.</span><span class="sxs-lookup"><span data-stu-id="e6d5b-107">You can also track message events and port events for messages.</span></span>  

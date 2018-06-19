@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, typed fault contracts
 - orchestrations, WCF services
 ms.assetid: 5a1a7d22-b0ff-4d09-bebf-4995229784b0
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25970770"
 ---
 # <a name="how-to-handle-typed-fault-contracts-in-orchestrations"></a><span data-ttu-id="fd3f5-102">Cómo controlar los contratos con tipos erróneos en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="fd3f5-102">How to Handle Typed Fault Contracts in Orchestrations</span></span>
 <span data-ttu-id="fd3f5-103">En este tema se explica cómo controlar los contratos con tipos erróneos al consumir servicios WCF desde las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-103">This topic describes how to handle typed fault contracts when consuming WCF services from within orchestrations.</span></span> <span data-ttu-id="fd3f5-104">Para controlar las excepciones de tipo erróneo en orquestaciones, los servicios WCF que va a consumir deben tener la **FaultContractAttribute** aplica a las operaciones de servicio; por lo tanto, los errores se pueden iniciar mediante el uso de  **FaultException**\<T\> donde T puede ser cualquier contrato de datos válido o un tipo serializable de los servicios WCF.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-104">To handle typed fault exceptions in orchestrations, the WCF services that you are consuming must have the **FaultContractAttribute** applied to the service operations; therefore, the faults can be thrown by using **FaultException**\<T\> where T can be any valid data contract or serializable type from the WCF services.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 03/23/2018
   
 3.  <span data-ttu-id="fd3f5-109">En el **éste es el Asistente para consumición de servicio de BizTalk WCF** página, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-109">On the **Welcome to the BizTalk WCF Service Consuming Wizard** page, click **Next**.</span></span>  
   
-4.  <span data-ttu-id="fd3f5-110">En el **origen de metadatos** página, seleccione **punto de conexión de intercambio de metadatos (MEX)**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-110">On the **Metadata source** page, select **Metadata Exchange (MEX) endpoint**, and then click **Next**.</span></span>  
+4.  <span data-ttu-id="fd3f5-110">En el **origen de metadatos** página, seleccione **punto de conexión de intercambio de metadatos (MEX)** y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-110">On the **Metadata source** page, select **Metadata Exchange (MEX) endpoint**, and then click **Next**.</span></span>  
   
 5.  <span data-ttu-id="fd3f5-111">En el **extremo de metadatos** página, especifique la dirección URL para el servicio en ejecución que proporciona metadatos para su descarga mediante WS-Metadata Exchange o Http-Get — por ejemplo, http://localhost: 8005.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-111">On the **Metadata Endpoint** page, specify the URL for the running service that provides metadata for download through WS-Metadata Exchange or Http-Get—for example, http://localhost:8005.</span></span> <span data-ttu-id="fd3f5-112">Para obtener el documento de metadatos de la dirección URL, haga clic en **obtener**.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-112">To get the metadata document from the URL, click **Get**.</span></span> <span data-ttu-id="fd3f5-113">Si el servicio en ejecución requiere una credencial de usuario con el esquema de autenticación básica, haga clic en **editar** para abrir el **Asistente de consumición de servicio WCF de BizTalk** cuadro de diálogo en el que puede proporcionar el nombre de usuario y contraseña que se utilizará al obtener acceso a lo servicio en ejecución.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-113">If the running service requires a user credential with the basic authentication scheme, click **Edit** to open the **BizTalk WCF Service Consuming Wizard** dialog box in which you can supply the user name and password to use when accessing the running service.</span></span> <span data-ttu-id="fd3f5-114">Haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="fd3f5-114">Click **Next**.</span></span>  
   

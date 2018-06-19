@@ -1,14 +1,14 @@
 ---
-title: "Error de tipos de errores por aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Error de tipos de errores por aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da390835-4d7d-4201-b9cb-45ef38d3db95
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294092"
 ---
 # <a name="fault-error-types-by-application-or-service"></a><span data-ttu-id="f8e2a-102">Tipos de Error de error por aplicación o servicio</span><span class="sxs-lookup"><span data-stu-id="f8e2a-102">Fault Error Types by Application or Service</span></span>
 <span data-ttu-id="f8e2a-103">Esta opción muestra una vista agregada de todos los errores por tipo de error especificado generado para un grupo de aplicaciones especificado durante un tiempo especificado.</span><span class="sxs-lookup"><span data-stu-id="f8e2a-103">This option displays an aggregate view of all faults by specified error type generated for a specified set of applications over a specified time.</span></span> <span data-ttu-id="f8e2a-104">Puede seleccionar el tipo de error específico y la aplicación para mostrar un informe que enumera los errores de tipo de error correspondientes para esa aplicación.</span><span class="sxs-lookup"><span data-stu-id="f8e2a-104">You can select the specific error type and application to display a report that lists the matching error type faults for that application.</span></span> <span data-ttu-id="f8e2a-105">También puede exportar la lista de errores como una hoja de cálculo de Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="f8e2a-105">You can also export the list of faults as a Microsoft Excel spreadsheet.</span></span>  

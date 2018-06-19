@@ -1,14 +1,14 @@
 ---
 title: Sondear el servidor SQL mediante el adaptador de SQL con el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eef2e868-bd51-4393-b091-f67299b4759d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222916"
 ---
 # <a name="poll-sql-server-using-the-sql-adapter-with-wcf-service-model"></a><span data-ttu-id="76166-102">Sondear el servidor SQL mediante el adaptador de SQL con el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="76166-102">Poll SQL Server using the SQL Adapter with WCF Service Model</span></span>
 <span data-ttu-id="76166-103">Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de cambio de datos basado en sondeo de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="76166-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive polling-based data-changed messages from SQL Server.</span></span> <span data-ttu-id="76166-104">Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos.</span><span class="sxs-lookup"><span data-stu-id="76166-104">You can specify a polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="76166-105">La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="76166-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span> <span data-ttu-id="76166-106">Según el tipo de mensaje de sondeo recibido, el adaptador expone las operaciones de sondeo diferentes:</span><span class="sxs-lookup"><span data-stu-id="76166-106">Based on the type of polling message received, the adapter exposes different polling operations:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Compensación (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Compensación (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, compensations
 - compensations, orchestrations
 ms.assetid: 9d10c7be-6a4c-44cc-bf29-78ecdf147bd1
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975137"
 ---
 # <a name="compensation-biztalk-server-sample"></a><span data-ttu-id="07563-102">Compensación (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="07563-102">Compensation (BizTalk Server Sample)</span></span>
 <span data-ttu-id="07563-103">El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="07563-103">The Compensation sample demonstrates how to use the **Compensate** shape in an orchestration.</span></span>  
@@ -119,7 +120,7 @@ ms.lasthandoff: 11/28/2017
   
     4.  <span data-ttu-id="07563-205">En el **orquestaciones y puertos** página, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="07563-205">On the **Orchestrations and Ports** page, click **Next**.</span></span>  
   
-    5.  <span data-ttu-id="07563-206">En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo **http://Microsoft.BizTalk.Samples.Compensation/**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="07563-206">On the **Web Service Properties** page, in **Target namespace of web service**, type **http://Microsoft.BizTalk.Samples.Compensation/**, and then click **Next**.</span></span>  
+    5.  <span data-ttu-id="07563-206">En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo **http://Microsoft.BizTalk.Samples.Compensation/** y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="07563-206">On the **Web Service Properties** page, in **Target namespace of web service**, type **http://Microsoft.BizTalk.Samples.Compensation/**, and then click **Next**.</span></span>  
   
     6.  <span data-ttu-id="07563-207">En el **proyecto de servicio Web** página **ubicación**, tipo **http://localhost/CompensationOrchestrationWebServiceProxy**.</span><span class="sxs-lookup"><span data-stu-id="07563-207">On the **Web Service Project** page, in **Location**, type **http://localhost/CompensationOrchestrationWebServiceProxy**.</span></span>  
   

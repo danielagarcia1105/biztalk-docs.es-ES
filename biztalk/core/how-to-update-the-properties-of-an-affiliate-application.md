@@ -1,17 +1,17 @@
 ---
-title: "Cómo actualizar las propiedades de una aplicación afiliada | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar las propiedades de una aplicación afiliada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO applications], updating properties
 - applications [SSO], properties
 ms.assetid: b06eefdd-a5ca-4a32-93d7-72246e31a2e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972650"
 ---
 # <a name="how-to-update-the-properties-of-an-affiliate-application"></a><span data-ttu-id="693d6-102">Cómo actualizar las propiedades de una aplicación afiliada</span><span class="sxs-lookup"><span data-stu-id="693d6-102">How to Update the Properties of an Affiliate Application</span></span>
 <span data-ttu-id="693d6-103">Puede utilizar el Complemento MMC o este comando para actualizar una o más propiedades de aplicaciones, como especificó el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="693d6-103">You can use the MMC Snap-In or this command to update one or more application properties, as specified by the XML file.</span></span> <span data-ttu-id="693d6-104">Deberá ser administrador afiliado para realizar esta tarea.</span><span class="sxs-lookup"><span data-stu-id="693d6-104">You must be an Affiliate Administrator to perform this task.</span></span> <span data-ttu-id="693d6-105">A continuación se muestra un ejemplo de archivo XML que enumera los campos que puede actualizar.</span><span class="sxs-lookup"><span data-stu-id="693d6-105">The following is an example XML file that lists the fields you can update.</span></span>  

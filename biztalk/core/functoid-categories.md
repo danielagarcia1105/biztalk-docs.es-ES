@@ -1,14 +1,14 @@
 ---
-title: "Categorías de functoids | Documentos de Microsoft"
-ms.custom: 
+title: Categorías de functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 029905e2-f01a-436a-b2ed-a364379c9cc5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246764"
 ---
 # <a name="functoid-categories"></a><span data-ttu-id="3b2dd-102">Categorías de functoids</span><span class="sxs-lookup"><span data-stu-id="3b2dd-102">Functoid Categories</span></span>
 <span data-ttu-id="3b2dd-103">Los functoids de BizTalk se dividen en categorías según la utilización que se les vaya a dar.</span><span class="sxs-lookup"><span data-stu-id="3b2dd-103">BizTalk functoids are divided into categories according to their intended use.</span></span> <span data-ttu-id="3b2dd-104">Por ejemplo, los functoids de bases de datos están diseñados para extraer datos de una base de datos en tiempo de ejecución, los functoids matemáticos se utilizan para efectuar operaciones matemáticas, etc.</span><span class="sxs-lookup"><span data-stu-id="3b2dd-104">For example, database functoids are designed for extracting data from a database at run time, mathematical functoids are used to perform mathematical operations, and so on.</span></span> <span data-ttu-id="3b2dd-105">En el asignador de BizTalk, functoids aparecen ordenados por categorías en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] cuadro de herramientas.</span><span class="sxs-lookup"><span data-stu-id="3b2dd-105">In BizTalk Mapper, functoids appear by category in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.</span></span> 

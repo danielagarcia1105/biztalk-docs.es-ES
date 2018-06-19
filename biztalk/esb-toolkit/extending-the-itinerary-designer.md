@@ -1,14 +1,14 @@
 ---
-title: "Extender el Diseñador de itinerarios | Documentos de Microsoft"
-ms.custom: 
+title: Extender el Diseñador de itinerarios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f26b825b-ebab-4dac-b7ed-0608c79e146a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974482"
 ---
 # <a name="extending-the-itinerary-designer"></a><span data-ttu-id="96e43-102">Extender el Diseñador de itinerarios</span><span class="sxs-lookup"><span data-stu-id="96e43-102">Extending the Itinerary Designer</span></span>
 <span data-ttu-id="96e43-103">El Diseñador de itinerario es un lenguaje específico de dominio visual (DSL) para Microsoft Visual Studio que permite el modelado del gráfico de itinerarios para su uso con el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span><span class="sxs-lookup"><span data-stu-id="96e43-103">The Itinerary Designer is a visual domain-specific language (DSL) for Microsoft Visual Studio that enables the graphical modeling of itineraries for use with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span> <span data-ttu-id="96e43-104">El diseñador expone varios puntos de extensión para que los programadores pueden escribir extensiones personalizadas para habilitar la funcionalidad nueva o nuevas opciones de configuración.</span><span class="sxs-lookup"><span data-stu-id="96e43-104">The designer exposes various extension points for which developers can write custom extensions to enable new functionality and/or new configuration options.</span></span>  

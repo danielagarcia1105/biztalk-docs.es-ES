@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración del adaptador de MQSeries | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración del adaptador de MQSeries | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, code sample
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - MQSeries adapters, receive location
 - send ports, adapters
 ms.assetid: 7517a8bf-aa65-4af9-aed0-7c74fb480328
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972490"
 ---
 # <a name="mqseries-adapter-configuration-properties"></a><span data-ttu-id="a7fed-102">Propiedades de configuración del adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="a7fed-102">MQSeries Adapter Configuration Properties</span></span>
 <span data-ttu-id="a7fed-103">En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir mediante una ubicación de recepción del adaptador de MQSeries:</span><span class="sxs-lookup"><span data-stu-id="a7fed-103">The following table lists the configuration properties that you can set for an MQSeries adapter receive location:</span></span>  

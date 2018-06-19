@@ -1,14 +1,14 @@
 ---
 title: Requiere la huella digital de certificado de servicio no se especifica | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca853667-83b5-41f2-9b54-8117b87e27d3
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268564"
 ---
 # <a name="required-service-certificate-thumbprint-not-specified"></a><span data-ttu-id="ce936-102">Huella digital de certificado de servicio necesaria no especificada.</span><span class="sxs-lookup"><span data-stu-id="ce936-102">Required service certificate thumbprint not specified</span></span>
 ## <a name="details"></a><span data-ttu-id="ce936-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ce936-103">Details</span></span>  

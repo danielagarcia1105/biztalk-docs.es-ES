@@ -1,14 +1,14 @@
 ---
-title: "HIPAA versión 5010 del esquema de documento | Documentos de Microsoft"
-ms.custom: 
+title: HIPAA versión 5010 del esquema de documento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62e50964-66e1-4ed9-a1a1-68556b13b024
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006371"
 ---
 # <a name="hipaa-document-schema-version-5010"></a><span data-ttu-id="c8605-102">Versión de esquema del documento HIPAA 5010</span><span class="sxs-lookup"><span data-stu-id="c8605-102">HIPAA Document Schema Version 5010</span></span>
 <span data-ttu-id="c8605-103">El valor predeterminado para inglés Departamento de salud y servicios humanos (HHS) ha anunciado una disposición final de 16 de enero de 2009 que reemplaza la HIPAA versión 4010A1 actual con la versión 5010.</span><span class="sxs-lookup"><span data-stu-id="c8605-103">The U.S. Department of Health and Human Services (HHS) announced a final rule on January 16, 2009, that replaces the current HIPAA version 4010A1 with version 5010.</span></span> <span data-ttu-id="c8605-104">La versión 5010 de las normas de HIPAA incluye mejoras en estructurales, preliminares, técnicos y el contenido de datos.</span><span class="sxs-lookup"><span data-stu-id="c8605-104">Version 5010 of the HIPAA standards includes improvements in structural, front matter, technical, and data content.</span></span> <span data-ttu-id="c8605-105">Estas mejoras reducirán y eliminarán ambigüedades en los datos al tiempo que solucionarán algunas necesidades empresariales anteriormente no satisfechas.</span><span class="sxs-lookup"><span data-stu-id="c8605-105">These improvements will reduce and eliminate ambiguities in data while also addressing a few previously unmet business needs.</span></span> <span data-ttu-id="c8605-106">BizTalk Server proporciona compatibilidad con HIPAA versión 5010.</span><span class="sxs-lookup"><span data-stu-id="c8605-106">BizTalk Server provides support for HIPAA version 5010.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Derivación de tipo simple | Documentos de Microsoft"
-ms.custom: 
+title: Derivación de tipo simple | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d43932a0-039c-4211-82c0-087bae186145
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270796"
 ---
 # <a name="simple-type-derivation"></a><span data-ttu-id="b7487-102">Derivación de tipo simple</span><span class="sxs-lookup"><span data-stu-id="b7487-102">Simple Type Derivation</span></span>
 <span data-ttu-id="b7487-103">El lenguaje de definición de esquemas XML (XSD) proporciona varios mecanismos para definir las variaciones de tipos simples según las derivaciones de tipos simples existentes, como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="b7487-103">XML Schema definition (XSD) language provides several mechanisms for defining variations of simple types, based on derivations of existing simple types, as follows:</span></span>  

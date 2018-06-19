@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005589"
 ---
 # <a name="party-aliases-tab"></a><span data-ttu-id="ccc62-102">Pestaña de alias de entidad</span><span class="sxs-lookup"><span data-stu-id="ccc62-102">Party Aliases Tab</span></span>
 <span data-ttu-id="ccc62-103">Usa el **alias de entidad** pestaña para ver información acerca de la entidad seleccionada.</span><span class="sxs-lookup"><span data-stu-id="ccc62-103">You use the **Party Aliases** tab to view information about the selected party.</span></span>  

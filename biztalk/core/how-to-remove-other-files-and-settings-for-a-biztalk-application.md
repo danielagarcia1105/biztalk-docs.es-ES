@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar otros archivos y configuraciones para una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar otros archivos y configuraciones para una aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], deleting settings
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, undeploying
 - undeploying, files
 ms.assetid: b947831a-c988-435c-92ec-45f3fd6967de
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255068"
 ---
 # <a name="how-to-remove-other-files-and-settings-for-a-biztalk-application"></a><span data-ttu-id="61b00-102">Cómo quitar otros archivos y configuraciones correspondientes a una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="61b00-102">How to Remove Other Files and Settings for a BizTalk Application</span></span>
 <span data-ttu-id="61b00-103">Este tema describe cómo quitar archivos y la configuración de una aplicación de BizTalk que no puede quitarse cuando se desinstala la aplicación (que se describe en [cómo desinstalar una aplicación de BizTalk](../core/how-to-uninstall-a-biztalk-application.md)).</span><span class="sxs-lookup"><span data-stu-id="61b00-103">This topic describes how to remove files and settings for a BizTalk application that may not be removed when you uninstall the application (which is described in [How to Uninstall a BizTalk Application](../core/how-to-uninstall-a-biztalk-application.md)).</span></span> <span data-ttu-id="61b00-104">Por ejemplo, los certificados, las entradas de Registro COM y COM+, así como los archivos COM no se quitan, a menos que la aplicación incluya un script posterior al procesamiento que los eliminara o los desinstalara.</span><span class="sxs-lookup"><span data-stu-id="61b00-104">For example, certificates, COM and COM+ registry entries, and COM files are not removed unless the application included a post-processing script that removed them on uninstallation.</span></span>  

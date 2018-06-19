@@ -1,14 +1,14 @@
 ---
 title: AS2 Propiedades de contexto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b4d63104-f31e-4ed2-b294-ba3ea8a39ae6
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007557"
 ---
 # <a name="as2-context-properties"></a><span data-ttu-id="f886d-102">Propiedades de contexto de AS2</span><span class="sxs-lookup"><span data-stu-id="f886d-102">AS2 Context Properties</span></span>
 <span data-ttu-id="f886d-103">Cinco tipos de propiedades de contexto que se aplican a los mensajes de AS2 en BizTalk Server:</span><span class="sxs-lookup"><span data-stu-id="f886d-103">Five types of context properties apply to AS2 messages in BizTalk Server:</span></span>  

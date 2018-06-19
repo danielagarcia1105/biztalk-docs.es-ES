@@ -1,14 +1,14 @@
 ---
-title: "Punto de administración de BizTalk de SOA | Documentos de Microsoft"
-ms.custom: 
+title: Punto de administración de BizTalk de SOA | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b416ac8-e2e2-4400-92ef-94b5c24c5a9f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009277"
 ---
 # <a name="soa-biztalk-management-point"></a><span data-ttu-id="8d49e-102">Punto de administración de BizTalk de SOA</span><span class="sxs-lookup"><span data-stu-id="8d49e-102">SOA BizTalk Management Point</span></span>
 <span data-ttu-id="8d49e-103">El punto de administración de BizTalk para que BizTalk Server es una extensión conceptual a punto de administración de servicios de Web de Software de SOA, aplica específicamente para el entorno de BizTalk Server y proporcionar el control de tiempo de ejecución de aplicaciones de servicio Web.</span><span class="sxs-lookup"><span data-stu-id="8d49e-103">The BizTalk Management Point for BizTalk Server is a conceptual extension to SOA Software's Web Services Management Point, applied specifically to the BizTalk Server environment and providing run-time governance for Web service applications.</span></span>  

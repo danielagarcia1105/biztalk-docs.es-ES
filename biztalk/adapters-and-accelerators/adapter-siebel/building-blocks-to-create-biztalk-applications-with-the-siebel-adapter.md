@@ -1,17 +1,17 @@
 ---
-title: "Bloques de creación para crear aplicaciones de BizTalk con el adaptador de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para crear aplicaciones de BizTalk con el adaptador de Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing BizTalk applicatons, run-time tasks
 - developing BizTalk applications, design-time tasks
 ms.assetid: 76204181-18ad-43b5-b589-539aafd66835
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222596"
 ---
 # <a name="building-blocks-to-create-biztalk-applications-with-the-siebel-adapter"></a><span data-ttu-id="5b3e7-102">Bloques de creación para crear aplicaciones de BizTalk con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="5b3e7-102">Building blocks to create BizTalk applications with the Siebel adapter</span></span>
 <span data-ttu-id="5b3e7-103">Realizar operaciones en un sistema Siebel con [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] implica dos conjuntos de actividades: actividades de tiempo de diseño y tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="5b3e7-103">Performing operations on a Siebel system using [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] involves two set of activities: design-time activities and run-time activities.</span></span> <span data-ttu-id="5b3e7-104">Para realizar operaciones en un sistema Siebel mediante el uso de la [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración.</span><span class="sxs-lookup"><span data-stu-id="5b3e7-104">To perform operations on a Siebel system by using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="5b3e7-105">Esta sección proporciona información general sobre estas tareas.</span><span class="sxs-lookup"><span data-stu-id="5b3e7-105">This section provides an overview of these tasks.</span></span> <span data-ttu-id="5b3e7-106">Todos los temas de esta sección, que muestran cómo realizar operaciones específicas en un sistema Siebel con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.</span><span class="sxs-lookup"><span data-stu-id="5b3e7-106">All the topics in this section, which demonstrate how to perform specific operations on a Siebel system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

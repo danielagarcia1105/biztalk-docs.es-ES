@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar el Asistente para esquemas de archivo sin formato de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Asistente para esquemas de archivo sin formato de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7cb8b18-266d-422e-bdb8-1efefb6b4c8e
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258300"
 ---
 # <a name="how-to-use-biztalk-flat-file-schema-wizard"></a><span data-ttu-id="cabd9-102">Cómo utilizar el Asistente para esquemas de archivo sin formato de BizTalk</span><span class="sxs-lookup"><span data-stu-id="cabd9-102">How to Use BizTalk Flat File Schema Wizard</span></span>
 <span data-ttu-id="cabd9-103">En versiones anteriores de BizTalk Server había que agregar manualmente las anotaciones en los esquemas del lenguaje de definición de esquemas XML (XSD) en el Editor de esquema de BizTalk para que los esquemas fueran comprensibles para los componentes de canalización de archivos sin formato, como el Desensamblador de archivo sin formato y el Ensamblador de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="cabd9-103">In previous releases of BizTalk Server, you had to manually add the annotations to XML Schema Definition language (XSD) schemas in the BizTalk Schema Editor to make these schemas understandable to Flat File Pipeline components, such as Flat File Disassembler and Flat File Assembler.</span></span> <span data-ttu-id="cabd9-104">Puede seguir haciéndolo con el editor de esquemas de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="cabd9-104">You can still do this using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Schema Editor.</span></span> <span data-ttu-id="cabd9-105">Para reducir el número de pasos manuales, así como el tiempo necesario para crear soluciones, utilice el Asistente para esquemas de archivos sin formato de BizTalk, que ofrece las funciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="cabd9-105">To reduce the number of manual steps and time needed to create solutions, you use the BizTalk Flat File Schema Wizard, which provides the following functionalities:</span></span>  

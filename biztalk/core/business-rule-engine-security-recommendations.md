@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad de motor de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, business rules
 - Business Rules Framework, security
 - business rules, security
 ms.assetid: d5df1cd0-112a-4c72-b95d-cbcd1bc6a2c3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231948"
 ---
 # <a name="business-rule-engine-security-recommendations"></a><span data-ttu-id="cf069-102">Recomendaciones de seguridad de motor de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="cf069-102">Business Rule Engine Security Recommendations</span></span>
 <span data-ttu-id="cf069-103">El motor de reglas de negocios es el componente en tiempo de ejecución del marco de trabajo de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="cf069-103">The Business Rule Engine is the runtime component of the Business Rule Framework.</span></span> <span data-ttu-id="cf069-104">El marco de trabajo de reglas de negocios permite conectar reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos.</span><span class="sxs-lookup"><span data-stu-id="cf069-104">With the Business Rule Framework, you can connect highly readable, declarative, semantically rich rules to any business objects (.NET components), XML documents, or database tables.</span></span> <span data-ttu-id="cf069-105">Para obtener más información sobre el marco de trabajo de reglas de negocios, vea [crear y usar las reglas de negocios](../core/creating-and-using-business-rules.md).</span><span class="sxs-lookup"><span data-stu-id="cf069-105">For more information about the Business Rule Framework, see [Creating and Using Business Rules](../core/creating-and-using-business-rules.md).</span></span> <span data-ttu-id="cf069-106">Para obtener más información sobre el motor de reglas de negocios, vea [motor de reglas](../core/rule-engine.md).</span><span class="sxs-lookup"><span data-stu-id="cf069-106">For more information about the Business Rule Engine, see [Rule Engine](../core/rule-engine.md).</span></span>  

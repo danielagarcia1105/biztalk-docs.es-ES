@@ -1,11 +1,11 @@
 ---
 title: 'Paso 7: Crear e implementar el ejemplo de SDK de DoubleAction | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, building solutions
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - building solutions
 - double action tutorial, deploying solutions
 ms.assetid: f67f8aee-1004-48ee-a6fd-881097382888
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005381"
 ---
 # <a name="step-7-building-and-deploying-the-doubleaction-sdk-sample"></a><span data-ttu-id="690c7-102">Paso 7: Crear e implementar el ejemplo de SDK de DoubleAction</span><span class="sxs-lookup"><span data-stu-id="690c7-102">Step 7: Building and Deploying the DoubleAction SDK Sample</span></span>
 <span data-ttu-id="690c7-103">El ejemplo DoubleAction.odx muestra cómo implementar una orquestación para generar respuestas automáticamente para los procesos de interfaz de socio (PIP) de doble acción 0C2, 0C4, 3A2 y 3A4.</span><span class="sxs-lookup"><span data-stu-id="690c7-103">The DoubleAction.odx sample shows how to implement an orchestration to generate responses automatically for the double-action Partner Interface Processes (PIPs) 0C2, 0C4, 3A2, and 3A4.</span></span> <span data-ttu-id="690c7-104">Puede extender este proyecto de ejemplo para admitir PIP de doble acción adicionales.</span><span class="sxs-lookup"><span data-stu-id="690c7-104">You can extend this sample project to support additional double-action PIPs.</span></span>  

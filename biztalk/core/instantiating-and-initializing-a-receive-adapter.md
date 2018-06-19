@@ -1,14 +1,14 @@
 ---
-title: "Crear instancias e inicializar un adaptador de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Crear instancias e inicializar un adaptador de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c5cb5ba7-e2b5-49d2-adf5-a8df0bb81def
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,9 +17,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257484"
 ---
 # <a name="instantiating-and-initializing-a-receive-adapter"></a><span data-ttu-id="be934-102">Crear instancias e inicializar un adaptador de recepción</span><span class="sxs-lookup"><span data-stu-id="be934-102">Instantiating and Initializing a Receive Adapter</span></span>
-<span data-ttu-id="be934-103">Inmediatamente después de que se hayan creado instancias de un adaptador de recepción, el motor de mensajería lo inicializa, el motor llama a QueryInteraface para IBTTransportControl.</span><span class="sxs-lookup"><span data-stu-id="be934-103">Immediately after a receive adapter is instantiated it is initialized by the Messaging Engine, the engine calls QueryInteraface for IBTTransportControl.</span></span> <span data-ttu-id="be934-104">A continuación, llama a IBTTransportControl**. Inicializar** pasando proxy de transporte del adaptador, que conserva el adaptador en una variable miembro.</span><span class="sxs-lookup"><span data-stu-id="be934-104">It then calls IBTTransportControl**.Initialize** passing in the adapter's transport proxy, which the adapter persists in a member variable.</span></span> <span data-ttu-id="be934-105">A continuación, el motor llama **QueryInterface** para **IPersistPropertyBag**.</span><span class="sxs-lookup"><span data-stu-id="be934-105">Next the engine calls **QueryInterface** for **IPersistPropertyBag**.</span></span> <span data-ttu-id="be934-106">Se trata de una interfaz opcional; Si el adaptador la implementa, la configuración del controlador se pasa al adaptador en la **carga** llamada al método.</span><span class="sxs-lookup"><span data-stu-id="be934-106">This is an optional interface; if the adapter implements it, the handler configuration is passed to the adapter in the **Load** method call.</span></span> <span data-ttu-id="be934-107">La última fase de la inicialización de un adaptador de recepción implica pasar la configuración del extremo al adaptador.</span><span class="sxs-lookup"><span data-stu-id="be934-107">The final stage of initializing a receive adapter involves passing the endpoint configuration to the adapter.</span></span> <span data-ttu-id="be934-108">Durante esta fase el motor llama **IBTTransportConfig.AddReceiveEndpoint** una vez para cada extremo activo, pasando el URI para el punto de conexión, la configuración específica del adaptador para el punto de conexión y la configuración de BizTalk para ese extremo.</span><span class="sxs-lookup"><span data-stu-id="be934-108">During this phase the engine calls **IBTTransportConfig.AddReceiveEndpoint** once for each active endpoint, passing in the URI for the endpoint, the adapter specific configuration for the endpoint, and the BizTalk configuration for that endpoint.</span></span>  
+<span data-ttu-id="be934-103">Inmediatamente después de que se hayan creado instancias de un adaptador de recepción, el motor de mensajería lo inicializa, el motor llama a QueryInteraface para IBTTransportControl.</span><span class="sxs-lookup"><span data-stu-id="be934-103">Immediately after a receive adapter is instantiated it is initialized by the Messaging Engine, the engine calls QueryInteraface for IBTTransportControl.</span></span> <span data-ttu-id="be934-104">A continuación, llama a IBTTransportControl **. Inicializar** pasando proxy de transporte del adaptador, que conserva el adaptador en una variable miembro.</span><span class="sxs-lookup"><span data-stu-id="be934-104">It then calls IBTTransportControl **.Initialize** passing in the adapter's transport proxy, which the adapter persists in a member variable.</span></span> <span data-ttu-id="be934-105">A continuación, el motor llama **QueryInterface** para **IPersistPropertyBag**.</span><span class="sxs-lookup"><span data-stu-id="be934-105">Next the engine calls **QueryInterface** for **IPersistPropertyBag**.</span></span> <span data-ttu-id="be934-106">Se trata de una interfaz opcional; Si el adaptador la implementa, la configuración del controlador se pasa al adaptador en la **carga** llamada al método.</span><span class="sxs-lookup"><span data-stu-id="be934-106">This is an optional interface; if the adapter implements it, the handler configuration is passed to the adapter in the **Load** method call.</span></span> <span data-ttu-id="be934-107">La última fase de la inicialización de un adaptador de recepción implica pasar la configuración del extremo al adaptador.</span><span class="sxs-lookup"><span data-stu-id="be934-107">The final stage of initializing a receive adapter involves passing the endpoint configuration to the adapter.</span></span> <span data-ttu-id="be934-108">Durante esta fase el motor llama **IBTTransportConfig.AddReceiveEndpoint** una vez para cada extremo activo, pasando el URI para el punto de conexión, la configuración específica del adaptador para el punto de conexión y la configuración de BizTalk para ese extremo.</span><span class="sxs-lookup"><span data-stu-id="be934-108">During this phase the engine calls **IBTTransportConfig.AddReceiveEndpoint** once for each active endpoint, passing in the URI for the endpoint, the adapter specific configuration for the endpoint, and the BizTalk configuration for that endpoint.</span></span>  
   
  <span data-ttu-id="be934-109">La ilustración siguiente muestra esta secuencia de llamadas a la API.</span><span class="sxs-lookup"><span data-stu-id="be934-109">The following figure illustrates this sequence of API calls.</span></span> <span data-ttu-id="be934-110">El adaptador implementa las interfaces que se muestran en azul.</span><span class="sxs-lookup"><span data-stu-id="be934-110">The adapter implements the interfaces shown in blue.</span></span>  
   

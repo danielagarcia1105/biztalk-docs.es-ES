@@ -1,11 +1,11 @@
 ---
 title: Colas de puesta en cola de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MSMQ adapters], queue paths
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - naming conventions, queue paths [MSMQ adapters]
 - configuring [MSMQ adapters], message queues
 ms.assetid: b802348e-8543-4b06-a6e4-149b86139fb1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971466"
 ---
 # <a name="message-queuing-queues"></a><span data-ttu-id="2b3b3-102">Colas de puesta en cola de mensajes</span><span class="sxs-lookup"><span data-stu-id="2b3b3-102">Message Queuing Queues</span></span>
 <span data-ttu-id="2b3b3-103">Esta sección describe cómo especificar colas de Microsoft Message Queue Server (a la que también se conoce como MSMQ) cuando utiliza el adaptador de MSMQ.</span><span class="sxs-lookup"><span data-stu-id="2b3b3-103">This section describes how to specify Microsoft Message Queuing (also known as MSMQ) queues when you use the MSMQ adapter.</span></span> <span data-ttu-id="2b3b3-104">Describe las convenciones para especificar rutas y la función que los nombres de formato desempeñan cuando se traducen rutas a designaciones de cola.</span><span class="sxs-lookup"><span data-stu-id="2b3b3-104">It describes the conventions for specifying paths and also describes the role that format names play in translating paths into queue designations.</span></span>  

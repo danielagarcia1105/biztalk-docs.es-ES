@@ -1,14 +1,14 @@
 ---
 title: Elemento OnEvent del interceptor | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d684ac8e-61bc-410b-97a2-6fd3549e0d97
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257612"
 ---
 # <a name="interceptor-onevent-element"></a><span data-ttu-id="07f8c-102">Elemento OnEvent del interceptor</span><span class="sxs-lookup"><span data-stu-id="07f8c-102">Interceptor OnEvent Element</span></span>
 <span data-ttu-id="07f8c-103">El **OnEvent** elemento describe un evento real que está asignado a la actividad de BAM envolvente.</span><span class="sxs-lookup"><span data-stu-id="07f8c-103">The **OnEvent** element describes one real event that is mapped to the enclosing BAM activity.</span></span>  

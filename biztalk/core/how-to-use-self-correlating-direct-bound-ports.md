@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar puertos de enlace directo autocorrelación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar puertos de enlace directo autocorrelación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: feb651fa-3e35-4598-b229-335448f6919c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257140"
 ---
 # <a name="how-to-use-self-correlating-direct-bound-ports"></a><span data-ttu-id="95943-102">Cómo usar puertos de enlace directo de autocorrelación</span><span class="sxs-lookup"><span data-stu-id="95943-102">How to Use Self-Correlating Direct Bound Ports</span></span>
 <span data-ttu-id="95943-103">Los puertos de enlace directo de autocorrelación hacen referencia a sí mismos.</span><span class="sxs-lookup"><span data-stu-id="95943-103">Self-correlating direct bound ports are self referential.</span></span> <span data-ttu-id="95943-104">Esto significa que un puerto de enlace directo de autocorrelación suministra la información que puede utilizar una orquestación para devolver mensajes a su orquestación envolvente.</span><span class="sxs-lookup"><span data-stu-id="95943-104">This means that a self-correlating direct bound port supplies the information that an orchestration can use to send messages back to its enclosing orchestration.</span></span> <span data-ttu-id="95943-105">Al utilizar el enlace directo de autocorrelación, el motor de orquestaciones generará un token de correlación en los mensajes que sean específicos de la instancia de orquestación.</span><span class="sxs-lookup"><span data-stu-id="95943-105">When using the self-correlating direct binding, the orchestration engine generates a correlation token on a message that is particular to the orchestration instance.</span></span> <span data-ttu-id="95943-106">Esto ofrece la capacidad de devolver los mensajes a una instancia de orquestación específica sin usar un conjunto de correlaciones.</span><span class="sxs-lookup"><span data-stu-id="95943-106">This provides the capability of getting messages back to a particular orchestration instance without using a correlation set.</span></span>  

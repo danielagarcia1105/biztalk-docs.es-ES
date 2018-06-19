@@ -1,18 +1,18 @@
 ---
-title: "Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, purging
 - purging, manually
 - purging, warnings
 ms.assetid: f350d850-5034-4166-940c-8d10b7b445fb
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971706"
 ---
 # <a name="how-to-manually-purge-data-from-the-biztalk-tracking-database"></a><span data-ttu-id="5b5a0-102">Cómo purgar datos manualmente desde la base de datos de seguimiento de BizTalk</span><span class="sxs-lookup"><span data-stu-id="5b5a0-102">How to Manually Purge Data from the BizTalk Tracking Database</span></span>
 <span data-ttu-id="5b5a0-103">El trabajo DTA Archive and Purge SQL Server Agent reduce la necesidad de purgar manualmente los datos de la base de datos de seguimiento de BizTalk (BizTalkDTADb) debido a la continua purga de la base de datos y a la compactación de los datos de seguimiento almacenados.</span><span class="sxs-lookup"><span data-stu-id="5b5a0-103">The DTA Archive and Purge SQL Server Agent job reduces the need to manually purge data from the BizTalk Tracking (BizTalkDTADb) database due to continuous purging of the database and compaction of stored tracking data.</span></span> <span data-ttu-id="5b5a0-104">Es posible que tenga que efectuar una purga manual cuando la base de datos de seguimiento de BizTalk (BizTalkDTADb) haya crecido tanto como para ocasionar una pérdida continua de rendimiento y el trabajo DTA Archive and Purge no pueda hacer frente al crecimiento de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="5b5a0-104">You might need to manually purge data if your BizTalk Tracking (BizTalkDTADb) database has grown so much that sustained performance degradation is occurring and the DTA Archive and Purge job is unable to keep up with the database growth.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Contadores de rendimiento de servicios de descodificación de datos de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Contadores de rendimiento de servicios de descodificación de datos de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 733450b1-71b5-48a4-9ac3-cd880324440c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973250"
 ---
 # <a name="tracking-data-decode-services-performance-counters"></a><span data-ttu-id="6ef0d-102">Contadores de rendimiento del Servicio de descodificación de datos de seguimiento</span><span class="sxs-lookup"><span data-stu-id="6ef0d-102">Tracking Data Decode Services Performance Counters</span></span>
 <span data-ttu-id="6ef0d-103">Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por el servicio en el sitio o sistema.</span><span class="sxs-lookup"><span data-stu-id="6ef0d-103">Performance counters allow you to monitor specific aspects of work performed on the site or system by service.</span></span> <span data-ttu-id="6ef0d-104">Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.</span><span class="sxs-lookup"><span data-stu-id="6ef0d-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

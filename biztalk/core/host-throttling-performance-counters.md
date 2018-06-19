@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971874"
 ---
 # <a name="host-throttling-performance-counters"></a><span data-ttu-id="6bb95-102">Contadores de rendimiento de limitación de host</span><span class="sxs-lookup"><span data-stu-id="6bb95-102">Host Throttling Performance Counters</span></span>
 <span data-ttu-id="6bb95-103">En esta sección se describen los contadores del monitor de rendimiento que miden los parámetros del sistema que afectan a la limitación de host.</span><span class="sxs-lookup"><span data-stu-id="6bb95-103">This section describes the performance monitor counters that measure system parameters that impact host throttling.</span></span> <span data-ttu-id="6bb95-104">Los siguientes contadores de rendimiento son accesibles para cada instancia de host en el **BizTalk: agente** categoría de objeto de rendimiento:</span><span class="sxs-lookup"><span data-stu-id="6bb95-104">The following performance counters are accessible for each host instance under the **BizTalk:Message Agent** performance object category:</span></span>  

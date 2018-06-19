@@ -1,18 +1,18 @@
 ---
 title: 'Paso 2: Configurar NLB en los servidores | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Network Load Balancing
 - configuring, NLB
 - NLB
 ms.assetid: 30b2f645-b495-49a5-852b-cf89d25fd2b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006525"
 ---
 # <a name="step-2-configuring-nlb-on-the-servers"></a><span data-ttu-id="c9a9a-102">Paso 2: Configurar NLB en los servidores</span><span class="sxs-lookup"><span data-stu-id="c9a9a-102">Step 2: Configuring NLB on the Servers</span></span>
 <span data-ttu-id="c9a9a-103">Después de haber instalado la plataforma base y configura los servidores con la configuración de red adecuado (consulte [paso 1: instalación de la plataforma Base](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md)), puede que necesite habilitar el equilibrio de carga en los servidores front-end HTTP de BizTalk y BizTalk Servidores de mensajería.</span><span class="sxs-lookup"><span data-stu-id="c9a9a-103">After you have installed the base platform and configured the servers with the proper network settings (see [Step 1: Installing the Base Platform](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md)), you may need to enable load balancing on BizTalk HTTP front-end servers and the BizTalk Messaging servers.</span></span> <span data-ttu-id="c9a9a-104">Este paso es necesario únicamente si tiene uno o más HTTP de BizTalk servidores front-end instalados en un equipo independiente de uno o más servidores de mensajería de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c9a9a-104">This step is needed only if you have one or more BizTalk HTTP front-end servers installed on a separate computer from one or more BizTalk Messaging servers.</span></span>  

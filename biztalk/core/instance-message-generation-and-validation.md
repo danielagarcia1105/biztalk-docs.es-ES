@@ -1,14 +1,14 @@
 ---
-title: "Validación y generación de mensaje de instancia | Documentos de Microsoft"
-ms.custom: 
+title: Validación y generación de mensaje de instancia | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a306846-3942-4ba1-a74e-6ead8deb0322
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257988"
 ---
 # <a name="instance-message-generation-and-validation"></a><span data-ttu-id="3fd9f-102">Generación y validación de mensajes de instancia</span><span class="sxs-lookup"><span data-stu-id="3fd9f-102">Instance Message Generation and Validation</span></span>
 <span data-ttu-id="3fd9f-103">Una vez validado un esquema, puede usarlo para generar un mensaje de instancia de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="3fd9f-103">After you have validated a schema, you can use it to generate a sample instance message.</span></span> <span data-ttu-id="3fd9f-104">El mensaje de instancia de ejemplo generado contiene la estructura de elementos y atributos especificada por el esquema y genera datos falsos si es necesario.</span><span class="sxs-lookup"><span data-stu-id="3fd9f-104">The sample instance message that is generated contains the element and attribute structure specified by the schema, and generate fake data where required.</span></span>  

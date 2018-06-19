@@ -1,14 +1,14 @@
 ---
 title: Con las extensiones de herramientas XML | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5613bf15-6c0a-4a82-b200-24d0801d7ece
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006317"
 ---
 # <a name="using-the-xml-tool-extensions"></a><span data-ttu-id="bb112-102">Utilizar las extensiones de herramientas XML</span><span class="sxs-lookup"><span data-stu-id="bb112-102">Using the XML Tool Extensions</span></span>
 <span data-ttu-id="bb112-103">Las extensiones de herramientas XML de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permiten realizar tareas en esquemas, asignaciones e instancias de mensajes.</span><span class="sxs-lookup"><span data-stu-id="bb112-103">The XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enable you to perform tasks on schemas, maps, and message instances.</span></span> <span data-ttu-id="bb112-104">Utilice estas extensiones en el tiempo de diseño del entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="bb112-104">You use these extensions at design time in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="bb112-105">Puede llevar a cabo las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="bb112-105">The tasks you can perform are:</span></span>  

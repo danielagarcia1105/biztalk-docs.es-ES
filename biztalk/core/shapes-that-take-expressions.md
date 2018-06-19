@@ -1,11 +1,11 @@
 ---
 title: Formas que usan expresiones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Expression Editor, shapes
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Loop shape [Orchestration Designer], expressions
 - Rule shape [Orchestration Designer]
 ms.assetid: 0d27f711-ff7c-422b-b231-aa3c9a42ed0c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270788"
 ---
 # <a name="shapes-that-take-expressions"></a><span data-ttu-id="d7b0d-102">Formas que usan expresiones</span><span class="sxs-lookup"><span data-stu-id="d7b0d-102">Shapes that Take Expressions</span></span>
 <span data-ttu-id="d7b0d-103">Varias formas en el Diseñador de orquestaciones, incluidos los **decidir** y **bucle**, usan expresiones booleanas para crear reglas que controlan la bifurcación.</span><span class="sxs-lookup"><span data-stu-id="d7b0d-103">Several shapes in Orchestration Designer, including **Decide** and **Loop**, use Boolean expressions to form rules that control branching.</span></span> <span data-ttu-id="d7b0d-104">Otras formas utilizan expresiones para otros fines.</span><span class="sxs-lookup"><span data-stu-id="d7b0d-104">Other shapes use expressions for other purposes.</span></span> <span data-ttu-id="d7b0d-105">Puede crear o editar una expresión para estas formas mediante el Editor de expresiones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d7b0d-105">You can create or edit an expression for these shapes by using BizTalk Expression Editor.</span></span>  

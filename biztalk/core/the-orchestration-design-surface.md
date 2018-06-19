@@ -1,14 +1,14 @@
 ---
-title: "La superficie de diseño de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: La superficie de diseño de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c5fb190b-60d7-45e4-9883-7b3d2ed6b0c0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279812"
 ---
 # <a name="the-orchestration-design-surface"></a><span data-ttu-id="af4e2-102">La superficie de diseño de la orquestación</span><span class="sxs-lookup"><span data-stu-id="af4e2-102">The Orchestration Design Surface</span></span>
 <span data-ttu-id="af4e2-103">La superficie de diseño de orquestación es un diseñador visual que se puede usar para crear una orquestación de BizTalk, además de ser el componente central del diseñador de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="af4e2-103">The Orchestration Design Surface is a visual designer that you can use to create a BizTalk Orchestration, and is the central component of Orchestration Designer.</span></span> <span data-ttu-id="af4e2-104">Es un lienzo en el que puede arrastrar formas desde el cuadro de herramientas y configurar las formas.</span><span class="sxs-lookup"><span data-stu-id="af4e2-104">It is a canvas that you can drag shapes onto from the Toolbox, and then configure the shapes.</span></span> <span data-ttu-id="af4e2-105">Como ventana del editor de Visual Studio, ocupa el área de la ventana principal usada por otras ventanas del editor de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="af4e2-105">As a Visual Studio editor window, it occupies the main window area used by other Visual Studio editor windows.</span></span>  

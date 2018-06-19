@@ -1,14 +1,14 @@
 ---
 title: Con la herramienta de Microsoft BizTalk LoadGen 2007 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1973a26-1c98-4261-bd9a-6357cdb19ccf
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007205"
 ---
 # <a name="using-the-microsoft-biztalk-loadgen-2007-tool"></a><span data-ttu-id="b43f9-102">Uso de la herramienta de Microsoft BizTalk LoadGen 2007</span><span class="sxs-lookup"><span data-stu-id="b43f9-102">Using the Microsoft BizTalk LoadGen 2007 Tool</span></span>
 <span data-ttu-id="b43f9-103">La herramienta Microsoft BizTalk LoadGen 2007 está diseñada para aquellos programadores y profesionales de TI que deseen simular cargas en un servidor BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b43f9-103">The Microsoft BizTalk LoadGen 2007 Tool is intended for developers and IT professionals to simulate load on a BizTalk Server.</span></span> <span data-ttu-id="b43f9-104">Gracias a ella, en una implementación de BizTalk es posible simular la carga que se produce en la fuerza y el rendimiento de los instrumentos.</span><span class="sxs-lookup"><span data-stu-id="b43f9-104">Using this tool, you can simulate load to instrument performance and stress against a BizTalk deployment.</span></span> <span data-ttu-id="b43f9-105">Además, los programadores también podrán utilizarla para simular la carga en transportes personalizados.</span><span class="sxs-lookup"><span data-stu-id="b43f9-105">In addition, this tool may also be extended by developers to simulate load for custom transports.</span></span>  

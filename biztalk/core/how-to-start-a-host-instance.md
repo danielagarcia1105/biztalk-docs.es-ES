@@ -1,15 +1,15 @@
 ---
 title: Iniciar una instancia de Host | Documentos de Microsoft
-description: "Use la administración de BizTalk para iniciar una instancia de host de BizTalk Server"
-ms.custom: 
+description: Use la administración de BizTalk para iniciar una instancia de host de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a96a4362-2147-4b8e-a270-bf9a17477ba3
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255820"
 ---
 # <a name="start-a-host-instance"></a><span data-ttu-id="56ceb-103">Iniciar una instancia de Host</span><span class="sxs-lookup"><span data-stu-id="56ceb-103">Start a Host Instance</span></span>
 <span data-ttu-id="56ceb-104">Puede usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] o el Instrumental de administración de Windows (WMI) para iniciar las instancias de host.</span><span class="sxs-lookup"><span data-stu-id="56ceb-104">You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or Windows Management Instrumentation (WMI) to start host instances.</span></span> <span data-ttu-id="56ceb-105">Después de agregar o detener una instancia de host, debe iniciarla para que ejecute y enrute mensajes a las bases de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="56ceb-105">After you add or stop a host instance, you must start it so that it is running and routing messages to the MessageBox databases.</span></span>  

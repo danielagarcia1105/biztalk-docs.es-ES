@@ -1,17 +1,17 @@
 ---
 title: Configurar las propiedades de enlace para el adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at design time
 - binding properties, specifying at run time
 ms.assetid: 259a5895-c19d-409c-b2fc-bfdf59d5d74b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217444"
 ---
 # <a name="configure-the-binding-properties-for-the-sap-adapter"></a><span data-ttu-id="f083b-102">Configurar las propiedades de enlace para el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="f083b-102">Configure the binding properties for the SAP adapter</span></span>
 <span data-ttu-id="f083b-103">La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone varias propiedades de enlace que le permiten controlar algunos de sus características de comportamiento.</span><span class="sxs-lookup"><span data-stu-id="f083b-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces several binding properties that enable you to control some of its behavioral characteristics.</span></span> <span data-ttu-id="f083b-104">Esta sección proporciona información acerca de cómo establecer las propiedades de enlace de Visual Studio (tiempo de diseño) y de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración (tiempo de ejecución).</span><span class="sxs-lookup"><span data-stu-id="f083b-104">This section provides information about setting the binding properties from Visual Studio (design time) and from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console (run time).</span></span> <span data-ttu-id="f083b-105">En tiempo de diseño, debe especificar las propiedades de enlace para generar esquemas para las operaciones concretas.</span><span class="sxs-lookup"><span data-stu-id="f083b-105">At design time, you must specify the binding properties to generate schema for specific operations.</span></span> <span data-ttu-id="f083b-106">En tiempo de ejecución, debe especificar las propiedades de enlace como parte de envío o puerto de recepción para enviar o recibir mensajes desde el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="f083b-106">At run time, you must specify the binding properties as part of the send or receive port for sending or receiving messages from the SAP system.</span></span>  

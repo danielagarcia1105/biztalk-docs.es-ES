@@ -1,14 +1,14 @@
 ---
-title: "Cómo controlar errores de los adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlar errores de los adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdceb364-38d6-4aab-a176-bf751da1be25
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255932"
 ---
 # <a name="how-to-handle-adapter-failures"></a><span data-ttu-id="bb231-102">Cómo controlar errores de adaptador</span><span class="sxs-lookup"><span data-stu-id="bb231-102">How to Handle Adapter Failures</span></span>
 <span data-ttu-id="bb231-103">Por lo general, los adaptadores deberían suspender los mensajes que no pueden procesar.</span><span class="sxs-lookup"><span data-stu-id="bb231-103">In general, adapters should suspend messages that they cannot process.</span></span> <span data-ttu-id="bb231-104">Un adaptador de recepción, por ejemplo, que experimente un error de envío debería suspender los mensajes, aunque esta decisión depende del propósito del adaptador.</span><span class="sxs-lookup"><span data-stu-id="bb231-104">For example, a receive adapter that experiences a submit failure should typically suspend the messages, although this decision depends upon the purpose of the adapter.</span></span> <span data-ttu-id="bb231-105">Además, hay consideraciones de seguridad que se deben tener en cuenta con respecto al control de errores.</span><span class="sxs-lookup"><span data-stu-id="bb231-105">There are also security considerations around handling failures.</span></span> <span data-ttu-id="bb231-106">Si un adaptador, por ejemplo, suspende de forma automática todos los mensajes con errores, es posible que el adaptador esté abierto a un ataque de denegación de servicio que provoque que se llene la cola de suspensión de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="bb231-106">For example, if an adapter automatically suspends all failed messages, the adapter might be open to a denial-of-service attack that causes the BizTalk Server Suspended queue to fill up.</span></span>  <span data-ttu-id="bb231-107">Algunos adaptadores, como HTTP, pueden devolver un código de error al cliente que indique que se ha rechazado la solicitud.</span><span class="sxs-lookup"><span data-stu-id="bb231-107">Some adapters, such as HTTP, can return a failure code to the client indicating that the request has been rejected.</span></span> <span data-ttu-id="bb231-108">Para estos tipos de adaptadores resulta conveniente devolver un código de error en lugar de suspender el mensaje.</span><span class="sxs-lookup"><span data-stu-id="bb231-108">For these types of adapters it often makes sense to return a failure code rather than suspend the message.</span></span> <span data-ttu-id="bb231-109">Como norma general, los adaptadores de envío solo suspenden los mensajes una vez que se han agotado los reintentos tanto para los transportes primarios como los secundarios.</span><span class="sxs-lookup"><span data-stu-id="bb231-109">Typically send adapters only suspend messages after all of the retries have been exhausted for both primary and secondary transports.</span></span>  

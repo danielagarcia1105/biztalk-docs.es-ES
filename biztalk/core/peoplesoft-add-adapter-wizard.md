@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263444"
 ---
 # <a name="peoplesoft-add-adapter-wizard"></a><span data-ttu-id="c1a08-102">Asistente para agregar adaptador de PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="c1a08-102">PeopleSoft Add Adapter Wizard</span></span>
 <span data-ttu-id="c1a08-103">Use el Asistente para agregar adaptador para obtener acceso a la información de metadatos del sistema PeopleSoft.</span><span class="sxs-lookup"><span data-stu-id="c1a08-103">Use the Add Adapter Wizard to access metadata information from the PeopleSoft system.</span></span>  

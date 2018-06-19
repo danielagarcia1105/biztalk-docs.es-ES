@@ -1,11 +1,11 @@
 ---
-title: "Cómo establecer una alerta | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer una alerta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - alerts, creating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - queries [BAM], alerts
 - aggregations, alerts
 ms.assetid: 8745d2c6-5bc0-4d7a-8c17-361535f5c6e6
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255708"
 ---
 # <a name="how-to-set-an-alert"></a><span data-ttu-id="2df64-102">Cómo establecer una alerta</span><span class="sxs-lookup"><span data-stu-id="2df64-102">How to Set an Alert</span></span>
 <span data-ttu-id="2df64-103">Para establecer una alerta, puede adjuntarla a una búsqueda de actividad, o llegar hasta ella por medio de una agregación.</span><span class="sxs-lookup"><span data-stu-id="2df64-103">You can set an alert by attaching it to an activity search or drilling down through an aggregation.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 5.  <span data-ttu-id="2df64-123">En el **nombre** texto, escriba un nombre descriptivo para la alerta.</span><span class="sxs-lookup"><span data-stu-id="2df64-123">In the **Name** text box, type a descriptive name for the alert.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="2df64-124">Los nombres están limitados a 100 caracteres y no puede contener los siguientes caracteres: ~! @# $% ^&amp;* ();  Si usa alguno de estos caracteres en un nombre, aparece un contorno de líneas rojas discontinuo alrededor del campo de texto que indica que debe corregirlo para completar la acción.</span><span class="sxs-lookup"><span data-stu-id="2df64-124">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
+    >  <span data-ttu-id="2df64-124">Los nombres están limitados a 100 caracteres y no puede contener los siguientes caracteres: ~! @# $% ^&amp;\* ();  Si usa alguno de estos caracteres en un nombre, aparece un contorno de líneas rojas discontinuo alrededor del campo de texto que indica que debe corregirlo para completar la acción.</span><span class="sxs-lookup"><span data-stu-id="2df64-124">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;\*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
   
 6.  <span data-ttu-id="2df64-125">Si no desea habilitar la alerta en este momento, desactive la **alerta habilitada** casilla de verificación.</span><span class="sxs-lookup"><span data-stu-id="2df64-125">If you do not want the alert enabled at this time, clear the **Alert Enabled** check box.</span></span>  
   
@@ -93,7 +94,7 @@ ms.lasthandoff: 09/20/2017
 5.  <span data-ttu-id="2df64-145">En el **nombre** texto, escriba un nombre descriptivo para la alerta.</span><span class="sxs-lookup"><span data-stu-id="2df64-145">In the **Name** text box, type a descriptive name for the alert.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="2df64-146">Los nombres están limitados a 100 caracteres y no puede contener los siguientes caracteres: ~! @# $% ^&amp;* ();  Si usa alguno de estos caracteres en un nombre, aparece un contorno de líneas rojas discontinuo alrededor del campo de texto que indica que debe corregirlo para completar la acción.</span><span class="sxs-lookup"><span data-stu-id="2df64-146">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
+    >  <span data-ttu-id="2df64-146">Los nombres están limitados a 100 caracteres y no puede contener los siguientes caracteres: ~! @# $% ^&amp;\* ();  Si usa alguno de estos caracteres en un nombre, aparece un contorno de líneas rojas discontinuo alrededor del campo de texto que indica que debe corregirlo para completar la acción.</span><span class="sxs-lookup"><span data-stu-id="2df64-146">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;\*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
   
 6.  <span data-ttu-id="2df64-147">Si no desea habilitar la alerta en este momento, desactive la **alerta habilitada** casilla de verificación.</span><span class="sxs-lookup"><span data-stu-id="2df64-147">If you do not want the alert enabled at this time, clear the **Alert Enabled** check box.</span></span>  
   

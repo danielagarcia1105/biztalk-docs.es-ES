@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255380"
 ---
 # <a name="how-to-save-a-query"></a><span data-ttu-id="eb33b-102">Cómo guardar una consulta</span><span class="sxs-lookup"><span data-stu-id="eb33b-102">How to Save a Query</span></span>
 <span data-ttu-id="eb33b-103">Puede guardar una consulta para utilizarla posteriormente.</span><span class="sxs-lookup"><span data-stu-id="eb33b-103">You can save a query for later reuse.</span></span> <span data-ttu-id="eb33b-104">De forma predeterminada, las consultas guardadas se almacenan en la **Mis documentos** carpeta del usuario que creó y las guardó.</span><span class="sxs-lookup"><span data-stu-id="eb33b-104">By default, saved queries are stored in the **My Documents** folder of the user who created and saved them.</span></span>  

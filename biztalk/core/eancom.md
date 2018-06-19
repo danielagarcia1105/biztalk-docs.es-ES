@@ -1,14 +1,14 @@
 ---
 title: EANCOM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2f3d8f3-80e8-4481-8312-500fdcc86849
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010861"
 ---
 # <a name="eancom"></a><span data-ttu-id="66853-102">EANCOM</span><span class="sxs-lookup"><span data-stu-id="66853-102">EANCOM</span></span>
 <span data-ttu-id="66853-103">Este tema enumeran los documentos EANCOM y las versiones son compatibles con BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="66853-103">This topic lists the EANCOM documents and versions that are supported by BizTalk Server.</span></span>  

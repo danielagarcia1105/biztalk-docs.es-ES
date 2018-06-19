@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Master Secret server, restoring
 - restoring, Master Secret server
 ms.assetid: 68e133c5-4591-4d76-9a3b-c9564ff1aa60
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970914"
 ---
 # <a name="how-to-restore-the-master-secret"></a><span data-ttu-id="92a99-102">Cómo restaurar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="92a99-102">How to Restore the Master Secret</span></span>
 <span data-ttu-id="92a99-103">Como parte de los procedimientos de recuperación de datos, es probable que tenga que restaurar el secreto principal para poder reutilizar los datos existentes.</span><span class="sxs-lookup"><span data-stu-id="92a99-103">As part of data recovery procedures, you may need to restore the master secret to re-use existing data.</span></span> <span data-ttu-id="92a99-104">Para realizar esta tarea, debe iniciar la sesión en el servidor secreto principal con una cuenta que sea administrador de Windows y administrador de SSO.</span><span class="sxs-lookup"><span data-stu-id="92a99-104">In order to perform this task, you must log on to the master secret server with an account that is both a Windows administrator and an SSO administrator.</span></span>  

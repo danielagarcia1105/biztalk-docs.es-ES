@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de POP3 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de POP3 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, POP3 adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - POP3 adapters, tutorials
 - configuring [POP3 adapters], Outlook Express
 ms.assetid: b44c3b1d-7b4f-425c-831a-1ce5f6379595
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975946"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a><span data-ttu-id="9550e-102">Tutorial: Crear una aplicación de BizTalk que usa el adaptador de POP3</span><span class="sxs-lookup"><span data-stu-id="9550e-102">Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter</span></span>
 <span data-ttu-id="9550e-103">Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de POP3.</span><span class="sxs-lookup"><span data-stu-id="9550e-103">This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application using the POP3 adapter.</span></span>  
@@ -133,7 +134,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="9550e-167">En el **nombre para mostrar** , escriba un nombre para mostrar y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="9550e-167">In the **Display name** box, type a display name, and then click **Next**.</span></span>  
   
-5.  <span data-ttu-id="9550e-168">En el **dirección de correo electrónico de Internet** cuadro de diálogo, en la **dirección de correo electrónico** , escriba **EmailTest @< nombreDeDominio >**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="9550e-168">In the **Internet E-mail address** dialog box, in the **E-mail address** box, type **EmailTest@<domain_name>**, and then click **Next**.</span></span>  
+5.  <span data-ttu-id="9550e-168">En el **dirección de correo electrónico de Internet** cuadro de diálogo, en la **dirección de correo electrónico** , escriba **EmailTest @< nombreDeDominio >** y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="9550e-168">In the **Internet E-mail address** dialog box, in the **E-mail address** box, type **EmailTest@<domain_name>**, and then click **Next**.</span></span>  
   
      <span data-ttu-id="9550e-169">Asegúrese de escribir el valor adecuado para *< nombreDeDominio >*.</span><span class="sxs-lookup"><span data-stu-id="9550e-169">Make sure to enter the appropriate value for *<domain_name>*.</span></span> <span data-ttu-id="9550e-170">Este valor debe coincidir con el nombre de dominio en el que se creó este buzón en la interfaz de administración de servicio POP3 en el servidor Windows.</span><span class="sxs-lookup"><span data-stu-id="9550e-170">This value should match the name of the domain under which this mailbox was created in the POP3 Service Administration interface on the Windows server.</span></span>  
   

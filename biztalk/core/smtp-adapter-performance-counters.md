@@ -1,14 +1,14 @@
 ---
 title: Contadores de rendimiento de adaptador de SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c7aa7dd-1674-4bbb-b22f-92204d55c4b8
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973394"
 ---
 # <a name="smtp-adapter-performance-counters"></a><span data-ttu-id="a55c5-102">Contadores de rendimiento del adaptador de SMTP</span><span class="sxs-lookup"><span data-stu-id="a55c5-102">SMTP Adapter Performance Counters</span></span>
 <span data-ttu-id="a55c5-103">Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por el servicio en el sitio o sistema.</span><span class="sxs-lookup"><span data-stu-id="a55c5-103">Performance counters allow you to monitor specific aspects of work performed on the site or system by service.</span></span> <span data-ttu-id="a55c5-104">Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.</span><span class="sxs-lookup"><span data-stu-id="a55c5-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

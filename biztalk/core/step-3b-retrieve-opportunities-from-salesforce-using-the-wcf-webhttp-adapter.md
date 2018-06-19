@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3b: recuperar detalles de oportunidades de Salesforce con el adaptador de WCF-WebHttp | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 115c908f-777b-4c51-85ea-71d639b01775
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279556"
 ---
 # <a name="step-3b-retrieve-opportunity-details-from-salesforce-using-the-wcf-webhttp-adapter"></a><span data-ttu-id="35b68-102">Paso 3b: recuperar detalles de oportunidades de Salesforce con el adaptador de WCF-WebHttp</span><span class="sxs-lookup"><span data-stu-id="35b68-102">Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter</span></span>
 <span data-ttu-id="35b68-103">En esta sección, mejoraremos la orquestación para procesar la notificación de oportunidad entrante, extraer el nombre de la oportunidad de la notificación y usarlo para crear una consulta que se enviará a Salesforce.</span><span class="sxs-lookup"><span data-stu-id="35b68-103">In this section, we’ll enhance the orchestration to process the incoming opportunity notification, extract the opportunity name from the notification, and use that to create a request query to send to Salesforce.</span></span> <span data-ttu-id="35b68-104">Con ella, recuperaremos detalles concretos de los productos asociados con la oportunidad.</span><span class="sxs-lookup"><span data-stu-id="35b68-104">This retrieves specific details about the products associated with the opportunity.</span></span> <span data-ttu-id="35b68-105">La respuesta de Salesforce a la consulta se recibe en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="35b68-105">The query response from Salesforce is received back into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="35b68-106">Para lograr esto, realizaremos los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="35b68-106">To achieve this, we’ll perform the following steps:</span></span>  

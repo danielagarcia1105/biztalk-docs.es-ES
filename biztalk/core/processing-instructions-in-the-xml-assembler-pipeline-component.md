@@ -1,11 +1,11 @@
 ---
-title: "Instrucciones de procesamiento en el componente de canalización de ensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Instrucciones de procesamiento en el componente de canalización de ensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XMLNorm.ProcessingInstructionOption property
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - envelopes, XML Assembler [pipeline component]
 - pipeline components, XML Assembler
 ms.assetid: d8ea453e-3b20-417d-bf25-9d424b0150fd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265156"
 ---
 # <a name="processing-instructions-in-the-xml-assembler-pipeline-component"></a><span data-ttu-id="aee5d-102">Instrucciones de procesamiento en el componente de canalización de ensamblador XML</span><span class="sxs-lookup"><span data-stu-id="aee5d-102">Processing Instructions in the XML Assembler Pipeline Component</span></span>
 <span data-ttu-id="aee5d-103">Las instrucciones de procesamiento proporcionan información a la aplicación que procesa un documento XML.</span><span class="sxs-lookup"><span data-stu-id="aee5d-103">Processing instructions provide information to the application that processes an XML document.</span></span> <span data-ttu-id="aee5d-104">Dicha información puede incluir instrucciones sobre cómo procesar el documento, cómo mostrarlo, etc.</span><span class="sxs-lookup"><span data-stu-id="aee5d-104">Such information may include instructions about how to process the document, how to display it, and so on.</span></span>  

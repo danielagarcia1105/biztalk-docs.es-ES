@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Aumentar la disponibilidad con recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Aumentar la disponibilidad con recuperación ante desastres | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b315110-206a-4fa7-9bde-abab1429c83b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300204"
 ---
 # <a name="checklist-increasing-availability-with-disaster-recovery"></a><span data-ttu-id="de245-102">Lista de comprobación: Aumentar la disponibilidad con recuperación ante desastres</span><span class="sxs-lookup"><span data-stu-id="de245-102">Checklist: Increasing Availability with Disaster Recovery</span></span>
 <span data-ttu-id="de245-103">En este tema se describe los pasos que debe seguir para aumentar la disponibilidad de una producción [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno mediante la recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="de245-103">This topic describes the steps that you should follow to increase availability of a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment using disaster recovery.</span></span> <span data-ttu-id="de245-104">Recuperación ante desastres se suele implementar después de proporcionar alta disponibilidad con tolerancia a errores y equilibrio de carga.</span><span class="sxs-lookup"><span data-stu-id="de245-104">Disaster recovery is typically implemented after providing high availability with fault tolerance and/or load balancing.</span></span>  

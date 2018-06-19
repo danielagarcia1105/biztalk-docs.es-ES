@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218572"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-sap-adapter"></a><span data-ttu-id="ca100-102">Información general sobre el modelo de servicio WCF con el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="ca100-102">Overview of the WCF service model with the SAP adapter</span></span>
 <span data-ttu-id="ca100-103">Cuando se usan operaciones que el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] superficies, el código actúa como un cliente o un servicio para el adaptador.</span><span class="sxs-lookup"><span data-stu-id="ca100-103">When you consume operations that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces, your code acts either as a client or a service to the adapter.</span></span>  

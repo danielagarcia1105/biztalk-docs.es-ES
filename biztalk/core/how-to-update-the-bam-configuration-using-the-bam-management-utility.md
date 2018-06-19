@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar la configuración de BAM mediante la utilidad de administración de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar la configuración de BAM mediante la utilidad de administración de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 714a834e-1879-4019-9b54-e511705bd67a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971042"
 ---
 # <a name="how-to-update-the-bam-configuration-using-the-bam-management-utility"></a><span data-ttu-id="398cb-102">Cómo actualizar la configuración de BAM mediante la utilidad de administración de BAM</span><span class="sxs-lookup"><span data-stu-id="398cb-102">How to Update the BAM Configuration Using the BAM Management Utility</span></span>
 <span data-ttu-id="398cb-103">Los administradores pueden utilizar la utilidad de administración de BAM para actualizar una instalación de BAM existente.</span><span class="sxs-lookup"><span data-stu-id="398cb-103">Administrators can use the BAM Management utility to update an existing BAM installation.</span></span>  

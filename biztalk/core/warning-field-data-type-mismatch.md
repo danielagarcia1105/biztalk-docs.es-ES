@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288172"
 ---
 # <a name="warning---field-data-type-mismatch"></a><span data-ttu-id="4ec62-102">Advertencia: error de coincidencia de tipo de datos de campo</span><span class="sxs-lookup"><span data-stu-id="4ec62-102">Warning - Field Data Type Mismatch</span></span>
 <span data-ttu-id="4ec62-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="4ec62-103">**Error Code**</span></span>  

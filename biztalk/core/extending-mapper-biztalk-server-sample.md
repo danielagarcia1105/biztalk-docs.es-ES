@@ -1,11 +1,11 @@
 ---
 title: Ampliar asignador (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Mapper, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, BizTalk Mapper
 - examples, XML tools
 ms.assetid: 6010a13f-b715-4766-ad91-5aa9b98589e3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970658"
 ---
 # <a name="extending-mapper-biztalk-server-sample"></a><span data-ttu-id="b47cc-102">Ampliar asignador (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="b47cc-102">Extending Mapper (BizTalk Server Sample)</span></span>
 <span data-ttu-id="b47cc-103">El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b47cc-103">The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper.</span></span> <span data-ttu-id="b47cc-104">El ejemplo incluye varios archivos de asignación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (.btm), cada uno de los cuales muestra distintas características de Asignador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b47cc-104">The sample includes several [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] map files (.btm), each of which illustrates different features of BizTalk Mapper.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="b47cc-106">El ejemplo de ampliación de asignador usa el enrutamiento por contenidos (CBR) y no utiliza una orquestación.</span><span class="sxs-lookup"><span data-stu-id="b47cc-106">The Extending Mapper sample uses content-based routing (CBR) and does not use an orchestration.</span></span> <span data-ttu-id="b47cc-107">Mediante la especificación de un filtro en el puerto de envío de ejemplo, se conecta directamente al puerto de recepción de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="b47cc-107">By specifying a filter on the sample send port, it is connected directly to the sample receive port.</span></span> <span data-ttu-id="b47cc-108">Se especifica una asignación en el puerto de envío que se va a aplicar al documento procesado.</span><span class="sxs-lookup"><span data-stu-id="b47cc-108">A map is specified on the send port to be applied to the processed document.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="b47cc-109">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="b47cc-109">Where to Find This Sample</span></span>  
- <span data-ttu-id="b47cc-110">*\<Ejemplos de ruta de acceso\>*\XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="b47cc-110">*\<Samples Path\>*\XmlTools\ExtendingMapper</span></span>  
+ <span data-ttu-id="b47cc-110">*\<Ejemplos de ruta de acceso\>* \XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="b47cc-110">*\<Samples Path\>* \XmlTools\ExtendingMapper</span></span>  
   
  <span data-ttu-id="b47cc-111">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="b47cc-111">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="b47cc-153">En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="b47cc-153">In a command window, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="b47cc-154">*\<Ejemplos de ruta de acceso\>*\XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="b47cc-154">*\<Samples Path\>*\XmlTools\ExtendingMapper</span></span>  
+     <span data-ttu-id="b47cc-154">*\<Ejemplos de ruta de acceso\>* \XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="b47cc-154">*\<Samples Path\>* \XmlTools\ExtendingMapper</span></span>  
   
 2.  <span data-ttu-id="b47cc-155">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="b47cc-155">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -103,9 +104,9 @@ ms.lasthandoff: 11/28/2017
   
     2.  <span data-ttu-id="b47cc-182">Copie el valor del token de clave pública.</span><span class="sxs-lookup"><span data-stu-id="b47cc-182">Copy the public key token value.</span></span>  
   
-    3.  <span data-ttu-id="b47cc-183">En un editor de texto, abra  *\<ruta de ejemplos\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.</span><span class="sxs-lookup"><span data-stu-id="b47cc-183">In a text editor, open *\<Samples Path\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.</span></span>  
+    3.  <span data-ttu-id="b47cc-183">En un editor de texto, abra  *\<ruta de ejemplos\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml.</span><span class="sxs-lookup"><span data-stu-id="b47cc-183">In a text editor, open *\<Samples Path\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml.</span></span>  
   
-    4.  <span data-ttu-id="b47cc-184">Seleccione el **AssemblyName, Version = 1.0.0.0, referencia cultural = neutral, PublicKeyToken = 68496d20c737d84b "**de atributo y reemplace el  **PublicKeyToken** valor con el token de clave pública valor que copió en el paso c.</span><span class="sxs-lookup"><span data-stu-id="b47cc-184">Select the **AssemblyName="Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68496d20c737d84b"**attribute, and replace the **PublicKeyToken** value with the public key token value you copied in step c.</span></span>  
+    4.  <span data-ttu-id="b47cc-184">Seleccione el **AssemblyName, Version = 1.0.0.0, referencia cultural = neutral, PublicKeyToken = 68496d20c737d84b "** de atributo y reemplace el  **PublicKeyToken** valor con el token de clave pública valor que copió en el paso c.</span><span class="sxs-lookup"><span data-stu-id="b47cc-184">Select the **AssemblyName="Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68496d20c737d84b"** attribute, and replace the **PublicKeyToken** value with the public key token value you copied in step c.</span></span>  
   
     5.  <span data-ttu-id="b47cc-185">Guarde y cierre ExternalAssembly.xml.</span><span class="sxs-lookup"><span data-stu-id="b47cc-185">Save and close ExternalAssembly.xml.</span></span>  
   
@@ -116,7 +117,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="b47cc-188">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk Server**y, a continuación, seleccione **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="b47cc-188">Click **Start**, select **All Programs**, select **Microsoft BizTalk Server**, and then select **BizTalk Server Administration**.</span></span>  
   
-2.  <span data-ttu-id="b47cc-189">En la consola de administración de BizTalk Server, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración \>]**y haga clic para expandir **aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="b47cc-189">In the BizTalk Server Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and click to expand **Applications**.</span></span>  
+2.  <span data-ttu-id="b47cc-189">En la consola de administración de BizTalk Server, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración \>]** y haga clic para expandir **aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="b47cc-189">In the BizTalk Server Administration console, click to expand **BizTalk Server Administration**, click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and click to expand **Applications**.</span></span>  
   
 3.  <span data-ttu-id="b47cc-190">Haga clic para expandir **ExtendingMapperApplication**y, a continuación, haga clic en **puertos de envío**.</span><span class="sxs-lookup"><span data-stu-id="b47cc-190">Click to expand **ExtendingMapperApplication**, and then click **Send Ports**.</span></span>  
   
@@ -141,9 +142,9 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-run-this-sample"></a><span data-ttu-id="b47cc-235">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="b47cc-235">To run this sample</span></span>  
   
-1.  <span data-ttu-id="b47cc-236">Copia del archivo de la entrada ExtendingMapper.xml en la carpeta de entrada en  *\<ruta de ejemplos\>*\XmlTools\ExtendingMapper\In.</span><span class="sxs-lookup"><span data-stu-id="b47cc-236">Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path\>*\XmlTools\ExtendingMapper\In.</span></span>  
+1.  <span data-ttu-id="b47cc-236">Copia del archivo de la entrada ExtendingMapper.xml en la carpeta de entrada en  *\<ruta de ejemplos\>* \XmlTools\ExtendingMapper\In.</span><span class="sxs-lookup"><span data-stu-id="b47cc-236">Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path\>* \XmlTools\ExtendingMapper\In.</span></span>  
   
-2.  <span data-ttu-id="b47cc-237">Observe que el archivo se transforman y enrutan a la  *\<ruta de ejemplos\>*carpeta \XmlTools\ExtendingMapper\Out.</span><span class="sxs-lookup"><span data-stu-id="b47cc-237">Notice how the file is transformed and routed to the *\<Samples Path\>*\XmlTools\ExtendingMapper\Out folder.</span></span> <span data-ttu-id="b47cc-238">La transformación que se produce se basa en la asignación que ha aplicado.</span><span class="sxs-lookup"><span data-stu-id="b47cc-238">The transformation that occurs is based on the map you applied.</span></span>  
+2.  <span data-ttu-id="b47cc-237">Observe que el archivo se transforman y enrutan a la  *\<ruta de ejemplos\>* carpeta \XmlTools\ExtendingMapper\Out.</span><span class="sxs-lookup"><span data-stu-id="b47cc-237">Notice how the file is transformed and routed to the *\<Samples Path\>* \XmlTools\ExtendingMapper\Out folder.</span></span> <span data-ttu-id="b47cc-238">La transformación que se produce se basa en la asignación que ha aplicado.</span><span class="sxs-lookup"><span data-stu-id="b47cc-238">The transformation that occurs is based on the map you applied.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="b47cc-239">Vea también</span><span class="sxs-lookup"><span data-stu-id="b47cc-239">See Also</span></span>  
  [<span data-ttu-id="b47cc-240">Herramientas XML (carpeta de ejemplos de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="b47cc-240">XML Tools (BizTalk Server Samples Folder)</span></span>](../core/xml-tools-biztalk-server-samples-folder.md)

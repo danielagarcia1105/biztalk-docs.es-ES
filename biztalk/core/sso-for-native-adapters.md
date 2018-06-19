@@ -1,17 +1,17 @@
 ---
 title: SSO para adaptadores nativos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, SSO
 - SSO, adapters
 ms.assetid: d8527f0f-910c-42ce-9bd3-83ab6d4349c0
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278060"
 ---
 # <a name="sso-for-native-adapters"></a><span data-ttu-id="6d29c-102">SSO para adaptadores nativos</span><span class="sxs-lookup"><span data-stu-id="6d29c-102">SSO for Native Adapters</span></span>
 <span data-ttu-id="6d29c-103">El inicio de sesión único (SSO) empresarial le permite iniciar sesión sólo una vez al interoperar con diferentes sistemas informáticos o sitios Web.</span><span class="sxs-lookup"><span data-stu-id="6d29c-103">Enterprise Single Sign-On (SSO) enables you to sign on only once when interoperating with different computer systems or Web sites.</span></span> <span data-ttu-id="6d29c-104">Esta característica de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite a los adaptadores de BizTalk proporcionar el Id. de usuario y las credenciales apropiadas para varias aplicaciones de la red que utilizan un mecanismo de autenticación común basado en sus credenciales de Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="6d29c-104">This feature of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables BizTalk adapters to provide the appropriate user ID and credentials to multiple applications within your network that use a common authentication mechanism based on your Microsoft Windows credentials.</span></span> <span data-ttu-id="6d29c-105">Después de que Windows haya autenticado sus credenciales, no necesita proporcionar credenciales adicionales para conectarse a las aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="6d29c-105">After Windows authenticates your credentials, you do not need to provide additional credentials to connect to the applications.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Contadores de rendimiento de mensajería | Documentos de Microsoft"
-ms.custom: 
+title: Contadores de rendimiento de mensajería | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 162d761a-fe69-45b0-a6af-c5d9f714e0ca
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972554"
 ---
 # <a name="messaging-performance-counters"></a><span data-ttu-id="1656f-102">Contadores de rendimiento de mensajería</span><span class="sxs-lookup"><span data-stu-id="1656f-102">Messaging Performance Counters</span></span>
 <span data-ttu-id="1656f-103">Los contadores de rendimiento le permiten controlar aspectos específicos del trabajo realizado por el servicio en el sitio o sistema.</span><span class="sxs-lookup"><span data-stu-id="1656f-103">Performance counters allow you to monitor specific aspects of work performed on the site or system by service.</span></span> <span data-ttu-id="1656f-104">Los contadores de rendimiento pueden ayudarle a identificar y solucionar problemas de rendimiento del servidor.</span><span class="sxs-lookup"><span data-stu-id="1656f-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

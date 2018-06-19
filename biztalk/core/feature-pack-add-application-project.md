@@ -16,6 +16,7 @@ ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31817017"
 ---
 # <a name="step-1-add-the-biztalk-server-application-project-in-visual-studio"></a><span data-ttu-id="c6762-103">Paso 1: Agregar el proyecto de aplicación de BizTalk Server en Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c6762-103">Step 1: Add the BizTalk Server Application project in Visual Studio</span></span>
 

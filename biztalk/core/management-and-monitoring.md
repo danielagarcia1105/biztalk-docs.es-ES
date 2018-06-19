@@ -1,14 +1,14 @@
 ---
-title: "Administración y supervisión | Documentos de Microsoft"
-ms.custom: 
+title: Administración y supervisión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92724f79-32bb-40d3-a0af-147aba00d87e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264468"
 ---
 # <a name="management-and-monitoring"></a><span data-ttu-id="2d5da-102">Administración y supervisión</span><span class="sxs-lookup"><span data-stu-id="2d5da-102">Management and Monitoring</span></span>
 <span data-ttu-id="2d5da-103">Todas las aplicaciones generadas en el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesitan administración.</span><span class="sxs-lookup"><span data-stu-id="2d5da-103">Every application built on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine requires management.</span></span> <span data-ttu-id="2d5da-104">¿Cómo se instalan las nuevas aplicaciones?</span><span class="sxs-lookup"><span data-stu-id="2d5da-104">How are new applications installed?</span></span> <span data-ttu-id="2d5da-105">¿Qué configuraciones pueden aplicarse?</span><span class="sxs-lookup"><span data-stu-id="2d5da-105">What configurations are possible?</span></span> <span data-ttu-id="2d5da-106">¿Qué está ocurriendo en este momento dentro del sistema?</span><span class="sxs-lookup"><span data-stu-id="2d5da-106">What’s happening inside the system right now?</span></span> <span data-ttu-id="2d5da-107">Esta sección examina las herramientas proporcionadas para responder a estas cuestiones.</span><span class="sxs-lookup"><span data-stu-id="2d5da-107">This section looks at the tools provided to answer these questions.</span></span>  

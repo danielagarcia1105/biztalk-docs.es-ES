@@ -1,17 +1,17 @@
 ---
-title: "Arquitectura reducida con servicios de trabajadores de información | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura reducida con servicios de trabajadores de información | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, small distributions
 - architecture, examples
 ms.assetid: ce1217bf-84a5-4888-89ba-dce85dc38340
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269252"
 ---
 # <a name="scaled-down-architecture-with-information-worker-services"></a><span data-ttu-id="264bc-102">Arquitectura reducida con Servicios de trabajadores de la información</span><span class="sxs-lookup"><span data-stu-id="264bc-102">Scaled Down Architecture with Information Worker Services</span></span>
 <span data-ttu-id="264bc-103">Para obtener información completa sobre la arquitectura del sistema para la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).</span><span class="sxs-lookup"><span data-stu-id="264bc-103">For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

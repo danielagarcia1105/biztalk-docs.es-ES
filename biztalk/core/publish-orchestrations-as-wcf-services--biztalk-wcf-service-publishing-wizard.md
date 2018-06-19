@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar orquestaciones como servicios WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar orquestaciones como servicios WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tools, WCF Service Publishing Wizard
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, WCF services
 - WCF Service Publishing Wizard
 ms.assetid: db352132-2fe8-4d53-b239-45e5c3525b6c
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973426"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-orchestrations-as-wcf-services"></a><span data-ttu-id="5c95f-102">Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar orquestaciones como servicios WCF</span><span class="sxs-lookup"><span data-stu-id="5c95f-102">How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services</span></span>
 <span data-ttu-id="5c95f-103">El Asistente para publicación de Servicio WCF de BizTalk se utiliza para publicar orquestaciones como servicios WCF.</span><span class="sxs-lookup"><span data-stu-id="5c95f-103">You use the BizTalk WCF Service Publishing Wizard to publish orchestrations as WCF services.</span></span>  
@@ -53,7 +54,7 @@ ms.lasthandoff: 11/28/2017
   
     -   <span data-ttu-id="5c95f-122">**WCF-BasicHttp.**</span><span class="sxs-lookup"><span data-stu-id="5c95f-122">**WCF-BasicHttp.**</span></span> <span data-ttu-id="5c95f-123">El adaptador WCF-BasicHttp se puede comunicar con los servicios Web compatibles con el Perfil básico de servicios Web WS-I, versión 1.1 como los servicios basados en ASMX.</span><span class="sxs-lookup"><span data-stu-id="5c95f-123">The WCF-BasicHttp adapter can communicate with WS-I Basic Profile 1.1-conformant Web services like ASMX-based services.</span></span>  
   
-    -   <span data-ttu-id="5c95f-124">**WCF-WSHttp.**</span><span class="sxs-lookup"><span data-stu-id="5c95f-124">**WCF-WSHttp.**</span></span> <span data-ttu-id="5c95f-125">Este adaptador puede comunicarse con un servicio mediante los estándares WS-* a través de HTTP y HTTPS.</span><span class="sxs-lookup"><span data-stu-id="5c95f-125">The WCF-WSHttp adapter can communicate with a service through the WS-* standards over HTTP and HTTPS.</span></span>  
+    -   <span data-ttu-id="5c95f-124">**WCF-WSHttp.**</span><span class="sxs-lookup"><span data-stu-id="5c95f-124">**WCF-WSHttp.**</span></span> <span data-ttu-id="5c95f-125">Este adaptador puede comunicarse con un servicio mediante los estándares WS-\* a través de HTTP y HTTPS.</span><span class="sxs-lookup"><span data-stu-id="5c95f-125">The WCF-WSHttp adapter can communicate with a service through the WS-\* standards over HTTP and HTTPS.</span></span>  
   
     -   <span data-ttu-id="5c95f-126">**WCF-CustomIsolated.**</span><span class="sxs-lookup"><span data-stu-id="5c95f-126">**WCF-CustomIsolated.**</span></span> <span data-ttu-id="5c95f-127">El adaptador WCF-CustomIsolated habilita el uso de las características de extensibilidad de Windows Communication Foundation (WCF) mediante el transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="5c95f-127">The WCF-CustomIsolated adapter enables the use of Windows Communication Foundation (WCF) extensibility features over the HTTP transport.</span></span>  
   

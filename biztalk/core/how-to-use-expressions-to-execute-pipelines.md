@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar expresiones para ejecutar canalizaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar expresiones para ejecutar canalizaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ExecuteReceivePipeline() method
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - pipelines, orchestrations
 - Message Assignment shape [Orchestration Designer], pipelines
 ms.assetid: f947fa73-526c-4747-8de7-df557a93056c
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974658"
 ---
 # <a name="how-to-use-expressions-to-execute-pipelines"></a><span data-ttu-id="e5616-102">Cómo usar expresiones para ejecutar canalizaciones</span><span class="sxs-lookup"><span data-stu-id="e5616-102">How to Use Expressions to Execute Pipelines</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="e5616-103"> tiene la capacidad de llamar de forma sincrónica a una canalización desde una orquestación.</span><span class="sxs-lookup"><span data-stu-id="e5616-103"> has the ability to synchronously call a pipeline from within an Orchestration.</span></span> <span data-ttu-id="e5616-104">Esto permite a las orquestaciones aprovechar el procesamiento de mensajes encapsulado en una canalización (tanto envío como recepción) frente a un conjunto de datos sin tener que enviar los datos a través de la infraestructura de mensajería.</span><span class="sxs-lookup"><span data-stu-id="e5616-104">This enables orchestrations to leverage the message processing encapsulated within a pipeline (either send or receive) against a body of data without having to send that data through the messaging infrastructure.</span></span>  

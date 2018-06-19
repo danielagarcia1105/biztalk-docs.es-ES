@@ -1,14 +1,14 @@
 ---
 title: Configurar el sistema de origen | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 722dd52c-1eea-453c-9a36-9b8d9cf19350
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009309"
 ---
 # <a name="configuring-the-source-system"></a><span data-ttu-id="78457-102">Configurar el sistema de origen</span><span class="sxs-lookup"><span data-stu-id="78457-102">Configuring the Source System</span></span>
 <span data-ttu-id="78457-103">Para los fines de trasvase de registros de servidor BizTalk Server, no importa si el sistema de origen se encuentra en una sola [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia o si se distribuye entre varias instancias que se hospeda en un clúster de Windows Server.</span><span class="sxs-lookup"><span data-stu-id="78457-103">For the purposes of BizTalk Server log shipping, it does not matter if the source system is located on a single [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance or if it is distributed among multiple instances hosted in a Windows Server cluster.</span></span> <span data-ttu-id="78457-104">No existen consideraciones adicionales distintos de los necesarios para ejecutar correctamente el trabajo de copia de seguridad de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="78457-104">There are no additional considerations other than those required to successfully run the Backup BizTalk Server job.</span></span> <span data-ttu-id="78457-105">Para configurar este trabajo, consulte [cómo configurar el trabajo de copia de seguridad de BizTalk Server](http://go.microsoft.com/fwlink/?LinkID=154072) (http://go.microsoft.com/fwlink/?LinkID=154072) en la Ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="78457-105">To configure this job, see [How to Configure the Backup BizTalk Server Job](http://go.microsoft.com/fwlink/?LinkID=154072) (http://go.microsoft.com/fwlink/?LinkID=154072) in BizTalk Server Help.</span></span> <span data-ttu-id="78457-106">Después de haber configurado el trabajo de copia de seguridad de BizTalk Server, continúe con el tema [cómo configurar el sistema de destino](../technical-guides/how-to-configure-the-destination-system.md).</span><span class="sxs-lookup"><span data-stu-id="78457-106">After you have configured the Backup BizTalk Server Job, proceed to the topic [How to Configure the Destination System](../technical-guides/how-to-configure-the-destination-system.md).</span></span>  

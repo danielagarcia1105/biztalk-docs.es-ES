@@ -1,14 +1,14 @@
 ---
 title: Mensajes representan como XLANGMessage | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aadca870-2f93-4be3-8733-a0cd3815add7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972274"
 ---
 # <a name="messages-represented-as-xlangmessage"></a><span data-ttu-id="ba185-102">Mensajes representados como XLANGMessage</span><span class="sxs-lookup"><span data-stu-id="ba185-102">Messages Represented as XLANGMessage</span></span>
 <span data-ttu-id="ba185-103">Un **XLANGMessage** objeto representa una instancia de mensaje declarada con un servicio XLANG.</span><span class="sxs-lookup"><span data-stu-id="ba185-103">An **XLANGMessage** object represents a message instance declared with an XLANG service.</span></span> <span data-ttu-id="ba185-104">Este objeto se obtiene pasando una referencia a un mensaje como un parámetro en una llamada de método.</span><span class="sxs-lookup"><span data-stu-id="ba185-104">This object is obtained by passing a reference to a message as a parameter in a method invocation.</span></span> <span data-ttu-id="ba185-105">Un **XLANGPart** objeto representa una parte de mensaje contenida en una instancia de mensaje dentro de un servicio XLANG.</span><span class="sxs-lookup"><span data-stu-id="ba185-105">An **XLANGPart** object represents a message part contained in a message instance within an XLANG service.</span></span> <span data-ttu-id="ba185-106">Este objeto se obtiene bien pasando una referencia de parte de una invocación de método donde es el tipo de parámetro receptora **XLANGPart** o bien recorriendo una referencia pasada de **XLANGMessage**.</span><span class="sxs-lookup"><span data-stu-id="ba185-106">This object is obtained either by passing a part reference in a method invocation where the receiving parameter type is **XLANGPart** or by enumerating on a passed reference of **XLANGMessage**.</span></span>  

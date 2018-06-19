@@ -1,14 +1,14 @@
 ---
-title: "Ensamblados y artefactos instalados en el ejemplo de dispersión y recopilación | Documentos de Microsoft"
-ms.custom: 
+title: Ensamblados y artefactos instalados en el ejemplo de dispersión y recopilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 61f5f10e-c38b-4887-b2db-f568a28d1d4d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008061"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-scatter-gather-sample"></a><span data-ttu-id="2a07c-102">Ensamblados y artefactos instalados en el ejemplo de dispersión y recopilación</span><span class="sxs-lookup"><span data-stu-id="2a07c-102">Assemblies and Artifacts Installed by the Scatter-Gather Sample</span></span>
 <span data-ttu-id="2a07c-103">En la tabla siguiente se enumera los ensamblados y otros artefactos instalados para el ejemplo de ESB dispersión y recopilación.</span><span class="sxs-lookup"><span data-stu-id="2a07c-103">The following table lists the assemblies and other artifacts installed for the ESB Scatter-Gather sample.</span></span>  

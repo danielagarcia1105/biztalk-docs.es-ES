@@ -1,14 +1,14 @@
 ---
-title: "Implementar y probar la aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Implementar y probar la aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2c86d5f-1849-4b7d-8061-23f156245f5b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007006"
 ---
 # <a name="deploy-and-test-the-application"></a><span data-ttu-id="31624-102">Implementar y probar la aplicación</span><span class="sxs-lookup"><span data-stu-id="31624-102">Deploy and test the application</span></span>
 > [!NOTE]

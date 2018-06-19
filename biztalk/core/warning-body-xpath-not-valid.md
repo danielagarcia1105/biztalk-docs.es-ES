@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287956"
 ---
 # <a name="warning---body-xpath-not-valid"></a><span data-ttu-id="6349c-102">Advertencia: XPath de cuerpo no válido</span><span class="sxs-lookup"><span data-stu-id="6349c-102">Warning - Body XPath Not Valid</span></span>
 <span data-ttu-id="6349c-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="6349c-103">**Error Code**</span></span>  

@@ -18,6 +18,7 @@ ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31816984"
 ---
 # <a name="configure-biztalk-server"></a><span data-ttu-id="23a7c-103">Configuración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="23a7c-103">Configure BizTalk Server</span></span>
 <span data-ttu-id="23a7c-104">Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante una configuración básica o una configuración personalizada.</span><span class="sxs-lookup"><span data-stu-id="23a7c-104">Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using basic configuration or custom configuration.</span></span>

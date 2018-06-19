@@ -1,14 +1,14 @@
 ---
-title: "Problemas conocidos con la actualización de las aplicaciones y artefactos | Documentos de Microsoft"
-ms.custom: 
+title: Problemas conocidos con la actualización de las aplicaciones y artefactos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 220ea03c-d453-40cc-8ddb-18a96f8ddfe5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009933"
 ---
 # <a name="known-issues-with-updating-applications-and-artifacts"></a><span data-ttu-id="0ff8b-102">Problemas conocidos de actualización de las aplicaciones y artefactos</span><span class="sxs-lookup"><span data-stu-id="0ff8b-102">Known Issues with Updating Applications and Artifacts</span></span>
 ## <a name="updating-an-application"></a><span data-ttu-id="0ff8b-103">Actualizar una aplicación</span><span class="sxs-lookup"><span data-stu-id="0ff8b-103">Updating an Application</span></span>  

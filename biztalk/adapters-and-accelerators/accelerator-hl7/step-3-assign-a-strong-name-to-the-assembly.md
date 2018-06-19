@@ -1,18 +1,18 @@
 ---
 title: 'Paso 3: Asignar un nombre seguro al ensamblado | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies
 - message enrichment tutorial, strong name assemblies
 - strong name assemblies
 ms.assetid: 8709e4e1-b428-42af-ba3c-08225c17a9eb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26004957"
 ---
 # <a name="step-3-assign-a-strong-name-to-the-assembly"></a><span data-ttu-id="f16a0-102">Paso 3: Asignar un nombre seguro al ensamblado</span><span class="sxs-lookup"><span data-stu-id="f16a0-102">Step 3: Assign a Strong Name to the Assembly</span></span>
 <span data-ttu-id="f16a0-103">En este paso, creará y asignar un nombre seguro para la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] ensamblado.</span><span class="sxs-lookup"><span data-stu-id="f16a0-103">In this step, you create and assign a strong name for the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] assembly.</span></span> <span data-ttu-id="f16a0-104">Un ensamblado con nombre seguro ofrece varias ventajas de seguridad y es necesario para implementar el proyecto en la caché global de ensamblados (GAC).</span><span class="sxs-lookup"><span data-stu-id="f16a0-104">A strong-named assembly provides several security benefits and is required in order to deploy your project in the global assembly cache (GAC).</span></span> <span data-ttu-id="f16a0-105">Un nombre seguro garantiza la exclusividad del ensamblado mediante la asignación de una firma digital y un único par de claves.</span><span class="sxs-lookup"><span data-stu-id="f16a0-105">A strong name guarantees the uniqueness of the assembly by assigning a digital signature and a unique key pair.</span></span> <span data-ttu-id="f16a0-106">Además, esto protege el linaje del ensamblado al garantizar que nadie puede generar una versión posterior del ensamblado.</span><span class="sxs-lookup"><span data-stu-id="f16a0-106">This also protects the lineage of the assembly by ensuring that no one can generate a subsequent version of the assembly.</span></span> <span data-ttu-id="f16a0-107">Por último, un nombre seguro proporciona una comprobación de integridad sólida para garantizar que el contenido del ensamblado no ha cambiado desde que se compiló.</span><span class="sxs-lookup"><span data-stu-id="f16a0-107">Lastly, a strong name provides a strong integrity check to guarantee that the contents of the assembly have not changed since you built it.</span></span>  

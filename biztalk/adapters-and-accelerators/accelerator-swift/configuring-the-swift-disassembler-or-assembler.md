@@ -1,11 +1,11 @@
 ---
 title: Configurar el Desensamblador SWIFT o ensamblador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, configuring
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - disassembler, configuring
 - configuring, assembler
 ms.assetid: 56e421f2-0292-40af-b878-0cba1b034e19
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005069"
 ---
 # <a name="configuring-the-swift-disassembler-or-assembler"></a><span data-ttu-id="4f109-102">Configurar el Desensamblador SWIFT o ensamblador</span><span class="sxs-lookup"><span data-stu-id="4f109-102">Configuring the SWIFT Disassembler or Assembler</span></span>
 <span data-ttu-id="4f109-103">Después de agregar el SWIFT Desensamblador o ensamblador SWIFT a una canalización personalizada, debe configurarlo para proporcionar la funcionalidad que desee para el escenario concreto (por ejemplo, la habilitación o deshabilitación de detección de tipo de mensaje dinámico, anulando entrante, validación de XML Validación de motor de reglas de negocios (BRE) y así sucesivamente).</span><span class="sxs-lookup"><span data-stu-id="4f109-103">After you add the SWIFT disassembler or SWIFT assembler to a custom pipeline, you must configure it to provide the functionality you want for the particular scenario (such as enabling/disabling dynamic message type discovery, inbound debatching, XML validation, Business Rule Engine (BRE) validation, and so on).</span></span> <span data-ttu-id="4f109-104">Debe configurar el Desensamblador SWIFT y ensamblador durante el tiempo de desarrollo antes de compilar e implementar las canalizaciones personalizadas que invocación.</span><span class="sxs-lookup"><span data-stu-id="4f109-104">You must configure the SWIFT disassembler and assembler during development time before you compile and deploy the custom pipelines that invoke them.</span></span> <span data-ttu-id="4f109-105">Para configurar el ensamblador/desensamblador SWIFT, seleccione el componente en el Diseñador de canalizaciones y editar las propiedades de configuración en la ventana Propiedades.</span><span class="sxs-lookup"><span data-stu-id="4f109-105">To configure the SWIFT disassembler/assembler, select the component in Pipeline Designer and edit the configuration properties in the Properties window.</span></span>  

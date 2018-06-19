@@ -1,14 +1,14 @@
 ---
 title: Volver a generar el libro de datos en directo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bd3a3fa-a550-4363-bbc0-2153226509ad
-caps.latest.revision: 
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710587"
 ---
 # <a name="regenerate-the-live-data-workbook"></a><span data-ttu-id="dfe72-102">Volver a generar el libro de datos en directo</span><span class="sxs-lookup"><span data-stu-id="dfe72-102">Regenerate the Live Data Workbook</span></span>
 <span data-ttu-id="dfe72-103">En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM.</span><span class="sxs-lookup"><span data-stu-id="dfe72-103">In cases where the BAM live data workbook has been lost or corrupted, you can regenerate the workbook using the BAM Management utiprolity.</span></span> <span data-ttu-id="dfe72-104">Este proceso también resulta útil cuando está actualizando desde desde versiones anteriores de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="dfe72-104">This process is also useful when you are upgrading from from previous BizTalk Server versions.</span></span>
@@ -33,7 +34,7 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="retrieve-the-bam-definition"></a><span data-ttu-id="dfe72-115">Recuperar la definición de BAM</span><span class="sxs-lookup"><span data-stu-id="dfe72-115">Retrieve the BAM definition</span></span>  
   
-1.  <span data-ttu-id="dfe72-116">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dfe72-116">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="dfe72-116">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dfe72-116">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="dfe72-117">En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.</span><span class="sxs-lookup"><span data-stu-id="dfe72-117">At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.</span></span>  
   
@@ -75,7 +76,7 @@ ms.lasthandoff: 02/28/2018
 >  <span data-ttu-id="dfe72-137">Ejecute esta herramienta con privilegios de administrador.</span><span class="sxs-lookup"><span data-stu-id="dfe72-137">Run this tool with Administrative privileges.</span></span>  
 
 
-1.  <span data-ttu-id="dfe72-138">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dfe72-138">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="dfe72-138">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dfe72-138">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="dfe72-139">En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.</span><span class="sxs-lookup"><span data-stu-id="dfe72-139">At the command prompt, navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.</span></span>  
   

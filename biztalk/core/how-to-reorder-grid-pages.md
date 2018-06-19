@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254804"
 ---
 # <a name="how-to-reorder-grid-pages"></a><span data-ttu-id="adee8-102">Reorganización de páginas de cuadrícula</span><span class="sxs-lookup"><span data-stu-id="adee8-102">How to Reorder Grid Pages</span></span>
 <span data-ttu-id="adee8-103">Si la asignación es compleja, puede incluir varias páginas de cuadrícula y, a continuación, cambiarles el nombre y volver a ordenarlas.</span><span class="sxs-lookup"><span data-stu-id="adee8-103">If your map is complex, you can include multiple grid pages, and then rename and reorder them.</span></span> <span data-ttu-id="adee8-104">En este tema se incluyen instrucciones detalladas para realizar estas operaciones.</span><span class="sxs-lookup"><span data-stu-id="adee8-104">This topic includes step-by-step instructions to perform these operations.</span></span>  

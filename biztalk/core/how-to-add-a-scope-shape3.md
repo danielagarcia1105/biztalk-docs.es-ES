@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248068"
 ---
 # <a name="how-to-add-a-scope-shape"></a><span data-ttu-id="bcde9-102">Cómo agregar una forma Ámbito</span><span class="sxs-lookup"><span data-stu-id="bcde9-102">How to Add a Scope Shape</span></span>
 <span data-ttu-id="bcde9-103">Use el procedimiento siguiente para agregar una forma Ámbito</span><span class="sxs-lookup"><span data-stu-id="bcde9-103">Use the following procedure to add a Scope shape.</span></span>  

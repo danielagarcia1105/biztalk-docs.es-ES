@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Agregar una regla a la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b2a682c0-a5d7-4550-924d-be9fa29b84d2
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975706"
 ---
 # <a name="walkthrough-adding-a-rule-to-the-policy"></a><span data-ttu-id="be0bb-102">Tutorial: Agregar una regla a la directiva</span><span class="sxs-lookup"><span data-stu-id="be0bb-102">Walkthrough: Adding a Rule to the Policy</span></span>
 <span data-ttu-id="be0bb-103">Este tutorial proporciona procedimientos paso a paso para agregar una regla denominada **DeniedRule** a la **ProcessPurchaseOrder** directiva.</span><span class="sxs-lookup"><span data-stu-id="be0bb-103">This walkthrough provides step-by-step procedures for adding a rule named **DeniedRule** to the **ProcessPurchaseOrder** policy.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
   
 11. <span data-ttu-id="be0bb-130">Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **denegado**.</span><span class="sxs-lookup"><span data-stu-id="be0bb-130">Click **\<empty string\>** and then type **Denied**.</span></span>  
   
-12. <span data-ttu-id="be0bb-131">Haga clic en **versión 1.2 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="be0bb-131">Right-click **Version 1.2 (not saved)**, and then click **Save**.</span></span>  
+12. <span data-ttu-id="be0bb-131">Haga clic en **versión 1.2 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="be0bb-131">Right-click **Version 1.2 (not saved)**, and then click **Save**.</span></span>  
   
 13. <span data-ttu-id="be0bb-132">Haga clic en **versión 1.2**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="be0bb-132">Right-click **Version 1.2**, and then click **Publish**.</span></span>  
   

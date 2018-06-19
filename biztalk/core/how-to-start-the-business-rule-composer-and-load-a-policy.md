@@ -1,11 +1,11 @@
 ---
-title: "Cómo iniciar el Compositor de reglas de negocio y cargar una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo iniciar el Compositor de reglas de negocio y cargar una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, loading
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Business Rule Composer, policies
 - Business Rule Composer, opening
 ms.assetid: 34a6034d-90b3-4ce0-9770-3790763affe3
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255868"
 ---
 # <a name="how-to-start-the-business-rule-composer-and-load-a-policy"></a><span data-ttu-id="75cdd-102">Cómo iniciar el Compositor de reglas de negocio y cargar una directiva</span><span class="sxs-lookup"><span data-stu-id="75cdd-102">How to Start the Business Rule Composer and Load a Policy</span></span>
 <span data-ttu-id="75cdd-103">En esta sección se describe cómo iniciar el Compositor de reglas de negocio y cargar una directiva.</span><span class="sxs-lookup"><span data-stu-id="75cdd-103">This section describes how to start the Business Rule Composer and load a policy.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240532"
 ---
 # <a name="error---input-for-mass-copy-functoid-not-valid"></a><span data-ttu-id="be24b-102">Error: la entrada para Functoid de copia masiva no válido</span><span class="sxs-lookup"><span data-stu-id="be24b-102">Error - Input for Mass Copy Functoid Not Valid</span></span>
 <span data-ttu-id="be24b-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="be24b-103">**Error Code**</span></span>  

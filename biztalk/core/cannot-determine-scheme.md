@@ -1,14 +1,14 @@
 ---
 title: No se puede determinar el esquema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2cc6e50b-33f5-4a88-b35d-075fdf8d79b2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231476"
 ---
 # <a name="cannot-determine-scheme"></a><span data-ttu-id="e9c13-102">No se puede determinar el esquema</span><span class="sxs-lookup"><span data-stu-id="e9c13-102">Cannot determine scheme</span></span>
 ## <a name="details"></a><span data-ttu-id="e9c13-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="e9c13-103">Details</span></span>  

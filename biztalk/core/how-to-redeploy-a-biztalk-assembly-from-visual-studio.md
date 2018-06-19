@@ -1,14 +1,14 @@
 ---
-title: "Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c4bb627-48de-4874-bb25-af2c513dbc51
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009501"
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a><span data-ttu-id="0b0f3-102">Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0b0f3-102">How to Redeploy a BizTalk Assembly from Visual Studio</span></span>
 <span data-ttu-id="0b0f3-103">Durante el desarrollo de un ensamblado, suele resultar necesario implementarlo, probarlo, modificarlo y volver a implementarlo varias veces.</span><span class="sxs-lookup"><span data-stu-id="0b0f3-103">In the process of developing an assembly, you often need to deploy, test, modify, and redeploy it repeatedly.</span></span> <span data-ttu-id="0b0f3-104">En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se quería volver a implementar un ensamblado sin cambiar el número de versión, primero había que detener, dar de baja y desenlazar manualmente los artefactos incluidos en el ensamblado de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y, a continuación, quitar el ensamblado de la base de datos (de configuración) de Administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="0b0f3-104">In previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], if you wanted to redeploy an assembly without changing the version number, you first needed to manually stop, unenlist, and unbind artifacts contained in the assembly in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and then remove the assembly from the BizTalk Management (configuration) database.</span></span> <span data-ttu-id="0b0f3-105">Además, después de volver a implementar el ensamblado, había que enlazar, dar de alta e iniciar sus artefactos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0b0f3-105">In addition, after redeploying the assembly, you needed to bind, enlist, and start its artifacts in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

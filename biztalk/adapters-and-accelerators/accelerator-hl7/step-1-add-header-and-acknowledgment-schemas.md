@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Agregar encabezado y esquemas de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Agregar encabezado y esquemas de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 808132bf-02e7-4ff4-b914-9fae5d27e5fd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005341"
 ---
 # <a name="step-1-add-header-and-acknowledgment-schemas"></a><span data-ttu-id="6031c-102">Paso 1: Agregar encabezado y esquemas de confirmación</span><span class="sxs-lookup"><span data-stu-id="6031c-102">Step 1: Add Header and Acknowledgment Schemas</span></span>
 <span data-ttu-id="6031c-103">En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BTAHL72XCommon.</span><span class="sxs-lookup"><span data-stu-id="6031c-103">In this step, you create a new project based on the BTAHL72XCommon Project template.</span></span> <span data-ttu-id="6031c-104">Esta plantilla contiene los tres esquemas comunes para encabezados de mensaje (MSH_25_GLO_DEF.xsd) y confirmaciones (ACK_24_GLO_DEF.xsd) y (ACK_25_GLO_DEF.xsd).</span><span class="sxs-lookup"><span data-stu-id="6031c-104">This template contains the three common schemas for message headers (MSH_25_GLO_DEF.xsd) and acknowledgments (ACK_24_GLO_DEF.xsd) and (ACK_25_GLO_DEF.xsd).</span></span> <span data-ttu-id="6031c-105">Debe incluir estos esquemas en un proyecto de modo que ese Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) genera o valida correctamente los encabezados de mensaje y confirmaciones.</span><span class="sxs-lookup"><span data-stu-id="6031c-105">You must include these schemas in a project so that BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) builds and/or validates the message headers and acknowledgments correctly.</span></span> <span data-ttu-id="6031c-106">Este proceso es común en todas las versiones de esquema de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.</span><span class="sxs-lookup"><span data-stu-id="6031c-106">This process is common across all schema versions of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.</span></span>  

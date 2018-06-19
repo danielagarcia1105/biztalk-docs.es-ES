@@ -1,14 +1,14 @@
 ---
-title: "Transformar y enrutar un mensaje a varios puntos de conexión | Documentos de Microsoft"
-ms.custom: 
+title: Transformar y enrutar un mensaje a varios puntos de conexión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 544db12c-95fc-4321-b397-ec9e7410e37d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010245"
 ---
 # <a name="transforming-and-routing-a-message-to-multiple-endpoints"></a><span data-ttu-id="dfce3-102">Transformar y enrutar un mensaje a varios puntos de conexión</span><span class="sxs-lookup"><span data-stu-id="dfce3-102">Transforming and Routing a Message to Multiple Endpoints</span></span>
 <span data-ttu-id="dfce3-103">En este caso de uso, ESB realiza una transformación en un mensaje enviado a través del servicio Web de itinerario en rampa.</span><span class="sxs-lookup"><span data-stu-id="dfce3-103">In this use case, the ESB performs a transformation on a message submitted through the Itinerary Web service on-ramp.</span></span> <span data-ttu-id="dfce3-104">Una búsqueda de resolución dinámica determina el nombre de asignación y transforma el mensaje entrante.</span><span class="sxs-lookup"><span data-stu-id="dfce3-104">A dynamic resolution lookup determines the map name and transforms the inbound message.</span></span> <span data-ttu-id="dfce3-105">Además, el itinerario especifica n número de puntos de conexión de destino que el servicio de itinerario resolverá dinámicamente y a la que enrutará el mensaje transformado.</span><span class="sxs-lookup"><span data-stu-id="dfce3-105">Additionally, the itinerary specifies n number of target endpoints that the Itinerary service will dynamically resolve and to which it will route the transformed message.</span></span> <span data-ttu-id="dfce3-106">Todas las operaciones se producen en la capa de mensajería, como se muestra en la figura 1.</span><span class="sxs-lookup"><span data-stu-id="dfce3-106">All operations occur at the messaging layer, as illustrated in Figure 1.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Herramientas de tiempo de administración y ejecución | Documentos de Microsoft"
-ms.custom: 
+title: Herramientas de tiempo de administración y ejecución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTAHL7, tools
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - administrative tools
 - runtime tools
 ms.assetid: 6dad8451-0f77-4d62-bea5-86182c44216a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004501"
 ---
 # <a name="administration-and-run-time-tools"></a><span data-ttu-id="70049-102">Herramientas de administración y tiempo de ejecución</span><span class="sxs-lookup"><span data-stu-id="70049-102">Administration and Run Time Tools</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="70049-103">BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona un conjunto de herramientas para realizar tareas de tiempo de ejecución y administrativas, como la implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión.</span><span class="sxs-lookup"><span data-stu-id="70049-103"> BizTalk Server and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a set of tools for performing administrative and run time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring.</span></span> <span data-ttu-id="70049-104">Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="70049-104">For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.</span></span>  

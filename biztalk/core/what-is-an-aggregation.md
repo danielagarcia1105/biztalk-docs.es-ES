@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es una agregación? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es una agregación? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - OLAP cubes, BAM
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - aggregations [BAM], about aggregations
 - aggregations [BAM]
 ms.assetid: 77d40602-ef56-4a5b-a18f-56ccbff573a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289164"
 ---
 # <a name="what-is-an-aggregation"></a><span data-ttu-id="df2b7-103">¿Qué es una agregación?</span><span class="sxs-lookup"><span data-stu-id="df2b7-103">What Is an Aggregation?</span></span>
 <span data-ttu-id="df2b7-104">Excel define las agregaciones como resúmenes de datos precalculados que mejoran el tiempo de respuesta de consultas al tener preparadas las respuestas antes de que se planteen las preguntas.</span><span class="sxs-lookup"><span data-stu-id="df2b7-104">Excel defines aggregations as pre-calculated summaries of data that improve query response time by having the answers ready before the questions are asked.</span></span> <span data-ttu-id="df2b7-105">Por ejemplo, cuando una tabla de hechos de almacén de datos contiene cientos de miles de filas, una consulta que solicita las programaciones de envío de dos productos en concreto puede tardar en responder si la tabla de hechos se tiene que analizar para calcular la respuesta.</span><span class="sxs-lookup"><span data-stu-id="df2b7-105">For example, when a data warehouse fact table contains hundreds of thousands of rows, a query requesting the shipping schedules for two particular products can take a long time to answer if the fact table has to be scanned to compute the answer.</span></span> <span data-ttu-id="df2b7-106">Sin embargo, la respuesta podría ser casi inmediata si los datos de resumen para responder a esta consulta se ha calculado previamente.</span><span class="sxs-lookup"><span data-stu-id="df2b7-106">However, the response can be almost immediate if the summarization data to answer this query has been pre-calculated.</span></span>  

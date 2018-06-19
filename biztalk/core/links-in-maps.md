@@ -1,11 +1,11 @@
 ---
-title: "Vínculos en asignaciones | Documentos de Microsoft"
-ms.custom: 
+title: Vínculos en asignaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Looping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - maps, links
 - BizTalk Mapper, links
 ms.assetid: 3db77b8d-7b86-4c00-99a0-0513aff9b56b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262092"
 ---
 # <a name="links-in-maps"></a><span data-ttu-id="861ea-102">Vínculos en asignaciones</span><span class="sxs-lookup"><span data-stu-id="861ea-102">Links in Maps</span></span>
 <span data-ttu-id="861ea-103">Los vínculos especifican la función básica de copiar datos de un elemento o atributo de un mensaje de instancia de entrada en un elemento o atributo de una instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="861ea-103">Links specify the basic function of copying data from an element or attribute in an input instance message to an element or attribute in an output instance.</span></span> <span data-ttu-id="861ea-104">Los vínculos entre registros y campos en los esquemas de origen y de destino se crean en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="861ea-104">You create links between records and fields in the source and destination schemas at design time.</span></span> <span data-ttu-id="861ea-105">De esta forma, se impulsa la creación, en tiempo de ejecución, de un mensaje de instancia de salida que se ajusta al esquema de destino desde un mensaje de instancia de entrada que se ajusta al esquema de origen.</span><span class="sxs-lookup"><span data-stu-id="861ea-105">This drives the creation, at run time, of an output instance message conforming to the destination schema from an input instance message conforming to the source schema.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Invocar reglas de negocios en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], business rules
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - policies, Call Rules shape [Orchestration Designer]
 - orchestrations, business rules
 ms.assetid: ac3a3277-e9ea-4f40-9326-c63076c6b90e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261828"
 ---
 # <a name="invoking-business-rules-in-orchestrations"></a><span data-ttu-id="b2b91-102">Invocar reglas de negocios en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="b2b91-102">Invoking Business Rules in Orchestrations</span></span>
 <span data-ttu-id="b2b91-103">Puede invocar una directiva (o conjunto de reglas) desde una orquestación mediante el uso de la **reglas de llamada** forma.</span><span class="sxs-lookup"><span data-stu-id="b2b91-103">You can invoke a policy (or rule set) from an orchestration by using the **Call Rules** shape.</span></span> <span data-ttu-id="b2b91-104">La directiva invoca el motor de reglas, que opera en las reglas de la directiva.</span><span class="sxs-lookup"><span data-stu-id="b2b91-104">The policy invokes the rule engine, which operates on the rules in the policy.</span></span>  

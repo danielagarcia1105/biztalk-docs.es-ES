@@ -1,17 +1,17 @@
 ---
-title: "Comunicación entre OrderBroker y OrderManager | Documentos de Microsoft"
-ms.custom: 
+title: Comunicación entre OrderBroker y OrderManager | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, publishing [MessageBox database]
 - MessageBox database, publishing
 ms.assetid: 1b77dcd2-f7a5-4013-b9a2-c06ace161792
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231876"
 ---
 # <a name="communication-between-orderbroker-and-ordermanager"></a><span data-ttu-id="ccb50-102">Comunicación entre OrderBroker y OrderManager</span><span class="sxs-lookup"><span data-stu-id="ccb50-102">Communication between OrderBroker and OrderManager</span></span>
 <span data-ttu-id="ccb50-103">El agente de pedido y las orquestaciones de administrador de pedidos (**OrderBroker**, **OrderManager**) se comunican a través del cuadro de mensajes base de datos en lugar de estar directamente enlazadas.</span><span class="sxs-lookup"><span data-stu-id="ccb50-103">The order broker and the order manager orchestrations (**OrderBroker**, **OrderManager**) communicate through the MessageBox database rather than being direct partner bound.</span></span> <span data-ttu-id="ccb50-104">Esto garantiza que el agente y el administrador estén flexiblemente acoplados de modo que, si fuera necesario, puedan ubicarse en grupos separados de BizTalk y ubicaciones geográficamente separadas.</span><span class="sxs-lookup"><span data-stu-id="ccb50-104">This ensures that the broker and manager are loosely coupled so that they can, if necessary, be located in separate BizTalk groups and in geographically-separated locations.</span></span> <span data-ttu-id="ccb50-105">Separar las orquestaciones de esta forma requiere sólo configuración administrativa y no requiere ningún cambio de código.</span><span class="sxs-lookup"><span data-stu-id="ccb50-105">Separating the orchestrations this way requires only administrative configuration and does not require any code changes.</span></span>  

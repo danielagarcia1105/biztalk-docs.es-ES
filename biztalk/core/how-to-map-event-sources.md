@@ -1,11 +1,11 @@
 ---
-title: "Cómo asignar orígenes de eventos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar orígenes de eventos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, alerts
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - tracking profiles, mapping event sources
 - events, tracking profiles
 ms.assetid: 507f1624-2cd8-4960-8c63-7797ab22519e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253892"
 ---
 # <a name="how-to-map-event-sources"></a><span data-ttu-id="fc939-102">Cómo asignar orígenes de eventos</span><span class="sxs-lookup"><span data-stu-id="fc939-102">How to Map Event Sources</span></span>
 <span data-ttu-id="fc939-103">Se asignan orígenes de eventos para obtener acceso a elementos de datos a los que BAM realiza un seguimiento para generar alertas.</span><span class="sxs-lookup"><span data-stu-id="fc939-103">You map event sources to gain access to data items that BAM tracks to generate alerts.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Base de datos de configuración previa Optimizations1 | Documentos de Microsoft"
-ms.custom: 
+title: Base de datos de configuración previa Optimizations1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebd0b32a-490d-4db2-a1fc-bf3bef93aeea
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010557"
 ---
 # <a name="pre-configuration-database-optimizations"></a><span data-ttu-id="4d67b-102">Optimizaciones de base de datos de configuración previa</span><span class="sxs-lookup"><span data-stu-id="4d67b-102">Pre-Configuration Database Optimizations</span></span>
 <span data-ttu-id="4d67b-103">BizTalk Server es una aplicación de base de datos consume que requieran la creación de hasta 13 bases de datos independientes en Microsoft SQL Server.</span><span class="sxs-lookup"><span data-stu-id="4d67b-103">BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 separate databases in Microsoft SQL Server.</span></span> <span data-ttu-id="4d67b-104">Debido a la función crítica que SQL Server se reproduce en cualquier entorno de BizTalk Server, resulta de gran importancia que SQL Server está configurado y optimizado para un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="4d67b-104">Because of the critical role that SQL Server plays in any BizTalk Server environment, it is of paramount importance that SQL Server is configured/tuned for optimal performance.</span></span> <span data-ttu-id="4d67b-105">Si SQL Server no está optimizado para llevar a cabo correctamente, las bases de datos usados por BizTalk Server se convertirá en un cuello de botella y se verá afectado el rendimiento general del entorno de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="4d67b-105">If SQL Server is not tuned to perform well, then the databases used by BizTalk Server will become a bottleneck and the overall performance of the BizTalk Server environment will suffer.</span></span> <span data-ttu-id="4d67b-106">En este tema se describe varias optimizaciones de rendimiento de SQL Server que hay que seguir antes de instalar a BizTalk Server y configurar las bases de datos de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="4d67b-106">This topic describes several SQL Server performance optimizations that should be followed before installing BizTalk Server and configuring the BizTalk Server databases.</span></span>  

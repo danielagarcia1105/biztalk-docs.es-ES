@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 64f202316e59040a77cb04da99857e8539a184ac
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015019"
 ---
 # <a name="deployment-limitations"></a><span data-ttu-id="61005-101">Limitaciones de implementación</span><span class="sxs-lookup"><span data-stu-id="61005-101">Deployment Limitations</span></span>
 <span data-ttu-id="61005-102">La contraseña del adaptador de transporte se almacena como asteriscos (\*\*\*\*\*\*) en el archivo de enlace que se ha exportado por el Asistente para implementar BizTalk y se pasa a la administración componente en el mismo formato.</span><span class="sxs-lookup"><span data-stu-id="61005-102">The Transport Adapter password is stored as asterisks (\*\*\*\*\*\*) in the binding file that is exported by BizTalk Deployment Wizard, and is passed to the management component in the same format.</span></span> <span data-ttu-id="61005-103">Edite el archivo de enlace antes de la importación. Para ello, reemplace los asteriscos por valores alfanuméricos aleatorios (es decir, una contraseña que no sea la correcta).</span><span class="sxs-lookup"><span data-stu-id="61005-103">Edit the binding file before importing by replacing the asterisks with random alphanumeric values (that is, not the correct password).</span></span> <span data-ttu-id="61005-104">A continuación, escriba la contraseña correcta mediante la **propiedades de transporte** página después de importar el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="61005-104">Then enter the correct password using the **Transport Properties** page after importing the binding file.</span></span>  

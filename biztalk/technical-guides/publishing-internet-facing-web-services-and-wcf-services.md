@@ -1,14 +1,14 @@
 ---
 title: Publicar servicios Web con Internet y servicios WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7553608-f57a-470e-91d4-75504b3fd52b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009079"
 ---
 # <a name="publishing-internet-facing-web-services-and-wcf-services"></a><span data-ttu-id="fe117-102">Publicar servicios Web de conexión a Internet y servicios de WCF</span><span class="sxs-lookup"><span data-stu-id="fe117-102">Publishing Internet-facing Web Services and WCF Services</span></span>
 <span data-ttu-id="fe117-103">Puede utilizar varios enfoques para la publicación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicios Web y servicios WCF a Internet:</span><span class="sxs-lookup"><span data-stu-id="fe117-103">You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services to the Internet:</span></span>  

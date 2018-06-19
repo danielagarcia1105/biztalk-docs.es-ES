@@ -1,14 +1,14 @@
 ---
 title: X12 conjuntos de transacciones de 100 a 250 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2139fa48-f011-4485-8588-210121a92c2e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010813"
 ---
 # <a name="x12-transaction-sets-100-250"></a><span data-ttu-id="fd7d5-102">Conjuntos de transacciones de X12 de 100 a 250</span><span class="sxs-lookup"><span data-stu-id="fd7d5-102">X12 Transaction Sets 100-250</span></span>
 <span data-ttu-id="fd7d5-103">Esta tema conjuntos de transacciones de listas de la X12 y las versiones que son compatibles con BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="fd7d5-103">This topic lists the X12 transaction sets and versions that are supported by BizTalk Server.</span></span>  

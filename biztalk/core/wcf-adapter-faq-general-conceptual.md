@@ -1,14 +1,14 @@
 ---
 title: 'P+F del adaptador de WCF: Conceptos generales | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbeac135-3ba8-4b0b-a8ca-4eb5eb3d3ca3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009253"
 ---
 # <a name="wcf-adapter-faq-general-conceptual"></a><span data-ttu-id="c96c8-102">P+F del Adaptador de WCF: Conceptos generales</span><span class="sxs-lookup"><span data-stu-id="c96c8-102">WCF Adapter FAQ: General Conceptual</span></span>
 <span data-ttu-id="c96c8-103">A continuación, encontrará algunas de las preguntas más frecuentes generales y conceptuales sobre los adaptadores de Windows ® Communication Foundation (WCF).</span><span class="sxs-lookup"><span data-stu-id="c96c8-103">Below are some frequently asked general and conceptual questions about Windows® Communication Foundation (WCF) adapters.</span></span>  
@@ -47,11 +48,11 @@ ms.lasthandoff: 12/01/2017
   
  <span data-ttu-id="c96c8-134">BizTalk Server R2 incluye los siguientes adaptadores de WCF:</span><span class="sxs-lookup"><span data-stu-id="c96c8-134">BizTalk Server R2 ships with the following WCF adapters:</span></span>  
   
-1.  <span data-ttu-id="c96c8-135">**Adaptador de WCF-WSHttp:** proporciona WS-* compatibilidad con estándares mediante el transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="c96c8-135">**WCF-WSHttp adapter:**  Provides the WS-* standards support over the HTTP transport.</span></span> <span data-ttu-id="c96c8-136">Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c96c8-136">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="c96c8-137">El transporte es HTTP o HTTPS, y los mensajes tienen codificación de texto o de Mecanismo de optimización de transmisión del mensaje (MTOM).</span><span class="sxs-lookup"><span data-stu-id="c96c8-137">The transport is HTTP or HTTPS, and message encoding is a text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
+1.  <span data-ttu-id="c96c8-135">**Adaptador de WCF-WSHttp:** proporciona WS-\* compatibilidad con estándares mediante el transporte HTTP.</span><span class="sxs-lookup"><span data-stu-id="c96c8-135">**WCF-WSHttp adapter:**  Provides the WS-\* standards support over the HTTP transport.</span></span> <span data-ttu-id="c96c8-136">Este adaptador implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c96c8-136">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="c96c8-137">El transporte es HTTP o HTTPS, y los mensajes tienen codificación de texto o de Mecanismo de optimización de transmisión del mensaje (MTOM).</span><span class="sxs-lookup"><span data-stu-id="c96c8-137">The transport is HTTP or HTTPS, and message encoding is a text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
   
 2.  <span data-ttu-id="c96c8-138">**Adaptador de WCF-BasicHttp:** se comunica con servicios Web basados en ASMX y clientes y otros servicios que cumplan con WS-I Basic Profile 1.1.</span><span class="sxs-lookup"><span data-stu-id="c96c8-138">**WCF-BasicHttp adapter:** Communicates with ASMX-based Web services and clients and other services that conform to the WS-I Basic Profile 1.1.</span></span> <span data-ttu-id="c96c8-139">El transporte es HTTP o HTTPS y los mensajes tienen una codificación de texto.</span><span class="sxs-lookup"><span data-stu-id="c96c8-139">The transport is HTTP or HTTPS, and message encoding is a text encoding.</span></span>  
   
-3.  <span data-ttu-id="c96c8-140">**Adaptador de WCF-NetTcp:** proporciona WS-* compatibilidad con estándares a través del transporte TCP.</span><span class="sxs-lookup"><span data-stu-id="c96c8-140">**WCF-NetTcp adapter:** Provides the WS-* standards support over the TCP transport.</span></span> <span data-ttu-id="c96c8-141">Este adaptador ofrece una comunicación eficaz e implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c96c8-141">The WCF-NetTcp adapter provides efficient communication and implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="c96c8-142">El transporte es TCP y codificación de mensajes es la codificación binaria.</span><span class="sxs-lookup"><span data-stu-id="c96c8-142">The transport is TCP, and message encoding is binary encoding.</span></span>  
+3.  <span data-ttu-id="c96c8-140">**Adaptador de WCF-NetTcp:** proporciona WS-\* compatibilidad con estándares a través del transporte TCP.</span><span class="sxs-lookup"><span data-stu-id="c96c8-140">**WCF-NetTcp adapter:** Provides the WS-\* standards support over the TCP transport.</span></span> <span data-ttu-id="c96c8-141">Este adaptador ofrece una comunicación eficaz e implementa las especificaciones siguientes: WS-Transaction para las interacciones de transacciones entre aplicaciones externas y la base de datos de cuadro de mensaje y WS-Security para la seguridad y la autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c96c8-141">The WCF-NetTcp adapter provides efficient communication and implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="c96c8-142">El transporte es TCP y codificación de mensajes es la codificación binaria.</span><span class="sxs-lookup"><span data-stu-id="c96c8-142">The transport is TCP, and message encoding is binary encoding.</span></span>  
   
 4.  <span data-ttu-id="c96c8-143">**Adaptador de WCF-NetMsmq:** proporciona compatibilidad para poner en cola aprovechando Message Queuing (también conocido como MSMQ) como transporte y habilita la compatibilidad para débilmente acoplados aplicaciones, aislamiento de errores, equilibrio de carga y operaciones desconectadas.</span><span class="sxs-lookup"><span data-stu-id="c96c8-143">**WCF-NetMsmq adapter:** Provides support for queuing by leveraging Message Queuing (also known as MSMQ) as a transport and enables support for loosely coupled applications, failure isolation, load-leveling, and disconnected operations.</span></span>  
   

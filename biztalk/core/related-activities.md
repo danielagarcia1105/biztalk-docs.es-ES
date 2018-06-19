@@ -1,11 +1,11 @@
 ---
 title: Actividades relacionadas con | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], related activities
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], viewing details
 - queries [BAM], viewing details
 ms.assetid: 141b7943-d244-4810-aa88-12aa4a2b7658
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971858"
 ---
 # <a name="related-activities"></a><span data-ttu-id="b5668-102">Actividades relacionadas</span><span class="sxs-lookup"><span data-stu-id="b5668-102">Related Activities</span></span>
 <span data-ttu-id="b5668-103">El área Actividades relacionadas contiene una lista de actividades que se relacionan con la actividad en la que se basa la consulta.</span><span class="sxs-lookup"><span data-stu-id="b5668-103">The Related Activities area contains a list of activities that are related to the activity on which the query is based.</span></span> <span data-ttu-id="b5668-104">Un ejemplo de una actividad relacionada para una actividad de pedido de compra serían varias actividades de envío, ya que los artículos de un pedido de compra se pueden entregar en varios envíos.</span><span class="sxs-lookup"><span data-stu-id="b5668-104">An example of a related activity for a Purchase Order activity would be multiple Shipment activities, since items on a single purchase order can be delivered in multiple shipments.</span></span>  

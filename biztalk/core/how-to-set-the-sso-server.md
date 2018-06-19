@@ -1,11 +1,11 @@
 ---
-title: "Cómo establecer el servidor de SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer el servidor de SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - servers, selecting [SSO]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [SSO], selecting servers
 - SSOManage [SSO]
 ms.assetid: a0b0176d-b426-4ab1-8a7e-1f96f4214683
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972170"
 ---
 # <a name="how-to-set-the-sso-server"></a><span data-ttu-id="b332b-102">Cómo establecer el servidor de SSO</span><span class="sxs-lookup"><span data-stu-id="b332b-102">How to Set the SSO Server</span></span>
 <span data-ttu-id="b332b-103">Cada vez que utilice ssomanage, en primer lugar debe seleccionar al usuario para el servidor de inicio de sesión único con el que desea establecer la conexión.</span><span class="sxs-lookup"><span data-stu-id="b332b-103">Each time you use ssomanage, you must first point the user to the Single Sign-On server you want to connect to.</span></span>  

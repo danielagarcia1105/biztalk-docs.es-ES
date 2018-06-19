@@ -1,11 +1,11 @@
 ---
 title: Crear y configurar puertos de BizTalk para Contoso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - private process tutorial, configuring ports
 - ports, configuring
 ms.assetid: 179af692-e14c-40da-9c43-1a7d0b6beb1f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004461"
 ---
 # <a name="creating-and-configuring-biztalk-ports-for-contoso"></a><span data-ttu-id="064ca-102">Crear y configurar puertos de BizTalk para Contoso</span><span class="sxs-lookup"><span data-stu-id="064ca-102">Creating and Configuring BizTalk Ports for Contoso</span></span>
 <span data-ttu-id="064ca-103">En esta sección, integrar la solución actual en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="064ca-103">In this section, you integrate your current solution into [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server.</span></span> <span data-ttu-id="064ca-104">Antes de hacer esto, instale al ensamblado en la caché de ensamblados Global (GAC) y, a continuación, configurarlo en la base de datos de configuración.</span><span class="sxs-lookup"><span data-stu-id="064ca-104">Before you do this, you install your assembly in the Global Assembly Cache (GAC), and then configure it in the Configuration database.</span></span> <span data-ttu-id="064ca-105">A continuación, crear y configurar puertos de envío mediante un adaptador SQL y un adaptador HTTP.</span><span class="sxs-lookup"><span data-stu-id="064ca-105">You then create and configure send ports using a SQL adapter and a HTTP adapter.</span></span>  

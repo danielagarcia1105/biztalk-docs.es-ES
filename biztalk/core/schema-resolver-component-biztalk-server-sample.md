@@ -1,11 +1,11 @@
 ---
-title: "Componente de resolución de esquema (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Componente de resolución de esquema (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, examples
 - examples, Flat File Disassembler [pipeline component]
 ms.assetid: 9ef68988-c4ee-42d5-83b5-a5c978b2007d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974922"
 ---
 # <a name="schema-resolver-component-biztalk-server-sample"></a><span data-ttu-id="a005e-102">Componente de resolución de esquema (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="a005e-102">Schema Resolver Component (BizTalk Server Sample)</span></span>
 <span data-ttu-id="a005e-103">El ejemplo del componente de resolución de esquema muestra cómo extender la funcionalidad del componente de desensamblador de archivos sin formato de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a005e-103">The Schema Resolver Component sample demonstrates how to extend the functionality of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] flat file disassembler component.</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="a005e-109">El componente de resolución de esquema muestra un método alternativo de seleccionar el esquema del componente de desensamblador de archivos sin formato.</span><span class="sxs-lookup"><span data-stu-id="a005e-109">The Schema Resolver component demonstrates an alternative method of selecting the schema for a flat file disassembler.</span></span> <span data-ttu-id="a005e-110">En este ejemplo, se definen cuatro esquemas y los dos primeros caracteres de un mensaje de cada esquema son únicos.</span><span class="sxs-lookup"><span data-stu-id="a005e-110">In this sample, four schemas are defined and the first two characters of a message for each schema are unique.</span></span> <span data-ttu-id="a005e-111">Se define una asignación entre entre los dos primeros caracteres únicos y el esquema correspondiente.</span><span class="sxs-lookup"><span data-stu-id="a005e-111">A mapping is defined between the unique first two characters and the corresponding schema.</span></span> <span data-ttu-id="a005e-112">Cuando el mensaje de entrada se entrega al componente de resolución de esquema, lee los dos primeros caracteres, determina qué esquema debe utilizarse para el documento correspondiente, guarda la información del esquema en el contexto del mensaje y, a continuación, llama al componente desensamblador de archivos sin formato estándar.</span><span class="sxs-lookup"><span data-stu-id="a005e-112">When the input message is given to the Schema Resolver component, it reads the first two characters, determines which schema to use for the corresponding document, saves the schema information on the message context, and then calls into the standard flat file disassembler component.</span></span> <span data-ttu-id="a005e-113">El componente desensamblador de archivos sin formato estándar lee la información del esquema desde el contexto del mensaje y utiliza ese esquema para analizar el documento.</span><span class="sxs-lookup"><span data-stu-id="a005e-113">The standard flat file disassembler component reads the schema information from the message context and uses that schema to parse the document.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="a005e-114">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="a005e-114">Where to Find This Sample</span></span>  
- <span data-ttu-id="a005e-115">*\<Ejemplos de ruta de acceso\>*\Pipelines\SchemaResolverComponent\\</span><span class="sxs-lookup"><span data-stu-id="a005e-115">*\<Samples Path\>*\Pipelines\SchemaResolverComponent\\</span></span>  
+ <span data-ttu-id="a005e-115">*\<Ejemplos de ruta de acceso\>* \Pipelines\SchemaResolverComponent\\</span><span class="sxs-lookup"><span data-stu-id="a005e-115">*\<Samples Path\>* \Pipelines\SchemaResolverComponent\\</span></span>  
   
  <span data-ttu-id="a005e-116">En la siguiente tabla se incluyen los archivos usados en este ejemplo y se describe el propósito de cada uno de ellos.</span><span class="sxs-lookup"><span data-stu-id="a005e-116">The following table shows the files used in this sample and describes their purpose.</span></span>  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="a005e-142">En una ventana de comandos, cambie el directorio (cd) a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="a005e-142">In a command window, change directory (cd) to the following folder:</span></span>  
   
-     <span data-ttu-id="a005e-143">*\<Ejemplos de ruta de acceso\>*\Pipelines\SchemaResolverComponent</span><span class="sxs-lookup"><span data-stu-id="a005e-143">*\<Samples Path\>*\Pipelines\SchemaResolverComponent</span></span>  
+     <span data-ttu-id="a005e-143">*\<Ejemplos de ruta de acceso\>* \Pipelines\SchemaResolverComponent</span><span class="sxs-lookup"><span data-stu-id="a005e-143">*\<Samples Path\>* \Pipelines\SchemaResolverComponent</span></span>  
   
 2.  <span data-ttu-id="a005e-144">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="a005e-144">Run the file Setup.bat, which performs the following actions:</span></span>  
   

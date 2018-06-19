@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar diagnósticos de depuración para analizar un volcado de memoria | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar diagnósticos de depuración para analizar un volcado de memoria | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 986a91a7-feab-4014-bbd5-e8b966b8b841
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256604"
 ---
 # <a name="how-to-use-debug-diagnostics-to-analyze-a-memory-dump"></a><span data-ttu-id="605a7-102">Cómo usar diagnósticos de depuración para analizar un volcado de memoria</span><span class="sxs-lookup"><span data-stu-id="605a7-102">How to Use Debug Diagnostics to Analyze a Memory Dump</span></span>
 <span data-ttu-id="605a7-103">El diagnóstico de IIS **Debug Diagnostics Tool** incluye una característica que puede proporcionar un análisis básico de un archivo de volcado de memoria capturado.</span><span class="sxs-lookup"><span data-stu-id="605a7-103">The IIS Diagnostics **Debug Diagnostics Tool** includes a feature that can provide a basic analysis of a captured memory dump file.</span></span> <span data-ttu-id="605a7-104">Para realizar un análisis de un archivo de volcado de la memoria, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="605a7-104">To perform an analysis of a memory dump file follow these steps.</span></span>  

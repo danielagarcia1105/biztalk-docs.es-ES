@@ -1,14 +1,14 @@
 ---
 title: Crear controladores de excepciones personalizado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 401aec8d-d9ca-4a88-9e5b-d3ab605dc0a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290636"
 ---
 # <a name="creating-custom-exception-handlers"></a><span data-ttu-id="0761a-102">Crear controladores de excepción personalizada</span><span class="sxs-lookup"><span data-stu-id="0761a-102">Creating Custom Exception Handlers</span></span>
 <span data-ttu-id="0761a-103">Para que una aplicación detectar y reaccionar ante excepciones, los programadores deben proporcionar un controlador de excepciones.</span><span class="sxs-lookup"><span data-stu-id="0761a-103">For an application to detect and react to exceptions, developers must provide an exception handler.</span></span> <span data-ttu-id="0761a-104">Este controlador de excepciones puede suscribirse a un único tipo de mensaje de excepción o a mensajes de excepción generados a partir de algunas o todas las partes de un sistema o una aplicación.</span><span class="sxs-lookup"><span data-stu-id="0761a-104">This exception handler can subscribe to a single type of exception message or to exception messages generated from some or all parts of a system or an application.</span></span> <span data-ttu-id="0761a-105">Por ejemplo, puede requerir solo un único controlador para todos los mensajes de un sistema determinado (por ejemplo, las excepciones que se producen en el sistema de nóminas), o en su lugar, puede requerir controladores de destino para los errores específicos (por ejemplo, para detectar si la comprobación del proceso de impresión se produce un error).</span><span class="sxs-lookup"><span data-stu-id="0761a-105">For example, you may require only a single handler for all messages from a particular system (such as any exceptions occurring in the payroll system), or you may instead require targeted handlers for specific failures (such as detecting if the check print process fails).</span></span>  

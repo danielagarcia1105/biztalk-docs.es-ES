@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MQSeries adapters, examples
 - examples, pipelines
 ms.assetid: ac709e45-524b-45ab-9673-060790ecbed2
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976122"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a><span data-ttu-id="0b4cf-102">MQSSendPipelineComponent (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="0b4cf-102">MQSSendPipelineComponent (BizTalk Server Sample)</span></span>
 <span data-ttu-id="0b4cf-103">En este ejemplo se muestra cómo escribir un componente de canalización que lea un conjunto de valores de propiedades de MQSeries a partir de un archivo XML y que los aplique a un mensaje.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-103">This sample demonstrates how to write a pipeline component that reads a set of MQSeries property values from an XML file and applies them to a message.</span></span>  
@@ -31,9 +32,9 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="0b4cf-106">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="0b4cf-106">Where to Find This Sample</span></span>  
   
--   <span data-ttu-id="0b4cf-107">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span><span class="sxs-lookup"><span data-stu-id="0b4cf-107">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span></span>  
+-   <span data-ttu-id="0b4cf-107">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span><span class="sxs-lookup"><span data-stu-id="0b4cf-107">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span></span>  
   
--   <span data-ttu-id="0b4cf-108">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span><span class="sxs-lookup"><span data-stu-id="0b4cf-108">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span></span>  
+-   <span data-ttu-id="0b4cf-108">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span><span class="sxs-lookup"><span data-stu-id="0b4cf-108">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span></span>  
   
  <span data-ttu-id="0b4cf-109">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-109">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -148,7 +149,7 @@ ms.lasthandoff: 03/28/2018
   
     1.  <span data-ttu-id="0b4cf-184">Abra la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-184">Open the BizTalk Administration Console.</span></span>  
   
-    2.  <span data-ttu-id="0b4cf-185">Haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración\>]**y, a continuación, haga clic para expandir el **ensamblados** carpeta.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-185">Click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and then click to expand the **Assemblies** folder.</span></span>  
+    2.  <span data-ttu-id="0b4cf-185">Haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración\>]** y, a continuación, haga clic para expandir el **ensamblados** carpeta.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-185">Click to expand **BizTalk Group [\<servername\>:\<management database\>]**, and then click to expand the **Assemblies** folder.</span></span>  
   
          <span data-ttu-id="0b4cf-186">El ensamblado de canalización implementado debe verse en la **ensamblados** carpeta.</span><span class="sxs-lookup"><span data-stu-id="0b4cf-186">The deployed pipeline assembly should be visible under the **Assemblies** folder.</span></span>  
   

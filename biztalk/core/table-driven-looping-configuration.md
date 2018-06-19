@@ -1,11 +1,11 @@
 ---
-title: "Configuración de bucle controlado por tablas | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de bucle controlado por tablas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Table Looping functoids
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Table Extractor functoids, about Table Extractor functoids
 - Table Looping functoids, adding to map
 ms.assetid: ecc24d9b-ebc0-4559-9746-58e3b00c02ab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973938"
 ---
 # <a name="table-driven-looping-configuration"></a><span data-ttu-id="fdc10-102">Configuración de bucle controlado por tablas</span><span class="sxs-lookup"><span data-stu-id="fdc10-102">Table-Driven Looping Configuration</span></span>
 <span data-ttu-id="fdc10-103">Siga estos pasos para configurar el bucle controlado por tablas en su asignación.</span><span class="sxs-lookup"><span data-stu-id="fdc10-103">Follow these steps to configure table-driven looping in your map:</span></span>  

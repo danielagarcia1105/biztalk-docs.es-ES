@@ -1,11 +1,11 @@
 ---
 title: Usar propiedades de contexto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, context properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - promoted properties, context properties
 - context properties, messages
 ms.assetid: 306127a9-df03-4aaf-8dd8-76df51eb193d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006757"
 ---
 # <a name="using-context-properties"></a><span data-ttu-id="13c3f-102">Usar propiedades de contexto</span><span class="sxs-lookup"><span data-stu-id="13c3f-102">Using Context Properties</span></span>
 <span data-ttu-id="13c3f-103">El Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) motor de mensajería y sus componentes utilizan internamente las propiedades de contexto.</span><span class="sxs-lookup"><span data-stu-id="13c3f-103">The BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Messaging Engine and its components use context properties internally.</span></span> <span data-ttu-id="13c3f-104">No se recomienda cambiar los valores establecidos por el motor para algunas propiedades de contexto, porque puede afectar a la lógica de ejecución del motor de.</span><span class="sxs-lookup"><span data-stu-id="13c3f-104">Changing the values set by the engine for some context properties is not recommended, because it may affect the execution logic of the engine.</span></span> <span data-ttu-id="13c3f-105">Sin embargo, puede cambiar un gran número de propiedades no definidas por el motor.</span><span class="sxs-lookup"><span data-stu-id="13c3f-105">However, you can change a large number of properties not set by the engine.</span></span> <span data-ttu-id="13c3f-106">Puede usar las propiedades de contexto para la creación de expresiones de filtro de puertos de envío (para obtener más información, consulte [expresiones de filtro de la configuración de puertos de envío](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)).</span><span class="sxs-lookup"><span data-stu-id="13c3f-106">You can use the context properties for creation of filter expressions on send ports (for more information, see [Setting Filter Expressions on Send Ports](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)).</span></span> <span data-ttu-id="13c3f-107">También puede utilizar las propiedades de contexto en expresiones de filtro de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="13c3f-107">You can also use context properties in filter expressions for orchestrations.</span></span> <span data-ttu-id="13c3f-108">Las propiedades están disponibles para las expresiones de filtro siempre y cuando un proyecto tiene una referencia a los esquemas de propiedades globales (que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] crea cuando se usa una de las plantillas comunes).</span><span class="sxs-lookup"><span data-stu-id="13c3f-108">The properties are available for filter expressions as long as a project has a reference to the global properties schemas (which [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] creates when you use one of the common templates).</span></span>  

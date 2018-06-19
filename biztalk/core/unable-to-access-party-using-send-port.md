@@ -1,14 +1,14 @@
 ---
-title: "No se puede obtener acceso a la entidad usando el puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: No se puede obtener acceso a la entidad usando el puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ffacba77-76e8-4f03-be26-134a9999d6c1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286532"
 ---
 # <a name="unable-to-access-party-using-send-port"></a><span data-ttu-id="3e345-102">No se pudo obtener acceso a la entidad usando el puerto de envío</span><span class="sxs-lookup"><span data-stu-id="3e345-102">Unable to access party using send port</span></span>
 ## <a name="details"></a><span data-ttu-id="3e345-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="3e345-103">Details</span></span>  

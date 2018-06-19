@@ -1,18 +1,18 @@
 ---
-title: "Establecer la propiedad de controlador de envío (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Establecer la propiedad de controlador de envío (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, examples
 - examples, SMTP adapters
 - send handlers, properties
 ms.assetid: eb6ae2f2-528f-44ec-bca4-f37006893ff2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974586"
 ---
 # <a name="set-send-handler-property-biztalk-server-sample"></a><span data-ttu-id="7c632-102">Establecer la propiedad de controlador de envío (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="7c632-102">Set Send Handler Property (BizTalk Server Sample)</span></span>
 <span data-ttu-id="7c632-103">El ejemplo para establecer propiedad de controlador de envío muestra cómo establecer la información de configuración de XML para un controlador de envío del Protocolo simple de transferencia de correo (SMTP).</span><span class="sxs-lookup"><span data-stu-id="7c632-103">The Set Send Handler Property sample demonstrates how to set the XML configuration information for a Simple Mail Transfer Protocol (SMTP) send handler.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Agregar suscripción de alertas y editar páginas de suscripción | Documentos de Microsoft"
-ms.custom: 
+title: Agregar suscripción de alertas y editar páginas de suscripción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad5e99f1-714e-458b-b5f0-85ac69be5335
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290044"
 ---
 # <a name="add-alert-subscription-and-edit-subscription-pages"></a><span data-ttu-id="49c7d-102">Agregar suscripción de alertas y editar páginas de suscripción</span><span class="sxs-lookup"><span data-stu-id="49c7d-102">Add Alert Subscription and Edit Subscription Pages</span></span>
 <span data-ttu-id="49c7d-103">Las páginas de suscripción de alerta agregar y Editar suscripción son similares.</span><span class="sxs-lookup"><span data-stu-id="49c7d-103">The Add Alert Subscription and Edit Subscription pages are similar.</span></span> <span data-ttu-id="49c7d-104">Se diferencian en que la página Editar suscripción muestra el identificador de suscriptor (la cuenta de Microsoft Windows del usuario del portal actual) y tiene un conjunto diferente de botones.</span><span class="sxs-lookup"><span data-stu-id="49c7d-104">They differ in that the Edit Subscription page shows the subscriber ID (the Microsoft Windows account of the current portal user), and has a different set of buttons.</span></span> <span data-ttu-id="49c7d-105">La figura 1 muestra las páginas de suscripción de alerta agregar y Editar suscripción.</span><span class="sxs-lookup"><span data-stu-id="49c7d-105">Figure 1 shows the Add Alert Subscription and Edit Subscription pages.</span></span>  

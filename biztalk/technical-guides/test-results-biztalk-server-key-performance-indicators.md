@@ -1,14 +1,14 @@
 ---
 title: 'Resultados de pruebas: Indicadores clave de rendimiento de servidor BizTalk Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 902cdfc1-21ab-4f56-b97b-2f8979514b11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009925"
 ---
 # <a name="test-results-biztalk-server-key-performance-indicators"></a><span data-ttu-id="3b6d3-102">Resultados de pruebas: Indicadores clave de rendimiento de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="3b6d3-102">Test Results: BizTalk Server Key Performance Indicators</span></span>
 <span data-ttu-id="3b6d3-103">En este tema se resume a BizTalk Server Performance indicadores clave (KPI) observado durante los escenarios de prueba.</span><span class="sxs-lookup"><span data-stu-id="3b6d3-103">This topic summarizes BizTalk Server Key Performance Indicators (KPI) observed during the test scenarios.</span></span> <span data-ttu-id="3b6d3-104">En concreto, estas pruebas evalúan rendimiento según lo medido por la "**BizTalk: mensajería/documentos procesados/seg.**" contador del monitor de rendimiento y latencia, según lo medido por el tiempo de respuesta del cliente de Visual studio.</span><span class="sxs-lookup"><span data-stu-id="3b6d3-104">Specifically these tests evaluated throughput as measured by the "**BizTalk:Messaging/Documents processed/Sec**" performance monitor counter, and latency, as measured by the Visual studio client response time.</span></span>  

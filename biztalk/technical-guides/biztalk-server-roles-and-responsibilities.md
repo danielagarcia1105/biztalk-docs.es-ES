@@ -1,14 +1,14 @@
 ---
 title: Roles de servidor BizTalk Server y las responsabilidades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 195328b7-a8e9-4e0f-9d3b-a28f52ac3c1b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010805"
 ---
 # <a name="biztalk-server-roles-and-responsibilities"></a><span data-ttu-id="61f5c-102">Responsabilidades y Roles de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="61f5c-102">BizTalk Server Roles and Responsibilities</span></span>
 <span data-ttu-id="61f5c-103">El desarrollo, el mantenimiento y la administración de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno abarcar varias funciones diferentes con responsabilidades distintas.</span><span class="sxs-lookup"><span data-stu-id="61f5c-103">The development, maintenance, and administration of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment encompass several different roles with distinct responsibilities.</span></span> <span data-ttu-id="61f5c-104">En este tema se describe las funciones, las responsabilidades asociadas con las funciones y herramientas que pueden utilizarse para completar las tareas asociadas a cada rol.</span><span class="sxs-lookup"><span data-stu-id="61f5c-104">This topic describes these roles, the responsibilities associated with the roles, and tools that can be used to complete the tasks associated with each role.</span></span> <span data-ttu-id="61f5c-105">En este tema también proporciona vínculos a tareas de la lista de comprobación de preparación operativa asociadas a cada rol.</span><span class="sxs-lookup"><span data-stu-id="61f5c-105">This topic also provides links to Operational Readiness checklist tasks associated with each role.</span></span>  

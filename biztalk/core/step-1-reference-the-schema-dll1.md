@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Hacer referencia a la DLL1 esquema | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47e4b773-e484-4931-9ab2-b8dd0080ea1c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279444"
 ---
 # <a name="step-1-reference-the-schema-dll"></a><span data-ttu-id="8e320-102">Paso 1: Hacer referencia al esquema DLL</span><span class="sxs-lookup"><span data-stu-id="8e320-102">Step 1: Reference the Schema DLL</span></span>
 <span data-ttu-id="8e320-103">En BizTalk, los mensajes son inmutables.</span><span class="sxs-lookup"><span data-stu-id="8e320-103">In BizTalk, messages are immutable.</span></span> <span data-ttu-id="8e320-104">Por tanto, para cambiar un valor de propiedad, debe crear y modificar un nuevo mensaje.</span><span class="sxs-lookup"><span data-stu-id="8e320-104">Therefore, to change a property value you must create and modify a new message.</span></span> <span data-ttu-id="8e320-105">Puede crear y modificar el nuevo mensaje mediante la inserción de una forma de asignación del mensaje entre las formas de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="8e320-105">You create and modify the new message by inserting a message assignment shape between the Receive and Send shapes.</span></span>  

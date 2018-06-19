@@ -1,11 +1,11 @@
 ---
 title: Modificar una PIP existente en Rnpip | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNPIPs
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - PIPs, modifying
 - assemblies, RNPIPs
 ms.assetid: f2ed25c4-1979-4691-9315-e7568e7cca8b
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,13 +22,14 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006293"
 ---
 # <a name="modifying-an-existing-pip-in-rnpips"></a><span data-ttu-id="fd2b2-102">Modificar una PIP existente en Rnpip</span><span class="sxs-lookup"><span data-stu-id="fd2b2-102">Modifying an Existing PIP in RNPIPs</span></span>
 <span data-ttu-id="fd2b2-103">Este tema describe cómo cambiar y volver a implementar uno de los esquemas de proceso de interfaz de socio (PIP) instalados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] el programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-103">This topic describes how to change and re-deploy one of the Partner Interface Process (PIP) schemas installed by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] setup.</span></span> <span data-ttu-id="fd2b2-104">El esquema se implementa como parte del ensamblado de los RNPIP.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-104">You deploy the schema as part of the RNPIPs assembly.</span></span>  
   
 ### <a name="to-modify-an-existing-pip-in-rnpips"></a><span data-ttu-id="fd2b2-105">Para modificar un PIP existente en los RNPIP</span><span class="sxs-lookup"><span data-stu-id="fd2b2-105">To modify an existing PIP in RNPIPs</span></span>  
   
-1.  <span data-ttu-id="fd2b2-106">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-106">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+1.  <span data-ttu-id="fd2b2-106">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-106">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 2.  <span data-ttu-id="fd2b2-107">Busque la \< *unidad*\>\Program BizTalk \<versión\> Acelerador para carpeta RosettaNet\SDK\Utilities\Schema Generator.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-107">Locate the \<*drive*\>\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\Utilities\Schema Generator folder.</span></span>  
   
@@ -65,7 +66,7 @@ ms.lasthandoff: 12/01/2017
   
 17. <span data-ttu-id="fd2b2-125">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-125">Click **Start**, point to **All Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
   
-18. <span data-ttu-id="fd2b2-126">En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, expanda **Hosts**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-126">In BizTalk Administration Console, expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, and then expand **Hosts**.</span></span>  
+18. <span data-ttu-id="fd2b2-126">En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, expanda **Hosts**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-126">In BizTalk Administration Console, expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, and then expand **Hosts**.</span></span>  
   
 19. <span data-ttu-id="fd2b2-127">En el panel derecho, haga clic con el botón derecho en el nombre del host y, a continuación, haga clic en **Detener**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-127">In the right pane, right-click the name of the host, and then click **Stop**.</span></span> <span data-ttu-id="fd2b2-128">Una vez detenido el servicio, haga clic con el botón derecho en el nombre del host y, a continuación, haga clic en **Iniciar**.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-128">After the service has stopped, right-click the name of the host, and then click **Start**.</span></span>  
   

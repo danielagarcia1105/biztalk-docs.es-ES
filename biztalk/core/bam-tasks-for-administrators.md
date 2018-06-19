@@ -1,14 +1,14 @@
 ---
 title: Tareas BAM para administradores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d9ae9a6-50fa-4f82-8e48-8dffa55c127f
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008429"
 ---
 # <a name="bam-tasks-for-administrators"></a><span data-ttu-id="06201-102">Tareas de BAM para administradores</span><span class="sxs-lookup"><span data-stu-id="06201-102">BAM Tasks for Administrators</span></span>
 <span data-ttu-id="06201-103">En este tema se describen las tareas habituales que llevan a cabo los administradores de BAM para la administración de la infraestructura de BAM.</span><span class="sxs-lookup"><span data-stu-id="06201-103">This topic describes typical tasks that BAM administrators undertake in managing the BAM infrastructure.</span></span>  

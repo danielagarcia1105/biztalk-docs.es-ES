@@ -1,15 +1,15 @@
 ---
-title: "Recomienda conocimientos teóricos y prácticos - servidor BizTalk Server | Documentos de Microsoft"
-description: "Sugiere experiencia para los desarrolladores y profesionales de TI, analysists de negocio cuando se trabaja con BizTalk Server, incluidos los conocimientos con Visual Studio, XML, JSON, Windows Server, SQL Server, rendimiento, alta disponibilidad y mucho más."
-ms.custom: 
+title: Recomienda conocimientos teóricos y prácticos - servidor BizTalk Server | Documentos de Microsoft
+description: Sugiere experiencia para los desarrolladores y profesionales de TI, analysists de negocio cuando se trabaja con BizTalk Server, incluidos los conocimientos con Visual Studio, XML, JSON, Windows Server, SQL Server, rendimiento, alta disponibilidad y mucho más.
+ms.custom: ''
 ms.date: 09/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0a9a336-1554-4e45-8b4a-57b8136ff3f0
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/28/2017
+ms.locfileid: "22317862"
 ---
 # <a name="prerequisite-skills-and-knowledge"></a><span data-ttu-id="b41b2-103">Requisitos previos de conocimientos teóricos y prácticos</span><span class="sxs-lookup"><span data-stu-id="b41b2-103">Prerequisite Skills and Knowledge</span></span>
 <span data-ttu-id="b41b2-104">Los lectores de [descripción de BizTalk Server](../core/understanding-biztalk-server.md) se espera que ya tengan conocimiento de las tecnologías EAI y las necesidades suscitadas por la integración de aplicaciones heterogéneas.</span><span class="sxs-lookup"><span data-stu-id="b41b2-104">Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.md) are expected to already have knowledge of EAI technologies and the general challenges of heterogeneous application integration.</span></span>  

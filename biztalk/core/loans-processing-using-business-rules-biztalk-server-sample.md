@@ -1,17 +1,17 @@
 ---
 title: Loans Processing Using Business Rules (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 3e1c80c6-adc1-4a0f-83fd-409ce1b8f21f
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008349"
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a><span data-ttu-id="c9930-102">Préstamos procesamiento con reglas de negocios (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="c9930-102">Loans Processing Using Business Rules (BizTalk Server Sample)</span></span>
 <span data-ttu-id="c9930-103">En el ejemplo Loans Processing Using Business Rules se muestra cómo usar un conjunto de reglas administrado en una orquestación y cómo usar una combinación de entradas conocidas como hechos para calcular la configuración de algunos campos en un documento que se está procesando.</span><span class="sxs-lookup"><span data-stu-id="c9930-103">The Loans Processing Using Business Rules sample demonstrates how to use a set of rules managed within an orchestration, and how to use a combination of inputs known as facts, to calculate settings for some fields within a document being processed.</span></span> <span data-ttu-id="c9930-104">Los hechos pueden ser el resultado de la llamada a un ensamblado basado en .NET, de los valores recuperados del XML del mensaje o de los datos recuperados de una base de datos.</span><span class="sxs-lookup"><span data-stu-id="c9930-104">Facts can be the result of calling a .NET-based assembly, the values retrieved from the XML of the message, or the data retrieved from a database.</span></span> <span data-ttu-id="c9930-105">En el ejemplo también se muestra cómo puede cambiar las reglas en cualquier momento, lo que afecta a los cálculos posteriores sin tener que volver a realizar la implementación.</span><span class="sxs-lookup"><span data-stu-id="c9930-105">The sample also demonstrates how you can change the rules at any time, affecting subsequent calculations without the need to redeploy.</span></span>  

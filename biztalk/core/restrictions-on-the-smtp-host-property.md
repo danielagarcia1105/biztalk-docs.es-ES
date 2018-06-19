@@ -1,17 +1,17 @@
 ---
 title: Restricciones de la propiedad de Host SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
 - SMTP adapters, restrictions
 ms.assetid: 6dbdb6dc-0062-4444-a4c8-6e2a7900f533
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972906"
 ---
 # <a name="restrictions-on-the-smtp-host-property"></a><span data-ttu-id="90d2d-102">Restricciones de la propiedad de Host de SMTP</span><span class="sxs-lookup"><span data-stu-id="90d2d-102">Restrictions on the SMTP Host Property</span></span>
 <span data-ttu-id="90d2d-103">La propiedad de host SMTP es una cadena que especifica el servidor SMTP que usará el adaptador de SMTP para enviar mensajes desde el servidor BizTalk.</span><span class="sxs-lookup"><span data-stu-id="90d2d-103">The SMTP host property is a string that specifies the SMTP server that the SMTP adapter will use to send messages from the BizTalk server.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="90d2d-105">Esta propiedad se debe configurar en el controlador de adaptador, en el extremo o en ambos.</span><span class="sxs-lookup"><span data-stu-id="90d2d-105">This property must be configured on the adapter handler level, on the endpoint level, or in both places.</span></span>  
   
--   <span data-ttu-id="90d2d-106">La propiedad del servidor SMTP no puede contener los siguientes caracteres: ' ~!</span><span class="sxs-lookup"><span data-stu-id="90d2d-106">The SMTP server property cannot contain the following characters: \` ~ !</span></span> <span data-ttu-id="90d2d-107">@ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;</span><span class="sxs-lookup"><span data-stu-id="90d2d-107">@ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;</span></span>  
+-   <span data-ttu-id="90d2d-106">La propiedad del servidor SMTP no puede contener los siguientes caracteres: ' ~!</span><span class="sxs-lookup"><span data-stu-id="90d2d-106">The SMTP server property cannot contain the following characters: \` ~ !</span></span> <span data-ttu-id="90d2d-107">@ # $ ^ & \* ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;</span><span class="sxs-lookup"><span data-stu-id="90d2d-107">@ # $ ^ & \* ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;</span></span>  
   
 -   <span data-ttu-id="90d2d-108">La longitud del nombre del servidor SMTP no debe exceder 256 caracteres.</span><span class="sxs-lookup"><span data-stu-id="90d2d-108">The length of the SMTP server name must not exceed 256 characters.</span></span>  
   

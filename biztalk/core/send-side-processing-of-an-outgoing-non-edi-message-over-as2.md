@@ -1,14 +1,14 @@
 ---
-title: "Procesamiento de un mensaje no perteneciente a EDI saliente a través de AS2 en el lado de envío | Documentos de Microsoft"
-ms.custom: 
+title: Procesamiento de un mensaje no perteneciente a EDI saliente a través de AS2 en el lado de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f19b7df-fe6d-4105-8a44-3d6db0bba451
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271852"
 ---
 # <a name="send-side-processing-of-an-outgoing-non-edi-message-over-as2"></a><span data-ttu-id="f9809-102">Procesamiento de envío de un mensaje saliente no perteneciente a EDI a través de AS2</span><span class="sxs-lookup"><span data-stu-id="f9809-102">Send-Side Processing of an Outgoing Non-EDI Message over AS2</span></span>
 <span data-ttu-id="f9809-103">Las canalizaciones AS2 incluidas con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden utilizar para procesar un mensaje EDI o un mensaje no perteneciente a EDI sobre transporte AS2.</span><span class="sxs-lookup"><span data-stu-id="f9809-103">The AS2 pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be used to process an EDI message or a non-EDI message over AS2 transport.</span></span> <span data-ttu-id="f9809-104">Se usan diferentes canalizaciones para los dos tipos diferentes de cargas.</span><span class="sxs-lookup"><span data-stu-id="f9809-104">Different pipelines are used for the two different types of payloads.</span></span> <span data-ttu-id="f9809-105">La canalización AS2EdiSend se usa para procesar un mensaje EDI saliente a través de AS2, mientras que la canalización AS2Receive se usa para recibir el MDN asociado (si está habilitado).</span><span class="sxs-lookup"><span data-stu-id="f9809-105">You use the AS2EdiSend pipeline to process an outgoing EDI message over AS2, and the AS2Receive pipeline to receive the associated MDN (if enabled).</span></span> <span data-ttu-id="f9809-106">La canalización AS2Send se usa para procesar un mensaje saliente no perteneciente a EDI a través de AS2, mientras que la canalización AS2Receive se usa para recibir el MDN asociado (si está habilitado).</span><span class="sxs-lookup"><span data-stu-id="f9809-106">You use the AS2Send pipeline to process an outgoing non-EDI message over AS2, and the AS2Receive pipeline to receive the associated MDN (if enabled).</span></span> <span data-ttu-id="f9809-107">El mensaje que no pertenece a EDI puede ser cualquier carga binaria.</span><span class="sxs-lookup"><span data-stu-id="f9809-107">The non-EDI message can be any binary payload.</span></span>  

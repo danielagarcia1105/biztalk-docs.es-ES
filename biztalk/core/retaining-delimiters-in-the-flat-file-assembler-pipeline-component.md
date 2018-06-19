@@ -1,14 +1,14 @@
 ---
-title: "Conservar delimitadores en el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Conservar delimitadores en el componente de canalización de ensamblador de archivo sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: adc27561-9996-49a9-b715-e313b9148506
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268788"
 ---
 # <a name="retaining-delimiters-in-the-flat-file-assembler-pipeline-component"></a><span data-ttu-id="f4ae8-102">Conservar delimitadores en el componente de canalización de ensamblador de archivos sin formato</span><span class="sxs-lookup"><span data-stu-id="f4ae8-102">Retaining Delimiters in the Flat File Assembler Pipeline Component</span></span>
 <span data-ttu-id="f4ae8-103">Si faltan registros en el mensaje que va a pasar a través de una canalización personalizada que usa el ensamblador de archivo sin formato, el delimitador para dichos registros puede aparecer o no en la salida de archivo sin formato según la ubicación del archivo de entrada en la que faltan los registros.</span><span class="sxs-lookup"><span data-stu-id="f4ae8-103">If there are missing records in the message going through a custom pipeline that uses the Flat File Assembler, the delimiter for those records may or may not appear in the flat file output depending on where in the input file the records are missing.</span></span>  

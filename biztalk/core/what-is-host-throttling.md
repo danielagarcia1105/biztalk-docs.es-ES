@@ -12,7 +12,7 @@ helpviewer_keywords:
 - host throttling, inbound
 - host throttling, about host throttling
 ms.assetid: 36d1818b-c8a2-4f23-bfb3-c034ee242f69
-caps.latest.revision: ''
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291188"
 ---
 # <a name="what-is-host-throttling"></a><span data-ttu-id="7c861-103">¿Qué es la limitación de host?</span><span class="sxs-lookup"><span data-stu-id="7c861-103">What Is Host Throttling?</span></span>
 <span data-ttu-id="7c861-104">La mayoría de los procesamientos que tienen lugar en un servidor BizTalk sucede en una entidad lógica conocida como instancia de host de servidor BizTalk Server, que es un proceso que se ejecuta como un servicio de Windows o un proceso de host aislado del servidor BizTalk.</span><span class="sxs-lookup"><span data-stu-id="7c861-104">Most of the processing that takes place on a BizTalk server occurs within a logical entity known as a BizTalk Server host instance, which is a process running as a Windows service or an isolated host process on the BizTalk server.</span></span> <span data-ttu-id="7c861-105">Para administrar el uso de recursos por parte de un proceso de instancia de host, BizTalk Server utiliza un mecanismo de limitación ajustable que rige el flujo y el procesamiento de mensajes a través de una instancia de host.</span><span class="sxs-lookup"><span data-stu-id="7c861-105">To manage the use of resources by a host instance process, BizTalk Server utilizes an adjustable throttling mechanism that governs the flow and processing of messages through a host instance.</span></span>  

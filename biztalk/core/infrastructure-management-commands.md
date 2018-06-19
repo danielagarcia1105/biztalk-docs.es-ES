@@ -1,14 +1,14 @@
 ---
-title: "Comandos de administración de infraestructura | Documentos de Microsoft"
-ms.custom: 
+title: Comandos de administración de infraestructura | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2f1a88c-19fc-4384-b6bb-f95962a32921
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973362"
 ---
 # <a name="infrastructure-management-commands"></a><span data-ttu-id="69d4a-102">Comandos de administración de infraestructura</span><span class="sxs-lookup"><span data-stu-id="69d4a-102">Infrastructure Management Commands</span></span>
 <span data-ttu-id="69d4a-103">Los comandos de configuración de la utilidad de administración de BAM (BM) permiten obtener y actualizar la configuración de BAM.</span><span class="sxs-lookup"><span data-stu-id="69d4a-103">The BAM Management (BM) utility configuration commands allow you get and update the BAM configuration.</span></span>  

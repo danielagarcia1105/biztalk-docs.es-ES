@@ -1,11 +1,11 @@
 ---
 title: Migrar Functoids | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, migrating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - migrating, functoids
 - migrating, Scripting functoids
 ms.assetid: fc5b3ac9-28c6-41df-b779-15a8c3188528
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009326"
 ---
 # <a name="migrating-functoids"></a><span data-ttu-id="ba945-102">Migrar functoids</span><span class="sxs-lookup"><span data-stu-id="ba945-102">Migrating Functoids</span></span>
 <span data-ttu-id="ba945-103">Cuando se migra una asignación de versiones anteriores de BizTalk Server a BizTalk Server, también se migran todos los functoids incluidos en el mapa.</span><span class="sxs-lookup"><span data-stu-id="ba945-103">When you migrate a map from previous versions of BizTalk Server to BizTalk Server, any functoids included in the map are also migrated.</span></span> <span data-ttu-id="ba945-104">Si no incluye los functoids que migra **secuencias de comandos** functoids, ninguna tarea de migración adicionales es necesaria.</span><span class="sxs-lookup"><span data-stu-id="ba945-104">If the functoids you migrate do not include **Scripting** functoids, no additional migration tasks are required.</span></span> <span data-ttu-id="ba945-105">Sin embargo si la asignación incluye **secuencias de comandos** functoids personalizados o, tendrá que realice más pasos.</span><span class="sxs-lookup"><span data-stu-id="ba945-105">However if your map includes **Scripting** functoids or custom functoids, you may have additional steps to perform.</span></span>  

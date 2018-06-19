@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255724"
 ---
 # <a name="how-to-set-pipeline-component-properties"></a><span data-ttu-id="c58f9-102">Cómo establecer propiedades de componente de canalización</span><span class="sxs-lookup"><span data-stu-id="c58f9-102">How to Set Pipeline Component Properties</span></span>
 <span data-ttu-id="c58f9-103">Los componentes tienen propiedades que deben configurarse antes de utilizarlos.</span><span class="sxs-lookup"><span data-stu-id="c58f9-103">Each component has properties that should be configured prior to use.</span></span>  

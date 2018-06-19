@@ -1,14 +1,14 @@
 ---
-title: "AS2 no válido: nombre configurado para la entidad | Documentos de Microsoft"
-ms.custom: 
+title: 'AS2 no válido: nombre configurado para la entidad | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a203e5f2-d1d9-433f-b2bb-d679bb8fea58
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257372"
 ---
 # <a name="invalid-as2-to-name-configured-for-party"></a><span data-ttu-id="dd62c-102">Nombre AS2-To no válido configurado para Entidad</span><span class="sxs-lookup"><span data-stu-id="dd62c-102">Invalid AS2-To name configured for Party</span></span>
 ## <a name="details"></a><span data-ttu-id="dd62c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="dd62c-103">Details</span></span>  

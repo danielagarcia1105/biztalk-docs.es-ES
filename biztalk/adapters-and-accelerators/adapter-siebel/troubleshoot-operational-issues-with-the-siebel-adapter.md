@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de funcionamiento con el adaptador de BizTalk | Documentos de Microsoft
-description: "Problemas comunes y soluciones para el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Problemas comunes y soluciones para el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 74d152d9-9893-4f93-894a-350bae8be7bd
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009637"
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a><span data-ttu-id="a4b50-103">Solucionar problemas de funcionamiento con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="a4b50-103">Troubleshoot Operational Issues with the Siebel adapter</span></span>
 <span data-ttu-id="a4b50-104">Esta sección proporciona una ubicación centralizada para obtener información acerca de problemas de funcionamiento que pueden surgir al usar el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a4b50-104">This section provides a centralized location for information about operational issues you might encounter when using the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].</span></span>  

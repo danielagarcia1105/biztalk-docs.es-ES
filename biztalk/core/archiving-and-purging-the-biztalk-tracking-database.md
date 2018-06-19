@@ -1,14 +1,14 @@
 ---
 title: Archivar y purgar la base de datos de seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7014cf31-86e8-4829-8055-056442329009
-caps.latest.revision: 
+caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710847"
 ---
 # <a name="archive-and-purge-the-biztalkdtadb-database"></a><span data-ttu-id="d848b-102">Archivar y purgar la base de datos de BizTalkDTADb</span><span class="sxs-lookup"><span data-stu-id="d848b-102">Archive and Purge the BizTalkDTADb Database</span></span>
 
