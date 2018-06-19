@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para los procedimientos y funciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223356"
 ---
 # <a name="message-schemas-for-procedures-and-functions"></a><span data-ttu-id="f547a-102">Esquemas de mensaje para los procedimientos y funciones</span><span class="sxs-lookup"><span data-stu-id="f547a-102">Message Schemas for Procedures and Functions</span></span>
 <span data-ttu-id="f547a-103">El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de SQL Server, escalares y procedimientos almacenados de la base de datos y funciones con valores como operaciones de tabla.</span><span class="sxs-lookup"><span data-stu-id="f547a-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database stored procedures and scalar and table valued functions as operations.</span></span> <span data-ttu-id="f547a-104">Esta sección describe la estructura de los mensajes y acciones que se usan para invocar procedimientos y funciones.</span><span class="sxs-lookup"><span data-stu-id="f547a-104">This section describes the message structure and actions used to invoke procedures and functions.</span></span>  

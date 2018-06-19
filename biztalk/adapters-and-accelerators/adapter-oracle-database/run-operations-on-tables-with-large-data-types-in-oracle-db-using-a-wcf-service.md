@@ -1,17 +1,17 @@
 ---
-title: "Completar las operaciones en tablas con tipos de datos de gran tamaño en la base de datos de Oracle mediante el modelo de servicio WCF | Documentos de Microsoft"
-ms.custom: 
+title: Completar las operaciones en tablas con tipos de datos de gran tamaño en la base de datos de Oracle mediante el modelo de servicio WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing operations on tables and views
 - how to, invoke the ReadLOB and UpdateLOB operations
 ms.assetid: 5d0e84d3-7ffa-47c7-aaf2-a1007f7a71a2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215612"
 ---
 # <a name="complete-operations-on-tables-with-large-data-types-in-oracle-database-using-the-wcf-service-model"></a><span data-ttu-id="b0475-102">Completar las operaciones en tablas con tipos de datos de gran tamaño en la base de datos de Oracle mediante el modelo de servicio WCF</span><span class="sxs-lookup"><span data-stu-id="b0475-102">Complete operations on tables with large data types in Oracle Database using the WCF service model</span></span>
 <span data-ttu-id="b0475-103">Esta sección contiene información sobre cómo invocar las operaciones ReadLOB y UpdateLOB desde el modelo de servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="b0475-103">This section contains information about how to invoke the ReadLOB and UpdateLOB operations from the WCF service model.</span></span> <span data-ttu-id="b0475-104">Las operaciones de ReadLOB y UpdateLOB se exhibe para tablas y vistas que contienen columnas LOB; que es que las columnas que se utilizan para almacenar datos de objetos grandes (LOB) de Oracle.</span><span class="sxs-lookup"><span data-stu-id="b0475-104">The ReadLOB and UpdateLOB operations are surfaced for tables and views that contain LOB columns; that is columns that are used to store Oracle large object (LOB) data.</span></span> <span data-ttu-id="b0475-105">Para obtener información general de los tipos de datos LOB de Oracle admitidos la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] y de las operaciones ReadLOB y UpdateLOB, consulte [operaciones en tablas y vistas que contienen LOB base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md).</span><span class="sxs-lookup"><span data-stu-id="b0475-105">For an overview of the Oracle LOB data types supported by the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] and of the ReadLOB and UpdateLOB operations, see [Operations on Tables and Views That Contain LOB Data in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md).</span></span>  

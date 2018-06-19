@@ -1,17 +1,17 @@
 ---
-title: "Información general sobre el modelo de servicio WCF con el adaptador de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de servicio WCF con el adaptador de Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke operations on the Siebel system with a WCF client
 - WCF service model, overview of
 ms.assetid: 0e812473-0f50-4972-8b07-ec8edc2ef000
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222116"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-siebel-adapter"></a><span data-ttu-id="3ec1b-102">Información general sobre el modelo de servicio WCF con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="3ec1b-102">Overview of the WCF service model with the Siebel adapter</span></span>
 <span data-ttu-id="3ec1b-103">La [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] expone un sistema Siebel como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="3ec1b-103">The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes a Siebel system as a WCF service.</span></span> <span data-ttu-id="3ec1b-104">Para llevar a cabo operaciones en los artefactos del sistema Siebel, por ejemplo, para invocar un método de un servicio de negocios de Siebel, se invoca una operación en el adaptador, que a su vez, realiza la operación en el sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="3ec1b-104">To perform operations on Siebel system artifacts, for example to invoke a method of a Siebel business service, you invoke an operation on the adapter, which, in turn, performs the operation on the Siebel system.</span></span> <span data-ttu-id="3ec1b-105">Por lo tanto, el código actúa como un cliente al servicio de WCF presentado por el adaptador.</span><span class="sxs-lookup"><span data-stu-id="3ec1b-105">Your code therefore acts as a client to the WCF service presented by the adapter.</span></span>  

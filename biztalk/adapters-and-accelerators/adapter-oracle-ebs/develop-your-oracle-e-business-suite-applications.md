@@ -1,15 +1,15 @@
 ---
 title: Desarrollar las aplicaciones de Oracle E-Business Suite en BizTalk | Documentos de Microsoft
-description: "Crear aplicaciones de Oracle EBS mediante WCF, o en el servidor BizTalk Server con el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Crear aplicaciones de Oracle EBS mediante WCF, o en el servidor BizTalk Server con el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7b1ebff-b3f8-4e07-a089-d1d5bfb78d56
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217268"
 ---
 # <a name="develop-your-oracle-e-business-suite-applications"></a><span data-ttu-id="92c39-103">Desarrollar las aplicaciones de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="92c39-103">Develop your Oracle E-Business Suite applications</span></span>
 

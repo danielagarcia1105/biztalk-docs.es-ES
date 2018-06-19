@@ -11,7 +11,7 @@ helpviewer_keywords:
 - trading partners, agreements
 - agreements, trading partners
 ms.assetid: 846466d2-db39-42ba-8be1-ecca83a55a02
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22208684"
 ---
 # <a name="trading-partner-agreements"></a><span data-ttu-id="53b0e-102">Acuerdos de socios comerciales</span><span class="sxs-lookup"><span data-stu-id="53b0e-102">Trading Partner Agreements</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="53b0e-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] procesa el intercambio de mensajes con un socio comercial por un acuerdo entre socios comerciales (TPA).</span><span class="sxs-lookup"><span data-stu-id="53b0e-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] processes message exchange with a partner by a trading partner agreement (TPA).</span></span> <span data-ttu-id="53b0e-104">El TPA define las características de procesamiento de mensajes y validación entre los dos asociados.</span><span class="sxs-lookup"><span data-stu-id="53b0e-104">The TPA defines the specifics of message processing and validation between the two partners.</span></span> <span data-ttu-id="53b0e-105">Define cómo esos socios implementan el proceso de interfaz de socio (PIP) pertinente, que especifica el contenido del mensaje para todas las implementaciones de un tipo de mensaje específico.</span><span class="sxs-lookup"><span data-stu-id="53b0e-105">It defines how those partners implement the relevant Partner Interface Process (PIP), which specifies the message content for all implementations of a specific message type.</span></span> <span data-ttu-id="53b0e-106">El TPA también define los detalles de cómo los socios comerciales intercambian mensajes a través de Internet.</span><span class="sxs-lookup"><span data-stu-id="53b0e-106">The TPA also defines specifics of how the partners exchange messages over the Internet.</span></span>  

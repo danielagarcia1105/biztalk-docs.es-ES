@@ -1,11 +1,11 @@
 ---
 title: Seguridad entre el sistema SAP y el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Secure Network Communications
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - security considerations, between SAP system and adapter
 - user name password credentials
 ms.assetid: fa21df0b-a364-4a52-8c38-49c5ee6267cc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217948"
 ---
 # <a name="security-between-the-sap-system-and-the-adapter"></a><span data-ttu-id="58d0e-102">Seguridad entre el sistema SAP y el adaptador</span><span class="sxs-lookup"><span data-stu-id="58d0e-102">Security between the SAP system and the adapter</span></span>
 <span data-ttu-id="58d0e-103">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] admite credenciales de contraseña de nombre de las comunicaciones de red segura (SNC) de SAP o usuario para ayudar a una comunicación segura entre él y el servidor SAP.</span><span class="sxs-lookup"><span data-stu-id="58d0e-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports either SAP Secure Network Communications (SNC) or user name password credentials to help secure communication between it and the SAP server.</span></span> <span data-ttu-id="58d0e-104">Las credenciales de contraseña de nombre de usuario sólo proporcionan autorización para la conexión con el sistema SAP. no proporciona ninguna seguridad en los datos que se intercambian a través de la conexión.</span><span class="sxs-lookup"><span data-stu-id="58d0e-104">User name password credentials only provide authorization for the connection to the SAP system; they do not provide any security on the data exchanged over the connection.</span></span> <span data-ttu-id="58d0e-105">No puede usar las credenciales de contraseña de nombre SNC tanto del usuario al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="58d0e-105">You cannot use both SNC and user name password credentials simultaneously.</span></span>  

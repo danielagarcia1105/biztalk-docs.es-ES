@@ -1,18 +1,18 @@
 ---
-title: "Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing a SQLEXECUTE operation
 - SQLEXECUTE operation, performing a
 - how to, invoke the SQLEXECUTE operation
 ms.assetid: d3f61e5f-4453-4a76-9bc6-40d91cb58224
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215980"
 ---
 # <a name="run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model"></a><span data-ttu-id="26f0f-102">Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="26f0f-102">Run SQLEXECUTE operation in Oracle Database using the WCF Service Model</span></span>
 <span data-ttu-id="26f0f-103">La[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto estándar de operaciones en artefactos de base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="26f0f-103">The[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a standard set of operations on Oracle database artifacts.</span></span> <span data-ttu-id="26f0f-104">Mediante el uso de estas operaciones, puede hacer cosas como llamada a una función de Oracle o un procedimiento, o realizar operaciones del lenguaje (DML) de manipulación de datos de básico SQL en tablas.</span><span class="sxs-lookup"><span data-stu-id="26f0f-104">By using these operations, you can do things like call an Oracle function or procedure, or perform basic SQL data manipulation language (DML) operations on tables.</span></span> <span data-ttu-id="26f0f-105">Sin embargo, pueden haber escenarios controlados por la lógica de negocios que requieren realizar operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] no expuesta.</span><span class="sxs-lookup"><span data-stu-id="26f0f-105">However, there may be scenarios driven by your business logic that require you to perform operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] does not surface.</span></span> <span data-ttu-id="26f0f-106">Por ejemplo, puede:</span><span class="sxs-lookup"><span data-stu-id="26f0f-106">For example, you may want to:</span></span>  

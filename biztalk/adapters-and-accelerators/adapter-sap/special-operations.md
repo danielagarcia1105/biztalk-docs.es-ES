@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216612"
 ---
 # <a name="special-operations"></a><span data-ttu-id="6ef36-102">Operaciones especiales</span><span class="sxs-lookup"><span data-stu-id="6ef36-102">Special Operations</span></span>
 <span data-ttu-id="6ef36-103">La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone varias operaciones especiales.</span><span class="sxs-lookup"><span data-stu-id="6ef36-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces several special operations.</span></span> <span data-ttu-id="6ef36-104">Estas operaciones no se basan en artefactos del sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="6ef36-104">These operations are not based on SAP system artifacts.</span></span> <span data-ttu-id="6ef36-105">Emerge para proporcionar la funcionalidad para las aplicaciones de cliente de adaptador.</span><span class="sxs-lookup"><span data-stu-id="6ef36-105">They are surfaced to provide functionality for adapter client applications.</span></span> <span data-ttu-id="6ef36-106">Las operaciones especiales son:</span><span class="sxs-lookup"><span data-stu-id="6ef36-106">The special operations are:</span></span>  

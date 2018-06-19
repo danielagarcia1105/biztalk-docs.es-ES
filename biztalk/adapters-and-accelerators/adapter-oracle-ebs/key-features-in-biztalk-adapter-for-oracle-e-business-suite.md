@@ -1,14 +1,14 @@
 ---
-title: "La clave de características en el adaptador de BizTalk para Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: La clave de características en el adaptador de BizTalk para Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a43091ab-f81c-4c4f-bcc3-e6abe16d3d77
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218292"
 ---
 # <a name="key-features-in-biztalk-adapter-for-oracle-e-business-suite"></a><span data-ttu-id="b6e51-102">Características clave en el adaptador de BizTalk para Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="b6e51-102">Key features in BizTalk adapter for Oracle E-Business Suite</span></span>
 <span data-ttu-id="b6e51-103">Esta sección enumeran las características claves de [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b6e51-103">This section lists the key features in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span>  

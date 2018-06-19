@@ -1,11 +1,11 @@
 ---
-title: "Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, verifying
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, Business Rule Composer tool
 - Business Rule Composer tool
 ms.assetid: 337dc469-cf9e-406b-90ae-0f580b17d7c9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210244"
 ---
 # <a name="lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool"></a><span data-ttu-id="525dd-102">Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="525dd-102">Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool</span></span>
 <span data-ttu-id="525dd-103">En esta lección, confirme que la herramienta de Compositor de reglas de negocios creado los vocabularios e implementado las directivas.</span><span class="sxs-lookup"><span data-stu-id="525dd-103">In this lesson, you confirm that the Business Rule Composer tool created your vocabularies and deployed your policies.</span></span> <span data-ttu-id="525dd-104">Un vocabulario es una colección de elementos de vocabulario utilizados en la composición de regla.</span><span class="sxs-lookup"><span data-stu-id="525dd-104">A vocabulary is a collection of vocabulary elements you use in rule composition.</span></span> <span data-ttu-id="525dd-105">Las directivas son colecciones de reglas de negocios y tienen asignada una versión.</span><span class="sxs-lookup"><span data-stu-id="525dd-105">A policy is a versioned collection of business rules.</span></span>  

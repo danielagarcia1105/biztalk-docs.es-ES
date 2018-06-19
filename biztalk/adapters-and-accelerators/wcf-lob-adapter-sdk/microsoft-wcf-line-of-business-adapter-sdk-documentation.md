@@ -1,15 +1,15 @@
 ---
-title: "Documentación de Microsoft Windows Communication Foundation línea de negocio SDK de adaptador | Documentos de Microsoft"
-description: "Vínculos rápidos a instalar, introducción, planear y diseñar, desarrollar y el SDK del adaptador de LOB de WCF en BizTalk Server de la solución de problemas"
-ms.custom: 
+title: Documentación de Microsoft Windows Communication Foundation línea de negocio SDK de adaptador | Documentos de Microsoft
+description: Vínculos rápidos a instalar, introducción, planear y diseñar, desarrollar y el SDK del adaptador de LOB de WCF en BizTalk Server de la solución de problemas
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a2b098c-ef41-4cc0-8063-1fd043f1176f
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225828"
 ---
 # <a name="microsoft-windows-communication-foundation-line-of-business-adapter-sdk-documentation"></a><span data-ttu-id="f5113-103">Documentación de Microsoft Windows Communication Foundation línea de negocio SDK de adaptador</span><span class="sxs-lookup"><span data-stu-id="f5113-103">Microsoft Windows Communication Foundation Line of Business Adapter SDK documentation</span></span>
 <span data-ttu-id="f5113-104">El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentación incluye recursos para ayudarle a desarrollar, implementar y usar adaptadores creados con la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f5113-104">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] documentation includes resources to help you develop, deploy, and use adapters created with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span>  

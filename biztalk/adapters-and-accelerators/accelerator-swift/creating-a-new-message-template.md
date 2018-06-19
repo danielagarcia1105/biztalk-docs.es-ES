@@ -1,18 +1,18 @@
 ---
 title: Crear una nueva plantilla de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, templates
 - templates, creating
 - creating, templates
 ms.assetid: 8c601d2b-b7a5-4ac4-9d98-fd9960038340
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209244"
 ---
 # <a name="creating-a-new-message-template"></a><span data-ttu-id="b5ab0-102">Crear una nueva plantilla de mensaje</span><span class="sxs-lookup"><span data-stu-id="b5ab0-102">Creating a New Message Template</span></span>
 <span data-ttu-id="b5ab0-103">Puede crear una nueva plantilla de mensaje de una plantilla existente.</span><span class="sxs-lookup"><span data-stu-id="b5ab0-103">You can create a new message template from an existing template.</span></span> <span data-ttu-id="b5ab0-104">Esto permite que un autor para crear una nueva instancia de mensaje en un formulario personalizado, como una copia de un formulario SWIFT estándar que ya tiene algunos datos introducidos en él.</span><span class="sxs-lookup"><span data-stu-id="b5ab0-104">This enables a creator to create a new message instance on a custom form, such as a copy of a standard SWIFT form that already has some data entered into it.</span></span> <span data-ttu-id="b5ab0-105">Con la nueva plantilla, el creador no tiene que todos los valores de los datos necesarios cuando se usa un formulario vacío especificar.</span><span class="sxs-lookup"><span data-stu-id="b5ab0-105">Using the new template, the creator does not have to enter all of the data required when using an empty form.</span></span>  

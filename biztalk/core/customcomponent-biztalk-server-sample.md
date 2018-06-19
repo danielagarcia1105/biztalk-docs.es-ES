@@ -1,11 +1,11 @@
 ---
 title: CustomComponent (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, streamed
 - pipeline components [custom], configuring
 ms.assetid: ed0da9f5-8cc7-4528-be8c-35b80744fd38
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969738"
 ---
 # <a name="customcomponent-biztalk-server-sample"></a><span data-ttu-id="8d776-102">CustomComponent (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="8d776-102">CustomComponent (BizTalk Server Sample)</span></span>
 <span data-ttu-id="8d776-103">El ejemplo CustomComponent muestra cómo crear y utilizar un componente de canalización personalizado que modifique un mensaje transmitido.</span><span class="sxs-lookup"><span data-stu-id="8d776-103">The CustomComponent sample demonstrates how to create and use a custom pipeline component that modifies a streamed message.</span></span> <span data-ttu-id="8d776-104">También muestra la configuración de un componente de canalización personalizado en el Diseñador de canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="8d776-104">This sample also demonstrates the configuration of a custom pipeline component in Pipeline Designer.</span></span>  

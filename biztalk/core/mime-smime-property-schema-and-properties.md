@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22263196"
 ---
 # <a name="mime-smime-property-schema-and-properties"></a><span data-ttu-id="76d5b-102">Propiedades y esquema de propiedades de MIME-SMIME</span><span class="sxs-lookup"><span data-stu-id="76d5b-102">MIME-SMIME Property Schema and Properties</span></span>
 

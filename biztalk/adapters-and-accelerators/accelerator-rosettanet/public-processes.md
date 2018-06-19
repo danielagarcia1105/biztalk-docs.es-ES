@@ -1,11 +1,11 @@
 ---
-title: "Procesos públicos | Documentos de Microsoft"
-ms.custom: 
+title: Procesos públicos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public processes, orchestrations
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - trading partners, public processes
 - public processes, about public processes
 ms.assetid: 5ccc7449-5741-4d49-beb6-567bcd93f679
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210028"
 ---
 # <a name="public-processes"></a><span data-ttu-id="c1153-102">Procesos públicos</span><span class="sxs-lookup"><span data-stu-id="c1153-102">Public Processes</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="c1153-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implementa procesos empresariales que implican la integración con socios comerciales como procesos públicos.</span><span class="sxs-lookup"><span data-stu-id="c1153-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that involve integration with trading partners as public processes.</span></span> <span data-ttu-id="c1153-104">Implementa los procesos empresariales internos de una organización como procesos privados.</span><span class="sxs-lookup"><span data-stu-id="c1153-104">It implements business processes that are internal to an organization as private processes.</span></span> <span data-ttu-id="c1153-105">Uso de procesos públicos y privados aísla control (en el proceso público) RosettaNet Implementation Framework (RNIF) desde el procesamiento de contenido de servicio y la integración de back-end (en el proceso privado).</span><span class="sxs-lookup"><span data-stu-id="c1153-105">Using public and private processes isolates RosettaNet Implementation Framework (RNIF) handling (in the public process) from the service content processing and back-end integration (in the private process).</span></span>  

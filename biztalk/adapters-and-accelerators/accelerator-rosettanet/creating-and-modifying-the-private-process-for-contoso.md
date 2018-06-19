@@ -1,11 +1,11 @@
 ---
 title: Crear y modificar el proceso privado para Contoso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, creating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - creating, private processes
 - private process tutorial, configuring private processes
 ms.assetid: 0690aaef-cd9e-46aa-8bd5-22744d5aec4c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210068"
 ---
 # <a name="creating-and-modifying-the-private-process-for-contoso"></a><span data-ttu-id="7a589-102">Crear y modificar el proceso privado de Contoso</span><span class="sxs-lookup"><span data-stu-id="7a589-102">Creating and Modifying the Private Process for Contoso</span></span>
 <span data-ttu-id="7a589-103">Se pueden realizar tareas adicionales con mensajes de RosettaNet al implementar la solución personalizando el proceso privado dentro de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="7a589-103">You can perform additional tasks with RosettaNet-based messages when implementing your solution by customizing the private process within [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="7a589-104">Esta sección muestra cómo personalizar el proceso privado mediante el motor de reglas de negocios (BRE) para crear directivas y el Editor de BizTalk para personalizar la orquestación de procesos privados.</span><span class="sxs-lookup"><span data-stu-id="7a589-104">This section demonstrates how to customize the private process by using the Business Rule Engine (BRE) to create policies and BizTalk Editor to customize the private process orchestration.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Paso 4: Crear el puerto de recepción para aceptar ADT ^ A03 mensajes desde sistemas ADT usa el adaptador MLLP | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4: Crear el puerto de recepción para aceptar ADT ^ A03 mensajes desde sistemas ADT usa el adaptador MLLP | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 2015-12-09
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive ports
 - end-to-end tutorial, receive ports
 - creating, receive ports
 ms.assetid: 3c4192d5-d011-48b0-a3f9-47c5225780ee
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207740"
 ---
 # <a name="step-4-create-the-receive-port-for-accepting-adta03-messages-from-adt-systems-using-the-mllp-adapter"></a><span data-ttu-id="c859f-102">Paso 4: Crear el puerto de recepción para aceptar ADT ^ A03 mensajes desde sistemas ADT usa el adaptador MLLP</span><span class="sxs-lookup"><span data-stu-id="c859f-102">Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter</span></span>
 <span data-ttu-id="c859f-103">Use el puerto de recepción para especificar la ubicación de recepción para los mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="c859f-103">You use the receive port to specify the receive location for incoming messages.</span></span> <span data-ttu-id="c859f-104">Utilice el procedimiento siguiente para crear el puerto de recepción para aceptar ADT ^ A03 mensajes desde el sistema de ADT mediante el adaptador MLLP.</span><span class="sxs-lookup"><span data-stu-id="c859f-104">Use the following procedure to create the receive port for accepting ADT^A03 messages from the ADT System using the MLLP adapter.</span></span>  

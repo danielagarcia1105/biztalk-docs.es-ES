@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad para las llamadas entrantes mediante sondeo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae02a93a-808f-4774-a2c4-efdf39a4d49a
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217404"
 ---
 # <a name="support-for-inbound-calls-using-polling"></a><span data-ttu-id="a91fd-102">Compatibilidad para las llamadas entrantes mediante sondeo</span><span class="sxs-lookup"><span data-stu-id="a91fd-102">Support for Inbound Calls Using Polling</span></span>
 <span data-ttu-id="a91fd-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] permite a los programas de cliente recibir mensajes de Oracle E-Business Suite que les informa de los cambios a los datos de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="a91fd-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables client programs to receive messages from Oracle E-Business Suite informing them of changes to data in Oracle E-Business Suite.</span></span> <span data-ttu-id="a91fd-104">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] admite la recepción de mensajes "basada en sondeo" en el que el adaptador ejecuta una instrucción SQL especificada, procedimiento almacenado, función o un procedimiento dentro de un paquete, recupera los datos y proporciona el resultado al cliente a intervalos regulares de hora.</span><span class="sxs-lookup"><span data-stu-id="a91fd-104">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SQL statement, stored procedure, function or a procedure within a package, retrieves the data, and provides the result to the client at regular intervals of time.</span></span>  

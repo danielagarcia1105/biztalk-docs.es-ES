@@ -1,11 +1,11 @@
 ---
-title: "Detección de tipo de mensaje dinámico y la resolución de esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Detección de tipo de mensaje dinámico y la resolución de esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - dynamic schema resolution
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - disassembler, message types
 - code samples, disassembler
 ms.assetid: 5f71d3df-a37e-4ef2-9055-b614656203e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211340"
 ---
 # <a name="dynamic-message-type-discovery-and-schema-resolution"></a><span data-ttu-id="e8190-102">Detección de tipo de mensaje dinámico y la resolución de esquemas</span><span class="sxs-lookup"><span data-stu-id="e8190-102">Dynamic Message Type Discovery and Schema Resolution</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="e8190-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] habilita la resolución de detección y el esquema del tipo de mensaje dinámico en las ensamblador y desensamblador SWIFT.</span><span class="sxs-lookup"><span data-stu-id="e8190-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] enables dynamic message type discovery and schema resolution in both the SWIFT disassembler and assembler.</span></span>  
@@ -91,7 +92,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="e8190-138">**A4SWIFT_SecondaryMessageType** (opcional)</span><span class="sxs-lookup"><span data-stu-id="e8190-138">**A4SWIFT_SecondaryMessageType** (optional)</span></span>  
   
- <span data-ttu-id="e8190-139">Para obtener más información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ * las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="e8190-139">For more information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+ <span data-ttu-id="e8190-139">Para obtener más información sobre estas y otras propiedades promocionadas, consulte [A4SWIFT_ \* las propiedades promocionadas](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span><span class="sxs-lookup"><span data-stu-id="e8190-139">For more information about these and other promoted properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="e8190-140">Si establece el esquema de encabezado de SWIFT en **ninguno**, debe especificar un esquema de intercambio completo para la **esquema de intercambio de SWIFT** propiedad.</span><span class="sxs-lookup"><span data-stu-id="e8190-140">If you set the SWIFT Header Schema to **None**, you should specify a complete interchange schema for the **SWIFT Interchange Schema** property.</span></span> <span data-ttu-id="e8190-141">En este caso, el Desensamblador usa el esquema de intercambio especificado para analizar todos los mensajes que recibe de A4SWIFT.</span><span class="sxs-lookup"><span data-stu-id="e8190-141">In this case, the disassembler uses the specified interchange schema to parse all messages that A4SWIFT receives.</span></span> <span data-ttu-id="e8190-142">Es decir, deshabilitar la resolución de esquema dinámico y configurar la canalización para recibir sólo los mensajes cuyo tipo coincide con el esquema de intercambio especificado.</span><span class="sxs-lookup"><span data-stu-id="e8190-142">That is, you disable dynamic schema resolution and configure the pipeline to receive only messages whose type matches the specified interchange schema.</span></span>  

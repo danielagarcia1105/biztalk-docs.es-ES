@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206324"
 ---
 # <a name="validation-tab"></a><span data-ttu-id="4ecba-102">Ficha validación</span><span class="sxs-lookup"><span data-stu-id="4ecba-102">Validation Tab</span></span>
 <span data-ttu-id="4ecba-103">Usa el **validación** tab para seleccionar las opciones de validación de mensajes para mensajes entrantes y generados.</span><span class="sxs-lookup"><span data-stu-id="4ecba-103">You use the **Validation** tab to select the message validation options for inbound and generated messages.</span></span>  

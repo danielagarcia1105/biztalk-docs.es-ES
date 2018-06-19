@@ -1,14 +1,14 @@
 ---
-title: "Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12c42cd0-b46e-4c45-a67e-e1fb9c0e8a6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216140"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-after-a-receive-location-breakdown"></a><span data-ttu-id="35524-102">Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="35524-102">Receive Oracle E-Business Suite database change notifications after a receive location breakdown</span></span>
 <span data-ttu-id="35524-103">Considere un escenario donde haya una aplicación de BizTalk que recibe mensajes de notificación de cambio de base de datos cuando se realizan cambios en la tabla ACCOUNTACTIVITY.</span><span class="sxs-lookup"><span data-stu-id="35524-103">Consider a scenario where you have a BizTalk application that receives database change notification messages when changes are made to the ACCOUNTACTIVITY table.</span></span> <span data-ttu-id="35524-104">Si la ubicación de recepción configurado como parte de desglosa la aplicación de BizTalk y al mismo tiempo los registros se agregan en la tabla ACCOUNTACTIVITY, no recibirá notificaciones para los registros agregados recientemente.</span><span class="sxs-lookup"><span data-stu-id="35524-104">If the receive location configured as part of the BizTalk application breaks down, and simultaneously records are added into the ACCOUNTACTIVITY table, you will not receive notifications for the recently added records.</span></span> <span data-ttu-id="35524-105">También no sabrá cuando la ubicación de recepción esté disponible de nuevo.</span><span class="sxs-lookup"><span data-stu-id="35524-105">You will also not know when the receive location is available again.</span></span> <span data-ttu-id="35524-106">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone una propiedad de enlace, **NotifyOnListenerStart**, que se pueden configurar para recibir una notificación que se ha recuperado la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="35524-106">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes a binding property, **NotifyOnListenerStart**, that you can configure to get a notification that the receive location has recovered.</span></span> <span data-ttu-id="35524-107">Puede especificar los siguientes valores para la **NotifyOnListenerStart** propiedad de enlace:</span><span class="sxs-lookup"><span data-stu-id="35524-107">You can specify the following values for the **NotifyOnListenerStart** binding property:</span></span>  

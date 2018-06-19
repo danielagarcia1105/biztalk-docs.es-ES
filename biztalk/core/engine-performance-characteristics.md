@@ -1,17 +1,17 @@
 ---
-title: "Características de rendimiento del motor | Documentos de Microsoft"
-ms.custom: 
+title: Características de rendimiento del motor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, engines
 - engines, performance
 ms.assetid: e7cd9618-55c2-459f-aaca-798aa7e45c41
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239844"
 ---
 # <a name="engine-performance-characteristics"></a><span data-ttu-id="52dbe-102">Características de rendimiento del motor</span><span class="sxs-lookup"><span data-stu-id="52dbe-102">Engine Performance Characteristics</span></span>
 <span data-ttu-id="52dbe-103">En esta sección se explica cómo puede garantizar que el motor de mensajería cuenta con un rendimiento óptimo.</span><span class="sxs-lookup"><span data-stu-id="52dbe-103">This section explains how you can ensure the messaging engine has optimal performance.</span></span> <span data-ttu-id="52dbe-104">Se describe cómo medir el rendimiento sostenible máximo del motor y cómo modificar la configuración predeterminada de limitación de host.</span><span class="sxs-lookup"><span data-stu-id="52dbe-104">It explains how to measure maximum sustainable engine throughput and how to modify default host throttling settings.</span></span>  

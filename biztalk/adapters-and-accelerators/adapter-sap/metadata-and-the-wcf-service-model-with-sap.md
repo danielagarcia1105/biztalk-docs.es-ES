@@ -1,14 +1,14 @@
 ---
 title: Modelo con SAP del servicio WCF y metadatos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1900cf66-a0d0-46f4-896b-7f6de3b51875
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216780"
 ---
 # <a name="metadata-and-the-wcf-service-model-with-sap"></a><span data-ttu-id="2234f-102">Metadatos y el modelo de servicio WCF con SAP</span><span class="sxs-lookup"><span data-stu-id="2234f-102">Metadata and the WCF Service Model with SAP</span></span>
 <span data-ttu-id="2234f-103">En el modelo de servicio WCF, use la [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. o bien el ServiceModel Metadata Utility Tool (svcutile.exe) para generar clases de proxy a través del cual el código puede:</span><span class="sxs-lookup"><span data-stu-id="2234f-103">In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].or the ServiceModel Metadata Utility Tool (svcutile.exe) to generate proxy classes through which your code can either:</span></span>  

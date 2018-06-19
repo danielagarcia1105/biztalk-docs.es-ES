@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - security, best practices
 ms.assetid: e60014b5-ce2f-4fd4-be2a-921d5cd81267
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22217884"
 ---
 # <a name="best-practices-to-secure-the-sap-adapter"></a><span data-ttu-id="2f5d6-102">Prácticas recomendadas para proteger el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="2f5d6-102">Best practices to secure the SAP adapter</span></span>
 <span data-ttu-id="2f5d6-103">Esta sección proporciona prácticas recomendadas que debería seguir para proteger más completamente los datos confidenciales si utiliza o desarrollar aplicaciones que consumen la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span><span class="sxs-lookup"><span data-stu-id="2f5d6-103">This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Deshabilitar el seguimiento de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FIN Response Reconciliation, disabling BAM tracking
 - BAM tracking
 ms.assetid: ea5fef0e-7a96-46f5-81d8-9b1d8a5d24d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209052"
 ---
 # <a name="disabling-bam-tracking"></a><span data-ttu-id="35b4c-102">Deshabilitar el seguimiento de BAM</span><span class="sxs-lookup"><span data-stu-id="35b4c-102">Disabling BAM Tracking</span></span>
 <span data-ttu-id="35b4c-103">De forma predeterminada, está habilitado el seguimiento de BAM para la conciliación de respuesta de FIN.</span><span class="sxs-lookup"><span data-stu-id="35b4c-103">By default, BAM tracking is enabled for FIN Response Reconciliation.</span></span> <span data-ttu-id="35b4c-104">Puede deshabilitar como sigue.</span><span class="sxs-lookup"><span data-stu-id="35b4c-104">You can disable it as follows.</span></span>  

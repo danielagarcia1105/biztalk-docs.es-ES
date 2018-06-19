@@ -1,17 +1,17 @@
 ---
-title: "Crear y configurar la solución de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: Crear y configurar la solución de Contoso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating solutions
 - double action tutorial, configuring solutions
 ms.assetid: 25370624-b27f-4f6c-a813-801ac4f81b8f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209740"
 ---
 # <a name="creating-and-configuring-the-contoso-solution"></a><span data-ttu-id="ed73d-102">Crear y configurar la solución de Contoso</span><span class="sxs-lookup"><span data-stu-id="ed73d-102">Creating and Configuring the Contoso Solution</span></span>
 <span data-ttu-id="ed73d-103">En esta sección del tutorial se detalla los pasos que debe seguir para la organización de Contoso.</span><span class="sxs-lookup"><span data-stu-id="ed73d-103">This section of the tutorial details the steps that you have to follow for the Contoso organization.</span></span> <span data-ttu-id="ed73d-104">La organización Contoso representa el fabricante y, por tanto, actúa como el servicio de respuesta para todas las solicitudes entrantes de proceso de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="ed73d-104">The Contoso organization represents the manufacturer and therefore acts as the Responder to all incoming Partner Interface Process (PIP) requests.</span></span> <span data-ttu-id="ed73d-105">En este tutorial, crear acuerdos de socios para cuatro PIP y compilan e implementar una orquestación para enviar una respuesta adecuada según el tipo PIP.</span><span class="sxs-lookup"><span data-stu-id="ed73d-105">In this tutorial, you create partner agreements for four PIPs and build and deploy an orchestration to send an appropriate response based on the PIP type.</span></span>  

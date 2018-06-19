@@ -1,14 +1,14 @@
 ---
 title: Instalar el adaptador de Microsoft BizTalk para SQL Server - 2016 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bcc6b94e-1cac-4b90-8567-05b33caa9bf3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967914"
 ---
 # <a name="install-microsoft-biztalk-adapter-for-sql-server---2016"></a><span data-ttu-id="da72d-102">Instalar al adaptador de Microsoft BizTalk para SQL Server - 2016</span><span class="sxs-lookup"><span data-stu-id="da72d-102">Install Microsoft BizTalk Adapter for SQL Server - 2016</span></span>
 <span data-ttu-id="da72d-103">Instalar el [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] incluido con [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)].</span><span class="sxs-lookup"><span data-stu-id="da72d-103">Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included with [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)].</span></span>

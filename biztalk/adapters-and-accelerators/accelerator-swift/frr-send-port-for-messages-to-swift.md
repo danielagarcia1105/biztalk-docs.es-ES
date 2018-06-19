@@ -1,17 +1,17 @@
 ---
-title: "Puerto de envío FRR mensajes SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Puerto de envío FRR mensajes SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, send ports
 - send ports, FRR
 ms.assetid: 905c69a3-dff3-4a60-803d-dd617ffb6896
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209364"
 ---
 # <a name="frr-send-port-for-messages-to-swift"></a><span data-ttu-id="106e7-102">Puerto de envío FRR mensajes SWIFT</span><span class="sxs-lookup"><span data-stu-id="106e7-102">FRR Send Port for Messages to SWIFT</span></span>
 <span data-ttu-id="106e7-103">Para habilitar la conciliación de respuesta FIN (FRR), debe configurar un puerto de envío FRR que envía un mensaje a AAS a través del adaptador de BizTalk para MQSeries.</span><span class="sxs-lookup"><span data-stu-id="106e7-103">To enable FIN response reconciliation (FRR), you must set up an FRR send port that sends a message to SAA through the BizTalk Adapter for MQSeries.</span></span> <span data-ttu-id="106e7-104">Este rutas de puerto de envío un mensaje a través de un FRR personalizado componente de canalización que debe crear con los siguientes componentes de canalización de envío:</span><span class="sxs-lookup"><span data-stu-id="106e7-104">This send port routes a message through a custom FRR send pipeline component that you must create with the following pipeline components:</span></span>  

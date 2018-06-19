@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para operaciones compuestas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d80c023b-1912-43d4-be29-eb9e1b323593
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222516"
 ---
 # <a name="message-schemas-for-composite-operations"></a><span data-ttu-id="8ee16-102">Esquemas de mensaje para operaciones compuestas</span><span class="sxs-lookup"><span data-stu-id="8ee16-102">Message Schemas for Composite Operations</span></span>
 <span data-ttu-id="8ee16-103">El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] permite ejecutar operaciones compuestas en la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="8ee16-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables you to execute composite operations on the SQL Server database.</span></span> <span data-ttu-id="8ee16-104">Una operación compuesta puede contener varias operaciones, incluida la inserción, actualización y eliminar operaciones en las tablas y vistas y las operaciones en los procedimientos almacenados.</span><span class="sxs-lookup"><span data-stu-id="8ee16-104">A composite operation can contain multiple operations including the Insert, Update, and Delete operations on the tables and views, and operations on stored procedures.</span></span> <span data-ttu-id="8ee16-105">Una operación compuesta puede incluir estas operaciones en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="8ee16-105">A composite operation can include these operations in any order.</span></span>  

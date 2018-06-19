@@ -1,17 +1,17 @@
 ---
 title: Puertos para los servidores de procesamiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-01-07
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - servers, processing
 - ports, processing servers
 ms.assetid: 0207b68f-8769-4674-aadc-b3a67b6f210b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266604"
 ---
 # <a name="ports-for-the-processing-servers"></a><span data-ttu-id="11182-102">Puertos de los servidores de procesamiento</span><span class="sxs-lookup"><span data-stu-id="11182-102">Ports for the Processing Servers</span></span>
 <span data-ttu-id="11182-103">Para obtener información completa acerca de cómo proteger la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).</span><span class="sxs-lookup"><span data-stu-id="11182-103">For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

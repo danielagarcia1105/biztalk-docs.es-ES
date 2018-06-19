@@ -11,7 +11,7 @@ helpviewer_keywords:
 - authorization properties
 - non-repudiation, properties
 ms.assetid: e752b95b-9dae-4403-8f3e-3a0a50acd519
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22208180"
 ---
 # <a name="authorization-and-non-repudiation-properties"></a><span data-ttu-id="32e7b-102">Propiedades de autorización y sin repudio</span><span class="sxs-lookup"><span data-stu-id="32e7b-102">Authorization and Non-Repudiation Properties</span></span>
 <span data-ttu-id="32e7b-103">Este tema describe el comportamiento de las propiedades `Is Authorization Required`, `Non-Repudiation of Origin and Content`, y `Non-Repudiation Required (Acknowledgement of Receipt)` de los procesos de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="32e7b-103">This topic describes the behavior of the `Is Authorization Required`, `Non-Repudiation of Origin and Content`, and `Non-Repudiation Required (Acknowledgement of Receipt)` properties of Partner Interface Processes (PIPs).</span></span> <span data-ttu-id="32e7b-104">También se describen las combinaciones de estas propiedades que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] admite.</span><span class="sxs-lookup"><span data-stu-id="32e7b-104">It also describes the combinations of these properties that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] supports.</span></span>  

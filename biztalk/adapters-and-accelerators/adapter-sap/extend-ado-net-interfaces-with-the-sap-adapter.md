@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217188"
 ---
 # <a name="extend-adonet-interfaces-with-the-sap-adapter"></a><span data-ttu-id="5cb44-102">Extender Interfaces de ADO.NET con el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="5cb44-102">Extend ADO.NET Interfaces with the SAP adapter</span></span>
 <span data-ttu-id="5cb44-103">El [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) extiende diversas interfaces ADO.NET.</span><span class="sxs-lookup"><span data-stu-id="5cb44-103">The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) extends various ADO.NET interfaces.</span></span> <span data-ttu-id="5cb44-104">Los clientes ADO.NET pueden utilizar para interactuar con el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="5cb44-104">The ADO.NET clients can use these to interface with the SAP system.</span></span> <span data-ttu-id="5cb44-105">En esta sección se proporciona más información acerca de estas interfaces.</span><span class="sxs-lookup"><span data-stu-id="5cb44-105">This section provides more information about these interfaces.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Acerca de las propiedades de contexto de mensaje de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc700e43-a44c-482b-b91c-9f1d997a486a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225500"
 ---
 # <a name="about-biztalk-message-context-properties"></a><span data-ttu-id="75ce0-102">Propiedades de contexto de mensaje de BizTalk</span><span class="sxs-lookup"><span data-stu-id="75ce0-102">About BizTalk Message Context Properties</span></span>
 <span data-ttu-id="75ce0-103">Cuando un adaptador de BizTalk Server recibe un documento, crea un mensaje de BizTalk para el documento.</span><span class="sxs-lookup"><span data-stu-id="75ce0-103">When a document is received by a BizTalk Server adapter, the adapter creates a BizTalk message for the document.</span></span> <span data-ttu-id="75ce0-104">El mensaje de BizTalk contiene el documento recibido y un contexto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="75ce0-104">The BizTalk message contains the document that was received as well as a message context.</span></span> <span data-ttu-id="75ce0-105">El contexto de mensaje es un contenedor de varios proyectos que utiliza BizTalk Server al procesar el documento.</span><span class="sxs-lookup"><span data-stu-id="75ce0-105">The message context is a container for various properties that are used by BizTalk Server when processing the document.</span></span> <span data-ttu-id="75ce0-106">Cada propiedad del contexto de mensaje se compone de tres elementos: un nombre, un espacio de nombres y un valor.</span><span class="sxs-lookup"><span data-stu-id="75ce0-106">Each property in the Message Context is composed of three things, a name, a namespace, and a value.</span></span> <span data-ttu-id="75ce0-107">Por ejemplo, la siguiente propiedad de contexto de mensaje describe el Id. de intercambio de un documento:</span><span class="sxs-lookup"><span data-stu-id="75ce0-107">For example, the following message context property describes the Interchange ID for a document:</span></span>  

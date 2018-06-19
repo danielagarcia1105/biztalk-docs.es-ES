@@ -1,14 +1,14 @@
 ---
 title: AutoGenerateCorrelationToken | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a24357c9-34e5-4caa-b41c-19551cfe81f9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230260"
 ---
 # <a name="autogeneratecorrelationtoken"></a><span data-ttu-id="b8a9f-102">AutoGenerateCorrelationToken (operación)</span><span class="sxs-lookup"><span data-stu-id="b8a9f-102">AutoGenerateCorrelationToken</span></span>
 <span data-ttu-id="b8a9f-103">Genera automáticamente un token de correlación y lo coloca en la pila.</span><span class="sxs-lookup"><span data-stu-id="b8a9f-103">Automatically generates a correlation token and places it onto the stack.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Nodos actividad y ActivityID | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ActivityID nodes [Tracking Profile Editor]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, node descriptions
 - activities [BAM], definitions
 ms.assetid: 94d4130a-53c5-4cd5-916a-4a6bd9acbf23
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224676"
 ---
 # <a name="activity-and-activityid-nodes"></a><span data-ttu-id="7013a-102">Nodos Actividad y ActivityID</span><span class="sxs-lookup"><span data-stu-id="7013a-102">Activity and ActivityID Nodes</span></span>
 <span data-ttu-id="7013a-103">Los nodos Actividad y ActivityID se utilizan para contener e identificar una definición de actividad.</span><span class="sxs-lookup"><span data-stu-id="7013a-103">Activity and ActivityID nodes are used to contain and identify an activity definition.</span></span> <span data-ttu-id="7013a-104">El nodo Actividad es la carpeta principal de los elementos en la definición de actividad.</span><span class="sxs-lookup"><span data-stu-id="7013a-104">The Activity node is the parent folder for the items in the activity definition.</span></span> <span data-ttu-id="7013a-105">Todos los nodos de elementos de datos y eventos empresariales se subordinan al nodo de actividad asociado, y están contenidos en éste.</span><span class="sxs-lookup"><span data-stu-id="7013a-105">All data items and business event nodes are subordinate to and contained within the associated activity node.</span></span> <span data-ttu-id="7013a-106">El nombre del nodo Actividad debería reflejar el nombre de la propia actividad.</span><span class="sxs-lookup"><span data-stu-id="7013a-106">The name of the Activity node should reflect the name of the activity itself.</span></span>  

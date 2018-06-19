@@ -1,11 +1,11 @@
 ---
-title: "Segura de programación con el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Segura de programación con el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - credentials
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - credentials, protecting
 - security
 ms.assetid: 06213c14-42b8-4d4a-b238-0aedbc27ab6a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215060"
 ---
 # <a name="secure-programming-with-the-oracle-database-adapter"></a><span data-ttu-id="a87e2-102">Programación segura con el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="a87e2-102">Secure programming with the Oracle Database adapter</span></span>
 ## <a name="how-do-i-protect-credentials-when-i-use-the-add-adapter-service-reference-visual-studio-plug-in"></a><span data-ttu-id="a87e2-103">¿Cómo proteger las credenciales cuando utilizo el agregar adaptador servicio referencia complemento de Visual Studio?</span><span class="sxs-lookup"><span data-stu-id="a87e2-103">How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?</span></span>  

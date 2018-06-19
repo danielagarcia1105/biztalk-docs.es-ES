@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961546"
 ---
 # <a name="message-schemas-for-the-sqlexecute-operation"></a><span data-ttu-id="9e7fb-102">Esquemas de mensaje para la operación SQLEXECUTE</span><span class="sxs-lookup"><span data-stu-id="9e7fb-102">Message Schemas for the SQLEXECUTE Operation</span></span>
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]<span data-ttu-id="9e7fb-103">expone metadatos fuertemente tipada de artefactos presentes en el sistema LOB y expone las operaciones estándares de estos artefactos.</span><span class="sxs-lookup"><span data-stu-id="9e7fb-103"> surfaces strongly-typed metadata for artifacts present in the LOB system and exposes standard operations on these artifacts.</span></span> <span data-ttu-id="9e7fb-104">Sin embargo, hay escenarios donde una aplicación puede requerir la ejecución de una instrucción SQL arbitraria que se controla mediante la lógica de negocios en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="9e7fb-104">However, there are scenarios where an application might require the execution of an arbitrary SQL statement that is driven by the business logic in the application.</span></span> <span data-ttu-id="9e7fb-105">Por ejemplo, puede:</span><span class="sxs-lookup"><span data-stu-id="9e7fb-105">For example, you may want to:</span></span>  

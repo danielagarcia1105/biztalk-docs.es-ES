@@ -1,17 +1,17 @@
 ---
 title: Esquemas de mensajes para operaciones de RFC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RFC operations, message structure for
 - RFC operations, message actions for
 ms.assetid: 50cd9b28-2e66-4c76-9d19-f0da6e7b8e10
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217308"
 ---
 # <a name="message-schemas-for-rfc-operations"></a><span data-ttu-id="e0c5a-102">Esquemas de mensaje para las operaciones de RFC</span><span class="sxs-lookup"><span data-stu-id="e0c5a-102">Message Schemas for RFC Operations</span></span>
 <span data-ttu-id="e0c5a-103">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] superficies de llamadas de función remota (RFC) de SAP como operaciones.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces SAP Remote Function Calls (RFC) as operations.</span></span> <span data-ttu-id="e0c5a-104">Este tema contiene información sobre los esquemas de mensaje y acciones de mensaje que se usan para las operaciones de RFC.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-104">This topic contains information about the message schemas and message actions used for RFC operations.</span></span> <span data-ttu-id="e0c5a-105">La estructura del mensaje es el mismo para las operaciones de RFC entrantes y salientes.</span><span class="sxs-lookup"><span data-stu-id="e0c5a-105">The message structure is the same for inbound and outbound RFC operations.</span></span> <span data-ttu-id="e0c5a-106">Para obtener información general de las operaciones de RFC que admite el adaptador, vea [operaciones en RFC en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="e0c5a-106">For an overview of the RFC operations that the adapter supports, see [Operations on RFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).</span></span>  

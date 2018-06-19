@@ -1,17 +1,17 @@
 ---
-title: "Lección 3: Agregar una canalización de recepción personalizada | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 3: Agregar una canalización de recepción personalizada | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating custom pipelines
 - custom pipelines
 ms.assetid: 1917b8e2-4f1c-4c20-abe4-ea18a406eeeb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210012"
 ---
 # <a name="lesson-3-adding-a-custom-receive-pipeline"></a><span data-ttu-id="607a1-102">Lección 3: Agregar una canalización de recepción personalizada</span><span class="sxs-lookup"><span data-stu-id="607a1-102">Lesson 3: Adding a Custom Receive Pipeline</span></span>
 <span data-ttu-id="607a1-103">En esta lección, creará una canalización de recepción personalizada usando el Diseñador de canalizaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="607a1-103">In this lesson you create a custom receive pipeline using BizTalk Pipeline Designer.</span></span> <span data-ttu-id="607a1-104">Una canalización de recepción personalizada es una canalización que se ejecuta en los mensajes después de que el adaptador recibe los mensajes, pero antes [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] publica en la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="607a1-104">A custom receive pipeline is a pipeline that is run on messages after the adapter receives the messages, but before [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] publishes them to the MessageBox database.</span></span>  

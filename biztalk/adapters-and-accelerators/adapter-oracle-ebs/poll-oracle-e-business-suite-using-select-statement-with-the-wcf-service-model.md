@@ -1,14 +1,14 @@
 ---
-title: "Sondeo Oracle E-Business Suite con la instrucción SELECT con el modelo de servicio WCF | Documentos de Microsoft"
-ms.custom: 
+title: Sondeo Oracle E-Business Suite con la instrucción SELECT con el modelo de servicio WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 521d58e4-73b1-48a8-9a0a-9e733386c1b5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218580"
 ---
 # <a name="poll-oracle-e-business-suite-using-select-statement-with-the-wcf-service-model"></a><span data-ttu-id="4cca0-102">Sondeo Oracle E-Business Suite con la instrucción SELECT con el modelo de servicio WCF</span><span class="sxs-lookup"><span data-stu-id="4cca0-102">Poll Oracle E-Business Suite using SELECT statement with the WCF service model</span></span>
 <span data-ttu-id="4cca0-103">Puede configurar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir mensajes de cambio de datos periódicos utilizando una instrucción SELECT para las tablas de interfaz un sondeo continuo, interfaz vistas, tablas y vistas de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="4cca0-103">You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the interface tables, interface views, tables and views in Oracle E-Business Suite.</span></span> <span data-ttu-id="4cca0-104">Puede especificar una instrucción SELECT como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="4cca0-104">You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll Oracle E-Business Suite.</span></span> <span data-ttu-id="4cca0-105">También puede especificar un bloque de código de PL/SQL de sondeo posterior a la que el adaptador se ejecuta después de ejecutar la instrucción de sondeo.</span><span class="sxs-lookup"><span data-stu-id="4cca0-105">You can also specify a post-poll PL/SQL code block that the adapter executes after the polling statement is executed.</span></span>  

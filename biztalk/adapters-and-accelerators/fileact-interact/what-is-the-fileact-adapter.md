@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es el adaptador de FileAct? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el adaptador de FileAct? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05ec8f1e-57f9-4e2d-ab8b-22b5c4b28055
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225324"
 ---
 # <a name="what-is-the-fileact-adapter"></a><span data-ttu-id="ded82-103">¿Qué es el adaptador de FileAct?</span><span class="sxs-lookup"><span data-stu-id="ded82-103">What Is the FileAct Adapter?</span></span>
 <span data-ttu-id="ded82-104">El adaptador de FileAct para SWIFTNet proporciona conectividad entre BizTalk Server y la sociedad para red de IP de seguros de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo (SIPN) para la transferencia de archivos.</span><span class="sxs-lookup"><span data-stu-id="ded82-104">The FileAct adapter for SWIFTNet provides connectivity between BizTalk Server and the Society for Worldwide Interbank Financial Telecommunication (SWIFT) Secure IP Network (SIPN) for the transfer of files.</span></span> <span data-ttu-id="ded82-105">La SIPN transfiere archivos y mensajes a través de una red privada segura que conecta las instituciones financieras, infraestructuras de sector financiero y los clientes.</span><span class="sxs-lookup"><span data-stu-id="ded82-105">The SIPN transfers messages and files over a secure private network which connects financial institutions, financial industry infrastructures, and customers.</span></span> <span data-ttu-id="ded82-106">El adaptador de FileAct utiliza la interfaz de programación de aplicaciones (API) s para conectarse a la SIPN SWIFTNet vínculo (SNL).</span><span class="sxs-lookup"><span data-stu-id="ded82-106">The FileAct adapter uses the SWIFTNet Link (SNL) application programming interface (API)s to connect to the SIPN.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="ded82-138">**Sin rechazo de recepción y de emisión.**</span><span class="sxs-lookup"><span data-stu-id="ded82-138">**Non-repudiation of emission and reception.**</span></span> <span data-ttu-id="ded82-139">En caso de conflicto, permite SWIFT confirmar que la transferencia de archivos tuvo lugar como reclamado.</span><span class="sxs-lookup"><span data-stu-id="ded82-139">In case of dispute, allows SWIFT to confirm that the file transfer did take place as claimed.</span></span>  
   
- <span data-ttu-id="ded82-140">Las características de SWIFTNet FileAct estándares incluyen seguridad SWIFTNet PKI**.**</span><span class="sxs-lookup"><span data-stu-id="ded82-140">The standard SWIFTNet FileAct features include SWIFTNet PKI security**.**</span></span> <span data-ttu-id="ded82-141">SWIFTNet FileAct se protege con SWIFTNet PKI y ofrece control de integridad y autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ded82-141">SWIFTNet FileAct is secured with SWIFTNet PKI and offers message authentication and integrity control.</span></span>  
+ <span data-ttu-id="ded82-140">Las características de SWIFTNet FileAct estándares incluyen seguridad SWIFTNet PKI **.**</span><span class="sxs-lookup"><span data-stu-id="ded82-140">The standard SWIFTNet FileAct features include SWIFTNet PKI security **.**</span></span> <span data-ttu-id="ded82-141">SWIFTNet FileAct se protege con SWIFTNet PKI y ofrece control de integridad y autenticación de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ded82-141">SWIFTNet FileAct is secured with SWIFTNet PKI and offers message authentication and integrity control.</span></span>  
   
  <span data-ttu-id="ded82-142">Todos los mensajes y archivos intercambiados en SWIFTNet debe someterse a un conjunto común de comprobaciones para asegurarse de que ningún usuario puede omitir la seguridad, validación y las reglas de enrutamiento de la plataforma.</span><span class="sxs-lookup"><span data-stu-id="ded82-142">All messages and files exchanged on SWIFTNet undergo a common set of checks to ensure that no user can bypass the security, validation and routing rules of the platform.</span></span> <span data-ttu-id="ded82-143">Estas comprobaciones se realizan mediante la aplicación de puerta de enlace de SWIFTAlliance (SAG).</span><span class="sxs-lookup"><span data-stu-id="ded82-143">These checks are performed by the SWIFTAlliance Gateway (SAG) application.</span></span>  
   

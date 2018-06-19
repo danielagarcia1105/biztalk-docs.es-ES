@@ -1,14 +1,14 @@
 ---
 title: Ejemplo de GetMessages | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29e575fa-d68b-4975-84b8-da4f17bd2db3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210740"
 ---
 # <a name="getmessages-sample"></a><span data-ttu-id="a87c3-102">Ejemplo de GetMessages</span><span class="sxs-lookup"><span data-stu-id="a87c3-102">GetMessages Sample</span></span>
 <span data-ttu-id="a87c3-103">En este tema se proporciona código de ejemplo que puede utilizar para recuperar mensajes de una de las tablas sin repudio de mensajes o una de las tablas de línea de negocio (LOB) en un formato legible.</span><span class="sxs-lookup"><span data-stu-id="a87c3-103">This topic provides sample code that you can use to retrieve messages from one of the message non-repudiation tables or one of the line-of-business (LOB) tables in a readable form.</span></span> <span data-ttu-id="a87c3-104">Las tablas sin repudio de mensajes incluyen MessageStorageIn y MessageStorageOut de la [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]base de datos de archivo; las tablas LOB incluyen MessageFromLOB y MessageToLOB en el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]base de datos.</span><span class="sxs-lookup"><span data-stu-id="a87c3-104">The message non-repudiation tables include MessageStorageIn and MessageStorageOut in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]Archive database; the LOB tables include MessageFromLOB and MessageToLOB in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]DATA database.</span></span>  

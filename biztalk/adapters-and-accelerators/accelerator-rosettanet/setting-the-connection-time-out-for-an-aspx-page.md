@@ -1,17 +1,17 @@
 ---
-title: "Establecer el tiempo de espera de conexión para una página ASPX | Documentos de Microsoft"
-ms.custom: 
+title: Establecer el tiempo de espera de conexión para una página ASPX | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ASPX pages, connection time-out
 - connections, time-out
 ms.assetid: 61d9c996-caf4-48bd-bda7-52f2797a941b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207196"
 ---
 # <a name="setting-the-connection-time-out-for-an-aspx-page"></a><span data-ttu-id="27278-102">Establecer el tiempo de espera de conexión para una página ASPX</span><span class="sxs-lookup"><span data-stu-id="27278-102">Setting the Connection Time-Out for an ASPX Page</span></span>
 <span data-ttu-id="27278-103">Cuando se usa una página ASPX para mensajes sincrónicos, debe aumentar el tiempo de espera de conexión de la página ASPX, por lo que puede esperar a que el mensaje esperado.</span><span class="sxs-lookup"><span data-stu-id="27278-103">When you use an ASPX page for synchronous messages, you must increase the connection time-out for the ASPX page so that it can wait for the expected message.</span></span>  

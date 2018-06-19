@@ -1,18 +1,18 @@
 ---
 title: Administrar bases de datos de cuadro de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [MessageBox database], about managing MessageBox database
 - managing [MessageBox database]
 - MessageBox database, managing
 ms.assetid: 9675b5d5-7a69-468d-be42-34a72cd6e5c2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262148"
 ---
 # <a name="managing-messagebox-databases"></a><span data-ttu-id="1c74d-102">Administrar bases de datos de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="1c74d-102">Managing MessageBox Databases</span></span>
 <span data-ttu-id="1c74d-103">La base de datos de cuadro de mensajes tiene tres funciones básicas.</span><span class="sxs-lookup"><span data-stu-id="1c74d-103">The MessageBox database has three essential functions.</span></span> <span data-ttu-id="1c74d-104">Almacena suscripciones e información de seguimiento, y entrega los mensajes a los servicios que coinciden con las suscripciones.</span><span class="sxs-lookup"><span data-stu-id="1c74d-104">It stores subscriptions and tracking information and it delivers the messages to the services that match the subscriptions.</span></span> <span data-ttu-id="1c74d-105">La base de datos de cuadro de mensajes es una plataforma de host que almacena las colas y tablas de estado de cada host de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="1c74d-105">The MessageBox database is a host platform that stores the queues and state tables for each BizTalk Host.</span></span> <span data-ttu-id="1c74d-106">La base de datos de cuadro de mensajes almacena también mensajes y propiedades.</span><span class="sxs-lookup"><span data-stu-id="1c74d-106">The MessageBox database also stores messages and message properties.</span></span>  

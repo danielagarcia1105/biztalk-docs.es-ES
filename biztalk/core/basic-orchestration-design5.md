@@ -1,17 +1,17 @@
 ---
-title: "Orquestación básica Design5 | Documentos de Microsoft"
-ms.custom: 
+title: Orquestación básica Design5 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, design
 - exception handling, orchestration design
 ms.assetid: 0941d617-e30c-4ca7-852f-193e16781ca7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230852"
 ---
 # <a name="basic-orchestration-design"></a><span data-ttu-id="50f25-102">Diseño de orquestación básica</span><span class="sxs-lookup"><span data-stu-id="50f25-102">Basic Orchestration Design</span></span>
 <span data-ttu-id="50f25-103">Cuando crea una orquestación básica en el adaptador de BizTalk para PeopleSoft Enterprise, recibe un XML en el puerto de recepción de su orquestación.</span><span class="sxs-lookup"><span data-stu-id="50f25-103">When you create a basic orchestration in BizTalk Adapter for PeopleSoft Enterprise, you receive XML into the receive port of your orchestration.</span></span> <span data-ttu-id="50f25-104">El código XML, a continuación, se envía al sistema back-end para procesarse.</span><span class="sxs-lookup"><span data-stu-id="50f25-104">The XML is then sent to the back-end system to be processed.</span></span> <span data-ttu-id="50f25-105">En el sistema back-end, podría producirse una excepción que detiene la orquestación y genere un error.</span><span class="sxs-lookup"><span data-stu-id="50f25-105">In the back-end system, an exception might occur that would stop the orchestration and generate a fault.</span></span> <span data-ttu-id="50f25-106">El error que se produce proporciona información de que no se ha completado la orquestación.</span><span class="sxs-lookup"><span data-stu-id="50f25-106">The fault that is produced provides information that the orchestration was not completed.</span></span> <span data-ttu-id="50f25-107">Esto no es de gran utilidad en la depuración de la causa del error.</span><span class="sxs-lookup"><span data-stu-id="50f25-107">This is not helpful in debugging the cause of the error.</span></span>  

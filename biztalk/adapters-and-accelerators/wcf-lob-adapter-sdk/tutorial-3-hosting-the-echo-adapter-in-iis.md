@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial 3: Aloja el adaptador de eco en IIS | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3044cdea-e9b2-4cc2-b66e-799da1dfc07e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225188"
 ---
 # <a name="tutorial-3-hosting-the-echo-adapter-in-iis"></a><span data-ttu-id="7f336-102">Tutorial 3: Aloja el adaptador de eco en IIS</span><span class="sxs-lookup"><span data-stu-id="7f336-102">Tutorial 3: Hosting the Echo Adapter in IIS</span></span>
 <span data-ttu-id="7f336-103">Este tutorial proporciona instrucciones paso a paso para hospedar el adaptador de eco desarrollado en [Tutorial 1: desarrollar el adaptador de eco](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="7f336-103">This tutorial provides step-by-step instructions for hosting the Echo Adapter developed in [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).</span></span> <span data-ttu-id="7f336-104">Más específicamente, los pasos explica cómo puede hospedar el adaptador en Internet Information Services (IIS) mediante el [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="7f336-104">More specifically, the steps show how you can host the adapter in Internet Information Services (IIS) by using the [!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)].</span></span> <span data-ttu-id="7f336-105">Se usan también la característica de catálogo de datos profesionales en SharePoint para llamar a la operación de EchoGreetings del adaptador hospedado en IIS y, a continuación, mostrar los resultados en un elemento Web.</span><span class="sxs-lookup"><span data-stu-id="7f336-105">You will also use the Business Data Catalog feature in SharePoint to call the EchoGreetings operation of the IIS-hosted adapter, and then display the results in a Web Part.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Esquemas de mensajes para el sondeo Operations2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - POLLINGSTMT operation, message actions for
 - POLLINGSTMT operation, message structure for
 ms.assetid: b82edcc2-9437-4c7b-ba2b-7b966fff3f15
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214604"
 ---
 # <a name="message-schemas-for-the-polling-operations"></a><span data-ttu-id="fc5db-102">Esquemas de mensaje para las operaciones de sondeo</span><span class="sxs-lookup"><span data-stu-id="fc5db-102">Message Schemas for the Polling Operations</span></span>
 <span data-ttu-id="fc5db-103">La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone varias operaciones de entrada relacionadas para sondeo según el objeto de destino en la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="fc5db-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces various inbound operations related to polling depending on the target object on the Oracle database.</span></span> <span data-ttu-id="fc5db-104">Para sondear las tablas y vistas, aparece una sola operación POLLINGSTMT mientras que cada procedimiento almacenado, las funciones y empaquetados procedimientos y funciones se exponen como operaciones de entrada para el sondeo.</span><span class="sxs-lookup"><span data-stu-id="fc5db-104">To poll tables and views, a single POLLINGSTMT operation is surfaced whereas each stored procedure, functions, and packaged procedures and functions are exposed as inbound operations for polling.</span></span>  

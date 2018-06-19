@@ -1,11 +1,11 @@
 ---
 title: Esquemas SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT, SWIFT messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SWIFT messages, SWIFT schemas
 - SWIFT, schemas
 ms.assetid: 53017a56-a718-4577-a08c-9c92d9a54e7a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214924"
 ---
 # <a name="swift-schemas"></a><span data-ttu-id="31a66-102">Esquemas SWIFT</span><span class="sxs-lookup"><span data-stu-id="31a66-102">SWIFT Schemas</span></span>
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]<span data-ttu-id="31a66-103">envía y recibe mensajes de (FIN) de financieros SWIFT distintos archivos planos a través de la red SWIFT.</span><span class="sxs-lookup"><span data-stu-id="31a66-103"> sends and receives SWIFT financial (FIN) messages as individual flat files over the SWIFT network.</span></span> <span data-ttu-id="31a66-104">Cada mensaje individual se compone de un conjunto de bloques de encabezado, un bloque de texto que se compone de un conjunto predefinido de etiquetado campos y subcampos ordenados o posicionales y un conjunto de finalizadores dentro de un bloque de finalizador.</span><span class="sxs-lookup"><span data-stu-id="31a66-104">Each individual message consists of a set of header blocks, a text block made up of a predefined set of labeled fields and positional or ordered subfields, and a set of trailers inside a trailer block.</span></span> <span data-ttu-id="31a66-105">El contenido del bloque de texto varía según el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="31a66-105">The content of the text block varies by message type.</span></span>  

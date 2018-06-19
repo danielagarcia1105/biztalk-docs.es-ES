@@ -1,14 +1,14 @@
 ---
-title: "Interfaces de adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces de adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00bbe185-6a21-41e8-be1d-c3f0c1a96bde
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257564"
 ---
 # <a name="interfaces-for-receive-adapters"></a><span data-ttu-id="baaeb-102">Interfaces de adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="baaeb-102">Interfaces for Receive Adapters</span></span>
 <span data-ttu-id="baaeb-103">Esta sección describe las interfaces necesarias para llevar a cabo la implementación de un adaptador de recepción.</span><span class="sxs-lookup"><span data-stu-id="baaeb-103">This section describes the interfaces you need to implement when you develop a receive adapter.</span></span>  

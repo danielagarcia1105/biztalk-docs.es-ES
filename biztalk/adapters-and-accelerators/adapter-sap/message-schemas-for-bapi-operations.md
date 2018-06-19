@@ -1,18 +1,18 @@
 ---
 title: Esquemas de mensajes para operaciones de BAPI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAPI operations, message schemas for
 - BAPI operations, message structure for
 - BAPI operations, message actions for
 ms.assetid: ef4d88e8-f31a-4b68-a303-6885b6f8c083
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217452"
 ---
 # <a name="message-schemas-for-bapi-operations"></a><span data-ttu-id="2bf02-102">Esquemas de mensaje para las operaciones de BAPI</span><span class="sxs-lookup"><span data-stu-id="2bf02-102">Message Schemas for BAPI Operations</span></span>
 <span data-ttu-id="2bf02-103">Las secciones siguientes describen los esquemas de mensaje y acciones de mensaje que se usan para invocar BAPI en el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] como métodos de objetos comerciales.</span><span class="sxs-lookup"><span data-stu-id="2bf02-103">The following sections describe the message schemas and message actions used to invoke BAPIs on the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as methods of business objects.</span></span> <span data-ttu-id="2bf02-104">También puede invocar BAPI como operaciones de RFC en el adaptador.</span><span class="sxs-lookup"><span data-stu-id="2bf02-104">You can also invoke BAPIs as RFC operations on the adapter.</span></span> <span data-ttu-id="2bf02-105">Para obtener más información acerca de los mensajes que se utiliza para invocar las solicitudes de cambio, consulte [esquemas de mensaje para las operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md).</span><span class="sxs-lookup"><span data-stu-id="2bf02-105">For more information about the messages used to invoke RFCs, see [Message Schemas for RFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md).</span></span> <span data-ttu-id="2bf02-106">Independientemente de cómo invocar una BAPI en el adaptador, el adaptador, siempre invoca la BAPI como una solicitud de cambio en el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="2bf02-106">Regardless of how you invoke a BAPI on the adapter, the adapter always invokes the BAPI as an RFC on the SAP system.</span></span> <span data-ttu-id="2bf02-107">Para obtener información general del uso del [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite BAPI, consulte [operaciones de BAPI en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="2bf02-107">For an overview of how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports BAPIs, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).</span></span>  

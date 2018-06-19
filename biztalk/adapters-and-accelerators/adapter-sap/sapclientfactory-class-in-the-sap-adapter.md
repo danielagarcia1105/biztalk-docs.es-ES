@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217636"
 ---
 # <a name="sapclientfactory-class-in-the-sap-adapter"></a><span data-ttu-id="67bfd-102">Clase SAPClientFactory en el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="67bfd-102">SAPClientFactory class in the SAP adapter</span></span>
 <span data-ttu-id="67bfd-103">En la siguiente sección se enumera los métodos y propiedades para la **SAPClientFactory** clase.</span><span class="sxs-lookup"><span data-stu-id="67bfd-103">The following section lists the methods and properties for the **SAPClientFactory** class.</span></span> <span data-ttu-id="67bfd-104">Esto se deriva de **System.Data.Common.DbProviderFactory**.</span><span class="sxs-lookup"><span data-stu-id="67bfd-104">This is derived from **System.Data.Common.DbProviderFactory**.</span></span>  

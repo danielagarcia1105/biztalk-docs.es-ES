@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279388"
 ---
 # <a name="transporttype-primarytransport-node"></a><span data-ttu-id="cea8c-102">TransportType (nodo PrimaryTransport)</span><span class="sxs-lookup"><span data-stu-id="cea8c-102">TransportType (PrimaryTransport Node)</span></span>
 <span data-ttu-id="cea8c-103">El nodo TransportType del nodo PrimaryTransport de un archivo de enlace contiene información específica acerca del adaptador asociado a un transporte que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="cea8c-103">The TransportType node of the PrimaryTransport node of a binding file contains specific information about the adapter associated with a transport that is exported with the binding file.</span></span>  

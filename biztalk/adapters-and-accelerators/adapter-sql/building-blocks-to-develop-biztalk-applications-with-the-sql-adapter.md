@@ -1,14 +1,14 @@
 ---
-title: "Bloques de creación para desarrollar aplicaciones de BizTalk con el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para desarrollar aplicaciones de BizTalk con el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fac7cbf4-b111-43ad-8726-36d037918c9c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223612"
 ---
 # <a name="building-blocks-to-develop-biztalk-applications-with-the-sql-adapter"></a><span data-ttu-id="cd34c-102">Bloques de creación para desarrollar aplicaciones de BizTalk con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="cd34c-102">Building blocks to develop BizTalk applications with the SQL adapter</span></span>
 <span data-ttu-id="cd34c-103">Para realizar operaciones en SQL Server mediante el uso de la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración.</span><span class="sxs-lookup"><span data-stu-id="cd34c-103">To perform operations on SQL Server by using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="cd34c-104">Esta sección proporciona información general sobre estas tareas.</span><span class="sxs-lookup"><span data-stu-id="cd34c-104">This section provides an overview of these tasks.</span></span> <span data-ttu-id="cd34c-105">Todos los temas de esta sección, que muestran cómo realizar operaciones específicas en SQL Server mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.</span><span class="sxs-lookup"><span data-stu-id="cd34c-105">All the topics in this section, which demonstrate how to perform specific operations on SQL Server using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

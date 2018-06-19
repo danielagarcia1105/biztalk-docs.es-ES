@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para el compuesto Operation2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0164ea07-a373-430b-b569-3e29df1d081b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214068"
 ---
 # <a name="message-schemas-for-the-composite-operation"></a><span data-ttu-id="e85e9-102">Esquemas de mensaje para la operación de composición</span><span class="sxs-lookup"><span data-stu-id="e85e9-102">Message Schemas for the Composite Operation</span></span>
 <span data-ttu-id="e85e9-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] permite ejecutar operaciones compuestas en la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="e85e9-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables you to execute composite operations on the Oracle database.</span></span> <span data-ttu-id="e85e9-104">Una operación compuesta puede contener varias operaciones y en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="e85e9-104">A composite operation can contain multiple operations, and in any order.</span></span> <span data-ttu-id="e85e9-105">Para obtener información sobre qué operaciones pueden incluirse en una operación compuesta, consulte [ejecutar operaciones compuestas en base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/run-composite-operations-in-oracle-database.md).</span><span class="sxs-lookup"><span data-stu-id="e85e9-105">For information about which operations can be included in a composite operation, see [Run Composite Operations in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/run-composite-operations-in-oracle-database.md).</span></span>  

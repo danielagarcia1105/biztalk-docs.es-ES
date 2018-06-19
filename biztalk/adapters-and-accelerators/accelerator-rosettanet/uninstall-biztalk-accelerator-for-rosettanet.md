@@ -1,20 +1,21 @@
 ---
 title: Desinstalar el Acelerador de BizTalk RosettaNet (BTARN) en BizTalk Server | Documentos de Microsoft"
-description: "Anular la implementación de artefactos y quitar la configuración de BTARN para quitar el Acelerador de BizTalk Server"
+description: Anular la implementación de artefactos y quitar la configuración de BTARN para quitar el Acelerador de BizTalk Server
 author: MandiOhlinger
 manager: anneta
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.author: mandia
 ms.openlocfilehash: 8d289a3705eb0c127dc4d2637c2d6ffd3c122b36
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209844"
 ---
 # <a name="uninstall-the-rosettanet-accelerator"></a><span data-ttu-id="7018e-103">Desinstale el Acelerador para RosettaNet</span><span class="sxs-lookup"><span data-stu-id="7018e-103">Uninstall the RosettaNet accelerator</span></span>
 

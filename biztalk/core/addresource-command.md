@@ -1,14 +1,14 @@
 ---
 title: AddResource (comando) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b09bd8d-5e07-4443-b626-60401a158540
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964450"
 ---
 # <a name="addresource-command"></a><span data-ttu-id="686f5-102">AddResource (comando)</span><span class="sxs-lookup"><span data-stu-id="686f5-102">AddResource Command</span></span>
 <span data-ttu-id="686f5-103">Los temas de esta sección proporcionan información de referencia acerca de los parámetros del comando AddResource.</span><span class="sxs-lookup"><span data-stu-id="686f5-103">The topics in this section provide reference information about the parameters of the AddResource command.</span></span> <span data-ttu-id="686f5-104">Los parámetros que utilizan con este comando varían según el tipo de artefacto que se va a agregar.</span><span class="sxs-lookup"><span data-stu-id="686f5-104">The parameters that you use with this command vary according to the type of artifact that you want to add.</span></span> <span data-ttu-id="686f5-105">Para obtener una lista completa de tipos de artefactos, use la **ListTypes** de comandos, como se describe en [comando ListTypes](../core/listtypes-command.md).</span><span class="sxs-lookup"><span data-stu-id="686f5-105">To obtain complete lists of artifact types, use the **ListTypes** command, as described in [ListTypes Command](../core/listtypes-command.md).</span></span>  

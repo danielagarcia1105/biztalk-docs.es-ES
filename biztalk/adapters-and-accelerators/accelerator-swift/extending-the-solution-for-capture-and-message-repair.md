@@ -1,11 +1,11 @@
 ---
-title: "Ampliar la solución para la captura y reparación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Ampliar la solución para la captura y reparación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages, errors
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - repairing messages, code sample
 - ErrorCollection objects
 ms.assetid: 93f463a0-ecff-4f3e-a145-7c506f42c767
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209092"
 ---
 # <a name="extending-the-solution-for-capture-and-message-repair"></a><span data-ttu-id="af644-102">Ampliar la solución para la captura y reparación de mensajes</span><span class="sxs-lookup"><span data-stu-id="af644-102">Extending the Solution for Capture and Message Repair</span></span>
 <span data-ttu-id="af644-103">El Tutorial de extremo a extremo MT103 en esta Ayuda muestra cómo construir una orquestación de BizTalk que se suscribe a mensajes SWIFT con errores.</span><span class="sxs-lookup"><span data-stu-id="af644-103">The MT103 End-to-End Tutorial in this Help shows you how to construct a BizTalk orchestration that subscribes to failed SWIFT messages.</span></span>  

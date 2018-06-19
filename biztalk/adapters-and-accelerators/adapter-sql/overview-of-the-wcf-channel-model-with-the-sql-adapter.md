@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el modelo de canal WCF con el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de canal WCF con el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5e5f77c-c922-4039-92c7-38d2b7638459
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966026"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sql-adapter"></a><span data-ttu-id="c1706-102">Información general sobre el modelo de canal WCF con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="c1706-102">Overview of the WCF channel model with the SQL adapter</span></span>
 <span data-ttu-id="c1706-103">Para invocar operaciones en el [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador.</span><span class="sxs-lookup"><span data-stu-id="c1706-103">To invoke operations on the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], your code acts as a WCF client and sends outbound operations to the adapter.</span></span> <span data-ttu-id="c1706-104">En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.</span><span class="sxs-lookup"><span data-stu-id="c1706-104">In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="c1706-143">La acción de mensaje es una cadena que forma parte del encabezado del mensaje SOAP.</span><span class="sxs-lookup"><span data-stu-id="c1706-143">The message action is a string that is part of the SOAP message header.</span></span> <span data-ttu-id="c1706-144">La acción de mensaje identifica la operación que se debe invocar en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="c1706-144">The message action identifies the operation that should be invoked on the database.</span></span> <span data-ttu-id="c1706-145">La siguiente muestra la acción de mensaje especificada para invocar la operación Select en la tabla de empleados: `TableOp/Select/dbo/Employee`.</span><span class="sxs-lookup"><span data-stu-id="c1706-145">The following shows the message action specified to invoke the Select operation on the Employee table: `TableOp/Select/dbo/Employee`.</span></span>  
   
--   <span data-ttu-id="c1706-146">El cuerpo del mensaje contiene los datos del parámetro para la operación.</span><span class="sxs-lookup"><span data-stu-id="c1706-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="c1706-147">El cuerpo del mensaje se compone de XML con formato correcto que se corresponde con el esquema del mensaje esperado por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para la operación solicitada.</span><span class="sxs-lookup"><span data-stu-id="c1706-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation.</span></span> <span data-ttu-id="c1706-148">El siguiente cuerpo del mensaje especifica una operación Select en la tabla Employee (seleccione * FROM empleados WHERE id_empleado = 10001).</span><span class="sxs-lookup"><span data-stu-id="c1706-148">The following message body specifies a Select operation on the Employee table (SELECT * FROM Employee WHERE Employee_ID=10001).</span></span>  
+-   <span data-ttu-id="c1706-146">El cuerpo del mensaje contiene los datos del parámetro para la operación.</span><span class="sxs-lookup"><span data-stu-id="c1706-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="c1706-147">El cuerpo del mensaje se compone de XML con formato correcto que se corresponde con el esquema del mensaje esperado por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para la operación solicitada.</span><span class="sxs-lookup"><span data-stu-id="c1706-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation.</span></span> <span data-ttu-id="c1706-148">El siguiente cuerpo del mensaje especifica una operación Select en la tabla Employee (seleccione \* FROM empleados WHERE id_empleado = 10001).</span><span class="sxs-lookup"><span data-stu-id="c1706-148">The following message body specifies a Select operation on the Employee table (SELECT \* FROM Employee WHERE Employee_ID=10001).</span></span>  
   
     ```  
     <Select xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  

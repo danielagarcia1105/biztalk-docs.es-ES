@@ -1,18 +1,18 @@
 ---
 title: Clase SiebelConnection en el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for Siebel, SiebelConnection
 - SiebelConnection, supported properties and methods
 - SiebelConnection
 ms.assetid: 661d9876-4c14-4748-b05f-cc4fd1c4ebcf
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222340"
 ---
 # <a name="siebelconnection-class-in-the-siebel-adapter"></a><span data-ttu-id="094d3-102">Clase SiebelConnection en el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="094d3-102">SiebelConnection class in the Siebel adapter</span></span>
 <span data-ttu-id="094d3-103">El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] tiene acceso a subyacente [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] `Binding`, `ConnectionFactory`, y `Channel` para conectarse al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="094d3-103">The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] accesses the underlying [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]`Binding`, the `ConnectionFactory`, and `Channel` to connect to the Siebel system.</span></span> <span data-ttu-id="094d3-104">El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] implementa el `DbConnection` características de la clase para admitir los anteriores.</span><span class="sxs-lookup"><span data-stu-id="094d3-104">The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] implements the `DbConnection` class to support the preceding features.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: SWIFT remolque | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT Trailer schema
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: b6d64584-0514-4c87-98c0-33755efc4695
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214500"
 ---
 # <a name="swift-trailers"></a><span data-ttu-id="cca0f-102">Finalizadores SWIFT</span><span class="sxs-lookup"><span data-stu-id="cca0f-102">SWIFT Trailers</span></span>
 <span data-ttu-id="cca0f-103">Cada mensaje SWIFT tiene uno o más finalizadores según sea necesario por los requisitos de exchange y la seguridad del mensaje.</span><span class="sxs-lookup"><span data-stu-id="cca0f-103">Each SWIFT message has one or more trailers as required by the message exchange and security requirements.</span></span> <span data-ttu-id="cca0f-104">Finalizadores de sistema, si procede, siguen los finalizadores de usuario.</span><span class="sxs-lookup"><span data-stu-id="cca0f-104">System trailers, if applicable, follow user trailers.</span></span> <span data-ttu-id="cca0f-105">Cada finalizador dentro del bloque de finalizador aparece dentro de un subbloques delimitados por más pares de paréntesis.</span><span class="sxs-lookup"><span data-stu-id="cca0f-105">Each trailer within the Trailer Block appears within a subblock delimited by further pairs of curly brackets.</span></span> <span data-ttu-id="cca0f-106">Cada subbloques comienza con tres letras que indica el tipo de finalizador, seguido de dos puntos.</span><span class="sxs-lookup"><span data-stu-id="cca0f-106">Each subblock begins with three letters denoting the trailer type, followed by a colon.</span></span>  

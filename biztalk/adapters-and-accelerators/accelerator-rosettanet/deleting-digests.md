@@ -1,11 +1,11 @@
 ---
-title: "Eliminar resúmenes | Documentos de Microsoft"
-ms.custom: 
+title: Eliminar resúmenes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, digests
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - databases, deleting digests
 - maintaining databases, deleting digests
 ms.assetid: bcc7cb11-2f6a-4996-ad50-040d41993e09
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206748"
 ---
 # <a name="deleting-digests"></a><span data-ttu-id="91cb3-102">Eliminación de resúmenes</span><span class="sxs-lookup"><span data-stu-id="91cb3-102">Deleting Digests</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="91cb3-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] almacena resúmenes para los mensajes salientes, para que pueda validar el contenido de señal.</span><span class="sxs-lookup"><span data-stu-id="91cb3-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores digests for outgoing messages, so it can validate them against signal content.</span></span> <span data-ttu-id="91cb3-104">Sin embargo, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] no elimina los resúmenes de después de la validación.</span><span class="sxs-lookup"><span data-stu-id="91cb3-104">However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not delete the digests after validation.</span></span> <span data-ttu-id="91cb3-105">Periódicamente, puede que desee eliminar estos resúmenes para mantener el rendimiento del sistema.</span><span class="sxs-lookup"><span data-stu-id="91cb3-105">Periodically, you may want to delete these digests to maintain system performance.</span></span>  

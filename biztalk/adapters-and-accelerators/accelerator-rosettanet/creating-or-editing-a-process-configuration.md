@@ -1,11 +1,11 @@
 ---
-title: "Crear o editar una configuración de procesos | Documentos de Microsoft"
-ms.custom: 
+title: Crear o editar una configuración de procesos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process configuration, modifying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, process configuration
 - modifying, process configuration
 ms.assetid: 39cc2c93-0986-48d3-8c6f-4280ec9af4e0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207124"
 ---
 # <a name="creating-or-editing-a-process-configuration"></a><span data-ttu-id="0793e-102">Crear o editar una configuración de procesos</span><span class="sxs-lookup"><span data-stu-id="0793e-102">Creating or Editing a Process Configuration</span></span>
 <span data-ttu-id="0793e-103">Esta sección describe cómo crear o editar una configuración de procesos para implementar un proceso de interfaz de socio (PIP) en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0793e-103">This section describes how to create or edit a process configuration to implement a Partner Interface Process (PIP) in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="0793e-104">Un PIP de RosettaNet define un cuadro de diálogo de proceso empresarial entre dos socios comerciales.</span><span class="sxs-lookup"><span data-stu-id="0793e-104">A RosettaNet PIP defines a business-process dialog between two trading partners.</span></span> <span data-ttu-id="0793e-105">En [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], para crear una PIP con un socio comercial, primero debe crear una configuración de procesos.</span><span class="sxs-lookup"><span data-stu-id="0793e-105">In [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], to create a PIP with a partner, you must first create a process configuration.</span></span> [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]<span data-ttu-id="0793e-106">Este perfil se usa para almacenar todas las características de la configuración del PIP.</span><span class="sxs-lookup"><span data-stu-id="0793e-106"> uses this profile to store all configuration characteristics of the PIP.</span></span> <span data-ttu-id="0793e-107">A continuación, puede usar esta configuración para crear un acuerdo con el socio comercial.</span><span class="sxs-lookup"><span data-stu-id="0793e-107">You can then use this configuration to create an agreement with the partner.</span></span>  

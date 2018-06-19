@@ -1,17 +1,17 @@
 ---
-title: "Instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration server, installing BizTalk Accelerator for SWIFT
 - BizTalk Accelerator for SWIFT, installing on orchestration server
 ms.assetid: 127113ae-46b4-4290-a2c1-6a3db04cd178
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209748"
 ---
 # <a name="installing-and-configuring-biztalk-accelerator-for-swift-on-orchestration-servers"></a><span data-ttu-id="ccf9f-102">Instalar y configurar el Acelerador de BizTalk para SWIFT en servidores de orquestación</span><span class="sxs-lookup"><span data-stu-id="ccf9f-102">Installing and Configuring BizTalk Accelerator for SWIFT on Orchestration Servers</span></span>
 <span data-ttu-id="ccf9f-103">Esta sección describe cómo instalar y configurar [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] en los servidores de la orquestación.</span><span class="sxs-lookup"><span data-stu-id="ccf9f-103">This section describes how to install and configure [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] on the orchestration servers.</span></span> <span data-ttu-id="ccf9f-104">Estos servidores se utilizan principalmente para ejecutar la orquestación FINÉS reparación y conciliación y la orquestación de reparación/nuevo envío del mensaje.</span><span class="sxs-lookup"><span data-stu-id="ccf9f-104">These servers are mainly used to run the FIN Repair and Reconciliation orchestration and the Message Repair/New Submission orchestration.</span></span>  

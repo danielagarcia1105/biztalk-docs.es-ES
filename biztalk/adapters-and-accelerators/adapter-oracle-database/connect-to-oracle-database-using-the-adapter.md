@@ -1,11 +1,11 @@
 ---
 title: Conectarse a la base de datos de Oracle mediante el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection string
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - URI
 - connection URI
 ms.assetid: 5d5598e5-aba0-4c73-8e97-9156475b93c4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214756"
 ---
 # <a name="connect-to-oracle-database-using-the-adapter"></a><span data-ttu-id="4b482-102">Conectarse a la base de datos de Oracle mediante el adaptador</span><span class="sxs-lookup"><span data-stu-id="4b482-102">Connect to Oracle Database using the adapter</span></span>
 <span data-ttu-id="4b482-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] ODP.NET 11.1.0.7 se utiliza para conectarse a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="4b482-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] uses ODP.NET 11.1.0.7 to connect to the Oracle database.</span></span> <span data-ttu-id="4b482-104">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requiere que los clientes de adaptador proporcionar una cadena de conexión, llamada a la conexión Uniform Resource Identifier (URI), para conectarse a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="4b482-104">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires adapter clients to provide a connection string, called the connection Uniform Resource Identifier (URI), to connect to the Oracle database.</span></span> <span data-ttu-id="4b482-105">Internamente, la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] asigna el URI en una cadena de conexión de base de datos para conectarse a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="4b482-105">Internally, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] maps the URI to a database connection string to connect to the Oracle database.</span></span> <span data-ttu-id="4b482-106">Con un URI de conexión, los clientes de adaptador pueden especificar parámetros de conexión para conectarse a un sistema externo.</span><span class="sxs-lookup"><span data-stu-id="4b482-106">With a connection URI, adapter clients can specify connection parameters to connect to an external system.</span></span>  

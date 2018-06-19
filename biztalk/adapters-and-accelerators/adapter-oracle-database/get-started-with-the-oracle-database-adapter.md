@@ -1,18 +1,18 @@
 ---
 title: Empezar a trabajar con el adaptador de la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, about
 - data adapter
 - LOB adapter
 ms.assetid: ed5b3510-11c4-4b10-bf85-c4066f3f80df
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214444"
 ---
 # <a name="get-started-with-the-oracle-database-adapter"></a><span data-ttu-id="995d8-102">Empezar a trabajar con el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="995d8-102">Get started with the Oracle Database adapter</span></span>
 <span data-ttu-id="995d8-103">Esta sección proporciona información general sobre el adaptador, los requisitos previos y los temas para los usuarios que están familiarizados con Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="995d8-103">This section provides an overview of the adapter, prerequisites, and topics for users who are new to Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span> <span data-ttu-id="995d8-104">Describe las características de [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] y las distintas operaciones que se pueden realizar en la base de datos de Oracle mediante el adaptador.</span><span class="sxs-lookup"><span data-stu-id="995d8-104">It discusses the features of [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] and the different operations that can be performed on the Oracle database using the adapter.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Conectarse a SQL Server en Visual Studio mediante metadatos de Asistente para agregar adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2169722d-beba-4d96-a54b-54986ece9bf8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226732"
 ---
 # <a name="connect-to-sql-server-in-visual-studio-using-add-adapter-metadata-wizard"></a><span data-ttu-id="85789-102">Conectarse a SQL Server en Visual Studio mediante metadatos de Asistente para agregar adaptador</span><span class="sxs-lookup"><span data-stu-id="85789-102">Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard</span></span>
 <span data-ttu-id="85789-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] también se expone como un adaptador de BizTalk y, por lo tanto, puede usar el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] para generar el esquema para las operaciones que desea realizar en SQL Server con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="85789-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is also exposed as a BizTalk adapter and, therefore, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on SQL Server using the adapter.</span></span>  

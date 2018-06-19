@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para el compuesto Operation1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 768473ef-da8d-4e58-86cb-597c28ded49c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215180"
 ---
 # <a name="message-schemas-for-the-composite-operation"></a><span data-ttu-id="726bc-102">Esquemas de mensaje para la operación de composición</span><span class="sxs-lookup"><span data-stu-id="726bc-102">Message Schemas for the Composite Operation</span></span>
 <span data-ttu-id="726bc-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] permite ejecutar operaciones compuestas en Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="726bc-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables you to execute composite operations in Oracle E-Business Suite.</span></span> <span data-ttu-id="726bc-104">Una operación compuesta puede contener varias operaciones y en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="726bc-104">A composite operation can contain multiple operations, and in any order.</span></span> <span data-ttu-id="726bc-105">Para obtener información sobre qué operaciones pueden incluirse en una operación compuesta, consulte [compatibilidad para operaciones compuestas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).</span><span class="sxs-lookup"><span data-stu-id="726bc-105">For information about which operations can be included in a composite operation, see [Support for Composite Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).</span></span>  

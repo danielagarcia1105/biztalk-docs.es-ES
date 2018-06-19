@@ -1,14 +1,14 @@
 ---
-title: "Generación de categoría 0 y formularios MT121 | Documentos de Microsoft"
-ms.custom: 
+title: Generación de categoría 0 y formularios MT121 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1470b8e1-0008-4f15-8958-ba4c7ecbffd8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207308"
 ---
 # <a name="generating-category-0-and-mt121-forms"></a><span data-ttu-id="76f94-102">Categoría de generación 0 y MT121 formularios</span><span class="sxs-lookup"><span data-stu-id="76f94-102">Generating Category 0 and MT121 Forms</span></span>
 <span data-ttu-id="76f94-103">Categoría 0 y generación de formularios de InfoPath MT121 requieren archivos de plantilla diferente.</span><span class="sxs-lookup"><span data-stu-id="76f94-103">Category 0 and MT121 InfoPath forms generation require different template files.</span></span> <span data-ttu-id="76f94-104">Formularios de categoría 0 se dividen en 5 categorías.</span><span class="sxs-lookup"><span data-stu-id="76f94-104">Category 0 forms are divided into 5 categories.</span></span> <span data-ttu-id="76f94-105">Igual que el resto de las categorías de MT, se generan mensajes de categorías generales de la misma manera.</span><span class="sxs-lookup"><span data-stu-id="76f94-105">General categories messages are generated in the same way as do the rest of the MT categories.</span></span> <span data-ttu-id="76f94-106">A continuación se proporcionan ejemplos de otras 4 categorías con sus nombres de mensaje:</span><span class="sxs-lookup"><span data-stu-id="76f94-106">Examples of other 4 categories with their message names are given below:</span></span>  

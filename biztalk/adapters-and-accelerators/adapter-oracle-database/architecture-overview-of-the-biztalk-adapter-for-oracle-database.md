@@ -1,11 +1,11 @@
 ---
-title: "Introducción a la arquitectura del adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a la arquitectura del adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter, and WCF
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Oracle Data Provider for .NET
 - architecture
 ms.assetid: cc59beb5-327a-4b00-a45c-82cc9d505167
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216596"
 ---
 # <a name="architecture-overview-of-the-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="77319-102">Introducción a la arquitectura del adaptador de BizTalk para base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="77319-102">Architecture overview of the BizTalk Adapter for Oracle Database</span></span>
 <span data-ttu-id="77319-103">Describe la arquitectura para la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span><span class="sxs-lookup"><span data-stu-id="77319-103">Describes the architecture for the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span> 

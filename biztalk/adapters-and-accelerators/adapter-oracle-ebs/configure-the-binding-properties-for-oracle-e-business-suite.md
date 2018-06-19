@@ -1,14 +1,14 @@
 ---
 title: Configurar las propiedades de enlace de Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cfdca8c8-4434-4a9f-8e2a-970988c2f685
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217548"
 ---
 # <a name="configure-the-binding-properties-for-oracle-e-business-suite"></a><span data-ttu-id="a24e8-102">Configurar las propiedades de enlace de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="a24e8-102">Configure the binding properties for Oracle E-Business Suite</span></span>
 <span data-ttu-id="a24e8-103">La [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]expone varias propiedades de enlace que le permiten controlar algunos de sus características de comportamiento.</span><span class="sxs-lookup"><span data-stu-id="a24e8-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]surfaces several binding properties that enable you to control some of its behavioral characteristics.</span></span> <span data-ttu-id="a24e8-104">Esta sección proporciona información acerca de cómo establecer las propiedades de enlace de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] desde y hacia el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="a24e8-104">This section provides information about setting the binding properties from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="a24e8-105">Desde [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe especificar las propiedades de enlace al generar el esquema para las operaciones concretas.</span><span class="sxs-lookup"><span data-stu-id="a24e8-105">From [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the binding properties while generating schema for specific operations.</span></span> <span data-ttu-id="a24e8-106">Desde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe especificar las propiedades de enlace como parte de envío o puerto de recepción para enviar o recibir mensajes de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="a24e8-106">From [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must specify the binding properties as part of the send or receive port for sending or receiving messages from Oracle E-Business Suite.</span></span>  

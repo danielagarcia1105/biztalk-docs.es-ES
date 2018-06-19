@@ -1,15 +1,15 @@
 ---
-title: "Códigos de error SWIFT de BizTalk Server | Documentos de Microsoft"
-description: "Ver los tipos de clase y de validación para el Acelerador para SWIFT de BizTalk Server"
-ms.custom: 
+title: Códigos de error SWIFT de BizTalk Server | Documentos de Microsoft
+description: Ver los tipos de clase y de validación para el Acelerador para SWIFT de BizTalk Server
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03699986-965b-4a28-ab2e-09f110fb4db6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215028"
 ---
 # <a name="swift-error-codes"></a><span data-ttu-id="d9987-103">Códigos de Error SWIFT</span><span class="sxs-lookup"><span data-stu-id="d9987-103">SWIFT Error Codes</span></span>
 <span data-ttu-id="d9987-104">SWIFT define muchas validaciones impuesta por la red con el conjunto de mensajes financieros (FIN).</span><span class="sxs-lookup"><span data-stu-id="d9987-104">SWIFT defines many network-imposed validations against the set of financial (FIN) messages.</span></span> <span data-ttu-id="d9987-105">Cada validación relacionada con un tipo de comprobación con el contenido del mensaje y está asociado con un código de error de tres caracteres.</span><span class="sxs-lookup"><span data-stu-id="d9987-105">Each validation relates to a type of check against the contents of the message, and is associated with a three-character error code.</span></span> <span data-ttu-id="d9987-106">El primer carácter del código de error implica la clase del problema detectado y es una letra.</span><span class="sxs-lookup"><span data-stu-id="d9987-106">The first character of the error code implies the class of the problem detected, and is a letter.</span></span> <span data-ttu-id="d9987-107">Los dos caracteres restantes indican los detalles del error (cuando se combina con la clase) y siempre se muestran como un código de dos dígitos.</span><span class="sxs-lookup"><span data-stu-id="d9987-107">The remaining two characters denote the detail of the error (when combined with the class) and always appear as a two-digit code.</span></span>  

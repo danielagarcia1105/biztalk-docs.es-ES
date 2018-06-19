@@ -1,18 +1,18 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, sending messages to the SAP system
 - physical port binding, manually configuring
 - deploying, receiving messages from the SAP system
 ms.assetid: c4f547aa-5514-4ca9-809b-d8d395de419c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216588"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-sap-adapter"></a><span data-ttu-id="2f8a9-102">Configurar manualmente un enlace de puerto físico para el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="2f8a9-102">Manually configure a physical port binding to the SAP adapter</span></span>
 <span data-ttu-id="2f8a9-103">Configurar la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] como un enlace personalizado de WCF mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="2f8a9-103">Configure the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a WCF custom binding by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> 

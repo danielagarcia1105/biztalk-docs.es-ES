@@ -1,18 +1,18 @@
 ---
-title: "Exclusión de CertSrv de rutas de acceso en la implementación de una solo equipo administradas | Documentos de Microsoft"
-ms.custom: 
+title: Exclusión de CertSrv de rutas de acceso en la implementación de una solo equipo administradas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managed paths
 - certificate server (CertSrv)
 - certificates, certificate server (CertSrv)
 ms.assetid: 39916663-b80e-49d8-ba9b-49276eb564fc
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207436"
 ---
 # <a name="excluding-certsrv-from-managed-paths-on-a-single-computer-deployment"></a><span data-ttu-id="4c373-102">Exclusión de CertSrv de rutas de acceso administradas en la implementación de una solo equipo</span><span class="sxs-lookup"><span data-stu-id="4c373-102">Excluding CertSrv from Managed Paths on a Single-Computer Deployment</span></span>
 <span data-ttu-id="4c373-103">Si ha implementado [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] en un único equipo y también instala el servidor de certificados en el mismo equipo, debe excluir el servidor de certificados (CertSrv) de las rutas de acceso administradas en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Administración Central de SharePoint Server.</span><span class="sxs-lookup"><span data-stu-id="4c373-103">If you have deployed [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] on a single computer and also installed the certificate server on the same computer, you need to exclude the certificate server (CertSrv) from the managed paths in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SharePoint Server Central Administration.</span></span>  

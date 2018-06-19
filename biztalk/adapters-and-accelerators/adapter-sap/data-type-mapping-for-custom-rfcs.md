@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217420"
 ---
 # <a name="data-type-mapping-for-custom-rfcs"></a><span data-ttu-id="8a1f2-102">Asignación de tipos de datos para las solicitudes de cambio personalizadas</span><span class="sxs-lookup"><span data-stu-id="8a1f2-102">Data Type Mapping for Custom RFCs</span></span>
 <span data-ttu-id="8a1f2-103">En la tabla siguiente proporciona información sobre los tipos de datos SAP y cómo se asignan a tipos de datos de .NET para la solicitud de cambio de Z_EXTRACT_DATA_OO.</span><span class="sxs-lookup"><span data-stu-id="8a1f2-103">The following table provides information about SAP data types and how they are mapped to .NET data types for the Z_EXTRACT_DATA_OO RFC.</span></span> <span data-ttu-id="8a1f2-104">Este RFC personalizada se usa por la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="8a1f2-104">This custom RFC is used by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].</span></span>  

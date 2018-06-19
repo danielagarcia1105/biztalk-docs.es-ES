@@ -1,14 +1,14 @@
 ---
-title: "Determinar si una columna almacena valores en mayúsculas o minúsculas | Documentos de Microsoft"
-ms.custom: 
+title: Determinar si una columna almacena valores en mayúsculas o minúsculas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1edc8332-d8c7-4040-895b-f121fb03df44
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216988"
 ---
 # <a name="determining-whether-a-column-stores-lowercase-or-uppercase-values"></a><span data-ttu-id="c242c-102">Determinar si un columna almacena los valores en mayúsculas o minúsculas</span><span class="sxs-lookup"><span data-stu-id="c242c-102">Determining Whether a Column Stores Lowercase or Uppercase Values</span></span>
 <span data-ttu-id="c242c-103">Esta sección enumeran las tareas de alto nivel que se realizarán en el sistema SAP para determinar si una columna de una tabla SAP almacena caracteres en mayúsculas o minúsculas.</span><span class="sxs-lookup"><span data-stu-id="c242c-103">This section lists high-level tasks to be performed on the SAP system to determine whether a column in an SAP table stores lowercase or uppercase characters.</span></span> <span data-ttu-id="c242c-104">Para obtener instrucciones detalladas sobre cómo realizar esta tarea debe ponerse en contacto con el Administrador de SAP o consulte la documentación de SAP.</span><span class="sxs-lookup"><span data-stu-id="c242c-104">For detailed instructions on how to perform this task you must contact your SAP administrator or refer to SAP documentation.</span></span>  

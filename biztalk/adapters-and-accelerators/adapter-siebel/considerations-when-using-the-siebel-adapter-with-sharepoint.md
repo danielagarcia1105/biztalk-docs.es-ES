@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al utilizar el adaptador de Siebel con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea7da079-3250-4ecc-bf01-6b5495c7f380
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223924"
 ---
 # <a name="considerations-when-using-the-siebel-adapter-with-sharepoint"></a><span data-ttu-id="19aa1-102">Consideraciones al utilizar el adaptador de Siebel con SharePoint</span><span class="sxs-lookup"><span data-stu-id="19aa1-102">Considerations when using the Siebel adapter with SharePoint</span></span>
 <span data-ttu-id="19aa1-103">Este tema contiene información sobre los problemas que puede surgir al usar el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] con Microsoft Office SharePoint Server, junto con las soluciones.</span><span class="sxs-lookup"><span data-stu-id="19aa1-103">This topic contains information about the issues you might encounter while using the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] with Microsoft Office SharePoint Server, along with resolutions.</span></span> <span data-ttu-id="19aa1-104">Los problemas se dividen en dos categorías:</span><span class="sxs-lookup"><span data-stu-id="19aa1-104">The issues are divided into two categories:</span></span>  

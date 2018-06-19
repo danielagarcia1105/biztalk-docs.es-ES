@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211180"
 ---
 # <a name="miscellaneous-troubleshooting"></a><span data-ttu-id="897a7-102">Solución de problemas de varios</span><span class="sxs-lookup"><span data-stu-id="897a7-102">Miscellaneous Troubleshooting</span></span>
 ## <a name="leading-zeroes-validation-is-not-performed-for-fields-that-use-the-checkleadingzeroesinelement-method-to-validate-a-field-in-the-message-validation-policy"></a><span data-ttu-id="897a7-103">Ceros iniciales no se realiza la validación de campos que utilizan el método CheckLeadingZeroesInElement para validar un campo en el mensaje de la directiva de validación.</span><span class="sxs-lookup"><span data-stu-id="897a7-103">Leading zeroes validation is not performed for fields that use the CheckLeadingZeroesInElement method to validate a field in the message Validation Policy.</span></span>  

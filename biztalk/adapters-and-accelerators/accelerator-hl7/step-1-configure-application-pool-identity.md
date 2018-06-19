@@ -1,17 +1,17 @@
 ---
 title: 'Paso 1: Configurar la identidad del grupo de aplicaciones | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, application pools
 - application pools
 ms.assetid: 66286327-8580-4378-89ee-ddd7204b03c6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206580"
 ---
 # <a name="step-1-configure-application-pool-identity"></a><span data-ttu-id="b88f9-102">Paso 1: Configurar la identidad del grupo de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="b88f9-102">Step 1: Configure Application Pool Identity</span></span>
 <span data-ttu-id="b88f9-103">En este tutorial, utilice un grupo de aplicaciones en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) para procesar la orquestación, que se publique como un servicio Web.</span><span class="sxs-lookup"><span data-stu-id="b88f9-103">In this tutorial, you use an application pool in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) to process the orchestration, which you publish as a Web service.</span></span> <span data-ttu-id="b88f9-104">Un grupo de aplicaciones es una agrupación de una o más direcciones URL servidas por un proceso de trabajo.</span><span class="sxs-lookup"><span data-stu-id="b88f9-104">An application pool is a grouping of one or more URLs served by a worker process.</span></span>  

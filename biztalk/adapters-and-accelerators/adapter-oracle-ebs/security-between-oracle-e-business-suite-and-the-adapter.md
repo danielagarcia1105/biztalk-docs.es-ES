@@ -1,14 +1,14 @@
 ---
 title: Seguridad entre Oracle E-Business Suite y el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88f5f8ed-48d5-4420-9fdb-0a6860b95ac4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216396"
 ---
 # <a name="security-between-oracle-e-business-suite-and-the-adapter"></a><span data-ttu-id="0e639-102">Seguridad entre el adaptador y Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="0e639-102">Security between Oracle E-Business Suite and the adapter</span></span>
 <span data-ttu-id="0e639-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no proporciona compatibilidad con lo que ayuda a una comunicación segura entre ella y la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="0e639-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] provides no support for helping to secure communication between it and the Oracle database.</span></span> <span data-ttu-id="0e639-104">Debe proporcionar un mecanismo de seguridad para ayudar a garantizar niveles adecuados de autorización, la autenticación, la privacidad de los datos y la integridad de los datos de intercambio de datos entre el adaptador y la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="0e639-104">You must provide a security mechanism to help ensure appropriate levels of authorization, authentication, data privacy, and data integrity for data exchanges between the adapter and the Oracle database.</span></span>  

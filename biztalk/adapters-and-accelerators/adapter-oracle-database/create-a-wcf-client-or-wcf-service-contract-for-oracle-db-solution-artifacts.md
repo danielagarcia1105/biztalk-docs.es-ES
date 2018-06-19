@@ -1,11 +1,11 @@
 ---
-title: "Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model programming, creating a proxy
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating a proxy
 - proxy programming, creating a proxy
 ms.assetid: 3e832ae9-e253-4476-9f25-8cf0de12f469
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215892"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-database-solution-artifacts"></a><span data-ttu-id="156f6-102">Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="156f6-102">Generate a WCF client or a WCF service contract for Oracle Database solution artifacts</span></span>
 <span data-ttu-id="156f6-103">Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] para generar una clase de cliente WCF o un contrato de servicio WCF (interfaz) destinada a operaciones seleccionadas en artefactos de base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="156f6-103">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class or a WCF service contract (interface) targeted at selected operations on Oracle database artifacts.</span></span> <span data-ttu-id="156f6-104">También puede usar el contrato de servicio WCF; o ServiceModel Metadata Utility Tool (svcutil.exe) para generar la clase de cliente WCF Sin embargo, la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] expone la funcionalidad de la herramienta de utilidad de metadatos de ServiceModel mediante una interfaz estándar de Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="156f6-104">You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class or WCF service contract; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface.</span></span> <span data-ttu-id="156f6-105">También proporciona capacidades de exploración y búsqueda que no están disponibles con la herramienta svcutil.exe, y genera un archivo de configuración basado en las propiedades de enlace que se selecciona cuando se conecta a la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="156f6-105">It also provides browse and search capabilities that are not available with the svcutil.exe tool, and it generates a configuration file based on the binding properties that you select when you connect to the Oracle database.</span></span>  

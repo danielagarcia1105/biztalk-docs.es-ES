@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a2a82a-f8d4-4ec2-b8c1-be6cda3f993a
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22288276"
 ---
 # <a name="use-binding-files-to-import-or-export"></a><span data-ttu-id="2b7e8-102">Usar archivos de enlace para importar o exportar</span><span class="sxs-lookup"><span data-stu-id="2b7e8-102">Use binding files to import or export</span></span>
 
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/28/2018
 * <span data-ttu-id="2b7e8-120">Debe haber agregado una referencia a la **aplicación EDI de BizTalk** desde una aplicación de BizTalk que se usará como una aplicación de EDI.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-120">You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application.</span></span> <span data-ttu-id="2b7e8-121">Vea [pasos posteriores a la configuración](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).</span><span class="sxs-lookup"><span data-stu-id="2b7e8-121">See [Post-configuration steps](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).</span></span>
 
 ## <a name="import-or-export-all-the-trading-partners"></a><span data-ttu-id="2b7e8-122">Importar o exportar a todos los socios comerciales</span><span class="sxs-lookup"><span data-stu-id="2b7e8-122">Import or export all the trading partners</span></span>
-1. <span data-ttu-id="2b7e8-123">Abra **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**y expanda el grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-123">Open **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**, and expand the BizTalk group.</span></span>
+1. <span data-ttu-id="2b7e8-123">Abra **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** y expanda el grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-123">Open **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**, and expand the BizTalk group.</span></span>
 2. <span data-ttu-id="2b7e8-124">Haga clic en **partes**y seleccione **exportar**.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-124">Right-click **Parties**, and select **Export**.</span></span> 
 
     <span data-ttu-id="2b7e8-125">Cuando se exportan en el **partes**-nivel, que va a exportar todos los socios comerciales.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-125">When you export at the **parties**-level, you are exporting all the trading partners.</span></span> <span data-ttu-id="2b7e8-126">También exporta todos los elementos utilizados por los socios comerciales, incluidos los perfiles de negocio y los contratos en un archivo XML.</span><span class="sxs-lookup"><span data-stu-id="2b7e8-126">This also exports everything used by the trading partners, including business profiles, and agreements into an XML file.</span></span> 

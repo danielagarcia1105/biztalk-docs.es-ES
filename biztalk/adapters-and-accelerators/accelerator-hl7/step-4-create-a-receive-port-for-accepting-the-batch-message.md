@@ -1,14 +1,14 @@
 ---
-title: "Paso 4: Crear un puerto de recepción para aceptar el mensaje por lotes | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4: Crear un puerto de recepción para aceptar el mensaje por lotes | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a37eb334-c4ae-40d1-a433-bf0ab39c0765
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207612"
 ---
 # <a name="step-4-create-a-receive-port-for-accepting-the-batch-message"></a><span data-ttu-id="e8469-102">Paso 4: Crear un puerto de recepción para aceptar el mensaje de lote</span><span class="sxs-lookup"><span data-stu-id="e8469-102">Step 4: Create a Receive Port for Accepting the Batch Message</span></span>
 <span data-ttu-id="e8469-103">En este paso, se creará y configurará un puerto para recibir el lote entrante.</span><span class="sxs-lookup"><span data-stu-id="e8469-103">In this step, you create and configure a port to receive the incoming batch.</span></span>  

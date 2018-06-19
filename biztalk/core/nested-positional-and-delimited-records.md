@@ -1,14 +1,14 @@
 ---
 title: Anidar registros posicionales y delimitados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1688f04-d3c7-492c-82f7-a734bec0e409
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263084"
 ---
 # <a name="nested-positional-and-delimited-records"></a><span data-ttu-id="e7653-102">Registros delimitados y posicionales anidados</span><span class="sxs-lookup"><span data-stu-id="e7653-102">Nested Positional and Delimited Records</span></span>
 <span data-ttu-id="e7653-103">En los formatos de archivo sin formato compatibles con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], se permiten algunas combinaciones de registros delimitados y posicionales y otros no están permitidos.</span><span class="sxs-lookup"><span data-stu-id="e7653-103">In the flat file formats supported by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], some combinations of positional and delimited records are allowed and others are disallowed.</span></span> <span data-ttu-id="e7653-104">Se permiten las siguientes combinaciones:</span><span class="sxs-lookup"><span data-stu-id="e7653-104">The following combinations are allowed:</span></span>  

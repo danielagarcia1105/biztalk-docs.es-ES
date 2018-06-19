@@ -1,15 +1,15 @@
 ---
-title: "Información general de creación de una solicitud de cambio en una SAP para utilizar con el adaptador SAP en BizTalk | Documentos de Microsoft"
-description: "Crear una solicitud de cambio, RFC destino y envíe una solicitud de cambio de sistema SAP: módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Información general de creación de una solicitud de cambio en una SAP para utilizar con el adaptador SAP en BizTalk | Documentos de Microsoft
+description: 'Crear una solicitud de cambio, RFC destino y envíe una solicitud de cambio de sistema SAP: módulo de adaptador de BizTalk (BAP)'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 35937183-fc1e-49cd-8a75-8f62effe0013
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216524"
 ---
 # <a name="create-and-send-an-rfc-in-sap"></a><span data-ttu-id="741b9-103">Crear y enviar una solicitud de cambio en SAP</span><span class="sxs-lookup"><span data-stu-id="741b9-103">Create and send an RFC in SAP</span></span>
 <span data-ttu-id="741b9-104">Enumera las tareas de alto nivel que se complete en el sistema SAP para crear una solicitud de cambio.</span><span class="sxs-lookup"><span data-stu-id="741b9-104">Lists high-level tasks to complete on the SAP system to create an RFC.</span></span> <span data-ttu-id="741b9-105">Cada tarea puede implicar procedimientos muy detallados.</span><span class="sxs-lookup"><span data-stu-id="741b9-105">Each task may involve very detailed procedures.</span></span> <span data-ttu-id="741b9-106">Como resultado, se recomienda ponerse en contacto con el Administrador de SAP para completar estas tareas, o consulte la Guía de SAP.</span><span class="sxs-lookup"><span data-stu-id="741b9-106">As a result, we recommend contacting your SAP administrator to complete these tasks, or refer to the SAP guidance.</span></span>  

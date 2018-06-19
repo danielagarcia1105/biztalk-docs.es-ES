@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el seguimiento de un esquema | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el seguimiento de un esquema | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, configuring
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - tracking, configuring
 - tracking, schemas
 ms.assetid: b5f69c98-8824-43b1-8f21-d84b60ac5431
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248052"
 ---
 # <a name="how-to-configure-tracking-for-a-schema"></a><span data-ttu-id="2f88e-102">Cómo configurar el seguimiento de un esquema</span><span class="sxs-lookup"><span data-stu-id="2f88e-102">How to Configure Tracking for a Schema</span></span>
 <span data-ttu-id="2f88e-103">En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar el seguimiento de un esquema.</span><span class="sxs-lookup"><span data-stu-id="2f88e-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a schema.</span></span> <span data-ttu-id="2f88e-104">Para configurar el seguimiento, especifique las propiedades de los mensajes que desee ver en las vistas de consulta de la página Concentrador de grupo de la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="2f88e-104">To configure tracking, you specify the properties of the messages that you want to view in the query views of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console Group Hub page.</span></span>  

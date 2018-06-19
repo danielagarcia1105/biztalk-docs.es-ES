@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al utilizar el adaptador de Oracle-Business Suite con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56de6267-ec34-4bd2-abd1-3f2b69876b36
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217516"
 ---
 # <a name="considerations-using-the-oracle-business-suite-adapter-with-sharepoint"></a><span data-ttu-id="abef8-102">Consideraciones al utilizar el adaptador de Oracle-Business Suite con SharePoint</span><span class="sxs-lookup"><span data-stu-id="abef8-102">Considerations using the Oracle-Business Suite adapter with SharePoint</span></span>
 <span data-ttu-id="abef8-103">Este tema contiene información sobre los problemas que puede surgir al usar el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] con Microsoft Office SharePoint Server, junto con las soluciones.</span><span class="sxs-lookup"><span data-stu-id="abef8-103">This topic contains information about the issues you might encounter while using the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] with Microsoft Office SharePoint Server, along with resolutions.</span></span> <span data-ttu-id="abef8-104">Los problemas se dividen en dos categorías:</span><span class="sxs-lookup"><span data-stu-id="abef8-104">The issues are divided into two categories:</span></span>  

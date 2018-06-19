@@ -1,14 +1,14 @@
 ---
 title: Functoids de base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77bc9390-cdb5-42ff-8b28-6265c51c79fc
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969778"
 ---
 # <a name="database-functoids"></a><span data-ttu-id="6fb73-102">Functoids de base de datos</span><span class="sxs-lookup"><span data-stu-id="6fb73-102">Database Functoids</span></span>
 <span data-ttu-id="6fb73-103">**Base de datos** functoids extraer datos de una base de datos para su uso en un mensaje de instancia de salida.</span><span class="sxs-lookup"><span data-stu-id="6fb73-103">**Database** functoids extract data from a database for use in an output instance message.</span></span> 

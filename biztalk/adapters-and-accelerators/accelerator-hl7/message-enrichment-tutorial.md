@@ -1,11 +1,11 @@
 ---
 title: Tutorial de enriquecimiento de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, tutorial
 - tutorials, message enrichment tutorial
 ms.assetid: 4ffb047f-457a-4a80-b7ec-4b61ae16f35f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205236"
 ---
 # <a name="message-enrichment-tutorial"></a><span data-ttu-id="c671f-102">Tutorial de enriquecimiento de mensajes</span><span class="sxs-lookup"><span data-stu-id="c671f-102">Message Enrichment Tutorial</span></span>
 <span data-ttu-id="c671f-103">Este tutorial proporciona procedimientos paso a paso para usar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para resolver un problema empresarial determinado: el problema de enriquecimiento del mensaje.</span><span class="sxs-lookup"><span data-stu-id="c671f-103">This tutorial provides step-by-step procedures for using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to solve a particular business problem: the message enrichment problem.</span></span> <span data-ttu-id="c671f-104">El tutorial de enriquecimiento de mensajes describe una situación en la que se deben agregar a, o enriquecer, un mensaje que no es compatible con HL7 o está incompleta.</span><span class="sxs-lookup"><span data-stu-id="c671f-104">The message enrichment tutorial describes a situation in which you have to add to, or enrich, a message that is not HL7-compliant and/or is incomplete.</span></span> <span data-ttu-id="c671f-105">Esto puede ocurrir con una aplicación, como una aplicación de registro del paciente, o puede producirse cuando se rellena un mensaje con datos XML de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c671f-105">This can occur with an application, such as a patient registration application, or it can occur when you are populating a message with XML data from [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].</span></span>  

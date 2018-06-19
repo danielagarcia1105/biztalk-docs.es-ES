@@ -1,18 +1,18 @@
 ---
 title: Ejemplos del resultado de seguimiento de pruebas de directivas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, policies
 - policies, testing
 - testing, examples
 ms.assetid: 92e1dc7f-1a8d-41a5-84b6-46d5ad9f2ef2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266684"
 ---
 # <a name="policy-test-trace-output-examples"></a><span data-ttu-id="d9df4-102">Ejemplos del resultado del seguimiento de pruebas de directivas</span><span class="sxs-lookup"><span data-stu-id="d9df4-102">Policy Test Trace Output Examples</span></span>
 <span data-ttu-id="d9df4-103">Esta sección contiene ejemplos de salida de pruebas de directivas para diferentes tipos de hechos.</span><span class="sxs-lookup"><span data-stu-id="d9df4-103">This section contains examples of the policy test output for different types of facts.</span></span>  
@@ -127,7 +128,7 @@ THEN <do something>
   
  <span data-ttu-id="d9df4-150">Nombre de conjunto de reglas: LoanProcessing</span><span class="sxs-lookup"><span data-stu-id="d9df4-150">Ruleset Name: LoanProcessing</span></span>  
   
- <span data-ttu-id="d9df4-151">Expresión de prueba: seleccione * de [CustInfo] donde [CreditCardBalance] > 0</span><span class="sxs-lookup"><span data-stu-id="d9df4-151">Test Expression: select * from [CustInfo] where [CreditCardBalance] > 0</span></span>  
+ <span data-ttu-id="d9df4-151">Expresión de prueba: seleccione \* de [CustInfo] donde [CreditCardBalance] > 0</span><span class="sxs-lookup"><span data-stu-id="d9df4-151">Test Expression: select \* from [CustInfo] where [CreditCardBalance] > 0</span></span>  
   
  <span data-ttu-id="d9df4-152">Valor del operando izquierdo:</span><span class="sxs-lookup"><span data-stu-id="d9df4-152">Left Operand Value:</span></span>  
   

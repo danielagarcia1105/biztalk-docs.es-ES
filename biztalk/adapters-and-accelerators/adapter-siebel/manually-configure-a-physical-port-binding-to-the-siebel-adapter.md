@@ -1,17 +1,17 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador de Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - physical port binding, manually configuring
 - how to, manually configure adapters for sending messages to a Siebel system
 ms.assetid: a1445b8a-440f-45e8-96e9-a13142ca87c6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222124"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-siebel-adapter"></a><span data-ttu-id="a8849-102">Configurar manualmente un enlace de puerto físico para el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="a8849-102">Manually configure a physical port binding to the Siebel adapter</span></span>
 <span data-ttu-id="a8849-103">Esta sección proporciona información acerca de cómo configurar el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] como un enlace personalizado de WCF mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="a8849-103">This section provides information about configuring the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] as a WCF custom binding by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="a8849-104">Después de implementar el adaptador, podrá enviar y recibir mensajes desde el sistema Siebel utilizando el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="a8849-104">After deploying the adapter, you will be able to send and receive messages from the Siebel system by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span> <span data-ttu-id="a8849-105">Los pasos para implementar el adaptador varían en función de la dirección de comunicación entre [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a8849-105">The steps for deploying the adapter vary depending on the direction of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="a8849-106">Puede configurar un envío o un puerto de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="a8849-106">You may choose to configure a Send or a Send-Receive port.</span></span> <span data-ttu-id="a8849-107">Las opciones disponibles se resumen en la siguiente tabla:</span><span class="sxs-lookup"><span data-stu-id="a8849-107">Your choices are summarized in the following table:</span></span>  

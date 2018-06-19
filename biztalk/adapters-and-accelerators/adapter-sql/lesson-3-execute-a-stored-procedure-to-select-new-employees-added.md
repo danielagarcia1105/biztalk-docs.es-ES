@@ -1,14 +1,14 @@
 ---
-title: "Lección 3: Ejecutar un procedimiento almacenado para seleccionar nuevos empleados agregados | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 3: Ejecutar un procedimiento almacenado para seleccionar nuevos empleados agregados | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec7897e9-0c77-41b2-8cc2-61745bd3b028
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222628"
 ---
 # <a name="lesson-3-execute-a-stored-procedure-to-select-new-employees-added"></a><span data-ttu-id="fc253-102">Lección 3: Ejecutar un procedimiento almacenado para seleccionar a nuevos empleados agregados</span><span class="sxs-lookup"><span data-stu-id="fc253-102">Lesson 3: Execute a Stored Procedure to Select New Employees Added</span></span>
 <span data-ttu-id="fc253-103">Antes de la descripción de las tareas realizadas en esta lección, primero debe entender qué son necesarias estas tareas.</span><span class="sxs-lookup"><span data-stu-id="fc253-103">Before understanding the tasks performed in this lesson, you must first understand why these tasks are required.</span></span> <span data-ttu-id="fc253-104">El **empleado** tabla a la que se insertan los registros para agregar un nuevo empleado se define de tal manera que un **estado** columna siempre se establece en "0" cada vez que se agrega un nuevo empleado.</span><span class="sxs-lookup"><span data-stu-id="fc253-104">The **Employee** table to which the records are inserted to add a new employee is defined in such a way that a **Status** column is always set to “0” every time a new employee is added.</span></span> <span data-ttu-id="fc253-105">Esto se hace para que puedan utilizar esta columna para consultar los empleados recién agregados y obtener notificaciones.</span><span class="sxs-lookup"><span data-stu-id="fc253-105">This is done so that you can use this column to query for newly added employees and also get notifications.</span></span> <span data-ttu-id="fc253-106">En SQL Server, debería consultar ejecutando la siguiente instrucción SQL:</span><span class="sxs-lookup"><span data-stu-id="fc253-106">In SQL Server, you would query this by running the following SQL statement:</span></span>  

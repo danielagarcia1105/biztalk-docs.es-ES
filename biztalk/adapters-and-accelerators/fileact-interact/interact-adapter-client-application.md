@@ -1,14 +1,14 @@
 ---
-title: "Aplicación de cliente de adaptador interAct | Documentos de Microsoft"
-ms.custom: 
+title: Aplicación de cliente de adaptador interAct | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdab4624-0fc2-42a3-9867-8f77e144b40c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223100"
 ---
 # <a name="interact-adapter-client-application"></a><span data-ttu-id="8737f-102">Aplicación de cliente de adaptador interAct</span><span class="sxs-lookup"><span data-stu-id="8737f-102">InterAct Adapter Client Application</span></span>
 <span data-ttu-id="8737f-103">Interactuar adaptador aplicación cliente solicite mensajes son documentos XML que se pasan de la aplicación de cliente para el vínculo de SWIFTNet de lado cliente (SNL).</span><span class="sxs-lookup"><span data-stu-id="8737f-103">InterAct adapter client application request messages are XML documents passed from the client application to the client-side SWIFTNet Link (SNL).</span></span> <span data-ttu-id="8737f-104">Se producen mensajes de este tipo como la primera parte de las primitivas de solicitud/respuesta que SWIFTNet ejecutado en el cliente.</span><span class="sxs-lookup"><span data-stu-id="8737f-104">Messages of this type occur as the first part of the SWIFTNet Request/Response primitives exercised on the client side.</span></span>  

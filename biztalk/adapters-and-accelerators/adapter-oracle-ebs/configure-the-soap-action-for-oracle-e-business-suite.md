@@ -1,15 +1,15 @@
 ---
-title: "Configurar la acción SOAP para Oracle E-Business Suite en BizTalk Server | Documentos de Microsoft"
-description: "Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleEBS en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Configurar la acción SOAP para Oracle E-Business Suite en BizTalk Server | Documentos de Microsoft
+description: Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleEBS en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca799d96-66e4-4d4e-a632-cb5505e999b4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218284"
 ---
 # <a name="configure-the-soap-action-for-oracle-e-business-suite"></a><span data-ttu-id="d7ffc-103">Configurar la acción SOAP para Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="d7ffc-103">Configure the SOAP action for Oracle E-Business Suite</span></span>
 <span data-ttu-id="d7ffc-104">Para realizar cualquier operación en Oracle E-Business Suite con basadas en WCF [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], debe especificar una acción de SOAP.</span><span class="sxs-lookup"><span data-stu-id="d7ffc-104">To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must specify a SOAP action.</span></span> <span data-ttu-id="d7ffc-105">La acción SOAP comunica con el adaptador de la acción que debe realizarse.</span><span class="sxs-lookup"><span data-stu-id="d7ffc-105">The SOAP action communicates to the adapter what action should be performed.</span></span> <span data-ttu-id="d7ffc-106">Puede especificar la acción SOAP de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] o desde el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="d7ffc-106">You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="d7ffc-107">Sin embargo, si especifica la acción de SOAP en ambas ubicaciones, la acción especificado de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] se invalida.</span><span class="sxs-lookup"><span data-stu-id="d7ffc-107">However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] is overridden.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Invocar los procedimientos almacenados de SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4edd2fac-0b54-4406-932e-e3044a66b2e6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222292"
 ---
 # <a name="invoke-stored-procedures-in-sql-using-the-wcf-service-model"></a><span data-ttu-id="cc3f6-102">Invocar los procedimientos almacenados de SQL mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="cc3f6-102">Invoke Stored Procedures in SQL using the WCF Service Model</span></span>
 <span data-ttu-id="cc3f6-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] detecta los procedimientos almacenados como operaciones que los clientes de adaptador pueden invocar en el cliente WCF para invocar el procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="cc3f6-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] discovers the stored procedures as operations that the adapter clients can invoke on the WCF client to invoke the stored procedure.</span></span> <span data-ttu-id="cc3f6-104">En función de cómo el procedimiento almacenado devuelve el conjunto de resultados, el adaptador clasifica todos los procedimientos almacenados como:</span><span class="sxs-lookup"><span data-stu-id="cc3f6-104">Based on how the stored procedure returns the result set, the adapter categorizes all the stored procedures as:</span></span>  

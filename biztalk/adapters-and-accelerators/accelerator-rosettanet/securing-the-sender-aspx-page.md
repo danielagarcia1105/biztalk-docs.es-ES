@@ -1,11 +1,11 @@
 ---
-title: "Protección de la página ASPX de remitente | Documentos de Microsoft"
-ms.custom: 
+title: Protección de la página ASPX de remitente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ASPX pages, protocol rules
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ASPX pages, security
 - protocol rules [ASPX pages]
 ms.assetid: 8214e3f5-a8e9-4d71-957d-ed0852035030
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207764"
 ---
 # <a name="securing-the-sender-aspx-page"></a><span data-ttu-id="a8784-102">Protección de la página ASPX de remitente</span><span class="sxs-lookup"><span data-stu-id="a8784-102">Securing the Sender ASPX Page</span></span>
 <span data-ttu-id="a8784-103">En este tema se describe cómo proteger la página RNIFSend.aspx del uso no autorizado.</span><span class="sxs-lookup"><span data-stu-id="a8784-103">This topic describes how to protect the RNIFSend.aspx page from unauthorized use.</span></span> <span data-ttu-id="a8784-104">Hay dos procedimientos que puede usar:</span><span class="sxs-lookup"><span data-stu-id="a8784-104">There are two procedures that you can use:</span></span>  

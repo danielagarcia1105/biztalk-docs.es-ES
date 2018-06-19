@@ -1,11 +1,11 @@
 ---
 title: Configurar las propiedades de enlace de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at design time
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, specify binding properties at design time
 - how to, specify binding properties at run time
 ms.assetid: 063e9507-8172-4fb0-8b9f-2f95e8a82f21
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223140"
 ---
 # <a name="configure-the-binding-properties-for-siebel"></a><span data-ttu-id="a8b80-102">Configurar las propiedades de enlace de Siebel</span><span class="sxs-lookup"><span data-stu-id="a8b80-102">Configure the binding properties for Siebel</span></span>
 <span data-ttu-id="a8b80-103">La [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] expone varias propiedades de enlace que le permiten controlar algunos de sus características de comportamiento.</span><span class="sxs-lookup"><span data-stu-id="a8b80-103">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces several binding properties that enable you to control some of its behavioral characteristics.</span></span> <span data-ttu-id="a8b80-104">Esta sección proporciona información acerca de cómo establecer las propiedades de enlace de Visual Studio (tiempo de diseño) y de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración (tiempo de ejecución).</span><span class="sxs-lookup"><span data-stu-id="a8b80-104">This section provides information about setting the binding properties from Visual Studio (design time) and from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console (run time).</span></span> <span data-ttu-id="a8b80-105">En tiempo de diseño, debe especificar las propiedades de enlace para generar esquemas para las operaciones concretas.</span><span class="sxs-lookup"><span data-stu-id="a8b80-105">At design time, you must specify the binding properties to generate schema for specific operations.</span></span> <span data-ttu-id="a8b80-106">En tiempo de ejecución, debe especificar las propiedades de enlace como parte del puerto de envío para enviar mensajes al sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="a8b80-106">At run time, you must specify the binding properties as part of the send port for sending messages to the Siebel system.</span></span>  

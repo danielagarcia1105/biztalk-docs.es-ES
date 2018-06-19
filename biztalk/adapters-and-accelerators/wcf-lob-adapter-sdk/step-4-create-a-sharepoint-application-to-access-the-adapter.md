@@ -1,14 +1,14 @@
 ---
-title: "Paso 4: Crear una aplicación de Sharepoint para tener acceso el adaptador | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4: Crear una aplicación de Sharepoint para tener acceso el adaptador | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2d8c398-370a-4c62-961d-0eab6066ad5a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226884"
 ---
 # <a name="step-4-create-a-sharepoint-application-to-access-the-adapter"></a><span data-ttu-id="ac044-102">Paso 4: Crear una aplicación de Sharepoint para tener acceso el adaptador</span><span class="sxs-lookup"><span data-stu-id="ac044-102">Step 4: Create a Sharepoint Application to Access the Adapter</span></span>
 <span data-ttu-id="ac044-103">![Paso 4 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span><span class="sxs-lookup"><span data-stu-id="ac044-103">![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span></span>  

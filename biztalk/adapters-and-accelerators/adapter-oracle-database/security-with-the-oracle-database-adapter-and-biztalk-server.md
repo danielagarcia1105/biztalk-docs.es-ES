@@ -1,11 +1,11 @@
 ---
 title: Seguridad con el adaptador de la base de datos de Oracle y el servidor de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user name password credentials
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - credentials, security considerations
 - affiliate application
 ms.assetid: c7e0be64-4ab9-4ee3-b88a-4f8f5f07b280
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216284"
 ---
 # <a name="security-with-the-oracle-database-adapter-and-biztalk-server"></a><span data-ttu-id="7f801-102">Seguridad con el adaptador de la base de datos de Oracle y el servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="7f801-102">Security with the Oracle Database adapter and BizTalk Server</span></span>
 <span data-ttu-id="7f801-103">Al configurar un puerto de envío o un puerto de recepción (ubicación) mediante el uso de la administración de BizTalk Server de la consola o utilizar el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para recuperar esquemas de mensaje para una solución de BizTalk, debe proporcionar credenciales para la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="7f801-103">When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the Oracle database.</span></span> <span data-ttu-id="7f801-104">Es importante proporcionar estas credenciales de una manera segura para ayudar a evitar que se revelen a actores potencialmente malintencionados.</span><span class="sxs-lookup"><span data-stu-id="7f801-104">It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors.</span></span> <span data-ttu-id="7f801-105">Este tema describe cómo proporcionar una forma más segura de credenciales para el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] para soluciones de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="7f801-105">This topic discusses how to most securely supply credentials for the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] for BizTalk Server solutions.</span></span>  

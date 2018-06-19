@@ -1,11 +1,11 @@
 ---
 title: Desarrollar aplicaciones de Siebel mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, developing applications by using
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - proxy programming, performing operations
 - WCF service model, advantages of using
 ms.assetid: df5627b9-c80d-4a75-a20a-a0be119735a2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222532"
 ---
 # <a name="develop-siebel-applications-using-the-wcf-service-model"></a><span data-ttu-id="369c1-102">Desarrollar aplicaciones de Siebel mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="369c1-102">Develop Siebel applications using the WCF Service Model</span></span>
 [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]<span data-ttu-id="369c1-103">Proporciona un modelo de programación denominada el modelo de servicio WCF, que, en parte, ayudan a solucionar algunas de las limitaciones de otro modelo de programación, el modelo de canal WCF.</span><span class="sxs-lookup"><span data-stu-id="369c1-103"> provides a programming model called the WCF service model, which, in part, helps address some of the limitations of another programming model—the WCF channel model.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264940"
 ---
 # <a name="primarytransport-sendport-node"></a><span data-ttu-id="85007-102">PrimaryTransport (nodo puertoEnvío)</span><span class="sxs-lookup"><span data-stu-id="85007-102">PrimaryTransport (SendPort Node)</span></span>
 <span data-ttu-id="85007-103">El nodo PrimaryTransport del nodo puertoEnvío de un archivo de enlace proporciona información específica acerca del transporte principal enlazado a un puerto de envío que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="85007-103">The PrimaryTransport node of the SendPort node of a binding file provides specific information about the primary transport that is bound to a send port exported with the binding file.</span></span>  

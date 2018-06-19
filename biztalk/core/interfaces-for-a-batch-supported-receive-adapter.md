@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para un compatible con lotes del adaptador de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para un compatible con lotes del adaptador de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa6ee780-189c-41e3-9ab0-6b869e791c0a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258012"
 ---
 # <a name="interfaces-for-a-batch-supported-receive-adapter"></a><span data-ttu-id="8be5b-102">Interfaces de un adaptador de recepción compatible con lotes</span><span class="sxs-lookup"><span data-stu-id="8be5b-102">Interfaces for a Batch-Supported Receive Adapter</span></span>
 <span data-ttu-id="8be5b-103">Un adaptador de recepción siempre envía mensajes en un lote.</span><span class="sxs-lookup"><span data-stu-id="8be5b-103">A receive adapter always submits messages in a batch.</span></span> <span data-ttu-id="8be5b-104">Un lote es una unidad de operaciones de base de datos que se puede utilizar para realizar acciones que no sean envíos.</span><span class="sxs-lookup"><span data-stu-id="8be5b-104">A batch is a unit of database operations that you can use for actions other than submission.</span></span> <span data-ttu-id="8be5b-105">Por ejemplo, un adaptador de recepción puede enviar un conjunto de mensajes, suspender un conjunto diferente de mensajes y eliminar otro conjunto de mensajes en el mismo lote.</span><span class="sxs-lookup"><span data-stu-id="8be5b-105">For example, a receive adapter can submit one set of messages, suspend a different set of messages, and delete another set of messages in the same batch.</span></span> <span data-ttu-id="8be5b-106">Agrupar estas operaciones individuales en el mismo lote optimiza el rendimiento, con lo que se minimiza el número de ciclos de ida y vuelta de bases de datos necesario y se recomienda encarecidamente.</span><span class="sxs-lookup"><span data-stu-id="8be5b-106">Grouping these separate operations in the same batch optimizes performance by minimizing the number of database round trips required and is strongly encouraged.</span></span>  

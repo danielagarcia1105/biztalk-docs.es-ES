@@ -1,14 +1,14 @@
 ---
 title: Ejemplos de mensajes de MX | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b592034f-2dd3-40e4-8f0b-eb6d65c38fff
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209148"
 ---
 # <a name="examples-of-mx-messages"></a><span data-ttu-id="96997-102">Ejemplos de mensajes de MX</span><span class="sxs-lookup"><span data-stu-id="96997-102">Examples of MX Messages</span></span>
 <span data-ttu-id="96997-103">Líneas de comandos para generar la solución (plantilla de formulario de InfoPath) para los mensajes de diferentes MX</span><span class="sxs-lookup"><span data-stu-id="96997-103">Command Lines to generate the solution (InfoPath form template) for the Different MX messages</span></span>  

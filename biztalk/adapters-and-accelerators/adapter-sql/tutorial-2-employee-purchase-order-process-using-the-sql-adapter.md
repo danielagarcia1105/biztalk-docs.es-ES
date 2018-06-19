@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial 2: Empleado: proceso de pedido de compra con el adaptador de SQL | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eeb4dd1e-209a-47eb-9c0e-a138e02f0ff2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223236"
 ---
 # <a name="tutorial-2-employee---purchase-order-process-using-the-sql-adapter"></a><span data-ttu-id="eab40-102">Tutorial 2: Empleado: proceso de pedido de compra con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="eab40-102">Tutorial 2: Employee - Purchase Order Process using the SQL adapter</span></span>
 <span data-ttu-id="eab40-103">En este tutorial, va a automatizar el proceso donde el departamento de compras que coloca un equipo solicitar cada vez que la organización une a un nuevo empleado.</span><span class="sxs-lookup"><span data-stu-id="eab40-103">In this tutorial, you are automating the process where the Purchases department that places an equipment order every time a new employee joins the organization.</span></span> <span data-ttu-id="eab40-104">Detalles de los empleados y los detalles de pedido de compra se mantienen en **empleado** y **Purchase_Order** respectivamente, las tablas en una base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="eab40-104">Both employee details and purchase order details are maintained in **Employee** and **Purchase_Order** tables respectively, in a SQL Server database.</span></span> <span data-ttu-id="eab40-105">El departamento de compras se informa mediante la actualización de la tabla Purchase_Order en la base de datos de SQL Server y envíe un correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="eab40-105">The Purchases department is informed by updating the Purchase_Order table in the SQL Server database and by sending an e-mail.</span></span> <span data-ttu-id="eab40-106">Dentro del proceso, se producen las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="eab40-106">Within the process, the following actions occur:</span></span>  

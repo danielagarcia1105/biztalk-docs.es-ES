@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213964"
 ---
 # <a name="physical-diagram"></a><span data-ttu-id="66ec2-102">Diagrama físico</span><span class="sxs-lookup"><span data-stu-id="66ec2-102">Physical Diagram</span></span>
 <span data-ttu-id="66ec2-103">Una implementación típica agrupado equipos con BizTalk Server para la mensajería (enviar y recibir), equipos de BizTalk Server para ejecutar el proceso empresarial (orquestación), los equipos con BizTalk Server para tener acceso a las plantillas de InfoPath (sitio MRSR), y equipos con SQL Server en clúster.</span><span class="sxs-lookup"><span data-stu-id="66ec2-103">A typical deployment has clustered BizTalk Server computers for messaging (sending and receiving), BizTalk Server computers for executing the business process (orchestration), BizTalk Server computers for accessing the InfoPath templates (MRSR site), and clustered SQL Server computers.</span></span> <span data-ttu-id="66ec2-104">La siguiente implementación garantiza un entorno seguro desde la intranet y los usuarios de Internet.</span><span class="sxs-lookup"><span data-stu-id="66ec2-104">The following deployment ensures a secure environment from both the intranet and Internet users.</span></span>  

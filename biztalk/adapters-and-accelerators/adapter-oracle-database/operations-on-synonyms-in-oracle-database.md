@@ -1,14 +1,14 @@
 ---
-title: "Operaciones en sinónimos en la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Operaciones en sinónimos en la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 608e8c36-ac78-4d7d-aca4-be552505fc2b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214964"
 ---
 # <a name="operations-on-synonyms-in-oracle-database"></a><span data-ttu-id="d99a3-102">Operaciones en sinónimos en la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="d99a3-102">Operations on Synonyms in Oracle Database</span></span>
 <span data-ttu-id="d99a3-103">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] le permite realizar operaciones en sinónimos.</span><span class="sxs-lookup"><span data-stu-id="d99a3-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] allows you to perform operations on synonyms.</span></span> <span data-ttu-id="d99a3-104">Un sinónimo es un alias o un nombre descriptivo para los objetos de base de datos (como tablas, vistas, procedimientos almacenados, funciones y paquetes).</span><span class="sxs-lookup"><span data-stu-id="d99a3-104">A synonym is an alias or friendly name for the database objects (such as tables, views, stored procedures, functions, and packages).</span></span> <span data-ttu-id="d99a3-105">Para obtener más información acerca de los sinónimos en Oracle, vea [http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058).</span><span class="sxs-lookup"><span data-stu-id="d99a3-105">For more information about synonyms in Oracle, see [http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058).</span></span>  

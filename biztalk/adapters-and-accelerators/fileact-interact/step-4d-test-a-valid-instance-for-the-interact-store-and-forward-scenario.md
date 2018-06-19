@@ -1,14 +1,14 @@
 ---
-title: "Paso 4d: probar una instancia válida para el almacén de interacción y el escenario de reenvío | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4d: probar una instancia válida para el almacén de interacción y el escenario de reenvío | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa49df8-ccf6-455a-99ff-38879d2b7bf9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224284"
 ---
 # <a name="step-4d-test-a-valid-instance-for-the-interact-store-and-forward-scenario"></a><span data-ttu-id="d015a-102">Paso 4d: probar una instancia válida para el almacén de interacción y el escenario de reenvío</span><span class="sxs-lookup"><span data-stu-id="d015a-102">Step 4D: Test a Valid Instance for the InterAct Store and Forward Scenario</span></span>
 <span data-ttu-id="d015a-103">Antes de comenzar este paso, debe completar [paso 4c: crear una instancia de prueba para el almacén de interacción y reenviar escenario](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-interact-store-and-forward-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="d015a-103">Before you begin this step, you must complete [Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-interact-store-and-forward-scenario.md).</span></span>  

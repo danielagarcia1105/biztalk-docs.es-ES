@@ -1,14 +1,14 @@
 ---
-title: "Escenario de reenvío y almacenamiento de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: Escenario de reenvío y almacenamiento de FileAct | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 58353105-79ac-41af-853e-b83917e2b078
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222700"
 ---
 # <a name="fileact-store-and-forward-scenario"></a><span data-ttu-id="5320b-102">Escenario de reenvío y almacenamiento de FileAct</span><span class="sxs-lookup"><span data-stu-id="5320b-102">FileAct Store and Forward Scenario</span></span>
 <span data-ttu-id="5320b-103">Antes de comenzar los pasos descritos en este escenario, debe completar [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).</span><span class="sxs-lookup"><span data-stu-id="5320b-103">Before you begin the steps in this scenario, you must complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Ejemplo de escenario basado en concentrador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, supply chains
 - trading partners, supply chains
 ms.assetid: ee92c24d-a281-4950-a61e-9cb3bd08d291
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210420"
 ---
 # <a name="sample-hub-based-scenario"></a><span data-ttu-id="46e0c-102">Escenario de ejemplo basado en concentrador</span><span class="sxs-lookup"><span data-stu-id="46e0c-102">Sample Hub-Based Scenario</span></span>
 <span data-ttu-id="46e0c-103">En muchos escenarios de cadena de suministro, una empresa trabajará con cada uno de sus socios comerciales para establecer una conexión de RosettaNet Implementation Framework (RNIF).</span><span class="sxs-lookup"><span data-stu-id="46e0c-103">In many supply-chain scenarios, a company will work with each of their trading partners to institute a RosettaNet Implementation Framework (RNIF) connection.</span></span> <span data-ttu-id="46e0c-104">Se trata de un método eficaz para estandarizar las comunicaciones en toda la cadena de suministro.</span><span class="sxs-lookup"><span data-stu-id="46e0c-104">This is an effective way to standardize communications throughout the supply chain.</span></span> <span data-ttu-id="46e0c-105">Este escenario se describe en [escenario de cadena de suministro de ejemplo](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="46e0c-105">This scenario is described in [Sample Supply Chain Scenario](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md).</span></span>  

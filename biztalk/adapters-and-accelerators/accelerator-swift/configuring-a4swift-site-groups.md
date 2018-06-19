@@ -1,11 +1,11 @@
 ---
-title: "Configuración de grupos de sitio de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de grupos de sitio de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - site groups, creating
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - user accounts, site groups
 - site groups, user accounts
 ms.assetid: ec2f3efe-439a-4018-ad94-5ab0fb2808ee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209012"
 ---
 # <a name="configuring-a4swift-site-groups"></a><span data-ttu-id="251b9-102">Configuración de grupos de sitio de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="251b9-102">Configuring A4SWIFT Site Groups</span></span>
 <span data-ttu-id="251b9-103">Debe crear los grupos de sitio correspondiente para restringir los permisos en las bibliotecas de documentos que se crearon durante la configuración de reparación de mensajes y nuevo envío.</span><span class="sxs-lookup"><span data-stu-id="251b9-103">You need to create the corresponding site groups to lock down the permissions on the document libraries created during Message Repair and New Submission configuration.</span></span> <span data-ttu-id="251b9-104">Para realizar esta acción con el ejemplo en la sección anterior, un administrador de A4SWIFT ¿vaya al sitio MRSR y configurar los grupos de sitio siguientes:</span><span class="sxs-lookup"><span data-stu-id="251b9-104">To do so with the example in the preceding section, an A4SWIFT Administrator would go to the MRSR site and set up the following site groups:</span></span>  

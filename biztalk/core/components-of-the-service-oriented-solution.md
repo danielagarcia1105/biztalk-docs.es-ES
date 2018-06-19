@@ -1,11 +1,11 @@
 ---
-title: "Solución orientada a servicios de componentes del servicio | Documentos de Microsoft"
-ms.custom: 
+title: Solución orientada a servicios de componentes del servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, pipelines
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - service solution tutorial, orchestrations
 - service solution tutorial, back-end applications
 ms.assetid: 97b7b754-abfb-48f9-87bf-7fe171121166
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234260"
 ---
 # <a name="components-of-the-service-oriented-solution"></a><span data-ttu-id="a42c8-102">Solución orientada a servicios de componentes del servicio</span><span class="sxs-lookup"><span data-stu-id="a42c8-102">Components of the Service Oriented Solution</span></span>
 <span data-ttu-id="a42c8-103">En esta sección se describen los principales componentes de BizTalk Server de la solución orientada a servicios.</span><span class="sxs-lookup"><span data-stu-id="a42c8-103">This section describes the major BizTalk Server components of the Service Oriented Solution.</span></span> <span data-ttu-id="a42c8-104">El siguiente diagrama muestra los principales componentes de la solución:</span><span class="sxs-lookup"><span data-stu-id="a42c8-104">The following diagram shows the major components of the solution:</span></span>  

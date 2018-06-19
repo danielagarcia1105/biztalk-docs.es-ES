@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218004"
 ---
 # <a name="sapparameter-class-in-the-sap-adapter"></a><span data-ttu-id="aa4f6-102">Clase SAPParameter en el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="aa4f6-102">SAPParameter class in the SAP adapter</span></span>
 <span data-ttu-id="aa4f6-103">En la siguiente sección se enumera los métodos y propiedades para la **SAPParameter** clase.</span><span class="sxs-lookup"><span data-stu-id="aa4f6-103">The following section lists the methods and properties for the **SAPParameter** class.</span></span> <span data-ttu-id="aa4f6-104">Esto se deriva de **System.Data.Common.DbParameter**.</span><span class="sxs-lookup"><span data-stu-id="aa4f6-104">This is derived from **System.Data.Common.DbParameter**.</span></span>  

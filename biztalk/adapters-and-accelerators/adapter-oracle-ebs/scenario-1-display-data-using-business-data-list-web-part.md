@@ -1,14 +1,14 @@
 ---
-title: "Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos | Documentos de Microsoft"
-ms.custom: 
+title: 'Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3831814-8b70-4352-b22f-cebd08750ef5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217436"
 ---
 # <a name="scenario-1-display-data-using-business-data-list-web-part"></a><span data-ttu-id="930be-102">Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos</span><span class="sxs-lookup"><span data-stu-id="930be-102">Scenario 1: Display data using Business Data List web part</span></span>
 <span data-ttu-id="930be-103">Usaremos el **lista de datos económicos** elemento Web para la **buscador** instancia de método.</span><span class="sxs-lookup"><span data-stu-id="930be-103">We will use the **Business Data List** Web Part for the **Finder** method instance.</span></span> <span data-ttu-id="930be-104">Este elemento Web le permite especificar una expresión de búsqueda para recuperar una lista de empleados de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="930be-104">This Web Part enables you to specify a search expression to retrieve a list of employees from Oracle E-Business Suite.</span></span> <span data-ttu-id="930be-105">Para este tutorial, esto se denomina el elemento Web de los empleados de presentación.</span><span class="sxs-lookup"><span data-stu-id="930be-105">For this tutorial, this is called the Display Employees Web Part.</span></span> <span data-ttu-id="930be-106">Esta sección proporciona instrucciones para crear este elemento Web.</span><span class="sxs-lookup"><span data-stu-id="930be-106">This section provides instructions to create this Web Part.</span></span> <span data-ttu-id="930be-107">Para obtener más información acerca de cómo crear elementos Web, vea "Personalizar listas de datos de negocio, elementos Web y sitios" en [http://go.microsoft.com/fwlink/?LinkId=104131](http://go.microsoft.com/fwlink/?LinkId=104131).</span><span class="sxs-lookup"><span data-stu-id="930be-107">For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [http://go.microsoft.com/fwlink/?LinkId=104131](http://go.microsoft.com/fwlink/?LinkId=104131).</span></span>  

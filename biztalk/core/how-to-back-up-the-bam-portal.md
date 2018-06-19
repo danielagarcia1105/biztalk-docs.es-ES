@@ -1,14 +1,14 @@
 ---
-title: "Cómo realizar copias de seguridad del Portal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo realizar copias de seguridad del Portal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8cea02e6-e387-4048-a1f3-d7c3c562f470
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247124"
 ---
 # <a name="how-to-back-up-the-bam-portal"></a><span data-ttu-id="4129d-102">Cómo realizar una copia de seguridad del portal de SAE</span><span class="sxs-lookup"><span data-stu-id="4129d-102">How to Back Up the BAM Portal</span></span>
 <span data-ttu-id="4129d-103">Si utiliza Supervisión de la actividad económica (SAE), debe realizar una copia de seguridad del portal de SAE como parte de la realización de copias de seguridad de su servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="4129d-103">If you are using Business Activity Monitoring (BAM), you must back up the BAM portal as part of backing up your BizTalk server.</span></span> <span data-ttu-id="4129d-104">Si no utiliza SAE, este procedimiento es opcional.</span><span class="sxs-lookup"><span data-stu-id="4129d-104">If you are not using BAM, this procedure is optional.</span></span>  

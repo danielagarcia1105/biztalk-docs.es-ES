@@ -1,14 +1,14 @@
 ---
-title: "Configurar el límite máximo de conexiones al servidor SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el límite máximo de conexiones al servidor SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 858ed90e-b219-43cc-ad63-ae8e1eb2159a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215852"
 ---
 # <a name="configure-the-maximum-connection-limit-to-the-sap-server"></a><span data-ttu-id="39c4d-102">Configurar el límite máximo de conexiones al servidor SAP</span><span class="sxs-lookup"><span data-stu-id="39c4d-102">Configure the Maximum Connection Limit to the SAP Server</span></span>
 <span data-ttu-id="39c4d-103">El proveedor de datos para SAP permite a los clientes de adaptador controlar el número máximo de conexiones que se pueden abrir internamente por el proveedor.</span><span class="sxs-lookup"><span data-stu-id="39c4d-103">The Data Provider for SAP enables adapter clients to control the maximum number of connections that can be opened by the provider internally.</span></span> <span data-ttu-id="39c4d-104">Puede controlar esto estableciendo la variable de entorno CPIC_MAX_CONV.</span><span class="sxs-lookup"><span data-stu-id="39c4d-104">You can control this by setting the environment variable, CPIC_MAX_CONV.</span></span>  

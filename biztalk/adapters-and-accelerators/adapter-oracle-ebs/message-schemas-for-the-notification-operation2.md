@@ -1,14 +1,14 @@
 ---
-title: "Esquemas de mensajes para la notificación Operation2 | Documentos de Microsoft"
-ms.custom: 
+title: Esquemas de mensajes para la notificación Operation2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dddab2ef-94db-46c8-95c1-57517681e8dd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215948"
 ---
 # <a name="message-schemas-for-the-notification-operation"></a><span data-ttu-id="261ee-102">Esquemas de mensaje para la operación de notificación</span><span class="sxs-lookup"><span data-stu-id="261ee-102">Message Schemas for the Notification Operation</span></span>
 <span data-ttu-id="261ee-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]superficies de la operación de notificación para recibir notificaciones de cambio de base de datos de la base de datos subyacente en Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="261ee-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces the Notification operation to receive database change notifications from the underlying database in Oracle E-Business Suite.</span></span>  

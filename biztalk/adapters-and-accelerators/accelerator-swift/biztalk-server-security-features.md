@@ -1,11 +1,11 @@
 ---
-title: "Características de seguridad de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Características de seguridad de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - authentication
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, security features
 - BizTalk Server, security features
 ms.assetid: db356439-1898-4c09-86de-458a9bd21b18
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211052"
 ---
 # <a name="biztalk-server-security-features"></a><span data-ttu-id="92332-102">Características de seguridad de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="92332-102">BizTalk Server Security Features</span></span>
 <span data-ttu-id="92332-103">Las aplicaciones de servicios financieras y soluciones de integración desarrollan mediante [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] son [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] aplicaciones y están protegen por nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] características de seguridad.</span><span class="sxs-lookup"><span data-stu-id="92332-103">Financial Services applications and integration solutions developed by using [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications and are secured by native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] security features.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="92332-104">las aplicaciones normalmente se componen de funcionalidad de mensajería (mensaje de procesamiento, transformación, enrutamiento) y la automatización del flujo de trabajo (automatización de procesos empresariales, las reglas de negocios y evaluación lógica).</span><span class="sxs-lookup"><span data-stu-id="92332-104"> applications are typically made up of messaging functionality (message processing, transformation, routing) and workflow automation (business process automation, business rules and logic evaluation).</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="92332-105">proporciona seguridad de automatización general de mensajería y flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="92332-105"> provides general messaging and workflow automation security.</span></span> [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="92332-106">proporciona características de seguridad adicionales específicas para proteger el envío, reparación, aprobación y entrada de mensaje para el usuario final.</span><span class="sxs-lookup"><span data-stu-id="92332-106"> provides additional security features specific to securing end-user message entry, repair, approval, and submission.</span></span> <span data-ttu-id="92332-107">Para obtener más información acerca de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]-seguridad específicos, consulte [A4SWIFT las características de seguridad de reparación de mensajes y nuevo envío](../../adapters-and-accelerators/accelerator-swift/a4swift-security-features-for-message-repair-and-new-submission.md).</span><span class="sxs-lookup"><span data-stu-id="92332-107">For more information about [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]-specific security, see [A4SWIFT Security Features for Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/a4swift-security-features-for-message-repair-and-new-submission.md).</span></span>  

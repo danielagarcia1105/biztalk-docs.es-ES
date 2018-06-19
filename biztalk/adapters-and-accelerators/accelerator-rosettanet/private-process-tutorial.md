@@ -1,18 +1,18 @@
 ---
 title: Tutorial de procesos privados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, tutorial
 - private process tutorial
 - tutorials, private process tutorial
 ms.assetid: 58affc48-af73-406e-895f-696bc284d945
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209924"
 ---
 # <a name="private-process-tutorial"></a><span data-ttu-id="7547d-102">Tutorial de procesos privado</span><span class="sxs-lookup"><span data-stu-id="7547d-102">Private Process Tutorial</span></span>
 <span data-ttu-id="7547d-103">Este tutorial contiene una completa solución de extremo a extremo mediante [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="7547d-103">This tutorial contains a complete end-to-end solution using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="7547d-104">El tutorial detalla los pasos que se deben seguir para implementar una solución compatible con RosettaNet mediante la creación de un escenario comercial entre dos empresas ficticias: la organización del proveedor, Contoso y Fabrikam, la organización del comprador.</span><span class="sxs-lookup"><span data-stu-id="7547d-104">The tutorial details the steps that you have to follow to implement a RosettaNet-compliant solution by creating a trading scenario between two fictitious companies: Contoso, the supplier organization, and Fabrikam, the buyer organization.</span></span>  

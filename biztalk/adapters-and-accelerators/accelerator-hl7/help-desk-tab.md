@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204860"
 ---
 # <a name="help-desk-tab"></a><span data-ttu-id="a6c67-102">Ficha del departamento de soporte de ayuda</span><span class="sxs-lookup"><span data-stu-id="a6c67-102">Help Desk Tab</span></span>
 <span data-ttu-id="a6c67-103">Utilice la ficha de departamento de soporte técnico para especificar los datos sobre el destino o la entidad de origen.</span><span class="sxs-lookup"><span data-stu-id="a6c67-103">You use the Help Desk tab to enter data about the destination or source party.</span></span> <span data-ttu-id="a6c67-104">Tener la información de entidad en la pestaña del departamento de soporte técnico es útil si se han producido errores generados y deberá ponerse en contacto con la entidad.</span><span class="sxs-lookup"><span data-stu-id="a6c67-104">Having the party information in the Help Desk tab is helpful if there are any errors generated and you need to contact the party.</span></span> <span data-ttu-id="a6c67-105">Si se produce un error en un mensaje, la información de entidad estará en el mensaje de confirmación.</span><span class="sxs-lookup"><span data-stu-id="a6c67-105">If there is an error in a message, the party information will be in the ACK message.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Lección 6: Crear una personalizada canalización de envío | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 6: Crear una personalizada canalización de envío | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - custom pipelines
 - send pipelines, custom pipelines
 ms.assetid: 73a3a546-1e43-4b93-87d3-9bfb32685a57
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210164"
 ---
 # <a name="lesson-6-creating-a-custom-send-pipeline"></a><span data-ttu-id="a6fa6-102">Lección 6: Crear una canalización de envío personalizada</span><span class="sxs-lookup"><span data-stu-id="a6fa6-102">Lesson 6: Creating a Custom Send Pipeline</span></span>
 <span data-ttu-id="a6fa6-103">En esta lección, creará una canalización de envío personalizada utilizando el Diseñador de canalizaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a6fa6-103">In this lesson, you create a custom send pipeline using BizTalk Pipeline Designer.</span></span> <span data-ttu-id="a6fa6-104">Una canalización de envío es una canalización que se ejecuta en los mensajes antes de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] envía los mensajes a su destino.</span><span class="sxs-lookup"><span data-stu-id="a6fa6-104">A send pipeline is a pipeline you run on messages before [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sends the messages to their destination.</span></span>  

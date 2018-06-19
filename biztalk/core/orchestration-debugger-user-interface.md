@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265660"
 ---
 # <a name="orchestration-debugger-user-interface"></a><span data-ttu-id="53e74-102">Interfaz de usuario del Depurador de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="53e74-102">Orchestration Debugger User Interface</span></span>
 <span data-ttu-id="53e74-103">En el modo interactivo (depurar), la vista depurador de orquestaciones contiene tres paneles: el panel orquestación, panel eventos controlados y panel de servicio.</span><span class="sxs-lookup"><span data-stu-id="53e74-103">In interactive (debug) mode, the Orchestration Debugger view contains three areas: Service pane, Tracked Events pane, and the Orchestration pane.</span></span> <span data-ttu-id="53e74-104">Además, en modo interactivo, la Lista de variables y las Propiedades de variables aparecen en la parte inferior de la vista.</span><span class="sxs-lookup"><span data-stu-id="53e74-104">In addition, in interactive mode, the Variable list and Variable properties display across the bottom of the view.</span></span>  

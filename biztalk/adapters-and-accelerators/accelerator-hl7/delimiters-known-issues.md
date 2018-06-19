@@ -1,17 +1,17 @@
 ---
 title: Problemas conocidos de delimitadores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - known issues, delimiters
 - delimiters
 ms.assetid: 4eaacb3c-9d8d-43da-91dd-8bb25dec70e1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204692"
 ---
 # <a name="delimiters-known-issues"></a><span data-ttu-id="a6ee6-102">Problemas conocidos de delimitadores</span><span class="sxs-lookup"><span data-stu-id="a6ee6-102">Delimiters Known Issues</span></span>
 <span data-ttu-id="a6ee6-103">Esta sección contiene información útil que puede ayudar a evitar errores de delimitador.</span><span class="sxs-lookup"><span data-stu-id="a6ee6-103">This section contains useful information that may help you avoid delimiter errors.</span></span>  

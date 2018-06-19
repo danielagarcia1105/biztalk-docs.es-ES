@@ -1,14 +1,14 @@
 ---
-title: "Características para los clientes de adaptador de Oracle EBS | Documentos de Microsoft"
-ms.custom: 
+title: Características para los clientes de adaptador de Oracle EBS | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50256fb7-5f0c-4b32-87e6-98f49da0b360
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217260"
 ---
 # <a name="features-for-oracle-ebs-adapter-clients"></a><span data-ttu-id="527f1-102">Características para los clientes de adaptador de Oracle EBS</span><span class="sxs-lookup"><span data-stu-id="527f1-102">Features for Oracle EBS adapter clients</span></span>
 <span data-ttu-id="527f1-103">Además de las características tratadas en todos los temas de [información general sobre el adaptador de BizTalk para Oracle E-Business Suite](http://msdn.microsoft.com/library/4f18fa2e-4e97-4c28-b38d-fc39ac53789e), el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] también proporciona las siguientes características que son útiles para los clientes de adaptador:</span><span class="sxs-lookup"><span data-stu-id="527f1-103">In addition to the features discussed throughout the topics of [Overview of BizTalk Adapter for Oracle E-Business Suite](http://msdn.microsoft.com/library/4f18fa2e-4e97-4c28-b38d-fc39ac53789e), the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] also provides the following features that are useful for adapter clients:</span></span>  

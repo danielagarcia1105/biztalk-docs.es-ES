@@ -1,14 +1,14 @@
 ---
-title: "Escenario 2: Realizar búsquedas mediante el elemento web de cuadro de búsqueda | Documentos de Microsoft"
-ms.custom: 
+title: 'Escenario 2: Realizar búsquedas mediante el elemento web de cuadro de búsqueda | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a233772f-7577-4ac5-b55a-cb1ba2f464c7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218548"
 ---
 # <a name="scenario-2--search-using-the-search-box-web-part"></a><span data-ttu-id="1138f-102">Escenario 2: Realizar búsquedas mediante el elemento web de cuadro de búsqueda</span><span class="sxs-lookup"><span data-stu-id="1138f-102">Scenario 2:  Search using the search box web part</span></span>
 <span data-ttu-id="1138f-103">Se va a configurar la configuración de búsqueda en Microsoft Office SharePoint Server para configurar una aplicación de búsqueda con la que puede realizar una búsqueda de texto completo en la tabla de interfaz MS_SAMPLE_EMPLOYEE en Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="1138f-103">We will configure the search settings in Microsoft Office SharePoint Server to configure a search application using which you can perform a full text search on the MS_SAMPLE_EMPLOYEE interface table in Oracle E-Business Suite.</span></span> <span data-ttu-id="1138f-104">Más adelante, agregaremos un elemento de Web de cuadro de búsqueda para desde donde puede realizar la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="1138f-104">Later, we will add a Search Box Web Part to from where you can perform the search.</span></span>  

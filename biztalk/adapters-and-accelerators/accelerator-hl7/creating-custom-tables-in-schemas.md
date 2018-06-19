@@ -1,18 +1,18 @@
 ---
 title: Crear tablas personalizadas en esquemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, Z tables [Z objects]
 - Z objects, creating Z tables
 - 2.X schemas, creating Z tables
 ms.assetid: d6ab8ac9-a835-4ec0-9ddd-76ff267a3cbd
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960346"
 ---
 # <a name="creating-custom-tables-in-schemas"></a><span data-ttu-id="ffe63-102">Crear tablas personalizadas en esquemas</span><span class="sxs-lookup"><span data-stu-id="ffe63-102">Creating Custom Tables in Schemas</span></span>
 <span data-ttu-id="ffe63-103">Puede crear una tabla personalizada en el tablevalues_\<*versión*\>esquema común de XSD.</span><span class="sxs-lookup"><span data-stu-id="ffe63-103">You can create a custom table in the tablevalues_\<*version*\>.xsd common schema.</span></span> <span data-ttu-id="ffe63-104">Puede basar una tabla personalizada en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.</span><span class="sxs-lookup"><span data-stu-id="ffe63-104">You can base a custom table on an existing data type, a base data type, or on an enumeration defined in a table.</span></span>  

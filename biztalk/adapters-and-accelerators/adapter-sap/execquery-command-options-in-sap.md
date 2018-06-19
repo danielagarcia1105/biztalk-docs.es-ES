@@ -1,14 +1,14 @@
 ---
 title: Opciones de comando EXECQUERY en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 785c615c-b766-4d05-8802-4eb694cb3500
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216228"
 ---
 # <a name="execquery-command-options-in-sap"></a><span data-ttu-id="a86c3-102">Opciones de comando EXECQUERY en SAP</span><span class="sxs-lookup"><span data-stu-id="a86c3-102">EXECQUERY command options in SAP</span></span>
 <span data-ttu-id="a86c3-103">El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] permite a los clientes invocar consultas SAP desde aplicaciones de ADO.NET mediante el comando EXECQUERY.</span><span class="sxs-lookup"><span data-stu-id="a86c3-103">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] enables clients to invoke SAP queries from ADO.NET applications by using the EXECQUERY command.</span></span> <span data-ttu-id="a86c3-104">Esta sección proporciona información sobre la sintaxis del comando EXECQUERY y cómo utilizarlo.</span><span class="sxs-lookup"><span data-stu-id="a86c3-104">This section provides information on the syntax of EXECQUERY command and how to use it.</span></span> <span data-ttu-id="a86c3-105">En esta sección también proporciona información sobre cómo enmarcar sintaxis EXECQUERY examinando la definición de la consulta en el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="a86c3-105">This section also provides information on how to frame EXECQUERY syntax by looking at the definition of the query in the SAP system.</span></span>  

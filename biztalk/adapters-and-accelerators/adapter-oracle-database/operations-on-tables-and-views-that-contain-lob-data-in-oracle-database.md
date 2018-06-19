@@ -1,11 +1,11 @@
 ---
 title: Operaciones en tablas y vistas que contienen datos LOB en la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data type
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - BLOB
 - character large object
 ms.assetid: 25afd8c7-8ca3-4855-a231-2bec28c9a5cb
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214396"
 ---
 # <a name="operations-on-tables-and-views-that-contain-lob-data-in-oracle-database"></a><span data-ttu-id="504c1-102">Operaciones en tablas y vistas que contienen datos LOB en la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="504c1-102">Operations on tables and views that contain LOB data in Oracle Database</span></span>
 <span data-ttu-id="504c1-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona compatibilidad para los tipos de datos de objetos grandes (LOB) de Oracle:</span><span class="sxs-lookup"><span data-stu-id="504c1-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides support for the Oracle large object (LOB) data types:</span></span>  

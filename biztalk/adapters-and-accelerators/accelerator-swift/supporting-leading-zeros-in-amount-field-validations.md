@@ -1,18 +1,18 @@
 ---
 title: Compatibilidad con los ceros iniciales de validaciones de campo de cantidad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - amounts, amount fields
 - amounts, leading zeros
 - validating, amount fields
 ms.assetid: 7c202422-019f-43da-9c2a-4b9fdf0b2859
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961370"
 ---
 # <a name="supporting-leading-zeros-in-amount-field-validations"></a><span data-ttu-id="91a49-102">Compatibilidad con los ceros iniciales de validaciones de campo de cantidad</span><span class="sxs-lookup"><span data-stu-id="91a49-102">Supporting Leading Zeros in Amount Field Validations</span></span>
 <span data-ttu-id="91a49-103">Las directivas de validación de algunos tipos de mensaje realizan validaciones en los campos de cantidad.</span><span class="sxs-lookup"><span data-stu-id="91a49-103">The validation policies of some message types perform validations on Amount fields.</span></span> <span data-ttu-id="91a49-104">Para habilitar los ceros a la izquierda en los campos de cantidad, debe modificar la directiva de validación para el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="91a49-104">To enable leading zeros in Amount fields, you must edit the validation policy for the message type.</span></span> <span data-ttu-id="91a49-105">Puede crear una nueva versión de la directiva de validación de forma predeterminada y editar el argumento en el Compositor de reglas de negocios, o puede modificar la directiva predeterminada manualmente en un editor de texto antes de implementa la directiva.</span><span class="sxs-lookup"><span data-stu-id="91a49-105">You can create a new version of the default validation policy, and edit the argument in the Business Rule Composer, or you can edit the default policy manually in a text editor before the policy is deployed.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío | Documentos de Microsoft"
-ms.custom: 
+title: Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - security, A4SWIFT
 - messages, security
 ms.assetid: c34bcba7-fecd-4e2f-ab49-a6ccfd96198b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208172"
 ---
 # <a name="a4swift-security-features-for-message-repair-and-new-submission"></a><span data-ttu-id="b37f8-102">Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío</span><span class="sxs-lookup"><span data-stu-id="b37f8-102">A4SWIFT Security Features for Message Repair and New Submission</span></span>
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]<span data-ttu-id="b37f8-103">ofrece los medios de cuadro de mensaje SWIFT creación, reparación, comprobación de regeneración de claves y aprobación.</span><span class="sxs-lookup"><span data-stu-id="b37f8-103"> provides out-of-the-box facilities for SWIFT message creation, repair, rekey verification, and approval.</span></span> <span data-ttu-id="b37f8-104">Los usuarios empresariales crear, editar y revisar los mensajes de SWIFT mediante [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)], que proporciona una interfaz gráfica de usuario y de representación para financieros mensajes (FIN).</span><span class="sxs-lookup"><span data-stu-id="b37f8-104">Business users create, edit, and review SWIFT messages by using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)], which provides a graphical representation and user interface for financial (FIN) messages.</span></span> [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]<span data-ttu-id="b37f8-105">representa el formulario de comprobación de la entrada y la reparación o regeneración de claves desde el XML generado por el tiempo de ejecución de A4SWIFT y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b37f8-105"> renders the entry/repair/rekey verification form from the XML produced by the A4SWIFT runtime and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="b37f8-106">A4SWIFT proporciona un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] plantilla por cada term mensaje tipo (basado en el esquema XSD de A4SWIFT correspondiente) para que puedan abrir los tipos de mensaje SWIFT FINÉS en [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b37f8-106">A4SWIFT provides an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] template for each FIN message type (based on the corresponding A4SWIFT XSD schema) so that you can open any SWIFT FIN message types in [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)].</span></span> <span data-ttu-id="b37f8-107">A4SWIFT proporciona las siguientes características para ayudar en la seguridad.</span><span class="sxs-lookup"><span data-stu-id="b37f8-107">A4SWIFT provides the following features to aid in security.</span></span>  

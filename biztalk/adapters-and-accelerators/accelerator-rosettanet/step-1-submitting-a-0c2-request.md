@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966138"
 ---
 # <a name="step-1-submitting-a-0c2-request"></a><span data-ttu-id="2d43f-102">Paso 1: Enviar un 0c solicitar 2</span><span class="sxs-lookup"><span data-stu-id="2d43f-102">Step 1: Submitting a 0C2 Request</span></span>
 <span data-ttu-id="2d43f-103">En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 0c 2 - solicitud asincrónica de prueba.</span><span class="sxs-lookup"><span data-stu-id="2d43f-103">In this step, you prepare and submit a request using the Partner Interface Process (PIP) for an 0C2 - Asynchronous Test Request.</span></span> <span data-ttu-id="2d43f-104">Este PIP garantiza que un canal de comunicación asincrónica funciona correctamente entre dos organizaciones diferentes.</span><span class="sxs-lookup"><span data-stu-id="2d43f-104">This PIP ensures that an asynchronous communication channel is working correctly between two different organizations.</span></span> <span data-ttu-id="2d43f-105">Este PIP sigue el mismo patrón que otros PIP de doble acción asincrónica, como el 3A4 - solicitud PIP de pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="2d43f-105">This PIP follows the same pattern as other asynchronous double action PIPs, such as the 3A4 - Request Purchase Order PIP.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: 'Tutorial 2: Migrar un proyecto de BizTalk RFC de SAP | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migrating, BizTalk project from previous version of the SAP adapter
 - migration
 - migrating, SAP RFC BizTalk project
 ms.assetid: b4943613-23d2-4869-b033-ec07daabfac5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218100"
 ---
 # <a name="tutorial-2-migrating-an-sap-rfc-biztalk-project"></a><span data-ttu-id="734f9-102">Tutorial 2: Migrar un proyecto de BizTalk RFC de SAP</span><span class="sxs-lookup"><span data-stu-id="734f9-102">Tutorial 2: Migrating an SAP RFC BizTalk Project</span></span>
 <span data-ttu-id="734f9-103">La versión anterior del adaptador SAP que se incluye con Microsoft BizTalk Server difiere basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] en muchos aspectos, como:</span><span class="sxs-lookup"><span data-stu-id="734f9-103">The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:</span></span>  

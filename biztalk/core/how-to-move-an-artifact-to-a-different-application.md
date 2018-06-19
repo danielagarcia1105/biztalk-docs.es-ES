@@ -1,17 +1,17 @@
 ---
-title: "Cómo mover un artefacto a una aplicación diferente | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover un artefacto a una aplicación diferente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, moving
 - applications, artifacts
 ms.assetid: 861e7782-0566-4478-a0bd-f8ced1ea6d56
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254460"
 ---
 # <a name="how-to-move-an-artifact-to-a-different-application"></a><span data-ttu-id="b2ada-102">Cómo mover un artefacto a una aplicación diferente</span><span class="sxs-lookup"><span data-stu-id="b2ada-102">How to Move an Artifact to a Different Application</span></span>
 <span data-ttu-id="b2ada-103">En este tema se describe cómo mover un artefacto de una aplicación a otra dentro de un grupo de BizTalk mediante el comando Mover a aplicación de la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b2ada-103">This topic describes how to move an artifact from one application to another within a BizTalk group by using the Move To Application command of the BizTalk Server Administration console.</span></span> <span data-ttu-id="b2ada-104">Puede que desee hacerlo si necesita usar en una aplicación un artefacto que ya existe en otra aplicación del mismo grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b2ada-104">You might want to do this if you need to use an artifact that already exists in one application in a different application in the same BizTalk group.</span></span>  

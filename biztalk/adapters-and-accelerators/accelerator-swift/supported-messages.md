@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215380"
 ---
 # <a name="supported-messages"></a><span data-ttu-id="e5a3e-102">Mensajes compatibles</span><span class="sxs-lookup"><span data-stu-id="e5a3e-102">Supported Messages</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="e5a3e-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona una lista de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] y los mensajes de SWIFT.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a list of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] and SWIFT messages.</span></span> <span data-ttu-id="e5a3e-104">Los mensajes se dividen en varias categorías financieros que se enumeran a continuación.</span><span class="sxs-lookup"><span data-stu-id="e5a3e-104">The messages fall into several financial categories which are listed below.</span></span>  

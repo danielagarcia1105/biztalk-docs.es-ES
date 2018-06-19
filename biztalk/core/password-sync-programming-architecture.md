@@ -1,14 +1,14 @@
 ---
-title: "Arquitectura de programación de sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura de programación de sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 679edbf1-fb08-4472-b366-3e1d361b20e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264676"
 ---
 # <a name="password-sync-programming-architecture"></a><span data-ttu-id="af196-102">Arquitectura de programación de sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="af196-102">Password Sync Programming Architecture</span></span>
 <span data-ttu-id="af196-103">Un adaptador de sincronización de contraseñas utiliza un modelo de extracción para interactuar con el resto del sistema Enterprise Single Sign-On: es decir, el adaptador recibe activamente cambios de contraseña desde el servicio de inicio de sesión único (ENTSSO) empresarial y también desde el sistema ajeno a Windows.</span><span class="sxs-lookup"><span data-stu-id="af196-103">A password sync adapter uses a pull model for interacting with the rest of the Enterprise Single Sign-On system: that is, the adapter actively receives password changes from the Enterprise Single Sign-On (ENTSSO) service and also from the non-Windows system.</span></span> <span data-ttu-id="af196-104">De igual manera, el adaptador extrae cambios de contraseñas recibidos de un sistema al otro.</span><span class="sxs-lookup"><span data-stu-id="af196-104">Similarly, the adapter pushes password changes received from one system to the other.</span></span> <span data-ttu-id="af196-105">Con este modelo, el adaptador interactúa con tres componentes de arquitectura: la arquitectura ENTSSO, el componente aplicación auxiliar de sincronización de contraseñas (PS) y un sistema ajeno a Windows especificado.</span><span class="sxs-lookup"><span data-stu-id="af196-105">With this model, your adapter interacts with three architectural components: the ENTSSO architecture, the Password Sync (PS) Helper component, and a specified non-Windows system.</span></span>  

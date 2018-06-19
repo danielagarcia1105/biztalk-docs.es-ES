@@ -1,18 +1,18 @@
 ---
 title: Ejemplos de orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - SDK samples, orchestrations
 ms.assetid: 183dd0dd-9012-46a4-af4e-2b6181d4c148
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209692"
 ---
 # <a name="orchestration-samples"></a><span data-ttu-id="d17e8-102">Ejemplos de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="d17e8-102">Orchestration Samples</span></span>
 <span data-ttu-id="d17e8-103">El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK) incluye varios ejemplos de orquestación.</span><span class="sxs-lookup"><span data-stu-id="d17e8-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes several orchestration samples.</span></span> <span data-ttu-id="d17e8-104">Esta sección proporciona información detallada acerca de la funcionalidad que se muestra en estos ejemplos de orquestaciones, las instrucciones para generar y ejecutar los ejemplos y los resultados que puede esperar.</span><span class="sxs-lookup"><span data-stu-id="d17e8-104">This section provides detailed information about the functionality demonstrated by these orchestration samples, instructions for building and running the samples, and the results that you can expect.</span></span>  

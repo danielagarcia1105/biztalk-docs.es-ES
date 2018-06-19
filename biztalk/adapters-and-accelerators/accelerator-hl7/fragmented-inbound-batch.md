@@ -1,18 +1,18 @@
 ---
 title: Fragmentado por lotes entrantes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, fragmenting messages
 - messages, fragmenting
 - fragmenting messages
 ms.assetid: 5844710e-f662-48a3-bf1a-bc1ba91e678a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204892"
 ---
 # <a name="fragmented-inbound-batch"></a><span data-ttu-id="6dd9b-102">Fragmentados por lotes entrantes</span><span class="sxs-lookup"><span data-stu-id="6dd9b-102">Fragmented Inbound Batch</span></span>
 <span data-ttu-id="6dd9b-103">Puede configurar [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para recibir un lote de mensajes, extraer los mensajes del lote y, a continuación, enrutar los mensajes individuales en el sistema de destino.</span><span class="sxs-lookup"><span data-stu-id="6dd9b-103">You can configure [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to receive a message batch, extract the messages from the batch, and then route the individual messages to the destination system.</span></span> <span data-ttu-id="6dd9b-104">Si habilita la fragmentación, los fragmentos por lotes entrantes en mensajes individuales; en caso contrario, se procesa el lote y se enruta como un único 'batch' o el intercambio.</span><span class="sxs-lookup"><span data-stu-id="6dd9b-104">If you enable fragmentation, the inbound batch fragments into individual messages; otherwise, the batch is processed and routed as a single 'batch' or interchange.</span></span> <span data-ttu-id="6dd9b-105">Use el Explorador de configuración de BTAHL7 para habilitar el procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="6dd9b-105">You use BTAHL7 Configuration Explorer to enable batching.</span></span> <span data-ttu-id="6dd9b-106">Para obtener más información acerca de cómo habilitar el procesamiento por lotes, vea [configurar el procesamiento por lotes](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md).</span><span class="sxs-lookup"><span data-stu-id="6dd9b-106">For more information about enabling batching, see [Configuring Batching](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md).</span></span>  

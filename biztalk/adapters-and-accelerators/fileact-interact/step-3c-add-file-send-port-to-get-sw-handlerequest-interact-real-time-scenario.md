@@ -1,14 +1,14 @@
 ---
-title: "Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar en tiempo real escenario | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar en tiempo real escenario | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31e9c942-ba74-4ae2-b6e1-5266d0fbcb14
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224196"
 ---
 # <a name="step-3c-add-file-send-port-to-get-swhandlerequest-interact-real-time-scenario"></a><span data-ttu-id="2b511-102">Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar escenario en tiempo real</span><span class="sxs-lookup"><span data-stu-id="2b511-102">Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario</span></span>
 <span data-ttu-id="2b511-103">Cuando se envía un mensaje al socio, SWIFT transforma el encabezado del mensaje y reenvía el mensaje al socio como un mensaje Sw:HandleRequest.</span><span class="sxs-lookup"><span data-stu-id="2b511-103">When you send a message to your partner, SWIFT transforms the message header and forwards the message to your partner as a Sw:HandleRequest message.</span></span> <span data-ttu-id="2b511-104">Antes de comenzar este paso, debe completar [paso 3B: agregar una ubicación de recepción interactuar para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="2b511-104">Before you begin this step, you must complete [Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md).</span></span>  

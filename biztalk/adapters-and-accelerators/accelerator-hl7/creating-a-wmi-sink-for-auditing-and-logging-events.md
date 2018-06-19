@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear un WMI receptor para la auditoría y registro de eventos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un WMI receptor para la auditoría y registro de eventos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WMI sink
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - logging, WMI sink
 - WMI sink, logging
 ms.assetid: 5feb1e98-32ed-4505-878e-274028d50c3c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204556"
 ---
 # <a name="creating-a-wmi-sink-for-auditing-and-logging-events"></a><span data-ttu-id="07e14-102">Crear un receptor WMI para la auditoría y registro de eventos</span><span class="sxs-lookup"><span data-stu-id="07e14-102">Creating a WMI Sink for Auditing and Logging Events</span></span>
 <span data-ttu-id="07e14-103">Puede usar el siguiente código de ejemplo para crear un [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] receptor Management Instrumentation (WMI) para supervisar la auditoría y registro de eventos:</span><span class="sxs-lookup"><span data-stu-id="07e14-103">You can use the following sample code to create a [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Management Instrumentation (WMI) sink to monitor auditing and logging events:</span></span>  

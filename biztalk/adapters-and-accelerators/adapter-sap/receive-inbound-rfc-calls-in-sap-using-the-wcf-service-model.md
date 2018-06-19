@@ -1,17 +1,17 @@
 ---
 title: Recibir llamadas de RFC de entrada en SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, receiving inbound RFC calls
 - RFC calls, receiving inbound using the WCF service model
 ms.assetid: 064d70d7-1603-467f-9aba-ecab78a567ff
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218460"
 ---
 # <a name="receive-inbound-rfc-calls-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="3e29b-102">Recibir llamadas de RFC de entrada en SAP mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="3e29b-102">Receive Inbound RFC Calls in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="3e29b-103">La [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] puede actuar como un servidor RFC para recibir las solicitudes de cambio invocados por un sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="3e29b-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] can act as an RFC server to receive RFCs invoked by a SAP system.</span></span>  

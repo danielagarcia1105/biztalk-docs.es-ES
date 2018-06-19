@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207252"
 ---
 # <a name="step-5-create-the-receive-port-for-accepting-his-messages"></a><span data-ttu-id="989e1-102">Paso 5: Crear el puerto de recepción para aceptar los mensajes</span><span class="sxs-lookup"><span data-stu-id="989e1-102">Step 5: Create the Receive Port for Accepting HIS Messages</span></span>
 <span data-ttu-id="989e1-103">En este paso creará un puerto de recepción para especificar la ubicación para los mensajes entrantes enviados por el sistema de información de Hospital (HIS).</span><span class="sxs-lookup"><span data-stu-id="989e1-103">In this step you create a receive port to specify the location for incoming messages sent by the Hospital Information System (HIS).</span></span> <span data-ttu-id="989e1-104">Utilice el procedimiento siguiente para crear el puerto de recepción para aceptar mensajes de respuesta de consulta desde el sistema ADT mediante el adaptador de protocolo de nivel inferior mínimo (MLLP).</span><span class="sxs-lookup"><span data-stu-id="989e1-104">Use the following procedure to create the receive port for accepting query response messages from the ADT system using the Minimal Lower Layer Protocol (MLLP) adapter.</span></span>  

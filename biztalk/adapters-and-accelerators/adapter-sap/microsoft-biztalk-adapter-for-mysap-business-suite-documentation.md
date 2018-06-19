@@ -1,15 +1,15 @@
 ---
-title: "Adaptador de Microsoft BizTalk para mySAP documentación Business Suite | Documentos de Microsoft"
+title: Adaptador de Microsoft BizTalk para mySAP documentación Business Suite | Documentos de Microsoft
 description: Obtener iniciado, arquitectura, seguridad, desarrollar aplicaciones, esquemas de mensajes y solucionar problemas del adaptador de mySAP en BizTalk Adapter Pack
-ms.custom: 
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 26b728d7-f1e9-470a-aba5-10c9f53e2d2b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217372"
 ---
 # <a name="microsoft-biztalk-adapter-for-mysap-business-suite-documentation"></a><span data-ttu-id="4fdd9-103">Adaptador de Microsoft BizTalk para mySAP documentación Business Suite</span><span class="sxs-lookup"><span data-stu-id="4fdd9-103">Microsoft BizTalk Adapter for mySAP Business Suite documentation</span></span>
 <span data-ttu-id="4fdd9-104">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] incluye una serie de recursos para ayudarle a entender cómo funciona el adaptador, cómo crear aplicaciones que usan el adaptador, se describen las opciones de conexión diferente, aprenda a crear aplicaciones y mucho más.</span><span class="sxs-lookup"><span data-stu-id="4fdd9-104">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.</span></span>

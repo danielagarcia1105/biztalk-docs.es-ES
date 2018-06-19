@@ -1,11 +1,11 @@
 ---
 title: Documentos relacionados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [BAM], document references
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], document references
 - queries [BAM], viewing details
 ms.assetid: 9c5f2175-fe7c-40ec-910d-1ac5c8142045
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970074"
 ---
 # <a name="related-documents"></a><span data-ttu-id="b79d5-102">Documentos relacionados</span><span class="sxs-lookup"><span data-stu-id="b79d5-102">Related Documents</span></span>
 <span data-ttu-id="b79d5-103">El área de documentos relacionados de los detalles de los resultados de consulta muestra una lista de los documentos de referencia que están relacionados con la actividad.</span><span class="sxs-lookup"><span data-stu-id="b79d5-103">The Related Documents area of the query results detail displays a list of documents that are reference documents that relate to the activity.</span></span> <span data-ttu-id="b79d5-104">Los documentos pueden ser de cualquier tipo, incluso una imagen CAD, un archivo WAV o un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="b79d5-104">The documents can be of any type, including a CAD image, a .WAV file, or a purchase order.</span></span> <span data-ttu-id="b79d5-105">Por ejemplo, una actividad de pedido de compra tendrá, por lo general, un pedido de compra como tipo de documento base.</span><span class="sxs-lookup"><span data-stu-id="b79d5-105">For example, a Purchase Order activity will typically have a Purchase Order as a base document type.</span></span> <span data-ttu-id="b79d5-106">La lista tendrá un vínculo al pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="b79d5-106">The list will contain a link to the purchase order.</span></span>  

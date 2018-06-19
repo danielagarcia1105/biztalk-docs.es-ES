@@ -1,17 +1,17 @@
 ---
-title: "Paso 5: Configurar lo servidores de mensajería de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Configurar lo servidores de mensajería de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, BizTalk Messaging servers
 - BizTalk Messaging servers, configuring
 ms.assetid: 598d336d-b006-4d02-9249-e9d6d9b6b7b5
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214012"
 ---
 # <a name="step-5-configuring-the-biztalk-messaging-servers"></a><span data-ttu-id="6be8f-102">Paso 5: Configurar lo servidores de mensajería de BizTalk</span><span class="sxs-lookup"><span data-stu-id="6be8f-102">Step 5: Configuring the BizTalk Messaging Servers</span></span>
 <span data-ttu-id="6be8f-103">Esta sección proporciona instrucciones sobre cómo configurar los servidores de mensajería de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="6be8f-103">This section provides guidelines on configuring the BizTalk Messaging servers.</span></span>  

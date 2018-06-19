@@ -1,17 +1,17 @@
 ---
-title: "Solución de problemas de confirmaciones | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de confirmaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, troubleshooting
 - troubleshooting, acknowledgements
 ms.assetid: faed356e-f5fc-4920-a9f9-82eca0ad7d67
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207036"
 ---
 # <a name="troubleshooting-acknowledgments"></a><span data-ttu-id="6d4e2-102">Solución de problemas de confirmaciones</span><span class="sxs-lookup"><span data-stu-id="6d4e2-102">Troubleshooting Acknowledgments</span></span>
 <span data-ttu-id="6d4e2-103">Soluciona problemas relacionados con [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] confirmaciones.</span><span class="sxs-lookup"><span data-stu-id="6d4e2-103">Addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] acknowledgments.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Extender el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft"
-ms.custom: 
+title: Extender el componente de canalización de desensamblador de archivos sin formato | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, code sample
 - pipeline components [custom], flat file documents
 - pipeline components [custom], disassembling
 ms.assetid: 4bcc746a-696a-4e5c-be01-f8409fce21fa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246236"
 ---
 # <a name="extending-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="03dda-102">Extender el componente de canalización de desensamblador de archivos sin formato</span><span class="sxs-lookup"><span data-stu-id="03dda-102">Extending the Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="03dda-103">El siguiente ejemplo ilustra cómo crear un desensamblador personalizado para analizar documentos de archivos sin formato codificados con UTF-7.</span><span class="sxs-lookup"><span data-stu-id="03dda-103">The following sample illustrates how to create a custom disassembler to parse flat file documents that are UTF-7 encoded.</span></span> <span data-ttu-id="03dda-104">Para procesar documentos UTF-7, el componente hereda de la **FFDasmComp** clase y, a continuación, reemplaza su **GetDataReader** método.</span><span class="sxs-lookup"><span data-stu-id="03dda-104">To process UTF-7 documents, the component inherits from the **FFDasmComp** class and then overrides its **GetDataReader** method.</span></span>  

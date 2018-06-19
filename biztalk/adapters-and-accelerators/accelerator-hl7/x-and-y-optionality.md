@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SegmentDataElements table
 - segments, X optionality
 ms.assetid: 8a59b407-95a2-45ba-a8d6-db4154c91d7b
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22207220"
 ---
 # <a name="39x39-and-39y39-optionality"></a><span data-ttu-id="32e3e-102">&#39;X&#39; y &#39;Y&#39; opcionalidad</span><span class="sxs-lookup"><span data-stu-id="32e3e-102">&#39;X&#39; and &#39;Y&#39; Optionality</span></span>
 <span data-ttu-id="32e3e-103">La tabla SegmentDataElements en la base de datos de Access de HL7 contiene varios elementos de datos (campos) que se han establecido como **Req/Opt = X**, lo que significa que el estándar HL7 no asociar este campo a este evento de desencadenador, como se muestra en el tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="32e3e-103">The SegmentDataElements table in the HL7 Access database contains several Data Items (fields) that have been set as **Req/Opt = X**, meaning that the HL7 standard does not associate this field with this trigger event, as shown in the following table.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para Insert, Update, Delete y seleccione operaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b8de271-67db-4279-8f95-0b4dd92fa3c4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218236"
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations"></a><span data-ttu-id="5160d-102">Esquemas de mensaje para insertar, actualizar, eliminar y seleccionar operaciones</span><span class="sxs-lookup"><span data-stu-id="5160d-102">Message Schemas for Insert, Update, Delete, and Select Operations</span></span>
 <span data-ttu-id="5160d-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]superficies básicas Insert, Update, Delete y las operaciones Select para cada tabla de interfaz en Oracle E-Business Suite y todas las tablas de la base de datos subyacente.</span><span class="sxs-lookup"><span data-stu-id="5160d-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces basic Insert, Update, Delete, and Select operations for each interface table in Oracle E-Business Suite and each table in the underlying database.</span></span> <span data-ttu-id="5160d-104">El adaptador también expone la operación de selección para cada vista de la interfaz en Oracle E-Business Suite y cada vista en la base de datos subyacente.</span><span class="sxs-lookup"><span data-stu-id="5160d-104">The adapter also surfaces the Select operation for each interface view in Oracle E-Business Suite and each view in the underlying database.</span></span> <span data-ttu-id="5160d-105">Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE.</span><span class="sxs-lookup"><span data-stu-id="5160d-105">These operations perform the appropriate SQL statement qualified by a WHERE clause.</span></span> <span data-ttu-id="5160d-106">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] usa fuertemente tipada de registros y conjuntos de registros en estas operaciones.</span><span class="sxs-lookup"><span data-stu-id="5160d-106">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] uses strongly-typed records and record sets in these operations.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Mantener bases de datos BTARN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maintaining databases
 - databases, maintaining
 ms.assetid: b048f68c-1e12-42e3-b7bb-2a87fe977f4e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209764"
 ---
 # <a name="maintaining-btarn-databases"></a><span data-ttu-id="a94dc-102">Mantener bases de datos BTARN</span><span class="sxs-lookup"><span data-stu-id="a94dc-102">Maintaining BTARN Databases</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="a94dc-103">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] bases de datos pueden crecer tan grandes que su tamaño puede afectar al rendimiento del sistema.</span><span class="sxs-lookup"><span data-stu-id="a94dc-103">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] databases can grow so large that their size can affect system performance.</span></span> <span data-ttu-id="a94dc-104">Esto puede deberse a circunstancias concretas que dejan las entradas no utilizadas en las tablas, como datos adjuntos huérfanos o resúmenes no utilizados.</span><span class="sxs-lookup"><span data-stu-id="a94dc-104">This can result from specific circumstances that leave unused entries in the tables, such as orphan attachments or unused digests.</span></span> <span data-ttu-id="a94dc-105">También puede producirse no elimine las entradas más antiguas de las tablas.</span><span class="sxs-lookup"><span data-stu-id="a94dc-105">It can also occur from not deleting old entries in the tables.</span></span> <span data-ttu-id="a94dc-106">Siga los procedimientos descritos en esta sección para mantener su [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] bases de datos de modo que no hay ningún efecto en el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="a94dc-106">Follow the procedures in this section to maintain your [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] databases so there is no effect on performance.</span></span>  

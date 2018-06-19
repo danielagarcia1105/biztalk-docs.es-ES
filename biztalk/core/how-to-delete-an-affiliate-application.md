@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], deleting
 - deleting, applications [SSO]
 ms.assetid: c7ec065e-ef10-49ff-a350-105dd08dc4a9
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968770"
 ---
 # <a name="how-to-delete-an-affiliate-application"></a><span data-ttu-id="6b925-102">Cómo eliminar una aplicación afiliada</span><span class="sxs-lookup"><span data-stu-id="6b925-102">How to Delete an Affiliate Application</span></span>
 <span data-ttu-id="6b925-103">Puede utilizar el Complemento MMC o la línea de comandos para eliminar la aplicación afiliada de la base de datos de SSO.</span><span class="sxs-lookup"><span data-stu-id="6b925-103">You can use the MMC Snap-In or the command line to delete the specified affiliate application from the SSO database.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar expresiones para realizar asignaciones de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar expresiones para realizar asignaciones de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, distinquished fields
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - orchestrations, messages
 - messages, components
 ms.assetid: 9989caf5-012c-4fc4-b5d8-981ca9a69f43
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256748"
 ---
 # <a name="how-to-use-expressions-to-perform-message-assignments"></a><span data-ttu-id="126fb-102">Cómo usar expresiones para realizar asignaciones de mensajes</span><span class="sxs-lookup"><span data-stu-id="126fb-102">How to Use Expressions to Perform Message Assignments</span></span>
 <span data-ttu-id="126fb-103">Puede utilizar expresiones para manipular los mensajes de varias formas en una orquestación.</span><span class="sxs-lookup"><span data-stu-id="126fb-103">You can use expressions to manipulate messages in various ways in your orchestration.</span></span>  

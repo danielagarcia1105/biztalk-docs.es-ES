@@ -1,18 +1,18 @@
 ---
-title: "Información general sobre el adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter, overview
 - ODP.NET
 - Oracle Data Provider for .NET 2.0
 ms.assetid: 852b8f82-ab34-45b8-ad7f-263d719a87f9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214212"
 ---
 # <a name="overview-of-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="a98eb-102">Información general sobre el adaptador de BizTalk para base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="a98eb-102">Overview of BizTalk Adapter for Oracle Database</span></span>
 <span data-ttu-id="a98eb-103">La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone la base de datos de Oracle como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="a98eb-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes the Oracle database as a WCF service.</span></span> <span data-ttu-id="a98eb-104">Los clientes de adaptador pueden realizar operaciones en la base de datos de Oracle mediante el intercambio de mensajes SOAP con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="a98eb-104">Adapter clients can perform operations on the Oracle database by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="a98eb-105">El adaptador utiliza el mensaje de WCF y realiza llamadas ODP.NET adecuadas para realizar la operación.</span><span class="sxs-lookup"><span data-stu-id="a98eb-105">The adapter consumes the WCF message and makes appropriate ODP.NET calls to perform the operation.</span></span> <span data-ttu-id="a98eb-106">El adaptador devuelve la respuesta de la base de datos de Oracle al cliente en forma de mensajes SOAP.</span><span class="sxs-lookup"><span data-stu-id="a98eb-106">The adapter returns the response from the Oracle database back to the client in the form of SOAP messages.</span></span>  

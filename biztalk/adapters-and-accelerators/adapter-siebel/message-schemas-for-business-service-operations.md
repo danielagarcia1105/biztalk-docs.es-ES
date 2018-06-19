@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222300"
 ---
 # <a name="message-schemas-for-business-service-operations"></a><span data-ttu-id="ffd28-102">Esquemas de mensaje para las operaciones de servicio de negocios</span><span class="sxs-lookup"><span data-stu-id="ffd28-102">Message Schemas for Business Service Operations</span></span>
 <span data-ttu-id="ffd28-103">Un servicio de negocios de Siebel es una colección de métodos de negocio que se pueden invocar directamente en un sistema Siebel.</span><span class="sxs-lookup"><span data-stu-id="ffd28-103">A Siebel business service is a collection of business methods that can be directly invoked on a Siebel system.</span></span> <span data-ttu-id="ffd28-104">La [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] expone los métodos de negocio de un servicio de negocios de Siebel como operaciones.</span><span class="sxs-lookup"><span data-stu-id="ffd28-104">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces the business methods of a Siebel business service as operations.</span></span>  

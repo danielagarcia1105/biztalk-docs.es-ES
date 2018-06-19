@@ -1,11 +1,11 @@
 ---
 title: Utilizar el adaptador SAP con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft Office SharePoint Server
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tutorial, MOSS
 - Business Data Catalog
 ms.assetid: 2a07eafb-1344-4169-afab-e6d51a38a2e9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217556"
 ---
 # <a name="use-the-sap-adapter-with-sharepoint"></a><span data-ttu-id="200e7-102">Utilizar el adaptador SAP con SharePoint</span><span class="sxs-lookup"><span data-stu-id="200e7-102">Use the SAP adapter with SharePoint</span></span>
 <span data-ttu-id="200e7-103">Mayoría de las aplicaciones de negocio (LOB) tiene propietarios interfaces que son accesibles a relativamente pocas personas con los conocimientos necesarios en la materia.</span><span class="sxs-lookup"><span data-stu-id="200e7-103">Most line-of-business (LOB) applications have proprietary interfaces that are accessible to relatively few people with the required subject matter expertise.</span></span> <span data-ttu-id="200e7-104">Sin embargo, como información relevante de necesidad de los trabajadores de información de todos los niveles de una organización, los expertos en la materia deben exportar los datos necesarios a aplicaciones más conocidas, como Microsoft Excel, los trabajadores de información utilizan la información.</span><span class="sxs-lookup"><span data-stu-id="200e7-104">However, because information workers need relevant information at all levels in an organization, the subject matter experts have to export required data into more familiar applications, like Microsoft Excel, for information workers to consume the information.</span></span>  

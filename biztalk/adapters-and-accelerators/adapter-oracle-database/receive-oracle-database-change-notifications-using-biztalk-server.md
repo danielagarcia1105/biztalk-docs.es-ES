@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de cambio de base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 495a29bc-72f6-4140-8160-0b917d935503
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215228"
 ---
 # <a name="receive-oracle-database-change-notifications-using-biztalk-server"></a><span data-ttu-id="960ad-102">Recibir notificaciones de cambio de base de datos de Oracle mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="960ad-102">Receive Oracle Database Change Notifications Using BizTalk Server</span></span>
 <span data-ttu-id="960ad-103">Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de notificación de cambio de base de datos de la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="960ad-103">You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive database change notification messages from the Oracle database.</span></span> <span data-ttu-id="960ad-104">Puede especificar una instrucción SELECT que utiliza el adaptador para registrar las notificaciones de con la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="960ad-104">You can specify a SELECT statement that the adapter uses to register for notifications with the Oracle database.</span></span> <span data-ttu-id="960ad-105">El adaptador recibe un mensaje de notificación cuando cambia el conjunto de resultados de la instrucción SELECT, registrada para la notificación.</span><span class="sxs-lookup"><span data-stu-id="960ad-105">The adapter receives a notification message when the result set for the SELECT statement, registered for notification, changes.</span></span> <span data-ttu-id="960ad-106">Para obtener más información acerca del modo en que el adaptador admite notificaciones, consulte [consideraciones para recibir notificaciones de cambio de base de datos mediante el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/before-you-receive-database-change-notifications-using-the-oracle-db-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="960ad-106">For more information about how the adapter supports notification, see [Considerations for Receiving Database Change Notifications using the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/before-you-receive-database-change-notifications-using-the-oracle-db-adapter.md).</span></span>  

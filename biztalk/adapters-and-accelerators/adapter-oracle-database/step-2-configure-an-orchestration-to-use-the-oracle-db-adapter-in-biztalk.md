@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server para usar el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server para usar el adaptador de la base de datos de Oracle | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 598b4ab0-ff22-4dfa-aa9c-774c60c90227
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215556"
 ---
 # <a name="step-2-configure-the-orchestration-in-biztalk-server-administration-console-to-use-the-oracle-database-adapter"></a><span data-ttu-id="9801f-102">Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server para usar el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="9801f-102">Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter</span></span>
 <span data-ttu-id="9801f-103">![Paso 2 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="9801f-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "Pestaña de entidades en el Acelerador para HL7 en BizTalk Server | Documentos de Microsoft"
-description: "Use el Explorador de configuración de BTAHL7 para ver entidades existentes y configurar confirmaciones de BizTalk Server"
-ms.custom: 
+title: Pestaña de entidades en el Acelerador para HL7 en BizTalk Server | Documentos de Microsoft
+description: Use el Explorador de configuración de BTAHL7 para ver entidades existentes y configurar confirmaciones de BizTalk Server
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e01052c8-25c5-4736-8403-33f16fbd3fb7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206140"
 ---
 # <a name="parties-in-btahl7-configuration-explorer"></a><span data-ttu-id="72fa2-103">Partes en el Explorador de configuración de BTAHL7</span><span class="sxs-lookup"><span data-stu-id="72fa2-103">Parties in BTAHL7 Configuration Explorer</span></span>
 <span data-ttu-id="72fa2-104">Usa el **partes** ficha para ver las partes disponibles y especificar [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración para una entidad determinada que elija y para configurar las propiedades para las confirmaciones.</span><span class="sxs-lookup"><span data-stu-id="72fa2-104">You use the **Parties** tab to view the available parties and specify [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuration for a particular party that you choose, and to configure properties for acknowledgments.</span></span> 

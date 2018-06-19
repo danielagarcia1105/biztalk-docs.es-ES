@@ -1,17 +1,17 @@
 ---
-title: "Cómo ayudar a componente seguro Interfaces | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ayudar a componente seguro Interfaces | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, helping to secure
 - security, component interfaces
 ms.assetid: 03b2af44-78e7-4fdc-bfa3-7697b2a60986
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255220"
 ---
 # <a name="how-to-help-secure-component-interfaces"></a><span data-ttu-id="230a7-102">Cómo proteger las interfaces de componentes</span><span class="sxs-lookup"><span data-stu-id="230a7-102">How to Help Secure Component Interfaces</span></span>
 <span data-ttu-id="230a7-103">Antes de que pueda probar una interfaz de componente, debe establecer la seguridad para ésta.</span><span class="sxs-lookup"><span data-stu-id="230a7-103">Before you can start testing a component interface, you must set up security for it.</span></span> <span data-ttu-id="230a7-104">El siguiente procedimiento describe cómo configurar la seguridad de interfaz de componentes para la versión 8.4 de PeopleSoft pero puede utilizar le procedimiento para la versión 8.1.</span><span class="sxs-lookup"><span data-stu-id="230a7-104">The following procedure describes how to configure component interface security for PeopleSoft Version 8.4, but you can use the procedure for Version 8.1.</span></span>  

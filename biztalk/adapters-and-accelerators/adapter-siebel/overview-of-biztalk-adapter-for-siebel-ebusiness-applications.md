@@ -1,18 +1,18 @@
 ---
-title: "Información general del adaptador de BizTalk para aplicaciones Siebel eBusiness | Documentos de Microsoft"
-ms.custom: 
+title: Información general del adaptador de BizTalk para aplicaciones Siebel eBusiness | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - overview, adapter
 - adapter, overview of
 - adapter, overview
 ms.assetid: 41ab7d42-7096-45ef-9763-a5ccf88eb652
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222044"
 ---
 # <a name="overview-of-biztalk-adapter-for-siebel-ebusiness-applications"></a><span data-ttu-id="d9c01-102">Información general del adaptador de BizTalk para Siebel eBusiness Applications</span><span class="sxs-lookup"><span data-stu-id="d9c01-102">Overview of BizTalk Adapter for Siebel eBusiness Applications</span></span>
 <span data-ttu-id="d9c01-103">La [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] expone el sistema Siebel como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="d9c01-103">The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes the Siebel system as a WCF service.</span></span> <span data-ttu-id="d9c01-104">Los clientes de adaptador pueden realizar operaciones en el sistema Siebel mediante el intercambio de mensajes SOAP con el adaptador.</span><span class="sxs-lookup"><span data-stu-id="d9c01-104">Adapter clients can perform operations on the Siebel system by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="d9c01-105">El adaptador utiliza el mensaje de WCF y realiza las llamadas adecuadas al sistema Siebel para realizar la operación.</span><span class="sxs-lookup"><span data-stu-id="d9c01-105">The adapter consumes the WCF message and makes appropriate calls to the Siebel system to perform the operation.</span></span> <span data-ttu-id="d9c01-106">El adaptador devuelve la respuesta en el sistema Siebel al cliente en forma de mensajes SOAP.</span><span class="sxs-lookup"><span data-stu-id="d9c01-106">The adapter returns the response from the Siebel system back to the client in the form of SOAP messages.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Procesamiento de BTAHL72XML | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML messages, processing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - 2.XML messages, acknowledgements
 - 2.XML messages, validating
 ms.assetid: 2f12cb44-816c-4773-9db0-9cbc3d1b1aee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204684"
 ---
 # <a name="btahl72xml-processing"></a><span data-ttu-id="e62e4-102">Procesamiento de BTAHL72XML</span><span class="sxs-lookup"><span data-stu-id="e62e4-102">BTAHL72XML Processing</span></span>
 <span data-ttu-id="e62e4-103">Los componentes siguientes en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) procesar mensajes (codificación XML) de HL7 2. XML:</span><span class="sxs-lookup"><span data-stu-id="e62e4-103">The following components in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) process HL7 2.XML (XML-encoded) messages:</span></span>  

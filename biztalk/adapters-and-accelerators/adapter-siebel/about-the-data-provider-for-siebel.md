@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217764"
 ---
 # <a name="about-the-data-provider-for-siebel"></a><span data-ttu-id="908c4-102">Acerca del proveedor de datos para Siebel</span><span class="sxs-lookup"><span data-stu-id="908c4-102">About the Data Provider for Siebel</span></span>
 ## <a name="overview"></a><span data-ttu-id="908c4-103">Información general</span><span class="sxs-lookup"><span data-stu-id="908c4-103">Overview</span></span>

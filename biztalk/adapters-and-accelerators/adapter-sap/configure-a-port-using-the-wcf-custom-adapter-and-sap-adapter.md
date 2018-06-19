@@ -1,15 +1,15 @@
 ---
 title: Configurar un puerto mediante el adaptador WCF-custom y el adaptador SAP en BizTalk | Documentos de Microsoft
-description: "Crear un puerto personalizado de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Crear un puerto personalizado de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3962456-e9ac-4575-8266-b35e892dd428
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217740"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-sap-adapter"></a><span data-ttu-id="4a40f-103">Configurar un puerto mediante el adaptador de WCF-custom y el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="4a40f-103">Configure a port using the WCF-custom adapter and SAP adapter</span></span>
 <span data-ttu-id="4a40f-104">Este tema proporciona instrucciones sobre cómo configurar el envío de WCF-Custom y puertos de recepción para realizar operaciones entrantes y salientes en el sistema SAP mediante el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4a40f-104">This topic provides instructions on how to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  

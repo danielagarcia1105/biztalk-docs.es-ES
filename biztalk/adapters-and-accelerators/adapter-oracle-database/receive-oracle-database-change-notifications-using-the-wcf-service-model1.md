@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de cambios de base de datos de Oracle mediante la Modelo1 de servicio WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0f0e2bf-3e76-43cc-85dc-7483dbce1cb5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217052"
 ---
 # <a name="receive-oracle-database-change-notifications-using-the-wcf-service-model1"></a><span data-ttu-id="117f1-102">Recibir notificaciones de cambios de base de datos de Oracle mediante la Modelo1 de servicio WCF</span><span class="sxs-lookup"><span data-stu-id="117f1-102">Receive Oracle Database Change Notifications Using the WCF Service Model1</span></span>
 <span data-ttu-id="117f1-103">Este tema muestra cómo configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de notificación de consulta de una base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="117f1-103">This topic demonstrates how to configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive query notification messages from an Oracle database.</span></span> <span data-ttu-id="117f1-104">Para mostrar las notificaciones, considere la posibilidad de una tabla, ACCOUNTACTIVITY, con una columna "Procesados".</span><span class="sxs-lookup"><span data-stu-id="117f1-104">To demonstrate notifications, consider a table, ACCOUNTACTIVITY, with a “Processed” column.</span></span> <span data-ttu-id="117f1-105">Cuando se inserta un nuevo registro en esta tabla, el valor de la columna de estado se establece en ' n '.</span><span class="sxs-lookup"><span data-stu-id="117f1-105">When a new record is inserted to this table, the value of the Status column is set to ‘n’.</span></span> <span data-ttu-id="117f1-106">Puede configurar el adaptador para recibir notificaciones por registrarse para recibir notificaciones mediante una instrucción SQL que recupera todos los registros que tienen "Procesados" columna como ' n '.</span><span class="sxs-lookup"><span data-stu-id="117f1-106">You can configure the adapter to receive notifications by registering for notifications using a SQL statement that retrieves all records that have “Processed” column as ‘n’.</span></span> <span data-ttu-id="117f1-107">Puede hacerlo mediante la especificación de la instrucción SQL para la **NotificationStatement** propiedad de enlace.</span><span class="sxs-lookup"><span data-stu-id="117f1-107">You can do so by specifying the SQL statement for the **NotificationStatement** binding property.</span></span> <span data-ttu-id="117f1-108">Una vez que el cliente de adaptador recibe la notificación, puede contener la lógica para realizar las tareas siguientes en la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="117f1-108">Once the adapter client receives the notification, it can contain the logic to do any subsequent tasks on the Oracle database.</span></span> <span data-ttu-id="117f1-109">En este ejemplo, por simplicidad, el cliente de adaptador enumera todos los registros en la tabla que tiene la columna "Procesados" como ' n '.</span><span class="sxs-lookup"><span data-stu-id="117f1-109">In this example, for the sake of simplicity, the adapter client lists all the records in the table that have the “Processed” column as ‘n’.</span></span>  

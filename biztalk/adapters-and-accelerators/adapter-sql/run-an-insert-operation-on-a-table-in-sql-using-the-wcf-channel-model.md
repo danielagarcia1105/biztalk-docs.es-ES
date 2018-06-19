@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar una operación de inserción en una tabla en SQL mediante el modelo de canal de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar una operación de inserción en una tabla en SQL mediante el modelo de canal de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3df95d78-3a9c-48c0-81ab-1f3206c5e3f7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224412"
 ---
 # <a name="run-an-insert-operation-on-a-table-in-sql-using-the-wcf-channel-model"></a><span data-ttu-id="a3725-102">Ejecutar una operación de inserción en una tabla en SQL mediante el modelo de canal de WCF</span><span class="sxs-lookup"><span data-stu-id="a3725-102">Run an Insert Operation on a Table in SQL using the WCF Channel Model</span></span>
 <span data-ttu-id="a3725-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] detecta un conjunto de operaciones básicas de Insert, Select, Update y Delete en vistas y tablas de base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="a3725-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on SQL Server database tables and views.</span></span> <span data-ttu-id="a3725-104">Mediante el uso de estas operaciones, puede realizar simple SQL Insert, Select, Update y eliminar instrucciones que califican Where cláusula en una tabla de destino o la vista.</span><span class="sxs-lookup"><span data-stu-id="a3725-104">By using these operations, you can perform simple SQL Insert, Select, Update, and Delete statements qualified by a Where clause on a target table or view.</span></span> <span data-ttu-id="a3725-105">Este tema proporciona instrucciones sobre cómo realizar una operación de inserción en una tabla de base de datos de SQL Server mediante el modelo de canal WCF.</span><span class="sxs-lookup"><span data-stu-id="a3725-105">This topic provides instructions on how to perform an Insert operation on a SQL Server database table using the WCF channel model.</span></span>  

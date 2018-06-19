@@ -1,14 +1,14 @@
 ---
-title: "El valor de propiedad integer no es un entero válido | Documentos de Microsoft"
-ms.custom: 
+title: El valor de propiedad integer no es un entero válido | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa97f3dd-4a01-4007-b23a-820cbebbc083
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278388"
 ---
 # <a name="the-integer-property-value-is-not-a-valid-integer"></a><span data-ttu-id="45031-102">El valor de propiedad entero no es un entero válido.</span><span class="sxs-lookup"><span data-stu-id="45031-102">The integer property value is not a valid integer</span></span>
 ## <a name="details"></a><span data-ttu-id="45031-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="45031-103">Details</span></span>  

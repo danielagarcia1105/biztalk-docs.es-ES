@@ -1,11 +1,11 @@
 ---
 title: Procesamiento por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - batching, configuring
 - batching, Messaging Engine
 ms.assetid: eadc177a-d395-4f99-8dab-aa706fd8ea00
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230892"
 ---
 # <a name="batching"></a><span data-ttu-id="d1414-102">Procesar por lotes</span><span class="sxs-lookup"><span data-stu-id="d1414-102">Batching</span></span>
 <span data-ttu-id="d1414-103">*Procesamiento por lotes* es un procesamiento serializado de un conjunto de mensajes que permite optimizaciones con respecto a la base de datos de ida y vuelta.</span><span class="sxs-lookup"><span data-stu-id="d1414-103">*Batching* is a serialized processing of a set of messages that allows for optimizations with respect to database round trips.</span></span> <span data-ttu-id="d1414-104">Un lote constituye una unidad de trabajo atómica, es decir, el resultado correcto o incorrecto se produce en todo el conjunto.</span><span class="sxs-lookup"><span data-stu-id="d1414-104">A batch is a unit of work that is atomic; that is, it either all succeeds or all fails.</span></span> <span data-ttu-id="d1414-105">Si una operación en lote se realiza correctamente pero se producen errores en otra operación, todas las operaciones que componen el lote quedan invalidadas y deben repetirse.</span><span class="sxs-lookup"><span data-stu-id="d1414-105">If one operation in a batch succeeds but another operation fails, all the operations that make up the batch are invalidated and must be repeated.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Ejemplo ASPX de envío de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Ejemplo ASPX de envío de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8358f849-231f-432c-9fc2-6efdcf95580d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207204"
 ---
 # <a name="message-submission-aspx-sample"></a><span data-ttu-id="20cc6-102">Ejemplo de ASPX de envío de mensajes</span><span class="sxs-lookup"><span data-stu-id="20cc6-102">Message Submission ASPX Sample</span></span>
 <span data-ttu-id="20cc6-103">En este tema se proporciona código de .aspx de ejemplo que puede usar para enviar el contenido del servicio a un proceso privado.</span><span class="sxs-lookup"><span data-stu-id="20cc6-103">This topic provides sample .aspx code that you can use to submit service content to a private process.</span></span> <span data-ttu-id="20cc6-104">Puede usar este código .aspx en lugar de una aplicación de línea de negocio (LOB).</span><span class="sxs-lookup"><span data-stu-id="20cc6-104">You can use this .aspx code instead of a line-of-business (LOB) application.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Aplicación de servidor del adaptador interAct | Documentos de Microsoft"
-ms.custom: 
+title: Aplicación de servidor del adaptador interAct | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c50b239-0480-449f-aa6d-50bbb892e8a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223004"
 ---
 # <a name="interact-adapter-server-application"></a><span data-ttu-id="c219a-102">Aplicación de servidor del adaptador interAct</span><span class="sxs-lookup"><span data-stu-id="c219a-102">InterAct Adapter Server Application</span></span>
 <span data-ttu-id="c219a-103">Esta sección presenta una descripción general de la composición de mensajes de solicitud de aplicación de servidor.</span><span class="sxs-lookup"><span data-stu-id="c219a-103">This section presents a general description of the composition of server application Request messages.</span></span> <span data-ttu-id="c219a-104">Se trata de los documentos XML que se pasan desde el servidor SNL a la aplicación de servidor.</span><span class="sxs-lookup"><span data-stu-id="c219a-104">These are the XML documents passed from the server-side SNL to the server application.</span></span> <span data-ttu-id="c219a-105">Por lo tanto, estos mensajes son característicos de la primera parte de los tipos primitivos de SWIFTNet ejecutado en el servidor.</span><span class="sxs-lookup"><span data-stu-id="c219a-105">As such, these messages are characteristic of the first part of the SWIFTNet primitives exercised on the server side.</span></span>  

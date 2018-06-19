@@ -1,18 +1,18 @@
 ---
 title: Excepciones y control de errores con el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error handling, troubleshooting
 - exceptions, troubleshooting
 - troubleshooting, exceptions and error handling
 ms.assetid: d46e908f-0715-43e2-879b-f5d0beb9bc64
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221868"
 ---
 # <a name="exceptions-and-error-handling-with-the-siebel-adapter"></a><span data-ttu-id="27c6c-102">Excepciones y control de errores con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="27c6c-102">Exceptions and Error Handling with the Siebel adapter</span></span>
 ## <a name="exception-list"></a><span data-ttu-id="27c6c-103">Lista de excepciones</span><span class="sxs-lookup"><span data-stu-id="27c6c-103">Exception list</span></span>

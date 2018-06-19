@@ -1,11 +1,11 @@
 ---
 title: Base y los esquemas comunes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - base schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, base schemas
 - common schemas
 ms.assetid: 60eb24f6-cc4f-4c6d-ab15-9e3a6b4ed376
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209180"
 ---
 # <a name="base-and-common-schemas"></a><span data-ttu-id="8f877-102">Base y los esquemas comunes</span><span class="sxs-lookup"><span data-stu-id="8f877-102">Base and Common Schemas</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="8f877-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] ha implementado los registros y los elementos que componen los esquemas de mensaje individual en esquemas distintos.</span><span class="sxs-lookup"><span data-stu-id="8f877-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] has implemented the records and elements that comprise individual message schemas in separate schemas.</span></span> <span data-ttu-id="8f877-104">Este enfoque proporciona una única ubicación para proporcionar actualizaciones para los campos y formatos, aislar el esquema de mensaje de dichos cambios.</span><span class="sxs-lookup"><span data-stu-id="8f877-104">This approach provides a single location to provide updates for fields and formats, insulating the message schema from such changes.</span></span>  

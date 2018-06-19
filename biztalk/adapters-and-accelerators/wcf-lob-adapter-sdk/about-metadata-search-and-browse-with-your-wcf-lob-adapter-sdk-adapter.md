@@ -1,14 +1,14 @@
 ---
-title: "Acerca de la búsqueda de metadatos y exploración con el adaptador de SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Acerca de la búsqueda de metadatos y exploración con el adaptador de SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1dc529ba-86ce-4f83-a4f8-73f5765308e2
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22224748"
 ---
 # <a name="about-metadata-search-and-browse-with-your-wcf-lob-adapter-sdk-adapter"></a><span data-ttu-id="0e80d-102">Acerca de la búsqueda de metadatos y exploración con el adaptador de SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="0e80d-102">About metadata search and browse with your WCF LOB Adapter SDK adapter</span></span>
 <span data-ttu-id="0e80d-103">A diferencia de un servicio estático compilado con la [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], adaptadores generada mediante el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] puede proporcionar información dinámica sobre los tipos y las operaciones disponibles en un sistema de línea de negocio.</span><span class="sxs-lookup"><span data-stu-id="0e80d-103">Unlike a static service built using the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], adapters built using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] can provide dynamic information about the types and operations available in a line-of-business system.</span></span> <span data-ttu-id="0e80d-104">Los desarrolladores pueden admitir las operaciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="0e80d-104">Developers can support the following operations:</span></span>  

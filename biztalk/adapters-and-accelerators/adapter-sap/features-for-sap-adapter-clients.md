@@ -1,11 +1,11 @@
 ---
-title: "Características para los clientes de adaptador SAP | Documentos de Microsoft"
-ms.custom: 
+title: Características para los clientes de adaptador SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - dynamic ports
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - adapters, support for performance counters
 - adapters, support for configuring adapters using binding properties
 ms.assetid: 9003c2c1-931d-405e-9a58-660032195af7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217116"
 ---
 # <a name="features-for-sap-adapter-clients"></a><span data-ttu-id="f1bff-102">Características para los clientes de adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="f1bff-102">Features for SAP adapter clients</span></span>
 <span data-ttu-id="f1bff-103">Además de las características tratadas en todos los temas de [Introducción a la arquitectura del adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md), el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] también proporciona las siguientes características que son útiles para los clientes de adaptador.</span><span class="sxs-lookup"><span data-stu-id="f1bff-103">In addition to the features discussed throughout the topics of [Architecture overview of BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md), the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] also provides the following features that are useful for adapter clients.</span></span>  

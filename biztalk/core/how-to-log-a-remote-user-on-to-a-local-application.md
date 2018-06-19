@@ -1,14 +1,14 @@
 ---
-title: "Cómo registrar un usuario remoto en una aplicación Local | Documentos de Microsoft"
-ms.custom: 
+title: Cómo registrar un usuario remoto en una aplicación Local | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 886ee7cb-e6ba-476a-bea9-4bb4c22bf94e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254220"
 ---
 # <a name="how-to-log-a-remote-user-on-to-a-local-application"></a><span data-ttu-id="69df8-102">Cómo registrar un usuario remoto en una aplicación Local</span><span class="sxs-lookup"><span data-stu-id="69df8-102">How to Log a Remote User on to a Local Application</span></span>
 <span data-ttu-id="69df8-103">La otra gran característica del servicio de inicio de sesión único empresarial (ENTSSO) es que admite un proceso iniciado por host (HIP).</span><span class="sxs-lookup"><span data-stu-id="69df8-103">The other main feature of Enterprise Single Sign-On service (ENTSSO) is supporting a host-initiated process (HIP).</span></span> <span data-ttu-id="69df8-104">ENTSSO interactúa con HIP cuando un usuario remoto intenta obtener acceso a un recurso local de Windows.</span><span class="sxs-lookup"><span data-stu-id="69df8-104">ENTSSO interacts with HIP when a remote user tries to access a local Windows resource.</span></span> <span data-ttu-id="69df8-105">Si utiliza ENTSSO, puede recibir la solicitud del usuario de host y solicitar acceso a la aplicación local de Windows.</span><span class="sxs-lookup"><span data-stu-id="69df8-105">Using ENTSSO, you can receive the request from the host user and request access to the local Windows application.</span></span>  

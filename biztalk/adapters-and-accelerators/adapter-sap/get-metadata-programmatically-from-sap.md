@@ -1,18 +1,18 @@
 ---
-title: "Obtener metadatos mediante programación desde SAP | Documentos de Microsoft"
-ms.custom: 
+title: Obtener metadatos mediante programación desde SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IMetadataRetrievalContract endpoint
 - metadata, retrieving programmatically
 - WS-Metadata Exchange (MEX) endpoint
 ms.assetid: 8d75332e-c103-4bd5-a9a2-56d21747a04e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216836"
 ---
 # <a name="get-metadata-programmatically-from-sap"></a><span data-ttu-id="a55f9-102">Obtener metadatos mediante programación desde SAP</span><span class="sxs-lookup"><span data-stu-id="a55f9-102">Get Metadata Programmatically from SAP</span></span>
 <span data-ttu-id="a55f9-103">El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] es un enlace personalizado de WCF que expone un sistema SAP como un servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="a55f9-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] is a custom WCF binding that exposes an SAP system as a WCF service.</span></span> <span data-ttu-id="a55f9-104">El adaptador expone el sistema SAP como servicio autodescriptivo; es decir, un servicio que es capaz de publicación de metadatos acerca de las operaciones que admite.</span><span class="sxs-lookup"><span data-stu-id="a55f9-104">The adapter exposes the SAP system as a self-describing service; that is, a service that is capable of publishing metadata about the operations that it supports.</span></span> <span data-ttu-id="a55f9-105">Los metadatos describen la interfaz lógica a un servicio WCF; es decir, el contrato de servicio, mensajes y los esquemas de mensaje que se deben usar para interactuar con el servicio.</span><span class="sxs-lookup"><span data-stu-id="a55f9-105">Metadata describes the logical interface to a WCF service; that is, the service contract, messages, and message schemas that must be used to interact with the service.</span></span>  

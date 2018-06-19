@@ -1,18 +1,18 @@
 ---
 title: Utilizar esquemas de HL7 2.X | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas
 - HL7, 2.X schemas
 - schemas, 2.X schemas
 ms.assetid: 7f2d7dd4-76f1-463e-b579-9839a74b9631
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206780"
 ---
 # <a name="using-hl7-2x-schemas"></a><span data-ttu-id="24460-102">Utilizar esquemas 2.X HL7</span><span class="sxs-lookup"><span data-stu-id="24460-102">Using HL7 2.X Schemas</span></span>
 <span data-ttu-id="24460-103">Esta sección describen las versiones 2.X del nivel de mantenimiento siete (HL7) estándar admitidos por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="24460-103">This section discusses the 2.X versions of the Health Level Seven (HL7) standard supported by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  

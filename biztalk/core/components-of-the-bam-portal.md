@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231316"
 ---
 # <a name="components-of-the-bam-portal"></a><span data-ttu-id="4e6aa-102">Componentes del Portal de BAM</span><span class="sxs-lookup"><span data-stu-id="4e6aa-102">Components of the BAM Portal</span></span>
 <span data-ttu-id="4e6aa-103">El portal de BAM es una página Web de ASP.NET que se divide en tres áreas funcionales que corresponden, a su vez, a las tres páginas del portal.</span><span class="sxs-lookup"><span data-stu-id="4e6aa-103">The BAM portal is an ASP.NET Web page that is divided into three functional areas corresponding to the three pages of the portal.</span></span> <span data-ttu-id="4e6aa-104">Estas páginas se describen en esta sección: página de búsqueda de actividad, página agregaciones y página Administrador de alertas.</span><span class="sxs-lookup"><span data-stu-id="4e6aa-104">These pages are described in this section: Activity Search page, Aggregations page, and Alert Manager page.</span></span> <span data-ttu-id="4e6aa-105">Puede utilizar estas páginas para crear actividades, o para buscar o modificar actividades existentes.</span><span class="sxs-lookup"><span data-stu-id="4e6aa-105">You can use these pages to create activities, search for existing activities, and modify existing activities.</span></span>  

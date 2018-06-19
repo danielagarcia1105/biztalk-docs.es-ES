@@ -1,17 +1,17 @@
 ---
-title: "Ejecutar una operación de ejecución en los servicios de negocios con Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar una operación de ejecución en los servicios de negocios con Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, execute business services using ADO.NET Provider
 - performing operations, executing business services using ADO.NET Provider
 ms.assetid: c8f7888f-72c6-4f20-b592-f233721fbddd
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221980"
 ---
 # <a name="run-an-execute-operation-on-business-services-with-siebel"></a><span data-ttu-id="5bd5b-102">Ejecutar una operación de ejecución en los servicios de negocios con Siebel</span><span class="sxs-lookup"><span data-stu-id="5bd5b-102">Run an EXECUTE Operation on Business Services with Siebel</span></span>
 <span data-ttu-id="5bd5b-103">Esta sección muestra cómo ejecutar una operación en un servicio de negocios de Siebel mediante el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5bd5b-103">This section demonstrates how to execute an operation on a Siebel business service using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Implementación de publica servicios Web en un equipo que no tenga Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de publica servicios Web en un equipo que no tenga Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, planning
 - Web services, deploying
 ms.assetid: e9f8e801-21f3-4458-b05c-206b72868916
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239036"
 ---
 # <a name="deploying-published-web-services-on-a-non-visual-studio-computer"></a><span data-ttu-id="81026-102">Implementar servicios Web publicados en un equipo que no tenga Visual Studio</span><span class="sxs-lookup"><span data-stu-id="81026-102">Deploying Published Web Services on a Non-Visual Studio Computer</span></span>
 <span data-ttu-id="81026-103">Para implementar el servicio Web publicado en un equipo que no tenga [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] instalado, es necesario crear un proyecto de configuración de Web, distribuir el paquete de configuración Web (archivo .msi), instalar el paquete en el equipo que no dispone de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] y configurar el servicio Web instalado.</span><span class="sxs-lookup"><span data-stu-id="81026-103">To deploy your published Web service on a computer that does not have [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] installed, you need to create a Web setup project, distribute the Web setup package (.msi file), install the package on the non-[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] computer, and configure the installed Web service.</span></span>  

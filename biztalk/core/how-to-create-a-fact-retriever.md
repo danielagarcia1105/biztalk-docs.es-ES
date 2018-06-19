@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear un administrador de almacenes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un administrador de almacenes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IFactRetriever interface
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - UpdateFacts method
 - Business Rules Framework, programming
 ms.assetid: 503dc769-3ada-4099-a5fe-4dd03d995600
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250212"
 ---
 # <a name="how-to-create-a-fact-retriever"></a><span data-ttu-id="d16b8-102">Cómo crear un administrador de almacenes de datos</span><span class="sxs-lookup"><span data-stu-id="d16b8-102">How to Create a Fact Retriever</span></span>
 <span data-ttu-id="d16b8-103">Un administrador de almacenes de datos es un componente que se utiliza para imponer instancias de hechos a largo plazo en una directiva durante su ejecución.</span><span class="sxs-lookup"><span data-stu-id="d16b8-103">A fact retriever is a component that is used to assert instances of long-term facts into a policy during its execution.</span></span> <span data-ttu-id="d16b8-104">Puede implementar la **IFactRetriever** interfaz y configurar una versión de directiva para utilizar esta implementación en tiempo de ejecución para que aparezcan las instancias de hechos a largo plazo.</span><span class="sxs-lookup"><span data-stu-id="d16b8-104">You can implement the **IFactRetriever** interface and configure a policy version to use this implementation at run time to bring in the long-term fact instances.</span></span> <span data-ttu-id="d16b8-105">La versión de directiva, se invoca el **UpdateFacts** método de la implementación de almacenes de datos de hechos en cada ciclo de ejecución, si un administrador de almacenes se configura para una versión concreta.</span><span class="sxs-lookup"><span data-stu-id="d16b8-105">The policy version invokes the **UpdateFacts** method of the fact retriever implementation on every execution cycle, if a fact retriever is configured for that particular version.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para sincrónica compatible con lotes del adaptador de envío | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para sincrónica compatible con lotes del adaptador de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b191c41-ca4f-4d2b-bd15-a93ad87a743d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257676"
 ---
 # <a name="interfaces-for-a-synchronous-batch-supported-send-adapter"></a><span data-ttu-id="aff67-102">Interfaces de un adaptador de envío sincrónico compatible con lotes</span><span class="sxs-lookup"><span data-stu-id="aff67-102">Interfaces for a Synchronous Batch-Supported Send Adapter</span></span>
 <span data-ttu-id="aff67-103">Los adaptadores compatibles con lotes pueden enviar mensajes de forma sincrónica o asincrónica y pueden realizar operaciones de envío de transacción.</span><span class="sxs-lookup"><span data-stu-id="aff67-103">Batch-aware adapters may send messages synchronously or asynchronously, and may perform transacted send operations.</span></span> <span data-ttu-id="aff67-104">Para enviar lotes de mensajes, un adaptador de envío debe implementar las interfaces siguientes:</span><span class="sxs-lookup"><span data-stu-id="aff67-104">To send batches of messages, a send adapter must implement the following interfaces:</span></span>  

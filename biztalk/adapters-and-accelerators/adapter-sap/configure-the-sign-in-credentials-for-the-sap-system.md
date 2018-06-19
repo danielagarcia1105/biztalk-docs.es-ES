@@ -1,14 +1,14 @@
 ---
-title: "Configurar el inicio de sesión en las credenciales para el sistema SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el inicio de sesión en las credenciales para el sistema SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb41106b-b673-4fcf-a56e-6208e3113469
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217812"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-sap-system"></a><span data-ttu-id="97094-102">Configurar el inicio de sesión en las credenciales para el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="97094-102">Configure the sign in credentials for the SAP system</span></span>
 <span data-ttu-id="97094-103">El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] requiere que los clientes de adaptador proporcionar las credenciales del cliente.</span><span class="sxs-lookup"><span data-stu-id="97094-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] requires the adapter clients to provide client credentials.</span></span> <span data-ttu-id="97094-104">El adaptador utiliza estas credenciales para autenticar al usuario con el sistema SAP y para establecer una conexión.</span><span class="sxs-lookup"><span data-stu-id="97094-104">The adapter uses these credentials to authenticate the user with the SAP system and to establish a connection.</span></span>  

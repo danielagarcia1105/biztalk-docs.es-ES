@@ -1,14 +1,14 @@
 ---
 title: Comprender el sistema LOB con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0f97846-5ef2-4530-853a-fba5469156f7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225804"
 ---
 # <a name="understand-the-lob-system-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="5049d-102">Comprender el sistema LOB con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="5049d-102">Understand the LOB system with the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="5049d-103">Antes de desarrollar el adaptador mediante el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], debe tener una descripción completa del sistema de línea de negocio de destino.</span><span class="sxs-lookup"><span data-stu-id="5049d-103">Before developing your adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you must have a thorough understanding of the target line-of-business system.</span></span> <span data-ttu-id="5049d-104">Si no conoces la funcionalidad proporcionada por el sistema de línea de negocio, cómo se expone y el otro nivel de compatibilidad que proporcionan seguridad, transacciones y otras características, el adaptador no puede proporcionar las características requeridas por adaptador consumidores.</span><span class="sxs-lookup"><span data-stu-id="5049d-104">If you do not understand the functionality provided by the line-of-business system, how it is exposed, and the different level of support provided for security, transactions, and other features, your adapter may not provide the features required by adapter consumers.</span></span> <span data-ttu-id="5049d-105">Esta sección describen las áreas que debe comprender para diseñar el adaptador de forma eficaz.</span><span class="sxs-lookup"><span data-stu-id="5049d-105">This section describes the areas you must understand to effectively design your adapter.</span></span>  

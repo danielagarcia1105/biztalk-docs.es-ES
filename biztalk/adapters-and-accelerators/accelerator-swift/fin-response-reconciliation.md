@@ -1,11 +1,11 @@
 ---
-title: "Conciliación de respuesta FIN | Documentos de Microsoft"
-ms.custom: 
+title: Conciliación de respuesta FIN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ACKs
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - FIN Response Reconciliation, about FIN Response Reconciliation
 - FIN Response Reconciliation, acknowledgements
 ms.assetid: 987b932b-e487-4ca8-acd0-410d71df8e6d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208260"
 ---
 # <a name="fin-response-reconciliation"></a><span data-ttu-id="c7cb5-102">Conciliación de respuesta FIN</span><span class="sxs-lookup"><span data-stu-id="c7cb5-102">FIN Response Reconciliation</span></span>
 <span data-ttu-id="c7cb5-103">La característica de conciliación de respuesta de FIN (FRR) de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] reconcilia una respuesta FIN con el correspondiente mensaje original enviado por [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c7cb5-103">The FIN Response Reconciliation (FRR) feature of [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] reconciles a FIN response with the corresponding original message sent by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)].</span></span> <span data-ttu-id="c7cb5-104">Esto establece el estado del mensaje original y permite [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] para tomar medidas en función de ese estado.</span><span class="sxs-lookup"><span data-stu-id="c7cb5-104">This establishes the status of the original message, and enables [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to take steps based upon that status.</span></span> <span data-ttu-id="c7cb5-105">Sin conciliación, esto no sería posible.</span><span class="sxs-lookup"><span data-stu-id="c7cb5-105">Without reconciliation, this would not be possible.</span></span> [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="c7cb5-106">¿sabe que, correctamente (o sin éxito) envía el mensaje original a AAS y tendría la respuesta que recibió de AAS, que indica el estado de la transmisión, pero no sería capaz de realizar la conexión entre los dos.</span><span class="sxs-lookup"><span data-stu-id="c7cb5-106"> would know that it successfully (or unsuccessfully) sent the original message to SAA, and it would have the response that it received from SAA, indicating the status of the transmission, but it would not be able to make the connection between the two.</span></span> <span data-ttu-id="c7cb5-107">FRR establece esa conexión.</span><span class="sxs-lookup"><span data-stu-id="c7cb5-107">FRR establishes that connection.</span></span>  

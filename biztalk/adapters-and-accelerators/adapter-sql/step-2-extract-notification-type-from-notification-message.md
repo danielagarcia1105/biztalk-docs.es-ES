@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Extraer el tipo de notificación de mensaje de notificación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Extraer el tipo de notificación de mensaje de notificación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72f3e805-0f5f-42fa-8fe3-78ccbb375f74
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224164"
 ---
 # <a name="step-2-extract-notification-type-from-notification-message"></a><span data-ttu-id="7f2b4-102">Paso 2: Extraer el tipo de notificación de mensaje de notificación</span><span class="sxs-lookup"><span data-stu-id="7f2b4-102">Step 2: Extract Notification Type from Notification Message</span></span>
 <span data-ttu-id="7f2b4-103">![Paso 2 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="7f2b4-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  

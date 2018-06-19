@@ -1,18 +1,18 @@
 ---
 title: Los segmentos de esquemas comunes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, common schemas
 - 2.X schemas, segments
 - common schemas
 ms.assetid: 6f66bce9-ead8-46c1-a66c-830750adc73b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960698"
 ---
 # <a name="segments-common-schemas"></a><span data-ttu-id="16012-102">Esquemas comunes de segmentos</span><span class="sxs-lookup"><span data-stu-id="16012-102">Segments Common Schemas</span></span>
 <span data-ttu-id="16012-103">El **segments_\<*versión*\>.xsd** archivo incluye datatypes_\<*versión*\>.xsd y contiene el definición de todos los segmentos relacionada con la versión de HL7.</span><span class="sxs-lookup"><span data-stu-id="16012-103">The **segments_\<*version*\>.xsd** file includes datatypes_\<*version*\>.xsd and contains the definition of all the segments related to the HL7 version.</span></span> <span data-ttu-id="16012-104">Cada esquema de mensaje utiliza segments_\<*versión*\>.xsd.</span><span class="sxs-lookup"><span data-stu-id="16012-104">Each message schema uses segments_\<*version*\>.xsd.</span></span> <span data-ttu-id="16012-105">Mensaje de HL7 definiciones están bajo cada subcarpeta e incluyen segments_\<*versión*\>.xsd.</span><span class="sxs-lookup"><span data-stu-id="16012-105">HL7 message definitions are under each subfolder and include segments_\<*version*\>.xsd.</span></span> <span data-ttu-id="16012-106">Las tablas de base de datos SegmentDataElements y DataElements acceso generan el segments_\<*versión*\>archivo .xsd, que incluye un puntero al archivo de esquema Fields.xsd para todos los tipos de datos.</span><span class="sxs-lookup"><span data-stu-id="16012-106">The SegmentDataElements and DataElements Access database tables generate the segments_\<*version*\>.xsd file, which includes a pointer to the Fields.xsd schema file for all data types.</span></span> <span data-ttu-id="16012-107">El formato de nombre de archivo de esquema es:</span><span class="sxs-lookup"><span data-stu-id="16012-107">The schema file name format is:</span></span>  

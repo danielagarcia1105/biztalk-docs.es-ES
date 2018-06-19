@@ -1,17 +1,17 @@
 ---
 title: Finalizadores de sistema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: 2fd49be9-afe8-47c6-a613-fa469faa2126
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214084"
 ---
 # <a name="system-trailers"></a><span data-ttu-id="c0440-102">Finalizadores de sistema</span><span class="sxs-lookup"><span data-stu-id="c0440-102">System Trailers</span></span>
 <span data-ttu-id="c0440-103">Finalizadores de sistema transmiten los detalles adicionales o especiales sobre el mensaje SWIFT.</span><span class="sxs-lookup"><span data-stu-id="c0440-103">System trailers convey additional or special details about the SWIFT message.</span></span> <span data-ttu-id="c0440-104">Si cualquiera de los finalizadores de tres sistema primera están presentes, se producen en el siguiente orden.</span><span class="sxs-lookup"><span data-stu-id="c0440-104">If any of the first three system trailers are present, they occur in the following order.</span></span> <span data-ttu-id="c0440-105">Los finalizadores de sistema restantes pueden aparecer en cualquier orden.</span><span class="sxs-lookup"><span data-stu-id="c0440-105">The remaining system trailers can occur in any order.</span></span>  

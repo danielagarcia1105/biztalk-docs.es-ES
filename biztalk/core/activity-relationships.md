@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225236"
 ---
 # <a name="activity-relationships"></a><span data-ttu-id="84ebc-102">Relaciones de actividades</span><span class="sxs-lookup"><span data-stu-id="84ebc-102">Activity Relationships</span></span>
 <span data-ttu-id="84ebc-103">Las relaciones entre actividades existen cuando una actividad está relacionada con una o más actividades.</span><span class="sxs-lookup"><span data-stu-id="84ebc-103">An activity relationship exists when an activity relates to one or more other activities.</span></span> <span data-ttu-id="84ebc-104">Por ejemplo, cuando se tienen varias actividades de envío relacionadas con una sola actividad de pedido, o una actividad de envío que contiene elementos procedentes de dos actividades de pedido.</span><span class="sxs-lookup"><span data-stu-id="84ebc-104">An example of this is having multiple Shipment activities related to a single Purchase Order activity, or one Shipment activity containing items from two Purchase Order activities.</span></span>  

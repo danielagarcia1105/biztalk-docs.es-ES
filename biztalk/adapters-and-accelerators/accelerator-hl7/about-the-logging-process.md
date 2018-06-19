@@ -1,11 +1,11 @@
 ---
 title: Acerca del proceso de registro | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - logging, about logging
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - logging
 - auditing
 ms.assetid: 859ee1f5-aae4-4a47-ab39-8d2b4168a429
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204724"
 ---
 # <a name="about-the-logging-process"></a><span data-ttu-id="4aabd-102">Acerca del proceso de registro</span><span class="sxs-lookup"><span data-stu-id="4aabd-102">About the Logging Process</span></span>
 <span data-ttu-id="4aabd-103">Puesto que las aplicaciones controlan crítico, tiempo datos sensibles y monetario, la auditoría se convierte en una parte fundamental de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="4aabd-103">Since your applications handle critical, time sensitive and monetary data, auditing becomes a critical part of the application.</span></span> <span data-ttu-id="4aabd-104">Para habilitar la capacidad de administración de nivel de empresa y la disponibilidad, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] se basa en el siguiente tiempo de ejecución compartido y componentes administrativos:</span><span class="sxs-lookup"><span data-stu-id="4aabd-104">To enable enterprise level manageability and availability, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] relies on the following shared run time and administrative components:</span></span>  

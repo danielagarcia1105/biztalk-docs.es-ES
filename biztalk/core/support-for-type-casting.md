@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con conversión de tipos | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con conversión de tipos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6af46e34-5e33-4f61-8c19-4348f1bb4d4a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279508"
 ---
 # <a name="support-for-type-casting"></a><span data-ttu-id="26b64-102">Compatibilidad con conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="26b64-102">Support for Type Casting</span></span>
 <span data-ttu-id="26b64-103">Puede usar el **conversión** método de la **ClassMemberBinding** clase para convertir un objeto de un tipo a un objeto de otro tipo compatible.</span><span class="sxs-lookup"><span data-stu-id="26b64-103">You can use the **Cast** method of the **ClassMemberBinding** class to convert an object of one type to an object of another compatible type.</span></span> <span data-ttu-id="26b64-104">Actualmente, la herramienta de Compositor de reglas de negocio no admite crear reglas mediante el **conversión** método.</span><span class="sxs-lookup"><span data-stu-id="26b64-104">Currently, the Business Rule Composer tool does not support creating rules by using the **Cast** method.</span></span> <span data-ttu-id="26b64-105">Las reglas deben crearse mediante programación utilizando el modelo de objetos del motor de reglas para aprovechar esta función.</span><span class="sxs-lookup"><span data-stu-id="26b64-105">You must create the rules programmatically by using the rule engine object model to take advantage of this feature.</span></span>  

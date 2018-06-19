@@ -1,17 +1,17 @@
 ---
-title: "Paso 2: Configurar un unidireccionales de WCF-Custom puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Configurar un unidireccionales de WCF-Custom puerto de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-Custom one-way receive port, configuring
 - migration
 ms.assetid: e2a8f074-64d5-4e6c-84d0-318fb606c0ba
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218556"
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-receive-port"></a><span data-ttu-id="a59d2-102">Paso 2: Configurar un unidireccionales de WCF-Custom puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="a59d2-102">Step 2: Configure a WCF-Custom One-way Receive Port</span></span>
 <span data-ttu-id="a59d2-103">![Paso 2 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="a59d2-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  

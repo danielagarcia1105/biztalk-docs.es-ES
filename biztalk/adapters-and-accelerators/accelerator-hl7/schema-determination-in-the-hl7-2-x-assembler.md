@@ -1,18 +1,18 @@
 ---
-title: "Determinación del esquema en el ensamblador 2.X HL7 | Documentos de Microsoft"
-ms.custom: 
+title: Determinación del esquema en el ensamblador 2.X HL7 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, assembler
 - MSH5
 - assembler, schemas
 ms.assetid: 464c006e-4fae-4e2a-99ea-157301c0179e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206100"
 ---
 # <a name="schema-determination-in-the-hl7-2x-assembler"></a><span data-ttu-id="7145f-102">Determinación del esquema en el ensamblador 2.X HL7</span><span class="sxs-lookup"><span data-stu-id="7145f-102">Schema Determination in the HL7 2.X Assembler</span></span>
 <span data-ttu-id="7145f-103">Cuando se transmite un mensaje para el serializador, el serializador en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) usa MSH5 (entidad de destino) del mensaje para determinar las operaciones que se realizarán en el mensaje.</span><span class="sxs-lookup"><span data-stu-id="7145f-103">When a message flows to the serializer, the serializer in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) uses MSH5 (destination party) of the message to determine the operations to be performed on the message.</span></span> <span data-ttu-id="7145f-104">Estas operaciones incluyen:</span><span class="sxs-lookup"><span data-stu-id="7145f-104">Such operations include:</span></span>  

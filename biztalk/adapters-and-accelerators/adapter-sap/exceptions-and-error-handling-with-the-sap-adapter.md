@@ -1,18 +1,18 @@
 ---
 title: Excepciones y control de errores con el adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions and error handling
 - error handling, troubleshooting
 - troubleshooting, exceptions and error handling
 ms.assetid: 598a25c5-6905-4c0c-835b-159d827b2269
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216852"
 ---
 # <a name="exceptions-and-error-handling-with-the-sap-adapter"></a><span data-ttu-id="94ce2-102">Excepciones y control de errores con el adaptador SAP</span><span class="sxs-lookup"><span data-stu-id="94ce2-102">Exceptions and Error Handling with the SAP adapter</span></span>
 <span data-ttu-id="94ce2-103">Se enumeran las excepciones que el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] produce.</span><span class="sxs-lookup"><span data-stu-id="94ce2-103">Lists the exceptions that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] throws.</span></span> <span data-ttu-id="94ce2-104">Estos pueden contener:</span><span class="sxs-lookup"><span data-stu-id="94ce2-104">These can contain:</span></span>  

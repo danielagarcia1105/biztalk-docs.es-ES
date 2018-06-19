@@ -1,14 +1,14 @@
 ---
-title: "Cómo habilitar ASP.NET 4.0 para publican servicios Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar ASP.NET 4.0 para publican servicios Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 58646ff2-77a3-49dc-8593-f6e41d85d4f3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254084"
 ---
 # <a name="how-to-enable-aspnet-40-for-published-web-services"></a><span data-ttu-id="07d09-102">Cómo habilitar ASP.NET 4.0 para servicios Web publicados</span><span class="sxs-lookup"><span data-stu-id="07d09-102">How to Enable ASP.NET 4.0 for Published Web Services</span></span>
 <span data-ttu-id="07d09-103">Establezca la versión de ASP.Net en IIS.</span><span class="sxs-lookup"><span data-stu-id="07d09-103">Set the ASP.Net version in IIS.</span></span>

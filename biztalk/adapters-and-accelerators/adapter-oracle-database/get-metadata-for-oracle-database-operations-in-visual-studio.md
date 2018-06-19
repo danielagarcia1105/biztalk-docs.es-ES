@@ -1,17 +1,17 @@
 ---
 title: Obtener los metadatos de las operaciones de base de datos de Oracle en Visual Studio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - metadata, retrieving in Visual Studio
 - metadata
 ms.assetid: d903b408-1144-4625-909d-710826e37769
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214332"
 ---
 # <a name="get-metadata-for-oracle-database-operations-in-visual-studio"></a><span data-ttu-id="c87d4-102">Obtener los metadatos de las operaciones de base de datos de Oracle en Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c87d4-102">Get metadata for Oracle Database operations in Visual Studio</span></span>
 <span data-ttu-id="c87d4-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona tres [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] componentes que puede utilizar para ayudarle a desarrollar soluciones mediante el adaptador.</span><span class="sxs-lookup"><span data-stu-id="c87d4-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides three [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter.</span></span>  

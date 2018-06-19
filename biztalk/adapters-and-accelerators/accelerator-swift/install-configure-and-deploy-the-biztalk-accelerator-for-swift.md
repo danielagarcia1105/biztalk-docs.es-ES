@@ -1,17 +1,17 @@
 ---
 title: Instalar, configurar e implementar el Acelerador de BizTalk para SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - what's new
 - BizTalk Accelerator for SWIFT, what's new
 ms.assetid: 2a83a3c9-fd13-44a3-a8b6-80af48ee5b10
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209908"
 ---
 # <a name="install-configure-and-deploy-the-biztalk-accelerator-for-swift"></a><span data-ttu-id="4f100-102">Instalar, configurar e implementar el Acelerador de BizTalk para SWIFT</span><span class="sxs-lookup"><span data-stu-id="4f100-102">Install, configure, and deploy the BizTalk Accelerator for SWIFT</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="4f100-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] funciona en una plataforma que incluye [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)], y [!INCLUDE[btsSQLServerNoVersion_md](../../includes/btssqlservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4f100-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] works on a platform that includes [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)], and [!INCLUDE[btsSQLServerNoVersion_md](../../includes/btssqlservernoversion-md.md)].</span></span> <span data-ttu-id="4f100-104">El conjunto de características de [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] sea comparable con el conjunto de características de anterior [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] versiones.</span><span class="sxs-lookup"><span data-stu-id="4f100-104">The feature set in [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] is comparable to the feature set in previous [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] versions.</span></span> <span data-ttu-id="4f100-105">Sin embargo, puede sacar partido de las características mejoradas en las versiones más recientes de BizTalk Server, Visual Studio y SQL Server.</span><span class="sxs-lookup"><span data-stu-id="4f100-105">However, you can take advantage of the enhanced features in the newer versions of BizTalk Server, Visual Studio, and SQL Server.</span></span>  

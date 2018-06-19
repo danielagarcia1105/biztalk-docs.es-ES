@@ -1,14 +1,14 @@
 ---
 title: Operaciones en API PL-SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d47b894d-1047-48ed-8f8c-865c343a12db
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216012"
 ---
 # <a name="operations-on-plsql-apis"></a><span data-ttu-id="e84c7-102">Operaciones en las API de PL/SQL</span><span class="sxs-lookup"><span data-stu-id="e84c7-102">Operations on PL/SQL APIs</span></span>
 <span data-ttu-id="e84c7-103">Oracle E-Business Suite proporciona un conjunto de API de PL/SQL en forma de procedimientos almacenados y funciones empaquetadas.</span><span class="sxs-lookup"><span data-stu-id="e84c7-103">Oracle E-Business Suite provides a set of PL/SQL APIs in the form of packaged functions and stored procedures.</span></span> <span data-ttu-id="e84c7-104">Estos empaquetan las funciones y procedimientos aparecen como operaciones en [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="e84c7-104">These packaged functions and procedures are surfaced as operations in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span> 

@@ -1,18 +1,18 @@
 ---
-title: "Paso 10: Crear una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 10: Crear una orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, creating
 - creating, orchestrations
 - message enrichment tutorial, orchestrations
 ms.assetid: 10f5cf3d-4a34-4c80-89d1-c390552cfc09
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206572"
 ---
 # <a name="step-10-create-an-orchestration"></a><span data-ttu-id="4c664-102">Paso 10: Crear una orquestación</span><span class="sxs-lookup"><span data-stu-id="4c664-102">Step 10: Create an Orchestration</span></span>
 <span data-ttu-id="4c664-103">En este paso, se utiliza el Diseñador de orquestaciones para crear una orquestación para representar el proceso empresarial para recuperar los detalles del paciente adicionales para llenar totalmente un mensaje ADT_A04.</span><span class="sxs-lookup"><span data-stu-id="4c664-103">In this step, you use Orchestration Designer to create an orchestration to represent the business process for retrieving additional patient details to fully populate an ADT_A04 message.</span></span> <span data-ttu-id="4c664-104">Con el Diseñador de orquestaciones, se seleccionan las formas de orquestación necesarias para representar acciones para este proceso empresarial.</span><span class="sxs-lookup"><span data-stu-id="4c664-104">Using Orchestration Designer, you select the orchestration shapes required to represent actions for this business process.</span></span> <span data-ttu-id="4c664-105">De ejercicios posteriores, se proporciona información adicional para configurar las formas para que pueda funcionar correctamente.</span><span class="sxs-lookup"><span data-stu-id="4c664-105">In later exercises, you provide additional information to configure the shapes so that they can function properly.</span></span>  

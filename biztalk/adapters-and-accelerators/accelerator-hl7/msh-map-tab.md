@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206132"
 ---
 # <a name="msh-map-tab"></a><span data-ttu-id="754b2-102">Pestaña asignación de MSH</span><span class="sxs-lookup"><span data-stu-id="754b2-102">MSH Map Tab</span></span>
 <span data-ttu-id="754b2-103">Usa el **MSH mapa** ficha para habilitar las transformaciones de encabezado de mensaje para los mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="754b2-103">You use the **MSH Map** tab to enable message header transformations for inbound messages.</span></span>  

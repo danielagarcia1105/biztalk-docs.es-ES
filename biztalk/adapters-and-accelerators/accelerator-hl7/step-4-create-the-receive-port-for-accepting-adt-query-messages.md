@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207908"
 ---
 # <a name="step-4-create-the-receive-port-for-accepting-adt-query-messages"></a><span data-ttu-id="e158a-102">Paso 4: Crear el puerto de recepción para aceptar mensajes de consulta ADT</span><span class="sxs-lookup"><span data-stu-id="e158a-102">Step 4: Create the Receive Port for Accepting ADT Query Messages</span></span>
 <span data-ttu-id="e158a-103">Crear un puerto de recepción para especificar la ubicación de los mensajes entrantes de consulta enviadas por la admisión, descarga y el sistema de transferencia (ADT).</span><span class="sxs-lookup"><span data-stu-id="e158a-103">You create a receive port to specify the location for incoming query messages sent by the Admissions, Discharge, and Transfer (ADT) system.</span></span> <span data-ttu-id="e158a-104">Utilice el procedimiento siguiente para crear el puerto de recepción para aceptar las consultas (consulta ^ Q01 mensajes) desde el sistema ADT mediante el adaptador de protocolo de nivel inferior mínimo (MLLP).</span><span class="sxs-lookup"><span data-stu-id="e158a-104">Use the following procedure to create the receive port for accepting queries (QRY^Q01 messages) from the ADT system using the Minimal Lower Layer Protocol (MLLP) adapter.</span></span>  

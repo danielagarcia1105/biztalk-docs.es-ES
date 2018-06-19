@@ -1,14 +1,14 @@
 ---
 title: Invocar inflexible los procedimientos almacenados de SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d56df5f6-b046-4fe4-a5b4-b29906093beb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223988"
 ---
 # <a name="invoke-strongly-typed-stored-procedures-in-sql-using-wcf-service-model"></a><span data-ttu-id="cdc6d-102">Invocar inflexible los procedimientos almacenados de SQL mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="cdc6d-102">Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model</span></span>
 <span data-ttu-id="cdc6d-103">Cuando se invoca un procedimiento que se muestra en el **Strongly-Typed procedimientos** nodo en el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], el resultado es en forma de un conjunto de resultados fuertemente tipada.</span><span class="sxs-lookup"><span data-stu-id="cdc6d-103">When you invoke a procedure listed under the **Strongly-Typed Procedures** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], the output is in the form of a strongly-typed result set.</span></span> <span data-ttu-id="cdc6d-104">Este tema proporciona instrucciones sobre cómo crear un cliente WCF para invocar procedimientos almacenados en SQL Server que devuelven un conjunto de resultados fuertemente tipada.</span><span class="sxs-lookup"><span data-stu-id="cdc6d-104">This topic provides instructions on how to create a WCF client to invoke stored procedures in SQL Server that return a strongly-typed result set.</span></span>  

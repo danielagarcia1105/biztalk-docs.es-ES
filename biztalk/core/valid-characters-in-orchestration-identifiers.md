@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287388"
 ---
 # <a name="valid-characters-in-orchestration-identifiers"></a><span data-ttu-id="afb74-102">Caracteres válidos en los identificadores de las orquestaciones</span><span class="sxs-lookup"><span data-stu-id="afb74-102">Valid Characters in Orchestration Identifiers</span></span>
 <span data-ttu-id="afb74-103">Los identificadores de las orquestaciones, como elementos, variables y nombres de tipo, tienen algunas restricciones.</span><span class="sxs-lookup"><span data-stu-id="afb74-103">Orchestration identifiers, such as item, variable and type names, have a few restrictions:</span></span>  

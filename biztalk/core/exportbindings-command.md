@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6573142e-7ca7-4990-98e3-b7a54840da13
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,12 +17,13 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22246660"
 ---
 # <a name="exportbindings-command"></a><span data-ttu-id="585f3-102">ExportBindings (comando)</span><span class="sxs-lookup"><span data-stu-id="585f3-102">ExportBindings Command</span></span>
 <span data-ttu-id="585f3-103">Exporta enlaces para un ensamblado, una aplicación o un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="585f3-103">Exports bindings for a BizTalk assembly, application, or group.</span></span> <span data-ttu-id="585f3-104">También puede exportar enlaces de entidad global junto con el ensamblado, la aplicación o los enlaces de grupo.</span><span class="sxs-lookup"><span data-stu-id="585f3-104">You can also export global party bindings along with the assembly, application, or group bindings.</span></span> <span data-ttu-id="585f3-105">(Una entidad son todas las entidades, como socios comerciales de su organización que interactúan con una orquestación.)</span><span class="sxs-lookup"><span data-stu-id="585f3-105">(A party is all the entities, such as partners of your organization, that interact with an orchestration.)</span></span>  
   
 ## <a name="usage"></a><span data-ttu-id="585f3-106">Uso</span><span class="sxs-lookup"><span data-stu-id="585f3-106">Usage</span></span>  
- <span data-ttu-id="585f3-107">**BTSTask ExportBindings /Destination:** *valor* [**/GroupLevel**] [**/ApplicationName: ***valor*] [**/ AssemblyName:***valor* ] &#124; [**/GlobalParties**] [**/Server:***valor *] [** / Database:***valor *]</span><span class="sxs-lookup"><span data-stu-id="585f3-107">**BTSTask ExportBindings /Destination:** *value* [**/GroupLevel**] [**/ApplicationName:***value*] [**/AssemblyName:***value* ] &#124; [**/GlobalParties**] [**/Server:***value*] [**/Database:***value*]</span></span>  
+ <span data-ttu-id="585f3-107">**BTSTask ExportBindings /Destination:** *valor* [**/GroupLevel**] [**/ApplicationName: ***valor*] [**/ AssemblyName:***valor* ] &#124; [**/GlobalParties **] [**/Server:***valor *] [** / Database:*** valor *]</span><span class="sxs-lookup"><span data-stu-id="585f3-107">**BTSTask ExportBindings /Destination:** *value* [**/GroupLevel**] [**/ApplicationName:***value*] [**/AssemblyName:***value* ] &#124; [**/GlobalParties **] [**/Server:***value*] [**/Database:*** value*]</span></span>  
   
 ## <a name="parameters"></a><span data-ttu-id="585f3-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="585f3-108">Parameters</span></span>  
   

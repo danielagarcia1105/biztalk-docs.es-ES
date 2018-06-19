@@ -1,14 +1,14 @@
 ---
 title: Conectarse a Oracle E-Business Suite en Visual Studio mediante el Asistente para agregar metadatos de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fadc722-0098-457e-a2e2-3e9cc96eab5e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216212"
 ---
 # <a name="connect-to-oracle-e-business-suite-in-visual-studio-using-add-adapter-metadata-wizard"></a><span data-ttu-id="32cd9-102">Conectarse a Oracle E-Business Suite en Visual Studio mediante el Asistente para agregar metadatos de adaptador</span><span class="sxs-lookup"><span data-stu-id="32cd9-102">Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Metadata Wizard</span></span>
 <span data-ttu-id="32cd9-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] también se expone como un adaptador de BizTalk y, por lo tanto, puede usar el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] para generar el esquema para las operaciones que desea realizar en Oracle E-Business Suite mediante el adaptador.</span><span class="sxs-lookup"><span data-stu-id="32cd9-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] is also exposed as a BizTalk adapter and, therefore, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on Oracle E-Business Suite using the adapter.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: HL7 2.3.1 eventos y las carpetas XML | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - events, HL7 2.XML versions
 - HL7, default sub-folders
 - HL7, events
 ms.assetid: b3598cc5-46d6-489a-84a7-266ee3c40276
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204324"
 ---
 # <a name="hl7-231-xml-folders-and-events"></a><span data-ttu-id="7db79-102">HL7 2.3.1 eventos y las carpetas XML</span><span class="sxs-lookup"><span data-stu-id="7db79-102">HL7 2.3.1 XML Folders and Events</span></span>
 <span data-ttu-id="7db79-103">En la tabla siguiente se enumera las subcarpetas creadas por el Asistente para la instalación en la carpeta de versión 2.3.1 HL7 para mensajes codificados en XML.</span><span class="sxs-lookup"><span data-stu-id="7db79-103">The following table lists the subfolders created by the setup wizard within the HL7 version 2.3.1 folder for XML-encoded messages.</span></span> <span data-ttu-id="7db79-104">Estas subcarpetas contienen los esquemas utilizados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) para validar, analizar y serializar los eventos enumerados en la columna de eventos de esta tabla.</span><span class="sxs-lookup"><span data-stu-id="7db79-104">These subfolders contain the schemas used by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) to validate, parse, and serialize the events listed in the Events column of this table.</span></span> <span data-ttu-id="7db79-105">Los nombres de la subcarpeta describen los tipos de eventos que admiten estos esquemas.</span><span class="sxs-lookup"><span data-stu-id="7db79-105">The subfolder names describe the types of events these schemas support.</span></span>  

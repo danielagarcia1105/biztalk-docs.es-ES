@@ -1,14 +1,14 @@
 ---
-title: "Crear el URI de conexión de SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Crear el URI de conexión de SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688e2215-a4d8-4f55-a37c-7d91c3de080f
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224100"
 ---
 # <a name="create-the-sql-server-connection-uri"></a><span data-ttu-id="26694-102">Crear el URI de conexión de SQL Server</span><span class="sxs-lookup"><span data-stu-id="26694-102">Create the SQL Server connection URI</span></span>
 <span data-ttu-id="26694-103">El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión con la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="26694-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] connection URI contains properties that the adapter uses to establish a connection to the SQL Server database.</span></span> <span data-ttu-id="26694-104">En este tema se proporciona información sobre el URI de conexión de SQL Server y proporciona vínculos a otros temas que explican cómo especificar un URI en distintos escenarios de programación.</span><span class="sxs-lookup"><span data-stu-id="26694-104">This topic provides information about the SQL Server connection URI, and provides links to other topics that explain how to specify a URI in different programming scenarios.</span></span>  

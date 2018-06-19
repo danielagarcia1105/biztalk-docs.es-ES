@@ -1,18 +1,18 @@
 ---
-title: "Types2 básica | Documentos de Microsoft"
-ms.custom: 
+title: Types2 básica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, data types
 - adapters [JD Edwards EnterpriseOne adapters], data types
 - data types, JD Edwards EnterpriseOne adapters
 ms.assetid: 96a70f0d-f7f8-4e3b-9511-59b330910ead
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230924"
 ---
 # <a name="basic-types"></a><span data-ttu-id="5c873-102">Tipos básicos</span><span class="sxs-lookup"><span data-stu-id="5c873-102">Basic Types</span></span>
 <span data-ttu-id="5c873-103">Microsoft BizTalk Adapter para JD Edwards EnterpriseOne proporciona acceso únicamente a funciones de negocio de JD Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="5c873-103">Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides access only to JD Edwards EnterpriseOne business functions.</span></span> <span data-ttu-id="5c873-104">Los metadatos de función de negocio se leen mediante una interfaz de funciones de negocio y se usa para buscar una lista de funciones de negocio y estructuras de datos asociadas.</span><span class="sxs-lookup"><span data-stu-id="5c873-104">Business function metadata is read using a business function interface and used to find a list of business functions and associated data structures.</span></span> <span data-ttu-id="5c873-105">Los metadatos se establecen de forma inflexible en todos los casos para todos los métodos de la función de negocio.</span><span class="sxs-lookup"><span data-stu-id="5c873-105">Metadata is strongly typed in all cases for all business function methods.</span></span>  

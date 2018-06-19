@@ -1,14 +1,14 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 07369428-7b54-4d90-8c63-ba14e67fdbdd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216420"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter"></a><span data-ttu-id="5007d-102">Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business</span><span class="sxs-lookup"><span data-stu-id="5007d-102">Manually configure a physical port binding to the Oracle E-Business adapter</span></span>
 <span data-ttu-id="5007d-103">Esta sección proporciona información acerca de cómo configurar el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] como un enlace personalizado de WCF o como un puerto de WCF-OracleEBS utilizando el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="5007d-103">This section provides information about configuring the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] as a WCF custom binding or as a WCF-OracleEBS port by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="5007d-104">Después de implementar el adaptador, podrá enviar y recibir mensajes de Oracle E-Business Suite mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="5007d-104">After deploying the adapter, you will be able to send and receive messages from Oracle E-Business Suite by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="5007d-105">Los pasos para implementar el adaptador varían en función de:</span><span class="sxs-lookup"><span data-stu-id="5007d-105">The steps for deploying the adapter vary depending on:</span></span>  

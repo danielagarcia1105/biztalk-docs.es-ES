@@ -1,17 +1,17 @@
 ---
 title: Esquemas de mensajes para tipos de registro | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RECORD types, message schemas for
 - RECORD types, support for
 ms.assetid: 637c42f2-eed0-4941-a6cd-7e03d01088b8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214140"
 ---
 # <a name="message-schemas-for-record-types"></a><span data-ttu-id="94ffc-102">Esquemas de mensaje para tipos de registro</span><span class="sxs-lookup"><span data-stu-id="94ffc-102">Message Schemas for RECORD Types</span></span>
 <span data-ttu-id="94ffc-103">Tipos de registros de Oracle son tipos de datos estructurados de PL/SQL que se componen de uno o más los tipos de base de datos estructurados o simple.</span><span class="sxs-lookup"><span data-stu-id="94ffc-103">Oracle RECORD types are structured PL/SQL data types that consist of one or more simple or structured database types.</span></span> <span data-ttu-id="94ffc-104">Tipos de registro se utilizan principalmente en las funciones y procedimientos almacenados de PL/SQL para enviar y recibir datos jerárquicos.</span><span class="sxs-lookup"><span data-stu-id="94ffc-104">RECORD types are primarily used in PL/SQL stored procedures and functions to send and receive hierarchical data.</span></span>  

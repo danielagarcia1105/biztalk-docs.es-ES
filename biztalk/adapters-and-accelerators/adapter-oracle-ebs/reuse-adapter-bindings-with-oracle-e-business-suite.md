@@ -1,14 +1,14 @@
 ---
 title: Reutilizar los enlaces del adaptador con Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb4dd90d-7958-4d62-bc7b-d6be16288dbc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215772"
 ---
 # <a name="reuse-adapter-bindings-with-oracle-e-business-suite"></a><span data-ttu-id="91b41-102">Reutilizar los enlaces del adaptador con Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="91b41-102">Reuse adapter bindings with Oracle E-Business Suite</span></span>
 <span data-ttu-id="91b41-103">Un enlace crea una asignación entre un extremo lógico (por ejemplo, un puerto de orquestación o un vínculo de función) y un extremo físico (por ejemplo, un envío y puerto de recepción).</span><span class="sxs-lookup"><span data-stu-id="91b41-103">A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port).</span></span> <span data-ttu-id="91b41-104">Esto permite la comunicación entre distintos componentes de un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solución empresarial.</span><span class="sxs-lookup"><span data-stu-id="91b41-104">This enables communication between different components of a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] business solution.</span></span> <span data-ttu-id="91b41-105">Puede crear enlaces mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="91b41-105">You can create bindings by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

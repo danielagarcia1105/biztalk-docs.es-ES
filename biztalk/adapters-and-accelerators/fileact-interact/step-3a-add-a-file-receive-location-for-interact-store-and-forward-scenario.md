@@ -1,14 +1,14 @@
 ---
-title: "Paso 3A: agregar un archivo de ubicación de recepción para el almacén de interacción y el escenario de reenvío | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3A: agregar un archivo de ubicación de recepción para el almacén de interacción y el escenario de reenvío | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f4bae51-6869-4334-a3a1-ef7e662197ca
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224180"
 ---
 # <a name="step-3a-add-a-file-receive-location-for-the-interact-store-and-forward-scenario"></a><span data-ttu-id="583d7-102">Paso 3A: agregar un archivo de ubicación de recepción para el almacén de interacción y el escenario de reenvío</span><span class="sxs-lookup"><span data-stu-id="583d7-102">Step 3A: Add a FILE Receive Location for the InterAct Store and Forward Scenario</span></span>
 <span data-ttu-id="583d7-103">Completa [paso 2: Agregar configuración SWIFTNet a la Paramfile para el escenario de hacia delante y almacén de InterAct](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-store-and-forward.md) antes de comenzar este paso.</span><span class="sxs-lookup"><span data-stu-id="583d7-103">Complete [Step 2: Add SWIFTNet Configuration to the Paramfile for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-store-and-forward.md) before you begin this step.</span></span>

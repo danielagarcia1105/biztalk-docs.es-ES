@@ -1,11 +1,11 @@
 ---
-title: "Puertos para los servidores de envío y recepción | Documentos de Microsoft"
-ms.custom: 
+title: Puertos para los servidores de envío y recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2016-01-07
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection strings
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Server, service accounts
 - SSO, service accounts
 ms.assetid: 19cafe74-6676-4779-8ced-de0841dba19f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266484"
 ---
 # <a name="ports-for-the-receive-and-send-servers"></a><span data-ttu-id="48034-102">Puertos para los servidores de envío y recepción</span><span class="sxs-lookup"><span data-stu-id="48034-102">Ports for the Receive and Send Servers</span></span>
 <span data-ttu-id="48034-103">Para obtener información completa acerca de cómo proteger la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).</span><span class="sxs-lookup"><span data-stu-id="48034-103">For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

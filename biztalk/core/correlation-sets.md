@@ -1,11 +1,11 @@
 ---
 title: Conjuntos de correlaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - correlation sets, inspecting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - correlation sets, following correlation sets
 - correlation sets, initializing
 ms.assetid: 528dcd6c-d364-4bb8-8deb-cd4a0791867f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968394"
 ---
 # <a name="correlation-sets"></a><span data-ttu-id="b60fb-102">Conjuntos de correlaciones</span><span class="sxs-lookup"><span data-stu-id="b60fb-102">Correlation Sets</span></span>
 <span data-ttu-id="b60fb-103">Este tipo de correlación de mensajes con instancias de orquestación se consigue mediante la definición de conjuntos de correlaciones.</span><span class="sxs-lookup"><span data-stu-id="b60fb-103">You can achieve this sort of correlation of messages with orchestration instances by defining correlation sets.</span></span> <span data-ttu-id="b60fb-104">Un conjunto de correlaciones es un conjunto de propiedades *con valores específicos*.</span><span class="sxs-lookup"><span data-stu-id="b60fb-104">A correlation set is a set of properties *with specific values*.</span></span> <span data-ttu-id="b60fb-105">Es diferente de un tipo de correlación, que no es más que una lista de propiedades.</span><span class="sxs-lookup"><span data-stu-id="b60fb-105">This is different from a correlation type, which is simply a list of properties.</span></span> <span data-ttu-id="b60fb-106">Si un mensaje entrante no tiene todas estas propiedades, con valores coincidentes para cada una de ellas, se producirá un error en la correlación y la instancia de orquestación no recibirá el mensaje.</span><span class="sxs-lookup"><span data-stu-id="b60fb-106">If an incoming message does not have all of these properties, with matching values for each, correlation will fail and the message will not be received by the orchestration instance.</span></span>  

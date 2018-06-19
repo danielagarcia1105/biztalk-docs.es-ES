@@ -15,6 +15,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22210844"
 ---
 # <a name="troubleshoot-the-installation-and-see-the-known-install-issues"></a><span data-ttu-id="24a74-103">Solucionar problemas de la instalación y consulte los problemas de instalación conocidos</span><span class="sxs-lookup"><span data-stu-id="24a74-103">Troubleshoot the installation and see the known install issues</span></span>
 

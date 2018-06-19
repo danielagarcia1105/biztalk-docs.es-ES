@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Modificar el proyecto de BizTalk vPrev con el adaptador de Siebel | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7bd95e2-bd51-420f-8156-6f17cc0e91d6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224068"
 ---
 # <a name="step-1-modify-the-vprev-biztalk-project-with-the-siebel-adapter"></a><span data-ttu-id="fc41d-102">Paso 1: Modificar el proyecto de BizTalk vPrev con el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="fc41d-102">Step 1: Modify the vPrev BizTalk Project with the Siebel adapter</span></span>
 <span data-ttu-id="fc41d-103">![Paso 1 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span><span class="sxs-lookup"><span data-stu-id="fc41d-103">![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span></span>  

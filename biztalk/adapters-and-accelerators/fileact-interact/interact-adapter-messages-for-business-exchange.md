@@ -1,14 +1,14 @@
 ---
 title: Interactuar mensajes del adaptador para el intercambio de negocio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b443b8a-4e56-47f1-8d91-5c807fd54ccc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224604"
 ---
 # <a name="interact-adapter-messages-for-business-exchange"></a><span data-ttu-id="4f98a-102">Interactuar mensajes del adaptador para el intercambio de negocios</span><span class="sxs-lookup"><span data-stu-id="4f98a-102">InterAct Adapter Messages for Business Exchange</span></span>
 <span data-ttu-id="4f98a-103">Hay cuatro mensajes en el ciclo de InterAct adaptador-to-end.</span><span class="sxs-lookup"><span data-stu-id="4f98a-103">There are four messages in the InterAct adapter end-to-end cycle.</span></span> <span data-ttu-id="4f98a-104">Estos mensajes son primitivos de SWIFTNet.</span><span class="sxs-lookup"><span data-stu-id="4f98a-104">These messages are SWIFTNet primitives.</span></span> <span data-ttu-id="4f98a-105">El primer y último mensajes forman parte de los tipos primitivos del lado cliente, SwInt:ExchangeRequest y SwInt:ExchangeResponse.</span><span class="sxs-lookup"><span data-stu-id="4f98a-105">The first and last messages comprise the client-side primitives, SwInt:ExchangeRequest and SwInt:ExchangeResponse.</span></span> <span data-ttu-id="4f98a-106">Los dos mensajes intermedios forman parte de los tipos primitivos del lado servidor, SwInt:HandleRequest y SwInt:HandleResponse.</span><span class="sxs-lookup"><span data-stu-id="4f98a-106">The middle two messages comprise the server-side primitives, SwInt:HandleRequest and SwInt:HandleResponse.</span></span>  

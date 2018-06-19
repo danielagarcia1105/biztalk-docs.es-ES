@@ -1,11 +1,11 @@
 ---
 title: INSERT, Update, Delete y las operaciones Select en las tablas de Oracle y vistas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, on tables and views
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - INSERT statement
 - UPDATE statement
 ms.assetid: af65fac4-3c16-40c4-ae7a-9c1757223f99
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214900"
 ---
 # <a name="insert-update-delete-and-select-operations-on-oracle-tables-and-views"></a><span data-ttu-id="d1360-102">Insertar, actualizar, eliminar y seleccione las operaciones en tablas de Oracle y vistas</span><span class="sxs-lookup"><span data-stu-id="d1360-102">Insert, Update, Delete, and Select operations on Oracle tables and views</span></span>
 <span data-ttu-id="d1360-103">La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto de operaciones estándares en cada tabla de base de datos de Oracle y la vista.</span><span class="sxs-lookup"><span data-stu-id="d1360-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set of standard operations on each Oracle database table and view.</span></span> <span data-ttu-id="d1360-104">Mediante el uso de estas operaciones, puede realizar simple SELECT SQL INSERT, UPDATE y eliminar instrucciones calificadas por una cláusula WHERE en la tabla de destino (o vista).</span><span class="sxs-lookup"><span data-stu-id="d1360-104">By using these operations, you can perform simple SQL INSERT, UPDATE, SELECT, and DELETE statements qualified by a WHERE clause on the target table (or view).</span></span> <span data-ttu-id="d1360-105">Estas operaciones también se denominan operaciones de DML (lenguaje) de manipulación de datos.</span><span class="sxs-lookup"><span data-stu-id="d1360-105">These operations are also called data manipulation language (DML) operations.</span></span> <span data-ttu-id="d1360-106">Para llevar a cabo operaciones más complejas, por ejemplo una consulta de SQL SELECT que utiliza el operador de combinación, puede usar la operación SQLEXECUTE.</span><span class="sxs-lookup"><span data-stu-id="d1360-106">To perform more complex operations, for example a SQL SELECT query that uses the JOIN operator, you can use the SQLEXECUTE operation.</span></span> <span data-ttu-id="d1360-107">Para obtener más información sobre la operación SQLEXECUTE, consulte [operación SQLEXECUTE en base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).</span><span class="sxs-lookup"><span data-stu-id="d1360-107">For more information about the SQLEXECUTE operation, see [SQLEXECUTE Operation in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).</span></span>  

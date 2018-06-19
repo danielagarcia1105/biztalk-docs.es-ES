@@ -1,14 +1,14 @@
 ---
 title: Conectarse a la base de datos de Oracle en Visual Studio con la referencia de servicio de adaptador agregar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93e56c1f-adee-4976-bc39-bb9b8102145e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215068"
 ---
 # <a name="connect-to-the-oracle-database-in-visual-studio-using-the-add-adapter-service-reference"></a><span data-ttu-id="178e0-102">Conectarse a la base de datos de Oracle en Visual Studio con la referencia de servicio agregar adaptador</span><span class="sxs-lookup"><span data-stu-id="178e0-102">Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference</span></span>
 <span data-ttu-id="178e0-103">Para conectarse a la base de datos de Oracle mediante la [!INCLUDE[adapteroracle_short_md](../../includes/adapteroracle-short-md.md)] en una solución de programación. NET, debe utilizar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span><span class="sxs-lookup"><span data-stu-id="178e0-103">To connect to the Oracle database using the [!INCLUDE[adapteroracle_short_md](../../includes/adapteroracle-short-md.md)] in a .NET programming solution, you must use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="178e0-104">Este tema proporciona instrucciones sobre cómo usar el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="178e0-104">This topic provides instructions on how to use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span></span>  

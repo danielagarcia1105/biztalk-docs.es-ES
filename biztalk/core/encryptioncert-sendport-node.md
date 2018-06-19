@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240716"
 ---
 # <a name="encryptioncert-sendport-node"></a><span data-ttu-id="1715d-102">EncryptionCert (nodo puertoEnvío)</span><span class="sxs-lookup"><span data-stu-id="1715d-102">EncryptionCert (SendPort Node)</span></span>
 <span data-ttu-id="1715d-103">El nodo EncryptionCert del nodo puertoEnvío de un archivo de enlace contiene información acerca del certificado de cifrado que se usa con un puerto de envío que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="1715d-103">The EncryptionCert node of the SendPort node of a binding file contains information about the encryption certificate used with a send port that is exported with the binding file.</span></span>  

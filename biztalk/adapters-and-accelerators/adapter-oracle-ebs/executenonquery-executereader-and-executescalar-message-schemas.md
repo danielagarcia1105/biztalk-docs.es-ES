@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes de ExecuteNonQuery, ExecuteReader y ExecuteScalar Operations1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8aa5fdb2-1e7f-4a34-a1e5-c16d8fb477d5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216156"
 ---
 # <a name="message-schemas-for-the-executenonquery-executereader-and-executescalar-operations"></a><span data-ttu-id="ee762-102">Esquemas de mensaje para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery</span><span class="sxs-lookup"><span data-stu-id="ee762-102">Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations</span></span>
 <span data-ttu-id="ee762-103">La [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone las operaciones de salida ExecuteNonQuery y ExecuteReader, ExecuteScalar en el nivel de raíz para ejecutar las instrucciones SQL arbitrarias o bloques de PL/SQL de Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="ee762-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite.</span></span>  

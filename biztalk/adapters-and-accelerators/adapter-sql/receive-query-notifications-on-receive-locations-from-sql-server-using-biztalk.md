@@ -1,14 +1,14 @@
 ---
-title: "Recibir notificaciones de consulta en varias ubicaciones de recepción de SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recibir notificaciones de consulta en varias ubicaciones de recepción de SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9afbe98e-8901-417c-a807-8db97fd7a24b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223428"
 ---
 # <a name="receive-query-notifications-on-multiple-receive-locations-from-sql-using-biztalk-server"></a><span data-ttu-id="df205-102">Recibir notificaciones de consulta en varias ubicaciones de recepción de SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="df205-102">Receive query notifications On Multiple Receive Locations from SQL using BizTalk Server</span></span>
 <span data-ttu-id="df205-103">Considere un escenario donde hay varios creados como parte de las aplicaciones de BizTalk diferentes configurados para recibir notificaciones de consulta para la misma tabla (por ejemplo, Employee) de ubicaciones de recepción en la misma base de datos.</span><span class="sxs-lookup"><span data-stu-id="df205-103">Consider a scenario where you have multiple receive locations created as part of different BizTalk applications configured to receive query notifications for the same table (e.g. Employee) in the same database.</span></span> <span data-ttu-id="df205-104">Si se insertan registros de un centenar en la misma tabla, todas las ubicaciones de recepción obtendrá el mensaje de notificación.</span><span class="sxs-lookup"><span data-stu-id="df205-104">If a hundred records are inserted into the same table, all the receive locations will get the notification message.</span></span> <span data-ttu-id="df205-105">Recibirlas eficazmente en varias ubicaciones de recepción, puede llamar a operaciones de la aplicación de BizTalk de tal manera que si se recibe una notificación mediante una ubicación de recepción, la otra ubicación de recepción no obtiene la misma notificación.</span><span class="sxs-lookup"><span data-stu-id="df205-105">To effectively receive notifications across multiple receive locations, you can call operations from your BizTalk application in such a way that if a notification is received by one receive location, the other receive location does not get the same notification.</span></span> <span data-ttu-id="df205-106">Por lo tanto, puede eficazmente las notificaciones de equilibrio de carga recibidas en varias ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="df205-106">So, you can effectively load-balance notifications received on multiple locations.</span></span>  

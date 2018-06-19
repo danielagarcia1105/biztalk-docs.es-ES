@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un Message1 error | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un Message1 error | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions, adding messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - adding, fault messages
 - faults, adding messages
 ms.assetid: 9d21de6b-c1a5-46e9-a9dc-d6aa7b5fe34b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246652"
 ---
 # <a name="how-to-add-a-fault-message"></a><span data-ttu-id="3b1bb-102">Cómo agregar un mensaje de error</span><span class="sxs-lookup"><span data-stu-id="3b1bb-102">How to Add a Fault Message</span></span>
 <span data-ttu-id="3b1bb-103">La primera vez que creó el puerto en el sistema de servidor, contenía una solicitud y una respuesta.</span><span class="sxs-lookup"><span data-stu-id="3b1bb-103">When you first created the port to the back-end system, it contained a request and a response.</span></span> <span data-ttu-id="3b1bb-104">Debe agregar un error para capturar la excepción.</span><span class="sxs-lookup"><span data-stu-id="3b1bb-104">You must add a fault to capture the exception.</span></span>  

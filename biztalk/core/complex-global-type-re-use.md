@@ -1,14 +1,14 @@
 ---
 title: Reutilizar tipos globales complejos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d0d8018-f2c6-44cc-9330-2385ac8887eb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231772"
 ---
 # <a name="complex-global-type-re-use"></a><span data-ttu-id="f76d0-102">Reutilizar tipos globales complejos</span><span class="sxs-lookup"><span data-stu-id="f76d0-102">Complex Global Type Re-use</span></span>
 <span data-ttu-id="f76d0-103">Para usar un complejo tipo global tal cual, en otra ubicación en el árbol de esquema, comience por insertar un nuevo **registro** nodo en la ubicación deseada.</span><span class="sxs-lookup"><span data-stu-id="f76d0-103">To use a complex global type as is, in another location in the schema tree, begin by inserting a new **Record** node at the desired location.</span></span> <span data-ttu-id="f76d0-104">A continuación, establezca su **Data Structure Type** propiedad en el nombre de un tipo global complejo.</span><span class="sxs-lookup"><span data-stu-id="f76d0-104">Then set its **Data Structure Type** property to the name of a complex global type.</span></span>  

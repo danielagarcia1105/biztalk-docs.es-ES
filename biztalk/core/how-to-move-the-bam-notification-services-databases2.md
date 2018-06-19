@@ -1,18 +1,18 @@
 ---
-title: "Cómo mover la notificación de BAM servicios Databases2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la notificación de BAM servicios Databases2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Notification Services Application database [BAM]
 - Notification Services Instance database [BAM]
 - migrating, Notification Services database [BAM]
 ms.assetid: 4b7f3397-65c9-4c71-8374-8764f4c2e2e3
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254268"
 ---
 # <a name="how-to-move-the-bam-notification-services-databases"></a><span data-ttu-id="82c8c-102">Cómo mover las bases de datos de servicios de notificación de BAM</span><span class="sxs-lookup"><span data-stu-id="82c8c-102">How to Move the BAM Notification Services Databases</span></span>
 <span data-ttu-id="82c8c-103">Este procedimiento se puede utilizar para mover las bases de datos de servicios de notificación de BAM a otro servidor.</span><span class="sxs-lookup"><span data-stu-id="82c8c-103">You can use this procedure to move the BAM Notification Services databases to another server.</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="82c8c-108">Obtenga una copia del archivo .xml utilizado para restaurar BAM:</span><span class="sxs-lookup"><span data-stu-id="82c8c-108">Get a copy of the .xml file used for restoring BAM:</span></span>  
   
-    1.  <span data-ttu-id="82c8c-109">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="82c8c-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+    1.  <span data-ttu-id="82c8c-109">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="82c8c-109">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
     2.  <span data-ttu-id="82c8c-110">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="82c8c-110">At the command prompt, navigate to the following directory:</span></span>  
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="82c8c-119">Guarde el archivo BAMConfiguration.xml y ciérrelo.</span><span class="sxs-lookup"><span data-stu-id="82c8c-119">Save and close the BAMConfiguration.xml file.</span></span>  
   
-8.  <span data-ttu-id="82c8c-120">Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="82c8c-120">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
+8.  <span data-ttu-id="82c8c-120">Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="82c8c-120">Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
 9. <span data-ttu-id="82c8c-121">En el símbolo del sistema, desplácese al directorio siguiente:</span><span class="sxs-lookup"><span data-stu-id="82c8c-121">At the command prompt, navigate to the following directory:</span></span>  
   

@@ -1,15 +1,15 @@
 ---
-title: "Configurar la acción SOAP para el adaptador Siebel en BizTalk | Documentos de Microsoft"
-description: "Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-Siebel en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Configurar la acción SOAP para el adaptador Siebel en BizTalk | Documentos de Microsoft
+description: Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-Siebel en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f22a4691-0355-4f08-a14e-e90a3c987ac0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222564"
 ---
 # <a name="configure-the-soap-action-for-siebel"></a><span data-ttu-id="a98b1-103">Configurar la acción SOAP para Siebel</span><span class="sxs-lookup"><span data-stu-id="a98b1-103">Configure the SOAP action for Siebel</span></span>
 <span data-ttu-id="a98b1-104">Para realizar cualquier operación en el sistema de Siebel mediante basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], los usuarios de adaptador deben especificar una acción de SOAP.</span><span class="sxs-lookup"><span data-stu-id="a98b1-104">To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], adapter users must specify a SOAP action.</span></span> <span data-ttu-id="a98b1-105">La acción SOAP comunica con el adaptador de la acción que debe realizarse.</span><span class="sxs-lookup"><span data-stu-id="a98b1-105">The SOAP action communicates to the adapter what action should be performed.</span></span> <span data-ttu-id="a98b1-106">Puede especificar la acción de SOAP en tiempo de diseño o en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="a98b1-106">You can specify the SOAP action either at design time or at run time.</span></span> <span data-ttu-id="a98b1-107">Sin embargo, si especifica la acción de SOAP tanto en tiempo de diseño y tiempo de ejecución, se invalidará la acción especificada en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="a98b1-107">However, if you specify the SOAP action both at design time and run time, the action you specified at design time will be overridden.</span></span>  

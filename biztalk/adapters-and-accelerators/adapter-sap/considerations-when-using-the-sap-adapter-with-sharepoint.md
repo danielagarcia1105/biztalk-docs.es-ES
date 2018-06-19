@@ -1,14 +1,14 @@
 ---
 title: Consideraciones al utilizar el adaptador SAP con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d310741-b648-4028-a75f-35b843edcc8d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218132"
 ---
 # <a name="considerations-when-using-the-sap-adapter-with-sharepoint"></a><span data-ttu-id="f8aa4-102">Consideraciones al utilizar el adaptador SAP con SharePoint</span><span class="sxs-lookup"><span data-stu-id="f8aa4-102">Considerations when using the SAP adapter with SharePoint</span></span>
 <span data-ttu-id="f8aa4-103">Este tema contiene información sobre los problemas que puede surgir al usar el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] con Microsoft Office SharePoint Server, junto con las soluciones.</span><span class="sxs-lookup"><span data-stu-id="f8aa4-103">This topic contains information about the issues you might encounter while using the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] with Microsoft Office SharePoint Server, along with resolutions.</span></span> <span data-ttu-id="f8aa4-104">Los problemas se dividen en dos categorías:</span><span class="sxs-lookup"><span data-stu-id="f8aa4-104">The issues are divided into two categories:</span></span>  

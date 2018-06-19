@@ -1,14 +1,14 @@
 ---
-title: "Resolución del acuerdo para mensajes AS2 salientes | Documentos de Microsoft"
-ms.custom: 
+title: Resolución del acuerdo para mensajes AS2 salientes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 578d7565-534c-4c13-b473-975f347f3a9b
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230324"
 ---
 # <a name="agreement-resolution-for-outgoing-as2-messages"></a><span data-ttu-id="91d40-102">Resolución del acuerdo para mensajes AS2 salientes</span><span class="sxs-lookup"><span data-stu-id="91d40-102">Agreement Resolution for Outgoing AS2 Messages</span></span>
 <span data-ttu-id="91d40-103">Si una canalización de envío AS2 procesa un mensaje codificado con EDIINT/AS2 saliente a través del transporte HTTP/HTTPS, determina el acuerdo que resolverá el mensaje.</span><span class="sxs-lookup"><span data-stu-id="91d40-103">When an AS2 send pipeline processes an outgoing EDIINT/AS2-encoded message over HTTP/HTTPS transport, it determines the agreement that the message will resolve to.</span></span> <span data-ttu-id="91d40-104">Utilizará dichas propiedades de acuerdo para procesar el mensaje saliente.</span><span class="sxs-lookup"><span data-stu-id="91d40-104">It will then use those agreement properties to process the outgoing message.</span></span> <span data-ttu-id="91d40-105">La canalización de envío usará los siguientes criterios para determinar el acuerdo (en orden de prioridad):</span><span class="sxs-lookup"><span data-stu-id="91d40-105">The send pipeline will use the following criteria to determine the agreement (in order of priority):</span></span>  

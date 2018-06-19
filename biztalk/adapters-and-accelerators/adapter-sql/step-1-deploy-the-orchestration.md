@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Implementar la orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Implementar la orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8988fced-b2d5-4ee7-a851-20fc7c3dd087
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224316"
 ---
 # <a name="step-1-deploy-the-orchestration"></a><span data-ttu-id="b8053-102">Paso 1: Implementar la orquestación</span><span class="sxs-lookup"><span data-stu-id="b8053-102">Step 1: Deploy the Orchestration</span></span>
 <span data-ttu-id="b8053-103">![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="b8053-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  
