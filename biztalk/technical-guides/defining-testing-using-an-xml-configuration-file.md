@@ -1,14 +1,14 @@
 ---
-title: "Definir pruebas mediante un archivo de configuración XML | Documentos de Microsoft"
-ms.custom: 
+title: Definir pruebas mediante un archivo de configuración XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8339bcf-26d7-4a43-b68e-c4220a7a851d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976338"
 ---
 # <a name="defining-testing-using-an-xml-configuration-file"></a><span data-ttu-id="9d971-102">Definir pruebas mediante un archivo de configuración XML</span><span class="sxs-lookup"><span data-stu-id="9d971-102">Defining Testing Using an XML Configuration File</span></span>
 <span data-ttu-id="9d971-103">BizUnit ofrece dos métodos para definir las pruebas: a través de un archivo de configuración XML y a través de una hoja de cálculo de Excel.</span><span class="sxs-lookup"><span data-stu-id="9d971-103">BizUnit offers two ways to define tests: via an XML configuration file and via an Excel worksheet.</span></span> <span data-ttu-id="9d971-104">En este tema se centra sobre el uso de un archivo de configuración XML para definir pruebas; Sin embargo, también debe buscar en el SDK de BizUnit, puesto que ofrece un ejemplo de cómo definir los casos de prueba de BizUnit usando Excel interesante.</span><span class="sxs-lookup"><span data-stu-id="9d971-104">This topic focuses on using an XML configuration file to define tests; however, you should also look at the BizUnit SDK, since it provides an interesting example of how to define BizUnit test cases using Excel.</span></span> <span data-ttu-id="9d971-105">Además, puede que desee investigar la herramienta Diseñador de BizUnit, que proporciona una interfaz gráfica de usuario que permite la rápida creación de casos de prueba de BizUnit.</span><span class="sxs-lookup"><span data-stu-id="9d971-105">In addition, you may wish to investigate the BizUnit Designer tool, which provides a GUI that allows for rapid creation of BizUnit test cases.</span></span> <span data-ttu-id="9d971-106">Este tema proporciona información general sobre cómo definir los casos de prueba con la configuración de XML con un escenario muy simplificado.</span><span class="sxs-lookup"><span data-stu-id="9d971-106">This topic provides an overview of how to define test cases using XML configuration using a very simplified scenario.</span></span>  

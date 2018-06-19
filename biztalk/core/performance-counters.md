@@ -1,18 +1,18 @@
 ---
 title: Contadores de rendimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - technical reference, performance counters
 - performance, technical reference
 - performance, performance counters
 ms.assetid: bdc64017-c74e-4cf0-8769-d27e60161439
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263940"
 ---
 # <a name="performance-counters"></a><span data-ttu-id="e4577-102">Performance Counters</span><span class="sxs-lookup"><span data-stu-id="e4577-102">Performance Counters</span></span>
 <span data-ttu-id="e4577-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye contadores de rendimiento que puede usar para detectar los cuellos de botella.</span><span class="sxs-lookup"><span data-stu-id="e4577-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes performance counters that you can use to detect bottlenecks.</span></span> <span data-ttu-id="e4577-104">Estos contadores de rendimiento se describen en esta sección.</span><span class="sxs-lookup"><span data-stu-id="e4577-104">These performance counters are described in this section.</span></span>  

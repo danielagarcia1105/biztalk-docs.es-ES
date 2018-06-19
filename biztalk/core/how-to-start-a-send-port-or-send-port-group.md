@@ -1,11 +1,11 @@
 ---
-title: "Cómo iniciar un puerto de envío o grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo iniciar un puerto de envío o grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - starting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send port groups, starting
 - send ports, starting
 ms.assetid: f17c0b7c-cad7-4c5e-a08c-3ebf838faa54
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255604"
 ---
 # <a name="how-to-start-a-send-port-or-send-port-group"></a><span data-ttu-id="a062f-102">Cómo iniciar un puerto de envío o un grupo de puertos de envío</span><span class="sxs-lookup"><span data-stu-id="a062f-102">How to Start a Send Port or Send Port Group</span></span>
 <span data-ttu-id="a062f-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para iniciar un puerto de envío o un grupo de puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="a062f-103">This topic describes how to use the BizTalk Server Administration console to start a send port or send port group.</span></span> <span data-ttu-id="a062f-104">Es preciso iniciar un puerto de envío o un grupo de ellos antes de poder procesar mensajes.</span><span class="sxs-lookup"><span data-stu-id="a062f-104">You must start a send port or send port group before it can process messages.</span></span> <span data-ttu-id="a062f-105">Si inicia un puerto de envío o un grupo de ellos que se ha dado de baja, BizTalk lo da de alta antes de iniciarlo.</span><span class="sxs-lookup"><span data-stu-id="a062f-105">If you start an unenlisted send port or send port group, BizTalk enlists the send port or send port group before starting it.</span></span> <span data-ttu-id="a062f-106">Antes de poder iniciar un grupo de puertos de envío, es preciso que éste contenga, al menos, un puerto de envío dado de alta.</span><span class="sxs-lookup"><span data-stu-id="a062f-106">A send port group must contain at least one send port in an enlisted state before you can start the send port group.</span></span> <span data-ttu-id="a062f-107">El inicio y la detención de un grupo de puertos de envío no afecta al estado de ninguno de los puertos de envío que contiene.</span><span class="sxs-lookup"><span data-stu-id="a062f-107">Starting and stopping a send port group does not affect the state of any send ports that it contains.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar tipos de correlaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar tipos de correlaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, correlation types
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - correlation types, deleting
 - configuring, correlation types
 ms.assetid: cfae4d2e-ec79-45c8-93b3-799dc5e0576e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248572"
 ---
 # <a name="how-to-configure-correlation-types"></a><span data-ttu-id="0b1ae-102">Cómo configurar tipos de correlaciones</span><span class="sxs-lookup"><span data-stu-id="0b1ae-102">How to Configure Correlation Types</span></span>
 <span data-ttu-id="0b1ae-103">Usa el **propiedades de correlación** cuadro de diálogo para agregar o quitar propiedades de un tipo de correlación.</span><span class="sxs-lookup"><span data-stu-id="0b1ae-103">You use the **Correlation Properties** dialog box to add or remove properties from a correlation type.</span></span> <span data-ttu-id="0b1ae-104">El tipo de correlación enumera las propiedades de un conjunto de correlaciones que utilizan las actividades de envío y recepción para garantizar que los mensajes entrantes se correlacionan correctamente con las instancias correctas de una orquestación en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="0b1ae-104">The correlation type lists the properties in a correlation set which are used by Send and Receive activities to make sure that incoming messages are properly correlated with the right instances of an orchestration at run time.</span></span>  

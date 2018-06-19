@@ -1,14 +1,14 @@
 ---
-title: "Cómo recuperar el Portal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recuperar el Portal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a5df99-6d03-4f1f-8540-1700d3a0b9db
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254604"
 ---
 # <a name="how-to-recover-the-bam-portal"></a><span data-ttu-id="4ef40-102">Cómo recuperar el portal de SAE</span><span class="sxs-lookup"><span data-stu-id="4ef40-102">How to Recover the BAM Portal</span></span>
 <span data-ttu-id="4ef40-103">Si usa la Supervisión de la actividad económica (BAM), debe recuperar el portal de BAM como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4ef40-103">If you are using Business Activity Monitoring (BAM), you must recover the BAM portal as a part of recovering your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="4ef40-104">Si no utiliza SAE, este procedimiento es opcional.</span><span class="sxs-lookup"><span data-stu-id="4ef40-104">If you are not using BAM, this procedure is optional.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Operadores y Variables de XLANG-s | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02512789-2cb9-4ba9-aa78-e59b248e6b24
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974730"
 ---
 # <a name="xlang-s-variables-and-operators"></a><span data-ttu-id="682fe-102">Operadores y Variables de XLANG-s</span><span class="sxs-lookup"><span data-stu-id="682fe-102">XLANG-s Variables and Operators</span></span>
 <span data-ttu-id="682fe-103">En esta sección se tratan las variables y los operadores utilizados en el lenguaje XLANG/s.</span><span class="sxs-lookup"><span data-stu-id="682fe-103">This section discusses the variables and operators used in the XLANG/s language.</span></span>  
@@ -45,8 +46,8 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="682fe-122">Operador</span><span class="sxs-lookup"><span data-stu-id="682fe-122">Operator</span></span>|<span data-ttu-id="682fe-123">Description</span><span class="sxs-lookup"><span data-stu-id="682fe-123">Description</span></span>|<span data-ttu-id="682fe-124">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="682fe-124">Example</span></span>|  
 |--------------|-----------------|-------------|  
-|<span data-ttu-id="682fe-125">activado</span><span class="sxs-lookup"><span data-stu-id="682fe-125">checked</span></span>|<span data-ttu-id="682fe-126">Genera un error al producirse un desbordamiento aritmético</span><span class="sxs-lookup"><span data-stu-id="682fe-126">Raises error on arithmetic overflow</span></span>|<span data-ttu-id="682fe-127">checked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="682fe-127">checked(x = y * 1000)</span></span>|  
-|<span data-ttu-id="682fe-128">No está activada</span><span class="sxs-lookup"><span data-stu-id="682fe-128">unchecked</span></span>|<span data-ttu-id="682fe-129">Hace caso omiso del desbordamiento aritmético.</span><span class="sxs-lookup"><span data-stu-id="682fe-129">Ignores arithmetic overflow</span></span>|<span data-ttu-id="682fe-130">unchecked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="682fe-130">unchecked(x = y * 1000)</span></span>|  
+|<span data-ttu-id="682fe-125">activado</span><span class="sxs-lookup"><span data-stu-id="682fe-125">checked</span></span>|<span data-ttu-id="682fe-126">Genera un error al producirse un desbordamiento aritmético</span><span class="sxs-lookup"><span data-stu-id="682fe-126">Raises error on arithmetic overflow</span></span>|<span data-ttu-id="682fe-127">checked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="682fe-127">checked(x = y \* 1000)</span></span>|  
+|<span data-ttu-id="682fe-128">No está activada</span><span class="sxs-lookup"><span data-stu-id="682fe-128">unchecked</span></span>|<span data-ttu-id="682fe-129">Hace caso omiso del desbordamiento aritmético.</span><span class="sxs-lookup"><span data-stu-id="682fe-129">Ignores arithmetic overflow</span></span>|<span data-ttu-id="682fe-130">unchecked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="682fe-130">unchecked(x = y \* 1000)</span></span>|  
 |<span data-ttu-id="682fe-131">nuevo</span><span class="sxs-lookup"><span data-stu-id="682fe-131">new</span></span>|<span data-ttu-id="682fe-132">Crea una instancia de una clase</span><span class="sxs-lookup"><span data-stu-id="682fe-132">Creates an instance of a class</span></span>|<span data-ttu-id="682fe-133">myObject = new MyClass;</span><span class="sxs-lookup"><span data-stu-id="682fe-133">myObject = new MyClass;</span></span>|  
 |<span data-ttu-id="682fe-134">typeof</span><span class="sxs-lookup"><span data-stu-id="682fe-134">typeof</span></span>|<span data-ttu-id="682fe-135">Recupera un tipo</span><span class="sxs-lookup"><span data-stu-id="682fe-135">Retrieves a type</span></span>|<span data-ttu-id="682fe-136">myMapType = typeof(myMap)</span><span class="sxs-lookup"><span data-stu-id="682fe-136">myMapType = typeof(myMap)</span></span>|  
 |<span data-ttu-id="682fe-137">succeeded</span><span class="sxs-lookup"><span data-stu-id="682fe-137">succeeded</span></span>|<span data-ttu-id="682fe-138">Comprueba la finalización correcta de ámbito transaccional u orquestación</span><span class="sxs-lookup"><span data-stu-id="682fe-138">Tests for successful completion of transactional scope or orchestration</span></span>|<span data-ttu-id="682fe-139">se ha realizado correctamente (\<identificador de transacción de secundarios del ámbito actual o servicio\>)</span><span class="sxs-lookup"><span data-stu-id="682fe-139">succeeded(\<transaction ID for child transaction of current scope or service\>)</span></span>|  
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="682fe-147">!</span><span class="sxs-lookup"><span data-stu-id="682fe-147">!</span></span>|<span data-ttu-id="682fe-148">Negación lógica</span><span class="sxs-lookup"><span data-stu-id="682fe-148">Logical negation</span></span>|<span data-ttu-id="682fe-149">!myBool</span><span class="sxs-lookup"><span data-stu-id="682fe-149">!myBool</span></span>|  
 |~|<span data-ttu-id="682fe-150">Complemento bit a bit</span><span class="sxs-lookup"><span data-stu-id="682fe-150">Bitwise complement</span></span>|<span data-ttu-id="682fe-151">x = ~y</span><span class="sxs-lookup"><span data-stu-id="682fe-151">x = ~y</span></span>|  
 |<span data-ttu-id="682fe-152">()</span><span class="sxs-lookup"><span data-stu-id="682fe-152">()</span></span>|<span data-ttu-id="682fe-153">Conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="682fe-153">Cast</span></span>|<span data-ttu-id="682fe-154">(bool) myInt</span><span class="sxs-lookup"><span data-stu-id="682fe-154">(bool) myInt</span></span>|  
-|*|<span data-ttu-id="682fe-155">Veces</span><span class="sxs-lookup"><span data-stu-id="682fe-155">Times</span></span>|<span data-ttu-id="682fe-156">Weight = MyMsg.numOrders * 20</span><span class="sxs-lookup"><span data-stu-id="682fe-156">Weight = MyMsg.numOrders * 20</span></span>|  
+|*|<span data-ttu-id="682fe-155">Veces</span><span class="sxs-lookup"><span data-stu-id="682fe-155">Times</span></span>|<span data-ttu-id="682fe-156">Weight = MyMsg.numOrders \* 20</span><span class="sxs-lookup"><span data-stu-id="682fe-156">Weight = MyMsg.numOrders \* 20</span></span>|  
 |/|<span data-ttu-id="682fe-157">Dividido por</span><span class="sxs-lookup"><span data-stu-id="682fe-157">Divided by</span></span>|<span data-ttu-id="682fe-158">x / y</span><span class="sxs-lookup"><span data-stu-id="682fe-158">x / y</span></span>|  
 |+|<span data-ttu-id="682fe-159">signo más</span><span class="sxs-lookup"><span data-stu-id="682fe-159">Plus</span></span>|<span data-ttu-id="682fe-160">x + y</span><span class="sxs-lookup"><span data-stu-id="682fe-160">x + y</span></span>|  
 |-|<span data-ttu-id="682fe-161">Resta</span><span class="sxs-lookup"><span data-stu-id="682fe-161">Minus</span></span>|<span data-ttu-id="682fe-162">x - y</span><span class="sxs-lookup"><span data-stu-id="682fe-162">x - y</span></span>|  

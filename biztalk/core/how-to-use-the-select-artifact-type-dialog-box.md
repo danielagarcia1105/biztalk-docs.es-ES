@@ -1,18 +1,18 @@
 ---
-title: "Cómo usar el cuadro de diálogo de tipo de artefacto seleccione | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el cuadro de diálogo de tipo de artefacto seleccione | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Select Artifact Type dialog box
 - artifacts, Select Artifact Type dialog box
 - Orchestration Designer, items
 ms.assetid: f0f767f1-4130-4ff0-a898-a089343ee71f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971634"
 ---
 # <a name="how-to-use-the-select-artifact-type-dialog-box"></a><span data-ttu-id="4a959-102">Cómo usar el cuadro de diálogo de tipo de artefacto Select</span><span class="sxs-lookup"><span data-stu-id="4a959-102">How to Use the Select Artifact Type Dialog Box</span></span>
 <span data-ttu-id="4a959-103">Un *elemento* se usa para configurar los elementos de una orquestación en el Diseñador de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="4a959-103">An *item* is used to configure elements of an orchestration in Orchestration Designer.</span></span> <span data-ttu-id="4a959-104">Los esquemas, las asignaciones, las canalizaciones, los tipos de puerto y los tipos de mensajes de varias partes son por ejemplo elementos.</span><span class="sxs-lookup"><span data-stu-id="4a959-104">Examples of items are schemas, maps, pipelines, port types, and multi-part message types.</span></span> <span data-ttu-id="4a959-105">Al desarrollar una orquestación y las partes que la componen (por ejemplo, formas Puerto, formas Transformación y mensajes), puede que deba hacer referencia a elementos que no residen en la orquestación actual, pero que se encuentran en el proyecto actual o en otro proyecto compilado en un ensamblado de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="4a959-105">When you develop an orchestration and its constituent parts such as port shapes, transform shapes, and messages, you may need to refer to items that do not reside in the current orchestration, but are in the current project or another project that has been compiled into a BizTalk Server assembly.</span></span> <span data-ttu-id="4a959-106">Usa el **Seleccionar tipo de artefacto** cuadro de diálogo para buscar y, a continuación, especificar elementos al configurar un elemento dentro de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="4a959-106">You use the **Select Artifact Type** dialog box to locate and then specify items when configuring an element within an orchestration.</span></span>  

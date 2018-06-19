@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255540"
 ---
 # <a name="how-to-search-for-map-items"></a><span data-ttu-id="2e7c4-102">Cómo buscar elementos de asignación</span><span class="sxs-lookup"><span data-stu-id="2e7c4-102">How to Search for Map Items</span></span>
 <span data-ttu-id="2e7c4-103">El Asignador de BizTalk le permite buscar elementos en el esquema de origen, en el de destino y en la superficie de la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="2e7c4-103">The BizTalk Mapper enables you to search for items in the source schema, the destination schema, and the grid surface.</span></span> <span data-ttu-id="2e7c4-104">Este tema proporciona información acerca de cómo realizar esta operación.</span><span class="sxs-lookup"><span data-stu-id="2e7c4-104">This topic provides information about how to perform this operation.</span></span>  

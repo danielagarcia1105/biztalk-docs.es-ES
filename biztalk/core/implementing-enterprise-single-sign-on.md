@@ -1,11 +1,11 @@
 ---
-title: "Implementación de Enterprise Single Sign-On | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de Enterprise Single Sign-On | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, about SSO
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SSO
 - SSO, service accounts
 ms.assetid: 155a62fc-5dc5-4aee-9602-b970067c1bf2
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256468"
 ---
 # <a name="implementing-enterprise-single-sign-on"></a><span data-ttu-id="c033f-102">Implementar el inicio de sesión único empresarial</span><span class="sxs-lookup"><span data-stu-id="c033f-102">Implementing Enterprise Single Sign-On</span></span>
 <span data-ttu-id="c033f-103">El inicio de sesión único (SSO) empresarial proporciona servicios para permitir que los usuarios finales utilicen el inicio de sesión único para las soluciones de integración de aplicaciones de negocio (EAI).</span><span class="sxs-lookup"><span data-stu-id="c033f-103">Enterprise Single Sign-On (SSO) provides services to enable single sign-on to end users for enterprise application integration (EAI) solutions.</span></span> <span data-ttu-id="c033f-104">El sistema de SSO asigna cuentas de Microsoft Windows a credenciales de servidor.</span><span class="sxs-lookup"><span data-stu-id="c033f-104">The SSO system maps Microsoft Windows accounts to back-end credentials.</span></span> <span data-ttu-id="c033f-105">SSO simplifica la administración de contraseñas e Id. de usuario, tanto para usuarios como para administradores.</span><span class="sxs-lookup"><span data-stu-id="c033f-105">SSO simplifies the management of user IDs and passwords, both for users and administrators.</span></span> <span data-ttu-id="c033f-106">Permite el acceso de los usuarios a las aplicaciones y los sistemas de servidor iniciando sesión sólo una vez en la red de Windows.</span><span class="sxs-lookup"><span data-stu-id="c033f-106">It enables users to access back-end systems and applications by logging on only once to the Windows network.</span></span>  

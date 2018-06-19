@@ -1,15 +1,15 @@
 ---
-title: "Importar o exportar el panel de configuración de uso de configuración de BizTalk | Documentos de Microsoft"
-description: "Usar administración de BizTalk Server para importar o exportar la configuración entre entornos de BizTalk Server"
-ms.custom: 
+title: Importar o exportar el panel de configuración de uso de configuración de BizTalk | Documentos de Microsoft
+description: Usar administración de BizTalk Server para importar o exportar la configuración entre entornos de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc2f0b44-d79b-4f95-811a-0843e3d6d1c8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255140"
 ---
 # <a name="use-settings-dashboard-to-import-or-export-biztalk-settings"></a><span data-ttu-id="5bb32-103">Utilice el panel de configuraciones para importar o exportar la configuración de BizTalk</span><span class="sxs-lookup"><span data-stu-id="5bb32-103">Use Settings Dashboard to import or export BizTalk Settings</span></span> 
 

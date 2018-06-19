@@ -1,14 +1,14 @@
 ---
-title: "Implementar un mecanismo de liberación de lote externo | Documentos de Microsoft"
-ms.custom: 
+title: Implementar un mecanismo de liberación de lote externo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5633a448-cc29-4931-a3ad-206ae25c989b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258140"
 ---
 # <a name="implementing-an-external-batch-release-mechanism"></a><span data-ttu-id="e1d0c-102">Implementar un mecanismo de lanzamiento de lotes externo</span><span class="sxs-lookup"><span data-stu-id="e1d0c-102">Implementing an External Batch Release Mechanism</span></span>
 <span data-ttu-id="e1d0c-103">Puede desencadenar el lanzamiento de un lote mediante un desencadenador de versión externo.</span><span class="sxs-lookup"><span data-stu-id="e1d0c-103">You can trigger the release of a batch using an external release trigger.</span></span> <span data-ttu-id="e1d0c-104">El lanzamiento se puede desencadenar de forma automática mediante una aplicación servidor, para línea empresarial al alcanzar un determinado umbral.</span><span class="sxs-lookup"><span data-stu-id="e1d0c-104">The release could be automatically triggered by a back-end, line-of-business application upon reaching a certain threshold.</span></span> <span data-ttu-id="e1d0c-105">Este mecanismo es además desencadena de forma automática el lanzamiento del lote mediante una programación o un recuento de conjuntos de transacciones o caracteres, o desencadena de forma manual el lote haciendo clic en el **invalidar** botón en el **por lotes Configuración** página de la ficha de acuerdo unidireccional.</span><span class="sxs-lookup"><span data-stu-id="e1d0c-105">This mechanism is in addition to automatically triggering the batch release by a schedule or a count of transaction sets or characters, or manually triggering the batch by clicking the **Override** button in the **Batch Configuration** page of the one-way agreement tab.</span></span>  

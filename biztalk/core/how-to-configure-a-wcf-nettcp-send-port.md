@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a8fff07e-b08e-4f95-8ce2-27b508674a5c
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25974127"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-send-port"></a><span data-ttu-id="34571-102">Cómo configurar un puerto de envío WCF-NetTcp</span><span class="sxs-lookup"><span data-stu-id="34571-102">How to Configure a WCF-NetTcp Send Port</span></span>
 <span data-ttu-id="34571-103">Los puertos de envío WCF-NetTcp pueden configurarse mediante programación, o bien utilizando la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="34571-103">You can configure a WCF-NetTcp send port either programmatically or by using the BizTalk Administration console.</span></span>  
@@ -72,7 +73,7 @@ ms.lasthandoff: 03/23/2018
   
 5.  <span data-ttu-id="34571-297">En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **seguridad** ficha, defina las capacidades de seguridad del puerto de envío WCF-NetTcp.</span><span class="sxs-lookup"><span data-stu-id="34571-297">In the **WCF-NetTcp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetTcp send port.</span></span> <span data-ttu-id="34571-298">Para obtener más información sobre la **seguridad** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **delcuadrodediálogodepropiedadesdetransporteWCF-NetTcp,envío,seguridad**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="34571-298">For more information about the **Security** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>  
   
-6.  <span data-ttu-id="34571-299">En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento.</span><span class="sxs-lookup"><span data-stu-id="34571-299">In the **WCF-NetTcp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element.</span></span> <span data-ttu-id="34571-300">Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetTcp, envío,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="34571-300">For more information about the **Messages** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>
+6.  <span data-ttu-id="34571-299">En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento.</span><span class="sxs-lookup"><span data-stu-id="34571-299">In the **WCF-NetTcp Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element.</span></span> <span data-ttu-id="34571-300">Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetTcp, envío,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span><span class="sxs-lookup"><span data-stu-id="34571-300">For more information about the **Messages** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Send, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>
   
 ## <a name="configure-a-wcf-nettcp-send-port-programmatically"></a><span data-ttu-id="34571-301">Configurar un puerto de envío WCF-NetTcp mediante programación</span><span class="sxs-lookup"><span data-stu-id="34571-301">Configure a WCF-NetTcp Send Port Programmatically</span></span>
   

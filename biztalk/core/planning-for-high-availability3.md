@@ -1,11 +1,11 @@
 ---
-title: "Planeación de alta Availability3 | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de alta Availability3 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, high availability
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - planning, high availability
 - high availability, architecture
 ms.assetid: 16feada0-b0b1-4e58-9477-fbd1aae2f51e
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264348"
 ---
 # <a name="planning-for-high-availability"></a><span data-ttu-id="c125c-102">Planear la alta disponibilidad</span><span class="sxs-lookup"><span data-stu-id="c125c-102">Planning for High Availability</span></span>
 <span data-ttu-id="c125c-103">Muchas compañías usan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar los datos de los que depende su actividad.</span><span class="sxs-lookup"><span data-stu-id="c125c-103">Many companies use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process data that their business depends on.</span></span> <span data-ttu-id="c125c-104">Para estas compañías, las consecuencias de un período de inactividad prolongado a causa de una avería del hardware pueden suponer la disminución de la productividad y la rentabilidad.</span><span class="sxs-lookup"><span data-stu-id="c125c-104">For these companies, the consequences of a prolonged downtime because of a hardware outage can mean diminished productivity and profitability.</span></span> <span data-ttu-id="c125c-105">En esta sección se proporcionan directrices para aumentar la disponibilidad de su entorno [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] con el fin de maximizar el tiempo de uso de la solución [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c125c-105">This section provides guidance for increasing availability of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment in order to maximize uptime of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.</span></span>  

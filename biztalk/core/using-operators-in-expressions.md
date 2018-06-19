@@ -1,18 +1,18 @@
 ---
 title: Usar operadores en expresiones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, operators
 - XLANG/s, operators
 - orchestrations, XLANG/s
 ms.assetid: f0948ce2-c508-48aa-af79-d207f577b22f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,14 +21,15 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974306"
 ---
 # <a name="using-operators-in-expressions"></a><span data-ttu-id="67947-102">Usar operadores en expresiones</span><span class="sxs-lookup"><span data-stu-id="67947-102">Using Operators in Expressions</span></span>
 <span data-ttu-id="67947-103">Los siguientes operadores XLAN/s están disponibles para su uso en expresiones de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="67947-103">The following XLANG/s operators are available for use in orchestration expressions.</span></span> <span data-ttu-id="67947-104">Cumplen estrictamente con las funciones de los operadores correspondientes en C#.</span><span class="sxs-lookup"><span data-stu-id="67947-104">They adhere closely to the functionality of the corresponding operators in C#.</span></span>  
   
 |<span data-ttu-id="67947-105">Operador</span><span class="sxs-lookup"><span data-stu-id="67947-105">Operator</span></span>|<span data-ttu-id="67947-106">Description</span><span class="sxs-lookup"><span data-stu-id="67947-106">Description</span></span>|<span data-ttu-id="67947-107">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="67947-107">Example</span></span>|  
 |--------------|-----------------|-------------|  
-|<span data-ttu-id="67947-108">checked()</span><span class="sxs-lookup"><span data-stu-id="67947-108">checked()</span></span>|<span data-ttu-id="67947-109">genera error al producirse un desbordamiento aritmético</span><span class="sxs-lookup"><span data-stu-id="67947-109">raise error on arithmetic overflow</span></span>|<span data-ttu-id="67947-110">checked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="67947-110">checked(x = y * 1000)</span></span>|  
-|<span data-ttu-id="67947-111">unchecked()</span><span class="sxs-lookup"><span data-stu-id="67947-111">unchecked()</span></span>|<span data-ttu-id="67947-112">omite el desbordamiento aritmético.</span><span class="sxs-lookup"><span data-stu-id="67947-112">ignore arithmetic overflow</span></span>|<span data-ttu-id="67947-113">unchecked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="67947-113">unchecked(x = y * 1000)</span></span>|  
+|<span data-ttu-id="67947-108">checked()</span><span class="sxs-lookup"><span data-stu-id="67947-108">checked()</span></span>|<span data-ttu-id="67947-109">genera error al producirse un desbordamiento aritmético</span><span class="sxs-lookup"><span data-stu-id="67947-109">raise error on arithmetic overflow</span></span>|<span data-ttu-id="67947-110">checked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="67947-110">checked(x = y \* 1000)</span></span>|  
+|<span data-ttu-id="67947-111">unchecked()</span><span class="sxs-lookup"><span data-stu-id="67947-111">unchecked()</span></span>|<span data-ttu-id="67947-112">omite el desbordamiento aritmético.</span><span class="sxs-lookup"><span data-stu-id="67947-112">ignore arithmetic overflow</span></span>|<span data-ttu-id="67947-113">unchecked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="67947-113">unchecked(x = y \* 1000)</span></span>|  
 |<span data-ttu-id="67947-114">nuevo</span><span class="sxs-lookup"><span data-stu-id="67947-114">new</span></span>|<span data-ttu-id="67947-115">crea una instancia de una clase</span><span class="sxs-lookup"><span data-stu-id="67947-115">create an instance of a class</span></span>|<span data-ttu-id="67947-116">myObject = new MyClass;</span><span class="sxs-lookup"><span data-stu-id="67947-116">myObject = new MyClass;</span></span>|  
 |<span data-ttu-id="67947-117">typeof</span><span class="sxs-lookup"><span data-stu-id="67947-117">typeof</span></span>|<span data-ttu-id="67947-118">recuperación de tipo</span><span class="sxs-lookup"><span data-stu-id="67947-118">Type retrieval</span></span>|<span data-ttu-id="67947-119">myMapType = typeof(myMap)</span><span class="sxs-lookup"><span data-stu-id="67947-119">myMapType = typeof(myMap)</span></span>|  
 |<span data-ttu-id="67947-120">succeeded()</span><span class="sxs-lookup"><span data-stu-id="67947-120">succeeded()</span></span>|<span data-ttu-id="67947-121">prueba para la finalización correcta de ámbito transaccional u orquestación</span><span class="sxs-lookup"><span data-stu-id="67947-121">test for successful completion of transactional scope or orchestration</span></span>|<span data-ttu-id="67947-122">se ha realizado correctamente (\<identificador de transacción de secundarios del ámbito actual o servicio\>)</span><span class="sxs-lookup"><span data-stu-id="67947-122">succeeded(\<transaction ID for child transaction of current scope or service\>)</span></span>|  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="67947-130">!</span><span class="sxs-lookup"><span data-stu-id="67947-130">!</span></span>|<span data-ttu-id="67947-131">negación lógica</span><span class="sxs-lookup"><span data-stu-id="67947-131">logical negation</span></span>|<span data-ttu-id="67947-132">!myBool</span><span class="sxs-lookup"><span data-stu-id="67947-132">!myBool</span></span>|  
 |~|<span data-ttu-id="67947-133">complemento bit a bit</span><span class="sxs-lookup"><span data-stu-id="67947-133">bitwise complement</span></span>|<span data-ttu-id="67947-134">x = ~y</span><span class="sxs-lookup"><span data-stu-id="67947-134">x = ~y</span></span>|  
 |<span data-ttu-id="67947-135">()</span><span class="sxs-lookup"><span data-stu-id="67947-135">()</span></span>|<span data-ttu-id="67947-136">Conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="67947-136">cast</span></span>|<span data-ttu-id="67947-137">(bool) myInt</span><span class="sxs-lookup"><span data-stu-id="67947-137">(bool) myInt</span></span>|  
-|*|<span data-ttu-id="67947-138">times</span><span class="sxs-lookup"><span data-stu-id="67947-138">times</span></span>|<span data-ttu-id="67947-139">Weight = MyMsg.numOrders * 20</span><span class="sxs-lookup"><span data-stu-id="67947-139">Weight = MyMsg.numOrders * 20</span></span>|  
+|*|<span data-ttu-id="67947-138">times</span><span class="sxs-lookup"><span data-stu-id="67947-138">times</span></span>|<span data-ttu-id="67947-139">Weight = MyMsg.numOrders \* 20</span><span class="sxs-lookup"><span data-stu-id="67947-139">Weight = MyMsg.numOrders \* 20</span></span>|  
 |/|<span data-ttu-id="67947-140">dividido por</span><span class="sxs-lookup"><span data-stu-id="67947-140">divided by</span></span>|<span data-ttu-id="67947-141">x / y</span><span class="sxs-lookup"><span data-stu-id="67947-141">x / y</span></span>|  
 |+|<span data-ttu-id="67947-142">más</span><span class="sxs-lookup"><span data-stu-id="67947-142">plus</span></span>|<span data-ttu-id="67947-143">x + y</span><span class="sxs-lookup"><span data-stu-id="67947-143">x + y</span></span>|  
 |-|<span data-ttu-id="67947-144">menos</span><span class="sxs-lookup"><span data-stu-id="67947-144">minus</span></span>|<span data-ttu-id="67947-145">x - y</span><span class="sxs-lookup"><span data-stu-id="67947-145">x - y</span></span>|  

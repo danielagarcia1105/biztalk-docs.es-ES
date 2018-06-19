@@ -1,17 +1,17 @@
 ---
-title: "Dimensión de progreso | Documentos de Microsoft"
-ms.custom: 
+title: Dimensión de progreso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], progress dimensions
 - Progress dimension [BAM]
 ms.assetid: 472fcbf6-502f-4c81-bf48-f7eec98e391b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973498"
 ---
 # <a name="progress-dimension"></a><span data-ttu-id="0dd25-102">Dimensión de progreso</span><span class="sxs-lookup"><span data-stu-id="0dd25-102">Progress Dimension</span></span>
 <span data-ttu-id="0dd25-103">Use una dimensión de progreso para agrupar las actividades de BAM por hitos conseguidos.</span><span class="sxs-lookup"><span data-stu-id="0dd25-103">Use a progress dimension to group BAM activities by milestones they have reached.</span></span> <span data-ttu-id="0dd25-104">A continuación se incluye ejemplo ilustrativo.</span><span class="sxs-lookup"><span data-stu-id="0dd25-104">This is best illustrated by an example.</span></span>  

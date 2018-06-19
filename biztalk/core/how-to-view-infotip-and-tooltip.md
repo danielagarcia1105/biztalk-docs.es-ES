@@ -1,14 +1,14 @@
 ---
-title: "Visualización de recuadros informativos e información sobre herramientas | Documentos de Microsoft"
-ms.custom: 
+title: Visualización de recuadros informativos e información sobre herramientas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5621bd0a-7028-43fc-b6e8-74a528129285
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257284"
 ---
 # <a name="how-to-view-infotip-and-tooltip"></a><span data-ttu-id="87341-102">Visualización de recuadros informativos e información sobre herramientas</span><span class="sxs-lookup"><span data-stu-id="87341-102">How to View Infotip and Tooltip</span></span>
 <span data-ttu-id="87341-103">Al mover el cursor sobre un elemento de una asignación sin hacer clic en él, aparece una sugerencia con información de utilidad sobre dicho elemento.</span><span class="sxs-lookup"><span data-stu-id="87341-103">When you move the cursor over a map item without clicking it, a screen tip appears with useful information about that item.</span></span>  

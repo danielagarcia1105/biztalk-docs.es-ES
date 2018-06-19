@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef3f032f-28a1-4d52-9d85-d5748c9e9682
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257892"
 ---
 # <a name="how-to-upgrade-an-orchestration"></a><span data-ttu-id="16ad1-102">Cómo actualizar una orquestación</span><span class="sxs-lookup"><span data-stu-id="16ad1-102">How to Upgrade an Orchestration</span></span>
 <span data-ttu-id="16ad1-103">Cómo actualizar una orquestación que se ejecuta en un entorno de producción cuando la orquestación controla transacciones de larga ejecución o está esperando una respuesta desde un puerto de petición-respuesta.</span><span class="sxs-lookup"><span data-stu-id="16ad1-103">How to update an orchestration that is running in a production environment when the orchestration handles long-running transactions or is waiting for a response from a solicit-response port.</span></span>

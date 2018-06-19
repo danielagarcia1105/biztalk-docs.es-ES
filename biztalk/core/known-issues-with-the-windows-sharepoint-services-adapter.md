@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos con el adaptador de Windows SharePoint Services | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c20eda7-643d-484c-bf5d-59ff69604cea
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970706"
 ---
 # <a name="known-issues-with-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="f31d7-102">Problemas conocidos del adaptador de Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="f31d7-102">Known Issues with the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="f31d7-103">Esta sección contiene información que puede servir de ayuda para evitar errores.</span><span class="sxs-lookup"><span data-stu-id="f31d7-103">This section contains information that may help you avoid errors.</span></span>  

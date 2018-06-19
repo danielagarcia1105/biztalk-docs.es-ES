@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262012"
 ---
 # <a name="lesson-1-define-schemas-and-a-map"></a><span data-ttu-id="7dfc2-102">Lección 1: Definir los esquemas y una asignación</span><span class="sxs-lookup"><span data-stu-id="7dfc2-102">Lesson 1: Define Schemas and a Map</span></span>
 <span data-ttu-id="7dfc2-103">En esta lección creará y generará el primer proyecto de la solución de integración de aplicaciones empresariales (EAI).</span><span class="sxs-lookup"><span data-stu-id="7dfc2-103">In this lesson, you create and build the first project in the enterprise application integration (EAI) solution.</span></span> <span data-ttu-id="7dfc2-104">El primer proyecto contiene dos esquemas de mensaje y una asignación.</span><span class="sxs-lookup"><span data-stu-id="7dfc2-104">The project contains two message schemas, and a map.</span></span>  

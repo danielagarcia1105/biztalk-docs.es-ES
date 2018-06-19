@@ -1,11 +1,11 @@
 ---
 title: PartyResolution (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - routing, messages
 - messages, routing
 ms.assetid: 220e6bc5-6f04-4f37-b0d0-f11c2cc14422
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975426"
 ---
 # <a name="partyresolution-biztalk-server-sample"></a><span data-ttu-id="7f02a-102">PartyResolution (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="7f02a-102">PartyResolution (BizTalk Server Sample)</span></span>
 <span data-ttu-id="7f02a-103">En el ejemplo de PartyResolution se muestra cómo utilizar orquestaciones de BizTalk con resolución de entidades para enrutar mensajes a uno de los dos destinatarios posibles.</span><span class="sxs-lookup"><span data-stu-id="7f02a-103">The PartyResolution sample demonstrates how to use BizTalk orchestrations with party resolution to route messages to one of two possible recipients.</span></span>  
@@ -125,7 +126,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="7f02a-168">Shipper1Process.odx y Shipper2Process.odx se generan para recibir el pedido de envío y el consejo de envío de SupplierProcess.odx y enviar la respuesta de nuevo a SupplierProcess.odx.</span><span class="sxs-lookup"><span data-stu-id="7f02a-168">Shipper1Process.odx and Shipper2Process.odx are built to receive the shipping order and the shipping advice from SupplierProcess.odx and to send the response back to SupplierProcess.odx.</span></span> <span data-ttu-id="7f02a-169">En las dos orquestaciones de remitente, se utiliza la correlación y el tipo de correlación se basa en la propiedad promocionada PONo.</span><span class="sxs-lookup"><span data-stu-id="7f02a-169">In both of the shipper orchestrations, correlation is used, and the correlation type is based on the promoted property PONo.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="7f02a-170">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="7f02a-170">Where to Find This Sample</span></span>  
- <span data-ttu-id="7f02a-171">*\<Ejemplos de ruta de acceso\>*\Orchestrations\PartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="7f02a-171">*\<Samples Path\>*\Orchestrations\PartyResolution\\</span></span>  
+ <span data-ttu-id="7f02a-171">*\<Ejemplos de ruta de acceso\>* \Orchestrations\PartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="7f02a-171">*\<Samples Path\>* \Orchestrations\PartyResolution\\</span></span>  
   
  <span data-ttu-id="7f02a-172">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="7f02a-172">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -276,13 +277,13 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
 1.  <span data-ttu-id="7f02a-293">Ejecute FilePolling.exe desde la carpeta siguiente:</span><span class="sxs-lookup"><span data-stu-id="7f02a-293">Run FilePolling.exe from the following folder:</span></span>  
   
-     <span data-ttu-id="7f02a-294">*\<Ejemplos de ruta de acceso >*\Orchestrations\PartyResolution\FilePolling\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="7f02a-294">*\<Samples Path>*\Orchestrations\PartyResolution\FilePolling\bin\Debug</span></span>  
+     <span data-ttu-id="7f02a-294">*\<Ejemplos de ruta de acceso >* \Orchestrations\PartyResolution\FilePolling\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="7f02a-294">*\<Samples Path>* \Orchestrations\PartyResolution\FilePolling\bin\Debug</span></span>  
   
 2.  <span data-ttu-id="7f02a-295">Haga clic en **iniciar sondeo**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-295">Click **Start polling**.</span></span>  
   
 3.  <span data-ttu-id="7f02a-296">Pegue una copia del archivo de instancia de pedido proporcionado PurchaseOrder.xml en la carpeta siguiente:</span><span class="sxs-lookup"><span data-stu-id="7f02a-296">Paste a copy of the provided PO instance file, PurchaseOrder.xml, in the following folder:</span></span>  
   
-     <span data-ttu-id="7f02a-297">*\<Ejemplos de ruta de acceso >*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span><span class="sxs-lookup"><span data-stu-id="7f02a-297">*\<Samples Path>*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span></span>  
+     <span data-ttu-id="7f02a-297">*\<Ejemplos de ruta de acceso >* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span><span class="sxs-lookup"><span data-stu-id="7f02a-297">*\<Samples Path>* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span></span>  
   
 4.  <span data-ttu-id="7f02a-298">Observe la secuencia de mensajes que se proporcionan en forma de cuadros de mensajes, que le mantienen informado acerca del progreso del ejemplo:</span><span class="sxs-lookup"><span data-stu-id="7f02a-298">Observe the sequence of messages that are provided in the form of message boxes that keep you informed about the progress of the sample:</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "Cómo actualizar referencias al nombre de base de datos de archivo BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar referencias al nombre de base de datos de archivo BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Archive database [BAM], restoring
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Archive database [BAM], updating references
 - BAM, restoring
 ms.assetid: a0b8543e-6fc1-412e-b74e-683352d9c49e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256420"
 ---
 # <a name="how-to-update-references-to-the-bam-archive-database-name"></a><span data-ttu-id="27fde-102">Cómo actualizar referencias al nombre de base de datos de archivo de SAE</span><span class="sxs-lookup"><span data-stu-id="27fde-102">How to Update References to the BAM Archive Database Name</span></span>
 <span data-ttu-id="27fde-103">Si realizó una copia de seguridad de las bases de datos BAMArchive, podrá restaurar la copia de seguridad y cambiarle el nombre en el caso de que se produzca un error de datos o del sistema.</span><span class="sxs-lookup"><span data-stu-id="27fde-103">If you backed up your BAMArchive databases, in the event of a system or data failure you can restore that backup and rename it.</span></span>  

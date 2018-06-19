@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57684e09-1f72-4bde-976c-3fcec65dc182
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25974970"
 ---
 # <a name="how-to-configure-a-wcf-netnamedpipe-send-port"></a><span data-ttu-id="607ef-102">Cómo configurar un puerto de envío WCF-NetNamedPipe</span><span class="sxs-lookup"><span data-stu-id="607ef-102">How to Configure a WCF-NetNamedPipe Send Port</span></span>
 <span data-ttu-id="607ef-103">El puerto de envío WCF-NetNamedPipe se puede configurar mediante programación o con la consola de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="607ef-103">You can configure a WCF-NetNamedPipe send port either programmatically or by using the BizTalk Administration console.</span></span>  

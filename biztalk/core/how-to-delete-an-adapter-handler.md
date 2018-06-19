@@ -1,18 +1,18 @@
 ---
-title: "Cómo eliminar un controlador de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar un controlador de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, handlers
 - deleting, handlers [adapters]
 - handlers [adapters], deleting
 ms.assetid: 95db5652-e175-45d1-b713-1ad73655a592
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249628"
 ---
 # <a name="how-to-delete-an-adapter-handler"></a><span data-ttu-id="0d35c-102">Cómo eliminar un controlador de adaptador</span><span class="sxs-lookup"><span data-stu-id="0d35c-102">How to Delete an Adapter Handler</span></span>
 <span data-ttu-id="0d35c-103">Para eliminar un controlador de adaptador de envío o recepción, utilice la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="0d35c-103">You can delete a send or receive adapter handler by using the BizTalk Server Administration Console.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo exportar enlaces para un ensamblado de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar enlaces para un ensamblado de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, bindings
 - assemblies, exporting
 - exporting, assemblies
 ms.assetid: 7e37348d-5fa5-43cc-b3c0-2d8cb6a8f394
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254860"
 ---
 # <a name="how-to-export-bindings-for-a-biztalk-assembly"></a><span data-ttu-id="330da-102">Cómo exportar enlaces de un ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="330da-102">How to Export Bindings for a BizTalk Assembly</span></span>
 <span data-ttu-id="330da-103">En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para exportar los enlaces de un ensamblado de BizTalk a un archivo .xml.</span><span class="sxs-lookup"><span data-stu-id="330da-103">This topic describes how to use the BizTalk Server Administration console or the command line to export the bindings for a BizTalk assembly to an .xml file.</span></span> <span data-ttu-id="330da-104">A continuación, puede importar estos enlaces en una aplicación de BizTalk, que sobrescribe los enlaces existentes con los enlaces importados del mismo nombre.</span><span class="sxs-lookup"><span data-stu-id="330da-104">You can then import these bindings into a BizTalk application, which overwrites existing bindings with the imported bindings of the same name.</span></span> <span data-ttu-id="330da-105">Es posible que desee exportar los enlaces de un ensamblado antes de actualizarlo, para que pueda importar los enlaces después de actualizarlo y, de este modo, volver a aplicarlos.</span><span class="sxs-lookup"><span data-stu-id="330da-105">You might want to export the bindings for an assembly before you update it, so that you can import the bindings after you update it to reapply them.</span></span> <span data-ttu-id="330da-106">Para obtener más información acerca de cómo actualizar aplicaciones y ensamblados, vea [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md).</span><span class="sxs-lookup"><span data-stu-id="330da-106">For more information about updating applications and assemblies, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).</span></span> <span data-ttu-id="330da-107">Para obtener más información acerca del uso de archivos de enlace, vea [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="330da-107">For more information about using binding files, see [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).</span></span>  

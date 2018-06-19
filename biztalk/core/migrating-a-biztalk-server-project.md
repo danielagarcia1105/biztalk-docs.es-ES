@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a4dde72-6555-4bf6-b90e-676aa65312ff
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973466"
 ---
 # <a name="migrating-a-biztalk-server-project"></a><span data-ttu-id="abecc-102">Migración de un proyecto de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="abecc-102">Migrating a BizTalk Server Project</span></span>
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]<span data-ttu-id="abecc-103"> los proyectos desarrollan para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se pueden migrar a los entornos más recientes mediante el uso de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversión.</span><span class="sxs-lookup"><span data-stu-id="abecc-103"> projects developed for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be migrated to the newer environments by using  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversion.</span></span> <span data-ttu-id="abecc-104">Para obtener una lista de las versiones de migración compatibles, consulte [admiten rutas de acceso de actualización y guías de instalación](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).</span><span class="sxs-lookup"><span data-stu-id="abecc-104">For a list of the supported migration versions, see [Supported Upgrade Paths and Installation Guides](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).</span></span>  

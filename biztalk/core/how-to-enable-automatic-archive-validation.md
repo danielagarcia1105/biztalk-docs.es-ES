@@ -11,7 +11,7 @@ helpviewer_keywords:
 - validating, archives [Tracking database]
 - archiving [Tracking database], validating archive
 ms.assetid: 406ca54a-6b1f-4bdb-9bad-bea5ea0f6e66
-caps.latest.revision: ''
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25971802"
 ---
 # <a name="how-to-enable-automatic-archive-validation"></a><span data-ttu-id="07e51-102">Cómo habilitar la validación automática de archivos</span><span class="sxs-lookup"><span data-stu-id="07e51-102">How to Enable Automatic Archive Validation</span></span>
 <span data-ttu-id="07e51-103">La validación de archivos permite validar los archivos a medida que se crean.</span><span class="sxs-lookup"><span data-stu-id="07e51-103">Archive validation enables you to validate the archives as they are created.</span></span> <span data-ttu-id="07e51-104">Antes de poder habilitar la validación de archivos automática, tendrá que configurar un servidor de base de datos secundario, también denominado servidor de validación.</span><span class="sxs-lookup"><span data-stu-id="07e51-104">Before you can enable automatic archive validation, you must set up a secondary database server, also called a validation server.</span></span> <span data-ttu-id="07e51-105">Ya que el proceso de archivo es una simple copia de seguridad, es posible que se pueda dañar la imagen real almacenada en el disco debido a un problema de hardware.</span><span class="sxs-lookup"><span data-stu-id="07e51-105">Because the archiving process is a simple backup, it is possible that the actual image stored on the disk can be corrupted due to a hardware issue.</span></span>  

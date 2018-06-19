@@ -1,14 +1,14 @@
 ---
 title: ReceiveLocations (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87d75941-3973-4166-91b0-f1192b25a804
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972626"
 ---
 # <a name="receivelocations-biztalk-server-sample"></a><span data-ttu-id="edcba-102">ReceiveLocations (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="edcba-102">ReceiveLocations (BizTalk Server Sample)</span></span>
 <span data-ttu-id="edcba-103">El ejemplo ReceiveLocations muestra cómo crear ubicaciones de recepción en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno mediante el uso de la **ExplorerOM** objetos de administración.</span><span class="sxs-lookup"><span data-stu-id="edcba-103">The ReceiveLocations sample demonstrates how to create receive locations in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment by using the **ExplorerOM** administration objects.</span></span> <span data-ttu-id="edcba-104">Para obtener más información sobre ubicaciones de recepción en general, vea [ubicaciones de recepción](../core/receive-locations.md).</span><span class="sxs-lookup"><span data-stu-id="edcba-104">For more information about receive locations in general, see [Receive Locations](../core/receive-locations.md).</span></span>  

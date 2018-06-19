@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración del adaptador FTP | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración del adaptador FTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - FTP adapters, receive locations
 - send ports, adapters
 ms.assetid: 88a2084e-cb26-4136-9077-8b9463062ccc
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975274"
 ---
 # <a name="ftp-adapter-configuration-properties"></a><span data-ttu-id="af438-102">Propiedades de configuración del adaptador de FTP</span><span class="sxs-lookup"><span data-stu-id="af438-102">FTP Adapter Configuration Properties</span></span>
 <span data-ttu-id="af438-103">En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para una ubicación de recepción de un adaptador de FTP:</span><span class="sxs-lookup"><span data-stu-id="af438-103">The following table lists the configuration properties that you can set for an FTP adapter receive location:</span></span>  

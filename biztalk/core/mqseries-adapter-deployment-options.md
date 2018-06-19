@@ -1,17 +1,17 @@
 ---
-title: "Opciones de implementación del adaptador de MQSeries | Documentos de Microsoft"
-ms.custom: 
+title: Opciones de implementación del adaptador de MQSeries | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, deploying
 - deploying, MQSeries adapters
 ms.assetid: d9380aff-40ea-419b-88e2-1e2ec3f023cb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263020"
 ---
 # <a name="mqseries-adapter-deployment-options"></a><span data-ttu-id="fc5c2-102">Opciones de implementación del adaptador de MQSeries</span><span class="sxs-lookup"><span data-stu-id="fc5c2-102">MQSeries Adapter Deployment Options</span></span>
 <span data-ttu-id="fc5c2-103">El adaptador de MQSeries le ofrece una gran flexibilidad a la hora de configurar su hardware.</span><span class="sxs-lookup"><span data-stu-id="fc5c2-103">The MQSeries adapter gives you great flexibility in configuring your hardware.</span></span> <span data-ttu-id="fc5c2-104">Al menos hay tres patrones principales de uso:</span><span class="sxs-lookup"><span data-stu-id="fc5c2-104">There are at least three main patterns of use:</span></span>  

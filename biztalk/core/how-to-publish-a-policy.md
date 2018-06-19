@@ -1,18 +1,18 @@
 ---
-title: "Cómo publicar una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo publicar una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, publishing
 - managing [policies], publishing
 - publishing, policies
 ms.assetid: 730c57a7-526f-40ca-8610-88216558e375
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971162"
 ---
 # <a name="how-to-publish-a-policy"></a><span data-ttu-id="9b98a-102">Cómo publicar una directiva</span><span class="sxs-lookup"><span data-stu-id="9b98a-102">How to Publish a Policy</span></span>
 <span data-ttu-id="9b98a-103">En este tema se describe cómo usar la consola de administración de BizTalk Server para publicar una directiva en un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="9b98a-103">This topic describes how to use the BizTalk Server Administration console to publish a policy in a BizTalk group.</span></span> <span data-ttu-id="9b98a-104">Publicar una directiva hace que esté disponible para agregar a una aplicación de BizTalk, tal y como se describe en [cómo agregar una directiva a una aplicación](../core/how-to-add-a-policy-to-an-application.md).</span><span class="sxs-lookup"><span data-stu-id="9b98a-104">Publishing a policy makes it available to add to a BizTalk application, as described in [How to Add a Policy to an Application](../core/how-to-add-a-policy-to-an-application.md).</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Detalles de implementación del adaptador OPS | Documentos de Microsoft"
-ms.custom: 
+title: Detalles de implementación del adaptador OPS | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, Ops adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Ops adapters, transaction handling
 - process management solution tutorial, Ops adapters
 ms.assetid: dbca31ca-c3d8-4a25-9356-ef4bbab671e1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970786"
 ---
 # <a name="ops-adapter-implementation-details"></a><span data-ttu-id="8cadf-102">Detalles de implementación de adaptadores de OPS</span><span class="sxs-lookup"><span data-stu-id="8cadf-102">Ops Adapter Implementation Details</span></span>
 <span data-ttu-id="8cadf-103">Puede que le resulte de utilidad conocer los siguientes aspectos del adaptador OPS al modificar el adaptador o configurarlo mediante programación.</span><span class="sxs-lookup"><span data-stu-id="8cadf-103">You may find it useful to understand the following aspects of the Ops adapter when modifying the adapter or configuring it programmatically.</span></span>  

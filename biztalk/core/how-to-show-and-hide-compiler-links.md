@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar y ocultar los vínculos de compilador | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar y ocultar los vínculos de compilador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66bfd9de-c4d2-46ee-854f-cf7c7cd07368
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255548"
 ---
 # <a name="how-to-show-and-hide-compiler-links"></a><span data-ttu-id="b4c80-102">Cómo mostrar y ocultar vínculos de compilador</span><span class="sxs-lookup"><span data-stu-id="b4c80-102">How to Show and Hide Compiler Links</span></span>
 <span data-ttu-id="b4c80-103">Al compilar una asignación, el Asignador de BizTalk crea vínculos adicionales, conocidos como vínculos de compilador para contar con todos los vínculos que se necesitan en la asignación.</span><span class="sxs-lookup"><span data-stu-id="b4c80-103">When you compile a map, BizTalk Mapper creates additional links, known as compiler links to account for all linking needed in the map.</span></span> <span data-ttu-id="b4c80-104">Algunos de estos vínculos no tienen que ver con los vínculos que usted ha creado.</span><span class="sxs-lookup"><span data-stu-id="b4c80-104">Some of these links are only implied by the links you created.</span></span> <span data-ttu-id="b4c80-105">Cuando compila, o comprueba, una asignación, la línea final de la ventana Resultados de Visual Studio le permite mostrar u ocultar estos vínculos de compilador adicionales en la ventana principal.</span><span class="sxs-lookup"><span data-stu-id="b4c80-105">When you compile, or test, a map, the final line in the Visual Studio Output window allows you to show or hide these additional compiler links in the main window.</span></span> <span data-ttu-id="b4c80-106">De forma predeterminada, los vínculos de compilador aparecen como líneas discontinuas rojas.</span><span class="sxs-lookup"><span data-stu-id="b4c80-106">By default, the compiler links appear as red dashed lines.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Crear un servicio de mensajería itinerarios personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Crear un servicio de mensajería itinerarios personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2de44c21-68ca-4cf1-a117-bcb35af1b4a9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973738"
 ---
 # <a name="creating-a-custom-itinerary-messaging-service"></a><span data-ttu-id="2f0ad-102">Crear un servicio de mensajería itinerario personalizado</span><span class="sxs-lookup"><span data-stu-id="2f0ad-102">Creating a Custom Itinerary Messaging Service</span></span>
 <span data-ttu-id="2f0ad-103">El marco de trabajo itinerario que forma parte de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] admite la ejecución de pasos itinerarios con las clases que implementan la **IMessagingService** interfaz que se ejecutan los servicios de mensajería itinerarios.</span><span class="sxs-lookup"><span data-stu-id="2f0ad-103">The itinerary framework that is part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports execution of itinerary steps using classes implementing the **IMessagingService** interface that execute itinerary messaging services.</span></span> <span data-ttu-id="2f0ad-104">Puede implementar un servicio de mensajería personalizado cuando desee que el servicio sea responsable de lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="2f0ad-104">You can implement a custom messaging service when you want the service to be responsible for the following:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Crear instancias de adaptadores aislados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b8359a3-b098-4bb6-87b4-d3432d2671b1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257492"
 ---
 # <a name="instantiating-isolated-adapters"></a><span data-ttu-id="24c7f-102">Crear instancias de adaptadores aislados</span><span class="sxs-lookup"><span data-stu-id="24c7f-102">Instantiating Isolated Adapters</span></span>
 <span data-ttu-id="24c7f-103">Como se ha comentado con anterioridad, BizTalk Server no crea instancias de los adaptadores aislados.</span><span class="sxs-lookup"><span data-stu-id="24c7f-103">As discussed earlier, isolated adapters are not instantiated by BizTalk Server.</span></span> <span data-ttu-id="24c7f-104">En cambio, se crean instancias de ellos y se alojan en otro proceso.</span><span class="sxs-lookup"><span data-stu-id="24c7f-104">Rather, they are instantiated and hosted in another process.</span></span> <span data-ttu-id="24c7f-105">Es responsabilidad del adaptador para crear el proxy de transporte, **QueryInterface**, para **IBTTransportProxy**y, a continuación, llame a **IBTTransportProxy**. **RegisterIsolatedReceiver** para registrar con el motor de mensajería.</span><span class="sxs-lookup"><span data-stu-id="24c7f-105">It is the responsibility of the adapter to create its transport proxy, **QueryInterface**, for **IBTTransportProxy**, and then call **IBTTransportProxy**.**RegisterIsolatedReceiver** to register with the Messaging Engine.</span></span>  

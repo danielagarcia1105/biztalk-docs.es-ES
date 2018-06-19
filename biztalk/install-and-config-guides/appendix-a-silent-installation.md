@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94ded6b3-13ca-47e6-a038-254514f500e7
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976722"
 ---
 # <a name="appendix-a-silent-installation"></a><span data-ttu-id="475fe-102">Apéndice A: Instalación silenciosa</span><span class="sxs-lookup"><span data-stu-id="475fe-102">Appendix A: Silent Installation</span></span>
 <span data-ttu-id="475fe-103">En este tema se indican los pasos necesarios para crear una instalación silenciosa de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="475fe-103">This topic lists the steps to create a silent installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

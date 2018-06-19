@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6e576fc-37fd-417d-ae68-607a0a8bcc0a
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975843"
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a><span data-ttu-id="deb53-102">Cómo se almacenan los datos correspondientes a mensajes EDI de salida</span><span class="sxs-lookup"><span data-stu-id="deb53-102">How Data Is Stored for Outbound EDI Messages</span></span>
 <span data-ttu-id="deb53-103">Para generar una entrada del informe de estado correspondiente a un intercambio de salida, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] lleva a cabo lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="deb53-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does the following to generate a status report entry for an outbound interchange:</span></span>  

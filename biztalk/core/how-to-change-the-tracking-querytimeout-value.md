@@ -1,17 +1,17 @@
 ---
-title: "Cómo cambiar el valor de QueryTimeout de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el valor de QueryTimeout de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [HAT], time-out limits
 - HAT, time-out limits
 ms.assetid: abc26f37-6537-42fa-81ff-bc8b758b4e10
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247476"
 ---
 # <a name="how-to-change-the-tracking-querytimeout-value"></a><span data-ttu-id="dc06b-102">Cambio del valor QueryTimeout de seguimiento</span><span class="sxs-lookup"><span data-stu-id="dc06b-102">How to Change the Tracking QueryTimeout Value</span></span>
 <span data-ttu-id="dc06b-103">De forma predeterminada, el seguimiento de instancias de mensajes y servicios agotará el tiempo de espera si una consulta se ejecuta durante más de 60 segundos.</span><span class="sxs-lookup"><span data-stu-id="dc06b-103">By default, message and service instance tracking will time out if a query runs longer than 60 seconds.</span></span> <span data-ttu-id="dc06b-104">Es posible cambiar el valor de tiempo de espera en el Registro para permitir que las consultas se ejecuten durante más de 60 segundos.</span><span class="sxs-lookup"><span data-stu-id="dc06b-104">You can change the timeout value in the registry to enable queries to run longer than 60 seconds.</span></span>  

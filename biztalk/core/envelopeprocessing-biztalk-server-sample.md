@@ -1,11 +1,11 @@
 ---
 title: EnvelopeProcessing (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, envelopes
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - flat files, examples
 - envelopes, examples
 ms.assetid: b4cd979b-c7b4-446c-be29-c9f3169afa1f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972346"
 ---
 # <a name="envelopeprocessing-biztalk-server-sample"></a><span data-ttu-id="6953c-102">EnvelopeProcessing (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="6953c-102">EnvelopeProcessing (BizTalk Server Sample)</span></span>
 <span data-ttu-id="6953c-103">El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobres de mensaje en las canalizaciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="6953c-103">The EnvelopeProcessing sample demonstrates how to process messages and message envelopes in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipelines.</span></span> <span data-ttu-id="6953c-104">Además, muestra cómo procesar mensajes de archivos sin formato en mensajes XML.</span><span class="sxs-lookup"><span data-stu-id="6953c-104">Further, it shows how to process flat file messages into XML messages.</span></span>  
@@ -97,13 +98,13 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="6953c-177">En una ventana de comandos, desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="6953c-177">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="6953c-178">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing</span><span class="sxs-lookup"><span data-stu-id="6953c-178">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing</span></span>  
+     <span data-ttu-id="6953c-178">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing</span><span class="sxs-lookup"><span data-stu-id="6953c-178">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing</span></span>  
   
 2.  <span data-ttu-id="6953c-179">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="6953c-179">Run the file Setup.bat, which performs the following actions:</span></span>  
   
     -   <span data-ttu-id="6953c-180">Crea la carpeta de entrada (EnvInput) y la carpeta de salida (EnvOutput) para este ejemplo en la carpeta:</span><span class="sxs-lookup"><span data-stu-id="6953c-180">Creates the input (EnvInput) and output (EnvOutput) folders for this sample in the folder:</span></span>  
   
-         <span data-ttu-id="6953c-181">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\\</span><span class="sxs-lookup"><span data-stu-id="6953c-181">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\\</span></span>  
+         <span data-ttu-id="6953c-181">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing\\</span><span class="sxs-lookup"><span data-stu-id="6953c-181">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing\\</span></span>  
   
     -   <span data-ttu-id="6953c-182">Compila e implementa el proyecto de Visual Studio para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="6953c-182">Compiles and deploys the Visual Studio project for this sample.</span></span>  
   

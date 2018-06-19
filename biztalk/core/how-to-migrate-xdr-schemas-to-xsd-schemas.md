@@ -1,14 +1,14 @@
 ---
-title: "Cómo migrar esquemas XDR a esquemas XSD | Documentos de Microsoft"
-ms.custom: 
+title: Cómo migrar esquemas XDR a esquemas XSD | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90bde0d0-bfe6-4d6c-823c-8ed9c0e15783
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25971626"
 ---
 # <a name="how-to-migrate-xdr-schemas-to-xsd-schemas"></a><span data-ttu-id="204ba-102">Cómo migrar esquemas XDR a esquemas XSD</span><span class="sxs-lookup"><span data-stu-id="204ba-102">How to Migrate XDR Schemas to XSD Schemas</span></span>
 <span data-ttu-id="204ba-103">Si va a migrar esquemas de una versión anterior de BizTalk Server, deberá convertir los esquemas de datos reducidos XML (XDR) a esquemas de lenguaje de definición de esquemas XML (XSD).</span><span class="sxs-lookup"><span data-stu-id="204ba-103">If you are migrating schemas from a previous version of BizTalk Server, you will need to convert your XML-Data Reduced (XDR) schemas into XML Schema definition (XSD) language schemas.</span></span> <span data-ttu-id="204ba-104">En este tema se describe los pasos necesarios.</span><span class="sxs-lookup"><span data-stu-id="204ba-104">This topic describes the necessary steps.</span></span>  

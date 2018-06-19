@@ -1,11 +1,11 @@
 ---
 title: MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: 5127d743-bb79-4e97-a2f3-446892e1bfa0
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975814"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a><span data-ttu-id="3cefc-102">MQSCorrelationSetOrchestrationWithSolicitResponse (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="3cefc-102">MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)</span></span>
 <span data-ttu-id="3cefc-103">En el ejemplo MQSCorrelationSetOrchestrationWithSolicitResponse se muestra cómo usar un identificador de correlación producido por MQSeries Server en lugar de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="3cefc-103">The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to use a correlation identifier produced by the MQSeries Server instead of by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="3cefc-110">Las orquestaciones que utilizan esta técnica pueden experimentar problemas si el mensaje de MQSeries Server llega antes que el identificador de correlación.</span><span class="sxs-lookup"><span data-stu-id="3cefc-110">Orchestrations using this technique may experience problems if the message from the MQSeries Server arrives before the correlation identifier.</span></span> <span data-ttu-id="3cefc-111">Asegúrese de diseñar las orquestaciones de modo que otorgue el tiempo suficiente a MQSeries Server para devolver el identificador de correlación.</span><span class="sxs-lookup"><span data-stu-id="3cefc-111">Make sure that you design your orchestrations to allow enough time for the MQSeries Server to return the correlation identifier.</span></span> <span data-ttu-id="3cefc-112">Este ejemplo no considera esta posible condición de anticipación.</span><span class="sxs-lookup"><span data-stu-id="3cefc-112">This example does not consider this possible race condition.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="3cefc-113">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="3cefc-113">Where to Find This Sample</span></span>  
- <span data-ttu-id="3cefc-114">*\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span><span class="sxs-lookup"><span data-stu-id="3cefc-114">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span></span>  
+ <span data-ttu-id="3cefc-114">*\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span><span class="sxs-lookup"><span data-stu-id="3cefc-114">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span></span>  
   
  <span data-ttu-id="3cefc-115">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="3cefc-115">The following table shows the files in this sample and describes their purpose.</span></span>  
   

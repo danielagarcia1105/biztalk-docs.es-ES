@@ -1,11 +1,11 @@
 ---
 title: Las actividades en bucle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], looping activities
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, looping
 - orchestrations, activities
 ms.assetid: fb40fdd0-ac8f-486a-b3d0-9d2200a87cda
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262084"
 ---
 # <a name="looping-activities"></a><span data-ttu-id="fe78a-102">Actividades en bucle</span><span class="sxs-lookup"><span data-stu-id="fe78a-102">Looping Activities</span></span>
 <span data-ttu-id="fe78a-103">Las actividades en bucle son acciones asociadas en bucle dentro de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="fe78a-103">Looping activities refers to actions that loop within an orchestration.</span></span> <span data-ttu-id="fe78a-104">Existe la posibilidad de capturar los eventos de acciones asociadas en bucle dentro de una orquestación.</span><span class="sxs-lookup"><span data-stu-id="fe78a-104">It is possible to capture the events from actions that loop within an orchestration.</span></span> <span data-ttu-id="fe78a-105">Para hacerlo, se deberá crear otra actividad y asignar todos los hitos de actividad y datos nuevos del bucle.</span><span class="sxs-lookup"><span data-stu-id="fe78a-105">To do this, you create another activity and map all of the new activity milestones and data inside the loop.</span></span> <span data-ttu-id="fe78a-106">Este procedimiento es necesario porque el procesamiento de datos del bucle tendrá lugar más de una vez por cada ejecución programada.</span><span class="sxs-lookup"><span data-stu-id="fe78a-106">This is necessary because the data processing in the loop will occur more than once per scheduled execution.</span></span> <span data-ttu-id="fe78a-107">La siguiente ilustración muestra un ejemplo de esta situación.</span><span class="sxs-lookup"><span data-stu-id="fe78a-107">The following figure shows an example of this situation.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Documentos de Microsoft"
-ms.custom: 
+title: SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding files, importing
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, binding files
 ms.assetid: 963bfc80-8cc4-4d90-96b4-e85ae04405cf
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974834"
 ---
 # <a name="selectivebindingimport-application-deployment-sample"></a><span data-ttu-id="b6ccd-102">SelectiveBindingImport (ejemplo de implementación de aplicación)</span><span class="sxs-lookup"><span data-stu-id="b6ccd-102">SelectiveBindingImport (Application Deployment Sample)</span></span>
 <span data-ttu-id="b6ccd-103">En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-103">This topic explains how to use the SelectiveBindingImport sample.</span></span> <span data-ttu-id="b6ccd-104">También puede utilizar esta secuencia de comandos de ejemplo para aplicar distintos enlaces a una aplicación cuando se importa la aplicación en distintos entornos de destino.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-104">You can use this sample script to apply different bindings to an application when you import the application into different destination environments.</span></span> <span data-ttu-id="b6ccd-105">Puede utilizar este enfoque cuando desee importar los enlaces desde archivos de enlace que estén almacenados en un recurso compartido de red.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-105">You can use this approach when you want to import the bindings from binding files that are stored on a network share.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="b6ccd-116">En este ejemplo se muestra cómo importar archivos de enlace de forma selectiva desde un recurso compartido de red mediante el uso de secuencias de comandos posteriores al procesamiento contenidas en el archivo .msi de la aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-116">This sample illustrates how to selectively import binding files from a network share by using a post-processing script contained in a BizTalk application .msi file.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="b6ccd-117">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="b6ccd-117">Where to Find This Sample</span></span>  
- <span data-ttu-id="b6ccd-118">Puede encontrar el siguiente ejemplo carpetas y archivos en  *\<ruta de ejemplos\>*\Application Deployment\SelectiveBindingImport:</span><span class="sxs-lookup"><span data-stu-id="b6ccd-118">You can find the following sample folders and files under *\<Samples Path\>*\Application Deployment\SelectiveBindingImport:</span></span>  
+ <span data-ttu-id="b6ccd-118">Puede encontrar el siguiente ejemplo carpetas y archivos en  *\<ruta de ejemplos\>* \Application Deployment\SelectiveBindingImport:</span><span class="sxs-lookup"><span data-stu-id="b6ccd-118">You can find the following sample folders and files under *\<Samples Path\>* \Application Deployment\SelectiveBindingImport:</span></span>  
   
 -   <span data-ttu-id="b6ccd-119">Desarrollo (carpeta)</span><span class="sxs-lookup"><span data-stu-id="b6ccd-119">Develop (Folder)</span></span>  
   
@@ -69,7 +70,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-run-the-sample"></a><span data-ttu-id="b6ccd-130">Para ejecutar el ejemplo</span><span class="sxs-lookup"><span data-stu-id="b6ccd-130">To run the sample</span></span>  
   
-1.  <span data-ttu-id="b6ccd-131">Ejecutar **Build.Bat desde el  *\<ruta de ejemplos\>*\Application Deployment\CreateApp** directory.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-131">Run **Build.Bat from the *\<Samples Path\>*\Application Deployment\CreateApp** directory.</span></span> <span data-ttu-id="b6ccd-132">Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>*\Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-132">This creates the following files in the *\<Samples Path\>*\Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.</span></span>  
+1.  <span data-ttu-id="b6ccd-131">Ejecutar **Build.Bat desde el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp** directory.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-131">Run **Build.Bat from the *\<Samples Path\>* \Application Deployment\CreateApp** directory.</span></span> <span data-ttu-id="b6ccd-132">Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.</span><span class="sxs-lookup"><span data-stu-id="b6ccd-132">This creates the following files in the *\<Samples Path\>* \Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.</span></span>  
   
 2.  <span data-ttu-id="b6ccd-133">**Crear la aplicación.**</span><span class="sxs-lookup"><span data-stu-id="b6ccd-133">**Create the application.**</span></span> <span data-ttu-id="b6ccd-134">En la consola de administración de BizTalk Server, cree una aplicación, como se describe en [cómo crear una aplicación](../core/how-to-create-an-application.md).</span><span class="sxs-lookup"><span data-stu-id="b6ccd-134">In the BizTalk Server Administration console, create an application, as described in [How to Create an Application](../core/how-to-create-an-application.md).</span></span>  
   

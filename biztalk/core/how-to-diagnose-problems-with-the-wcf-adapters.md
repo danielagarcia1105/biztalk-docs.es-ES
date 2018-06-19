@@ -1,14 +1,14 @@
 ---
-title: "Cómo diagnosticar problemas con los adaptadores de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo diagnosticar problemas con los adaptadores de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 997a4ecd-6077-45d6-82d3-3f658ca62fd4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250532"
 ---
 # <a name="how-to-diagnose-problems-with-the-wcf-adapters"></a><span data-ttu-id="bf348-102">Cómo diagnosticar problemas con los adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="bf348-102">How to Diagnose Problems with the WCF Adapters</span></span>
 <span data-ttu-id="bf348-103">Esta sección contiene los pasos que pueden seguirse para ayudar al diagnóstico de problemas con los adaptadores de WCF.</span><span class="sxs-lookup"><span data-stu-id="bf348-103">This section contains steps that you can follow to help diagnose problems with the WCF adapters.</span></span>  

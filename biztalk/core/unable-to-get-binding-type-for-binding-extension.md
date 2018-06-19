@@ -1,14 +1,14 @@
 ---
-title: "No se puede obtener el tipo de enlace de extensión de enlace | Documentos de Microsoft"
-ms.custom: 
+title: No se puede obtener el tipo de enlace de extensión de enlace | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a7cfc81-7439-48f9-8cac-42b2419ecd9d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973770"
 ---
 # <a name="unable-to-get-binding-type-for-binding-extension"></a><span data-ttu-id="f2f0c-102">No se puede obtener el tipo de enlace para la extensión de enlace</span><span class="sxs-lookup"><span data-stu-id="f2f0c-102">Unable to get binding type for binding extension</span></span>
 ## <a name="details"></a><span data-ttu-id="f2f0c-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="f2f0c-103">Details</span></span>  

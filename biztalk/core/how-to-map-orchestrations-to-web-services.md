@@ -1,11 +1,11 @@
 ---
-title: "Cómo asignar orquestaciones a servicios Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar orquestaciones a servicios Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Web services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, naming conventions
 - Web services, naming conventions
 ms.assetid: e6a58978-c81c-49f3-9428-9bff60f1ded7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255732"
 ---
 # <a name="how-to-map-orchestrations-to-web-services"></a><span data-ttu-id="07725-102">Cómo asignar orquestaciones a servicios Web</span><span class="sxs-lookup"><span data-stu-id="07725-102">How to Map Orchestrations to Web Services</span></span>
 <span data-ttu-id="07725-103">Una orquestación puede tener varios puertos de recepción.</span><span class="sxs-lookup"><span data-stu-id="07725-103">An orchestration can have multiple receive ports.</span></span> <span data-ttu-id="07725-104">Mediante el Asistente para publicar servicios Web de BizTalk, se seleccionan los puertos de recepción para publicarlos como servicios Web.</span><span class="sxs-lookup"><span data-stu-id="07725-104">Using the BizTalk Web Services Publishing Wizard, you select receive ports to publish as Web services.</span></span> <span data-ttu-id="07725-105">El asistente crea un servicio Web (.archivo asmx) para cada puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="07725-105">The wizard creates one Web service (.asmx file) for each receive port.</span></span> <span data-ttu-id="07725-106">El asistente también puede crear un servicio Web para todos los puertos de recepción sin son del mismo tipo (unidireccionales o de solicitud-respuesta).</span><span class="sxs-lookup"><span data-stu-id="07725-106">The wizard can also create one Web service for all of the receive ports if they are the same receive port type (one-way or request/response).</span></span> <span data-ttu-id="07725-107">Las operaciones se convierten en llamadas de función.</span><span class="sxs-lookup"><span data-stu-id="07725-107">Operations become function calls.</span></span> <span data-ttu-id="07725-108">Cada operación del puerto de recepción se convierte en un método Web.</span><span class="sxs-lookup"><span data-stu-id="07725-108">Each operation in the receive port becomes a Web method.</span></span> <span data-ttu-id="07725-109">Las operaciones de solicitud se convierten en parámetros de entrada.</span><span class="sxs-lookup"><span data-stu-id="07725-109">Request operations become input parameters.</span></span> <span data-ttu-id="07725-110">Las operaciones de respuesta se convierten en tipos de devolución.</span><span class="sxs-lookup"><span data-stu-id="07725-110">Response operations become return types.</span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Adaptador de HTTP (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: f3bd8172-15c4-42fa-aa17-e4bed9d4aba4
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974490"
 ---
 # <a name="http-adapter-biztalk-server-sample"></a><span data-ttu-id="8911f-102">Adaptador de HTTP (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="8911f-102">HTTP Adapter (BizTalk Server Sample)</span></span>
 <span data-ttu-id="8911f-103">En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigmas de comunicación de solicitud-respuesta y de petición-respuesta que se usan en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="8911f-103">The HTTP Adapter sample demonstrates how to implement the request/response and solicit/response communication paradigms used in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="8911f-104">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="8911f-104">Where to Find This Sample</span></span>  
- <span data-ttu-id="8911f-105">*\<Ejemplos de ruta de acceso\>*\AdaptersDevelopment\HttpAdapter\\</span><span class="sxs-lookup"><span data-stu-id="8911f-105">*\<Samples Path\>*\AdaptersDevelopment\HttpAdapter\\</span></span>  
+ <span data-ttu-id="8911f-105">*\<Ejemplos de ruta de acceso\>* \AdaptersDevelopment\HttpAdapter\\</span><span class="sxs-lookup"><span data-stu-id="8911f-105">*\<Samples Path\>* \AdaptersDevelopment\HttpAdapter\\</span></span>  
   
  <span data-ttu-id="8911f-106">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="8911f-106">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -137,7 +138,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="8911f-178">La aplicación ya puede utilizar el adaptador de HTTP.NET.</span><span class="sxs-lookup"><span data-stu-id="8911f-178">The HTTP.NET adapter is now ready to be used by your application.</span></span> <span data-ttu-id="8911f-179">Al configurar el adaptador, el formato para la **directorio Virtual** propiedades de transporte tiene el formato: /httpreceive/httpreceive.aspx?optionalQueryString.</span><span class="sxs-lookup"><span data-stu-id="8911f-179">When configuring the adapter, the format for the **Virtual Directory** transport property is of the form: /httpreceive/httpreceive.aspx?optionalQueryString.</span></span>  
   
 ## <a name="comments"></a><span data-ttu-id="8911f-180">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8911f-180">Comments</span></span>  
- <span data-ttu-id="8911f-181">El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en  *\<ruta de ejemplos\>*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\.</span><span class="sxs-lookup"><span data-stu-id="8911f-181">The HTTP.NET adapter makes use of the BaseAdapter classes provided in *\<Samples Path\>*\AdaptersDevelopment\BaseAdapter\v1.0..2\\.</span></span> <span data-ttu-id="8911f-182">Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador.</span><span class="sxs-lookup"><span data-stu-id="8911f-182">The classes provided in the BaseAdapter project are intended to accelerate adapter development.</span></span> <span data-ttu-id="8911f-183">Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.</span><span class="sxs-lookup"><span data-stu-id="8911f-183">Refer to the BaseAdapter code comments for details about the classes provided.</span></span>  
+ <span data-ttu-id="8911f-181">El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en  *\<ruta de ejemplos\>* \AdaptersDevelopment\BaseAdapter\v1.0... 2\\.</span><span class="sxs-lookup"><span data-stu-id="8911f-181">The HTTP.NET adapter makes use of the BaseAdapter classes provided in *\<Samples Path\>* \AdaptersDevelopment\BaseAdapter\v1.0..2\\.</span></span> <span data-ttu-id="8911f-182">Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador.</span><span class="sxs-lookup"><span data-stu-id="8911f-182">The classes provided in the BaseAdapter project are intended to accelerate adapter development.</span></span> <span data-ttu-id="8911f-183">Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.</span><span class="sxs-lookup"><span data-stu-id="8911f-183">Refer to the BaseAdapter code comments for details about the classes provided.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="8911f-184">Vea también</span><span class="sxs-lookup"><span data-stu-id="8911f-184">See Also</span></span>  
  <span data-ttu-id="8911f-185">[Registrar un adaptador](../core/registering-an-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="8911f-185">[Registering an Adapter](../core/registering-an-adapter.md) </span></span>  

@@ -1,17 +1,17 @@
 ---
 title: Exportar Bindings6 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, exporting
 - exporting, bindings
 ms.assetid: 052a429e-3237-44d4-8933-00aa5edfb212
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246284"
 ---
 # <a name="exporting-bindings"></a><span data-ttu-id="26043-102">Exportar enlaces</span><span class="sxs-lookup"><span data-stu-id="26043-102">Exporting Bindings</span></span>
 <span data-ttu-id="26043-103">En los temas de esta sección se describe cómo exportar enlaces para un grupo, un ensamblado o una aplicación de BizTalk a un archivo .xml.</span><span class="sxs-lookup"><span data-stu-id="26043-103">The topics in this section describe how to export bindings for a BizTalk group, assembly, or application into an .xml file.</span></span> <span data-ttu-id="26043-104">(Los enlaces definen cómo se asocian los hosts, puertos de envío, grupos de puertos de envío, puertos de recepción, ubicaciones de recepción y entidades con las orquestaciones, las canalizaciones, las asignaciones y los esquemas.) A continuación podrá importar los enlaces desde el archivo .xml a otro grupo o aplicación.</span><span class="sxs-lookup"><span data-stu-id="26043-104">(Bindings define how hosts, send ports, send port groups, receive ports, receive locations, parties are associated with orchestrations, pipelines, maps, and schemas.) You can then import the bindings from the .xml file into another group or application.</span></span> <span data-ttu-id="26043-105">Al importar enlaces se sobrescriben los enlaces existentes del mismo nombre en el grupo o la aplicación.</span><span class="sxs-lookup"><span data-stu-id="26043-105">Importing bindings overwrites any existing bindings of the same name in the group or application.</span></span> <span data-ttu-id="26043-106">También puede agregar enlaces a una aplicación, con lo que no se sobrescriben los enlaces existentes.</span><span class="sxs-lookup"><span data-stu-id="26043-106">You can also add bindings to an application, which does not overwrite existing bindings.</span></span> <span data-ttu-id="26043-107">Los enlaces que se agregan no se aplican hasta que se importa la aplicación.</span><span class="sxs-lookup"><span data-stu-id="26043-107">The bindings that you add do not take effect until you import the application.</span></span>  

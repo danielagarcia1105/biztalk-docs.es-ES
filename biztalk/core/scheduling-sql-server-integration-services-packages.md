@@ -1,14 +1,14 @@
 ---
-title: "Paquetes de programación de SQL Server Integration Services | Documentos de Microsoft"
-ms.custom: 
+title: Paquetes de programación de SQL Server Integration Services | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975954"
 ---
 # <a name="scheduling-sql-server-integration-services-packages"></a><span data-ttu-id="17d67-102">Programación de paquetes de SQL Server Integration Services</span><span class="sxs-lookup"><span data-stu-id="17d67-102">Scheduling SQL Server Integration Services Packages</span></span>
 <span data-ttu-id="17d67-103">Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de procesamiento analítico en línea (OLAP).</span><span class="sxs-lookup"><span data-stu-id="17d67-103">Users create BAM views based on data stored in an online analytical processing (OLAP) cube.</span></span> <span data-ttu-id="17d67-104">El paquete de actualización de cubos de Integration Services actualiza los datos del cubo para que las vistas OLAP reflejen los datos correctos.</span><span class="sxs-lookup"><span data-stu-id="17d67-104">The Cube Update Integration Services package refreshes the data in the cube so that OLAP views reflect the correct data.</span></span>  

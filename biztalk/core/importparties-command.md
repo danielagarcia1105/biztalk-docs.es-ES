@@ -1,14 +1,14 @@
 ---
 title: Comando ImportParties | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87d43e2c-401c-4450-ad9b-2528086b99e4
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257012"
 ---
 # <a name="importparties-command"></a><span data-ttu-id="6d1ff-102">Comando ImportParties</span><span class="sxs-lookup"><span data-stu-id="6d1ff-102">ImportParties Command</span></span>
 <span data-ttu-id="6d1ff-103">Importa las entidades de negocio a negocio y contratos desde un archivo de enlace XML de origen en la base de datos de configuración, sin importar cualquiera de los artefactos de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="6d1ff-103">Imports the business-to-business parties and agreements from a source XML binding file in the configuration database, without importing any of the application artifacts.</span></span> <span data-ttu-id="6d1ff-104">Para obtener más información, consulte **comentarios** en este tema.</span><span class="sxs-lookup"><span data-stu-id="6d1ff-104">For more information, see **Remarks** in this topic.</span></span>  

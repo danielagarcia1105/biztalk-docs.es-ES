@@ -1,14 +1,14 @@
 ---
 title: Coincidencia de nodos de esquema en un mapa | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 584f85d2-6198-4ef3-90d9-a322f1457d9a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253940"
 ---
 # <a name="how-to-match-schema-nodes-in-a-map"></a><span data-ttu-id="ba729-102">Coincidencia de nodos de esquema en una asignación</span><span class="sxs-lookup"><span data-stu-id="ba729-102">How to Match Schema Nodes in a Map</span></span>
 <span data-ttu-id="ba729-103">Si los esquemas de origen o destino son complejos, puede resultar difícil asignar los elementos.</span><span class="sxs-lookup"><span data-stu-id="ba729-103">When the source or destination schemas are complex, it can be difficult to map the elements.</span></span> <span data-ttu-id="ba729-104">El asignador de BizTalk presenta la **coincidencia indicativa** característica, que le permite asignar elementos de esquema complejos sugiriendo las mejores coincidencias.</span><span class="sxs-lookup"><span data-stu-id="ba729-104">The BizTalk Mapper introduces the **Indicative Match** feature, which enables you to map complex schema elements by suggesting the best possible matches.</span></span> <span data-ttu-id="ba729-105">Este tema proporciona información acerca de cómo realizar esta operación.</span><span class="sxs-lookup"><span data-stu-id="ba729-105">This topic provides information about how to perform this operation.</span></span>  

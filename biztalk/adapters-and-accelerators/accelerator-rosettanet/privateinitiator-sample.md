@@ -1,14 +1,14 @@
 ---
 title: Ejemplo PrivateInitiator | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f176566-2a71-487d-84c1-5e7767701e8b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004381"
 ---
 # <a name="privateinitiator-sample"></a><span data-ttu-id="3c0db-102">Ejemplo de PrivateInitiator</span><span class="sxs-lookup"><span data-stu-id="3c0db-102">PrivateInitiator Sample</span></span>
 <span data-ttu-id="3c0db-103">El ejemplo PrivateInitiator.odx contiene el código para el proceso de iniciador privada instalado [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="3c0db-103">The PrivateInitiator.odx sample contains the code for the initiator private process installed by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server.</span></span> <span data-ttu-id="3c0db-104">Se trata de un proceso privado genérico que envía y recibe mensajes de contenido del servicio RNIF del valor predeterminado SQL basado en el adaptador de envío y puertos de recepción.</span><span class="sxs-lookup"><span data-stu-id="3c0db-104">This is a generic private process that sends and receives RNIF service-content messages from the default SQL adapter-based send and receive ports.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Resolución de esquemas en componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Resolución de esquemas en componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, schema resolution
 - pipeline components, schema resolution
 - schemas, pipeline components
 ms.assetid: 35a79a6f-788b-4ca1-8483-36dcba5ae580
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972968"
 ---
 # <a name="schema-resolution-in-pipeline-components"></a><span data-ttu-id="b4452-102">Resolución de esquemas en componentes de canalización</span><span class="sxs-lookup"><span data-stu-id="b4452-102">Schema Resolution in Pipeline Components</span></span>
 <span data-ttu-id="b4452-103">Los componentes de canalización de desensamblador y de ensamblador utilizan esquemas XSD para procesar los mensajes.</span><span class="sxs-lookup"><span data-stu-id="b4452-103">Pipeline disassembler and assembler components use XSD schemas to process messages.</span></span> <span data-ttu-id="b4452-104">Los esquemas contienen información, como la lista de propiedades promocionadas, campos distintivos, anotaciones para mensajes de archivo sin formato y anotaciones para sobres XML.</span><span class="sxs-lookup"><span data-stu-id="b4452-104">The schemas contain information such as the list of promoted properties, distinguished fields, annotations for flat file messages, and annotations for XML envelopes.</span></span>  

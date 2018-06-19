@@ -1,17 +1,17 @@
 ---
-title: "Cómo usar la utilidad de seguimiento de Host para SSO iniciado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar la utilidad de seguimiento de Host para SSO iniciado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host initiated SSO, trace utility
 - trace utility
 ms.assetid: a53444d1-3f63-42a6-8ee6-b60ff9af9e41
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973458"
 ---
 # <a name="how-to-use-the-trace-utility-in-host-initiated-sso"></a><span data-ttu-id="96ab6-102">Cómo usar la utilidad de seguimiento de Host para SSO iniciado</span><span class="sxs-lookup"><span data-stu-id="96ab6-102">How to Use the Trace Utility in Host Initiated SSO</span></span>
 <span data-ttu-id="96ab6-103">El seguimiento constituye el método principal para solucionar problemas.</span><span class="sxs-lookup"><span data-stu-id="96ab6-103">The primary method of troubleshooting is tracing.</span></span>  

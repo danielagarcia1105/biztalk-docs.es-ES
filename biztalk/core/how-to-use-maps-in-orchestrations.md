@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar asignaciones en orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar asignaciones en orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfd628d8-c163-431d-8ad7-d7d77007c549
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255332"
 ---
 # <a name="how-to-use-maps-in-orchestrations"></a><span data-ttu-id="b57de-102">Cómo usar asignaciones en orquestaciones</span><span class="sxs-lookup"><span data-stu-id="b57de-102">How to Use Maps in Orchestrations</span></span>
 <span data-ttu-id="b57de-103">El Asignador de BizTalk es una herramienta que se ejecuta en el entorno Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="b57de-103">BizTalk Mapper is a tool that runs within the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="b57de-104">El Asignador de BizTalk le permite crear y editar asignaciones en las que usará vínculos y functoids para definir la relación entre un esquema de origen y uno de destino mediante vínculos.</span><span class="sxs-lookup"><span data-stu-id="b57de-104">You use BizTalk Mapper to create and edit maps in which you use links and functoids to define the relationship between an input and an output schema.</span></span> <span data-ttu-id="b57de-105">Un vínculo define una copia de datos directa de un registro o campo.</span><span class="sxs-lookup"><span data-stu-id="b57de-105">A link defines a direct data copy of a record or field.</span></span> <span data-ttu-id="b57de-106">Los vínculos puede conectarse directamente con elementos del otro esquema, o pueden establecer conexiones con functoids.</span><span class="sxs-lookup"><span data-stu-id="b57de-106">Links may directly connect to items in the other schema, or they may form connections to functoids.</span></span> <span data-ttu-id="b57de-107">Los functoids llevan a cabo manipulaciones de datos más complejas.</span><span class="sxs-lookup"><span data-stu-id="b57de-107">Functoids perform more complex data manipulations.</span></span>  

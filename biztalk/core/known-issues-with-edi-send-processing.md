@@ -1,14 +1,14 @@
 ---
-title: "Conoce problemas con EDI del procesamiento de envío | Documentos de Microsoft"
-ms.custom: 
+title: Conoce problemas con EDI del procesamiento de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1325dcd9-5dbb-48bb-b5a3-1502d1424d4e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263316"
 ---
 # <a name="known-issues-with-edi-send-processing"></a><span data-ttu-id="6cdf0-102">Problemas conocidos del procesamiento de envío de EDI</span><span class="sxs-lookup"><span data-stu-id="6cdf0-102">Known Issues with EDI Send Processing</span></span>
 <span data-ttu-id="6cdf0-103">En este tema se describen los problemas conocidos del procesamiento en la canalización de envío EDI.</span><span class="sxs-lookup"><span data-stu-id="6cdf0-103">This topic describes known issues with processing in the EDI send pipeline.</span></span>  
