@@ -1,14 +1,14 @@
 ---
-title: "Bloques de creación para crear aplicaciones de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para crear aplicaciones de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 483a52d4-1aaf-46b1-bb42-9f91bf678346
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216108"
 ---
 # <a name="building-blocks-to-create-oracle-e-business-suite-applications"></a><span data-ttu-id="f80cb-102">Bloques de creación para crear aplicaciones de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="f80cb-102">Building blocks to create Oracle E-Business Suite applications</span></span>
 <span data-ttu-id="f80cb-103">Para realizar operaciones en Oracle E-Business Suite mediante el uso de la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración.</span><span class="sxs-lookup"><span data-stu-id="f80cb-103">To perform operations on Oracle E-Business Suite by using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="f80cb-104">Esta sección proporciona información general sobre estas tareas.</span><span class="sxs-lookup"><span data-stu-id="f80cb-104">This section provides an overview of these tasks.</span></span> <span data-ttu-id="f80cb-105">Todos los temas de esta sección, que muestran cómo realizar operaciones específicas sobre el uso de Oracle E-Business Suite [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.</span><span class="sxs-lookup"><span data-stu-id="f80cb-105">All the topics in this section, which demonstrate how to perform specific operations on Oracle E-Business Suite using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

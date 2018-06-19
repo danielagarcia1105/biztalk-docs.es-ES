@@ -1,14 +1,14 @@
 ---
 title: El ejemplo Web varios servicios itinerarios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f67a4c6-b547-4261-ab3f-db78603ac588
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295108"
 ---
 # <a name="the-sample-multiple-web-services-itineraries"></a><span data-ttu-id="9d079-102">El ejemplo itinerarios de los servicios Web de varios</span><span class="sxs-lookup"><span data-stu-id="9d079-102">The Sample Multiple Web Services Itineraries</span></span>
 <span data-ttu-id="9d079-103">En la tabla siguiente enumera todos los archivos itinerarios predefinidos incluidos con el ejemplo de varios servicios Web.</span><span class="sxs-lookup"><span data-stu-id="9d079-103">The following table lists all the predefined itinerary files included with the Multiple Web Services sample.</span></span> <span data-ttu-id="9d079-104">Estos se encuentran en la carpeta \Source\Samples\MultipleWebServices\Itineraries.</span><span class="sxs-lookup"><span data-stu-id="9d079-104">These are located in the \Source\Samples\MultipleWebServices\Itineraries folder.</span></span>  

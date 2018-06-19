@@ -1,14 +1,14 @@
 ---
 title: Servicio EDI y esquemas de Control | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4866571b-b12d-446c-8d27-a72fe7e479ef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969154"
 ---
 # <a name="edi-service-and-control-schemas"></a><span data-ttu-id="7fd3a-102">Esquemas de control y servicio EDI</span><span class="sxs-lookup"><span data-stu-id="7fd3a-102">EDI Service and Control Schemas</span></span>
 <span data-ttu-id="7fd3a-103">Los esquemas de control son necesarios para procesar sobres de mensaje (esquemas de control de encabezado) y confirmaciones.</span><span class="sxs-lookup"><span data-stu-id="7fd3a-103">Control schemas are required to process message envelopes (header control schemas) and acknowledgments.</span></span> <span data-ttu-id="7fd3a-104">Estos esquemas se implementan en Microsoft.BizTalk.Edi.BaseArtifacts.dll a través del programa de instalación.</span><span class="sxs-lookup"><span data-stu-id="7fd3a-104">These schemas are deployed in Microsoft.BizTalk.Edi.BaseArtifacts.dll by the setup program.</span></span> <span data-ttu-id="7fd3a-105">Estos esquemas no tienen que agregarse a proyectos de BizTalk, ya que se implementan en BaseArtifacts.dll.</span><span class="sxs-lookup"><span data-stu-id="7fd3a-105">These schemas do not have to be added to BizTalk projects because they are deployed in BaseArtifacts.dll.</span></span> <span data-ttu-id="7fd3a-106">Debe agregar una referencia al ensamblado BaseArtifacts.dll en el proyecto que contiene los esquemas para que éstos se usen.</span><span class="sxs-lookup"><span data-stu-id="7fd3a-106">You need to add a reference to the BaseArtifacts.dll assembly to the project containing your schemas for these schemas to be used.</span></span>  

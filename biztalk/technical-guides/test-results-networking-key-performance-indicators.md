@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9bdbc2df-9d19-4ae8-b540-ec1b9a7cdbe9
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22302588"
 ---
 # <a name="test-results-networking-key-performance-indicators"></a><span data-ttu-id="e94da-102">Resultados de pruebas: Indicadores clave de rendimiento de red</span><span class="sxs-lookup"><span data-stu-id="e94da-102">Test Results: Networking Key Performance Indicators</span></span>
 <span data-ttu-id="e94da-103">En este tema se resume observado durante los escenarios de prueba la indicadores de rendimiento de clave de red (KPI).</span><span class="sxs-lookup"><span data-stu-id="e94da-103">This topic summarizes Network Key Performance Indicators (KPI) observed during the test scenarios.</span></span> <span data-ttu-id="e94da-104">Estas pruebas evalúan el rendimiento de la red según lo medido por la **\Network interfaz (\*) \Bytes totales/seg.** contador y mediante la medición del monitor de rendimiento del **SQL red\Bytes totales/seg. (Avg)**  devuelto por el controlador de pruebas de carga de VSTS 2008.</span><span class="sxs-lookup"><span data-stu-id="e94da-104">These tests evaluated Network Performance as measured by the **\Network Interface(\*)\Bytes Total/sec** performance monitor counter and by measuring the **SQL Network Interface\Bytes Total/sec (Avg )** returned by the VSTS 2008 Load Test Controller.</span></span>  

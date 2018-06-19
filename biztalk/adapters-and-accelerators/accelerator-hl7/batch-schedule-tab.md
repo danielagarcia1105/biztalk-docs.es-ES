@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204492"
 ---
 # <a name="batch-schedule-tab"></a><span data-ttu-id="7e3d3-102">Ficha de programación por lotes</span><span class="sxs-lookup"><span data-stu-id="7e3d3-102">Batch Schedule Tab</span></span>
 <span data-ttu-id="7e3d3-103">Usa el **programación por lotes** tab para activar, solicitar o finalizar un lote saliente.</span><span class="sxs-lookup"><span data-stu-id="7e3d3-103">You use the **Batch Schedule** tab to activate, request, or terminate an outbound batch.</span></span> <span data-ttu-id="7e3d3-104">Activar un lote saliente consta de dos pasos: configurar basado en tiempo o mensaje de recuento de criterios y, a continuación, iniciar la orquestación de procesamiento por lotes saliente.</span><span class="sxs-lookup"><span data-stu-id="7e3d3-104">Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Habilitar extensiones de configuración de marco de trabajo de adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Habilitar extensiones de configuración de marco de trabajo de adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 851f4a20-502d-45f8-9647-13bec33fa460
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970154"
 ---
 # <a name="enabling-adapter-framework-configuration-extensions"></a><span data-ttu-id="fd2f5-102">Habilitar extensiones de configuración de marco de trabajo de adaptadores</span><span class="sxs-lookup"><span data-stu-id="fd2f5-102">Enabling Adapter Framework Configuration Extensions</span></span>
 <span data-ttu-id="fd2f5-103">El marco de trabajo de adaptadores de BizTalk proporciona varias extensiones para mejorar la experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="fd2f5-103">The BizTalk Adapter Framework provides several extensions to improve the user experience.</span></span> <span data-ttu-id="fd2f5-104">Para usar estas extensiones, importe el esquema del marco de trabajo, BiztalkAdapterFramework.xsd.</span><span class="sxs-lookup"><span data-stu-id="fd2f5-104">To use these extensions, import the framework's schema, BiztalkAdapterFramework.xsd.</span></span> <span data-ttu-id="fd2f5-105">Importar el esquema permite tener acceso a decoraciones y tipos especializados y usarlos en el esquema de configuración del adaptador, tal y como se describe a continuación.</span><span class="sxs-lookup"><span data-stu-id="fd2f5-105">Importing the schema enables you to access decorations and specialized types and to use them in the adapter's configuration schema, as described below.</span></span> <span data-ttu-id="fd2f5-106">En el siguiente código se muestra el modo de importar el esquema:</span><span class="sxs-lookup"><span data-stu-id="fd2f5-106">The following code shows how to import the schema:</span></span>  

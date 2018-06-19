@@ -1,17 +1,17 @@
 ---
 title: Invocar funciones y procedimientos de la base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke functions and procedures using the WCF service model
 - WCF service model, invoking functions and procedures
 ms.assetid: 806fc803-3640-42d6-bdf9-53b08f9c7c50
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966362"
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a><span data-ttu-id="57266-102">Invocar funciones y procedimientos de la base de datos de Oracle mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="57266-102">Invoke Functions and Procedures in Oracle Database using the WCF Service Model</span></span>
 <span data-ttu-id="57266-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies de procedimientos, funciones y paquetes como operaciones.</span><span class="sxs-lookup"><span data-stu-id="57266-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces procedures, functions, and packages as operations.</span></span> <span data-ttu-id="57266-104">En el modelo de servicio WCF estas operaciones se representan como métodos en un cliente de WCF.</span><span class="sxs-lookup"><span data-stu-id="57266-104">In the WCF service model these operations are represented as methods on a WCF client.</span></span> <span data-ttu-id="57266-105">El modelo de servicio WCF y [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:</span><span class="sxs-lookup"><span data-stu-id="57266-105">The WCF service model and the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:</span></span>  

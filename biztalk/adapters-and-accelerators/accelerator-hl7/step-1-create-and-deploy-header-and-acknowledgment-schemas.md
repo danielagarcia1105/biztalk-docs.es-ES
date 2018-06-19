@@ -1,17 +1,17 @@
 ---
-title: "Paso 1: Crear e implementar encabezado y esquemas de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear e implementar encabezado y esquemas de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, header schemas
 - header schemas
 ms.assetid: 3ff013a4-6c67-4bac-be97-81b2dc5b6119
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960746"
 ---
 # <a name="step-1-create-and-deploy-header-and-acknowledgment-schemas"></a><span data-ttu-id="7f7f8-102">Paso 1: Crear e implementar encabezado y esquemas de confirmación</span><span class="sxs-lookup"><span data-stu-id="7f7f8-102">Step 1: Create and Deploy Header and Acknowledgment Schemas</span></span>
 <span data-ttu-id="7f7f8-103">Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la instancia de mensaje.</span><span class="sxs-lookup"><span data-stu-id="7f7f8-103">You use the header schema to validate the header (MSH segment) of the message instance.</span></span> <span data-ttu-id="7f7f8-104">Usar el esquema de confirmación para generar la confirmación de la instancia de mensaje.</span><span class="sxs-lookup"><span data-stu-id="7f7f8-104">You use the acknowledgment schema to generate the acknowledgment for the message instance.</span></span> <span data-ttu-id="7f7f8-105">Este proceso es común en todas las versiones de esquemas de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.</span><span class="sxs-lookup"><span data-stu-id="7f7f8-105">This process is common across all schemas versions of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo integrar BAM con SQL Server Reporting Services | Documentos de Microsoft"
-ms.custom: 
+title: Cómo integrar BAM con SQL Server Reporting Services | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e2d66b7-c8eb-4871-8a47-544955ccd51e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970258"
 ---
 # <a name="how-to-integrate-bam-with-sql-server-reporting-services"></a><span data-ttu-id="9e09b-102">Integración de BAM con SQL Server 2005 Reporting Services</span><span class="sxs-lookup"><span data-stu-id="9e09b-102">How to Integrate BAM with SQL Server Reporting Services</span></span>
 <span data-ttu-id="9e09b-103">La creación de un informe basado en datos en la infraestructura de BAM emplea las tareas habituales asociadas a la creación de un informe para cualquier otro origen de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="9e09b-103">Creating a report based on data in the BAM infrastructure use the typical tasks associated with creating a report for any other SQL Server data source.</span></span> <span data-ttu-id="9e09b-104">Para obtener más información acerca de cómo crear un informe con el Diseñador de informes, consulte [http://go.microsoft.com/fwlink/?LinkId=82437](http://go.microsoft.com/fwlink/?LinkId=82437).</span><span class="sxs-lookup"><span data-stu-id="9e09b-104">For more information about creating a report with Report Designer, see [http://go.microsoft.com/fwlink/?LinkId=82437](http://go.microsoft.com/fwlink/?LinkId=82437).</span></span>  

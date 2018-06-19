@@ -1,14 +1,14 @@
 ---
 title: 'Paso 8: Probar el escenario de lote crear | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc7fac40-fd3e-413b-82cc-7ad08226094c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961138"
 ---
 # <a name="step-8-test-the-create-batch-scenario"></a><span data-ttu-id="7f3d9-102">Paso 8: Probar el escenario de lote crear</span><span class="sxs-lookup"><span data-stu-id="7f3d9-102">Step 8: Test the Create-Batch Scenario</span></span>
 <span data-ttu-id="7f3d9-103">En este paso, para probar el escenario de lote de crear, quitar instancias de prueba de los mensajes que desea procesar por lotes en la carpeta de origen Tutorial_BTAHL7Pickup.</span><span class="sxs-lookup"><span data-stu-id="7f3d9-103">In this step, you test the Create-Batch scenario by dropping test instances of the messages you want to batch into the source Tutorial_BTAHL7Pickup folder.</span></span> <span data-ttu-id="7f3d9-104">El puerto de envío que configuró recoge el mensaje desde la carpeta de origen y lo envía; el puerto de recepción recibe y la canalización de recepción, lo procesa y lo coloca en la carpeta de destino Tutorial_BTAHL7Drop.</span><span class="sxs-lookup"><span data-stu-id="7f3d9-104">The send port that you set up picks up the message from the source folder and sends it; the receive port receives it; and the receive pipeline processes it and drops it into the destination Tutorial_BTAHL7Drop folder.</span></span>  

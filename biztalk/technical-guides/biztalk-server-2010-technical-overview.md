@@ -1,14 +1,14 @@
 ---
-title: "Información general técnica de BizTalk Server 2010 | Documentos de Microsoft"
-ms.custom: 
+title: Información general técnica de BizTalk Server 2010 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdbc2052-4407-45f0-8a57-1272f9a1f266
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300620"
 ---
 # <a name="biztalk-server-2010-technical-overview"></a><span data-ttu-id="d7973-102">Información general técnica de BizTalk Server 2010</span><span class="sxs-lookup"><span data-stu-id="d7973-102">BizTalk Server 2010 Technical Overview</span></span>
 <span data-ttu-id="d7973-103">Para descargar una copia de este documento, vaya a [http://go.microsoft.com/fwlink/?LinkId=197294](http://go.microsoft.com/fwlink/?LinkId=197294).</span><span class="sxs-lookup"><span data-stu-id="d7973-103">To download a copy of this paper, go to [http://go.microsoft.com/fwlink/?LinkId=197294](http://go.microsoft.com/fwlink/?LinkId=197294).</span></span>  

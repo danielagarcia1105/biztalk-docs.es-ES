@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar un mapa con control de versiones en paralelo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar un mapa con control de versiones en paralelo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b0e377f-92ab-483e-9f3c-222c7b5ac0b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22298276"
 ---
 # <a name="how-to-update-a-map-using-side-by-side-versioning"></a><span data-ttu-id="93530-102">Cómo actualizar un mapa con control de versiones en paralelo</span><span class="sxs-lookup"><span data-stu-id="93530-102">How to Update a Map Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="93530-103">Algunos artefactos de BizTalk, como las asignaciones, se eligen por nombre seguro completo (FQSN), en cuyo caso los enlaces incluyen la versión utilizada.</span><span class="sxs-lookup"><span data-stu-id="93530-103">Some BizTalk artifacts, such as maps, are chosen by fully-qualified strong name (FQSN), in which case the bindings include the version used.</span></span> <span data-ttu-id="93530-104">Esto permite que dos o más asignaciones pueden coexistir en paralelo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="93530-104">This allows two or more maps to coexist side by side in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="93530-105">Como resultado, puede seleccionar una de las asignaciones de entrada mapas en las propiedades de ubicación de recepción o de salida en las propiedades de puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="93530-105">As a result, you can select one of the maps for inbound mapping in the receive location properties or outbound mapping in the send port properties.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 01/17/2018
   
 2.  <span data-ttu-id="93530-132">En **el Bloc de notas**, en la **archivo** menú, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="93530-132">In **Notepad**, on the **File** menu, click **Open**.</span></span> <span data-ttu-id="93530-133">En el **abiertos** cuadro de diálogo, seleccione la asignación de archivos desea modificar y, a continuación, haga clic en **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="93530-133">In the **Open** dialog box, select the map file you want to modify, and then click **Open**.</span></span>  
   
-3.  <span data-ttu-id="93530-134">En el menú **Edición** , haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="93530-134">On the **Edit** menu, click **Find**.</span></span> <span data-ttu-id="93530-135">En el **buscar** diálogo cuadro, escriba **ensamblado =**y, a continuación, haga clic en **Buscar siguiente**.</span><span class="sxs-lookup"><span data-stu-id="93530-135">In the **Find** dialog box, enter **Assembly=**, and then click **Find Next**.</span></span>  
+3.  <span data-ttu-id="93530-134">En el menú **Edición** , haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="93530-134">On the **Edit** menu, click **Find**.</span></span> <span data-ttu-id="93530-135">En el **buscar** diálogo cuadro, escriba **ensamblado =** y, a continuación, haga clic en **Buscar siguiente**.</span><span class="sxs-lookup"><span data-stu-id="93530-135">In the **Find** dialog box, enter **Assembly=**, and then click **Find Next**.</span></span>  
   
 4.  <span data-ttu-id="93530-136">Si hay una referencia de secuencia de comandos a un ensamblado externo, el Bloc de notas debería buscar un elemento XML como el siguiente:</span><span class="sxs-lookup"><span data-stu-id="93530-136">If there is a script reference to an external assembly, Notepad should find an XML element like the following:</span></span>  
   

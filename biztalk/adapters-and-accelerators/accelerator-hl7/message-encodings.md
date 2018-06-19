@@ -1,11 +1,11 @@
 ---
-title: "Codificación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Codificación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, encodings
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - encoding [messages]
 - code samples
 ms.assetid: 360638c0-4094-428f-a7c7-306a5f95a6bf
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204796"
 ---
 # <a name="message-encodings"></a><span data-ttu-id="6e707-102">Codificaciones de mensaje</span><span class="sxs-lookup"><span data-stu-id="6e707-102">Message Encodings</span></span>
 <span data-ttu-id="6e707-103">No es suficiente para definir la semántica de mensaje para HL7 sean útiles.</span><span class="sxs-lookup"><span data-stu-id="6e707-103">It is not sufficient to define message semantics in order for HL7 to be useful.</span></span> <span data-ttu-id="6e707-104">Una vez que se ha determinado el contenido del mensaje, el estándar tiene que explicar cómo representar el contenido en una interfaz real.</span><span class="sxs-lookup"><span data-stu-id="6e707-104">Once message content has been determined, the standard has to explain how to represent that content in an actual interface.</span></span> <span data-ttu-id="6e707-105">Es decir, debe haber especificado "codificación de mensajes".</span><span class="sxs-lookup"><span data-stu-id="6e707-105">That is to say, there must be a specified "message encoding".</span></span> <span data-ttu-id="6e707-106">HL7 versión 2 admite dos formatos de codificación de mensajes, una codificación basado en delimitadores personalizada y una codificación XML.</span><span class="sxs-lookup"><span data-stu-id="6e707-106">HL7 Version 2 supports two forms of message encoding, a custom delimiter-based encoding, and an XML encoding.</span></span>  

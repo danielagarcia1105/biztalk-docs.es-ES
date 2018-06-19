@@ -1,15 +1,15 @@
 ---
-title: "Crear artefactos de envío de TIBCO EMS | Documentos de Microsoft"
-description: "Crear el puerto de envío y configurar las propiedades de transporte para utilizar el adaptador de TIBCO Enterprise Message Service en BizTalk Server"
-ms.custom: 
+title: Crear artefactos de envío de TIBCO EMS | Documentos de Microsoft
+description: Crear el puerto de envío y configurar las propiedades de transporte para utilizar el adaptador de TIBCO Enterprise Message Service en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f82609c-1847-4796-a24c-28cb350ec739
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014187"
 ---
 # <a name="creating--tibco-enterprise-message-service-send-handlers"></a><span data-ttu-id="fc470-103">Creación de controladores de envío de TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="fc470-103">Creating  TIBCO Enterprise Message Service Send Handlers</span></span>
 <span data-ttu-id="fc470-104">Esta sección explica cómo establecer el puerto de envío para que se conecte con TIBCO Enterprise Message Service (EMS) y cómo incluir XML en la orquestación para que interactúe con TIBCO EMS en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="fc470-104">This section explains how to set the send port to connect to TIBCO Enterprise Message Service (EMS) and how to include XML in your orchestration to interact with TIBCO EMS at run time.</span></span>  

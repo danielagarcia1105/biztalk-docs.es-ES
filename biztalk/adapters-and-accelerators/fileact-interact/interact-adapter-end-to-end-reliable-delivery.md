@@ -1,14 +1,14 @@
 ---
 title: Entrega confiable de adaptador-to-End de interactuar | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac7c22f2-ee4a-4e9b-af40-da7eb58daf51
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222996"
 ---
 # <a name="interact-adapter-end-to-end-reliable-delivery"></a><span data-ttu-id="6ac4f-102">Interactuar entrega confiable de adaptador-to-End</span><span class="sxs-lookup"><span data-stu-id="6ac4f-102">InterAct Adapter End-to-End Reliable Delivery</span></span>
 <span data-ttu-id="6ac4f-103">Al enviar mensajes o archivos a un destinatario, se recomienda que se asegure de que se entrega el mensaje o el archivo y que la empresa transacciones contenidas en estas se ejecutan no veces más que prever.</span><span class="sxs-lookup"><span data-stu-id="6ac4f-103">When sending messages or files to a recipient, we recommend that you ensure that the message or file is delivered, and that the business transaction(s) contained in these are executed no more times than anticipated.</span></span>  

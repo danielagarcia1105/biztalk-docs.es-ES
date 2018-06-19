@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22302836"
 ---
 # <a name="updating-the-bindings-in-an-application"></a><span data-ttu-id="3d18f-102">Actualizar los enlaces de una aplicación</span><span class="sxs-lookup"><span data-stu-id="3d18f-102">Updating the Bindings in an Application</span></span>
 <span data-ttu-id="3d18f-103">Al actualizar un ensamblado en una aplicación, a menudo se sobrescriben sus enlaces o bien no se puede enlazar el ensamblado, de modo que es necesario volver a configurar los enlaces de forma manual.</span><span class="sxs-lookup"><span data-stu-id="3d18f-103">When you update an assembly in an application, its bindings are often overwritten or else the assembly may not be bound at all, forcing you to manually reconfigure bindings.</span></span> <span data-ttu-id="3d18f-104">Para evitar esto, puede usar un archivo de enlace para actualizar la misma versión del ensamblado o actualizar un ensamblado con una versión más reciente.</span><span class="sxs-lookup"><span data-stu-id="3d18f-104">To avoid this, you can use a binding file to update the same version of the assembly or update an assembly with a newer version.</span></span>  

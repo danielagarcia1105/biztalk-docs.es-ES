@@ -1,14 +1,14 @@
 ---
 title: ExecuteReader, ExecuteScalar u operaciones de ExecuteNonQuery en SQL con BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8def133-cbe1-4648-ae41-6b8ce6640cb3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968082"
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-sql-using-biztalk-server"></a><span data-ttu-id="964d8-102">ExecuteReader, ExecuteScalar u operaciones de ExecuteNonQuery en SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="964d8-102">ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server</span></span>
 <span data-ttu-id="964d8-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] expone las operaciones de SQL Server genéricas como **ExecuteNonQuery**, **ExecuteReader**, y **ExecuteScalar**.</span><span class="sxs-lookup"><span data-stu-id="964d8-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes generic SQL Server operations such as **ExecuteNonQuery**, **ExecuteReader**, and **ExecuteScalar**.</span></span> <span data-ttu-id="964d8-104">Puede utilizar estas operaciones para ejecutar cualquier instrucción SQL en una base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="964d8-104">You can use these operations to execute any SQL statement on a SQL Server database.</span></span> <span data-ttu-id="964d8-105">Estas operaciones varían en función del tipo de respuesta que se obtiene de la instrucción SQL.</span><span class="sxs-lookup"><span data-stu-id="964d8-105">These operations differ based on the kind of response you get for the SQL statement.</span></span> <span data-ttu-id="964d8-106">Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [soporte técnico para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).</span><span class="sxs-lookup"><span data-stu-id="964d8-106">For more information about how the adapter supports these operations, see [Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).</span></span>  

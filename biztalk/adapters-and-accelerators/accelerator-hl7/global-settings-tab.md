@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204900"
 ---
 # <a name="global-settings-tab"></a><span data-ttu-id="c3518-102">Ficha Configuración global</span><span class="sxs-lookup"><span data-stu-id="c3518-102">Global Settings Tab</span></span>
 <span data-ttu-id="c3518-103">Usa el **configuración Global** ficha para configurar el almacén de registro utilizado por [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c3518-103">You use the **Global Settings** tab to configure the logging store used by [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  

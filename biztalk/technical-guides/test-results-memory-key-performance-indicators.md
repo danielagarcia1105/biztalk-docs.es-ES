@@ -1,14 +1,14 @@
 ---
 title: 'Resultados de pruebas: Indicadores clave de rendimiento de memoria | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 224c40e5-08a7-4d30-b03a-4b6add5cde1f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301876"
 ---
 # <a name="test-results-memory-key-performance-indicators"></a><span data-ttu-id="e3c93-102">Resultados de pruebas: Indicadores clave de rendimiento de memoria</span><span class="sxs-lookup"><span data-stu-id="e3c93-102">Test Results: Memory Key Performance Indicators</span></span>
 <span data-ttu-id="e3c93-103">En este tema se resume observado durante los escenarios de prueba la indicadores de rendimiento de clave de memoria (KPI).</span><span class="sxs-lookup"><span data-stu-id="e3c93-103">This topic summarizes Memory Key Performance Indicators (KPI) observed during the test scenarios.</span></span> <span data-ttu-id="e3c93-104">Estas pruebas evalúan la memoria disponible según lo medido por la **\Memory\Available Mbytes** contador del monitor de rendimiento.</span><span class="sxs-lookup"><span data-stu-id="e3c93-104">These tests evaluated available memory as measured by the **\Memory\Available Mbytes** performance monitor counter.</span></span>  

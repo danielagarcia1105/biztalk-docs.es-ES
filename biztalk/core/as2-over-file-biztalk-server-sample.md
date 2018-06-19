@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966794"
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a><span data-ttu-id="4802c-102">AS2 a través de archivo (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="4802c-102">AS2 over File (BizTalk Server Sample)</span></span>
 <span data-ttu-id="4802c-103">El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través de una ubicación de recepción de archivo.</span><span class="sxs-lookup"><span data-stu-id="4802c-103">The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE receive location.</span></span> <span data-ttu-id="4802c-104">Esto le permite usar un adaptador de archivo para recibir el mensaje AS2, en lugar de un adaptador de HTTP, que es el que se utiliza normalmente.</span><span class="sxs-lookup"><span data-stu-id="4802c-104">This enables you to use a FILE adapter to receive the AS2 message, rather than an HTTP adapter, which is normally used.</span></span> <span data-ttu-id="4802c-105">Para ello, esta solución escribe los encabezados HTTP en el mensaje AS2 en la propiedad de contexto InboundHTTPHeaders, según requiere el descodificador AS2.</span><span class="sxs-lookup"><span data-stu-id="4802c-105">To do so, this solution writes the HTTP headers in the AS2 message to the InboundHTTPHeaders context property, as required by the AS2 Decoder.</span></span>  

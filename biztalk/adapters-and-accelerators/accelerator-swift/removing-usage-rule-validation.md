@@ -1,17 +1,17 @@
 ---
-title: "Quitar la validación de la regla de uso | Documentos de Microsoft"
-ms.custom: 
+title: Quitar la validación de la regla de uso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, deleting rules
 - rules
 ms.assetid: b2b0dabf-8f99-4b85-95da-6bbf3e79ad41
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962122"
 ---
 # <a name="removing-usage-rule-validation"></a><span data-ttu-id="27953-102">Quitar la validación de la regla de uso</span><span class="sxs-lookup"><span data-stu-id="27953-102">Removing Usage Rule Validation</span></span>
 <span data-ttu-id="27953-103">Reglas de uso se definen en estándares de SWIFT y aplica [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] directivas de negocio específicas para cada tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="27953-103">Usage rules are defined in SWIFT standards and enforced by [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] business policies specific to each message type.</span></span> <span data-ttu-id="27953-104">Estas reglas de uso son instrucciones que puede usar para proporcionar validación adicional para un campo.</span><span class="sxs-lookup"><span data-stu-id="27953-104">These usage rules are guidelines that you can use to provide extra validation for a field.</span></span> <span data-ttu-id="27953-105">A diferencia de las reglas de validación de red, que son obligatorias, puede elegir no exigir reglas de uso para un tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="27953-105">Unlike network validation rules, which are mandatory, you can choose not to require usage rules for a message type.</span></span> <span data-ttu-id="27953-106">Si es así, puede realizar una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="27953-106">If that is the case, you can do either of the following:</span></span>  

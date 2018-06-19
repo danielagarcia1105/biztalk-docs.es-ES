@@ -1,14 +1,14 @@
 ---
-title: "Anular la implementación de un adaptador mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Anular la implementación de un adaptador mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 98f9a124-9e63-4451-af0e-ffee752fbeac
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963570"
 ---
 # <a name="undeploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="4b6e1-102">Anular la implementación de un adaptador mediante el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="4b6e1-102">Undeploy an adapter using the WCF LOB adapter SDK</span></span>
 <span data-ttu-id="4b6e1-103">Para anular la implementación de un adaptador desde un equipo, el usuario debe realizar las dos tareas siguientes:</span><span class="sxs-lookup"><span data-stu-id="4b6e1-103">To undeploy an adapter from a computer, the user needs to perform the following two tasks:</span></span>  

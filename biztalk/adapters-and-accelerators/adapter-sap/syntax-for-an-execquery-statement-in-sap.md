@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99bd7fbb-64f2-4327-a8ae-ccb574e56150
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963994"
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a><span data-ttu-id="fc92e-102">Sintaxis de una instrucción EXECQUERY en SAP</span><span class="sxs-lookup"><span data-stu-id="fc92e-102">Syntax for an EXECQUERY Statement in SAP</span></span>
 <span data-ttu-id="fc92e-103">Puede usar la GUI de SAP para crear consultas seleccionando las tablas que desea consultar, las columnas y el orden que desea incluir en el conjunto de resultados, etcetera gráficamente. El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] permite a los usuarios ejecutar estas consultas desde una aplicación de ADO.NET proporcionando una operación EXECQUERY que los usuarios pueden utilizar para ejecutar una consulta definida en el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="fc92e-103">You can use the SAP GUI to create queries by graphically selecting the tables you want to query, the columns and sort order you want included in the result set, etc. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] enables users to execute such queries from an ADO.NET application by providing an EXECQUERY operation that users can use to execute a query defined in the SAP system.</span></span>  

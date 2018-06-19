@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3: Crear y configurar una entidad de destino | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8746f115-9f69-4593-9943-9ccda45cd900
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961346"
 ---
 # <a name="step-3-create-and-configure-a-destination-party"></a><span data-ttu-id="cf500-102">Paso 3: Crear y configurar una entidad de destino</span><span class="sxs-lookup"><span data-stu-id="cf500-102">Step 3: Create and Configure a Destination Party</span></span>
 <span data-ttu-id="cf500-103">En este paso, crear y configurar una entidad de destino para el escenario de lote de crear.</span><span class="sxs-lookup"><span data-stu-id="cf500-103">In this step, you create and configure a destination party for the Create-Batch scenario.</span></span> <span data-ttu-id="cf500-104">También selecciona los mensajes que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] lotes y el lote programa, tal como se define para esa entidad.</span><span class="sxs-lookup"><span data-stu-id="cf500-104">You also select the messages that [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] batches and the batch schedules, as defined for that party.</span></span> <span data-ttu-id="cf500-105">Puede programar la hora de envío de lote como una hora después de copiar los archivos en la carpeta.</span><span class="sxs-lookup"><span data-stu-id="cf500-105">You schedule the batch send time as one hour after copying the files into the folder.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="cf500-106">los lotes de cualquier mensaje recibido posteriormente con una frecuencia de una hora.</span><span class="sxs-lookup"><span data-stu-id="cf500-106"> batches any messages received thereafter with a frequency of one hour.</span></span>  

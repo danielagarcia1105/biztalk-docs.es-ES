@@ -1,15 +1,15 @@
 ---
-title: "Instalar y configurar las API de REST de administración | Documentos de Microsoft"
-description: "Consultar los artefactos en su entorno de BizTalk mediante datos de administración de API de REST con Feature Pack en BizTalk Server"
+title: Instalar y configurar las API de REST de administración | Documentos de Microsoft
+description: Consultar los artefactos en su entorno de BizTalk mediante datos de administración de API de REST con Feature Pack en BizTalk Server
 ms.custom: fp1
 ms.date: 11/06/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 39442756-5886-4ddd-b700-3800a237de4a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497901"
 ---
 # <a name="install-and-configure-the-management-rest-apis-in-biztalk-server"></a><span data-ttu-id="fa7fc-103">Instalar y configurar las API de REST de administración de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="fa7fc-103">Install and configure the management REST APIs in BizTalk Server</span></span>
 

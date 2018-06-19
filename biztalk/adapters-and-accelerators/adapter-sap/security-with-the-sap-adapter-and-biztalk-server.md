@@ -1,11 +1,11 @@
 ---
 title: Seguridad con el adaptador SAP y BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - credentials, protecting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, protecting credentials
 - SSO
 ms.assetid: 702cd0f9-d8e1-4dad-8774-b552481d5390
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217780"
 ---
 # <a name="security-with-the-sap-adapter-and-biztalk-server"></a><span data-ttu-id="199e7-102">Seguridad con el adaptador SAP y BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="199e7-102">Security with the SAP adapter and BizTalk Server</span></span>
 <span data-ttu-id="199e7-103">Al configurar un puerto de envío o un puerto de recepción (ubicación) mediante el uso de la administración de BizTalk Server de la consola o utilizar el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para recuperar esquemas de mensaje para una solución de BizTalk, debe proporcionar credenciales para el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="199e7-103">When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the SAP system.</span></span> <span data-ttu-id="199e7-104">Es importante proporcionar estas credenciales de una manera segura para ayudar a evitar que se revelen a actores potencialmente malintencionados.</span><span class="sxs-lookup"><span data-stu-id="199e7-104">It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors.</span></span> <span data-ttu-id="199e7-105">Este tema describe cómo proporcionar una forma más segura de credenciales para el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] para soluciones de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="199e7-105">This topic discusses how to most securely supply credentials for the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] for BizTalk Server solutions.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d411b1a-a36d-4e3e-a56a-91804a5d69b9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968122"
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-the-sql-adapter"></a><span data-ttu-id="e1a6f-102">Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="e1a6f-102">Insert, update, delete, or select operations using BizTalk Server with the SQL adapter</span></span>
 <span data-ttu-id="e1a6f-103">La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone un conjunto de operaciones estándar en vistas y tablas de base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e1a6f-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of standard operations on SQL Server database tables and views.</span></span> <span data-ttu-id="e1a6f-104">Se conocen como operaciones de DML (lenguaje) de manipulación de datos.</span><span class="sxs-lookup"><span data-stu-id="e1a6f-104">These are called data manipulation language (DML) operations.</span></span> <span data-ttu-id="e1a6f-105">Mediante el uso de las operaciones DML, puede realizar Select simple de Insert, Update y operaciones Delete en tablas y vistas.</span><span class="sxs-lookup"><span data-stu-id="e1a6f-105">By using DML operations, you can perform simple Insert, Update, Select, and Delete operations on tables and views.</span></span> <span data-ttu-id="e1a6f-106">Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [Insert, Update, Delete y seleccione las operaciones en tablas y vistas con el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/insert-update-delete-and-select-on-tables-and-views-with-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="e1a6f-106">For more information about how the adapter supports these operations, see [Insert, Update, Delete, and Select Operations on Tables and Views with the SQL adapter](../../adapters-and-accelerators/adapter-sql/insert-update-delete-and-select-on-tables-and-views-with-the-sql-adapter.md).</span></span> <span data-ttu-id="e1a6f-107">Para obtener información acerca de la estructura del mensaje SOAP para estas operaciones, vea [esquemas de mensaje para Insert, Update, Delete y seleccione las operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-sql/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).</span><span class="sxs-lookup"><span data-stu-id="e1a6f-107">For information about the structure of the SOAP message for these operations, see [Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-sql/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).</span></span>  

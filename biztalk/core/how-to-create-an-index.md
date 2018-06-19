@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear un índice | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un índice | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Create-Index command [BAM]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating, indexes [BAM]
 - aggregations [BAM], indexes
 ms.assetid: 456d94e6-2e84-4d12-ad38-49f9eeb103f3
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969290"
 ---
 # <a name="how-to-create-an-index"></a><span data-ttu-id="9e2e8-102">Cómo crear un índice</span><span class="sxs-lookup"><span data-stu-id="9e2e8-102">How to Create an Index</span></span>
 <span data-ttu-id="9e2e8-103">Los administradores utilizan el **índice crear** comando para crear un índice en la actividad especificada en los puntos de control especificados.</span><span class="sxs-lookup"><span data-stu-id="9e2e8-103">Administrators use the **create-index** command to create an index on the specified activity at the specified checkpoints.</span></span>  

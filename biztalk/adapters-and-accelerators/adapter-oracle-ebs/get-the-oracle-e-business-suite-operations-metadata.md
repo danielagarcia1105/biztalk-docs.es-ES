@@ -1,14 +1,14 @@
 ---
 title: Obtiene los metadatos de las operaciones de Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 566ae086-183a-47db-8f93-12b5903c85c3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963794"
 ---
 # <a name="get-the-oracle-e-business-suite-operations-metadata"></a><span data-ttu-id="cb7e8-102">Obtiene los metadatos de las operaciones de Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="cb7e8-102">Get the Oracle E-Business Suite operations metadata</span></span>
 <span data-ttu-id="cb7e8-103">Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] para generar el esquema para los artefactos de Oracle E-Business Suite seleccionados.</span><span class="sxs-lookup"><span data-stu-id="cb7e8-103">You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate schema for selected Oracle E-Business Suite artifacts.</span></span> <span data-ttu-id="cb7e8-104">Después de examinar y buscar los artefactos que desea invocar, puede generar esquema para los artefactos y enviar mensajes, que se ajuste al esquema, para Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="cb7e8-104">After you have browsed and searched for the artifacts you want to invoke, you can generate schema for those artifacts and send messages, conforming to the schema, to Oracle E-Business Suite.</span></span>  

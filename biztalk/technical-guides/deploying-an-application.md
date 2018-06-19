@@ -1,14 +1,14 @@
 ---
-title: "Implementar una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Implementar una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04bb4496-b1e9-400b-a849-a355381849ff
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300420"
 ---
 # <a name="deploying-an-application"></a><span data-ttu-id="7a71b-102">Implementar una aplicación</span><span class="sxs-lookup"><span data-stu-id="7a71b-102">Deploying an Application</span></span>
 <span data-ttu-id="7a71b-103">La implementación es la distribución logística de artefactos de la aplicación para asegurarse de que todos los componentes necesarios están disponibles para los sistemas que los necesiten.</span><span class="sxs-lookup"><span data-stu-id="7a71b-103">Deployment is the logistical distribution of application artifacts to ensure all necessary components are available to the systems that require them.</span></span> <span data-ttu-id="7a71b-104">Estos artefactos incluyen el servidor BizTalk Server ensamblados, .NET ensamblados, esquemas, mapas, enlaces, reglas de negocios y certificados.</span><span class="sxs-lookup"><span data-stu-id="7a71b-104">These artifacts include BizTalk Server assemblies, .NET assemblies, schemas, maps, bindings, business rules, and certificates.</span></span> <span data-ttu-id="7a71b-105">La aplicación de BizTalk puede aprovecharse para ayudar a implementar artefactos a otros equipos que se agregan al grupo o para el almacenamiento provisional (cuando el transporte de una aplicación a otro entorno).</span><span class="sxs-lookup"><span data-stu-id="7a71b-105">The BizTalk application can be leveraged to help roll out artifacts to other computers added to the group or for staging (when transporting an application to another environment).</span></span>  

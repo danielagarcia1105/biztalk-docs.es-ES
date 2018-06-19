@@ -1,11 +1,11 @@
 ---
 title: Agregar funciones y departamentos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - roles, adding
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - departments, department flows
 - creating, departments
 ms.assetid: 45e33759-6e96-4dac-a72e-74227ec108a8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964106"
 ---
 # <a name="adding-roles-and-departments"></a><span data-ttu-id="155df-102">Agregar funciones y departamentos</span><span class="sxs-lookup"><span data-stu-id="155df-102">Adding Roles and Departments</span></span>
 <span data-ttu-id="155df-103">Después de crear [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] los usuarios que se cree, reparar, compruebe o aprobar mensajes, debe crear uno o varios departamentos con roles para establecer el flujo de trabajo de reparación/create.</span><span class="sxs-lookup"><span data-stu-id="155df-103">After you create [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] users who will create, repair, verify, and/or approve messages, you must create one or more departments with roles to establish the create/repair workflow.</span></span>  

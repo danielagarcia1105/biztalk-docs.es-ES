@@ -1,18 +1,18 @@
 ---
 title: Operaciones en tablas con tipos de datos BFILE de base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, on tables with BFILE data types
 - BFILE data type
 - BFILE
 ms.assetid: 7937564e-4423-459f-9824-6a27113ebfb3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214316"
 ---
 # <a name="operations-on-tables-with-bfile-data-types-in-oracle-database"></a><span data-ttu-id="bb117-102">Operaciones en tablas con tipos de datos BFILE de base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="bb117-102">Operations on Tables With BFILE Data Types in Oracle Database</span></span>
 <span data-ttu-id="bb117-103">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con el tipo de datos BFILE en tablas y procedimientos almacenados.</span><span class="sxs-lookup"><span data-stu-id="bb117-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the BFILE data type in tables and stored procedures.</span></span> <span data-ttu-id="bb117-104">En la tabla siguiente se resume el tipo de datos BFILE expuestos por el adaptador en función de la operación realizada y el artefacto LOB (tabla o procedimiento) tiene acceso:</span><span class="sxs-lookup"><span data-stu-id="bb117-104">The following table summarizes the BFILE data type exposed by the adapter based on the operation performed and the LOB artifact (table/procedure) accessed:</span></span>  

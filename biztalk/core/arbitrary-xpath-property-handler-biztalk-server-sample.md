@@ -11,7 +11,7 @@ helpviewer_keywords:
 - pipeline components [custom], examples
 - examples, pipeline components [custom]
 ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966762"
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a><span data-ttu-id="4f78d-102">Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="4f78d-102">Arbitrary XPath Property Handler (BizTalk Server Sample)</span></span>
 <span data-ttu-id="4f78d-103">El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) muestra cómo escribir un componente de canalización personalizado para promover propiedades específicas en un documento XML que se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="4f78d-103">The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Sample) demonstrates how to write a custom pipeline component to promote specific properties on an XML document that is submitted to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="4f78d-104">Puede utilizar la funcionalidad contenida en el ejemplo para crear componentes de ensamblador y desensamblador normales personalizados para evaluar las expresiones XPath.</span><span class="sxs-lookup"><span data-stu-id="4f78d-104">You can use functionality contained in the sample to create custom regular, assembler, and disassembler components to evaluate XPath expressions.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 03/28/2018
 7.  <span data-ttu-id="4f78d-115">El nuevo documento de pedido de compra se escribe en un archivo del directorio \Output.</span><span class="sxs-lookup"><span data-stu-id="4f78d-115">The new PO document is written to a file in the \Output directory.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="4f78d-116">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="4f78d-116">Where to Find This Sample</span></span>  
- <span data-ttu-id="4f78d-117">*\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler</span><span class="sxs-lookup"><span data-stu-id="4f78d-117">*\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler</span></span>  
+ <span data-ttu-id="4f78d-117">*\<Ejemplos de ruta de acceso\>* \Pipelines\ArbitraryXPathPropertyHandler</span><span class="sxs-lookup"><span data-stu-id="4f78d-117">*\<Samples Path\>* \Pipelines\ArbitraryXPathPropertyHandler</span></span>  
   
  <span data-ttu-id="4f78d-118">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="4f78d-118">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -84,13 +85,13 @@ ms.lasthandoff: 03/28/2018
   
 1.  <span data-ttu-id="4f78d-159">En una ventana de comandos, cambie los directorios (**cd**) a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="4f78d-159">In a command window, change directories (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="4f78d-160">*\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler</span><span class="sxs-lookup"><span data-stu-id="4f78d-160">*\<Samples Path\>*\Pipelines\ArbitraryXPathPropertyHandler</span></span>  
+     <span data-ttu-id="4f78d-160">*\<Ejemplos de ruta de acceso\>* \Pipelines\ArbitraryXPathPropertyHandler</span><span class="sxs-lookup"><span data-stu-id="4f78d-160">*\<Samples Path\>* \Pipelines\ArbitraryXPathPropertyHandler</span></span>  
   
 2.  <span data-ttu-id="4f78d-161">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="4f78d-161">Run the file Setup.bat, which performs the following actions:</span></span>  
   
     -   <span data-ttu-id="4f78d-162">Genera el componente de canalización del controlador de propiedad XPath arbitrario.</span><span class="sxs-lookup"><span data-stu-id="4f78d-162">Builds the Arbitrary XPath Property Handler pipeline component.</span></span>  
   
-    -   <span data-ttu-id="4f78d-163">Componente de canalización de copias generados para el * \<ruta de acceso de instalación\>*directorio \Pipeline Components.</span><span class="sxs-lookup"><span data-stu-id="4f78d-163">Copies built pipeline component to the *\<Installation Path\>*\Pipeline Components directory.</span></span>  
+    -   <span data-ttu-id="4f78d-163">Componente de canalización de copias generados para el * \<ruta de acceso de instalación\>* directorio \Pipeline Components.</span><span class="sxs-lookup"><span data-stu-id="4f78d-163">Copies built pipeline component to the *\<Installation Path\>* \Pipeline Components directory.</span></span>  
   
     -   <span data-ttu-id="4f78d-164">Crea los puertos de envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="4f78d-164">Creates the send and receive ports.</span></span>  
   

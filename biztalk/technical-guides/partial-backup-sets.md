@@ -1,14 +1,14 @@
 ---
 title: Conjuntos de copia de seguridad parciales | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b9f15c0-4d31-4322-ac0a-8efdeed6f71e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298164"
 ---
 # <a name="partial-backup-sets"></a><span data-ttu-id="8079e-102">Conjuntos de copia de seguridad parciales</span><span class="sxs-lookup"><span data-stu-id="8079e-102">Partial Backup Sets</span></span>
 <span data-ttu-id="8079e-103">Al hacer una copia de seguridad de las bases de datos en el sistema de origen, pueden producirse problemas que den como resultado un conjunto de copia de seguridad parcial.</span><span class="sxs-lookup"><span data-stu-id="8079e-103">When backing up the databases on the source system, problems may occur that result in a partial backup set.</span></span> <span data-ttu-id="8079e-104">Cuando esto ocurre, la tabla Master.dbo.bts_LogShippingHistory contendrá un 0 en la **SetComplete** columna para todos los registros en el conjunto.</span><span class="sxs-lookup"><span data-stu-id="8079e-104">When this occurs, the Master.dbo.bts_LogShippingHistory table will contain a 0 in the **SetComplete** column for all records in the set.</span></span>  

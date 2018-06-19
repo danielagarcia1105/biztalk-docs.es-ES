@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con la transferencia de información de adaptador de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con la transferencia de información de adaptador de FileAct | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0fc27561-9abb-4496-9db7-f221a6c90738
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222820"
 ---
 # <a name="fileact-adapter-supporting-information-transfer"></a><span data-ttu-id="10d8c-102">Transferencia de información de soporte de adaptador de FileAct</span><span class="sxs-lookup"><span data-stu-id="10d8c-102">FileAct Adapter Supporting Information Transfer</span></span>
 <span data-ttu-id="10d8c-103">El adaptador de FileAct permite a la transferencia de información complementaria con archivos opcional.</span><span class="sxs-lookup"><span data-stu-id="10d8c-103">The FileAct adapter permits the optional transfer of supporting information with files.</span></span> <span data-ttu-id="10d8c-104">Esta información se transfiere a discreción de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="10d8c-104">This information is transferred at the discretion of the application.</span></span> <span data-ttu-id="10d8c-105">El adaptador no realiza ningún procesamiento especial de esta información en el lado de origen excepto para validar que se encuentra en el formato correcto.</span><span class="sxs-lookup"><span data-stu-id="10d8c-105">The adapter does not do any special processing of this information on the originating side except to validate that it is in the correct format.</span></span> <span data-ttu-id="10d8c-106">Los elementos que componen la información de apoyo incluyen:</span><span class="sxs-lookup"><span data-stu-id="10d8c-106">The elements which comprise supporting information include:</span></span>  

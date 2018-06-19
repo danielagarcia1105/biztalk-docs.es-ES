@@ -1,11 +1,11 @@
 ---
 title: Control de acceso de grupos y cuentas de servicio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - access control, service accounts
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - groups, access control
 - groups, security
 ms.assetid: 411a7bfa-6675-4d09-9e37-83e2941df3c6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967034"
 ---
 # <a name="access-control-for-groups-and-service-accounts"></a><span data-ttu-id="5c92e-102">Control de acceso para grupos y cuentas de servicio</span><span class="sxs-lookup"><span data-stu-id="5c92e-102">Access Control for Groups and Service Accounts</span></span>
 <span data-ttu-id="5c92e-103">Cada instancia de host de BizTalk se ejecuta bajo una cuenta de servicio creada por el usuario.</span><span class="sxs-lookup"><span data-stu-id="5c92e-103">Each BizTalk Host instance runs under a user-created service account.</span></span> <span data-ttu-id="5c92e-104">Las cuentas de servicio y sus contraseñas deben proporcionarse en el momento de crear la instancia de host en un equipo.</span><span class="sxs-lookup"><span data-stu-id="5c92e-104">You must provide the service accounts and their passwords at the time you create the host instance on a computer.</span></span> <span data-ttu-id="5c92e-105">A continuación, BizTalk Server verifica que esas cuentas tienen los derechos de usuario mínimos necesarios para realizar sus tareas agregando cada una de ellas a un grupo de Windows local o de dominio que, a su vez, la agrega a la función de base de datos de SQL Server específica de ese host.</span><span class="sxs-lookup"><span data-stu-id="5c92e-105">BizTalk Server then ensures that the accounts have the minimum user rights needed to do their jobs by adding each of these service accounts to a local or domain Windows group that, in turn, it adds to the SQL Server Database role specific to that host.</span></span>  

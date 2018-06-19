@@ -1,17 +1,17 @@
 ---
-title: "Sondeo de base de datos de Oracle mediante la instrucción SELECT | Documentos de Microsoft"
-ms.custom: 
+title: Sondeo de base de datos de Oracle mediante la instrucción SELECT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling-based notifications, receiving from Oracle
 - polling query, configuring a
 ms.assetid: d2689eb9-6f17-498f-8a32-07f43a368833
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965098"
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a><span data-ttu-id="a9a90-102">Sondeo de base de datos de Oracle mediante la instrucción SELECT</span><span class="sxs-lookup"><span data-stu-id="a9a90-102">Poll Oracle Database using the SELECT statement</span></span>
 <span data-ttu-id="a9a90-103">Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicos utilizando una instrucción SELECT para sondear continuamente las tablas y vistas en la base de datos de Oracle de Oracle.</span><span class="sxs-lookup"><span data-stu-id="a9a90-103">You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the tables and views in Oracle the Oracle database.</span></span> <span data-ttu-id="a9a90-104">Puede especificar una instrucción SELECT como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="a9a90-104">You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll the Oracle database.</span></span> <span data-ttu-id="a9a90-105">Si lo desea, también puede especificar un bloque de código de PL/SQL de sondeo posterior a la que el adaptador se ejecuta si se produce un cambio en los datos.</span><span class="sxs-lookup"><span data-stu-id="a9a90-105">Optionally, you can also specify a post-poll PL/SQL code block that the adapter executes if there is a change in data.</span></span> <span data-ttu-id="a9a90-106">Este bloque se utiliza a menudo para actualizar un campo en los registros consultados en el destino o para mover los registros consultados a otra tabla o vista.</span><span class="sxs-lookup"><span data-stu-id="a9a90-106">This block is often used to update a field on the queried records in the target or to move the queried records to another table or view.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: Esquemas de mensajes para operaciones de tRFC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC operations, message structure for
 - tRFC operations, message schemas for
 - tRFC operations, message actions for
 ms.assetid: 0e269555-f0a1-40ae-a1b5-d8c4981e730f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964922"
 ---
 # <a name="message-schemas-for-trfc-operations"></a><span data-ttu-id="cb470-102">Esquemas de mensaje para operaciones de tRFC</span><span class="sxs-lookup"><span data-stu-id="cb470-102">Message Schemas for tRFC Operations</span></span>
 <span data-ttu-id="cb470-103">Llamadas a funciones remotas Transactiostructnal (tRFCs) se usan para ejecutar llamadas RFC en una unidad lógica de trabajo (LUW).</span><span class="sxs-lookup"><span data-stu-id="cb470-103">Transactiostructnal Remote Function Calls (tRFCs) are used to execute RFC calls in a logical unit of work (LUW).</span></span> <span data-ttu-id="cb470-104">El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite varios tRFCs por LUW para llamadas de tRFC entrante.</span><span class="sxs-lookup"><span data-stu-id="cb470-104">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports multiple tRFCs per LUW for inbound tRFC calls.</span></span> <span data-ttu-id="cb470-105">Para las llamadas de tRFC saliente (cliente), el adaptador puede admitir solo un único tRFC en un LUW; por lo tanto, para crea un LUW en SAP para cada llamada de cliente tRFC.</span><span class="sxs-lookup"><span data-stu-id="cb470-105">For outbound (client) tRFC calls, the adapter can support only a single tRFC in an LUW; it therefore for creates an LUW on SAP for each client tRFC call.</span></span> <span data-ttu-id="cb470-106">Para obtener más información acerca de cómo los [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite operaciones de tRFC, consulte [operaciones en tRFCs en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="cb470-106">For more information about how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports tRFC operations, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span></span> <span data-ttu-id="cb470-107">En esta sección se describe los esquemas de mensaje y las acciones para las operaciones de tRFC.</span><span class="sxs-lookup"><span data-stu-id="cb470-107">This section describes the message schemas and actions for tRFC operations.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "¿Por qué es importante para pruebas | Documentos de Microsoft"
-ms.custom: 
+title: ¿Por qué es importante para pruebas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce91aca5-56d3-4fb8-abe2-af0039804706
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302308"
 ---
 # <a name="why-it-is-important-to-test"></a><span data-ttu-id="7ac20-102">¿Por qué es importante para pruebas</span><span class="sxs-lookup"><span data-stu-id="7ac20-102">Why It Is Important to Test</span></span>
 <span data-ttu-id="7ac20-103">Este tema proporciona información general sobre el modo de pensar que conduce a pruebas suficientes, describe los riesgos asociados a un error probar soluciones de BizTalk y se contrasta las dificultades de pruebas manuales con las ventajas de las pruebas automatizadas.</span><span class="sxs-lookup"><span data-stu-id="7ac20-103">This topic provides an overview of the mindset that leads to insufficient testing, describes the risks associated with failing to test BizTalk solutions, and contrasts the pitfalls of manual testing with the benefits of automated testing.</span></span>  

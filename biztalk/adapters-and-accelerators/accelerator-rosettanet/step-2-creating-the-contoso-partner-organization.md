@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963538"
 ---
 # <a name="step-2-creating-the-contoso-partner-organization"></a><span data-ttu-id="e659b-102">Paso 2: Crear la organización del asociado de Contoso</span><span class="sxs-lookup"><span data-stu-id="e659b-102">Step 2: Creating the Contoso Partner Organization</span></span>
 <span data-ttu-id="e659b-103">En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear un nuevo socio comercial.</span><span class="sxs-lookup"><span data-stu-id="e659b-103">In this step, you use the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create a new trading partner.</span></span> <span data-ttu-id="e659b-104">El socio comercial para este tutorial es la organización de Contoso.</span><span class="sxs-lookup"><span data-stu-id="e659b-104">The trading partner for this tutorial is the Contoso organization.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="e659b-108">En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **asociados**, seleccione **New**y, a continuación, haga clic en **asociado**.</span><span class="sxs-lookup"><span data-stu-id="e659b-108">In the **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], right-click **Partners**, point to **New**, and then click **Partner**.</span></span>  
   
-2.  <span data-ttu-id="e659b-109">En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente**:**</span><span class="sxs-lookup"><span data-stu-id="e659b-109">In the New Partner Properties dialog box, on the **General** tab, do the following**:**</span></span>  
+2.  <span data-ttu-id="e659b-109">En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente **:**</span><span class="sxs-lookup"><span data-stu-id="e659b-109">In the New Partner Properties dialog box, on the **General** tab, do the following **:**</span></span>  
   
     |<span data-ttu-id="e659b-110">Use</span><span class="sxs-lookup"><span data-stu-id="e659b-110">Use this</span></span>|<span data-ttu-id="e659b-111">Para</span><span class="sxs-lookup"><span data-stu-id="e659b-111">To do this</span></span>|  
     |--------------|----------------|  

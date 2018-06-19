@@ -1,18 +1,18 @@
 ---
 title: Configurar confirmaciones de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, configuring
 - messages, acknowledgements
 - configuring, acknowledgements
 ms.assetid: 6ebcfc32-0a0b-4388-938f-6569a2014b91
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962578"
 ---
 # <a name="configuring-message-acknowledgments"></a><span data-ttu-id="64306-102">Configurar confirmaciones de mensajes</span><span class="sxs-lookup"><span data-stu-id="64306-102">Configuring Message Acknowledgments</span></span>
 <span data-ttu-id="64306-103">Usa el [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] configuración explorador **confirmación** ficha para especificar las propiedades de confirmación de confirmaciones entrantes y generadas.</span><span class="sxs-lookup"><span data-stu-id="64306-103">You use the [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer **Acknowledgment** tab to specify the acknowledgment properties for inbound and generated acknowledgments.</span></span>  

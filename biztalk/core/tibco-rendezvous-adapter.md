@@ -1,15 +1,15 @@
 ---
 title: Adaptador de TIBCO Rendezvous | Documentos de Microsoft
-description: "Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server"
-ms.custom: 
+description: Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server
+ms.custom: ''
 ms.date: 10/24/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0528954d-11b4-449b-8057-30d463104fef
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015459"
 ---
 # <a name="tibco-rendezvous-adapter"></a><span data-ttu-id="188fc-103">Adaptador TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="188fc-103">TIBCO Rendezvous Adapter</span></span>
 <span data-ttu-id="188fc-104">El adaptador de Microsoft BizTalk para TIBCO Rendezvous permite usar las funciones empresariales de TIBCO Rendezvous en BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="188fc-104">Microsoft BizTalk Adapter for TIBCO Rendezvous enables you to use TIBCO Rendezvous business functions within BizTalk Server.</span></span> <span data-ttu-id="188fc-105">En las secciones siguientes se explica cómo se configura el adaptador para obtener acceso a información específica de TIBCO Rendezvous.</span><span class="sxs-lookup"><span data-stu-id="188fc-105">The following sections discuss setting up the adapter to access TIBCO Rendezvous-specific information.</span></span>  

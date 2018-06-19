@@ -1,14 +1,14 @@
 ---
-title: "Cómo marcar el servidor BizTalk Server bases de datos de supervisión personalizada | Documentos de Microsoft"
-ms.custom: 
+title: Cómo marcar el servidor BizTalk Server bases de datos de supervisión personalizada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cfbdc73d-a108-42ee-a5d8-401d5bfe5e7d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298244"
 ---
 # <a name="how-to-mark-biztalk-server-databases-for-customized-monitoring"></a><span data-ttu-id="c201c-102">Cómo marcar bases de datos de BizTalk Server para supervisión personalizada</span><span class="sxs-lookup"><span data-stu-id="c201c-102">How to Mark BizTalk Server Databases for Customized Monitoring</span></span>
 <span data-ttu-id="c201c-103">Si ha instalado Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración, puede personalizar la forma [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se supervisan las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="c201c-103">If you have installed the Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Pack, you can customize the way [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases are monitored.</span></span> <span data-ttu-id="c201c-104">Esto garantiza que la [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] módulo de administración supervisa los siguientes [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos:</span><span class="sxs-lookup"><span data-stu-id="c201c-104">This ensures that the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Pack monitors the following [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases:</span></span>  

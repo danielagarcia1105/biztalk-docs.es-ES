@@ -1,17 +1,17 @@
 ---
-title: "Sintaxis para una instrucción EXEC en Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Sintaxis para una instrucción EXEC en Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - EXEC statement, syntax for
 - Data Provider for Siebel, EXEC statement
 ms.assetid: c5534102-bf37-4b39-83ab-e09483744c4d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963082"
 ---
 # <a name="syntax-for-an-exec-statement-in-siebel"></a><span data-ttu-id="36dad-102">Sintaxis para una instrucción EXEC en Siebel</span><span class="sxs-lookup"><span data-stu-id="36dad-102">Syntax for an EXEC Statement in Siebel</span></span>
 <span data-ttu-id="36dad-103">Mediante el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], los clientes ADO.NET también pueden realizar una operación de EXEC en la [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span><span class="sxs-lookup"><span data-stu-id="36dad-103">Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], ADO.NET clients can also perform an EXEC operation on the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="36dad-104">La sintaxis de la instrucción EXEC es:</span><span class="sxs-lookup"><span data-stu-id="36dad-104">The syntax for the EXEC statement is:</span></span>  

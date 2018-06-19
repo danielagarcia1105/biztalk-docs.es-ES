@@ -1,17 +1,17 @@
 ---
 title: Habilitar o deshabilitar el seguimiento de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Message Repair and New Submission, BAM tracking
 - BAM tracking
 ms.assetid: 07896fab-88a0-4759-8547-16edcd1eebc0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207396"
 ---
 # <a name="enabling-or-disabling-bam-tracking"></a><span data-ttu-id="17c6d-102">Habilitar o deshabilitar el seguimiento de BAM</span><span class="sxs-lookup"><span data-stu-id="17c6d-102">Enabling or Disabling BAM Tracking</span></span>
 <span data-ttu-id="17c6d-103">Puede habilitar o deshabilitar el seguimiento en cualquier momento, incluso aunque el proceso de reparación de mensajes y nuevo transmisión tiene transacciones en proceso de BAM.</span><span class="sxs-lookup"><span data-stu-id="17c6d-103">You can enable or disable BAM tracking at any point, even while the Message Repair and New Transmission process has transactions in process.</span></span> <span data-ttu-id="17c6d-104">Sin embargo, si deshabilita el seguimiento de BAM mientras las transacciones están en curso, los datos de BAM pueden estar incompletos en las transacciones.</span><span class="sxs-lookup"><span data-stu-id="17c6d-104">However, if you disable BAM tracking while transactions are in process, the BAM data may be incomplete for those transactions.</span></span> <span data-ttu-id="17c6d-105">Si esto ocurre, la tabla de historial todavía contendrá datos precisos de todas las instancias.</span><span class="sxs-lookup"><span data-stu-id="17c6d-105">If this occurs, the history table will still contain accurate data for all instances.</span></span>  

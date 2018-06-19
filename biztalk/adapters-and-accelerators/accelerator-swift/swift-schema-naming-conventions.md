@@ -11,7 +11,7 @@ helpviewer_keywords:
 - naming conventions [schemas]
 - schemas, naming conventions
 ms.assetid: 3c1f2519-2575-4178-89c1-e97333c1e6bd
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25960826"
 ---
 # <a name="swift-schema-naming-conventions"></a><span data-ttu-id="3efc9-102">Convenciones de nomenclatura de esquema SWIFT</span><span class="sxs-lookup"><span data-stu-id="3efc9-102">SWIFT Schema Naming Conventions</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="3efc9-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye los esquemas para la sociedad para los mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo que se crearon con el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="3efc9-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes schemas for Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages that were created using BizTalk Editor.</span></span> <span data-ttu-id="3efc9-104">Estos esquemas son compatibles con las siguientes convenciones a lo largo de:</span><span class="sxs-lookup"><span data-stu-id="3efc9-104">These schemas conform to the following conventions throughout:</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/28/2018
   
 -   <span data-ttu-id="3efc9-111">Dentro de cada esquema de mensaje, el nombre de la raíz es **SWIFT_CATEGORY*z*_MT*zxx*_Interchange**, donde *z* es la categoría de mensaje () primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="3efc9-111">Within each message schema, the name of the root is **SWIFT_CATEGORY*z*_MT*zxx*_Interchange**, where *z* is the message category (first digit of the message type) and *zxx* is the message type.</span></span>  
   
--   <span data-ttu-id="3efc9-112">El espacio de nombres de destino para cada esquema de mensaje **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx ***, donde *z* es la categoría de mensaje (primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="3efc9-112">The target namespace for each message schema is **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx***, where *z* is the message category (first digit of the message type) and *zxx* is the message type.</span></span>  
+-   <span data-ttu-id="3efc9-112">El espacio de nombres de destino para cada esquema de mensaje **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z */MT*zxx ***, donde *z* es la categoría de mensaje (primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="3efc9-112">The target namespace for each message schema is **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z */MT*zxx***, where *z* is the message category (first digit of the message type) and *zxx* is the message type.</span></span>  
   
 -   <span data-ttu-id="3efc9-113">El tipo de documento es **MT*zxx ***, donde *zxx* es el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="3efc9-113">The document type is **MT*zxx***, where *zxx* is the message type.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar todas las reglas del módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar todas las reglas del módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fdec550-6713-4f5f-8c04-d9218bf2df3c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298220"
 ---
 # <a name="how-to-display-all-management-pack-rules"></a><span data-ttu-id="2f215-102">Cómo mostrar todas las reglas del módulo de administración</span><span class="sxs-lookup"><span data-stu-id="2f215-102">How to Display All Management Pack Rules</span></span>
 <span data-ttu-id="2f215-103">Utilice el procedimiento siguiente para mostrar una lista de reglas para los módulos de administración que ha importado.</span><span class="sxs-lookup"><span data-stu-id="2f215-103">Use the following procedure to display a list of rules for the management packs that you imported.</span></span> <span data-ttu-id="2f215-104">La lista de reglas puede verse en Office Excel.</span><span class="sxs-lookup"><span data-stu-id="2f215-104">The list of rules can be viewed in Office Excel.</span></span>  

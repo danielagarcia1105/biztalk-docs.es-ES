@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "25963122"
 ---
 # <a name="publishing-the-mx-message-instance-file-creating-new-messages"></a><span data-ttu-id="4b97c-102">Publicar el archivo de instancia de mensaje MX (creación de nuevos mensajes)</span><span class="sxs-lookup"><span data-stu-id="4b97c-102">Publishing the MX Message Instance File (Creating New Messages)</span></span>
 <span data-ttu-id="4b97c-103">**Para publicar el archivo de instancia de mensaje MX:**</span><span class="sxs-lookup"><span data-stu-id="4b97c-103">**To publish the MX message instance file:**</span></span>  
@@ -33,4 +34,4 @@ ms.lasthandoff: 04/18/2018
   
 6.  <span data-ttu-id="4b97c-110">En la ventana Cargar documento, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4b97c-110">In the Upload Document window, click **OK**.</span></span>  
   
-7.  <span data-ttu-id="4b97c-111">En los mensajes de nuevo MX SWIFT: \<MessageType\> ventana, en el cuadro de Namespace, escriba  **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageType\>**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4b97c-111">In the New SWIFT MX Messages: \<MessageType\> window, in the Namespace box, type **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType\>**, and then click **OK**.</span></span>
+7.  <span data-ttu-id="4b97c-111">En los mensajes de nuevo MX SWIFT: \<MessageType\> ventana, en el cuadro de Namespace, escriba  **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageType\>** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4b97c-111">In the New SWIFT MX Messages: \<MessageType\> window, in the Namespace box, type **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType\>**, and then click **OK**.</span></span>

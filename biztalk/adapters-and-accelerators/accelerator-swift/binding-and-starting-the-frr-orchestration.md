@@ -1,11 +1,11 @@
 ---
-title: "Enlazar e iniciar la orquestación FRR | Documentos de Microsoft"
-ms.custom: 
+title: Enlazar e iniciar la orquestación FRR | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, binding orchestrations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bindings, orchestrations
 - orchestrations, bindings
 ms.assetid: b74a0116-e98b-4fec-b386-710ce421a1e2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209060"
 ---
 # <a name="binding-and-starting-the-frr-orchestration"></a><span data-ttu-id="4ea1d-102">Enlazar e iniciar la orquestación FRR</span><span class="sxs-lookup"><span data-stu-id="4ea1d-102">Binding and Starting the FRR Orchestration</span></span>
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="4ea1d-103">incluye la orquestación FRR como un ensamblado implementado ([!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Solutions.FinancialServices.SWIFT.FrrOrchestration).</span><span class="sxs-lookup"><span data-stu-id="4ea1d-103"> includes the FRR orchestration as a deployed assembly ([!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.FinancialServices.SWIFT.FrrOrchestration).</span></span> <span data-ttu-id="4ea1d-104">Debe iniciar esta orquestación.</span><span class="sxs-lookup"><span data-stu-id="4ea1d-104">You need to start this orchestration.</span></span>  

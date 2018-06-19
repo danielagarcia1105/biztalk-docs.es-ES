@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970066"
 ---
 # <a name="error---functoid-has-no-input"></a><span data-ttu-id="b5042-102">Error - el Functoid No tiene entrada</span><span class="sxs-lookup"><span data-stu-id="b5042-102">Error - Functoid Has No Input</span></span>
 <span data-ttu-id="b5042-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="b5042-103">**Error Code**</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Fases de un caso de prueba de BizUnit | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed0e725f-2c52-43f7-ae30-343413a703c2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302380"
 ---
 # <a name="stages-of-a-bizunit-test-case"></a><span data-ttu-id="e49a9-102">Fases de un caso de prueba de BizUnit</span><span class="sxs-lookup"><span data-stu-id="e49a9-102">Stages of a BizUnit Test Case</span></span>
 <span data-ttu-id="e49a9-103">Cada caso de prueba de BizUnit consta de tres fases: **TestSetup**, **TestExecution**, y **TestCleanup**.</span><span class="sxs-lookup"><span data-stu-id="e49a9-103">Each BizUnit test case consists of three stages: **TestSetup**, **TestExecution**, and **TestCleanup**.</span></span> <span data-ttu-id="e49a9-104">Cada fase contiene uno o varios pasos de prueba que son responsables de realizar una sola unidad discreta de trabajo; Por ejemplo, el **FileCreateStep** es responsable de crear un archivo en una ubicación especificada con un nombre de archivo determinado.</span><span class="sxs-lookup"><span data-stu-id="e49a9-104">Each stage contains one or more test steps that are responsible for performing a single discrete unit of work; for example, the **FileCreateStep** is responsible for creating a file in a location you specify with a given filename.</span></span>  <span data-ttu-id="e49a9-105">BizUnit incluye más de 70 pasos de prueba y también proporciona capacidades de extensión que permiten nuevos pasos de prueba agregar fácilmente para el marco de trabajo.</span><span class="sxs-lookup"><span data-stu-id="e49a9-105">BizUnit includes over 70 test steps and also provides extension capabilities which allow new test steps to be easily added to the framework.</span></span> <span data-ttu-id="e49a9-106">La capacidad para agregar nuevos pasos para el marco de trabajo permite BizUnit para utilizarse en una amplia gama de escenarios.</span><span class="sxs-lookup"><span data-stu-id="e49a9-106">The ability to add new steps to the framework allows BizUnit to be used across a broad range of scenarios.</span></span> <span data-ttu-id="e49a9-107">Este tema describe las fases de prueba de BizUnit con más detalle.</span><span class="sxs-lookup"><span data-stu-id="e49a9-107">This topic describes the BizUnit test stages in further detail.</span></span>  

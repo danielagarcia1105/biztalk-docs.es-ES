@@ -1,14 +1,14 @@
 ---
 title: Utilice los contadores de rendimiento con el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae381b78-d89e-4cf2-810b-821e49422463
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965522"
 ---
 # <a name="use-performance-counters-with-the-sql-adapter"></a><span data-ttu-id="8677d-102">Utilice los contadores de rendimiento con el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="8677d-102">Use Performance Counters with the SQL adapter</span></span>
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]<span data-ttu-id="8677d-103">los clientes pueden utilizar los contadores de rendimiento para medir el rendimiento de los adaptadores.</span><span class="sxs-lookup"><span data-stu-id="8677d-103"> clients can use the performance counters to gauge the performance of the adapters.</span></span> <span data-ttu-id="8677d-104">El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] programa de instalación crea la categoría de contador de rendimiento "[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]" junto con la instalación del Adapter Pack.</span><span class="sxs-lookup"><span data-stu-id="8677d-104">The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category "[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]" along with the Adapter Pack installation.</span></span>  

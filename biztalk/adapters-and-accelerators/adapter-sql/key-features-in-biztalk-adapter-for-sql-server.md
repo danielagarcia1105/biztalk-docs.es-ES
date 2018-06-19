@@ -1,14 +1,14 @@
 ---
-title: "La clave de características en el adaptador de BizTalk para SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: La clave de características en el adaptador de BizTalk para SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6beab8d-c2c4-4add-860c-054b9aed8d70
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967826"
 ---
 # <a name="key-features-in-biztalk-adapter-for-sql-server"></a><span data-ttu-id="14a49-102">Características clave en el adaptador de BizTalk para SQL Server</span><span class="sxs-lookup"><span data-stu-id="14a49-102">Key features in BizTalk Adapter for SQL Server</span></span>
 <span data-ttu-id="14a49-103">Esta sección enumeran las características de [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span><span class="sxs-lookup"><span data-stu-id="14a49-103">This section lists the features in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span></span>  

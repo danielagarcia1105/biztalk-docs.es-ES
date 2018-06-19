@@ -1,18 +1,18 @@
 ---
 title: 'Paso 2: Definir y publicar el vocabulario de Contoso | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - vocabularies, creating
 - vocabularies, publishing
 - private process tutorial, creating vocabularies
 ms.assetid: e23880c0-772c-48c6-a6b5-32eb951527c8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211092"
 ---
 # <a name="step-2-defining-and-publishing-the-vocabulary-for-contoso"></a><span data-ttu-id="da032-102">Paso 2: Definir y publicar el vocabulario de Contoso</span><span class="sxs-lookup"><span data-stu-id="da032-102">Step 2: Defining and Publishing the Vocabulary for Contoso</span></span>
 <span data-ttu-id="da032-103">En este escenario, Contoso implementa una directiva empresarial que se asegura de que el inventario está siempre disponible si se produce una emergencia.</span><span class="sxs-lookup"><span data-stu-id="da032-103">In this scenario, Contoso implements a business policy that makes sure that inventory is always on hand if an emergency occurs.</span></span> <span data-ttu-id="da032-104">Crear directivas de negocio mediante el Compositor de reglas de negocios en [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="da032-104">You create business policies using the Business Rule Composer in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="da032-105">En este paso, creará el vocabulario que se va a usar al definir la directiva empresarial.</span><span class="sxs-lookup"><span data-stu-id="da032-105">In this step, you create the vocabulary to use when you define the business policy.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-define-a-constant-vocabulary-value"></a><span data-ttu-id="da032-111">Para definir un valor constante de vocabulario</span><span class="sxs-lookup"><span data-stu-id="da032-111">To define a constant vocabulary value</span></span>  
   
-1.  <span data-ttu-id="da032-112">En el Compositor de reglas de negocio, haga clic en **3A2PriceAvailabilityVocabulary**, haga clic con el botón derecho en **Versión 1.0 (sin guardar)**y, a continuación, haga clic en **Agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="da032-112">In Business Rule Composer, click **3A2PriceAvailabilityVocabulary**, right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
+1.  <span data-ttu-id="da032-112">En el Compositor de reglas de negocio, haga clic en **3A2PriceAvailabilityVocabulary**, haga clic con el botón derecho en **Versión 1.0 (sin guardar)** y, a continuación, haga clic en **Agregar nueva definición**.</span><span class="sxs-lookup"><span data-stu-id="da032-112">In Business Rule Composer, click **3A2PriceAvailabilityVocabulary**, right-click **Version 1.0(not saved)**, and then click **Add New Definition**.</span></span>  
   
 2.  <span data-ttu-id="da032-113">En la página **Asistente para definición de vocabulario** , seleccione **Valor, rango de valores o conjunto de valores constantes**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="da032-113">On the **Vocabulary Definition Wizard** page, select **Constant Value, Range of Values, or Set of Values**, and then click **Next**.</span></span>  
   
@@ -59,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="da032-122">En la página **Atributo o elemento de documento XML** , en el cuadro **Tipo de documento** , asegúrese de que el valor es **ContosoPriceAndAvailability.ContosoPriceSchema.rootPriceResponse**.</span><span class="sxs-lookup"><span data-stu-id="da032-122">On the **XML Document Element or Attribute** page, in the **Document Type** box, ensure that the value is **ContosoPriceAndAvailability.ContosoPriceSchema.rootPriceResponse**.</span></span>  
   
-7.  <span data-ttu-id="da032-123">En la sección **Seleccionar operación** , seleccione **Realizar operación "Get"**y, a continuación, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="da032-123">In the **Select operation** section, select **Perform "Get" Operation**, and then click **Finish**.</span></span>  
+7.  <span data-ttu-id="da032-123">En la sección **Seleccionar operación** , seleccione **Realizar operación "Get"** y, a continuación, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="da032-123">In the **Select operation** section, select **Perform "Get" Operation**, and then click **Finish**.</span></span>  
   
 ### <a name="to-define-an-xml-document-set-element"></a><span data-ttu-id="da032-124">Para definir un elemento "Set" de documento XML</span><span class="sxs-lookup"><span data-stu-id="da032-124">To define an XML document 'Set' element</span></span>  
   
@@ -75,7 +76,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="da032-131">En la página **Atributo o elemento de documento XML** , en el cuadro **Tipo de documento** , asegúrese de que el valor es **ContosoPriceAndAvailability.ContosoPriceSchema.rootPriceResponse**.</span><span class="sxs-lookup"><span data-stu-id="da032-131">On the **XML Document Element or Attribute** page, in the **Document Type** box, ensure that the value is **ContosoPriceAndAvailability.ContosoPriceSchema.rootPriceResponse**.</span></span>  
   
-7.  <span data-ttu-id="da032-132">En la sección **Seleccionar operación** , seleccione **Realizar operación "Set"**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="da032-132">In the **Select operation** section, select **Perform "Set" Operation**, and then click **Next**.</span></span>  
+7.  <span data-ttu-id="da032-132">En la sección **Seleccionar operación** , seleccione **Realizar operación "Set"** y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="da032-132">In the **Select operation** section, select **Perform "Set" Operation**, and then click **Next**.</span></span>  
   
 8.  <span data-ttu-id="da032-133">En la página **Especificar el nombre para mostrar** , haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="da032-133">In the **Specify the Display Name** page, click **Finish**.</span></span>  
   

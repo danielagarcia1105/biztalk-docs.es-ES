@@ -1,18 +1,18 @@
 ---
-title: "Paso 17: Crear la aplicación WSClient | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 17: Crear la aplicación WSClient | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WSClient application
 - message enrichment tutorial, WSClient application
 - creating, WSClient application
 ms.assetid: 2849cd4c-30d0-47ab-8161-fab379d5a548
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960874"
 ---
 # <a name="step-17-create-the-wsclient-application"></a><span data-ttu-id="91c9f-102">Paso 17: Crear la aplicación WSClient</span><span class="sxs-lookup"><span data-stu-id="91c9f-102">Step 17: Create the WSClient Application</span></span>
 <span data-ttu-id="91c9f-103">WSClient.exe (cliente de servicios Web) es una aplicación de consola escrita en [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] que muestra cómo enviar datos a la orquestación que se publicó como un servicio Web en los pasos anteriores.</span><span class="sxs-lookup"><span data-stu-id="91c9f-103">WSClient.exe (Web service client) is a console application written in [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] that illustrates how to send data to the orchestration that you published as a Web service in the previous steps.</span></span> <span data-ttu-id="91c9f-104">La aplicación WSClient acepta cuatro parámetros en orden de entrada: nombre del paciente primero, segundo nombre, apellido y número del seguro social, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="91c9f-104">The WSClient application accepts four input parameters in order: patient first name, middle name, last name, and social security number, respectively.</span></span> <span data-ttu-id="91c9f-105">Para enviar la información del paciente a su servicio Web, use la siguiente sintaxis de línea de comandos:</span><span class="sxs-lookup"><span data-stu-id="91c9f-105">To send patient information to your Web service, use the following command line syntax:</span></span>  

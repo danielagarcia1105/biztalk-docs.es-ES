@@ -1,14 +1,14 @@
 ---
 title: Ejecutar operaciones compuestas en la base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf47d95e-cdf1-4c9b-a15a-7cf123d0ea6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962666"
 ---
 # <a name="run-composite-operations-on-oracle-database-using-biztalk-server"></a><span data-ttu-id="e144d-102">Ejecutar operaciones compuestas en la base de datos de Oracle mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e144d-102">Run Composite Operations on Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="e144d-103">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] permite a los clientes de adaptador realizar operaciones compuestas en base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="e144d-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables adapter clients to perform composite operations on Oracle database.</span></span> <span data-ttu-id="e144d-104">Puede incluir una operación compuesta:</span><span class="sxs-lookup"><span data-stu-id="e144d-104">A composite operation can include:</span></span>  

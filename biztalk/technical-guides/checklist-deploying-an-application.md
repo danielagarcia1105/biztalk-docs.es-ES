@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Implementar una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Implementar una aplicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5e699ac3-7998-48d6-96b7-2f8f1a3d52e5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299860"
 ---
 # <a name="checklist-deploying-an-application"></a><span data-ttu-id="14768-102">Lista de comprobación: Implementar una aplicación</span><span class="sxs-lookup"><span data-stu-id="14768-102">Checklist: Deploying an Application</span></span>
 <span data-ttu-id="14768-103">En este tema se describe los pasos necesarios para implementar una aplicación de BizTalk y sus artefactos en un entorno de producción.</span><span class="sxs-lookup"><span data-stu-id="14768-103">This topic describes the steps involved in deploying a BizTalk application and its artifacts in a production environment.</span></span> <span data-ttu-id="14768-104">Muestra cómo implementar una aplicación en el entorno de desarrollo, exportarlo a un archivo .msi y, a continuación, importarlo en el entorno de producción desde el archivo MSI.</span><span class="sxs-lookup"><span data-stu-id="14768-104">It demonstrates how to deploy an application in the development environment, export it into an .msi file, and then import it into the production environment from the .msi file.</span></span>  

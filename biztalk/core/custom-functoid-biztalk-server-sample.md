@@ -1,11 +1,11 @@
 ---
 title: Functoid personalizado (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, customizing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML tools
 - examples, XML tools
 ms.assetid: 9f1eb260-ff62-46f5-a517-57f4e9172b35
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970522"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a><span data-ttu-id="fa0e4-102">Functoid personalizado (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fa0e4-102">Custom Functoid (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fa0e4-103">El ejemplo de functoid personalizado muestra cómo escribir un functoid personalizado para el asignador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="fa0e4-103">The Custom Functoid sample demonstrates how to write a custom functoid for BizTalk Mapper.</span></span> <span data-ttu-id="fa0e4-104">Puede agregar el functoid al cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="fa0e4-104">You can add the functoid to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.</span></span> <span data-ttu-id="fa0e4-105">El functoid se mostrará en el cuadro de herramientas cuando el asignador de BizTalk esté en el foco.</span><span class="sxs-lookup"><span data-stu-id="fa0e4-105">The functoid will be displayed in the Toolbox when BizTalk Mapper is in focus.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="fa0e4-119">Si reutiliza el código de ejemplo del functoid personalizado para implementar su propio functoid, debe asegurarse de cambiar el atributo de GUID a uno que sea único.</span><span class="sxs-lookup"><span data-stu-id="fa0e4-119">If you reuse the Custom Functoid sample code to implement your own functoid(s), you must be sure to change the GUID attribute to one that is unique.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="fa0e4-120">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="fa0e4-120">Where to Find This Sample</span></span>  
- <span data-ttu-id="fa0e4-121">*\<Ejemplos de ruta de acceso\>*\XmlTools\CustomFunctoid</span><span class="sxs-lookup"><span data-stu-id="fa0e4-121">*\<Samples Path\>*\XmlTools\CustomFunctoid</span></span>  
+ <span data-ttu-id="fa0e4-121">*\<Ejemplos de ruta de acceso\>* \XmlTools\CustomFunctoid</span><span class="sxs-lookup"><span data-stu-id="fa0e4-121">*\<Samples Path\>* \XmlTools\CustomFunctoid</span></span>  
   
  <span data-ttu-id="fa0e4-122">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="fa0e4-122">The following table shows the files in this sample and describes their purpose.</span></span>  
   

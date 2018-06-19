@@ -1,15 +1,15 @@
 ---
 title: Usar propiedades de contexto del mensaje de TIBCO EMS | Documentos de Microsoft
-description: "Utilice los campos de descriptor de mensajes de TIBCO Enterprise Message System en una orquestación de BizTalk Server"
-ms.custom: 
+description: Utilice los campos de descriptor de mensajes de TIBCO Enterprise Message System en una orquestación de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 163ac2cf-0e2d-4780-b398-baa825f92b00
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970442"
 ---
 # <a name="message-context-properties-in-tibco-ems"></a><span data-ttu-id="b546d-103">Propiedades de contexto de mensaje de TIBCO EMS</span><span class="sxs-lookup"><span data-stu-id="b546d-103">Message Context Properties in TIBCO EMS</span></span>
 

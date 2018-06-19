@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962098"
 ---
 # <a name="mllp-transport-properties-dialog-box-ui-help"></a><span data-ttu-id="d4207-102">Ayuda de interfaz de usuario de cuadro de cuadro de diálogo Propiedades de transporte MLLP</span><span class="sxs-lookup"><span data-stu-id="d4207-102">MLLP Transport Properties Dialog Box UI Help</span></span>
 <span data-ttu-id="d4207-103">Usa el **propiedades de transporte de MLLP** cuadro de diálogo para configurar los parámetros de envío y recepción de adaptadores de protocolo de nivel inferior mínimo (MLLP).</span><span class="sxs-lookup"><span data-stu-id="d4207-103">You use the **MLLP Transport Properties** dialog box to configure parameters for send and receive Minimal Lower Layer Protocol (MLLP) adapters.</span></span> <span data-ttu-id="d4207-104">Puede definir los parámetros de conexión de red en las propiedades de transporte de MLLP para un puerto de envío o ubicación de recepción mediante el tipo de transporte MLLP.</span><span class="sxs-lookup"><span data-stu-id="d4207-104">You can set the network connection parameters in the MLLP Transport Properties for either a send port or receive location using the MLLP transport type.</span></span>  

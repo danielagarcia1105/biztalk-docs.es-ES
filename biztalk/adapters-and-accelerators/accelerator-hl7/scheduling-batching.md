@@ -1,17 +1,17 @@
 ---
 title: Programar el procesamiento por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, scheduling
 - scheduling batching
 ms.assetid: 037626f1-1b3b-43e6-80eb-5fb900cdbd46
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961538"
 ---
 # <a name="scheduling-batching"></a><span data-ttu-id="1243f-102">Programar el procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="1243f-102">Scheduling Batching</span></span>
 <span data-ttu-id="1243f-103">Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Explorador de configuración para activar, solicitar o finalizar un lote saliente.</span><span class="sxs-lookup"><span data-stu-id="1243f-103">You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to activate, request, or terminate an outbound batch.</span></span> <span data-ttu-id="1243f-104">Activar un lote saliente consta de dos pasos: configurar basado en tiempo o mensaje de recuento de criterios y, a continuación, iniciar la orquestación de procesamiento por lotes saliente.</span><span class="sxs-lookup"><span data-stu-id="1243f-104">Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.</span></span>  

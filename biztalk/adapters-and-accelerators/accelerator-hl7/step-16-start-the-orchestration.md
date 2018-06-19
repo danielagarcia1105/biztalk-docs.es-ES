@@ -1,17 +1,17 @@
 ---
-title: "Paso 16: Iniciar la orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 16: Iniciar la orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, starting
 - message enrichment tutorial, orchestrations
 ms.assetid: a9032b0b-1497-4f6a-8474-a94c14976be0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206180"
 ---
 # <a name="step-16-start-the-orchestration"></a><span data-ttu-id="cb4ef-102">Paso 16: Iniciar la orquestación</span><span class="sxs-lookup"><span data-stu-id="cb4ef-102">Step 16: Start the Orchestration</span></span>
 <span data-ttu-id="cb4ef-103">En este paso, dé de alta el servicio con el fin de asociar el proceso empresarial que ha diseñado en la orquestación con el entorno físico en el que se ejecutará la orquestación.</span><span class="sxs-lookup"><span data-stu-id="cb4ef-103">In this step, you enlist the service in order to associate the business process that you designed in the orchestration with the physical environment in which the orchestration will run.</span></span> <span data-ttu-id="cb4ef-104">Además, iniciar el procesamiento de la orquestación para que pueda probar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="cb4ef-104">Additionally, you start the processing of the orchestration so that you can test your application.</span></span>  

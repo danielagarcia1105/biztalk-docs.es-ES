@@ -1,14 +1,14 @@
 ---
 title: Instalar BizTalk Server 2016 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f5ac913-0734-45b2-8e25-1db146d81858
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299980"
 ---
 # <a name="install-biztalk-server-2016"></a><span data-ttu-id="c590d-102">Instalar BizTalk Server 2016</span><span class="sxs-lookup"><span data-stu-id="c590d-102">Install BizTalk Server 2016</span></span>
 <span data-ttu-id="c590d-103">Instale BizTalk Server en un solo equipo.</span><span class="sxs-lookup"><span data-stu-id="c590d-103">Install BizTalk Server on a single computer.</span></span>

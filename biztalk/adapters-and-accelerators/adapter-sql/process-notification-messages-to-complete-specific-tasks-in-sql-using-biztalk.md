@@ -1,14 +1,14 @@
 ---
-title: "Procesar mensajes de notificación para completar tareas específicas en SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Procesar mensajes de notificación para completar tareas específicas en SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8538cb89-1cca-45ad-b6f4-041e117963ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967346"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk-server"></a><span data-ttu-id="052a4-102">Procesar los mensajes de notificación para completar tareas específicas en SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="052a4-102">Process notification messages to complete specific tasks in SQL using BizTalk Server</span></span>
 <span data-ttu-id="052a4-103">Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir notificaciones de cambios en las tablas de base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="052a4-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications for changes to SQL Server database tables.</span></span> <span data-ttu-id="052a4-104">Sin embargo, el adaptador sólo envía una notificación de que algunos registros se insertarlos, actualizarlos o eliminan en una tabla de base de datos determinada.</span><span class="sxs-lookup"><span data-stu-id="052a4-104">However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table.</span></span> <span data-ttu-id="052a4-105">Cualquier procesamiento posterior en esos registros debe controlarse las propias aplicaciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="052a4-105">Any post-processing on those records must be handled by the client applications themselves.</span></span> <span data-ttu-id="052a4-106">En este tema se presenta una descripción basada en escenario sobre cómo procesar los registros de la tabla en función del tipo de notificación recibida de la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="052a4-106">This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the SQL Server database.</span></span>  

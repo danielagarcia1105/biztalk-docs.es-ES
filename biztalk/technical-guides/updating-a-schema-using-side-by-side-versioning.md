@@ -1,14 +1,14 @@
 ---
 title: Actualizar un esquema mediante el control de versiones en paralelo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7360ec5-b5e9-40c7-9a7c-965fcc95ddb0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302244"
 ---
 # <a name="updating-a-schema-using-side-by-side-versioning"></a><span data-ttu-id="9dc56-102">Actualizar un esquema mediante el control de versiones en paralelo</span><span class="sxs-lookup"><span data-stu-id="9dc56-102">Updating a Schema Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="9dc56-103">Puede realizar el control de versiones en paralelo con esquemas.</span><span class="sxs-lookup"><span data-stu-id="9dc56-103">You can perform side-by-side versioning with schemas.</span></span> <span data-ttu-id="9dc56-104">Hacerlo agregando una nueva versión del esquema a un ensamblado, actualizar la versión del esquema, dejando el esquema existente (y su versión) sin modificar.</span><span class="sxs-lookup"><span data-stu-id="9dc56-104">You do so by adding a new version of the schema to an assembly, upgrading the version of the schema, while leaving the existing schema (and its version) unchanged.</span></span>  

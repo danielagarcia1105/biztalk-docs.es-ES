@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 1a32564f9e0e9e81624b39ab0ba156e76b109497
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014043"
 ---
 # <a name="setting-tibco-enterprise-message-service-transport-properties-for-the-receive-port"></a><span data-ttu-id="6612d-101">Establecimiento de propiedades de transporte de TIBCO Enterprise Message Service para el puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="6612d-101">Setting TIBCO Enterprise Message Service Transport Properties for the Receive Port</span></span>
 <span data-ttu-id="6612d-102">Ubicación de recepción para un sistema TIBCO Enterprise Message (EMS) la **URL** y **Target Namespace** para el sistema TIBCO EMS son los únicos valores de configuración necesarios.</span><span class="sxs-lookup"><span data-stu-id="6612d-102">For a TIBCO Enterprise Message System (EMS) receive location, the **URL** and **Target Namespace** to the TIBCO EMS System are the only configuration values required.</span></span>  

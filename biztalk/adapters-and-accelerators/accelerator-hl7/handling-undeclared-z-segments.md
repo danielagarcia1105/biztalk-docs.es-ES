@@ -1,11 +1,11 @@
 ---
 title: Control de segmentos de Z no declarado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Z segments, 2.X schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - segments, undeclared [Z objects]
 - Z objects, undeclared segments
 ms.assetid: 8878bc93-1833-4bfc-b80e-305e4144739e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204676"
 ---
 # <a name="handling-undeclared-z-segments"></a><span data-ttu-id="706be-102">Control de segmentos de Z no declarado</span><span class="sxs-lookup"><span data-stu-id="706be-102">Handling Undeclared Z Segments</span></span>
 <span data-ttu-id="706be-103">Hay dos tipos de segmentos de Z: declara segmentos de Z y Z no declarado.</span><span class="sxs-lookup"><span data-stu-id="706be-103">There are two types of Z segments: declared Z segments and undeclared Z segments.</span></span> <span data-ttu-id="706be-104">Mientras que son similares en cuanto utilizarlos para propósitos locales, son muy diferentes en cómo usarlos.</span><span class="sxs-lookup"><span data-stu-id="706be-104">While they are similar in that you use them for local purposes, they are very different in how you use them.</span></span>  

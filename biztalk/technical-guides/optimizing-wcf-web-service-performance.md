@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento del servicio Web WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93947cef-469c-4126-85a5-06456fa37443
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,12 +17,13 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299420"
 ---
 # <a name="optimizing-wcf-web-service-performance"></a><span data-ttu-id="722bf-102">Optimizar el rendimiento del servicio Web WCF</span><span class="sxs-lookup"><span data-stu-id="722bf-102">Optimizing WCF Web Service Performance</span></span>
 <span data-ttu-id="722bf-103">Los servicios WCF exponen numerosos parámetros de configuración que afectan al rendimiento.</span><span class="sxs-lookup"><span data-stu-id="722bf-103">WCF services expose numerous configuration parameters that affect performance.</span></span> <span data-ttu-id="722bf-104">En este tema se proporciona instrucciones generales para establecer el valor óptimo para estos parámetros de configuración mejorar el rendimiento de los servicios WCF.</span><span class="sxs-lookup"><span data-stu-id="722bf-104">This topic provides general guidance for setting optimal values for these configuration parameters to improve performance of WCF services.</span></span>  
   
 ## <a name="implement-servicethrottling-behavior-for-backend-wcf-services"></a><span data-ttu-id="722bf-105">Implementar el comportamiento de serviceThrottling para los servicios WCF back-end</span><span class="sxs-lookup"><span data-stu-id="722bf-105">Implement serviceThrottling behavior for backend WCF services</span></span>  
- <span data-ttu-id="722bf-106">Implementar el comportamiento de serviceThrottling para los servicios WCF back-end.</span><span class="sxs-lookup"><span data-stu-id="722bf-106">Implement serviceThrottling behavior for backend WCF services.</span></span> <span data-ttu-id="722bf-107">Servicio limitación permite nivelar la carga en los servidores WCF back-end y para exigir la asignación de recursos.</span><span class="sxs-lookup"><span data-stu-id="722bf-107">Service throttling allows you to even out the load on your backend WCF servers and to enforce resource allocation.</span></span> <span data-ttu-id="722bf-108">comportamiento de serviceThrottling para los servicios WCF back-end se configura mediante la modificación de los valores de la **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** parámetros en el archivo de configuración para el servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="722bf-108">serviceThrottling behavior for backend WCF services is configured by modifying the values for the **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** parameters in the config file for the WCF service.</span></span> <span data-ttu-id="722bf-109">Establecer **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** en un valor mayor que 16 * el número de CPU o más CPU núcleos.</span><span class="sxs-lookup"><span data-stu-id="722bf-109">Set **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** to a value greater than 16 * the number of CPUs or CPU cores.</span></span> <span data-ttu-id="722bf-110">Por ejemplo, en un equipo con 8 núcleos de CPU, establezca **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** en un valor superior a 128 (16 * 8 = 128) como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="722bf-110">For example, on a computer with 8 CPU cores, set **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** to a value greater than 128 (16 * 8 = 128) as follows:</span></span>  
+ <span data-ttu-id="722bf-106">Implementar el comportamiento de serviceThrottling para los servicios WCF back-end.</span><span class="sxs-lookup"><span data-stu-id="722bf-106">Implement serviceThrottling behavior for backend WCF services.</span></span> <span data-ttu-id="722bf-107">Servicio limitación permite nivelar la carga en los servidores WCF back-end y para exigir la asignación de recursos.</span><span class="sxs-lookup"><span data-stu-id="722bf-107">Service throttling allows you to even out the load on your backend WCF servers and to enforce resource allocation.</span></span> <span data-ttu-id="722bf-108">comportamiento de serviceThrottling para los servicios WCF back-end se configura mediante la modificación de los valores de la **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** parámetros en el archivo de configuración para el servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="722bf-108">serviceThrottling behavior for backend WCF services is configured by modifying the values for the **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** parameters in the config file for the WCF service.</span></span> <span data-ttu-id="722bf-109">Establecer **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** en un valor mayor que 16 \* el número de CPU o más CPU núcleos.</span><span class="sxs-lookup"><span data-stu-id="722bf-109">Set **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** to a value greater than 16 \* the number of CPUs or CPU cores.</span></span> <span data-ttu-id="722bf-110">Por ejemplo, en un equipo con 8 núcleos de CPU, establezca **maxConcurrentCalls**, **maxConcurrentSessions**, y **maxConcurrentInstances** en un valor superior a 128 (16 \* 8 = 128) como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="722bf-110">For example, on a computer with 8 CPU cores, set **maxConcurrentCalls**, **maxConcurrentSessions**, and **maxConcurrentInstances** to a value greater than 128 (16 \* 8 = 128) as follows:</span></span>  
   
 ```  
 <serviceThrottling  

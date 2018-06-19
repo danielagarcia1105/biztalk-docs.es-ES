@@ -1,14 +1,14 @@
 ---
-title: "Planeación para consumir servicios Web | Documentos de Microsoft"
-ms.custom: 
+title: Planeación para consumir servicios Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24863069-929b-4b0b-9643-073965fb5532
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302276"
 ---
 # <a name="planning-for-consuming-web-services"></a><span data-ttu-id="5fbbc-102">Planeación de consumo de servicios Web</span><span class="sxs-lookup"><span data-stu-id="5fbbc-102">Planning for Consuming Web Services</span></span>
 <span data-ttu-id="5fbbc-103">Planeación de servicios Web puede dividirse en dos categorías, planificación de publicación de servicios Web y para consumir servicios Web.</span><span class="sxs-lookup"><span data-stu-id="5fbbc-103">Planning for Web services can be divided into two categories, planning for publishing Web services and planning for consuming Web services.</span></span> <span data-ttu-id="5fbbc-104">En este tema se describe las consideraciones para consumir servicios Web.</span><span class="sxs-lookup"><span data-stu-id="5fbbc-104">This topic describes the considerations for consuming Web services.</span></span> <span data-ttu-id="5fbbc-105">Para obtener información acerca de la publicación de servicios Web, consulte [planeación de publicación de Web de Services1](../technical-guides/planning-for-publishing-web-services1.md).</span><span class="sxs-lookup"><span data-stu-id="5fbbc-105">For information about publishing Web services, see [Planning for Publishing Web Services1](../technical-guides/planning-for-publishing-web-services1.md).</span></span>  

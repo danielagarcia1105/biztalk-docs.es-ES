@@ -1,14 +1,14 @@
 ---
-title: "Recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: Recuperación ante desastres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eefb036b-7254-407d-a203-66708c07f67d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301940"
 ---
 # <a name="recovering-from-a-disaster"></a><span data-ttu-id="44892-102">Recuperarse de un desastre</span><span class="sxs-lookup"><span data-stu-id="44892-102">Recovering from a Disaster</span></span>
 <span data-ttu-id="44892-103">En esta sección se detalla los pasos para transferir las operaciones de producción en el sitio de recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="44892-103">This section details the steps to transfer production operations to the disaster recovery site.</span></span> <span data-ttu-id="44892-104">Para los fines de esta sección, el sistema de producción en línea se conoce como el sistema de "origen".</span><span class="sxs-lookup"><span data-stu-id="44892-104">For the purposes of this section, the online production system is referred to as the “source” system.</span></span> <span data-ttu-id="44892-105">El sitio de recuperación ante desastres se conoce como el sistema de "destino".</span><span class="sxs-lookup"><span data-stu-id="44892-105">The disaster recovery site is referred to as the “destination” system.</span></span> <span data-ttu-id="44892-106">Esta sección proporciona información general del proceso de recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="44892-106">This section provides an overview of the disaster recovery process.</span></span>  

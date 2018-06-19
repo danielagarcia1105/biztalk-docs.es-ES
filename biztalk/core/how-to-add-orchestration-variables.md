@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968834"
 ---
 # <a name="how-to-add-orchestration-variables"></a><span data-ttu-id="e5b1a-102">Cómo agregar variables de orquestación</span><span class="sxs-lookup"><span data-stu-id="e5b1a-102">How to Add Orchestration Variables</span></span>
 <span data-ttu-id="e5b1a-103">La ventana Vista orquestación permite administrar las propiedades de una orquestación (también conocido como **servicio** propiedades), parámetros, puertos, mensajes y otras variables.</span><span class="sxs-lookup"><span data-stu-id="e5b1a-103">The Orchestration View window enables you to manage an orchestration's properties (also known as **Service** properties), parameters, ports, messages, and other variables.</span></span> <span data-ttu-id="e5b1a-104">Además de los puertos y mensajes, puede crear variables de tipo entero, variables booleanas, variables de cadena o variables de una clase .NET.</span><span class="sxs-lookup"><span data-stu-id="e5b1a-104">In addition to ports and messages, you can create integer variables, Boolean variables, string variables, or variables of a .NET class.</span></span>  

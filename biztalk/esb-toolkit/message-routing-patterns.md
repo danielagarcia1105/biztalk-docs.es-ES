@@ -1,14 +1,14 @@
 ---
 title: Patrones de enrutamientos de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d95c5ba0-122f-4793-bfce-a95830dfe094
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296892"
 ---
 # <a name="message-routing-patterns"></a><span data-ttu-id="970c1-102">Patrones de enrutamiento de mensajes</span><span class="sxs-lookup"><span data-stu-id="970c1-102">Message Routing Patterns</span></span>
 <span data-ttu-id="970c1-103">Patrones de enrutamiento de mensajes definen directrices comprobadas para enrutar un mensaje a su punto de conexión de destino.</span><span class="sxs-lookup"><span data-stu-id="970c1-103">Message routing patterns define proven guidelines for routing a message to its target endpoint(s).</span></span> <span data-ttu-id="970c1-104">Enrutamiento puede ser el resultado de una configuración estática, o pueden configurarse dinámicamente en función de una serie de criterios y usando una serie de métodos.</span><span class="sxs-lookup"><span data-stu-id="970c1-104">Routing can be the result of static configuration, or it can be dynamically configured based on a number of criteria and using a number of methods.</span></span>  

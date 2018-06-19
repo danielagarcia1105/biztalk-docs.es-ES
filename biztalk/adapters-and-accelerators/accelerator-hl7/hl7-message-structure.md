@@ -1,11 +1,11 @@
 ---
 title: HL7 Estructura de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, segments
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - segments, messages
 - messages, message structure
 ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205092"
 ---
 # <a name="hl7-message-structure"></a><span data-ttu-id="1881b-102">HL7 Estructura de los mensajes</span><span class="sxs-lookup"><span data-stu-id="1881b-102">HL7 Message Structure</span></span>
 <span data-ttu-id="1881b-103">Un mensaje de HL7 es una estructura jerárquica asociada a un evento de desencadenador.</span><span class="sxs-lookup"><span data-stu-id="1881b-103">An HL7 message is a hierarchical structure associated with a trigger event.</span></span> <span data-ttu-id="1881b-104">El estándar HL7 define los eventos de desencadenador como "un evento en el mundo real de atención médica (es) crea la necesidad de los datos fluyan entre los sistemas".</span><span class="sxs-lookup"><span data-stu-id="1881b-104">The HL7 standard defines trigger event as "an event in the real world of health care (that) creates the need for data to flow among systems".</span></span> <span data-ttu-id="1881b-105">Cada evento de desencadenador está asociado a un mensaje abstracto que define el tipo de datos que el mensaje debe admitir el evento de desencadenador.</span><span class="sxs-lookup"><span data-stu-id="1881b-105">Each trigger event is associated with an abstract message that defines the type of data that the message needs to support the trigger event.</span></span> <span data-ttu-id="1881b-106">El mensaje abstracto es una colección de segmentos e incluye las reglas de inclusión para dichos segmentos y de repetición.</span><span class="sxs-lookup"><span data-stu-id="1881b-106">The abstract message is a collection of segments, and includes the rules of repetition and inclusion for those segments.</span></span> <span data-ttu-id="1881b-107">En la tabla siguiente se muestra un ejemplo de un mensaje abstracto asociado al evento de desencadenador A04: registrar paciente.</span><span class="sxs-lookup"><span data-stu-id="1881b-107">The following table shows an example of an abstract message associated with the trigger event A04 – Register Patient.</span></span>  

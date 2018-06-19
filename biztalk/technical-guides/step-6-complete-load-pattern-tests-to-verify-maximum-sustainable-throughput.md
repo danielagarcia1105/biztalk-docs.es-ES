@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Realizar pruebas de modelo de carga constante para comprobar el rendimiento máximo sostenible | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Realizar pruebas de modelo de carga constante para comprobar el rendimiento máximo sostenible | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd790354-be9f-4278-bd15-493eac8970c9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302100"
 ---
 # <a name="step-6-perform-constant-load-pattern-tests-to-verify-maximum-sustainable-throughput"></a><span data-ttu-id="c3424-102">Paso 6: Realizar pruebas de modelo de carga constante para comprobar el rendimiento máximo sostenible</span><span class="sxs-lookup"><span data-stu-id="c3424-102">Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput</span></span>
 <span data-ttu-id="c3424-103">Cuando carga probando una solución de BizTalk Server mediante Visual Studio 2010, una prueba del modelo de carga constante debe realizarse una vez que el aproximado máxima sostenible rendimiento (MST) de la solución se determina como se describe en [paso 5: realizar la carga por pasos Pruebas para determinar el rendimiento máximo sostenible de patrón](../technical-guides/step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md).</span><span class="sxs-lookup"><span data-stu-id="c3424-103">When load testing a BizTalk Server solution using Visual Studio 2010, a constant load pattern test should be performed once the approximate Maximum Sustainable Throughput (MST) of the solution is determined as described in [Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput](../technical-guides/step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md).</span></span> <span data-ttu-id="c3424-104">Esto debe hacerse para confirmar que el MST de hecho es sostenible con el tiempo y también con el fin de crear una prueba de carga de la línea de base avanzando evaluar los efectos de los ajustes de rendimiento aplicado a la aplicación de BizTalk Server o el entorno.</span><span class="sxs-lookup"><span data-stu-id="c3424-104">This should be done to confirm that the MST is in fact sustainable over time and also so as to create a baseline load test moving forward to evaluate the effects of any performance tuning applied to the BizTalk Server application or environment.</span></span>  

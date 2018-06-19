@@ -1,15 +1,15 @@
 ---
-title: "Esquemas de recepción y procesar los eventos con el adaptador de TIBCO Rendezvous | Documentos de Microsoft"
-description: "Trabajar con esquemas de TIBCO Rendezvous en el lado de recepción y procesamiento de eventos con el adaptador de BizTalk para TIBCO Rendezvous en BizTalk"
-ms.custom: 
+title: Esquemas de recepción y procesar los eventos con el adaptador de TIBCO Rendezvous | Documentos de Microsoft
+description: Trabajar con esquemas de TIBCO Rendezvous en el lado de recepción y procesamiento de eventos con el adaptador de BizTalk para TIBCO Rendezvous en BizTalk
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 26cb20f9-4d26-48f6-a5e9-a51348a56538
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014099"
 ---
 # <a name="using-tibco-rendezvous-receive-ports-from-biztalk-server"></a><span data-ttu-id="b2521-103">Uso de puertos de recepción TIBCO Rendezvous desde BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="b2521-103">Using TIBCO Rendezvous Receive Ports from BizTalk Server</span></span>
 

@@ -1,11 +1,11 @@
 ---
-title: "Ejecutar una operación Insert en la base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar una operación Insert en la base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - inserting data, using a channel
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - channel programming, performing an insert operation
 - performing an insert operation, using a channel
 ms.assetid: 85c44507-0166-42ef-a908-6098f7a683fc
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963322"
 ---
 # <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="b9200-102">Ejecutar una operación Insert en la base de datos de Oracle mediante el modelo de canal de WCF</span><span class="sxs-lookup"><span data-stu-id="b9200-102">Run an Insert Operation in Oracle Database using the WCF Channel Model</span></span>
 <span data-ttu-id="b9200-103">Esta sección muestra cómo insertar un registro en una base de datos de Oracle mediante el uso de un canal.</span><span class="sxs-lookup"><span data-stu-id="b9200-103">This section shows how to insert a record into an Oracle database by using a channel.</span></span> <span data-ttu-id="b9200-104">Debe especificar un cuerpo del mensaje y una acción de mensaje cuando se envía un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b9200-104">You must specify both a message body and a message action when you send a message.</span></span>  

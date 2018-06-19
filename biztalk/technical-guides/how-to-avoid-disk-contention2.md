@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37bdf6bd-cb34-4540-819e-908d83a22d40
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22298140"
 ---
 # <a name="how-to-avoid-disk-contention"></a><span data-ttu-id="b2aca-102">Cómo evitar la contención del disco</span><span class="sxs-lookup"><span data-stu-id="b2aca-102">How to Avoid Disk Contention</span></span>
 <span data-ttu-id="b2aca-103">BizTalk Server está diseñado como un sistema permanente.</span><span class="sxs-lookup"><span data-stu-id="b2aca-103">BizTalk Server is designed as a persistent system.</span></span> <span data-ttu-id="b2aca-104">Para escenarios de alto rendimiento, las bases de datos de cuadro de mensaje y seguimiento de BizTalk pueden sufrir contenciones severas.</span><span class="sxs-lookup"><span data-stu-id="b2aca-104">For high throughput scenarios, the MessageBox and BizTalk Tracking databases can experience severe contention.</span></span> <span data-ttu-id="b2aca-105">Esta contención puede verse agravada por discos lentos.</span><span class="sxs-lookup"><span data-stu-id="b2aca-105">This contention can be aggravated by slow disks.</span></span> <span data-ttu-id="b2aca-106">Si los discos son lenta (mayor que 15 ms en promedio para el tiempo medio En segundos/lectura o AVG. En segundos/escritura en disco), es posible que SQL Server para almacenar bloqueos durante más tiempo (tiempo de espera de bloqueo de alta y alta tiempos de espera de bloqueo).</span><span class="sxs-lookup"><span data-stu-id="b2aca-106">If the disks are slow (greater than 15ms on average for Avg. Disk sec/Read or Avg. Disk sec/Write), it may cause SQL Server to hold onto locks longer (high Lock Wait Time and high Lock Timeouts).</span></span> <span data-ttu-id="b2aca-107">Esto, a su vez, puede producir las tablas de cuadro de mensajes (cola de impresión y colas de aplicaciones) a crecer, provocando inundación de base de datos y la limitación.</span><span class="sxs-lookup"><span data-stu-id="b2aca-107">This, in turn, can cause the MessageBox tables (Spool and Application Queues) to grow, causing database bloat and throttling.</span></span> <span data-ttu-id="b2aca-108">Esta situación se produce en última instancia en el rendimiento global sostenible inferior.</span><span class="sxs-lookup"><span data-stu-id="b2aca-108">This situation ultimately results in lower overall sustainable throughput.</span></span>  

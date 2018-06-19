@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be248a05-e740-497a-b112-8ba3a57b020b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206148"
 ---
 # <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a><span data-ttu-id="2f00e-102">Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción</span><span class="sxs-lookup"><span data-stu-id="2f00e-102">Step 1: Configure and Enable the BatchControlPort Receive Port</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="2f00e-103">Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) el programa de instalación crea un puerto de recepción, el puerto el control de proceso por lotes, para controlar los mensajes que la orquestación del lote que se usa para iniciar, lotes de detención y el tiempo.</span><span class="sxs-lookup"><span data-stu-id="2f00e-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) setup creates a receive port, the batch control port, to handle the messages that the batch orchestration uses to start, stop, and time batches.</span></span> <span data-ttu-id="2f00e-104">Estos mensajes incluyen la activación de lotes, terminación de lotes y mensajes de temporizador de lote.</span><span class="sxs-lookup"><span data-stu-id="2f00e-104">These messages include the batch activation, batch termination, and batch timer messages.</span></span> <span data-ttu-id="2f00e-105">En este paso, puede configura la canalización de recepción para el puerto de control de lote y habilitar el puerto.</span><span class="sxs-lookup"><span data-stu-id="2f00e-105">In this step, you configure the receive pipeline for the batch control port, and enable the port.</span></span>  

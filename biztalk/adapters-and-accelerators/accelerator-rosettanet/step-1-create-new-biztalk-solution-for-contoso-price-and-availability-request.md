@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210140"
 ---
 # <a name="step-1-creating-a-new-biztalk-solution-for-the-contoso-price-and-availability-request"></a><span data-ttu-id="80260-102">Paso 1: Crear una nueva solución de BizTalk para la solicitud de disponibilidad y el precio de Contoso</span><span class="sxs-lookup"><span data-stu-id="80260-102">Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request</span></span>
 <span data-ttu-id="80260-103">En este paso, creará un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solución para el proyecto de Contoso Price y solicitudes de disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="80260-103">In this step, you create a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solution for the Contoso Price and Availability Request project.</span></span> <span data-ttu-id="80260-104">Este proyecto contendrá los esquemas y asignaciones para las solicitudes y respuestas para los mensajes de precio y disponibilidad 3A2.</span><span class="sxs-lookup"><span data-stu-id="80260-104">This project will contain the schemas and maps for the requests and responses for the 3A2 Price and Availability messages.</span></span>  

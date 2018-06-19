@@ -1,14 +1,14 @@
 ---
-title: "Descripción de las operaciones del módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Descripción de las operaciones del módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 730afc03-8992-4e7d-8b47-b9b8edbec764
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302980"
 ---
 # <a name="understanding-management-pack-operations"></a><span data-ttu-id="b8aa3-102">Descripción de las operaciones del módulo de administración</span><span class="sxs-lookup"><span data-stu-id="b8aa3-102">Understanding Management Pack Operations</span></span>
 <span data-ttu-id="b8aa3-103">Las secciones siguientes describen los objetos que el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] detecta el módulo de administración, estado de las definiciones de supervisión, cómo se acumula el mantenimiento y escenarios clave para la supervisión de su entorno de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b8aa3-103">The following sections describe the objects that the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack discovers, state monitoring definitions, how health rolls up and key scenarios for monitoring your BizTalk Server environment.</span></span>  

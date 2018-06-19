@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de almacenamiento y reenvío de recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de almacenamiento y reenvío de recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11eeb335-366b-4b29-9078-de9396b258ca
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224476"
 ---
 # <a name="swift-receive-adapter-store-and-forward"></a><span data-ttu-id="28e29-102">Adaptador de almacenamiento y reenvío de recepción de SWIFT</span><span class="sxs-lookup"><span data-stu-id="28e29-102">SWIFT Receive Adapter Store and Forward</span></span>
 <span data-ttu-id="28e29-103">El adaptador de recepción recibe mensajes desde el almacén de SWIFT y reenviar cola (SnF).</span><span class="sxs-lookup"><span data-stu-id="28e29-103">The receive adapter receives messages from the SWIFT store and forward (SnF) queue.</span></span> <span data-ttu-id="28e29-104">Para recibir mensajes de la cola, el adaptador debe abrir una sesión con la cola de SnF.</span><span class="sxs-lookup"><span data-stu-id="28e29-104">To receive messages from the queue, the adapter must open a session with the SnF queue.</span></span> <span data-ttu-id="28e29-105">Para abrir la cola, debe tener un proceso de cliente dedicado que establece una sesión con la cola.</span><span class="sxs-lookup"><span data-stu-id="28e29-105">To open the queue, it must have a dedicated client process that establishes the session with the queue.</span></span> <span data-ttu-id="28e29-106">En el diseño, este proceso se implementa como una COM más componente fuera de proceso.</span><span class="sxs-lookup"><span data-stu-id="28e29-106">In the design, this process is implemented as a COM plus out-of-proc component.</span></span>  

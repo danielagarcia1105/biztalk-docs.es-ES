@@ -1,17 +1,17 @@
 ---
 title: Configurar el procesamiento por lotes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, configuring
 - configuring, batching
 ms.assetid: 33c72d5e-31dd-44a8-8418-1faab3239e8e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204572"
 ---
 # <a name="configuring-batching"></a><span data-ttu-id="c8612-102">Configurar el procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="c8612-102">Configuring Batching</span></span>
 <span data-ttu-id="c8612-103">Utiliza [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para crear el lote, el Explorador de configuración por lotes en / lote procesamiento por lotes y para seleccionar los esquemas disponibles para el procesamiento por lotes saliente.</span><span class="sxs-lookup"><span data-stu-id="c8612-103">You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to create batch, batch in/batch out batching, and to select available schemas for outbound batching.</span></span>  

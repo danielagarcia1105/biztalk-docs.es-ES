@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], replay files
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Password Synchronization [SSO], configuring
 - configuring, Password Synchronization [SSO]
 ms.assetid: 04000dfc-02b9-4d50-babe-8bc8a07a33b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968914"
 ---
 # <a name="how-to-configure-password-synchronization"></a><span data-ttu-id="d9b94-102">Cómo configurar la sincronización de contraseña</span><span class="sxs-lookup"><span data-stu-id="d9b94-102">How to Configure Password Synchronization</span></span>
 <span data-ttu-id="d9b94-103">La utilidad de línea de comandos SSOCONFIG se utiliza para establecer la configuración de la sincronización de contraseñas.</span><span class="sxs-lookup"><span data-stu-id="d9b94-103">Use the SSOCONFIG command line utility to configure your password synchronization settings.</span></span>  

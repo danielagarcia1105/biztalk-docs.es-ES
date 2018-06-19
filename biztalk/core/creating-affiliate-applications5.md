@@ -1,14 +1,14 @@
 ---
 title: Crear aplicaciones afiliadas para TIBCO EMS | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 191e5b56-dab9-4bf3-9f89-a900907d64e0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015291"
 ---
 # <a name="create-affiliate-applications"></a><span data-ttu-id="f8a49-102">Crear aplicaciones afiliadas</span><span class="sxs-lookup"><span data-stu-id="f8a49-102">Create Affiliate Applications</span></span>
 <span data-ttu-id="f8a49-103">En los pasos siguientes se describe cómo comenzar a usar aplicaciones afiliadas y el Inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="f8a49-103">The following steps describe how to start using affiliate applications and Single Sign-On (SSO).</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/07/2017
   
 3.  <span data-ttu-id="f8a49-111">Utilice los comandos del Inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="f8a49-111">Use the Enterprise Single Sign-On commands.</span></span> <span data-ttu-id="f8a49-112">Para obtener una lista de comandos, utilice la **-ayuda** cambiar.</span><span class="sxs-lookup"><span data-stu-id="f8a49-112">For a list of commands, use the **-help** switch.</span></span>  
   
-4.  <span data-ttu-id="f8a49-113">Para crear una aplicación afiliada utilizando un archivo *.XML como inicio, escriba el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="f8a49-113">To create the affiliate application by using *.XML as a start, type the following command:</span></span>  
+4.  <span data-ttu-id="f8a49-113">Para crear una aplicación afiliada utilizando un archivo \*.XML como inicio, escriba el siguiente comando:</span><span class="sxs-lookup"><span data-stu-id="f8a49-113">To create the affiliate application by using \*.XML as a start, type the following command:</span></span>  
   
      `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
   

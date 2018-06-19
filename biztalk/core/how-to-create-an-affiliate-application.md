@@ -12,7 +12,7 @@ helpviewer_keywords:
 - applications [SSO], creating
 - creating, applications [SSO]
 ms.assetid: d0967c4b-6201-416a-9d3a-23b5de5b83d6
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969026"
 ---
 # <a name="how-to-create-an-affiliate-application"></a><span data-ttu-id="2ee78-102">Cómo crear una aplicación afiliada</span><span class="sxs-lookup"><span data-stu-id="2ee78-102">How to Create an Affiliate Application</span></span>
 <span data-ttu-id="2ee78-103">Puede utilizar el Complemento MMC o este comando para crear una o más aplicaciones, como especificó el archivo XML.</span><span class="sxs-lookup"><span data-stu-id="2ee78-103">You can use the MMC Snap-In or this command to create one or more applications, as specified by the XML file.</span></span> <span data-ttu-id="2ee78-104">Un ejemplo de un archivo XML para SSO iniciado por Windows es:</span><span class="sxs-lookup"><span data-stu-id="2ee78-104">An example XML file for Windows Initiated SSO is:</span></span>  

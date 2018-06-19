@@ -1,17 +1,17 @@
 ---
 title: Ejecuta operaciones en tablas con tipos de datos de objetos grandes en la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, performing on tables
 - operations, performing on LOB data
 ms.assetid: 74276b85-daf1-4d0f-92f9-46d5c27a95a6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967850"
 ---
 # <a name="run-operations-on-tables-with-large-object-data-types-in-oracle-database"></a><span data-ttu-id="ee980-102">Ejecuta operaciones en tablas con tipos de datos de objetos grandes en la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="ee980-102">Run operations on tables with large object data types in Oracle Database</span></span>
 <span data-ttu-id="ee980-103">El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] proporciona compatibilidad para los tipos de datos de objetos grandes (LOB) de Oracle:</span><span class="sxs-lookup"><span data-stu-id="ee980-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides support for the Oracle large object (LOB) data types:</span></span>  

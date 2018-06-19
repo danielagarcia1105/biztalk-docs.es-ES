@@ -1,17 +1,17 @@
 ---
-title: "Paso 11: Crear Variables de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 11: Crear Variables de orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, variables
 - message enrichment tutorial, orchestrations
 ms.assetid: 3d1f792d-fe74-4373-86fa-3debda55e732
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962250"
 ---
 # <a name="step-11-create-orchestration-variables"></a><span data-ttu-id="78eb0-102">Paso 11: Crear Variables de orquestación</span><span class="sxs-lookup"><span data-stu-id="78eb0-102">Step 11: Create Orchestration Variables</span></span>
 <span data-ttu-id="78eb0-103">En este paso, creará las variables de orquestación de las instancias de mensajes enviados y recibidos por la orquestación.</span><span class="sxs-lookup"><span data-stu-id="78eb0-103">In this step, you create the orchestration variables for the message instances sent and received by the orchestration.</span></span>  

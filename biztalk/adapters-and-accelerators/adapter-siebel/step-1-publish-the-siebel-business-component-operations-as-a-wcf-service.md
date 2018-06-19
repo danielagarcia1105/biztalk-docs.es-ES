@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Publicar las operaciones de componente de negocios de Siebel como un servicio WCF | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: acfa0c36-50f1-45c1-9fc2-e5e5cedaa6a0
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966346"
 ---
 # <a name="step-1-publish-the-siebel-business-component-operations-as-a-wcf-service"></a><span data-ttu-id="4a367-102">Paso 1: Publicar las operaciones de componente de negocios de Siebel como un servicio WCF</span><span class="sxs-lookup"><span data-stu-id="4a367-102">Step 1: Publish the Siebel Business Component Operations as a WCF Service</span></span>
 <span data-ttu-id="4a367-103">![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="4a367-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="4a367-116">En el **nuevo proyecto** cuadro de diálogo, desde el **tipos de proyecto** panel, seleccione **Visual C#**.</span><span class="sxs-lookup"><span data-stu-id="4a367-116">In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**.</span></span> <span data-ttu-id="4a367-117">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="4a367-117">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
-     <span data-ttu-id="4a367-118">Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#**y, a continuación, seleccione **Web**.</span><span class="sxs-lookup"><span data-stu-id="4a367-118">Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**.</span></span> <span data-ttu-id="4a367-119">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="4a367-119">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
+     <span data-ttu-id="4a367-118">Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#** y, a continuación, seleccione **Web**.</span><span class="sxs-lookup"><span data-stu-id="4a367-118">Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**.</span></span> <span data-ttu-id="4a367-119">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="4a367-119">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="4a367-120">Si ha instalado Visual Studio con el componente de desarrollo Web, el **servicio de adaptador de WCF** plantilla también está disponible en la **nuevo sitio Web** opción.</span><span class="sxs-lookup"><span data-stu-id="4a367-120">If you installed Visual Studio with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.</span></span>  

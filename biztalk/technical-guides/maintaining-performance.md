@@ -1,14 +1,14 @@
 ---
 title: Mantener un rendimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae7e63ed-4e28-45b1-ab00-be9f9488a2e6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298148"
 ---
 # <a name="maintaining-performance"></a><span data-ttu-id="71216-102">Mantener el rendimiento</span><span class="sxs-lookup"><span data-stu-id="71216-102">Maintaining Performance</span></span>
 <span data-ttu-id="71216-103">Esta sección proporciona información que está pensada para ayudarle a resolver problemas de rendimiento detectan durante las comprobaciones de mantenimiento rutinarias.</span><span class="sxs-lookup"><span data-stu-id="71216-103">This section provides information that is intended to help you resolve performance issues discovered during your routine maintenance checks.</span></span> <span data-ttu-id="71216-104">También puede usar las herramientas y técnicas que se describen aquí de forma proactiva, para identificar posibles problemas antes de que resulten más críticos.</span><span class="sxs-lookup"><span data-stu-id="71216-104">You can also use the tools and techniques described here proactively, to identify potential problems before they become critical issues.</span></span>  

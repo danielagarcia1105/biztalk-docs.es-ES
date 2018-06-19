@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar la exploración entre distribuidas actividades | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la exploración entre distribuidas actividades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f8faf0a-eb06-4383-932d-4106306d6cf3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968874"
 ---
 # <a name="how-to-configure-navigation-between-distributed-activities"></a><span data-ttu-id="5aa2c-102">Cómo configurar la exploración entre actividades distribuidas</span><span class="sxs-lookup"><span data-stu-id="5aa2c-102">How to Configure Navigation Between Distributed Activities</span></span>
 <span data-ttu-id="5aa2c-103">La exploración distribuida permite a los usuarios ver actividades existentes en implementaciones de BAM remotas.</span><span class="sxs-lookup"><span data-stu-id="5aa2c-103">Distributed navigation allows users to view activities that exist in remote BAM deployments.</span></span> <span data-ttu-id="5aa2c-104">Al habilitar la exploración distribuida, los usuarios del portal de BAM de un equipo serán capaces de ver actividades en el portal de BAM de otra implementación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5aa2c-104">When you enable distributed navigation, users of the BAM portal on one computer will be able to view activities in the BAM portal on another deployment of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

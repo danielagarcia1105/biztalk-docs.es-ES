@@ -1,15 +1,15 @@
 ---
-title: "Solo inicio de sesión en información general de Enterprise | Documentos de Microsoft"
+title: Solo inicio de sesión en información general de Enterprise | Documentos de Microsoft
 description: Leer sobre las aplicaciones de affilicate, con vales SSO para procesar los mensajes y administrar SSO en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 10/11/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2aaab59-8cf7-4848-b71a-e7c8682dd3bd
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5e6ef63416e8885a5ee91bd65618a842b3a0cc54
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/12/2017
+ms.locfileid: "23129701"
 ---
 # <a name="enterprise-single-sign-on-overview"></a><span data-ttu-id="b9c45-103">Single Sign-On información general de Enterprise</span><span class="sxs-lookup"><span data-stu-id="b9c45-103">Enterprise Single Sign-On Overview</span></span>
 <span data-ttu-id="b9c45-104">Es probable que un proceso empresarial que esté basado en varias aplicaciones distintas tenga que pasar por distintos dominios de seguridad.</span><span class="sxs-lookup"><span data-stu-id="b9c45-104">A business process that relies on several different applications may have to cross several different security domains.</span></span> <span data-ttu-id="b9c45-105">El acceso a una aplicación en un sistema operativo de Microsoft Windows puede requerir un conjunto de credenciales de seguridad, pero es posible que el acceso a una aplicación en un gran sistema (mainframe) IBM requiera credenciales diferentes, como un nombre de usuario y una contraseña de RACF.</span><span class="sxs-lookup"><span data-stu-id="b9c45-105">Accessing an application on a Microsoft Windows system may require one set of security credentials, while accessing an application on an IBM mainframe may require different credentials, such as an RACF username and password.</span></span> <span data-ttu-id="b9c45-106">Trabajar con esta gran cantidad de credenciales es difícil para los usuarios y puede suponer un reto aún mayor en la automatización de procesos.</span><span class="sxs-lookup"><span data-stu-id="b9c45-106">Dealing with this profusion of credentials is difficult for users, and it can be even harder for automated processes.</span></span> <span data-ttu-id="b9c45-107">Para resolver este problema, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye el inicio de sesión único (SSO) empresarial.</span><span class="sxs-lookup"><span data-stu-id="b9c45-107">To address this problem, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Enterprise Single Sign-On.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Recibir mensajes de sondeo mediante las instrucciones SELECT con la cláusula FOR XML de SQL mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recibir mensajes de sondeo mediante las instrucciones SELECT con la cláusula FOR XML de SQL mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65c629c1-9ef7-4aa1-8ec1-f94a3cb41cb0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967706"
 ---
 # <a name="receive-polling-messages-using-select-statements-with-for-xml-clause-from-sql-using-biztalk-server"></a><span data-ttu-id="bdd98-102">Recibir mensajes de sondeo mediante las instrucciones SELECT con la cláusula FOR XML de SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="bdd98-102">Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server</span></span>
 <span data-ttu-id="bdd98-103">Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de cambio de datos periódicos para SQL Server tablas o vistas mediante las instrucciones SELECT o procedimientos almacenados que incluyan una cláusula FOR XML.</span><span class="sxs-lookup"><span data-stu-id="bdd98-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views by using SELECT statements or stored procedures that include a FOR XML clause.</span></span> <span data-ttu-id="bdd98-104">Puede especificar estas instrucciones como instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos.</span><span class="sxs-lookup"><span data-stu-id="bdd98-104">You can specify these statements as polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="bdd98-105">La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="bdd98-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  

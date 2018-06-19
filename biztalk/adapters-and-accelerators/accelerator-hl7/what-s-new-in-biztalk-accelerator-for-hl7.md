@@ -1,15 +1,15 @@
 ---
 title: Nuevo acelerador de BizTalk para HL7 | Documentos de Microsoft
 description: Cambios y actualizaciones con versiones diferentes de Acelerador para HL7 en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/22/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e98595a1-2d1e-488e-8a97-7cd561948b3b
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962346"
 ---
 # <a name="whats-new-in-biztalk-accelerator-for-hl7"></a><span data-ttu-id="9169f-103">Novedades en el Acelerador de BizTalk para HL7</span><span class="sxs-lookup"><span data-stu-id="9169f-103">What's new in BizTalk Accelerator for HL7</span></span>
 <span data-ttu-id="9169f-104">Cambios y actualizaciones con la [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="9169f-104">Changes and updates with the [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)].</span></span> 

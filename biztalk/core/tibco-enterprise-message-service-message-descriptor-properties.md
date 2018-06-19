@@ -1,14 +1,14 @@
 ---
 title: Propiedades de Descriptor de mensajes TIBCO EMS | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014827"
 ---
 # <a name="tibco-enterprise-message-service-message-descriptor-properties"></a><span data-ttu-id="a318d-102">Propiedades del descriptor de mensajes de TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="a318d-102">TIBCO Enterprise Message Service Message Descriptor Properties</span></span>
 

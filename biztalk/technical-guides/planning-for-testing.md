@@ -1,14 +1,14 @@
 ---
 title: Plan de pruebas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca2f5f29-9eea-4f4d-9781-75c231db4605
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302364"
 ---
 # <a name="planning-for-testing"></a><span data-ttu-id="27367-102">Plan de pruebas</span><span class="sxs-lookup"><span data-stu-id="27367-102">Planning for Testing</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="27367-103">pruebas pueden dividirse en varias categorías incluidas pruebas unitarias, pruebas funcionales, pruebas de carga y pruebas de disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="27367-103"> testing can be divided into several categories including unit testing, functional testing, load testing, and availability testing.</span></span> <span data-ttu-id="27367-104">Este tema describe unitarias y pruebas de carga y cómo planificar para cada uno.</span><span class="sxs-lookup"><span data-stu-id="27367-104">This topic describes unit and load testing and how to plan for each.</span></span>  

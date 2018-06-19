@@ -1,14 +1,14 @@
 ---
-title: "Herramientas y utilidades para la solución de problemas | Documentos de Microsoft"
-ms.custom: 
+title: Herramientas y utilidades para la solución de problemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56b0946a-56de-47cd-95d9-365722cdbaed
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302388"
 ---
 # <a name="tools-and-utilities-for-troubleshooting"></a><span data-ttu-id="b910f-102">Herramientas y utilidades para solucionar problemas</span><span class="sxs-lookup"><span data-stu-id="b910f-102">Tools and Utilities for Troubleshooting</span></span>
 <span data-ttu-id="b910f-103">En este tema se describe varias herramientas y utilidades que pueden resultar útiles para diagnosticar la causa de un problema en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] dependencia o un componente.</span><span class="sxs-lookup"><span data-stu-id="b910f-103">This topic describes several tools and utilities that can be useful for diagnosing the root cause of a problem in a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] component or dependency.</span></span>  

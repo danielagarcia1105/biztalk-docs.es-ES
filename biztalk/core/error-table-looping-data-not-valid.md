@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968556"
 ---
 # <a name="error---table-looping-data-not-valid"></a><span data-ttu-id="73059-102">Error: datos no válidos de bucle de tabla</span><span class="sxs-lookup"><span data-stu-id="73059-102">Error - Table Looping Data Not Valid</span></span>
 <span data-ttu-id="73059-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="73059-103">**Error Code**</span></span>  

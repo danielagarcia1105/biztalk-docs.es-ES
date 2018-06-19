@@ -1,11 +1,11 @@
 ---
 title: Agregar usuarios de A4SWIFT y actualizar grupos de Windows | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user accounts, Windows groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - updating Windows groups
 - A4SWIFT, creating user accounts
 ms.assetid: ddc54457-6499-402c-9cc2-f7b17bbc255f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209932"
 ---
 # <a name="adding-a4swift-users-and-updating-windows-groups"></a><span data-ttu-id="ff447-102">Agregar usuarios de A4SWIFT y actualizar grupos de Windows</span><span class="sxs-lookup"><span data-stu-id="ff447-102">Adding A4SWIFT Users and Updating Windows Groups</span></span>
 <span data-ttu-id="ff447-103">Después de crear e instalar certificados para los roles de reparación de mensajes y nuevo envío, debe crear [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] a los usuarios y agregue [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] a los usuarios a grupos.</span><span class="sxs-lookup"><span data-stu-id="ff447-103">After you create and install certificates for Message Repair and New Submission roles, you must create [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] users and add [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] users to groups.</span></span>  

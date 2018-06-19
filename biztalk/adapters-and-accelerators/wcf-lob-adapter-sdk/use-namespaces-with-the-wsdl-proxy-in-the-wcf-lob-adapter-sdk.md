@@ -1,14 +1,14 @@
 ---
 title: Usar espacios de nombres con el Proxy de WSDL en el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 781d20fa-83e3-42fa-866e-5650d5eb71a7
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965050"
 ---
 # <a name="use-namespaces-with-the-wsdl-proxy-in-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="e87b2-102">Usar espacios de nombres con el Proxy de WSDL en el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="e87b2-102">Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="e87b2-103">El [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] genera WSDL y servidores proxy para un adaptador con los valores suministrados por el programador mediante el [!INCLUDE[afdevwizardnamelong](../../includes/afdevwizardnamelong-md.md)] o se ha especificado en el código mediante la modificación de la variable privada SERVICENAMESPACE o `Namespace` propiedad del adaptador.</span><span class="sxs-lookup"><span data-stu-id="e87b2-103">The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] generates WSDL and proxies for an adapter using values supplied by the developer using the [!INCLUDE[afdevwizardnamelong](../../includes/afdevwizardnamelong-md.md)] or specified in code through modification of the SERVICENAMESPACE private variable and/or the `Namespace` property of the adapter.</span></span>  

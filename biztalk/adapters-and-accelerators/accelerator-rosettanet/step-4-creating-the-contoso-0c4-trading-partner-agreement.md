@@ -1,18 +1,18 @@
 ---
 title: 'Paso 4: Crear el acuerdo de socios comerciales 4 de Contoso 0c | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, creating
 - creating, agreements
 - double action tutorial, creating agreements
 ms.assetid: de2a943f-945a-4bfc-87f3-dd327d5214ef
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965434"
 ---
 # <a name="step-4-creating-the-contoso-0c4-trading-partner-agreement"></a><span data-ttu-id="29a50-102">Paso 4: Crear el acuerdo de socios comerciales 4 de Contoso 0c</span><span class="sxs-lookup"><span data-stu-id="29a50-102">Step 4: Creating the Contoso 0C4 Trading Partner Agreement</span></span>
 <span data-ttu-id="29a50-103">En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="29a50-103">In this step, you create a trading partner agreement between Contoso and Fabrikam using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span> <span data-ttu-id="29a50-104">Creará un nuevo contrato de socios comerciales para el proceso de interfaz de socio (PIP) 0C4.</span><span class="sxs-lookup"><span data-stu-id="29a50-104">You create a new trading partner agreement for the 0C4 Partner Interface Process (PIP).</span></span>  

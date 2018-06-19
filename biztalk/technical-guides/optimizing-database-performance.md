@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento de la base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a95caf60-f1f5-458f-8a81-0aead88f07be
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298732"
 ---
 # <a name="optimizing-database-performance"></a><span data-ttu-id="ccc4b-102">Optimizar el rendimiento de la base de datos</span><span class="sxs-lookup"><span data-stu-id="ccc4b-102">Optimizing Database Performance</span></span>
 <span data-ttu-id="ccc4b-103">BizTalk Server es una aplicación de base de datos consume que requieran la creación de hasta 13 bases de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="ccc4b-103">BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 databases in SQL Server.</span></span> <span data-ttu-id="ccc4b-104">Dado que uno de los objetivos principales de diseño de BizTalk Server es garantizar que ningún mensaje se pierdan, BizTalk Server conserva los datos en el disco con gran frecuencia y además, lo hace en el contexto de una transacción MSDTC.</span><span class="sxs-lookup"><span data-stu-id="ccc4b-104">Because one of the primary design goals of BizTalk Server is to ensure that no messages are lost, BizTalk Server persists data to disk with great frequency and furthermore, does so within the context of an MSDTC transaction.</span></span> <span data-ttu-id="ccc4b-105">Por lo tanto, el rendimiento de la base de datos tiene gran importancia para el rendimiento general de cualquier solución de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="ccc4b-105">Therefore, database performance is paramount to the overall performance of any BizTalk Server solution.</span></span>  

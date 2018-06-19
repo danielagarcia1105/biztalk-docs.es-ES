@@ -1,15 +1,15 @@
 ---
-title: "Programación de la guía, herramientas de SDK y ejemplos para el Acelerador para RosettaNet en BizTalk Server | Documentos de Microsoft"
+title: Programación de la guía, herramientas de SDK y ejemplos para el Acelerador para RosettaNet en BizTalk Server | Documentos de Microsoft
 description: Personalizar los procesos privados, trabajar con PIP, utilice las herramientas BTARN e implementar los ejemplos para el Acelerador para RosettaNet en BizTalk Server
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 159cb8f2-80af-4abf-9d9e-59300a880071
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209548"
 ---
 # <a name="programming-guide-tools-and-samples-in-the-rosettanet-sdk"></a><span data-ttu-id="0ec16-103">Guía de programación, herramientas y ejemplos del SDK de RosettaNet</span><span class="sxs-lookup"><span data-stu-id="0ec16-103">Programming guide, tools and samples in the RosettaNet SDK</span></span>
 <span data-ttu-id="0ec16-104">Este Kit de desarrollo de Software (SDK) proporciona información para programadores que crean aplicaciones mediante cualquiera de las herramientas de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], interfaces de la programación de aplicaciones públicas (API) o los ejemplos y utilidades proporcionan en el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK.</span><span class="sxs-lookup"><span data-stu-id="0ec16-104">This Software Development Kit (SDK) provides information for developers who are creating applications using any one of the tools in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK.</span></span>  

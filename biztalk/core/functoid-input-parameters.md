@@ -1,14 +1,14 @@
 ---
-title: "Parámetros de entrada de functoid | Documentos de Microsoft"
-ms.custom: 
+title: Parámetros de entrada de functoid | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cca24f93-74a8-460c-b9ab-9aa2c767fe2f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968514"
 ---
 # <a name="functoid-input-parameters"></a><span data-ttu-id="c6b25-102">Parámetros de entrada de functoid</span><span class="sxs-lookup"><span data-stu-id="c6b25-102">Functoid Input Parameters</span></span>
 <span data-ttu-id="c6b25-103">Un aspecto crucial de la utilización de functoids en las asignaciones es la correcta configuración de los parámetros de entrada del functoid.</span><span class="sxs-lookup"><span data-stu-id="c6b25-103">A critical aspect of using functoids in your maps is properly configuring the input parameters to the functoid.</span></span> <span data-ttu-id="c6b25-104">Aunque el orden de los parámetros de entrada no es crítico para todos los functoids (como el **adición** functoid, que muestra el mismo propiedades de asociación que cabe esperar de la suma), muchos functoids deben tener sus parámetros de entrada especificado en el orden correcto.</span><span class="sxs-lookup"><span data-stu-id="c6b25-104">While the order of input parameters is not critical for all functoids (such as the **Addition** functoid, which displays the same associate properties that one expects from addition), many functoids must have their input parameters specified in the correct order.</span></span>  

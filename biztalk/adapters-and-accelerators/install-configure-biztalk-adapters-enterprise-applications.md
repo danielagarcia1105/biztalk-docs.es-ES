@@ -16,6 +16,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "23450533"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-adapters-for-enterprise-applications"></a><span data-ttu-id="29562-103">Instalar y configurar Microsoft BizTalk Adapters para aplicaciones empresariales</span><span class="sxs-lookup"><span data-stu-id="29562-103">Install and configure the Microsoft BizTalk Adapters for Enterprise Applications</span></span> 
   
@@ -544,7 +545,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 6.  <span data-ttu-id="29562-571">Seleccione el **GET_CI_INFO** interfaz de componente y, a continuación, haga clic en **editar**.</span><span class="sxs-lookup"><span data-stu-id="29562-571">Select the **GET_CI_INFO** component interface, and then click **Edit**.</span></span>  
   
-7.  <span data-ttu-id="29562-572">Para establecer los métodos en **acceso completo**, haga clic en **acceso completo (todos)**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="29562-572">To set the methods to **Full Access**, click **Full Access (All)**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="29562-572">Para establecer los métodos en **acceso completo**, haga clic en **acceso completo (todos)** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="29562-572">To set the methods to **Full Access**, click **Full Access (All)**, and then click **OK**.</span></span>  
   
 8.  <span data-ttu-id="29562-573">Desplácese hasta la parte inferior de la **Interfaces de componentes** ventana y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="29562-573">Scroll to the bottom of the **Component Interfaces** window, and then click **Save**.</span></span>  
   

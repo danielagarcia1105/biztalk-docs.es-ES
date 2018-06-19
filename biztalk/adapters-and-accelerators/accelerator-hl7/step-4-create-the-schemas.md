@@ -1,18 +1,18 @@
 ---
 title: 'Paso 4: Crear los esquemas | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, schemas
 - creating, schemas
 - schemas, creating
 ms.assetid: 81b1f538-9743-433a-87f9-a423dcb868c8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961738"
 ---
 # <a name="step-4-create-the-schemas"></a><span data-ttu-id="f300f-102">Paso 4: Crear los esquemas</span><span class="sxs-lookup"><span data-stu-id="f300f-102">Step 4: Create the Schemas</span></span>
 <span data-ttu-id="f300f-103">En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los artefactos para este proyecto: los esquemas, el mapa y la orquestación.</span><span class="sxs-lookup"><span data-stu-id="f300f-103">In this step, you create a new project (**BTAHL7 Project**) that contains the artifacts for this project: the schemas, map, and orchestration.</span></span> <span data-ttu-id="f300f-104">A continuación, cree un esquema (**Doorbell.xsd**) para el mensaje entrante de codificación XML y seleccione un esquema existente (**ADT_A04_22_GLO_DEF.xsd**) para el mensaje saliente con codificación HL7.</span><span class="sxs-lookup"><span data-stu-id="f300f-104">You then create a schema (**Doorbell.xsd**) for the incoming XML-encoded message, and select an existing schema (**ADT_A04_22_GLO_DEF.xsd**) for the outgoing HL7-encoded message.</span></span> <span data-ttu-id="f300f-105">Use estos esquemas para definir la estructura de los mensajes que intercambian en la orquestación.</span><span class="sxs-lookup"><span data-stu-id="f300f-105">You use these schemas to define the structure of the messages that you exchange within the orchestration.</span></span>  

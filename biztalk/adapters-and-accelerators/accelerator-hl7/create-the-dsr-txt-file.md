@@ -1,14 +1,14 @@
 ---
 title: Crear el archivo DSR.txt | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b6947af7-c5ce-4ee6-9fe9-5c1094d0aee0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960778"
 ---
 # <a name="create-the-dsrtxt-file"></a><span data-ttu-id="055f0-102">Crear el archivo DSR.txt</span><span class="sxs-lookup"><span data-stu-id="055f0-102">Create the DSR.txt File</span></span>
 <span data-ttu-id="055f0-103">Utilice el procedimiento siguiente para crear el archivo de mensaje de respuesta DSR.txt.</span><span class="sxs-lookup"><span data-stu-id="055f0-103">Use the following procedure to create the response DSR.txt message file.</span></span> <span data-ttu-id="055f0-104">Más adelante usará este archivo para comprobar el escenario del tutorial.</span><span class="sxs-lookup"><span data-stu-id="055f0-104">You will use this file later to verify the tutorial scenario.</span></span>  

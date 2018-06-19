@@ -1,17 +1,17 @@
 ---
 title: Clase de ejemplo de error Extractor | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Error Extractor Sample class
 - errors, Error Extractor Sample class
 ms.assetid: d0d59b21-d80a-4466-a77a-1d3b7df1bc2a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965130"
 ---
 # <a name="error-extractor-sample-class"></a><span data-ttu-id="d72e3-102">Clase de ejemplo de error extractor de tablas</span><span class="sxs-lookup"><span data-stu-id="d72e3-102">Error Extractor Sample Class</span></span>
 <span data-ttu-id="d72e3-103">El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Desensamblador serializa errores a un objeto XML y los asocia el objeto XML a la sección de errores de un mensaje de varias partes.</span><span class="sxs-lookup"><span data-stu-id="d72e3-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler serializes errors to an XML object, and attaches the XML object to the error section of a multipart message.</span></span> <span data-ttu-id="d72e3-104">El desensamblador, a continuación, publica el mensaje con errores en la base de datos de cuadro de mensajes tal como haría con un mensaje válido.</span><span class="sxs-lookup"><span data-stu-id="d72e3-104">The disassembler then publishes the failed message to the MessageBox database just as it would a valid message.</span></span> <span data-ttu-id="d72e3-105">Por lo tanto, no se pudo detalles del error de transporte de mensajes en la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="d72e3-105">Therefore, failed messages carry error details into the MessageBox database.</span></span> <span data-ttu-id="d72e3-106">Puede usar la clase de ejemplo de Error extractor de tablas para extraer los detalles del error de un mensaje con errores y generar un archivo que tiene los detalles del error y otro archivo que tiene el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="d72e3-106">You can use the Error Extractor Sample Class to extract the error details from a failed message, and generate one file that has the error details and another file that has the original message.</span></span>  

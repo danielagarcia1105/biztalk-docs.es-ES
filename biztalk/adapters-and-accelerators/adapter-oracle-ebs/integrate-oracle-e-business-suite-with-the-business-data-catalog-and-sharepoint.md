@@ -1,14 +1,14 @@
 ---
-title: "Oracle E-Business Suite se integran con el catálogo de datos profesionales y SharePoint | Documentos de Microsoft"
-ms.custom: 
+title: Oracle E-Business Suite se integran con el catálogo de datos profesionales y SharePoint | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 311f605d-78b4-41a0-b231-1a00a879f637
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216068"
 ---
 # <a name="integrate-oracle-e-business-suite-with-the-business-data-catalog-and-sharepoint"></a><span data-ttu-id="939aa-102">Oracle E-Business Suite se integran con el catálogo de datos profesionales y SharePoint</span><span class="sxs-lookup"><span data-stu-id="939aa-102">Integrate Oracle E-Business Suite with the business data catalog and SharePoint</span></span>
 <span data-ttu-id="939aa-103">El [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] incluye la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], lo cual genera un servicio WCF para los artefactos LOB específicos.</span><span class="sxs-lookup"><span data-stu-id="939aa-103">The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] includes the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], which generates a WCF service for specific LOB artifacts.</span></span> <span data-ttu-id="939aa-104">Este servicio WCF se hospeda en un entorno de hospedaje, como Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="939aa-104">This WCF service is hosted in a hosting environment such as Microsoft Internet Information Services (IIS).</span></span> <span data-ttu-id="939aa-105">El Editor de definición del catálogo de datos profesionales usa la dirección URL donde se hospeda el servicio WCF para obtener el lenguaje de descripción de servicios Web (WSDL) para el servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="939aa-105">The Business Data Catalog Definition Editor uses the URL where the WCF service is hosted to get the Web Services Description Language (WSDL) for the WCF service.</span></span> <span data-ttu-id="939aa-106">Con el archivo WSDL, el Editor de definición del catálogo de datos profesionales extrae los métodos disponibles para el servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="939aa-106">Using the WSDL, the Business Data Catalog Definition Editor extracts the methods available to the WCF service.</span></span> <span data-ttu-id="939aa-107">Estos métodos se pueden utilizar para establecer las entidades y la asociación entre las entidades.</span><span class="sxs-lookup"><span data-stu-id="939aa-107">These methods can be used to establish entities and the association between the entities.</span></span>  

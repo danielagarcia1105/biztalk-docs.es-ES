@@ -1,18 +1,18 @@
 ---
 title: Crear tipos de datos personalizados en esquemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, creating Z data types [Z objects]
 - data types, creating [Z objects]
 - Z objects, creating Z data types
 ms.assetid: e545c849-d414-4d5d-bb56-d3f9d5238c70
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960682"
 ---
 # <a name="creating-custom-data-types-in-schemas"></a><span data-ttu-id="aa7ce-102">Crear tipos de datos personalizados en esquemas</span><span class="sxs-lookup"><span data-stu-id="aa7ce-102">Creating Custom Data Types in Schemas</span></span>
 <span data-ttu-id="aa7ce-103">Puede crear un tipo de datos personalizados en el datatypes_\<*versión*\>esquema común de XSD.</span><span class="sxs-lookup"><span data-stu-id="aa7ce-103">You can create a custom data type in the datatypes_\<*version*\>.xsd common schema.</span></span> <span data-ttu-id="aa7ce-104">Puede basar un tipo de datos personalizado en un tipo de datos existente, un tipo de base de datos, o en una enumeración definidos en una tabla.</span><span class="sxs-lookup"><span data-stu-id="aa7ce-104">You can base a custom data type on an existing data type, a base data type, or on an enumeration defined in a table.</span></span>  

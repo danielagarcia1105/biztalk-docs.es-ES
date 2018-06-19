@@ -1,17 +1,17 @@
 ---
 title: Recibir llamadas de tRFC entrada de SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC calls, receiving using BizTalk Server
 - tRFCs, sample
 ms.assetid: 500eedea-3d27-478c-a64c-903a1fa2b02f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962338"
 ---
 # <a name="receive-inbound-trfc-calls-from-sap-using-biztalk-server"></a><span data-ttu-id="09cea-102">Recibir llamadas de tRFC entrada de SAP con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="09cea-102">Receive Inbound tRFC Calls from SAP using BizTalk Server</span></span>
 <span data-ttu-id="09cea-103">Una llamada al servidor de tRFC es una llamada de servidor RFC transaccional.</span><span class="sxs-lookup"><span data-stu-id="09cea-103">A tRFC server call is a transactional RFC server call.</span></span> <span data-ttu-id="09cea-104">La orquestación necesita para recibir una solicitud de cambio en un contexto transaccional es similar a la orquestación para recibir cualquier otro RFC entrante enviado desde un sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="09cea-104">The orchestration required to receive an RFC in a transactional context is similar to the orchestration to receive any other inbound RFC sent from an SAP system.</span></span> <span data-ttu-id="09cea-105">Sin embargo, debe realizar ciertas tareas adicionales para asegurarse de que se reciben las RFC en un contexto transaccional.</span><span class="sxs-lookup"><span data-stu-id="09cea-105">However, you need to perform certain additional tasks to make sure the RFCs are received in a transactional context.</span></span> <span data-ttu-id="09cea-106">Para obtener más información acerca de la recepción de una solicitud de cambio entrante desde el sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], consulte [recibir llamadas entrantes de RFC de SAP mediante el uso de BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-inbound-rfc-calls-from-sap-using-biztalk-server.md).</span><span class="sxs-lookup"><span data-stu-id="09cea-106">For more information about receiving an inbound RFC from the SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Receive Inbound RFC Calls from SAP by using BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-inbound-rfc-calls-from-sap-using-biztalk-server.md).</span></span> <span data-ttu-id="09cea-107">Para obtener más información acerca de cómo los [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite recibir llamadas de tRFC entrante desde un sistema SAP, consulte [operaciones en tRFCs en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span><span class="sxs-lookup"><span data-stu-id="09cea-107">For more information about how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports receiving inbound tRFC calls from an SAP system, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "El servicio Web de resolución | Documentos de Microsoft"
-ms.custom: 
+title: El servicio Web de resolución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 236cff15-562a-41d5-bfdc-d250186fb616
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295220"
 ---
 # <a name="the-resolver-web-service"></a><span data-ttu-id="39b98-102">El servicio Web de resolución</span><span class="sxs-lookup"><span data-stu-id="39b98-102">The Resolver Web Service</span></span>
 <span data-ttu-id="39b98-103">El servicio Web de resolución es una puerta de enlace en el mecanismo de resolución dinámica de ESB.</span><span class="sxs-lookup"><span data-stu-id="39b98-103">The Resolver Web service is a gateway into the ESB dynamic resolution mechanism.</span></span> [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]<span data-ttu-id="39b98-104">incluye dos versiones de este servicio: una versión de ASP.NET (ASMX) y una versión de Windows Communication Foundation (WCF).</span><span class="sxs-lookup"><span data-stu-id="39b98-104"> includes two versions of this service: an ASP.NET (ASMX) version and a Windows Communication Foundation (WCF) version.</span></span> <span data-ttu-id="39b98-105">Los nombres de servicio son **ESB. ResolverServices** y **ESB. ResolverServices.WCF**, respectivamente, y los servicios exponen los métodos siguientes:</span><span class="sxs-lookup"><span data-stu-id="39b98-105">The service names are **ESB.ResolverServices** and **ESB.ResolverServices.WCF**, respectively, and the services expose the following methods:</span></span>  

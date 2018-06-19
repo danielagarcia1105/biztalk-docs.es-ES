@@ -1,14 +1,14 @@
 ---
 title: Comprender el adaptador de BizTalk para SQL Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 302a7f20-ffa2-49f1-a4c4-dd713adc23e1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965306"
 ---
 # <a name="understand-biztalk-adapter-for-sql-server"></a><span data-ttu-id="8f4e2-102">Comprender el adaptador de BizTalk para SQL Server</span><span class="sxs-lookup"><span data-stu-id="8f4e2-102">Understand BizTalk Adapter for SQL Server</span></span>
 <span data-ttu-id="8f4e2-103">El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios lo que permite interactuar con un sistema externo.</span><span class="sxs-lookup"><span data-stu-id="8f4e2-103">The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access making it possible to interact with an external system.</span></span> <span data-ttu-id="8f4e2-104">Los adaptadores proporcionan las siguientes ventajas a los clientes:</span><span class="sxs-lookup"><span data-stu-id="8f4e2-104">The adapters provide the following advantages to clients:</span></span>  

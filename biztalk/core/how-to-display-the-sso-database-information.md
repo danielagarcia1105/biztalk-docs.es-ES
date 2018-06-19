@@ -1,18 +1,18 @@
 ---
-title: "Cómo mostrar la información de la base de datos SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar la información de la base de datos SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], viewing SSO database
 - SSO database, viewing
 - viewing, SSO database
 ms.assetid: 0ebadd2e-6ea5-460c-b0a8-f48589e6bf1c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969330"
 ---
 # <a name="how-to-display-the-sso-database-information"></a><span data-ttu-id="9b551-102">Cómo mostrar la información de la base de datos SSO</span><span class="sxs-lookup"><span data-stu-id="9b551-102">How to Display the SSO Database Information</span></span>
 <span data-ttu-id="9b551-103">Es posible ver la información de la base de datos de SSO utilizando el Complemento MMC o la utilidad de línea de comandos (ssomanage).</span><span class="sxs-lookup"><span data-stu-id="9b551-103">You can view SSO database information by using the MMC Snap-In or the command line (ssomanage) utility.</span></span>  

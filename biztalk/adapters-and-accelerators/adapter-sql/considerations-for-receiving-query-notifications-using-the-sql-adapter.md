@@ -1,14 +1,14 @@
 ---
 title: Consideraciones para recibir las notificaciones de consulta mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0142f385-3d55-41a7-a50e-dda94b96d0a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963010"
 ---
 # <a name="considerations-for-receiving-query-notifications-using-the-sql-adapter"></a><span data-ttu-id="bfa19-102">Consideraciones para recibir las notificaciones de consulta mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="bfa19-102">Considerations for Receiving Query Notifications Using the SQL adapter</span></span>
 <span data-ttu-id="bfa19-103">Este tema proporciona algunas consideraciones y recomendaciones para tener en cuenta al usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir las notificaciones de consulta de una base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="bfa19-103">This topic provides some considerations and best practices to keep in mind while using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive query notifications from a SQL Server database.</span></span>  

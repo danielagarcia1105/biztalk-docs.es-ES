@@ -1,15 +1,15 @@
 ---
 title: Arquitectura de BizTalk Adapter para PeopleSoft Enterprise | Documentos de Microsoft
-description: "Describe cómo se reciben los mensajes, cómo los mensajes se valida y proporciona información acerca de los métodos de interfaz de componente cuando se usa el adaptador de PeopleSoft con BizTalk Server"
-ms.custom: 
+description: Describe cómo se reciben los mensajes, cómo los mensajes se valida y proporciona información acerca de los métodos de interfaz de componente cuando se usa el adaptador de PeopleSoft con BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f246e974-a082-430c-ad15-23a5e597738b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013699"
 ---
 # <a name="peoplesoft-enterprise-adapter-architecture"></a><span data-ttu-id="23fb2-103">Arquitectura del adaptador de PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="23fb2-103">PeopleSoft Enterprise adapter architecture</span></span>
 <span data-ttu-id="23fb2-104">Durante el funcionamiento básico del adaptador de Microsoft BizTalk para PeopleSoft Enterprise, el adaptador recibe un mensaje XML de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="23fb2-104">During the basic operation of Microsoft BizTalk Adapter for PeopleSoft Enterprise, the adapter receives an XML message from BizTalk Server.</span></span> <span data-ttu-id="23fb2-105">Incluye el mensaje XML en un sobre SOAP.</span><span class="sxs-lookup"><span data-stu-id="23fb2-105">It encloses the XML message in a SOAP envelope.</span></span> <span data-ttu-id="23fb2-106">El adaptador de BizTalk para PeopleSoft Enterprise reenvía las solicitudes SOAP al servidor.</span><span class="sxs-lookup"><span data-stu-id="23fb2-106">BizTalk Adapter for PeopleSoft Enterprise forwards the SOAP requests to the server.</span></span> <span data-ttu-id="23fb2-107">El adaptador se comunica con el sistema PeopleSoft mediante las clases psjoa de PeopleSoft, que conectan a este sistema mediante el protocolo de transacción Jolt.</span><span class="sxs-lookup"><span data-stu-id="23fb2-107">The adapter communicates with the PeopleSoft system using the PeopleSoft psjoa classes, which connect to the PeopleSoft system through Jolt Transaction Protocol.</span></span> <span data-ttu-id="23fb2-108">El sistema PeopleSoft recibe la solicitud y ejecuta la lógica empresarial.</span><span class="sxs-lookup"><span data-stu-id="23fb2-108">The PeopleSoft system receives the request and executes the business logic.</span></span> <span data-ttu-id="23fb2-109">La respuesta se devuelve a través de un proceso similar.</span><span class="sxs-lookup"><span data-stu-id="23fb2-109">The reply is sent back through a similar process.</span></span>  

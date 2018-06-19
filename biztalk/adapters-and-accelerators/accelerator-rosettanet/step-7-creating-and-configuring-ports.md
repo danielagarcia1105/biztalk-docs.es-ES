@@ -1,17 +1,17 @@
 ---
 title: 'Paso 7: Crear y configurar puertos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private process tutorial, creating ports
 - private process tutorial, configuring ports
 ms.assetid: c00344c6-506a-4560-a948-e5fed2b9fd58
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965242"
 ---
 # <a name="step-7-creating-and-configuring-ports"></a><span data-ttu-id="1e579-102">Paso 7: Crear y configurar puertos</span><span class="sxs-lookup"><span data-stu-id="1e579-102">Step 7: Creating and Configuring Ports</span></span>
 <span data-ttu-id="1e579-103">En este paso, se creará y configurará los puertos que se usan para comunicarse con los procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="1e579-103">In this step, you create and configure the ports you use to communicate with business processes.</span></span> <span data-ttu-id="1e579-104">Cada puerto tiene un tipo, la dirección y la propiedad de enlace.</span><span class="sxs-lookup"><span data-stu-id="1e579-104">Each port has a type, direction, and binding property.</span></span> <span data-ttu-id="1e579-105">Estas propiedades establecen la dirección y el patrón de comunicación, la ubicación de donde se envía o recibe el mensaje y cómo se produce la comunicación.</span><span class="sxs-lookup"><span data-stu-id="1e579-105">These properties establish the direction and pattern of communication, the location of where the message is sent or received, and how the communication occurs.</span></span>  

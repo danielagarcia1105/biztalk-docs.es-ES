@@ -1,14 +1,14 @@
 ---
-title: "Utilizar una orquestación como un suscriptor de servicio itinerarios | Documentos de Microsoft"
-ms.custom: 
+title: Utilizar una orquestación como un suscriptor de servicio itinerarios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 278564f1-de9f-4fbf-8c7f-09b3e607c28b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295324"
 ---
 # <a name="using-an-orchestration-as-an-itinerary-service-subscriber"></a><span data-ttu-id="15be0-102">Utilizar una orquestación como un suscriptor de servicio itinerarios</span><span class="sxs-lookup"><span data-stu-id="15be0-102">Using an Orchestration as an Itinerary Service Subscriber</span></span>
 <span data-ttu-id="15be0-103">Las orquestaciones también pueden actuar como servicios itinerarios.</span><span class="sxs-lookup"><span data-stu-id="15be0-103">Orchestrations can also act as itinerary services.</span></span> <span data-ttu-id="15be0-104">Para participar en un itinerario, primero debe diseñar la orquestación como enlace directo; Para ello, utilice una suscripción de filtro similar a la que el puerto de envío en el tema anterior, [mediante un puerto de envío como un suscriptor de servicio de itinerario](../esb-toolkit/using-a-send-port-as-an-itinerary-service-subscriber.md).</span><span class="sxs-lookup"><span data-stu-id="15be0-104">To participate in an itinerary, you must first design the orchestration as direct-bound; to do this, use a filter subscription similar to that of the send port in the previous topic, [Using a Send Port as an Itinerary Service Subscriber](../esb-toolkit/using-a-send-port-as-an-itinerary-service-subscriber.md).</span></span> <span data-ttu-id="15be0-105">La figura 1 muestra un ejemplo de una expresión de filtro para una orquestación adecuada recoger los mensajes que cumplen las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="15be0-105">Figure 1 shows an example of a filter expression for a suitable orchestration to pick up any message that meets the following conditions:</span></span>  

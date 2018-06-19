@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar invalidaciones para un módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar invalidaciones para un módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8261a514-b4c4-4e6b-ac35-40a3e3e090e0
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297692"
 ---
 # <a name="how-to-display-overrides-for-a-management-pack"></a><span data-ttu-id="7deed-102">Cómo mostrar invalidaciones para un módulo de administración</span><span class="sxs-lookup"><span data-stu-id="7deed-102">How to Display Overrides for a Management Pack</span></span>
 <span data-ttu-id="7deed-103">Para mostrar invalidaciones para un módulo de administración, utilice el procedimiento siguiente.</span><span class="sxs-lookup"><span data-stu-id="7deed-103">To display overrides for a management pack, use the following procedure.</span></span>  

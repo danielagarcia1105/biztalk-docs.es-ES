@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar umbrales del Monitor | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar umbrales del Monitor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88d88b15-0691-49d9-b116-1a2ae95bead9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297708"
 ---
 # <a name="how-to-display-monitor-thresholds"></a><span data-ttu-id="ac476-102">Cómo mostrar umbrales del Monitor</span><span class="sxs-lookup"><span data-stu-id="ac476-102">How to Display Monitor Thresholds</span></span>
 <span data-ttu-id="ac476-103">Para mostrar umbrales del monitor, use el script descrito en esta sección.</span><span class="sxs-lookup"><span data-stu-id="ac476-103">To display monitor thresholds, use the script described in this section.</span></span> <span data-ttu-id="ac476-104">Este script funciona para la mayoría de los monitores.</span><span class="sxs-lookup"><span data-stu-id="ac476-104">This script works for the majority of monitors.</span></span> <span data-ttu-id="ac476-105">Crea un archivo .csv que incluye las columnas descritas en la siguiente tabla y puede verse mediante Office Excel.</span><span class="sxs-lookup"><span data-stu-id="ac476-105">It creates a .csv file that includes the columns described in the following table, and can be viewed using Office Excel.</span></span>  

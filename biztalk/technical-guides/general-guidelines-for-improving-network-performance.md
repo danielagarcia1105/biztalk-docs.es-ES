@@ -1,14 +1,14 @@
 ---
 title: Directrices generales para mejorar el rendimiento de red | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 286c10d2-9262-4e3c-adde-f7b5780c2736
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298452"
 ---
 # <a name="general-guidelines-for-improving-network-performance"></a><span data-ttu-id="f222d-102">Directrices generales para mejorar el rendimiento de red</span><span class="sxs-lookup"><span data-stu-id="f222d-102">General Guidelines for Improving Network Performance</span></span>
 <span data-ttu-id="f222d-103">Ajustar la configuración de red para los valores óptimos ha demostrado a solucionar los cuellos de botella de red y mejorar el rendimiento general de red en las soluciones de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="f222d-103">Adjusting network settings to optimal values has been shown to effectively address network bottlenecks and improve overall network performance in BizTalk Server solutions.</span></span> <span data-ttu-id="f222d-104">Esto debe realizarse en todos los equipos que participan en la solución, incluidos los equipos con BizTalk Server, los equipos de SQL Server y cualquier otro equipo de servidor.</span><span class="sxs-lookup"><span data-stu-id="f222d-104">This should be done on all computers involved in the solution, including BizTalk Server computers, SQL Server computers, and any other server computers.</span></span>  

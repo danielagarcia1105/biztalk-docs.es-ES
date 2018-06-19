@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de consulta de SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c9def31-3c5a-4326-b798-31bde0ff2568
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964090"
 ---
 # <a name="receive-query-notifications-from-sql-using-the-wcf-service-model"></a><span data-ttu-id="75479-102">Recibir notificaciones de consulta de SQL mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="75479-102">Receive Query Notifications from SQL using the WCF Service Model</span></span>
 <span data-ttu-id="75479-103">Este tema muestra cómo configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de notificación de consulta de una base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="75479-103">This topic demonstrates how to configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive query notification messages from a SQL Server database.</span></span> <span data-ttu-id="75479-104">Para mostrar las notificaciones, considere la posibilidad de una tabla de empleados, con una columna de "Status".</span><span class="sxs-lookup"><span data-stu-id="75479-104">To demonstrate notifications, consider a table, Employee, with a “Status” column.</span></span> <span data-ttu-id="75479-105">Cuando se inserta un nuevo registro en esta tabla, el valor de la columna de estado se establece en 0.</span><span class="sxs-lookup"><span data-stu-id="75479-105">When a new record is inserted to this table, the value of the Status column is set to 0.</span></span> <span data-ttu-id="75479-106">Puede configurar el adaptador para recibir notificaciones por registrarse para recibir notificaciones mediante una instrucción SQL que recupera todos los registros que tienen la columna de estado como "0".</span><span class="sxs-lookup"><span data-stu-id="75479-106">You can configure the adapter to receive notifications by registering for notifications using a SQL statement that retrieves all records that have Status column as “0.”</span></span> <span data-ttu-id="75479-107">Puede hacerlo mediante la especificación de la instrucción SQL para la **NotificationStatement** propiedad de enlace.</span><span class="sxs-lookup"><span data-stu-id="75479-107">You can do so by specifying the SQL statement for the **NotificationStatement** binding property.</span></span> <span data-ttu-id="75479-108">Una vez que el cliente de adaptador recibe la notificación, puede contener la lógica para realizar las tareas siguientes en la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="75479-108">After the adapter client receives the notification, it can contain the logic to do any subsequent tasks on the SQL Server database.</span></span> <span data-ttu-id="75479-109">En este ejemplo, por simplicidad, el cliente de adaptador enumera todos los registros en la tabla que tienen la columna de estado como "0".</span><span class="sxs-lookup"><span data-stu-id="75479-109">In this example, for the sake of simplicity, the adapter client lists all the records in the table that have the Status column as “0.”</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Limpiar el entorno de destino | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8585853b-e625-48c3-a241-81ebf1be0e1e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299868"
 ---
 # <a name="cleaning-the-destination-environment"></a><span data-ttu-id="c1923-102">Limpiar el entorno de destino</span><span class="sxs-lookup"><span data-stu-id="c1923-102">Cleaning the Destination Environment</span></span>
 <span data-ttu-id="c1923-103">Si el trabajo de restauración encuentra con condiciones de error que no se puede resolver, limpie el entorno de destino para que pueda iniciar desde un entorno vacío.</span><span class="sxs-lookup"><span data-stu-id="c1923-103">If the restore job encounters error conditions that cannot be resolved, clean the destination environment so that it can start from an empty environment.</span></span> <span data-ttu-id="c1923-104">Ejecuta el procedimiento almacenado **sp_LogShippingClean** ubicado en la base de datos maestra en el destino [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia se "limpia" el entorno de destino.</span><span class="sxs-lookup"><span data-stu-id="c1923-104">Running the stored procedure **sp_LogShippingClean** located in the master database on the destination [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance will “clean” the destination environment.</span></span> <span data-ttu-id="c1923-105">Este procedimiento quita todas las bases de datos y elimina el último conjunto de datos restaurado para el origen especificado.</span><span class="sxs-lookup"><span data-stu-id="c1923-105">This procedure drops all databases and deletes the last restored data set for the specified source.</span></span>  

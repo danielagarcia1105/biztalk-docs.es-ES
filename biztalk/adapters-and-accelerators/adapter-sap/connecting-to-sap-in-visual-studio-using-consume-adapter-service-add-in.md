@@ -1,14 +1,14 @@
 ---
 title: Conectarse a SAP en Visual Studio mediante Consume Adapter Service complemento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b4f7d57a-fd88-4420-b893-49f42b449597
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965042"
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-consume-adapter-service-add-in"></a><span data-ttu-id="b719b-102">Conectarse a SAP en Visual Studio mediante Consume Adapter Service complemento</span><span class="sxs-lookup"><span data-stu-id="b719b-102">Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in</span></span>
 <span data-ttu-id="b719b-103">El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] se instala al instalar el SDK de adaptador LOB de WCF.</span><span class="sxs-lookup"><span data-stu-id="b719b-103">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] is installed when you install WCF LOB Adapter SDK.</span></span> <span data-ttu-id="b719b-104">El [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] carga todos los enlaces de WCF-Custom instalados en el equipo.</span><span class="sxs-lookup"><span data-stu-id="b719b-104">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] loads all the WCF-Custom bindings installed on the computer.</span></span> <span data-ttu-id="b719b-105">Para conectarse al sistema SAP mediante basadas en WCF [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] en un proyecto de BizTalk, debe utilizar el **sapbinding**.</span><span class="sxs-lookup"><span data-stu-id="b719b-105">To connect to SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in a BizTalk project, you must use the **sapbinding**.</span></span>  

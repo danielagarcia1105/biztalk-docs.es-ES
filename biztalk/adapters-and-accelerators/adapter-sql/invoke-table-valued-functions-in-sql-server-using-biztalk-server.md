@@ -1,14 +1,14 @@
 ---
 title: Invocar funciones con valores de tabla en SQL Server mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d360c15-699e-4859-8143-798c1de821db
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965642"
 ---
 # <a name="invoke-table-valued-functions-in-sql-server-using-biztalk-server"></a><span data-ttu-id="74555-102">Invocar funciones con valores de tabla en SQL Server con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="74555-102">Invoke Table-Valued Functions in SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="74555-103">Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para invocar funciones con valores de tabla en SQL Server.</span><span class="sxs-lookup"><span data-stu-id="74555-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to invoke table-valued functions in SQL Server.</span></span> <span data-ttu-id="74555-104">El adaptador expone las funciones con valores de tabla como las operaciones que se pueden invocar directamente en SQL Server.</span><span class="sxs-lookup"><span data-stu-id="74555-104">The adapter exposes the table-valued functions as operations that can be invoked directly on SQL Server.</span></span> <span data-ttu-id="74555-105">Para obtener más información acerca del modo en que el adaptador admite funciones con valores de tabla, vea [Executing Table-Valued funciones en SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="74555-105">For more information about how the adapter supports table-valued functions, see [Executing Table-Valued Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md).</span></span> <span data-ttu-id="74555-106">Para obtener información acerca de la estructura del mensaje SOAP para llamar a funciones con valores de tabla, vea [esquemas de mensaje para los procedimientos y funciones](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).</span><span class="sxs-lookup"><span data-stu-id="74555-106">For information about the structure of the SOAP message for invoking table-valued functions, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).</span></span>  

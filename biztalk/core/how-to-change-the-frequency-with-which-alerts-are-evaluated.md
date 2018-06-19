@@ -1,14 +1,14 @@
 ---
-title: "Cómo cambiar la frecuencia con las alertas que se evalúan | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar la frecuencia con las alertas que se evalúan | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68f326ed-2017-4853-89b9-146cb0785554
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969074"
 ---
 # <a name="how-to-change-the-frequency-with-which-alerts-are-evaluated"></a><span data-ttu-id="0b495-102">Cómo cambiar la frecuencia con la que se evalúan las alertas</span><span class="sxs-lookup"><span data-stu-id="0b495-102">How to Change the Frequency With Which Alerts Are Evaluated</span></span>
 <span data-ttu-id="0b495-103">Hay casos en los que el generador de SQL Server Notification Services no puede seguir los eventos generados por el proveedor de eventos de BAM cuando se implementa con la configuración predeterminada.</span><span class="sxs-lookup"><span data-stu-id="0b495-103">There are cases in which the SQL Notifications services generator may not keep up with events being raised by the BAM event provider when deployed with the default settings.</span></span> <span data-ttu-id="0b495-104">Se puede aumentar la frecuencia (la duración del cuanto) con la que se evalúan los eventos con respecto a las alertas mediante la modificación del archivo adf.xml de Notification Services.</span><span class="sxs-lookup"><span data-stu-id="0b495-104">You can increase the frequency (the quantum duration) with which events are evaluated for alerts by modifying the Notification Services adf.xml file.</span></span>  

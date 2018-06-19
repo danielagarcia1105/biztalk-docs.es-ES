@@ -1,17 +1,17 @@
 ---
 title: Finalizadores de usuario | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: 340d9fc8-467b-4cba-b69f-eb761767deaa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961986"
 ---
 # <a name="user-trailers"></a><span data-ttu-id="d787e-102">Finalizadores de usuario</span><span class="sxs-lookup"><span data-stu-id="d787e-102">User Trailers</span></span>
 <span data-ttu-id="d787e-103">Finalizadores de usuario, excepto el finalizador de distrib, son opcionales y cuando está presente, se producen en el orden siguiente:</span><span class="sxs-lookup"><span data-stu-id="d787e-103">User trailers, except for the CHK trailer, are optional and when present, occur in the following order:</span></span>  

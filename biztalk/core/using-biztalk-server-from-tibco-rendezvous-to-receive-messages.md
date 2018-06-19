@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/using-tibco-rendezvous-receive-ports-from-biztalk-server/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b1738a0933b5f570edfd882778e50ebf7e2ca730
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013531"
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-receive-messages"></a><span data-ttu-id="01f78-101">Uso de BizTalk Server desde TIBCO Rendezvous para recibir mensajes</span><span class="sxs-lookup"><span data-stu-id="01f78-101">Using BizTalk Server from TIBCO Rendezvous to Receive Messages</span></span>
 <span data-ttu-id="01f78-102">El adaptador de Microsoft BizTalk para TIBCO Rendezvous distribuye eventos de una cola en varios subprocesos.</span><span class="sxs-lookup"><span data-stu-id="01f78-102">Microsoft BizTalk Adapter for TIBCO Rendezvous dispatches events from a queue on multiple threads.</span></span> <span data-ttu-id="01f78-103">Una ubicación de recepción de BizTalk Server está asociada con una cola de eventos TIBCO Rendezvous y su grupo de subprocesos de distribuidor.</span><span class="sxs-lookup"><span data-stu-id="01f78-103">A BizTalk Server receive location is associated with one TIBCO Rendezvous event queue and its pool of dispatcher threads.</span></span>  

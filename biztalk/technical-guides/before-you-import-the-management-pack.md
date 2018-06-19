@@ -1,14 +1,14 @@
 ---
-title: "Antes de importar el módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Antes de importar el módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e3c13dd-613a-4885-a5d2-ad3ee492ff25
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299452"
 ---
 # <a name="before-you-import-the-management-pack"></a><span data-ttu-id="33e9f-102">Antes de importar el módulo de administración</span><span class="sxs-lookup"><span data-stu-id="33e9f-102">Before You Import the Management Pack</span></span>
 <span data-ttu-id="33e9f-103">Como práctica recomendada, debe importar el módulo de administración de Windows Server para el sistema operativo que esté utilizando.</span><span class="sxs-lookup"><span data-stu-id="33e9f-103">As a best practice, you should import the Windows Server Management Pack for the operating system that you are using.</span></span> <span data-ttu-id="33e9f-104">Antes de importar el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración, realice las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="33e9f-104">Before you import the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack, take the following actions:</span></span>  

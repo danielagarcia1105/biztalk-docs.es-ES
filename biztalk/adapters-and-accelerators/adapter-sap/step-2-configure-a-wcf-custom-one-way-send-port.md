@@ -1,17 +1,17 @@
 ---
-title: "Paso 2: Configurar un puerto de envío unidireccional de WCF-Custom | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Configurar un puerto de envío unidireccional de WCF-Custom | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-Custom one-way send port, configuring
 - migration
 ms.assetid: ae13222e-42e7-45a7-9b2a-0a6779b21736
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962794"
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-send-port"></a><span data-ttu-id="7763d-102">Paso 2: Configurar un puerto de envío unidireccional de WCF-Custom</span><span class="sxs-lookup"><span data-stu-id="7763d-102">Step 2: Configure a WCF-Custom One-way Send Port</span></span>
 <span data-ttu-id="7763d-103">![Paso 2 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="7763d-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  

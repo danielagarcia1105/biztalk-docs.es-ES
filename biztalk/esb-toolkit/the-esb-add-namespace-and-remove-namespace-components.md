@@ -1,14 +1,14 @@
 ---
 title: ESB Namespace de agregar y quitar componentes de Namespace | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21df1b21-b73c-4e31-a234-49a1a6b53cc7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296252"
 ---
 # <a name="the-esb-add-namespace-and-remove-namespace-components"></a><span data-ttu-id="3f972-102">ESB Namespace de agregar y quitar componentes de Namespace</span><span class="sxs-lookup"><span data-stu-id="3f972-102">The ESB Add Namespace and Remove Namespace Components</span></span>
 <span data-ttu-id="3f972-103">Muchas compañías eran los primeros usuarios de tecnologías XML en el momento cuando todavía se apareciendo estándares y uso compartido de documentos era raro.</span><span class="sxs-lookup"><span data-stu-id="3f972-103">Many companies were early adopters of XML technologies at the time when standards were still emerging and document sharing was uncommon.</span></span> <span data-ttu-id="3f972-104">Por lo tanto, no estrictamente aplican los requisitos para incluir espacios de nombres de raíz única, que normalmente es el caso de hoy en día.</span><span class="sxs-lookup"><span data-stu-id="3f972-104">Therefore, they did not strictly enforce the requirements for including unique root namespaces, which is usually the case today.</span></span>  

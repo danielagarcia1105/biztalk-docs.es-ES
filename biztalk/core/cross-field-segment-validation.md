@@ -1,14 +1,14 @@
 ---
-title: "Campo de segmento validación cruzada | Documentos de Microsoft"
-ms.custom: 
+title: Campo de segmento validación cruzada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e757b4f-71fe-44d5-9580-c8b1c8eb2366
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969408"
 ---
 # <a name="cross-field-segment-validation"></a><span data-ttu-id="bfd1e-102">Campo de segmento validación cruzada</span><span class="sxs-lookup"><span data-stu-id="bfd1e-102">Cross Field-Segment Validation</span></span>
 <span data-ttu-id="bfd1e-103">La canalización de recepción EDI y la canalización de envío EDI pueden llevar a cabo una validación de segmentos/campos cruzados en los elementos de datos del conjunto de transacciones en los mensajes codificados con X12.</span><span class="sxs-lookup"><span data-stu-id="bfd1e-103">The EDI receive pipeline and EDI send pipeline can perform cross field/segment validation on transaction-set data elements in X12-encoded messages.</span></span> <span data-ttu-id="bfd1e-104">Esta validación se denomina condiciones de relación en X12.</span><span class="sxs-lookup"><span data-stu-id="bfd1e-104">This validation is called relational conditions in X12.</span></span> <span data-ttu-id="bfd1e-105">La validación de campos cruzados se expresa mediante anotaciones y, como resultado, se relaciona con la validación EDI.</span><span class="sxs-lookup"><span data-stu-id="bfd1e-105">Cross field validation is expressed through annotations, and as a result, it is related to EDI validation.</span></span>  

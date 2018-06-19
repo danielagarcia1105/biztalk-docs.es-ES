@@ -1,14 +1,14 @@
 ---
 title: Buscar y eliminar los cuellos de botella | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 84fd0ea7-edc7-4e13-b7ce-dae0515227f7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297604"
 ---
 # <a name="finding-and-eliminating-bottlenecks"></a><span data-ttu-id="a1d8f-102">Buscar y eliminar los cuellos de botella</span><span class="sxs-lookup"><span data-stu-id="a1d8f-102">Finding and Eliminating Bottlenecks</span></span>
 <span data-ttu-id="a1d8f-103">Una evaluación de rendimiento de BizTalk Server correcta consiste en gran medida en detectar la existencia de y, a continuación, resolver, cuellos de botella para dar cabida a cualquier más rendimiento o menor latencia.</span><span class="sxs-lookup"><span data-stu-id="a1d8f-103">A successful BizTalk Server performance assessment is largely a matter of discovering the existence of, and then resolving, bottlenecks to accommodate either more throughput or reduced latency.</span></span> <span data-ttu-id="a1d8f-104">Esta sección describen varios tipos de cuellos de botella de rendimiento ya que afectan a las soluciones de BizTalk Server y obtener información sobre cómo resolver los cuellos de botella.</span><span class="sxs-lookup"><span data-stu-id="a1d8f-104">This section describes various types of performance bottlenecks as they relate to BizTalk Server solutions and information about how to resolve the bottlenecks.</span></span>  

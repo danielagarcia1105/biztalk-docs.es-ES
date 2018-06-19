@@ -1,17 +1,17 @@
 ---
 title: Solucionar problemas relacionados con el proveedor de datos para Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for Siebel, troubleshooting
 - troubleshooting, Data Provider for Siebel
 ms.assetid: 2bfe69a2-d6de-466d-9f36-f11c386c771c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222004"
 ---
 # <a name="troubleshoot-issues-with-the-data-provider-for-siebel"></a><span data-ttu-id="0769c-102">Solucionar problemas relacionados con el proveedor de datos para Siebel</span><span class="sxs-lookup"><span data-stu-id="0769c-102">Troubleshoot Issues with the Data Provider for Siebel</span></span>
 <span data-ttu-id="0769c-103">Esta sección describe el uso de técnicas de solución de problemas para resolver los errores que pueden surgir al usar el [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).</span><span class="sxs-lookup"><span data-stu-id="0769c-103">This section discusses using troubleshooting techniques to resolve errors that you might encounter when using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).</span></span>  

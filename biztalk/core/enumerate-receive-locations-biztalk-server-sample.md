@@ -1,18 +1,18 @@
 ---
-title: "Enumerar (ejemplo de BizTalk Server) de ubicaciones de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Enumerar (ejemplo de BizTalk Server) de ubicaciones de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, examples
 - receive locations, enumerating
 - examples, receive locations
 ms.assetid: 27ff8ac6-7e8e-4dde-84d1-d21bf417ddd7
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969082"
 ---
 # <a name="enumerate-receive-locations-biztalk-server-sample"></a><span data-ttu-id="21dcf-102">Enumerar (ejemplo de BizTalk Server) de ubicaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="21dcf-102">Enumerate Receive Locations (BizTalk Server Sample)</span></span>
 <span data-ttu-id="21dcf-103">El ejemplo Enumerar ubicaciones de recepción demuestra cómo recuperar detalles sobre una o varias ubicaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="21dcf-103">The Enumerate Receive Locations sample demonstrates how to retrieve details about one or more receive locations.</span></span>  

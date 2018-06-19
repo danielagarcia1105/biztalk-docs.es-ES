@@ -1,14 +1,14 @@
 ---
-title: "Supervisión de limitación | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de limitación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d1d4c72-6942-4572-b27f-c58d37c94062
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299764"
 ---
 # <a name="monitoring-for-throttling"></a><span data-ttu-id="df35a-102">Supervisión de limitación</span><span class="sxs-lookup"><span data-stu-id="df35a-102">Monitoring for Throttling</span></span>
 <span data-ttu-id="df35a-103">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración supervisa los contadores de rendimiento que indican el estado de limitación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="df35a-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management pack monitors performance counters that indicate the throttling state of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="df35a-104">A continuación se enumeran algunos factores claves para comprender acerca de la limitación.</span><span class="sxs-lookup"><span data-stu-id="df35a-104">Some key factors to understand about throttling are listed below.</span></span>  

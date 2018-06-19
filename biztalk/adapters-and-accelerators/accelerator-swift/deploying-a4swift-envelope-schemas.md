@@ -1,11 +1,11 @@
 ---
-title: "Implementación de esquemas de sobres de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de esquemas de sobres de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, envelope schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - envelope schemas
 - schemas, envelope schemas
 ms.assetid: 6440608c-d30d-4d82-827a-8a4b2738db85
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25967050"
 ---
 # <a name="deploying-a4swift-envelope-schemas"></a><span data-ttu-id="48bc8-102">Implementación de esquemas de sobres de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="48bc8-102">Deploying A4SWIFT Envelope Schemas</span></span>
 <span data-ttu-id="48bc8-103">Debe incluir esquemas de sobres en proyectos de esquema siempre que se establezca una reparación de mensajes y nuevo envío.</span><span class="sxs-lookup"><span data-stu-id="48bc8-103">You must include envelope schemas in schema projects whenever you set up Message Repair and New Submission.</span></span> <span data-ttu-id="48bc8-104">Un esquema de sobre, por ejemplo, EnvelopeMT103.xsd, es necesario para escribir en el sitio de MRSR.</span><span class="sxs-lookup"><span data-stu-id="48bc8-104">An envelope schema, such as EnvelopeMT103.xsd, is required to write to MRSR site.</span></span>  

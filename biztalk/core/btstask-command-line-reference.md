@@ -1,14 +1,14 @@
 ---
-title: "Referencia de línea de comandos BTSTask | Documentos de Microsoft"
-ms.custom: 
+title: Referencia de línea de comandos BTSTask | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c350695-13e9-441a-9f1e-03cdc3e41328
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231924"
 ---
 # <a name="btstask-command-line-reference"></a><span data-ttu-id="ac70a-102">Referencia de línea de comandos de BTSTask</span><span class="sxs-lookup"><span data-stu-id="ac70a-102">BTSTask Command-Line Reference</span></span>
 <span data-ttu-id="ac70a-103">Los temas de esta sección proporcionan información de referencia para la herramienta de línea de comandos BTSTask incluida con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ac70a-103">The topics in this section provide reference information for the BTSTask command-line tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="ac70a-104">Puede utilizar BTSTask para realizar muchas tareas de implementación de aplicaciones desde la línea de comandos, como se muestra a continuación:</span><span class="sxs-lookup"><span data-stu-id="ac70a-104">You can use BTSTask to perform many application deployment tasks from the command line, as follows:</span></span>  

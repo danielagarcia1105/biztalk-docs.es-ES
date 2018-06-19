@@ -1,11 +1,11 @@
 ---
 title: 'Paso 2: Crear Public y Private certificados | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating certificates
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating, certificates
 - private certificates
 ms.assetid: 0a925d89-03d9-41fe-907b-85a6ae42362a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967602"
 ---
 # <a name="step-2-creating-public-and-private-certificates"></a><span data-ttu-id="6c6c2-102">Paso 2: Crear Public y Private certificados</span><span class="sxs-lookup"><span data-stu-id="6c6c2-102">Step 2: Creating Public and Private Certificates</span></span>
 <span data-ttu-id="6c6c2-103">En este paso, utilice la entidad de certificación que se creó en [paso 1: crear una entidad de certificación &#91; RN3 &#93; ](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-a-certification-authority.md) para generar los certificados públicos y privados que utilizan las organizaciones de Contoso y Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="6c6c2-103">In this step, you use the Certification Authority created in [Step 1: Creating a Certification Authority &#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-a-certification-authority.md) to generate the public and private certificates that the Contoso and Fabrikam organizations use.</span></span>  

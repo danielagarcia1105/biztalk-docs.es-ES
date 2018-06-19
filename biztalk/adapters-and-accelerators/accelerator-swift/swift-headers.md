@@ -1,17 +1,17 @@
 ---
 title: Encabezados de SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT, headers
 - headers [SWIFT]
 ms.assetid: b599cca2-8ae6-42db-b3a2-712ba12c1017
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214380"
 ---
 # <a name="swift-headers"></a><span data-ttu-id="adef8-102">Encabezados de SWIFT</span><span class="sxs-lookup"><span data-stu-id="adef8-102">SWIFT Headers</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="adef8-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona SWIFT esquemas de encabezado y finalizador.</span><span class="sxs-lookup"><span data-stu-id="adef8-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides the SWIFT header and trailer schemas.</span></span> <span data-ttu-id="adef8-104">A4SWIFT ya incorpora estos elementos en los esquemas de intercambio para los distintos mensajes financieros (FIN).</span><span class="sxs-lookup"><span data-stu-id="adef8-104">A4SWIFT has already incorporated these into the interchange schemas for the various financial (FIN) messages.</span></span> <span data-ttu-id="adef8-105">Si desea crear un tipo de mensaje de estilo de formato de SWIFT FINÉS personalizado (por ejemplo, un mensaje de N98), puede incorporar los esquemas de encabezado y finalizador en su propio formato.</span><span class="sxs-lookup"><span data-stu-id="adef8-105">If you want to create a custom SWIFT FIN format style message type (for example, an N98 message), you can incorporate the header and trailer schemas into your own format.</span></span>  

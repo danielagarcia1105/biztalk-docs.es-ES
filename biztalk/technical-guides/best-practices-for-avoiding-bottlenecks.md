@@ -1,14 +1,14 @@
 ---
 title: Procedimientos recomendados para evitar cuellos de botella | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 81da2e31-dce0-43fb-841f-e65ff99e80a7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299668"
 ---
 # <a name="best-practices-for-avoiding-bottlenecks"></a><span data-ttu-id="2fdf7-102">Procedimientos recomendados para evitar cuellos de botella</span><span class="sxs-lookup"><span data-stu-id="2fdf7-102">Best Practices for Avoiding Bottlenecks</span></span>
 <span data-ttu-id="2fdf7-103">Aunque la configuración predeterminada de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona un rendimiento óptimo para muchas configuraciones de hardware y software, en algunas situaciones conviene modificar los valores de configuración o la configuración de implementación.</span><span class="sxs-lookup"><span data-stu-id="2fdf7-103">While the default settings in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provide optimal performance for many hardware and software configurations, in some scenarios it may be beneficial to modify the settings or deployment configuration.</span></span> <span data-ttu-id="2fdf7-104">Al configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], tenga en cuenta las siguientes directrices sobre rendimiento:</span><span class="sxs-lookup"><span data-stu-id="2fdf7-104">When configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], consider the following performance guidelines:</span></span>  

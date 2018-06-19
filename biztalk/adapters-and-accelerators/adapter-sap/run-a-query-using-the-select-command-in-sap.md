@@ -1,17 +1,17 @@
 ---
 title: Ejecutar una consulta con el comando SELECT en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SELECT command, performing a query
 - query, performing by using the SELECT command
 ms.assetid: 6f03243c-ef50-4a4a-8fe6-4e525bd7efe3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217804"
 ---
 # <a name="run-a-query-using-the-select-command-in-sap"></a><span data-ttu-id="2df82-102">Ejecutar una consulta con el comando SELECT en SAP</span><span class="sxs-lookup"><span data-stu-id="2df82-102">Run a Query Using the SELECT Command in SAP</span></span>
 <span data-ttu-id="2df82-103">La [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] expone el sistema SAP como un origen de datos ADO.NET.</span><span class="sxs-lookup"><span data-stu-id="2df82-103">The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] exposes the SAP system as an ADO.NET data source.</span></span> <span data-ttu-id="2df82-104">Con el [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], puede consultar los artefactos SAP mediante la ejecución de una instrucción SELECT.</span><span class="sxs-lookup"><span data-stu-id="2df82-104">With the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], you can query SAP artifacts by executing a SELECT statement.</span></span>  

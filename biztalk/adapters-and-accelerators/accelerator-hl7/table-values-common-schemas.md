@@ -1,18 +1,18 @@
 ---
 title: Los esquemas comunes de los valores de tabla | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, common schemas
 - 2.X schemas, table values
 - common schemas
 ms.assetid: 2421e150-1bae-43bd-aba3-6322c679b22b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962042"
 ---
 # <a name="table-values-common-schemas"></a><span data-ttu-id="3c061-102">Valores de tabla de esquemas comunes</span><span class="sxs-lookup"><span data-stu-id="3c061-102">Table Values Common Schemas</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="3c061-103">Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) genera el **tablevalues_*\<versión\>*.xsd** de archivos para cada versión de HL7 y busca el archivo en la raíz de la HL7 carpeta específica de la versión.</span><span class="sxs-lookup"><span data-stu-id="3c061-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) generates the **tablevalues_*\<version\>*.xsd** file for each HL7 version, and locates the file at the root of the HL7 version-specific folder.</span></span> <span data-ttu-id="3c061-104">El archivo de esquema común de tipos de datos hace referencia el archivo de esquema común de valores de tabla.</span><span class="sxs-lookup"><span data-stu-id="3c061-104">The data type common schema file references the table values common schema file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Definiciones de supervisión de estado | Documentos de Microsoft"
-ms.custom: 
+title: Definiciones de supervisión de estado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa2c8247-5e25-4624-9f0d-c7fe621ffba2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302516"
 ---
 # <a name="state-monitoring-definitions"></a><span data-ttu-id="15b90-102">Definiciones de supervisión de estado</span><span class="sxs-lookup"><span data-stu-id="15b90-102">State Monitoring Definitions</span></span>
 <span data-ttu-id="15b90-103">La supervisión de estado le ayuda a responder la pregunta de si un equipo supervisado es correcto en un momento dado desde la perspectiva de una aplicación determinada.</span><span class="sxs-lookup"><span data-stu-id="15b90-103">State monitoring helps answer the question of whether a monitored computer is healthy at a given time from the perspective of a particular application.</span></span> <span data-ttu-id="15b90-104">System Center Operations Manager (SCOM) actualiza el estado de distintas entidades administradas expuestas al usuario y presenta el estado como parte de la vista de supervisión de estado.</span><span class="sxs-lookup"><span data-stu-id="15b90-104">System Center Operations Manager (SCOM) updates the status of different managed entities exposed to the user and presents the status as part of the state monitoring view.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208924"
 ---
 # <a name="deployment-guide-for-biztalk-accelerator-for-swift"></a><span data-ttu-id="f6208-102">Guía de implementación para el Acelerador de BizTalk para SWIFT</span><span class="sxs-lookup"><span data-stu-id="f6208-102">Deployment Guide for BizTalk Accelerator for SWIFT</span></span>
 <span data-ttu-id="f6208-103">Esta guía proporciona información acerca de la implementación [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span><span class="sxs-lookup"><span data-stu-id="f6208-103">This guide provides information about deploying [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].</span></span>  

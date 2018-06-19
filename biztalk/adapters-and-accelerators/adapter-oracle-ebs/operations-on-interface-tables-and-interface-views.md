@@ -1,14 +1,14 @@
 ---
 title: Operaciones en tablas de interfaz y vistas de interfaz | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c7f3453-848f-42df-b092-725d9ff466cf
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217108"
 ---
 # <a name="operations-on-interface-tables-and-interface-views"></a><span data-ttu-id="046e8-102">Operaciones en tablas de interfaz y vistas de interfaz</span><span class="sxs-lookup"><span data-stu-id="046e8-102">Operations on Interface Tables and Interface Views</span></span>
 <span data-ttu-id="046e8-103">La [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone un conjunto de operaciones estándar (Select, Insert, Update y Delete para cada tabla de interfaz) y la operación de selección para cada vista de la interfaz en Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="046e8-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces a set of standard operations (Select, Insert, Update, and Delete) for each interface table, and the Select operation for each interface view in Oracle E-Business Suite.</span></span> <span data-ttu-id="046e8-104">Mediante el uso de estas operaciones, puede realizar la SELECT, INSERT, UPDATE y eliminar instrucciones calificadas por una cláusula WHERE en la tabla de interfaz de destino y la instrucción SELECT calificado por una cláusula WHERE en la vista de la interfaz de destino.</span><span class="sxs-lookup"><span data-stu-id="046e8-104">By using these operations, you can perform the SELECT, INSERT, UPDATE, and DELETE statements qualified by a WHERE clause on the target interface table, and the SELECT statement qualified by a WHERE clause on the target interface view.</span></span> <span data-ttu-id="046e8-105">Estas operaciones también se denominan operaciones de DML (lenguaje) de manipulación de datos.</span><span class="sxs-lookup"><span data-stu-id="046e8-105">These operations are also called data manipulation language (DML) operations.</span></span>  

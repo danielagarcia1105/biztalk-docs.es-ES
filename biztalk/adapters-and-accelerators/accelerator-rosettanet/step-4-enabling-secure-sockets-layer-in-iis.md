@@ -1,11 +1,11 @@
 ---
 title: 'Paso 4: Habilitar SSL en IIS | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Secure Socket Layers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - double action tutorial, enabling SSL in IIS
 - SSL
 ms.assetid: 96109294-595a-46ac-974e-33123df79ed5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967002"
 ---
 # <a name="step-4-enabling-secure-sockets-layer-in-iis"></a><span data-ttu-id="bb63b-102">Paso 4: Habilitar SSL en IIS</span><span class="sxs-lookup"><span data-stu-id="bb63b-102">Step 4: Enabling Secure Sockets Layer in IIS</span></span>
 <span data-ttu-id="bb63b-103">Capa de Sockets seguros (SSL) es un protocolo que se han diseñado para proteger el canal de comunicación entre un cliente y un servidor.</span><span class="sxs-lookup"><span data-stu-id="bb63b-103">Secure Sockets Layer (SSL) is a protocol designed to secure the communication channel between a client and a server.</span></span> <span data-ttu-id="bb63b-104">Al habilitar SSL en Microsoft® Internet Information Services (IIS) 7.5 o 7.0, las organizaciones de Contoso y Fabrikam comunican mediante autenticación y cifrado para todas las transferencias de datos.</span><span class="sxs-lookup"><span data-stu-id="bb63b-104">By enabling SSL in Microsoft® Internet Information Services (IIS) 7.5/7.0, the Contoso and Fabrikam organizations communicate using authentication and encryption for all data transfers.</span></span> <span data-ttu-id="bb63b-105">En este paso, obtener información sobre cómo habilitar SSL en IIS 7.5 o 7.0.</span><span class="sxs-lookup"><span data-stu-id="bb63b-105">In this step, you learn how to enable SSL in IIS 7.5/7.0.</span></span>  

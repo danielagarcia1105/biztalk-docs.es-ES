@@ -1,14 +1,14 @@
 ---
 title: Seleccione un esquema de URI y el formato de direccionamiento al usar el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3bb4feee-3d39-43ca-82ac-aba38c13bc69
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965314"
 ---
 # <a name="select-a-uri-scheme-and-addressing-format-when-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="6b465-102">Seleccione un esquema de URI y el formato de direccionamiento al usar el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="6b465-102">Select a URI scheme and addressing format when using the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="6b465-103">Un identificador uniforme de recursos (URI) identifica de forma única recursos como un servicio Web o, en el caso de un adaptador que se desarrollan con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], el sistema al que conectarse, así como la acción que se va a realizar.</span><span class="sxs-lookup"><span data-stu-id="6b465-103">A Uniform Resource Identifier (URI) uniquely identifies resources like a Web service or, in the case of an adapter developed with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], the system to connect to as well as the action to perform.</span></span> <span data-ttu-id="6b465-104">Esta sección proporciona una recomendación sobre cómo construir un URI para describir de forma exclusiva la dirección del extremo y la acción para el adaptador.</span><span class="sxs-lookup"><span data-stu-id="6b465-104">This section provides a recommendation on how to construct a URI to uniquely describe the endpoint address and the action for your adapter.</span></span>  

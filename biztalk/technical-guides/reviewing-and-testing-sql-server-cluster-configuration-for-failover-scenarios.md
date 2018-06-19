@@ -1,14 +1,14 @@
 ---
-title: "Configuración para escenarios de conmutación por error de clúster de revisar y probar SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Configuración para escenarios de conmutación por error de clúster de revisar y probar SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5dbeb383-5b38-4467-acf8-2a5b244e5fa9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302220"
 ---
 # <a name="reviewing-and-testing-sql-server-cluster-configuration-for-failover-scenarios"></a><span data-ttu-id="4085e-102">Revisar y probar la configuración de clúster SQL Server para escenarios de conmutación por error</span><span class="sxs-lookup"><span data-stu-id="4085e-102">Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios</span></span>
 <span data-ttu-id="4085e-103">Agrupación en clústeres de Windows y SQL Server permiten ejecutar SQL Server en modo activo/activo, donde cada nodo del clúster es "activos" y en funcionamiento instancias de SQL Server de uno o más.</span><span class="sxs-lookup"><span data-stu-id="4085e-103">Windows Clustering and SQL Server allow you to run SQL Server in Active/Active mode where each node of the cluster is “active” and running one or more SQL Server instances.</span></span> <span data-ttu-id="4085e-104">Esto le permitirá, por ejemplo, para que la base de datos de cuadro de mensajes en un nodo y todos los demás [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos en el otro nodo.</span><span class="sxs-lookup"><span data-stu-id="4085e-104">This would allow you, for example, to have the MessageBox database on one node and all other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases on the other node.</span></span> <span data-ttu-id="4085e-105">Esto permite maximizar el uso de hardware de clúster.</span><span class="sxs-lookup"><span data-stu-id="4085e-105">This allows you to maximize cluster hardware usage.</span></span>  

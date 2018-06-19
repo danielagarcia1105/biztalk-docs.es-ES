@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961466"
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a><span data-ttu-id="891b1-102">Paso 3: Crear e implementar un Project_hl7_main (mensaje) del evento de desencadenador</span><span class="sxs-lookup"><span data-stu-id="891b1-102">Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main</span></span>
 <span data-ttu-id="891b1-103">En este paso, creará el esquema utilizado por un mensaje de evento de desencadenador.</span><span class="sxs-lookup"><span data-stu-id="891b1-103">In this step, you create the schema used by a trigger event message.</span></span> <span data-ttu-id="891b1-104">Por ejemplo, el sistema de admisión de descarga y la transferencia (ADT) envía un mensaje para el sistema de información de Hospital (HIS).</span><span class="sxs-lookup"><span data-stu-id="891b1-104">For example, the Admissions Discharge and Transfer system (ADT) that sends a message to the Hospital Information System (HIS).</span></span> <span data-ttu-id="891b1-105">Utilice este esquema para definir el formato del mensaje.</span><span class="sxs-lookup"><span data-stu-id="891b1-105">You use this schema to define the format of your message.</span></span>  

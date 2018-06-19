@@ -1,17 +1,17 @@
 ---
-title: "Paso 5: Modificar la orquestación de procesos privados de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Modificar la orquestación de procesos privados de Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, orchestrations
 - private process tutorial, modifying private process orchestration
 ms.assetid: a5430db8-e5f0-48a6-abb9-e268d8ec2ec4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967762"
 ---
 # <a name="step-5-modifying-the-contoso-private-process-orchestration"></a><span data-ttu-id="b783b-102">Paso 5: Modificar la orquestación de procesos privados de Contoso</span><span class="sxs-lookup"><span data-stu-id="b783b-102">Step 5: Modifying the Contoso Private Process Orchestration</span></span>
 <span data-ttu-id="b783b-103">En este paso, modificará la orquestación de procesos privados para integrarse con el sistema de planeamiento de recursos empresariales (ERP) de Contoso.</span><span class="sxs-lookup"><span data-stu-id="b783b-103">In this step, you modify the private process orchestration to integrate with the Enterprise Resource Planning (ERP) system for Contoso.</span></span> <span data-ttu-id="b783b-104">El sistema ERP de Contoso usa esquemas definidos internamente para la disponibilidad y el precio del producto.</span><span class="sxs-lookup"><span data-stu-id="b783b-104">The ERP system for Contoso uses internally defined schemas for product price and availability.</span></span> <span data-ttu-id="b783b-105">Si personaliza el proceso privado para el 3A2 - precio y el proceso de interfaz de socio (PIP) disponibilidad, podrá integrar con el sistema ERP mediante el uso de información de esquema de asignación.</span><span class="sxs-lookup"><span data-stu-id="b783b-105">By customizing the private process for the 3A2 - Price and Availability Partner Interface Process (PIP), you will be able to integrate with the ERP system by using schema-mapping information.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="b783b-107">Con la solución de Contoso que se muestra en el Explorador de soluciones, haga clic en el **PrivateResponder** del proyecto y, a continuación, haga clic en **Agregar referencia**.</span><span class="sxs-lookup"><span data-stu-id="b783b-107">With the Contoso solution displayed in Solution Explorer, right-click the **PrivateResponder** project, and then click **Add Reference**.</span></span>  
   
-2.  <span data-ttu-id="b783b-108">En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**.</span><span class="sxs-lookup"><span data-stu-id="b783b-108">In the Add Reference dialog box, click **Browse**.</span></span> <span data-ttu-id="b783b-109">Mover a  *\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin carpeta y, a continuación, seleccione los ensamblados siguientes**:**</span><span class="sxs-lookup"><span data-stu-id="b783b-109">Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies**:**</span></span>  
+2.  <span data-ttu-id="b783b-108">En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**.</span><span class="sxs-lookup"><span data-stu-id="b783b-108">In the Add Reference dialog box, click **Browse**.</span></span> <span data-ttu-id="b783b-109">Mover a  *\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin carpeta y, a continuación, seleccione los ensamblados siguientes **:**</span><span class="sxs-lookup"><span data-stu-id="b783b-109">Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies **:**</span></span>  
   
     -   <span data-ttu-id="b783b-110">Microsoft.Solutions.BTARN.CommonTypes.dll</span><span class="sxs-lookup"><span data-stu-id="b783b-110">Microsoft.Solutions.BTARN.CommonTypes.dll</span></span>  
   

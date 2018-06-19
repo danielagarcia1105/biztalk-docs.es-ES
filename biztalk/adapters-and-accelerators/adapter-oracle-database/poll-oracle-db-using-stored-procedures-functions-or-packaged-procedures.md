@@ -1,14 +1,14 @@
 ---
 title: Sondear la base de datos de Oracle mediante procedimientos almacenados, funciones, o empaquetados procedimientos y funciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c34843a-d02b-4941-baf6-6bc80b5821ad
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968098"
 ---
 # <a name="poll-oracle-database-using-stored-procedures-functions-or-packaged-procedures-and-functions"></a><span data-ttu-id="f635c-102">Sondeo de base de datos de Oracle mediante procedimientos almacenados, funciones, o empaquetados procedimientos y funciones</span><span class="sxs-lookup"><span data-stu-id="f635c-102">Poll Oracle Database Using Stored Procedures, Functions, or Packaged Procedures and Functions</span></span>
 <span data-ttu-id="f635c-103">Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicas mediante el uso de procedimientos almacenados, funciones, o empaquetados procedimientos y funciones que éstos sondeen periódicamente la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="f635c-103">You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive periodic data-change messages by using stored procedures, functions, or packaged procedures and functions to periodically poll the Oracle database.</span></span> <span data-ttu-id="f635c-104">Puede especificar un procedimiento almacenado, función o procedimiento empaquetada y funcionar como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="f635c-104">You can specify a stored procedure, function, or packaged procedure and function as a polling statement that the adapter executes periodically to poll the Oracle database.</span></span>  

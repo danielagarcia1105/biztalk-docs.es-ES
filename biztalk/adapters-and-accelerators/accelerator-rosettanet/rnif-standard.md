@@ -1,11 +1,11 @@
 ---
-title: "Estándar RNIF | Documentos de Microsoft"
-ms.custom: 
+title: Estándar RNIF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNIF, message definitions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - RNIF, standards
 - messages, messaging framework patterns
 ms.assetid: d39a9683-1ef5-462b-9472-4e30fe873f7d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211132"
 ---
 # <a name="rnif-standard"></a><span data-ttu-id="984f2-102">Estándar RNIF</span><span class="sxs-lookup"><span data-stu-id="984f2-102">RNIF Standard</span></span>
 <span data-ttu-id="984f2-103">El estándar del marco de implementación de RosettaNet (RNIF) define cómo transportan los sistemas un mensaje de RosettaNet.</span><span class="sxs-lookup"><span data-stu-id="984f2-103">The RosettaNet Implementation Framework (RNIF) standard defines how systems transport a RosettaNet message.</span></span> <span data-ttu-id="984f2-104">El estándar RNIF es un estándar sólido de transferencia, enrutamiento, empaquetado y seguridad.</span><span class="sxs-lookup"><span data-stu-id="984f2-104">The RNIF standard is a robust transfer, routing, packaging, and security standard.</span></span> <span data-ttu-id="984f2-105">Todos los sistemas de mensajería de RosettaNet deben ser compatibles con el estándar RNIF para obtener la certificación de RosettaNet.</span><span class="sxs-lookup"><span data-stu-id="984f2-105">All RosettaNet messaging systems must comply with the RNIF standard to achieve RosettaNet certification.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Restauración de producción desde una copia de seguridad semiactiva | Documentos de Microsoft"
-ms.custom: 
+title: Restauración de producción desde una copia de seguridad semiactiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2bda14b8-b3cc-4a5e-a353-fca5885fd594
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302092"
 ---
 # <a name="restoring-production-from-a-warm-backup"></a><span data-ttu-id="4ff6a-102">Restauración de producción desde una copia de seguridad semiactiva</span><span class="sxs-lookup"><span data-stu-id="4ff6a-102">Restoring Production from a Warm Backup</span></span>
 <span data-ttu-id="4ff6a-103">Si el sistema de origen se convierte en no confiable, es posible restaurar las bases de datos de destino al origen.</span><span class="sxs-lookup"><span data-stu-id="4ff6a-103">If the source system becomes unreliable, it is possible to restore the databases from the destination to the source.</span></span> <span data-ttu-id="4ff6a-104">Realice el procedimiento siguiente para restaurar las bases de datos de destino al origen.</span><span class="sxs-lookup"><span data-stu-id="4ff6a-104">Perform the following procedure to restore databases from the destination to the source.</span></span>  

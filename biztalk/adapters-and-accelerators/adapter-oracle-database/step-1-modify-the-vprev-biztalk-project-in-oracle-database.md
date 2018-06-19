@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Modificar el proyecto de BizTalk en la base de datos de Oracle vPrev | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e3e22ac-126b-46ec-a6dc-3421ad721392
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216196"
 ---
 # <a name="step-1-modify-the-vprev-biztalk-project-in-oracle-database"></a><span data-ttu-id="49619-102">Paso 1: Modificar el proyecto de BizTalk en la base de datos de Oracle vPrev</span><span class="sxs-lookup"><span data-stu-id="49619-102">Step 1: Modify the vPrev BizTalk Project in Oracle Database</span></span>
 <span data-ttu-id="49619-103">![Paso 1 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span><span class="sxs-lookup"><span data-stu-id="49619-103">![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span></span>  

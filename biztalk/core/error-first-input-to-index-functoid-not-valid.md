@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969650"
 ---
 # <a name="error---first-input-to-index-functoid-not-valid"></a><span data-ttu-id="005fd-102">Error: primera entrada de Functoid de índice no válida</span><span class="sxs-lookup"><span data-stu-id="005fd-102">Error - First Input to Index Functoid Not Valid</span></span>
 <span data-ttu-id="005fd-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="005fd-103">**Error Code**</span></span>  

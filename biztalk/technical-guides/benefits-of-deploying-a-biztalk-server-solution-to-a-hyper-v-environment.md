@@ -1,14 +1,14 @@
 ---
-title: "Entorno virtualizado de posibles ventajas de implementar una solución de BizTalk Server en un Hyper-V | Documentos de Microsoft"
-ms.custom: 
+title: Entorno virtualizado de posibles ventajas de implementar una solución de BizTalk Server en un Hyper-V | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 588c70f0-68f0-4e58-8f3d-aa6834397bd4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295932"
 ---
 # <a name="potential-benefits-of-deploying-a-biztalk-server-solution-to-a-hyper-v-virtualized-environment"></a><span data-ttu-id="01a29-102">Entorno virtualizado de posibles ventajas de implementar una solución de BizTalk Server en un Hyper-V</span><span class="sxs-lookup"><span data-stu-id="01a29-102">Potential Benefits of Deploying a BizTalk Server Solution to a Hyper-V Virtualized Environment</span></span>
 <span data-ttu-id="01a29-103">En este tema se describe algunas de las ventajas de la implementación de su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución para un entorno virtualizado de Hyper-V.</span><span class="sxs-lookup"><span data-stu-id="01a29-103">This topic describes some of the benefits of deploying your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution to a Hyper-V virtualized environment.</span></span>  

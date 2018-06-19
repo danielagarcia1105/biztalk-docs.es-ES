@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "25965354"
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a><span data-ttu-id="c0f74-102">Generar y publicar formularios de MT/MX en el sitio de SharePoint</span><span class="sxs-lookup"><span data-stu-id="c0f74-102">Generating and Publishing MT/MX Forms on the SharePoint Site</span></span>
 <span data-ttu-id="c0f74-103">**Para generar y publicar MT/MX formularios en un sitio de SharePoint:**</span><span class="sxs-lookup"><span data-stu-id="c0f74-103">**To generate and publish MT/MX forms on a SharePoint site:**</span></span>  

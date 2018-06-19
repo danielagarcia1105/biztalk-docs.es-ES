@@ -1,14 +1,14 @@
 ---
-title: "Guía del módulo de administración de supervisión de BizTalk Server 2013 | Documentos de Microsoft"
-ms.custom: 
+title: Guía del módulo de administración de supervisión de BizTalk Server 2013 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d54d4ace-0da6-454f-8311-9fe9471540b4
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300612"
 ---
 # <a name="biztalk-server-2013-monitoring-management-pack-guide"></a><span data-ttu-id="c838c-102">Guía del módulo de administración de supervisión de BizTalk Server 2013</span><span class="sxs-lookup"><span data-stu-id="c838c-102">BizTalk Server 2013 Monitoring Management Pack Guide</span></span>
 ## <a name="document-version"></a><span data-ttu-id="c838c-103">Versión del documento</span><span class="sxs-lookup"><span data-stu-id="c838c-103">Document Version</span></span>  

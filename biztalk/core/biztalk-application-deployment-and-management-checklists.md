@@ -1,11 +1,11 @@
 ---
-title: "Listas de comprobación de administración e implementación de aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Listas de comprobación de administración e implementación de aplicación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - checklists, managing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - applications, managing
 - applications, checklists
 ms.assetid: b6b00518-44a9-497c-b48d-ff7203796379
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230612"
 ---
 # <a name="biztalk-application-deployment-and-management-checklists"></a><span data-ttu-id="0634a-102">Listas de comprobación de implementación y administración de aplicaciones de BizTalk</span><span class="sxs-lookup"><span data-stu-id="0634a-102">BizTalk Application Deployment and Management Checklists</span></span>
 <span data-ttu-id="0634a-103">En esta sección se proporcionan listas de comprobación para las tareas básicas de implementación y administración que desee realizar de las aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="0634a-103">This section provides checklists for the basic deployment and maintenance tasks that you may want to perform for BizTalk applications.</span></span> <span data-ttu-id="0634a-104">Cada lista de comprobación proporciona una lista de subtareas implicadas y los vínculos a los temas que describen cómo realizarlas.</span><span class="sxs-lookup"><span data-stu-id="0634a-104">Each checklist provides a list of the subtasks involved and links to the topics that describe how to perform them.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar metadatos de adaptador a un proyecto de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar metadatos de adaptador a un proyecto de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e439e5bf-94b3-4582-bacc-b058e6eb8e17
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969066"
 ---
 # <a name="how-to-add-adapter-metadata-to-a-biztalk-project"></a><span data-ttu-id="ae289-102">Cómo agregar metadatos de adaptador a un proyecto de BizTalk</span><span class="sxs-lookup"><span data-stu-id="ae289-102">How to Add Adapter Metadata to a BizTalk Project</span></span>
 <span data-ttu-id="ae289-103">El Asistente para agregar metadatos de adaptador le permite agregar metadatos de adaptador a un proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ae289-103">The Add Adapter Metadata Wizard enables you to add adapter metadata to a BizTalk project.</span></span> <span data-ttu-id="ae289-104">Esos datos incluyen esquemas, tipos de mensajes y tipos de puertos necesarios para comunicarse con un adaptador desde una orquestación.</span><span class="sxs-lookup"><span data-stu-id="ae289-104">This data includes schemas, message types, and port types needed to communicate with an adapter from an orchestration.</span></span> <span data-ttu-id="ae289-105">Use este asistente con los adaptadores de aplicación, como FTP, para insertar los esquemas correspondientes a dichos adaptadores en el sistema.</span><span class="sxs-lookup"><span data-stu-id="ae289-105">Use the Add Adapter Metadata Wizard with application adapters, such as FTP, to pull schemas corresponding to these application adapters into the system.</span></span> <span data-ttu-id="ae289-106">Tenga en cuenta que los adaptadores de transporte, como HTTP, no suelen usar esquemas.</span><span class="sxs-lookup"><span data-stu-id="ae289-106">Note that transport adapters such as HTTP do not typically use schemas.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "La canalización del procesador de error ESB | Documentos de Microsoft"
-ms.custom: 
+title: La canalización del procesador de error ESB | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a57752b1-8bca-4534-9e5b-7ce721a9490a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296172"
 ---
 # <a name="the-esb-fault-processor-pipeline"></a><span data-ttu-id="7d6f4-102">La canalización del procesador de error ESB</span><span class="sxs-lookup"><span data-stu-id="7d6f4-102">The ESB Fault Processor Pipeline</span></span>
 <span data-ttu-id="7d6f4-103">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] instala un puerto de envío denominado todos. Las excepciones que usa el ESBFaultProcessor la canalización de envío.</span><span class="sxs-lookup"><span data-stu-id="7d6f4-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] installs a send port named ALL.Exceptions that uses the ESBFaultProcessor send pipeline.</span></span> <span data-ttu-id="7d6f4-104">La figura 1 muestra las propiedades de todos. Las excepciones de puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="7d6f4-104">Figure 1 shows the properties of the ALL.Exceptions send port.</span></span>  

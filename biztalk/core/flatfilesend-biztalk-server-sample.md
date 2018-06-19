@@ -1,14 +1,14 @@
 ---
 title: FlatFileSend (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52dd0018-e272-40db-a26a-509d444d7106
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969698"
 ---
 # <a name="flatfilesend-biztalk-server-sample"></a><span data-ttu-id="6427f-102">FlatFileSend (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="6427f-102">FlatFileSend (BizTalk Server Sample)</span></span>
 <span data-ttu-id="6427f-103">El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo XML en el archivo sin formato equivalente.</span><span class="sxs-lookup"><span data-stu-id="6427f-103">The FlatFileSend sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process an XML file into the equivalent flat file.</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="6427f-127">Estos elementos se combinan para producir una solución que acepta mensajes de pedido de compra en formato XML en la ubicación de recepción y escribe un pedido de compra de archivo sin formato en la ubicación de envío.</span><span class="sxs-lookup"><span data-stu-id="6427f-127">These elements are combined to produce a solution that accepts purchase order messages in XML format from the receive location and writes out a flat file purchase order to the send location.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="6427f-128">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="6427f-128">Where to Find This Sample</span></span>  
- <span data-ttu-id="6427f-129">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-129">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
+ <span data-ttu-id="6427f-129">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-129">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
   
  <span data-ttu-id="6427f-130">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="6427f-130">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -66,13 +67,13 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="6427f-153">En una ventana de comandos, desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="6427f-153">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="6427f-154">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-154">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
+     <span data-ttu-id="6427f-154">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-154">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
   
 2.  <span data-ttu-id="6427f-155">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="6427f-155">Run the file Setup.bat, which performs the following actions:</span></span>  
   
     -   <span data-ttu-id="6427f-156">Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:</span><span class="sxs-lookup"><span data-stu-id="6427f-156">Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:</span></span>  
   
-         <span data-ttu-id="6427f-157">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-157">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
+         <span data-ttu-id="6427f-157">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span><span class="sxs-lookup"><span data-stu-id="6427f-157">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileSend</span></span>  
   
     -   <span data-ttu-id="6427f-158">Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="6427f-158">Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.</span></span>  
   

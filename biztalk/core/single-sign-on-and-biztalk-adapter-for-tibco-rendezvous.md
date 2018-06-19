@@ -1,14 +1,14 @@
 ---
-title: "Un único inicio de sesión y el adaptador de BizTalk para TIBCO Rendezvous | Documentos de Microsoft"
-ms.custom: 
+title: Un único inicio de sesión y el adaptador de BizTalk para TIBCO Rendezvous | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52e698bb-38ba-4a12-b15a-d1581061d62f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013448"
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-tibco-rendezvous"></a><span data-ttu-id="24e9d-102">Inicio de sesión único y adaptador de BizTalk para TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="24e9d-102">Single Sign-On and BizTalk Adapter for TIBCO Rendezvous</span></span>
 

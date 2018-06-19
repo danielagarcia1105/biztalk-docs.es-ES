@@ -1,11 +1,11 @@
 ---
-title: "Personalizar un proceso privado para trabajar con un PIP específico | Documentos de Microsoft"
-ms.custom: 
+title: Personalizar un proceso privado para trabajar con un PIP específico | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, PIPs
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - PIPs, private processes
 - customizing private processes
 ms.assetid: 88494e87-25a0-4c94-9396-61a0e07964aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966754"
 ---
 # <a name="customizing-a-private-process-to-work-with-a-specific-pip"></a><span data-ttu-id="2724d-102">Personalizar un proceso privado para trabajar con un PIP específico</span><span class="sxs-lookup"><span data-stu-id="2724d-102">Customizing a Private Process to Work with a Specific PIP</span></span>
 <span data-ttu-id="2724d-103">Puede crear una expresión de filtro que hará que un servicio de respuesta orquestación de procesos privado para procesar o no las instancias de proceso de un proceso de interfaz de socio (PIP) específico.</span><span class="sxs-lookup"><span data-stu-id="2724d-103">You can create a filter expression that will cause a responder private-process orchestration to process or not process instances of a specific Partner Interface Process (PIP).</span></span> <span data-ttu-id="2724d-104">Esto le da la flexibilidad de crear un proceso personalizado privado para recibir y procesar algunas instancias PIP y usar privado predeterminado procesos todas las demás instancias PIP.</span><span class="sxs-lookup"><span data-stu-id="2724d-104">This gives you the flexibility of creating a custom private process to receive and process some PIP instances, and using the default private process to process all other PIP instances.</span></span>  

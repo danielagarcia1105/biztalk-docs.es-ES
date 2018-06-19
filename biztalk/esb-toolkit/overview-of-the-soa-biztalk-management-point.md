@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el punto de administración de BizTalk de SOA | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el punto de administración de BizTalk de SOA | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d4c3a30-c50e-4c1c-9f59-d9a364078388
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294932"
 ---
 # <a name="overview-of-the-soa-biztalk-management-point"></a><span data-ttu-id="242df-102">Información general sobre el punto de administración de BizTalk de SOA</span><span class="sxs-lookup"><span data-stu-id="242df-102">Overview of the SOA BizTalk Management Point</span></span>
 <span data-ttu-id="242df-103">El punto de administración de BizTalk forma nativa se integra con los productos de administrador de servicios de SOA y área de trabajo.</span><span class="sxs-lookup"><span data-stu-id="242df-103">The BizTalk Management Point natively integrates with SOA Service Manager and Workbench products.</span></span> <span data-ttu-id="242df-104">Al contrario que el punto de administración de servicios Web típica, esta implementación está asociada con los servicios proporcionados por el entorno de Microsoft BizTalk Server, expresado en términos de BizTalk Server ubicaciones de recepción y puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="242df-104">Unlike the typical Web Services Management Point, this implementation is associated with services provided by the Microsoft BizTalk Server environment, expressed in terms of BizTalk Server receive locations and send ports.</span></span> <span data-ttu-id="242df-105">Debido a la arbitrario naturaleza de ubicaciones de recepción y envío puertos (configurados con una variedad de adaptadores de BizTalk Server), estos servicios no están necesariamente asociados con los servicios Web, pero se puede tratar como servicios Web en términos de SOA Service Manager y el área de trabajo SOA.</span><span class="sxs-lookup"><span data-stu-id="242df-105">Because of the arbitrary nature of receive locations and send ports (configured against a variety of BizTalk Server adapters), these services are not necessarily associated with Web services, but they can be treated as Web services in terms of the SOA Service Manager and SOA Workbench.</span></span>  

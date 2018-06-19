@@ -1,18 +1,18 @@
 ---
 title: CallOrchestration (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - orchestrations, calling
 - examples, orchestrations
 ms.assetid: 0c4194f0-c1e2-419a-8a1a-a3c96e8d2667
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966770"
 ---
 # <a name="callorchestration-biztalk-server-sample"></a><span data-ttu-id="4f901-102">CallOrchestration (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="4f901-102">CallOrchestration (BizTalk Server Sample)</span></span>
 <span data-ttu-id="4f901-103">El ejemplo de CallOrchestration muestra cómo llamar a una orquestación de BizTalk desde otra orquestación.</span><span class="sxs-lookup"><span data-stu-id="4f901-103">The CallOrchestration sample demonstrates how to call one BizTalk orchestration from another orchestration.</span></span>  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b93e747cdc665fb5a8407ca2a3d052b880236378
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013043"
 ---
 # <a name="tibco-rendezvous-events-and-receive-locations"></a><span data-ttu-id="6bbe0-101">TIBCO Rendezvous eventos y ubicaciones de recepción</span><span class="sxs-lookup"><span data-stu-id="6bbe0-101">TIBCO Rendezvous Events and Receive Locations</span></span>
 <span data-ttu-id="6bbe0-102">Cualquier sistema TIBCO Rendezvous puede enviar mensajes a su nombre de asunto de elección.</span><span class="sxs-lookup"><span data-stu-id="6bbe0-102">Any TIBCO Rendezvous system can send messages to their subject name of choice.</span></span> <span data-ttu-id="6bbe0-103">El concepto de *eventos* es la generación de mensajes de otros programas de TIBCO Rendezvous.</span><span class="sxs-lookup"><span data-stu-id="6bbe0-103">The concept of *event* is the generation of messages by other TIBCO Rendezvous programs.</span></span>  

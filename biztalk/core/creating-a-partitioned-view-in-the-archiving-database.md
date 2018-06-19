@@ -1,18 +1,18 @@
 ---
 title: Crear una vista con particiones en la base de datos de archivado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - databases, partitioning
 - partitioning
 - Archive database [BAM], partitioning
 ms.assetid: f9ef7480-2e37-4477-92c8-b5686ae9b54b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968930"
 ---
 # <a name="creating-a-partitioned-view-in-the-archiving-database"></a><span data-ttu-id="12a1c-102">Crear una vista con particiones en la base de datos de archivo</span><span class="sxs-lookup"><span data-stu-id="12a1c-102">Creating a Partitioned View in the Archiving Database</span></span>
 <span data-ttu-id="12a1c-103">Al ejecutar el paquete de mantenimiento de datos de BAM (BAM_DM_`<activity name>`) BAM copia cada partición de la base de datos de importación principal a una tabla separada de la base de datos de archivos BAM.</span><span class="sxs-lookup"><span data-stu-id="12a1c-103">When you run the BAM data maintenance package (BAM_DM_`<activity name>`) BAM copies each partition in the BAM Primary Import database to a separate table in the BAM Archive database.</span></span> <span data-ttu-id="12a1c-104">Si desasocia la base de datos de archivo y vuelve a asociarla para las consultas, resultará difícil localizar los datos para la consulta.</span><span class="sxs-lookup"><span data-stu-id="12a1c-104">If you detach the archive database and reattach it for querying, it will be difficult to locate the data for your query.</span></span>  

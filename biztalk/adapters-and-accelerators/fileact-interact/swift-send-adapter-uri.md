@@ -1,14 +1,14 @@
 ---
-title: "URI del adaptador de envío de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: URI del adaptador de envío de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e7bb614-84c7-4fe5-83c0-eaf5f779b3ff
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964362"
 ---
 # <a name="swift-send-adapter-uri"></a><span data-ttu-id="72b39-102">URI del adaptador de envío SWIFT</span><span class="sxs-lookup"><span data-stu-id="72b39-102">SWIFT Send Adapter URI</span></span>
 <span data-ttu-id="72b39-103">El URI para el adaptador de envío es el nombre de construido Respondedor según (SWIFT: / /\<nombre de servicio de respuesta\>).</span><span class="sxs-lookup"><span data-stu-id="72b39-103">The URI for the send adapter is the constructed based responder name (SWIFT://\<Responder Name\>).</span></span> <span data-ttu-id="72b39-104">Nombre de servicio de respuesta es un nombre distintivo definido mediante SWIFT.</span><span class="sxs-lookup"><span data-stu-id="72b39-104">Responder name is a distinguished name defined by SWIFT.</span></span> <span data-ttu-id="72b39-105">Indica a los que debe enviarse el mensaje.</span><span class="sxs-lookup"><span data-stu-id="72b39-105">It indicates to whom the message needs to be sent.</span></span> <span data-ttu-id="72b39-106">SWIFT usa este valor para enrutar el mensaje al destinatario.</span><span class="sxs-lookup"><span data-stu-id="72b39-106">SWIFT uses this value to route the message to the recipient.</span></span>  

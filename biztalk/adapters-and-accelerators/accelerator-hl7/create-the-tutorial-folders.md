@@ -1,14 +1,14 @@
 ---
 title: Crear las carpetas del Tutorial | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5862fe3f-1e92-45d5-8411-137b6896c824
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960850"
 ---
 # <a name="create-the-tutorial-folders"></a><span data-ttu-id="8a239-102">Crear las carpetas del Tutorial</span><span class="sxs-lookup"><span data-stu-id="8a239-102">Create the Tutorial Folders</span></span>
 <span data-ttu-id="8a239-103">Cree las siguientes carpetas mediante [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:</span><span class="sxs-lookup"><span data-stu-id="8a239-103">Create the following folders using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:</span></span>  

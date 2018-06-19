@@ -1,17 +1,17 @@
 ---
-title: "Creación y reparación de fases | Documentos de Microsoft"
-ms.custom: 
+title: Creación y reparación de fases | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - stages, repair
 - stages, create
 ms.assetid: 07d7ce7b-ed15-40a7-9c85-280a1d38985b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208812"
 ---
 # <a name="creating-and-repairing-stages"></a><span data-ttu-id="ba871-102">Creación y reparación de fases</span><span class="sxs-lookup"><span data-stu-id="ba871-102">Creating and Repairing Stages</span></span>
 <span data-ttu-id="ba871-103">La primera etapa en cualquier flujo de trabajo puede ser una fase Create o reparación, es decir, los roles que tienen una capacidad que se define como crean o reparación.</span><span class="sxs-lookup"><span data-stu-id="ba871-103">The first stage in any workflow can be either a Create or Repair stage, that is, roles that have a capability defined as create or repair.</span></span> <span data-ttu-id="ba871-104">El mensaje se origina desde BizTalk MessageBox como un mensaje de error o un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] usuario crea manualmente un mensaje a través de la [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formularios.</span><span class="sxs-lookup"><span data-stu-id="ba871-104">The message originates from the BizTalk MessageBox as a failed message or an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] user manually creates a message through the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms.</span></span>  

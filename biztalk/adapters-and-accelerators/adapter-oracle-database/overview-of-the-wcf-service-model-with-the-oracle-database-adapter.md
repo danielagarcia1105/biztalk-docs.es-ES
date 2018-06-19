@@ -1,18 +1,18 @@
 ---
-title: "Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, overview
 - invoking operations
 - WCF service, creating and implementing
 ms.assetid: 8ed765e5-b5e6-46bd-bcd6-282219caf75d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214388"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-oracle-database-adapter"></a><span data-ttu-id="36f05-102">Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="36f05-102">Overview of the WCF service model with the Oracle Database adapter</span></span>
 <span data-ttu-id="36f05-103">Cuando se usan operaciones que el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies, el código actúa como un cliente o un servicio para el adaptador.</span><span class="sxs-lookup"><span data-stu-id="36f05-103">When you consume operations that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces, your code acts either as a client or a service to the adapter.</span></span> <span data-ttu-id="36f05-104">Para casi todas las operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies, el código es el cliente.</span><span class="sxs-lookup"><span data-stu-id="36f05-104">For almost all of the operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces, your code is the client.</span></span> <span data-ttu-id="36f05-105">Es decir, la aplicación invoca la operación en el adaptador; Por ejemplo insertar registros en una tabla de Oracle.</span><span class="sxs-lookup"><span data-stu-id="36f05-105">That is, your application invokes the operation on the adapter; for example to insert records into an Oracle table.</span></span> <span data-ttu-id="36f05-106">La operación sola para los que el código actúa como un servicio en la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es para la operación de POLLINGSMT.</span><span class="sxs-lookup"><span data-stu-id="36f05-106">The only operation for which your code acts as a service to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is for the POLLINGSMT operation.</span></span> <span data-ttu-id="36f05-107">En este caso, el adaptador envía los resultados de la operación de consulta de sondeo para la aplicación.</span><span class="sxs-lookup"><span data-stu-id="36f05-107">In this case, the adapter sends the results of the polling query operation to your application.</span></span>  

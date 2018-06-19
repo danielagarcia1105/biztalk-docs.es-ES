@@ -1,14 +1,14 @@
 ---
-title: "Paso 2B: agregar puertos de envío de archivo para capturar el mensaje Sw:HandleRequest para el almacén de interacción y el escenario de avance (extracción) | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2B: agregar puertos de envío de archivo para capturar el mensaje Sw:HandleRequest para el almacén de interacción y el escenario de avance (extracción) | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa22d6e7-f1bd-43ad-9a0e-0b287057d20f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225244"
 ---
 # <a name="step-2b-add-file-send-ports-to-capture-the-swhandlerequest-message-for-the-interact-store-and-forward-pull-scenario"></a><span data-ttu-id="d1f8e-102">Paso 2B: agregar puertos de envío de archivo para capturar el mensaje Sw:HandleRequest para el almacén de interacción y el escenario de avance (extracción)</span><span class="sxs-lookup"><span data-stu-id="d1f8e-102">Step 2B: Add FILE Send Ports to Capture the Sw:HandleRequest Message for the InterAct Store and Forward (Pull) Scenario</span></span>
 <span data-ttu-id="d1f8e-103">Antes de comenzar este paso, debe completar [paso 2A: Agregar archivo ubicaciones de recepción para el almacén de interacción y el escenario de reenvío (extracción)](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-interact-store-and-forward-scenario.md).</span><span class="sxs-lookup"><span data-stu-id="d1f8e-103">Before you begin this step, you must complete [Step 2A: Add FILE Receive Locations for the InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-interact-store-and-forward-scenario.md).</span></span>  
@@ -48,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 10. <span data-ttu-id="d1f8e-120">Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta dinámico**.</span><span class="sxs-lookup"><span data-stu-id="d1f8e-120">Right-click **Send Ports**, point to **New**, and then click **Dynamic Solicit-Response Send Port**.</span></span>  
   
-11. <span data-ttu-id="d1f8e-121">En el **propiedades de puerto de envío** ventana, nombre el puerto de envío**, Tutorial_IA_DynamicSendPort**.</span><span class="sxs-lookup"><span data-stu-id="d1f8e-121">In the **Send Port Properties** window, name the send port**, Tutorial_IA_DynamicSendPort**.</span></span>  
+11. <span data-ttu-id="d1f8e-121">En el **propiedades de puerto de envío** ventana, nombre el puerto de envío **, Tutorial_IA_DynamicSendPort**.</span><span class="sxs-lookup"><span data-stu-id="d1f8e-121">In the **Send Port Properties** window, name the send port **, Tutorial_IA_DynamicSendPort**.</span></span>  
   
 12. <span data-ttu-id="d1f8e-122">En el **propiedades de puerto de envío** ventana, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d1f8e-122">In the **Send Port Properties** window, do the following:</span></span>  
   

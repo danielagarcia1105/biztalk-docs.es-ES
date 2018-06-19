@@ -1,14 +1,14 @@
 ---
 title: Indicadores de rendimiento clave | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 298d639a-7adf-4f04-b097-a17f4c77ee50
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298292"
 ---
 # <a name="key-performance-indicators"></a><span data-ttu-id="870c4-102">Indicadores clave de rendimiento</span><span class="sxs-lookup"><span data-stu-id="870c4-102">Key Performance Indicators</span></span>
 <span data-ttu-id="870c4-103">Este tema proporciona los resultados de pruebas que el grupo de productos de servidor BizTalk Server tenerse en cuenta al usar los siguientes métodos de escalado horizontal:</span><span class="sxs-lookup"><span data-stu-id="870c4-103">This topic provides test results that the BizTalk Server product group observed when using the following scale-out methods:</span></span>  

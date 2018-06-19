@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para LOB especiales Operations1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2e418a6-8bc7-42d9-9672-a9c149f32778
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962586"
 ---
 # <a name="message-schemas-for-special-lob-operations"></a><span data-ttu-id="997ad-102">Esquemas de mensaje para operaciones especiales de LOB</span><span class="sxs-lookup"><span data-stu-id="997ad-102">Message Schemas for Special LOB Operations</span></span>
 <span data-ttu-id="997ad-103">El Read_\<LOBColName\> y Update_\<LOBColName\> se producen operaciones de tablas y vistas que contienen columnas LOB, donde \<LOBColName\> es la columna LOB de la tabla o la vista.</span><span class="sxs-lookup"><span data-stu-id="997ad-103">The Read_\<LOBColName\> and Update_\<LOBColName\> operations are surfaced for tables and views that contain LOB columns, where \<LOBColName\> is the LOB column in the table or view.</span></span> <span data-ttu-id="997ad-104">Estas operaciones permiten leer o escribir los datos de LOB como un flujo de datos codificados de base64Binary.</span><span class="sxs-lookup"><span data-stu-id="997ad-104">These operations enable you to read or write the LOB data as a stream of base64Binary-encoded data.</span></span> <span data-ttu-id="997ad-105">Que operan en una sola columna de datos LOB en una sola fila.</span><span class="sxs-lookup"><span data-stu-id="997ad-105">They operate on a single column of LOB data in a single row.</span></span>  

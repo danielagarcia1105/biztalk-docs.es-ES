@@ -1,14 +1,14 @@
 ---
 title: Conectarse a Oracle E-Business Suite mediante el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80ff31d4-be4c-42d7-a321-8f01b40dd71e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217868"
 ---
 # <a name="connect-to-oracle-e-business-suite-using-the-adapter"></a><span data-ttu-id="840ba-102">Conectarse a Oracle E-Business Suite mediante el adaptador</span><span class="sxs-lookup"><span data-stu-id="840ba-102">Connect to Oracle E-Business Suite using the adapter</span></span>
 <span data-ttu-id="840ba-103">El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] ODP.NET 11.1.0.7 se utiliza para conectarse a Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="840ba-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] uses ODP.NET 11.1.0.7 to connect to Oracle E-Business Suite.</span></span> <span data-ttu-id="840ba-104">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] requiere que los clientes de adaptador proporcionar una cadena de conexión, llamada a la conexión Uniform Resource Identifier (URI), para conectarse a Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="840ba-104">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] requires adapter clients to provide a connection string, called the connection Uniform Resource Identifier (URI), to connect to the Oracle E-Business Suite.</span></span> <span data-ttu-id="840ba-105">Internamente, el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] se conecta a la base de datos de Oracle subyacente a través de la dirección URI.</span><span class="sxs-lookup"><span data-stu-id="840ba-105">Internally, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] connects to the underlying Oracle database through the URI.</span></span> <span data-ttu-id="840ba-106">Con un URI de conexión, los clientes de adaptador pueden especificar parámetros de conexión para conectarse a un sistema externo.</span><span class="sxs-lookup"><span data-stu-id="840ba-106">With a connection URI, adapter clients can specify connection parameters to connect to an external system.</span></span>  

@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 601aa9f9-e42f-47aa-b020-7a1eed4f0780
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25967418"
 ---
 # <a name="message-schemas-for-idoc-operations"></a><span data-ttu-id="d3a83-103">Esquemas de mensaje para las operaciones de IDOC</span><span class="sxs-lookup"><span data-stu-id="d3a83-103">Message Schemas for IDOC Operations</span></span>
 <span data-ttu-id="d3a83-104">Documentos intermedios (idoc) son compatibles con SAP para comunicarse de forma asincrónica con SAP y los sistemas SAP no normalizados documentos de EDI similar.</span><span class="sxs-lookup"><span data-stu-id="d3a83-104">Intermediate documents (IDOCS) are standardized EDI-like documents supported by SAP for asynchronously communicating with both SAP and non-SAP systems.</span></span> <span data-ttu-id="d3a83-105">IDOC se usa para enviar y recibir documentos de negocio como pedidos de venta a o desde el sistema SAP un socio comercial o un programa externo.</span><span class="sxs-lookup"><span data-stu-id="d3a83-105">IDOCS are used to send and receive business documents like sales orders to or from a trading partner’s SAP system or external program.</span></span>  

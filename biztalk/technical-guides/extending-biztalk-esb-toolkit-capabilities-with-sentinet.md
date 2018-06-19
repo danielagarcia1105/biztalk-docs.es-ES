@@ -1,14 +1,14 @@
 ---
 title: Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con Sentinet | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d42f19f-5cf3-49b1-be81-c4cb09f59531
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299476"
 ---
 # <a name="extending-biztalk-esb-toolkit-capabilities-with-sentinet"></a><span data-ttu-id="93c14-102">Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con Sentinet</span><span class="sxs-lookup"><span data-stu-id="93c14-102">Extending BizTalk ESB Toolkit Capabilities with Sentinet</span></span>
 <span data-ttu-id="93c14-103">**Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con Sentinet**</span><span class="sxs-lookup"><span data-stu-id="93c14-103">**Extending BizTalk ESB Toolkit Capabilities with Sentinet**</span></span>  

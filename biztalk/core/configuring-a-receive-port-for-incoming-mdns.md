@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de recepción para MDN entrantes | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de recepción para MDN entrantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d156beae-e145-48de-9f02-37457073ef97
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968314"
 ---
 # <a name="configuring-a-receive-port-for-incoming-mdns"></a><span data-ttu-id="a1365-102">Configurar un puerto de recepción para MDN entrantes</span><span class="sxs-lookup"><span data-stu-id="a1365-102">Configuring a Receive Port for Incoming MDNs</span></span>
 <span data-ttu-id="a1365-103">Para recibir un MDN de AS2, cree un puerto de recepción HTTP unidireccional para recibir el mensaje y devolver una respuesta a la entidad.</span><span class="sxs-lookup"><span data-stu-id="a1365-103">To receive an AS2 MDN, create a one-way HTTP receive port to receive the message and return a response back to the party.</span></span>  

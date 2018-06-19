@@ -1,14 +1,14 @@
 ---
 title: Supervisar el entorno de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: baae51cf-0284-429b-8335-bc1ac3e63f4c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299116"
 ---
 # <a name="monitoring-the-biztalk-server-environment"></a><span data-ttu-id="a3089-102">Supervisar el entorno de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="a3089-102">Monitoring the BizTalk Server Environment</span></span>
 <span data-ttu-id="a3089-103">Puede supervisar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] infraestructura y las aplicaciones con un manual o automática proceso o una combinación de los dos métodos, con las herramientas que se muestra en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="a3089-103">You can monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] infrastructure and applications with a manual or automatic process, or a combination of the two methods, using the tools as shown in the following table.</span></span>  

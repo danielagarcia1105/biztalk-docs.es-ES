@@ -1,18 +1,18 @@
 ---
 title: Samples3 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK samples
 - examples, developing
 - developing, examples
 ms.assetid: b940111e-4f71-494b-b7a3-d2e8310bea51
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965762"
 ---
 # <a name="samples"></a><span data-ttu-id="ac1ae-102">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="ac1ae-102">Samples</span></span>
 <span data-ttu-id="ac1ae-103">Esta sección describen los ejemplos incluidos en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK).</span><span class="sxs-lookup"><span data-stu-id="ac1ae-103">This section describes the samples included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span> <span data-ttu-id="ac1ae-104">Esta sección proporciona información detallada sobre cada ejemplo, incluido cómo generar el ejemplo, cómo ejecutarlo y los resultados que se espera.</span><span class="sxs-lookup"><span data-stu-id="ac1ae-104">This section provides detailed information about each sample, including how to build the sample, how to run it, and what results to expect.</span></span>  

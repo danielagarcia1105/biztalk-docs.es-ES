@@ -1,17 +1,17 @@
 ---
-title: "Instalación de certificados | Documentos de Microsoft"
-ms.custom: 
+title: Instalación de certificados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, installing
 - installing, certificates
 ms.assetid: 7525f771-623c-420f-99ca-c834e819829d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209468"
 ---
 # <a name="installing-certificates"></a><span data-ttu-id="15bcf-102">Instalación de certificados</span><span class="sxs-lookup"><span data-stu-id="15bcf-102">Installing Certificates</span></span>
 <span data-ttu-id="15bcf-103">Para enviar, reparar o enviar mensajes, debe tener instalados los certificados apropiados.</span><span class="sxs-lookup"><span data-stu-id="15bcf-103">To send, repair, or submit messages, you must have the proper certificates installed.</span></span> <span data-ttu-id="15bcf-104">En este tema se describe cómo agregar certificados.</span><span class="sxs-lookup"><span data-stu-id="15bcf-104">This topic describes how to add certificates.</span></span> <span data-ttu-id="15bcf-105">En un entorno de producción, consulte el departamento de TI para los certificados.</span><span class="sxs-lookup"><span data-stu-id="15bcf-105">In a production environment, see your IT department for certificates.</span></span>  

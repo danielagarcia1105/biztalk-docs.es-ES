@@ -1,11 +1,11 @@
 ---
 title: Herramienta de Update2XMLSchema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML schemas, Update2XMLSchema tool
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Update2XMLSchema tool
 - Update2XMLSchema tool, syntax
 ms.assetid: fd861e2f-ebda-427f-bd52-a2f05b7e22da
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961114"
 ---
 # <a name="update2xmlschema-tool"></a><span data-ttu-id="b94eb-102">Herramienta Update2XMLSchema</span><span class="sxs-lookup"><span data-stu-id="b94eb-102">Update2XMLSchema Tool</span></span>
 <span data-ttu-id="b94eb-103">La herramienta Update2XMLSchema le permite modificar los esquemas XML de HL7 2. para trabajar con el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b94eb-103">The Update2XMLSchema tool enables you to modify HL7 2.XML schemas to work with BizTalk Editor.</span></span> <span data-ttu-id="b94eb-104">Esto es necesario porque algunos esquemas XML de 2. HL7 no funcionan correctamente en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sin ninguna modificación.</span><span class="sxs-lookup"><span data-stu-id="b94eb-104">This is necessary because certain HL7 2.XML schemas do not work correctly within [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] without modification.</span></span> <span data-ttu-id="b94eb-105">Después de modificar los esquemas, la herramienta coloca en la carpeta esquemas donde [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] está instalado, por ejemplo,  *\<unidad\>*: \Program BizTalk \<versión\> Acelerador para HL7\Templates\Schemas.</span><span class="sxs-lookup"><span data-stu-id="b94eb-105">After modifying the schemas, the tool places them in the Schemas folder where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is installed, for instance, *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\Templates\Schemas.</span></span>  

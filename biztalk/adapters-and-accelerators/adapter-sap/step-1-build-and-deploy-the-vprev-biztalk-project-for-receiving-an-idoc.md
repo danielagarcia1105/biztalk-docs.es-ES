@@ -1,18 +1,18 @@
 ---
 title: 'Paso 1: Compilar e implementar el proyecto de BizTalk vPrev para recibir un IDOC | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, building and deploying previous version of BizTalk project for receiving an IDOC
 - migrating, building and deploying previous version of BizTalk project for receiving an IDOC
 - migration
 ms.assetid: ab6bdf9a-dca5-4acd-97b2-a9afe9792978
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963330"
 ---
 # <a name="step-1-build-and-deploy-the-vprev-biztalk-project-for-receiving-an-idoc"></a><span data-ttu-id="084c4-102">Paso 1: Compilar e implementar el proyecto de BizTalk vPrev para recibir un IDOC</span><span class="sxs-lookup"><span data-stu-id="084c4-102">Step 1: Build and Deploy the vPrev BizTalk Project for Receiving an IDOC</span></span>
 <span data-ttu-id="084c4-103">![Paso 1 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span><span class="sxs-lookup"><span data-stu-id="084c4-103">![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span></span>  

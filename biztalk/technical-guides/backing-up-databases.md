@@ -1,14 +1,14 @@
 ---
 title: Copia de seguridad de bases de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0524a8f0-15a3-4731-a7bd-c0c935fff6c8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300540"
 ---
 # <a name="backing-up-databases"></a><span data-ttu-id="18d20-102">Realizar copias de seguridad de bases de datos</span><span class="sxs-lookup"><span data-stu-id="18d20-102">Backing Up Databases</span></span>
 <span data-ttu-id="18d20-103">Dado que[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] utiliza transacciones distribuidas a través de varias bases de datos, el trabajo de copia de seguridad de BizTalk Server crea copias de seguridad sincronizadas de todas las [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="18d20-103">Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses distributed transactions across multiple databases, the Backup BizTalk Server job creates synchronized backups of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.</span></span> <span data-ttu-id="18d20-104">Esto se logra mediante el uso de marcado las transacciones con el modelo de recuperación de base de datos "Completa".</span><span class="sxs-lookup"><span data-stu-id="18d20-104">This is accomplished by using marked transactions with the “Full” database recovery model.</span></span> <span data-ttu-id="18d20-105">Esto es necesario para las copias de seguridad para que sea transaccionalmente coherente entre las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="18d20-105">This is required for the backups to be transactionally consistent across databases.</span></span> <span data-ttu-id="18d20-106">Para obtener más información, consulte ["Transacciones marcadas, copias de seguridad completas y las copias de seguridad del registro"](http://go.microsoft.com/fwlink/?LinkId=151565) (http://go.microsoft.com/fwlink/?LinkId=151565) en la documentación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="18d20-106">For more information, see ["Marked Transactions, Full Backups, and Log Backups"](http://go.microsoft.com/fwlink/?LinkId=151565) (http://go.microsoft.com/fwlink/?LinkId=151565) in the BizTalk Server documentation.</span></span>  

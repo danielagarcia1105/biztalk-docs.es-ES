@@ -1,17 +1,17 @@
 ---
-title: "Lección 1: Agregar un proyecto de canalizaciones a la solución | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 1: Agregar un proyecto de canalizaciones a la solución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, adding pipelines
 - pipelines, adding to projects
 ms.assetid: ae058b52-e2ea-406c-9f9f-6cb1b72413d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25965706"
 ---
 # <a name="lesson-1-adding-a-pipelines-project-to-the-solution"></a><span data-ttu-id="78105-102">Lección 1: Agregar un proyecto de canalizaciones a la solución</span><span class="sxs-lookup"><span data-stu-id="78105-102">Lesson 1: Adding a Pipelines Project to the Solution</span></span>
 <span data-ttu-id="78105-103">En esta lección, se agregará que un nuevo proyecto de BizTalk para SWIFT canaliza a la solución para que pueda personalizar su envío y las canalizaciones de recepción.</span><span class="sxs-lookup"><span data-stu-id="78105-103">In this lesson, you add a new BizTalk project for SWIFT pipelines to the solution so you can customize your send and receive pipelines.</span></span>  

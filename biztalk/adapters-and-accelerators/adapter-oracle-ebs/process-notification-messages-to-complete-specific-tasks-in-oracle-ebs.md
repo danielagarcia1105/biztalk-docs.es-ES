@@ -1,14 +1,14 @@
 ---
-title: "Procesar mensajes de notificación para completar tareas específicas en Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Procesar mensajes de notificación para completar tareas específicas en Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bddeb5a-3819-40cc-aae0-c49963f0beb1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968090"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-oracle-e-business-suite"></a><span data-ttu-id="71ead-102">Procesar los mensajes de notificación para completar tareas específicas en Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="71ead-102">Process notification messages to complete specific tasks in Oracle E-Business Suite</span></span>
 <span data-ttu-id="71ead-103">Puede usar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir notificaciones de cambios en las tablas de base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="71ead-103">You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive notifications for changes to the Oracle database tables.</span></span> <span data-ttu-id="71ead-104">Sin embargo, el adaptador sólo envía una notificación de que algunos registros se insertarlos, actualizarlos o eliminan en una tabla de base de datos determinada.</span><span class="sxs-lookup"><span data-stu-id="71ead-104">However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table.</span></span> <span data-ttu-id="71ead-105">Cualquier procesamiento posterior en esos registros debe controlarse las propias aplicaciones de cliente.</span><span class="sxs-lookup"><span data-stu-id="71ead-105">Any post-processing on those records must be handled by the client applications themselves.</span></span> <span data-ttu-id="71ead-106">En este tema se presenta una descripción basada en escenario sobre cómo procesar los registros de la tabla en función del tipo de notificación recibida de la base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="71ead-106">This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the Oracle database.</span></span>  

@@ -1,18 +1,18 @@
 ---
 title: Modos de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message modes, about message modes
 - messages, message modes
 - message modes, HL7 messages
 ms.assetid: 2d832b67-6f0e-45e1-95ac-cb80b74a7831
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205060"
 ---
 # <a name="message-modes"></a><span data-ttu-id="3f78e-102">Modos de mensaje</span><span class="sxs-lookup"><span data-stu-id="3f78e-102">Message Modes</span></span>
 <span data-ttu-id="3f78e-103">Hay dos conceptos básicos que subyacen a todos los mensajes de HL7.</span><span class="sxs-lookup"><span data-stu-id="3f78e-103">There are two basic concepts that underlie all HL7 messages.</span></span> <span data-ttu-id="3f78e-104">Estos conceptos de direcciones distintas formas en el que pueden interactuar sistemas independientes que intercambian datos y proporcionan una estructura que admita los requisitos de interoperabilidad con el tiempo dentro de un sistema distribuido de atención médica.</span><span class="sxs-lookup"><span data-stu-id="3f78e-104">These concepts address different ways in which independent systems that exchange data can interact, and provide a structure that supports the requirements of interoperability over time within a distributed health care system.</span></span> <span data-ttu-id="3f78e-105">Los conceptos siguientes definen los temas subyacentes detrás del diseño de HL7:</span><span class="sxs-lookup"><span data-stu-id="3f78e-105">The concepts listed below define the underlying themes behind the HL7 design:</span></span>  

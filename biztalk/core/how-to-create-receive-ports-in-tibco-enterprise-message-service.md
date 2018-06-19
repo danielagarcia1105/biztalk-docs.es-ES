@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: e31246cf90f42206de6a22fcc32338fcb2936db3
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014891"
 ---
 # <a name="how-to-create-receive-ports-in-tibco-enterprise-message-service"></a><span data-ttu-id="8d1bb-101">Creación de puertos de recepción en TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="8d1bb-101">How to Create Receive Ports in TIBCO Enterprise Message Service</span></span>
 <span data-ttu-id="8d1bb-102">Siga los pasos siguientes para crear un puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="8d1bb-102">Follow these steps to create a receive port.</span></span>  

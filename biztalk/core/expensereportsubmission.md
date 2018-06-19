@@ -1,17 +1,17 @@
 ---
 title: ExpenseReportSubmission | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 ms.assetid: d0bacab3-7092-44b8-a1c6-6f574a2db8bd
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969770"
 ---
 # <a name="expensereportsubmission"></a><span data-ttu-id="e6d07-102">ExpenseReportSubmission</span><span class="sxs-lookup"><span data-stu-id="e6d07-102">ExpenseReportSubmission</span></span>
 <span data-ttu-id="e6d07-103">El ejemplo ExpenseReportSubmission indica cómo enviar un documento a una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde una aplicación cliente enriquecida como Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="e6d07-103">The ExpenseReportSubmission sample demonstrates how to submit a document to a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration from a rich client such as Microsoft Excel.</span></span>  
@@ -126,7 +127,7 @@ ms.lasthandoff: 11/28/2017
   
     4.  <span data-ttu-id="e6d07-180">Haga clic en **agregar** para mostrar la **Agregar archivo** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="e6d07-180">Click **Add** to display the **Add file** dialog box.</span></span>  
   
-    5.  <span data-ttu-id="e6d07-181">Haga clic en **examinar** para mostrar la **abiertos** diálogo cuadro y vaya a  *\<carpeta de instalación de BizTalk Server\>*\HttpReceive\ BTSHTTPReceive.dll y haga clic en **abiertos**, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e6d07-181">Click **Browse** to display the **Open** dialog box and navigate to *\<BizTalk Server Installation folder\>*\HttpReceive\BTSHTTPReceive.dll and click **Open**, then click **OK**.</span></span>  
+    5.  <span data-ttu-id="e6d07-181">Haga clic en **examinar** para mostrar la **abiertos** diálogo cuadro y vaya a  *\<carpeta de instalación de BizTalk Server\>* \HttpReceive\ BTSHTTPReceive.dll y haga clic en **abiertos**, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e6d07-181">Click **Browse** to display the **Open** dialog box and navigate to *\<BizTalk Server Installation folder\>* \HttpReceive\BTSHTTPReceive.dll and click **Open**, then click **OK**.</span></span>  
   
     6.  <span data-ttu-id="e6d07-182">Habilitar la opción de **establecer el estado de extensión a permitido** y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e6d07-182">Enable the option to **Set extension status to Allowed** and click **OK**.</span></span>  
   

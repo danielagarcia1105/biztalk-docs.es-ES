@@ -1,14 +1,14 @@
 ---
-title: "Conectarse a Oracle E-Business Suite mediante la autenticación de Windows | Documentos de Microsoft"
-ms.custom: 
+title: Conectarse a Oracle E-Business Suite mediante la autenticación de Windows | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0937dfd9-4a94-4d65-a42c-3c5019eefde2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961586"
 ---
 # <a name="connect-to-oracle-e-business-suite-using-windows-authentication"></a><span data-ttu-id="bc58f-102">Conectarse a Oracle E-Business Suite mediante la autenticación de Windows</span><span class="sxs-lookup"><span data-stu-id="bc58f-102">Connect to Oracle E-Business Suite using Windows Authentication</span></span>
 <span data-ttu-id="bc58f-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador utilizar la autenticación de Windows para establecer una conexión con Oracle E-Business Suite.</span><span class="sxs-lookup"><span data-stu-id="bc58f-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to use Windows Authentication to establish a connection with the Oracle E-Business Suite.</span></span> <span data-ttu-id="bc58f-104">Para usar la autenticación de Windows los clientes de adaptador deben especificar una "/" para el nombre de usuario y deje la contraseña en blanco.</span><span class="sxs-lookup"><span data-stu-id="bc58f-104">To use Windows Authentication adapter clients must specify a “/” for user name and leave the password blank.</span></span> <span data-ttu-id="bc58f-105">Para obtener más información sobre cómo conectarse a Oracle E-Business Suite mediante la autenticación de Windows, vea [conectarse a Oracle E-Business Suite en Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md).</span><span class="sxs-lookup"><span data-stu-id="bc58f-105">For more information about connecting to the Oracle E-Business Suite using Windows Authentication, see [Connect to the Oracle E-Business Suite in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md).</span></span>  

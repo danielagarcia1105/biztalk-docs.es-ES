@@ -16,7 +16,7 @@ helpviewer_keywords:
 - BAPIs, searching
 - BAPI operations, generating schema
 ms.assetid: 2884215a-ddba-40c7-bf9f-bfc7831f90bb
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25962394"
 ---
 # <a name="browse-search-and-get-metadata-for-bapi-operations-in-sap"></a><span data-ttu-id="a2789-102">Examinar, buscar y obtener los metadatos de las operaciones de BAPI en SAP</span><span class="sxs-lookup"><span data-stu-id="a2789-102">Browse, search, and get metadata for BAPI operations in SAP</span></span>
 <span data-ttu-id="a2789-103">Esta sección proporciona instrucciones sobre cómo examinar, buscar y recuperar los metadatos de SAP para las operaciones de BAPI usan [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], o [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="a2789-103">This section provides instructions on how to browse, search, and retrieve metadata from SAP for BAPI operations using [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span> <span data-ttu-id="a2789-104">La mayoría de las instrucciones que aparecen es los misma para toda la interfaz de usuario de tres.</span><span class="sxs-lookup"><span data-stu-id="a2789-104">Most of the instructions are same for all three user interface.</span></span> <span data-ttu-id="a2789-105">Siempre que se proporcionan procedimientos procede, independientes de la interfaz de usuario correspondientes.</span><span class="sxs-lookup"><span data-stu-id="a2789-105">Wherever applicable, separate procedures are provided for the relevant user interface.</span></span>  

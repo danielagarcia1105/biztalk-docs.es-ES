@@ -1,14 +1,14 @@
 ---
-title: "Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e70fa4c2-d81b-4eb0-a23d-871b64c881e6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223020"
 ---
 # <a name="receive-query-notifications-after-a-receive-location-breakdown-in-sql-using-biztalk-server"></a><span data-ttu-id="b1c3d-102">Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="b1c3d-102">Receive query notifications After a Receive Location Breakdown in SQL using BizTalk Server</span></span>
 <span data-ttu-id="b1c3d-103">Considere un escenario donde haya una aplicación de BizTalk que recibe mensajes de notificación de cambio de base de datos cuando se realizan cambios en la tabla de empleados.</span><span class="sxs-lookup"><span data-stu-id="b1c3d-103">Consider a scenario where you have a BizTalk application that receives database change notification messages when changes are made to the EMPLOYEE table.</span></span> <span data-ttu-id="b1c3d-104">Si la ubicación de recepción configurado como parte de desglosa la aplicación de BizTalk y al mismo tiempo los registros se agregan a la tabla de empleados, no recibirá notificaciones para los registros agregados recientemente.</span><span class="sxs-lookup"><span data-stu-id="b1c3d-104">If the receive location configured as part of the BizTalk application breaks down, and simultaneously records are added into the EMPLOYEE table, you will not receive notifications for the recently added records.</span></span> <span data-ttu-id="b1c3d-105">También no sabrá cuando la ubicación de recepción esté disponible de nuevo.</span><span class="sxs-lookup"><span data-stu-id="b1c3d-105">You will also not know when the receive location is available again.</span></span> <span data-ttu-id="b1c3d-106">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] expone una propiedad de enlace, **NotifyOnListenerStart**, que se pueden configurar para recibir una notificación que se ha recuperado la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="b1c3d-106">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes a binding property, **NotifyOnListenerStart**, that you can configure to get a notification that the receive location has recovered.</span></span> <span data-ttu-id="b1c3d-107">Puede especificar los siguientes valores para la **NotifyOnListenerStart** propiedad de enlace:</span><span class="sxs-lookup"><span data-stu-id="b1c3d-107">You can specify the following values for the **NotifyOnListenerStart** binding property:</span></span>  

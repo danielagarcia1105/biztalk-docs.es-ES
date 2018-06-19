@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Crear un puerto de envío para entregar confirmaciones | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Crear un puerto de envío para entregar confirmaciones | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 739b3e60-db56-46e9-a6b1-0acbe0c08f55
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208004"
 ---
 # <a name="step-6-create-a-send-port-to-deliver-acknowledgments"></a><span data-ttu-id="dca41-102">Paso 6: Crear un puerto de envío para entregar confirmaciones</span><span class="sxs-lookup"><span data-stu-id="dca41-102">Step 6: Create a Send Port to Deliver Acknowledgments</span></span>
 <span data-ttu-id="dca41-103">En este paso, creará un puerto para enviar confirmaciones de vuelta al origen del lote.</span><span class="sxs-lookup"><span data-stu-id="dca41-103">In this step, you create a port to send acknowledgments back to the source of the batch.</span></span>  

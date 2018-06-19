@@ -1,15 +1,15 @@
 ---
 title: Esquemas de mensajes para el sondeo y operaciones de TypedPolling para el adaptador SQL en BizTalk | Documentos de Microsoft
-description: "Estructura que se utiliza el adaptador de SQL en el módulo de adaptador de BizTalk (BAP) de mensajes de sondeo y TypedPolling"
-ms.custom: 
+description: Estructura que se utiliza el adaptador de SQL en el módulo de adaptador de BizTalk (BAP) de mensajes de sondeo y TypedPolling
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e900307-2c9c-493b-81c9-67af3e143eeb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964866"
 ---
 # <a name="message-schemas-for-the-polling-and-typedpolling-operations"></a><span data-ttu-id="ea97a-103">Esquemas de mensaje para las operaciones de TypedPolling y sondeo</span><span class="sxs-lookup"><span data-stu-id="ea97a-103">Message Schemas for the Polling and TypedPolling Operations</span></span>
 <span data-ttu-id="ea97a-104">El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies el sondeo y TypedPolling operaciones para devolver el conjunto de resultados de la consulta de sondeo a un cliente de adaptador de entrada.</span><span class="sxs-lookup"><span data-stu-id="ea97a-104">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the Polling and TypedPolling inbound operations to return the result set of the polling query to an adapter client.</span></span>  

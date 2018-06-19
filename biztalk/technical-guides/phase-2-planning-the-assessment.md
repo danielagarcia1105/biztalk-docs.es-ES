@@ -1,14 +1,14 @@
 ---
-title: "Fase 2: Planear la evaluación | Documentos de Microsoft"
-ms.custom: 
+title: 'Fase 2: Planear la evaluación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd67e9fb-afc9-48c7-91c9-eea5b66423a7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302004"
 ---
 # <a name="phase-2-planning-the-assessment"></a><span data-ttu-id="78617-102">Fase 2: Planear la evaluación</span><span class="sxs-lookup"><span data-stu-id="78617-102">Phase 2: Planning the Assessment</span></span>
 <span data-ttu-id="78617-103">La fase de planificación de una evaluación de rendimiento en gran medida consiste en establecer los hitos específicos para la finalización de las entregas identificadas durante la fase de ámbito.</span><span class="sxs-lookup"><span data-stu-id="78617-103">The Plan phase of a performance assessment largely consists of setting up specific milestones for the completion of the deliverables identified during the Scope phase.</span></span> <span data-ttu-id="78617-104">La fase de planificación es "when" a la fase de ámbito del "qué".</span><span class="sxs-lookup"><span data-stu-id="78617-104">The Plan phase is the “when” to the Scope phase’s “what.”</span></span> <span data-ttu-id="78617-105">Software de terceros y logística físico es "cómo" y "donde" aspectos que deben considerarse también durante la fase de planeación como estos aspectos pueden requerir el tiempo adicional para implementar.</span><span class="sxs-lookup"><span data-stu-id="78617-105">Third-party software and physical logistics are “how” and “where” aspects that should also be considered during the planning phase as these aspects may require additional lead time to implement.</span></span>  

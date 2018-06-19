@@ -1,14 +1,14 @@
 ---
-title: "Supervisión mediante reglas de umbral de rendimiento de limitación | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión mediante reglas de umbral de rendimiento de limitación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc2c3024-a54b-4485-8110-c2ec9ec52721
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299084"
 ---
 # <a name="monitoring-throttling-using-performance-threshold-rules"></a><span data-ttu-id="76831-102">Usar reglas de umbral de rendimiento de limitación de supervisión</span><span class="sxs-lookup"><span data-stu-id="76831-102">Monitoring Throttling Using Performance Threshold Rules</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="76831-103">se inicializará la limitación para proteger el sistema alcance un estado irrecuperable.</span><span class="sxs-lookup"><span data-stu-id="76831-103"> will initialize throttling to protect the system from reaching an unrecoverable state.</span></span> <span data-ttu-id="76831-104">La limitación puede indicar un problema y le ayuda a identificar su origen.</span><span class="sxs-lookup"><span data-stu-id="76831-104">Throttling can indicate a problem and assist you in identifying its source.</span></span> <span data-ttu-id="76831-105">Después de haber identificado la causa del cuello de botella en función del estado de limitación, analice otros contadores de rendimiento para reducir el origen del problema.</span><span class="sxs-lookup"><span data-stu-id="76831-105">After you have identified the cause of the bottleneck based on the throttling state, analyze the other performance counters to narrow down the source of the problem.</span></span>  

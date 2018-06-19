@@ -1,11 +1,11 @@
 ---
-title: "Proceso de reparación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Proceso de reparación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - validating, messages
 - messages, validating
 ms.assetid: 87b97cec-5796-4684-bcf0-53285aca7ee2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211196"
 ---
 # <a name="message-repair-process"></a><span data-ttu-id="5caab-102">Proceso de reparación de mensajes</span><span class="sxs-lookup"><span data-stu-id="5caab-102">Message Repair Process</span></span>
 <span data-ttu-id="5caab-103">De forma predeterminada, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] suspende los mensajes con errores en la cola de suspensión de la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="5caab-103">By default, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] suspends failed messages in the suspended queue of the MessageBox database.</span></span> <span data-ttu-id="5caab-104">Este proceso controla los mensajes error por separado de los mensajes correctos.</span><span class="sxs-lookup"><span data-stu-id="5caab-104">This process handles failed messages separately from successful messages.</span></span> <span data-ttu-id="5caab-105">Mediante este mecanismo de forma predeterminada, sin embargo, tiene una capacidad limitada para recuperar mensajes con errores y corregirlos.</span><span class="sxs-lookup"><span data-stu-id="5caab-105">Using this default mechanism, however, you have a limited ability to retrieve failed messages and repair them.</span></span> <span data-ttu-id="5caab-106">La característica de reparación de mensajes y nuevo envío de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] permite un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] usuario reparar un mensaje y enviarlo de nuevo.</span><span class="sxs-lookup"><span data-stu-id="5caab-106">The Message Repair and New Submission feature of [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] enables an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] user to repair a message and resubmit it.</span></span> <span data-ttu-id="5caab-107">Otro [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] usuario, a continuación, puede comprobar las reparaciones, y una tercera puede aprobar las reparaciones.</span><span class="sxs-lookup"><span data-stu-id="5caab-107">Another [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] user can then verify the repairs, and a third can approve the repairs.</span></span>  

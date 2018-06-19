@@ -1,11 +1,11 @@
 ---
 title: Importar BPEL (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BPEL Import Wizard, examples
 - BPEL Import Wizard, orchestrations
 ms.assetid: 3fc70608-ccd9-4249-b238-c09fc6551db1
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967746"
 ---
 # <a name="bpel-import-biztalk-server-sample"></a><span data-ttu-id="fdf76-102">Importar BPEL (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fdf76-102">BPEL Import (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fdf76-103">El ejemplo de Importar BPEL muestra cómo crear una orquestación a partir de una descripción de proceso de Lenguaje de ejecución de procesos empresariales (BPEL) y sus artefactos relacionados.</span><span class="sxs-lookup"><span data-stu-id="fdf76-103">The BPEL Import sample demonstrates how to create an orchestration from a Business Process Execution Language (BPEL) process description and its related artifacts.</span></span>  
@@ -232,7 +233,7 @@ ms.lasthandoff: 11/28/2017
 51. <span data-ttu-id="fdf76-250">Vaya a la ubicación \< *ruta de ejemplos*\>\Orchestrations\BPELImport\Solution\BPELShipping y haga doble clic en **BindAndStartOnly.bat** para enlazar e iniciar el orquestación.</span><span class="sxs-lookup"><span data-stu-id="fdf76-250">Browse to the location \<*Samples Path*\>\Orchestrations\BPELImport\Solution\BPELShipping and double-click **BindAndStartOnly.bat** to bind and start the orchestration.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="fdf76-251">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="fdf76-251">Where to Find This Sample</span></span>  
- <span data-ttu-id="fdf76-252">*\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport</span><span class="sxs-lookup"><span data-stu-id="fdf76-252">*\<Samples Path\>*\Orchestrations\BPELImport</span></span>  
+ <span data-ttu-id="fdf76-252">*\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport</span><span class="sxs-lookup"><span data-stu-id="fdf76-252">*\<Samples Path\>* \Orchestrations\BPELImport</span></span>  
   
  <span data-ttu-id="fdf76-253">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="fdf76-253">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -277,7 +278,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="fdf76-318">Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="fdf76-318">From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="fdf76-319">*\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport\Solution\ShipperProcess</span><span class="sxs-lookup"><span data-stu-id="fdf76-319">*\<Samples Path\>*\Orchestrations\BPELImport\Solution\ShipperProcess</span></span>  
+     <span data-ttu-id="fdf76-319">*\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport\Solution\ShipperProcess</span><span class="sxs-lookup"><span data-stu-id="fdf76-319">*\<Samples Path\>* \Orchestrations\BPELImport\Solution\ShipperProcess</span></span>  
   
 3.  <span data-ttu-id="fdf76-320">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="fdf76-320">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -312,7 +313,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
      <span data-ttu-id="fdf76-332">Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="fdf76-332">From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="fdf76-333">*\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport\Solution\BPELShipping</span><span class="sxs-lookup"><span data-stu-id="fdf76-333">*\<Samples Path\>*\Orchestrations\BPELImport\Solution\BPELShipping</span></span>  
+     <span data-ttu-id="fdf76-333">*\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport\Solution\BPELShipping</span><span class="sxs-lookup"><span data-stu-id="fdf76-333">*\<Samples Path\>* \Orchestrations\BPELImport\Solution\BPELShipping</span></span>  
   
 2.  <span data-ttu-id="fdf76-334">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="fdf76-334">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -330,7 +331,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
 #### <a name="to-run-the-bpel-import-sample"></a><span data-ttu-id="fdf76-341">Para ejecutar el ejemplo de Importación BPEL</span><span class="sxs-lookup"><span data-stu-id="fdf76-341">To run the BPEL Import sample</span></span>  
   
-1.  <span data-ttu-id="fdf76-342">Copia la **Order.xml** de archivos desde el  *\<ruta de ejemplos\>*\Orchestrations\BPELImport\Solution en la carpeta a la \< *derutadeejemplos\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder carpeta.</span><span class="sxs-lookup"><span data-stu-id="fdf76-342">Copy the **Order.xml** file from the *\<Samples Path\>*\Orchestrations\BPELImport\Solution folder to the \<*Samples Path\>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.</span></span>  
+1.  <span data-ttu-id="fdf76-342">Copia la **Order.xml** de archivos desde el  *\<ruta de ejemplos\>* \Orchestrations\BPELImport\Solution en la carpeta a la \< *derutadeejemplos\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder carpeta.</span><span class="sxs-lookup"><span data-stu-id="fdf76-342">Copy the **Order.xml** file from the *\<Samples Path\>* \Orchestrations\BPELImport\Solution folder to the \<*Samples Path\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.</span></span>  
   
 2.  <span data-ttu-id="fdf76-343">El BPELShipping orquestación recoge este archivo como un pedido en el sistema de procesamiento de pedidos de cliente, se ejecuta en el proceso de envío, y crea un archivo cada uno de los \< *ruta de ejemplos*\>\ Carpeta Orchestrations\BPELImport\Solution\Ports\SendOrder y \< *ruta de ejemplos*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation carpeta.</span><span class="sxs-lookup"><span data-stu-id="fdf76-343">The BPELShipping orchestration picks up this file as an order from the customer order processing system, runs through the shipping process, and produces one file each in the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\SendOrder folder and the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation folder.</span></span> <span data-ttu-id="fdf76-344">El formato del nombre de estos archivos es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el Mensaje.</span><span class="sxs-lookup"><span data-stu-id="fdf76-344">The format of the name of these files is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.</span></span>  
   

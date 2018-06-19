@@ -1,17 +1,17 @@
 ---
-title: "Cómo configurar la recepción HTTP < adaptador 2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la recepción HTTP < adaptador 2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP receive adapter, configuring
 - configuring HTTP receive adapter
 ms.assetid: dd26fd57-90d8-4ffe-b56f-8de55ecc6f68
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014779"
 ---
 # <a name="how-to-configure-the-http-receive-adapter"></a><span data-ttu-id="96c4e-102">Para configurar adaptador de recepción de HTTP</span><span class="sxs-lookup"><span data-stu-id="96c4e-102">How to Configure the HTTP Receive Adapter</span></span>
 <span data-ttu-id="96c4e-103">El adaptador de recepción HTTP se puede usar para enviar mensajes a BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="96c4e-103">You can use the HTTP receive adapter to submit messages to BizTalk Server.</span></span> <span data-ttu-id="96c4e-104">El adaptador de recepción HTTP es una extensión ISAPI de Internet Information Services (IIS) que se hospeda en el proceso IIS.</span><span class="sxs-lookup"><span data-stu-id="96c4e-104">The HTTP receive adapter is an Internet Information Services (IIS) ISAPI extension that is hosted in the IIS process.</span></span>  

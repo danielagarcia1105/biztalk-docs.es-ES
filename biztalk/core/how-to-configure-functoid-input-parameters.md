@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969546"
 ---
 # <a name="how-to-configure-functoid-input-parameters"></a><span data-ttu-id="9c4bb-102">Cómo configurar parámetros de entrada de functoid</span><span class="sxs-lookup"><span data-stu-id="9c4bb-102">How to Configure Functoid Input Parameters</span></span>
 <span data-ttu-id="9c4bb-103">La configuración correcta de los parámetros de entrada de los functoids en la asignación es uno de los aspectos más importantes, y que más errores potenciales puede ocasionar, al utilizar los functoids.</span><span class="sxs-lookup"><span data-stu-id="9c4bb-103">Properly configuring the input parameters to the functoids in your map is one of the most important, and potentially error-prone, aspects of using functoids.</span></span> <span data-ttu-id="9c4bb-104">Puede configurar los parámetros de entrada de functoid como sigue:</span><span class="sxs-lookup"><span data-stu-id="9c4bb-104">You can configure the functoid input parameters as follows:</span></span>  

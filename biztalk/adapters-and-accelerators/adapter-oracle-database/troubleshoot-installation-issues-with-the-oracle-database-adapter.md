@@ -1,17 +1,17 @@
 ---
-title: "Solucionar problemas de instalación con el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Solucionar problemas de instalación con el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation issues, troubleshooting
 - troubleshooting, installation issues
 ms.assetid: 2054b725-d657-4039-b83b-119571935f62
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962322"
 ---
 # <a name="troubleshoot-installation-issues-with-the-oracle-database-adapter"></a><span data-ttu-id="7618d-102">Solucionar problemas de instalación con el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="7618d-102">Troubleshoot installation issues with the Oracle Database adapter</span></span>
 <span data-ttu-id="7618d-103">Instalación del software Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copia los archivos binarios del producto en el equipo y registra los enlaces para cada adaptador.</span><span class="sxs-lookup"><span data-stu-id="7618d-103">Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copies the product binaries on the computer and registers the bindings for each adapter.</span></span> <span data-ttu-id="7618d-104">Esta sección describe el uso de técnicas de solución de problemas para resolver errores de instalación y también enumera algunos problemas conocidos.</span><span class="sxs-lookup"><span data-stu-id="7618d-104">This section discusses using troubleshooting techniques to resolve installation errors, and also lists some known issues.</span></span>  

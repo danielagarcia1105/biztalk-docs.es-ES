@@ -1,14 +1,14 @@
 ---
 title: Ejecutar operaciones compuestas en SQL Server con BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86fd2aa1-20c7-4b58-9f35-83ba0c959cf1
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968026"
 ---
 # <a name="run-composite-operations-on-sql-server-using-biztalk-server"></a><span data-ttu-id="d7c98-102">Ejecutar operaciones compuestas en SQL Server con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="d7c98-102">Run composite operations on SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="d7c98-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador realizar operaciones compuestas en la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="d7c98-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to perform composite operations on the SQL Server database.</span></span> <span data-ttu-id="d7c98-104">Puede incluir una operación compuesta:</span><span class="sxs-lookup"><span data-stu-id="d7c98-104">A composite operation can include:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Mantener BizTalk Server2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b9c10d1-101b-4b9d-8eab-767b853f17d8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298372"
 ---
 # <a name="maintaining-biztalk-server2"></a><span data-ttu-id="c1b26-102">Mantener BizTalk Server2</span><span class="sxs-lookup"><span data-stu-id="c1b26-102">Maintaining BizTalk Server2</span></span>
 <span data-ttu-id="c1b26-103">Las actividades de mantenimiento forman parte de la función de administración de sistema (SMC) de Control y supervisión del servicio tal como se define por Microsoft Operations Framework (MOF).</span><span class="sxs-lookup"><span data-stu-id="c1b26-103">Maintenance activities are part of the Service Monitoring and Control (SMC) system management function as defined by the Microsoft Operations Framework (MOF).</span></span> <span data-ttu-id="c1b26-104">El objetivo principal de SMC es observa el estado de su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="c1b26-104">The primary goal of SMC is to observe the health of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span> <span data-ttu-id="c1b26-105">Comprobaciones SMC pueden iniciar acciones correctoras para evitar posibles incidentes de servicio y minimizar el impacto de los incidentes de servicio cuando se producen.</span><span class="sxs-lookup"><span data-stu-id="c1b26-105">SMC checks may initiate remedial actions to avoid potential service incidents and to minimize the impact of service incidents when they do occur.</span></span>  

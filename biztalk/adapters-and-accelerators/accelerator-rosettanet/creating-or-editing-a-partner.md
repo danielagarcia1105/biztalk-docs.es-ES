@@ -1,11 +1,11 @@
 ---
 title: Crear o editar un socio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, trading partners
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - trading partners, modifying
 - trading partners, about trading partners
 ms.assetid: 63809035-65a5-472d-b2e5-359c8e9d9d8c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966666"
 ---
 # <a name="creating-or-editing-a-partner"></a><span data-ttu-id="8dc74-102">Crear o editar un socio</span><span class="sxs-lookup"><span data-stu-id="8dc74-102">Creating or Editing a Partner</span></span>
 <span data-ttu-id="8dc74-103">En este tema se describe cómo crear o editar a un socio.</span><span class="sxs-lookup"><span data-stu-id="8dc74-103">This topic describes how to create or edit a partner.</span></span> <span data-ttu-id="8dc74-104">La configuración del socio comercial describe y clasifica al socio comercial, establece sin repudio del período de origen, configura los certificados para el socio comercial y proporciona información de contacto.</span><span class="sxs-lookup"><span data-stu-id="8dc74-104">The partner configuration describes and classifies the partner, sets the non-repudiation of origin period, configures certificates for the partner, and provides contact information.</span></span>  

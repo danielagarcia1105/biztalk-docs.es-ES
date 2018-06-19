@@ -15,7 +15,7 @@ helpviewer_keywords:
 - examples, pipelines
 - messages, correlating to orchestrations
 ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25965258"
 ---
 # <a name="aggregator-biztalk-server-sample"></a><span data-ttu-id="bcf27-102">Agregación (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="bcf27-102">Aggregator (BizTalk Server Sample)</span></span>
 <span data-ttu-id="bcf27-103">La finalidad de este ejemplo consiste en crear una funcionalidad de agregación de mensaje con orquestaciones y canalizaciones.</span><span class="sxs-lookup"><span data-stu-id="bcf27-103">The purpose of this sample is to build a message aggregation functionality using orchestration and pipelines.</span></span> <span data-ttu-id="bcf27-104">De forma más específica, crearemos una orquestación que:</span><span class="sxs-lookup"><span data-stu-id="bcf27-104">Specifically we will build an orchestration that:</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/23/2018
 3.  <span data-ttu-id="bcf27-108">Produce un mensaje de intercambio de XML cada minuto o en cuanto tiene suficientes mensajes para agregar.</span><span class="sxs-lookup"><span data-stu-id="bcf27-108">Produces an XML interchange message every minute or as soon as it has enough messages to aggregate.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="bcf27-109">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="bcf27-109">Where to Find This Sample</span></span>  
- <span data-ttu-id="bcf27-110">*\<Ejemplos de ruta de acceso\>*\Pipelines\Aggregator</span><span class="sxs-lookup"><span data-stu-id="bcf27-110">*\<Samples Path\>*\Pipelines\Aggregator</span></span>  
+ <span data-ttu-id="bcf27-110">*\<Ejemplos de ruta de acceso\>* \Pipelines\Aggregator</span><span class="sxs-lookup"><span data-stu-id="bcf27-110">*\<Samples Path\>* \Pipelines\Aggregator</span></span>  
   
  <span data-ttu-id="bcf27-111">En la tabla siguiente se enumeran los archivos que se usan en el ejemplo.</span><span class="sxs-lookup"><span data-stu-id="bcf27-111">The following table lists the files for this sample.</span></span>  
   

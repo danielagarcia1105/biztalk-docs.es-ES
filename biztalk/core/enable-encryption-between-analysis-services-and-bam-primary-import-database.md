@@ -1,11 +1,11 @@
 ---
-title: "Cómo habilitar el cifrado entre Analysis Services y la base de datos de importación principal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar el cifrado entre Analysis Services y la base de datos de importación principal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQL Server Analysis Services, enabling encryption
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Primary Import database [BAM], enabling encryption
 - SQL Server Analysis Services, Primary Import database [BAM]
 ms.assetid: 8107c557-e57c-4569-9ff7-abcb7a8e5243
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968906"
 ---
 # <a name="how-to-enable-encryption-between-analysis-services-and-the-bam-primary-import-database"></a><span data-ttu-id="f0ebe-102">Cómo habilitar el cifrado entre los servicios de análisis y la base de datos de importación principal de BAM</span><span class="sxs-lookup"><span data-stu-id="f0ebe-102">How to Enable Encryption Between Analysis Services and the BAM Primary Import Database</span></span>
 <span data-ttu-id="f0ebe-103">El cifrado no se habilita de forma predeterminada durante una instalación o actualización de BAM.</span><span class="sxs-lookup"><span data-stu-id="f0ebe-103">Encryption is not enabled by default during an installation or upgrade of BAM.</span></span> <span data-ttu-id="f0ebe-104">Para habilitar el cifrado, deberá definir la marca UseEncryption del archivo XML de configuración de BAM con el valor 1.</span><span class="sxs-lookup"><span data-stu-id="f0ebe-104">To enable encryption, you must set the UseEncryption flag in the BAM configuration XML file to a value of 1.</span></span>  

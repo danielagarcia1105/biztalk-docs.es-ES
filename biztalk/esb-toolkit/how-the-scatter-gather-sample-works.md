@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo de dispersión y recopilación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo de dispersión y recopilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ccfacb7-4fd2-4a1a-bece-27eedd86bbe9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294924"
 ---
 # <a name="how-the-scatter-gather-sample-works"></a><span data-ttu-id="14d8d-102">Cómo funciona el ejemplo de dispersión y recopilación</span><span class="sxs-lookup"><span data-stu-id="14d8d-102">How the Scatter-Gather Sample Works</span></span>
 <span data-ttu-id="14d8d-103">La aplicación de ejemplo crea un conjunto de encabezados SOAP que contiene el itinerario cargado desde el archivo itinerario de dispersión y recopilación, carga el archivo de mensaje especificado desde el disco, anexa los encabezados itinerarios para el mensaje y lo envía al ESB a través de en rampa para procesamiento.</span><span class="sxs-lookup"><span data-stu-id="14d8d-103">The sample application builds a set of SOAP headers containing the itinerary loaded from the Scatter-Gather itinerary file, loads the specified message file from disk, appends the itinerary headers to the message, and submits it to the ESB through an on-ramp for processing.</span></span> <span data-ttu-id="14d8d-104">Si el itinerario genera una respuesta, la aplicación recopila esto y lo muestra en la ventana de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="14d8d-104">If the itinerary generates a response, the application collects this and displays it in the application window.</span></span>  

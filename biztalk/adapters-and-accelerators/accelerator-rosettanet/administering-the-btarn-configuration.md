@@ -1,17 +1,17 @@
 ---
-title: "Administrar la configuración de BTARN | Documentos de Microsoft"
-ms.custom: 
+title: Administrar la configuración de BTARN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Accelerator for RosettaNet, administering
 - administering
 ms.assetid: 8db2851e-6aaf-49d9-a3f0-dee187595c01
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206772"
 ---
 # <a name="administering-the-btarn-configuration"></a><span data-ttu-id="85848-102">Administrar la configuración de BTARN</span><span class="sxs-lookup"><span data-stu-id="85848-102">Administering the BTARN Configuration</span></span>
 <span data-ttu-id="85848-103">El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración le permite administrar todas las facetas de la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración de una interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="85848-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console lets you administer all facets of the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration from one user interface.</span></span> <span data-ttu-id="85848-104">El [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración incluye las configuraciones de proceso, organizaciones internas, socios y acuerdos de socios comerciales.</span><span class="sxs-lookup"><span data-stu-id="85848-104">The [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuration includes process configurations, home organizations, partners, and trading partner agreements.</span></span> <span data-ttu-id="85848-105">Desde el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] consola de administración, también puede administrar certificados, administrar instancias de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™, ver los eventos y ver el rendimiento de registros y alertas.</span><span class="sxs-lookup"><span data-stu-id="85848-105">From the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console, you can also manage certificates, administer instances of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™, view events, and view performance logs and alerts.</span></span>  

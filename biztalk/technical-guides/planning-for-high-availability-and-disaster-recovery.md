@@ -1,14 +1,14 @@
 ---
-title: "Planeación de alta disponibilidad y recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: Planeación de alta disponibilidad y recuperación ante desastres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7efba36-6d9c-4ae0-a4f5-893eb5d62a05
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302028"
 ---
 # <a name="planning-for-high-availability-and-disaster-recovery"></a><span data-ttu-id="71038-102">Planeación de alta disponibilidad y recuperación ante desastres</span><span class="sxs-lookup"><span data-stu-id="71038-102">Planning for High Availability and Disaster Recovery</span></span>
 <span data-ttu-id="71038-103">Las soluciones se desarrollan con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suelen ser críticas aplicaciones de nivel empresarial que requieren disponibilidad máxima.</span><span class="sxs-lookup"><span data-stu-id="71038-103">Solutions developed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are often mission-critical enterprise-level applications that require maximum availability.</span></span> <span data-ttu-id="71038-104">Cuando estas soluciones se colocan en producción, se pueden medir los costos asociados con el tiempo de inactividad en miles de dólares por segundo.</span><span class="sxs-lookup"><span data-stu-id="71038-104">When these solutions are placed into production, costs associated with downtime can be measured in thousands of dollars per second.</span></span> <span data-ttu-id="71038-105">Por este motivo, debe emplear estrategias específicas para maximizar las capacidades de recuperación ante desastres y disponibilidad alta que están disponibles con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y el software de dependencia y el hardware necesario para admitir un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solución.</span><span class="sxs-lookup"><span data-stu-id="71038-105">For this reason, you should employ specific strategies to maximize the high availability and disaster recovery capabilities that are available with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the dependency software and hardware required to support a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.</span></span>  

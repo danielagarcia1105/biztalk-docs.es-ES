@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar las reglas de recopilación de rendimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar las reglas de recopilación de rendimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 546aa853-c372-4e26-a1ed-19294c658583
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298188"
 ---
 # <a name="how-to-display-performance-collection-rules"></a><span data-ttu-id="7c81e-102">Cómo mostrar las reglas de recopilación de rendimiento</span><span class="sxs-lookup"><span data-stu-id="7c81e-102">How to Display Performance Collection Rules</span></span>
 <span data-ttu-id="7c81e-103">Para mostrar las reglas de recopilación de rendimiento, utilice la secuencia de comandos de esta sección.</span><span class="sxs-lookup"><span data-stu-id="7c81e-103">To display performance collection rules, use the script in this section.</span></span> <span data-ttu-id="7c81e-104">Este script funciona para la mayoría de las reglas.</span><span class="sxs-lookup"><span data-stu-id="7c81e-104">This script works for the majority of rules.</span></span> <span data-ttu-id="7c81e-105">Crea un archivo .csv que incluye las columnas enumeradas en la siguiente tabla y puede verse mediante Office Excel.</span><span class="sxs-lookup"><span data-stu-id="7c81e-105">It creates a .csv file that includes the columns listed in the following table, and can be viewed using Office Excel.</span></span>  

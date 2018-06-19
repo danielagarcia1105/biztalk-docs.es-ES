@@ -1,18 +1,18 @@
 ---
 title: 'Parte 1: Escenario de fragmentados por lotes entrantes | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, fragmenting messages
 - batching tutorial, fragmenting messages
 - fragmenting messages
 ms.assetid: 8adf2c17-5f66-408d-b30b-51b22d8e71fa
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206220"
 ---
 # <a name="part-1-fragmented-inbound-batch-scenario"></a><span data-ttu-id="cf544-102">Parte 1: Escenario de fragmentados por lotes entrantes</span><span class="sxs-lookup"><span data-stu-id="cf544-102">Part 1: Fragmented Inbound Batch Scenario</span></span>
 <span data-ttu-id="cf544-103">En esta parte del tutorial, recibir un lote con codificación HL7, fragmentar en mensajes individuales y enviar los mensajes individuales a un destino.</span><span class="sxs-lookup"><span data-stu-id="cf544-103">In this part of the tutorial, you receive an HL7-encoded batch, fragment it into individual messages, and send the individual messages to a destination.</span></span> <span data-ttu-id="cf544-104">En la siguiente ilustración muestra el flujo de este proceso.</span><span class="sxs-lookup"><span data-stu-id="cf544-104">The following figure shows the flow of this process.</span></span>  

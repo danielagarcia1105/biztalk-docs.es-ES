@@ -1,17 +1,17 @@
 ---
-title: "Presentación de mensajes de ejemplo | Documentos de Microsoft"
-ms.custom: 
+title: Presentación de mensajes de ejemplo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, SWIFT message block
 - SWIFT messages, message block example
 ms.assetid: 3136a7da-658d-4100-bbe5-2186ee8bafd1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960818"
 ---
 # <a name="sample-message-presentation"></a><span data-ttu-id="a05df-102">Presentación de mensajes de ejemplo</span><span class="sxs-lookup"><span data-stu-id="a05df-102">Sample Message Presentation</span></span>
 <span data-ttu-id="a05df-103">En la tabla siguiente se muestra un ejemplo de la distribución por bloques de un mensaje SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a05df-103">The following table shows an example of the block layout of a SWIFT message.</span></span>  

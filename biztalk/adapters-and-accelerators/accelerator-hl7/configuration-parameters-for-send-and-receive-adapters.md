@@ -1,11 +1,11 @@
 ---
-title: "Parámetros de configuración para el envío y adaptadores de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Parámetros de configuración para el envío y adaptadores de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - configuration parameters [adapters]
 - receive adapters
 ms.assetid: f24ca8ae-feaf-4e5f-b434-76bc3c1c8ccf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962994"
 ---
 # <a name="configuration-parameters-for-send-and-receive-adapters"></a><span data-ttu-id="03741-102">Parámetros de configuración para el envío y adaptadores de recepción</span><span class="sxs-lookup"><span data-stu-id="03741-102">Configuration Parameters for Send and Receive Adapters</span></span>
 <span data-ttu-id="03741-103">Esta sección proporciona los parámetros de configuración para envían y reciban los adaptadores de protocolo de nivel inferior mínimo (MLLP).</span><span class="sxs-lookup"><span data-stu-id="03741-103">This section provides configuration parameters for send and receive Minimal Lower Layer Protocol (MLLP) adapters.</span></span> <span data-ttu-id="03741-104">Estos parámetros se dividen en dos tipos: bloquear caracteres y parámetros de conexión de red.</span><span class="sxs-lookup"><span data-stu-id="03741-104">These parameters fall into two types: block characters and network connection parameters.</span></span>  

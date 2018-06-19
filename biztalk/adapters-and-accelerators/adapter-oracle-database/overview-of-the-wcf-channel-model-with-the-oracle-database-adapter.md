@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964272"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-database-adapter"></a><span data-ttu-id="4d358-102">Información general sobre el modelo de canal WCF con el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="4d358-102">Overview of the WCF channel model with the Oracle Database adapter</span></span>
 <span data-ttu-id="4d358-103">Para invocar operaciones en el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador.</span><span class="sxs-lookup"><span data-stu-id="4d358-103">To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)], your code acts as a WCF client and sends outbound operations to the adapter.</span></span> <span data-ttu-id="4d358-104">En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.</span><span class="sxs-lookup"><span data-stu-id="4d358-104">In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.</span></span>  

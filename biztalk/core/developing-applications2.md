@@ -1,15 +1,15 @@
 ---
-title: "Crear artefactos de la aplicación para JD Edwards EnterpriseOne | Documentos de Microsoft"
-description: "Crear los artefactos de administración de BizTalk Server y en Visual Studio para usar el adaptador de BizTalk para JD Edwards EnterpriseOne en BizTalk Server"
-ms.custom: 
+title: Crear artefactos de la aplicación para JD Edwards EnterpriseOne | Documentos de Microsoft
+description: Crear los artefactos de administración de BizTalk Server y en Visual Studio para usar el adaptador de BizTalk para JD Edwards EnterpriseOne en BizTalk Server
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a554c3bb-3613-4bb6-b627-3c1bb5265065
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013259"
 ---
 # <a name="create-your-application"></a><span data-ttu-id="d93e9-103">Crear la aplicación</span><span class="sxs-lookup"><span data-stu-id="d93e9-103">Create your application</span></span>
 <span data-ttu-id="d93e9-104">En esta sección se incluye información para los programadores que desean crear aplicaciones de BizTalk Server y trabajar con el adaptador de BizTalk para J.D. Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="d93e9-104">This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for JD Edwards EnterpriseOne.</span></span> <span data-ttu-id="d93e9-105">Una vez creadas estas aplicaciones, a continuación, puede [Agregar control de excepciones](../core/using-biztalk-server-exception-handling3.md) a la orquestación.</span><span class="sxs-lookup"><span data-stu-id="d93e9-105">Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling3.md) to your orchestration.</span></span> 

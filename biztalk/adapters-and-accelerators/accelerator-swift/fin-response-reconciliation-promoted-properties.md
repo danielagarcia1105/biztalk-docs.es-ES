@@ -1,17 +1,17 @@
 ---
-title: "Propiedades promocionadas de conciliación de respuesta FIN | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades promocionadas de conciliación de respuesta FIN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, FIN Response Reconciliation
 - FIN Response Reconciliation, promoted properties
 ms.assetid: 1a638e9e-61eb-482c-8856-b1aea36c449c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964914"
 ---
 # <a name="fin-response-reconciliation-promoted-properties"></a><span data-ttu-id="9290e-102">Propiedades promocionadas de conciliación de respuesta FIN</span><span class="sxs-lookup"><span data-stu-id="9290e-102">FIN Response Reconciliation Promoted Properties</span></span>
 <span data-ttu-id="9290e-103">El [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] característica FINÉS conciliación de respuesta incluye las siguientes propiedades promocionadas.</span><span class="sxs-lookup"><span data-stu-id="9290e-103">The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FIN Response Reconciliation feature includes the following promoted properties.</span></span>  
@@ -32,5 +33,5 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="9290e-128">**A4SWIFT_SendingServiceType**</span><span class="sxs-lookup"><span data-stu-id="9290e-128">**A4SWIFT_SendingServiceType**</span></span>|<span data-ttu-id="9290e-129">Indica que el servicio FRR que envía el mensaje.</span><span class="sxs-lookup"><span data-stu-id="9290e-129">Indicates the FRR service that sends the message.</span></span>|<span data-ttu-id="9290e-130">String</span><span class="sxs-lookup"><span data-stu-id="9290e-130">String</span></span>|<span data-ttu-id="9290e-131">A4SWIFT_FrrService</span><span class="sxs-lookup"><span data-stu-id="9290e-131">A4SWIFT_FrrService</span></span>|<span data-ttu-id="9290e-132">Promueve cuando **A4SWIFT_FRRFailed** está establecida en True.</span><span class="sxs-lookup"><span data-stu-id="9290e-132">Promoted when **A4SWIFT_FRRFailed** is set to True.</span></span>|  
   
 ## <a name="see-also"></a><span data-ttu-id="9290e-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="9290e-133">See Also</span></span>  
- <span data-ttu-id="9290e-134">[Propiedades promocionadas, A4SWIFT_ *](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span><span class="sxs-lookup"><span data-stu-id="9290e-134">[A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span></span>  
+ <span data-ttu-id="9290e-134">[Propiedades promocionadas, A4SWIFT_ \*](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span><span class="sxs-lookup"><span data-stu-id="9290e-134">[A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span></span>  
  [<span data-ttu-id="9290e-135">Propiedades promocionadas de reparación de mensajes y nuevo envío</span><span class="sxs-lookup"><span data-stu-id="9290e-135">Message Repair and New Submission Promoted Properties</span></span>](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-promoted-properties.md)

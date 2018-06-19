@@ -1,17 +1,17 @@
 ---
 title: 'Paso 3: Crear e implementar un proyecto de desencadenador de eventos (mensaje) | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, trigger events
 - trigger events
 ms.assetid: 5d21a923-fc2c-4d50-b146-daca0aa26e2a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961282"
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-project"></a><span data-ttu-id="5b222-102">Paso 3: Crear e implementar un proyecto de desencadenador de eventos (mensaje)</span><span class="sxs-lookup"><span data-stu-id="5b222-102">Step 3: Create and Deploy a Trigger Event (Message) Project</span></span>
 <span data-ttu-id="5b222-103">En este paso, creará el esquema para el mensaje de evento de desencadenador.</span><span class="sxs-lookup"><span data-stu-id="5b222-103">In this step, you create the schema for your trigger event message.</span></span> <span data-ttu-id="5b222-104">Por ejemplo, es posible que el sistema de admisión de descarga y la transferencia (ADT) que envía un mensaje para el sistema de información de Hospital (HIS).</span><span class="sxs-lookup"><span data-stu-id="5b222-104">For example, you might be the Admissions Discharge and Transfer system (ADT) who sends a message to the Hospital Information System (HIS).</span></span> <span data-ttu-id="5b222-105">Necesita este esquema para definir el formato del mensaje.</span><span class="sxs-lookup"><span data-stu-id="5b222-105">You need this schema to define the format of your message.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Creación de envío y puertos de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Creación de envío y puertos de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, receive ports
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - receive ports, creating [JD Edwards OneWorld adapters]
 - creating, send ports [JD Edwards OneWorld adapters]
 ms.assetid: fb4ca8b1-40d9-4beb-a791-554086f8ca98
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014035"
 ---
 # <a name="creating-send-and-receive-ports"></a><span data-ttu-id="c9f47-102">Creación de envío y puertos de recepción</span><span class="sxs-lookup"><span data-stu-id="c9f47-102">Creating Send and Receive Ports</span></span>
 <span data-ttu-id="c9f47-103">Use los procedimientos siguientes para crear puertos de envío y recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para el adaptador de BizTalk para JD Edwards OneWorld.</span><span class="sxs-lookup"><span data-stu-id="c9f47-103">Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports for BizTalk Adapter for JD Edwards OneWorld.</span></span>  

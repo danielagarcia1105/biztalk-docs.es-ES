@@ -1,14 +1,14 @@
 ---
-title: "Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación | Documentos de Microsoft"
-ms.custom: 
+title: Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa4a460-58f9-439d-af28-0a9cb2288236
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965802"
 ---
 # <a name="bam-command-line-script-for-notification-services-configuration-files"></a><span data-ttu-id="4e90b-102">Secuencia de comandos de línea de comandos de BAM para archivos de configuración de servicios de notificación</span><span class="sxs-lookup"><span data-stu-id="4e90b-102">BAM Command-Line Script for Notification Services Configuration Files</span></span>
 <span data-ttu-id="4e90b-103">Los administradores utilizan la secuencia de comandos ProcessBamNSFiles.vbs para personalizar el comportamiento de los servicios de notificación de SQL Server para alertas BAM.</span><span class="sxs-lookup"><span data-stu-id="4e90b-103">Administrators use the ProcessBamNSFiles.vbs script to customize the behavior of SQL Server Notification Services for BAM alerts.</span></span> <span data-ttu-id="4e90b-104">Puede utilizar la secuencia de comandos para obtener el archivo de definición de la aplicación (ADF) de servicios de notificación y el archivo de configuración de servicios de notificación.</span><span class="sxs-lookup"><span data-stu-id="4e90b-104">You can use the script to obtain the Notification Services application definition file (ADF) and Notification Services configuration file.</span></span> <span data-ttu-id="4e90b-105">Estos archivos se pueden modificar y, a continuación, se puede utilizar la secuencia de comandos para aplicar los cambios.</span><span class="sxs-lookup"><span data-stu-id="4e90b-105">These files can be modified and then the script can be used to apply the changes.</span></span>  

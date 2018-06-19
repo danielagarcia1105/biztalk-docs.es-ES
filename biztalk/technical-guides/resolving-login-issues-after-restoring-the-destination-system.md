@@ -1,15 +1,15 @@
 ---
-title: "Resolver problemas de inicio de sesión después de restaurar el sistema de destino | Documentos de Microsoft"
-description: "Incluir inicios de sesión de SQL Server para resolver usuarios huérfanos en BizTalk Server trasvase de registros"
-ms.custom: 
+title: Resolver problemas de inicio de sesión después de restaurar el sistema de destino | Documentos de Microsoft
+description: Incluir inicios de sesión de SQL Server para resolver usuarios huérfanos en BizTalk Server trasvase de registros
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9232ca3-dadb-4b3c-8ec4-4e307c32d2e5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013803"
 ---
 # <a name="resolving-login-issues-after-restoring-the-destination-system"></a><span data-ttu-id="05efe-103">Resolver problemas de inicio de sesión después de restaurar el sistema de destino</span><span class="sxs-lookup"><span data-stu-id="05efe-103">Resolving Login Issues After Restoring the Destination System</span></span>
 

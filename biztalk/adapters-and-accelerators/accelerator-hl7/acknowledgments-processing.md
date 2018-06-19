@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204564"
 ---
 # <a name="acknowledgments-processing"></a><span data-ttu-id="c9050-102">Procesamiento de confirmaciones</span><span class="sxs-lookup"><span data-stu-id="c9050-102">Acknowledgments Processing</span></span>
 <span data-ttu-id="c9050-103">La especificación de HL7 admite intercambio de mensajes en dos formatos:</span><span class="sxs-lookup"><span data-stu-id="c9050-103">The HL7 specification supports exchange of messages in two formats:</span></span>  

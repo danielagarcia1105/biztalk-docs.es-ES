@@ -1,11 +1,11 @@
 ---
-title: "Escenario: Implementar una nueva aplicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Escenario: Implementar una nueva aplicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, applications
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, examples
 - examples, deploying
 ms.assetid: 6d34a626-9fd4-4c33-a067-b66333eec01f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269212"
 ---
 # <a name="scenario-deploying-a-new-application"></a><span data-ttu-id="b0b53-102">Escenario: Implementar una nueva aplicación</span><span class="sxs-lookup"><span data-stu-id="b0b53-102">Scenario: Deploying a New Application</span></span>
 <span data-ttu-id="b0b53-103">En este tema se describe la implementación de una aplicación en un entorno nuevo en el que no se ha implementado antes; por ejemplo, la implementación de una aplicación que se ha configurado en un entorno de ensayo en un entorno de producción.</span><span class="sxs-lookup"><span data-stu-id="b0b53-103">This topic describes the scenario of deploying an application into a new environment where it has not been deployed before; for example, deploying an application that has been configured in a staging environment into a production environment.</span></span>  

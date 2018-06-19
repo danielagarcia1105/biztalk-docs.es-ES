@@ -1,14 +1,14 @@
 ---
 title: ProActivity en BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b924ddae-0e7f-4058-b308-7ea9537fb45f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302108"
 ---
 # <a name="proactivity-in-biztalk-server"></a><span data-ttu-id="ee63b-102">Proactividad en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="ee63b-102">Proactivity in BizTalk Server</span></span>
 <span data-ttu-id="ee63b-103">Artículo técnico de BizTalk</span><span class="sxs-lookup"><span data-stu-id="ee63b-103">BizTalk Technical Article</span></span>  

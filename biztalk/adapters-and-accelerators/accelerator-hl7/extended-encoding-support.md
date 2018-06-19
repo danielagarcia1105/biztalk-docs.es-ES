@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con codificación extendidos | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con codificación extendidos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a40fa6-d0da-416e-97fb-675ddde3f005
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204836"
 ---
 # <a name="extended-encoding-support"></a><span data-ttu-id="2c211-102">Soporte extendido de codificación</span><span class="sxs-lookup"><span data-stu-id="2c211-102">Extended Encoding Support</span></span>
 <span data-ttu-id="2c211-103">De forma predeterminada, se reciben el HL7 canalización, BTAHL72X, solo admite la codificación ASCII.</span><span class="sxs-lookup"><span data-stu-id="2c211-103">By default, the HL7 receive pipeline, BTAHL72X, only supports ASCII encoding.</span></span> <span data-ttu-id="2c211-104">Esto significa que todos los caracteres de un mensaje de entrada con un valor equivalente mayor que 127 se reemplazan con "?".</span><span class="sxs-lookup"><span data-stu-id="2c211-104">This means that any characters in an input message with an equivalent value greater than 127 are replaced with "?".</span></span> <span data-ttu-id="2c211-105">Esto es porque no se representan caracteres con un valor equivalente superior a 127 en el juego de caracteres ASCII.</span><span class="sxs-lookup"><span data-stu-id="2c211-105">This is because characters with an equivalent value greater than 127 are not represented in the ASCII character set.</span></span>  

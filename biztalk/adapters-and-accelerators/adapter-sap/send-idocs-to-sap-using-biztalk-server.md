@@ -1,18 +1,18 @@
 ---
 title: Enviar los IDOC a SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOCs, sample for sending
 - IDOCs, sending to SAP using BizTalk Server
 - IDOCs, business scenarios for sending
 ms.assetid: 92042623-ffbf-472f-9515-e9a77eb320fb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967586"
 ---
 # <a name="send-idocs-to-sap-using-biztalk-server"></a><span data-ttu-id="0dada-102">Enviar los IDOC a SAP mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="0dada-102">Send IDOCs to SAP using BizTalk Server</span></span>
 <span data-ttu-id="0dada-103">Todas las llamadas IDOC a SAP internamente se tratan como llamadas de tRFC donde el adaptador actúa como un cliente tRFC y llama a una solicitud de cambio de SAP para enviar un IDOC.</span><span class="sxs-lookup"><span data-stu-id="0dada-103">All IDOC calls to SAP are internally treated as tRFC calls where the adapter acts as a tRFC client and calls an RFC in SAP to send an IDOC.</span></span> <span data-ttu-id="0dada-104">Esta sección proporciona información sobre cómo enviar IDOC a SAP mediante el uso de la [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="0dada-104">This section provides information on sending IDOCs to SAP by using the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="0dada-105">La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone dos operaciones diferentes para enviar IDOC:</span><span class="sxs-lookup"><span data-stu-id="0dada-105">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces two different operations to send IDOCs:</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Procesamiento por lotes de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, batching
 - batching, messages
 ms.assetid: d852cf00-3882-4f0f-a4c3-2a39483710ee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204652"
 ---
 # <a name="message-batching"></a><span data-ttu-id="7027f-102">Procesamiento por lotes de mensajes</span><span class="sxs-lookup"><span data-stu-id="7027f-102">Message Batching</span></span>
 <span data-ttu-id="7027f-103">Estándares de protocolo, problemas de programación o limitaciones de tamaño de mensaje pueden motivar a la necesidad de mensajes por lotes.</span><span class="sxs-lookup"><span data-stu-id="7027f-103">Protocol standards, scheduling issues, or message size limitations may motivate the need to batch messages.</span></span> <span data-ttu-id="7027f-104">Un lote de siete de nivel de mantenimiento (HL7) se compone de delimitadas por un encabezado de lote de HL7 y finalizador de lote de mensajes.</span><span class="sxs-lookup"><span data-stu-id="7027f-104">A Health Level Seven (HL7) batch consists of messages enclosed by an HL7 batch header and batch trailer.</span></span> <span data-ttu-id="7027f-105">Separadores de mensaje separan los mensajes individuales dentro del lote.</span><span class="sxs-lookup"><span data-stu-id="7027f-105">Message separators separate the individual messages within the batch.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "Paso 1: Crear la organización principal | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear la organización principal | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, home organizations
 - loopback tutorial, creating home organizations
 - home organizations, creating
 ms.assetid: 5277d50f-d499-4efa-99e5-d97dad7d65fc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25963602"
 ---
 # <a name="step-1-create-the-home-organization"></a><span data-ttu-id="277e4-102">Paso 1: Crear la organización principal</span><span class="sxs-lookup"><span data-stu-id="277e4-102">Step 1: Create the Home Organization</span></span>
 <span data-ttu-id="277e4-103">En este paso, creará su organización principal mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="277e4-103">In this step, you create your home organization using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span>  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 794ab5e4ed28464ed704d27da05390dad6199224
 ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968594"
 ---
 # <a name="how-to-clean-the-target-computer"></a><span data-ttu-id="51c43-101">Cómo limpiar el equipo de destino</span><span class="sxs-lookup"><span data-stu-id="51c43-101">How to Clean the Target Computer</span></span>
 <span data-ttu-id="51c43-102">Implementación sobrescribe la configuración de la ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="51c43-102">Deployment overwrites the receive location configuration.</span></span> <span data-ttu-id="51c43-103">Al implementar un archivo de enlace (y el ensamblado) en un equipo de destino, los puertos de envío y ubicaciones de recepción se sustituyen por los en el archivo de enlace XML cuando se importan.</span><span class="sxs-lookup"><span data-stu-id="51c43-103">When you deploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  

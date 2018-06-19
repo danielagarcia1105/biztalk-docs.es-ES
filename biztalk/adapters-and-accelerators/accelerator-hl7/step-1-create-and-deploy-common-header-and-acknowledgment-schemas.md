@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960402"
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a><span data-ttu-id="68687-102">Paso 1: Crear e implementar encabezado común y esquemas de confirmación</span><span class="sxs-lookup"><span data-stu-id="68687-102">Step 1: Create and Deploy Common Header and Acknowledgment Schemas</span></span>
 <span data-ttu-id="68687-103">Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la instancia de mensaje.</span><span class="sxs-lookup"><span data-stu-id="68687-103">You use the header schema to validate the header (MSH segment) of the message instance.</span></span> <span data-ttu-id="68687-104">Usar el esquema de confirmación para generar la confirmación de la instancia de mensaje.</span><span class="sxs-lookup"><span data-stu-id="68687-104">You use the acknowledgment schema to generate the acknowledgment for the message instance.</span></span> <span data-ttu-id="68687-105">Este proceso es común en todas las versiones de esquema HL7.</span><span class="sxs-lookup"><span data-stu-id="68687-105">This process is common across all HL7 schema versions.</span></span>  

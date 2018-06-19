@@ -1,18 +1,18 @@
 ---
 title: Crear un controlador personalizado para rechazado mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - custom handlers
 - Message Repair and New Submission, rejected messages
 - Message Repair and New Submission, custom handlers
 ms.assetid: 28d74504-6c62-427a-b75d-456fbe43ec3a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963786"
 ---
 # <a name="creating-a-custom-handler-for-rejected-messages"></a><span data-ttu-id="dab58-102">Crear un controlador personalizado para mensajes rechazados</span><span class="sxs-lookup"><span data-stu-id="dab58-102">Creating a Custom Handler for Rejected Messages</span></span>
 <span data-ttu-id="dab58-103">Si se rechaza un mensaje en la fase de comprobación o la aprobación, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] devuelve el mensaje a la primera fase definida para el flujo de trabajo (que en este caso es siempre de reparación, incluso si Create es la primera fase del flujo de trabajo).</span><span class="sxs-lookup"><span data-stu-id="dab58-103">If you reject a message in the verification or approval stage, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] returns the message to the first stage defined for the workflow (which in this case is always repair, even if Create is the first stage in the workflow).</span></span> <span data-ttu-id="dab58-104">Sin embargo, si la primera fase del flujo de trabajo rechaza el mensaje, la orquestación de reparación publica el mensaje en el cuadro de mensajes con propiedades promocionadas que indica que la orquestación MrsrRepair rechazó el mensaje.</span><span class="sxs-lookup"><span data-stu-id="dab58-104">However, if the first stage of the workflow rejects the message, the repair orchestration publishes the message to the MessageBox with promoted properties indicating that the MrsrRepair orchestration rejected the message.</span></span> <span data-ttu-id="dab58-105">Para controlar estos mensajes, puede crear un controlador personalizado (orquestación) que se suscribe a estas propiedades promocionadas y procesa los mensajes según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="dab58-105">To handle these messages, you can create a custom handler (orchestration) that subscribes to these promoted properties and processes the messages as required.</span></span>  

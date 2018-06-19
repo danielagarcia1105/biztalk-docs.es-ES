@@ -1,14 +1,14 @@
 ---
 title: Ejecutar el ejemplo de componente de Namespace | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2f334a8-06de-4a56-a41a-3df088bf4a72
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295300"
 ---
 # <a name="running-the-namespace-component-sample"></a><span data-ttu-id="3c5b0-102">Ejecutar el ejemplo de componente de Namespace</span><span class="sxs-lookup"><span data-stu-id="3c5b0-102">Running the Namespace Component Sample</span></span>
 <span data-ttu-id="3c5b0-103">La aplicación de ejemplo de componente de Namespace contiene cuatro pares de puertos de envío o ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="3c5b0-103">The Namespace Component sample application contains four receive location/send port pairs.</span></span> <span data-ttu-id="3c5b0-104">Cada par representa una prueba.</span><span class="sxs-lookup"><span data-stu-id="3c5b0-104">Each pair represents a test.</span></span> <span data-ttu-id="3c5b0-105">Éstas son las cuatro pruebas:</span><span class="sxs-lookup"><span data-stu-id="3c5b0-105">The following are the four tests:</span></span>  

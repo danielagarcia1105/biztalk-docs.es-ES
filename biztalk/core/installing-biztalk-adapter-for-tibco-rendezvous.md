@@ -1,15 +1,15 @@
 ---
-title: "Adaptador de TIBCO Rendezvous de instalación, esquemas y limitaciones | Documentos de Microsoft"
-description: "Instalación, la generación de esquema y las limitaciones del adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server"
-ms.custom: 
+title: Adaptador de TIBCO Rendezvous de instalación, esquemas y limitaciones | Documentos de Microsoft
+description: Instalación, la generación de esquema y las limitaciones del adaptador de BizTalk para TIBCO Rendezvous en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6404e7e-f671-4c57-a222-0bbe7cbc334f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013603"
 ---
 # <a name="install-schemas-and-limitations-of-the-tibco-rendezvous-adapter"></a><span data-ttu-id="2159a-103">Instalar, esquemas y limitaciones del adaptador de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="2159a-103">Install, schemas, and limitations of the TIBCO Rendezvous adapter</span></span>
 

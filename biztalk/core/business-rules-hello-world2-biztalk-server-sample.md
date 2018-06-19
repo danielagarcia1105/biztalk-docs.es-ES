@@ -1,17 +1,17 @@
 ---
 title: Business Rules Hello World2 (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 2a88a2a0-8cb6-4373-8441-0ab04345a477
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967306"
 ---
 # <a name="business-rules-hello-world2-biztalk-server-sample"></a><span data-ttu-id="c6d43-102">Business Rules Hello World2 (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="c6d43-102">Business Rules Hello World2 (BizTalk Server Sample)</span></span>
 <span data-ttu-id="c6d43-103">El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello World1 ya que le mostrará cómo a la versión, publicar e implementar la regla XML que se establece en el almacén de reglas SQL compartido y cómo ejecutar la directiva con la **directiva** objeto proporciona el marco de trabajo de reglas de negocios.</span><span class="sxs-lookup"><span data-stu-id="c6d43-103">The Business Rules Hello World2 sample extends the Business Rules Hello World1 sample by demonstrating how to version, publish, and deploy the XML rule set to the shared SQL rule store, and how to run the policy using the **Policy** object provided by the Business Rules Framework.</span></span> <span data-ttu-id="c6d43-104">El ejemplo también muestra las actualizaciones de directivas dinámicas en funcionamiento.</span><span class="sxs-lookup"><span data-stu-id="c6d43-104">The sample also demonstrates dynamic policy updates in action.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="c6d43-119">Para obtener información importante acerca de todos los ejemplos de este SDK, vea [ejemplos](../core/samples-in-the-sdk.md).</span><span class="sxs-lookup"><span data-stu-id="c6d43-119">For important information about all samples in this SDK, see [Samples](../core/samples-in-the-sdk.md).</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="c6d43-120">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="c6d43-120">Where to Find This Sample</span></span>  
- <span data-ttu-id="c6d43-121">*\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-121">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\\</span></span>  
+ <span data-ttu-id="c6d43-121">*\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-121">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\\</span></span>  
   
  <span data-ttu-id="c6d43-122">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="c6d43-122">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -74,7 +75,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="c6d43-146">En una ventana de comandos, desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="c6d43-146">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="c6d43-147">*\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-147">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\\</span></span>  
+     <span data-ttu-id="c6d43-147">*\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-147">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\\</span></span>  
   
 2.  <span data-ttu-id="c6d43-148">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="c6d43-148">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -93,7 +94,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="c6d43-156">En una ventana de comandos, desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="c6d43-156">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="c6d43-157">*\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\bin\Debug\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-157">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\bin\Debug\\</span></span>  
+     <span data-ttu-id="c6d43-157">*\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\bin\Debug\\</span><span class="sxs-lookup"><span data-stu-id="c6d43-157">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\bin\Debug\\</span></span>  
   
 2.  <span data-ttu-id="c6d43-158">En la ventana de comandos, escriba el nombre del archivo para este ejemplo (**BusinessRulesHelloWorld2.exe**), y, a continuación, presione ENTRAR.</span><span class="sxs-lookup"><span data-stu-id="c6d43-158">In the command window, type the name of the file for this sample (**BusinessRulesHelloWorld2.exe**), and then press ENTER.</span></span>  
   
@@ -135,7 +136,7 @@ Press the ENTER to continue after updating the policy...
   
 5.  <span data-ttu-id="c6d43-171">Puede cambiar la condición de regla y la acción en función de sus necesidades.</span><span class="sxs-lookup"><span data-stu-id="c6d43-171">You can change the rule condition and action to meet your needs.</span></span> <span data-ttu-id="c6d43-172">Para este procedimiento, haga clic en **rule1** en **versión 1.1 (sin guardar)**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-172">For this procedure, click **rule1** in **Version 1.1 (not saved)**.</span></span> <span data-ttu-id="c6d43-173">En el panel derecho, haga clic en **condiciones**y, a continuación, haga clic en **Agregar operador lógico NOT**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-173">In the right pane, right-click **Conditions**, and then click **Add Logical NOT**.</span></span> <span data-ttu-id="c6d43-174">Agregar un **NOT lógico** operación **no es igual a** en el predicado es equivalente a usar un **igual** predicado.</span><span class="sxs-lookup"><span data-stu-id="c6d43-174">Adding a **Logical NOT** operation to **Not Equal** to predicate is equivalent to using an **Equal** predicate.</span></span>  
   
-6.  <span data-ttu-id="c6d43-175">Haga clic en el nodo **versión 1.1 (sin guardar)**y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-175">Right-click the node **Version 1.1(not saved)**, and then click **Save**.</span></span> <span data-ttu-id="c6d43-176">Haga clic en nuevo y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-176">Right-click again, and then click **Publish**.</span></span> <span data-ttu-id="c6d43-177">Haga clic en una tercera vez y haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-177">Right-click a third time and click **Deploy**.</span></span>  
+6.  <span data-ttu-id="c6d43-175">Haga clic en el nodo **versión 1.1 (sin guardar)** y, a continuación, haga clic en **guardar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-175">Right-click the node **Version 1.1(not saved)**, and then click **Save**.</span></span> <span data-ttu-id="c6d43-176">Haga clic en nuevo y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-176">Right-click again, and then click **Publish**.</span></span> <span data-ttu-id="c6d43-177">Haga clic en una tercera vez y haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="c6d43-177">Right-click a third time and click **Deploy**.</span></span>  
   
 7.  <span data-ttu-id="c6d43-178">En la ventana de comandos pausada que le pide que presione cualquier tecla para continuar tras la actualización de la directiva, presione cualquier tecla.</span><span class="sxs-lookup"><span data-stu-id="c6d43-178">In the paused command window asking you to press any key to continue after updating the policy, press any key.</span></span>  
   

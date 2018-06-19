@@ -1,14 +1,14 @@
 ---
-title: "Tareas de supervisión rutinaria | Documentos de Microsoft"
-ms.custom: 
+title: Tareas de supervisión rutinaria | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2f9f56a-c839-4108-933d-69b00a1e3817
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301908"
 ---
 # <a name="routine-monitoring-tasks"></a><span data-ttu-id="1490a-102">Tareas rutinarias de supervisión</span><span class="sxs-lookup"><span data-stu-id="1490a-102">Routine Monitoring Tasks</span></span>
 <span data-ttu-id="1490a-103">Realizar las siguientes tareas de supervisión de forma programada con regularidad te ayudará a mantener su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] aplicaciones e infraestructura operativamente listo.</span><span class="sxs-lookup"><span data-stu-id="1490a-103">Performing the following monitoring tasks on a regularly scheduled basis will assist you in keeping your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications and infrastructure operationally ready.</span></span>  

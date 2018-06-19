@@ -1,14 +1,14 @@
 ---
 title: FlatFileReceive (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90bd9e8d-6ed9-49c4-8437-c0c8b2a9a78d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970170"
 ---
 # <a name="flatfilereceive-biztalk-server-sample"></a><span data-ttu-id="fe7d9-102">FlatFileReceive (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="fe7d9-102">FlatFileReceive (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fe7d9-103">El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo sin formato en el archivo .xml equivalente.</span><span class="sxs-lookup"><span data-stu-id="fe7d9-103">The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process a flat file into the equivalent .xml file.</span></span>  
@@ -51,7 +52,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="fe7d9-133">XMLTransmit se utiliza como la canalización de envío.</span><span class="sxs-lookup"><span data-stu-id="fe7d9-133">XmlTransmit is used as the send pipeline.</span></span> <span data-ttu-id="fe7d9-134">Utilice la canalización PassThruTransmit cuando no resulte necesario realizar la degradación de la propiedad u otro procesamiento de mensajes en el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="fe7d9-134">Use the PassThruTransmit pipeline when property demotion or other messaging processing is not required in the send port.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="fe7d9-135">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="fe7d9-135">Where to Find This Sample</span></span>  
- <span data-ttu-id="fe7d9-136">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\\</span><span class="sxs-lookup"><span data-stu-id="fe7d9-136">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\\</span></span>  
+ <span data-ttu-id="fe7d9-136">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span><span class="sxs-lookup"><span data-stu-id="fe7d9-136">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span></span>  
   
  <span data-ttu-id="fe7d9-137">En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.</span><span class="sxs-lookup"><span data-stu-id="fe7d9-137">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -72,13 +73,13 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="fe7d9-160">En una ventana de comandos, desplácese a la siguiente carpeta:</span><span class="sxs-lookup"><span data-stu-id="fe7d9-160">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="fe7d9-161">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="fe7d9-161">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
+     <span data-ttu-id="fe7d9-161">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="fe7d9-161">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
   
 2.  <span data-ttu-id="fe7d9-162">Ejecute el archivo Setup.bat que realiza las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="fe7d9-162">Run the file Setup.bat, which performs the following actions:</span></span>  
   
     -   <span data-ttu-id="fe7d9-163">Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:</span><span class="sxs-lookup"><span data-stu-id="fe7d9-163">Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:</span></span>  
   
-         <span data-ttu-id="fe7d9-164">*\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="fe7d9-164">*\<Samples Path\>*\Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
+         <span data-ttu-id="fe7d9-164">*\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="fe7d9-164">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
   
     -   <span data-ttu-id="fe7d9-165">Compila e implementa el proyecto de Visual Studio para este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="fe7d9-165">Compiles and deploys the Visual Studio project for this sample.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar valores constantes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar valores constantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f46bf66e-caf2-4352-930f-c3c43a5717c3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969722"
 ---
 # <a name="how-to-add-constant-values"></a><span data-ttu-id="4b3c5-102">Cómo agregar valores constantes</span><span class="sxs-lookup"><span data-stu-id="4b3c5-102">How to Add Constant Values</span></span>
 <span data-ttu-id="4b3c5-103">Cuando realiza las pruebas de las asignaciones, algunas veces es conveniente establecer valores constantes para utilizarlos durante la prueba.</span><span class="sxs-lookup"><span data-stu-id="4b3c5-103">When testing maps, you will sometimes want to set constant values for use during the test.</span></span>  

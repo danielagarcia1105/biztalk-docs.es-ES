@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Data Provider for Siebel, SELECT statement
 - SELECT statement, syntax for
 ms.assetid: 8528b115-d6f3-420d-8617-0e56dc8922bf
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25964162"
 ---
 # <a name="syntax-for-a-select-statement-in-siebel"></a><span data-ttu-id="58d81-102">Sintaxis de una instrucción SELECT de Siebel</span><span class="sxs-lookup"><span data-stu-id="58d81-102">Syntax for a SELECT Statement in Siebel</span></span>
 <span data-ttu-id="58d81-103">Mediante la [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], los clientes ADO.NET pueden realizar una consulta SELECT en componentes empresariales de Siebel mediante la especificación de una cláusula WHERE que representa una especificación de búsqueda de Siebel válida.</span><span class="sxs-lookup"><span data-stu-id="58d81-103">Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], ADO.NET clients can perform a SELECT query on Siebel business components by specifying a WHERE clause that represents a valid Siebel search specification.</span></span> <span data-ttu-id="58d81-104">La sintaxis de la instrucción SELECT es:</span><span class="sxs-lookup"><span data-stu-id="58d81-104">The syntax for the SELECT statement is:</span></span>  

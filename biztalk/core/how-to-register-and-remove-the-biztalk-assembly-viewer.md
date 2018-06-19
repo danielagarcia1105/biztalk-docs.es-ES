@@ -1,14 +1,14 @@
 ---
-title: "Cómo registrar y quitar el Visor de ensamblado de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo registrar y quitar el Visor de ensamblado de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f80b906-0a9e-4bcd-984d-db4550f2e51f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970034"
 ---
 # <a name="how-to-register-and-remove-the-biztalk-assembly-viewer"></a><span data-ttu-id="33040-102">Cómo registrar y quitar el Visor de ensamblado de BizTalk</span><span class="sxs-lookup"><span data-stu-id="33040-102">How to Register and Remove the BizTalk Assembly Viewer</span></span>
 <span data-ttu-id="33040-103">El Visor de ensamblado de BizTalk no se registra automáticamente durante la instalación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="33040-103">The BizTalk Assembly Viewer is not registered automatically during BizTalk Server setup.</span></span> <span data-ttu-id="33040-104">Para registrar y quitar el Visor de ensamblado de BizTalk, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="33040-104">To register or remove the BizTalk Assembly Viewer, follow these steps.</span></span>  

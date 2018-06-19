@@ -1,11 +1,11 @@
 ---
 title: Delimitadores de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, events
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - XML messages
 - messages, flat files
 ms.assetid: d25bf6db-5512-4c82-be0e-00da024c55d1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960666"
 ---
 # <a name="message-delimiters"></a><span data-ttu-id="a5d71-102">Delimitadores de mensaje</span><span class="sxs-lookup"><span data-stu-id="a5d71-102">Message Delimiters</span></span>
 <span data-ttu-id="a5d71-103">Eventos de mensaje definidos por los estándares de HL7 adoptan la forma siguiente:</span><span class="sxs-lookup"><span data-stu-id="a5d71-103">Message events defined by HL7 standards take the following form:</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "El servidor BizTalk Server What's New, instalación, configuración y actualización | Documentos de Microsoft"
-description: "Introducción a lo que es nuevo e instalar y configurar BizTalk Server 2016 y BizTalk Server 2013 R2 y 2013"
-ms.custom: 
+title: El servidor BizTalk Server What's New, instalación, configuración y actualización | Documentos de Microsoft
+description: Introducción a lo que es nuevo e instalar y configurar BizTalk Server 2016 y BizTalk Server 2013 R2 y 2013
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 08/10/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67ea76f3-017b-4fb5-b944-f86905e15c87
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014115"
 ---
 # <a name="biztalk-server-whats-new-install-configuration-and-upgrade"></a><span data-ttu-id="64d3a-103">El servidor BizTalk Server What's New, configuración, instalación y actualización</span><span class="sxs-lookup"><span data-stu-id="64d3a-103">BizTalk Server What's New, Install, Configuration, and Upgrade</span></span>
 <span data-ttu-id="64d3a-104">Obtenga información sobre las novedades, la instalación y la configuración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="64d3a-104">Read about what's new, and how to install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> 

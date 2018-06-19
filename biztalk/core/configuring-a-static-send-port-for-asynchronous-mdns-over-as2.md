@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de envío estático para MDN asíncronos a través de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de envío estático para MDN asíncronos a través de AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc43e767-d9d7-4b02-b3fc-0cfdfd6e61c4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968378"
 ---
 # <a name="configuring-a-static-send-port-for-asynchronous-mdns-over-as2"></a><span data-ttu-id="78650-102">Configuración de un puerto de envío estático para MDN asíncronos a través de AS2</span><span class="sxs-lookup"><span data-stu-id="78650-102">Configuring a Static Send Port for Asynchronous MDNs over AS2</span></span>
 <span data-ttu-id="78650-103">Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para que envíe un mensaje MDN codificado en EDIINT/AS2 mediante un puerto de envío estático.</span><span class="sxs-lookup"><span data-stu-id="78650-103">This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send an asynchronous EDIINT/AS2-encoded MDN message over a static send port.</span></span> <span data-ttu-id="78650-104">Esta configuración incluye la creación del puerto de envío estático y, si es necesario, la configuración de un certificado de cifrado que el puerto de envío vaya a usar.</span><span class="sxs-lookup"><span data-stu-id="78650-104">This configuration includes creating the static send port and if required, setting up an encryption certificate to be used by the send port.</span></span>  

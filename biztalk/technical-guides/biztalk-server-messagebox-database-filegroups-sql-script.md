@@ -1,14 +1,14 @@
 ---
 title: Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af4fe437-41ca-46c1-90eb-a28ed73312b6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300548"
 ---
 # <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a><span data-ttu-id="42f16-102">Script de SQL de grupos de archivos de base de datos de cuadro de mensajes de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="42f16-102">BizTalk Server MessageBox Database Filegroups SQL Script</span></span>
 <span data-ttu-id="42f16-103">Este tema proporciona una secuencia de comandos SQL que se pueden ejecutar en las instancias de SQL Server en un entorno de BizTalk Server para crear varios archivos y grupos de archivos para las bases de datos de BizTalk MessageBox.</span><span class="sxs-lookup"><span data-stu-id="42f16-103">This topic provides a SQL script that can be run on the SQL Server instances in a BizTalk Server environment to create multiple files and filegroups for the BizTalk MessageBox databases.</span></span>  

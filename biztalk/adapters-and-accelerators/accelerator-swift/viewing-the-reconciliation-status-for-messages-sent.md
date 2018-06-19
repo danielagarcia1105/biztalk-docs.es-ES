@@ -1,14 +1,14 @@
 ---
-title: "Ver el estado de conciliación de mensajes enviados | Documentos de Microsoft"
-ms.custom: 
+title: Ver el estado de conciliación de mensajes enviados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 603a95cc-1e2a-4281-a662-ba8d4575286e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961330"
 ---
 # <a name="viewing-the-reconciliation-status-for-messages-sent"></a><span data-ttu-id="69582-102">Ver el estado de conciliación de mensajes enviados</span><span class="sxs-lookup"><span data-stu-id="69582-102">Viewing the Reconciliation Status for Messages Sent</span></span>
 <span data-ttu-id="69582-103">Para ver el estado de conciliación de los mensajes enviados:</span><span class="sxs-lookup"><span data-stu-id="69582-103">To view the reconciliation status for messages sent:</span></span>  
   
-1.  <span data-ttu-id="69582-104">En programas, haga clic en **Microsoft BizTalk Server \<versión\>**y, a continuación, haga clic en **sitio Web de Portal de BAM**.</span><span class="sxs-lookup"><span data-stu-id="69582-104">In Programs, click **Microsoft BizTalk Server \<version\>**, and then click **BAM Portal Web Site**.</span></span>  
+1.  <span data-ttu-id="69582-104">En programas, haga clic en **Microsoft BizTalk Server \<versión\>** y, a continuación, haga clic en **sitio Web de Portal de BAM**.</span><span class="sxs-lookup"><span data-stu-id="69582-104">In Programs, click **Microsoft BizTalk Server \<version\>**, and then click **BAM Portal Web Site**.</span></span>  
   
 2.  <span data-ttu-id="69582-105">En el sitio de Web de Portal de BAM, en mi búsqueda View\XMLV2View\Activity, elija **mensaje enviado actividad**.</span><span class="sxs-lookup"><span data-stu-id="69582-105">In BAM Portal Web Site, under My View\XMLV2View\Activity Search, choose **Message Sent Activity**.</span></span>  
   

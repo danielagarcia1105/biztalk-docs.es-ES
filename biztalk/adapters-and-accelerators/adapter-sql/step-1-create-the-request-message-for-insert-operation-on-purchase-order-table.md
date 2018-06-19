@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Crear el mensaje de solicitud para la operación de inserción en la tabla Purchase_Order | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear el mensaje de solicitud para la operación de inserción en la tabla Purchase_Order | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fde018d8-9d9a-42ea-8ee9-e3632450b9d7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966010"
 ---
 # <a name="step-1-create-the-request-message-for-insert-operation-on-purchaseorder-table"></a><span data-ttu-id="1c084-102">Paso 1: Crear el mensaje de solicitud para la operación de inserción en la tabla Purchase_Order</span><span class="sxs-lookup"><span data-stu-id="1c084-102">Step 1: Create the Request Message for Insert Operation on Purchase_Order Table</span></span>
 <span data-ttu-id="1c084-103">![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="1c084-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  

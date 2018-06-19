@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar el adaptador de SWIFT para el escenario de extracción hacia delante y de almacenamiento de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar el adaptador de SWIFT para el escenario de extracción hacia delante y de almacenamiento de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc271544-6bc8-4d62-aba0-3fe3295f2a2a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965202"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-fileact-store-and-forward-pull-scenario"></a><span data-ttu-id="db28b-102">Paso 1: Configurar el adaptador de SWIFT para el escenario de extracción hacia delante y de almacenamiento de FileAct</span><span class="sxs-lookup"><span data-stu-id="db28b-102">Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario</span></span>
 <span data-ttu-id="db28b-103">Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) antes de comenzar este paso.</span><span class="sxs-lookup"><span data-stu-id="db28b-103">Complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) before you begin this step.</span></span>

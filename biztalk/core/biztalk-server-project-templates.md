@@ -1,15 +1,15 @@
 ---
 title: Plantillas de proyecto de Visual Studio | Documentos de Microsoft
 description: Describe el .btproj, BPEL y las plantillas de Visual Studio .btaproj utilizadas por BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 11/07/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2b3d494-db80-4314-afcd-d08d5a26e211
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 068c17d5ac10874b79e8ec5648cea74411c6247c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24020198"
 ---
 # <a name="biztalk-server-project-templates"></a><span data-ttu-id="b74b7-103">Plantillas de proyecto de servidor BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="b74b7-103">BizTalk Server Project Templates</span></span>
 

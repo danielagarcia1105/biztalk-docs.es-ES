@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3: Probar el lote en lote escenario | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c487d39d-b2be-41d4-963e-d0ee9ba169fb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960802"
 ---
 # <a name="step-3-test-the-batch-inbatch-out-scenario"></a><span data-ttu-id="7cdae-102">Paso 3: Probar el lote / escenario de lote</span><span class="sxs-lookup"><span data-stu-id="7cdae-102">Step 3: Test the Batch In/Batch Out Scenario</span></span>
 <span data-ttu-id="7cdae-103">En este paso, comprobará que el lote en / lote Out tutorial quitar por una instancia de prueba del lote en / lote mensaje en una carpeta.</span><span class="sxs-lookup"><span data-stu-id="7cdae-103">In this step, you test the Batch In/Batch Out tutorial by dropping a test instance of the batch in/batch out message into a folder.</span></span> <span data-ttu-id="7cdae-104">El puerto de envío que configuró enviará el mensaje, el puerto de recepción recibirá y la canalización de recepción lo procesará y lo coloque en la carpeta de destino.</span><span class="sxs-lookup"><span data-stu-id="7cdae-104">The send port that you set up will send the message, the receive port will receive it, and the receive pipeline will process it and drop it into the destination folder.</span></span>  

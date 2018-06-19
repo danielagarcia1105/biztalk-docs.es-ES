@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214252"
 ---
 # <a name="swift-assembler-configuration-properties"></a><span data-ttu-id="05e03-102">Propiedades de configuración de ensamblador SWIFT</span><span class="sxs-lookup"><span data-stu-id="05e03-102">SWIFT Assembler Configuration Properties</span></span>
 <span data-ttu-id="05e03-103">En la tabla siguiente proporciona propiedades SWIFT ensamblador (ASM), descripciones, tipos de datos y rangos de valores.</span><span class="sxs-lookup"><span data-stu-id="05e03-103">The following table provides SWIFT assembler (ASM) properties, descriptions, data types, and value ranges.</span></span>  

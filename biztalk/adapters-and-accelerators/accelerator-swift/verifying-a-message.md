@@ -1,17 +1,17 @@
 ---
 title: Comprobar un mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, verifying
 - verifying, messages
 ms.assetid: df2b72bb-4dc1-4fdd-8f63-35fc73a12151
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961650"
 ---
 # <a name="verifying-a-message"></a><span data-ttu-id="a539a-102">Comprobación de un mensaje</span><span class="sxs-lookup"><span data-stu-id="a539a-102">Verifying a Message</span></span>
 <span data-ttu-id="a539a-103">En esta sección se describe cómo comprobar un mensaje que se ha reparado.</span><span class="sxs-lookup"><span data-stu-id="a539a-103">This section describes how to verify a message that has been repaired.</span></span>  

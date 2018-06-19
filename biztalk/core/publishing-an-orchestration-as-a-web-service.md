@@ -1,11 +1,11 @@
 ---
-title: "Publicar una orquestación como servicio Web | Documentos de Microsoft"
-ms.custom: 
+title: Publicar una orquestación como servicio Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, prerequisites
 - orchestrations, publishing
 ms.assetid: f209310d-c265-4c37-8424-c9b287e713ca
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269068"
 ---
 # <a name="publishing-an-orchestration-as-a-web-service"></a><span data-ttu-id="3b86f-102">Publicar una orquestación como un servicio web</span><span class="sxs-lookup"><span data-stu-id="3b86f-102">Publishing an Orchestration as a Web Service</span></span>
 <span data-ttu-id="3b86f-103">El Asistente para publicar servicios Web de BizTalk se utiliza para publicar orquestaciones como servicios Web.</span><span class="sxs-lookup"><span data-stu-id="3b86f-103">You use the BizTalk Web Services Publishing Wizard to publish an orchestration as a Web service.</span></span> <span data-ttu-id="3b86f-104">El asistente crea un servicio Web basado en una orquestación en un ensamblado de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="3b86f-104">The wizard creates a Web service based on an orchestration in a BizTalk assembly.</span></span> <span data-ttu-id="3b86f-105">El asistente le permite seleccionar las orquestaciones y los puertos de recepción para publicarlos como servicios Web.</span><span class="sxs-lookup"><span data-stu-id="3b86f-105">Using the wizard, you select orchestrations and receive ports to publish Web services.</span></span> <span data-ttu-id="3b86f-106">Puede definir espacios de nombre de destino, requisitos de encabezado SOAP y ubicaciones para el proyecto de servicio Web que el asistente genera.</span><span class="sxs-lookup"><span data-stu-id="3b86f-106">You can define target namespaces, SOAP header requirements, and locations for the Web service project the wizard generates.</span></span>  

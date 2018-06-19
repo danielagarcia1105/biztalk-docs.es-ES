@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración de adaptador de archivo | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración de adaptador de archivo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - File adapters, code sample
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - File adapters, properties
 - send ports, adapters
 ms.assetid: 53f4fd17-95b9-4861-b433-772b619e90c7
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969874"
 ---
 # <a name="file-adapter-configuration-properties"></a><span data-ttu-id="cd3d7-102">Propiedades de configuración del adaptador de archivo</span><span class="sxs-lookup"><span data-stu-id="cd3d7-102">File Adapter Configuration Properties</span></span>
 <span data-ttu-id="cd3d7-103">En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para una ubicación de recepción de un adaptador de archivo:</span><span class="sxs-lookup"><span data-stu-id="cd3d7-103">The following table lists the configuration properties that you can set for a File adapter receive location:</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
 |-------------------|----------|-----------------|------------------|--------------|  
 |<span data-ttu-id="cd3d7-109">RemoveReceivedFileRetryCount</span><span class="sxs-lookup"><span data-stu-id="cd3d7-109">RemoveReceivedFileRetryCount</span></span>|<span data-ttu-id="cd3d7-110">VT_UI4</span><span class="sxs-lookup"><span data-stu-id="cd3d7-110">VT_UI4</span></span>|<span data-ttu-id="cd3d7-111">Especificar el número de veces que el adaptador de archivo intentará eliminar un archivo que ha leído y enviado a BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-111">Specify the number of times that the File adapter will attempt to delete a file that it has read and submitted to BizTalk Server.</span></span>|<span data-ttu-id="cd3d7-112">Los valores válidos son de 0 a 100.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-112">Valid values are from 0 to 100.</span></span>|<span data-ttu-id="cd3d7-113">El valor predeterminado es 5.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-113">The default value is 5.</span></span>|  
 |<span data-ttu-id="cd3d7-114">RemoveReceivedFileMaxInterval</span><span class="sxs-lookup"><span data-stu-id="cd3d7-114">RemoveReceivedFileMaxInterval</span></span>|<span data-ttu-id="cd3d7-115">VT_UI4</span><span class="sxs-lookup"><span data-stu-id="cd3d7-115">VT_UI4</span></span>|<span data-ttu-id="cd3d7-116">Especificar el intervalo inicial en milisegundos que esperará el adaptador de archivo antes de intentar eliminar un archivo que ha leído y enviado a BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-116">Specify the initial interval in milliseconds that the File adapter waits before attempting to delete a file that it has read and submitted to BizTalk Server.</span></span>|<span data-ttu-id="cd3d7-117">Los valores válidos son de 1 a 1000.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-117">Valid values are from 1 to 1000.</span></span>|<span data-ttu-id="cd3d7-118">El valor predeterminado es 10.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-118">The default value is 10.</span></span>|  
-|<span data-ttu-id="cd3d7-119">FileMask</span><span class="sxs-lookup"><span data-stu-id="cd3d7-119">FileMask</span></span>|<span data-ttu-id="cd3d7-120">VT_BSTR</span><span class="sxs-lookup"><span data-stu-id="cd3d7-120">VT_BSTR</span></span>|<span data-ttu-id="cd3d7-121">Especificar la máscara de los archivos.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-121">Specify the mask for the files.</span></span>|<span data-ttu-id="cd3d7-122">Ninguno</span><span class="sxs-lookup"><span data-stu-id="cd3d7-122">None</span></span>|<span data-ttu-id="cd3d7-123">El valor predeterminado es *.xml.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-123">The default value is *.xml.</span></span>|  
+|<span data-ttu-id="cd3d7-119">FileMask</span><span class="sxs-lookup"><span data-stu-id="cd3d7-119">FileMask</span></span>|<span data-ttu-id="cd3d7-120">VT_BSTR</span><span class="sxs-lookup"><span data-stu-id="cd3d7-120">VT_BSTR</span></span>|<span data-ttu-id="cd3d7-121">Especificar la máscara de los archivos.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-121">Specify the mask for the files.</span></span>|<span data-ttu-id="cd3d7-122">Ninguno</span><span class="sxs-lookup"><span data-stu-id="cd3d7-122">None</span></span>|<span data-ttu-id="cd3d7-123">El valor predeterminado es \*.xml.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-123">The default value is \*.xml.</span></span>|  
 |<span data-ttu-id="cd3d7-124">BatchSizeInBytes</span><span class="sxs-lookup"><span data-stu-id="cd3d7-124">BatchSizeInBytes</span></span>|<span data-ttu-id="cd3d7-125">VT_UI4</span><span class="sxs-lookup"><span data-stu-id="cd3d7-125">VT_UI4</span></span>|<span data-ttu-id="cd3d7-126">Especifica el total máximo de bytes de un lote de archivos enviado al cuadro de mensajes de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-126">Specify the maximum total bytes for a batch of files sent to the BizTalk MessageBox.</span></span>|<span data-ttu-id="cd3d7-127">Los valores válidos son de 1024 a 104857600.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-127">Valid values are from 1024 to 104857600.</span></span>|<span data-ttu-id="cd3d7-128">El valor predeterminado es 102400.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-128">The default value is 102400.</span></span>|  
 |<span data-ttu-id="cd3d7-129">PollingInterval</span><span class="sxs-lookup"><span data-stu-id="cd3d7-129">PollingInterval</span></span>|<span data-ttu-id="cd3d7-130">VT_UI4</span><span class="sxs-lookup"><span data-stu-id="cd3d7-130">VT_UI4</span></span>|<span data-ttu-id="cd3d7-131">Especificar el intervalo en milisegundos con el que el adaptador de archivo efectuará el sondeo de la ubicación especificada en busca de nuevos archivos.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-131">Specify the interval in milliseconds that the File adapter will poll the specified location for new files.</span></span>|<span data-ttu-id="cd3d7-132">Los valores válidos son de 1000 a 3600000.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-132">Valid values are from 1000 to 3600000.</span></span>|<span data-ttu-id="cd3d7-133">Establecer en 1 para deshabilitar el sondeo.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-133">Set to 1 to disable polling.</span></span>|  
 |<span data-ttu-id="cd3d7-134">BatchSize</span><span class="sxs-lookup"><span data-stu-id="cd3d7-134">BatchSize</span></span>|<span data-ttu-id="cd3d7-135">VT_UI4</span><span class="sxs-lookup"><span data-stu-id="cd3d7-135">VT_UI4</span></span>|<span data-ttu-id="cd3d7-136">Especificar el número máximo de mensajes que se va a enviar en un lote.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-136">Specify the maximum number of messages to be submitted in a batch.</span></span>|<span data-ttu-id="cd3d7-137">Los valores válidos son de 1 a 256.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-137">Valid values are from 1 to 256.</span></span>|<span data-ttu-id="cd3d7-138">El valor predeterminado es 20.</span><span class="sxs-lookup"><span data-stu-id="cd3d7-138">The default value is 20.</span></span>|  

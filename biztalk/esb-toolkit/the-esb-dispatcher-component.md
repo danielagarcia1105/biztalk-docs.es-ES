@@ -1,14 +1,14 @@
 ---
 title: El componente de distribuidor ESB | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85655b5f-4717-42d1-b005-0a5592d5653b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294908"
 ---
 # <a name="the-esb-dispatcher-component"></a><span data-ttu-id="74c37-102">El componente de distribuidor ESB</span><span class="sxs-lookup"><span data-stu-id="74c37-102">The ESB Dispatcher Component</span></span>
 <span data-ttu-id="74c37-103">Basado en mensajería itinerarios servicios se ejecutan en el componente de distribuidor de ESB.</span><span class="sxs-lookup"><span data-stu-id="74c37-103">Messaging-based itinerary services are executed inside the ESB Dispatcher component.</span></span> <span data-ttu-id="74c37-104">El componente de distribuidor puede establecer propiedades de ubicación de punto de conexión para los mensajes salientes también dinámicamente y transformar mensajes de forma dinámica.</span><span class="sxs-lookup"><span data-stu-id="74c37-104">The Dispatcher component can also dynamically set endpoint location properties for outbound messages and dynamically transform messages.</span></span>  

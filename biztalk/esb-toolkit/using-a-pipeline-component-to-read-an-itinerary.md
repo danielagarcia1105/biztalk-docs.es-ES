@@ -1,14 +1,14 @@
 ---
-title: "Usar un componente de canalización para leer un itinerario | Documentos de Microsoft"
-ms.custom: 
+title: Usar un componente de canalización para leer un itinerario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e3b40c7-0f17-4d33-a26f-f51346a98be5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296196"
 ---
 # <a name="using-a-pipeline-component-to-read-an-itinerary"></a><span data-ttu-id="0c528-102">Usar un componente de canalización para leer un itinerario</span><span class="sxs-lookup"><span data-stu-id="0c528-102">Using a Pipeline Component to Read an Itinerary</span></span>
 <span data-ttu-id="0c528-103">Un mensaje que llega a una canalización de recepción puede contener metadatos en el encabezado SOAP que define sus requisitos de procesamiento (itinerario del lado cliente).</span><span class="sxs-lookup"><span data-stu-id="0c528-103">A message that arrives in a receive pipeline can contain metadata in its SOAP header that defines its processing requirements (client-side itinerary).</span></span> <span data-ttu-id="0c528-104">Figura 1 muestra el uso de los componentes de canalización de distribuidor de ESB e itinerario ESB.</span><span class="sxs-lookup"><span data-stu-id="0c528-104">Figure 1 illustrates the use of the ESB Itinerary and ESB Dispatcher pipeline components.</span></span>  
@@ -101,4 +102,4 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="0c528-160">**Microsoft.Practices.ESB.Services.Transform.**</span><span class="sxs-lookup"><span data-stu-id="0c528-160">**Microsoft.Practices.ESB.Services.Transform.**</span></span> <span data-ttu-id="0c528-161">Este servicio ejecuta asignaciones de BizTalk en la carga de un mensaje entrante.</span><span class="sxs-lookup"><span data-stu-id="0c528-161">This service executes BizTalk maps against the payload of an inbound message.</span></span> <span data-ttu-id="0c528-162">El servicio valida los requisitos de transformación y actualiza las propiedades de contexto de BizTalk que contienen el nombre de la especificación de documento y el tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="0c528-162">The service validates transform requirements and updates the BizTalk context properties that contain the document specification name and the message type.</span></span> <span data-ttu-id="0c528-163">El distribuidor de ESB solo se ejecuta este servicio si este es el nombre del servicio en la transformación, tal y como aparece en la propiedad correspondiente del componente de canalización de distribuidor de ESB.</span><span class="sxs-lookup"><span data-stu-id="0c528-163">The ESB Dispatcher executes this service only if this is the name of the transform service as it appears in the corresponding property of the ESB Dispatcher pipeline component.</span></span>  
   
-    -   <span data-ttu-id="0c528-164">**Microsoft.Practices.ESB.Services.Routing.** Este servicio utiliza la resolución y el marco de proveedores de adaptador para establecer la información de enrutamiento de punto de conexión adecuado.</span><span class="sxs-lookup"><span data-stu-id="0c528-164">**Microsoft.Practices.ESB.Services.Routing.**This service uses the Resolver and Adapter Provider Framework to set the appropriate endpoint routing information.</span></span> <span data-ttu-id="0c528-165">El distribuidor de ESB solo se ejecuta este servicio si este es el nombre del servicio de enrutamiento, tal y como aparece en la propiedad correspondiente del componente de canalización de distribuidor de ESB.</span><span class="sxs-lookup"><span data-stu-id="0c528-165">The ESB Dispatcher executes this service only if this is the name of the routing service as it appears in the corresponding property of the ESB Dispatcher pipeline component.</span></span>
+    -   <span data-ttu-id="0c528-164">**Microsoft.Practices.ESB.Services.Routing.** Este servicio utiliza la resolución y el marco de proveedores de adaptador para establecer la información de enrutamiento de punto de conexión adecuado.</span><span class="sxs-lookup"><span data-stu-id="0c528-164">**Microsoft.Practices.ESB.Services.Routing.** This service uses the Resolver and Adapter Provider Framework to set the appropriate endpoint routing information.</span></span> <span data-ttu-id="0c528-165">El distribuidor de ESB solo se ejecuta este servicio si este es el nombre del servicio de enrutamiento, tal y como aparece en la propiedad correspondiente del componente de canalización de distribuidor de ESB.</span><span class="sxs-lookup"><span data-stu-id="0c528-165">The ESB Dispatcher executes this service only if this is the name of the routing service as it appears in the corresponding property of the ESB Dispatcher pipeline component.</span></span>

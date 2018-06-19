@@ -1,14 +1,14 @@
 ---
-title: "Lea la problemas conocidos de instalación | Documentos de Microsoft"
-ms.custom: 
+title: Lea la problemas conocidos de instalación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245379f2-4048-4803-83ea-38dc23eb1a81
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964690"
 ---
 # <a name="read-the-installation-known-issues"></a><span data-ttu-id="8876e-102">Lea la problemas conocidos de instalación</span><span class="sxs-lookup"><span data-stu-id="8876e-102">Read the installation known issues</span></span>
 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]<span data-ttu-id="8876e-103">experimentan problemas conocidos enumerados en las secciones siguientes.</span><span class="sxs-lookup"><span data-stu-id="8876e-103"> have known issues listed in the following sections.</span></span>  

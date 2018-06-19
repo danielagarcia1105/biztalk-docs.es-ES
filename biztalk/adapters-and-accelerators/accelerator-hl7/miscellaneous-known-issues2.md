@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207068"
 ---
 # <a name="miscellaneous-known-issues"></a><span data-ttu-id="67bad-102">Varios problemas conocidos</span><span class="sxs-lookup"><span data-stu-id="67bad-102">Miscellaneous Known Issues</span></span>
 <span data-ttu-id="67bad-103">Esta sección contiene información útil sobre varios errores.</span><span class="sxs-lookup"><span data-stu-id="67bad-103">This section contains useful information about miscellaneous errors.</span></span>  

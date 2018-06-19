@@ -1,14 +1,14 @@
 ---
 title: Ejecuta la mayor parte cargar muestra de enrutamiento basado en contenido | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e981567-7c6c-4c13-bd5b-597efdd3fb50
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294948"
 ---
 # <a name="running-the-bulk-load-content-based-routing-sample"></a><span data-ttu-id="255f2-102">Ejecutar el masiva carga contenidos enrutamiento ejemplo</span><span class="sxs-lookup"><span data-stu-id="255f2-102">Running the Bulk Load Content-Based Routing Sample</span></span>
 <span data-ttu-id="255f2-103">Esta parte del ejemplo muestra una cola con los mensajes que los ESB y Microsoft BizTalk enrutará a las colas de destino diferente según el nombre de cola especificado en cada mensaje de carga masiva.</span><span class="sxs-lookup"><span data-stu-id="255f2-103">This part of the sample demonstrates bulk loading a queue with messages that the ESB and Microsoft BizTalk will route to different destination queues based on the queue name specified in each message.</span></span> <span data-ttu-id="255f2-104">Usa las características de la muestra que ha visto en las dos partes anteriores.</span><span class="sxs-lookup"><span data-stu-id="255f2-104">It uses the features of the sample that you have seen in the previous two parts.</span></span>  

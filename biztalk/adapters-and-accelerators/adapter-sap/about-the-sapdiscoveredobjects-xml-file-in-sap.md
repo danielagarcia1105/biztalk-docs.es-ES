@@ -1,11 +1,11 @@
 ---
 title: Acerca del archivo de SAPDiscoveredObjects.xml en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SAPDiscoveredObjects.xml
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Data Provider for SAP
 - Visual Studio DDEX plug-in
 ms.assetid: 46ef600d-57ae-4c42-94ce-3099e42482f1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960722"
 ---
 # <a name="about-the-sapdiscoveredobjectsxml-file-in-sap"></a><span data-ttu-id="0f835-102">Acerca del archivo de SAPDiscoveredObjects.xml en SAP</span><span class="sxs-lookup"><span data-stu-id="0f835-102">About the SAPDiscoveredObjects.xml File in SAP</span></span>
 <span data-ttu-id="0f835-103">Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) junto con el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, el programa de instalación copia el archivo SAPDiscoveredObjects.xml normalmente en \<unidad de instalación\>: \Program Files\Common archivos \Microsoft Shared\Adapters\SAP.</span><span class="sxs-lookup"><span data-stu-id="0f835-103">If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program copies the SAPDiscoveredObjects.xml file typically at \<installation drive\>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP.</span></span> <span data-ttu-id="0f835-104">El contenido del archivo, después de una instalación nueva de la [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], similares a los siguientes.</span><span class="sxs-lookup"><span data-stu-id="0f835-104">The contents of the file, after a fresh installation of the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], resemble the following.</span></span>  

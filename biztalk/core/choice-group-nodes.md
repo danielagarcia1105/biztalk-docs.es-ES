@@ -1,14 +1,14 @@
 ---
 title: Nodos de grupo de elecciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 466b525d-4d8c-4b8e-830d-eee27845c0dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970402"
 ---
 # <a name="choice-group-nodes"></a><span data-ttu-id="c25a0-102">Nodos Grupos de elecciones</span><span class="sxs-lookup"><span data-stu-id="c25a0-102">Choice Group Nodes</span></span>
 <span data-ttu-id="c25a0-103">En el Editor de BizTalk, puede insertar un **grupo de elecciones** nodo para contener otros nodos (o subárboles completos de nodos), solo uno de los cuales puede aparecer en un mensaje de instancia.</span><span class="sxs-lookup"><span data-stu-id="c25a0-103">In BizTalk Editor, you can insert a **Choice Group** node to contain other nodes (or entire subtrees of nodes), only one of which can appear in an instance message.</span></span> <span data-ttu-id="c25a0-104">Un determinado mensaje de instancia, si es válido, solo tendrá presente una de las elecciones.</span><span class="sxs-lookup"><span data-stu-id="c25a0-104">A given instance message, if valid, will have only one of the choices present.</span></span> <span data-ttu-id="c25a0-105">Los nodos contenidos deben ser nodos que se correspondan con elementos XML, pero no pueden ser nodos que se correspondan con atributos XML.</span><span class="sxs-lookup"><span data-stu-id="c25a0-105">The contained nodes must be nodes that correspond to XML elements, but cannot be nodes that correspond to XML attributes.</span></span>  

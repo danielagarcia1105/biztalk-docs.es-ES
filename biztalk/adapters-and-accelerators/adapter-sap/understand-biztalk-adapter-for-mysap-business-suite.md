@@ -1,11 +1,11 @@
 ---
 title: Comprender el adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter features
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - features of SAP adapter
 - adapters, about SAP ADO Provider
 ms.assetid: 136ca828-2724-454b-9d4d-a491d45e1eda
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962202"
 ---
 # <a name="understand-biztalk-adapter-for-mysap-business-suite"></a><span data-ttu-id="95e2f-102">Comprender el adaptador de BizTalk para mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="95e2f-102">Understand BizTalk Adapter for mySAP Business Suite</span></span>
 <span data-ttu-id="95e2f-103">El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios con el fin de interactuar con un sistema externo.</span><span class="sxs-lookup"><span data-stu-id="95e2f-103">The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access in order to interact with an external system.</span></span> <span data-ttu-id="95e2f-104">Los adaptadores proporcionan las siguientes ventajas a los clientes:</span><span class="sxs-lookup"><span data-stu-id="95e2f-104">The adapters provide the following advantages to clients:</span></span>  

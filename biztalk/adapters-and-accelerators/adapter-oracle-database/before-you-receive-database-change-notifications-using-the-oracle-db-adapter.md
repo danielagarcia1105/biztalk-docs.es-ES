@@ -1,14 +1,14 @@
 ---
-title: "Consideraciones para la recepción de base de datos modificados notificaciones mediante el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Consideraciones para la recepción de base de datos modificados notificaciones mediante el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 206439b9-0408-4fbb-80e3-cfda2f5a89a5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963706"
 ---
 # <a name="considerations-for-receiving-database-change-notifications-using-the-oracle-database-adapter"></a><span data-ttu-id="08684-102">Consideraciones para la recepción de base de datos modificados notificaciones mediante el adaptador de la base de datos de Oracle</span><span class="sxs-lookup"><span data-stu-id="08684-102">Considerations for Receiving Database Change Notifications Using the Oracle Database adapter</span></span>
 <span data-ttu-id="08684-103">Este tema proporciona algunas consideraciones y recomendaciones que debe tener en cuenta al usar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir notificaciones de base de datos de una base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="08684-103">This topic provides some considerations and best practices that you must keep in mind while using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive database notifications from an Oracle database.</span></span>  

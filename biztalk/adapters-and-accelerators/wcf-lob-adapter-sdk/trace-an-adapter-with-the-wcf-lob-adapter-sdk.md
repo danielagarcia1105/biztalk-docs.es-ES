@@ -1,14 +1,14 @@
 ---
 title: Un adaptador con el SDK de adaptador LOB de WCF de seguimiento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a4f4758-3e3e-48c4-b4cf-414c2b05d539
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965362"
 ---
 # <a name="trace-an-adapter-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="592c2-102">Seguimiento de un adaptador con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="592c2-102">Trace an adapter with the WCF LOB Adapter SDK</span></span>
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]<span data-ttu-id="592c2-103">el seguimiento se basa en Systems.Diagnostics.</span><span class="sxs-lookup"><span data-stu-id="592c2-103"> tracing is built on top of Systems.Diagnostics.</span></span> <span data-ttu-id="592c2-104">Usar Microsoft.ServiceModel.Channels origen de seguimiento para el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="592c2-104">You use Microsoft.ServiceModel.Channels trace source for the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] runtime.</span></span>  <span data-ttu-id="592c2-105">Usar origen de seguimiento Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse para [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] y [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="592c2-105">You use Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse trace source for [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span> <span data-ttu-id="592c2-106">Los seguimientos de WCF se escriben en el origen denominado System.ServiceModel.</span><span class="sxs-lookup"><span data-stu-id="592c2-106">WCF traces are written to the source named System.ServiceModel.</span></span>  

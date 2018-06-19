@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, verifying solution
 ms.assetid: 24b74ba6-e303-4ab1-8a93-25a430e4894d
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25961594"
 ---
 # <a name="step-10-verify-the-end-to-end-scenario"></a><span data-ttu-id="6a183-102">Paso 10: Comprobar el escenario de extremo a extremo</span><span class="sxs-lookup"><span data-stu-id="6a183-102">Step 10: Verify the End-to-End Scenario</span></span>
 <span data-ttu-id="6a183-103">En este paso, comprobará el escenario de extremo a extremo para este tutorial.</span><span class="sxs-lookup"><span data-stu-id="6a183-103">In this step, you verify the end-to-end scenario for this tutorial.</span></span>  

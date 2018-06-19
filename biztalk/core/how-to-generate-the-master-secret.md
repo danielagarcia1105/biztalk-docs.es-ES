@@ -1,17 +1,17 @@
 ---
-title: "Cómo generar el secreto principal | Documentos de Microsoft"
-ms.custom: 
+title: Cómo generar el secreto principal | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, generating
 - managing [Master Secret server], generating
 ms.assetid: 5512a8ee-bc5b-4fe4-90c7-41e3baaa723b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25969522"
 ---
 # <a name="how-to-generate-the-master-secret"></a><span data-ttu-id="dd66f-102">Cómo generar el secreto principal</span><span class="sxs-lookup"><span data-stu-id="dd66f-102">How to Generate the Master Secret</span></span>
 <span data-ttu-id="dd66f-103">Debe tener derechos de administrador en el servidor secreto principal para realizar esta tarea.</span><span class="sxs-lookup"><span data-stu-id="dd66f-103">You must have administrator rights on the master secret server in order to perform this task.</span></span> <span data-ttu-id="dd66f-104">Asimismo, debe realizar esta tarea en el servidor secreto principal.</span><span class="sxs-lookup"><span data-stu-id="dd66f-104">In addition, you must perform this task from the master secret server.</span></span>  

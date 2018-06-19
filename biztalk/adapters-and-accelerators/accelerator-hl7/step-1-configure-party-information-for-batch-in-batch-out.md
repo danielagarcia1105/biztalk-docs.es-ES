@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar la información de entidad para el lote en procesos por lotes el | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar la información de entidad para el lote en procesos por lotes el | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a93d774b-1282-40d9-836f-44abeb65f78e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960514"
 ---
 # <a name="step-1-configure-party-information-for-batch-inbatch-out"></a><span data-ttu-id="9f736-102">Paso 1: Configurar la información de entidad para el lote en / lote Out</span><span class="sxs-lookup"><span data-stu-id="9f736-102">Step 1: Configure Party Information for Batch In/Batch Out</span></span>
 <span data-ttu-id="9f736-103">En este paso, desactivar la fragmentación del procesamiento por lotes para la entidad, lo que permite el lote en / escenario de lote.</span><span class="sxs-lookup"><span data-stu-id="9f736-103">In this step, you turn off fragmentation of batching for the party, enabling the Batch In/Batch Out scenario.</span></span> <span data-ttu-id="9f736-104">A continuación, reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] para habilitar el cambio de configuración surta efecto.</span><span class="sxs-lookup"><span data-stu-id="9f736-104">You then restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to enable the configuration change to take effect.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Realización de las pruebas de disponibilidad | Documentos de Microsoft"
-ms.custom: 
+title: Realización de las pruebas de disponibilidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10b543dd-ba85-40da-8c6f-485eddb59158
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298308"
 ---
 # <a name="performing-availability-testing"></a><span data-ttu-id="ea589-102">Realización de las pruebas de disponibilidad</span><span class="sxs-lookup"><span data-stu-id="ea589-102">Performing Availability Testing</span></span>
 <span data-ttu-id="ea589-103">Debe probar el sistema para la recuperación ante desastres comprobar su capacidad para recuperarse de varios niveles de error, comprendido entre errores a pequeña escala (por ejemplo, un error de tarjeta de red) y la pérdida de un servidor de producción.</span><span class="sxs-lookup"><span data-stu-id="ea589-103">You should test your system for disaster recovery to verify its ability to recover from various levels of failure, ranging from small-scale failures (such as a network card failure) to the loss of a production server.</span></span> <span data-ttu-id="ea589-104">Las pruebas de recuperación ante desastres deben incluir los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="ea589-104">Your disaster recovery testing should include the following steps:</span></span>  

@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9980953a-8d38-476f-af38-4f4214ba61f2
-caps.latest.revision: ''
+caps.latest.revision: 107
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968034"
 ---
 # <a name="install-biztalk-adapter-pack-2013-r2-and-2013"></a><span data-ttu-id="47d4f-103">Instalar 2013 y BizTalk adaptador Pack 2013 R2</span><span class="sxs-lookup"><span data-stu-id="47d4f-103">Install BizTalk Adapter Pack 2013 R2 and 2013</span></span>
 <span data-ttu-id="47d4f-104">Este documento enumeran los requisitos de software y los pasos para instalar Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) incluidos con BizTalk Server 2013 o [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].</span><span class="sxs-lookup"><span data-stu-id="47d4f-104">This document lists the software requirements, and the steps to install the Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) included with BizTalk Server 2013 or [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].</span></span>  

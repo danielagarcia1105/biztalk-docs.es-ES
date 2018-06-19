@@ -1,11 +1,11 @@
 ---
-title: "CreateApp (ejemplo de implementación de aplicaciones) | Documentos de Microsoft"
-ms.custom: 
+title: CreateApp (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - .msi files, deploying
 - examples, deploying
 ms.assetid: 825627ee-21d0-4505-9df4-1dadc51335b6
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969714"
 ---
 # <a name="createapp-application-deployment-sample"></a><span data-ttu-id="104be-102">CreateApp (ejemplo de implementación de aplicaciones)</span><span class="sxs-lookup"><span data-stu-id="104be-102">CreateApp (Application Deployment Sample)</span></span>
 <span data-ttu-id="104be-103">En este tema se describe cómo usar el ejemplo CreateApp, que muestra cómo implementar o anular la implementación de una aplicación de BizTalk utilizando la herramienta de línea de comandos BTSTask.</span><span class="sxs-lookup"><span data-stu-id="104be-103">This topic explains how to use the CreateApp sample, which demonstrates using the BTSTask command-line tool to deploy and undeploy a BizTalk application.</span></span> <span data-ttu-id="104be-104">Puede usar secuencias de comandos como los que se incluyen en este ejemplo para automatizar el proceso de implementación nocturno y, así, implementar o anular la implementación de las aplicaciones de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="104be-104">You could use scripts such as those included in this sample to automate your nightly build process to deploy and undeploy BizTalk applications.</span></span>  
@@ -76,7 +77,7 @@ ms.lasthandoff: 11/28/2017
          <span data-ttu-id="104be-149">C:\ScriptLog.txt</span><span class="sxs-lookup"><span data-stu-id="104be-149">C:\ScriptLog.txt</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="104be-150">Ubicación del ejemplo</span><span class="sxs-lookup"><span data-stu-id="104be-150">Where to Find This Sample</span></span>  
- <span data-ttu-id="104be-151">Puede encontrar los archivos de ejemplo en las siguientes carpetas en  *\<ruta de ejemplos\>*\Application implementación\\:</span><span class="sxs-lookup"><span data-stu-id="104be-151">You can find the sample files in the following folders under *\<Samples Path\>*\Application Deployment\\:</span></span>  
+ <span data-ttu-id="104be-151">Puede encontrar los archivos de ejemplo en las siguientes carpetas en  *\<ruta de ejemplos\>* \Application implementación\\:</span><span class="sxs-lookup"><span data-stu-id="104be-151">You can find the sample files in the following folders under *\<Samples Path\>* \Application Deployment\\:</span></span>  
   
 -   <span data-ttu-id="104be-152">CreateApp (Carpeta)</span><span class="sxs-lookup"><span data-stu-id="104be-152">CreateApp (Folder)</span></span>  
   

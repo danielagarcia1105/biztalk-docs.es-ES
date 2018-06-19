@@ -1,15 +1,15 @@
 ---
-title: "Información general sobre el Kit de herramientas ESB en BizTalk Server | Documentos de Microsoft"
-description: "Explicación del Kit de herramientas de ESB, y lo que hace en BizTalk Server"
-caps.latest.revision: "6"
+title: Información general sobre el Kit de herramientas ESB en BizTalk Server | Documentos de Microsoft
+description: Explicación del Kit de herramientas de ESB, y lo que hace en BizTalk Server
+caps.latest.revision: 6
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e190b34-40bc-4f27-9b4f-56e98591e1d4
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296732"
 ---
 # <a name="what-is-the-biztalk-esb-toolkit"></a><span data-ttu-id="0cfba-103">¿Qué es el Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="0cfba-103">What is the BizTalk ESB Toolkit</span></span>
 
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="0cfba-121">Supervisión de la actividad de negocio</span><span class="sxs-lookup"><span data-stu-id="0cfba-121">Business activity monitoring</span></span>  
   
--   <span data-ttu-id="0cfba-122">Y servicios Web WS-* integración (adaptador de WCF)</span><span class="sxs-lookup"><span data-stu-id="0cfba-122">Web service and WS-* integration (WCF adapter)</span></span>  
+-   <span data-ttu-id="0cfba-122">Y servicios Web WS-\* integración (adaptador de WCF)</span><span class="sxs-lookup"><span data-stu-id="0cfba-122">Web service and WS-\* integration (WCF adapter)</span></span>  
 
 ## <a name="core-capabilities"></a><span data-ttu-id="0cfba-123">Capacidades principales</span><span class="sxs-lookup"><span data-stu-id="0cfba-123">Core capabilities</span></span>  
  <span data-ttu-id="0cfba-124">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] amplía la funcionalidad de BizTalk Server proporciona una gama de nuevas capacidades que se centra en crear aplicaciones sólidas, conectadas, orientadas a servicios.</span><span class="sxs-lookup"><span data-stu-id="0cfba-124">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extends the functionality of BizTalk Server to provide a range of new capabilities focused on building robust, connected, service-oriented applications.</span></span> <span data-ttu-id="0cfba-125">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] trata los componentes de BizTalk Server como unidades de trabajo que se puede conectar, según sea necesario formar débilmente acoplados soluciones.</span><span class="sxs-lookup"><span data-stu-id="0cfba-125">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] treats BizTalk Server components as individual units of work that can be connected, as desired, to form loosely coupled solutions.</span></span> <span data-ttu-id="0cfba-126">Los siguientes son algunas de las capacidades básicas de que el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] proporciona para mejorar las capacidades de BizTalk Server:</span><span class="sxs-lookup"><span data-stu-id="0cfba-126">The following are some of the core capabilities that the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides to enhance the capabilities of BizTalk Server:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo instalar y configurar certificados con un adaptador de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar y configurar certificados con un adaptador de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7589f2d-9b9c-406e-abce-ec7fc8336d18
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298660"
 ---
 # <a name="how-to-install-and-configure-certificates-with-a-wcf-adapter"></a><span data-ttu-id="aef61-102">Cómo instalar y configurar certificados con un adaptador de WCF</span><span class="sxs-lookup"><span data-stu-id="aef61-102">How to Install and Configure Certificates with a WCF Adapter</span></span>
 <span data-ttu-id="aef61-103">Para obtener información sobre la instalación y configuración de certificados con adaptadores de WCF, vea [instalar certificados para los adaptadores de WCF](http://go.microsoft.com/fwlink/?LinkId=155204) (http://go.microsoft.com/fwlink/?LinkId=155204) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ayuda.</span><span class="sxs-lookup"><span data-stu-id="aef61-103">For information about installing and configuring certificates with WCF adapters, see [Installing Certificates for the WCF Adapters](http://go.microsoft.com/fwlink/?LinkId=155204) (http://go.microsoft.com/fwlink/?LinkId=155204) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.</span></span>  

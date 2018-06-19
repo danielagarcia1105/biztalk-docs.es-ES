@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar un adaptador de POP3 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un adaptador de POP3 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, POP3 adapters
 - POP3 adapters, receive locations
 - configuring [POP3 adapters], receive locations
 ms.assetid: 259cd105-733a-4f87-be30-c02e6bd0f457
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969346"
 ---
 # <a name="how-to-configure-a-pop3-receive-location"></a><span data-ttu-id="1031a-102">Cómo configurar un adaptador de POP3</span><span class="sxs-lookup"><span data-stu-id="1031a-102">How to Configure a POP3 Receive Location</span></span>
 <span data-ttu-id="1031a-103">Se pueden establecer variables de adaptador de ubicación de recepción de POP3 en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="1031a-103">You can set POP3 receive location adapter variables in the BizTalk Server Administration console.</span></span> <span data-ttu-id="1031a-104">Si no se definen las propiedades en la ubicación de recepción, se utilizarán los valores predeterminados del controlador de recepción definidos en la consola de administración de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="1031a-104">If properties are not set in the receive location, the default receive handler values set in the BizTalk Server Administration console are used.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Lección 1: Agregar un archivo sin formato puerto de recepción y ubicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 1: Agregar un archivo sin formato puerto de recepción y ubicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive ports, creating
 - creating, receive ports
 ms.assetid: 881f58d8-f541-4a85-b534-cb1ca627c002
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961122"
 ---
 # <a name="lesson-1-adding-flat-file-receive-port-and-location"></a><span data-ttu-id="d2121-102">Lección 1: Agregar archivos sin puerto de recepción y ubicación</span><span class="sxs-lookup"><span data-stu-id="d2121-102">Lesson 1: Adding Flat File Receive Port and Location</span></span>
 <span data-ttu-id="d2121-103">El puerto de recepción siempre tiene una ubicación de recepción asociada que se debe configurar al agregar el puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="d2121-103">The receive port always has an associated receive location that you must configure when you add the receive port.</span></span> <span data-ttu-id="d2121-104">Una ubicación de recepción define una dirección específica para un mensaje entrante y la canalización que se utiliza para procesar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="d2121-104">A receive location defines a specific address for an incoming message and the pipeline that you use to process the message.</span></span>  

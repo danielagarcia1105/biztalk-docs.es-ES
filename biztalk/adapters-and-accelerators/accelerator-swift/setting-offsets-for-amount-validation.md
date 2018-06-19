@@ -1,11 +1,11 @@
 ---
-title: "Establecer los desplazamientos para la validación de cantidad | Documentos de Microsoft"
-ms.custom: 
+title: Establecer los desplazamientos para la validación de cantidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - amounts, validating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - amounts, offsets
 - offsets
 ms.assetid: 39d5510c-52e6-4fd9-9632-582b508f04d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961258"
 ---
 # <a name="setting-offsets-for-amount-validation"></a><span data-ttu-id="e9b50-102">Configuración de desplazamientos para la validación de cantidad</span><span class="sxs-lookup"><span data-stu-id="e9b50-102">Setting Offsets for Amount Validation</span></span>
 <span data-ttu-id="e9b50-103">Las reglas de uso para los campos de cantidad de tipos de mensaje MT102, MT103 y MT103PLUS se validan las reglas en las directivas de validación correspondiente.</span><span class="sxs-lookup"><span data-stu-id="e9b50-103">The usage rules for Amount fields in message types MT102, MT103, and MT103PLUS are validated by rules in their respective validation policies.</span></span> <span data-ttu-id="e9b50-104">Los campos de cantidad pueden coincidir exactamente o pueden comprobar que está dentro del intervalo de cantidades.</span><span class="sxs-lookup"><span data-stu-id="e9b50-104">The Amount fields can be matched exactly or can be validated to be within a range of amounts.</span></span>  

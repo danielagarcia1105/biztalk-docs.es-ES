@@ -1,14 +1,14 @@
 ---
 title: Ejecutar BAPI transacciones en SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967954"
 ---
 # <a name="run-bapi-transactions-in-sap-using-biztalk-server"></a><span data-ttu-id="c7477-102">Ejecutar BAPI transacciones en SAP mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="c7477-102">Run BAPI Transactions in SAP using BizTalk Server</span></span>
 <span data-ttu-id="c7477-103">El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] permite a los clientes de adaptador realizar transacciones en un sistema SAP mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c7477-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables adapter clients to perform transactions on an SAP system by using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c7477-104">Antes de crear una orquestación para una transacción, debe entender primero un escenario básico en el que se realizará las transacciones.</span><span class="sxs-lookup"><span data-stu-id="c7477-104">Before creating an orchestration for a transaction, you must first understand a basic scenario in which transactions will be performed.</span></span> <span data-ttu-id="c7477-105">En un escenario típico de transacción, se envía un mensaje de solicitud con varias operaciones (como la invocación de un BAPI) al sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="c7477-105">In a typical transaction scenario, a request message with multiple operations (such as invoking a BAPI) is sent to the SAP system.</span></span> <span data-ttu-id="c7477-106">Esto se conoce como un "mensaje de operación".</span><span class="sxs-lookup"><span data-stu-id="c7477-106">This will be referred to as an "operation message."</span></span> <span data-ttu-id="c7477-107">La orquestación debe extraer cada mensaje de operación del mensaje de solicitud y enviar los mensajes de operación individuales en el sistema SAP.</span><span class="sxs-lookup"><span data-stu-id="c7477-107">The orchestration must extract each operation message from the request message and send the individual operation messages to the SAP system.</span></span> <span data-ttu-id="c7477-108">La orquestación envía una detrás de otra con la misma conexión.</span><span class="sxs-lookup"><span data-stu-id="c7477-108">The orchestration sends them one after the other using the same connection.</span></span> <span data-ttu-id="c7477-109">La orquestación extrae los mensajes individuales desde el "mensaje de operación" mediante una transformación XML a través de una asignación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c7477-109">The orchestration extracts the individual messages from the "operation message" by using an XML transform via a BizTalk map.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: 'MSCIT: Uso de servicios de BizTalk de Microsoft Azure para pedidos de la cadena de suministro | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 22091261-cd17-45b2-8746-dc174b52dcff
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299220"
 ---
 # <a name="mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders"></a><span data-ttu-id="60ae9-102">MSCIT: Uso de servicios de BizTalk de Microsoft Azure para pedidos de la cadena de suministro</span><span class="sxs-lookup"><span data-stu-id="60ae9-102">MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders</span></span>
 <span data-ttu-id="60ae9-103">**Dispositivos de Microsoft & estudios: uso de servicios de BizTalk de Microsoft Azure para pedidos de la cadena de suministro**</span><span class="sxs-lookup"><span data-stu-id="60ae9-103">**Microsoft Devices & Studios: Using Microsoft Azure BizTalk Services for Supply Chain Orders**</span></span>  

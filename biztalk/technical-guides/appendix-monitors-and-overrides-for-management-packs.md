@@ -1,14 +1,14 @@
 ---
-title: "Apéndice: Monitores e invalidaciones para los módulos de administración | Documentos de Microsoft"
-ms.custom: 
+title: 'Apéndice: Monitores e invalidaciones para los módulos de administración | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a754d1-5734-4449-9cce-b0bf9dad46d1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295508"
 ---
 # <a name="appendix-monitors-and-overrides-for-management-packs"></a><span data-ttu-id="ad5d7-102">Apéndice: Monitores e invalidaciones para los módulos de administración</span><span class="sxs-lookup"><span data-stu-id="ad5d7-102">Appendix: Monitors and Overrides for Management Packs</span></span>
 <span data-ttu-id="ad5d7-103">En esta sección se proporciona procedimientos detallados y scripts que permiten mostrar reglas y otra información acerca de los módulos de administración que importe.</span><span class="sxs-lookup"><span data-stu-id="ad5d7-103">This section provides detailed procedures and scripts that allow you to display rules and other information about the management packs you import.</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22302988"
 ---
 # <a name="system-level-bottlenecks"></a><span data-ttu-id="01044-102">Cuellos de botella de nivel de sistema</span><span class="sxs-lookup"><span data-stu-id="01044-102">System-Level Bottlenecks</span></span>
 <span data-ttu-id="01044-103">En este tema se describe cómo solucionar cuellos de botella de nivel de sistema comunes que pueden afectar al rendimiento de una solución de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="01044-103">This topic describes how to address common system-level bottlenecks that can impact the performance of a BizTalk Server solution.</span></span>  

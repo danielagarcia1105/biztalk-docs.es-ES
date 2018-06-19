@@ -1,11 +1,11 @@
 ---
-title: "Lección 8: Crear e implementar el ensamblado | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 8: Crear e implementar el ensamblado | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building assemblies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - assemblies, building
 - assemblies, deploying
 ms.assetid: 74c9dfbd-8365-4600-8885-a9d9c3490dd5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960922"
 ---
 # <a name="lesson-8-building-and-deploying-the-assembly"></a><span data-ttu-id="372c3-102">Lección 8: Crear e implementar el ensamblado</span><span class="sxs-lookup"><span data-stu-id="372c3-102">Lesson 8: Building and Deploying the Assembly</span></span>
 <span data-ttu-id="372c3-103">En esta lección, generará e implementará el proyecto de canalización para generar un ensamblado que contiene las canalizaciones que creó en los pasos anteriores.</span><span class="sxs-lookup"><span data-stu-id="372c3-103">In this lesson, you build and deploy the pipeline project to generate an assembly that contains the pipelines you created in the previous steps.</span></span> <span data-ttu-id="372c3-104">En esta lección asegure que no haya ningún error de compilación en el trabajo que ha creado hasta ahora.</span><span class="sxs-lookup"><span data-stu-id="372c3-104">This lesson ensures there are no compilation errors in the work you have created so far.</span></span>  

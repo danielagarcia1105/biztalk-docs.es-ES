@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968442"
 ---
 # <a name="error---index-functoid-has-no-index"></a><span data-ttu-id="94779-102">Error - el Functoid de índice No tiene un índice</span><span class="sxs-lookup"><span data-stu-id="94779-102">Error - Index Functoid Has No Index</span></span>
 <span data-ttu-id="94779-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="94779-103">**Error Code**</span></span>  

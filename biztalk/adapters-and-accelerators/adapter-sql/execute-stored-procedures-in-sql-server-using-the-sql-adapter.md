@@ -1,14 +1,14 @@
 ---
 title: Ejecutar procedimientos almacenados en SQL Server mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245626a7-f546-4aca-90df-c0579139a872
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224060"
 ---
 # <a name="execute-stored-procedures-in-sql-server-using-the-sql-adapter"></a><span data-ttu-id="94d22-102">Ejecutar procedimientos almacenados en SQL Server mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="94d22-102">Execute Stored Procedures in SQL Server using the SQL adapter</span></span>
 <span data-ttu-id="94d22-103">Aparecen los Transact-SQL y procedimientos almacenados de CLR en SQL Server como operaciones en [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] en el **procedimientos** nodo durante el uso de la [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="94d22-103">The Transact-SQL and CLR stored procedures in SQL Server are surfaced as operations in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] under the **Procedures** node while using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span></span> <span data-ttu-id="94d22-104">Los nombres de las operaciones exponen por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] son los mismos que el nombre del procedimiento almacenado en SQL Server.</span><span class="sxs-lookup"><span data-stu-id="94d22-104">The operation names exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] are the same as the name of the stored procedure in SQL Server.</span></span> <span data-ttu-id="94d22-105">Todos los parámetros del procedimiento almacenado se exponen en la operación correspondiente.</span><span class="sxs-lookup"><span data-stu-id="94d22-105">All the parameters in the stored procedure are exposed in the corresponding operation.</span></span> <span data-ttu-id="94d22-106">El parámetro de salida contiene el valor devuelto del procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="94d22-106">The OUT parameter contains the return value of the stored procedure.</span></span> <span data-ttu-id="94d22-107">El conjunto de resultados del procedimiento almacenado es una matriz de conjunto de datos.</span><span class="sxs-lookup"><span data-stu-id="94d22-107">The result set of the stored procedure is an array of DataSet.</span></span> <span data-ttu-id="94d22-108">Para obtener más información sobre el conjunto de datos, vea [http://go.microsoft.com/fwlink/?LinkId=196853](http://go.microsoft.com/fwlink/?LinkId=196853).</span><span class="sxs-lookup"><span data-stu-id="94d22-108">For more information about DataSet, see [http://go.microsoft.com/fwlink/?LinkId=196853](http://go.microsoft.com/fwlink/?LinkId=196853).</span></span> <span data-ttu-id="94d22-109">La información de esquema del objeto de destino se obtiene como parte del mensaje de respuesta en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="94d22-109">The schema information of the target object is obtained as part of the response message at run time.</span></span>  

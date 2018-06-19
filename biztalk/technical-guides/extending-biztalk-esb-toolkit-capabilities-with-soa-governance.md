@@ -1,14 +1,14 @@
 ---
 title: Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con el control de SOA | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b66a121b-d86f-4f97-a05f-5141ffe719e8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299796"
 ---
 # <a name="extending-biztalk-esb-toolkit-capabilities-with-soa-governance"></a><span data-ttu-id="e4161-102">Ampliar las capacidades de Kit de herramientas de ESB de BizTalk con el control de SOA</span><span class="sxs-lookup"><span data-stu-id="e4161-102">Extending BizTalk ESB Toolkit Capabilities with SOA Governance</span></span>
 <span data-ttu-id="e4161-103">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] se incluye con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y es una colección de herramientas y bibliotecas que extienden [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] capacidades de admitir una arquitectura de mensajería con acoplamiento flexible y dinámica.</span><span class="sxs-lookup"><span data-stu-id="e4161-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and is a collection of tools and libraries that extend [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] capabilities of supporting a loosely coupled and dynamic messaging architecture.</span></span> <span data-ttu-id="e4161-104">Funciona como middleware que proporciona herramientas para mediación rápida entre servicios y sus consumidores.</span><span class="sxs-lookup"><span data-stu-id="e4161-104">It functions as middleware that provides tools for rapid mediation between services and their consumers.</span></span> <span data-ttu-id="e4161-105">Habilitar la máxima flexibilidad en tiempo de ejecución, el [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] simplifica la composición de acoplamiento flexible de extremos de servicio y la administración de las interacciones del servicio.</span><span class="sxs-lookup"><span data-stu-id="e4161-105">Enabling maximum flexibility at run time, the [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] simplifies loosely coupled composition of service endpoints and management of service interactions.</span></span>  

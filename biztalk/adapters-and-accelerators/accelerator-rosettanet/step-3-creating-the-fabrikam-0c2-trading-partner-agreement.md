@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965458"
 ---
 # <a name="step-3-creating-the-fabrikam-0c2-trading-partner-agreement"></a><span data-ttu-id="c5098-102">Paso 3: Crear el acuerdo de socio comercial Fabrikam 0c comerciales 2</span><span class="sxs-lookup"><span data-stu-id="c5098-102">Step 3: Creating the Fabrikam 0C2 Trading Partner Agreement</span></span>
 <span data-ttu-id="c5098-103">En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.</span><span class="sxs-lookup"><span data-stu-id="c5098-103">In this step, you create a trading partner agreement between Contoso and Fabrikam using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span> <span data-ttu-id="c5098-104">Crear un nuevo acuerdo de socio comercial para el 0c 2 proceso de interfaz de socio (PIP).</span><span class="sxs-lookup"><span data-stu-id="c5098-104">You create a new trading partner agreement for the 0C2 Partner Interface Process (PIP).</span></span>  

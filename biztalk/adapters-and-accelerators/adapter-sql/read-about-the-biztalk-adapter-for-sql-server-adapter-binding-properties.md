@@ -1,14 +1,14 @@
 ---
-title: "Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4606f583-da74-4a26-95cb-88915ecafe37
-caps.latest.revision: "43"
+caps.latest.revision: 43
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967842"
 ---
 # <a name="read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties"></a><span data-ttu-id="472a4-102">Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server</span><span class="sxs-lookup"><span data-stu-id="472a4-102">Read about the BizTalk Adapter for SQL Server adapter binding properties</span></span>
 <span data-ttu-id="472a4-103">La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone varias propiedades de enlace.</span><span class="sxs-lookup"><span data-stu-id="472a4-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces several binding properties.</span></span> <span data-ttu-id="472a4-104">Al establecer estas propiedades, puede controlar algunos de los comportamientos del adaptador.</span><span class="sxs-lookup"><span data-stu-id="472a4-104">By setting these properties, you can control some of the adapter's behavior.</span></span> <span data-ttu-id="472a4-105">Esta sección describen las propiedades de enlace expuestas por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="472a4-105">This section describes the binding properties exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="472a4-106">También se muestra cómo se pueden tener acceso a ellos mediante programación de .NET o estableciendo propiedades en un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enlace de puerto físico.</span><span class="sxs-lookup"><span data-stu-id="472a4-106">It also shows how you can access them by using .NET programming or by setting properties on a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] physical port binding.</span></span>  

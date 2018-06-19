@@ -1,11 +1,11 @@
 ---
-title: "Casos prácticos de seguridad: La compañía A | Documentos de Microsoft"
-ms.custom: 
+title: 'Casos prácticos de seguridad: La compañía A | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - architecture, security
 - security, case studies
 ms.assetid: 9417ecf9-e340-479f-b120-552c62f3b189
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269948"
 ---
 # <a name="security-case-studies-company-a"></a><span data-ttu-id="97d0c-102">Casos prácticos de seguridad: La compañía A</span><span class="sxs-lookup"><span data-stu-id="97d0c-102">Security Case Studies: Company A</span></span>
 <span data-ttu-id="97d0c-103">La compañía A es un importante proveedor de material y servicios para la industria.</span><span class="sxs-lookup"><span data-stu-id="97d0c-103">Company A is a major supplier of material and services to the industrial sector.</span></span> <span data-ttu-id="97d0c-104">Su modelo de negocio se basa en transacciones electrónicas con proveedores y clientes clave.</span><span class="sxs-lookup"><span data-stu-id="97d0c-104">Its business model relies on electronic transactions with key customers and suppliers.</span></span> <span data-ttu-id="97d0c-105">La compañía A usa una aplicación de Microsoft BizTalk para administrar las transacciones y las comunicaciones entre los entornos internos y externos.</span><span class="sxs-lookup"><span data-stu-id="97d0c-105">Company A uses Microsoft BizTalk Application to manage transactions and communications between internal and external environments.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Agregar configuración de SWIFTNet la Paramfile para el escenario en tiempo real de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Agregar configuración de SWIFTNet la Paramfile para el escenario en tiempo real de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4feec3f-4755-477e-b3d6-1dd6d075255e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963770"
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-fileact-real-time-scenario"></a><span data-ttu-id="bf75a-102">Paso 2: Agregar configuración de SWIFTNet la Paramfile para el escenario en tiempo real de FileAct</span><span class="sxs-lookup"><span data-stu-id="bf75a-102">Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Real-Time Scenario</span></span>
 <span data-ttu-id="bf75a-103">Los asociados de mensaje de servidor creados en SAG deben especificarse en el paramfile SWIFTNet para permitir que los receptores inicializar con estos valores.</span><span class="sxs-lookup"><span data-stu-id="bf75a-103">The Server message partners created in SAG must be specified in the SWIFTNet paramfile to enable Receivers to initialize with these values.</span></span>  
@@ -46,19 +47,19 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="bf75a-115">**spawn "snlreceiver - SagMessagePartner \<MessagePartnerName de servidor para fileact RT \> fileact - AdapterMode"**</span><span class="sxs-lookup"><span data-stu-id="bf75a-115">**spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for fileact RT \> -AdapterMode fileact"**</span></span>  
   
-     <span data-ttu-id="bf75a-116">* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-116">*END</span></span>  
+     <span data-ttu-id="bf75a-116">\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-116">\*END</span></span>  
   
      <span data-ttu-id="bf75a-117">subsystem_stop:</span><span class="sxs-lookup"><span data-stu-id="bf75a-117">subsystem_stop:</span></span>  
   
-     <span data-ttu-id="bf75a-118">* KILL9:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="bf75a-118">*KILL9:snlreceiver</span></span>  
+     <span data-ttu-id="bf75a-118">\* KILL9:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="bf75a-118">\*KILL9:snlreceiver</span></span>  
   
-     <span data-ttu-id="bf75a-119">* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-119">*END</span></span>  
+     <span data-ttu-id="bf75a-119">\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-119">\*END</span></span>  
   
      <span data-ttu-id="bf75a-120">subsystem_status:</span><span class="sxs-lookup"><span data-stu-id="bf75a-120">subsystem_status:</span></span>  
   
-     <span data-ttu-id="bf75a-121">* NB:1:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="bf75a-121">*NB:1:snlreceiver</span></span>  
+     <span data-ttu-id="bf75a-121">\* NB:1:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="bf75a-121">\*NB:1:snlreceiver</span></span>  
   
-     <span data-ttu-id="bf75a-122">* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-122">*END</span></span>  
+     <span data-ttu-id="bf75a-122">\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-122">\*END</span></span>  
   
      <span data-ttu-id="bf75a-123">start_event:SNL001:Subsystem FileactStub está activo</span><span class="sxs-lookup"><span data-stu-id="bf75a-123">start_event:SNL001:subsystem FileactStub is up</span></span>  
   
@@ -74,15 +75,15 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="bf75a-129">\#subsystem_start:</span><span class="sxs-lookup"><span data-stu-id="bf75a-129">\#subsystem_start:</span></span>  
   
-     <span data-ttu-id="bf75a-130">\#* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-130">\#*END</span></span>  
+     <span data-ttu-id="bf75a-130">\#\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-130">\#\*END</span></span>  
   
      <span data-ttu-id="bf75a-131">\#subsystem_stop:</span><span class="sxs-lookup"><span data-stu-id="bf75a-131">\#subsystem_stop:</span></span>  
   
-     <span data-ttu-id="bf75a-132">\#* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-132">\#*END</span></span>  
+     <span data-ttu-id="bf75a-132">\#\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-132">\#\*END</span></span>  
   
      <span data-ttu-id="bf75a-133">\#subsystem_status:</span><span class="sxs-lookup"><span data-stu-id="bf75a-133">\#subsystem_status:</span></span>  
   
-     #<a name="end"></a><span data-ttu-id="bf75a-134">* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-134">*END</span></span>  
+     #<a name="end"></a><span data-ttu-id="bf75a-134">\* FINAL</span><span class="sxs-lookup"><span data-stu-id="bf75a-134">\*END</span></span>  
   
      #<a name="starteventsnl001subsystem-user-is-up"></a><span data-ttu-id="bf75a-135">start_event:SNL001:Subsystem usuario está activo</span><span class="sxs-lookup"><span data-stu-id="bf75a-135">start_event:SNL001:subsystem User is up</span></span>  
   

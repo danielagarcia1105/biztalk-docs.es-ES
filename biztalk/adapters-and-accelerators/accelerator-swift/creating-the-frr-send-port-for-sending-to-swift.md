@@ -1,18 +1,18 @@
 ---
-title: "Crear el puerto de envío FRR para enviar a SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Crear el puerto de envío FRR para enviar a SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 - FRR, creating send ports
 ms.assetid: 1ad766db-d1da-437a-a520-a3b04f0695c4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210412"
 ---
 # <a name="creating-the-frr-send-port-for-sending-to-swift"></a><span data-ttu-id="a3970-102">Crear el puerto de envío FRR para enviar para SWIFT</span><span class="sxs-lookup"><span data-stu-id="a3970-102">Creating the FRR Send Port for Sending to SWIFT</span></span>
 <span data-ttu-id="a3970-103">Para realizar la conciliación de respuesta de FIN, debe crear un puerto de envío que envía un mensaje de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] a la red SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a3970-103">To perform FIN Response Reconciliation, you need to create a send port that sends a message from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to the SWIFT Network.</span></span>  

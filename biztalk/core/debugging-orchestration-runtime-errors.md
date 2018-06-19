@@ -1,14 +1,14 @@
 ---
-title: "Depuración de errores en tiempo de ejecución de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Depuración de errores en tiempo de ejecución de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7be9ee5a-b9fa-428b-8b92-0fa0f801c724
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969906"
 ---
 # <a name="debugging-orchestration-runtime-errors"></a><span data-ttu-id="78028-102">Depurar errores en tiempo de ejecución de orquestaciones</span><span class="sxs-lookup"><span data-stu-id="78028-102">Debugging Orchestration Runtime Errors</span></span>
 <span data-ttu-id="78028-103">Esta sección contiene una serie de preguntas y respuestas diseñadas para ayudarle a solucionar problemas en tiempo de ejecución con las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="78028-103">This section contains a set of questions and answers designed to help you resolve runtime issues with your orchestrations.</span></span>  

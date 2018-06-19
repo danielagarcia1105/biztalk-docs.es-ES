@@ -1,18 +1,18 @@
 ---
-title: "Cambiar los campos regeneración | Documentos de Microsoft"
-ms.custom: 
+title: Cambiar los campos regeneración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - rekeyed fields
 - Message Repair and New Submission, modifying fields
 - Message Repair and New Submission, rekeyed fields
 ms.assetid: aaf353f7-0e43-403e-b72a-88e5dd07f4ac
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964498"
 ---
 # <a name="changing-fields-to-be-rekeyed"></a><span data-ttu-id="4bdf9-102">Cambiar los campos de regeneración</span><span class="sxs-lookup"><span data-stu-id="4bdf9-102">Changing Fields to Be Rekeyed</span></span>
 <span data-ttu-id="4bdf9-103">En el paso de comprobación de un flujo de trabajo de reparación de mensaje [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] quita los datos de un número de campos para que el Verificador debe volver a escribir o regenerar, esos datos.</span><span class="sxs-lookup"><span data-stu-id="4bdf9-103">In the verification step of a message repair workflow, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] removes the data from a number of fields so that the verifier must re-enter, or rekey, that data.</span></span> <span data-ttu-id="4bdf9-104">Puede personalizar qué campos de la RekeyVerify [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario necesita regeneración.</span><span class="sxs-lookup"><span data-stu-id="4bdf9-104">You can customize which fields in the RekeyVerify [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form need to be rekeyed.</span></span> <span data-ttu-id="4bdf9-105">Puede hacerlo en el archivo MrsrXpathConfig.xml, que se encuentra en la \< *unidad*\>: \Program Acelerador de BizTalk para la carpeta SWIFT\MRSR.</span><span class="sxs-lookup"><span data-stu-id="4bdf9-105">You do so in the MrsrXpathConfig.xml file, which is located in the \<*drive*\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\MRSR folder.</span></span>  

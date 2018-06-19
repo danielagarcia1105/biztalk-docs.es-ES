@@ -1,17 +1,17 @@
 ---
-title: "Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQLEXECUTE operation, performing by using BizTalk Server
 - SQLEXECUTE operation
 ms.assetid: 7fdd1ead-0bf0-46cf-86fc-db513f76f6b3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962266"
 ---
 # <a name="run-sqlexecute-operation-in-oracle-database-using-biztalk-server"></a><span data-ttu-id="9953c-102">Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="9953c-102">Run SQLEXECUTE operation in Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="9953c-103">El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] permite a los clientes para que se ejecute la instrucción SQL con parámetros en una base de datos de Oracle.</span><span class="sxs-lookup"><span data-stu-id="9953c-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables clients to run parameterized SQL statement on an Oracle database.</span></span> <span data-ttu-id="9953c-104">Para admitir estas operaciones, la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expone una operación SQLEXECUTE.</span><span class="sxs-lookup"><span data-stu-id="9953c-104">To support such operations, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces a SQLEXECUTE operation.</span></span> <span data-ttu-id="9953c-105">Operación SQLEXECUTE admite un bloque de parámetro de entrada consta de los conjuntos de parámetros que permiten ejecutar la misma instrucción SQL una vez para cada conjunto.</span><span class="sxs-lookup"><span data-stu-id="9953c-105">SQLEXECUTE operation supports an input parameter block comprised of parameter sets that enable you to execute the same SQL statement once for each set.</span></span> <span data-ttu-id="9953c-106">La operación SQLEXECUTE devuelve los resultados de la instrucción SQL en un conjunto de registros genérico.</span><span class="sxs-lookup"><span data-stu-id="9953c-106">The SQLEXECUTE operation returns the results of the SQL statement in a generic record set.</span></span> <span data-ttu-id="9953c-107">Para obtener más información sobre la operación, vea [operación SQLEXECUTE en base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).</span><span class="sxs-lookup"><span data-stu-id="9953c-107">For more information about the operation, see [SQLEXECUTE Operation in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).</span></span> <span data-ttu-id="9953c-108">Para obtener información acerca de la estructura del mensaje SOAP para la operación SQLEXECUTE, consulte [esquemas de mensaje para la operación SQLEXECUTE](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-sqlexecute-operation.md).</span><span class="sxs-lookup"><span data-stu-id="9953c-108">For information about the structure of the SOAP message for SQLEXECUTE operation, see [Message Schemas for the SQLEXECUTE Operation](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-sqlexecute-operation.md).</span></span>  

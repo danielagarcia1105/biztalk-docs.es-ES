@@ -1,18 +1,18 @@
 ---
-title: "Bloques de creación para crear aplicaciones de SAP | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para crear aplicaciones de SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - design-time tasks
 - run-time tasks
 - developing, fundamentals of (BizTalk applications)
 ms.assetid: 591a5597-5e7d-44b0-8bee-e1c987c5e6c3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218172"
 ---
 # <a name="building-blocks-to-create-sap-applications"></a><span data-ttu-id="747d4-102">Bloques de creación para crear aplicaciones de SAP</span><span class="sxs-lookup"><span data-stu-id="747d4-102">Building blocks to create SAP applications</span></span>
 <span data-ttu-id="747d4-103">Realizar operaciones en un sistema SAP mediante [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] implica dos conjuntos de actividades: actividades de tiempo de diseño y tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="747d4-103">Performing operations on an SAP system using [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] involves two set of activities: design-time activities and run-time activities.</span></span> <span data-ttu-id="747d4-104">Para realizar operaciones en un sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración.</span><span class="sxs-lookup"><span data-stu-id="747d4-104">To perform operations on an SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="747d4-105">Esta sección proporciona información general sobre estas tareas.</span><span class="sxs-lookup"><span data-stu-id="747d4-105">This section provides an overview of these tasks.</span></span> <span data-ttu-id="747d4-106">Todos los temas de esta sección, que muestran cómo realizar operaciones específicas en un sistema SAP mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.</span><span class="sxs-lookup"><span data-stu-id="747d4-106">All the topics in this section, which demonstrate how to perform specific operations on an SAP system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

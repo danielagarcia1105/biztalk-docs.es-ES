@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar una aplicación de Workflow Foundation para la intercepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar una aplicación de Workflow Foundation para la intercepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c82e83f-9dbd-4325-9f30-778eba892296
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970050"
 ---
 # <a name="how-to-configure-a-workflow-foundation-application-for-interception"></a><span data-ttu-id="d9f70-102">Cómo configurar una aplicación de Workflow Foundation para llevar a cabo una intercepción</span><span class="sxs-lookup"><span data-stu-id="d9f70-102">How to Configure a Workflow Foundation Application for Interception</span></span>
 <span data-ttu-id="d9f70-103">Debe instalar el software interceptor de BAM y configurar la aplicación para utilizar el servicio de interceptor [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] antes de comenzar a recopilar los datos de actividad de BAM.</span><span class="sxs-lookup"><span data-stu-id="d9f70-103">You must install the BAM interceptor software and configure your application to use the [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] interceptor service before you can begin collecting BAM activity data.</span></span> <span data-ttu-id="d9f70-104">Se supone que ha instalado correctamente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y sus dependencias, y que ha creado al menos un grupo de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="d9f70-104">It is assumed that you have successfully installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and its dependencies and have created at least one BizTalk group.</span></span>  

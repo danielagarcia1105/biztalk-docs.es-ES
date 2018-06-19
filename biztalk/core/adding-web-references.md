@@ -1,11 +1,11 @@
 ---
 title: Agregar referencias Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL, orchestrations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Web services, references
 - projects, Web services
 ms.assetid: 7e40f215-f11a-4151-bcc6-e107bf36b6f6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964770"
 ---
 # <a name="adding-web-references"></a><span data-ttu-id="c7842-102">Agregar referencias web</span><span class="sxs-lookup"><span data-stu-id="c7842-102">Adding Web References</span></span>
 <span data-ttu-id="c7842-103">Antes de que pueda agregar un puerto Web, necesitará agregar una referencia Web a su proyecto de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="c7842-103">Before you can add a Web port, you need to add a Web reference to your BizTalk project.</span></span> <span data-ttu-id="c7842-104">Una referencia Web es una descripción de un servicio Web que se encuentra disponible en su proyecto.</span><span class="sxs-lookup"><span data-stu-id="c7842-104">A Web reference is a description of a Web service that is available to your project.</span></span> <span data-ttu-id="c7842-105">Cuando se agrega una referencia Web al proyecto, el proyecto de BizTalk crea una orquestación Web tipo de puerto, tipos de mensajes Web, Reference.map (archivo de asignación), Reference.odx (archivo de orquestación), \< *WebService*\>. disco (archivo de descubrimiento) y \< *WebService*\>.wsdl (archivo de lenguaje de descripción de servicios Web) a su proyecto.</span><span class="sxs-lookup"><span data-stu-id="c7842-105">When you add a Web reference to your project, BizTalk project creates an orchestration Web port type, Web message types, Reference.map (map file), Reference.odx (orchestration file), \<*WebService*\>.disco (discovery file), and \<*WebService*\>.wsdl (Web Service Description Language file) to your project.</span></span> <span data-ttu-id="c7842-106">Si su archivo de Lenguaje de descripción de servicios Web (WSDL) contiene tipos de esquemas de mensaje Web, el proyecto de BizTalk agregará Reference.xsd a su proyecto.</span><span class="sxs-lookup"><span data-stu-id="c7842-106">If your Web Service Description Language (WSDL) file contains schema Web message types, BizTalk project adds Reference.xsd to your project.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo realizar una copia del análisis de seguimiento y análisis de BAM bases de datos del servidor | Documentos de Microsoft"
-ms.custom: 
+title: Cómo realizar una copia del análisis de seguimiento y análisis de BAM bases de datos del servidor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, DTS packages
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - Tracking Analysis Server database [BAM], backing up
 - Star Schema database [BAM], backing up
 ms.assetid: d39e3491-ab54-44f2-990a-7b8ee86f0501
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970274"
 ---
 # <a name="how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases"></a><span data-ttu-id="0d31d-102">Cómo realizar una copia de seguridad de las bases de datos de servidor de análisis de seguimiento y de análisis de SAE</span><span class="sxs-lookup"><span data-stu-id="0d31d-102">How to Back Up the BAM Analysis and Tracking Analysis Server Databases</span></span>
 <span data-ttu-id="0d31d-103">La base de datos de análisis de Supervisión de la actividad económica (SAE) y la base de datos de servidor de análisis de seguimiento almacenan contenido en los cubos de los servicios de análisis de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0d31d-103">The Business Activity Monitoring (BAM) Analysis database and the Tracking Analysis Server database store content in SQL Server Analysis Services cubes.</span></span> <span data-ttu-id="0d31d-104">El trabajo de copia de seguridad de BizTalk Server no realiza ninguna copia de seguridad de estas bases de datos.</span><span class="sxs-lookup"><span data-stu-id="0d31d-104">The Backup BizTalk Server job does not back up these databases.</span></span> <span data-ttu-id="0d31d-105">Para ello, tendrá que utilizar Analysis Manager de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0d31d-105">Instead, to backup these databases, you must use SQL Server Analysis Manager.</span></span>  

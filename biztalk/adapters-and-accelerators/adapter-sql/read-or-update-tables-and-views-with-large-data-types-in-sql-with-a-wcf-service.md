@@ -1,14 +1,14 @@
 ---
 title: Ejecutar operaciones en tablas y vistas con los tipos de datos grandes en SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d33e17c-e09e-4a57-9acc-43095e67ed8c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967130"
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-in-sql-using-the-wcf-service-model"></a><span data-ttu-id="e52e5-102">Ejecutar operaciones en tablas y vistas con los tipos de datos grandes en SQL mediante el modelo de servicio de WCF</span><span class="sxs-lookup"><span data-stu-id="e52e5-102">Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model</span></span>
 <span data-ttu-id="e52e5-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max).</span><span class="sxs-lookup"><span data-stu-id="e52e5-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max).</span></span> <span data-ttu-id="e52e5-104">Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección.</span><span class="sxs-lookup"><span data-stu-id="e52e5-104">To read data from such columns, adapter clients can use the Select operation.</span></span> <span data-ttu-id="e52e5-105">Para insertar o actualizar datos en estas columnas, el adaptador expone un conjunto\<*column_name* \> operación, donde \< *column_name* \> es el nombre de la columna de tipo varchar (max), nvarchar (max) o varbinary (max).</span><span class="sxs-lookup"><span data-stu-id="e52e5-105">To insert or update data into such columns, the adapter exposes a Set\<*column_name*\> operation, where \<*column_name*\> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).</span></span>  
@@ -148,7 +149,7 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
 7.  <span data-ttu-id="e52e5-192">Invocar la **SetDocument** operación en el **registros** tabla.</span><span class="sxs-lookup"><span data-stu-id="e52e5-192">Invoke the **SetDocument** operation on the **Records** table.</span></span>  
   
     > [!CAUTION]
-    >  <span data-ttu-id="e52e5-193">El conjunto de*< column_name >* siempre se deben realizar las operaciones en una transacción.</span><span class="sxs-lookup"><span data-stu-id="e52e5-193">The Set*<column_name>* operations must always be performed in a transaction.</span></span> <span data-ttu-id="e52e5-194">Para asegurarse de esto, el conjunto de*< column_name >* se debe invocar la operación dentro de un ámbito de transacción y el **UseAmbientTransaction** enlaza la propiedad debe establecerse en **true**en el archivo app.config.</span><span class="sxs-lookup"><span data-stu-id="e52e5-194">To ensure this, the Set*<column_name>* operation must be invoked within a transaction scope and the **UseAmbientTransaction** binding property must be set to **true** in the app.config.</span></span>  
+    >  <span data-ttu-id="e52e5-193">El conjunto de *< column_name >* siempre se deben realizar las operaciones en una transacción.</span><span class="sxs-lookup"><span data-stu-id="e52e5-193">The Set *<column_name>* operations must always be performed in a transaction.</span></span> <span data-ttu-id="e52e5-194">Para asegurarse de esto, el conjunto de *< column_name >* se debe invocar la operación dentro de un ámbito de transacción y el **UseAmbientTransaction** enlaza la propiedad debe establecerse en **true**en el archivo app.config.</span><span class="sxs-lookup"><span data-stu-id="e52e5-194">To ensure this, the Set *<column_name>* operation must be invoked within a transaction scope and the **UseAmbientTransaction** binding property must be set to **true** in the app.config.</span></span>  
   
     ```  
     using (TransactionScope tx = new TransactionScope())  

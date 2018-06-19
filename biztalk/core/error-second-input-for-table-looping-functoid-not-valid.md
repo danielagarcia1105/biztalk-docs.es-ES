@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970266"
 ---
 # <a name="error---second-input-for-table-looping-functoid-not-valid"></a><span data-ttu-id="363ad-102">Error: segunda entrada de tabla no es válido el Functoid de bucle</span><span class="sxs-lookup"><span data-stu-id="363ad-102">Error - Second Input for Table Looping Functoid Not Valid</span></span>
 <span data-ttu-id="363ad-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="363ad-103">**Error Code**</span></span>  

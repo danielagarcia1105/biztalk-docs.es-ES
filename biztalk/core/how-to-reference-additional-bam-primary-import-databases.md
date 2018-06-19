@@ -1,14 +1,14 @@
 ---
-title: "Cómo hacer referencia a las bases de datos de importación principal de BAM adicionales | Documentos de Microsoft"
-ms.custom: 
+title: Cómo hacer referencia a las bases de datos de importación principal de BAM adicionales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea80b32c-f2cb-4aca-89f4-d5b72e1ba021
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969978"
 ---
 # <a name="how-to-reference-additional-bam-primary-import-databases"></a><span data-ttu-id="5a42a-102">Cómo agregar referencias a bases de datos de importación principal de BAM adicionales</span><span class="sxs-lookup"><span data-stu-id="5a42a-102">How to Reference Additional BAM Primary Import Databases</span></span>
 <span data-ttu-id="5a42a-103">Los administradores utilizan el **enable-reference** comando para hacer referencia a otras bases de datos de importación principal de BAM.</span><span class="sxs-lookup"><span data-stu-id="5a42a-103">Administrators use the **enable-reference** command to reference additional BAM Primary Import databases.</span></span> <span data-ttu-id="5a42a-104">La finalidad de agregar referencias a bases de datos de importación principales de BAM consiste en facilitar las actividades de BAM distribuidas.</span><span class="sxs-lookup"><span data-stu-id="5a42a-104">You reference multiple BAM Primary Import databases to facilitate viewing distributed BAM activities.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Implementar el ejemplo del controlador NAK FRR | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80fa5fb7-6864-4923-b641-e76d2b95d923
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961554"
 ---
 # <a name="implementing-the-frr-nak-handler-sample"></a><span data-ttu-id="357ed-102">Implementar el ejemplo del controlador FRR NAK</span><span class="sxs-lookup"><span data-stu-id="357ed-102">Implementing the FRR NAK Handler Sample</span></span>
 <span data-ttu-id="357ed-103">Para implementar el controlador personalizado de ejemplo FRR NAK, agregar el proyecto de ejemplo a la solución, compilar e implementar el proyecto, enlazar e iniciar la orquestación y, a continuación, detenga y reinicie [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="357ed-103">To implement the sample FRR NAK custom handler, add the sample project to your solution, build and deploy the project, bind and start the orchestration, and then stop and restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span>  

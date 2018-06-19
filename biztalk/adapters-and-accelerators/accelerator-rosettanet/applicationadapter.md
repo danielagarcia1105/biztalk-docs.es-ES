@@ -1,14 +1,14 @@
 ---
 title: ApplicationAdapter | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f9b876b-cd37-4e24-a476-186adc155ac0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963194"
 ---
 # <a name="applicationadapter"></a><span data-ttu-id="d21c3-102">ApplicationAdapter</span><span class="sxs-lookup"><span data-stu-id="d21c3-102">ApplicationAdapter</span></span>
 <span data-ttu-id="d21c3-103">El ejemplo ApplicationAdapter muestra cómo enviar notificaciones desde los procesos públicos y privados (servicio de respuesta o iniciador) cuando se recibe un mensaje.</span><span class="sxs-lookup"><span data-stu-id="d21c3-103">The ApplicationAdapter sample demonstrates how to send notifications from the public and private processes (responder or initiator) when you receive a message.</span></span> <span data-ttu-id="d21c3-104">Puede personalizar el ejemplo con cualquier funcionalidad adicional que desee.</span><span class="sxs-lookup"><span data-stu-id="d21c3-104">You can customize the sample with whatever additional functionality you want.</span></span>  

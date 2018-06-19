@@ -1,17 +1,17 @@
 ---
 title: Modificar esquemas XML de 2. para trabajar con el Editor de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML schemas, modifying
 - modifying, 2.XML schemas
 ms.assetid: 07316826-84b6-494e-81b9-f64a3d46ffb0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206108"
 ---
 # <a name="modifying-2xml-schemas-to-work-with-biztalk-editor"></a><span data-ttu-id="64d28-102">Modificar esquemas XML de 2. para trabajar con el Editor de BizTalk</span><span class="sxs-lookup"><span data-stu-id="64d28-102">Modifying 2.XML Schemas to Work with BizTalk Editor</span></span>
 <span data-ttu-id="64d28-103">Esquemas XML de HL7 2. requieran modificaciones para que funcione correctamente con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]).</span><span class="sxs-lookup"><span data-stu-id="64d28-103">HL7 2.XML schemas require modification to work properly with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]).</span></span> <span data-ttu-id="64d28-104">A continuación describe cómo modificar HL7 V2. Esquemas XML para que pueda usarlas con el Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="64d28-104">The following describes how to modify HL7 V2.XML schemas to enable you to use them with BizTalk Editor.</span></span>  

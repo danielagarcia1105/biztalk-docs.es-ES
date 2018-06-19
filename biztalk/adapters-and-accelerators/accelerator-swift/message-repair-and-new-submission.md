@@ -1,11 +1,11 @@
 ---
-title: "Reparación y nuevo envío de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Reparación y nuevo envío de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, errors
 - messages, resubmitting
 ms.assetid: 5bc6bfa2-8210-4dd3-89bb-5455e294ca92
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209988"
 ---
 # <a name="message-repair-and-new-submission"></a><span data-ttu-id="de5a7-102">Reparación de mensajes y nuevo envío</span><span class="sxs-lookup"><span data-stu-id="de5a7-102">Message Repair and New Submission</span></span>
 <span data-ttu-id="de5a7-103">La característica de reparación de mensajes y nuevo envío de [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona una manera para que pueda reparar MT y MX mensajes que no superan la validación.</span><span class="sxs-lookup"><span data-stu-id="de5a7-103">The Message Repair and New Submission feature of [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a way for you to repair MT and MX messages that fail validation.</span></span> <span data-ttu-id="de5a7-104">Mediante el sitio de SharePoint de MRSR (implementado por el usuario), puede ver cómo el mensaje de error de validación.</span><span class="sxs-lookup"><span data-stu-id="de5a7-104">Using the MRSR SharePoint site (deployed by user), you can see how the message failed validation.</span></span> <span data-ttu-id="de5a7-105">En el sitio MRSR, puede abrir el mensaje en un formulario de InfoPath que permite identificar el error, repare el mensaje y enviarlo para volver a procesar.</span><span class="sxs-lookup"><span data-stu-id="de5a7-105">From MRSR site, you can open the message in an InfoPath form that enables you to identify the error, repair the message, and submit it for reprocessing.</span></span>  

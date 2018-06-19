@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Crear el mensaje de solicitud de UPDATE_EMPLOYEE procedimiento almacenado | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4dd975d9-4b38-46e0-a926-4b325b0d7b5e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965994"
 ---
 # <a name="step-1-create-the-request-message-for-updateemployee-stored-procedure"></a><span data-ttu-id="13a26-102">Paso 1: Crear el mensaje de solicitud de UPDATE_EMPLOYEE procedimiento almacenado</span><span class="sxs-lookup"><span data-stu-id="13a26-102">Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure</span></span>
 <span data-ttu-id="13a26-103">![Paso 1 de 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span><span class="sxs-lookup"><span data-stu-id="13a26-103">![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span></span>  

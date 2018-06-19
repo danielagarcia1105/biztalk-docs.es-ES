@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: bcccc92430a73685ced9ad7259d8ec57dfc450b8
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013235"
 ---
 # <a name="tibco-rendezvous-limitations"></a><span data-ttu-id="87d2c-101">Limitaciones de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="87d2c-101">TIBCO Rendezvous Limitations</span></span>
 <span data-ttu-id="87d2c-102">En TIBCO Rendezvous, la exclusividad del nombre de campo no se garantiza.</span><span class="sxs-lookup"><span data-stu-id="87d2c-102">In TIBCO Rendezvous, field name uniqueness is not guaranteed.</span></span> <span data-ttu-id="87d2c-103">Si un mensaje de TIBCO Rendezvous contiene dos nombres de campo que son iguales, el XML resultante no es válido.</span><span class="sxs-lookup"><span data-stu-id="87d2c-103">If a TIBCO Rendezvous message contains two field names that are the same, the resulting XML is not valid.</span></span>  

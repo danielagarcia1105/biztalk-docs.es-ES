@@ -1,17 +1,17 @@
 ---
-title: "Comprobación de la instalación | Documentos de Microsoft"
-ms.custom: 
+title: Comprobación de la instalación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing installation
 - installing, testing installation
 ms.assetid: db27a75c-db7f-46ff-b8ef-2624ff18dcc8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961068"
 ---
 # <a name="testing-your-installation"></a><span data-ttu-id="039b7-102">Comprobación de la instalación</span><span class="sxs-lookup"><span data-stu-id="039b7-102">Testing Your Installation</span></span>
 <span data-ttu-id="039b7-103">Puede configurar su [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] instalación para las pruebas manualmente ejecutando el tutorial to-end o ejecutando el programa tutorial-to-end.</span><span class="sxs-lookup"><span data-stu-id="039b7-103">You can set up your [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] installation for testing either by manually running through the end-to-end tutorial or by executing the end-to-end tutorial program.</span></span> <span data-ttu-id="039b7-104">Para practicar con el programa, haga clic en el **iniciar Tutorial** botón durante la instalación o ejecutar EndToEndTutorial.exe en C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para HL7\SDK\ Carpeta Tutorial de extremo a extremo (después de ejecutar la instalación y configuración).</span><span class="sxs-lookup"><span data-stu-id="039b7-104">To exercise the program, either click the **Launch Tutorial** button during setup or execute EndToEndTutorial.exe in the C:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder (after running installation and configuration).</span></span> <span data-ttu-id="039b7-105">Cualquiera de estas acciones automatizadas llevará a cabo los mismos pasos de instalación que debe realizar manualmente mediante la ejecución de todo el tutorial.</span><span class="sxs-lookup"><span data-stu-id="039b7-105">Either of these automated actions will perform the same setup steps that you would manually perform by running through the tutorial.</span></span> <span data-ttu-id="039b7-106">El programa tutorial-to-end hace lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="039b7-106">The end-to-end tutorial program does the following:</span></span>  

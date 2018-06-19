@@ -1,14 +1,14 @@
 ---
-title: "Escenarios de mensajería bidireccionales para el ejemplo de resolución dinámica | Documentos de Microsoft"
-ms.custom: 
+title: Escenarios de mensajería bidireccionales para el ejemplo de resolución dinámica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e89792f1-c725-46c4-946c-23211e2f892a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296044"
 ---
 # <a name="two-way-messaging-scenarios-for-the-dynamic-resolution-sample"></a><span data-ttu-id="7c54d-102">Escenarios de mensajería bidireccionales para el ejemplo de resolución dinámica</span><span class="sxs-lookup"><span data-stu-id="7c54d-102">Two-Way Messaging Scenarios for the Dynamic Resolution Sample</span></span>
 <span data-ttu-id="7c54d-103">Este tema muestra cómo ejecutar los escenarios de mensajería bidireccionales para la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplo de resolución dinámica.</span><span class="sxs-lookup"><span data-stu-id="7c54d-103">This topic shows how you can run the two-way messaging scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Dynamic Resolution sample.</span></span>  

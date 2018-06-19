@@ -1,18 +1,18 @@
 ---
-title: "Creación de los puertos de envío FRR para enviar a los controladores personalizados | Documentos de Microsoft"
-ms.custom: 
+title: Creación de los puertos de envío FRR para enviar a los controladores personalizados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 - FRR, creating send ports
 ms.assetid: 036f1f97-17a2-4e02-a85a-a52739a48528
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966546"
 ---
 # <a name="creating-the-frr-send-ports-for-sending-to-the-custom-handlers"></a><span data-ttu-id="1f57c-102">Creación de los puertos de envío FRR para enviar a los controladores personalizados</span><span class="sxs-lookup"><span data-stu-id="1f57c-102">Creating the FRR Send Ports for Sending to the Custom Handlers</span></span>
 <span data-ttu-id="1f57c-103">Para realizar la conciliación de respuesta de FIN, debe crear una serie de puertos de envío, cada uno de los cuales envía un mensaje (original mensaje o respuesta) de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] a los controladores personalizados que procesan los mensajes correlacionados.</span><span class="sxs-lookup"><span data-stu-id="1f57c-103">To perform FIN Response Reconciliation, you need to create a series of send ports, each of which sends a message (original message or response) from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to the custom handlers that process the correlated messages.</span></span>  

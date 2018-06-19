@@ -1,14 +1,14 @@
 ---
-title: "Trabajar con tablas que tienen tipos de datos de gran tamaño en Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar con tablas que tienen tipos de datos de gran tamaño en Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501aa302-0f82-4221-b99f-423bc8621a6a
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968114"
 ---
 # <a name="working-with-tables-that-have-large-data-types-in-oracle-e-business-suite"></a><span data-ttu-id="f1801-102">Trabajar con tablas que tienen tipos de datos de gran tamaño en Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="f1801-102">Working with tables that have large data types in Oracle E-Business Suite</span></span>
 <span data-ttu-id="f1801-103">El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] permite a los clientes de adaptador realizar operaciones en tablas de interfaz y las vistas con tipos de datos de gran tamaño como BLOB, CLOB, NCLOB y BFILE.</span><span class="sxs-lookup"><span data-stu-id="f1801-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.</span></span>  

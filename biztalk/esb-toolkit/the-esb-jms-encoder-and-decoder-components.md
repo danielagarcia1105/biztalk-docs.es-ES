@@ -1,14 +1,14 @@
 ---
 title: El codificador de ESB JMS y componentes de descodificador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e5591c2-d2ca-4168-8026-059fe51dd588
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295684"
 ---
 # <a name="the-esb-jms-encoder-and-decoder-components"></a><span data-ttu-id="dfdf0-102">El codificador de ESB JMS y componentes de descodificador</span><span class="sxs-lookup"><span data-stu-id="dfdf0-102">The ESB JMS Encoder and Decoder Components</span></span>
 <span data-ttu-id="dfdf0-103">Algunas soluciones de integración implican Java Message Service (JMS) y los mensajes SOAP enviados a o desde IBM WebSphere MQ; [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye dos componentes de canalización JMS escritos en código administrado para su uso en estas situaciones.</span><span class="sxs-lookup"><span data-stu-id="dfdf0-103">Some integration solutions involve Java Message Service (JMS) and SOAP messages sent to or from IBM WebSphere MQ; [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes two JMS pipeline components written in managed code for use in these situations.</span></span> <span data-ttu-id="dfdf0-104">Los componentes de leen o escribir la parte JMS del encabezado del mensaje MQ mediante los valores de propiedades de contexto asociados con el mensaje.</span><span class="sxs-lookup"><span data-stu-id="dfdf0-104">The components read or write the JMS portion of the MQ message header using the values of context properties associated with the message.</span></span> <span data-ttu-id="dfdf0-105">Actualmente, hay más de 60 tipos diferentes de los encabezados JMS en uso con sistemas de WebSphere MQ Series; los componentes de ESB JMS solo funcionan con encabezados de MQRFH2.</span><span class="sxs-lookup"><span data-stu-id="dfdf0-105">Currently, there are more than 60 different types of JMS headers in use with WebSphere MQ Series systems; the ESB JMS components work only with MQRFH2 headers.</span></span>  

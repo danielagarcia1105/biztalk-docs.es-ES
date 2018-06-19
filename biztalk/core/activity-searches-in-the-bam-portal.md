@@ -1,11 +1,11 @@
 ---
-title: "Búsquedas de actividad en el Portal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Búsquedas de actividad en el Portal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], searching
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - BAM portal, Query Builder
 - BAM portal, activity searches
 ms.assetid: 60ab8deb-ebe2-4959-97fd-261ff64d500c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966602"
 ---
 # <a name="activity-searches-in-the-bam-portal"></a><span data-ttu-id="419ea-102">Búsquedas de actividad del portal de BAM</span><span class="sxs-lookup"><span data-stu-id="419ea-102">Activity Searches in the BAM Portal</span></span>
 <span data-ttu-id="419ea-103">La búsqueda de actividad le permite realizar búsquedas de datos de BAM para encontrar actividades que coincidan con el criterio que determinó en función de los elementos y valores de seguimiento que están disponibles en la vista de BAM, y para mostrar estas actividades para que las pueda editar y crear alertas en función de las actividades.</span><span class="sxs-lookup"><span data-stu-id="419ea-103">An activity search allows you to perform searches against BAM data to find activities that match the criteria you specify based on tracked values and items available in a BAM view, and to display these activities so that you can edit them or create alerts based on them.</span></span>  

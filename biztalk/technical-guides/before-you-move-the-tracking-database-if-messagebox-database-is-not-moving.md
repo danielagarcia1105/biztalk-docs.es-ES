@@ -1,14 +1,14 @@
 ---
-title: "Consideraciones al mover la base de datos de seguimiento si no se está moviendo la base de datos de cuadro de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Consideraciones al mover la base de datos de seguimiento si no se está moviendo la base de datos de cuadro de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ee4066cb-da5b-4d04-a3b8-23fbf2d0c92a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299924"
 ---
 # <a name="considerations-when-moving-the-tracking-database-if-the-messagebox-database-is-not-being-moved"></a><span data-ttu-id="ffb11-102">Consideraciones al mover la base de datos de seguimiento si no se está moviendo la base de datos de cuadro de mensajes</span><span class="sxs-lookup"><span data-stu-id="ffb11-102">Considerations When Moving the Tracking Database if the MessageBox Database Is Not Being Moved</span></span>
 <span data-ttu-id="ffb11-103">Si va a mover la base de datos de seguimiento, pero no la base de datos, cuando se edita el archivo SampleUpdateInfo.xml, asegúrese de que incluye una entrada para la base de datos de cuadro de mensajes, aunque no se está moviendo la base de datos de cuadro de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ffb11-103">If you are moving the Tracking database but not the MessageBox database, when you edit the SampleUpdateInfo.xml file, make sure that you include an entry for the MessageBox database as well, even though the MessageBox database is not being moved.</span></span> <span data-ttu-id="ffb11-104">Esto debe hacerse para asegurarse de que el [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] trabajo del agente TrackedMessages_Copy_BizTalkMsgBoxDb se actualiza con la ubicación de la nueva base de datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="ffb11-104">This must be done to ensure that the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Agent job TrackedMessages_Copy_BizTalkMsgBoxDb is updated with the location of the new Tracking database.</span></span>  

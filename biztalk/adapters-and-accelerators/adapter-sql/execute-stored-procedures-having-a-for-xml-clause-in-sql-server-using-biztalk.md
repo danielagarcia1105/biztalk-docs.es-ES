@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d8fe927-90bf-48fc-a418-63b920b409ed
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967626"
 ---
 # <a name="execute-stored-procedures-having-a-for-xml-clause-in-sql-server-using-biztalk-server"></a><span data-ttu-id="bfae2-102">Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="bfae2-102">Execute stored procedures having a FOR XML clause in SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="bfae2-103">Una instrucción SELECT de SQL puede tener una cláusula FOR XML que devuelve el resultado de la consulta como XML en lugar de un conjunto de filas.</span><span class="sxs-lookup"><span data-stu-id="bfae2-103">An SQL SELECT statement can have a FOR XML clause that returns the query result as XML instead of a rowset.</span></span> <span data-ttu-id="bfae2-104">También puede tener un procedimiento almacenado que contiene una instrucción SELECT con una cláusula FOR XML.</span><span class="sxs-lookup"><span data-stu-id="bfae2-104">You can also have a stored procedure that has a SELECT statement with a FOR XML clause.</span></span> <span data-ttu-id="bfae2-105">[FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) se proporciona más información.</span><span class="sxs-lookup"><span data-stu-id="bfae2-105">[FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) has more information.</span></span>

@@ -1,14 +1,14 @@
 ---
 title: Los servicios Web de itinerario en rampa | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d7551974-b9d2-4ae3-b54c-3aa5ba058e95
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295436"
 ---
 # <a name="the-itinerary-on-ramp-web-services"></a><span data-ttu-id="f818b-102">Los servicios Web de itinerario en rampa</span><span class="sxs-lookup"><span data-stu-id="f818b-102">The Itinerary On-Ramp Web Services</span></span>
 <span data-ttu-id="f818b-103">El servicio Web de itinerario es itinerario en rampa que expone un método que permite a los clientes enviar mensajes para las operaciones de ESB o procesamiento por el servicio de itinerario y, después, en el destino de Microsoft BizTalk.</span><span class="sxs-lookup"><span data-stu-id="f818b-103">The Itinerary Web service is an itinerary on-ramp that exposes a method that allows clients to submit messages for processing by the Itinerary Service and then onward to the target Microsoft BizTalk or ESB operations.</span></span>  

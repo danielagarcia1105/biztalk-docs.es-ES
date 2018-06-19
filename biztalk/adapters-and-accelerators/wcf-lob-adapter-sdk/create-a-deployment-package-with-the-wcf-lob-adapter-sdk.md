@@ -1,14 +1,14 @@
 ---
-title: "Crear un paquete de implementación con el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Crear un paquete de implementación con el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10022981-7944-45d6-a78a-4d680a79b010
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966562"
 ---
 # <a name="create-a-deployment-package-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="ec773-102">Crear un paquete de implementación con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="ec773-102">Create a deployment package with the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="ec773-103">Durante el ciclo de desarrollo, puede compilar, depurar y ejecutar el adaptador dentro de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="ec773-103">During the development cycle, you can build, debug, and run your adapter within Visual Studio.</span></span> <span data-ttu-id="ec773-104">El resultado de una solución de adaptador es un ensamblado DLL.</span><span class="sxs-lookup"><span data-stu-id="ec773-104">The output of an adapter solution is a DLL assembly.</span></span> <span data-ttu-id="ec773-105">Puede generar la solución de adaptador mediante el IDE de Visual Studio o usar los scripts de devenv.exe para crear un ensamblado del adaptador.</span><span class="sxs-lookup"><span data-stu-id="ec773-105">You can build your adapter solution using Visual Studio IDE or use the devenv.exe scripts to create an adapter assembly.</span></span> <span data-ttu-id="ec773-106">Una vez que el adaptador se ha desarrollado y está listo para su uso en el entorno del consumidor de adaptador, debe crear un paquete de implementación que permite que el adaptador para instalarse en entornos de prueba y producción.</span><span class="sxs-lookup"><span data-stu-id="ec773-106">Once the adapter is developed and it is ready for use within the adapter consumer's environment, you must create a deployment package that allows the adapter to be installed in test and production environments.</span></span>  

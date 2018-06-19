@@ -1,14 +1,14 @@
 ---
-title: "Los miembros de la API de excepción de ESB | Documentos de Microsoft"
-ms.custom: 
+title: Los miembros de la API de excepción de ESB | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a095549-7e5d-4a7c-96d2-8fc6ca3efd63
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295588"
 ---
 # <a name="the-esb-exception-api-members"></a><span data-ttu-id="dc6f2-102">Los miembros de la API de excepción de ESB</span><span class="sxs-lookup"><span data-stu-id="dc6f2-102">The ESB Exception API Members</span></span>
 <span data-ttu-id="dc6f2-103">El **ESB. ExceptionHandling** ensamblado expone métodos públicos para crear mensajes de error y para administrar y recuperarlos para el procesamiento, como se describe en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="dc6f2-103">The **ESB.ExceptionHandling** assembly exposes public methods to create fault messages and to manage and retrieve them for processing, as described in the following table.</span></span>  

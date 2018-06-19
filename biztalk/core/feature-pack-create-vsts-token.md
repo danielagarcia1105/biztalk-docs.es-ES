@@ -1,12 +1,12 @@
 ---
 title: 'Paso 2: crear el token VSTS e instale el agente | Documentos de Microsoft'
-description: "Crear el clon de símbolo (token), de acceso de seguridad VSTS el proyecto VSTS en Visual Studio e instalar el agente de compilación para automatizar la implementación de los proyectos de BizTalk Server"
-ms.custom: 
+description: Crear el clon de símbolo (token), de acceso de seguridad VSTS el proyecto VSTS en Visual Studio e instalar el agente de compilación para automatizar la implementación de los proyectos de BizTalk Server
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
@@ -16,6 +16,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497693"
 ---
 # <a name="step-2-create-the-token--install-the-agent"></a><span data-ttu-id="a4bd8-103">Paso 2: Crear el token e instalar el agente</span><span class="sxs-lookup"><span data-stu-id="a4bd8-103">Step 2: Create the token & install the agent</span></span>
 

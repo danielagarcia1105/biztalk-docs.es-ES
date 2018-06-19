@@ -1,14 +1,14 @@
 ---
-title: "Fase 5: Ejecutar la evaluación | Documentos de Microsoft"
-ms.custom: 
+title: 'Fase 5: Ejecutar la evaluación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d40fc64-b6cb-448b-8ea1-a6ad7302ab8b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302692"
 ---
 # <a name="phase-5-executing-the-assessment"></a><span data-ttu-id="6a528-102">Fase 5: Ejecutar la evaluación</span><span class="sxs-lookup"><span data-stu-id="6a528-102">Phase 5: Executing the Assessment</span></span>
 <span data-ttu-id="6a528-103">La fase de ejecución es donde los datos de rendimiento se generan a través de pruebas de carga automatizada y donde los cuellos de botella de rendimiento son detectados y solucionarse.</span><span class="sxs-lookup"><span data-stu-id="6a528-103">The Execute phase is where the performance data is generated through automated load testing and where performance bottlenecks are discovered and addressed.</span></span> <span data-ttu-id="6a528-104">Esta fase tiene un proceso iterativo mediante el cual cuellos de botella de rendimiento se reduce o elimina probando, evaluar el rendimiento, optimizar y probar de nuevo.</span><span class="sxs-lookup"><span data-stu-id="6a528-104">This phase has an iterative process whereby performance bottlenecks are reduced or eliminated by testing, evaluating performance, optimizing, and testing again.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Lección 2: Agregar un puerto de envío XML | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Agregar un puerto de envío XML | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, XML ports
 - XML ports
 ms.assetid: 03b2ee43-7874-4ef9-b716-8e16e96d8382
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960706"
 ---
 # <a name="lesson-2-adding-an-xml-send-port"></a><span data-ttu-id="82035-102">Lección 2: Agregar un puerto de envío de XML</span><span class="sxs-lookup"><span data-stu-id="82035-102">Lesson 2: Adding an XML Send Port</span></span>
 <span data-ttu-id="82035-103">Use un puerto de envío para definir cómo desea que los mensajes enviados.</span><span class="sxs-lookup"><span data-stu-id="82035-103">You use a send port to define how you want the messages sent.</span></span> <span data-ttu-id="82035-104">En esta lección, creará un puerto de envío para definir cómo se deberían enviar los mensajes XML.</span><span class="sxs-lookup"><span data-stu-id="82035-104">In this lesson, you create a send port to define how XML messages should be sent.</span></span>  

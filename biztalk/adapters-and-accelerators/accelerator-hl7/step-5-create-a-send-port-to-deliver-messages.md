@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Crear un puerto de envío para entregar mensajes | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Crear un puerto de envío para entregar mensajes | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f56ad7a7-5c77-4191-a001-691e5e0652a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207604"
 ---
 # <a name="step-5-create-a-send-port-to-deliver-messages"></a><span data-ttu-id="ff172-102">Paso 5: Crear un puerto de envío para la entrega de mensajes</span><span class="sxs-lookup"><span data-stu-id="ff172-102">Step 5: Create a Send Port to Deliver Messages</span></span>
 <span data-ttu-id="ff172-103">En este paso, se creará y configurará un puerto para enviar los mensajes individuales contenidos en el lote recibido.</span><span class="sxs-lookup"><span data-stu-id="ff172-103">In this step, you create and configure a port for sending the individual messages contained in the received batch.</span></span> <span data-ttu-id="ff172-104">Más adelante en el tutorial, podrá aplicar fragmentación para la entidad de origen (Tutorial_BatchSource) en [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración.</span><span class="sxs-lookup"><span data-stu-id="ff172-104">Later in the tutorial, you will enable fragmentation for the originating party (Tutorial_BatchSource) in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.</span></span> <span data-ttu-id="ff172-105">Como resultado, el motor de integración de BizTalk fragmentará el lote en mensajes individuales, y [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] enviará los mensajes a través del puerto de envío que se crea en este paso.</span><span class="sxs-lookup"><span data-stu-id="ff172-105">As a result, the BizTalk integration engine will fragment the batch into individual messages, and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will send those messages over the send port that you create in this step.</span></span>  

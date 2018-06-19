@@ -1,11 +1,11 @@
 ---
 title: 'Paso 1: Publicar los artefactos SAP como un servicio WCF | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service, generating a
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF Adapter Service Development Wizard
 - SAP artifacts, publishing as a WCF service
 ms.assetid: bd3087b0-e20f-4b75-beef-a913336d767b
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967090"
 ---
 # <a name="step-1-publish-the-sap-artifacts-as-a-wcf-service"></a><span data-ttu-id="fbb52-102">Paso 1: Publicar los artefactos SAP como un servicio WCF</span><span class="sxs-lookup"><span data-stu-id="fbb52-102">Step 1: Publish the SAP Artifacts as a WCF Service</span></span>
 <span data-ttu-id="fbb52-103">![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="fbb52-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="fbb52-117">En el **nuevo proyecto** cuadro de diálogo, desde el **tipos de proyecto** panel, seleccione **Visual C#**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-117">In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**.</span></span> <span data-ttu-id="fbb52-118">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-118">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
-     <span data-ttu-id="fbb52-119">Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#**y, a continuación, seleccione **Web**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-119">Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**.</span></span> <span data-ttu-id="fbb52-120">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-120">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
+     <span data-ttu-id="fbb52-119">Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#** y, a continuación, seleccione **Web**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-119">Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**.</span></span> <span data-ttu-id="fbb52-120">Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.</span><span class="sxs-lookup"><span data-stu-id="fbb52-120">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fbb52-121">Si instaló [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] con el componente de desarrollo Web, el **servicio de adaptador de WCF** plantilla también está disponible en la **nuevo sitio Web** opción.</span><span class="sxs-lookup"><span data-stu-id="fbb52-121">If you installed [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.</span></span>  

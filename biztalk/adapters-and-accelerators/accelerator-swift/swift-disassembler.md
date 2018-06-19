@@ -1,18 +1,18 @@
 ---
 title: Desensamblador SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - disassembler
 - messages, receive pipelines
 - receive pipelines, messages
 ms.assetid: 42641550-0c88-4535-b5d5-b90acb30a6d3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214188"
 ---
 # <a name="swift-disassembler"></a><span data-ttu-id="9ae41-102">Desensamblador SWIFT</span><span class="sxs-lookup"><span data-stu-id="9ae41-102">SWIFT Disassembler</span></span>
 <span data-ttu-id="9ae41-103">Una canalización de recepción entrante procesa todos los mensajes enviados a un [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] aplicación (recibida en una ubicación de recepción).</span><span class="sxs-lookup"><span data-stu-id="9ae41-103">An inbound receive pipeline processes all messages submitted to an [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] application (received at a receive location).</span></span>  

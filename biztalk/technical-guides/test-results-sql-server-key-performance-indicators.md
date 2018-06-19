@@ -1,14 +1,14 @@
 ---
 title: 'Resultados de pruebas: Indicadores clave de rendimiento SQL Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2459ee6d-7a75-4338-ba5c-f42ab673ab87
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302468"
 ---
 # <a name="test-results-sql-server-key-performance-indicators"></a><span data-ttu-id="c5459-102">Resultados de pruebas: Indicadores clave de rendimiento SQL Server</span><span class="sxs-lookup"><span data-stu-id="c5459-102">Test Results: SQL Server Key Performance Indicators</span></span>
 <span data-ttu-id="c5459-103">En este tema se resume a SQL Server Performance indicadores clave (KPI) observado durante los escenarios de prueba.</span><span class="sxs-lookup"><span data-stu-id="c5459-103">This topic summarizes SQL Server Key Performance Indicators (KPI) observed during the test scenarios.</span></span> <span data-ttu-id="c5459-104">Estas pruebas evalúan el KPI de SQL Server siguientes:</span><span class="sxs-lookup"><span data-stu-id="c5459-104">These tests evaluated the following SQL Server KPI:</span></span>  

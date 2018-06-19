@@ -1,18 +1,18 @@
 ---
-title: "Administración de la tabla Bicplus en la base de datos de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Administración de la tabla Bicplus en la base de datos de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Bank Identifier Code (BIC), Bicplus table
 - A4SWIFT database, Bicplus table
 - Bicplus table
 ms.assetid: a255cdea-5ed4-4481-97f1-8425877a76d6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962106"
 ---
 # <a name="managing-the-bicplus-table-in-the-a4swift-database"></a><span data-ttu-id="d0adb-102">Administración de la tabla Bicplus en la base de datos de A4SWIFT</span><span class="sxs-lookup"><span data-stu-id="d0adb-102">Managing the Bicplus Table in the A4SWIFT Database</span></span>
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="d0adb-103">utiliza una tabla de entradas BIC para realizar la validación de BIC.</span><span class="sxs-lookup"><span data-stu-id="d0adb-103"> uses a table of BIC entries to perform BIC validation.</span></span> <span data-ttu-id="d0adb-104">Esta tabla puede estar en la tabla de acceso Bicplus en el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] base de datos o una tabla en una base de datos personalizado.</span><span class="sxs-lookup"><span data-stu-id="d0adb-104">This table can be either the Bicplus table in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database or a table in a custom database.</span></span>  

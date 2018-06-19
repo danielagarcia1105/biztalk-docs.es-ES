@@ -1,14 +1,14 @@
 ---
-title: "Configurar un puerto de envío estático para mensajes a través de AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un puerto de envío estático para mensajes a través de AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2708d6a9-b105-42d3-abe3-7085b39da55a
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969282"
 ---
 # <a name="configuring-a-static-send-port-for-messages-over-as2"></a><span data-ttu-id="6bf23-102">Configurar un puerto de envío estático para mensajes a través de AS2</span><span class="sxs-lookup"><span data-stu-id="6bf23-102">Configuring a Static Send Port for Messages over AS2</span></span>
 <span data-ttu-id="6bf23-103">En este tema se describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para enviar mensajes AS2 a través de un puerto de envío estático.</span><span class="sxs-lookup"><span data-stu-id="6bf23-103">This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send AS2 messages over a static send port.</span></span> <span data-ttu-id="6bf23-104">Esta configuración conlleva crear el puerto de envío estático y configurar el acuerdo.</span><span class="sxs-lookup"><span data-stu-id="6bf23-104">This configuration includes creating the static send port and configuring the agreement.</span></span> <span data-ttu-id="6bf23-105">Si es necesario, también configurará un certificado de cifrado para que lo use el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="6bf23-105">If required, you will also set up an encryption certiticate to be used by the send port.</span></span>  

@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, testing solution
 ms.assetid: 233fbf79-0ab1-4064-b828-6bbbb56cbec2
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25960426"
 ---
 # <a name="step-18-test-your-new-message-enrichment-solution"></a><span data-ttu-id="e8a64-102">Paso 18: Probar la nueva solución de enriquecimiento de mensajes</span><span class="sxs-lookup"><span data-stu-id="e8a64-102">Step 18: Test Your New Message Enrichment Solution</span></span>
 <span data-ttu-id="e8a64-103">En este paso, probará la solución mediante la aplicación WSClient para enviar un mensaje a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] y ver si la aplicación MLLPReceive recibe un mensaje con formato HL7 según lo previsto.</span><span class="sxs-lookup"><span data-stu-id="e8a64-103">In this step, you test your solution by using the WSClient application to send a message to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and seeing if the MLLPReceive application receives an HL7-formatted message as expected.</span></span>  

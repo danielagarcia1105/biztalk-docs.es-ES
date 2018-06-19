@@ -1,14 +1,14 @@
 ---
 title: No se especifica el elemento de cuerpo de mensaje de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af5d63c0-af96-4e34-828f-d29638cdf46d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964122"
 ---
 # <a name="biztalk-message-body-element-not-specified"></a><span data-ttu-id="bd002-102">Elemento de cuerpo de mensaje de BizTalk no especificado.</span><span class="sxs-lookup"><span data-stu-id="bd002-102">BizTalk message body element not specified</span></span>
 ## <a name="details"></a><span data-ttu-id="bd002-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="bd002-103">Details</span></span>  

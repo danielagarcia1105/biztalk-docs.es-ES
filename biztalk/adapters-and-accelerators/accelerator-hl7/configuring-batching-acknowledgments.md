@@ -1,17 +1,17 @@
 ---
 title: Configurar el procesamiento por lotes de confirmaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, acknowledgements
 - acknowledgements, batching
 ms.assetid: f3529638-e036-4270-ae6d-1bdc3ef98727
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962858"
 ---
 # <a name="configuring-batching-acknowledgments"></a><span data-ttu-id="fddd8-102">Configurar confirmaciones de procesamiento por lotes</span><span class="sxs-lookup"><span data-stu-id="fddd8-102">Configuring Batching Acknowledgments</span></span>
 <span data-ttu-id="fddd8-103">Usa [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Explorador de configuración para especificar las propiedades de confirmación de confirmaciones entrantes y generadas.</span><span class="sxs-lookup"><span data-stu-id="fddd8-103">You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to specify the acknowledgment properties for inbound and generated acknowledgments.</span></span>  

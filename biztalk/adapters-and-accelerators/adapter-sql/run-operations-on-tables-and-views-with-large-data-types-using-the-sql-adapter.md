@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar operaciones en tablas y vistas con tipos de datos de gran tamaño mediante el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar operaciones en tablas y vistas con tipos de datos de gran tamaño mediante el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cec15b01-7a57-4917-8c21-44a1cfaadc59
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967194"
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-using-the-sql-adapter"></a><span data-ttu-id="86b1a-102">Ejecutar operaciones en tablas y vistas con tipos de datos de gran tamaño mediante el adaptador de SQL</span><span class="sxs-lookup"><span data-stu-id="86b1a-102">Run operations on tables and views with large data types using the SQL adapter</span></span>
 <span data-ttu-id="86b1a-103">El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max).</span><span class="sxs-lookup"><span data-stu-id="86b1a-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max).</span></span> <span data-ttu-id="86b1a-104">Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección.</span><span class="sxs-lookup"><span data-stu-id="86b1a-104">To read data from such columns, adapter clients can use the Select operation.</span></span> <span data-ttu-id="86b1a-105">Para insertar o actualizar datos en estas columnas, el adaptador expone una operación de establecimiento < column_name >, donde < column_name > es el nombre de la columna de tipo varchar (max), nvarchar (max) o varbinary (max).</span><span class="sxs-lookup"><span data-stu-id="86b1a-105">To insert or update data into such columns, the adapter exposes a Set<column_name> operation, where <column_name> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).</span></span>  

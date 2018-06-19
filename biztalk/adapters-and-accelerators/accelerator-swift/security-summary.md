@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213980"
 ---
 # <a name="security-summary"></a><span data-ttu-id="fe21b-102">Resumen de seguridad</span><span class="sxs-lookup"><span data-stu-id="fe21b-102">Security Summary</span></span>
 ## <a name="overview"></a><span data-ttu-id="fe21b-103">Información general</span><span class="sxs-lookup"><span data-stu-id="fe21b-103">Overview</span></span>

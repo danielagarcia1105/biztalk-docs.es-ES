@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Crear el puerto de envío para el lote de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Crear el puerto de envío para el lote de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a0f1ee-e060-4fb9-923e-ebe8168777d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960954"
 ---
 # <a name="step-6-create-the-send-port-for-the-acknowledgment-batch"></a><span data-ttu-id="ff4c7-102">Paso 6: Crear el puerto de envío para el lote de confirmación</span><span class="sxs-lookup"><span data-stu-id="ff4c7-102">Step 6: Create the Send Port for the Acknowledgment Batch</span></span>
 <span data-ttu-id="ff4c7-103">En este paso, creará un puerto de envío para entregar el lote de confirmación que cree para la entidad de origen.</span><span class="sxs-lookup"><span data-stu-id="ff4c7-103">In this step, you create a send port to deliver the acknowledgment batch that you create to the source party.</span></span> <span data-ttu-id="ff4c7-104">Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo.</span><span class="sxs-lookup"><span data-stu-id="ff4c7-104">This is a static one-way port with a FILE adapter type.</span></span> <span data-ttu-id="ff4c7-105">Designar una carpeta de archivos para el origen (\Tutorial_BatchACKDrop), donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de confirmación.</span><span class="sxs-lookup"><span data-stu-id="ff4c7-105">You designate a file folder for the source (\Tutorial_BatchACKDrop), where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will drop the acknowledgment batch file.</span></span> <span data-ttu-id="ff4c7-106">Defina un filtro para el puerto que indica qué tipo de lotes de confirmación que enviará los puertos.</span><span class="sxs-lookup"><span data-stu-id="ff4c7-106">You define a filter for the port indicating what type of acknowledgment batches the ports will send.</span></span> <span data-ttu-id="ff4c7-107">El filtro especifica el origen de Tutorial_BatchSource y el tipo de mensaje de OutboundBatch.</span><span class="sxs-lookup"><span data-stu-id="ff4c7-107">The filter specifies the source of Tutorial_BatchSource and the message type of OutboundBatch.</span></span>  

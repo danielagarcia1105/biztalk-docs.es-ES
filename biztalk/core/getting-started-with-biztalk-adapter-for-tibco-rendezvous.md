@@ -1,15 +1,15 @@
 ---
 title: Empezar a trabajar con el adaptador de BizTalk para TIBCO Rendezvous | Documentos de Microsoft
-description: "Mensajes, conceptos, generación de esquemas, las limitaciones, instalación y tutoriales de adaptador de TIBCO Rendezvous en BizTalk Server"
-ms.custom: 
+description: Mensajes, conceptos, generación de esquemas, las limitaciones, instalación y tutoriales de adaptador de TIBCO Rendezvous en BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebbde0bc-86e5-49fd-abc7-a61acbb3ab2e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013307"
 ---
 # <a name="get-started-with-biztalk-adapter-for-tibco-rendezvous"></a><span data-ttu-id="370df-103">Empezar a trabajar con el adaptador de BizTalk para TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="370df-103">Get started with BizTalk Adapter for TIBCO Rendezvous</span></span>
 

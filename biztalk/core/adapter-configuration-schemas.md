@@ -1,14 +1,14 @@
 ---
-title: "Esquemas de configuración de adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Esquemas de configuración de adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc08fa71-c5f7-4365-9506-e02351b17567
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966506"
 ---
 # <a name="adapter-configuration-schemas"></a><span data-ttu-id="5a1a4-102">Esquemas de configuración del adaptador</span><span class="sxs-lookup"><span data-stu-id="5a1a4-102">Adapter Configuration Schemas</span></span>
 <span data-ttu-id="5a1a4-103">En la configuración en tiempo de diseño de un adaptador se emplean diferentes tipos de esquemas,</span><span class="sxs-lookup"><span data-stu-id="5a1a4-103">Different types of schemas are used in design-time configuration of an adapter.</span></span> <span data-ttu-id="5a1a4-104">que se usan y modifican en función de la visibilidad y del ámbito de los valores de las propiedades.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-104">Depending upon the visibility and scope of property values, different schemas are modified and used.</span></span>  

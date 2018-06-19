@@ -1,17 +1,17 @@
 ---
 title: 'Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, building solutions
 - double action tutorial, deploying solutions
 ms.assetid: f61de666-ebda-4831-9669-598e9284e4c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966322"
 ---
 # <a name="step-7-building-and-deploying-the-lobwebapplication-sdk-sample"></a><span data-ttu-id="f6a99-102">Paso 7: Crear e implementar el ejemplo de SDK de LOBWebApplication</span><span class="sxs-lookup"><span data-stu-id="f6a99-102">Step 7: Building and Deploying the LOBWebApplication SDK Sample</span></span>
 <span data-ttu-id="f6a99-103">En este paso, creará la aplicación de línea de negocio (LOB) que Fabrikam usa para enviar solicitudes de Proceso de interfaz de socio (PIP) a Contoso.</span><span class="sxs-lookup"><span data-stu-id="f6a99-103">In this step, you create the line-of-business (LOB) application that Fabrikam uses to submit Partner Interface Process (PIP) requests to Contoso.</span></span> <span data-ttu-id="f6a99-104">Puede encontrar el proyecto LOBWebApplication en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] carpeta del SDK.</span><span class="sxs-lookup"><span data-stu-id="f6a99-104">You can find the LOBWebApplication project in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK folder.</span></span> <span data-ttu-id="f6a99-105">Para ejecutar la aplicación Web, tendrá que crear un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] directorio virtual de Internet Information Services (IIS) y, a continuación, compile el proyecto de LOBWebApplication.</span><span class="sxs-lookup"><span data-stu-id="f6a99-105">To run the Web application, you have to create a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) virtual directory, and then build the LOBWebApplication project.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="f6a99-107">Haga clic en **Inicio**, elija **Todos los programas**, seleccione **Herramientas administrativas**y, a continuación, haga clic en **Administrador de Internet Information Services (IIS)**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-107">Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>  
   
-2.  <span data-ttu-id="f6a99-108">En la ventana Administrador de Internet Information Services, expanda **< nombre_equipo > (equipo local)**y, a continuación, expanda **sitios Web**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-108">In the Internet Information Services Manager window, expand **<computer_name> (local computer)**, and then expand **Web Sites**.</span></span>  
+2.  <span data-ttu-id="f6a99-108">En la ventana Administrador de Internet Information Services, expanda **< nombre_equipo > (equipo local)** y, a continuación, expanda **sitios Web**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-108">In the Internet Information Services Manager window, expand **<computer_name> (local computer)**, and then expand **Web Sites**.</span></span>  
   
 3.  <span data-ttu-id="f6a99-109">Haga clic con el botón secundario en **Sitio Web predeterminado**, elija **Nuevo**y, a continuación, haga clic en **Directorio virtual**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-109">Right-click **Default Web Site**, point to **New**, and then click **Virtual Directory**.</span></span>  
   
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
   
 6.  <span data-ttu-id="f6a99-112">En la página **Directorio de contenido del sitio Web** , haga clic en **Examinar**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-112">On the **Web Site Content Directory** page, click **Browse**.</span></span> <span data-ttu-id="f6a99-113">En el cuadro de diálogo Buscar carpeta, vaya a   ***\<unidad\>*: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK\ LOBWebApplication**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-113">In the Browse For Folder dialog box, move to ***\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication**, and then click **OK**.</span></span> <span data-ttu-id="f6a99-114">Haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-114">Click **Next**.</span></span>  
   
-7.  <span data-ttu-id="f6a99-115">En la página **Permisos de acceso de directorio virtual** , anule la selección de **Leer**, seleccione **Ejecutar scripts (por ejemplo, ASP)**y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-115">On the **Virtual Directory Access Permissions** page, deselect **Read**, select **Run scripts (such as ASP)**, and then click **Next**.</span></span>  
+7.  <span data-ttu-id="f6a99-115">En la página **Permisos de acceso de directorio virtual** , anule la selección de **Leer**, seleccione **Ejecutar scripts (por ejemplo, ASP)** y, a continuación, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f6a99-115">On the **Virtual Directory Access Permissions** page, deselect **Read**, select **Run scripts (such as ASP)**, and then click **Next**.</span></span>  
   
 8.  <span data-ttu-id="f6a99-116">En la página **Ha completado correctamente el Asistente para crear un directorio Virtual** , haga clic en **Finalizar** para crear el directorio virtual.</span><span class="sxs-lookup"><span data-stu-id="f6a99-116">On the **You have successfully completed the Virtual Directory Creation Wizard** page, click **Finish** to create the virtual directory.</span></span>  
   

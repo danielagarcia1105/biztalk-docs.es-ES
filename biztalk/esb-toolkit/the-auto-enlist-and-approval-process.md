@@ -1,14 +1,14 @@
 ---
-title: "El proceso de aprobación y dar de alta de Auto | Documentos de Microsoft"
-ms.custom: 
+title: El proceso de aprobación y dar de alta de Auto | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfd3e72e-e28b-4ee3-bc4a-89ef3f64e6d5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295628"
 ---
 # <a name="the-auto-enlist-and-approval-process"></a><span data-ttu-id="d6baf-102">El proceso de aprobación y dar de alta de automática</span><span class="sxs-lookup"><span data-stu-id="d6baf-102">The Auto-Enlist and Approval Process</span></span>
 <span data-ttu-id="d6baf-103">Puede configurar el Portal de administración de ESB para publicar puntos de conexión de Microsoft BizTalk Server de dos maneras:</span><span class="sxs-lookup"><span data-stu-id="d6baf-103">You can configure the ESB Management Portal to publish Microsoft BizTalk Server endpoints in two ways:</span></span>  

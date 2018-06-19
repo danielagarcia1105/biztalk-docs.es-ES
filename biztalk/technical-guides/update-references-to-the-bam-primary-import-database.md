@@ -1,14 +1,14 @@
 ---
-title: "Actualizar las referencias a la base de datos de importación principal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar las referencias a la base de datos de importación principal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3da3b545-0d81-491b-bc37-0a980a7814b6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301828"
 ---
 # <a name="update-references-to-the-bam-primary-import-database"></a><span data-ttu-id="ca127-102">Actualizar las referencias a la base de datos de importación principal de BAM</span><span class="sxs-lookup"><span data-stu-id="ca127-102">Update References to the BAM Primary Import Database</span></span>
 <span data-ttu-id="ca127-103">Si ha realizado una copia de seguridad de la base de datos de importación principal de SAE, en el caso de que se produzca un error de datos o del sistema podrá restaurar la copia de seguridad en un equipo distinto y cambiar el nombre a esa copia de seguridad.</span><span class="sxs-lookup"><span data-stu-id="ca127-103">If you backed up your BAM Primary Import database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "Más información sobre los tipos de proveedor de datos de la cadena de conexión de SAP | Documentos de Microsoft"
-ms.custom: 
+title: Más información sobre los tipos de proveedor de datos de la cadena de conexión de SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for SAP, connection string
 - ADO, connection string
 ms.assetid: 7a46eaae-604f-4bae-924b-9f6d43a6e8a0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963348"
 ---
 # <a name="read-about-data-provider-types-for-the-sap-connection-string"></a><span data-ttu-id="d28d7-102">Más información sobre los tipos de proveedor de datos de la cadena de conexión de SAP</span><span class="sxs-lookup"><span data-stu-id="d28d7-102">Read about Data Provider types for the SAP Connection String</span></span>
 <span data-ttu-id="d28d7-103">Para establecer la conectividad a un sistema SAP, los clientes ADO.NET deben especificar las propiedades de conexión de SAP en forma de una cadena de conexión.</span><span class="sxs-lookup"><span data-stu-id="d28d7-103">To establish connectivity to an SAP system, ADO.NET clients must specify the SAP connection properties in the form of a connection string.</span></span> <span data-ttu-id="d28d7-104">El formato de la cadena de conexión ADO de SAP tiene el siguiente aspecto:</span><span class="sxs-lookup"><span data-stu-id="d28d7-104">The format for the SAP ADO connection string looks like:</span></span>  

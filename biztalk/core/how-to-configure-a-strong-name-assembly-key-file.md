@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar un archivo de clave de ensamblado de nombre seguro | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un archivo de clave de ensamblado de nombre seguro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5778a8ec-f5f7-4ae1-a57e-99f6503f044c
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968810"
 ---
 # <a name="how-to-configure-a-strong-name-assembly-key-file"></a><span data-ttu-id="aff4f-102">Cómo configurar un archivo de clave de ensamblado de nombre seguro</span><span class="sxs-lookup"><span data-stu-id="aff4f-102">How to Configure a Strong Name Assembly Key File</span></span>
 <span data-ttu-id="aff4f-103">En el proceso de implementación de una solución de BizTalk, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] primero genera los ensamblados.</span><span class="sxs-lookup"><span data-stu-id="aff4f-103">In the process of deploying a BizTalk solution, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] first builds the assemblies.</span></span> <span data-ttu-id="aff4f-104">El proceso de implementación necesita que cada ensamblado esté firmado de forma segura.</span><span class="sxs-lookup"><span data-stu-id="aff4f-104">The deployment process requires that each assembly is strongly signed.</span></span> <span data-ttu-id="aff4f-105">Fuertemente puede firmar los ensamblados asociando el proyecto con un archivo de clave de ensamblado de nombre seguro.</span><span class="sxs-lookup"><span data-stu-id="aff4f-105">You can strongly sign your assemblies by associating the project with a strong name assembly key file.</span></span> <span data-ttu-id="aff4f-106">Antes de implementar una solución desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] si aún no ha generado un archivo de clave de ensamblado de nombre seguro, use el procedimiento siguiente para ello y para asignarlo a cada proyecto de la solución.</span><span class="sxs-lookup"><span data-stu-id="aff4f-106">If you haven't already done so, before deploying a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], use the following procedure to generate a strong name assembly key file and assign it to each project in the solution.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Implementar un ensamblado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65f8ee21-0e52-4a74-b114-864a3069659c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297868"
 ---
 # <a name="deploying-an-assembly"></a><span data-ttu-id="b37e2-102">Implementar un ensamblado</span><span class="sxs-lookup"><span data-stu-id="b37e2-102">Deploying an Assembly</span></span>
 <span data-ttu-id="b37e2-103">Implementar un ensamblado compila el ensamblado e importa, junto con las orquestaciones, canalizaciones, esquemas y mapas (artefactos) que contiene en la base de datos de administración de BizTalk local.</span><span class="sxs-lookup"><span data-stu-id="b37e2-103">Deploying an assembly builds the assembly and imports it, along with the orchestrations, pipelines, schemas, and maps (artifacts) that it contains into the local BizTalk Management database.</span></span> <span data-ttu-id="b37e2-104">Inicialmente, esto se hace en el entorno de desarrollo.</span><span class="sxs-lookup"><span data-stu-id="b37e2-104">Initially, this is done in the development environment.</span></span>  

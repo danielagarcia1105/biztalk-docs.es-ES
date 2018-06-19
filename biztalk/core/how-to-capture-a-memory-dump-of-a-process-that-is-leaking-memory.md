@@ -1,14 +1,14 @@
 ---
-title: "Cómo capturar un volcado de memoria de un proceso que pierde memoria | Documentos de Microsoft"
-ms.custom: 
+title: Cómo capturar un volcado de memoria de un proceso que pierde memoria | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67404919-33a6-40ac-b1c4-09841db12fcf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969130"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a><span data-ttu-id="0b6b0-102">Cómo capturar un volcado de memoria de un proceso que pierde memoria</span><span class="sxs-lookup"><span data-stu-id="0b6b0-102">How to Capture a Memory Dump of a Process that is Leaking Memory</span></span>
 <span data-ttu-id="0b6b0-103">Se dice que el proceso BTSNTSvc.exe de BizTalk pierde memoria cuando no puede liberar la memoria que ya no necesita, lo que reduce, por tanto, la cantidad de memoria disponible con el tiempo.</span><span class="sxs-lookup"><span data-stu-id="0b6b0-103">The BizTalk process BTSNTSvc.exe is defined as having a memory leak when it fails to release memory that it no longer needs, thereby reducing the amount of available memory over time.</span></span> <span data-ttu-id="0b6b0-104">Se puede determinar el uso de memoria del proceso observando el valor en el **uso de memoria** columna de la **procesos** ficha disponible en **el Administrador de tareas**.</span><span class="sxs-lookup"><span data-stu-id="0b6b0-104">The memory usage of the process can be determined by viewing the value under the **Mem Usage** column of the **Processes** tab available in **Task Manager**.</span></span> <span data-ttu-id="0b6b0-105">Si el proceso sigue utilizando memoria con el tiempo sin liberarla, el rendimiento general del sistema se verá afectado negativamente.</span><span class="sxs-lookup"><span data-stu-id="0b6b0-105">If the process continues to consume memory over time without releasing memory then overall system performance will be adversely impacted.</span></span>  

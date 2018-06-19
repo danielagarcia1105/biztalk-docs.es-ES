@@ -1,14 +1,14 @@
 ---
 title: Busque las operaciones de Oracle E-Business Suite en la vista de esquema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d004a99f-0db1-4cdb-80cd-ea71de4e1098
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963506"
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-schema-based-view"></a><span data-ttu-id="5bf25-102">Busque las operaciones de Oracle E-Business Suite en la vista de esquema</span><span class="sxs-lookup"><span data-stu-id="5bf25-102">Browse for Oracle E-Business Suite operations under the schema-based view</span></span>
 <span data-ttu-id="5bf25-103">Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] para buscar operaciones entrantes y salientes que pueden realizarse en Oracle E-Business Suite con la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span><span class="sxs-lookup"><span data-stu-id="5bf25-103">You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to browse for outbound and inbound operations that can be performed on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span></span> <span data-ttu-id="5bf25-104">Este tema proporciona información acerca de cómo buscar operaciones entrantes y salientes en la vista de esquema.</span><span class="sxs-lookup"><span data-stu-id="5bf25-104">This topic provides information on how to browse for outbound and inbound operations under the schema-based view.</span></span>  

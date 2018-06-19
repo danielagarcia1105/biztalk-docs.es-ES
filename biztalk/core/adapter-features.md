@@ -1,14 +1,14 @@
 ---
-title: "Características del adaptador de TIBCO Enterprise Message Service | Documentos de Microsoft"
-ms.custom: 
+title: Características del adaptador de TIBCO Enterprise Message Service | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ede748ce-3f28-4942-b2bd-e38e5f1b0f54
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015139"
 ---
 # <a name="tibco-ems-adapter-features"></a><span data-ttu-id="7adb7-102">Características del adaptador de TIBCO EMS</span><span class="sxs-lookup"><span data-stu-id="7adb7-102">TIBCO EMS Adapter Features</span></span>
 <span data-ttu-id="7adb7-103">El adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service (EMS) permite publicar y suscribirse a colas y temas administrados por TIBCO EMS, mediante BizTalk Server y TIBCO SDK.</span><span class="sxs-lookup"><span data-stu-id="7adb7-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) enables you to publish and subscribe to queues and topics managed by TIBCO EMS, using BizTalk Server and the TIBCO SDK.</span></span> <span data-ttu-id="7adb7-104">El adaptador integra los mensajes de TIBCO EMS de forma rápida, fácil y confiable.</span><span class="sxs-lookup"><span data-stu-id="7adb7-104">The adapter integrates TIBCO EMS messages in a fast, easy, and reliable way.</span></span> <span data-ttu-id="7adb7-105">Intercambia formatos de datos XML entre servidores de TIBCO EMS y Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para proporcionar una infraestructura de aplicación confiable y estrechamente integrada.</span><span class="sxs-lookup"><span data-stu-id="7adb7-105">It exchanges XML data formats between TIBCO EMS servers and Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to provide a tightly integrated and reliable application infrastructure.</span></span> <span data-ttu-id="7adb7-106">Proporciona operaciones de integración de adaptadores de transmisión y recepción, así como administración de procesos empresariales de un extremo a otro, mediante esquemas XML.</span><span class="sxs-lookup"><span data-stu-id="7adb7-106">It provides transmit and receive adapter integration operations providing end-to-end business-process management using XML schemas.</span></span>  

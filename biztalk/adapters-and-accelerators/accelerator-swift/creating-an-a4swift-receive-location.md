@@ -11,7 +11,7 @@ helpviewer_keywords:
 - receive locations, creating
 - creating, receive locations
 ms.assetid: 712cf42f-8d71-47e9-b2bf-3da158b74fe4
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966018"
 ---
 # <a name="creating-an-a4swift-receive-location"></a><span data-ttu-id="4b527-102">Crear una A4SWIFT la ubicación de recepción</span><span class="sxs-lookup"><span data-stu-id="4b527-102">Creating an A4SWIFT Receive Location</span></span>
 <span data-ttu-id="4b527-103">Debe crear un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] ubicación de recepción para habilitar la recepción de mensajes de la red SWIFT mediante [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], tal y como se muestra en la ilustración siguiente.</span><span class="sxs-lookup"><span data-stu-id="4b527-103">You must create an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] receive location to enable message reception from the SWIFT network by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], as shown in the following figure.</span></span> <span data-ttu-id="4b527-104">La ubicación de recepción recibe mensajes de archivo sin formato desde una carpeta de archivo de entrada.</span><span class="sxs-lookup"><span data-stu-id="4b527-104">The receive location receives flat file messages from an inbound file folder.</span></span>  

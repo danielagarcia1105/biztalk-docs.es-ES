@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración para los adaptadores integrados de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración para los adaptadores integrados de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - adapters, properties
 - binding files, security
 ms.assetid: 4780a558-4322-428a-aa4a-0c32913faded
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969962"
 ---
 # <a name="configuration-properties-for-integrated-biztalk-adapters"></a><span data-ttu-id="c828c-102">Propiedades de configuración para adaptadores integrados de BizTalk</span><span class="sxs-lookup"><span data-stu-id="c828c-102">Configuration Properties for Integrated BizTalk Adapters</span></span>
 <span data-ttu-id="c828c-103">El modelo de objetos del explorador de BizTalk expone la **IReceiveLocation.CustomData** y **ISendPort.CustomData** propiedades que contienen la bolsa de propiedades de configuración de adaptador en forma de un valor de nombre cadena XML de par.</span><span class="sxs-lookup"><span data-stu-id="c828c-103">The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** and **ISendPort.CustomData** properties that contain the adapter configuration property bag in the form of a name/value pair XML string.</span></span> <span data-ttu-id="c828c-104">Esta cadena XML de par nombre/valor se almacena en un \<CustomProps\> elemento dentro de un \<TransportTypeData\> elemento en un archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="c828c-104">This name/value pair XML string is stored in a \<CustomProps\> element within a \<TransportTypeData\> element in a binding file.</span></span> <span data-ttu-id="c828c-105">La mayoría de la información de la \<CustomProps\> elemento corresponde a la información que se pueden establecer para un adaptador en la interfaz de usuario de BizTalk Server (por ejemplo, la consola de administración de BizTalk o el Explorador de BizTalk).</span><span class="sxs-lookup"><span data-stu-id="c828c-105">Most of the information in the \<CustomProps\> element corresponds to information that can be set for an adapter in the BizTalk Server user interface (such as the BizTalk Administration Console or BizTalk Explorer).</span></span> <span data-ttu-id="c828c-106">Si estos valores se encuentran en un archivo de enlace, se aplicarán a la configuración del adaptador para las ubicaciones de recepción y los puertos de envío especificados cuando se importa el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="c828c-106">If these values are present in a binding file then they are applied to the adapter configuration for the specified receive locations and send ports when the binding file is imported.</span></span> <span data-ttu-id="c828c-107">La información de configuración de todos los adaptadores se almacena en la base de datos de Inicio de sesión único.</span><span class="sxs-lookup"><span data-stu-id="c828c-107">Configuration information for all adapters is stored in the Single Sign-On database.</span></span>  

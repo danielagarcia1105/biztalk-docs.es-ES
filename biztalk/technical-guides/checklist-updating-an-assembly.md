@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Actualizar un ensamblado | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Actualizar un ensamblado | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5afcb78a-333b-46ff-8681-42362ce5aaad
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300772"
 ---
 # <a name="checklist-updating-an-assembly"></a><span data-ttu-id="693ed-102">Lista de comprobación: Actualización de un ensamblado</span><span class="sxs-lookup"><span data-stu-id="693ed-102">Checklist: Updating an Assembly</span></span>
 <span data-ttu-id="693ed-103">La siguiente lista de comprobación describe el proceso de actualización de artefactos de uno o más de una aplicación que ya se ha implementado y, a continuación, volver a implementar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="693ed-103">The following checklist describes the process of updating one or more artifacts in an application that has already been deployed, and then redeploying the application.</span></span>  

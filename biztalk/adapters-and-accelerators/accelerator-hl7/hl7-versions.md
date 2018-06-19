@@ -1,17 +1,17 @@
 ---
 title: HL7 Versiones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HL7, standards
 - HL7, versions
 ms.assetid: 47299c6f-55c3-4434-8170-5ad73fe9a84c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204828"
 ---
 # <a name="hl7-versions"></a><span data-ttu-id="f3788-102">Versiones de HL7</span><span class="sxs-lookup"><span data-stu-id="f3788-102">HL7 Versions</span></span>
 <span data-ttu-id="f3788-103">HL7 versión 2 es una familia de estándares estrechamente relacionados, en lugar de un único estándar.</span><span class="sxs-lookup"><span data-stu-id="f3788-103">HL7 Version 2 is a family of closely related standards rather than a single standard.</span></span> <span data-ttu-id="f3788-104">La organización de HL7 ha diseñado estos estándares para ser compatibles hacia arriba a través de la aplicación de las reglas de compatibilidad entre versiones de HL7.</span><span class="sxs-lookup"><span data-stu-id="f3788-104">The HL7 organization has designed these standards to be upwards compatible through the application of the HL7 inter-version compatibility rules.</span></span> <span data-ttu-id="f3788-105">Estas reglas se garantizan que, dentro de los límites de la versión 2, una interfaz definida en las reglas de una versión de HL7 seguirá funcionando dentro de la definición de las versiones de sucesor.</span><span class="sxs-lookup"><span data-stu-id="f3788-105">These rules guarantee that, within the confines of Version 2, an interface defined under the rules of an HL7 version will still function within the definition of successor versions.</span></span> <span data-ttu-id="f3788-106">Para que un sistema receptor podrá aceptar mensajes de las versiones posteriores sin interrumpir su implementación y el envío de un sistema podrá continuar enviando mensajes para destinatarios que son compatibles con versiones posteriores.</span><span class="sxs-lookup"><span data-stu-id="f3788-106">So that a receiving system will be able to accept messages from later versions without breaking its implementation and a sending system will be able to continue to send messages to receivers who support later versions.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd96eaf-b3b3-49b4-aea9-0ae1e8999d62
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965154"
 ---
 # <a name="describe-the-wsdl-porttype-documentation-schema-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="0128e-102">Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="0128e-102">Describe the WSDL PortType Documentation Schema with the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="0128e-103">El archivo WSDL que el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] genera contiene información descriptiva adicional para cada portType.</span><span class="sxs-lookup"><span data-stu-id="0128e-103">The WSDL that the  [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] generates contains additional descriptive information for each portType.</span></span> <span data-ttu-id="0128e-104">El esquema para esta información adicional se describe en este tema.</span><span class="sxs-lookup"><span data-stu-id="0128e-104">The schema for this additional information is described in this topic.</span></span>  

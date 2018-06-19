@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Actualizar una aplicación mediante las versiones de Side-by-Side | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Actualizar una aplicación mediante las versiones de Side-by-Side | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3adee8da-18d4-4b9e-a22e-148b90d18179
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299356"
 ---
 # <a name="checklist-updating-an-application-using-side-by-side-versioning"></a><span data-ttu-id="d7df5-102">Lista de comprobación: Actualizar una aplicación mediante las versiones en paralelo</span><span class="sxs-lookup"><span data-stu-id="d7df5-102">Checklist: Updating an Application Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="d7df5-103">La siguiente lista de comprobación describe el proceso de implementación de una versión actualizada de una aplicación de BizTalk que se ejecutará en paralelo con una versión existente.</span><span class="sxs-lookup"><span data-stu-id="d7df5-103">The following checklist describes the process of deploying an updated version of a BizTalk application that will run side-by-side with an existing version.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Configuración de certificados importados con MMC | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de certificados importados con MMC | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - decryption certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - signing certificates
 - certificates, importing
 ms.assetid: 64dbfbcf-6026-4c68-a93a-f483ec52deac
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961674"
 ---
 # <a name="configuring-certificates-imported-using-mmc"></a><span data-ttu-id="030bc-102">Configuración de certificados importados con MMC</span><span class="sxs-lookup"><span data-stu-id="030bc-102">Configuring Certificates Imported Using MMC</span></span>
 <span data-ttu-id="030bc-103">Después de haber importado los certificados con el complemento certificados para el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC), debe configurar su uso.</span><span class="sxs-lookup"><span data-stu-id="030bc-103">After you have imported certificates using the Certificates snap-in for the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC), you must configure their use.</span></span> <span data-ttu-id="030bc-104">Esto es necesario configurar el grupo de BizTalk, las cuentas de servicio de Host de BizTalk y Host aislado, procesos de interfaz de socio (PIP), comerciales acuerdos de socios y socios.</span><span class="sxs-lookup"><span data-stu-id="030bc-104">This requires configuring the BizTalk Group, the BizTalk Host and Isolated Host service accounts, Partner Interface Processes (PIPs), trading partner agreements, and partners.</span></span> <span data-ttu-id="030bc-105">Debe realizar los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="030bc-105">You must perform the following steps:</span></span>  
@@ -61,7 +62,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  <span data-ttu-id="030bc-133">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.</span><span class="sxs-lookup"><span data-stu-id="030bc-133">Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
   
-8.  <span data-ttu-id="030bc-134">Para configurar el certificado de firma para un grupo de BizTalk, haga clic en **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="030bc-134">To configure the signing certificate for a BizTalk Group, right-click **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]**(Local)**, and then click **Properties**.</span></span> <span data-ttu-id="030bc-135">Haga clic en el cuadro de texto a la derecha del **huella digital**, presione CTRL+V para pegar el número de huella digital en el cuadro de texto y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="030bc-135">Click in the text box to the right of **Thumbprint**, press CTRL+V to paste the thumbprint number into the text box, and then click **OK**.</span></span>  
+8.  <span data-ttu-id="030bc-134">Para configurar el certificado de firma para un grupo de BizTalk, haga clic en **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="030bc-134">To configure the signing certificate for a BizTalk Group, right-click **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]**(Local)**, and then click **Properties**.</span></span> <span data-ttu-id="030bc-135">Haga clic en el cuadro de texto a la derecha del **huella digital**, presione CTRL+V para pegar el número de huella digital en el cuadro de texto y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="030bc-135">Click in the text box to the right of **Thumbprint**, press CTRL+V to paste the thumbprint number into the text box, and then click **OK**.</span></span>  
   
 9. <span data-ttu-id="030bc-136">Para configurar el certificado de descifrado para un Host de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, expanda **Hosts**, haga clic en el host que desea configurar y, a continuación, haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="030bc-136">To configure the decryption certificate for a BizTalk Host, expand **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, expand **Hosts**, right-click the host that you want to configure, and then click **Properties**.</span></span>  
   

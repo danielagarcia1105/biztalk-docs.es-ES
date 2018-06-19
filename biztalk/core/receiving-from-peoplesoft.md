@@ -1,14 +1,14 @@
 ---
-title: "Recepción de PeopleSoft | Documentos de Microsoft"
-ms.custom: 
+title: Recepción de PeopleSoft | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9acc71ec-05b8-4490-b3ba-0ce7f27a5a6a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014387"
 ---
 # <a name="receiving-from-peoplesoft"></a><span data-ttu-id="7b796-102">Recepción desde PeopleSoft</span><span class="sxs-lookup"><span data-stu-id="7b796-102">Receiving from PeopleSoft</span></span>
 <span data-ttu-id="7b796-103">Microsoft Adapter para PeopleSoft Enterprise es un adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="7b796-103">The Microsoft Adapter for PeopleSoft Enterprise is a send adapter.</span></span> <span data-ttu-id="7b796-104">El adaptador admite los envíos de solicitud-respuesta para que pueda enviar una consulta y obtener una respuesta.</span><span class="sxs-lookup"><span data-stu-id="7b796-104">The adapter supports solicit-response, so that you can send a query and get back a response.</span></span> <span data-ttu-id="7b796-105">No obstante, si únicamente desea recibir datos de PeopleSoft, deberá realizar otros dos pasos:</span><span class="sxs-lookup"><span data-stu-id="7b796-105">However, if you want only to receive data from PeopleSoft, you must take two additional steps:</span></span>  

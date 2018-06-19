@@ -1,17 +1,17 @@
 ---
 title: Trabajar con esquemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, schemas
 - schemas, developing
 ms.assetid: 123c4b43-34e4-41c7-980d-5d518b1479c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963098"
 ---
 # <a name="working-with-schemas"></a><span data-ttu-id="eb599-102">Trabajar con esquemas</span><span class="sxs-lookup"><span data-stu-id="eb599-102">Working with Schemas</span></span>
 <span data-ttu-id="eb599-103">Los esquemas que se proporcionan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] son el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] representación XSD de la sociedad para mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo.</span><span class="sxs-lookup"><span data-stu-id="eb599-103">The schemas provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] XSD representation of the Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages.</span></span> <span data-ttu-id="eb599-104">Cada tipo de mensaje tiene su propio esquema, incluida la SWIFT encabezado y finalizador SWIFT (formato de intercambio).</span><span class="sxs-lookup"><span data-stu-id="eb599-104">Each message type has its own schema, including the SWIFT header and SWIFT trailer (interchange format).</span></span> <span data-ttu-id="eb599-105">Este esquema es suficiente para enviar o recibir un mensaje SWIFT.</span><span class="sxs-lookup"><span data-stu-id="eb599-105">This schema is sufficient to send or receive a SWIFT message.</span></span> <span data-ttu-id="eb599-106">Estos esquemas son una combinación única de los registros delimitados y posicionales, lo que proporciona una representación XML detallada de las estructuras FIN de archivo sin formato.</span><span class="sxs-lookup"><span data-stu-id="eb599-106">These schemas are a unique mixture of delimited and positional records, providing a detailed XML representation of the flat-file FIN structures.</span></span>  

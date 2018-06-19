@@ -1,14 +1,14 @@
 ---
 title: Accesibilidad para personas con Disabilities3 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2dd0f8d9-b6d4-4568-a632-a004b8349b7a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206724"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a><span data-ttu-id="abe25-102">Accesibilidad para personas con discapacidades</span><span class="sxs-lookup"><span data-stu-id="abe25-102">Accessibility for People with Disabilities</span></span>
 <span data-ttu-id="abe25-103">Microsoft se ha comprometido a hacer que sus productos y servicios sean más fáciles de utilizar para todos los usuarios.</span><span class="sxs-lookup"><span data-stu-id="abe25-103">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="abe25-104">Para obtener información general sobre las características de accesibilidad y servicios de Microsoft, vea el sitio Web de accesibilidad de Microsoft en [http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272).</span><span class="sxs-lookup"><span data-stu-id="abe25-104">For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272).</span></span>  

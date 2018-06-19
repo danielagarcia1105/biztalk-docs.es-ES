@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], clearing cache
 - applications [SSO], caching
 ms.assetid: 6230b9a4-c7b8-47b4-854b-12853d9bf5b0
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968642"
 ---
 # <a name="how-to-clear-the-application-cache"></a><span data-ttu-id="4268d-102">Cómo borrar la caché de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="4268d-102">How to Clear the Application Cache</span></span>
 <span data-ttu-id="4268d-103">Puede utilizar el Complemento MMC o la línea de comandos para quitar el contenido de la caché de credenciales (toda la información asociada a la aplicación afiliada) para una aplicación determinada en los servidores de inicio de sesión único.</span><span class="sxs-lookup"><span data-stu-id="4268d-103">You can use the MMC Snap-In or the command line to remove the contents of the credential cache (all the information associated with the affiliate application) for the specified application on all of the Single Sign-On Servers.</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="4268d-111">En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial.</span><span class="sxs-lookup"><span data-stu-id="4268d-111">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="4268d-112">El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.</span><span class="sxs-lookup"><span data-stu-id="4268d-112">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="4268d-113">Tipo **ssomanage – /purgecache *\<nombre de la aplicación\>***, donde \<*nombre de la aplicación* \> es el nombre de la aplicación afiliada ¿desea purgar la caché de.</span><span class="sxs-lookup"><span data-stu-id="4268d-113">Type **ssomanage –purgecache *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to purge the cache for.</span></span>  
+3.  <span data-ttu-id="4268d-113">Tipo **ssomanage – /purgecache *\<nombre de la aplicación\>***, donde \<* nombre de la aplicación* \> es el nombre de la aplicación afiliada ¿desea purgar la caché de.</span><span class="sxs-lookup"><span data-stu-id="4268d-113">Type **ssomanage –purgecache *\<application name\>***, where \<* application name*\> is the name of the affiliate application you want to purge the cache for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="4268d-114">En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.</span><span class="sxs-lookup"><span data-stu-id="4268d-114">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

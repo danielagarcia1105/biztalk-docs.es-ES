@@ -1,14 +1,14 @@
 ---
-title: "Objetos que detecta el módulo de administración | Documentos de Microsoft"
-ms.custom: 
+title: Objetos que detecta el módulo de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 291e8936-b299-4719-9f7e-edc86f76fcbd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298868"
 ---
 # <a name="objects-the-management-pack-discovers"></a><span data-ttu-id="b8d1e-102">Objetos que detecta el módulo de administración</span><span class="sxs-lookup"><span data-stu-id="b8d1e-102">Objects the Management Pack Discovers</span></span>
 <span data-ttu-id="b8d1e-103">El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración detecta los tipos de objeto descritos en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="b8d1e-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack discovers the object types described in the following table.</span></span> <span data-ttu-id="b8d1e-104">Para obtener información sobre cómo detectar objetos, consulte la [detecciones de objetos en Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkId=108505) tema en la biblioteca en línea de Operations Manager 2007 R2/2012 (http://go.microsoft.com/fwlink/?LinkId=108505).</span><span class="sxs-lookup"><span data-stu-id="b8d1e-104">For information about discovering objects, see the [Object Discoveries in Operations Manager 2007](http://go.microsoft.com/fwlink/?LinkId=108505) topic in Operations Manager 2007 R2/2012 online library (http://go.microsoft.com/fwlink/?LinkId=108505).</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "Adaptador de Bus de servicio de mensajería | Documentos de Microsoft"
-description: "Enviar y recibir mensajes mediante el adaptador de mensajería SB de Azure en BizTalk Server"
-ms.custom: 
+title: Adaptador de Bus de servicio de mensajería | Documentos de Microsoft
+description: Enviar y recibir mensajes mediante el adaptador de mensajería SB de Azure en BizTalk Server
+ms.custom: ''
 ms.date: 11/21/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c06c4934-45b2-4f6f-9d19-3ebd937c32ae
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497877"
 ---
 # <a name="sb-messaging-adapter"></a><span data-ttu-id="f16c8-103">Adaptador SB-Messaging</span><span class="sxs-lookup"><span data-stu-id="f16c8-103">SB-Messaging Adapter</span></span>
 <span data-ttu-id="f16c8-104">El Bus de servicio (**SB-Messaging**) se utiliza el adaptador para recibir y enviar de entidades de Service Bus como colas, temas y retransmisiones.</span><span class="sxs-lookup"><span data-stu-id="f16c8-104">The Service Bus (**SB-Messaging**) adapter is used to receive and send from Service Bus entities like Queues, Topics, and Relays.</span></span> <span data-ttu-id="f16c8-105">Puede usar el **SB-Messaging** adaptador para conectar sus instalaciones [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en Azure.</span><span class="sxs-lookup"><span data-stu-id="f16c8-105">You can use the **SB-Messaging** adapter to connect your on-premises [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to Azure.</span></span>

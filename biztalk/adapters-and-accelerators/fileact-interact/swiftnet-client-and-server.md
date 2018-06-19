@@ -1,14 +1,14 @@
 ---
 title: Servidor y cliente SWIFTNet | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89d9f54f-af16-4f14-bbe4-8306758320d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224660"
 ---
 # <a name="swiftnet-client-and-server"></a><span data-ttu-id="49039-102">SWIFTNet cliente y servidor</span><span class="sxs-lookup"><span data-stu-id="49039-102">SWIFTNet Client and Server</span></span>
 <span data-ttu-id="49039-103">SWIFT utiliza los términos cliente y servidor para describir el envío y recepción.</span><span class="sxs-lookup"><span data-stu-id="49039-103">SWIFT uses the terms client and server to describe sending and receiving.</span></span> <span data-ttu-id="49039-104">Un cliente SWIFT es un proceso que llama el vínculo de SWIFTNet (SNL) para iniciar la comunicación a través de SWIFTNet.</span><span class="sxs-lookup"><span data-stu-id="49039-104">A SWIFT client is a process that calls the SWIFTNet Link (SNL) to initiate communication over SWIFTNet.</span></span> <span data-ttu-id="49039-105">En BizTalk Server, esto se denomina el adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="49039-105">In BizTalk Server, this is called the send adapter.</span></span> <span data-ttu-id="49039-106">Un servidor de SWIFT es un programa que llama a la SNL al tráfico entra a través de SWIFTNet.</span><span class="sxs-lookup"><span data-stu-id="49039-106">A SWIFT server is a program that is called by the SNL when traffic comes in over SWIFTNet.</span></span> <span data-ttu-id="49039-107">En BizTalk Server, esto se denomina el adaptador de recepción.</span><span class="sxs-lookup"><span data-stu-id="49039-107">In BizTalk Server, this is called the receive adapter.</span></span>  

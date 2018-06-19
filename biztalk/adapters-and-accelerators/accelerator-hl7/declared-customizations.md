@@ -1,11 +1,11 @@
 ---
 title: Declara las personalizaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - declared customizations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - customizing, Z objects
 - customizing, declared customizations
 ms.assetid: 484655e9-8bfa-4643-bbe6-4ef69cbd83ad
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204788"
 ---
 # <a name="declared-customizations"></a><span data-ttu-id="eca70-102">Personalizaciones declaradas</span><span class="sxs-lookup"><span data-stu-id="eca70-102">Declared Customizations</span></span>
 <span data-ttu-id="eca70-103">Con personalizaciones declaradas, tiene la flexibilidad de modificar o agregar a los mensajes de HL7.</span><span class="sxs-lookup"><span data-stu-id="eca70-103">With declared customizations, you have the flexibility of modifying or adding to HL7 messages.</span></span> <span data-ttu-id="eca70-104">Incluso puede definir un nuevo tipo de mensaje.</span><span class="sxs-lookup"><span data-stu-id="eca70-104">You can even define a new type of message.</span></span> <span data-ttu-id="eca70-105">Puede hacerlo en cualquiera de las maneras siguientes:</span><span class="sxs-lookup"><span data-stu-id="eca70-105">You can do this in any of the following ways:</span></span>  

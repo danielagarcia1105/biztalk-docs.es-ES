@@ -1,15 +1,15 @@
 ---
 title: Arquitectura del adaptador de TIBCO Rendezvous | Documentos de Microsoft
-description: "Obtenga información acerca del adaptador de BizTalk para TIBCO Rendezvous funciona, incluidos pasar mensajes, en el servidor BizTalk Server"
-ms.custom: 
+description: Obtenga información acerca del adaptador de BizTalk para TIBCO Rendezvous funciona, incluidos pasar mensajes, en el servidor BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 174d6ceb-8e1d-4c93-827d-8155cfe47836
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013435"
 ---
 # <a name="architecture-of-the-tibco-rendezvous-adapter"></a><span data-ttu-id="41add-103">Arquitectura del adaptador de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="41add-103">Architecture of the TIBCO Rendezvous adapter</span></span>
 

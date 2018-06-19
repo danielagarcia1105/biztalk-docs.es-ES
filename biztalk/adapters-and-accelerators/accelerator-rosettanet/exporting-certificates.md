@@ -1,17 +1,17 @@
 ---
-title: "Exportación de certificados | Documentos de Microsoft"
-ms.custom: 
+title: Exportación de certificados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exporting certificates
 - certificates, exporting
 ms.assetid: edeeb300-19d6-44a8-b730-dcd15891cdf9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964522"
 ---
 # <a name="exporting-certificates"></a><span data-ttu-id="f1f10-102">Exportación de certificados</span><span class="sxs-lookup"><span data-stu-id="f1f10-102">Exporting Certificates</span></span>
 <span data-ttu-id="f1f10-103">En este tema se describe cómo exportar un certificado mediante el Asistente para exportación de certificados.</span><span class="sxs-lookup"><span data-stu-id="f1f10-103">This topic describes how to export a certificate by using the Certificate Export Wizard.</span></span> <span data-ttu-id="f1f10-104">Use este asistente para exportar un certificado público o un certificado privado.</span><span class="sxs-lookup"><span data-stu-id="f1f10-104">Use this wizard to export either a public certificate or a private certificate.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="f1f10-106">Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] y, a continuación, haga clic en [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **consola de administración de**.</span><span class="sxs-lookup"><span data-stu-id="f1f10-106">Click **Start**, point to **All Programs**, point to **Microsoft**[!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.</span></span>  
   
-2.  <span data-ttu-id="f1f10-107">Expanda **Certificados (equipo local)**y **Otras personas**, y haga clic en **Certificados**.</span><span class="sxs-lookup"><span data-stu-id="f1f10-107">Expand **Certificates (Local Computer)**, expand **Other People**, and then click **Certificates**.</span></span>  
+2.  <span data-ttu-id="f1f10-107">Expanda **Certificados (equipo local)** y **Otras personas**, y haga clic en **Certificados**.</span><span class="sxs-lookup"><span data-stu-id="f1f10-107">Expand **Certificates (Local Computer)**, expand **Other People**, and then click **Certificates**.</span></span>  
   
 3.  <span data-ttu-id="f1f10-108">En el panel derecho, haga clic con el botón secundario en el nombre del certificado, seleccione **Todas las tareas**y, a continuación, haga clic en **Exportar**.</span><span class="sxs-lookup"><span data-stu-id="f1f10-108">In the right pane, right-click the name of the certificate, point to **All Tasks**, and then click **Export**.</span></span>  
   

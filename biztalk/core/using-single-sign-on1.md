@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b5d9b6668ff57670dcecdc0dae38c8326800b395
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013587"
 ---
 # <a name="using-single-sign-on"></a><span data-ttu-id="41c5e-101">Mediante el inicio de sesión único</span><span class="sxs-lookup"><span data-stu-id="41c5e-101">Using Single Sign-On</span></span>
 <span data-ttu-id="41c5e-102">El adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne admite el inicio de sesión único (SSO).</span><span class="sxs-lookup"><span data-stu-id="41c5e-102">Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides Single Sign-On (SSO) support.</span></span> <span data-ttu-id="41c5e-103">Una aplicación afiliada creada por las herramientas de inicio único de Enterprise representa un sistema de servidor como JD Edwards EnterpriseOne.</span><span class="sxs-lookup"><span data-stu-id="41c5e-103">An affiliate application created by Enterprise Single Sign-On tools represents a server system such as JD Edwards EnterpriseOne.</span></span>  

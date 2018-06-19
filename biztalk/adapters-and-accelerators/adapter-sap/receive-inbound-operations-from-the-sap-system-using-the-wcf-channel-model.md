@@ -1,18 +1,18 @@
 ---
-title: "Operaciones de entrada de recepción desde el sistema SAP mediante el modelo del canal de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Operaciones de entrada de recepción desde el sistema SAP mediante el modelo del canal de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, streaming inbound flat-file IDOCs
 - WCF channel model, receiving inbound operations from the SAP system
 - WCF channel model, raising an exception
 ms.assetid: d71d0537-fda4-44ab-85dc-6e27aad23caf
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966202"
 ---
 # <a name="receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model"></a><span data-ttu-id="8b782-102">Operaciones de entrada de recepción desde el sistema SAP mediante el modelo del canal de WCF</span><span class="sxs-lookup"><span data-stu-id="8b782-102">Receive Inbound Operations from the SAP System Using the WCF Channel Model</span></span>
 <span data-ttu-id="8b782-103">Para actuar como un servidor RFC y recibir operaciones invocadas por el sistema SAP (por ejemplo, enviar un IDOC o invocar una solicitud de cambio), debe crear una escucha de canales que puede realizar escuchas de mensajes de un identificador de programa de SAP en un  **System.ServiceModel.Channels.IReplyChannel** forma de canal.</span><span class="sxs-lookup"><span data-stu-id="8b782-103">To act as an RFC server and receive operations invoked by the SAP system (such as sending an IDOC or invoking an RFC), you must create a channel listener that can listen for messages from a SAP Program ID over a **System.ServiceModel.Channels.IReplyChannel** channel shape.</span></span>  

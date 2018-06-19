@@ -1,15 +1,15 @@
 ---
 title: Ejemplos de adaptador de Siebel | Documentos de Microsoft
 description: Ejemplos de adaptador de Siebel WCF que pueden utilizarse con el proveedor de datos, modelo de servicio WCF y BizTalk Server para Siebel
-ms.custom: 
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 069d676e-211e-474c-9cf5-c660fdd22014
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015227"
 ---
 # <a name="samples-for-the-siebel-adapter"></a><span data-ttu-id="9e3d4-103">Ejemplos para el adaptador de Siebel</span><span class="sxs-lookup"><span data-stu-id="9e3d4-103">Samples for the Siebel adapter</span></span>
 <span data-ttu-id="9e3d4-104">Ejemplos de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] se clasifican en categorías:</span><span class="sxs-lookup"><span data-stu-id="9e3d4-104">Samples for [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] are categorized into:</span></span>  

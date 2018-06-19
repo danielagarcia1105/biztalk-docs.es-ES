@@ -1,17 +1,17 @@
 ---
-title: "FRR ubicación de recepción para los mensajes de la aplicación de Back-End | Documentos de Microsoft"
-ms.custom: 
+title: FRR ubicación de recepción para los mensajes de la aplicación de Back-End | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, receive locations
 - receive locations, FRR
 ms.assetid: da0ad616-800f-493f-822f-eca1224722ab
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207540"
 ---
 # <a name="frr-receive-location-for-messages-from-the-back-end-application"></a><span data-ttu-id="d5e52-102">FRR ubicación de recepción para los mensajes de la aplicación de Back-End</span><span class="sxs-lookup"><span data-stu-id="d5e52-102">FRR Receive Location for Messages from the Back-End Application</span></span>
 <span data-ttu-id="d5e52-103">Para habilitar la conciliación de respuesta FIN (FRR), debe configurar un FRR ubicación de recepción que recibe mensajes de la aplicación de back-end y los enruta a BizTalk MessageBox para su uso por la orquestación FRR.</span><span class="sxs-lookup"><span data-stu-id="d5e52-103">To enable FIN response reconciliation (FRR), you must set up an FRR receive location that receives messages from the back-end application and routes them to the BizTalk MessageBox for consumption by the FRR orchestration.</span></span> <span data-ttu-id="d5e52-104">La ubicación de recepción enruta un mensaje a través de una canalización de recepción FRR personalizada que debe crear con los siguientes componentes de canalización:</span><span class="sxs-lookup"><span data-stu-id="d5e52-104">The receive location routes a message through a custom FRR receive pipeline that you must create with the following pipeline components:</span></span>  

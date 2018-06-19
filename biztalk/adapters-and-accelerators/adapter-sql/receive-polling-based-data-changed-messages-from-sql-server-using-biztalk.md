@@ -1,14 +1,14 @@
 ---
 title: Recibir mensajes de cambio de datos basado en sondeo desde SQL Server mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9ecaf6f7-974b-4487-8c65-d1ab628cbfeb
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967890"
 ---
 # <a name="receive-polling-based-data-changed-messages-from-sql-server-using-biztalk-server"></a><span data-ttu-id="919a4-102">Recibir mensajes de cambio de datos basado en sondeo desde SQL Server mediante BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="919a4-102">Receive Polling-based Data-changed Messages from SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="919a4-103">Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de cambio de datos periódicos para SQL Server tablas o vistas.</span><span class="sxs-lookup"><span data-stu-id="919a4-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views.</span></span> <span data-ttu-id="919a4-104">Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos.</span><span class="sxs-lookup"><span data-stu-id="919a4-104">You can specify a polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="919a4-105">La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="919a4-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  

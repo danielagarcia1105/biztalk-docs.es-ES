@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar los vales de SSO | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar los vales de SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], configuring tickets
 - SSO, tickets
 - tickets [SSO], configuring
 ms.assetid: 32f0384b-ac79-4cce-b3f5-f4f8a73a673a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968650"
 ---
 # <a name="how-to-configure-the-sso-tickets"></a><span data-ttu-id="343c0-102">Cómo configurar los vales de SSO</span><span class="sxs-lookup"><span data-stu-id="343c0-102">How to Configure the SSO Tickets</span></span>
 <span data-ttu-id="343c0-103">Se puede utilizar el Complemento MMC o la línea de comandos para controlar el comportamiento de los vales en la totalidad del sistema de inicio de sesión único; lo anterior incluye la posibilidad de permitir vales y la exigencia de que el sistema los valide.</span><span class="sxs-lookup"><span data-stu-id="343c0-103">You can use the MMC Snap-In or the command line to control ticket behavior for the entire Single Sign-On system, including whether to allow tickets, and whether the system must validate the tickets.</span></span>  

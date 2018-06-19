@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Crear una prueba unitaria para enviar documentos a BizTalk Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688b14e4-bb16-4d12-86b8-37b8b6808472
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302700"
 ---
 # <a name="step-1-create-a-unit-test-to-submit-documents-to-biztalk-server"></a><span data-ttu-id="e13cd-102">Paso 1: Crear una prueba unitaria para enviar documentos a BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e13cd-102">Step 1: Create a Unit Test to Submit Documents to BizTalk Server</span></span>
 <span data-ttu-id="e13cd-103">Servidores de aplicaciones del equipo como el servidor BizTalk Server están diseñados para realizar determinadas tareas en nombre de los usuarios.</span><span class="sxs-lookup"><span data-stu-id="e13cd-103">Computer application servers such as BizTalk Server are designed to perform particular tasks on behalf of users.</span></span> <span data-ttu-id="e13cd-104">Estas tareas se inician como las solicitudes de cliente que se envían al servidor de aplicaciones como mensajes que cumplan con un estándar que entienda el servidor de aplicaciones, a través de un protocolo que entienda el servidor de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="e13cd-104">These tasks are initiated as client requests sent to the application server as messages that conform to a standard that the application server understands, via a protocol that the application server understands.</span></span> <span data-ttu-id="e13cd-105">Por ejemplo, los clientes pueden iniciar el procesamiento de correo electrónico mediante el envío de mensajes de correo electrónico de internet a un servidor de correo electrónico a través del protocolo SMTP.</span><span class="sxs-lookup"><span data-stu-id="e13cd-105">For example, clients may initiate processing of email by sending internet e-mail messages to an email server via the SMTP protocol.</span></span> <span data-ttu-id="e13cd-106">Del mismo modo, procesan los servidores web cliente HTML o las solicitudes ASP, servidores de base de datos procesan las solicitudes de cliente SQL y BizTalk Server puede procesar mensajes de cliente con un formato conforme a varios estándares de mensaje del sector mediante varios protocolos estándar del sector.</span><span class="sxs-lookup"><span data-stu-id="e13cd-106">Likewise, web servers process client HTML or ASP requests, database servers process client SQL requests and BizTalk Server can process client messages formatted in compliance with multiple industry message standards using numerous industry standard protocols.</span></span> <span data-ttu-id="e13cd-107">Normalmente, la capacidad de carga de trabajo de un servidor de aplicaciones se mide por el número de mensajes que el servidor de aplicaciones puede procesar en un período de tiempo determinado.</span><span class="sxs-lookup"><span data-stu-id="e13cd-107">The workload capacity of an application server is typically measured by the number of messages that the application server can process in a given time period.</span></span> <span data-ttu-id="e13cd-108">La capacidad de carga de trabajo de BizTalk Server del mismo modo se mide como el número medio de "documentos recibidos por segundo", "documentos procesados por segundo" y "orquestaciones completadas por segundo" durante un período prolongado de tiempo, por ejemplo, un día de trabajo o incluso un semana laboral.</span><span class="sxs-lookup"><span data-stu-id="e13cd-108">The workload capacity of BizTalk Server is likewise measured as the average number of “documents received per second”, “documents processed per second” and/or “orchestrations completed per second” over an extended period of time, such as a busy workday or even a work week.</span></span> <span data-ttu-id="e13cd-109">Funcionalidad de prueba de carga de Visual Studio 2010 puede simular un perfil de carga de hasta cientos de usuarios que acceden al mismo tiempo a una aplicación de servidor.</span><span class="sxs-lookup"><span data-stu-id="e13cd-109">Visual Studio 2010 load test functionality can simulate a load profile of up to hundreds of users simultaneously accessing a server application.</span></span> <span data-ttu-id="e13cd-110">Esta funcionalidad de la prueba de carga proporciona métricas de tiempo real para los indicadores clave de rendimiento seleccionado, así como la capacidad para almacenar estas métricas en una base de datos para su posterior análisis.</span><span class="sxs-lookup"><span data-stu-id="e13cd-110">This load testing functionality provides real time metrics for selected key performance indicators as well as the ability to store these metrics in a database for future analysis.</span></span> <span data-ttu-id="e13cd-111">Pruebas de este describe el uso de proyectos de prueba de Visual Studio con el fin de una aplicación de BizTalk Server, incluido cómo crear unidad de prueba de carga de documento, cómo crear pruebas de carga y cómo configurar las pruebas de carga para capturar datos del contador de rendimiento necesarios para determinar el rendimiento sostenible máximo (MST) de una aplicación de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="e13cd-111">This document desribes the use of Visual Studio Test projects for the purpose of load testing a BizTalk Server application, including how to create unit tests, how to create load tests and how to configure load tests to capture performance counter data required to determine the Maximum Sustainable Throughput (MST) of a BizTalk Server application.</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="e13cd-127">Establecer el **idioma predeterminado del proyecto de prueba:** a **proyecto de prueba de Visual C#**.</span><span class="sxs-lookup"><span data-stu-id="e13cd-127">Set the **Default test project language:** to **Visual C# test project**.</span></span>  
   
-5.  <span data-ttu-id="e13cd-128">En la opción de **seleccionar los archivos que se agregará a cada nuevo proyecto de prueba, de forma predeterminada:** seleccione **proyecto de prueba de Visual C#**y desactive todos los tipos de prueba de Visual C# de proyectos excepto deprueba **Prueba unitaria**.</span><span class="sxs-lookup"><span data-stu-id="e13cd-128">Under the option to **Select the files that will be added to each new test project, by default:** select **Visual C# test project**, and uncheck all of the test types for Visual C# test projects except for **Unit Test**.</span></span>  
+5.  <span data-ttu-id="e13cd-128">En la opción de **seleccionar los archivos que se agregará a cada nuevo proyecto de prueba, de forma predeterminada:** seleccione **proyecto de prueba de Visual C#** y desactive todos los tipos de prueba de Visual C# de proyectos excepto deprueba **Prueba unitaria**.</span><span class="sxs-lookup"><span data-stu-id="e13cd-128">Under the option to **Select the files that will be added to each new test project, by default:** select **Visual C# test project**, and uncheck all of the test types for Visual C# test projects except for **Unit Test**.</span></span>  
   
 6.  <span data-ttu-id="e13cd-129">Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Opciones** .</span><span class="sxs-lookup"><span data-stu-id="e13cd-129">Click **OK** to close the **Options** dialog box.</span></span>  
   
@@ -50,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="e13cd-132">En Visual Studio 2010, haga clic en **archivo**, seleccione **New**y haga clic en **proyecto** para mostrar la **nuevo proyecto** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="e13cd-132">In Visual Studio 2010 click **File**, point to **New**, and click **Project** to display the **New Project** dialog box.</span></span>  
   
-3.  <span data-ttu-id="e13cd-133">En **plantillas instaladas** haga clic para expandir **Visual C#**y haga clic en **prueba**.</span><span class="sxs-lookup"><span data-stu-id="e13cd-133">Under **Installed Templates** click to expand **Visual C#**, and click **Test**.</span></span>  
+3.  <span data-ttu-id="e13cd-133">En **plantillas instaladas** haga clic para expandir **Visual C#** y haga clic en **prueba**.</span><span class="sxs-lookup"><span data-stu-id="e13cd-133">Under **Installed Templates** click to expand **Visual C#**, and click **Test**.</span></span>  
   
 4.  <span data-ttu-id="e13cd-134">En la parte inferior de la **nuevo proyecto** cuadro de diálogo especificar las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="e13cd-134">At the bottom of the **New Project** dialog box specify the following options:</span></span>  
   

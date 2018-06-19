@@ -1,14 +1,14 @@
 ---
 title: Crear las instancias de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d75cb744-99a0-44bc-9a84-d4f8f66fd97e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960218"
 ---
 # <a name="create-the-message-instances"></a><span data-ttu-id="ef81e-102">Crear las instancias de mensaje</span><span class="sxs-lookup"><span data-stu-id="ef81e-102">Create the Message Instances</span></span>
 <span data-ttu-id="ef81e-103">Utilice los procedimientos siguientes para crear el archivo de mensaje ADT^A03.txt y para crear las instancias de mensaje que debe usar al ejecutar el tutorial de procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="ef81e-103">Use the following procedures to create the ADT^A03.txt message file, and to create the message instances that you will need to use when you run the Batching tutorial.</span></span>  

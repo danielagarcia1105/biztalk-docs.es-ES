@@ -1,17 +1,17 @@
 ---
 title: Asistente para registro del adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - utilities, Adapter Registration Wizard
 - Adapter Registration Wizard
 ms.assetid: bd15d0c7-01bb-41f9-9157-cdcf4bb4e39a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965322"
 ---
 # <a name="adapter-registry-wizard"></a><span data-ttu-id="d4e2c-102">Asistente para registro del adaptador</span><span class="sxs-lookup"><span data-stu-id="d4e2c-102">Adapter Registry Wizard</span></span>
 <span data-ttu-id="d4e2c-103">Usar al Asistente para registro del adaptador para crear los archivos de registro necesarios para configurar y registrar un adaptador personalizado.</span><span class="sxs-lookup"><span data-stu-id="d4e2c-103">You use the Adapter Registry Wizard to create the registry files needed to configure and register a custom adapter.</span></span>  
   
 ## <a name="location-in-sdk"></a><span data-ttu-id="d4e2c-104">Ubicación en SDK</span><span class="sxs-lookup"><span data-stu-id="d4e2c-104">Location in SDK</span></span>  
- <span data-ttu-id="d4e2c-105">*\<Ruta de acceso de instalación\>*\SDK\Utilities\AdapterRegistryWizard\\</span><span class="sxs-lookup"><span data-stu-id="d4e2c-105">*\<Installation Path\>*\SDK\Utilities\AdapterRegistryWizard\\</span></span>  
+ <span data-ttu-id="d4e2c-105">*\<Ruta de acceso de instalación\>* \SDK\Utilities\AdapterRegistryWizard\\</span><span class="sxs-lookup"><span data-stu-id="d4e2c-105">*\<Installation Path\>* \SDK\Utilities\AdapterRegistryWizard\\</span></span>  
   
 ## <a name="to-run-this-utility"></a><span data-ttu-id="d4e2c-106">Para ejecutar esta utilidad</span><span class="sxs-lookup"><span data-stu-id="d4e2c-106">To Run This Utility</span></span>  
  <span data-ttu-id="d4e2c-107">Inicie el asistente mediante la ejecución de AdapterRegistryWizard.exe.</span><span class="sxs-lookup"><span data-stu-id="d4e2c-107">Start the wizard by running the AdapterRegistryWizard.exe executable.</span></span> <span data-ttu-id="d4e2c-108">Las páginas siguientes solicitan información acerca del adaptador y de las propiedades que admite.</span><span class="sxs-lookup"><span data-stu-id="d4e2c-108">The pages that follow prompt you for information about your adapter and the properties that it supports.</span></span> <span data-ttu-id="d4e2c-109">Las páginas del Asistente para el Registro del adaptador se describen en las secciones siguientes.</span><span class="sxs-lookup"><span data-stu-id="d4e2c-109">The individual Adapter Registry Wizard pages are described in the sections that follow.</span></span>  

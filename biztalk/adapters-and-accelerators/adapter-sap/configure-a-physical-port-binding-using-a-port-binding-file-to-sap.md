@@ -1,17 +1,17 @@
 ---
-title: "Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring using a port binding file
 ms.assetid: c637971c-3ecd-4026-8f74-bd5173774438
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217596"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-sap"></a><span data-ttu-id="2ed96-102">Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP</span><span class="sxs-lookup"><span data-stu-id="2ed96-102">Configure a physical port binding using a port binding file to SAP</span></span>
 <span data-ttu-id="2ed96-103">Cuando se usa el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para generar metadatos para un artefacto SAP, distinto de los archivos de esquema, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también genera un archivo de enlace de puerto.</span><span class="sxs-lookup"><span data-stu-id="2ed96-103">When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for an SAP artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file.</span></span> <span data-ttu-id="2ed96-104">Puede importar este archivo de enlace en la aplicación de BizTalk para crear un envío físico o puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="2ed96-104">You can import this binding file into your BizTalk application to create a physical send or receive port.</span></span> <span data-ttu-id="2ed96-105">[Reutilizar los enlaces del adaptador SAP](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) incluye pasos para importar archivos de enlace.</span><span class="sxs-lookup"><span data-stu-id="2ed96-105">[Reuse SAP adapter bindings](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) includes steps to import binding files.</span></span> <span data-ttu-id="2ed96-106">Si importa este archivo de enlace, no es necesario crear manualmente un envío físico, o puerto de recepción.</span><span class="sxs-lookup"><span data-stu-id="2ed96-106">If you import this binding file, you do not have to manually create a physical send or receive port.</span></span>  

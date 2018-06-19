@@ -1,14 +1,14 @@
 ---
-title: "Administración de aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: Administración de aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef1039fb-7460-444b-a45e-2783bdc7c109
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298676"
 ---
 # <a name="managing-applications"></a><span data-ttu-id="b9218-102">Administrar aplicaciones</span><span class="sxs-lookup"><span data-stu-id="b9218-102">Managing Applications</span></span>
 <span data-ttu-id="b9218-103">Una aplicación de BizTalk es un contenedor lógico de artefactos de la aplicación, como orquestaciones, canalizaciones, esquemas, asignaciones y puertos.</span><span class="sxs-lookup"><span data-stu-id="b9218-103">A BizTalk application is a logical container for application artifacts, such as orchestrations, pipelines, schemas, maps, and ports.</span></span> <span data-ttu-id="b9218-104">Aplicaciones de BizTalk le permiten incluir componentes relacionados en el mismo contenedor.</span><span class="sxs-lookup"><span data-stu-id="b9218-104">BizTalk applications enable you to include related components in the same container.</span></span> <span data-ttu-id="b9218-105">Cualquier artefacto de una aplicación puede hacer referencia a los artefactos de la misma aplicación, o cualquier artefacto de cualquier aplicación que se hace referencia.</span><span class="sxs-lookup"><span data-stu-id="b9218-105">Any artifact within an application may refer to any other artifacts within that application, or to any artifact in any referenced application.</span></span> <span data-ttu-id="b9218-106">Para obtener una lista completa de los artefactos que pueden estar en una aplicación de BizTalk, consulte [¿qué es una aplicación de BizTalk?](http://go.microsoft.com/fwlink/?LinkId=154994)</span><span class="sxs-lookup"><span data-stu-id="b9218-106">For a complete list of artifacts that can be in a BizTalk application, see [What is a BizTalk Application?](http://go.microsoft.com/fwlink/?LinkId=154994)</span></span> <span data-ttu-id="b9218-107">(http://go.microsoft.com/fwlink/?LinkId=154994).</span><span class="sxs-lookup"><span data-stu-id="b9218-107">(http://go.microsoft.com/fwlink/?LinkId=154994).</span></span>  

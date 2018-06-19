@@ -1,18 +1,18 @@
 ---
 title: Certificados que utiliza BizTalk Server para mensajes cifran | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message flow [encrypted messages]
 - encrypted messages
 - messages, encryption
 ms.assetid: 44b06488-4ecd-436d-af3d-b95e285ecb3e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966370"
 ---
 # <a name="certificates-that-biztalk-server-uses-for-encrypted-messages"></a><span data-ttu-id="2bbc4-102">Certificados que BizTalk Server usa para los mensajes cifrados</span><span class="sxs-lookup"><span data-stu-id="2bbc4-102">Certificates that BizTalk Server Uses for Encrypted Messages</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="2bbc4-103"> admite mediante clave pública el cifrado de mensajes salientes y el descifrado de mensajes entrantes según las extensiones seguras multipropósito de correo Internet (S/MIME).</span><span class="sxs-lookup"><span data-stu-id="2bbc4-103"> supports public key encryption of outbound messages and decryption of inbound messages based on Secure Multipurpose Internet Mail Extensions (S/MIME).</span></span> <span data-ttu-id="2bbc4-104">BizTalk Server utiliza S/MIME versión 3 para el cifrado de mensajes salientes, y S/MIME versiones 2 y 3 para el descifrado de mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="2bbc4-104">BizTalk Server uses S/MIME version 3 for encryption of outbound messages, and S/MIME versions 2 and 3 for decryption of inbound messages.</span></span>  

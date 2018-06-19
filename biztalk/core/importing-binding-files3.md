@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 5c5cce40f3fbeb580ec7ba854d02cb243e1742b4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013467"
 ---
 # <a name="importing-binding-files"></a><span data-ttu-id="f9bc2-101">Importar archivos de enlace</span><span class="sxs-lookup"><span data-stu-id="f9bc2-101">Importing Binding Files</span></span>
 
@@ -17,7 +18,7 @@ ms.lasthandoff: 11/07/2017
   
 -   <span data-ttu-id="f9bc2-106">Las carpetas para las respuestas existen y son idénticas en el equipo nuevo, o bien edite el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="f9bc2-106">The folders for the responses exist and are identical on the new computer, or edit the binding file.</span></span>  
   
--   <span data-ttu-id="f9bc2-107">Las contraseñas del sistema de JD Edwards, si hay en la configuración se guardan como ***** en el archivo de enlaces.</span><span class="sxs-lookup"><span data-stu-id="f9bc2-107">JD Edwards system passwords, if present in the configuration, are saved as ***** in the binding file.</span></span> 
+-   <span data-ttu-id="f9bc2-107">Las contraseñas del sistema de JD Edwards, si hay en la configuración se guardan como \*\*\*\*\* en el archivo de enlaces.</span><span class="sxs-lookup"><span data-stu-id="f9bc2-107">JD Edwards system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file.</span></span> 
   
 > [!NOTE]
 >  <span data-ttu-id="f9bc2-108">La implementación sobrescribe la configuración de ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="f9bc2-108">Deployment overwrites Receive Location configuration.</span></span> <span data-ttu-id="f9bc2-109">Al implementar un archivo de enlace (y un ensamblado) en un equipo de destino, los puertos de envío y las ubicaciones de recepción se sustituyen por los del archivo de enlace XML cuando se importan.</span><span class="sxs-lookup"><span data-stu-id="f9bc2-109">When deploying a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  

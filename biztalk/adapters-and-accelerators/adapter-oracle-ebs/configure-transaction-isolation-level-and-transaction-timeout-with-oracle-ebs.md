@@ -1,14 +1,14 @@
 ---
-title: "Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db3d64ad-037d-486a-bdde-45c8199613f1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215844"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-oracle-e-business-suite"></a><span data-ttu-id="b64ed-102">Configurar el nivel de aislamiento de transacción y el tiempo de espera de transacción con Oracle E-Business Suite</span><span class="sxs-lookup"><span data-stu-id="b64ed-102">Configure transaction isolation level and transaction timeout with Oracle E-Business Suite</span></span>
 <span data-ttu-id="b64ed-103">Al realizar operaciones de entrada (sondeo y la notificación) mediante la [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe configurar de manera adecuada el nivel de aislamiento de transacción y los valores de tiempo de espera de transacción.</span><span class="sxs-lookup"><span data-stu-id="b64ed-103">While performing inbound operations (Polling and Notification) using the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you should appropriately configure the transaction isolation level and the transaction timeout values.</span></span> <span data-ttu-id="b64ed-104">Para hacerlo:</span><span class="sxs-lookup"><span data-stu-id="b64ed-104">To do this:</span></span>  

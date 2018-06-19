@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar certificados con un adaptador de HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar certificados con un adaptador de HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc2f454f-22b5-4113-9a23-e00a816d5e48
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297844"
 ---
 # <a name="how-to-configure-certificates-with-an-http-adapter"></a><span data-ttu-id="e4510-102">Cómo configurar certificados con un adaptador de HTTP</span><span class="sxs-lookup"><span data-stu-id="e4510-102">How to Configure Certificates with an HTTP Adapter</span></span>
 <span data-ttu-id="e4510-103">El adaptador de envío HTTP puede ayudar a proteger una conexión con servidores que admitan o requieran certificados de cliente.</span><span class="sxs-lookup"><span data-stu-id="e4510-103">The HTTP send adapter can help secure a connection with servers that accept or require client certificates.</span></span> <span data-ttu-id="e4510-104">Si se especifica un certificado de cliente, el adaptador de envío HTTP utilizará el certificado para conectarse a los servidores que requieran o admitan certificados de cliente.</span><span class="sxs-lookup"><span data-stu-id="e4510-104">If a client certificate is specified, the HTTP send adapter uses the certificate when connecting with servers that require or accept client certificates.</span></span> <span data-ttu-id="e4510-105">Si no se especifica el certificado de cliente y el servidor de destino requiere certificados de cliente, el remitente no está autenticado y HTTP se produce un error de adaptador para enviar el mensaje de envío y sigue la lógica de reintentos estándar.</span><span class="sxs-lookup"><span data-stu-id="e4510-105">If the client certificate is not specified and the destination server requires client certificates, the sender is not authenticated and the HTTP send adapter fails to send the message and follows the standard retry logic.</span></span>  

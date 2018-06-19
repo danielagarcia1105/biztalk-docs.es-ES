@@ -1,14 +1,14 @@
 ---
-title: "Configurar el envío y recepción de confirmaciones EDI | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el envío y recepción de confirmaciones EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3db1c9f7-bafa-4659-a3c4-0faa56606081
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969762"
 ---
 # <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a><span data-ttu-id="0cbda-102">Configuración del envío y la recepción de confirmaciones EDI</span><span class="sxs-lookup"><span data-stu-id="0cbda-102">Configuring the Sending and Receiving of EDI Acknowledgments</span></span>
 <span data-ttu-id="0cbda-103">Para configurar el envío de una confirmación de EDI en respuesta a un intercambio recibido, debe hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="0cbda-103">To configure the sending of an EDI acknowledgment in response to a received interchange, you need to do the following:</span></span>  

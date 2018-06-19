@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967754"
 ---
 # <a name="receive-inbound-rfc-calls-from-sap-using-biztalk-server"></a><span data-ttu-id="5c5c7-102">Recibir llamadas de RFC de entrada de SAP con BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="5c5c7-102">Receive Inbound RFC Calls from SAP using BizTalk Server</span></span>
 <span data-ttu-id="5c5c7-103">En un escenario de servidor RFC, hay tres entidades:</span><span class="sxs-lookup"><span data-stu-id="5c5c7-103">In an RFC server scenario, there are three entities:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Instalación de AppFabric conectarse para servicios | Documentos de Microsoft"
-ms.custom: 
+title: Instalación de AppFabric conectarse para servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1de3bf49-e3cc-4d3f-9883-9a2c472f3647
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298692"
 ---
 # <a name="installing-appfabric-connect-for-services"></a><span data-ttu-id="39c30-102">Instalación de AppFabric conectarse para servicios</span><span class="sxs-lookup"><span data-stu-id="39c30-102">Installing AppFabric Connect for Services</span></span>
 <span data-ttu-id="39c30-103">Esta guía proporciona instrucciones sobre cómo instalar BizTalk Server 2010 Feature Pack (octubre de 2010).</span><span class="sxs-lookup"><span data-stu-id="39c30-103">This guide provides instructions on how to install BizTalk Server 2010 Feature Pack (October 2010).</span></span> <span data-ttu-id="39c30-104">El feature pack instala BizTalk Server 2010 AppFabric Connect para la característica de servicios que proporciona mejoras en la **Asistente de publicación de servicio de WCF de BizTalk** y **Asistente para el desarrollo de servicio de WCF adaptador**.</span><span class="sxs-lookup"><span data-stu-id="39c30-104">The feature pack installs BizTalk Server 2010 AppFabric Connect for Services feature that provides enhancements to the **BizTalk WCF Service Publishing Wizard** and the **WCF Adapter Service Development Wizard**.</span></span> <span data-ttu-id="39c30-105">Después de instalar el feature pack, podrá ampliar el alcance de sus instalaciones de artefactos de BizTalk Server o las aplicaciones en la nube mediante la adición de un punto de conexión de Bus de servicio de Windows Azure AppFabric LOB.</span><span class="sxs-lookup"><span data-stu-id="39c30-105">After you have installed the feature pack, you will be able to extend the reach of your on-premises BizTalk Server artifacts or LOB applications to cloud by adding a Windows Azure AppFabric Service Bus endpoint.</span></span>  

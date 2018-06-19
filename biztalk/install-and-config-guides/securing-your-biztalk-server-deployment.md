@@ -1,15 +1,15 @@
 ---
-title: "Introducción a la seguridad de la implementación | Documentos de Microsoft"
-description: "Vínculos rápidos sobre seguridad, cifrado, los grupos de usuarios en la implementación de BizTalk Server"
-ms.custom: 
+title: Introducción a la seguridad de la implementación | Documentos de Microsoft
+description: Vínculos rápidos sobre seguridad, cifrado, los grupos de usuarios en la implementación de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1c5a000-9f6b-49db-bd87-8c694240a192
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299548"
 ---
 # <a name="securing-your-biztalk-server-deployment"></a><span data-ttu-id="9900c-103">Proteger la implementación de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="9900c-103">Securing Your BizTalk Server Deployment</span></span>
 <span data-ttu-id="9900c-104">En los temas de esta sección se proporcionan los vínculos que tratan sobre la configuración de puertos de firewall, el protocolo de seguridad de Internet (IPSec) y la seguridad de Capa de sockets seguros (SSL) una vez que se ha instalado y configurado BizTalk.</span><span class="sxs-lookup"><span data-stu-id="9900c-104">The topics in this section provide the links about configuring firewall ports, Internet protocol security (IPSec), and secure sockets layer (SSL) security after you have installed and configured BizTalk.</span></span>  

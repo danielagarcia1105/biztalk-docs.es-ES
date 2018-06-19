@@ -1,11 +1,11 @@
 ---
-title: "Importación de esquemas en BizTalk Server Projects1 | Documentos de Microsoft"
-ms.custom: 
+title: Importación de esquemas en BizTalk Server Projects1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, importing into BizTalk Server
 - orchestration types, port types
 ms.assetid: fa640195-a735-4201-a893-48f3405ddcb5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015451"
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a><span data-ttu-id="a6675-102">Importación de esquemas en proyectos de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="a6675-102">Importing Schemas into BizTalk Server Projects</span></span>
 <span data-ttu-id="a6675-103">La información siguiente describe cómo importar esquemas en un proyecto de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a6675-103">The following information describes how to import schemas into a BizTalk Server project.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  <span data-ttu-id="a6675-107">Haga clic en **agregar adaptador**y, a continuación, seleccione **abiertos**.</span><span class="sxs-lookup"><span data-stu-id="a6675-107">Click **Add adapter**, and then select **Open**.</span></span>  
   
-3.  <span data-ttu-id="a6675-108">Seleccione el adaptador**, J.D. Edwards OneWorld XE**.</span><span class="sxs-lookup"><span data-stu-id="a6675-108">Select the adapter**, J.D. Edwards OneWorld XE**.</span></span>  
+3.  <span data-ttu-id="a6675-108">Seleccione el adaptador **, J.D. Edwards OneWorld XE**.</span><span class="sxs-lookup"><span data-stu-id="a6675-108">Select the adapter **, J.D. Edwards OneWorld XE**.</span></span>  
   
 4.  <span data-ttu-id="a6675-109">En la lista desplegable, seleccione el puerto **SSOSendToJD Edwards OneWorld XE**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="a6675-109">In the drop-down list, select the port **SSOSendToJD Edwards OneWorld XE**, and then click **Next**.</span></span>  
   
