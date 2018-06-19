@@ -1,14 +1,14 @@
 ---
 title: Crear esquemas con el Asistente para esquemas de archivo sin formato de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 28d35722-70a5-48fe-a667-0edc952e43a9
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238132"
 ---
 # <a name="creating-schemas-using-biztalk-flat-file-schema-wizard"></a>Crear esquemas con el Asistente para esquemas de archivo sin formato de BizTalk
 El Asistente para esquemas de archivos sin formato está diseñado para simplificar el proceso de creación de los esquemas de archivos sin formato al aportar lo siguiente:  

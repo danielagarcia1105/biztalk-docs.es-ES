@@ -1,11 +1,11 @@
 ---
 title: Copia de seguridad y restaurar bases de datos de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up [BAM]
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - restoring [BAM]
 - BAM, backing up
 ms.assetid: 82fc1af2-1389-4c79-80dc-f2df5656d201
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232932"
 ---
 # <a name="backing-up-and-restoring-biztalk-server-databases"></a>Realizar una copia de seguridad y una restauración de las bases de datos de BizTalk Server
 El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usa para hacer copia de seguridad de todas las bases de datos del sistema de origen de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], excepto por algunas bases de datos usadas por la supervisión de la actividad económica (BAM). El sistema de origen es el servidor o grupo de servidores que contiene datos activos. Puesto que los requisitos de restauración y copia de seguridad de las bases de datos de BAM son distintos, es preciso utilizar métodos distintos para efectuar la copia de seguridad de éstas y su restauración.  

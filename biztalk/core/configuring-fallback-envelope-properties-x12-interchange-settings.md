@@ -1,14 +1,14 @@
 ---
-title: "Configuración de las propiedades de sobres de reserva (configuración de intercambio de X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de sobres de reserva (configuración de intercambio de X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e9b05ea-2a0f-42d6-adc2-c1f1f2b7a993
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233332"
 ---
 # <a name="configuring-fallback-envelope-properties-x12-interchange-settings"></a>Configuración de propiedades de sobre de reserva (configuración de intercambio X12)
 La configuración de generación de sobres de intercambio X12 define cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera el sobre de un intercambio con codificación X12 que va a enviarse a la entidad de recepción. En este acuerdo de reserva, defina cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] genera el segmento ISA para un intercambio con codificación X12 que envía a la entidad. Un segmento ISA es el encabezado de control de intercambio para un intercambio con codificación X12.  

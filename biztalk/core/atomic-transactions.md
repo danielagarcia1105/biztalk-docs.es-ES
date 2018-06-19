@@ -1,11 +1,11 @@
 ---
-title: "Las transacciones atómicas | Documentos de Microsoft"
-ms.custom: 
+title: Las transacciones atómicas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - scopes, transactions
 - scopes
 ms.assetid: 5030e1fd-943f-42bc-9296-4f315bd5f733
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233548"
 ---
 # <a name="atomic-transactions"></a>Transacciones atómicas
 Las orquestaciones de BizTalk pueden diseñarse para ejecutar elementos discretos de trabajo, siguiendo el clásico concepto "ACID" de una transacción. Estas unidades discretas o atómicas de trabajo, cuando se ejecutan, llevan el proceso empresarial de un estado coherente a un estado nuevo, coherente y duradero que se aísla de otras unidades de trabajo. Esto normalmente se realiza mediante la **ámbito** construcción que encapsula las unidades de trabajo con la semántica transaccional. También se puede definir la orquestación completa como una transacción atómica sin el uso de ámbitos. No obstante, los ámbitos no pueden marcarse como transaccionales a menos que la propia orquestación se marque como transacción atómica o de larga duración. Las transacciones atómicas garantizan que todas las actualizaciones parciales se revertirán automáticamente si se produce un error durante la actualización de la transacción, y los efectos de la transacción se borrarán (excepto los efectos de cualquier llamada .NET que se haga en la transacción). Las transacciones atómicas en orquestaciones de BizTalk se parecen a las transacciones del coordinador de transacciones distribuidas (DTC) en que suelen ser de corta duración y tener los cuatro atributos "ACID" (atomicidad, coherencia, aislamiento y durabilidad):  

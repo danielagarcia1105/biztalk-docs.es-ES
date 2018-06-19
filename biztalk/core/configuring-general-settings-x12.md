@@ -1,14 +1,14 @@
 ---
-title: "Configuración General (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración General (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75c1ca3e-19a0-42f7-910e-dd07c24d1ed4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234676"
 ---
 # <a name="configuring-general-settings-x12"></a>Configuración general (X12)
 Como parte de la configuración general, se especifica el nombre del acuerdo, el protocolo que usará (X12 o EDIFACT), las entidades y perfiles entre los que se produce el acuerdo, así como si estará habilitada la notificación de todos los mensajes procesados mediante el acuerdo. También puede especificar la información de contacto de las entidades como parte del acuerdo.  

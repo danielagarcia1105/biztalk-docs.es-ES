@@ -1,17 +1,17 @@
 ---
 title: Tutoriales de BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, getting started
 - getting started, tutorials
 ms.assetid: 58019f98-e91a-4705-b689-c269174d6bae
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232076"
 ---
 # <a name="biztalk-server-tutorials"></a>Tutoriales de BizTalk Server
 Tutoriales para aprender a usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

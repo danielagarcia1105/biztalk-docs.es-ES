@@ -1,14 +1,14 @@
 ---
 title: AS2 Procesamiento en BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0027d3db-24a5-459d-9f4e-a75f49d31d82
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233740"
 ---
 # <a name="as2-processing-in-biztalk-server"></a>Procesamiento de AS2 en BizTalk Server
 En este tema se proporciona una visión general del procesamiento de recepción y de envío de los mensajes AS2 y de cómo los acuerdos entre socios comerciales ayudan a lograr la mensajería AS2.  

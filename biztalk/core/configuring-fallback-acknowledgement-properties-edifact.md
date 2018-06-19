@@ -1,14 +1,14 @@
 ---
-title: "Configuración de las propiedades de confirmación de reserva (EDIFACT) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de confirmación de reserva (EDIFACT) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6062b881-3214-4e68-acbc-1f8c255fd86b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233020"
 ---
 # <a name="configuring-fallback-acknowledgement-properties-edifact"></a>Configuración de las propiedades de confirmación de reserva (EDIFACT)
 En el acuerdo de reserva, puede especificar qué tipo de confirmación se va a devolver a una entidad.  

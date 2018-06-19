@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232276"
 ---
 # <a name="bindinginfo-node"></a>BindingInfo (nodo)
 El **BindingInfo** nodo de un archivo de enlace es el nodo raíz de un archivo de enlace y contiene información que se aplica a todas las entradas del archivo de enlace, así como información sobre el servidor de BizTalk que se exportó el archivo de enlace De.  

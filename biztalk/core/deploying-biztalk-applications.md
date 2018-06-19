@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239076"
 ---
 # <a name="deploying-biztalk-applications"></a>Implementar aplicaciones de BizTalk
 Esta sección proporciona la siguiente información acerca de la implementación de aplicaciones de BizTalk:  

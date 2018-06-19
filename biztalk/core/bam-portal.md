@@ -1,11 +1,11 @@
 ---
 title: Portal de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - BAM, portals
 - BAM portal, aggregations
 ms.assetid: 593c9637-6b97-4ad8-8af7-2b49325acf10
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232084"
 ---
 # <a name="bam-portal"></a>Portal de BAM
 Los usuarios empresariales finales utilizan el portal de BAM para supervisar los indicadores clave de rendimiento (KPI), que miden el progreso hacia un objetivo empresarial, y otra información acerca de sus procesos empresariales. Los analistas de negocios utilizan el portal de BAM para controlar la creación de modelos de observación, que son las definiciones de alto nivel de los requisitos de visibilidad dentro del proceso empresarial. Los administradores lo utilizan en un gran número de actividades de supervisión, que incluyen supervisar el estado del sistema de administración del proceso empresarial.  

@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones para la fase de diseño | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones para la fase de diseño | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ee3d183e-a6f3-47d0-90ac-99b12c064607
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239748"
 ---
 # <a name="design-phase-recommendations"></a>Recomendaciones de la fase de diseño
 Los entregables principales de la fase de diseño son las especificaciones de diseño de los casos del sistema y de prueba para validar la funcionalidad y el rendimiento del sistema. Las investigaciones sobre la viabilidad de las características y las pruebas son una parte habitual del proceso de diseño, que comprende el desarrollo inicial y, en el caso del diseño de validación, algunas pruebas anticipadas de implementaciones de prueba de concepto, tal como se describe abajo en esta sección.  
