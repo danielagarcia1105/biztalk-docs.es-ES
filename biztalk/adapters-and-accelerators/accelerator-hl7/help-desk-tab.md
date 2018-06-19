@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204860"
 ---
 # <a name="help-desk-tab"></a>Ficha del departamento de soporte de ayuda
 Utilice la ficha de departamento de soporte técnico para especificar los datos sobre el destino o la entidad de origen. Tener la información de entidad en la pestaña del departamento de soporte técnico es útil si se han producido errores generados y deberá ponerse en contacto con la entidad. Si se produce un error en un mensaje, la información de entidad estará en el mensaje de confirmación.  

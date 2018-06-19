@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216340"
 ---
 # <a name="troubleshoot-the-sap-adapter"></a>Solucionar problemas del adaptador SAP
 El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] usa o depende de varias tecnologías de Microsoft, incluyendo pero sin limitarse a la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)], Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]y Microsoft [!INCLUDE[dotnet45](../../includes/dotnet45-md.md)] o [!INCLUDE[dotnet451](../../includes/dotnet451-md.md)]. El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] se crea en la parte superior de la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], lo que a su vez requiere el [!INCLUDE[dotnet45](../../includes/dotnet45-md.md)] o [!INCLUDE[dotnet451](../../includes/dotnet451-md.md)]. Los adaptadores pueden utilizarse o bien escribir aplicaciones mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] o mediante la creación de aplicaciones de BizTalk. Para problemas relacionados con cada uno de estos productos y tecnologías, consulte la documentación correspondiente.  

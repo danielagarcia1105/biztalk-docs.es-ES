@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216300"
 ---
 # <a name="secure-your-sap-applications"></a>Proteger las aplicaciones de SAP
 El sistema SAP puede contener la información empresarial confidencial, como los detalles de cuenta del cliente. Las aplicaciones que utilizan el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] para tener acceso y modificar esta información ya sea localmente o a través de una red distribuida puede accidentalmente exponerla obtener acceso a los actores no autorizados, a menos que se haga un esfuerzo para proteger y proteger los datos durante la transmisión. Seguridad y protección de datos normalmente se considera de en los siguientes términos:  

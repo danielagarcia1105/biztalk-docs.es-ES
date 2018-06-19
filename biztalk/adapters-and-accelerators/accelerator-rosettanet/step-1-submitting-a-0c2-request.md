@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966138"
 ---
 # <a name="step-1-submitting-a-0c2-request"></a>Paso 1: Enviar un 0c solicitar 2
 En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 0c 2 - solicitud asincrónica de prueba. Este PIP garantiza que un canal de comunicación asincrónica funciona correctamente entre dos organizaciones diferentes. Este PIP sigue el mismo patrón que otros PIP de doble acción asincrónica, como el 3A4 - solicitud PIP de pedido de compra.  

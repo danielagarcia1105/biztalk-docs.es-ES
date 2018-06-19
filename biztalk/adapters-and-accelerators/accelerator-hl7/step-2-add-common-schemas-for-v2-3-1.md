@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Agregar los esquemas comunes para v2.3.1 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da98fe6c-4776-4cb8-8454-af3128dea4ab
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206516"
 ---
 # <a name="step-2-add-common-schemas-for-v231"></a>Paso 2: Agregar los esquemas comunes para v2.3.1
 En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BTAHL7231Common. Esta plantilla contiene los tres esquemas comunes (para tipos de datos, segmentos y valores de tabla) que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) se utiliza para validar las instancias de mensaje v2.3.1. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]estos esquemas comunes se utiliza junto con los esquemas de v2.3.1 HL7, incluido el esquema que se va a utilizar para los mensajes individuales del lote entrante (ADT ^ A03).  

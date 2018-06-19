@@ -1,14 +1,14 @@
 ---
-title: "Tutorial 2: Los proyectos de migración de BizTalk de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial 2: Los proyectos de migración de BizTalk de Siebel | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a2a1828-8cc8-4b80-99bd-c083c04e5d04
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223012"
 ---
 # <a name="tutorial-2-migrating-biztalk-projects-in-siebel"></a>Tutorial 2: Migración de proyectos de BizTalk de Siebel
 La versión anterior del adaptador de Siebel que se incluye con Microsoft BizTalk Server difiere basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en muchos aspectos, como:  

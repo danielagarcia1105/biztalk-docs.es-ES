@@ -1,11 +1,11 @@
 ---
 title: Certificados que utiliza BizTalk Server para mensajes firman | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, signed messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - digital signatures, message flow
 - messages, certificates
 ms.assetid: 0b521e11-73ef-424f-9e6a-4fb42dc263ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233124"
 ---
 # <a name="certificates-that-biztalk-server-uses-for-signed-messages"></a>Certificados que BizTalk Server usa para mensajes firmados
 BizTalk Server admite la firma de mensajes de salida y la comprobación de firmas de mensajes de entrada en formato de extensiones seguras multipropósito al correo de Internet (Secure Multipurpose Internet Mail Extensions, S/MIME). BizTalk Server usa S/MIME versiones 2 y 3 para firmar mensajes de salida y validar la firma de mensajes de entrada. De forma parecida, se puede configurar BizTalk Server para que firme y a continuación cifre los mensajes que envía a sus socios.  

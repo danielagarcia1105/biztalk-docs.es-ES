@@ -1,18 +1,18 @@
 ---
 title: Id. de tipo de datos de HL7 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data types, data type ID
 - data types, messages
 - messages, data types
 ms.assetid: d1412886-ff0b-4333-b01e-1c3ae45240e2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204524"
 ---
 # <a name="data-type-id-in-hl7"></a>Id. de tipo de datos de HL7
 En el caso de HL7 V2.1, el identificador de tipo de datos es un marcador de posición para los tipos de datos sin definir. Los siguientes son ejemplos de su uso:  

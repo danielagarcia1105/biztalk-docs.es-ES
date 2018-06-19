@@ -1,17 +1,17 @@
 ---
-title: "Cómo mover la Database2 de análisis BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la Database2 de análisis BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migrating, Analysis database [BAM]
 - Analysis database [BAM], migrating
 ms.assetid: b0320273-4840-4573-bb82-bba95021535e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254948"
 ---
 # <a name="how-to-move-the-bam-analysis-database"></a>Cómo mover la base de datos de análisis de BAM
 Este procedimiento se puede utilizar para mover la base de datos de análisis de BAM a otro servidor.  
@@ -31,7 +32,7 @@ Este procedimiento se puede utilizar para mover la base de datos de análisis de
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, desplácese al directorio siguiente:  
   
@@ -56,7 +57,7 @@ Este procedimiento se puede utilizar para mover la base de datos de análisis de
   
 6.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
   
-7.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+7.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 8.  En el símbolo del sistema, desplácese al directorio siguiente:  
   

@@ -1,18 +1,18 @@
 ---
-title: "Cómo mover la notificación de BAM servicios Databases2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mover la notificación de BAM servicios Databases2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Notification Services Application database [BAM]
 - Notification Services Instance database [BAM]
 - migrating, Notification Services database [BAM]
 ms.assetid: 4b7f3397-65c9-4c71-8374-8764f4c2e2e3
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254268"
 ---
 # <a name="how-to-move-the-bam-notification-services-databases"></a>Cómo mover las bases de datos de servicios de notificación de BAM
 Este procedimiento se puede utilizar para mover las bases de datos de servicios de notificación de BAM a otro servidor.  
@@ -35,7 +36,7 @@ Este procedimiento se puede utilizar para mover las bases de datos de servicios 
   
 1.  Obtenga una copia del archivo .xml utilizado para restaurar BAM:  
   
-    1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+    1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
     2.  En el símbolo del sistema, desplácese al directorio siguiente:  
   
@@ -66,7 +67,7 @@ Este procedimiento se puede utilizar para mover las bases de datos de servicios 
   
 7.  Guarde el archivo BAMConfiguration.xml y ciérrelo.  
   
-8.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+8.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 9. En el símbolo del sistema, desplácese al directorio siguiente:  
   

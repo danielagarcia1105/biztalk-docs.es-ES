@@ -1,14 +1,14 @@
 ---
-title: "Paso 3: Crear una aplicación de SharePoint para recuperar datos de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Crear una aplicación de SharePoint para recuperar datos de Oracle E-Business Suite | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eaa16011-9284-4ccf-8132-9c1e14cc6aa7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217204"
 ---
 # <a name="step-3-create-a-sharepoint-application-to-retrieve-data-from-oracle-e-business-suite"></a>Paso 3: Crear una aplicación de SharePoint para recuperar datos de Oracle E-Business Suite
 ![Paso 3 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  

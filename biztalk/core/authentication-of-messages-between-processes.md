@@ -1,11 +1,11 @@
 ---
-title: "Autenticación de mensajes entre procesos | Documentos de Microsoft"
-ms.custom: 
+title: Autenticación de mensajes entre procesos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PID
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - SSID
 - authenticating, warnings
 ms.assetid: fa746ee3-fc22-4e63-a5cc-8bc0cbeb536b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231308"
 ---
 # <a name="authentication-of-messages-between-processes"></a>Autenticación de mensajes entre procesos
 La siguiente ilustración muestra las características de seguridad de BizTalk Server que permiten autenticar mensajes entre distintos hosts de BizTalk.  

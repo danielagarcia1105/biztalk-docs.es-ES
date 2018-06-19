@@ -1,17 +1,17 @@
 ---
-title: "CIDX mensajería estándares | Documentos de Microsoft"
-ms.custom: 
+title: CIDX mensajería estándares | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - CIDX, RosettaNet
 - RosettaNet, CIDX
 ms.assetid: 6f70fa56-1fc3-4016-ac9e-6af18026292a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207260"
 ---
 # <a name="cidx-messaging-standards"></a>Estándares de mensajería CIDX
 CIDX (intercambio de datos de la industria química) funciona como una organización de estándares que admite y mantiene las normas europeas de química intercambio de mensajes estándar de. Las compañías en la industria química utilizan estos estándares para sus necesidades de mensajes específicos del sector.  

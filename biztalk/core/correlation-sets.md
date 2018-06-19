@@ -1,11 +1,11 @@
 ---
 title: Conjuntos de correlaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - correlation sets, inspecting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - correlation sets, following correlation sets
 - correlation sets, initializing
 ms.assetid: 528dcd6c-d364-4bb8-8deb-cd4a0791867f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968394"
 ---
 # <a name="correlation-sets"></a>Conjuntos de correlaciones
 Este tipo de correlación de mensajes con instancias de orquestación se consigue mediante la definición de conjuntos de correlaciones. Un conjunto de correlaciones es un conjunto de propiedades *con valores específicos*. Es diferente de un tipo de correlación, que no es más que una lista de propiedades. Si un mensaje entrante no tiene todas estas propiedades, con valores coincidentes para cada una de ellas, se producirá un error en la correlación y la instancia de orquestación no recibirá el mensaje.  

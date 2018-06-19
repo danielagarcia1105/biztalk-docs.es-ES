@@ -1,14 +1,14 @@
 ---
-title: "Operaciones en sinónimos en la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Operaciones en sinónimos en la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 608e8c36-ac78-4d7d-aca4-be552505fc2b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214964"
 ---
 # <a name="operations-on-synonyms-in-oracle-database"></a>Operaciones en sinónimos en la base de datos de Oracle
 El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] le permite realizar operaciones en sinónimos. Un sinónimo es un alias o un nombre descriptivo para los objetos de base de datos (como tablas, vistas, procedimientos almacenados, funciones y paquetes). Para obtener más información acerca de los sinónimos en Oracle, vea [http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058).  

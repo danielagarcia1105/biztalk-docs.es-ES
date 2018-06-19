@@ -1,14 +1,14 @@
 ---
-title: "Paso 2B: agregar puertos de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el almacenamiento de FileAct y el reenvío de escenario (extracción) | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2B: agregar puertos de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el almacenamiento de FileAct y el reenvío de escenario (extracción) | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21d055e9-ff7c-4af1-983b-d03e8d4a94f6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224364"
 ---
 # <a name="step-2b-add-file-send-ports-to-capture-the-swhandlefilerequest-and-swhandlesnfrequest-messages-for-the-fileact-store-and-forward-pull-scenario"></a>Paso 2B: agregar puertos de envío de archivo para capturar la Sw:HandleFileRequest y Sw:HandleSnFRequest mensajes para el almacenamiento de FileAct y el reenvío de escenario (extracción)
 Antes de comenzar este paso, debe completar la [paso 2A: Agregar archivo ubicaciones de recepción para el escenario de reenvío (extracción) y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-fileact-store-and-forward-scenario.md) sección.  
@@ -48,7 +49,7 @@ Antes de comenzar este paso, debe completar la [paso 2A: Agregar archivo ubicaci
   
 10. Haga clic en **puertos de envío**, seleccione **New**y, a continuación, haga clic en **puerto de envío de petición-respuesta dinámico**.  
   
-11. En el **propiedades de puerto de envío** ventana, nombre el puerto de envío**, Tutorial_IA_DynamicSendPort**.  
+11. En el **propiedades de puerto de envío** ventana, nombre el puerto de envío **, Tutorial_IA_DynamicSendPort**.  
   
 12. En el **propiedades de puerto de envío** ventana, haga lo siguiente:  
   

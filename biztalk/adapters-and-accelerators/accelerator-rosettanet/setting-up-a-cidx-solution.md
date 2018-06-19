@@ -1,11 +1,11 @@
 ---
-title: "Configurar una solución CIDX | Documentos de Microsoft"
-ms.custom: 
+title: Configurar una solución CIDX | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - CIDX, process configuration
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - CIDX, importing PIPs
 - PIPs, CIDX
 ms.assetid: 7f1f159f-3b09-4efd-907b-9a75f7f3ecd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210916"
 ---
 # <a name="setting-up-a-cidx-solution"></a>Cómo configurar una solución CIDX
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] compatibilidad con intercambio de mensajes XML CIDX (intercambio de datos de la industria química) (normas europeas de química CIDX las versiones 2.0 y 3.0). Este tema describe cómo configurar una solución CIDX haciendo lo siguiente:  

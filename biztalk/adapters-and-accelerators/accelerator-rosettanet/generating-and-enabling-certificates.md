@@ -1,18 +1,18 @@
 ---
 title: Generar y habilitar certificados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, enabling
 - private process tutorial, creating certificates
 - private process tutorial, enabling certificates
 ms.assetid: a36d9725-d57c-499d-948d-558096709d67
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209788"
 ---
 # <a name="generating-and-enabling-certificates"></a>Generar y habilitar certificados
 Este tutorial utiliza certificados para firmar y cifrar mensajes enviados por las organizaciones de Contoso y Fabrikam. Si ya ha completado el Tutorial de doble acción, puede omitir este paso y pase a [crear la solución de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/creating-the-contoso-solution.md). Para generar y usar certificados para este tutorial, siga los procedimientos descritos en los temas siguientes:  

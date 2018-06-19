@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el modelo de canal WCF con el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de canal WCF con el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5e5f77c-c922-4039-92c7-38d2b7638459
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966026"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sql-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador de SQL
 Para invocar operaciones en el [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  

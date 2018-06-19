@@ -1,14 +1,14 @@
 ---
-title: "Se repite más de necesario | Documentos de Microsoft"
-ms.custom: 
+title: Se repite más de necesario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fec52b5b-e95f-479e-8922-dcf17dcefee7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268228"
 ---
 # <a name="repeats-more-than-required"></a>Más repeticiones de las necesarias.
 ## <a name="details"></a>Detalles  

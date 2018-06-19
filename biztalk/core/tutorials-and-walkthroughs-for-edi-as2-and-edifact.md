@@ -1,14 +1,14 @@
 ---
 title: Tutoriales y visitas guiadas de EDI, AS2 y EDIFACT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37cc976f-7c71-4084-8ed7-5900f94bdc23
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286732"
 ---
 # <a name="tutorials-and-walkthroughs-for-edi-as2-and-edifact"></a>Tutoriales y visitas guiadas de EDI, AS2 y EDIFACT
 Recorrer paso a paso X12, EDIFACT y AS2 tutoriales para obtener información sobre cómo habilitar la mensajería negocio a negocio en [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 

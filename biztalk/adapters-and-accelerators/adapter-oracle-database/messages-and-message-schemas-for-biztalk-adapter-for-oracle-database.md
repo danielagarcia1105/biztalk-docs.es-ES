@@ -1,15 +1,15 @@
 ---
 title: Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft
 description: Estructura XML de mensajes y tipos de datos utilizado por el adaptador de la base de datos de Oracle para que BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fee0a531-b1e6-4b99-bb79-45368c401395
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214308"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-oracle-database"></a>Mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle
 

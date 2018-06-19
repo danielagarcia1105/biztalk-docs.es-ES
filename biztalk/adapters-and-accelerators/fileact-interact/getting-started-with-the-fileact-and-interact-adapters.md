@@ -1,14 +1,14 @@
 ---
-title: "Introducción a la FileAct e interactuar adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a la FileAct e interactuar adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d0b07f1-38b2-4d51-8168-04b0f80b8b15
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222428"
 ---
 # <a name="getting-started-with-the-fileact-and-interact-adapters"></a>Introducción a la FileAct e interactuar adaptadores
 La sociedad para todo el mundo bancos vinculados financieros telecomunicaciones (SWIFT) proporciona software seguro de servicios y la interfaz de mensajería a entidades financieras por mayor.  

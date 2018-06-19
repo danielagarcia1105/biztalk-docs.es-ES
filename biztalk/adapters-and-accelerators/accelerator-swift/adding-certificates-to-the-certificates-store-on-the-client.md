@@ -1,17 +1,17 @@
 ---
-title: "Agregar certificados al almacén de certificados en el cliente | Documentos de Microsoft"
-ms.custom: 
+title: Agregar certificados al almacén de certificados en el cliente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, adding to certificates store
 - certificates store
 ms.assetid: 9e2722ee-dd6f-4b14-9796-2f2157e8cad2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209500"
 ---
 # <a name="adding-certificates-to-the-certificates-store-on-the-client"></a>Agregar certificados al almacén de certificados en el cliente
 Siga estos pasos para agregar certificados a la carpeta Personal en el almacén de certificados en cada equipo cliente. Los certificados deben agregarse a la carpeta Personal de los certificados: almacén del usuario actual.  

@@ -1,17 +1,17 @@
 ---
 title: 'Parte 3: Crear lote escenario | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, creating
 - creating, batching
 ms.assetid: 02247186-5b21-4738-9110-f0ca0304f0fd
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206204"
 ---
 # <a name="part-3-create-batch-scenario"></a>Parte 3: Escenario de lote crear
 En esta parte del escenario, recibe dos mensajes entrantes, combinarlos en un mensaje por lotes y enviar el lote a un destino. Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) devuelve un lote de confirmación que contiene las dos confirmaciones generadas para los mensajes desde el destino al origen. En la siguiente ilustración muestra el flujo del proceso de esta parte del tutorial.  

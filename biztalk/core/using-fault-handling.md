@@ -1,14 +1,14 @@
 ---
 title: Use el control de errores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc793386-d2ec-4e02-9283-3237f65c9e01
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287468"
 ---
 # <a name="using-fault-handling"></a>Utilizar el control de errores
 Durante la [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] un mensaje de excepción de control de errores no se devuelven al cliente a menos que un **FaultException** (o un subtipo) se produce o un **FaultContract** se implementa. Por este motivo, sólo se puede realizar el seguimiento de datos desde el propio mensaje de error en estos escenarios. Una excepción en las implementaciones de devolución de llamada vuelve automáticamente como un mensaje de error para ambos **ServerFault** y **ClientFault** puntos de seguimiento. Sin embargo, siempre devuelve un error genérico con un mensaje genérico. Para obtener más información acerca de los contratos de errores WCF, vea [http://go.microsoft.com/fwlink/?LinkId=83132](http://go.microsoft.com/fwlink/?LinkId=83132).  

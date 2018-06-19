@@ -1,18 +1,18 @@
 ---
 title: Importar datos SAP mediante Visual Studio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing SAP data, how to
 - importing SAP data, using Visual Studio
 - Visual Studio, importing SAP data
 ms.assetid: 70cce089-232d-4ab9-81bd-6b0d6f0097d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217756"
 ---
 # <a name="import-sap-data-using-visual-studio"></a>Importar datos SAP mediante Visual Studio
 Esta sección proporciona información sobre cómo usar Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] para importar datos desde un sistema SAP en una base de datos de SQL Server. Esta sección proporciona instrucciones sobre cómo crear un paquete SSIS que se puede ejecutar para importar datos. En esta sección también proporciona información sobre cómo ejecutar el paquete SSIS.  

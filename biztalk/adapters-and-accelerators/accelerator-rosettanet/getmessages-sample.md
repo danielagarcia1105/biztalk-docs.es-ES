@@ -1,14 +1,14 @@
 ---
 title: Ejemplo de GetMessages | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29e575fa-d68b-4975-84b8-da4f17bd2db3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210740"
 ---
 # <a name="getmessages-sample"></a>Ejemplo de GetMessages
 En este tema se proporciona código de ejemplo que puede utilizar para recuperar mensajes de una de las tablas sin repudio de mensajes o una de las tablas de línea de negocio (LOB) en un formato legible. Las tablas sin repudio de mensajes incluyen MessageStorageIn y MessageStorageOut de la [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]base de datos de archivo; las tablas LOB incluyen MessageFromLOB y MessageToLOB en el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]base de datos.  

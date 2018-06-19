@@ -1,14 +1,14 @@
 ---
-title: "Arquitectura del adaptador de recepción de SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura del adaptador de recepción de SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16f32689-0b70-4389-8596-991fd776f185
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224988"
 ---
 # <a name="swift-receive-adapter-architecture"></a>Arquitectura del adaptador de recepción de SWIFT
 En BizTalk Server, el adaptador de recepción se hospeda dentro de su propio espacio de memoria, lo que significa que se crea un proceso independiente para ejecutar el host. Este host se genera mediante la definición de un subsistema en la configuración de vínculo SWIFTNet (SNL).  

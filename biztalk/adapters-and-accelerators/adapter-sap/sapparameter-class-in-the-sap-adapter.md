@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218004"
 ---
 # <a name="sapparameter-class-in-the-sap-adapter"></a>Clase SAPParameter en el adaptador SAP
 En la siguiente sección se enumera los métodos y propiedades para la **SAPParameter** clase. Esto se deriva de **System.Data.Common.DbParameter**.  

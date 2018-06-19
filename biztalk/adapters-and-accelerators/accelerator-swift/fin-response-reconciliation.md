@@ -1,11 +1,11 @@
 ---
-title: "Conciliación de respuesta FIN | Documentos de Microsoft"
-ms.custom: 
+title: Conciliación de respuesta FIN | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ACKs
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - FIN Response Reconciliation, about FIN Response Reconciliation
 - FIN Response Reconciliation, acknowledgements
 ms.assetid: 987b932b-e487-4ca8-acd0-410d71df8e6d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208260"
 ---
 # <a name="fin-response-reconciliation"></a>Conciliación de respuesta FIN
 La característica de conciliación de respuesta de FIN (FRR) de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] reconcilia una respuesta FIN con el correspondiente mensaje original enviado por [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]. Esto establece el estado del mensaje original y permite [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] para tomar medidas en función de ese estado. Sin conciliación, esto no sería posible. [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]¿sabe que, correctamente (o sin éxito) envía el mensaje original a AAS y tendría la respuesta que recibió de AAS, que indica el estado de la transmisión, pero no sería capaz de realizar la conexión entre los dos. FRR establece esa conexión.  

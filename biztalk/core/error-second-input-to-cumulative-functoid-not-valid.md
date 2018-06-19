@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968522"
 ---
 # <a name="error---second-input-to-cumulative-functoid-not-valid"></a>Error: segunda entrada de Functoid acumulativo no válida
 **Código de error**  

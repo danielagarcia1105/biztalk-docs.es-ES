@@ -1,14 +1,14 @@
 ---
 title: AddResource (comando) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b09bd8d-5e07-4443-b626-60401a158540
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964450"
 ---
 # <a name="addresource-command"></a>AddResource (comando)
 Los temas de esta sección proporcionan información de referencia acerca de los parámetros del comando AddResource. Los parámetros que utilizan con este comando varían según el tipo de artefacto que se va a agregar. Para obtener una lista completa de tipos de artefactos, use la **ListTypes** de comandos, como se describe en [comando ListTypes](../core/listtypes-command.md).  

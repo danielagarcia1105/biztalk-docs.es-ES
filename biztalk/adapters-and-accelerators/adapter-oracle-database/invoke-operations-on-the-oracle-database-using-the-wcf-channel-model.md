@@ -1,11 +1,11 @@
 ---
 title: Invocar operaciones en la base de datos de Oracle utilizando el modelo del canal de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - invoking operations, using the WCF channel model
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - invoking operations
 - operations, invoking
 ms.assetid: 6dd95c18-8f78-46d0-8845-b74890614c33
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962786"
 ---
 # <a name="invoke-operations-on-the-oracle-database-using-the-wcf-channel-model"></a>Invocar operaciones en la base de datos de Oracle utilizando el modelo del canal de WCF
 Se pueden invocar operaciones en el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] mediante el uso de un **IRequestChannel** o **IOutputChannel** forma para enviar mensajes al adaptador. El patrón básico consiste en crear un generador de canales para la forma de canales necesarias utilizando un enlace (**OracleDBBinding**) y un punto de conexión creado a partir de un URI de conexión. A continuación, cree un **mensaje** instancia que representa un mensaje SOAP que se ajusta al esquema de mensajes para la operación de destino. A continuación, puede enviar este **mensaje** a la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] mediante el uso de un canal que se crea desde el generador de canales. Si usas un **IRequestChannel**, recibirá una respuesta. Si hay un problema al ejecutar la operación en la base de datos de Oracle, el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] produce una **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.  

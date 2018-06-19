@@ -1,18 +1,18 @@
 ---
 title: Recibir mensajes de cambio de datos basado en sondeo de base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, receiving polling-based messages
 - how to, receive polling-based message
 - polling-based messages, receiving by using the WCF service model
 ms.assetid: 0324e8bf-d9d1-46f5-b896-b9fc8e61d514
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22217228"
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-using-the-wcf-service-model"></a>Recibir mensajes de cambio de datos basado en sondeo de base de datos de Oracle mediante el modelo de servicio de WCF
 Puede configurar el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] recibir datos de sondeo cambiado mensajes con respecto a una tabla de Oracle o la vista. Para recibir mensajes de cambio de datos, el adaptador ejecuta periódicamente una consulta SQL en una tabla de Oracle o vista seguido de un bloque de código de PL/SQL opcional. A continuación, se devuelven los resultados de la consulta SQL por el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] a la aplicación como fuertemente tipados conjunto de resultados en una operación de POLLINGSTMT entrante. Para obtener más información sobre el mecanismo utilizado para configurar y realizar el sondeo de Oracle de base de datos mediante la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], consulte [recibir mensajes de cambio de datos basado en sondeo en el adaptador de la base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md). Se recomienda encarecidamente que lea este tema antes de continuar.  

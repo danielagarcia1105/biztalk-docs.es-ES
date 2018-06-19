@@ -1,14 +1,14 @@
 ---
-title: "Cómo generar mensajes de instancia | Documentos de Microsoft"
-ms.custom: 
+title: Cómo generar mensajes de instancia | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff74c67a-7e73-4153-9ec4-e6e50464ee92
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254404"
 ---
 # <a name="how-to-generate-instance-messages"></a>Cómo generar mensajes de instancia
 Una vez creado un esquema, una forma de comprobar el trabajo es generar un mensaje de instancia de ejemplo a partir del esquema. Examinar un mensaje de instancia es mucho más sencillo en muchos sentidos que mirar el árbol de esquema o la representación del esquema en el lenguaje de definición de esquemas XML (XSD). El motivo es que el esquema debe describir todas las variaciones posibles de los mensajes de instancia correspondientes y que un mensaje de instancia concreto solo debe expresar algunos datos mediante el formato especificado por el esquema. El mensaje de instancia generado es una muestra y no puede mostrar todas las estructuras definidas por el esquema correspondiente.  

@@ -1,14 +1,14 @@
 ---
-title: "Acerca del motor de orquestación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Acerca del motor de orquestación de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac12012f-6253-4589-84b3-c1bb102ce8dd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224452"
 ---
 # <a name="about-the-biztalk-orchestration-engine"></a>Motor de orquestaciones de BizTalk
 En tiempo de ejecución, el motor de orquestaciones de BizTalk ejecuta archivos XLANG/s que produce el Diseñador de orquestaciones de BizTalk. El Diseñador de orquestaciones es una completa herramienta gráfica para diseñar visualmente procesos empresariales. Genera archivos XLANG/s con una extensión .odx que contienen información adicional de visualización en los encabezados, e información de atributos personalizados en el cuerpo.  

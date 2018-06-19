@@ -1,11 +1,11 @@
 ---
 title: INSERT, Update, Delete y las operaciones Select en las tablas de Oracle y vistas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, on tables and views
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - INSERT statement
 - UPDATE statement
 ms.assetid: af65fac4-3c16-40c4-ae7a-9c1757223f99
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214900"
 ---
 # <a name="insert-update-delete-and-select-operations-on-oracle-tables-and-views"></a>Insertar, actualizar, eliminar y seleccione las operaciones en tablas de Oracle y vistas
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto de operaciones estándares en cada tabla de base de datos de Oracle y la vista. Mediante el uso de estas operaciones, puede realizar simple SELECT SQL INSERT, UPDATE y eliminar instrucciones calificadas por una cláusula WHERE en la tabla de destino (o vista). Estas operaciones también se denominan operaciones de DML (lenguaje) de manipulación de datos. Para llevar a cabo operaciones más complejas, por ejemplo una consulta de SQL SELECT que utiliza el operador de combinación, puede usar la operación SQLEXECUTE. Para obtener más información sobre la operación SQLEXECUTE, consulte [operación SQLEXECUTE en base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).  

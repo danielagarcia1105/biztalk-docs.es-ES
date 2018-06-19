@@ -1,14 +1,14 @@
 ---
 title: Almacenes de datos de informe de estado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6cd40ce8-1ac6-43b4-9cef-7cd045e8893c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278100"
 ---
 # <a name="status-report-data-stores"></a>Almacenamientos de datos de informes de estado
 Los datos de seguimiento de informes de estado se almacenan en la base de datos de importación principal de BAM. Se usa una serie de tablas en esta base de datos para los datos de los mensajes EDI y AS2, incluidas las tablas que empiezan con dbo.bam_AS2, dbo.bam.batching, dbo.bam.InterchangeStatusActivity entre otras. Los datos de estado se almacenan en la importación principal incluso si está deshabilitado el informe de EDI. Sólo tendrá que ver y consultar estos datos en la interfaz de usuario de los informes de estado si está activado el informe de estado  

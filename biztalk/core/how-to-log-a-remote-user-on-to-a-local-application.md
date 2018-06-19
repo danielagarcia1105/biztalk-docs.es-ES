@@ -1,14 +1,14 @@
 ---
-title: "Cómo registrar un usuario remoto en una aplicación Local | Documentos de Microsoft"
-ms.custom: 
+title: Cómo registrar un usuario remoto en una aplicación Local | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 886ee7cb-e6ba-476a-bea9-4bb4c22bf94e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254220"
 ---
 # <a name="how-to-log-a-remote-user-on-to-a-local-application"></a>Cómo registrar un usuario remoto en una aplicación Local
 La otra gran característica del servicio de inicio de sesión único empresarial (ENTSSO) es que admite un proceso iniciado por host (HIP). ENTSSO interactúa con HIP cuando un usuario remoto intenta obtener acceso a un recurso local de Windows. Si utiliza ENTSSO, puede recibir la solicitud del usuario de host y solicitar acceso a la aplicación local de Windows.  

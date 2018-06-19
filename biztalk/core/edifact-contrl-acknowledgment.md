@@ -1,14 +1,14 @@
 ---
-title: "Confirmación CONTRL de EDIFACT | Documentos de Microsoft"
-ms.custom: 
+title: Confirmación CONTRL de EDIFACT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95e1c244-d700-48d3-9416-032ead6d4d6d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968714"
 ---
 # <a name="edifact-contrl-acknowledgment"></a>Confirmación CONTRL de EDIFACT
 La confirmación CONTRL (ACK) sirve de confirmación técnica y funcional para los mensajes con codificación EDIFACT. Como confirmación técnica, el mensaje CONTRL indica la recepción de un intercambio. Como confirmación funcional, el mensaje CONTRL indica la aceptación o el rechazo del intercambio, el grupo o el mensaje recibido, con una lista de los errores o la funcionalidad no admitida.  

@@ -1,11 +1,11 @@
 ---
-title: "Crear o editar una configuración de procesos | Documentos de Microsoft"
-ms.custom: 
+title: Crear o editar una configuración de procesos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process configuration, modifying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, process configuration
 - modifying, process configuration
 ms.assetid: 39cc2c93-0986-48d3-8c6f-4280ec9af4e0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207124"
 ---
 # <a name="creating-or-editing-a-process-configuration"></a>Crear o editar una configuración de procesos
 Esta sección describe cómo crear o editar una configuración de procesos para implementar un proceso de interfaz de socio (PIP) en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. Un PIP de RosettaNet define un cuadro de diálogo de proceso empresarial entre dos socios comerciales. En [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], para crear una PIP con un socio comercial, primero debe crear una configuración de procesos. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]Este perfil se usa para almacenar todas las características de la configuración del PIP. A continuación, puede usar esta configuración para crear un acuerdo con el socio comercial.  

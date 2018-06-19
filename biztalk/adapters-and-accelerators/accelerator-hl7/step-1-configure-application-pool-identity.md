@@ -1,17 +1,17 @@
 ---
 title: 'Paso 1: Configurar la identidad del grupo de aplicaciones | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, application pools
 - application pools
 ms.assetid: 66286327-8580-4378-89ee-ddd7204b03c6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206580"
 ---
 # <a name="step-1-configure-application-pool-identity"></a>Paso 1: Configurar la identidad del grupo de aplicaciones
 En este tutorial, utilice un grupo de aplicaciones en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) para procesar la orquestación, que se publique como un servicio Web. Un grupo de aplicaciones es una agrupación de una o más direcciones URL servidas por un proceso de trabajo.  

@@ -1,14 +1,14 @@
 ---
-title: "Configure el adaptador de Siebel para integrar el sistema Siebel con los datos empresariales catálogo y SharePoint | Documentos de Microsoft"
-ms.custom: 
+title: Configure el adaptador de Siebel para integrar el sistema Siebel con los datos empresariales catálogo y SharePoint | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 49b575e8-5f33-4e6e-a914-95d357671ab5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221940"
 ---
 # <a name="configure-the-siebel-adapter-to-integrate-the-siebel-system-with-the-business-data-catalog-and-sharepoint"></a>Configure el adaptador de Siebel para integrar el sistema Siebel con los datos empresariales catálogo y SharePoint
 El [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] incluye la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], lo cual genera un servicio WCF para los artefactos LOB específicos. Este servicio WCF se hospeda en un entorno de hospedaje, como Microsoft Internet Information Services (IIS). El Editor de definición del catálogo de datos profesionales usa la dirección URL donde se hospeda el servicio WCF para obtener el lenguaje de descripción de servicios Web (WSDL) para el servicio WCF. Con el archivo WSDL, el Editor de definición del catálogo de datos profesionales extrae los métodos disponibles para el servicio WCF. Estos métodos se pueden utilizar para establecer las entidades y la asociación entre las entidades.  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34fea0fb-0609-4571-be49-6ee3f03afe2a
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22289284"
 ---
 # <a name="using-biztalk-mapper-commands"></a>Utilizar comandos del Asignador de BizTalk
 Cuando asignador de BizTalk se activa, agrega un menú llamado **BizTalk** Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. Este menú proporciona acceso a los comandos del Asignador de BizTalk y a las funciones asociadas. Cuando el asignador de BizTalk está activo, el **BizTalk** menú proporciona los comandos que son específicos para editar asignaciones de BizTalk.  

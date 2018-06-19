@@ -1,14 +1,14 @@
 ---
 title: Ver los informes de SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0932ffc5-cde0-4d14-822f-713b760c3f12
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218220"
 ---
 # <a name="view-the-reports-for-sap"></a>Ver los informes de SAP
 Una vez haya creado el informe, puede verlo si se usa Visual Studio o host del servidor de informes en Internet Information Services (IIS) y el acceso a través de la red. Este tema proporciona instrucciones sobre cómo ver informes tanto en Visual Studio y el uso de IIS.  

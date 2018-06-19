@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 296b4813-f175-4a02-8fd3-227ae301bc3d
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218996"
 ---
 # <a name="basic-sap-data-types"></a>Tipos de datos SAP básica
 Los tipos de parámetros que el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] admite se rige por el:  

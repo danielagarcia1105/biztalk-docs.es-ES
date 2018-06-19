@@ -1,14 +1,14 @@
 ---
 title: Interactuar mensajes del adaptador para el intercambio de negocio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b443b8a-4e56-47f1-8d91-5c807fd54ccc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224604"
 ---
 # <a name="interact-adapter-messages-for-business-exchange"></a>Interactuar mensajes del adaptador para el intercambio de negocios
 Hay cuatro mensajes en el ciclo de InterAct adaptador-to-end. Estos mensajes son primitivos de SWIFTNet. El primer y último mensajes forman parte de los tipos primitivos del lado cliente, SwInt:ExchangeRequest y SwInt:ExchangeResponse. Los dos mensajes intermedios forman parte de los tipos primitivos del lado servidor, SwInt:HandleRequest y SwInt:HandleResponse.  

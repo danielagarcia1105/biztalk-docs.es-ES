@@ -1,14 +1,14 @@
 ---
-title: "Crear el URI de conexión de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Crear el URI de conexión de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 91eb49fa-2a69-470b-b96d-dc3a6ffafef6
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219012"
 ---
 # <a name="create-the-oracle-e-business-suite-connection-uri"></a>Crear el URI de conexión de Oracle E-Business Suite
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión a Oracle E-Business Suite y esencialmente la base de datos Oracle subyacente. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] admite dos formas de conectarse a la base de datos de Oracle subyacente: mediante tnsnames.ora y sin utilizar tnsnames.ora. Según el tipo de método de conectividad, el formato del URI de conexión también es distinto. Este tema proporciona información sobre el URI de conexión de Oracle y también proporciona vínculos a otros temas que explican cómo especificar un URI en distintos escenarios de programación.  

@@ -1,14 +1,14 @@
 ---
 title: Reutilizar los enlaces del adaptador SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8bc8140f-1d40-492c-bce1-b85e992b3567
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226380"
 ---
 # <a name="reuse-sql-adapter-bindings"></a>Reutilizar los enlaces del adaptador de SQL
 Un enlace crea una asignación entre un extremo lógico (por ejemplo, un puerto de orquestación o un vínculo de función) y un extremo físico (por ejemplo, un envío y puerto de recepción). Permite la comunicación entre componentes diferentes de una solución empresarial de BizTalk. Puede crear enlaces mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214972"
 ---
 # <a name="create-a-connection-to-the-oracle-database"></a>Crear una conexión a la base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es un [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] enlace personalizado. Por lo tanto, habilita la comunicación con una base de datos de Oracle a través de una dirección de extremo WCF. En WCF, la dirección del extremo se expresa normalmente como de un identificador de recursos uniforme (URI), que identifica la ubicación de red del servicio. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expresa esta ubicación como un URI, que contiene las propiedades de conexión que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] se utiliza para establecer una conexión con la base de datos de Oracle.  

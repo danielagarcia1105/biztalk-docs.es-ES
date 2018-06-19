@@ -1,11 +1,11 @@
 ---
-title: "Reparación y nuevo procesamiento de servicio de envío de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Reparación y nuevo procesamiento de servicio de envío de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages, MrsrRepair orchestration
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - InfoPath forms, messages
 - BAS, messages
 ms.assetid: fe2ee009-bf63-4bc0-b231-ad8a2633719f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211204"
 ---
 # <a name="message-repair-and-new-submission-service-processing"></a>Reparación de mensajes y nuevo procesamiento de servicio de envío
 La orquestación MrsrRepair controla todas las operaciones de reparación de mensajes y nuevo envío, incluido el procesamiento lo siguiente:  

@@ -1,15 +1,15 @@
 ---
 title: Configurar un puerto mediante el adaptador WCF-custom y el adaptador de Siebel en BizTalk | Documentos de Microsoft
-description: "Crear envío WCF-custom y puertos de recepción para usar el adaptador de aplicaciones Siebel eBusiness en BizTalk Server"
-ms.custom: 
+description: Crear envío WCF-custom y puertos de recepción para usar el adaptador de aplicaciones Siebel eBusiness en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53c5ee07-36ae-474b-9241-8b53c9066ca1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222332"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-siebel-adapter"></a>Configurar un puerto mediante el adaptador WCF-custom y el adaptador de Siebel
 Este tema proporciona instrucciones sobre cómo configurar WCF-Custom puertos de envío para realizar operaciones de salida en un sistema Siebel mediante el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

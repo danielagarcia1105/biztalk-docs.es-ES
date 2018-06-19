@@ -1,17 +1,17 @@
 ---
 title: Limitaciones al consultar y recuperar listas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, querying limitations
 - querying, limitations [JD Edwards OneWorld adapters]
 ms.assetid: 1b6f5d2a-d1e2-4c78-8f4a-f00d10f008b9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262340"
 ---
 # <a name="limitations-when-querying-and-retrieving-lists"></a>Limitaciones cuando se realizan consultas y recuperaciones de listas
 La arquitectura de comunicación JD Edwards OneWorld es una arquitectura de respuesta única de mensaje único. No puede devolver una lista de mensajes o una matriz. El código subyacente es C++, que llama con un puntero a una estructura única, realiza cambios en la estructura y, a continuación, se cierra.  

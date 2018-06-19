@@ -1,14 +1,14 @@
 ---
-title: "Crear una conexión a SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Crear una conexión a SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44a03b2c-55b5-49a0-92cc-6f017720d34a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225404"
 ---
 # <a name="create-a-connection-to-sql-server"></a>Crear una conexión a SQL Server
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] es un [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] enlace personalizado. Por lo tanto, habilita la comunicación con una base de datos de SQL Server a través de una dirección de extremo WCF. En WCF, la dirección del extremo identifica la ubicación de un servicio de red y normalmente se expresa como un identificador uniforme de recursos (URI). El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] expresa esta ubicación como un URI, que contiene las propiedades de conexión que el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] se utiliza para establecer una conexión con la base de datos de SQL Server. Debe especificar un URI de conexión al que:  

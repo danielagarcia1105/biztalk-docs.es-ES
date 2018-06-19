@@ -1,14 +1,14 @@
 ---
-title: "Almacenamiento de adaptador FileAct y reenvío | Documentos de Microsoft"
-ms.custom: 
+title: Almacenamiento de adaptador FileAct y reenvío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50110bf0-75c2-426c-9833-65c3117224b2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223572"
 ---
 # <a name="fileact-adapter-store-and-forward"></a>Almacenamiento de adaptador FileAct y reenvío
 En el almacén y el modo de avance (SnF), los archivos se entregan a poner en cola en el momento de envío y se recuperan de la cola por parte del destino. Las respuestas intermedias se devuelven por SWIFTNet al remitente hasta que el archivo de forma segura se entregue en el destino.  

@@ -1,14 +1,14 @@
 ---
 title: Acerca de las propiedades de contexto de mensaje de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc700e43-a44c-482b-b91c-9f1d997a486a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225500"
 ---
 # <a name="about-biztalk-message-context-properties"></a>Propiedades de contexto de mensaje de BizTalk
 Cuando un adaptador de BizTalk Server recibe un documento, crea un mensaje de BizTalk para el documento. El mensaje de BizTalk contiene el documento recibido y un contexto de mensaje. El contexto de mensaje es un contenedor de varios proyectos que utiliza BizTalk Server al procesar el documento. Cada propiedad del contexto de mensaje se compone de tres elementos: un nombre, un espacio de nombres y un valor. Por ejemplo, la siguiente propiedad de contexto de mensaje describe el Id. de intercambio de un documento:  

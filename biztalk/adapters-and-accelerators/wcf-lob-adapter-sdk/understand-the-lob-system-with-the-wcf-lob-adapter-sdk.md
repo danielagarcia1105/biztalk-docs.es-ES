@@ -1,14 +1,14 @@
 ---
 title: Comprender el sistema LOB con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0f97846-5ef2-4530-853a-fba5469156f7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225804"
 ---
 # <a name="understand-the-lob-system-with-the-wcf-lob-adapter-sdk"></a>Comprender el sistema LOB con el SDK de adaptador LOB de WCF
 Antes de desarrollar el adaptador mediante el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], debe tener una descripción completa del sistema de línea de negocio de destino. Si no conoces la funcionalidad proporcionada por el sistema de línea de negocio, cómo se expone y el otro nivel de compatibilidad que proporcionan seguridad, transacciones y otras características, el adaptador no puede proporcionar las características requeridas por adaptador consumidores. Esta sección describen las áreas que debe comprender para diseñar el adaptador de forma eficaz.  

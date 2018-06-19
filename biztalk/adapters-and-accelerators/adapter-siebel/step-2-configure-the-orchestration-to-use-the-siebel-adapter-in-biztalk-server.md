@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server con el adaptador de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server con el adaptador de Siebel | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41338723-055d-46b4-acee-6969ea79fac0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222644"
 ---
 # <a name="step-2-configure-the-orchestration-in-biztalk-server-administration-console-with-the-siebel-adapter"></a>Paso 2: Configurar la orquestación en la consola de administración de BizTalk Server con el adaptador de Siebel
 ![Paso 2 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  

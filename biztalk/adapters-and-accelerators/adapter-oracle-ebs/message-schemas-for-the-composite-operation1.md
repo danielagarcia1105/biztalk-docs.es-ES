@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para el compuesto Operation1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 768473ef-da8d-4e58-86cb-597c28ded49c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215180"
 ---
 # <a name="message-schemas-for-the-composite-operation"></a>Esquemas de mensaje para la operación de composición
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] permite ejecutar operaciones compuestas en Oracle E-Business Suite. Una operación compuesta puede contener varias operaciones y en cualquier orden. Para obtener información sobre qué operaciones pueden incluirse en una operación compuesta, consulte [compatibilidad para operaciones compuestas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).  

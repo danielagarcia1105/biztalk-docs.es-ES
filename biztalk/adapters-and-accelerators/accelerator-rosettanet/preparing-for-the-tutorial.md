@@ -1,15 +1,15 @@
 ---
 title: Requisitos previos para el tutorial de RosettaNet Loopback en BizTalk Server | Documentos de Microsoft
 description: Requisitos previos para recorrer el tutorial de bucle invertido para el Acelerador para RosettaNet (BTARN) en BizTalk Server
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e26696c-86c5-448b-9cd6-bfd4a279151a
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206964"
 ---
 # <a name="prepare-for-the-tutorial"></a>Prepararse para el tutorial
 

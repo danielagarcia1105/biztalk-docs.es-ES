@@ -1,14 +1,14 @@
 ---
 title: Diferencia entre el canal del adaptador y el servicio en el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24d41d96-0ea1-4a97-bd45-b65afdbbd923
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225012"
 ---
 # <a name="difference-between-adapter-channel-and-service-in-the-wcf-lob-adapter-sdk"></a>Diferencia entre el canal del adaptador y el servicio en el SDK de adaptador LOB de WCF
 El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] y [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] cada uno de ellos proporcionan un conjunto de API que pueden utilizarse para exponer la funcionalidad de la aplicación para consumir las aplicaciones en el mismo equipo o a través de una red. Para elegir el marco de trabajo más adecuado, debe tener en cuenta las propiedades de la aplicación del sistema de destino que está exponiendo así como los requisitos empresariales de la funcionalidad expuesta. Este tema proporcionan instrucciones que puede usar para elegir el marco de trabajo adecuado.  

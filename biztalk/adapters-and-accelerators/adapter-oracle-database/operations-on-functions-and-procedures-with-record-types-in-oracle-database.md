@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214412"
 ---
 # <a name="operations-on-functions-and-procedures-with-record-types-in-oracle-database"></a>Operaciones en funciones y procedimientos con tipos de registros de base de datos de Oracle
 Tipos de registros de Oracle se usan para representar la información jerárquica de parámetros pasados a los procedimientos y funciones de PL/SQL. La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone los tipos de registros como tipos XML complejos. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con los siguientes tipos de tipos de registros:  

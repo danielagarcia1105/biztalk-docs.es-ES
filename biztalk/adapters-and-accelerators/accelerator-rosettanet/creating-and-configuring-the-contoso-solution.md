@@ -1,17 +1,17 @@
 ---
-title: "Crear y configurar la solución de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: Crear y configurar la solución de Contoso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating solutions
 - double action tutorial, configuring solutions
 ms.assetid: 25370624-b27f-4f6c-a813-801ac4f81b8f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209740"
 ---
 # <a name="creating-and-configuring-the-contoso-solution"></a>Crear y configurar la solución de Contoso
 En esta sección del tutorial se detalla los pasos que debe seguir para la organización de Contoso. La organización Contoso representa el fabricante y, por tanto, actúa como el servicio de respuesta para todas las solicitudes entrantes de proceso de interfaz de socio (PIP). En este tutorial, crear acuerdos de socios para cuatro PIP y compilan e implementar una orquestación para enviar una respuesta adecuada según el tipo PIP.  

@@ -1,11 +1,11 @@
 ---
 title: Tutorial de enriquecimiento de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, tutorial
 - tutorials, message enrichment tutorial
 ms.assetid: 4ffb047f-457a-4a80-b7ec-4b61ae16f35f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205236"
 ---
 # <a name="message-enrichment-tutorial"></a>Tutorial de enriquecimiento de mensajes
 Este tutorial proporciona procedimientos paso a paso para usar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] para resolver un problema empresarial determinado: el problema de enriquecimiento del mensaje. El tutorial de enriquecimiento de mensajes describe una situación en la que se deben agregar a, o enriquecer, un mensaje que no es compatible con HL7 o está incompleta. Esto puede ocurrir con una aplicación, como una aplicación de registro del paciente, o puede producirse cuando se rellena un mensaje con datos XML de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  

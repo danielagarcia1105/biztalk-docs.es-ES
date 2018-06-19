@@ -1,17 +1,17 @@
 ---
 title: Ejecute una consulta SELECT en componentes empresariales con Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performing operations, selecting data using ADO.NET provider
 - how to, select data in business components using ADO.NET provider
 ms.assetid: 34a22c2e-6fc9-4760-90a1-131a38ae947b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221964"
 ---
 # <a name="run-a-select-query-on-business-components-with-siebel"></a>Ejecute una consulta SELECT en componentes empresariales con Siebel
 Esta sección muestra cómo seleccionar datos de un componente de negocio de Siebel con la [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].  

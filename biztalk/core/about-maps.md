@@ -1,11 +1,11 @@
 ---
 title: Acerca de las asignaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - file types, maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Mapper, about BizTalk Mapper
 - maps
 ms.assetid: 512ef2b7-3d01-4fcf-bb38-de68ec608b07
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225564"
 ---
 # <a name="about-maps"></a>Acerca de las asignaciones
 Con el Asignador de BizTalk, se define la relación entre un esquema de origen y uno de destino mediante vínculos y functoids. Un vínculo define una copia de datos directa de un registro o campo. Los vínculos puede conectarse directamente con elementos del otro esquema, o pueden establecer conexiones con functoids. Los functoids llevan a cabo manipulaciones de datos más complejas, como:  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo modificar las propiedades de grupo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar las propiedades de grupo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - modifying, groups
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - managing [groups], modifying
 - groups, properties
 ms.assetid: 59e0853d-81b0-43f9-85bf-099868e25fad
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254868"
 ---
 # <a name="how-to-modify-group-properties"></a>Cómo modificar propiedades de grupo
 Puede utilizar este procedimiento para configurar propiedades globales para el grupo de BizTalk Server, de manera que se pueda seleccionar un certificado de firma, modificar el intervalo de actualización de la caché y determinar cómo controlará BizTalk Server los mensajes de gran tamaño. Para obtener más información acerca de las propiedades de grupo de BizTalk Server, vea [grupos de BizTalk](../core/biztalk-groups.md).  

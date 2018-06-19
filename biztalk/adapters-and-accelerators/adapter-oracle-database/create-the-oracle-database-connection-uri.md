@@ -1,11 +1,11 @@
 ---
-title: "Crear el URI de conexión de base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Crear el URI de conexión de base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI, basic format of
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - connection URI, connecting to the Oracle database
 - connection URI
 ms.assetid: 17d0a6d3-1b0c-43d6-a705-402c09a78ee0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217476"
 ---
 # <a name="create-the-oracle-database-connection-uri"></a>Crear el URI de conexión de base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión con la base de datos de Oracle. Este tema proporciona información sobre cómo especificar el URI de conexión para conectarse a la base de datos de Oracle mediante tnsnames.ora y sin utilizar tnsnames.ora. También proporciona información sobre cómo usar el URI de conexión para conectarse a la base de datos de Oracle.  

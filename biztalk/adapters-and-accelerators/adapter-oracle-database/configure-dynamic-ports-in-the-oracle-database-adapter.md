@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214148"
 ---
 # <a name="configure-dynamic-ports-in-the-oracle-database-adapter"></a>Configurar puertos dinámicos en el adaptador de la base de datos de Oracle
 En [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], puede configurar puertos dinámicos para una [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Dado que la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es un adaptador de WCF, puede configurar dinámicamente un puerto para el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] mediante las propiedades de contexto de mensaje.  

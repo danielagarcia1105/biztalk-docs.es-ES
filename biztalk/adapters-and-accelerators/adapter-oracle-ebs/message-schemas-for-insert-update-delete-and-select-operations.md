@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para Insert, Update, Delete y seleccione operaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b8de271-67db-4279-8f95-0b4dd92fa3c4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218236"
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations"></a>Esquemas de mensaje para insertar, actualizar, eliminar y seleccionar operaciones
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]superficies básicas Insert, Update, Delete y las operaciones Select para cada tabla de interfaz en Oracle E-Business Suite y todas las tablas de la base de datos subyacente. El adaptador también expone la operación de selección para cada vista de la interfaz en Oracle E-Business Suite y cada vista en la base de datos subyacente. Estas operaciones realizan la instrucción SQL correspondiente calificada por una cláusula WHERE. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] usa fuertemente tipada de registros y conjuntos de registros en estas operaciones.  

@@ -1,17 +1,17 @@
 ---
 title: 'Parte 2: En los lotes escenario | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, outbound batches
 - batching, inbound batches
 ms.assetid: 36b9d927-f5b7-4c1a-9163-9e79d17c3e9e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206188"
 ---
 # <a name="part-2-batch-inbatch-out-scenario"></a>Parte 2: Lote / escenario de lote
 En esta parte del tutorial, se recibe un archivo por lotes con codificación HL7, acceso directo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sin fragmentación y envíe el archivo por lotes intactos en el destino. En la siguiente ilustración muestra el flujo de este proceso, y en la subsección siguiente describe el flujo de trabajo.  

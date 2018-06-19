@@ -1,11 +1,11 @@
 ---
 title: Tipos de respuesta FIN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, response types
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - messages, message types
 - response types [FIN Response Reconciliation]
 ms.assetid: a6ef2f20-08ab-40d3-a0a5-cc4048ce0987
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208068"
 ---
 # <a name="fin-response-types"></a>Tipos de respuesta FIN
 Conciliación de respuesta FIN (FRR) reconcilia las respuestas a los mensajes de SWIFT FINÉS de categoría del 0 al 9. En respuesta a uno de estos mensajes FIN, la aplicación de SWIFT FINÉS siempre envía al menos uno y posiblemente más de una confirmación (ACK) o un valor negativo (NAK) de confirmación. En la tabla siguiente muestra los tipos de mensajes de entrada y la salida (respuesta de) los mensajes procesados por FRR.  

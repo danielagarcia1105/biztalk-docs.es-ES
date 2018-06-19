@@ -1,14 +1,14 @@
 ---
-title: "Lección 4: Realizar una operación de inserción en la tabla de orden de compra | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 4: Realizar una operación de inserción en la tabla de orden de compra | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66fc64c5-a3da-4014-8545-f34e6577bd73
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222692"
 ---
 # <a name="lesson-4-perform-an-insert-operation-on-the-purchase-order-table"></a>Lección 4: Realizar una operación de inserción en la tabla de orden de compra
 En [lección 3: ejecutar un procedimiento almacenado que seleccione a nuevos empleados agregar](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md), que ha ejecutado el **UPDATE_EMPLOYEE** procedimiento almacenado y recibe un mensaje de respuesta que contiene los detalles de la recién Inserta el registro del empleado. En esta lección, se basan en la lección anterior y actualizar la orquestación para llevar a cabo los pasos siguientes:  

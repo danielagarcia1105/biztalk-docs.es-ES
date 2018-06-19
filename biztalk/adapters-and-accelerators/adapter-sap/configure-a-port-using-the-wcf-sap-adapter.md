@@ -1,15 +1,15 @@
 ---
 title: Configurar un puerto con un adaptador SAP de WCF de BizTalk | Documentos de Microsoft
-description: "Crear un puerto de SAP de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Crear un puerto de SAP de WCF para enviar o recibir mensajes de SAP mediante el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 420683f8-2516-4c65-895d-fe535824d450
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218740"
 ---
 # <a name="configure-a-port-using-the-wcf-sap-adapter"></a>Configurar un puerto con un adaptador SAP de WCF
 Este tema proporciona instrucciones sobre cómo configurar WCF SAP de envío y puertos de recepción para realizar operaciones entrantes y salientes en el sistema SAP mediante el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  

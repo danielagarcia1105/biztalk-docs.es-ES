@@ -1,18 +1,18 @@
 ---
 title: Desarrollar aplicaciones de base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performing operations, by using the WCF service model
 - developing applications, by using the WCF service model
 - WCF service model, using to develop applications
 ms.assetid: 3f2c60b2-4835-492d-8c3c-ed35d3e4c517
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215644"
 ---
 # <a name="develop-oracle-database-applications-using-the-wcf-service-model"></a>Desarrollar aplicaciones de base de datos de Oracle mediante el modelo de servicio de WCF
 En el nivel más bajo, el [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] presenta un modelo de programación en el que los clientes invocar operaciones en un servicio mediante el intercambio de mensajes SOAP a través de un canal establecido entre los extremos de cliente y el servicio. Este modelo, conocido como el modelo de canal WCF expone los tipos de datos y métodos que permiten trabajar directamente en la arquitectura de canal WCF. El modelo de canal WCF proporciona control directo sobre el contenido de los mensajes SOAP que crea y sobre la forma tanto la aplicación y la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] consumirlos; sin embargo, crear mensajes SOAP con formato correcto para enviar a través de un canal y validar el mensajes de respuesta devueltos pueden ser una tarea detallada y exigente.  

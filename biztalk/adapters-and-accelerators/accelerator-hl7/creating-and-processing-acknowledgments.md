@@ -1,18 +1,18 @@
 ---
 title: Crear y procesar confirmaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, creating
 - acknowledgements, processing
 - creating, acknowledgements
 ms.assetid: b0bbfcee-3951-403c-9838-422d195543ac
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204468"
 ---
 # <a name="creating-and-processing-acknowledgments"></a>Creación y procesamiento de confirmaciones
 Los temas siguientes proporcionan información acerca de los esquemas de mensaje de confirmación y cómo el Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) procesa las confirmaciones.  

@@ -1,11 +1,11 @@
 ---
 title: Los procedimientos recomendados para proteger el adaptador de la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, best practices for connection between the Oracle Database adapter and the Oracle database
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - user name password credential
 - security, best practices for consuming the Oracle Database adapter with programming solutions
 ms.assetid: 689e8442-91c9-4fe0-a0a0-ce5f5a98ab38
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215732"
 ---
 # <a name="best-practices-to-secure-the-oracle-database-adapter"></a>Prácticas recomendadas para proteger el adaptador de la base de datos de Oracle
 Esta sección proporciona prácticas recomendadas que debería seguir para proteger más completamente los datos confidenciales si utiliza o desarrollar aplicaciones que consumen la [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

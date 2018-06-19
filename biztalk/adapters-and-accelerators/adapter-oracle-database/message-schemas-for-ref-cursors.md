@@ -1,11 +1,11 @@
 ---
 title: Esquemas de mensajes para los cursores REF cursor | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - REF CURSORS, message schemas for
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - OUT REF CURSOR
 - IN OUT REF CURSOR
 ms.assetid: b62e7a9f-278c-41b3-90f0-2f621a34327b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214764"
 ---
 # <a name="message-schemas-for-ref-cursors"></a>Esquemas de mensaje para los cursores REF cursor
 Un REF CURSOR es un tipo de datos de Oracle PL/SQL que representa un puntero a un conjunto de resultados en la base de datos de Oracle. Tipos de REF CURSOR habilitar la entrada y salida de transmisión por secuencias de datos y son ideales para transferir grandes cantidades de datos a y desde un bloque de código de PL/SQL. [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]proporciona compatibilidad para pasar parámetros REF CURSOR fuertemente tipadas y débilmente tipada a procedimientos de PL/SQL y funciones como en horizontal y los parámetros OUT en.  

@@ -1,14 +1,14 @@
 ---
-title: "¿Qué es el adaptador de FileAct? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el adaptador de FileAct? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05ec8f1e-57f9-4e2d-ab8b-22b5c4b28055
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225324"
 ---
 # <a name="what-is-the-fileact-adapter"></a>¿Qué es el adaptador de FileAct?
 El adaptador de FileAct para SWIFTNet proporciona conectividad entre BizTalk Server y la sociedad para red de IP de seguros de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo (SIPN) para la transferencia de archivos. La SIPN transfiere archivos y mensajes a través de una red privada segura que conecta las instituciones financieras, infraestructuras de sector financiero y los clientes. El adaptador de FileAct utiliza la interfaz de programación de aplicaciones (API) s para conectarse a la SIPN SWIFTNet vínculo (SNL).  
@@ -60,7 +61,7 @@ El adaptador de FileAct para SWIFTNet proporciona conectividad entre BizTalk Ser
   
 -   **Sin rechazo de recepción y de emisión.** En caso de conflicto, permite SWIFT confirmar que la transferencia de archivos tuvo lugar como reclamado.  
   
- Las características de SWIFTNet FileAct estándares incluyen seguridad SWIFTNet PKI**.** SWIFTNet FileAct se protege con SWIFTNet PKI y ofrece control de integridad y autenticación de mensajes.  
+ Las características de SWIFTNet FileAct estándares incluyen seguridad SWIFTNet PKI **.** SWIFTNet FileAct se protege con SWIFTNet PKI y ofrece control de integridad y autenticación de mensajes.  
   
  Todos los mensajes y archivos intercambiados en SWIFTNet debe someterse a un conjunto común de comprobaciones para asegurarse de que ningún usuario puede omitir la seguridad, validación y las reglas de enrutamiento de la plataforma. Estas comprobaciones se realizan mediante la aplicación de puerta de enlace de SWIFTAlliance (SAG).  
   

@@ -1,14 +1,14 @@
 ---
-title: "Cómo determinar y establecer Roles de sistema de escritura de eventos para las actividades | Documentos de Microsoft"
-ms.custom: 
+title: Cómo determinar y establecer Roles de sistema de escritura de eventos para las actividades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73bfe8ff-167a-4bf0-ab87-3926290d52d8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249868"
 ---
 # <a name="how-to-determine-and-set-event-writer-roles-for-activities"></a>Cómo determinar y establecer roles de escritor de eventos para las actividades
 BAM proporciona dos modos de seguridad cuando se escriben eventos sobre actividades. Puede conceder permisos para escribir eventos sobre actividades individuales o conceder permisos para escribir eventos sobre todas las actividades implementadas.  

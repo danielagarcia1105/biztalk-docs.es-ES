@@ -1,14 +1,14 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 07369428-7b54-4d90-8c63-ba14e67fdbdd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216420"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter"></a>Configurar manualmente un enlace de puerto físico para el adaptador de Oracle E-Business
 Esta sección proporciona información acerca de cómo configurar el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] como un enlace personalizado de WCF o como un puerto de WCF-OracleEBS utilizando el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Después de implementar el adaptador, podrá enviar y recibir mensajes de Oracle E-Business Suite mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Los pasos para implementar el adaptador varían en función de:  

@@ -1,11 +1,11 @@
 ---
 title: SWIFT remolque | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT Trailer schema
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: b6d64584-0514-4c87-98c0-33755efc4695
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214500"
 ---
 # <a name="swift-trailers"></a>Finalizadores SWIFT
 Cada mensaje SWIFT tiene uno o más finalizadores según sea necesario por los requisitos de exchange y la seguridad del mensaje. Finalizadores de sistema, si procede, siguen los finalizadores de usuario. Cada finalizador dentro del bloque de finalizador aparece dentro de un subbloques delimitados por más pares de paréntesis. Cada subbloques comienza con tres letras que indica el tipo de finalizador, seguido de dos puntos.  

@@ -1,14 +1,14 @@
 ---
-title: "Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos | Documentos de Microsoft"
-ms.custom: 
+title: 'Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3831814-8b70-4352-b22f-cebd08750ef5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217436"
 ---
 # <a name="scenario-1-display-data-using-business-data-list-web-part"></a>Escenario 1: Mostrar datos mediante el elemento web de lista de datos económicos
 Usaremos el **lista de datos económicos** elemento Web para la **buscador** instancia de método. Este elemento Web le permite especificar una expresión de búsqueda para recuperar una lista de empleados de Oracle E-Business Suite. Para este tutorial, esto se denomina el elemento Web de los empleados de presentación. Esta sección proporciona instrucciones para crear este elemento Web. Para obtener más información acerca de cómo crear elementos Web, vea "Personalizar listas de datos de negocio, elementos Web y sitios" en [http://go.microsoft.com/fwlink/?LinkId=104131](http://go.microsoft.com/fwlink/?LinkId=104131).  

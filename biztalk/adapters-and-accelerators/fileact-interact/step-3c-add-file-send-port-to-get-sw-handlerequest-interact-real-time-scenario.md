@@ -1,14 +1,14 @@
 ---
-title: "Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar en tiempo real escenario | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar en tiempo real escenario | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31e9c942-ba74-4ae2-b6e1-5266d0fbcb14
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224196"
 ---
 # <a name="step-3c-add-file-send-port-to-get-swhandlerequest-interact-real-time-scenario"></a>Paso 3c: Agregar puerto de envío de archivo para obtener Sw:HandleRequest-interactuar escenario en tiempo real
 Cuando se envía un mensaje al socio, SWIFT transforma el encabezado del mensaje y reenvía el mensaje al socio como un mensaje Sw:HandleRequest. Antes de comenzar este paso, debe completar [paso 3B: agregar una ubicación de recepción interactuar para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md).  

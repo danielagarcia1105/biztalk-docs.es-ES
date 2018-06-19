@@ -1,11 +1,11 @@
 ---
 title: Operaciones en RFC en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, operations on RFCs
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - adapters, operations on tRFCs
 - RFC server
 ms.assetid: ca1b7b00-a9cf-41bc-b87c-2e7ce8cff65c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217068"
 ---
 # <a name="operations-on-rfcs-in-sap"></a>Operaciones en RFC en SAP
 Puede usar el[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] como un cliente RFC y como un servidor RFC. En escenarios de cliente RFC, la aplicación invoca las solicitudes de cambio en el sistema SAP mediante la invocación de operaciones de RFC en la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. En escenarios de servidor RFC SAP sistema invoca los RFC en la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], que, a su vez, invoca la solicitud de cambio como una operación en la aplicación.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216564"
 ---
 # <a name="sapcommand-class-in-the-sap-adapter"></a>Clase SAPCommand en el adaptador SAP
 Este comando representa una consulta SQL que se ejecuta en el back-end SAP. El [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] admite actualmente solo las instrucciones SELECT y EXEC. Las instrucciones SELECT habilitar extracción de datos de una sola tabla SAP y las instrucciones de EXEC permiten a los usuarios ejecutar RFC en el servidor SAP.  

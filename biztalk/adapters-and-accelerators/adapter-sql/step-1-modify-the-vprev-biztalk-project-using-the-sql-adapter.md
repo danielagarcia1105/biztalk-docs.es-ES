@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Modificar el proyecto de BizTalk mediante el adaptador de SQL vPrev | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 25ad959b-2818-47b8-9a09-3681abb75887
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226428"
 ---
 # <a name="step-1-modify-the-vprev-biztalk-project-using-the-sql-adapter"></a>Paso 1: Modificar el proyecto de BizTalk mediante el adaptador de SQL vPrev
 ![Paso 1 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  

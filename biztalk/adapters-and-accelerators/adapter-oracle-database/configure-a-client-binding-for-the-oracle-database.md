@@ -1,18 +1,18 @@
 ---
 title: Configurar un cliente de enlace de la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - client binding, specifying in code
 - WCF client, creating
 - client binding, specifying in configuration file
 ms.assetid: f18c7296-c28a-4dec-9514-5299c8c2dffe
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214612"
 ---
 # <a name="configure-a-client-binding-for-the-oracle-database"></a>Configurar a un cliente de enlace de la base de datos de Oracle
 Una vez que haya generado la clase de cliente WCF, puede crear un cliente WCF (instancia) e invocar sus métodos para consumir el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. Para obtener información sobre cómo generar el código de clase y la aplicación auxiliar de cliente WCF para las operaciones que el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone, consulte [generar un cliente de WCF o un contrato de servicio de WCF para artefactos de solución de base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md).  

@@ -1,11 +1,11 @@
 ---
 title: Operaciones de BAPI en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAPI, operations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BAPI, transactions
 - BAPI transactions, limitations on
 ms.assetid: 6be26641-e8d3-4e11-8d82-4fdb13076580
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217908"
 ---
 # <a name="operations-on-bapis-in-sap"></a>Operaciones de BAPI en SAP
 Una interfaz de programación de aplicación de empresariales (BAPI) es un método de un objeto de negocios SAP que puede llamarse mediante un proceso externo. BAPI es transaccional en el sistema SAP.  

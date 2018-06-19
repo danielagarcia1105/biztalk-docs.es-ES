@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241164"
 ---
 # <a name="error---property-schema-field-data-type-not-valid"></a>Error: tipo de datos de campo de esquema de propiedad no es válido
 **Código de error**  

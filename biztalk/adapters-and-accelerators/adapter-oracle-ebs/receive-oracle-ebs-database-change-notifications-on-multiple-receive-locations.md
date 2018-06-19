@@ -1,14 +1,14 @@
 ---
-title: "Recibir cambios de la base de datos de Oracle E-Business Suite las notificaciones en varias ubicaciones de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Recibir cambios de la base de datos de Oracle E-Business Suite las notificaciones en varias ubicaciones de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d25faa52-e0a4-4593-8449-3ec93d5887e9
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217028"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-on-multiple-receive-locations"></a>Recibir cambios de la base de datos de Oracle E-Business Suite las notificaciones en varias ubicaciones de recepción
 Considere un escenario donde hay varios creados como parte de las aplicaciones de BizTalk diferentes configurados para recibir notificaciones de consulta para la misma tabla (por ejemplo, ACCOUNTACTIVITY) de ubicaciones de recepción en la misma base de datos. Si se insertan registros de un centenar en la misma tabla, todas las ubicaciones de recepción obtendrá el mensaje de notificación. Recibirlas eficazmente en varias ubicaciones de recepción, puede llamar a operaciones de la aplicación de BizTalk de tal manera que si se recibe una notificación mediante una ubicación de recepción, la otra ubicación de recepción no obtiene la misma notificación. Por lo tanto, puede eficazmente las notificaciones de equilibrio de carga recibidas en varias ubicaciones.  

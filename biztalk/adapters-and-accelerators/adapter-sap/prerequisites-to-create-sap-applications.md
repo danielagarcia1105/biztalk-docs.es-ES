@@ -1,14 +1,14 @@
 ---
 title: Requisitos previos para crear aplicaciones de SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51ae9569-4081-4142-9ee2-8ae0069e9d90
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216404"
 ---
 # <a name="prerequisites-to-create-sap-applications"></a>Requisitos previos para crear aplicaciones de SAP
 Esta sección proporciona información acerca de las tareas que se deben realizar antes de desarrollar aplicaciones de BizTalk con el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. También se mencionan algunas herramientas de BizTalk Server que se utilizan para desarrollar aplicaciones de BizTalk.  

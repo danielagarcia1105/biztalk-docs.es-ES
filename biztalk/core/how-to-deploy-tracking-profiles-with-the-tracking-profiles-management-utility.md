@@ -1,11 +1,11 @@
 ---
-title: "Utilidad de administración de perfiles de cómo implementar perfiles de seguimiento con el seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Utilidad de administración de perfiles de cómo implementar perfiles de seguimiento con el seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking profiles, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bttdeploy.exe [BAM]
 - managing [BAM], deploying tracking profiles
 ms.assetid: b3023379-cae1-45fc-a773-2660d3e4abf1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970122"
 ---
 # <a name="how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility"></a>Cómo implementar perfiles de seguimiento con la utilidad de administración de perfiles de seguimiento
 Un gestor empresarial pide a un programador de soluciones que cree un nuevo perfil de seguimiento o que modifique uno ya existente para administrar y supervisar mejor un proceso empresarial específico de la organización.  

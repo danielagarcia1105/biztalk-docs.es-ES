@@ -1,11 +1,11 @@
 ---
-title: "Iniciador de proceso público | Documentos de Microsoft"
-ms.custom: 
+title: Iniciador de proceso público | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public processes, initiator
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - 0A1 messages
 - public processes, message flow
 ms.assetid: 371d0792-d346-405b-a8f4-2dfa64dd1566
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210708"
 ---
 # <a name="initiator-public-process"></a>Iniciador de proceso público
 Este proceso empieza de mensajería de RosettaNet Implementation Framework (RNIF) en el sistema de iniciador: crear y enviar el mensaje de negocio RNIF inicial.  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Habilitar la orquestación por lotes | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Habilitar la orquestación por lotes | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4badf807-f461-4d0a-a3b6-9f671e580d91
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206260"
 ---
 # <a name="step-2-enable-the-batch-orchestration"></a>Paso 2: Habilitar la orquestación del lote
 La orquestación del lote controla el proceso por lotes de crear. Mantiene las referencias para todos los mensajes que se incluirá en el lote, controla la transacción por lotes saliente, genera el mensaje de lote, enruta el lote saliente y procesa los lotes entrantes de confirmación. Debe dar de alta la orquestación del lote para el proceso por lotes de crear para que funcione.  

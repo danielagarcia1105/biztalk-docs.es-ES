@@ -1,11 +1,11 @@
 ---
-title: "Diseñador de proyectos: Pestaña de implementación | Documentos de Microsoft"
-ms.custom: 
+title: 'Diseñador de proyectos: Pestaña de implementación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - properties, Configuration database [BizTalk Server]
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - configuration properties [deployment], Management database property
 - configuration properties [deployment], Administration Group property
 ms.assetid: 5b64f99c-4ec6-4ed3-8590-46420e2f75b8
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264948"
 ---
 # <a name="project-designer-deployment-tab"></a>Diseñador de proyectos: pestaña Implementación
 El **implementación** ficha de propiedades del Diseñador de proyectos le permite configurar los atributos de implementación del proyecto de BizTalk. Debe configurar tanto el **Server** y la **base de datos de configuración** (también conocido como la base de datos de administración de BizTalk) propiedades como un conjunto para la implementación se realice correctamente.  

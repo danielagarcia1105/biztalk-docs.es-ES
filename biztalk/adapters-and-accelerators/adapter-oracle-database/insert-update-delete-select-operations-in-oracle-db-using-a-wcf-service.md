@@ -1,11 +1,11 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar las operaciones de base de datos de Oracle mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, Delete operation
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF service model, Insert operation
 - WCF service model, Update operation
 ms.assetid: d1a9f44f-ea0b-4dd6-9489-fa0d963848c4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217492"
 ---
 # <a name="insert-update-delete-or-select-operations-in-oracle-database-using-the-wcf-service-model"></a>Insertar, actualizar, eliminar o seleccionar las operaciones de base de datos de Oracle mediante el modelo de servicio de WCF
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto de básicas Insert, Update, Delete y las operaciones Select en las tablas de base de datos de Oracle y vistas. Mediante el uso de estas operaciones, puede realizar simple SELECT SQL INSERT, UPDATE y eliminar instrucciones calificadas por una cláusula WHERE en una tabla de destino o la vista. Para llevar a cabo operaciones más complejas, por ejemplo una consulta de SQL SELECT que utiliza el operador de combinación, puede usar la operación SQLEXECUTE. Para obtener más información sobre la operación SQLEXECUTE, consulte [realizar una operación de SQLEXECUTE en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).  

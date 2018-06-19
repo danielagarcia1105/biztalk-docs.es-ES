@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216052"
 ---
 # <a name="what-operations-are-supported-by-the-sap-adapter"></a>Las operaciones que son compatibles con el adaptador SAP
 Los clientes de adaptador pueden realizar operaciones en el sistema SAP mediante la creación de proyectos de BizTalk, mediante el modelo de canal WCF o mediante el modelo de servicio WCF. La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone las operaciones que las aplicaciones pueden invocar en él y que a su vez, puede invocar en las aplicaciones. Estas operaciones se invocan mediante el envío de mensajes SOAP a través de un canal. Si es necesario recibir una respuesta, se devuelve en un mensaje SOAP en el mismo canal. Para obtener información sobre la estructura del mensaje y la acción de SOAP asociada a cada operación, vea [mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md).  

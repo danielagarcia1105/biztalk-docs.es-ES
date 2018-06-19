@@ -1,11 +1,11 @@
 ---
-title: "Modos de mensaje de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: Modos de mensaje de confirmación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message modes, ACK messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - acknowledgements, message modes
 - ACK message modes
 ms.assetid: ab4a9470-dab2-46d4-8d0a-54dc12f2fa90
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204404"
 ---
 # <a name="ack-message-modes"></a>Modos de mensaje de confirmación
 Para los mensajes de confirmación (ACK), [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) determina el modo de confirmación y los valores que se usará para rellenar los campos MSH15 y MSH16 de la confirmación de que desea generar. Estos valores están presentes en la configuración de administración de socios comerciales (TPM). Los valores siguientes son posibles para el modo de confirmación:  

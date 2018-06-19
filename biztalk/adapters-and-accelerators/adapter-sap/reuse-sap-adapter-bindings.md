@@ -1,17 +1,17 @@
 ---
 title: Reutilizar los enlaces del adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding file, definition
 - adapter bindings, reusing
 ms.assetid: 5748c22f-20a2-4eb9-ad45-a1bef7290802
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217700"
 ---
 # <a name="reuse-sap-adapter-bindings"></a>Reutilizar los enlaces del adaptador SAP
 Un enlace crea una asignación entre un extremo lógico (por ejemplo, un puerto de orquestación o un vínculo de función) y un extremo físico (por ejemplo, un envío y puerto de recepción). Permite la comunicación entre componentes diferentes de una solución empresarial de BizTalk. Puede crear enlaces mediante la consola de administración de BizTalk Server.  

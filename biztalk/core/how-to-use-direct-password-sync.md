@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar la sincronización de contraseña directa | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar la sincronización de contraseña directa | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1334c2f-2020-46ea-a98c-f7688813e38c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255948"
 ---
 # <a name="how-to-use-direct-password-sync"></a>Cómo utilizar la sincronización directa de contraseñas
 Esta versión del inicio de sesión único empresarial incluye la característica de sincronización directa de contraseña desde Windows. Esta característica le permite evitar el uso del adaptador de sincronización de contraseñas y actualiza la contraseña de la base de datos de SSO directamente desde Windows.  

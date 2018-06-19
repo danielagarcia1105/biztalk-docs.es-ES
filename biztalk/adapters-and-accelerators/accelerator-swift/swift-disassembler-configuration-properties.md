@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215940"
 ---
 # <a name="swift-disassembler-configuration-properties"></a>Propiedades de configuración de desensamblador SWIFT
 En la tabla siguiente proporciona propiedades del desensamblador SWIFT (DASM), descripciones, tipos de datos y rangos de valores.  

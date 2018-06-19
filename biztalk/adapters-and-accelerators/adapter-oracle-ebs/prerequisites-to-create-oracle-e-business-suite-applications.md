@@ -1,14 +1,14 @@
 ---
 title: Requisitos previos para crear aplicaciones de Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b02ea286-f301-46b3-b748-d954dead23a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216764"
 ---
 # <a name="prerequisites-to-create-oracle-e-business-suite-applications"></a>Requisitos previos para crear aplicaciones de Oracle E-Business Suite
 Esta sección proporciona información sobre lo que debe hacer antes de desarrollar aplicaciones de BizTalk con el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. En esta sección también remite a la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] herramientas que se utilizan para desarrollar aplicaciones de BizTalk.  

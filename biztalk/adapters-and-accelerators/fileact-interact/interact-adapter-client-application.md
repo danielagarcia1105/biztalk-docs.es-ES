@@ -1,14 +1,14 @@
 ---
-title: "Aplicación de cliente de adaptador interAct | Documentos de Microsoft"
-ms.custom: 
+title: Aplicación de cliente de adaptador interAct | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdab4624-0fc2-42a3-9867-8f77e144b40c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223100"
 ---
 # <a name="interact-adapter-client-application"></a>Aplicación de cliente de adaptador interAct
 Interactuar adaptador aplicación cliente solicite mensajes son documentos XML que se pasan de la aplicación de cliente para el vínculo de SWIFTNet de lado cliente (SNL). Se producen mensajes de este tipo como la primera parte de las primitivas de solicitud/respuesta que SWIFTNet ejecutado en el cliente.  

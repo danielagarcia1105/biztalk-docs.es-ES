@@ -1,11 +1,11 @@
 ---
-title: "¿Qué Acelerador de BizTalk para HL7 agrega a BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: ¿Qué Acelerador de BizTalk para HL7 agrega a BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, documents
@@ -29,7 +29,7 @@ helpviewer_keywords:
 - BTAHL7, acknowledgements
 - errors, logging
 ms.assetid: 862e9f26-588a-4e91-8ebc-f53aab6f46c2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -38,6 +38,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209268"
 ---
 # <a name="what-biztalk-accelerator-for-hl7-adds-to-biztalk-server"></a>¿Qué Acelerador de BizTalk para HL7 agrega a BizTalk Server
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) genera un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sistema de integración en un sistema de integración de atención médica. Agrega la funcionalidad que requieren atención sanitaria organizaciones.  

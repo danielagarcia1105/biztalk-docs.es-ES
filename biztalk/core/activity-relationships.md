@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225236"
 ---
 # <a name="activity-relationships"></a>Relaciones de actividades
 Las relaciones entre actividades existen cuando una actividad está relacionada con una o más actividades. Por ejemplo, cuando se tienen varias actividades de envío relacionadas con una sola actividad de pedido, o una actividad de envío que contiene elementos procedentes de dos actividades de pedido.  

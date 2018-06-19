@@ -1,17 +1,17 @@
 ---
 title: 'Paso 1: Modificar el proyecto de BizTalk vPrev para llamar a una solicitud de cambio | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, modifying previous version of BizTalk project for invoking an RFC
 - migration
 ms.assetid: 2d4a6cd7-d216-4e0f-8f82-41e044cd325b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218108"
 ---
 # <a name="step-1-modify-the-vprev-biztalk-project-for-invoking-an-rfc"></a>Paso 1: Modificar el proyecto de BizTalk vPrev para llamar a una solicitud de cambio
 ![Paso 1 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  

@@ -1,11 +1,11 @@
 ---
 title: Ejemplo de escenario basado en concentrador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, supply chains
 - trading partners, supply chains
 ms.assetid: ee92c24d-a281-4950-a61e-9cb3bd08d291
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210420"
 ---
 # <a name="sample-hub-based-scenario"></a>Escenario de ejemplo basado en concentrador
 En muchos escenarios de cadena de suministro, una empresa trabajará con cada uno de sus socios comerciales para establecer una conexión de RosettaNet Implementation Framework (RNIF). Se trata de un método eficaz para estandarizar las comunicaciones en toda la cadena de suministro. Este escenario se describe en [escenario de cadena de suministro de ejemplo](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md).  

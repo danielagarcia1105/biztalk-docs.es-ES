@@ -1,15 +1,15 @@
 ---
-title: "Adaptador de Microsoft BizTalk para Siebel eBusiness documentación de aplicaciones | Documentos de Microsoft"
+title: Adaptador de Microsoft BizTalk para Siebel eBusiness documentación de aplicaciones | Documentos de Microsoft
 description: Obtener iniciado, arquitectura, seguridad, desarrollar aplicaciones, esquemas de mensajes y solucionar problemas del adaptador de Siebel en BizTalk Adapter Pack
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 39cc8e02-d37f-4f8a-91f9-d87d312434a1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222164"
 ---
 # <a name="microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation"></a>Adaptador de Microsoft BizTalk para Siebel eBusiness documentación de las aplicaciones
 El [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] incluye una serie de recursos para ayudarle a entender cómo funciona el adaptador, cómo crear aplicaciones que utilizan el adaptador, se describen las opciones de conexión diferentes y mucho más.

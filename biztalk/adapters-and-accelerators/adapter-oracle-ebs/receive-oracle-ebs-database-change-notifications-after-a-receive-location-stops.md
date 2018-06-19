@@ -1,14 +1,14 @@
 ---
-title: "Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12c42cd0-b46e-4c45-a67e-e1fb9c0e8a6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216140"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-after-a-receive-location-breakdown"></a>Recibir notificaciones de cambio de base de datos de Oracle E-Business Suite después un desglose de la ubicación de recepción
 Considere un escenario donde haya una aplicación de BizTalk que recibe mensajes de notificación de cambio de base de datos cuando se realizan cambios en la tabla ACCOUNTACTIVITY. Si la ubicación de recepción configurado como parte de desglosa la aplicación de BizTalk y al mismo tiempo los registros se agregan en la tabla ACCOUNTACTIVITY, no recibirá notificaciones para los registros agregados recientemente. También no sabrá cuando la ubicación de recepción esté disponible de nuevo. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone una propiedad de enlace, **NotifyOnListenerStart**, que se pueden configurar para recibir una notificación que se ha recuperado la ubicación de recepción. Puede especificar los siguientes valores para la **NotifyOnListenerStart** propiedad de enlace:  

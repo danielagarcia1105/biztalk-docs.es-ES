@@ -1,17 +1,17 @@
 ---
 title: Esquemas de mensajes para LOB especiales Operations2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - LOB data types, message structure of
 - LOB data types, message actions for
 ms.assetid: 031989d5-3209-41ab-8836-a40539781e74
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214596"
 ---
 # <a name="message-schemas-for-special-lob-operations"></a>Esquemas de mensaje para operaciones especiales de LOB
 Las operaciones de ReadLOB y UpdateLOB se exhibe para tablas y vistas que contienen columnas LOB; que es que las columnas que se utilizan para almacenar datos de objetos grandes (LOB) de Oracle. Estas operaciones permiten leer o escribir los datos de LOB como un flujo de datos codificados de base64Binary. Que operan en una sola columna de datos LOB en una sola fila.  

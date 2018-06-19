@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6573142e-7ca7-4990-98e3-b7a54840da13
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,12 +17,13 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22246660"
 ---
 # <a name="exportbindings-command"></a>ExportBindings (comando)
 Exporta enlaces para un ensamblado, una aplicación o un grupo de BizTalk. También puede exportar enlaces de entidad global junto con el ensamblado, la aplicación o los enlaces de grupo. (Una entidad son todas las entidades, como socios comerciales de su organización que interactúan con una orquestación.)  
   
 ## <a name="usage"></a>Uso  
- **BTSTask ExportBindings /Destination:** *valor* [**/GroupLevel**] [**/ApplicationName: ***valor*] [**/ AssemblyName:***valor* ] &#124; [**/GlobalParties**] [**/Server:***valor *] [** / Database:***valor *]  
+ **BTSTask ExportBindings /Destination:** *valor* [**/GroupLevel**] [**/ApplicationName: ***valor*] [**/ AssemblyName:***valor* ] &#124; [**/GlobalParties **] [**/Server:***valor *] [** / Database:*** valor *]  
   
 ## <a name="parameters"></a>Parámetros  
   

@@ -1,14 +1,14 @@
 ---
-title: "Propiedades de contexto de invalidación EDI | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de contexto de invalidación EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d78cd56f-1e34-4503-8ee1-93b52137097f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22243244"
 ---
 # <a name="edi-override-context-properties"></a>Propiedades de contexto de invalidación de EDI
 Las propiedades de contexto de mensaje del esquema de propiedad global EdiOverride se pueden usar para invalidar los valores de sobre EDI en tiempo de ejecución. Estas propiedades de contexto de mensaje se definen en edi-properties.xsd en el ensamblado Microsoft.BizTalk.Edi.BaseArtifacts. El espacio de nombres para las propiedades es `http://schemas.microsoft.com/BizTalk/2006/edi-properties`.  

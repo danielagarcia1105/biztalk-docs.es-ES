@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un Block3 de excepción Catch | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un Block3 de excepción Catch | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shape [Orchestration Designer], Catch Exception block [Orchestration Designer]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Catch Exception block [Orchestration Designer], about Catch Exception blocks
 - Orchestration Designer, errors
 ms.assetid: 63ca4a60-b657-452a-86fd-78968ccf2933
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247060"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a>Cómo agregar un bloque Excepción de filtrado
 El **excepción de filtrado** de bloqueo representa un controlador de excepciones. **Detectar excepciones** bloques se adjuntan al final de un **ámbito** forma en el Diseñador de orquestaciones. Puede adjuntar tantos **excepción de filtrado** bloquea según sea necesario.  

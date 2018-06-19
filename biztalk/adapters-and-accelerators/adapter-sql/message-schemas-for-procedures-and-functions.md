@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para los procedimientos y funciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223356"
 ---
 # <a name="message-schemas-for-procedures-and-functions"></a>Esquemas de mensaje para los procedimientos y funciones
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de SQL Server, escalares y procedimientos almacenados de la base de datos y funciones con valores como operaciones de tabla. Esta sección describe la estructura de los mensajes y acciones que se usan para invocar procedimientos y funciones.  

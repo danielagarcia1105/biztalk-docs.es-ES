@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969434"
 ---
 # <a name="configuring-edi-pipeline-properties"></a>Configurar propiedades de canalización de EDI
 Las propiedades de canalización se usan en el procesamiento de un intercambio EDI entrante o saliente, si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no puede determinar el acuerdo al que resuelve el intercambio entrante o saliente. En algunos casos, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa la propiedad de canalización para procesar el intercambio; en otros, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el acuerdo de reserva. Para obtener más información, consulte [cómo validar un EDI del intercambio está configurado](../core/how-validation-of-an-edi-interchange-is-configured.md).  

@@ -1,11 +1,11 @@
 ---
 title: 'Tutorial 1: Presentar datos desde un sistema SAP en un sitio de SharePoint | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MOSS, creating an application in
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MOSS
 - Microsoft Office SharePoint Server, creating an application in
 ms.assetid: 6e31c365-446c-4fe1-8538-fa6c869eed63
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217428"
 ---
 # <a name="tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site"></a>Tutorial 1: Presentar datos desde un sistema SAP en un sitio de SharePoint
 Este tutorial proporciona instrucciones detalladas sobre cómo utilizar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con Microsoft Office SharePoint Server para presentar datos de negocio de un sistema SAP en un portal de SharePoint. Para demostrar cómo usar el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con Office SharePoint Server, tenga en cuenta las dos entidades más comunes en las empresas: clientes y pedidos de venta. En este ejemplo, se crea una aplicación de Office SharePoint Server, que utiliza el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] para hacer lo siguiente:  

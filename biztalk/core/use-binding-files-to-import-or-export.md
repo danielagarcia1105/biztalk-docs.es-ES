@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a2a82a-f8d4-4ec2-b8c1-be6cda3f993a
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22288276"
 ---
 # <a name="use-binding-files-to-import-or-export"></a>Usar archivos de enlace para importar o exportar
 
@@ -46,7 +47,7 @@ Algunas de las características de importación y exportación son:
 * Debe haber agregado una referencia a la **aplicación EDI de BizTalk** desde una aplicación de BizTalk que se usará como una aplicación de EDI. Vea [pasos posteriores a la configuración](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).
 
 ## <a name="import-or-export-all-the-trading-partners"></a>Importar o exportar a todos los socios comerciales
-1. Abra **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**y expanda el grupo de BizTalk.
+1. Abra **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** y expanda el grupo de BizTalk.
 2. Haga clic en **partes**y seleccione **exportar**. 
 
     Cuando se exportan en el **partes**-nivel, que va a exportar todos los socios comerciales. También exporta todos los elementos utilizados por los socios comerciales, incluidos los perfiles de negocio y los contratos en un archivo XML. 

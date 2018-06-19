@@ -1,18 +1,18 @@
 ---
-title: "Configurar manualmente un enlace de puerto físico para el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Configurar manualmente un enlace de puerto físico para el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, sending to an Oracle database
 - messages, receiving from an Oracle database
 - physical port binding, manually configuring
 ms.assetid: 6b118236-e9eb-494e-96b2-969c7064943d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214284"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-oracle-database-adapter"></a>Configurar manualmente un enlace de puerto físico para el adaptador de la base de datos de Oracle
 Esta sección proporciona información acerca de cómo configurar el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] como un enlace WCF-Custom o WCF-OracleDB enlace mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Después de implementar el adaptador, podrá enviar y recibir mensajes desde la base de datos de Oracle mediante el uso de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Los pasos para implementar el adaptador varían en función de:  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961546"
 ---
 # <a name="message-schemas-for-the-sqlexecute-operation"></a>Esquemas de mensaje para la operación SQLEXECUTE
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]expone metadatos fuertemente tipada de artefactos presentes en el sistema LOB y expone las operaciones estándares de estos artefactos. Sin embargo, hay escenarios donde una aplicación puede requerir la ejecución de una instrucción SQL arbitraria que se controla mediante la lógica de negocios en la aplicación. Por ejemplo, puede:  

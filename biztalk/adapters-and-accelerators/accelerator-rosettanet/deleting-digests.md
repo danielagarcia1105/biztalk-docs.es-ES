@@ -1,11 +1,11 @@
 ---
-title: "Eliminar resúmenes | Documentos de Microsoft"
-ms.custom: 
+title: Eliminar resúmenes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, digests
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - databases, deleting digests
 - maintaining databases, deleting digests
 ms.assetid: bcc7cb11-2f6a-4996-ad50-040d41993e09
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206748"
 ---
 # <a name="deleting-digests"></a>Eliminación de resúmenes
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] almacena resúmenes para los mensajes salientes, para que pueda validar el contenido de señal. Sin embargo, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] no elimina los resúmenes de después de la validación. Periódicamente, puede que desee eliminar estos resúmenes para mantener el rendimiento del sistema.  

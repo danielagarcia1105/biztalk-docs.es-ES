@@ -1,14 +1,14 @@
 ---
-title: "Arquitectura de programación de sincronización de contraseña | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura de programación de sincronización de contraseña | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 679edbf1-fb08-4472-b366-3e1d361b20e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264676"
 ---
 # <a name="password-sync-programming-architecture"></a>Arquitectura de programación de sincronización de contraseña
 Un adaptador de sincronización de contraseñas utiliza un modelo de extracción para interactuar con el resto del sistema Enterprise Single Sign-On: es decir, el adaptador recibe activamente cambios de contraseña desde el servicio de inicio de sesión único (ENTSSO) empresarial y también desde el sistema ajeno a Windows. De igual manera, el adaptador extrae cambios de contraseñas recibidos de un sistema al otro. Con este modelo, el adaptador interactúa con tres componentes de arquitectura: la arquitectura ENTSSO, el componente aplicación auxiliar de sincronización de contraseñas (PS) y un sistema ajeno a Windows especificado.  

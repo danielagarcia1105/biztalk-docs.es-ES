@@ -1,17 +1,17 @@
 ---
 title: Configurar las propiedades de enlace de base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at run time
 - binding properties, specifying at design time
 ms.assetid: c59a1b5c-b52b-4161-82de-c4d89bfce5c7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215804"
 ---
 # <a name="configure-the-binding-properties-for-oracle-database"></a>Configurar las propiedades de enlace de base de datos de Oracle
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone varias propiedades de enlace que le permiten controlar algunos de sus características de comportamiento. Esta sección proporciona información acerca de cómo establecer las propiedades de enlace de Visual Studio y desde la consola de administración de BizTalk Server. Desde Visual Studio, debe especificar las propiedades de enlace al generar el esquema para las operaciones concretas. Desde el servidor BizTalk Server, debe especificar las propiedades de enlace como parte de envío o puerto de recepción para enviar o recibir mensajes de la base de datos de Oracle.  

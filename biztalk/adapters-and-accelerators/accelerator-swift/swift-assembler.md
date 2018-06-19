@@ -1,18 +1,18 @@
 ---
 title: Ensamblador SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler
 - send pipelines, messages
 - messages, send pipelines
 ms.assetid: 2a95c7d4-da10-4058-bc2c-3efc35958e14
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214436"
 ---
 # <a name="swift-assembler"></a>Ensamblador SWIFT
 Una canalización de envío saliente procesa todos los mensajes transmitidos por un [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] aplicación (que se envían a través de un puerto de envío).  

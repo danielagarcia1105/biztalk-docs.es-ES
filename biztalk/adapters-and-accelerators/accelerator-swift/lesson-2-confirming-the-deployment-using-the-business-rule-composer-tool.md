@@ -1,11 +1,11 @@
 ---
-title: "Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, verifying
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, Business Rule Composer tool
 - Business Rule Composer tool
 ms.assetid: 337dc469-cf9e-406b-90ae-0f580b17d7c9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210244"
 ---
 # <a name="lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool"></a>Lección 2: Confirmar la implementación mediante la herramienta de Compositor de reglas de negocios
 En esta lección, confirme que la herramienta de Compositor de reglas de negocios creado los vocabularios e implementado las directivas. Un vocabulario es una colección de elementos de vocabulario utilizados en la composición de regla. Las directivas son colecciones de reglas de negocios y tienen asignada una versión.  

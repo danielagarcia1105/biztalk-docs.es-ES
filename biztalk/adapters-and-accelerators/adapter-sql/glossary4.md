@@ -1,15 +1,15 @@
 ---
 title: Glosario de adaptador de BizTalk para SQL en BizTalk | Documentos de Microsoft
-description: "Términos y definiciones utilizadas por el adaptador de SQL en el módulo de adaptador de BizTalk (BAP) comunes"
-ms.custom: 
+description: Términos y definiciones utilizadas por el adaptador de SQL en el módulo de adaptador de BizTalk (BAP) comunes
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c364917e-b72b-49e4-9fc6-0fcfe43c8da7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226212"
 ---
 # <a name="terms-used-by-the-sql-adapter"></a>Términos utilizados por el adaptador de SQL
 Los términos y definiciones siguientes se usan en [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ayuda.  

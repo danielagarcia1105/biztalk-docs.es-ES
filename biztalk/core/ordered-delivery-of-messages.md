@@ -1,11 +1,11 @@
 ---
 title: Entrega ordenada de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, message order
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - adapters, messages
 - customizing, receive adapters
 ms.assetid: 39e0bba6-81f5-4ae0-af92-837b225bc801
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266612"
 ---
 # <a name="ordered-delivery-of-messages"></a>Entrega ordenada de mensajes
 La entrega ordenada de mensajes garantiza que los mensajes publicados con un determinado orden en la base de datos de cuadro de mensajes se entreguen a los suscriptores correspondientes en ese mismo orden.  

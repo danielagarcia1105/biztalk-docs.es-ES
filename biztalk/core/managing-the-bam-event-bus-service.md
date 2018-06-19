@@ -1,11 +1,11 @@
 ---
 title: Administrar el servicio de Bus de eventos BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MessageBox database, migrating data
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Event Bus Service [BAM], managing
 - Tracking Data Decode Service (TDDS)
 ms.assetid: 556e7fe2-4a7d-46f6-8e55-f41be4e666dc
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262820"
 ---
 # <a name="managing-the-bam-event-bus-service"></a>Administrar el servicio de bus de eventos BAM
 El servicio de bus de eventos BAM, al que también se conoce como Servicio de descodificación de datos de seguimiento (TDDS), procesa datos de seguimiento (secuencias) almacenados en una base de datos de origen y los conserva de tal forma que resulte fácil solicitarlos posteriormente.  

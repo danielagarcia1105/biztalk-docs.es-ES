@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Presentar los datos de Oracle E-Business Suite en un sitio de SharePoint | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1272b76c-29a1-4912-9c2d-8a4cf43df59d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215636"
 ---
 # <a name="tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site"></a>Tutorial: Presentar los datos de Oracle E-Business Suite en un sitio de SharePoint
 Este tutorial proporciona instrucciones detalladas sobre cómo utilizar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] con Microsoft Office SharePoint Server para presentar datos de Oracle E-Business Suite en un portal de SharePoint. También muestra cómo configurar una aplicación de búsqueda en Microsoft Office SharePoint Server que permite realizar una búsqueda de texto completo de un portal de SharePoint en el artefacto de Oracle E-Business Suite configurado.  

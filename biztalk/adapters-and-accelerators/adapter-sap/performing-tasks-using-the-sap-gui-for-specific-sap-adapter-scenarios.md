@@ -1,15 +1,15 @@
 ---
-title: "Realizar tareas mediante la GUI de SAP para escenarios de adaptadores SAP específicos | Documentos de Microsoft"
-description: "Crear o enviar RFC, enviar y revise los IDOC y mayúsculas y minúsculas en los almacenes de columna en SAP - adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Realizar tareas mediante la GUI de SAP para escenarios de adaptadores SAP específicos | Documentos de Microsoft
+description: Crear o enviar RFC, enviar y revise los IDOC y mayúsculas y minúsculas en los almacenes de columna en SAP - adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 738ed0d3-e68a-40a1-af0e-714bbecb38c6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217148"
 ---
 # <a name="sap-gui-tasks-for-the-sap-adapter-scenarios"></a>Tareas de GUI de SAP para los escenarios de adaptador SAP
 

@@ -1,11 +1,11 @@
 ---
 title: Invocar funciones y procedimientos con cursores REF cursor en la base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functions and procedures with REF CURSORS, invoking by using BizTalk Server
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - REF CURSORS
 - RECORD types
 ms.assetid: 5e84b8d3-6352-4911-93f9-5d455ff579d9
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967482"
 ---
 # <a name="invoke-functions-and-procedures-with-ref-cursors-in-oracle-database-using-biztalk-server"></a>Invocar funciones y procedimientos con cursores REF cursor en la base de datos de Oracle mediante BizTalk Server
 Un REF CURSOR es un tipo de datos de PL/SQL que representa un puntero a un conjunto de resultados de servidor generado mediante la ejecución de una consulta. Un tipo de REF CURSOR habilita la entrada y salida de transmisión por secuencias de datos y es ideal para transferir grandes cantidades de datos desde y hacia un código de PL/SQL. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] proporciona compatibilidad para fuertemente tipadas y débilmente tipada (SYS_REFCURSOR) cursores REF cursor que se puede pasar a procedimientos de PL/SQL y funciones como IN, OUT o IN a parámetros. Para obtener más información acerca de cómo los [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es compatible con cursores REF CURSOR, consulte [operaciones en funciones y procedimientos con parámetros REF CURSOR](../../adapters-and-accelerators/adapter-oracle-database/ref-cursor-parameters-in-oracle-database-adapter.md). Para obtener información acerca de la estructura XML para los cursores REF CURSOR, vea [esquemas de mensaje para los cursores REF cursor](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md).  

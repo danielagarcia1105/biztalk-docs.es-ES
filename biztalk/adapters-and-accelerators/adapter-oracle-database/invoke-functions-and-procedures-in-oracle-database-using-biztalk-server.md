@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217076"
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>Invocar funciones y procedimientos de la base de datos de Oracle mediante BizTalk Server
 Los clientes de adaptador pueden invocar funciones y procedimientos en una base de datos de Oracle mediante la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies de procedimientos, funciones y paquetes como operaciones. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] también permite a los clientes de adaptador invocar:  

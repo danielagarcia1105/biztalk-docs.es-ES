@@ -1,14 +1,14 @@
 ---
 title: Comando ImportSettings | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 587f7e1f-9cf7-4e7b-90cd-11a266f474dc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257556"
 ---
 # <a name="importsettings-command"></a>Comando ImportSettings
 Importa la configuración de grupo, host o instancia de host de BizTalk desde un archivo XML de origen a la base de datos de configuración. La configuración se asigna tal como está en el archivo XML de asignación. Estas opciones se pueden haber exportado tal y como se describe en [importación o exportación panel de configuración de uso de configuración de BizTalk](how-to-import-biztalk-settings-using-settings-dashboard.md) o [importación o exportación BTSTask de uso de configuración de BizTalk](how-to-import-biztalk-settings-using-btstask.md).  

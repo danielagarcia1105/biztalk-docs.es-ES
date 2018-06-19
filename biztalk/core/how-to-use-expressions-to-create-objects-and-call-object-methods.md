@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar expresiones para crear objetos y llamar a métodos de objeto | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar expresiones para crear objetos y llamar a métodos de objeto | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, parameters
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Use Default Constructor property
 - .NET member invocation
 ms.assetid: b6af67eb-8ba5-4c95-9b63-26ebb6617af0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256612"
 ---
 # <a name="how-to-use-expressions-to-create-objects-and-call-object-methods"></a>Cómo usar expresiones para crear objetos y llamar a métodos de objetos [BTS05]
 Posiblemente, necesite usar expresiones para crear objetos o invocar métodos.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254324"
 ---
 # <a name="how-to-move-between-and-within-grid-pages"></a>Cómo moverse entre páginas de cuadrícula
 Si la asignación es compleja, es probable que no todos los vínculos y functoids estén visibles en una sola página de cuadrícula a la vez. Esto quiere decir que necesita poder desplazarse dentro de una página de cuadrícula. Y, si la asignación abarca varias páginas de cuadrícula, deberá poder moverse entre ellas. En este tema se proporcionan instrucciones detalladas para estas operaciones.  

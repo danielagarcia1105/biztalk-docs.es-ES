@@ -1,11 +1,11 @@
 ---
 title: Campo repetible segmentos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - segments, repeatable fields
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Segments table
 - RDT
 ms.assetid: 4c31cb56-21e5-4918-aaf6-67e8ceddd74f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206332"
 ---
 # <a name="repeatable-field-segments"></a>Segmentos de campo repetible
 La tabla de segmentos en la base de datos de Access de HL7 contiene una columna para el último campo de segmentos (ADD, RDT y QPD) que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) se define como repeatable (**Last_field_repeatable**  =  **True**). [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]no se admite agregar. Sin embargo, RDT y QPD están presentes para las tablas de consulta y responden con valores de tabla. El ejemplo siguiente se muestra cómo [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] controla estas columnas.  

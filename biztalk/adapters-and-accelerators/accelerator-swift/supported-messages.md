@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215380"
 ---
 # <a name="supported-messages"></a>Mensajes compatibles
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona una lista de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] y los mensajes de SWIFT. Los mensajes se dividen en varias categorías financieros que se enumeran a continuación.  

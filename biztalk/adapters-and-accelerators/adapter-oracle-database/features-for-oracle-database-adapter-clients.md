@@ -1,11 +1,11 @@
 ---
-title: "Características para los clientes de adaptador de base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Características para los clientes de adaptador de base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data streaming, support for
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - dynamic ports in BizTalk, support for
 - data streaming
 ms.assetid: 63b52573-80a5-4206-95c3-478b86718fee
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214324"
 ---
 # <a name="features-for-oracle-database-adapter-clients"></a>Características para los clientes de adaptador de base de datos de Oracle
 Además de las características tratadas en todos los temas de [información general del adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md), el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] también proporciona las siguientes características que son útiles para los clientes de adaptador:  

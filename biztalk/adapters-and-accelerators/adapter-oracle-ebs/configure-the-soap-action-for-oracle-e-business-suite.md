@@ -1,15 +1,15 @@
 ---
-title: "Configurar la acción SOAP para Oracle E-Business Suite en BizTalk Server | Documentos de Microsoft"
-description: "Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleEBS en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Configurar la acción SOAP para Oracle E-Business Suite en BizTalk Server | Documentos de Microsoft
+description: Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleEBS en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca799d96-66e4-4d4e-a632-cb5505e999b4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218284"
 ---
 # <a name="configure-the-soap-action-for-oracle-e-business-suite"></a>Configurar la acción SOAP para Oracle E-Business Suite
 Para realizar cualquier operación en Oracle E-Business Suite con basadas en WCF [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], debe especificar una acción de SOAP. La acción SOAP comunica con el adaptador de la acción que debe realizarse. Puede especificar la acción SOAP de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] o desde el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración. Sin embargo, si especifica la acción de SOAP en ambas ubicaciones, la acción especificado de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] se invalida.  

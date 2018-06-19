@@ -1,18 +1,18 @@
 ---
 title: Clase SiebelCommand en el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SiebelCommand
 - Data Provider for Siebel, SiebelCommand
 - SiebelCommand, supported methods and properties
 ms.assetid: 7cba0e47-634b-4878-b480-80fbcbbf5c90
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222364"
 ---
 # <a name="siebelcommand-class-in-the-siebel-adapter"></a>Clase SiebelCommand en el adaptador de Siebel
 Después de establecer una conexión con el sistema Siebel, el [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] analiza las cadenas de comandos de Siebel y parámetros de los comandos proporcionados por el cliente ADO.NET y asigna el comando en un mensaje de solicitud WCF. El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] , a continuación, envía la solicitud a la [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] y obtiene la respuesta XML y el contenido del cuerpo del adaptador. El [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] , a continuación, utiliza el `XMLDataReader` para recuperar los datos relacionales desde el cuerpo XML.  

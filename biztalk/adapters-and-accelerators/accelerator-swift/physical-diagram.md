@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213964"
 ---
 # <a name="physical-diagram"></a>Diagrama físico
 Una implementación típica agrupado equipos con BizTalk Server para la mensajería (enviar y recibir), equipos de BizTalk Server para ejecutar el proceso empresarial (orquestación), los equipos con BizTalk Server para tener acceso a las plantillas de InfoPath (sitio MRSR), y equipos con SQL Server en clúster. La siguiente implementación garantiza un entorno seguro desde la intranet y los usuarios de Internet.  

@@ -1,14 +1,14 @@
 ---
-title: "Configurar el URI de conexión para Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el URI de conexión para Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2bb02b4-4ad6-4b07-b48a-8f9a47967ffc
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219244"
 ---
 # <a name="configure-the-connection-uri-for-oracle-e-business-suite"></a>Configurar el URI de conexión para Oracle E-Business Suite
 Un URI de conexión es una cadena de conexión que contiene los parámetros necesarios para conectarse a Oracle E-Business Suite. Al usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] en [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe especificar el URI para conectarse a Oracle E-Business Suite para generar los metadatos. Al configurar una orquestación mediante el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración, debe especificar el URI para conectarse a Oracle E-Business Suite para realizar operaciones.  

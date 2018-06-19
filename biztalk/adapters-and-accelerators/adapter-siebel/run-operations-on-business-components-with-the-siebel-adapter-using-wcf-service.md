@@ -1,11 +1,11 @@
 ---
 title: Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing operations on business components
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business components, performing operations by using the WCF service model
 - performing operations, using the proxy
 ms.assetid: 7a5fdc95-6159-4f43-aac5-4e2f84e9138b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222228"
 ---
 # <a name="run-operations-on-business-components-with-the-siebel-adapter-using-the-wcf-service-model"></a>Ejecute las operaciones en los componentes empresariales con el adaptador de Siebel mediante el modelo de servicio de WCF
 Puede crear a un cliente WCF que tiene como destino un componente de negocio de Siebel. A continuación, puede usar al cliente de WCF para realizar la inserción, actualización, consulta, Delete, asociar, desasócielo y operaciones de consulta de registros secundarios en el componente empresarial en el sistema Siebel. Objetos de negocios de Siebel aparecen bajo el nodo objetos de negocios en el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. Los componentes empresariales que componen cada objeto de negocios aparecen bajo el nodo correspondiente a ese objeto. Puede seguir los pasos descritos en [información general sobre el modelo de servicio de WCF con el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md) para generar un cliente WCF para un componente empresarial que tiene como destino las operaciones específicas y usar el cliente para invocar estas operaciones en la empresa componente.  

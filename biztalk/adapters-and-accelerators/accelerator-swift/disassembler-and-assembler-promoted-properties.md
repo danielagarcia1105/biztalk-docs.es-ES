@@ -13,7 +13,7 @@ helpviewer_keywords:
 - promoted properties, disassembler
 - assembler, promoted properties
 ms.assetid: 342b0250-bdf7-45ce-8964-3aeda89989b1
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22211300"
 ---
 # <a name="disassembler-and-assembler-promoted-properties"></a>Desensamblador y ensamblador de las propiedades promocionadas
 Las propiedades de desensamblador y de ensamblador se dividen en dos categorías: propiedades de enrutamiento para el enrutamiento y filtrado; y las propiedades de tiempo de ejecución, para el procesamiento interno.  

@@ -1,11 +1,11 @@
 ---
-title: "Lección 2: Enviar un mensaje de MT103 que no es válido | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Enviar un mensaje de MT103 que no es válido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, invalid messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MT103 messages
 - messages, MT103 messages
 ms.assetid: 4b070ae1-c400-421a-b2f6-b7b1f22c0e41
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961298"
 ---
 # <a name="lesson-2-submitting-an-mt103-message-that-is-not-valid"></a>Lección 2: Enviar un mensaje de MT103 que no es válido
 En esta lección, se envía un mensaje de MT103 que no es válido y, a continuación, solucionar el error resultante mediante sus herramientas de sistema.  
@@ -37,7 +38,7 @@ En esta lección, se envía un mensaje de MT103 que no es válido y, a continuac
   
 4.  Iniciar **administración de BizTalk Server**.  
   
-5.  En la consola de administración de BizTalk Server, expanda **Visor de eventos (Local)**y, a continuación, haga clic en **aplicación**.  
+5.  En la consola de administración de BizTalk Server, expanda **Visor de eventos (Local)** y, a continuación, haga clic en **aplicación**.  
   
 6.  Busque una entrada de error que tenga un origen de Acelerador de BizTalk para SWIFT y una hora que corresponde a cuando se quita el mensaje no válido en el \< *unidad*\>: \Labs\Inbound\FlatFile carpeta. Haga doble clic en esa entrada de error.  
   

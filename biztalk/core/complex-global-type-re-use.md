@@ -1,14 +1,14 @@
 ---
 title: Reutilizar tipos globales complejos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d0d8018-f2c6-44cc-9330-2385ac8887eb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231772"
 ---
 # <a name="complex-global-type-re-use"></a>Reutilizar tipos globales complejos
 Para usar un complejo tipo global tal cual, en otra ubicación en el árbol de esquema, comience por insertar un nuevo **registro** nodo en la ubicación deseada. A continuación, establezca su **Data Structure Type** propiedad en el nombre de un tipo global complejo.  

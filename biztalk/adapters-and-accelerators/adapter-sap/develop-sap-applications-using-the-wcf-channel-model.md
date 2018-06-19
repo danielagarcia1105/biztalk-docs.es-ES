@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216028"
 ---
 # <a name="develop-sap-applications-using-the-wcf-channel-model"></a>Desarrollar aplicaciones de SAP mediante el modelo de canal de WCF
 Puede usar el [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] modelo del canal para consumir el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] mediante el envío de mensajes XML directamente a través de una instancia del canal creado con el enlace de SAP.  

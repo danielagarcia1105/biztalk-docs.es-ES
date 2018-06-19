@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo del controlador NAK FRR | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo del controlador NAK FRR | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f11bd20-3a0e-4d96-8e0a-32fecc7eed7e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209204"
 ---
 # <a name="how-the-frr-nak-handler-sample-works"></a>Cómo funciona el ejemplo del controlador FRR NAK
 El ejemplo de controlador personalizado FRR NAK actúa como intermediario entre la orquestación de conciliación de respuesta de FIN (FRR) y la orquestación de reparación de mensajes. La orquestación FRR identifica el error que se produjo al intentar realizar la red SWIFT recibir el mensaje. El resultado de la orquestación FRR es un mensaje de una parte con un objeto de error. El controlador personalizado FRR NAK transforma ese mensaje en un mensaje de dos partes, con una parte de error que indica el error que se ha producido, permitir al mensaje ser recogidas por la orquestación de reparación de mensajes. La orquestación de reparación de mensajes, abre el mensaje en una [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario que le permite averiguar cuál fue el error, repare el mensaje en consecuencia y reenviarlo, por lo que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] puede enviarlo a AAS.  

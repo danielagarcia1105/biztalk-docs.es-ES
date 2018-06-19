@@ -1,11 +1,11 @@
 ---
 title: Soporte para recibir mensajes de cambio de datos basados en el sondeo en base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - notifications, polling-based
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - polling interval
 - polling
 ms.assetid: 9ff29d3f-ebb1-4d82-9106-150f939cbd9e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218804"
 ---
 # <a name="support-for-receiving-polling-based-data-changed-messages-in-oracle-database"></a>Soporte para recibir mensajes de cambio de datos basados en el sondeo en base de datos de Oracle
 El[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] permite a los programas de cliente recibir mensajes de la base de datos de Oracle que les informa de los cambios en los datos almacenados en una base de datos de Oracle. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite la recepción de mensajes "basada en sondeo" en el que el adaptador ejecuta una consulta SELECT especificado, procedimiento almacenado, función o procedimiento o función dentro de un paquete, recupera los datos y proporciona el resultado al cliente en normal intervalos de tiempo. Para habilitar esto, la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expone una operación POLLINGSTMT. Además, todos los procedimientos almacenados, funciones y procedimientos y función de los paquetes se exponen como operaciones entrantes para el sondeo.  

@@ -1,18 +1,18 @@
 ---
 title: Ejemplos del resultado de seguimiento de pruebas de directivas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, policies
 - policies, testing
 - testing, examples
 ms.assetid: 92e1dc7f-1a8d-41a5-84b6-46d5ad9f2ef2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266684"
 ---
 # <a name="policy-test-trace-output-examples"></a>Ejemplos del resultado del seguimiento de pruebas de directivas
 Esta sección contiene ejemplos de salida de pruebas de directivas para diferentes tipos de hechos.  

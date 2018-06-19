@@ -1,14 +1,14 @@
 ---
-title: "Cómo etiquetar un vínculo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo etiquetar un vínculo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fb81763-8b50-4334-88a8-efad1c5d82d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253796"
 ---
 # <a name="how-to-label-a-link"></a>Creación de etiqueta para un vínculo
 Las etiquetas resultan útiles para documentar la finalidad de un functoid o vínculo en una asignación. Puede usar el **etiqueta** propiedad para el nombre de un vínculo. Esto resulta útil si la asignación contiene estructuras de esquemas grandes y la identificación de los vínculos de entradas y salidas a un functoid resulta complicada.  

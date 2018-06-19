@@ -1,17 +1,17 @@
 ---
 title: Operaciones en servicios de negocios de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, on business services
 - business services, operations on
 ms.assetid: 29a1a88c-8c7b-46f1-8faf-49ddd32ba2f0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221948"
 ---
 # <a name="operations-on-business-services-in-siebel"></a>Operaciones en servicios de negocios de Siebel
 Un servicio de negocios de Siebel es una colección de métodos de negocio que se pueden invocar directamente en Siebel. Mientras que los componentes empresariales y objetos comerciales están asociados a datos específicos y tablas de Siebel, servicios de negocio invocación los objetos para realizar tareas específicas.  

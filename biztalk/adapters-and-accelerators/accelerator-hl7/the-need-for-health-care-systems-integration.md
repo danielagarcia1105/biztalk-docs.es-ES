@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207236"
 ---
 # <a name="the-need-for-health-care-systems-integration"></a>La necesidad de integración de sistemas de atención médica
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] proporciona proveedores de atención médica con soluciones para sus necesidades de automatización de procesos de negocios e integración de aplicaciones. En este tema se describe algunos de los desafíos de negocios que se enfrentan las organizaciones sanitaria y cómo sistemas que incorporan [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] y [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] puede ayudar a las organizaciones a cumplir los desafíos. También Eche un vistazo a un escenario común que muestra un escenario empresarial de ejemplo con [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)].  

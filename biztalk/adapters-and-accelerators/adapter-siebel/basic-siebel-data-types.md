@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - Siebel data types, supported
 ms.assetid: bf86f639-6c45-49db-9e58-79c3ad2c9978
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218756"
 ---
 # <a name="basic-siebel-data-types"></a>Tipos de datos básicos de Siebel
 Esta sección describe cómo se admiten los tipos de datos de Siebel en el [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  
@@ -38,7 +39,7 @@ Esta sección describe cómo se admiten los tipos de datos de Siebel en el [!INC
 |DTYPE_NUMBER|xsd:decimal|Decimal|-|  
 |DTYPE_PHONE|xsd:cadena|String|-|  
 |DTYPE_TEXT|xsd:cadena|String|-|  
-|DTYPE_TIME|xsd:dateTime*|DateTime|El valor no debe ser UTC.<br /><br /> -Para XSD: DateTime, los valores se esperan para seguir este patrón: (1753-01-01)T(\d\d:\d\d:\d\d) (.\*) ".<br />-Para **DateTime** objetos**, DateTime.Kind** debe ser **DateTimeKind.Unspecified**.<br /><br /> Para los mensajes salientes, el adaptador realiza una validación en tiempo de ejecución para asegurarse de que el valor especificado no es UTC (z o del desplazamiento de UTC). Si se produce un error en la que la validación, el adaptador inicia una excepción.<br /><br /> Cuando este tipo se expone como XSD: String (según las reglas que se explica más adelante):<br /><br /> -El formato viene determinado por la base de datos subyacente.<br />-Ninguna validación en tiempo de ejecución se realiza en el valor.|  
+|DTYPE_TIME|xsd:dateTime*|DateTime|El valor no debe ser UTC.<br /><br /> -Para XSD: DateTime, los valores se esperan para seguir este patrón: (1753-01-01)T(\d\d:\d\d:\d\d) (.\*) ".<br />-Para **DateTime** objetos **, DateTime.Kind** debe ser **DateTimeKind.Unspecified**.<br /><br /> Para los mensajes salientes, el adaptador realiza una validación en tiempo de ejecución para asegurarse de que el valor especificado no es UTC (z o del desplazamiento de UTC). Si se produce un error en la que la validación, el adaptador inicia una excepción.<br /><br /> Cuando este tipo se expone como XSD: String (según las reglas que se explica más adelante):<br /><br /> -El formato viene determinado por la base de datos subyacente.<br />-Ninguna validación en tiempo de ejecución se realiza en el valor.|  
 |DTYPE_UTCDATETIME|xsd:dateTime*|DateTime|El valor puede contener componentes de fecha y hora y debe ser la hora UTC.<br /><br /> -Para XSD: DateTime, el valor se debe expresar en UTC (notación de "Z" o el desplazamiento de UTC).<br />-Para **DateTime** objetos **DateTime.Kind** debe ser **DateTimeKind.Utc**.<br /><br /> Para los mensajes salientes, el adaptador realiza una validación en tiempo de ejecución para asegurarse de que se cumplen estas condiciones; Si se produce un error en la validación, el adaptador lanza una excepción.<br /><br /> Cuando este tipo se expone como XSD: String (según las reglas que se explica más adelante):<br /><br /> -El formato viene determinado por la base de datos subyacente.<br />-Ninguna validación en tiempo de ejecución se realiza en el valor.|  
   
  Éstos son los tipos de argumentos de método de servicio para la empresa:  

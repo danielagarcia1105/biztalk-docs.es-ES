@@ -1,11 +1,11 @@
 ---
-title: "Campo de MSH reemplazará | Documentos de Microsoft"
-ms.custom: 
+title: Campo de MSH reemplazará | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - headers, overriding
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - headers, MSH Map tab
 - messages, message headers
 ms.assetid: f5b2c820-57e7-4a56-9d9f-713563bd7335
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961028"
 ---
 # <a name="msh-field-overrides"></a>Invalidaciones de campo de MSH
 Cada mensaje HL7 tiene un encabezado del mensaje. Usar [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], puede reemplazar cualquier valor de encabezado de mensaje en función de sus necesidades de negocio. Usa el [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuración explorador **MSH mapa** tab para manualmente invalidar los valores de encabezado de mensaje sin utilizar ninguna asignación o una orquestación.  

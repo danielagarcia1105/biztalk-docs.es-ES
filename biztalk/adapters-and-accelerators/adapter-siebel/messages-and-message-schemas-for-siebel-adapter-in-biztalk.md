@@ -1,15 +1,15 @@
 ---
 title: Mensajes y esquemas de mensaje para el adaptador de BizTalk para aplicaciones Siebel eBusiness | Documentos de Microsoft
-description: "Estructura XML de mensajes y tipos de datos utilizado por el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Estructura XML de mensajes y tipos de datos utilizado por el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b4da884-89b0-4ab1-a728-c5569088a993
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221956"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-siebel-ebusiness-applications"></a>Mensajes y esquemas de mensaje para el adaptador de BizTalk para Siebel eBusiness Applications
 

@@ -1,14 +1,14 @@
 ---
 title: Ejecutar ExecuteNonQuery, ExecuteReader, ExecuteScalar operaciones y con el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fda0544-a028-4a95-aae6-1f6a90764c5d
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222276"
 ---
 # <a name="run-executenonquery-executereader-and-executescalar-operations-using-the-sql-adapter"></a>Ejecutar ExecuteNonQuery, ExecuteReader, ExecuteScalar operaciones y con el adaptador de SQL
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone las operaciones siguientes en el nivel raíz:  

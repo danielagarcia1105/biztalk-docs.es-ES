@@ -1,20 +1,21 @@
 ---
 title: Actualizar acelerador para RosettaNet (BTARN) en BizTalk Server | Documentos de Microsoft"
-description: "Siga los pasos de actualización para actualizar BTARN a la versión actual de BizTalk Server"
+description: Siga los pasos de actualización para actualizar BTARN a la versión actual de BizTalk Server
 author: MandiOhlinger
 manager: anneta
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.author: mandia
 ms.openlocfilehash: 16e6083f3e5fb1778d77536cd602ee2208c0005f
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210100"
 ---
 # <a name="upgrade-the-rosettanet-accelerator"></a>Actualización del Acelerador para RosettaNet
 

@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265660"
 ---
 # <a name="orchestration-debugger-user-interface"></a>Interfaz de usuario del Depurador de orquestaciones
 En el modo interactivo (depurar), la vista depurador de orquestaciones contiene tres paneles: el panel orquestación, panel eventos controlados y panel de servicio. Además, en modo interactivo, la Lista de variables y las Propiedades de variables aparecen en la parte inferior de la vista.  

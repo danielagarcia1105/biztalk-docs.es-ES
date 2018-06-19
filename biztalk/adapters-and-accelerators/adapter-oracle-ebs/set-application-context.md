@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9697155-70c0-4173-80d2-d02d103c397b
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218604"
 ---
 # <a name="set-application-context"></a>Establecer el contexto de aplicación
 En [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], Establece el contexto de aplicación es obligatorio para algunos artefactos de Oracle E-Business Suite (tablas de interfaz, vistas de interfaz, programas simultáneos y conjuntos de solicitudes) para poder realizar operaciones en ellos. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] no permite realizar operaciones en estos artefactos hasta que haya establecido el contexto de la aplicación. Sin embargo, para los artefactos en la base de datos de Oracle subyacente, es el usuario quien si desea establecer el contexto de la aplicación o no.  

@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar suscriptores a una alerta | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar suscriptores a una alerta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - subscriptions, subscribers
 - subscriptions
 - managing [BAM], adding alert subscribers
 ms.assetid: c76a117d-4516-4f48-995c-7e018dbba755
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247252"
 ---
 # <a name="how-to-add-subscribers-to-an-alert"></a>Cómo agregar suscriptores a una alerta
 Los administradores utilizan el **Agregar suscripción** comando para agregar un suscriptor a una alerta específica.  

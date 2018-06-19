@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231316"
 ---
 # <a name="components-of-the-bam-portal"></a>Componentes del Portal de BAM
 El portal de BAM es una página Web de ASP.NET que se divide en tres áreas funcionales que corresponden, a su vez, a las tres páginas del portal. Estas páginas se describen en esta sección: página de búsqueda de actividad, página agregaciones y página Administrador de alertas. Puede utilizar estas páginas para crear actividades, o para buscar o modificar actividades existentes.  

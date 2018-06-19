@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar la forma Iniciar orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma Iniciar orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Orchestration Designer], Start Orchestration shapes
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Start Orchestration shape [Orchestration Designer], starting orchestrations
 - Start Orchestration shape [Orchestration Designer], about Star Orchestration shape
 ms.assetid: 9d01c41e-9bc5-4c1c-a869-b2f0df13036a
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249668"
 ---
 # <a name="how-to-configure-the-start-orchestration-shape"></a>Cómo configurar la forma Iniciar orquestación
 El **Iniciar orquestación** forma es similar a la **orquestación de llamada** forma, pero invoca otra orquestación de forma asincrónica con el **Iniciar orquestación** forma, es decir, el flujo de control en la orquestación invocar continúa más allá de la invocación, sin esperar a la orquestación invocada finalizar su trabajo.  

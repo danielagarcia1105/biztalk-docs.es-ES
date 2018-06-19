@@ -1,18 +1,18 @@
 ---
 title: Obtener acceso a los encabezados SOAP en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, orchestrations
 - SOAP headers, properties
 - orchestrations, SOAP headers
 ms.assetid: 91fe053a-3f16-497c-b4bb-5fb54bec62e5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225924"
 ---
 # <a name="accessing-soap-headers-in-orchestrations"></a>Obtener acceso a los encabezados SOAP en orquestaciones
 Puede obtener acceso a las propiedades de contexto de encabezados SOAP en orquestaciones para encabezados SOAP definidos y desconocidos. Para obtener más información sobre propiedades de contexto y esquemas de propiedades, vea [esquemas de propiedades](../core/property-schemas.md).  

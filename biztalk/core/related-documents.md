@@ -1,11 +1,11 @@
 ---
 title: Documentos relacionados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [BAM], document references
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], document references
 - queries [BAM], viewing details
 ms.assetid: 9c5f2175-fe7c-40ec-910d-1ac5c8142045
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970074"
 ---
 # <a name="related-documents"></a>Documentos relacionados
 El área de documentos relacionados de los detalles de los resultados de consulta muestra una lista de los documentos de referencia que están relacionados con la actividad. Los documentos pueden ser de cualquier tipo, incluso una imagen CAD, un archivo WAV o un pedido de compra. Por ejemplo, una actividad de pedido de compra tendrá, por lo general, un pedido de compra como tipo de documento base. La lista tendrá un vínculo al pedido de compra.  

@@ -1,14 +1,14 @@
 ---
 title: Invocar los procedimientos almacenados de SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4edd2fac-0b54-4406-932e-e3044a66b2e6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222292"
 ---
 # <a name="invoke-stored-procedures-in-sql-using-the-wcf-service-model"></a>Invocar los procedimientos almacenados de SQL mediante el modelo de servicio de WCF
 El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] detecta los procedimientos almacenados como operaciones que los clientes de adaptador pueden invocar en el cliente WCF para invocar el procedimiento almacenado. En función de cómo el procedimiento almacenado devuelve el conjunto de resultados, el adaptador clasifica todos los procedimientos almacenados como:  

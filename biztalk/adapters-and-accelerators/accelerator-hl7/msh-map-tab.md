@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206132"
 ---
 # <a name="msh-map-tab"></a>Pestaña asignación de MSH
 Usa el **MSH mapa** ficha para habilitar las transformaciones de encabezado de mensaje para los mensajes entrantes.  

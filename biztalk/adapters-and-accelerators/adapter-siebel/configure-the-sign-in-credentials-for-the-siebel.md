@@ -1,18 +1,18 @@
 ---
-title: "Configurar el inicio de sesión en las credenciales para el Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el inicio de sesión en las credenciales para el Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, specify credentials for the Siebel system at run time
 - credentials, specifying
 - how to, specify credentials for the Siebel system at design time
 ms.assetid: a9fef2ba-c38e-44f7-84a3-b6a95d4dc210
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223196"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-siebel"></a>Configurar el inicio de sesión en las credenciales para el Siebel
 El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] requiere que los clientes de adaptador proporcionar las credenciales del cliente. El adaptador utiliza estas credenciales para autenticar al usuario con el sistema Siebel y para establecer una conexión.  

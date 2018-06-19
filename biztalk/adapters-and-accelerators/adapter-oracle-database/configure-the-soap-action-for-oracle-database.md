@@ -1,15 +1,15 @@
 ---
-title: "Configurar la acción SOAP para la base de datos de Oracle en BizTalk | Documentos de Microsoft"
-description: "Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleDB en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+title: Configurar la acción SOAP para la base de datos de Oracle en BizTalk | Documentos de Microsoft
+description: Especifique una acción de SOAP en Visual Studio, o usar el adaptador de WCF-Custom o WCF-OracleDB en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0d21cca-3907-4f99-af76-c1e7286e1bcf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215404"
 ---
 # <a name="configure-the-soap-action-for-oracle-database"></a>Configurar la acción SOAP para la base de datos de Oracle
 Para realizar cualquier operación en la base de datos de Oracle mediante basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], los usuarios de adaptador deben especificar una acción de SOAP. La acción SOAP comunica con el adaptador se debe completar la acción. Puede especificar la acción de SOAP en tiempo de diseño o en tiempo de ejecución. Sin embargo, si se especifica la acción de SOAP tanto en tiempo de diseño y tiempo de ejecución, se invalida la acción que se escriba en tiempo de diseño.  

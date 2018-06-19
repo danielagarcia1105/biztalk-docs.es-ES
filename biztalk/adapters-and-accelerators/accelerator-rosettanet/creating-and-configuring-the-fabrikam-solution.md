@@ -1,17 +1,17 @@
 ---
-title: "Crear y configurar la solución de Fabrikam | Documentos de Microsoft"
-ms.custom: 
+title: Crear y configurar la solución de Fabrikam | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating solutions
 - double action tutorial, configuring solutions
 ms.assetid: 463d55ef-12b6-49e1-a1b8-9081cfb0abed
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209972"
 ---
 # <a name="creating-and-configuring-the-fabrikam-solution"></a>Crear y configurar la solución de Fabrikam
 En esta sección del tutorial se detalla los pasos que debe seguir para la organización de Fabrikam. La organización de Fabrikam representa el comprador y, por tanto, actúa como iniciador para todas las solicitudes de proceso de interfaz de socio (PIP). En este tutorial, crear acuerdos para cuatro PIP de socios comerciales y compilar e implementar un línea de negocio (LOB) ASP[!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] aplicación para enviar una solicitud al equipo de Contoso se basa en un determinado tipo PIP.  

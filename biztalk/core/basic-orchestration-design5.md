@@ -1,17 +1,17 @@
 ---
-title: "Orquestación básica Design5 | Documentos de Microsoft"
-ms.custom: 
+title: Orquestación básica Design5 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, design
 - exception handling, orchestration design
 ms.assetid: 0941d617-e30c-4ca7-852f-193e16781ca7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230852"
 ---
 # <a name="basic-orchestration-design"></a>Diseño de orquestación básica
 Cuando crea una orquestación básica en el adaptador de BizTalk para PeopleSoft Enterprise, recibe un XML en el puerto de recepción de su orquestación. El código XML, a continuación, se envía al sistema back-end para procesarse. En el sistema back-end, podría producirse una excepción que detiene la orquestación y genere un error. El error que se produce proporciona información de que no se ha completado la orquestación. Esto no es de gran utilidad en la depuración de la causa del error.  

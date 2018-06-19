@@ -1,14 +1,14 @@
 ---
-title: "Error al analizar. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores de X12 | Documentos de Microsoft"
-ms.custom: 
+title: Error al analizar. El conjunto de transacciones contenido en el grupo funcional se está suspendiendo por los siguientes errores de X12 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51c6fa8e-d81c-4ccb-93b4-852ab184c4e9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241652"
 ---
 # <a name="error-encountered-during-parsing-the-x12-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a>Error al analizar. El conjunto de transacciones X12 contenido en el grupo funcional se está suspendiendo por los errores siguientes
 ## <a name="details"></a>Detalles  

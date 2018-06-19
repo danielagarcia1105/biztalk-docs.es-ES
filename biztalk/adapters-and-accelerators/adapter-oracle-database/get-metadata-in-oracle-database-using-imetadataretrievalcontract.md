@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218204"
 ---
 # <a name="get-metadata-in-oracle-database-using-imetadataretrievalcontract"></a>Obtener metadatos de base de datos de Oracle mediante IMetadataRetrievalContract
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un **IMetadataRetrievalContract**punto de conexión que puede usar para examinar y buscar artefactos de base de datos de Oracle y para recuperar los metadatos para las operaciones en el formulario de una descripción de servicios de Web Language (WSDL ) documento.  

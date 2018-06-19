@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257420"
 ---
 # <a name="implementation-highlights-of-the-business-process-management-solution"></a>Aspectos destacados de la implementación de la solución de administración de procesos empresariales
 En esta sección se describen con gran detalle los elementos relacionados con la implementación de la solución. Estos elementos incluyen el marco de trabajo de reglas de negocios, el número de fases de procesamiento, el modo **OrderManager** se comunica con las fases de procesamiento, el uso de la **OrderHandler** objeto y cómo el aplicación utiliza el adaptador Ops.  

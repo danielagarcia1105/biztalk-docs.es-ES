@@ -1,14 +1,14 @@
 ---
 title: Usar expresiones en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1947cd39-6ef2-4b2d-afeb-a0132b19db97
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287140"
 ---
 # <a name="using-expressions-in-orchestrations"></a>Usar expresiones en orquestaciones
 Puede usar el Editor de expresiones de BizTalk para escribir expresiones XLANG/s a fin de agregar lógica que manipule y pruebe los valores de las variables y mensajes de la orquestación. No obstante, no es recomendable utilizarlo en la lógica de orquestación de alto nivel, que se visualizaría mejor en el propio diseño de la orquestación. Por motivos de transparencia empresarial y de facilidad de reconfiguración, recomendamos usar expresiones sencillas y modulares.  

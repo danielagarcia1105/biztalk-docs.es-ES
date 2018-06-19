@@ -1,17 +1,17 @@
 ---
 title: Trabajar con las directivas del BRE | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BRE policies, about BRE policies
 - BRE policies
 ms.assetid: 4470f2b3-6891-46d7-9ba1-848f90d0767d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214932"
 ---
 # <a name="working-with-bre-policies"></a>Trabajar con las directivas del BRE
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] valida SWIFT directivas de mensajes mediante el motor de reglas de negocios (BRE), como se describe en el *Guía de referencia de SWIFT*. Estas directivas incluyen lo siguiente:  

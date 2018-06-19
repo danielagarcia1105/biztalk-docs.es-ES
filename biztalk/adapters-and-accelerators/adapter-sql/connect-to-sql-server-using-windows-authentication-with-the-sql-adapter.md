@@ -1,14 +1,14 @@
 ---
-title: "Conectarse a SQL Server mediante la autenticación de Windows con el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Conectarse a SQL Server mediante la autenticación de Windows con el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 45c54b2a-e056-496f-9f10-f19b6a3ca1a6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222316"
 ---
 # <a name="connect-to-sql-server-using-windows-authentication-with-the-sql-adapter"></a>Conectarse a SQL Server mediante la autenticación de Windows con el adaptador de SQL
 El [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] permite a los clientes de adaptador utilizar la autenticación de Windows para establecer una conexión con SQL Server. Para usar la autenticación de Windows, los clientes de adaptador deben escribir un nombre de usuario vacío y una contraseña. 

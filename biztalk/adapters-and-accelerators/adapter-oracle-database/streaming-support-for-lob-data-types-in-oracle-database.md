@@ -1,11 +1,11 @@
 ---
 title: Compatibilidad para tipos de datos LOB en la base de datos de Oracle de streaming | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - streaming, node-value
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - LOB data
 - streaming, node
 ms.assetid: a4943cdf-8336-48ac-b592-52ec514e7300
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214652"
 ---
 # <a name="streaming-support-for-lob-data-types-in-oracle-database"></a>Compatibilidad con Streaming para tipos de datos LOB en la base de datos de Oracle
 La base de datos de Oracle admite la transmisión por secuencias en objetos grandes (LOB) tipos de datos. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]mensaje admite la transmisión por secuencias, lo cual posibilita la secuencia LOB datos-to-end entre un cliente de adaptador y la base de datos de Oracle. Sin embargo, transmisión por secuencias no se admite en la misma manera a través de todos los modelos de programación al usar el adaptador.  

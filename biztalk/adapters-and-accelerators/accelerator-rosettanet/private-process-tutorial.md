@@ -1,18 +1,18 @@
 ---
 title: Tutorial de procesos privados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, tutorial
 - private process tutorial
 - tutorials, private process tutorial
 ms.assetid: 58affc48-af73-406e-895f-696bc284d945
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209924"
 ---
 # <a name="private-process-tutorial"></a>Tutorial de procesos privado
 Este tutorial contiene una completa solución de extremo a extremo mediante [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. El tutorial detalla los pasos que se deben seguir para implementar una solución compatible con RosettaNet mediante la creación de un escenario comercial entre dos empresas ficticias: la organización del proveedor, Contoso y Fabrikam, la organización del comprador.  

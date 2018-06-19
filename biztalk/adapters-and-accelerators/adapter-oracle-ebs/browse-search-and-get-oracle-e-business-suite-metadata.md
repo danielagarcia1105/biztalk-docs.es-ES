@@ -1,14 +1,14 @@
 ---
 title: Explorar, buscar y obtener metadatos de Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b516c6e9-dbb3-4977-bb27-aa039e021912
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218300"
 ---
 # <a name="browse-search-and-get-oracle-e-business-suite-metadata"></a>Explorar, buscar y obtener metadatos de Oracle E-Business Suite
 Los metadatos que [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] superficies de Oracle E-Business Suite y la base de datos de Oracle subyacente se describe la estructura del mensaje para la comunicación con Oracle E-Business Suite mediante el adaptador. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] es compatible con dos interfaces para recuperar los metadatos.  

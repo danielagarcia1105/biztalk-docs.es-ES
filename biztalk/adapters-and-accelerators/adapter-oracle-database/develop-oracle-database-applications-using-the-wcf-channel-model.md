@@ -1,11 +1,11 @@
 ---
 title: Desarrollar aplicaciones de base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, streaming
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF channel model, developingn applications
 - channel programming, performing operations
 ms.assetid: cb6bf5fd-ff90-44bd-a9dd-03b00f12a78d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214988"
 ---
 # <a name="develop-oracle-database-applications-using-the-wcf-channel-model"></a>Desarrollar aplicaciones de base de datos de Oracle mediante el modelo de canal de WCF
 Puede usar el [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] modelo del canal para consumir el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] mediante el envío de mensajes XML directamente a través de una instancia del canal creado con el enlace de la base de datos de Oracle.  

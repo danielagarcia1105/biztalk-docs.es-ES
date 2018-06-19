@@ -1,17 +1,17 @@
 ---
 title: Mensaje de procesamiento en BTARN | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message processing
 - BTARN, message flow
 ms.assetid: 549c28c0-4cd6-4d98-8b0b-c57f3d8126c0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209628"
 ---
 # <a name="message-processing-in-btarn"></a>Procesamiento de mensajes en BTARN
 Esta sección se describe cómo los componentes principales de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] procesar mensajes. En su caso, los temas de esta sección incluyen descripciones del flujo de mensajes a través del componente.  

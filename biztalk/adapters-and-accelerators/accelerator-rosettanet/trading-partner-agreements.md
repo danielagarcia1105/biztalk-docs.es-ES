@@ -11,7 +11,7 @@ helpviewer_keywords:
 - trading partners, agreements
 - agreements, trading partners
 ms.assetid: 846466d2-db39-42ba-8be1-ecca83a55a02
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22208684"
 ---
 # <a name="trading-partner-agreements"></a>Acuerdos de socios comerciales
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] procesa el intercambio de mensajes con un socio comercial por un acuerdo entre socios comerciales (TPA). El TPA define las características de procesamiento de mensajes y validación entre los dos asociados. Define cómo esos socios implementan el proceso de interfaz de socio (PIP) pertinente, que especifica el contenido del mensaje para todas las implementaciones de un tipo de mensaje específico. El TPA también define los detalles de cómo los socios comerciales intercambian mensajes a través de Internet.  

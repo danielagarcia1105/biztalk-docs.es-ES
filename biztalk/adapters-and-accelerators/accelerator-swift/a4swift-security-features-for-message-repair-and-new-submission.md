@@ -1,11 +1,11 @@
 ---
-title: "Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío | Documentos de Microsoft"
-ms.custom: 
+title: Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - security, A4SWIFT
 - messages, security
 ms.assetid: c34bcba7-fecd-4e2f-ab49-a6ccfd96198b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208172"
 ---
 # <a name="a4swift-security-features-for-message-repair-and-new-submission"></a>Características de seguridad de A4SWIFT de reparación de mensajes y nuevo envío
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]ofrece los medios de cuadro de mensaje SWIFT creación, reparación, comprobación de regeneración de claves y aprobación. Los usuarios empresariales crear, editar y revisar los mensajes de SWIFT mediante [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)], que proporciona una interfaz gráfica de usuario y de representación para financieros mensajes (FIN). [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]representa el formulario de comprobación de la entrada y la reparación o regeneración de claves desde el XML generado por el tiempo de ejecución de A4SWIFT y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. A4SWIFT proporciona un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] plantilla por cada term mensaje tipo (basado en el esquema XSD de A4SWIFT correspondiente) para que puedan abrir los tipos de mensaje SWIFT FINÉS en [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]. A4SWIFT proporciona las siguientes características para ayudar en la seguridad.  

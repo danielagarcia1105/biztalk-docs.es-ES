@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para los conjuntos de solicitud | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bba9677d-ee94-4da5-8611-b1e47f2f3798
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217100"
 ---
 # <a name="message-schemas-for-request-sets"></a>Esquemas de mensaje para conjuntos de solicitudes
 Aparece como una operación en cada solicitud que se establezcan en una aplicación de Oracle en Oracle E-Business Suite [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  

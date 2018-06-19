@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214276"
 ---
 # <a name="get-metadata-programmatically-from-the-oracle-database"></a>Obtener metadatos mediante programación de la base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es un enlace personalizado de WCF que expone una base de datos de Oracle como un servicio WCF. El adaptador expone la base de datos de Oracle como un servicio autodescriptivo; es decir, un servicio que es capaz de publicación de metadatos acerca de las operaciones que admite. Los metadatos describen la interfaz lógica a un servicio WCF; es decir, el contrato de servicio, mensajes y los esquemas de mensaje que se deben usar para interactuar con el servicio.  

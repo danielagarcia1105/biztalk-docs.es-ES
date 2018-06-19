@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224332"
 ---
 # <a name="configure-the-connection-uri-for-the-siebel-adapter"></a>Configurar el URI de conexión para el adaptador de Siebel
 Una conexión URI es una cadena de conexión para conectarse a un sistema Siebel. El URI de conexión contiene varios parámetros necesarios para establecer conexión con un sistema Siebel. Debe especificar esta conexión URI en el tiempo de diseño y en tiempo de ejecución. En tiempo de diseño, debe especificar el URI para conectarse al sistema Siebel para generar los metadatos. En tiempo de ejecución, debe especificar el URI para conectarse al sistema Siebel para realizar operaciones.  

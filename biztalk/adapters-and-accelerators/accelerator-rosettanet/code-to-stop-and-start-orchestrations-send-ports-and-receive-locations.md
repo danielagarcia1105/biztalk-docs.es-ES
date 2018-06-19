@@ -1,11 +1,11 @@
 ---
-title: "Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Documentos de Microsoft"
-ms.custom: 
+title: Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - SDK samples, receive locations
 - examples, receive locations
 ms.assetid: 1c06e14d-44ec-4292-a2c2-ee2c8d07d948
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210884"
 ---
 # <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a>Detener e iniciar orquestaciones, puertos de envío y ubicaciones de recepción mediante programación
 Este tema proporciona código de ejemplo para detener mediante programación y a partir de orquestaciones, puertos de envío y ubicaciones de recepción. Puede realizar estas acciones en todas las orquestaciones, puertos de envío y recepción ubicaciones como un grupo o individualmente. Puede incluir este código en un programa para realizar estas acciones de forma dinámica. Realizar estas acciones en la interfaz gráfica de usuario en tiempo de diseño en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], o en tiempo de ejecución en la consola de administración de BizTalk.  

@@ -1,14 +1,14 @@
 ---
 title: Comprender la arquitectura y los distintos componentes del SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 293189be-61d7-44f4-8ba6-e5550516d9b4
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223524"
 ---
 # <a name="understand-the-architecture-and-different-components-of-the-wcf-lob-adapter-sdk"></a>Comprender la arquitectura y los distintos componentes del SDK de adaptador LOB de WCF
 Obtenga información sobre la [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] para ayudar a comprender los distintos componentes y el rol de WCF.  

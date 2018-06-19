@@ -1,18 +1,18 @@
 ---
 title: Persistencia en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, persistence
 - persistence
 - BizTalk Server Orchestration Engine
 ms.assetid: 2f79d294-f7df-4d84-ba76-50618506b6c6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264596"
 ---
 # <a name="persistence-in-orchestrations"></a>Persistencia en orquestaciones
 El motor de orquestaciones guarda toda la información de estado de una instancia de orquestación en varios puntos de persistencia para permitir la rehidratación de la instancia de orquestación. El estado incluye los componentes basados en .NET que se pueden usar en la orquestación, así como los mensajes y variables. El motor almacena la información de estado en los siguientes puntos de persistencia:  

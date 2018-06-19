@@ -1,17 +1,17 @@
 ---
 title: Esquemas de mensajes para operaciones de RFC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RFC operations, message structure for
 - RFC operations, message actions for
 ms.assetid: 50cd9b28-2e66-4c76-9d19-f0da6e7b8e10
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217308"
 ---
 # <a name="message-schemas-for-rfc-operations"></a>Esquemas de mensaje para las operaciones de RFC
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] superficies de llamadas de función remota (RFC) de SAP como operaciones. Este tema contiene información sobre los esquemas de mensaje y acciones de mensaje que se usan para las operaciones de RFC. La estructura del mensaje es el mismo para las operaciones de RFC entrantes y salientes. Para obtener información general de las operaciones de RFC que admite el adaptador, vea [operaciones en RFC en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).  

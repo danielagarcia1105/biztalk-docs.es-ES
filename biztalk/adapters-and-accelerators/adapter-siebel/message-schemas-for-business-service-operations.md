@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222300"
 ---
 # <a name="message-schemas-for-business-service-operations"></a>Esquemas de mensaje para las operaciones de servicio de negocios
 Un servicio de negocios de Siebel es una colección de métodos de negocio que se pueden invocar directamente en un sistema Siebel. La [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] expone los métodos de negocio de un servicio de negocios de Siebel como operaciones.  

@@ -1,18 +1,18 @@
 ---
-title: "Módulo 3: Agregar un proyecto de canalización | Documentos de Microsoft"
-ms.custom: 
+title: 'Módulo 3: Agregar un proyecto de canalización | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorial, creating pipelines
 - projects, pipelines
 - pipelines, adding to projects
 ms.assetid: 38bf1629-df29-4bea-840b-60b354b06430
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208164"
 ---
 # <a name="module-3-adding-a-pipeline-project"></a>Módulo 3: Agregar un proyecto de canalización
 En este módulo, agregue un nuevo proyecto a la solución que contiene su envío personalizada y canalizaciones de recepción. Dado que está trabajando con los mensajes de SWIFT, que son los archivos planos de la naturaleza, no se puede utilizar las canalizaciones predeterminadas que se incluyen con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  

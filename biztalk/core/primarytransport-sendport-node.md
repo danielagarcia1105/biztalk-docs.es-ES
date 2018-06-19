@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264940"
 ---
 # <a name="primarytransport-sendport-node"></a>PrimaryTransport (nodo puertoEnvío)
 El nodo PrimaryTransport del nodo puertoEnvío de un archivo de enlace proporciona información específica acerca del transporte principal enlazado a un puerto de envío que se exporta con el archivo de enlace.  

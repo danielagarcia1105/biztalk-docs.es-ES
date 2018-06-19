@@ -1,18 +1,18 @@
 ---
-title: "Crear el FRR la canalización de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Crear el FRR la canalización de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, creating
 - FRR, creating receive pipelines
 - creating, receive pipelines
 ms.assetid: 5884176b-8522-4dd3-8f93-8695858b59ac
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210380"
 ---
 # <a name="creating-the-frr-receive-pipeline"></a>Crear el FRR la canalización de recepción
 Para realizar la conciliación de respuesta de FIN, debe crear una canalización de recepción que contiene el descodificador de SWIFT FRR y componentes de canalización de SWIFT FRR CorrelationSet resolución, así como el Desensamblador SWIFT.  

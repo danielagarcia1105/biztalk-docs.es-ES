@@ -1,14 +1,14 @@
 ---
 title: Formas de utilizar los tipos globales complejos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ddea1c7b-eb0e-4521-8576-0ea6f9460847
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288660"
 ---
 # <a name="ways-to-use-complex-global-types"></a>Formas de utilizar los tipos globales complejos
 Tras convertir un tipo complejo en un tipo global complejo, podrá usarlo en otras ubicaciones dentro del esquema. Para obtener más información sobre cómo definir un tipo complejo y, a continuación, convertirlo en un tipo global complejo, consulte [definición de tipo Global complejo y nomenclatura](../core/complex-global-type-definition-and-naming.md).  

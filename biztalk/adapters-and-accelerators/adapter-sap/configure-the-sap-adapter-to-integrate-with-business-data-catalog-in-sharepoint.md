@@ -1,14 +1,14 @@
 ---
-title: "Configure el adaptador SAP para SAP se integran con los datos empresariales catálogo y SharePoint | Documentos de Microsoft"
-ms.custom: 
+title: Configure el adaptador SAP para SAP se integran con los datos empresariales catálogo y SharePoint | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ec105c9-0ced-4a45-bc0d-eb72c1ef5d9d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216540"
 ---
 # <a name="configure-the-sap-adapter-to-integrate-sap-with-the-business-data-catalog-and-sharepoint"></a>Configure el adaptador SAP para SAP se integran con los datos empresariales catálogo y SharePoint
 El [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] incluye la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], lo cual genera un servicio WCF para los artefactos LOB específicos. Este servicio WCF se hospeda en un entorno de hospedaje, como Microsoft Internet Information Services (IIS). El Editor de definición del catálogo de datos profesionales usa la dirección URL donde se hospeda el servicio WCF para obtener el lenguaje de descripción de servicios Web (WSDL) para el servicio WCF. Con el archivo WSDL, el Editor de definición del catálogo de datos profesionales extrae los métodos disponibles para el servicio WCF. Estos métodos se pueden utilizar para establecer las entidades y la asociación entre las entidades.  

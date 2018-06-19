@@ -1,14 +1,14 @@
 ---
-title: "Compatibilidad con conversión de tipos | Documentos de Microsoft"
-ms.custom: 
+title: Compatibilidad con conversión de tipos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6af46e34-5e33-4f61-8c19-4348f1bb4d4a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279508"
 ---
 # <a name="support-for-type-casting"></a>Compatibilidad con conversión de tipos
 Puede usar el **conversión** método de la **ClassMemberBinding** clase para convertir un objeto de un tipo a un objeto de otro tipo compatible. Actualmente, la herramienta de Compositor de reglas de negocio no admite crear reglas mediante el **conversión** método. Las reglas deben crearse mediante programación utilizando el modelo de objetos del motor de reglas para aprovechar esta función.  

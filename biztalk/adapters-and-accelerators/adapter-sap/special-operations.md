@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216612"
 ---
 # <a name="special-operations"></a>Operaciones especiales
 La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone varias operaciones especiales. Estas operaciones no se basan en artefactos del sistema SAP. Emerge para proporcionar la funcionalidad para las aplicaciones de cliente de adaptador. Las operaciones especiales son:  

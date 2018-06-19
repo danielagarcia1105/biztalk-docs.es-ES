@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214428"
 ---
 # <a name="network-configuration"></a>Configuración de red
 Esta sección proporciona instrucciones para configurar la red en su implementación. Para obtener más información, consulte [preparar para la implementación](../../adapters-and-accelerators/accelerator-swift/preparing-for-deployment.md).  

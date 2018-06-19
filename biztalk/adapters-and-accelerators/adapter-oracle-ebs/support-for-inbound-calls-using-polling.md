@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad para las llamadas entrantes mediante sondeo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae02a93a-808f-4774-a2c4-efdf39a4d49a
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217404"
 ---
 # <a name="support-for-inbound-calls-using-polling"></a>Compatibilidad para las llamadas entrantes mediante sondeo
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] permite a los programas de cliente recibir mensajes de Oracle E-Business Suite que les informa de los cambios a los datos de Oracle E-Business Suite. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] admite la recepción de mensajes "basada en sondeo" en el que el adaptador ejecuta una instrucción SQL especificada, procedimiento almacenado, función o un procedimiento dentro de un paquete, recupera los datos y proporciona el resultado al cliente a intervalos regulares de hora.  

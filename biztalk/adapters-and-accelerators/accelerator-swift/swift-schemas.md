@@ -1,11 +1,11 @@
 ---
 title: Esquemas SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT, SWIFT messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SWIFT messages, SWIFT schemas
 - SWIFT, schemas
 ms.assetid: 53017a56-a718-4577-a08c-9c92d9a54e7a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214924"
 ---
 # <a name="swift-schemas"></a>Esquemas SWIFT
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]envía y recibe mensajes de (FIN) de financieros SWIFT distintos archivos planos a través de la red SWIFT. Cada mensaje individual se compone de un conjunto de bloques de encabezado, un bloque de texto que se compone de un conjunto predefinido de etiquetado campos y subcampos ordenados o posicionales y un conjunto de finalizadores dentro de un bloque de finalizador. El contenido del bloque de texto varía según el tipo de mensaje.  

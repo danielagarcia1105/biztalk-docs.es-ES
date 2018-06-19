@@ -1,11 +1,11 @@
 ---
-title: "Detección de tipo de mensaje dinámico y la resolución de esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Detección de tipo de mensaje dinámico y la resolución de esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - dynamic schema resolution
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - disassembler, message types
 - code samples, disassembler
 ms.assetid: 5f71d3df-a37e-4ef2-9055-b614656203e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211340"
 ---
 # <a name="dynamic-message-type-discovery-and-schema-resolution"></a>Detección de tipo de mensaje dinámico y la resolución de esquemas
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] habilita la resolución de detección y el esquema del tipo de mensaje dinámico en las ensamblador y desensamblador SWIFT.  
