@@ -1,11 +1,11 @@
 ---
-title: "Administración de grupos | Documentos de Microsoft"
-ms.custom: 
+title: Administración de grupos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, managing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - groups
 - groups, about groups
 ms.assetid: 6ca717c0-53c1-484a-b6cf-24f3d4ab032e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262364"
 ---
 # <a name="managing-groups"></a>Administrar grupos
 Esta sección proporciona procedimientos para administrar un grupo de BizTalk. Usar el grupo de BizTalk Server para representar una unidad de organización, como una empresa, departamento o concentrador: que requiere un Microsoft independiente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementación. La base de datos de administración de BizTalk (BizTalkMgmtDb) almacena información de configuración para el grupo de BizTalk y los servidores de ese grupo. Para obtener más información acerca del grupo de BizTalk, consulte [grupos de BizTalk](../core/biztalk-groups.md).  

@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "29564412"
 ---
 # <a name="sftp-adapter"></a>Adaptador SFTP
 BizTalk Server incluye un **SFTP** adaptador para enviar y recibir mensajes desde un servidor FTP seguro mediante el protocolo de transferencia de archivos SSH. Este tema incluyen los pasos para configurar un **SFTP** ubicación de recepción y configurar un puerto de envío SFTP para recibir y enviar mensajes desde un servidor FTP seguro. También incluye preguntas y respuestas más comunes.

@@ -1,11 +1,11 @@
 ---
-title: "Implementar el servicio solución orientada a servicios | Documentos de Microsoft"
-ms.custom: 
+title: Implementar el servicio solución orientada a servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, service solution tutorial
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - service solution tutorial, background information
 - tutorials, deploying
 ms.assetid: 88d4d28d-9031-4fb8-ab62-04ee27949673
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239196"
 ---
 # <a name="deploying-the-service-oriented-solution"></a>Implementar el servicio solución orientada a servicios
 La arquitectura orientada a servicios (SOA) es un enfoque para la generación de sistemas distribuidos. La solución orientada a servicios demuestra cómo varios sistemas servidor con protocolos distintos se pueden integrar en un único servicio que pueden consumir los clientes. Esta solución integra servicios con un enfoque que garantiza las características de entrega y rendimiento.  

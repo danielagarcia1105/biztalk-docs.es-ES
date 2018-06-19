@@ -1,15 +1,15 @@
 ---
 title: Aplicaciones de ejemplo de Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-description: "Instalar las aplicaciones de ejemplo del Kit de herramientas ESB y obtener vínculos rápidos usarlos en BizTalk Server"
-caps.latest.revision: "5"
+description: Instalar las aplicaciones de ejemplo del Kit de herramientas ESB y obtener vínculos rápidos usarlos en BizTalk Server
+caps.latest.revision: 5
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 188f8e1f-26fb-4ea6-8e2e-f2ae3e46ca20
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290692"
 ---
 # <a name="biztalk-esb-toolkit-sample-applications"></a>Aplicaciones de ejemplo de Kit de herramientas de ESB de BizTalk
 El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye varias aplicaciones de ejemplo que se pueden instalar y ejecutar para ver cómo funciona la ESB y cómo utiliza algunas de ESB componentes de canalización. Puede adaptar y modificar el código y las técnicas que se usan en los ejemplos para sus propias aplicaciones.  

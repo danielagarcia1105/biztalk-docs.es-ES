@@ -1,14 +1,14 @@
 ---
-title: "Configuración de las propiedades de validación de reserva (X12) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de las propiedades de validación de reserva (X12) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a64431d-373a-4d63-9b83-cbb323620152
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233156"
 ---
 # <a name="configuring-fallback-validation-properties-x12"></a>Configuración de propiedades de validación de reserva (X12)
 La configuración de reserva de generación de validación de intercambio X12 define cómo [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] comprueba si hay números de control duplicados en el intercambio recibido.  

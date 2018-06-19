@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fac15775-39d0-470e-b9d2-21b2d02e1de7
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: e35f1f068f63d4db9738733bcada55047e81a19a
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250960"
 ---
 # <a name="how-to-list-the-properties-of-an-affiliate-application"></a>Cómo mostrar las propiedades de una aplicación afiliada
 El **displayapp** comando muestra la siguiente información acerca de la aplicación afiliada. Para obtener más información acerca de las propiedades para una aplicación afiliada, vea [aplicaciones afiliadas de SSO](../esso/sso-affiliate-applications.md).  

@@ -1,14 +1,14 @@
 ---
-title: "Preparar el equipo para la instalación | Documentos de Microsoft"
-ms.custom: 
+title: Preparar el equipo para la instalación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 03/15/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53df7a2f-638b-4921-a97f-736760248526
-caps.latest.revision: 
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710463"
 ---
 # <a name="prepare-your-computer-for-installation"></a>Preparar el equipo para la instalación
 En este tema se muestran los pasos necesarios para preparar el equipo, mediante la instalación y configuración de todos los requisitos previos de software, y para crear cuentas y configurar permisos.  

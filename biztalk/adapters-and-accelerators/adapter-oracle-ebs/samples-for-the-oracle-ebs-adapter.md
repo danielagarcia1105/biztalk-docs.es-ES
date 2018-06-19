@@ -1,15 +1,15 @@
 ---
 title: Ejemplos de adaptadores de Oracle EBS | Documentos de Microsoft
 description: Ejemplos de adaptadores de WCF de Enterprise Business Suite de Oracle que pueden usarse con BizTalk Server, el modelo de servicio WCF y el modelo del canal WCF
-ms.custom: 
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12f19f13-3b01-40d6-b12c-811f99841040
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015347"
 ---
 # <a name="samples-for-the-oracle-ebs-adapter"></a>Ejemplos para el adaptador de Oracle EBS
 Ejemplos de [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] se clasifican en categorías:  

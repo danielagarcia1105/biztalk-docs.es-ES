@@ -1,14 +1,14 @@
 ---
-title: "Tutorial (X12): Recepción por lotes de intercambios EDI | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial (X12): Recepción por lotes de intercambios EDI | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f6e6e96-39ec-469d-a845-1bfdce6cc0bf
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975732"
 ---
 # <a name="walkthrough-x12-receiving-batched-edi-interchanges"></a>Tutorial (X12): Recibir intercambios EDI por lotes
 Este tutorial proporciona un conjunto de procedimientos descritos paso a paso que crean una solución para recibir lotes de EDI mediante el uso de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta solución muestra dos formas de recibir un intercambio EDI por lotes:  

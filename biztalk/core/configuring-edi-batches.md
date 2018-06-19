@@ -1,14 +1,14 @@
 ---
-title: "Configuración de lotes de EDI | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de lotes de EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8be06e5c-603a-4f93-b018-105314666157
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232804"
 ---
 # <a name="configuring-edi-batches"></a>Configurar lotes de EDI
 En los temas de esta sección se describe cómo recibir un intercambio por lotes dividido o conservado, cómo enviar un intercambio conservado a través de una canalización XML y cómo implementar un mecanismo de liberación de lote externo.  

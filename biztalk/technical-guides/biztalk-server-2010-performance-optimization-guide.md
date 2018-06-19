@@ -1,14 +1,14 @@
 ---
-title: "Guía de optimización de rendimiento de BizTalk Server 2010 | Documentos de Microsoft"
-ms.custom: 
+title: Guía de optimización de rendimiento de BizTalk Server 2010 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a56b27f-3e57-47db-a776-520f2d67d65e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010733"
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a>Guía de optimización de rendimiento de BizTalk Server 2010
 Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rendimiento. Hemos creado esta guía para proporcionar información detallada para optimizar el rendimiento de una solución de BizTalk Server. Pruebas de rendimiento de end-to-end se suelen pasarse por alto durante la implementación de aplicaciones empresariales. Saber que Microsoft ha creado una infraestructura de mensajería escalable, muchas organizaciones que usan el servidor BizTalk Server dedican tiempo a poca o ninguna realizar pruebas de rendimiento de sus propias aplicaciones. Aplicaciones de BizTalk Server constan de varios elementos, que pueden incluir los componentes, así como los proporcionados por Microsoft. No es posible para todas las combinaciones posibles de estos componentes de prueba de Microsoft para el rendimiento. Por lo tanto, completa y correctamente llevando a cabo una prueba de rendimiento de la aplicación es un paso crítico de cualquier implementación.  

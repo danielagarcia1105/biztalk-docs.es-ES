@@ -1,14 +1,14 @@
 ---
-title: "Derivación de tipo complejo mediante el mecanismo de restricción | Documentos de Microsoft"
-ms.custom: 
+title: Derivación de tipo complejo mediante el mecanismo de restricción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3003d88-6b75-4dcb-834f-1babcf7449cb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233484"
 ---
 # <a name="complex-type-derivation-using-the-restriction-mechanism"></a>Derivación de tipo complejo mediante el mecanismo de restricción
 La derivación por restricción es similar a la derivación por extensión, en lo que respecta a la funcionalidad del Editor de BizTalk. Un tipo complejo derivado por restricción es similar al tipo de datos base aplicable, excepto por sus declaraciones, que son más limitadas que las declaraciones correspondientes del tipo de datos base. De hecho, los valores representados por el tipo nuevo son un subconjunto de los valores representados por el tipo de datos base (al igual que ocurre en la restricción de tipos simples). Una aplicación preparada para los valores del tipo de datos base debería poder procesar correctamente cualquiera de los valores del tipo restringido.  

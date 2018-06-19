@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261876"
 ---
 # <a name="jd-edwards-enterpriseone-add-adapter-metadata-wizard"></a>Asistente para Agregar metadatos de adaptador de JD Edwards EnterpriseOne
 Use el Asistente para agregar adaptador para acceder a la información de metadatos desde el sistema JD Edwards EnterpriseOne.  

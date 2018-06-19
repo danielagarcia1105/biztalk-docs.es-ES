@@ -1,14 +1,14 @@
 ---
-title: "Administración del nivel de servicio | Documentos de Microsoft"
-ms.custom: 
+title: Administración del nivel de servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: add50343-5470-4db3-a029-c827523e2f2c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294732"
 ---
 # <a name="service-level-management"></a>Administración del nivel de servicio
 El Administrador de nivel de servicio de SMS de AmberPoint proporciona visibilidad a específicos de problemas de rendimiento y disponibilidad en sistemas basados en SOA de nivel de empresa. Instrumenta y realiza un seguimiento de las métricas para cada Microsoft BizTalk Server ubicación de recepción y el puerto de envío. Esto proporciona la indicación de estado en tiempo real, además de caracterización de rendimiento en curso de estos componentes. La figura 1 muestra la visualización de las métricas asociadas a una ubicación de recepción.  

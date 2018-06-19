@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287428"
 ---
 # <a name="updateex-method"></a>Método UpdateEx
 Usa para actualizar propiedades basadas en los parámetros de clave de entrada (clave1, clave2... claven). Al usar `UpdateEx`, no se pueden eliminar los elementos de una colección. Un método independiente facilita la eliminación. Para obtener más información, consulte [método DeleteOnly](../core/deleteonly-method.md).  

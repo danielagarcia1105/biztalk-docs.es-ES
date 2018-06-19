@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288500"
 ---
 # <a name="wcf-customisolated-adapter"></a>Adaptador de WCF-CustomIsolated
 El adaptador de WCF-CustomIsolated es un adaptador aislado que permite configurar ubicaciones de recepción mediante el transporte HTTP con cualquier configuración de enlace y comportamiento para Windows Communication Foundation (WCF) que es aplicables a [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar el adaptador de WCF-CustomIsolated para escenarios en los que no son compatibles los adaptadores de WCF. El adaptador de WCF-CustomIsolated también le permite utilizar los puntos de extensibilidad WCF en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

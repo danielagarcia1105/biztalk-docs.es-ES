@@ -1,15 +1,15 @@
 ---
-title: "Introducción a la arquitectura de SDK de adaptador LOB de WCF | Documentos de Microsoft"
-description: "Introducción a los controladores, implementación de canal, administración de conexiones, metadatos y usar WSDL en el SDK de adaptador LOB de WCF"
-ms.custom: 
+title: Introducción a la arquitectura de SDK de adaptador LOB de WCF | Documentos de Microsoft
+description: Introducción a los controladores, implementación de canal, administración de conexiones, metadatos y usar WSDL en el SDK de adaptador LOB de WCF
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dbd9b63c-54a4-4f63-b3a8-8600f6009a74
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226628"
 ---
 # <a name="architecture-overview-of-the-wcf-lob-adapter-sdk"></a>Introducción a la arquitectura de SDK de adaptador LOB de WCF
 El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] se basa en el modelo de canal de WCF y proporciona extensiones de tiempo de diseño y tiempo de ejecución para los programadores del adaptador crear adaptadores en sistemas de línea de negocio que tengan metadatos grande y dinámico. Un adaptador creado mediante el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] aparece al consumidor como un enlace personalizado de WCF. En la siguiente ilustración muestra la arquitectura interna y los componentes principales del SDK de adaptador LOB de WCF.  

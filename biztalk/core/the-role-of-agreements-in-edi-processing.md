@@ -1,14 +1,14 @@
 ---
 title: Rol de los acuerdos en el procesamiento de EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d81b0449-6656-49f7-a781-5fd60031b3d5
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279940"
 ---
 # <a name="the-role-of-agreements-in-edi-processing"></a>Rol de los acuerdos en el procesamiento de EDI
 Una organización usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes EDI de uno o varios socios comerciales, así como para enviar mensajes EDI a ellos. A su vez, los socios comerciales definen perfiles de negocio que son entidades de negocio dentro de una organización. La forma en que los perfiles de negocio intercambian mensajes se define como parte de los acuerdos entre socios comerciales de dos perfiles de negocio. Para obtener más información, consulte [bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md).  

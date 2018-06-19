@@ -1,14 +1,14 @@
 ---
-title: "Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44451c85-929a-4d13-b0dd-53ea600d0859
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010045"
 ---
 # <a name="how-to-implement-content-based-routing-using-a-business-rules-policy-for-a-known-message-type"></a>Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido
 ## <a name="goal"></a>Objetivo  
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-add-a-routing-rule-for-customer-globalbank-west"></a>Para agregar una regla de enrutamiento de cliente GlobalBank West  
   
-1.  En el **RouteBasedOnCustomerKnownType** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetWestEndpoint**.  
+1.  En el **RouteBasedOnCustomerKnownType** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**. Nombre de la regla **SetWestEndpoint**.  
   
 2.  En el Explorador de hechos, haga clic en el **esquemas XML** pestaña, haga clic en **esquemas**y, a continuación, haga clic en **examinar**.  
   
@@ -114,7 +115,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  En el Explorador de directivas, haga clic en el **SetWestEndpoint** de regla y, a continuación, haga clic en **copia**.  
   
-2.  Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **pegar**.  
+2.  Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **pegar**.  
   
 3.  En el **nombre de nueva regla** cuadro de diálogo, escriba **SetEastEndpoint**y, a continuación, haga clic en **Aceptar**.  
   
@@ -126,7 +127,7 @@ ms.lasthandoff: 12/01/2017
   
 7.  En el **acciones** sección, haga clic en **C:\HowTos\Out\West%MessageID%.xml**y, a continuación, haga clic en **Restablecer argumento**.  
   
-8.  Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.  
+8.  Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.  
   
 #### <a name="to-add-a-routing-rule-for-unknown-customers"></a>Para agregar una regla de enrutamiento para los clientes desconocidos  
   
@@ -162,7 +163,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-publish-and-deploy-the-policy"></a>Para publicar e implementar la directiva  
   
-1.  En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.  
+1.  En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.  
   
 2.  En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.  
   

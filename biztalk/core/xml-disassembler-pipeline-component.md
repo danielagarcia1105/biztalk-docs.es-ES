@@ -1,18 +1,18 @@
 ---
-title: "Componente de canalización de desensamblador XML | Documentos de Microsoft"
-ms.custom: 
+title: Componente de canalización de desensamblador XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Disassembler [pipeline component], about XML Disassembler
 - pipeline components, XML Disassembler
 - XML Disassembler [pipeline component]
 ms.assetid: ef39b695-6ae7-401d-be1e-b066048c34e9
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289876"
 ---
 # <a name="xml-disassembler-pipeline-component"></a>Componente de canalización del desensamblador de XML
 El componente de canalización de desensamblador XML combina el análisis y desensamblado en un componente. Sus funciones principales son:  

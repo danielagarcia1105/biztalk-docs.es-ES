@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es BAM? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es BAM? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], monitoring
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - monitoring, BAM
 - profiles, BAM
 ms.assetid: 5160026a-1ffe-457e-8b75-35ed9bb3457c
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289764"
 ---
 # <a name="what-is-bam"></a>¿Qué es BAM?
 La Supervisión de la actividad económica (BAM) es un conjunto de herramientas que le permiten administrar agregaciones, alertas y perfiles para supervisar métrica empresarial pertinente (que se denomina Indicadores clave de rendimiento o KPI). Aporta visibilidad de extremo a extremo a sus procesos empresariales y proporciona información precisa acerca del estado y los resultados de varias operaciones, procesos y transacciones, por lo que puede resolver áreas problemáticas y resolver problemas en su empresa.  

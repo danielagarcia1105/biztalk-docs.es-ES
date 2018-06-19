@@ -1,18 +1,18 @@
 ---
 title: Origen de Control y el sistema de proyectos de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft Source Code Control Interface (MSSCCI)
 - projects, security
 - security, projects
 ms.assetid: 0f5c2f4d-5e16-4277-b750-60813a3ff964
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008205"
 ---
 # <a name="source-control-and-the-biztalk-project-system"></a>Control de código fuente y el sistema de proyectos de BizTalk
 El control de código fuente es un mecanismo mediante el cual un software central almacena y realiza el seguimiento de las versiones de archivos y controla a las personas que pueden obtener acceso a esos archivos. Al utilizar el control de código fuente, puede:  

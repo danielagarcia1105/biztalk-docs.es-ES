@@ -1,14 +1,14 @@
 ---
-title: "Depuración y el archivo de datos de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Depuración y el archivo de datos de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14094fda-3fd9-4d45-9bbb-cd9377c2cbad
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302940"
 ---
 # <a name="purging-and-archiving-tracking-data"></a>Depuración y el archivo de datos de seguimiento
 Es importante configurar y habilitar el trabajo DTA Purge and Archive SQL Agent. Este trabajo archiva y purga los datos antiguos de la base de datos de seguimiento de BizTalk (DTA). Esto es esencial para un correcto [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema. Una base de datos de seguimiento grande empezarán a afectar al rendimiento del host de seguimiento y los demás procesos que consulta la base de datos de seguimiento. Si no se purgan los datos de seguimiento de la base de datos de seguimiento, la base de datos siguen creciendo a.  

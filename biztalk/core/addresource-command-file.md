@@ -1,14 +1,14 @@
 ---
 title: 'El comando AddResource: Archivo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9635e43-af26-48d3-af0e-df245a8955e7
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230308"
 ---
 # <a name="addresource-command-file"></a>AddResource (comando): archivo
 Para agregar un archivo a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: file** para el parámetro de tipo. Ejecutar este comando agrega el archivo a la base de datos de administración de BizTalk. Además, el archivo aparece en la consola de administración de BizTalk Server en la carpeta Recursos de la aplicación a la que lo agregó. Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).  

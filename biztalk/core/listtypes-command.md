@@ -1,14 +1,14 @@
 ---
 title: El comando ListTypes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94febe8a-4c1e-4581-a6d1-ef579633e745
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262220"
 ---
 # <a name="listtypes-command"></a>ListTypes (comando)
 Enumera todos los tipos de artefactos que se pueden agregar a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el uso de la **AddResource** comando. Para obtener más información sobre la **AddResource** command, consulte [comando AddResource](../core/addresource-command.md).  

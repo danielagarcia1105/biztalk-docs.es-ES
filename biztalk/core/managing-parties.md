@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009653"
 ---
 # <a name="managing-parties"></a>Administrar entidades
 Mediante el **partes** nodo, puede configurar socios comerciales (entidades) o departamentos internos (perfiles de negocio) con el que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] interactúan las soluciones. Para obtener más información, consulte [socios comerciales](../core/trading-partners-and-business-profiles.md).  

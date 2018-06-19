@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones de la fase de comprobación | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones de la fase de comprobación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00663354-ce5d-4391-b835-89940c92c1ce
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288140"
 ---
 # <a name="verification-phase-recommendations"></a>Recomendaciones para la fase de comprobación
 Una vez finalizado el código del sistema, está preparado para su plena estabilización y es posible comprobar los criterios de versión. Esta fase se denomina con frecuencia la fase de estabilización. El objetivo definitivo de esta fase es identificar y corregir los errores y demostrar que el sistema está preparado para la producción. Esta fase, pues, conlleva una tanda de pruebas finales en un candidato de versión del sistema.  

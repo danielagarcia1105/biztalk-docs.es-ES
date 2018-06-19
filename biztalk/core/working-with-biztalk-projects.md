@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289004"
 ---
 # <a name="working-with-biztalk-projects"></a>Trabajar con proyectos de BizTalk
 Aunque muchos de los principios para la creación de una aplicación con el sistema del proyecto de BizTalk son los mismos que los empleados en la creación de aplicaciones con otros sistemas del proyecto disponibles en Microsoft Visual Studio, existen unas cuantas diferencias, como los tipos de configuraciones de generación del proyecto. En esta sección se describen algunas de las tareas que debería realizar cuando cree una aplicación que se ejecute en Microsoft BizTalk Server.  

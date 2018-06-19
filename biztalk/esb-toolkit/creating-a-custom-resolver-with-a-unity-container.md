@@ -1,14 +1,14 @@
 ---
-title: "Crear una resolución personalizada con un contenedor de Unity | Documentos de Microsoft"
-ms.custom: 
+title: Crear una resolución personalizada con un contenedor de Unity | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6f95f5e-64dd-4cc6-802f-0c5fd6a01c91
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975618"
 ---
 # <a name="creating-a-custom-resolver-with-a-unity-container"></a>Crear a una resolución personalizada con un contenedor de Unity
 Puede crear una resolución personalizada mediante la [Unity Application Block](http://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) para la inyección de dependencia de tiempo de ejecución de los orígenes de lógica y los metadatos de resolución.

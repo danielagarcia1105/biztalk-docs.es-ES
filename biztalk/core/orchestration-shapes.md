@@ -1,11 +1,11 @@
 ---
-title: "Formas de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Formas de orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Delay shape [Orchestration Designer]
@@ -36,7 +36,7 @@ helpviewer_keywords:
 - Orchestration Designer, shapes
 - Insufficient Configuration Smart Tag [Orchestration Designer]
 ms.assetid: a1d03baa-a267-499d-94fc-700b3e959458
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -45,6 +45,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264300"
 ---
 # <a name="orchestration-shapes"></a>Formas de orquestación
 El Diseñador de orquestaciones es una herramienta visual para crear orquestaciones Proporciona varias formas que puede situar en la superficie de diseño como representaciones visuales de acciones subyacentes y pueden serle útiles a la hora de diseñar e implementar eficientemente una orquestación.  

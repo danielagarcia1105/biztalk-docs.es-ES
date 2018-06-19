@@ -1,14 +1,14 @@
 ---
-title: "Elegir entre mensajería y orquestación itinerarios servicios | Documentos de Microsoft"
-ms.custom: 
+title: Elegir entre mensajería y orquestación itinerarios servicios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 694f929a-c830-4906-8e97-4fbd50e70133
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009813"
 ---
 # <a name="choosing-between-messaging-and-orchestration-itinerary-services"></a>Elegir entre mensajería y orquestación itinerarios servicios
 Itinerarios servicios pueden configurarse para que se produzca en el subsistema de mensajería o el subsistema de orquestación de BizTalk Server. Estos servicios de mensajería itinerarios de ESB están configurados para procesar el mensaje y se pueden ejecutar en una canalización de BizTalk Server (en rampa o fuera de rampa). Esta opción permite al programador definir exactamente donde en la canalización el servicio se ejecutará. Naturalmente, se ejecutarán los servicios configurados para el procesamiento en el subsistema de orquestación en una orquestación de BizTalk.  

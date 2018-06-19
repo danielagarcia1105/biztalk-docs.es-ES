@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d280198-ba55-4937-91c9-19d6d0ed3194
-caps.latest.revision: ''
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010981"
 ---
 # <a name="walkthrough-consuming-wcf-services-with-the-wcf-basichttp-adapter"></a>Tutorial: Consumir servicios WCF con el adaptador WCF-BasicHttp
   
@@ -78,7 +79,7 @@ ms.lasthandoff: 03/23/2018
   
     -   Asegúrese de que el **modo** atributo de la \< **seguridad** \> elemento está establecido en **ninguno**. Dado que este tutorial usa el **ninguno** modo de seguridad, la aplicación que hospeda este servicio debe configurarse para permitir el acceso anónimo de Web.  
   
-6.  Dado que la **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming** ensamblado debe instalarse en la GAC, necesitará un archivo de clave de nombre seguro para completar el proceso de implementación. Haga clic en el **BasicHttpWcfServiceConsuming** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>**y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto.  Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
+6.  Dado que la **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming** ensamblado debe instalarse en la GAC, necesitará un archivo de clave de nombre seguro para completar el proceso de implementación. Haga clic en el **BasicHttpWcfServiceConsuming** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>** y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto.  Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
   
 7.  En el Explorador de soluciones, haga clic en **BasicHttpWcfServiceConsuming**y, a continuación, haga clic en **volver a generar**.  
   

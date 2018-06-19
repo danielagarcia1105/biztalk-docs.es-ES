@@ -1,14 +1,14 @@
 ---
 title: Arquitectura del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a41674f5-5ea4-4a8f-a270-b67fd6854028
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007853"
 ---
 # <a name="architecture-of-the-biztalk-esb-toolkit"></a>Arquitectura del Kit de herramientas de ESB de BizTalk
 El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consta de una serie de interoperar componentes que admiten e implementan un entorno de mensajería con acoplamiento flexible que resulta más fácil crear aplicaciones empresariales basadas en mensajes. Los servicios y componentes se dividen de forma natural en las siete categorías siguientes:  

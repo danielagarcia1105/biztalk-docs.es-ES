@@ -1,14 +1,14 @@
 ---
 title: Esquema de propiedades de adaptadores WCF y propiedades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 02/09/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2093745e-86c0-4276-a7cc-a0187391ca4a
-caps.latest.revision: 
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 50798e04fdcaf5dce5288aa18608e2a981b162fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/11/2018
+ms.locfileid: "29139300"
 ---
 # <a name="wcf-adapters-property-schema-and-properties"></a>Propiedades y esquema de propiedades de adaptadores de WCF
 Obtenga información acerca de las propiedades promocionadas en el esquema de propiedades del adaptador WCF. Los adaptadores de WCF asignan valores a las propiedades que puede utilizar en su aplicación. El adaptador de WCF también proporciona un mecanismo para leer pero no promociona las propiedades personalizadas en el contexto de mensaje de BizTalk y un mecanismo para promocionar las propiedades personalizadas en el contexto de mensaje de BizTalk. Para obtener más información, consulte [encabezados SOAP con servicios de WCF publican](../core/soap-headers-with-published-wcf-services.md).  

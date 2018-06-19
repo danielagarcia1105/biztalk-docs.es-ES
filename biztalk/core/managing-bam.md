@@ -1,17 +1,17 @@
 ---
-title: "Administración de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Administración de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], about managing BAM
 - managing [BAM]
 ms.assetid: 2981a90d-aaa4-4991-beee-5ac1f12b5c9e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262452"
 ---
 # <a name="managing-bam"></a>Administrar BAM
 La Supervisión de la actividad económica (BAM) atribuye poderes a los usuarios empresariales al proporcionar acceso en tiempo real a los indicadores de rendimiento empresarial críticos. Los usuarios empresariales pueden utilizar esta información para mejorar la velocidad y la eficacia de las operaciones empresariales. BAM recopila la información de la actividad empresarial en tiempo real, de una forma coherente con las transacciones independientemente de la complejidad de un entorno heterogéneo.  

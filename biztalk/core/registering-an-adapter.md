@@ -1,14 +1,14 @@
 ---
 title: Registrar un adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc85b96e-7b7b-4131-88ec-87b419a61bc2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270268"
 ---
 # <a name="registering-an-adapter"></a>Registrar un adaptador
 Si va a desarrollar un adaptador personalizado, puede registrarlo con BizTalk Server mediante la modificación y ejecución de uno de los archivos de Registro incluidos con el adaptador de archivo de ejemplo en el kit de desarrollo de software (SDK). O bien, puede usar el Asistente para el Registro del adaptador con el fin de crear un archivo de Registro. Este asistente está ubicado en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard.  

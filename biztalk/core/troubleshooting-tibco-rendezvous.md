@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973274"
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>Solucionar problemas de TIBCO Rendezvous
   
@@ -54,7 +55,7 @@ Microsoft BizTalk Adapter para TIBCO Rendezvous registra los mensajes de error, 
   
      Use **-transmisor** para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.  
   
--   **Proveedor de registro de administración:**el \<elemento Trace\> conmutador **-administración**.  
+-   **Proveedor de registro de administración:** el \<elemento Trace\> conmutador **-administración**.  
   
      Use **-administración**para recibir cualquier mensaje del registro que se generaron durante la exploración del sistema del servidor.  
   

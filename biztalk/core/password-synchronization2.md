@@ -1,11 +1,11 @@
 ---
-title: "Contraseña Synchronization2 | Documentos de Microsoft"
-ms.custom: 
+title: Contraseña Synchronization2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, passwords
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Password Synchronization [SSO], about Password Synchronization
 - SSO database, passwords
 ms.assetid: 6d4970e0-ac73-4fca-ab8f-6c8a6f3a6ec0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264364"
 ---
 # <a name="password-synchronization"></a>Sincronización de contraseña
 El propósito de la característica Sincronización de contraseñas es simplificar la administración de la base de datos de SSO y mantener las contraseñas sincronizadas entre directorios de usuario.  

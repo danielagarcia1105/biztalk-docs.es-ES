@@ -1,14 +1,14 @@
 ---
 title: Requisitos previos para las actividades de desarrollo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54c91405-f9a4-4676-b5c5-fe90b3b51b45
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006261"
 ---
 # <a name="prerequisites-for-the-development-activities"></a>Requisitos previos para las actividades de desarrollo
 Esta sección describe cómo preparar el entorno para completar los pasos descritos en las actividades de desarrollo que se incluyen como parte de la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. Complete la configuración siguiente antes de intentar cualquiera de los procedimientos descritos en las actividades de desarrollo:  
@@ -53,7 +54,7 @@ Esta sección describe cómo preparar el entorno para completar los pasos descri
   
 1.  En Visual Studio, en el menú archivo, seleccione **New**y, a continuación, haga clic en **proyecto**.  
   
-2.  En el **nuevo proyecto** cuadro de diálogo, en el panel tipos de proyecto, haga clic en **Visual C#**y, a continuación, haga clic en **biblioteca de clases** en el panel Plantillas.  
+2.  En el **nuevo proyecto** cuadro de diálogo, en el panel tipos de proyecto, haga clic en **Visual C#** y, a continuación, haga clic en **biblioteca de clases** en el panel Plantillas.  
   
 3.  En el **nombre** , escriba **ItineraryLibrary**.  
   

@@ -1,14 +1,14 @@
 ---
 title: Ejemplo de la API de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 32a925f2-c7f4-4111-9c59-8865f15c6a89
-caps.latest.revision: 
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710455"
 ---
 # <a name="bam-api-biztalk-server-sample"></a>API de BAM (ejemplo de BizTalk Server)
 El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM en una aplicación para guardar información de claves que podrá supervisar.  
@@ -92,7 +93,7 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
  Además de la solución de Visual Studio, el ejemplo también contiene un archivo de Microsoft Excel que define las actividades.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamApiSample.  
+ Puede encontrar este ejemplo en  *\<ruta de ejemplos\>* \BAM\BamApiSample.  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -116,16 +117,16 @@ El ejemplo de API de BAM ilustra el modo de incorporar llamadas a la API de BAM 
   
 ## <a name="run-the-bam-api-sample"></a>Ejecutar el ejemplo de API de BAM  
   
-1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\ BamApiSample\setup.bat.  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\ BamApiSample\setup.bat.  
   
-2.  Inicie Visual Studio como administrador y abra la  *\<ruta de ejemplos\>*solución \bam\. 
+2.  Inicie Visual Studio como administrador y abra la  *\<ruta de ejemplos\>* solución \bam\. 
   
     > [!IMPORTANT]
     >  La línea `//#define Interceptor` del archivo BamApiSample.cs debe marcarse como comentario. No quite el signo “//” desde esta línea. El ejemplo de API de BAM usa solo el código que no se encuentra dentro de una directiva de preprocesador `#if Interceptor`.  
   
 3.  Compile la solución.  
   
-4.  Ejecutar  *\<ejemplos de ruta de acceso\>*\BAM\BamApiSample\bin\debug\BamApiSample.exe.  
+4.  Ejecutar  *\<ejemplos de ruta de acceso\>* \BAM\BamApiSample\bin\debug\BamApiSample.exe.  
   
      El resultado será similar al siguiente:  
   

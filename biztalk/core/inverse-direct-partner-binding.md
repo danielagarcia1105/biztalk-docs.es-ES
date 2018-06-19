@@ -1,17 +1,17 @@
 ---
 title: Enlace de socio directo inverso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, partners
 - process management solution tutorial, partner binding
 ms.assetid: 4cf8717a-2098-46f4-8f58-9d05fb562e2a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262396"
 ---
 # <a name="inverse-direct-partner-binding"></a>Enlace de socio directo inverso
 La solución Administración de procesos empresariales está diseñada para poder cambiar las fases de procesamiento de pedidos sin detener la aplicación. Para desacoplar las fases de procesamiento (**CableOrder1**, **CableOrder2**) desde el Administrador de procesos (**OrderManager**), la solución utiliza una técnica diferente para enlazar puertos entre estas orquestaciones.  

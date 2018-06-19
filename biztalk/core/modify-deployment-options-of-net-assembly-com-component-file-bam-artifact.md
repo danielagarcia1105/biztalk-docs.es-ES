@@ -1,11 +1,11 @@
 ---
-title: "Cómo modificar las opciones de implementación de un ensamblado. NET, un componente COM, un archivo o un artefacto de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar las opciones de implementación de un ensamblado. NET, un componente COM, un archivo o un artefacto de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [.NET assemblies], deploying
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - virtual directories, modifying
 - deploying, COM components
 ms.assetid: 4955d420-d9ff-4d5a-82f4-fb16477a828c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263980"
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-net-assembly-com-component-file-or-bam-artifact"></a>Cómo modificar las opciones de implementación de un ensamblado .NET, un componente COM, un archivo o un artefacto de BAM
 En este tema se describe cómo usar la consola de administración de BizTalk Server para modificar las opciones de implementación de los artefactos de recursos siguientes:  

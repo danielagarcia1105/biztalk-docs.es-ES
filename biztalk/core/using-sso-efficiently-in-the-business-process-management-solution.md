@@ -1,11 +1,11 @@
 ---
-title: "Usar SSO de forma eficaz en la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Usar SSO de forma eficaz en la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, process management solutions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SSO, caching
 - process management solution tutorial, SSO
 ms.assetid: 39fbc42d-caa4-4003-a13b-5cde578eb5e1
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288524"
 ---
 # <a name="using-sso-efficiently-in-the-business-process-management-solution"></a>Usar SSO de forma eficaz en la solución de administración de procesos empresariales
 Como la solución orientada a servicios, la solución Administración de procesos empresariales utiliza el inicio de sesión único (SSO) empresarial para almacenar valores de configuración como el número de fases de procesamiento de pedido. Utiliza el almacén secreto porque está presente siempre que se instala BizTalk, SSO almacena la información de configuración en caché para que los valores estén fácilmente disponibles y pueda proteger información como cadenas de conexiones de base de datos y contraseñas. Por todas estas razones, el almacén secreto es un buen sitio para la información de configuración incluso si el inicio de sesión único no se estaba utilizando para administrar conexiones a las aplicaciones de servidor.  

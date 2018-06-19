@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291220"
 ---
 # <a name="what-are-the-wcf-adapters"></a>¿Qué son los adaptadores de WCF?
 Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de recepción y un adaptador de envío. Utilice el adaptador de recepción WCF para recibir solicitudes de Servicio WCF. El adaptador de recepción WCF recibe una solicitud, crea un objeto de mensaje de BizTalk y promociona las propiedades asociadas al contexto de mensaje. Puede utilizar el adaptador de envío WCF para llamar a un Servicio WCF. El adaptador de envío WCF llama a los servicios WCF a través de los contratos sin tipo.  

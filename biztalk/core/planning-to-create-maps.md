@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007245"
 ---
 # <a name="planning-to-create-maps"></a>Planear la creación de asignaciones
 Las asignaciones se utilizan para convertir mensajes de entrada que se ajustan a un esquema en mensajes de salida que se ajustan a un esquema diferente. Estas conversiones pueden ser simples o bastante complejas, conllevar cálculos y consolidación de información.  

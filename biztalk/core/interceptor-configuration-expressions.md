@@ -1,14 +1,14 @@
 ---
-title: "Expresiones de configuración de interceptor | Documentos de Microsoft"
-ms.custom: 
+title: Expresiones de configuración de interceptor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2695f509-fece-40b8-aa00-fa3c0c0f19c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973634"
 ---
 # <a name="interceptor-configuration-expressions"></a>Expresiones de configuración de interceptor
 El archivo de configuración de interceptor de BAM usa expresiones de filtro para identificar una actividad y usa expresiones de datos para construir un elemento de datos para el almacenamiento, usar un Id. de correlación o un token de continuación, o propósitos similares. Independientemente del propósito, las expresiones individuales se identifican en el archivo de configuración de interceptor por el elemento `expression` y contienen una o varias operaciones que usan la Notación polaca inversa, que se conoce también como notación de polaco inverso.  

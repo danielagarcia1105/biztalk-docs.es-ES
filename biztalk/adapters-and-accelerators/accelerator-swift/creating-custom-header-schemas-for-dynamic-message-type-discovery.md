@@ -1,11 +1,11 @@
 ---
-title: "Crear esquemas de encabezado personalizado para la detección del tipo de mensaje dinámico | Documentos de Microsoft"
-ms.custom: 
+title: Crear esquemas de encabezado personalizado para la detección del tipo de mensaje dinámico | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, dynamic resolution
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, custom headers
 - header schemas
 ms.assetid: 0c936c57-b533-47ca-9258-576b021fd016
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004333"
 ---
 # <a name="creating-custom-header-schemas-for-dynamic-message-type-discovery"></a>Crear esquemas de encabezado personalizado para la detección del tipo de mensaje dinámico
 En la mayoría de los escenarios, debe especificar el esquema de encabezado SWIFT predeterminado (Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.HeaderSchema) para la propiedad de configuración de esquema de encabezado de SWIFT del desensamblador SWIFT. El Desensamblador SWIFT usa el esquema de encabezado SWIFT predeterminado para analizar los encabezados del mensaje que se ajustan a la especificación estándar de SWIFT, y se las necesarias las propiedades promocionadas para facilitar la resolución de esquema dinámico (y subtipo de "tipo dual" Los mensajes de SWIFT como MT574_IRSLST y MT574_W8BENO). Para obtener más información sobre el esquema de encabezado SWIFT predeterminado y para comprender cómo el Desensamblador SWIFT realiza la resolución de esquemas, consulte [detección dinámica de tipo de mensaje y la resolución de esquema](../../adapters-and-accelerators/accelerator-swift/dynamic-message-type-discovery-and-schema-resolution.md).  

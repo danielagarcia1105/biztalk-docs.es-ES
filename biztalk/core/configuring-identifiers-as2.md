@@ -1,14 +1,14 @@
 ---
-title: "Configuración de identificadores (AS2) | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de identificadores (AS2) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29f12696-8257-4664-8e61-292678e98b6b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007445"
 ---
 # <a name="configuring-identifiers-as2"></a>Configuración de identificadores (AS2)
 En el acuerdo de socio, debe especificar las entidades de remitente y receptor. Estos valores también se usan para la resolución de acuerdo para los mensajes entrantes o salientes.  

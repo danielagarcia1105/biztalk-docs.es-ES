@@ -1,11 +1,11 @@
 ---
 title: 'Paso 13: Crear y configurar puertos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - configuring, ports
 - ports, configuring
 ms.assetid: cc0540d7-46fc-4d9f-bcf3-0b0e0179fd51
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006389"
 ---
 # <a name="step-13-create-and-configure-ports"></a>Paso 13: Crear y configurar puertos
 En este paso, usa al Asistente para configuración de puertos para crear y configurar puertos en el Diseñador de orquestaciones. Puertos especifican cómo la orquestación envía y recibe mensajes del servidor de procesos empresariales. Cada puerto tiene un tipo, una dirección y un enlace. Las propiedades de combinación determinan la dirección de comunicación, el patrón de comunicación, la ubicación a o desde el que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] envía o recibe el mensaje y cómo tiene lugar la comunicación. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]usa el adaptador de protocolo de nivel inferior (MLLP) como mínimo como un puerto de envío. El adaptador MLLP utiliza la comunicación de sockets TCP para comunicarse con otras aplicaciones, como aplicaciones de laboratorio, aplicaciones seguros y las aplicaciones de línea de negocio heredadas. Representa el adaptador de envío de MLLP un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adaptador:  

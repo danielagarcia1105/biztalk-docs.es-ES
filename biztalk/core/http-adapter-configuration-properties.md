@@ -1,11 +1,11 @@
 ---
-title: "Propiedades de configuración del adaptador HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de configuración del adaptador HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - HTTP adapters, receive locations
 - send ports, adapters
 ms.assetid: 3d4e9d88-ea40-4478-a0cf-77057fadd3b2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258660"
 ---
 # <a name="http-adapter-configuration-properties"></a>Propiedades de configuración del adaptador de HTTP
 En la siguiente tabla se enumeran las propiedades de configuración que se pueden definir para una ubicación de recepción de un adaptador de HTTP:  

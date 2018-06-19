@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288860"
 ---
 # <a name="what-is-scalability"></a>¿Qué es la escalabilidad?
 La escalabilidad es la capacidad de ampliación de un sistema para satisfacer las necesidades empresariales. Para escalar un sistema, debe agregar hardware adicional o actualizar el hardware existente sin modificar mucho la aplicación. En el contexto de un sistema con BizTalk Server, la escalabilidad hace referencia a la capacidad de escalar BizTalk cuando aumentan las necesidades de rendimiento y se necesitan reducir los tiempos de latencia.  

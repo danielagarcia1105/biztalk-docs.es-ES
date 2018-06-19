@@ -1,14 +1,14 @@
 ---
 title: Transformar y enrutar un mensaje a la carpeta de disco, la cola o la carpeta FTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5bfdbc38-6663-4d95-a0ed-57fec0245b9f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009845"
 ---
 # <a name="transforming-and-routing-a-message-to-disk-folder-queue-or-ftp-folder"></a>Transformar y enrutar un mensaje a la carpeta de disco, la cola o la carpeta FTP
 En este caso de uso, ESB transforma un mensaje enviado a través del servicio Web de itinerario o cualquier en rampa. Búsqueda de resolución dinámica de tipo FILE, FTP o ubicación de la cola determina el nombre de asignación (para la transformación) y el extremo de destino para el mensaje, como se muestra en la figura 1.  

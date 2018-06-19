@@ -1,18 +1,18 @@
 ---
 title: SubmitDirect (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
 - receive adapters, examples
 - examples, receive adapters
 ms.assetid: 3540368b-cf46-4c83-a87b-94aec9cd1b36
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975842"
 ---
 # <a name="submitdirect-biztalk-server-sample"></a>SubmitDirect (ejemplo de BizTalk Server)
 El ejemplo SubmitDirect muestra cómo enviar mediante programación mensajes unidireccionales y de solicitud-respuesta a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] desde aplicaciones basadas en .NET. El ejemplo muestra el uso de las API de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para los adaptadores. También proporciona un adaptador de recepción, conocido como adaptador de envío, que puede usarse para enviar mensajes a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

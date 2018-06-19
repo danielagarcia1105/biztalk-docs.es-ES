@@ -1,14 +1,14 @@
 ---
-title: "Asignaciones básicas y complejas operaciones | Documentos de Microsoft"
-ms.custom: 
+title: Asignaciones básicas y complejas operaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da864b48-6255-4847-9a6f-13e489e8658d
-caps.latest.revision: 
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710315"
 ---
 # <a name="basic-and-complex-mapping-operations"></a>Operaciones de asignaciones básicas y complejas
 El Asignador de BizTalk proporciona soluciones para una serie de escenarios de asignaciones que van desde simples operaciones de tipo árbol primario-secundario hasta operaciones complejas y detalladas en las que hay registros de bucles y jerarquías. La complejidad de un escenario de asignación depende de sus preferencias y necesidades empresariales: lenguaje de definición (XSD) de esquemas XML proporciona gran flexibilidad para definir formatos estructurados. Casi todos los escenarios de asignación se dividen en dos categorías: asignación básica y asignación compleja.  

@@ -1,11 +1,11 @@
 ---
-title: "Instalación de certificados para los adaptadores de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Instalación de certificados para los adaptadores de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tools, Certificates Management Console
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - WCF adapters, receive locations
 - WCF adapters, certificates
 ms.assetid: 04dc065f-a6e8-4359-8696-2a3de24d531d
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258108"
 ---
 # <a name="installing-certificates-for-the-wcf-adapters"></a>Instalar certificados para los adaptadores de WCF
 Los adaptadores de WCF pueden hacer uso de certificados digitales de infraestructura de clave pública (PKI) a efectos de cifrado y descifrado de mensajes, firma y comprobación de mensajes (sin repudio), así como para la autenticación de cliente. En este tema se describen varias opciones de configuración y de escenarios de uso de certificación para la utilización de certificados digitales con adaptadores de WCF.  

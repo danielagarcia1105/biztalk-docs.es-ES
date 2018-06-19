@@ -1,14 +1,14 @@
 ---
-title: "Cómo recuperar el inicio de sesión único empresarial | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recuperar el inicio de sesión único empresarial | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 845e6ff7-88a8-4ab4-b307-f9275d44600e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974226"
 ---
 # <a name="how-to-recover-enterprise-single-sign-on"></a>Cómo recuperar el inicio de sesión único (SSO) empresarial
 Antes de poder recuperar BizTalk Server, es preciso recuperar el inicio de sesión único (SSO) empresarial.  
@@ -52,7 +53,7 @@ Antes de poder recuperar BizTalk Server, es preciso recuperar el inicio de sesi�
   
 7.  Haga clic en **archivo**y, a continuación, haga clic en **Exit**.  
   
-8.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+8.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 9. En el símbolo del sistema, escriba:  
   

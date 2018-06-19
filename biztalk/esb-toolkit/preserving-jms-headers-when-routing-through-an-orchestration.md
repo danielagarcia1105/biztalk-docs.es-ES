@@ -1,14 +1,14 @@
 ---
-title: "Conservar encabezados JMS al enrutar a través de una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Conservar encabezados JMS al enrutar a través de una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9a59ff3-0cbf-499f-92b2-cf5b808d8b3f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294676"
 ---
 # <a name="preserving-jms-headers-when-routing-through-an-orchestration"></a>Conservar encabezados JMS al enrutar a través de una orquestación
 En este caso de uso, se proporcionan con componentes [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extraer encabezados de Java Message Service (JMS) de un mensaje entrante y, a continuación, los reconstruye en el mensaje saliente. Esto demuestra la conservación de encabezado de mensaje JMS y acceso al contexto de encabezado desde dentro de una orquestación, tal como se muestra en la figura 1.  

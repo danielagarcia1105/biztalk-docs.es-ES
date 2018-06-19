@@ -1,18 +1,18 @@
 ---
-title: "Promoción de propiedades | Documentos de Microsoft"
-ms.custom: 
+title: Promoción de propiedades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - properties, promoting
 - promoting properties
 - promoting properties, about promoting properties
 ms.assetid: e1825028-7dd9-4eae-a383-4db12a83a402
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266428"
 ---
 # <a name="promoting-properties"></a>Promoción de propiedades
 Promoción de propiedades implica cualquier promoción **elemento de campo** o **atributo de campo** nodos en un esquema para que sea **campos distintivos** o **propiedad Campos**. También puede promocionar **registro** nodos como **campos de propiedades** si tienen contenido simple (**Content Type** propiedad de la **registro** nodo establecido en **SimpleContent**). Esta sección proporciona instrucciones paso a paso para promocionar nodos como **campos distintivos** o como **campos de propiedades**.  

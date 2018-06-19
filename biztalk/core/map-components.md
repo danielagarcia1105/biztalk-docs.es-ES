@@ -1,11 +1,11 @@
 ---
 title: Asignar componentes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - file types, maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Mapper, file type
 - maps, components
 ms.assetid: be438d21-80a8-49d8-bd08-d85618ab23de
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262380"
 ---
 # <a name="map-components"></a>Componentes de asignaciones
 Los archivos de asignación (extensión .btm) almacenan la mayoría de los componentes de una asignación. Los elementos almacenados en el archivo incluyen:  
