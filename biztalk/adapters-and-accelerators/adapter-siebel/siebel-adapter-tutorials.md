@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222084"
 ---
 # <a name="siebel-adapter-tutorials"></a>Tutoriales del adaptador de Siebel
 El primero de los [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutoriales contiene una demostración paso a paso de cómo presentar datos en un sistema Siebel en un portal de Microsoft SharePoint. El segundo [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutorial contiene instrucciones detalladas sobre cómo migrar proyectos de BizTalk creados con la versión anterior del adaptador de Siebel utilizar basadas en WCF [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

@@ -1,18 +1,18 @@
 ---
 title: Segmento y el campo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, segments
 - messages, fields
 - segments, messages
 ms.assetid: e68864e6-590c-47f3-8c9e-81831aec2642
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206484"
 ---
 # <a name="segment-and-field"></a>Segmento y el campo
 Una tabla de segmento define un segmento de HL7. Cada definición de segmento sigue el patrón que se muestra a continuación.  

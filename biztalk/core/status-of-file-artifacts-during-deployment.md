@@ -11,7 +11,7 @@ helpviewer_keywords:
 - artifacts, status
 - deploying [artifacts], status
 ms.assetid: 6d0f7336-c2cb-4aa4-9f1d-55fb85fe78bf
-caps.latest.revision: ''
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22276556"
 ---
 # <a name="status-of-file-artifacts-during-deployment"></a>Estado de artefactos de archivo durante la implementación
 Es posible que deba saber qué artefactos basados en archivos existen en el sistema de archivos cuando se ejecuta una secuencia de comandos previa o posterior al procesamiento. Por ejemplo, puede que quiera ejecutar una secuencia de comandos posterior al procesamiento durante la desinstalación y eliminar un archivo de artefacto concreto del sistema de archivos. Los artefactos basados en archivos consisten en artefactos que pueden existir como archivos en el sistema de archivos local, además de su representación en las bases de datos de BizTalk. Algunos ejemplos de artefactos basados en archivos son los componentes COM, los ensamblados .NET, los ensamblados de BizTalk, los artefactos de BAM, los archivos ad hoc, las secuencias de comandos y los archivos de enlace.  

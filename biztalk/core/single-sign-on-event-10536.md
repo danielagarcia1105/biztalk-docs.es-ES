@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10536 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10536 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d493a45b-c4ed-40fc-8803-b3ca12f9795b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271236"
 ---
 # <a name="single-sign-on-event-10536"></a>Inicio de sesión único: Evento 10536
 ## <a name="details"></a>Detalles  

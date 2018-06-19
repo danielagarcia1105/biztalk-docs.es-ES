@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214164"
 ---
 # <a name="supporting-secure-sockets-layer-ssl"></a>Compatibilidad con capa de Sockets seguros (SSL)
 Para implementar el protocolo de capa de Sockets seguros (SSL) en la implementación entre los equipos cliente y los servidores MRSR, es necesario solicitar y configurar un certificado de "Autenticación de servidor" en los servidores de Internet Information Services (IIS).  

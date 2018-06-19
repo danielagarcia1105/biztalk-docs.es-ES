@@ -1,14 +1,14 @@
 ---
-title: "Actualizar referencias al servidor de análisis BAM y nombres de base de datos de esquema de estrella | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar referencias al servidor de análisis BAM y nombres de base de datos de esquema de estrella | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 319caa26-1292-4453-a316-efca4fbffdb6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302236"
 ---
 # <a name="update-references-to-the-bam-analysis-server-and-star-schema-database-names"></a>Actualizar referencias al servidor de análisis BAM y nombres de base de datos de esquema en estrella
 Si ha realizado una copia de seguridad de la base de datos de análisis de SAE, podrá restaurar la copia de seguridad en un equipo distinto y cambiar el nombre a esa copia de seguridad en el caso de que se produzca un error de datos o del sistema.  

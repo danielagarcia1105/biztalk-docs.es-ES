@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206044"
 ---
 # <a name="preparing-to-use-the-batching-tutorial"></a>Preparando para utilizar el Tutorial de procesamiento por lotes
 Para poder usar el tutorial de procesamiento por lotes, debe realizar las tareas de esta sección.  

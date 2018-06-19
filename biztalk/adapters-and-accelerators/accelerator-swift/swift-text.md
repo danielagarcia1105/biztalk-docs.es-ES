@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214524"
 ---
 # <a name="swift-text"></a>Texto SWIFT
 El texto del mensaje constituye la carga del mensaje (FIN) financiero y contiene todos los campos de datos excepto los campos que contienen el remitente, el receptor y el tipo de mensaje. Estos tres campos se encuentran en la parte de encabezado. Algunos mensajes también contienen un encabezado de usuario opcionales, que también puede proporcionar información de procesamiento.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209428"
 ---
 # <a name="creating-the-fabrikam-solution"></a>Creación de la solución de Fabrikam
 Esta sección contiene los pasos que debe seguir para crear la solución de Fabrikam. Después de crear las organizaciones y acuerdo de socio comercial, utilice un ejemplo SDK que se proporciona en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] para comunicarse con la aplicación de línea de negocio (LOB) de Contoso.  

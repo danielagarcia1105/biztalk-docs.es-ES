@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967946"
 ---
 # <a name="invoke-trfcs-in-sap-using-biztalk-server"></a>Invocar tRFCs en SAP mediante BizTalk Server
 Llamadas a funciones remotas (tRFCs) transaccional garantiza un tiempo de ejecución y solamente uno de una solicitud de cambio en un sistema SAP. Puede invocar cualquiera de los documentos de RFC obtenidas por el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] como un tRFC. Invocar un tRFC es similar a la invocación de una solicitud de cambio (consulte [invocar RFC en SAP utilizando BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) con las siguientes diferencias:  

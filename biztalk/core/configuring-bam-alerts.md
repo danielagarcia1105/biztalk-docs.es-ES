@@ -1,11 +1,11 @@
 ---
-title: "La configuración de alertas BAM | Documentos de Microsoft"
-ms.custom: 
+title: La configuración de alertas BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, alerts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - alerts, configuring
 - managing [BAM definitions], configuring alerts
 ms.assetid: 29327466-c8e9-41e8-bc12-f3ac6b5d3096
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968890"
 ---
 # <a name="configuring-bam-alerts"></a>Configurar Alertas BAM
 Los administradores pueden modificar determinados elementos del marco de trabajo de alertas BAM. En este tema se describen las opciones de configuración disponibles para los administradores.  

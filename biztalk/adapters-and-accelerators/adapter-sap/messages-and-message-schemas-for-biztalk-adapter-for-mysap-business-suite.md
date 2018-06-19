@@ -1,15 +1,15 @@
 ---
 title: Mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
 description: Estructura XML de mensajes y tipos de datos utilizado por el adaptador de mySAP para BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ea5c27-8297-47bf-bcfd-503870349189
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216348"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite"></a>Mensajes y esquemas de mensaje para el adaptador de BizTalk para mySAP Business Suite
 

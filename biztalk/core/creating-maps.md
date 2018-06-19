@@ -1,14 +1,14 @@
 ---
 title: Cree mapas de | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc9f8ad1-4aad-4866-8aa4-4877fdc5e5f9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969114"
 ---
 # <a name="creating-maps"></a>Crear asignaciones
 La interfaz de usuario principal para el asignador de BizTalk se muestra en una pestaña en la [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] ventana de edición. Esta presentación se divide en tres paneles distintos. El panel de la izquierda muestra el esquema de origen como un árbol. El panel de la derecha muestra el esquema de destino como un árbol. El panel central muestra la cuadrícula como varias páginas. Para indicar cómo desea asignar los datos del esquema de origen al de destino, dibuje líneas entre los registros y los campos que desea asignar. Estas líneas se llaman *vínculos*, y son la manera más sencilla para especificar la asignación de datos. Para obtener más información acerca de la vinculación de registros y campos, consulte [vínculos en asignaciones](../core/links-in-maps.md).  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d65b87fbcbdaf89289406ae6850b70c605123451
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015579"
 ---
 # <a name="how-to-create-send-ports-for-jd-edwards-oneworld"></a>Creación de puertos de envío para JD Edwards OneWorld
 Use el procedimiento siguiente para crear un puerto de envío.  

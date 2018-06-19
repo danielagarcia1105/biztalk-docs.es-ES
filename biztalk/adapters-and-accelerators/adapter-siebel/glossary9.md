@@ -1,15 +1,15 @@
 ---
 title: Glosario de adaptador de BizTalk para Siebel eBusiness aplicaciones de BizTalk | Documentos de Microsoft
-description: "Términos y definiciones utilizadas por el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP) comunes"
-ms.custom: 
+description: Términos y definiciones utilizadas por el adaptador de Siebel en el módulo de adaptador de BizTalk (BAP) comunes
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75c74760-53b6-45c3-bacc-bb7ab4fb5b4b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224684"
 ---
 # <a name="terms-and-definitions-for-the-siebel-adapter"></a>Términos y definiciones para el adaptador de Siebel
 Los términos y definiciones siguientes se utilizan en [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  

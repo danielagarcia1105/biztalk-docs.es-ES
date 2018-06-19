@@ -1,17 +1,17 @@
 ---
 title: Extender HL7 2.X esquemas con objetos de Z | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, Z objects
 - Z objects, extending 2.X schemas
 ms.assetid: 0980d919-eb81-4c65-b0f7-f17f7cfef6b3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204660"
 ---
 # <a name="extending-hl7-2x-schemas-with-z-objects"></a>Extender HL7 2.X esquemas con objetos de Z
 La organización de HL7 define HL7 2.X esquemas y se espera que todos los remitentes y receptores reconocer y utilizar estos esquemas, tal y como define la organización. Conforme a los esquemas garantiza para la interoperabilidad. Sin embargo, el estándar HL7 le permite personalizar HL7 existente 2.X esquemas para sus fines locales específicos. También puede definir objetos y esquemas completamente nuevos. Para ello, con qué las HL7 estándares llamadas a objetos de Z.  

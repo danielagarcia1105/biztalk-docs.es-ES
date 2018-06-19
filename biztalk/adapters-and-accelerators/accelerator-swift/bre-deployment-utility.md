@@ -1,17 +1,17 @@
 ---
-title: "Utilidad de implementación de BRE | Documentos de Microsoft"
-ms.custom: 
+title: Utilidad de implementación de BRE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BRE Deployment utility
 - deploying, BRE Deployment utility
 ms.assetid: 5b04592c-ea1e-4ded-8ca4-dcd051d6375e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966818"
 ---
 # <a name="bre-deployment-utility"></a>Utilidad de implementación de BRE
 Puede usar la utilidad de implementación del BRE para publicar e implementar los vocabularios del motor de reglas de negocios (BRE) y las directivas necesarias para un esquema SWIFT. Para habilitar la validación de BRE para el tipo de mensaje, es necesario publicar e implementar estas directivas y vocabularios.  

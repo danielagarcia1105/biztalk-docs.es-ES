@@ -1,18 +1,18 @@
 ---
-title: "Seguridad en tiempo de ejecución del servidor | Documentos de Microsoft"
-ms.custom: 
+title: Seguridad en tiempo de ejecución del servidor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, server runtime
 - servers, security
 - servers, runtime
 ms.assetid: 40f5ca3e-d9d3-4543-bd38-82283c343b76
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214132"
 ---
 # <a name="server-runtime-security"></a>Seguridad del servidor en tiempo de ejecución
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]Reparación de mensajes y nuevo envío rige el flujo de mensajes SWIFT entre los usuarios empresariales, sistemas back-end y los puntos de conexión de red SWIFT de forma segura y determinista. Mensajes enviados por los usuarios empresariales se autentica, valida los mensajes de datos y la exactitud de la regla de negocios y enruta los mensajes con sistemas back-end o para la entrega final a la red SWIFT. Para obtener más información acerca de los certificados digitales, vea "Cifrado y firma de certificados" en el sitio Web de MSDN Library en [http://go.microsoft.com/fwlink/?linkid=50285](http://go.microsoft.com/fwlink/?linkid=50285).  

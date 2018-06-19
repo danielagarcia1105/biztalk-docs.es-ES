@@ -22,6 +22,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25969506"
 ---
 # <a name="how-to-audit-sso"></a>Cómo auditar SSO
 Puede utilizar el Complemento MMC o la línea de comandos para establecer los niveles de auditoría positivo y negativo. Los resultados de la auditoría se almacenan tanto en los registros de sucesos como en los de auditoría de la base de datos.  
@@ -80,7 +81,7 @@ Puede utilizar el Complemento MMC o la línea de comandos para establecer los ni
   
 2.  En el símbolo del sistema, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es  **\<unidad\>**: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde  **\<archivo de actualización\>**es la ruta de acceso y nombre del archivo.  
+3.  Tipo de **ssomanage-updatedb \<archivo de actualización\>**, donde  **\<archivo de actualización\>** es la ruta de acceso y nombre del archivo.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

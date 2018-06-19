@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22297188"
 ---
 # <a name="the-sample-itinerary-scenarios"></a>Los escenarios de itinerarios de ejemplo
 En la tabla siguiente enumera todos los archivos de itinerario predefinidos incluidos con el ejemplo de itinerario en rampa. Estos se encuentran en la carpeta \Source\Samples\Itinerary\Itineraries.  

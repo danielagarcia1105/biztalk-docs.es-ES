@@ -1,18 +1,18 @@
 ---
-title: "Canalización de envío de crear el FRR | Documentos de Microsoft"
-ms.custom: 
+title: Canalización de envío de crear el FRR | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, creating send pipelines
 - creating, send pipelines
 - send pipelines, creating
 ms.assetid: c6cd2047-ea53-425f-80cc-b02a1deb5292
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209460"
 ---
 # <a name="creating-the-frr-send-pipeline"></a>Crear la canalización de envío FRR
 Para realizar la conciliación de respuesta de FIN, debe crear una canalización de envío que contiene el componente de canalización SWIFTAsmFrrMQSeriesHelper, además el ensamblador SWIFT.  

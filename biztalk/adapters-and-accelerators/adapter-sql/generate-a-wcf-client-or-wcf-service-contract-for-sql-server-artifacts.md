@@ -1,14 +1,14 @@
 ---
 title: Generar un cliente de WCF o un contrato de servicio WCF de artefactos SQL Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fa7d8c0-8ee4-41e7-9394-d22e87e09391
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225260"
 ---
 # <a name="generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts"></a>Generar un cliente de WCF o un contrato de servicio WCF de artefactos SQL Server
 Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] generar una clase de cliente WCF destinada a operaciones seleccionadas en artefactos de SQL Server. También puede usar la herramienta de utilidad de metadatos de ServiceModel (svcutil.exe) para generar la clase de cliente WCF; Sin embargo, la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] expone la funcionalidad de la herramienta de utilidad de metadatos de ServiceModel mediante una interfaz estándar de Microsoft Windows. También proporciona capacidades de exploración y búsqueda que no están disponibles con la herramienta svcutil.exe y genera un archivo de configuración basado en las propiedades de enlace que se selecciona cuando se conecta a la base de datos de SQL Server.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar una aplicación de Windows Communication Foundation para la intercepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar una aplicación de Windows Communication Foundation para la intercepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37f2ccde-aa79-470a-ac31-57e4168dc54a
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969658"
 ---
 # <a name="how-to-configure-a-windows-communication-foundation-application-for-interception"></a>Cómo configurar una aplicación de Windows Communication Foundation para llevar a cabo una intercepción
 Debe instalar el software interceptor de BAM y configurar la aplicación para utilizar el servicio de interceptor [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] de BAM antes de comenzar a recopilar los datos de actividad de BAM. Se supone que ha instalado correctamente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y sus dependencias, y que ha creado al menos un grupo de BizTalk.  

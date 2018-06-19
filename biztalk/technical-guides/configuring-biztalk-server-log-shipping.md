@@ -1,14 +1,14 @@
 ---
-title: "Trasvase de registros de configuración de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Trasvase de registros de configuración de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bcef31f7-30d1-4ada-b627-2a5c9ec7e43e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299700"
 ---
 # <a name="configuring-biztalk-server-log-shipping"></a>Trasvase de registros de configuración de BizTalk Server
 El trabajo de copia de seguridad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se usa para hacer copia de seguridad de todas las bases de datos del sistema de origen de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], excepto por algunas bases de datos usadas por la supervisión de la actividad económica (BAM). El sistema de origen es el servidor o grupo de servidores que contiene datos activos. Dado que algunas de las bases de datos BAM tienen copia de seguridad diferente y requisitos de restauración, estas bases de datos copia de seguridad y restauran mediante otros métodos.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967162"
 ---
 # <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>Invocar funciones sobrecargadas y los procedimientos de la base de datos de Oracle mediante BizTalk Server
 Funciones y procedimientos almacenados se pueden sobrecargar en una base de datos de Oracle. El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] admite sobrecarga funciones y procedimientos, cambie el espacio de nombres de destino de la operación. Por ejemplo, la estructura del mensaje para ver los dos procedimientos sobrecargados el siguiente aspecto:  

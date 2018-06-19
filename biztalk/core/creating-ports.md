@@ -1,11 +1,11 @@
 ---
-title: "Creación de puertos | Documentos de Microsoft"
-ms.custom: 
+title: Creación de puertos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - send ports
 - send ports, creating
 ms.assetid: 4f99f884-5b84-4f9f-8cec-dd5da259ba7f
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015131"
 ---
 # <a name="creating-ports"></a>Crear puertos
 Use los siguientes procedimientos para crear puertos de envío y recepción de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para el inicio de sesión único.  

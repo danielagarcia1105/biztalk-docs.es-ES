@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208884"
 ---
 # <a name="approval-stage"></a>Fase de aprobación
 Después de que el mensaje primero se inicia sesión y enviar para su aprobación, cada aprobador en la cadena de aprobación revisa y contrafirma el mensaje, agregar su firma digital a la pila. Aprobadores solo pueden revisar y contrafirmar el mensaje. No podrá cambiarlo sin interrumpir la pila de firma digital.

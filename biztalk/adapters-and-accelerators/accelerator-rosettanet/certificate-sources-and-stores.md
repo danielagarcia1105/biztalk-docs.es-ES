@@ -13,7 +13,7 @@ helpviewer_keywords:
 - certificates, certificate sources
 - certificates, importing
 ms.assetid: 3e98fb56-4368-46f3-9329-c44fed11f4fb
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22210236"
 ---
 # <a name="certificate-sources-and-stores"></a>Orígenes de certificados y almacenes
 Este tema describe dónde desea importar certificados desde y dónde se almacenarán los certificados.  

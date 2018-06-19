@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar el ejemplo de conservación de JMS MQRFH2 encabezado | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar el ejemplo de conservación de JMS MQRFH2 encabezado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65982dca-77e1-4267-9528-26c59237e9b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295132"
 ---
 # <a name="running-the-jms-mqrfh2-header-preservation-sample"></a>Ejecutar el ejemplo de conservación de JMS MQRFH2 encabezado
 Esta parte de este ejemplo coloca un mensaje en una cola de WebSphere. ESB toma este mensaje y coloca en una cola de salida de WebSphere. Esto demuestra que el ESB y Microsoft BizTalk conservan encabezados de RFH2 plena fidelidad como un mensaje se transmite a través de BizTalk Server.  

@@ -1,11 +1,11 @@
 ---
 title: Esquemas de finalizador y encabezado SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trailer schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, trailers
 - header schemas
 ms.assetid: 82cd33d4-6bbb-4124-9506-fd35b5dca8a4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214580"
 ---
 # <a name="swift-header-and-trailer-schemas"></a>Esquemas de finalizador y encabezado SWIFT
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona SWIFT esquemas de encabezado y finalizador. A4SWIFT ya incorpora estos elementos en los esquemas de intercambio para los distintos mensajes FIN. Si desea crear un tipo de mensaje de estilo de formato de SWIFT FINÉS personalizado (por ejemplo, un mensaje de N98), puede incorporar los esquemas de encabezado y finalizador en su propio formato.  

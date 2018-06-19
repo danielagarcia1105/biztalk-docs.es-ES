@@ -1,11 +1,11 @@
 ---
-title: "Cómo enruta los mensajes BTAHL7 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo enruta los mensajes BTAHL7 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - routing, about routing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, routing
 - BTAHL7, message routing
 ms.assetid: 555696c7-6023-44eb-b13d-cf7527bbc92f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205100"
 ---
 # <a name="how-btahl7-routes-messages"></a>¿Cómo BTAHL7 enruta los mensajes
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) aprovecha el capacidades de procesamiento de mensajes [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], pero también se extiende en varias formas que son específicas de los requisitos de mensajería de HL7.  

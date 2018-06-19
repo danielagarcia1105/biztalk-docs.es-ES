@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de cambios de base de datos de Oracle incrementalmente mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 17cef39f-a1aa-4f46-993f-620008f3890d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967330"
 ---
 # <a name="receive-oracle-database-change-notifications-incrementally-using-biztalk-server"></a>Recibir notificaciones de cambio de base de datos de Oracle mediante BizTalk Server de forma incremental
 > [!IMPORTANT]

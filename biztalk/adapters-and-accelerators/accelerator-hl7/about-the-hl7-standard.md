@@ -1,18 +1,18 @@
 ---
-title: "Acerca del estándar HL7 | Documentos de Microsoft"
-ms.custom: 
+title: Acerca del estándar HL7 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - standards [HL7]
 - HL7, standards
 - Health Level Seven (HL7)
 ms.assetid: 15f26ae3-d1ad-40a4-aafe-7148ef30cadb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204844"
 ---
 # <a name="about-the-hl7-standard"></a>Acerca del estándar HL7
 El propósito de la salud nivel siete (HL7) estándar es facilitar la comunicación en entornos de atención médica. El objetivo principal es proporcionar un estándar para el intercambio de datos entre aplicaciones informáticas sanitaria eliminan o reducen considerablemente el mantenimiento de programación y el programa de interfaz personalizada que en caso contrario, podrían ser necesario. Puede designar este objetivo principal como un conjunto de objetivos:  

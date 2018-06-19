@@ -1,11 +1,11 @@
 ---
 title: Crear y enviar un nuevo mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, submitting
 - messages, creating
 ms.assetid: 88b7a2d3-44a4-44e4-ba8c-527c10290925
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209868"
 ---
 # <a name="creating-and-submitting-a-new-message"></a>Crear y enviar un mensaje nuevo
 Esta sección describe cómo enviar un mensaje nuevo. Como con un mensaje reparado, un nuevo mensaje debe ser verificado y aprobado por personas que no sean el creador del mensaje.  

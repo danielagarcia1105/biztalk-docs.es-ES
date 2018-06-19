@@ -1,17 +1,17 @@
 ---
-title: "Respuesta FIN conciliación solucionar problemas | Documentos de Microsoft"
-ms.custom: 
+title: Respuesta FIN conciliación solucionar problemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FIN Response Reconciliation, troubleshooting
 - troubleshooting, FIN Response Reconciliation
 ms.assetid: f62326aa-9a4e-4941-a9bb-20bde980f99e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207420"
 ---
 # <a name="fin-response-reconciliation-troubleshooting"></a>Respuesta FIN conciliación solucionar problemas
 ## <a name="the-frr-bam-view-does-not-show-the-message-type-of-a-message"></a>La vista de BAM FRR no muestra el tipo de mensaje de un mensaje  

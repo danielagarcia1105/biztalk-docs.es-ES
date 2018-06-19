@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar el servidor BizTalk Server para enviar mensajes MIME/SMIME de cifrado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el servidor BizTalk Server para enviar mensajes MIME/SMIME de cifrado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f67152-5f80-4040-a9d6-0819fab7fcb5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297612"
 ---
 # <a name="how-to-configure-biztalk-server-to-send-encrypted-mimesmime-messages"></a>Cómo configurar BizTalk Server para enviar mensajes cifrados de MIME/SMIME
 En este tema se describe cómo configurar BizTalk Server que utilicen certificados para enviar mensajes cifrados de MIME/SMIME. El procedimiento siguiente también se aplica a la configuración de enviar mensajes cifrados a través de transporte AS2.  

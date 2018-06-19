@@ -1,11 +1,11 @@
 ---
 title: Archivos de esquema comunes de HL7 2.X | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HL7, schemas
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - common schemas
 - schemas, 2.X schemas
 ms.assetid: df909f3f-b151-44c8-b3a5-3346a6a44ac1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204700"
 ---
 # <a name="hl7-2x-common-schema-files"></a>Archivos de esquema HL7 2.X comunes
 Cada esquema de mensaje HL7 requiere archivos de esquema comunes que proporcionan definiciones de esquema para tipos de datos, segmentos y tablas. Estos archivos de esquema comunes se definen para cada versión de HL7 2.X. El proyecto implementado en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] que contiene el esquema de mensaje debe hacer referencia a una instancia implementada de proyecto comunes que contiene los tres esquemas comunes.  

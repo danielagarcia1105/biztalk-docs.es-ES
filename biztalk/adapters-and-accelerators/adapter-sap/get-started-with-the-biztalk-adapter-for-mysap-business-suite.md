@@ -1,15 +1,15 @@
 ---
 title: Empezar a trabajar con el adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
-description: "Instalar RFC personalizadas, obtenga información acerca del adaptador, completar tareas RFC e IDOC en SAP, paso a través de tutoriales para usar el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Instalar RFC personalizadas, obtenga información acerca del adaptador, completar tareas RFC e IDOC en SAP, paso a través de tutoriales para usar el adaptador de mySAP en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2013253-f911-4e35-a33a-b4a9bcb136aa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216324"
 ---
 # <a name="get-started-with-the-biztalk-adapter-for-mysap-business-suite"></a>Empezar a trabajar con el adaptador de BizTalk para mySAP Business Suite
 Esta sección proporciona información general sobre el adaptador, los requisitos previos y los temas para los usuarios que están familiarizados con Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Describe las características de [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] y las distintas operaciones que se pueden realizar en el sistema SAP mediante el adaptador.  

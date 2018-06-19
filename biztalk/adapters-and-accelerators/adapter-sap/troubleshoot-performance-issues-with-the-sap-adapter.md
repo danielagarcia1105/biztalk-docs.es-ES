@@ -1,17 +1,17 @@
 ---
 title: Solucionar problemas de rendimiento con el adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, performance
 - performance, troubleshooting
 ms.assetid: 7e8e9fec-0edf-4c67-837c-0e271b2ffe68
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217124"
 ---
 # <a name="troubleshoot-performance-issues-with-the-sap-adapter"></a>Solucionar problemas de rendimiento con el adaptador SAP
 Esta sección describe el uso de técnicas de solución de problemas para resolver los problemas de rendimiento que pueden surgir al usar [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

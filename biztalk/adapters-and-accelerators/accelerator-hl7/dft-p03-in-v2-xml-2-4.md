@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204340"
 ---
 # <a name="dftp03-in-v2xml-24"></a>DFT_P03 de V2. 2.4 DE XML
 Debe cambiar manualmente el código siguiente en el esquema DFT_P03 V2. 2.4 XML después de ejecutar la herramienta Update2XMLSchema:  

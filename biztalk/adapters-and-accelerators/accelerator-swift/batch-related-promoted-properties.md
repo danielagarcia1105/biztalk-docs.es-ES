@@ -1,17 +1,17 @@
 ---
 title: Propiedades promocionan, relacionadas con el lote | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, batch related properties
 - batching, promoted properties
 ms.assetid: 00df1d8f-2f3f-4e3f-9983-37dcf3514fd8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210548"
 ---
 # <a name="batch-related-promoted-properties"></a>Propiedades promocionadas relacionadas con el lote
 Cuando el Desensamblador SWIFT publica un mensaje que procede de un lote de entrada a la base de datos de cuadro de mensajes, el Desensamblador marca el mensaje con especial [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] promocionar propiedades que son específicas de los mensajes por lotes. Estas propiedades proporcionan información de contexto, como el lote que se originó un mensaje desde la posición ordinal que se encontraba en el lote, que se conservan los elementos de A4SWIFT y así sucesivamente.  

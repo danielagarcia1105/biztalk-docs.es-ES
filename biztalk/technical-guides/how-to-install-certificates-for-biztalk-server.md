@@ -1,14 +1,14 @@
 ---
-title: "Cómo instalar certificados de servidor BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar certificados de servidor BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 70a89595-8828-4872-b78b-77e9b0b048b8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298428"
 ---
 # <a name="how-to-install-certificates-for-biztalk-server"></a>Cómo instalar certificados de servidor BizTalk Server
 Para ayudar a proteger de transferencia de datos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe agregar el certificado apropiado en el almacén de certificados adecuado y asociar los certificados a los artefactos de BizTalk adecuados. Este tema describe cómo mostrar la interfaz de la consola de administración de certificados para los almacenes de certificados del equipo Local y el usuario actual y cómo instalar el certificado adecuado en el almacén adecuado.  

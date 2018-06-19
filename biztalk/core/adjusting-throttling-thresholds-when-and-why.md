@@ -1,14 +1,14 @@
 ---
-title: "Ajustar umbrales de limitación: Cuándo y por qué | Documentos de Microsoft"
-ms.custom: 
+title: 'Ajustar umbrales de limitación: Cuándo y por qué | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9afb26c8-e5f4-4b78-9a45-a1263e3cb6ab
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229932"
 ---
 # <a name="adjusting-throttling-thresholds-when-and-why"></a>Ajustar umbrales de limitación: Cuándo y por qué
 Cuando se trata de la limitación, un tamaño no se ajusta a todo. Existe una serie de factores que determinarán lo que será una configuración óptima. BizTalk Server proporciona los valores predeterminados que se ha probado que protegen con eficacia un sistema de aspectos como la sobrecarga que supone el trabajo acumulado. Sin embargo, para determinados escenarios, puede ser demasiado agresivo. Los siguientes ejemplos muestran esta función.  

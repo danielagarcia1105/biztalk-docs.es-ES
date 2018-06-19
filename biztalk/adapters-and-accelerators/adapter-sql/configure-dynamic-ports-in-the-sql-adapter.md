@@ -1,14 +1,14 @@
 ---
-title: "Configurar puertos dinámicos en el adaptador de SQL | Documentos de Microsoft"
-ms.custom: 
+title: Configurar puertos dinámicos en el adaptador de SQL | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c98b66ed-0bf7-4b24-9d16-9792d033b818
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222196"
 ---
 # <a name="configure-dynamic-ports-in-the-sql-adapter"></a>Configurar puertos dinámicos en el adaptador de SQL
 En [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], puede configurar puertos dinámicos para una [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Dado que la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] es un adaptador de WCF, puede configurar dinámicamente un puerto para el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] mediante las propiedades de contexto de mensaje.  

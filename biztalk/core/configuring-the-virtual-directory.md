@@ -1,17 +1,17 @@
 ---
 title: Configurar el directorio Virtual | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directory, configuring
 - configuring virtual directory
 ms.assetid: 548e3bee-66bc-424c-895d-e8672a3d6301
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968818"
 ---
 # <a name="configuring-the-virtual-directory"></a>Configurar el directorio Virtual
 En este tema se muestran los procedimientos para configurar el directorio virtual y verificar la aplicación para un usuario.  

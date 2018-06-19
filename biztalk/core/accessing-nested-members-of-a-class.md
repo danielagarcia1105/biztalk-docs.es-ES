@@ -1,14 +1,14 @@
 ---
 title: Obtener acceso a miembros anidados de una clase | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 358e1edf-ae0b-4916-b8db-7277f39e36f4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224524"
 ---
 # <a name="accessing-nested-members-of-a-class"></a>Obtener acceso a miembros anidados de una clase
 El motor de reglas permite usar un método o propiedad anidada de un objeto en una regla. Por ejemplo, supongamos la clase denominada AClass que tiene una propiedad denominada B del tipo BClass, que tiene un campo denominado C. El motor de reglas permite generar reglas para obtener acceso al campo C mediante la sintaxis A.B.C. Sin embargo, solo es posible usar esta sintaxis cuando se generan las reglas mediante programación y no cuando se usa la herramienta Compositor de reglas de negocio. En el código de ejemplo siguiente se muestra cómo se usa una propiedad de un objeto que, a su vez, es una propiedad de otro objeto:  

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25967570"
 ---
 # <a name="host-an-adapter-in-iis-using-the-wcf-lob-adapter-sdk"></a>Hospedar un adaptador en IIS mediante el SDK de adaptador LOB de WCF
 Esta sección contiene información sobre el hospedaje de un adaptador que se compila mediante la [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] en Internet Information Services (IIS). Para obtener más información sobre otras opciones de hospedaje, vea [servicios de hospedaje](https://msdn.microsoft.com/library/ms730158.aspx).
@@ -42,7 +43,7 @@ Use la [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] para au
   
 1.  Abra [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]. En el **archivo** menú, seleccione **New**y, a continuación, seleccione **sitio Web**.  
   
-2.  En **plantillas**, seleccione **Visual C#**y seleccione **servicio de adaptador de WCF**.  
+2.  En **plantillas**, seleccione **Visual C#** y seleccione **servicio de adaptador de WCF**.  
   
 3.  Especifique la carpeta para guardar la solución y, a continuación, seleccione **Aceptar**. El **Asistente para desarrollo de servicio de adaptador de WCF** inicia.  
   

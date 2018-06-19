@@ -1,14 +1,14 @@
 ---
-title: "Supervisión de bases de datos de servidor BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de bases de datos de servidor BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fee5015-e818-459b-aeeb-a084ef355600
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298172"
 ---
 # <a name="monitoring-biztalk-server-databases"></a>Supervisión de las bases de datos de servidor BizTalk Server
 Puede ejecutar el trabajo de agente de SQL Server de BizTalk de Monitor para identificar todos los problemas conocidos en las bases de datos de administración, el cuadro de mensaje o DTA. El trabajo se crea al configurar un grupo de BizTalk en la consola de administración de BizTalk Server o al actualizar la versión anterior de BizTalk.  

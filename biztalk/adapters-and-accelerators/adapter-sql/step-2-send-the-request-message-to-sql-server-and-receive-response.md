@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Enviar el mensaje de solicitud a SQL Server y recibir respuesta | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 864d2174-d54b-4383-92bf-f6808a2a904b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224804"
 ---
 # <a name="step-2-send-the-request-message-to-sql-server-and-receive-response"></a>Paso 2: Enviar el mensaje de solicitud a SQL Server y recibir respuesta
 ![Paso 2 de 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  

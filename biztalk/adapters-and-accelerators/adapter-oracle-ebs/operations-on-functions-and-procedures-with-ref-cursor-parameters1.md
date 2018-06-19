@@ -1,14 +1,14 @@
 ---
 title: Operaciones en funciones y procedimientos con REF CURSOR Parameters1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6801c1e-7992-40a0-bab7-87957840cedd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215492"
 ---
 # <a name="operations-on-functions-and-procedures-with-ref-cursor-parameters"></a>Operaciones en funciones y procedimientos con parámetros REF CURSOR
 Un REF CURSOR es un tipo de datos de PL/SQL que representa un puntero a un conjunto de resultados de servidor generado mediante la ejecución de una consulta. Un tipo de REF CURSOR habilita la entrada y salida de transmisión por secuencias de datos y es ideal para transferir grandes cantidades de datos desde y hacia un código de PL/SQL. 

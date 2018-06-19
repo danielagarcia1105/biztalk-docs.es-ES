@@ -1,14 +1,14 @@
 ---
 title: Las operaciones de ExecuteReader, ExecuteScalar o ExecuteNonQuery en Oracle E-Business Suite mediante el modelo de servicio WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54c42db1-9a4d-4003-af69-f75ff48b575a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217388"
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-oracle-e-business-suite-using-the-wcf-service-model"></a>Operaciones de ExecuteReader, ExecuteScalar o ExecuteNonQuery en Oracle E-Business Suite mediante el modelo de servicio WCF
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone operaciones genéricas como **ExecuteNonQuery**, **ExecuteReader**, y **ExecuteScalar**. Puede utilizar estas operaciones para ejecutar cualquier instrucción en Oracle E-Business Suite. Estas operaciones varían en función del tipo de respuesta que se obtiene de la instrucción. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [soporte técnico para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  

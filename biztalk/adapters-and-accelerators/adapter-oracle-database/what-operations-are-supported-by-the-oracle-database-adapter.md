@@ -1,17 +1,17 @@
 ---
 title: Las operaciones que son compatibles con el adaptador de la base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP
 - operations, performing
 ms.assetid: d78dbeb8-9dab-4a71-982e-f7ada51472e8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215588"
 ---
 # <a name="what-operations-are-supported-by-the-oracle-database-adapter"></a>Las operaciones que son compatibles con el adaptador de la base de datos de Oracle
 Los clientes de adaptador pueden realizar operaciones en la base de datos de Oracle mediante la creación de proyectos de BizTalk, mediante el modelo de canal WCF o mediante el modelo de servicio WCF. La [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expone las operaciones que las aplicaciones pueden invocar en él y que a su vez, puede invocar en las aplicaciones. Estas operaciones se invocan mediante el envío de mensajes SOAP a través de un canal. Si es necesario recibir una respuesta, se devuelve en un mensaje SOAP en el mismo canal. Para obtener información sobre la estructura del mensaje y la acción de SOAP asociada a cada operación, vea [mensajes y esquemas de mensaje para el adaptador de BizTalk para base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  

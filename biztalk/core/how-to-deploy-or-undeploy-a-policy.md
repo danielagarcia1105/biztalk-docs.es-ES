@@ -1,11 +1,11 @@
 ---
-title: "Cómo implementar o anular la implementación de una directiva | Documentos de Microsoft"
-ms.custom: 
+title: Cómo implementar o anular la implementación de una directiva | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], undeploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - policies, undeploying
 - undeploying, policies
 ms.assetid: 9d26d4fe-9673-4baa-9927-02efda56b7a4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970106"
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a>Cómo implementar o anular la implementación de una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para implementar o anular la implementación de una directiva de forma manual. Además, al iniciar una aplicación, las directivas que contenga se implementan automáticamente, y cuando se detiene, se anula de forma automáticamente la implementación de las directivas correspondientes. Al implementar una directiva, entra en vigor en la aplicación que la usa. Al anular la implementación de una directiva, se desactiva de modo que deja de funcionar en cualquier aplicación del grupo de BizTalk que la use.  

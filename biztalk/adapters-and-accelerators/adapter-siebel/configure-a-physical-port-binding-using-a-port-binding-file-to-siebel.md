@@ -1,17 +1,17 @@
 ---
-title: "Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring by using a port binding file
 ms.assetid: 1758e89c-d56c-4e67-919b-c0bbb22878bf
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222612"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-siebel"></a>Configurar un enlace de puerto físico mediante un archivo de enlace de puerto para Siebel
 Cuando se usa el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para generar metadatos para un artefacto de Siebel, distinto de los archivos de esquema, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también genera un archivo de enlace de puerto. Puede importar este archivo de enlace en la aplicación de BizTalk para crear un puerto de envío físico. Vea [reutilizar enlaces del adaptador en el adaptador de Siebel](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md). Si importa este archivo de enlace, no es necesario crear manualmente un puerto de envío físico.  

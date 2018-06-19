@@ -1,11 +1,11 @@
 ---
 title: Las bases de datos de escalado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, databases [BAM]
@@ -34,7 +34,7 @@ helpviewer_keywords:
 - Analysis database [BAM], clustering
 - DTS packages, scheduling
 ms.assetid: e02edc0d-1c51-4b97-be04-0feb787089ac
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -43,6 +43,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272084"
 ---
 # <a name="scaled-out-databases"></a>Bases de datos escaladas
 Para proporcionar una alta disponibilidad para las bases de datos de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], configure dos equipos que ejecuten SQL Server en un clúster de Windows. Estos equipos pueden ejecutarse en una configuración activo/activo o activo/pasivo para obtener redundancia y almacenar los datos en una unidad compartida (como una matriz de discos SCSI RAID 1+0) o una red de área de almacenamiento (SAN).  

@@ -1,14 +1,14 @@
 ---
 title: Entornos con pocos privilegios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: abdc45d0-b63a-4b6c-80c4-1f8e87644cd9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298300"
 ---
 # <a name="low-privilege-environments"></a>Entornos con pocos privilegios
 Varios flujos de trabajo que se incluyen con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración requiere permisos elevados para realizar determinadas acciones. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Módulo de administración le permite realizar funciones básicas de supervisión en un entorno con pocos privilegios. Hay dos funciones administrativas: el Administrador de BizTalk Server y el operador de BizTalk Server. El Administrador de BizTalk Server tiene una función de muchos privilegios, con acceso a los datos de configuración y de seguimiento. El Administrador de BizTalk Server puede realizar todas las tareas administrativas claves tales dar de alta e iniciar los artefactos. El Operador de BizTalk Server tiene una función de pocos privilegios, con acceso sólo para supervisar y solucionar problemas de acciones. Para obtener más información, consulte [derechos de usuario mínimos de seguridad](http://technet.microsoft.com/library/aa559845\(BTS.80\).aspx).  

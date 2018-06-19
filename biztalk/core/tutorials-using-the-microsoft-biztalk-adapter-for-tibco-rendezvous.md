@@ -1,15 +1,15 @@
 ---
 title: 'Tutoriales: Usar el adaptador de Microsoft BizTalk para TIBCO Rendezvous | Documentos de Microsoft'
-description: "Guías paso a paso para recibir datos de TIBCO Rendevous y enviar datos a Rendevous TIBCO mediante el adaptador de BizTalk Server"
-ms.custom: 
+description: Guías paso a paso para recibir datos de TIBCO Rendevous y enviar datos a Rendevous TIBCO mediante el adaptador de BizTalk Server
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0be332bc-1148-4f2c-9509-6f09a67da057
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013107"
 ---
 # <a name="tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous"></a>Tutoriales: Usar el adaptador de Microsoft BizTalk para TIBCO Rendezvous
 

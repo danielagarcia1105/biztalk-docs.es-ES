@@ -1,15 +1,15 @@
 ---
-title: "Instalar el componente de administración de SSO | Documentos de Microsoft"
-description: "Realice una instalación personalizada para obtener la administración de SSO y use ssomanage o administración de SSO para especificar el nombre del servidor de BizTalk Server"
-ms.custom: 
+title: Instalar el componente de administración de SSO | Documentos de Microsoft
+description: Realice una instalación personalizada para obtener la administración de SSO y use ssomanage o administración de SSO para especificar el nombre del servidor de BizTalk Server
+ms.custom: ''
 ms.date: 09/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 096839e2-7129-498d-92ee-5afeea8dbe0d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/28/2017
+ms.locfileid: "22317989"
 ---
 # <a name="how-to-install-the-sso-administration-component"></a>Cómo instalar el componente de administración de SSO
 

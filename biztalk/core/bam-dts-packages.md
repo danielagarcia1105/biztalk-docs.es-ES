@@ -1,17 +1,17 @@
 ---
 title: Los paquetes DTS de BAM | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DTS packages, BAM
 - BAM, DTS packages
 ms.assetid: bba70d81-6ddf-4f1f-a1f7-d5a5bf453bae
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965066"
 ---
 # <a name="bam-dts-packages"></a>Paquetes DTS de BAM
 Un administrador puede actualizar parámetros para los siguientes paquetes DTS de BAM:  

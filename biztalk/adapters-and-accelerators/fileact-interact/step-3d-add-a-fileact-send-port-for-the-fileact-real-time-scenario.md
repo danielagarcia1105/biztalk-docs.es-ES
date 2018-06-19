@@ -1,14 +1,14 @@
 ---
-title: "Paso 3D: agregar un puerto de envío de FILEACT para el escenario en tiempo real de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3D: agregar un puerto de envío de FILEACT para el escenario en tiempo real de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a22ba41-4f43-4fbb-92f7-a0fd7558d2ce
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966378"
 ---
 # <a name="step-3d-add-a-fileact-send-port-for-the-fileact-real-time-scenario"></a>Paso 3D: agregar un puerto de envío de FILEACT para el escenario en tiempo real de FileAct
 Antes de empezar este paso, debe completar [paso 3c: agregar un puerto de envío de archivo para capturar Sw:HandleRequest mensaje para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-message-for-fileact.md).  

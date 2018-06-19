@@ -1,11 +1,11 @@
 ---
-title: "Cómo agregar un puerto de envío a un grupo de puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar un puerto de envío a un grupo de puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send port groups], adding send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, send port groups
 - adding, send ports
 ms.assetid: a61b3b32-c05e-40b9-abf1-09b7065fb6a2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969578"
 ---
 # <a name="how-to-add-a-send-port-to-a-send-port-group"></a>Cómo agregar un puerto de envío a un grupo de puertos de envío
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para agregar uno o varios puertos de envío a un grupo de puertos de envío. Solo puede agregar puertos de envío estáticos unidireccionales a un grupo de puertos de envío.  

@@ -1,17 +1,17 @@
 ---
-title: "Confirmaciones estáticas | Documentos de Microsoft"
-ms.custom: 
+title: Confirmaciones estáticas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - static acknowledgements
 - acknowledgements, static acknowledgements
 ms.assetid: 1cdd01fc-1dae-4851-917f-4f13a0f9595a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206284"
 ---
 # <a name="static-acknowledgments"></a>Confirmaciones estáticas
 Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) admite los modos de original, mejorada, aplazada y estático confirmación (ACK). Si selecciona el modo de confirmación estático para una entidad en [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generarán confirmaciones estáticas que contienen solo una indicación de éxito o error. La confirmación estática indica si el sistema de recepción recibe y procesa el mensaje de correcto y los valores de error configurados en [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] el Explorador de configuración.  

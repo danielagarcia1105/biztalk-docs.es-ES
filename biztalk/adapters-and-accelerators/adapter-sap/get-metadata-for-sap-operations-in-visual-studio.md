@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216124"
 ---
 # <a name="get-metadata-for-sap-operations-in-visual-studio"></a>Obtiene los metadatos para operaciones de SAP en Visual Studio
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] proporciona dos [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] componentes que puede utilizar para ayudarle a desarrollar soluciones con el adaptador: el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]y el [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Los clientes de adaptador deben usar estos componentes para conectarse a un sistema SAP y, a continuación, generar metadatos para los artefactos SAP que desea invocar.  

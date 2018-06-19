@@ -1,11 +1,11 @@
 ---
-title: "Determinación del esquema en el Desensamblador 2.X HL7 | Documentos de Microsoft"
-ms.custom: 
+title: Determinación del esquema en el Desensamblador 2.X HL7 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - header segments [2.X]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - disassembler, parsing messages
 - 2.X messages, MSH
 ms.assetid: afd45c4c-2feb-44eb-b3bd-49fe114eb893
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206092"
 ---
 # <a name="schema-determination-in-the-hl7-2x-disassembler"></a>Determinación del esquema en el Desensamblador 2.X HL7
 Mensajes de HL7 2.X contienen un segmento de encabezado (MSH), seguido de un número de segmentos de cuerpo y un número opcional de segmentos de Z. MSH contiene 21 campos.  

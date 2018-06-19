@@ -1,14 +1,14 @@
 ---
-title: "Base de datos de configuración previa Optimizations2 | Documentos de Microsoft"
-ms.custom: 
+title: Base de datos de configuración previa Optimizations2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c525c3a-249c-4694-b287-a8c35a6aa524
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015435"
 ---
 # <a name="pre-configuration-database-optimizations"></a>Optimizaciones de base de datos de configuración previa
 Debido a la función crítica que SQL Server se reproduce en cualquier entorno de BizTalk Server, resulta de gran importancia que SQL Server sea configurado/optimizado para un rendimiento óptimo. Si SQL Server no está optimizado para llevar a cabo correctamente, las bases de datos usados por BizTalk Server se convertirá en un cuello de botella y se verá afectado el rendimiento general del entorno de BizTalk Server. En este tema se describe varias optimizaciones de rendimiento de SQL Server que hay que seguir antes de instalar a BizTalk Server y configurar las bases de datos de BizTalk Server.  

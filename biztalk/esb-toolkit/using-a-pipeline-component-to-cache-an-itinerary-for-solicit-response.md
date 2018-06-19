@@ -1,14 +1,14 @@
 ---
-title: "Usar un componente de canalización para almacenar en caché un itinerario de petición-respuesta | Documentos de Microsoft"
-ms.custom: 
+title: Usar un componente de canalización para almacenar en caché un itinerario de petición-respuesta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: add07ebf-785c-4c53-be69-efd40677a758
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294996"
 ---
 # <a name="using-a-pipeline-component-to-cache-an-itinerary-for-solicit-response"></a>Uso de un componente de canalización para almacenar en caché un itinerario para envíos de solicitud-respuesta
 Los mensajes enviados mediante un [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerario en rampa puede atravesar un itinerario unidireccional o un itinerario bidireccional (solicitud-respuesta). Para admitir itinerarios de solicitud-respuesta, el mecanismo de itinerarios debe proporcionar almacenamiento en caché para puertos de envío de petición-respuesta dinámicos de BizTalk.  

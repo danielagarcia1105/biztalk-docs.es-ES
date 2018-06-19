@@ -1,14 +1,14 @@
 ---
-title: "Introducción a la arquitectura del adaptador de BizTalk para Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a la arquitectura del adaptador de BizTalk para Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f840ff23-4d68-4bd3-b115-aa87bc4c99f2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216772"
 ---
 # <a name="architecture-overview-of-the-biztalk-adapter-for-oracle-e-business-suite"></a>Introducción a la arquitectura del adaptador de BizTalk para Oracle E-Business Suite
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] es un [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] enlace personalizado. Este enlace contiene un elemento de enlace de transporte personalizado único que permite la comunicación con un Oracle E-Business Suite. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] ajustada por el [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] en tiempo de ejecución y se expone a las aplicaciones a través de la [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] arquitectura de canal. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] se comunica con Oracle E-Business Suite a través del proveedor de datos de Oracle para .NET (ODP.NET) y el cliente de Oracle, que forman parte de los componentes de acceso de datos de Oracle (ODAC) para Windows.  

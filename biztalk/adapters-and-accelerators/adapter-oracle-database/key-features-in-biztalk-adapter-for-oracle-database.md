@@ -1,11 +1,11 @@
 ---
-title: "La clave de características en el adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: La clave de características en el adaptador de BizTalk para base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - features, operations-related
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - features, performance-related
 - features, metadata-related
 ms.assetid: 7e79714c-1472-4721-a693-5be2a9a0cd1f
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215988"
 ---
 # <a name="key-features-in-biztalk-adapter-for-oracle-database"></a>Características clave en el adaptador de BizTalk para base de datos de Oracle
 Esta sección enumeran las características nuevas y en desuso en [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

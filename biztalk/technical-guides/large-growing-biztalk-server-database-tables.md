@@ -1,14 +1,14 @@
 ---
 title: Tablas de base de datos crezca grande | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f30372f7-ab90-4ebb-9022-ac3ae3309459
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014203"
 ---
 # <a name="large-growing-biztalk-server-database-tables"></a>Tablas de base de datos de servidor BizTalk Server de gran crecimiento
 La siguiente tabla se recogen los [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tablas que suelen alcanzar el mayor. Puede usar estos datos para determinar dónde puede haber un problema potencial.  
@@ -28,7 +29,7 @@ La siguiente tabla se recogen los [!INCLUDE[btsBizTalkServerNoVersion](../includ
 |*HostNameQ* tabla|Esta tabla contiene una referencia a los mensajes en la tabla de cola de impresión que están asociados con el host en particular y no se suspenden. Esta tabla se encuentra en la base de datos BizTalkMsgBoxDb.|Si el *HostNameQ* tablas tienen el número de registros, pueden existir los siguientes tipos de instancias:<br /><br /> -Instancias listos para ejecutarse<br />-Instancias activas<br />-Instancias deshidratadas<br /><br /> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]necesita tiempo para "ponerse al día" y las instancias de procesos. Esta tabla puede crecer cuando la velocidad de procesamiento de entrada supera con creces la tasa saliente de procesamiento. Este escenario también puede producirse debido a la base de datos de BizTalkDTADb grande o retrasos de disco de SQL Server.|  
 |Poner en cola, los elementos y fragmentos de tablas|Estas tablas almacenan datos del mensaje en la base de datos BizTalkMsgBoxDb.|Las tablas de cola de impresión, los elementos y los fragmentos de tener muchos registros implica que hay un gran número de mensajes están actualmente activas, deshidratadas o suspendidas. Según el tamaño, el número de partes y la configuración de fragmentación en estas tablas, un mensaje único puede generar todas estas tablas. Cada mensaje tiene exactamente una fila en la tabla de cola de impresión y al menos una fila en la tabla artículos.|  
 |Tabla de instancias|Esta tabla almacena todas las instancias y su estado actual de la base de datos BizTalkMsgBoxDb.|La [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrador no debe permitir muchas instancias suspendidas que se mantiene en la tabla de instancias. Número de instancias deshidratada debe permanecer solo si la lógica de negocios requiere orquestaciones de larga duración. Recuerde que esa instancia de un servicio puede estar asociada a muchos mensajes en la tabla de cola de impresión.|  
-|TrackingData*_x_x* tabla|Esta tabla almacena los eventos seguidos en la base de datos de BizTalkMsgBoxDb para datos descodificar servicio seguimiento (TDDS) para mover los eventos a la base de datos de BizTalkDTADb.|Si el TrackingData_*x_x* tablas son grandes, ya sea el TDDS no se está ejecutando o no se está ejecutando correctamente. Si se está ejecutando el TDDS, revise los registros de eventos y la tabla TDDS_FailedTrackingData en la base de datos de BizTalkDTADb para obtener información de error.|  
+|TrackingData *_x_x* tabla|Esta tabla almacena los eventos seguidos en la base de datos de BizTalkMsgBoxDb para datos descodificar servicio seguimiento (TDDS) para mover los eventos a la base de datos de BizTalkDTADb.|Si el TrackingData_*x_x* tablas son grandes, ya sea el TDDS no se está ejecutando o no se está ejecutando correctamente. Si se está ejecutando el TDDS, revise los registros de eventos y la tabla TDDS_FailedTrackingData en la base de datos de BizTalkDTADb para obtener información de error.|  
 |Tracking_Fragments*x*, Tracking_Parts*x*, Tracking_Spool*x* tablas|Dos de cada una de estas tablas se encuentra en las bases de datos BizTalkMsgBoxDb y BizTalkDTADb. Uno está en línea y el otro está sin conexión.|El **TrackedMessages_Copy_BizTalkMsgBoxDb** trabajo del Agente SQL Server mueve los cuerpos de mensaje directamente a estas tablas en la base de datos de BizTalkDTADb.|  
 |tabla dta_ServiceInstances|Esta tabla almacena los eventos de seguimiento de instancias de servicio en la base de datos de BizTalkDTADb.|Si esta tabla es grande, la base de datos BizTalkDTADb es probablemente grande.|  
 |tabla dta_DebugTrace|Esta tabla almacena los eventos de depurador de orquestaciones en la base de datos de BizTalkDTADb.|Si la tabla dta_DebugTrace tiene muchos registros, forma de orquestación de seguimiento se está usando o que se usó. Si no se requiere para las operaciones normales, la depuración de orquestación, deshabilitar el seguimiento de todas las orquestaciones de forma de orquestación. Si ya está deshabilitado el seguimiento de forma de orquestación y existe un trabajo pendiente en la base de datos de BizTalkMsgBoxDb, la tabla de dta_DebugTrace puede continuar aumentando porque TDDS continúa mover estos datos en la tabla dta_DebugTrace.<br /><br /> Para controlar el tamaño de la base de datos de seguimiento de BizTalkDTADb, puede deshabilitar el seguimiento global. Vea [cómo desactivar el seguimiento Global](../core/how-to-turn-off-global-tracking.md) y [directrices de ajuste de tamaño de la base de datos de seguimiento](../core/tracking-database-sizing-guidelines.md).|  

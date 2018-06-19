@@ -1,14 +1,14 @@
 ---
-title: "Ver la información en la consola de Operations Manager | Documentos de Microsoft"
-ms.custom: 
+title: Ver la información en la consola de Operations Manager | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6acdf425-4c36-4d89-9493-81b33481fe6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302564"
 ---
 # <a name="viewing-information-in-the-operations-manager-console"></a>Ver información en la consola de Operations Manager
 Usar las vistas proporcionadas con el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack para conocer la disponibilidad actual, la configuración, el estado y el rendimiento de su entorno de BizTalk Server. Una vista puede contener una larga lista de objetos. Para buscar un objeto o grupo de objetos específico, puede usar los botones Ámbito, Búsqueda y Buscar de la barra de herramientas de Operations Manager. Para obtener más información, vea los temas de administración de supervisión datos mediante ámbito, búsqueda y busque el tema en la Ayuda de Operations Manager 2007 R2\2012.  

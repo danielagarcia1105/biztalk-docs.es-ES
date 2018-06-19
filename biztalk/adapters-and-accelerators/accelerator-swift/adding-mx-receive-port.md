@@ -1,14 +1,14 @@
 ---
-title: "Puerto de recepción de agregar MX | Documentos de Microsoft"
-ms.custom: 
+title: Puerto de recepción de agregar MX | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4818d6af-df1d-481e-becf-1af633735248
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209484"
 ---
 # <a name="adding-mx-receive-port"></a>Agregar MX de puerto de recepción
 **Para agregar un MX de puerto de recepción:**  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  Haga clic en **ubicaciones de recepción**, seleccione **New**y, a continuación, haga clic en **ubicación de recepción unidireccional**.  
   
-7.  En el, seleccione un cuadro de diálogo de puerto de recepción, haga clic en **puerto de recepción de MX_**y, a continuación, haga clic en **Aceptar**.  
+7.  En el, seleccione un cuadro de diálogo de puerto de recepción, haga clic en **puerto de recepción de MX_** y, a continuación, haga clic en **Aceptar**.  
   
 8.  En el cuadro de diálogo Propiedades de la ubicación de recepción, en el cuadro Nombre, escriba **ubicación de recepción de MX_**.  
   

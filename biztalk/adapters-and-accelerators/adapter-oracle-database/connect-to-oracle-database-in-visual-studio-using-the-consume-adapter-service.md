@@ -1,17 +1,17 @@
 ---
 title: Conectarse a la base de datos de Oracle en Visual Studio mediante el servicio de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connecting, to the Oracle database
 - connection, to the Oracle database
 ms.assetid: db2789d0-2d61-472b-ad0c-4ef0707e9c64
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215108"
 ---
 # <a name="connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service"></a>Conectarse a la base de datos de Oracle en Visual Studio mediante el servicio de adaptador
 El complemento Consume Adapter Service se instala al instalar el SDK de adaptador LOB de WCF. El complemento Consume Adapter Service carga todos los enlaces de WCF-Custom instalados en el equipo. Para conectarse a la base de datos de Oracle mediante basadas en WCF [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en un proyecto de BizTalk, debe utilizar el **oracleDBBinding**.  
