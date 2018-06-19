@@ -1,17 +1,17 @@
 ---
 title: Adaptador de HTTP (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: f3bd8172-15c4-42fa-aa17-e4bed9d4aba4
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974490"
 ---
 # <a name="http-adapter-biztalk-server-sample"></a>Adaptador de HTTP (ejemplo de BizTalk Server)
 En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigmas de comunicación de solicitud-respuesta y de petición-respuesta que se usan en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\AdaptersDevelopment\HttpAdapter\  
+ *\<Ejemplos de ruta de acceso\>* \AdaptersDevelopment\HttpAdapter\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -137,7 +138,7 @@ En el ejemplo de adaptador de HTTP se muestra cómo se implementan los paradigma
  La aplicación ya puede utilizar el adaptador de HTTP.NET. Al configurar el adaptador, el formato para la **directorio Virtual** propiedades de transporte tiene el formato: /httpreceive/httpreceive.aspx?optionalQueryString.  
   
 ## <a name="comments"></a>Comentarios  
- El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en  *\<ruta de ejemplos\>*\AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
+ El hace de adaptador HTTP.NET uso de las clases de BaseAdapter proporcionada en  *\<ruta de ejemplos\>* \AdaptersDevelopment\BaseAdapter\v1.0... 2\\. Las clases que se proporcionan en el proyecto BaseAdapter tienen como finalidad acelerar el desarrollo del adaptador. Vea los comentarios de código BaseAdapter para obtener más información acerca de las clases proporcionadas.  
   
 ## <a name="see-also"></a>Vea también  
  [Registrar un adaptador](../core/registering-an-adapter.md)   

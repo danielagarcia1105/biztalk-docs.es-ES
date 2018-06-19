@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262012"
 ---
 # <a name="lesson-1-define-schemas-and-a-map"></a>Lección 1: Definir los esquemas y una asignación
 En esta lección creará y generará el primer proyecto de la solución de integración de aplicaciones empresariales (EAI). El primer proyecto contiene dos esquemas de mensaje y una asignación.  

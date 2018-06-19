@@ -1,11 +1,11 @@
 ---
 title: Compone el procesador de mensajes (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, aggregated
 - examples, pipelines
 ms.assetid: a0f87f98-6f5f-4edb-8f65-49d22df5de97
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975282"
 ---
 # <a name="composed-message-processor-biztalk-server-sample"></a>Procesador de mensajes compuestos  (ejemplo de BizTalk Server)
 Este ejemplo tiene como finalidad crear una aplicación de procesador de mensajes compuestos que procese elementos de línea individuales a partir de mensajes agregados.  

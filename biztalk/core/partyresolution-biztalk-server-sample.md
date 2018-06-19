@@ -1,11 +1,11 @@
 ---
 title: PartyResolution (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - routing, messages
 - messages, routing
 ms.assetid: 220e6bc5-6f04-4f37-b0d0-f11c2cc14422
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975426"
 ---
 # <a name="partyresolution-biztalk-server-sample"></a>PartyResolution (ejemplo de BizTalk Server)
 En el ejemplo de PartyResolution se muestra cómo utilizar orquestaciones de BizTalk con resolución de entidades para enrutar mensajes a uno de los dos destinatarios posibles.  
@@ -125,7 +126,7 @@ En el ejemplo de PartyResolution se muestra cómo utilizar orquestaciones de Biz
 -   Shipper1Process.odx y Shipper2Process.odx se generan para recibir el pedido de envío y el consejo de envío de SupplierProcess.odx y enviar la respuesta de nuevo a SupplierProcess.odx. En las dos orquestaciones de remitente, se utiliza la correlación y el tipo de correlación se basa en la propiedad promocionada PONo.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Orchestrations\PartyResolution\  
+ *\<Ejemplos de ruta de acceso\>* \Orchestrations\PartyResolution\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -276,13 +277,13 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
 1.  Ejecute FilePolling.exe desde la carpeta siguiente:  
   
-     *\<Ejemplos de ruta de acceso >*\Orchestrations\PartyResolution\FilePolling\bin\Debug  
+     *\<Ejemplos de ruta de acceso >* \Orchestrations\PartyResolution\FilePolling\bin\Debug  
   
 2.  Haga clic en **iniciar sondeo**.  
   
 3.  Pegue una copia del archivo de instancia de pedido proporcionado PurchaseOrder.xml en la carpeta siguiente:  
   
-     *\<Ejemplos de ruta de acceso >*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder  
+     *\<Ejemplos de ruta de acceso >* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder  
   
 4.  Observe la secuencia de mensajes que se proporcionan en forma de cuadros de mensajes, que le mantienen informado acerca del progreso del ejemplo:  
   

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22258004"
 ---
 # <a name="importbindings-command"></a>ImportBindings (comando)
 Importa enlaces desde un archivo de enlace basado en XML a un grupo o a una aplicación de BizTalk. Los enlaces pueden haber exportado de un ensamblado, la aplicación o el grupo, como se describe en [exportar enlaces](../core/exporting-bindings6.md). En función de la ubicación desde la que se exportaron los enlaces, los parámetros ApplicationName y GroupLevel tienen efectos diferentes. Para obtener más información, vea la sección "Comentarios" más adelante en este tema.  

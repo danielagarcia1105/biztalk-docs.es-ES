@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257900"
 ---
 # <a name="instance-message-processing-using-property-promotion"></a>Procesar mensajes de instancia con promoción de propiedades
 Promocionar propiedades mediante la **campo de propiedad** método requiere la creación de un esquema de propiedad. Para obtener más información acerca de cómo crear un esquema de propiedades, vea [cómo crear esquemas de propiedad](../core/how-to-create-property-schemas.md). Como con la promoción de propiedades, use el **promocionar propiedades** cuadro de diálogo, que es accesible mediante la **promocionar propiedades** propiedad de la **esquema** nodo esquemas de mensaje.  

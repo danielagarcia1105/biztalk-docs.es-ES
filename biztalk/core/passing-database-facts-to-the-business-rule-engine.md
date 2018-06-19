@@ -1,14 +1,14 @@
 ---
 title: Pasar hechos de base de datos para el motor de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62285bbe-ee64-4c26-b48e-55f666dc1304
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264140"
 ---
 # <a name="passing-database-facts-to-the-business-rule-engine"></a>Pasar hechos de la base de datos al motor de reglas de negocios
 Cuando utiliza la herramienta de Compositor de reglas de negocio para probar una directiva que requiere un objeto DataConnection y TypedDataTable como un hecho, un objeto DataConnection y TypedDataTable se crea automáticamente y se impone en la memoria de trabajo del motor de reglas de negocios. Además, cualquier actualización de la base de datos realizada por la directiva se confirma automáticamente.  

@@ -1,17 +1,17 @@
 ---
-title: "Cómo abrir una consulta de seguimiento guardados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo abrir una consulta de seguimiento guardados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [HAT], opening
 - queries [HAT]
 ms.assetid: 7e63c45c-b74e-40e1-9035-b7191d0803ff
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254396"
 ---
 # <a name="how-to-open-a-saved-tracking-query"></a>Apertura de una consulta de seguimiento guardada
 Es posible abrir una consulta de instancias de servicio o de mensaje con respecto a los datos de seguimiento en directo (que ejecuten actualmente instancias de servicio y mensajes) Esto se realiza mediante la pestaña Consulta de la página Concentrador de grupo de la consola de administración de BizTalk Server.  

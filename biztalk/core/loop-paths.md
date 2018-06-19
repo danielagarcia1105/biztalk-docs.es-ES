@@ -1,17 +1,17 @@
 ---
 title: Las rutas de acceso de bucle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Looping functoids, paths
 - maps, conditional looping
 ms.assetid: 4612dc2d-2c39-427d-88ac-65f9e85873c7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262156"
 ---
 # <a name="loop-paths"></a>Rutas de bucle
 Un elemento en un esquema está en bucle si su propiedad Max Occurs es mayor que 1. Una ruta de acceso de bucle se produce cuando se dibuja un vínculo entre un elemento de bucle del esquema de origen y un elemento de bucle del esquema de destino.  

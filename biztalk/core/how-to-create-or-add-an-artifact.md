@@ -1,18 +1,18 @@
 ---
-title: "Cómo crear o agregar un artefacto | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear o agregar un artefacto | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, artifacts
 - artifacts, creating
 - applications, artifacts
 ms.assetid: fea7487c-b5fa-457f-8c74-a20ea3a6df85
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249492"
 ---
 # <a name="how-to-create-or-add-an-artifact"></a>Cómo crear o agregar un artefacto
 Tras crear una aplicación de BizTalk, puede agregar artefactos basados en archivo (por ejemplo, ensamblados de BizTalk, ensamblados de .NET, secuencias de comandos y certificados) desde el sistema de archivos o agregar directivas desde la base de datos del motor de reglas. También puede crear puertos de envío, grupos de puertos de envío, ubicaciones de recepción y puertos de recepción desde la aplicación. Al crear o agregar artefactos, estos se agregan a la base de datos de administración de BizTalk. Puede implementar la aplicación y sus artefactos como una sola entidad, como se describe en [implementar aplicaciones de BizTalk](../core/deploying-biztalk-applications.md).  

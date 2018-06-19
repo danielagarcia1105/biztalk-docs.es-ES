@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar asignaciones en orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar asignaciones en orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfd628d8-c163-431d-8ad7-d7d77007c549
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255332"
 ---
 # <a name="how-to-use-maps-in-orchestrations"></a>Cómo usar asignaciones en orquestaciones
 El Asignador de BizTalk es una herramienta que se ejecuta en el entorno Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. El Asignador de BizTalk le permite crear y editar asignaciones en las que usará vínculos y functoids para definir la relación entre un esquema de origen y uno de destino mediante vínculos. Un vínculo define una copia de datos directa de un registro o campo. Los vínculos puede conectarse directamente con elementos del otro esquema, o pueden establecer conexiones con functoids. Los functoids llevan a cabo manipulaciones de datos más complejas.  

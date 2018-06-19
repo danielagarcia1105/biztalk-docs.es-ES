@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255540"
 ---
 # <a name="how-to-search-for-map-items"></a>Cómo buscar elementos de asignación
 El Asignador de BizTalk le permite buscar elementos en el esquema de origen, en el de destino y en la superficie de la cuadrícula. Este tema proporciona información acerca de cómo realizar esta operación.  

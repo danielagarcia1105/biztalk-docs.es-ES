@@ -1,17 +1,17 @@
 ---
 title: Mensajes representan como clases .NET | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, expressions
 - orchestrations, filters
 ms.assetid: cdbea200-552e-4734-a370-2f93da07ea81
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263396"
 ---
 # <a name="messages-represented-as-net-classes"></a>Mensajes representados como clases .NET
 Este enfoque implica en primer lugar la creación de una clase .NET que defina el tipo de mensaje. La clase deberá tener un constructor predeterminado para que se compile la orquestación que la usa. A continuación se muestra un ejemplo sencillo de dicha clase.  

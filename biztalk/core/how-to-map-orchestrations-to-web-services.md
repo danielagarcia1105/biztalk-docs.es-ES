@@ -1,11 +1,11 @@
 ---
-title: "Cómo asignar orquestaciones a servicios Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar orquestaciones a servicios Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Web services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, naming conventions
 - Web services, naming conventions
 ms.assetid: e6a58978-c81c-49f3-9428-9bff60f1ded7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255732"
 ---
 # <a name="how-to-map-orchestrations-to-web-services"></a>Cómo asignar orquestaciones a servicios Web
 Una orquestación puede tener varios puertos de recepción. Mediante el Asistente para publicar servicios Web de BizTalk, se seleccionan los puertos de recepción para publicarlos como servicios Web. El asistente crea un servicio Web (.archivo asmx) para cada puerto de recepción. El asistente también puede crear un servicio Web para todos los puertos de recepción sin son del mismo tipo (unidireccionales o de solicitud-respuesta). Las operaciones se convierten en llamadas de función. Cada operación del puerto de recepción se convierte en un método Web. Las operaciones de solicitud se convierten en parámetros de entrada. Las operaciones de respuesta se convierten en tipos de devolución.  

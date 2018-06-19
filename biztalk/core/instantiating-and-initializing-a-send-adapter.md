@@ -1,14 +1,14 @@
 ---
-title: "Crear instancias e inicializar un adaptador de envío | Documentos de Microsoft"
-ms.custom: 
+title: Crear instancias e inicializar un adaptador de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f10e6507-3351-4173-95f5-48546ca5f5c4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257668"
 ---
 # <a name="instantiating-and-initializing-a-send-adapter"></a>Crear instancias e inicializar un adaptador de envío
 De forma predeterminada, no se crea ninguna instancia de los adaptadores de envío hasta que se les entrega el primer mensaje. A este proceso se le denomina "creación diferida". El método predeterminado de creación diferida es útil para conservar los recursos del sistema. El adaptador de envío, una vez creado, se almacena en caché y está activo hasta que se detiene el servicio de BizTalk Server.  

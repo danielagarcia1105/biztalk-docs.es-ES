@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el seguimiento de un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el seguimiento de un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - configuring, receive ports
 - managing [receive ports], tracking
 ms.assetid: dd569e84-cb1c-4191-912a-0c2eb2781a85
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249108"
 ---
 # <a name="how-to-configure-tracking-for-a-receive-port"></a>Cómo configurar el seguimiento de un puerto de recepción
 En este tema se describe cómo usar la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para configurar el seguimiento de un puerto de recepción, tales como las opciones para ver los cuerpos de mensajes y las propiedades promocionadas. Esto le ayuda supervisar el estado de su implementación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e identificar los cuellos de botella. La configuración de seguimiento que configure se aplica a todas las instancias del puerto de recepción.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264260"
 ---
 # <a name="port-ports-node"></a>Puerto (nodo Puertos)
 El nodo Puerto de un archivo de enlace contiene información específica acerca de un puerto o de una lista de distribución enlazada a un servicio que se exporta con el archivo de enlace.  

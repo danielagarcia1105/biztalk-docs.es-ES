@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975546"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service"></a>Cómo utilizar el Asistente para consumición del Servicio WCF de BizTalk para consumir un Servicio WCF
 El marco de trabajo de adaptadores proporciona un medio para agregar esquemas de adaptador y tipos de BizTalk a proyectos de BizTalk. El Asistente para consumición del Servicio WCF de BizTalk le permite agregar adaptadores de envío WCF a un proyecto de BizTalk. Para los adaptadores de envío WCF, debe seleccionar un extremo de intercambio de metadatos (MEX) existente en los puertos de envío. A continuación tendrá que especificar la información que se ha utilizado para generar los tipos y los esquemas. Una vez que ha finalizado el asistente, los esquemas y los tipos necesarios para consumir servicios WCF se agregan al proyecto de BizTalk.  

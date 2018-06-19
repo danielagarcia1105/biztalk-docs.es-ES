@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246564"
 ---
 # <a name="host-service-node"></a>Host (nodo Servicio)
 El nodo Host del nodo Servicio de un archivo de enlace describe el host asociado al servicio que se exporta con el archivo de enlace.  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 11: Probar la solución AS2 | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 11: Probar la solución AS2 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 184ed8ee-6778-4bb9-b265-a94a1fed03cb
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975090"
 ---
 # <a name="step-11-test-the-as2-solution"></a>Paso 11: Probar la solución AS2
 ![Paso 11 de 11](../core/media/tut-step11-of-11.gif "Tut_Step11_of_11")  

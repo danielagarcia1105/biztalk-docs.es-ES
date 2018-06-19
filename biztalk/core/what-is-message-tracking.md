@@ -1,11 +1,11 @@
 ---
-title: "¿Qué es el seguimiento de mensajes? | Microsoft Docs"
-ms.custom: 
+title: ¿Qué es el seguimiento de mensajes? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HAT, metadata
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - configuring [HAT tracking], messages
 - data, security
 ms.assetid: 51cec59d-b411-4d8f-b771-7b2cf0f38945
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974642"
 ---
 # <a name="what-is-message-tracking"></a>¿Qué es el seguimiento de mensajes?
 Un mensaje es una instancia electrónica de datos, que se intercambia normalmente entre dos aplicaciones o procesos empresariales que se estén ejecutando. Una instancia de mensaje está compuesta por un cuerpo de mensaje, propiedades de mensaje y metadatos.  

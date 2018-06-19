@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a8fff07e-b08e-4f95-8ce2-27b508674a5c
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25974127"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-send-port"></a>Cómo configurar un puerto de envío WCF-NetTcp
 Los puertos de envío WCF-NetTcp pueden configurarse mediante programación, o bien utilizando la consola de administración de BizTalk.  
@@ -72,7 +73,7 @@ Los puertos de envío WCF-NetTcp pueden configurarse mediante programación, o b
   
 5.  En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **seguridad** ficha, defina las capacidades de seguridad del puerto de envío WCF-NetTcp. Para obtener más información sobre la **seguridad** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **delcuadrodediálogodepropiedadesdetransporteWCF-NetTcp,envío,seguridad**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-6.  En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetTcp, envío,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+6.  En el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetTcp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetTcp, envío,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="configure-a-wcf-nettcp-send-port-programmatically"></a>Configurar un puerto de envío WCF-NetTcp mediante programación
   

@@ -1,14 +1,14 @@
 ---
-title: "Interfaces para una solicitud-respuesta sincrónico del adaptador de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces para una solicitud-respuesta sincrónico del adaptador de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0c60832-52b5-4d2c-81ec-94c46c375b15
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257812"
 ---
 # <a name="interfaces-for-a-synchronous-request-response-receive-adapter"></a>Interfaces de un adaptador de recepción sincrónico de solicitud-respuesta
 Todos los adaptadores de recepción necesitan implementar las interfaces siguientes para funcionar en modo de solicitud-respuesta.  

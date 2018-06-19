@@ -1,11 +1,11 @@
 ---
-title: "SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Documentos de Microsoft"
-ms.custom: 
+title: SelectiveBindingImport (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding files, importing
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, binding files
 ms.assetid: 963bfc80-8cc4-4d90-96b4-e85ae04405cf
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974834"
 ---
 # <a name="selectivebindingimport-application-deployment-sample"></a>SelectiveBindingImport (ejemplo de implementación de aplicación)
 En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport. También puede utilizar esta secuencia de comandos de ejemplo para aplicar distintos enlaces a una aplicación cuando se importa la aplicación en distintos entornos de destino. Puede utilizar este enfoque cuando desee importar los enlaces desde archivos de enlace que estén almacenados en un recurso compartido de red.  
@@ -44,7 +45,7 @@ En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport. T
  En este ejemplo se muestra cómo importar archivos de enlace de forma selectiva desde un recurso compartido de red mediante el uso de secuencias de comandos posteriores al procesamiento contenidas en el archivo .msi de la aplicación de BizTalk.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar el siguiente ejemplo carpetas y archivos en  *\<ruta de ejemplos\>*\Application Deployment\SelectiveBindingImport:  
+ Puede encontrar el siguiente ejemplo carpetas y archivos en  *\<ruta de ejemplos\>* \Application Deployment\SelectiveBindingImport:  
   
 -   Desarrollo (carpeta)  
   
@@ -69,7 +70,7 @@ En este tema se explica el modo de utilizar el ejemplo SelectiveBindingImport. T
   
 ### <a name="to-run-the-sample"></a>Para ejecutar el ejemplo  
   
-1.  Ejecutar **Build.Bat desde el  *\<ruta de ejemplos\>*\Application Deployment\CreateApp** directory. Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>*\Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.  
+1.  Ejecutar **Build.Bat desde el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp** directory. Esto crea los siguientes archivos en el  *\<ruta de ejemplos\>* \Application Deployment\CreateApp\Dlls carpeta: Schemas.dll, Maps.dll y Orchestrations.dll.  
   
 2.  **Crear la aplicación.** En la consola de administración de BizTalk Server, cree una aplicación, como se describe en [cómo crear una aplicación](../core/how-to-create-an-application.md).  
   

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2092cd4-6612-4ac3-81f3-dd25438837ae
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975794"
 ---
 # <a name="how-to-configure-a-wcf-custom-receive-location"></a>Cómo configurar una ubicación de recepción WCF-Custom
 Puede configurar una ubicación de recepción WCF-Custom mediante programación o con la consola de administración de BizTalk.  
@@ -72,13 +73,13 @@ Puede configurar una ubicación de recepción WCF-Custom mediante programación 
   
 6.  En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **General** pestaña, configure la dirección del extremo y ubicación de recepción de la identidad del servicio de WCF-Custom. Para obtener más información sobre la **General** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea la **cuadro diálogo de propiedades de transporte WCF-Custom, recepción, General**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-7.  En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **enlace** pestaña, configure distintos tipos de enlaces predefinidos o personalizados de WCF. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+7.  En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **enlace** pestaña, configure distintos tipos de enlaces predefinidos o personalizados de WCF. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-8.  En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **comportamiento** pestaña, configure el punto de conexión y comportamientos de servicio para esta ubicación de recepción. Un comportamiento de extremo consiste en un conjunto de elementos de extensión de comportamiento que modifican o amplían el servicio o la funcionalidad del cliente. Para obtener más información sobre la **comportamiento** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea la **comportamiento del cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+8.  En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **comportamiento** pestaña, configure el punto de conexión y comportamientos de servicio para esta ubicación de recepción. Un comportamiento de extremo consiste en un conjunto de elementos de extensión de comportamiento que modifican o amplían el servicio o la funcionalidad del cliente. Para obtener más información sobre la **comportamiento** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea la **comportamiento del cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 9. En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **otros** pestaña, configure las credenciales para esta ubicación de recepción para usar al sondear un servicio externo, y si esta ubicación de recepción conserva el mensaje orden al procesar mensajes. Para obtener más información sobre la **otros** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea el **cuadro de diálogo de propiedades de transporte de WCF-Custom, recepción, otros** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-10. En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+10. En el **propiedades de transporte de WCF-Custom** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-Custom, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 11. En el **propiedades de transporte de WCF-Custom** cuadro de diálogo la **importación/exportación** ficha, importar y exportar la **dirección (URI)** y **deidentidaddeextremo** propiedades en el **General** ficha, información de enlace de la **enlace** pestaña y el comportamiento de punto de conexión en el **comportamiento** ficha para esta recepción ubicación. Para obtener más información sobre la **importación/exportación** pestaña en el **propiedades de transporte de WCF-Custom** cuadro de diálogo, vea la **cuadro de diálogo de propiedades de transporte WCF-Custom, recepción, importación y exportación**  ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
 

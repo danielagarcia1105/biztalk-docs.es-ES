@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: befa2268-8a65-465f-8086-70a66808845e
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973578"
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>P+F del Adaptador de WCF: Utilizar Servicios de WCF
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>¿Cómo usa BizTalk Server sus adaptadores de WCF para obtener acceso a los servicios WCF?  

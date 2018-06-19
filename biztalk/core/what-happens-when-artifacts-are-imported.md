@@ -1,17 +1,17 @@
 ---
-title: "¿Qué ocurre cuando se importan artefactos | Documentos de Microsoft"
-ms.custom: 
+title: ¿Qué ocurre cuando se importan artefactos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing, artifacts
 - artifacts, importing
 ms.assetid: a83957df-6e16-419a-b693-87985b498cc4
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974914"
 ---
 # <a name="what-happens-when-artifacts-are-imported"></a>¿Qué ocurre cuando se importan los artefactos?
 En este tema se describe lo que sucede cuando se importan artefactos. Hay tres modos de importar artefactos, que se tratan en este tema:  

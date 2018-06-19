@@ -1,11 +1,11 @@
 ---
-title: "Denegación de servicio de mitigar los ataques | Documentos de Microsoft"
-ms.custom: 
+title: Denegación de servicio de mitigar los ataques | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IPSec, message protection
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Internet Information Services (IIS) Lockdown Tool
 - Denial of Service attacks
 ms.assetid: f39c0d0a-b890-4c48-874d-5cafbc71473c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971746"
 ---
 # <a name="mitigating-denial-of-service-attacks"></a>Denegación de servicio de mitigar los ataques
 Se recomienda utilizar las siguientes técnicas de mitigación para ayudar a proteger los servidores y servicios de BizTalk Server contra los ataques de denegación de servicio. Tendrá que decidir si estas técnicas de mitigación son apropiadas para su entorno.  

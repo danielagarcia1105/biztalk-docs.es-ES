@@ -1,14 +1,14 @@
 ---
-title: "Paquetes de programación de SQL Server Integration Services | Documentos de Microsoft"
-ms.custom: 
+title: Paquetes de programación de SQL Server Integration Services | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975954"
 ---
 # <a name="scheduling-sql-server-integration-services-packages"></a>Programación de paquetes de SQL Server Integration Services
 Los usuarios crear vistas de BAM basadas en datos almacenados en un cubo de procesamiento analítico en línea (OLAP). El paquete de actualización de cubos de Integration Services actualiza los datos del cubo para que las vistas OLAP reflejen los datos correctos.  

@@ -1,14 +1,14 @@
 ---
-title: "Definir pruebas mediante un archivo de configuración XML | Documentos de Microsoft"
-ms.custom: 
+title: Definir pruebas mediante un archivo de configuración XML | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8339bcf-26d7-4a43-b68e-c4220a7a851d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976338"
 ---
 # <a name="defining-testing-using-an-xml-configuration-file"></a>Definir pruebas mediante un archivo de configuración XML
 BizUnit ofrece dos métodos para definir las pruebas: a través de un archivo de configuración XML y a través de una hoja de cálculo de Excel. En este tema se centra sobre el uso de un archivo de configuración XML para definir pruebas; Sin embargo, también debe buscar en el SDK de BizUnit, puesto que ofrece un ejemplo de cómo definir los casos de prueba de BizUnit usando Excel interesante. Además, puede que desee investigar la herramienta Diseñador de BizUnit, que proporciona una interfaz gráfica de usuario que permite la rápida creación de casos de prueba de BizUnit. Este tema proporciona información general sobre cómo definir los casos de prueba con la configuración de XML con un escenario muy simplificado.  

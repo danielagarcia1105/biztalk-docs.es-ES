@@ -1,18 +1,18 @@
 ---
-title: "Cómo eliminar una ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar una ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive locations], deleting
 - receive locations, deleting
 - deleting, receive locations
 ms.assetid: aa859355-af4c-48d9-b224-78fd3ef618fc
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249732"
 ---
 # <a name="how-to-delete-a-receive-location"></a>Cómo eliminar una ubicación de recepción
 En este tema se describe cómo usar la consola de administración de BizTalk Server para eliminar una ubicación de recepción. Al eliminar una ubicación de recepción, se elimina de la base de datos de administración de BizTalk y ya no se muestra más en la consola de administración de BizTalk Server.  

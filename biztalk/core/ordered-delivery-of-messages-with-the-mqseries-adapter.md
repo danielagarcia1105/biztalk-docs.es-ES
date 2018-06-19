@@ -1,17 +1,17 @@
 ---
 title: Entrega ordenada de mensajes con el adaptador de MQSeries | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, ordered delivery
 - MQSeries adapters, ordered delivery
 ms.assetid: 517ff2a4-7315-43b5-8d4b-7494adf141e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264532"
 ---
 # <a name="ordered-delivery-of-messages-with-the-mqseries-adapter"></a>Entrega ordenada de mensajes con el adaptador de MQSeries
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Proporciona un **entrega ordenada** puertos de envío de la opción para estático. Establecer el **entrega ordenada** opción en un puerto de envío a **True** garantiza que BizTalk Server entrega mensajes al puerto de envío en el mismo orden que se publican en la base de datos de BizTalk MessageBox. Para proporcionar una entrega ordenada de extremo a extremo, deben cumplirse las siguientes condiciones:  

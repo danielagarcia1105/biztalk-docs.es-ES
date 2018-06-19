@@ -1,11 +1,11 @@
 ---
 title: EnvelopeProcessing (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, envelopes
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - flat files, examples
 - envelopes, examples
 ms.assetid: b4cd979b-c7b4-446c-be29-c9f3169afa1f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972346"
 ---
 # <a name="envelopeprocessing-biztalk-server-sample"></a>EnvelopeProcessing (ejemplo de BizTalk Server)
 El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobres de mensaje en las canalizaciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Además, muestra cómo procesar mensajes de archivos sin formato en mensajes XML.  
@@ -97,13 +98,13 @@ El ejemplo EnvelopeProcessing muestra cómo se procesan los mensajes y los sobre
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (EnvInput) y la carpeta de salida (EnvOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
+         *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
   
     -   Compila e implementa el proyecto de Visual Studio para este ejemplo.  
   

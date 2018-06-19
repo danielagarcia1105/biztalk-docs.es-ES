@@ -1,11 +1,11 @@
 ---
-title: "Cómo iniciar excepciones erróneas desde orquestaciones publicadas como servicios WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo iniciar excepciones erróneas desde orquestaciones publicadas como servicios WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, WCF services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, errors
 - orchestrations, WCF services
 ms.assetid: 89f57841-d40e-4a5a-90a8-5556a2766c03
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255740"
 ---
 # <a name="how-to-throw-fault-exceptions-from-orchestrations-published-as-wcf-services"></a>Cómo iniciar excepciones erróneas desde orquestaciones publicadas como servicios WCF
 Se pueden enviar dos tipos de errores de SOAP desde una orquestación: tipo y sin tipo errores de SOAP. Los errores de SOAP con tipo son aquellos en los que una operación tiene un **System.ServiceModel.FaultContractAttribute** que especifica un tipo de error SOAP personalizado. Los errores de SOAP sin tipo son aquellos que no están especificados en el contrato de una operación.  

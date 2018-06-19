@@ -1,18 +1,18 @@
 ---
-title: "Cómo exportar enlaces para un ensamblado de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar enlaces para un ensamblado de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, bindings
 - assemblies, exporting
 - exporting, assemblies
 ms.assetid: 7e37348d-5fa5-43cc-b3c0-2d8cb6a8f394
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254860"
 ---
 # <a name="how-to-export-bindings-for-a-biztalk-assembly"></a>Cómo exportar enlaces de un ensamblado de BizTalk
 En este tema se describe cómo usar la consola de administración de BizTalk Server o la línea de comandos para exportar los enlaces de un ensamblado de BizTalk a un archivo .xml. A continuación, puede importar estos enlaces en una aplicación de BizTalk, que sobrescribe los enlaces existentes con los enlaces importados del mismo nombre. Es posible que desee exportar los enlaces de un ensamblado antes de actualizarlo, para que pueda importar los enlaces después de actualizarlo y, de este modo, volver a aplicarlos. Para obtener más información acerca de cómo actualizar aplicaciones y ensamblados, vea [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md). Para obtener más información acerca del uso de archivos de enlace, vea [archivos de enlace y la implementación de aplicaciones](../core/binding-files-and-application-deployment.md).  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear esquemas que usan otros esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear esquemas que usan otros esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff0bcd9a-6c66-4c3b-bd41-64047a7c8392
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249420"
 ---
 # <a name="how-to-create-schemas-that-use-other-schemas"></a>Cómo crear esquemas que usan otros esquemas
 El lenguaje de definición de esquemas XML (XSD) proporciona tres mecanismos diferentes pero relacionados entre sí para utilizar un esquema dentro de otro. Estos mecanismos son importar un esquema, incluir un esquema y redefinir un esquema. Para obtener un resumen breve de estos mecanismos y cómo se diferencian, consulte [esquemas que usan otros esquemas](../core/schemas-that-use-other-schemas.md). Para obtener información detallada, vea [recursos XSD en Internet](../core/xsd-resources-on-the-web.md) para obtener vínculos a las especificaciones y manual de XSD.  

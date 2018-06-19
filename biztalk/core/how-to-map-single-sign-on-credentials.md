@@ -1,14 +1,14 @@
 ---
-title: "Cómo asignar credenciales de inicio de sesión único | Documentos de Microsoft"
-ms.custom: 
+title: Cómo asignar credenciales de inicio de sesión único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e847bde9-7a4c-4b81-8ad6-6a7cf23d19a1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254212"
 ---
 # <a name="how-to-map-single-sign-on-credentials"></a>Cómo asignar credenciales de inicio de sesión único
 Si sabe que tiene aplicaciones afiliadas en la base de datos de inicio de sesión único (SSO) empresarial, puede asignar las credenciales de un usuario a esa aplicación. Asignación de las credenciales del usuario actual a una aplicación afiliada requiere el uso de una combinación de la `ISSOMapper` y `ISSOMapping` interfaces.  

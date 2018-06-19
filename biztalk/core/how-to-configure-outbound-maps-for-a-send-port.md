@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar asignaciones de salida para un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar asignaciones de salida para un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, outbound maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send ports, configuring
 - managing [send ports], outbound maps
 ms.assetid: 9f5f5504-5a7f-4b21-9a65-91dce9d35890
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248092"
 ---
 # <a name="how-to-configure-outbound-maps-for-a-send-port"></a>Cómo configurar asignaciones de salida para un puerto de envío
 En este tema se describe cómo configurar asignaciones de salida para un puerto de envío mediante la consola de administración de BizTalk Server. Se utiliza una asignación para aplicar una transformación XSL a un mensaje enviado por el puerto de envío, sin tener que procesar el mensaje a través de una orquestación. Es posible agregar una asignación de salida, quitar una asignación o cambiar una ya existente por otra distinta. Puede agregar más de una asignación a un puerto de envío, aunque cada una de las asignaciones debe tener un único esquema de origen. Para obtener información general acerca de las asignaciones, vea [asigna](../core/maps.md).  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254676"
 ---
 # <a name="how-to-modify-orchestration-memory-throttling-settings"></a>Modificación de la configuración de limitación de la memoria de orquestación
 El mecanismo de limitación de memoria de instancias de host de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supervisa continuamente si se produce una condición de limitación, calcula la gravedad de dicha condición y aplica progresivamente la limitación de memoria de instancias de host dependiendo de la gravedad calculada. En este tema se proporcionan instrucciones paso a paso para modificar esta configuración mediante el panel de configuración.  
