@@ -1,14 +1,14 @@
 ---
-title: "Configuración de Hosts e instancias de Host | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de Hosts e instancias de Host | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a36a73a4-cc5f-47d6-b56f-7871684c4489
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300116"
 ---
 # <a name="configuring-hosts-and-host-instances"></a>Configuración de Hosts e instancias de Host
 Un Host de BizTalk representa un conjunto lógico de cero o más procesos de tiempo de ejecución en el que puede implementar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] servicios y artefactos (como controladores de adaptador, ubicaciones de recepción y orquestaciones). Una instancia de host es la instancia física de un host en un equipo que ejecuta [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información sobre los Hosts de BizTalk y las instancias de host, consulte [Hosts](http://go.microsoft.com/fwlink/?LinkId=154189) (http://go.microsoft.com/fwlink/?LinkId=154189) y [instancias de Host](http://go.microsoft.com/fwlink/?LinkId=154190) (http://go.microsoft.com/fwlink/?LinkId=154190).  

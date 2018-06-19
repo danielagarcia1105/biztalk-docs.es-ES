@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963034"
 ---
 # <a name="overview-of-the-sap-adapter"></a>Información general sobre el adaptador SAP
 La [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] expone el sistema SAP como un servicio WCF. Los clientes de adaptador pueden realizar operaciones en el sistema SAP mediante el intercambio de mensajes SOAP con el adaptador. El adaptador utiliza el mensaje de WCF y realiza las llamadas adecuadas al sistema SAP para realizar la operación. El adaptador devuelve la respuesta desde el sistema SAP al cliente en forma de mensajes SOAP.  

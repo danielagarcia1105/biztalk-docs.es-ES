@@ -1,14 +1,14 @@
 ---
 title: Ejecutar BAPI transacciones en SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967954"
 ---
 # <a name="run-bapi-transactions-in-sap-using-biztalk-server"></a>Ejecutar BAPI transacciones en SAP mediante BizTalk Server
 El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] permite a los clientes de adaptador realizar transacciones en un sistema SAP mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Antes de crear una orquestación para una transacción, debe entender primero un escenario básico en el que se realizará las transacciones. En un escenario típico de transacción, se envía un mensaje de solicitud con varias operaciones (como la invocación de un BAPI) al sistema SAP. Esto se conoce como un "mensaje de operación". La orquestación debe extraer cada mensaje de operación del mensaje de solicitud y enviar los mensajes de operación individuales en el sistema SAP. La orquestación envía una detrás de otra con la misma conexión. La orquestación extrae los mensajes individuales desde el "mensaje de operación" mediante una transformación XML a través de una asignación de BizTalk.  

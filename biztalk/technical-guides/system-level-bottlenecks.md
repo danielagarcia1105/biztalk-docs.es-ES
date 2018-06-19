@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22302988"
 ---
 # <a name="system-level-bottlenecks"></a>Cuellos de botella de nivel de sistema
 En este tema se describe cómo solucionar cuellos de botella de nivel de sistema comunes que pueden afectar al rendimiento de una solución de BizTalk Server.  

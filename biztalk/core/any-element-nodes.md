@@ -1,14 +1,14 @@
 ---
 title: Nodos cualquier elemento | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7e30fcf-31bc-4d48-9bc7-0be90e927127
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963698"
 ---
 # <a name="any-element-nodes"></a>Nodos Cualquier elemento
 En el Editor de BizTalk, puede usar un **cualquier elemento** nodo para indicar una ubicación dentro de un mensaje de instancia donde pueden aparecer elementos desconocidos. Esto es útil para situaciones en las que se sabe que puede aparecer algún elemento en una ubicación concreta de un mensaje de instancia, pero se desconoce el nombre del elemento o lo complicado que puede ser. Si coloca un **cualquier elemento** nodo en la ubicación adecuada en el esquema, BizTalk puede procesar esas partes desconocidas de un mensaje. El único requisito es que el XML correspondiente tenga un formato correcto.  

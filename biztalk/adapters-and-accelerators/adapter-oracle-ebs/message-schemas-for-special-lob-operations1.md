@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para LOB especiales Operations1 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2e418a6-8bc7-42d9-9672-a9c149f32778
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962586"
 ---
 # <a name="message-schemas-for-special-lob-operations"></a>Esquemas de mensaje para operaciones especiales de LOB
 El Read_\<LOBColName\> y Update_\<LOBColName\> se producen operaciones de tablas y vistas que contienen columnas LOB, donde \<LOBColName\> es la columna LOB de la tabla o la vista. Estas operaciones permiten leer o escribir los datos de LOB como un flujo de datos codificados de base64Binary. Que operan en una sola columna de datos LOB en una sola fila.  

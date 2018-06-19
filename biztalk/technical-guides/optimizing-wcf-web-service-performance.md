@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento del servicio Web WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93947cef-469c-4126-85a5-06456fa37443
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299420"
 ---
 # <a name="optimizing-wcf-web-service-performance"></a>Optimizar el rendimiento del servicio Web WCF
 Los servicios WCF exponen numerosos parámetros de configuración que afectan al rendimiento. En este tema se proporciona instrucciones generales para establecer el valor óptimo para estos parámetros de configuración mejorar el rendimiento de los servicios WCF.  

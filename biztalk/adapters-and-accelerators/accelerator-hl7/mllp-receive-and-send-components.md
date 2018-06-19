@@ -1,11 +1,11 @@
 ---
-title: "Componentes de envío y recepción de MLLP | Documentos de Microsoft"
-ms.custom: 
+title: Componentes de envío y recepción de MLLP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send components
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - wrappers [MLLP adapters]
 - receive components
 ms.assetid: 2f1c4099-8f52-437a-bdc1-efe707fbf347
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961090"
 ---
 # <a name="mllp-receive-and-send-components"></a>Componentes de envío y recepción de MLLP
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) todos los admite [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tipos de adaptador nativo, incluidos el archivo, HTTP, SQL y FTP. Para HL7 mensaje codificado en recibir y enviar, sin embargo, se suele usa el adaptador MLLP. Este adaptador es un adaptador de socket de TCP/IP que usa el protocolo de nivel inferior (MLLP) mínimo. Este protocolo proporciona integración de aplicaciones sanitaria de soporte técnico y end-to-end de mensajes bidireccionales.  

@@ -1,17 +1,17 @@
 ---
 title: Crear una instancia de mensaje correcto a partir de un PIP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message templates
 - PIPs, message templates
 ms.assetid: fed3698c-25d9-40ca-878a-60171f425bec
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960690"
 ---
 # <a name="creating-a-well-formed-message-instance-from-a-pip"></a>Crear una instancia de mensaje correcto a partir de un PIP
 En este tema se describe cómo generar una instancia de mensaje correcto. Puede generar una plantilla para una instancia de mensaje a partir del Proceso de interfaz de socio (PIP). Después de hacerlo, debe modificar la plantilla para que sea correcta antes de agregar los datos.  

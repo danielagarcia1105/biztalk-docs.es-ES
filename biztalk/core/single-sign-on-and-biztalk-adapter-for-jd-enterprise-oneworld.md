@@ -19,6 +19,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016071"
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-jd-enterprise-oneworld"></a>Inicio de sesión único y adaptador de BizTalk para JD Enterprise OneWorld
 Se obtienen las credenciales de inicio de sesión (SSO) único de la base de datos de credenciales SSO; por lo tanto, no es necesario que escriba las credenciales de inicio de sesión del sistema del servidor en el **propiedades de transporte** ventana.  

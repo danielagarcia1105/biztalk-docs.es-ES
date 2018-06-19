@@ -1,17 +1,17 @@
 ---
 title: Ejecutar operaciones en componentes empresariales mediante BizTalk Server y el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business components, performing operations by using BizTalk Server
 - how to, perform operations on a business component by using BizTalk Server
 ms.assetid: 5bd0f4d7-60ec-42ea-84c0-618aeef9688f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966050"
 ---
 # <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a>Ejecutar operaciones en componentes empresariales mediante BizTalk Server y el adaptador de Siebel
 La [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] expone las operaciones que se pueden invocar en un componente empresarial. Las operaciones en los componentes empresariales se pueden clasificar como:  

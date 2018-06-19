@@ -1,14 +1,14 @@
 ---
-title: "Conectarse a la base de datos de Oracle mediante la autenticación de Windows | Documentos de Microsoft"
-ms.custom: 
+title: Conectarse a la base de datos de Oracle mediante la autenticación de Windows | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73b42a1b-1105-4278-bf8a-62cf0cffb08f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961946"
 ---
 # <a name="connect-to-the-oracle-database-using-windows-authentication"></a>Conectarse a la base de datos de Oracle mediante la autenticación de Windows
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] permite a los clientes de adaptador utilizar la autenticación de Windows para establecer una conexión con la base de datos de Oracle. Para usar la autenticación de Windows, deben especificar los clientes de adaptador "/" para el nombre de usuario y deje en blanco la contraseña. Para obtener más información sobre cómo conectarse a la base de datos de Oracle mediante la autenticación de Windows, vea [conectar con base de datos de Oracle en Visual Studio mediante el servicio de adaptador](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md).  

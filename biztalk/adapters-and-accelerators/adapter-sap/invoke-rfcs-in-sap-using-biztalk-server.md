@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965442"
 ---
 # <a name="invoke-rfcs-in-sap-using-biztalk-server"></a>Invocar RFC en SAP mediante BizTalk Server
 La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone las RFC expuestas por un sistema SAP como operaciones que se pueden invocar mediante un cliente de adaptador. Esta sección proporciona instrucciones sobre cómo invocar una solicitud de cambio en un sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información acerca de cómo los [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite la invocación de una solicitud de cambio en un sistema SAP, consulte [operaciones en RFC en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md). Para obtener más información acerca de la estructura del mensaje SOAP para llamar a una solicitud de cambio, consulte [esquemas de mensaje para las operaciones de RFC](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md).  

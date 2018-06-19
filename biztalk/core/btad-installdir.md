@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964730"
 ---
 # <a name="btadinstalldir"></a>BTAD_InstallDir
 BTAD_InstallDir contiene la ruta de instalación de la aplicación de BizTalk. solo está disponible cuando la acción es crear o actualizar y BTAD_HostClass es BizTalkHostInstance.  

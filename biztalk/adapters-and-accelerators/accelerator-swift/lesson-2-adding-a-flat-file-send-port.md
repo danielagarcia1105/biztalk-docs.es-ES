@@ -1,11 +1,11 @@
 ---
-title: "Lección 2: Agregar un puerto de envío de archivo sin formato | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Agregar un puerto de envío de archivo sin formato | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, flat files
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 ms.assetid: 33dceb0d-85f5-4e19-820f-cd33b60cd32a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961338"
 ---
 # <a name="lesson-2-adding-a-flat-file-send-port"></a>Lección 2: Agregar un puerto de envío de archivo sin formato
 En esta lección, configurará el puerto de envío y la ubicación de envío. Utilice el puerto de envío para definir cómo desea que los mensajes enviados. También crea una ubicación de carpeta de archivos para los mensajes enviados.  

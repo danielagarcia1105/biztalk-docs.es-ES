@@ -1,14 +1,14 @@
 ---
 title: Busque las operaciones de Oracle E-Business Suite en la vista basada en el artefacto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 962ac1cc-826c-46d6-848a-4cd371804596
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966810"
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-artifact-based-view"></a>Busque las operaciones de Oracle E-Business Suite en la vista basada en el artefacto
 Puede usar el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] para buscar operaciones entrantes y salientes que pueden realizarse en Oracle E-Business Suite con la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. Este tema proporciona información acerca de cómo buscar operaciones entrantes y salientes en la vista basada en el artefacto.  

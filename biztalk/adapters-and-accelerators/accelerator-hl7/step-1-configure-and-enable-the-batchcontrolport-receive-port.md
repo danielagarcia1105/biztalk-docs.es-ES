@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be248a05-e740-497a-b112-8ba3a57b020b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206148"
 ---
 # <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a>Paso 1: Configurar y habilitar el BatchControlPort el puerto de recepción
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) el programa de instalación crea un puerto de recepción, el puerto el control de proceso por lotes, para controlar los mensajes que la orquestación del lote que se usa para iniciar, lotes de detención y el tiempo. Estos mensajes incluyen la activación de lotes, terminación de lotes y mensajes de temporizador de lote. En este paso, puede configura la canalización de recepción para el puerto de control de lote y habilitar el puerto.  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b4fabb9146b4f559dd1a41b6e3b7da5ce9489d1f
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015275"
 ---
 # <a name="how-to-set-tibco-rendezvous-transport-properties"></a>Establecimiento de propiedades de transporte de TIBCO Rendezvous
 Las propiedades de transporte de TIBCO Rendezvous se usan para el tiempo de ejecución. En el **propiedades de transporte** pantalla, Establece los parámetros de conexión que identifican el dominio TIBCO Rendezvous donde desea publicar los mensajes generados.  

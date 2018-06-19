@@ -1,18 +1,18 @@
 ---
-title: "Paso 2: Crear la organización del socio comercial Fabrikam | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Crear la organización del socio comercial Fabrikam | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, trading partners
 - double action tutorial, creating partner organizations
 - trading partners, partner organization
 ms.assetid: 4d2ddc4c-2275-4faf-9a36-8a912cc06527
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964970"
 ---
 # <a name="step-2-creating-the-fabrikam-partner-organization"></a>Paso 2: Crear la organización del socio comercial Fabrikam
 En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear un nuevo socio comercial. El socio comercial para este tutorial es la organización de Fabrikam.  
@@ -33,7 +34,7 @@ En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® 
   
 1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **asociados**, seleccione **New**y, a continuación, haga clic en **asociado**.  
   
-2.  En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente**:**  
+2.  En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente **:**  
   
     |Use|Para|  
     |--------------|----------------|  

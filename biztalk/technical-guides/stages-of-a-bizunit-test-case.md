@@ -1,14 +1,14 @@
 ---
 title: Fases de un caso de prueba de BizUnit | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed0e725f-2c52-43f7-ae30-343413a703c2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302380"
 ---
 # <a name="stages-of-a-bizunit-test-case"></a>Fases de un caso de prueba de BizUnit
 Cada caso de prueba de BizUnit consta de tres fases: **TestSetup**, **TestExecution**, y **TestCleanup**. Cada fase contiene uno o varios pasos de prueba que son responsables de realizar una sola unidad discreta de trabajo; Por ejemplo, el **FileCreateStep** es responsable de crear un archivo en una ubicación especificada con un nombre de archivo determinado.  BizUnit incluye más de 70 pasos de prueba y también proporciona capacidades de extensión que permiten nuevos pasos de prueba agregar fácilmente para el marco de trabajo. La capacidad para agregar nuevos pasos para el marco de trabajo permite BizUnit para utilizarse en una amplia gama de escenarios. Este tema describe las fases de prueba de BizUnit con más detalle.  

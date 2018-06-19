@@ -1,17 +1,17 @@
 ---
 title: 'Paso 2: Crear los esquemas comunes para V2.3.1 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, common schemas
 - common schemas
 ms.assetid: db1a2206-559f-475a-803d-55522cce007e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960994"
 ---
 # <a name="step-2-create-common-schemas-for-v231"></a>Paso 2: Crear los esquemas comunes para V2.3.1
 Los esquemas V2.3.1 son esquemas normalmente se hace referencia, que se utilizan para validar la instancia de mensaje.  

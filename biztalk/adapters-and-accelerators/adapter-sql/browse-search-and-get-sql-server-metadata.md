@@ -1,14 +1,14 @@
 ---
 title: Explorar, buscar y obtener los metadatos de SQL Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 368dd5ca-456c-4cae-9e85-bcf504c4e7ed
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963946"
 ---
 # <a name="browse-search-and-get-sql-server-metadata"></a>Explorar, buscar y obtener los metadatos de SQL Server
 Los metadatos que [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] superficies de la base de datos de SQL Server se describe la estructura del mensaje para la comunicación con la base de datos de SQL Server mediante el adaptador. El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] es compatible con dos interfaces para recuperar los metadatos.  

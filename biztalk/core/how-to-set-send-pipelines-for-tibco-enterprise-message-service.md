@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: dc9746babaa80520b2a99948c5796c9b064899e0
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015587"
 ---
 # <a name="how-to-set-send-pipelines-for-tibco-enterprise-message-service"></a>Configuración de canalizaciones de recepción para TIBCO Enterprise Message Service
 El adaptador de Microsoft BizTalk para TIBCO Enterprise Message Service requiere que seleccione XMLTransmit y XMLReceive para las canalizaciones de envío y recepción, respectivamente.  

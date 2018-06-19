@@ -1,14 +1,14 @@
 ---
-title: "Prácticas recomendadas de desarrollo mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Prácticas recomendadas de desarrollo mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ea3a13b-e41f-4920-bf0d-26f7bb145aa3
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967986"
 ---
 # <a name="development-best-practices-using-the-wcf-lob-adapter-sdk"></a>Prácticas recomendadas de desarrollo mediante el SDK de adaptador LOB de WCF
 Puede usar los procedimientos recomendados en este tema para mejorar las aplicaciones y los adaptadores.  

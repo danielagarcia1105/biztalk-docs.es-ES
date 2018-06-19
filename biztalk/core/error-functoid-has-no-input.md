@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970066"
 ---
 # <a name="error---functoid-has-no-input"></a>Error - el Functoid No tiene entrada
 **Código de error**  

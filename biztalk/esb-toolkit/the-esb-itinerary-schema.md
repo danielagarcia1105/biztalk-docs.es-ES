@@ -1,14 +1,14 @@
 ---
 title: El esquema de itinerarios de ESB | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 168e7b98-6282-494e-bde8-3171e0be7d59
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295228"
 ---
 # <a name="the-esb-itinerary-schema"></a>El esquema de itinerarios de ESB
 El esquema de ESB itinerario denominado Itinerary.xsd define un itinerario como un conjunto de instrucciones, que suele denominadas servicios itinerarios de procesamiento. Un servicio itinerario puede contener uno o más servicios itinerarios y las cadenas de conexión de resolución correspondiente, tal y como se muestra en la siguiente definición de esquema.  

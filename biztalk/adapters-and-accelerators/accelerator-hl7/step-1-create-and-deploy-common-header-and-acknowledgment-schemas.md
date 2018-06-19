@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960402"
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a>Paso 1: Crear e implementar encabezado común y esquemas de confirmación
 Utilice el esquema de encabezado para validar el encabezado (segmento MSH) de la instancia de mensaje. Usar el esquema de confirmación para generar la confirmación de la instancia de mensaje. Este proceso es común en todas las versiones de esquema HL7.  

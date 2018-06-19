@@ -1,14 +1,14 @@
 ---
 title: ApplicationManager (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51ebe7a8-a0ca-4d2a-bf40-ec6421ba5a95
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965586"
 ---
 # <a name="applicationmanager-biztalk-server-sample"></a>ApplicationManager (ejemplo de BizTalk Server)
 El ejemplo de ApplicationManager muestra cómo iniciar o detener una aplicación de BizTalk mediante los objetos de administración.  

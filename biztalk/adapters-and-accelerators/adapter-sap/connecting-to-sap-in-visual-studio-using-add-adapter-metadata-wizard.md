@@ -1,14 +1,14 @@
 ---
 title: Conectarse a SAP en Visual Studio mediante metadatos de Asistente para agregar adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a442837b-e7d8-4edb-9c5e-5603d4c58fe5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966242"
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard"></a>Conectarse a SAP en Visual Studio mediante metadatos de Asistente para agregar adaptador
 El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] también se expone como un adaptador de BizTalk y por lo tanto, puede usar el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] para generar el esquema para las operaciones que desea realizar en un sistema SAP mediante el adaptador.  

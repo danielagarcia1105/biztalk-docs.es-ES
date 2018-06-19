@@ -1,18 +1,18 @@
 ---
-title: "Bloques de creación para crear aplicaciones de SAP | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para crear aplicaciones de SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - design-time tasks
 - run-time tasks
 - developing, fundamentals of (BizTalk applications)
 ms.assetid: 591a5597-5e7d-44b0-8bee-e1c987c5e6c3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218172"
 ---
 # <a name="building-blocks-to-create-sap-applications"></a>Bloques de creación para crear aplicaciones de SAP
 Realizar operaciones en un sistema SAP mediante [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] implica dos conjuntos de actividades: actividades de tiempo de diseño y tiempo de ejecución. Para realizar operaciones en un sistema SAP mediante el uso de la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración. Esta sección proporciona información general sobre estas tareas. Todos los temas de esta sección, que muestran cómo realizar operaciones específicas en un sistema SAP mediante [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.  

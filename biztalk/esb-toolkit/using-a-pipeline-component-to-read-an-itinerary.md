@@ -1,14 +1,14 @@
 ---
-title: "Usar un componente de canalización para leer un itinerario | Documentos de Microsoft"
-ms.custom: 
+title: Usar un componente de canalización para leer un itinerario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e3b40c7-0f17-4d33-a26f-f51346a98be5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296196"
 ---
 # <a name="using-a-pipeline-component-to-read-an-itinerary"></a>Usar un componente de canalización para leer un itinerario
 Un mensaje que llega a una canalización de recepción puede contener metadatos en el encabezado SOAP que define sus requisitos de procesamiento (itinerario del lado cliente). Figura 1 muestra el uso de los componentes de canalización de distribuidor de ESB e itinerario ESB.  

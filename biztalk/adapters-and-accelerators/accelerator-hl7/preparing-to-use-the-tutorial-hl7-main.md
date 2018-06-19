@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205996"
 ---
 # <a name="preparing-to-use-the-tutorialhl7main"></a>Preparando para utilizar el Tutorial_hl7_main
 Debe realizar las tareas de esta sección antes de usar el tutorial.  

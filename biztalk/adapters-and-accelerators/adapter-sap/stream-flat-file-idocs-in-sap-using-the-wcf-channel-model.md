@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966042"
 ---
 # <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a>Secuencia IDOC de archivo plano en SAP mediante el modelo de canal de WCF
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] es compatible con transmisión por secuencias para las operaciones de SendIdoc y ReceiveIdoc en el valor de nodo. Estas operaciones se utilizan para enviar y recibir (cadena) IDOC hacia y desde el adaptador de archivo sin formato. En ambas de estas operaciones, los datos para el IDOC completo se encuentran en una cadena en un único nodo (\<idocData\>). Para IDOC grande, la transmisión por secuencias los datos IDOC entre el adaptador y el código puede ahorrar recursos de memoria considerables.  

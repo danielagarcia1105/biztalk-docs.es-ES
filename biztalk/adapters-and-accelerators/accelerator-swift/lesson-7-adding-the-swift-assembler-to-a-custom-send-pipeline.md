@@ -1,18 +1,18 @@
 ---
-title: "Lección 7: Agregar el ensamblador SWIFT a una personalizada canalización de envío | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 7: Agregar el ensamblador SWIFT a una personalizada canalización de envío | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, custom pipelines
 - send pipelines, adding assembler
 - send pipelines, custom pipelines
 ms.assetid: 793cd132-7e24-4cf4-a6fc-d522a30b228a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209196"
 ---
 # <a name="lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline"></a>Lección 7: Agregar el ensamblador SWIFT a una canalización de envío personalizada
 En esta lección, agregará el ensamblador personalizado SWIFT (ASM) a la canalización.  

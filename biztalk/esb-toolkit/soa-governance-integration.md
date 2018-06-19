@@ -1,15 +1,15 @@
 ---
-title: "Integración de regulación de SOA con el Kit de herramientas ESB en BizTalk Server | Documentos de Microsoft"
-description: "Lista de desafíos de integración de sistema y de terceros basada en SOA con el Kit de herramientas de ESB en BizTalk Server"
-caps.latest.revision: "3"
+title: Integración de regulación de SOA con el Kit de herramientas ESB en BizTalk Server | Documentos de Microsoft
+description: Lista de desafíos de integración de sistema y de terceros basada en SOA con el Kit de herramientas de ESB en BizTalk Server
+caps.latest.revision: 3
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccb5ac2d-cd90-414d-a6c7-045a8fe9450b
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295020"
 ---
 # <a name="soa-governance-integration"></a>Integración de regulación de SOA
 Las aplicaciones de nivel empresarial deben admitir características de administración sólida y confiable para que pueda cumplir los requisitos empresariales, legislación gubernamentales, contratos de nivel de servicio (SLA) y del cliente y comerciales las expectativas de los socios comerciales. Regulación de tiempo de ejecución se centra específicamente en los requisitos y desafíos de arquitectura orientada a servicios (SOA) se ejecute correctamente, en función de los sistemas que cumplen estos requisitos. La calidad de servicio ofrecido por un sistema de negocio es el factor predominante que define su éxito o fracaso.  

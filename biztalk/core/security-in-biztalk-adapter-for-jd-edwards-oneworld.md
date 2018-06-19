@@ -1,15 +1,15 @@
 ---
 title: Usar SSO para proteger JD Edwards OneWorld | Documentos de Microsoft
-description: "Introducción a la seguridad cuando se usa el adaptador de Microsoft BizTalk JD Edwards OneWorld en BizTalk Server"
-ms.custom: 
+description: Introducción a la seguridad cuando se usa el adaptador de Microsoft BizTalk JD Edwards OneWorld en BizTalk Server
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: beb736a8-d95f-4d44-a882-2d437c4892f4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015949"
 ---
 # <a name="security-in-jd-edwards-oneworld"></a>Seguridad en JD Edwards OneWorld
 

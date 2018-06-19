@@ -1,15 +1,15 @@
 ---
 title: Arquitectura de BizTalk Adapter para PeopleSoft Enterprise | Documentos de Microsoft
-description: "Describe cómo se reciben los mensajes, cómo los mensajes se valida y proporciona información acerca de los métodos de interfaz de componente cuando se usa el adaptador de PeopleSoft con BizTalk Server"
-ms.custom: 
+description: Describe cómo se reciben los mensajes, cómo los mensajes se valida y proporciona información acerca de los métodos de interfaz de componente cuando se usa el adaptador de PeopleSoft con BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f246e974-a082-430c-ad15-23a5e597738b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013699"
 ---
 # <a name="peoplesoft-enterprise-adapter-architecture"></a>Arquitectura del adaptador de PeopleSoft Enterprise
 Durante el funcionamiento básico del adaptador de Microsoft BizTalk para PeopleSoft Enterprise, el adaptador recibe un mensaje XML de BizTalk Server. Incluye el mensaje XML en un sobre SOAP. El adaptador de BizTalk para PeopleSoft Enterprise reenvía las solicitudes SOAP al servidor. El adaptador se comunica con el sistema PeopleSoft mediante las clases psjoa de PeopleSoft, que conectan a este sistema mediante el protocolo de transacción Jolt. El sistema PeopleSoft recibe la solicitud y ejecuta la lógica empresarial. La respuesta se devuelve a través de un proceso similar.  

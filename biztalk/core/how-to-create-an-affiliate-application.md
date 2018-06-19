@@ -12,7 +12,7 @@ helpviewer_keywords:
 - applications [SSO], creating
 - creating, applications [SSO]
 ms.assetid: d0967c4b-6201-416a-9d3a-23b5de5b83d6
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969026"
 ---
 # <a name="how-to-create-an-affiliate-application"></a>Cómo crear una aplicación afiliada
 Puede utilizar el Complemento MMC o este comando para crear una o más aplicaciones, como especificó el archivo XML. Un ejemplo de un archivo XML para SSO iniciado por Windows es:  

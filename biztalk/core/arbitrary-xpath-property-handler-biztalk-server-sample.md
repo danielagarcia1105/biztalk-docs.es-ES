@@ -11,7 +11,7 @@ helpviewer_keywords:
 - pipeline components [custom], examples
 - examples, pipeline components [custom]
 ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966762"
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>Controlador de propiedad XPath arbitrario (ejemplo de BizTalk Server)
 El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) muestra cómo escribir un componente de canalización personalizado para promover propiedades específicas en un documento XML que se envía a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Puede utilizar la funcionalidad contenida en el ejemplo para crear componentes de ensamblador y desensamblador normales personalizados para evaluar las expresiones XPath.  
@@ -42,7 +43,7 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
 7.  El nuevo documento de pedido de compra se escribe en un archivo del directorio \Output.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\ArbitraryXPathPropertyHandler  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -84,13 +85,13 @@ El controlador de propiedad XPath arbitrario (ejemplo de [!INCLUDE[btsBizTalkSer
   
 1.  En una ventana de comandos, cambie los directorios (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\ArbitraryXPathPropertyHandler  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\ArbitraryXPathPropertyHandler  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Genera el componente de canalización del controlador de propiedad XPath arbitrario.  
   
-    -   Componente de canalización de copias generados para el * \<ruta de acceso de instalación\>*directorio \Pipeline Components.  
+    -   Componente de canalización de copias generados para el * \<ruta de acceso de instalación\>* directorio \Pipeline Components.  
   
     -   Crea los puertos de envío y recepción.  
   

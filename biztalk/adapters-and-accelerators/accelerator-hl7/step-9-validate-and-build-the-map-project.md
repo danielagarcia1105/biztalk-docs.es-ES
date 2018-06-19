@@ -1,11 +1,11 @@
 ---
 title: 'Paso 9: Validar y compilar el proyecto de mapa | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, maps
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - maps, building
 - maps, validating
 ms.assetid: 10716b0b-702c-48bb-85a9-d58d8f33b68b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206476"
 ---
 # <a name="step-9-validate-and-build-the-map-project"></a>Paso 9: Validar y compilar el proyecto de mapa
 En este paso, usará el **validar asignación** comando para determinar si la asignación contiene alguna incoherencia interna, u otros problemas que impedirían que se utilice eficazmente para esquemas de asignación. También se compile el proyecto para generar un ensamblado que contiene los recursos (esquemas y la asignación) que ha creado. Esto también garantiza que no hay ningún error de compilación en el trabajo que se han completado hasta ahora.  

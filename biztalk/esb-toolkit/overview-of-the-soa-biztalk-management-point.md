@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el punto de administración de BizTalk de SOA | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el punto de administración de BizTalk de SOA | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d4c3a30-c50e-4c1c-9f59-d9a364078388
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294932"
 ---
 # <a name="overview-of-the-soa-biztalk-management-point"></a>Información general sobre el punto de administración de BizTalk de SOA
 El punto de administración de BizTalk forma nativa se integra con los productos de administrador de servicios de SOA y área de trabajo. Al contrario que el punto de administración de servicios Web típica, esta implementación está asociada con los servicios proporcionados por el entorno de Microsoft BizTalk Server, expresado en términos de BizTalk Server ubicaciones de recepción y puertos de envío. Debido a la arbitrario naturaleza de ubicaciones de recepción y envío puertos (configurados con una variedad de adaptadores de BizTalk Server), estos servicios no están necesariamente asociados con los servicios Web, pero se puede tratar como servicios Web en términos de SOA Service Manager y el área de trabajo SOA.  

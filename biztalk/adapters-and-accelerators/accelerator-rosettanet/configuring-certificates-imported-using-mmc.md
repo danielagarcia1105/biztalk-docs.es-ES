@@ -1,11 +1,11 @@
 ---
-title: "Configuración de certificados importados con MMC | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de certificados importados con MMC | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - decryption certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - signing certificates
 - certificates, importing
 ms.assetid: 64dbfbcf-6026-4c68-a93a-f483ec52deac
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961674"
 ---
 # <a name="configuring-certificates-imported-using-mmc"></a>Configuración de certificados importados con MMC
 Después de haber importado los certificados con el complemento certificados para el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC), debe configurar su uso. Esto es necesario configurar el grupo de BizTalk, las cuentas de servicio de Host de BizTalk y Host aislado, procesos de interfaz de socio (PIP), comerciales acuerdos de socios y socios. Debe realizar los pasos siguientes:  
@@ -61,7 +62,7 @@ Después de haber importado los certificados con el complemento certificados par
   
 7.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-8.  Para configurar el certificado de firma para un grupo de BizTalk, haga clic en **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, haga clic en **propiedades**. Haga clic en el cuadro de texto a la derecha del **huella digital**, presione CTRL+V para pegar el número de huella digital en el cuadro de texto y, a continuación, haga clic en **Aceptar**.  
+8.  Para configurar el certificado de firma para un grupo de BizTalk, haga clic en **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, haga clic en **propiedades**. Haga clic en el cuadro de texto a la derecha del **huella digital**, presione CTRL+V para pegar el número de huella digital en el cuadro de texto y, a continuación, haga clic en **Aceptar**.  
   
 9. Para configurar el certificado de descifrado para un Host de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**, expanda **Hosts**, haga clic en el host que desea configurar y, a continuación, haga clic en **propiedades**.  
   

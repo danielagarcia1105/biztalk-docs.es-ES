@@ -1,11 +1,11 @@
 ---
-title: "Obtener acceso a los encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Obtener acceso a los encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, WCF services
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - WCF services, SOAP headers
 - SOAP headers, WCF messages
 ms.assetid: 5e24afa3-b2e6-472e-8890-a47b59573304
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965106"
 ---
 # <a name="accessing-soap-headers-in-wcf-messages-with-pipeline-components"></a>Obtener acceso a encabezados SOAP en mensajes WCF con componentes de canalización
 Para obtener acceso a los encabezados SOAP con los adaptadores de WCF en componentes de canalización, use una combinación del nombre de la propiedad de contexto, **InboundHeaders**y el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/ 01 / / WCF-propiedades de adaptadores de**. Los adaptadores WCF copian encabezados SOAP personalizados y encabezados SOAP estándar en los mensajes entrantes en el **InboundHeaders** propiedad. Los adaptadores de WCF también le permiten seleccionar mediante programación las propiedades que desea promocionar o escribir en las propiedades de contexto mediante programación. Vea [encabezados SOAP con servicios de WCF publican](../core/soap-headers-with-published-wcf-services.md) para obtener más detalles.  

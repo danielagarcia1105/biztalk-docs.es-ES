@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: e5f68232aa0cb59835523df0afac01f3d1949489
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013883"
 ---
 # <a name="how-to-set-pipelines-for-peoplesoft-enterprise"></a>Configuración de canalizaciones para PeopleSoft Enterprise
 El Adaptador de Microsoft BizTalk para PeopleSoft Enterprise requiere que seleccione una canalización apropiada.  

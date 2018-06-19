@@ -1,11 +1,11 @@
 ---
 title: Examinar, buscar y obtener los metadatos de las operaciones de base de datos de Oracle | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF client, generating a
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - WCF service contract, generating a
 - metadata, browsing, searching, and retrieving
 ms.assetid: 65bd59e0-771d-40fe-966c-8cc8a629ce47
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967698"
 ---
 # <a name="browse-search-and-get-metadata-for-oracle-database-operations"></a>Examinar, buscar y obtener los metadatos de las operaciones de base de datos de Oracle
 Esta sección proporciona información sobre cómo usar [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], y [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. Mediante el uso de estos [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] componentes, puede:  

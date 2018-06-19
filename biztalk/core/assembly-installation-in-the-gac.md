@@ -1,14 +1,14 @@
 ---
-title: "Instalación de ensamblado en la GAC | Documentos de Microsoft"
-ms.custom: 
+title: Instalación de ensamblado en la GAC | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b12d00c-8750-4c6d-8244-e613f955a478
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966410"
 ---
 # <a name="assembly-installation-in-the-gac"></a>Instalación de ensamblado en la GAC
 Todos los equipos tienen una caché de ensamblados global (GAC) que contiene los ensamblados que una o varias aplicaciones del equipo usan. Para que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] procese mensajes durante el tiempo de ejecución, los ensamblados incluidos en una aplicación de BizTalk deben estar presente en las GAC de los equipos que ejecutan la aplicación.  

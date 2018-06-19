@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204436"
 ---
 # <a name="btahl7-pipelines"></a>Canalizaciones de BTAHL7
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) proporciona un conjunto de recepción y envío canalizaciones para el procesamiento con codificación HL7 y codificados en XML. Estas canalizaciones mejoran el procesamiento de canalización de BizTalk para soluciones sanitarias:  

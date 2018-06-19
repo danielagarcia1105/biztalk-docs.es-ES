@@ -1,14 +1,14 @@
 ---
-title: "Configuración para escenarios de conmutación por error de clúster de revisar y probar SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Configuración para escenarios de conmutación por error de clúster de revisar y probar SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5dbeb383-5b38-4467-acf8-2a5b244e5fa9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302220"
 ---
 # <a name="reviewing-and-testing-sql-server-cluster-configuration-for-failover-scenarios"></a>Revisar y probar la configuración de clúster SQL Server para escenarios de conmutación por error
 Agrupación en clústeres de Windows y SQL Server permiten ejecutar SQL Server en modo activo/activo, donde cada nodo del clúster es "activos" y en funcionamiento instancias de SQL Server de uno o más. Esto le permitirá, por ejemplo, para que la base de datos de cuadro de mensajes en un nodo y todos los demás [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos en el otro nodo. Esto permite maximizar el uso de hardware de clúster.  

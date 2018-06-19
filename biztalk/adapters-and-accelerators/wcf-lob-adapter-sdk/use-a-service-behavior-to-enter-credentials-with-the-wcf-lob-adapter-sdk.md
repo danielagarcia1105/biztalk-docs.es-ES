@@ -1,14 +1,14 @@
 ---
 title: Utilizar un comportamiento de servicio para especificar las credenciales con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b203cfa-6331-4498-b656-8cd8339f8613
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223884"
 ---
 # <a name="use-a-service-behavior-to-enter-credentials-with-the-wcf-lob-adapter-sdk"></a>Utilizar un comportamiento de servicio para especificar las credenciales con el SDK de adaptador LOB de WCF
 En muchas ocasiones, los consumidores de adaptadores se requerirá para pasar credenciales a la línea de destino del sistema de negocio. Para proporcionar esta funcionalidad, debe proporcionar un comportamiento de servicio WCF.  

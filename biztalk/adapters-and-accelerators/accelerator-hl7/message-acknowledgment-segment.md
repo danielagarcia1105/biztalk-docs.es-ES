@@ -1,17 +1,17 @@
 ---
-title: "Segmento de confirmación del mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Segmento de confirmación del mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - segments, acknowledgements
 - acknowledgements, segments
 ms.assetid: 6f2b9f6f-a328-4a0f-9e7d-edba32cc045a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204940"
 ---
 # <a name="message-acknowledgment-segment"></a>Segmento de confirmación del mensaje
 El segmento de mensaje de confirmación (MSA) de un mensaje de confirmación (ACK) identifica qué tipo de confirmación, el sistema está enviando e indica qué mensajes reconoce la confirmación. Consta de dos segmentos requeridos: un código de confirmación y un mensaje de control de Id.  

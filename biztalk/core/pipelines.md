@@ -1,11 +1,11 @@
 ---
 title: Las canalizaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - pipelines, send pipelines
 - receive pipelines, stages
 ms.assetid: 76947dd8-728a-4fa3-bd33-7a708ae82cac
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265276"
 ---
 # <a name="pipelines"></a>Canalizaciones
 Las canalizaciones son un componente de Microsoft BizTalk Server que proporciona una implementación del patrón de integración de canalizaciones y filtros. Durante la recepción y el envío de mensajes, existen motivos empresariales para realizar transformaciones en los mensajes para prepararlos para entrar o salir de BizTalk Server.  

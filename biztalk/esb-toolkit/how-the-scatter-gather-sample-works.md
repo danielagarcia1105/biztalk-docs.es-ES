@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo de dispersión y recopilación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo de dispersión y recopilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ccfacb7-4fd2-4a1a-bece-27eedd86bbe9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294924"
 ---
 # <a name="how-the-scatter-gather-sample-works"></a>Cómo funciona el ejemplo de dispersión y recopilación
 La aplicación de ejemplo crea un conjunto de encabezados SOAP que contiene el itinerario cargado desde el archivo itinerario de dispersión y recopilación, carga el archivo de mensaje especificado desde el disco, anexa los encabezados itinerarios para el mensaje y lo envía al ESB a través de en rampa para procesamiento. Si el itinerario genera una respuesta, la aplicación recopila esto y lo muestra en la ventana de la aplicación.  

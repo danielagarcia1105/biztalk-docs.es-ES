@@ -1,14 +1,14 @@
 ---
 title: Servicio EDI y esquemas de Control | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4866571b-b12d-446c-8d27-a72fe7e479ef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969154"
 ---
 # <a name="edi-service-and-control-schemas"></a>Esquemas de control y servicio EDI
 Los esquemas de control son necesarios para procesar sobres de mensaje (esquemas de control de encabezado) y confirmaciones. Estos esquemas se implementan en Microsoft.BizTalk.Edi.BaseArtifacts.dll a través del programa de instalación. Estos esquemas no tienen que agregarse a proyectos de BizTalk, ya que se implementan en BaseArtifacts.dll. Debe agregar una referencia al ensamblado BaseArtifacts.dll en el proyecto que contiene los esquemas para que éstos se usen.  

@@ -1,14 +1,14 @@
 ---
-title: "Mediante el marco de trabajo de administración de excepción | Documentos de Microsoft"
-ms.custom: 
+title: Mediante el marco de trabajo de administración de excepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b69c9c01-e7e4-4788-8fe2-43d32075155d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295188"
 ---
 # <a name="using-the-exception-management-framework"></a>Mediante el marco de administración de excepciones
 El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] usa las excepciones para comunicar errores (por ejemplo, un mapa no implementada o las reglas que no devuelven un nombre de asignación) para las transformaciones dinámicas y el enrutamiento. Cuando se produce un error en una transformación o un proceso de enrutamiento, ESB crea un mensaje de excepción y lo envía a través de un puerto de enlace directo a la base de datos de cuadro de mensaje. ESB también implementa un puerto de envío denominado todos. Excepciones que se suscribe a y recupera mensajes de excepción y los publica en el Portal de administración de ESB.  

@@ -1,14 +1,14 @@
 ---
-title: "Introducción a la supervisión de módulo de administración de BizTalk Server 2013 | Documentos de Microsoft"
-ms.custom: 
+title: Introducción a la supervisión de módulo de administración de BizTalk Server 2013 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e70cc4bf-8033-48cc-8d0f-65254377b7c4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298316"
 ---
 # <a name="introduction-to-the-biztalk-server-2013-monitoring-management-pack"></a>Introducción a la supervisión de módulo de administración de BizTalk Server 2013
 El [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] módulo de administración proporciona supervisión reactiva y proactiva de implementación de BizTalk Server, las aplicaciones y sus artefactos que lo componen. La supervisión proporcionada por este módulo de administración incluye la supervisión de estado, disponibilidad y supervisión de la configuración, recopilación de datos de rendimiento y umbrales predeterminados. Puede integrar la supervisión de componentes de BizTalk Server en los escenarios de supervisión orientada a servicios. Este módulo de administración se proporciona como una descarga Web.  

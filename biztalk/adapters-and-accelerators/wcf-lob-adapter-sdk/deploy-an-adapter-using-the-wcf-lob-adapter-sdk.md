@@ -1,14 +1,14 @@
 ---
 title: Implementar un adaptador mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 376b4dcf-2d2c-4872-a394-67edc0c3d088
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967298"
 ---
 # <a name="deploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>Implementar un adaptador mediante el SDK de adaptador LOB de WCF
 Para implementar un adaptador, debe instalar al ensamblado de adaptador en la caché global de ensamblados (GAC) y, a continuación, registrar el adaptador en el archivo machine.config.  

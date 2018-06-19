@@ -1,14 +1,14 @@
 ---
-title: "Cómo restaurar las aplicaciones y habilitar el procesamiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo restaurar las aplicaciones y habilitar el procesamiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83144965-a51a-481a-afd6-7f573b69badb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297836"
 ---
 # <a name="how-to-restore-applications-and-enable-processing"></a>Cómo restaurar las aplicaciones y habilitar el procesamiento
 Configurar las aplicaciones en el grupo de BizTalk y habilitar el procesamiento de la aplicación después de seguir los pasos descritos en el tema [cómo actualizar los equipos en tiempo de ejecución](../technical-guides/how-to-update-the-runtime-computers.md).  

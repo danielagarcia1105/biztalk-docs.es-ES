@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar certificados con un adaptador de HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar certificados con un adaptador de HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc2f454f-22b5-4113-9a23-e00a816d5e48
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297844"
 ---
 # <a name="how-to-configure-certificates-with-an-http-adapter"></a>Cómo configurar certificados con un adaptador de HTTP
 El adaptador de envío HTTP puede ayudar a proteger una conexión con servidores que admitan o requieran certificados de cliente. Si se especifica un certificado de cliente, el adaptador de envío HTTP utilizará el certificado para conectarse a los servidores que requieran o admitan certificados de cliente. Si no se especifica el certificado de cliente y el servidor de destino requiere certificados de cliente, el remitente no está autenticado y HTTP se produce un error de adaptador para enviar el mensaje de envío y sigue la lógica de reintentos estándar.  

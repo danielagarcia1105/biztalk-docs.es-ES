@@ -1,15 +1,15 @@
 ---
 title: Empezar a trabajar con el adaptador de BizTalk para PeopleSoft Enterprise | Documentos de Microsoft
 description: Instalar y siga los pasos de un tutorial para el adaptador de BizTalk para PeopleSoft Enterprise en BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 10/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df537bd5-351e-46d3-9234-20dd30efc4ef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450070"
 ---
 # <a name="get-started-with-biztalk-adapter-for-peoplesoft-enterprise"></a>Empezar a trabajar con el adaptador de BizTalk para PeopleSoft Enterprise
 

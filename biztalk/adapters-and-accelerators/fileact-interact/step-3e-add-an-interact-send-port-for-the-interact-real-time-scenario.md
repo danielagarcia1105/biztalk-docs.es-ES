@@ -1,14 +1,14 @@
 ---
-title: "Paso 3E: agregar un puerto de envío de interacción para el escenario en tiempo real de interactuar | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3E: agregar un puerto de envío de interacción para el escenario en tiempo real de interactuar | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9522386-e980-4ab1-b65a-939ca7936ad9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965986"
 ---
 # <a name="step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario"></a>Paso 3E: agregar un puerto de envío de interacción para el escenario en tiempo real de interactuar
 Completa [paso 3D: agregar un puerto de envío de archivo para capturar el mensaje Sw:HandleResponse para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md) antes de comenzar este paso.

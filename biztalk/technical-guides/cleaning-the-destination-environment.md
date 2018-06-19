@@ -1,14 +1,14 @@
 ---
 title: Limpiar el entorno de destino | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8585853b-e625-48c3-a241-81ebf1be0e1e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299868"
 ---
 # <a name="cleaning-the-destination-environment"></a>Limpiar el entorno de destino
 Si el trabajo de restauración encuentra con condiciones de error que no se puede resolver, limpie el entorno de destino para que pueda iniciar desde un entorno vacío. Ejecuta el procedimiento almacenado **sp_LogShippingClean** ubicado en la base de datos maestra en el destino [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instancia se "limpia" el entorno de destino. Este procedimiento quita todas las bases de datos y elimina el último conjunto de datos restaurado para el origen especificado.  

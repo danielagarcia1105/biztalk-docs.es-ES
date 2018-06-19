@@ -1,18 +1,18 @@
 ---
 title: 'Paso 4: Crear los esquemas | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, schemas
 - creating, schemas
 - schemas, creating
 ms.assetid: 81b1f538-9743-433a-87f9-a423dcb868c8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961738"
 ---
 # <a name="step-4-create-the-schemas"></a>Paso 4: Crear los esquemas
 En este paso, creará un nuevo proyecto (**BTAHL7 proyecto**) que contiene los artefactos para este proyecto: los esquemas, el mapa y la orquestación. A continuación, cree un esquema (**Doorbell.xsd**) para el mensaje entrante de codificación XML y seleccione un esquema existente (**ADT_A04_22_GLO_DEF.xsd**) para el mensaje saliente con codificación HL7. Use estos esquemas para definir la estructura de los mensajes que intercambian en la orquestación.  

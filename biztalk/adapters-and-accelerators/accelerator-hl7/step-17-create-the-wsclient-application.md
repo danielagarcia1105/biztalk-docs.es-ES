@@ -1,18 +1,18 @@
 ---
-title: "Paso 17: Crear la aplicación WSClient | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 17: Crear la aplicación WSClient | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WSClient application
 - message enrichment tutorial, WSClient application
 - creating, WSClient application
 ms.assetid: 2849cd4c-30d0-47ab-8161-fab379d5a548
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960874"
 ---
 # <a name="step-17-create-the-wsclient-application"></a>Paso 17: Crear la aplicación WSClient
 WSClient.exe (cliente de servicios Web) es una aplicación de consola escrita en [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] que muestra cómo enviar datos a la orquestación que se publicó como un servicio Web en los pasos anteriores. La aplicación WSClient acepta cuatro parámetros en orden de entrada: nombre del paciente primero, segundo nombre, apellido y número del seguro social, respectivamente. Para enviar la información del paciente a su servicio Web, use la siguiente sintaxis de línea de comandos:  

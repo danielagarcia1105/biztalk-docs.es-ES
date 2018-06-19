@@ -1,18 +1,18 @@
 ---
-title: "Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, overview
 - invoking operations
 - WCF service, creating and implementing
 ms.assetid: 8ed765e5-b5e6-46bd-bcd6-282219caf75d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214388"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-oracle-database-adapter"></a>Información general sobre el modelo de servicio WCF con el adaptador de la base de datos de Oracle
 Cuando se usan operaciones que el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] superficies, el código actúa como un cliente o un servicio para el adaptador. Para casi todas las operaciones que el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] superficies, el código es el cliente. Es decir, la aplicación invoca la operación en el adaptador; Por ejemplo insertar registros en una tabla de Oracle. La operación sola para los que el código actúa como un servicio en la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] es para la operación de POLLINGSMT. En este caso, el adaptador envía los resultados de la operación de consulta de sondeo para la aplicación.  

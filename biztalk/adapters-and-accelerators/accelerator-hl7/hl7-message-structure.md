@@ -1,11 +1,11 @@
 ---
 title: HL7 Estructura de mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, segments
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - segments, messages
 - messages, message structure
 ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205092"
 ---
 # <a name="hl7-message-structure"></a>HL7 Estructura de los mensajes
 Un mensaje de HL7 es una estructura jerárquica asociada a un evento de desencadenador. El estándar HL7 define los eventos de desencadenador como "un evento en el mundo real de atención médica (es) crea la necesidad de los datos fluyan entre los sistemas". Cada evento de desencadenador está asociado a un mensaje abstracto que define el tipo de datos que el mensaje debe admitir el evento de desencadenador. El mensaje abstracto es una colección de segmentos e incluye las reglas de inclusión para dichos segmentos y de repetición. En la tabla siguiente se muestra un ejemplo de un mensaje abstracto asociado al evento de desencadenador A04: registrar paciente.  

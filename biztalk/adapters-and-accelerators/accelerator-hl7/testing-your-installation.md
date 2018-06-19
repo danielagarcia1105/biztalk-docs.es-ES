@@ -1,17 +1,17 @@
 ---
-title: "Comprobación de la instalación | Documentos de Microsoft"
-ms.custom: 
+title: Comprobación de la instalación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing installation
 - installing, testing installation
 ms.assetid: db27a75c-db7f-46ff-b8ef-2624ff18dcc8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961068"
 ---
 # <a name="testing-your-installation"></a>Comprobación de la instalación
 Puede configurar su [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] instalación para las pruebas manualmente ejecutando el tutorial to-end o ejecutando el programa tutorial-to-end. Para practicar con el programa, haga clic en el **iniciar Tutorial** botón durante la instalación o ejecutar EndToEndTutorial.exe en C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para HL7\SDK\ Carpeta Tutorial de extremo a extremo (después de ejecutar la instalación y configuración). Cualquiera de estas acciones automatizadas llevará a cabo los mismos pasos de instalación que debe realizar manualmente mediante la ejecución de todo el tutorial. El programa tutorial-to-end hace lo siguiente:  

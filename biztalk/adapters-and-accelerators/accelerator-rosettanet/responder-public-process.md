@@ -1,11 +1,11 @@
 ---
-title: "Proceso público de servicio de respuesta | Documentos de Microsoft"
-ms.custom: 
+title: Proceso público de servicio de respuesta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message flow
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - public processes, message flow
 - public processes, responder
 ms.assetid: 78d83954-2998-44ac-a527-5e5858c61009
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210868"
 ---
 # <a name="responder-public-process"></a>Proceso público de servicio de respuesta
 Este proceso público en el servicio de respuesta recibe el mensaje de RosettaNet Implementation Framework (RNIF) desde el iniciador y responde en consecuencia.  

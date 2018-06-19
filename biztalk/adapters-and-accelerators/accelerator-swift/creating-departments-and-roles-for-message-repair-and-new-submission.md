@@ -1,11 +1,11 @@
 ---
-title: "Crear Roles y departamentos de reparación de mensajes y nuevo envío | Documentos de Microsoft"
-ms.custom: 
+title: Crear Roles y departamentos de reparación de mensajes y nuevo envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - departments, creating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - certificates, messages
 - messages, certificates
 ms.assetid: 6337bd57-63c5-4d97-b558-ac27d5eb60d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210540"
 ---
 # <a name="creating-departments-and-roles-for-message-repair-and-new-submission"></a>Crear Roles y departamentos de reparación de mensajes y nuevo envío
 Reparación de mensajes y nuevo envío implica las siguientes cuatro operaciones diferentes:  

@@ -1,11 +1,11 @@
 ---
-title: "Importación de esquemas en BizTalk Server Projects1 | Documentos de Microsoft"
-ms.custom: 
+title: Importación de esquemas en BizTalk Server Projects1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, importing into BizTalk Server
 - orchestration types, port types
 ms.assetid: fa640195-a735-4201-a893-48f3405ddcb5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015451"
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a>Importación de esquemas en proyectos de BizTalk Server
 La información siguiente describe cómo importar esquemas en un proyecto de BizTalk Server.  
@@ -34,7 +35,7 @@ La información siguiente describe cómo importar esquemas en un proyecto de Biz
   
 2.  Haga clic en **agregar adaptador**y, a continuación, seleccione **abiertos**.  
   
-3.  Seleccione el adaptador**, J.D. Edwards OneWorld XE**.  
+3.  Seleccione el adaptador **, J.D. Edwards OneWorld XE**.  
   
 4.  En la lista desplegable, seleccione el puerto **SSOSendToJD Edwards OneWorld XE**y, a continuación, haga clic en **siguiente**.  
   

@@ -1,11 +1,11 @@
 ---
-title: "Tutorial de doble acción | Documentos de Microsoft"
-ms.custom: 
+title: Tutorial de doble acción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, PIPs
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - PIPs, tutorials
 - tutorials, double action tutorial
 ms.assetid: b692c043-82ef-46f4-8683-7ae1fd6e4421
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210124"
 ---
 # <a name="double-action-tutorial"></a>Tutorial de doble acción
 Este tutorial trata de una solución de extremo a extremo mediante [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. El tutorial detalla los pasos que se deben seguir para implementar una solución compatible con RosettaNet mediante la creación de un escenario de socio comercial entre dos empresas ficticias: la organización del proveedor, Contoso y Fabrikam, la organización del comprador.  

@@ -1,11 +1,11 @@
 ---
-title: "Las agregaciones en el Portal de BAM página | Documentos de Microsoft"
-ms.custom: 
+title: Las agregaciones en el Portal de BAM página | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], alerts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Aggregations page [BAM portal]
 - BAM portal, aggregations
 ms.assetid: 6bc1a6f2-9e9a-4db6-aaa1-188ed2f2641f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230068"
 ---
 # <a name="aggregations-on-the-bam-portal-page"></a>Agregaciones en la página del portal de BAM
 Los usuarios empresariales finales y los analistas empresariales utilizan la página del portal de BAM cuando necesitan presentar datos agregados, que son resúmenes precalculados de conjuntos de datos que contienen características representativas de ese conjunto de datos. La página Agregaciones del portal de BAM le permite mostrar datos agregados en forma de diagrama gráfico e informe de tabla dinámica existente.  

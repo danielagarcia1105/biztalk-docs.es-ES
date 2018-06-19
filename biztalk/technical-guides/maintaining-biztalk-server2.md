@@ -1,14 +1,14 @@
 ---
 title: Mantener BizTalk Server2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b9c10d1-101b-4b9d-8eab-767b853f17d8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298372"
 ---
 # <a name="maintaining-biztalk-server2"></a>Mantener BizTalk Server2
 Las actividades de mantenimiento forman parte de la función de administración de sistema (SMC) de Control y supervisión del servicio tal como se define por Microsoft Operations Framework (MOF). El objetivo principal de SMC es observa el estado de su [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema. Comprobaciones SMC pueden iniciar acciones correctoras para evitar posibles incidentes de servicio y minimizar el impacto de los incidentes de servicio cuando se producen.  

@@ -1,14 +1,14 @@
 ---
-title: "El servicio Web de resolución | Documentos de Microsoft"
-ms.custom: 
+title: El servicio Web de resolución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 236cff15-562a-41d5-bfdc-d250186fb616
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295220"
 ---
 # <a name="the-resolver-web-service"></a>El servicio Web de resolución
 El servicio Web de resolución es una puerta de enlace en el mecanismo de resolución dinámica de ESB. [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]incluye dos versiones de este servicio: una versión de ASP.NET (ASMX) y una versión de Windows Communication Foundation (WCF). Los nombres de servicio son **ESB. ResolverServices** y **ESB. ResolverServices.WCF**, respectivamente, y los servicios exponen los métodos siguientes:  

@@ -1,18 +1,18 @@
 ---
-title: "Ejecutar una operación SQLEXECUTE en base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar una operación SQLEXECUTE en base de datos de Oracle mediante el modelo de canal de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - running a SQLEXECUTE statement, using a channel
 - how to, run a SQLEXECUTE statement by using a channel
 - WCF channel model, running a SQLEXECUTE statement
 ms.assetid: e1af11ef-3f44-4726-99ca-d6961d79e651
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960810"
 ---
 # <a name="run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model"></a>Ejecutar una operación SQLEXECUTE en base de datos de Oracle mediante el modelo de canal de WCF
 Esta sección muestra cómo realizar una operación SQLEXECUTE en una base de datos de Oracle a través de un canal. Debe especificar un mensaje y una acción de mensaje en el mensaje SOAP. Para obtener más información sobre la operación SQLEXECUTE, consulte [operación SQLEXECUTE ejecutar en la base de datos de Oracle mediante el modelo de servicio de WCF](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).  

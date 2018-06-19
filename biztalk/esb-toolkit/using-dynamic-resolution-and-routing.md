@@ -1,14 +1,14 @@
 ---
-title: "Usar resolución dinámica y el enrutamiento | Documentos de Microsoft"
-ms.custom: 
+title: Usar resolución dinámica y el enrutamiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90ae4a5c-e388-4409-b7ac-633e4acc61aa
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295012"
 ---
 # <a name="using-dynamic-resolution-and-routing"></a>Uso de resolución dinámica y enrutamiento
 Además del enrutamiento basado en itinerario, el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] admite la resolución dinámica como enrutamiento basado en la configuración para evitar la necesidad de información de enrutamiento codificado de forma rígida en los componentes y servicios. Esta sección contiene los siguientes temas:  

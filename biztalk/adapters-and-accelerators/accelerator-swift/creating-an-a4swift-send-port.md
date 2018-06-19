@@ -1,17 +1,17 @@
 ---
-title: "Crear un puerto de envío de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Crear un puerto de envío de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 ms.assetid: d1ee18f8-a6aa-4cd5-9e65-fb2e0fa2d0c2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210252"
 ---
 # <a name="creating-an-a4swift-send-port"></a>Crear un puerto de envío de A4SWIFT
 Debe crear un puerto de envío para habilitar [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] para enviar un mensaje a la red SWIFT, tal como se muestra en la ilustración siguiente. Este puerto de envío enviará mensajes de archivo sin formato en una carpeta de archivo de salida. Este puerto de envío está diseñado para trabajar con la característica de reparación de mensajes y nuevo envío.  

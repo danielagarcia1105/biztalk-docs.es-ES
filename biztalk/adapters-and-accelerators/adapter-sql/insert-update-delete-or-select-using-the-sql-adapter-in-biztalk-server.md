@@ -1,14 +1,14 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d411b1a-a36d-4e3e-a56a-91804a5d69b9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968122"
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-the-sql-adapter"></a>Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con el adaptador de SQL
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone un conjunto de operaciones estándar en vistas y tablas de base de datos de SQL Server. Se conocen como operaciones de DML (lenguaje) de manipulación de datos. Mediante el uso de las operaciones DML, puede realizar Select simple de Insert, Update y operaciones Delete en tablas y vistas. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [Insert, Update, Delete y seleccione las operaciones en tablas y vistas con el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/insert-update-delete-and-select-on-tables-and-views-with-the-sql-adapter.md). Para obtener información acerca de la estructura del mensaje SOAP para estas operaciones, vea [esquemas de mensaje para Insert, Update, Delete y seleccione las operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-sql/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  

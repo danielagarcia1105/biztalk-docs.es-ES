@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966794"
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a>AS2 a través de archivo (ejemplo de BizTalk Server)
 El ejemplo AS2 a través de archivo muestra cómo recibir mensajes AS2 a través de una ubicación de recepción de archivo. Esto le permite usar un adaptador de archivo para recibir el mensaje AS2, en lugar de un adaptador de HTTP, que es el que se utiliza normalmente. Para ello, esta solución escribe los encabezados HTTP en el mensaje AS2 en la propiedad de contexto InboundHTTPHeaders, según requiere el descodificador AS2.  

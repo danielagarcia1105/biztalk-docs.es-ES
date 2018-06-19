@@ -1,14 +1,14 @@
 ---
-title: "Paso 6: Crear el puerto de envío para el lote de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Crear el puerto de envío para el lote de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a0f1ee-e060-4fb9-923e-ebe8168777d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960954"
 ---
 # <a name="step-6-create-the-send-port-for-the-acknowledgment-batch"></a>Paso 6: Crear el puerto de envío para el lote de confirmación
 En este paso, creará un puerto de envío para entregar el lote de confirmación que cree para la entidad de origen. Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo. Designar una carpeta de archivos para el origen (\Tutorial_BatchACKDrop), donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de confirmación. Defina un filtro para el puerto que indica qué tipo de lotes de confirmación que enviará los puertos. El filtro especifica el origen de Tutorial_BatchSource y el tipo de mensaje de OutboundBatch.  

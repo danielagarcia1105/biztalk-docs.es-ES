@@ -1,14 +1,14 @@
 ---
 title: Insertar, actualizar, eliminar o seleccionar en tablas de interfaz y las vistas de interfaz con Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85f42431-80fb-49be-86d1-bb21eee5e4f5
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968018"
 ---
 # <a name="insert-update-delete-or-select-on-interface-tables-and-interface-views-with-oracle-e-business-suite"></a>Insertar, actualizar, eliminar o seleccionar en tablas de interfaz y las vistas de interfaz con Oracle E-Business Suite
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]superficies de un conjunto de operaciones estándares, como Insert, Update, Delete, Select en la interfaz de tablas y vistas. Este tema proporciona instrucciones sobre cómo realizar estas operaciones mediante el adaptador. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [operaciones en tablas de interfaz y vistas de interfaz](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-interface-tables-and-interface-views.md). Para obtener información acerca de la estructura del mensaje SOAP para estas operaciones, vea [esquemas de mensaje para Insert, Update, Delete y las operaciones de Select](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-insert-update-delete-and-select-operations.md).  

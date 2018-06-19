@@ -1,18 +1,18 @@
 ---
 title: 'Paso 4: Crear un acuerdo comercial | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, trade agreeements
 - loopback tutorial, creating trade agreements
 - agreements, creating
 ms.assetid: 9bcb80b1-fefc-4f1c-ae03-fb736cdfd524
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964274"
 ---
 # <a name="step-4-create-a-trade-agreement"></a>Paso 4: Crear un acuerdo comercial
 En este paso, creará un acuerdo comercial entre el inicio y la organización de socios comerciales mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración.  

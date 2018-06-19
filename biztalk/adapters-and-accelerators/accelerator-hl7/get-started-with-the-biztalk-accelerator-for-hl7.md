@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205188"
 ---
 # <a name="get-started-with-the-biztalk-accelerator-for-hl7"></a>Empezar a trabajar con el Acelerador de BizTalk para HL7
 Mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)], puede desarrollar procesos empresariales entre los sistemas informáticos de atención médica. Mediante el uso de [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], los desarrolladores y profesionales de TI, los analistas de interfaz pueden trabajar en un entorno común para desarrollar soluciones de BTAHL7-based de-to-end integradas en todas las aplicaciones de atención médica.  

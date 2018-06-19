@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964298"
 ---
 # <a name="sapconnection-class-in-the-sap-adapter"></a>Clase SAPConnection en el adaptador SAP
 En la siguiente sección se enumera los métodos y propiedades para la **SAPConnection** clase. Representa una conexión ADO.NET en el servidor de aplicaciones de SAP.  

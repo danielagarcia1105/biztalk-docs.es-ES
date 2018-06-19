@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar un elemento web personalizado con Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar un elemento web personalizado con Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf420061-41d1-4d97-9be1-403cd101e41c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963906"
 ---
 # <a name="how-to-use-a-custom-web-part-with-oracle-e-business-suite"></a>Cómo usar un elemento web personalizado con Oracle E-Business Suite
 Esta sección proporciona información sobre el uso de un elemento Web personalizado con Microsoft Office SharePoint Server. Para usar un elemento Web personalizado, debe hacer lo siguiente:  

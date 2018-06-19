@@ -1,15 +1,15 @@
 ---
 title: Glosario de Acelerador para HL7 en BizTalk Server | Documentos de Microsoft
-description: "Común de términos y definiciones para conocer y aprender a usar el Acelerador de BizTalk para HL7"
-ms.custom: 
+description: Común de términos y definiciones para conocer y aprender a usar el Acelerador de BizTalk para HL7
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ffb9c18a-5fe5-448f-b115-0973e9d12952
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204956"
 ---
 # <a name="glossary"></a>Glosario
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 utiliza los siguientes términos y definiciones.

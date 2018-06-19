@@ -1,12 +1,12 @@
 ---
 title: Adaptadores de BizTalk incluidos con Host Integration Server | Documentos de Microsoft
-description: "Información general de los adaptadores de BizTalk para aplicaciones de Host, archivos de host, DB2 y WebSphere MQ incluido con su"
+description: Información general de los adaptadores de BizTalk para aplicaciones de Host, archivos de host, DB2 y WebSphere MQ incluido con su
 author: MandiOhlinger
 manager: anneta
 ms.date: 10/10/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: 26f2bf48c9a1268aace041776ff3895c8f3b3aa5
@@ -14,6 +14,7 @@ ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22645184"
 ---
 # <a name="biztalk-adapters-for-host-systems"></a>Adaptadores de BizTalk para sistemas host
 

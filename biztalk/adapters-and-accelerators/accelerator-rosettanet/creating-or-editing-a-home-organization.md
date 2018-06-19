@@ -1,11 +1,11 @@
 ---
-title: "Creación o edición de la organización principal | Documentos de Microsoft"
-ms.custom: 
+title: Creación o edición de la organización principal | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - home organizations, about home organizations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - home organizations
 - home organizations, creating
 ms.assetid: b54afb84-2f16-4516-8701-b03301476362
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964962"
 ---
 # <a name="creating-or-editing-a-home-organization"></a>Creación o edición de la organización principal
 En este tema se describe cómo crear o editar la organización principal. La configuración de la organización principal describe y clasifica la organización, establece sin repudio del período de origen y proporcione información de contacto.  

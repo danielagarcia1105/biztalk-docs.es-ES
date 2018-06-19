@@ -1,15 +1,15 @@
 ---
-title: "Implementar modelos de diseño en orquestaciones | Documentos de Microsoft"
-description: "El agregador, enrutamiento por contenidos, enrutador dinámico, control de errores, agente de mensajes y varios patrones de diseño en BizTalk Server"
-ms.custom: 
+title: Implementar modelos de diseño en orquestaciones | Documentos de Microsoft
+description: El agregador, enrutamiento por contenidos, enrutador dinámico, control de errores, agente de mensajes y varios patrones de diseño en BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f62ba955-018a-40e7-b303-497acc906019
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014251"
 ---
 # <a name="implement-design-patterns-in-orchestrations"></a>Implementar modelos de diseño en orquestaciones
 En esta sección se describen los patrones comunes para programar BizTalk Server, así como los patrones de integración empresarial. Se puede aprovechar un solo patrón o combinar varios patrones para diseñar su proceso empresarial y, posteriormente, implementar el diseño mediante el uso de las formas del Diseñador de orquestaciones de BizTalk.  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 3: Probar la aplicación migrada al adaptador de la base de datos de Oracle | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Probar la aplicación migrada al adaptador de la base de datos de Oracle | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 495efc4f-9d9e-450f-a03a-628bb54e658f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962898"
 ---
 # <a name="step-3-test-the-migrated-application-to-oracle-database-adapter"></a>Paso 3: Probar la aplicación migrada al adaptador de la base de datos de Oracle
 ![Paso 3 de 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  

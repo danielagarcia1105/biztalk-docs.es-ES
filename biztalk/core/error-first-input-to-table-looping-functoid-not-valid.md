@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968338"
 ---
 # <a name="error---first-input-to-table-looping-functoid-not-valid"></a>Error: primera entrada de Functoid no válida de bucle de tabla
 **Código de error**  

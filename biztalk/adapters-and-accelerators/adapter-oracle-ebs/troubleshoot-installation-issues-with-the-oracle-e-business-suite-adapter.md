@@ -1,14 +1,14 @@
 ---
-title: "Solucionar problemas de instalación con el adaptador de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Solucionar problemas de instalación con el adaptador de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 09b3af20-ab87-44e8-8ded-c19432552be7
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965634"
 ---
 # <a name="troubleshoot-installation-issues-with-the-oracle-e-business-suite-adapter"></a>Solucionar problemas de instalación con el adaptador de Oracle E-Business Suite
 Instalación del software Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copia los archivos binarios del producto en el equipo y registra los enlaces para cada adaptador. En esta sección se describe el uso de técnicas de solución de problemas para resolver errores de instalación.  

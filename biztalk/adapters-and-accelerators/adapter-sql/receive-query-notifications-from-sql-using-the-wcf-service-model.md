@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de consulta de SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c9def31-3c5a-4326-b798-31bde0ff2568
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964090"
 ---
 # <a name="receive-query-notifications-from-sql-using-the-wcf-service-model"></a>Recibir notificaciones de consulta de SQL mediante el modelo de servicio de WCF
 Este tema muestra cómo configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de notificación de consulta de una base de datos de SQL Server. Para mostrar las notificaciones, considere la posibilidad de una tabla de empleados, con una columna de "Status". Cuando se inserta un nuevo registro en esta tabla, el valor de la columna de estado se establece en 0. Puede configurar el adaptador para recibir notificaciones por registrarse para recibir notificaciones mediante una instrucción SQL que recupera todos los registros que tienen la columna de estado como "0". Puede hacerlo mediante la especificación de la instrucción SQL para la **NotificationStatement** propiedad de enlace. Una vez que el cliente de adaptador recibe la notificación, puede contener la lógica para realizar las tareas siguientes en la base de datos de SQL Server. En este ejemplo, por simplicidad, el cliente de adaptador enumera todos los registros en la tabla que tienen la columna de estado como "0".  

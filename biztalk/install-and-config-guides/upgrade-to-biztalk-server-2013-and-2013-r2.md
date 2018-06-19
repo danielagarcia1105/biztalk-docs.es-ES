@@ -1,11 +1,11 @@
 ---
 title: Actualizar a BizTalk Server 2013 y 2013 R2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - upgrading, BizTalk Server
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BizTalk Server, upgrading
 - upgrading
 ms.assetid: acb0a96e-091b-45c3-8d41-affe9ffcf134
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300036"
 ---
 # <a name="upgrade-to-biztalk-server-2013-and-2013-r2"></a>Actualizar a BizTalk Server 2013 y 2013 R2
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] está diseñado para que la actualización de versiones anteriores resulte muy sencilla. La guía de actualización de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 y 2013 R2 está disponible en [Guías de instalación relacionadas con BizTalk Server 2013](http://www.microsoft.com/download/details.aspx?id=35552).  

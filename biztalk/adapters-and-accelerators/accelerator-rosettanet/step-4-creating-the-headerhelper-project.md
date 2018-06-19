@@ -1,17 +1,17 @@
 ---
 title: 'Paso 4: Crear el proyecto HeaderHelper | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, helper projects
 - private process tutorial, creating helper projects
 ms.assetid: 82413537-032a-4368-8d77-d024a7c83b0b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965530"
 ---
 # <a name="step-4-creating-the-headerhelper-project"></a>Paso 4: Crear el proyecto HeaderHelper
 En este paso, creará un [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] biblioteca de clases. Cuando una orquestación de procesos privados recibe un mensaje entrante, la biblioteca de HeaderHelper determina si una conversión de documento es necesaria y si es necesario, realiza esa conversión. Esto permite que la orquestación trabajar con distintas versiones de documentos de RosettaNet Implementation Framework (RNIF). Además, cuando se envía un mensaje de respuesta de 3A2, la biblioteca HeaderHelper realiza una conversión de documento adicionales antes de transmitir el mensaje.  

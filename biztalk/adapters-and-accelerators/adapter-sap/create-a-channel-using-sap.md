@@ -1,11 +1,11 @@
 ---
 title: Crear un canal con SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - channel programming, creating a channel
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating a channel
 - WCF channel model, creating a channel
 ms.assetid: 24af1465-bb60-41d7-98bd-e501a981f82a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963978"
 ---
 # <a name="create-a-channel-using-sap"></a>Crear un canal con SAP
 En el modelo del canal WCF, puede invocar las operaciones en el sistema SAP o recibir mensajes desde el sistema SAP mediante el intercambio de mensajes SOAP con el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sobre un canal WCF.  

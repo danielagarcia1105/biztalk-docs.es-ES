@@ -1,11 +1,11 @@
 ---
 title: Desencadenar eventos y mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - health care organizations, HL7 messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, trigger events
 - messages, about messages
 ms.assetid: e93b397c-8cbe-4589-aa88-e474d7722174
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206540"
 ---
 # <a name="trigger-events-and-messages"></a>Desencadenar eventos y mensajes
 En un sistema de atención sanitaria digital, las aplicaciones crear mensajes HL7 debido a un evento del mundo real, como la inclusión de un pedido de laboratorio o fármaco. La organización de HL7 ha escrito el estándar HL7 basado en la suposición de que un evento en el mundo real de atención médica crea la necesidad de los datos fluyan entre aplicaciones, incluso cuando estas aplicaciones incluyen sistemas heterogéneos. El estándar HL7 llama a este suceso reales un *eventos de desencadenador*. Un sistema automatizado sistemáticamente debe reconocer el evento de desencadenador.  

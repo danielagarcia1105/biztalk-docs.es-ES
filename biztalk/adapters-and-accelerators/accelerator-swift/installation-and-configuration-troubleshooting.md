@@ -13,7 +13,7 @@ helpviewer_keywords:
 - troubleshooting, configuring
 - troubleshooting, installing
 ms.assetid: 25a2f6c5-c049-4042-8e38-4f7a2556e066
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968106"
 ---
 # <a name="installation-and-configuration-troubleshooting"></a>Instalación y solución de problemas de configuración
 ## <a name="setup-is-unable-to-deploy-the-runtimeschemas-assembly"></a>El programa de instalación es no se puede implementar el ensamblado RuntimeSchemas  
@@ -41,11 +42,11 @@ ms.lasthandoff: 03/28/2018
 ### <a name="solution"></a>Solución  
  Haga lo siguiente, dependiendo de la naturaleza del problema:  
   
--   Si ya se había implementado el ensamblado de esquemas en tiempo de ejecución cuando se intentó ejecutar una instalación inicial de A4SWIFT, abra el Explorador de BizTalk en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)], haga clic en el ensamblado [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Solutions.FinancialServices.SWIFT.RuntimeSchemas y, a continuación, haga clic en anular la implementación. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
+-   Si ya se había implementado el ensamblado de esquemas en tiempo de ejecución cuando se intentó ejecutar una instalación inicial de A4SWIFT, abra el Explorador de BizTalk en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)], haga clic en el ensamblado [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]. Solutions.FinancialServices.SWIFT.RuntimeSchemas y, a continuación, haga clic en anular la implementación. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
   
--   Si [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] no era iniciado, inicie [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] en el [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] Service Manager. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
+-   Si [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] no era iniciado, inicie [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] en el [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] Service Manager. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
   
--   Si ya se ha implementado el ensamblado de esquemas en tiempo de ejecución cuando se intentó actualizar A4SWIFT y hacía referencia a otro ensamblado, anular la implementación del ensamblado de referencia en el Explorador de BizTalk y anular la implementación de RuntimeSchemas.dll en el Explorador de BizTalk. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
+-   Si ya se ha implementado el ensamblado de esquemas en tiempo de ejecución cuando se intentó actualizar A4SWIFT y hacía referencia a otro ensamblado, anular la implementación del ensamblado de referencia en el Explorador de BizTalk y anular la implementación de RuntimeSchemas.dll en el Explorador de BizTalk. Usar el Asistente para la implementación de BizTalk para implementar la versión más reciente de RuntimeSchemas.dll de *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Assemblies.  
   
 ## <a name="after-the-web-components-feature-is-removed-message-repair-and-reconciliation-is-incorrectly-shown-as-uninstalled"></a>Después de quita la característica de componentes Web, reparación de mensajes y reconciliación se muestra incorrectamente como desinstalar  
   
@@ -72,7 +73,7 @@ ms.lasthandoff: 03/28/2018
 ## <a name="repairing-a4swift-to-add-the-service-folder-can-result-in-improper-access-permissions-for-that-folder"></a>Reparación de A4SWIFT para agregar la carpeta del servicio puede dar lugar a permisos de acceso incorrecto para esa carpeta  
   
 ### <a name="symptom"></a>Síntoma  
- Si elimina la carpeta *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Service desde una instalación de A4SWIFT configurado correctamente y, a continuación, ejecute la característica de reparación del programa de instalación de A4SWIFT para agregar la carpeta del servidor de nuevo en el A4SWIFT instalación, los permisos de acceso para la carpeta del servicio no será correctos. Los permisos correctos son Control total para los administradores de A4SWIFT y lectura y ejecución para los usuarios de A4SWIFT.  
+ Si elimina la carpeta *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Service desde una instalación de A4SWIFT configurado correctamente y, a continuación, ejecute la característica de reparación del programa de instalación de A4SWIFT para agregar la carpeta del servidor de nuevo en el A4SWIFT instalación, los permisos de acceso para la carpeta del servicio no será correctos. Los permisos correctos son Control total para los administradores de A4SWIFT y lectura y ejecución para los usuarios de A4SWIFT.  
   
  Esto también ocurre si ejecuta la característica de reparación del programa de instalación de A4SWIFT cuando existe la carpeta del servicio. Los permisos de acceso, según lo establecido por el Asistente para configuración de A4SWIFT, se sobrescribirán con valores incorrectos.  
   
@@ -91,7 +92,7 @@ ms.lasthandoff: 03/28/2018
   
  Para establecer estos permisos, haga lo siguiente:  
   
- En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Service.  
+ En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Service.  
   
 1.  Haga clic en la carpeta del servicio, haga clic en **propiedades**y, a continuación, haga clic en el **seguridad** ficha.  
   
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  Reinicie el servicio de administración IIS.  
   
-3.  Ejecutar *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Configuration.exe.  
+3.  Ejecutar *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Configuration.exe.  
   
 4.  En el [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] consola de configuración, seleccione **desconfigurar características** y, a continuación, seleccione **WebService**.  
   
@@ -191,7 +192,7 @@ ms.lasthandoff: 03/28/2018
   
 -   Crear un host de administración de BizTalk Server. No es necesario tener ahora una instancia en ejecución.  
   
--   Ejecutar la herramienta RepairBAS en el *% programfiles %*\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools carpeta de la instalación de A4SWIFT.  
+-   Ejecutar la herramienta RepairBAS en el *% programfiles %* \Microsoft BizTalk Accelerator for SWIFT\SDK\Tools carpeta de la instalación de A4SWIFT.  
   
  Para ello, haga lo siguiente:  
   

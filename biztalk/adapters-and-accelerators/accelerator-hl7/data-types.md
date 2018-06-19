@@ -1,17 +1,17 @@
 ---
 title: Tipos de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data types, messages
 - messages, data types
 ms.assetid: 7a758289-1629-48a0-843d-6f6773bd5ba6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204948"
 ---
 # <a name="data-types"></a>Tipos de datos
 La especificación de tipo de datos es una herramienta importante para crear particiones de la complejidad del estándar HL7 y es fundamental para entender el contenido de datos de un campo de HL7. Algunos tipos de datos son sencillos y contienen solo un componente, y algunos contienen muchos componentes y subcomponentes. Por ejemplo, PID.5 Patient Name tiene el tipo de datos XPN en la versión 2.4. Este tipo de datos admite las subdivisiones comunes de un nombre de idioma inglés, por ejemplo, apellido, nombre, segundo nombre, así como sufijo, prefijo, el código de tipo de nombre e intervalo de validez (fecha) de nombre.  

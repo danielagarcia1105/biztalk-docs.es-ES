@@ -1,11 +1,11 @@
 ---
 title: Importar BPEL (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BPEL Import Wizard, examples
 - BPEL Import Wizard, orchestrations
 ms.assetid: 3fc70608-ccd9-4249-b238-c09fc6551db1
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967746"
 ---
 # <a name="bpel-import-biztalk-server-sample"></a>Importar BPEL (ejemplo de BizTalk Server)
 El ejemplo de Importar BPEL muestra cómo crear una orquestación a partir de una descripción de proceso de Lenguaje de ejecución de procesos empresariales (BPEL) y sus artefactos relacionados.  
@@ -232,7 +233,7 @@ El ejemplo de Importar BPEL muestra cómo crear una orquestación a partir de un
 51. Vaya a la ubicación \< *ruta de ejemplos*\>\Orchestrations\BPELImport\Solution\BPELShipping y haga doble clic en **BindAndStartOnly.bat** para enlazar e iniciar el orquestación.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport  
+ *\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -277,7 +278,7 @@ olution\BPELShipping\BPELShipping\Invoice2Ack.btm|Factura para facturar la asign
   
 2.  Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport\Solution\ShipperProcess  
+     *\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport\Solution\ShipperProcess  
   
 3.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -312,7 +313,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
      Desde el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] símbolo del sistema, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Orchestrations\BPELImport\Solution\BPELShipping  
+     *\<Ejemplos de ruta de acceso\>* \Orchestrations\BPELImport\Solution\BPELShipping  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -330,7 +331,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
 #### <a name="to-run-the-bpel-import-sample"></a>Para ejecutar el ejemplo de Importación BPEL  
   
-1.  Copia la **Order.xml** de archivos desde el  *\<ruta de ejemplos\>*\Orchestrations\BPELImport\Solution en la carpeta a la \< *derutadeejemplos\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder carpeta.  
+1.  Copia la **Order.xml** de archivos desde el  *\<ruta de ejemplos\>* \Orchestrations\BPELImport\Solution en la carpeta a la \< *derutadeejemplos\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder carpeta.  
   
 2.  El BPELShipping orquestación recoge este archivo como un pedido en el sistema de procesamiento de pedidos de cliente, se ejecuta en el proceso de envío, y crea un archivo cada uno de los \< *ruta de ejemplos*\>\ Carpeta Orchestrations\BPELImport\Solution\Ports\SendOrder y \< *ruta de ejemplos*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation carpeta. El formato del nombre de estos archivos es \< *MessageID*\>.xml, donde  *\<MessageID\>*  es el GUID generado para identificar de forma única el Mensaje.  
   

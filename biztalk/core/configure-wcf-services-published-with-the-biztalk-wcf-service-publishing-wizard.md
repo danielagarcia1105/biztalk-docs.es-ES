@@ -22,6 +22,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "25969634"
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>Cómo configurar los servicios WCF publicados con el Asistente para publicación de Servicio WCF de BizTalk
 Una vez que ha publicado los servicios WCF con el Asistente para publicación de Servicio WCF de BizTalk, debe configurarlos adecuadamente. En este tema se describe cómo configurar los servicios WCF publicados.  

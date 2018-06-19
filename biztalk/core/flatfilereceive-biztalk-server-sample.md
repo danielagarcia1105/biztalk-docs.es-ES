@@ -1,14 +1,14 @@
 ---
 title: FlatFileReceive (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90bd9e8d-6ed9-49c4-8437-c0c8b2a9a78d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970170"
 ---
 # <a name="flatfilereceive-biztalk-server-sample"></a>FlatFileReceive (ejemplo de BizTalk Server)
 El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo sin formato en el archivo .xml equivalente.  
@@ -51,7 +52,7 @@ El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNo
 -   XMLTransmit se utiliza como la canalización de envío. Utilice la canalización PassThruTransmit cuando no resulte necesario realizar la degradación de la propiedad u otro procesamiento de mensajes en el puerto de envío.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -72,13 +73,13 @@ El ejemplo FlatFileReceive muestra cómo puede usar [!INCLUDE[btsBizTalkServerNo
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+         *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileReceive  
   
     -   Compila e implementa el proyecto de Visual Studio para este ejemplo.  
   

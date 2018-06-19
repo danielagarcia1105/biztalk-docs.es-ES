@@ -1,14 +1,14 @@
 ---
 title: Servicio Web de las operaciones de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af38815f-f643-4598-9148-6499071d12e4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296916"
 ---
 # <a name="the-biztalk-operations-web-service"></a>El servicio Web de las operaciones de BizTalk
 El servicio Web de Microsoft BizTalk Operations expone información sobre los objetos y los mensajes en BizTalk Server. El nombre de servicio es **ESB.BizTalkOperationsService**, y el servicio expone una amplia variedad de métodos que devuelven elementos como una lista de hosts, orquestaciones, las aplicaciones y el estado de la aplicación de BizTalk.  

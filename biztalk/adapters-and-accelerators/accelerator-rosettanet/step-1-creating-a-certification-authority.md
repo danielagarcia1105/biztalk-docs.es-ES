@@ -1,18 +1,18 @@
 ---
-title: "Paso 1: Crear una entidad de certificación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear una entidad de certificación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, creating
 - double action tutorial, creating certificates
 - creating, certificates
 ms.assetid: b6ecd534-6b03-4336-8337-33ec18a0802a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966234"
 ---
 # <a name="step-1-creating-a-certification-authority"></a>Paso 1: Crear una entidad de certificación
 En este tema, instale los servicios de Certificate Server [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] componente. Usarlo para generar los certificados que necesita para promover una comunicación segura entre las organizaciones de Contoso y Fabrikam. Todos los socios comerciales tendrá un certificado de cifrado privada para la comunicación y el certificado de firma privada para propósitos de identificación. Además, los socios compartirán sus certificados de clave pública entre sí para promover una comunicación segura al implementar el proceso de interfaz de socio (PIP) 3A2.  
@@ -97,11 +98,11 @@ En este tema, instale los servicios de Certificate Server [!INCLUDE[btsWinNoVers
   
 ### <a name="to-import-the-ca-certificate-to-the-trusted-root-certification-authorities-store"></a>Para importar el certificado de CA en el almacén de entidades de certificación raíz de confianza  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, vaya a  **\<unidad\>: \Program Files\MicrosoftBizTalk \<versión\> Accelerator for RosettaNet\SDK**y, a continuación, presione **ENTRAR**.  
   
-3.  En el símbolo del sistema, escriba **CertWizard /Rootkey "\<unidad\>: \Certs\Contoso-FabrikamCA.cer"**y, a continuación, presione **ENTRAR**.  
+3.  En el símbolo del sistema, escriba **CertWizard /Rootkey "\<unidad\>: \Certs\Contoso-FabrikamCA.cer"** y, a continuación, presione **ENTRAR**.  
   
     > [!IMPORTANT]
     >  Llevar a cabo este procedimiento en los equipos de Contoso y Fabrikam.  

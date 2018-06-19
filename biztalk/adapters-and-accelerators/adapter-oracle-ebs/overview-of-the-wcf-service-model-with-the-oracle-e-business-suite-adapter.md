@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el modelo de servicio WCF con el adaptador de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de servicio WCF con el adaptador de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aeeac8a4-a4bc-4963-951c-0c806e232f1e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216452"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-oracle-e-business-suite-adapter"></a>Información general sobre el modelo de servicio WCF con el adaptador de Oracle E-Business Suite
 La [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone un sistema de Oracle E-Business Suite como un servicio WCF. Para llevar a cabo operaciones en artefactos de Oracle E-Business Suite, por ejemplo, para invocar un procedimiento almacenado, se invoca una operación en el adaptador, que a su vez, realiza la operación en Oracle E-Business Suite. El código actúa como un cliente para el servicio WCF presentado por el adaptador.  

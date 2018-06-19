@@ -1,14 +1,14 @@
 ---
 title: Proporcionar una alta disponibilidad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9240e776-555c-4c38-8b59-8fef1ba6a567
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302044"
 ---
 # <a name="providing-high-availability"></a>Proporcionar una alta disponibilidad
 Se proporciona alta disponibilidad para un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno mediante la implementación de redundancia para todos los componentes funcionales en el entorno. Redundancia de un Host de BizTalk puede realizarse mediante la instalación de varios equipos que ejecuten [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un grupo de BizTalk y, a continuación, configurar instancias del host para que se ejecute en más de uno de los equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el grupo. Redundancia de otros componentes de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] entorno puede realizarse mediante la configuración de los componentes como recursos en un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] clúster. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]incorpora también configurando los Hosts de BizTalk como recursos en un [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] clúster, lo que se recomienda para proporcionar alta disponibilidad de ciertos adaptadores de BizTalk.  

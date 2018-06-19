@@ -1,14 +1,14 @@
 ---
 title: Invocar conjuntos de solicitudes en Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a79bff63-325d-4745-ab0e-839e00476ab1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967778"
 ---
 # <a name="invoke-request-sets-in-oracle-e-business-suite"></a>Invocar conjuntos de solicitudes en Oracle E-Business Suite
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]permite ejecutar conjuntos de solicitudes en Oracle E-Business Suite. Solicitar conjuntos se dividen en una o varias fases y cada fase contiene un conjunto de informes y programas simultáneos. Para obtener más información sobre cómo el adaptador admite conjuntos de solicitudes, consulte [operaciones en la solicitud establece](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md). Para obtener información acerca de la estructura de SOAP de los mensajes para invocar conjuntos de solicitudes, consulte [esquemas de mensaje para la solicitud establece](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-request-sets.md).  

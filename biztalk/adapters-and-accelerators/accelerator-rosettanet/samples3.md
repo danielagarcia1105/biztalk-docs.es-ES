@@ -1,18 +1,18 @@
 ---
 title: Samples3 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK samples
 - examples, developing
 - developing, examples
 ms.assetid: b940111e-4f71-494b-b7a3-d2e8310bea51
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965762"
 ---
 # <a name="samples"></a>Ejemplos
 Esta sección describen los ejemplos incluidos en el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Kit de desarrollo de Software (SDK). Esta sección proporciona información detallada sobre cada ejemplo, incluido cómo generar el ejemplo, cómo ejecutarlo y los resultados que se espera.  

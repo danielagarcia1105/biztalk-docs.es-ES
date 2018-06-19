@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204492"
 ---
 # <a name="batch-schedule-tab"></a>Ficha de programación por lotes
 Usa el **programación por lotes** tab para activar, solicitar o finalizar un lote saliente. Activar un lote saliente consta de dos pasos: configurar basado en tiempo o mensaje de recuento de criterios y, a continuación, iniciar la orquestación de procesamiento por lotes saliente.  

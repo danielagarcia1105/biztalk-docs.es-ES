@@ -1,14 +1,14 @@
 ---
-title: "Leer la instalación y problemas conocidos de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Leer la instalación y problemas conocidos de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c58d9dcb-7835-4181-a6cb-203c5d138e6a
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962010"
 ---
 # <a name="read-the-installation-and-configuration-known-issues"></a>Leer la instalación y configuración que se describen los problemas conocidos
   
 ## <a name="installing-over-terminal-server-creates-log-files-in-a-different-folder"></a>La instalación a través de Terminal Server crea archivos de registro en una carpeta diferente  
- Cuando instala A4SWIFT sobre una conexión de Terminal Server, el programa de instalación de A4SWIFT crea los archivos de registro de instalación y configuración en el  *\<unidad\>*: \Documents and Settings\\  *\<nombre de usuario\>*carpeta de \Local Settings. Normalmente, el programa de instalación crea estos archivos en el  *\<unidad\>*: \Documents and Settings\\*\<nombre de usuario\>*\Local Carpeta Settings\temp. Puede revisar estos archivos de registro para asegurarse de que los equipos se instala y configura correctamente.  
+ Cuando instala A4SWIFT sobre una conexión de Terminal Server, el programa de instalación de A4SWIFT crea los archivos de registro de instalación y configuración en el  *\<unidad\>*: \Documents and Settings\\  *\<nombre de usuario\>* carpeta de \Local Settings. Normalmente, el programa de instalación crea estos archivos en el  *\<unidad\>*: \Documents and Settings\\*\<nombre de usuario\>* \Local Carpeta Settings\temp. Puede revisar estos archivos de registro para asegurarse de que los equipos se instala y configura correctamente.  
   
 ## <a name="silent-installation-is-not-recommended"></a>No se recomienda la instalación silenciosa  
  Una instalación silenciosa es compatible con el programa de instalación de A4SWIFT, pero no se recomienda debido a la complejidad de los pasos de configuración adicionales que son necesarios.  

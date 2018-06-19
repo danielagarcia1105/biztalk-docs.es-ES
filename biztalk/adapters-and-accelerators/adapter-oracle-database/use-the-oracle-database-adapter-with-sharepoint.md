@@ -1,14 +1,14 @@
 ---
 title: Utilizar el adaptador de base de datos de Oracle con SharePoint | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 254204e5-3b5d-4e70-97ab-817660d1206a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450317"
 ---
 # <a name="use-the-oracle-database-adapter-with-sharepoint"></a>Utilizar el adaptador de base de datos de Oracle con SharePoint
 El Asistente de desarrollo del servicio de adaptador de WCF para [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)] habilita el adaptador de Microsoft BizTalk para que base de datos de Oracle y Microsoft BizTalk Adapter para Oracle E-Business Suite a ser consumidos directamente como un origen de datos externo de Microsoft SharePoint. El Asistente para agregar un desarrollo de servicio que admita esta característica se inicia con la **servicio de adaptador de WCF** plantilla para crear un nuevo Visual C# sitios Web en [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]. La plantilla se incluye con la [!INCLUDE[adapterpacknoversion_md](../../includes/adapterpacknoversion-md.md)]. También debe instalar el SDK de adaptador de línea de negocio (LOB) de Microsoft Windows Communication Foundation (WCF).  

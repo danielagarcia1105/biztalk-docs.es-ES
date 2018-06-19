@@ -1,11 +1,11 @@
 ---
-title: "Crear la conexión del sistema SAP URI | Documentos de Microsoft"
-ms.custom: 
+title: Crear la conexión del sistema SAP URI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - connecting using connection URI
 - connecting to SAP, using the connection URI
 ms.assetid: e41ed488-07a7-4fb7-97c0-6d626e041e95
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219316"
 ---
 # <a name="create-the-sap-system-connection-uri"></a>Crear el URI de conexión de sistema SAP
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] URI de conexión contiene propiedades que el adaptador utiliza para establecer una conexión con el sistema SAP.  

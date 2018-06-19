@@ -1,7 +1,7 @@
 ---
 title: Instalar y configurar el Kit de herramientas de Microsoft BizTalk ESB | Documentos de Microsoft
 description: Instrucciones de paso por pasos para instalar y configurar el Kit de herramientas de ESB en BizTalk Server
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 manager: anneta
 ms.custom: ''
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22297004"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-esb-toolkit"></a>Instalar y configurar el Kit de herramientas de Microsoft BizTalk ESB
 A partir de BizTalk Server 2013 y versiones posteriores, [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] se integra con la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] el programa de instalación. Este tema muestra cómo instalar y configurar [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]y también incluye un vínculo escrito por la Comunidad para actualizar el Kit de herramientas de ESB.  

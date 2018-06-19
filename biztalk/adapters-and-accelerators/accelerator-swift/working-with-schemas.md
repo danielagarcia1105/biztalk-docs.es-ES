@@ -1,17 +1,17 @@
 ---
 title: Trabajar con esquemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, schemas
 - schemas, developing
 ms.assetid: 123c4b43-34e4-41c7-980d-5d518b1479c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963098"
 ---
 # <a name="working-with-schemas"></a>Trabajar con esquemas
 Los esquemas que se proporcionan en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] son el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] representación XSD de la sociedad para mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo. Cada tipo de mensaje tiene su propio esquema, incluida la SWIFT encabezado y finalizador SWIFT (formato de intercambio). Este esquema es suficiente para enviar o recibir un mensaje SWIFT. Estos esquemas son una combinación única de los registros delimitados y posicionales, lo que proporciona una representación XML detallada de las estructuras FIN de archivo sin formato.  

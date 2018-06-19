@@ -1,14 +1,14 @@
 ---
-title: "Paso 4d: pruebe una instancia válida para el escenario en tiempo real de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4d: pruebe una instancia válida para el escenario en tiempo real de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a8975c90-462b-4c9b-8766-1272ab7ceaba
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963778"
 ---
 # <a name="step-4d-test-a-valid-instance-for-the-fileact-real-time-scenario"></a>Paso 4d: pruebe una instancia válida para el escenario en tiempo real de FileAct
 Antes de comenzar este paso, debe completar [paso 4c: crear una instancia de prueba para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-fileact-real-time-scenario.md).  

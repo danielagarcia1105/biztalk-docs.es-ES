@@ -1,11 +1,11 @@
 ---
-title: "Cómo habilitar y deshabilitar el Host para SSO iniciado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo habilitar y deshabilitar el Host para SSO iniciado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host initiated SSO, disabling
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - enabling, host initiated SSO
 - host initiated SSO, enabling
 ms.assetid: a11d314a-6ff9-4d0a-89c3-c412541c2cec
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968986"
 ---
 # <a name="how-to-enable-and-disable-host-initiated-sso"></a>Cómo habilitar y deshabilitar el Host para SSO iniciado
 De forma predeterminada, el inicio de sesión único iniciado por host no se encuentra habilitado en el sistema de inicio de sesión único, y debe habilitarlo el administrador de SSO.  

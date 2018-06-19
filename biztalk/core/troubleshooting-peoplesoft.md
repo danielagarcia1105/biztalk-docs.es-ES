@@ -1,14 +1,14 @@
 ---
 title: Solucionar problemas del adaptador PeopleSoft | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 357fa9a5-35d1-4667-a957-c0cefcce9c37
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014714"
 ---
 # <a name="troubleshoot-peoplesoft"></a>Solucionar problemas de PeopleSoft
 En esta sección se enumeran los mensajes de error del sistema PeopleSoft Enterprise, sus descripciones y posibles correcciones. También se describe cómo usar el Seguimiento de eventos para Windows y se enumeran los problemas más comunes.  

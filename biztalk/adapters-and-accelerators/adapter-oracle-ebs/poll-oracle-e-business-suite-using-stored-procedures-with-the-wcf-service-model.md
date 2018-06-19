@@ -1,14 +1,14 @@
 ---
 title: Utilizar procedimientos almacenados con el modelo de servicio WCF de sondeo Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47dcb866-9161-4b28-9481-2761794ce805
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967722"
 ---
 # <a name="poll-oracle-e-business-suite-using-stored-procedures-with-the-wcf-service-model"></a>Sondeo Oracle E-Business Suite mediante procedimientos almacenados con el modelo de servicio WCF
 Puede configurar el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] para recibir mensajes de cambio de datos periódicos mediante procedimientos almacenados que éstos sondeen periódicamente la base de datos de Oracle. Puede especificar un procedimiento almacenado como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle.  

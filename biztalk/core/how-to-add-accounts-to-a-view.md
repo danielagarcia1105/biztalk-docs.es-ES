@@ -1,18 +1,18 @@
 ---
-title: "Cómo agregar cuentas a una vista | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar cuentas a una vista | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], security
 - Add-Account command [BAM]
 - managing [BAM], adding accounts to views
 ms.assetid: 0875796c-82a4-4165-9bed-88e8ba466548
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968674"
 ---
 # <a name="how-to-add-accounts-to-a-view"></a>Cómo agregar cuentas a una vista
 Los administradores utilizan el **Agregar cuenta** comando para asociar usuarios a vistas de BAM y proteger las vistas de hojas de cálculo de Excel de BAM de accesos no autorizados. Cuando los usuarios guardan vistas de BAM, estas vistas hacen referencia a una cadena de conexión de SQL oculta en el libro. El libro está protegido, pero debe asegurarse de que el documento también esté protegido.  

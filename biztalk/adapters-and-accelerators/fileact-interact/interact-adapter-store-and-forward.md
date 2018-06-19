@@ -1,14 +1,14 @@
 ---
-title: "Interactuar el adaptador de almacenamiento y reenvío | Documentos de Microsoft"
-ms.custom: 
+title: Interactuar el adaptador de almacenamiento y reenvío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d596780a-085d-48db-be44-a3ae58f591d0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963210"
 ---
 # <a name="interact-adapter-store-and-forward"></a>Interactuar el adaptador de almacenamiento y reenvío
 En el almacén y el modo de avance (SnF), los mensajes se entregan a una cola en el momento de envío y se recuperan de la cola por parte del destino. Cuando se usa SnF, la respuesta procede de SWIFTNet SnF propio y no contiene ningún tipo de información desde el servicio de respuesta.  

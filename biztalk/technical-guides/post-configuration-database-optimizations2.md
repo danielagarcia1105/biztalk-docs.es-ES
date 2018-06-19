@@ -1,14 +1,14 @@
 ---
-title: "Configuración posterior a la base de datos Optimizations2 | Documentos de Microsoft"
-ms.custom: 
+title: Configuración posterior a la base de datos Optimizations2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 609eda22-8399-4b7c-b860-21b495d2f68d
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302668"
 ---
 # <a name="post-configuration-database-optimizations"></a>Optimizaciones de configuración posteriores a la base de datos
 Además de seguir las recomendaciones de [Optimizations2 de base de datos de configuración previa](../technical-guides/pre-configuration-database-optimizations2.md), deben seguir varios pasos para optimizar el rendimiento de la base de datos de BizTalk Server en SQL Server *después* Se ha instalado BizTalk Server y se han configurado las bases de datos de BizTalk Server. En este tema se proporciona una lista de estas optimizaciones.  

@@ -1,14 +1,14 @@
 ---
-title: "Información general sobre el modelo de canal WCF con el adaptador de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Información general sobre el modelo de canal WCF con el adaptador de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3afd2a97-5734-4c25-87a3-702d8461898b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963258"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-e-business-suite-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador de Oracle E-Business Suite
 Para invocar operaciones en el [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  

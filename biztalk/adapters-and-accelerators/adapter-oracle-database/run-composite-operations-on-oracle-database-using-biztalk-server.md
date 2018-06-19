@@ -1,14 +1,14 @@
 ---
 title: Ejecutar operaciones compuestas en la base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf47d95e-cdf1-4c9b-a15a-7cf123d0ea6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962666"
 ---
 # <a name="run-composite-operations-on-oracle-database-using-biztalk-server"></a>Ejecutar operaciones compuestas en la base de datos de Oracle mediante BizTalk Server
 El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] permite a los clientes de adaptador realizar operaciones compuestas en base de datos de Oracle. Puede incluir una operación compuesta:  

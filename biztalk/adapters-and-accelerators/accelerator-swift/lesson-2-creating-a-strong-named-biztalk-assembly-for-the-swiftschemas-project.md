@@ -1,17 +1,17 @@
 ---
-title: "Lección 2: Crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, creating strong-names
 - strong-named assemblies
 ms.assetid: 2aacbf38-8b1d-46ea-89ae-5207327bedc1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961018"
 ---
 # <a name="lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project"></a>Lección 2: Crear un ensamblado de BizTalk con nombre seguro para el proyecto SWIFTSchemas
 En esta lección, creará un nombre seguro en el que se compilan e implementan los ensamblados de BizTalk. Un ensamblado con nombre seguro ofrece varias ventajas de seguridad:  

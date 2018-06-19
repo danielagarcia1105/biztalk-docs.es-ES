@@ -1,18 +1,18 @@
 ---
-title: "Cómo deshabilitar las alertas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo deshabilitar las alertas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - alerts, disabling
 - managing [BAM definitions], disabling alerts
 - Disable-Alerts command [BAM]
 ms.assetid: c5938bc2-1043-4633-8cad-02caf442f2e8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969266"
 ---
 # <a name="how-to-disable-alerts"></a>Cómo deshabilitar alertas
 Los administradores utilizan el **disable-alerts** comando para deshabilitar todas las alertas en la vista especificada.  

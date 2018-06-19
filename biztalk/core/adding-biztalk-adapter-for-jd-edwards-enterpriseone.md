@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: baecebcd-c324-40aa-bacf-876f45b6c37f
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24014459"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a>Configurar los artefactos de JD Edwards EnterpriseOne en administración de BizTalk
 Microsoft BizTalk Adapter para J.D.Edwards EnterpriseOne contiene las carpetas Controlador de recepción y Controlador de envío. Las carpetas contienen BizTalkServerApplication. BizTalk Adapter para J.D.Edwards EnterpriseOne se puede crear; se ejecuta en proceso con BizTalk Server y no se ejecuta en procesos de host aislados.  

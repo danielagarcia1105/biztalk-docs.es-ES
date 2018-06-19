@@ -1,14 +1,14 @@
 ---
 title: Servidor y cliente SWIFTNet | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89d9f54f-af16-4f14-bbe4-8306758320d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224660"
 ---
 # <a name="swiftnet-client-and-server"></a>SWIFTNet cliente y servidor
 SWIFT utiliza los términos cliente y servidor para describir el envío y recepción. Un cliente SWIFT es un proceso que llama el vínculo de SWIFTNet (SNL) para iniciar la comunicación a través de SWIFTNet. En BizTalk Server, esto se denomina el adaptador de envío. Un servidor de SWIFT es un programa que llama a la SNL al tráfico entra a través de SWIFTNet. En BizTalk Server, esto se denomina el adaptador de recepción.  

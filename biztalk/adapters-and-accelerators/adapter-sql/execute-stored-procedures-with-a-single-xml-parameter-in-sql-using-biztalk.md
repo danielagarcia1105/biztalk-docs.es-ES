@@ -1,15 +1,15 @@
 ---
-title: "Ejecutar procedimientos almacenados con un solo parámetro XML en SQL Server mediante BizTalk Server | Documentos de Microsoft"
-description: "Pasar un único parámetro de un procedimiento almacenado mediante el puerto de WCF-Custom y el adaptador de SQL en BizTalk"
-ms.custom: 
+title: Ejecutar procedimientos almacenados con un solo parámetro XML en SQL Server mediante BizTalk Server | Documentos de Microsoft
+description: Pasar un único parámetro de un procedimiento almacenado mediante el puerto de WCF-Custom y el adaptador de SQL en BizTalk
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: deb9333a-5e28-4e8d-8e0b-07b5a97a111b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964602"
 ---
 # <a name="execute-stored-procedures-with-a-single-xml-parameter-in-sql-server-using-biztalk-server"></a>Ejecutar procedimientos almacenados con un solo parámetro XML en SQL Server con BizTalk Server
 Ejecutar un procedimiento almacenado que toma un parámetro único es similar a cualquier otro procedimiento almacenado que se ejecute como se describe en [ejecutar los procedimientos almacenados de SQL Server mediante BizTalk Server](execute-stored-procedures-in-sql-server-using-biztalk-server.md). Sin embargo, para el enfoque descrito en el vínculo anterior, debe generar los metadatos para el procedimiento almacenado en tiempo de diseño y crear una orquestación para invocar el procedimiento en tiempo de ejecución.  

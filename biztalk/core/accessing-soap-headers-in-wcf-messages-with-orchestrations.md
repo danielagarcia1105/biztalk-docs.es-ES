@@ -1,11 +1,11 @@
 ---
 title: Obtener acceso a los encabezados SOAP en mensajes WCF con orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, SOAP headers [WCF services]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, SOAP headers
 - SOAP headers, WCF messages
 ms.assetid: fe02fb02-18d6-4fc6-89e0-b06bdbfa5cb4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966842"
 ---
 # <a name="accessing-soap-headers-in-wcf-messages-with-orchestrations"></a>Obtener acceso a encabezados SOAP en mensajes WCF con orquestaciones
 Para obtener acceso a los valores del encabezado SOAP de mensajes entrantes de WCF en orquestaciones, use la propiedad de contexto **WCF. InboundHeaders**. Los adaptadores WCF copian encabezados SOAP personalizados y encabezados SOAP estándar en los mensajes entrantes en el **WCF. InboundHeaders** propiedad. Además, los adaptadores de WCF permiten seleccionar las propiedades que desee promocionar o escribir en las propiedades de contexto mediante programación. Vea [encabezados SOAP con servicios de WCF publican](../core/soap-headers-with-published-wcf-services.md) para obtener más detalles.  

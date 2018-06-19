@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1ee402b-ffda-42c1-8d85-d7cbe073a307
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22224012"
 ---
 # <a name="understand-wcf-security-on-the-adapter-created-with-the-wcf-lob-adapter-sdk"></a>Comprender la seguridad WCF en el adaptador creado con el SDK de adaptador LOB de WCF
 El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] amplía la [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] arquitectura de canal y se basa en la infraestructura de mensajería y la API que proporciona.  Un adaptador de LOB de WCF es necesario establecer una conexión con sistemas de destino y, por lo tanto, es necesario configurar el adaptador con autenticación y otra información de seguridad necesarios para realizar las conexiones del sistema de destino.  

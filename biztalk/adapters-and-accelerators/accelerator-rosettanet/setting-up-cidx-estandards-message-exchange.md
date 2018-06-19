@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210500"
 ---
 # <a name="setting-up-cidx-estandards-message-exchange"></a>Normas europeas de configuración seguridad CIDX intercambio de mensajes
 En este tema se describe cómo configurar el intercambio de mensajes de normas europeas de intercambio de datos para la industria química (CIDX). CIDX requiere que se establezcan las tres propiedades siguientes:  

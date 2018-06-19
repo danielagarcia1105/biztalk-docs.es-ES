@@ -1,11 +1,11 @@
 ---
-title: "Configuración de envío BTARN y canalizaciones de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de envío BTARN y canalizaciones de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send pipelines, modifying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive pipelines, modifying
 - modifying, receive pipelines
 ms.assetid: 00960de0-3763-40aa-9e4b-1fedc7f1eea6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964514"
 ---
 # <a name="setting-btarn-send-and-receive-pipelines"></a>Configuración de envío BTARN y canalizaciones de recepción
 De forma predeterminada, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] utiliza la norma [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] enviar canalización (Microsoft.Solutions.BTARN.Pipelines.Send) y el estándar [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] (Microsoft.Solutions.BTARN.Pipelines.Receive) de la canalización de recepción cuando se crea puertos de envío de socios comerciales. Sin embargo, puede cambiar el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] configuración para que use una canalización de BizTalk existente o una canalización personalizada que haya creado. Acuerdos de socios comerciales y todos los socios y organizaciones internas, todo, use el mismo enviar canalización y la misma canalización de recepción.  

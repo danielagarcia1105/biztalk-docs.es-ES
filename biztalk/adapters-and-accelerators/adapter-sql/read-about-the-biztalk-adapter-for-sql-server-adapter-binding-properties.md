@@ -1,14 +1,14 @@
 ---
-title: "Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server | Documentos de Microsoft"
-ms.custom: 
+title: Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4606f583-da74-4a26-95cb-88915ecafe37
-caps.latest.revision: "43"
+caps.latest.revision: 43
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967842"
 ---
 # <a name="read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties"></a>Obtener información sobre el adaptador de BizTalk para propiedades de enlace del adaptador de SQL Server
 La [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] expone varias propiedades de enlace. Al establecer estas propiedades, puede controlar algunos de los comportamientos del adaptador. Esta sección describen las propiedades de enlace expuestas por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. También se muestra cómo se pueden tener acceso a ellos mediante programación de .NET o estableciendo propiedades en un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enlace de puerto físico.  

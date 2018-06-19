@@ -1,18 +1,18 @@
 ---
-title: "Habilitar (ejemplo de BizTalk Server) de la ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Habilitar (ejemplo de BizTalk Server) de la ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, examples
 - receive locations, enabling
 - examples, receive locations
 ms.assetid: dd04b38a-634d-4c9a-b31a-2f226fa91d19
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968730"
 ---
 # <a name="enable-receive-location-biztalk-server-sample"></a>Habilitar recepción ubicación (ejemplo de BizTalk Server)
 El ejemplo para habilitar ubicación de recepción muestra cómo se habilita una ubicación de recepción y como se establece, de forma opcional, la dirección URL de transporte de entrada para la ubicación de recepción.  

@@ -1,14 +1,14 @@
 ---
-title: "Escenarios de mensajería unidireccionales para el ejemplo de resolución dinámica | Documentos de Microsoft"
-ms.custom: 
+title: Escenarios de mensajería unidireccionales para el ejemplo de resolución dinámica | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 38237840-e957-4298-84c9-700ec72f2bc5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296676"
 ---
 # <a name="one-way-messaging-scenarios-for-the-dynamic-resolution-sample"></a>Escenarios de mensajería unidireccionales para el ejemplo de resolución dinámica
 Este tema muestra cómo ejecutar los escenarios de mensajería unidireccionales para el [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplo de resolución dinámica.  

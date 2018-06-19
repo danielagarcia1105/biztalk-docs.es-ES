@@ -1,14 +1,14 @@
 ---
-title: "Representación de esquemas de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Representación de esquemas de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f0460a37-1f4f-4c0b-91db-bb457f434fe9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966538"
 ---
 # <a name="biztalk-representation-of-schemas"></a>Representación de esquemas en BizTalk
 
@@ -38,8 +39,8 @@ Aunque los esquemas de BizTalk se representan y almacenan en última instancia e
 |**Grupo de elecciones**|Inserta un **grupo de elecciones** nodo (\<opción\> en la vista de árbol) al final de la secuencia del nodo seleccionado. Para obtener más información acerca de **grupo de elecciones** nodos, consulte [nodos grupos de elecciones](../core/choice-group-nodes.md).|  
 |**Todos los grupos**|Inserta un **todos los grupos** nodo (\<todos los\> en la vista de árbol) como nodo secundario sin atributos solo de un **registro** utilice el nodo, reemplazando el valor predeterminado de un **secuencia**  elemento dentro de la **registro** nodo con el uso de un **todos los** elemento. Para poder insertar una **todos los grupos** nodo, debe cambiar la **tipo de contenido** propiedad de la que contiene **registro** nodo **ComplexContent**. Para obtener más información acerca de **todos los grupos** nodos, consulte [todos los nodos de grupo](../core/all-group-nodes.md).|  
 |**Grupo de atributos**|Inserta un **grupo de atributos** nodo (\<AttrGroup:attrGroup*N* \> en la vista de árbol, donde *N* es un número de progresión continua) en el final de la seleccionada **registro** o **grupo de atributos** nodo. Para obtener más información acerca de **grupo de atributos** nodos, consulte [nodos grupo de atributos](../core/attribute-group-nodes.md).|  
-|**Cualquier elemento**|Inserta un **cualquier elemento** nodo (**\<**cualquier **\>**  en la vista de árbol) al final de la secuencia dentro de la etiqueta **registro** , **Grupo de secuencias**, **grupo de elecciones**, o **todos los grupos** nodo. Para obtener más información acerca de **cualquier elemento** nodos, consulte [nodos cualquier elemento](../core/any-element-nodes.md).|  
-|**Cualquier atributo**|Inserta un **cualquier atributo** nodo (**\<**AnyAttribute **\>**  en la vista de árbol) al final de la secuencia el seleccionado**Registro** o **grupo de atributos** nodo. Para obtener más información acerca de **cualquier atributo** nodos, consulte [nodos cualquier atributo](../core/any-attribute-nodes.md).|  
+|**Cualquier elemento**|Inserta un **cualquier elemento** nodo (**\<** cualquier **\>**  en la vista de árbol) al final de la secuencia dentro de la etiqueta **registro** , **Grupo de secuencias**, **grupo de elecciones**, o **todos los grupos** nodo. Para obtener más información acerca de **cualquier elemento** nodos, consulte [nodos cualquier elemento](../core/any-element-nodes.md).|  
+|**Cualquier atributo**|Inserta un **cualquier atributo** nodo (**\<** AnyAttribute **\>**  en la vista de árbol) al final de la secuencia el seleccionado**Registro** o **grupo de atributos** nodo. Para obtener más información acerca de **cualquier atributo** nodos, consulte [nodos cualquier atributo](../core/any-attribute-nodes.md).|  
   
  En muchos casos, al agregar un nodo simple en el Editor de BizTalk, se agregan varios elementos anidados en la representación XSD correspondiente del esquema. Puesto que estos elementos anidados pueden tener una sintaxis compleja, el uso del Editor de BizTalk para organizar los nodos gráficamente constituye una forma de crear esquemas XSD con menor posibilidad de errores que la edición manual del XSD. Otro factor que hay que tener en cuenta es que, al usar el Editor de BizTalk siempre para construir esquemas XSD, se genera un subconjunto más controlado de XSD en uso en las descripciones de los esquemas.  
   

@@ -1,17 +1,17 @@
 ---
 title: Recibir llamadas de tRFC entrada de SAP mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC calls, receiving using BizTalk Server
 - tRFCs, sample
 ms.assetid: 500eedea-3d27-478c-a64c-903a1fa2b02f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962338"
 ---
 # <a name="receive-inbound-trfc-calls-from-sap-using-biztalk-server"></a>Recibir llamadas de tRFC entrada de SAP con BizTalk Server
 Una llamada al servidor de tRFC es una llamada de servidor RFC transaccional. La orquestación necesita para recibir una solicitud de cambio en un contexto transaccional es similar a la orquestación para recibir cualquier otro RFC entrante enviado desde un sistema SAP. Sin embargo, debe realizar ciertas tareas adicionales para asegurarse de que se reciben las RFC en un contexto transaccional. Para obtener más información acerca de la recepción de una solicitud de cambio entrante desde el sistema SAP mediante la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], consulte [recibir llamadas entrantes de RFC de SAP mediante el uso de BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-inbound-rfc-calls-from-sap-using-biztalk-server.md). Para obtener más información acerca de cómo los [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] admite recibir llamadas de tRFC entrante desde un sistema SAP, consulte [operaciones en tRFCs en SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).  

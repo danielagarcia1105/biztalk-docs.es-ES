@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206068"
 ---
 # <a name="processing-hl7-messages"></a>Procesamiento de mensajes HL7
 Esta sección proporciona información específica acerca de mensajes HL7, incluidos los modos de mensaje, escenarios, tipos de mensaje y el formato de mensaje.  

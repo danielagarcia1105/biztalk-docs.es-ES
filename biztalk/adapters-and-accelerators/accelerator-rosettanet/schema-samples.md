@@ -1,18 +1,18 @@
 ---
 title: Ejemplos de esquema | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK samples, schemas
 - examples, schemas
 - schemas, examples
 ms.assetid: 7d7e696d-935f-4582-b873-c5637673b651
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966154"
 ---
 # <a name="schema-samples"></a>Ejemplos de esquema
 El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK incluye una serie de esquemas XSD para el procesamiento de RNIF y proceso de interfaz de socio (PIP). [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]utiliza estos esquemas para procesar mensajes. Puede modificar estos esquemas para sus propios fines o usarlos para solucionar errores.  

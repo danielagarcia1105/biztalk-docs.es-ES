@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99bd7fbb-64f2-4327-a8ae-ccb574e56150
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963994"
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a>Sintaxis de una instrucción EXECQUERY en SAP
 Puede usar la GUI de SAP para crear consultas seleccionando las tablas que desea consultar, las columnas y el orden que desea incluir en el conjunto de resultados, etcetera gráficamente. El [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] permite a los usuarios ejecutar estas consultas desde una aplicación de ADO.NET proporcionando una operación EXECQUERY que los usuarios pueden utilizar para ejecutar una consulta definida en el sistema SAP.  

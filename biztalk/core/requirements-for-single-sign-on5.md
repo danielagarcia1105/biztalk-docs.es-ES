@@ -1,14 +1,14 @@
 ---
-title: "Requisitos para el inicio de sesión único | Documentos de Microsoft"
-ms.custom: 
+title: Requisitos para el inicio de sesión único | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 318b9977-ce24-48d6-971b-49a059a1bdbc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013027"
 ---
 # <a name="requirements-for-single-sign-on"></a>Requisitos para el inicio de sesión único
 Para usar el inicio de sesión único (SSO), debe tener:  

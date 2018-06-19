@@ -15,7 +15,7 @@ helpviewer_keywords:
 - examples, pipelines
 - messages, correlating to orchestrations
 ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25965258"
 ---
 # <a name="aggregator-biztalk-server-sample"></a>Agregación (ejemplo de BizTalk Server)
 La finalidad de este ejemplo consiste en crear una funcionalidad de agregación de mensaje con orquestaciones y canalizaciones. De forma más específica, crearemos una orquestación que:  
@@ -35,7 +36,7 @@ La finalidad de este ejemplo consiste en crear una funcionalidad de agregación 
 3.  Produce un mensaje de intercambio de XML cada minuto o en cuanto tiene suficientes mensajes para agregar.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\Aggregator  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\Aggregator  
   
  En la tabla siguiente se enumeran los archivos que se usan en el ejemplo.  
   

@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d8fe927-90bf-48fc-a418-63b920b409ed
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967626"
 ---
 # <a name="execute-stored-procedures-having-a-for-xml-clause-in-sql-server-using-biztalk-server"></a>Ejecutar procedimientos almacenados que tengan una cláusula FOR XML en SQL Server con BizTalk Server
 Una instrucción SELECT de SQL puede tener una cláusula FOR XML que devuelve el resultado de la consulta como XML en lugar de un conjunto de filas. También puede tener un procedimiento almacenado que contiene una instrucción SELECT con una cláusula FOR XML. [FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) se proporciona más información.

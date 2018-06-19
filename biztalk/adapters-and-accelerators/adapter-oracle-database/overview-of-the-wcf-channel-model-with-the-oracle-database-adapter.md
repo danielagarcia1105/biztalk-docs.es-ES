@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964272"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-database-adapter"></a>Información general sobre el modelo de canal WCF con el adaptador de la base de datos de Oracle
 Para invocar operaciones en el [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)], el código actúa como un cliente de WCF y envía las operaciones salientes al adaptador. En el modelo de canal WCF, el código invoca las operaciones en el adaptador mediante el envío de un mensaje de solicitud a través de un canal.  

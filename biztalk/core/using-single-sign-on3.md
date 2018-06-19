@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 217a6c344a45d2cd6ae1303913659ae5b81b0814
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013971"
 ---
 # <a name="using-single-sign-on"></a>Mediante el inicio de sesión único
 Microsoft BizTalk Adapter para JD Edwards OneWorld admite el inicio de sesión único (SSO). Una aplicación afiliada creada por herramientas de inicio de sesión único empresarial representa un sistema servidor como JD Edwards OneWorld.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209452"
 ---
 # <a name="step-9-starting-the-contoso-orchestration"></a>Paso 9: Iniciar la orquestación de Contoso
 En este paso completará el proceso de configuración de los puertos mediante la definición de las ubicaciones físicas de origen y de destino. Enlazar los puertos físicos a los puertos lógicos que creó en [paso 7: crear y configurar puertos](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md). A continuación, dará de alta el servicio para asociar el proceso de negocio que ha diseñado en la orquestación con el entorno físico en el que se ejecutará la orquestación. Por último, iniciará la orquestación para que pueda participar en transacciones de negocio con Fabrikam.  

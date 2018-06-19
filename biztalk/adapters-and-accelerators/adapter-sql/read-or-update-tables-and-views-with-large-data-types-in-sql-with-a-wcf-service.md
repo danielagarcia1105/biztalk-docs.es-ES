@@ -1,14 +1,14 @@
 ---
 title: Ejecutar operaciones en tablas y vistas con los tipos de datos grandes en SQL mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d33e17c-e09e-4a57-9acc-43095e67ed8c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967130"
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-in-sql-using-the-wcf-service-model"></a>Ejecutar operaciones en tablas y vistas con los tipos de datos grandes en SQL mediante el modelo de servicio de WCF
 El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] permite a los clientes de adaptador para leer y actualizar datos en columnas de tipos de datos de gran tamaño, es decir, varchar (max), nvarchar (max) o varbinary (max). Para leer datos de esas columnas, los clientes de adaptador pueden usar la operación de selección. Para insertar o actualizar datos en estas columnas, el adaptador expone un conjunto\<*column_name* \> operación, donde \< *column_name* \> es el nombre de la columna de tipo varchar (max), nvarchar (max) o varbinary (max).  
@@ -148,7 +149,7 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
 7.  Invocar la **SetDocument** operación en el **registros** tabla.  
   
     > [!CAUTION]
-    >  El conjunto de*< column_name >* siempre se deben realizar las operaciones en una transacción. Para asegurarse de esto, el conjunto de*< column_name >* se debe invocar la operación dentro de un ámbito de transacción y el **UseAmbientTransaction** enlaza la propiedad debe establecerse en **true**en el archivo app.config.  
+    >  El conjunto de *< column_name >* siempre se deben realizar las operaciones en una transacción. Para asegurarse de esto, el conjunto de *< column_name >* se debe invocar la operación dentro de un ámbito de transacción y el **UseAmbientTransaction** enlaza la propiedad debe establecerse en **true**en el archivo app.config.  
   
     ```  
     using (TransactionScope tx = new TransactionScope())  

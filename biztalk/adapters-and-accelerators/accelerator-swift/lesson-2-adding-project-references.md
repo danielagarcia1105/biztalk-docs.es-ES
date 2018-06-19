@@ -1,17 +1,17 @@
 ---
-title: "Lección 2: Agregar referencias de proyecto | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 2: Agregar referencias de proyecto | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - references [projects]
 - projects, adding references
 ms.assetid: ddc2bf49-cddd-4edb-8043-870897879655
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962218"
 ---
 # <a name="lesson-2-adding-project-references"></a>Lección 2: Agregar referencias de proyecto
 Agregue referencias de proyecto para sus canalizaciones pueden acceder a los esquemas de tiempo de ejecución predeterminado ubicados en el archivo Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll. Este archivo de ensamblado contiene el esquema de encabezado con propiedades promocionadas necesarias para la resolución de tipo de mensaje.  

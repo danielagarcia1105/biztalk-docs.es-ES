@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Realizar pruebas de patrón de carga de paso para determinar el rendimiento máximo sostenible | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Realizar pruebas de patrón de carga de paso para determinar el rendimiento máximo sostenible | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8056ced6-1f04-4be2-878a-48a427a93dad
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302644"
 ---
 # <a name="step-5-perform-step-load-pattern-tests-to-determine-maximum-sustainable-throughput"></a>Paso 5: Realizar pruebas de patrón de carga de paso para determinar el rendimiento máximo sostenible
 El método más sencillo para determinar el rendimiento sostenible máximo (MST) de una solución de BizTalk Server con pruebas de carga de Visual Studio consiste en realizar un modelo de carga de pasos y comparar el número total de documentos recibido por segundo para el total del documento procesada por segundo . Siempre que el promedio total de documentos procesados por segundo es mayor o igual que el promedio total de documentos recibido por segundo para la duración de la prueba, se considera la carga sostenible. Si el promedio total de documentos recibido por segundo es mayor que el promedio total de documentos procesados por segundo para la duración de la prueba, a continuación, la carga no se considera sostenible y esto se detectado por una aumento correspondiente en el valor de la Contador de tamaño de Counters\Spool cuadro: General de BizTalk. Con el tiempo, cuando una aplicación de BizTalk Server recibe los documentos más de los que puede procesar, los documentos sin procesar se acumularán en la base de datos de cuadro de mensajes, que se puede producir una condición de limitación y degradar significativamente el rendimiento de la Aplicación de BizTalk Server.  

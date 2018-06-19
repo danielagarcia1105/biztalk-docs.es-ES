@@ -1,15 +1,15 @@
 ---
 title: Configurar el feature pack | Documentos de Microsoft
-description: "Instalar y configurar feature pack de 1 y 2 del paquete de características. Ver la lista de características nuevas, como administración de API, implementación de servicios de equipo, nuevos adaptadores de Azure, las copias de seguridad etc. en BizTalk Server 2016"
-ms.custom: 
+description: Instalar y configurar feature pack de 1 y 2 del paquete de características. Ver la lista de características nuevas, como administración de API, implementación de servicios de equipo, nuevos adaptadores de Azure, las copias de seguridad etc. en BizTalk Server 2016
+ms.custom: ''
 ms.date: 11/22/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1027bfa6-49b9-4f58-a2e2-3e0ae2fc3bf3
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/23/2017
+ms.locfileid: "25550763"
 ---
 # <a name="configure-the-feature-pack"></a>Configurar el feature pack
 

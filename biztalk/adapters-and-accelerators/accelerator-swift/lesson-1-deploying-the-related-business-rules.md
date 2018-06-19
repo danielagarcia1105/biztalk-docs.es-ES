@@ -1,17 +1,17 @@
 ---
-title: "Lección 1: Implementar las reglas de negocios relacionados | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 1: Implementar las reglas de negocios relacionados | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, deploying
 - deploying, business rules
 ms.assetid: f8f5b103-4b66-4836-8165-99692574961a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960770"
 ---
 # <a name="lesson-1-deploying-the-related-business-rules"></a>Lección 1: Implementar las reglas de negocios relacionadas
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye un programa en el Kit de desarrollo de Software de A4SWIFT (SDK) llamado a la utilidad de implementación del motor de reglas de negocios (BRE). En esta lección, use esta utilidad para examinar un ensamblado para esquemas implementados, determinar las reglas requeridas e implementar los vocabularios necesarios y directivas para cada esquema.  

@@ -1,17 +1,17 @@
 ---
 title: 'Paso 2: Crear Fabrikam LOBWebApplication | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private process tutorial, creating LOBWebApplication
 - LOBWebApplication
 ms.assetid: 2ff8bd20-7fbc-4e16-b177-bb4afac7f7c3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964330"
 ---
 # <a name="step-2-creating-the-fabrikam-lobwebapplication"></a>Paso 2: Crear el Fabrikam LOBWebApplication
 En este paso, creará la aplicación de LOB que Fabrikam usa para enviar una solicitud PIP 3A2 a Contoso. El proyecto LOBWebApplication está instalado en el [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Para ejecutar la aplicación Web, tendrá que crear un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] directorio virtual de Internet Information Services (IIS) y compile el proyecto LOBWebApplication.  
@@ -34,7 +35,7 @@ En este paso, creará la aplicación de LOB que Fabrikam usa para enviar una sol
     > [!NOTE]
     >  Si ya ha hecho el tutorial de doble acción, ya habrá creado el directorio virtual LOBWebApplication para este tutorial. Si es así, no es necesario llevar a cabo estos pasos. Sin embargo, tendrá que cambiar los permisos para el directorio virtual de **ejecutar secuencias de comandos** a **lectura**.  
   
-2.  En el Administrador de Internet Information Services, expanda **< nombre_equipo > (equipo local)**y, a continuación, expanda **sitios Web**.  
+2.  En el Administrador de Internet Information Services, expanda **< nombre_equipo > (equipo local)** y, a continuación, expanda **sitios Web**.  
   
 3.  Haga clic con el botón secundario en **Sitio Web predeterminado**, elija **Nuevo**y, a continuación, haga clic en **Directorio virtual**.  
   

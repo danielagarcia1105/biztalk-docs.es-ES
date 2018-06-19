@@ -1,14 +1,14 @@
 ---
 title: ValidationAdapter | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fe99350-14c0-4ddb-b257-af9a0c4258f6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966442"
 ---
 # <a name="validationadapter"></a>ValidationAdapter
 El ejemplo ValidationAdapter muestra cómo ejecutar las reglas de validación especiales en un mensaje en un proceso público de servicio de respuesta. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] realiza la validación en el envío o recepción canalización, de forma nativa y en orquestaciones. Si desea realizar una validación adicional, puede crear un adaptador de validación. La validación adicional podría incluir la validación de campos cruzados o las reglas de validación específicos del negocio que no se implementan mediante un XSD.  

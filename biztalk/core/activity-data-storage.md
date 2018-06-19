@@ -1,11 +1,11 @@
 ---
 title: Almacenamiento de datos de actividad | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - databases [BAM], partitioning
 - BAM, performance
 ms.assetid: 1f736599-3d16-496e-a459-8b0507d57fcb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967026"
 ---
 # <a name="activity-data-storage"></a>Almacenamiento de datos de actividad
 Este tema describe el almacenamiento de datos de actividad, los problemas de rendimiento provocados con el tiempo por el crecimiento de las tablas de actividad y cómo BAM soluciona estos problemas de rendimiento con tablas diferentes de las actividades en ejecución y las completadas. Este tema también describe la ventana en línea para la realización de consultas de datos y la forma en la que puede realizar particiones en BAM para obtener una mejora del rendimiento.  

@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Crear una prueba unitaria para enviar documentos a BizTalk Server | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688b14e4-bb16-4d12-86b8-37b8b6808472
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302700"
 ---
 # <a name="step-1-create-a-unit-test-to-submit-documents-to-biztalk-server"></a>Paso 1: Crear una prueba unitaria para enviar documentos a BizTalk Server
 Servidores de aplicaciones del equipo como el servidor BizTalk Server están diseñados para realizar determinadas tareas en nombre de los usuarios. Estas tareas se inician como las solicitudes de cliente que se envían al servidor de aplicaciones como mensajes que cumplan con un estándar que entienda el servidor de aplicaciones, a través de un protocolo que entienda el servidor de aplicaciones. Por ejemplo, los clientes pueden iniciar el procesamiento de correo electrónico mediante el envío de mensajes de correo electrónico de internet a un servidor de correo electrónico a través del protocolo SMTP. Del mismo modo, procesan los servidores web cliente HTML o las solicitudes ASP, servidores de base de datos procesan las solicitudes de cliente SQL y BizTalk Server puede procesar mensajes de cliente con un formato conforme a varios estándares de mensaje del sector mediante varios protocolos estándar del sector. Normalmente, la capacidad de carga de trabajo de un servidor de aplicaciones se mide por el número de mensajes que el servidor de aplicaciones puede procesar en un período de tiempo determinado. La capacidad de carga de trabajo de BizTalk Server del mismo modo se mide como el número medio de "documentos recibidos por segundo", "documentos procesados por segundo" y "orquestaciones completadas por segundo" durante un período prolongado de tiempo, por ejemplo, un día de trabajo o incluso un semana laboral. Funcionalidad de prueba de carga de Visual Studio 2010 puede simular un perfil de carga de hasta cientos de usuarios que acceden al mismo tiempo a una aplicación de servidor. Esta funcionalidad de la prueba de carga proporciona métricas de tiempo real para los indicadores clave de rendimiento seleccionado, así como la capacidad para almacenar estas métricas en una base de datos para su posterior análisis. Pruebas de este describe el uso de proyectos de prueba de Visual Studio con el fin de una aplicación de BizTalk Server, incluido cómo crear unidad de prueba de carga de documento, cómo crear pruebas de carga y cómo configurar las pruebas de carga para capturar datos del contador de rendimiento necesarios para determinar el rendimiento sostenible máximo (MST) de una aplicación de BizTalk Server.  
@@ -40,7 +41,7 @@ Servidores de aplicaciones del equipo como el servidor BizTalk Server están dis
   
 4.  Establecer el **idioma predeterminado del proyecto de prueba:** a **proyecto de prueba de Visual C#**.  
   
-5.  En la opción de **seleccionar los archivos que se agregará a cada nuevo proyecto de prueba, de forma predeterminada:** seleccione **proyecto de prueba de Visual C#**y desactive todos los tipos de prueba de Visual C# de proyectos excepto deprueba **Prueba unitaria**.  
+5.  En la opción de **seleccionar los archivos que se agregará a cada nuevo proyecto de prueba, de forma predeterminada:** seleccione **proyecto de prueba de Visual C#** y desactive todos los tipos de prueba de Visual C# de proyectos excepto deprueba **Prueba unitaria**.  
   
 6.  Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Opciones** .  
   
@@ -50,7 +51,7 @@ Servidores de aplicaciones del equipo como el servidor BizTalk Server están dis
   
 2.  En Visual Studio 2010, haga clic en **archivo**, seleccione **New**y haga clic en **proyecto** para mostrar la **nuevo proyecto** cuadro de diálogo.  
   
-3.  En **plantillas instaladas** haga clic para expandir **Visual C#**y haga clic en **prueba**.  
+3.  En **plantillas instaladas** haga clic para expandir **Visual C#** y haga clic en **prueba**.  
   
 4.  En la parte inferior de la **nuevo proyecto** cuadro de diálogo especificar las siguientes opciones:  
   

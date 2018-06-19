@@ -1,14 +1,14 @@
 ---
 title: Utilice los contadores de rendimiento con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b928eaf-2ab6-40a6-a1dd-804d4e89541e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966274"
 ---
 # <a name="use-performance-counters-with-the-wcf-lob-adapter-sdk"></a>Utilice los contadores de rendimiento con el SDK de adaptador LOB de WCF
 Puede usar la herramienta de rendimiento para recopilar automáticamente datos de rendimiento de equipos locales o remotos que ejecutan el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. Puede definir el inicio y detener tiempos de generación automática de registros, administrar varias sesiones de registro desde una sola ventana de consola y establecer una alerta en un equipo que permite que se envíe un mensaje o un registro para iniciarse cuando se cumplen los criterios. Este tema describen los contadores de rendimiento para el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  

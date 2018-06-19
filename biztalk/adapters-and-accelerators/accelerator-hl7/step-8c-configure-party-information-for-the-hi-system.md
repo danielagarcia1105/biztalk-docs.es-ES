@@ -1,14 +1,14 @@
 ---
-title: "Paso 8C: configurar la información de entidad para el sistema de HI | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 8C: configurar la información de entidad para el sistema de HI | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ac5c113-7ee7-4009-8ca3-d263f74c7a8d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961076"
 ---
 # <a name="step-8c-configure-party-information-for-the-hi-system"></a>Paso 8C: configurar la información de entidad para el sistema de alta
 En este paso, configurará la información de entidad para el sistema de alta.  

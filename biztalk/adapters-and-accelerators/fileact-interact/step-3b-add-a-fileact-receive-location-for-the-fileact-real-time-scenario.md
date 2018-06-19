@@ -1,14 +1,14 @@
 ---
-title: "Paso 3B: agregar un FILEACT ubicación de recepción para el escenario en tiempo real de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3B: agregar un FILEACT ubicación de recepción para el escenario en tiempo real de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e086c86-1525-4cef-b7e5-a66e14bd8d4f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965826"
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-real-time-scenario"></a>Paso 3B: agregar un FILEACT ubicación de recepción para el escenario en tiempo real de FileAct
 Antes de comenzar este paso, debe completar [paso 3A: agregar una ubicación de recepción de archivo para el escenario de en tiempo real de FileAct](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md).  

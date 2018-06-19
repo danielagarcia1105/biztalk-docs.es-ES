@@ -1,17 +1,17 @@
 ---
-title: "Paso 1: Agregar un proyecto de BizTalk existente a la solución existente de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Agregar un proyecto de BizTalk existente a la solución existente de Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, adding to solutions
 - private process tutorial, adding projects to solutions
 ms.assetid: 9e84d282-01aa-4611-8462-c1acef234042
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963954"
 ---
 # <a name="step-1-adding-an-existing-biztalk-project-to-the-existing-contoso-solution"></a>Paso 1: Agregar un proyecto de BizTalk existente a la solución existente de Contoso
 El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK contiene una orquestación de procesos privados que actúa como un buen punto de partida al personalizar sus propios procesos privados. En este paso, se agrega esa orquestación a la solución y cambie el nombre de ensamblado para evitar el conflicto con la orquestación PrivateResponder que se instalan durante el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] instalación. Antes de empezar, abra la solución de Contoso que creó en [paso 1: crear una nueva solución de BizTalk para los Contoso Price y solicitudes de disponibilidad](../../adapters-and-accelerators/accelerator-rosettanet/step-1-create-new-biztalk-solution-for-contoso-price-and-availability-request.md).  

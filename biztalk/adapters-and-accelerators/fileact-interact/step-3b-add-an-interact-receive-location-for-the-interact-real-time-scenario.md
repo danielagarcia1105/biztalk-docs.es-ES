@@ -1,14 +1,14 @@
 ---
-title: "Paso 3B: agregar un INTERACTÚE ubicación de recepción para el escenario en tiempo real de interactuar | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3B: agregar un INTERACTÚE ubicación de recepción para el escenario en tiempo real de interactuar | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59780635-e1b6-4e74-a89a-73ec26d6c670
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966306"
 ---
 # <a name="step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario"></a>Paso 3B: agregar un INTERACTÚE ubicación de recepción para el escenario en tiempo real de interactuar
 Completa [paso 3A: agregar una ubicación de recepción de archivo para el escenario de en tiempo real interactuar](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario.md) antes de comenzar este paso.

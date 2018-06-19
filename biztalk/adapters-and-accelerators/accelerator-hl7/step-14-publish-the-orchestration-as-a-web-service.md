@@ -1,11 +1,11 @@
 ---
-title: "Paso 14: La orquestación como un servicio Web de publicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 14: La orquestación como un servicio Web de publicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - publishing, Web services
 - message enrichment tutorial, Web services
 ms.assetid: 8f29a7be-a679-4ca6-a648-35338d9e9e98
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962194"
 ---
 # <a name="step-14-publish-the-orchestration-as-a-web-service"></a>Paso 14: Publicar la orquestación como servicio Web
 En este paso, usa al Asistente para publicación de servicios Web de BizTalk para publicar una orquestación como un servicio Web.  

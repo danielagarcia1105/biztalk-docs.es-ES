@@ -1,11 +1,11 @@
 ---
 title: Mantener las tablas de base de datos sin repudio | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - databases, purging
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - databases, maintaining
 - non-repudiation, database
 ms.assetid: 29222510-325b-4cd7-854b-6f548a63fd08
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210612"
 ---
 # <a name="maintaining-the-non-repudiation-database-tables"></a>Mantener las tablas de base de datos sin repudio
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] almacena los mensajes para fines sin repudio en las tablas MessageStorageIn y MessageStorageOut de la base de datos BTARNArchive. Muchos mensajes en estas tablas pueden afectar al rendimiento del sistema. Puede que desee mantener estas tablas de base de datos sin repudio periódicamente purgar y archivar los mensajes de dichas tablas, según corresponda.  

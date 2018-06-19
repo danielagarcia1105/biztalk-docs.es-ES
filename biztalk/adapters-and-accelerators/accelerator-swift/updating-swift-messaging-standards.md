@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214052"
 ---
 # <a name="updating-swift-messaging-standards"></a>Actualización estándar de mensajería SWIFT
 La sociedad para todo el mundo bancos vinculados financieros telecomunicaciones (SWIFT) actualiza sus estándares mensajes anualmente como los servicios financieros propone y adopta los cambios en los estándares del sector. Cuando SWIFT actualiza su guía de la versión de estándares, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] esquemas y las directivas del BRE deben actualizarse para que se ajuste a las especificaciones de SWIFT más recientes.  

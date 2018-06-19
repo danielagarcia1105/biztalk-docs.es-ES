@@ -1,14 +1,14 @@
 ---
-title: "Cómo ajustar el intervalo de actualización de caché de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ajustar el intervalo de actualización de caché de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63c6c998-e9c0-48f1-a36a-f1fcb916321b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297884"
 ---
 # <a name="how-to-adjust-the-configuration-cache-refresh-interval"></a>Cómo ajustar el intervalo de actualización de caché de configuración
 El intervalo de actualización de caché de configuración define el período de tiempo en el que BizTalk Server actualiza la configuración de los puntos de conexión. Cuando se inicia el servidor BizTalk Server, todos los elementos de administración de BizTalk Server, como bases de datos de cuadro de mensajes, propiedades del servidor, adaptadores y conexiones a la base de datos de seguimiento se almacenan en la caché de configuración. Se actualizan todos los elementos de la memoria caché por el intervalo de actualización de configuración. De forma predeterminada, esto es cada 60 segundos, excepto para las conexiones de base de datos de servidor y las propiedades del servidor. Esto significa que si cambia las propiedades generales de un grupo de BizTalk, como el host de SMTP, los cambios se recogen en 60 segundos. No se reflejan los cambios realizados fuera de la instancia abierta actualmente de la consola de administración de BizTalk Server en el sistema hasta que los actualice.  

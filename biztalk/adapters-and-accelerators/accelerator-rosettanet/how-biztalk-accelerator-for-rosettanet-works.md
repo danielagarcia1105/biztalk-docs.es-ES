@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209404"
 ---
 # <a name="how-biztalk-accelerator-for-rosettanet-works"></a>Cómo funciona el Acelerador de BizTalk para RosettaNet
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporciona una solución de fabricación de alta tecnología a partir de [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Para ello, proporciona compatibilidad con RosettaNet Implementation Framework (RNIF) y procesos de interfaz de socio (PIP) y agregar componentes que personalización el mensaje de procesamiento a las aplicaciones de fabricación de alta tecnología.  

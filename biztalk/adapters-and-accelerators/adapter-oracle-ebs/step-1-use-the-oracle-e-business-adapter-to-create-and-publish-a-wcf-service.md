@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Usar el adaptador de Oracle E-Business para crear y publicar un servicio WCF | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cd76f6f-600f-4eb5-8eee-8f3604d0fef4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967802"
 ---
 # <a name="step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service"></a>Paso 1: Usar el adaptador de Oracle E-Business para crear y publicar un servicio WCF
 ![Paso 1 de 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -48,7 +49,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  En el **nuevo proyecto** cuadro de diálogo, desde el **tipos de proyecto** panel, seleccione **Visual C#**. Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.  
   
-     Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#**y, a continuación, seleccione **Web**. Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.  
+     Asimismo, desde el **tipos de proyecto** panel, expanda **Visual C#** y, a continuación, seleccione **Web**. Desde el **plantillas** panel, seleccione **servicio de adaptador de WCF**.  
   
      ![Cuadro de diálogo nuevo proyecto](../../adapters-and-accelerators/adapter-oracle-ebs/media/01-new-project.gif "01_New_Project")  
   

@@ -1,11 +1,11 @@
 ---
 title: 'Paso 3: Importar Public y Private certificados | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public certificates
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - double action tutorial, importing certificates
 - certificates, importing
 ms.assetid: 955bdd69-9fbc-4100-ab8a-8f5dd4a17cbb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966954"
 ---
 # <a name="step-3-importing-public-and-private-certificates"></a>Paso 3: Importar Public y Private certificados
 En este paso, importar los certificados se crean en [paso 2: crear pública y privada certificados &#91; RN3 &#93; ](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md) a los equipos de Contoso y Fabrikam. Cada equipo importa sus propios certificados privadas e importa los certificados públicos de la otra organización.  
@@ -36,7 +37,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
   
 2.  En el símbolo del sistema, vaya a  **\<**  *unidad***\>: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, presione **ENTRAR**.  
   
-3.  En el símbolo del sistema, escriba **CertWizard /Privatekey "\<***unidad***\>: \Certs\Contoso Encryption.pfx privada"**y, a continuación, presione **Escriba**.  
+3.  En el símbolo del sistema, escriba **CertWizard /Privatekey "\<***unidad***\>: \Certs\Contoso Encryption.pfx privada"** y, a continuación, presione **Escriba**.  
   
 4.  En el **escriba la contraseña para el archivo de certificado** escriba **mysecret**y, a continuación, presione **ENTRAR**.  
   
@@ -45,7 +46,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
     > [!NOTE]
     >  Si su BizTalkServerApplication se ejecuta con un nombre de cuenta que no sea HostSvc, el símbolo del sistema debe ser diferente.  
   
-6.  En el **este certificado principal se usará para** escriba **d.**y, a continuación, presione **ENTRAR**.  
+6.  En el **este certificado principal se usará para** escriba **d.** y, a continuación, presione **ENTRAR**.  
   
      El CertWizard importa el certificado en el almacén de \Personal\Certificates para las cuentas de usuario que se ejecutan los hosts AplicaciónBizTalkServer y BizTalkServerIsolatedHost en.  
   
@@ -57,7 +58,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
   
 2.  En el símbolo del sistema, vaya a  *\<unidad\>***: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, Presione **ENTRAR**.  
   
-3.  En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Fabrikam Encryption.cer pública"**y, a continuación, presione  **Escriba**.  
+3.  En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Fabrikam Encryption.cer pública"** y, a continuación, presione  **Escriba**.  
   
 4.  Repita el paso 3 para el certificado público Signature.cer de Fabrikam.  
   
@@ -69,7 +70,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
   
 3.  En el símbolo del sistema, vaya a  *\<unidad\>***: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, Presione **ENTRAR**.  
   
-4.  En el símbolo del sistema, escriba **CertWizard /Privatekey "***\<unidad\>***: \Certs\Fabrikam Encryption.pfx privada"**y, a continuación, presione **Escriba**.  
+4.  En el símbolo del sistema, escriba **CertWizard /Privatekey "***\<unidad\>***: \Certs\Fabrikam Encryption.pfx privada"** y, a continuación, presione **Escriba**.  
   
 5.  En el **escriba la contraseña para el archivo de certificado** escriba **mysecret**y, a continuación, presione **ENTRAR**.  
   
@@ -78,7 +79,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
     > [!NOTE]
     >  Si su BizTalkServerApplication se ejecuta con un nombre de cuenta que no sea HostSvc, el símbolo del sistema debe ser diferente.  
   
-7.  En el **este certificado principal se usará para** escriba **d.**y, a continuación, presione **ENTRAR**.  
+7.  En el **este certificado principal se usará para** escriba **d.** y, a continuación, presione **ENTRAR**.  
   
      El CertWizard importa el certificado en el almacén de \Personal\Certificates para las cuentas de usuario que se ejecutan los hosts AplicaciónBizTalkServer y BizTalkServerIsolatedHost en.  
   
@@ -90,7 +91,7 @@ En este paso, importar los certificados se crean en [paso 2: crear pública y pr
   
 2.  En el símbolo del sistema, vaya a  *\<unidad\>***: \Program BizTalk \<versión\> Acelerador para RosettaNet\SDK** y, a continuación, Presione **ENTRAR**.  
   
-3.  En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Contoso Encryption.cer pública"**y, a continuación, presione  **Escriba**.  
+3.  En el símbolo del sistema, escriba **/PublicKey CertWizard "***\<unidad\>***: \Certs\Contoso Encryption.cer pública"** y, a continuación, presione  **Escriba**.  
   
 4.  Repita el paso 3 para el certificado público Signature.cer de Contoso.  
   

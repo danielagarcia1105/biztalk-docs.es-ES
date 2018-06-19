@@ -1,17 +1,17 @@
 ---
 title: Asistente para registro del adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - utilities, Adapter Registration Wizard
 - Adapter Registration Wizard
 ms.assetid: bd15d0c7-01bb-41f9-9157-cdcf4bb4e39a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965322"
 ---
 # <a name="adapter-registry-wizard"></a>Asistente para registro del adaptador
 Usar al Asistente para registro del adaptador para crear los archivos de registro necesarios para configurar y registrar un adaptador personalizado.  
   
 ## <a name="location-in-sdk"></a>Ubicación en SDK  
- *\<Ruta de acceso de instalación\>*\SDK\Utilities\AdapterRegistryWizard\  
+ *\<Ruta de acceso de instalación\>* \SDK\Utilities\AdapterRegistryWizard\  
   
 ## <a name="to-run-this-utility"></a>Para ejecutar esta utilidad  
  Inicie el asistente mediante la ejecución de AdapterRegistryWizard.exe. Las páginas siguientes solicitan información acerca del adaptador y de las propiedades que admite. Las páginas del Asistente para el Registro del adaptador se describen en las secciones siguientes.  

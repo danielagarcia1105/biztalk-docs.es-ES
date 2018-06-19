@@ -1,14 +1,14 @@
 ---
 title: Optimizar el rendimiento del motor (BRE) de regla de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c271b059-174d-4e8b-88b5-c3f408a97f1f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298932"
 ---
 # <a name="optimizing-business-rule-engine-bre-performance"></a>Optimizar el rendimiento del motor (BRE) de regla de negocios
 Al implementar el motor de reglas de negocios (BRE) en una solución de BizTalk Server, deben tener en cuenta los siguientes factores:  

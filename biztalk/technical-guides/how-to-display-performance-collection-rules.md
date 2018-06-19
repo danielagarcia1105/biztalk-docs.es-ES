@@ -1,14 +1,14 @@
 ---
-title: "Cómo mostrar las reglas de recopilación de rendimiento | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mostrar las reglas de recopilación de rendimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 546aa853-c372-4e26-a1ed-19294c658583
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298188"
 ---
 # <a name="how-to-display-performance-collection-rules"></a>Cómo mostrar las reglas de recopilación de rendimiento
 Para mostrar las reglas de recopilación de rendimiento, utilice la secuencia de comandos de esta sección. Este script funciona para la mayoría de las reglas. Crea un archivo .csv que incluye las columnas enumeradas en la siguiente tabla y puede verse mediante Office Excel.  

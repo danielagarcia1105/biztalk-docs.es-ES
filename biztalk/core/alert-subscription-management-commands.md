@@ -1,14 +1,14 @@
 ---
-title: "Comandos de administración de suscripciones de alerta | Documentos de Microsoft"
-ms.custom: 
+title: Comandos de administración de suscripciones de alerta | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4cd6ad27-6217-466a-b616-4b26fb31b0af
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966658"
 ---
 # <a name="alert-subscription-management-commands"></a>Comandos de administración de suscripciones de alertas
 Los comandos de administración de suscripciones de la utilidad de administración de BAM permiten trabajar con suscripciones de alertas.  

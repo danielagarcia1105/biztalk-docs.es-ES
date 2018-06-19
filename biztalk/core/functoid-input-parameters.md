@@ -1,14 +1,14 @@
 ---
-title: "Parámetros de entrada de functoid | Documentos de Microsoft"
-ms.custom: 
+title: Parámetros de entrada de functoid | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cca24f93-74a8-460c-b9ab-9aa2c767fe2f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968514"
 ---
 # <a name="functoid-input-parameters"></a>Parámetros de entrada de functoid
 Un aspecto crucial de la utilización de functoids en las asignaciones es la correcta configuración de los parámetros de entrada del functoid. Aunque el orden de los parámetros de entrada no es crítico para todos los functoids (como el **adición** functoid, que muestra el mismo propiedades de asociación que cabe esperar de la suma), muchos functoids deben tener sus parámetros de entrada especificado en el orden correcto.  

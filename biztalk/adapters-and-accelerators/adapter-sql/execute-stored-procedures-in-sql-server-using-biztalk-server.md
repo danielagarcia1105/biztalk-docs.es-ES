@@ -1,14 +1,14 @@
 ---
 title: Ejecutar procedimientos almacenados en SQL Server mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4329a5c1-4df9-4bf7-8a9f-e3c19cb368fb
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966698"
 ---
 # <a name="execute-stored-procedures-in-sql-server-using-biztalk-server"></a>Ejecutar procedimientos almacenados en SQL Server con BizTalk Server
 El [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] presenta los procedimientos de la base de datos de SQL Server como operaciones. Los clientes de adaptador pueden invocar los procedimientos mediante el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [ejecutar los procedimientos almacenados de SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/execute-stored-procedures-in-sql-server-using-the-sql-adapter.md). Para obtener información acerca de la estructura del mensaje SOAP para estas operaciones, vea [esquemas de mensaje para los procedimientos y funciones](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).  

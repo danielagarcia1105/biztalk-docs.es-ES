@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964994"
 ---
 # <a name="step-3-creating-the-contoso-lob-application-maps-for-the-price-and-availability-project-using-biztalk-mapper"></a>Paso 3: Crear las asignaciones de aplicación de LOB de Contoso para el precio y el proyecto de disponibilidad mediante el asignador de BizTalk
 En este paso, creará dos asignaciones que definen la transformación debe intercambiar correctamente los mensajes entre los dos socios comerciales. En este escenario, el sistema ERP de Contoso ya ha estandarizado en un formato de mensaje para una solicitud de precio y disponibilidad. Los dos mapas asignarán los mensajes de solicitud y respuesta del socio comercial, Fabrikam, a y desde los mensajes de Contoso definidos internamente, respectivamente.  

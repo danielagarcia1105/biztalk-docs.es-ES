@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37bdf6bd-cb34-4540-819e-908d83a22d40
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22298140"
 ---
 # <a name="how-to-avoid-disk-contention"></a>Cómo evitar la contención del disco
 BizTalk Server está diseñado como un sistema permanente. Para escenarios de alto rendimiento, las bases de datos de cuadro de mensaje y seguimiento de BizTalk pueden sufrir contenciones severas. Esta contención puede verse agravada por discos lentos. Si los discos son lenta (mayor que 15 ms en promedio para el tiempo medio En segundos/lectura o AVG. En segundos/escritura en disco), es posible que SQL Server para almacenar bloqueos durante más tiempo (tiempo de espera de bloqueo de alta y alta tiempos de espera de bloqueo). Esto, a su vez, puede producir las tablas de cuadro de mensajes (cola de impresión y colas de aplicaciones) a crecer, provocando inundación de base de datos y la limitación. Esta situación se produce en última instancia en el rendimiento global sostenible inferior.  

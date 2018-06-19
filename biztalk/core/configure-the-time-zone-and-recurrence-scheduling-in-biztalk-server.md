@@ -1,14 +1,14 @@
 ---
-title: "Configurar la zona horaria y la programación de periodicidad en BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Configurar la zona horaria y la programación de periodicidad en BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60ae7be-747e-4034-8b99-46bd7e25fe67
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497773"
 ---
 # <a name="configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server"></a>Configurar la zona horaria y la programación de periodicidad en BizTalk Server
 Establecer la zona horaria y configurar una programación de periodicidad en sus ubicaciones de recepción en [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 

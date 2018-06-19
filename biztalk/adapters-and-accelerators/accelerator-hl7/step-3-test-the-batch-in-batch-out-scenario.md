@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3: Probar el lote en lote escenario | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c487d39d-b2be-41d4-963e-d0ee9ba169fb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960802"
 ---
 # <a name="step-3-test-the-batch-inbatch-out-scenario"></a>Paso 3: Probar el lote / escenario de lote
 En este paso, comprobará que el lote en / lote Out tutorial quitar por una instancia de prueba del lote en / lote mensaje en una carpeta. El puerto de envío que configuró enviará el mensaje, el puerto de recepción recibirá y la canalización de recepción lo procesará y lo coloque en la carpeta de destino.  

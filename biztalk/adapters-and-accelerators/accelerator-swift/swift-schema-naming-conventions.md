@@ -11,7 +11,7 @@ helpviewer_keywords:
 - naming conventions [schemas]
 - schemas, naming conventions
 ms.assetid: 3c1f2519-2575-4178-89c1-e97333c1e6bd
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25960826"
 ---
 # <a name="swift-schema-naming-conventions"></a>Convenciones de nomenclatura de esquema SWIFT
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye los esquemas para la sociedad para los mensajes FIN de telecomunicaciones financieros bancos vinculados (SWIFT) en todo el mundo que se crearon con el Editor de BizTalk. Estos esquemas son compatibles con las siguientes convenciones a lo largo de:  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/28/2018
   
 -   Dentro de cada esquema de mensaje, el nombre de la raíz es **SWIFT_CATEGORY*z*_MT*zxx*_Interchange**, donde *z* es la categoría de mensaje () primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.  
   
--   El espacio de nombres de destino para cada esquema de mensaje **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx ***, donde *z* es la categoría de mensaje (primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.  
+-   El espacio de nombres de destino para cada esquema de mensaje **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z */MT*zxx ***, donde *z* es la categoría de mensaje (primer dígito del tipo de mensaje) y *zxx* es el tipo de mensaje.  
   
 -   El tipo de documento es **MT*zxx ***, donde *zxx* es el tipo de mensaje.  
   

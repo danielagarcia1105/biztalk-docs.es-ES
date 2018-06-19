@@ -1,18 +1,18 @@
 ---
-title: "Un único inicio de sesión y el adaptador de BizTalk para JD Edwards EnterpriseOne | Documentos de Microsoft"
-ms.custom: 
+title: Un único inicio de sesión y el adaptador de BizTalk para JD Edwards EnterpriseOne | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, Single Sign-On
 - Single Sign-On, JD Edwards EnterpriseOne adapters
 - adapters [JD Edwards EnterpriseOne adapters], Single Sign-On
 ms.assetid: efcc3a2d-18a6-4090-9e95-143fb7a356b2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015819"
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone"></a>Inicio de sesión único y adaptador de BizTalk para JD Edwards EnterpriseOne
 Si usa el inicio de sesión único (SSO) con el adaptador de Microsoft para JD Edwards EnterpriseOne, el adaptador obtiene las credenciales de la base de datos de credenciales de SSO. Por lo tanto, no es necesario que especifique las credenciales de inicio de sesión para el sistema de servidor en el **propiedades de transporte** cuadro de diálogo.  

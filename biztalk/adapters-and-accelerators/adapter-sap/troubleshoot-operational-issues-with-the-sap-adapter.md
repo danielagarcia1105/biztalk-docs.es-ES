@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de funcionamiento con el adaptador SAP en BizTalk | Documentos de Microsoft
-description: "Comunes de los errores, problemas y soluciones con mySAP adaptador en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Comunes de los errores, problemas y soluciones con mySAP adaptador en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb0f005b-7548-478b-8243-69e07c29d02c
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967514"
 ---
 # <a name="troubleshoot-operational-issues-with-the-sap-adapter"></a>Solucionar problemas de funcionamiento con el adaptador SAP
 Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

@@ -1,15 +1,15 @@
 ---
 title: Los identificadores de nodo de metadatos para el adaptador SQL en BizTalk Adapter Pack | Documentos de Microsoft
-description: "Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en los componentes SQL que se exponen en el adaptador de SQL Server - módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Metadatos, búsqueda, tipos de nodos de recuperación e identificadores utilizados en los componentes SQL que se exponen en el adaptador de SQL Server - módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8601a328-5380-4577-a121-c926e0fd3140
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967994"
 ---
 # <a name="node-types-and-ids-for-the-sql-server-adapter"></a>Tipos de nodo e identificadores para el adaptador de SQL Server
 

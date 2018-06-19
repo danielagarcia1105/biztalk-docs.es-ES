@@ -1,18 +1,18 @@
 ---
-title: "Paso 1: Crear la organización principal de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Crear la organización principal de Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating home organizations
 - creating, home organizations
 - home organizations, creating
 ms.assetid: 0e7a53b9-ae59-4cd1-88bd-0ada7e65acba
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961450"
 ---
 # <a name="step-1-creating-the-contoso-home-organization"></a>Paso 1: Crear la organización principal de Contoso
 En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear la organización propia de Contoso.  

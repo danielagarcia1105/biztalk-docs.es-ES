@@ -16,6 +16,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "23450533"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-adapters-for-enterprise-applications"></a>Instalar y configurar Microsoft BizTalk Adapters para aplicaciones empresariales 
   
@@ -544,7 +545,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 6.  Seleccione el **GET_CI_INFO** interfaz de componente y, a continuación, haga clic en **editar**.  
   
-7.  Para establecer los métodos en **acceso completo**, haga clic en **acceso completo (todos)**y, a continuación, haga clic en **Aceptar**.  
+7.  Para establecer los métodos en **acceso completo**, haga clic en **acceso completo (todos)** y, a continuación, haga clic en **Aceptar**.  
   
 8.  Desplácese hasta la parte inferior de la **Interfaces de componentes** ventana y, a continuación, haga clic en **guardar**.  
   

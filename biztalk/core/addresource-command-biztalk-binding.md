@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Enlace de BizTalk | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69c732d3-82c8-4615-b68f-ed29b54ebbf3
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966786"
 ---
 # <a name="addresource-command-biztalk-binding"></a>El comando AddResource: Enlace de BizTalk
 Para agregar un archivo de enlace a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: biztalkbinding** para el **tipo** parámetro. Cuando agrega un archivo de enlace, puede especificar un entorno de implementación para él. Cuando importa posteriormente la aplicación, puede seleccionar este entorno de implementación para aplicar los enlaces. Puede agregar cualquier número de archivos de enlace a una aplicación de BizTalk, cada uno personalizado para un entorno de implementación diferente. Para agregar varios archivos de enlace, ejecute este comando para cada archivo que desee agregar.  

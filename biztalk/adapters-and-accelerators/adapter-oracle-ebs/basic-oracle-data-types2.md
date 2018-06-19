@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25967106"
 ---
 # <a name="basic-oracle-data-types"></a>Tipos de datos de Oracle básica
 Este tema se describe cómo la [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone los tipos de datos básicos de Oracle.  
@@ -57,7 +58,7 @@ Este tema se describe cómo la [!INCLUDE[adapteroracleebusinesslong](../../inclu
 |Binario doble **|xsd: Double si prec < = 15<br /><br /> xsd: String si prec > 15|Doble<br /><br /> String|-|  
 |Entero binario **|xsd:integer|Int32||  
 |Boolean|xsd:boolean|Valor booleano que acepta valores null||  
-|XMLTYPE|xsd:cadena|String|Se admite para parámetros de procedimiento de nivel superior.<br /><br /> Los caracteres XML como reservados '**\<**','**\>**' debe sustituirse por su representación de entidad **(&lt;, &gt;)**al desarrollar aplicaciones de BizTalk y al modelo del canal con WCF. Esto no es necesario en el caso del modelo de servicio de WCF.|  
+|XMLTYPE|xsd:cadena|String|Se admite para parámetros de procedimiento de nivel superior.<br /><br /> Los caracteres XML como reservados '**\<**','**\>**' debe sustituirse por su representación de entidad **(&lt;, &gt;)** al desarrollar aplicaciones de BizTalk y al modelo del canal con WCF. Esto no es necesario en el caso del modelo de servicio de WCF.|  
   
  \*La manera en que se producen estos tipos de datos de Oracle se ve afectada por la **EnableSafeTyping** propiedad de enlace.  
   

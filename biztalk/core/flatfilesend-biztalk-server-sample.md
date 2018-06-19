@@ -1,14 +1,14 @@
 ---
 title: FlatFileSend (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52dd0018-e272-40db-a26a-509d444d7106
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969698"
 ---
 # <a name="flatfilesend-biztalk-server-sample"></a>FlatFileSend (ejemplo de BizTalk Server)
 El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para procesar un archivo XML en el archivo sin formato equivalente.  
@@ -45,7 +46,7 @@ El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVer
  Estos elementos se combinan para producir una solución que acepta mensajes de pedido de compra en formato XML en la ubicación de recepción y escribe un pedido de compra de archivo sin formato en la ubicación de envío.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -66,13 +67,13 @@ El ejemplo FlatFileSend muestra cómo puede usar [!INCLUDE[btsBizTalkServerNoVer
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
     -   Crea la carpeta de entrada (FFInput) y la carpeta de salida (FFOutput) para este ejemplo en la carpeta:  
   
-         *\<Ejemplos de ruta de acceso\>*\Pipelines\AssemblerDisassembler\FlatFileSend  
+         *\<Ejemplos de ruta de acceso\>* \Pipelines\AssemblerDisassembler\FlatFileSend  
   
     -   Compila el proyecto [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] para este ejemplo.  
   

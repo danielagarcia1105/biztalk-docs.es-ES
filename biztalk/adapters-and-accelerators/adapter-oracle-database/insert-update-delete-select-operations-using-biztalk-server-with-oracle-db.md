@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962314"
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-oracle-database"></a>Insertar, actualizar, eliminar o seleccionar operaciones mediante BizTalk Server con la base de datos de Oracle
 La [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] expone un conjunto de operaciones estándares de las tablas de base de datos de Oracle y las vistas. Se conocen como operaciones de operaciones (DML) del lenguaje de manipulación de datos con la que puede realizar simples instrucciones INSERT, UPDATE, SELECT y DELETE calificadas por una cláusula WHERE en tablas y vistas. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [Insert, Update, Delete y las operaciones de Select en las tablas de Oracle y vistas](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-and-select-operations-on-oracle-tables-and-views.md). Para obtener información acerca de la estructura del mensaje SOAP para operaciones DML, vea [esquemas de mensaje para insertar básico, Update, Delete y seleccione operaciones en tablas y vistas](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  

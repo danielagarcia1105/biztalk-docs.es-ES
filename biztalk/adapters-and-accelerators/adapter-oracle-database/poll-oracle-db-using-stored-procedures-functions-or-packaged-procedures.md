@@ -1,14 +1,14 @@
 ---
 title: Sondear la base de datos de Oracle mediante procedimientos almacenados, funciones, o empaquetados procedimientos y funciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c34843a-d02b-4941-baf6-6bc80b5821ad
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968098"
 ---
 # <a name="poll-oracle-database-using-stored-procedures-functions-or-packaged-procedures-and-functions"></a>Sondeo de base de datos de Oracle mediante procedimientos almacenados, funciones, o empaquetados procedimientos y funciones
 Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicas mediante el uso de procedimientos almacenados, funciones, o empaquetados procedimientos y funciones que éstos sondeen periódicamente la base de datos de Oracle. Puede especificar un procedimiento almacenado, función o procedimiento empaquetada y funcionar como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle.  

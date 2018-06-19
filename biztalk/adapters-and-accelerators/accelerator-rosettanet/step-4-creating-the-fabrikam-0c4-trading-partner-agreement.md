@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966978"
 ---
 # <a name="step-4-creating-the-fabrikam-0c4-trading-partner-agreement"></a>Paso 4: Crear el acuerdo de socios comerciales 4 de Fabrikam 0c
 En este paso, creará un acuerdo entre socios comerciales entre Contoso y Fabrikam mediante el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración. Creará un nuevo contrato de socios comerciales para el proceso de interfaz de socio (PIP) 0C4.  

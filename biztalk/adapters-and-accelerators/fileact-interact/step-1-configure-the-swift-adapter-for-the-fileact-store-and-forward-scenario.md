@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Configurar el adaptador de SWIFT para el escenario de reenvío y almacenamiento de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Configurar el adaptador de SWIFT para el escenario de reenvío y almacenamiento de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18653322-b748-4954-93f7-9a7a39e406f8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964282"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario"></a>Paso 1: Configurar el adaptador de SWIFT para el escenario de reenvío y almacenamiento de FileAct
 Completa [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) antes de comenzar este paso.

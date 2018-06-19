@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 9985e1e65975045f212130995c7f3b00ea0c79f0
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013123"
 ---
 # <a name="how-to-set-receive-pipelines-for-tibco-rendezvous"></a>Establecimiento de canalizaciones de recepción para TIBCO Rendezvous
 El adaptador de Microsoft BizTalk para TIBCO Rendezvous requiere que se establezcan el controlador y la canalización de recepción.  

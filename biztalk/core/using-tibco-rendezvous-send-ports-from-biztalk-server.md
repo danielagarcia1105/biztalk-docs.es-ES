@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34e3edf7-cfc5-4c89-8069-63e8784bc9f9
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24013739"
 ---
 # <a name="using-tibco-rendezvous-send-ports"></a>Uso de puertos de envío de TIBCO Rendezvous
 Un puerto de transmisión puede enviar cualquier tipo de mensaje. Cuando BizTalk Server envía un mensaje a través del Adaptador de Microsoft BizTalk para TIBCO Rendezvous, el adaptador genera el mensaje basándose en los valores de las propiedades de contexto del mensaje o bien usa el valor predeterminado y lo envía al destinatario especificado.  

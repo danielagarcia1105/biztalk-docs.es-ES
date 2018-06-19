@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966034"
 ---
 # <a name="syntax-for-an-exec-statement-in-sap"></a>Sintaxis para una instrucción EXEC en SAP
 La siguiente sección describe las especificaciones de gramática para implementar instrucciones EXEC en la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Tenga en cuenta que, en muchos casos, la sintaxis es un poco diferente de la sintaxis de Transact-SQL.  

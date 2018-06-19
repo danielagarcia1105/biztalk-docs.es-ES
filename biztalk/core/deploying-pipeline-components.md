@@ -1,17 +1,17 @@
 ---
-title: "Implementar componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Implementar componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, pipeline components [custom]
 - pipeline components [custom], deploying
 ms.assetid: 98b47fbf-62c0-4012-a406-58c4d56b305a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969034"
 ---
 # <a name="deploying-pipeline-components"></a>Implementar componentes de canalización
 Todas la canalización componente ensamblados .NET (nativos y personalizados) deben estar ubicados en el \< *directorio de instalación de*\>carpeta \Pipeline Components para ser ejecutado por el servidor. Si la canalización que tiene un componente personalizado se va a implementar en varios servidores, los archivos binarios del componente deben estar presentes en la carpeta especificada de cada servidor.  

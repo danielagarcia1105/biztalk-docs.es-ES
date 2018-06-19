@@ -1,14 +1,14 @@
 ---
-title: "Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd96eaf-b3b3-49b4-aea9-0ae1e8999d62
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965154"
 ---
 # <a name="describe-the-wsdl-porttype-documentation-schema-with-the-wcf-lob-adapter-sdk"></a>Describe el esquema de documentación de WSDL PortType con el SDK del adaptador LOB de WCF
 El archivo WSDL que el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] genera contiene información descriptiva adicional para cada portType. El esquema para esta información adicional se describe en este tema.  

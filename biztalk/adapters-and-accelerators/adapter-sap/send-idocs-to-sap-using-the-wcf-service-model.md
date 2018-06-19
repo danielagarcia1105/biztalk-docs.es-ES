@@ -1,17 +1,17 @@
 ---
 title: Enviar los IDOC a SAP mediante el modelo de servicio de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, sending IDOCs to SAP
 - IDOCs, sending to SAP by using the WCF service model
 ms.assetid: 84077234-b82b-4e88-b858-ce2cb1383fb4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966594"
 ---
 # <a name="send-idocs-to-sap-using-the-wcf-service-model"></a>Enviar los IDOC a SAP mediante el modelo de servicio de WCF
 Internamente, el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] envía IDOC al sistema SAP mediante la invocación de una de las dos siguientes RFC:  

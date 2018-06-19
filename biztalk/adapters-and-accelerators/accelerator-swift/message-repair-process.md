@@ -1,11 +1,11 @@
 ---
-title: "Proceso de reparación de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Proceso de reparación de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - validating, messages
 - messages, validating
 ms.assetid: 87b97cec-5796-4684-bcf0-53285aca7ee2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211196"
 ---
 # <a name="message-repair-process"></a>Proceso de reparación de mensajes
 De forma predeterminada, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] suspende los mensajes con errores en la cola de suspensión de la base de datos de cuadro de mensajes. Este proceso controla los mensajes error por separado de los mensajes correctos. Mediante este mecanismo de forma predeterminada, sin embargo, tiene una capacidad limitada para recuperar mensajes con errores y corregirlos. La característica de reparación de mensajes y nuevo envío de [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] permite un [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] usuario reparar un mensaje y enviarlo de nuevo. Otro [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] usuario, a continuación, puede comprobar las reparaciones, y una tercera puede aprobar las reparaciones.  

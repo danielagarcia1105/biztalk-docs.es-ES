@@ -1,14 +1,14 @@
 ---
 title: Las operaciones de ExecuteReader, ExecuteScalar o ExecuteNonQuery en Oracle E-Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e2d377d-60a2-45fe-8458-433e6f4f6619
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965482"
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-oracle-e-business-suite"></a>Operaciones de ExecuteReader, ExecuteScalar o ExecuteNonQuery en Oracle E-Business Suite
 El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone operaciones genéricas como **ExecuteNonQuery**, **ExecuteReader**, y **ExecuteScalar**. Puede utilizar estas operaciones para ejecutar cualquier instrucción SQL en la base de datos de Oracle. Estas operaciones varían en función del tipo de respuesta que se obtiene de la instrucción SQL. Para obtener más información acerca del modo en que el adaptador admite estas operaciones, vea [soporte técnico para las operaciones de ExecuteScalar, ExecuteReader y ExecuteNonQuery](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  

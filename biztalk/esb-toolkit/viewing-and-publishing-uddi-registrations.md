@@ -1,14 +1,14 @@
 ---
 title: Ver y publicar los registros UDDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: efff5963-76f8-4e73-a16f-d19a9e5a2f76
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295180"
 ---
 # <a name="viewing-and-publishing-uddi-registrations"></a>Ver y publicar los registros UDDI
 El Portal de administración de ESB se integra con un registro de Universal Description, Discovery y Integration (UDDI) y puede publicar entradas en el servidor además de mostrar las entradas de registro existentes. El portal admite tanto una publicación automática capacidad y un proceso de aprobación que permite a los administradores a controlar la publicación de entradas para el servidor UDDI. En esta sección se describe las siguientes tareas comunes:  

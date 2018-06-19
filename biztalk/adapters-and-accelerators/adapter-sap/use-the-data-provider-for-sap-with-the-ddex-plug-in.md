@@ -12,7 +12,7 @@ helpviewer_keywords:
 - DDEX plug-in, Data Provider for SAP
 - Data Provider for SAP, using with DDEX plug-in
 ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963466"
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>Usar el proveedor de datos para SAP con el complemento DDEX
 Si decide instalar la [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] junto con el [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación, el programa de instalación instala un [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] complemento DDEX. Puede usar este complemento para examinar objetos SAP mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. Esta sección proporciona información acerca de cómo utilizar el complemento DDEX.  

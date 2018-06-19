@@ -1,11 +1,11 @@
 ---
-title: "Lección 1: Agregar XML puerto de recepción y ubicación | Documentos de Microsoft"
-ms.custom: 
+title: 'Lección 1: Agregar XML puerto de recepción y ubicación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive ports, creating
 - creating, receive ports
 ms.assetid: 252bc080-3820-44cc-8749-715869f3f684
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961266"
 ---
 # <a name="lesson-1-adding-xml-receive-port-and-location"></a>Lección 1: Agregar puerto y la ubicación de recepción de XML
 Un puerto de recepción es una agrupación lógica de ubicaciones de recepción similares. Una ubicación de recepción define una dirección específica (por ejemplo, una ubicación de archivo o dirección URL) para un mensaje entrante y la canalización que se utiliza para procesar el mensaje.  

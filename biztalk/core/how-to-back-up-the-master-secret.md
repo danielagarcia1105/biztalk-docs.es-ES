@@ -12,7 +12,7 @@ helpviewer_keywords:
 - backing up, Master Secret server
 - Master Secret server, backing up
 ms.assetid: 22c23f66-b7df-4379-8a9f-065406ba8aa8
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969586"
 ---
 # <a name="how-to-back-up-the-master-secret"></a>Cómo realizar copias de seguridad del secreto principal
 Es posible hacer una copia de seguridad del secreto principal desde el servidor secreto principal en un sistema de archivos NTFS o en un medio extraíble, como un disco.  

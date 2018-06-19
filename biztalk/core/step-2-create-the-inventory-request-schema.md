@@ -1,14 +1,14 @@
 ---
 title: 'Paso 2: Crear el esquema de solicitud de inventario | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0fa9ad9f-b815-4baf-8299-556869b8dde7
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014291"
 ---
 # <a name="step-2-create-the-inventory-request-schema"></a>Paso 2: Crear el esquema de solicitud de inventario
 ![Paso 2 de 5](../core/media/step-2of5.gif "Step_2of5")  

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - BAPIs, searching
 - BAPI operations, generating schema
 ms.assetid: 2884215a-ddba-40c7-bf9f-bfc7831f90bb
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25962394"
 ---
 # <a name="browse-search-and-get-metadata-for-bapi-operations-in-sap"></a>Examinar, buscar y obtener los metadatos de las operaciones de BAPI en SAP
 Esta sección proporciona instrucciones sobre cómo examinar, buscar y recuperar los metadatos de SAP para las operaciones de BAPI usan [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], o [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. La mayoría de las instrucciones que aparecen es los misma para toda la interfaz de usuario de tres. Siempre que se proporcionan procedimientos procede, independientes de la interfaz de usuario correspondientes.  

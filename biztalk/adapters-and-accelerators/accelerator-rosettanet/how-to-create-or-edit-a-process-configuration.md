@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear o editar una configuración de procesos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear o editar una configuración de procesos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process configuration, modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - creating, process configuration
 - modifying, process configuration
 ms.assetid: ef6160f1-f2f0-42ff-a516-7818c9d79d26
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962610"
 ---
 # <a name="how-to-create-or-edit-a-process-configuration"></a>Cómo crear o editar una configuración de procesos
 En este tema se describe cómo crear o editar una configuración de procesos.  

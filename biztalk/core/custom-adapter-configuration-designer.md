@@ -1,14 +1,14 @@
 ---
-title: "Diseñador de configuración de adaptador personalizado | Documentos de Microsoft"
-ms.custom: 
+title: Diseñador de configuración de adaptador personalizado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9b231c3-3948-4db8-b4f0-d9c21c31b168
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970378"
 ---
 # <a name="custom-adapter-configuration-designer"></a>Diseñador de configuración de adaptador personalizado
 Deberá crear una biblioteca de clases .NET a partir de los diseñadores personalizados. Puede integrarlos al DLL del adaptador o crear un DLL distinto.  Una vez creado un ensamblado de diseñador debe hacer referencia a él mediante decoraciones, como lo haría con una descripción o categoría. La referencia incluye una especificación del ensamblado y un nombre completo de clase para su uso.  

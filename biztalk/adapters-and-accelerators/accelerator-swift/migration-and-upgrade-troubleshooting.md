@@ -1,11 +1,11 @@
 ---
-title: "Solución de problemas de actualización y migración | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de actualización y migración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - upgrading, troubleshooting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - troubleshooting, migrating
 - migrating, troubleshooting
 ms.assetid: 6e6c0ff9-7897-4de6-9e9b-b502b3a1785b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961474"
 ---
 # <a name="migration-and-upgrade-troubleshooting"></a>Solución de problemas de actualización y migración
 ## <a name="assemblies-need-to-be-undeployed-before-an-upgrade"></a>Ensamblados deben ser implementada antes de una actualización  
@@ -64,7 +65,7 @@ ms.lasthandoff: 01/17/2018
   
  Para establecer estos permisos, haga lo siguiente:  
   
- En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a *% programfiles %*\Microsoft Acelerador de BizTalk para SWIFT\Service.  
+ En [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] el explorador, vaya a *% programfiles %* \Microsoft Acelerador de BizTalk para SWIFT\Service.  
   
 1.  Haga clic en la carpeta del servicio, haga clic en **propiedades**y, a continuación, haga clic en el **seguridad** ficha.  
   

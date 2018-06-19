@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968834"
 ---
 # <a name="how-to-add-orchestration-variables"></a>Cómo agregar variables de orquestación
 La ventana Vista orquestación permite administrar las propiedades de una orquestación (también conocido como **servicio** propiedades), parámetros, puertos, mensajes y otras variables. Además de los puertos y mensajes, puede crear variables de tipo entero, variables booleanas, variables de cadena o variables de una clase .NET.  

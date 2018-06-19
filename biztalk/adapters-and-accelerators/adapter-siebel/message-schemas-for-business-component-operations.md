@@ -11,7 +11,7 @@ helpviewer_keywords:
 - message actions, for business component operations
 - message schemas, for business component operations
 ms.assetid: 753fdaa6-992f-4932-98ed-b7f2d66af7a9
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25965970"
 ---
 # <a name="message-schemas-for-business-component-operations"></a>Esquemas de mensaje para las operaciones de componentes empresariales
 ## <a name="message-schemas-for-siebel-business-component-operations"></a>Esquemas de mensaje para operaciones de componente de negocio de Siebel  

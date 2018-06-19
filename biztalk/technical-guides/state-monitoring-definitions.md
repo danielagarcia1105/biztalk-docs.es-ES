@@ -1,14 +1,14 @@
 ---
-title: "Definiciones de supervisión de estado | Documentos de Microsoft"
-ms.custom: 
+title: Definiciones de supervisión de estado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa2c8247-5e25-4624-9f0d-c7fe621ffba2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302516"
 ---
 # <a name="state-monitoring-definitions"></a>Definiciones de supervisión de estado
 La supervisión de estado le ayuda a responder la pregunta de si un equipo supervisado es correcto en un momento dado desde la perspectiva de una aplicación determinada. System Center Operations Manager (SCOM) actualiza el estado de distintas entidades administradas expuestas al usuario y presenta el estado como parte de la vista de supervisión de estado.  

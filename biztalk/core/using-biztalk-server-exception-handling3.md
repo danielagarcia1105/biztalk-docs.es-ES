@@ -1,14 +1,14 @@
 ---
-title: "Con el servidor BizTalk Server excepción Handling3 | Documentos de Microsoft"
-ms.custom: 
+title: Con el servidor BizTalk Server excepción Handling3 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9441e884-1de9-45d6-982b-911fc06b9d5c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014947"
 ---
 # <a name="use-biztalk-server-exception-handling"></a>Usar el control de excepciones de servidor BizTalk Server
 

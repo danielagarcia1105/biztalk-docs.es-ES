@@ -1,11 +1,11 @@
 ---
-title: "Uso de un formulario de InfoPath para reparar un mensaje o envíe un mensaje nuevo | Documentos de Microsoft"
-ms.custom: 
+title: Uso de un formulario de InfoPath para reparar un mensaje o envíe un mensaje nuevo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, messages
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - messages, verifying
 - verifying, messages
 ms.assetid: fb1a885f-fb01-42be-88bc-f68715f689f7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961978"
 ---
 # <a name="using-an-infopath-form-to-repair-a-message-or-submit-a-new-message"></a>Uso de un formulario de InfoPath para reparar un mensaje o envíe un mensaje nuevo
 Para reparar, comprobar, aprobar o crear un mensaje, se trabaja en un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formulario que se abre desde el [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] sitio Web de MRSR. El sitio MRSR contiene un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formato de cada tipo de mensaje y un [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] formato para los mensajes sin analizar. Reparación de mensajes y nuevo envío envía mensajes que necesita reparación, la comprobación o la aprobación a la biblioteca de documentos MRSR adecuada, donde se puede abrir.  

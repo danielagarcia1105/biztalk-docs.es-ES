@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar esquemas existentes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar esquemas existentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dcff4be-9d8e-47f4-b642-45f82694c414
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25968778"
 ---
 # <a name="how-to-add-existing-schemas"></a>Cómo agregar esquemas existentes
 Es posible que en algunas ocasiones desee agregar un esquema existente a un proyecto de BizTalk existente. En este tema se describen los pasos necesarios.  

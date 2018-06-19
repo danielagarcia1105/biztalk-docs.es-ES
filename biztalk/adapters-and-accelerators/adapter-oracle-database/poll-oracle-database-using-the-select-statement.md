@@ -1,17 +1,17 @@
 ---
-title: "Sondeo de base de datos de Oracle mediante la instrucción SELECT | Documentos de Microsoft"
-ms.custom: 
+title: Sondeo de base de datos de Oracle mediante la instrucción SELECT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling-based notifications, receiving from Oracle
 - polling query, configuring a
 ms.assetid: d2689eb9-6f17-498f-8a32-07f43a368833
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965098"
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a>Sondeo de base de datos de Oracle mediante la instrucción SELECT
 Puede configurar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir mensajes de cambio de datos periódicos utilizando una instrucción SELECT para sondear continuamente las tablas y vistas en la base de datos de Oracle de Oracle. Puede especificar una instrucción SELECT como una instrucción de sondeo que el adaptador se ejecuta periódicamente para sondear la base de datos de Oracle. Si lo desea, también puede especificar un bloque de código de PL/SQL de sondeo posterior a la que el adaptador se ejecuta si se produce un cambio en los datos. Este bloque se utiliza a menudo para actualizar un campo en los registros consultados en el destino o para mover los registros consultados a otra tabla o vista.  

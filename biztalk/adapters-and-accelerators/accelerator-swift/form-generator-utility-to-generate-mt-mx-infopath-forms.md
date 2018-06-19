@@ -1,14 +1,14 @@
 ---
 title: Formar la utilidad de generador para generar los formularios de InfoPath MT MX | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41f2fd51-c492-499b-89aa-1b44ed5c9669
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209212"
 ---
 # <a name="form-generator-utility-to-generate-mtmx-infopath-forms"></a>Utilidad de generador de formulario para generar los formularios de InfoPath MT/MX
 El propósito de este documento es explicar cómo generar y publicar los formularios MT y MX InfoPath 2010 mediante la utilidad de generador del formulario. Estos formatos usan la característica de reparación de mensajes y nuevo envío de [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)].  

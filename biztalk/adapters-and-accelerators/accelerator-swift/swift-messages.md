@@ -1,11 +1,11 @@
 ---
 title: Los mensajes de SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, SWIFT
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SWIFT messages, copies
 - SWIFT messages
 ms.assetid: 21341f2c-8d64-4f7c-ba84-f863d0f7b878
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961834"
 ---
 # <a name="swift-messages"></a>Mensajes de SWIFT
 Society para todo el mundo bancos vinculados financieros telecomunicaciones (SWIFT) es una cooperativa de propiedad de la industria proporciona software seguro de servicios y la interfaz de mensajería a más de 7.000 instituciones financieras en 200 países o regiones. SWIFT proporciona servicios de mensajería bancos, corredores de bolsa y administradores de inversión, así como para infraestructuras de mercado para pagos, Tesoro, títulos y a los intercambios. Estos servicios ayudan a sus clientes a reducir costos, mejorar la automatización y administración de riesgos. SWIFT también es el cuerpo principal de estándares para las comunicaciones de bancos vinculados.  

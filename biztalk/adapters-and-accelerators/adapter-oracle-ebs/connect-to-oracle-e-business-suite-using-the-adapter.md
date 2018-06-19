@@ -1,14 +1,14 @@
 ---
 title: Conectarse a Oracle E-Business Suite mediante el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80ff31d4-be4c-42d7-a321-8f01b40dd71e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217868"
 ---
 # <a name="connect-to-oracle-e-business-suite-using-the-adapter"></a>Conectarse a Oracle E-Business Suite mediante el adaptador
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] ODP.NET 11.1.0.7 se utiliza para conectarse a Oracle E-Business Suite. El [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] requiere que los clientes de adaptador proporcionar una cadena de conexión, llamada a la conexión Uniform Resource Identifier (URI), para conectarse a Oracle E-Business Suite. Internamente, el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] se conecta a la base de datos de Oracle subyacente a través de la dirección URI. Con un URI de conexión, los clientes de adaptador pueden especificar parámetros de conexión para conectarse a un sistema externo.  

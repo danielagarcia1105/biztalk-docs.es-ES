@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el sistema de destino de trasvase de registros | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el sistema de destino de trasvase de registros | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2015-12-03
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, log shipping
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - system failures, backing up
 - backing up, system failures
 ms.assetid: 7b4425f5-b105-4fb2-a503-94ca1e75ad55
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969498"
 ---
 # <a name="how-to-configure-the-destination-system-for-log-shipping"></a>Cómo configurar el sistema de destino para el envío de registros
 El trasvase de registros proporciona funciones de servidor en espera para reducir el tiempo de inactividad en caso de error del sistema. El envío de registros permite enviar automáticamente registros de transacciones desde el sistema de origen al de destino. En el sistema de destino, se restauran los registros de transacciones en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] bases de datos; mantienen estrechamente sincronizados con las bases de datos de origen.  

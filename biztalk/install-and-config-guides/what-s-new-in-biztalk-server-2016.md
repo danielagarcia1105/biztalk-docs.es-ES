@@ -1,15 +1,15 @@
 ---
 title: Novedades en BizTalk Server 2016 | Documentos de Microsoft
-description: "Cambios y mejoras, como paquetes de características, adaptadores, seguridad, seguimiento, rendimiento etc. en BizTalk Server 2016"
-ms.custom: 
+description: Cambios y mejoras, como paquetes de características, adaptadores, seguridad, seguimiento, rendimiento etc. en BizTalk Server 2016
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 11/15/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fce1fe8-f515-462d-bf6d-19408d515479
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497765"
 ---
 # <a name="whats-new-in-biztalk-server-2016"></a>Novedades de BizTalk Server 2016
 Obtenga información sobre las novedades de [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 

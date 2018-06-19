@@ -1,14 +1,14 @@
 ---
-title: "Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7ffd857-a177-423a-ae83-685d11b7aec6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217468"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-e-business-suite-solution-artifacts"></a>Generar un cliente de WCF o un contrato de servicio WCF de artefactos de la solución de Oracle E-Business Suite
 Puede usar el [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] para generar una clase de cliente WCF o un contrato de servicio WCF (interfaz) destinada a operaciones seleccionadas en artefactos de Oracle E-Business Suite. También puede usar el contrato de servicio WCF; o ServiceModel Metadata Utility Tool (svcutil.exe) para generar la clase de cliente WCF Sin embargo, la [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] expone la funcionalidad de la herramienta de utilidad de metadatos de ServiceModel mediante una interfaz estándar de Microsoft Windows. También proporciona capacidades de exploración y búsqueda que no están disponibles con la herramienta svcutil.exe, y genera un archivo de configuración basado en las propiedades de enlace que seleccione al conectarse a Oracle E-Business Suite.  

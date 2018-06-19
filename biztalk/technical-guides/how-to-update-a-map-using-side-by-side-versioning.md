@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar un mapa con control de versiones en paralelo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar un mapa con control de versiones en paralelo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b0e377f-92ab-483e-9f3c-222c7b5ac0b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22298276"
 ---
 # <a name="how-to-update-a-map-using-side-by-side-versioning"></a>Cómo actualizar un mapa con control de versiones en paralelo
 Algunos artefactos de BizTalk, como las asignaciones, se eligen por nombre seguro completo (FQSN), en cuyo caso los enlaces incluyen la versión utilizada. Esto permite que dos o más asignaciones pueden coexistir en paralelo en el [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración. Como resultado, puede seleccionar una de las asignaciones de entrada mapas en las propiedades de ubicación de recepción o de salida en las propiedades de puerto de envío.  
@@ -62,7 +63,7 @@ Algunos artefactos de BizTalk, como las asignaciones, se eligen por nombre segur
   
 2.  En **el Bloc de notas**, en la **archivo** menú, haga clic en **abiertos**. En el **abiertos** cuadro de diálogo, seleccione la asignación de archivos desea modificar y, a continuación, haga clic en **abiertos**.  
   
-3.  En el menú **Edición** , haga clic en **Buscar**. En el **buscar** diálogo cuadro, escriba **ensamblado =**y, a continuación, haga clic en **Buscar siguiente**.  
+3.  En el menú **Edición** , haga clic en **Buscar**. En el **buscar** diálogo cuadro, escriba **ensamblado =** y, a continuación, haga clic en **Buscar siguiente**.  
   
 4.  Si hay una referencia de secuencia de comandos a un ensamblado externo, el Bloc de notas debería buscar un elemento XML como el siguiente:  
   

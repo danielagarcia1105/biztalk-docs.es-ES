@@ -1,15 +1,15 @@
 ---
 title: Crear y utilizar esquemas en TIBCO | Documentos de Microsoft
 description: Utilice el Editor de BizTalk para crear un esquema para el adaptador de BizTalk para TIBCO Enterprise Message Service y establecer el espacio de nombres de destino en el esquema de BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3927b0b3-db3b-4494-b003-d930af734e58
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968722"
 ---
 # <a name="create-and-use-tibco-schemas"></a>Crear y utilizar esquemas TIBCO
 
@@ -44,7 +45,7 @@ A continuación, establezca el espacio de nombres de destino.
   
 ## <a name="set-the-target-namespace"></a>Establecer el espacio de nombres de destino  
   
-1.  En el Editor de BizTalk, abra el archivo de esquema, haga clic en  **\<esquema\>**y, a continuación, seleccione **propiedades**.  
+1.  En el Editor de BizTalk, abra el archivo de esquema, haga clic en  **\<esquema\>** y, a continuación, seleccione **propiedades**.  
   
 2.  En el **propiedades** panel, busque el **Namespace** campo y escriba un nombre, por ejemplo, `testNameSpace`.  
   

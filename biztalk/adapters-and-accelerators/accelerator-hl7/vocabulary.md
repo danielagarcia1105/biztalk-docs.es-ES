@@ -1,17 +1,17 @@
 ---
 title: Vocabulario | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, vocabulary
 - vocabularies
 ms.assetid: c5df05dd-4af8-4e48-8509-e692b04adf3c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206660"
 ---
 # <a name="vocabulary"></a>Vocabulario
 HL7 versión 2 proporciona cierta compatibilidad para vocabularios para elementos codificados, pero en su mayor parte, proporciona una estructura que transmite códigos procedentes de sistemas locales de codificación.  

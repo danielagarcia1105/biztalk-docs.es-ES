@@ -1,17 +1,17 @@
 ---
-title: "Exportación de certificados | Documentos de Microsoft"
-ms.custom: 
+title: Exportación de certificados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exporting certificates
 - certificates, exporting
 ms.assetid: edeeb300-19d6-44a8-b730-dcd15891cdf9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964522"
 ---
 # <a name="exporting-certificates"></a>Exportación de certificados
 En este tema se describe cómo exportar un certificado mediante el Asistente para exportación de certificados. Use este asistente para exportar un certificado público o un certificado privado.  
@@ -28,7 +29,7 @@ En este tema se describe cómo exportar un certificado mediante el Asistente par
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] y, a continuación, haga clic en [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **consola de administración de**.  
   
-2.  Expanda **Certificados (equipo local)**y **Otras personas**, y haga clic en **Certificados**.  
+2.  Expanda **Certificados (equipo local)** y **Otras personas**, y haga clic en **Certificados**.  
   
 3.  En el panel derecho, haga clic con el botón secundario en el nombre del certificado, seleccione **Todas las tareas**y, a continuación, haga clic en **Exportar**.  
   

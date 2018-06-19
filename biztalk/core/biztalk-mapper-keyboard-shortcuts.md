@@ -1,17 +1,17 @@
 ---
-title: "Métodos abreviados de teclado del asignador de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Métodos abreviados de teclado del asignador de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, BizTalk Mapper
 - BizTalk Mapper, keyboard shortcuts
 ms.assetid: aba4958d-9104-46da-8524-45a41e07c5e2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966386"
 ---
 # <a name="biztalk-mapper-keyboard-shortcuts"></a>Métodos abreviados de teclado del Asignador de BizTalk
 Como en cualquier aplicación estándar de Microsoft Windows, puede utilizar métodos abreviados de teclado en el Asignador de BizTalk para tener acceso a comandos que, por otra parte, están disponibles mediante los menús. La tabla siguiente describe los métodos abreviados de teclado disponibles.  

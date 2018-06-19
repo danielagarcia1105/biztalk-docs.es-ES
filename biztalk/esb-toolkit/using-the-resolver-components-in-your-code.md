@@ -1,14 +1,14 @@
 ---
-title: "Con los componentes de la resolución de su código | Documentos de Microsoft"
-ms.custom: 
+title: Con los componentes de la resolución de su código | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d197cb28-78a9-4c8a-872b-f61ef15e6622
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295580"
 ---
 # <a name="using-the-resolver-components-in-your-code"></a>Con los componentes de resolución en el código
 El siguiente fragmento de código desde el agente de transformación dinámica muestra la funcionalidad de resolución predeterminada just-in-time (JIT). Puede implementar fácilmente la resolución en su propia aplicación mediante código similar.  

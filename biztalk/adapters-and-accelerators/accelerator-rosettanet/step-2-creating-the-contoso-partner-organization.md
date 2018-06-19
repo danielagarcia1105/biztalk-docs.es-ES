@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963538"
 ---
 # <a name="step-2-creating-the-contoso-partner-organization"></a>Paso 2: Crear la organización del asociado de Contoso
 En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] consola de administración para crear un nuevo socio comercial. El socio comercial para este tutorial es la organización de Contoso.  
@@ -31,7 +32,7 @@ En este paso, usará el [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® 
   
 1.  En el  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]**  Management Console, expanda [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], haga clic en **asociados**, seleccione **New**y, a continuación, haga clic en **asociado**.  
   
-2.  En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente**:**  
+2.  En el cuadro de diálogo Propiedades de nuevo socio, en la ficha **General** , realice lo siguiente **:**  
   
     |Use|Para|  
     |--------------|----------------|  

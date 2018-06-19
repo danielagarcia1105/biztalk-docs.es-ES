@@ -1,11 +1,11 @@
 ---
-title: "Incorporación de un nuevo proceso de interfaz de socio comercial | Documentos de Microsoft"
-ms.custom: 
+title: Incorporación de un nuevo proceso de interfaz de socio comercial | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, PIP schemas
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - creating, PIP schemas
 - PIP schemas, creating
 ms.assetid: 6a5fcbcb-c6aa-40c0-bcca-dd0c391e7f42
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963594"
 ---
 # <a name="incorporating-a-new-partner-interface-process"></a>Incorporación de un nuevo proceso de interfaz de socio comercial
 Puede incorporar un nuevo esquema de proceso de interfaz de socio (PIP) RosettaNet en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ensamblados. Para ello:  

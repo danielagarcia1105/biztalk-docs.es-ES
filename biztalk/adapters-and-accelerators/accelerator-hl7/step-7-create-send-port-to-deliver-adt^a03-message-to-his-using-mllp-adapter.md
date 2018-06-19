@@ -1,18 +1,18 @@
 ---
-title: "Paso 7: Crear un puerto de envío para entregar el ADT ^ A03 mensaje a su usa el adaptador MLLP | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 7: Crear un puerto de envío para entregar el ADT ^ A03 mensaje a su usa el adaptador MLLP | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, send ports
 - creating, send ports
 - send ports, creating
 ms.assetid: d9e7f281-3d25-4675-a13e-0e2057f5e69a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206756"
 ---
 # <a name="step-7-create-a-send-port-to-deliver-the-adta03-message-to-his-using-the-mllp-adapter"></a>Paso 7: Crear un puerto de envío para entregar el ADT ^ A03 mensaje a su usa el adaptador MLLP
 En este paso, creará el puerto de envío para enviar el mensaje para el sistema de información Hospital (HIS) que se usa el adaptador MLLP.  

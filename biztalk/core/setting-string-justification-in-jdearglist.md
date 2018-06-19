@@ -1,15 +1,15 @@
 ---
-title: "Establecer justificación de cadena en el adaptador de JD Edwards OneWorld | Documentos de Microsoft"
-description: "Actualizar archivo jdearglist para utilizar el adaptador de JD Edwards OneWorld en una orquestación de BizTalk Server"
-ms.custom: 
+title: Establecer justificación de cadena en el adaptador de JD Edwards OneWorld | Documentos de Microsoft
+description: Actualizar archivo jdearglist para utilizar el adaptador de JD Edwards OneWorld en una orquestación de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c9b013a-839d-45f1-9da0-c96fd45b25e5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013003"
 ---
 # <a name="set-string-justification-in-jdearglist"></a>Establezca la justificación de cadena en Jdearglist
 

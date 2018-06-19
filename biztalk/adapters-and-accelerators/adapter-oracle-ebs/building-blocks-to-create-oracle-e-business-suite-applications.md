@@ -1,14 +1,14 @@
 ---
-title: "Bloques de creación para crear aplicaciones de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Bloques de creación para crear aplicaciones de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 483a52d4-1aaf-46b1-bb42-9f91bf678346
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216108"
 ---
 # <a name="building-blocks-to-create-oracle-e-business-suite-applications"></a>Bloques de creación para crear aplicaciones de Oracle E-Business Suite
 Para realizar operaciones en Oracle E-Business Suite mediante el uso de la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] con [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], debe realizar un conjunto de tareas de tiempo de diseño y tiempo de ejecución mediante [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] y [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] respectivamente de consola de administración. Esta sección proporciona información general sobre estas tareas. Todos los temas de esta sección, que muestran cómo realizar operaciones específicas sobre el uso de Oracle E-Business Suite [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], se modelan en estas tareas de alto nivel.  

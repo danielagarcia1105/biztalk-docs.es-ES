@@ -1,14 +1,14 @@
 ---
-title: "Implementación de directivas del BRE para los mensajes existentes | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de directivas del BRE para los mensajes existentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 585c903d-ee44-4e92-8798-febb176367e3
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965010"
 ---
 # <a name="deploying-bre-policies-for-existing-messages"></a>Implementación de directivas del BRE para los mensajes existentes
 **Para implementar las reglas de negocios relacionadas:**  

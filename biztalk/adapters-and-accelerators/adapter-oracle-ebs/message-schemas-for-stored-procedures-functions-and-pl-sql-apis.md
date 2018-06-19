@@ -1,14 +1,14 @@
 ---
 title: Esquemas de mensajes para los procedimientos almacenados, funciones y API PL-SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d707f10-470d-4390-bb5b-0301c326f375
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963154"
 ---
 # <a name="message-schemas-for-stored-procedures-functions-and-plsql-apis"></a>Esquemas de mensaje para los procedimientos almacenados, funciones y las API de PL/SQL
 El [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]superficies del Oracle subyacente de base de datos los procedimientos almacenados, funciones y las API de PL/SQL (procedimientos almacenados y funciones dentro de un paquete) como operaciones. Esta sección describe la estructura de los mensajes y acciones que se usan para invocar procedimientos almacenados, funciones y las API de PL/SQL.  

@@ -1,11 +1,11 @@
 ---
 title: Comprender el adaptador de BizTalk para mySAP Business Suite | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter features
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - features of SAP adapter
 - adapters, about SAP ADO Provider
 ms.assetid: 136ca828-2724-454b-9d4d-a491d45e1eda
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962202"
 ---
 # <a name="understand-biztalk-adapter-for-mysap-business-suite"></a>Comprender el adaptador de BizTalk para mySAP Business Suite
 El [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] permite el acceso mediante programación orientada a servicios con el fin de interactuar con un sistema externo. Los adaptadores proporcionan las siguientes ventajas a los clientes:  

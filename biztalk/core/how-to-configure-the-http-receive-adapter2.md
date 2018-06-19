@@ -1,17 +1,17 @@
 ---
-title: "Cómo configurar la recepción HTTP < adaptador 2 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la recepción HTTP < adaptador 2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP receive adapter, configuring
 - configuring HTTP receive adapter
 ms.assetid: dd26fd57-90d8-4ffe-b56f-8de55ecc6f68
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014779"
 ---
 # <a name="how-to-configure-the-http-receive-adapter"></a>Para configurar adaptador de recepción de HTTP
 El adaptador de recepción HTTP se puede usar para enviar mensajes a BizTalk Server. El adaptador de recepción HTTP es una extensión ISAPI de Internet Information Services (IIS) que se hospeda en el proceso IIS.  

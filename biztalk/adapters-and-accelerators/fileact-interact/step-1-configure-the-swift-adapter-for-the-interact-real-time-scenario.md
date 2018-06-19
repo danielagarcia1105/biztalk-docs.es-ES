@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Configurar el adaptador de SWIFT para el escenario en tiempo real de interactuar | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f4d3e08-611a-4af1-a3e3-957ace3b74e6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965770"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario"></a>Paso 1: Configurar el adaptador de SWIFT para el escenario en tiempo real de interactuar
 Los pasos siguientes explican cómo configurar el controlador de envío para el adaptador de Interact. Antes de comenzar el procedimiento, debe completar los requisitos enumerados en [preparando para utilizar el Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).  

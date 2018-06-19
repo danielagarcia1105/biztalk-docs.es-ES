@@ -1,14 +1,14 @@
 ---
 title: El componente de Selector itinerarios de ESB | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2cd8a85-e036-4817-9541-3fd720ca04ef
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295156"
 ---
 # <a name="the-esb-itinerary-selector-component"></a>El componente de Selector itinerarios de ESB
 El componente de ESB itinerario Selector permite los mensajes entrantes que no tiene el encabezado SOAP para pasar a través de ESB seleccionando un itinerario de servidor adecuado para el mensaje con la Ayuda de un solucionador de itinerario. El componente se utiliza también para los mensajes que usan un encabezado SOAP para definir el nombre y la versión de un itinerario, como se solicitó el cliente.  

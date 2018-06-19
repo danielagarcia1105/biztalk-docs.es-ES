@@ -36,6 +36,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "25967450"
 ---
 # <a name="send-and-receive-aspx-pages"></a>Enviar y recibir páginas ASPX
 El [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] páginas ASPX son las interfaces directa entre [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] e Internet. Las dos páginas ASPX son la página de recepción (RNIFReceive.aspx) y la página de envío (RNIFSend.aspx). Cada página ASPX es una extensión a la correspondiente [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] canalización. La canalización requiere la página ASPX para controlar los encabezados de RosettaNet Implementation Framework (RNIF). La canalización lleva a cabo la mayoría de HTTP de procesamiento; Sin embargo, cada página ASPX realiza el procesamiento HTTP de los encabezados RNIF. Las páginas de aumentan su funcionalidad en el [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adaptador de HTTP.  

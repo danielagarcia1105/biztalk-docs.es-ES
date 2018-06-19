@@ -1,17 +1,17 @@
 ---
 title: Business Rules Hello World1 (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 0623ad20-96cc-430e-bb36-35431a5d17ee
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967674"
 ---
 # <a name="business-rules-hello-world1-biztalk-server-sample"></a>Business Rules Hello World1 (ejemplo de BizTalk Server)
 El ejemplo Business Rules Hello World1 muestra cómo crear un conjunto de reglas BizTalk, guardarlo en un archivo (SampleRuleSet.xml), cargarlo y ejecutarlo basado en un conjunto de ejemplos de hechos. El conjunto de reglas de ejemplos consta de una regla sencilla que implica a un elemento XML y objetos basados en .NET (propiedades y miembros) como términos de la definición de reglas.  

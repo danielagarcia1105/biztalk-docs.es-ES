@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216572"
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-adapter"></a>Recibir mensajes de cambio de datos basado en sondeo en el adaptador de la base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] admite la recepción de mensajes de cambio de datos basados en el sondeo por sondeo en la base de datos de Oracle. El adaptador entrega los mensajes a la aplicación por:  

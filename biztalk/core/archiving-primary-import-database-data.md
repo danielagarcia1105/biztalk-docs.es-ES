@@ -1,11 +1,11 @@
 ---
-title: "Archivar los datos de la base de datos de importación principal | Documentos de Microsoft"
-ms.custom: 
+title: Archivar los datos de la base de datos de importación principal | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Primary Import database [BAM], archiving data
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [BAM], archiving data
 - data, archiving [BAM]
 ms.assetid: 4a014a59-0578-41fa-9441-8b582f54bbe8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230420"
 ---
 # <a name="archiving-primary-import-database-data"></a>Archivar datos de la base de datos de importación principal
 Un administrador puede determinar la ventana de tiempo que se va a utilizar para archivar los datos de instancia de actividad en la base de datos de importación principal. Se utilizan las propiedades OnlineWindowTimeUnit y OnlineWindowTimeLength de la tabla BAM_Metadata_Activities en la base de datos BAMPrimaryImport.  

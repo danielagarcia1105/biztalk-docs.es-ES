@@ -1,14 +1,14 @@
 ---
-title: "Operaciones en programas simultáneos | Documentos de Microsoft"
-ms.custom: 
+title: Operaciones en programas simultáneos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbc40e4c-d5a1-4763-9683-09a744e5b656
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218316"
 ---
 # <a name="operations-on-concurrent-programs"></a>Operaciones en programas simultáneos
 Programas simultáneos en Oracle E-Business Suite aparecen como operaciones en [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  Además de los programas simultáneos específicos a una aplicación de Oracle, el [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] también expone las tres operaciones estándares siguientes: Get_Status, Wait_For_Request y Submit_Request. Esto implica que si una aplicación de Oracle tiene dos programas simultáneos, se expondrán cinco operaciones: uno para cada programa simultáneo y tres para las operaciones estándares.  

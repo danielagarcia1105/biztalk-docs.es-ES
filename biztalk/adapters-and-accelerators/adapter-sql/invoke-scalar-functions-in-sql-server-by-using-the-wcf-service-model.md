@@ -1,14 +1,14 @@
 ---
 title: Invocar funciones escalares en SQL Server mediante el modelo de servicio WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a331e275-3c81-41a8-9ba1-3a801ebc259a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964250"
 ---
 # <a name="invoke-scalar-functions-in-sql-server-by-using-the-wcf-service-model"></a>Invocar funciones escalares en SQL Server mediante el modelo de servicio WCF
 Puede usar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] en una aplicación de .NET mediante el modelo de servicio WCF para invocar funciones escalares en SQL Server. El adaptador expone las funciones escalares como métodos que se pueden invocar directamente en SQL Server. Para obtener más información acerca del modo en que el adaptador admite funciones escalares, consulte [ejecutar funciones escalares en SQL Server mediante el adaptador de SQL](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md).  

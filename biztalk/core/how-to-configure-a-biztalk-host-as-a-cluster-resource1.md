@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar un Host de BizTalk como un clúster Resource1 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un Host de BizTalk como un clúster Resource1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation, high availability
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - clustering, configuring
 - installation, clustering
 ms.assetid: bcd656d2-8dd6-49fc-9c42-ef5c884e52c4
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970562"
 ---
 # <a name="how-to-configure-a-biztalk-host-as-a-cluster-resource"></a>Cómo configurar un host de BizTalk como un recurso de clúster
 Este tema explica los pasos que se deben seguir para configurar un host de BizTalk como un recurso de clúster. Para realizar los pasos de este tema, debe haber configurado al menos dos servidores BizTalk Server en un grupo de BizTalk Server como miembros de un clúster de Windows Server. Para obtener más información acerca de la configuración de un clúster de Windows Server, vea la Ayuda en pantalla de Windows Server.  

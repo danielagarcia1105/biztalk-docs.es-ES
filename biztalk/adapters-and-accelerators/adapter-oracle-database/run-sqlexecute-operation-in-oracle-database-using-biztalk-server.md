@@ -1,17 +1,17 @@
 ---
-title: "Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQLEXECUTE operation, performing by using BizTalk Server
 - SQLEXECUTE operation
 ms.assetid: 7fdd1ead-0bf0-46cf-86fc-db513f76f6b3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962266"
 ---
 # <a name="run-sqlexecute-operation-in-oracle-database-using-biztalk-server"></a>Ejecutar la operación SQLEXECUTE en base de datos de Oracle mediante BizTalk Server
 El [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] permite a los clientes para que se ejecute la instrucción SQL con parámetros en una base de datos de Oracle. Para admitir estas operaciones, la [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expone una operación SQLEXECUTE. Operación SQLEXECUTE admite un bloque de parámetro de entrada consta de los conjuntos de parámetros que permiten ejecutar la misma instrucción SQL una vez para cada conjunto. La operación SQLEXECUTE devuelve los resultados de la instrucción SQL en un conjunto de registros genérico. Para obtener más información sobre la operación, vea [operación SQLEXECUTE en base de datos de Oracle](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md). Para obtener información acerca de la estructura del mensaje SOAP para la operación SQLEXECUTE, consulte [esquemas de mensaje para la operación SQLEXECUTE](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-sqlexecute-operation.md).  

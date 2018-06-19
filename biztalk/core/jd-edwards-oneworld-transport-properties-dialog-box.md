@@ -21,6 +21,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015901"
 ---
 # <a name="jd-edwards-oneworld-transport-properties-dialog-box"></a>Cuadro de diálogo Propiedades de transporte de OneWorld JD Edwards
 Use el cuadro de diálogo Propiedades de transporte de JD Edwards OneWorld para configurar las propiedades requeridas por el adaptador.  

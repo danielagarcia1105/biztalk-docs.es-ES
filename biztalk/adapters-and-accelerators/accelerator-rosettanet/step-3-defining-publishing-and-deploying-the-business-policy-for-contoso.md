@@ -1,11 +1,11 @@
 ---
-title: "Paso 3: Definición, publicación e implementación de la directiva empresarial para Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3: Definición, publicación e implementación de la directiva empresarial para Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - private process tutorial, creating policies
 - policies, creating
 ms.assetid: 529b16d8-226b-4046-a95d-64162ebd59a3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210668"
 ---
 # <a name="step-3-defining-publishing-and-deploying-the-business-policy-for-contoso"></a>Paso 3: Definir, publicar e implementar la directiva empresarial de Contoso
 En este paso, creará una directiva empresarial que se reserva una cantidad de conjunto de unidades de cada producto que fabrica Contoso para usarse en caso de emergencia.  

@@ -1,14 +1,14 @@
 ---
-title: "Listas de comprobación para otras tareas importantes | Documentos de Microsoft"
-ms.custom: 
+title: Listas de comprobación para otras tareas importantes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a88a248-fcb8-44dc-896a-62f380b7a310
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299260"
 ---
 # <a name="checklists-for-other-important-tasks"></a>Listas de comprobación para otras tareas importantes
 Esta sección contiene listas de comprobación para otras tareas importantes que debe realizar en una forma ad-hoc. Estos incluyen tareas como implementar una aplicación en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], exportar enlaces para una aplicación y actualizar una aplicación.  

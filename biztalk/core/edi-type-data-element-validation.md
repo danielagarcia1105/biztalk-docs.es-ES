@@ -1,14 +1,14 @@
 ---
-title: "Validación de tipo (elemento de datos) EDI | Documentos de Microsoft"
-ms.custom: 
+title: Validación de tipo (elemento de datos) EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd53685f-a49c-41c8-813e-29700fc0b62b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969562"
 ---
 # <a name="edi-type-data-element-validation"></a>Validación de tipo EDI (elemento de datos)
 La canalización de recepción EDI y la canalización de envío EDI llevan a cabo una validación de EDI en los elementos de datos del conjunto de transacciones. Esta validación se configura para todos los mensajes desde o a un usuario específico, a través de propiedades del acuerdo de esa entidad en el **validación** página (bajo la **configuración del conjunto de transacciones** sección para cualquier X12 o acuerdos EDIFACT). Si el **validación de tipo EDI** propiedad no está seleccionada en el **validación** página, los datos no se realizarán las validaciones que se describe en este tema.  

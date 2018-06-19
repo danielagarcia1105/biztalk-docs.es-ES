@@ -1,17 +1,17 @@
 ---
-title: "Error en la lista de tareas de compilación | Documentos de Microsoft"
-ms.custom: 
+title: Error en la lista de tareas de compilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building, errors
 - errors, building
 ms.assetid: 05b36511-3031-4e13-ac2f-bfdbec0f48cb
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967226"
 ---
 # <a name="build-errors-in-the-task-list"></a>Error en la lista de tareas de compilación
 Al generar un proyecto o una solución, los resultados aparecen en la ventana Resultados, y los errores y las advertencias, en la lista de tareas.  

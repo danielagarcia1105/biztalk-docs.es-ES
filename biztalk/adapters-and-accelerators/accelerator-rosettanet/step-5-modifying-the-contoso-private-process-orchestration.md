@@ -1,17 +1,17 @@
 ---
-title: "Paso 5: Modificar la orquestación de procesos privados de Contoso | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Modificar la orquestación de procesos privados de Contoso | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, orchestrations
 - private process tutorial, modifying private process orchestration
 ms.assetid: a5430db8-e5f0-48a6-abb9-e268d8ec2ec4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967762"
 ---
 # <a name="step-5-modifying-the-contoso-private-process-orchestration"></a>Paso 5: Modificar la orquestación de procesos privados de Contoso
 En este paso, modificará la orquestación de procesos privados para integrarse con el sistema de planeamiento de recursos empresariales (ERP) de Contoso. El sistema ERP de Contoso usa esquemas definidos internamente para la disponibilidad y el precio del producto. Si personaliza el proceso privado para el 3A2 - precio y el proceso de interfaz de socio (PIP) disponibilidad, podrá integrar con el sistema ERP mediante el uso de información de esquema de asignación.  
@@ -28,7 +29,7 @@ En este paso, modificará la orquestación de procesos privados para integrarse 
   
 1.  Con la solución de Contoso que se muestra en el Explorador de soluciones, haga clic en el **PrivateResponder** del proyecto y, a continuación, haga clic en **Agregar referencia**.  
   
-2.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. Mover a  *\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin carpeta y, a continuación, seleccione los ensamblados siguientes**:**  
+2.  En el cuadro de diálogo Agregar referencia, haga clic en **Examinar**. Mover a  *\<unidad\>*: \Program BizTalk \<versión\> Accelerator for RosettaNet\Bin carpeta y, a continuación, seleccione los ensamblados siguientes **:**  
   
     -   Microsoft.Solutions.BTARN.CommonTypes.dll  
   

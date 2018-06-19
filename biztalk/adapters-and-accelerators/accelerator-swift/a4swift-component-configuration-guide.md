@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209124"
 ---
 # <a name="a4swift-component-configuration-guide"></a>Guía de configuración de componentes de A4SWIFT
 Esta guía proporciona información acerca de cómo configurar [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Realice los pasos de esta guía de configuración después de haber instalado A4SWIFT y completar al Asistente para configuración de A4SWIFT (como se describe en la Guía de instalación). Esta guía de configuración incluye las siguientes instrucciones:  

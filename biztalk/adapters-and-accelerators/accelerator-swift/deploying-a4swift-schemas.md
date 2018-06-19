@@ -1,11 +1,11 @@
 ---
-title: "Implementación de esquemas de A4SWIFT | Documentos de Microsoft"
-ms.custom: 
+title: Implementación de esquemas de A4SWIFT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, A4SWIFT
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - A4SWIFT, deploying schemas
 - schemas, deploying
 ms.assetid: a6aed2cd-3578-442e-ab1e-8284cc5f7b72
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25966426"
 ---
 # <a name="deploying-a4swift-schemas"></a>Implementación de esquemas de A4SWIFT
 Debe implementar los esquemas para los mensajes SWIFT que desea intercambiar.  

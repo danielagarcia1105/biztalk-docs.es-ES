@@ -1,14 +1,14 @@
 ---
-title: "Procesar mensajes de notificación para completar tareas específicas en la base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Procesar mensajes de notificación para completar tareas específicas en la base de datos de Oracle mediante BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 376055a7-98a6-4055-b6cd-2f5971349a6a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967880"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-oracle-database-using-biztalk-server"></a>Procesar los mensajes de notificación para completar tareas específicas en la base de datos de Oracle mediante BizTalk Server
 Puede usar el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] para recibir notificaciones de cambios en las tablas de base de datos de Oracle. Sin embargo, el adaptador sólo envía una notificación de que algunos registros se insertarlos, actualizarlos o eliminan en una tabla de base de datos determinada. Cualquier procesamiento posterior en esos registros debe controlarse las propias aplicaciones de cliente. En este tema se presenta una descripción basada en escenario sobre cómo procesar los registros de la tabla en función del tipo de notificación recibida de la base de datos de Oracle.  

@@ -1,14 +1,14 @@
 ---
-title: "Conmutación por error el servidor de servicio BAM eventos Bus | Documentos de Microsoft"
-ms.custom: 
+title: Conmutación por error el servidor de servicio BAM eventos Bus | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f12378c8-09bb-45c1-ade1-d9b20131461f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230644"
 ---
 # <a name="bam-event-bus-service-server-failover"></a>Conmutación por error del servicio de bus de eventos de BAM
 El servicio de bus de eventos de SAE incluye una lógica de tolerancia a errores que le permite recuperarse y reiniciarse a partir de un error inesperado sin pérdida alguna de datos.  

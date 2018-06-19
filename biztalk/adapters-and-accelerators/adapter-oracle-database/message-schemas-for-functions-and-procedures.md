@@ -11,7 +11,7 @@ helpviewer_keywords:
 - functions and procedures, message structure of
 - functions and procedures, message actions of
 ms.assetid: 90b77b15-a4c6-487d-a09e-a078ceddfd1e
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25964570"
 ---
 # <a name="message-schemas-for-functions-and-procedures"></a>Esquemas de mensaje para funciones y procedimientos
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] funciones y procedimientos almacenados como operaciones de base de datos superficies de Oracle. Esta sección describe la estructura de los mensajes y acciones que se usan para invocar funciones y procedimientos.  

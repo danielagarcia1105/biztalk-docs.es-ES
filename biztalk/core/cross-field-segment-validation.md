@@ -1,14 +1,14 @@
 ---
-title: "Campo de segmento validación cruzada | Documentos de Microsoft"
-ms.custom: 
+title: Campo de segmento validación cruzada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e757b4f-71fe-44d5-9580-c8b1c8eb2366
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969408"
 ---
 # <a name="cross-field-segment-validation"></a>Campo de segmento validación cruzada
 La canalización de recepción EDI y la canalización de envío EDI pueden llevar a cabo una validación de segmentos/campos cruzados en los elementos de datos del conjunto de transacciones en los mensajes codificados con X12. Esta validación se denomina condiciones de relación en X12. La validación de campos cruzados se expresa mediante anotaciones y, como resultado, se relaciona con la validación EDI.  

@@ -1,18 +1,18 @@
 ---
 title: 'Paso 7: Firmar y compilar los proyectos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, projects
 - projects, building
 - projects, signing
 ms.assetid: b66e4dc1-4ec6-4ec0-a69a-419b116b19c1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961770"
 ---
 # <a name="step-7-sign-and-build-the-projects"></a>Paso 7: Firmar y compilar los proyectos
 En este paso, se asigna un nombre seguro y generar el proyecto para generar un ensamblado que contiene los recursos (el esquema) que creó en [paso 6: validar los esquemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md). Esto también garantiza que no hay ningún error de compilación en el trabajo que ha completado hasta ahora.  

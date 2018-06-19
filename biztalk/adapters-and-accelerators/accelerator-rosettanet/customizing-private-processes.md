@@ -1,18 +1,18 @@
 ---
 title: Personalizar los procesos privados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - customizing, private processes
 - private processes, customizing
 - developing, private processes
 ms.assetid: 01bd2b0d-fd24-4872-a7ee-17b305ee7ea1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206716"
 ---
 # <a name="customizing-private-processes"></a>Personalizar los procesos privados
 En esta sección se describe cómo personalizar las orquestaciones de proceso privado que procesan el contenido del servicio. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]implementa los procesos empresariales internos de una organización como procesos privados. Estos procesos son las orquestaciones que procesan la parte del mensaje de contenido del servicio. Para obtener más información, consulte [procesos privados](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md).  

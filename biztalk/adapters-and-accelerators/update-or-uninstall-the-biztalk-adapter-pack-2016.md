@@ -1,15 +1,15 @@
 ---
-title: "Actualizar o desinstalar el módulo de adaptador de BizTalk 2016 | Documentos de Microsoft"
-description: "Usar el Asistente para la instalación o msiexec para cambiar o desinstalar 2016 BAP incluidos con BizTalk Server; incluidos los quite los enlaces y quite las RFC personalizadas"
-ms.custom: 
+title: Actualizar o desinstalar el módulo de adaptador de BizTalk 2016 | Documentos de Microsoft
+description: Usar el Asistente para la instalación o msiexec para cambiar o desinstalar 2016 BAP incluidos con BizTalk Server; incluidos los quite los enlaces y quite las RFC personalizadas
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d3d6c001-1005-4d7b-a143-eaa37b48f898
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968002"
 ---
 # <a name="update-or-uninstall-the-biztalk-adapter-pack-2016"></a>Actualizar o desinstalar el módulo de adaptador de BizTalk 2016
 Cómo cambiar o desinstalar el [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].

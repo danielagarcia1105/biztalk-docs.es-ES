@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear esquemas de propiedad | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear esquemas de propiedad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24086dea-62b8-4ef6-8af8-eb4ab7c3c018
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970482"
 ---
 # <a name="how-to-create-property-schemas"></a>Cómo crear esquemas de propiedades
 Si elige promocionar los campos como campos de propiedades, primero deberá definir un esquema de propiedades. Este esquema de propiedades especifica una colección no estructurada de campos en la puede promocionar los campos desde un mensaje de instancia definido por un esquema asociado con el esquema de propiedades.  

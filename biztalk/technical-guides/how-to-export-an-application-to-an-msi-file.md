@@ -1,14 +1,14 @@
 ---
-title: "Cómo exportar una aplicación a un archivo .msi | Documentos de Microsoft"
-ms.custom: 
+title: Cómo exportar una aplicación a un archivo .msi | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7179e86-aa55-426b-a0db-19229ca5625a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297772"
 ---
 # <a name="how-to-export-an-application-to-an-msi-file"></a>Cómo exportar una aplicación a un archivo .msi
 Puede usar el Asistente para exportar archivos MSI o BTSTask para exportar los artefactos de la aplicación a un archivo MSI que se va a usar para importar la aplicación a un nuevo grupo de BizTalk. Este proceso también instalará la aplicación en los equipos que vayan a ejecutarla.  

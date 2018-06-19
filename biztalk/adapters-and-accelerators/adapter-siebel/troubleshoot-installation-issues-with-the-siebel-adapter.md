@@ -1,17 +1,17 @@
 ---
-title: "Solucionar problemas de instalación con el adaptador de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Solucionar problemas de instalación con el adaptador de Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, installation
 - installation, troubleshooting
 ms.assetid: f9f066d9-37b6-4a18-9f60-d0931ea91a18
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964874"
 ---
 # <a name="troubleshoot-installation-issues-with-the-siebel-adapter"></a>Solucionar problemas de instalación con el adaptador de Siebel
 Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] instalación copia los archivos binarios del producto en el equipo y registra los enlaces para cada adaptador. Esta sección describen técnicas de solución de problemas para resolver errores de instalación.  

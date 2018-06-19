@@ -1,11 +1,11 @@
 ---
-title: "Paso 5: Crear un puerto de envío para entregar confirmaciones al sistema ADT usando el adaptador de archivo | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Crear un puerto de envío para entregar confirmaciones al sistema ADT usando el adaptador de archivo | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - acknowledgements, send ports
 - send ports, creating
 ms.assetid: 565a2adf-fd86-46e3-8035-7e4748aefffc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961842"
 ---
 # <a name="step-5-create-a-send-port-to-deliver-acknowledgments-to-the-adt-system-using-the-file-adapter"></a>Paso 5: Crear un puerto de envío para entregar confirmaciones al sistema ADT usando el adaptador de archivo
 En este paso, creará el puerto de envío para generar confirmaciones mediante el adaptador de archivo.  

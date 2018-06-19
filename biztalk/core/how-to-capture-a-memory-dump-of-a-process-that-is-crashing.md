@@ -1,14 +1,14 @@
 ---
-title: "Cómo capturar un volcado de memoria de un proceso que está bloqueado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo capturar un volcado de memoria de un proceso que está bloqueado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f436b72-2b6a-4519-acc3-e7ba978651fe
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969570"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-crashing"></a>Cómo capturar un volcado de memoria de un proceso que está bloqueado
 El proceso de BizTalk BTSNTSvc.exe se define como **bloqueo** cuando finaliza el proceso de forma inesperada por Windows. El bloqueo suele provocarlo una excepción no controlada en el proceso, como una infracción de acceso o un desbordamiento de la pila. En estas situaciones, las ventanas de forma predeterminada depurador, recuperación ante desastres. Watson (drwtsn32.exe) detecta la excepción y finaliza el proceso.  

@@ -1,17 +1,17 @@
 ---
 title: Escenario de cadena de suministro de ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains, examples
 - examples, supply chains
 ms.assetid: 1837a2c8-b1d4-4e1f-a196-a48b13b22662
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211524"
 ---
 # <a name="sample-supply-chain-scenario"></a>Escenario de cadena de suministro de ejemplo
 Uno de los procesos más importantes en la cadena de suministro de alta tecnología es el intercambio de mensajes de solicitud y respuesta de pedido de compra. Un comprador emite un pedido de compra y lo confirma un proveedor, en el nivel de línea, si acepten o rechacen el pedido, o si el pedido está pendiente.  

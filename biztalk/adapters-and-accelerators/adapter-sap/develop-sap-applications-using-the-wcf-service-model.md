@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217180"
 ---
 # <a name="develop-sap-applications-using-the-wcf-service-model"></a>Desarrollar aplicaciones de SAP mediante el modelo de servicio de WCF
 En el nivel más bajo, el [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] presenta un modelo de programación en el que los clientes invocar operaciones en un servicio mediante el intercambio de mensajes SOAP a través de un canal establecido entre los extremos de cliente y el servicio. Este modelo, conocido como el modelo de canal WCF expone los tipos de datos y métodos que permiten trabajar directamente en la arquitectura de canal WCF. El modelo de canal WCF proporciona control directo sobre el contenido de los mensajes SOAP que crea y sobre la forma tanto la aplicación y la [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] consumirlos; sin embargo, crear mensajes SOAP con formato correcto para enviar a través de un canal y validar el mensajes de respuesta devueltos pueden ser una tarea detallada y exigente.  

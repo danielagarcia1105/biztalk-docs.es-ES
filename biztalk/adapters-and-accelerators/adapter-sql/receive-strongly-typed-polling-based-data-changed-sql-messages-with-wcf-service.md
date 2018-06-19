@@ -1,15 +1,15 @@
 ---
 title: Recibir fuertemente tipado mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de servicio WCF | Documentos de Microsoft
-description: "Usar una aplicación .NET para configurar el sondeo con tipo o sondeo fuertemente tipado mediante el servicio WCF con el adaptador de WCF-SQL en BizTalk Server"
-ms.custom: 
+description: Usar una aplicación .NET para configurar el sondeo con tipo o sondeo fuertemente tipado mediante el servicio WCF con el adaptador de WCF-SQL en BizTalk Server
+ms.custom: ''
 ms.date: 10/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b55eda71-1226-43f2-bc2f-e6b35563210b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f9c6ea3c9cfb8a43f765c0d3b8b07dacaa21fc51
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/09/2017
+ms.locfileid: "22622775"
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-wcf-service-model"></a>Recibir fuertemente tipado mensajes de cambio de datos basado en sondeo de SQL Server mediante el modelo de servicio WCF
 Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de sondeo fuertemente tipado de SQL Server. Puede especificar una instrucción de sondeo que el adaptador se ejecuta para sondear la base de datos. La instrucción de sondeo puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados. Debe utilizar sondeo fuertemente tipado en un escenario donde desea recibir un conjunto de resultados fuertemente tipada. Para obtener más información sobre cómo el adaptador admite el sondeo fuertemente tipado, consulte [compatibilidad con entrada de sondeo utilizando llamadas](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md).  

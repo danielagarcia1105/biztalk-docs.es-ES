@@ -1,11 +1,11 @@
 ---
-title: "Establecer los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Establecer los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public processes, HTTP adapters
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - HTTP adapters, public processes
 - HTTP adapters, time-outs
 ms.assetid: 82fd64ac-6191-410c-94b3-8a3d1ff2611f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963298"
 ---
 # <a name="setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter"></a>Establecer los tiempos de espera para una orquestación de proceso público y un adaptador de HTTP
 Cuando se utiliza una orquestación de proceso público con un adaptador de HTTP en un escenario sincrónico, debe establecer los tiempos de espera para cada uno de ellos correctamente. El valor de tiempo de espera para la orquestación (tiempo para realizar) debe ser menor que el tiempo de espera para el adaptador HTTP (tiempo de espera de solicitud). Esto es porque si la configuración del adaptador de HTTP es menor, pudo instalar el adaptador de tiempo de espera antes de la orquestación. Esto proporciona al control de adaptador del proceso. La orquestación debe tener el control del proceso; por lo tanto, su valor de tiempo de espera debe ser menor.  

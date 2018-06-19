@@ -1,14 +1,14 @@
 ---
 title: Ejecutar procedimientos almacenados en SQL Server mediante el adaptador de SQL | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245626a7-f546-4aca-90df-c0579139a872
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224060"
 ---
 # <a name="execute-stored-procedures-in-sql-server-using-the-sql-adapter"></a>Ejecutar procedimientos almacenados en SQL Server mediante el adaptador de SQL
 Aparecen los Transact-SQL y procedimientos almacenados de CLR en SQL Server como operaciones en [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] en el **procedimientos** nodo durante el uso de la [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] o [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. Los nombres de las operaciones exponen por la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] son los mismos que el nombre del procedimiento almacenado en SQL Server. Todos los parámetros del procedimiento almacenado se exponen en la operación correspondiente. El parámetro de salida contiene el valor devuelto del procedimiento almacenado. El conjunto de resultados del procedimiento almacenado es una matriz de conjunto de datos. Para obtener más información sobre el conjunto de datos, vea [http://go.microsoft.com/fwlink/?LinkId=196853](http://go.microsoft.com/fwlink/?LinkId=196853). La información de esquema del objeto de destino se obtiene como parte del mensaje de respuesta en tiempo de ejecución.  

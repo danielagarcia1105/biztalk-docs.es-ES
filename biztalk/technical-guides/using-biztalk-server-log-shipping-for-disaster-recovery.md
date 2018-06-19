@@ -1,14 +1,14 @@
 ---
-title: "Usar para la recuperación ante desastres de trasvase de registros de servidor BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Usar para la recuperación ante desastres de trasvase de registros de servidor BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d65015c-de53-4590-b644-5c2f66f763db
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302300"
 ---
 # <a name="using-biztalk-server-log-shipping-for-disaster-recovery"></a>Uso de recuperación ante desastres de trasvase de registros de servidor BizTalk Server
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]implementa la base de datos en espera funciones mediante el uso de la base de datos de trasvase de registros. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]trasvase de registros automatiza la copia de seguridad y restauración de archivos de registro de transacciones y de base de datos, lo que permite un servidor en espera reanudar el procesamiento de base de datos en caso de que se produce un error en el servidor de base de datos de producción.  

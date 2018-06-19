@@ -1,14 +1,14 @@
 ---
 title: Casos de uso habitual | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da60b5b0-79fc-481c-922a-1f8024de9cf2
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295388"
 ---
 # <a name="typical-use-cases"></a>Casos de uso típico
 Esta sección describen los casos de uso más comunes y escenarios identificados para la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. Para cada una de ellas, el tema describe el procesamiento necesario, el resultado y un diagrama del flujo de procesos. Algunos de los escenarios igualarse a usar las aplicaciones de ejemplo proporcionadas con la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], y el tema explica cómo instalar y ejecutar el ejemplo correspondiente.  

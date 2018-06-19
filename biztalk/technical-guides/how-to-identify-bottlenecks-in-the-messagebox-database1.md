@@ -1,14 +1,14 @@
 ---
-title: "Cómo identificar cuellos de botella en el cuadro de mensajes Database1 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo identificar cuellos de botella en el cuadro de mensajes Database1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a039164-5ca6-4cbc-b307-c5d4ae800689
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297660"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-messagebox-database"></a>Cómo identificar cuellos de botella en la base de datos de cuadro de mensajes
 Para identificar cuellos de botella en la base de datos de cuadro de mensajes, en primer lugar debe asegurarse de que se haya iniciado el servicio del Agente de SQL Server. Cambiar el estado de inicio del servicio de Manual a automático para que si se reinicia el servidor, el servicio se reiniciará automáticamente.  

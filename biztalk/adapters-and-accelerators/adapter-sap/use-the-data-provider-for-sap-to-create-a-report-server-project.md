@@ -1,14 +1,14 @@
 ---
 title: Usar el proveedor de datos de SAP para crear un proyecto de servidor de informes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fe985b5-ba67-4179-a31c-4f41106c32be
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962762"
 ---
 # <a name="use-the-data-provider-for-sap-to-create-a-report-server-project"></a>Usar el proveedor de datos de SAP para crear un proyecto de servidor de informes
 Debe crear un servidor de informes del proyecto, con el [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], para generar informes de los datos disponibles en un sistema SAP. Este tema proporciona instrucciones sobre cómo crear un proyecto de servidor de informes.  

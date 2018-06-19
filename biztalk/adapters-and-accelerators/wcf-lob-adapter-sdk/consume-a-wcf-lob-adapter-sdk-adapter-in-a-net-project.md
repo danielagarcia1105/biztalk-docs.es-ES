@@ -1,14 +1,14 @@
 ---
 title: Utilizar un adaptador de SDK de adaptador LOB de WCF en un proyecto .NET | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6934b96d-5704-4f3c-b53f-4e36e352a338
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966834"
 ---
 # <a name="consume-a-wcf-lob-adapter-sdk-adapter-in-a-net-project"></a>Utilizar un adaptador de SDK de adaptador LOB de WCF en un proyecto de .NET
 Para consumir un adaptador que se generan con el [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] de [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], debe agregar una referencia de servicio al proyecto. Puede hacerlo:  

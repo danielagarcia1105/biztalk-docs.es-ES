@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22301972"
 ---
 # <a name="updating-using-side-by-side-versioning"></a>Actualizar utilizando el control de versiones en paralelo
 Si no se pueden programar el tiempo de inactividad o tengan instancias de orquestación de ejecución muy prolongada que no se puede finalizar, control de versiones en paralelo puede ser necesario. En este tipo de actualización, dos versiones de la misma aplicación o los artefactos de la aplicación ejecutan en paralelo. El tiempo de ejecución de .NET inherentemente permite la ejecución y que se implementen los ensamblados con el mismo nombre pero con diferente versión y BizTalk Server también permite.  

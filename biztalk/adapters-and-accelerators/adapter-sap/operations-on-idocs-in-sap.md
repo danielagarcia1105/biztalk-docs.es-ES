@@ -1,11 +1,11 @@
 ---
 title: Operaciones en IDOC en SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOC, operations to receive an
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - IDOC, operations to send an
 - RFC server
 ms.assetid: 6abcc646-c7a3-48cf-a09e-01f516dcef97
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964554"
 ---
 # <a name="operations-on-idocs-in-sap"></a>Operaciones en IDOC en SAP
 IDOC está estandarizados documentos EDI similar que es compatible con SAP para comunicarse de forma asincrónica con SAP y los sistemas SAP no. IDOC se usa para enviar y recibir documentos de "business", como pedidos de ventas, por ejemplo, a o desde el sistema SAP de un socio comercial o un programa externo.  

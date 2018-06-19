@@ -1,14 +1,14 @@
 ---
-title: "Invocar programas simultáneos en Oracle E-Business Suite mediante el modelo de servicio WCF | Documentos de Microsoft"
-ms.custom: 
+title: Invocar programas simultáneos en Oracle E-Business Suite mediante el modelo de servicio WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e227c60f-f6fe-40bf-bf41-2784a4428ad0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964634"
 ---
 # <a name="invoke-concurrent-programs-in-oracle-e-business-suite-using-the-wcf-service-model"></a>Invocar programas simultáneos en Oracle E-Business Suite mediante el modelo de servicio WCF
 Oracle E-Business Suite expone programas simultáneos que se pueden ejecutar para realizar operaciones específicas en las aplicaciones de Oracle. Cada aplicación de Oracle tiene un conjunto de programas simultáneos estándares (que son los mismos en todas las operaciones) y determinados programas simultáneos que son específicos de una aplicación de Oracle. La [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expone todos los programas simultáneos como las operaciones que los clientes de adaptador pueden invocar. Para obtener más información acerca del modo en que el adaptador admite programas simultáneos, consulte [operaciones en programas simultáneos](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md).  

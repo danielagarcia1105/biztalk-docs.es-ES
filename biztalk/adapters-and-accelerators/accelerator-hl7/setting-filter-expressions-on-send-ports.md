@@ -1,11 +1,11 @@
 ---
-title: "Establecer expresiones de filtro en puertos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Establecer expresiones de filtro en puertos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, context properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - context properties, filtering
 - filtering, context properties
 ms.assetid: 48c7c83b-9464-4ed9-bd8d-cf5b75e16702
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206084"
 ---
 # <a name="setting-filter-expressions-on-send-ports"></a>Expresiones de filtro de la configuración de puertos de envío
 Establecer propiedades de contexto en expresiones de filtro en el puerto de envío para controlar el puerto que envía. Puede establecer las expresiones de filtro con un número de operadores que ofrecen flexibilidad en cómo filtrar la propiedad (igualdad o desigualdad, existe, mayor que, mayor o igual a, menor que y menor o igual que).  

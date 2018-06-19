@@ -1,14 +1,14 @@
 ---
-title: "Cómo agregar metadatos de adaptador a un proyecto de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo agregar metadatos de adaptador a un proyecto de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e439e5bf-94b3-4582-bacc-b058e6eb8e17
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969066"
 ---
 # <a name="how-to-add-adapter-metadata-to-a-biztalk-project"></a>Cómo agregar metadatos de adaptador a un proyecto de BizTalk
 El Asistente para agregar metadatos de adaptador le permite agregar metadatos de adaptador a un proyecto de BizTalk. Esos datos incluyen esquemas, tipos de mensajes y tipos de puertos necesarios para comunicarse con un adaptador desde una orquestación. Use este asistente con los adaptadores de aplicación, como FTP, para insertar los esquemas correspondientes a dichos adaptadores en el sistema. Tenga en cuenta que los adaptadores de transporte, como HTTP, no suelen usar esquemas.  

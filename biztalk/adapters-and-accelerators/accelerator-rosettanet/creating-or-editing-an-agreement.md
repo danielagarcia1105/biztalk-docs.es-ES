@@ -17,7 +17,7 @@ helpviewer_keywords:
 - modifying, agreements
 - agreements, trading partners
 ms.assetid: 4bbe4b57-d6ec-4448-9c80-2aecd98e0dc7
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25962234"
 ---
 # <a name="creating-or-editing-an-agreement"></a>Crear o editar un acuerdo
 En este tema se describe cómo crear o editar un acuerdo entre socios comerciales. Un acuerdo entre socios comerciales configura la relación entre dos socios comerciales, incluidos sus identidades; el proceso de la interfaz de socio (PIP); la acción de señal y sincronizar las direcciones URL; y los protocolos asociados.  

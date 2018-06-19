@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206804"
 ---
 # <a name="step-6-create-a-send-port-to-deliver-query-messages"></a>Paso 6: Crear un puerto de envío para entregar los mensajes de consulta
 En este paso, creará el puerto de envío para entregar las consultas entrantes (consulta ^ Q01 mensajes) para el sistema de información de Hospital (HIS).  

@@ -1,15 +1,15 @@
 ---
 title: Adaptador de JD Edwards OneWorld | Documentos de Microsoft
-description: "Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para J.D. Edwards OneWorld en BizTalk Server"
-ms.custom: 
+description: Instalar, recorre tutoriales paso a paso, obtenga información acerca de la arquitectura, utilizan la seguridad SSO, crear las aplicaciones, importar el archivo de enlace y agregar el control de excepciones cuando se usa el adaptador de BizTalk para J.D. Edwards OneWorld en BizTalk Server
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5df8cd89-d9df-41ca-9a2c-b9d7fbcd06f2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015933"
 ---
 # <a name="jd-edwards-oneworld-adapter"></a>Adaptador de JD Edwards OneWorld
 El adaptador de Microsoft BizTalk para JD Edwards OneWorld le permite usar las funciones empresariales de JD Edwards OneWorld en BizTalk Server. En las siguientes secciones se trata la configuración del adaptador de BizTalk para JD Edwards OneWorld para obtener acceso a información específica de JD Edwards OneWorld.  

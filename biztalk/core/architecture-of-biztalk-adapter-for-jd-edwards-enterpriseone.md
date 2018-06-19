@@ -1,15 +1,15 @@
 ---
 title: Arquitectura de BizTalk Adapter para JD Edwards EnterpriseOne | Documentos de Microsoft
-description: "Describe los servicios de entrada en tiempo de diseño y tiempo de ejecución y eventos de salida en tiempo de diseño y tiempo de ejecución en el adaptador de JD Edwards EnterpriseOne en BizTalk"
-ms.custom: 
+description: Describe los servicios de entrada en tiempo de diseño y tiempo de ejecución y eventos de salida en tiempo de diseño y tiempo de ejecución en el adaptador de JD Edwards EnterpriseOne en BizTalk
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0441c5d2-6a46-45b6-8ab5-0bdac3590f56
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013763"
 ---
 # <a name="architecture-of-biztalk-adapter-for-jd-edwards-enterpriseone"></a>Arquitectura del adaptador de BizTalk para JD Edwards EnterpriseOne
 El Adaptador de Microsoft BizTalk para JD Edwards EnterpriseOne proporciona acceso a las funciones empresariales de JD Edwards EnterpriseOne. JD Edwards EnterpriseOne se comunica entre equipos cliente y servidor usando una arquitectura de mensajería propia denominada JDENet. JDENet se implementa mediante las clases de conector de JD Edwards EnterpriseOne que se encuentran en los archivos JAR, Connector.jar y Kernel.jar. La comunicación se implementa con TCP/IP como protocolo de transporte, con un puerto predeterminado 6009 o 6010. Para obtener una descripción de dónde se establece este valor, consulte [agregar los artefactos a la administración de BizTalk Server](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md).  

@@ -1,15 +1,15 @@
 ---
-title: "Solución de problemas del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft"
-description: "Solucionar problemas de instalación y errores comunes con el Kit de herramientas de ESB en BizTalk Server"
-caps.latest.revision: "2"
+title: Solución de problemas del Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
+description: Solucionar problemas de instalación y errores comunes con el Kit de herramientas de ESB en BizTalk Server
+caps.latest.revision: 2
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1ea2d56-2ace-40f2-80df-8a7489bbfc2e
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295348"
 ---
 # <a name="troubleshoot-the-biztalk-esb-toolkit"></a>Solucionar problemas del Kit de herramientas de ESB de BizTalk
 

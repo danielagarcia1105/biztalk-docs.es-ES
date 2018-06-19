@@ -1,14 +1,14 @@
 ---
 title: Nodos de grupo de elecciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 466b525d-4d8c-4b8e-830d-eee27845c0dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970402"
 ---
 # <a name="choice-group-nodes"></a>Nodos Grupos de elecciones
 En el Editor de BizTalk, puede insertar un **grupo de elecciones** nodo para contener otros nodos (o subárboles completos de nodos), solo uno de los cuales puede aparecer en un mensaje de instancia. Un determinado mensaje de instancia, si es válido, solo tendrá presente una de las elecciones. Los nodos contenidos deben ser nodos que se correspondan con elementos XML, pero no pueden ser nodos que se correspondan con atributos XML.  

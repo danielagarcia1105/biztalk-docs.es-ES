@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961466"
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a>Paso 3: Crear e implementar un Project_hl7_main (mensaje) del evento de desencadenador
 En este paso, creará el esquema utilizado por un mensaje de evento de desencadenador. Por ejemplo, el sistema de admisión de descarga y la transferencia (ADT) envía un mensaje para el sistema de información de Hospital (HIS). Utilice este esquema para definir el formato del mensaje.  

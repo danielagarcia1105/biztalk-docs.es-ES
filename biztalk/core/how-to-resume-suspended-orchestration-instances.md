@@ -16,7 +16,7 @@ helpviewer_keywords:
 - resuming, orchestrations
 - HAT, debug mode
 ms.assetid: da133183-68d9-48d1-9601-8f6d4d5b8898
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22316896"
 ---
 # <a name="how-to-resume-suspended-orchestration-instances"></a>Cómo reanudar instancias de orquestación suspendidas
 Si ha suspendido instancias de orquestación enumeradas como "suspendidas reanudables", puede intentar reanudarlas desde el panel de previsualización o de resultados de consulta. La reanudación de la instancia de orquestación sólo se realizará correctamente si el problema subyacente que ocasionó su suspensión se ha resuelto.  

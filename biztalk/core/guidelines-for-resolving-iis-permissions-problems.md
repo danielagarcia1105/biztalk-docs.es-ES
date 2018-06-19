@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970578"
 ---
 # <a name="guidelines-for-resolving-iis-permissions-problems"></a>Directrices para solucionar problemas de permisos de IIS
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hace abundante uso de Microsoft Internet Information Services (IIS) para la compatibilidad con servicios Web y para su utilización con los adaptadores de HTTP, SOAP y Windows SharePoint Services.  

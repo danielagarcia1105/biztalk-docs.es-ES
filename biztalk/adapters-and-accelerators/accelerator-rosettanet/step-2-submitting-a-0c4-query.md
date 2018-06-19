@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965682"
 ---
 # <a name="step-2-submitting-a-0c4-query"></a>Paso 2: Enviar un 0c consultar 4
 En este paso, preparará y enviará una solicitud mediante el proceso de interfaz de socio (PIP) 0C4: consulta sincrónica de prueba. RosettaNet define este PIP para asegurarse de que un canal de comunicación sincrónica funciona correctamente entre dos organizaciones diferentes. Dado que este PIP tiene un patrón de comunicación sincrónica, [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] no envía confirmaciones de recepción. Este PIP sigue el mismo patrón que otros PIP sincrónicos de doble acción, como el PIP 2A9: consulta de información técnica del producto.  

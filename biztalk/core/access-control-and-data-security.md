@@ -1,11 +1,11 @@
 ---
 title: Control de acceso y seguridad de los datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - access control, BizTalk Server Operator role
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - user accounts, access control
 - BizTalk Server Operator role
 ms.assetid: f04fd4a3-0f8c-4170-934a-9cc77edd7f34
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225644"
 ---
 # <a name="access-control-and-data-security"></a>Control de acceso y seguridad de los datos
 BizTalk Server limita el acceso a sus procesos y bases de datos concediendo derechos de usuario mínimos; se pueden proteger datos importantes del sistema empleando características de Microsoft Windows Server. Por motivos de seguridad, los administradores de BizTalk Server y los hosts de BizTalk sólo deben tener los derechos de usuario necesarios para realizar sus tareas.  

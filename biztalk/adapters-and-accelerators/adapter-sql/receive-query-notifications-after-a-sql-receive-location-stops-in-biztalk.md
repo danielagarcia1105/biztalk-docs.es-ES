@@ -1,14 +1,14 @@
 ---
-title: "Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e70fa4c2-d81b-4eb0-a23d-871b64c881e6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223020"
 ---
 # <a name="receive-query-notifications-after-a-receive-location-breakdown-in-sql-using-biztalk-server"></a>Recibir notificaciones de consulta después de una recepción ubicación desglose en SQL con BizTalk Server
 Considere un escenario donde haya una aplicación de BizTalk que recibe mensajes de notificación de cambio de base de datos cuando se realizan cambios en la tabla de empleados. Si la ubicación de recepción configurado como parte de desglosa la aplicación de BizTalk y al mismo tiempo los registros se agregan a la tabla de empleados, no recibirá notificaciones para los registros agregados recientemente. También no sabrá cuando la ubicación de recepción esté disponible de nuevo. El [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] expone una propiedad de enlace, **NotifyOnListenerStart**, que se pueden configurar para recibir una notificación que se ha recuperado la ubicación de recepción. Puede especificar los siguientes valores para la **NotifyOnListenerStart** propiedad de enlace:  

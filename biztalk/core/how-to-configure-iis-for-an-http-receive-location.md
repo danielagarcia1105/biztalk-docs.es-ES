@@ -1,15 +1,15 @@
 ---
-title: "Configurar IIS para la ubicación de recepción HTTP | Documentos de Microsoft"
-description: "Crear la aplicación de recepción de HTTP de BTS en IIS y probar la configuración del grupo de aplicaciones de BizTalk Server"
-ms.custom: 
+title: Configurar IIS para la ubicación de recepción HTTP | Documentos de Microsoft
+description: Crear la aplicación de recepción de HTTP de BTS en IIS y probar la configuración del grupo de aplicaciones de BizTalk Server
+ms.custom: ''
 ms.date: 10/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22645176"
 ---
 # <a name="configure-iis-for-an-http-receive-location"></a>Configurar IIS para la ubicación de recepción de HTTP
 HTTP ubicación de recepción utiliza una aplicación de Internet Information Services (IIS). Ubicación dentro de IIS de recepción de este tema se enumeran los pasos para habilitar HTTP. 

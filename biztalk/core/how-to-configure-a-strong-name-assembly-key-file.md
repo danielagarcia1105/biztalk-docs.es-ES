@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar un archivo de clave de ensamblado de nombre seguro | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un archivo de clave de ensamblado de nombre seguro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5778a8ec-f5f7-4ae1-a57e-99f6503f044c
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968810"
 ---
 # <a name="how-to-configure-a-strong-name-assembly-key-file"></a>Cómo configurar un archivo de clave de ensamblado de nombre seguro
 En el proceso de implementación de una solución de BizTalk, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] primero genera los ensamblados. El proceso de implementación necesita que cada ensamblado esté firmado de forma segura. Fuertemente puede firmar los ensamblados asociando el proyecto con un archivo de clave de ensamblado de nombre seguro. Antes de implementar una solución desde [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] si aún no ha generado un archivo de clave de ensamblado de nombre seguro, use el procedimiento siguiente para ello y para asignarlo a cada proyecto de la solución.  

@@ -1,14 +1,14 @@
 ---
-title: "Crear un paquete de implementación con el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Crear un paquete de implementación con el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10022981-7944-45d6-a78a-4d680a79b010
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966562"
 ---
 # <a name="create-a-deployment-package-with-the-wcf-lob-adapter-sdk"></a>Crear un paquete de implementación con el SDK de adaptador LOB de WCF
 Durante el ciclo de desarrollo, puede compilar, depurar y ejecutar el adaptador dentro de Visual Studio. El resultado de una solución de adaptador es un ensamblado DLL. Puede generar la solución de adaptador mediante el IDE de Visual Studio o usar los scripts de devenv.exe para crear un ensamblado del adaptador. Una vez que el adaptador se ha desarrollado y está listo para su uso en el entorno del consumidor de adaptador, debe crear un paquete de implementación que permite que el adaptador para instalarse en entornos de prueba y producción.  

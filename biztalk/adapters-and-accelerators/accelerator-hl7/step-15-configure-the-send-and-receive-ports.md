@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206460"
 ---
 # <a name="step-15-configure-the-send-and-receive-ports"></a>Paso 15: Configurar el envío y puertos de recepción
 En los pasos anteriores, creó un envío lógico y puerto de recepción mediante el Diseñador de orquestaciones y establece el enlace de puerto para "Especificar más tarde". En este paso, use el Explorador de BizTalk para finalizar la configuración del puerto definiendo las ubicaciones físicas de origen y de destino y enlazar los puertos físicos a los puertos lógicos que creó en la orquestación.  

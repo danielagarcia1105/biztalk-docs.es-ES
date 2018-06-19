@@ -1,15 +1,15 @@
 ---
 title: "BizTalk Server 2016: ' s New e instalación | Documentos de Microsoft"
-description: "Introducción a lo que es nuevo y la instalación y la actualización a BizTalk Server 2016"
-ms.custom: 
+description: Introducción a lo que es nuevo y la instalación y la actualización a BizTalk Server 2016
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 08/10/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 229043b3-b1a4-47e9-9c0e-1fba5ec5b417
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300108"
 ---
 # <a name="biztalk-server-2016-whats-new-and-installation"></a>BizTalk Server 2016: novedades e instalación
 

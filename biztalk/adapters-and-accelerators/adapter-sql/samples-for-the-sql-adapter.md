@@ -1,15 +1,15 @@
 ---
 title: Ejemplos de adaptadores SQL | Documentos de Microsoft
 description: Ejemplos de adaptador de WCF de SQL que pueden utilizarse con BizTalk Server, el modelo de servicio WCF y el modelo del canal WCF
-ms.custom: 
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2438696-bc51-46df-81ca-00c17a52736e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013947"
 ---
 # <a name="samples-for-the-sql-adapter"></a>Ejemplos del adaptador de SQL
 

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969546"
 ---
 # <a name="how-to-configure-functoid-input-parameters"></a>Cómo configurar parámetros de entrada de functoid
 La configuración correcta de los parámetros de entrada de los functoids en la asignación es uno de los aspectos más importantes, y que más errores potenciales puede ocasionar, al utilizar los functoids. Puede configurar los parámetros de entrada de functoid como sigue:  

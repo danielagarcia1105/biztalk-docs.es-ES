@@ -1,11 +1,11 @@
 ---
 title: Functoid personalizado (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, customizing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML tools
 - examples, XML tools
 ms.assetid: 9f1eb260-ff62-46f5-a517-57f4e9172b35
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970522"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>Functoid personalizado (ejemplo de BizTalk Server)
 El ejemplo de functoid personalizado muestra cómo escribir un functoid personalizado para el asignador de BizTalk. Puede agregar el functoid al cuadro de herramientas de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. El functoid se mostrará en el cuadro de herramientas cuando el asignador de BizTalk esté en el foco.  
@@ -42,7 +43,7 @@ El ejemplo de functoid personalizado muestra cómo escribir un functoid personal
 >  Si reutiliza el código de ejemplo del functoid personalizado para implementar su propio functoid, debe asegurarse de cambiar el atributo de GUID a uno que sea único.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\XmlTools\CustomFunctoid  
+ *\<Ejemplos de ruta de acceso\>* \XmlTools\CustomFunctoid  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210140"
 ---
 # <a name="step-1-creating-a-new-biztalk-solution-for-the-contoso-price-and-availability-request"></a>Paso 1: Crear una nueva solución de BizTalk para la solicitud de disponibilidad y el precio de Contoso
 En este paso, creará un [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solución para el proyecto de Contoso Price y solicitudes de disponibilidad. Este proyecto contendrá los esquemas y asignaciones para las solicitudes y respuestas para los mensajes de precio y disponibilidad 3A2.  

@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BAPI
 - IDOC
 ms.assetid: 5f0d7c1f-d6e1-4c56-8d8e-1f5d537aa3ce
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218444"
 ---
 # <a name="browse-search-and-get-sap-metadata"></a>Explorar, buscar y obtener metadatos SAP
 El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] superficies metadatos desde el sistema SAP. Estos metadatos describen la estructura del mensaje para comunicarse con un sistema SAP mediante el adaptador. El [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] es compatible con dos interfaces para recuperar los metadatos.  

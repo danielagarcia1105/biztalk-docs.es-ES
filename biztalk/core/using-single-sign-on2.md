@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-peoplesoft-enterprise/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2c278864c45e045cd04c539ad8b077c998242fe9
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014619"
 ---
 # <a name="using-single-sign-on"></a>Mediante el inicio de sesión único
 Microsoft BizTalk Adapter para PeopleSoft Enterprise admite el inicio de sesión único (SSO). Una aplicación afiliada creada por las herramientas de inicio de sesión único empresarial representa un sistema servidor como PeopleSoft.  

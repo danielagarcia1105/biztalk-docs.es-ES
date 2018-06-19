@@ -1,11 +1,11 @@
 ---
-title: "Reparación y nuevo envío de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Reparación y nuevo envío de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, errors
 - messages, resubmitting
 ms.assetid: 5bc6bfa2-8210-4dd3-89bb-5455e294ca92
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209988"
 ---
 # <a name="message-repair-and-new-submission"></a>Reparación de mensajes y nuevo envío
 La característica de reparación de mensajes y nuevo envío de [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona una manera para que pueda reparar MT y MX mensajes que no superan la validación. Mediante el sitio de SharePoint de MRSR (implementado por el usuario), puede ver cómo el mensaje de error de validación. En el sitio MRSR, puede abrir el mensaje en un formulario de InfoPath que permite identificar el error, repare el mensaje y enviarlo para volver a procesar.  

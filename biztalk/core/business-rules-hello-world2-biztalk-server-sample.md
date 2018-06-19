@@ -1,17 +1,17 @@
 ---
 title: Business Rules Hello World2 (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 2a88a2a0-8cb6-4373-8441-0ab04345a477
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967306"
 ---
 # <a name="business-rules-hello-world2-biztalk-server-sample"></a>Business Rules Hello World2 (ejemplo de BizTalk Server)
 El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello World1 ya que le mostrará cómo a la versión, publicar e implementar la regla XML que se establece en el almacén de reglas SQL compartido y cómo ejecutar la directiva con la **directiva** objeto proporciona el marco de trabajo de reglas de negocios. El ejemplo también muestra las actualizaciones de directivas dinámicas en funcionamiento.  
@@ -55,7 +56,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
 >  Para obtener información importante acerca de todos los ejemplos de este SDK, vea [ejemplos](../core/samples-in-the-sdk.md).  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\  
+ *\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -74,7 +75,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\  
+     *\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -93,7 +94,7 @@ El ejemplo Business Rules Hello World2 amplía el ejemplo Business Rules Hello W
   
 1.  En una ventana de comandos, desplácese a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Business Rules\Business reglas Hello World2\bin\Debug\  
+     *\<Ejemplos de ruta de acceso\>* \Business Rules\Business reglas Hello World2\bin\Debug\  
   
 2.  En la ventana de comandos, escriba el nombre del archivo para este ejemplo (**BusinessRulesHelloWorld2.exe**), y, a continuación, presione ENTRAR.  
   
@@ -135,7 +136,7 @@ Press the ENTER to continue after updating the policy...
   
 5.  Puede cambiar la condición de regla y la acción en función de sus necesidades. Para este procedimiento, haga clic en **rule1** en **versión 1.1 (sin guardar)**. En el panel derecho, haga clic en **condiciones**y, a continuación, haga clic en **Agregar operador lógico NOT**. Agregar un **NOT lógico** operación **no es igual a** en el predicado es equivalente a usar un **igual** predicado.  
   
-6.  Haga clic en el nodo **versión 1.1 (sin guardar)**y, a continuación, haga clic en **guardar**. Haga clic en nuevo y, a continuación, haga clic en **publicar**. Haga clic en una tercera vez y haga clic en **implementar**.  
+6.  Haga clic en el nodo **versión 1.1 (sin guardar)** y, a continuación, haga clic en **guardar**. Haga clic en nuevo y, a continuación, haga clic en **publicar**. Haga clic en una tercera vez y haga clic en **implementar**.  
   
 7.  En la ventana de comandos pausada que le pide que presione cualquier tecla para continuar tras la actualización de la directiva, presione cualquier tecla.  
   

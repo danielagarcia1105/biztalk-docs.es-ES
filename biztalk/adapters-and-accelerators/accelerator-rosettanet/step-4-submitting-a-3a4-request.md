@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965578"
 ---
 # <a name="step-4-submitting-a-3a4-request"></a>Paso 4: Enviar una solicitud de 3A4
 En este paso, se preparará y enviará una solicitud con el proceso de interfaz de socio (PIP) para un 3A4 - pedido de compra de la solicitud. Este PIP permite a una organización de comprador enviar una solicitud de pedido de compra a un proveedor. Por lo general, se solicita la 3A4 - pedido de compra de solicitud después de ejecutar una consulta de la disponibilidad de producto mediante el 3A2 - solicitud precio y disponibilidad PIP. El PIP 3A4 es una PIP asincrónica que envía confirmaciones de recepción.  

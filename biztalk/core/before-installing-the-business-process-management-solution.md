@@ -1,14 +1,14 @@
 ---
-title: "Requisitos para la solución de administración de procesos empresariales installg | Documentos de Microsoft"
-ms.custom: 
+title: Requisitos para la solución de administración de procesos empresariales installg | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: addb3178-c64c-43da-9f25-68b2adb6e305
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450589"
 ---
 # <a name="before-installing-the-business-process-management-solution"></a>Antes de instalar la solución de administración de proceso empresarial
 

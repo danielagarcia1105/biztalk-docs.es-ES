@@ -1,17 +1,17 @@
 ---
-title: "Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring using a port binding file
 ms.assetid: c637971c-3ecd-4026-8f74-bd5173774438
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217596"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-sap"></a>Configurar un enlace de puerto físico mediante un archivo de enlace de puerto a SAP
 Cuando se usa el [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] para generar metadatos para un artefacto SAP, distinto de los archivos de esquema, el [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] también genera un archivo de enlace de puerto. Puede importar este archivo de enlace en la aplicación de BizTalk para crear un envío físico o puerto de recepción. [Reutilizar los enlaces del adaptador SAP](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) incluye pasos para importar archivos de enlace. Si importa este archivo de enlace, no es necesario crear manualmente un envío físico, o puerto de recepción.  

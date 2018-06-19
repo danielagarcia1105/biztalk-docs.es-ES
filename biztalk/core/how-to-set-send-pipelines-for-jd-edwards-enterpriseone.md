@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 263f1f5d9441a30687df3e1a7a1170b7bf35e2fc
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015075"
 ---
 # <a name="how-to-set-send-pipelines-for-jd-edwards-enterpriseone"></a>Establecimiento de canalizaciones de envío para JD Edwards EnterpriseOne
 Microsoft BizTalk Adapter para JD Edwards EnterpriseOne requiere que seleccione **XMLTransmit** y **XMLReceive** para el envío y las canalizaciones de recepción respectivamente.  

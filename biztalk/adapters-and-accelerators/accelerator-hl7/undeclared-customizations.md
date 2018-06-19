@@ -1,11 +1,11 @@
 ---
 title: Las personalizaciones no declaradas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - undeclared customizations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - customizing, Z objects
 - customizing, undeclared customizations
 ms.assetid: f062dbb7-2c78-47ea-a927-99e1fba4854b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206492"
 ---
 # <a name="undeclared-customizations"></a>Personalizaciones no declaradas
 Puede agregar datos a un mensaje sin tener que definir el formato o la naturaleza de los datos. La forma de hacerlo es mediante el uso de los segmentos de Z no declarados. Segmentos de Z no declarados son instancias inesperados al final de un mensaje. El validador de analizador/XML no valida el segmento. No se define ningún esquema. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) trata el segmento como un objeto binario grande (BLOB).  

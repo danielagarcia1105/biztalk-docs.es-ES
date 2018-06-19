@@ -1,17 +1,17 @@
 ---
-title: "Propiedades de proveedor de datos de la cadena de conexión de Siebel | Documentos de Microsoft"
-ms.custom: 
+title: Propiedades de proveedor de datos de la cadena de conexión de Siebel | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - conncting, to the Siebel system
 - Data Provider for Siebel, connection string
 ms.assetid: 8ab0c29e-e06b-4e74-be4e-9aa862a05539
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222220"
 ---
 # <a name="data-provider-properties-for-the-siebel-connection-string"></a>Propiedades de proveedor de datos de la cadena de conexión de Siebel
 El [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) utiliza el [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] para tener acceso al sistema Siebel. El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] a su vez usa la biblioteca de controles de datos de Siebel COM para tener acceso al sistema Siebel. El Control de datos de Siebel COM viene incluido con el cliente Siebel Web.  

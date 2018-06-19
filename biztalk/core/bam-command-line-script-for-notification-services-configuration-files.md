@@ -1,14 +1,14 @@
 ---
-title: "Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación | Documentos de Microsoft"
-ms.custom: 
+title: Archivos de configuración de servicios de Script de línea de comandos de BAM para la notificación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa4a460-58f9-439d-af28-0a9cb2288236
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965802"
 ---
 # <a name="bam-command-line-script-for-notification-services-configuration-files"></a>Secuencia de comandos de línea de comandos de BAM para archivos de configuración de servicios de notificación
 Los administradores utilizan la secuencia de comandos ProcessBamNSFiles.vbs para personalizar el comportamiento de los servicios de notificación de SQL Server para alertas BAM. Puede utilizar la secuencia de comandos para obtener el archivo de definición de la aplicación (ADF) de servicios de notificación y el archivo de configuración de servicios de notificación. Estos archivos se pueden modificar y, a continuación, se puede utilizar la secuencia de comandos para aplicar los cambios.  
