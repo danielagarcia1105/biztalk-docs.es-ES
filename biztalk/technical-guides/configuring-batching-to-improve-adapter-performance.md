@@ -1,14 +1,14 @@
 ---
 title: Configurar el procesamiento por lotes para mejorar el rendimiento del adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65589925-af94-45f1-b501-37c21618b2cf
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300388"
 ---
 # <a name="configuring-batching-to-improve-adapter-performance"></a>Configurar el procesamiento por lotes para mejorar el rendimiento del adaptador
 La forma en que un adaptador procesa un lote puede tener un efecto significativo en el rendimiento. Puesto que hay un retraso fijo con cada transacción, debe tratar de minimizar el número de transacciones mediante la combinación de varias operaciones en un solo lote.  

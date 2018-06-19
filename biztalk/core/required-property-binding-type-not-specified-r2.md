@@ -1,14 +1,14 @@
 ---
 title: Requiere el tipo de enlace de propiedad no se especifica (R2) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c8e45783-6454-44e2-867e-e30092725f51
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268812"
 ---
 # <a name="required-property-binding-type-not-specified-r2"></a>No se ha especificado la propiedad necesaria Tipo de enlace (R2)
 ## <a name="details"></a>Detalles  

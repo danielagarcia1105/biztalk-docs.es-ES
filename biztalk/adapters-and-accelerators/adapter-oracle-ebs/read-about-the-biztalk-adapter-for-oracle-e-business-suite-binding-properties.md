@@ -1,14 +1,14 @@
 ---
-title: "Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de Oracle E-Business Suite | Documentos de Microsoft"
-ms.custom: 
+title: Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de Oracle E-Business Suite | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 767907b3-59e6-4740-bc22-41bed7d88bf1
-caps.latest.revision: "56"
+caps.latest.revision: 56
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010765"
 ---
 # <a name="read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties"></a>Obtenga información sobre el adaptador de BizTalk para las propiedades de enlace de Oracle E-Business Suite
 La [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] expone varias propiedades de enlace. Al establecer estas propiedades, puede controlar algunos de los comportamientos del adaptador. Esta sección se describe la [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] propiedades de enlace. También se muestra cómo se pueden tener acceso a ellos mediante programación de .NET o estableciendo propiedades en un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] enlace de puerto físico.  

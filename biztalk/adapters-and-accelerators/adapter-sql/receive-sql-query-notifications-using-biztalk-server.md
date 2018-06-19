@@ -1,14 +1,14 @@
 ---
 title: Recibir notificaciones de consulta de SQL mediante BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69444df7-f2ae-4d1a-9b49-817b437517d8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223820"
 ---
 # <a name="receive-sql-query-notifications-using-biztalk-server"></a>Recibir notificaciones de consulta SQL con BizTalk Server
 Puede configurar el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] para recibir mensajes de notificación para SQL Server tablas o vistas. Puede especificar una instrucción SQL que el adaptador utiliza para registrar las notificaciones de con SQL Server. La instrucción de notificación puede ser una instrucción SELECT o un procedimiento almacenado que devuelve un conjunto de resultados. Para obtener más información acerca de las notificaciones de consulta, vea "Using Query Notifications" en [http://go.microsoft.com/fwlink/?LinkId=122159](http://go.microsoft.com/fwlink/?LinkId=122159). Para obtener información acerca de las consultas que se puede usar para las notificaciones de consulta, vea "Creating a Query for Notification" en [http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160).  

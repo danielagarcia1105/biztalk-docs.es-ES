@@ -1,14 +1,14 @@
 ---
-title: "Paso 7: Configurar un puerto de envío para enviar la confirmación al socio comercial | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 7: Configurar un puerto de envío para enviar la confirmación al socio comercial | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a082870-894c-4f64-a575-3681d8a5c4ea
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279068"
 ---
 # <a name="step-7-configure-a-send-port-to-send-the-acknowledgment-to-your-trading-partner"></a>Paso 7: Configurar un puerto de envío para enviar la confirmación al socio comercial
 ![Paso 7 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  

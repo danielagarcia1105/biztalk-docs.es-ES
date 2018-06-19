@@ -24,6 +24,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25974274"
 ---
 # <a name="httpsso-biztalk-server-sample"></a>HTTPSSO (ejemplo de BizTalk Server)
 El ejemplo TTPSSO muestra cómo usar la característica Inicio de sesión único empresarial (SSO) con el adaptador de HTTP de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

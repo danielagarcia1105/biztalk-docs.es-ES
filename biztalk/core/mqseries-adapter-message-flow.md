@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263548"
 ---
 # <a name="mqseries-adapter-message-flow"></a>Flujo de mensajes del adaptador de MQSeries
 Un mensaje que se origine en un equipo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pasa, en primer lugar, a un servidor MQSeries Server que se ejecute en Windows. El servidor MQSeries que se ejecuta en Windows puede estar en el mismo equipo que ejecuta el servidor BizTalk Server. El mensaje se enruta a través del servidor MQSeries Server para un equipo con Windows hasta un host del servidor MQSeries Server en un sistema operativo como UNIX. Una aplicación recupera el mensaje de la cola MQSeries.  

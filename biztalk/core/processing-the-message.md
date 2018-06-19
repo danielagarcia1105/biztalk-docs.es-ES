@@ -1,11 +1,11 @@
 ---
 title: Procesar el mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - messages, message types
 - messages, adapters
 ms.assetid: e6d1f969-20c9-41f6-85cb-46cf92656348
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266492"
 ---
 # <a name="processing-the-message"></a>Procesar el mensaje
 Todos los componentes descritos hasta el momento desempeñan una función en el procesamiento de mensajes, pues se transmiten a través de BizTalk Server. En esta sección se ofrece una descripción más detallada de la forma en la que interactúan estos componentes desde el punto de vista de sus funciones desde que se recibe un mensaje. La siguiente ilustración muestra las partes de un puerto de recepción, así como la forma en la que se transmite un mensaje a través del proceso de recepción.  

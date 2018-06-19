@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255892"
 ---
 # <a name="how-to-modify-rate-based-throttling-settings"></a>Modificación de la configuración de limitación según la velocidad
 La limitación según la velocidad de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se aplica a instancias de host que contienen orquestaciones o adaptadores de envío que reciben y entregan o procesan mensajes que se han publicado en el cuadro de mensajes. Mediante el uso de [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)], puede modificar las opciones de configuración de la limitación según la velocidad de un host determinado, en un grupo de BizTalk. Estas opciones se aplican a todas las instancias de host asignadas al host dado. En este tema se proporciona el procedimiento paso a paso para modificar esta configuración.  

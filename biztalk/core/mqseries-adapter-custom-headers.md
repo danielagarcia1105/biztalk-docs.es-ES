@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263092"
 ---
 # <a name="mqseries-adapter-custom-headers"></a>Encabezados personalizados del adaptador de MQSeries
 Debido a las estructuras de encabezado utilizadas en mensajes MQSeries, debe administrar cualquier encabezado personalizado que desee utilizar. Los encabezados personalizados deben ser parte del cuerpo de mensaje para evitar interferir entre el procesamiento de los encabezados de MQSeries. Asegúrese de evitar degradar cualquier propiedad promocionada automáticamente. Para obtener más información acerca de las propiedades promocionadas automáticamente, consulte [propiedades del adaptador de MQSeries](../core/mqseries-adapter-properties.md).  

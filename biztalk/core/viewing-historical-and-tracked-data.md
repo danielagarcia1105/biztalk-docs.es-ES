@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287692"
 ---
 # <a name="viewing-historical-and-tracked-data"></a>Visualización de datos históricos y de seguimiento
 En esta sección se proporciona información específica de la tarea sobre cómo visualizar los datos históricos y de seguimiento de la página Concentrador de grupo de la consola de administración de BizTalk Server.  

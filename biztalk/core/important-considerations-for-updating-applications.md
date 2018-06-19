@@ -1,11 +1,11 @@
 ---
 title: Consideraciones importantes para actualizar aplicaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - updating, applications
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - planning, updating
 - updating, planning
 ms.assetid: e7690bdf-943d-4bb6-b8cd-a6841b722d40
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257748"
 ---
 # <a name="important-considerations-for-updating-applications"></a>Consideraciones importantes para actualizar aplicaciones
 A continuación se indican problemas importantes que deben considerarse antes de actualizar una aplicación, especialmente si la misma se ejecuta en un entorno de producción.  

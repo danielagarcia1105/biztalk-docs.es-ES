@@ -1,17 +1,17 @@
 ---
-title: "Cómo utilizar propiedades de contexto de mensaje | Documentos de Microsoft"
-ms.custom: 
+title: Cómo utilizar propiedades de contexto de mensaje | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, building
 - building, insufficient configuration
 ms.assetid: 6ca95017-74e0-42d7-befa-93e0c1e1ecd1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975322"
 ---
 # <a name="how-to-use-message-context-properties"></a>Cómo utilizar las propiedades de contexto de mensaje
 Las propiedades del sistema son las que suele utilizar de forma interna el motor de mensajería de BizTalk Server y sus componentes. En general, no se recomienda cambiar los valores que establece el motor para estas propiedades, ya que esto puede afectar a la lógica de ejecución del motor. Sin embargo, hay numerosas propiedades que sí se pueden modificar.  

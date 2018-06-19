@@ -13,7 +13,7 @@ helpviewer_keywords:
 - streaming, support in BizTalk Server
 - streaming, support in the WCF channel model
 ms.assetid: c6cbe870-6794-4bf1-90c1-db65a242e8fe
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22217916"
 ---
 # <a name="streaming-large-object-data-types-in-oracle-database-adapter"></a>Transmisión por secuencias de tipos de datos de objetos grandes en el adaptador de la base de datos de Oracle
 El [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] es compatible con transmisión por secuencias para tipos de datos de objetos grandes (LOB) de Oracle. Con el [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] se invocan las operaciones y las respuestas se devuelven mediante el intercambio de mensajes SOAP. Un cuerpo del mensaje SOAP se compone de los nodos XML.  

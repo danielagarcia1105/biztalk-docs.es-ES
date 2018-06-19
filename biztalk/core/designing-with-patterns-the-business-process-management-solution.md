@@ -1,11 +1,11 @@
 ---
-title: "Diseñar con patrones: la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: 'Diseñar con patrones: la solución de administración de procesos empresariales | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [process management solutions], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, programming patterns
 - designing, programming patterns
 ms.assetid: 0583f4a4-01db-4d5b-a1f5-1694c1ddbd30
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239668"
 ---
 # <a name="designing-with-patterns-the-business-process-management-solution"></a>Diseñar con patrones: la solución de administración de procesos empresariales
 La solución Administración de procesos empresariales muestra una forma de construir un administrador de procesos en una aplicación de BizTalk. La solución utiliza un componente para seleccionar y controlar la secuencia de fases en el procesamiento de pedidos. La solución toma un pedido, que puede ser de un nuevo servicio, un cambio o cancelación del servicio, lo registra y lo confirma antes de pasarlo para su procesamiento. El procesamiento consta de uno o más fases de control del pedido. Por último, la solución devuelve una respuesta final a la solicitud de pedido original.  

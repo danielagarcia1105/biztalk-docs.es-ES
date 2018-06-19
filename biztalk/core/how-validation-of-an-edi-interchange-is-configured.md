@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e698b21-e234-4d7d-b101-742eff68155c
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22258020"
 ---
 # <a name="how-validation-of-an-edi-interchange-is-configured"></a>Cómo configurar la validación de un intercambio EDI
 Si el proceso de búsqueda de acuerdos determina el acuerdo en el que se resuelve un intercambio entrante o saliente, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará las propiedades del acuerdo (y no las propiedades de la canalización) para determinar el modo en que se realiza la validación. Si ningún acuerdo se resuelve en un intercambio, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usará algunas propiedades del acuerdo de reserva y algunas propiedades de la canalización en la realización de la validación.  

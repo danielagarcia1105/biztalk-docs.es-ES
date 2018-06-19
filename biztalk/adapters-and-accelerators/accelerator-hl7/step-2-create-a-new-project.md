@@ -1,18 +1,18 @@
 ---
 title: 'Paso 2: Crear un nuevo proyecto | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, projects
 - projects, creating
 - message enrichment tutorial, projects
 ms.assetid: 6e994845-53b8-4de8-a64f-32d36f7b5412
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004701"
 ---
 # <a name="step-2-create-a-new-project"></a>Paso 2: Crear un nuevo proyecto
 En este paso, se compila una nueva solución mediante la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] entorno. En primer lugar, cree un nuevo proyecto (BTAHL7V22Common) que contiene los tres esquemas comunes (para tipos de datos, segmentos y valores de tabla) que utilizan los esquemas de HL7 V2.2, incluido el esquema que se va a utilizar para el mensaje saliente de HL7. En segundo lugar, compile otro nuevo proyecto (BTAHL7V2XCommon) que contiene el esquema estándar común utilizado para los encabezados de mensajes HL7 (MSH_25_GLO_DEF).  

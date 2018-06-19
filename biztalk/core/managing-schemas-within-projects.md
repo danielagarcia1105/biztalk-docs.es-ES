@@ -1,14 +1,14 @@
 ---
 title: Administrar esquemas en proyectos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1af8d360-ccda-4e0e-824f-4ace242b5aa7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262492"
 ---
 # <a name="managing-schemas-within-projects"></a>Administrar esquemas en proyectos
 En esta sección se proporcionan instrucciones detalladas para trabajar con esquemas completos; por ejemplo, los pasos necesarios para crear un esquema, usar varios esquemas a la vez y guardar esquemas. Para obtener información sobre cómo trabajar con nodos de un esquema, vea [administrar los nodos de un esquema](../core/managing-the-nodes-within-a-schema.md).  

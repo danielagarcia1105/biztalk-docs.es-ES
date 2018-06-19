@@ -1,18 +1,18 @@
 ---
-title: "Cómo configurar ubicación de recepción de MSMQ | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar ubicación de recepción de MSMQ | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, receive locations
 - receive locations, MSMQ adapters
 - configuring [MSMQ adapters], receive locations
 ms.assetid: ba25cf43-18f1-4c19-84fb-74c7b82b95a9
-caps.latest.revision: "43"
+caps.latest.revision: 43
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008253"
 ---
 # <a name="how-to-configure-an-msmq-receive-location"></a>Cómo configurar una ubicación de recepción MSMQ
 Se pueden establecer variables de adaptador de ubicación de recepción de MSMQ en la consola de administración de BizTalk Server. Si no se definen las propiedades en la ubicación de recepción, se utilizarán los valores predeterminados del controlador de recepción definidos en la consola de administración de BizTalk Server.  

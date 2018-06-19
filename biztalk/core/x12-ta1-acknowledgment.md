@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68568a1a-3669-46f4-8edc-8d057b012544
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973706"
 ---
 # <a name="x12-ta1-acknowledgment"></a>Confirmación TA1 de X12
 La confirmación técnica TA1 de X12 informa del estado del procesamiento de un encabezado de intercambio y finalizador mediante el receptor de direcciones. Si los segmentos ISA y IEA del mensaje codificado con X12 son válidos, se envía una confirmación TA1 positiva, siempre que el estado del otro contenido también sea válido. En caso contrario, la confirmación TA1 se envía con un código de error.  

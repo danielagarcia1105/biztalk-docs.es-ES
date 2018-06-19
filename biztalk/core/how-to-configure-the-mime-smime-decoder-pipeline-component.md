@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de descodificador de MIME-SMIME | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de descodificador de MIME-SMIME | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, attachments
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - messages, digital signatures
 - messages, security
 ms.assetid: bfd44893-f1c3-4524-abc6-f820b8c0ef07
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249724"
 ---
 # <a name="how-to-configure-the-mime-smime-decoder-pipeline-component"></a>Cómo configurar el componente de canalización de descodificador de MIME-SMIME
 El componente de canalización de descodificador de MIME/SMIME se utiliza para descodificar y descifrar mensajes MIME/SMIME codificados y para comprobar firmas digitales de mensajes firmados. Este componente es útil cuando se necesita un intercambio seguro de documentos entre socios comerciales externos y el servidor BizTalk Server. Este componente también puede utilizarse para recibir mensajes con datos adjuntos.  

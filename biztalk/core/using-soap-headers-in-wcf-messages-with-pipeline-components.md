@@ -1,11 +1,11 @@
 ---
-title: "Usar encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft"
-ms.custom: 
+title: Usar encabezados SOAP en mensajes WCF con componentes de canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, SOAP headers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SOAP headers, WCF services
 - WCF services, SOAP headers
 ms.assetid: b02f2913-4948-4de9-bc59-73bab40aa1a0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973842"
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-pipeline-components"></a>Usar encabezados SOAP en mensajes WCF con componentes de canalización
 Se pueden establecer los encabezados SOAP personalizados con los adaptadores de WCF en componentes de canalización. Usar una combinación del nombre de la propiedad de contexto, **OutboundCustomHeaders**y el espacio de nombres de destino **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**. Cuando se usa el **OutboundCustomHeaders** propiedad, la propiedad debe tener la \< **encabezados** \> elemento como el elemento raíz. Todos los encabezados SOAP personalizados deben colocarse dentro de la \< **encabezados** \> elemento. Si el valor del encabezado SOAP personalizado es una cadena vacía, debe asignar \< **encabezados**\>\</**encabezados** \> o \< **encabezados** / \> a la **OutboundCustomHeaders** propiedad. Para obtener más información acerca de cómo usar encabezados SOAP con los adaptadores WCF, vea el ejemplo de SDK Using Custom SOAP Headers with the WCF Adapters de [http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960).  

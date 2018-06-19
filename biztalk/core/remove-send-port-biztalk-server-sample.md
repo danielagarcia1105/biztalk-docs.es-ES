@@ -1,11 +1,11 @@
 ---
-title: "Quitar puerto de envío (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Quitar puerto de envío (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - send ports, deleting
 - deleting, send ports
 ms.assetid: e6643525-fa9f-4d39-880f-314749a68471
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971450"
 ---
 # <a name="remove-send-port-biztalk-server-sample"></a>Quitar puerto de envío (ejemplo de BizTalk Server)
 El ejemplo para quitar puerto de envío muestra cómo dar de baja y quitar uno o varios puertos de envío.  

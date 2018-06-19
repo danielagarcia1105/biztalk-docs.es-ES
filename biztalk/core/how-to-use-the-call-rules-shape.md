@@ -1,11 +1,11 @@
 ---
-title: "Forma reglas de cómo utilizar la llamada | Documentos de Microsoft"
-ms.custom: 
+title: Forma reglas de cómo utilizar la llamada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], how to
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], policies
 - policies, Call Rules shape [Orchestration Designer]
 ms.assetid: e4bc8a2c-de7e-4e3a-81b8-12bcebb17d27
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006445"
 ---
 # <a name="how-to-use-the-call-rules-shape"></a>Cómo usar la forma Reglas de llamada
 En el Diseñador de orquestaciones, puede usar el **reglas de llamada** forma para llamar a una directiva empresarial.  

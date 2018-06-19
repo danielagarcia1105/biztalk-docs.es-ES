@@ -1,14 +1,14 @@
 ---
-title: "Cómo controlar errores de los adaptadores | Documentos de Microsoft"
-ms.custom: 
+title: Cómo controlar errores de los adaptadores | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdceb364-38d6-4aab-a176-bf751da1be25
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255932"
 ---
 # <a name="how-to-handle-adapter-failures"></a>Cómo controlar errores de adaptador
 Por lo general, los adaptadores deberían suspender los mensajes que no pueden procesar. Un adaptador de recepción, por ejemplo, que experimente un error de envío debería suspender los mensajes, aunque esta decisión depende del propósito del adaptador. Además, hay consideraciones de seguridad que se deben tener en cuenta con respecto al control de errores. Si un adaptador, por ejemplo, suspende de forma automática todos los mensajes con errores, es posible que el adaptador esté abierto a un ataque de denegación de servicio que provoque que se llene la cola de suspensión de BizTalk Server.  Algunos adaptadores, como HTTP, pueden devolver un código de error al cliente que indique que se ha rechazado la solicitud. Para estos tipos de adaptadores resulta conveniente devolver un código de error en lugar de suspender el mensaje. Como norma general, los adaptadores de envío solo suspenden los mensajes una vez que se han agotado los reintentos tanto para los transportes primarios como los secundarios.  

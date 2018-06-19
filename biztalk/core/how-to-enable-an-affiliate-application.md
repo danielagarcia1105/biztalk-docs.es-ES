@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], enabling
 - enabling, applications [SSO]
 ms.assetid: 81c94e1b-cd3d-482e-9a78-9b1476af9e5f
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971202"
 ---
 # <a name="how-to-enable-an-affiliate-application"></a>Cómo habilitar una aplicación afiliada
 Utilice el Complemento MMC o la línea de comandos para habilitar la aplicación afiliada especificada.  
@@ -39,7 +40,7 @@ Utilice el Complemento MMC o la línea de comandos para habilitar la aplicación
   
 2.  En la línea de comandos, vaya al directorio de instalación de inicio de sesión único empresarial. El directorio de instalación predeterminado es \< *unidad*\>: \Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Tipo **ssomanage-enableapp *\<nombre de la aplicación\>***, donde \<*nombre de la aplicación* \> es el nombre de la aplicación afiliada que desee Para habilitar.  
+3.  Tipo **ssomanage-enableapp *\<nombre de la aplicación\>***, donde \<* nombre de la aplicación* \> es el nombre de la aplicación afiliada que desee Para habilitar.  
   
     > [!NOTE]
     >  En un sistema que admita el Control de cuentas de usuario (UAC), es posible que deba ejecutar la herramienta con privilegios administrativos.  

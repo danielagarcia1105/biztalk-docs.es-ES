@@ -1,11 +1,11 @@
 ---
 title: Usar correlaciones en orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, orchestrations
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, messages
 - messages, validating
 ms.assetid: d919afa9-bada-406a-bf4b-7b46c831c6d5
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287372"
 ---
 # <a name="using-correlations-in-orchestrations"></a>Usar correlaciones en orquestaciones
 La correlación es el proceso de hacer coincidir un mensaje entrante con la instancia apropiada de una orquestación. Por ejemplo, la orquestación envía un mensaje y recibe la respuesta o respuestas en la misma orquestación. Hay tres patrones de intercambio de mensajes correlacionados:  

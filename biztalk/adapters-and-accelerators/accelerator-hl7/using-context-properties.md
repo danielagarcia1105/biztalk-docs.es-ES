@@ -1,11 +1,11 @@
 ---
 title: Usar propiedades de contexto | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, context properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - promoted properties, context properties
 - context properties, messages
 ms.assetid: 306127a9-df03-4aaf-8dd8-76df51eb193d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006757"
 ---
 # <a name="using-context-properties"></a>Usar propiedades de contexto
 El Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) motor de mensajería y sus componentes utilizan internamente las propiedades de contexto. No se recomienda cambiar los valores establecidos por el motor para algunas propiedades de contexto, porque puede afectar a la lógica de ejecución del motor de. Sin embargo, puede cambiar un gran número de propiedades no definidas por el motor. Puede usar las propiedades de contexto para la creación de expresiones de filtro de puertos de envío (para obtener más información, consulte [expresiones de filtro de la configuración de puertos de envío](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)). También puede utilizar las propiedades de contexto en expresiones de filtro de orquestaciones. Las propiedades están disponibles para las expresiones de filtro siempre y cuando un proyecto tiene una referencia a los esquemas de propiedades globales (que [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] crea cuando se usa una de las plantillas comunes).  

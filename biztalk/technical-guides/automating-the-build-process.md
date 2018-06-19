@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26010269"
 ---
 # <a name="automating-the-build-process"></a>Automatizar el proceso de compilación
 Un proceso automatizado de compilación compila, implementa y, a continuación, ejecuta pruebas de comprobación de la compilación (BVT) en el código fuente más reciente para un proyecto a intervalos regulares, predeterminados. A continuación, un "informe de compilación", que detalla el éxito o error del proceso de compilación, se difunde a las partes interesadas del proyecto. El informe de generación se analiza para determinar qué áreas del proyecto necesitan atención y si el proyecto debe puede revertir a una versión anterior.  

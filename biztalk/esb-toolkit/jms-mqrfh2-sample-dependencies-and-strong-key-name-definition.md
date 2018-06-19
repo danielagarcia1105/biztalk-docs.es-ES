@@ -1,14 +1,14 @@
 ---
-title: "Dependencias de ejemplo JMS MQRFH2 y clave segura nombrar definición | Documentos de Microsoft"
-ms.custom: 
+title: Dependencias de ejemplo JMS MQRFH2 y clave segura nombrar definición | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3a5cdce-dcdf-48df-91a5-8cf2afce9255
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976498"
 ---
 # <a name="jms-mqrfh2-sample-dependencies-and-strong-key-name-definition"></a>Definición de nombre de clave seguro y dependencias de ejemplo MQRFH2 JMS
 El proyecto de Visual Studio ESB. JMS. PipelineComponents depende de la siguiente carpeta:  

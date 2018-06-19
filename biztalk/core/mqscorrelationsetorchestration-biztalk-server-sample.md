@@ -1,11 +1,11 @@
 ---
 title: MQSCorrelationSetOrchestration (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: fcda65d0-e3ec-4ead-978d-3904903b8762
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974986"
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a>MQSCorrelationSetOrchestration (ejemplo de BizTalk Server)
 El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de correlación MQSeries para correlacionar los mensajes enviados a una cola de MQSeries de vuelta a una orquestación en ejecución. La orquestación establece el identificador de correlación de MQSeries y el mensaje valores de identificador mediante la **MQMD_CorrelId** y **MQMD_MsgID** propiedades. El administrador de cola de MQSeries copia el valor de MessageID en la propiedad CorrelationID del mensaje.  
@@ -38,7 +39,7 @@ El ejemplo MQSCorrelationSetOrchestration muestra cómo usar el identificador de
  En este ejemplo se muestra un escenario en el que un documento que una orquestación está procesando puede enviarse a una cola MQSeries (supuestamente para otro procesamiento) y devolverse a la orquestación en ejecución.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
+ *\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   

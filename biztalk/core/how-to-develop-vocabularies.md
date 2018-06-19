@@ -1,11 +1,11 @@
 ---
-title: "Cómo desarrollar vocabularios | Documentos de Microsoft"
-ms.custom: 
+title: Cómo desarrollar vocabularios | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, vocabularies
 - vocabularies, creating
 ms.assetid: 5c16eb98-2257-44f2-8a29-899e02f7e556
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249060"
 ---
 # <a name="how-to-develop-vocabularies"></a>Cómo desarrollar vocabularios
 Las condiciones y acciones de reglas se basan en orígenes que pueden tener información de enlace detallada y de difícil lectura y que cuentan al usuario poco o nada acerca de aquello a lo que se refieren. El marco de trabajo de reglas de negocios permite crear vocabularios para simplificar el desarrollo de reglas mediante terminología intuitiva para el usuario y específica del dominio, y que los usuarios pueden asociar con condiciones y acciones de reglas.  

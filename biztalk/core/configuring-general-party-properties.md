@@ -1,14 +1,14 @@
 ---
 title: Configurar propiedades de entidad General | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbabf7e5-6388-4900-ad47-cf5d5af396b5
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005653"
 ---
 # <a name="configuring-general-party-properties"></a>Configuración de las propiedades generales de la entidad
 Una entidad o socio comercial representa una organización participante en una relación de negocios. Las propiedades de la entidad contienen la información siguiente:  

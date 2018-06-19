@@ -1,15 +1,15 @@
 ---
 title: Supervisar los servidores SQL Server | Documentos de Microsoft
-description: "Utilizar el módulo de administración de SQL Server para comprobar el rendimiento, espacio disponible, configuración de base de datos, los procesos bloqueados, conectividad, error SQL trabajos del agente, replicación y más información en el servidor BizTalk Server"
-ms.custom: 
+description: Utilizar el módulo de administración de SQL Server para comprobar el rendimiento, espacio disponible, configuración de base de datos, los procesos bloqueados, conectividad, error SQL trabajos del agente, replicación y más información en el servidor BizTalk Server
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31871432-e13d-4ef3-b886-16c833371f6d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006965"
 ---
 # <a name="monitoring-sql-servers"></a>Supervisión de servidores SQL Server
 

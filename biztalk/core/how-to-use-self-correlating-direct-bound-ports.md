@@ -1,14 +1,14 @@
 ---
-title: "Cómo usar puertos de enlace directo autocorrelación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar puertos de enlace directo autocorrelación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: feb651fa-3e35-4598-b229-335448f6919c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257140"
 ---
 # <a name="how-to-use-self-correlating-direct-bound-ports"></a>Cómo usar puertos de enlace directo de autocorrelación
 Los puertos de enlace directo de autocorrelación hacen referencia a sí mismos. Esto significa que un puerto de enlace directo de autocorrelación suministra la información que puede utilizar una orquestación para devolver mensajes a su orquestación envolvente. Al utilizar el enlace directo de autocorrelación, el motor de orquestaciones generará un token de correlación en los mensajes que sean específicos de la instancia de orquestación. Esto ofrece la capacidad de devolver los mensajes a una instancia de orquestación específica sin usar un conjunto de correlaciones.  

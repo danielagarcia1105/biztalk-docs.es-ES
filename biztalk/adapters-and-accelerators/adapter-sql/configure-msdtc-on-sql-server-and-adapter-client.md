@@ -1,14 +1,14 @@
 ---
 title: Configurar MSDTC en el cliente de SQL Server y el adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222924"
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a>Configurar MSDTC en el cliente de SQL Server y el adaptador
 Las operaciones se realizan en SQL Server mediante la [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (a través de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], el modelo de servicio WCF o el modelo de canal WCF) se pueden realizar en un ámbito de transacción. Si el programa de cliente tiene más de un recurso transaccional como parte de la misma transacción, la transacción obtiene elevada a una transacción MSDTC. Para habilitar el adaptador realizar operaciones dentro del ámbito de una transacción MSDTC, debe configurar MSDTC tanto en el equipo que ejecuta el [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] y SQL Server. Además, debe agregar MSDTC a la lista de excepciones de Firewall de Windows. Esta sección proporciona información acerca de cómo realizar estas tareas en equipos que ejecutan el cliente de adaptador y SQL Server.  

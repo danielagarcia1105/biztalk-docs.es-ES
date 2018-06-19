@@ -1,14 +1,14 @@
 ---
 title: Problemas conocidos con procesamiento de AS2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 941111d8-b394-4648-a675-e4a8f118a84b
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009397"
 ---
 # <a name="known-issues-with-as2-processing"></a>Problemas conocidos del procesamiento de AS2
 Esta sección contiene temas que describen problemas conocidos relacionados con las soluciones AS2 de BizTalk Server.  

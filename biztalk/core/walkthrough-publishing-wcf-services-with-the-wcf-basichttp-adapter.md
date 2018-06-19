@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF services, publishing
 - tutorials, WCF adapters
 ms.assetid: 43b76215-9cb0-47ab-a085-c4cf265410f9
-caps.latest.revision: ''
+caps.latest.revision: 72
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010469"
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter"></a>Tutorial: Publicar servicios WCF con el adaptador WCF-BasicHttp
 ## <a name="introduction"></a>Introducción  
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  En Microsoft Visual Studio, abra el **C:\WCFBasicHttpReceiveAdapter\WCFBasicHttpReceiveAdapter.sln** archivo.  
   
-3.  El **Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp** ensamblado contiene un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orquestación, un mapa y dos esquemas. Debe instalarse en la GAC y necesita una clave de nombre seguro archivará para que esto se produzca. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>**y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto. Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
+3.  El **Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp** ensamblado contiene un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orquestación, un mapa y dos esquemas. Debe instalarse en la GAC y necesita una clave de nombre seguro archivará para que esto se produzca. Haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **propiedades**. En el **propiedades** página, haga clic en **firma**y seleccione **firmar el ensamblado**. Haga clic en la flecha hacia abajo en la **elegir un archivo de clave de nombre seguro** la lista desplegable, haga clic en  **\<New\>** y escriba `keyfile.snk` en el **nombre de archivo de clave**cuadro de texto. Desactive la opción **proteger mi archivo de clave con una contraseña**y, a continuación, haga clic en **Aceptar**.  
   
 4.  En el Explorador de soluciones, haga clic en el **BizTalkApp** del proyecto y, a continuación, haga clic en **volver a generar**.  
   

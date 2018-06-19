@@ -1,11 +1,11 @@
 ---
 title: OrderedSample (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, orchestrations
 - MQSeries adapters, examples
 ms.assetid: 7e59ff43-d425-40cd-9725-af13084f83d9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974754"
 ---
 # <a name="orderedsample-biztalk-server-sample"></a>OrderedSample (ejemplo de BizTalk Server)
 El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y enviar un serie ordenada de mensajes en un modo de envío y recepción.  
@@ -36,7 +37,7 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
  La orquestación puede recibir lotes de mensajes, así como un único mensaje.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<Ejemplos de ruta de acceso\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -73,11 +74,11 @@ El ejemplo OrderedSample muestra cómo usar una orquestación para recibir y env
   
 3.  Haga clic en **colas**, seleccione **New**y, a continuación, haga clic en **cola Local**.  
   
-4.  En **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue1"**y, a continuación, haga clic en **Aceptar**.  
+4.  En **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue1"** y, a continuación, haga clic en **Aceptar**.  
   
 5.  Haga clic en **colas**, haga clic en **New**y, a continuación, haga clic en **cola Local**.  
   
-6.  En el **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue2"**y, a continuación, haga clic en **Aceptar**.  
+6.  En el **Create Local Queue** cuadro de diálogo **nombre de la cola**, tipo **"queue2"** y, a continuación, haga clic en **Aceptar**.  
   
 ## <a name="creating-the-receive-location-and-the-mqseries-queue"></a>Crear la ubicación de recepción y la cola MQSeries  
  Este procedimiento crea el puerto de envío y la ubicación de recepción para enviar el mensaje y recibir el mensaje de correlación de MQSeries. La cola MQSeries también se creará al crear la ubicación de recepción si no se ha creado anteriormente.  

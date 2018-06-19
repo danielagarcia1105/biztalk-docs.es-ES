@@ -1,14 +1,14 @@
 ---
 title: Archivo de registro del adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6750f0ed-4411-4a63-a7fe-f66132cd1e22
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26009109"
 ---
 # <a name="adapter-registration-file"></a>Archivo de registro del adaptador
 Después de que el código del adaptador personalizado se haya generado correctamente, se debe registrar con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para ello, actualice el Registro con la configuración del adaptador adecuada. Puede escribir de forma manual un archivo de Registro, pero hay más probabilidad de errores debido a la precisión y complejidad de la información que hay que escribir. Una decisión más acertada consiste en ejecutar el Asistente para el Registro del adaptador. Este asistente le proporciona las mismas opciones de que dispone al crear un archivo de Registro nuevo y reduce la probabilidad de errores en el archivo. Para obtener más información acerca del Asistente para registro de adaptador, vea [Asistente para registro del adaptador](../core/adapter-registry-wizard.md).  

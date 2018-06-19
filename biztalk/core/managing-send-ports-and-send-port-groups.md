@@ -1,15 +1,15 @@
 ---
-title: "Administrar puertos de envío y grupos de puertos de envío | Documentos de Microsoft"
-description: "Vínculos para crear, configurar, dar de alta, dar de baja e iniciar y detener puertos de envío de BizTalk Server"
-ms.custom: 
+title: Administrar puertos de envío y grupos de puertos de envío | Documentos de Microsoft
+description: Vínculos para crear, configurar, dar de alta, dar de baja e iniciar y detener puertos de envío de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db45f9f9-b32a-4b9c-a3bf-8c271d0f0cf9
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262708"
 ---
 # <a name="manage-send-ports-and-send-port-groups"></a>Administrar puertos de envío y grupos de puertos de envío
 

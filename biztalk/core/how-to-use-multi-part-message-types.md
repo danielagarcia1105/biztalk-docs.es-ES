@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar los tipos de mensaje de varias partes | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar los tipos de mensaje de varias partes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - multi-part message types, parts
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - creating, multi-part messages
 - messages, about messages
 ms.assetid: 009a39bd-cfc4-42d9-918c-88ac24bfc370
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972082"
 ---
 # <a name="how-to-use-multi-part-message-types"></a>Cómo usar los tipos de mensaje de varias partes
 Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la estructura del mensaje que se compone de cero o más partes de mensaje. Las partes se definen en el lenguaje de definición de esquemas XML (XSD) mediante esquemas o clases .NET. Puede definir sus propios tipos de mensaje de varias partes o usar los esquemas y las clases .NET existentes.  
@@ -79,7 +80,7 @@ Cada mensaje tiene un tipo de mensaje de varias partes, una descripción de la e
   
     |Propiedad|Description|  
     |--------------|-----------------|  
-    |**Modificador de tipo**|Determina el ámbito del tipo de mensaje de varias partes:<br /><br /> -   **Privado:**acceso a este tipo de mensaje de varias partes está limitado al módulo contenedor.<br />-   **Público:**no se limita el acceso a este tipo de mensaje de varias partes.<br />-   **Interno:**acceso a este tipo de mensaje de varias partes está limitado a los módulos dentro del mismo proyecto.|  
+    |**Modificador de tipo**|Determina el ámbito del tipo de mensaje de varias partes:<br /><br /> -   **Privado:** acceso a este tipo de mensaje de varias partes está limitado al módulo contenedor.<br />-   **Público:** no se limita el acceso a este tipo de mensaje de varias partes.<br />-   **Interno:** acceso a este tipo de mensaje de varias partes está limitado a los módulos dentro del mismo proyecto.|  
   
 ## <a name="add-parts-to-an-existing-multi-part-message"></a>Agregar elementos a un mensaje de varias partes existente  
   

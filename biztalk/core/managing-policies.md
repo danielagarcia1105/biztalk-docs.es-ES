@@ -1,15 +1,15 @@
 ---
 title: Administrar directivas | Documentos de Microsoft
-description: "Vínculos rápidos a importar, publicar, agregar, implementar, quitar o exportar una directiva en el servidor BizTalk Server"
-ms.custom: 
+description: Vínculos rápidos a importar, publicar, agregar, implementar, quitar o exportar una directiva en el servidor BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7b3bf92-8868-4c35-953f-61a7f2edff9c
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971170"
 ---
 # <a name="manage-policies"></a>Administrar directivas
 

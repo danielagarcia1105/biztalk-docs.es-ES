@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar BizTalk Server para recibir mensajes SMIME o MIME cifrado | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar BizTalk Server para recibir mensajes SMIME o MIME cifrado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d72002c8-6bd8-458f-8149-1c0c4cbbb682
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008765"
 ---
 # <a name="how-to-configure-biztalk-server-to-receive-encrypted-mime-or-smime-messages"></a>Cómo configurar BizTalk Server para recibir mensajes SMIME o MIME cifrado
 Este tema describe cómo configurar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usar certificados para recibir mensajes cifrados de MIME/SMIME. El procedimiento siguiente también se aplica a la configuración de la recepción de mensajes cifrados mediante transporte AS2.  

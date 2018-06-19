@@ -1,14 +1,14 @@
 ---
 title: 'Paso 3b: recuperar detalles de oportunidades de Salesforce con el adaptador de WCF-WebHttp | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 115c908f-777b-4c51-85ea-71d639b01775
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279556"
 ---
 # <a name="step-3b-retrieve-opportunity-details-from-salesforce-using-the-wcf-webhttp-adapter"></a>Paso 3b: recuperar detalles de oportunidades de Salesforce con el adaptador de WCF-WebHttp
 En esta sección, mejoraremos la orquestación para procesar la notificación de oportunidad entrante, extraer el nombre de la oportunidad de la notificación y usarlo para crear una consulta que se enviará a Salesforce. Con ella, recuperaremos detalles concretos de los productos asociados con la oportunidad. La respuesta de Salesforce a la consulta se recibe en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Para lograr esto, realizaremos los siguientes pasos:  

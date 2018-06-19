@@ -1,14 +1,14 @@
 ---
-title: "Interfaces de un envío asíncrono adaptador | Documentos de Microsoft"
-ms.custom: 
+title: Interfaces de un envío asíncrono adaptador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a214716-8f39-400d-a111-ba1b92a284b4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257764"
 ---
 # <a name="interfaces-for-an-asynchronous-send-adapter"></a>Interfaces de un adaptador de envío asíncrono
 Los adaptadores que envían mensajes de uno en uno pueden enviar mensajes de forma sincrónica o asíncrona. Un adaptador envía mensajes de forma asíncrona cuando no bloquea el subproceso del proxy de transporte pero, en su lugar, utiliza un subproceso distinto al realizar operaciones de envío. Para poder enviar mensajes de forma asíncrona, un adaptador necesita implementar las interfaces siguientes:  

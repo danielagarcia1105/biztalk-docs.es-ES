@@ -1,18 +1,18 @@
 ---
 title: Modo de informe en el depurador de orquestaciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Orchestration Debugger, breakpoints
 - Orchestration Debugger, Reporting mode
 - Reporting mode [Orchestration Debugger]
 ms.assetid: 014a444c-2867-4156-b009-8518e8250d4d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268572"
 ---
 # <a name="reporting-mode-in-orchestration-debugger"></a>Modo de informe en el Depurador de orquestaciones
 El modo de informe utiliza eventos de los que se ha hecho un seguimiento para mostrar lo ocurrido. Utiliza los datos de seguimiento mediante la **eventos de orquestación** marca de la opción. Esta marca se debe establecer antes de la ejecución de la instancia de organización. Para habilitar el seguimiento de eventos para una orquestación concreta, consulte [cómo configurar seguimiento para una orquestación](../core/how-to-configure-tracking-for-an-orchestration.md).  

@@ -1,14 +1,14 @@
 ---
-title: "Paso 1: Agregar encabezado y esquemas de confirmación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 1: Agregar encabezado y esquemas de confirmación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 808132bf-02e7-4ff4-b914-9fae5d27e5fd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005341"
 ---
 # <a name="step-1-add-header-and-acknowledgment-schemas"></a>Paso 1: Agregar encabezado y esquemas de confirmación
 En este paso, creará un proyecto nuevo basado en la plantilla de proyecto de BTAHL72XCommon. Esta plantilla contiene los tres esquemas comunes para encabezados de mensaje (MSH_25_GLO_DEF.xsd) y confirmaciones (ACK_24_GLO_DEF.xsd) y (ACK_25_GLO_DEF.xsd). Debe incluir estos esquemas en un proyecto de modo que ese Acelerador de BizTalk para HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) genera o valida correctamente los encabezados de mensaje y confirmaciones. Este proceso es común en todas las versiones de esquema de [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo funciona el ejemplo de servicio de resolución | Documentos de Microsoft"
-ms.custom: 
+title: Cómo funciona el ejemplo de servicio de resolución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33b5f886-ec54-4b2b-b09d-fb4c47ad43a5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973082"
 ---
 # <a name="how-the-resolver-service-sample-works"></a>Cómo funciona el ejemplo de servicio de resolución
 El ejemplo de servicio de resolución crea instancias del servicio de resolución y pasa el mensaje especificado a ella para su procesamiento. La aplicación de cliente de ejemplo de servicio de resolución usa el primer parámetro como la ruta de acceso al archivo ResolverList.xml, que contiene varias solicitudes de resolución y envía estas solicitudes al servicio de resolución. Por ejemplo, la siguiente es la solicitud XPATH que se utilizan en el ejemplo.  

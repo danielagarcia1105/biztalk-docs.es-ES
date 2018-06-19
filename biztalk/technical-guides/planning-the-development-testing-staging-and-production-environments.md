@@ -1,14 +1,14 @@
 ---
-title: "Planear el desarrollo, pruebas, ensayo y entornos de producción | Documentos de Microsoft"
-ms.custom: 
+title: Planear el desarrollo, pruebas, ensayo y entornos de producción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6c83a42d-117f-4a24-a669-b3e4e1c9a056
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008976"
 ---
 # <a name="planning-the-development-testing-staging-and-production-environments"></a>Planear el desarrollo, pruebas, ensayo y entornos de producción
 Este tema describen los entornos que se utiliza en el proceso de administración de versión para una solución de BizTalk. Al igual que con cualquier solución de software empresarial, debe seguir directrices para la administración de versión de software establecido cuando se desarrollan y la versión de una solución de BizTalk. Este proceso debe incluir las siguientes fases distintas:  

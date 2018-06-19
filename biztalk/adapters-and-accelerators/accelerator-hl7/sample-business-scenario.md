@@ -1,11 +1,11 @@
 ---
 title: Escenario empresarial de ejemplo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTAHL7, business example
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - health care organizations, business example
 - business processes, example
 ms.assetid: 54bfbe45-4638-4488-bbd8-c642926a35d3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004805"
 ---
 # <a name="sample-business-scenario"></a>Escenario empresarial de ejemplo
 Procesos de atención sanitaria a menudo son complejos e implican muchos sistemas. Un ejemplo es el proceso que se produce cuando un paciente introduce un hospital y un médico envía al paciente para una prueba de laboratorio. Implicadas en este procedimiento son cinco partes:  

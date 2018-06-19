@@ -1,11 +1,11 @@
 ---
 title: Convoyes en paralelo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Parallel Task shape [Orchestration Designer], concurrent receive tasks
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, messages
 - messages, correlating to orchestrations
 ms.assetid: 036aa8c0-f49c-47f0-ac1e-6c667bca3811
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264844"
 ---
 # <a name="parallel-convoys"></a>Convoyes paralelos
 Un convoy paralelo permite agrupar varios mensajes individuales para lograr un resultado requerido. El conjunto de mensajes relacionados puede llegar en cualquier orden, pero BizTalk Server debe recibir todos ellos antes de empezar el proceso.  

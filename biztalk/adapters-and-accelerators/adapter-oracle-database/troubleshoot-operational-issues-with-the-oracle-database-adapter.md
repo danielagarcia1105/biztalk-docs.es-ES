@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de funcionamiento con el adaptador de la base de datos de Oracle | Documentos de Microsoft
-description: "Problemas comunes y soluciones para el adaptador de base de datos de Oracle en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Problemas comunes y soluciones para el adaptador de base de datos de Oracle en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fb83245-2b6a-48cc-8601-b923bb009a58
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010109"
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-database-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de la base de datos de Oracle
 Solución de problemas de técnicas para solucionar errores operativos que puede experimentar con [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

@@ -1,15 +1,15 @@
 ---
-title: "Pasos posteriores a la configuración para optimizar el entorno | Documentos de Microsoft"
-description: "Tareas que debe completar después de instalar y configurar BizTalk Server, incluidos configurar los trabajos del Agente SQL, instalar esquemas EDI, cree hosts y las instancias de host y mucho más en BizTalk Server"
-ms.custom: 
+title: Pasos posteriores a la configuración para optimizar el entorno | Documentos de Microsoft
+description: Tareas que debe completar después de instalar y configurar BizTalk Server, incluidos configurar los trabajos del Agente SQL, instalar esquemas EDI, cree hosts y las instancias de host y mucho más en BizTalk Server
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 09/27/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976842"
 ---
 # <a name="post-configuration-steps-to-optimize-your-environment"></a>Pasos posteriores a la configuración para optimizar el entorno
 Pasos posteriores a la configuración que ayudan a mejorar el rendimiento, conservar el entorno de BizTalk e instalar los esquemas EDI.

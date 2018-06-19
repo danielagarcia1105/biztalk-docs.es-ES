@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Agregar una regla a la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b2a682c0-a5d7-4550-924d-be9fa29b84d2
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975706"
 ---
 # <a name="walkthrough-adding-a-rule-to-the-policy"></a>Tutorial: Agregar una regla a la directiva
 Este tutorial proporciona procedimientos paso a paso para agregar una regla denominada **DeniedRule** a la **ProcessPurchaseOrder** directiva.  
@@ -60,7 +61,7 @@ Este tutorial proporciona procedimientos paso a paso para agregar una regla deno
   
 11. Haga clic en  **\<una cadena vacía\>**  y, a continuación, escriba **denegado**.  
   
-12. Haga clic en **versión 1.2 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+12. Haga clic en **versión 1.2 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
 13. Haga clic en **versión 1.2**y, a continuación, haga clic en **publicar**.  
   

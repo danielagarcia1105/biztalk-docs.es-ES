@@ -1,17 +1,17 @@
 ---
-title: "Paso 6: Configurar formas de orquestación (Contoso) | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Configurar formas de orquestación (Contoso) | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, configuring shapes
 - private process tutorial, configuring orchestration shapes
 ms.assetid: ce680693-cf72-4ca6-a062-019de5a9257b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009389"
 ---
 # <a name="step-6-configuring-orchestration-shapes-contoso"></a>Paso 6: Configurar formas de orquestación (Contoso)
 En este paso, configurará las formas de orquestación que agregó a la orquestación PrivateResponder que creó en [paso 5: modificar la orquestación de procesos privado de Contoso](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). Esto incluye la configuración de la comunicación entre [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server y el sistema de planeamiento de recursos empresariales (ERP) de Contoso.  

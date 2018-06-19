@@ -1,11 +1,11 @@
 ---
 title: Adaptador de SMTP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, about SMTP adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SMTP adapters
 - SMTP adapters, send adapters
 ms.assetid: b712f76d-3ce4-4780-9627-951e5951bd8a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277604"
 ---
 # <a name="smtp-adapter"></a>Adaptador de SMTP
 El protocolo de transferencia de correo (SMTP) se utiliza para intercambiar información entre un servidor que ejecuta Microsoft BizTalk Server y otras aplicaciones a través del protocolo SMTP. BizTalk Server puede enviar mensajes a otras aplicaciones mediante la creación de un mensaje de correo electrónico y su entrega a una dirección de correo electrónico especificada. De forma interna, el adaptador de envío SMTP crea un mensaje de correo electrónico basado en SMTP y lo envía a una dirección de correo electrónico de destino. La dirección de correo electrónico de destino es una propiedad del adaptador de SMTP. El Explorador de BizTalk expone esta propiedad cuando configura el puerto de envío de SMTP.  

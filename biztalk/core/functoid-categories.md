@@ -1,14 +1,14 @@
 ---
-title: "Categorías de functoids | Documentos de Microsoft"
-ms.custom: 
+title: Categorías de functoids | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 029905e2-f01a-436a-b2ed-a364379c9cc5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246764"
 ---
 # <a name="functoid-categories"></a>Categorías de functoids
 Los functoids de BizTalk se dividen en categorías según la utilización que se les vaya a dar. Por ejemplo, los functoids de bases de datos están diseñados para extraer datos de una base de datos en tiempo de ejecución, los functoids matemáticos se utilizan para efectuar operaciones matemáticas, etc. En el asignador de BizTalk, functoids aparecen ordenados por categorías en la [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] cuadro de herramientas. 

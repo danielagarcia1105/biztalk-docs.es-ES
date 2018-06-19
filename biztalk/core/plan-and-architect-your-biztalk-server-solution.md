@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263852"
 ---
 # <a name="plan-and-architect-your-biztalk-server-solution"></a>Planear y diseñar la solución de BizTalk Server
 En esta sección se suministra información acerca de BizTalk Server para ayudarle a planear su entorno.  

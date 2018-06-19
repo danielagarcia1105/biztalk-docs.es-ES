@@ -1,14 +1,14 @@
 ---
 title: Validar una instancia (EDI) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0fe4e87-5ab4-41e4-8ceb-8f6cf40cae0b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288916"
 ---
 # <a name="validating-an-instance-edi"></a>Validar instancias (EDI)
 Las instancias pueden validarse con respecto a su esquema EDI en el tiempo de diseño. Para ello, se usan las extensiones de la herramienta XML para [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el entorno de [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. La instancia que valide puede ser un único conjunto de transacciones (sin intercambio ni encabezados de grupo), un intercambio con un único conjunto de transacciones (con intercambio y encabezados de grupo) o un intercambio procesado por lotes completo con varios conjuntos de transacciones (con intercambio y encabezados de grupo).  

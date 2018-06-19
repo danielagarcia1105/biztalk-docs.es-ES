@@ -1,17 +1,17 @@
 ---
 title: SSO para adaptadores nativos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, SSO
 - SSO, adapters
 ms.assetid: d8527f0f-910c-42ce-9bd3-83ab6d4349c0
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278060"
 ---
 # <a name="sso-for-native-adapters"></a>SSO para adaptadores nativos
 El inicio de sesión único (SSO) empresarial le permite iniciar sesión sólo una vez al interoperar con diferentes sistemas informáticos o sitios Web. Esta característica de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] permite a los adaptadores de BizTalk proporcionar el Id. de usuario y las credenciales apropiadas para varias aplicaciones de la red que utilizan un mecanismo de autenticación común basado en sus credenciales de Microsoft Windows. Después de que Windows haya autenticado sus credenciales, no necesita proporcionar credenciales adicionales para conectarse a las aplicaciones.  

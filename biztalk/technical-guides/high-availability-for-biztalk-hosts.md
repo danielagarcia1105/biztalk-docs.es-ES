@@ -1,14 +1,14 @@
 ---
 title: Alta disponibilidad para los Hosts de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3153f7f7-7e82-4b0c-9b48-e9f871de285d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009997"
 ---
 # <a name="high-availability-for-biztalk-hosts"></a>Alta disponibilidad para los Hosts de BizTalk
 BizTalk Server proporciona gran flexibilidad para tratar la alta disponibilidad, porque permite dedicar hosts lógicos para ejecutar áreas específicas de funcionalidad, como la recepción y envío de mensajes o el procesamiento de orquestaciones, que pueden estar físicamente de forma estratégica implementar en varios servidores.  

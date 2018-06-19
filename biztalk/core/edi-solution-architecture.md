@@ -1,14 +1,14 @@
 ---
-title: "Arquitectura de la solución EDI | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura de la solución EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55709a89-7706-4c64-ada3-16951951c943
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239884"
 ---
 # <a name="edi-solution-architecture"></a>Arquitectura de solución EDI
 El intercambio electrónico de datos (EDI) es uno de los medios más notables a través del cual las entidades de negocio intercambian datos de forma electrónica. El uso de EDI conlleva la sintaxis y los estándares del mensaje (incluidos ANSI X12 y UN/EDIFACT), el protocolo de mensajería y los transportes. A continuación se presentan las características de mensajería EDI:  

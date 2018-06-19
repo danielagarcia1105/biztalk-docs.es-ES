@@ -1,14 +1,14 @@
 ---
-title: "Problemas conocidos con la instalación, configuración e implementación de soluciones EDI y AS2 | Documentos de Microsoft"
-ms.custom: 
+title: Problemas conocidos con la instalación, configuración e implementación de soluciones EDI y AS2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2dee03f0-2447-4cc2-90f4-e9b73caa0f39
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262804"
 ---
 # <a name="known-issues-with-installation-configuration-and-deployment-of-edi-and-as2-solutions"></a>Problemas conocidos con la instalación, configuración e implementación de soluciones EDI y AS2
 En este tema se describen los problemas conocidos relacionados con la implementación y administración de soluciones EDI y AS2 de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

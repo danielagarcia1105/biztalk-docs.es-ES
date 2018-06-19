@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006869"
 ---
 # <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a>Tareas administrativas y operativas en su entorno de BizTalk
 BizTalk Server incluye nuevas características que simplifican la administración de BizTalk Server más rápida y sencilla que en versiones anteriores de BizTalk Server. Esta sección proporciona información acerca de la administración de BizTalk Server.  

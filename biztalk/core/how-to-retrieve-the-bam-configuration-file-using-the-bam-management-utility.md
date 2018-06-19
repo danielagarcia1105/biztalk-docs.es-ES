@@ -1,14 +1,14 @@
 ---
-title: "Cómo recuperar el archivo de configuración de BAM mediante la utilidad de administración de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo recuperar el archivo de configuración de BAM mediante la utilidad de administración de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67ce5e0c-467a-486c-8eec-217a2a26d7b4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972282"
 ---
 # <a name="how-to-retrieve-the-bam-configuration-file-using-the-bam-management-utility"></a>Cómo recuperar el archivo de configuración de BAM mediante la utilidad de administración de BAM
 Los administradores y programadores pueden utilizar la herramienta de administración de BAM para recuperar la configuración actual de la infraestructura de BAM. La configuración recuperada se puede utilizar para migrar una instalación de BAM a un servidor nuevo o se puede modificar y utilizar para actualizar una instalación de BAM existente.  

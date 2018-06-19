@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263524"
 ---
 # <a name="managing-business-profiles"></a>Administración de perfiles de negocio
 Un perfil de negocio representa las divisiones de negocio dentro de una organización. Al igual que una organización puede tener distintas divisiones, una entidad puede tener varios [perfiles de negocio](http://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf). 

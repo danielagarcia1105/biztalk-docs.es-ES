@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de envío HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de envío HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e69308b4-421f-4d7c-b9bb-ee086df03272
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257980"
 ---
 # <a name="http-send-adapter"></a>Adaptador de envío HTTP
 El adaptador de envío HTTP obtiene mensajes de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y los remite a una URL de destino como resultado de una solicitud HTTP POST. El adaptador de envío HTTP recoge el contenido del mensaje en el cuerpo del objeto de mensaje de BizTalk. El adaptador de envío HTTP no tiene en cuenta las partes restantes del objeto de mensaje de BizTalk.  

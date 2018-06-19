@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Crear el puerto de envío para el lote de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Crear el puerto de envío para el lote de mensajes | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5db815df-5b76-4ba4-99ab-c7766b0c301a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006013"
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a>Paso 5: Crear el puerto de envío para el lote de mensajes
 En este paso, creará un puerto de envío para entregar el lote de mensajes que cree para la entidad de destino. Se trata de un puerto unidireccional estático con un tipo de adaptador de archivo. Designar una carpeta de archivos para el destino (\Tutorial_BatchMsgDrop) donde [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] se quitará el archivo por lotes de mensajes. Defina un filtro para el puerto que indica qué tipo de lotes de mensajes que enviará los puertos. El filtro especifica el destino de Tutorial_BatchDest y el tipo de mensaje de OutboundBatch.  

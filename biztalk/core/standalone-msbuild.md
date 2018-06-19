@@ -1,14 +1,14 @@
 ---
 title: MSBUILD independiente | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21aa3693-3788-4874-b506-6f4584fb4fd5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007701"
 ---
 # <a name="standalone-msbuild"></a>MSBUILD independiente
 El **proyecto se compila** componente de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite generar soluciones de BizTalk Server sin [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. Para instalar el **proyecto se compila** componente en el servidor, seleccione la **el componente de generación de proyecto** opción en el **categoría de Software adicionales** durante la instalación. Debe anular la selección de la **SDK y herramientas de programadores** tal y como se va a instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un equipo sin [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  

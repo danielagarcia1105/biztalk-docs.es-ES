@@ -1,11 +1,11 @@
 ---
-title: "Vínculos a y desde el elemento Any y anyAttribute nodos | Documentos de Microsoft"
-ms.custom: 
+title: Vínculos a y desde el elemento Any y anyAttribute nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - anyAttribute node
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - functoid types, Mass Copy
 - maps, any nodes
 ms.assetid: 922ba4dc-b0ad-45f2-86aa-9d51d1f0eb70
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261868"
 ---
 # <a name="links-to-and-from-the-any-element-and-anyattribute-nodes"></a>Vínculos desde o hacia los nodos Cualquier elemento y anyAttribute
 Debe utilizar el **copia masiva** functoid para asignar los elementos que contienen **cualquier** o **anyAttribute** nodos. El asignador de BizTalk no admite vínculos directos entre **cualquier** o **anyAttribute** nodos. El **cualquier** y **anyAttribute** nodos, en combinación con la **copia masiva** functoid, normalmente se usan para asignar secciones de documentos HTML.  

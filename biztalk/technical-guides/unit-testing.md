@@ -1,14 +1,14 @@
 ---
 title: Pruebas unitarias | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c40e5b82-dbb2-4767-8286-88e2de4129f3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009837"
 ---
 # <a name="unit-testing"></a>Pruebas unitarias
 BizTalk Server introduce un característica que se puede habilitar en de pruebas unitarias la **implementación** página de propiedades de un proyecto de BizTalk. Captura de pantalla siguiente muestra el acceso desde el Diseñador de proyectos cuando haga clic en un proyecto y haga clic en la configuración de este proyecto **propiedades**.  

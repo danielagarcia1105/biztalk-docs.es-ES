@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, typed fault contracts
 - orchestrations, WCF services
 ms.assetid: 5a1a7d22-b0ff-4d09-bebf-4995229784b0
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25970770"
 ---
 # <a name="how-to-handle-typed-fault-contracts-in-orchestrations"></a>Cómo controlar los contratos con tipos erróneos en orquestaciones
 En este tema se explica cómo controlar los contratos con tipos erróneos al consumir servicios WCF desde las orquestaciones. Para controlar las excepciones de tipo erróneo en orquestaciones, los servicios WCF que va a consumir deben tener la **FaultContractAttribute** aplica a las operaciones de servicio; por lo tanto, los errores se pueden iniciar mediante el uso de  **FaultException**\<T\> donde T puede ser cualquier contrato de datos válido o un tipo serializable de los servicios WCF.  
@@ -36,7 +37,7 @@ En este tema se explica cómo controlar los contratos con tipos erróneos al con
   
 3.  En el **éste es el Asistente para consumición de servicio de BizTalk WCF** página, haga clic en **siguiente**.  
   
-4.  En el **origen de metadatos** página, seleccione **punto de conexión de intercambio de metadatos (MEX)**y, a continuación, haga clic en **siguiente**.  
+4.  En el **origen de metadatos** página, seleccione **punto de conexión de intercambio de metadatos (MEX)** y, a continuación, haga clic en **siguiente**.  
   
 5.  En el **extremo de metadatos** página, especifique la dirección URL para el servicio en ejecución que proporciona metadatos para su descarga mediante WS-Metadata Exchange o Http-Get — por ejemplo, http://localhost: 8005. Para obtener el documento de metadatos de la dirección URL, haga clic en **obtener**. Si el servicio en ejecución requiere una credencial de usuario con el esquema de autenticación básica, haga clic en **editar** para abrir el **Asistente de consumición de servicio WCF de BizTalk** cuadro de diálogo en el que puede proporcionar el nombre de usuario y contraseña que se utilizará al obtener acceso a lo servicio en ejecución. Haga clic en **Siguiente**.  
   

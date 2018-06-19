@@ -1,17 +1,17 @@
 ---
-title: "Cómo modificar BTSWebSvcWiz.exe.config | Documentos de Microsoft"
-ms.custom: 
+title: Cómo modificar BTSWebSvcWiz.exe.config | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, code samples
 - Web services, debugging
 ms.assetid: 8466e460-faa9-45ea-9586-19174858d194
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971130"
 ---
 # <a name="how-to-modify-btswebsvcwizexeconfig"></a>Cómo modificar BTSWebSvcWiz.exe.config
 Puede habilitar el seguimiento depurar el Asistente para publicación de servicios Web de BizTalk mediante el comentario de la \<agregar\> nodo en el archivo BTSWebSvcWiz.exe.config. Si el nodo de agente de escucha de seguimiento no se hace referencia y la *initializeData* parámetro se ha modificado, BizTalk Server escribe la salida del archivo de seguimiento en el directorio actual. Como alternativa, puede establecer el seguimiento de nivel de **ApplicationTraceSwitch** y establezca el nombre de ruta de acceso al archivo de seguimiento.  

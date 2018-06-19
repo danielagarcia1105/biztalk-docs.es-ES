@@ -1,14 +1,14 @@
 ---
 title: Realizando pruebas unitarias | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 40275d0b-b2ee-400c-9ef5-b9386ab0ae53
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009861"
 ---
 # <a name="performing-unit-testing"></a>Realizando pruebas unitarias
 Pruebas unitarias se centra en el nivel de componente y es básicamente una prueba de éxito/error que comprueba si los componentes individuales de la solución de BizTalk se realizan según lo esperado. Tiene varias opciones para la solución de BizTalk de pruebas unitarias.  

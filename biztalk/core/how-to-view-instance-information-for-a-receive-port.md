@@ -1,18 +1,18 @@
 ---
-title: "Cómo ver información de instancia de un puerto de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo ver información de instancia de un puerto de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], viewing
 - receive ports, viewing
 - viewing, receive ports
 ms.assetid: dad038bc-1202-489b-b144-a93bf1f53c0c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256804"
 ---
 # <a name="how-to-view-instance-information-for-a-receive-port"></a>Cómo ver información de instancia de un puerto de recepción
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para ver instancias de servicio de un puerto de recepción. Siempre que el puerto de recepción recibe un mensaje, se crea una instancia de servicio para procesar ese mensaje. Al seguir el procedimiento que se detalla en este tema, la información de instancia se muestra en la página Información general del grupo del puerto de recepción.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo deshacer o rehacer operaciones de usuario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo deshacer o rehacer operaciones de usuario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1cb3708e-a9c2-4795-aba0-9c6d9635e08c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973402"
 ---
 # <a name="how-to-undo-or-redo-user-operations"></a>Deshacer o rehacer operaciones de usuario
 La compatibilidad para deshacer/rehacer es otra facilidad de uso proporcionada por el Asignador de BizTalk. Si no está satisfecho con las modificaciones que ha realizado, o si ha hecho un cambio por error, puede deshacer para volver gradualmente al estado anterior "sin tocar" y continuar desde él. Rehacer permite volver a aplicar las acciones de edición que se han deshecho. En este tema se proporciona información acerca de las operaciones que se pueden deshacer o rehacer.  

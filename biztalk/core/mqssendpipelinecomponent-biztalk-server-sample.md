@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MQSeries adapters, examples
 - examples, pipelines
 ms.assetid: ac709e45-524b-45ab-9673-060790ecbed2
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976122"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (ejemplo de BizTalk Server)
 En este ejemplo se muestra cómo escribir un componente de canalización que lea un conjunto de valores de propiedades de MQSeries a partir de un archivo XML y que los aplique a un mensaje.  
@@ -31,9 +32,9 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+-   *\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+-   *\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -148,7 +149,7 @@ En este ejemplo se muestra cómo escribir un componente de canalización que lea
   
     1.  Abra la consola de administración de BizTalk.  
   
-    2.  Haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración\>]**y, a continuación, haga clic para expandir el **ensamblados** carpeta.  
+    2.  Haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración\>]** y, a continuación, haga clic para expandir el **ensamblados** carpeta.  
   
          El ensamblado de canalización implementado debe verse en la **ensamblados** carpeta.  
   

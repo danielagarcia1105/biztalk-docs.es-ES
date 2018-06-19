@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de migración de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de migración de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e6eddc0a-2403-4bcd-9327-23f51ce7d57b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006061"
 ---
 # <a name="troubleshooting-biztalk-server-migration"></a>Solución de problemas de migración de BizTalk Server
 Esta sección proporciona una ubicación centralizada para obtener información sobre los problemas comunes al migrar aplicaciones de BizTalk de [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] o [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009 a BizTalk Server.  

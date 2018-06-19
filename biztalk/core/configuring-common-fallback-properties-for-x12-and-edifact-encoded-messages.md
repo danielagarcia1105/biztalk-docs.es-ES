@@ -1,14 +1,14 @@
 ---
-title: "Configuración de propiedades comunes de reserva para X12 y EDIFACT los mensajes codificados | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de propiedades comunes de reserva para X12 y EDIFACT los mensajes codificados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7393d6ac-b901-43ef-a8d6-c5b0b3033257
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006037"
 ---
 # <a name="configuring-common-fallback-properties-for-x12-and-edifact-encoded-messages"></a>Configuración de las propiedades comunes de reserva para mensajes codificados en X12 y EDIFACT
 Las propiedades de reserva se aplican tanto a intercambios X12 (incluido HIPAA) como a intercambios con codificación EDIFACT. Al igual que sucede con las propiedades del acuerdo de reserva, estas propiedades solamente se aplican si [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] no ha determinado el acuerdo en el cual se resuelve el mensaje de entrada o salida.  

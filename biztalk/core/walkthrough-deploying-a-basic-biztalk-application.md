@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Implementar una aplicación básica de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Implementar una aplicación básica de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, tutorials
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tutorials, applications
 - applications, tutorials
 ms.assetid: 21b67153-0f8c-406a-a224-fc792b16192f
-caps.latest.revision: "69"
+caps.latest.revision: 69
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010997"
 ---
 # <a name="walkthrough-deploying-a-basic-biztalk-application"></a>Tutorial: Implementar una aplicación de BizTalk básico
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye características que simplifican la administración e implementación de las soluciones empresariales de BizTalk. Ahora incluye un contenedor de aplicaciones de BizTalk para los elementos que componen una solución empresarial, como orquestaciones, esquemas, asignaciones, canalizaciones y ensamblados .NET. Puede administrar, modificar, implementar e instalar todos los elementos en una aplicación como una sola unidad. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]También incluye asistentes para ayudar a automatizar las tareas de implementación de aplicaciones. Para obtener información general, vea [implementación de aplicaciones y características de administración de](../core/application-deployment-and-management-features.md) y [implementación de aplicaciones y herramientas de administración](../core/application-deployment-and-management-tools.md).  

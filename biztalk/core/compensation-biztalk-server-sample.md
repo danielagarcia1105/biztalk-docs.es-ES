@@ -1,11 +1,11 @@
 ---
-title: "Compensación (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Compensación (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, compensations
 - compensations, orchestrations
 ms.assetid: 9d10c7be-6a4c-44cc-bf29-78ecdf147bd1
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975137"
 ---
 # <a name="compensation-biztalk-server-sample"></a>Compensación (ejemplo de BizTalk Server)
 El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una orquestación.  
@@ -119,7 +120,7 @@ El ejemplo de compensación muestra cómo utilizar el **compensar** forma de una
   
     4.  En el **orquestaciones y puertos** página, haga clic en **siguiente**.  
   
-    5.  En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo **http://Microsoft.BizTalk.Samples.Compensation/**y, a continuación, haga clic en **Siguiente**.  
+    5.  En el **propiedades del servicio Web** página **espacio de nombres de destino del servicio web**, tipo **http://Microsoft.BizTalk.Samples.Compensation/** y, a continuación, haga clic en **Siguiente**.  
   
     6.  En el **proyecto de servicio Web** página **ubicación**, tipo **http://localhost/CompensationOrchestrationWebServiceProxy**.  
   

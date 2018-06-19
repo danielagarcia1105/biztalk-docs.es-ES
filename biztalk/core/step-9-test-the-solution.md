@@ -1,14 +1,14 @@
 ---
-title: "Paso 9: Probar la solución | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 9: Probar la solución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df446ccc-add3-4dd3-b674-253dda385541
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973074"
 ---
 # <a name="step-9-test-the-solution"></a>Paso 9: Probar la solución
 En este tema, probará la aplicación híbrida enviando un mensaje de pedido de ventas X12 840 al extremo HTTP donde se implementa el acuerdo EDI. El aspecto del mensaje de pedido de ventas de muestra será parecido al siguiente:  

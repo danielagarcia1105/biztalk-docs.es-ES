@@ -1,17 +1,17 @@
 ---
-title: "Supervisión de la solución de administración de procesos empresariales con SAE | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de la solución de administración de procesos empresariales con SAE | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, monitoring
 - monitoring, process management solutions
 ms.assetid: 7c5fde9d-6eef-41c9-979c-ac7e5a172812
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264372"
 ---
 # <a name="monitoring-the-business-process-management-solution-with-bam"></a>Supervisar la solución Administración de procesos empresariales con SAE
 La solución supervisa los pasos del procesamiento de pedidos con la API de Supervisión de la actividad económica (SAE). El diseño del proceso empresarial divide las actividades en varias fases. Después, las actividades se pueden volver a combinar para crear la sensación de un proceso continuo. SAE también suministra datos agregados para que pueda saber cuánto tardan los distintos servidores, cuántos pedidos se han finalizado y otros datos similares.  

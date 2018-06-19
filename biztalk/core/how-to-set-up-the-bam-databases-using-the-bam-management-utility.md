@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar las bases de datos BAM mediante la utilidad de administración de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar las bases de datos BAM mediante la utilidad de administración de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 801338f4-b363-4f8e-b248-9c628065ded2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971314"
 ---
 # <a name="how-to-set-up-the-bam-databases-using-the-bam-management-utility"></a>Cómo configurar las bases de datos de BAM con la utilidad de administración de BAM
 Los administradores suelen usar la utilidad de configuración de BizTalk Server para configurar las bases de datos de BAM. Puede usar la utilidad de administración de BAM (bm.exe) como método alternativo de configuración de bases de datos.  

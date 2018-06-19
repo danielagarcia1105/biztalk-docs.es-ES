@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277100"
 ---
 # <a name="sso-tickets"></a>Vales de SSO
 En un entorno empresarial, donde un usuario interactúa con varios sistemas y aplicaciones, es muy probable que el entorno no mantiene el contexto de usuario a través de varios procesos, productos y equipos. Este contexto de usuario es crucial para proporcionar funciones de inicio de sesión único, como es necesario para verificar quién inició la solicitud original. Para solucionar este problema, el inicio de sesión único (SSO) proporciona un vale de SSO (no un vale Kerberos) que las aplicaciones pueden utilizar para obtener las credenciales que se corresponden con el usuario que realizó la solicitud original. Los vales SSO no se habilitan de forma predeterminada. Para obtener más información acerca de cómo habilitar vales, consulte [cómo configurar los vales de SSO](../core/how-to-configure-the-sso-tickets.md).  

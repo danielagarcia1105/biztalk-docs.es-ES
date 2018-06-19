@@ -1,11 +1,11 @@
 ---
-title: "Plantilla (ejemplo de implementación de aplicaciones) | Documentos de Microsoft"
-ms.custom: 
+title: Plantilla (ejemplo de implementación de aplicaciones) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, deploying
 ms.assetid: 7e77ff8e-b2bc-4d38-b5fd-329d6d54221f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975018"
 ---
 # <a name="template-application-deployment-sample"></a>Plantilla (ejemplo de implementación de aplicaciones)
 En este tema se describe cómo usar el ejemplo de la plantilla para la implementación de aplicaciones.  
@@ -64,7 +65,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
  Este ejemplo se encuentra en la carpeta de instalación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], en la ruta de acceso siguiente:  
   
- *\<Ejemplos de ruta de acceso\>*\applicationdeployment\template  
+ *\<Ejemplos de ruta de acceso\>* \applicationdeployment\template  
   
  Como se ha mencionado anteriormente, el ejemplo incluye dos archivos:  
   
@@ -81,7 +82,7 @@ En este tema se describe cómo usar el ejemplo de la plantilla para la implement
   
      Ejemplo:  
   
-     conjunto LogFile = "*\<ruta de ejemplos\>*\ApplicationDeployment\Templates\SampleLogOut.txt"  
+     conjunto LogFile = "*\<ruta de ejemplos\>* \ApplicationDeployment\Templates\SampleLogOut.txt"  
   
 ### <a name="to-create-a-new-application"></a>Para crear una aplicación nueva  
   

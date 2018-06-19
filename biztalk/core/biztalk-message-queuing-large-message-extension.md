@@ -1,17 +1,17 @@
 ---
-title: "Extensión de mensajes de BizTalk para Message Queue grandes | Documentos de Microsoft"
-ms.custom: 
+title: Extensión de mensajes de BizTalk para Message Queue grandes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Message Queuing Large Message Extension
 - utilities, BizTalk Message Queuing Large Message Extension
 ms.assetid: 5d6892d3-fda8-41a3-8111-d28c11bd71fb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006405"
 ---
 # <a name="biztalk-message-queuing-large-message-extension"></a>Extensión de mensajes de gran tamaño de Message Queue Server de BizTalk
 Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda los 4megabytes (MB). Sin embargo, Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incluye un complemento para la versión nativa de Message Queue Server que permite procesar mensajes de más de 4 MB. Este complemento se entrega como el archivo Mqrtlarge.dll y expone el **MQSendLargeMessage** y **MQReceiveLargeMessage** aplicación interfaces de programación (API) y el modelo COM análogo. Estas funciones se implementan como message Queue Server de las API, **MQSendMessage** y **MQReceiveMessage** respectivamente.  
@@ -36,7 +37,7 @@ Nativa de message Queue Server no puede procesar un mensaje cuyo cuerpo exceda l
   
 |Archivos|Description|  
 |---------------|-----------------|  
-|Mqrtlarge.dll|Una biblioteca de vínculos dinámicos Win32 que expone **MQSendLargeMessage** y **MQReceiveLargeMessage**.<br /><br /> Los archivos de encabezado se encuentran en el  *\<ruta de acceso de instalación\>*directorio \SDK\Include. **Nota:** debe instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una versión de 64 bits de Windows para tener acceso a la versión de 64 bits de Mqrtlarge.dll.|  
+|Mqrtlarge.dll|Una biblioteca de vínculos dinámicos Win32 que expone **MQSendLargeMessage** y **MQReceiveLargeMessage**.<br /><br /> Los archivos de encabezado se encuentran en el  *\<ruta de acceso de instalación\>* directorio \SDK\Include. **Nota:** debe instalar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en una versión de 64 bits de Windows para tener acceso a la versión de 64 bits de Mqrtlarge.dll.|  
   
  **Usar esta utilidad**  
   

@@ -1,14 +1,14 @@
 ---
-title: "Las referencias en el código de usuario de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Las referencias en el código de usuario de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a1584be-35fd-4dc2-a5a9-559300e67e0e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263252"
 ---
 # <a name="message-references-in-user-code"></a>Referencias de mensajes en código de usuario
 Cuando se construye un mensaje, una representación de éste se encuentra en la base de datos de cuadro de mensajes y otra en la memoria del equipo. Si se realiza la asignación del mensaje pasando una referencia del mensaje a un objeto .NET o a un ensamblado externo y, a continuación, uno de ellos modifica la representación que se encuentra en la memoria del equipo, el motor de orquestaciones de BizTalk no tendrá constancia de la modificación.  

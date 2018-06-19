@@ -1,17 +1,17 @@
 ---
-title: "Cómo enumerar las asignaciones de usuario | Documentos de Microsoft"
-ms.custom: 
+title: Cómo enumerar las asignaciones de usuario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO maps], listing maps
 - maps [SSO], listing maps
 ms.assetid: f9b73785-3a59-45c8-9e88-d2d16b5a46aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972154"
 ---
 # <a name="how-to-list-user-mappings"></a>Cómo enumerar las asignaciones de usuario
 Utilice este comando para listar todas las asignaciones existentes del usuario especificado.  

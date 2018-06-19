@@ -1,14 +1,14 @@
 ---
-title: "Cómo incluir y excluir esquemas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo incluir y excluir esquemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9206458-e5d6-48d7-87a6-9471ba60dca7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254348"
 ---
 # <a name="how-to-include-and-exclude-schemas"></a>Cómo incluir y excluir esquemas
 Un archivo de esquema puede estar presente en una carpeta de proyecto de BizTalk, pero no incluirse en ese proyecto. En ese caso, se dice que el esquema se puede excluir del proyecto. Los esquemas excluidos no se compilan cuando se genera el proyecto de BizTalk. Este tema describe los pasos necesarios para incluir un esquema excluido en un proyecto de BizTalk, así como para excluir un esquema de un proyecto de BizTalk.  

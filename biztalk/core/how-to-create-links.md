@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear vínculos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear vínculos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 670b831f-be03-4612-93d5-a894f7bb3c11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250196"
 ---
 # <a name="how-to-create-links"></a>Cómo crear vínculos
 Crear un vínculo desde un **registro** o **campo** nodo en un esquema de origen a un **registro** o **campo** nodo en un esquema de destino es la más básica actividad en la creación de mapas. En este tema se proporcionan instrucciones detalladas para diversas variantes de esta actividad, incluida la creación de vínculos desde y hacia functoids. Para obtener información adicional acerca de cómo trabajar con functoids, consulte [utilizar Functoids para crear asignaciones más complejas](../core/using-functoids-to-create-more-complex-mappings.md).  

@@ -1,11 +1,11 @@
 ---
-title: "Promoción de propiedades en componentes de canalización de desensamblador | Documentos de Microsoft"
-ms.custom: 
+title: Promoción de propiedades en componentes de canalización de desensamblador | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, promoting properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Framework Assembler [pipeline component], properties
 - Flat File Disassembler [pipeline component], properties
 ms.assetid: aa37b308-8aa2-45f4-9383-aca4f2c925ce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971842"
 ---
 # <a name="property-promotion-in-disassembler-pipeline-components"></a>Promoción de propiedades en componentes de canalización de desensamblador
 La promoción de propiedad es un proceso por el cual se extrae un valor de propiedad de un documento XML mediante una expresión XPath y se coloca en el contexto del mensaje de manera que se pueda utilizar para enrutamiento de mensajes.  

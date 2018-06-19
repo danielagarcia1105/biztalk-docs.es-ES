@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de adaptadores de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de adaptadores de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 428b127f-df1e-4c41-9cc8-486519f15fa1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278956"
 ---
 # <a name="troubleshooting-biztalk-server-adapters"></a>Solucionar problemas de adaptadores de BizTalk Server
 En este tema, se describen los pasos comunes de solución de problemas que pueden aplicarse para resolver dificultades relacionadas con los adaptadores integrados de BizTalk.  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47850e66-ce33-4c6a-8190-168071792c0b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25976010"
 ---
 # <a name="create-the-receive-location-and-send-port-programmatically"></a>Crear la ubicación de recepción y el puerto de envío mediante programación
 Configurar un WCF-BasicHttp mediante programación, el puerto de envío y la ubicación de recepción. Para usar la consola de administración de BizTalk, consulte [adaptador WCF-BasicHttp](../core/wcf-basichttp-adapter.md). 

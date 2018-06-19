@@ -1,14 +1,14 @@
 ---
-title: "Cómo restaurar el almacén de certificados | Documentos de Microsoft"
-ms.custom: 
+title: Cómo restaurar el almacén de certificados | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c6f7551-d119-4668-9b52-6013f69a0302
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254700"
 ---
 # <a name="how-to-restore-the-certificate-store"></a>Cómo restaurar el almacén de certificados
 Como parte de la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], es preciso restaurar el almacén de certificados. Si se efectúa la recuperación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition, será necesario usar este procedimiento para restaurar el almacén de certificados. No se tendrá que llevar a cabo este procedimiento para recuperar el resto de las ediciones de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ya que el proceso de recuperación restaura el almacén de certificados automáticamente.  

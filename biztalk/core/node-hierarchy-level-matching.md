@@ -1,11 +1,11 @@
 ---
-title: "Coincidencia del nivel jerárquico de nodos | Documentos de Microsoft"
-ms.custom: 
+title: Coincidencia del nivel jerárquico de nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Field nodes
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - compiler directives, flattening source hierarchies
 - maps, processing
 ms.assetid: 5ba1ac77-0e70-4c58-9b8c-1b379dbbb3bd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264764"
 ---
 # <a name="node-hierarchy-level-matching"></a>Coincidencia del nivel jerárquico de nodos
 El Asignador de BizTalk le permite configurar una propiedad de vínculo para controlar cómo el compilador hace coincidir las jerarquías de nodos entre los esquemas de origen y de destino. Cuando crea un vínculo desde un campo del esquema de origen hacia un campo del esquema de destino, el Asignador de BizTalk agrega automáticamente vínculos de compilador. Estos vínculos de compilador dependen de la coincidencia que seleccione.  

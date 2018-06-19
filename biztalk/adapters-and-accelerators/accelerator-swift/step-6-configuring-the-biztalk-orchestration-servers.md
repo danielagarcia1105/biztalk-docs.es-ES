@@ -1,17 +1,17 @@
 ---
-title: "Paso 6: Configurar los servidores de orquestación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 6: Configurar los servidores de orquestación de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration server, configuring
 - configuring, orchestration servers
 ms.assetid: 1eb38fac-264d-4730-b16b-572dbb6fabd9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005917"
 ---
 # <a name="step-6-configuring-the-biztalk-orchestration-servers"></a>Paso 6: Configurar los servidores de orquestación de BizTalk Server
 Esta sección proporciona instrucciones sobre cómo configurar los servidores de orquestación de BizTalk.  

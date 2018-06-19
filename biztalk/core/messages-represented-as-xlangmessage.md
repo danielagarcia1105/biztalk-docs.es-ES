@@ -1,14 +1,14 @@
 ---
 title: Mensajes representan como XLANGMessage | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aadca870-2f93-4be3-8733-a0cd3815add7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972274"
 ---
 # <a name="messages-represented-as-xlangmessage"></a>Mensajes representados como XLANGMessage
 Un **XLANGMessage** objeto representa una instancia de mensaje declarada con un servicio XLANG. Este objeto se obtiene pasando una referencia a un mensaje como un parámetro en una llamada de método. Un **XLANGPart** objeto representa una parte de mensaje contenida en una instancia de mensaje dentro de un servicio XLANG. Este objeto se obtiene bien pasando una referencia de parte de una invocación de método donde es el tipo de parámetro receptora **XLANGPart** o bien recorriendo una referencia pasada de **XLANGMessage**.  

@@ -1,14 +1,14 @@
 ---
 title: IFTSAI-WKGRRE de conjuntos de transacciones de EDIFACT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0ba9321-4ee6-44d2-837c-2e43bedabcb0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010525"
 ---
 # <a name="edifact-transaction-sets-iftsai-wkgrre"></a>Conjuntos de transacciones de EDIFACT IFTSAI-WKGRRE
 Este tema enumeran los conjuntos de transacciones de EDIFACT que son compatibles con BizTalk Server.  

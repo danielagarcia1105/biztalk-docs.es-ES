@@ -1,15 +1,15 @@
 ---
 title: Solucionar problemas de funcionamiento con el adaptador SQL en BizTalk | Documentos de Microsoft
-description: "Problemas comunes y soluciones para el adaptador de SQL en el módulo de adaptador de BizTalk (BAP)"
-ms.custom: 
+description: Problemas comunes y soluciones para el adaptador de SQL en el módulo de adaptador de BizTalk (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c75f85f4-cd03-4c6a-aac9-a6d02d3c3449
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010989"
 ---
 # <a name="troubleshoot-operational-issues-with-the-sql-adapter"></a>Solucionar problemas de funcionamiento con el adaptador de SQL
 Esta sección describe el uso de técnicas de solución de problemas para resolver errores de operaciones que pueden surgir al usar [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].  

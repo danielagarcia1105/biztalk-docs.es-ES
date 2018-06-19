@@ -1,11 +1,11 @@
 ---
 title: Configurar el Desensamblador SWIFT o ensamblador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, configuring
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - disassembler, configuring
 - configuring, assembler
 ms.assetid: 56e421f2-0292-40af-b878-0cba1b034e19
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005069"
 ---
 # <a name="configuring-the-swift-disassembler-or-assembler"></a>Configurar el Desensamblador SWIFT o ensamblador
 Después de agregar el SWIFT Desensamblador o ensamblador SWIFT a una canalización personalizada, debe configurarlo para proporcionar la funcionalidad que desee para el escenario concreto (por ejemplo, la habilitación o deshabilitación de detección de tipo de mensaje dinámico, anulando entrante, validación de XML Validación de motor de reglas de negocios (BRE) y así sucesivamente). Debe configurar el Desensamblador SWIFT y ensamblador durante el tiempo de desarrollo antes de compilar e implementar las canalizaciones personalizadas que invocación. Para configurar el ensamblador/desensamblador SWIFT, seleccione el componente en el Diseñador de canalizaciones y editar las propiedades de configuración en la ventana Propiedades.  

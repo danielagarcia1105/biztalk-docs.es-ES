@@ -1,14 +1,14 @@
 ---
-title: "Raíz nodos | Documentos de Microsoft"
-ms.custom: 
+title: Raíz nodos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2161f877-835e-434d-a8d1-2426f977d60e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268972"
 ---
 # <a name="root-nodes"></a>Nodos raíz
 En el Editor de BizTalk, los nodos secundarios de la **esquema** nodo se conocen como **raíz** nodos. **Raíz** nodos son un tipo especial de **registro** nodo, y tienen algunas propiedades más que normal **registro** nodos. El **raíz** nodo representa el tipo de documento se describe el esquema y se pueden cambiar según corresponda. Por ejemplo, puede cambiar el nombre del **raíz** nodo, por lo que TI describe el tipo de mensaje que representa el esquema, como purchaseOrder, orderAcknowledgment o shipNotice.  

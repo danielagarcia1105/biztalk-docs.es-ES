@@ -1,11 +1,11 @@
 ---
-title: "Cómo mantener versiones de directivas | Documentos de Microsoft"
-ms.custom: 
+title: Cómo mantener versiones de directivas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - policies, versioning
 - policies, updating
 ms.assetid: 6e35b2bd-1ecd-45ea-aff3-4ad2437568a4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254500"
 ---
 # <a name="how-to-maintain-policy-versions"></a>Cómo mantener versiones de directivas
 Después de agregar reglas a una versión de la directiva, puede guardar la versión en el almacén de reglas para su posterior desarrollo, o puede publicarla para crear un conjunto de reglas bien definido e inmutable que pueda ser implementado para su utilización en una aplicación basada en reglas.  

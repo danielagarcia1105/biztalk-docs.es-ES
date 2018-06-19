@@ -1,14 +1,14 @@
 ---
-title: "Administración-OperationsOM (carpeta de ejemplos de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Administración-OperationsOM (carpeta de ejemplos de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1c3c0ae-9bed-4ee8-b19c-4b27f6573c91
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005133"
 ---
 # <a name="admin-operationsom-biztalk-server-samples-folder"></a>Administración-OperationsOM (carpeta de ejemplos de BizTalk Server)
 Microsoft BizTalk Server incluye ejemplos en la carpeta Admin\OperationsOM de su kit de desarrollo de software (SDK). En esta sección se proporciona información detallada acerca de la funcionalidad que muestra cada ejemplo de administración del modelo de objetos Operaciones de BizTalk, instrucciones para la generación y ejecución del ejemplo ylos resultados que se pueden esperar.  

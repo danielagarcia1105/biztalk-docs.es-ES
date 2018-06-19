@@ -1,11 +1,11 @@
 ---
-title: "Agregar el SWIFT Desensamblador o ensamblador a una canalización | Documentos de Microsoft"
-ms.custom: 
+title: Agregar el SWIFT Desensamblador o ensamblador a una canalización | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, adding assembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipelines, adding disassembler
 - disassembler, adding to pipelines
 ms.assetid: f39eb340-fe58-4c8f-b3f2-f7686a245095
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005253"
 ---
 # <a name="adding-the-swift-disassembler-or-assembler-to-a-pipeline"></a>Agregar el SWIFT Desensamblador o ensamblador a una canalización
 Puede utilizar el Diseñador de canalizaciones de BizTalk con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] crear personalizado BizTalk canalizaciones de envío y recepción. Puede utilizar el Desensamblador SWIFT para la fase "desensamblar" en una canalización de recepción personalizada. De forma similar, puede utilizar el ensamblador SWIFT para la fase "montar" en una canalización de envío personalizada. Para invocar el SWIFT Desensamblador o ensamblador desde el cuadro de herramientas del Diseñador de canalizaciones, arrastra el Desensamblador o ensamblador la etapa de canalización correspondiente en el lienzo del Diseñador de canalizaciones. Para obtener instrucciones paso a paso sobre cómo invocar el Desensamblador o ensamblador, consulte [módulo 3: agregar un proyecto de canalización](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md) en el Tutorial de extremo a extremo. Para obtener más información sobre el Diseñador de canalizaciones o trabajar con proyectos de canalización, consulte la Ayuda de BizTalk Server.  

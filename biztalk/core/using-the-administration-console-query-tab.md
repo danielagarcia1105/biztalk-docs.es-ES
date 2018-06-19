@@ -1,17 +1,17 @@
 ---
-title: "Mediante la pestaña de consulta de la consola de administración | Documentos de Microsoft"
-ms.custom: 
+title: Mediante la pestaña de consulta de la consola de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Administration Console [BizTalk Server], Query tab
 - Query tab [Administration Console]
 ms.assetid: 7655f0b6-9217-46c4-88e0-ca2e661ce7a6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975844"
 ---
 # <a name="using-the-administration-console-query-tab"></a>Usar la ficha Consulta de la consola de administración
 Utilice la ficha Consulta de la página Concentrador de grupo de la consola de administración de BizTalk Server para buscar instancias de servicio, suscripciones o mensajes específicos en ejecución o en suspensión. Las consultas realizadas con la consola de administración buscan elementos activos, que se almacenan en la base de datos de cuadro de mensajes. Cada vez que se ejecuta una nueva consulta, aparece una ficha Consulta nueva.  

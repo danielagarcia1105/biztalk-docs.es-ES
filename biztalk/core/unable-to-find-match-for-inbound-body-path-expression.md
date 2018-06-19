@@ -1,14 +1,14 @@
 ---
-title: "No se ha podido encontrar una coincidencia para la expresión de ruta de acceso del cuerpo de entrada | Documentos de Microsoft"
-ms.custom: 
+title: No se ha podido encontrar una coincidencia para la expresión de ruta de acceso del cuerpo de entrada | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0382348-96c4-414c-9dda-a390d491dee8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286716"
 ---
 # <a name="unable-to-find-match-for-inbound-body-path-expression"></a>No se puede encontrar ninguna coincidencia para la expresión de ruta del cuerpo de entrada
 ## <a name="details"></a>Detalles  

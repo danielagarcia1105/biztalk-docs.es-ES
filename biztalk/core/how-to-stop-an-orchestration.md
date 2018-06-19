@@ -1,17 +1,17 @@
 ---
-title: "Cómo detener una orquestación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo detener una orquestación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], stopping
 - orchestrations, stopping
 ms.assetid: a8009c23-ca83-4d2f-97dd-df660adbc279
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255924"
 ---
 # <a name="how-to-stop-an-orchestration"></a>Cómo detener una orquestación
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server para detener una orquestación. Al detener una orquestación, se desactivan y suspenden todos los mensajes de activación que se reciben.  

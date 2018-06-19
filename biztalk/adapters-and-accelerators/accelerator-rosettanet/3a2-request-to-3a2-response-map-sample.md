@@ -1,14 +1,14 @@
 ---
-title: "Solicitud de 3A2 al ejemplo de asignación de respuesta 3A2 | Documentos de Microsoft"
-ms.custom: 
+title: Solicitud de 3A2 al ejemplo de asignación de respuesta 3A2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 71c70571-0cb4-4269-9ca9-87f6d1ba95dc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004549"
 ---
 # <a name="3a2-request-to-3a2-response-map-sample"></a>Solicitud de 3A2 al ejemplo de asignación de respuesta de 3A2
 El ejemplo _3A2RequestMessageTo3A2ResponseMessage.btm muestra cómo se puede asignar un mensaje de solicitud de 3A2 a un mensaje de respuesta 3A2.  

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, publishing
 - best practices, WCF adapters
 ms.assetid: 797b7ffd-534c-4f09-9738-fb17b208bc96
-caps.latest.revision: ''
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972594"
 ---
 # <a name="considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters"></a>Consideraciones al publicar servicios WCF con los adaptadores de recepción WCF
 Este tema proporciona información que debe tenerse en cuenta a la hora de publicar servicios WCF con los adaptadores de recepción WCF.  Publicar un servicio mediante un adaptador WCF permite que un cliente WCF lo pueda llamar del mismo modo que si fuera un Servicio WCF convencional.  

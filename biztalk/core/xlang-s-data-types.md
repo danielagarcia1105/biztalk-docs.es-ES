@@ -1,11 +1,11 @@
 ---
 title: Tipos de datos de XLANG-s | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, expressions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, variables
 - Orchestration Designer, expressions
 ms.assetid: 5b08aaa6-1533-4bac-a76d-f9162e39bf4f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290444"
 ---
 # <a name="xlang-s-data-types"></a>Tipos de datos de XLANG-s
 XLANG/s define los tipos de valores estándar que son un reflejo de sus homólogos en C#. Puede tratarse de **booleano**, **bytes**, **Char**, **Decimal**, **doble**, **Int16** , **Int32**, **Int64**, **SByte**, **único**, **cadena**,  **UInt16**, **UInt32**, y **UInt64**. XLANG/s admite matrices unidimensionales, pero no literales de matriz.  

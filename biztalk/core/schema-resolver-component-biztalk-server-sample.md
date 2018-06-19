@@ -1,11 +1,11 @@
 ---
-title: "Componente de resolución de esquema (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Componente de resolución de esquema (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, examples
 - examples, Flat File Disassembler [pipeline component]
 ms.assetid: 9ef68988-c4ee-42d5-83b5-a5c978b2007d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974922"
 ---
 # <a name="schema-resolver-component-biztalk-server-sample"></a>Componente de resolución de esquema (ejemplo de BizTalk Server)
 El ejemplo del componente de resolución de esquema muestra cómo extender la funcionalidad del componente de desensamblador de archivos sin formato de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -32,7 +33,7 @@ El ejemplo del componente de resolución de esquema muestra cómo extender la fu
  El componente de resolución de esquema muestra un método alternativo de seleccionar el esquema del componente de desensamblador de archivos sin formato. En este ejemplo, se definen cuatro esquemas y los dos primeros caracteres de un mensaje de cada esquema son únicos. Se define una asignación entre entre los dos primeros caracteres únicos y el esquema correspondiente. Cuando el mensaje de entrada se entrega al componente de resolución de esquema, lee los dos primeros caracteres, determina qué esquema debe utilizarse para el documento correspondiente, guarda la información del esquema en el contexto del mensaje y, a continuación, llama al componente desensamblador de archivos sin formato estándar. El componente desensamblador de archivos sin formato estándar lee la información del esquema desde el contexto del mensaje y utiliza ese esquema para analizar el documento.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\Pipelines\SchemaResolverComponent\  
+ *\<Ejemplos de ruta de acceso\>* \Pipelines\SchemaResolverComponent\  
   
  En la siguiente tabla se incluyen los archivos usados en este ejemplo y se describe el propósito de cada uno de ellos.  
   
@@ -56,7 +57,7 @@ El ejemplo del componente de resolución de esquema muestra cómo extender la fu
   
 1.  En una ventana de comandos, cambie el directorio (cd) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\Pipelines\SchemaResolverComponent  
+     *\<Ejemplos de ruta de acceso\>* \Pipelines\SchemaResolverComponent  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   

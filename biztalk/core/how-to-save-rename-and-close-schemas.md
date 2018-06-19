@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65e15d9e-40ae-4850-9c13-88033cb3b3bb
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972370"
 ---
 # <a name="how-to-save-rename-and-close-schemas"></a>Cómo guardar, cambiar el nombre y cerrar esquemas
 En [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], los esquemas son archivos de lenguaje de definición de esquemas XML (XSD) y residen en el sistema de archivos con extensiones .xsd. Cuando utilice el Editor de BizTalk para desarrollar esquemas, tendrá que guardar y cerrar archivos de esquema como parte de la rutina; además, ocasionalmente, tendrá que cambiarles el nombre. En este tema se describen los pasos necesarios para realizar estas operaciones básicas.  

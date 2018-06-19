@@ -1,17 +1,17 @@
 ---
-title: "Comunicación entre OrderBroker y OrderManager | Documentos de Microsoft"
-ms.custom: 
+title: Comunicación entre OrderBroker y OrderManager | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, publishing [MessageBox database]
 - MessageBox database, publishing
 ms.assetid: 1b77dcd2-f7a5-4013-b9a2-c06ace161792
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231876"
 ---
 # <a name="communication-between-orderbroker-and-ordermanager"></a>Comunicación entre OrderBroker y OrderManager
 El agente de pedido y las orquestaciones de administrador de pedidos (**OrderBroker**, **OrderManager**) se comunican a través del cuadro de mensajes base de datos en lugar de estar directamente enlazadas. Esto garantiza que el agente y el administrador estén flexiblemente acoplados de modo que, si fuera necesario, puedan ubicarse en grupos separados de BizTalk y ubicaciones geográficamente separadas. Separar las orquestaciones de esta forma requiere sólo configuración administrativa y no requiere ningún cambio de código.  

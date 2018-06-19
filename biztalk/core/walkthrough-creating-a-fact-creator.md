@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Crear un creador de hechos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 041c8f73-c72e-43fd-8446-144cecdc95ef
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290308"
 ---
 # <a name="walkthrough-creating-a-fact-creator"></a>Tutorial: Crear un creador de hechos
 Este tutorial proporciona procedimientos paso a paso para crear un componente de creador de hechos, **POFactCreator**, que puede utilizar para probar el **ProcessPurchaseOrder** directiva creada en versiones anteriores tutoriales.  

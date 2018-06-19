@@ -1,17 +1,17 @@
 ---
 title: Servidores de procesamiento para SSO | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, processing servers
 - processing servers [SSO]
 ms.assetid: 9e80a456-974a-49b3-bb64-2e4713036cfb
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263668"
 ---
 # <a name="processing-servers-for-sso"></a>Servidores de procesamiento de SSO
 En un entorno con varios equipos, una vez que se ha creado el servidor secreto principal y la base de datos de SSO, es posible instalar el inicio de sesión único empresarial en equipos que se agreguen posteriormente. Por regla general, éstos son los equipos en los que también se instala BizTalk Server o Host Integration Server.  

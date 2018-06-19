@@ -1,15 +1,15 @@
 ---
 title: Habilitar el seguimiento de canalizaciones | Documentos de Microsoft
-description: "Realizar un seguimiento de cuerpos de mensaje y eventos cuando la canalización procesa los mensajes en BizTalk Server"
-ms.custom: 
+description: Realizar un seguimiento de cuerpos de mensaje y eventos cuando la canalización procesa los mensajes en BizTalk Server
+ms.custom: ''
 ms.date: 12/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f7f3c4a-4464-4170-a580-b4ce9296a097
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/13/2017
+ms.locfileid: "26686627"
 ---
 # <a name="configure-pipeline-tracking-in-biztalk-server"></a>Configurar la canalización de seguimiento de BizTalk Server
 Use la administración de BizTalk Server para configurar el seguimiento de una canalización. Puede que desee configurar el seguimiento con fines de solución de problemas y auditoría. Puede ver propiedades de mensajes, eventos de puerto y eventos de mensajes. También puede realizar un seguimiento de eventos de mensaje y eventos de puerto para mensajes.  

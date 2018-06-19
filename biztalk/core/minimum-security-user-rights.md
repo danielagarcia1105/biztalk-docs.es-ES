@@ -18,7 +18,7 @@ helpviewer_keywords:
 - user accounts, access control
 - security, permissions
 ms.assetid: 44b6e7da-8e6c-40c0-a250-52ab422c0adf
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22265588"
 ---
 # <a name="minimum-security-user-rights"></a>Derechos de usuario mínimos de seguridad
 Los grupos y cuentas usados por BizTalk Server tienen los derechos de usuario mínimos necesarios para realizar la mayoría de las tareas. Por este motivo, hay ciertas tareas para las que puede necesitar más derechos de usuario que los concedidos automáticamente por BizTalk Server al grupo al que pertenece. En este tema:  

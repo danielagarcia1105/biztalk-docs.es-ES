@@ -1,14 +1,14 @@
 ---
-title: "Paso 2: Actualizar e implementar la solución del Tutorial | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 2: Actualizar e implementar la solución del Tutorial | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d03adfdd-1160-4e8c-a564-3acb2ecd0476
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973418"
 ---
 # <a name="step-2-update-and-deploy-the-tutorial-solution"></a>Paso 2: Actualizar e implementar la solución del Tutorial
 ![Paso 2 de 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")  

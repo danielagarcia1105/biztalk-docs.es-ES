@@ -1,14 +1,14 @@
 ---
-title: "Error al procesar el mensaje Edifact en el puerto de envío: sin entidad con nombre | Documentos de Microsoft"
-ms.custom: 
+title: 'Error al procesar el mensaje Edifact en el puerto de envío: sin entidad con nombre | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 678baacb-1f21-4081-b788-ef346c3598ca
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005157"
 ---
 # <a name="a-failure-occurred-in-processing-edifact-message-on-send-port-no-party-with-name"></a>Error al procesar el mensaje Edifact en el puerto de envío: sin entidad con nombre
 ## <a name="details"></a>Detalles  

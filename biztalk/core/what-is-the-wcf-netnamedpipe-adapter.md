@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289252"
 ---
 # <a name="what-is-the-wcf-netnamedpipe-adapter"></a>¿Qué es el adaptador de WCF-NetNamedPipe?
 El adaptador de WCF-NetNamedPipe proporciona comunicación entre procesos en el mismo equipo en un entorno en el que servicios y clientes se basan en WCF. Proporciona acceso completo a características de confiabilidad y transacciones de SOAP. El adaptador usa el transporte de canalización mencionado y los mensajes tienen una codificación binaria. Este adaptador no se puede usar en comunicaciones entre equipos.  

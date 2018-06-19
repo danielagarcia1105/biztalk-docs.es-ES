@@ -1,15 +1,15 @@
 ---
-title: "La implementación de ensamblados de BizTalk Server | Documentos de Microsoft"
+title: La implementación de ensamblados de BizTalk Server | Documentos de Microsoft
 description: Implementar ensamblados en la GAC y habilitar el control de versiones para los ensamblados de BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 01/21/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7f99ed5-b64a-4a38-99d7-83070fb69030
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006117"
 ---
 # <a name="biztalk-assemblies"></a>Ensamblados de BizTalk
 El aspecto más importante de Microsoft BizTalk Server y de .NET Framework es que todos los artefactos, las asignaciones, los esquemas, las orquestaciones y las canalizaciones de BizTalk Server se compilan en ensamblados .NET. Las dos consecuencias más importantes de este diseño son que estos ensamblados deben tener nombres seguros y, a causa de ello, que siguen reglas de control de versiones .NET. La repercusión principal de esto es que un proyecto de BizTalk, una vez generado con una versión concreta de otro proyecto o ensamblado .NET (incluidos los proyectos de BizTalk), sigue utilizando esa versión hasta que se vuelve a generar con una versión más reciente.  

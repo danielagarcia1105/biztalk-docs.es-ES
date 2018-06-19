@@ -1,17 +1,17 @@
 ---
 title: Implementar los servidores | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, servers
 - servers, deploying
 ms.assetid: 6036e42b-59b8-4092-addd-288e9c4b91d6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005406"
 ---
 # <a name="deploying-your-servers"></a>Implementar los servidores
 Esta sección proporciona instrucciones para configurar cada uno de los servidores de su [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] implementación. Después de configurar la red al implementar el software en cada servidor mediante los pasos siguientes.  

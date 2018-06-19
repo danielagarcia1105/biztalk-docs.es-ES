@@ -1,18 +1,18 @@
 ---
-title: "Cómo actualizar un recurso | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar un recurso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [resources], refreshing
 - refreshing resources
 - resources, refreshing
 ms.assetid: d6ff7c9d-8aaf-42a4-b1a3-00c05f6ac869
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254548"
 ---
 # <a name="how-to-refresh-a-resource"></a>Cómo actualizar un recurso
 En este tema se describe cómo usar la consola de administración de BizTalk Server para actualizar un artefacto de recurso. La información del artefacto se actualiza en la base de datos de administración de BizTalk. Otra manera de hacerlo es mediante la adición del artefacto a la aplicación mediante BTSTask [comando AddResource](../core/addresource-command.md) con la opción de sobrescritura.  

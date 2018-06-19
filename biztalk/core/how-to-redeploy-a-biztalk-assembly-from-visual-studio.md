@@ -1,14 +1,14 @@
 ---
-title: "Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft"
-ms.custom: 
+title: Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c4bb627-48de-4874-bb25-af2c513dbc51
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009501"
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a>Cómo volver a implementar un ensamblado de BizTalk desde Visual Studio
 Durante el desarrollo de un ensamblado, suele resultar necesario implementarlo, probarlo, modificarlo y volver a implementarlo varias veces. En versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], si se quería volver a implementar un ensamblado sin cambiar el número de versión, primero había que detener, dar de baja y desenlazar manualmente los artefactos incluidos en el ensamblado de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] y, a continuación, quitar el ensamblado de la base de datos (de configuración) de Administración de BizTalk. Además, después de volver a implementar el ensamblado, había que enlazar, dar de alta e iniciar sus artefactos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

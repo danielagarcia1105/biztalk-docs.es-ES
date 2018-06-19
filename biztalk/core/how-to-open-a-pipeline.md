@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254340"
 ---
 # <a name="how-to-open-a-pipeline"></a>Cómo abrir una canalización
 Abrir un archivo de canalización hace que el Diseñador de canalizaciones aparezca con la canalización definida y las fases correspondientes en el área de diseño. Además, aparecerán el cuadro de herramientas del Diseñador de canalizaciones y la ventana Propiedades si aún no estuvieran abiertas.  

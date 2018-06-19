@@ -1,11 +1,11 @@
 ---
-title: "Cómo configurar el componente de canalización de codificador de MIME-SMIME | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar el componente de canalización de codificador de MIME-SMIME | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, encrypting digital signatures
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, encoding
 - messages, multi-parts
 ms.assetid: dcbb08e8-d300-4e7f-9c1c-907fb602e721
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249660"
 ---
 # <a name="how-to-configure-the-mime-smime-encoder-pipeline-component"></a>Cómo configurar el componente de canalización de codificador de MIME-SMIME
 Utilice el componente de canalización de codificador de MIME/SMIME para codificar y cifrar los mensajes de salida y firmarlos. Este componente es útil cuando necesita un intercambio seguro de documentos entre el servidor BizTalk Server y socios comerciales externos. También puede utilizar este componente para enviar mensajes de varias partes del servidor BizTalk Server.  

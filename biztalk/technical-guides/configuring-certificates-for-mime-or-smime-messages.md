@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea6e5481-fc2e-4b17-b6c8-1ec5d2bfa2c3
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009829"
 ---
 # <a name="configuring-certificates-for-mime-or-smime-messages"></a>Configurar certificados para MIME o mensajes SMIME
 Para ayudar a proteger de transferencia de datos en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe asociar certificados instalados en los almacenes de certificados con los artefactos apropiados de BizTalk. Esto se aplica a los mensajes con codificación MIME/SMIME. También se aplica al transporte de AS2, que transporta los mensajes MIME/SMIME.  

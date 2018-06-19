@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de recepción HTTP | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de recepción HTTP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9008833c-5a02-4fb4-a43e-09ca28a21eff
-caps.latest.revision: 
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710603"
 ---
 # <a name="http-receive-adapter"></a>Adaptador de recepción HTTP
 La ubicación de recepción del adaptador de recepción HTTP es una dirección URL distinta configurada a través de la consola de administración de BizTalk Server.  

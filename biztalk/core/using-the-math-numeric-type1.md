@@ -1,11 +1,11 @@
 ---
 title: Mediante el Type1 MATH_NUMERIC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters [JD Edwards EnterpriseOne adapters], currency
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, currency
 - exponents, values [JD Edwards EnterpriseOne adapters]
 ms.assetid: 2a302216-f0a6-4afb-8f7d-bb1475ea1c57
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288516"
 ---
 # <a name="using-the-mathnumeric-type"></a>Uso del tipo MATH_NUMERIC
 En este tema se describe el tipo MATH_NUMERIC y se detalla cómo se gestionan los exponentes, el número máximo de dígitos y el número máximo de dígitos decimales. También incluye una explicación sobre:  

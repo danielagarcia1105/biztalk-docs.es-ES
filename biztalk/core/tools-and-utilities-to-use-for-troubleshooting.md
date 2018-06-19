@@ -1,14 +1,14 @@
 ---
-title: "Herramientas y utilidades que se usan para la solución de problemas | Documentos de Microsoft"
-ms.custom: 
+title: Herramientas y utilidades que se usan para la solución de problemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c817384f-e328-439d-9c41-a94ed75670ce
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008421"
 ---
 # <a name="tools-and-utilities-to-use-for-troubleshooting"></a>Herramientas y utilidades que se utilizan para solucionar problemas
 Esta sección describen varias herramientas y utilidades que pueden resultar útiles para diagnosticar la causa de un problema en una dependencia o un componente de Microsoft BizTalk Server.  

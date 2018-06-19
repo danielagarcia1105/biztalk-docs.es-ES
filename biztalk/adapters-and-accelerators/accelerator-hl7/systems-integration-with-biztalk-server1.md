@@ -1,14 +1,14 @@
 ---
-title: "HL7 Integración de sistemas | Documentos de Microsoft"
-ms.custom: 
+title: HL7 Integración de sistemas | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f66a4fc-186c-415f-a7ed-31f620f0495f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005037"
 ---
 # <a name="systems-integration-with-biztalk-server"></a>Integración de sistemas con BizTalk Server
 Microsoft BizTalk Server es un servidor de integración diseñado para las aplicaciones de comercio electrónico. Se genera en Windows Server, SQL Server y SharePoint y aprovecha la funcionalidad de Visual Studio. Esta pila de tecnología proporciona una gama de funcionalidad y características para desarrollar, implementar, el funcionamiento y mantenimiento de la solución.  

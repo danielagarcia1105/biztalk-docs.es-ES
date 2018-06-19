@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f32c95f4-a4eb-412b-9fa7-140e80b85e5a
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010165"
 ---
 # <a name="checklist-measuring-performance-on-hyper-v"></a>Lista de comprobación: Medir el rendimiento en Hyper-V
 Aunque la mayoría de los principios de analizar el rendimiento de un sistema operativo instalado en un rendimiento de la máquina virtual de Hyper-V es los mismos que analizar el rendimiento de un sistema operativo instalado en un equipo físico, muchos de los métodos de colección son diferentes. Las secciones siguientes deben usarse como una referencia rápida al evaluar el rendimiento de la solución de BizTalk Server que se ejecuta en un sistema operativo instalado en una máquina virtual de Hyper-V.  

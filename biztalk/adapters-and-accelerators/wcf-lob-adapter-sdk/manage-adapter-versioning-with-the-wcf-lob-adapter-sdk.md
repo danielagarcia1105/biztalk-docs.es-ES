@@ -1,14 +1,14 @@
 ---
 title: Administrar el control de versiones de adaptador con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb596fdd-251c-4978-9f33-cf2883d281d8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225836"
 ---
 # <a name="manage-adapter-versioning-with-the-wcf-lob-adapter-sdk"></a>Administrar el control de versiones de adaptador con el SDK de adaptador LOB de WCF
 Después de la implementación inicial de adaptadores y haber transcurrido potencialmente varias horas durante su duración, los adaptadores (y los extremos que exponen) pueden necesitar ser cambiados debido a diversas razones. Estos motivos incluyen el cambio de las necesidades del negocio, los requisitos de tecnología de información o problemas con la línea de sistema de negocio o el propio adaptador. Este tema describen varias estrategias para controlar el control de versiones para los adaptadores que se escriben con el [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)].  

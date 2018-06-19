@@ -1,14 +1,14 @@
 ---
 title: En pendientes y desactivar pendientes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0cce5d2-f16f-4bda-94ac-20c4f457cfc7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294564"
 ---
 # <a name="on-ramps-and-off-ramps"></a>En pendientes y desactivar pendientes
 En un entorno donde [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] está implementado, BizTalk ubicación de recepción responsable de recibir los mensajes destinados a ESB se conoce como "en rampa." Para configurar una ubicación de recepción de BizTalk estándar a ESB en rampa, asociar la ubicación de recepción con una de las canalizaciones que se proporciona como parte del Kit de herramientas y, a continuación, configure correctamente los componentes de dicha canalización para determinar o leer el itinerario para el mensaje entrante, según el escenario.  

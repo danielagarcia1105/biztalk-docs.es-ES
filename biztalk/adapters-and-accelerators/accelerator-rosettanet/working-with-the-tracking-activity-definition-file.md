@@ -1,11 +1,11 @@
 ---
-title: "Trabajar con el archivo de definición de actividad de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar con el archivo de definición de actividad de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking, activity definition file
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tracking, managing views
 - activity definition file, activity fields
 ms.assetid: 0592a844-aad7-4054-b1e7-344f1086f0b1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009381"
 ---
 # <a name="working-with-the-tracking-activity-definition-file"></a>Trabajar con el archivo de definición de actividad de seguimiento
 El archivo de definición de actividad contiene información acerca del seguimiento de la actividades de proceso y el mensaje en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]usa este archivo para administrar los datos de seguimiento de BizTalk actividad supervisión económica (BAM). El archivo de definición es un archivo XML (Tracking.xml) que [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] el programa de instalación instala en el \< *unidad*\>: \Program Acelerador de BizTalk 2013 para RosettaNet \BAMTracking carpeta. Las actividades definidas en Tracking.xml pueden ser suficientes para sus fines.  

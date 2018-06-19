@@ -1,14 +1,14 @@
 ---
 title: Procesamiento de confirmaciones recibidas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67f67a95-7368-40c2-a162-6ffc9de076fc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971186"
 ---
 # <a name="processing-a-received-acknowledgment"></a>Procesamiento de confirmaciones recibidas
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] espera una confirmación técnica si se especifica la propiedad relevante en el acuerdo. Para X12, este es el **TA1 esperado** propiedad en el **confirmaciones** página del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo o de acuerdo de reserva Propiedades. Para EDIFACT, se trata de la **recepción del mensaje (CONTRL) esperada** propiedad en el **confirmaciones** página del acuerdo unidireccional en el **propiedades del acuerdo de** cuadro de diálogo cuadro o de propiedades del acuerdo de reserva. Si el acuerdo de recepción procesa el mensaje recibido, generará la confirmación técnica como resultado del valor de ISA14 o UNB9 en el mensaje.  

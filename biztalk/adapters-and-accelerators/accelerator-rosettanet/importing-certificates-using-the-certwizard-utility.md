@@ -1,11 +1,11 @@
 ---
-title: "Importación de certificados mediante la utilidad CertWizard | Documentos de Microsoft"
-ms.custom: 
+title: Importación de certificados mediante la utilidad CertWizard | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, root keys
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - certificates, importing
 - root keys
 ms.assetid: 0c54d7ab-69cf-4f4a-b976-6f740a41280b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006845"
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a>Importación de certificados mediante la utilidad CertWizard
 Este tema describe cómo importar un certificado mediante la utilidad CertWizard, una utilidad de línea de comandos paso a paso disponible en la [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. Este tema describe la importación de una privada, pública o clave raíz. Describe los modificadores que utilizan para configurar el certificado.  
@@ -37,7 +38,7 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 ### <a name="to-import-a-private-key"></a>Para importar una clave privada  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK con MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK** .  
   
@@ -72,7 +73,7 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 ### <a name="to-import-a-public-key"></a>Para importar una clave pública  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.  
   
@@ -84,7 +85,7 @@ Este tema describe cómo importar un certificado mediante la utilidad CertWizard
   
 ### <a name="to-import-a-root-key"></a>Para importar una clave raíz  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, vaya a la [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] carpeta del SDK mediante el uso de MS-DOS **CD** comando, por ejemplo, escriba **cd C:\Program Files\Microsoft BizTalk \<versión\> Acelerador para RosettaNet\SDK**.  
   

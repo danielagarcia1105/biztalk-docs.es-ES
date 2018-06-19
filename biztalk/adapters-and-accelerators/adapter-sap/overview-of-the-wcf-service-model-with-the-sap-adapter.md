@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218572"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-sap-adapter"></a>Información general sobre el modelo de servicio WCF con el adaptador SAP
 Cuando se usan operaciones que el [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] superficies, el código actúa como un cliente o un servicio para el adaptador.  

@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Introducción a BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Introducción a BizTalk Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37d265cd-c393-46ac-ac21-129a1511359b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 ms.openlocfilehash: a441fa60bc4ef084d3be5032049e2f712c2e501b
@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009445"
 ---
 # <a name="checklist-getting-started-with-biztalk-server"></a>Lista de comprobación: Introducción a BizTalk Server
 Si está completamente familiarizado con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], debe seguir la lista de comprobación de este tema para ayudarle a acelerar con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

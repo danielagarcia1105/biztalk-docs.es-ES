@@ -1,14 +1,14 @@
 ---
-title: "Actualizar las referencias a la base de datos del servidor de análisis de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Actualizar las referencias a la base de datos del servidor de análisis de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a403325-1394-4668-946f-01b610cb686e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976322"
 ---
 # <a name="update-references-to-the-tracking-analysis-server-database"></a>Actualizar las referencias a la base de datos del servidor de análisis de seguimiento
 La base de datos del servidor de análisis de seguimiento es opcional y contiene los cubos de procesamiento analítico en línea (OLAP). Estos cubos OLAP son agregaciones de datos contenidos en la base de datos de seguimiento de BizTalk.  

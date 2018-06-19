@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975458"
 ---
 # <a name="file-inventory-for-the-service-oriented-solution"></a>Solución orientada a servicios de inventario de archivos para el servicio
 En esta sección se enumeran los subdirectorios y los archivos de origen para la solución orientada a servicios. El directorio de instalación predeterminado para los archivos de origen de la solución orientada a servicios es [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Las descripciones antes de las siguientes tablas reemplazan esta ruta con \<directorio de instalación\>.  

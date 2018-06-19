@@ -1,18 +1,18 @@
 ---
-title: "Cómo quitar las cuentas de una vista | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar las cuentas de una vista | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], security
 - managing [BAM], deleting accounts from views
 - Remove-Account command [BAM]
 ms.assetid: b74a64a0-ddb3-45d2-add7-6261c31be0f0
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971346"
 ---
 # <a name="how-to-remove-accounts-from-a-view"></a>Cómo quitar cuentas de una vista
 Los administradores utilizan el **remove-account** comando para quitar usuarios de vistas de BAM y proteger las vistas de hojas de cálculo de Excel de BAM de accesos no autorizados.  

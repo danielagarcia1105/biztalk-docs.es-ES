@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Realización de comprobaciones de mantenimiento diario | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Realización de comprobaciones de mantenimiento diario | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1abae6fb-abce-4f23-a07d-b32ba58cd070
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007877"
 ---
 # <a name="checklist-performing-daily-maintenance-checks"></a>Lista de comprobación: Realización de comprobaciones de mantenimiento diario
 En este tema se describe algunos de los elementos que se deben comprobar diariamente para ayudar a supervisar el estado de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema. Debe realizar la mayor parte de estas comprobaciones de forma coherente y archivar los resultados durante un período de tiempo para obtener la mayor ventaja. Se recomienda que automaticen las comprobaciones de mantenimiento rutinarias siempre que sea posible.  

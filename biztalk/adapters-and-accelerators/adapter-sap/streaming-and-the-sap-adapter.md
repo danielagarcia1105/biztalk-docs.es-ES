@@ -1,11 +1,11 @@
 ---
-title: "Transmisión por secuencias y el adaptador SAP | Documentos de Microsoft"
-ms.custom: 
+title: Transmisión por secuencias y el adaptador SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - streaming, support in WCF service model
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - streaming, and the SAP adapter
 - streaming, support in WCF channel model
 ms.assetid: 9fa1788b-f21b-4dec-be14-27dd8080a9d4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218252"
 ---
 # <a name="streaming-and-the-sap-adapter"></a>Transmisión por secuencias y el adaptador SAP
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] admite mensajes de transmisión por secuencias entre él y una aplicación cliente. Con el [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] se invocan las operaciones y las respuestas se devuelven mediante el intercambio de mensajes SOAP. Un cuerpo del mensaje SOAP se compone de los nodos XML.  

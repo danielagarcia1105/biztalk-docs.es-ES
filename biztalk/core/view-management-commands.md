@@ -1,14 +1,14 @@
 ---
-title: "Ver los comandos de administración | Documentos de Microsoft"
-ms.custom: 
+title: Ver los comandos de administración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52f25ee3-9bb3-4682-a9ff-cac8c25f58c3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975178"
 ---
 # <a name="view-management-commands"></a>Comandos de administración de vistas
 Los comandos de administración de vistas de la utilidad de administración de BAM permiten trabajar con vistas implementadas.  

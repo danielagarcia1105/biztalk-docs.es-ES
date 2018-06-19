@@ -1,17 +1,17 @@
 ---
 title: Conectarse mediante el adaptador de Siebel | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connecting, to a Siebel system
 - connection URI
 ms.assetid: 6ba04179-5626-42b1-a01b-0c0638d31da3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221844"
 ---
 # <a name="connect-to-siebel-using-the-adapter"></a>Conectarse mediante el adaptador de Siebel
 El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] requiere que los clientes de adaptador proporcionar una cadena de conexión, llamada a la conexión Uniform Resource Identifier (URI), para conectarse a un sistema Siebel. Con un URI de conexión, los clientes de adaptador pueden especificar parámetros de conexión para conectarse a un sistema externo. Para obtener más información sobre el URI de conexión, consulte [crear una conexión con el sistema Siebel](../../adapters-and-accelerators/adapter-siebel/create-a-connection-to-the-siebel-system.md).  

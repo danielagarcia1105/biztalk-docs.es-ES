@@ -1,17 +1,17 @@
 ---
-title: "Cómo cambiar el nombre de los elementos de vista | Documentos de Microsoft"
-ms.custom: 
+title: Cómo cambiar el nombre de los elementos de vista | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM views, renaming items
 - Excel add-in [BAM], renaming items
 ms.assetid: 0fc68e0d-1d6b-4ad1-b059-7b5318050530
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255564"
 ---
 # <a name="how-to-rename-view-items"></a>Cambio del nombre de los elementos de vista
 A menudo, los datos que recopila para una actividad económica contienen información confidencial (por ejemplo números de tarjeta de crédito o de la seguridad social). Esto significa que algunos tipos de usuarios empresariales solo deben ver un subconjunto filtrado de los datos.  

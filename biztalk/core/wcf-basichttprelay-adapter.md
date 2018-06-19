@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 22eefde6-80f5-4d45-80cf-55f743ff9d45
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975866"
 ---
 # <a name="wcf-basichttprelay-adapter"></a>Adaptador WCF-BasicHttpRelay
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] usa el **WCF-BasicHttpRelay** adaptador para recibir y enviar solicitudes de servicio WCF a través de la [BasicHttpRelayBinding clase](https://msdn.microsoft.com/library/azure/microsoft.servicebus.basichttprelaybinding.aspx). El **WCF-BasicHttpRelay** adaptador utiliza los extremos de retransmisión de Bus de servicio mediante el **BasicHttpRelayBinding**.  

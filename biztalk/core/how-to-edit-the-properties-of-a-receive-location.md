@@ -1,11 +1,11 @@
 ---
-title: "Cómo editar las propiedades de una ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo editar las propiedades de una ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive locations], properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - editing, receive locations
 - editing, properties
 ms.assetid: 2b622050-a875-4896-bed6-65ca39a26dd3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254468"
 ---
 # <a name="how-to-edit-the-properties-of-a-receive-location"></a>Cómo editar las propiedades de una ubicación de recepción
 En este tema, se describe cómo utilizar la consola de administración de BizTalk Server para editar las propiedades de una ubicación de recepción que ya existe. Para obtener instrucciones sobre cómo crear una ubicación de recepción, consulte [cómo crear una ubicación de recepción](../core/how-to-create-a-receive-location.md).  

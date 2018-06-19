@@ -1,14 +1,14 @@
 ---
-title: "Administración de BizTalk Server2 | Documentos de Microsoft"
-ms.custom: 
+title: Administración de BizTalk Server2 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 977e2685-a914-422a-97f7-d0c23717f010
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008605"
 ---
 # <a name="managing-biztalk-server"></a>Administrar BizTalk Server
 Esta sección proporciona instrucciones para administrar un sistema de BizTalk Server en un entorno de producción. Los procedimientos siguientes generalmente se suponen que está trabajando con una aplicación de BizTalk después de la implementación. Estos procedimientos describen las prácticas recomendadas y conceptos para operaciones rutinarias, incluidas las siguientes:  

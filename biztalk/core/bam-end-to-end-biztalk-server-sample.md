@@ -1,15 +1,15 @@
 ---
 title: Ejemplo de extremo a extremo BAM en BizTalk Server | Documentos de Microsoft
-description: "Escenario sobre cómo correlacionar eventos desde varios componentes mediante la supervisión de la actividad de negocio de BizTalk Server"
-ms.custom: 
+description: Escenario sobre cómo correlacionar eventos desde varios componentes mediante la supervisión de la actividad de negocio de BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 81406038-7f3f-499f-a003-12423d92c44b
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009885"
 ---
 # <a name="bam-end-to-end-biztalk-server-sample"></a>Extremo a extremo de BAM (ejemplo de BizTalk Server)
 En el ejemplo de extremo a extremo se muestra cómo correlacionar eventos desde varios componentes (en este caso, tres orquestaciones y una canalización) mediante BAM.  
@@ -44,7 +45,7 @@ En el ejemplo de extremo a extremo se muestra cómo correlacionar eventos desde 
 
 El ejemplo funciona como se describe a continuación:  
   
-1.  Un mensaje de entrada se recupera de la  *\<ruta de ejemplos\>*carpeta \BamEndToEnd\Input.  
+1.  Un mensaje de entrada se recupera de la  *\<ruta de ejemplos\>* carpeta \BamEndToEnd\Input.  
   
 2.  El componente de canalización asigna un identificador de documento único al mensaje y usa la API de BAM para comenzar una nueva actividad de BAM. El DocumentID se adjunta como una parte separada del mensaje de entrada para que esté disponible para las orquestaciones.  
   
@@ -54,12 +55,12 @@ El ejemplo funciona como se describe a continuación:
   
 5.  La Orchestration2 modifica el mensaje de entrada y lo envía a la base de datos de cuadro de mensajes, la cual activa la Orchestration3.  
   
-6.  La Orchestration3 modifica el mensaje y lo escribe en la carpeta  *\<ruta de ejemplos\>*\BamEndToEnd\Output.  
+6.  La Orchestration3 modifica el mensaje y lo escribe en la carpeta  *\<ruta de ejemplos\>* \BamEndToEnd\Output.  
   
 7.  Cada orquestación actualiza los elementos de actividad de la actividad de BAM.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- Puede encontrar este ejemplo en  *\<ruta de ejemplos\>*\BAM\BamEndToEnd.  
+ Puede encontrar este ejemplo en  *\<ruta de ejemplos\>* \BAM\BamEndToEnd.  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -101,11 +102,11 @@ Services\Schema3.xsd|Esquema de mensajes.|
   
 ##  <a name="To_Build_Sample"></a>Crear e inicializar este ejemplo  
   
-1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>*\BAM\BAMEndToEnd\Setup.bat. Setup.bat genera e inicializa la infraestructura de BAM para este ejemplo. Mantenga abierto el símbolo del sistema.  
+1.  Abra un símbolo del sistema como administrador y ejecute  *\<ruta de ejemplos\>* \BAM\BAMEndToEnd\Setup.bat. Setup.bat genera e inicializa la infraestructura de BAM para este ejemplo. Mantenga abierto el símbolo del sistema.  
   
 2.  Cree un perfil de seguimiento para asignar Orchestration1, Orchestration2 y Orchestration3 a la actividad de BAM. (Dado que crear el perfil de seguimiento es un proceso complejo, las instrucciones detalladas se encuentran en un procedimiento independiente denominado **para crear un perfil de seguimiento**. Este procedimiento aparece más adelante en este documento).  
   
-3.  Implemente el perfil de seguimiento BamEndToEnd.btt que creó en el paso anterior.  En el símbolo del sistema, cambie a la  *\<ruta de ejemplos\>*directorio \BAM\BamEndToEnd. Para implementar el perfil de seguimiento, escriba la línea siguiente y, a continuación, presione **ENTRAR**:  
+3.  Implemente el perfil de seguimiento BamEndToEnd.btt que creó en el paso anterior.  En el símbolo del sistema, cambie a la  *\<ruta de ejemplos\>* directorio \BAM\BamEndToEnd. Para implementar el perfil de seguimiento, escriba la línea siguiente y, a continuación, presione **ENTRAR**:  
   
     `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
@@ -116,7 +117,7 @@ Services\Schema3.xsd|Esquema de mensajes.|
   
 ##  <a name="To_Run_Sample"></a>Ejecutar este ejemplo  
   
-Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carpeta  *\<ruta de ejemplos\>*\BamEndToEnd\Input. Después de unos segundos, el mensaje desaparece de la carpeta de entrada y aparece un mensaje de salida en el  *\<ruta de ejemplos\>*carpeta \BamEndToEnd\Output.  
+Copie el archivo  *\<ruta de ejemplos\>* \BamEndToEnd\InputMessage.xml en la carpeta  *\<ruta de ejemplos\>* \BamEndToEnd\Input. Después de unos segundos, el mensaje desaparece de la carpeta de entrada y aparece un mensaje de salida en el  *\<ruta de ejemplos\>* carpeta \BamEndToEnd\Output.  
   
 ##  <a name="To_View_Data"></a>Ver los datos de BAM  
   
@@ -130,14 +131,14 @@ Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carp
   
 #### <a name="rerun-this-sample"></a>Vuelva a ejecutar este ejemplo  
   
-1.  Abra un símbolo del sistema como administrador y cambie a la  *\<ruta de ejemplos\>*directorio \BAM\BamEndToEnd. Escriba la línea siguiente:  
+1.  Abra un símbolo del sistema como administrador y cambie a la  *\<ruta de ejemplos\>* directorio \BAM\BamEndToEnd. Escriba la línea siguiente:  
   
     `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
     >  Si no ha instalado [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en la unidad C, reemplace "C" por la letra de unidad donde se instaló [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-2.  Ejecutar  *\<ejemplos de ruta de acceso\>*\BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat quita la infraestructura de BAM para este ejemplo.  
+2.  Ejecutar  *\<ejemplos de ruta de acceso\>* \BAM\BAMEndToEnd\Cleanup.bat. Cleanup.bat quita la infraestructura de BAM para este ejemplo.  
   
 3.  Realice los pasos en **para crear e inicializar este ejemplo** sección en este tema.  
   
@@ -163,7 +164,7 @@ Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carp
   
 10. Desplácese hasta el final de la **nombre de la propiedad de contexto** lista y, a continuación, haga doble clic en **BAMEndToEnd.Services.PropertySchema.DocumentID**.  
   
-11. Expanda  **\<esquema\>**y, a continuación, arrastre **DocumentID** en el panel derecho a **Orch1_** en el panel izquierdo.  
+11. Expanda  **\<esquema\>** y, a continuación, arrastre **DocumentID** en el panel derecho a **Orch1_** en el panel izquierdo.  
   
 12. Haga clic en el icono de carpeta con la flecha (![botón con carpeta y flecha arriba](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) dos veces para mostrar la orquestación.  
   
@@ -183,7 +184,7 @@ Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carp
   
 19. Desplácese hasta el final de la **nombre de la propiedad de contexto** lista y, a continuación, haga doble clic en **BAMEndToEnd.Services.PropertySchema.DocumentID**.  
   
-20. Expanda  **\<esquema\>**y, a continuación, arrastre **DocumentID** a la **Orch2_** continuación en el panel izquierdo.  
+20. Expanda  **\<esquema\>** y, a continuación, arrastre **DocumentID** a la **Orch2_** continuación en el panel izquierdo.  
   
     > [!NOTE]
     >  No confunda la continuación Orch2_ con el identificador de continuación Orch2_. El icono que representa un identificador de continuación contiene una clave (![icono para un identificador de continuación](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea")), mientras que el icono que representa una continuación no contiene una clave ( ![icono para una continuación](../core/media/test.gif "probar")).  
@@ -256,7 +257,7 @@ Copie el archivo  *\<ruta de ejemplos\>*\BamEndToEnd\InputMessage.xml en la carp
   
 48. En el **seleccionar puertos** sección de la **seleccionar puertos** cuadro de diálogo, haga clic en **BamEndToEnd_ReceivePort**, haga clic en la mayor-de inicio de sesión ( **>** ) y, a continuación, haga clic en **Aceptar**.  
   
-49. Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>*\BAM\BamEndToEnd\BamEndToEnd.btt.  
+49. Guarde el perfil de seguimiento para  *\<ruta de ejemplos\>* \BAM\BamEndToEnd\BamEndToEnd.btt.  
   
 ## <a name="important-details"></a>Detalles importantes  
  Los archivos de seguimiento no son compatibles con las canalizaciones. Sin embargo, la llamada a **BeginActivity** en la canalización de componente es lo mismo que usar ActivityID en una orquestación. La llamada a **EnableContinuation** es lo mismo que usar una continuación en una orquestación.  

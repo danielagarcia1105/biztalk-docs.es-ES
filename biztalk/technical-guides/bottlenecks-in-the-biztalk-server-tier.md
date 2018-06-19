@@ -1,14 +1,14 @@
 ---
 title: Cuellos de botella en el nivel de servidor BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ad36897-4e4a-43b9-9cb7-0bf22bd954fb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976778"
 ---
 # <a name="bottlenecks-in-the-biztalk-server-tier"></a>Cuellos de botella en el nivel de servidor BizTalk Server
 El nivel de BizTalk se puede dividir en las siguientes áreas funcionales:  

@@ -1,11 +1,11 @@
 ---
-title: "Cómo dar de alta o baja una entidad para un rol | Documentos de Microsoft"
-ms.custom: 
+title: Cómo dar de alta o baja una entidad para un rol | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [role links], enlisting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - role links, enlisting
 - managing [role links], unenlisting
 ms.assetid: 06fc2a64-3add-400c-9f9d-fab22fdf5366
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253788"
 ---
 # <a name="how-to-enlist-or-unenlist-a-party-for-a-role"></a>Cómo dar de alta o de baja una entidad para un rol
 En este tema se explica cómo usar la consola de administración de BizTalk Server para dar de alta o de baja una entidad para un rol. Al dar de alta una entidad para un rol, ésta se asigna al rol; por el contrario, al darla de baja, la entidad se quita del rol.  

@@ -1,14 +1,14 @@
 ---
-title: "Cómo configurar un WCF-WSHttp ubicación de recepción | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar un WCF-WSHttp ubicación de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b38cce4a-9c81-4716-b847-1acada4afc15
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250756"
 ---
 # <a name="how-to-configure-a-wcf-wshttp-receive-location"></a>Cómo configurar una ubicación de recepción WCF-WSHttp
 Puede configurar una ubicación de recepción WCF-WSHttp mediante programación o con la consola de administración de BizTalk.  
@@ -75,11 +76,11 @@ Puede configurar una ubicación de recepción WCF-WSHttp mediante programación 
   
 5.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, en la **General** pestaña, configure la dirección del extremo y ubicación de recepción de la identidad del servicio de WCF-WSHttp. Para obtener más información sobre la **General** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea la **cuadro diálogo de propiedades de transporte WCF-WSHttp, recepción, General**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-6.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, en la **enlace** pestaña, configure las propiedades de tiempo de espera, codificación y transacción. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+6.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, en la **enlace** pestaña, configure las propiedades de tiempo de espera, codificación y transacción. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-7.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo el **seguridad** ficha, definir la seguridad de la ubicación de recepción de las capacidades de WCF-WSHttp. Para obtener más información acerca de la **seguridad** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea la **seguridad del cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+7.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo el **seguridad** ficha, definir la seguridad de la ubicación de recepción de las capacidades de WCF-WSHttp. Para obtener más información acerca de la **seguridad** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea la **seguridad del cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-8.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+8.  En el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-WSHttp** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-WSHttp, recepción,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## <a name="configure-a-wcf-wshttp-receive-location-programmatically"></a>Configurar un WCF-WSHttp mediante programación de la ubicación de recepción
   

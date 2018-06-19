@@ -1,14 +1,14 @@
 ---
 title: Crear, ver y eliminar error mensaje alertas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59df2b40-b42c-4167-873c-0819839919da
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974450"
 ---
 # <a name="creating-viewing-and-deleting-fault-message-alerts"></a>Crear, ver y eliminar las alertas de mensaje de error
 El Portal de administración de ESB pueden generar alertas cuando llegan los mensajes de error en el portal, basándose en una comparación de valores en el mensaje con los criterios especificados para la alerta. El portal también puede mantener una lista de notificaciones de alertas vinculado a una persona y los usuarios, y notificará a estos usuarios cuando proactivamente genera alertas.  

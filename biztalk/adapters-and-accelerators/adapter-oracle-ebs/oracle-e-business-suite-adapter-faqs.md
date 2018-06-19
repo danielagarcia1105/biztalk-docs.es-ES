@@ -1,14 +1,14 @@
 ---
-title: "Adaptador de Oracle E-Business Suite preguntas más frecuentes | Documentos de Microsoft"
-ms.custom: 
+title: Adaptador de Oracle E-Business Suite preguntas más frecuentes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f7fe4e0-ddd5-402f-bbbc-b320850eaf3b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218060"
 ---
 # <a name="oracle-e-business-suite-adapter-faqs"></a>Adaptador de Oracle E-Business Suite preguntas más frecuentes
 Los siguientes son algunas preguntas más frecuentes (P+f) relacionadas con [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]. Consulte también [BizTalk Adapter Pack preguntas más frecuentes](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md).

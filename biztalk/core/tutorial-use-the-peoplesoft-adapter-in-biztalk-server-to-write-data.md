@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el adaptador de BizTalk para PeopleSoft Enterprise para escribir datos en PeopleSoft Enterprise | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 837dd4db-576d-41c1-9fe8-e1e46861270b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976082"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-write-data-to-peoplesoft-enterprise"></a>Tutorial: Usar el adaptador de BizTalk para PeopleSoft Enterprise para escribir datos en PeopleSoft Enterprise
 El adaptador de BizTalk para PeopleSoft Enterprise se puede usar para escribir datos en un sistema PeopleSoft con información recibida de un socio comercial o de una aplicación interna. En este tutorial se describe un ejemplo de SDK que muestra esta función.  

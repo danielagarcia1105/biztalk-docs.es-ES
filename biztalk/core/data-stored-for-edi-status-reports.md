@@ -1,14 +1,14 @@
 ---
 title: Datos almacenados para informes de estado EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec66e4d7-2694-499f-a60c-2f80fe643e12
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970626"
 ---
 # <a name="data-stored-for-edi-status-reports"></a>Datos almacenados para informes de estado de EDI
 Existen dos niveles de informes están disponibles en los informes de estado EDI: el primero tiene lugar si la **activar informes** propiedad está seleccionada para un acuerdo y el segundo si el **reporting de carga y conjunto de transacciones de almacén** propiedad está seleccionada para un acuerdo. Estas propiedades están disponibles en la **propiedades generales** página de la **General** pestaña en el **propiedades del acuerdo de** cuadro de diálogo.  

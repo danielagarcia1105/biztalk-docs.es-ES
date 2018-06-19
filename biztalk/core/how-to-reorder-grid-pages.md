@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254804"
 ---
 # <a name="how-to-reorder-grid-pages"></a>Reorganización de páginas de cuadrícula
 Si la asignación es compleja, puede incluir varias páginas de cuadrícula y, a continuación, cambiarles el nombre y volver a ordenarlas. En este tema se incluyen instrucciones detalladas para realizar estas operaciones.  

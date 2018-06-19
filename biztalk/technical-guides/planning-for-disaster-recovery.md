@@ -1,14 +1,14 @@
 ---
-title: "Planear la recuperación ante desastres de | Documentos de Microsoft"
-ms.custom: 
+title: Planear la recuperación ante desastres de | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a33e8875-cfde-4a60-9dab-fc6bb3ac4f1c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008993"
 ---
 # <a name="planning-for-disaster-recovery"></a>Planear la recuperación de un desastre
 Este tema proporciona instrucciones para los equipos de la aplicación para los requisitos de recuperación ante desastres y procedimientos para BizTalk Server. Microsoft BizTalk Server almacena información de configuración y el procesamiento en [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. BizTalk Server alta disponibilidad y recuperación ante desastres se logra a través de las capacidades de recuperación de desastres y la disponibilidad alta de [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  

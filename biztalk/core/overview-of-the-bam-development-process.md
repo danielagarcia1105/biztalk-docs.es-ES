@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 098db3f6-2a61-4cc8-88c7-2299c2e2a55e
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972506"
 ---
 # <a name="overview-of-the-bam-development-process"></a>Información general sobre el proceso de desarrollo con BAM
 En este tema se describen el proceso de desarrollo, así como las bases de datos y tablas que almacenan los datos de BAM.  

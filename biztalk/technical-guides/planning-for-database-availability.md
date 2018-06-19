@@ -1,14 +1,14 @@
 ---
 title: Planear la disponibilidad de la base de datos | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa74257-4159-46f6-b538-f7e9083d74ad
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008445"
 ---
 # <a name="planning-for-database-availability"></a>Planear la disponibilidad de la base de datos
 El motor de mensajería de BizTalk Server garantiza que los procesos empresariales son confiables y perdurables por conservar procesar los datos de estado y de negocio a una base de datos de SQL Server que se conoce como la base de datos de BizTalk Messagebox. Dado que la confiabilidad y durabilidad de los datos persistentes es tan buena como almacén de datos subyacente, planificación de alta disponibilidad de las bases de datos de BizTalk Server es muy importante.  

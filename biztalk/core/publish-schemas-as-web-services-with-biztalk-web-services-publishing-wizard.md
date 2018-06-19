@@ -1,17 +1,17 @@
 ---
-title: "Asistente para publicar esquemas como servicios Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Asistente para publicar esquemas como servicios Web de publicación de servicios de cómo utilizar la Web de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, publishing
 - BizTalk Web Services Publishing Wizard, schemas
 ms.assetid: b22de720-1416-486a-988f-e52527ad9ab1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25974818"
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a>Cómo usar el Asistente para publicar los servicios Web de BizTalk para publicar esquemas como servicios Web
 El Asistente para publicar servicios Web de BizTalk permite publicar esquemas como servicio Web.  

@@ -1,18 +1,18 @@
 ---
 title: Administrar instancias de Host y Hosts de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [hosts]
 - hosts, managing
 - managing [hosts], about managing hosts
 ms.assetid: 7f329804-ca44-4799-8a5d-38b3146d8e5e
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262588"
 ---
 # <a name="managing-biztalk-hosts-and-host-instances"></a>Administrar hosts de BizTalk e instancias de host
 Un host de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] es un conjunto lógico de cero o más procesos de tiempo de ejecución de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en el que se implementan elementos como controladores de adaptador, ubicaciones de recepción (incluidas las canalizaciones) y orquestaciones. Para obtener más información acerca de los hosts, consulte [Hosts](../core/hosts.md).  

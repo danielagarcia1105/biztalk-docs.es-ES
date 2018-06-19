@@ -1,14 +1,14 @@
 ---
 title: Conectarse al sistema Siebel en Visual Studio mediante metadatos de Asistente para agregar adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0a82fcc-b3ac-4936-9210-03c99d3741d7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222772"
 ---
 # <a name="connect-to-the-siebel-system-in-visual-studio-using-add-adapter-metadata-wizard"></a>Conectarse al sistema Siebel en Visual Studio mediante metadatos de Asistente para agregar adaptador
 El [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] también se expone como un adaptador de BizTalk y por lo tanto, puede usar el [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] para generar el esquema para las operaciones que desea realizar en el sistema de Siebel mediante el adaptador.  

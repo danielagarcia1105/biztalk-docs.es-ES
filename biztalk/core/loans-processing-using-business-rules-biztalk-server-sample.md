@@ -1,17 +1,17 @@
 ---
 title: Loans Processing Using Business Rules (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 3e1c80c6-adc1-4a0f-83fd-409ce1b8f21f
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008349"
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a>Préstamos procesamiento con reglas de negocios (ejemplo de BizTalk Server)
 En el ejemplo Loans Processing Using Business Rules se muestra cómo usar un conjunto de reglas administrado en una orquestación y cómo usar una combinación de entradas conocidas como hechos para calcular la configuración de algunos campos en un documento que se está procesando. Los hechos pueden ser el resultado de la llamada a un ensamblado basado en .NET, de los valores recuperados del XML del mensaje o de los datos recuperados de una base de datos. En el ejemplo también se muestra cómo puede cambiar las reglas en cualquier momento, lo que afecta a los cálculos posteriores sin tener que volver a realizar la implementación.  

@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005213"
 ---
 # <a name="getting-started-with-biztalk-accelerator-for-swift"></a>Introducción a BizTalk Accelerator para SWIFT
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona un conjunto de esquemas, reglas y herramientas asociadas que le ayudarán a la integración de mensajería sencilla con sus aplicaciones internas. Requiere A4SWIFT [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y utiliza [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] componentes y características para implementar los esquemas, análisis, validación, las reglas de procesamiento y orquestación. A4SWIFT también implementa anulando de archivos que contienen varios mensajes de (FIN) financieros, reparación de mensajes y nuevo envío y conciliación de respuesta FIN.  

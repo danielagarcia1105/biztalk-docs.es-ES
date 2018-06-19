@@ -1,11 +1,11 @@
 ---
 title: Obtener metadatos de SAP mediante IMetadataRetrievalContract | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, search metadata
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, browse metadata
 - browsing metadata
 ms.assetid: 0944fc39-9ee5-4702-8b52-e0bc87f202c6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218276"
 ---
 # <a name="get-metadata-in-sap-using-imetadataretrievalcontract"></a>Obtener metadatos de SAP mediante IMetadataRetrievalContract
 El [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] expone un **IMetadataRetrievalContract**punto de conexión que puede usar para examinar y buscar artefactos del sistema SAP y para recuperar los metadatos en forma de un documento de lenguaje de descripción de servicios Web (WSDL) para operaciones.  

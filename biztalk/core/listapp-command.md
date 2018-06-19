@@ -1,14 +1,14 @@
 ---
 title: Comando ListApp | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5329dd55-4ce7-46d2-8983-90ac33725055
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262500"
 ---
 # <a name="listapp-command"></a>ListApp (comando)
 Imprime en la consola una lista de todos los artefactos de recurso de una aplicación de BizTalk, junto con el identificador local único (LUID) y el tipo de cada el artefacto. Un artefacto de recurso es aquella que puede agregar a una aplicación de BizTalk mediante el [comando AddResource](../core/addresource-command.md), como un ensamblado, una secuencia de comandos, un archivo, una directiva, un componente COM, un directorio virtual, un artefacto de BAM o un certificado. Estos artefactos de recurso también se muestran en el nodo Recursos de la consola de administración de BizTalk Server.  

@@ -1,17 +1,17 @@
 ---
-title: "La solución de la cadena de suministro | Documentos de Microsoft"
-ms.custom: 
+title: La solución de la cadena de suministro | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trading partners, supply chains
 - supply chains, solutions
 ms.assetid: c53e37ec-6055-46ba-a13f-1370dbfe44fb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006453"
 ---
 # <a name="the-supply-chain-solution"></a>La solución de la cadena de suministro
 Tecnología puede ayudar a resolver los desafíos de negocios relacionados con las comunicaciones de datos y procesos empresariales. Información de sistemas de tecnología (TI) pueden ayudar a las empresas de alta tecnología transformar las comunicaciones con sus socios de procesos desconectados, incompatibles para integrado, estandarizado los.  

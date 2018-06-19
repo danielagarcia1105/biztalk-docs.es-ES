@@ -1,14 +1,14 @@
 ---
 title: Conectar sistemas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4c4895e5-7272-415f-a0de-905256fa0a43
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008653"
 ---
 # <a name="connecting-systems"></a>Conectar sistemas
 El intercambio eficaz de mensajes a través de distintos sistemas de software en equipos diferentes es un requisito indispensable para la integración. Teniendo en cuenta la diversidad de estilos de comunicación que existen, BizTalk Server debe admitir una variedad de protocolos y formatos de mensaje. Como se describe más adelante, una parte importante de este motor se dedica a este trabajo de comunicación. No obstante, un aspecto importante que se ha de tener en cuenta es que el motor sólo trabaja con documentos XML de forma interna. Independientemente del formato en el que llegue el mensaje, debe convertirse a XML. Del mismo modo, si el destinatario del documento no puede aceptarlo en XML, el motor lo convierte en el formato esperado por el destino.  

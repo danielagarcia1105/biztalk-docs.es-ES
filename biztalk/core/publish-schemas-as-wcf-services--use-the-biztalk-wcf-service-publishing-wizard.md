@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar esquemas como servicios WCF | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar el Asistente de publicación de servicios de WCF de BizTalk para publicar esquemas como servicios WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, schemas
 - WCF Service Publishing Wizard
 ms.assetid: 3b770fd5-5b7b-493f-9016-d7d58854c5ff
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975386"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-schemas-as-wcf-services"></a>Cómo utilizar el Asistente para publicación de Servicio WCF de BizTalk para publicar esquemas como servicios WCF
 Use el Asistente para publicación de Servicio WCF de BizTalk para publicar esquemas como servicios WCF.  

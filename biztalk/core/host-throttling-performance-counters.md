@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971874"
 ---
 # <a name="host-throttling-performance-counters"></a>Contadores de rendimiento de limitación de host
 En esta sección se describen los contadores del monitor de rendimiento que miden los parámetros del sistema que afectan a la limitación de host. Los siguientes contadores de rendimiento son accesibles para cada instancia de host en el **BizTalk: agente** categoría de objeto de rendimiento:  

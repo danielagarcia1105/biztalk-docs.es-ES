@@ -1,14 +1,14 @@
 ---
-title: "El escalado de Hosts de recepción | Documentos de Microsoft"
-ms.custom: 
+title: El escalado de Hosts de recepción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9f78710-93fa-4877-8273-a1634d768d88
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010149"
 ---
 # <a name="scaling-out-receiving-hosts"></a>El escalado de Hosts de recepción
 Para disponer de hosts de recepción sea alta, debe tener dos o más [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] equipos que ejecutan instancias de cada host de recepción. Mediante el escalado horizontal de los hosts de recepción puede aumentar la disponibilidad para las implementaciones de BizTalk Server que realizan un uso intensivo de la mensajería. Si bien estas implementaciones llevan a cabo un procesamiento mínimo de orquestación, pueden enrutar muchos mensajes de varios tipos a gran velocidad y con gran confiabilidad.  

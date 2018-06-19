@@ -1,11 +1,11 @@
 ---
 title: Ampliar asignador (ejemplo de BizTalk Server) | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Mapper, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, BizTalk Mapper
 - examples, XML tools
 ms.assetid: 6010a13f-b715-4766-ad91-5aa9b98589e3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970658"
 ---
 # <a name="extending-mapper-biztalk-server-sample"></a>Ampliar asignador (ejemplo de BizTalk Server)
 El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador de BizTalk. El ejemplo incluye varios archivos de asignación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (.btm), cada uno de los cuales muestra distintas características de Asignador de BizTalk.  
@@ -31,7 +32,7 @@ El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador
  El ejemplo de ampliación de asignador usa el enrutamiento por contenidos (CBR) y no utiliza una orquestación. Mediante la especificación de un filtro en el puerto de envío de ejemplo, se conecta directamente al puerto de recepción de ejemplo. Se especifica una asignación en el puerto de envío que se va a aplicar al documento procesado.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\XmlTools\ExtendingMapper  
+ *\<Ejemplos de ruta de acceso\>* \XmlTools\ExtendingMapper  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   
@@ -63,7 +64,7 @@ El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador
   
 1.  En una ventana de comandos, cambie el directorio (**cd**) a la siguiente carpeta:  
   
-     *\<Ejemplos de ruta de acceso\>*\XmlTools\ExtendingMapper  
+     *\<Ejemplos de ruta de acceso\>* \XmlTools\ExtendingMapper  
   
 2.  Ejecute el archivo Setup.bat que realiza las acciones siguientes:  
   
@@ -103,9 +104,9 @@ El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador
   
     2.  Copie el valor del token de clave pública.  
   
-    3.  En un editor de texto, abra  *\<ruta de ejemplos\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.  
+    3.  En un editor de texto, abra  *\<ruta de ejemplos\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml.  
   
-    4.  Seleccione el **AssemblyName, Version = 1.0.0.0, referencia cultural = neutral, PublicKeyToken = 68496d20c737d84b "**de atributo y reemplace el  **PublicKeyToken** valor con el token de clave pública valor que copió en el paso c.  
+    4.  Seleccione el **AssemblyName, Version = 1.0.0.0, referencia cultural = neutral, PublicKeyToken = 68496d20c737d84b "** de atributo y reemplace el  **PublicKeyToken** valor con el token de clave pública valor que copió en el paso c.  
   
     5.  Guarde y cierre ExternalAssembly.xml.  
   
@@ -116,7 +117,7 @@ El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador
   
 1.  Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft BizTalk Server**y, a continuación, seleccione **administración de BizTalk Server**.  
   
-2.  En la consola de administración de BizTalk Server, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración \>]**y haga clic para expandir **aplicaciones**.  
+2.  En la consola de administración de BizTalk Server, haga clic para expandir **administración de BizTalk Server**, haga clic para expandir **grupo de BizTalk [\<servername\>:\<base de datos de administración \>]** y haga clic para expandir **aplicaciones**.  
   
 3.  Haga clic para expandir **ExtendingMapperApplication**y, a continuación, haga clic en **puertos de envío**.  
   
@@ -141,9 +142,9 @@ El ejemplo de ampliación de asignador muestra cómo usar y ampliar el asignador
   
 #### <a name="to-run-this-sample"></a>Para ejecutar el ejemplo  
   
-1.  Copia del archivo de la entrada ExtendingMapper.xml en la carpeta de entrada en  *\<ruta de ejemplos\>*\XmlTools\ExtendingMapper\In.  
+1.  Copia del archivo de la entrada ExtendingMapper.xml en la carpeta de entrada en  *\<ruta de ejemplos\>* \XmlTools\ExtendingMapper\In.  
   
-2.  Observe que el archivo se transforman y enrutan a la  *\<ruta de ejemplos\>*carpeta \XmlTools\ExtendingMapper\Out. La transformación que se produce se basa en la asignación que ha aplicado.  
+2.  Observe que el archivo se transforman y enrutan a la  *\<ruta de ejemplos\>* carpeta \XmlTools\ExtendingMapper\Out. La transformación que se produce se basa en la asignación que ha aplicado.  
   
 ## <a name="see-also"></a>Vea también  
  [Herramientas XML (carpeta de ejemplos de BizTalk Server)](../core/xml-tools-biztalk-server-samples-folder.md)

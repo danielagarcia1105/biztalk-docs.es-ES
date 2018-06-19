@@ -1,17 +1,17 @@
 ---
-title: "Mediante la validación de datos dinámicos | Documentos de Microsoft"
-ms.custom: 
+title: Mediante la validación de datos dinámicos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - dynamic data validation
 - validating, dynamic data
 ms.assetid: 8dac7f74-92a7-447c-97bf-b1f3ce39b614
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009045"
 ---
 # <a name="using-dynamic-data-validation"></a>Mediante la validación de datos dinámicos
 Una parte importante de la validación de datos dinámicos se está validando contenido del mensaje con datos dinámicos, que incluye validar el formato del mensaje y el contenido del mensaje. Un esquema de documento, que [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server se implementa en un archivo XSD, define y valida los formatos de mensaje. Las reglas de negocios definen el contenido del mensaje, que [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] valida a través de directivas de motor de reglas de negocios. Validación de contenido puede incluir la confirmación de que los datos en la instancia de mensaje coincide con los datos que pueden cambiar con relativa frecuencia. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]implementa este tipo de validación de forma dinámica, para que pueda actualizar estos datos en un entorno de producción, sin tener que compilar el código o cerrar los servicios.  

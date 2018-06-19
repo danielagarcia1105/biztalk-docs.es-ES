@@ -1,14 +1,14 @@
 ---
 title: 'Paso 4: Configurar el entorno de BizTalk Server para pruebas de carga | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f336c5f-5a18-493d-8fc0-a8a475ab47b3
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976810"
 ---
 # <a name="step-4-configure-biztalk-server-environment-for-load-testing"></a>Paso 4: Configurar el entorno de BizTalk Server para pruebas de carga
 Este tema proporciona información para crear las ubicaciones de recepción de BizTalk Server, puertos de recepción y puertos de envío necesarios para ejecutar el código de ejemplo que se describen en los temas [paso 1: crear una prueba unitaria para enviar documentos a BizTalk Server](~/technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md) y [paso 3: crear una prueba de carga para llevar a cabo varias pruebas unitarias simultáneamente](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md).  
@@ -42,7 +43,7 @@ Este tema proporciona información para crear las ubicaciones de recepción de B
 |autenticación de confianza|Asegúrese de que esta casilla no está marcada.|  
 |sólo de 32 bits|Asegúrese de que esta casilla no está marcada.|  
 |Establecer este host como predeterminado del grupo|Asegúrese de que esta casilla no está marcada.|  
-|Grupo de Windows|El grupo de Windows que se usa para controlar el acceso a este host y las instancias de host asociadas. El grupo de ventana creado para el host en proceso predeterminado se denomina cualquiera  *\<nombre_equipo\>*\BizTalk usuarios de la aplicación (para un solo servidor instalación de BizTalk Server) o  *\<Nombre de dominio\>*\BizTalk usuarios de la aplicación (para una instalación de BizTalk Server, que requiere el uso de grupos de dominio con varios servidores). **Nota:***\<nombre_equipo\>*  y  *\<nombre de dominio\>*  son marcadores de posición para el nombre real del equipo o el nombre de dominio se utiliza cuando se creó el grupo.   <br /><br /> Si se crea un nuevo grupo para este host, que debe tener los privilegios descritos en el tema [grupos Host](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) en la documentación de BizTalk Server.|  
+|Grupo de Windows|El grupo de Windows que se usa para controlar el acceso a este host y las instancias de host asociadas. El grupo de ventana creado para el host en proceso predeterminado se denomina cualquiera  *\<nombre_equipo\>* \BizTalk usuarios de la aplicación (para un solo servidor instalación de BizTalk Server) o  *\<Nombre de dominio\>* \BizTalk usuarios de la aplicación (para una instalación de BizTalk Server, que requiere el uso de grupos de dominio con varios servidores). **Nota:***\<nombre_equipo\>*  y  *\<nombre de dominio\>*  son marcadores de posición para el nombre real del equipo o el nombre de dominio se utiliza cuando se creó el grupo.   <br /><br /> Si se crea un nuevo grupo para este host, que debe tener los privilegios descritos en el tema [grupos Host](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) en la documentación de BizTalk Server.|  
   
  Repita los pasos que seguir al crear el host de "Envío" para crear un host de "Recepción". Configurar el host de "Receive" con los valores de propiedad siguientes:  
   
@@ -54,7 +55,7 @@ Este tema proporciona información para crear las ubicaciones de recepción de B
 |autenticación de confianza|Asegúrese de que esta casilla no está marcada.|  
 |sólo de 32 bits|Asegúrese de que esta casilla no está marcada.|  
 |Establecer este host como predeterminado del grupo|Asegúrese de que esta casilla no está marcada.|  
-|Grupo de Windows|El grupo de Windows que se usa para controlar el acceso a este host y las instancias de host asociadas. El grupo de ventana creado para el host en proceso predeterminado se denomina cualquiera  *\<nombre_equipo\>*\BizTalk usuarios de la aplicación (para un solo servidor instalación de BizTalk Server) o  *\<Nombre de dominio\>*\BizTalk usuarios de la aplicación (para una instalación de BizTalk Server, que requiere el uso de grupos de dominio con varios servidores). **Nota:***\<nombre_equipo\>*  y  *\<nombre de dominio\>*  son marcadores de posición para el nombre real del equipo o el nombre de dominio se utiliza cuando se creó el grupo.   <br /><br /> Si se crea un nuevo grupo para este host, que debe tener los privilegios descritos en el tema [grupos Host](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) en la documentación de BizTalk Server.|  
+|Grupo de Windows|El grupo de Windows que se usa para controlar el acceso a este host y las instancias de host asociadas. El grupo de ventana creado para el host en proceso predeterminado se denomina cualquiera  *\<nombre_equipo\>* \BizTalk usuarios de la aplicación (para un solo servidor instalación de BizTalk Server) o  *\<Nombre de dominio\>* \BizTalk usuarios de la aplicación (para una instalación de BizTalk Server, que requiere el uso de grupos de dominio con varios servidores). **Nota:***\<nombre_equipo\>*  y  *\<nombre de dominio\>*  son marcadores de posición para el nombre real del equipo o el nombre de dominio se utiliza cuando se creó el grupo.   <br /><br /> Si se crea un nuevo grupo para este host, que debe tener los privilegios descritos en el tema [grupos Host](http://go.microsoft.com/fwlink/?LinkId=208803) (http://go.microsoft.com/fwlink/?LinkId=208803) en la documentación de BizTalk Server.|  
   
 ### <a name="create-instances-of-the-biztalk-server-send-and-receive-hosts"></a>Crear instancias de envío de BizTalk Server y Hosts de recepción  
  Siga los pasos descritos en el tema de documentación de BizTalk Server [cómo agregar una instancia de Host](http://go.microsoft.com/fwlink/?LinkId=208596) (http://go.microsoft.com/fwlink/?LinkId=208596) para crear e iniciar instancias de host de BizTalk Server "Enviar". Configurar una instancia de host de "Envío" ejecutar en cada servidor BizTalk Server en el grupo de BizTalk Server y configurar cada instancia de host con los valores de propiedad siguientes:  

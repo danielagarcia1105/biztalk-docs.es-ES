@@ -1,11 +1,11 @@
 ---
 title: Consideraciones de seguridad para el seguimiento de datos de instancias y mensajes | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - permissions, HAT
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - HAT, security
 - Management database, HAT
 ms.assetid: 83e47dc2-c8e2-42a2-9c85-d511e7dae83f
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271772"
 ---
 # <a name="security-considerations-for-message-and-instance-data-tracking"></a>Consideraciones de seguridad para el seguimiento de datos de instancias y mensajes
 Por razones de seguridad, el seguimiento de instancias de mensaje y servicio no usa exploradores ni direcciones URL como en versiones anteriores de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Esta opción de seguimiento se incluye como parte de la página de información general del grupo en la consola de administración de BizTalk Server.  Para mantener la compatibilidad con versiones anteriores, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sigue hospedando Microsoft Internet Explorer dentro de un shell por motivos de seguridad.  

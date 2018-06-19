@@ -1,11 +1,11 @@
 ---
-title: "Herramientas de administración y tiempo de ejecución | Documentos de Microsoft"
-ms.custom: 
+title: Herramientas de administración y tiempo de ejecución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows performance monitors
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - BTARN Management Console
 - BizTalk Administration Console
 ms.assetid: bca6d504-25b2-41ba-acc2-38867035ac40
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006589"
 ---
 # <a name="administration-and-run-time-tools"></a>Herramientas de administración y tiempo de ejecución
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server y [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] proporcionan un conjunto de herramientas para realizar tareas administrativas y de tiempo de ejecución, como implementación, administración de configuración, administración, administración de reglas de negocio y la supervisión. Para obtener más información acerca de [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, vea [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]ayuda de BizTalk Server.  

@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Crear y utilizar un vocabulario en la directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c306a6e-3384-4f43-9c75-c5407cd9aed2
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975922"
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a>Tutorial: Crear y utilizar un vocabulario en la directiva
 Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y usarlo en el **ProcessPurchaseOrder** directiva.  
@@ -66,7 +67,7 @@ Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y
   
 12. Haga clic en **Finalizar**.  
   
-13. Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.  
+13. Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.  
   
 14. Seleccione **atributo o elemento de documento XML**y, a continuación, haga clic en **siguiente**.  
   
@@ -82,7 +83,7 @@ Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y
   
 20. Haga clic en **Finalizar**.  
   
-21. Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva definición**.  
+21. Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva definición**.  
   
 22. Asegúrese de que **valor constante, rango de valores o conjunto de valores** está seleccionada y, a continuación, haga clic en **siguiente**.  
   
@@ -92,9 +93,9 @@ Este tutorial proporciona procedimientos paso a paso para crear un vocabulario y
   
 25. Tipo de **500** para el valor y, a continuación, haga clic en **finalizar**.  
   
-26. Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **guardar**.  
+26. Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **guardar**.  
   
-27. Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.  
+27. Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.  
   
 ### <a name="to-use-the-povocabulary-in-the-processpurchaseorder-policy"></a>Para usar el POVocabulary en la directiva ProcessPurchaseOrder  
   

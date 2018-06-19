@@ -1,14 +1,14 @@
 ---
-title: "Paso 3A: crear una orquestación para el puerto de envío dinámico para el escenario de reenvío (extracción) y almacenamiento de FileAct | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 3A: crear una orquestación para el puerto de envío dinámico para el escenario de reenvío (extracción) y almacenamiento de FileAct | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5675d476-ad36-4bbc-8e87-786edc9c805d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223548"
 ---
 # <a name="step-3a-create-an-orchestration-for-dynamic-send-port-for-fileact-store-and-forward-pull-scenario"></a>Paso 3A: crear una orquestación para el puerto de envío dinámico para el escenario de reenvío (extracción) y almacenamiento de FileAct
 Antes de comenzar los pasos descritos en esta sección, debe completar los pasos descritos en la [paso 2c: agregar un puerto de envío de FILEACT para el escenario de reenvío (extracción) y el almacenamiento de FileAct](../../adapters-and-accelerators/fileact-interact/step-2c-add-a-fileact-send-port-for-fileact-store-and-forward-pull-scenario.md) sección.  

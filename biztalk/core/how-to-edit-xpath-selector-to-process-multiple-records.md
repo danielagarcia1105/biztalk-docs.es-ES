@@ -1,18 +1,18 @@
 ---
-title: "Cómo editar el Selector XPath para procesar varios registros | Documentos de Microsoft"
-ms.custom: 
+title: Cómo editar el Selector XPath para procesar varios registros | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, editing multiple records
 - Business Rules Framework, code samples
 - Business Rules Framework, programming
 ms.assetid: ef7e1f8d-2e29-4cef-b558-0090648bffc0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254164"
 ---
 # <a name="how-to-edit-xpath-selector-to-process-multiple-records"></a>Cómo editar el selector XPath para procesar varios registros
 Secundarios independientes TypedXmlDocuments se crean cuando se impone un TypedXmlDocument en el motor; vea [Assert](../core/assert.md). El motor determina los TypedXmlDocuments secundarios que se van a crear según los selectores XPath que estén definidos en las reglas. Cuando genera reglas en el Compositor, el valor predeterminado del selector XPath es el nodo que hay por encima del nodo seleccionado en la pestaña Esquemas XML en el Explorador de hechos. Valor predeterminado es el valor de XPath Field al nodo seleccionado, en relación con su nodo primario.  
@@ -54,7 +55,7 @@ Secundarios independientes TypedXmlDocuments se crean cuando se impone un TypedX
   
  IF 1==1  
   
- A continuación, **/Order/Orderline/**Total = (**/Order/Orderline/Hat/**costo + **/Order/Orderline/camisa/**costo)  
+ A continuación, **/Order/Orderline/** Total = (**/Order/Orderline/Hat/** costo + **/Order/Orderline/camisa/** costo)  
   
  La parte en negrita de los XPath indica la parte del Selector y el resto representa el XPath de campo. Estos son los valores predeterminados que genera el Compositor. Ejecute esta directiva, sin embargo, se crearán en la creación de 6 objetos: 2 objetos de Orderline, 2 objetos Hat y 2 objetos camisa. Los totales de Orderline se calcularán para cada combinación de objetos Hat y Shirt, y los totales siempre se establecerán con el mismo valor, que se obtuvo de la última ejecución de la regla. La regla se activará 8 veces. Esto no es lo que se pretende en este escenario.  
   
@@ -62,7 +63,7 @@ Secundarios independientes TypedXmlDocuments se crean cuando se impone un TypedX
   
  IF 1==1  
   
- A continuación, **/Order/Orderline/**Total = (**/Order/Orderline/**Hat/costo + **/Order/Orderline/**camisa/costo)  
+ A continuación, **/Order/Orderline/** Total = (**/Order/Orderline/** Hat/costo + **/Order/Orderline/** camisa/costo)  
   
  Los valores del selector XPath para los tres campos se han establecido con el mismo valor /Order/Orderline y los valores de XPath de campo se han editado en consecuencia. Esto se realiza cambiando los valores de campo de selector XPath y XPath en la ventana Propiedades cuando se selecciona un nodo en la pestaña Esquemas XML. Este cambio debe hacerse antes de arrastrar el campo al argumento de la regla.  
   

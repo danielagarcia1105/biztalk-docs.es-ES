@@ -1,18 +1,18 @@
 ---
-title: "Modificación del esquema de configuración de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Modificación del esquema de configuración de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuration schema [BAM]
 - managing [BAM], configuration schema
 - BAMConfiguration.xml file
 ms.assetid: 8901fb05-1519-4033-8489-67a9b745ed43
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263284"
 ---
 # <a name="modifying-the-bam-configuration-schema"></a>Modificar el esquema de configuración de BAM
 El Asistente para configuración crea este archivo de configuración automáticamente. Deberá modificar este archivo manualmente si cambia los nombres de servidor u otra información de configuración después de completar la implementación.  

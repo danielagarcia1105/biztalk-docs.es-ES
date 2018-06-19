@@ -1,14 +1,14 @@
 ---
-title: "Cómo actualizar una canalización mediante el control de versiones en paralelo | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar una canalización mediante el control de versiones en paralelo | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd884a76-71dd-4c90-b4ba-f1cd7f48eb04
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008381"
 ---
 # <a name="how-to-update-a-pipeline-using-side-by-side-versioning"></a>Cómo actualizar una canalización mediante el control de versiones en paralelo
 El método sencillo para usar una nueva canalización agregada por el control de versiones en paralelo consiste en seleccionar la versión de canalización recién implementado en el puerto de envío o ubicación de recepción. Esto reemplazará la canalización antigua con uno nuevo. Sin embargo, si necesita verdadera funcionalidad en paralelo para la compatibilidad con versiones anteriores, a continuación, debe crear nuevos puertos de envío y ubicaciones de recepción y enlazarlos a la nueva versión de canalización especificada.  

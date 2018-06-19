@@ -1,14 +1,14 @@
 ---
-title: "Códigos de Error de confirmación de CONTRL de EDIFACT | Documentos de Microsoft"
-ms.custom: 
+title: Códigos de Error de confirmación de CONTRL de EDIFACT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0c5ab75-d83d-4c3e-a054-8fe079219b61
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009221"
 ---
 # <a name="edifact-contrl-acknowledgment-error-codes"></a>Códigos de error de confirmación CONTRL de EDIFACT
 En este tema se enumeran los códigos de error usados dentro de los segmentos de una confirmación CONTRL de EDIFACT. Para obtener más información acerca de estos segmentos, vea [confirmación CONTRL de EDIFACT](../core/edifact-contrl-acknowledgment.md).  

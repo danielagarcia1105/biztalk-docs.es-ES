@@ -1,14 +1,14 @@
 ---
-title: "Cómo crear un grupo de clústeres con un disco, dirección IP y el nombre Resource1 | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear un grupo de clústeres con un disco, dirección IP y el nombre Resource1 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b361f721-60db-485e-9ce3-48a6871ebd79
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249308"
 ---
 # <a name="how-to-create-a-cluster-group-with-a-disk-ip-address-and-name-resource"></a>Cómo crear un grupo de clústeres con un disco, una dirección IP y un recurso de nombre
 Para en clúster [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] componentes y dependencias para ser accesibles a través de la red a través de NetBIOS, un clúster **nombre de red** recurso debe crearse en el mismo grupo de clústeres. Para un recurso de nombre de red agrupado esté accesible a través del protocolo TCP/IP, un **dirección IP** recurso debe crearse en el mismo grupo de clúster. Algunos [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] dependencias también requieren el uso de un clúster **disco físico** recurso para funcionar correctamente. Para crear un grupo de clúster con una **disco físico**, **dirección IP** y **nombre de red** recursos siga estos pasos:  

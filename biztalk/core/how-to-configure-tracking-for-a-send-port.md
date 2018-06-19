@@ -1,15 +1,15 @@
 ---
-title: "Habilitar el seguimiento en un puerto de envío | Documentos de Microsoft"
-description: "Activar el seguimiento de cuerpos de mensaje y realizar el seguimiento de propiedades de mensaje en un puerto de envío de BizTalk Server"
-ms.custom: 
+title: Habilitar el seguimiento en un puerto de envío | Documentos de Microsoft
+description: Activar el seguimiento de cuerpos de mensaje y realizar el seguimiento de propiedades de mensaje en un puerto de envío de BizTalk Server
+ms.custom: ''
 ms.date: 12/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f32e97b0-244c-4acc-8f3f-b18cdb9ec0da
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/13/2017
+ms.locfileid: "26686635"
 ---
 # <a name="configure-send-port-tracking-in-biztalk-server"></a>Configurar el seguimiento de puerto de envío de BizTalk Server
 Use la [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] consola de administración para configurar el seguimiento de un puerto de envío, tales como las opciones para ver los cuerpos de mensajes y las propiedades promocionan. Esto le ayuda supervisar el estado de su implementación de BizTalk e identificar cualquier cuello de botella. La configuración de seguimiento que haya definido se aplicará a todas las instancias del puerto de envío.  

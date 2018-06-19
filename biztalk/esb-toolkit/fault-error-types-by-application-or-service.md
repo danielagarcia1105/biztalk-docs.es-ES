@@ -1,14 +1,14 @@
 ---
-title: "Error de tipos de errores por aplicación o servicio | Documentos de Microsoft"
-ms.custom: 
+title: Error de tipos de errores por aplicación o servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da390835-4d7d-4201-b9cb-45ef38d3db95
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294092"
 ---
 # <a name="fault-error-types-by-application-or-service"></a>Tipos de Error de error por aplicación o servicio
 Esta opción muestra una vista agregada de todos los errores por tipo de error especificado generado para un grupo de aplicaciones especificado durante un tiempo especificado. Puede seleccionar el tipo de error específico y la aplicación para mostrar un informe que enumera los errores de tipo de error correspondientes para esa aplicación. También puede exportar la lista de errores como una hoja de cálculo de Microsoft Excel.  

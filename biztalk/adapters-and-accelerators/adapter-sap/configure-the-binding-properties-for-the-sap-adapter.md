@@ -1,17 +1,17 @@
 ---
 title: Configurar las propiedades de enlace para el adaptador SAP | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at design time
 - binding properties, specifying at run time
 ms.assetid: 259a5895-c19d-409c-b2fc-bfdf59d5d74b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217444"
 ---
 # <a name="configure-the-binding-properties-for-the-sap-adapter"></a>Configurar las propiedades de enlace para el adaptador SAP
 La [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] expone varias propiedades de enlace que le permiten controlar algunos de sus características de comportamiento. Esta sección proporciona información acerca de cómo establecer las propiedades de enlace de Visual Studio (tiempo de diseño) y de la [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] consola de administración (tiempo de ejecución). En tiempo de diseño, debe especificar las propiedades de enlace para generar esquemas para las operaciones concretas. En tiempo de ejecución, debe especificar las propiedades de enlace como parte de envío o puerto de recepción para enviar o recibir mensajes desde el sistema SAP.  

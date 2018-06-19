@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar un esquema de una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar un esquema de una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, schemas
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [schemas], applications
 - schemas, applications
 ms.assetid: 17dd5869-b56c-4166-9f02-03e04e691eda
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254652"
 ---
 # <a name="how-to-remove-a-schema-from-an-application"></a>Cómo quitar un esquema de una aplicación
 En este tema se describe cómo usar la consola de administración de BizTalk Server para quitar un esquema de una aplicación. Este procedimiento quita el esquema de la base de datos de administración de BizTalk y también para el grupo. Puede ser conveniente quitar un esquema después de implementar una versión nueva de él. Para obtener más información y consideraciones importantes para actualizar artefactos de la aplicación, consulte [actualizar aplicaciones de BizTalk](../core/updating-biztalk-applications.md).  

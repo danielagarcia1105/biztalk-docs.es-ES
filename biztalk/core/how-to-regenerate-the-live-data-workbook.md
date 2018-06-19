@@ -1,14 +1,14 @@
 ---
 title: Volver a generar el libro de datos en directo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bd3a3fa-a550-4363-bbc0-2153226509ad
-caps.latest.revision: 
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710587"
 ---
 # <a name="regenerate-the-live-data-workbook"></a>Volver a generar el libro de datos en directo
 En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es posible regenerar el libro de trabajo mediante la utilidad de administración de BAM. Este proceso también resulta útil cuando está actualizando desde desde versiones anteriores de BizTalk Server.
@@ -33,7 +34,7 @@ En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es pos
   
 ## <a name="retrieve-the-bam-definition"></a>Recuperar la definición de BAM  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
   
@@ -75,7 +76,7 @@ En caso de pérdida o daño del libro de trabajo de datos activos de BAM, es pos
 >  Ejecute esta herramienta con privilegios de administrador.  
 
 
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, navegue hasta el siguiente directorio: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking.  
   

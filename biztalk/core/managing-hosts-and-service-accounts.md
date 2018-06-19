@@ -1,11 +1,11 @@
 ---
-title: "Administración de Hosts y las cuentas de servicio | Documentos de Microsoft"
-ms.custom: 
+title: Administración de Hosts y las cuentas de servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, managing
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Windows groups, managing
 - user accounts, managing
 ms.assetid: 25797571-f1f9-42a4-8fff-5b03076bbe36
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262388"
 ---
 # <a name="managing-hosts-and-service-accounts"></a>Administrar hosts y cuentas de servicio
 Después de configurar BizTalk Server, tendrá que administrar grupos de Windows y cuentas de usuario. En esta sección se proporciona información acerca de cómo administrar estas cuentas para BizTalk Server.  

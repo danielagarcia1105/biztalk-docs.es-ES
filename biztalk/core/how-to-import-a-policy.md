@@ -13,7 +13,7 @@ helpviewer_keywords:
 - policies, importing
 - managing [policies], importing
 ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
-caps.latest.revision: ''
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972338"
 ---
 # <a name="how-to-import-a-policy"></a>Cómo importar una directiva
 En este tema se describe cómo usar la consola de administración de BizTalk Server para importar una directiva en un grupo de BizTalk o la herramienta de la línea de comandos BTSTask para importar una directiva en una aplicación de BizTalk.  
@@ -74,7 +75,7 @@ En este tema se describe cómo usar la consola de administración de BizTalk Ser
   
 2.  Escriba el siguiente comando, sustituyendo los valores según corresponda, como se describe en la tabla que se presenta a continuación:  
   
-     **ImportApp /Package de BTSTask:** *valor* [**/ApplicationName: ***valor*] [**/Overwrite**] [**/Server: ***valor *] [** / Database:***valor *]  
+     **ImportApp /Package de BTSTask:** *valor* [**/ApplicationName: ***valor*] [**/Overwrite **] [**/Server: ***valor *] [** / Database:*** valor *]  
   
      Ejemplo:  
   

@@ -1,11 +1,11 @@
 ---
 title: Seguridad del servicio Web de A4SWIFT | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IIS security
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - security, Web service
 - messages, security
 ms.assetid: e6c7d275-569f-47f6-81fb-10bcd86ff417
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006477"
 ---
 # <a name="a4swift-web-service-security"></a>Seguridad del servicio Web de A4SWIFT
 El [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]servicio Web de forma predeterminada se instala en un modelo de seguridad híbrido altamente seguro. En el modelo de IIS/ASP.NET existe un límite de confianza entre el servicio Web, el [!INCLUDE[btsWinSharePointSvcsNoVersion](../../includes/btswinsharepointsvcsnoversion-md.md)] sitio y el [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]base de datos.  

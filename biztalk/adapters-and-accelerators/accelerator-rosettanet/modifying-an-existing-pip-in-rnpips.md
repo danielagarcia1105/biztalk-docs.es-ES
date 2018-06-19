@@ -1,11 +1,11 @@
 ---
 title: Modificar una PIP existente en Rnpip | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNPIPs
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - PIPs, modifying
 - assemblies, RNPIPs
 ms.assetid: f2ed25c4-1979-4691-9315-e7568e7cca8b
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,13 +22,14 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006293"
 ---
 # <a name="modifying-an-existing-pip-in-rnpips"></a>Modificar una PIP existente en Rnpip
 Este tema describe cómo cambiar y volver a implementar uno de los esquemas de proceso de interfaz de socio (PIP) instalados por [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] el programa de instalación. El esquema se implementa como parte del ensamblado de los RNPIP.  
   
 ### <a name="to-modify-an-existing-pip-in-rnpips"></a>Para modificar un PIP existente en los RNPIP  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  Busque la \< *unidad*\>\Program BizTalk \<versión\> Acelerador para carpeta RosettaNet\SDK\Utilities\Schema Generator.  
   
@@ -65,7 +66,7 @@ Este tema describe cómo cambiar y volver a implementar uno de los esquemas de p
   
 17. Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-18. En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, expanda **Hosts**.  
+18. En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, expanda **Hosts**.  
   
 19. En el panel derecho, haga clic con el botón derecho en el nombre del host y, a continuación, haga clic en **Detener**. Una vez detenido el servicio, haga clic con el botón derecho en el nombre del host y, a continuación, haga clic en **Iniciar**.  
   

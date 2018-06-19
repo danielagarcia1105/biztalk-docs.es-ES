@@ -1,11 +1,11 @@
 ---
-title: "Cómo quitar un ensamblado de BizTalk desde una aplicación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo quitar un ensamblado de BizTalk desde una aplicación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], assemblies
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, assemblies
 - managing [assemblies], deleting
 ms.assetid: 0691c3b6-476d-4e01-b50b-47d7c0b299bf
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008461"
 ---
 # <a name="how-to-remove-a-biztalk-assembly-from-an-application"></a>Cómo quitar un ensamblado de BizTalk de una aplicación
 En este tema se describe cómo utilizar la consola de administración de BizTalk Server o la línea de comandos para quitar un ensamblado de BizTalk de una aplicación de BizTalk. Al hacerlo, el ensamblado y los artefactos que incluye, tales como orquestaciones, esquemas y canalizaciones, se quitan de la aplicación y de la base de datos de administración de BizTalk.  

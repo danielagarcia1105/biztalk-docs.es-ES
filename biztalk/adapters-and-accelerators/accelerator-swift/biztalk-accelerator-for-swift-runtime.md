@@ -1,11 +1,11 @@
 ---
-title: "Acelerador de BizTalk para SWIFT en tiempo de ejecución | Documentos de Microsoft"
-ms.custom: 
+title: Acelerador de BizTalk para SWIFT en tiempo de ejecución | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - runtime, architecture
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - A4SWIFT, network
 - topology
 ms.assetid: c0f59760-7d7d-4b22-a7dc-54e563971d4a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005285"
 ---
 # <a name="biztalk-accelerator-for-swift-runtime"></a>Acelerador de BizTalk para SWIFT en tiempo de ejecución
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] proporciona la funcionalidad de dos formas: materiales de desarrollo y los componentes de tiempo de ejecución. Los materiales de desarrollo incluyen esquemas XSD, reglas de validación y las directivas y código de ejemplo. Los componentes en tiempo de ejecución incluyen el Desensamblador SWIFT personalizado, el ensamblador SWIFT personalizado, la reparación de mensajes y nuevo envío orquestación (MrsrRepair.odx) y la orquestación de conciliación de respuesta de FIN (FrrMain.odx). Para obtener más información sobre la reparación de mensajes y nuevo envío, consulte [reparación de mensajes y nuevo envío](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission.md). Para obtener más información sobre FRR, consulte [FINÉS respuesta conciliación](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation.md).  

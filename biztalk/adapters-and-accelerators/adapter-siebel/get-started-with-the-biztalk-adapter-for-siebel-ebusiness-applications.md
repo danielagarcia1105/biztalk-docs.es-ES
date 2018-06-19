@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222060"
 ---
 # <a name="get-started-with-the-biztalk-adapter-for-siebel-ebusiness-applications"></a>Empezar a trabajar con el adaptador de BizTalk para Siebel eBusiness Applications
 Esta sección proporciona información general sobre el adaptador, los requisitos previos y los temas para los usuarios que están familiarizados con Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Describe las características de [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] y las distintas operaciones que se pueden realizar en el sistema de Siebel mediante el adaptador.  

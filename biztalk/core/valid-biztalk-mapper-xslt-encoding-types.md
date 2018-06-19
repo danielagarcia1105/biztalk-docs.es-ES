@@ -1,11 +1,11 @@
 ---
-title: "XSLT en el asignador de BizTalk válido codificar tipos | Documentos de Microsoft"
-ms.custom: 
+title: XSLT en el asignador de BizTalk válido codificar tipos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - grid properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - XSLT, encoding types [BizTalk Mapper]
 - BizTalk Mapper, XSLT encoding
 ms.assetid: 922b46cb-7bc8-4267-bf52-e5f0262b8da1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288020"
 ---
 # <a name="valid-biztalk-mapper-xslt-encoding-types"></a>Tipos válidos de codificación XSLT en el Asignador de BizTalk
 El Asignador de BizTalk admite tipos distintos de codificación Transformación de lenguaje de hojas de estilo extensible (XSLT). Usa el **codificación XSLT** propiedad de cuadrícula para establecer el tipo que prefiera de codificación de XSLT. La siguiente lista muestra los formatos de codificación que están disponibles en la lista desplegable asociada la **codificación XSLT** propiedad de cuadrícula:  

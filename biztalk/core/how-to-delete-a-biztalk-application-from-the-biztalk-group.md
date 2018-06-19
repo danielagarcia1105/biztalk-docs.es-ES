@@ -1,11 +1,11 @@
 ---
-title: "Cómo eliminar una aplicación de BizTalk del grupo de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar una aplicación de BizTalk del grupo de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - undeploying, applications
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - managing [applications], groups
 - groups, applications
 ms.assetid: 968a6436-ae1a-4f85-bb44-e704826a0197
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250108"
 ---
 # <a name="how-to-delete-a-biztalk-application-from-the-biztalk-group"></a>Cómo eliminar una aplicación de BizTalk del grupo de BizTalk
 Puede eliminar una aplicación del grupo de BizTalk. Al hacerlo, se quitan todos los datos correspondientes de las bases de datos de BizTalk para el grupo y la administración ya no se muestra más en la consola de administración de BizTalk Server. Esto no desinstala la aplicación.  

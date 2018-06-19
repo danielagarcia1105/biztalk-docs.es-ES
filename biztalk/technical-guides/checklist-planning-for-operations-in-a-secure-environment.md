@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Planeación de operaciones en un entorno seguro | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Planeación de operaciones en un entorno seguro | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d6464df-6736-46e2-a0c7-cc2a256c5144
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976834"
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>Lista de comprobación: Planeación de operaciones en un entorno seguro
 Ejecutando [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en un entorno seguro, requiere pasos adicionales para la implementación y configuración. Mientras que las instalaciones predeterminadas de sistema operativo necesitan no tenerla en cuenta, pero en escenarios donde se aplicaron las directivas de seguridad restrictiva, debe tomar en cuenta la información de esta sección. Puede variar en el nivel de restricción aplicada en servidores, pero la información a continuación debe cubrir la mayoría de los casos y sería un buen punto de partida.  

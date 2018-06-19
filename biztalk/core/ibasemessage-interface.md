@@ -1,14 +1,14 @@
 ---
 title: Interfaz de IBaseMessage | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10bfb95c-aef5-46ba-ba0e-9961833f27a3
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257092"
 ---
 # <a name="ibasemessage-interface"></a>IBaseMessage (interfaz)
 Cuando un adaptador de recepción acepta un paquete de datos entrante a través de su protocolo, utiliza el **IBaseMessage** interfaz para crear un mensaje que se pasará al motor de mensajería. Todos los mensajes se representan mediante esta interfaz.  

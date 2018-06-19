@@ -1,14 +1,14 @@
 ---
 title: Ensamblados y artefactos instalados en el ejemplo de componente JMS MQRFH2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 270d4442-ffcc-45fc-a326-3975f2440bf2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009493"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-jms-mqrfh2-component-sample"></a>Ensamblados y artefactos instalados en el ejemplo de componente JMS MQRFH2
 En la tabla siguiente se enumera los ensamblados y artefactos instalados por la [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] ejemplo de componente de MQRFH2 de JMS.  

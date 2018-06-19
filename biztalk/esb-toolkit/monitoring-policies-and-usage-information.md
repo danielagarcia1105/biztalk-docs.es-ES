@@ -1,14 +1,14 @@
 ---
-title: "Supervisión de directivas y la información de uso | Documentos de Microsoft"
-ms.custom: 
+title: Supervisión de directivas y la información de uso | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c0d2fd0-e65f-4c96-a5f5-81c9afc9c04e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008717"
 ---
 # <a name="monitoring-policies-and-usage-information"></a>Información de uso y las directivas de supervisión
 El Administrador de servicios de SOA proporciona un mecanismo que permite crear y editar las directivas de supervisión. Por ejemplo, la figura 1 muestra la pantalla para aplicar una plantilla de directiva y activar la supervisión de una aplicación.  

@@ -1,18 +1,18 @@
 ---
 title: Extender BTARN con un PIP nueva | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, extending functionality
 - PIPs, extending BTARN
 - BTARN, PIPs
 ms.assetid: 3db5cd5c-031f-4451-9be5-4b5d6163c3b1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007181"
 ---
 # <a name="extending-btarn-with-a-new-pip"></a>Extender BTARN con un PIP nueva
 Este tema describe cómo extender [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] con un nuevo esquema de proceso de interfaz de socio (PIP). Esto le permite agregar un esquema basado en un PIP de RosettaNet cuando ese PIP no está asociado con ninguno de los esquemas que instala el [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] programa de instalación.  
@@ -29,7 +30,7 @@ Este tema describe cómo extender [!INCLUDE[btsCoName](../../includes/btsconame-
   
 ### <a name="to-extend-btarn-with-a-new-pip"></a>Para ampliar BTARN con un PIP nueva  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, vaya a \< *unidad*\>: \Program archivos\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk 2013 Accelerator for RosettaNet\SDK\Utilities\Schema Generator.  
   
@@ -50,7 +51,7 @@ Este tema describe cómo extender [!INCLUDE[btsCoName](../../includes/btsconame-
   
 9. Inicie el símbolo del sistema de Visual Studio.  
   
-10. En el símbolo del sistema, vaya a la ubicación especificada en el paso 7, tipo **sn -k \<proyecto name.snk\>**y, a continuación, presione **ENTRAR**.  
+10. En el símbolo del sistema, vaya a la ubicación especificada en el paso 7, tipo **sn -k \<proyecto name.snk\>** y, a continuación, presione **ENTRAR**.  
   
 11. En el Explorador de soluciones, haga clic en el nombre del proyecto y, a continuación, haga clic en **propiedades**.  
   
@@ -107,7 +108,7 @@ Este tema describe cómo extender [!INCLUDE[btsCoName](../../includes/btsconame-
   
 32. Haga clic en **iniciar**, seleccione **todos los programas**, seleccione **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]y, a continuación, haga clic en **administración de BizTalk Server**.  
   
-33. En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)**y, a continuación, expanda **Hosts**. En **Host**, haga clic en **BizTalkServerApplication**.  
+33. En la consola de administración de BizTalk, expanda **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **(Local)** y, a continuación, expanda **Hosts**. En **Host**, haga clic en **BizTalkServerApplication**.  
   
 34. En el panel derecho, haga clic en el nombre del host y, a continuación, haga clic en **reiniciar**.  
   

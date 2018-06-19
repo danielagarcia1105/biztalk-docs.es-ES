@@ -1,14 +1,14 @@
 ---
 title: Crear un proveedor de adaptador personalizado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb93acf8-fd9d-4315-8690-f0c152a954b5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974282"
 ---
 # <a name="creating-a-custom-adapter-provider"></a>Crear un proveedor de adaptador personalizado
 Una vez ejecutada una resolución, tal como se describe en las secciones anteriores, el servicio de resolución dinámica comprueba si el resultado es un punto de conexión (no una transformación). Si es un punto de conexión, el servicio crea instancias el Administrador de adaptador, que es una instancia de la **AdapterMgr** clase.  

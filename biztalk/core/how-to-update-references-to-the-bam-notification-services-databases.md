@@ -1,11 +1,11 @@
 ---
-title: "Cómo actualizar referencias a la notificación de BAM de servicios de bases de datos | Documentos de Microsoft"
-ms.custom: 
+title: Cómo actualizar referencias a la notificación de BAM de servicios de bases de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Notification Services Application database [BAM], restoring
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - restoring [BAM], Notification Services Application database
 - restoring [BAM], NS$instance_name service
 ms.assetid: b007fdc2-2e74-4eef-b4c3-43689e9f2180
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973008"
 ---
 # <a name="how-to-update-references-to-the-bam-notification-services-databases"></a>Cómo actualizar referencias a las bases de datos de servicios de notificación de SAE
 Después de llevar a cabo los pasos necesarios para restaurar las bases de datos de los servicios de notificación de supervisión de la actividad económica (BAM) en el sistema de destino, tendrá que volver a registrar el Servicio de notificación en todos los equipos del grupo de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] en los que se ejecutan los Servicios de notificación (NSservice.exe). Con ello, se permite que los servicios de notificación se conecten a las bases de datos en su nueva ubicación.  
@@ -48,7 +49,7 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
   
 ### <a name="to-update-references-to-the-bam-notification-services-databases-sql-server-2008-r2sp1"></a>Para actualizar referencias a las bases de datos de servicios de notificación de BAM (SQL Server 2008 R2/SP1)  
   
-1.  Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+1.  Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 2.  En el símbolo del sistema, desplácese al directorio siguiente: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
@@ -108,7 +109,7 @@ Después de llevar a cabo los pasos necesarios para restaurar las bases de datos
   
 11. En el símbolo del sistema, escriba: **net start NS$ BamAlerts**.  
   
-12. Haga clic en **Inicio**, **Ejecutar…**y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
+12. Haga clic en **Inicio**, **Ejecutar…** y escriba **cmd**. Finalmente, haga clic en **Aceptar**.  
   
 13. En el símbolo del sistema, desplácese al directorio siguiente: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   

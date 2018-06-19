@@ -1,14 +1,14 @@
 ---
-title: "Administración y supervisión | Documentos de Microsoft"
-ms.custom: 
+title: Administración y supervisión | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92724f79-32bb-40d3-a0af-147aba00d87e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264468"
 ---
 # <a name="management-and-monitoring"></a>Administración y supervisión
 Todas las aplicaciones generadas en el motor de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] necesitan administración. ¿Cómo se instalan las nuevas aplicaciones? ¿Qué configuraciones pueden aplicarse? ¿Qué está ocurriendo en este momento dentro del sistema? Esta sección examina las herramientas proporcionadas para responder a estas cuestiones.  

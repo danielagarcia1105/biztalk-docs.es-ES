@@ -1,17 +1,17 @@
 ---
-title: "Configurar el URI de conexión para el adaptador SAP | Documentos de Microsoft"
-ms.custom: 
+title: Configurar el URI de conexión para el adaptador SAP | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI, specifying at run time
 - connection URI, specifying at design time
 ms.assetid: 8df8e4a7-13f7-48c0-8af2-451253ced7e7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218540"
 ---
 # <a name="configure-the-connection-uri-for-the-sap-adapter"></a>Configurar el URI de conexión para el adaptador SAP
 Una conexión URI es una cadena de conexión para conectarse a un sistema SAP. Contiene varios parámetros necesarios para establecer conexión con un sistema SAP. En tiempo de diseño, debe especificar el URI para conectarse al sistema SAP para generar los metadatos. En tiempo de ejecución, debe especificar el URI para conectarse al sistema SAP para realizar operaciones.  

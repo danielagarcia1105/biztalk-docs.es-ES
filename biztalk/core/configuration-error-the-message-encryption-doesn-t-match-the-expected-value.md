@@ -1,14 +1,14 @@
 ---
-title: "Error de configuración. El no cifrado de mensaje &#39; t coincide con el valor esperado | Documentos de Microsoft"
-ms.custom: 
+title: Error de configuración. El no cifrado de mensaje &#39; t coincide con el valor esperado | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99c37c7d-6654-4004-8345-9d7bfc3659b6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004790"
 ---
 # <a name="configuration-error-the-message-encryption-doesn39t-match-the-expected-value"></a>Error de configuración. El no cifrado de mensaje &#39; coincidencia t el valor esperado.
 ## <a name="details"></a>Detalles  

@@ -1,11 +1,11 @@
 ---
 title: Crear y configurar puertos de BizTalk para Contoso | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - private process tutorial, configuring ports
 - ports, configuring
 ms.assetid: 179af692-e14c-40da-9c43-1a7d0b6beb1f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004461"
 ---
 # <a name="creating-and-configuring-biztalk-ports-for-contoso"></a>Crear y configurar puertos de BizTalk para Contoso
 En esta sección, integrar la solución actual en [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server. Antes de hacer esto, instale al ensamblado en la caché de ensamblados Global (GAC) y, a continuación, configurarlo en la base de datos de configuración. A continuación, crear y configurar puertos de envío mediante un adaptador SQL y un adaptador HTTP.  

@@ -1,14 +1,14 @@
 ---
 title: 'P+F del adaptador de WCF: Conceptos generales | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbeac135-3ba8-4b0b-a8ca-4eb5eb3d3ca3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009253"
 ---
 # <a name="wcf-adapter-faq-general-conceptual"></a>P+F del Adaptador de WCF: Conceptos generales
 A continuación, encontrará algunas de las preguntas más frecuentes generales y conceptuales sobre los adaptadores de Windows ® Communication Foundation (WCF).  

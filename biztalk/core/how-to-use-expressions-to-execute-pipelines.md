@@ -1,11 +1,11 @@
 ---
-title: "Cómo usar expresiones para ejecutar canalizaciones | Documentos de Microsoft"
-ms.custom: 
+title: Cómo usar expresiones para ejecutar canalizaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ExecuteReceivePipeline() method
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - pipelines, orchestrations
 - Message Assignment shape [Orchestration Designer], pipelines
 ms.assetid: f947fa73-526c-4747-8de7-df557a93056c
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974658"
 ---
 # <a name="how-to-use-expressions-to-execute-pipelines"></a>Cómo usar expresiones para ejecutar canalizaciones
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tiene la capacidad de llamar de forma sincrónica a una canalización desde una orquestación. Esto permite a las orquestaciones aprovechar el procesamiento de mensajes encapsulado en una canalización (tanto envío como recepción) frente a un conjunto de datos sin tener que enviar los datos a través de la infraestructura de mensajería.  

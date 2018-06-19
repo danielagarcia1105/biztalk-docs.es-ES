@@ -1,18 +1,18 @@
 ---
 title: Recomendaciones de seguridad de motor de reglas de negocios | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, business rules
 - Business Rules Framework, security
 - business rules, security
 ms.assetid: d5df1cd0-112a-4c72-b95d-cbcd1bc6a2c3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231948"
 ---
 # <a name="business-rule-engine-security-recommendations"></a>Recomendaciones de seguridad de motor de reglas de negocios
 El motor de reglas de negocios es el componente en tiempo de ejecución del marco de trabajo de reglas de negocios. El marco de trabajo de reglas de negocios permite conectar reglas de gran riqueza semántica, declarativas y muy legibles con cualquier objeto de negocios (componentes .NET), documento XML o tabla de base de datos. Para obtener más información sobre el marco de trabajo de reglas de negocios, vea [crear y usar las reglas de negocios](../core/creating-and-using-business-rules.md). Para obtener más información sobre el motor de reglas de negocios, vea [motor de reglas](../core/rule-engine.md).  

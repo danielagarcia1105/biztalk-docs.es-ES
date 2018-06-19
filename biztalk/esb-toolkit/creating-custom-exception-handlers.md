@@ -1,14 +1,14 @@
 ---
 title: Crear controladores de excepciones personalizado | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 401aec8d-d9ca-4a88-9e5b-d3ab605dc0a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290636"
 ---
 # <a name="creating-custom-exception-handlers"></a>Crear controladores de excepción personalizada
 Para que una aplicación detectar y reaccionar ante excepciones, los programadores deben proporcionar un controlador de excepciones. Este controlador de excepciones puede suscribirse a un único tipo de mensaje de excepción o a mensajes de excepción generados a partir de algunas o todas las partes de un sistema o una aplicación. Por ejemplo, puede requerir solo un único controlador para todos los mensajes de un sistema determinado (por ejemplo, las excepciones que se producen en el sistema de nóminas), o en su lugar, puede requerir controladores de destino para los errores específicos (por ejemplo, para detectar si la comprobación del proceso de impresión se produce un error).  

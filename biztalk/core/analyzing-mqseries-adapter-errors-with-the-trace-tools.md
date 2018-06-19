@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MQSeries adapters, errors
 - Adapter Trace Utility
 ms.assetid: fdc73d99-3b73-491d-9b2f-7064364fefa7
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26006636"
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a>Analizar los errores de adaptador de MQSeries con las herramientas de seguimiento
 Las herramientas de seguimiento sirven para analizar errores de mensajería al ejecutar la aplicación. El adaptador de MQSeries debe usarse conjuntamente con dos herramientas: una para el adaptador y la aplicación de BizTalk (trace.cmd), y la otra para MQSAgent (MQSTrace.cmd). Ambas herramientas utilizan tracelog.exe. Tendrá que instalar tracelog.exe si no lo tiene.  

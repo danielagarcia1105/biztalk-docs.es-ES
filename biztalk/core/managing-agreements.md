@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265564"
 ---
 # <a name="managing-agreements"></a>Administración de acuerdos
 Un acuerdo de socios comerciales (TPA) se define como un acuerdo vinculante y definitivo entre dos socios comerciales para la transacción de mensajes a través de un protocolo B2B específico. Vea [acuerdo de socio comercial](../core/trading-partner-agreement.md). 

@@ -1,14 +1,14 @@
 ---
-title: "Cómo: implementar el enrutamiento por contenidos mediante propiedades de contexto de mensaje | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: implementar el enrutamiento por contenidos mediante propiedades de contexto de mensaje | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 952af792-5762-4b04-9087-980bb3323568
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010125"
 ---
 # <a name="how-to-implement-content-based-routing-using-message-context-properties"></a>Cómo: implementar el enrutamiento por contenidos mediante propiedades de contexto de mensaje
 ## <a name="goal"></a>Objetivo  

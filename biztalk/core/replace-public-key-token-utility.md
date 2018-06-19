@@ -1,18 +1,18 @@
 ---
-title: "Reemplace la utilidad de símbolo (token) de clave pública | Documentos de Microsoft"
-ms.custom: 
+title: Reemplace la utilidad de símbolo (token) de clave pública | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Replace Public Key Token Utility
 - utilities, Replace Public Key Token Utility
 - public key token
 ms.assetid: ed8673b9-af06-4bd7-b8b7-7371e4dd0fed
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972050"
 ---
 # <a name="replace-public-key-token-utility"></a>Utilidad para reemplazar el token de clave pública
 Esta utilidad se puede usar para reemplazar un token de clave pública o una variable de un archivo por un token de clave pública derivado de un archivo de clave de ensamblado de nombre seguro (.snk).  

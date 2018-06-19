@@ -1,11 +1,11 @@
 ---
 title: Publicar esquemas como servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, schemas
 - schemas, Web services
 ms.assetid: 65b5f826-6abf-437f-b2dc-b36e488ba6da
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269044"
 ---
 # <a name="publishing-schemas-as-a-web-service"></a>Publicar esquemas como un servicio web
 Use el Asistente para publicar servicios Web de BizTalk para crear los servicios Web que utilizan los esquemas existentes. Declare los servicios Web, métodos Web y esquemas de solicitud y respuesta que desee publicar. Mediante el Asistente, defina el espacio de nombres de destino, los requisitos de encabezado SOAP y la ubicación del proyecto del servicio Web generado.  

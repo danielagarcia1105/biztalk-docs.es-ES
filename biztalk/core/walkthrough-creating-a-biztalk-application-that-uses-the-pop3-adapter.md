@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de POP3 | Documentos de Microsoft"
-ms.custom: 
+title: 'Tutorial: Crear una aplicación de BizTalk que utiliza el adaptador de POP3 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, POP3 adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - POP3 adapters, tutorials
 - configuring [POP3 adapters], Outlook Express
 ms.assetid: b44c3b1d-7b4f-425c-831a-1ce5f6379595
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975946"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a>Tutorial: Crear una aplicación de BizTalk que usa el adaptador de POP3
 Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mediante el adaptador de POP3.  
@@ -133,7 +134,7 @@ Esta sección muestra cómo crear una aplicación sencilla de Microsoft [!INCLUD
   
 4.  En el **nombre para mostrar** , escriba un nombre para mostrar y, a continuación, haga clic en **siguiente**.  
   
-5.  En el **dirección de correo electrónico de Internet** cuadro de diálogo, en la **dirección de correo electrónico** , escriba **EmailTest @< nombreDeDominio >**y, a continuación, haga clic en **siguiente**.  
+5.  En el **dirección de correo electrónico de Internet** cuadro de diálogo, en la **dirección de correo electrónico** , escriba **EmailTest @< nombreDeDominio >** y, a continuación, haga clic en **siguiente**.  
   
      Asegúrese de escribir el valor adecuado para *< nombreDeDominio >*. Este valor debe coincidir con el nombre de dominio en el que se creó este buzón en la interfaz de administración de servicio POP3 en el servidor Windows.  
   

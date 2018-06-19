@@ -1,17 +1,17 @@
 ---
 title: HTTPRequestResponse | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: 81c66f61-d86c-49cf-8d24-21c67c68bc5a
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973754"
 ---
 # <a name="httprequestresponse"></a>HTTPRequestResponse
 En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz de programación de aplicaciones para servidores de Internet (ISAPI) de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] de Microsoft para permitir que una aplicación ASP.NET se comunique con una orquestación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
@@ -36,7 +37,7 @@ En el ejemplo HTTPRequestResponse se muestra cómo usar el filtro de la interfaz
  La aplicación ASP.NET recibe la respuesta de confirmación de pedido XML y actualiza el formulario Web con la información de estado extraída de la respuesta.  
   
 ## <a name="where-to-find-this-sample"></a>Ubicación del ejemplo  
- *\<Ejemplos de ruta de acceso\>*\AdaptersUsage\HTTPRequestResponse\  
+ *\<Ejemplos de ruta de acceso\>* \AdaptersUsage\HTTPRequestResponse\  
   
  En la tabla siguiente se enumeran los archivos del ejemplo y se describe su propósito.  
   

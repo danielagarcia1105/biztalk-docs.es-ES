@@ -1,14 +1,14 @@
 ---
-title: "Degradación de MSMQT | Documentos de Microsoft"
-ms.custom: 
+title: Degradación de MSMQT | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 007d65ce-d2a2-4602-80c8-55b26617f397
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007637"
 ---
 # <a name="msmqt-deprecation"></a>Degradación de MSMQT
 La característica MSMQT se ha quitado de BizTalk Server. En el Diseñador de orquestaciones, la opción de transporte MSMQT sigue estando disponible en el Asistente para configuración de puertos de tiempo de diseño, tal como se muestra en la imagen siguiente cuando elige la **especificar ahora** opción **deenlacedepuerto**.  

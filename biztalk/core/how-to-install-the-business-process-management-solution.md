@@ -1,18 +1,18 @@
 ---
-title: "Cómo instalar la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Cómo instalar la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, examples
 - process management solution tutorial, installing
 - process management solution tutorial, deployment prerequisites
 ms.assetid: 930f3bb1-05e6-4b02-852d-6139aaf341f0
-caps.latest.revision: "61"
+caps.latest.revision: 61
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974938"
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>Cómo instalar la solución de administración de procesos empresariales
 Los pasos siguientes describen cómo preparar el equipo para instalar la solución Administración de procesos empresariales (BPM) y cómo realizar la instalación.  

@@ -1,14 +1,14 @@
 ---
-title: "Instalar y configurar una máquina Virtual de Hyper-V para su uso con BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Instalar y configurar una máquina Virtual de Hyper-V para su uso con BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86add392-3cde-432d-95d6-c81d68716537
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010973"
 ---
 # <a name="installing-and-configuring-a-hyper-v-virtual-machine-for-use-with-biztalk-server"></a>Instalar y configurar una máquina Virtual de Hyper-V para su uso con BizTalk Server
 Este tema proporcionan recomendaciones para instalar y configurar BizTalk Server en un entorno de Hyper-V, incluidos las recomendaciones para la instalación y configuración de la máquina virtual de Hyper-V y las recomendaciones para la instalación de BizTalk Server en un Máquina virtual de Hyper-V.  

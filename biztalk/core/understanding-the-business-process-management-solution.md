@@ -1,11 +1,11 @@
 ---
-title: "Descripción de la solución de administración de procesos empresariales | Documentos de Microsoft"
-ms.custom: 
+title: Descripción de la solución de administración de procesos empresariales | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solutions, resources
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - process management solutions, about process management solutions
 - applications, process management solutions
 ms.assetid: fa6ad8d2-08d7-4770-9394-835f99bfd146
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287908"
 ---
 # <a name="understanding-the-business-process-management-solution"></a>Comprender la solución de administración de procesos empresariales
 La solución que se describe en esta sección explica una forma de implementar una aplicación de administración de procesos empresariales. En un administrador de procesos empresariales ideal, las partes de la solución que representa el proceso empresarial, las reglas de negocios, comunicarse con sistemas de servidor específicos, enviar mensajes de respuesta, son independientes de la infraestructura que soporta el proceso.  

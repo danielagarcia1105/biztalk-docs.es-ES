@@ -1,18 +1,18 @@
 ---
 title: Importar Bindings2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, requirements
 - importing, bindings
 - bindings, importing
 ms.assetid: 9e10bc04-aba8-430a-b8fd-de9399d54f88
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006133"
 ---
 # <a name="importing-bindings"></a>Importar enlaces
 En los temas de esta sección se describe cómo importar enlaces a un grupo o a una aplicación de BizTalk.  

@@ -1,14 +1,14 @@
 ---
-title: "Recuperación ante desastres para equipos que ejecutan BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Recuperación ante desastres para equipos que ejecutan BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10a2c26d-55d5-45d1-9fb1-e0664f005c21
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005229"
 ---
 # <a name="disaster-recovery-for-computers-running-biztalk-server"></a>Recuperación ante desastres para equipos que ejecutan BizTalk Server
 Si se produce un error de hardware irrecuperable en el equipo de la organización en el que se ejecuta BizTalk Server, será preciso sustituirlo con un equipo idéntico. En este caso, se presume que las bases de datos de BizTalk Server se encuentran intactas y que el error se ha producido en cualquiera de los equipos en los que se ejecuta BizTalk Server.  

@@ -1,14 +1,14 @@
 ---
-title: "Usar XPaths no canónicos en las asignaciones de mensajes | Documentos de Microsoft"
-ms.custom: 
+title: Usar XPaths no canónicos en las asignaciones de mensajes | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 052d1d72-43ce-4654-bf29-86f82ad65e91
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287628"
 ---
 # <a name="using-non-canonical-xpaths-in-message-assignments"></a>Usar XPaths no canónicos en las asignaciones de mensajes
 Si se utilizan partes de mensaje de .Net, es posible anotar el código con el atributo de serialización XML que, cuando también se acompaña con anotaciones de propiedad o campos distintivos, puede tener como resultado expresiones de XPath de considerable complejidad. Es posible que estas expresiones complejas de XPath sean no canónicas. solo se debería utilizar XPath no canónico en orquestaciones de enlace directo; es posible que se produzcan errores con orquestaciones enlazadas lógica o físicamente. Las orquestaciones de enlace directo no se basan en una canalización para procesar el documento XML; en consecuencia, todo el documento XML se carga en la memoria antes del procesamiento.  

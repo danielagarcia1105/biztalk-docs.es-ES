@@ -1,14 +1,14 @@
 ---
-title: "Marco de administración de excepciones | Documentos de Microsoft"
-ms.custom: 
+title: Marco de administración de excepciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b5aebc0-2467-4f48-a385-056507ed1c1e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008245"
 ---
 # <a name="exception-management-framework"></a>Marco de administración de excepciones
 El marco de trabajo de administración de excepciones de ESB proporciona un mecanismo de generación de errores orientado a mensajes unificada para administrar todas las excepciones que pueden aparecer en un entorno de BizTalk Server. El marco de trabajo de administración de excepciones de ESB puede recibir mensajes de excepción publicados a través del servicio de publicación de excepción, además de mensajes desde el mecanismo de BizTalk Server no se pudo enrutamiento de mensajes.  

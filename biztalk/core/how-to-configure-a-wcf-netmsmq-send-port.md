@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13f55e53-12af-473b-b73f-1c98edadfc28
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975250"
 ---
 # <a name="how-to-configure-a-wcf-netmsmq-send-port"></a>Cómo configurar un puerto de envío WCF-NetMsmq 
 Los puertos de de envío WCF-NetMsmq pueden configurarse mediante programación, o bien utilizando la consola de administración de BizTalk.  
@@ -69,11 +70,11 @@ Los puertos de de envío WCF-NetMsmq pueden configurarse mediante programación,
   
 3.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo la **General** pestaña, configure la dirección del extremo, la identidad del servicio y la **SOAPAction** encabezado para el Puerto de envío WCF-NetMsmq. Para obtener más información sobre la **General** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea la **cuadro diálogo de propiedades de transporte WCF-NetMsmq, envío, General**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-4.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, en la **enlace** pestaña, configure las propiedades de tiempo de espera y la transacción y configuración de cola. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-NetMsmq, envío,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+4.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, en la **enlace** pestaña, configure las propiedades de tiempo de espera y la transacción y configuración de cola. Para obtener más información sobre la **enlace** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea el **enlace de cuadro de diálogo de propiedades de transporte WCF-NetMsmq, envío,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 5.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, en la **seguridad** ficha, defina las capacidades de seguridad del puerto de envío WCF-NetMsmq. Para obtener más información sobre la **seguridad** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea el **delcuadrodediálogodepropiedadesdetransporteWCF-NetMsmq,envío,seguridad**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
-6.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetMsmq, envío,**ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+6.  En el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, en la **mensajes** ficha, especifique la selección de datos de SOAP **cuerpo** elemento. Para obtener más información sobre la **mensajes** pestaña en el **propiedades de transporte de WCF-NetMsmq** cuadro de diálogo, vea el **mensajes del cuadro de diálogo de propiedades de transporte WCF-NetMsmq, envío,** ficha [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
   
 ## <a name="configure-a-wcf-netmsmq-send-port-programmatically"></a>Configurar un puerto de envío WCF-NetMsmq mediante programación
   

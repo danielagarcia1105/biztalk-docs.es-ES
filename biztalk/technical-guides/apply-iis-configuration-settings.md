@@ -1,14 +1,14 @@
 ---
-title: "Aplicar opciones de configuración de IIS | Documentos de Microsoft"
-ms.custom: 
+title: Aplicar opciones de configuración de IIS | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d638f83-e1c8-4e35-b345-361d5a3093fa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976666"
 ---
 # <a name="apply-iis-configuration-settings"></a>Aplicar opciones de configuración de IIS
 De forma predeterminada el mensaje SOAP, HTTP, y basado en HTTP WCF adaptadores (y .NET en general) abran sólo dos conexiones HTTP simultáneas desde cada instancia de host de BizTalk a cualquier servidor de destino específico. Por ejemplo, si tiene un puerto de envío SOAP envía mensajes a **http://www.contoso.com/SomeWebService.asmx**, a continuación, de forma predeterminada cada instancia de host que se ejecuta en cada [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] abrirá sólo dos conexiones HTTP simultáneas a **www.contoso.com**, con independencia de la cantidad de mensajes que deben enviarse.  

@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial 2: EDI Interface Developer Tutorial | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d10fb650-cbb9-41e5-a80d-06afd0513814
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286948"
 ---
 # <a name="tutorial-2-edi-interface-developer-tutorial"></a>Tutorial 2: Tutorial de desarrollador de la interfaz EDI
 Este tutorial muestra cómo usar la funcionalidad EDI en un escenario de desarrolladores de interfaz de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

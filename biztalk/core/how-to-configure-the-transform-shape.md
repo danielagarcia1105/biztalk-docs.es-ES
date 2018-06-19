@@ -1,17 +1,17 @@
 ---
-title: "Cómo configurar la forma transformación | Documentos de Microsoft"
-ms.custom: 
+title: Cómo configurar la forma transformación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Orchestration Designer], Transform shape
 - Transform shape [Orchestration Designer]
 ms.assetid: ca81d153-77a6-4bcc-b14f-8f48469fffe0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972138"
 ---
 # <a name="how-to-configure-the-transform-shape"></a>Cómo configurar la forma Transformación
 ![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")  

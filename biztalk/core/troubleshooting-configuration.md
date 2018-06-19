@@ -1,14 +1,14 @@
 ---
-title: "Solucionar problemas de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Solucionar problemas de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 902e591a-4ff4-4053-b329-0c022f44999a
-caps.latest.revision: "37"
+caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975994"
 ---
 # <a name="troubleshooting-configuration"></a>Solucionar problemas de configuración
 El programa de configuración de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] crea bases de datos en uno o varios de los equipos que ejecutan [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], rellena las bases de datos con tablas, funciones y procedimientos almacenados que usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e implementa los ensamblados .NET que se usan durante el tiempo de ejecución en la base de datos de administración de BizTalk.  

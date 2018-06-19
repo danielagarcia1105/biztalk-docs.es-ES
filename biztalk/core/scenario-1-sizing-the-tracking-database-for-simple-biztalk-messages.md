@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269724"
 ---
 # <a name="scenario-1-sizing-the-tracking-database--for-simple-biztalk-messages"></a>Escenario 1: Ajustar el tamaño de la base de datos de seguimiento para mensajes sencillos de BizTalk
 En la ilustración siguiente, un mensaje sencillo del servidor BizTalk Server entra y sale de éste sin sufrir ninguna transformación.  

@@ -1,14 +1,14 @@
 ---
-title: "Trabajar con el marco de trabajo de configuración | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar con el marco de trabajo de configuración | Documentos de Microsoft
+ms.custom: ''
 ms.date: 2015-10-28
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ec869d-6e81-42f5-9961-29b06e03fa54
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976626"
 ---
 # <a name="working-with-the-configuration-framework"></a>Trabajo con Configuration Framework
 Configuration Framework permite al usuario cambiar la configuración de forma rápida y sencilla durante la instalación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Junto con Microsoft Windows Installer (MSI), Configuration Framework determina e informa del estado del equipo y las tareas de configuración que requieren alguna acción.  

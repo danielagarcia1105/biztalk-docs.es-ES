@@ -1,17 +1,17 @@
 ---
-title: "Definir una vista BAM personalizadas para la reparación de mensajes y los nuevos datos de envío | Documentos de Microsoft"
-ms.custom: 
+title: Definir una vista BAM personalizadas para la reparación de mensajes y los nuevos datos de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM views
 - Message Repair and New Submission, BAM views
 ms.assetid: 76a6e78d-9b11-4b43-a500-a9d7666ee468
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006821"
 ---
 # <a name="defining-a-custom-bam-view-for-message-repair-and-new-submission-data"></a>Definir una vista BAM personalizadas para la reparación de mensajes y los nuevos datos de envío
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]El programa de instalación proporciona un archivo de definición de BAM que define una actividad de negocio y una vista de negocio. Puede implementar el archivo de definición de BAM para utilizar esa vista, o puede crear una vista personalizada que se puede agregar al archivo de definición de BAM.  

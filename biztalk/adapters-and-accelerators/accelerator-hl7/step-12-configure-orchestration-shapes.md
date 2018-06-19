@@ -1,18 +1,18 @@
 ---
-title: "Paso 12: Configurar formas de orquestación | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 12: Configurar formas de orquestación | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, orchestration shapes
 - orchestrations, shapes
 - message enrichment tutorial, orchestrations
 ms.assetid: 9388254b-2841-4489-838e-de913ceff151
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006429"
 ---
 # <a name="step-12-configure-orchestration-shapes"></a>Paso 12: Configurar formas de orquestación
 En este paso, completa la configuración de las formas de orquestación con el fin de quitar las etiquetas inteligentes de configuración incompleta. Designe **DoorbellOutputMessage** como la salida del primer proceso de transformación, que designa **DoorbellMap.btm** como la asignación que se utiliza en ese proceso. A continuación, designe **DoorbellFinalMessage** como la salida del segundo proceso de transformación y agregue la expresión que enriquece el mensaje con los datos de campo adicional.  

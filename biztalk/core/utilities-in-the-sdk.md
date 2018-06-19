@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287580"
 ---
 # <a name="utilities-in-the-sdk"></a>Utilidades del SDK de
 En esta sección se proporcionan instrucciones acerca de cómo usar varias utilidades que se incluyen en el kit de desarrollo de software (SDK) de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

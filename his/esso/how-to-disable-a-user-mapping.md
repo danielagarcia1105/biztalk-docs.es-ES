@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51c745dd-4d39-46e5-88bf-b803ae2e0a1b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 93694ed8a3238be51b255bcad79122169461d885
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250976"
 ---
 # <a name="how-to-disable-a-user-mapping"></a>Cómo deshabilitar una asignación de usuario
 Puede deshabilitar una asignación de usuarios cuando desee desactivar todas las operaciones que están asociadas a una asignación determinada. Debe deshabilitar una asignación de usuarios antes de que pueda quitarla.  

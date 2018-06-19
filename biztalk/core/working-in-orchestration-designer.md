@@ -1,11 +1,11 @@
 ---
-title: "Trabajar en el Diseñador de orquestaciones | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar en el Diseñador de orquestaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, saving
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - orchestrations, naming conventions
 - orchestrations, deleting
 ms.assetid: 13e72b41-d9b6-4508-9a44-b3c7c1804f36
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975482"
 ---
 # <a name="working-in-orchestration-designer"></a>Trabajar en el Diseñador de orquestaciones
 Después de iniciar un proyecto de BizTalk, puede crear nuevas orquestaciones y agregar otras existentes al proyecto. En los procedimientos siguientes se explica cómo crear y guardar una orquestación, agregar una orquestación existente a un proyecto o quitarla de él, cambiar el nombre de una orquestación y establecer las propiedades de orquestación.  

@@ -1,11 +1,11 @@
 ---
 title: Las tareas operativas | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BizTalk Accelerator for SWIFT, managing
 - administering
 ms.assetid: 555335a0-5a85-4498-b34f-97bb508ea5b1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004293"
 ---
 # <a name="operational-tasks"></a>Tareas operativas
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] incluye uno o varios servidores y una serie de herramientas de integración de aplicaciones empresariales (EAI), la automatización de procesos de negocio financieros y facilitar el intercambio de mensajes mediante el estándar de SWIFT FINÉS.  

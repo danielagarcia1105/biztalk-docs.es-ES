@@ -1,11 +1,11 @@
 ---
-title: "Estándares de seguridad y privacidad | Documentos de Microsoft"
-ms.custom: 
+title: Estándares de seguridad y privacidad | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, privacy standards
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Accelerator for SWIFT, security
 - security, BizTalk Accelerator for SWIFT
 ms.assetid: 5794b25f-8a73-4f5b-97ef-1b0f61775c4b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005317"
 ---
 # <a name="security-and-privacy-standards"></a>Estándares de seguridad y privacidad
 Las aplicaciones de servicios financieras y soluciones de integración desarrollan con [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] generalmente se protegen mediante nativo [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] características de seguridad. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]utiliza los mecanismos de seguridad rigurosa como Internet de hecho cifra estándares de mensajes y protocolos de transporte, firmar los certificados, [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] y autenticación de Enterprise Single Sign-On para proteger [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] aplicaciones, datos, y en tiempo de ejecución.  

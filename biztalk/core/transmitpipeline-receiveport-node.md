@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009029"
 ---
 # <a name="transmitpipeline-receiveport-node"></a>TransmitPipeline (nodo ReceivePort)
 El nodo TransmitPipeline del nodo puertoRecepción de un archivo de enlace proporciona información específica acerca del enlazado de una canalización de envío a un puerto de recepción bidireccional que se exporta con el archivo de enlace.  

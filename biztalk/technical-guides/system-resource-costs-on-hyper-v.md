@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f25a76c-1c41-41c0-b28d-d7473dbe1cd1
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009429"
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>Costos de recursos de sistema en Hyper-V
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>Costos de recursos del sistema asociados a la ejecución de un sistema operativo invitado en Hyper-V  
