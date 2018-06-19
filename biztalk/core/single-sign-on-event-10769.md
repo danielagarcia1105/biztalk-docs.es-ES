@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10769 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10769 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 834fe1b6-bf9d-4803-b218-2cd42601d9a3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277844"
 ---
 # <a name="single-sign-on-event-10769"></a><span data-ttu-id="ff674-102">Inicio de sesión único: Evento 10769</span><span class="sxs-lookup"><span data-stu-id="ff674-102">Single Sign-On: Event 10769</span></span>
 ## <a name="details"></a><span data-ttu-id="ff674-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="ff674-103">Details</span></span>  

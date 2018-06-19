@@ -1,14 +1,14 @@
 ---
-title: "Envía una confirmación EDI | Documentos de Microsoft"
-ms.custom: 
+title: Envía una confirmación EDI | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4a036d08-8a65-43ad-b72c-2a246d302792
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272524"
 ---
 # <a name="sending-an-edi-acknowledgment"></a><span data-ttu-id="4bc94-102">Enviar una confirmación EDI</span><span class="sxs-lookup"><span data-stu-id="4bc94-102">Sending an EDI Acknowledgment</span></span>
 <span data-ttu-id="4bc94-103">Las confirmaciones indican el estado de la transmisión del mensaje EDI.</span><span class="sxs-lookup"><span data-stu-id="4bc94-103">Acknowledgments indicate the status of EDI message transmission.</span></span> <span data-ttu-id="4bc94-104">Una vez que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] recibe un intercambio EDI, devolverá una o más confirmaciones al remitente de un intercambio EDI, en función de las confirmaciones que se hayan habilitado.</span><span class="sxs-lookup"><span data-stu-id="4bc94-104">After [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI interchange, it will return one or more acknowledgments to the sender of an EDI interchange, depending upon which acknowledgments have been enabled.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Información general de la implementación de SSO | Documentos de Microsoft"
-ms.custom: 
+title: Información general de la implementación de SSO | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, deploying example
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SSO, multiple computers
 - examples, deploying
 ms.assetid: 6eccee26-c392-41fe-97fb-3afe1685540f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277260"
 ---
 # <a name="sso-deployment-overview"></a><span data-ttu-id="a9213-102">Información general de la implementación de SSO</span><span class="sxs-lookup"><span data-stu-id="a9213-102">SSO Deployment Overview</span></span>
 <span data-ttu-id="a9213-103">El sistema de este ejemplo se implementa en tres dominios que contienen los siguientes equipos:</span><span class="sxs-lookup"><span data-stu-id="a9213-103">The system in this example is deployed over three domains, containing the following computers:</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Interfaces del transmisor | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ffa6db3b-739e-438c-b410-8823a20eed82
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279724"
 ---
 # <a name="transmitter-interfaces"></a><span data-ttu-id="4f032-102">Interfaces del transmisor</span><span class="sxs-lookup"><span data-stu-id="4f032-102">Transmitter Interfaces</span></span>
 <span data-ttu-id="4f032-103">Además de las interfaces de adaptador obligatorias, transmitir adaptadores (envío), necesita implementar uno **IBTTransmitter** si están sin lotes o **IBTBatchTransmitter** si se procesan por lotes.</span><span class="sxs-lookup"><span data-stu-id="4f032-103">In addition to the mandatory adapter interfaces, transmit (send) adapters, need to implement either **IBTTransmitter** if they are non-batched or **IBTBatchTransmitter** if they are batched.</span></span>  

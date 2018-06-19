@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279580"
 ---
 # <a name="transporttype-secondarytransport-node"></a><span data-ttu-id="3db81-102">TransportType (nodo SecondaryTransport)</span><span class="sxs-lookup"><span data-stu-id="3db81-102">TransportType (SecondaryTransport Node)</span></span>
 <span data-ttu-id="3db81-103">El nodo TransportType del nodo SecondaryTransport de un archivo de enlace contiene información específica acerca del adaptador asociado a un transporte que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="3db81-103">The TransportType node of the SecondaryTransport node of a binding file contains specific information about the adapter associated with a transport that is exported with the binding file.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Los adaptadores SOAP y HTTP | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - SOAP adapters, TMA
 - HTTP adapters, TMA
 ms.assetid: d9a40cff-92a1-4bc9-ae45-3a5857f70222
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272108"
 ---
 # <a name="sample-tma-http-and-soap-adapters"></a><span data-ttu-id="57bf9-102">TMA de ejemplo: Los adaptadores SOAP y HTTP</span><span class="sxs-lookup"><span data-stu-id="57bf9-102">Sample TMA: HTTP and SOAP Adapters</span></span>
 <span data-ttu-id="57bf9-103">En este tema se incluye el análisis de modelo de amenazas (TMA) del escenario de los adaptadores de HTTP y SOAP (servicios Web) para la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57bf9-103">This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web services) adapter scenario for the sample architecture.</span></span> <span data-ttu-id="57bf9-104">La siguiente ilustración muestra la arquitectura de ejemplo del escenario de los adaptadores de HTTP y SOAP.</span><span class="sxs-lookup"><span data-stu-id="57bf9-104">The following figure shows the sample architecture for the HTTP and SOAP adapters scenario.</span></span>  
@@ -67,7 +68,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="57bf9-128">**Identificar puntos de entrada, límites de confianza y flujo de datos -** ver información básica descrita anteriormente en el paso 1 y [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="57bf9-128">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   <span data-ttu-id="57bf9-129">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="57bf9-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="57bf9-130">La siguiente tabla enumera las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="57bf9-130">The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="57bf9-129">**Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios.</span><span class="sxs-lookup"><span data-stu-id="57bf9-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="57bf9-130">La siguiente tabla enumera las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="57bf9-130">The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="57bf9-131">**Tabla 1: lista de amenazas**</span><span class="sxs-lookup"><span data-stu-id="57bf9-131">**Table 1 List of threats**</span></span>  
   
@@ -79,7 +80,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="57bf9-148">Obtención de las credenciales de usuario del mensaje</span><span class="sxs-lookup"><span data-stu-id="57bf9-148">Read user credentials from message</span></span>|<span data-ttu-id="57bf9-149">Si se usa la autenticación básica y el mensaje contiene credenciales de usuario, un usuario malintencionado podría obtener acceso a éstas y utilizarlas para tener acceso a la aplicación.</span><span class="sxs-lookup"><span data-stu-id="57bf9-149">If you use basic authentication, and the message contains user credentials, a malicious user can gain access to the credentials and use them to access the application.</span></span>|<span data-ttu-id="57bf9-150">Credenciales de usuario</span><span class="sxs-lookup"><span data-stu-id="57bf9-150">User credentials</span></span>|<span data-ttu-id="57bf9-151">Revelación de información</span><span class="sxs-lookup"><span data-stu-id="57bf9-151">Information disclosure</span></span><br /><br /> <span data-ttu-id="57bf9-152">Elevación del privilegio</span><span class="sxs-lookup"><span data-stu-id="57bf9-152">Elevation of privilege</span></span>|  
   
 ## <a name="step-3-review-threats-http-and-soap-adapters-scenario"></a><span data-ttu-id="57bf9-153">Paso 3.</span><span class="sxs-lookup"><span data-stu-id="57bf9-153">Step 3.</span></span> <span data-ttu-id="57bf9-154">Analizar las amenazas (escenario de adaptadores SOAP y HTTP)</span><span class="sxs-lookup"><span data-stu-id="57bf9-154">Review Threats (HTTP and SOAP Adapters Scenario)</span></span>  
- <span data-ttu-id="57bf9-155">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario de los adaptadores de HTTP y SOAP (servicios Web) de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57bf9-155">This section provides the results of the risk analysis we did for threats we identified for the HTTP and SOAP (Web services) adapters scenario for the sample architecture.</span></span> <span data-ttu-id="57bf9-156">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="57bf9-156">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
+ <span data-ttu-id="57bf9-155">Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario de los adaptadores de HTTP y SOAP (servicios Web) de la arquitectura de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57bf9-155">This section provides the results of the risk analysis we did for threats we identified for the HTTP and SOAP (Web services) adapters scenario for the sample architecture.</span></span> <span data-ttu-id="57bf9-156">Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.</span><span class="sxs-lookup"><span data-stu-id="57bf9-156">After the main threat model meeting, we reviewed the threats and used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
  <span data-ttu-id="57bf9-157">La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="57bf9-157">The following table lists the risk ratings for the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.</span></span>  
   

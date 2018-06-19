@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279244"
 ---
 # <a name="transforms-receiveport-node"></a><span data-ttu-id="76bd0-102">Transformaciones (nodo puertoRecepción)</span><span class="sxs-lookup"><span data-stu-id="76bd0-102">Transforms (ReceivePort Node)</span></span>
 <span data-ttu-id="76bd0-103">El nodo Transformaciones del nodo puertoRecepción de un archivo de enlace contiene la colección de transformaciones de entrada de un puerto de recepción unidireccional que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="76bd0-103">The Transforms node of the ReceivePort node of a binding file contains the collection of inbound transforms of a one way receive port that is exported with the binding file.</span></span>  

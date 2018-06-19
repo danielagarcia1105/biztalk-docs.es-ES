@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286436"
 ---
 # <a name="types-of-pipelines"></a><span data-ttu-id="cbd38-102">Tipos de canalizaciones</span><span class="sxs-lookup"><span data-stu-id="cbd38-102">Types of Pipelines</span></span>
 <span data-ttu-id="cbd38-103">Al crear una nueva canalización en un proyecto de BizTalk, tiene dos opciones: una canalización de recepción y una canalización de envío.</span><span class="sxs-lookup"><span data-stu-id="cbd38-103">When creating a new pipeline in a BizTalk project, you have two options, a receive pipeline and a send pipeline.</span></span> <span data-ttu-id="cbd38-104">En esta sección se explican las diferencias entre los tipos de canalizaciones y algunas consideraciones de diseño para cada una de ellas.</span><span class="sxs-lookup"><span data-stu-id="cbd38-104">This section explains the differences between the pipeline types, and design considerations for each.</span></span>  

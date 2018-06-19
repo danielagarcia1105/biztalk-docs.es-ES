@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Probar la solución | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Probar la solución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5ca5301-2ee4-4024-a90a-396ed681d12a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276892"
 ---
 # <a name="step-5-test-the-solution"></a><span data-ttu-id="e4fd8-102">Paso 5: Probar la solución</span><span class="sxs-lookup"><span data-stu-id="e4fd8-102">Step 5: Test the Solution</span></span>
 <span data-ttu-id="e4fd8-103">El objetivo de esta solución es automatizar el proceso de envío de notificaciones a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], cada vez que se cierra una nueva oportunidad en Salesforce estableciendo la etapa de la oportunidad como **Closed Won**.</span><span class="sxs-lookup"><span data-stu-id="e4fd8-103">This solution aims at automating the process of sending notifications to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], every time a new opportunity is closed in Salesforce by setting the stage of the opportunity as **Closed Won**.</span></span> <span data-ttu-id="e4fd8-104">Después de que se reciba la notificación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] envía una consulta a Salesforce para recuperar los detalles de los productos relacionados con la oportunidad y, a continuación, inserta la respuesta de Salesforce en una tabla de base de datos de SQL Server denominada **OrderDetails**.</span><span class="sxs-lookup"><span data-stu-id="e4fd8-104">After the notification is received [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends a query to Salesforce to retrieve product details related to the opportunity, and then inserts the response from Salesforce into a SQL Server database table called **OrderDetails**.</span></span> <span data-ttu-id="e4fd8-105">Por lo tanto, para probar esta solución, actualizaremos la etapa de una oportunidad para **Closed Won** y por tanto, deben insertarse los registros pertinentes en la tabla OrderDetails en la base de datos de pedidos.</span><span class="sxs-lookup"><span data-stu-id="e4fd8-105">So, to test this solution, we will update the stage of an opportunity to **Closed Won** and as a result, relevant records must get inserted in the OrderDetails table in the Orders database.</span></span>  

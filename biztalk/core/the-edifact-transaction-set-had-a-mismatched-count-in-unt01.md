@@ -1,14 +1,14 @@
 ---
 title: El conjunto de transacciones de Edifact tiene un recuento no coincidente con UNT01 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2859274-78e8-4e16-92b7-c143da6da421
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278492"
 ---
 # <a name="the-edifact-transaction-set-had-a-mismatched-count-in-unt01"></a><span data-ttu-id="d4654-102">El recuento de UNT01 del conjunto de transacciones Edifact no coincide</span><span class="sxs-lookup"><span data-stu-id="d4654-102">The Edifact Transaction set had a mismatched count in UNT01</span></span>
 ## <a name="details"></a><span data-ttu-id="d4654-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="d4654-103">Details</span></span>  

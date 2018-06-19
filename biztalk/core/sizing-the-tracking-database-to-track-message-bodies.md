@@ -1,11 +1,11 @@
 ---
-title: "Ajustar el tamaño de la base de datos de seguimiento de cuerpos de mensaje de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Ajustar el tamaño de la base de datos de seguimiento de cuerpos de mensaje de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, database size
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - HAT, orchestrations
 - tracking, ports
 ms.assetid: ee75e530-f15d-4ceb-ba67-0b0b24d9df6b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277924"
 ---
 # <a name="sizing-the-tracking-database-to-track-message-bodies"></a><span data-ttu-id="aa441-102">Ajustar el tamaño de la base de datos de seguimiento para realizar un seguimiento de los cuerpos de mensaje</span><span class="sxs-lookup"><span data-stu-id="aa441-102">Sizing the Tracking Database to Track Message Bodies</span></span>
 <span data-ttu-id="aa441-103">Si planea realizar un seguimiento de los cuerpos de mensaje en la base de datos de seguimiento de BizTalk, tendrá que tener en cuenta el tamaño de éstos al realizar los cálculos.</span><span class="sxs-lookup"><span data-stu-id="aa441-103">If you plan to track the message bodies in the BizTalk Tracking database, then you will also need to account for the size of these bodies in your calculation.</span></span> <span data-ttu-id="aa441-104">Use la siguiente ecuación:</span><span class="sxs-lookup"><span data-stu-id="aa441-104">Use the following equation:</span></span>  

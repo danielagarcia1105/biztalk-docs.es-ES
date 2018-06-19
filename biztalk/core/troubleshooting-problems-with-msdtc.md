@@ -1,14 +1,14 @@
 ---
 title: Solucionar problemas con MSDTC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f39cde52-da8f-4cc1-bdc5-e4b828891a79
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280508"
 ---
 # <a name="troubleshooting-problems-with-msdtc"></a><span data-ttu-id="5b683-102">Solucionar problemas con MSDTC</span><span class="sxs-lookup"><span data-stu-id="5b683-102">Troubleshooting Problems with MSDTC</span></span>
 <span data-ttu-id="5b683-103">La mayoría de las operaciones en tiempo de ejecución de BizTalk Server necesitan ser compatibles con Microsoft Distributed Transaction Coordinator (MSDTC) para asegurar que las operaciones coincidan con respecto a las transacciones.</span><span class="sxs-lookup"><span data-stu-id="5b683-103">Most BizTalk Server runtime operations require Microsoft Distributed Transaction Coordinator (MSDTC) support to ensure that the operations are transactionally consistent.</span></span> <span data-ttu-id="5b683-104">Si la compatibilidad de la transacción MSDTC no está disponible, las operaciones en tiempo de ejecución de BizTalk Server asociadas no pueden continuar.</span><span class="sxs-lookup"><span data-stu-id="5b683-104">If MSDTC transaction support is not available, then the associated BizTalk Server runtime operations cannot proceed.</span></span> <span data-ttu-id="5b683-105">Los componentes de BizTalk que están comúnmente afectados cuando no está configurada correctamente la compatibilidad de la transacción MSDTC incluyen (aunque no son los únicos) el servicio de inicio de sesión único, las instancias de host de BizTalk y cualquier instancia de SQL Server que esté conectada por BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="5b683-105">The components of BizTalk that are commonly affected when MSDTC transaction support is not configured correctly include (but are not limited to) the Single Sign-On Service, BizTalk host instances, and any SQL Server instances that are connected to by BizTalk Server.</span></span> <span data-ttu-id="5b683-106">Esta sección contiene información que describe errores relativos a MSDTC y los pasos que se pueden realizar para diagnosticar y resolver problemas con MSDTC.</span><span class="sxs-lookup"><span data-stu-id="5b683-106">This section contains information that describes MSDTC related errors and steps that can be followed to diagnose and resolve problems with MSDTC.</span></span>  
@@ -234,7 +235,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="5b683-259">Haga clic en **Agregar programa** para mostrar la **agregar un programa** cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="5b683-259">Click **Add Program** to display the **Add a Program** dialog box.</span></span>  
   
-5.  <span data-ttu-id="5b683-260">Haga clic en **examinar** y vaya a *% system32%*\msdtc.exe.</span><span class="sxs-lookup"><span data-stu-id="5b683-260">Click **Browse** and navigate to *%system32%*\msdtc.exe.</span></span>  
+5.  <span data-ttu-id="5b683-260">Haga clic en **examinar** y vaya a *% system32%* \msdtc.exe.</span><span class="sxs-lookup"><span data-stu-id="5b683-260">Click **Browse** and navigate to *%system32%* \msdtc.exe.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="5b683-261">Abra un símbolo del sistema, escriba **echo % system32%** y presione **ENTRAR** para determinar la ubicación del directorio \System32 en este equipo.</span><span class="sxs-lookup"><span data-stu-id="5b683-261">Launch a command prompt, type **echo %system32%** and press **Enter** to determine the location of the \System32 directory on this computer.</span></span>  

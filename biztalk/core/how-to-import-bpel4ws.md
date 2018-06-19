@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008479"
 ---
 # <a name="import-bpel4ws-in-biztalk-server"></a><span data-ttu-id="99244-102">Importar BPEL4WS en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="99244-102">Import BPEL4WS in BizTalk Server</span></span>
 <span data-ttu-id="99244-103">Puede importar desde el lenguaje BPEL4WS existente para crear una orquestación.</span><span class="sxs-lookup"><span data-stu-id="99244-103">You can import from existing BPEL4WS to create an orchestration.</span></span>  

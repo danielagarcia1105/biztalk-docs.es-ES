@@ -1,14 +1,14 @@
 ---
-title: "Mensajes suspendidos se incluyen en el número de mensajes en el umbral de limitación de base de datos | Documentos de Microsoft"
-ms.custom: 
+title: Mensajes suspendidos se incluyen en el número de mensajes en el umbral de limitación de base de datos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9eb708bb-6d6d-4494-8b8d-67aa44800a20
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278132"
 ---
 # <a name="suspended-messages-are-included-in-the-message-count-in-database-throttling-threshold"></a><span data-ttu-id="8dec6-102">Los mensajes suspendidos se incluyen en el Umbral de limitación del número de mensajes en la base de datos</span><span class="sxs-lookup"><span data-stu-id="8dec6-102">Suspended Messages are Included in the Message Count in Database Throttling Threshold</span></span>
 <span data-ttu-id="8dec6-103">De forma predeterminada, el host **recuento en la base de datos del mensaje** umbral de limitación se establece en un valor de 50.000, lo que desencadenará una condición de limitación en las siguientes circunstancias:</span><span class="sxs-lookup"><span data-stu-id="8dec6-103">By default the host **Message count in DB** throttling threshold is set to a value of 50,000, which will trigger a throttling condition under the following circumstances:</span></span>  

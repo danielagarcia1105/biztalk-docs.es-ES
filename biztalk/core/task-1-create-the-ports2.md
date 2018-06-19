@@ -1,14 +1,14 @@
 ---
 title: 'Tarea 1: Crear el Ports2 | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097504c3-67de-4a0b-99a5-648121aff1e5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278844"
 ---
 # <a name="task-1-create-the-ports"></a><span data-ttu-id="2bfba-102">Tarea 1: Crear los puertos</span><span class="sxs-lookup"><span data-stu-id="2bfba-102">Task 1: Create the Ports</span></span>
 <span data-ttu-id="2bfba-103">Cree los siguientes puertos, BeginDoc y EndDocOut a la izquierda y JDEPort con 3 operaciones a la derecha.</span><span class="sxs-lookup"><span data-stu-id="2bfba-103">Create the following ports, BeginDoc and EndDocOut on the left and JDEPort with 3 operations on the right.</span></span>  

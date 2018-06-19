@@ -1,14 +1,14 @@
 ---
-title: "Paso 4: Configurar la solución de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 4: Configurar la solución de BizTalk Server | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60e6a82-51af-41e5-a755-5f337492ba2f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280188"
 ---
 # <a name="step-4-configure-the-biztalk-server-solution"></a><span data-ttu-id="ff95f-102">Paso 4: Configurar la solución de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="ff95f-102">Step 4: Configure the BizTalk Server Solution</span></span>
 <span data-ttu-id="ff95f-103">En el paso anterior, creó e implementó una aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir notificaciones de Salesforce en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] e insertar los detalles en una base de datos de SQL Server local.</span><span class="sxs-lookup"><span data-stu-id="ff95f-103">In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application to receive Salesforce notification into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and insert the details into an on-premise SQL Server database.</span></span> <span data-ttu-id="ff95f-104">En este paso, configuraremos la aplicación en la consola de administración de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="ff95f-104">In this step, we’ll configure the application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="ff95f-105">La configuración de la aplicación supone principalmente crear puertos físicos correspondientes a los puertos lógicos que creamos en la orquestación.</span><span class="sxs-lookup"><span data-stu-id="ff95f-105">Configuring the application primarily involves creating physical ports corresponding to the logical ports we created in the orchestration.</span></span> <span data-ttu-id="ff95f-106">También implica enlazar el puerto físico a los puertos lógicos.</span><span class="sxs-lookup"><span data-stu-id="ff95f-106">It also involves binding the physical port to the logical ports.</span></span> <span data-ttu-id="ff95f-107">Llevaremos a cabo los siguientes pasos para configurar la aplicación de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:</span><span class="sxs-lookup"><span data-stu-id="ff95f-107">We’ll perform the following steps to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Directrices de ajuste de tamaño de la base de datos de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Directrices de ajuste de tamaño de la base de datos de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, performance
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Analysis Server database [BAM]
 - performance, Tracking database
 ms.assetid: 2188bee5-c0dd-4448-bd4a-4ffb2a0c79f1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279700"
 ---
 # <a name="tracking-database-sizing-guidelines"></a><span data-ttu-id="c3eed-102">Instrucciones para ajustar el tamaño de la base de datos de seguimiento</span><span class="sxs-lookup"><span data-stu-id="c3eed-102">Tracking Database Sizing Guidelines</span></span>
 <span data-ttu-id="c3eed-103">Esta sección describen las consideraciones de tamaño de la base de datos de seguimiento de BizTalk (BizTalkDTADb) en [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c3eed-103">This section describes sizing considerations for the BizTalk Tracking (BizTalkDTADb) database in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c3eed-104">Explica cómo utilizar ecuaciones y variables de mensaje para determinar el tamaño que alcanzará la base de datos de seguimiento de BizTalk durante un determinado período de tiempo y proporciona ejemplos específicos sobre cómo aplicar las ecuaciones.</span><span class="sxs-lookup"><span data-stu-id="c3eed-104">It explains how to use equations and message variables to determine how large the BizTalk Tracking database will become over a given period of time, and provides specific examples of how to apply the equations.</span></span> <span data-ttu-id="c3eed-105">Esto proporciona la correlación aproximada entre los mensajes de BizTalk, la configuración de seguimiento y el tamaño de la base de datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="c3eed-105">This provides the rough co-relation between BizTalk messages, tracking settings and the tracking database size.</span></span> <span data-ttu-id="c3eed-106">No tiene en cuenta otros factores del servidor SQL Server como el tamaño del índice en las tablas de seguimiento; considere la posibilidad de utilizar multiplicadores razonables para contabilizar dichos factores.</span><span class="sxs-lookup"><span data-stu-id="c3eed-106">It does not take into account other SQL Server factors such as index size in the tracking tables; you may want to consider reasonable multipliers to account for those factors.</span></span>  

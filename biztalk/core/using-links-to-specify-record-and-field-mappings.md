@@ -1,14 +1,14 @@
 ---
-title: "Utilizar vínculos para especificar el registro y las asignaciones de campos | Documentos de Microsoft"
-ms.custom: 
+title: Utilizar vínculos para especificar el registro y las asignaciones de campos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c669d93-e088-459e-8f45-87c359874a7e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287252"
 ---
 # <a name="using-links-to-specify-record-and-field-mappings"></a><span data-ttu-id="f1957-102">Utilizar vínculos para especificar asignaciones de registros y campos</span><span class="sxs-lookup"><span data-stu-id="f1957-102">Using Links to Specify Record and Field Mappings</span></span>
 <span data-ttu-id="f1957-103">En el Asignador de BizTalk, un vínculo es la manera de asociar un elemento de datos del esquema de origen con un elemento de datos del esquema de destino.</span><span class="sxs-lookup"><span data-stu-id="f1957-103">In BizTalk Mapper, a link is the way you associate a data item in the source schema with a data item in the destination schema.</span></span> <span data-ttu-id="f1957-104">Por lo general, en una asignación completa existen muchos vínculos entre el esquema de origen y el de destino.</span><span class="sxs-lookup"><span data-stu-id="f1957-104">Typically, in a completed map there are many links between the source schema and the destination schema.</span></span> <span data-ttu-id="f1957-105">Todos los vínculos juntos especifican cómo se transformarán los datos de los mensajes de instancia de origen en mensajes de instancia de destino semánticamente equivalentes, pero sintácticamente distintos.</span><span class="sxs-lookup"><span data-stu-id="f1957-105">All together the links specify how the data in the source instance messages will be transformed into a semantically equivalent, but syntactically distinct, destination instance messages.</span></span>  

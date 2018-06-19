@@ -1,14 +1,14 @@
 ---
-title: "Escriba reutilización y derivaciones | Documentos de Microsoft"
-ms.custom: 
+title: Escriba reutilización y derivaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 240145ea-be41-40ce-8edd-3d4d00e2baec
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286620"
 ---
 # <a name="type-reuse-and-derivations"></a><span data-ttu-id="adc59-102">Reutilización y derivaciones de tipos</span><span class="sxs-lookup"><span data-stu-id="adc59-102">Type Reuse and Derivations</span></span>
 <span data-ttu-id="adc59-103">Dentro del lenguaje de definición de esquemas XML (XSD), los tipos globales complejos proporcionan un mecanismo para definir un tipo de datos estructurado que se puede reutilizar y potencialmente redefinir en varias ubicaciones del esquema.</span><span class="sxs-lookup"><span data-stu-id="adc59-103">Within XML Schema definition (XSD) language, complex global types provide a mechanism for defining a structured data type that can be reused, and potentially redefined, at various locations within your schema.</span></span> <span data-ttu-id="adc59-104">Tal vez el ejemplo más clásico sea la estructura de una dirección, que incluye un nombre, la calle, la ciudad, el estado, etc.</span><span class="sxs-lookup"><span data-stu-id="adc59-104">Perhaps the most classic example is an address structure that includes a name, street, city, state, and so on.</span></span> <span data-ttu-id="adc59-105">Asimismo, el propio nombre puede ser una estructura que incluya cadenas de nombre, segundo nombre y apellidos.</span><span class="sxs-lookup"><span data-stu-id="adc59-105">Further, the name itself might be a structure that includes first, middle, and last name strings.</span></span> <span data-ttu-id="adc59-106">Si esta estructura compleja está definida de forma global, se podrá utilizar en varias ubicaciones dentro del esquema, como una dirección de envío y una dirección de facturación.</span><span class="sxs-lookup"><span data-stu-id="adc59-106">If this complex structure is defined globally, you can use it in multiple locations within your schema, such as for both a shipping address and a billing address.</span></span>  

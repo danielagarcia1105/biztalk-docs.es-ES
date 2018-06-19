@@ -1,11 +1,11 @@
 ---
-title: "Uso de elementos de múltiples pedidos | Documentos de Microsoft"
-ms.custom: 
+title: Uso de elementos de múltiples pedidos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, multiple calls
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - multi-order numbers [JD Edwards OneWorld adapters]
 - adapters [JD Edwards OneWorld adapters], multiple calls
 ms.assetid: 207ea92c-03f7-4117-8414-eb174e659d26
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287260"
 ---
 # <a name="using-multi-order-items"></a><span data-ttu-id="f2066-102">Uso de elementos de múltiples pedidos</span><span class="sxs-lookup"><span data-stu-id="f2066-102">Using Multi-Order Items</span></span>
 <span data-ttu-id="f2066-103">Debido a la estructura de la API de JD Edwards OneWorld, si desea usar números de varios pedidos con BizTalk Server, debe realizar varias llamadas a la línea de edición en su orquestación para agregar estos elementos de línea en una orquestación.</span><span class="sxs-lookup"><span data-stu-id="f2066-103">Due to the structure of the JD Edwards OneWorld API, if you want to use multi-order numbers with BizTalk Server, you must make multiple edit line calls in your orchestration to add those line items in an orchestration.</span></span> <span data-ttu-id="f2066-104">Por ejemplo, un elemento de varios pedidos podría contener un encabezado con un único número de pedido, y detalles que incluyan varios pedidos de artículos (como Juguete 1EA, Guantes 2EA).</span><span class="sxs-lookup"><span data-stu-id="f2066-104">For example, a multi-order item might contain a header with a single order number, and detail that includes several items orders (like Toy 1EA, Gloves 2EA).</span></span>  
