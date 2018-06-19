@@ -1,14 +1,14 @@
 ---
 title: 'Paso 1: Crear el proyecto EAISchemas | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a14ee61-fa27-4f03-997e-42c34a77afee
-caps.latest.revision: "55"
+caps.latest.revision: 55
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277660"
 ---
 # <a name="step-1-create-eaischemas-project"></a>Paso 1: Crear el proyecto EAISchemas
 ![Paso 1 de 5](../core/media/step-1of5.gif "Step_1of5")  

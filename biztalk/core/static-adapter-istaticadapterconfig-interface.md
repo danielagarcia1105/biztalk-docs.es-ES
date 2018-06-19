@@ -1,14 +1,14 @@
 ---
-title: "Interfaz IStaticAdapterConfig de adaptador estático | Documentos de Microsoft"
-ms.custom: 
+title: Interfaz IStaticAdapterConfig de adaptador estático | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52f5de01-0cfc-456a-a52b-28f8f076bdfc
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277388"
 ---
 # <a name="static-adapter-istaticadapterconfig-interface"></a>IStaticAdapterConfig de adaptador estático (interfaz)
 Un adaptador estático de tiempo de diseño debe implementar la **IStaticAdapterConfig** interfaz. Esto le permite interactuar con el Asistente para agregar metadatos de adaptador y obtener del adaptador organizaciones de servicios y descripciones de servicio individual. Las llamadas del Asistente para la **GetServiceOrganization** y **GetServiceDescription** métodos para extraer información de metadatos con el que el adaptador interactúa y agregarla a un BizTalk project en [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  

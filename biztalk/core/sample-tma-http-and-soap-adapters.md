@@ -1,11 +1,11 @@
 ---
 title: 'TMA de ejemplo: Los adaptadores SOAP y HTTP | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - SOAP adapters, TMA
 - HTTP adapters, TMA
 ms.assetid: d9a40cff-92a1-4bc9-ae45-3a5857f70222
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272108"
 ---
 # <a name="sample-tma-http-and-soap-adapters"></a>TMA de ejemplo: Los adaptadores SOAP y HTTP
 En este tema se incluye el análisis de modelo de amenazas (TMA) del escenario de los adaptadores de HTTP y SOAP (servicios Web) para la arquitectura de ejemplo. La siguiente ilustración muestra la arquitectura de ejemplo del escenario de los adaptadores de HTTP y SOAP.  
@@ -67,7 +68,7 @@ En este tema se incluye el análisis de modelo de amenazas (TMA) del escenario d
   
 -   **Identificar puntos de entrada, límites de confianza y flujo de datos -** ver información básica descrita anteriormente en el paso 1 y [información general acerca de escenarios de ejemplo](../core/background-information-for-sample-scenarios.md).  
   
--   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.**denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.  
+-   **Crear una lista de amenazas identificadas -** utilizamos la siguiente categorización para todas las entradas de DFD para identificar posibles amenazas para el escenario: **S**poofing identificar, **T** lteración con datos, **R**epudiation, **I**revelación de información, **d.** denegación de servicio, y **E**levación de privilegios. La siguiente tabla enumera las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.  
   
  **Tabla 1: lista de amenazas**  
   
@@ -79,7 +80,7 @@ En este tema se incluye el análisis de modelo de amenazas (TMA) del escenario d
 |Obtención de las credenciales de usuario del mensaje|Si se usa la autenticación básica y el mensaje contiene credenciales de usuario, un usuario malintencionado podría obtener acceso a éstas y utilizarlas para tener acceso a la aplicación.|Credenciales de usuario|Revelación de información<br /><br /> Elevación del privilegio|  
   
 ## <a name="step-3-review-threats-http-and-soap-adapters-scenario"></a>Paso 3. Analizar las amenazas (escenario de adaptadores SOAP y HTTP)  
- Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario de los adaptadores de HTTP y SOAP (servicios Web) de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.**años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.**capacidad de descubrimiento.  
+ Esta sección contiene los resultados del análisis de riesgos que se realizó para las amenazas identificadas en el escenario de los adaptadores de HTTP y SOAP (servicios Web) de la arquitectura de ejemplo. Después de la reunión del modelo de amenazas principal, se analizamos las amenazas y usa las siguientes categorías de impacto para identificar el riesgo de cada amenaza: **d.** años potenciales, **R**apacidad de reproducción, **E**provechamiento, **A**usuarios afectados y **d.** capacidad de descubrimiento.  
   
  La siguiente tabla contiene la evaluación del riesgo de las amenazas que identificamos al usar los adaptadores de HTTP y SOAP para enviar y recibir mensajes del servidor de BizTalk Server.  
   

@@ -1,14 +1,14 @@
 ---
-title: "Paso 9: Configurar el puerto de envío EDI carga | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 9: Configurar el puerto de envío EDI carga | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 71a8a4a7-7c3e-4e33-a9c0-a6445a3cc236
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277052"
 ---
 # <a name="step-9-configure-the-edi-payload-send-port"></a>Paso 9: Configurar el puerto de envío de carga de EDI
 ![Paso 9 de 11](../core/media/tut-step9-of-11.gif "Tut_Step9_of_11")  

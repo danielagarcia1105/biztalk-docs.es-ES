@@ -1,14 +1,14 @@
 ---
-title: "Escriba reutilización y derivaciones | Documentos de Microsoft"
-ms.custom: 
+title: Escriba reutilización y derivaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 240145ea-be41-40ce-8edd-3d4d00e2baec
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286620"
 ---
 # <a name="type-reuse-and-derivations"></a>Reutilización y derivaciones de tipos
 Dentro del lenguaje de definición de esquemas XML (XSD), los tipos globales complejos proporcionan un mecanismo para definir un tipo de datos estructurado que se puede reutilizar y potencialmente redefinir en varias ubicaciones del esquema. Tal vez el ejemplo más clásico sea la estructura de una dirección, que incluye un nombre, la calle, la ciudad, el estado, etc. Asimismo, el propio nombre puede ser una estructura que incluya cadenas de nombre, segundo nombre y apellidos. Si esta estructura compleja está definida de forma global, se podrá utilizar en varias ubicaciones dentro del esquema, como una dirección de envío y una dirección de facturación.  

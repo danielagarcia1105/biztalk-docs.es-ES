@@ -1,14 +1,14 @@
 ---
 title: Solucionar problemas con MSDTC | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f39cde52-da8f-4cc1-bdc5-e4b828891a79
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280508"
 ---
 # <a name="troubleshooting-problems-with-msdtc"></a>Solucionar problemas con MSDTC
 La mayoría de las operaciones en tiempo de ejecución de BizTalk Server necesitan ser compatibles con Microsoft Distributed Transaction Coordinator (MSDTC) para asegurar que las operaciones coincidan con respecto a las transacciones. Si la compatibilidad de la transacción MSDTC no está disponible, las operaciones en tiempo de ejecución de BizTalk Server asociadas no pueden continuar. Los componentes de BizTalk que están comúnmente afectados cuando no está configurada correctamente la compatibilidad de la transacción MSDTC incluyen (aunque no son los únicos) el servicio de inicio de sesión único, las instancias de host de BizTalk y cualquier instancia de SQL Server que esté conectada por BizTalk Server. Esta sección contiene información que describe errores relativos a MSDTC y los pasos que se pueden realizar para diagnosticar y resolver problemas con MSDTC.  
@@ -234,7 +235,7 @@ La mayoría de las operaciones en tiempo de ejecución de BizTalk Server necesit
   
 4.  Haga clic en **Agregar programa** para mostrar la **agregar un programa** cuadro de diálogo.  
   
-5.  Haga clic en **examinar** y vaya a *% system32%*\msdtc.exe.  
+5.  Haga clic en **examinar** y vaya a *% system32%* \msdtc.exe.  
   
     > [!NOTE]
     >  Abra un símbolo del sistema, escriba **echo % system32%** y presione **ENTRAR** para determinar la ubicación del directorio \System32 en este equipo.  

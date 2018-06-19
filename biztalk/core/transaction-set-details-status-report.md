@@ -1,14 +1,14 @@
 ---
 title: Informe de estado de detalles de conjunto de transacciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d81367c7-c74e-42cb-b856-748962b727ec
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279516"
 ---
 # <a name="transaction-set-details-status-report"></a>Informe de estado de detalles del conjunto de transacciones
 Este informe muestra los detalles de conjuntos de transacciones en un intercambio EDI seleccionado desde el informe Estado de la confirmación y del intercambio. Para mostrar este informe de estado, haga clic en un intercambio mostrado en el panel de resultados de consulta del informe de estado de confirmación y del intercambio y, a continuación, haga clic en **detalles de conjunto de transacciones**.  

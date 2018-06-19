@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008439"
 ---
 # <a name="the-resolver-and-adapter-provider-framework"></a>La resolución y el marco de proveedores de adaptador
 La resolución y el marco de proveedores de adaptador es compatible con la resolución de itinerario, transformación y punto de conexión y el enrutamiento. El marco de trabajo puede resolver los puntos de conexión y establecer las propiedades de salida del adaptador dinámicamente. Después de la resolución de una componente resuelve un punto de conexión (por ejemplo, mediante Universal Description, Discovery e integración [UDDI] para buscar un extremo de servicio Web salientes), un componente de proveedor de adaptador establece propiedades específicas del servidor BizTalk Server registrado adaptadores. Por ejemplo, el proveedor del adaptador de WCF-BasicHttp es responsable de establecer el mensaje de BizTalk específico de propiedades de contexto para el extremo de URI que se va a utilizar el adaptador de BizTalk específico; el proveedor de adaptador FTP es responsable de establecer las propiedades específicas del adaptador de FTP.  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278988"
 ---
 # <a name="transporttype-sendhandler-node"></a>TransportType (nodo SendHandler)
 El nodo TransportType del nodo SendHandler de un archivo de enlace contiene información específica acerca del adaptador asociado a un controlador de envío que se exporta con el archivo de enlace.  

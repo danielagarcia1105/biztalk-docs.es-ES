@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286436"
 ---
 # <a name="types-of-pipelines"></a>Tipos de canalizaciones
 Al crear una nueva canalización en un proyecto de BizTalk, tiene dos opciones: una canalización de recepción y una canalización de envío. En esta sección se explican las diferencias entre los tipos de canalizaciones y algunas consideraciones de diseño para cada una de ellas.  

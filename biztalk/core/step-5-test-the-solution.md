@@ -1,14 +1,14 @@
 ---
-title: "Paso 5: Probar la solución | Documentos de Microsoft"
-ms.custom: 
+title: 'Paso 5: Probar la solución | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5ca5301-2ee4-4024-a90a-396ed681d12a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276892"
 ---
 # <a name="step-5-test-the-solution"></a>Paso 5: Probar la solución
 El objetivo de esta solución es automatizar el proceso de envío de notificaciones a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], cada vez que se cierra una nueva oportunidad en Salesforce estableciendo la etapa de la oportunidad como **Closed Won**. Después de que se reciba la notificación [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] envía una consulta a Salesforce para recuperar los detalles de los productos relacionados con la oportunidad y, a continuación, inserta la respuesta de Salesforce en una tabla de base de datos de SQL Server denominada **OrderDetails**. Por lo tanto, para probar esta solución, actualizaremos la etapa de una oportunidad para **Closed Won** y por tanto, deben insertarse los registros pertinentes en la tabla OrderDetails en la base de datos de pedidos.  

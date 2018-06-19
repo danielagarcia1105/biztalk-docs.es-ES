@@ -1,14 +1,14 @@
 ---
 title: 'Tutorial: Usar el adaptador de BizTalk para JD Edwards OneWorld | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e13a648-7eaf-40c4-a71b-b66999087a69
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22284260"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-jd-edwards-oneworld"></a>Tutorial: Usar el adaptador de BizTalk para JD Edwards OneWorld
 A continuación se muestra el uso de propiedades de contexto de BizTalk para controlar la J.D. Sesión de Edwards OneWorld en la orquestación. El tutorial se supone que dispone de una orquestación que envía llamadas BeginDoc, EditLine y EndDoc a un puerto de envío enlazado con el adaptador de Microsoft BizTalk para J.D. Edwards OneWorld.  

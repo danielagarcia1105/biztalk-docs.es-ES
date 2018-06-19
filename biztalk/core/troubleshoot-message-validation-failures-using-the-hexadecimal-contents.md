@@ -1,14 +1,14 @@
 ---
-title: "Solución de problemas de errores de validación de mensajes mediante la visualización del contenido Hexadecimal de mensajes suspendidos | Documentos de Microsoft"
-ms.custom: 
+title: Solución de problemas de errores de validación de mensajes mediante la visualización del contenido Hexadecimal de mensajes suspendidos | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf14cd9-2d4b-43a3-9738-52bfd879e1e4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279572"
 ---
 # <a name="troubleshooting-message-validation-failures-by-viewing-the-hexadecimal-contents-of-suspended-messages"></a>Solucionar problemas relacionados con errores de validación de mensajes mediante la visualización del contenido hexadecimal de los mensajes suspendidos
 Si un mensaje se suspende debido a errores de validación, puede resultar útil ver la representación hexadecimal de las partes del mensaje para determinar la causa del error de validación. En este tema se enumeran los pasos que pueden llevarse a cabo para ver la representación hexadecimal de las partes de un mensaje suspendido.  
