@@ -1,14 +1,14 @@
 ---
-title: "Ejecutar el ejemplo de dispersión y recopilación | Documentos de Microsoft"
-ms.custom: 
+title: Ejecutar el ejemplo de dispersión y recopilación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53676974-ea1f-4c95-9dbb-98fff92286fa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294660"
 ---
 # <a name="running-the-scatter-gather-sample"></a><span data-ttu-id="83f9c-102">Ejecutar el ejemplo de dispersión y recopilación</span><span class="sxs-lookup"><span data-stu-id="83f9c-102">Running the Scatter-Gather Sample</span></span>
 <span data-ttu-id="83f9c-103">El ejemplo de dispersión y recopilación usa un Windows Forms probar la aplicación de cliente proporcionado con el ejemplo de itinerario en rampa para demostrar cómo este patrón aplica a las características del servicio de itinerario.</span><span class="sxs-lookup"><span data-stu-id="83f9c-103">The Scatter-Gather sample uses a the Windows Forms test client application provided with the Itinerary On-Ramp sample to demonstrate how this pattern applies the features of the Itinerary service.</span></span>  

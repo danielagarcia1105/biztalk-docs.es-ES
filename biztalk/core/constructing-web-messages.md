@@ -1,11 +1,11 @@
 ---
 title: Construir mensajes Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web messages, about Web messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Web messages
 - messages, Web messages
 ms.assetid: ca1792be-5fba-4f5d-a88e-b854f6a8ce33
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237988"
 ---
 # <a name="constructing-web-messages"></a><span data-ttu-id="e5c09-102">Construcción de mensajes Web</span><span class="sxs-lookup"><span data-stu-id="e5c09-102">Constructing Web Messages</span></span>
 <span data-ttu-id="e5c09-103">Construirá un mensaje Web a partir de un tipo de mensaje Web.</span><span class="sxs-lookup"><span data-stu-id="e5c09-103">You construct a Web message from a Web message type.</span></span> <span data-ttu-id="e5c09-104">Al agregar una referencia Web, BizTalk crea tipos de mensajes Web de forma automática basándose en los métodos Web del servicio Web agregado.</span><span class="sxs-lookup"><span data-stu-id="e5c09-104">When you add a Web reference, BizTalk automatically creates Web message types, which BizTalk creates based on the Web methods from the added Web service.</span></span> <span data-ttu-id="e5c09-105">Cuando se agrega un mensaje Web a la orquestación, se establece el tipo de mensaje como uno de los tipos de mensajes Web.</span><span class="sxs-lookup"><span data-stu-id="e5c09-105">You add a Web message to your orchestration, setting the message type to one of the Web message types.</span></span> <span data-ttu-id="e5c09-106">Las partes individuales de mensaje se crean en función de los tipos de esquemas o los tipos .NET primitivos.</span><span class="sxs-lookup"><span data-stu-id="e5c09-106">You create individual message parts based on primitive .NET or schema types.</span></span> <span data-ttu-id="e5c09-107">Aun así, es posible construir un mensaje Web que no contenga partes de mensaje.</span><span class="sxs-lookup"><span data-stu-id="e5c09-107">You can construct a Web message that contains no message parts.</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Crear asignaciones usando el asignador de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, maps
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - transformations [maps]
 - maps
 ms.assetid: 265e61d8-8cff-44c9-a717-8e895cb4b9bf
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238340"
 ---
 # <a name="creating-maps-using-biztalk-mapper"></a><span data-ttu-id="d29ed-102">Crear asignaciones con el Asignador de BizTalk</span><span class="sxs-lookup"><span data-stu-id="d29ed-102">Creating Maps Using BizTalk Mapper</span></span>
 <span data-ttu-id="d29ed-103">El Asignador de BizTalk es una herramienta que se ejecuta en el entorno Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="d29ed-103">BizTalk Mapper is a tool that runs within the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="d29ed-104">El Asignador de BizTalk se puede usar para crear y editar asignaciones, que se utilizan para traducir o transformar mensajes xml.</span><span class="sxs-lookup"><span data-stu-id="d29ed-104">BizTalk Mapper can be used to create and edit maps, which are used for translating or transforming xml messages.</span></span> <span data-ttu-id="d29ed-105">Las asignaciones se usan en orquestaciones, como sugiere la siguiente ilustración, y también se pueden usar para procesar los mensajes recibidos en un puerto de recepción y, a continuación, transformar los mensajes para su envío mediante puertos de envío.</span><span class="sxs-lookup"><span data-stu-id="d29ed-105">Maps are used in orchestrations, as the following figure suggest, and can also be used for processing messages received at a receive port, and then transforming the message to be sent via send port(s).</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Escalar soluciones | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, scaling
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - scaling, scaling up
 - scaling
 ms.assetid: e2acbaa4-29d3-4c89-ac1f-c0641cfa0442
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269980"
 ---
 # <a name="scaling-your-solutions"></a><span data-ttu-id="3ef2a-102">Escalar soluciones</span><span class="sxs-lookup"><span data-stu-id="3ef2a-102">Scaling Your Solutions</span></span>
 <span data-ttu-id="3ef2a-103">BizTalk Server proporciona una arquitectura que resulta muy adecuada para la escalabilidad.</span><span class="sxs-lookup"><span data-stu-id="3ef2a-103">BizTalk Server architecture provides a very good support for scalability.</span></span> <span data-ttu-id="3ef2a-104">Los patrones de escalamiento que se seleccionen dependerán de la complejidad de su escenario, así como de los requisitos de hardware y de latencia o rendimiento.</span><span class="sxs-lookup"><span data-stu-id="3ef2a-104">The scaling patterns that you choose depend on complexity of your scenario, hardware and the throughput/Latency requirements.</span></span> <span data-ttu-id="3ef2a-105">Es aconsejable comenzar con una topología más pequeña en un principio e intentar escalarla verticalmente o abreviarla en función de las directrices de esta sección.</span><span class="sxs-lookup"><span data-stu-id="3ef2a-105">You should start with a smaller topology initially and try to scale-up or down based on the guidelines in this section.</span></span>  

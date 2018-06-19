@@ -1,14 +1,14 @@
 ---
 title: Configurar las transacciones iniciadas por el distribuidor o iniciada por el adaptador con el SDK de adaptador LOB de WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85b9ef8d-3922-4838-a41a-32db5e005dc0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225764"
 ---
 # <a name="configure-dispatcher-initiated-or-adapter-initiated-transactions-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="2e8c5-102">Configurar las transacciones iniciadas por el distribuidor o iniciada por el adaptador con el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="2e8c5-102">Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK</span></span>
 ## <a name="inbound-transactions"></a><span data-ttu-id="2e8c5-103">Transacciones entrantes</span><span class="sxs-lookup"><span data-stu-id="2e8c5-103">Inbound Transactions</span></span>  

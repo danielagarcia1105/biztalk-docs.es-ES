@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291220"
 ---
 # <a name="what-are-the-wcf-adapters"></a><span data-ttu-id="43b66-103">¿Qué son los adaptadores de WCF?</span><span class="sxs-lookup"><span data-stu-id="43b66-103">What Are the WCF Adapters?</span></span>
 <span data-ttu-id="43b66-104">Hay dos adaptadores de Windows Communication Foundation (WCF), un adaptador de recepción y un adaptador de envío.</span><span class="sxs-lookup"><span data-stu-id="43b66-104">There are two Windows Communication Foundation (WCF) adapters—a receive adapter and a send adapter.</span></span> <span data-ttu-id="43b66-105">Utilice el adaptador de recepción WCF para recibir solicitudes de Servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="43b66-105">You use the WCF receive adapter to receive WCF service requests.</span></span> <span data-ttu-id="43b66-106">El adaptador de recepción WCF recibe una solicitud, crea un objeto de mensaje de BizTalk y promociona las propiedades asociadas al contexto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="43b66-106">The WCF receive adapter receives a request, creates a BizTalk Message object, and promotes the associated properties to the message context.</span></span> <span data-ttu-id="43b66-107">Puede utilizar el adaptador de envío WCF para llamar a un Servicio WCF.</span><span class="sxs-lookup"><span data-stu-id="43b66-107">You use the WCF send adapter to call a WCF service.</span></span> <span data-ttu-id="43b66-108">El adaptador de envío WCF llama a los servicios WCF a través de los contratos sin tipo.</span><span class="sxs-lookup"><span data-stu-id="43b66-108">The WCF send adapter calls the WCF services through the typeless contracts.</span></span>  

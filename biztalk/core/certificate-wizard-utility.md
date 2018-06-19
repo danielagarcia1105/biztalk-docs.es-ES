@@ -1,14 +1,14 @@
 ---
 title: Asistente para la utilidad de certificados | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ff72810-c7b3-4f67-8f9f-e127eacc153e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006181"
 ---
 # <a name="certificate-wizard-utility"></a><span data-ttu-id="958c4-102">Utilidad de Asistente para certificados</span><span class="sxs-lookup"><span data-stu-id="958c4-102">Certificate Wizard Utility</span></span>
 <span data-ttu-id="958c4-103">Use la utilidad CertWizard para importar un certificado de un archivo .pfx o .cer en un almacén privado o público para usarlo con Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="958c4-103">You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

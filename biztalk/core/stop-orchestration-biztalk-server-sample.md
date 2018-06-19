@@ -1,18 +1,18 @@
 ---
-title: "Detener la orquestación (ejemplo de BizTalk Server) | Documentos de Microsoft"
-ms.custom: 
+title: Detener la orquestación (ejemplo de BizTalk Server) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - orchestrations, stopping
 ms.assetid: 83be44e9-819d-4ac5-8b75-84c23e6b5ba2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973898"
 ---
 # <a name="stop-orchestration-biztalk-server-sample"></a><span data-ttu-id="a2fbb-102">Detener la orquestación (ejemplo de BizTalk Server)</span><span class="sxs-lookup"><span data-stu-id="a2fbb-102">Stop Orchestration (BizTalk Server Sample)</span></span>
 <span data-ttu-id="a2fbb-103">El ejemplo Detener una orquestación muestra cómo detener una orquestación de BizTalk Server y, de forma opcional, darla de baja.</span><span class="sxs-lookup"><span data-stu-id="a2fbb-103">The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestration and, optionally, to unenlist it.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288860"
 ---
 # <a name="what-is-scalability"></a><span data-ttu-id="90749-103">¿Qué es la escalabilidad?</span><span class="sxs-lookup"><span data-stu-id="90749-103">What Is Scalability?</span></span>
 <span data-ttu-id="90749-104">La escalabilidad es la capacidad de ampliación de un sistema para satisfacer las necesidades empresariales.</span><span class="sxs-lookup"><span data-stu-id="90749-104">Scalability is the ability of a system to expand to meet your business needs.</span></span> <span data-ttu-id="90749-105">Para escalar un sistema, debe agregar hardware adicional o actualizar el hardware existente sin modificar mucho la aplicación.</span><span class="sxs-lookup"><span data-stu-id="90749-105">You scale a system by adding extra hardware or by upgrading the existing hardware without changing much of the application.</span></span> <span data-ttu-id="90749-106">En el contexto de un sistema con BizTalk Server, la escalabilidad hace referencia a la capacidad de escalar BizTalk cuando aumentan las necesidades de rendimiento y se necesitan reducir los tiempos de latencia.</span><span class="sxs-lookup"><span data-stu-id="90749-106">In the context of a BizTalk Server system, scalability refers to the ability of BizTalk to scale as your throughput needs increase, and if you need to reduce latency times.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006229"
 ---
 # <a name="before-installing-the-service-oriented-solution"></a><span data-ttu-id="aefc5-102">Antes de instalar la solución orientada a servicios</span><span class="sxs-lookup"><span data-stu-id="aefc5-102">Before Installing the Service Oriented Solution</span></span>
 <span data-ttu-id="aefc5-103">Para instalar la versión de código auxiliar de la solución orientada a servicios en un único equipo, éste debe reunir los siguientes requisitos previos:</span><span class="sxs-lookup"><span data-stu-id="aefc5-103">The following prerequisites must be available to install the stub version of the service-oriented solution on a single computer:</span></span>  

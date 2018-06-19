@@ -1,17 +1,17 @@
 ---
-title: "Arquitectura con servicios de trabajadores de información distribuida de gran tamaño | Documentos de Microsoft"
-ms.custom: 
+title: Arquitectura con servicios de trabajadores de información distribuida de gran tamaño | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
 - architecture, large distributions
 ms.assetid: 92f2d55c-3f51-42ca-99ef-60b23464691e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262196"
 ---
 # <a name="large-distributed-architecture-with-information-worker-services"></a><span data-ttu-id="68c4c-102">Arquitectura distribuida de gran tamaño con servicios de trabajadores de la información</span><span class="sxs-lookup"><span data-stu-id="68c4c-102">Large Distributed Architecture with Information Worker Services</span></span>
 <span data-ttu-id="68c4c-103">Para obtener información completa acerca de cómo diseñar la arquitectura del sistema para la implementación de BizTalk Server, vea [arquitecturas de servidor de BizTalk de ejemplo](../core/sample-biztalk-server-architectures.md).</span><span class="sxs-lookup"><span data-stu-id="68c4c-103">For complete information about designing the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

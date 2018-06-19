@@ -1,14 +1,14 @@
 ---
 title: AS2 Utilidad del remitente | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e2a88fc-67fd-4801-a6f8-1e7c92098eaf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232284"
 ---
 # <a name="as2-sender-utility"></a><span data-ttu-id="16d47-102">Utilidad del remitente de AS2</span><span class="sxs-lookup"><span data-stu-id="16d47-102">AS2 Sender Utility</span></span>
 <span data-ttu-id="16d47-103">La utilidad del remitente de AS2 incluida con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] le permite enviar un mensaje AS2 a un sitio web en un único equipo.</span><span class="sxs-lookup"><span data-stu-id="16d47-103">The AS2 Sender utility shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to send an AS2 message to a Web site on a single computer.</span></span> <span data-ttu-id="16d47-104">Esta utilidad simula el envío de un mensaje AS2 de un equipo diferente.</span><span class="sxs-lookup"><span data-stu-id="16d47-104">This utility simulates the sending of an AS2 message from a separate computer.</span></span>  

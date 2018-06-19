@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289004"
 ---
 # <a name="working-with-biztalk-projects"></a><span data-ttu-id="ad6de-102">Trabajar con proyectos de BizTalk</span><span class="sxs-lookup"><span data-stu-id="ad6de-102">Working with BizTalk Projects</span></span>
 <span data-ttu-id="ad6de-103">Aunque muchos de los principios para la creación de una aplicación con el sistema del proyecto de BizTalk son los mismos que los empleados en la creación de aplicaciones con otros sistemas del proyecto disponibles en Microsoft Visual Studio, existen unas cuantas diferencias, como los tipos de configuraciones de generación del proyecto.</span><span class="sxs-lookup"><span data-stu-id="ad6de-103">While many of the principles of creating an application with the BizTalk project system are the same as those of creating applications with other project systems available in Microsoft Visual Studio, there are a few differences, such as the types of project build configurations.</span></span> <span data-ttu-id="ad6de-104">En esta sección se describen algunas de las tareas que debería realizar cuando cree una aplicación que se ejecute en Microsoft BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="ad6de-104">This section describes some of the tasks that you might perform when creating an application that runs on Microsoft BizTalk Server.</span></span>  

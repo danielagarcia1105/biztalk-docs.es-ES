@@ -1,18 +1,18 @@
 ---
-title: "¿Quién usa BAM? | Microsoft Docs"
-ms.custom: 
+title: ¿Quién usa BAM? | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business activities, Excel add-in
 - Excel add-in [BAM], business activities
 - business activities, about business activities
 ms.assetid: d3f5feb3-0ded-4892-9d14-9f08e9240698
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289556"
 ---
 # <a name="who-uses-bam"></a><span data-ttu-id="978b7-103">¿Quién usa BAM?</span><span class="sxs-lookup"><span data-stu-id="978b7-103">Who Uses BAM?</span></span>
 <span data-ttu-id="978b7-104">Hay dos tipos de usuarios que interactúan con las características para trabajadores de información de BAM: los analistas de negocios y los usuarios empresariales.</span><span class="sxs-lookup"><span data-stu-id="978b7-104">There are two types of users who interact with the information worker features of BAM: business analysts and business users.</span></span>  

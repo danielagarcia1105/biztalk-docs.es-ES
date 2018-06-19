@@ -1,14 +1,14 @@
 ---
 title: 'El comando AddResource: Archivo | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9635e43-af26-48d3-af0e-df245a8955e7
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230308"
 ---
 # <a name="addresource-command-file"></a><span data-ttu-id="72b2f-102">AddResource (comando): archivo</span><span class="sxs-lookup"><span data-stu-id="72b2f-102">AddResource Command: File</span></span>
 <span data-ttu-id="72b2f-103">Para agregar un archivo a una aplicación de BizTalk, use la **AddResource** comando y especifique **BizTalk: file** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="72b2f-103">To add a file to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:File** for the Type parameter.</span></span> <span data-ttu-id="72b2f-104">Ejecutar este comando agrega el archivo a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="72b2f-104">Running this command adds the file to the BizTalk Management database.</span></span> <span data-ttu-id="72b2f-105">Además, el archivo aparece en la consola de administración de BizTalk Server en la carpeta Recursos de la aplicación a la que lo agregó.</span><span class="sxs-lookup"><span data-stu-id="72b2f-105">The file is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="72b2f-106">Además, el archivo aparece cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="72b2f-106">In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231260"
 ---
 # <a name="completing-the-exception-message"></a><span data-ttu-id="6a1a1-102">Completar el mensaje de excepción</span><span class="sxs-lookup"><span data-stu-id="6a1a1-102">Completing the Exception Message</span></span>
 <span data-ttu-id="6a1a1-103">Para completar el flujo de la excepción, cree una forma Envío para redirigir el mensaje de error Message_3 a una carpeta supervisada.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-103">To complete the flow of the exception, create a Send shape to redirect the fault Message_3 to a monitored folder.</span></span>  

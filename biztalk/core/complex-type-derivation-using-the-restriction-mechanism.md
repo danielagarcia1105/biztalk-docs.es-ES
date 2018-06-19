@@ -1,14 +1,14 @@
 ---
-title: "Derivación de tipo complejo mediante el mecanismo de restricción | Documentos de Microsoft"
-ms.custom: 
+title: Derivación de tipo complejo mediante el mecanismo de restricción | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3003d88-6b75-4dcb-834f-1babcf7449cb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233484"
 ---
 # <a name="complex-type-derivation-using-the-restriction-mechanism"></a><span data-ttu-id="e508a-102">Derivación de tipo complejo mediante el mecanismo de restricción</span><span class="sxs-lookup"><span data-stu-id="e508a-102">Complex Type Derivation Using the Restriction Mechanism</span></span>
 <span data-ttu-id="e508a-103">La derivación por restricción es similar a la derivación por extensión, en lo que respecta a la funcionalidad del Editor de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="e508a-103">Derivation by restriction is similar to derivation by extension, in terms of BizTalk Editor functionality.</span></span> <span data-ttu-id="e508a-104">Un tipo complejo derivado por restricción es similar al tipo de datos base aplicable, excepto por sus declaraciones, que son más limitadas que las declaraciones correspondientes del tipo de datos base.</span><span class="sxs-lookup"><span data-stu-id="e508a-104">A complex type derived by restriction is similar to its base data type, except that its declarations are more limited than the corresponding declarations in the base data type.</span></span> <span data-ttu-id="e508a-105">De hecho, los valores representados por el tipo nuevo son un subconjunto de los valores representados por el tipo de datos base (al igual que ocurre en la restricción de tipos simples).</span><span class="sxs-lookup"><span data-stu-id="e508a-105">In fact, the values represented by the new type are a subset of the values represented by the base data type (as is the case with restriction of simple types).</span></span> <span data-ttu-id="e508a-106">Una aplicación preparada para los valores del tipo de datos base debería poder procesar correctamente cualquiera de los valores del tipo restringido.</span><span class="sxs-lookup"><span data-stu-id="e508a-106">An application prepared for the values of the base data type ought to be able to successfully process any of the values of the restricted type.</span></span>  

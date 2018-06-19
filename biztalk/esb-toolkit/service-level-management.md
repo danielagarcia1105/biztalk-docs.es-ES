@@ -1,14 +1,14 @@
 ---
-title: "Administración del nivel de servicio | Documentos de Microsoft"
-ms.custom: 
+title: Administración del nivel de servicio | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: add50343-5470-4db3-a029-c827523e2f2c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294732"
 ---
 # <a name="service-level-management"></a><span data-ttu-id="5b3f8-102">Administración del nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="5b3f8-102">Service Level Management</span></span>
 <span data-ttu-id="5b3f8-103">El Administrador de nivel de servicio de SMS de AmberPoint proporciona visibilidad a específicos de problemas de rendimiento y disponibilidad en sistemas basados en SOA de nivel de empresa.</span><span class="sxs-lookup"><span data-stu-id="5b3f8-103">The AmberPoint SMS Service Level Manager provides visibility into specific performance and availability issues within enterprise-level SOA-based systems.</span></span> <span data-ttu-id="5b3f8-104">Instrumenta y realiza un seguimiento de las métricas para cada Microsoft BizTalk Server ubicación de recepción y el puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="5b3f8-104">It instruments and tracks the metrics for each Microsoft BizTalk Server receive location and send port.</span></span> <span data-ttu-id="5b3f8-105">Esto proporciona la indicación de estado en tiempo real, además de caracterización de rendimiento en curso de estos componentes.</span><span class="sxs-lookup"><span data-stu-id="5b3f8-105">This provides real-time health and status indication, in addition to ongoing performance characterization of these components.</span></span> <span data-ttu-id="5b3f8-106">La figura 1 muestra la visualización de las métricas asociadas a una ubicación de recepción.</span><span class="sxs-lookup"><span data-stu-id="5b3f8-106">Figure 1 shows the display of the metrics associated with a receive location.</span></span>  

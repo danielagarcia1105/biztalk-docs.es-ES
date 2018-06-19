@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264580"
 ---
 # <a name="orchestration-variable-types"></a><span data-ttu-id="bb7f9-102">Tipos de variables de orquestación</span><span class="sxs-lookup"><span data-stu-id="bb7f9-102">Orchestration Variable Types</span></span>
 <span data-ttu-id="bb7f9-103">Puede declarar variables de los tipos predefinidos siguientes:</span><span class="sxs-lookup"><span data-stu-id="bb7f9-103">You can declare variables of the following predefined types:</span></span>  

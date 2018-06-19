@@ -1,18 +1,18 @@
 ---
-title: "Cómo eliminar un puerto de envío | Documentos de Microsoft"
-ms.custom: 
+title: Cómo eliminar un puerto de envío | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], deleting
 - send ports, deleting
 - deleting, send ports
 ms.assetid: aff5980e-57bf-400c-82bd-3d02e143f227
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006173"
 ---
 # <a name="how-to-delete-a-send-port"></a><span data-ttu-id="ba27b-102">Cómo eliminar un puerto de envío</span><span class="sxs-lookup"><span data-stu-id="ba27b-102">How to Delete a Send Port</span></span>
 <span data-ttu-id="ba27b-103">En este tema se describe cómo utilizar la consola de administración de BizTalk Server para eliminar un puerto de envío de una aplicación de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="ba27b-103">This topic describes how to use the BizTalk Server Administration console to delete a send port from a BizTalk application.</span></span> <span data-ttu-id="ba27b-104">Al hacerlo, el puerto de envío también se eliminará de la base de datos de administración de BizTalk del grupo.</span><span class="sxs-lookup"><span data-stu-id="ba27b-104">When you do this, the send port is also deleted from the BizTalk Management database for the group.</span></span>  

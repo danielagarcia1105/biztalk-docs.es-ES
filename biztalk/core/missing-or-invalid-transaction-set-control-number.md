@@ -1,14 +1,14 @@
 ---
-title: "Número de control de conjunto de transacciones no válida o ausente | Documentos de Microsoft"
-ms.custom: 
+title: Número de control de conjunto de transacciones no válida o ausente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6064b974-e8cd-4486-abc2-010afe0d956e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262996"
 ---
 # <a name="missing-or-invalid-transaction-set-control-number"></a><span data-ttu-id="a8743-102">El número de control de conjunto de transacciones falta o no es válido.</span><span class="sxs-lookup"><span data-stu-id="a8743-102">Missing or invalid transaction set control number</span></span>
 ## <a name="details"></a><span data-ttu-id="a8743-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="a8743-103">Details</span></span>  

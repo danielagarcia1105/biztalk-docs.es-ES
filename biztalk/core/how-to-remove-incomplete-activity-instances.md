@@ -1,15 +1,15 @@
 ---
 title: Quitar instancias de actividad incompletas | Documentos de Microsoft
-description: "Ejecute el script personalizado de RemoveDanglingInstances SQL para quitar instancias incompletas de la base de datos de importación principal de BAM de BizTalk Server"
-ms.custom: 
+description: Ejecute el script personalizado de RemoveDanglingInstances SQL para quitar instancias incompletas de la base de datos de importación principal de BAM de BizTalk Server
+ms.custom: ''
 ms.date: 01/18/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7060578c-6267-487b-8530-efa18f9431ce
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 9e7a7dc5544d30d4523c0b3cdaa59f4890e7a4e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/19/2018
+ms.locfileid: "27914945"
 ---
 # <a name="remove-incomplete-activity-instances"></a><span data-ttu-id="d8bc8-103">Quitar instancias de actividad incompletas</span><span class="sxs-lookup"><span data-stu-id="d8bc8-103">Remove Incomplete Activity Instances</span></span>
 <span data-ttu-id="d8bc8-104">Al implementar un archivo de definición de BAM, se crean cinco tablas en la base de datos de importación principal de BAM por cada actividad definida en el archivo de definición.</span><span class="sxs-lookup"><span data-stu-id="d8bc8-104">When a BAM definition file is deployed, five tables are created in the BAM Primary Import database for each activity defined in the definition file.</span></span> <span data-ttu-id="d8bc8-105">Estas tablas son:</span><span class="sxs-lookup"><span data-stu-id="d8bc8-105">These tables are:</span></span>  

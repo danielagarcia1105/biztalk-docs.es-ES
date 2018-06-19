@@ -1,14 +1,14 @@
 ---
-title: "Guía de optimización de rendimiento de BizTalk Server 2010 | Documentos de Microsoft"
-ms.custom: 
+title: Guía de optimización de rendimiento de BizTalk Server 2010 | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a56b27f-3e57-47db-a776-520f2d67d65e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010733"
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a><span data-ttu-id="b7517-102">Guía de optimización de rendimiento de BizTalk Server 2010</span><span class="sxs-lookup"><span data-stu-id="b7517-102">BizTalk Server 2010 Performance Optimization Guide</span></span>
 <span data-ttu-id="b7517-103">Bienvenido a la Guía de optimización de Microsoft® BizTalk® Server 2010 rendimiento.</span><span class="sxs-lookup"><span data-stu-id="b7517-103">Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide.</span></span> <span data-ttu-id="b7517-104">Hemos creado esta guía para proporcionar información detallada para optimizar el rendimiento de una solución de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="b7517-104">We created this guide to provide in-depth information for optimizing the performance of a BizTalk Server solution.</span></span> <span data-ttu-id="b7517-105">Pruebas de rendimiento de end-to-end se suelen pasarse por alto durante la implementación de aplicaciones empresariales.</span><span class="sxs-lookup"><span data-stu-id="b7517-105">Full end-to-end performance testing is frequently overlooked during enterprise application deployment.</span></span> <span data-ttu-id="b7517-106">Saber que Microsoft ha creado una infraestructura de mensajería escalable, muchas organizaciones que usan el servidor BizTalk Server dedican tiempo a poca o ninguna realizar pruebas de rendimiento de sus propias aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="b7517-106">Knowing that Microsoft has built a scalable messaging infrastructure, many organizations that use BizTalk Server spend little or no time conducting performance testing of their own applications.</span></span> <span data-ttu-id="b7517-107">Aplicaciones de BizTalk Server constan de varios elementos, que pueden incluir los componentes, así como los proporcionados por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b7517-107">BizTalk Server applications consist of many parts, which may include custom-built components as well as those provided by Microsoft.</span></span> <span data-ttu-id="b7517-108">No es posible para todas las combinaciones posibles de estos componentes de prueba de Microsoft para el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="b7517-108">It is impossible for Microsoft to performance test every possible combination of these components.</span></span> <span data-ttu-id="b7517-109">Por lo tanto, completa y correctamente llevando a cabo una prueba de rendimiento de la aplicación es un paso crítico de cualquier implementación.</span><span class="sxs-lookup"><span data-stu-id="b7517-109">Therefore, fully and properly conducting a performance test of your application is a critical step of any deployment.</span></span>  

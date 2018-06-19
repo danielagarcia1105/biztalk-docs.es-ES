@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257316"
 ---
 # <a name="inboundtransforms-sendport-node"></a><span data-ttu-id="6a9cd-102">InboundTransforms (nodo puertoEnvío)</span><span class="sxs-lookup"><span data-stu-id="6a9cd-102">InboundTransforms (SendPort Node)</span></span>
 <span data-ttu-id="6a9cd-103">El nodo InboundTransforms del nodo puertoEnvío de un archivo de enlace contiene la colección de transformaciones de entrada de un puerto de envío bidireccional que se exporta con el archivo de enlace.</span><span class="sxs-lookup"><span data-stu-id="6a9cd-103">The InboundTransforms node of the SendPort node of a binding file contains the collection of inbound transforms of a two-way send port that is exported with the binding file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "El servidor secreto principal de agrupación en clústeres | Documentos de Microsoft"
-ms.custom: 
+title: El servidor secreto principal de agrupación en clústeres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14aa3622-8462-4ed9-abde-40090d4f96ff
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008701"
 ---
 # <a name="clustering-the-master-secret-server"></a><span data-ttu-id="c5bf8-102">El servidor secreto principal de agrupación en clústeres</span><span class="sxs-lookup"><span data-stu-id="c5bf8-102">Clustering the Master Secret Server</span></span>
 <span data-ttu-id="c5bf8-103">El servicio de aplicación de BizTalk Server mantiene una dependencia codificada de forma rígida con el servicio de inicio de sesión único (SSO) empresarial que se instala con [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="c5bf8-103">The BizTalk Server application service maintains a hard-coded dependency upon the Enterprise Single Sign-On (SSO) service that is installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c5bf8-104">El servicio SSO debe poder comunicarse con el servidor secreto principal para iniciar.</span><span class="sxs-lookup"><span data-stu-id="c5bf8-104">The SSO service must be able to communicate with the master secret server to start.</span></span> <span data-ttu-id="c5bf8-105">Se recomienda agrupar el servicio SSO en el servidor secreto principal para proporcionar tolerancia a errores para el servidor secreto principal.</span><span class="sxs-lookup"><span data-stu-id="c5bf8-105">We recommend that you cluster the SSO service on the master secret server to provide fault tolerance for the master secret server.</span></span> <span data-ttu-id="c5bf8-106">Para obtener más información, consulte [opciones de instalación de SSO de alta disponibilidad](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) en la Ayuda de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="c5bf8-106">For more information, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in BizTalk Server Help.</span></span>  

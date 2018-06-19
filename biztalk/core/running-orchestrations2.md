@@ -1,11 +1,11 @@
 ---
 title: Ejecuta Orchestrations2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - strong name keys, creating
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - stopping host instances
 - restarting host instances
 ms.assetid: a098d552-d302-44f6-9af9-d77d16549fd3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973218"
 ---
 # <a name="running-orchestrations"></a><span data-ttu-id="89832-102">Orquestaciones en ejecución</span><span class="sxs-lookup"><span data-stu-id="89832-102">Running Orchestrations</span></span>
 <span data-ttu-id="89832-103">Los procedimientos siguientes describen cómo generar, implementar, enlazar e iniciar una orquestación.</span><span class="sxs-lookup"><span data-stu-id="89832-103">The following procedures describe how to build, deploy, bind, and start an orchestration.</span></span>  

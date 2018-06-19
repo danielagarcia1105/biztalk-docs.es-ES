@@ -1,11 +1,11 @@
 ---
 title: Grupos de elementos XSD | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XSLT, XSLT variations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - XSD element groups
 - XSLT, warnings
 ms.assetid: a6ea22cb-6066-480e-8a2a-75fade3e5970
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289540"
 ---
 # <a name="xsd-element-groups"></a><span data-ttu-id="91301-102">Grupos de elementos XSD</span><span class="sxs-lookup"><span data-stu-id="91301-102">XSD Element Groups</span></span>
 <span data-ttu-id="91301-103">La utilización de determinadas estructuras en un esquema puede crear variaciones en la transformación de lenguaje de hojas de estilo extensible (XSLT) que genera el Asignador de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="91301-103">The use of certain structures in a schema may create variations in the Extensible Stylesheet Language Transformations (XSLT) that BizTalk Mapper generates.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Seguimiento de dependencias entre artefactos en una aplicación de BizTalk Server | Documentos de Microsoft"
-ms.custom: 
+title: Seguimiento de dependencias entre artefactos en una aplicación de BizTalk Server | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 503cadfc-08e5-4b34-94a2-3b0ea6ad6228
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279956"
 ---
 # <a name="tracking-dependencies-between-artifacts-in-a-biztalk-server-application"></a><span data-ttu-id="9fbf2-102">Seguimiento de dependencias entre artefactos en una aplicación de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="9fbf2-102">Tracking Dependencies Between Artifacts in a BizTalk Server Application</span></span>
 <span data-ttu-id="9fbf2-103">Una aplicación típica de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implica varios artefactos como orquestaciones, puertos de envío, ubicaciones de recepción, canalizaciones, esquemas, mapas, etc.</span><span class="sxs-lookup"><span data-stu-id="9fbf2-103">A typical [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application involves various artifacts such as orchestrations, send ports, receive locations, pipelines, schemas, maps, and the likes.</span></span> <span data-ttu-id="9fbf2-104">Todos estos artefactos dependen unos de otros.</span><span class="sxs-lookup"><span data-stu-id="9fbf2-104">All these artifacts have dependencies on each other.</span></span> <span data-ttu-id="9fbf2-105">La siguiente lista muestra estas dependencias.</span><span class="sxs-lookup"><span data-stu-id="9fbf2-105">The following table lists these dependencies.</span></span>  

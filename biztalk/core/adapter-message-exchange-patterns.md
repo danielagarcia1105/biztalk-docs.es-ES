@@ -1,14 +1,14 @@
 ---
 title: Patrones de intercambio de mensajes de adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54a3fc8f-33d0-4b7e-ad4c-b00912dc3328
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230180"
 ---
 # <a name="adapter-message-exchange-patterns"></a><span data-ttu-id="ae6f7-102">Patrones de intercambio de mensajes de adaptador</span><span class="sxs-lookup"><span data-stu-id="ae6f7-102">Adapter Message Exchange Patterns</span></span>
 <span data-ttu-id="ae6f7-103">El marco de trabajo de adaptadores de BizTalk admite un nutrido conjunto de patrones de intercambio de mensajes que los adaptadores pueden utilizar en muchos escenarios potentes de mensajería.</span><span class="sxs-lookup"><span data-stu-id="ae6f7-103">The BizTalk Adapter Framework supports a rich set of message exchange patterns that adapters can use in many powerful messaging scenarios.</span></span>  

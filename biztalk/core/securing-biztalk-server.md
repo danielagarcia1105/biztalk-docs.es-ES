@@ -1,11 +1,11 @@
 ---
 title: Proteger BizTalk Server | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, security
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - security, BizTalk Server
 - SSO, security
 ms.assetid: e4052e6a-dd91-40e9-a42a-7d1b1b2567d5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269236"
 ---
 # <a name="securing-biztalk-server"></a><span data-ttu-id="af038-102">Proteger BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="af038-102">Securing BizTalk Server</span></span>
 <span data-ttu-id="af038-103">Esta sección proporciona información acerca de la administración de seguridad, de la configuración de derechos de usuario y de la implementación del inicio de sesión único empresarial en Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="af038-103">This section provides information about managing security, configuring user rights, and implementing Enterprise Single Sign-On in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

@@ -1,11 +1,11 @@
 ---
 title: Referencias de Namespace de BizTalk incluidos en los proyectos de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - System.Xml namespace
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - namespaces, Microsoft.BIzTalk.DefaultPipelines namespace
 - namespaces
 ms.assetid: cb642eac-7307-44f8-bbba-3ae364e11ea2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225180"
 ---
 # <a name="about-biztalk-namespace-references-included-in-biztalk-projects"></a><span data-ttu-id="75d8a-102">Referencias de espacio de nombres de BizTalk incluidos en proyectos de BizTalk</span><span class="sxs-lookup"><span data-stu-id="75d8a-102">About BizTalk Namespace References Included in BizTalk Projects</span></span>
 <span data-ttu-id="75d8a-103">Cuando agrega un proyecto nuevo de BizTalk, los siguientes espacios de nombres se incluyen de forma predeterminada:</span><span class="sxs-lookup"><span data-stu-id="75d8a-103">When you add a new BizTalk project, the following namespaces are included by default:</span></span>  

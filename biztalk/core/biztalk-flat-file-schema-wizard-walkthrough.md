@@ -1,14 +1,14 @@
 ---
 title: Tutorial de Asistente de esquema de archivo sin formato de BizTalk | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e764d5c-be06-445d-80f5-7fa8c7ea075b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230460"
 ---
 # <a name="biztalk-flat-file-schema-wizard-walkthrough"></a><span data-ttu-id="fb61f-102">Tutorial del Asistente para esquemas de archivo sin formato de BizTalk</span><span class="sxs-lookup"><span data-stu-id="fb61f-102">BizTalk Flat File Schema Wizard Walkthrough</span></span>
 <span data-ttu-id="fb61f-103">En el siguiente tutorial, se muestra cómo crear un esquema de archivo sin formato a partir de instancias de documento de archivo sin formato mediante el Asistente para esquema de archivo sin formato de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="fb61f-103">The following walkthrough shows you how to create flat file schema from flat file document instances using the BizTalk Flat File Schema Wizard.</span></span>  

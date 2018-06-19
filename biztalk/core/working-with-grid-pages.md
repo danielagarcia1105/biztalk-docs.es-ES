@@ -1,14 +1,14 @@
 ---
-title: "Trabajar con páginas de cuadrícula | Documentos de Microsoft"
-ms.custom: 
+title: Trabajar con páginas de cuadrícula | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14a27bbf-3761-49dd-be6f-f311857e38c2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289820"
 ---
 # <a name="working-with-grid-pages"></a><span data-ttu-id="434ec-102">Trabajar con páginas de cuadrícula</span><span class="sxs-lookup"><span data-stu-id="434ec-102">Working with Grid Pages</span></span>
 <span data-ttu-id="434ec-103">Crear asignaciones para muchos documentos empresariales puede implicar la existencia de numerosos vínculos y functoids, a menudo los suficientes como para hacer la cuadrícula compleja y difícil de comprender.</span><span class="sxs-lookup"><span data-stu-id="434ec-103">Creating maps for many business documents can involve numerous links and functoids, often enough to make the grid complex and difficult to understand.</span></span> <span data-ttu-id="434ec-104">La solución a esta posible complejidad es la introducción de páginas en la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="434ec-104">The solution to this potential complexity is the introduction of pages to the grid.</span></span> <span data-ttu-id="434ec-105">Puede aislar diversos aspectos de las asignaciones en diferentes páginas y, a continuación, ver estas páginas y trabajar con ellas de manera separada.</span><span class="sxs-lookup"><span data-stu-id="434ec-105">You can isolate different aspects of your mapping into different pages, and then view and work with those pages separately.</span></span>  

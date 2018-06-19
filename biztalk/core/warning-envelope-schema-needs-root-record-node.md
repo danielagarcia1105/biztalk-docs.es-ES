@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288292"
 ---
 # <a name="warning---envelope-schema-needs-root-record-node"></a><span data-ttu-id="5307c-102">Advertencia: esquema de sobres necesita nodo de registro raíz</span><span class="sxs-lookup"><span data-stu-id="5307c-102">Warning - Envelope Schema Needs Root Record Node</span></span>
 <span data-ttu-id="5307c-103">**Código de error**</span><span class="sxs-lookup"><span data-stu-id="5307c-103">**Error Code**</span></span>  

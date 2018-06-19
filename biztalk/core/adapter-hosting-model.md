@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22225172"
 ---
 # <a name="adapter-hosting-model"></a><span data-ttu-id="95451-102">Adaptador de modelo para alojamiento</span><span class="sxs-lookup"><span data-stu-id="95451-102">Adapter Hosting Model</span></span>
 <span data-ttu-id="95451-103">En general, los adaptadores de BizTalk se hospedan en el servicio de BizTalk, Btsntsvc.exe.</span><span class="sxs-lookup"><span data-stu-id="95451-103">In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe.</span></span> <span data-ttu-id="95451-104">Esto significa que [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administra la duración del adaptador.</span><span class="sxs-lookup"><span data-stu-id="95451-104">This means that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] manages the lifetime of the adapter.</span></span> <span data-ttu-id="95451-105">También hay situaciones, que se describen a continuación, en las que otros procesos administran el adaptador.</span><span class="sxs-lookup"><span data-stu-id="95451-105">There are also situations, described below, where other processes manage the adapter.</span></span>  

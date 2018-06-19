@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fac15775-39d0-470e-b9d2-21b2d02e1de7
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: e35f1f068f63d4db9738733bcada55047e81a19a
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250960"
 ---
 # <a name="how-to-list-the-properties-of-an-affiliate-application"></a><span data-ttu-id="df5a1-102">Cómo mostrar las propiedades de una aplicación afiliada</span><span class="sxs-lookup"><span data-stu-id="df5a1-102">How to List the Properties of an Affiliate Application</span></span>
 <span data-ttu-id="df5a1-103">El **displayapp** comando muestra la siguiente información acerca de la aplicación afiliada.</span><span class="sxs-lookup"><span data-stu-id="df5a1-103">The **displayapp** command shows the following information about the affiliate application.</span></span> <span data-ttu-id="df5a1-104">Para obtener más información acerca de las propiedades para una aplicación afiliada, vea [aplicaciones afiliadas de SSO](../esso/sso-affiliate-applications.md).</span><span class="sxs-lookup"><span data-stu-id="df5a1-104">For more information about the properties for an affiliate application, see [SSO Affiliate Applications](../esso/sso-affiliate-applications.md).</span></span>  

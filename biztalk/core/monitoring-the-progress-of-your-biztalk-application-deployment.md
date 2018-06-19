@@ -1,11 +1,11 @@
 ---
-title: "Supervisar el progreso de la implementación de aplicaciones de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Supervisar el progreso de la implementación de aplicaciones de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - monitoring, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deploying [applications], monitoring
 - monitoring, applications
 ms.assetid: a69a8288-0203-440f-9805-52786525e193
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972898"
 ---
 # <a name="monitoring-the-progress-of-your-biztalk-application-deployment"></a><span data-ttu-id="c2f72-102">Supervisar el progreso de implementación de la aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="c2f72-102">Monitoring the Progress of Your BizTalk Application Deployment</span></span>
 <span data-ttu-id="c2f72-103">Es posible supervisar el progreso de implementación de la aplicación de BizTalk de dos formas:</span><span class="sxs-lookup"><span data-stu-id="c2f72-103">You can monitor the progress of your BizTalk application deployment in two ways:</span></span>  

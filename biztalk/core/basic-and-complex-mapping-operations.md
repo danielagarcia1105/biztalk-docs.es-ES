@@ -1,14 +1,14 @@
 ---
-title: "Asignaciones básicas y complejas operaciones | Documentos de Microsoft"
-ms.custom: 
+title: Asignaciones básicas y complejas operaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da864b48-6255-4847-9a6f-13e489e8658d
-caps.latest.revision: 
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710315"
 ---
 # <a name="basic-and-complex-mapping-operations"></a><span data-ttu-id="522f4-102">Operaciones de asignaciones básicas y complejas</span><span class="sxs-lookup"><span data-stu-id="522f4-102">Basic and Complex Mapping Operations</span></span>
 <span data-ttu-id="522f4-103">El Asignador de BizTalk proporciona soluciones para una serie de escenarios de asignaciones que van desde simples operaciones de tipo árbol primario-secundario hasta operaciones complejas y detalladas en las que hay registros de bucles y jerarquías.</span><span class="sxs-lookup"><span data-stu-id="522f4-103">BizTalk Mapper provides solutions for a variety of mapping scenarios ranging from simple parent-child tree-type operations to detailed, complex operations involving looping records and hierarchies.</span></span> <span data-ttu-id="522f4-104">La complejidad de un escenario de asignación depende de sus preferencias y necesidades empresariales: lenguaje de definición (XSD) de esquemas XML proporciona gran flexibilidad para definir formatos estructurados.</span><span class="sxs-lookup"><span data-stu-id="522f4-104">The complexity of a mapping scenario depends on your preferences and business needs—XML Schema definition (XSD) language gives you considerable flexibility in defining structured formats.</span></span> <span data-ttu-id="522f4-105">Casi todos los escenarios de asignación se dividen en dos categorías: asignación básica y asignación compleja.</span><span class="sxs-lookup"><span data-stu-id="522f4-105">Almost all mapping scenarios fall into one of two categories: basic mapping and complex mapping.</span></span>  

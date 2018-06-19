@@ -1,14 +1,14 @@
 ---
-title: "Configuración de recuperación ante desastres | Documentos de Microsoft"
-ms.custom: 
+title: Configuración de recuperación ante desastres | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: acdafe68-c8bf-4064-afca-6dfd22d15052
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010957"
 ---
 # <a name="configuring-for-disaster-recovery"></a><span data-ttu-id="b7d9f-102">Configuración de recuperación ante desastres</span><span class="sxs-lookup"><span data-stu-id="b7d9f-102">Configuring for Disaster Recovery</span></span>
 <span data-ttu-id="b7d9f-103">La característica de trasvase de registros de BizTalk Server extiende la copia de seguridad existente [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] trabajo.</span><span class="sxs-lookup"><span data-stu-id="b7d9f-103">The BizTalk Server Log Shipping feature extends the existing Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job.</span></span> <span data-ttu-id="b7d9f-104">Trasvase de registros de BizTalk Server elimina la necesidad de restaurar de forma manual una serie de conjuntos de copia de seguridad generados por el trabajo de copia de seguridad y reduce el tiempo de inactividad en caso de un error del sistema.</span><span class="sxs-lookup"><span data-stu-id="b7d9f-104">BizTalk Server Log Shipping eliminates the need to manually restore a series of backup sets produced by the backup job, and reduces downtime in the event of a system failure.</span></span> <span data-ttu-id="b7d9f-105">Trasvase de registros de BizTalk Server es un componente esencial para ver los procedimientos de recuperación ante desastres de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="b7d9f-105">BizTalk Server Log Shipping is a critical component for BizTalk disaster recovery procedures.</span></span>  

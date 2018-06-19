@@ -1,14 +1,14 @@
 ---
-title: "Depuración y el archivo de datos de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Depuración y el archivo de datos de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14094fda-3fd9-4d45-9bbb-cd9377c2cbad
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302940"
 ---
 # <a name="purging-and-archiving-tracking-data"></a><span data-ttu-id="23040-102">Depuración y el archivo de datos de seguimiento</span><span class="sxs-lookup"><span data-stu-id="23040-102">Purging and Archiving Tracking Data</span></span>
 <span data-ttu-id="23040-103">Es importante configurar y habilitar el trabajo DTA Purge and Archive SQL Agent.</span><span class="sxs-lookup"><span data-stu-id="23040-103">It is important to configure and enable the DTA Purge and Archive SQL Agent job.</span></span> <span data-ttu-id="23040-104">Este trabajo archiva y purga los datos antiguos de la base de datos de seguimiento de BizTalk (DTA).</span><span class="sxs-lookup"><span data-stu-id="23040-104">This job archives and purges old data from the BizTalk Tracking (DTA) database.</span></span> <span data-ttu-id="23040-105">Esto es esencial para un correcto [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="23040-105">This is essential for a healthy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span> <span data-ttu-id="23040-106">Una base de datos de seguimiento grande empezarán a afectar al rendimiento del host de seguimiento y los demás procesos que consulta la base de datos de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="23040-106">A large Tracking database will begin to affect the performance of the tracking host and any other processes that query the Tracking database.</span></span> <span data-ttu-id="23040-107">Si no se purgan los datos de seguimiento de la base de datos de seguimiento, la base de datos siguen creciendo a.</span><span class="sxs-lookup"><span data-stu-id="23040-107">If the tracking data is not purged from the Tracking database, the database will continue to grow.</span></span>  

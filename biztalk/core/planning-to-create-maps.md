@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007245"
 ---
 # <a name="planning-to-create-maps"></a><span data-ttu-id="f3fd8-102">Planear la creación de asignaciones</span><span class="sxs-lookup"><span data-stu-id="f3fd8-102">Planning to Create Maps</span></span>
 <span data-ttu-id="f3fd8-103">Las asignaciones se utilizan para convertir mensajes de entrada que se ajustan a un esquema en mensajes de salida que se ajustan a un esquema diferente.</span><span class="sxs-lookup"><span data-stu-id="f3fd8-103">You use maps to convert input messages conforming to one schema into output messages conforming to a different schema.</span></span> <span data-ttu-id="f3fd8-104">Estas conversiones pueden ser simples o bastante complejas, conllevar cálculos y consolidación de información.</span><span class="sxs-lookup"><span data-stu-id="f3fd8-104">These conversions may be simple or quite complex, involving calculations and consolidation of information.</span></span>  

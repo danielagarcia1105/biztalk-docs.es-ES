@@ -1,14 +1,14 @@
 ---
-title: "Configuración del adaptador de exponer como una propiedad de enlace mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft"
-ms.custom: 
+title: Configuración del adaptador de exponer como una propiedad de enlace mediante el SDK de adaptador LOB de WCF | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59728113-917e-4bca-8e1a-609cd6558944
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224188"
 ---
 # <a name="expose-adapter-settings-as-a-binding-property-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="70088-102">Configuración del adaptador de exponer como una propiedad de enlace mediante el SDK de adaptador LOB de WCF</span><span class="sxs-lookup"><span data-stu-id="70088-102">Expose adapter settings as a binding property using the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="70088-103">El [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] usa las propiedades definidas en clases diferentes para la configuración de la agrupación de conexiones, memoria caché de metadatos y otros comportamientos de adaptador.</span><span class="sxs-lookup"><span data-stu-id="70088-103">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] uses the properties defined in different classes for configuring the connection pool, metadata cache, and other adapter behaviors.</span></span> <span data-ttu-id="70088-104">Este tema describe cómo pueden aparecer estas propiedades como propiedades de enlace, por lo que el consumidor de adaptador puede establecer a través de un archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="70088-104">This topic describes how you can surface these properties as binding properties, so that the adapter consumer can set them through a configuration file.</span></span>  

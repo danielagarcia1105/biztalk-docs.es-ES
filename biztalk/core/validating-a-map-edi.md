@@ -1,14 +1,14 @@
 ---
-title: "Validar una asignación (EDI) | Documentos de Microsoft"
-ms.custom: 
+title: Validar una asignación (EDI) | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caf58ecf-ed10-4c13-8d7d-e007b9158b0e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288428"
 ---
 # <a name="validating-a-map-edi"></a><span data-ttu-id="8c130-102">Validar una asignación (EDI)</span><span class="sxs-lookup"><span data-stu-id="8c130-102">Validating a Map (EDI)</span></span>
 <span data-ttu-id="8c130-103">Las asignaciones pueden validarse en tiempo de diseño.</span><span class="sxs-lookup"><span data-stu-id="8c130-103">You can validate a map at design time.</span></span> <span data-ttu-id="8c130-104">Para ello, use las extensiones de herramientas de XML a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]en el [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] entorno.</span><span class="sxs-lookup"><span data-stu-id="8c130-104">To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="8c130-105">Esta operación genera un archivo que contiene el XSLT subyacente de la asignación y un archivo que contiene objetos de extensión.</span><span class="sxs-lookup"><span data-stu-id="8c130-105">This operation generates a file containing the underlying XSLT of the map and a file containing extension objects.</span></span>  

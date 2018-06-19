@@ -1,14 +1,14 @@
 ---
-title: "Inicio de sesión único: Evento 10583 | Documentos de Microsoft"
-ms.custom: 
+title: 'Inicio de sesión único: Evento 10583 | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca8d3cda-17e2-4275-bec4-f41add541c8f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270308"
 ---
 # <a name="single-sign-on-event-10583"></a><span data-ttu-id="f414a-102">Inicio de sesión único: Evento 10583</span><span class="sxs-lookup"><span data-stu-id="f414a-102">Single Sign-On: Event 10583</span></span>
 ## <a name="details"></a><span data-ttu-id="f414a-103">Detalles</span><span class="sxs-lookup"><span data-stu-id="f414a-103">Details</span></span>  

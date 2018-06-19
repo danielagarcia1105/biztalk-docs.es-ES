@@ -1,11 +1,11 @@
 ---
 title: Planear la seguridad de mensaje | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - planning, security
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - security, planning
 - messages, security
 ms.assetid: c0f93515-a822-425c-9155-270a179d6b61
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264292"
 ---
 # <a name="planning-message-security"></a><span data-ttu-id="a5a4b-102">Planear la seguridad de los mensajes</span><span class="sxs-lookup"><span data-stu-id="a5a4b-102">Planning Message Security</span></span>
 <span data-ttu-id="a5a4b-103">Dependiendo de las directivas de seguridad de su empresa, puede serle útil considerar las preguntas de la tabla siguiente para determinar el nivel de seguridad que debe implementar en su entorno de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="a5a4b-103">Based on the security policies in your company, you may want to consider the questions in the following table to determine the level of security that you must implement in your BizTalk Server environment.</span></span> <span data-ttu-id="a5a4b-104">Las respuestas a estas preguntas determinarán las características de seguridad que necesita para la mensajería.</span><span class="sxs-lookup"><span data-stu-id="a5a4b-104">The answers to these questions will determine the security features that you need for messaging.</span></span>  

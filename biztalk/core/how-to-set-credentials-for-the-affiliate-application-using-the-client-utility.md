@@ -1,18 +1,18 @@
 ---
-title: "Cómo establecer las credenciales para la aplicación afiliada con la utilidad de cliente | Documentos de Microsoft"
-ms.custom: 
+title: Cómo establecer las credenciales para la aplicación afiliada con la utilidad de cliente | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO applications], configuring credentials
 - SSOClient [SSO], configuring credentials
 - applications [SSO], credentials
 ms.assetid: 454b6257-3538-40be-840c-00172a2c1dce
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971570"
 ---
 # <a name="how-to-set-credentials-for-the-affiliate-application-using-the-client-utility"></a><span data-ttu-id="25c34-102">Cómo establecer las credenciales para la aplicación afiliada con la utilidad de cliente</span><span class="sxs-lookup"><span data-stu-id="25c34-102">How to Set Credentials for the Affiliate Application Using the Client Utility</span></span>
 <span data-ttu-id="25c34-103">Utilice este comando para establecer las credenciales para un usuario para que éste tenga acceso a una aplicación específica.</span><span class="sxs-lookup"><span data-stu-id="25c34-103">Use this command to set the credentials for a user so that the user is able to access a specific application.</span></span> <span data-ttu-id="25c34-104">Este comando también habilita automáticamente la asignación.</span><span class="sxs-lookup"><span data-stu-id="25c34-104">This command also automatically enables the mapping.</span></span>  

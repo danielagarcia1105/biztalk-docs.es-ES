@@ -1,18 +1,18 @@
 ---
-title: "Cómo iniciar excepciones SOAP desde orquestaciones publicado como un servicio Web | Documentos de Microsoft"
-ms.custom: 
+title: Cómo iniciar excepciones SOAP desde orquestaciones publicado como un servicio Web | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, SOAP exceptions
 - orchestrations, SOAP errors
 - Web services, orchestrations
 ms.assetid: e1c7cd74-d1c8-4b9d-a418-4601b1f040d7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255580"
 ---
 # <a name="how-to-throw-soap-exceptions-from-orchestrations-published-as-a-web-service"></a><span data-ttu-id="ec42a-102">Cómo iniciar excepciones SOAP desde orquestaciones publicadas como un servicio Web</span><span class="sxs-lookup"><span data-stu-id="ec42a-102">How to Throw SOAP Exceptions from Orchestrations Published as a Web Service</span></span>
 <span data-ttu-id="ec42a-103">Puede devolver una excepción SOAP desde una orquestación que haya publicado como un servicio Web.</span><span class="sxs-lookup"><span data-stu-id="ec42a-103">You can return a SOAP exception from an orchestration that you have published as a Web service.</span></span> <span data-ttu-id="ec42a-104">Además, puede agregar un mensaje de error al puerto SOAP y enviarlo en lugar de la respuesta.</span><span class="sxs-lookup"><span data-stu-id="ec42a-104">You add a fault message to your SOAP port and send the fault message instead of the response.</span></span>  

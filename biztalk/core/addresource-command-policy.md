@@ -1,14 +1,14 @@
 ---
 title: 'Comando AddResource: Directiva | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5effcbe-bf53-4741-8d5e-227620d4d84d
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230516"
 ---
 # <a name="addresource-command-policy"></a><span data-ttu-id="a74f6-102">Comando AddResource: directiva</span><span class="sxs-lookup"><span data-stu-id="a74f6-102">AddResource Command: Policy</span></span>
 <span data-ttu-id="a74f6-103">Para agregar una directiva a una aplicación de BizTalk, use la **AddResource** comando y especifique **System.BizTalk:Rules** para el parámetro de tipo.</span><span class="sxs-lookup"><span data-stu-id="a74f6-103">To add a policy to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Rules** for the Type parameter.</span></span> <span data-ttu-id="a74f6-104">Ejecutar este comando agrega la directiva a la base de datos de administración de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="a74f6-104">Running this command adds the policy to the BizTalk Management database.</span></span> <span data-ttu-id="a74f6-105">Además, la directiva aparece en la consola de administración de BizTalk Server en la carpeta Directivas de la aplicación a la que la agregó.</span><span class="sxs-lookup"><span data-stu-id="a74f6-105">The policy is also displayed in the BizTalk Server Administration console, in the Policies folder of the application to which you added it.</span></span> <span data-ttu-id="a74f6-106">Además, la directiva se muestra cuando se usa el [comando ListApp](../core/listapp-command.md).</span><span class="sxs-lookup"><span data-stu-id="a74f6-106">In addition, the policy is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  

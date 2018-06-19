@@ -1,11 +1,11 @@
 ---
 title: 'Paso 13: Crear y configurar puertos | Documentos de Microsoft'
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - configuring, ports
 - ports, configuring
 ms.assetid: cc0540d7-46fc-4d9f-bcf3-0b0e0179fd51
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006389"
 ---
 # <a name="step-13-create-and-configure-ports"></a><span data-ttu-id="bebce-102">Paso 13: Crear y configurar puertos</span><span class="sxs-lookup"><span data-stu-id="bebce-102">Step 13: Create and Configure Ports</span></span>
 <span data-ttu-id="bebce-103">En este paso, usa al Asistente para configuración de puertos para crear y configurar puertos en el Diseñador de orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="bebce-103">In this step, you use the Port Configuration Wizard to create and configure ports in Orchestration Designer.</span></span> <span data-ttu-id="bebce-104">Puertos especifican cómo la orquestación envía y recibe mensajes del servidor de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="bebce-104">Ports specify how your orchestration sends and receives messages to and from business processes.</span></span> <span data-ttu-id="bebce-105">Cada puerto tiene un tipo, una dirección y un enlace.</span><span class="sxs-lookup"><span data-stu-id="bebce-105">Each port has a type, a direction, and a binding.</span></span> <span data-ttu-id="bebce-106">Las propiedades de combinación determinan la dirección de comunicación, el patrón de comunicación, la ubicación a o desde el que [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] envía o recibe el mensaje y cómo tiene lugar la comunicación.</span><span class="sxs-lookup"><span data-stu-id="bebce-106">The properties together determine the direction of communication, the pattern of communication, the location to or from which [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] sends or receives the message, and how the communication takes place.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="bebce-107">usa el adaptador de protocolo de nivel inferior (MLLP) como mínimo como un puerto de envío.</span><span class="sxs-lookup"><span data-stu-id="bebce-107"> uses the Minimum Lower Layer Protocol (MLLP) adapter as a send port.</span></span> <span data-ttu-id="bebce-108">El adaptador MLLP utiliza la comunicación de sockets TCP para comunicarse con otras aplicaciones, como aplicaciones de laboratorio, aplicaciones seguros y las aplicaciones de línea de negocio heredadas.</span><span class="sxs-lookup"><span data-stu-id="bebce-108">The MLLP adapter uses TCP sockets communication to interface with other applications, such as laboratory applications, insurance applications, and legacy line-of-business applications.</span></span> <span data-ttu-id="bebce-109">Representa el adaptador de envío de MLLP un [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adaptador:</span><span class="sxs-lookup"><span data-stu-id="bebce-109">The MLLP Send Adapter represents a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adapter that is:</span></span>  

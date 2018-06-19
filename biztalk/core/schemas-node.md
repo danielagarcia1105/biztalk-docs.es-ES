@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269316"
 ---
 # <a name="schemas-node"></a><span data-ttu-id="664c5-102">Esquemas (nodo)</span><span class="sxs-lookup"><span data-stu-id="664c5-102">Schemas Node</span></span>
 <span data-ttu-id="664c5-103">Use la **esquemas** nodo para mostrar los esquemas implementados en los esquemas de aplicación y del sistema actuales que están disponibles en BizTalk.</span><span class="sxs-lookup"><span data-stu-id="664c5-103">Use the **Schemas** node to display schemas deployed in the current application and system schemas that are available in BizTalk.</span></span> <span data-ttu-id="664c5-104">Haga clic en el **esquemas** nodo para mostrar los siguientes comandos:</span><span class="sxs-lookup"><span data-stu-id="664c5-104">Right-click the **Schemas** node to display the following commands:</span></span>  

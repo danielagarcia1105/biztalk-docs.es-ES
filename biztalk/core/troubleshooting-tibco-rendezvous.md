@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973274"
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a><span data-ttu-id="15189-103">Solucionar problemas de TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="15189-103">Troubleshoot TIBCO Rendezvous</span></span>
   
@@ -54,7 +55,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="15189-132">Use **-transmisor** para recibir cualquier mensaje del registro que haya transmitido el adaptador en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="15189-132">Use **-transmitter** to get any messages from the log that were transmitted by the adapter at run time.</span></span>  
   
--   <span data-ttu-id="15189-133">**Proveedor de registro de administración:**el \<elemento Trace\> conmutador **-administración**.</span><span class="sxs-lookup"><span data-stu-id="15189-133">**Management Logging Provider—**the \<Trace element\> switch is **-management**.</span></span>  
+-   <span data-ttu-id="15189-133">**Proveedor de registro de administración:** el \<elemento Trace\> conmutador **-administración**.</span><span class="sxs-lookup"><span data-stu-id="15189-133">**Management Logging Provider—** the \<Trace element\> switch is **-management**.</span></span>  
   
      <span data-ttu-id="15189-134">Use **-administración**para recibir cualquier mensaje del registro que se generaron durante la exploración del sistema del servidor.</span><span class="sxs-lookup"><span data-stu-id="15189-134">Use **-management**to get any messages from the log that were generated during browsing of the server system.</span></span>  
   

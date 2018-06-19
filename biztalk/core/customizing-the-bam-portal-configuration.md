@@ -1,14 +1,14 @@
 ---
-title: "Personalizar la configuración del Portal de BAM | Documentos de Microsoft"
-ms.custom: 
+title: Personalizar la configuración del Portal de BAM | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 507bd5f0-b2a0-4d52-85f8-9d984138ca79
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009749"
 ---
 # <a name="customizing-the-bam-portal-configuration"></a><span data-ttu-id="19dfd-102">Personalizar la configuración del portal de BAM</span><span class="sxs-lookup"><span data-stu-id="19dfd-102">Customizing the BAM Portal Configuration</span></span>
 <span data-ttu-id="19dfd-103">Hay una serie de opciones configurables en el portal de BAM.</span><span class="sxs-lookup"><span data-stu-id="19dfd-103">There are a number of configurable options on the BAM portal.</span></span> <span data-ttu-id="19dfd-104">Los procedimientos siguientes muestran cómo modificar el portal BAM para obtener la mejor experiencia de usuario.</span><span class="sxs-lookup"><span data-stu-id="19dfd-104">The following procedures show you how to modify the BAM portal to obtain the best user experience.</span></span>  

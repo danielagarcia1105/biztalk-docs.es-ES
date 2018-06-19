@@ -1,11 +1,11 @@
 ---
 title: Motor de reglas de notas de seguridad importante para la empresa | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, store administrator
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, security
 - Denial of Service attacks
 ms.assetid: 8972127a-5569-4b32-bc09-e9265efe9514
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007069"
 ---
 # <a name="important-security-notes-for-the-business-rule-engine"></a><span data-ttu-id="3a302-102">Notas de seguridad importante para el motor de reglas de negocios</span><span class="sxs-lookup"><span data-stu-id="3a302-102">Important Security Notes for the Business Rule Engine</span></span>
 <span data-ttu-id="3a302-103">En este tema se resume los problemas de seguridad conocidos en Microsoft BizTalk Server y los pasos que debe seguir para mitigar los riesgos de seguridad.</span><span class="sxs-lookup"><span data-stu-id="3a302-103">This topic summarizes known security issues in Microsoft BizTalk Server and the steps you must take to mitigate the security risks.</span></span>  

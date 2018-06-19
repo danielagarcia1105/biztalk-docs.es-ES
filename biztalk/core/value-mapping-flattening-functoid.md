@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287876"
 ---
 # <a name="value-mapping-flattening-functoid"></a><span data-ttu-id="7b11d-102">Asignación de valores (sin formato) (functoid)</span><span class="sxs-lookup"><span data-stu-id="7b11d-102">Value Mapping (Flattening) Functoid</span></span>
 <span data-ttu-id="7b11d-103">El **asignación de valores (sin formato)** functoid permite aplanar una parte de un mensaje de instancia de entrada convirtiendo varios registros en un único registro.</span><span class="sxs-lookup"><span data-stu-id="7b11d-103">The **Value Mapping (Flattening)** functoid enables you to flatten a portion of an input instance message by converting multiple records into a single record.</span></span> <span data-ttu-id="7b11d-104">Ésta es una operación común para convertir catálogos de Microsoft Commerce Server.</span><span class="sxs-lookup"><span data-stu-id="7b11d-104">This is a common operation in converting Microsoft Commerce Server catalogs.</span></span>  

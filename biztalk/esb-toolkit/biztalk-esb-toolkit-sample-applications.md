@@ -1,15 +1,15 @@
 ---
 title: Aplicaciones de ejemplo de Kit de herramientas de ESB de BizTalk | Documentos de Microsoft
-description: "Instalar las aplicaciones de ejemplo del Kit de herramientas ESB y obtener vínculos rápidos usarlos en BizTalk Server"
-caps.latest.revision: "5"
+description: Instalar las aplicaciones de ejemplo del Kit de herramientas ESB y obtener vínculos rápidos usarlos en BizTalk Server
+caps.latest.revision: 5
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 188f8e1f-26fb-4ea6-8e2e-f2ae3e46ca20
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290692"
 ---
 # <a name="biztalk-esb-toolkit-sample-applications"></a><span data-ttu-id="6161a-103">Aplicaciones de ejemplo de Kit de herramientas de ESB de BizTalk</span><span class="sxs-lookup"><span data-stu-id="6161a-103">BizTalk ESB Toolkit Sample Applications</span></span>
 <span data-ttu-id="6161a-104">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye varias aplicaciones de ejemplo que se pueden instalar y ejecutar para ver cómo funciona la ESB y cómo utiliza algunas de ESB componentes de canalización.</span><span class="sxs-lookup"><span data-stu-id="6161a-104">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes several sample applications that you can install and run to see how the ESB works and how it uses some of the ESB pipeline components.</span></span> <span data-ttu-id="6161a-105">Puede adaptar y modificar el código y las técnicas que se usan en los ejemplos para sus propias aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="6161a-105">You can adapt and modify the code and techniques used in the samples for your own applications.</span></span>  

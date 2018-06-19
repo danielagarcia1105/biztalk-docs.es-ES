@@ -1,14 +1,14 @@
 ---
 title: Esquema de propiedades de adaptadores WCF y propiedades | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 02/09/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2093745e-86c0-4276-a7cc-a0187391ca4a
-caps.latest.revision: 
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 50798e04fdcaf5dce5288aa18608e2a981b162fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/11/2018
+ms.locfileid: "29139300"
 ---
 # <a name="wcf-adapters-property-schema-and-properties"></a><span data-ttu-id="0a7c0-102">Propiedades y esquema de propiedades de adaptadores de WCF</span><span class="sxs-lookup"><span data-stu-id="0a7c0-102">WCF Adapters Property Schema and Properties</span></span>
 <span data-ttu-id="0a7c0-103">Obtenga información acerca de las propiedades promocionadas en el esquema de propiedades del adaptador WCF.</span><span class="sxs-lookup"><span data-stu-id="0a7c0-103">Read about the promoted properties in the WCF adapter property schema.</span></span> <span data-ttu-id="0a7c0-104">Los adaptadores de WCF asignan valores a las propiedades que puede utilizar en su aplicación.</span><span class="sxs-lookup"><span data-stu-id="0a7c0-104">The WCF adapters assign values to the properties that you can use in your application.</span></span> <span data-ttu-id="0a7c0-105">El adaptador de WCF también proporciona un mecanismo para leer pero no promociona las propiedades personalizadas en el contexto de mensaje de BizTalk y un mecanismo para promocionar las propiedades personalizadas en el contexto de mensaje de BizTalk.</span><span class="sxs-lookup"><span data-stu-id="0a7c0-105">WCF adapter also provides a mechanism to write but not promote the custom properties to the BizTalk message context, and a mechanism to promote the custom properties to the BizTalk message context.</span></span> <span data-ttu-id="0a7c0-106">Para obtener más información, consulte [encabezados SOAP con servicios de WCF publican](../core/soap-headers-with-published-wcf-services.md).</span><span class="sxs-lookup"><span data-stu-id="0a7c0-106">For more details, see [SOAP Headers with Published WCF Services](../core/soap-headers-with-published-wcf-services.md).</span></span>  

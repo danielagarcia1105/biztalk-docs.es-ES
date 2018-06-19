@@ -1,17 +1,17 @@
 ---
 title: Consumir servicios WCF | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - consuming, WCF services
 - WCF services, consuming
 ms.assetid: ca6c0514-c1df-43ad-8f02-df117271b0b5
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237868"
 ---
 # <a name="consuming-wcf-services"></a><span data-ttu-id="0d9db-102">Consumir servicios WCF</span><span class="sxs-lookup"><span data-stu-id="0d9db-102">Consuming WCF Services</span></span>
 <span data-ttu-id="0d9db-103">El consumo de servicios WCF le habilita para agregar servicios WCF existentes al proceso empresarial.</span><span class="sxs-lookup"><span data-stu-id="0d9db-103">Consuming WCF services enables you to add existing WCF services to your business process.</span></span> <span data-ttu-id="0d9db-104">Es posible agregar varios servicios WCF a una única orquestación.</span><span class="sxs-lookup"><span data-stu-id="0d9db-104">You can aggregate several WCF services into a single orchestration.</span></span>  

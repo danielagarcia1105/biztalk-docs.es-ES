@@ -1,14 +1,14 @@
 ---
 title: Ejemplo de HubScenario | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb6990ec-aea2-4362-8573-7f737a4fc7f1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006349"
 ---
 # <a name="hubscenario-sample"></a><span data-ttu-id="cb4c1-102">Ejemplo de HubScenario</span><span class="sxs-lookup"><span data-stu-id="cb4c1-102">HubScenario Sample</span></span>
 <span data-ttu-id="cb4c1-103">El ejemplo de HubScenario muestra cómo administrar la transmisión de mensajes en un escenario de concentrador.</span><span class="sxs-lookup"><span data-stu-id="cb4c1-103">The HubScenario sample demonstrates how to manage message transmission in a hub scenario.</span></span> <span data-ttu-id="cb4c1-104">Transforma un mensaje enviado a un concentrador intermediario en un mensaje que se enviará al destinatario final.</span><span class="sxs-lookup"><span data-stu-id="cb4c1-104">It transforms a message sent to an intermediary hub into a message to be sent to the final recipient.</span></span>  

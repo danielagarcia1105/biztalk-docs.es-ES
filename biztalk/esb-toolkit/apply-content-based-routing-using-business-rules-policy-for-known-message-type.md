@@ -1,14 +1,14 @@
 ---
-title: "Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido | Documentos de Microsoft"
-ms.custom: 
+title: 'Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44451c85-929a-4d13-b0dd-53ea600d0859
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010045"
 ---
 # <a name="how-to-implement-content-based-routing-using-a-business-rules-policy-for-a-known-message-type"></a><span data-ttu-id="c3b64-102">Cómo: implementar enrutamiento por contenidos mediante una empresa de reglas de directiva para un tipo de mensaje conocido</span><span class="sxs-lookup"><span data-stu-id="c3b64-102">How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type</span></span>
 ## <a name="goal"></a><span data-ttu-id="c3b64-103">Objetivo</span><span class="sxs-lookup"><span data-stu-id="c3b64-103">Goal</span></span>  
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-add-a-routing-rule-for-customer-globalbank-west"></a><span data-ttu-id="c3b64-132">Para agregar una regla de enrutamiento de cliente GlobalBank West</span><span class="sxs-lookup"><span data-stu-id="c3b64-132">To add a routing rule for customer GlobalBank West</span></span>  
   
-1.  <span data-ttu-id="c3b64-133">En el **RouteBasedOnCustomerKnownType** directiva, haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-133">In the **RouteBasedOnCustomerKnownType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="c3b64-134">Nombre de la regla **SetWestEndpoint**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-134">Name the rule **SetWestEndpoint**.</span></span>  
+1.  <span data-ttu-id="c3b64-133">En el **RouteBasedOnCustomerKnownType** directiva, haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **agregar nueva regla**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-133">In the **RouteBasedOnCustomerKnownType** policy, right-click **Version 1.0 (not saved)**, and then click **Add New Rule**.</span></span> <span data-ttu-id="c3b64-134">Nombre de la regla **SetWestEndpoint**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-134">Name the rule **SetWestEndpoint**.</span></span>  
   
 2.  <span data-ttu-id="c3b64-135">En el Explorador de hechos, haga clic en el **esquemas XML** pestaña, haga clic en **esquemas**y, a continuación, haga clic en **examinar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-135">In Facts Explorer, click the **XML Schemas** tab, right-click **Schemas**, and then click **Browse**.</span></span>  
   
@@ -114,7 +115,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="c3b64-154">En el Explorador de directivas, haga clic en el **SetWestEndpoint** de regla y, a continuación, haga clic en **copia**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-154">In Policy Explorer, right-click the **SetWestEndpoint** rule, and then click **Copy**.</span></span>  
   
-2.  <span data-ttu-id="c3b64-155">Haga clic en **versión 1.0 (sin guardar)**y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-155">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
+2.  <span data-ttu-id="c3b64-155">Haga clic en **versión 1.0 (sin guardar)** y, a continuación, haga clic en **pegar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-155">Right-click **Version 1.0 (not saved)**, and then click **Paste**.</span></span>  
   
 3.  <span data-ttu-id="c3b64-156">En el **nombre de nueva regla** cuadro de diálogo, escriba **SetEastEndpoint**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-156">In the **New Rule Name** dialog box, type **SetEastEndpoint**, and then click **OK**.</span></span>  
   
@@ -126,7 +127,7 @@ ms.lasthandoff: 12/01/2017
   
 7.  <span data-ttu-id="c3b64-160">En el **acciones** sección, haga clic en **C:\HowTos\Out\West%MessageID%.xml**y, a continuación, haga clic en **Restablecer argumento**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-160">In the **Actions** section, right-click **C:\HowTos\Out\West%MessageID%.xml**, and then click **Reset argument**.</span></span>  
   
-8.  <span data-ttu-id="c3b64-161">Haga clic en  **\<una cadena vacía\>**y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-161">Click **\<empty string\>**, and then type **C:\HowTos\Out\East%MessageID%.xml**.</span></span>  
+8.  <span data-ttu-id="c3b64-161">Haga clic en  **\<una cadena vacía\>** y, a continuación, escriba **C:\HowTos\Out\East%MessageID%.xml**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-161">Click **\<empty string\>**, and then type **C:\HowTos\Out\East%MessageID%.xml**.</span></span>  
   
 #### <a name="to-add-a-routing-rule-for-unknown-customers"></a><span data-ttu-id="c3b64-162">Para agregar una regla de enrutamiento para los clientes desconocidos</span><span class="sxs-lookup"><span data-stu-id="c3b64-162">To add a routing rule for unknown customers</span></span>  
   
@@ -162,7 +163,7 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="to-publish-and-deploy-the-policy"></a><span data-ttu-id="c3b64-179">Para publicar e implementar la directiva</span><span class="sxs-lookup"><span data-stu-id="c3b64-179">To publish and deploy the policy</span></span>  
   
-1.  <span data-ttu-id="c3b64-180">En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 (sin guardar)**y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-180">In Policy Explorer, under the **RouteBasedOnCustomerKnownType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
+1.  <span data-ttu-id="c3b64-180">En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 (sin guardar)** y, a continuación, haga clic en **publicar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-180">In Policy Explorer, under the **RouteBasedOnCustomerKnownType** policy, right click **Version 1.0 (not saved)**, and then click **Publish**.</span></span>  
   
 2.  <span data-ttu-id="c3b64-181">En el Explorador de directivas, en la **RouteBasedOnCustomerKnownType** directiva, haga clic derecho **versión 1.0 - publicada**y, a continuación, haga clic en **implementar**.</span><span class="sxs-lookup"><span data-stu-id="c3b64-181">In Policy Explorer, under the **RouteBasedOnCustomerKnownType** policy, right click **Version 1.0 - Published**, and then click **Deploy**.</span></span>  
   

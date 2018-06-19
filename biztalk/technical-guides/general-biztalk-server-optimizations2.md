@@ -1,14 +1,14 @@
 ---
 title: Generales de BizTalk Server Optimizations2 | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41b452e9-d94c-4bcb-8ef6-e9cea28fc0ab
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009981"
 ---
 # <a name="general-biztalk-server-optimizations"></a><span data-ttu-id="d80f0-102">Optimizaciones generales de BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="d80f0-102">General BizTalk Server Optimizations</span></span>
 <span data-ttu-id="d80f0-103">Las siguientes recomendaciones se pueden usar para aumentar [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] rendimiento.</span><span class="sxs-lookup"><span data-stu-id="d80f0-103">The following recommendations can be used to increase [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance.</span></span> <span data-ttu-id="d80f0-104">Las optimizaciones que se enumeran en este tema se aplican después de [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] se ha instalado y configurado.</span><span class="sxs-lookup"><span data-stu-id="d80f0-104">The optimizations listed in this topic are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.</span></span>  

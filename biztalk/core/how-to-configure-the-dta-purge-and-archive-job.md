@@ -1,15 +1,15 @@
 ---
 title: Configurar la purga DTA y archivar trabajo | Documentos de Microsoft
-description: "Establecer los parámetros del trabajo DTA Purge and Archive en Agente SQL Server para mantener la base de datos de seguimiento de BizTalk Server"
-ms.custom: 
+description: Establecer los parámetros del trabajo DTA Purge and Archive en Agente SQL Server para mantener la base de datos de seguimiento de BizTalk Server
+ms.custom: ''
 ms.date: 10/11/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 156ccf9b-284f-4b96-a395-92936e8cebcf
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 1fb633fcf919ce3124405420a5d9faa79d9d508e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22646936"
 ---
 # <a name="configure-the-dta-purge-and-archive-job"></a><span data-ttu-id="729a6-103">Configurar la purga DTA y archivar trabajo</span><span class="sxs-lookup"><span data-stu-id="729a6-103">Configure the DTA Purge and Archive Job</span></span>
 <span data-ttu-id="729a6-104">Antes de poder archivar o purgar datos en la base de datos de seguimiento de BizTalk (BizTalkDTADb), debe configurar el trabajo DTA Purge and Archive (BizTalkDTADb).</span><span class="sxs-lookup"><span data-stu-id="729a6-104">Before you can archive or purge data from the BizTalk Tracking (BizTalkDTADb) database, you must configure the DTA Purge and Archive (BizTalkDTADb) job.</span></span> <span data-ttu-id="729a6-105">Este trabajo está configurado para llamar al procedimiento de almacén dtasp_backupandpurgetrackingdatabase por que utiliza seis parámetros que debe configurar.</span><span class="sxs-lookup"><span data-stu-id="729a6-105">This job is configured to call the dtasp_BackupAndPurgeTrackingDatabase store procedure, which uses six parameters you must configure.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 10/11/2017
   
 3. <span data-ttu-id="729a6-111">Haga doble clic en **Agente SQL Server**y, a continuación, seleccione **trabajos**.</span><span class="sxs-lookup"><span data-stu-id="729a6-111">Double-click **SQL Server Agent**, and then select **Jobs**.</span></span>  
   
-4.  <span data-ttu-id="729a6-112">En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)**y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="729a6-112">In **Object Explorer Details**, right-click **DTA Purge and Archive (BizTalkDTADb)**, and then select **Properties**.</span></span>  
+4.  <span data-ttu-id="729a6-112">En **detalles del explorador de objetos**, haga clic en **DTA Purge and Archive (BizTalkDTADb)** y, a continuación, seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="729a6-112">In **Object Explorer Details**, right-click **DTA Purge and Archive (BizTalkDTADb)**, and then select **Properties**.</span></span>  
   
 5.  <span data-ttu-id="729a6-113">En **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, en **seleccionar una página**, seleccione **pasos**.</span><span class="sxs-lookup"><span data-stu-id="729a6-113">In **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, under **Select a page**, select **Steps**.</span></span>  
   

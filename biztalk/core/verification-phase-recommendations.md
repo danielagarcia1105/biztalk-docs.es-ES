@@ -1,14 +1,14 @@
 ---
-title: "Recomendaciones de la fase de comprobación | Documentos de Microsoft"
-ms.custom: 
+title: Recomendaciones de la fase de comprobación | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00663354-ce5d-4391-b835-89940c92c1ce
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288140"
 ---
 # <a name="verification-phase-recommendations"></a><span data-ttu-id="79612-102">Recomendaciones para la fase de comprobación</span><span class="sxs-lookup"><span data-stu-id="79612-102">Verification Phase Recommendations</span></span>
 <span data-ttu-id="79612-103">Una vez finalizado el código del sistema, está preparado para su plena estabilización y es posible comprobar los criterios de versión.</span><span class="sxs-lookup"><span data-stu-id="79612-103">After the system is code complete, it is ready to be fully stabilized and the release criteria can be verified.</span></span> <span data-ttu-id="79612-104">Esta fase se denomina con frecuencia la fase de estabilización.</span><span class="sxs-lookup"><span data-stu-id="79612-104">This phase is often referred to as the stabilization phase.</span></span> <span data-ttu-id="79612-105">El objetivo definitivo de esta fase es identificar y corregir los errores y demostrar que el sistema está preparado para la producción.</span><span class="sxs-lookup"><span data-stu-id="79612-105">The ultimate goal of this phase is to identify and fix bugs and prove that the system is ready for production.</span></span> <span data-ttu-id="79612-106">Esta fase, pues, conlleva una tanda de pruebas finales en un candidato de versión del sistema.</span><span class="sxs-lookup"><span data-stu-id="79612-106">This phase, therefore, involves a final round of testing on a release candidate of the system.</span></span>  

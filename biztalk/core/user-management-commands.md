@@ -1,14 +1,14 @@
 ---
-title: "Comandos de administración de usuario | Documentos de Microsoft"
-ms.custom: 
+title: Comandos de administración de usuario | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: feb12226-a4da-4fc5-93a1-aced239f60a9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974082"
 ---
 # <a name="user-management-commands"></a><span data-ttu-id="919e7-102">Comandos de administración de usuario</span><span class="sxs-lookup"><span data-stu-id="919e7-102">User Management Commands</span></span>
 <span data-ttu-id="919e7-103">Los comandos de administración de usuario de alertas de la utilidad de administración de BAM le permiten obtener, agregar y quitar usuarios.</span><span class="sxs-lookup"><span data-stu-id="919e7-103">The BAM Management utility alert user management commands allow you to get, add, and remove users.</span></span>  

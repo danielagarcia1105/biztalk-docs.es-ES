@@ -1,14 +1,14 @@
 ---
 title: Registrar un adaptador | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc85b96e-7b7b-4131-88ec-87b419a61bc2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270268"
 ---
 # <a name="registering-an-adapter"></a><span data-ttu-id="599c1-102">Registrar un adaptador</span><span class="sxs-lookup"><span data-stu-id="599c1-102">Registering an Adapter</span></span>
 <span data-ttu-id="599c1-103">Si va a desarrollar un adaptador personalizado, puede registrarlo con BizTalk Server mediante la modificación y ejecución de uno de los archivos de Registro incluidos con el adaptador de archivo de ejemplo en el kit de desarrollo de software (SDK).</span><span class="sxs-lookup"><span data-stu-id="599c1-103">If you are developing a custom adapter, you can register it with BizTalk Server by modifying and running one of the registry files included with the sample file adapter in the software development kit (SDK).</span></span> <span data-ttu-id="599c1-104">O bien, puede usar el Asistente para el Registro del adaptador con el fin de crear un archivo de Registro.</span><span class="sxs-lookup"><span data-stu-id="599c1-104">Or, you can use the Adapter Registry Wizard to create a registry file.</span></span> <span data-ttu-id="599c1-105">Este asistente está ubicado en la carpeta [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard.</span><span class="sxs-lookup"><span data-stu-id="599c1-105">This wizard is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard folder.</span></span>  

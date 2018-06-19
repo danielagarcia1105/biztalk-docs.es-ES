@@ -1,14 +1,14 @@
 ---
-title: "Archivo de configuración de interceptor | Documentos de Microsoft"
-ms.custom: 
+title: Archivo de configuración de interceptor | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 490f5607-e7f6-4f7f-9121-1070db32a7cf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256924"
 ---
 # <a name="interceptor-configuration-file"></a><span data-ttu-id="3d720-102">Archivo de configuración de interceptor</span><span class="sxs-lookup"><span data-stu-id="3d720-102">Interceptor Configuration File</span></span>
 <span data-ttu-id="3d720-103">Los interceptores de BAM para Windows Workflow Foundation y Windows Communication Foundation se basan en un archivo de configuración de interceptor para determinar los eventos y elementos de fecha que se van a interceptar.</span><span class="sxs-lookup"><span data-stu-id="3d720-103">The BAM interceptors for Windows Workflow Foundation and Windows Communication Foundation rely on an interceptor configuration file to determine what events and date elements to intercept.</span></span> <span data-ttu-id="3d720-104">El archivo de configuración es XML y se define mediante el esquema de configuración de interceptor y el esquema de Windows Workflow Foundation o el esquema de Windows Communication Framework en función de la tecnología que se va a especificar.</span><span class="sxs-lookup"><span data-stu-id="3d720-104">The configuration file is XML and is defined by the interceptor configuration schema and either the Windows Workflow Foundation schema or the Windows Communication Framework schema depending upon which technology you are targeting.</span></span>  

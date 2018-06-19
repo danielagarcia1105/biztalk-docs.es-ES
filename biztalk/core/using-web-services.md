@@ -1,11 +1,11 @@
 ---
 title: Con los servicios Web | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, Web services
 - Web services, orchestrations
 ms.assetid: a54261e3-d8ef-4770-8d9a-147685846051
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288260"
 ---
 # <a name="using-web-services"></a><span data-ttu-id="03429-102">Uso de servicios web</span><span class="sxs-lookup"><span data-stu-id="03429-102">Using Web Services</span></span>
 <span data-ttu-id="03429-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proporciona compatibilidad integrada para servicios Web.</span><span class="sxs-lookup"><span data-stu-id="03429-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services.</span></span> <span data-ttu-id="03429-104">BizTalk Server permite reutilizar y agregar todos los servicios Web existentes en las orquestaciones.</span><span class="sxs-lookup"><span data-stu-id="03429-104">BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations.</span></span> <span data-ttu-id="03429-105">Las orquestaciones también se publican o se exponen como servicios Web para diferenciar la lógica de servicios Web de la lógica de procesos empresariales.</span><span class="sxs-lookup"><span data-stu-id="03429-105">You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.</span></span>  

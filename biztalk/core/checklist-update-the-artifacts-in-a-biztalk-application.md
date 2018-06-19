@@ -1,11 +1,11 @@
 ---
-title: "Lista de comprobación: Actualizar los artefactos de una aplicación de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Actualizar los artefactos de una aplicación de BizTalk | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, redeploying
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - applications, checklists
 - checklists, redeploying
 ms.assetid: 07ea4a2b-4ada-4d04-9eec-604b63b77415
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233028"
 ---
 # <a name="checklist-update-the-artifacts-in-a-biztalk-application"></a><span data-ttu-id="a8382-102">Lista de comprobación: Actualizar los artefactos de una aplicación de BizTalk</span><span class="sxs-lookup"><span data-stu-id="a8382-102">Checklist: Update the Artifacts in a BizTalk Application</span></span>
 <span data-ttu-id="a8382-103">Siga los pasos de esta lista de comprobación si desea cambiar o actualizar uno o varios artefactos de una aplicación que ya se ha implementado y, a continuación, implementarla de nuevo.</span><span class="sxs-lookup"><span data-stu-id="a8382-103">Follow the steps in this checklist if you want to change or update one or more artifacts in an application that has already been deployed, and then redeploy the application.</span></span>  

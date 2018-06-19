@@ -1,14 +1,14 @@
 ---
 title: Rol de los acuerdos en el procesamiento de EDI | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d81b0449-6656-49f7-a781-5fd60031b3d5
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279940"
 ---
 # <a name="the-role-of-agreements-in-edi-processing"></a><span data-ttu-id="fd269-102">Rol de los acuerdos en el procesamiento de EDI</span><span class="sxs-lookup"><span data-stu-id="fd269-102">The Role of Agreements in EDI Processing</span></span>
 <span data-ttu-id="fd269-103">Una organización usa [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] para recibir mensajes EDI de uno o varios socios comerciales, así como para enviar mensajes EDI a ellos.</span><span class="sxs-lookup"><span data-stu-id="fd269-103">An organization uses [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive EDI messages from, and send EDI messages to, one or more trading partners.</span></span> <span data-ttu-id="fd269-104">A su vez, los socios comerciales definen perfiles de negocio que son entidades de negocio dentro de una organización.</span><span class="sxs-lookup"><span data-stu-id="fd269-104">The trading partners, in turn define business profiles that are business entities within an organization.</span></span> <span data-ttu-id="fd269-105">La forma en que los perfiles de negocio intercambian mensajes se define como parte de los acuerdos entre socios comerciales de dos perfiles de negocio.</span><span class="sxs-lookup"><span data-stu-id="fd269-105">How business profiles exchange messages is defined as part of trading partner agreements between two business profiles.</span></span> <span data-ttu-id="fd269-106">Para obtener más información, consulte [bloques de creación de una solución de administración de socios comerciales](../core/building-blocks-of-a-trading-partner-management-solution.md).</span><span class="sxs-lookup"><span data-stu-id="fd269-106">For more information, see [Building Blocks of a Trading Partner Management Solution](../core/building-blocks-of-a-trading-partner-management-solution.md).</span></span>  

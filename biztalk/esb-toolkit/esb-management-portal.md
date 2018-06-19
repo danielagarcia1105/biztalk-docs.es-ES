@@ -1,14 +1,14 @@
 ---
-title: "Portal de administración de ESB | Documentos de Microsoft"
-ms.custom: 
+title: Portal de administración de ESB | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b702d03a-2e0a-4c46-a785-c0aeae35a5f0
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294236"
 ---
 # <a name="esb-management-portal"></a><span data-ttu-id="d6433-102">Portal de administración de ESB</span><span class="sxs-lookup"><span data-stu-id="d6433-102">ESB Management Portal</span></span>
 <span data-ttu-id="d6433-103">El [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] incluye un completo basada en Web excepciones y errores de mensaje administración marco que promueve el tratamiento coherente de excepciones del sistema y business.</span><span class="sxs-lookup"><span data-stu-id="d6433-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes a comprehensive Web-based exception and fault message management framework that promotes consistent handling of both system and business exceptions.</span></span> <span data-ttu-id="d6433-104">El portal incluye actúa como un ejemplo de cómo puede proporcionar una aplicación de portal las métricas y visibilidad en actividades ESB.</span><span class="sxs-lookup"><span data-stu-id="d6433-104">The included portal serves as a sample of how a portal application can provide metrics and visibility into ESB activities.</span></span>  

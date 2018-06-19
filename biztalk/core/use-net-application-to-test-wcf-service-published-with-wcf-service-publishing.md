@@ -1,11 +1,11 @@
 ---
-title: "Cómo crear una aplicación .NET para probar un servicio WCF publicado con el Asistente de publicación de servicios de WCF de BizTalk | Documentos de Microsoft"
-ms.custom: 
+title: Cómo crear una aplicación .NET para probar un servicio WCF publicado con el Asistente de publicación de servicios de WCF de BizTalk | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services, .NET applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, .NET applications [WCF services]
 - WCF Service Publishing Wizard
 ms.assetid: 17e39db2-8471-4f6f-a7f1-833023cdbc39
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287236"
 ---
 # <a name="how-to-create-a-net-application-to-test-a-wcf-service-published-with-the-biztalk-wcf-service-publishing-wizard"></a><span data-ttu-id="ec963-102">Cómo crear una aplicación .NET para probar un Servicio WCF publicado con el Asistente para publicación de Servicio WCF de BizTalk</span><span class="sxs-lookup"><span data-stu-id="ec963-102">How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard</span></span>
 <span data-ttu-id="ec963-103">Para probar un Servicio WCF publicado, puede crear una aplicación .NET que consuma el Servicio WCF publicado.</span><span class="sxs-lookup"><span data-stu-id="ec963-103">To test your published WCF service, you can create a .NET application that consumes your published WCF service.</span></span> <span data-ttu-id="ec963-104">En este tema se describe cómo crear una aplicación .NET para probar un Servicio WCF publicado.</span><span class="sxs-lookup"><span data-stu-id="ec963-104">This topic describes how to create a .NET application to test a published WCF service.</span></span>  

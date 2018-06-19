@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "29564412"
 ---
 # <a name="sftp-adapter"></a><span data-ttu-id="dd9e0-103">Adaptador SFTP</span><span class="sxs-lookup"><span data-stu-id="dd9e0-103">SFTP Adapter</span></span>
 <span data-ttu-id="dd9e0-104">BizTalk Server incluye un **SFTP** adaptador para enviar y recibir mensajes desde un servidor FTP seguro mediante el protocolo de transferencia de archivos SSH.</span><span class="sxs-lookup"><span data-stu-id="dd9e0-104">BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol.</span></span> <span data-ttu-id="dd9e0-105">Este tema incluyen los pasos para configurar un **SFTP** ubicación de recepción y configurar un puerto de envío SFTP para recibir y enviar mensajes desde un servidor FTP seguro.</span><span class="sxs-lookup"><span data-stu-id="dd9e0-105">This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server.</span></span> <span data-ttu-id="dd9e0-106">También incluye preguntas y respuestas más comunes.</span><span class="sxs-lookup"><span data-stu-id="dd9e0-106">It also includes common questions and answers.</span></span>

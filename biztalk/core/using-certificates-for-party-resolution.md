@@ -1,14 +1,14 @@
 ---
-title: "Uso de certificados para la resolución de entidades | Documentos de Microsoft"
-ms.custom: 
+title: Uso de certificados para la resolución de entidades | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4eb9b616-be1c-4b68-b3de-8721a344a423
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286916"
 ---
 # <a name="using-certificates-for-party-resolution"></a><span data-ttu-id="fde3b-102">Usar certificados para la resolución de entidades</span><span class="sxs-lookup"><span data-stu-id="fde3b-102">Using Certificates for Party Resolution</span></span>
 <span data-ttu-id="fde3b-103">A *entidad* es una entidad externa a BizTalk Server que interactúa con una orquestación.</span><span class="sxs-lookup"><span data-stu-id="fde3b-103">A *party* is an entity outside BizTalk Server that interacts with an orchestration.</span></span> <span data-ttu-id="fde3b-104">Cuando BizTalk Server recibe un mensaje, usa el certificado de clave pública para determinar quién envió el mensaje y para resolver el remitente en una entidad conocida en el entorno de BizTalk Server.</span><span class="sxs-lookup"><span data-stu-id="fde3b-104">When BizTalk Server receives a message, it uses the public key certificate to determine who sent the message, and to resolve the sender to a known party in the BizTalk Server environment.</span></span>  

@@ -1,14 +1,14 @@
 ---
 title: Que se codifican los caracteres del nombre de nodo | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48a581d2-48fa-4c36-b5c2-fe87c328a7f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289188"
 ---
 # <a name="which-node-name-characters-get-encoded"></a><span data-ttu-id="33026-102">Caracteres de los nombres de nodo que se codifican</span><span class="sxs-lookup"><span data-stu-id="33026-102">Which Node Name Characters Get Encoded</span></span>
 <span data-ttu-id="33026-103">XML aplica algunas restricciones a los caracteres que se pueden usar en los nombres XML (como los nombres de elemento), incluidas algunas restricciones especiales para el primer carácter de un nombre XML.</span><span class="sxs-lookup"><span data-stu-id="33026-103">XML places some restrictions on the characters that can be used in XML names, such as element names, including some special restrictions on the first character of an XML name.</span></span> <span data-ttu-id="33026-104">Los objetivos conceptuales para determinar qué caracteres se permiten y qué caracteres se deben excluir de los nombres XML permitidos son:</span><span class="sxs-lookup"><span data-stu-id="33026-104">The conceptual goals in determining which characters to allow and which characters to exclude from legal XML names are:</span></span>  

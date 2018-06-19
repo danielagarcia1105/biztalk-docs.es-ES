@@ -1,15 +1,15 @@
 ---
 title: Realizar un seguimiento de los datos para Application Insights o concentradores de eventos | Documentos de Microsoft
-description: "Instalar feature pack para habilitar el análisis de datos de seguimiento con Azure Application Insights o concentradores de eventos de Azure en BizTalk Server"
+description: Instalar feature pack para habilitar el análisis de datos de seguimiento con Azure Application Insights o concentradores de eventos de Azure en BizTalk Server
 ms.custom: fp1, fp2
 ms.date: 11/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3ff6cb9-44d0-46cd-9b4f-a346365afb7b
-caps.latest.revision: 
+caps.latest.revision: 10
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710783"
 ---
 # <a name="send-biztalk-tracking-data-to-azure-application-insights-or-event-hubs"></a><span data-ttu-id="27823-103">Enviar datos a Azure Application Insights o concentradores de eventos de seguimiento de BizTalk</span><span class="sxs-lookup"><span data-stu-id="27823-103">Send BizTalk tracking data to Azure Application Insights or Event Hubs</span></span>
 

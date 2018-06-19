@@ -1,14 +1,14 @@
 ---
-title: "Actualización y las estrategias de versión de aplicaciones | Documentos de Microsoft"
-ms.custom: 
+title: Actualización y las estrategias de versión de aplicaciones | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e881def2-c407-4205-a6b3-5c1fa5144bb4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015355"
 ---
 # <a name="upgrading-and-versioning-strategies-for-applications"></a><span data-ttu-id="60379-102">Actualizar y las estrategias de control de versiones de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="60379-102">Upgrading and Versioning Strategies for Applications</span></span>
 <span data-ttu-id="60379-103">Control de versiones de aplicación de BizTalk puede ser un problema cuando necesite ejecutar dos versiones de una solución de BizTalk en paralelo, o si no puede utilizar el tiempo de inactividad de aplicación de BizTalk para implementar una nueva versión.</span><span class="sxs-lookup"><span data-stu-id="60379-103">BizTalk application versioning can become an issue when you need to run two versions of a BizTalk solution side-by-side, or if you cannot use BizTalk application downtime to deploy a new version.</span></span> <span data-ttu-id="60379-104">Si no es necesario ejecutar dos versiones de la solución al mismo tiempo (por ejemplo, donde no haya ningún orquestaciones de larga duración) y las ventanas de mantenimiento de servicio están disponibles, es absolutamente aceptable para anular la implementación de la versión anterior e implementar la nueva versión como una estrategia de control de versiones (sin control de versiones de ensamblado).</span><span class="sxs-lookup"><span data-stu-id="60379-104">If you do not need to run two versions of the solution simultaneously (for example, where you have no long-running orchestrations), and service maintenance windows are available, then it is perfectly acceptable to undeploy the old version, and deploy the new version as a versioning strategy (no assembly versioning).</span></span> <span data-ttu-id="60379-105">Ésta es una estrategia de control de versiones posibles, aunque todavía sigue siendo recomendable incrementar el número de versión de archivo (para que sepa qué versión se implementa en los equipos que ejecutan [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]).</span><span class="sxs-lookup"><span data-stu-id="60379-105">This is a possible versioning strategy, although we still recommend incrementing the file version number (to let you know what version is deployed on the computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]).</span></span>  

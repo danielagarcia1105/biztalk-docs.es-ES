@@ -1,18 +1,18 @@
 ---
 title: SendMail | Documentos de Microsoft
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, examples
 - examples, SMTP adapters
 - SMTP adapters
 ms.assetid: a0258619-b195-4c8a-8326-77add6e6f04d
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974842"
 ---
 # <a name="sendmail"></a><span data-ttu-id="59b81-102">SendMail</span><span class="sxs-lookup"><span data-stu-id="59b81-102">SendMail</span></span>
 <span data-ttu-id="59b81-103">El ejemplo SendMail muestra el modo en que puede usar el adaptador del Protocolo simple de transferencia de correo (SMTP) para enviar mensajes de correo electrónico dentro de una orquestación de Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span><span class="sxs-lookup"><span data-stu-id="59b81-103">The SendMail sample demonstrates how you can use the Simple Mail Transfer Protocol (SMTP) adapter to send e-mail messages from within a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.</span></span> <span data-ttu-id="59b81-104">La información dinámica empleada para enviar los mensajes de correo se recupera de un mensaje XML mediante la funcionalidad de promoción de propiedades.</span><span class="sxs-lookup"><span data-stu-id="59b81-104">Dynamic information used to send the e-mail messages is retrieved from an XML message using property promotion functionality.</span></span>  

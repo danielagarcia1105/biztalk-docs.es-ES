@@ -1,17 +1,17 @@
 ---
-title: "Creación de perfiles de seguimiento | Documentos de Microsoft"
-ms.custom: 
+title: Creación de perfiles de seguimiento | Documentos de Microsoft
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking profiles, creating
 - creating, tracking profiles
 ms.assetid: 62598529-9763-4c73-acbe-06ce5650134a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238276"
 ---
 # <a name="creating-tracking-profiles"></a><span data-ttu-id="e6e7b-102">Crear perfiles de seguimiento</span><span class="sxs-lookup"><span data-stu-id="e6e7b-102">Creating Tracking Profiles</span></span>
 <span data-ttu-id="e6e7b-103">Puede crear un perfil de seguimiento nuevo o modificar uno existente para administrar y controlar mejor un determinado proceso empresarial de la organización.</span><span class="sxs-lookup"><span data-stu-id="e6e7b-103">You create a new tracking profile or modify an existing one to better manage and monitor a specific business process for your organization.</span></span> <span data-ttu-id="e6e7b-104">El Editor de perfiles de seguimiento (TPE) permite definir los datos que deben recopilarse para satisfacer los requisitos del analista de negocios.</span><span class="sxs-lookup"><span data-stu-id="e6e7b-104">The Tracking Profile Editor (TPE) allows you to define the data to collect to meet the business analyst's requirement.</span></span> <span data-ttu-id="e6e7b-105">El perfil que cree o modifique podrá ser tan simple o tan complejo como desee, en función de los requisitos empresariales.</span><span class="sxs-lookup"><span data-stu-id="e6e7b-105">The profile you create or modify can be as simple or as complex as you like depending on your business requirements.</span></span>  

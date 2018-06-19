@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XLANG/s, BPEL4WS
 - XLANG/s, converting
 ms.assetid: a35d4dba-9344-43c8-86e6-a373a4452579
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973746"
 ---
 # <a name="xlang-s-to-bpel4ws-type-conversions"></a><span data-ttu-id="da557-102">XLANG-s para las conversiones de tipo de BPEL4WS</span><span class="sxs-lookup"><span data-stu-id="da557-102">XLANG-s to BPEL4WS Type Conversions</span></span>
 <span data-ttu-id="da557-103">En las siguientes tablas se detallan las conversiones entre varias construcciones XLANG/s y BPEL4WS.</span><span class="sxs-lookup"><span data-stu-id="da557-103">The following tables detail the conversions between various XLANG/s constructs and BPEL4WS constructs.</span></span>  

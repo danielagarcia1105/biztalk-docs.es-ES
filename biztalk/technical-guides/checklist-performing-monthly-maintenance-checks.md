@@ -1,14 +1,14 @@
 ---
-title: "Lista de comprobación: Hacer comprobaciones de mantenimiento mensual | Documentos de Microsoft"
-ms.custom: 
+title: 'Lista de comprobación: Hacer comprobaciones de mantenimiento mensual | Documentos de Microsoft'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 588b74fa-6bf5-43ad-aa15-3595adde76d1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009261"
 ---
 # <a name="checklist-complete-monthly-maintenance-checks-in-biztalk-server"></a><span data-ttu-id="37eb7-102">Lista de comprobación: Comprobaciones de mantenimiento mensual completos en BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="37eb7-102">Checklist: Complete Monthly Maintenance Checks in BizTalk Server</span></span>
 <span data-ttu-id="37eb7-103">En este tema se describe los pasos necesarios para mensual realizar comprobaciones de mantenimiento de la confiabilidad, la administración, la seguridad y el rendimiento de un [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sistema.</span><span class="sxs-lookup"><span data-stu-id="37eb7-103">This topic describes the steps involved in performing monthly maintenance checks of the reliability, administration, security, and performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span>  
